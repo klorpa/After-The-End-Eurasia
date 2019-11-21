@@ -1,0 +1,404 @@
+###ÄNSI
+
+britannic = {
+	graphical_cultures = { westerngfx }
+	
+	cockney = {
+		graphical_cultures = { celticgfx englishgfx }
+		unit_graphical_cultures = { englishgfx celticgfx }
+		color = { 0.8 0.5 0.3 }
+		
+		male_names = {
+			Adriaen Albrecht Albert Alwin Ambroos Antoon Arnold Arnold Arnulf Arnulf Balderik Barend 
+			Barnaerd Bernard Bartolomeus Bartolomeus
+			Bavo Bertold Boudewijn Baldwin Claes Nicholas Claeuwaert Daevit David Damaes Diederick 
+			Thierry Dirk Thierry Douwe Eduard Edward Egmund Ekbert
+			Emmo Engelbrecht Filips Philip Floris Folbert Frans Francis Frederik Frederick Gerard Gerolt 
+			Gerulf
+			Gerrit Gijsbrecht Giselbert Gilbert Godfried Godfrey Godschalk Gozewijn Guij Guy Gwijde 
+			Gwijde Hendrik Henry Herman Herman Hubert
+			Hugo Hugh Ijsbrand Ijsbrecht Jacco Jacob Jan John Karel Charles Koenraad Konrad
+			Kristof Christopher Lambert Lambert Lodewijk Louis Ludewijn Lutbert Luthard Maertijn Martin
+			Marquart Niclaes Nicholas
+			Olivier Oliver Otto Otto Otwin Onno Pieter Peter Reinaerd Reinoud Reinhold Reginar Robrecht
+			Robert Robert Robert Rodulf 
+			Roelof Roland Rutger Sebastiaen Sebastian Sicco Simon Steven Stephen Steyn Sten Theodolf
+			Waelram Walter Walter
+			Wicher Willem William Wolfard Hendrik Maurits
+			Adriaan Andries Antonius Gaspar Isaac Johan Laurens Paul Abraham Barthout Christiaan
+			Christoffel Constantijn Cornelis Daniel Eise Gabriel Gerben Hans Jeroen Joost Nicolaas 
+			Roeland Rogier Thomas Vincent Zacharias
+			Arthur_Arthur Alan Jan Jacob Karel Frederick Charles Brian Errol Tommy_Thomas William Oliver
+			Alexander Noah David Adam Leo Joshua George Daniel Farley Dirk Alfred Arvin Elia
+			Ali Omar Faris Abdul Rafi Tariq Nazir Sadiq 
+			Henry Edward Charles James William Richard Philip Henry Frederick Arthur Charles James Edgar Thomas Edmund 
+			George John Jacob Humphrey Robert Stephen Adam Alexander Albert Alfred Ambrose Andrew Anthony Archibald 
+			Benjamin Christopher Daniel David Ernest Francis Geoffrey Guy Horatio Hugh Isaac Jeremy Jonathan Joseph 
+			Lawrence Matthew Nehemiah Oliver Samuel Sydney
+			Adam Alan Albert Alexander Alfred Andrew Anselm Arnold Arthur Aubrey Christopher David 		
+			Edmund Edward Eric Erik Eustace Fulk Folke Geoffrey George Gerald Gilbert Godfrey Gregory Guy 
+			Henry Hugh Humphrey Jocelyn John Jordan Laurence Lionel Mark Marcus Martin Matthew Maurice 
+			Michael Nicholas Paul Peter Philip Ralph Randolph Reginald Richard Robert Roger Simon Stephen 
+			Theobald Thomas Waleran Walter William Jacob Ambrose Anthony Archibald Benjamin Daniel Ernest 
+			Francis Horatio Isaac Jeremy Jonathan Joseph Lawrence Nehemiah Oliver Samuel Sydney
+			August Wladyslaw Stanislaw Kazimierz Aleksander Henryk Albert Kazimierz Michal Stefan 
+		}
+		female_names = { Olivia Amelia Sophia Sofia Mia Emily Maya Ava Isabella Maria
+			Ada Adela Adelheid Adelaide Aechte Agaete Aleid Alijse Alice Aliken Anna Annelies
+			Badeloge Bava Beatrijs Beatrice Benedicta
+			Blanca Blanche Blanceflore Cecily Cecilia Cille Clara Clementia 
+			Ellijnore Eleanor Emma Ermingarde Ermengarde Fenne
+			Filippa Philippa Frida Gheertrude Gertrude Gerda Godila Haduwijn Helena Helen Herlinda 
+			Hilligonda Ide Ida Imagina Irene Isabelle Iudith
+			Jacoba Jaccobijn Jasminne Johanna Joan Jolanda Juliana Jutte Kathrijne 
+			Katrien Catherine Liedwin Lisebet Elisabeth Machtelt Margareta Margaret
+			Maria Mathilde Matilda Oda Odelt Olinde Onna Pieternelle Petronilla Reynilde Sanne 
+			Sigerda Sophie Sophia Swanhildis Thetburga Tiburge Waltrud
+			Wila Wendelmoet Wenna Willemine Yonefij Yvonne Zoete Margaretha Rosanne Tamara
+			Jane Adela Adelaide Alice Amice Anne Anna Aveline Avelina Beatrice Blanche Catherine Cecilia 
+			Constance Edith Ela Eleanor Elizabeth Emma Hawise Isabel Isabella Elisabeth Joan Joanna 
+			Juliana Mahaut Margaret Mary Maria Maud Matilda Philippa Sybilla Sibylla
+			Adelajda Adleta Agnieszka Agnes Aldona Anastazja Anastasia Anna Anna Beata Bozena Danuta 
+			Dobrawa Dobronega Elzbieta Elisabeth Eufemia Euphemia Eufrozyna Gertruda Gertrude
+			Amrapali Amritakala Asima Bhavashankari Bishwas Bhogavati Bibibai Dattadevi Devavati Devi 
+			Ahiylya Gandharavati "Malika Bibi" "Sharat" "Kamala"
+			Gayatri Himadrija Hira Jira Kanchani Mahendrani Malavyadevi Nayanadevi Rani Ratnadevi Suvrata
+			Syamadevi Vijnayavati Vina Yajnavati
+		}
+			
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+		
+		used_for_random = no
+
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+
+	anglish = {
+		graphical_cultures = { celticgfx englishgfx }
+		unit_graphical_cultures = { englishgfx celticgfx }
+
+		color = { 0.8 0.2 0.2 }
+
+		male_names = {
+			Arthur_Arthur Alan Albus Ajax Agravain Accolon Angus Attwell
+			Baldrick Brillig Borogove Bedivere Breunor Brutus Brum Balian Bran Bruin Barnaby Brelan Bartle
+			Capald Charles_Charles Colin Carloman Chilperick Constantine Craddock Claudas Cedrick Cynan Catigern
+			Dorian Darius Douglas Dagobert Dagonet Dinadan
+			Jan Dirk Bartholomeus Karel Pieter
+			Edward_Edward Edmund Errol Ector Elyan Edern
+			Frederick_Frederick Fry Firmin Fergus Frobisher
+			Gilbert Gyre Gordon Guy Gann Gallahad Gryphon Gareth Geraint Griflet Gringolet Gildas Giles
+			Hiram Horatio Hartnell Harper Hurndall Hector_Hector Hengist Havelock Isambard Julian_Julian Joffrey Joseph_Joseph
+			Ludovick Lovarck Lesland Lancelot Lupus Lionel_Lionel Lucan Lucius
+			Manfield Much Meldrick Manxome Malcolm Mercury Maleagant Morgan Marmaduke
+			Nelson Nennius Neddard
+			Oliver Outgrabe Owen Oberon
+			Peter_Peter Percival Pertwee Pepin Phineas Paget Pelleas Pellinore
+			Ruddigore Richard_Richard Robin Randolph Rubeus Rugbert Rigby Rudyard Rowland
+			Sullivan Scathelock Sylvester Severus Sagramore
+			Thaddeus Tove Tennant Tulgey Theobald Theophilus Tarrant Tristan Tiberius Teignmouth
+			Uriens Uther
+			Vincent Vaisey Victor
+			Wilbert Winston
+			Yaffle
+		}
+		female_names = {
+			Antimony Ada Anne_Anna Alice_Alice Angela_Angela Aphrodite Agresizia Abigale Adella Agnes Almyra
+			Belle Blanche Brangaine Beatrice
+			Caprice Cleonie Caelia Clara Clementina Constance Cordelia Charity Cynthia
+			Dindrane Dorothy Dahlia
+			Edwina Elizabeth_Elizabeth Eleanor_Eleanor Elspeth Elaine Enide Evaine Elvira Esther Eudora Elys
+			Fay Felyssa Fidelia Frances Frideswide Ellijnore Ide
+			Georgia Geraldine Gwendoline Guinevere Gloriana
+			Hermione Helen_Helen Hester Hannah Hortense Hazel Honoria
+			Isabelle Irma Igraine Iseult
+			Joanne_Joana Jane Judith Jessamine Josephine_Josepha Juliet_Julia Johanne_Joana
+			Lucy_Lucy Laudine Lunete Lynette Lyonesse Lenore Lettice Lorraine
+			Marian Mimsy Mary Miranda Morgause Margaret_Margaret Mathilda Mildred Millicent
+			Nimue Nightingale Nymphadora
+			Orgeluse Olive
+			Petra Parcenet Philomena Permelia Phoebe Preshea Phyllis Prudence
+			Ragnell Rhoda Rowena Rufina
+			Sara Samantha Selina Sophronia Sybil
+			Theodosia_Theodora Teresa_Theresa
+			Victoria_Victoria Venus Vertiline Viviana
+			Winnifred
+			Zylphia Zona
+		}
+
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+		
+		used_for_random = no
+
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+	
+	norfie = {
+		graphical_cultures = { englishgfx }
+		
+		color = { 0.6 0.2 0.2 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm_Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel_Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice_Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Randolph Reginald_Reinhold Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elizabeth Emma_Emma Hawise Isabel_Elizabeth
+			Isabella_Elizabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Matilda Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	
+	lowlander = {
+		graphical_cultures = { englishgfx }
+		
+		color = { 0.6 0.3 0.2 }
+		
+		male_names = {
+			James Robert Henry Alexander Arthur Walter John Charles Malcolm Donald David Duncan Andrea 
+			Alan Ailpein Archibald Barclay Beathan Bruce Cameron Cináed Conall Douglas Duff Edan Evander 
+			Fraser Garry Glen Ian Keir Kennedy Lennox Logan Micheil Mungo Munroe Scott Wallace Adam 
+			Alpin Alwin Alastair Andrew Angus Arran Aulay Olaf Brian Brice Cailean Calum Carbrey Colban 
+			Kolbein Colin Nicholas Conan Constantine Dermid Dugald Edgar Edward Edwin Eric Ivar Ewan 
+			Eugene Farquhar Fergus Fingal Finn Findlay Frang Francis Gavin Gilbride Gilbert Gilchrist 
+			Gillespie Gilpatrick Gilroy Giric Glenn Godfrey Gregor Gregory Hamish Hector Hugh Iain 
+			Indulf Jacob Kenneth Kentigern Lachlan Roland Laurence Lennon Lulach Macbeth Magnus Maldoven 
+			Maldred Malise Malmure Maoilios Marcas Marcus Matad Matthew Michael Morgan Muir Mungo 
+			Murdoch Murray Neil Nigel Ninian Oscar Patrick Paul Peter Philip Radulf Ralph Ranald 
+			Reginald Richard Ronald Ragnvald Rory Roderick Ross Roy Shaw Simon Somerled Stephan Stephen 
+			Sweeny Tadhg Tadg Talore Thomas Torquil Torkel Uhtred Uisdean Eysteinn Walan Valentin 
+			Waldeve Waltheof William
+		}
+		female_names = {
+			Mary Ada Affraic Agnes Aileen Alice Anna Annabella Aufrica Euphemia Barabal Barbara Beileag 
+			Beitris Beathoc Beatrice Bride Brigit Catriona Catherine Cecilia Deirdre Derilla Dervorgilla 
+			Donada Donella Edith Edna Effie Eilionoir Eimhir Emer Eithne Ela Eleanor Elspeth Euna Eva 
+			Fenella Fingola Flora Forflissa Galiena Glenna Gormelia Gormflaith Gruoch Helen Innes Iona 
+			Isabel Isla Isobel Jean Julia Juliana Kenna Kentigerna Kirstin Christina Lillias Elisabeth 
+			Lorna Malmure Maisie Malina Mariota Martha Marthoc Marjory Mary Maud Matilda Maura Maria 
+			Mirren Morag Mor Morna Moyna Mona Muriel Murron Nuala Finnguala Orabilia Peigi Margaret 
+			Rhonda Rodina Ronalda Ragnhild Ros Saundra Alexandra Sheena Shona Joan Sholto Slaine Sorcha 
+			Una
+		}
+				dukes_called_kings = yes
+		
+		from_dynasty_prefix = "de "
+		prefix = yes
+
+		modifier = default_culture_modifier
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 15
+		mother_name_chance = 10
+		
+		tribal_name = "TRIBAL_NAME_PROV_CLAN"
+	}
+	
+	west_brit = {
+		graphical_cultures = { englishgfx }
+		
+		color = { 0.8 0.4 0.3 }
+		
+		male_names = {
+			Adam Alan Albert Alexander Alfred Ambrose Andrew Anselm Anthony Archibald Arnold Arthur Aubrey
+			Benjamin
+			Charles Christopher
+			Daniel David
+			Edgar Edmund Edward Eric Erik Ernest Eustace
+			Folke Francis Frederick Fulk
+			Geoffrey George Gerald Gilbert Godfrey Gregory Guy
+			Henry Horatio Hugh Humphrey
+			Isaac
+			Jacob James Jeremy Jocelyn John Jonathan Jordan Joseph
+			Laurence Lawrence Lionel
+			Marcus Mark Martin Matthew Maurice Michael
+			Nehemiah Nicholas
+			Oliver
+			Paul Peter Philip
+			Ralph Randolph Reginald Richard Robert Roger
+			Samuel Simon Stephen Sydney
+			Theobald Thomas
+			Waleran Walter Wentworth William
+		}
+		female_names = {
+			Adela Adelaide Alice Amice Anna Anne Avelina Aveline
+			Beatrice Blanche
+			Catherine Cecilia Constance
+			Edith Ela Eleanor Elisabeth Elizabeth Emma
+			Hawise
+			Isabel Isabella
+			Jane Joan Joanna Juliana
+			Mahaut Margaret Maria Mary Matilda Maud
+			Philippa
+			Sibylla Sybilla
+		}
+		
+		prefix = yes
+
+		modifier = default_culture_modifier
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 15
+		mother_name_chance = 10
+		
+		tribal_name = "TRIBAL_NAME_PROV_CLAN"
+	}
+	
+	midlander = {
+		graphical_cultures = { englishgfx }
+		
+		color = { 0.8 0.4 0.5 }
+		
+		male_names = {
+			Henry Edward Charles James William Richard Philip Henry Frederick Arthur Charles James Edgar Thomas Edmund 
+			George John Jacob Humphrey Robert Stephen Adam Alexander Albert Alfred Ambrose Andrew Anthony Archibald 
+			Benjamin Christopher Daniel David Ernest Francis Geoffrey Guy Horatio Hugh Isaac Jeremy Jonathan Joseph 
+			Lawrence Matthew Nehemiah Oliver Samuel Sydney
+
+			Adam Alan Albert Alexander Alfred Andrew Anselm Arnold Arthur Aubrey Christopher David 		
+			Edmund Edward Eric Erik Eustace Fulk Folke Geoffrey George Gerald Gilbert Godfrey Gregory Guy 
+			Henry Hugh Humphrey Jocelyn John Jordan Laurence Lionel Mark Marcus Martin Matthew Maurice 
+			Michael Nicholas Paul Peter Philip Ralph Randolph Reginald Richard Robert Roger Simon Stephen 
+			Theobald Thomas Waleran Walter William Jacob Ambrose Anthony Archibald Benjamin Daniel Ernest 
+			Francis Horatio Isaac Jeremy Jonathan Joseph Lawrence Nehemiah Oliver Samuel Sydney 
+		}
+		female_names = {
+			Jane Adela Adelaide Alice Amice Anne Anna Aveline Avelina Beatrice Blanche Catherine Cecilia 
+			Constance Edith Ela Eleanor Elizabeth Emma Hawise Isabel Isabella Elisabeth Joan Joanna 
+			Juliana Mahaut Margaret Mary Maria Maud Matilda Philippa Sybilla Sibylla
+		}
+				
+		prefix = yes
+
+		modifier = default_culture_modifier
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 15
+		mother_name_chance = 10
+		
+		tribal_name = "TRIBAL_NAME_PROV_CLAN"
+	}
+	
+	cornish = {
+		graphical_cultures = { celticgfx }
+		color = { 0.3 0.8 0.6 }
+		male_names = {
+			Branek Branok Cador Casworan Jago_James Jory_George Jowan_John Kenver Margh_Mark Massen_Maximus Treeve
+			Austol Austell Bryok Breok Clether Cleder Colan Colon De Day Gerens Goron Gorron Keneder Kenvern Madern
+			Peran Perran Petrok Rewan Ruan
+			Henry Edward Charles James William Richard Philip Henry Frederick Arthur Charles James Edgar Thomas Edmund 
+			George John Jacob Humphrey Robert Stephen Adam Alexander Albert Alfred Ambrose Andrew Anthony Archibald 
+			Benjamin Christopher Daniel David Ernest Francis Geoffrey Guy Horatio Hugh Isaac Jeremy Jonathan Joseph 
+			Lawrence Matthew Nehemiah Oliver Samuel Sydney
+			
+			Adam Alan Albert Alexander Alfred Andrew Anselm Arnold Arthur Aubrey Christopher David 		
+			Edmund Edward Eric Erik Eustace Fulk Folke Geoffrey George Gerald Gilbert Godfrey Gregory Guy 
+			Henry Hugh Humphrey Jocelyn John Jordan Laurence Lionel Mark Marcus Martin Matthew Maurice 
+			Michael Nicholas Paul Peter Philip Ralph Randolph Reginald Richard Robert Roger Simon Stephen 
+			Theobald Thomas Waleran Walter William Jacob Ambrose Anthony Archibald Benjamin Daniel Ernest 
+			Francis
+			
+			Owain Dafydd Gruffydd Llewelyn Rhodri Maredudd Cynan Cadwaladr Iago Idwal Maelgwyn Einion Iorwerth Trahaearn 
+			Aeron Aled Aneirin Arvel Berwyn Brynmor Cadfael Cadoc Cadwgawn Celyn Cledwyn Colwyn Dai Dilwyn Emyr Gawain 
+			Glynn Gwyn Heddwyn Heilyn Hywel Rhian Tristan Tudor Urien Vaughan
+			Adda Adgar Edgar Adran Adrian Aeddan Alan Aldwr Aldroenus Algwyn Alisander Alexander Alured 
+			Alfred Alwyn Anarawd Andreas Andrew Aneurin Anlaff Olaf Anllech Annwn Antoninus Argad Arcadius 
+			Arod Arthen Artemius Arthfael Arthfoddw Arthbodus Arthwr Arthur Arthws Arthwys Artorius Asa 
+			Asaph Awst August Bangar Bedwyr Beli Berthgwyn Berhtwine Berthwallt Berthoald Bleddyn Bledrig 
+			Bleiddud Branwaladr Bride Briog Brochfael Brogmaglus Brwt Brutus Brwyn Brychan Brân Bran Cadell 
+			Cadeyrn Cadfael Cadfan Cadog Cadw Cadwal Cadwaladr Cadwallon Cadwared Cadwared Cadwgan Cadwr 
+			Cadwr Cai Gaius Caid Cain Caradog Caradog Casnar Caswallon Cawdaf Cedig Caedicius Cedwyn Ceneu 
+			Ceredig Caratacus Clydog Louis Coel Corentin Cuhelyn Custennin Constantine Cwlfyn Culmin Cwrig 
+			Cyriacus Cydifor Cydrych Cynan Conan Cynddelw Cyndyddan Cynddylan Cyndeyrn Kentigern Cynfael 
+			Cynfarch Cynfawr Cynfeddw Cynfelyn Cynfran Cynfyn Cyngar Cyngen Cynwallon Cynwared Cynwrig 
+			Cynwyd Cynyr Cysteint Constans Dafydd Deheuwant Deiniol Daniel Dewi David Dogfael Drystan 
+			Tristan Dumnagual Dwyfan Damian Dyfnarth Donyarth Dyfnwal Donald Dyfnwallon Dynod Donatus Dywel 
+			Edern Eternus Ednyfed Ednywain Edryd Ailred Edwyn Edwin Edylfred Aethelfred Einion Elfin Alwin 
+			Elidyr Elis Elisedd Elud Elystan Alstan Emrys Ambrosius Enfidaig Erb Urban Erclwf Heracles Eudaf 
+			Octavius Ewyas Ffernfael Ffilip Philip Ffriog Friog Ffwdwr Fragan Ffransis Fransis Fychan Fyrsil 
+			Gamon Garmon German Geraint Gerontius Gerallt Gerald Glwyddien Glywys Claudius Godwyn Godwin 
+			Goronwy Gronw Gruffydd Ruffinus Grygor Gregory Guret Gwalchmai Gavin Gwen Gwenwynwyn Gwerstan 
+			Werestan Gwerthefyr Vortimer Gwerthern Vortigern Gwydol Vitalis Gwydolin Vitalinus Gwyn Finn 
+			Gwidyr Gwilym William Gwrfawr Gwrfoddw Gwrgant Fergus Gwrgeneu Gwrgi Gwriad Viriathius Harri 
+			Henry Herewallt Hereweald Huw Hugh Hywel Iago Jacob Ivor Idnerth Idwal Idwallon Iestyn Justin 
+			Ieuan John Ifor Ivar Io Ioan Iolo Iorwerth Ithel Lles Lucius Llew Leon Llyr Llywarch Llywelyn 
+			Macsen Maximos Madog Matad Mael Maelcwn Malcolm Maelgwn Melgwn Maenyrch March Marcus Maredudd 
+			Murdoch Math Matthew Mawgan Meilyr Meirchion Marcianus Meiriadog Meriadoc Meirion Marianus 
+			Merfyn Meurig Maurice Mihangel Michael Morfarch Morgan Morien Morgen Morydd Mwyn Mungo Myrddin 
+			Martin Neithon Nathan Nowy Nynniaw Oswallt Oswald Owain Eugene Oucydd Eochaid Padern Padrig 
+			Patrick Pandoff Pasgen Pascentius Padarn Paternus Pawl Paul Pedr Peter Peredyr Publig Pyr 
+			Rheinallt Reginald Rhicert Richard Rhigeneu Ricenus Rhirid Rhiwal Riwal Rhiwallon Rhobert Robert 
+			Rhodri Rhufon Roman Rhun Rucenus Rhydderch Roderick Rhydog Rhys Riaged Riacet Richwin Sandde 
+			Sanctus Sawyl Samuel Seferus Severin Seisyll Cecil Selyf Solomon Senyllt Serigi Sergius Sieffre 
+			Godfrey Sion Sior George Siwauna Steffen Stephen Stinian Justinanius Sulien Julian Taliesin 
+			Telesinus Tegonwy Tegwyd Tadg Teilo Teithfalch Teudebur Tewdos Theodosius Tewdrig Theodoric 
+			Tewdwr Theodore Tomos Thomas Trahaearn Tudur Tudwal Tuathal Tudwallon Tydy Tyfoedd Tysilio Urien 
+			Urbgenius Uthyr Victor Ynyr Honorius Ysfael Llewelyn Maelgwyn Aeron Aled Aneirin Arvel Berwyn 
+			Brynmor Cadoc Cadwgawn Celyn Cledwyn Colwyn Dai Dilwyn Emyr Gawain Glynn Heddwyn Heilyn Rhian 
+			Tudor Vaughan
+			
+		female_names = {
+			Chesten_Christine Demelza Emblyn_Emmeline Eseld_Isolde Gonetta Jowanet_Joan Kerensa Lamorna Lowena
+			Meliora Meraud 
+		
+			Jane Adela Adelaide Alice Amice Anne Anna Aveline Avelina Beatrice Blanche Catherine Cecilia 
+			Constance Edith Ela Eleanor Elizabeth Emma Hawise Isabel Isabella Elisabeth Joan Joanna 
+			Juliana Mahaut Margaret Mary Maria Maud Matilda Philippa Sybilla Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+		
+		used_for_random = no
+
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+		}
+	}
+}
