@@ -12,46 +12,8 @@ pagan_group = {
 	color = { 0.6 0.0 0.0 }
 	
 	interface_skin = { pagan_interface }
-
-thelema = {
-		graphical_culture = norsegfx
-
-		icon = 59
-		heresy_icon = 60
-		
-		ai_convert_other_group = 1
-		
-		color = { 0.6 0.6 0.5 }
-		
-		interface_skin = { zun_interface pagan_interface }
-
-		high_god_name = GOD_THE_QUEEN
-
-		god_names = {
-			GOD_THE_QUEEN GOD_NUIT GOD_HADIT GOD_RA_HOOR_KHUIT
-		}
-		evil_god_names = {
-			GOD_JESUS
-		}
-		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_BOOK_OF_THE_LAW
-		priest_title = PRIEST
-		can_call_crusade = yes
-		priests_can_marry = yes
-		allow_rivermovement = yes
-		allow_viking_invasion = yes
-		allow_looting = yes
-		female_temple_holders = yes
-		max_consorts = 3
-		
-		#aggression = 2.5 # AI aggression factor
-		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-		intermarry = thelemic
-	}
 	
-valinorism = {
+	valinorism = {
 		graphical_culture = norsegfx
 
 		icon = 59
@@ -235,5 +197,94 @@ christian = {
 		intermarry = catholic
 		intermarry = nonconformist
 		intermarry = high_church
+	}
+}
+
+esoteric = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.6 0.0 0.0 }
+	
+	interface_skin = { pagan_interface }
+
+	high_thelema = {
+		graphical_culture = norsegfx
+
+		icon = 59
+		heresy_icon = 60
+		
+		ai_convert_other_group = 1
+		
+		color = { 0.6 0.6 0.5 }
+		
+		interface_skin = { zun_interface pagan_interface }
+
+		high_god_name = GOD_THE_QUEEN
+
+		god_names = {
+			GOD_THE_QUEEN GOD_NUIT GOD_HADIT GOD_RA_HOOR_KHUIT GOD_GUNTHER
+		}
+		evil_god_names = {
+			GOD_JESUS
+		}
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_BOOK_OF_THE_LAW
+		priest_title = PRIEST
+		can_call_crusade = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		allow_viking_invasion = yes
+		allow_looting = yes
+		female_temple_holders = yes
+		max_consorts = 3
+		
+		#aggression = 2.5 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		intermarry = low_thelema
+	}
+
+	low_thelema = {
+		graphical_culture = norsegfx
+
+		icon = 59
+		heresy_icon = 60
+		
+		ai_convert_other_group = 1
+		
+		color = { 0.6 0.6 0.5 }
+		
+		interface_skin = { zun_interface pagan_interface }
+
+		high_god_name = GOD_THE_WILL
+
+		god_names = {
+			GOD_NUIT GOD_HADIT GOD_RA_HOOR_KHUIT GOD_SECKLER GOD_PARSONS
+		}
+		evil_god_names = {
+			GOD_JESUS GOD_GUNTHER
+		}
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = AA
+		priest_title = PRIEST
+		can_call_crusade = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		female_temple_holders = yes
+		max_consorts = 3
+		
+		#aggression = 0.5 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		intermarry = high_thelema
 	}
 }
