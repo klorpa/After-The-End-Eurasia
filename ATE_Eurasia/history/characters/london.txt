@@ -1,5 +1,5 @@
 ###ÄNSI
-1 = {
+2 = {
 	name= "Edwin"
 	dynasty=10001
 	culture=anglish
@@ -16,7 +16,7 @@
 	2600.1.1={birth=yes}
 	2678.1.1={death=yes}
 }
-2 ={
+3 ={
 	name="Gaius"
 	dynasty=10001
 	culture=cockney
@@ -37,7 +37,7 @@
 	2612.3.16={birth=yes}
 	2674.2.10={death=yes}
 }
-3={
+4={
 	name="Havelock"
 	dynasty=10002
 	dna="bgagjpgbaaw"
@@ -66,7 +66,7 @@
 	2657.5.25={effect = {add_artifact = prosthetic_leg_artifact} }
 	3050.1.1={death=yes}
 }
-4={
+5={
 	name="Robbie"
 	dynasty=10003
 	culture=cockney
@@ -89,7 +89,7 @@
 	2633.10.24={birth=yes}
 	2695.3.17={death=yes}
 }
-5={
+6={
 	name="Rodger"
 	dynasty=10003
 	culture=cockney
@@ -112,7 +112,7 @@
 	2633.10.24={birth=yes}
 	2700.10.1={death=yes}
 }
-6={
+7={
 	name="James"
 	dynasty=10003 
 	culture=cockney
@@ -134,7 +134,7 @@
      }
 	2650.10.3={death=yes}
 }
-7={
+8={
 	name="Dee"
 	culture=cockney
 	religion=thelema
@@ -152,7 +152,7 @@
 	2600.4.1={birth=yes}
 	2641.1.5={death=yes}
 }
-8={
+9={
 	name="Alex"
 	dynasty=10004
 	culture=bengali
@@ -172,7 +172,7 @@
 	culture=cockney}
 	2700.1.3={death=yes}
 }
-9={
+10={
 	name="Solomon"
 	dynasty=10005
 	culture=cockney
@@ -191,7 +191,54 @@
 	2640.4.3={birth=yes}
 	2710.3.4={death=yes}
 }
-#10={
+11={
+	name="Sam"
+	dynasty=10006
+	culture=cockney
+	religion=free_church
+	martial=6
+	diplomacy=4
+	intrigue=6
+	learning=6
+	trait=skilled_tactician
+	trait=shrewd
+	trait=robust
+	trait=just
+	trait=humble
+	trait=cynical
+	trait=honest
+	trait=charitable
+	trait=content
+	trait=stubborn
+	trait=drunkard 
+	
+	2640.10.24={birth=yes}
+	2700.10.1={death=yes}
+}
+12={
+	name="Sybil"
+	female=yes
+	dynasty=10007
+	culture=cockney
+	religion=free_church
+	martial=6
+	martial=5
+	intrigue=5
+	learning=5
+	trait=grey_eminence
+	trait=strong
+	trait=shrewd
+	trait=is_fat
+	trait=gardener
+	trait=kind
+	trait=charitable
+	trait=patient
+	father=1
+	2640.10.24={birth=yes}
+	2665.4.14={add_spouse=11}
+	2700.10.1={death=yes}
+}
+20={
 	name="Declan"
 	dynasty=10005
 	culture=anglish
@@ -211,7 +258,4 @@
 	
 	2648.5.1={birth=yes}
 	2731.10.2={death=yeah}
-#}
-11={
-	
-
+}
