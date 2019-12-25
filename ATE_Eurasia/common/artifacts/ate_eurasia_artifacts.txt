@@ -1,0 +1,95 @@
+### Salvage Artifacts ###
+
+ate_firearm = {
+	monthly_character_prestige = 1
+	martial = 3
+	combat_rating = 30
+	command_modifier = {
+		morale_offence = 0.1
+	}
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { oldworld salvage combat_weapon gun }
+	stacking = no
+	picture = "GFX_ate_firearm"
+	slot = weapon
+}
+
+ate_calculator = {
+	monthly_character_prestige = 0.5
+	stewardship = 2
+	learning = 1
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { oldworld salvage }
+	stacking = no
+	picture = "GFX_relicbox_iron"
+}
+
+ate_watch = {
+	monthly_character_prestige = 0.5
+	intrigue = 2
+	learning = 1
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { oldworld salvage }
+	stacking = no
+	picture = "GFX_relic_box"
+}
+
+ate_typewriter = {
+	monthly_character_prestige = 0.5
+	diplomacy = 2
+	learning = 1
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { oldworld salvage }
+	stacking = no
+	picture = "GFX_relicbox_iron"
+}
+
+ate_telescope = {
+	monthly_character_prestige = 0.5
+	learning = 2
+	martial = 1
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { oldworld salvage }
+	stacking = no
+	picture = "GFX_relic_box"
+}
+
+ate_textbooks = {
+	monthly_character_prestige = 0.5
+	learning = 3
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { oldworld salvage book }
+	stacking = no
+	picture = "GFX_book"
+}
+
+ate_compass = {
+	monthly_character_prestige = 0.1
+	intrigue = 1
+	stewardship = 2
+	active = {
+		is_adult = yes
+	}
+	quality = 3
+	flags = { oldworld salvage }
+	stacking = no
+	picture = "GFX_compass"
+}

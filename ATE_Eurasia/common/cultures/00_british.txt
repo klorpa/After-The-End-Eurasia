@@ -3,6 +3,79 @@
 britannic = {
 	graphical_cultures = { westerngfx }
 	
+	british = {
+		graphical_cultures = { celticgfx englishgfx westerngfx }
+		unit_graphical_cultures = { englishgfx celticgfx }
+
+		#horde = yes
+
+		color = { 0.8 0.2 0.2 }
+
+		male_names = {
+			Arthur_Arthur Alan Albus Ajax Agravain Accolon Angus Attwell Amandil Aulendil Aldarion Anárion Atanamir Ancalimon Alcarin Anducal Adûnakhôr
+			Baldrick Brillig Borogove Bedivere Breunor Brutus Brum Balian Bran Bruin Barnaby Brelan Bartle Belzagar
+			Capald Charles_Charles Colin Carloman Chilperick Constantine Craddock Claudas Cedrick Cynan Catigern Ciryatan Calmacil
+			Dorian Darius Douglas Dagobert Dagonet Dinadan
+			Edward_Edward Edmund Errol Ector Elyan Edern Elros
+			Frederick_Frederick Fry Firmin Fergus Frobisher
+			Gilbert Gyre Gordon Guy Gann Gallahad Gryphon Gareth Geraint Griflet Gringolet Gildas Giles Gimilzôr Gimilkhâd
+			Hiram Horatio Hartnell Harper Hurndall Hector_Hector Hengist Havelock Hallatan
+			Isambard Isilmo Inzilbêth
+			Julian_Julius Joffrey Joseph_Joseph
+			Ludovick Lovarck Lesland Lancelot Lupus Lionel_Lionel Lucan Lucius
+			Manfield Much Meldrick Manxome Malcolm Mercury Maleagant Morgan Marmaduke Meneldur Minastir Míriel
+			Nelson Nennius Neddard Nolondil
+			Oliver Outgrabe Owen Oberon
+			Peter_Peter Percival Pertwee Pepin Phineas Paget Pelleas Pellinore Palantir Pharazôn
+			Ruddigore Richard_Richard Robin Randolph Rubeus Rugbert Rigby Rudyard Rowland
+			Sullivan Scathelock Sylvester Severus Sagramore Soronto Súrion Sakalthôr
+			Thaddeus Tove Tennant Tulgey Theobald Theophilus Tarrant Tristan Tiberius Teignmouth Telemmaitë
+			Uriens Uther
+			Vincent Vaisey Victor Vardamir
+			Wilbert Winston
+			Yaffle
+			Zimrathôn
+		}
+		female_names = {
+			Antimony Ada Anne_Anna Alice_Alice Angela_Angela Aphrodite Agresizia Abigale Adella Agnes Almyra Almarian Ailinel Almiel Ancalimë
+			Belle Blanche Brangaine Beatrice
+			Caprice Cleonie Caelia Clara Clementina Constance Cordelia Charity Cynthia
+			Dindrane Dorothy Dahlia
+			Edwina Elizabeth_Elizabeth Eleanor_Eleanor Elspeth Elaine Enide Evaine Elvira Esther Eudora Elys Erendis
+			Fay Felyssa Fidelia Frances Frideswide
+			Georgia Geraldine Gwendoline Guinevere Gloriana
+			Hermione Helen_Helen Hester Hannah Hortense Hazel Honoria
+			Isabelle Irma Igraine Iseult Isilmë
+			Joanne_Joana Jane Judith Jessamine Josephine_Josepha Juliet_Julia Johanne_Joana
+			Lucy_Lucy Laudine Lunete Lynette Lyonesse Lenore Lettice Lorraine
+			Marian Mimsy Mary Miranda Morgause Margaret_Margaret Mathilda Mildred Millicent
+			Nimue Nightingale Nymphadora
+			Orgeluse Olive
+			Petra Parcenet Philomena Permelia Phoebe Preshea Phyllis Prudence
+			Ragnell Rhoda Rowena Rufina
+			Sara Samantha Selina Sophronia Sybil Silmariën
+			Theodosia_Theodora Teresa_Theresa Telperiën
+			Victoria_Victoria Venus Vertiline Viviana Vardilmë Vanimeldë
+			Winnifred
+			Zylphia Zona
+		}
+
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+		
+		used_for_random = no
+
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}	
+
 	cockney = {
 		graphical_cultures = { celticgfx englishgfx }
 		unit_graphical_cultures = { englishgfx celticgfx }
@@ -446,7 +519,7 @@ britannic = {
 		
 	cornish = {
 		graphical_cultures = { celticgfx }
-		color = { 0.3 0.8 0.6 }
+		color = { 0.3 0.6 0.6 }
 		male_names = {
 			Adam Alan Albert Alexander Alfred Andrew Anthony Arnold Arthur Aubrey Austell Awen
 			Benjamin Bledric Branok Bryok 
@@ -507,5 +580,52 @@ britannic = {
 		mother_name_chance = 5
 		
 		modifier = default_culture_modifier
+	}
+	nynorn = {
+		graphical_cultures = { celticgfx }
+		color = { 0.6 0.6 0.2 }
+		
+	male_names = { Magnus Connonor Zander Anders Olav William David John Donald Erasmus Patrick Thomas 
+			Christopher Frances George Lowrence Robert Walter Edward Garthe Harie Richard Arthur Alan
+			Ailpein Archibald Barclay Beathan Bruce Cameron Cináed Conall Douglas Duff Edan Evander 
+			Fraser Garry Glen Ian Keir Kennedy Lennox Logan Micheil Mungo Munroe Scott Wallace Adam 
+			Alpin Alwin Alastair Andrew Angus Arran Aulay Olaf Brian Brice Cailean Calum Carbrey Colban 
+			Kolbein Colin Nicholas Conan Constantine Dermid Dugald Edgar Edward Edwin Eric Ivar Ewan 
+			Eugene Farquhar Fergus Fingal Finn Findlay Frang Francis Gavin Gilbride Gilbert Gilchrist 
+			Gillespie Gilpatrick Gilroy Giric Glenn Godfrey Gregor Gregory Hamish Hector Hugh Iain 
+			Indulf Jacob Kenneth Kentigern Lachlan Roland Laurence Lennon Lulach Macbeth Magnus Maldoven 
+			Maldred Malise Malmure Maoilios Marcas Marcus Matad Matthew Michael Morgan Muir Mungo 
+			Murdoch Murray Neil Nigel Ninian Oscar Patrick Paul Peter Philip Radulf Ralph Ranald 
+			Reginald Richard Ronald Ragnvald Rory Roderick Ross Roy Shaw Simon Somerled Stephan Stephen 
+			Sweeny Tadhg Tadg Talore Thomas Torquil Torkel Uhtred Uisdean Eysteinn Walan Valentin 
+			Waldeve Waltheof William
+		}
+		
+	female_names = { Breta Inga Ollaw Breta Mary Ada Affraic Agnes Aileen Alice Anna Annabella Aufrica Euphemia Barabal Barbara Beileag 
+			Beitris Beathoc Beatrice Bride Brigit Catriona Catherine Cecilia Deirdre Derilla Dervorgilla 
+			Donada Donella Edith Edna Effie Eilionoir Eimhir Emer Eithne Ela Eleanor Elspeth Euna Eva 
+			Fenella Fingola Flora Forflissa Galiena Glenna Gormelia Gormflaith Gruoch Helen Innes Iona 
+			Isabel Isla Isobel Jean Julia Juliana Kenna Kentigerna Kirstin Christina Lillias Elisabeth 
+			Lorna Malmure Maisie Malina Mariota Martha Marthoc Marjory Mary Maud Matilda Maura Maria 
+			Mirren Morag Mor Morna Moyna Mona Muriel Murron Nuala Finnguala Orabilia Peigi Margaret 
+			Rhonda Rodina Ronalda Ragnhild Ros Saundra Alexandra Sheena Shona Joan Sholto Slaine Sorcha 
+			Una
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "de"
+		prefix = yes
+
+		modifier = default_culture_modifier
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 15
+		mother_name_chance = 10
+		
+		tribal_name = "TRIBAL_NAME_PROV_CLAN"
 	}
 }

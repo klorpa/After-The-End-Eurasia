@@ -174,8 +174,8 @@ e_britannia = {
 				b_bungay = {
 				}
 			}
-			c_northampton = {
-				color={ 255 110 5 }
+			c_cambridgeshire = {
+				color={ 126 204 34 }
 				color2={ 255 255 255 }
 				
 				b_peterborough = {
@@ -384,7 +384,7 @@ e_britannia = {
 				}
 				b_buckinghamshire1 = {
 				}
-				b_buckinghamshire2 = {
+				b_broad_chalke = {
 				}
 				b_buckinghamshire3 = {
 				}
@@ -984,6 +984,52 @@ e_britannia = {
 				b_clitheroe = {
 				}
 			}
+			c_manchester = {
+				color={ 202 122 163 }
+				color2={ 255 255 255 }
+				
+				b_manchester = {
+				}
+				b_manchester1 = {
+				}
+				b_manchester2 = {
+				}
+				b_manchester3 = {
+				}
+				b_manchester4 = {
+				}
+				b_manchester5 = {
+				}
+				b_manchester6 = {
+				}
+			}
+		}
+		
+		d_liverpool = {
+		color={ 37 70 148 }
+		color2={ 255 255 255 }
+			
+		capital = 83 # Merseyside
+		
+			c_merseyside = {
+				color={ 37 70 148 }
+				color2={ 255 255 255 }
+				
+				b_merseyside = {
+				}
+				b_merseyside1 = {
+				}
+				b_merseyside2 = {
+				}
+				b_merseyside3 = {
+				}
+				b_merseyside4 = {
+				}
+				b_merseyside5 = {
+				}
+				b_merseyside6 = {
+				}
+			}
 			c_chester = {
 				color={ 168 177 157 }
 				color2={ 255 255 255 }
@@ -1003,25 +1049,6 @@ e_britannia = {
 				b_sandbach = {
 				}
 				b_nantwich = {
-				}
-			}
-			c_manchester = {
-				color={ 202 122 163 }
-				color2={ 255 255 255 }
-				
-				b_manchester = {
-				}
-				b_manchester1 = {
-				}
-				b_manchester2 = {
-				}
-				b_manchester3 = {
-				}
-				b_manchester4 = {
-				}
-				b_manchester5 = {
-				}
-				b_manchester6 = {
 				}
 			}
 		}
@@ -1118,25 +1145,6 @@ e_britannia = {
 				b_raby = {
 				}
 				b_st_cuthbert = {
-				}
-			}
-			c_lindisfarne = {
-				color={ 255 20 4 }
-				color2={ 255 255 255 }
-							
-				b_lindisfarne = {
-				}
-				b_yeavering = {
-				}
-				b_norham = {
-				}
-				b_tweedmouth = {
-				}
-				b_lowick = {
-				}
-				b_etal = {
-				}
-				b_cornhill = {
 				}
 			}
 			c_tyne_and_wear = {
@@ -2243,19 +2251,28 @@ e_britannia = {
 				color={ 98 179 146 }
 				color2={ 255 255 255 }
 				
-				b_longfoirt = {
-				}
-				b_longfoirt1 = {
-				}
-				b_longfoirt2 = {
-				}
-				b_longfoirt3 = {
-				}
-				b_longfoirt4 = {
-				}
-				b_longfoirt5 = {
-				}
-				b_longfoirt6 = {
+                irish = "Longfort"
+
+                b_longford = {
+                    irish = "Longfort"
+                }
+                b_lanesborough = {
+                    irish = "BÈal ¡tha Liag"
+                }
+                b_edgeworthstown = {
+                    irish = "Meathas Troim"
+                }
+                b_granard = {
+                    irish = "Gr·nard"
+                }
+                b_clonfin = {
+                    irish = "Creagacha Dubha"
+                }
+                b_ballinalee = {
+                    irish = "Baile √Åtha Fhirdhia"
+                }
+                b_termonbarry = {
+                    irish = "Tearmann Bearaigh"
 				}
 			}
 			
@@ -2364,16 +2381,6 @@ e_britannia = {
 				}
 			}
 		}
-	}
-		
-	k_northern_ireland = {
-		color={ 255 137 60 }
-		color2={ 255 255 255 }
-		
-		capital = 23 #belfast
-		
-		culture = west_brit
-			
 		d_ulster = {
 			color={ 215 130 77 }
 			color2={ 255 255 255 }
