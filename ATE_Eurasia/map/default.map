@@ -16,15 +16,12 @@ static = "statics"
 seasons = "seasons.txt"
 
 # Atlantic 1
-sea_zones = { 107 147 }
+sea_zones = { 106 150 }
+sea_zones = { 156 158 }
 
 
 ocean_region = {	# European Ocean
 	sea_zones = { 1 }
-}
-
-ocean_region = {	# Indian Ocean
-	sea_zones = { 16 17 18 19 }
 }
 
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
