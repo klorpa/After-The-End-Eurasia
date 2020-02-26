@@ -1,6 +1,163 @@
 ###ÄNSI###
 
-iberian = {
+spanish = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { occitangfx }
+
+	euskara = { 
+		graphical_cultures = { italiangfx trueoccitangfx occitangfx }
+		
+		color = { 0.55 0.42 0.04 }
+		
+		male_names = { 
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "itz"
+		female_patronym = "itz"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 5
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 55
+		mat_grm_name_chance = 15
+		mother_name_chance = 20
+
+		modifier = default_culture_modifier
+	}
+	asturianu = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0 0.6 0.7 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "d' "
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		
+		modifier = default_culture_modifier	
+	}
+	castellano = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.95 0.82 0.09 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	leonés = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.67 0.22 0.17 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		
+	}
+	aragonés = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.32 0.38 0.67 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "d' "
+		male_patronym = "iz"
+		female_patronym = "iz"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	català = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.85 0.75 0.08 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "d' "
+		male_patronym = "ix"
+		female_patronym = "ix"
+		grammar_transform = french
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 10
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 25
+		mother_name_chance = 25
+		
+		modifier = default_culture_modifier
+	}
+	andalú = {
+	}
+	llanito = {
+	}
+}
+
+lusitanian = {
 	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
 	graphical_cultures = { occitangfx }
 
@@ -66,5 +223,7 @@ iberian = {
 		pat_grm_name_chance = 60
 		mat_grm_name_chance = 15
 		mother_name_chance = 15
+	}
+	galego = {
 	}
 }
