@@ -144,5 +144,605 @@ e_spain = {
 				}
 			}
 		}
+	d_santa_cruz_de_tenerife = {
+		color={ 7 35 87 }
+		color2={ 255 255 255 }
+		
+		capital = 163 #Tenerife
+	
+		c_tenerife = {
+			color = { 0 106 191 }
+			color2={ 255 255 255 }
+			
+			b_santa_cruz_de_tenerife = {
+			}
+			b_san_san_cristobal_de_la_laguna = {
+			}
+			b_arona = {
+			}
+			b_la_orotava = {
+			}
+			b_los_realejos = {
+			}
+			b_puerto_de_la_cruz = {
+			}
+			b_icod_de_los_vinos = {
+			}
+		}
+		c_la_palma = {
+			color = { 20 107 176 }
+			color2={ 255 255 255 }
+			
+			b_los_llanos_de_aridane = {
+			}
+			b_santa_cruz_de_la_palma = {
+			}
+			b_el_pasa = {
+			}
+			b_brena_alta = {
+			}
+			b_san_andres_y_sauces = {
+			}
+			b_tazacorte = {
+			}
+			b_villa_de_Mazo = {
+			}
+		}
+		c_la_gomera_y_hierro = {
+			color = { 20 107 176 }
+			color2={ 255 255 255 }
+			
+			b_san_sebastian_de_la_gomera = {
+			}
+			b_valverde = {
+			}
+			b_valle_gran_rey = {
+			}
+			b_frontera = {
+			}
+			b_vallehermoso = {
+			}
+			b_hermigua = {
+			}
+			b_alajero = {
+			}
+		}
+	}
+	d_madeira = {
+		color={ 95 117 156 }
+		color2={ 255 255 255 }
+		
+		capital = 163 #Tenerife
+		
+		c_madeira = {
+			color = { 0 94 185 }
+			color2={ 255 255 255 }
+			
+			b_funchal = {
+			}
+			b_santa_cruz = {
+			}
+			b_camara_de_lobos = {
+			}
+			b_machico = {
+			}
+			b_ribeira_brava = {
+			}
+			b_calheta = {
+			}
+			b_ponta_do_sol = {
+			}
+		}
+	}
+}
+	
+	k_portugal = {
+		color={ 182 88 5 }
+		color2={ 255 255 255 }
+		
+		capital = 167 # Lisboa
+		
+		culture = portuguese
+		
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					k_portugal = {
+						is_titular = yes
+					}
+				}
+				k_portugal = {
+					is_titular = no
+				}
+			}
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					religion_group = christian
+				}
+			}		
+		}
+		
+	d_lisboa = {
+			color = { 193 81 5 }
+			color2={ 255 255 255 }
+
+			capital = 167 # Lisboa
+		
+		c_lisboa = {
+			color = { 77 108 83 }
+			color2={ 255 255 255 }
+			
+			b_lisbon = {
+			}
+			b_sintra = {
+			}
+			b_cascais = {
+			}
+			b_loures = {
+			}
+			b_amadora = {
+			}
+			b_oeiras = {
+			}
+			b_odivelas = {
+			}
+		}
+		c_peninsula_de_setubal = {
+			color = { 77 122 85 }
+			color2={ 255 255 255 }
+			
+			b_setubal = {
+			}
+			b_almada = {
+			}
+			b_seixal = {
+			}
+			b_barreiro = {
+			}
+			b_sesimbra = {
+			}
+			b_moita = {
+			}
+			b_montijo = {
+			}
+		}
+	}
+		
+	d_beja = {
+			color = { 182 98 5 }
+			color2={ 255 255 255 }
+			
+			capital = 169 # Beja
+			
+		c_beja = {
+			color = { 76 125 86 }
+			color2={ 255 255 255 }
+			
+			b_beja = {
+			}
+			b_odemira = {
+			}
+			b_serpa = {
+			}
+			b_moura = {
+			}
+			b_aljustrel = {
+			}
+			b_almodovar = {
+			}
+			b_ferreira = {
+			}
+		}
+		c_alentejo_litoral = {
+			color = { 90 168 105 }
+			color2={ 255 255 255 }
+			
+			b_santiago_do_cacem = {
+			}
+			b_odemira = {
+			}
+			b_grandola = {
+			}
+			b_sines = {
+			}
+			b_alcacer_do_sal = {
+			}
+			b_botinas = {
+			}
+			b_cercal = {
+			}
+		}
+		c_evora = {
+			color = { 49 112 62 }
+			color2={ 255 255 255 }
+			
+			b_evora = {
+			}
+			b_montemor-o-novo = {
+			}
+			b_estremoz = {
+			}
+			b_vendas_novas = {
+			}
+			b_reguengos_de_monsaraz = {
+			}
+			b_vila_vicosa = {
+			}
+			b_redondo = {
+			}
+		}
+		c_santarem = {
+			color = { 118 194 132 }
+			color2={ 255 255 255 }
+			
+			b_santarem = {
+			}
+			b_ourem = {
+			}
+			b_tomar = {
+			}
+			b_torres_novas = {
+			}
+			b_abrantes = {
+			}
+			b_benavente = {
+			}
+			b_entroncamento = {
+			}
+		}
+		c_portalegre = {
+			color = { 33 124 51 }
+			color2={ 255 255 255 }
+			
+			b_portalegre = {
+			}
+			b_ponte_de_sor = {
+			}
+			b_elvas = {
+			}
+			b_nisa = {
+			}
+			b_campo_maior = {
+			}
+			b_sousel = {
+			}
+			b_gaviao = {
+			}
+		}
+	}
+	d_algarve = {
+		color = { 202 88 5 }
+		color2={ 255 255 255 }
+			
+		capital = 163 # Faro
+			
+		c_silves = {
+			color = { 81 147 93 }
+			color2={ 255 255 255 }
+				
+				b_silves = {
+				}
+				b_lagos = {
+				}
+				b_alvor = {
+				}
+				b_aljezur = {
+				}
+				b_arrifana = {
+				}
+				b_monchique = {
+				}
+				b_sagres = {
+				}
+			}
+		c_faro = {
+			color = { 47 111 59 }
+			color2={ 255 255 255 }
+				
+			b_faro = {
+			}
+			b_loule = {
+			}
+			b_olhao = {
+			}
+			b_tavira = {
+			}
+			b_saobrasdealportel = {
+			}
+			b_castromarim = {
+			}
+			b_alcoutim = {
+			}
+		}
+	}
+	d_beira = {
+			color = { 180 96 39 }
+			color2={ 255 255 255 }
+			
+			capital = 179 # Coimbra
+			
+		c_leiria = {
+			color = { 118 161 126 }
+			color2={ 255 255 255 }
+			
+			b_torres_vedras = {
+			}
+			b_leiria = {
+			}
+			b_caldas_da_rainha = {
+			}
+			b_pombal = {
+			}
+			b_alcobaca = {
+			}
+			b_marinha_grande = {
+			}
+			b_peniche = {
+			}
+		}
+		c_castelo_branco = {
+			color = { 35 77 44 }
+			color2={ 255 255 255 }
+			
+			b_castelo_branco = {
+			}
+			b_covilha = {
+			}
+			b_belmonte = {
+			}
+			b_serta = {
+			}
+			b_idanha-a-nova = {
+			}
+			b_fundao = {
+			}
+			b_proenca_a_nova = {
+			}
+		}
+		c_coimbra = {
+			color = { 85 98 88 }
+			color2={ 255 255 255 }
+			
+			b_coimbra = {
+			}
+			b_figueira_da_foz = {
+			}
+			b_cantanhed = {
+			}
+			b_montemor_o_velho = {
+			}
+			b_oliveira_do_hospital = {
+			}
+			b_condeixa_a_nova = {
+			}
+			b_lousa = {
+			}
+		}
+		c_aveiro = {
+			color = { 96 166 111 }
+			color2={ 255 255 255 }
+			
+			b_santa_maria_da_feira = {
+			}
+			b_aveiro = {
+			}
+			b_oliveira_de_azemeis = {
+			}
+			b_ovar = {
+			}
+			b_agueda = {
+			}
+			b_ilhavo = {
+			}
+			b_espinho = {
+			}
+		}
+		c_viseu = {
+			color = { 85 122 92 }
+			color2={ 255 255 255 }
+			
+			b_viseu = {
+			}
+			b_tondela = {
+			}
+			b_lamego = {
+			}
+			b_mangualde = {
+			}
+			b_castro_daire = {
+			}
+			b_sao_pedro_do_sul = {
+			}
+			b_nelas = {
+			}
+		}
+		c_guarda = {
+			color = { 39 150 62 }
+			color2={ 255 255 255 }
+			
+			b_guarda = {
+			}
+			b_gouveia = {
+			}
+			b_seia = {
+			}
+			b_sabugal = {
+			}
+			b_trancoso = {
+			}
+			b_vila_nova_de_foz_coa = {
+			}
+			b_pinhel = {
+			}
+		}
+	}	
+	d_norte = {
+		color = { 136 73 30 }
+		color2={ 255 255 255 }
+			
+		capital = 182 # Porto
+		
+		c_porto = {
+			color = { 34 115 50 }
+			color2={ 255 255 255 }
+			
+			b_porto = {
+			}
+			b_vila_nova_de_gaia = {
+			}
+			b_matosinhos = {
+			}
+			b_gondomar = {
+			}
+			b_valongo = {
+			}
+			b_maia = {
+			}
+			b_paredes = {
+			}
+		}
+		c_braga = {
+			color = { 69 142 84 }
+			color2={ 255 255 255 }
+			
+			b_braga = {
+			}
+			b_vila_nova_de_famalicao = {
+			}
+			b_viana_do_castelo = {
+			}
+			b_barcelos = {
+			}
+			b_vila_verde = {
+			}
+			b_darque = {
+			}
+			b_barroselas_e_carvoeiro = {
+			}
+		}
+		c_vila_real = {
+			color = { 54 84 60 }
+			color2={ 255 255 255 }
+			
+			b_vila_real = {
+			}
+			b_chaves = {
+			}
+			b_peso_da_regua = {
+			}
+			b_valpacos = {
+			}
+			b_vila_pouca_de_aguiar = {
+			}
+			b_santa_marta_de_penaguiao = {
+			}
+			b_alijo = {
+			}
+		}
+		c_braganca = {
+			color = { 126 138 94 }
+			color2={ 255 255 255 }
+			
+			b_braganca = {
+			}
+			b_macedo_de_cavaleiros = {
+			}
+			b_mirandela = {
+			}
+			b_mogadouro = {
+			}
+			b_torre_de_moncorvo = {
+			}
+			b_vinhais = {
+			}
+			b_miranda_do_douro = {
+			}
+		}
+	}
+	k_spanish_galicia = {
+		color={ 255 224 94 }
+		capital = 156 # Coruña
+		
+		culture = galician
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					religion_group = christian
+				}
+			}
+			conditional_tooltip = {
+				trigger = {
+					k_spanish_galicia = {
+						is_titular = yes
+					}
+				}
+				k_spanish_galicia = {
+					is_titular = no
+				}
+			}	
+		}
+		
+		d_galicia = {
+			color={ 255 224 94 }
+			color2={ 255 255 255 }
+			
+			capital = 156 # Coruna
+			
+			c_a_coruna = {
+				color = { 12 153 204 }
+				color2={ 255 255 255 }
+				
+				b_corunna = {
+				}
+				b_mondonedo = {
+				}
+				b_ferrol = {
+				}
+				b_villalba = {
+				}
+				b_viveiro = {
+				}
+				b_burela = {
+				}
+				b_triacastela = {
+				}
+			}
+			c_santiago = {
+				color = { 243 158 51}
+				color2={ 255 255 255 }
+				
+				holy_site = catholic
+				
+				b_santiago = {
+				}
+				b_vigo = {
+				}
+				b_pontevedra = {
+				}
+				b_tuy = {
+				}
+				b_verin = {
+				}
+				b_padron = {
+				}
+				b_vilagarcia = {
+				}
+			}
+			c_lugo = {
+				color={ 200 130 51 }
+				color2={ 255 255 255 }
+
+				b_lugo = {}
+				b_orense = {}
+				b_ribadeo = {}
+				b_navilubio = {}
+				b_mino = {}
+				b_burgas_orense = {}
+				b_sil = {}
+			}
+		}
 	}
 }
