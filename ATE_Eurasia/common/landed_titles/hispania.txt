@@ -1,0 +1,148 @@
+###ÄNSI###
+e_spain = {
+	color={ 233 200 20 }
+	color2={ 255 255 255 }
+	
+	capital = 163 #Tenerife
+	
+	culture = castillan
+
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				e_spain = {
+					any_direct_de_jure_vassal_title = {
+						owner = {
+							NOT = {
+								religion_group = ROOT
+							}
+						}
+					}
+				}
+				has_dlc = "Holy Fury"
+			}
+
+			custom_tooltip = {
+				text = e_spain_allow_TT
+
+				always = no
+			}
+		}
+		conditional_tooltip = {
+			trigger = {
+				has_global_flag = active_reconquista
+			}
+
+			custom_tooltip = {
+				text = active_reconquista_condition_TT
+
+				always = no
+			}
+		}
+	}
+
+	gain_effect = {
+		if = {
+			limit = {
+				NOT = {
+					has_global_flag = reconquista_finished
+				}
+			}
+
+			any_playable_ruler = {
+				narrative_event = { id = HF.49451 }
+			}
+
+			ROOT = {
+				narrative_event = { id = HF.49451 }
+			}
+
+			set_global_flag = reconquista_finished
+		}
+	}
+	
+	k_macronesia = {
+		color = { 253 158 51 }
+		color2={ 255 255 255 }
+		
+		dignity = 10 # One more county than de jure
+		
+		capital = 163 #Tenerife
+		
+		culture = canarian
+		
+		# Creation/usurpation trigger
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					religion_group = christian
+				}
+			}
+		}
+		d_las_palmas = {
+			color = { 14 27 50 }
+			color2={ 255 255 255 }
+			
+			capital = 160 # Gran Canaria
+
+			c_gran_canaria = {
+				color = { 81 121 195 }
+				color2={ 255 255 255 }
+				
+				b_las_palmas = {
+				}				
+				b_telde = {
+				}
+				b_santa_lucia_de_tirajana = {
+				}
+				b_san_bartolome_de_tirajana = {
+				}
+				b_arucas = {
+				}
+				b_ingenio = {
+				}
+				b_galdar = {
+				}
+			}
+			c_fuerteventura = {
+				color = { 70 103 163 }
+				color2={ 255 255 255 }
+				
+				b_puerto_del_rosario = {
+				}
+				b_pajara = {
+				}
+				b_la_oliva = {
+				}
+				b_tuineje = {
+				}
+				b_antigua = {
+				}
+				b_betancuria = {
+				}
+				b_lobos = {
+				}
+			}
+			c_lanzarote = {
+				color = { 117 129 152 }
+				color2={ 255 255 255 }
+				
+				b_arrecife = {
+				}
+				b_san_bartolome = {
+				}
+				b_tias = {
+				}
+				b_teguise = {
+				}
+				b_yaiza = {
+				}
+				b_tinajo = {
+				}
+				b_haria = {
+				}
+			}
+		}
+	}
+}
