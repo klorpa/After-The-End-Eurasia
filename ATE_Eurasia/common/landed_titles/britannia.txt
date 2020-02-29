@@ -306,14 +306,14 @@ e_britannia = {
 		capital = 39 # Berkshire
 		dignity = 15 # Counted as having this many more counties than it does
 		
-		culture = anglish
+		culture = westlander
 		
 	# Creation/usurpation trigger
 	allow = {
 		hidden_tooltip = {
 			OR = {
 				ai = no
-				culture = anglish
+				culture = westlander
 				culture = midlander
 				culture = cockney
 				culture_group = celtic
@@ -1327,6 +1327,8 @@ e_britannia = {
 				color={ 175 90 20 }
 				color2={ 255 255 255 }
 				
+				b_machynlleth = {
+				}
 				b_powis = {
 				}
 				b_newtown = {
@@ -1338,8 +1340,6 @@ e_britannia = {
 				b_carno = {
 				}
 				b_radnor = {
-				}
-				b_rhayader = {
 				}
 			}
 			c_radnorshire = {
@@ -1362,7 +1362,7 @@ e_britannia = {
 				}
 			}
 			c_brecknockshire = {
-				color={ 1 84 200 }
+				color={ 157 105 20 }
 				color2={ 255 255 255 }
 			
 				b_brecon = {
