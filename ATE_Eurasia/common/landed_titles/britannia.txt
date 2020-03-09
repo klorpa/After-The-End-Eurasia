@@ -2057,11 +2057,13 @@ e_britannia = {
 			}
 		}
 				
-		d_clare = {
+		d_midwest= {
 			color={ 114 161 92 }
 			color2={ 255 255 255 }
 			
-			capital = 10 #clare
+			Irish= "lár_an_iathair"
+
+			capital = 9 #limerick
 			
 			c_limerick = {
 				color={ 90 138 119 }
@@ -2103,9 +2105,11 @@ e_britannia = {
 				}
 			}	
 			
-			c_scarriff = {
+			c_aughty = {
 				color={ 65 119 97 }
 				color2={ 255 255 255 }
+
+				Irish=eachtaí
 						
 				b_Ballinasloe = {
 				}
@@ -2213,13 +2217,13 @@ e_britannia = {
 			color={ 49 249 72 }
 			color2={ 255 255 255 }
 			
-			capital = 19# Dublin
+			capital = 17 
 					
 			c_longford = {
 				color={ 98 179 146 }
 				color2={ 255 255 255 }
 				
-                irish = "Longfort"
+                irish = "Longford"
 
                 b_longford = {
                     irish = "Longfort"
@@ -2316,7 +2320,7 @@ e_britannia = {
 			color={ 41 96 74 }
 			color2={ 255 255 255 }
 			
-			capital = 22# c_sligo
+			capital = 20# c_sligo
 		}
 	}
 	k_ulster = {
