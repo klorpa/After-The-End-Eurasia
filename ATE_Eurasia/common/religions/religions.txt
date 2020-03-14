@@ -16,8 +16,8 @@ pagan_group = {
 	valinorism = {
 		graphical_culture = norsegfx
 
-		icon = 59
-		heresy_icon = 60
+		icon = 7
+		heresy_icon = 7
 		
 		ai_convert_other_group = 1
 		
@@ -137,8 +137,8 @@ christian = {
 		insular = {
 		graphical_culture = westerngfx
 
-		icon = 1
-		heresy_icon = 1
+		icon = 3
+		heresy_icon = 4
 		
 		color = { 0.08 0.6 0.38 }
 		
@@ -189,8 +189,8 @@ esoteric = {
 	high_thelema = {
 		graphical_culture = norsegfx
 
-		icon = 59
-		heresy_icon = 60
+		icon = 5
+		heresy_icon = 6
 		
 		ai_convert_other_group = 1
 		
@@ -227,12 +227,14 @@ esoteric = {
 	low_thelema = {
 		graphical_culture = norsegfx
 
-		icon = 59
-		heresy_icon = 60
+		icon = 5
+		heresy_icon = 6
 		
 		ai_convert_other_group = 1
 		
 		color = { 0.6 0.6 0.5 }
+		
+		parent = high_thelema
 		
 		interface_skin = { zun_interface pagan_interface }
 
@@ -310,7 +312,7 @@ esoteric = {
 	brethren = { # pirates!
 		graphical_culture = norsegfx
 
-		icon = 43
+		icon = 8
 		heresy_icon = 43
 		
 		color = { 0.3 0.2 0.2 }
@@ -356,7 +358,7 @@ esoteric = {
 	pelagic = { # whalers!
 		graphical_culture = norsegfx
 
-		icon = 82
+		icon = 8
 		heresy_icon = 82
 		
 		color = { 0.8 0.8 0.8 }
