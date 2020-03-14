@@ -365,88 +365,27 @@
 	2612.5.3={birth=yes}
 	2670.8.10={death=yes}
 }
-20={
-	name="Nicholas"
-    dynasty=9000
-    culture=yankee
-    religion=high_church
-    martial=7
-    diplomacy=5
-    stewardship=4
-    intrigue=2
-    learning=4
-    trait=tough_soldier
-	trait=erudite
-	trait=brawny
-	trait=kind
-	trait=just
-	trait=honest
-	trait=trusting
-	2621.3.12={birth=yes}
-	2664.1.10={death = {death_reason = death_murder killer = 21} }
-}
-21={
-	name="Marshal"
-    dynasty=1200
-    culture=british
-    religion=high_church
-    martial=6
-    diplomacy=5
-    stewardship=2
-    intrigue=4
-    learning=4
-    trait=skilled_tactician
-	trait=erudite
-	trait=cruel
-	trait=paranoid
-	trait=deceitful
-	2620.4.2={birth=yes}
-	2666.1.5={death=yes}
-}
-22={
-	name="Isabella"
-	dynasty=9000
-    culture=british
-	female = yes
-    religion=high_church
-    martial=6
-    diplomacy=5
-    stewardship=6
-    intrigue=4
-    learning=4
-    trait=charismatic_negotiator
-	trait=erudite
-	trait=kind
-	trait=just
-	trait=honest
-	2648.3.12={birth=yes}
-	2665.1.5={effect = {add_lover=23}}
-	2665.2.10={ add_spouse=23 }
-	2721.1.14={death=yes}
-}
-23={
-	name="Conor"
-	dynasty=1201
-    culture=british
-    religion=high_church
-	martial=7
-	diplomacy=3
-	intrigue=7
-	stewardship=3
+113 = {
+	name= "Elizabeth"
+	dynasty=1202
+	female=yes
+	culture=british
+	religion=high_church
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=4
 	learning=5
-	health=8
-    trait=brilliant_strategist
-	trait=duelist
-	trait=scholar
-	trait=brawny
-	trait=just
-	trait=humble
+	trait=grey_eminence
+	trait=fair
+	trait=shrewd
+	trait=celibate
+	trait=ambitious
 	trait=brave
-	trait=diligent
-	trait=cynical
-	trait=depressed
-	2648.5.1={birth=yes}
-	2665.10.2={give_nickname = nick_the_airman}
-	2721.1.14={death=yes}
+	trait=just
+	trait=proud
+	
+	2640.5.24={birth=yes}
+	2721.1.22={death=yes}
 }
 	
