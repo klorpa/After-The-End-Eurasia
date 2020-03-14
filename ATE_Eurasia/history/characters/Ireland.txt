@@ -122,8 +122,10 @@
 	trait=lustful
 	trait=poet
 	father=2405
+	
 
 	2633.5.13={birth=yes}
+	2653.4.15={add_spouse=2384}
 	2710.4.1={death=yes}
 }
 
@@ -236,8 +238,10 @@
 	trait=cruel
 	trait=stubborn
 	trait=zealous
+	add_spouse=2414
 
 	2626.3.17={birth=yes}
+	2626.6.21={add_spouse=2414}
 	2710.4.1={death=yes}
 }
 
@@ -285,8 +289,9 @@
 	trait=patient
 	trait=ambitious
 	female=yes
-	spouse=2375
+	
 	2637.2.2={birth=yes}
+	2653.4.15={add_spouse=2375}
 	2700.1.2={death=yes}
 }
 2382 = {
@@ -873,7 +878,7 @@
 	trait=lustful
 	father=2380
 	mother=2414
-	2646.7.9={birth=yes}
+	2646.3.9={birth=yes}
 	2710.1.1={death=yes}
 }
 2412={
@@ -889,8 +894,8 @@
 	trait=martial_cleric
 	trait=poet
 	father=2380
-	morth=2414
-	2647.4.12={birth=yes}
+	morther=2414
+	2648.4.12={birth=yes}
 	2710.1.1={death=yes}
 }
 2413={
@@ -904,9 +909,9 @@
 	intrigue=6
 	learning=5
 	trait=indulgent_wastrel
+	female=yes
 	father=2380
 	mother=2414
-	female=yes
 	2649.27.5={birth=yes}
 	2710.1.1={death=yes}
 }
@@ -923,6 +928,7 @@
 	trait=naieve_appeaser
 	female=yes
 	2628.4.10={birth=yes}
+	2626.6.21={add_spouse=2380}
 	2710.1.1={death=yes}
 }
 
