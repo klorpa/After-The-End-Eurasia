@@ -41,7 +41,8 @@ e_britannia = {
 				color={ 241 90 35 }
 				color2={ 255 255 255 }
 				cockney = "London"
-				holy_site = thelema
+				holy_site =high_thelema
+				holy_site=low_thelema
 			
 				b_london = {
 				used_for_dynasty_names = no
@@ -415,7 +416,8 @@ e_britannia = {
 				color={ 241 95 45 }
 				color2={ 255 255 255 }
 				
-				holy_site = thelema
+				holy_site=low_thelema
+				holy_site = low_thelema
 			
 				b_swindon = {
 				}
@@ -943,6 +945,7 @@ e_britannia = {
 			capital = 83 # Merseyside
 		
 			c_merseyside = {
+				holy_site=insular
 				color={ 37 70 148 }
 				color2={ 255 255 255 }
 				
@@ -1651,7 +1654,7 @@ e_britannia = {
 				color={ 158 174 160 }
 				color2={ 255 255 255 }
 				
-				holy_site = thelema
+				holy_site =high_thelema
 				
 				b_raigmore = {
 				}
@@ -2127,6 +2130,7 @@ e_britannia = {
 			capital =  12# c_gaillimh
 
 			c_galway = {
+				holy_site=insular
 				color={ 21 127 84 }
 				color2={ 255 255 255 }
 					
@@ -2288,6 +2292,7 @@ e_britannia = {
 			capital = 19 #Dublin
 
 			c_dublin = {
+				holy_site=insular
 				color={ 55 250 85 }
 				color2={ 255 255 255 }
 				
