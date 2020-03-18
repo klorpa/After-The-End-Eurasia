@@ -106,7 +106,7 @@
 	2721.1.14={death=yes}
 }
 2375 = {
-	name= "Fíachra"
+	name= "Fiachra"
 	dynasty=1501
 	culture=irish
 	religion=insular
@@ -238,10 +238,11 @@
 	trait=cruel
 	trait=stubborn
 	trait=zealous
-	add_spouse=2414
+	father = 2416
+	mother = 2417
 
 	2626.3.17={birth=yes}
-	2626.6.21={add_spouse=2414}
+	2644.6.21={add_spouse=2414}
 	2710.4.1={death=yes}
 }
 
@@ -904,7 +905,7 @@
 	trait=naieve_appeaser
 	female=yes
 	2628.4.10={birth=yes}
-	2626.6.21={add_spouse=2380}
+	2644.6.21={add_spouse=2380}
 	2710.1.1={death=yes}
 }
 2415 = {
@@ -931,5 +932,46 @@
 	2637.2.2={birth=yes}
 	2653.4.15={add_spouse=2375}
 	2700.1.2={death=yes}
+}
+2416= {
+	name= "Craig"
+	dynasty=1506
+	culture=ulsterman
+	religion=free_church
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	trait=though_soldier
+	trait=wroth
+	trait=diligent
+	trait=freckles
+
+
+	2606.9.11={birth=yes}
+	2625.7.8={add_spouse=2417}
+	2646.11.8={death=yes}
+
+
+}
+2417= {
+	name="Lucy"
+	dynasty=1907
+	culture=ulsterman
+	religion=high_church
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	trait=amatureish_plotter
+	female=yes
+	
+	2604.4.8={birth=yes}
+	2525.7.8={add_spouse=2416}
+	2710.1.1={death=yes}
+}
+
 
 
