@@ -1,0 +1,31 @@
+	word_of_blake = {
+		graphical_culture = westerngfx
+		
+		icon = 10
+		heresy_icon = 11
+		
+		ai_convert_other_group = 1
+		
+		color = { 0.9 0.4 0 }
+		
+		interface_skin = { zun_interface pagan_interface }
+		
+		high_god_name = THE_BREATH_DIVINE
+		
+		god_names = { GOD_JERUSALEM GOD_ALBION GOD_THE_ETERNALS GOD_THE_ZOAS
+		}
+		evil_god_names = { GOD_URIZEN GOD_RINTRAH
+		}
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_PROPHETIC_BOOKS
+		priest_title = PRIEST
+		can_call_crusade = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes
+		
+		#aggression = 0.5 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}

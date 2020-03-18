@@ -41,8 +41,9 @@ e_britannia = {
 				color={ 241 90 35 }
 				color2={ 255 255 255 }
 				cockney = "London"
-				holy_site =high_thelema
-				holy_site=low_thelema
+				holy_site = free_church
+				holy_site = low_thelema
+				holy_site = high_thelema
 			
 				b_london = {
 				used_for_dynasty_names = no
@@ -217,8 +218,7 @@ e_britannia = {
 			c_kent = {
 				color={ 241 115 65 }
 				color2={ 255 255 255 }
-				
-				holy_site =high_church
+				holy_site = high_church
 				
 				b_rochester = {
 				}
@@ -416,9 +416,8 @@ e_britannia = {
 				color={ 241 95 45 }
 				color2={ 255 255 255 }
 				
-				holy_site=low_thelema
-				holy_site = low_thelema
-			
+				holy_site = high_thelema
+				
 				b_swindon = {
 				}
 				b_salisbury = {
@@ -798,8 +797,8 @@ e_britannia = {
 				color={ 255 80 5 }
 				color2={ 255 255 255 }
 				
-				holy_site =high_church
-	
+				holy_site = high_church
+				
 				b_harrogate = {
 				}
 				b_york = {
@@ -901,6 +900,7 @@ e_britannia = {
 			c_lancashire = {
 				color={ 126 174 29 }
 				color2={ 255 255 255 }
+				holy_site = free_church
 				
 				b_preston = {
 				}
@@ -945,9 +945,9 @@ e_britannia = {
 			capital = 83 # Merseyside
 		
 			c_merseyside = {
-				holy_site=insular
 				color={ 37 70 148 }
 				color2={ 255 255 255 }
+				holy_site = insular
 				
 				b_liverpool = {
 				}
@@ -1271,10 +1271,9 @@ e_britannia = {
 			c_glamorgan = {
 				color={ 155 120 15 }
 				color2={ 255 255 255 }
-				
-				holy_site =high_church
 
 				welsh = Morgannwg
+				holy_site = glamorgan
 			
 				b_cardiff = {
 				}
@@ -1359,6 +1358,7 @@ e_britannia = {
 			c_brecknockshire = {
 				color={ 157 105 20 }
 				color2={ 255 255 255 }
+				holy_site = free_church
 			
 				b_brecon = {
 				}
@@ -1409,8 +1409,8 @@ e_britannia = {
 			c_edinburgh = {
 				color = { 16 62 160 }
 				color2={ 255 255 255 }
-				
-				holy_site =high_church
+				holy_site = high_church
+				holy_site = free_church
 				
 				b_holyrood = {
 				}
@@ -1654,7 +1654,8 @@ e_britannia = {
 				color={ 158 174 160 }
 				color2={ 255 255 255 }
 				
-				holy_site =high_thelema
+				holy_site = high_thelema
+				holy_site = low_thelema
 				
 				b_raigmore = {
 				}
@@ -2158,9 +2159,9 @@ e_britannia = {
 			capital =  12# c_gaillimh
 
 			c_galway = {
-				holy_site=insular
 				color={ 21 127 84 }
 				color2={ 255 255 255 }
+				holy_site = insular
 					
 				irish = "Gaillimh"
 
@@ -2337,9 +2338,10 @@ e_britannia = {
 			capital = 19 #Dublin
 
 			c_dublin = {
-				holy_site=insular
 				color={ 55 250 85 }
 				color2={ 255 255 255 }
+				
+				holy_site = insular
 				
 				irish = "Baile Átha Cliath"
 
@@ -2386,6 +2388,7 @@ e_britannia = {
 			c_belfast = {
 				color={ 215 130 77 }
 				color2={ 255 255 255 }
+				holy_site = high_church
 				
 				irish = "Béal Feirste"
 
@@ -2429,6 +2432,7 @@ e_britannia = {
 			c_armagh = {
 				color={ 17 93 62 }
 				color2={ 255 255 255 }
+				holy_site = insular
 				
 				irish = "Ard Mhacha"
 
