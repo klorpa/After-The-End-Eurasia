@@ -204,8 +204,6 @@
 	trait=skilled_tactician
 	trait=peasant_leader
 	trait=robust
-	trait=quick
-	trait=falconer
 	trait=diligent
 	trait=patient
 	trait=humble
@@ -213,6 +211,9 @@
 	trait=brave
 	trait=cavalry_leader
 	trait=duelist
+	father=2418
+	mother=2419
+
 
 	2637.8.9={birth=yes}
 	2710.4.1={death=yes}
@@ -958,7 +959,7 @@
 2417= {
 	name="Lucy"
 	dynasty=1907
-	culture=ulsterman
+	culture=Lowlander
 	religion=high_church
 	martial=5
 	diplomacy=5
@@ -971,6 +972,47 @@
 	2604.4.8={birth=yes}
 	2525.7.8={add_spouse=2416}
 	2710.1.1={death=yes}
+}
+2418= {
+	name="Francie"
+	dynasty="1505"
+	culture=pavee
+	religion=insular
+	martial=6
+	diplomacy=4
+	stewardship=6
+	intrigue=7
+	learning=5
+	trait=misguided_warrior
+	
+	2602.9.2={birth=yes}
+	2620.27.5={add_spouse=2419}
+	2646.11.11 = {
+  death = {
+    death_reason = death_battle
+    killer = 2377
+  }
+}
+}
+2419= {
+	name="kitty"
+	dynasty=0
+	culture=pavee
+	religion=insular
+	martial=4
+	diplomacy=6
+	stewardship=6
+	intrigue=6
+	learning=3
+	female=yes
+	trait=depression
+
+	2603.12.15={birth=yes}
+	2620.27.5={add_spouse=2418}
+	2647.1.1 = {
+  death = {
+    death_reason = death_trait=depression
+  }
 }
 
 
