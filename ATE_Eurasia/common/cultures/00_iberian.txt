@@ -1,27 +1,276 @@
-###ÄNSI###
+###ÄNSI##
 
-iberian = {
+spanish = {
 	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
 	graphical_cultures = { occitangfx }
+	
+	euskara = { 
+		graphical_cultures = { italiangfx trueoccitangfx occitangfx }
+		
+		color = { 0.55 0.42 0.04 }
+		
+		male_names = { 
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "itz"
+		female_patronym = "itz"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 5
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 55
+		mat_grm_name_chance = 15
+		mother_name_chance = 20
 
+		modifier = default_culture_modifier
+	}
+	asturianu = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0 0.6 0.7 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "d' "
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier	
+	}
+	castellano = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.95 0.82 0.09 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	leonés = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.67 0.22 0.17 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	aragonés = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.32 0.38 0.67 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "d' "
+		male_patronym = "iz"
+		female_patronym = "iz"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	català = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.85 0.75 0.08 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "d' "
+		male_patronym = "ix"
+		female_patronym = "ix"
+		grammar_transform = french
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 10
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 25
+		mother_name_chance = 25
+		
+		modifier = default_culture_modifier
+	}
+	andalú = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.4 0.6 0.1 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	llanito = {
+		graphical_cultures = { englishgfx }
+		
+		color = { 0.93 0.26 0.17 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+}
+
+lusitanian = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { occitangfx }
+	
+	galego = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.25 0.39 0.68 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance =
+		mat_grf_name_chance =
+		father_name_chance =
+		
+		pat_grm_name_chance =
+		mat_grm_name_chance =
+		mother_name_chance =
+		
+		modifier = default_culture_modifier
+	}
+	portuguese = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.75 0.67 0.07 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 55
+		mat_grf_name_chance = 5
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 60
+		mat_grm_name_chance = 15
+		mother_name_chance = 15
+		
+		modifier = default_culture_modifier
+	}
 	canarian = {
 		graphical_cultures = { southerngfx }
 		
 		color = { 0.95 0.80 0.09 }
-
+		
 		male_names = {
-			Alfonso_Alphonse Alonso_Alphonse Álvar_Oliver Álvaro_Oliver Bermudo_Vermudo Diego_Diaco Enrique_Henry Fadrique_Frederick Felipe_Philip Fernando_Ferdinand
- 			Fruela_Froila García_Garcia Gil_Egidius Gómez_Gomez Gonzalo_Gonzalo Guillén_William Guillermo_William Gutierre_Walter Juan_John Lope_Lupo Luis_Louis
-			Manrique_Amalric Martín_Martin Munio_Munio Nuño_Nuno Ordoño_Ordono Oveco_Obeko Pedro_Peter Pelayo_Pelagius Ramiro_Ramiro Rodrigo_Roderick
-			Salvador_Salvador Sancho_Sancho Suero_Suero Tello Vela_Vela
 		}
 		female_names = {
-			Aldonza_Aldonza Anderquina Beatriz_Beatrice Berenguela_Berengaria Blanca_Blanche Constanza_Constance Elvira_Elvira Estefanía_Stephania Fronilda_Fronilde Gontroda_Gotruda
-			Inés_Agnes Isabel_Elizabeth Jimena_Ximena Juana_Joan Leonor_Eleanor Mafalda_Matilda María_Maria Marina_Marine Mayor_Mayor Mencía_Mencia
-			Milia_Emily Sancha_Sancha Teresa_Teresa Toda_Toda Urraca_Urraca
 		}
-		from_dynasty_prefix = "de "
 		
+		from_dynasty_prefix = "de "
 		male_patronym = "ez"
 		female_patronym = "ez"
 		grammar_transform = spanish
@@ -35,36 +284,5 @@ iberian = {
 		mother_name_chance = 40
 
 		modifier = default_culture_modifier
-	}
-	portuguese = {
-		graphical_cultures = { southerngfx }
-		
-		color = { 0.75 0.67 0.07 }
-
-		male_names = {
-			Afonso_Alphonse Aires Álvaro_Oliver Bermudo_Vermudo Diogo_Diaco Egas Estêvão_Stephen Fernão_Ferdinand Fernando_Ferdinand Garcia_Garcia
-			Gil_Egidius Gomes_Gomez Gonçalo_Gonzalo Guterre_Walter Henrique_Henry Hermígio João_John Lopo_Lupo Lourenço_Laurence Martim_Martin
-			Mem_Mendo Mendo_Mendo Monio_Munio Muno_Munio Nuno_Nuno Paio_Pelagius Pedro_Peter Pero_Peter Pôncio_Pons Rodrigo_Roderick Rui_Roderick
-			Sancho_Sancho Soeiro_Suero Raimundo_Raymond Vasco_Vasco Vicente_Vincent
-		}
-		female_names = {
-			Aldara_Alduara Aldonça_Aldonza Beatriz_Beatrice Berengária_Berengaria Branca_Blanche Constança_Constance Dórdia Elvira_Elvira Estevainha_Stephania Fruilhe_Fronilde
-			Gontinha Gontroda_Gotruda Guiomar Inês_Agnes Joana_Joan Leonor_Eleanor Mafalda_Matilda Margarida_Margaret Maria_Maria Marinha_Marine
-			Mor_Mayor Ouroana Sancha_Sancha Teresa_Teresa Urraca_Urraca
-		}
-		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-
-		modifier = default_culture_modifier
-
-		pat_grf_name_chance = 55
-		mat_grf_name_chance = 5
-		father_name_chance = 30
-		
-		pat_grm_name_chance = 60
-		mat_grm_name_chance = 15
-		mother_name_chance = 15
 	}
 }
