@@ -285,81 +285,54 @@ technology = {
 
 
 
-#NORTHERN IBERIA
+#IBERIA
 
 technology = {
 	titles = {
-		d_castilla
-		d_aragon
-		d_barcelona
-		d_mallorca
-		d_navarra
+		d_alacant
+		d_albacete
+		d_alto_aragon
+		d_andorra
 		d_asturias
-		d_leon
-		d_galicia
-		d_porto
-	}
-
-	769 = {
-		military = 0.5
-		economy = 0.85
-		culture = 1.0
-		
-		TECH_INFANTRY = 1
-		TECH_MELEE = 0.75
-		TECH_FORTIFICATIONS_CONSTRUCTION = 1
-		TECH_CASTLE_CONSTRUCTION = 1
-	}
-		
-	1337 = {
-	
-		military = 5.0
-		economy = 5.0
-		culture = 5.0
-		
-		TECH_FORTIFICATIONS_CONSTRUCTION = 6.0
-		TECH_CASTLE_CONSTRUCTION = 6.0
-	}
-}
-
-
-
-#SOUTHERN IBERIA
-
-technology = {
-	titles = {
-		d_algarve
-		d_sevilla
-		d_granada
-		d_murcia
-		d_valencia
-		d_cordoba
-		d_toledo
 		d_badajoz
-		d_beja
-		d_balata
+		d_baixo_aragon
+		d_balears
+		d_barcelona
+		d_baskonia
+		d_caceres
+		d_cadiz
+		d_calatrava
+		d_cantabria
+		d_castello
+		d_castilla
+		d_cordoba
+		d_cuenca
+		d_girona
+		d_granada
+		d_guadalajara
+		d_huelva
+		d_jaen
+		d_leon
+		d_lleida
+		d_lugo
+		d_madrid
+		d_nafarroako
+		d_naiarako
+		d_pontevedra
+		d_salamanca
+		d_segovia
+		d_sevilla
+		d_tarragona
+		d_teruel
+		d_toledo
+		d_valencia
+		d_valladolid
+		d_zamora
 	}
-
-	769 = {
-		military = 0.75
-		economy = 1.2
-		culture = 1.5
-		
-		TECH_INFANTRY = 1
-		TECH_CAVALRY = 1
-		TECH_CASTLE_CONSTRUCTION = 1.9
-		TECH_CITY_CONSTRUCTION = 2.2
-		TECH_FORTIFICATIONS_CONSTRUCTION = 2.0
-		TECH_CONSTRUCTION = 1
-	}
-		
-	1337 = {
-		military = 5.0
-		economy = 5.0
-		culture = 5.0
-		
-		TECH_FORTIFICATIONS_CONSTRUCTION = 5.75
-		TECH_CASTLE_CONSTRUCTION = 5.75
+	2500 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
 	}
 }
 
