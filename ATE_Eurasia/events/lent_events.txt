@@ -1,0 +1,285 @@
+namespace = CIML
+
+character_event = {
+	id = CIML.301
+	title = EVTNAMECIML.301
+	desc = EVTDESCCIML.301
+
+	picture = GFX_evt_secluded_in_prayer
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTACIML.301
+		trigger = {
+			NOT = { trait = cynical }
+			NOT = { has_secret_religion = yes }
+			NOT = {society_is_devil_worshiper = yes }
+		}
+		piety = 30
+		if = { 
+			limit = { 
+				NOT = { trait = is_fat }
+				NOT = { trait = is_malnourished } 
+			} 
+			random = { 
+				chance = 10  
+				add_trait = is_malnourished
+			}
+		}
+		if = { 
+			limit = { 
+				trait = is_fat
+			} 
+			random = { 
+				chance = 30  
+				remove_trait = is_fat
+			}
+		} 
+	}
+
+	option = {
+		name = EVTOPTBCIML.301
+		trigger = {
+			NOT = { has_secret_religion = yes }
+		}
+		piety = 10
+		if = { 
+			limit = { 
+				NOT = { trait = is_fat } 
+				NOT = { trait = is_malnourished }
+			} 
+			random = { 
+				chance = 2  
+				add_trait = is_malnourished
+			}
+		}
+		if = { 
+			limit = { 
+				trait = is_fat
+			} 
+			random = { 
+				chance = 8  
+				remove_trait = is_fat
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTCCIML.301
+		tooltip_info = intrigue
+		trigger = {
+			NOT = { has_secret_religion = yes }
+			intrigue = 8
+		}
+		piety = -30
+		prestige = 45
+	}
+
+	option = {
+		name = EVTOPTDCIML.301
+		trigger = {
+			OR = {
+				has_secret_religion = yes
+				society_is_devil_worshiper = yes
+			}
+		}
+		piety = -50
+	}
+
+	after = {
+    character_event = { id = CIML.302 days = 20 }
+	}
+}
+
+character_event = {
+	id = CIML.302
+	title = EVTNAMECIML.302
+	desc = EVTDESCCIML.302
+
+	picture = GFX_evt_pope
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTACIML.302
+		piety = 30
+		if = { 
+			limit = { 
+				trait = stressed
+			} 
+			random = { 
+				chance = 10  
+				remove_trait = stressed
+			}
+		}
+		if = { 
+			limit = { 
+				society_is_devil_worshiper = yes
+			} 
+			leave_society = yes
+		}
+		if = { 
+			limit = { 
+				has_secret_religion = yes
+			} 
+			clear_secret_religion = yes
+		}
+		if = {  
+				any_lover = {
+					limit = {						
+						NOT = {
+							spouse = {
+								character = ROOT
+							}
+						}
+					}
+					remove_lover = PREV
+				}
+		}
+		random = { 
+				chance = 2 
+				change_learning = 1
+		}
+		if = { 
+			limit = { 
+				ROOT = { is_senior_consort_party = yes } 
+			} 
+			any_consort = { remove_consort = ROOT }
+		}
+	}
+
+	option = {
+		name = EVTOPTBCIML.302
+		trigger = {
+			NOT = { has_secret_religion = yes }
+			NOT = { trait = honest }
+			NOT = { trait = zealous }
+		}
+		piety = -200
+		random = { 
+				chance = 10  
+				change_intrigue = 1
+		}
+		if = { 
+			limit = { 
+				NOT = { trait = stressed }
+			} 
+			random = { 
+				chance = 10  
+				add_trait = stressed
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTCCIML.302
+		tooltip_info = paranoid
+		trigger = {
+			trait = paranoid
+		}
+		piety = -10
+	}
+
+	option = {
+		name = EVTOPTDCIML.302
+		trigger = {
+			NOT = { trait = zealous }
+		}
+		piety = -20
+	}
+
+	after = {
+    narrative_event = { id = CIML.303 days = 20 }
+	}
+}
+
+narrative_event = {
+	id = CIML.303
+	title = EVTNAMECIML.303
+	desc = EVTDESCCIML.303
+
+	picture = GFX_evt_beatification
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTACIML.303
+		trigger = {
+			NOT = { has_secret_religion = yes }
+			NOT = { trait = cynical }
+			NOT = { society_is_devil_worshiper = yes }
+		}
+		piety = 10
+		if = { 
+			limit = { 
+				trait = depressed
+			} 
+			random = { 
+				chance = 10  
+				remove_trait = depressed
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBCIML.303
+		trigger = {
+			NOT = { has_secret_religion = yes }
+			NOT = { society_is_devil_worshiper = yes }
+		}
+		piety = 10
+		wealth = -20
+		prestige = 15
+		if = { 
+			limit = { 
+				trait = depressed
+			} 
+			random = { 
+				chance = 5  
+				remove_trait = depressed
+			}
+		}
+		if = { 
+			limit = { 
+				trait = is_malnourished
+			} 
+			random = { 
+				chance = 10  
+				remove_trait = is_malnourished
+			}
+		}
+		
+	}
+
+	option = {
+		name = EVTOPTCCIML.303
+		tooltip_info = cynical
+		trigger = {
+			trait = cynical
+		}
+		piety = -30
+	}
+
+	option = {
+		name = EVTOPTDCIML.303
+		trigger = {
+			OR = {
+				has_secret_religion = yes
+				society_is_devil_worshiper = yes
+			}
+		}
+		if = { 
+			limit = { 
+				NOT = { trait = stressed }
+			} 
+			random = { 
+				chance = 10  
+				add_trait = stressed
+			}
+		}
+	}
+
+	after = {
+	}
+}
