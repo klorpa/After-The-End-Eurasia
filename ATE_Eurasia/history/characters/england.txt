@@ -1,3 +1,369 @@
+###ÄNSI
+1001001 ={
+	name="Gaius"
+	dynasty=1002
+	culture=southerner
+	religion=high_thelema
+	martial=6
+	diplomacy=5
+	stewardship=7
+	intrigue=7
+	learning=5
+	add_trait=intricate_webweaver
+	add_trait=lunatic
+	add_trait=cruel
+	add_trait=impaler
+	add_trait=paranoid
+	add_trait=is_fat
+	add_trait=patient
+	add_trait=gluttonous
+	2592.3.16={birth=yes}
+	2660.2.10={death=yes}
+}
+2={
+	name="Albert"
+	dynasty=1003
+	culture=bavarian
+	religion=high_thelema
+	martial=3
+	diplomacy=7
+	stewardship=7
+	intrigue=7
+	learning=5
+	trait=fortune_builder
+	trait=shrewd
+	trait=deceitful
+	trait=cynical
+	trait=arbitrary
+	trait=diligent
+	trait=humble
+	2640.4.1={ birth=yes }
+	2666.3.1={ culture=southerner }
+	2724.3.10={ death=yes }
+}
+3={
+	name="Havelock"
+	dynasty=1004
+	dna="bgagjpgbaaw"
+	properties="ci0dfk00000000000000000000000000000000"
+	culture=southerner
+	religion=high_thelema
+	martial=5
+	diplomacy=6
+	stewardship=5
+	intrigue=6
+	learning=5
+	trait=intricate_webweaver
+	trait=quick
+	trait=physician
+	trait=scholar
+	trait=shrewd
+	trait=gamer
+	trait=ambitious
+	trait=cynical
+	trait=just
+	trait=chaste
+	trait=patient
+	trait=one_legged
+	
+	2626.5.7={birth=yes}
+	2657.5.25={effect = {add_artifact = prosthetic_leg_artifact} }
+	3050.1.1={death=yes}
+}
+4={
+	name="Robert"
+	dynasty=1005
+	culture=southerner
+	religion=high_thelema
+	martial=6
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=4
+	trait=tough_soldier
+	trait=twin
+	trait=robust
+	trait=duelist
+	trait=wroth
+	trait=proud
+	trait=cruel
+	father=6
+    mother=101534
+	
+	2633.10.24={birth=yes}
+	2695.3.17={death=yes}
+}
+5={
+	name="Roger"
+	dynasty=1005
+	culture=southerner
+	religion=high_thelema
+	martial=4
+	diplomacy=5
+	stewardship=6
+	intrigue=4
+	learning=4
+	trait=fortune_builder
+	trait=twin
+	trait=sturdy
+	trait=duelist
+	trait=diligent
+	trait=wroth
+	trait=cruel
+	father=6
+    mother=101534
+	
+	2633.10.24={birth=yes}
+	2700.10.1={death=yes}
+}
+6={
+	name="James"
+	dynasty=1005 
+	culture=southerner
+	religion=high_thelema
+	martial=3
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=4
+	trait=fortune_builder
+	trait=patient
+	trait=ambitious
+	trait=diligent
+	trait=greedy
+	
+	2590.1.2={birth=yes}
+	2630.1.1={
+          add_spouse=7
+     }
+	2650.10.3={death=yes}
+}
+7={
+	name="Dee"
+	culture=southerner
+	religion=high_thelema
+	female = yes
+	martial=3
+	diplomacy=5
+	stewardship=4
+	intrigue=5
+	learning=4
+	trait=naive_appeaser
+	trait=patient
+	trait=kind
+	trait=wroth
+	
+	2600.4.1={birth=yes}
+	2641.1.5={death=yes}
+}
+8={
+	name="Alexander"
+	dynasty=1006
+	culture=bengali
+	religion=sunni
+	martial=3
+	diplomacy=5
+	intrigue=4
+	learning=5
+	trait=midas_touched
+	trait=kind
+	trait=honest
+	trait=just
+	trait=shrewd
+	
+	2643.10.2={
+	birth=yes
+	culture=southerner}
+	2700.1.3={death=yes}
+}
+9={
+	name="Gideon"
+	dynasty=1007
+	culture=southerner
+	religion=jewish
+	martial=3
+	diplomacy=6
+	intrigue=6
+	learning=5
+	trait=grey_eminence
+	trait=ambitious
+	trait=shrewd
+	trait=proud
+	trait=diligent
+	trait=just
+	
+	2640.4.3={birth=yes}
+	2710.3.4={death=yes}
+}
+10={
+	name="Samuel"
+	dynasty=1008
+	culture=southerner
+	religion=high_thelema
+	martial=8
+	diplomacy=4
+	intrigue=6
+	learning=6
+	trait=skilled_tactician
+	trait=shrewd
+	trait=robust
+	trait=just
+	trait=humble
+	trait=cynical
+	trait=honest
+	trait=charitable
+	trait=content
+	trait=stubborn
+	trait=drunkard 
+	
+	2640.10.24={birth=yes}
+	2700.10.1={death=yes}
+}
+11={
+	name="Sybil"
+	female=yes
+	dynasty=1009
+	culture=southerner
+	religion=high_thelema
+	martial=6
+	martial=5
+	intrigue=5
+	learning=5
+	trait=grey_eminence
+	trait=strong
+	trait=shrewd
+	trait=is_fat
+	trait=gardener
+	trait=kind
+	trait=charitable
+	trait=patient
+	2640.10.24={birth=yes}
+	2663.10.12={effect = {add_lover=10}}
+	2665.4.14={add_spouse=10}
+	2700.10.1={death=yes}
+}
+12={
+	name="Eve"
+	female=yes
+    dynasty=1010
+    culture=southerner
+    religion=high_thelema
+    martial=6
+    diplomacy=5
+    stewardship=7
+    intrigue=7
+    learning=5
+    trait=skilled_tactician
+    trait=fair
+    trait=lunatic
+    trait=cruel
+    trait=impaler
+    trait=paranoid
+    trait=patient
+	2648.8.12={birth=yes}
+	2700.1.2={death=yes}
+}
+14={
+	name="Albert"
+    dynasty=1011
+    culture=southerner
+    religion=high_thelema
+    martial=4
+    diplomacy=5
+    stewardship=4
+    intrigue=4
+    learning=7
+    trait=skilled_tactician
+    trait=bright
+    trait=scholar
+    trait=lustful
+    trait=cynical
+    trait=just
+    trait=kind
+	2620.9.21={birth=yes}
+	2700.8.13={death=yes}
+}
+15={
+	name="Thomas"
+    dynasty=1100
+    culture=westlander
+    religion=low_thelema
+    martial=3
+    diplomacy=5
+    stewardship=6
+    intrigue=4
+    learning=5
+    trait=scholarly_theologian
+    trait=poet
+    trait=shy
+    trait=patient
+    trait=depressed
+	2627.5.14={birth=yes}
+	2680.4.1={death=yes}
+}
+16={
+	name="Asriel"
+    dynasty=1101
+    culture=westlander
+    religion=high_thelema
+    martial=5
+    diplomacy=5
+    stewardship=6
+    intrigue=4
+    learning=6
+    trait=scholarly_theologian
+    trait=cynical
+	trait=adventurer
+    trait=scholar
+	trait=shrewd
+	trait=mystic
+    trait=brave
+    trait=ambitious
+	trait=proud
+	trait=deceitful
+	trait=cynical
+	2626.10.19={birth=yes}
+	2700.3.1={death=yes}
+}
+18={
+	name="William"
+    dynasty=1102
+    culture=westlander
+    religion=low_thelema
+    martial=3
+    diplomacy=5
+    stewardship=3
+    intrigue=3
+    learning=7
+    trait=mastermind_theologian
+	trait=genius
+	trait=incapable
+	trait=scholar
+	trait=diligent
+	trait=patient
+	trait=stuborn
+	2642.1.8={birth=yes}
+	2718.3.14={death=yes}
+}
+19={
+	name="Pieter"
+    dynasty=1103
+    culture=westlander
+    religion=low_thelema
+    martial=4
+    diplomacy=5
+    stewardship=3
+    intrigue=3
+    learning=2
+    trait=underhanded_rogue
+	trait=erudite
+	trait=gardener
+	trait=charitable
+	trait=honest
+	trait=slothful
+	2612.5.3={birth=yes}
+	2670.8.10={death=yes}
+}
 17={
 	name="Thomas"
     dynasty=10112
@@ -17,7 +383,7 @@
 	2635.7.13={birth=yes}
 	2670.6.1={death=yes}
 }
-24 = {
+24={
 	name = "Terrence"
 	dynasty=1001
 	culture=westlander
@@ -36,30 +402,30 @@
 	2600.4.28={birth=yes}
 	2670.5.2={death=yes}
 }
-25 = {
-	name = "Frederick"
-	dynasty = 2490
-	culture = hannoverian
-	religion = free_church
-	martial= 6
-	diplomacy= 4
-	stewardship= 3
-	intrigue= 2
-	learning= 4
-	trait = scholarly_theologian
-	trait = poet
-	trait = kind
-	trait = honest
-	trait = shy
-	trait = brave
+25={
+	name="Frederick"
+	dynasty=2490
+	culture=hannoverian
+	religion=free_church
+	martial=6
+	diplomacy=4
+	stewardship=3
+	intrigue=2
+	learning=4
+	trait=scholarly_theologian
+	trait=poet
+	trait=kind
+	trait=honest
+	trait=shy
+	trait=brave
 	2641.5.2={birth=yes}
-	2663.1.3={ culture=cornish }
+	2663.1.3={culture=westlander}
 	2691.2.4={death=yes}
 }
-26 = {
-	name = "Gorron"
+26={
+	name="Gorron"
 	dynasty = 1322
-	culture = cornish
+	culture = westlander
 	religion = pelagic
 	martial = 6
 	diplomacy = 4
@@ -76,7 +442,7 @@
 	2620.3.1={birth=yes}
 	2671.1.3={death=yes}
 }
-27 = {
+27={
 	name = "Edward"
 	dynasty = 10104
 	culture = westlander
@@ -95,74 +461,74 @@
 	2620.5.28={birth=yes}
 	2681.3.2={death=yes}
 }
-28 = {
-	name = "Julian"
-	dynasty = 10105
-	culture = westlander
-	religion = high_thelema
-	martial = 2
-	diplomacy = 5
-	stewardship = 3
-	intrigue = 9
-	learning = 8
-	trait = amateurish_plotter
-	trait = charitable
-	trait = craven
-	trait = gluttonous
-	trait = lustful
+28={
+	name="Julian"
+	dynasty=10105
+	culture=westlander
+	religion=high_thelema
+	martial=2
+	diplomacy=5
+	stewardship=3
+	intrigue=9
+	learning=8
+	trait=amateurish_plotter
+	trait=charitable
+	trait=craven
+	trait=gluttonous
+	trait=lustful
 	2620.6.17={birth=yes}
 	2686.4.3={death=yes}
 }
-29 = {
-	name = "Curufinwe"
-    dynasty = 1106
-    culture = westlander
-    religion = valinorism
-    martial = 10
-    diplomacy = 5
-    stewardship = 5
-    intrigue = 6
-    learning = 14
-    trait = wroth
-    trait = quick
-    trait = cruel
-    trait = proud
+29={
+	name="Curufinwe"
+    dynasty=1106
+    culture=westlander
+    religion=valinorism
+    martial=10
+    diplomacy=5
+    stewardship=5
+    intrigue=6
+    learning=14
+    trait=wroth
+    trait=quick
+    trait=cruel
+    trait=proud
     2638.9.4={birth=yes}
     2671.1.3={death=yes}
 }
-31 = {
-	name = "Aracáno" ##Dorset
-    dynasty = 1108
-    culture = westlander
-    religion = valinorism
-    martial = 6
-    diplomacy = 8
-    stewardship = 10
-    intrigue = 5
-    learning = 7
-    trait = patient
-    trait = just
-    trait = ambitious
-    trait  = thrifty_clerk
+31={
+	name="Aracáno" ##Dorset
+    dynasty=1108
+    culture=westlander
+    religion=valinorism
+    martial=6
+    diplomacy=8
+    stewardship=10
+    intrigue=5
+    learning=7
+    trait=patient
+    trait=just
+    trait=ambitious
+    trait=thrifty_clerk
     2642.12.1={birth=yes}
     2671.1.3={death=yes}
 	##Curufinwe's half brother by their father.
 }
-33 = {
-	name = "Hymenaeus"
-    dynasty = 1110
-    culture = westlander
-    religion = high_thelema
-    martial = 4
-    diplomacy = 4
-    stewardship = 4
-    intrigue = 4
-    learning = 5
-	trait = intricate_webweaver 
-    trait = zealous
-    trait = proud
-    trait = wroth
-    trait  = deceitful
+33={
+	name="Hymenaeus"
+    dynasty=1110
+    culture=westlander
+    religion=high_thelema
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=5
+	trait=intricate_webweaver 
+    trait=zealous
+    trait=proud
+    trait=wroth
+    trait=deceitful
     2602.7.2={birth=yes}
     2671.1.3={death=yes}
 }
@@ -182,26 +548,6 @@
 	trait=content
 	2600.1.1={birth=yes}
 	2666.7.2={death=yes}
-}
-35 = {
-	name = "Clarke"
-    dynasty = 1111
-    culture = westlander
-    religion = valinorism
-    martial = 4
-    diplomacy = 4
-    stewardship = 5
-    intrigue = 4
-    learning = 5
-	trait = scholarly_theologian
-    trait = scholar
-	trait = gardener
-	trait = kind
-    trait = patient
-    trait = gregarious
-    trait  = greedy
-    2599.11.5={birth=yes}
-    2675.3.2={death=yes}
 }
 35 = {
 	name = "Clarke"
@@ -396,7 +742,7 @@
 	2720.4.20={ death=yes }
 }
 44={
-	name=Fitzwilliam
+	name=William
 	dynasty=1706
 	culture=midlander
 	religion=high_thelema
@@ -420,7 +766,7 @@
 	name=Elizabeth
 	female=yes
 	dynasty=1707
-	culture=londoner
+	culture=southerner
 	religion=high_thelema
 	martial=5
 	diplomacy=4
@@ -438,4 +784,329 @@
 	2665.5.4={ add_spouse=44 }
 	2722.4.1={ death=yes}
 }
+50 = {
+	name= "Edward"
+	dynasty=1600
+	culture=norfie
+	religion=high_church
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=3
+	learning=5
+	trait=skilled_tactician
+	trait=trickster
+	trait=unyielding_leader
+	trait=feeble
+	trait=shrewd
+	trait=brave
+	trait=proud
+	trait=shy
+	2649.3.1={birth=yes}
+	2690.3.3={death=yes}
+}
+51 = {
+	name = "Gordon"
+	dynasty=1800
+	culture=scouse
+	religion=high_thelema
+	martial=5
+	diplomacy=8
+	stewardship=2
+	intrigue=6
+	learning=6
+	trait=tough_soldier
+	trait=quick
+	trait=fair
+	trait=groomed
+	trait=hedonist
+	trait=poet
+	trait=ambitious
+	trait=arbitrary
+	trait=deceitful
+	trait=brave
+	trait=wroth
+	trait=lustful
+	trait=seducer 
+	2630.1.22={ birth=yes }
+	2689.12.26={ death=yes }
+}
+52 = {
+	name="John-Paul"
+	dynasty=1801
+	dna="dklodmomfga"
+	culture=scouse
+	religion=insular
+	martial=2
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=5
+	trait=grey_eminence
+	trait=quick
+	trait=musician
+	trait=socializer
+	trait=kind
+	trait=erudite
+	trait=lustful
+	trait=cynical
+	trait=proud
+	trait=ambitious
+	trait=sympathy_indian
+	2640.10.9={ birth=yes }
+	2680.12.8={ death=yes }
+}
+53 = {
+	name="Matthew" #Reference to a friend
+	dynasty=1802
+	culture=scouse
+	religion=free_church
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=3
+	trait=fortune_builder
+	trait=quick
+	trait=gamemaster
+	trait=patient
+	trait=lustful
+	trait=cynical
+	2642.6.15={ birth=yes }
+	2707.4.32={ death=yes }
+}
+54 = {
+	name="David"
+	dynasty=1803
+	culture=scouse
+	religion=insular
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=5
+	trait=intricate_webweaver
+	trait=genius
+	trait=arbitrary
+	trait=diligent
+	trait=stubborn
+	trait=cynical
+	trait=brave
+	2634.1.20={ birth=yes }
+	2690.2.10={ death=yes }
+}
+55 = {
+	name="Andy"
+	dynasty=1804
+	culture=scouse
+	religion=thelema
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=5
+	trait=mastermind_theologian
+	trait=poet
+	trait=diligent
+	trait=decietful
+	trait=wroth
+	2626.5.15={ birth=yes }
+	2701.11.6={ death=yes }
+}
+56 = {
+	name="Francis"
+	dynasty=1805
+	culture=scouse
+	religion=jewish
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=3
+	learning=5
+	trait=detatched_priest
+	trait=diligent
+	trait=musician
+	trait=kind
+	trait=fat
+	2628.2.3={ birth=yes }
+	2699.9.17={ death=yes }
+}
+57 = {
+	name="Lewis"
+	dynasty=1806
+	culture=scouse
+	religion=high_thelema
+	martial=5
+	diplomacy=4
+	stewardship=3
+	intrigue=5
+	learning=4
+	trait=intricate_webweaver
+	trait=shrewd
+	trait=arbitrary
+	trait=deceitful
+	trait=proud
+	trait=content
+	trait=envious
+	2620.1.30={ birth=yes }
+	2700.10.3={ death=yes }
+}
+58 = {
+	name="William"
+	dynasty=1601
+	culture=norfie
+	religion=free_church
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=5
+	trait=detached_priest
+	trait=shrewd
+	trait=socializer
+	trait=zealous
+	trait=just
+	trait=proud
+	2610.2.14={ birth=yes }
+	2678.3.12={ death=yes }
+}
+59 = {
+	name="William"
+	dynasty=1800
+	culture=norfie
+	religion=high_thelema
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=5
+	trait=tough_soldier
+	trait=groomed
+	trait=duelist
+	trait=gregarious
+	trait=stubborn
+	father=60
+    mother=61
+	2647.8.10={ birth=yes }
+	2680.2.8={ death=yes }
+}
+60 = {
+	name="James"
+	dynasty=1802
+	culture=norfie
+	religion=high_church
+	martial=5
+	diplomacy=4
+	stewardship=6
+	intrigue=5
+	learning=4
+	trait=fortune_builder
+	trait=cruel
+	trait=patient
+	trait=greedy
+	trait=diligent
+	2580.10.2={ birth=yes }
+	2640.8.8={ death=yes }
+}
+61 = {
+	name="Isabela"
+	female=yes
+	dynasty=1800
+	culture=scouse
+	religion=high_thelema
+	martial=5
+	diplomacy=4
+	stewardship=6
+	intrigue=5
+	learning=4
+	trait=naive_appeaser 
+	trait=patient
+	trait=kind
+	trait=diligent
+	2589.8.12={ birth=yes }
+	2625.6.10={ add_spouse=60 }
+	2650.3.2={ death=yes }
+}
+62 = {
+	name="John"
+	dynasty=1803
+	culture=norfie
+	religion=high_church
+	martial=3
+	diplomacy=4
+	stewardship=3
+	intrigue=3
+	learning=3
+	trait=naive_appeaser
+	trait=quick
+	trait=dull
+	trait=shy
+	trait=arbitrary
+	trait=kind
+	trait=proud
+	2637.1.1={ birth=yes }
+	2700.4.2={ death=yes }
+}
+63 = {
+	name="Francis" #every breath you take
+	dynasty=1804
+	culture=norfie
+	religion=high_church
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=5
+	trait=elusive_shadow
+	trait=quick
+	trait=musician
+	trait=charitable
+	trait=shy
+	2610.10.1={ birth=yes }
+	2690.4.10={ death=yes }
+}
+114 = {
+	name= "Elizabeth"
+	dynasty=1202
+	female=yes
+	culture=british
+	religion=high_church
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait=grey_eminence
+	trait=fair
+	trait=shrewd
+	trait=celibate
+	trait=ambitious
+	trait=brave
+	trait=just
+	trait=proud
 	
+	2640.5.24={birth=yes}
+	2721.1.22={death=yes}
+}
+115 = {
+	name="Thomas"
+	dynasty=1203
+	culture=southerner
+	religion=high_church
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=6
+	trait=mastermind_theologian
+	trait=scholar
+	trait=celibate
+	trait=proud
+	trait=brave
+	trait=stubborn
+	trait=ambitious
+	trait=patient
+	
+	2619.12.21={birth=yes}
+	2670.12.29={death=yes}
+}
