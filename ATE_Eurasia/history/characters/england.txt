@@ -1,7 +1,7 @@
 ###ÄNSI
 1001001 ={
 	name="Gaius"
-	dynasty=1002
+	dynasty=1001002 #Snaphance
 	culture=southerner
 	religion=high_thelema
 	martial=6
@@ -20,10 +20,10 @@
 	2592.3.16={birth=yes}
 	2660.2.10={death=yes}
 }
-2={
+1001002={
 	name="Albert"
-	dynasty=1003
-	culture=bavarian
+	dynasty=1001003 #Spangler
+	culture=german
 	religion=high_thelema
 	martial=3
 	diplomacy=7
@@ -37,13 +37,13 @@
 	trait=arbitrary
 	trait=diligent
 	trait=humble
-	2640.4.1={ birth=yes }
-	2666.3.1={ culture=southerner }
-	2724.3.10={ death=yes }
+	2640.4.1={birth=yes}
+	2666.3.1={culture=southerner}
+	2724.3.10={death=yes}
 }
-3={
+1001003={
 	name="Havelock"
-	dynasty=1004
+	dynasty=1001002 #Snaphance
 	dna="bgagjpgbaaw"
 	properties="ci0dfk00000000000000000000000000000000"
 	culture=southerner
@@ -55,8 +55,6 @@
 	learning=5
 	trait=intricate_webweaver
 	trait=quick
-	trait=physician
-	trait=scholar
 	trait=shrewd
 	trait=gamer
 	trait=ambitious
@@ -65,14 +63,13 @@
 	trait=chaste
 	trait=patient
 	trait=one_legged
-	
 	2626.5.7={birth=yes}
-	2657.5.25={effect = {add_artifact = prosthetic_leg_artifact} }
+	2657.5.25={effect={add_artifact=prosthetic_leg_artifact}}
 	3050.1.1={death=yes}
 }
-4={
+1001004={
 	name="Robert"
-	dynasty=1005
+	dynasty=1001005 #Kray
 	culture=southerner
 	religion=high_thelema
 	martial=6
@@ -87,15 +84,14 @@
 	trait=wroth
 	trait=proud
 	trait=cruel
-	father=6
-    mother=101534
-	
+	father=1001006
+	mother=1001007
 	2633.10.24={birth=yes}
 	2695.3.17={death=yes}
 }
-5={
+1001005={
 	name="Roger"
-	dynasty=1005
+	dynasty=1001005 #Kray
 	culture=southerner
 	religion=high_thelema
 	martial=4
@@ -110,15 +106,14 @@
 	trait=diligent
 	trait=wroth
 	trait=cruel
-	father=6
-    mother=101534
-	
+	father=1001006
+	mother=1001007
 	2633.10.24={birth=yes}
 	2700.10.1={death=yes}
 }
-6={
+1001006={
 	name="James"
-	dynasty=1005 
+	dynasty=1001005 #Kray
 	culture=southerner
 	religion=high_thelema
 	martial=3
@@ -131,14 +126,13 @@
 	trait=ambitious
 	trait=diligent
 	trait=greedy
-	
 	2590.1.2={birth=yes}
 	2630.1.1={
-          add_spouse=7
-     }
+        	add_spouse=1001007
+    	}
 	2650.10.3={death=yes}
 }
-7={
+1001007={
 	name="Dee"
 	culture=southerner
 	religion=high_thelema
@@ -152,13 +146,12 @@
 	trait=patient
 	trait=kind
 	trait=wroth
-	
 	2600.4.1={birth=yes}
 	2641.1.5={death=yes}
 }
-8={
+1001008={
 	name="Alexander"
-	dynasty=1006
+	dynasty=1001006 #Rahman
 	culture=bengali
 	religion=sunni
 	martial=3
@@ -170,15 +163,14 @@
 	trait=honest
 	trait=just
 	trait=shrewd
-	
 	2643.10.2={
 	birth=yes
 	culture=southerner}
 	2700.1.3={death=yes}
 }
-9={
+1001009={
 	name="Gideon"
-	dynasty=1007
+	dynasty=1001007 #Glasman
 	culture=southerner
 	religion=jewish
 	martial=3
@@ -191,13 +183,12 @@
 	trait=proud
 	trait=diligent
 	trait=just
-	
 	2640.4.3={birth=yes}
 	2710.3.4={death=yes}
 }
-10={
+1001010={
 	name="Samuel"
-	dynasty=1008
+	dynasty=1001008 #Vimes
 	culture=southerner
 	religion=high_thelema
 	martial=8
@@ -215,14 +206,13 @@
 	trait=content
 	trait=stubborn
 	trait=drunkard 
-	
 	2640.10.24={birth=yes}
 	2700.10.1={death=yes}
 }
-11={
+1001011={
 	name="Sybil"
 	female=yes
-	dynasty=1009
+	dynasty=1001009 #Ramkin
 	culture=southerner
 	religion=high_thelema
 	martial=6
@@ -238,106 +228,105 @@
 	trait=charitable
 	trait=patient
 	2640.10.24={birth=yes}
-	2663.10.12={effect = {add_lover=10}}
-	2665.4.14={add_spouse=10}
+	2663.10.12={effect={add_lover=1001010}}
+	2665.4.14={add_spouse=1001010}
 	2700.10.1={death=yes}
 }
-12={
+1001012={
 	name="Eve"
 	female=yes
-    dynasty=1010
-    culture=southerner
-    religion=high_thelema
-    martial=6
-    diplomacy=5
-    stewardship=7
-    intrigue=7
-    learning=5
-    trait=skilled_tactician
-    trait=fair
-    trait=lunatic
-    trait=cruel
-    trait=impaler
-    trait=paranoid
-    trait=patient
+	dynasty=1001010 #Van Zeeland
+   	culture=southerner
+	religion=high_thelema
+	martial=6
+	diplomacy=5
+	stewardship=7
+	intrigue=7
+	learning=5
+	trait=skilled_tactician
+	trait=fair
+	trait=lunatic
+	trait=cruel
+	trait=impaler
+	trait=paranoid
+	trait=patient
 	2648.8.12={birth=yes}
 	2700.1.2={death=yes}
 }
-14={
+1001013={
 	name="Albert"
-    dynasty=1011
-    culture=southerner
-    religion=high_thelema
-    martial=4
-    diplomacy=5
-    stewardship=4
-    intrigue=4
-    learning=7
-    trait=skilled_tactician
-    trait=bright
-    trait=scholar
-    trait=lustful
-    trait=cynical
-    trait=just
-    trait=kind
+	dynasty=1001011 #Welles
+	culture=southerner
+	religion=high_thelema
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=7
+	trait=skilled_tactician
+	trait=bright
+	trait=scholar
+	trait=lustful
+	trait=cynical
+	trait=just
+	trait=kind
 	2620.9.21={birth=yes}
 	2700.8.13={death=yes}
 }
-15={
+1001014={
 	name="Thomas"
-    dynasty=1100
-    culture=westlander
-    religion=low_thelema
-    martial=3
-    diplomacy=5
-    stewardship=6
-    intrigue=4
-    learning=5
-    trait=scholarly_theologian
-    trait=poet
-    trait=shy
-    trait=patient
-    trait=depressed
+	dynasty=1101000 #Constable
+	culture=southerner
+	religion=low_thelema
+	martial=3
+	diplomacy=5
+	stewardship=6
+	intrigue=4
+	learning=5
+	trait=scholarly_theologian
+	trait=poet
+	trait=shy
+	trait=patient
+	trait=depressed
 	2627.5.14={birth=yes}
 	2680.4.1={death=yes}
 }
-16={
+1001015={
 	name="Asriel"
-    dynasty=1101
-    culture=westlander
-    religion=high_thelema
-    martial=5
-    diplomacy=5
-    stewardship=6
-    intrigue=4
-    learning=6
-    trait=scholarly_theologian
-    trait=cynical
+	dynasty=1101001 #Ross
+	culture=southerner
+	religion=high_thelema
+	martial=5
+	diplomacy=5
+	stewardship=6
+	intrigue=4
+	learning=6
+	trait=scholarly_theologian
+	trait=cynical
 	trait=adventurer
-    trait=scholar
 	trait=shrewd
 	trait=mystic
-    trait=brave
-    trait=ambitious
+	trait=brave
+	trait=ambitious
 	trait=proud
 	trait=deceitful
 	trait=cynical
 	2626.10.19={birth=yes}
 	2700.3.1={death=yes}
 }
-18={
+1001016={
 	name="William"
-    dynasty=1102
-    culture=westlander
-    religion=low_thelema
-    martial=3
-    diplomacy=5
-    stewardship=3
-    intrigue=3
-    learning=7
-    trait=mastermind_theologian
+	dynasty=1101002 #Fowler
+	culture=southerner
+	religion=low_thelema
+	martial=3
+	diplomacy=5
+	stewardship=3
+	intrigue=3
+	learning=7
+	trait=mastermind_theologian
 	trait=genius
-	trait=incapable
+	trait=crippled
 	trait=scholar
 	trait=diligent
 	trait=patient
@@ -345,17 +334,17 @@
 	2642.1.8={birth=yes}
 	2718.3.14={death=yes}
 }
-19={
+1001017={
 	name="Pieter"
-    dynasty=1103
-    culture=westlander
-    religion=low_thelema
-    martial=4
-    diplomacy=5
-    stewardship=3
-    intrigue=3
-    learning=2
-    trait=underhanded_rogue
+	dynasty=1101003 #Russell
+	culture=southerner
+	religion=low_thelema
+	martial=4
+	diplomacy=5
+	stewardship=3
+	intrigue=3
+	learning=2
+	trait=underhanded_rogue
 	trait=erudite
 	trait=gardener
 	trait=charitable
@@ -364,29 +353,29 @@
 	2612.5.3={birth=yes}
 	2670.8.10={death=yes}
 }
-17={
+1001018={
 	name="Thomas"
-    dynasty=10112
-    culture=westlander
-    religion=high_thelema
-    martial=3
-    diplomacy=4
-    stewardship=3
-    intrigue=3
-    learning=3
-    trait=indulgent_wastrel
+	dynasty=1701008 #Erskine
+	culture=midlander
+	religion=high_thelema
+	martial=3
+	diplomacy=4
+	stewardship=3
+	intrigue=3
+	learning=3
+	trait=indulgent_wastrel
 	trait=homosexual
 	trait=socializer
-    trait=arbitrary
+	trait=arbitrary
 	trait=greedy
 	trait=kind
 	2635.7.13={birth=yes}
 	2670.6.1={death=yes}
 }
-24={
-	name = "Terrence"
-	dynasty=1001
-	culture=westlander
+1001019={
+	name="Terence"
+	dynasty=1001000
+	culture=southerner
 	religion=high_thelema
 	martial=5
 	diplomacy=5
@@ -402,10 +391,10 @@
 	2600.4.28={birth=yes}
 	2670.5.2={death=yes}
 }
-25={
+1001020={
 	name="Frederick"
-	dynasty=2490
-	culture=hannoverian
+	dynasty=1001061 #Webber
+	culture=german
 	religion=free_church
 	martial=6
 	diplomacy=4
@@ -419,52 +408,54 @@
 	trait=shy
 	trait=brave
 	2641.5.2={birth=yes}
-	2663.1.3={culture=westlander}
+	2663.1.3={culture=westerner}
 	2691.2.4={death=yes}
 }
-26={
+1001021={
 	name="Gorron"
-	dynasty = 1322
-	culture = westlander
-	religion = pelagic
-	martial = 6
-	diplomacy = 4
-	stewardship = 5
-	intrigue = 5
-	learning = 4
-	trait = skilled_tactician 
-	trait = strong
-	trait = horifically_scarred
-	trait = duelist
-	trait = brave
-	trait = zealous
-	trait = ambitious
+	dynasty=1101059 #Hornblower
+	culture=westerner
+	religion=anglican
+	martial=6
+	diplomacy=4
+	stewardship=5
+	intrigue=5
+	learning=4
+	trait=skilled_tactician 
+	trait=strong
+	trait=horifically_scarred
+	trait=duelist
+	trait=brave
+	trait=zealous
+	trait=ambitious
+	trait=ruthless
+	trait=proud
 	2620.3.1={birth=yes}
 	2671.1.3={death=yes}
 }
-27={
-	name = "Edward"
-	dynasty = 10104
-	culture = westlander
-	religion = high_thelema
-	martial = 5
-	diplomacy = 8
-	stewardship = 7
-	intrigue = 4
-	learning = 5
-	trait = charismatic_negotiator
-	trait = bright
-	trait = trusting
-	trait = zealous
-	trait = wroth
-	trait = ambitious
+1001022={
+	name="Edward"
+	dynasty=1101004 #Pitt
+	culture=westerner
+	religion=high_thelema
+	martial=5
+	diplomacy=8
+	stewardship=7
+	intrigue=4
+	learning=5
+	trait=charismatic_negotiator
+	trait=bright
+	trait=trusting
+	trait=zealous
+	trait=wroth
+	trait=ambitious
 	2620.5.28={birth=yes}
 	2681.3.2={death=yes}
 }
-28={
+1001023={
 	name="Julian"
-	dynasty=10105
-	culture=westlander
+	dynasty=1101005 #Brown
+	culture=westerner
 	religion=high_thelema
 	martial=2
 	diplomacy=5
@@ -479,63 +470,63 @@
 	2620.6.17={birth=yes}
 	2686.4.3={death=yes}
 }
-29={
+1001024={
 	name="Curufinwe"
-    dynasty=1106
-    culture=westlander
-    religion=valinorism
-    martial=10
-    diplomacy=5
-    stewardship=5
-    intrigue=6
-    learning=14
-    trait=wroth
-    trait=quick
-    trait=cruel
-    trait=proud
-    2638.9.4={birth=yes}
-    2671.1.3={death=yes}
+	dynasty=1101006 #Anaduni
+	culture=westerner
+	religion=valinorism
+	martial=10
+	diplomacy=5
+	stewardship=5
+	intrigue=6
+	learning=14
+	trait=wroth
+	trait=quick
+	trait=cruel
+	trait=proud
+	2638.9.4={birth=yes}
+	2671.1.3={death=yes}
 }
-31={
+1001025={
 	name="Aracáno" ##Dorset
-    dynasty=1108
-    culture=westlander
-    religion=valinorism
-    martial=6
-    diplomacy=8
-    stewardship=10
-    intrigue=5
-    learning=7
-    trait=patient
-    trait=just
-    trait=ambitious
-    trait=thrifty_clerk
-    2642.12.1={birth=yes}
-    2671.1.3={death=yes}
+	dynasty=1101008 #Gimileth
+	culture=westerner
+	religion=valinorism
+	martial=6
+	diplomacy=8
+	stewardship=10
+	intrigue=5
+	learning=7
+	trait=patient
+	trait=just
+	trait=ambitious
+	trait=thrifty_clerk
+	2642.12.1={birth=yes}
+	2671.1.3={death=yes}
 	##Curufinwe's half brother by their father.
 }
-33={
+1001026={
 	name="Hymenaeus"
-    dynasty=1110
-    culture=westlander
-    religion=high_thelema
-    martial=4
-    diplomacy=4
-    stewardship=4
-    intrigue=4
-    learning=5
+	dynasty=1101010 #Theta
+	culture=westerner
+	religion=high_thelema
+	martial=4
+	diplomacy=4
+	stewardship=4
+	intrigue=4
+	learning=5
 	trait=intricate_webweaver 
-    trait=zealous
-    trait=proud
-    trait=wroth
-    trait=deceitful
-    2602.7.2={birth=yes}
-    2671.1.3={death=yes}
+	trait=zealous
+	trait=proud
+	trait=wroth
+	trait=deceitful
+	2602.7.2={birth=yes}
+	2671.1.3={death=yes}
 }
-34 = {
-	name= "Edwin"
-	dynasty=1703
-	culture=westlander
+1001027={
+	name="Edwin"
+	dynasty=1701003 #FitzSpatstone
+	culture=westerner
 	religion=high_thelema
 	martial=3
 	diplomacy=3
@@ -549,31 +540,31 @@
 	2600.1.1={birth=yes}
 	2666.7.2={death=yes}
 }
-35 = {
-	name = "Clarke"
-    dynasty = 1111
-    culture = westlander
-    religion = valinorism
-    martial = 4
-    diplomacy = 4
-    stewardship = 5
-    intrigue = 4
-    learning = 5
-	trait = scholarly_theologian
-    trait = scholar
-	trait = gardener
-	trait = kind
-    trait = patient
-    trait = gregarious
-    trait  = greedy
-    2599.11.5={birth=yes}
-    2675.3.2={death=yes}
+1001028 = {
+	name="Clarke"
+	dynasty=1101011 #Carne
+	culture=westerner
+	religion=valinorism
+	martial=4
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait=scholarly_theologian
+	trait=erudite
+	trait=gardener
+	trait=kind
+	trait=patient
+	trait=gregarious
+	trait=greedy
+	2599.11.5={birth=yes}
+	2675.3.2={death=yes}
 }
-36={
+1001029={
 	name="James"
-	dynasty=1112
+	dynasty=1101012 #Bertram
 	dna="immdklkbgjo"
-	culture=westlander
+	culture=westerner
 	religion=free_church
 	martial=7
 	diplomacy=5
@@ -589,9 +580,9 @@
 	2619.5.11={ birth=yes }
 	2668.11.24={ death=yes }
 }
-37={
-	name="Matthew"
-	dynasty=1700
+1001030={
+	name="Josiah"
+	dynasty=1701000 #Boulton
 	dna="mjcjllpjldh"
 	culture=midlander
 	religion=high_thelema
@@ -609,9 +600,9 @@
 	2626.2.27={ birth=yes }
 	2715.8.14={ death=yes }
 }
-38={
+1001031={
 	name="William"
-	dynasty=1701
+	dynasty=1701001 #Condell
 	dna="hnbbplgpakn"
 	culture=midlander
 	religion=high_thelema
@@ -630,9 +621,9 @@
 	2641.9.14={ birth=yes }
 	2697.10.12={ death=yes }
 }
-39={
+1001032={
 	name="Robert"
-	dynasty=1720
+	dynasty=1701020 #Ashworth
 	dna="gdegjcfkkpd"
 	culture=midlander
 	religion=high_thelema
@@ -650,9 +641,9 @@
 	2634.5.19={ birth=yes }
 	2713.2.28={ death=yes }
 }
-40={
+1001033={
 	name="Charles"
-	dynasty=1702
+	dynasty=1701002 #Babwin
 	dna="dcadbmpegmc"
 	culture=midlander
 	religion=high_thelema
@@ -674,9 +665,9 @@
 	2659.11.22={effect = {add_artifact = magnum_opus_alchemy_panacea_3} }
 	2699.7.30={ death=yes }
 }
-41={
+1001034={
 	name="Alfred"
-	dynasty=1703
+	dynasty=1701003 #FitzSpatstone
 	dna="mifmobmcill"
 	culture=midlander
 	religion=high_thelema
@@ -697,9 +688,9 @@
 	2620.9.8={ birth=yes }
 	2678.6.12={ death=yes }
 }
-42={
+1001035={
 	name=William
-	dynasty=1704
+	dynasty=1701004 #Armitage
 	dna="ioaibacdien"
 	culture=midlander
 	religion=free_church
@@ -719,12 +710,12 @@
 	2623.6.11={ birth=yes }
 	2698.4.20={ death=yes }
 }
-43={
+1001036={
 	name=Robin
-	dynasty=1705
+	dynasty=1701005 #Locksley
 	dna="ioaibacdien"
 	culture=midlander
-	religion=word_of_blake
+	religion=free_church
 	martial=4
 	diplomacy=7
 	stewardship=7
@@ -738,12 +729,12 @@
 	trait=just
 	trait=charitable
 	trait=humble 
-	2647.3.4={ birth=yes }
-	2720.4.20={ death=yes }
+	2647.3.4={birth=yes}
+	2720.4.20={death=yes}
 }
-44={
+1001037={
 	name=William
-	dynasty=1706
+	dynasty=1701006 #Darcy
 	culture=midlander
 	religion=high_thelema
 	martial=5
@@ -759,13 +750,13 @@
 	trait=just
 	trait=proud
 	trait=kind
-	2640.1.28={ birth=yes }
-	2721.3.2={ death=yes}
+	2640.1.28={birth=yes}
+	2721.3.2={death=yes}
 }
-45={
+1001038={
 	name=Elizabeth
 	female=yes
-	dynasty=1707
+	dynasty=1701007 #Bennet
 	culture=southerner
 	religion=high_thelema
 	martial=5
@@ -779,15 +770,15 @@
 	trait=cynical
 	trait=proud
 	trait=kind
-	2643.4.10={ birth=yes }
-	2665.2.5={effect = {add_lover=44}}
-	2665.5.4={ add_spouse=44 }
-	2722.4.1={ death=yes}
+	2643.4.10={birth=yes}
+	2665.2.5={effect = {add_lover=1001037}}
+	2665.5.4={add_spouse=1001037}
+	2722.4.1={death=yes}
 }
-50 = {
-	name= "Edward"
-	dynasty=1600
-	culture=norfie
+1001039={
+	name="Edward"
+	dynasty=1601000 #Rendower
+	culture=northerner
 	religion=high_church
 	martial=7
 	diplomacy=3
@@ -805,9 +796,9 @@
 	2649.3.1={birth=yes}
 	2690.3.3={death=yes}
 }
-51 = {
-	name = "Gordon"
-	dynasty=1800
+1001040={
+	name="Gordon"
+	dynasty=1801000 #Byron-Englesea
 	culture=scouse
 	religion=high_thelema
 	martial=5
@@ -828,12 +819,12 @@
 	trait=wroth
 	trait=lustful
 	trait=seducer 
-	2630.1.22={ birth=yes }
-	2689.12.26={ death=yes }
+	2630.1.22={birth=yes}
+	2689.12.26={death=yes}
 }
-52 = {
+1001041={
 	name="John-Paul"
-	dynasty=1801
+	dynasty=1801001 #Harrison
 	dna="dklodmomfga"
 	culture=scouse
 	religion=insular
@@ -856,9 +847,9 @@
 	2640.10.9={ birth=yes }
 	2680.12.8={ death=yes }
 }
-53 = {
+1001042={
 	name="Matthew" #Reference to a friend
-	dynasty=1802
+	dynasty=1801002 #Ganumaga
 	culture=scouse
 	religion=free_church
 	martial=4
@@ -875,9 +866,9 @@
 	2642.6.15={ birth=yes }
 	2707.4.32={ death=yes }
 }
-54 = {
+1001043={
 	name="David"
-	dynasty=1803
+	dynasty=1801003 #Baker
 	culture=scouse
 	religion=insular
 	martial=4
@@ -895,9 +886,9 @@
 	2634.1.20={ birth=yes }
 	2690.2.10={ death=yes }
 }
-55 = {
-	name="Andy"
-	dynasty=1804
+1001044={
+	name="Andrew"
+	dynasty=1801004 #Carpenter
 	culture=scouse
 	religion=thelema
 	martial=4
@@ -913,9 +904,9 @@
 	2626.5.15={ birth=yes }
 	2701.11.6={ death=yes }
 }
-56 = {
+1001045={
 	name="Francis"
-	dynasty=1805
+	dynasty=1801005 #Ableson
 	culture=scouse
 	religion=jewish
 	martial=4
@@ -931,9 +922,9 @@
 	2628.2.3={ birth=yes }
 	2699.9.17={ death=yes }
 }
-57 = {
+1001046={
 	name="Lewis"
-	dynasty=1806
+	dynasty=1801006 #Lees
 	culture=scouse
 	religion=high_thelema
 	martial=5
@@ -951,10 +942,10 @@
 	2620.1.30={ birth=yes }
 	2700.10.3={ death=yes }
 }
-58 = {
+1001047={
 	name="William"
-	dynasty=1601
-	culture=norfie
+	dynasty=1601001 #Clarkson
+	culture=northerner
 	religion=free_church
 	martial=4
 	diplomacy=5
@@ -970,10 +961,10 @@
 	2610.2.14={ birth=yes }
 	2678.3.12={ death=yes }
 }
-59 = {
+1001048={
 	name="William"
-	dynasty=1800
-	culture=norfie
+	dynasty=1801002 #Ganumaga
+	culture=northerner
 	religion=high_thelema
 	martial=4
 	diplomacy=5
@@ -986,14 +977,14 @@
 	trait=gregarious
 	trait=stubborn
 	father=60
-    mother=61
+	mother=61
 	2647.8.10={ birth=yes }
 	2680.2.8={ death=yes }
 }
-60 = {
+1001049={
 	name="James"
-	dynasty=1802
-	culture=norfie
+	dynasty=1801002 #Ganumaga
+	culture=northerner
 	religion=high_church
 	martial=5
 	diplomacy=4
@@ -1008,10 +999,10 @@
 	2580.10.2={ birth=yes }
 	2640.8.8={ death=yes }
 }
-61 = {
+1001050={
 	name="Isabela"
 	female=yes
-	dynasty=1800
+	dynasty=1801000 #Byron-Englesea
 	culture=scouse
 	religion=high_thelema
 	martial=5
@@ -1027,10 +1018,10 @@
 	2625.6.10={ add_spouse=60 }
 	2650.3.2={ death=yes }
 }
-62 = {
+1001051={
 	name="John"
-	dynasty=1803
-	culture=norfie
+	dynasty=1601002 #Lytton
+	culture=northerner
 	religion=high_church
 	martial=3
 	diplomacy=4
@@ -1047,10 +1038,10 @@
 	2637.1.1={ birth=yes }
 	2700.4.2={ death=yes }
 }
-63 = {
+1001052={
 	name="Francis" #every breath you take
-	dynasty=1804
-	culture=norfie
+	dynasty=1801004 #Shaffer
+	culture=northerner
 	religion=high_church
 	martial=4
 	diplomacy=5
@@ -1065,9 +1056,9 @@
 	2610.10.1={ birth=yes }
 	2690.4.10={ death=yes }
 }
-114 = {
-	name= "Elizabeth"
-	dynasty=1202
+1001053={
+	name="Elizabeth"
+	dynasty=1200002
 	female=yes
 	culture=british
 	religion=high_church
@@ -1084,13 +1075,12 @@
 	trait=brave
 	trait=just
 	trait=proud
-	
 	2640.5.24={birth=yes}
 	2721.1.22={death=yes}
 }
-115 = {
+1001054={
 	name="Thomas"
-	dynasty=1203
+	dynasty=1200000
 	culture=southerner
 	religion=high_church
 	martial=4
@@ -1106,7 +1096,6 @@
 	trait=stubborn
 	trait=ambitious
 	trait=patient
-	
 	2619.12.21={birth=yes}
 	2670.12.29={death=yes}
 }

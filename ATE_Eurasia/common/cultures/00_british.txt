@@ -77,54 +77,55 @@ britannic = {
 	}	
 
 	southerner = {
-		graphical_cultures = { celticgfx englishgfx }
+		graphical_cultures = { englishgfx }
 		unit_graphical_cultures = { englishgfx celticgfx }
 		color = { 0.8 0.5 0.3 }
 		
 		male_names = {
-			Adam Adrian Ahmed Ainsley Alan Albert Alexander Alfred Algernon Ali Ambrose Andrew Angus Anthony Archibald Arthur Augustus
-			Barlow Benedict Benjamin Bernard Bertram Bertrand Boris Bracewell Brian
-			Casimir Cecil Charles Christian Christopher Churchill Claude_Claudius Clement Clive Colin Coningsby Conrad Cuthbert Cyril
-			Daniel David Dean Denis Derek Douglas Dudley
-			Edgar Edmund Edward Elliott Elton Eric Ernest Errol Ewart
-			Francis Frederick
-			Gascoyne Geoffrey George Gerald Gerard Gilbert Giles Godfrey Gordon Graham Gregory
-			Harold Havelock Heath Henry Herbert Horatio_Horace Hugh Humphrey Hussein
-			Ian Idris
+			Adam Adrian Ahmed Ainsley Ajax Alan Albert Albus Alexander Alfred Algernon Ali Ambrose Andrew Angus Anthony Archibald Arthur Attwell Augustus
+			Baldrick Balian Barlow Barnaby Bedivere Benedict Benjamin Bernard Bertram Bertrand Boris Borogove Bracewell Brian Brutus
+			Casimir Cecil Cedric Charles Chilperick Christian Christopher Churchill Claude_Claudius Clement Clive Colin Coningsby Conrad Craddock Cuthbert Cyril
+			Daniel David Dean Denis Derek Dorian Douglas Dudley
+			Ector_Hector Edgar Edmund Edward Elliott Elton Eric Ernest Errol Ewart
+			Francis Frederick Frobisher
+			Gallahad Gascoyne Geoffrey George Gerald Gerard Gilbert Giles Godfrey Gordon Graham Gregory Guy
+			Harold Hartnell Havelock Heath Henry Herbert Horatio_Horace Hugh Humphrey Hurndall Hussein
+			Ian Idris Inigo Isambard
 			Jacob James Jay Jeremy John Jonathan Joseph Joshua Julian
 			Keith Kenneth Kevin
-			Lawrence Leonard Leslie Lionel Lloyd Louis
-			Malcolm Marcus Marmaduke Martin Marvin Matthew Maurice Maxwell Melville Merrick Michael Miles Myecroft
-			Nathaniel Neil Neville Nicholas Nigel Noel
-			Oliver Osmond Oswald Owen
-			Patrick Paul Percy Peter Philip
-			Ralph Ramsay Raymond Reginald Richard Robert Robin Roger Roland Ronald Royston Rupert Russell
-			Sadiq Samuel Scott Serlo Seymour Sherlock Sidney Slingsby Spencer Stanislaw Stephen Stuart_Stewart
-			Terence Thaddeus Thomas Timothy
-			Urban
-			Valentine
+			Lancelot Lawrence Leonard Lesland Leslie Lionel Lloyd Louis Lovarck Lucius
+			Malcolm Marcus Marmaduke Martin Marvin Matthew Maurice Maxwell Meldrick Melville Merrick Michael Miles Myecroft
+			Nathaniel Neddard Neil Nelson Nennius Neville Nicholas Nigel Noel
+			Oberon Oliver Osmond Oswald Outgrabe Owen
+			Patrick Paul Pelleas Pepin Percival Philip Phineas Pieter_Peter
+			Ralph Ramsay Raymond Reginald Richard Rigby Robert Robin Roger Roland Ronald Royston Ruddigore Rudyard Rugbert Rupert Russell
+			Sadiq Sagramore Samuel Scathelock Scott Serlo Severus Seymour Sherlock Sidney Slingsby Spencer Stanislaw Stephen Stuart_Stewart Sullivan Sylvester
+			Teignmouth Terence Thaddeus Theobald Theophilus Thomas Tiberius Timothy 
+			Uriens Urban Uther
+			Valentine Vardamir Victor Vincent
 			Wallace Walter Watkin Wellington Wembley William Winston Wladyslaw
 		}
 		female_names = { 
-			Ada Agatha Alexandra Alice Alison Anabel Angela Anne Annette
+			Abigale Ada Agatha Agnes Alexandra Alice Alison Almyra Anabel Angela Anne Annette Antimony Aphrodite
 			Barbara Beatrice Belinda
-			Camilla Caroline Christine Cicely Claire Cornelia
+			Camilla Caroline Charity Christine Cicely Claire Clementina_Clementine Cleonie Cordelia Cornelia Cynthia
 			Daisy Danielle Diana Dorothy
-			Edith Eleanor Eliza_Elizabeth Elizabeth Emily Emma Enid Ethel
-			Felicity Florence
-			Georgina Geraldine Gladys Grace Gwyneth
-			Hannah Harriet Helen Henrietta Horatia
-			Isabel
+			Edith Edwina Elaine Eleanor Eliza_Elizabeth Elizabeth Elspeth Emily Emma Enid Ethel Eudora Evaine
+			Fay Felicity Fidelia Florence Frances
+			Georgina Geraldine Gladys Gloriana Grace Guinevere Gwyneth
+			Hannah Harriet Hazel Helen Henrietta Hermoine Honoria Horatia Hortense
+			Igraine Isabel Iseult
 			Jacqueline Jane Jennifer Joan Josephine Julie_Julia
 			Kate_Catherine
-			Laura Lenora Lily_Lillian Linda Louise Lucy
-			Margaret Mary Matilda Meera Melita Muriel
-			Nancy Nina
-			Patricia Pauline Phyllis 
-			Sarah Shireen Sophie_Sophia Stephanie Susan Sylvia
-			Tara Theresa
-			Victoria Virginia Vivienne_Vivian
-			Zoe
+			Laudine Laura Lenora Lily_Lillian Linda Lorraine Louise Lucy Lyonesse
+			Margaret Marian Mary Mathilda Meera Melita Mildred Millicent Miranda Morgause Muriel
+			Nancy Nightingale Nimue Nina
+			Patricia Pauline Permelia Petra Philomena Phoebe Phyllis Prudence
+			Samantha Sarah Selina Shireen Sophie_Sophia Stephanie Susan Sybil Sylvia
+			Tara Theodosia Theresa
+			Venus Victoria Virginia Vivienne_Vivian
+			Winnifred
+			Zoe Zylphia
 		}
 			
 		from_dynasty_prefix = "of "
@@ -143,8 +144,8 @@ britannic = {
 		modifier = default_culture_modifier
 	}
 
-	westlander = {
-		graphical_cultures = { celticgfx englishgfx }
+	westerner = {
+		graphical_cultures = { englishgfx }
 		unit_graphical_cultures = { englishgfx celticgfx }
 
 		color = { 0.8 0.2 0.2 }
@@ -160,7 +161,7 @@ britannic = {
 			Halfast Halfred Hamfast Haming Hamson Harding Hardy Hending Henry Heribald Herugar Hildebrand Hildegard Hildifons Hildigrim Hobson Holdwine Holman Horatio_Horace Howel Hugh Humphrey
 			Ilberic Isaac Isembard Isembond Isengar Isengrim 
 			Jabez Jacob Jago_James Jonathan Jory_George Joseph Jowan_John Justin
-			Kenneth
+			Keneder Kenneth Kenstec Kenver Kenwyn Kevern
 			Lawrence Lewis_Louis Lotho Luke
 			Madern Madoc Marcho Margh_Mark Marmaduke Marroc Martin Massen_Maximus Matthias_Matthew Mawgan Melor Meriadoc Meriasek Merimas Milo Mordalfus Mortimer Mungo Myghal_Michael
 			Nicholas
@@ -214,7 +215,7 @@ britannic = {
 		modifier = default_culture_modifier
 	}
 	
-	norfie = {
+	northerner = {
 		graphical_cultures = { englishgfx }
 		
 		color = { 0.6 0.2 0.2 }
@@ -256,7 +257,7 @@ britannic = {
 		mother_name_chance = 5
 	}
 	
-	scots = {
+	lowlander = {
 		graphical_cultures = { englishgfx }
 		
 		color = { 0.6 0.3 0.2 }
@@ -304,7 +305,7 @@ britannic = {
 		tribal_name = "TRIBAL_NAME_PROV_CLAN"
 	}
 	
-	ullans = {
+	ulsterman = {
 		graphical_cultures = { englishgfx }
 		
 		color = { 0.8 0.4 0.3 }
