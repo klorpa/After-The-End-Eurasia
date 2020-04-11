@@ -148,13 +148,13 @@
 }
 1901008={
 	name="Wullie"
-	dynasty=2001000 #Low
+	dynasty=1901009 #Low
 	martial=5
 	diplomacy=5
 	intrigue=4
 	stewardship=5
 	religion=free_church
-	culture=highlander
+	culture=lowlander
 	trait=playful
 	trait=rowdy
 	trait=willful
@@ -299,4 +299,23 @@
 	trait=shy
 	2625.6.7={ birth=yes }
 	2690.3.20={ death=yes }
+}
+1901016={
+	name="Gordon"
+	dynasty=2001000 #Gordon
+	culture=highlander
+	religion=insular
+	martial=8
+	diplomacy=8
+	stewardship=8
+	intrigue=8
+	learning=8
+	trait=tough_soldier
+	trait=brave
+	trait=ruthless
+	trait=deceitful
+	trait=ambitious
+	trait=greedy
+	2635.8.18={ birth=yes }
+	2708.7.8={ death=yes }
 }
