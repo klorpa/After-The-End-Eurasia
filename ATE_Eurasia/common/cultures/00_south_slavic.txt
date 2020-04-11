@@ -1,0 +1,38 @@
+###ÄNSI
+
+south_slavic = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { easterngfx }
+
+	croatian = {
+		graphical_cultures = { croatsouthslavicgfx }
+		
+		color = { 0.4 0.2 0.2 }
+
+		male_names = {
+			Adam_Adam Andrija Bartol_Bartolomeus Besar Bojan Boris Branimir Castimir_Casimir Danail_Daniel Dmitar_Demetrius Dobromir Dragan Dragomir Drzislav Dujam Duym Filip_Philip Gaspar_Caspar Gheorghe_George Grigorii_Gregory
+			Hranislav Hrvoje Igor_Ingvar Ioan_John Ivan_John Ivanis Jitej Karlo_Charles Koloman_Koloman Kresimir Ladislav_Vladislav Ljudevit Ljutomisl Lovro Matej_Matthew Mihajlo_Michael Milman Mislav Mutimir
+			Nikolitza_Nicholas Ognjen Petar_Peter Prohor Radomir Ratimir_Ratimir Sebeslav Seslav Slavich Stanislav_Stanislav Stjepan_Stephen Sulvan Teodor_Theodore Tomislav Tvrdoslav Tvrtko Ulfo_Ulf Vid Vitomir Vlaicu
+			Vukan Zvonimir
+		}
+		female_names = {
+			Adriana_Adriana Anna_Anna Borislava Cededa Doroteja_Dorothy Ekaterina_Catherine Helena_Helen Jadviga_Hedwig Jovana_Joan Kera Ladika Maria_Maria Mihaela_Michaela Nada Petra Viola_Yolanda Jadranka Mare
+			Antonija_Antonia Capeka Dragana Dubravka Emilija_Emily Gordana Jagoda Jelena_Helen Jelka Lucija_Lucia Katalin_Catherine Marija_Maria Marijana_Mariana Mirjana Mirna Mojca Natalija_Natalia Nataša
+			Rijeka Silvija_Silvia Snjezana Sofija_Sophia Suzana_Susan Svjetlana Suronja Tatjana Tihana Valerija_Valeria Vedrana Visnja Vjekoslava Zlata Zvonimira
+		}
+		
+		from_dynasty_prefix = "od "
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+	}
+}
