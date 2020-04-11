@@ -1,0 +1,46 @@
+###ÄNSI###
+
+e_balkan = {
+	color={ 56 167 97 }
+	color2={ 255 255 255 }
+	capital = 27 # London REPLACE
+	
+	croatian = "Balkan" 
+
+	# Creation/usurpation trigger
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture = south_slavic
+			}
+		}
+	}
+	k_yugoslavia = {
+		color={ 56 58 97 }
+		color2={ 56 58 97 }
+		capital = 27 # London REPLACE
+		dignity = 2 # Counted as having this many more counties than it does
+		
+		croatian = "Jugoslavija"
+		
+		d_kvarner = {
+			color={ 241 90 35 }
+			color2={ 255 255 255 }
+			capital = 322 # Uljanik
+			
+			c_uljanik = {
+				color={ 241 90 35 }
+				color2={ 255 255 255 }
+				croatian = "Uljanik"
+			     
+				b_uljanik = {
+				}
+				b_pula = {
+				}
+				b_rovinj = {
+				}
+			}
+		}
+	}
+}
