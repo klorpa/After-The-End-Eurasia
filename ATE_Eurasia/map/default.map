@@ -19,6 +19,9 @@ seasons = "seasons.txt"
 sea_zones = { 106 150 }
 sea_zones = { 156 158 }
 
+# Baltic Sea
+sea_zones = { 417 425 }
+
 
 ocean_region = {	# European Ocean
 	sea_zones = { 1 }
@@ -28,7 +31,9 @@ ocean_region = {	# European Ocean
 tree = { 3 4 7 10 }
 
 major_rivers = 
-{ 
+{
+	426 427 428 #The Rhine
+	429 430 431 432 433 #The Elbe
 }
 
 externals = { 1509 1510 1512 } # Silkroad Paths to china
