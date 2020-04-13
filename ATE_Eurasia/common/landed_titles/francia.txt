@@ -133,13 +133,6 @@ e_france = {
 				}
 			}
 		}
-	k_grand_est = {
-		color = { 128 78 84 }
-		color2 = { 255 255 255 }
-		capital = 326 # brussels
-		
-		culture = francien
-		
 		d_ardenne = {
 			color={ 128 81 87 }
 			color2={ 255 255 255 }
@@ -225,14 +218,52 @@ e_france = {
 				}
 			}
 		}
-		d_moselle = {
-			color={ 83 124 239 }
+		d_alsace_lorraine = {
+			color={ 63 71 95 }
 			color2={ 255 255 255 }
 			
 			capital = 324 #Antwerp
 			
 			culture = francien
 			
+			c_bas_rhin = {
+				color={ 42 165 63 }
+				color2={ 255 255 255 }
+
+				b_bas_rhin = {
+				}
+				b_bas_rhin1 = {
+				}
+				b_bas_rhin2 = {
+				}
+				b_bas_rhin3 = {
+				}
+				b_bas_rhin4 = {
+				}
+				b_bas_rhin5 = {
+				}
+				b_bas_rhin6 = {
+				}
+			}
+			c_haut_rhin = {
+				color={ 168 189 67 }
+				color2={ 255 255 255 }
+
+				b_haut_rhin = {
+				}
+				b_haut_rhin1 = {
+				}
+				b_haut_rhin2 = {
+				}
+				b_haut_rhin3 = {
+				}
+				b_haut_rhin4 = {
+				}
+				b_haut_rhin5 = {
+				}
+				b_haut_rhin6 = {
+				}
+			}
 			c_meuse = {
 				color={ 43 126 18 }
 				color2={ 255 255 255 }
@@ -252,7 +283,7 @@ e_france = {
 				b_meuse6 = {
 				}
 			}
-			c_et_moselle = {
+			c_meurthe_et_moselle = {
 				color={ 84 168 191 }
 				color2={ 255 255 255 }
 
@@ -307,53 +338,6 @@ e_france = {
 				b_vosges5 = {
 				}
 				b_vosges6 = {
-				}
-			}
-		}
-		d_alsac_lorraine = {
-			color={ 63 71 95 }
-			color2={ 255 255 255 }
-			
-			capital = 324 #Antwerp
-			
-			culture = francien
-			
-			c_bas_rhin = {
-				color={ 42 165 63 }
-				color2={ 255 255 255 }
-
-				b_bas_rhin = {
-				}
-				b_bas_rhin1 = {
-				}
-				b_bas_rhin2 = {
-				}
-				b_bas_rhin3 = {
-				}
-				b_bas_rhin4 = {
-				}
-				b_bas_rhin5 = {
-				}
-				b_bas_rhin6 = {
-				}
-			}
-			c_haut_rhin = {
-				color={ 168 189 67 }
-				color2={ 255 255 255 }
-
-				b_haut_rhin = {
-				}
-				b_haut_rhin1 = {
-				}
-				b_haut_rhin2 = {
-				}
-				b_haut_rhin3 = {
-				}
-				b_haut_rhin4 = {
-				}
-				b_haut_rhin5 = {
-				}
-				b_haut_rhin6 = {
 				}
 			}
 		}
