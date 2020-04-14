@@ -8,30 +8,34 @@ benelux = {
 		color = { 0.7 0.4 0.35 }
 
 		male_names = {
-			Adriaen Albrecht_Albert Alwin Ambroos Antoon Arnold_Arnold Arnulf_Arnulf Balderik Barend Barnaerd_Bernard Bartolomeus_Bartolomeus
-			Bavo Bertold Boudewijn_Baldwin Claes_Nicholas Claeuwaert Daevit_David Damaes Diederick_Thierry Dirk_Thierry Douwe Eduard_Edward Egmund Ekbert
-			Emmo Engelbrecht Filips_Philip Floris Folbert Frans_Francis Frederik_Frederick Gerard_Gerard Gerolt Gerulf
-			Gerrit Gijsbrecht Giselbert_Gilbert Godfried_Godfrey Godschalk Gozewijn Guij_Guy Gwijde_Gwijde Hendrik_Henry Herman_Herman Hubert
-			Hugo_Hugh Ijsbrand Ijsbrecht Jacco_Jacob Jacob_Jacob Jan_John Karel_Charles Koenraad_Conrad
-			Kristof_Christopher Lambert_Lambert Lodewijk_Louis Ludewijn Lutbert Luthard Maertijn_Martin Marquart Niclaes_Nicholas
-			Olivier_Oliver Otto_Otto Otwin Onno Pieter_Peter Reinaerd Reinoud_Reinhold Reginar Robrecht_Robert Robert_Robert Rodulf
-			Roelof Roland Rutger Sebastiaen_Sebastian Sicco Simon_Simon Steven_Stephen Steyn_Sten Theodolf Waleram_Walram Walter_Walter
-			Wicher Willem_William Wolfard Yvo_Ivo
+			Abraham Adrien_Adrian Albert Antoon_Anthony Arno_Arnold Arthur
+			Bart_Bartholomew Boudewijn Bruno
+			Casper Constant_Constantine
+			Didier Dirk
+			Edgard Edward Emil_Aemilius Erwin
+			Felix Filip_Philip Frans_Francis Frits_Frederick
+			Gaston Geert_Gerard Guido_Guy Gustave_Gustav
+			Hendrik_Henry Herman Hubert Hugo_Hugh
+			Jacques Jan_John Jean-Pierre Jeroen_Hieronymus Joris_George Jozef_Joseph Julius
+			Karel_Carl Koenraad_Conrad
+			Laurens_Lawrence Leon Lodewijk_Louis Luc_Lucas
+			Marc_Mark Marnix Matthias_Matthew Maurits_Maurice Michel_Michael
+			Nicolaes_Nicholas
+			Olivier_Oliver Oscar
+			Paul Pieter_Peter
+			Raoul Robert
+			Simon Stefaan_Stephen
+			Theodoor_Theodore Thomas
+			Victor
+			Willem_William Wouter_Walter
 		}
 		female_names = {
-			Ada Adela_Adela Adelheid_Adelaide Aechte Agaete Aleid Alijse_Alice Aliken Anna_Anna Annelies Badeloge Bava Beatrijs_Beatrice Benedicta_Benedicta
-			Blanca_Blanche Blanceflore Cecily_Cecilia Cille Clara_Clara Clementia Elisabeth_Elizabeth Ellijnore_Eleanor Emma_Emma Ermingarde_Ermengarde Fenne
-			Filippa_Philippa Frida Gheertrude_Gertrude Gerda Godila Haduwijn Helena_Helen Herlinda Hilligonda Ide_Ida Imagina Irene_Irene Isabelle_Elizabeth Iudith
-			Jacoba Jaccobijn Jasminne_Jasmine Johanna_Joan Jolanda_Jolanda Juliana_Juliana Jutte Kathrijne_Catherine Katrien_Catherine Liedwin Lisebet_Elizabeth Machtelt Margareta_Margaret
-			Maria_Maria Mathilde_Matilda Oda Odelt Olinde Onna Pieternelle_Petronilla Reynilde Sanne Sigerda Sophie_Sophia Swanhildis Thetburga_Tiburge Waltrud
-			Wila Wendelmoet Wenna Willemine Yonefij Yvonne_Yvonne Zoete
+			Hilde Hortense
+			Jacoba
+			Veerle Volcxken
 		}
 
 		from_dynasty_prefix = "van "
-
-		male_patronym = "szoon"
-		female_patronym = "sdochter"
-		prefix = no
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 30
@@ -50,38 +54,35 @@ benelux = {
 		graphical_cultures = { germangfx }
 		
 		color = { 0.96 0.39 0.08 }
-		alternate_start = {
-			OR = {
-				year >= 800
-				has_alternate_start_parameter = { key = culture value = full_random }
-			}
-		}
 		
 		male_names = {
-			Adriaen Albrecht_Albert Alwin Ambroos Antoon Arnold_Arnold Arnulf_Arnulf Balderik Barend Barnaerd_Bernard Bartolomeus_Bartolomeus
-			Bavo Bertold_Berthold Boudewijn_Baldwin Claes_Nicholas Claeuwaert Daevit_David Damaes Diederick_Thierry Dirk_Thierry Douwe Eduard_Edward Egmund Ekbert
-			Emmo Engelbrecht Filips_Philip Floris Folbert Frans_Francis Frederik_Frederick Gerard_Gerard Gerolt_Gerald Gerulf
-			Gerrit Gijsbrecht Giselbert_Gilbert Godfried_Godfrey Godschalk Gozewijn Guij_Guy Gwijde_Gwijde Hendrik_Henry Herman_Herman Hubert
-			Hugo_Hugh IJsbrand IJsbrecht Jacco_Jacob Jacob_Jacob Jan_John Karel_Charles Koenraad_Konrad
-			Kristof_Christopher Lambert_Lambert Lodewijk_Louis Ludewijn Lutbert Luthard Maertijn_Martin Marquart Niclaes_Nicholas
-			Olivier_Oliver Otto_Otto Otwin Onno Pieter_Peter Reinaerd Reinoud_Reinhold Reginar_Rainer Robrecht_Robert Robert_Robert Rodulf_Ralph 
-			Roelof Roland Rutger Sebastiaen_Sebastian Sicco Simon_Simon Steven_Stephen Steyn_Sten Theodolf Waelram Walter_Walter
-			Wicher Willem_William Wolfard
+			Abraham Adriaan_Adrian Andries_Andrew Arnoud_Arnold
+			Barend_Bernard
+			Christiaan_Christian Cornelis_Cornelius
+			Dirk
+			Eduard_Edward Ernst_Ernest
+			Floris Frans_Francis Frederik_Frederick
+			Geert-Jan Gerrit_Gerard Gijsbert_Gisbert
+			Harmen_Herman Hendrik_Henry Hugo_Hugh
+			Jaap_Jacob Jan_John Joost Jozef_Joseph
+			Laurens_Lawrence Lodewijk_Louis
+			Maarten_Martin Maurits_Maurice
+			Nicolaas_Nicholas Norbert
+			Pepijn_Pepin Pieter_Peter
+			Robert Roelof_Rudolph
+			Sander_Alexander
+			Thomas
+			Victor
+			Willem_William Willem-Alexander Wouter_Walter
 		}
 		female_names = {
-			Ada Adela_Adela Adelheid_Adelaide Aechte Agaete Aleid Alijse_Alice Aliken Anna_Anna Annelies Badeloge Bava Beatrijs_Beatrice Benedicta_Benedicta
-			Blanca_Blanche Blanceflore Cecily_Cecilia Cille Clara_Clara Clementia_Clementia Elisabeth_Elizabeth Ellijnore_Eleanor Emma_Emma Ermingarde_Ermengarde Fenne
-			Filippa_Philippa Frida Gheertrude_Gertrude Gerda Godila Haduwijn Helena_Helen Herlinda Hilligonda Ide_Ida Imagina Irene_Irene Isabelle_Elizabeth Iudith_Judith
-			Jacoba_Jacoba Jaccobijn Jasminne_Yasmin Johanna_Joan Jolanda Juliana_Juliana Jutte Kathrijne_Catherine Katrien_Catherine Liedwin Lisebet_Elizabeth Machtelt Margareta_Margaret
-			Maria_Maria Mathilde_Matilda Oda Odelt Olinde Onna Pieternelle_Petronilla Reynilde Sanne Sigerda Sophie_Sophia Swanhildis Thetburga_Tiburge Waltrud
-			Wila Wendelmoet Wenna Willemine_Willhelmina Yonefij Yvonne_Yvonne Zoete
+			Beatrix_Beatrice
+			Juliana
+			Marianne
+			Wilhelmina
 		}
 		
 		from_dynasty_prefix = "van "
-		
-		male_patronym = "szoon"
-		female_patronym = "sdochter"
-		prefix = no
 		
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 30
@@ -98,44 +99,44 @@ benelux = {
 	
 	frisian = {
 		graphical_cultures = { englishgfx saxongfx }
-		alternate_start = {
-			OR = {
-				year < 800
-				has_alternate_start_parameter = { key = culture value = full_random }
-			}
-		}
 		
 		color = { 0.7 0.3 0.0 }
 		
 		male_names = {
-			Adelbrik Aitet Aldgisl Audulf Auutet Avin Avo Avuko Avutet Bavo Bentet Bernhard_Bernard Blekulf Blithulf Brunhard
-			Bubo Bôio Edulf_Adolf Egildeg Eilbern Eilherd Eilulf Eilward Eldei Elderd Elhard Engilbald Enhard Entet Esulf Euitet
-			Euuerhard Eðelbern Eðelulf Eðelwi Focko Folcbald Folkbern Folkhard Folkward Frethirik_Frederick Frethold Frethuhard Frethwi
-			Frithunath Geldulf Geltet Gerbald_Gerald Gerbrand Gerbruht Gerdeg Gerhard_Gerard Gerold_Gerald Gerulf Gerwar
-			Gosse Habo Haring Hathuward Hebetet Helibad Hessel Hobern Hoitet Hroðhard Hroðward Juw_Julius Liaftet Liudbad
-			Liudbald Liudger Liudgod Liudulf_Ludolf Liudward_Liutward Liuppo_Lupo Lubbiko Magnus_Magnus Meginbraht Meginhard
-			Meginulf Meintet Menbold Menfrid_Manfred Menger Menhard Menhold Meniko Mentet Menward Merulf Miginward Notheri
-			Occo Odo_Otto Osnath Osnoð Popetet Poppo Raeddeg Rauantet Redbad Reginhard_Renard Reinbern_Reinbern Reinier_Rainer
-			Renhard_Renard Renward Riklef Rikwi Rodbern Saco Salaco Sibod Sibraht Sidei Sikke_Sicco Silef Siward_Sigurd Siwi
-			Sjoerd_Sigurd Sytse Taco Tadaco Tado Thancward Thankbern Thiadbold_Theobald Thiadbrund Thiaddi_Thaddeus Thiaderd
-			Thiadulf Thiadward Thiadwi Thiedold Thonkrik Wambald Wening Wentet Wibad Wibraht Wibrund Wiftet Wigbald Wigerd
-			Wihard Wilbrand Wilco Wiltet Wulfnoth Ygo
+			Abe_Abraham Alwin
+			Barend_Bernard
+			Christian
+			Dieter Douwe
+			Edsger Edzard Eelco Eggeric Eise Enno Epke
+			Focko
+			Gerard Gerolf Gysbert_Gisbert
+			Hans Hark Heiko Hero Hinrich_Henry
+			Jelle Johan_John Jouke
+			Koen_Conrad
+			Marko_Mark Matthias_Matthew Maurits_Maurice Menno Merten_Martin
+			Nico_Nicholas
+			Ocko Otto
+			Pier_Peter
+			Remco Robert
+			Simon Sjoerd Sven Sybrand
+			Theodor_Theodore Titus Tjalling Tjeerd
+			Ubbo Uko Ulrich
+			Wiebe Wijerd Wilco Willem_William Wybrand
+			Ygo
 		}
 		female_names = {
-			Aleberna Alena_Adela Aleydis_Adelaide Alretieren Amalburga Amelgeir Atghardis Aue Auesoete Badeloghen Baua Berta_Bertha
-			Bet_Elizabeth Breghlent Brundonis Dieuwke Douwen Eingeliadis Elke_Adelaide Emgelberna Erkenradis Ermegardis_Ermengarde
-			Esa Femke Fenna Folqui Gerburgis_Gerberga Ghela Ghodelde Hadewigis Heike Hersewindis Hodine Imma_Emma Imsoete Inka_Inge
-			Itsburgis Jeltsje Lenildis Liedelde Liudburgis Lutghardis Lys_Elizabeth Maike_Maria Mareike_Maria Mette Minke Nienke_Catherine
-			Rengnalda Volcwiif Wendelmodis Wiebke Wobbe Yda_Ida Ymmekine Ælidis
+			Doutzen
+			Friede
+			Wilhelmina
 		}
 		
 		baron_titles_hidden = yes
 		count_titles_hidden = yes
 
-		from_dynasty_prefix = "von "
+		from_dynasty_prefix = "van "
 
-		male_patronym = "sson"
-		female_patronym = "sdohtor"
+		male_patronym = "s"
+		female_patronym = "s"
 		prefix = no # The patronym is added as a suffix
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
