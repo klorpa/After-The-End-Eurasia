@@ -1,0 +1,73 @@
+namespace = valinorist
+
+character_event = {
+	id = valinorist.141 ##Pregnant Vana event pt 1
+	desc = EVTDESCvalinorist.141
+	prisoner = no
+	
+	trigger = {
+		OR = {
+			trait = pregnant
+			trait = hard_pregnancy
+			trait = troubled_pregnancy
+			trait = pregnancy_finishing
+		}
+		religion = valinorism
+		NOT = {
+			has_character_modifier = valinor_vana_preg
+		}
+	}
+	
+	mean_time_to_happen = { days = 100 }
+
+	option = {
+		name = EVTOPTAvalinorist.141
+		hidden_tooltip = {
+			character_event = { id = valinorist.142 }
+		}
+	}
+	option = {
+		name = EVTOPTBvalinorist.141
+		random_list = {
+			50 = {
+				add_trait = proud
+			}
+			50 = {
+				add_trait = cynical
+			}
+		}
+	}
+}
+
+character_event = {
+	id = valinorist.142 ##Pregnant Vana event pt 2
+	desc = EVTDESCvalinorist.142
+	prisoner = no
+	
+	is_triggered_only = yes
+	window = EventWindowNarrative
+
+	option = {
+		name = EVTOPTAvalinorist.142
+		add_character_modifier = { name = valinor_vana_preg years = 1 }
+		random_list = {
+			10 = {
+				remove_trait = stressed
+				modifier = {
+					factor = 0.0
+					trait = stressed
+				}
+			}
+			5 = {
+				remove_trait = depressed
+				modifier = {
+					factor = 0.0
+					trait = depressed
+				}
+			}
+			85 = {
+				piety = 50
+			}
+		}
+	}
+}
