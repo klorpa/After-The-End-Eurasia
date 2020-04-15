@@ -526,8 +526,9 @@
 1001027={
 	name="Edwin"
 	dynasty=1701003 #FitzSpatstone
-	culture=westerner
+	culture=midlander
 	religion=high_thelema
+	father=1001060
 	martial=3
 	diplomacy=3
 	stewardship=4
@@ -537,6 +538,9 @@
 	trait=scholar
 	trait=brave
 	trait=content
+	trait=charitable
+	trait=temperate
+	trait=erudite
 	2600.1.1={birth=yes}
 	2666.7.2={death=yes}
 }
@@ -671,6 +675,7 @@
 	dna="mifmobmcill"
 	culture=midlander
 	religion=high_thelema
+	father=1001027
 	martial=6
 	diplomacy=4
 	stewardship=5
@@ -680,7 +685,6 @@
 	trait=aggressive_leader
 	trait=groomed 
 	trait=dull
-	trait=poet
 	trait=brave 
 	trait=just
 	trait=proud
@@ -1098,4 +1102,163 @@
 	trait=patient
 	2619.12.21={birth=yes}
 	2670.12.29={death=yes}
+}
+1001055={
+	name="Philip"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=high_thelema
+	trait=brilliant_strategist
+	trait=zealous
+	trait=brave
+	trait=ambitious
+	trait=genius
+	trait=strategist
+	2430.1.1={birth=yes}
+	2492.8.2={death=yes}
+}
+1001056={
+	name="Albert"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=high_thelema
+	father=1001055
+	2464.1.1={birth=yes}
+	2547.1.1={death=yes}
+}
+1001057={
+	name="Crowley"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=high_thelema
+	father=1001056
+	2493.1.1={birth=yes}
+	2571.1.1={death=yes}
+}
+1001058={
+	name="David"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=high_thelema
+	father=1001057
+	2519.1.1={birth=yes}
+	2556.1.1={death=yes}
+}
+1001059={
+	name="Philip"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=high_thelema
+	father=1001058
+	2542.1.1={birth=yes}
+	2598.1.1={death=yes}
+}
+1001060={
+	name="William"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=high_thelema
+	father=1001059
+	trait=martial_scholar
+	trait=mystic
+	trait=chaste
+	trait=patient
+	trait=zealous
+	trait=shy
+	trait=paranoid
+	2565.1.1={birth=yes}
+	2629.4.10={death=yes}
+}
+1001061={
+	name="Albert"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=high_thelema
+	father=1001034
+	2651.5.1={ birth=yes }
+	2700.1.1={ death=yes }
+}
+1001062={
+	name="Alberta"
+	female=yes
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=high_thelema
+	father=1001034
+	2652.10.5={ birth=yes }
+	2700.1.1={ death=yes }
+}
+1001063={
+	name="Alfred"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=high_thelema
+	father=1001034
+	2654.6.25={ birth=yes }
+	2700.1.1={ death=yes }
+}
+1001064={
+	name="Aladale"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=high_thelema
+	father=1001034
+	2658.11.8={ birth=yes }
+	2700.1.1={ death=yes }
+}
+1001065={
+	name="Alexandra"
+	female=yes
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=high_thelema
+	father=1001034
+	2661.9.9={ birth=yes }
+	2700.1.1={ death=yes }
+}
+1001066={
+	name="Robert"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=high_thelema
+	father=1001027
+	martial=8
+	diplomacy=6
+	stewardship=5
+	intrigue=5
+	learning=3
+	trait=skilled_tactician
+	trait=aggressive_leader
+	trait=craven
+	trait=fair
+	trait=proud
+	trait=wroth 
+	trait=diligent
+	trait=gregarious
+	trait=authoritative
+	2624.4.24={ birth=yes }
+	2700.1.1={ death=yes }
+}
+1001067={
+	name="Philip"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=high_thelema
+	father=1001027
+	martial=8
+	diplomacy=6
+	stewardship=5
+	intrigue=5
+	learning=3
+	trait=flamboyant_schemer
+	trait=drunkard
+	trait=brave
+	trait=quick
+	trait=proud
+	trait=slothful
+	trait=deceitful
+	trait=lustful
+	trait=ruthless
+	2626.12.27={ birth=yes }
+	2700.1.1={ death=yes }
 }
