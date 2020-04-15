@@ -336,4 +336,61 @@ central_germanic = {
 
 		modifier = default_culture_modifier
 	}
+	luxembourger = {
+		graphical_cultures = { germangfx }
+		
+		color = { 0.4 0.1 0.6 }
+
+		male_names = {
+			Adolphe_Adolf Alain_Alan Albert Aldo Alexander Alphonse Antoine_Anthony Armand Arno_Arnolf Auguste_Augustus
+			Bernard Bruno
+			Camille Charles Claude Claus_Nicholas Curt_Kurt
+			Edouard_Edward Egmond Emile_Aemilius Ernest
+			Félicien Félix_Felix Ferdinand Fräntz_Francis
+			Gabriel Gaspard_Casper Gast_Gaston Georges_George Gilles Guillaume_William Guy
+			Henri_Henry Hugo
+			Jacques Jean_John Jean-Baptiste Jean-Claude Jean-Jacques Jean-Louis Jean-Marie Jean-Pierre Joël_Joel Joseph Joseph-Alexandre Jules
+			Lambert Laurent_Lawrence Léon_Leon Léopold_Leopold Louis Lucien_Lucius
+			Marcel Marco_Mark Mathias_Matthew Michel_Michael
+			Norbert
+			Pascal Paul Pierre_Peter Pierre-Joseph Pol_Paul
+			Raymond René Robert Roger Roland
+			Sébastien_Sebastian Sigfried
+			Théodore_Theodore Théophile_Theophilus
+			Victor
+			Xavier
+			Yvon
+		}
+		female_names = {
+			Alexandra Alix_Alice Amalia Anise Antoinette Arlette Astrid
+			Bathildis Bettina
+			Charlotte
+			Désirée Dominique
+			Elisabeth_Elizabeth
+			Fleur
+			Gabriele_Gabriella
+			Henriette_Henrietta Hilda
+			Lydie_Lydia
+			Margaretha_Margaret Marie_Mary Marie-Adélaïde Marie-Gabriele Marie-Thérèse_Maria-Theresa Mariette
+			Nathalie_Natalie Nora
+			Sandrine_Alexandre Simone Sophie_Sophia Susanna_Susan
+			Tatiana Thérèse_Theresa
+			Wilhelmine
+			Yvette	
+		}
+	
+		from_dynasty_prefix = "von "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
 }
