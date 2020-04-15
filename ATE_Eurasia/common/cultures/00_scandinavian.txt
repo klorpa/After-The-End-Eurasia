@@ -1,12 +1,10 @@
 scandinavian = {
 
 graphical_cultures = { norsegfx }
-	icelander #Placeholder names = {
+	icelander = {
 		graphical_cultures = { norsegfx }
 		
 		color = { 0.3 0.55 0.8 }
-		
-		# Þ 222 þ 254 Ð 208 ð 240 æ
 		
 		male_names = {
 			Ale Alfr_Alf Alfgeir Anders_Andrew Anlaufr Anundr_Anund Arnbjörn Arngrimr Arni_Arne Arnfast Asbjörn_Asbjörn Bagge Baldr_Balder Barid Bengt_Benedict Bersi Bertil_Berthold Birger Björn_Beorn Bo Borkvard Botulfr_Botulf Bragi_Brage Buðli
@@ -31,14 +29,12 @@ graphical_cultures = { norsegfx }
 		
 		male_patronym = "sson"
 		female_patronym = "sdottir"
-		prefix = no # The patronym is added as a suffix
+		prefix = no
 		
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 0
 		father_name_chance = 0
 		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 50
 		mother_name_chance = 0
@@ -48,12 +44,10 @@ graphical_cultures = { norsegfx }
 		allow_looting = yes
 		seafarer = yes
 	}
-	faroese #Placeholder names = {
+	faroese = {
 		graphical_cultures = { norsegfx }
 		
 		color = { 0.3 0.60 0.8 }
-		
-		# Þ 222 þ 254 Ð 208 ð 240 æ
 		
 		male_names = {
 			Ale Alfr_Alf Alfgeir Anders_Andrew Anlaufr Anundr_Anund Arnbjörn Arngrimr Arni_Arne Arnfast Asbjörn_Asbjörn Bagge Baldr_Balder Barid Bengt_Benedict Bersi Bertil_Berthold Birger Björn_Beorn Bo Borkvard Botulfr_Botulf Bragi_Brage Buðli
@@ -78,14 +72,12 @@ graphical_cultures = { norsegfx }
 		
 		male_patronym = "sson"
 		female_patronym = "sdottir"
-		prefix = no # The patronym is added as a suffix
+		prefix = no
 		
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 0
 		father_name_chance = 0
 		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 50
 		mother_name_chance = 0
@@ -117,25 +109,26 @@ graphical_cultures = { norsegfx }
 		parent = norse
 		
 		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
 		
 		from_dynasty_prefix = "af "
 		
 		male_patronym = "sson"
 		female_patronym = "sdotter"
-		prefix = no # The patronym is added as a suffix
+		prefix = no
 		
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 80
+		pat_grf_name_chance = 50
 		mat_grf_name_chance = 0
 		father_name_chance = 0
 		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 50
 		mother_name_chance = 0
 
 		modifier = default_culture_modifier
 		
+		allow_looting = yes
 		seafarer = yes
 	}
 	norwegian = {
@@ -158,15 +151,26 @@ graphical_cultures = { norsegfx }
 		parent = norse
 		
 		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
 		
 		from_dynasty_prefix = "av "
 		
 		male_patronym = "sson"
 		female_patronym = "sdatter"
 		prefix = no
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
 
 		modifier = default_culture_modifier
 		
+		allow_looting = yes
 		seafarer = yes
 	}
 	danish = {
@@ -189,24 +193,26 @@ graphical_cultures = { norsegfx }
 		parent = norse
 		
 		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
 		
 		from_dynasty_prefix = "af "
 		
 		male_patronym = "sen"
 		female_patronym = "sdatter"
 		prefix = no
-
-		modifier = default_culture_modifier
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 80
+		
+		pat_grf_name_chance = 50
 		mat_grf_name_chance = 0
 		father_name_chance = 0
 		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 50
 		mother_name_chance = 0
+
+		modifier = default_culture_modifier
 		
+		allow_looting = yes
 		seafarer = yes
 	}
 	finnish = {

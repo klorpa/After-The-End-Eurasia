@@ -16,26 +16,11 @@ e_britannia = {
 	cornish = "Breten"
 	albanian = "Mbretëria e Bashkuar e Britanisë së Madhe dhe Irlandës së Veriut" 
 
-	# Creation/usurpation trigger
-	allow = {
-		hidden_tooltip = {
-			OR = {
-				ai = no
-				culture = english
-				culture = saxon
-				culture = norman
-				culture_group = celtic
-				culture_group = north_germanic
-			}
-		}
-	}
 	k_london = {
 		color={ 127 0 0 }
 		color2={ 127 0 0 }
 		capital = 27 # London
 		dignity = 15 # Counted as having this many more counties than it does
-		
-		cockney = "Great London"
 		
 		d_london = {
 			color={ 241 90 35 }
@@ -45,7 +30,6 @@ e_britannia = {
 			c_london = {
 				color={ 241 90 35 }
 				color2={ 255 255 255 }
-				cockney = "London"
 				holy_site = free_church
 				holy_site = low_thelema
 				holy_site = high_thelema
@@ -85,7 +69,7 @@ e_britannia = {
 				color2={ 255 255 255 }
 				
 				b_colchester = {}
-				b_southend-on-sea = {}
+				b_southend_on_sea = {}
 				b_chelmsford = {}
 				b_basildon = {}
 				b_harlow = {}
@@ -94,7 +78,7 @@ e_britannia = {
 			}
 			c_hertfordshire = {
 				color={ 152 171 150 }
-				color2{ 255 255 255 }
+				color2={ 255 255 255 }
 				
 				b_the_garden = {}
 				b_st_albans = {}
@@ -115,7 +99,7 @@ e_britannia = {
 				color={ 241 105 55 }
 				color2={ 255 255 255 }
 				
-				b_walton-on-thames = {}
+				b_walton_on_thames = {}
 				b_guildford = {}
 				b_woking = {}
 				b_ewell = {}
@@ -133,7 +117,6 @@ e_britannia = {
 				b_canterbury = {}
 				b_gillingham = {}
 				b_dartford = {}
-				b_ashford = {}
 				b_margate = {}
 			}
 			c_sussex = {
@@ -144,7 +127,7 @@ e_britannia = {
 				b_crawley = {}
 				b_bognor_regis = {}
 				b_littlehampton = {}
-				b_shoreham-by-sea = {}
+				b_shoreham_by_sea = {}
 				b_horsham = {}
 				b_haywards_heath = {}
 			}
@@ -156,7 +139,7 @@ e_britannia = {
 				b_seaford = {}
 				b_brighton = {}
 				b_hastings = {}
-				b_bexhill-on-sea = {}
+				b_bexhill_on_sea = {}
 				b_crowborough = {}
 				b_hailsham = {}
 			}
@@ -188,20 +171,7 @@ e_britannia = {
 		dignity = 15 # Counted as having this many more counties than it does
 		
 		culture = westlander
-		
-	# Creation/usurpation trigger
-	allow = {
-		hidden_tooltip = {
-			OR = {
-				ai = no
-				culture = westlander
-				culture = midlander
-				culture = cockney
-				culture_group = celtic
-				culture_group = north_germanic
-				}
-			}
-		}
+
 		d_thames_valley = { 
 			color={ 241 79 15 }
 			color2={ 255 255 255 }
@@ -254,7 +224,7 @@ e_britannia = {
 				b_tewkesbury = {}
 				b_cirencester = {}
 				b_dursley = {}
-				b_bourton-on-the-water = {}
+				b_bourton_on_the_water = {}
 			}
 		}
 		d_norfolk = {
@@ -354,7 +324,6 @@ e_britannia = {
 				color2={ 255 255 255 }
 						
 				b_ryde = {}
-				b_newport = {}
 				b_shanklin = {}
 				b_ventnor = {}
 				b_sandown = {}
@@ -383,7 +352,7 @@ e_britannia = {
 				b_minehead = {}
 				b_wellington = {}
 				b_glastonbury = {}
-				b_burnham-on-sea = {}
+				b_burnham_on_sea = {}
 				b_bath = {}
 				b_weston = {}
 				b_bristol = {}
@@ -421,7 +390,6 @@ e_britannia = {
 				b_shrewsbury = {}
 				b_oswestry = {}
 				b_bridgnorth = {}
-				b_newport = {}
 				b_ludlow = {}
 				b_drayton = {}
 			}
@@ -444,7 +412,7 @@ e_britannia = {
 				b_tamworth = {}
 				b_rugby = {}
 				b_nuneaton = {}
-				b_stratford-upon-avon = {}
+				b_stratford_upon_avon = {}
 				b_kenilworth = {}
 				b_warwick = {}
 				b_leamington = {}
@@ -487,7 +455,6 @@ e_britannia = {
 				
 				b_scunthorp = {}
 				b_lincoln = {}
-				b_grimsby = {}
 				b_grantham = {}
 				b_boston = {}
 				b_spalding = {}
@@ -499,8 +466,8 @@ e_britannia = {
 			
 				b_derby = {}
 				b_chesterfield = {}
-				b_stoke-on-trent = {}
-				b_burton-upon-trent = {}
+				b_stoke_on_trent = {}
+				b_burton_upon_trent = {}
 				b_stafford = {}
 				b_swadlincote = {}
 				b_ilkeston = {}
@@ -511,9 +478,9 @@ e_britannia = {
 				
 				b_mansfield = {}
 				b_nottingham = {}
-				b_sutton-in-ashfield = {}
+				b_sutton_in_ashfield = {}
 				b_worksop = {}
-				b_newark-on-trent = {}
+				b_newark_on_trent = {}
 				b_hucknall = {}
 				b_retford = {}
 			}
@@ -604,11 +571,10 @@ e_britannia = {
 				color2={ 255 255 255 }
 				
 				b_middlesbrough = {}
-				b_stockton-on-tees = {}
-				b_hartlepool = {}
+				b_stockton_on_tees = {}
 				b_redcar = {}
 				b_billingham = {}
-				b_thornaby-on-tees = {}
+				b_thornaby_on_tees = {}
 				b_saltburne_marske = {}
 			}
 		}
@@ -640,7 +606,6 @@ e_britannia = {
 				b_bolton = {}
 				b_rochdale = {}
 				b_oldham = {}
-				b_bury = {}
 				b_ashton = {}
 			}
 		}
@@ -700,9 +665,9 @@ e_britannia = {
 				color2={ 255 255 255 }
 			
 				b_penrith = {}
-				b_barrow-in-furness = {}
+				b_barrow_in_furness = {}
 				b_kendal = {}
-				b_dalton-in-furness = {}
+				b_dalton_in_furness = {}
 				b_ulverston = {}
 				b_bowness = {}
 				b_millom = {}
@@ -723,7 +688,7 @@ e_britannia = {
 				b_bedlington = {}
 				b_ashington = {}
 				b_morpeth = {}
-				b_berwick-upon-tweed = {}
+				b_berwick_upon_tweed = {}
 				b_hexham = {}
 			}
 			c_durham = {
@@ -733,7 +698,6 @@ e_britannia = {
 				b_darington = {}
 				b_durham = {}
 				b_hartlepool = {}
-				b_stockton-on-tees = {}
 				b_peterlee = {}
 				b_bishop_auckland = {}
 				b_newton_aycliffe = {}
@@ -762,15 +726,6 @@ e_britannia = {
 		
 		culture = welsh
 
-		allow = {
-			hidden_tooltip = {
-				OR = {
-					ai = no
-					culture_group = celtic
-				}
-			}
-		}
-		
 		d_gwynedd = {
 			color={ 172 99 22 }
 			color2={ 255 255 255 }
@@ -829,9 +784,6 @@ e_britannia = {
 				b_flint = {
 					welsh = "Y Fflint"
 				}
-				b_ruthin = {
-					welsh = "Rhuthun"
-				}
 			}
 		}
 		d_dyfed = {
@@ -878,7 +830,7 @@ e_britannia = {
 				b_llanddewi_brefi = {}
 				b_tregaron = {}
 				b_lampeter = {
-					welsh "Llanbedr Pont Steffan"
+					welsh = "Llanbedr Pont Steffan"
 				}
 			}
 			c_gower = {
@@ -1068,19 +1020,6 @@ e_britannia = {
 		
 		culture = lowlander
 		
-		# Creation/usurpation trigger
-		allow = {
-			hidden_tooltip = {
-				OR = {
-					ai = no
-					culture = lowlander
-					culture = highlander
-					culture = british
-					culture_group = celtic
-					culture_group = north_germanic
-				}
-			}
-		}
 		d_lothian = {
 			color={ 16 62 157 }
 			color2={ 255 255 255 }
@@ -1088,7 +1027,7 @@ e_britannia = {
 			lowlander = "Lowden"
 			highlander = "Lodainn"
 			
-			capital 85 #Edinburgh
+			capital = 85 #Edinburgh
 			
 			c_edinburgh = {
 				color = { 16 62 160 }
@@ -1190,10 +1129,6 @@ e_britannia = {
 					lowlander = "Jeddard"
 					highlander = "Deadard"
 				}
-				b_langholm = {
-					lowlander = "Langhowm"
-					highlander = "Langaim"
-				}
 			}
 		}
 		d_strathclyde = {
@@ -1290,7 +1225,7 @@ e_britannia = {
 				}
 				b_symington = {
 					lowlander = "Syminton"
-					higlander = "Baile Simon"
+					highlander = "Baile Simon"
 				}
 				b_coylton = {
 					lowlander = "Culton"
@@ -1742,9 +1677,6 @@ e_britannia = {
 				}
 				b_edinbane = {
 					highlander = "An t-Aodann Bàn"
-				}
-				b_armadale = {
-					highlander = "Armadal"
 				}
 			}
 		}
@@ -2210,7 +2142,7 @@ e_britannia = {
 					irish = "Ard Raithin"
 				}
 				b_oranmore = {
-				oranmore = "Órán Mór"
+					irish = "Órán Mór"
 				}
 				b_clifden = {
 					irish = "An Clochán"
@@ -2320,7 +2252,7 @@ e_britannia = {
 
 			irish = "An Mhí"
 			
-			capital = 17 
+			capital = 17
 					
 			c_longford = {
 				color={ 98 179 146 }
@@ -2403,7 +2335,7 @@ e_britannia = {
 					irish = "Dún Dealgan"
 				}
 				b_trim = {
-					"Baile Átha Troim"
+					irish = "Baile Átha Troim"
 				}
 				b_louth = {
 					irish = "Lú"
@@ -2452,15 +2384,6 @@ e_britannia = {
 					irish = "Sord Cholmcille"
 				}
 			}
-		}
-		d_sligo = {
-			color={ 41 96 74 }
-			color2={ 255 255 255 }
-
-			irish = "Sligeach"
-			ulsterman= "Slygee"
-			
-			capital = 20# c_sligo
 		}
 	}
 	k_ulster = {
@@ -2524,7 +2447,7 @@ e_britannia = {
 
 				b_ballymena = {
 					ulsterman = "Seiventours"
-					irish = = "An Baile Meánach"
+					irish = "An Baile Meánach"
 				}
 				b_antrim = {
 					ulsterman = "Aintrim"
@@ -2554,7 +2477,6 @@ e_britannia = {
 			c_armagh = {
 				color={ 17 93 62 }
 				color2={ 255 255 255 }
-				
 				
 				irish = "Ard Mhacha"
 				ulsterman= "Airmagh"
@@ -2588,6 +2510,16 @@ e_britannia = {
 		}
 			
 		d_derry = {
+			color={ 156 194 112 }
+			color2={ 255 255 255 }
+				
+			ulsterman = "Lunnonderrie"
+			irish = "Doire"
+			british = "Londonderry"
+
+			capital = 24# derry
+			
+			c_derry = {
 				color={ 156 194 112 }
 				color2={ 255 255 255 }
 				
@@ -2595,21 +2527,10 @@ e_britannia = {
 				irish = "Doire"
 				british = "Londonderry"
 
-				capital = 24# derry
-			
-			c_derry = {
-				color={ 156 194 112 }
-				color2={ 255 255 255 }
-				
-					ulsterman = "Lunnonderrie"
-					irish = "Doire"
-				british = "Londonderry"
-
 				b_derry = {}
 				b_springtown = {}
 				b_muff = {}
 				b_strabane = {}
-				b_ardmore = {}
 				b_campsey = {}
 				b_limavady = {}
 			}
@@ -2695,7 +2616,7 @@ e_britannia = {
 				}
 				b_ballybofey = {
 					irish = "Bealach Féich"
-					ulsterman = ""Fiachspass""
+					ulsterman = "Fiachspass"
 				}
 				b_ballyshannon = {
 					irish = "Béal Átha Seanaidh"
@@ -2722,9 +2643,9 @@ e_britannia = {
 				manx = "Mannin"
 				irish = "Oileán Mhanann"
 				ulsterman = "Isle o Man"
-					lowlander = "Isle o Man"
-					highlander = "Eilean Mhanainn"
-					welsh = "Ynys Manaw"
+				lowlander = "Isle o Man"
+				highlander = "Eilean Mhanainn"
+				welsh = "Ynys Manaw"
 				cornish = "Ynys Manow"
 
 				
@@ -2737,7 +2658,7 @@ e_britannia = {
 				b_peel = {
 					manx = "Purt ny h-Inshey"
 				}
-				b_douglas = {
+				b_douglas2 = {
 					manx = "Doolish"
 				}
 				b_ramsey = {

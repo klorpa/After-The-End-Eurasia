@@ -3,7 +3,7 @@ e_scandinavia = {
 	color2={ 255 255 0 }
 	capital = 152 # Uppland
 	
-	culture = icelandic
+	culture = icelander
 	
 	norse_pagan_reformed = 500 # Crusade target weight
 	
@@ -23,7 +23,7 @@ e_scandinavia = {
 		color2 = { 255 255 255 }
 		capital = 152 # Sunnlendingafjordungur
 		
-		culture = icelandic
+		culture = icelander
 		
 		# Creation/usurpation trigger
 		allow = {
@@ -31,7 +31,7 @@ e_scandinavia = {
 				OR = {
 					ai = no
 					AND = {
-						culture = icelandic
+						culture = icelander
 					}
 				}
 			}
@@ -43,7 +43,7 @@ e_scandinavia = {
 			
 			capital = 152 # Sunnlendingafjordungur
 			
-			icelandic = Island
+			icelander = Island
 			danish = Island
 			swedish = Island
 			norwegian = Island

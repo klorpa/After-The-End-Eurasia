@@ -39,7 +39,7 @@ spanish = {
 		female_names = {
 		}
 		
-		from_dynasty_prefix = "d' "
+		from_dynasty_prefix = "d'"
 		male_patronym = "ez"
 		female_patronym = "ez"
 		grammar_transform = spanish
@@ -79,7 +79,7 @@ spanish = {
 		
 		modifier = default_culture_modifier
 	}
-	leonés = {
+	leones = {
 		graphical_cultures = { southerngfx }
 		
 		color = { 0.67 0.22 0.17 }
@@ -104,7 +104,7 @@ spanish = {
 		
 		modifier = default_culture_modifier
 	}
-	aragonés = {
+	aragones = {
 		graphical_cultures = { southerngfx }
 		
 		color = { 0.32 0.38 0.67 }
@@ -114,7 +114,7 @@ spanish = {
 		female_names = {
 		}
 		
-		from_dynasty_prefix = "d' "
+		from_dynasty_prefix = "d'"
 		male_patronym = "iz"
 		female_patronym = "iz"
 		grammar_transform = spanish
@@ -129,7 +129,7 @@ spanish = {
 		
 		modifier = default_culture_modifier
 	}
-	català = {
+	catala = {
 		graphical_cultures = { southerngfx }
 		
 		color = { 0.85 0.75 0.08 }
@@ -139,7 +139,7 @@ spanish = {
 		female_names = {
 		}
 		
-		from_dynasty_prefix = "d' "
+		from_dynasty_prefix = "d'"
 		male_patronym = "ix"
 		female_patronym = "ix"
 		grammar_transform = french
@@ -154,7 +154,7 @@ spanish = {
 		
 		modifier = default_culture_modifier
 	}
-	andalú = {
+	andalu = {
 		graphical_cultures = { southerngfx }
 		
 		color = { 0.4 0.6 0.1 }
@@ -225,13 +225,13 @@ lusitanian = {
 		female_patronym = "es"
 		grammar_transform = spanish
 		
-		pat_grf_name_chance =
-		mat_grf_name_chance =
-		father_name_chance =
+		pat_grf_name_chance = 55
+		mat_grf_name_chance = 5
+		father_name_chance = 30
 		
-		pat_grm_name_chance =
-		mat_grm_name_chance =
-		mother_name_chance =
+		pat_grm_name_chance = 60
+		mat_grm_name_chance = 15
+		mother_name_chance = 15
 		
 		modifier = default_culture_modifier
 	}
