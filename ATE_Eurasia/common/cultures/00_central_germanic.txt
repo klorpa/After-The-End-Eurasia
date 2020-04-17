@@ -336,4 +336,61 @@ central_germanic = {
 
 		modifier = default_culture_modifier
 	}
+	swiss_german = {
+		graphical_cultures = { germangfx }
+		
+		color = { 0.5 0.3 0.4 }
+
+		male_names = {
+			Adam Adolf_Adolph Albert Alexander Alfred Andreas_Andrew Anton_Anthony Armin Arnold Arthur August_Augustus
+			Bernhard_Bernard Bruno Burkhard
+			Christof_Christopher
+			Daniel Detlef Dietmar Dietrich
+			Emil_Aemilius Erich_Erik Ernst_Ernest Eugen_Eugene Everhardt
+			Felix
+			Ferdinand Florian Franz_Francis Friedrich_Frederick 
+			Gerhard_Gerard Gottfried_Godfrey Günther Gustav
+			Hans Hans-Günther Hartmut Heinrich_Henry Heinz_Henry Helmut Heribert_Herbert Hermann_Herman Horst Hugo_Hugh
+			Ignaz_Ignatius Ingo
+			Jakob_Jacob Joachim Johannes_John Josef_Joseph Julius Jürgen_George
+			Karl_Carl Karl-Christian Karl-Heinz Karl-Ludwig Karl-Robert Karl-Theodor Klaus_Nicholas Konrad_Conrad Kurt
+			Leon Leopold Lorenz_Lawrence Lothar Ludwig_Louis Lukas_Lucas
+			Manfred Matthias_Matthew Markus_Mark Maximilian Michael
+			Oskar_Oscar Oswald Ottmar Otto
+			Paul Peter Philipp_Philip
+			Ralf_Ralph Reimar Reinhard Reinhold Robert Rudolf_Rudolph
+			Siegfried
+			Theobald Theodor_Theodore Thomas Tobias
+			Udo Ulrich Uwe
+			Walter Werner Wilhelm_William Wolfgang Wolf-Dieter
+		}
+		female_names = {
+			Albertine Alexandra Anne Annette
+			Bernadette Brigitte
+			Charlotte Christa
+			Elisabeth_Elizabeth
+			Greta
+			Hannelore Hedwig Heide Hildegard
+			Ilse_Elsa Irene
+			Johanna_Joan
+			Katarina_Catherine
+			Maria_Mary
+			Sabine Simone Sylvia
+			Ursula Ute
+		}
+	
+		from_dynasty_prefix = "von "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
 }
