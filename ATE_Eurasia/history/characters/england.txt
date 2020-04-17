@@ -731,7 +731,6 @@
 	intrigue=6
 	learning=8
 	trait=skilled_tactician
-	trait=peasant_leader
 	trait=hunter
 	trait=ambitious
 	trait=deceitful
@@ -802,7 +801,7 @@
 	trait=brave
 	trait=proud
 	trait=shy
-	2649.3.1={birth=yes}
+	2649.3.1={birth=yes effect={set_character_flag=no_historical_family}}
 	2690.3.3={death=yes}
 }
 1001040={
@@ -819,7 +818,6 @@
 	trait=quick
 	trait=fair
 	trait=groomed
-	trait=hedonist
 	trait=poet
 	trait=ambitious
 	trait=arbitrary
@@ -861,6 +859,7 @@
 	dynasty=1801002 #Ganumaga
 	culture=scouse
 	religion=free_church
+	father=1001071
 	martial=4
 	diplomacy=5
 	stewardship=4
@@ -868,7 +867,7 @@
 	learning=3
 	trait=fortune_builder
 	trait=quick
-	trait=gamemaster
+	trait=gamer
 	trait=patient
 	trait=lustful
 	trait=cynical
@@ -975,6 +974,7 @@
 	dynasty=1801002 #Ganumaga
 	culture=northerner
 	religion=high_thelema
+	father=1001070
 	martial=4
 	diplomacy=5
 	stewardship=4
@@ -985,10 +985,8 @@
 	trait=duelist
 	trait=gregarious
 	trait=stubborn
-	father=60
-	mother=61
-	2647.8.10={ birth=yes }
-	2680.2.8={ death=yes }
+	2647.8.10={birth=yes}
+	2680.2.8={death=yes}
 }
 1001049={
 	name="James"
@@ -1005,8 +1003,8 @@
 	trait=patient
 	trait=greedy
 	trait=diligent
-	2580.10.2={ birth=yes }
-	2640.8.8={ death=yes }
+	2580.10.2={birth=yes}
+	2640.8.8={death=yes}
 }
 1001050={
 	name="Isabela"
@@ -1023,8 +1021,8 @@
 	trait=patient
 	trait=kind
 	trait=diligent
-	2589.8.12={ birth=yes }
-	2625.6.10={ add_spouse=60 }
+	2579.8.12={ birth=yes }
+	2615.6.10={ add_spouse=1001049 }
 	2650.3.2={ death=yes }
 }
 1001051={
@@ -1164,7 +1162,7 @@
 	culture=midlander
 	religion=high_thelema
 	father=1001059
-	trait=martial_scholar
+	trait=martial_cleric
 	trait=mystic
 	trait=chaste
 	trait=patient
@@ -1302,4 +1300,28 @@
 	add_trait=humble
 	2630.4.16={ birth=yes }
 	2700.0.0={ death=yes }
+}
+1001070={
+	name="Nigel"
+	dynasty=1801002 #Ganumaga
+	culture=northerner
+	religion=high_thelema
+	father=1001049
+	mother=1001050
+	trait=zealous
+	trait=cruel
+	trait=tough_soldier
+	trait=diligent
+	2601.2.11={ birth=yes }
+	2665.5.5={ death=yes }
+}
+1001071={
+	name="Richard"
+	dynasty=1801002 #Ganumaga
+	culture=northerner
+	religion=free_church
+	father=1001049
+	mother=1001050
+	2604.6.4={ birth=yes }
+	2659.12.6={ death=yes }
 }
