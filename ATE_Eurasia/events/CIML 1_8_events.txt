@@ -1,0 +1,452 @@
+namespace = CIML
+
+# lunatic exorcist
+character_event = {
+	id = CIML.341
+	title = EVTNAMECIML.341
+	desc = EVTDESCCIML.341
+
+	picture = GFX_evt_lunatic
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTACIML.341
+		random = { 
+			chance = 10
+			remove_trait = lunatic
+		}
+	}
+
+	option = {
+		name = EVTOPTBCIML.341
+	}
+
+	option = {
+		name = EVTOPTCCIML.341
+		random = { 
+			chance = 10
+			remove_trait = lunatic
+			add_trait = possessed
+		}
+	}
+
+	option = {
+		name = EVTOPTDCIML.341
+		piety = -5
+		prestige = 25
+	}
+
+	after = {
+	}
+}
+
+# possessed exorcist
+character_event = {
+	id = CIML.342
+	title = EVTNAMECIML.342
+	desc = EVTDESCCIML.342
+
+	picture = GFX_evt_arson_hf
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTACIML.342
+		tooltip_info = patient
+		trigger = {
+			trait = patient
+		}
+		random = { 
+			chance = 40
+			remove_trait = possessed
+		}
+	}
+
+	option = {
+		name = EVTOPTBCIML.342
+		trigger = {
+			NOT = { trait = patient }
+			OR = {
+			religion = catholic
+			religion = fraticelli
+			trait = utraquist
+		}
+		}
+		random = { 
+			chance = 20
+			remove_trait = possessed
+		}
+	}
+
+	option = {
+		name = EVTOPTCCIML.342
+		trigger = {
+			NOT = { trait = patient }
+			OR = {
+			religion = miaphysite
+			religion = monophysite
+			religion = judaizer
+			religion = nestorian
+			religion = apollinarian
+			religion = chaldean
+			religion = orthodox
+			religion = iconoclast
+			religion = monothelite
+			religion = barlaamite
+			}
+		}
+		random = { 
+			chance = 20
+			remove_trait = possessed
+		}
+	}
+
+	option = {
+		name = EVTOPTDCIML.342
+	}
+
+	after = {
+	}
+}
+
+# last rite decision
+character_event = {
+	id = CIML.343
+	title = EVTNAMECIML.343
+	desc = EVTDESCCIML.343
+
+	picture = GFX_evt_died_illness
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTACIML.343
+		random = { 
+			chance = 1
+			cure_illness = yes
+			if = { 
+				limit = { 
+					has_character_modifier = bedridden_illness
+				} 
+				remove_character_modifier = bedridden_illness
+			}
+			if = { 
+				limit = { 
+					has_character_modifier = mild_illness
+				} 
+				remove_character_modifier = mild_illness
+			}
+			if = { 
+				limit = { 
+					has_character_modifier = severe_illness
+				} 
+				remove_character_modifier = severe_illness
+			}
+			if = { 
+				limit = { 
+					has_character_modifier = severe_illness
+				} 
+				remove_character_modifier = severe_illness
+			}
+			if = { 
+				limit = { 
+					trait = wounded
+				} 
+				remove_trait = wounded
+			}
+			if = { 
+				limit = { 
+					trait = maimed
+				} 
+				remove_trait = maimed
+			}
+			if = { 
+				limit = { 
+					trait = severely_injured
+				} 
+				remove_trait = severely_injured
+			}
+			if = { 
+				limit = { 
+					trait = infection
+				} 
+				remove_trait = infection
+			}
+		}
+	}
+
+	after = {
+	}
+}
+
+# last rite incapable event
+character_event = {
+	id = CIML.344
+	title = EVTNAMECIML.344
+	desc = EVTDESCCIML.344
+	picture = GFX_evt_died_old_age
+	
+	only_playable = yes
+	ai = no
+	min_age = 12
+	
+	trigger = {
+		prisoner = no
+		is_incapable = yes
+		OR = {
+			religion = catholic
+			religion = fraticelli
+			religion = miaphysite
+			religion = monophysite
+			religion = judaizer
+			religion = nestorian
+			religion = apollinarian
+			religion = chaldean
+			religion = orthodox
+			religion = iconoclast
+			religion = monothelite
+			trait = utraquist
+			religion = adoptionist
+			religion = barlaamite
+		}
+		NOT = {
+			has_character_modifier = last_rite
+		}
+	}
+	
+	mean_time_to_happen = {	months = 2 }
+	
+	option = {
+		name = EVTOPTACIML.344
+		if = { 
+			limit = { 
+				is_ill = yes
+			} 
+			random = { 
+				chance = 1
+				cure_illness = yes
+				if = { 
+					limit = { 
+						has_character_modifier = bedridden_illness
+					} 
+					remove_character_modifier = bedridden_illness
+				}
+				if = { 
+					limit = { 
+						has_character_modifier = mild_illness
+					} 
+					remove_character_modifier = mild_illness
+				}
+				if = { 
+					limit = { 
+						has_character_modifier = severe_illness
+					} 
+					remove_character_modifier = severe_illness
+				}
+				if = { 
+					limit = { 
+						has_character_modifier = severe_illness
+					} 
+					remove_character_modifier = severe_illness
+				}
+				if = { 
+					limit = { 
+						trait = wounded
+					} 
+					remove_trait = wounded
+				}
+				if = { 
+					limit = { 
+						trait = maimed
+					} 
+					remove_trait = maimed
+				}
+				if = { 
+					limit = { 
+						trait = severely_injured
+					} 
+					remove_trait = severely_injured
+				}
+				if = { 
+					limit = { 
+						trait = infection
+					} 
+					remove_trait = infection
+				}
+				if = { 
+					limit = { 
+						trait = incapable
+					} 
+					remove_trait = incapable
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBCIML.344
+		if = { 
+			limit = { 
+				is_ill = yes
+			} 
+			random = { 
+				chance = 1
+				cure_illness = yes
+				if = { 
+					limit = { 
+						has_character_modifier = bedridden_illness
+					} 
+					remove_character_modifier = bedridden_illness
+				}
+				if = { 
+					limit = { 
+						has_character_modifier = mild_illness
+					} 
+					remove_character_modifier = mild_illness
+				}
+				if = { 
+					limit = { 
+						has_character_modifier = severe_illness
+					} 
+					remove_character_modifier = severe_illness
+				}
+				if = { 
+					limit = { 
+						has_character_modifier = severe_illness
+					} 
+					remove_character_modifier = severe_illness
+				}
+				if = { 
+					limit = { 
+						trait = wounded
+					} 
+					remove_trait = wounded
+				}
+				if = { 
+					limit = { 
+						trait = maimed
+					} 
+					remove_trait = maimed
+				}
+				if = { 
+					limit = { 
+						trait = severely_injured
+					} 
+					remove_trait = severely_injured
+				}
+				if = { 
+					limit = { 
+						trait = infection
+					} 
+					remove_trait = infection
+				}
+				if = { 
+					limit = { 
+						trait = incapable
+					} 
+					remove_trait = incapable
+				}
+			}
+		}
+	}
+
+	after = {
+		add_character_modifier = { 
+		name = last_rite
+		months = 60
+		}
+	}
+}
+
+# requiem mass
+character_event = {
+	id = CIML.345
+	title = EVTNAMECIML.345
+	desc = EVTDESCCIML.345
+
+	picture = GFX_evt_died_funeral
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTACIML.345 
+		add_character_modifier = { 
+		name = requiem_mass_dynasty
+		months = 48
+		}
+	}
+
+	option = {
+		name = EVTOPTBCIML.345 
+		add_character_modifier = { 
+		name = requiem_mass_army
+		months = 36
+		}
+	}
+
+	option = {
+		name = EVTOPTCCIML.345 
+		add_character_modifier = { 
+		name = requiem_mass_poor
+		months = 36
+		}
+	}
+
+	option = {
+		name = EVTOPTDCIML.345 
+		add_character_modifier = { 
+		name = requiem_mass_church
+		months = 36
+		}
+	}
+
+	after = {
+	}
+}
+
+# memorial mass
+character_event = {
+	id = CIML.346
+	title = EVTNAMECIML.346
+	desc = EVTDESCCIML.346
+
+	picture = GFX_evt_died_funeral
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTACIML.346 
+		add_character_modifier = { 
+		name = requiem_mass_dynasty
+		months = 48
+		}
+	}
+
+	option = {
+		name = EVTOPTBCIML.346 
+		add_character_modifier = { 
+		name = requiem_mass_army
+		months = 36
+		}
+	}
+
+	option = {
+		name = EVTOPTCCIML.346 
+		add_character_modifier = { 
+		name = requiem_mass_poor
+		months = 36
+		}
+	}
+
+	option = {
+		name = EVTOPTDCIML.346 
+		add_character_modifier = { 
+		name = requiem_mass_church
+		months = 36
+		}
+	}
+
+	after = {
+	}
+}
