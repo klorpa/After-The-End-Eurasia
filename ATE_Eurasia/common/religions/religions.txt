@@ -3,8 +3,7 @@
 pagan_group = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	playable = yes	
-	word_of_blake = {
+	playable = yes	word_of_blake = {
 		graphical_culture = westerngfx
 		
 		icon = 10
@@ -57,19 +56,19 @@ pagan_group = {
 		interface_skin = { zun_interface pagan_interface }
 
 
-		crusade_name = WAR_OF_WRATH
-		scripture_name = THE_LEGENDARIUM
-		priest_title = ISTARI
+	crusade_name = WAR_OF_WRATH
+	scripture_name = THE_LEGENDARIUM
+	priest_title = ISTARI
 
-		high_god_name = GOD_ERU_ILLUVITAR
+	high_god_name = GOD_ERU_ILLUVITAR
 
-		god_names = {
-         		GOD_MANWE GOD_VARDA GOD_MANDOS GOD_OROME GOD_YAVANNA GOD_AULE GOD_ULMO GOD_LORIEN GOD_TULKAS GOD_NIENNA GOD_ESTE GOD_VAIRE GOD_VANA GOD_NESSA
-        	}
+	god_names = {
+            GOD_MANWE GOD_VARDA GOD_MANDOS GOD_OROME GOD_YAVANNA GOD_AULE GOD_ULMO GOD_LORIEN GOD_TULKAS GOD_NIENNA GOD_ESTE GOD_VAIRE GOD_VANA GOD_NESSA
+        }
 
-		evil_god_names = {
-            		GOD_MORGOTH
-        	}
+	evil_god_names = {
+            GOD_MORGOTH
+        }
 	}
 }
 	
@@ -95,7 +94,7 @@ christian = {
 	
 	#default interface
 	
-	high_church = {
+		high_church = {
 		graphical_culture = westerngfx
 
 		icon = 1
@@ -135,7 +134,7 @@ christian = {
 		intermarry = nonconformist
 	}
 	
-	free_church = {
+		free_church = {
 		graphical_culture = westerngfx
 		
 		icon = 1
@@ -165,7 +164,7 @@ christian = {
 		intermarry = insular
 		intermarry = presbyterian
 	}
-	insular = {
+		insular = {
 		graphical_culture = westerngfx
 
 		icon = 3
@@ -383,7 +382,7 @@ esoteric = {
 	}
 }
 	
-pirate = {
+	pirate = {
 	has_coa_on_barony_only = yes
 	graphical_culture = norsegfx
 	playable = yes
