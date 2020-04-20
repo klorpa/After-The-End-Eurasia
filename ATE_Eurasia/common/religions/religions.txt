@@ -382,7 +382,7 @@ esoteric = {
 	}
 }
 	
-	pirate = {
+pirate = {
 	has_coa_on_barony_only = yes
 	graphical_culture = norsegfx
 	playable = yes
@@ -485,5 +485,47 @@ esoteric = {
 		religious_clothing_priest = 17
 		
 		intermarry = brethren
+	}
+}
+
+old_world_cultist_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	playable = yes	
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 1 # always try to convert
+	ai_convert_other_group = 0	# never try to convert
+	
+	color = { 0.4 0.2 0.3 }
+	
+	interface_skin = { pagan_interface }
+	
+	jedinstvo = {
+		graphical_culture = pagangfx
+
+		icon = 7
+		heresy_icon = 7
+		
+		ai_convert_other_group = 1
+		
+		color = { 0.8 0.1 0.3 }
+		
+		interface_skin = { zun_interface pagan_interface }
+
+
+	crusade_name = PEOPLES_LIBERATORY_WAR
+	scripture_name = PARTISAN_LEGENDS
+	priest_title = MANAGER
+
+	high_god_name = GOD_BROOTHERHOOD_AND_UNITY
+
+	god_names = {
+            GOD_TITO
+        }
+
+	evil_god_names = {
+            GOD_THE_OCCUPIERS
+        }
 	}
 }
