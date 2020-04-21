@@ -161,18 +161,16 @@ christian = {
 		
 		intermarry = catholic
 		intermarry = high_church
-		intermarry = western_rite
+		intermarry = insular
 		intermarry = presbyterian
 	}
-		insular= {
+		insular = {
 		graphical_culture = westerngfx
 
 		icon = 3
 		heresy_icon = 4
 		
 		color = { 0.08 0.6 0.38 }
-
-
 		
 		crusade_name = CRUSADE
 		scripture_name = THE_BIBLE
@@ -202,86 +200,6 @@ christian = {
 		intermarry = catholic
 		intermarry = nonconformist
 		intermarry = high_church
-		intermarry = free_church
-		intermarry = presbyterian
-	}
-	apparitionist= {
-		graphical_culture = westerngfx
-
-		icon = 3
-		heresy_icon = 4
-		
-		color = { 0.08 0.6 0.38 }
-		
-		crusade_name = CRUSADE
-		scripture_name = THE_BIBLE
-		priest_title = PRIEST
-		
-		high_god_name = GOD_GOD
-		god_names = {
-			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
-		}
-		
-		evil_god_names = {
-			SATAN LUCIFER THE_DEVIL
-		}
-		
-		pacifist = yes # Makes the AI less likely to start wars, plots and factions
-		crusade_name = CRUSADE
-		can_grant_divorce = yes
-		can_call_crusade = no
-		female_temple_holders = yes
-		priests_can_marry = yes
-		priests_can_inherit = yes
-		feminist = yes
-		female_temple_holders= yes
-		male_temple_holders= no
-		can_retire_to_monastery = yes
-		allow_rivermovement = yes
-		peace_piety_gain = 1.0 #Gains 1 extra piety per month while at peace
-		aggression = 0.5 # AI aggression factor
-
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-
-		intermarry = catholic
-		intermarry = nonconformist
-		intermarry = high_church
-		intermarry = free_church
-		intermarry = presbyterian
-		intermarry= insular
-
-
-
-	presbyterian={
-
-	graphical_culture = westerngfx
-		
-		icon = 1
-		heresy_icon = 2
-		
-		color = { 0.5 0.55 0.75 }
-		
-		parent = high_church
-		
-		pacifist = yes # Makes the AI less likely to start wars, plots and factions
-		crusade_name = CRUSADE
-		can_grant_divorce = yes
-		can_call_crusade = no
-		female_temple_holders = yes
-		priests_can_marry = yes
-		priests_can_inherit = yes
-		allow_rivermovement = yes
-		peace_piety_gain = 1.0 #Gains 1 extra piety per month while at peace
-		aggression = 0.5 # AI aggression factor
-		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-		
-		intermarry = catholic
-		intermarry = high_church
-		intermarry = western_rite
-
 	}
 	
 	hispanic = {
@@ -464,7 +382,7 @@ esoteric = {
 	}
 }
 	
-	pirate = {
+pirate = {
 	has_coa_on_barony_only = yes
 	graphical_culture = norsegfx
 	playable = yes
@@ -567,5 +485,47 @@ esoteric = {
 		religious_clothing_priest = 17
 		
 		intermarry = brethren
+	}
+}
+
+old_world_cultist_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	playable = yes	
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 1 # always try to convert
+	ai_convert_other_group = 0	# never try to convert
+	
+	color = { 0.4 0.2 0.3 }
+	
+	interface_skin = { pagan_interface }
+	
+	jedinstvo = {
+		graphical_culture = pagangfx
+
+		icon = 7
+		heresy_icon = 7
+		
+		ai_convert_other_group = 1
+		
+		color = { 0.8 0.1 0.3 }
+		
+		interface_skin = { zun_interface pagan_interface }
+
+
+	crusade_name = PEOPLES_LIBERATORY_WAR
+	scripture_name = PARTISAN_LEGENDS
+	priest_title = MANAGER
+
+	high_god_name = GOD_BROOTHERHOOD_AND_UNITY
+
+	god_names = {
+            GOD_TITO
+        }
+
+	evil_god_names = {
+            GOD_THE_OCCUPIERS
+        }
 	}
 }

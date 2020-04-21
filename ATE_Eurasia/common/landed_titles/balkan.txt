@@ -19,7 +19,7 @@ e_balkan = {
 	k_yugoslavia = {
 		color={ 56 58 97 }
 		color2={ 56 58 97 }
-		capital = 27 # London REPLACE
+		capital = 1001 # Hartera
 		dignity = 2 # Counted as having this many more counties than it does
 		
 		croatian = "Jugoslavija"
@@ -39,6 +39,39 @@ e_balkan = {
 				b_pula = {
 				}
 				b_rovinj = {
+				}
+			}
+			
+			c_hartera = {
+				color={ 24 66 130 }
+				color2={ 255 255 255 }
+				croatian = "Hartera"
+				
+				b_rijeka = {
+				}
+				b_opatija = {
+				}
+				b_labinstina = {
+				}
+			}
+			
+			c_crikvenica = {
+				color={ 4 70 80 }
+				color2={ 255 255 255 }
+				croatian = "Crikvenica"
+				
+				b_crikvenica = {
+				}
+			}
+			
+			c_kvarnerska_ostrva = {
+				color={ 124 45 200 }
+				color2={ 255 255 255 }
+				croatian = "Krk-Cres-Losinj"
+				
+				b_krk = {
+				}
+				b_losinj = {
 				}
 			}
 		}
