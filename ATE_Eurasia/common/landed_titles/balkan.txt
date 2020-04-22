@@ -1,11 +1,11 @@
 ###ÄNSI###
 
-e_balkan = {
+e_yugoslavia = {
 	color={ 56 167 97 }
 	color2={ 255 255 255 }
 	capital = 27 # London REPLACE
 	
-	croatian = "Balkan" 
+	croatian = "Jugoslavija" 
 
 	# Creation/usurpation trigger
 	allow = {
@@ -16,13 +16,13 @@ e_balkan = {
 			}
 		}
 	}
-	k_yugoslavia = {
+	k_croatia = {
 		color={ 56 58 97 }
 		color2={ 56 58 97 }
 		capital = 1001 # Hartera
 		dignity = 2 # Counted as having this many more counties than it does
 		
-		croatian = "Jugoslavija"
+		croatian = "Hrvatska"
 		
 		d_kvarner = {
 			color={ 241 90 35 }
@@ -115,6 +115,52 @@ e_balkan = {
 				croatian = "Dinara"
 				
 				b_sinj = {
+				}
+			}
+			
+			c_plitvice = {
+				color={ 5 195 0 }
+				color2={ 255 255 255 }
+				croatian = "Plitvice"
+				
+				b_slunj = {
+				}
+			}
+			
+			c_boska = {
+				color={ 100 80 5 }
+				color2={ 255 255 255 }
+				croatian = "Plitvice"
+				
+				b_kastel = {
+				}
+				b_banja_luka = {
+				}
+				b_prijedor = {
+				}
+			}
+			
+			c_split = {
+				color={ 50 20 100 }
+				color2={ 255 255 255 }
+				croatian = "Split"
+				
+				b_jugoplastika = {
+				}
+				b_split = {
+				}
+				b_dugi_rat = {
+				}
+			}
+			
+			c_poljana = {
+				color={ 35 44 5 }
+				color2={ 255 255 255 }
+				croatian = "Poljana"
+				
+				b_livno = {
+				}
+				b_glamoc = {
 				}
 			}
 		}
