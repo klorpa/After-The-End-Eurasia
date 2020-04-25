@@ -1,0 +1,1970 @@
+decisions = {
+
+#### Latin
+order_latin_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		religion = catholic
+		religion = fraticelli
+		AND = {
+			OR = {
+				culture_group = latin
+				culture_group = iberian
+			}
+			religion_group = christian
+		}
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture_group = latin
+			}
+		}
+	}
+	NAND = {
+		ai = yes
+		culture_group = east_african
+	}
+	NAND = {
+		ai = yes
+		culture_group = byzantine
+	}
+	NAND = {
+		ai = yes
+		culture_group = east_slavic
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_vulgate
+		has_artifact = vulgate
+		has_artifact = illustrated_vetus_itala
+		has_artifact = vetus_itala
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.400 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+#### Greek
+order_greek_septuagint = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = greek
+		learning = 19
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture_group = byzantine
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_septuagint
+		has_artifact = septuagint
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.407 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+order_greek_new_testament = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = greek
+		learning = 19
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture_group = byzantine
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_greek_new_testament
+		has_artifact = greek_new_testament
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.410 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+#### Coptic
+order_coptic_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = coptic
+		culture = egyptian_arabic
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = coptic
+			}
+		}
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = egyptian_arabic
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_coptic_bible
+		has_artifact = coptic_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.413 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+#### Geez
+order_geez_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = ethiopian
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = ethiopian
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_geez_bible
+		has_artifact = geez_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.416 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+#### Armenian
+order_armenian_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = armenian
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = armenian
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_armenian_bible
+		has_artifact = armenian_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.419 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+#### Georgian
+order_georgian_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = georgian
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = georgian
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_georgian_bible
+		has_artifact = georgian_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.422 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+#### Arabic
+order_arabic_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture_group = arabic
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture_group = arabic
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_arabic_bible
+		has_artifact = arabic_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.425 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+#### Peshitta
+order_peshitta_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = levantine_arabic
+		culture = assyrian
+		religion = nestorian
+		religion = chaldean
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = levantine_arabic
+			}
+		}
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = assyrian
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_peshitta_bible
+		has_artifact = peshitta_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.428 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+
+#### Old slavonic
+order_old_slavonic_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture_group = east_slavic
+		culture_group = south_slavic
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture_group = east_slavic
+			}
+		}
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture_group = south_slavic
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_old_slavonic_bible
+		has_artifact = old_slavonic_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.431 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+#### Italian
+order_italian_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = italian
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = italian
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_italian_bible
+		has_artifact = italian_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.434 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+#### Spanish
+order_spanish_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = castillan
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = castillan
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_spanish_bible
+		has_artifact = spanish_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.437 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+#### Catalan
+order_catalan_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = catalan
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = catalan
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_catalan_bible
+		has_artifact = catalan_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.440 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+
+#### Frankish
+order_frankish_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = old_frankish
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = old_frankish
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_frankish_bible
+		has_artifact = frankish_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.443 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+
+
+#### German
+order_german_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = german
+		culture = old_saxon
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = german
+			}
+		}
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = old_saxon
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_german_bible
+		has_artifact = german_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.446 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+
+#### French
+order_french_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = frankish
+		culture = norman
+		culture = occitan
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = norman
+			}
+		}
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = frankish
+			}
+		}
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = occitan
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_french_bible
+		has_artifact = french_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.449 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+#### Nubian
+order_nubian_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = nubian
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = nubian
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = illustrated_nubian_bible
+		has_artifact = nubian_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.452 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+
+#### Danish
+order_danish_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = danish
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = danish
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = danish_new_testament
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.455 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+#### Swedish
+order_swedish_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = swedish
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = swedish
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = swedish_new_testament
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.457 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+#### Norwegian
+order_norwegian_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = norwegian
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = norwegian
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = norwegian_old_testament
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.459 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+  
+}
+
+
+#### Hungarian
+order_hungarian_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = hungarian
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = hungarian
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = hungarian_old_testament
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.461 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+
+#### Irish
+order_irish_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = irish
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = irish
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = irish_new_testament
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.463 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+#### Breton
+order_breton_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = breton
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = breton
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = breton_new_testament
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.465 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+#### Welsh
+order_welsh_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = welsh
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = welsh
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = welsh_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.467 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+
+#### Anglo-Saxon
+order_anglo_saxon_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = saxon
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = saxon
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = lindisfarne_gospels
+		has_artifact = aelfrics_old_testament
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.469 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+
+#### English
+order_english_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = english
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = english
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = english_new_testament
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.472 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+
+#### Mongolian
+order_mongolian_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = mongol
+		culture = uyghur
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = mongol
+			}
+		}
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = uyghur
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = ornate_mongolian_new_testament
+		has_artifact = mongolian_new_testament
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+	OR = {
+		religion = catholic
+		year = 1300
+		any_realm_province = {
+			religion = catholic
+		}
+		any_courtier = {
+			religion = catholic
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.474 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+
+
+#### bohemian
+order_bohemian_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	religion_group = christian
+	is_landed = yes
+	OR = {
+		culture = bohemian
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = bohemian
+			}
+		}
+	}
+	NOT = { religion = mandean }
+	NOR = {
+		has_artifact = bohemian_new_testament
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.477 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+#### waldensian
+order_waldensian_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	OR = {
+		religion = waldensian
+		secret_religion = waldensian
+	}
+	is_landed = yes
+	NOR = {
+		has_artifact = waldensian_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		culture_group = latin
+		ai = no
+	}
+	NOR = {
+		AND = {
+			culture = dalmatian
+			ai = yes
+		}
+		AND = {
+			culture = sardinian
+			ai = yes
+		}
+	}
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.479 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+
+#### lollard
+order_lollard_bible = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	OR = {
+		religion = lollard
+		secret_religion = lollard
+	}
+	is_landed = yes
+	NOR = {
+		has_artifact = wycliffe_bible
+		has_artifact = hungarian_hussite_bible
+		has_artifact = hussite_bible
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		culture = saxon
+		culture = english
+		culture = old_saxon
+		culture_group = west_slavic
+		culture = hungarian
+		ai = no
+	}
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+		trait = zealous
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.481 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+
+#### samaritan
+order_ciml_samaritan_pentateuch = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	is_landed = yes
+	OR = {
+		religion = samaritan
+		AND = {
+			religion_group = christian
+			trait = sympathy_judaism
+			OR = {
+				any_realm_province = {
+					religion = samaritan
+				}
+				completely_controls = c_jerusalem	
+			}
+		}
+	}
+	NOR = {
+		has_artifact = ciml_samaritan_pentateuch
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.485 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+#### Jewish
+order_ciml_torah = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	is_landed = yes
+	OR = {
+		religion = jewish
+		religion = karaite
+		culture_group = israelite
+		AND = {
+			trait = sympathy_judaism
+			religion_group = christian
+		}
+	}
+	NOR = {
+		has_artifact = ciml_torah
+		has_character_modifier = major_enemy_of_the_jews
+		has_character_modifier = expelled_jewish
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.487 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+order_ciml_tanakh = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	is_landed = yes
+	OR = {
+		religion = jewish
+		religion = karaite
+		culture_group = israelite
+		AND = {
+			trait = sympathy_judaism
+			religion_group = christian
+		}
+	}
+	NOR = {
+		has_artifact = ciml_tanakh
+		has_character_modifier = major_enemy_of_the_jews
+		has_character_modifier = expelled_jewish
+		has_character_flag = ciml_hide_bible_decisions
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.489 }
+	add_character_modifier = { 
+		name = ordered_bible
+		months = 60
+	}
+  }
+}
+
+#### Show/Hide
+hide_bible_decisions = {
+  is_high_prio = yes
+  ai_check_interval = 35000 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	ai = no
+	OR = {
+		religion_group = christian
+		religion_group = jewish
+	}
+	NOT  = { has_character_flag = ciml_hide_bible_decisions }
+  }
+  
+  allow = {
+	ai = no
+  }
+  
+  effect = {
+	set_character_flag = ciml_hide_bible_decisions
+  }
+}
+
+show_bible_decisions = { 
+  ai_check_interval = 35000 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	ai = no
+	OR = {
+		religion_group = christian
+		religion_group = jewish
+	}
+	has_character_flag = ciml_hide_bible_decisions
+  }
+  
+  allow = {
+	ai = no
+  }
+  
+  effect = {
+	clr_character_flag = ciml_hide_bible_decisions
+  }
+}
+
+#### Qurans
+order_arab_quran = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	OR = {
+		trait = sympathy_islam
+		religion_group = muslim
+	}
+	is_landed = yes
+	NOR = {
+		has_artifact = ornate_quran
+		has_artifact = ciml_quran
+		has_character_flag = ciml_ordered_quran
+		religion = yarsan
+		religion = yazidi
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.494 }
+	set_character_flag = ciml_ordered_quran
+  }
+}
+
+order_persian_quran = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	OR = {
+		trait = sympathy_islam
+		religion_group = muslim
+	}
+	is_landed = yes
+	NOR = {
+		has_artifact = persian_quran
+		has_character_flag = ciml_ordered_quran
+		religion = yarsan
+		religion = yazidi
+	}
+	OR = {
+		culture = afghan
+		culture = persian
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = persian
+			}
+		}
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = afghan
+			}
+		}
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	NOT = { trait = ashari }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology
+		has_ambition = obj_become_paragon_of_virtue 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.497 }
+	set_character_flag = ciml_ordered_quran
+  }
+}
+
+order_latin_quran = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	OR = {
+		AND = {
+			trait = mutazilite
+			trait = sympathy_christendom
+		}
+		AND = {
+			religion = catholic
+			trait = sympathy_islam
+		}
+		AND = {
+			religion = fraticelli
+			trait = sympathy_islam
+		}
+		AND = {
+			religion = adoptionist
+			trait = sympathy_islam
+		}
+		AND = {
+			religion = lollard
+			trait = sympathy_islam
+		}
+		AND = {
+			religion = waldensian
+			trait = sympathy_islam
+		}
+		AND = {
+			religion = free_spirits
+			trait = sympathy_islam
+		}
+		AND = {
+			religion = cathar
+			trait = sympathy_islam
+		}
+		AND = {
+			culture_group = latin
+			trait = sympathy_islam
+		}
+		AND = {
+			culture_group = iberian
+			trait = sympathy_islam
+		}
+	}
+	is_landed = yes
+	NOR = {
+		has_artifact = marcos_de_toledos_quran
+		has_artifact = lex_mahumet_pseudoprophete
+		has_character_flag = ciml_ordered_quran
+	}
+	OR = {
+		AND = {
+			religion_group = christian
+			any_realm_province = {
+				religion_group = muslim
+			}
+		}
+		AND = {
+			religion = catholic
+			trait = sympathy_islam
+		}
+		AND = {
+			religion_group = muslim
+			any_realm_province = {
+				culture_group = iberian
+			}
+		}
+		AND = {
+			religion_group = muslim
+			any_realm_province = {
+				culture_group = latin
+			}
+		}
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	NOT = { trait = ashari }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.499 }
+	set_character_flag = ciml_ordered_quran
+  }
+}
+
+order_catalan_quran = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	OR = {
+		AND = {
+			trait = mutazilite
+			trait = sympathy_christendom
+		}
+		trait = sympathy_islam
+	}
+	is_landed = yes
+	NOR = {
+		has_artifact = catalan_quran
+		has_character_flag = ciml_ordered_quran
+	}
+	OR = {
+		AND = {
+			religion_group = christian
+			ai = no
+			any_realm_province = {
+				religion_group = muslim
+			}
+			any_realm_province = {
+				culture = catalan
+			}
+		}
+		AND = {
+			religion_group = christian
+			culture = catalan
+			any_realm_province = {
+				religion_group = muslim
+			}
+		}
+		AND = {
+			religion_group = muslim
+			any_realm_province = {
+				culture = catalan
+			}
+		}
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	NOT = { trait = ashari }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.502 }
+	set_character_flag = ciml_ordered_quran
+  }
+}
+
+order_greek_quran = { 
+  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+  potential = {
+	OR = {
+		AND = {
+			trait = mutazilite
+			trait = sympathy_christendom
+		}
+		trait = sympathy_islam
+	}
+	is_landed = yes
+	NOR = {
+		has_artifact = greek_quran
+		has_character_flag = ciml_ordered_quran
+	}
+	OR = {
+		AND = {
+			religion_group = christian
+			ai = no
+			any_realm_province = {
+				religion_group = muslim
+			}
+			any_realm_province = {
+				culture = greek
+			}
+		}
+		AND = {
+			religion_group = christian
+			culture = greek
+			any_realm_province = {
+				religion_group = muslim
+			}
+		}
+		AND = {
+			religion_group = muslim
+			any_realm_province = {
+				culture = greek
+			}
+		}
+	}
+  }
+  
+  allow = {
+	wealth = 500
+	NOT = { has_character_modifier = ordered_bible }
+	NOT = { trait = ashari }
+	OR = {
+		has_focus = focus_scholarship
+		has_focus = focus_theology 
+		AND = {
+			ai = no
+			NOT = { has_dlc = "Way of Life" }
+		}
+	}
+  }
+  
+  effect = {
+    character_event = { id = CIML.504 }
+	set_character_flag = ciml_ordered_quran
+  }
+}
+
+}

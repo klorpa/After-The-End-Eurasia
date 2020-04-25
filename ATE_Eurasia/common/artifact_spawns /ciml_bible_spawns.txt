@@ -1,0 +1,1522 @@
+#### Latin
+illustrated_vulgate = {
+    max_amount = 2
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = catholic
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        illustrated_vulgate = {
+            value = 1
+        }
+		vulgate = {
+            value = 1
+        }
+		vetus_itala = {
+            value = 1
+        }
+		illustrated_vetus_itala = {
+            value = 1
+        }
+    }
+}
+
+vulgate = {
+    max_amount = 3
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = catholic
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        vulgate = {
+            value = 1
+        }
+		illustrated_vulgate = {
+            value = 1
+        }
+		vetus_itala = {
+            value = 1
+        }
+		illustrated_vetus_itala = {
+            value = 1
+        }
+    }
+}
+
+illustrated_vetus_itala = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = catholic
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        vulgate = {
+            value = 1
+        }
+		illustrated_vulgate = {
+            value = 1
+        }
+		vetus_itala = {
+            value = 1
+        }
+		illustrated_vetus_itala = {
+            value = 1
+        }
+    }
+}
+
+vetus_itala = {
+    max_amount = 2
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = catholic
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        vulgate = {
+            value = 1
+        }
+		illustrated_vulgate = {
+            value = 1
+        }
+		vetus_itala = {
+            value = 1
+        }
+		illustrated_vetus_itala = {
+            value = 1
+        }
+    }
+}
+
+#### Greek
+illustrated_septuagint = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = orthodox
+				culture = greek
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        illustrated_septuagint = {
+            value = 1
+        }
+		septuagint = {
+            value = 1
+        }
+		illustrated_greek_new_testament = {
+            value = 1
+        }
+		greek_new_testament = {
+            value = 1
+        }
+    }
+}
+
+septuagint = {
+    max_amount = 2
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = orthodox
+				culture = greek
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        illustrated_septuagint = {
+            value = 1
+        }
+		septuagint = {
+            value = 1
+        }
+		illustrated_greek_new_testament = {
+            value = 1
+        }
+		greek_new_testament = {
+            value = 1
+        }
+    }
+}
+
+illustrated_greek_new_testament = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = orthodox
+				culture = greek
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        illustrated_septuagint = {
+            value = 1
+        }
+		septuagint = {
+            value = 1
+        }
+		illustrated_greek_new_testament = {
+            value = 1
+        }
+		greek_new_testament = {
+            value = 1
+        }
+    }
+}
+
+greek_new_testament = {
+    max_amount = 2
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = orthodox
+				culture = greek
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        illustrated_septuagint = {
+            value = 1
+        }
+		septuagint = {
+            value = 1
+        }
+		illustrated_greek_new_testament = {
+            value = 1
+        }
+		greek_new_testament = {
+            value = 1
+        }
+    }
+}
+
+#### Coptic
+illustrated_coptic_bible = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				culture = coptic
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        illustrated_coptic_bible = {
+            value = 1
+        }
+		coptic_bible = {
+            value = 1
+        }
+    }
+}
+
+coptic_bible = {
+    max_amount = 2
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				culture = coptic
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        illustrated_coptic_bible = {
+            value = 1
+        }
+		coptic_bible = {
+            value = 1
+        }
+    }
+}
+
+#### Geez
+illustrated_geez_bible = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				culture = ethiopian
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        illustrated_geez_bible = {
+            value = 1
+        }
+		geez_bible = {
+            value = 1
+        }
+    }
+}
+
+geez_bible = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				culture = ethiopian
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        geez_bible = {
+            value = 1
+        }
+		illustrated_geez_bible = {
+            value = 1
+        }
+    }
+}
+
+#### Armenian
+illustrated_armenian_bible = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				culture = armenian
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        illustrated_armenian_bible = {
+            value = 1
+        }
+		armenian_bible = {
+            value = 1
+        }
+    }
+}
+armenian_bible = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				culture = armenian
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        armenian_bible = {
+            value = 1
+        }
+		illustrated_armenian_bible = {
+            value = 1
+        }
+    }
+}
+#### Georgian
+illustrated_georgian_bible = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				culture = georgian
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        illustrated_georgian_bible = {
+            value = 1
+        }
+		georgian_bible = {
+            value = 1
+        }
+    }
+}
+georgian_bible = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				culture = georgian
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        georgian_bible = {
+            value = 1
+        }
+		illustrated_georgian_bible = {
+            value = 1
+        }
+    }
+}
+#### Peshitta 1
+illustrated_peshitta_bible = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				culture_group = arabic
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        illustrated_peshitta_bible = {
+            value = 1
+        }
+		arabic_bible = {
+            value = 1
+        }
+    }
+}
+#### Arabic 1
+arabic_bible = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				culture_group = arabic
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        arabic_bible = {
+            value = 1
+        }
+		illustrated_peshitta_bible = {
+            value = 1
+        }
+    }
+}
+#### Old Slavonic
+illustrated_old_slavonic_bible = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				OR = {
+					culture_group = east_slavic
+					culture_group = south_slavic
+				}
+				is_priest = yes
+				is_landed = yes
+			}
+			OR = {	
+				year = 936
+				year = 1066	
+				year = 1081			
+				year = 1187			
+				year = 1204			
+				year = 1220				
+				year = 1241	
+				year = 1337	
+			}
+		}
+	}
+	
+    artifacts = {
+        old_slavonic_bible = {
+            value = 1
+        }
+		illustrated_old_slavonic_bible = {
+            value = 1
+        }
+    }
+}
+
+old_slavonic_bible = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				OR = {
+					culture_group = east_slavic
+					culture_group = south_slavic
+				}
+				is_priest = yes
+				is_landed = yes
+			}
+			OR = {	
+				year = 936
+				year = 1066	
+				year = 1081			
+				year = 1187			
+				year = 1204			
+				year = 1220				
+				year = 1241	
+				year = 1337	
+			}
+		}			
+	}
+	
+    artifacts = {
+        old_slavonic_bible = {
+            value = 1
+        }
+		illustrated_old_slavonic_bible = {
+            value = 1
+        }
+    }
+}
+#### Frankish 1
+frankish_bible = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				culture = old_frankish
+				is_priest = yes
+				is_landed = no
+			}
+			OR = {	
+				year = 610 #Timeline Extenders					
+				year = 769	
+				year = 867	
+				year = 936
+			}
+		}		
+	}
+	
+    artifacts = {
+        frankish_bible = {
+            value = 1
+        }
+    }
+}
+#### German 1
+german_bible = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				culture = german
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        german_bible = {
+            value = 1
+        }
+    }
+}
+#### French 1
+french_bible = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				culture = frankish
+				is_priest = yes
+				is_landed = no
+			}
+			OR = {	
+				year = 1066	
+				year = 1081			
+				year = 1187			
+				year = 1204			
+				year = 1220				
+				year = 1241	
+				year = 1337	
+			}
+		}			
+	}
+	
+    artifacts = {
+        french_bible = {
+            value = 1
+        }
+    }
+}
+#### Nubian 
+illustrated_nubian_bible = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				culture = nubian
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        illustrated_nubian_bible = {
+            value = 1
+        }
+    }
+}
+#### Irish
+irish_new_testament = {
+    max_amount = 2
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = catholic
+				culture = irish
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        irish_new_testament = {
+            value = 1
+        }
+    }
+}
+#### Jewish one of each
+ciml_torah = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = jewish
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        ciml_torah = {
+            value = 1
+        }
+    }
+}
+
+ciml_tanakh = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = jewish
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        ciml_tanakh = {
+            value = 1
+        }
+    }
+}
+
+#### Anglo-saxon
+lindisfarne_gospels = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				OR = {
+					culture = english
+					culture = saxon
+				}
+				religion = catholic
+				is_priest = yes
+				is_landed = yes
+			}
+			OR = {	
+				year = 610 #Timeline Extenders					
+				year = 769	
+				year = 867
+				year = 936				
+				year = 1066
+			}
+		}			
+	}
+	
+    artifacts = {
+        lindisfarne_gospels = {
+            value = 1
+        }
+		aelfrics_old_testament = {
+            value = 1
+        }
+    }
+}
+
+aelfrics_old_testament = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				OR = {
+					culture = english
+					culture = saxon
+				}
+				religion = catholic
+				is_priest = yes
+				is_landed = yes
+			}
+			OR = {	
+				year = 610 #Timeline Extenders					
+				year = 769	
+				year = 867
+				year = 936	
+				year = 1066
+			}
+		}			
+	}
+	
+    artifacts = {
+        aelfrics_old_testament = {
+            value = 1
+        }
+		lindisfarne_gospels = {
+            value = 1
+        }
+    }
+}
+
+#### Relics
+blood_of_januarius = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = catholic
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        blood_of_januarius = {
+            value = 1
+        }
+    }
+}
+
+#### Codices
+codex_argenteus = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = catholic
+				ai = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        codex_argenteus = {
+            value = 1
+        }
+    }
+}
+	
+codex_vaticanus = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = catholic
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        codex_vaticanus = {
+            value = 1
+        }
+    }
+}
+	
+codex_sinaiticus = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				OR = {
+					religion = orthodox
+					religion = miaphysite
+				}
+				is_landed = yes
+				is_priest = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        codex_sinaiticus = {
+            value = 1
+        }
+    }
+}
+	
+codex_alexandrinus = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				OR = {
+					religion = orthodox
+					religion = miaphysite
+					religion = nestorian
+				}
+				is_priest = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        codex_alexandrinus = {
+            value = 1
+        }
+    }
+}
+	
+codex_ephraemi_rescriptus = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				OR = {
+					religion = orthodox
+					religion = miaphysite
+					religion = nestorian
+				}
+				ai = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        codex_ephraemi_rescriptus = {
+            value = 1
+        }
+    }
+}
+
+codex_cumanicus = {
+    max_amount = 4
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = catholic
+				ai = yes
+				is_landed = yes
+				OR = {
+					government = theocracy_government
+					government = merchant_republic_government
+				}
+				OR = {
+					culture = hungarian
+					culture = german
+					culture = italian
+				}
+			}
+			OR = {
+				year = 1066	
+				year = 1081			
+				year = 1187			
+				year = 1204			
+				year = 1220				
+				year = 1241	
+				year = 1337	
+			}
+		}			
+	}
+	
+    artifacts = {
+        codex_cumanicus = {
+            value = 1
+        }
+    }
+}
+
+#### Qurans
+ornate_quran = {
+    max_amount = 3
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = muslim
+				ai = yes
+				is_landed = yes
+			}
+		}			
+	}
+	
+    artifacts = {
+        ornate_quran = {
+            value = 1
+        }
+    }
+}
+
+ciml_quran = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = muslim
+				culture_group = arabic
+				ai = yes
+				is_landed = no
+			}
+		}			
+	}
+	
+    artifacts = {
+        quran = {
+            value = 1
+        }
+    }
+}
+
+persian_quran = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = muslim
+				culture = persian
+				ai = yes
+				is_landed = yes
+			}
+			OR = {
+				year = 936
+				year = 1066	
+				year = 1081			
+				year = 1187			
+				year = 1204			
+				year = 1220				
+				year = 1241	
+				year = 1337	
+			}
+		}			
+	}
+	
+    artifacts = {
+        persian_quran = {
+            value = 1
+        }
+    }
+}
+
+catalan_quran = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = catholic
+				ai = yes
+				is_landed = yes
+				government = theocracy_government
+				culture = catalan
+			}
+			OR = {	
+				year = 1337	
+			}
+		}			
+	}
+	
+    artifacts = {
+        catalan_quran = {
+            value = 1
+        }
+    }
+}
+
+marcos_de_toledos_quran = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = catholic
+				ai = yes
+				is_landed = yes
+				government = theocracy_government
+				culture_group = iberian
+			}
+			OR = {										
+				year = 1220				
+				year = 1241	
+				year = 1337	
+			}
+		}			
+	}
+	
+    artifacts = {
+        marcos_de_toledos_quran = {
+            value = 1
+        }
+    }
+}
+
+lex_mahumet_pseudoprophete = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = catholic
+				ai = yes
+				is_landed = yes
+				government = theocracy_government
+				OR = {
+					culture_group = latin
+					culture_group = iberian
+				}
+			}
+			OR = {				
+				year = 1187			
+				year = 1204			
+				year = 1220				
+				year = 1241	
+				year = 1337	
+			}
+		}			
+	}
+	
+    artifacts = {
+        lex_mahumet_pseudoprophete = {
+            value = 1
+        }
+    }
+}
+
+greek_quran = {
+    max_amount = 1
+    spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+				
+
+    weight = {
+		value = 0
+		
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion = orthodox
+				ai = yes
+				is_landed = yes
+				government = theocracy_government
+				culture = greek
+			}
+			OR = {				
+				year = 867		
+				year = 936
+			}
+		}			
+	}
+	
+    artifacts = {
+        greek_quran = {
+            value = 1
+        }
+    }
+}

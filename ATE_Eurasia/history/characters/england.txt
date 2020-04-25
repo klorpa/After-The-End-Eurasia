@@ -434,7 +434,8 @@
 	2671.1.3={death=yes}
 }
 1001022={
-	name="Edward"
+	name="Edith"
+	female=yes
 	dynasty=1101004 #Pitt
 	culture=westerner
 	religion=high_thelema
@@ -444,13 +445,13 @@
 	intrigue=4
 	learning=5
 	trait=charismatic_negotiator
-	trait=bright
+	trait=shrewd
 	trait=trusting
 	trait=zealous
 	trait=wroth
 	trait=ambitious
-	2620.5.28={birth=yes}
-	2681.3.2={death=yes}
+	2603.5.28={birth=yes}
+	2700.1.1={death=yes}
 }
 1001023={
 	name="Julian"
@@ -475,6 +476,8 @@
 	dynasty=1101006 #Anaduni
 	culture=westerner
 	religion=valinorism
+	father=1001072
+	mother=1001073
 	martial=10
 	diplomacy=5
 	stewardship=5
@@ -492,6 +495,8 @@
 	dynasty=1101008 #Gimileth
 	culture=westerner
 	religion=valinorism
+	father=1001072
+	mother=1001075
 	martial=6
 	diplomacy=8
 	stewardship=10
@@ -501,6 +506,7 @@
 	trait=just
 	trait=ambitious
 	trait=thrifty_clerk
+	trait=legit_bastard
 	2642.12.1={birth=yes}
 	2671.1.3={death=yes}
 	##Curufinwe's half brother by their father.
@@ -542,6 +548,7 @@
 	trait=temperate
 	trait=erudite
 	2600.1.1={birth=yes}
+	2618.2.8={add_spouse=1001022}
 	2666.7.2={death=yes}
 }
 1001028 = {
@@ -590,6 +597,7 @@
 	dna="mjcjllpjldh"
 	culture=midlander
 	religion=high_thelema
+	father=1001068
 	martial=7
 	diplomacy=4
 	stewardship=8
@@ -676,6 +684,7 @@
 	culture=midlander
 	religion=high_thelema
 	father=1001027
+	mother=1001022
 	martial=6
 	diplomacy=4
 	stewardship=5
@@ -690,6 +699,7 @@
 	trait=proud
 	trait=wroth 
 	2620.9.8={ birth=yes }
+	2650.6.6={add_spouse=1001069}
 	2678.6.12={ death=yes }
 }
 1001035={
@@ -726,7 +736,6 @@
 	intrigue=6
 	learning=8
 	trait=skilled_tactician
-	trait=peasant_leader
 	trait=hunter
 	trait=ambitious
 	trait=deceitful
@@ -814,7 +823,6 @@
 	trait=quick
 	trait=fair
 	trait=groomed
-	trait=hedonist
 	trait=poet
 	trait=ambitious
 	trait=arbitrary
@@ -856,6 +864,7 @@
 	dynasty=1801002 #Ganumaga
 	culture=scouse
 	religion=free_church
+	father=1001071
 	martial=4
 	diplomacy=5
 	stewardship=4
@@ -863,7 +872,7 @@
 	learning=3
 	trait=fortune_builder
 	trait=quick
-	trait=gamemaster
+	trait=gamer
 	trait=patient
 	trait=lustful
 	trait=cynical
@@ -970,6 +979,7 @@
 	dynasty=1801002 #Ganumaga
 	culture=northerner
 	religion=high_thelema
+	father=1001070
 	martial=4
 	diplomacy=5
 	stewardship=4
@@ -980,10 +990,8 @@
 	trait=duelist
 	trait=gregarious
 	trait=stubborn
-	father=60
-	mother=61
-	2647.8.10={ birth=yes }
-	2680.2.8={ death=yes }
+	2647.8.10={birth=yes}
+	2680.2.8={death=yes}
 }
 1001049={
 	name="James"
@@ -1000,8 +1008,8 @@
 	trait=patient
 	trait=greedy
 	trait=diligent
-	2580.10.2={ birth=yes }
-	2640.8.8={ death=yes }
+	2580.10.2={birth=yes}
+	2640.8.8={death=yes}
 }
 1001050={
 	name="Isabela"
@@ -1018,8 +1026,8 @@
 	trait=patient
 	trait=kind
 	trait=diligent
-	2589.8.12={ birth=yes }
-	2625.6.10={ add_spouse=60 }
+	2579.8.12={ birth=yes }
+	2615.6.10={ add_spouse=1001049 }
 	2650.3.2={ death=yes }
 }
 1001051={
@@ -1127,7 +1135,7 @@
 	2547.1.1={death=yes}
 }
 1001057={
-	name="Crowley"
+	name="Aleister"
 	dynasty=1701003 #FitzSpatstone
 	culture=midlander
 	religion=high_thelema
@@ -1159,7 +1167,7 @@
 	culture=midlander
 	religion=high_thelema
 	father=1001059
-	trait=martial_scholar
+	trait=martial_cleric
 	trait=mystic
 	trait=chaste
 	trait=patient
@@ -1175,7 +1183,8 @@
 	culture=midlander
 	religion=high_thelema
 	father=1001034
-	2651.5.1={ birth=yes }
+	mother=1001069
+	2653.5.1={ birth=yes }
 	2700.1.1={ death=yes }
 }
 1001062={
@@ -1185,7 +1194,8 @@
 	culture=midlander
 	religion=high_thelema
 	father=1001034
-	2652.10.5={ birth=yes }
+	mother=1001069
+	2654.10.5={ birth=yes }
 	2700.1.1={ death=yes }
 }
 1001063={
@@ -1194,7 +1204,8 @@
 	culture=midlander
 	religion=high_thelema
 	father=1001034
-	2654.6.25={ birth=yes }
+	mother=1001069
+	2656.6.25={ birth=yes }
 	2700.1.1={ death=yes }
 }
 1001064={
@@ -1203,7 +1214,8 @@
 	culture=midlander
 	religion=high_thelema
 	father=1001034
-	2658.11.8={ birth=yes }
+	mother=1001069
+	2660.11.8={ birth=yes }
 	2700.1.1={ death=yes }
 }
 1001065={
@@ -1213,7 +1225,8 @@
 	culture=midlander
 	religion=high_thelema
 	father=1001034
-	2661.9.9={ birth=yes }
+	mother=1001069
+	2663.9.9={ birth=yes }
 	2700.1.1={ death=yes }
 }
 1001066={
@@ -1222,6 +1235,7 @@
 	culture=midlander
 	religion=high_thelema
 	father=1001027
+	mother=1001022
 	martial=8
 	diplomacy=6
 	stewardship=5
@@ -1245,6 +1259,7 @@
 	culture=midlander
 	religion=high_thelema
 	father=1001027
+	mother=1001022
 	martial=8
 	diplomacy=6
 	stewardship=5
@@ -1261,4 +1276,93 @@
 	trait=ruthless
 	2626.12.27={ birth=yes }
 	2700.1.1={ death=yes }
+}
+1001068={
+	name="Eliphas"
+	dynasty=1701000 #Boulton
+	culture=midlander
+	religion=high_thelema
+	2601.9.7={ birth=yes }
+	2655.8.14={ death=yes }
+}
+1001069={
+	name="Jane"
+	female=yes
+	dynasty=1701000 #Boulton
+	father=1001068
+	culture=midlander
+	religion=high_thelema
+	martial=4
+	diplomacy=8
+	stewardship=8
+	intrigue=4
+	learning=4
+	add_trait=charismatic_negotiator
+	add_trait=sturdy
+	add_trait=content
+	add_trait=honest
+	add_trait=trusting
+	add_trait=humble
+	2630.4.16={ birth=yes }
+	2700.1.1={ death=yes }
+}
+1001070={
+	name="Nigel"
+	dynasty=1801002 #Ganumaga
+	culture=northerner
+	religion=high_thelema
+	father=1001049
+	mother=1001050
+	trait=zealous
+	trait=cruel
+	trait=tough_soldier
+	trait=diligent
+	2601.2.11={ birth=yes }
+	2665.5.5={ death=yes }
+}
+1001071={
+	name="Richard"
+	dynasty=1801002 #Ganumaga
+	culture=northerner
+	religion=free_church
+	father=1001049
+	mother=1001050
+	2604.6.4={ birth=yes }
+	2659.12.6={ death=yes }
+}
+1001072={
+	name="Baragund"
+	dynasty=1101006 #Anaduni
+	culture=westerner
+	religion=valinorism
+	2610.10.4={birth=yes}
+	2636.1.1={add_spouse=1001073}
+	2662.1.2={death=yes}
+}
+1001073={
+	name="Andreth"
+	dynasty=0
+	culture=westerner
+	female=yes
+	religion=valinorism
+	2615.5.7={birth=yes}
+	2662.1.2={death=yes}
+}
+1001074={
+	name="Rodnor"
+	dynasty=1101008 #Gimileth
+	culture=westerner
+	religion=valinorism
+	2594.7.14={birth=yes}
+	2649.9.13={death=yes}
+}
+1001075={
+	name="Írimë"
+	female=yes
+	dynasty=1101008 #Gimileth
+	culture=westerner
+	father=1001074
+	religion=valinorism
+	2615.8.17={birth=yes}
+	2665.7.7={death=yes}
 }
