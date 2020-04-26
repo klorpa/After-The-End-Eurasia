@@ -71,3 +71,27 @@ character_event = {
 		}
 	}
 }
+
+character_event = {
+	id = valinorist.143 ##Longing for the Sea Childhood event
+	desc = EVTDESCvalinorist.143
+	prisoner = no
+	
+	window = EventWindowNarrative
+	
+	trigger = {
+		age < 16
+		age > 3 
+		ROOT = {
+			location = {
+				port = yes
+			}
+		}
+	}
+	
+	mean_time_to_happen = { years = 400 }
+
+	option = {
+		name = EVTOPTAvalinorist.143
+	}
+}

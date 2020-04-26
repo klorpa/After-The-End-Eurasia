@@ -1,0 +1,104 @@
+decisions = {
+	valinorist_suicide_start = { #Learn about the Gift of Men
+		is_high_prio = no
+		
+		ai_check_interval = 12 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+		
+		potential = {
+			religion = valinorism
+			age >= 16
+			is_incapable = no
+			NOR = {
+				has_character_modifier = valinorist_fea_study
+				has_character_modifier = valinorist_fea_grant
+				has_character_modifier = valinorist_fea_gift
+			}
+		}
+		
+		allow = {
+			war = no
+			piety >= 200
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				random_list = {
+					25 = {
+						character_event = { id = valinorist_fea.1 days = 50 random = 15}
+					}
+					25 = {
+						character_event = { id = valinorist_fea.2 days = 50 random = 15}
+					}
+					25 = {
+						character_event = { id = valinorist_fea.3 days = 50 random = 15}
+					}
+					25 = {
+						character_event = { id = valinorist_fea.4 days = 50 random = 15}
+					}
+				}
+			}
+			add_character_modifier = { name = valinorist_fea_study duration = -1 }
+			piety = -200
+		}
+	}
+	
+	valinorist_suicide_method = { #Learn about the Valinorist way of accepting the Gift
+		is_high_prio = no
+		
+		ai_check_interval = 12 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+		
+		potential = {
+			religion = valinorism
+			age >= 16
+			hidden_tooltip = {
+				has_character_modifier = valinorist_fea_grant
+				NOT = {
+					has_character_flag = fea_method_study
+				}
+			}
+		}
+		
+		allow = {
+			hidden_tooltip = {
+				has_character_modifier = valinorist_fea_grant
+			}
+			piety >= 300
+			war = no
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				set_character_flag = fea_method_study
+			}
+			piety = -300
+		}
+	}
+
+	valinorist_suicide_complete = {
+		is_high_prio = no
+		
+		ai_check_interval = 12 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+		
+		potential = {
+			religion = valinorism
+			age >= 45
+			hidden_tooltip = {
+				has_character_modifier = valinorist_fea_gift
+			}
+		}
+		
+		allow = {
+			hidden_tooltip = {
+				has_character_modifier = valinorist_fea_gift
+			}
+			war = no
+		}
+		
+		effect = {
+			custom_tooltip = {
+				text = valinorist_suicide_effect_desc
+				character_event = { id = valinorist_fea.8 }
+			}
+		}
+	}
+}

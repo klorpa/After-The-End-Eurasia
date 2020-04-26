@@ -1,0 +1,947 @@
+namespace = valinorist_fea
+
+character_event = {
+	id = valinorist_fea.1
+	desc = { 
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = smol_mandos }	
+		} 
+		text = EVTDESCvalinorist_fea.1 
+	}
+	desc = {
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = big_mandos }	
+		} 
+		text = EVTDESCvalinorist_fea.1A
+	}
+	prisoner = no
+	
+	window = EventWindowNarrative
+	
+	trigger = {
+		religion = valinorism
+		has_character_modifier = valinorist_fea_study
+		NOR = {
+			has_character_flag = fea_study_event_1
+			has_character_modifier = valinorist_fea_grant
+			has_character_flag = fea_study_event_5
+		}
+		any_courtier = {
+			age = 16
+			prisoner = no
+			has_job_title = job_spiritual
+			religion = valinorism
+			NOR = {
+				character = ROOT
+				trait = incapable
+				is_inaccessible_trigger = yes 
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 100 }
+	
+	immediate = {
+		set_character_flag = fea_study_event_1
+		clr_character_flag = fea_study_suspend
+	}
+
+	option = {
+		name = EVTOPTAvalinorist_fea.1
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = smol_mandos }
+		}
+		hidden_tooltip = {
+			random_list = {
+				20 = {
+					character_event = { id = valinorist_fea.5 days = 30 random = 15}
+					set_character_flag = fea_study_event_5				
+					modifier = {
+						factor = 1.25 
+						has_character_flag = fea_study_event_2	
+					}
+					modifier = {
+						factor = 1.25 
+						has_character_flag = fea_study_event_3
+					}
+					modifier = {
+						factor = 1.25
+						has_character_flag = fea_study_event_4
+					}
+					modifier = {
+						factor = 1.25
+						learning >= 10
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 15
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 20
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 10 }
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 15 }
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 20 }
+					}
+				}
+				80 = {
+					piety = 100
+				}
+			}
+		}
+	}
+	option = {
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = big_mandos }
+		}
+		name = EVTOPTBvalinorist_fea.1
+		hidden_tooltip = {
+			character_event = { id = valinorist_fea.101 }
+		}
+	}
+}
+
+character_event = {
+	id = valinorist_fea.101
+	desc = EVTDESCvalinorist_fea.1B
+	prisoner = no
+	
+	window = EventWindowNarrative
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAvalinorist_fea.101
+		hidden_tooltip = {
+			random_list = {
+				20 = {
+					character_event = { id = valinorist_fea.5 days = 30 random = 15}
+					set_character_flag = fea_study_event_5				
+					modifier = {
+						factor = 1.25 
+						has_character_flag = fea_study_event_2	
+					}
+					modifier = {
+						factor = 1.25 
+						has_character_flag = fea_study_event_3
+					}
+					modifier = {
+						factor = 1.25
+						has_character_flag = fea_study_event_4
+					}
+					modifier = {
+						factor = 1.25
+						learning >= 10
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 15
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 20
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 10 }
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 15 }
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 20 }
+					}
+				}
+				80 = {
+					piety = 100
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = valinorist_fea.2
+	desc = { 
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = smol_mandos }	
+		} 
+		text = EVTDESCvalinorist_fea.2 
+	}
+	desc = {
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = big_mandos }	
+		} 
+		text = EVTDESCvalinorist_fea.2A
+	}
+	prisoner = no
+	
+	window = EventWindowNarrative
+	
+	trigger = {
+		religion = valinorism
+		has_character_modifier = valinorist_fea_study
+		NOR = {
+			has_character_flag = fea_study_event_2
+			has_character_modifier = valinorist_fea_grant
+			has_character_flag = fea_study_event_5
+		}
+		any_courtier = {
+			age = 16
+			prisoner = no
+			has_job_title = job_spiritual
+			religion = valinorism
+			NOR = {
+				character = ROOT
+				trait = incapable
+				is_inaccessible_trigger = yes 
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 200 }
+	
+	immediate = {
+		set_character_flag = fea_study_event_2
+		clr_character_flag = fea_study_suspend
+	}
+
+	option = {
+		name = EVTOPTAvalinorist_fea.2
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = smol_mandos }
+		}
+		hidden_tooltip = {
+			random_list = {
+				20 = {
+					character_event = { id = valinorist_fea.5 days = 30 random = 15}
+					set_character_flag = fea_study_event_5				
+					modifier = {
+						factor = 1.25
+						has_character_flag = fea_study_event_1	
+					}
+					modifier = {
+						factor = 1.25
+						has_character_flag = fea_study_event_3
+					}
+					modifier = {
+						factor = 1.25
+						has_character_flag = fea_study_event_4
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 10
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 15
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 20
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 10 }
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 15 }
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 20 }
+					}
+				}
+				80 = {
+					piety = 100
+				}
+			}
+		}
+	}
+	option = {
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = big_mandos }
+		}
+		name = EVTOPTBvalinorist_fea.2
+		hidden_tooltip = {
+			character_event = { id = valinorist_fea.201 }
+		}
+	}
+}
+
+character_event = {
+	id = valinorist_fea.201
+	desc = EVTDESCvalinorist_fea.2B
+	prisoner = no
+	
+	window = EventWindowNarrative
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAvalinorist_fea.201
+		hidden_tooltip = {
+			random_list = {
+				20 = {
+					character_event = { id = valinorist_fea.5 days = 30 random = 15}
+					set_character_flag = fea_study_event_5				
+					modifier = {
+						factor = 1.25
+						has_character_flag = fea_study_event_1	
+					}
+					modifier = {
+						factor = 1.25
+						has_character_flag = fea_study_event_3
+					}
+					modifier = {
+						factor = 1.25
+						has_character_flag = fea_study_event_4
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 10
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 15
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 20
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 10 }
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 15 }
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 20 }
+					}
+				}
+				80 = {
+					piety = 100
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = valinorist_fea.3
+	desc = { 
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = smol_mandos }	
+		}
+		text = EVTDESCvalinorist_fea.3 
+	}
+	desc = {
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = big_mandos }	
+		} 
+		text = EVTDESCvalinorist_fea.3A
+	}
+	prisoner = no
+	
+	window = EventWindowNarrative
+	
+	trigger = {
+		religion = valinorism
+		has_character_modifier = valinorist_fea_study
+		NOR = {
+			has_character_flag = fea_study_event_3
+			has_character_modifier = valinorist_fea_grant
+			has_character_flag = fea_study_event_5
+		}
+		any_courtier = {
+			age = 16
+			prisoner = no
+			has_job_title = job_spiritual
+			religion = valinorism
+			NOR = {
+				character = ROOT
+				trait = incapable
+				is_inaccessible_trigger = yes 
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 300 }
+	
+	immediate = {
+		set_character_flag = fea_study_event_3
+		clr_character_flag = fea_study_suspend
+	}
+
+	option = {
+		name = EVTOPTAvalinorist_fea.3
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = smol_mandos }
+		}
+		hidden_tooltip = {
+			random_list = {
+				20 = {
+					character_event = { id = valinorist_fea.5 days = 30 random = 15}
+					set_character_flag = fea_study_event_5				
+					modifier = {
+						factor = 1.25
+						has_character_flag = fea_study_event_1	
+					}
+					modifier = {
+						factor = 1.25 
+						has_character_flag = fea_study_event_2
+					}
+					modifier = {
+						factor = 1.25
+						has_character_flag = fea_study_event_4
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 10
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 15
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 20
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 10 }
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 15 }
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 20 }
+					}
+				}
+				80 = {
+					piety = 100
+				}
+			}
+		}
+	}
+	option = {
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = big_mandos }
+		}
+		hidden_tooltip = {
+			character_event = { id = valinorist_fea.301 }
+		}
+		name = EVTOPTBvalinorist_fea.3
+	}
+}
+
+character_event = {
+	id = valinorist_fea.301
+	desc = EVTDESCvalinorist_fea.3B
+	prisoner = no
+	
+	window = EventWindowNarrative
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAvalinorist_fea.301
+		hidden_tooltip = {
+			random_list = {
+				20 = {
+					character_event = { id = valinorist_fea.5 days = 30 random = 15}
+					set_character_flag = fea_study_event_5				
+					modifier = {
+						factor = 1.25
+						has_character_flag = fea_study_event_1	
+					}
+					modifier = {
+						factor = 1.25 
+						has_character_flag = fea_study_event_2
+					}
+					modifier = {
+						factor = 1.25
+						has_character_flag = fea_study_event_4
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 10
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 15
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 20
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 10 }
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 15 }
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 20 }
+					}
+				}
+				80 = {
+					piety = 100
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = valinorist_fea.4
+	desc = { 
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = smol_mandos }	
+		} 
+		text = EVTDESCvalinorist_fea.4 
+	}
+	desc = {
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = big_mandos }	
+		} 
+		text = EVTDESCvalinorist_fea.4A
+	}
+	prisoner = no
+
+	window = EventWindowNarrative
+
+	trigger = {
+		religion = valinorism
+		has_character_modifier = valinorist_fea_study
+		NOR = {
+			has_character_flag = fea_study_event_4
+			has_character_modifier = valinorist_fea_grant
+			has_character_flag = fea_study_event_5
+		}
+		any_courtier = {
+			age = 16
+			prisoner = no
+			has_job_title = job_spiritual
+			religion = valinorism
+			NOR = {
+				character = ROOT
+				trait = incapable
+				is_inaccessible_trigger = yes 
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 400 }
+	
+	immediate = {
+		set_character_flag = fea_study_event_4
+		clr_character_flag = fea_study_suspend
+	}
+
+	option = {
+		name = EVTOPTAvalinorist_fea.4
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = smol_mandos }
+		}
+		hidden_tooltip = {
+			random_list = {
+				20 = {
+					character_event = { id = valinorist_fea.5 days = 30 random = 15}
+					set_character_flag = fea_study_event_5				
+					modifier = {
+						factor = 1.25 
+						has_character_flag = fea_study_event_1	
+					}
+					modifier = {
+						factor = 1.25 
+						has_character_flag = fea_study_event_2
+					}
+					modifier = {
+						factor = 1.25
+						has_character_flag = fea_study_event_3
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 10
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 15
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 20
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 10 }
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 15 }
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 20 }
+					}
+				}
+				80 = {
+					piety = 100
+				}
+			}
+		}
+	}
+	option = {
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = big_mandos }
+		}
+		name = EVTOPTBvalinorist_fea.4
+		hidden_tooltip = {
+			character_event = { id = valinorist_fea.401 }
+		}
+	}
+}
+
+character_event = {
+	id = valinorist_fea.401
+	desc = EVTDESCvalinorist_fea.4B
+	prisoner = no
+	
+	window = EventWindowNarrative
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAvalinorist_fea.401
+		hidden_tooltip = {
+			random_list = {
+				20 = {
+					character_event = { id = valinorist_fea.5 days = 30 random = 15}
+					set_character_flag = fea_study_event_5				
+					modifier = {
+						factor = 1.25 
+						has_character_flag = fea_study_event_1	
+					}
+					modifier = {
+						factor = 1.25 
+						has_character_flag = fea_study_event_2
+					}
+					modifier = {
+						factor = 1.25
+						has_character_flag = fea_study_event_3
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 10
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 15
+					}
+					modifier = {
+						factor = 1.05
+						learning >= 20
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 10 }
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 15 }
+					}
+					modifier = {
+						factor = 1.03
+						job_spiritual = { learning >= 20 }
+					}
+				}
+				80 = {
+					piety = 100
+				}
+			}
+		}
+	}
+}
+
+
+character_event = {
+	id = valinorist_fea.5
+	desc = EVTDESCvalinorist_fea.5
+	prisoner = no
+	
+	window = EventWindowNarrative
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAvalinorist_fea.5
+		remove_character_modifier = valinorist_fea_study
+		remove_trait = craven
+		add_character_modifier = { name = valinorist_fea_grant duration = -1 }
+	}
+}
+
+character_event = {
+	id = valinorist_fea.6
+	desc = { 
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = smol_mandos }	
+		} 
+		text = EVTDESCvalinorist_fea.6
+	}
+	desc = {
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = big_mandos }	
+		} 
+		text = EVTDESCvalinorist_fea.6A
+	}
+	prisoner = no
+	
+	window = EventWindowNarrative
+	
+	mean_time_to_happen = { days = 100 }
+	
+	immediate = {
+		clr_character_flag = fea_study_suspend
+		set_character_flag = fea_study_event_6
+	}
+	
+	trigger = {
+		religion = valinorism
+		has_character_modifier = valinorist_fea_grant
+		has_character_flag = fea_method_study
+		NOR = {
+			has_character_flag = fea_study_event_6
+			has_character_flag = fea_study_suspend
+		}
+		any_courtier = {
+			age = 16
+			prisoner = no
+			has_job_title = job_spiritual
+			religion = valinorism
+			NOR = {
+				character = ROOT
+				trait = incapable
+				is_inaccessible_trigger = yes 
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTAvalinorist_fea.6
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = smol_mandos }
+		}
+		hidden_tooltip = {
+			character_event = { id = valinorist_fea.7 days = 20 random = 10 }
+		}
+	}
+	option = {
+		name = EVTOPTBvalinorist_fea.6
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = big_mandos }
+		}
+		hidden_tooltip = {
+			character_event = { id = valinorist_fea.601 }
+		}
+	}
+}
+
+character_event = {
+	id = valinorist_fea.601
+	desc = EVTDESCvalinorist_fea.6B
+	prisoner = no
+	
+	window = EventWindowNarrative
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAvalinorist_fea.601
+		hidden_tooltip = {
+			character_event = { id = valinorist_fea.7 days = 20 random = 10 }
+		}
+	}
+}
+
+character_event = {
+	id = valinorist_fea.7
+	desc = { 
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = smol_mandos }	
+		} 
+		text = EVTDESCvalinorist_fea.7
+	}
+	desc = {
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = big_mandos }	
+		} 
+		text = EVTDESCvalinorist_fea.7A
+	}
+	prisoner = no
+	
+	immediate = {
+		clr_character_flag = fea_study_suspend
+	}
+	
+	trigger = {
+		has_character_flag = fea_study_event_6
+		religion = valinorism
+		has_character_modifier = valinorist_fea_grant
+		any_courtier = {
+			age = 16
+			prisoner = no
+			has_job_title = job_spiritual
+			religion = valinorism
+			NOR = {
+				character = ROOT
+				trait = incapable
+				is_inaccessible_trigger = yes 
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 40 }
+	window = EventWindowNarrative
+	option = {
+		name = EVTOPTAvalinorist_fea.7
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = smol_mandos }
+		}
+		remove_character_modifier = valinorist_fea_grant
+		add_character_modifier = { name = valinorist_fea_gift duration = -1 }
+		
+	}
+	option = {
+		name = EVTOPTBvalinorist_fea.7
+		trigger = {
+			has_game_rule = { name = valinorism_big_events value = big_mandos }
+		}
+		hidden_tooltip = {
+			character_event = { id = valinorist_fea.701 }
+		}
+	}
+}
+
+character_event = {
+	id = valinorist_fea.701
+	desc = EVTDESCvalinorist_fea.7B
+	prisoner = no
+	
+	window = EventWindowNarrative
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAvalinorist_fea.701
+		remove_character_modifier = valinorist_fea_grant
+		add_character_modifier = { name = valinorist_fea_gift duration = -1 }
+	}
+}
+character_event = {
+	id = valinorist_fea.8
+	desc = EVTDESCvalinorist_fea.8
+	prisoner = no
+	
+	window = EventWindowNarrative
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAvalinorist_fea.8
+		hidden_tooltip = {
+			character_event = { id = valinorist_fea.9 }
+		}
+	}
+}
+
+character_event = {
+	id = valinorist_fea.9
+	desc = EVTDESCvalinorist_fea.9
+	prisoner = no
+	
+	window = EventWindowNarrative
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAvalinorist_fea.9
+		hidden_tooltip = {
+			character_event = { id = valinorist_fea.10 }
+		}
+	}
+}
+
+character_event = {
+	id = valinorist_fea.10
+	desc = EVTDESCvalinorist_fea.10
+	prisoner = no
+	
+	window = EventWindowNarrative
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAvalinorist_fea.10
+		death = { death_reason  = valinorist_gift_death }
+	}
+}
+
+character_event = {
+	id = valinorist_fea.11
+	desc = EVTDESCvalinorist_fea.11
+	prisoner = no
+	
+	mean_time_to_happen = { days = 30 }
+	
+	trigger = {
+		OR = {
+			has_character_modifier = valinorist_fea_study
+			has_character_modifier = valinorist_fea_grant
+		}
+		NOT = {
+			has_character_flag = fea_study_suspend
+		}
+		NOT = {
+			any_courtier = {
+				has_job_title = job_spiritual
+				age = 16
+				prisoner = no
+				religion = valinorism
+				NOR = {
+					character = ROOT
+					trait = incapable
+					is_inaccessible_trigger = yes 
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTAvalinorist_fea.11
+		hidden_tooltip = {
+			set_character_flag = fea_study_suspend
+		}
+	}
+}

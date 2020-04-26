@@ -130,3 +130,22 @@ bone_charm = {
 	
 	slot = neck
 }
+
+### Historical Artifacts ###
+
+eur_ironflare = {
+	monthly_character_prestige = 1
+	general_opinion = -1
+	levy_size = 1.05
+	martial = 3
+	combat_rating = 20
+	ai_rationality = -10
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { valinorist combat_weapon sword }
+	stacking = no
+	picture = "GFX_sword_fancy"
+	slot = weapon
+}
