@@ -959,86 +959,417 @@ e_scandinavia = {
 		
 		capital = 508 #Oslo
 		
-		d_ostlandet = {
+		d_viken = {
 			color={ 80 120 215 }
 			color2={ 255 255 255 }
 			
 			capital = 508 #Oslo
 			
-			c_oslo = {
-				color={ 84 177 36 }
+			c_akershus = {
+				color={ 55 221 251 }
 				color2={ 255 255 255 }
 				
 				b_oslo = {
 				}
-				b_oslo1 = {
+				b_sarpsborg = {
 				}
-				b_oslo2 = {			
+				b_fredrikstad = {			
 				}
-				b_oslo3 = {		
+				b_moss = {		
 				}
-				b_oslo4 = {		
+				b_oppegard = {		
 				}
-				b_oslo5 = {		
+				b_ski = {		
 				}
-				b_oslo6 = {	
+				b_lillestrom = {	
+				}
+			}
+			c_buskerud = {
+				color={ 27 188 180 }
+				color2={ 255 255 255 }
+				
+				b_drammen = {
+				}
+				b_asker = {
+				}
+				b_hokksund = {			
+				}
+				b_mjondalen = {		
+				}
+				b_kongsberg = {		
+				}
+				b_amot = {		
+				}
+				b_svelvik = {	
 				}
 			}
 			c_vestfold = {
-				color={ 42 174 163 }
+				color={ 27 188 180 }
 				color2={ 255 255 255 }
 				
-				b_vestfold = {
+				b_tonsberg = {
 				}
-				b_vestfold1 = {
+				b_sandefjord = {
 				}
-				b_vestfold2 = {			
+				b_larvik = {			
 				}
-				b_vestfold3 = {		
+				b_horten = {		
 				}
-				b_vestfold4 = {		
+				b_stokke = {		
 				}
-				b_vestfold5 = {		
+				b_holmestrand = {		
 				}
-				b_vestfold6 = {	
+				b_notteroy = {	
 				}
 			}
-			c_oppland = {
-				color={ 43 177 138 }
+			c_agder = {
+				color={ 60 97 247 }
 				color2={ 255 255 255 }
 				
-				b_oppland = {
+				b_kristiansand = {
 				}
-				b_oppland1 = {
+				b_arendal = {
 				}
-				b_oppland2 = {			
+				b_grimstad = {			
 				}
-				b_oppland3 = {		
+				b_flekkefjord = {		
 				}
-				b_oppland4 = {		
+				b_mandal = {		
 				}
-				b_oppland5 = {		
+				b_risor = {		
 				}
-				b_oppland6 = {	
+				b_farsund = {	
 				}
 			}
-			c_hedmark = {
-				color={ 42 189 38 }
+			c_telemark = {
+				color={ 51 255 193 }
 				color2={ 255 255 255 }
 				
-				b_hedmark = {
+				b_porsgrunn = {
 				}
-				b_hedmark1 = {
+				b_kragero = {
 				}
-				b_hedmark2 = {			
+				b_skien = {			
 				}
-				b_hedmark3 = {		
+				b_drangedal = {		
 				}
-				b_hedmark4 = {		
+				b_notodden = {		
 				}
-				b_hedmark5 = {		
+				b_rjukan = {		
 				}
-				b_hedmark6 = {	
+				b_seljord = {	
+				}
+			}
+		}
+		d_vestlandet = {
+			color={ 50 79 198 }
+			color2={ 255 255 255 }
+			
+			capital = 508 #Oslo
+			
+			c_hordaland = {
+				color={ 184 214 18 }
+				color2={ 255 255 255 }
+				
+				b_bergen = {
+				}
+				b_askoy = {
+				}
+				b_leirvik = {			
+				}
+				b_osoyro = {		
+				}
+				b_straume = {		
+				}
+				b_arna = {		
+				}
+				b_vossevangen = {	
+				}
+			}
+			c_rogaland = {
+				color={ 177 219 81 }
+				color2={ 255 255 255 }
+				
+				b_stavanger = {
+				}
+				b_sandnes = {
+				}
+				b_haugesund = {			
+				}
+				b_sola = {		
+				}
+				b_egersund = {		
+				}
+				b_jorpeland = {		
+				}
+				b_avaldsnes = {	
+				}
+			}
+			c_sogn = {
+				color={ 185 175 0 }
+				color2={ 255 255 255 }
+				
+				b_sogndalsfjora = {
+				}
+				b_hoyanger = {
+				}
+				b_leikanger = {			
+				}
+				b_viksoyri = {		
+				}
+				b_gaupne = {		
+				}
+				b_laerdalsoyri = {		
+				}
+				b_aurland = {	
+				}
+			}		
+			c_romsdal = {
+				color={ 253 242 170 }
+				color2={ 255 255 255 }
+				
+				b_alesund = {
+				}
+				b_ulsteinvik = {
+				}
+				b_vestnes = {			
+				}
+				b_rauma = {		
+				}
+				b_nesset = {		
+				}
+				b_midsund = {		
+				}
+				b_sandoy = {	
+				}
+			}
+		}
+		d_trondelag = {
+			color={ 43 162 184 }
+			color2={ 255 255 255 }
+			
+			capital = 508 #Oslo
+			
+			c_trondheim = {
+				color={ 132 140 251 }
+				color2={ 255 255 255 }
+				
+				b_trondheim = {
+				}
+				b_nidaros = {
+				}
+				b_melhus = {			
+				}
+				b_stjordal = {		
+				}
+				b_levanger = {		
+				}
+				b_steinkjer = {		
+				}
+				b_leksvik = {	
+				}
+			}
+			c_namdalen = {
+				color={ 21 103 193 }
+				color2={ 255 255 255 }
+				
+				b_namsos = {
+				}
+				b_namsskogan = {
+				}
+				b_snasa = {			
+				}
+				b_rorvik = {		
+				}
+				b_harran = {		
+				}
+				b_namdalseid = {		
+				}
+				b_kolvereid = {	
+				}
+			}
+			c_gauldalen = {
+				color={ 156 135 218 }
+				color2={ 255 255 255 }
+				
+				b_roros = {
+				}
+				b_holtalen = {
+				}
+				b_soknedal = {			
+				}
+				b_rennebu = {		
+				}
+				b_haltdalen = {		
+				}
+				b_storen = {		
+				}
+				b_glamos = {	
+				}
+			}
+			c_nordmore = {
+				color={ 21 222 238 }
+				color2={ 255 255 255 }
+				
+				b_molde = {
+				}
+				b_kristiansund = {
+				}
+				b_tingvoll = {			
+				}
+				b_eide = {		
+				}
+				b_sunndalsora = {		
+				}
+				b_rensvik = {		
+				}
+				b_skei = {	
+				}
+			}
+		d_halogaland = {
+			color={ 59 145 161 }
+			color2={ 255 255 255 }
+			
+			capital = 508 #Oslo
+			
+			c_finnmark = {
+				color={ 168 102 222 }
+				color2={ 255 255 255 }
+				
+				b_alta = {
+				}
+				b_hammerfest = {
+				}
+				b_vadso = {			
+				}
+				b_kirkenes = {		
+				}
+				b_bjornevatn = {		
+				}
+				b_honningsvag = {		
+				}
+				b_kautokeino = {	
+				}
+			}
+			c_troms = {
+				color={ 249 70 204 }
+				color2={ 255 255 255 }
+				
+				b_tromso = {
+				}
+				b_harstad = {
+				}
+				b_tromsdalen = {			
+				}
+				b_kvaloysletta = {		
+				}
+				b_finnsnes = {		
+				}
+				b_setermoen = {		
+				}
+				b_skjervo = {	
+				}
+			}
+			c_nordland = {
+				color={ 245 158 237 }
+				color2={ 255 255 255 }
+				
+				b_bodo = {
+				}
+				b_straumen = {
+				}
+				b_narvik = {			
+				}
+				b_fauske = {		
+				}
+				b_sortland = {		
+				}
+				b_bronnoysund = {		
+				}
+				b_kjerringoy = {	
+				}
+			}
+			c_helgeland = {
+				color={ 234 49 216 }
+				color2={ 255 255 255 }
+				
+				b_mo_i_rana = {
+				}
+				b_mosjoen = {
+				}
+				b_maela = {			
+				}
+				b_tjotta = {		
+				}
+				b_ornes = {		
+				}
+				b_sandnessjoen = {		
+				}
+				b_nesna = {	
+				}
+			}
+		}
+		d_opplandene = {
+			color={ 52 120 132 }
+			color2={ 255 255 255 }
+			
+			capital = 508 #Oslo
+			
+			c_gudbrandsdal = {
+				color={ 41 166 28 }
+				color2={ 255 255 255 }
+				
+				b_lillehammer = {
+				}
+				b_gjovik = {
+				}
+				b_beitostolen = {			
+				}
+				b_nesbyen = {		
+				}
+				b_vang = {		
+				}
+				b_ringebu = {		
+				}
+				b_ringsaker = {	
+				}
+			}
+			c_glamdalen = {
+				color={ 34 177 76 }
+				color2={ 255 255 255 }
+				
+				b_kongsvinger = {
+				}
+				b_jessheim = {
+				}
+				b_arnes = {			
+				}
+				b_valer = {		
+				}
+				b_flisa = {		
+				}
+				b_skarnes = {		
+				}
+				b_kirkenaer = {	
+				}
+			}
+			c_osterdalen = {
+				color={ 71 252 18 }
+				color2={ 255 255 255 }
+				
+				b_hamar = {
+				}
+				b_elverum = {
+				}
+				b_brumunddal = {			
+				}
+				b_rena = {		
+				}
+				b_varaholla = {		
+				}
+				b_innbygda = {		
+				}
+				b_koppang = {	
 				}
 			}
 		}
