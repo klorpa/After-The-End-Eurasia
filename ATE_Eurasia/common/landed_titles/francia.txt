@@ -342,5 +342,178 @@ e_france = {
 			}
 		}
 	}
+	k_brittany = {
+		color={ 165 49 16 }
+		color2={ 255 255 255 }
+		
+		capital = 105 # Vannes
+		
+		culture = breton
+		
+		catholic = 300 # Crusade target weight
+		
+		breton = Breizh
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture_group = celtic
+				}
+			}
+		}
+		
+		d_lower_brittany = {	
+			color = { 140 20 5 }
+			color2 = {255 255 255}
+			
+			capital = 106 # Nantes
+			
+			culture = breton
+			
+			c_brest = {
+				color={ 126 96 179 }
+				color2={ 255 255 255 }
+				
+				b_brest = {
+				}
+				b_brest1 = {
+				}
+				b_brest2 = {
+				}
+				b_brest3 = {
+				}
+				b_brest4 = {
+				}
+				b_brest5 = {
+				}
+				b_brest6 = {
+				}
+			}
+			c_finistere = {
+				color={ 168 99 52 }
+				color2={ 255 255 255 }
+				
+				b_finistere = {
+				}
+				b_finistere1 = {
+				}
+				b_finistere2 = {
+				}
+				b_finistere3 = {
+				}
+				b_finistere4 = {
+				}
+				b_finistere5 = {
+				}
+				b_finistere6 = {
+				}
+			}
+			c_treguier = {
+				color={ 85 18 176 }
+				color2={ 255 255 255 }
+				
+				b_treguier = {
+				}
+				b_treguier1 = {
+				}
+				b_treguier2 = {
+				}
+				b_treguier3 = {
+				}
+				b_treguier4 = {
+				}
+				b_treguier5 = {
+				}
+				b_treguier6 = {
+				}
+			}
+			c_morbinan = {
+				color={ 0 102 180 }
+				color2={ 255 255 255 }
+				
+				b_morbinan = {
+				}
+				b_morbinan1 = {
+				}
+				b_morbinan2 = {
+				}
+				b_morbinan3 = {
+				}
+				b_morbinan4 = {
+				}
+				b_morbinan5 = {
+				}
+				b_morbinan6 = {
+				}
+			}
+		}
+		d_upper_brittany = {
+			color={ 159 75 34 }
+			color2={ 255 255 255 }
+			
+			capital = 104 # Cornouaille
+			
+			culture = breton
+			
+			c_cotes_du_nord = {
+				color={ 84 93 51 }
+				color2={ 255 255 255 }
+				
+				b_cotes_du_nord = {
+				}
+				b_cotes_du_nord1 = {
+				}
+				b_cotes_du_nord2 = {
+				}
+				b_cotes_du_nord3 = {
+				}
+				b_cotes_du_nord4 = {
+				}
+				b_cotes_du_nord5 = {
+				}
+				b_cotes_du_nord6 = {
+				}
+			}
+			c_ille_et_vilaine = {
+				color={ 42 90 178 }
+				color2={ 255 255 255 }
+				
+				b_ille_et_vilaine = {
+				}
+				b_ille_et_vilaine1 = {
+				}
+				b_ille_et_vilaine2 = {
+				}
+				b_ille_et_vilaine3 = {
+				}
+				b_ille_et_vilaine4 = {
+				}
+				b_ille_et_vilaine5 = {
+				}
+				b_ille_et_vilaine6 = {
+				}
+			}
+			c_loire_atlantique = {
+				color={ 42 105 53 }
+				color2={ 255 255 255 }
+				
+				b_loire_atlantique = {
+				}
+				b_loire_atlantique1 = {
+				}
+				b_loire_atlantique2 = {
+				}
+				b_loire_atlantique3 = {
+				}
+				b_loire_atlantique4 = {
+				}
+				b_loire_atlantique5 = {
+				}
+				b_loire_atlantique6 = {
+				}
+			}
+		}	
+	}
 }
 

@@ -130,7 +130,7 @@ christian = {
 		religious_clothing_head = 0
 		religious_clothing_priest = 1
 		
-		intermarry = catholic
+		intermarry = lutheran
 		intermarry = nonconformist
 	}
 	
@@ -159,7 +159,7 @@ christian = {
 		religious_clothing_head = 0
 		religious_clothing_priest = 1
 		
-		intermarry = catholic
+		intermarry = lutheran
 		intermarry = high_church
 		intermarry = insular
 		intermarry = presbyterian
@@ -187,7 +187,7 @@ christian = {
 		religious_clothing_head = 0
 		religious_clothing_priest = 1
 		
-		intermarry = catholic
+		intermarry = lutheran
 		intermarry = high_church
 		intermarry = insular
 		intermarry = presbyterian
@@ -225,9 +225,129 @@ christian = {
 		religious_clothing_head = 1
 		religious_clothing_priest = 1
 
-		intermarry = catholic
+		intermarry = lutheran
 		intermarry = nonconformist
 		intermarry = high_church
+	}
+	
+	lutheran = {
+		graphical_culture = westerngfx
+
+		icon = 1
+		heresy_icon = 2
+		
+		color = { 0.5 0.8 0.8 }
+
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		autocephaly = yes
+		pentarchy = yes
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		can_retire_to_monastery = yes
+		allow_rivermovement = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 2
+	}
+	laestadian = {
+		graphical_culture = westerngfx
+
+		icon = 1
+		heresy_icon = 2
+		
+		color = { 0.5 0.8 0.8 }
+		
+		parent = laestadian
+
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		autocephaly = yes
+		pentarchy = yes
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		can_retire_to_monastery = yes
+		allow_rivermovement = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		
+		character_modifier = { fertility = 0.1 }
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 2
+	}
+	
+	calvinist = {
+		graphical_culture = westerngfx
+
+		icon = 1
+		heresy_icon = 2
+		
+		color = { 0.6 0.6 0.25 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		pacifist = yes # Makes the AI less likely to start wars, plots and factions
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		allow_rivermovement = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		aggression = 0.5 # AI aggression factor
+		
+		can_retire_to_monastery = yes
+		can_demand_religious_conversion = no
+
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+
 	}
 
 	apparitionist= {
@@ -266,7 +386,7 @@ christian = {
 		religious_clothing_head = 1
 		religious_clothing_priest = 1
 
-		intermarry = catholic
+		intermarry = lutheran
 		intermarry = nonconformist
 		intermarry = high_church
 	}
@@ -448,6 +568,41 @@ esoteric = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		intermarry = high_thelema
+	}
+	neuhumanist = { #placeholder
+		graphical_culture = chinesegfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 44
+		
+		color = { .0 .0 100 } #should be EU blue
+		
+		interface_skin = { taoist_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_THE_TRUTH
+		
+		god_names = {
+			GOD_CONCORDIA GOD_GOD GOD_CHRIST GOD_PLATO GOD_NIETZCHE
+		}
+		
+		evil_god_names = {
+			THE_UNENLIGHTENED MOLOCH GOD_MAMMON
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_WRITINGS
+		priest_title = GURU
+		piety_name = KARMA
+		
 	}
 }
 	
