@@ -43,33 +43,6 @@ pagan_group = {
 	
 	interface_skin = { pagan_interface }
 	
-	valinorism = {
-		graphical_culture = norsegfx
-
-		icon = 7
-		heresy_icon = 7
-		
-		ai_convert_other_group = 1
-		
-		color = { 0.8 0.7 0.6 }
-		
-		interface_skin = { zun_interface pagan_interface }
-
-
-	crusade_name = WAR_OF_WRATH
-	scripture_name = THE_LEGENDARIUM
-	priest_title = ISTARI
-
-	high_god_name = GOD_ERU_ILLUVITAR
-
-	god_names = {
-            GOD_MANWE GOD_VARDA GOD_MANDOS GOD_OROME GOD_YAVANNA GOD_AULE GOD_ULMO GOD_LORIEN GOD_TULKAS GOD_NIENNA GOD_ESTE GOD_VAIRE GOD_VANA GOD_NESSA
-        }
-
-	evil_god_names = {
-            GOD_MORGOTH
-        }
-	}
 }
 	
 christian = {
@@ -93,8 +66,47 @@ christian = {
 	}
 	
 	#default interface
-	
-		high_church = {
+	catholic = {
+		graphical_culture = westerngfx
+
+		icon = 11
+		heresy_icon = 16
+		
+		color = { 0.8 0.8 0.6 }
+		
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		investiture = yes
+		can_have_antipopes = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		#intermarry = catholic
+	}
+	high_church = {
 		graphical_culture = westerngfx
 
 		icon = 1
@@ -134,7 +146,7 @@ christian = {
 		intermarry = nonconformist
 	}
 	
-		free_church = {
+	free_church = {
 		graphical_culture = westerngfx
 		
 		icon = 1
@@ -167,8 +179,8 @@ christian = {
 	presbyterian = {
 		graphical_culture = westerngfx
 		
-		icon = 1
-		heresy_icon = 2
+		icon = 26
+		heresy_icon = 27
 		
 		color = { 0.02 0.32 0.62 }
 		
@@ -192,7 +204,7 @@ christian = {
 		intermarry = insular
 		intermarry = presbyterian
 	}
-		insular = {
+	insular = {
 		graphical_culture = westerngfx
 
 		icon = 3
@@ -233,8 +245,8 @@ christian = {
 	lutheran = {
 		graphical_culture = westerngfx
 
-		icon = 1
-		heresy_icon = 2
+		icon = 24
+		heresy_icon = 25
 		
 		color = { 0.5 0.8 0.8 }
 
@@ -270,8 +282,8 @@ christian = {
 	laestadian = {
 		graphical_culture = westerngfx
 
-		icon = 1
-		heresy_icon = 2
+		icon = 24
+		heresy_icon = 25
 		
 		color = { 0.5 0.8 0.8 }
 		
@@ -312,8 +324,8 @@ christian = {
 	calvinist = {
 		graphical_culture = westerngfx
 
-		icon = 1
-		heresy_icon = 2
+		icon = 22
+		heresy_icon = 23
 		
 		color = { 0.6 0.6 0.25 }
 		
@@ -573,8 +585,8 @@ esoteric = {
 		graphical_culture = chinesegfx
 		secondary_event_pictures = sunni
 
-		icon = 44
-		heresy_icon = 44
+		icon = 35
+		heresy_icon = 36
 		
 		color = { .0 .0 100 } #should be EU blue
 		
@@ -603,6 +615,33 @@ esoteric = {
 		priest_title = GURU
 		piety_name = KARMA
 		
+	}
+	valinorism = {
+		graphical_culture = norsegfx
+
+		icon = 7
+		heresy_icon = 7
+		
+		ai_convert_other_group = 1
+		
+		color = { 0.8 0.7 0.6 }
+		
+		interface_skin = { zun_interface pagan_interface }
+
+
+		crusade_name = WAR_OF_WRATH
+		scripture_name = THE_LEGENDARIUM
+		priest_title = ISTARI
+
+		high_god_name = GOD_ERU_ILLUVITAR
+
+		god_names = {
+            GOD_MANWE GOD_VARDA GOD_MANDOS GOD_OROME GOD_YAVANNA GOD_AULE GOD_ULMO GOD_LORIEN GOD_TULKAS GOD_NIENNA GOD_ESTE GOD_VAIRE GOD_VANA GOD_NESSA
+        }
+
+		evil_god_names = {
+            GOD_MORGOTH
+        }
 	}
 }
 	
@@ -728,8 +767,8 @@ old_world_cultist_group = {
 	jedinstvo = {
 		graphical_culture = pagangfx
 
-		icon = 7
-		heresy_icon = 7
+		icon = 20
+		heresy_icon = 21
 		
 		ai_convert_other_group = 1
 		
@@ -751,5 +790,114 @@ old_world_cultist_group = {
 	evil_god_names = {
             GOD_THE_OCCUPIERS
         }
+	}
+	
+	aphite = { #This Is Not A Place Of Honor
+		graphical_culture = hellenicgfx
+
+		icon = 15
+		heresy_icon = 15
+		
+		character_modifier = {
+			learning = 1
+		}
+
+		color = { 0.6 0.4 0.2 }
+		
+		interface_skin = { atomicist_interface }
+
+		high_god_name = GOD_THE_ELEMENTS
+
+		god_names = { #Might want to rethink the god names, but this seems fine for now
+			GOD_THE_ELEMENTS GOD_THE_SHIELD 
+		}
+		evil_god_names = {
+			GOD_ATOMOS THE_DEMON_CORE THE_VOID GOD_FAT_MAN GOD_LITTLE_BOY GOD_TSAR_BOMBA
+		}
+		crusade_name = FIRST_STRIKE
+		#allow_viking_invasion = yes
+		scripture_name = THE_LECTURES
+		priest_title = PRIEST
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_rivermovement = yes
+		
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		
+		#defensive_attrition = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+		
+		intermarry = americanist
+		intermarry = hamiltonian
+		intermarry = jeffersonian
+		intermarry = libertarian
+		
+		intermarry = consumerist
+		intermarry = monetarist
+		intermarry = cetic
+		intermarry = rust_cultist
+		intermarry = chrome_cultist
+	}
+}
+
+jewish_group = {
+	graphical_culture = jewishgfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 1	# try to convert if ai_zeal is high
+	
+	color = { 0.1 0.7 1.0 }
+	
+	interface_skin = { jews_interface }
+	
+	# Names given only to Jewish characters (base names)
+	male_names = {
+		Abram Avraham Baruch Ethan Ezra David Yaakov Yonatan Moshe Natan Reuven Saul Shlomo Yitzhak Yisrael Yochanan
+	}
+	
+	female_names = {
+		Sarai Batzion Devorah Hila Yehudit Miryam Rivka Rut Shoshana Sara Rachel Leah
+	}
+	
+	jewish = {
+		graphical_culture = jewishgfx
+		
+		icon = 10
+		heresy_icon = 11
+		
+		color = { 0.1 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_TORAH
+		priest_title = RABBI
+		
+		high_god_name = HASHEM
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD ADONAI HASHEM
+		}
+		evil_god_names = {
+			BAAL
+		}
+		
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+		
+		expel_modifier = expelled_jewish
+		
 	}
 }
