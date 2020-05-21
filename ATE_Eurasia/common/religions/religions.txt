@@ -43,6 +43,126 @@ pagan_group = {
 	
 	interface_skin = { pagan_interface }
 	
+	folketro_reformed = {
+		graphical_culture = norsegfx
+		secondary_event_pictures = norse_pagan
+		alternate_start = { always = no }
+		
+		icon = 29
+		heresy_icon = 30
+		
+		ai_convert_other_group = 2 # always try to convert
+		
+		color = { 235 5 20 }
+
+		high_god_name = GOD_GUDDOMMELEG
+
+		god_names = {
+			GOD_ASKELADDEN GOD_ASAGRIM GOD_THE_ELVES GOD_THE_DRAGONSLAYER GOD_THE_MASTER_MAID
+		}
+		evil_god_names = {
+			LOKI HELA FENRIR THE_FROST_GIANTS
+		}
+		
+		unit_modifier = {
+			levy_size = 0.1
+			
+			key = "DEF_RELIGION"
+		}
+		
+		crusade_name = WILD_HUNT
+		scripture_name = THE_SAGAS
+		priest_title = STORYTELLER
+		priests_can_marry = yes
+		
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		
+		allow_looting = yes
+		allow_rivermovement = yes 		#Special features are added via reformation. If HF is not installed, default features are applied on reformed religion by event.
+		female_temple_holders = yes
+		#allow_viking_invasion = yes
+		#seafarer = yes
+		allow_in_ruler_designer = no
+		#short_reign_opinion_year_mult = 3 # The default is 2
+		
+		#aggression = 1.0 # AI aggression factor
+		
+		max_consorts = 3
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = folketro
+	}
+	folketro = {
+		graphical_culture = norsegfx
+
+		icon = 28
+		heresy_icon = 30
+		
+		color = { 255 0 25 }
+
+		high_god_name = GOD_GUDDOMMELEG
+
+		god_names = {
+			GOD_ASKELADDEN GOD_ASAGRIM GOD_THE_ELVES GOD_THE_DRAGONSLAYER GOD_THE_MASTER_MAID
+		}
+		evil_god_names = {
+			LOKI HELA FENRIR THE_FROST_GIANTS
+		}
+		evil_god_names = {
+			LOKI HELA FENRIR THE_FROST_GIANTS
+		}
+		
+		unit_modifier = {
+			levy_size = 0.1
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			camel_cavalry_defensive = 0.8
+			war_elephants_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		
+		crusade_name = WILD_HUNT
+		scripture_name = THE_SAGAS
+		priest_title = STORYTELLER
+		priests_can_marry = yes
+		
+		allow_viking_invasion = yes # Allows the "Prepare Invasion" diplo action
+		allow_looting = yes
+		seafarer = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes
+		defensive_attrition = yes
+		raised_vassal_opinion_loss = no
+		max_consorts = 3
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		reformed = folketro_reformed
+		
+		aggression = 1.0 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 5 # The default is 2
+		
+		can_demand_religious_conversion = no
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		intermarry = folketro_reformed
+	}
 }
 	
 christian = {
