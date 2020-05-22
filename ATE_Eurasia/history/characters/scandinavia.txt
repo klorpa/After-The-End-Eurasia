@@ -79,7 +79,7 @@
 	name="Jon"
 	dynasty=2501003 #Arason
 	culture=icelander
-	religion=free_church #change to lutheran later
+	religion=lutheran
 	martial=4
 	diplomacy=6
 	intrigue=4
@@ -113,7 +113,7 @@
 }
 8000000={
 	name="Tyge"
-	dynasty=2223001 #Sønderborg
+	dynasty=8000000 #Sønderborg
 	culture=low_saxon
 	religion=neuhumanist
 	2471.3.22={birth=yes}
@@ -125,7 +125,7 @@
 }
 8000001={
 	name="Holger"
-	dynasty=2223005 #Danneskiold
+	dynasty=8000001 #Danneskiold
 	culture=danish
 	religion=lutheran
 	2482‬.8.5={birth=yes}
@@ -133,7 +133,7 @@
 }
 8000002={
 	name="Henrik"
-	dynasty=2223001 #Sønderborg
+	dynasty=8000000 #Sønderborg
 	culture=danish
 	religion=neuhumanist
 	2483.4.3={birth=yes}
@@ -145,7 +145,7 @@
 }
 8000003={
 	name="Aksel"
-	dynasty=2223005 #Danneskiold
+	dynasty=8000001 #Danneskiold
 	culture=danish
 	religion=lutheran
 	2502.6.5={birth=yes}
@@ -153,7 +153,7 @@
 }
 8000004={
 	name="Regnar"
-	dynasty=2223005 #Danneskiold
+	dynasty=8000001 #Danneskiold
 	culture=danish
 	religion=lutheran
 	2523.4.3={birth=yes}
@@ -166,7 +166,7 @@
 }
 8000005={
 	name="Absalon"
-	dynasty=2223001 #Sønderborg
+	dynasty=8000000 #Sønderborg
 	culture=danish
 	religion=lutheran
 	2509.7.4={birth=yes}
@@ -174,7 +174,7 @@
 }
 8000006={
 	name="Holger" #took advantage of Danish civil war, invaded
-	dynasty=2220179 #Skånske
+	dynasty=8000002 #Skånske
 	culture=scanian
 	religion=lutheran #maybe neonorse?
 	2520.4.3={birth=yes}
@@ -182,7 +182,7 @@
 }
 8000007={
 	name="Tyge"
-	dynasty=2223001 #Sønderborg
+	dynasty=8000000 #Sønderborg
 	culture=danish
 	religion=neuhumanist
 	2540.7.4={birth=yes}
@@ -190,7 +190,7 @@
 }
 8000008={
 	name="Christoffer"
-	dynasty=2223001 #Sønderborg
+	dynasty=8000000 #Sønderborg
 	culture=danish
 	religion=neuhumanist
 	2590.6.2={birth=yes}
@@ -198,19 +198,167 @@
 }
 8000009={
 	name="Tyge"
-	dynasty=2223001 #Sønderborg
+	dynasty=8000000 #Sønderborg
 	culture=danish
 	religion=neuhumanist
 	father=8000007
+	martial=6
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	trait=skilled_tactician
+	trait=ambitious
+	trait=trusting
+	trait=just
+	trait=lustful
 	2590.6.2={birth=yes}
 	2670.1.1={death=yes}
 }
 8000010={
-	name="Tyge"
-	dynasty=2223001 #Sønderborg
+	name="Vilhelm"
+	dynasty=8000000 #Sønderborg
 	culture=danish
 	religion=neuhumanist
 	father=8000007
-	2590.6.2={birth=yes}
+	martial=4
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=4
+	trait=fortune_builder
+	trait=kind
+	trait=greedy
+	trait=honest
+	2600.4.15={birth=yes}
+	2672.1.1={death=yes}
+}
+8000011={
+	name="Ludvig"
+	dynasty=8000004 #Holberg
+	culture=danish
+	religion=neuhumanist
+	martial=4
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=7
+	trait=dutiful_cleric
+	trait=sympathy_christendom
+	trait=poet
+	trait=scholar
+	trait=temperate
+	trait=chaste
+	trait=charitable
+	2610.3.1={birth=yes}
 	2670.1.1={death=yes}
+}
+8000012={
+	name="Severin"
+	dynasty=8000005 #Kierkegaard
+	culture=danish
+	religion=lutheran
+	martial=4
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=7
+	trait=mastermind_theologian
+	trait=quick
+	trait=depressed
+	trait=scholar
+	trait=chaste
+	trait=zealous
+	trait=stubborn
+	2637.6.5={birth=yes}
+	2678‬.1.1={death=yes}
+	
+}
+8000013={
+	name="Viggo"
+	dynasty=8000006 #Psilander
+	culture=danish
+	religion=neuhumanist
+	martial=4
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=4
+	trait=grey_eminence
+	trait=fair
+	trait=poet
+	trait=honest
+	trait=diligent
+	2640.9.5={birth=yes}
+	2670.1.1={death=yes}
+}
+8000014={
+	name="Hardeknud"
+	dynasty=8000002 #Skanske
+	culture=danish
+	religion=lutheran
+	martial=4
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=4
+	trait=tough_soldier
+	trait=arbitrary
+	trait=honest
+	trait=trusting
+	trait=envious
+	2636.8.12={birth=yes}
+	2680.1.1={death=yes}
+}
+8000015={
+	name="Rasmus"
+	dynasty=8000007 #Blom
+	culture=danish
+	religion=lutheran
+	martial=4
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=4
+	trait=tough_soldier
+	trait=scarred
+	trait=musician
+	trait=cynical
+	trait=wroth
+	trait=brave
+	2642.9.24={birth=yes}
+	2690.1.1={death=yes}
+}
+8000016={
+	name="Aksel"
+	dynasty=8000008 #Jante
+	culture=danish
+	religion=lutheran
+	trait=detached_priest
+	trait=scholar
+	trait=humble
+	trait=envious
+	trait=content
+	trait=shy
+	trait=slothful
+	2620.8.1={birth=yes}
+	2670.1.1={death=yes}
+}
+8000017={
+	name="Torkild"
+	dynasty=8000009 #Snapphane
+	culture=scanian
+	religion=lutheran
+	martial=6
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=4
+	trait=misguided_warrior
+	trait=charitable
+	trait=cruel
+	trait=humble
+	trait=cynical
+	2618.8.12={birth=yes}
+	2667.1.1={death=yes}
 }
