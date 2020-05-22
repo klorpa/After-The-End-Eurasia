@@ -234,6 +234,378 @@
 	2630.1.1={birth=yes}
 	2700.1.1={death=yes}
 }
+
+##EMPRAHS
+1958100={
+	name="Friedrich"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	trait=brilliant_strategist
+	trait=inspiring_leader
+	trait=shrewd
+	trait=ambitious
+	trait=brave
+	trait=trusting
+	2198.1.1={birth=yes}
+	2235.1.1={add_spouse=1958101}
+	2246.1.1={ 
+		death={
+			death_reason=death_murder_unknown #Heinrich Geyer
+		}
+	}
+}
+1958101={
+	name="Wilhelmine"
+	female=yes
+	dynasty=1948005 #Merkel
+	culture=ossi
+	religion=neuhumanist
+	trait=brilliant_strategist
+	trait=fair
+	2212.1.1={birth=yes}
+	2235.1.1={add_spouse=1958101}
+	2260.1.1={death=yes}
+}
+1958102={
+	name="Johannes"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958100
+	mother=1958101
+	trait=midas_touched
+	trait=genius
+	trait=administrator
+	trait=ambitious
+	trait=patient
+	trait=just
+	trait=diligent
+	2243.1.1={birth=yes}
+	2260.1.1={add_spouse=1958103}
+	2294.1.1={death=yes}
+}
+1958103={
+	name="Margarithe"
+	female=yes
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958111
+	mother=1958112
+	trait=charismstic_negotiator
+	trait=gregarious
+	trait=stubborn
+	trait=just
+	trait=honest
+	2244.1.1={birth=yes}
+	2260.1.1={add_spouse=1958103}
+	2278.1.1={death=yes}
+}
+1958104={
+	name="Karl"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958102
+	mother=1958103
+	trait=indulgent_wastrel
+	trait=fair
+	trait=hedonist
+	trait=gluttonous
+	trait=lustful
+	trait=gregarious
+	trait=arbitrary
+	2269.1.1={birth=yes}
+	2286.1.1={add_spouse=1958105}
+	2305.1.1={ 
+		death={
+			death_reason=death_murder_unknown #poisoned
+		}
+	}
+}
+1958105={
+	name="Sophie"
+	female=yes
+	dynasty=1946005 #Bovenschulte
+	culture=low_saxon
+	religion=neuhumanist
+	trait=indulgent_wastrel
+	trait=fair
+	trait=hedonist
+	trait=slow
+	trait=lustful
+	trait=cruel
+	trait=arbitrary
+	2270.1.1={birth=yes}
+	2307.1.1={death=yes}
+}
+1958106={
+	name="Johannes"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958104
+	trait=bastard
+	2285.1.1={birth=yes}
+	2320.1.1={death=yes}
+}
+1958107={
+	name="August"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958104
+	trait=bastard
+	2287.1.1={birth=yes}
+	2340.1.1={death=yes}
+}
+1958108={
+	name="Friedrich"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958104
+	mother=1958105
+	trait=charismatic_negotiator
+	trait=fair
+	trait=frail
+	trait=erudite
+	trait=gregarious
+	trait=temperate
+	trait=chaste
+	2288.1.1={birth=yes}
+	2353.1.1={death=yes}
+}
+1958109={
+	name="Sophie"
+	female=yes
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958104
+	mother=1958105
+	2290.1.1={birth=yes}
+	2350.1.1={death=yes}
+}
+1958110={
+	name="Johanna"
+	female=yes
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958104
+	trait=bastard
+	2293.1.1={birth=yes}
+	2348.1.1={death=yes}
+}
+1958111={
+	name="Karel"
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	trait=grey_eminence
+	trait=quick
+	trait=deceitful
+	trait=ambitious
+	trait=greedy
+	trait=diligent
+	trait=has_cancer
+	2219.1.1={birth=yes}
+	2240.1.1={add_spouse=1958112}
+	2264.1.1={death=yes}
+}
+1958112={
+	name="Marie"
+	female=yes
+	dynasty=2061010 #Borsus
+	culture=walloon
+	religion=neuhumanist
+	2221.1.1={birth=yes}
+	2270.1.1={death=yes}
+}
+1958113={
+	name="Lodewijk"
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958111
+	mother=1958112
+	trait=thrifty_clerk
+	trait=content
+	trait=kind
+	trait=charitable
+	trait=shy
+	2242.1.1={birth=yes}
+	2265.1.1={add_spouse=1958114}
+	2302.1.1={death=yes}
+}
+1958114={
+	name="Anne"
+	female=yes
+	dynasty=2058002
+	culture=flemish
+	religion=neuhumanist
+	2250.1.1={birth=yes}
+	2309.1.1={death=yes}
+}
+1958115={
+	name="Alexandra"
+	female=yes
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958113
+	mother=1958114
+	trait=fortune_builder
+	trait=poet
+	trait=administrator
+	trait=content
+	trait=just
+	trait=diligent
+	trait=bisexual
+	2269.1.1={birth=yes}
+	2325.1.1={death=yes}
+}
+1958116={
+	name="Nicolaas"
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958113
+	mother=1958114
+	trait=tough_soldier
+	trait=stutter
+	trait=just
+	trait=charitable
+	trait=malnourished
+	trait=brave
+	2276.1.1={birth=yes}
+	2303.1.1={
+		death={
+			death_reason=death_execution
+			killer=1958104
+		}
+	}
+}
+1958117={
+	name="Karel"
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958113
+	mother=1958114
+	trait=naive_appeaser
+	trait=weak
+	trait=kind
+	trait=charitable
+	trait=brave
+	trait=malnourished
+	2280.1.1={birth=yes}
+	2300.1.1={add_spouse=1958123}
+	2303.1.1={death=yes}
+}
+1958118={
+	name="Willem"
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958117
+	mother=1958123
+	trait=skilled_tactician
+	trait=deceitful
+	trait=lustful
+	trait=diligent
+	trait=gregarious
+	trait=cruel
+	2303.1.1={birth=yes}
+	2371.1.1={death=yes}
+}
+1958119={
+	name="Albertine"
+	female=yes
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958111
+	mother=1958112
+	trait=dutiful_cleric
+	trait=scholar
+	trait=kind
+	trait=slothful
+	trait=erudite
+	trait=craven
+	2250.1.1={birth=yes}
+	2308.1.1={death=yes}
+}
+1958120={
+	name="Heinrich"
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	trait=skilled_tactician
+	trait=cynical
+	trait=brave
+	trait=arbitrary
+	trait=ruthless
+	trait=adventurer
+	trait=ambitious
+	2214.1.1={birth=yes}
+	2245.1.1={add_spouse=1958121}
+	2275.1.1={death=yes}
+}
+1958121={
+	name="Teresa"
+	female=yes
+	dynasty=1848003
+	culture=rhenish
+	religion=neuhumanist
+	2216.1.1={birth=yes}
+	2268.1.1={death=yes}
+}
+1958122={
+	name="Ademar"
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	father=1958120
+	mother=1958121
+	trait=brilliant_strategist
+	trait=honest
+	trait=gluttonous
+	trait=hunter
+	trait=brave
+	trait=chaste
+	2248.1.1={birth=yes}
+	2266.1.1={add_spouse=1958119}
+	2303.1.1={
+		death={
+			death_reason=death_execution
+			killer=1958104
+		}
+	}
+}
+1958123={
+	name="Angela"
+	female=yes
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	father=1958122
+	mother=1958119
+	2280.1.1={birth=yes}
+	2350.1.1={death=yes}
+}
+1958124={
+	name="Rudolf"
+	dynasty=1948011 #Muller
+	culture=ossi
+	religion=lutheran
+	trait=midas_touches
+	2293.1.1={birth=yes}
+	2361.1.1={death=yes}
+}
+
 1923000={
 	name="Charlotte"
 	female=yes
@@ -283,7 +655,7 @@
 }
 1923002={
 	name="Hans"
-	dynasty=1946002 #Stella
+	dynasty=1946002 #Stolz
 	culture=low_saxon
 	religion=neuhumanist
 	martial=3
