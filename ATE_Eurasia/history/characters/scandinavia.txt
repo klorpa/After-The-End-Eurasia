@@ -1,3 +1,5 @@
+###ÄNSI
+
 2501000={
 	name="Rasmus"
 	dynasty=2102000 #Pattursson
@@ -113,14 +115,14 @@
 }
 8000000={
 	name="Tyge"
-	dynasty=2223001 #SÃ¸nderborg
+	dynasty=2223001 #Sønderborg
 	culture=low_saxon
 	religion=neuhumanist
 	2471.3.22={birth=yes}
 	2518.1.1={death={
-            death_reason=death_execution
-            killer=8000001
-        }
+			death_reason=death_execution
+			killer=8000001
+		}
 	}
 }
 8000001={
@@ -128,19 +130,19 @@
 	dynasty=2223005 #Danneskiold
 	culture=danish
 	religion=lutheran
-	2482â€¬.8.5={birth=yes}
+	2482.8.5={birth=yes}
 	2531.1.1={death=yes}
 }
 8000002={
 	name="Henrik"
-	dynasty=2223001 #SÃ¸nderborg
+	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=neuhumanist
 	2483.4.3={birth=yes}
 	2553.1.1={death={
-            death_reason=death_murder_drowning
-            killer=8000003
-        }
+			death_reason=death_murder_drowning
+			killer=8000003
+		}
 	}
 }
 8000003={
@@ -158,15 +160,15 @@
 	religion=lutheran
 	2523.4.3={birth=yes}
 		2569.1.1={
-        death={
-            death_reason=death_execution_flaying
-            killer=8000005
-        }
-    }
+		death={
+			death_reason=death_execution_flaying
+			killer=8000005
+		}
+	}
 }
 8000005={
 	name="Absalon"
-	dynasty=2223001 #SÃ¸nderborg
+	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=lutheran
 	2509.7.4={birth=yes}
@@ -174,15 +176,15 @@
 }
 8000006={
 	name="Holger" #took advantage of Danish civil war, invaded
-	dynasty=2220179 #SkÃ¥nske
+	dynasty=2220179 #Skånske
 	culture=scanian
-	religion=lutheran #maybe neonorse?
+	religion=lutheran #maybe neonorse
 	2520.4.3={birth=yes}
 	2610.1.1={death=yes}
 }
 8000007={
 	name="Tyge"
-	dynasty=2223001 #SÃ¸nderborg
+	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=neuhumanist
 	2540.7.4={birth=yes}
@@ -190,7 +192,7 @@
 }
 8000008={
 	name="Christoffer"
-	dynasty=2223001 #SÃ¸nderborg
+	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=neuhumanist
 	2590.6.2={birth=yes}
@@ -198,7 +200,7 @@
 }
 8000009={
 	name="Tyge"
-	dynasty=2223001 #SÃ¸nderborg
+	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=neuhumanist
 	father=8000007
@@ -217,7 +219,7 @@
 }
 8000010={
 	name="Vilhelm"
-	dynasty=2223001 #SÃ¸nderborg
+	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=neuhumanist
 	father=8000007
@@ -231,7 +233,7 @@
 	trait=greedy
 	trait=honest
 	2600.4.15={birth=yes}
-	2672.1.1={death=yes}
+	2672.7.14={death=yes}
 }
 8000011={
 	name="Ludvig"
@@ -243,7 +245,7 @@
 	stewardship=5
 	intrigue=5
 	learning=7
-	trait=dutiful_cleric
+	trait=martial_cleric
 	trait=sympathy_christendom
 	trait=poet
 	trait=scholar
@@ -251,7 +253,7 @@
 	trait=chaste
 	trait=charitable
 	2610.3.1={birth=yes}
-	2670.1.1={death=yes}
+	2670.5.10={death=yes}
 }
 8000012={
 	name="Severin"
@@ -271,7 +273,7 @@
 	trait=zealous
 	trait=stubborn
 	2637.6.5={birth=yes}
-	2678â€¬.1.1={death=yes}
+	2678.1.23={death=yes}
 	
 }
 8000013={
@@ -290,7 +292,7 @@
 	trait=honest
 	trait=diligent
 	2640.9.5={birth=yes}
-	2670.1.1={death=yes}
+	2670.7.22={death=yes}
 }
 8000014={
 	name="Hardeknud"
@@ -302,13 +304,14 @@
 	stewardship=5
 	intrigue=5
 	learning=4
+	father=8000019
 	trait=tough_soldier
 	trait=arbitrary
 	trait=honest
 	trait=trusting
 	trait=envious
 	2636.8.12={birth=yes}
-	2680.1.1={death=yes}
+	2680.10.10={death=yes}
 }
 8000015={
 	name="Rasmus"
@@ -327,7 +330,7 @@
 	trait=wroth
 	trait=brave
 	2642.9.24={birth=yes}
-	2690.1.1={death=yes}
+	2690.5.27={death=yes}
 }
 8000016={
 	name="Aksel"
@@ -342,7 +345,7 @@
 	trait=shy
 	trait=slothful
 	2620.8.1={birth=yes}
-	2670.1.1={death=yes}
+	2670.2.3={death=yes}
 }
 8000017={
 	name="Torkild"
@@ -360,5 +363,33 @@
 	trait=humble
 	trait=cynical
 	2618.8.12={birth=yes}
-	2667.1.1={death=yes}
+	2667.7.1={death=yes}
+}
+8000018={
+	name="Holger"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran #maybe neonorse
+	father=8000006
+	martial=2
+	diplomacy=4
+	stewardship=6
+	intrigue=3
+	learning=4
+	2546.4.3={birth=yes}
+	2611.5.2={death=yes}
+}
+8000019={
+	name="Karl"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran #maybe neonorse
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000018
+	2589.4.3={birth=yes}
+	2650.5.2={death=yes}
 }
