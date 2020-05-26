@@ -1,3 +1,5 @@
+###ÄNSI###
+
 e_alpenland = {
 	color={ 255 255 255 }
 	color2={ 255 255 0 }
@@ -25,39 +27,25 @@ e_alpenland = {
 				color={ 21 139 160 }
 				color2={ 255 255 255 }
 
-				b_heidelberg = {
-				}
-				b_heidelberg1 = {
-				}
-				b_heidelberg2 = {
-				}
-				b_heidelberg3 = {
-				}
-				b_heidelberg4 = {
-				}
-				b_heidelberg5 = {
-				}
-				b_heidelberg6 = {
-				}
+				b_heidelberg = {}
+				b_heidelberg1 = {}
+				b_heidelberg2 = {}
+				b_heidelberg3 = {}
+				b_heidelberg4 = {}
+				b_heidelberg5 = {}
+				b_heidelberg6 = {}
 			}
 			c_stuttgart = {
 				color={ 22 117 134 }
 				color2={ 255 255 255 }
 				
-				b_stuttgart = {
-				}
-				b_stuttgart1 = {
-				}
-				b_stuttgart2 = {
-				}
-				b_stuttgart3 = {
-				}
-				b_stuttgart4 = {
-				}
-				b_stuttgart5 = {
-				}
-				b_stuttgart6 = {
-				}
+				b_stuttgart = {}
+				b_stuttgart1 = {}
+				b_stuttgart2 = {}
+				b_stuttgart3 = {}
+				b_stuttgart4 = {}
+				b_stuttgart5 = {}
+				b_stuttgart6 = {}
 			}
 			c_karlsruhe = {
 				color={ 0 162 190 }
@@ -310,294 +298,204 @@ e_alpenland = {
 			}
 		}
 	}
-k_switzerland = {
-	color={ 255 80 80 }
-	color2={ 200 50 50 }
+	k_switzerland = {
+		color={ 255 80 80 }
+		color2={ 200 50 50 }
 
-	capital = 244 #Bern
+		capital = 244 #Bern
 
-	short_name = yes
+		short_name = yes
 	
-	d_romandy = {
-		color={ 112 192 89 }
-		color2={ 255 255 255 }
-			
-		capital = 324 #Antwerp
-			
-		culture = bavarian
-			
-		c_geneva = {
-			color={ 25 58 54 }
+		d_romandy = {
+			color={ 112 192 89 }
 			color2={ 255 255 255 }
+			
+			capital = 324 #Antwerp
+			
+			culture = bavarian
+			
+			c_geneva = {
+				color={ 25 58 54 }
+				color2={ 255 255 255 }
 
-			b_geneva = {
+				b_geneva = {}
+				b_geneva1 = {}
+				b_geneva2 = {}
+				b_geneva3 = {}
+				b_geneva4 = {}
+				b_geneva5 = {}
+				b_geneva6 = {}
 			}
-			b_geneva1 = {
+			c_vaud = {
+				color={ 43 147 133 }
+				color2={ 255 255 255 }
+
+				b_vaud = {}
+				b_vaud1 = {}
+				b_vaud2 = {}
+				b_vaud3 = {}
+				b_vaud4 = {}
+				b_vaud5 = {}
+				b_vaud6 = {}
 			}
-			b_geneva2 = {
+			c_neuchatel = {
+				color={ 42 84 148 }
+				color2={ 255 255 255 }
+
+				b_neuchatel = {}
+				b_neuchatel1 = {}
+				b_neuchatel2 = {}
+				b_neuchatel3 = {}
+				b_neuchatel4 = {}
+				b_neuchatel5 = {}
+				b_neuchatel6 = {}
 			}
-			b_geneva3 = {
-			}
-			b_geneva4 = {
-			}
-			b_geneva5 = {
-			}
-			b_geneva6 = {
+			c_lower_valais = {
+				color={ 143 102 57 }
+				color2={ 255 255 255 }
+
+				b_lower_valais = {}
+				b_lower_valais1 = {}
+				b_lower_valais2 = {}
+				b_lower_valais3 = {}
+				b_lower_valais4 = {}
+				b_lower_valais5 = {}
+				b_lower_valais6 = {}
 			}
 		}
-		c_vaud = {
-			color={ 43 147 133 }
+		d_espace_mittelland = {
+			color={ 254 164 61 }
 			color2={ 255 255 255 }
+				
+			capital = 324 #Antwerp
+				
+			culture = bavarian
+				
+			c_basel = {
+				color={ 84 87 21 }
+				color2={ 255 255 255 }
 
-			b_vaud = {
+				b_basel = {}
+				b_basel1 = {}
+				b_basel2 = {}
+				b_basel3 = {}
+				b_basel4 = {}
+				b_basel5 = {}
+				b_basel6 = {}
 			}
-			b_vaud1 = {
+			c_aargau = {
+				color={ 141 94 49 }
+				color2={ 255 255 255 }
+
+				b_aargau = {}
+				b_aargau1 = {}
+				b_aargau2 = {}
+				b_aargau3 = {}
+				b_aargau4 = {}
+				b_aargau5 = {}
+				b_aargau6 = {}
 			}
-			b_vaud2 = {
+			c_bern = {
+				color={ 168 93 22 }
+				color2={ 255 255 255 }
+
+				b_bern = {}
+				b_bern1 = {}
+				b_bern2 = {}
+				b_bern3 = {}
+				b_bern4 = {}
+				b_bern5 = {}
+				b_bern6 = {}
 			}
-			b_vaud3 = {
-			}
-			b_vaud4 = {
-			}
-			b_vaud5 = {
-			}
-			b_vaud6 = {
+			c_valais = {
+				color={ 126 75 19 }
+				color2={ 255 255 255 }
+
+				b_valais = {}
+				b_valais1 = {}
+				b_valais2 = {}
+				b_valais3 = {}
+				b_valais4 = {}
+				b_valais5 = {}
+				b_valais6 = {}
 			}
 		}
-		c_neuchatel = {
-			color={ 42 84 148 }
+		d_switzerland = {
+			color={ 191 129 58 }
 			color2={ 255 255 255 }
+				
+			capital = 324 #Antwerp
+				
+			culture = bavarian
+				
+			c_zurich = {
+				color={ 0 96 150 }
+				color2={ 255 255 255 }
 
-			b_neuchatel = {
+				b_zurich = {}
+				b_zurich1 = {}
+				b_zurich2 = {}
+				b_zurich3 = {}
+				b_zurich4 = {}
+				b_zurich5 = {}
+				b_zurich6 = {}
 			}
-			b_neuchatel1 = {
+			c_schwyz = {
+				color={ 42 99 23 }
+				color2={ 255 255 255 }
+
+				b_schwyz = {}
+				b_schwyz1 = {}
+				b_schwyz2 = {}
+				b_schwyz3 = {}
+				b_schwyz4 = {}
+				b_schwyz5 = {}
+				b_schwyz6 = {}
 			}
-			b_neuchatel2 = {
-			}
-			b_neuchatel3 = {
-			}
-			b_neuchatel4 = {
-			}
-			b_neuchatel5 = {
-			}
-			b_neuchatel6 = {
+			c_st_gallen = {
+				color={ 126 105 24 }
+				color2={ 255 255 255 }
+
+				b_st_gallen = {}
+				b_st_gallen1 = {}
+				b_st_gallen2 = {}
+				b_st_gallen3 = {}
+				b_st_gallen4 = {}
+				b_st_gallen5 = {}
+				b_st_gallen6 = {}
 			}
 		}
-		c_lower_valais = {
-			color={ 143 102 57 }
+		d_raetia = {
+			color={ 147 125 187 }
 			color2={ 255 255 255 }
+				
+			capital = 324 #Antwerp
+				
+			culture = bavarian
+				
+			c_tessino = {
+				color={ 85 150 6 }
+				color2={ 255 255 255 }
 
-			b_lower_valais = {
+				b_tessino = {}
+				b_tessino1 = {}
+				b_tessino2 = {}
+				b_tessino3 = {}
+				b_tessino4 = {}
+				b_tessino5 = {}
+				b_tessino6 = {}
 			}
-			b_lower_valais1 = {
-			}
-			b_lower_valais2 = {
-			}
-			b_lower_valais3 = {
-			}
-			b_lower_valais4 = {
-			}
-			b_lower_valais5 = {
-			}
-			b_lower_valais6 = {
-				}
-			}
-		}
-	d_espace_mittelland = {
-		color={ 254 164 61 }
-		color2={ 255 255 255 }
-			
-		capital = 324 #Antwerp
-			
-		culture = bavarian
-			
-		c_basel = {
-			color={ 84 87 21 }
-			color2={ 255 255 255 }
+			c_grisons = {
+				color={ 84 102 151 }
+				color2={ 255 255 255 }
 
-			b_basel = {
-			}
-			b_basel1 = {
-			}
-			b_basel2 = {
-			}
-			b_basel3 = {
-			}
-			b_basel4 = {
-			}
-			b_basel5 = {
-			}
-			b_basel6 = {
-			}
-		}
-		c_aargau = {
-			color={ 141 94 49 }
-			color2={ 255 255 255 }
-
-			b_aargau = {
-			}
-			b_aargau1 = {
-			}
-			b_aargau2 = {
-			}
-			b_aargau3 = {
-			}
-			b_aargau4 = {
-			}
-			b_aargau5 = {
-			}
-			b_aargau6 = {
-			}
-		}
-		c_bern = {
-			color={ 168 93 22 }
-			color2={ 255 255 255 }
-
-			b_bern = {
-			}
-			b_bern1 = {
-			}
-			b_bern2 = {
-			}
-			b_bern3 = {
-			}
-			b_bern4 = {
-			}
-			b_bern5 = {
-			}
-			b_bern6 = {
-			}
-		}
-		c_valais = {
-			color={ 126 75 19 }
-			color2={ 255 255 255 }
-
-			b_valais = {
-			}
-			b_valais1 = {
-			}
-			b_valais2 = {
-			}
-			b_valais3 = {
-			}
-			b_valais4 = {
-			}
-			b_valais5 = {
-			}
-			b_valais6 = {
-			}
-		}
-	}
-	d_switzerland = {
-		color={ 191 129 58 }
-		color2={ 255 255 255 }
-			
-		capital = 324 #Antwerp
-			
-		culture = bavarian
-			
-		c_zurich = {
-			color={ 0 96 150 }
-			color2={ 255 255 255 }
-
-			b_zurich = {
-			}
-			b_zurich1 = {
-			}
-			b_zurich2 = {
-			}
-			b_zurich3 = {
-			}
-			b_zurich4 = {
-			}
-			b_zurich5 = {
-			}
-			b_zurich6 = {
-			}
-		}
-		c_schwyz = {
-			color={ 42 99 23 }
-			color2={ 255 255 255 }
-
-			b_schwyz = {
-			}
-			b_schwyz1 = {
-			}
-			b_schwyz2 = {
-			}
-			b_schwyz3 = {
-			}
-			b_schwyz4 = {
-			}
-			b_schwyz5 = {
-			}
-			b_schwyz6 = {
-			}
-		}
-		c_st_gallen = {
-			color={ 126 105 24 }
-			color2={ 255 255 255 }
-
-			b_st_gallen = {
-			}
-			b_st_gallen1 = {
-			}
-			b_st_gallen2 = {
-			}
-			b_st_gallen3 = {
-			}
-			b_st_gallen4 = {
-			}
-			b_st_gallen5 = {
-			}
-			b_st_gallen6 = {
-			}
-		}
-	}
-	d_raetia = {
-		color={ 147 125 187 }
-		color2={ 255 255 255 }
-			
-		capital = 324 #Antwerp
-			
-		culture = bavarian
-			
-		c_tessino = {
-			color={ 85 150 6 }
-			color2={ 255 255 255 }
-
-			b_tessino = {
-			}
-			b_tessino1 = {
-			}
-			b_tessino2 = {
-			}
-			b_tessino3 = {
-			}
-			b_tessino4 = {
-			}
-			b_tessino5 = {
-			}
-			b_tessino6 = {
-			}
-		}
-		c_grisons = {
-			color={ 84 102 151 }
-			color2={ 255 255 255 }
-
-			b_grisons = {
-			}
-			b_grisons1 = {
-			}
-			b_grisons2 = {
-			}
-			b_grisons3 = {
-			}
-			b_grisons4 = {
-			}
-			b_grisons5 = {
-			}
-			b_grisons6 = {
+				b_grisons = {}
+				b_grisons1 = {}
+				b_grisons2 = {}
+				b_grisons3 = {}
+				b_grisons4 = {}
+				b_grisons5 = {}
+				b_grisons6 = {}
 			}
 		}
 	}
