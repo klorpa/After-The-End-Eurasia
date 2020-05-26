@@ -1,6 +1,6 @@
 scandinavian = {
-
-graphical_cultures = { norsegfx }
+	graphical_cultures = { norsegfx }
+	
 	icelander = {
 		graphical_cultures = { norsegfx }
 		
@@ -149,27 +149,7 @@ graphical_cultures = { norsegfx }
 		allow_looting = yes
 		seafarer = yes
 	}
-	finnish = {
-		graphical_cultures = { ugricgfx }
-		
-		color = { 0.1 0.6 0.6 }
-
-		male_names = {
-			Aatos Ahma Aimo Armas Arvo Asikko Ensio Haapa Hannu Havu Hintsa Ihanti Into Jalo Jurva Kaleva Kalevi Kettu Kolli Lalli Lauri_Laurence Lemetti
-			Mielitty Miemo Mikko_Michael Oiva Onni Otso Pyry Päiviö Pentti Reko Sampo Satajalka Satatieto Seppo Susi Tapani Terho Toivo Ukko Uoti Urho Väinö
-			Valta Valto Veli Vesa Voitto Erkki_Erik Kaarle_Charles Johannes_John Risto_Christopher Olavi_Olaf Petri_Peter Henri_Henry Yrjö_George 
-			Valteri_Walter Riku_Richard Matti_Matthew Jaakoppi_Jacob Taisto Paavo_Paul Aatso_Adam Ahvo Aarto_Artur Asko Tuokko_David Rieti_Frederick
-			Kauro_Gabriel Kuuti_Knut Pekko Soini_Sven Tuure Turo Tommo Tohmas_Thomas
-		}
-		female_names = {
-			Aamu Aino Hellä Helmi Ilta Kaarina_Catherine Käpy Kielo Kukka Lauha Lempi Mahla Maija Marja Mesi Metta Päivä Päivi Pihla Pilvi Rauha Sisko Suoma
-			Taimi Terhi Titti Tuija Tuovi Tuuli Tuulikki Tyyne Tyyni Vanamo Venla Mielikki Hertta Loviisa Inkeri Ilmatar Irene_Irene Ilona_Helen Kristiina_Christina
-			Elisabet_Elizabeth Sohvi_Sofia Auni_Agnes Liekko_Helen Kivutar Lemmikki Lyylikki Salme Talvikki Tuulitar
-		}
-		from_dynasty_prefix = "of "
-
-		modifier = default_culture_modifier
-	}
+	
 	tronder = { #Trønder
 		graphical_cultures = { norsegfx }
 		
@@ -522,7 +502,7 @@ graphical_cultures = { norsegfx }
 			Olov_Olaf Olle Oddvar Oden_Odin Oldemar Otrygg 
 			Pontus Pale Piär_Peter Philip Pålle_Leopold 
 			Ragnar_Ragnar Reuben_Ruben Rolf Reinhold Rafn
-			Sven_Svein Sigge Snöbjörn Sigurd Stig Sture Seger Sigismund
+			Sven_Svein Snöbjörn Sigurd Stig Sture Seger Sigismund
 			Tommy_Thomas Tage Thor_Tor Thorlak Tjalve 
 			Ulf_Ulv Ubbe Ursus 
 			Vilhelm_William Vilgot Vendel
@@ -544,14 +524,13 @@ graphical_cultures = { norsegfx }
 			Leif Lasse Lars 
 			Marcus_Markus Mats_Mads Mårten_Martin Micael_Michael 
 			Niclas_Nicholas
-			Olle Olof_Olaf Oscar_Oskar Ottmar Olle 
-			Percy Pär_Peter Patrik_Patrick Pontus 
-			Reine Ruben Ragnar_Ragnar Reorus Roy
-			Sun Stellan Sven_Svein Sigge Staffan_Stephen Sebastian
+			Olof_Olaf Oscar_Oskar Ottmar Olle 
+			Percy Pär_Peter Patrik_Patrick 
+			Reine Ruben Reorus Roy
+			Sun Stellan Sigge Staffan_Stephen Sebastian
 			Torbjörn_Thorbjørn Tor Torsten_Thorstein Ture_Tore
 			Willy_William Weiron 
 			Örjan 
-			Åke 
 		}
 		female_names = {
 		    	Alice Anita Anja Alicia Aino 
@@ -629,28 +608,28 @@ graphical_cultures = { norsegfx }
 			Nikolaj_Nicholas Niko
 			Ove 
 			Parmo Preben Povl_Paul
-			Rasmus Rolf 
+			Rolf 
 			Stig Steffen_Stephen Stellan Sven_Svein
 			Torben Tage Tonnes 
 			Uffe  
 			Ville Vilhelm_William Vagn
 
 			August Absalon Aksel_Axel Aage_Åge Arne Anton_Anthony Asger_Asgeir Artur_Arthur
-			Bjørn_Björn Bertel_Bertil Børge Bendix Bjarne
+			Bjørn_Björn Bertel_Bertil Børge Bendix
 			Carl_Charles Christian_Kristian Calmer Christoffer_Christopher Caspar 
-			Dan Dirch David 
-			Ejnar_Einar Esben_Esben Eyvin_Øyvind Einer Edmund Erik_Eirik Enevold Ernst 
+			Dirch David 
+			Ejnar_Einar Eyvin_Øyvind Einer Edmund Erik_Eirik Enevold Ernst 
 			Flemming Frederick_Frederick Folmar Felix
 			Georg_George Gebhard
-			Hans Henrik_Henry Hjalmar Hugo_Hugh Harald_Harold Holger
-			Inge Ib Irnes Ivar_Ivar
+			Henrik_Henry Hjalmar Hugo_Hugh Harald_Harold
+			Inge Irnes Ivar_Ivar
 			Jørn Julius Janus Jan_John Jens Joachim_Joachim
 			Kim Kaj Knud_Knut Kjeld_Kjell  
 			Ludvig_Louis Lennart 
-			Mads Martin_Martin Mikkel_Michael Mogens_Magnus 
+			Mads Mikkel_Michael Mogens_Magnus 
 			Niels_Nicholas Nicolai_Nicholas 
 			Otto Oliver
-			Peter_Peter Poul_Paul Preben Palle 
+			Peter_Peter Poul_Paul Palle 
 			Robert Rasmus Regnar_Ragnar Rudolf
 			Søren_Severin Severin_Søren Steen Sakarjas_Zachary Svend_Svein 
 			Tyge Theo Toke Thorvald Torkild_Thorkell
@@ -682,17 +661,16 @@ graphical_cultures = { norsegfx }
 			Asta Athena Alexandra 
 			Benedicta_Benedikte Birgit_Birgitte Barbara Bi
 			Clara_Klara 
-			Dinna Dea Dagmar
-			Ena Esther Ellen Elna Emilie
+			Dinna Dea
+			Ena Esther Elna Emilie
 			Gudrun Gertie Gabriele
 			Heidi Helena Henriette 
 			Iselin Ingeborg
 			Jytte Juliane Johanna Janni
 			Kirsten Karen 
-			Lis Louise Lisbet Lone Lizette
-			Mette Mathilde Merete May Mona Margrethe
+			Lis Lisbet Lizette
+			Mathilde Merete May Mona Margrethe
 			Nina Natalie
-			Pernille
 			Rina Ruth  
 			Sophie_Sofia Suzanne_Susanne Sisse Silja 
 			Thomasine Thyra_Tyra
