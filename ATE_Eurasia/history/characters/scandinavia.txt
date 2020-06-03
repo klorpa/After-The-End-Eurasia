@@ -1,8 +1,8 @@
-###�NSI
+###ÄNSI
 
 2501000={
 	name="Rasmus"
-	dynasty=2102000 #Pattursson
+	dynasty=2102000
 	culture=faroese
 	religion=pelagic
 	martial=3
@@ -58,8 +58,8 @@
 	2700.9.3={death=yes}
 }
 2501003={
-	name="Leif"
-	dynasty=2501002 #Ingstadt
+	name="Leifur"
+	dynasty=2501000
 	culture=icelander
 	religion=norse
 	martial=5
@@ -78,8 +78,8 @@
 	2670.4.2={death=yes}
 }
 2501004={
-	name="Jon"
-	dynasty=2501003 #Arason
+	name="Jón"
+	dynasty=2501016 
 	culture=icelander
 	religion=lutheran
 	martial=4
@@ -115,7 +115,7 @@
 }
 8000000={
 	name="Tyge"
-	dynasty=2223001 #S�nderborg
+	dynasty=2223001 #Sønderborg
 	culture=low_saxon
 	religion=neuhumanist
 	2471.3.22={birth=yes}
@@ -135,7 +135,7 @@
 }
 8000002={
 	name="Henrik"
-	dynasty=2223001 #S�nderborg
+	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=neuhumanist
 	2483.4.3={birth=yes}
@@ -168,7 +168,7 @@
 }
 8000005={
 	name="Absalon"
-	dynasty=2223001 #S�nderborg
+	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=lutheran
 	2509.7.4={birth=yes}
@@ -176,7 +176,7 @@
 }
 8000006={
 	name="Holger" #took advantage of Danish civil war, invaded
-	dynasty=2220179 #Sk�nske
+	dynasty=2220179 #Skånske
 	culture=scanian
 	religion=lutheran #maybe neonorse
 	2520.4.3={birth=yes}
@@ -184,7 +184,7 @@
 }
 8000007={
 	name="Tyge"
-	dynasty=2223001 #S�nderborg
+	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=neuhumanist
 	2540.7.4={birth=yes}
@@ -192,7 +192,7 @@
 }
 8000008={
 	name="Christoffer"
-	dynasty=2223001 #S�nderborg
+	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=neuhumanist
 	2590.6.2={birth=yes}
@@ -200,7 +200,7 @@
 }
 8000009={
 	name="Tyge"
-	dynasty=2223001 #S�nderborg
+	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=neuhumanist
 	father=8000007
@@ -219,7 +219,7 @@
 }
 8000010={
 	name="Vilhelm"
-	dynasty=2223001 #S�nderborg
+	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=neuhumanist
 	father=8000007
@@ -367,7 +367,7 @@
 }
 8000018={
 	name="Holger"
-	dynasty=2220179 #Sk�nske
+	dynasty=2220179 #Skånske
 	culture=scanian
 	religion=lutheran #maybe neonorse
 	father=8000006
@@ -381,7 +381,7 @@
 }
 8000019={
 	name="Karl"
-	dynasty=2220179 #Sk�nske
+	dynasty=2220179 #Skånske
 	culture=scanian
 	religion=lutheran #maybe neonorse
 	martial=7
@@ -392,4 +392,755 @@
 	father=8000018
 	2589.4.3={birth=yes}
 	2650.5.2={death=yes}
+}
+
+8000050={
+	name="Wilmer"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	trait=quick
+	trait=brilliant_strategist
+	trait=ambitious
+	trait=zealous
+	2220.1.1={birth=yes}
+	2240.1.1={give_nickname nick_the_great}
+	2279.1.1={death=yes}
+}
+
+8000051={
+	name="Erik"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000050
+	2245.1.1={birth=yes}
+	2304.1.1={death=yes}
+}
+
+8000052={
+	name="Wilmer"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000051
+	2276.1.1={birth=yes}
+	2327.1.1={death=yes}
+}
+
+8000053={
+	name="Zlatan"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000052
+	2300.1.1={birth=yes}
+	2350.1.1={death=yes}
+}
+
+8000054={
+	name="Kristian"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000052
+	2308.1.1={birth=yes}
+	2362.1.1={death=yes}
+}
+
+8000055={
+	name="Wilmer"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000054
+	2337.1.1={birth=yes}
+	2371.1.1={death=yes}
+}
+
+8000056={
+	name="Anders"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000054
+	2342.1.1={birth=yes}
+	2392.1.1={death=yes}
+}
+
+8000057={
+	name="Wilmer"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000056
+	2375.1.1={birth=yes}
+	2420.1.1={death=yes}
+}
+
+8000058={
+	name="Wilmer"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000057
+	2398.1.1={birth=yes}
+	2433.1.1={death=yes}
+}
+
+8000059={
+	name="Olof"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000058
+	2423.1.1={birth=yes}
+	2470.1.1={give_nickname nick_the_old}
+	2471.1.1={death=yes}
+}
+
+8000060={
+	name="Wilmer"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000059
+	2443.1.1={birth=yes}
+	2484.1.1={death=yes}
+}
+
+8000061={
+	name="Wilmer"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000060
+	2469.1.1={birth=yes}
+	2487.1.1={death=yes}
+}
+
+8000062={
+	name="Kristian"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000060
+	2473.1.1={birth=yes}
+	2495.1.1={death=yes}
+}
+
+8000063={
+	name="Olof"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000060
+	2477.1.1={birth=yes}
+	2506.1.1={death=yes}
+}
+
+8000064={
+	name="Mats"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000063
+	2496.1.1={birth=yes}
+	2519.1.1={death=yes}
+}
+
+8000065={
+	name="Erik"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000063
+	2500.1.1={birth=yes}
+	2536.1.1={death=yes}
+}
+
+8000066={
+	name="Wilmer"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000065
+	2517.1.1={birth=yes}
+	2552.1.1={death=yes}
+}
+
+8000067={
+	name="Olof"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000066
+	2532.1.1={birth=yes}
+	2571.1.1={death=yes}
+}
+
+8000068={
+	name="Wilmer"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000067
+	2552.1.1={birth=yes}
+	2591.1.1={death=yes}
+}
+
+8000069={
+	name="Mats"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000067
+	2555.1.1={birth=yes}
+	2608.1.1={death=yes}
+}
+
+8000070={
+	name="Zlatan"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000069
+	2570.1.1={birth=yes}
+	2626.1.1={death=yes}
+}
+
+8000071={
+	name="Erik"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000070
+	2589.1.1={birth=yes}
+	2648.1.1={death=yes}
+}
+
+8000072={
+	name="Wilmer"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=lutheran
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	trait=is_fat
+    trait=gregarious
+    trait=gluttonous
+    trait=skilled_tactician	
+	father=8000071
+	2630.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000073={
+	name="Aurora"
+	female=yes
+	dynasty=2220052 #Gløkksborg
+	culture=ostlending
+	religion=neuhumanist
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	trait=fair
+    trait=flamboyant_schemer
+	2645.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000074={
+	name="Halvdan"
+	dynasty=2220054 #Krag-Jørgensen
+	culture=ostlending
+	religion=folketro
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	trait=tough_soldier
+    trait=ambitious
+	trait=wroth 
+	trait=robust
+	trait=arbitrary
+	2642.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000075={
+	name="Trond"
+	dynasty=2220303 #Lademoen
+	culture=tronder
+	religion=folketro
+	martial=3
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	trait=fortune_builder
+	2631.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000076={
+	name="Ørvar" #the Arrow
+	dynasty=2220301 #Ramstad
+	culture=tronder
+	religion=folketro
+	martial=3
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	trait=tough_soldier
+	trait=robust
+	trait=strong
+	2636.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000077={
+	name="Roald"
+	dynasty=2220053 #Prøysen
+	culture=ostlending
+	religion=folketro
+	martial=3
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	trait=dutiful_cleric
+	trait=scholar
+	trait=poet
+	2636.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000078={
+	name="Götrik" #King of the Geats
+	dynasty=2220409 #Allén
+	culture=swedish
+	religion=lutheran
+	martial=3
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	trait=underhanded_rogue
+	trait=wounded
+	trait=scarred 
+	trait=diligent
+	2638.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000079={
+	name="Magnar" #the Mighty
+	dynasty=2220051 #Nordraak
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	trait=brilliant_strategist
+	trait=genius 
+	trait=one_legged 
+	trait=ambitious 
+	trait=blind
+	2050.1.1={birth=yes}
+	2200.1.1={death=yes}
+}
+
+8000080={
+	name="Valemon"
+	dynasty=2220051 #Nordraak
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000079
+	2150.1.1={birth=yes}
+	2300.1.1={death=yes}
+}
+
+8000081={
+	name="Askeladd"
+	dynasty=2220051 #Nordraak
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000080
+	2250.1.1={birth=yes}
+	2325.1.1={death=yes}
+}
+
+8000082={
+	name="Magnar"
+	dynasty=2220051 #Nordraak
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000081
+	2300.1.1={birth=yes}
+	2352.1.1={death=yes}
+}
+
+8000083={
+	name="Viljar"
+	dynasty=2220051 #Nordraak
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000082
+	2323.1.1={birth=yes}
+	2371.1.1={death=yes}
+}
+
+8000084={
+	name="Gudbrand"
+	dynasty=2220051 #Nordraak
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000083
+	2347.1.1={birth=yes}
+	2383.1.1={death=yes}
+}
+
+8000085={
+	name="Magnar"
+	dynasty=2220051 #Nordraak
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000083
+	2351.1.1={birth=yes}
+	2402.1.1={death=yes}
+}
+
+8000086={
+	name="Reidar"
+	dynasty=2220051 #Nordraak
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000085
+	2391.1.1={birth=yes}
+	2411.1.1={death=yes}
+}
+
+8000087={
+	name="Trym"
+	dynasty=2220051 #Nordraak
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000085
+	2393.1.1={birth=yes}
+	2413.1.1={death=yes}
+}
+
+8000088={
+	name="Magnar"
+	dynasty=2220051 #Nordraak
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000085
+	2396.1.1={birth=yes}
+	2430.1.1={death=yes}
+}
+
+8000089={
+	name="Asbjørn"
+	dynasty=2220028 #Vreim
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	2452.1.1={birth=yes}
+	2499.1.1={death=yes}
+}
+
+8000090={
+	name="Rikard"
+	dynasty=2220028 #Vreim
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000089
+	2475.1.1={birth=yes}
+	2513.1.1={death=yes}
+}
+
+8000091={
+	name="Odin"
+	dynasty=2220028 #Vreim
+	culture=ostlending
+	religion=valinorism
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	trait=lunatic
+	trait=adventurer
+	trait=zealous
+	trait=one_eyed
+	trait=mystic
+	father=8000090
+	2476.1.1={birth=yes}
+	2510.1.1={give_nickname nick_the_wanderer}
+	2514.1.1={death=yes}
+}
+
+8000092={
+	name="Asbjørn"
+	dynasty=2220028 #Vreim
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000090
+	2475.1.1={birth=yes}
+	2532.1.1={death=yes}
+}
+
+8000093={
+	name="Halvor"
+	dynasty=2220028 #Vreim
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000092
+	2498.1.1={birth=yes}
+	2551.1.1={death=yes}
+}
+
+8000094={
+	name="Magnar"
+	dynasty=2220028 #Vreim
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000093
+	2521.1.1={birth=yes}
+	2562.1.1={death=yes}
+}
+
+8000095={
+	name="Asbjørn"
+	dynasty=2220028 #Vreim
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000093
+	2530.1.1={birth=yes}
+	2588.1.1={death=yes}
+}
+
+8000096={
+	name="Lasse"
+	dynasty=2220028 #Vreim
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000095
+	2561.1.1={birth=yes}
+	2591.1.1={death=yes}
+}
+
+8000097={
+	name="Kyrre"
+	dynasty=2220028 #Vreim
+	culture=ostlending
+	religion=folketro
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=8000096
+	2587.1.1={birth=yes}
+	2615.1.1={death=yes}
 }
