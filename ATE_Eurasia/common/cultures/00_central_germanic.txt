@@ -61,13 +61,42 @@ central_germanic = {
 	}
 	bavarian = {
 		male_names = {
-			Albrecht Wilhelm Ernst Maximilian Emanuel Siegmund Ludwig Anton Christoph Ferdinand  
-			Leopold Philipp Theodor Adalbert Alois August Friedrich Johann Joseph  
-			Luitpold Otto Moritz Wolfgang Engelbert Gottfried Hieronymus Ignatz Markus Meinhard 
-			Raphael Karl Kajetan Clemens
+			Adalbert Albrecht_Albert Alexander Alfons_Alphonse Alfred Alois Andreas_Andrew Anton_Anthony August
+			Bernhard_Bernard Burkhard
+			Christian Christoph_Christopher Clemens_Clement
+			Dieter
+			Edmund Eduard_Edward Emmanuel Engelbert Erich_Erik Ernst_Ernest Eugen_Eugene
+			Felix Ferdinand Florian Franz_Francis "Franz Josef" "Franz Xaver" Freimut Friedrich_Frederick
+			Georg_George Gerhard Gottfried Günther Gustav
+			Hans Hartmann Heinrich_Henry Helmut Herbert Hermann Horst Hugo
+			Ignatz_Ignatius
+			Johann_John Josef_Joseph Julius
+			Kajetan Karl_Charles Karljörg Kevin Korbinian Kurt
+			Leonhard_Leonard Leopold Lorenz_Laurence Ludwig_Louis Luitpold
+			Manfred Marcel Marius Markus_Mark Martin Maximilian Meinhard Moritz_Maurice
+			Nico_Nicholas Norbert
+			Oskar_Oscar Otto
+			Paul Peter Philipp_Philip
+			Raphael Richard Rudolf
+			Sebald Siegfried Siegmund Steffen_Stephen
+			Theodor_Theodore Thomas
+			Ulrich
+			Victor Vincent
+			Werner Wilhelm_William Willibald Wolfgang
 		}
 		female_names = {
-			Hiltraud Friede Juliane
+			Amalie
+			Brigitte
+			Christine Claudia
+			Eva
+			Friede
+			Hannah Helene_Helen Hiltraud
+			Johanna Juliane Jutta
+			Katerina
+			Marlene Maria_Mary
+			Renata
+			Sophie Stephanie
+			Waltraud
 		}
 			
 		from_dynasty_prefix = "von "
@@ -162,7 +191,7 @@ central_germanic = {
 			Hans Hans-Günther Hartmut Heinrich_Henry Heinz_Henry Helmut Heribert_Herbert Hermann_Herman Horst Hugo_Hugh
 			Ignaz_Ignatius Ingo
 			Jakob_Jacob Joachim Johannes_John Josef_Joseph Julius Jürgen_George
-			Karl_Carl Karl-Christian Karl-Heinz Karl-Ludwig Karl-Robert Karl-Theodor Klaus_Nicholas Konrad_Conrad Kurt
+			Karl_Carl Karl-Christian Karl-Heinz Karl-Ludwig Karl-Robert Karl-Theodor Kevin Klaus_Nicholas Konrad_Conrad Kurt
 			Leon Leopold Lorenz_Lawrence Lothar Ludwig_Louis Lukas_Lucas
 			Manfred Matthias_Matthew Markus_Mark Maximilian Michael
 			Oskar_Oscar Oswald Ottmar Otto
@@ -202,47 +231,41 @@ central_germanic = {
 
 		modifier = default_culture_modifier
 	}
-	upper_saxon = {
+	saxon = {
 		graphical_cultures = { germangfx }
 		
 		color = { 0.7 0.3 0.4 }
 
 		male_names = {
-			Adam Adolf_Adolph Albert Alexander Alfred Andreas_Andrew Anton_Anthony Armin Arnold Arthur August_Augustus
-			Bernhard_Bernard Bruno Burkhard
-			Christof_Christopher
-			Daniel Detlef Dietmar Dietrich
-			Emil_Aemilius Erich_Erik Ernst_Ernest Eugen_Eugene Everhardt
-			Felix
-			Ferdinand Florian Franz_Francis Friedrich_Frederick 
-			Gerhard_Gerard Gottfried_Godfrey Günther Gustav
-			Hans Hans-Günther Hartmut Heinrich_Henry Heinz_Henry Helmut Heribert_Herbert Hermann_Herman Horst Hugo_Hugh
-			Ignaz_Ignatius Ingo
-			Jakob_Jacob Joachim Johannes_John Josef_Joseph Julius Jürgen_George
-			Karl_Carl Karl-Christian Karl-Heinz Karl-Ludwig Karl-Robert Karl-Theodor Klaus_Nicholas Konrad_Conrad Kurt
-			Leon Leopold Lorenz_Lawrence Lothar Ludwig_Louis Lukas_Lucas
-			Manfred Matthias_Matthew Markus_Mark Maximilian Michael
-			Oskar_Oscar Oswald Ottmar Otto
-			Paul Peter Philipp_Philip
-			Ralf_Ralph Reimar Reinhard Reinhold Robert Rudolf_Rudolph
-			Siegfried
-			Theobald Theodor_Theodore Thomas Tobias
-			Udo Ulrich Uwe
-			Walter Werner Wilhelm_William Wolfgang Wolf-Dieter
+			Andreas_Andrew Arno August
+			Bruno Burkhard
+			Carl Carl-Gustav Carsten Christian Christoph_Christopher
+			Dirk
+			Eckart Eduard_Edward Erich_Erik Ernst_Ernest
+			Fabian Ferdinand Friedrich_Frederick
+			Georg_George Gerhard Gregor_Gregory Gustav
+			Hagen Hans Hans-Carl Hans-Christian Hans-Dietrich Hans-Günther Hans-Joachim Heinrich_Henry Helmut Herbert Hermann Horst
+			Ingolf
+			Johann_John Johann-Friedrich
+			Klaus_Nicholas Kurt
+			Leonhard_Leonard
+			Martin Matthias_Matthew Maximilian Michael
+			Olaf Otto
+			Paul Peter
+			Reiner Richard Robert
+			Siegfried Siegwart Stefan_Stephen
+			Victor Volkmar
+			Walter Werner Wilhelm_William Wolfgang
 		}
 		female_names = {
-			Albertine Alexandra Anne Annette
-			Bernadette Brigitte
-			Charlotte Christa
-			Elisabeth_Elizabeth
-			Greta
-			Hannelore Hedwig Heide Hildegard
-			Ilse_Elsa Irene
-			Johanna_Joan
-			Katarina_Catherine
-			Maria_Mary
-			Sabine Simone Sylvia
-			Ursula Ute
+			Anja Annemarie
+			Barbara
+			Clara
+			Elfriede
+			Helga
+			Katarina
+			Louise
+			Sylke
 		}
 	
 		from_dynasty_prefix = "von "
@@ -267,10 +290,12 @@ central_germanic = {
 		male_names = {
 			Albrecht_Albert Alfred Anton_Anthony
 			Eduard_Edward Emil_Aemilius Ernst_Ernest Erwin Eugen_Eugene
+			Dietrich
 			Ferdinand Franz_Francis Friedrich_Frederick
-			Heinrich Helmut Hermann_Herman
+			Günther
+			Heinrich_Henry Helmut Hermann_Herman
 			Johann_John Josef_Joseph Jürgen_George
-			Karl
+			Karl_Charles
 			Leopold Lorenz_Lawrence Lothar Ludwig_Louis
 			Otto
 			Richard Rudolf
@@ -280,6 +305,7 @@ central_germanic = {
 			Walter Wilhelm_William Wolfgang
 		}
 		female_names = {
+			Brigitte
 			Maria_Mary
 			Theresa
 		}
@@ -304,41 +330,32 @@ central_germanic = {
 		color = { 0.5 0.3 0.4 }
 
 		male_names = {
-			Adam Adolf_Adolph Albert Alexander Alfred Andreas_Andrew Anton_Anthony Armin Arnold Arthur August_Augustus
-			Bernhard_Bernard Bruno Burkhard
-			Christof_Christopher
-			Daniel Detlef Dietmar Dietrich
-			Emil_Aemilius Erich_Erik Ernst_Ernest Eugen_Eugene Everhardt
-			Felix
-			Ferdinand Florian Franz_Francis Friedrich_Frederick 
-			Gerhard_Gerard Gottfried_Godfrey Günther Gustav
-			Hans Hans-Günther Hartmut Heinrich_Henry Heinz_Henry Helmut Heribert_Herbert Hermann_Herman Horst Hugo_Hugh
-			Ignaz_Ignatius Ingo
-			Jakob_Jacob Joachim Johannes_John Josef_Joseph Julius Jürgen_George
-			Karl_Carl Karl-Christian Karl-Heinz Karl-Ludwig Karl-Robert Karl-Theodor Klaus_Nicholas Konrad_Conrad Kurt
-			Leon Leopold Lorenz_Lawrence Lothar Ludwig_Louis Lukas_Lucas
-			Manfred Matthias_Matthew Markus_Mark Maximilian Michael
-			Oskar_Oscar Oswald Ottmar Otto
-			Paul Peter Philipp_Philip
-			Ralf_Ralph Reimar Reinhard Reinhold Robert Rudolf_Rudolph
-			Siegfried
-			Theobald Theodor_Theodore Thomas Tobias
-			Udo Ulrich Uwe
-			Walter Werner Wilhelm_William Wolfgang Wolf-Dieter
+			Adolf Adrian Alexander Alfred Andreas_Andrew Armin
+			Beat_Beatus Boris Bruno
+			Conrad
+			Daniel Dieter
+			Eduard_Edward Elmar Emil Erich_Erik Ernst_Ernest
+			Felix Franz_Francis Fritz_Frederick
+			Hans Hansjörg Hanspeter Hansrudi Harald_Harold Heinz Hugo
+			Ivan
+			Jakob_Jacob Johann_John Jonas Jörg_George
+			Karl_Charles Kurt
+			Luca_Luke Luzius
+			Marco_Mark Mario_Marius Martin Max Mirco Moritz_Maurice
+			Nico_Nicholas
+			Oscar Otto
+			Ralph Reto Robert Rolf Ruedi_Rudolf
+			Stefan_Stephen
+			Timo
+			Udo Ueli_Ulrich Urs_Ursus
+			Walo Walter Werner Willi_William Wolfgang
+			Yannick
 		}
 		female_names = {
-			Albertine Alexandra Anne Annette
-			Bernadette Brigitte
-			Charlotte Christa
-			Elisabeth_Elizabeth
-			Greta
-			Hannelore Hedwig Heide Hildegard
-			Ilse_Elsa Irene
-			Johanna_Joan
-			Katarina_Catherine
-			Maria_Mary
-			Sabine Simone Sylvia
-			Ursula Ute
+			Annemarie
+			Clara
+			Regula
+			Ursula
 		}
 	
 		from_dynasty_prefix = "von "
