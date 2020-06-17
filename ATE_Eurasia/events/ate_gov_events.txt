@@ -1,0 +1,160 @@
+###########################################
+#                                         #
+# Government Events				          #
+#                                         #
+# 							              #
+#                                         #
+###########################################
+
+namespace = gov
+
+#add diet member status
+character_event = {
+	id = gov.001
+	hide_window = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		liege = { government = confederation_government }
+		NOT = { has_minor_title = title_govederation_diet_member }
+		has_regent = no
+		#is_councillor = no
+		higher_real_tier_than = BARON
+		#NOT = { has_minor_title = title_regent }
+		#NOT = { has_minor_title = title_councilmember_king }
+		#NOT = { has_minor_title = title_councilmember_emperor }
+	}
+	
+	immediate = {
+		give_minor_title = title_confederation_diet_member
+	}
+}
+
+#remove diet member status
+character_event = {
+	id = gov.002
+	hide_window = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		has_minor_title = title_confederation_diet_member
+		OR = {
+			NOT = { liege = { government = confederation_government } }
+			has_regent = yes
+			#is_councillor = yes
+			NOT = { higher_real_tier_than = BARON }
+			#OR = {
+			#	has_minor_title = title_regent
+			#	has_minor_title = title_councilmember_king
+			#	has_minor_title = title_councilmember_emperor
+			#}
+		}
+	}
+	
+	immediate = {
+		remove_title = title_confederation_diet_member
+	}
+}
+
+#set succession law (bureaucratic)
+character_event = {
+	id = gov.003
+	hide_window = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		OR = {
+			AND = {
+				government = confederation_government
+				NOT = { has_law = succ_confederation_elective }
+			}
+			AND = {
+				government = bureaucratic_government
+				NOT = { has_law = succ_bureaucratic_elective }
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = { government = confederation_government }
+			primary_title = { add_law = { law = succ_confederation_elective opinion_effect = no } }
+		}
+		if = {
+			limit = { government = bureaucratic_government }
+			primary_title = { add_law = { law = succ_bureaucratic_elective opinion_effect = no } }
+		}
+	}
+}
+
+#become bureaucratic if liege is (liege)
+character_event = {
+	id = gov.004
+	hide_window = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		government = bureaucratic_government
+		any_vassal = {
+			government = feudal_government
+			NOT = { has_character_flag = refused_bureaucratic }
+			has_regent = no
+			war = no
+		}
+	}
+	
+	immediate = {
+		random_vassal = {
+			limit = {
+				government = feudal_government
+				NOT = { has_character_flag = refused_bureaucratic }
+				has_regent = no
+			}
+			character_event = { id = gov.5 }
+		}
+	}
+}
+
+#become bureaucratic if liege is (vassal)
+character_event = {
+	id = gov.005
+	picture = GFX_evt_chinese_emissary
+	desc = EVTDESCgov.005
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAgov.005
+		ai_chance = { factor = 0.5 }
+		set_government_type = bureaucratic_government
+		FROM = {
+			opinion = {
+				modifier = opinion_grateful
+				who = ROOT
+			} 
+		}
+	}
+	option = {
+		name = EVTOPTBgov.005
+		ai_chance = { factor = 0.5 }
+		set_character_flag = refused_bureaucratic
+		FROM = {
+			opinion = {
+				modifier = opinion_refused_bureaucracy
+				who = ROOT
+			} 
+		}
+	}
+}

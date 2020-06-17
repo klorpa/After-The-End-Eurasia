@@ -1,0 +1,52 @@
+#Confederation
+title_confederation_diet_member;Diet Member;;;;;;;;;;;;;x
+title_confederation_diet_member_desc;Diet Members convene at least once a year to discuss legislative matters in the Confederation. Every capable vassal owning a territory inside the realm can become a Member unless they already are a councillor.;;;;;;;;;;;;;x
+title_confederation_diet_president;Diet President;;;;;;;;;;;;;x
+title_confederation_diet_president_desc;The Diet President mediates all prodecures in the Diet. It's the second most powerful position in the Confederation.;;;;;;;;;;;;;x
+
+gov_confederation;Confederation;;;;;;;;;;;;;x
+confederation_government;Confederation;;;;;;;;;;;;;x
+confederation_government_desc;A Confederation is a political alliance between a collection of smaller states. Every Member of the Confederation Diet has a voice in legislation and nomination of the successor in the realm.;;;;;;;;;;;;;x
+
+confederation_elective;Diet Elective;;;;;;;;;;;;;x
+succ_confederation_elective;Diet Elective;;;;;;;;;;;;;x
+succ_confederation_elective_desc;Each member of the Confederation Diet can cast a vote to elect a successor. Candidates are close relatives of the current liege and all direct vassals who aren't only barons.;;;;;;;;;;;;;x
+
+confederation_king;Confederation President;;;;;;;;;;;;;x
+confederation_king_female;Confederation President;;;;;;;;;;;;;x
+confederation_kingdom_of;Confederation of;;;;;;;;;;;;;x
+confederation_emperor;Confederation President;;;;;;;;;;;;;x
+confederation_emperor_female;Confederation President;;;;;;;;;;;;;x
+confederation_empire_of;Grand Confederation of;;;;;;;;;;;;;x
+
+#Bureaucracy
+gov_bureaucracy;Bureaucracy;;;;;;;;;;;;;x
+bureaucratic_government;Bureaucratic;;;;;;;;;;;;;x
+bureaucratic_government_desc;A Bureaucracy is an administration managed by departments in which many functions are delegated. Rulers are required to have skills in many fields and govern according to the benefit of its vassals. Claimant factions are not justified as it is easier to climb the ladder.;;;;;;;;;;;;;x
+
+bureaucratic_elective;Bureaucratic Elective;;;;;;;;;;;;;x
+succ_bureaucratic_elective;Bureaucratic Elective;;;;;;;;;;;;;x
+succ_bureaucratic_elective_desc;Direct Bureaucratic vassals can cast a vote to choose the heir. Candidates are close relatives of the current liege and all direct vassals. Skilled rulers have more sway in electing the successor.;;;;;;;;;;;;;x
+
+tooltip_bureaucratic_vote_strength_liege_emperor;Emperor Authority;;;;;;;;;;;;;x
+tooltip_bureaucratic_vote_strength_liege_king;King Authority;;;;;;;;;;;;;x
+tooltip_bureaucratic_vote_strength_liege_duke;Duke Authority;;;;;;;;;;;;;x
+tooltip_bureaucratic_vote_strength_liege_count;Count Authority;;;;;;;;;;;;;x
+tooltip_bureaucratic_vote_strength_liege_baron;Baron Authority;;;;;;;;;;;;;x
+tooltip_bureaucratic_vote_strength_diplomacy;Diplomacy;;;;;;;;;;;;;x
+tooltip_bureaucratic_vote_strength_martial;Martial;;;;;;;;;;;;;x
+tooltip_bureaucratic_vote_strength_stewardship;Stewardship;;;;;;;;;;;;;x
+tooltip_bureaucratic_vote_strength_intrigue;Intrigue;;;;;;;;;;;;;x
+tooltip_bureaucratic_vote_strength_learning;Learning;;;;;;;;;;;;;x
+
+#bureaucracy_emperor;President;;;;;;;;;;;;;x
+#bureaucracy_emperor_female;President;;;;;;;;;;;;;x
+#bureaucracy_empire_of;Union of;;;;;;;;;;;;;x
+#bureaucracy_king;Commissioner;;;;;;;;;;;;;x
+#bureaucracy_king_female;Commissioner;;;;;;;;;;;;;x
+#bureaucracy_kingdom_of;State of;;;;;;;;;;;;;x
+
+EVTDESCgov.005;[From.GetTitledFirstName] has sent an envoy asking you to adopt his Bureaucratic administration. Now your realm can adopt the same government type. Doing so will eventually change your successsion law and your vassals will slowly adapt to the new system. Moreover, switching to Bureaucratic will allow you to vote on and be eligible for your liege's succession. However, refusing this offer will anger [From.GetObjectPronoun].;;;;;;;;;;;;;x
+EVTOPTAgov.005;I will adopt [From.GetPossPronoun] ways;;;;;;;;;;;;;x
+EVTOPTBgov.005;I won't be a slave!;;;;;;;;;;;;;x
+opinion_refused_bureaucracy;Refused Bureaucracy;;;;;;;;;;;;;x

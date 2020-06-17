@@ -1,0 +1,111 @@
+feudal_governments = {
+	confederation_government = {
+		preferred_holdings = { CASTLE CITY }
+		allowed_holdings = {
+			CASTLE
+			CITY
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		frame_suffix = "_merchantrepublic"
+		title_prefix = "confederation_"
+		potential = {
+			primary_title = {
+				title = k_switzerland
+			}
+		}
+		vassal_call_to_arms = {
+			burgher_republic_government
+		}
+		
+		color = { 255 75 75 }
+
+		barons_need_dynasty = yes
+
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 12
+		
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		free_retract_vassalage = no
+		
+		can_create_empires = no
+		vassal_government_opinion_penalties = no
+		can_grant_kingdoms_and_empires_to_other_government_group = no
+		can_be_granted_kingdoms_and_empires_by_other_government = no
+		
+		gets_religion_opinion_penalties = no
+		gives_religion_opinion_penalties = no
+		can_demand_religious_conversion = no
+		marriage_ignore_religion = yes
+		
+		## Modifiers
+		court_size_modifier = 15
+	}
+	bureaucratic_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		free_revoke_on_tiers = {
+			duke
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		frame_suffix = "_chineseimperial"
+		title_prefix = "bureaucracy_"
+		potential = {
+			OR = {
+				primary_title = {
+					title = e_europa #list of imperial-tier realms allowed
+				}
+				top_liege = {
+					government = bureaucratic_government
+					real_tier = EMPEROR
+				}
+			}
+		}
+		
+		color = { 118 255 163 }
+		
+		uses_piety_for_law_change = yes
+
+		barons_need_dynasty = yes
+		free_retract_vassalage = yes
+		
+		#No free levies in offensive war
+		
+		can_build_tribal = no
+		
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 200
+		
+		## Modifiers
+		court_size_modifier = 20
+		vassal_limit = -20
+		character_modifier = {
+			stewardship = 3
+		}
+	}
+}
