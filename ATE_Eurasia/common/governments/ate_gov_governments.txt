@@ -16,9 +16,22 @@ feudal_governments = {
 		frame_suffix = "_merchantrepublic"
 		title_prefix = "confederation_"
 		potential = {
-			primary_title = {
-				title = k_switzerland
-			}
+            OR = {
+                primary_title = {
+                    has_law = succ_confederation_elective
+                }
+                top_liege = {
+                    government = confederation_government
+                    OR = {
+                    tier = DUKE
+                    tier = KING
+                    tier = EMPEROR
+                    }
+                }
+				primary_title = {
+					title = k_switzerland
+				}
+            }
 		}
 		vassal_call_to_arms = {
 			burgher_republic_government
