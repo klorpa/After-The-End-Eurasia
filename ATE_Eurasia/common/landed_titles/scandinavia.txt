@@ -134,7 +134,317 @@ e_scandinavia = {
 				b_hov = {}
 			}
 		}
+		d_kujalleq = {
+			color={ 99 121 69 }
+			color2={ 255 255 255 }
+			
+			capital = 535 # Narsaq
+					
+			c_narsaq = {
+				color={ 96 136 78 }
+				color2={ 255 255 255 }
+				
+				b_narsaq = {}
+				b_ivigtut = {}
+				b_narsarsuaq = {}
+				b_arsuk = {}
+				b_qassimiut = {}
+				b_qassiarsuk = {}
+				b_nunarsuit = {}
+			}
+			c_qaqortoq = {
+				color={ 74 103 35 }
+				color2={ 255 255 255 }
+				
+				b_qaqortoq = {}
+				b_eqalugaarsuit = {}
+				b_eqaluit = {}
+				b_alluitsup_paa = {}
+				b_qassimiut = {}
+				b_igaliku = {}
+				b_taseq = {}
+			}
+			c_nanortalik = {
+				color={ 65 148 28 }
+				color2={ 255 255 255 }
+				
+				b_nanortalik = {}
+				b_tasiusaq = {}
+				b_karsaq_kujalleq = {}
+				b_ikeq = {}
+				b_agdleruussakasit = {}
+				b_kitsissut = {}
+				b_qingaqgssat_qaqit = {}
+			}
+		}
 	}
+	k_estonia = {
+		color={ 100 120 120 }
+		color2={ 136 157 23 }
+		
+		dignity = 10 # Counted as having this many more counties than it does
+		
+		culture = estonian
+		
+		capital = 535 # Tallinn
+		
+		danish = "Øsel" 
+		
+		d_harjumaa = {
+			color={ 90 140 110 }
+			color2={ 255 255 255 }
+		
+			capital = 535 # Tallinn
+			
+			c_tallinn = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_tallinn = {}
+				b_tabasalu = {}
+				b_tuhala = {}
+				b_keila = {}
+				b_rummu = {}
+				b_radise = {}
+				b_paldiski = {}
+			}
+			
+			c_laanemaa = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_haapsalu = {}
+				b_hullo = {}
+				b_linnamae = {}
+				b_risti = {}
+				b_lihula = {}
+				b_kirbla = {}
+				b_dirhami = {}
+			}
+			
+			c_raplamaa = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_rapla = {}
+				b_sipa = {}
+				b_hagudi = {}
+				b_juuru = {}
+				b_kohila = {}
+				b_kehtna = {}
+				b_eidapere = {}
+			}
+			
+			c_maardu = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_maardu = {}
+				b_raasiku = {}
+				b_pikavere = {}
+				b_leesi = {}
+				b_loksa = {}
+				b_viinistu = {}
+				b_anija = {}
+			}
+			
+			c_jarvamaa = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_paide = {}
+				b_ambla = {}
+				b_oisu = {}
+				b_koigi = {}
+				b_nurmsi = {}
+				b_koeru = {} 
+				b_aravete = {}
+			}
+		}
+		
+		d_saaremaa = {
+			color={ 85 122 100 }
+			color2={ 255 255 255 }
+		
+			capital = 537 # Saaremaa
+			
+			c_saaremaa = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_kuressaare = {}
+				b_salme = {}
+				b_liiva = {}
+				b_kihelkonna = {}
+				b_mustjala = {}
+				b_sakla = {}
+				b_laimjala = {}
+			}
+			
+			c_hiiumaa = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_hiiumaa = {}
+				b_kalana = {}
+				b_heltermaa = {}
+				b_valgu = {}
+				b_emmaste = {}
+				b_nurste = {}
+				b_luidja = {}
+			}
+		}
+		
+		d_virumaa = {
+			color={ 110 160 130 }
+			color2={ 255 255 255 }
+		
+			capital = 547 # Kohtlajarve
+			
+			c_kohtlajarve = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_sillamae = {}
+				b_aseri = {}
+				b_tudulinna = {}
+				b_kurtna = {}
+				b_kiikla = {}
+				b_toila = {}
+				b_kauksi = {}
+			}
+			c_rakvere = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_rakvere = {}
+				b_kunda = {}
+				b_essu = {}
+				b_kadrina = {}
+				b_haljala = {}
+				b_rakke = {}
+				b_passvere = {}
+			}
+			c_jogevamaa = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_jogeva = {}
+				b_aidu = {}
+				b_adavere = {}
+				b_puumani = {}
+				b_torma = {}
+				b_tabivere = {}
+				b_palamuse = {}
+			}
+		}
+		
+		d_parnumaa = {
+			color={ 60 100 90 }
+			color2={ 255 255 255 }
+		
+			capital = 539 # Parnu
+			
+			c_parnu = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_parnu = {}
+				b_varbla = {}
+				b_kalli = {}
+				b_sindi = {}
+				b_kaisma = {}
+				b_tori = {}
+				b_lindi = {}
+			}
+			
+			c_haademeeste = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_haademeeste = {}
+				b_kabli = {}
+				b_ikla = {}
+				b_uulu = {}
+				b_surju = {}
+				b_tali = {}
+				b_kanakula = {}
+			}
+			
+			c_viljandimaa = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_viljandi = {}
+				b_puiatu = {}
+				b_abra_paluoja = {}
+				b_mustla = {}
+				b_oiu = {}
+				b_suislepa = {}
+				b_sultsi = {}
+			}
+		}
+		
+		d_otepaa_korgustik = {
+			color={ 115 175 120 }
+			color2={ 255 255 255 }
+		
+			capital = 545 # Tartumaa
+			
+			c_tartumaa = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_tartu = {}
+			    b_rannu = {}
+				b_puhja = {}
+				b_kusma = {}
+				b_alatskivi = {}
+				b_melliste = {}
+				b_kambja = {}
+			}
+			
+			c_polvamaa = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_polva = {}
+				b_kanepi = {}
+				b_saverna = {}
+				b_rasina = {}
+				b_mooste = {}
+				b_veriora = {}
+				b_orava = {}
+			}
+			
+			c_valgamaa = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_valga = {}
+				b_hargla = {}
+				b_tsirguliina = {}
+				b_sangaste = {}
+				b_hummuli = {}
+				b_pikasilla = {}
+				b_helme = {}
+			}
+			
+			c_vorumaa = {
+				color={ 1 156 170 }
+				color2={ 255 255 255 }
+
+				b_voru = {}
+				b_haanja = {}
+				b_kuldre = {}
+				b_plaani = {}
+				b_misso = {}
+				b_vasteslina = {}
+				b_meremae = {}
+			}
+		}
+	}
+	
 	k_denmark = {
 		color={ 247 77 54 }
 		color2={ 136 157 23 }
