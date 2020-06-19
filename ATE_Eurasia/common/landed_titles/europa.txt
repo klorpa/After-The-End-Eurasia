@@ -356,7 +356,7 @@ e_europa = {
 		
 		culture = rhenish
 		
-		d_nordrhein = {
+		d_rhine_ruhr = {
 			color={ 135 132 140 }
 			color2={ 255 255 255 }
 			
@@ -364,17 +364,11 @@ e_europa = {
 			
 			culture = rhenish
 			
-			c_cleves = {
+			c_krefeld = {
 				color={ 168 144 187 }
 				color2={ 255 255 255 }
 
-				b_cleves = {}
-				b_cleves1 = {}
-				b_cleves2 = {}
-				b_cleves3 = {}
-				b_cleves4 = {}
-				b_cleves5 = {}
-				b_cleves6 = {}
+				b_krefeld = {}
 			}
 			
 			c_cologne = {
@@ -403,17 +397,23 @@ e_europa = {
 				b_aachen6 = {}
 			}
 			
-			c_trier = {
+			c_bonn = {
 				color={ 8 84 68 }
 				color2={ 255 255 255 }
 
-				b_trier = {}
-				b_trier1 = {}
-				b_trier2 = {}
-				b_trier3 = {}
-				b_trier4 = {}
-				b_trier5 = {}
-				b_trier6 = {}
+				b_bonn = {}
+			}
+			c_ruhr = {
+				color={ 8 84 68 }
+				color2={ 255 255 255 }
+
+				b_ruhr = {}
+			}
+			c_dusseldorf = {
+				color={ 8 84 68 }
+				color2={ 255 255 255 }
+
+				b_dusseldorf = {}
 			}
 		}
 		
@@ -425,17 +425,11 @@ e_europa = {
 			
 			culture = rhenish
 			
-			c_kreuznach = {
+			c_koblenz = {
 				color={ 168 144 187 }
 				color2={ 255 255 255 }
 
-				b_kreuznach = {}
-				b_kreuznach1 = {}
-				b_kreuznach2 = {}
-				b_kreuznach3 = {}
-				b_kreuznach4 = {}
-				b_kreuznach5 = {}
-				b_kreuznach6 = {}
+				b_koblenz = {}
 			}
 			
 			c_saarland = {
@@ -463,53 +457,20 @@ e_europa = {
 				b_mainz5 = {}
 				b_mainz6 = {}
 			}
-			c_kaiserslautern = {
+			c_ludwigshafen = {
 				color={ 168 144 187 }
 				color2={ 255 255 255 }
 
-				b_kaiserslautem = {}
-				b_kaiserslautem1 = {}
-				b_kaiserslautem2 = {}
-				b_kaiserslautem3 = {}
-				b_kaiserslautem4 = {}
-				b_kaiserslautem5 = {}
-				b_kaiserslautem6 = {}
+				b_ludwigshafen = {}
 			}
-		}
-		d_eastern_rheinland = {
-			color={ 91 119 77 }
-			color2={ 255 255 255 }
-			
-			capital = 78
-			
-			culture = rhenish
-			
-			c_dusseldorf = {
-				color={ 127 198 219 }
+			c_trier = {
+				color={ 168 144 187 }
 				color2={ 255 255 255 }
 
-				b_dusseldorf = {}
-				b_dusseldorf1 = {}
-				b_dusseldorf2 = {}
-				b_dusseldorf3 = {}
-				b_dusseldorf4 = {}
-				b_dusseldorf5 = {}
-				b_dusseldorf6 = {}
-			}
-			c_koblenz = {
-				color={ 107 167 185 }
-				color2={ 255 255 255 }
-
-				b_koblenz = {}
-				b_koblenz1 = {}
-				b_koblenz2 = {}
-				b_koblenz3 = {}
-				b_koblenz4 = {}
-				b_koblenz5 = {}
-				b_koblenz6 = {}
+				b_trier = {}
 			}
 		}
-		d_hesse_nassau = {
+		d_hesse = {
 			color={ 90 120 100 }
 			color2={ 255 255 255 }
 			
@@ -553,41 +514,38 @@ e_europa = {
 				b_darmstadt5 = {}
 				b_darmstadt6 = {}
 			}
-			c_giessen = {
-				color={ 155 137 135 }
+			c_westerwald = {
+				color={ 168 144 187 }
 				color2={ 255 255 255 }
 
-				b_giessen = {}
-				b_giessen1 = {}
-				b_giessen2 = {}
-				b_giessen3 = {}
-				b_giessen4 = {}
-				b_giessen5 = {}
-				b_giessen6 = {}
+				b_westerwald = {}
 			}
-			c_fulda = {
-				color={ 113 92 90 }
-				color2={ 255 255 255 }
-
-				b_fulda = {}
-				b_fulda1 = {}
-				b_fulda2 = {}
-				b_fulda3 = {}
-				b_fulda4 = {}
-				b_fulda5 = {}
-				b_fulda6 = {}
-			}
+		}
+		d_kassel = {
+			color={ 90 120 100 }
+			color2={ 255 255 255 }
+			
+			capital = 78
+			
+			culture = rhenish
+			
 			c_kassel = {
-				color={ 184 139 135 }
+				color={ 168 144 187 }
 				color2={ 255 255 255 }
 
 				b_kassel = {}
-				b_kassel1 = {}
-				b_kassel2 = {}
-				b_kassel3 = {}
-				b_kassel4 = {}
-				b_kassel5 = {}
-				b_kassel6 = {}
+			}
+			c_vogelsberg = {
+				color={ 168 144 187 }
+				color2={ 255 255 255 }
+
+				b_vogelsberg = {}
+			}
+			c_sauerland = {
+				color={ 168 144 187 }
+				color2={ 255 255 255 }
+
+				b_sauerland = {}
 			}
 		}
 		d_westfalen = {
@@ -610,42 +568,6 @@ e_europa = {
 				b_munster5 = {}
 				b_munster6 = {}
 			}
-			c_dortmund = {
-				color={ 84 142 159 }
-				color2={ 255 255 255 }
-
-				b_dortmund = {}
-				b_dortmund1 = {}
-				b_dortmund2 = {}
-				b_dortmund3 = {}
-				b_dortmund4 = {}
-				b_dortmund5 = {}
-				b_dortmund6 = {}
-			}
-			c_siegen = {
-				color={ 85 210 221 }
-				color2={ 255 255 255 }
-
-				b_siegen = {}
-				b_siegen1 = {}
-				b_siegen2 = {}
-				b_siegen3 = {}
-				b_siegen4 = {}
-				b_siegen5 = {}
-				b_siegen6 = {}
-			}
-			c_waldeck_frankenberg = {
-				color={ 141 100 96 }
-				color2={ 255 255 255 }
-
-				b_korbach = {}
-				b_korbach1 = {}
-				b_korbach2 = {}
-				b_korbach3 = {}
-				b_korbach4 = {}
-				b_korbach5 = {}
-				b_korbach6 = {}
-			}
 			c_bielefeld = {
 				color={ 124 74 69 }
 				color2={ 255 255 255 }
@@ -657,6 +579,12 @@ e_europa = {
 				b_detmold4 = {}
 				b_detmold5 = {}
 				b_detmold6 = {}
+			}
+			c_paderborn = {
+				color={ 168 144 187 }
+				color2={ 255 255 255 }
+
+				b_paderborn = {}
 			}
 		}
 	}
@@ -687,30 +615,6 @@ e_europa = {
 				b_oldenburg5 = {}
 				b_oldenburg6 = {}
 			}
-			c_cloppenburg = {
-				color={ 169 186 217 }
-				color2={ 255 255 255 }
-
-				b_cloppenburg = {}
-				b_cloppenburg1 = {}
-				b_cloppenburg2 = {}
-				b_cloppenburg3 = {}
-				b_cloppenburg4 = {}
-				b_cloppenburg5 = {}
-				b_cloppenburg6 = {}
-			}
-			c_osnabruck = {
-				color={ 78 107 161 }
-				color2={ 255 255 255 }
-
-				b_osnabruck = {}
-				b_osnabruck1 = {}
-				b_osnabruck2 = {}
-				b_osnabruck3 = {}
-				b_osnabruck4 = {}
-				b_osnabruck5 = {}
-				b_osnabruck6 = {}
-			}
 			c_emsland = {
 				color={ 84 48 171 }
 				color2={ 255 255 255 }
@@ -727,13 +631,19 @@ e_europa = {
 				color={ 217 195 62 }
 				color2={ 255 255 255 }
 
-				b_ost-friesland = {}
-				b_ost-friesland1 = {}
-				b_ost-friesland2 = {}
-				b_ost-friesland3 = {}
-				b_ost-friesland4 = {}
-				b_ost-friesland5 = {}
-				b_ost-friesland6 = {}
+				b_east_frisia = {}
+			}
+			c_ammerland = {
+				color={ 168 144 187 }
+				color2={ 255 255 255 }
+
+				b_ammerland = {}
+			}
+			c_osnabruck = {
+				color={ 168 144 187 }
+				color2={ 255 255 255 }
+
+				b_osnabruck = {}
 			}
 		}
 		d_bremen = {
@@ -756,29 +666,17 @@ e_europa = {
 				b_bremen5 = {}
 				b_bremen6 = {}
 			}
-			c_stade = {
-				color={ 34 35 123 }
+			c_heidekreis = {
+				color={ 168 144 187 }
 				color2={ 255 255 255 }
 
-				b_stade = {}
-				b_stade1 = {}
-				b_stade2 = {}
-				b_stade3 = {}
-				b_stade4 = {}
-				b_stade5 = {}
-				b_stade6 = {}
+				b_heidekreis = {}
 			}
 			c_luneburg = {
-				color={ 126 135 29 }
+				color={ 168 144 187 }
 				color2={ 255 255 255 }
 
 				b_luneburg = {}
-				b_luneburg1 = {}
-				b_luneburg2 = {}
-				b_luneburg3 = {}
-				b_luneburg4 = {}
-				b_luneburg5 = {}
-				b_luneburg6 = {}
 			}
 		}
 		d_hannover = {
@@ -789,7 +687,7 @@ e_europa = {
 			
 			culture = rhenish
 			
-			c_nienburg = {
+			c_weser = {
 				color={ 16 173 90 }
 				color2={ 255 255 255 }
 
@@ -824,6 +722,18 @@ e_europa = {
 				b_brunswick4 = {}
 				b_brunswick5 = {}
 				b_brunswick6 = {}
+			}
+			c_schaumburg_lippe = {
+				color={ 168 144 187 }
+				color2={ 255 255 255 }
+
+				b_schaumburg_lippe = {}
+			}
+			c_gottingen = {
+				color={ 168 144 187 }
+				color2={ 255 255 255 }
+
+				b_gottingen = {}
 			}
 		}
 		d_hansa = {
@@ -892,7 +802,7 @@ e_europa = {
 				b_schleswig5 = {}
 				b_schleswig6 = {}
 			}
-			c_holstein = {
+			c_kiel = {
 				color={ 126 150 159 }
 				color2={ 255 255 255 }
 
@@ -913,7 +823,7 @@ e_europa = {
 		
 		culture = rhenish
 		
-		d_mecklenburg_vorpommern = {
+		d_mecklenburg = {
 			color={ 8 8 8 }
 			color2={ 255 255 255 }
 			
@@ -921,7 +831,7 @@ e_europa = {
 			
 			culture = rhenish
 			
-			c_mecklenburg = {
+			c_schwerin = {
 				color={ 0 141 30 }
 				color2={ 255 255 255 }
 
@@ -945,6 +855,33 @@ e_europa = {
 				b_rostock5 = {}
 				b_rostock6 = {}
 			}
+			c_muritz = {
+				color={ 84 69 181 }
+				color2={ 255 255 255 }
+
+				b_mechlenburgische_seenplatte = {}
+				b_mechlenburgische_seenplatte1 = {}
+				b_mechlenburgische_seenplatte2 = {}
+				b_mechlenburgische_seenplatte3 = {}
+				b_mechlenburgische_seenplatte4 = {}
+				b_mechlenburgische_seenplatte5 = {}
+				b_mechlenburgische_seenplatte6 = {}
+			}
+			c_wismar = {
+				color={ 0 141 30 }
+				color2={ 255 255 255 }
+
+				b_wismar = {}
+			}
+		}
+		d_vorpommern = {
+			color={ 8 8 8 }
+			color2={ 255 255 255 }
+			
+			capital = 78
+			
+			culture = rhenish
+			
 			c_stralsund = {
 				color={ 42 66 53 }
 				color2={ 255 255 255 }
@@ -981,18 +918,6 @@ e_europa = {
 				b_vorpommern_greifswald5 = {}
 				b_vorpommern_greifswald6 = {}
 			}
-			c_muritz = {
-				color={ 84 69 181 }
-				color2={ 255 255 255 }
-
-				b_mechlenburgische_seenplatte = {}
-				b_mechlenburgische_seenplatte1 = {}
-				b_mechlenburgische_seenplatte2 = {}
-				b_mechlenburgische_seenplatte3 = {}
-				b_mechlenburgische_seenplatte4 = {}
-				b_mechlenburgische_seenplatte5 = {}
-				b_mechlenburgische_seenplatte6 = {}
-			}
 		}
 		
 		d_brandenburg = {
@@ -1003,77 +928,35 @@ e_europa = {
 			
 			culture = rhenish
 			
-			c_oberhavel = {
-				color={ 153 161 170 }
+			c_prignitz = {
+				color={ 0 141 30 }
 				color2={ 255 255 255 }
 
-				b_oberhavel = {}
-				b_oberhavel1 = {}
-				b_oberhavel2 = {}
-				b_oberhavel3 = {}
-				b_oberhavel4 = {}
-				b_oberhavel5 = {}
-				b_oberhavel6 = {}
+				b_prignitz = {}
 			}
-			c_barnim = {
-				color={ 131 141 152 }
+			c_uckermark = {
+				color={ 0 141 30 }
 				color2={ 255 255 255 }
 
-				b_barnim = {}
-				b_barnim1 = {}
-				b_barnim2 = {}
-				b_barnim3 = {}
-				b_barnim4 = {}
-				b_barnim5 = {}
-				b_barnim6 = {}
+				b_uckermark = {}
 			}
-			c_markisch_oderland = {
-				color={ 83 94 107 }
-				color2={ 255 255 255 }
-
-				b_markisch_oderland = {}
-				b_markisch_oderland1 = {}
-				b_markisch_oderland2 = {}
-				b_markisch_oderland3 = {}
-				b_markisch_oderland4 = {}
-				b_markisch_oderland5 = {}
-				b_markisch_oderland6 = {}
-			}			
 			c_oder_spree = {
-				color={ 69 85 103 }
+				color={ 0 141 30 }
 				color2={ 255 255 255 }
 
 				b_oder_spree = {}
-				b_oder_spree1 = {}
-				b_oder_spree2 = {}
-				b_oder_spree3 = {}
-				b_oder_spree4 = {}
-				b_oder_spree5 = {}
-				b_oder_spree6 = {}
 			}
-			c_dahme_spreewald = {
-				color={ 50 64 78 }
+			c_teltow_flaming = {
+				color={ 0 141 30 }
 				color2={ 255 255 255 }
 
-				b_dahme_spreewald = {}
-				b_dahme_spreewald1 = {}
-				b_dahme_spreewald2 = {}
-				b_dahme_spreewald3 = {}
-				b_dahme_spreewald4 = {}
-				b_dahme_spreewald5 = {}
-				b_dahme_spreewald6 = {}
+				b_teltow_flaming = {}
 			}
-			c_potsdam_mittelmark = {
-				color={ 78 110 145 }
+			c_havelland = {
+				color={ 0 141 30 }
 				color2={ 255 255 255 }
 
-				b_potsdam_mittelmark = {}
-				b_potsdam_mittelmark1 = {}
-				b_potsdam_mittelmark2 = {}
-				b_potsdam_mittelmark3 = {}
-				b_potsdam_mittelmark4 = {}
-				b_potsdam_mittelmark5 = {}
-				b_potsdam_mittelmark6 = {}
+				b_havelland = {}
 			}
 		}
 		d_berlin = {
@@ -1132,18 +1015,11 @@ e_europa = {
 				b_magdeburg5 = {}
 				b_magdeburg6 = {}
 			}
-			c_dessau = {
-				color={ 76 79 45 }
+			c_harz = {
+				color={ 0 141 30 }
 				color2={ 255 255 255 }
-				
-				b_dessau = {}
-				b_dessaul = {}
-				b_dessau1 = {}
-				b_dessau2 = {}
-				b_dessau3 = {}
-				b_dessau4 = {}
-				b_dessau5 = {}
-				b_dessau6 = {}
+
+				b_harz = {}
 			}
 			c_halle = {
 				color={ 103 106 71 }
@@ -1180,32 +1056,6 @@ e_europa = {
 				b_erfurt5 = {}
 				b_erfurt6 = {}
 			}
-			c_gotha = {
-				color={ 162 81 76 }
-				color2={ 255 255 255 }
-				
-				b_gotha = {}
-				b_gothal = {}
-				b_gotha1 = {}
-				b_gotha2 = {}
-				b_gotha3 = {}
-				b_gotha4 = {}
-				b_gotha5 = {}
-				b_gotha6 = {}
-			}
-			c_meiningen = {
-				color={ 147 63 57 }
-				color2={ 255 255 255 }
-				
-				b_meiningen = {}
-				b_meiningenl = {}
-				b_meiningen1 = {}
-				b_meiningen2 = {}
-				b_meiningen3 = {}
-				b_meiningen4 = {}
-				b_meiningen5 = {}
-				b_meiningen6 = {}
-			}
 			c_weimar = {
 				color={ 118 51 47 }
 				color2={ 255 255 255 }
@@ -1218,6 +1068,12 @@ e_europa = {
 				b_weimar4 = {}
 				b_weimar5 = {}
 				b_weimar6 = {}
+			}
+			c_suhr = {
+				color={ 0 141 30 }
+				color2={ 255 255 255 }
+
+				b_suhr = {}
 			}
 		}
 		d_saxony = {
@@ -1279,6 +1135,18 @@ e_europa = {
 				b_gorlitz4 = {}
 				b_gorlitz5 = {}
 				b_gorlitz6 = {}
+			}
+			c_cottbus = {
+				color={ 0 141 30 }
+				color2={ 255 255 255 }
+
+				b_cottbus = {}
+			}
+			c_chemnitz = {
+				color={ 0 141 30 }
+				color2={ 255 255 255 }
+
+				b_chemnitz = {}
 			}
 		}
 	}
