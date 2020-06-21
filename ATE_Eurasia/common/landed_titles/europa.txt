@@ -352,421 +352,517 @@ e_europa = {
 	k_rhineland = {
 		color = { 0 146 51 }
 		color2 = { 255 255 255 }
-		capital = 152 # Sunnlendingafjordungur
-		
-		culture = rhenish
+
+		capital = 365 #Bonn
 		
 		d_rhine_ruhr = {
 			color={ 135 132 140 }
 			color2={ 255 255 255 }
 			
-			capital = 78
-			
-			culture = rhenish
+			capital = 365 #Bonn
 			
 			c_krefeld = {
 				color={ 168 144 187 }
 				color2={ 255 255 255 }
 
+				b_kleve = {}
 				b_krefeld = {}
+				b_xanten = {}
+				b_viersen = {}
+				b_willich = {}
+				b_goch = {}
+				b_kalkar = {}
 			}
-			
 			c_cologne = {
 				color={ 140 113 161 }
 				color2={ 255 255 255 }
 
+				b_bergheim = {}
 				b_cologne = {}
-				b_cologne1 = {}
-				b_cologne2 = {}
-				b_cologne3 = {}
-				b_cologne4 = {}
-				b_cologne5 = {}
-				b_cologne6 = {}
+				b_monchengladbach = {}
+				b_neuss = {}
+				b_frechen = {}
+				b_hurth = {}
+				b_grevenbroich = {}
 			}
-			
 			c_aachen = {
 				color={ 0 57 45 }
 				color2={ 255 255 255 }
 
+				b_eschweiler = {}
 				b_aachen = {}
-				b_aachen1 = {}
-				b_aachen2 = {}
-				b_aachen3 = {}
-				b_aachen4 = {}
-				b_aachen5 = {}
-				b_aachen6 = {}
+				b_alsdorf = {}
+				b_heinsberg = {}
+				b_duren = {}
+				b_stolberg = {}
+				b_erkelenz = {}
 			}
-			
 			c_bonn = {
-				color={ 8 84 68 }
+				color={ 20 87 51 }
 				color2={ 255 255 255 }
 
+				b_siegburg = {}
 				b_bonn = {}
+				b_euskirchen = {}
+				b_bornheim = {}
+				b_mechernich = {}
+				b_zulpich = {}
+				b_rheinbach = {}
 			}
 			c_ruhr = {
-				color={ 8 84 68 }
+				color={ 49 103 177 }
 				color2={ 255 255 255 }
 
-				b_ruhr = {}
+				b_dortmund = {}
+				b_essen = {}
+				b_duisburg = {}
+				b_bochum = {}
+				b_gelsenkirchen = {}
+				b_oberhausen = {}
+				b_hagen = {}
+				b_hamm = {}
+				b_herne = {}
+				b_mulheim_an_der_ruhr = {}
 			}
 			c_dusseldorf = {
-				color={ 8 84 68 }
+				color={ 145 149 181 }
 				color2={ 255 255 255 }
 
+				b_wuppertal = {}
 				b_dusseldorf = {}
+				b_solingen = {}
+				b_leverkusen = {}
+				b_langenfeld = {}
+				b_ratingen = {}
+				b_mettmann = {}
 			}
 		}
-		
 		d_palatinate = {
 			color={ 55 108 57 }
 			color2={ 255 255 255 }
 			
-			capital = 78
-			
-			culture = rhenish
+			capital = 374 #Mainz
 			
 			c_koblenz = {
-				color={ 168 144 187 }
+				color={ 126 141 59 }
 				color2={ 255 255 255 }
 
+				b_bad_kreuznach = {}
 				b_koblenz = {}
+				b_neuwied = {}
+				b_ahrweiler = {}
+				b_mayen = {}
+				b_birkenfeld = {}
+				b_cochem = {}
 			}
 			
 			c_saarland = {
-				color={ 168 144 187 }
+				color={ 0 32 159 }
 				color2={ 255 255 255 }
 
+				b_homburg = {}
 				b_saarbrucken = {}
-				b_saarbrucken1 = {}
-				b_saarbrucken2 = {}
-				b_saarbrucken3 = {}
-				b_saarbrucken4 = {}
-				b_saarbrucken5 = {}
-				b_saarbrucken6 = {}
+				b_neunkirchen = {}
+				b_volklingen = {}
+				b_sankt_ingbert = {}
+				b_saarlouis = {}
+				b_sankt_wendel = {}
 			}
 			
 			c_mainz = {
-				color={ 168 144 187 }
+				color={ 47 40 125 }
 				color2={ 255 255 255 }
 
+				b_ingelheim_am_rhein = {}
 				b_mainz = {}
-				b_mainz1 = {}
-				b_mainz2 = {}
-				b_mainz3 = {}
-				b_mainz4 = {}
-				b_mainz5 = {}
-				b_mainz6 = {}
+				b_worms = {}
+				b_bingen = {}
+				b_alzey = {}
+				b_osthofen = {}
+				b_westhofen = {}
 			}
 			c_ludwigshafen = {
-				color={ 168 144 187 }
+				color={ 61 54 133 }
 				color2={ 255 255 255 }
 
+				b_kaiserslautern = {}
 				b_ludwigshafen = {}
+				b_speyer = {}
+				b_frankenthal = {}
+				b_neustadt_an_der_weinstrasse = {}
+				b_pirmasens = {}
+				b_zweibrucken = {}
+				b_landau = {}
 			}
 			c_trier = {
-				color={ 168 144 187 }
+				color={ 8 84 68 }
 				color2={ 255 255 255 }
 
+				b_bitburg = {}
 				b_trier = {}
+				b_wittlich = {}
+				b_morbach = {}
+				b_daun = {}
+				b_prum = {}
+				b_saarburg = {}
 			}
 		}
 		d_hesse = {
 			color={ 90 120 100 }
 			color2={ 255 255 255 }
 			
-			capital = 78
-			
-			culture = rhenish
+			capital = 370 #Frankfurt
 			
 			c_wiesbaden = {
-				color={ 89 151 170 }
+				color={ 155 137 135 }
 				color2={ 255 255 255 }
 
+				b_hofheim = {}
 				b_wiesbaden = {}
-				b_wiesbaden1 = {}
-				b_wiesbaden2 = {}
-				b_wiesbaden3 = {}
-				b_wiesbaden4 = {}
-				b_wiesbaden5 = {}
-				b_wiesbaden6 = {}
+				b_bad_homburg_vor_der_hohe = {}
+				b_wetzlar = {}
+				b_limburg_an_der_lahn = {}
+				b_weilburg = {}
+				b_bad_schwalbach = {}
 			}
 			c_frankfurt = {
 				color={ 43 192 218 }
 				color2={ 255 255 255 }
 
+				b_offenbach_am_main = {}
 				b_frankfurt = {}
-				b_frankfurt1 = {}
-				b_frankfurt2 = {}
-				b_frankfurt3 = {}
-				b_frankfurt4 = {}
-				b_frankfurt5 = {}
-				b_frankfurt6 = {}
+				b_hanau = {}
+				b_gelnhausen = {}
+				b_friedberg = {}
+				b_dietzenbach = {}
+				b_schluchtern = {}
 			}
 			c_darmstadt = {
 				color={ 68 116 91 }
 				color2={ 255 255 255 }
 
+				b_bensheim = {}
 				b_darmstadt = {}
-				b_darmstadt1 = {}
-				b_darmstadt2 = {}
-				b_darmstadt3 = {}
-				b_darmstadt4 = {}
-				b_darmstadt5 = {}
-				b_darmstadt6 = {}
+				b_pfungstadt = {}
+				b_gross_gerau = {}
+				b_dieburg = {}
+				b_erbach = {}
+				b_heppenheim = {}
 			}
 			c_westerwald = {
-				color={ 168 144 187 }
+				color={ 89 151 170 }
 				color2={ 255 255 255 }
 
-				b_westerwald = {}
+				b_montabaur = {}
+				b_herborn = {}
+				b_bad_ems = {}
+				b_altenkirchen = {}
+				b_ransbach_baumbach = {}
+				b_bad_marienberg = {}
+				b_rennerod = {}
 			}
 		}
 		d_kassel = {
-			color={ 90 120 100 }
+			color={ 137 150 151 }
 			color2={ 255 255 255 }
 			
-			capital = 78
-			
-			culture = rhenish
+			capital = 368 #Kassel
 			
 			c_kassel = {
-				color={ 168 144 187 }
+				color={ 141 100 96 }
 				color2={ 255 255 255 }
 
+				b_baunatal = {}
 				b_kassel = {}
+				b_bad_hersfeld = {}
+				b_eschwege = {}
+				b_korbach = {}
+				b_bad_wildungen = {}
+				b_rotenburg_an_der_fulda = {}
 			}
 			c_vogelsberg = {
-				color={ 168 144 187 }
+				color={ 184 139 135 }
 				color2={ 255 255 255 }
 
-				b_vogelsberg = {}
+				b_marburg = {}
+				b_giessen = {}
+				b_fulda = {}
+				b_lauterbach = {}
+				b_alsfeld = {}
+				b_biedenkopf = {}
+				b_hunfeld = {}
 			}
 			c_sauerland = {
-				color={ 168 144 187 }
+				color={ 85 210 221 }
 				color2={ 255 255 255 }
 
-				b_sauerland = {}
+				b_meschede = {}
+				b_iserlohn = {}
+				b_arnsberg = {}
+				b_ludenscheid = {}
+				b_olpe = {}
+				b_altena = {}
+				b_bestwig = {}
 			}
 		}
 		d_westfalen = {
 			color={ 86 104 101 }
 			color2={ 255 255 255 }
 			
-			capital = 78
-			
-			culture = rhenish
+			capital = 359 #Bielefeld
 			
 			c_munster = {
 				color={ 126 51 44 }
 				color2={ 255 255 255 }
 
+				b_borken = {}
 				b_munster = {}
-				b_munster1 = {}
-				b_munster2 = {}
-				b_munster3 = {}
-				b_munster4 = {}
-				b_munster5 = {}
-				b_munster6 = {}
+				b_steinfurt = {}
+				b_coesfeld = {}
+				b_emsdetten = {}
+				b_greven = {}
+				b_dulmen = {}
 			}
 			c_bielefeld = {
 				color={ 124 74 69 }
 				color2={ 255 255 255 }
 
-				b_detmold = {}
-				b_detmold1 = {}
-				b_detmold2 = {}
-				b_detmold3 = {}
-				b_detmold4 = {}
-				b_detmold5 = {}
-				b_detmold6 = {}
+				b_gutersloh = {}
+				b_bielefeld = {}
+				b_herford = {}
+				b_warendorf = {}
+				b_rheda_wiedenbruck = {}
+				b_oelde = {}
+				b_beckum = {}
 			}
 			c_paderborn = {
-				color={ 168 144 187 }
+				color={ 84 142 159 }
 				color2={ 255 255 255 }
 
+				b_delbruck = {}
 				b_paderborn = {}
+				b_hoxter = {}
+				b_lippstadt = {}
+				b_soest = {}
+				b_werl = {}
+				b_buren = {}
 			}
 		}
 	}
 	k_lower_saxony = {
 		color = { 255 207 0 }
 		color2 = { 255 255 255 }
-		capital = 152 # Sunnlendingafjordungur
-		
-		culture = rhenish
+
+		capital = 352 #Hannover
 		
 		d_oldenburg = {
 			color={ 119 105 96 }
 			color2={ 255 255 255 }
 			
-			capital = 78
-			
-			culture = rhenish
+			capital = 347 #Oldenburg
 			
 			c_oldenburg = {
-				color={ 42 45 43 }
+				color={ 34 35 123 }
 				color2={ 255 255 255 }
 
+				b_delmenhorst = {}
 				b_oldenburg = {}
-				b_oldenburg1 = {}
-				b_oldenburg2 = {}
-				b_oldenburg3 = {}
-				b_oldenburg4 = {}
-				b_oldenburg5 = {}
-				b_oldenburg6 = {}
+				b_wildeshausen = {}
+				b_brake = {}
+				b_nordenham = {}
+				b_wardenburg = {}
+				b_rastede = {}
 			}
 			c_emsland = {
 				color={ 84 48 171 }
 				color2={ 255 255 255 }
 
+				b_meppen = {}
 				b_lingen = {}
-				b_lingen1 = {}
-				b_lingen2 = {}
-				b_lingen3 = {}
-				b_lingen4 = {}
-				b_lingen5 = {}
-				b_lingen6 = {}
+				b_nordhorn = {}
+				b_papenburg = {}
+				b_haren = {}
+				b_bad_bentheim = {}
+				b_haselunne = {}
 			}
 			c_east_frisia = {
-				color={ 217 195 62 }
+				color={ 42 45 43 }
 				color2={ 255 255 255 }
 
-				b_east_frisia = {}
+				b_emden = {}
+				b_wilhemshaven = {}
+				b_aurich = {}
+				b_leer = {}
+				b_norden = {}
+				b_wittmund = {}
+				b_jever = {}
 			}
 			c_ammerland = {
-				color={ 168 144 187 }
+				color={ 0 3 225 }
 				color2={ 255 255 255 }
 
-				b_ammerland = {}
+				b_westerstede = {}
+				b_cloppenburg = {}
+				b_bad_zwischenahn = {}
+				b_friesoythe = {}
+				b_loningen = {}
+				b_apen = {}
+				b_quackenbruck = {}
 			}
 			c_osnabruck = {
-				color={ 168 144 187 }
+				color={ 78 107 161 }
 				color2={ 255 255 255 }
 
+				b_melle = {}
 				b_osnabruck = {}
+				b_minden = {}
+				b_vechta = {}
+				b_bramsche = {}
+				b_georgsmarienhutte = {}
+				b_bad_oeynhausen = {}
 			}
 		}
 		d_bremen = {
 			color={ 107 122 109 }
 			color2={ 255 255 255 }
 			
-			capital = 78
-			
-			culture = rhenish
+			capital = 348 #Bremen
 			
 			c_bremen = {
-				color={ 0 3 225 }
+				color={ 127 165 44 }
 				color2={ 255 255 255 }
 
 				b_bremen = {}
-				b_bremen1 = {}
-				b_bremen2 = {}
-				b_bremen3 = {}
-				b_bremen4 = {}
-				b_bremen5 = {}
-				b_bremen6 = {}
+				b_bremerhaven = {}
+				b_verden = {}
+				b_cuxhaven = {}
+				b_osterholz_scharmbeck = {}
+				b_achim = {}
+				b_geestland = {}
 			}
-			c_heidekreis = {
-				color={ 168 144 187 }
+			c_celle = {
+				color={ 133 169 122 }
 				color2={ 255 255 255 }
 
-				b_heidekreis = {}
+				b_bad_fallingbostel = {}
+				b_celle = {}
+				b_walsrode = {}
+				b_rotenburg_an_der_wumme = {}
+				b_schneverdingen = {}
+				b_soltau = {}
+				b_bremervorde = {}
 			}
 			c_luneburg = {
-				color={ 168 144 187 }
+				color={ 22 47 94 }
 				color2={ 255 255 255 }
 
+				b_uelzen = {}
 				b_luneburg = {}
+				b_bleckede = {}
+				b_luchow = {}
+				b_bienenbuttel = {}
+				b_dannenberg = {}
+				b_amt_neuhaus = {}
+				b_adendorf = {}
 			}
 		}
 		d_hannover = {
 			color={ 107 142 104 }
 			color2={ 255 255 255 }
 			
-			capital = 78
-			
-			culture = rhenish
+			capital = 352 #Hannover
 			
 			c_weser = {
 				color={ 16 173 90 }
 				color2={ 255 255 255 }
 
+				b_diepholz = {}
 				b_nienburg = {}
-				b_nienburg1 = {}
-				b_nienburg2 = {}
-				b_nienburg3 = {}
-				b_nienburg4 = {}
-				b_nienburg5 = {}
-				b_nienburg6 = {}
+				b_rehburg_loccum = {}
+				b_sulingen = {}
+				b_twistringen = {}
+				b_bassum = {}
+				b_syke = {}
 			}
 			c_hannover = {
+				color={ 126 135 29 }
+				color2={ 255 255 255 }
+
+				b_garbsen = {}
+				b_hannover = {}
+				b_langenhagen = {}
+				b_wunstorf = {}
+				b_laatzen = {}
+				b_lehrte = {}
+				b_barsinghausen = {}
+			}
+			c_brunswick = {
+				color={ 111 118 38 }
+				color2={ 255 255 255 }
+
+				b_wolfsburg = {}
+				b_braunschweig = {}
+				b_wolfenbuttel = {}
+				b_salzgitter = {}
+				b_hildesheim = {}
+				b_gifhorn = {}
+				b_helmstedt = {}
+				b_peine = {}
+			}
+			c_schaumburg_lippe = {
+				color={ 112 113 23 }
+				color2={ 255 255 255 }
+
+				b_hameln = {}
+				b_detmold = {}
+				b_bad_salzuflen = {}
+				b_stadthagen = {}
+				b_holzminden = {}
+				b_horn_bad_meinberg = {}
+				b_oerlinghausen = {}
+			}
+			c_gottingen = {
 				color={ 58 142 98 }
 				color2={ 255 255 255 }
 
-				b_hanover = {}
-				b_hanover1 = {}
-				b_hanover2 = {}
-				b_hanover3 = {}
-				b_hanover4 = {}
-				b_hanover5 = {}
-				b_hanover6 = {}
-			}
-			c_brunswick = {
-				color={ 91 131 87 }
-				color2={ 255 255 255 }
-
-				b_brunswick = {}
-				b_brunswick1 = {}
-				b_brunswick2 = {}
-				b_brunswick3 = {}
-				b_brunswick4 = {}
-				b_brunswick5 = {}
-				b_brunswick6 = {}
-			}
-			c_schaumburg_lippe = {
-				color={ 168 144 187 }
-				color2={ 255 255 255 }
-
-				b_schaumburg_lippe = {}
-			}
-			c_gottingen = {
-				color={ 168 144 187 }
-				color2={ 255 255 255 }
-
+				b_goslar = {}
 				b_gottingen = {}
+				b_northeim = {}
+				b_einbeck = {}
+				b_seesen = {}
+				b_bovenden = {}
+				b_rosdorf = {}
 			}
 		}
 		d_hansa = {
 			color={ 140 140 126 }
 			color2={ 255 255 255 }
 			
-			capital = 78
-			
-			culture = rhenish
+			capital = 349 #Hamburg
 			
 			c_hamburg = {
 				color={ 42 144 158 }
 				color2={ 255 255 255 }
 
+				b_harburg = {}
 				b_hamburg = {}
-				b_hamburg1 = {}
-				b_hamburg2 = {}
-				b_hamburg3 = {}
-				b_hamburg4 = {}
-				b_hamburg5 = {}
-				b_hamburg6 = {}
+				b_stade = {}
+				b_altona = {}
+				b_winsen = {}
+				b_wandsbek = {}
+				b_buxtehude = {}
 			}
 			c_lubeck = {
 				color={ 84 147 31 }
 				color2={ 255 255 255 }
 
+				b_bad_schwartau = {}
 				b_lubeck = {}
-				b_lubeck1 = {}
-				b_lubeck2 = {}
-				b_lubeck3 = {}
-				b_lubeck4 = {}
-				b_lubeck5 = {}
-				b_lubeck6 = {}
+				b_ratzeburg = {}
+				b_bad_odesloe = {}
+				b_bad_segeberg = {}
+				b_molln = {}
+				b_eutin = {}
 			}
 		}
 		
@@ -774,381 +870,418 @@ e_europa = {
 			color={ 15 71 175 }
 			color2={ 255 255 255 }
 			
-			capital = 78
-			
-			culture = rhenish
+			capital = 381 #Kiel
 			
 			c_dithmarschen = {
-				color={ 127 165 44 }
-				color2={ 255 255 255 }
-
-				b_dithmarschen = {}
-				b_dithmarschen1 = {}
-				b_dithmarschen2 = {}
-				b_dithmarschen3 = {}
-				b_dithmarschen4 = {}
-				b_dithmarschen5 = {}
-				b_dithmarschen6 = {}
-			}
-			c_schleswig = {
 				color={ 168 153 32 }
 				color2={ 255 255 255 }
 
+				b_heide = {}
+				b_itzehoe = {}
+				b_pinneberg = {}
+				b_gluckstadt = {}
+				b_brunsbuttel = {}
+				b_uetersen = {}
+				b_schenefeld = {}
+			}
+			c_schleswig = {
+				color={ 185 122 87 }
+				color2={ 255 255 255 }
+
 				b_schleswig = {}
-				b_schleswig1 = {}
-				b_schleswig2 = {}
-				b_schleswig3 = {}
-				b_schleswig4 = {}
-				b_schleswig5 = {}
-				b_schleswig6 = {}
+				b_flensburg = {}
+				b_husum = {}
+				b_handewitt = {}
+				b_harrislee = {}
+				b_tonning = {}
+				b_friedrichstadt = {}
 			}
 			c_kiel = {
 				color={ 126 150 159 }
 				color2={ 255 255 255 }
 
-				b_holstein = {}
-				b_holstein1 = {}
-				b_holstein2 = {}
-				b_holstein3 = {}
-				b_holstein4 = {}
-				b_holstein5 = {}
-				b_holstein6 = {}
+				b_neumunster = {}
+				b_kiel = {}
+				b_rendsburg = {}
+				b_schwentinental = {}
+				b_eckernforde = {}
+				b_kronshagen = {}
+				b_plon = {}
 			}
 		}
 	}
 	k_ostmark = {
 		color = { 110 94 61 }
 		color2 = { 255 255 255 }
-		capital = 152 # Sunnlendingafjordungur
+
+		capital = 412 #Berlin
 		
-		culture = rhenish
-		
-		d_mecklenburg = {
+		d_mecklenburg_vorpommern = {
 			color={ 8 8 8 }
 			color2={ 255 255 255 }
 			
-			capital = 78
-			
-			culture = rhenish
+			capital = 392 #Schwerin
 			
 			c_schwerin = {
 				color={ 0 141 30 }
 				color2={ 255 255 255 }
 
-				b_mecklenburg = {}
-				b_mecklenburg1 = {}
-				b_mecklenburg2 = {}
-				b_mecklenburg3 = {}
-				b_mecklenburg4 = {}
-				b_mecklenburg5 = {}
-				b_mecklenburg6 = {}
+				b_ludwigslust = {}
+				b_schwerin = {}
+				b_parchim = {}
+				b_hagenow = {}
+				b_boizenburg = {}
+				b_lubtheen = {}
+				b_crivitz = {}
 			}
 			c_rostock = {
 				color={ 43 133 62 }
 				color2={ 255 255 255 }
 
+				b_gustrow = {}
 				b_rostock = {}
-				b_rostock1 = {}
-				b_rostock2 = {}
-				b_rostock3 = {}
-				b_rostock4 = {}
-				b_rostock5 = {}
-				b_rostock6 = {}
+				b_bad_doberan = {}
+				b_kuhlungsborn = {}
+				b_kropelin = {}
+				b_teterow = {}
+				b_neubukow = {}
 			}
 			c_muritz = {
 				color={ 84 69 181 }
 				color2={ 255 255 255 }
 
-				b_mechlenburgische_seenplatte = {}
-				b_mechlenburgische_seenplatte1 = {}
-				b_mechlenburgische_seenplatte2 = {}
-				b_mechlenburgische_seenplatte3 = {}
-				b_mechlenburgische_seenplatte4 = {}
-				b_mechlenburgische_seenplatte5 = {}
-				b_mechlenburgische_seenplatte6 = {}
+				b_neustrelitz = {}
+				b_neubrandenburg = {}
+				b_demmin = {}
+				b_waren = {}
+				b_dargun = {}
+				b_woldegk = {}
+				b_stavenhagen = {}
 			}
 			c_wismar = {
-				color={ 0 141 30 }
+				color={ 84 147 31 }
 				color2={ 255 255 255 }
 
+				b_grevesmuhlen = {}
 				b_wismar = {}
+				b_poel = {}
+				b_gadebusch = {}
+				b_neukloster = {}
+				b_klutz = {}
+				b_boltenhagen = {}
 			}
-		}
-		d_vorpommern = {
-			color={ 8 8 8 }
-			color2={ 255 255 255 }
-			
-			capital = 78
-			
-			culture = rhenish
-			
-			c_stralsund = {
+			c_stralsund_rugen = {
 				color={ 42 66 53 }
 				color2={ 255 255 255 }
 
+				b_sassnitz = {}
 				b_stralsund = {}
-				b_stralsund1 = {}
-				b_stralsund2 = {}
-				b_stralsund3 = {}
-				b_stralsund4 = {}
-				b_stralsund5 = {}
-				b_stralsund6 = {}
+				b_grimmen = {}
+				b_binz = {}
+				b_zingst = {}
+				b_marlow = {}
+				b_putbus = {}
+				b_suderholz = {}
 			}
-			c_rugen = {
-				color={ 168 60 52 }
-				color2={ 255 255 255 }
-
-				b_rugen = {}
-				b_rugen1 = {}
-				b_rugen2 = {}
-				b_rugen3 = {}
-				b_rugen4 = {}
-				b_rugen5 = {}
-				b_rugen6 = {}
-			}
-			c_vorpommern_greifswald = {
+			c_greifswald = {
 				color={ 126 72 54 }
 				color2={ 255 255 255 }
 
-				b_vorpommern_greifswald = {}
-				b_vorpommern_greifswald1 = {}
-				b_vorpommern_greifswald2 = {}
-				b_vorpommern_greifswald3 = {}
-				b_vorpommern_greifswald4 = {}
-				b_vorpommern_greifswald5 = {}
-				b_vorpommern_greifswald6 = {}
+				b_wolgast = {}
+				b_greifswald = {}
+				b_anklam = {}
+				b_ueckermunde = {}
+				b_pasewalk = {}
+				b_heringsdorf = {}
+				b_zinnowitz = {}
 			}
 		}
-		
 		d_brandenburg = {
-			color={ 143 68 86 }
+			color={ 100 90 105 }
 			color2={ 255 255 255 }
 			
-			capital = 78
-			
-			culture = rhenish
+			capital = 409 #Havelland
 			
 			c_prignitz = {
-				color={ 0 141 30 }
+				color={ 153 161 170 }
 				color2={ 255 255 255 }
 
-				b_prignitz = {}
+				b_perleberg = {}
+				b_neuruppin = {}
+				b_wittenberge = {}
+				b_wittstock = {}
+				b_pritzwalk = {}
+				b_fehrbellin = {}
+				b_wusterhausen = {}
 			}
 			c_uckermark = {
-				color={ 0 141 30 }
+				color={ 131 141 152 }
 				color2={ 255 255 255 }
 
-				b_uckermark = {}
+				b_prenzlau = {}
+				b_oranienberg = {}
+				b_eberswalde = {}
+				b_bernau_bei_berlin = {}
+				b_schwedt = {}
+				b_hohen_neuendorf = {}
+				b_templin = {}
 			}
 			c_oder_spree = {
-				color={ 0 141 30 }
+				color={ 83 94 107 }
 				color2={ 255 255 255 }
 
-				b_oder_spree = {}
+				b_eisenhuttenstadt = {}
+				b_frankfurt_an_der_oder = {}
+				b_strausberg = {}
+				b_lubben = {}
+				b_erkner = {}
+				b_beeskow = {}
+				b_seelow = {}
 			}
 			c_teltow_flaming = {
-				color={ 0 141 30 }
+				color={ 69 85 103 }
 				color2={ 255 255 255 }
 
-				b_teltow_flaming = {}
+				b_zossen = {}
+				b_luckenwalde = {}
+				b_mittenwalde = {}
+				b_luckau = {}
+				b_trebbin = {}
+				b_juterbog = {}
+				b_ludwigsfelde = {}
 			}
 			c_havelland = {
-				color={ 0 141 30 }
+				color={ 50 64 78 }
 				color2={ 255 255 255 }
 
-				b_havelland = {}
+				b_rathenow = {}
+				b_brandenburg_an_der_havel = {}
+				b_falkensee = {}
+				b_bad_belzig = {}
+				b_nauen = {}
+				b_werder = {}
+				b_beelitz = {}
 			}
 		}
 		d_berlin = {
-			color={ 130 50 70 }
+			color={ 240 250 140 }
 			color2={ 255 255 255 }
 			
-			capital = 78
-			
-			culture = rhenish
+			capital = 412 #Berlin
 			
 			c_berlin = {
 				color={ 255 245 104 }
 				color2={ 255 255 255 }
 				
+				b_pankow = {}
 				b_berlin = {}
-				b_berlinl = {}
-				b_berlin1 = {}
-				b_berlin2 = {}
-				b_berlin3 = {}
-				b_berlin4 = {}
-				b_berlin5 = {}
-				b_berlin6 = {}
+				b_potsdam = {}
+				b_spandau = {}
+				b_tempelhof_schoneberg = {}
+				b_charlottenburg_wilmersdorf = {}
+				b_neukolln = {}
+				b_steglitz_zehlendorf = {}
+				b_friedrichshain_kreuzberg = {}
+				b_lichtenberg = {}
+				b_marzahn_hellersdorf = {}
+				b_treptow_kopenick = {}
+				b_reinickendorf = {}
 			}
 		}
 		d_saxony_anhalt = {
-			color={ 154 164 168 }
+			color={ 120 80 50 }
 			color2={ 255 255 255 }
 			
-			capital = 78
-			
-			culture = rhenish
+			capital = 362 #Magdeburg
 			
 			c_altmark = {
-				color={ 111 118 38 }
+				color={ 117 130 135 }
 				color2={ 255 255 255 }
 				
-				b_stendan = {}
-				b_stendanl = {}
-				b_stendan1 = {}
-				b_stendan2 = {}
-				b_stendan3 = {}
-				b_stendan4 = {}
-				b_stendan5 = {}
-				b_stendan6 = {}
+				b_salzwedel = {}
+				b_stendal = {}
+				b_gardelegen = {}
+				b_tangerhutte = {}
+				b_klotze = {}
+				b_tangermunde = {}
+				b_havelberg = {}
 			}
 			c_magdeburg = {
-				color={ 84 89 32 }
+				color={ 190 134 50 }
 				color2={ 255 255 255 }
 				
+				b_haldensleben = {}
 				b_magdeburg = {}
-				b_magdeburgl = {}
-				b_magdeburg1 = {}
-				b_magdeburg2 = {}
-				b_magdeburg3 = {}
-				b_magdeburg4 = {}
-				b_magdeburg5 = {}
-				b_magdeburg6 = {}
+				b_oschersleben = {}
+				b_wanzleben_borde = {}
+				b_oebisfelde_weferlingen = {}
+				b_wolmirstedt = {}
+				b_flechtingen = {}
 			}
 			c_harz = {
-				color={ 0 141 30 }
+				color={ 84 89 32 }
 				color2={ 255 255 255 }
 
-				b_harz = {}
+				b_falkenstein = {}
+				b_quedlinburg = {}
+				b_halberstadt = {}
+				b_bernburg = {}
+				b_sangerhausen = {}
+				b_eisleben = {}
+				b_wernigerode = {}
 			}
 			c_halle = {
-				color={ 103 106 71 }
+				color={ 76 79 45 }
 				color2={ 255 255 255 }
 				
+				b_dessau = {}
 				b_halle = {}
-				b_hallel = {}
-				b_halle1 = {}
-				b_halle2 = {}
-				b_halle3 = {}
-				b_halle4 = {}
-				b_halle5 = {}
-				b_halle6 = {}
+				b_bitterfeld_wolfen = {}
+				b_merseburg = {}
+				b_naumburg = {}
+				b_kothen = {}
+				b_lutzen = {}
+			}
+			c_wittenberg = {
+				color={ 168 60 52 }
+				color2={ 255 255 255 }
+				
+				b_zerbst = {}
+				b_lutherstadt_wittenberg = {}
+				b_rosslau = {}
+				b_coswig = {}
+				b_jessen = {}
+				b_mockern = {}
+				b_zahna_elster = {}
 			}
 		}
 		d_thuringia = {
 			color={ 138 43 35 }
 			color2={ 255 255 255 }
 			
-			capital = 78
-			
-			culture = rhenish
+			capital = 399 #Erfurt
 			
 			c_erfurt = {
 				color={ 139 64 59 }
 				color2={ 255 255 255 }
 				
+				b_gotha = {}
 				b_erfurt = {}
-				b_erfurtl = {}
-				b_erfurt1 = {}
-				b_erfurt2 = {}
-				b_erfurt3 = {}
-				b_erfurt4 = {}
-				b_erfurt5 = {}
-				b_erfurt6 = {}
+				b_muhlhausen = {}
+				b_heilbad_heiligenstadt = {}
+				b_sondershausen = {}
+				b_sommerda = {}
+				b_nordhausen = {}
+				b_bleicherode = {}
 			}
 			c_weimar = {
 				color={ 118 51 47 }
 				color2={ 255 255 255 }
 				
+				b_jena = {}
 				b_weimar = {}
-				b_weimarl = {}
-				b_weimar1 = {}
-				b_weimar2 = {}
-				b_weimar3 = {}
-				b_weimar4 = {}
-				b_weimar5 = {}
-				b_weimar6 = {}
+				b_gera = {}
+				b_apolda = {}
+				b_greiz = {}
+				b_eisenberg = {}
+				b_saalfeld = {}
+				b_rudolstadt = {}
 			}
-			c_suhr = {
-				color={ 0 141 30 }
+			c_eisenach = {
+				color={ 162 81 76 }
 				color2={ 255 255 255 }
 
-				b_suhr = {}
+				b_eisenach = {}
+				b_suhl = {}
+				b_meiningen = {}
+				b_sonneburg = {}
+				b_bad_salzungen = {}
+				b_schmalkalden = {}
+				b_hildburghausen = {}
+				b_wartburg = {}
 			}
 		}
 		d_saxony = {
-			color={ 100 123 132 }
+			color={ 190 200 140 }
 			color2={ 255 255 255 }
 			
-			capital = 78
-			
-			culture = rhenish
+			capital = 407 #Leipzig
 			
 			c_leipzig = {
 				color={ 83 99 105 }
 				color2={ 255 255 255 }
 				
+				b_torgau = {}
 				b_leipzig = {}
-				b_leipzigl = {}
-				b_leipzig1 = {}
-				b_leipzig2 = {}
-				b_leipzig3 = {}
-				b_leipzig4 = {}
-				b_leipzig5 = {}
-				b_leipzig6 = {}
+				b_borna = {}
+				b_grimma = {}
+				b_schkeuditz = {}
+				b_taucha = {}
+				b_oschatz = {}
+				b_delitzsch = {}
 			}
 			c_erzgebirge = {
-				color={ 81 113 127 }
+				color={ 195 209 209 }
 				color2={ 255 255 255 }
 				
-				b_chemnitz = {}
-				b_chemnitzl = {}
-				b_chemnitz1 = {}
-				b_chemnitz2 = {}
-				b_chemnitz3 = {}
-				b_chemnitz4 = {}
-				b_chemnitz5 = {}
-				b_chemnitz6 = {}
+				b_annaberg_buchholz = {}
+				b_zwickau = {}
+				b_plauen = {}
+				b_reichenbach_im_vogtland = {}
+				b_aue = {}
+				b_schwarzenberg = {}
+				b_glauchau = {}
+				b_crimmitschau = {}
 			}
 			c_dresden = {
 				color={ 102 131 143 }
 				color2={ 255 255 255 }
 				
+				b_freital = {}
 				b_dresden = {}
-				b_dresdenl = {}
-				b_dresden1 = {}
-				b_dresden2 = {}
-				b_dresden3 = {}
-				b_dresden4 = {}
-				b_dresden5 = {}
-				b_dresden6 = {}
+				b_meissen = {}
+				b_pirna = {}
+				b_dippoldiswalde = {}
+				b_grossenhain = {}
+				b_radebeul = {}
 			}
 			c_gorlitz = {
-				color={ 169 189 77 }
+				color={ 255 207 0 }
 				color2={ 255 255 255 }
 				
+				b_bautzen = {}
 				b_gorlitz = {}
-				b_gorlitzl = {}
-				b_gorlitz1 = {}
-				b_gorlitz2 = {}
-				b_gorlitz3 = {}
-				b_gorlitz4 = {}
-				b_gorlitz5 = {}
-				b_gorlitz6 = {}
+				b_zittau = {}
+				b_hoyerswerda = {}
+				b_lobau = {}
+				b_kamenz = {}
+				b_niesky = {}
+				b_weisswasser = {}
 			}
-			c_cottbus = {
-				color={ 0 141 30 }
+			c_lausitz = {
+				color={ 169 189 77 }
 				color2={ 255 255 255 }
 
+				b_senftenberg = {}
 				b_cottbus = {}
+				b_forst = {}
+				b_spremberg = {}
+				b_finsterwalde = {}
+				b_herzberg = {}
+				b_calau = {}
 			}
 			c_chemnitz = {
-				color={ 0 141 30 }
+				color={ 128 142 148 }
 				color2={ 255 255 255 }
 
+				b_freiberg = {}
 				b_chemnitz = {}
+				b_dobeln = {}
+				b_frankenberg = {}
+				b_mittweida = {}
+				b_floha = {}
+				b_brand_erbisdorf = {}
 			}
 		}
 	}
 }
-
