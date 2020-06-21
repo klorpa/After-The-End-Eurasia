@@ -158,3 +158,226 @@ character_event = {
 		}
 	}
 }
+
+#automatic feudal->pirate
+character_event = {
+	id = gov.006
+	hide_window = yes
+	
+	trigger = {
+		liege = { government = pirate_government }
+		government = feudal_government
+		capital_holding_shipyard_trigger = yes
+	}
+	
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		set_government_type = pirate_government
+	}
+}
+
+#automatic pirate->feudal
+character_event = {
+	id = gov.007
+	hide_window = yes
+	
+	trigger = {
+		liege = { government = feudal_government }
+		government = pirate_government
+	}
+	
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		set_government_type = feudal_government
+	}
+}
+
+#automatic iqta->pirate
+character_event = {
+	id = gov.008
+	hide_window = yes
+	
+	trigger = {
+		liege = { government = pirate_government }
+		government = muslim_government
+		capital_holding_shipyard_trigger = yes
+	}
+	
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		set_government_type = pirate_government
+	}
+}
+
+#automatic pirate->iqta
+character_event = {
+	id = gov.009
+	hide_window = yes
+	
+	trigger = {
+		liege = { government = muslim_government }
+		government = pirate_government
+	}
+	
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		set_government_type = muslim_government
+	}
+}
+
+#Fate of FROM
+character_event = {
+	id = gov.010
+	title = EVTgov.010
+	desc = EVTDESCgov.010
+	picture = GFX_evt_prisoner_hf
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+
+	option = { #Castrate
+		name = EVTOPTAgov.010
+		trigger = {
+			FROM = {
+				is_female = no
+				NOT = { trait = eunuch }
+			}
+		}
+		FROM = {
+			add_trait = eunuch
+			if = {
+				limit = { 
+					has_game_rule = {
+						name = punishment_release_prisoner
+						value = on
+					}
+				}
+				prisoner = no
+			}
+		}
+	}
+	option = { #Blind
+		name = EVTOPTBgov.010
+		trigger = {
+			FROM = { NOT = { trait = blinded } }
+		}
+		FROM = {
+			if = {
+				limit = {
+					trait = one_eyed
+				}
+				remove_trait = one_eyed
+			}
+			add_trait = blinded
+			if = {
+				limit = { 
+					has_game_rule = {
+						name = punishment_release_prisoner
+						value = on
+					}
+				}
+				prisoner = no
+			}
+		}
+	}
+	option = { #Mutilate
+		name = EVTOPTCgov.010
+		trigger = {
+			NAND = {
+				OR = {
+					trait = one_eyed
+					trait = blinded
+				}
+				trait = one_handed
+				trait = one_legged
+				trait = disfigured
+			}
+		}
+		FROM = {
+			random_list = {
+				10 = {
+					modifier = {
+						factor = 0
+						trait = one_eyed
+					}
+					add_trait = one_eyed
+				}
+				10 = {
+					modifier = {
+						factor = 0
+						trait = one_handed
+					}
+					add_trait = one_handed
+				}
+				10 = {
+					modifier = {
+						factor = 0
+						trait = one_legged
+					}
+					add_trait = one_legged
+				}
+				10 = {
+					modifier = {
+						factor = 0
+						trait = disfigured
+					}
+					add_trait = disfigured
+				}
+			}
+			jailor_mutilate_effect = yes
+			if = {
+				limit = { 
+					has_game_rule = {
+						name = punishment_release_prisoner
+						value = on
+					}
+				}
+				prisoner = no
+			}
+		}
+	}
+	option = { #Humiliate
+		name = EVTOPTDgov.010
+		trigger = {
+		}
+		FROM = {
+			jailor_humiliation_effect = yes
+			if = {
+				limit = { 
+					has_game_rule = {
+						name = punishment_release_prisoner
+						value = on
+					}
+				}
+				prisoner = no
+			}
+		}
+	}
+	
+	after = {
+		prestige = 100
+		FROM = { prestige = -500 }
+		if = {
+			limit = { NOT = { trait = cruel } }
+			custom_tooltip = {
+				text = cruel_imprisoner_trait_chance_TT
+				random = {
+					chance = 25
+					add_trait = cruel
+				}
+			}
+		}
+		piety = -10
+		FROM = {
+			clr_character_flag = fate_being_decided
+			opinion = {
+				modifier = opinion_decided_fate
+				who = ROOT
+			}
+		}
+	}
+}

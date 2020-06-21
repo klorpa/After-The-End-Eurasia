@@ -14,3 +14,11 @@ government_flavor = {
 		government = bureaucratic_government
 	}
 }
+government_flavor = {
+	name = gov_pirate
+	graphics = GFX_evt_ship_voyage_hf
+	priority = 5
+	trigger = {
+		government = pirate_government
+	}
+}
