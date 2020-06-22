@@ -1,26 +1,19 @@
-# 305 - c_allgau
-
 # County Title
-title = c_allgau
+title=c_allgau
 
 # Settlements
-max_settlements = 3
-b_allgau = castle
-b_allgau1 = city
-b_allgau2 = temple
-
-#b_allgau3 = castle
-#b_allgau4 = city
-#b_allgau5 = castle
-#b_allgau6 = castle
+max_settlements=5
+b_landsberg_am_lech=castle
+b_kempten=city
+b_memmingen=temple
+b_lindau=castle
 
 # Misc
-culture = swabian
-religion = catholic
+culture=swabian
+religion=catholic
 
 # History
-
 1869.9.5 = {
-	build_wonder = wonder_palace_neuschwanstein
-	set_wonder_stage = 3
+	build_wonder=wonder_palace_neuschwanstein
+	set_wonder_stage=3
 }
