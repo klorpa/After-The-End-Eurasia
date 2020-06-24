@@ -7,6 +7,224 @@ e_italy = {
 	
 	culture = italian
 	
+	k_centro = {
+		color={ 215 141 152 }
+		color2={ 255 255 255 }
+		
+		capital = 334 # Napoli
+		
+		d_lazio = {
+			color={ 254 245 160 }
+			color2={ 255 255 255 }
+			
+			capital = 333 # Rome
+			
+			christian = 750 # Crusade target weight
+			
+			c_latina = {
+				color={ 74 142 103 }
+				color2={ 255 255 255 }
+				
+				b_latina = {}
+				b_frosinone = {}
+				b_terracina={}
+				b_aprilia = {}
+				b_formia = {}
+				b_cassino = {}
+				b_alatri = {}
+			}
+			c_roma = {
+				color={ 134 155 146 }
+				color2={ 255 255 255 }
+				
+				b_vatican = {}
+				b_guidonia = {}
+				b_fiumicino = {}
+				b_tivoli = {}
+				b_anzio = {}
+				b_velletri = {}
+				b_civitavecchia = {}
+			}
+		}
+	}
+	k_naples = {
+		color = { 218 217 242 }
+		
+		capital = 334 # Napoli
+		
+		d_calabria = {
+			color={ 2 78 163 }
+			color2={ 255 255 255 }
+			
+			c_calabria = {
+				color={ 0 147 68 }
+				color2={ 255 255 255 }
+				
+				b_reggio_calabria = {}
+				b_catanzaro = {}
+				b_vibo_valentia = {}
+				b_lamezia_terme = {}
+				b_vibo_valentia = {}
+				b_palmi = {}
+				b_amato = {}
+			}
+			c_cosenza = {
+				color={ 0 147 68 }
+				color2={ 255 255 255 }
+				
+				b_corigliano_rossano = {}
+				b_cosenza = {}
+				b_crotone = {}
+				b_castrovillari = {}
+				b_montalto_uffugo = {}
+				b_san_giovanni_in_fiore = {}
+				b_isola_di_capo_rizzuto = {}
+			}
+		}
+		d_apulia = {
+			color={ 167 172 63 }
+			color2={ 255 255 255 }
+			
+			capital = 347 # Apulia
+			
+			c_foggia = {
+				color={ 53 116 63 }
+				color2={ 255 255 255 }
+				
+				b_foggia = {}
+				b_san_giovanni_rotondo = {}
+				b_san_severo = {}
+				b_manfredonia = {}
+				b_vieste = {}
+				b_lucera = {}
+				b_cerignola = {}
+			}
+			c_bari = {
+				color={ 53 116 63 }
+				color2={ 255 255 255 }
+				
+				b_bari = {}
+				b_trani = {}
+				b_monopoli = {}
+				b_andria = {}
+				b_bisceglie = {}
+				b_altamura = {}
+				b_gravina_in_puglia = {}
+			}
+			c_salento = {
+				color={ 49 150 95 }
+				color2={ 255 255 255 }
+				
+				b_taranto = {}
+				b_lecce = {}
+				b_brindisi = {}
+				b_otranto = {}
+				b_gallipoli_it = {}
+				b_altamura = {}
+				b_ostuni = {}
+			}
+			c_basilicata = {
+				color={ 47 121 81 }
+				color2={ 255 255 255 }
+				
+				b_potenza = {}
+				b_matera = {}
+				b_policoro = {}
+				b_pisticci = {}
+				b_bernalda = {}
+				b_montescaglioso = {}
+				b_anzi = {}
+			}
+		}
+		d_campania = {
+			color = { 240 209 100 }
+			color2={ 255 255 255 }
+			
+			capital = 851 # Capua
+			
+			capital = 347 # Apulia
+			
+			c_napoli = {
+				color={ 53 116 63 }
+				color2={ 255 255 255 }
+				
+				b_caserta = {}
+				b_nola = {}
+				b_napoli = {}
+				b_giugliano_in_campania = {}
+				b_torre_del_greco = {}
+				b_pozzuoli = {}
+				b_casoria = {}
+			}
+			c_benevento = {
+				color={ 32 101 43 }
+				color2={ 255 255 255 }
+				
+				b_benevento = {}
+				b_ariano_irpino = {}
+				b_avellino = {}
+				b_montesarchio = {}
+				b_sant_agata_de_goti = {}
+				b_san_marco_dei_cavoti = {}
+				b_apice = {}
+			}
+			c_salerno = {
+				color={ 27 138 45 }
+				color2={ 255 255 255 }
+				
+				b_salerno = {}
+				b_cava_de_tirreni = {}
+				b_battipaglia = {}
+				b_nocera_inferiore = {}
+				b_amalfi = {}
+				b_vietri_sul_mare = {}
+				b_cetara = {}
+			}
+		}
+		d_abruzzo = {
+			color={ 210 168 190 }
+			color2={ 255 255 255 }
+
+			capital = 929 # Teramo
+			
+			c_molise = {
+				color={ 51 124 41 }
+				color2={ 255 255 255 }
+				
+				b_campobasso = {}
+				b_termoli = {}
+				b_isernia = {}
+				b_campomarino = {}
+				b_larino = {}
+				b_guglionesi = {}
+				b_riccia = {}
+			}
+			c_pescara = {
+				color={ 73 137 64 }
+				color2={ 255 255 255 }
+				
+				b_pescara = {}
+				b_chieti = {}
+				b_teramo = {}
+				b_isola_del_gran_sasso_d_italia = {}
+				b_lanciano = {}
+				b_vasto = {}
+				b_ortona = {}
+			}
+			c_l_aquila = {
+				color={ 73 137 64 }
+				color2={ 255 255 255 }
+				
+				b_l_aquila = {}
+				b_avezzano = {}
+				b_sulmona = {}
+				b_celano = {}
+				b_pratola_peligna = {}
+				b_tagliacozzo = {}
+				b_trasacco = {}
+			}
+		}
+	}
 	k_sicily = {
 		color = { 180 160 80 }
 		color2={ 255 255 255 }
