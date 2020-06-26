@@ -75,7 +75,6 @@ french = {
 		graphical_cultures = { frankishgfx }
 
 		color = { 1.0 0.89 0.43 }
-
 		male_names = {
 			Adam Adrian_Adrian Aguste_Augustus Alan_Alan Alano_Alan Alàri Aleissandre_Alexander Alexis Amiel_Emil Andriéu_Andrew Antòni_Anthony Antounin_Anthony Armel Arnaud_Arnold Àrtus_Arthur Aubert_Albert Aubin Audouard_Edward 
 			Barnabe_Barnabas Bartoumiéu_Bartholomew Batisto_Baptist Batit_Baptist Benjamin Benezet_Benedict Berenguié_Berengar Bernat_Bernard Brunoun_Bruno 
@@ -103,7 +102,7 @@ french = {
 			Beatris_Beatrice Berenguiero_Berengaria Bernadeto_Bernadette Bregido_Brigit 
 			Camille Carino_Catherine Caroulino_Caroline Catarino_Catherine Carloto_Charlotte Cécile_Cecilia Celino_Céline Chantaloun_Chantal Chloé Christelle Cindy Claro_Claire Claudino_Claudia Cloutildou_Clotilde Corinne Couleto_Colette Crestino_Christina 
 			Danièlo_Danielle Dóufino_Delphine Daniso_Denise Delaïdo_Adelaide Doumergue_Domenica 
-			Eleno_Helen Éliane Eisabello_Elizabeth Eisabèu_Elizabeth Eloudìo_Élodie Emilìo_Emily Emma Enrieto_Henriette Estello_Estelle Esterello Evelyne 
+			Eleno_Helen Éliane Eisabello_Elizabeth Eisabèu_Elizabeth Eloudìo_Élodie Emilìo_Emily Emma Enrieto_Henriette Estello_Stella Esterello Evelyne 
 			Fabiano_Fabienne Fanny Flourènço_Florence Franceso_Françoise 
 			Genevivo_Geneviève Georgette Germaine Ginette Gisèle_Gisela  
 			Ivouno_Yvonne 
@@ -135,12 +134,7 @@ french = {
 
 	arpitan = {
 		graphical_cultures = { frankishgfx }
-		alternate_start = {
-			OR = {
-				year >= 1100
-				has_alternate_start_parameter = { key = culture value = full_random }
-			}
-		}
+		
 		color = { 0.92 0.11 0.14 }
 		male_names = {
 			Abel Âdam_Adam Adounis_Adonis Alèsì_Alexis Amidor André_Andrew Andrien_Adrian Anduér Antouèno_Anthony Arbèrt_Albert 
@@ -199,13 +193,8 @@ french = {
 
 	breton = {
 		graphical_cultures = { frankishgfx }
-		alternate_start = {
-			OR = {
-				year >= 1100
-				has_alternate_start_parameter = { key = culture value = full_random }
-			}
-		}
-		color = { 1.0 0.89 0.43 }
+		
+		color = { 0.71 0.49 0.43 }
 		male_names = {
 			Aaron Adrian_Adrian Ael_Angel Akilles_Achilles Alan_Alan Alban_Aubin Alberzh_Albert Aleksandr_Alexander Alouarn Alfoñs_Alphonse Andrev_Andrew Anton_Anthony Aodren Avel_Abel Argan Armael Armel Arzel Arthur Arzhul_Arthur Arzhur_Arthur Awenig Azel
 			Berc'hed Bernez_Bernard Bleiz_Blaise Bodmaël Bodvaël Bréval Briac Brieg_Brieuc Brieuc Briend Brivaël Budig_Benedict Buzig_Benedict Budog Budogan 
@@ -271,10 +260,8 @@ french = {
 
 	occitan = {
 		graphical_cultures = { frankishgfx }
-
-
+		
 		color = { 0.67 0.02 0.04 }
-
 		male_names = {
 			Adam Adrian_Adrian Alan_Alan Albèrt_Albert Albin_Aubin Alèxis_Alexis Alfons_Alphonse Alòi_Louis Amièlh_Aemilius Andrèu_Andrew Antòni_Anthony Antonin_Anthony Arnald_Arnold Arnol_Arnold Àrtus_Arthur August_Augustus 
 			Baptistòu_Baptist Barnabè_Barnabas Benjamin Beneset_Benedict Berenguièr_Berengar Bernat_Bernard Bertomieu_Bartholomew Blasi_Blaise Brunon_Bruno 
@@ -303,7 +290,7 @@ french = {
 			Beatritz_Beatrice Berenguela_Berengaria Bernadeta_Bernadette Brigida_Brigit 
 			Camila_Camille Carina_Catherine Carlòta_Charlotte Catarina_Catherine Celina_Céline Ceselha_Cecilia Chloé Christelle Clamença_Clementia Clara_Claire Claudia_Claudia Clotilda_Clotilde Coleta_Colette Corinne Cristina_Christina 
 			Dafnef_Daphne Danièla_Danielle Delfina_Delphine Denise Doça_Douce Domenja_Dominique 
-			Elena_Helen Éliane Elisa_Elizabeth Elisabèt_Elizabeth Elodia_Élodie Emilia_Emily Emma Enriqueta_Henriette Estela_Estelle Estèva_Stéphanie Evelina_Evelyne 
+			Elena_Helen Éliane Elisa_Elizabeth Elisabèt_Elizabeth Elodia_Élodie Emilia_Emily Emma Enriqueta_Henriette Estela_Stella Estèva_Stéphanie Evelina_Evelyne 
 			Fanny Florença_Florence Francesca_Françoise 
 			Garsenda Genevieva_Geneviève Jòrdi_Georgette Germana_Germaine Ginette Gisèla_Gisela 
 			Irenèu_Irene Isabèl_Elizabeth Isangarda Iveta_Yvette 
@@ -334,21 +321,20 @@ french = {
 
 	parisian={
 		graphical_cultures = { frankishgfx }
-
+		
 		color = { 0.03 0.29 0.53 }
-
 		male_names = {
 			Adam Adrien_Adrian Alain_Alan Albert Alexandre_Alexander Alexis André_Andrew Anthony Antoine_Anthony Arnaud_Arnold Arthur 
-			Benjamin Benoît_Benedict Bernard Bruno 
+			Baptiste_Baptist Benjamin Benoît_Benedict Bernard Bruno 
 			Camille Cédric_Cedric Charles Christian Christophe_Christopher Claude_Claude Clément_Clemens Cyprien_Cyprian Cyrille_Cyril 
 			Damien_Damian Daniel David Denis Didier Dominique_Dominic 
 			Édouard_Edward Émile_Emil Emmanuel Étienne_Stephen Enzo Éric_Eric 
-			Fabien Fabrice Fernand_Ferdinand Florian Francis Franck_Francis François_Francis Frédéric_Frederick 
+			Fabien Fabrice Félix_Felix Fernand_Ferdinand Florent Florian Francis Franck_Francis François_Francis Frédéric_Frederick 
 			Gabriel Georges_George Gérard_Gerard Gilbert Gilles Grégoire_Gregory Guillaume_William Gustave_Gustav Guy 
 			Henri_Henry Hervé Hugo_Hugh 
-			Jacques_James Jacques-Yves_James-Yves Jean_John Jean-Baptiste_John-Baptist Jean-Claude_John-Claudius Jean-Jacques_John-James Jean-Luc_John-Luke Jean-Michel_John-Michael Jean-Paul_John-Paul Jean-Pierre_John-Peter Jérémy_Jeremiah Jérôme_Hieronymus Joël Jonathan Jordan Joseph Jules Julien_Julian 
+			Jacques_James Jacques-Yves_James-Yves Jean_John Jean-Baptiste_John-Baptist Jean-Claude_John-Claudius Jean-Jacques_John-James Jean-Luc_John-Luke Jean-Marc_John-Mark Jean-Michel_John-Michael Jean-Paul_John-Paul Jean-Pierre_John-Peter Jérémy_Jeremiah Jérôme_Hieronymus Joël Jonathan Jordan Joseph Jules Julien_Julian 
 			Kévin_Kevin 
-			Laurent_Lawrence Léo_Leo Léon_Leo Loïc_Louis Louis Luc_Luke Lucas Lucien Ludovic_Louis 
+			Laurent_Lawrence Léo_Leo Léon_Leo Léonard_Leonard Loïc_Louis Louis Luc_Luke Lucas Lucien Ludovic_Louis 
 			Marc_Mark Marcel Martin Mathieu_Matthew Maurice Maxime_Maximus Michel_Michael Mickael_Michael 
 			Nathan Nicolas_Nicholas Noël_Noel
 			Olivier_Oliver 
@@ -362,12 +348,12 @@ french = {
 			Yves 
 		}
 		female_names = {
-			Adélaïde_Adelaide Adèle_Adela Agathe_Agatha Agnès_Agnes Alice Amandine Amélie_Amelia Anaïs_Anne Andrée Anne Annick_Anne Annie_Anne Antoinette_Antonia Audrey Aurélie_Aurelia 
+			Adélaïde_Adelaide Adèle_Adela Agathe_Agatha Agnès_Agnes Alexandra Alice Amandine Amélie_Amelia Anaïs_Anne Andrée Angèle_Angela Anne Anne-Marie_Anne-Mary Annick_Anne Annie_Anne Antoinette_Antonia Audrey Aurélie_Aurelia 
 			Béatrice_Beatrice Bernadette Brigitte_Brigit 
 			Camille Caroline Catherine Cécile_Cecilia Céline Chantal Charlotte Chloé Christelle Christiane_Christina Christine_Christina Cindy Claire Claudine_Claudia Clémence_Clementia Clotilde Colette Corinne 
 			Danielle Delphine Denise Dominique 
-			Éléonore_Eleanor Éliane Élisabeth_Elizabeth Élise_Elizabeth Élodie Émilie_Emily Emma Estelle Evelyne 
-			Fabienne Fanny Florence Françoise 
+			Éléonore_Eleanor Éliane Élisabeth_Elizabeth Élise_Elizabeth Élodie Émilie_Emily Emma Estelle_Stella Evelyne 
+			Fabienne Fanny Florence Françoise Frédérique_Frederica 
 			Geneviève Georgette Germaine Ginette Gisèle_Gisela 
 			Hélène_Helen Henriette 
 			Irène_Irene Isabelle_Elizabeth 
@@ -384,6 +370,61 @@ french = {
 			Valérie_Valerie Véronique_Veronica Victoire_Victoria Virginie_Virginia Viviane_Vivian
 			Yvette Yvonne 
 			Zoé_Zoe
+		}
+		modifier=default_culture_modifier
+		from_dynasty_prefix = "de "
+		grammar_transform = french
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 20
+		father_name_chance = 15
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 50
+		mother_name_chance = 15
+	}
+
+	corsican={
+		graphical_cultures = { italiangfx }
+		
+		color = { 0.83 0.83 0.83 }
+		male_names = {
+			Alanu_Alan Albertu_Albert Andria_Andrew Anghjulu_Angel Antone_Anthony Antonu_Anthony Antonu-Paolu_Anthony-Paul Arrigu_Henry
+			Battistu_Baptist Bartolumeu_Bartholomew Biaghju_Blaise 
+			Carlu_Charles Ceccu_Francis Cristian_Christian Cristofanu_Christopher 
+			Desideriu_Desiderius Dumé_Dominic Dumenicu_Dominic 
+			Edmondu_Edmund Emiliu_Emil Esiodu Ettore_Hector 
+			Fabriziu_Fabrice Federicu_Frederick Felice_Felix Ferdinando_Ferdinand Filippu_Philip Fiurenzu_Florent Francescu_Francis  
+			Ghjacumu_James Ghjacumu-Iviu_James-Yves Ghjaseppu_Joseph Ghjilormu_Hieronymus Ghjulianu_Julian Ghjuvan_John Ghjuvan'Anghjulu Ghjuvan-Battistu_John-Baptist Ghjuvan-Ghjacumu_John-James Ghuvan-Lucca_John-Luke Ghjuvan-Marcu_John-Mark Ghjuvan-Maria_John-Mary Ghjuvan-Michele_John-Michael Ghjuvan-Paulu_John-Paul Ghjuvan-Petru_John-Peter Ghjuvanni_John Guglielmu_William 
+			Ivanu_John Iviu_Yves 
+			Lavighju_Louis Leonardu_Leonard Lisandru_Alexander Lorenzu_Lawrence Lucca_Luke Luigi_Louis  
+			Marcu_Mark Marc'Andria_Mark-Andrew Marc'Antonu_Mark-Anthony Mariu_Marius Matteu_Matthew Michele_Michael Micheli_Michael
+			Napulione_Napoleon Natale_Noël Niculaiu_Nicholas Niculosu_Nicholas Nunziu 
+			Orsiliu Orsu 
+			Pantaléonu Pasquale_Pascal Patriziu_Patrick Paulu_Paul Petr'Antò_Peter_Anthony Petru_Peter Petru-Maria_Peter_Mary Petru-Paolu_Peter-Paul Pierluigi_Peter-Louis
+			Renatu_René Risterucciu Rolandu_Roland Roccu Rumenzu_Roman
+			Salvadore_Salvador Santu Saveriu_Xavier Stefanu_Stephen 
+			Tomasu_Thomas Tumasgiu_Thomas 
+			Ulivieru_Oliver 
+			Valeriu_Valerius Vittoriu_Victor 
+			Xavier 
+		}
+		female_names = {
+			Aléria Anghjula_Angela Anghjula-Dea Anghjula-Maria_Angela_Maria Anghjulina_Angela Anna_Anne Anna-Maria_Anne-Mary
+			Bianca_Blanche 
+			Carla_Charlotte Carla-Maria Cataline_Catherine Carulina_Caroline Chjara_Claire Chjara-Lesia Chjara-Livia Chjara-Maria Chjara-Rosa 
+			Davia Davia-Catalina Dumenica_Dominique Divotta  
+			Emilia_Emily Emma 
+			Federica_Frederica Fiurenza_Florence Francesca_Françoise 
+			Isabedda_Elizabeth Isabella_Elizabeth 
+			Ghjaseppina_Josepha Ghjilormina Ghjiseppina_Josepha Ghjulia_Julia Ghjulia-Maria Ghjuvannina_Joan 
+			Lavisa Leria Lesia_Elizabeth Letizia_Laetitia Lena_Helen Lisandra_Alexandra Lisandrina_Alexandra Livia Livia-Rosa Lucia 
+			Maddalena_Magdalene Margherita_Margaret Maria_Mary Maria-Ghjuvannina_Mary-Joan Maria-Maddalena_Mary-Magdalene Maria-Stella Mattea 
+			Patrizia_Patricia Pauline_Pauline Petra_Pierrette 
+			Renata_Renée Rinata_Renée Ristituta Rosa_Rose 
+			Santa Sara_Sarah Saveria Serena Silvia_Sylvie Stedda_Stella Stefania_Stéphanie Stella 
+			Teresa_Theresa 
+			Valeria_Valerie Veronica Virghjinia_Virginia Virginia Vittoria_Victoria 
 		}
 		modifier=default_culture_modifier
 		from_dynasty_prefix = "de "
