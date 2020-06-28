@@ -6,8 +6,17 @@ e_france = {
 	color={ 81 85 204 }
 	color2={ 255 255 20 }
 	
-	capital = 1496 # c_marseille
-	culture = provencal
+	capital = 1551 # c_paris
+	culture = parisian
+	
+	corsican = "Francia"
+	breton = "Galia"
+	occitan = "França"
+	provencal = "França"
+	chti = "Franche"
+	euskara = "Frantzia"
+	catalan = "França"
+	
 	
 	k_provence = {
 		color={ 71 95 199 }
@@ -15,6 +24,12 @@ e_france = {
 		
 		capital = 1496 # c_marseille
 		culture = provencal
+	
+		breton = "Provañs"
+		occitan = "Provença"
+		provencal = "Prouvènço"
+		euskara = "Proventza"
+		catalan = "Provença"
 		
 		d_provence = {
 			color={ 51 115 189 }
@@ -27,10 +42,21 @@ e_france = {
 				}
 			}
 			capital = 1496 # c_marseille
+	
+			breton = "Provañs"
+			occitan = "Provença"
+			provencal = "Prouvènço"
+			euskara = "Proventza"
+			catalan = "Provença"
 			
 			c_marseille = { # 1496
 				color={ 41 125 184 }
 				color2={ 255 255 255 }
+	
+				catalan = "Marsella"
+				arpitan = "Marselye"
+				occitan = "Marselha"
+				provencal = "Marsiho"
 				
 				b_aix = {
 				}
@@ -50,6 +76,11 @@ e_france = {
 			c_basses_alpes = { # 1499
 				color={ 81 120 150 }
 				color2={ 255 255 255 }
+	
+				catalan = "Alta Provença"
+				arpitan = "Hôta-Provence"
+				occitan = "Provença Auta"
+				provencal = "Nauta Provença"
 				
 				b_digne = {
 				}
@@ -69,6 +100,11 @@ e_france = {
 			c_comtat_venaissin = { # 1500
 				color={ 48 117 165 }
 				color2={ 255 255 255 }
+	
+				catalan = "Comtat Venaissí"
+				arpitan = "Comtât Venêssin"
+				occitan = "Comtat Venaicin"
+				provencal = "Comtat Venaissin"
 				
 				b_carpentras = {
 				}
@@ -88,6 +124,10 @@ e_france = {
 			c_nice = { # 1498
 				color={ 47 89 121 }
 				color2={ 255 255 255 }
+	
+				catalan = "Niça"
+				occitan = "Niça"
+				provencal = "Nissa"
 				
 				b_lou_casteu = {
 				}
@@ -135,6 +175,11 @@ e_france = {
 				}
 			}
 			capital = 1507 # c_gard
+	
+			occitan = "Cevenas"
+			provencal = "Cevenas"
+			euskara = "Proventza"
+			catalan = "Cevenes"
 			
 			c_gard = { # 1507
 				color={ 42 57 94 }
@@ -158,6 +203,11 @@ e_france = {
 			c_gevaudan = { # 1509
 				color={ 6 14 35 }
 				color2={ 255 255 255 }
+	
+				catalan = "Gavaldà"
+				occitan = "Gavaudan"
+				provencal = "Gevaudan"
+				parisian = "Gévaudan"
 				
 				b_mende = {
 				}
@@ -177,6 +227,10 @@ e_france = {
 			c_vivarais = { # 1508
 				color={ 6 38 60 }
 				color2={ 255 255 255 }
+	
+				catalan = "Vivarès"
+				occitan = "Vivarés"
+				provencal = "Vivarés"
 				
 				b_privas = {
 				}
@@ -204,11 +258,25 @@ e_france = {
 					any_demesne_province = { OR = { province_id = 1502 province_id = 1503 } }
 				}
 			}
-			capital = 1502 # c_pumonti
+			capital = 1503 # c_pumonti
+	
+			occitan = "Corsega"
+			provencal = "Còrso"
+			catalan = "Còrsega"
+			euskara = "Korsika"
+			breton = "Korsika"
+			parisian = "Corse"
+			chti = "Corse"
+			walloon = "Corse"
 			
 			c_pumonti = { # 1502
 				color={ 44 73 147 }
 				color2={ 255 255 255 }
+	
+				catalan = "Còrsega del Sud"
+				occitan = "Corsega del Sud"
+				provencal = "Corsega deu Sud"
+				parisian = "Corse-du-Sud"
 				
 				b_ajaccio = {
 				}
@@ -228,6 +296,12 @@ e_france = {
 			c_cismonte = { # 1503
 				color={ 34 59 124 }
 				color2={ 255 255 255 }
+	
+				catalan = "Alta Còrsega"
+				arpitan = "Hôta-Corse"
+				occitan = "Nauta Corsega"
+				provencal = "Auta Corsega"
+				parisian = "Haute-Corse"
 				
 				b_calvi = {
 				}
@@ -256,10 +330,22 @@ e_france = {
 				}
 			}
 			capital = 1504 # c_isere
+	
+			occitan = "Daufinat"
+			provencal = "Daufinat"
+			arpitan = "Dôfenât"
+			catalan = "Delfinat"
+			euskara = "Dofinerria"
+			breton = "Daofinez"
 			
 			c_isere = { # 1504
 				color={ 22 98 151 }
 				color2={ 255 255 255 }
+	
+				catalan = "Isèra"
+				arpitan = "Isera"
+				occitan = "Isèra"
+				provencal = "Isèra"
 				
 				b_vienne = {
 				}
@@ -279,6 +365,11 @@ e_france = {
 			c_drome = { # 1506
 				color={ 12 59 91 }
 				color2={ 255 255 255 }
+	
+				catalan = "Droma"
+				arpitan = "Droma"
+				occitan = "Droma"
+				provencal = "Droumo"
 				
 				b_valence = {
 				}
@@ -298,6 +389,11 @@ e_france = {
 			c_hautes_alpes = { # 1505
 				color={ 121 146 165 }
 				color2={ 255 255 255 }
+	
+				catalan = "Alts Alps"
+				arpitan = "Hiôtes-Ârpes"
+				occitan = "Auts Aups"
+				provencal = "Auteis Aups"
 				
 				b_gap = {
 				}
@@ -326,10 +422,22 @@ e_france = {
 				}
 			}
 			capital = 1512 # c_rhone
+	
+			occitan = "Lionés"
+			provencal = "Lionés"
+			arpitan = "Liyonês"
+			catalan = "Lionès"
+			euskara = "Lyonerria"
+			walloon = "Korsika"
 			
 			c_rhone = { # 1512
 				color={ 6 13 33 }
 				color2={ 255 255 255 }
+	
+				catalan = "Roine"
+				arpitan = "Rôno"
+				occitan = "Ròse"
+				provencal = "Ròse"
 				
 				b_villeurbanne = {
 				}
@@ -349,6 +457,8 @@ e_france = {
 			c_ain = { # 1513
 				color={ 86 90 13 }
 				color2={ 255 255 255 }
+	
+				arpitan = "En"
 				
 				b_oyonnax = {
 				}
@@ -377,10 +487,24 @@ e_france = {
 				}
 			}
 			capital = 1501 # c_monaco
+	
+			occitan = "Mónegue"
+			provencal = "Morgues"
+			arpitan = "Monacô"
+			catalan = "Mònaco"
+			euskara = "Monako"
+			breton = "Monako"
 			
 			c_monaco = { # 1501
 				color={ 97 179 192 }
 				color2={ 255 255 255 }
+	
+				occitan = "Mónegue"
+				provencal = "Morgues"
+				arpitan = "Monacô"
+				catalan = "Mònaco"
+				euskara = "Monako"
+				breton = "Monako"
 				
 				b_le_rocher = {
 				}
@@ -409,10 +533,30 @@ e_france = {
 				}
 			}
 			capital = 1510 # c_savoy
+	
+			occitan = "Savòia"
+			provencal = "Savòia"
+			arpitan = "Savouè"
+			catalan = "Savoia"
+			euskara = "Savoia"
+			breton = "Savoia"
+			parisian = "Savoie"
+			walloon = "Savoye"
+			chti = "Savoie"
 			
 			c_savoy = { # 1510
 				color={ 73 90 102 }
 				color2={ 255 255 255 }
+	
+				occitan = "Savòia"
+				provencal = "Savòia"
+				arpitan = "Savouè"
+				catalan = "Savoia"
+				euskara = "Savoia"
+				breton = "Savoia"
+				parisian = "Savoie"
+				walloon = "Savoye"
+				chti = "Savoie"
 				
 				b_aix_les_bains = {
 				}
@@ -456,10 +600,29 @@ e_france = {
 		
 		capital = 1542 # c_rennes
 		culture = breton
+	
+		occitan = "Bretanha"
+		provencal = "Bretanha"
+		catalan = "Bretanya"
+		euskara = "Bretainia"
+		breton = "Breizh"
+		parisian = "Bretagne"
+		walloon = "Burtaegne"
+		chti = "Bertanne"
 		
 		d_breizh_uhel = {
 			color={ 52 80 183 }
 			color2={ 255 255 255 }
+	
+			occitan = "Nauta Bretanha"
+			provencal = "Nauta Bretanha"
+			arpitan = "Hôta-Bretagne"
+			catalan = "Alt Bretanya"
+			euskara = "Bretainia Garaia"
+			breton = "Breizh-Uhel"
+			parisian = "Haute-Bretagne"
+			walloon = "Hôte-Burtaegne"
+			chti = "Haute-Bertanne"
 			
 			allow = {
 				OR = {
@@ -472,6 +635,8 @@ e_france = {
 			c_rennes = { # 1542
 				color={ 42 90 178 }
 				color2={ 255 255 255 }
+	
+				breton = "Roazhon"
 				
 				b_aubigne = {
 				}
@@ -510,6 +675,8 @@ e_france = {
 			c_nantes = { # 1546
 				color={ 42 105 53 }
 				color2={ 255 255 255 }
+	
+				breton = "Naoned"
 				
 				b_saint_herbalin = {
 				}
@@ -529,6 +696,8 @@ e_france = {
 			c_saint_brieuc = { # 1545
 				color={ 84 93 51 }
 				color2={ 255 255 255 }
+	
+				breton = "Sant-Brieg"
 				
 				b_saint_brieuc = {
 				}
@@ -548,6 +717,8 @@ e_france = {
 			c_saint_malo = { # 1544
 				color={ 176 143 103 }
 				color2={ 255 255 255 }
+	
+				breton = "Sant-Maloù"
 				
 				b_saint_servan = {
 				}
@@ -568,6 +739,16 @@ e_france = {
 		d_breizh_izel = {
 			color={ 10 92 185 }
 			color2={ 255 255 255 }
+	
+			occitan = "Bassa Bretanha"
+			provencal = "Bassa Bretanha"
+			arpitan = "Bâssa-Bretagne"
+			catalan = "Baixa Bretanya"
+			euskara = "Bretainia Beherea"
+			breton = "Breizh-Izel"
+			parisian = "Basse-Bretagne"
+			walloon = "Basse-Burtaegne"
+			chti = "Basse-Bertanne"
 			
 			allow = {
 				OR = {
@@ -580,6 +761,8 @@ e_france = {
 			c_vannes = { # 1547
 				color={ 0 102 180 }
 				color2={ 255 255 255 }
+	
+				breton = "Gwened"
 				
 				b_vannes = {
 				}
@@ -599,6 +782,11 @@ e_france = {
 			c_bro_leon = { # 1549
 				color={ 126 96 179 }
 				color2={ 255 255 255 }
+	
+				breton = "Leon"
+				parisian = "Léon"
+				chti = "Léon"
+				walloon = "Léon"
 				
 				b_landerneau = {
 				}
@@ -618,6 +806,8 @@ e_france = {
 			c_cornouaille = { # 1548
 				color={ 168 99 52 }
 				color2={ 255 255 255 }
+	
+				breton = "Kerne"
 				
 				b_quimper = {
 				}
@@ -637,6 +827,8 @@ e_france = {
 			c_tregor = { # 1550
 				color={ 85 18 176 }
 				color2={ 255 255 255 }
+	
+				breton = "Treger"
 				
 				b_treguier = {
 				}
@@ -655,35 +847,33 @@ e_france = {
 			}
 		}
 	}
-	k_france = {
+	k_france = {	
 		color={ 166 9 133 }
 		color2={ 255 255 255 }
 		
 		capital = 1551 # c_paris
 		culture = parisian
+	
+		occitan = "Lengadoïl"
+		provencal = "Lengadoïl"
+		catalan = "França"
+		corsican = "Francia"
+		euskara = "Frantzia"
+		breton = "Bro-C'hall"
+		chti = "Franche"
 		
-		c_valenciennes = { # 1572
-			color={ 39 47 171 }
-			color2={ 255 255 255 }
-			
-			b_valenciennes = {
-			}
-			b_douai = {
-			}
-			b_cambrai = {
-			}
-			b_avesnes_sur_helpe = {
-			}
-			b_maubeuge = {
-			}
-			b_denain = {
-			}
-			b_halluin = {
-			}
-		}
 		d_ile_de_france = {
 			color={ 146 29 123 }
 			color2={ 255 255 255 }
+	
+			occitan = "Illa de França"
+			provencal = "Illa de França"
+			arpitan = "Ila-de-France"
+			catalan = "Illa de França"
+			breton = "Enez-Frañs"
+			parisian = "Île-de-France"
+			walloon = "Île-de-France"
+			chti = "Île-de-France"
 			
 			allow = {
 				OR = {
@@ -696,6 +886,9 @@ e_france = {
 			c_paris = { # 1551
 				color={ 136 39 118 }
 				color2={ 255 255 255 }
+	
+				breton = "Pariz"
+				flemish = "Parys"
 				
 				b_elysee = {
 				}
@@ -715,6 +908,8 @@ e_france = {
 			c_seine_et_marne = { # 1553
 				color={ 105 35 92 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Sêna-et-Marne"
 				
 				b_melun = {
 				}
@@ -734,6 +929,8 @@ e_france = {
 			c_yvelines = { # 1552
 				color={ 84 123 56 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Ivelenes"
 				
 				b_versailles = {
 				}
@@ -762,10 +959,19 @@ e_france = {
 				}
 			}
 			capital = 1557 # c_cher
+	
+			occitan = "Berric"
+			provencal = "Berric"
+			arpitan = "Bèrri"
+			catalan = "Berric"
+			corsican = "Delfinat"
+			chti = "Béri"
 			
 			c_cher = { # 1557
 				color={ 4 97 20 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Ch·èr"
 				
 				b_saint_doulchard = {
 				}
@@ -804,6 +1010,8 @@ e_france = {
 			c_touraine = { # 1559
 				color={ 12 68 21 }
 				color2={ 255 255 255 }
+	
+				breton = "Touren"
 				
 				b_joue_les_tours = {
 				}
@@ -832,10 +1040,22 @@ e_france = {
 				}
 			}
 			capital = 1583 # c_cote_dor
+	
+			occitan = "Borgonha"
+			provencal = "Borgonha"
+			arpitan = "Borgogne"
+			catalan = "Borgonya"
+			euskara = "Borgoina"
+			breton = "Bourgogn"
+			parisian = "Bourgogne"
+			walloon = "Borgogne"
+			rhenish = "Burgund"
 			
 			c_cote_dor = { # 1583
 				color={ 72 74 50 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Couta-d’Or"
 				
 				b_chenove = {
 				}
@@ -855,6 +1075,8 @@ e_france = {
 			c_macon = { # 1586
 				color={ 113 119 9 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Mâconês"
 				
 				b_macon = {
 				}
@@ -874,6 +1096,8 @@ e_france = {
 			c_nievre = { # 1585
 				color={ 102 104 83 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Niévre"
 				
 				b_varennes_vauzelles = {
 				}
@@ -893,6 +1117,8 @@ e_france = {
 			c_yonne = { # 1584
 				color={ 95 97 70 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Yona"
 				
 				b_auxerre = {
 				}
@@ -913,6 +1139,11 @@ e_france = {
 		d_champagne = {
 			color={ 173 167 103 }
 			color2={ 255 255 255 }
+	
+			occitan = "Champanha"
+			provencal = "Champanha"
+			catalan = "Xampanya"
+			breton = "Champagn"
 			
 			allow = {
 				OR = {
@@ -944,6 +1175,10 @@ e_france = {
 			c_ardennes = { # 1576
 				color={ 168 129 57 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Ardenes"
+				chti = "Ardène"
+				walloon = "Årdene"
 				
 				b_sedan = {
 				}
@@ -963,6 +1198,8 @@ e_france = {
 			c_haute_marne = { # 1578
 				color={ 45 144 15 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Hôta-Marne"
 				
 				b_chaumont = {
 				}
@@ -982,6 +1219,8 @@ e_france = {
 			c_troyes = { # 1577
 				color={ 187 195 94 }
 				color2={ 255 255 255 }
+	
+				chti = "Troéïes"
 				
 				b_la_chapelle_saint_luc = {
 				}
@@ -1010,10 +1249,19 @@ e_france = {
 				}
 			}
 			capital = 1587 # c_doubs
+	
+			occitan = "Franca Comtat"
+			provencal = "Franc Comtat"
+			arpitan = "Franche-Comtât"
+			catalan = "Franc-Comtat"
+			chti = "Franke-Comtè"
+			rhenish = "Freigrafschaft"
 			
 			c_doubs = { # 1587
 				color={ 103 105 78 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Dubs"
 				
 				b_besancon = {
 				}
@@ -1080,10 +1328,19 @@ e_france = {
 				}
 			}
 			capital = 1554 # c_anjou
+	
+			occitan = "Léger"
+			provencal = "Léger"
+			arpitan = "Lêre"
+			catalan = "Loira"
+			euskara = "Loira"
+			breton = "Liger"
 			
 			c_anjou = { # 1554
 				color={ 34 92 44 }
 				color2={ 255 255 255 }
+	
+				breton = "Anjev"
 				
 				b_cholet = {
 				}
@@ -1103,6 +1360,9 @@ e_france = {
 			c_mayenne = { # 1555
 				color={ 114 46 102 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Mayene"
+				walloon = "Maïenne"
 				
 				b_mayenne = {
 				}
@@ -1122,6 +1382,13 @@ e_france = {
 			c_sarthe = { # 1556
 				color={ 106 26 92 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Sarte"
+	
+				breton = "Korsika"
+				arpitan = "Dôfenât"
+				chti = "Korsika"
+				walloon = "Korsika"
 				
 				b_allonnes = {
 				}
@@ -1150,10 +1417,19 @@ e_france = {
 				}
 			}
 			capital = 1579 # c_nancy
+	
+			occitan = "Lorena"
+			provencal = "Lorrena"
+			arpitan = "Lorrêna"
+			catalan = "Lorena"
+			euskara = "Lorrena"
+			breton = "Loren"
 			
 			c_nancy = { # 1579
 				color={ 84 168 191 }
 				color2={ 255 255 255 }
+	
+				rhenish = "Nanzig"
 				
 				b_vandoeuvre = {
 				}
@@ -1173,6 +1449,10 @@ e_france = {
 			c_meuse = { # 1581
 				color={ 43 126 18 }
 				color2={ 255 255 255 }
+	
+				rhenish = "Maas"
+				arpitan = "Môsa"
+				walloon = "Moûse"
 				
 				b_bar_le_duc = {
 				}
@@ -1192,6 +1472,9 @@ e_france = {
 			c_moselle = { # 1580
 				color={ 126 171 64 }
 				color2={ 255 255 255 }
+	
+				rhenish = "Mosel"
+				arpitan = "Mosèla"
 				
 				b_montigny = {
 				}
@@ -1211,6 +1494,9 @@ e_france = {
 			c_vosges = { # 1582
 				color={ 242 109 125 }
 				color2={ 255 255 255 }
+	
+				rhenish = "Vogesen"
+				arpitan = "Vôges"
 				
 				b_thaon_les_vosges = {
 				}
@@ -1231,6 +1517,13 @@ e_france = {
 		d_nord = {
 			color={ 178 255 42 }
 			color2={ 255 255 255 }
+	
+			breton = "Norzh"
+			corsican = "Nordu"
+			flemish = "Noord"
+			occitan = "Nòrd"
+			provencal = "Nòrd"
+			walloon = "Nôr"
 			
 			allow = {
 				OR = {
@@ -1243,6 +1536,11 @@ e_france = {
 			c_lille = { # 1571
 				color={ 168 9 37 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Lela"
+				chti = "Lile"
+				walloon = "Lîle"
+				flemish = "Rysel"
 				
 				b_tourcoing = {
 				}
@@ -1262,6 +1560,10 @@ e_france = {
 			c_artois = { # 1574
 				color={ 84 18 166 }
 				color2={ 255 255 255 }
+	
+				breton = "Artez"
+				chti = "Artoé"
+				flemish = "Artesië"
 				
 				b_arras = {
 				}
@@ -1281,6 +1583,10 @@ e_france = {
 			c_pas_de_calais = { # 1573
 				color={ 0 12 165 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Pâs-de-Calês"
+				chti = "Pas-Calés"
+				flemish = "Nauw van Kales"
 				
 				b_calais = {
 				}
@@ -1300,6 +1606,9 @@ e_france = {
 			c_valenciennes = { # 1572
 				color={ 39 47 171 }
 				color2={ 255 255 255 }
+	
+				chti = "Valincyinne"
+				flemish = "Valencijn"
 				
 				b_valenciennes = {
 				}
@@ -1328,10 +1637,21 @@ e_france = {
 				}
 			}
 			capital = 1563 # c_seine_maritime
+	
+			breton = "Normandi"
+			catalan = "Normandia"
+			euskara = "Normandia"
+			occitan = "Normandia"
+			provencal = "Normandia"
+			parisian = "Normandie"
+			chti = "Normandie"
+			walloon = "Normandie"
 			
 			c_seine_maritime = { # 1563
 				color={ 88 55 82 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Sêna-Maritima"
 				
 				b_rouen = {
 				}
@@ -1408,6 +1728,8 @@ e_france = {
 			c_eure = { # 1564
 				color={ 145 78 133 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Ere"
 				
 				b_evreux = {
 				}
@@ -1436,10 +1758,23 @@ e_france = {
 				}
 			}
 			capital = 1560 # c_orleans
+	
+			breton = "Orleañs"
+			catalan = "Orleanès"
+			euskara = "Orleanerria"
+			arpitan = "Orlèans"
+			occitan = "Orleanés"
+			provencal = "Orleanés"
 			
 			c_orleans = { # 1560
 				color={ 72 27 64 }
 				color2={ 255 255 255 }
+	
+				breton = "Orleañs"
+				arpitan = "Orlèans"
+				parigot = "Orléans"
+				chti = "Orléans"
+				walloon = "Orléans"
 				
 				b_olivet = {
 				}
@@ -1506,10 +1841,24 @@ e_france = {
 				}
 			}
 			capital = 1568 # c_somme
+	
+			breton = "Pikardi"
+			catalan = "Picardia"
+			euskara = "Pikardia"
+			arpitan = "Pecardia"
+			occitan = "Picardia"
+			provencal = "Picardia"
+			parisian = "Picardie"
+			chti = "Picardie"
+			walloon = "Picårdeye"
+			flemish = "Picardië"
 			
 			c_somme = { # 1568
 				color={ 85 135 81 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Soma"
+				chti = "Sonme"
 				
 				b_amiens = {
 				}
@@ -1529,6 +1878,9 @@ e_france = {
 			c_aisne = { # 1569
 				color={ 126 126 184 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Èsne"
+				chti = "Ainne"
 				
 				b_laon = {
 				}
@@ -1548,6 +1900,9 @@ e_france = {
 			c_oise = { # 1570
 				color={ 59 94 56 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Ouèse"
+				chti = "Oése"
 				
 				b_beauvais = {
 				}
@@ -1572,10 +1927,27 @@ e_france = {
 		
 		capital = 1514 # c_toulouse
 		culture = occitan
+	
+		breton = "Okitania"
+		catalan = "Occitània"
+		euskara = "Okzitania"
+		occitan = "Occitània"
+		provencal = "Óucitanìo"
+		parisian = "Midi"
+		chti = "Midi"
+		walloon = "Midi"
 		
 		d_haut_languedoc = {
 			color={ 82 82 149 }
 			color2={ 255 255 255 }
+	
+			breton = "Lengadok-Uhel"
+			catalan = "Alt Llenguadoc"
+			euskara = "Languedoc Garaia"
+			arpitan = "Hôt-Lengouadoc "
+			occitan = "Naut Lengadòc"
+			provencal = "Naut Lengadòc"
+			walloon = "Hôt-Languedoc"
 			
 			allow = {
 				OR = {
@@ -1588,6 +1960,12 @@ e_france = {
 			c_toulouse = { # 1514
 				color={ 72 92 144 }
 				color2={ 255 255 255 }
+	
+				catalan = "Tolosa"
+				euskara = "Tolosa"
+				arpitan = "Tolosa"
+				occitan = "Tolosa"
+				provencal = "Tolosa"
 				
 				b_le_capitole = {
 				}
@@ -1607,6 +1985,10 @@ e_france = {
 			c_quercy = { # 1515
 				color={ 46 51 64 }
 				color2={ 255 255 255 }
+	
+				catalan = "Carcí"
+				occitan = "Carcin"
+				provencal = "Carcin"
 				
 				b_cahors = {
 				}
@@ -1626,6 +2008,10 @@ e_france = {
 			c_rouergue = { # 1516
 				color={ 28 39 68 }
 				color2={ 255 255 255 }
+	
+				catalan = "Roergue"
+				occitan = "Roergue"
+				provencal = "Roèrgue"
 				
 				b_rodez = {
 				}
@@ -1673,10 +2059,24 @@ e_france = {
 				}
 			}
 			capital = 1527 # c_gironde
+	
+			breton = "Akitania"
+			catalan = "Aquitània"
+			euskara = "Akitania"
+			arpitan = "Aquitania"
+			occitan = "Aquitània"
+			provencal = "Aquitània"
+			chti = "Akiténe"
 			
 			c_gironde = { # 1527
 				color={ 32 41 64 }
 				color2={ 255 255 255 }
+	
+				catalan = "Gironda"
+				euskara = "Gironda"
+				arpitan = "G·ironde"
+				occitan = "Gironda"
+				provencal = "Gironda"
 				
 				b_bordeaux = {
 				}
@@ -1715,6 +2115,10 @@ e_france = {
 			c_perigord = { # 1528
 				color={ 14 21 38 }
 				color2={ 255 255 255 }
+	
+				catalan = "Perigord"
+				occitan = "Perigòrd"
+				provencal = "Peirigòrd"
 				
 				b_perigueux = {
 				}
@@ -1743,10 +2147,21 @@ e_france = {
 				}
 			}
 			capital = 1538 # c_puy_de_dome
+	
+			breton = "Arvern"
+			catalan = "Alvèrnia"
+			euskara = "Auvernia"
+			arpitan = "Ôvèrgne"
+			occitan = "Auvèrnhe"
+			provencal = "Auvèrni"
 			
 			c_puy_de_dome = { # 1538
 				color={ 20 28 51 }
 				color2={ 255 255 255 }
+	
+				catalan = "Puèi Domat"
+				occitan = "Puèi Domat"
+				provencal = "Puei de Doma"
 				
 				b_cournon = {
 				}
@@ -1766,6 +2181,11 @@ e_france = {
 			c_bourbon = { # 1539
 				color={ 5 28 89 }
 				color2={ 255 255 255 }
+	
+				catalan = "Borbonès"
+				euskara = "Borboierria"
+				occitan = "Borbonés"
+				provencal = "Borbonés"
 				
 				b_vichy = {
 				}
@@ -1804,6 +2224,10 @@ e_france = {
 			c_velay = { # 1541
 				color={ 28 37 61 }
 				color2={ 255 255 255 }
+	
+				catalan = "Velai"
+				occitan = "Velai"
+				provencal = "Velai"
 				
 				b_le_puy = {
 				}
@@ -1832,10 +2256,22 @@ e_france = {
 				}
 			}
 			capital = 1518 # c_herault
+	
+			breton = "Lengadok-Uhel"
+			catalan = "Baix Llenguadoc"
+			euskara = "Languedoc Beherea"
+			arpitan = "Bâs-Lengouadoc "
+			occitan = "Bas Lengadòc"
+			provencal = "Bas Lengadòc"
 			
 			c_herault = { # 1518
 				color={ 41 62 115 }
 				color2={ 255 255 255 }
+	
+				catalan = "Erau"
+				arpitan = "Hèrôlt"
+				occitan = "Erau"
+				provencal = "Erau"
 				
 				b_montpellier = {
 				}
@@ -1855,6 +2291,8 @@ e_france = {
 			c_aude = { # 1519
 				color={ 55 75 126 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Ôde"
 				
 				b_carcassonne = {
 				}
@@ -1874,6 +2312,12 @@ e_france = {
 			c_roussillon = { # 1520
 				color={ 35 56 109 }
 				color2={ 255 255 255 }
+	
+				catalan = "Rosselló"
+				euskara = "Rosselló"
+				arpitan = "Rosselyon"
+				occitan = "Rosselhon"
+				provencal = "Rossilhon"
 				
 				b_canet_en_roussillon = {
 				}
@@ -1902,10 +2346,23 @@ e_france = {
 				}
 			}
 			capital = 1524 # c_armagnac
+	
+			breton = "Gwaskogn"
+			catalan = "Gascunya"
+			euskara = "Gaskoinia"
+			occitan = "Gasconha"
+			provencal = "Daufinat"
+			parisian = "Gascogne"
+			chti = "Gascogne"
+			walloon = "Gascogne"
 			
 			c_armagnac = { # 1524
 				color={ 36 49 85 }
 				color2={ 255 255 255 }
+	
+				catalan = "Armanyac"
+				occitan = "Armanhac"
+				provencal = "Armanhac"
 				
 				b_auch = {
 				}
@@ -1925,6 +2382,12 @@ e_france = {
 			c_bearn = { # 1526
 				color={ 27 43 82 }
 				color2={ 255 255 255 }
+	
+				catalan = "Bearn"
+				euskara = "Bearno"
+				arpitan = "Bèarn"
+				occitan = "Bearn"
+				provencal = "Bearn"
 				
 				b_pau = {
 				}
@@ -1944,6 +2407,10 @@ e_france = {
 			c_landes = { # 1525
 				color={ 18 28 56 }
 				color2={ 255 255 255 }
+	
+				euskara = "Landak"
+				occitan = "Lanas"
+				provencal = "Lanas"
 				
 				b_dax = {
 				}
@@ -1972,10 +2439,21 @@ e_france = {
 				}
 			}
 			capital = 1530 # c_haut_limousin
+	
+			catalan = "Llemosí"
+			arpitan = "Limosin"
+			occitan = "Lemosin"
+			provencal = "Limosin"
 			
 			c_haut_limousin = { # 1530
 				color={ 49 54 69 }
 				color2={ 255 255 255 }
+	
+				catalan = "Alt Llemosí"
+				euskara = "Limousin Garaia"
+				arpitan = "Hôt-Limosin"
+				occitan = "Naut Lemosin"
+				provencal = "Naut Limosin"
 				
 				b_panazol = {
 				}
@@ -1995,6 +2473,10 @@ e_france = {
 			c_correze = { # 1532
 				color={ 21 39 86 }
 				color2={ 255 255 255 }
+	
+				catalan = "Corresa"
+				occitan = "Corresa"
+				provencal = "Corresa"
 				
 				b_tulle = {
 				}
@@ -2014,6 +2496,10 @@ e_france = {
 			c_la_marche = { # 1531
 				color={ 21 45 108 }
 				color2={ 255 255 255 }
+	
+				catalan = "La Marca"
+				occitan = "La Marcha"
+				provencal = "La Marcha"
 				
 				b_gueret = {
 				}
@@ -2042,10 +2528,22 @@ e_france = {
 				}
 			}
 			capital = 1533 # c_vienne
+	
+			breton = "Poatev"
+			arpitan = "Pouètou"
+			occitan = "Peitau"
+			provencal = "Peitau"
+			chti = "Poétou"
+			walloon = "Korsika"
 			
 			c_vienne = { # 1533
 				color={ 10 84 22 }
 				color2={ 255 255 255 }
+	
+				catalan = "Viena"	
+				arpitan = "Vièna"
+				occitan = "Vinhana"
+				provencal = "Vinhana"
 				
 				b_poitiers = {
 				}
@@ -2065,6 +2563,11 @@ e_france = {
 			c_angouleme = { # 1534
 				color={ 32 39 60 }
 				color2={ 255 255 255 }
+	
+				catalan = "Angulema"
+				euskara = "Angulema"
+				occitan = "Engoleime"
+				provencal = "Engolesme"
 				
 				b_angouleme = {
 				}
@@ -2084,6 +2587,10 @@ e_france = {
 			c_deux_sevres = { # 1537
 				color={ 34 52 104 }
 				color2={ 255 255 255 }
+	
+				arpitan = "Doas Sèvras"
+				occitan = "Doves-Sévres"
+				provencal = "Doves-Sévres"
 				
 				b_niort = {
 				}
@@ -2103,6 +2610,9 @@ e_france = {
 			c_saintonge = { # 1535
 				color={ 45 54 78 }
 				color2={ 255 255 255 }
+	
+				occitan = "Santonge"
+				provencal = "Santonge"
 				
 				b_saintes = {
 				}
@@ -2122,6 +2632,11 @@ e_france = {
 			c_vendee = { # 1536
 				color={ 15 33 83 }
 				color2={ 255 255 255 }
+		
+				breton = "Vande"
+				arpitan = "Vendê"
+				occitan = "Vendèa"
+				provencal = "Vendèa"
 				
 				b_la_roche_sur_yon = {
 				}
@@ -2150,10 +2665,24 @@ e_france = {
 				}
 			}
 			capital = 1521 # c_comminges
+	
+			breton = "Pireneoù"
+			catalan = "Pirineus"
+			euskara = "Pirinioak"
+			arpitan = "Dôfenât"
+			occitan = "Pirenèus"
+			provencal = "Pireneas"
+			parisian = "Pyrénées"
+			chti = "Pyrénées"
+			walloon = "Pirenêyes"
 			
 			c_comminges = { # 1521
 				color={ 34 55 110 }
 				color2={ 255 255 255 }
+	
+				catalan = "Comenge"
+				occitan = "Comenge"
+				provencal = "Comenges"
 				
 				b_muret = {
 				}
@@ -2173,6 +2702,11 @@ e_france = {
 			c_ariege = { # 1523
 				color={ 54 79 143 }
 				color2={ 255 255 255 }
+	
+				catalan = "Arieja"
+				arpitan = "Ariég·e"
+				occitan = "Arièja"
+				provencal = "Arièja"
 				
 				b_foix = {
 				}
@@ -2192,6 +2726,11 @@ e_france = {
 			c_bigorre = { # 1522
 				color={ 64 78 112 }
 				color2={ 255 255 255 }
+	
+				catalan = "Bigorra"
+				euskara = "Bigorra"
+				occitan = "Bigòrra"
+				provencal = "Bigòrra"
 				
 				b_bagneres_de_bigorre = {
 				}
