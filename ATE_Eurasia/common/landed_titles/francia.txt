@@ -1155,7 +1155,7 @@ e_france = {
 		}
 	}
 	k_france = {	
-		color={ 166 9 133 }
+		color={ 0 10 95 }
 		color2={ 255 255 255 }
 		
 		capital = 1551 # c_paris
@@ -1170,7 +1170,7 @@ e_france = {
 		chti = "Franche"
 		
 		d_ile_de_france = {
-			color={ 146 29 123 }
+			color={ 0 119 192 }
 			color2={ 255 255 255 }
 	
 			occitan = "Illa de França"
@@ -1200,6 +1200,8 @@ e_france = {
 				b_elysee = {
 				}
 				b_paris = {
+					breton = "Pariz"
+					flemish = "Parys"
 				}
 				b_saint_denis = {
 				}
@@ -1240,6 +1242,7 @@ e_france = {
 				arpitan = "Ivelenes"
 				
 				b_versailles = {
+					breton = "Versailhez"
 				}
 				b_evry = {
 				}
@@ -1283,6 +1286,8 @@ e_france = {
 				b_saint_doulchard = {
 				}
 				b_bourges = {
+					occitan = "Borges"
+					provencal = "Borges"
 				}
 				b_vierzon = {
 				}
@@ -1304,6 +1309,8 @@ e_france = {
 				b_chateauroux = {
 				}
 				b_issoudun = {
+					occitan = "Essaudun"
+					provencal = "Essaudun"
 				}
 				b_le_blanc = {
 				}
@@ -1323,6 +1330,8 @@ e_france = {
 				b_joue_les_tours = {
 				}
 				b_tours = {
+					occitan = "Tors"
+					provencal = "Tors"
 				}
 				b_saint_cyr_sur_loire = {
 				}
@@ -1337,7 +1346,7 @@ e_france = {
 			}
 		}
 		d_burgundy = {
-			color={ 82 64 55 }
+			color={ 52 54 94 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -1368,8 +1377,10 @@ e_france = {
 				b_chenove = {
 				}
 				b_dijon = {
+					arpitan = "Dij·on"
 				}
 				b_beaune = {
+					arpitan = "Dôfenât"
 				}
 				b_talant = {
 				}
@@ -1397,8 +1408,10 @@ e_france = {
 				b_autun = {
 				}
 				b_louhans = {
+					arpitan = "Luens"
 				}
 				b_charolles = {
+					arpitan = "Tsarolles"
 				}
 			}
 			c_nievre = { # 1585
@@ -1445,7 +1458,7 @@ e_france = {
 			}
 		}
 		d_champagne = {
-			color={ 173 167 103 }
+			color={ 97 134 245 }
 			color2={ 255 255 255 }
 	
 			occitan = "Champanha"
@@ -1468,6 +1481,7 @@ e_france = {
 				b_chalons = {
 				}
 				b_reims = {
+					chti = "Rins"
 				}
 				b_epernay = {
 				}
@@ -1495,6 +1509,7 @@ e_france = {
 				b_rethel = {
 				}
 				b_givet = {
+					walloon = "Djivet"
 				}
 				b_revin = {
 				}
@@ -1533,6 +1548,7 @@ e_france = {
 				b_la_chapelle_saint_luc = {
 				}
 				b_troyes = {
+					chti = "Troéïes"
 				}
 				b_romilly_sur_seine = {
 				}
@@ -1547,7 +1563,7 @@ e_france = {
 			}
 		}
 		d_franche_comte = {
-			color={ 113 95 83 }
+			color={ 16 6 159 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -1573,18 +1589,26 @@ e_france = {
 				arpitan = "Dubs"
 				
 				b_besancon = {
+					arpitan = "Besençon"
 				}
 				b_montbeliard = {
 				}
 				b_pontarlier = {
+					arpitan = "Pontarliér"
 				}
 				b_audincourt = {
+					chti = "Adïncoûe"
+					walloon = "Adïncoûe"
 				}
 				b_valentigney = {
+					chti = "Velantignaie"
+					walloon = "Velantignaie"
 				}
 				b_morteau = {
 				}
 				b_seloncourt = {
+					chti = "Seloncoué"
+					walloon = "Seloncoué"
 				}
 			}
 			c_jura = { # 1589
@@ -1596,12 +1620,15 @@ e_france = {
 				b_dole = {
 				}
 				b_saint_claude = {
+					arpitan = "Sent-Gllôdo"
 				}
 				b_champagnole = {
+					arpitan = "Champagnôla"
 				}
 				b_morez = {
 				}
 				b_poligny = {
+					arpitan = "Pôlegni"
 				}
 				b_tavaux = {
 				}
@@ -1627,7 +1654,7 @@ e_france = {
 			}
 		}
 		d_loire = {
-			color={ 44 82 49 }
+			color={ 63 104 228 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -1654,6 +1681,7 @@ e_france = {
 				b_cholet = {
 				}
 				b_angers = {
+					breton = "Añje"
 				}
 				b_saumur = {
 				}
@@ -1693,15 +1721,11 @@ e_france = {
 				color2={ 255 255 255 }
 	
 				arpitan = "Sarte"
-	
-				breton = "Korsika"
-				arpitan = "Dôfenât"
-				chti = "Korsika"
-				walloon = "Korsika"
 				
 				b_allonnes = {
 				}
 				b_le_mans = {
+					breton = "Ar Mañs"
 				}
 				b_la_fleche = {
 				}
@@ -1738,12 +1762,14 @@ e_france = {
 				color={ 84 168 191 }
 				color2={ 255 255 255 }
 	
-				rhenish = "Nanzig"
+				rhenish = "Nanzeg"
 				swabian = "Nanzig"
 				
 				b_vandoeuvre = {
 				}
 				b_nancy = {
+					rhenish = "Nanzeg"
+					swabian = "Nanzig"
 				}
 				b_luneville = {
 				}
@@ -1789,18 +1815,29 @@ e_france = {
 				arpitan = "Mosèla"
 				
 				b_montigny = {
+					rhenish = "Monteningen"
+					swabian = "Monteningen"
 				}
 				b_metz = {
 				}
 				b_thionville = {
+					rhenish = "Diedenhofen"
+					swabian = "Diddenuewen"
 				}
 				b_forbach = {
+					swabian = "Fuerboch"
 				}
 				b_sarreguemines = {
+					rhenish = "Saargemünd"
+					swabian = "Saargemìnn"
 				}
 				b_yutz = {
+					rhenish = "Jeutz"
+					swabian = "Jäitz"
 				}
 				b_sarrebourg = {
+					rhenish = "Saarburch"
+					swabian = "Såårburi"
 				}
 			}
 			c_vosges = { # 1582
@@ -1808,7 +1845,7 @@ e_france = {
 				color2={ 255 255 255 }
 	
 				rhenish = "Vogesen"
-				swabian = "Vogesen"
+				swabian = "Vogese"
 				arpitan = "Vôges"
 				
 				b_thaon_les_vosges = {
@@ -1816,10 +1853,14 @@ e_france = {
 				b_epinal = {
 				}
 				b_saint_die = {
+					rhenish = "Sankt Didel"
+					swabian = "Sankt Didel"
 				}
 				b_golbey = {
 				}
 				b_gerardmer = {
+					rhenish = "Gerdsee"
+					swabian = "Gerdsee"
 				}
 				b_remiremont = {
 				}
@@ -1828,7 +1869,7 @@ e_france = {
 			}
 		}
 		d_nord = {
-			color={ 178 255 42 }
+			color={ 39 68 160 }
 			color2={ 255 255 255 }
 	
 			breton = "Norzh"
@@ -1856,18 +1897,34 @@ e_france = {
 				flemish = "Rysel"
 				
 				b_tourcoing = {
+					chti = "Tourco"
+					flemish = "Terkoeje"
 				}
 				b_lille = {
+					arpitan = "Lela"
+					chti = "Lile"
+					walloon = "Lîle"
+					flemish = "Rysel"
 				}
 				b_roubaix = {
+					chti = "Roubés"
+					walloon = "Roubés"
+					flemish = "Roboais"
 				}
 				b_dunkerque = {
+					chti = "Dunkèke"
+					flemish = "Duunkerke"
+					rhenish = "Dünkirchen"
+					swabian = "Dünkirche"
 				}
 				b_villeneuve_dascq = {
+					chti = "Neuvile-Ask"
 				}
 				b_wattrelos = {
+					flemish = "Watterloo"
 				}
 				b_marcq_en_baroeul = {
+					chti = "Marke-in-Bareul"
 				}
 			}
 			c_artois = { # 1574
@@ -1879,16 +1936,24 @@ e_france = {
 				flemish = "Artesië"
 				
 				b_arras = {
+					chti = "Aros"
 				}
 				b_lens = {
+					chti = "Linse"
+					chti = "Linse"
 				}
 				b_lievin = {
+					chti = "Lévin"
 				}
 				b_henin_beaumont = {
+					chti = "Hinnin-Biaumont"
 				}
 				b_bethune = {
+					chti = "Bétunne"
+					flemish = "Betun"
 				}
 				b_bruay_la_buissiere = {
+					chti = "Brouay-l'Bussière"
 				}
 				b_avion = {
 				}
@@ -1902,18 +1967,31 @@ e_france = {
 				flemish = "Nauw van Kales"
 				
 				b_calais = {
+					chti = "Calés"
+					flemish = "Cales"
+					rhenish = "Kalen"
 				}
 				b_boulogne_sur_mer = {
+					chti = "Boulonne-su-Mér"
+					flemish = "Bonen"
 				}
 				b_saint_omer = {
+					chti = "Saint-Onmé"
 				}
 				b_montreuil = {
+					chti = "Montreu"
+					flemish = "Monsterole"
 				}
 				b_outreau = {
+					chti = "Outriauwe"
+					flemish = "Wabingen"
 				}
 				b_saint_martin_boulogne = {
+					chti = "Sint-Martiny-lés-Boulonne"
+					flemish = "Sint-Maarten bij Bonen"
 				}
 				b_longuenesse = {
+					flemish = "Langenesse"
 				}
 			}
 			c_valenciennes = { # 1572
@@ -1924,23 +2002,36 @@ e_france = {
 				flemish = "Valencijn"
 				
 				b_valenciennes = {
+					chti = "Valincyinne"
+					flemish = "Valencijn"
 				}
 				b_douai = {
+					chti = "Doï"
+					flemish = "Dowaai"
 				}
 				b_cambrai = {
+					chti = "Kimbré"
+					flemish = "Kamerijk"
 				}
 				b_avesnes_sur_helpe = {
+					chti = "Avinne"
+					flemish = "Avenne aan de Helpe"
 				}
 				b_maubeuge = {
+					chti = "Maubeuche"
+					flemish = "Mabuse"
 				}
 				b_denain = {
+					chti = "Dnain"
+					flemish = "Dening"
 				}
 				b_halluin = {
+					flemish = "Oalewyne"
 				}
 			}
 		}
 		d_normandy = {
-			color={ 98 45 87 }
+			color={ 93 84 120 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -1967,8 +2058,11 @@ e_france = {
 				arpitan = "Sêna-Maritima"
 				
 				b_rouen = {
+					breton = "Rouan"
+					walloon = "Rouwan"
 				}
 				b_le_havre = {
+					breton = "An Havr-Nevez"
 				}
 				b_dieppe = {
 				}
@@ -2028,6 +2122,7 @@ e_france = {
 				b_cherbourg = {
 				}
 				b_mont_saint_michel = {
+					breton = "Menez Mikael ar Mor"
 				}
 				b_granville = {
 				}
@@ -2045,6 +2140,7 @@ e_france = {
 				arpitan = "Ere"
 				
 				b_evreux = {
+					breton = "Evrog"
 				}
 				b_vernon = {
 				}
@@ -2061,7 +2157,7 @@ e_france = {
 			}
 		}
 		d_orleanais = {
-			color={ 82 17 69 }
+			color={ 81 159 219 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -2080,7 +2176,7 @@ e_france = {
 			provencal = "Orleanés"
 			
 			c_orleans = { # 1560
-				color={ 72 27 64 }
+				color={ 47 90 221 }
 				color2={ 255 255 255 }
 	
 				breton = "Orleañs"
@@ -2092,6 +2188,11 @@ e_france = {
 				b_olivet = {
 				}
 				b_orleans = {
+					breton = "Orleañs"
+					arpitan = "Orlèans"
+					parisian = "Orléans"
+					chti = "Orléans"
+					walloon = "Orléans"
 				}
 				b_fleury_les_aubrais = {
 				}
@@ -2108,9 +2209,12 @@ e_france = {
 				color={ 16 51 22 }
 				color2={ 255 255 255 }
 				
+				breton = "Bleaz"
+				
 				b_vineuil = {
 				}
 				b_blois = {
+					breton = "Bleaz"
 				}
 				b_romorantin_lanthenay = {
 				}
@@ -2127,9 +2231,12 @@ e_france = {
 				color={ 182 78 163 }
 				color2={ 255 255 255 }
 				
+				breton = "Chartrez"
+				
 				b_luce = {
 				}
 				b_chartres = {
+					breton = "Chartrez"
 				}
 				b_dreux = {
 				}
@@ -2144,7 +2251,7 @@ e_france = {
 			}
 		}
 		d_picardy = {
-			color={ 95 125 86 }
+			color={ 0 35 149 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -2174,18 +2281,27 @@ e_france = {
 				chti = "Sonme"
 				
 				b_amiens = {
+					chti = "Anmien"
 				}
 				b_abbeville = {
+					chti = "Advile"
+					flemish = "Abbekerke"
 				}
 				b_albert = {
+					chti = "Inke"
 				}
 				b_peronne = {
 				}
 				b_corbie = {
+					chti = "Corbeu"
+					flemish = "Korbie"
 				}
 				b_montdidier = {
+					chti = "Montdidji"
 				}
 				b_doullens = {
+					chti = "Dourlin"
+					flemish = "Dorland"
 				}
 			}
 			c_aisne = { # 1569
@@ -2196,8 +2312,10 @@ e_france = {
 				chti = "Ainne"
 				
 				b_laon = {
+					flemish = "Louwen"
 				}
 				b_saint_quentin = {
+					chti = "Saint-Kintin"
 				}
 				b_soissons = {
 				}
@@ -2208,6 +2326,7 @@ e_france = {
 				b_chauny = {
 				}
 				b_vervins = {
+					flemish = "Werwen"
 				}
 			}
 			c_oise = { # 1570
@@ -2218,8 +2337,10 @@ e_france = {
 				chti = "Oése"
 				
 				b_beauvais = {
+					chti = "Bieuvais"
 				}
 				b_compiegne = {
+					chti = "Compiène"
 				}
 				b_creil = {
 				}
@@ -2230,6 +2351,7 @@ e_france = {
 				b_senlis = {
 				}
 				b_clermont = {
+					chti = "Clérmont"
 				}
 			}
 		}
