@@ -3,7 +3,7 @@
 
 
 e_france = {
-	color={ 81 85 204 }
+	color={ 0 38 84 }
 	color2={ 255 255 20 }
 	
 	capital = 1551 # c_paris
@@ -19,7 +19,7 @@ e_france = {
 	
 	
 	k_provence = {
-		color={ 71 95 199 }
+		color={ 255 215 0 }
 		color2={ 255 255 255 }
 		
 		capital = 1496 # c_marseille
@@ -32,7 +32,7 @@ e_france = {
 		catalan = "Provença"
 		
 		d_provence = {
-			color={ 51 115 189 }
+			color={ 254 228 110 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -59,18 +59,42 @@ e_france = {
 				provencal = "Marsiho"
 				
 				b_aix = {
+					catalan = "Ais"
+					arpitan = "Èx"
+					occitan = "Ais"
+					provencal = "Ais"
 				}
 				b_marseille = {
+					catalan = "Marsella"
+					arpitan = "Marselye"
+					occitan = "Marselha"
+					provencal = "Marsiho"
 				}
 				b_arles = {
+					catalan = "Arle"
+					arpitan = "Ârlo"
+					occitan = "Arle"
+					provencal = "Arle"
 				}
 				b_marignane = {
+					catalan = "Marinhana"
+					occitan = "Marinhana"
+					provencal = "Marignano"
 				}
 				b_la_ciotat = {
+					catalan = "La Ciutat"
+					occitan = "La Ciutat"
+					provencal = "La Ciéutat"
 				}
 				b_martigues = {
+					catalan = "Lo Martegue"
+					occitan = "Lo Martegue"
+					provencal = "Lou Martegue"
 				}
 				b_aubagne = {
+					catalan = "Aubanha"
+					occitan = "Aubanha"
+					provencal = "Aubagno"
 				}
 			}
 			c_basses_alpes = { # 1499
@@ -83,18 +107,37 @@ e_france = {
 				provencal = "Nauta Provença"
 				
 				b_digne = {
+					catalan = "Dinha"
+					occitan = "Dinha"
+					provencal = "Digno"
 				}
 				b_manosque = {
+					catalan = "Manòsca"
+					occitan = "Manòsca"
+					provencal = "Manosco"
 				}
 				b_sisteron = {
+					provencal = "Sisteroun"
 				}
 				b_forcalquier = {
+					catalan = "Forcalquer"
+					occitan = "Forcauquièr"
+					provencal = "Fourcauquié"
 				}
 				b_barcelonnette = {
+					catalan = "Barceloneta de Provença"
+					occitan = "Barcilona de Provença"
+					provencal = "Barcilouneto"
 				}
 				b_castellane = {
+					catalan = "Castelana"
+					occitan = "Castelana"
+					provencal = "Castelano"
 				}
 				b_oraison = {
+					catalan = "Aurason"
+					occitan = "Aurason"
+					provencal = "Aurasoun"
 				}
 			}
 			c_comtat_venaissin = { # 1500
@@ -107,18 +150,38 @@ e_france = {
 				provencal = "Comtat Venaissin"
 				
 				b_carpentras = {
+					catalan = "Carpentràs"
+					occitan = "Carpentràs"
 				}
 				b_avignon = {
+					catalan = "Avinyó"
+					occitan = "Avinhon"
+					provencal = "Avignoun"
 				}
 				b_apt = {
+					catalan = "Ate"
+					occitan = "At"
+					provencal = "Ate"
 				}
 				b_orange = {
+					catalan = "Aurenja"
+					occitan = "Aurenja"
+					provencal = "Aurenjo"
 				}
 				b_cavaillon = {
+					catalan = "Cavalhon"
+					occitan = "Cavalhon"
+					provencal = "Cavaioun"
 				}
 				b_pertuis = {
+					catalan = "Pertús"
+					occitan = "Pertús"
+					provencal = "Pertus"
 				}
 				b_lisle_sur_sorgue = {
+					catalan = "L'Illa de Veniça"
+					occitan = "L'Illa de Sòrga"
+					provencal = "L'Ilo de Venisso"
 				}
 			}
 			c_nice = { # 1498
@@ -132,16 +195,34 @@ e_france = {
 				b_lou_casteu = {
 				}
 				b_nice = {
+					catalan = "Niça"
+					occitan = "Niça"
+					provencal = "Nissa"
 				}
 				b_cannes = {
+					catalan = "Canes"
+					occitan = "Canas"
+					provencal = "Cano"
 				}
 				b_antibes = {
+					catalan = "Antíbol"
+					occitan = "Antíbol"
+					provencal = "Antibo"
 				}
 				b_cagnes = {
+					catalan = "Canha"
+					occitan = "Canha"
+					provencal = "Cagno"
 				}
 				b_grasse = {
+					catalan = "Grassa"
+					occitan = "Grassa"
+					provencal = "Grasso"
 				}
 				b_le_cannet = {
+					catalan = "Lo Canet"
+					occitan = "Lo Canet"
+					provencal = "Lo Canet"
 				}
 			}
 			c_var = { # 1497
@@ -149,23 +230,43 @@ e_france = {
 				color2={ 255 255 255 }
 				
 				b_frejus = {
+					catalan = "Frejús"
+					occitan = "Frejús"
+					provencal = "Freju"
 				}
 				b_toulon = {
+					catalan = "Toló"
+					occitan = "Tolon"
+					provencal = "Touloun"
 				}
 				b_hyeres = {
+					catalan = "Ieras"
+					occitan = "Ieras"
+					provencal = "Iero"
 				}
 				b_draguignan = {
+					catalan = "Draguinhan"
+					occitan = "Draguinhan"
 				}
 				b_la_seyne = {
+					catalan = "La Sanha"
+					occitan = "La Sèina"
+					provencal = "La Sèino"
 				}
 				b_saint_raphael = {
+					catalan = "Sant Rafèu"
+					occitan = "Sant Rafèu"
+					provencal = "Sant Rafèu"
 				}
 				b_six_fours = {
+					catalan = "Sieisforns"
+					occitan = "Sièis Forns"
+					provencal = "Sièis Four"
 				}
 			}
 		}
 		d_cevennes = {
-			color={ 52 47 99 }
+			color={ 242 148 0 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -178,7 +279,6 @@ e_france = {
 	
 			occitan = "Cevenas"
 			provencal = "Cevenas"
-			euskara = "Proventza"
 			catalan = "Cevenes"
 			
 			c_gard = { # 1507
@@ -186,18 +286,37 @@ e_france = {
 				color2={ 255 255 255 }
 				
 				b_ales = {
+					catalan = "Alèst"
 				}
 				b_nimes = {
+					catalan = "Nimes"
+					occitan = "Nimes"
+					provencal = "Nimes"
 				}
 				b_le_vigan = {
+					catalan = "Lo Vigan"
+					occitan = "Lo Vigan"
+					provencal = "Lo Vigan"
 				}
 				b_bagnols_sur_ceze = {
+					catalan = "Banhòus de Céser"
+					occitan = "Banhòus de Céser"
+					provencal = "Banhòus de Cese"
 				}
 				b_beaucaire = {
+					catalan = "Bellcaire"
+					occitan = "Bèucaire"
+					provencal = "Bèucaire"
 				}
 				b_vauvert = {
+					catalan = "Vauvèrd"
+					occitan = "Vauverd"
+					provencal = "Vauverd"
 				}
 				b_le_grau_du_roi = {
+					catalan = "Lo Grau dau Rèi"
+					occitan = "Lo Grau dau Rei"
+					provencal = "Lou Grau dóu Rèi"
 				}
 			}
 			c_gevaudan = { # 1509
@@ -212,16 +331,34 @@ e_france = {
 				b_mende = {
 				}
 				b_marvejols = {
+					catalan = "Maruèjols"
+					occitan = "Maruèjols"
+					provencal = "Maruèjols"
 				}
 				b_apcher = {
+					catalan = "Sench Ale dels Archièrs"
+					occitan = "Sanch Eli d'Apchièr"
+					provencal = "Sench Ale da Z-Apchièr"
 				}
 				b_langogne = {
+					catalan = "Lengònha"
+					occitan = "Langònha"
+					provencal = "Langònha"
 				}
 				b_aumont_aubrac = {
+					catalan = "Autmont d'Aubrac"
+					occitan = "Autmont d'Aubrac"
+					provencal = "Z-Autmont d'Aubrac"
 				}
 				b_la_canourgue = {
+					catalan = "La Canorga"
+					occitan = "La Canorga"
+					provencal = "La Canorga"
 				}
 				b_chirac = {
+					catalan = "Chairac"
+					occitan = "Chairac"
+					provencal = "Chairac"
 				}
 			}
 			c_vivarais = { # 1508
@@ -233,23 +370,43 @@ e_france = {
 				provencal = "Vivarés"
 				
 				b_privas = {
+					occitan = "Privàs"
+					provencal = "Privàs"
 				}
 				b_annonay = {
+					catalan = "Anonai"
+					occitan = "Anonai"
+					provencal = "Anounai"
 				}
 				b_aubenas = {
+					catalan = "Aubenàs"
+					occitan = "Aubenàs"
+					provencal = "Aubenàs"
 				}
 				b_largentiere = {
+					catalan = "L'Argentièira"
+					occitan = "L'Argentèira"
+					provencal = "L'Argentèira"
 				}
 				b_guilherand_granges = {
+					catalan = "Guilherand e las Granjas"
+					occitan = "Guilherand Granges"
+					provencal = "Guilherand Granges"
 				}
 				b_tournon = {
+					catalan = "Tornon"
+					occitan = "Tornon"
+					provencal = "Tornon"
 				}
 				b_le_teil = {
+					catalan = "Lo Telh"
+					occitan = "Lo Telh"
+					provencal = "Lo Telh"
 				}
 			}
 		}
 		d_corsica = {
-			color={ 54 63 152 }
+			color={ 224 224 224 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -279,18 +436,26 @@ e_france = {
 				parisian = "Corse-du-Sud"
 				
 				b_ajaccio = {
+					corsican = "Aiacciu"
 				}
 				b_porto_vecchio = {
+					catalan = "Port Vell"
+					corsican = "Portivechju"
 				}
 				b_sartena = {
+					corsican = "Sartè"
 				}
 				b_vico = {
+					corsican = "Vicu"
 				}
 				b_bonifacio = {
+					corsican = "Bunifaziu"
 				}
 				b_bastelicaccia = {
+					corsican = "Bastilicaccia"
 				}
 				b_propriano = {
+					corsican = "Prupià"
 				}
 			}
 			c_cismonte = { # 1503
@@ -308,8 +473,10 @@ e_france = {
 				b_bastia = {
 				}
 				b_corte = {
+					corsican = "Corti"
 				}
 				b_borgo = {
+					corsican = "U Borgu"
 				}
 				b_biguglia = {
 				}
@@ -320,7 +487,7 @@ e_france = {
 			}
 		}
 		d_dauphine = {
-			color={ 32 88 156 }
+			color={ 206 68 55 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -348,16 +515,29 @@ e_france = {
 				provencal = "Isèra"
 				
 				b_vienne = {
+					catalan = "Viena"
+					arpitan = "Vièna"
+					occitan = "Viena"
+					provencal = "Viana"
 				}
 				b_grenoble = {
+					arpitan = "Grenoblo"
+					occitan = "Grenòble"
+					provencal = "Grenòble"
 				}
 				b_la_tour_du_pin = {
+					arpitan = "La Tor-du-Pin"
+					occitan = "La Tour de Pin"
+					provencal = "La Tour de Pin"
 				}
 				b_bourgoin = {
+					arpitan = "Brégon-Jaliô"
 				}
 				b_voiron = {
+					arpitan = "Vouèron"
 				}
 				b_echirolles = {
+					arpitan = "Ècherôles"
 				}
 				b_villefontaine = {
 				}
@@ -372,18 +552,39 @@ e_france = {
 				provencal = "Droumo"
 				
 				b_valence = {
+					catalan = "Valença"
+					arpitan = "Valença"
+					provencal = "Valinço"
 				}
 				b_montelimar = {
+					catalan = "Montelaimar"
+					occitan = "Montelaimar"
+					provencal = "Mountelimar"
 				}
 				b_die = {
+					catalan = "Dia"
+					arpitan = "Dia"
+					occitan = "Diá"
+					provencal = "Diá"
 				}
 				b_nyons = {
+					catalan = "Niom"
+					occitan = "Niom"
+					provencal = "Nioun"
 				}
 				b_romans = {
+					catalan = "Rumans"
+					provencal = "Roumans"
 				}
 				b_pierrelatte = {
+					catalan = "Pèiralata"
+					occitan = "Pèiralata"
+					provencal = "Pèiro-Lato"
 				}
 				b_livron_sur_drome = {
+					catalan = "Liuron de Droma"
+					occitan = "Liuron de Droma"
+					provencal = "Liuron de Droma"
 				}
 			}
 			c_hautes_alpes = { # 1505
@@ -398,21 +599,37 @@ e_france = {
 				b_gap = {
 				}
 				b_briancon = {
+					provencal = "Briançoun"
 				}
 				b_saint_veran = {
+					catalan = "Sant Veran"
+					occitan = "Sent Veran"
+					provencal = "Sent Veran"
 				}
 				b_embrun = {
+					catalan = "Ambrun"
+					occitan = "Ambrun"
+					provencal = "Ambrun"
 				}
 				b_laragne_monteglin = {
+					catalan = "L'Aranha e Montaiglin"
+					occitan = "L'Aranha Montaiglin"
+					provencal = "L'Aranha Montaiglin"
 				}
 				b_veynes = {
+					catalan = "Veinet"
+					occitan = "Vèina"
+					provencal = "Vèina"
 				}
 				b_guillestre = {
+					catalan = "Guilhèstra"
+					occitan = "Guilhèstra"
+					provencal = "Guilhèstra"
 				}
 			}
 		}
 		d_lyonnais = {
-			color={ 16 3 38 }
+			color={ 250 153 109 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -440,18 +657,31 @@ e_france = {
 				provencal = "Ròse"
 				
 				b_villeurbanne = {
+					arpitan = "Velorbana"
 				}
 				b_lyon = {
+					catalan = "Lió"
+					arpitan = "Liyon"
+					occitan = "Lion"
+					provencal = "Lion"
 				}
 				b_venissieux = {
+					arpitan = "Vènissiœx"
 				}
 				b_vaulx_en_velin = {
 				}
 				b_villefranche_sur_saone = {
+					catalan = "Vilafranca"
+					arpitan = "Velafranche"
+					occitan = "Vilafranca"
+					provencal = "Vilafrancha"
 				}
 				b_saint_priest = {
+					arpitan = "Sant-Priést"
 				}
 				b_confluences = {
+					occitan = "La Confluéncia"
+					provencal = "La Confluéncia"
 				}
 			}
 			c_ain = { # 1513
@@ -463,21 +693,28 @@ e_france = {
 				b_oyonnax = {
 				}
 				b_bourg_en_bresse = {
+					arpitan = "Bôrg"
+					occitan = "Borg de Bressa"
+					provencal = "Borg de Bressa"
 				}
 				b_gex = {
+					arpitan = "Gèx"
 				}
 				b_belley = {
+					arpitan = "Bèlê"
 				}
 				b_valserhone = {
+					arpitan = "Vâlcerôno"
 				}
 				b_amberieu = {
+					arpitan = "Ambèriœx"
 				}
 				b_miribel = {
 				}
 			}
 		}
 		d_monaco = {
-			color={ 87 189 187 }
+			color={ 169 84 23 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -507,23 +744,42 @@ e_france = {
 				breton = "Monako"
 				
 				b_le_rocher = {
+					occitan = "La Ròca"
+					provencal = "Lo Rocàs"
+					catalan = "Lo Rocàs"
 				}
 				b_monte_carlo = {
+					occitan = "Montcarles"
+					provencal = "Montcarles"
+					catalan = "Montecarlo"
 				}
 				b_menton = {
+					provencal = "Mentan"
 				}
 				b_beausoleil = {
+					occitan = "Bèu-Soleu"
+					provencal = "Bèu-Soleu"
+					catalan = "Bèusoleu"
 				}
 				b_cap_dail = {
+					occitan = "Caup d'Alh"
+					provencal = "Cap d'Alh"
+					catalan = "Caup d'Alh"
 				}
 				b_roquebrune = {
+					occitan = "Ròcabruna"
+					provencal = "Ròcabruna"
+					catalan = "Ròcabruna"
 				}
 				b_fontvieille = {
+					occitan = "Fòntvielha"
+					provencal = "Fontvièio"
+					catalan = "Fòntvielha"
 				}
 			}
 		}
 		d_savoy = {
-			color={ 83 80 107 }
+			color={ 204 9 12 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -545,7 +801,7 @@ e_france = {
 			chti = "Savoie"
 			
 			c_savoy = { # 1510
-				color={ 73 90 102 }
+				color={ 204 9 12 }
 				color2={ 255 255 255 }
 	
 				occitan = "Savòia"
@@ -559,18 +815,28 @@ e_france = {
 				chti = "Savoie"
 				
 				b_aix_les_bains = {
+					arpitan = "Èx-los-Bens"
 				}
 				b_chambery = {
+					catalan = "Chamberí"
+					arpitan = "Chambèri"
+					occitan = "Chamberí"
+					provencal = "Chamberí"
 				}
 				b_albertville = {
+					arpitan = "Arbèrtvela"
 				}
 				b_saint_jean_de_maurienne = {
+					arpitan = "Sent-Jian-de-Môrièna"
 				}
 				b_la_motte_servolex = {
+					arpitan = "La Mota-Cèrvolê"
 				}
 				b_la_ravoire = {
+					arpitan = "La Ravouéra"
 				}
 				b_bourg_saint_maurice = {
+					arpitan = "Bôrg-Sant-Mori"
 				}
 			}
 			c_mont_blanc = { # 1511
@@ -578,18 +844,27 @@ e_france = {
 				color2={ 255 255 255 }
 				
 				b_annecy = {
+					arpitan = "Èneci"
+					occitan = "Anecí"
+					provencal = "Anecí"
 				}
 				b_annemasse = {
+					arpitan = "Anemâsse"
 				}
 				b_cluses = {
+					arpitan = "Clluses"
 				}
 				b_thonon = {
+					arpitan = "Tonon"
 				}
 				b_sallanches = {
+					arpitan = "Salenches"
 				}
 				b_rumilly = {
+					arpitan = "Remelyi"
 				}
 				b_faucigny = {
+					arpitan = "Fôcegni"
 				}
 			}
 		}
@@ -639,18 +914,25 @@ e_france = {
 				breton = "Roazhon"
 				
 				b_aubigne = {
+					breton = "Ais"
 				}
 				b_rennes = {
+					breton = "Elvinieg"
 				}
 				b_saint_pierre = {
+					breton = "Sant-Pêr"
 				}
 				b_cogles = {
+					breton = "Gougleiz"
 				}
 				b_fougeres = {
+					breton = "Felger"
 				}
 				b_vitre = {
+					breton = "Gwitreg"
 				}
 				b_la_guerche_de_bretagne = {
+					breton = "Gwerc'h-Breizh"
 				}
 			}
 			c_dol = { # 1543
@@ -660,16 +942,22 @@ e_france = {
 				b_dol = {
 				}
 				b_epiniac = {
+					breton = "Sperneg"
 				}
 				b_cherrueix = {
+					breton = "Kerruer"
 				}
 				b_baguer_pican = {
+					breton = "Bagar-Bihan"
 				}
 				b_chateauneuf = {
+					breton = "Kastell-Noez"
 				}
 				b_mont_dol = {
+					breton = "Ais"
 				}
 				b_la_boussac = {
+					breton = "Ais"
 				}
 			}
 			c_nantes = { # 1546
@@ -679,18 +967,25 @@ e_france = {
 				breton = "Naoned"
 				
 				b_saint_herbalin = {
+					breton = "Ais"
 				}
 				b_nantes = {
+					breton = "Ais"
 				}
 				b_saint_nazaire = {
+					breton = "Ais"
 				}
 				b_reze = {
+					breton = "Ais"
 				}
 				b_saint_sebastien_sur_loire = {
+					breton = "Ais"
 				}
 				b_orvault = {
+					breton = "Ais"
 				}
 				b_chateaubriant = {
+					breton = "Ais"
 				}
 			}
 			c_saint_brieuc = { # 1545
@@ -700,18 +995,25 @@ e_france = {
 				breton = "Sant-Brieg"
 				
 				b_saint_brieuc = {
+					breton = "Ais"
 				}
 				b_paimpol = {
+					breton = "Ais"
 				}
 				b_lamballe = {
+					breton = "Ais"
 				}
 				b_chatelaudren = {
+					breton = "Ais"
 				}
 				b_plouha = {
+					breton = "Ais"
 				}
 				b_lanvollon = {
+					breton = "Ais"
 				}
 				b_moncontour = {
+					breton = "Ais"
 				}
 			}
 			c_saint_malo = { # 1544
@@ -721,18 +1023,25 @@ e_france = {
 				breton = "Sant-Maloù"
 				
 				b_saint_servan = {
+					breton = "Ais"
 				}
 				b_saint_malo = {
+					breton = "Ais"
 				}
 				b_dinan = {
+					breton = "Ais"
 				}
 				b_rohan = {
+					breton = "Ais"
 				}
 				b_corseul = {
+					breton = "Ais"
 				}
 				b_porhoet = {
+					breton = "Ais"
 				}
 				b_broceliande = {
+					breton = "Ais"
 				}
 			}
 		}
@@ -949,7 +1258,7 @@ e_france = {
 			}
 		}
 		d_berry = {
-			color={ 14 87 25 }
+			color={ 31 48 80 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -1050,6 +1359,7 @@ e_france = {
 			parisian = "Bourgogne"
 			walloon = "Borgogne"
 			rhenish = "Burgund"
+			swabian = "Burgund"
 			
 			c_cote_dor = { # 1583
 				color={ 72 74 50 }
@@ -1256,6 +1566,7 @@ e_france = {
 			catalan = "Franc-Comtat"
 			chti = "Franke-Comtè"
 			rhenish = "Freigrafschaft"
+			swabian = "Freigrafschaft"
 			
 			c_doubs = { # 1587
 				color={ 103 105 78 }
@@ -1430,6 +1741,7 @@ e_france = {
 				color2={ 255 255 255 }
 	
 				rhenish = "Nanzig"
+				swabian = "Nanzig"
 				
 				b_vandoeuvre = {
 				}
@@ -1451,6 +1763,7 @@ e_france = {
 				color2={ 255 255 255 }
 	
 				rhenish = "Maas"
+				swabian = "Maas"
 				arpitan = "Môsa"
 				walloon = "Moûse"
 				
@@ -1474,6 +1787,7 @@ e_france = {
 				color2={ 255 255 255 }
 	
 				rhenish = "Mosel"
+				swabian = "Mosel"
 				arpitan = "Mosèla"
 				
 				b_montigny = {
@@ -1496,6 +1810,7 @@ e_france = {
 				color2={ 255 255 255 }
 	
 				rhenish = "Vogesen"
+				swabian = "Vogesen"
 				arpitan = "Vôges"
 				
 				b_thaon_les_vosges = {
