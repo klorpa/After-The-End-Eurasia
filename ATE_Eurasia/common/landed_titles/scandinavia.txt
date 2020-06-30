@@ -661,7 +661,7 @@ e_scandinavia = {
 			}
 		}
 		d_smaland = {
-			color={ 77 83 139 }
+			color={ 50 80 165 }
 			color2={ 255 255 255 }
 		
 			capital = 303 # Skåne
@@ -677,30 +677,6 @@ e_scandinavia = {
 				b_moheda = {}
 				b_lessebo = {}
 				b_skruv = {}
-			}
-			c_kalmar = {
-				color={ 169 0 52 }
-				color2={ 255 255 255 }
-			
-				b_kalmar = {}
-				b_emmaboda = {}
-				b_torsas = {}
-				b_nybro = {}
-				b_alem = {}
-				b_orrefors = {}
-				b_monstersos = {}
-			}
-			c_oland = {
-				color={ 0 48 50 }
-				color2={ 255 255 255 }
-			
-				b_farjestaden = {}
-				b_sandvik = {}
-				b_lottorp = {}
-				b_byxelkrok = {}
-				b_morbylonga = {}
-				b_mellby = {}
-				b_borgholm = {}
 			}
 			c_hoglandet = {
 				color={ 127 210 179 }
@@ -738,6 +714,39 @@ e_scandinavia = {
 				b_hamneda = {}
 				b_ingelstad = {}
 			}
+		}
+		
+		d_kalmar = {
+		    color={ 80 20 95 }
+			color2={ 255 255 255 }
+			
+			capital = 486
+			
+			c_kalmar = {
+				color={ 169 0 52 }
+				color2={ 255 255 255 }
+			
+				b_kalmar = {}
+				b_emmaboda = {}
+				b_torsas = {}
+				b_nybro = {}
+				b_alem = {}
+				b_orrefors = {}
+				b_monstersos = {}
+			}
+			c_oland = {
+				color={ 0 48 50 }
+				color2={ 255 255 255 }
+			
+				b_farjestaden = {}
+				b_sandvik = {}
+				b_lottorp = {}
+				b_byxelkrok = {}
+				b_morbylonga = {}
+				b_mellby = {}
+				b_borgholm = {}
+			}
+			
 			c_tjust = {
 				color={ 255 45 107 }
 				color2={ 255 255 255 }
@@ -751,11 +760,12 @@ e_scandinavia = {
 				b_valdemarksvik = {}
 			}
 		}
+		
 		d_vastra_gotaland = {
-			color={ 85 67 127 }
+			color={ 140 67 177 }
 			color2={ 255 255 255 }
 		
-			capital = 303 # Skåne
+			capital = 303 
 			
 			c_vastra_gotaland = {
 				color={ 126 42 49 }
@@ -840,8 +850,8 @@ e_scandinavia = {
 				b_hemse = {}
 			}
 		}
-		d_malardalen = {
-			color = { 58 52 97 }
+		d_svealand = {
+			color = { 180 180 220 }
 			color2={ 255 255 255 }
 			
 			capital = 301 # Gotland
@@ -858,6 +868,20 @@ e_scandinavia = {
 				b_danmark = {}
 				b_rinkeby = {}
 			}
+			
+			c_orebro = {
+				color={ 168 30 47 }
+				color2={ 255 255 255 }
+				
+				b_orebro = {}
+				b_karlskoga = {}
+				b_kumla = {}
+				b_zinkgruvan = {}
+				b_nora = {}
+				b_lindesberg = {}
+				b_kopparbeg = {}
+			}
+			
 			c_sodermanland = {
 				color={ 84 24 46 }
 				color2={ 255 255 255 }
@@ -884,7 +908,7 @@ e_scandinavia = {
 			}
 		}
 		d_bergslagen = {
-			color = { 84 76 126 }
+			color = { 125 105 178 }
 			color2={ 255 255 255 }
 			
 			capital = 301 # Gotland
@@ -900,18 +924,6 @@ e_scandinavia = {
 				b_torsby = {}
 				b_eda = {}
 				b_uddeholm = {}
-			}
-			c_orebro = {
-				color={ 168 30 47 }
-				color2={ 255 255 255 }
-				
-				b_orebro = {}
-				b_karlskoga = {}
-				b_kumla = {}
-				b_zinkgruvan = {}
-				b_nora = {}
-				b_lindesberg = {}
-				b_kopparbeg = {}
 			}
 			c_dalarna = {
 				color={ 84 9 171 }
@@ -981,8 +993,53 @@ e_scandinavia = {
 				b_ramundberget = {}
 			}
 		}
+		
 		d_norrland = {
-			color={ 64 58 98 }
+		    color={ 195 195 200 }
+			color2={ 255 255 255 }
+			
+			capital = 506
+			
+			c_vasterbotten = {
+				color={ 0 201 40 }
+				color2={ 255 255 255 }
+				
+				b_umeo = {}
+				b_skellefteo = {}
+				b_bureo = {}
+				b_nordmaling = {}
+				b_bryske = {}
+				b_robertsfors = {}
+				b_vindeln = {}
+			}
+			c_norbotten = {
+				color={ 168 198 167 }
+				color2={ 255 255 255 }
+				
+				b_bodenfestet = {}
+				b_boden = {}
+				b_luleo = {}
+				b_piteo = {}
+				b_kalix = {}
+				b_tore = {}
+				b_raneo = {}
+			}
+			c_lappland = {
+				color={ 74 24 177 }
+				color2={ 255 255 255 }
+				
+				b_storuman = {}
+				b_vilhelmina = {}
+				b_hoting = {}
+				b_stromsund = {}
+				b_asele = {}
+				b_dorotea = {}
+				b_saxnas = {}
+			}
+		}
+		
+		d_halsingland = {
+			color={ 64 58 180 }
 			color2={ 255 255 255 }
 			
 			capital = 282 # Jamtland
@@ -1022,42 +1079,6 @@ e_scandinavia = {
 				b_harnosand = {}
 				b_indal = {}
 				b_kovland = {}
-			}
-			c_vasterbotten = {
-				color={ 0 201 40 }
-				color2={ 255 255 255 }
-				
-				b_umeo = {}
-				b_skellefteo = {}
-				b_bureo = {}
-				b_nordmaling = {}
-				b_bryske = {}
-				b_robertsfors = {}
-				b_vindeln = {}
-			}
-			c_norbotten = {
-				color={ 168 198 167 }
-				color2={ 255 255 255 }
-				
-				b_bodenfestet = {}
-				b_boden = {}
-				b_luleo = {}
-				b_piteo = {}
-				b_kalix = {}
-				b_tore = {}
-				b_raneo = {}
-			}
-			c_lappland = {
-				color={ 74 24 177 }
-				color2={ 255 255 255 }
-				
-				b_storuman = {}
-				b_vilhelmina = {}
-				b_hoting = {}
-				b_stromsund = {}
-				b_asele = {}
-				b_dorotea = {}
-				b_saxnas = {}
 			}
 		}
 	}
