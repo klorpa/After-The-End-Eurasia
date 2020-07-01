@@ -7,6 +7,454 @@ e_italy = {
 	
 	culture = italian
 	
+	k_venetia = {
+		color = { 54 167 156 }
+		color2={ 255 255 255 }
+		capital = 356 # Venice
+		culture = italian
+		
+		d_venice = {
+			color = { 97 130 112 }
+			color2={ 255 255 255 }
+			
+			capital = 356 #Venice
+			culture = venetian
+			
+			c_venice = {
+				color={ 97 130 112 }
+				color2={ 255 255 255 }
+				
+				b_san_marco = {}
+				b_cannaregio = {}
+				b_santa_croce = {}
+				b_san_polo = {}
+				b_castello = {}
+				b_dorsoduro = {}
+				b_lido = {}
+			}
+		}
+		d_veneto = {
+			color = { 34 137 126 }
+			capital = 356 # Venice
+			
+			c_padua = {
+				color={ 14 51 31 }
+				color2={ 255 255 255 }
+				
+				b_mestre = {}
+				b_rovigo = {}
+				b_padua = {}
+				b_mira = {}
+				b_chioggia = {}
+				b_adria = {}
+				b_albignasego = {}
+			}
+			c_verona = {
+				color={ 123 164 127 }
+				color2={ 255 255 255 }
+				
+				b_villafranca_di_Verona
+				b_vicenza = {}
+				b_verona = {}
+				b_bassano_del_grappa = {}
+				b_schio = {}
+				b_villa = {}
+				b_san_giovanni_lupatoto = {}
+				b_legnago = {}
+			}
+			c_treviso = {
+				color={ 80 147 86 }
+				color2={ 255 255 255 }
+				
+				b_treviso = {}
+				b_conegliano = {}
+				b_castelfranco_veneto = {}
+				b_montebelluna = {}
+				b_vittorio_veneto = {}
+				b_paese = {}
+				b_oderzo = {}
+			}
+			c_friuli = {
+				color={ 112 146 115 }
+				color2={ 255 255 255 }
+				
+				b_pordenone = {}
+				b_sacile = {}
+				b_udine = {}
+				b_cordenons = {}
+				b_codroipo = {}
+				b_azzano_decimo = {}
+				b_porcia = {}
+			}
+		}
+	d_trentino = {
+		color = { 34 137 126 }
+		capital = 356 # Venice
+			
+		c_trentino = {
+			color={ 63 117 68 }
+			color2={ 255 255 255 }
+				
+				b_rovereto = {}
+				b_pergine_valsugana = {}
+				b_trento = {}
+				b_riva_del_garda = {}
+				b_cles = {}
+				b_tione_di_trento = {}
+				b_mezzocorona = {}
+			}
+		c_belluno = {
+			color={ 122 133 123 }
+			color2={ 255 255 255 }
+				
+				b_feltre = {}
+				b_borgo_valbelluna = {}
+				b_belluno = {}
+				b_sedico = {}
+				b_ponte_nelle_alpi = {}
+				b_alpago = {}
+				b_santa_giustina = {}
+			}
+		c_south_tyrol = {
+			color={ 122 133 123 }
+			color2={ 255 255 255 }
+				
+				b_meran = {}
+				b_brixen = {}
+				b_bozen = {}
+				b_leifers = {}
+				b_bruneck = {}
+				b_lana = {}
+				b_ritten = {}
+			}
+		}
+	}
+	k_alta_italia = {
+		color={ 244 227 160 }
+		color2={ 255 255 255 }
+		#capital = 235 # Lombardia
+		
+		capital = 234 # Pavia
+		
+		culture = italian
+		
+		d_genoa = {
+			color={ 244 141 120 }
+			color2={ 255 255 255 }
+			
+			capital = 233 # Genoa
+			
+			dignity = 10
+			
+			c_genoa = {
+				color={ 99 174 101 }
+				color2={ 255 255 255 }
+				
+				b_genoa = {}
+				b_la_spezia = {}
+				b_rapallo = {}
+				b_chiavari = {}
+				b_sestri_levante = {}
+				b_lavagna = {}
+				b_serra_ricco = {}
+			}
+			c_savona = {
+				color={ 253 247 228 }
+				color2={ 255 255 255 }
+				
+				b_sanremo = {}
+				b_imperia = {}
+				b_savona = {}
+				b_albenga = {}
+				b_ventimiglia = {}
+				b_taggia = {}
+				b_bordighera = {}
+			}
+		}
+		d_turin = {
+			color={ 118 18 50 }
+			color2={ 255 255 255 }
+			
+			capital = 233 # Genoa
+			
+			dignity = 10
+			
+			c_cuneo = {
+				color={ 134 181 53 }
+				color2={ 255 255 255 }
+				
+				b_alba = {}
+				b_bra = {}
+				b_cuneo = {}
+				b_fossano = {}
+				b_mondovi = {}
+				b_savigliano = {}
+				b_saluzzo = {}
+			}
+			c_turin = {
+				color={ 71 98 51 }
+				color2={ 255 255 255 }
+				
+				b_moncalieri = {}
+				b_collegno = {}
+				b_torino = {}
+				b_rivoli = {}
+				b_nichelino = {}
+				b_settimo_torinese = {}
+				b_grugliasco = {}
+			}
+			c_aosta = {
+				color={ 112 134 94 }
+				color2={ 255 255 255 }
+				
+				b_sarre = {}
+				b_chatillon = {}
+				b_aosta = {}
+				b_saint_vincent = {}
+				b_quart = {}
+				b_pont_saint_martin = {}
+				b_saint_christophe = {}
+			}
+			c_alessandria = {
+				color={ 70 88 56 }
+				color2={ 255 255 255 }
+				
+				b_alessandria = {}
+				b_casale_monferrato = {}
+				b_asti = {}
+				b_novi_ligure = {}
+				b_tortona = {}
+				b_acqui_terme = {}
+				b_valenza = {}
+			}
+			c_novara = {
+				color={ 64 149 74 }
+				color2={ 255 255 255 }
+				
+				b_verbania = {}
+				b_borgomanero = {}
+				b_novara = {}
+				b_vercelli = {}
+				b_gattinara = {}
+				b_galliate = {}
+				b_omegna = {}
+			}
+		}
+		d_lombardia = {
+			color={ 200 133 222 }
+			color2={ 255 255 255 }
+			capital = 235 # Lombardia
+
+			lombard = "Lombardy"
+			
+			c_pavia = {
+				color={ 93 126 97 }
+				color2={ 255 255 255 }
+				
+				b_vigevano = {}
+				b_voghera = {}
+				b_pavia = {}
+				b_mortara = {}
+				b_stradella = {}
+				b_gambolo = {}
+				b_garlasco = {}
+			}
+		}
+	d_emilia_romagna = {
+		color={ 225 180 180 }
+		color2={ 255 255 255 }
+			
+		capital = 322 # Modena
+			
+			c_parma = {
+				color={ 33 58 6 }
+				color2={ 255 255 255 }
+				
+				b_piacenza = {}
+				b_fidenza = {}
+				b_parma = {}
+				b_salsomaggiore_terme = {}
+				b_fiorenzuola_d_arda = {}
+				b_castel_san_giovanni = {}
+				b_collecchio = {}
+			}
+			c_modena = {
+				color={ 50 95 32 }
+				color2={ 255 255 255 }
+				
+				b_reggio-emilia = {}
+				b_carpi = {}
+				b_modena = {}
+				b_sassuolo = {}
+				b_formigine = {}
+				b_castelfranco_emilia = {}
+				b_casalgrande = {}
+			}
+			c_bologna = {
+				color={ 77 104 66 }
+				color2={ 255 255 255 }
+				
+				b_imola = {}
+				b_casalecchio_di_reno = {}
+				b_bologna = {}
+				b_san_lazzaro_di_savena = {}
+				b_valsamoggia = {}
+				b_san_giovanni_in_persiceto = {}
+				b_castel_san_pietro_terme = {}
+			}
+			c_ravenna = {
+				color={ 97 159 72 }
+				color2={ 255 255 255 }
+				
+				b_faenza = {}
+				b_lugo = {}
+				b_ravenna = {}
+				b_cervia = {}
+				b_bagnacavallo = {}
+				b_russi = {}
+				b_alfonsine = {}
+			}
+			c_ferrara = {
+				color={ 170 208 173 }
+				color2={ 255 255 255 }
+				
+				b_cento = {}
+				b_comacchio = {}
+				b_ferrara = {}
+				b_argenta = {}
+				b_copparo = {}
+				b_bondeno = {}
+				b_riva_del_po = {}
+			}
+			c_rimini = {
+				color={ 97 170 67 }
+				color2={ 255 255 255 }
+				
+				b_forli = {}
+				b_cesena = {}
+				b_rimini = {}
+				b_argenta = {}
+				b_savignano_sul_rubicone = {}
+				b_forlimpopoli = {}
+				b_san_mauro_pascoli = {}
+			}
+		}
+	d_milano = {
+		color = { 252 238 227 }
+		color2={ 255 255 255 }
+		
+			c_pavia = {
+				color={ 97 170 67 }
+				color2={ 255 255 255 }
+				
+				b_vigevano = {}
+				b_voghera = {}
+				b_pavia = {}
+				b_mortara = {}
+				b_stradella = {}
+				b_gambolo = {}
+				b_garlasco = {}
+			}
+			c_milano = {
+				color={ 79 117 83 }
+				color2={ 255 255 255 }
+				
+				b_sesto_san_giovanni = {}
+				b_monza = {}
+				b_milan = {}
+				b_legnano = {}
+				b_rho = {}
+				b_cologno_monzese = {}
+				b_lissone = {}
+			}
+			c_como = {
+				color={ 143 182 147 }
+				color2={ 255 255 255 }
+				
+				b_como = {}
+				b_varese = {}
+				b_busto_arsizio = {}
+				b_gallarate = {}
+				b_lecco = {}
+				b_cantu = {}
+				b_saronno = {}
+			}
+			c_sondrio = {
+				color={ 59 153 117 }
+				color2={ 255 255 255 }
+				
+				b_morbegno = {}
+				b_tirano = {}
+				b_sondrio = {}
+				b_chiavenna = {}
+				b_livigno = {}
+				b_cosio_valtellino = {}
+				b_talamona = {}
+			}
+			c_bergamo = {
+				color={ 62 181 117 }
+				color2={ 255 255 255 }
+				
+				b_citta_alta = {}
+				b_ponte_san_pietro = {}
+				b_bergamo = {}
+				b_seriate = {}
+				b_treviglio = {}
+				b_clusone = {}
+				b_dalmine = {}
+			}
+			c_brescia = {
+				color={ 146 205 173 }
+				color2={ 255 255 255 }
+				
+				b_falcone_d_italia = {}
+				b_desenzano_del_garda = {}
+				b_brescia = {}
+				b_lumezzane = {}
+				b_palazzolo_sull_oglio = {}
+				b_rovato = {}
+				b_chiari = {}
+			}
+			c_mantua = {
+				color={ 26 187 124 }
+				color2={ 255 255 255 }
+				
+				b_mantua = {}
+				b_castiglione_delle_stiviere = {}
+				b_cremona = {}
+				b_crema = {}
+				b_casalmaggiore = {}
+				b_castelleone = {}
+				b_pandino = {}
+			}
+		}
+	}
+	k_san_marino = {
+		color={ 94 182 228 }
+		color2={ 255 255 255 }
+		
+		capital = 334 # Napoli
+		
+		d_san_marino = {
+			color={ 94 190 228 }
+			color2={ 255 255 255 }
+			
+			capital = 333 # Rome
+			
+			c_san_marino = {
+				color={ 94 182 228 }
+				color2={ 255 255 255 }
+				
+				b_san_marino = {}
+				b_borgo_maggiore = {}
+				b_dogana ={}
+				b_faetano = {}
+				b_acquaviva = {}
+				b_domagnano = {}
+				b_chiesanuova = {}
+			}
+		}
+	}
 	k_centro = {
 		color={ 215 141 152 }
 		color2={ 255 255 255 }

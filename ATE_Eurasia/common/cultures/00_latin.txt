@@ -5,7 +5,7 @@ latin = {
 	romansh = {
 		graphical_cultures = { italiangfx southerngfx westerngfx }
 		
-		color = { 0.95 0.95 0.75 }
+		color = { 0.65 0.95 0.75 }
 
 		male_names = {
 			Alfons_Alphonse Alois Antoni_Anthony
@@ -45,7 +45,7 @@ latin = {
 	sicilian = {
 		graphical_cultures = { italiangfx southerngfx westerngfx }
 		
-		color = { 0.95 0.95 0.75 }
+		color = { 0.85 0.95 0.75 }
 
 		male_names = {
 			Alfons_Alphonse Alois Antoni_Anthony
@@ -82,10 +82,10 @@ latin = {
 		mat_grm_name_chance = 40
 		mother_name_chance = 5
 	}
-	neopolitan = {
+	neapolitan = {
 		graphical_cultures = { italiangfx southerngfx westerngfx }
 		
-		color = { 0.95 0.95 0.75 }
+		color = { 0.55 0.95 0.75 }
 
 		male_names = {
 			Alfons_Alphonse Alois Antoni_Anthony
@@ -125,7 +125,247 @@ latin = {
 	umbrian = {
 		graphical_cultures = { italiangfx southerngfx westerngfx }
 		
-		color = { 0.95 0.95 0.75 }
+		color = { 0.80 0.95 0.75 }
+
+		male_names = {
+			Alfons_Alphonse Alois Antoni_Anthony
+			Benedetg_Benedict
+			Carl_Charles Curdin
+			Donat
+			Flurin_Florian
+			Gaudenz Giacun_Jacob Gian_John Gieri_George Giusep_Joseph Guglielm_William
+			Hasper_Casper
+			Linard_Leonard Ludivic_Louis Luzius_Lucius
+			Mitgel_Michael
+			Oscar
+			Peider_Peter Placi
+			Richard
+			Schimun_Simon
+			Tarzisius Tumasch_Thomas
+			Ulisses
+		}
+		female_names = {
+			Angiolina_Angela
+			Barbara Bianca
+			Margarita_Margaret Maria_Mary
+		}
+		from_dynasty_prefix = "de "
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	tuscan = {
+		graphical_cultures = { italiangfx southerngfx westerngfx }
+		
+		color = { 0.70 0.95 0.75 }
+
+		male_names = {
+			Alfons_Alphonse Alois Antoni_Anthony
+			Benedetg_Benedict
+			Carl_Charles Curdin
+			Donat
+			Flurin_Florian
+			Gaudenz Giacun_Jacob Gian_John Gieri_George Giusep_Joseph Guglielm_William
+			Hasper_Casper
+			Linard_Leonard Ludivic_Louis Luzius_Lucius
+			Mitgel_Michael
+			Oscar
+			Peider_Peter Placi
+			Richard
+			Schimun_Simon
+			Tarzisius Tumasch_Thomas
+			Ulisses
+		}
+		female_names = {
+			Angiolina_Angela
+			Barbara Bianca
+			Margarita_Margaret Maria_Mary
+		}
+		from_dynasty_prefix = "de "
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	ligurian = {
+		graphical_cultures = { italiangfx southerngfx westerngfx }
+		
+		color = { 0.65 0.95 0.75 }
+
+		male_names = {
+			Alfons_Alphonse Alois Antoni_Anthony
+			Benedetg_Benedict
+			Carl_Charles Curdin
+			Donat
+			Flurin_Florian
+			Gaudenz Giacun_Jacob Gian_John Gieri_George Giusep_Joseph Guglielm_William
+			Hasper_Casper
+			Linard_Leonard Ludivic_Louis Luzius_Lucius
+			Mitgel_Michael
+			Oscar
+			Peider_Peter Placi
+			Richard
+			Schimun_Simon
+			Tarzisius Tumasch_Thomas
+			Ulisses
+		}
+		female_names = {
+			Angiolina_Angela
+			Barbara Bianca
+			Margarita_Margaret Maria_Mary
+		}
+		from_dynasty_prefix = "de "
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	piedmontese = {
+		graphical_cultures = { italiangfx southerngfx westerngfx }
+		
+		color = { 0.90 0.90 0.75 }
+
+		male_names = {
+			Alfons_Alphonse Alois Antoni_Anthony
+			Benedetg_Benedict
+			Carl_Charles Curdin
+			Donat
+			Flurin_Florian
+			Gaudenz Giacun_Jacob Gian_John Gieri_George Giusep_Joseph Guglielm_William
+			Hasper_Casper
+			Linard_Leonard Ludivic_Louis Luzius_Lucius
+			Mitgel_Michael
+			Oscar
+			Peider_Peter Placi
+			Richard
+			Schimun_Simon
+			Tarzisius Tumasch_Thomas
+			Ulisses
+		}
+		female_names = {
+			Angiolina_Angela
+			Barbara Bianca
+			Margarita_Margaret Maria_Mary
+		}
+		from_dynasty_prefix = "de "
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	lombard = {
+		graphical_cultures = { italiangfx southerngfx westerngfx }
+		
+		color = { 0.90 0.85 0.75 }
+
+		male_names = {
+			Alfons_Alphonse Alois Antoni_Anthony
+			Benedetg_Benedict
+			Carl_Charles Curdin
+			Donat
+			Flurin_Florian
+			Gaudenz Giacun_Jacob Gian_John Gieri_George Giusep_Joseph Guglielm_William
+			Hasper_Casper
+			Linard_Leonard Ludivic_Louis Luzius_Lucius
+			Mitgel_Michael
+			Oscar
+			Peider_Peter Placi
+			Richard
+			Schimun_Simon
+			Tarzisius Tumasch_Thomas
+			Ulisses
+		}
+		female_names = {
+			Angiolina_Angela
+			Barbara Bianca
+			Margarita_Margaret Maria_Mary
+		}
+		from_dynasty_prefix = "de "
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	romagnol = {
+		graphical_cultures = { italiangfx southerngfx westerngfx }
+		
+		color = { 0.75 0.80 0.75 }
+
+		male_names = {
+			Alfons_Alphonse Alois Antoni_Anthony
+			Benedetg_Benedict
+			Carl_Charles Curdin
+			Donat
+			Flurin_Florian
+			Gaudenz Giacun_Jacob Gian_John Gieri_George Giusep_Joseph Guglielm_William
+			Hasper_Casper
+			Linard_Leonard Ludivic_Louis Luzius_Lucius
+			Mitgel_Michael
+			Oscar
+			Peider_Peter Placi
+			Richard
+			Schimun_Simon
+			Tarzisius Tumasch_Thomas
+			Ulisses
+		}
+		female_names = {
+			Angiolina_Angela
+			Barbara Bianca
+			Margarita_Margaret Maria_Mary
+		}
+		from_dynasty_prefix = "de "
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	venetian = {
+		graphical_cultures = { italiangfx southerngfx westerngfx }
+		
+		color = { 0.75 0.55 0.75 }
 
 		male_names = {
 			Alfons_Alphonse Alois Antoni_Anthony
