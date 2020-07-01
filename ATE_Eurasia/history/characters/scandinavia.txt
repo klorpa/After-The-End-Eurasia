@@ -194,6 +194,7 @@
 	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=neuhumanist
+	father=8000000
 	2483.4.3={birth=yes}
 	2553.1.1={death={
 			death_reason=death_murder_drowning
@@ -206,6 +207,7 @@
 	dynasty=2223005 #Danneskiold
 	culture=danish
 	religion=lutheran
+	father=8000001
 	2502.6.5={birth=yes}
 	2568.1.1={death=yes}
 }
@@ -214,6 +216,7 @@
 	dynasty=2223005 #Danneskiold
 	culture=danish
 	religion=lutheran
+	father=8000003
 	2523.4.3={birth=yes}
 		2569.1.1={
 		death={
@@ -227,6 +230,7 @@
 	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=lutheran
+	father=8000002
 	2509.7.4={birth=yes}
 	2592.1.1={death=yes}
 }
@@ -243,6 +247,7 @@
 	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=neuhumanist
+	father=8000005
 	2540.7.4={birth=yes}
 	2630.1.1={death=yes}
 }
@@ -251,6 +256,7 @@
 	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=neuhumanist
+	father=8000007
 	2590.6.2={birth=yes}
 	2647.1.1={death=yes}
 }
@@ -909,8 +915,9 @@
 }
 
 8000079={
-	name="Magnar" #the Mighty
+	name="Valemon" #the Victorious
 	dynasty=2220051 #Nordraak
+	mother=8000127
 	culture=ostlending
 	religion=folketro
 	martial=5
@@ -923,12 +930,13 @@
 	trait=one_legged 
 	trait=ambitious 
 	trait=blind
-	2050.1.1={birth=yes}
+	2100.1.1={birth=yes}
+	2100.1.1={give_nickname nick_the_victorious}
 	2200.1.1={death=yes}
 }
 
 8000080={
-	name="Valemon"
+	name="Magnar" #the Mighty
 	dynasty=2220051 #Nordraak
 	culture=ostlending
 	religion=folketro
@@ -937,9 +945,11 @@
 	stewardship=4
 	intrigue=6
 	learning=5
+	trait=strong
 	father=8000079
 	2150.1.1={birth=yes}
-	2300.1.1={death=yes}
+	2200.1.1={give_nickname = nick_the_mighty }
+	2250.1.1={death=yes}
 }
 
 8000081={
@@ -952,6 +962,8 @@
 	stewardship=4
 	intrigue=6
 	learning=5
+	trait=quick 
+	trait=schemer 
 	father=8000080
 	2250.1.1={birth=yes}
 	2325.1.1={death=yes}
@@ -1027,8 +1039,12 @@
 	stewardship=4
 	intrigue=6
 	learning=5
+	trait=cruel 
+	trait=impaler
+	trait=authoritative
 	father=8000085
 	2391.1.1={birth=yes}
+	2410.1.1={give_nickname = nick_the_red}
 	2411.1.1={death=yes}
 }
 
@@ -1059,6 +1075,7 @@
 	learning=5
 	father=8000085
 	2396.1.1={birth=yes}
+	2413.1.1={give_nickname = nick_the_conqueror}
 	2430.1.1={death=yes}
 }
 
@@ -1106,7 +1123,7 @@
 	trait=zealous
 	trait=one_eyed
 	trait=mystic
-	father=8000090
+	father=8000089
 	2476.1.1={birth=yes}
 	2510.1.1={give_nickname nick_the_wanderer}
 	2514.1.1={death=yes}
@@ -1122,7 +1139,7 @@
 	stewardship=4
 	intrigue=6
 	learning=5
-	father=8000090
+	father=8000089
 	2475.1.1={birth=yes}
 	2532.1.1={death=yes}
 }
@@ -1139,7 +1156,7 @@
 	learning=5
 	father=8000092
 	2498.1.1={birth=yes}
-	2551.1.1={death=yes}
+	2529.1.1={death=yes}
 }
 
 8000094={
@@ -1168,7 +1185,7 @@
 	intrigue=6
 	learning=5
 	father=8000093
-	2530.1.1={birth=yes}
+	2528.1.1={birth=yes}
 	2588.1.1={death=yes}
 }
 
@@ -1540,3 +1557,268 @@
 	2666.1.1={give_nickname nick_the_liberator}
 	2670.1.1={death=yes}
 }
+
+8000122={
+	name="Platon"
+	dynasty=2223001 #Sønderborg
+	culture=danish
+	religion=neuhumanist
+	father=8000010
+	trait=underhanded_rogue
+	trait=ruthless
+	trait=rude
+	trait=cruel
+	2634.4.15={birth=yes}
+	2672.7.14={death=yes}
+}
+
+8000123={
+	name="Mogens"
+	dynasty=2223001 #Sønderborg
+	culture=danish
+	religion=neuhumanist
+	father=8000010
+	trait=grey_eminence
+	trait=gregarious
+	trait=kind
+	trait=trusting
+	2640.4.15={birth=yes}
+	2665.1.1={give_nickname nick_the_good}
+	2672.7.14={death=yes}
+}
+
+8000124={
+	name="Preben"
+	dynasty=2223001 #Sønderborg
+	culture=danish
+	religion=neuhumanist
+	father=8000009
+	trait=indulgent_wastrel
+	trait=is_fat
+	trait=proud
+	trait=dull
+	2626.6.2={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000125={
+	name="Tyge"
+	dynasty=2223001 #Sønderborg
+	culture=danish
+	religion=neuhumanist
+	father=8000124
+	trait=tough_soldier
+	trait=hunter
+	trait=shy
+	trait=just
+	trait=wroth
+	trait=twin
+	trait=robust
+	2649.6.2={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000126={
+	name="Henriette"
+	dynasty=2223001 #Sønderborg
+	female=yes
+	culture=danish
+	religion=neuhumanist
+	father=8000124
+	trait=tough_soldier
+	trait=duelist
+	trait=shrewd
+	trait=arbitrary
+	trait=rude
+	trait=twin
+	2649.6.2={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000127={
+	name="Jenny" #the Snow Queen
+	female=yes 
+	dynasty=2335052 #Andersen
+	culture=sami
+	religion=folketro
+	trait=mystic 
+	trait=fair 
+	trait=ambitious
+	trait=mastermind_theologian
+	trait=shrewd
+	disallow_random_traits = yes 
+	2050.1.1={birth=yes}
+	2100.1.1={
+	    give_nickname nick_the_snow_queen
+	    create_bloodline = {
+		    type = snow_queen
+			has_dlc = "Holy Fury"
+		}
+	}
+	2150.1.1={death=yes}
+}
+
+8000128={
+	name="Gustaf"
+	dynasty=2220464 #Vigfors
+	culture=swedish
+	religion=folketro
+	mother=8000127
+	2100.1.1={birth=yes}
+	2200.1.1={death=yes}
+}
+
+8000129={
+	name="Hugo"
+	dynasty=2220464 #Vigfors
+	culture=swedish
+	religion=folketro
+	father=8000128
+	2150.1.1={birth=yes}
+	2250.1.1={death=yes}
+}
+
+8000130={
+	name="Yngve"
+	dynasty=2220464 #Vigfors
+	culture=swedish
+	religion=folketro
+	father=8000129
+	2230.1.1={birth=yes}
+	2300.1.1={death=yes}
+}
+
+8000131={
+	name="Karl"
+	dynasty=2220464 #Vigfors
+	culture=swedish
+	religion=folketro
+	father=8000130
+	2250.1.1={birth=yes}
+	2313.1.1={death=yes}
+}
+
+8000132={
+	name="Gustaf"
+	dynasty=2220464 #Vigfors
+	culture=swedish
+	religion=folketro
+	father=8000131
+	2280.1.1={birth=yes}
+	2337.1.1={death=yes}
+}
+
+8000133={
+	name="Ture"
+	dynasty=2220464 #Vigfors
+	culture=swedish
+	religion=folketro
+	father=8000132
+	2310.1.1={birth=yes}
+	2351.1.1={death=yes}
+}
+
+8000134={
+	name="Felix"
+	dynasty=2220464 #Vigfors
+	culture=swedish
+	religion=folketro
+	father=8000133
+	2334.1.1={birth=yes}
+	2378.1.1={death=yes}
+}
+
+8000135={
+	name="Karl"
+	dynasty=2220464 #Vigfors
+	culture=swedish
+	religion=folketro
+	father=8000133
+	2360.1.1={birth=yes}
+	2382.1.1={death=yes}
+}
+
+8000136={
+	name="Gustaf"
+	dynasty=2220464 #Vigfors
+	culture=swedish
+	religion=folketro
+	father=8000134
+	2362.1.1={birth=yes}
+	2400.1.1={death=yes}
+}
+
+8000137={
+	name="Felix" #Last Vigfors, deposed by MAGNAR
+	dynasty=2220464 #Vigfors
+	culture=swedish
+	religion=folketro
+	father=8000136
+	2394.1.1={birth=yes}
+	2412.1.1={death=yes}
+}
+
+8000138={
+	name="Axel"
+	dynasty=2220345 #Vasa
+	culture=swedish
+	religion=folketro
+	trait=bastard
+	father=8000132
+	2283.1.1={birth=yes}
+	2342.1.1={death=yes}
+}
+
+8000139={
+	name="Göran"
+	dynasty=2220345 #Vasa
+	culture=swedish
+	religion=folketro
+	father=8000138
+	2307.1.1={birth=yes}
+	2342.1.1={death=yes}
+}
+
+8000140={
+	name="Gustaf"
+	dynasty=2220345 #Vasa
+	culture=swedish
+	religion=folketro
+	father=8000139
+	2338.1.1={birth=yes}
+	2378.1.1={death=yes}
+}
+
+8000141={
+	name="Karl"
+	dynasty=2220345 #Vasa
+	culture=swedish
+	religion=folketro
+	father=8000140
+	2368.1.1={birth=yes}
+	2402.1.1={death=yes}
+}
+
+8000142={
+	name="Gustaf"
+	dynasty=2220345 #Vasa
+	culture=swedish
+	religion=folketro
+	father=8000141
+	2395.1.1={birth=yes}
+	2414.1.1={give_nickname nick_the_restorer}
+	2448.1.1={death=yes}
+}
+
+8000143={
+	name="Gustaf"
+	dynasty=2220345 #Vasa
+	culture=swedish
+	religion=folketro
+	trait=strong 
+	trait=skilled_tactician
+	father=8000142
+	2421.1.1={birth=yes}
+	2484.1.1={death=yes}
+}
+
