@@ -1,5 +1,5 @@
 province;red;green;blue;x;x
-1;65;137;101;Kerry;x #k_ireland
+1;65;137;101;Kerry;x
 2;48;168;107;Cork;x
 3;25;148;85;Tipperary;x
 4;55;117;85;Waterford;x
@@ -25,7 +25,7 @@ province;red;green;blue;x;x
 24;156;194;112;Derry-Londonderry;x
 25;194;76;29;Antrim;x
 26;122;164;73;Tyrone;x
-27;84;96;16;London;x #k_london
+27;84;96;16;London;x
 28;84;3;36;Essex;x
 29;168;207;162;Bedfordshire;x
 30;168;72;12;Surrey;x
@@ -37,12 +37,12 @@ province;red;green;blue;x;x
 36;152;171;150;Hertfordshire;x
 37;56;107;151;East Sussex;x
 38;15;89;71;Channel Islands;x
-39;191;49;61;Berkshire;x #k_england
+39;191;49;61;Berkshire;x
 40;84;66;11;Oxfordshire;x
 41;165;151;107;Buckinghamshire;x
 42;42;63;138;Gloucestershire;x
 43;126;69;139;Wiltshire;x
-44;169;81;72;Bath;x
+44;;;;;x
 45;84;81;141;Somerset;x
 46;42;93;143;Cornwall;x
 47;168;87;142;Devon;x
@@ -58,7 +58,7 @@ province;red;green;blue;x;x
 57;126;189;159;Derbyshire;x
 58;237;203;110;Nottinghamshire;x
 59;97;128;61;Northamptonshire;x
-60;168;192;32;Gwynedd;x #k_wales
+60;168;192;32;Gwynedd;x
 61;169;96;202;Angseley;x
 62;175;85;15;Clwyd;x
 63;126;54;9;Pembrokeshire;x
@@ -69,12 +69,13 @@ province;red;green;blue;x;x
 68;0;195;160;Montgomeryshire;x
 69;85;90;201;Radnorshire;x
 70;1;84;200;Brecknockshire;x
-71;84;171;156;North Yorkshire;x #k_york
+71;84;171;156;North Yorkshire;x
 72;43;72;198;Humberside;x
 73;85;75;71;South Yorkshire;x
 74;127;78;199;West Yorkshire;x
 75;71;130;120;Cleveland;x
 76;126;174;29;Lancashire;x
+77;;;;;x
 78;202;122;163;Manchester;x
 79;126;159;154;Cumberland;x
 80;0;165;155;Westmorland;x
@@ -82,7 +83,7 @@ province;red;green;blue;x;x
 82;42;168;28;Durham;x
 83;37;70;148;Merseyside;x
 84;103;143;71;Tyne and Wear;x
-85;126;144;24;Edinburgh;x #k_scotland
+85;126;144;24;Edinburgh;x
 86;42;153;153;East Lothian;x
 87;126;114;19;the Marches;x
 88;84;141;151;Glasgow;x
@@ -102,8 +103,8 @@ province;red;green;blue;x;x
 102;169;66;197;Inner Hebrides;x
 103;168;102;17;Shetland;x
 104;42;108;18;Orkney;x
-105;168;162;27;Isle of Man;x #under northern ireland
-106;126;153;179;Strait of Dover;x #Atlantic Sea
+105;168;162;27;Isle of Man;x
+106;126;153;179;Strait of Dover;x
 107;84;90;41;The Wash;x
 108;126;93;169;Dogger-bank;x
 109;42;87;168;Firth of Forth;x
@@ -111,12 +112,12 @@ province;red;green;blue;x;x
 111;168;81;167;The Minch;x
 112;84;165;181;Irish Sea;x
 113;42;162;53;St. George's Channel;x
-114;0;159;180;Land's End;x
+114;;;;;x
 115;42;6;98;Galway Bay;x
 116;126;168;54;Donegal Bay;x
 117;168;156;52;The Channel;x
 118;126;18;29;Iles d'la Manche;x
-119;168;6;27;La Manche;x
+119;;;;;x
 120;126;78;39;Waddenzee;x
 121;0;69;165;North Sea;x
 122;84;105;171;Gulf of Helholland;x
@@ -143,12 +144,11 @@ province;red;green;blue;x;x
 143;0;9;155;Golfo de Cadiz;x
 144;84;180;56;Coast of Morocco;x
 145;42;210;153;Sea of Canarias;x
-145;42;210;153;Sea of Canarias;x
 146;138;186;195;Manx Sea;x
 147;18;113;132;North Channel;x
-148;1;6;95;Lough Neagh;x
-149;43;9;223;Lough Erne;x
-150;85;12;96;Lough Mask;x
+148;;;;;x
+149;;;;;x
+150;;;;;x
 151;126;99;144;Faroe Islands;x
 152;85;165;136;Sunnlendingafjordungur;x
 153;42;3;128;Vestisland;x
@@ -172,19 +172,19 @@ province;red;green;blue;x;x
 171;49;112;62;Evora;x
 172;118;194;132;Santarem;x
 173;33;124;51;Portalegre;x
-#174;81;147;93;Silves;x #Removed
+174;;;;;x
 175;47;111;59;Algarve;x
 176;118;161;126;Leiria;x
 177;35;77;44;Castelo Branco;x
 178;85;98;88;Coimbra;x
 179;96;166;111;Aveiro;x
-#180;85;122;92;Viseu;x #Removed
+180;;;;;x
 181;39;150;62;Guarda;x
 182;34;115;50;Porto;x
-#183;69;142;84;Braga;x #Removed
+183;;;;;x
 184;54;84;60;Vila Real;x
 185;126;138;94;Braganca;x
-186;62;63;63;PLACEHOLDER186;x
+186;;;;;x
 187;242;75;89;Madrid;x
 188;97;211;164;Guadalajara;x
 189;80;175;136;Cuenca;x
@@ -320,7 +320,7 @@ province;red;green;blue;x;x
 319;;;;;x
 320;;;;;x
 321;;;;;x
-322;217;195;62;West Flanders;x #Move number when province number lowered
+322;217;195;62;West Flanders;x
 323;188;166;32;East Flanders;x
 324;84;138;186;Antwerp;x
 325;225;178;51;Loon;x
@@ -342,7 +342,7 @@ province;red;green;blue;x;x
 341;255;140;78;Overijssel;x
 342;215;142;30;Friesland;x
 343;250;135;42;Groningen;x
-344;42;45;43;East Frisia;x #Lower Saxony
+344;42;45;43;East Frisia;x
 345;84;48;171;Emsland;x
 346;0;3;225;Ammerland;x
 347;34;35;123;Oldenburg;x
@@ -380,7 +380,7 @@ province;red;green;blue;x;x
 379;126;141;59;Koblenz;x
 380;185;122;87;Schleswig;x
 381;126;150;159;Kiel;x
-382;84;162;161;Norrejyske;x
+382;;;;;x
 383;1;156;170;Aalborg;x
 384;94;118;138;Viborg;x
 385;169;153;42;Aarhus;x
@@ -415,7 +415,7 @@ province;red;green;blue;x;x
 414;153;161;170;Prignitz;x
 415;54;94;20;Lubeck;x
 416;135;166;171;Bodensee;x
-417;126;108;44;Kattegat;x #Baltic Sea
+417;126;108;44;Kattegat;x
 418;42;102;43;The Sound;x
 419;168;111;172;Gulf of Gdansk;x
 420;0;114;45;Bight of Hano;x
@@ -424,14 +424,14 @@ province;red;green;blue;x;x
 423;0;129;175;Gulf of Bothnia;x
 424;168;126;47;Gulf of Bothnia;x
 425;126;123;174;Gulf of Finland;x
-426;127;147;149;The Rhine;x #German Major Rivers
-427;169;150;22;The Rhine;x
-428;1;153;150;The Rhine;x
-429;43;156;23;The Elbe;x
-430;85;159;151;The Elbe;x
-431;127;162;24;The Elbe;x
-432;169;165;152;The Elbe;x
-433;1;168;25;The Elbe;x
+426;;;;;x
+427;;;;;x
+428;;;;;x
+429;;;;;x
+430;;;;;x
+431;;;;;x
+432;;;;;x
+433;;;;;x
 434;;;;;x
 435;;;;;x
 436;;;;;x
@@ -448,7 +448,7 @@ province;red;green;blue;x;x
 447;;;;;x
 448;42;165;63;Bas-Rhin;x
 449;168;189;67;Haut-Rhin;x
-450;21;139;160;Mannheim;x #k_bavaria
+450;21;139;160;Mannheim;x
 451;22;117;134;Stuttgart;x
 452;0;162;190;Karlsruhe;x
 453;20;153;176;Breisgau;x
@@ -467,20 +467,20 @@ province;red;green;blue;x;x
 466;24;90;155;Ingolstadt;x
 467;168;108;152;Allgau;x
 468;148;92;133;Augsburg;x
-469;25;58;54;Geneva;x #Switzerland
+469;25;58;54;Geneva;x
 470;43;147;133;Vaud;x
 471;42;84;148;Neuchatel;x
 472;143;102;57;Lower-Valais;x
 473;84;87;21;Basel;x
 474;141;94;49;Aargau;x
 475;168;93;22;Bern;x
-476;126;75;19;Valais;x
+476;;;;;x
 477;0;96;150;Zurich;x
 478;42;99;23;Schwyz;x
 479;126;105;24;St-Gallen;x
 480;85;150;6;Tessino;x
 481;84;102;151;Grisons;x
-482;126;57;179;Scania;x #Sweden
+482;126;57;179;Scania;x
 483;84;54;51;Halland;x
 484;168;45;177;Blekinge;x
 485;126;42;49;Varend;x
@@ -506,7 +506,7 @@ province;red;green;blue;x;x
 505;42;204;168;Angermanland;x
 506;0;201;40;Vasterbotten;x
 507;168;198;167;Norbotten;x
-508;55;221;251;Akershus;x #Norway
+508;55;221;251;Akershus;x
 509;27;188;180;Buskerud;x
 510;163;241;237;Vestfold;x
 511;51;255;193;Telemark;x
@@ -530,33 +530,33 @@ province;red;green;blue;x;x
 529;91;103;240;Goteborg;x
 530;255;245;66;Karlstad;x
 531;203;99;106;Finnveden;x
-532;169;0;52;Tjust;x 
+532;169;0;52;Tjust;x
 533;74;24;177;Lappland;x
 534;0;162;232;Ulm;x
-535;255;155;109;Tallinn;x #Estonia
+535;255;155;109;Tallinn;x
 536;209;39;43;Laanemaa;x
-537;191;116;82;Saaremaa;x 
-538;191;53;58;Hiiumaa;x 
-539;206;113;115;Parnu;x 
-540;255;191;0;Haademeeste;x 
-541;255;28;115;Raplamaa;x 
-542;151;39;186;Vorumaa;x 
-543;106;72;186;Valgamaa;x 
-544;186;63;153;Polvamaa;x 
-545;204;106;187;Tartumaa;x 
-546;133;67;204;Jogevamaa;x 
-547;206;56;10;Kohtlajarve;x 
-548;187;34;6;Rakvere;x 
-549;255;58;71;Maardu;x 
-550;255;126;119;Viljandimaa;x 
-551;255;93;0;Jarvamaa;x 
-552;201;23;30;Narsaq;x #Greenland
+537;191;116;82;Saaremaa;x
+538;191;53;58;Hiiumaa;x
+539;206;113;115;Parnu;x
+540;;;;;x
+541;255;28;115;Raplamaa;x
+542;;;;;x
+543;106;72;186;Valgamaa;x
+544;186;63;153;Polvamaa;x
+545;204;106;187;Tartumaa;x
+546;;;;;x
+547;206;56;10;Kohtlajarve;x
+548;187;34;6;Rakvere;x
+549;;;;;x
+550;255;126;119;Viljandimaa;x
+551;;;;;x
+552;201;23;30;Narsaq;x
 553;136;0;27;Qaqortoq;x
 554;63;72;204;Nanortalik;x
-555;140;113;161;Cologne;x 
-556;0;57;45;Aachen;x 
-557;168;144;187;Krefeld;x 
-558;42;21;173;Aland Islands;x #Finland
+555;140;113;161;Cologne;x
+556;0;57;45;Aachen;x
+557;168;144;187;Krefeld;x
+558;42;21;173;Aland Islands;x
 559;195;203;226;Turku;x
 560;189;194;211;Satakunta;x
 561;165;170;190;Ostrobothnia;x
@@ -577,7 +577,7 @@ province;red;green;blue;x;x
 576;107;116;143;North Karelia;x
 577;144;149;168;Kainuu;x
 578;0;39;128;Liechtenstein;x
-579;199;38;53;Vorarlberg;x #Austria
+579;199;38;53;Vorarlberg;x
 580;182;18;32;Tyrol;x
 581;163;6;20;Salzburg;x
 582;151;17;28;Lienz;x
@@ -585,18 +585,18 @@ province;red;green;blue;x;x
 584;168;52;62;Upper Austria;x
 585;165;67;76;Upper Styria;x
 586;203;80;91;Styria;x
-587;159;32;43;Sankt Polten;x #remember to localize with the ö
+587;159;32;43;Sankt Polten;x
 588;197;90;100;Krems;x
 589;238;36;54;Vienna;x
-590;255;241;0;Palermo;x #Sicily
+590;255;241;0;Palermo;x
 591;213;202;16;Trapani;x
 592;209;223;47;Agrigento;x
 593;221;245;56;Siracusa;x
 594;240;255;142;Catania;x
 595;217;224;170;Messina;x
-596;182;172;6;Pelagie Islands;x
+596;;;;;x
 597;208;12;39;Malta;x
-598;255;0;0;Elba;x
+598;;;;;x
 599;104;24;24;Djerba;x
 600;163;186;66;Sevastopol;x
 601;153;236;20;Yevpatoriya;x
@@ -1016,7 +1016,7 @@ province;red;green;blue;x;x
 1015;46;76;60;Medjimurje;x
 1016;238;176;114;Kerch;x
 1017;139;38;183;Yarkant;x
-1018;93;144;153;Ustecky;x #Czechoslovakia
+1018;93;144;153;Ustecky;x
 1019;64;52;193;Karlovy Vary;x
 1020;64;193;193;Plzen;x
 1021;176;124;204;Jihocesky;x
@@ -1102,7 +1102,7 @@ province;red;green;blue;x;x
 1101;215;208;210;Oristano;x
 1102;202;196;197;Nuoro;x
 1103;189;185;185;Sassari;x
-1104;0;147;68;Calabria;x #Naples
+1104;0;147;68;Calabria;x
 1105;22;125;69;Cosenza;x
 1106;47;121;81;Basilicata;x
 1107;53;116;63;Foggia;x
@@ -1114,7 +1114,7 @@ province;red;green;blue;x;x
 1113;51;124;41;Molise;x
 1114;54;109;47;Pescara;x
 1115;73;137;64;L'Aquila;x
-1116;74;142;103;Latina;x #Centro
+1116;74;142;103;Latina;x
 1117;134;155;146;Roma;x
 1118;142;202;160;Viterbo;x
 1119;26;154;80;Rieti;x
@@ -1127,7 +1127,7 @@ province;red;green;blue;x;x
 1126;120;177;139;Pisa;x
 1127;16;100;60;Firenze;x
 1128;83;108;87;Lucca;x
-1129;99;174;101;Genoa;x #Lombardy
+1129;99;174;101;Genoa;x
 1130;97;155;99;Savona;x
 1131;134;181;53;Cuneo;x
 1132;71;98;51;Turin;x
@@ -1148,7 +1148,7 @@ province;red;green;blue;x;x
 1147;62;181;117;Bergamo;x
 1148;146;205;173;Brescia;x
 1149;26;187;124;Mantua;x
-1150;14;51;31;Padua;x #Venetzia
+1150;14;51;31;Padua;x
 1151;123;164;127;Verona;x
 1152;80;147;86;Treviso;x
 1153;97;130;112;Venice;x
@@ -1156,7 +1156,6 @@ province;red;green;blue;x;x
 1155;63;117;68;Trentino;x
 1156;69;96;72;South Tyrol;x
 1157;15;174;94;Belluno;x
-1158;;;;;x
 1158;;;;;x
 1159;;;;;x
 1160;;;;;x
@@ -1241,11 +1240,11 @@ province;red;green;blue;x;x
 1239;214;43;121;Bayan-Olgii;x
 1240;68;119;183;;x
 1241;224;151;207;Ulaangom;x
-1242;248;131;102;Turuun;x
+1242;;;;;x
 1243;177;125;201;Khuvsgul;x
 1244;225;106;35;Murun;x
 1245;191;165;40;Uliastai;x
-1246;117;81;21;;x
+1246;;;;;x
 1247;148;53;78;Govi-Altai;x
 1248;150;225;217;Bayankhongor;x
 1249;159;177;140;Omnogovi;x
@@ -1274,7 +1273,7 @@ province;red;green;blue;x;x
 1272;16;159;189;Alay;x
 1273;247;225;169;Talas;x
 1274;175;2;54;Naryn;x
-1275;102;165;7;Chatkal;x
+1275;;;;;x
 1276;84;153;15;Shymkent;x
 1277;178;68;47;Turkistan;x
 1278;167;59;29;Kyzylorda;x
@@ -1542,7 +1541,7 @@ province;red;green;blue;x;x
 1540;54;81;154;Cantal;x
 1541;28;37;61;Velay;x
 1542;42;90;178;Rennes;x
-1543;113;67;12;Dol;x
+1543;;;;;x
 1544;176;143;103;Saint-Malo;x
 1545;84;93;51;Saint-Brieuc;x
 1546;42;105;53;Nantes;x
