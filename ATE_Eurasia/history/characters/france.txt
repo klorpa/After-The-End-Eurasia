@@ -218,3 +218,89 @@
 	mother=1804018
 	2662.5.15={birth=yes}
 }
+1804021={
+	name="Crestian"
+	dynasty=2007223 #Gubernatis
+	culture=provencal
+	religion=neuhumanist
+	2438.1.1={birth=yes}
+	2472.1.1={
+		death={
+			death_reason=death_rabble
+		}
+	}
+}
+1804022={
+	name="Alano"
+	dynasty=2007224 #Borsalino
+	culture=provencal
+	religion=catholic
+	trait=peasant_leader
+	2444.1.1={birth=yes}
+	2472.3.1={
+		death={
+			death_reason=death_execution
+		}
+	}
+}
+1804022={
+	name="Cesàri"
+	dynasty=2007225 #Pagnol
+	culture=provencal
+	religion=catholic
+	2615.1.1={birth=yes}
+}
+1804023={
+	name="Marius"
+	dynasty=2007225 #Pagnol
+	father=1804022
+	culture=provencal
+	religion=catholic
+	2643.1.1={birth=yes}
+	2665.1.1={effect={add_lover=1804025}}
+}
+1804024={
+	name="Cesàri"
+	dynasty=2007225 #Pagnol
+	father=1804023
+	mother=1804026
+	culture=provencal
+	religion=catholic
+	trait=legitimized_bastard
+	2665.1.1={birth=yes}
+}
+1804025={
+	name="Fanny"
+	female=yes
+	dynasty=2007171 #Cabanes
+	culture=provencal
+	religion=catholic
+	mother=1804026
+	2647.1.1={birth=yes}
+}
+1804026={
+	name="Ounourino"
+	female=yes
+	dynasty=2007171 #Cabanes
+	culture=provencal
+	religion=catholic
+	father=1804027
+	2620.1.1={birth=yes}
+}
+1804027={
+	name="Benezet"
+	dynasty=2007171 #Cabanes
+	culture=provencal
+	religion=catholic
+	2587.1.1={birth=yes}
+	2654.1.1={death=yes}
+}
+1804028={
+	name="Claudino"
+	female=yes
+	dynasty=2007171 #Cabanes
+	culture=provencal
+	religion=catholic
+	father=1804027
+	2634.1.1={birth=yes}
+}
