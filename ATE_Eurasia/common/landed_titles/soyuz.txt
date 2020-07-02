@@ -116,66 +116,6 @@ e_soyuz = {
 				b_streshevo = {}
 				b_nizovskaya = {}
 			}
-			c_veliky_novgorod = {
-				color={ 189 26 79 }
-				color2={ 255 255 255 }
-				
-				b_veliky_novgorod = {}
-				b_pankovka = {}
-				b_batetsky = {}
-				b_spasskaya = {}
-				b_ochno = {}
-				b_podberezye = {}
-				b_selo_gora = {}
-			}
-			c_ostrov = {
-				color={ 204 88 99 }
-				color2={ 255 255 255 }
-				
-				b_ostrov = {}
-				b_pytalovo = {}
-				b_pushkinskiye_gory = {}
-				b_dedovichi = {}
-				b_tochki = {}
-				b_stanki = {}
-				b_novorzhev = {}
-			}
-			c_staraya_russa = {
-				color={ 231 131 112 }
-				color2={ 255 255 255 }
-				
-				b_staraya_russa = {}
-				b_shimsk = {}
-				b_penno = {}
-				b_soltsy = {}
-				b_volot = {}
-				b_zui = {}
-				b_kamen = {}
-			}
-			c_pskov = {
-				color={ 198 87 75 }
-				color2={ 255 255 255 }
-				
-				b_pskov = {}
-				b_izborsk = {}
-				b_pechory = {}
-				b_strizhki = {}
-				b_vyazki = {}
-				b_khokhly = {}
-				b_mda = {}
-			}
-			c_kresttsy = {
-				color={ 222 83 132 }
-				color2={ 255 255 255 }
-				
-				b_kresttsy = {}
-				b_suchki = {}
-				b_proletariy = {}
-				b_nevskaya = {}
-				b_staroye_rakhino = {}
-				b_pola = {}
-				b_yazhelbitsy = {}
-			}
 			c_tikhvin = {
 				color={ 241 139 117 }
 				color2={ 255 255 255 }
@@ -188,66 +128,43 @@ e_soyuz = {
 				b_lodeynoye = {}
 				b_svirstroy = {}
 			}
-			c_kem = {
-				color={ 219 125 50 }
+		}
+		d_viciebsk = {
+			color={ 100 153 111 }
+			color2={ 255 255 255 }
+		
+			capital = 680 #	Viciebsk
+			
+			c_polatsk = {
+				color={ 125 214 65 }
 				color2={ 255 255 255 }
 				
-				b_kem = {}
-				b_plotina = {}
-				b_belomorsk = {}
-				b_kolezhma = {}
-				b_kuzema = {}
-				b_pushnoy = {}
-				b_letnerechenskiy = {}
-				b_matigora = {}
+				b_polatsk = {}
+				b_rasony = {}
+				b_verkhnyadzvinsk = {}
+				b_zabore = {}
+				b_kokhanovichi = {}
+				b_selyavshina = {}
+				b_sestrenki = {}
 			}
-			c_segezha = {
-				color={ 236 121 108 }
+		}
+		d_vologda = {
+			color={ 200 59 145 }
+			color2={ 255 255 255 }
+		
+			capital = 737 #	Vologda
+			
+			c_cherepovets = {
+				color={ 180 180 180 }
 				color2={ 255 255 255 }
 				
-				b_segezha = {}
-				b_medvezhyegorsk = {}
-				b_povenets = {}
-				b_nadvoitsy = {}
-				b_karelskaya = {}
-				b_popov_porog = {}
-				b_morskaya_maselga = {}
-			}
-			c_sortavala = {
-				color={ 229 114 42 }
-				color2={ 255 255 255 }
-				
-				b_sortavala = {}
-				b_ruskeala = {}
-				b_suoyarvi = {}
-				b_suystamo = {}
-				b_lyaskelya = {}
-				b_pitkyaranta = {}
-				b_salmi = {}
-			}
-			c_petrozavodsk = {
-				color={ 189 89 104 }
-				color2={ 255 255 255 }
-				
-				b_petrozavodsk = {}
-				b_kuytezha = {}
-				b_kondopoga = {}
-				b_olonets = {}
-				b_ilinskiy = {}
-				b_pryhaza = {}
-				b_kotkozero = {}
-			}
-			c_kimry = {
-				color={ 225 102 129 }
-				color2={ 255 255 255 }
-				
-				b_kimry = {}
-				b_rameshki = {}
-				b_gorodok = {}
-				b_ilinskoye = {}
-				b_chagino = {}
-				b_orsha = {}
-				b_kiverichi = {}
+				b_cherepovets = {}
+				b_belozersk = {}
+				b_botovo = {}
+				b_olkino = {}
+				b_chirok = {}
+				b_kiyno = {}
+				b_kedra = {}
 			}
 			c_vesyegonsk = {
 				color={ 241 105 41 }
@@ -261,18 +178,13 @@ e_soyuz = {
 				b_yogna = {}
 				b_levtsovo = {}
 			}
-			c_borovichi = {
-				color={ 250 130 145 }
-				color2={ 255 255 255 }
-				
-				b_borovichi = {}
-				b_pestovo = {}
-				b_kutotino = {}
-				b_moshenskoye = {}
-				b_khvoynaya = {}
-				b_chernoye = {}
-				b_plavi = {}
-			}
+		}
+		d_tver = {
+			color={ 188 23 55 }
+			color2={ 255 255 255 }
+		
+			capital = 655 #	Tver
+			
 			c_vyshny_volochyok = {
 				color={ 210 99 87 }
 				color2={ 255 255 255 }
@@ -309,6 +221,18 @@ e_soyuz = {
 				b_pleshki = {}
 				b_yesinka = {}
 			}
+			c_kimry = {
+				color={ 225 102 129 }
+				color2={ 255 255 255 }
+				
+				b_kimry = {}
+				b_rameshki = {}
+				b_gorodok = {}
+				b_ilinskoye = {}
+				b_chagino = {}
+				b_orsha = {}
+				b_kiverichi = {}
+			}
 			c_ostashkov = {
 				color={ 170 5 79 }
 				color2={ 255 255 255 }
@@ -321,17 +245,36 @@ e_soyuz = {
 				b_shuvayevo = {}
 				b_kuvshinovo = {}
 			}
-			c_polatsk = {
-				color={ 225 14 65 }
+		}
+		d_pskov = {
+			color={ 253 49 89 }
+			color2={ 255 255 255 }
+		
+			capital = 676 #	Pskov
+			
+			c_pskov = {
+				color={ 198 87 75 }
 				color2={ 255 255 255 }
 				
-				b_polatsk = {}
-				b_rasony = {}
-				b_verkhnyadzvinsk = {}
-				b_zabore = {}
-				b_kokhanovichi = {}
-				b_selyavshina = {}
-				b_sestrenki = {}
+				b_pskov = {}
+				b_izborsk = {}
+				b_pechory = {}
+				b_strizhki = {}
+				b_vyazki = {}
+				b_khokhly = {}
+				b_mda = {}
+			}
+			c_ostrov = {
+				color={ 204 88 99 }
+				color2={ 255 255 255 }
+				
+				b_ostrov = {}
+				b_pytalovo = {}
+				b_pushkinskiye_gory = {}
+				b_dedovichi = {}
+				b_tochki = {}
+				b_stanki = {}
+				b_novorzhev = {}
 			}
 			c_velikiye_luki = {
 				color={ 187 52 24 }
@@ -345,30 +288,131 @@ e_soyuz = {
 				b_pustoshka = {}
 				b_kunya = {}
 			}
-			c_cherepovets = {
+		}
+		d_novgorod = {
+			color={ 241 121 87 }
+			color2={ 255 255 255 }
+		
+			capital = 674 #	Veliky Novgorod
+			
+			c_veliky_novgorod = {
+				color={ 189 26 79 }
+				color2={ 255 255 255 }
+				
+				b_veliky_novgorod = {}
+				b_pankovka = {}
+				b_batetsky = {}
+				b_spasskaya = {}
+				b_ochno = {}
+				b_podberezye = {}
+				b_selo_gora = {}
+			}
+			c_staraya_russa = {
+				color={ 231 131 112 }
+				color2={ 255 255 255 }
+				
+				b_staraya_russa = {}
+				b_shimsk = {}
+				b_penno = {}
+				b_soltsy = {}
+				b_volot = {}
+				b_zui = {}
+				b_kamen = {}
+			}
+			c_kresttsy = {
+				color={ 222 83 132 }
+				color2={ 255 255 255 }
+				
+				b_kresttsy = {}
+				b_suchki = {}
+				b_proletariy = {}
+				b_nevskaya = {}
+				b_staroye_rakhino = {}
+				b_pola = {}
+				b_yazhelbitsy = {}
+			}
+			c_borovichi = {
+				color={ 250 130 145 }
+				color2={ 255 255 255 }
+				
+				b_borovichi = {}
+				b_pestovo = {}
+				b_kutotino = {}
+				b_moshenskoye = {}
+				b_khvoynaya = {}
+				b_chernoye = {}
+				b_plavi = {}
+			}
+		}
+		d_arkhangelsk = {
+			color={ 223 235 236 }
+			color2={ 255 255 255 }
+		
+			capital = 671 #	Arkhangelsk
+			
+			c_arkhangelsk = {
 				color={ 180 180 180 }
 				color2={ 255 255 255 }
 				
-				b_cherepovets = {}
-				b_belozersk = {}
-				b_botovo = {}
-				b_olkino = {}
-				b_chirok = {}
-				b_kiyno = {}
-				b_kedra = {}
+				b_arkhangelsk = {}
+				b_povrakulskaya = {}
+				b_talagi = {}
+				b_patrakeyevka = {}
+				b_nizhnyaya_zolotitsa = {}
+				b_verkhnyaya_zolotitsa = {}
+				b_kepino = {}
+				b_pomorye = {}
 			}
-			c_kostomuksha = {
+			c_severodvinsk = {
 				color={ 180 180 180 }
 				color2={ 255 255 255 }
 				
-				b_kostomuksha = {}
-				b_muerzerskii = {}
-				b_borovoy = {}
-				b_voknavolok = {}
-				b_kalevala = {}
-				b_kepa = {}
-				b_kevyatozero = {}
+				b_severodvinsk = {}
+				b_onega = {}
+				b_pertominsk = {}
+				b_pole = {}
+				b_glazanikha = {}
+				b_layskiy_dok = {}
+				b_novodvinsk = {}
 			}
+			c_plesetsk = {
+				color={ 180 180 180 }
+				color2={ 255 255 255 }
+				
+				b_plesetsk = {}
+				b_vershinino = {}
+				b_mirny = {}
+				b_savinsky = {}
+				b_severoonezhsk = {}
+				b_konevo = {}
+				b_samoded = {}
+			}
+		}
+		d_zapolyarny = {
+			color={ 184 190 226 }
+			color2={ 255 255 255 }
+		
+			capital = 711 #	Naryan-Mar
+			
+			c_kanin = {
+				color={ 180 180 180 }
+				color2={ 255 255 255 }
+				
+				b_shoyna = {}
+				b_kiya = {}
+				b_chizha = {}
+				b_nes = {}
+				b_vizhas = {}
+				b_oma = {}
+				b_snopa = {}
+			}
+		}
+		d_kola = {
+			color={ 205 200 204 }
+			color2={ 255 255 255 }
+		
+			capital = 701 #	Murmansk
+			
 			c_murmansk = {
 				color={ 180 180 180 }
 				color2={ 255 255 255 }
@@ -418,54 +462,73 @@ e_soyuz = {
 				b_mayak_gorodetsky = {}
 				b_ponoy = {}
 			}
-			c_arkhangelsk = {
-				color={ 180 180 180 }
+		}
+		d_karelia = {
+			color={ 175 165 185 }
+			color2={ 255 255 255 }
+		
+			capital = 705 #	Kem
+			
+			c_kem = {
+				color={ 219 125 50 }
 				color2={ 255 255 255 }
 				
-				b_arkhangelsk = {}
-				b_povrakulskaya = {}
-				b_talagi = {}
-				b_patrakeyevka = {}
-				b_nizhnyaya_zolotitsa = {}
-				b_verkhnyaya_zolotitsa = {}
-				b_kepino = {}
-				b_pomorye = {}
+				b_kem = {}
+				b_plotina = {}
+				b_belomorsk = {}
+				b_kolezhma = {}
+				b_kuzema = {}
+				b_pushnoy = {}
+				b_letnerechenskiy = {}
+				b_matigora = {}
 			}
-			c_severodvinsk = {
-				color={ 180 180 180 }
+			c_sortavala = {
+				color={ 229 114 42 }
 				color2={ 255 255 255 }
 				
-				b_severodvinsk = {}
-				b_onega = {}
-				b_pertominsk = {}
-				b_pole = {}
-				b_glazanikha = {}
-				b_layskiy_dok = {}
-				b_novodvinsk = {}
+				b_sortavala = {}
+				b_ruskeala = {}
+				b_suoyarvi = {}
+				b_suystamo = {}
+				b_lyaskelya = {}
+				b_pitkyaranta = {}
+				b_salmi = {}
 			}
-			c_plesetsk = {
-				color={ 180 180 180 }
+			c_petrozavodsk = {
+				color={ 189 89 104 }
 				color2={ 255 255 255 }
 				
-				b_plesetsk = {}
-				b_vershinino = {}
-				b_mirny = {}
-				b_savinsky = {}
-				b_severoonezhsk = {}
-				b_konevo = {}
-				b_samoded = {}
+				b_petrozavodsk = {}
+				b_kuytezha = {}
+				b_kondopoga = {}
+				b_olonets = {}
+				b_ilinskiy = {}
+				b_pryhaza = {}
+				b_kotkozero = {}
 			}
-			c_kanin = {
+			c_segezha = {
+				color={ 236 121 108 }
+				color2={ 255 255 255 }
+				
+				b_segezha = {}
+				b_medvezhyegorsk = {}
+				b_povenets = {}
+				b_nadvoitsy = {}
+				b_karelskaya = {}
+				b_popov_porog = {}
+				b_morskaya_maselga = {}
+			}
+			c_kostomuksha = {
 				color={ 180 180 180 }
 				color2={ 255 255 255 }
 				
-				b_shoyna = {}
-				b_kiya = {}
-				b_chizha = {}
-				b_nes = {}
-				b_vizhas = {}
-				b_oma = {}
-				b_snopa = {}
+				b_kostomuksha = {}
+				b_muerzerskii = {}
+				b_borovoy = {}
+				b_voknavolok = {}
+				b_kalevala = {}
+				b_kepa = {}
+				b_kevyatozero = {}
 			}
 		}
 	}
@@ -492,6 +555,68 @@ e_soyuz = {
 				b_prudboy = {}
 				b_nariman = {}
 				b_chervlenoye = {}
+			}
+		}
+	}
+	k_crimea = {
+		color = { 59 114 209 }
+		color2={ 255 255 255 }
+		
+		capital = 600 #	Sevastopol
+				
+		d_crimea = {
+			color={ 87 126 199 }
+			color2={ 255 255 255 }
+		
+			capital = 600 #	Sevastopol
+			
+			c_sevastopol = {
+				color={ 180 180 180 }
+				color2={ 255 255 255 }
+				
+				b_sevastopol = {}
+				b_simferopol = {}
+				b_yalta = {}
+				b_bakhchysarai = {}
+				b_alushta = {}
+				b_foros = {}
+				b_kacha = {}
+			}
+			c_feodosia = {
+				color={ 180 180 180 }
+				color2={ 255 255 255 }
+				
+				b_feodosia = {}
+				b_sudak = {}
+				b_nizhnegorskiy = {}
+				b_dzhankoi = {}
+				b_krasnogvardeyskoye = {}
+				b_koktebel = {}
+				b_novyi_svit = {}
+			}
+			c_kerch = {
+				color={ 180 180 180 }
+				color2={ 255 255 255 }
+				
+				b_kerch = {}
+				b_shcholkine = {}
+				b_hornostaivka = {}
+				b_lenino = {}
+				b_oktyabrske = {}
+				b_kamyanske = {}
+				b_batalne = {}
+			}
+			c_yevpatoriya = {
+				color={ 180 180 180 }
+				color2={ 255 255 255 }
+				
+				b_yevpatoriya = {}
+				b_saky = {}
+				b_zaozerne = {}
+				b_olenivka = {}
+				b_krasnoperekopsk = {}
+				b_chornomorske = {}
+				b_pervomais'ke = {}
 			}
 		}
 	}
