@@ -1,0 +1,220 @@
+1804000={
+	name="Abelard"
+	dynasty=2012210 #Rivière
+	culture=chti
+	religion=neuhumanist
+	father=1804011
+	trait=skilled_tactician
+	trait=ambitious
+	trait=deceitful
+	trait=duelist
+	trait=proud
+	trait=one_handed
+	2346.1.1={birth=yes}
+	2420.1.8={
+		death={
+			death_reason=death_execution
+		}
+	}
+}
+1804001={
+	name="Jèrmin"
+	dynasty=2012210 #Rivière
+	culture=chti
+	religion=neuhumanist
+	father=1804000
+	2391.1.1={birth=yes}
+	2446.1.1={death=yes}
+}
+1804002={
+	name="Ursule"
+	female=yes
+	dynasty=2012210 #Rivière
+	culture=chti
+	religion=neuhumanist
+	father=1804001
+	2422.1.1={birth=yes}
+	2489.1.1={death=yes}
+}
+1804003={
+	name="Rnès"
+	dynasty=2012210 #Rivière
+	culture=chti
+	religion=neuhumanist
+	mother=1804002
+	2453.1.1={birth=yes}
+	2501.1.1={death=yes}
+}
+1804004={
+	name="Binjamin"
+	dynasty=2012210 #Rivière
+	culture=chti
+	religion=neuhumanist
+	father=1804014
+	2517.1.1={birth=yes}
+	2525.1.1={death=yes}
+}
+1804005={
+	name="Jean-Baptiste"
+	dynasty=2012210 #Rivière
+	culture=chti
+	religion=neuhumanist
+	trait=twin
+	father=1804014
+	trait=homosexuel
+	trait=celibate
+	2520.1.1={birth=yes}
+	2575.1.1={
+		death={
+			death_reason = death_murder
+		}
+	}
+}
+1804006={
+	name="Philippe-Abraham"
+	dynasty=2012210 #Rivière
+	culture=chti
+	religion=neuhumanist
+	father=1804015
+	2648.1.1={birth=yes}
+}
+1804007={
+	name="Annabelle"
+	female=yes
+	dynasty=2012210 #Rivière
+	culture=chti
+	religion=neuhumanist
+	father=1804009
+	trait=ambitious
+	trait=strong
+	trait=greedy
+	2642.1.1={birth=yes}
+}
+1804008={
+	name="Kilian"
+	dynasty=2012210 #Rivière
+	culture=chti
+	religion=neuhumanist
+	mother=1804013
+	2582.1.1={birth=yes}
+	2644.1.1={death=yes}
+}
+1804009={
+	name="Abelard"
+	dynasty=2012210 #Rivière
+	culture=chti
+	religion=neuhumanist
+	father=1804008
+	2611.1.1={birth=yes}
+	2656.1.1={death=yes}
+}
+1804010={
+	name="Antoine"
+	dynasty=2012210 #Rivière
+	culture=chti
+	religion=neuhumanist
+	father=1804015
+	2645.1.1={birth=yes}
+}
+1804011={
+	name="Titisse"
+	dynasty=2012210 #Rivière
+	culture=chti
+	religion=jacobin
+	2324.1.1={birth=yes}
+	2366.1.1={death=yes}
+}
+1804012={
+	name="Serge"
+	dynasty=2012210 #Rivière
+	culture=chti
+	father=1804014
+	religion=neuhumanist
+	trait=twin
+	2520.1.1={birth=yes}
+	2568.1.1={death=yes}
+}
+1804013={
+	name="Adryène"
+	female=yes
+	dynasty=2012210 #Rivière
+	culture=chti
+	father=1804012
+	religion=neuhumanist
+	2551.1.1={birth=yes}
+	2584.1.1={
+		death={
+			death_reason=death_execution
+		}
+	}
+}
+1804014={
+	name="Dënis"
+	dynasty=2012210 #Rivière
+	culture=chti
+	father=1804003
+	religion=neuhumanist
+	2479.1.1={birth=yes}
+	2522.1.1={death=yes}
+}
+1804015={
+	name="Jac'line"
+	female=yes
+	dynasty=2012210 #Rivière
+	culture=chti
+	father=1804008
+	religion=neuhumanist
+	2615.1.1={birth=yes}
+	2662.1.1={death=yes}
+}
+1804016={
+	name="Karel"
+	dynasty=2058052 #van de Walle
+	culture=flemish
+	father=1804017
+	religion=jacobin
+	trait=giant
+	trait=stubborn
+	trait=brave
+	trait=authoritative
+	2628.11.22={birth=yes}
+}
+1804017={
+	name="Hendrik"
+	dynasty=2058052 #van de Walle
+	culture=flemish
+	religion=jacobin
+	2575.11.22={birth=yes}
+	2659.5.3={death=yes}
+}
+1804018={
+	name="Ivone"
+	female=yes
+	culture=chti
+	religion=jacobin
+	2638.5.22={birth=yes}
+	2658.1.1={
+		add_spouse=1804016 #Karel van de Walle 
+	}
+}
+1804019={
+	name="Filip"
+	dynasty=2058052 #van de Walle
+	culture=flemish
+	father=1804017
+	religion=jacobin
+	father=1804016
+	mother=1804018
+	2659.12.28={birth=yes}
+}
+1804020={
+	name="Elisabeth"
+	female=yes
+	dynasty=2058052 #van de Walle
+	culture=flemish
+	father=1804017
+	religion=jacobin
+	father=1804016
+	mother=1804018
+	2662.5.15={birth=yes}
+}
