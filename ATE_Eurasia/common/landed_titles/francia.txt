@@ -7,7 +7,6 @@ e_france = {
 	color2={ 255 255 20 }
 	
 	capital = 1551 # c_paris
-	culture = parisian
 	
 	corsican = "Francia"
 	breton = "Galia"
@@ -23,7 +22,6 @@ e_france = {
 		color2={ 255 255 255 }
 		
 		capital = 1496 # c_marseille
-		culture = provencal
 	
 		breton = "Provañs"
 		occitan = "Provença"
@@ -35,12 +33,6 @@ e_france = {
 			color={ 254 228 110 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1496 province_id = 1497 province_id = 1498 province_id = 1499 province_id = 1500 } }
-				}
-			}
 			capital = 1496 # c_marseille
 	
 			breton = "Provañs"
@@ -271,12 +263,6 @@ e_france = {
 			color={ 242 148 0 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1507 province_id = 1508 province_id = 1509 } }
-				}
-			}
 			capital = 1507 # c_gard
 	
 			occitan = "Cevenas"
@@ -411,12 +397,6 @@ e_france = {
 			color={ 224 224 224 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1502 province_id = 1503 } }
-				}
-			}
 			capital = 1503 # c_pumonti
 	
 			occitan = "Corsega"
@@ -492,12 +472,6 @@ e_france = {
 			color={ 206 68 55 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1504 province_id = 1505 province_id = 1506 } }
-				}
-			}
 			capital = 1504 # c_isere
 	
 			occitan = "Daufinat"
@@ -634,12 +608,6 @@ e_france = {
 			color={ 250 153 109 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1512 province_id = 1513 } }
-				}
-			}
 			capital = 1512 # c_rhone
 	
 			occitan = "Lionés"
@@ -719,12 +687,6 @@ e_france = {
 			color={ 169 84 23 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1501 } }
-				}
-			}
 			capital = 1501 # c_monaco
 	
 			occitan = "Mónegue"
@@ -784,12 +746,6 @@ e_france = {
 			color={ 204 9 12 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1510 province_id = 1511 } }
-				}
-			}
 			capital = 1510 # c_savoy
 	
 			occitan = "Savòia"
@@ -876,7 +832,6 @@ e_france = {
 		color2={ 255 255 255 }
 		
 		capital = 1542 # c_rennes
-		culture = breton
 	
 		occitan = "Bretanha"
 		provencal = "Bretanha"
@@ -901,12 +856,6 @@ e_france = {
 			walloon = "Hôte-Burtaegne"
 			chti = "Haute-Bertanne"
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1542 province_id = 1543 province_id = 1544 province_id = 1545 province_id = 1546 } }
-				}
-			}
 			capital = 1542 # c_rennes
 			
 			c_rennes = { # 1542
@@ -1034,12 +983,6 @@ e_france = {
 			walloon = "Basse-Burtaegne"
 			chti = "Basse-Bertanne"
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1547 province_id = 1548 province_id = 1549 province_id = 1550 } }
-				}
-			}
 			capital = 1547 # c_vannes
 			
 			c_vannes = { # 1547
@@ -1161,7 +1104,6 @@ e_france = {
 		color2={ 255 255 255 }
 		
 		capital = 1551 # c_paris
-		culture = parisian
 	
 		occitan = "Lengadoïl"
 		provencal = "Lengadoïl"
@@ -1184,12 +1126,6 @@ e_france = {
 			walloon = "Île-de-France"
 			chti = "Île-de-France"
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1551 province_id = 1552 province_id = 1553 } }
-				}
-			}
 			capital = 1551 # c_paris
 			
 			c_paris = { # 1551
@@ -1266,12 +1202,6 @@ e_france = {
 			color={ 31 48 80 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1557 province_id = 1558 province_id = 1559 } }
-				}
-			}
 			capital = 1557 # c_cher
 	
 			occitan = "Berric"
@@ -1353,12 +1283,6 @@ e_france = {
 			color={ 52 54 94 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1583 province_id = 1584 province_id = 1585 province_id = 1586 } }
-				}
-			}
 			capital = 1583 # c_cote_dor
 	
 			occitan = "Borgonha"
@@ -1470,12 +1394,6 @@ e_france = {
 			catalan = "Xampanya"
 			breton = "Champagn"
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1575 province_id = 1576 province_id = 1577 province_id = 1578 } }
-				}
-			}
 			capital = 1575 # c_marne
 			
 			c_marne = { # 1575
@@ -1572,12 +1490,6 @@ e_france = {
 			color={ 16 6 159 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1587 province_id = 1588 province_id = 1589 } }
-				}
-			}
 			capital = 1587 # c_doubs
 	
 			occitan = "Franca Comtat"
@@ -1663,12 +1575,6 @@ e_france = {
 			color={ 63 104 228 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1554 province_id = 1555 province_id = 1556 } }
-				}
-			}
 			capital = 1554 # c_anjou
 	
 			occitan = "Léger"
@@ -1749,12 +1655,6 @@ e_france = {
 			color={ 74 178 186 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1579 province_id = 1580 province_id = 1581 province_id = 1582 } }
-				}
-			}
 			capital = 1579 # c_nancy
 	
 			occitan = "Lorena"
@@ -1885,12 +1785,6 @@ e_france = {
 			provencal = "Nòrd"
 			walloon = "Nôr"
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1571 province_id = 1572 province_id = 1573 province_id = 1574 } }
-				}
-			}
 			capital = 1571 # c_lille
 			
 			c_lille = { # 1571
@@ -2040,12 +1934,6 @@ e_france = {
 			color={ 93 84 120 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1563 province_id = 1564 province_id = 1565 province_id = 1566 province_id = 1567 } }
-				}
-			}
 			capital = 1563 # c_seine_maritime
 	
 			breton = "Normandi"
@@ -2166,12 +2054,6 @@ e_france = {
 			color={ 81 159 219 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1560 province_id = 1561 province_id = 1562 } }
-				}
-			}
 			capital = 1560 # c_orleans
 	
 			breton = "Orleañs"
@@ -2260,12 +2142,6 @@ e_france = {
 			color={ 0 35 149 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1568 province_id = 1569 province_id = 1570 } }
-				}
-			}
 			capital = 1568 # c_somme
 	
 			breton = "Pikardi"
@@ -2367,7 +2243,6 @@ e_france = {
 		color2={ 255 255 255 }
 		
 		capital = 1514 # c_toulouse
-		culture = occitan
 	
 		breton = "Okitania"
 		catalan = "Occitània"
@@ -2390,12 +2265,6 @@ e_france = {
 			provencal = "Naut Lengadòc"
 			walloon = "Hôt-Languedoc"
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1514 province_id = 1515 province_id = 1516 province_id = 1517 } }
-				}
-			}
 			capital = 1514 # c_toulouse
 			
 			c_toulouse = { # 1514
@@ -2571,12 +2440,6 @@ e_france = {
 			color={ 42 31 69 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1527 province_id = 1528 province_id = 1529 } }
-				}
-			}
 			capital = 1527 # c_gironde
 	
 			breton = "Akitania"
@@ -2718,12 +2581,6 @@ e_france = {
 			color={ 30 18 56 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1538 province_id = 1539 province_id = 1540 province_id = 1541 } }
-				}
-			}
 			capital = 1538 # c_puy_de_dome
 	
 			breton = "Arvern"
@@ -2827,12 +2684,6 @@ e_france = {
 			color={ 51 52 120 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1518 province_id = 1519 province_id = 1520 } }
-				}
-			}
 			capital = 1518 # c_herault
 	
 			breton = "Lengadok-Uhel"
@@ -2917,12 +2768,6 @@ e_france = {
 			color={ 46 39 90 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1524 province_id = 1525 province_id = 1526 } }
-				}
-			}
 			capital = 1524 # c_armagnac
 	
 			breton = "Gwaskogn"
@@ -3010,12 +2855,6 @@ e_france = {
 			color={ 59 44 74 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1530 province_id = 1531 province_id = 1532 } }
-				}
-			}
 			capital = 1530 # c_haut_limousin
 	
 			catalan = "Llemosí"
@@ -3099,12 +2938,6 @@ e_france = {
 			color={ 20 74 27 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1533 province_id = 1534 province_id = 1535 province_id = 1536 province_id = 1537 } }
-				}
-			}
 			capital = 1533 # c_vienne
 	
 			breton = "Poatev"
@@ -3236,12 +3069,6 @@ e_france = {
 			color={ 44 45 115 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1521 province_id = 1522 province_id = 1523 } }
-				}
-			}
 			capital = 1521 # c_comminges
 	
 			breton = "Pireneoù"

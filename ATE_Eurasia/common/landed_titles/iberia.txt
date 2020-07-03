@@ -7,261 +7,164 @@ e_iberia = {
 	color2={ 255 255 20 }
 	
 	capital = 187 # c_madrid
-	culture = castilian
 	
 	k_toledo = {
 		color={ 212 105 74 }
 		color2={ 255 255 255 }
 		
 		capital = 187 # c_madrid
-		culture = castilian
 		
 		d_madrid = {
 			color={ 232 85 84 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 187 province_id = 188 province_id = 189 } }
-				}
-			}
 			capital = 187 # c_madrid
 			
 			c_madrid = { # 187
 				color={ 242 75 89 }
 				color2={ 255 255 255 }
 				
-				b_oriente = {
-				}
-				b_gran_via = {
-				}
-				b_almudena = {
-				}
-				b_mostoles = {
-				}
-				b_zarzuela = {
-				}
-				b_san_jeronimo = {
-				}
-				b_alcala = {
-				}
+				b_oriente = {}
+				b_gran_via = {}
+				b_almudena = {}
+				b_mostoles = {}
+				b_zarzuela = {}
+				b_san_jeronimo = {}
+				b_alcala = {}
 			}
 			c_cuenca = { # 189
 				color={ 80 175 136 }
 				color2={ 255 255 255 }
 				
-				b_cuenca = {
-				}
-				b_tarancon = {
-				}
-				b_las_pedroneras = {
-				}
-				b_quintanar_del_rey = {
-				}
-				b_san_clemente = {
-				}
-				b_mota_del_cuervo = {
-				}
-				b_motilla_del_palancar = {
-				}
+				b_cuenca = {}
+				b_tarancon = {}
+				b_las_pedroneras = {}
+				b_quintanar_del_rey = {}
+				b_san_clemente = {}
+				b_mota_del_cuervo = {}
+				b_motilla_del_palancar = {}
 			}
 			c_guadalajara = { # 188
 				color={ 97 211 164 }
 				color2={ 255 255 255 }
 				
-				b_azuqueca_de_henares = {
-				}
-				b_guadalajara = {
-				}
-				b_cabanillas_del_campo = {
-				}
-				b_sigueenza = {
-				}
-				b_el_casar = {
-				}
-				b_marchamalo = {
-				}
-				b_molina_de_aragon = {
-				}
+				b_azuqueca_de_henares = {}
+				b_guadalajara = {}
+				b_cabanillas_del_campo = {}
+				b_sigueenza = {}
+				b_el_casar = {}
+				b_marchamalo = {}
+				b_molina_de_aragon = {}
 			}
 		}
 		d_extramadura = {
 			color={ 202 211 250 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 194 province_id = 195 province_id = 196 province_id = 197 } }
-				}
-			}
 			capital = 194 # c_badajoz
 			
 			c_badajoz = { # 194
 				color={ 212 201 255 }
 				color2={ 255 255 255 }
 				
-				b_puerta_de_palmas = {
-				}
-				b_badajoz = {
-				}
-				b_merida = {
-				}
-				b_almendralejo = {
-				}
-				b_montijo = {
-				}
-				b_zafra = {
-				}
-				b_villafranca_de_los_barros = {
-				}
+				b_puerta_de_palmas = {}
+				b_badajoz = {}
+				b_merida = {}
+				b_almendralejo = {}
+				b_montijo = {}
+				b_zafra = {}
+				b_villafranca_de_los_barros = {}
 			}
 			c_caceres = { # 196
 				color={ 156 164 193 }
 				color2={ 255 255 255 }
 				
-				b_cigueenas = {
-				}
-				b_caceres = {
-				}
-				b_plasencia = {
-				}
-				b_coria = {
-				}
-				b_moraleja = {
-				}
-				b_arroyo_de_la_luz = {
-				}
-				b_valencia_de_alcantara = {
-				}
+				b_cigueenas = {}
+				b_caceres = {}
+				b_plasencia = {}
+				b_coria = {}
+				b_moraleja = {}
+				b_arroyo_de_la_luz = {}
+				b_valencia_de_alcantara = {}
 			}
 			c_las_vegas_altas = { # 195
 				color={ 213 195 219 }
 				color2={ 255 255 255 }
 				
-				b_don_benito = {
-				}
-				b_villanueva_de_la_serena = {
-				}
-				b_guarena = {
-				}
-				b_castuera = {
-				}
-				b_cabeza_del_buey = {
-				}
-				b_campanario = {
-				}
-				b_quintana_de_la_serena = {
-				}
+				b_don_benito = {}
+				b_villanueva_de_la_serena = {}
+				b_guarena = {}
+				b_castuera = {}
+				b_cabeza_del_buey = {}
+				b_campanario = {}
+				b_quintana_de_la_serena = {}
 			}
 			c_navalmoral_de_la_mata = { # 197
 				color={ 180 171 216 }
 				color2={ 255 255 255 }
 				
-				b_navalmoral_de_la_mata = {
-				}
-				b_talayuela = {
-				}
-				b_trujillo = {
-				}
-				b_miajadas = {
-				}
-				b_jaraiz_de_la_vera = {
-				}
-				b_hervas = {
-				}
-				b_losar_de_la_vera = {
-				}
+				b_navalmoral_de_la_mata = {}
+				b_talayuela = {}
+				b_trujillo = {}
+				b_miajadas = {}
+				b_jaraiz_de_la_vera = {}
+				b_hervas = {}
+				b_losar_de_la_vera = {}
 			}
 		}
 		d_la_mancha = {
 			color={ 229 156 96 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 190 province_id = 191 province_id = 192 province_id = 193 } }
-				}
-			}
 			capital = 190 # c_toledo
 			
 			c_toledo = { # 190
 				color={ 239 146 101 }
 				color2={ 255 255 255 }
 				
-				b_madridejos = {
-				}
-				b_toledo = {
-				}
-				b_sonseca = {
-				}
-				b_consuegra = {
-				}
-				b_quintanar_de_la_orden = {
-				}
-				b_villacanas = {
-				}
-				b_mora = {
-				}
+				b_madridejos = {}
+				b_toledo = {}
+				b_sonseca = {}
+				b_consuegra = {}
+				b_quintanar_de_la_orden = {}
+				b_villacanas = {}
+				b_mora = {}
 			}
 			c_albacete = { # 193
 				color={ 107 143 239 }
 				color2={ 255 255 255 }
 				
-				b_hellin = {
-				}
-				b_albacete = {
-				}
-				b_villarrodeblo = {
-				}
-				b_almansa = {
-				}
-				b_la_roda = {
-				}
-				b_caudete = {
-				}
-				b_tobarra = {
-				}
+				b_hellin = {}
+				b_albacete = {}
+				b_villarrodeblo = {}
+				b_almansa = {}
+				b_la_roda = {}
+				b_caudete = {}
+				b_tobarra = {}
 			}
 			c_ciudad_real = { # 192
 				color={ 242 239 48 }
 				color2={ 255 255 255 }
 				
-				b_ciudad_real = {
-				}
-				b_puertollano = {
-				}
-				b_tomelloso = {
-				}
-				b_alcazar_de_san_juan = {
-				}
-				b_veldepenas = {
-				}
-				b_manzanares = {
-				}
-				b_daimiel = {
-				}
+				b_ciudad_real = {}
+				b_puertollano = {}
+				b_tomelloso = {}
+				b_alcazar_de_san_juan = {}
+				b_veldepenas = {}
+				b_manzanares = {}
+				b_daimiel = {}
 			}
 			c_talavera = { # 191
 				color={ 239 79 0 }
 				color2={ 255 255 255 }
 				
-				b_illescas = {
-				}
-				b_talavera = {
-				}
-				b_torrijos = {
-				}
-				b_sesena = {
-				}
-				b_fuensalida = {
-				}
-				b_bargas = {
-				}
-				b_la_puebla_de_montalban = {
-				}
+				b_illescas = {}
+				b_talavera = {}
+				b_torrijos = {}
+				b_sesena = {}
+				b_fuensalida = {}
+				b_bargas = {}
+				b_la_puebla_de_montalban = {}
 			}
 		}
 	}
@@ -270,254 +173,158 @@ e_iberia = {
 		color2={ 255 255 255 }
 		
 		capital = 220 # c_seville
-		culture = andalusian
 		
 		d_seville = {
 			color={ 232 230 77 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 220 province_id = 221 province_id = 222 province_id = 223 } }
-				}
-			}
 			capital = 220 # c_seville
 			
 			c_seville = { # 220
 				color={ 242 220 82 }
 				color2={ 255 255 255 }
 				
-				b_dos_hermanas = {
-				}
-				b_seville = {
-				}
-				b_alcala_de_guadaira = {
-				}
-				b_utrera = {
-				}
-				b_ecija = {
-				}
-				b_la_rinconada = {
-				}
-				b_los_palacios_y_villafranca = {
-				}
+				b_dos_hermanas = {}
+				b_seville = {}
+				b_alcala_de_guadaira = {}
+				b_utrera = {}
+				b_ecija = {}
+				b_la_rinconada = {}
+				b_los_palacios_y_villafranca = {}
 			}
 			c_cordoba = { # 223
 				color={ 255 232 86 }
 				color2={ 255 255 255 }
 				
-				b_lucena = {
-				}
-				b_cordoba  = {
-				}
-				b_puente_genil = {
-				}
-				b_montilla = {
-				}
-				b_priego_de_cordoba = {
-				}
-				b_cabra = {
-				}
-				b_baena = {
-				}
+				b_lucena = {}
+				b_cordoba  = {}
+				b_puente_genil = {}
+				b_montilla = {}
+				b_priego_de_cordoba = {}
+				b_cabra = {}
+				b_baena = {}
 			}
 			c_huelva = { # 222
 				color={ 255 88 76 }
 				color2={ 255 255 255 }
 				
-				b_lepe = {
-				}
-				b_huelva = {
-				}
-				b_almonte = {
-				}
-				b_moguer = {
-				}
-				b_isla_cristina = {
-				}
-				b_aljaraque = {
-				}
-				b_ayamonte = {
-				}
+				b_lepe = {}
+				b_huelva = {}
+				b_almonte = {}
+				b_moguer = {}
+				b_isla_cristina = {}
+				b_aljaraque = {}
+				b_ayamonte = {}
 			}
 			c_sierra_norte = { # 221
 				color={ 242 215 41 }
 				color2={ 255 255 255 }
 				
-				b_mairena_de_aljarafe = {
-				}
-				b_coria_del_rio = {
-				}
-				b_camas = {
-				}
-				b_tomares = {
-				}
-				b_bormujos = {
-				}
-				b_lora_del_rio = {
-				}
-				b_castilleja_de_la_cuesta = {
-				}
+				b_mairena_de_aljarafe = {}
+				b_coria_del_rio = {}
+				b_camas = {}
+				b_tomares = {}
+				b_bormujos = {}
+				b_lora_del_rio = {}
+				b_castilleja_de_la_cuesta = {}
 			}
 		}
 		d_cadiz = {
 			color={ 232 190 120 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 224 province_id = 225 } }
-				}
-			}
 			capital = 224 # c_cadiz
 			
 			c_cadiz = { # 224
 				color={ 242 180 125 }
 				color2={ 255 255 255 }
 				
-				b_cadiz = {
-				}
-				b_jerez = {
-				}
-				b_san_fernando = {
-				}
-				b_santa_maria = {
-				}
-				b_chiclana  = {
-				}
-				b_sanlucar_de_barrameda = {
-				}
-				b_puerto_real = {
-				}
+				b_cadiz = {}
+				b_jerez = {}
+				b_san_fernando = {}
+				b_santa_maria = {}
+				b_chiclana  = {}
+				b_sanlucar_de_barrameda = {}
+				b_puerto_real = {}
 			}
 			c_gibraltar = { # 225
 				color={ 242 72 60 }
 				color2={ 255 255 255 }
 				
-				b_the_rock = {
-				}
-				b_algeciras = {
-				}
-				b_la_linea_de_la_concepcion = {
-				}
-				b_san_roque = {
-				}
-				b_los_barrios = {
-				}
-				b_barbate = {
-				}
-				b_conil  = {
-				}
+				b_the_rock = {}
+				b_algeciras = {}
+				b_la_linea_de_la_concepcion = {}
+				b_san_roque = {}
+				b_los_barrios = {}
+				b_barbate = {}
+				b_conil  = {}
 			}
 		}
 		d_granada = {
 			color={ 229 230 131 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 226 province_id = 227 province_id = 228 province_id = 229 province_id = 230 } }
-				}
-			}
 			capital = 226 # c_granada
 			
 			c_granada = { # 226
 				color={ 239 220 136 }
 				color2={ 255 255 255 }
 				
-				b_motril = {
-				}
-				b_granada = {
-				}
-				b_almunecar = {
-				}
-				b_armilla = {
-				}
-				b_maracena = {
-				}
-				b_baza = {
-				}
-				b_loja = {
-				}
+				b_motril = {}
+				b_granada = {}
+				b_almunecar = {}
+				b_armilla = {}
+				b_maracena = {}
+				b_baza = {}
+				b_loja = {}
 			}
 			c_almeria = { # 228
 				color={ 239 167 43 }
 				color2={ 255 255 255 }
 				
-				b_roquetas_de_mar = {
-				}
-				b_almeria = {
-				}
-				b_el_ejido = {
-				}
-				b_nijar = {
-				}
-				b_vicar = {
-				}
-				b_adra = {
-				}
-				b_huercal_overa = {
-				}
+				b_roquetas_de_mar = {}
+				b_almeria = {}
+				b_el_ejido = {}
+				b_nijar = {}
+				b_vicar = {}
+				b_adra = {}
+				b_huercal_overa = {}
 			}
 			c_jaen = { # 230
 				color={ 32 173 42 }
 				color2={ 255 255 255 }
 				
-				b_alcala_la_real = {
-				}
-				b_jaen = {
-				}
-				b_linares = {
-				}
-				b_andujar = {
-				}
-				b_ubeda = {
-				}
-				b_martos = {
-				}
-				b_bailen = {
-				}
+				b_alcala_la_real = {}
+				b_jaen = {}
+				b_linares = {}
+				b_andujar = {}
+				b_ubeda = {}
+				b_martos = {}
+				b_bailen = {}
 			}
 			c_malaga = { # 227
 				color={ 239 121 105 }
 				color2={ 255 255 255 }
 				
-				b_marbella = {
-				}
-				b_malaga = {
-				}
-				b_velez_malaga = {
-				}
-				b_mijas = {
-				}
-				b_fuengirola = {
-				}
-				b_torremolinos = {
-				}
-				b_benalmadena = {
-				}
+				b_marbella = {}
+				b_malaga = {}
+				b_velez_malaga = {}
+				b_mijas = {}
+				b_fuengirola = {}
+				b_torremolinos = {}
+				b_benalmadena = {}
 			}
 			c_murcia = { # 229
 				color={ 239 141 195 }
 				color2={ 255 255 255 }
 				
-				b_lorca = {
-				}
-				b_murcia = {
-				}
-				b_cartagena = {
-				}
-				b_molina_de_segura = {
-				}
-				b_alcantarilla = {
-				}
-				b_torre_pacheco = {
-				}
-				b_aguilas = {
-				}
+				b_lorca = {}
+				b_murcia = {}
+				b_cartagena = {}
+				b_molina_de_segura = {}
+				b_alcantarilla = {}
+				b_torre_pacheco = {}
+				b_aguilas = {}
 			}
 		}
 	}
@@ -526,381 +333,237 @@ e_iberia = {
 		color2={ 255 255 255 }
 		
 		capital = 198 # c_valladolid
-		culture = castilian
 		
 		d_castile = {
 			color={ 194 155 94 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 198 province_id = 199 province_id = 200 province_id = 201 province_id = 202 province_id = 203 } }
-				}
-			}
 			capital = 198 # c_valladolid
 			
 			c_valladolid = { # 198
 				color={ 204 145 99 }
 				color2={ 255 255 255 }
 				
-				b_laguna_de_duero = {
-				}
-				b_valladolid = {
-				}
-				b_medina_del_campo = {
-				}
-				b_tordesillas = {
-				}
-				b_tudela_de_duero = {
-				}
-				b_iscar = {
-				}
-				b_penafiel = {
-				}
+				b_laguna_de_duero = {}
+				b_valladolid = {}
+				b_medina_del_campo = {}
+				b_tordesillas = {}
+				b_tudela_de_duero = {}
+				b_iscar = {}
+				b_penafiel = {}
 			}
 			c_avila = { # 200
 				color={ 247 222 113 }
 				color2={ 255 255 255 }
 				
-				b_arevalo = {
-				}
-				b_avila = {
-				}
-				b_san_vicente = {
-				}
-				b_arenas_de_san_pedro = {
-				}
-				b_candeleda = {
-				}
-				b_las_navas_del_marques = {
-				}
-				b_sotillo_de_la_adrada = {
-				}
+				b_arevalo = {}
+				b_avila = {}
+				b_san_vicente = {}
+				b_arenas_de_san_pedro = {}
+				b_candeleda = {}
+				b_las_navas_del_marques = {}
+				b_sotillo_de_la_adrada = {}
 			}
 			c_burgos = { # 201
 				color={ 247 203 101 }
 				color2={ 255 255 255 }
 				
-				b_burgos = {
-				}
-				b_mirande_de_ebro = {
-				}
-				b_aranda_de_duero = {
-				}
-				b_briviesca = {
-				}
-				b_medina_de_pomar = {
-				}
-				b_lerma = {
-				}
-				b_belorado = {
-				}
+				b_burgos = {}
+				b_mirande_de_ebro = {}
+				b_aranda_de_duero = {}
+				b_briviesca = {}
+				b_medina_de_pomar = {}
+				b_lerma = {}
+				b_belorado = {}
 			}
 			c_palencia = { # 199
 				color={ 204 40 97 }
 				color2={ 255 255 255 }
 				
-				b_paredes_de_monte = {
-				}
-				b_palencia = {
-				}
-				b_cristo_del_otero = {
-				}
-				b_guardo = {
-				}
-				b_aguilar_de_campoo = {
-				}
-				b_venta_de_banos = {
-				}
-				b_villamuriel_de_cerrato = {
-				}
+				b_paredes_de_monte = {}
+				b_palencia = {}
+				b_cristo_del_otero = {}
+				b_guardo = {}
+				b_aguilar_de_campoo = {}
+				b_venta_de_banos = {}
+				b_villamuriel_de_cerrato = {}
 			}
 			c_segovia = { # 202
 				color={ 147 93 247 }
 				color2={ 255 255 255 }
 				
-				b_el_espinar = {
-				}
-				b_segovia = {
-				}
-				b_cuellar = {
-				}
-				b_san_ildefonso = {
-				}
-				b_cantalejo = {
-				}
-				b_nava_de_la_asuncion = {
-				}
-				b_san_cristobal_de_segovia, = {
-				}
+				b_el_espinar = {}
+				b_segovia = {}
+				b_cuellar = {}
+				b_san_ildefonso = {}
+				b_cantalejo = {}
+				b_nava_de_la_asuncion = {}
+				b_san_cristobal_de_segovia, = {}
 			}
 			c_soria = { # 203
 				color={ 247 235 74 }
 				color2={ 255 255 255 }
 				
-				b_almazan = {
-				}
-				b_soria = {
-				}
-				b_burgo_de_osma = {
-				}
-				b_san_esteban_de_gormaz = {
-				}
-				b_olvega = {
-				}
-				b_agreda = {
-				}
-				b_san_leonardo_de_yaguee = {
-				}
+				b_almazan = {}
+				b_soria = {}
+				b_burgo_de_osma = {}
+				b_san_esteban_de_gormaz = {}
+				b_olvega = {}
+				b_agreda = {}
+				b_san_leonardo_de_yaguee = {}
 			}
 		}
 		d_asturias = {
 			color={ 130 152 199 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 208 province_id = 209 province_id = 210 } }
-				}
-			}
 			capital = 208 # c_oviedo
 			
 			c_oviedo = { # 208
 				color={ 140 142 204 }
 				color2={ 255 255 255 }
 				
-				b_oviedo = {
-				}
-				b_aviles = {
-				}
-				b_castrillon = {
-				}
-				b_corvera_de_asturias = {
-				}
-				b_cangas_del_narcea = {
-				}
-				b_valdes = {
-				}
-				b_gozon = {
-				}
+				b_oviedo = {}
+				b_aviles = {}
+				b_castrillon = {}
+				b_corvera_de_asturias = {}
+				b_cangas_del_narcea = {}
+				b_valdes = {}
+				b_gozon = {}
 			}
 			c_cantabria = { # 210
 				color={ 171 157 204 }
 				color2={ 255 255 255 }
 				
-				b_camargo = {
-				}
-				b_santander = {
-				}
-				b_torrelavega = {
-				}
-				b_castro_urdiales = {
-				}
-				b_el_astillero = {
-				}
-				b_pielagos = {
-				}
-				b_laredo = {
-				}
+				b_camargo = {}
+				b_santander = {}
+				b_torrelavega = {}
+				b_castro_urdiales = {}
+				b_el_astillero = {}
+				b_pielagos = {}
+				b_laredo = {}
 			}
 			c_gijon = { # 209
 				color={ 110 128 175 }
 				color2={ 255 255 255 }
 				
-				b_siero = {
-				}
-				b_gijon = {
-				}
-				b_langreo = {
-				}
-				b_mieres = {
-				}
-				b_san_martin_del_rey_aurelio = {
-				}
-				b_villaviciosa = {
-				}
-				b_llanes = {
-				}
+				b_siero = {}
+				b_gijon = {}
+				b_langreo = {}
+				b_mieres = {}
+				b_san_martin_del_rey_aurelio = {}
+				b_villaviciosa = {}
+				b_llanes = {}
 			}
 		}
 		d_galicia = {
 			color={ 22 143 209 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 211 province_id = 212 province_id = 213 province_id = 214 } }
-				}
-			}
 			capital = 211 # c_a_coruna
 			
 			c_a_coruna = { # 211
 				color={ 12 153 204 }
 				color2={ 255 255 255 }
 				
-				b_santiago = {
-				}
-				b_a_coruna = {
-				}
-				b_ferrol = {
-				}
-				b_naron = {
-				}
-				b_carballo = {
-				}
-				b_oleiros = {
-				}
-				b_ribeira = {
-				}
+				b_santiago = {}
+				b_a_coruna = {}
+				b_ferrol = {}
+				b_naron = {}
+				b_carballo = {}
+				b_oleiros = {}
+				b_ribeira = {}
 			}
 			c_lugo = { # 212
 				color={ 27 77 95 }
 				color2={ 255 255 255 }
 				
-				b_lugo = {
-				}
-				b_monforte_de_lemos = {
-				}
-				b_vilalba = {
-				}
-				b_viveiro = {
-				}
-				b_sarria = {
-				}
-				b_chantada = {
-				}
-				b_foz = {
-				}
+				b_lugo = {}
+				b_monforte_de_lemos = {}
+				b_vilalba = {}
+				b_viveiro = {}
+				b_sarria = {}
+				b_chantada = {}
+				b_foz = {}
 			}
 			c_ourense = { # 213
 				color={ 72 153 181 }
 				color2={ 255 255 255 }
 				
-				b_miraflor = {
-				}
-				b_ourense = {
-				}
-				b_verin = {
-				}
-				b_o_barco_de_valdeorras = {
-				}
-				b_o_carballino = {
-				}
-				b_xinzo_de_limia = {
-				}
-				b_barbadas = {
-				}
+				b_miraflor = {}
+				b_ourense = {}
+				b_verin = {}
+				b_o_barco_de_valdeorras = {}
+				b_o_carballino = {}
+				b_xinzo_de_limia = {}
+				b_barbadas = {}
 			}
 			c_pontevedra = { # 214
 				color={ 93 182 211 }
 				color2={ 255 255 255 }
 				
-				b_pontevedra = {
-				}
-				b_vigo = {
-				}
-				b_vilagarcia_de_arousa = {
-				}
-				b_redondela = {
-				}
-				b_cangas = {
-				}
-				b_marin = {
-				}
-				b_ponteareas = {
-				}
+				b_pontevedra = {}
+				b_vigo = {}
+				b_vilagarcia_de_arousa = {}
+				b_redondela = {}
+				b_cangas = {}
+				b_marin = {}
+				b_ponteareas = {}
 			}
 		}
 		d_leon = {
 			color={ 214 23 5 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 204 province_id = 205 province_id = 206 province_id = 207 } }
-				}
-			}
 			capital = 204 # c_leon
 			
 			c_leon = { # 204
 				color={ 204 33 0 }
 				color2={ 255 255 255 }
 				
-				b_san_andres_del_rabanedo = {
-				}
-				b_leon = {
-				}
-				b_villaquilambre = {
-				}
-				b_la_robla = {
-				}
-				b_la_pola_de_gordon = {
-				}
-				b_valverde_de_la_virgen = {
-				}
-				b_cistierna = {
-				}
+				b_san_andres_del_rabanedo = {}
+				b_leon = {}
+				b_villaquilambre = {}
+				b_la_robla = {}
+				b_la_pola_de_gordon = {}
+				b_valverde_de_la_virgen = {}
+				b_cistierna = {}
 			}
 			c_el_bierzo = { # 205
 				color={ 204 118 114 }
 				color2={ 255 255 255 }
 				
-				b_bembibre = {
-				}
-				b_ponferrada = {
-				}
-				b_villablino = {
-				}
-				b_astorga = {
-				}
-				b_la_baneza = {
-				}
-				b_fabero = {
-				}
-				b_cacabelos = {
-				}
+				b_bembibre = {}
+				b_ponferrada = {}
+				b_villablino = {}
+				b_astorga = {}
+				b_la_baneza = {}
+				b_fabero = {}
+				b_cacabelos = {}
 			}
 			c_salamanca = { # 206
 				color={ 136 109 206 }
 				color2={ 255 255 255 }
 				
-				b_santa_marta_de_tormes = {
-				}
-				b_salamanca = {
-				}
-				b_bejar = {
-				}
-				b_ciudad_rodrigo = {
-				}
-				b_villamayor = {
-				}
-				b_carbajosa_de_la_sagrada = {
-				}
-				b_penaranda_de_bracamonte = {
-				}
+				b_santa_marta_de_tormes = {}
+				b_salamanca = {}
+				b_bejar = {}
+				b_ciudad_rodrigo = {}
+				b_villamayor = {}
+				b_carbajosa_de_la_sagrada = {}
+				b_penaranda_de_bracamonte = {}
 			}
 			c_zamora = { # 207
 				color={ 200 204 134 }
 				color2={ 255 255 255 }
 				
-				b_zamora = {
-				}
-				b_benavente = {
-				}
-				b_toro = {
-				}
-				b_morales_del_vino = {
-				}
-				b_villaralbo = {
-				}
-				b_moraleja_del_vino = {
-				}
-				b_fuentesauco = {
-				}
+				b_zamora = {}
+				b_benavente = {}
+				b_toro = {}
+				b_morales_del_vino = {}
+				b_villaralbo = {}
+				b_moraleja_del_vino = {}
+				b_fuentesauco = {}
 			}
 		}
 	}
@@ -909,95 +572,60 @@ e_iberia = {
 		color2={ 255 255 255 }
 		
 		capital = 231 # c_barcelona
-		culture = catalan
 		
 		d_barcelona = {
 			color={ 3 71 19 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 231 province_id = 232 province_id = 233 province_id = 234 } }
-				}
-			}
 			capital = 231 # c_barcelona
 			
 			c_barcelona = { # 231
 				color={ 249 81 14 }
 				color2={ 255 255 255 }
 				
-				b_santa_florentina = {
-				}
-				b_barcelona = {
-				}
-				b_sagrada_familia = {
-				}
-				b_lhospitalet_de_llobregat = {
-				}
-				b_badalona = {
-				}
-				b_terrassa = {
-				}
-				b_sabadell = {
-				}
+				b_santa_florentina = {}
+				b_barcelona = {}
+				b_sagrada_familia = {}
+				b_lhospitalet_de_llobregat = {}
+				b_badalona = {}
+				b_terrassa = {}
+				b_sabadell = {}
 			}
 			c_girona = { # 232
 				color={ 1 224 153 }
 				color2={ 255 255 255 }
 				
-				b_salt = {
-				}
-				b_girona = {
-				}
-				b_figueres = {
-				}
-				b_blanes = {
-				}
-				b_lloret_de_mar = {
-				}
-				b_olot = {
-				}
-				b_palafrugell = {
-				}
+				b_salt = {}
+				b_girona = {}
+				b_figueres = {}
+				b_blanes = {}
+				b_lloret_de_mar = {}
+				b_olot = {}
+				b_palafrugell = {}
 			}
 			c_lleida = { # 233
 				color={ 247 133 39 }
 				color2={ 255 255 255 }
 				
-				b_tarrega = {
-				}
-				b_lleida = {
-				}
-				b_balaguer = {
-				}
-				b_mollerussa = {
-				}
-				b_la_seu_durgell = {
-				}
-				b_alcarras = {
-				}
-				b_solsona = {
-				}
+				b_tarrega = {}
+				b_lleida = {}
+				b_balaguer = {}
+				b_mollerussa = {}
+				b_la_seu_durgell = {}
+				b_alcarras = {}
+				b_solsona = {}
 			}
 			c_tarragona = { # 234
 				color={ 161 181 132 }
 				color2={ 255 255 255 }
 				
-				b_salou = {
-				}
-				b_tarragona = {
-				}
-				b_reus = {
-				}
-				b_el_vendrell = {
-				}
-				b_tortosa = {
-				}
-				b_cambrils = {
-				}
-				b_valls = {
-				}
+				b_salou = {}
+				b_tarragona = {}
+				b_reus = {}
+				b_el_vendrell = {}
+				b_tortosa = {}
+				b_cambrils = {}
+				b_valls = {}
 			}
 		}
 		d_balears = {
@@ -1047,210 +675,129 @@ e_iberia = {
 			color={ 214 160 17 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 243 } }
-				}
-			}
 			capital = 243 # c_andorra
 			
 			c_andorra = { # 243
 				color={ 224 150 22 }
 				color2={ 255 255 255 }
 				
-				b_barri_antic = {
-				}
-				b_andorra_la_vella = {
-				}
-				b_sant_esteve = {
-				}
-				b_escaldes_engordany = {
-				}
-				b_sant_julia_de_loria = {
-				}
-				b_encamp = {
-				}
-				b_la_massana = {
-				}
+				b_barri_antic = {}
+				b_andorra_la_vella = {}
+				b_sant_esteve = {}
+				b_escaldes_engordany = {}
+				b_sant_julia_de_loria = {}
+				b_encamp = {}
+				b_la_massana = {}
 			}
 		}
 		d_aragon = {
 			color={ 109 143 234 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 235 province_id = 236 province_id = 237 province_id = 238 } }
-				}
-			}
 			capital = 235 # c_zaragoza
 			
 			c_zaragoza = { # 235
 				color={ 119 133 239 }
 				color2={ 255 255 255 }
 				
-				b_lalchafaria = {
-				}
-				b_zaragoza = {
-				}
-				b_ejea_de_los_caballeros = {
-				}
-				b_utebo = {
-				}
-				b_tarazona = {
-				}
-				b_caspe = {
-				}
-				b_tauste = {
-				}
+				b_lalchafaria = {}
+				b_zaragoza = {}
+				b_ejea_de_los_caballeros = {}
+				b_utebo = {}
+				b_tarazona = {}
+				b_caspe = {}
+				b_tauste = {}
 			}
 			c_calatayud = { # 236
 				color={ 86 78 237 }
 				color2={ 255 255 255 }
 				
-				b_ayud = {
-				}
-				b_calatayud = {
-				}
-				b_carinena = {
-				}
-				b_daroca = {
-				}
-				b_ateca = {
-				}
-				b_belchite = {
-				}
-				b_alfamen = {
-				}
+				b_ayud = {}
+				b_calatayud = {}
+				b_carinena = {}
+				b_daroca = {}
+				b_ateca = {}
+				b_belchite = {}
+				b_alfamen = {}
 			}
 			c_huesca = { # 237
 				color={ 232 108 67 }
 				color2={ 255 255 255 }
 				
-				b_monzon = {
-				}
-				b_huesca = {
-				}
-				b_barbastro = {
-				}
-				b_fraga = {
-				}
-				b_jaca = {
-				}
-				b_sabinanigo = {
-				}
-				b_binefar = {
-				}
+				b_monzon = {}
+				b_huesca = {}
+				b_barbastro = {}
+				b_fraga = {}
+				b_jaca = {}
+				b_sabinanigo = {}
+				b_binefar = {}
 			}
 			c_teruel = { # 238
 				color={ 175 0 41 }
 				color2={ 255 255 255 }
 				
-				b_alcaniz = {
-				}
-				b_teruel = {
-				}
-				b_andorra = {
-				}
-				b_calamocha = {
-				}
-				b_calanda = {
-				}
-				b_alcorisa = {
-				}
-				b_utrillas = {
-				}
+				b_alcaniz = {}
+				b_teruel = {}
+				b_andorra = {}
+				b_calamocha = {}
+				b_calanda = {}
+				b_alcorisa = {}
+				b_utrillas = {}
 			}
 		}
 		d_valencia = {
 			color={ 185 72 5 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 239 province_id = 240 province_id = 241 province_id = 242 } }
-				}
-			}
 			capital = 239 # c_valencia
 			
 			c_valencia = { # 239
 				color={ 175 82 0 }
 				color2={ 255 255 255 }
 				
-				b_torrent = {
-				}
-				b_valencia = {
-				}
-				b_gandia = {
-				}
-				b_paterna = {
-				}
-				b_sagunt = {
-				}
-				b_mislata = {
-				}
-				b_burjassot = {
-				}
+				b_torrent = {}
+				b_valencia = {}
+				b_gandia = {}
+				b_paterna = {}
+				b_sagunt = {}
+				b_mislata = {}
+				b_burjassot = {}
 			}
 			c_alicante = { # 242
 				color={ 153 198 156 }
 				color2={ 255 255 255 }
 				
-				b_alicante = {
-				}
-				b_elche = {
-				}
-				b_torrevieja = {
-				}
-				b_orihuela = {
-				}
-				b_benidorm = {
-				}
-				b_alcoy = {
-				}
-				b_san_vicente_del_raspeig = {
-				}
+				b_alicante = {}
+				b_elche = {}
+				b_torrevieja = {}
+				b_orihuela = {}
+				b_benidorm = {}
+				b_alcoy = {}
+				b_san_vicente_del_raspeig = {}
 			}
 			c_castellon = { # 241
 				color={ 249 215 89 }
 				color2={ 255 255 255 }
 				
-				b_almassora = {
-				}
-				b_castellon = {
-				}
-				b_vila_real = {
-				}
-				b_borriana = {
-				}
-				b_la_vall_duixo = {
-				}
-				b_benicarlo = {
-				}
-				b_almassora_2 = {
-				}
+				b_almassora = {}
+				b_castellon = {}
+				b_vila_real = {}
+				b_borriana = {}
+				b_la_vall_duixo = {}
+				b_benicarlo = {}
+				b_almassora_2 = {}
 			}
 			c_cofrents_aiora = { # 240
 				color={ 216 150 88 }
 				color2={ 255 255 255 }
 				
-				b_xativa = {
-				}
-				b_ontinyent = {
-				}
-				b_la_pobla_de_vallbona = {
-				}
-				b_lliria = {
-				}
-				b_requena = {
-				}
-				b_chiva = {
-				}
-				b_canals = {
-				}
+				b_xativa = {}
+				b_ontinyent = {}
+				b_la_pobla_de_vallbona = {}
+				b_lliria = {}
+				b_requena = {}
+				b_chiva = {}
+				b_canals = {}
 			}
 		}
 	}
@@ -1259,114 +806,72 @@ e_iberia = {
 		color2={ 255 255 255 }
 		
 		capital = 215 # c_navarre
-		culture = basque
 		
 		d_baskonia = {
 			color={ 221 18 5 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 215 province_id = 216 province_id = 217 province_id = 218 province_id = 219 } }
-				}
-			}
 			capital = 215 # c_navarre
 			
 			c_navarre = { # 215
 				color={ 211 28 0 }
 				color2={ 255 255 255 }
 				
-				b_xabierko_gastelua = {
-				}
-				b_pamplona = {
-				}
-				b_tudela = {
-				}
-				b_baranain = {
-				}
-				b_burlada = {
-				}
-				b_lizarra = {
-				}
-				b_zizur_nagusia = {
-				}
+				b_xabierko_gastelua = {}
+				b_pamplona = {}
+				b_tudela = {}
+				b_baranain = {}
+				b_burlada = {}
+				b_lizarra = {}
+				b_zizur_nagusia = {}
 			}
 			c_alava = { # 217
 				color={ 194 206 169 }
 				color2={ 255 255 255 }
 				
-				b_laudio = {
-				}
-				b_gasteiz = {
-				}
-				b_amurrio = {
-				}
-				b_agurain = {
-				}
-				b_oion = {
-				}
-				b_aiara = {
-				}
-				b_iruna_oka = {
-				}
+				b_laudio = {}
+				b_gasteiz = {}
+				b_amurrio = {}
+				b_agurain = {}
+				b_oion = {}
+				b_aiara = {}
+				b_iruna_oka = {}
 			}
 			c_biscay = { # 216
 				color={ 209 108 118 }
 				color2={ 255 255 255 }
 				
-				b_butron = {
-				}
-				b_bilbao = {
-				}
-				b_san_sebastian = {
-				}
-				b_barakaldo = {
-				}
-				b_getxo = {
-				}
-				b_irun = {
-				}
-				b_portugalete = {
-				}
+				b_butron = {}
+				b_bilbao = {}
+				b_san_sebastian = {}
+				b_barakaldo = {}
+				b_getxo = {}
+				b_irun = {}
+				b_portugalete = {}
 			}
 			c_la_rioja = { # 219
 				color={ 193 96 0 }
 				color2={ 255 255 255 }
 				
-				b_aguas_mansas = {
-				}
-				b_logrono = {
-				}
-				b_calahorra = {
-				}
-				b_arnedo = {
-				}
-				b_haro = {
-				}
-				b_lardero = {
-				}
-				b_najera = {
-				}
+				b_aguas_mansas = {}
+				b_logrono = {}
+				b_calahorra = {}
+				b_arnedo = {}
+				b_haro = {}
+				b_lardero = {}
+				b_najera = {}
 			}
 			c_labourd = { # 218
 				color={ 197 115 16 }
 				color2={ 255 255 255 }
 				
-				b_anglet = {
-				}
-				b_bayonne = {
-				}
-				b_biarritz = {
-				}
-				b_hendaye = {
-				}
-				b_saint_jean_de_luz = {
-				}
-				b_urrugne = {
-				}
-				b_boucau = {
-				}
+				b_anglet = {}
+				b_bayonne = {}
+				b_biarritz = {}
+				b_hendaye = {}
+				b_saint_jean_de_luz = {}
+				b_urrugne = {}
+				b_boucau = {}
 			}
 		}
 	}
@@ -1377,8 +882,6 @@ e_iberia = {
 		dignity = 10 # One more county than de jure
 		
 		capital = 163 #Tenerife
-		
-		culture = canarian
 		
 		d_las_palmas = {
 			color = { 14 27 50 }
@@ -1492,8 +995,6 @@ e_iberia = {
 		
 		capital = 167 # Lisboa
 		
-		culture = portuguese
-		
 		d_lisboa = {
 			color = { 193 81 5 }
 			color2={ 255 255 255 }
@@ -1605,10 +1106,10 @@ e_iberia = {
 			}
 		}
 		d_beira = {
-				color = { 180 96 39 }
-				color2={ 255 255 255 }
+			color = { 180 96 39 }
+			color2={ 255 255 255 }
 			
-				capital = 179 # Coimbra
+			capital = 179 # Coimbra
 			
 			c_leiria = {
 				color = { 118 161 126 }
@@ -1986,7 +1487,6 @@ e_spain = {
 	
 	capital = 187 #Madrid
 	
-	culture = castellano
 	dignity = 20
 	
 	allow = {
@@ -2060,8 +1560,6 @@ k_asturias = {
 	dignity = 10
 	
 	capital = 208 #Uvieu
-	
-	culture = asturianu
 	
 	allow = {
 		culture = asturianu
