@@ -184,6 +184,7 @@
 8000001={
 	name="Holger"
 	dynasty=2223005 #Danneskiold
+	father=8000155
 	culture=danish
 	religion=lutheran
 	2482.8.5={birth=yes}
@@ -357,15 +358,10 @@
 	2670.7.22={death=yes}
 }
 8000014={
-	name="Hardeknud"
-	dynasty=2220179 #Skanske
+	name="Dan"
+	dynasty=2223082 #Gyldmark
 	culture=danish
 	religion=lutheran
-	martial=4
-	diplomacy=5
-	stewardship=5
-	intrigue=5
-	learning=4
 	father=8000019
 	trait=tough_soldier
 	trait=arbitrary
@@ -427,31 +423,13 @@
 	2618.8.12={birth=yes}
 	2667.7.1={death=yes}
 }
-8000018={
-	name="Holger"
-	dynasty=2220179 #Skånske
-	culture=scanian
-	religion=lutheran #maybe neonorse
-	father=8000006
-	martial=2
-	diplomacy=4
-	stewardship=6
-	intrigue=3
-	learning=4
-	2546.4.3={birth=yes}
-	2611.5.2={death=yes}
-}
+
 8000019={
 	name="Karl"
-	dynasty=2220179 #Skånske
-	culture=scanian
-	religion=lutheran #maybe neonorse
-	martial=7
-	diplomacy=3
-	stewardship=4
-	intrigue=6
-	learning=5
-	father=8000018
+	dynasty=2223082 #Gyldmark
+	culture=danish
+	religion=lutheran
+	father=8000156
 	2589.4.3={birth=yes}
 	2650.5.2={death=yes}
 }
@@ -1822,3 +1800,171 @@
 	2484.1.1={death=yes}
 }
 
+8000144={
+	name="Dan" #First Danish King
+	dynasty=2223005 #Danneskiold
+	mother=8000127
+	culture=danish
+	religion=folketro
+	trait=mystic 
+	trait=fair 
+	trait=ambitious
+	trait=brilliant_strategist
+	disallow_random_traits = yes 
+	2100.1.1={birth=yes}
+	2200.1.1={death=yes}
+}
+
+8000145={
+	name="Didrik"
+	dynasty=2223005 #Danneskiold
+	father=8000144
+	culture=danish
+	religion=folketro
+	2150.1.1={birth=yes}
+	2250.1.1={death=yes}
+}
+
+8000146={
+	name="Dennis"
+	dynasty=2223005 #Danneskiold
+	father=8000145
+	culture=danish
+	religion=folketro
+	2250.1.1={birth=yes}
+	2300.1.1={death=yes}
+}
+
+8000147={
+	name="Dan" #Dan II 
+	dynasty=2223005 #Danneskiold
+	father=8000146
+	culture=danish
+	trait=twin
+	religion=folketro
+	2300.1.1={birth=yes}
+	2347.1.1={death=yes}
+}
+
+8000148={
+	name="Frode"
+	dynasty=2223005 #Danneskiold
+	father=8000146
+	trait=twin
+	culture=danish
+	religion=lutheran
+	2300.1.1={birth=yes}
+	2340.1.1={give_nickname nick_the_blessed}
+	2351.1.1={death=yes}
+}
+
+8000149={
+	name="Dan"
+	dynasty=2223005 #Danneskiold
+	father=8000148
+	culture=danish
+	religion=lutheran
+	2321.1.1={birth=yes}
+	2366.1.1={death=yes}
+}
+
+8000150={
+	name="Christian"
+	dynasty=2223005 #Danneskiold
+	father=8000149
+	culture=danish
+	religion=lutheran
+	2340.1.1={birth=yes}
+	2387.1.1={death=yes}
+}
+
+8000151={
+	name="Klavs"
+	dynasty=2223005 #Danneskiold
+	father=8000150
+	culture=danish
+	religion=lutheran
+	2367.1.1={birth=yes}
+	2403.1.1={death=yes}
+}
+
+8000152={
+	name="Dan"
+	dynasty=2223005 #Danneskiold
+	father=8000150
+	culture=danish
+	religion=lutheran
+	2389.1.1={birth=yes}
+	2418.1.1={death=yes}
+}
+
+8000153={
+	name="Ulrik"
+	dynasty=2223005 #Danneskiold
+	father=8000152
+	culture=danish
+	religion=lutheran
+	2410.1.1={birth=yes}
+	2461.1.1={death=yes}
+}
+
+8000154={
+	name="Christoffer"
+	dynasty=2223005 #Danneskiold
+	father=8000153
+	culture=danish
+	religion=lutheran
+	2434.1.1={birth=yes}
+	2483.1.1={death=yes}
+}
+
+8000155={
+	name="Søren"
+	dynasty=2223005 #Danneskiold
+	father=8000154
+	culture=danish
+	religion=lutheran
+	2480.1.1={birth=yes}
+	2501.1.1={death=yes}
+}
+
+8000156={
+	name="Rasmus"
+	dynasty=2223082 #Gyldmark
+	culture=danish
+	religion=lutheran
+	father=8000157
+	2570.1.1={birth=yes}
+	2637.1.1={death=yes}
+}
+
+8000157={
+	name="Harald"
+	dynasty=2223082 #Gyldmark
+	culture=danish
+	religion=lutheran
+	father=8000158
+	2541.1.1={birth=yes}
+	2603.1.1={death=yes}
+}
+
+8000158={
+	name="Dan"
+	dynasty=2223082 #Gyldmark
+	culture=danish
+	religion=lutheran
+	father=8000159
+	2514.1.1={birth=yes}
+	2581.1.1={death=yes}
+}
+
+8000159={
+	name="Knud"
+	dynasty=2223082 #Gyldmark
+	culture=danish
+	religion=lutheran
+	trait=bastard
+	father=8000155
+	2497.1.1={birth=yes}
+	2558.1.1={death=yes}
+}
