@@ -1,0 +1,54 @@
+namespace = jacobin
+character_event = {
+	id = jacobin.1
+	desc = "EVTDESC_jacobin1"
+	picture = GFX_evt_open_book_hf
+	border = GFX_event_normal_frame_religion
+	religion = jacobin
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_jacobin1
+		hidden_tooltip = {
+			remove_trait = patron_the_emperor
+			remove_trait = patron_the_general
+
+		}
+		add_trait = patron_marianne
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = EVTOPTB_jacobin1
+		hidden_tooltip = {
+			remove_trait = patron_the_general
+			remove_trait = patron_marianne
+
+		}
+		add_trait = patron_the_emperor
+		ai_chance = {
+			factor = 10
+		}
+	}
+	
+	option = {
+		name = EVTOPTC_jacobin1
+		hidden_tooltip = {
+			remove_trait = patron_the_emperor
+			remove_trait = patron_marianne
+
+		}
+		add_trait = patron_the_general
+		ai_chance = {
+			factor = 10
+		}
+	}
+}

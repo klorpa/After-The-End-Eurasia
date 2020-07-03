@@ -251,3 +251,48 @@ low_anglican = {
 	religious = yes
 	ruler_designer_cost = 0
 }
+patron_marianne = {
+	opposites = {
+		patron_the_emperor
+		patron_the_general
+	}
+	
+	stewardship = 1
+	learning = 1
+
+	potential = { religion = jacobin }
+	religious_branch = jacobin
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+patron_the_emperor = {
+	opposites = {
+		patron_the_general
+		patron_marianne
+	}
+	
+	martial = 1
+	stewardship = 1
+
+	potential = { religion = jacobin }
+	religious_branch = jacobin
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+patron_the_general = {
+	opposites = {
+		patron_marianne
+		patron_the_emperor
+	}
+	
+	intrigue = 1
+	stewardship = 1
+
+	potential = { religion = jacobin }
+	religious_branch = jacobin
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}

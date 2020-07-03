@@ -962,6 +962,41 @@ old_world_cultist_group = {
 		intermarry = rust_cultist
 		intermarry = chrome_cultist
 	}
+	jacobin = {
+		graphical_culture = hellenicgfx
+		
+		icon = 4
+		heresy_icon = 5
+		
+		color = { 0.3 0.3 0.8 }
+		
+		interface_skin = { americanist_interface oldworld_interface }
+
+		crusade_name = LIBERATION_WAR
+		scripture_name = THE_DECLARATION
+		priest_title = PREFECT
+		piety_name = GRANDEUR
+		
+		high_god_name = GOD_THE_RES
+		
+		god_names = { GOD_LIBERTY GOD_EQUALITY GOD_FRATERNITY
+		}
+		evil_god_names = { GOD_TYRANNY GOD_THE_PERFIDIOUS GOD_CHIENLIT GOD_GIRONDE
+		}
+		
+		allow_rivermovement = yes
+		feminist = yes
+		female_temple_holders = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		has_heir_designation = yes
+		
+		religious_clothing_head = 11
+		religious_clothing_priest = 11
+		
+		intermarry = neuhumanist
+		intermarry = jacobin
+	}
 }
 
 jewish_group = {

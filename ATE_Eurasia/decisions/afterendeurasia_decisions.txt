@@ -186,5 +186,35 @@ decisions = {
 			}
 		}
 	}
+	change_jacobin_branch = {
+		ai = no
+		
+		potential = {
+			religion = jacobin
+			is_playable = yes
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			NOT = { has_character_flag = changedjacobinbranch }
+		}
+		
+		allow = {
+			religion = jacobin
+			is_playable = yes
+			NOT = { has_character_flag = changedjacobinbranch }
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				character_event = { id = jacobin.1 }		
+			}
+			custom_tooltip = { text = TXT_change_jacobin_branch }
+			set_character_flag = changedjacobinbranch
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+	}
 }
 
