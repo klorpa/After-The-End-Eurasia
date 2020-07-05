@@ -838,6 +838,7 @@ e_france = {
 		catalan = "Bretanya"
 		euskara = "Bretainia"
 		breton = "Breizh"
+		gallo = "Bertègn"
 		parisian = "Bretagne"
 		walloon = "Burtaegne"
 		chti = "Bertanne"
@@ -852,6 +853,7 @@ e_france = {
 			catalan = "Alt Bretanya"
 			euskara = "Bretainia Garaia"
 			breton = "Breizh-Uhel"
+			gallo = "Haùtt-Bertaèyn"
 			parisian = "Haute-Bretagne"
 			walloon = "Hôte-Burtaegne"
 			chti = "Haute-Bertanne"
@@ -863,27 +865,35 @@ e_france = {
 				color2={ 255 255 255 }
 	
 				breton = "Roazhon"
+				gallo = "Resnn"
 				
 				b_aubigne = {
-					breton = "Ais"
+					breton = "Elvinieg"
+					gallo = "Aobignë"
 				}
 				b_rennes = {
-					breton = "Elvinieg"
+					breton = "Roazhon"
+					gallo = "Resnn"
 				}
 				b_saint_pierre = {
 					breton = "Sant-Pêr"
+					gallo = "Sint Piérr"
 				}
 				b_cogles = {
 					breton = "Gougleiz"
+					gallo = "Coy"
 				}
 				b_fougeres = {
 					breton = "Felger"
+					gallo = "Foujerr"
 				}
 				b_vitre = {
 					breton = "Gwitreg"
+					gallo = "Vitrë"
 				}
 				b_la_guerche_de_bretagne = {
 					breton = "Gwerc'h-Breizh"
+					gallo = "La Yerch"
 				}
 			}
 			c_nantes = { # 1546
@@ -891,27 +901,34 @@ e_france = {
 				color2={ 255 255 255 }
 	
 				breton = "Naoned"
+				gallo = "Nantt"
 				
 				b_saint_herbalin = {
 					breton = "Sant-Ervlan"
+					gallo = "Sint-t Èrblin"
 				}
 				b_nantes = {
 					breton = "Naoned"
+					gallo = "Nantt"
 				}
 				b_saint_nazaire = {
 					breton = "Sant-Nazer"
+					gallo = "Sint Nazèrr"
 				}
 				b_reze = {
 					breton = "Reudied"
 				}
 				b_saint_sebastien_sur_loire = {
 					breton = "Sant-Sebastian-an-Enk"
+					gallo = "Sint Sébastièn"
 				}
 				b_orvault = {
 					breton = "Orvez"
+					gallo = "Orvao"
 				}
 				b_chateaubriant = {
 					breton = "Kastell-Briant"
+					gallo = "Chastèu-Beriant"
 				}
 			}
 			c_saint_brieuc = { # 1545
@@ -919,26 +936,33 @@ e_france = {
 				color2={ 255 255 255 }
 	
 				breton = "Sant-Brieg"
+				gallo = "Sint B·rieu"
 				
 				b_saint_brieuc = {
 					breton = "Sant-Brieg"
+					gallo = "Sint B·rieu"
 				}
 				b_paimpol = {
 					breton = "Pempoull"
 				}
 				b_lamballe = {
 					breton = "Lambal"
+					gallo = "Lanbal"
 				}
 				b_chatelaudren = {
 					breton = "Kastellaodren"
+					gallo = "L'Châtè"
 				}
 				b_plouha = {
+					gallo = "Plou·a"
 				}
 				b_lanvollon = {
 					breton = "Lannolon"
+					gallo = "Lanvalon"
 				}
 				b_moncontour = {
 					breton = "Monkontour"
+					gallo = "Moncontourr"
 				}
 			}
 			c_saint_malo = { # 1544
@@ -946,23 +970,29 @@ e_france = {
 				color2={ 255 255 255 }
 	
 				breton = "Sant-Maloù"
+				gallo = "Sint Mâlo"
 				
 				b_saint_servan = {
 					breton = "Sant-Servan"
+					gallo = "Sint Sren"
 				}
 				b_saint_malo = {
 					breton = "Sant-Maloù"
+					gallo = "Sint Mâlo"
 				}
 				b_dinan = {
 				}
 				b_rohan = {
 					breton = "Roc'han"
+					gallo = "Ro·an"
 				}
 				b_corseul = {
 					breton = "Kersaout"
+					gallo = "Corseu"
 				}
 				b_porhoet = {
 					breton = "Porhoët"
+					gallo = "Porhoët"
 				}
 				b_broceliande = {
 					breton = "Brekilien"
@@ -979,6 +1009,7 @@ e_france = {
 			catalan = "Baixa Bretanya"
 			euskara = "Bretainia Beherea"
 			breton = "Breizh-Izel"
+			gallo = "Basse-Bertaèyn"
 			parisian = "Basse-Bretagne"
 			walloon = "Basse-Burtaegne"
 			chti = "Basse-Bertanne"
@@ -990,12 +1021,15 @@ e_france = {
 				color2={ 255 255 255 }
 	
 				breton = "Gwened"
+				gallo = "Vann"
 				
 				b_vannes = {
 					breton = "Gwened"
+					breton = "Vann"
 				}
 				b_lorient = {
 					breton = "An Oriant"
+					gallo = "L'Orient"
 				}
 				b_lanester = {
 					breton = "Lannarstêr"
@@ -1005,12 +1039,14 @@ e_france = {
 				}
 				b_guemene = {
 					breton = "Ar Gemene"
+					gallo = "Ghémnë"
 				}
 				b_sarzeau = {
 					breton = "Sarzhav"
 				}
 				b_pontivy = {
 					breton = "Pondi"
+					gallo = "Pontivi"
 				}
 			}
 			c_bro_leon = { # 1549
@@ -1018,6 +1054,7 @@ e_france = {
 				color2={ 255 255 255 }
 	
 				breton = "Leon"
+				gallo = "Leon"
 				parisian = "Léon"
 				chti = "Léon"
 				walloon = "Léon"
@@ -1026,6 +1063,7 @@ e_france = {
 					breton = "Landerne"
 				}
 				b_brest = {
+					gallo = "Brèst"
 				}
 				b_kreisker = {
 					breton = "C'hreiz-kêr"
@@ -1064,6 +1102,7 @@ e_france = {
 				}
 				b_le_leslay = {
 					breton = "Al Leslae"
+					gallo = "L'Lélè"
 				}
 				b_plougastel = {
 					breton = "Plougastell"
@@ -1080,6 +1119,7 @@ e_france = {
 				}
 				b_guingamp = {
 					breton = "Gwengamp"
+					gallo = "Ghingan"
 				}
 				b_lannion = {
 					breton = "Lannuon"
