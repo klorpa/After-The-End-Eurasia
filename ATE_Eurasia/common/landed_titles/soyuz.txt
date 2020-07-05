@@ -628,11 +628,24 @@ e_soyuz = {
 			}
 		}
 		d_kherson = {
-			color={ 87 126 199 }
+			color={ 50 50 50 }
 			color2={ 255 255 255 }
 		
 			capital = 785 #	Kherson
 			
+			c_kherson = {
+				color={ 180 180 180 }
+				color2={ 255 255 255 }
+				
+				b_kherson = {}
+				b_kizomys = {}
+				b_stanislav = {}
+				b_chornobaivka = {}
+				b_bilozerka = {}
+				b_borozenske = {}
+				b_charivne = {}
+				b_lvove = {}
+			}
 			c_kropyvnytskyi = {
 				color={ 180 180 180 }
 				color2={ 255 255 255 }
@@ -729,18 +742,6 @@ e_soyuz = {
 				b_strilkove = {}
 				b_chaplynka = {}
 			}
-			c_odesa = {
-				color={ 180 180 180 }
-				color2={ 255 255 255 }
-				
-				b_odesa = {}
-				b_rozdilna = {}
-				b_chornomorsk = {}
-				b_yuzhne = {}
-				b_teplodar = {}
-				b_vynohradar = {}
-				b_bilyaivka = {}
-			}
 			c_mariupol = {
 				color={ 180 180 180 }
 				color2={ 255 255 255 }
@@ -753,6 +754,25 @@ e_soyuz = {
 				b_melekyne = {}
 				b_sartana = {}
 			}
+		}
+		d_odesa = {
+			color={ 50 50 50 }
+			color2={ 255 255 255 }
+		
+			capital = 787 # Odesa
+			
+			c_odesa = {
+				color={ 180 180 180 }
+				color2={ 255 255 255 }
+				
+				b_odesa = {}
+				b_rozdilna = {}
+				b_chornomorsk = {}
+				b_yuzhne = {}
+				b_teplodar = {}
+				b_vynohradar = {}
+				b_bilyaivka = {}
+			}
 			c_mykolaiv = {
 				color={ 180 180 180 }
 				color2={ 255 255 255 }
@@ -764,19 +784,6 @@ e_soyuz = {
 				b_nechayane = {}
 				b_balovne = {}
 				b_lymany = {}
-			}
-			c_kherson = {
-				color={ 180 180 180 }
-				color2={ 255 255 255 }
-				
-				b_kherson = {}
-				b_kizomys = {}
-				b_stanislav = {}
-				b_chornobaivka = {}
-				b_bilozerka = {}
-				b_borozenske = {}
-				b_charivne = {}
-				b_lvove = {}
 			}
 			c_nova_kakhovka = {
 				color={ 180 180 180 }
