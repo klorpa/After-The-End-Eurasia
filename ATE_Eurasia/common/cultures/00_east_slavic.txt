@@ -1,0 +1,35 @@
+###ÄNSI
+
+east_slavic = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { easterngfx }
+
+	crimean = {
+		graphical_cultures = { croatsouthslavicgfx }
+		
+		color = { 0.4 0.3 0.9 }
+
+		male_names = {
+			Abdraim Aleksandr Aleksei Aleksey Alexander Alexei Anatoli Andrey Andriy Anton Arkady Danylo Gulyayev Hennadiy Igor Ivan Konstantin Mikhail Oleksiy Olga Regina Sasha Semen Sergei Vadym Valeriy Vladyslav Yevhen Yuriy
+		}
+		female_names = {
+			Afroditi Alena Alexandra Anastasia Anzhelika Diana Elena Galina Ileana Inga Lola Lyudmila Marina Rimma Svitlana Yevgeniya 
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+}
