@@ -337,18 +337,41 @@ e_europa = {
 		color2 = { 255 255 255 }
 
 		capital = 365 #Bonn
+
+		rhenish="Rheinland"
+		low_saxon="Rheinland"
+		ossi="Rheinland"
+		upper_saxon="Rheinland"
+		bavarian="Rheinland"
+		swabian="Rheinland"
+		austrian="Rheinland"
+		dutch="Rijnland"
+		flemish="Rijnland"
 		
 		d_rhine_ruhr = {
 			color={ 135 132 140 }
 			color2={ 255 255 255 }
 			
 			capital = 365 #Bonn
+
+			rhenish="Rhein-Ruhr"
+			low_saxon="Rhein-Ruhr"
+			ossi="Rhein-Ruhr"
+			upper_saxon="Rhein-Ruhr"
+			bavarian="Rhein-Ruhr"
+			swabian="Rhein-Ruhr"
+			austrian="Rhein-Ruhr"
+			dutch="Rijn-Ruhr"
+			flemish="Rijn-Ruhr"
 			
 			c_krefeld = {
 				color={ 168 144 187 }
 				color2={ 255 255 255 }
 
-				b_kleve = {}
+				b_kleve = {
+					dutch="Kleef"
+					flemish="Kleef"
+				}
 				b_krefeld = {}
 				b_xanten = {}
 				b_viersen = {}
@@ -360,8 +383,28 @@ e_europa = {
 				color={ 140 113 161 }
 				color2={ 255 255 255 }
 
+				rhenish="Köln"
+				low_saxon="Köln"
+				ossi="Köln"
+				upper_saxon="Köln"
+				bavarian="Köln"
+				swabian="Köln"
+				austrian="Köln"
+				dutch="Keulen"
+				flemish="Keulen"
+
 				b_bergheim = {}
-				b_cologne = {}
+				b_cologne = {
+					rhenish="Köln"
+					low_saxon="Köln"
+					ossi="Köln"
+					upper_saxon="Köln"
+					bavarian="Köln"
+					swabian="Köln"
+					austrian="Köln"
+					dutch="Keulen"
+					flemish="Keulen"
+				}
 				b_monchengladbach = {}
 				b_neuss = {}
 				b_frechen = {}
@@ -396,6 +439,14 @@ e_europa = {
 				color={ 49 103 177 }
 				color2={ 255 255 255 }
 
+				rhenish="Ruhrgebiet"
+				low_saxon="Ruhrgebiet"
+				ossi="Ruhrgebiet"
+				upper_saxon="Ruhrgebiet"
+				bavarian="Ruhrgebiet"
+				swabian="Ruhrgebiet"
+				austrian="Ruhrgebiet"
+
 				b_dortmund = {}
 				b_essen = {}
 				b_duisburg = {}
@@ -425,6 +476,14 @@ e_europa = {
 			color2={ 255 255 255 }
 			
 			capital = 374 #Mainz
+
+			rhenish="Pfalz"
+			low_saxon="Pfalz"
+			ossi="Pfalz"
+			upper_saxon="Pfalz"
+			bavarian="Pfalz"
+			swabian="Pfalz"
+			austrian="Pfalz"
 			
 			c_koblenz = {
 				color={ 126 141 59 }
@@ -481,8 +540,12 @@ e_europa = {
 				color={ 8 84 68 }
 				color2={ 255 255 255 }
 
+				luxembourger="Tréier"
+
 				b_bitburg = {}
-				b_trier = {}
+				b_trier = {
+					luxembourger="Tréier"
+				}
 				b_wittlich = {}
 				b_morbach = {}
 				b_daun = {}
@@ -636,29 +699,117 @@ e_europa = {
 			color2={ 255 255 255 }
 			
 			capital = 448 #Bas-Rhin
+
+			rhenish="Elsass"
+			low_saxon="Elsass"
+			ossi="Elsass"
+			upper_saxon="Elsass"
+			bavarian="Elsass"
+			swabian="Elsass"
+			austrian="Elsass"
 			
 			c_bas_rhin = {
 				color={ 141 100 96 }
 				color2={ 255 255 255 }
 
+				rhenish="Unterelsass"
+				low_saxon="Unterelsass"
+				ossi="Unterelsass"
+				upper_saxon="Unterelsass"
+				bavarian="Unterelsass"
+				swabian="Unterelsass"
+				austrian="Unterelsass"
+
 				b_hagenau = {}
-				b_strasbourg = {}
+				b_strasbourg = {
+					rhenish="Strassburg"
+					low_saxon="Strassburg"
+					ossi="Strassburg"
+					upper_saxon="Strassburg"
+					bavarian="Strassburg"
+					swabian="Strassburg"
+					austrian="Strassburg"
+				}
 				b_molsheim = {}
-				b_selestat = {}
+				b_selestat = {
+					rhenish="Schlettstadt"
+					low_saxon="Schlettstadt"
+					ossi="Schlettstadt"
+					upper_saxon="Schlettstadt"
+					bavarian="Schlettstadt"
+					swabian="Schlettstadt"
+					austrian="Schlettstadt"
+				}
 				b_schiltigheim = {}
-				b_saverne = {}
-				b_niederbronn_les_bains = {}
+				b_saverne = {
+					rhenish="Zabern"
+					low_saxon="Zabern"
+					ossi="Zabern"
+					upper_saxon="Zabern"
+					bavarian="Zabern"
+					swabian="Zabern"
+					austrian="Zabern"
+				}
+				b_niederbronn_les_bains = {
+					rhenish="Bad Niederbronn"
+					low_saxon="Bad Niederbronn"
+					ossi="Bad Niederbronn"
+					upper_saxon="Bad Niederbronn"
+					bavarian="Bad Niederbronn"
+					swabian="Bad Niederbronn"
+					austrian="Bad Niederbronn"
+				}
 			}
 			c_haut_rhin = {
 				color={ 184 139 135 }
 				color2={ 255 255 255 }
 
-				b_colmar = {}
-				b_mulhouse = {}
+				rhenish="Oberrhein"
+				low_saxon="Oberrhein"
+				ossi="Oberrhein"
+				upper_saxon="Oberrhein"
+				bavarian="Oberrhein"
+				swabian="Oberrhein"
+				austrian="Oberrhein"
+
+				b_colmar = {
+					rhenish="Kolmar"
+					low_saxon="Kolmar"
+					ossi="Kolmar"
+					upper_saxon="Kolmar"
+					bavarian="Kolmar"
+					swabian="Kolmar"
+					austrian="Kolmar"
+				}
+				b_mulhouse = {
+					rhenish="Mülhausen"
+					low_saxon="Mülhausen"
+					ossi="Mülhausen"
+					upper_saxon="Mülhausen"
+					bavarian="Mülhausen"
+					swabian="Mülhausen"
+					austrian="Mülhausen"
+				}
 				b_altkirch = {}
 				b_thann = {}
-				b_ribeauville = {}
-				b_guebwiller = {}
+				b_ribeauville = {
+					rhenish="Rappoltsweiler"
+					low_saxon="Rappoltsweiler"
+					ossi="Rappoltsweiler"
+					upper_saxon="Rappoltsweiler"
+					bavarian="Rappoltsweiler"
+					swabian="Rappoltsweiler"
+					austrian="Rappoltsweiler"
+				}
+				b_guebwiller = {
+					rhenish="Gebweiler"
+					low_saxon="Gebweiler"
+					ossi="Gebweiler"
+					upper_saxon="Gebweiler"
+					bavarian="Gebweiler"
+					swabian="Gebweiler"
+					austrian="Gebweiler"
+				}
 				b_wittenheim = {}
 			}
 		}
@@ -668,6 +819,14 @@ e_europa = {
 		color2 = { 255 255 255 }
 
 		capital = 352 #Hannover
+
+		rhenish="Niedersachsen"
+		low_saxon="Neddersassen"
+		ossi="Niedersachsen"
+		upper_saxon="Niedersachsen"
+		bavarian="Niedersachsen"
+		swabian="Niedersachsen"
+		austrian="Niedersachsen"
 		
 		d_oldenburg = {
 			color={ 119 105 96 }
@@ -703,6 +862,17 @@ e_europa = {
 				color={ 42 45 43 }
 				color2={ 255 255 255 }
 
+				rhenish="Ostfriesland"
+				low_saxon="Ostfräisland"
+				ossi="Ostfriesland"
+				upper_saxon="Ostfriesland"
+				bavarian="Ostfriesland"
+				swabian="Ostfriesland"
+				austrian="Ostfriesland"
+				dutch="Oost-Friesland"
+				flemish="Oost-Friesland"
+				frisian="Eastfryslân"
+
 				b_emden = {}
 				b_wilhemshaven = {}
 				b_aurich = {}
@@ -727,8 +897,12 @@ e_europa = {
 				color={ 78 107 161 }
 				color2={ 255 255 255 }
 
+				low_saxon="Ossenbrügge"
+
 				b_melle = {}
-				b_osnabruck = {}
+				b_osnabruck = {
+					low_saxon="Ossenbrügge"
+				}
 				b_minden = {}
 				b_vechta = {}
 				b_bramsche = {}
@@ -750,9 +924,9 @@ e_europa = {
 				b_bremerhaven = {}
 				b_verden = {}
 				b_cuxhaven = {}
+				b_stade = {}
+				b_bremervorde = {}
 				b_osterholz_scharmbeck = {}
-				b_achim = {}
-				b_geestland = {}
 			}
 			c_celle = {
 				color={ 133 169 122 }
@@ -770,8 +944,14 @@ e_europa = {
 				color={ 22 47 94 }
 				color2={ 255 255 255 }
 
+				low_saxon="Lümborg"
+				sorbian="Glain"
+
 				b_uelzen = {}
-				b_luneburg = {}
+				b_luneburg = {
+					low_saxon="Lümborg"
+					sorbian="Glain"
+				}
 				b_bleckede = {}
 				b_luchow = {}
 				b_bienenbuttel = {}
@@ -791,7 +971,9 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				b_diepholz = {}
-				b_nienburg = {}
+				b_nienburg = {
+					low_saxon="Neenborg"
+				}
 				b_rehburg_loccum = {}
 				b_sulingen = {}
 				b_twistringen = {}
@@ -814,8 +996,18 @@ e_europa = {
 				color={ 111 118 38 }
 				color2={ 255 255 255 }
 
+				rhenish="Braunschweig"
+				low_saxon="Brunswiek"
+				ossi="Braunschweig"
+				upper_saxon="Braunschweig"
+				bavarian="Braunschweig"
+				swabian="Braunschweig"
+				austrian="Braunschweig"
+
 				b_wolfsburg = {}
-				b_braunschweig = {}
+				b_braunschweig = {
+					low_saxon="Brunswiek"
+				}
 				b_wolfenbuttel = {}
 				b_salzgitter = {}
 				b_hildesheim = {}
@@ -858,13 +1050,18 @@ e_europa = {
 				color={ 42 144 158 }
 				color2={ 255 255 255 }
 
-				b_harburg = {}
-				b_hamburg = {}
-				b_stade = {}
+				low_saxon="Hamborg"
+
+				b_norderstedt = {}
+				b_hamburg = {
+					low_saxon="Brannenborg"
+				}
+				b_itzehoe = {}
 				b_altona = {}
-				b_winsen = {}
-				b_wandsbek = {}
-				b_buxtehude = {}
+				b_gluckstadt = {}
+				b_pinneberg = {}
+				b_elmshorn = {}
+				b_uetersen = {}
 			}
 			c_lubeck = {
 				color={ 84 147 31 }
@@ -885,26 +1082,35 @@ e_europa = {
 			color2={ 255 255 255 }
 			
 			capital = 381 #Kiel
+
+			low_saxon="Sleswig-Holsteen"
 			
 			c_dithmarschen = {
 				color={ 168 153 32 }
 				color2={ 255 255 255 }
 
 				b_heide = {}
-				b_itzehoe = {}
-				b_pinneberg = {}
-				b_gluckstadt = {}
+				b_friedrichstadt = {}
+				b_tonning = {}
+				b_meldorf = {}
 				b_brunsbuttel = {}
-				b_uetersen = {}
-				b_schenefeld = {}
+				b_sankt_peter_ording = {}
+				b_tellingstedt = {}
 			}
 			c_schleswig = {
 				color={ 185 122 87 }
 				color2={ 255 255 255 }
 
+				low_saxon="Sleswig"
+				frisian="Slaswik"
+
 				b_schleswig = {}
-				b_flensburg = {}
+				b_flensburg = {
+					low_saxon="Flensborg"
+					frisian="Flansborj"
+				}
 				b_husum = {}
+				b_eckernforde = {}
 				b_handewitt = {}
 				b_harrislee = {}
 				b_tonning = {}
@@ -918,13 +1124,13 @@ e_europa = {
 				b_kiel = {}
 				b_rendsburg = {}
 				b_schwentinental = {}
-				b_eckernforde = {}
+				b_bordesholm = {}
 				b_kronshagen = {}
 				b_plon = {}
 			}
 		}
 	}
-	k_ostmark = {
+	k_ossiland = {
 		color = { 110 94 61 }
 		color2 = { 255 255 255 }
 
@@ -935,6 +1141,8 @@ e_europa = {
 			color2={ 255 255 255 }
 			
 			capital = 392 #Schwerin
+
+			low_saxon="Mekelborg-Vorpommern"
 			
 			c_schwerin = {
 				color={ 0 141 30 }
@@ -1015,6 +1223,9 @@ e_europa = {
 			color2={ 255 255 255 }
 			
 			capital = 409 #Havelland
+
+			low_saxon="Brannenborg"
+			sorbian="Braniborska"
 			
 			c_prignitz = {
 				color={ 153 161 170 }
@@ -1045,7 +1256,9 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				b_eisenhuttenstadt = {}
-				b_frankfurt_an_der_oder = {}
+				b_frankfurt_an_der_oder = {
+					sorbian="Zliwic"
+				}
 				b_strausberg = {}
 				b_lubben = {}
 				b_erkner = {}
@@ -1107,6 +1320,14 @@ e_europa = {
 			color2={ 255 255 255 }
 			
 			capital = 362 #Magdeburg
+
+			rhenish="Sachsen-Anhalt"
+			low_saxon="Sassen-Anhalt"
+			ossi="Sachsen-Anhalt"
+			upper_saxon="Sachsen-Anhalt"
+			bavarian="Sachsen-Anhalt"
+			swabian="Sachsen-Anhalt"
+			austrian="Sachsen-Anhalt"
 			
 			c_altmark = {
 				color={ 117 130 135 }
@@ -1123,9 +1344,13 @@ e_europa = {
 			c_magdeburg = {
 				color={ 190 134 50 }
 				color2={ 255 255 255 }
+
+				low_saxon="Meideborg"
 				
 				b_haldensleben = {}
-				b_magdeburg = {}
+				b_magdeburg = {
+					low_saxon="Meideborg"
+				}
 				b_oschersleben = {}
 				b_wanzleben_borde = {}
 				b_oebisfelde_weferlingen = {}
@@ -1174,6 +1399,14 @@ e_europa = {
 			color2={ 255 255 255 }
 			
 			capital = 399 #Erfurt
+
+			rhenish="Thüringen"
+			low_saxon="Thüringen"
+			ossi="Thüringen"
+			upper_saxon="Thüringen"
+			bavarian="Thüringen"
+			swabian="Thüringen"
+			austrian="Thüringen"
 			
 			c_erfurt = {
 				color={ 139 64 59 }
@@ -1220,15 +1453,30 @@ e_europa = {
 			color2={ 255 255 255 }
 			
 			capital = 407 #Leipzig
+
+			rhenish="Sachsen"
+			low_saxon="Sassen"
+			ossi="Sachsen"
+			upper_saxon="Sachsen"
+			bavarian="Sachsen"
+			swabian="Sachsen"
+			austrian="Sachsen"
+			sorbian="Sakska"
 			
 			c_leipzig = {
 				color={ 83 99 105 }
 				color2={ 255 255 255 }
+
+				sorbian="Lipsk"
 				
 				b_torgau = {}
-				b_leipzig = {}
+				b_leipzig = {
+					sorbian="Lipsk"
+				}
 				b_borna = {}
-				b_grimma = {}
+				b_grimma = {
+					sorbian="Grima"
+				}
 				b_schkeuditz = {}
 				b_taucha = {}
 				b_oschatz = {}
@@ -1239,7 +1487,9 @@ e_europa = {
 				color2={ 255 255 255 }
 				
 				b_annaberg_buchholz = {}
-				b_zwickau = {}
+				b_zwickau = {
+					sorbian="Šwikawa"
+				}
 				b_plauen = {}
 				b_reichenbach_im_vogtland = {}
 				b_aue = {}
@@ -1250,51 +1500,101 @@ e_europa = {
 			c_dresden = {
 				color={ 102 131 143 }
 				color2={ 255 255 255 }
+
+				sorbian="Drježdzany"
 				
 				b_freital = {}
-				b_dresden = {}
-				b_meissen = {}
-				b_pirna = {}
-				b_dippoldiswalde = {}
-				b_grossenhain = {}
-				b_radebeul = {}
-			}
-			c_gorlitz = {
-				color={ 255 207 0 }
-				color2={ 255 255 255 }
-				
-				b_bautzen = {}
-				b_gorlitz = {}
-				b_zittau = {}
-				b_hoyerswerda = {}
-				b_lobau = {}
-				b_kamenz = {}
-				b_niesky = {}
-				b_weisswasser = {}
-			}
-			c_lausitz = {
-				color={ 169 189 77 }
-				color2={ 255 255 255 }
-
-				b_senftenberg = {}
-				b_cottbus = {}
-				b_forst = {}
-				b_spremberg = {}
-				b_finsterwalde = {}
-				b_herzberg = {}
-				b_calau = {}
-			}
-			c_chemnitz = {
-				color={ 128 142 148 }
-				color2={ 255 255 255 }
-
+				b_dresden = {
+					sorbian="Drježdzany"
+				}
+				b_pirna = {
+					sorbian="Pjerno"
+				}
 				b_freiberg = {}
-				b_chemnitz = {}
+				b_chemnitz = {
+					sorbian="Kamjenica"
+				}
 				b_dobeln = {}
 				b_frankenberg = {}
 				b_mittweida = {}
 				b_floha = {}
 				b_brand_erbisdorf = {}
+				b_dippoldiswalde = {}
+			}
+			c_upper_lusatia = {
+				color={ 255 207 0 }
+				color2={ 255 255 255 }
+
+				rhenish="Oberlausitz"
+				low_saxon="Oberlausitz"
+				ossi="Oberlausitz"
+				upper_saxon="Oberlausitz"
+				bavarian="Oberlausitz"
+				swabian="Oberlausitz"
+				austrian="Oberlausitz"
+				sorbian="Hornja Lužyca"
+				
+				b_bautzen = {
+					sorbian="Budyšin"
+				}
+				b_gorlitz = {
+					sorbian="Zhorjelc"
+				}
+				b_zittau = {
+					sorbian="Žitawa"
+				}
+				b_meissen = {
+					sorbian="Mišno"
+				}
+				b_hoyerswerda = {
+					sorbian="Wojerecy"
+				}
+				b_lobau = {
+					sorbian="Lubij"
+				}
+				b_radebeul = {}
+				b_kamenz = {
+					sorbian="Kamjenc"
+				}
+				b_niesky = {
+					sorbian="Niska"
+				}
+				b_weisswasser = {
+					sorbian="Bjela Woda"
+				}
+			}
+			c_lower_lusatia = {
+				color={ 169 189 77 }
+				color2={ 255 255 255 }
+
+				rhenish="Niederlausitz"
+				low_saxon="Niederlausitz"
+				ossi="Niederlausitz"
+				upper_saxon="Niederlausitz"
+				bavarian="Niederlausitz"
+				swabian="Niederlausitz"
+				austrian="Niederlausitz"
+				sorbian="Delnja Lužyca"
+
+				b_senftenberg = {
+					sorbian="Zly Komorow"
+				}
+				b_cottbus = {
+					sorbian="Chosebuz"
+				}
+				b_forst = {
+					sorbian="Baršc"
+				}
+				b_spremberg = {
+					sorbian="Grodk"
+				}
+				b_finsterwalde = {
+					sorbian="Grabin"
+				}
+				b_herzberg = {}
+				b_calau = {
+					sorbian="Kalawa"
+				}
 			}
 		}
 	}
