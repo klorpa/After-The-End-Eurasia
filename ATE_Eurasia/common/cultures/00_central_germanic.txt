@@ -126,44 +126,45 @@ central_germanic = {
 		color = { 0.5 0.2 0.3 }
 
 		male_names = {
-			Adalbert Adolf Albert Alexander Alfred Alwin Andreas_Andrew Anton_Anthony Arnold August_Augustus Axel
-			Benno Bernd_Bernard Bernhard_Bernard Berthold Björn Burkhard_Burchard
-			Carl_Charles Carsten Christian Christoph_Christopher Cord
+			Adalbert Adolf Albert Alexander Alfred Alwin Andreas_Andrew Anton_Anthony Arne Arnold August_Augustus Axel
+			Benno Bernd_Bernard Bernhard_Bernard Berthold Björn Bodo Bruno Burkhard_Burchard
+			Carl_Charles Carsten Casimir Casper Christian Christoph_Christopher Cord
 			Daniel Detlef Dieter Dietrich Dirk
-			Eberhard Eduard_Edward Egon Eilhard Emil_Aemilius Enno Erhard Erich_Erik Ernst_Ernest Erwin
-			Felix Florian Friedrich_Frederick Fritz_Frederick
-			Georg_George Gerd Gerhard Gero Gottfried Gottlieb Gunnar Günter Gustav
-			Hans Hans-Adolf Hans-Georg Hans-Günther Hans-Henning Hans-Joachim Hans-Lothar Hans-Peter Hans-Walter Harald_Harold Hartmut Heiko Heino Helmut Hermann_Herman Hinrich_Henry Holger Horst Hubertus_Hubert
-			Jakob_Jacob Jobst Johannes_John Julius
-			Karl-Heinz Karl-Henning Klaus_Nicholas Konrad_Conrad Kurt_Curt
-			Ludger Ludwig_Louis
-			Manfred Martin Matthias_Matthew Michael Moritz_Maurice
+			Eberhard Eckart Eduard_Edward Egon Eilhard Elimar Emil_Aemilius Enno Erhard Erich_Erik Ernst_Ernest Erwin
+			Felix Florian Franz_Francis Friedrich_Frederick Fritz_Frederick
+			Georg_George Gerd_Gerhard Gerlach Gero Gottfried Gottlieb Gunnar Günter Gustav
+			Hans Hans-Adolf Hans-Christoph Hans-Georg Hans-Günther Hans-Henning Hans-Joachim Hans-Jörg Hans-Lothar Hans-Peter Hans-Walter Harald_Harold Hartmut Hartwig Heiko Heino Helmut Henning Herbord_Herbert Hermann_Herman Hinrich_Henry Holger Horst Hubertus_Hubert
+			Jakob_Jacob Jens_John Jobst Johannes_John Jörn Julius
+			Kai Karl-Heinz Karl-Henning Klaus_Nicholas Konrad_Conrad Kuno Kurt_Curt
+			Lars_Lawrence Lauritz_Lawrence Liudolf Ludger Ludwig_Louis
+			Magnus Manfred Martin Matthias_Matthew Michael Moritz_Maurice
 			Nils Norbert
-			Oliver Oscar Otto
+			Ordolf Oscar Oswalt_Oswald Ottmar Otto
 			Paul Peter Philipp_Philip
-			Rainer Ralf Reinhold Richard Robert Rudolf
-			Sebastian Siegfried Sigmar Sören Stephan_Stephen Sven
-			Theodor_Theodore Thilo Timo
-			Ulrich Uwe
-			Veit Volker
-			Walter Walter-Herwig Werner Wilhelm_William Wolfgang Wolfram
+			Rainer Ralf Reinhold Richard Robert Roland Rolf Rolf-Dieter Rüdiger_Roger Rudolf
+			Sascha Sebastian Siegfried Siegmund Sigmar Sören Stephan_Stephen Sven
+			Theodor_Theodore Thietmar Thilo Timo Tycho
+			Ulf Ulrich Uwe Uwe-Kai
+			Veit Victor Volker
+			Walter Walter-Herwig Werner Widukind Wigbert Wilhelm_William Woldemar_Waldemar Wolf-Dieter Wolf-Ludger Wolfgang Wolfram Wolrad
 		}
 		female_names = {
-			Adele Alexandra Amalie Angelika_Angelica Anja Anne
+			Adele Alexandra Amalie Angelika_Angelica Anja Anke Anne
 			Barbara Birgitta
 			Caroline Charlotte
 			Dorothea_Dorothy
 			Elfriede Elisabeth_Elizabeth Emma Eva
 			Franziska
-			Gertrud_Gertrude
-			Hedwig Helge_Helga Hildegard
-			Ida Ines Irene
+			Gabriele_Gabriella Gertrud_Gertrude Gudrun
+			Hedwig Heike Helge_Helga Hildegard
+			Ida Ines Inge Irene
 			Johanna_Joan
-			Katarina_Catharine Kristina_Christine
+			Karin Katarina_Catharine Katja Kristina_Christine
 			Lena Louise
 			Margarete_Margaret Marie_Mary
-			Sabine Silke Sophie_Sophia Stefanie_Stephanie
-			Ursula
+			Sabine Sigrid Silke Sophie_Sophia Stefanie_Stephanie
+			Therese_Theresa
+			Udelgard Ursula Ute
 			Winfried
 		}
 	
@@ -300,7 +301,7 @@ central_germanic = {
 			Cäser_Caesar
 			Eberhard Eduard_Edward Emil_Aemilius Ernst_Ernest Erwin Eugen_Eugene
 			Dietrich
-			Ferdinand Franz_Francis Franz-Josef Franz-Ludwig Friedrich_Frederick
+			Ferdinand Franz_Francis "Franz Josef" "Franz Ludwig" Friedrich_Frederick
 			Günther
 			Hans Heinrich_Henry Helmut Hermann_Herman
 			Johann_John Josef_Joseph Jürgen_George
@@ -426,6 +427,65 @@ central_germanic = {
 			Yvette	
 		}
 
+		from_dynasty_prefix = "von "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	austrian = {
+		graphical_cultures = { germangfx }
+
+		color = { 0.2 1.5 0.15 }
+
+
+		male_names = {
+			Adalbert Albrecht_Albert Alexander Alfons_Alphonse Alfred Alois Andreas_Andrew Anton_Anthony August
+			Bernhard_Bernard Burkhard
+			Christian Christoph_Christopher Clemens_Clement
+			Dieter
+			Edmund Eduard_Edward Emmanuel Engelbert Erich_Erik Ernst_Ernest Eugen_Eugene
+			Felix Ferdinand Florian Franz_Francis "Franz Josef" "Franz Xaver"_Francis-Xavier Freimut Friedrich_Frederick
+			Georg_George Gerhard Gottfried Günther Gustav
+			Hans Hartmann Heinrich_Henry Helmut Herbert Hermann Horst Hugo
+			Ignatz_Ignatius
+			Johann_John Josef_Joseph Julius
+			Kajetan Karl_Charles Karljörg Kevin Korbinian Kurt
+			Leonhard_Leonard Leopold Lorenz_Laurence Ludwig_Louis Luitpold
+			Manfred Marcel Marius Markus_Mark Martin Maximilian Meinhard Moritz_Maurice
+			Nico_Nicholas Norbert
+			Oskar_Oscar Otto
+			Paul Peter Philipp_Philip
+			Raphael Richard Rudolf
+			Sebald Siegfried Siegmund Steffen_Stephen
+			Theodor_Theodore Thomas
+			Ulrich
+			Victor Vincent
+			Werner Wilhelm_William Willibald Wolfgang
+		}
+		female_names = {
+			Amalie
+			Brigitte
+			Christine Claudia
+			Eva
+			Friede
+			Hannah Helene_Helen Hiltraud
+			Johanna Juliane Jutta
+			Katerina
+			Marlene Maria_Mary
+			Renata
+			Sophie Stephanie
+			Waltraud
+		}
+			
 		from_dynasty_prefix = "von "
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.

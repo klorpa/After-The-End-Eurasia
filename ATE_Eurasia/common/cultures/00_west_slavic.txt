@@ -1,0 +1,114 @@
+###ÄNSI##
+
+west_slavic = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { easterngfx }
+
+	sorbian = {
+		graphical_cultures = { westslavicgfx }
+		
+		color = { 0.1 0.6 0.6 }
+
+		male_names = {
+			Abraham Alfons_Alphonse Alojs_Alois Alwin Arnošt_Ernest Awgust_Augustus
+			Benedikt_Benedict Bjarnat Bjedrich Blažij_Blaise Bohacesc Bohuchwal Bogumil Bogumjer Božidar_Theodore
+			Cedrag Cestibor Chryša_Christpher Czimislaw
+			Dabit_David Derwan Detlef Dietrich Dytar_Dieter
+			Erwin
+			Filip_Philip Franc_Francis Frido_Alfred Fryco_Frederick
+			Gerat_Gerard Gregor_Gregory Gustaw_Gustav
+			Hadam_Adam Handrij_Andrew Hanzo_Hans Hendrich_Henry Herman Hync
+			Jakub_Jacob Jan_John Jaromjer_Jaromir Józef_Joseph Jurij_George
+			Kito Korla_Charles Krescan_Christian
+			Lotar_Lothar Ludwig_Louis
+			Macij_Matthew Manfred Marko_Mark Michal_Michael Miklawš_Nicholas Miliduch Mjercin_Martin
+			Oswald Ota_Otto
+			Pawol_Paul Pjetr_Peter
+			Richard
+			Stanislaw
+			Tomaš_Thomas Tunglo
+			Ulrich
+			Wjaclaw_Wenceslaus Wjlem_William
+			Zygmund_Sigmund
+		}
+		female_names = {
+			Anja
+			Bogna
+			Irmgard
+			Jewa_Eva
+			Lubina Ludmila
+			Madlena_Madeleine Marja_Mary Mina
+			Pawlina
+			Róža_Rose
+			Susann_Susan
+			Tanja_Tania
+		}
+
+		from_dynasty_prefix = "z "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	kashubian = {
+		graphical_cultures = { westslavicgfx }
+		
+		color = { 0.1 0.6 0.6 }
+
+		male_names = {
+			Abdón Adóm_Adam Albin Aleksander_Alexander Alfréd_Alfred Alojzy_Alois Anastazy_Anastasius Andrzéj_Andrew Antón_Anthony Arkadiusz_Arcadius Artur_Arthur Augùstin_Augustine
+			Bernat_Bernard Bòleslôw_Boleslav Bronislôw_Bronislav Brunón_Bruno
+			Daniél_Daniel Dawid_David
+			Édmùnd_Edmund Édwôrd_Edward Eùgeniusz_Eugene
+			Féliks_Felix Florión_Florian Frãcëszk_Francis
+			Gerard Gùstôw_Gustav
+			Henrik_Henry Hieronim_Jerome
+			Izydor_Isidore
+			Jerzi_George Jignacy_Ignatius Jón_John Józef_Joseph Juliusz_Julius
+			Karol_Charles Klémãs_Clement Kònstantin_Constantine
+			Léón_Leon Lubòmir_Lubomir Ludwik_Louis
+			Marión_Marian Michôl_Michael Miroslôw_Miroslav Mszciwój
+			Pawel_Paul Pioter_Peter
+			Riszôrd_Richard Róbert_Robert Róman_Roman
+			Stanislôw_Stanislav Swiatopôlk Sztefón_Stephen
+			Tomôsz_Thomas
+			Waclôw_Wenceslaus Walãti Wawrzyniec Wladislôw_Vladislav Wòjcech
+		}
+		female_names = {
+			Bògùslawa
+			Danuta
+			Ida
+			Jadwiga_Hedwig Jaromira
+			Katarzëna_Catherine Kristina_Christine
+			Natalia_Natalie
+			Wanda Wérónika_Veronica
+			Zofiô_Sophia
+		}
+
+		from_dynasty_prefix = "z "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+}
