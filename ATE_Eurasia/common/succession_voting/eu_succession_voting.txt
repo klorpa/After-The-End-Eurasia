@@ -3500,7 +3500,7 @@ bureaucratic_elective = {
 			diplomacy = 20
 		}
 		additive_modifier = {
-			value = 5
+			value = 10
 			localisation_key = tooltip_bureaucratic_vote_strength_liege_emperor
 			FROMFROM = {
 				holder_scope = { character = ROOT }
@@ -3508,7 +3508,7 @@ bureaucratic_elective = {
 			}
 		}
 		additive_modifier = {
-			value = 10
+			value = 12
 			localisation_key = tooltip_bureaucratic_vote_strength_liege_king
 			FROMFROM = {
 				holder_scope = { character = ROOT }
@@ -3523,22 +3523,22 @@ bureaucratic_elective = {
 				tier = DUKE
 			}
 		}
-		additive_modifier = {
-			value = 20
-			localisation_key = tooltip_bureaucratic_vote_strength_liege_count
-			FROMFROM = {
-				holder_scope = { character = ROOT }
-				tier = COUNT
-			}
-		}
-		additive_modifier = {
-			value = 25
-			localisation_key = tooltip_bureaucratic_vote_strength_liege_baron
-			FROMFROM = {
-				holder_scope = { character = ROOT }
-				tier = BARON
-			}
-		}
+		#additive_modifier = {
+		#	value = 17
+		#	localisation_key = tooltip_bureaucratic_vote_strength_liege_count
+		#	FROMFROM = {
+		#		holder_scope = { character = ROOT }
+		#		tier = COUNT
+		#	}
+		#}
+		#additive_modifier = {
+		#	value = 20
+		#	localisation_key = tooltip_bureaucratic_vote_strength_liege_baron
+		#	FROMFROM = {
+		#		holder_scope = { character = ROOT }
+		#		tier = BARON
+		#	}
+		#}
 	}
 	candidate_vote_score = {
 		days = 0

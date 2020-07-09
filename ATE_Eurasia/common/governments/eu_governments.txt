@@ -179,6 +179,7 @@ feudal_governments = {
 					real_tier = EMPEROR
 				}
 			}
+			is_patrician = no
 		}
 		
 		color = { 118 255 163 }
@@ -201,10 +202,10 @@ feudal_governments = {
 		capital_move_delay = 200
 		
 		## Modifiers
-		court_size_modifier = 20
-		vassal_limit = -20
+		court_size_modifier = 30
+		vassal_limit = -15
 		character_modifier = {
-			stewardship = 3
+			stewardship = 2
 		}
 	}
 }
