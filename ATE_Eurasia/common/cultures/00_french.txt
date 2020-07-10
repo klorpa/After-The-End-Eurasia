@@ -147,7 +147,7 @@ french = {
 			Dediér_Didier Denis Déricco_Frederick Djiillo_Virgilius Djiré Dôfén Domeneuque_Dominic Djèpén_Joseph Djouàn_John Douâl_Edward Douvicco_Louis Dzâcommo_James 
 			Egène_Eugene Élie_Elias Emanuél_Emmanuel Émile_Emil Entcho_Enzo Erojo_Eusebius Ètièno_Stephen Etiève_Stephen 
 			Fanfouès_Francis Felibèrt_Philibert Felix Felepo_Philip Ficien_Felician Fielmén Flavièn_Flavian Floantén_Florentius Fontche_alfonso Fostèn_Faustinius Franchouè_Francis Françouès_Francis Fredo_Alfred Frejence_Fulgentius 
-			Gaspal_Gaspard Gérârd_Gerard Gèrman_German Gllôdo_Claudius Gostino_Augustine Gotârd_Gotthard Guesto_Gustav Guilyômo_William  
+			Gaspal_Casper Gérârd_Gerard Gèrman_German Gllôdo_Claudius Gostino_Augustine Gotârd_Gotthard Guesto_Gustav Guilyômo_William  
 			Hanri_Henry Honorâ_Honoré 
 			Ilère_Hilarius Izidor_Isidore 
 			Jacariyè_Zachary Jamen_Benjamin Jâque_James Jaquén_Joachim Jelien_Julian Jian_John Jian-Batita_John-Baptist Jian-Gllôdo_John-Claudius Jian-Jâque_John-James Jian-Luc_John-Luke Jian-Maria_John-Mary Jian-Mechiél_John-Michael Jian-Pierro_John-Peter Jian-Pol_John-Paul Jôrjo_George Josèf_Joseph 
@@ -156,7 +156,7 @@ french = {
 			Napoléon_Napoleo Nicolas_Nicholas 
 			Octavien_Octavius Ôguste_Augustus Omber_Umberto Orèlie_Aurelius 
 			Pahcâl_Pascal Pantión Pol_Paul Pierro_Peter Poulinère 
-			Reman_Roman Rèmi_Rémy Rèmon_Raymond Restide Rico_Henry Robèl_Robert 
+			Reman_Roman Rèmi_Remigius Rèmon_Raymond Restide Rico_Henry Robèl_Robert 
 			Samiel_Samuel Sandro_Alexander Savéthro_Sylvester Savin Selmo_Anselm Selpì Sèrille_Cyril Sezal_Caesar Silvèn_Sylvain Simon Souprièn_Cyprian Sorlin Souvèrèn 
 			Tantén_Constantine Tcheunne_Stephen Tchiâfén_Seraphine Téodule Téofile_Theophilius Tiillo_Attilius Tomas_Thomas Tonén_Anthony 
 			Variste Vincent Vitol_Victor 
@@ -216,7 +216,7 @@ french = {
 			Ôghust_Augustus Olivier_Oliver Onèn_Onen Ouèn_Ouen 
 			Patrick Paol_Paul Pée_Pern Pelot_Peter Pèreû Pèrr_Peter Petro_Peter Politt_Hyppolite Poten Prospèrr_Prosper 
 			Qeczandr_Alexander Qhé_Quay Qhemein_Clement Qhiwètt_Quihouët 
-			Remi_Rémy Renaud_Reginald René Rieu Risstaud_Aristide Riton_Henry Rnaod_René Robèrt_Robert Robin Rogâssièn Rojer_Roger Roland Rou_Rudolf 
+			Remi_Remigius Renaud_Reginald René Rieu Risstaud_Aristide Riton_Henry Rnaod_René Robèrt_Robert Robin Rogâssièn Rojer_Roger Roland Rou_Rudolf 
 			Sandr_Alexander Sanson_Samson Saoveurr Sebastièn_Sebastian Selestin_Celestine Sèlmi_Anselm Sènt_Toussaint Simon Sint_Hyacinth Sin_Cyr Solèn Sran_Servan Suliâ_Suliac 
 			Taniss_Stanislaus Tenghi_Tanguy Teuria_Thurial Tewenn_Anthony Tiènn_Stephen Tintin_Valentine Tiodorr_Theodore Tiofil_Theophilus Tómas_Thomas Totorr_Victor Toussènt_Toussaint Trimouè_Trimoël Tua_Thual Turaud_Matilin Turètt_Matilin Tristan 
 			Ujann_Eugene Urbèn_Urban 
@@ -333,7 +333,7 @@ french = {
 			Damien_Damian Daniel David Denis Didier Dimitri_Demetrius Dominique_Dominic Dylan 
 			Édouard_Edward Émile_Emil Emmanuel Enzo Éric_Eric Étienne_Stephen Eugène_Eugene 
 			Fabien Fabrice Félix_Felix Fernand_Ferdinand Florent Florian Francis Franck_Francis François_Francis François-Xavier_Francis-Xavier Frédéric_Frederick 
-			Gabriel Gaëtan_Cajetan Georges_George Gérard_Gerard Gilbert Gilles Grégoire_Gregory Guillaume_William Gustave_Gustav Guy 
+			Gabriel Gaëtan_Cajetan Gaspard_Casper Georges_George Gérard_Gerard Gilbert Gilles Grégoire_Gregory Guillaume_William Gustave_Gustav Guy 
 			Henri_Henry Hervé Hugo_Hugh 
 			Jacques_James Jacques-Yves_James-Yves Jean_John Jean-Baptiste_John-Baptist Jean-Claude_John-Claudius Jean-Jacques_John-James Jean-Luc_John-Luke Jean-Marc_John-Mark Jean-Michel_John-Michael Jean-Paul_John-Paul Jean-Pierre_John-Peter Jérémy_Jeremy Jérôme_Hieronymus Joachim Joël Jonathan Jordan Joseph Jules Julien_Julian 
 			Kévin_Kevin 
@@ -343,7 +343,7 @@ french = {
 			Olivier_Oliver Oscar 
 			Pascal Patrice_Patrick Patrick Paul Philippe_Philip Pierre_Peter 
 			Quentin 
-			Raoul_Rudolf Raphaël_Raphael Raymond Régis Rémi_Rémy Rémy René Richard Robert Robin Roger Roland Romain_Roman 
+			Raoul_Rudolf Raphaël_Raphael Raymond Régis Rémi_Remigius Rémy_Remigius René Richard Robert Robin Roger Roland Romain_Roman 
 			Sébastien_Sebastian Serge_Sergius Simon Stanislas_Stanislaus Stéphane_Stephen Sylvain 
 			Théo_Theodore Thibault_Theobald Thierry Thomas Tristan 
 			Ulysse_Odysseus 
@@ -393,41 +393,42 @@ french = {
 		
 		color = { 0.83 0.83 0.83 }
 		male_names = {
-			Alanu_Alan Albertu_Albert Andria_Andrew Anghjulu_Angel Antone_Anthony Antonu_Anthony Antonu-Paolu_Anthony-Paul Arrigu_Henry
-			Battistu_Baptist Bartolumeu_Bartholomew Biaghju_Blaise 
-			Carlu_Charles Ceccu_Francis Cristian_Christian Cristofanu_Christopher 
-			Desideriu_Desiderius Dumé_Dominic Dumenicu_Dominic 
+			Agnellu_Agnellus Alanu_Alan Albertu_Albert Andria_Andrew Anghjulu_Angel Antone_Anthony Antonu_Anthony Antonu-Paolu_Anthony-Paul Antuninu_Antoninus Arrigu_Henry Austinu_Augustine 
+			Battistu_Baptist Bartolumeu_Bartholomew Benedettu_Benedict Bernardinu_Bernard Biaghju_Blaise 
+			Carlu_Charles Carulu_Charles Ceccu_Francis Ciprianu_Cyprian Cosimu_Cosimo Cristian_Christian Cristofanu_Christopher 
+			Damianu_Damian Desideriu_Desiderius Dumé_Dominic Dumenicu_Dominic 
 			Edmondu_Edmund Emiliu_Emil Esiodu Ettore_Hector 
 			Fabriziu_Fabrice Federicu_Frederick Felice_Felix Ferdinando_Ferdinand Filippu_Philip Fiurenzu_Florent Francescu_Francis  
-			Ghjacumu_James Ghjacumu-Iviu_James-Yves Ghjaseppu_Joseph Ghjilormu_Hieronymus Ghjulianu_Julian Ghjuvan_John Ghjuvan'Anghjulu Ghjuvan-Battistu_John-Baptist Ghjuvan-Ghjacumu_John-James Ghuvan-Lucca_John-Luke Ghjuvan-Marcu_John-Mark Ghjuvan-Maria_John-Mary Ghjuvan-Michele_John-Michael Ghjuvan-Paulu_John-Paul Ghjuvan-Petru_John-Peter Ghjuvanni_John Guglielmu_William 
+			Gaitanu_Cajetan Ghjacumu_James Ghjacumu-Iviu_James-Yves Ghjaseppu_Joseph Ghjilormu_Hieronymus Gjorghju_George Ghjulianu_Julian Ghjuvan_John Ghjuvan'Anghjulu Ghjuvan-Battistu_John-Baptist Ghjuvan-Ghjacumu_John-James Ghuvan-Lucca_John-Luke Ghjuvan-Marcu_John-Mark Ghjuvan-Maria_John-Mary Ghjuvan-Michele_John-Michael Ghjuvan-Paulu_John-Paul Ghjuvan-Petru_John-Peter Ghjuvanni_John Gnaziu_Ignatius Guglielmu_William 
 			Ivanu_John Iviu_Yves 
 			Lavighju_Louis Leonardu_Leonard Lisandru_Alexander Lorenzu_Lawrence Lucca_Luke Luigi_Louis  
-			Marcu_Mark Marc'Andria_Mark-Andrew Marc'Antonu_Mark-Anthony Mariu_Marius Matteu_Matthew Michele_Michael Micheli_Michael
+			Marcellu_Marcel Marcu_Mark Marc'Andria_Mark-Andrew Marc'Antonu_Mark-Anthony Mariu_Marius Martinu_Martin Massimilianu_Maximilian Matteu_Matthew Michele_Michael Micheli_Michael
 			Napulione_Napoleon Natale_Noël Niculaiu_Nicholas Niculosu_Nicholas Nunziu 
-			Orsiliu Orsu 
+			Orsiliu Orsu_Ursus 
 			Pantaléonu Pasquale_Pascal Patriziu_Patrick Paulu_Paul Petr'Antò_Peter_Anthony Petru_Peter Petru-Maria_Peter_Mary Petru-Paolu_Peter-Paul Pierluigi_Peter-Louis
+			Quintinu_Quentin 
 			Renatu_René Risterucciu Rolandu_Roland Roccu Rumenzu_Roman
-			Salvadore_Salvador Santu Saveriu_Xavier Stefanu_Stephen 
+			Salvadore_Salvador Santu Saveriu_Xavier Sebastianu_Sebastian Simeone_Simon Stefanu_Stephen 
 			Tomasu_Thomas Tumasgiu_Thomas 
 			Ulivieru_Oliver 
 			Valeriu_Valerius Vittoriu_Victor 
 		}
 		female_names = {
-			Aléria Anghjula_Angela Anghjula-Dea Anghjula-Maria_Angela_Maria Anghjulina_Angela Anna_Anne Anna-Maria_Anne-Mary
-			Bianca_Blanche 
-			Carla_Charlotte Carla-Maria Cataline_Catherine Carulina_Caroline Chjara_Claire Chjara-Lesia Chjara-Livia Chjara-Maria Chjara-Rosa 
+			Aléria Amanza Anghjula_Angela Anghjula-Dea Anghjula-Maria_Angela_Maria Anghjulina_Angela Anna_Anne Anna-Maria_Anne-Mary
+			Barba_Barbara Bianca_Blanche 
+			Carla_Charlotte Carla-Maria Cataline_Catherine Carulina_Caroline Celistina_Celestine Chjara_Claire Chjara-Lesia Chjara-Livia Chjara-Maria Chjara-Rosa Cicilia_Cecilia 
 			Davia Davia-Catalina Dumenica_Dominique Divotta  
 			Emilia_Emily Emma 
-			Federica_Frederica Fiurenza_Florence Francesca_Françoise 
+			Federica_Frederica Filicità_Felicity Fiurenza_Florence Francesca_Françoise 
+			Ghjaseppina_Josepha Ghjenuvefa_Geneviève Ghjilormina Ghjiseppina_Josepha Ghjulia_Julia Ghjulia-Maria Ghjuvannina_Joan 
 			Isabedda_Elizabeth Isabella_Elizabeth 
-			Ghjaseppina_Josepha Ghjilormina Ghjiseppina_Josepha Ghjulia_Julia Ghjulia-Maria Ghjuvannina_Joan 
-			Lavisa Leria Lesia_Elizabeth Letizia_Laetitia Lena_Helen Lisandra_Alexandra Lisandrina_Alexandra Livia Livia-Rosa Lucia 
-			Maddalena_Magdalene Margherita_Margaret Maria_Mary Maria-Ghjuvannina_Mary-Joan Maria-Maddalena_Mary-Magdalene Maria-Stella Mattea 
+			Lavisa Leria Lesia_Elizabeth Letizia_Laetitia Lena_Helen Leria Lesia_Elizabeth Lisandra_Alexandra Lisandrina_Alexandra Livia Livia-Rosa Lucia 
+			Maddalena_Magdalene Margherita_Margaret Maria_Mary Maria-Ghjuvannina_Mary-Joan Maria-Maddalena_Mary-Magdalene Maria-Stella Marieva Mattea 
 			Patrizia_Patricia Pauline_Pauline Petra_Pierrette 
 			Renata_Renée Rinata_Renée Ristituta Rosa_Rose 
-			Santa Sara_Sarah Saveria Serena Silvia_Sylvie Stedda_Stella Stefania_Stephania Stella 
+			Santa Sara_Sarah Saveria Serena Silvia_Sylvie Stedda_Stella Stefania_Stephania Stella Sylvina 
 			Teresa_Theresa 
-			Valeria_Valerie Veronica Virghjinia_Virginia Virginia Vittoria_Victoria 
+			Valeria_Valerie Vanina Veronica Virghjinia_Virginia Virginia Vittoria_Victoria 
 		}
 		modifier=default_culture_modifier
 		from_dynasty_prefix = "de "
@@ -453,7 +454,7 @@ french = {
 			Damyin_Damian Danyèl_Daniel Dâvid_David Dayverston Dënis_Denis Dieudoneu_Dieudonné Dinonzo Dji_Guy Djile_Gilles Djillaume_Guillaume Djustyne_Justin Dodolphe_Rudolf Dodore_Theodore Doère_Edward Dominique_Dominic Donat Druon Dylan 
 			Èctor_Hector Èdgârd_Edgar Édwârd_Edward Éleûtêre Edziré_Didier Éloué Elves_Elvis Émâbe Émeu Émile_Emil Èmanuèl_Emmanuel Enzo Enthonyn_Anthony Èrcule_Hercules Éric_Eric Ernou_Arnold Étchène_Stephen Etton Eûjin_Eugene Évarisse 
 			Fabien Fabrice Fernand_Ferdinand Filice_Felix Firmin Filémond Filibêrt_Philibert Flippe_Philip Florant_Florent Florian Floribêrt Foillain Folcuin Franck_Francis Françoés_Francis Frédéric_Frederick Fulgance_Fulgentius 
-			Gabriyèl_Gabriel Gaspârd Gilles Gleude_Claudius Gôtcheu_Walter Grégoére_Gregory Guilain Guiyôme_William Guss_Augustus Gustâve_Gustav Gustin_Augustine Guy 
+			Gabriyèl_Gabriel Gaspârd_Casper Gilles Gleude_Claudius Gôtcheu_Walter Grégoére_Gregory Guilain Guiyôme_William Guss_Augustus Gustâve_Gustav Gustin_Augustine Guy 
 			Hellin Hervé Hugo_Hugh Huterin 
 			Ilêre_Hilarius Inoçant Ipolite 
 			Jacqueme_James Jaques_James Jaques-Yves_James-Yves Jayden Jean_John Jean-Baptiste_John-Baptist Jean-Clôde_John-Claudius Jean-Jaques_John-James Jean-Luc_John-Luke Jean-Marc_John-Mark Jean-Michèl_John-Michael Jean-Pôl_John-Paul Jean-Piêre_John-Peter Jehan_John Jèrârd_Gerard Jèrmin_German Jérémy_Jeremy Jèrôme_Hieronymus Jilbêrt_Gilbert Jin-Gleude_John-Claudius Joakim_Joachim Joèl_Joël Jonathan Jordan Jorje_George Josèf Juïen_Julian Jules Justin Juvënal 
@@ -464,7 +465,7 @@ french = {
 			Odon Olivieu_Oliver Oscâr_Oscar Osval_Oswald 
 			Pascal Patrick Philippe_Philip Phinaert Piêre_Peter Pôl_Paul Placîde Polidôre Polite Prospêr
 			Quantin_Quentin Quertophe_Christopher 
-			Rafaèl_Raphael Rasse_Horatio Raoûl_Rudolf Rémond_Raymond Régis Rëmi_Rémy Reneu_René Retcharles Richard Rieul Rnès_Ernest Robêrt_Robert Robin Rojeu_Roger Rok Roland Romin_Roman 
+			Rafaèl_Raphael Rasse_Horatio Raoûl_Rudolf Rémond_Raymond Régis Rëmi_Remigius Reneu_René Retcharles Richard Rieul Rnès_Ernest Robêrt_Robert Robin Rojeu_Roger Rok Roland Romin_Roman 
 			Sande_Alexandre Sèbastchin_Sebastian Serge_Sergius Sèrvès Sèv'rin Silvin_Sylvain Silvèsse_Sylvester Simon Sulpisse_Sulpicius Sussure Sylvain 
 			Tave_Octavius Tèlèsfôre Tèodôre_Theodore Thibault_Theobald Thierry Thomas Timéo Timotée_Timothy Tintin_Martin Tiophi_Teophilius Titisse_John-Baptist Tone_Anthony Tor_Victor Toussint_Toussaint Turtur_Arthur Tristan 
 			Ulisse_Odysseus Urbin Ursmâr Ustache_Eustace 
