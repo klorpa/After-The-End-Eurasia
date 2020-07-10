@@ -844,15 +844,13 @@
 	dynasty=2220301 #Ramstad
 	culture=tronder
 	religion=folketro
-	martial=3
-	diplomacy=6
-	stewardship=4
-	intrigue=6
-	learning=5
 	trait=tough_soldier
 	trait=robust
 	trait=strong
+	trait=shy
+	trait=just 
 	2636.1.1={birth=yes}
+	2666.1.1={give_nickname nick_the_arrow }
 	2670.1.1={death=yes}
 }
 
@@ -861,11 +859,6 @@
 	dynasty=2220053 #Prøysen
 	culture=ostlending
 	religion=folketro
-	martial=3
-	diplomacy=6
-	stewardship=4
-	intrigue=6
-	learning=5
 	trait=dutiful_cleric
 	trait=scholar
 	trait=poet
@@ -1250,7 +1243,7 @@
 }
 
 8000102={
-	name="Harald"
+	name="Askeladd"
 	dynasty=2220060 #Luva 
 	culture=vestlending
 	religion=folketro
@@ -1262,6 +1255,7 @@
 	trait=proud
 	disallow_random_traits=yes
 	2649.1.1={birth=yes}
+	2666.1.1={give_nickname nick_tanglehair }
 	2670.1.1={death=yes}
 }
 
@@ -1323,7 +1317,7 @@
 }
 
 8000107={
-	name="Arnulf"
+	name="Tyrihans"
 	dynasty=2220053 #Prøysen 
 	culture=ostlending
 	religion=folketro
@@ -1332,7 +1326,7 @@
 	trait=cruel
 	trait=mystic
 	trait=temperate
-	father=8000109
+	father=8000108
 	2632.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
