@@ -73,7 +73,7 @@ latin = {
 		female_names = {
 			Accursia Affunsina_Alfonsina Agostina_Augustina Agrippina Àita_Agatha Alissandra_Alexandra Amelia Angila_Angela Anna_Anne Annita_Anne Assunta_Asunción Audenzia 
 			Brigida_Brigit 
-			Calcedonia Caliddruzza_Calogera Calògira_Calogera Candelora_Candelaria Carminicchia_Carmela Carula_Carolina Castrenza Catalda Catarina_Catherine Catena Cettina_Concettina Cliupatra_Cleopatra Cruci_Cruz Custanza_Constance 
+			Calcedonia Caliddruzza_Calogera Calògira_Calogera Candelora_Candelaria Carminicchia_Carmela Carula_Carolina Castrenza Catalda Catarina_Catherine Catena Cettina_Concepción Cliupatra_Cleopatra Cruci_Cruz Custanza_Constance 
 			Donata 
 			Elena_Helen Epifania_Epiphania Elisabetta_Elizabeth Erina_Catherine 
 			Fara Ferdinanda Fina_Philomena Fortunata Franca_Françoise Francisca_Françoise Fulippa_Philippa 
@@ -110,26 +110,43 @@ latin = {
 		color = { 0.55 0.95 0.75 }
 
 		male_names = {
-			Alfons_Alphonse Alois Antoni_Anthony
-			Benedetg_Benedict
-			Carl_Charles Curdin
-			Donat
-			Flurin_Florian
-			Gaudenz Giacun_Jacob Gian_John Gieri_George Giusep_Joseph Guglielm_William
-			Hasper_Casper
-			Linard_Leonard Ludivic_Louis Luzius_Lucius
-			Mitgel_Michael
-			Oscar
-			Peider_Peter Placi
-			Richard
-			Schimun_Simon
-			Tarzisius Tumasch_Thomas
-			Ulisses
+			Aietano_Cajetan Alisando_Alexander Austino_	Augustine 
+			Bardo_Balthazar Bartiluccio_Bartholomew Bastiano_Sebastian Beneritto_Benedict Bennardo_Bernard Biaso_Blaise 
+			Caio_Caius Carlo_Charles Carlucciello_Charles Catiello Carmeniello_Carmine Ceruzzo_Cyrus Ciccio_Francis Ciro_Cyr Clemento_Clement Cornelio_Cornelius Crabbiele_Gabriel Cremente_Clement Cuglierme_William Currado_Conrad Cusumiello_Cosimo Custantino_Constantine Custaviello_Gustav Cristofero_Christopher 
+			Dumminico_Dominic Dunate_Donatus 
+			Edmunno_Edmund Etuardo_Edward Erricuccio_Henry Erasemo_Erasmus 
+			Francazio_Pancracio Fechiello_Frederick Filuccio_Raphael Frabrizio_Fabrice Felice_Felix Feliciello_Felix Fonzo_Alfonso Furtunato_Fortunato Francisco_Francis 
+			Gasparro_Casper Gennaro_Januarius Gilardo_Gerard Girolamo_Hieronymus Giacchino_Joachim Giorgio_George Giulio_Jules Giuvanne_John Gnazio_Ignatius Gugliermo_William 
+			Irlandino_Roland 
+			Jennaro_Januarius Juseppe_Joseph 
+			Lazzariello_Lazarus Liunardo_Leonard Lipordo_Leopold Lucio_Lucius Lutuvico_Louis Lurenzo_Lawrence Lucariello_Lucas 
+			Manuelo_Emmanuel Marcuccio_Marcus Mariettiello_Marius Mattiuccio_Matthew Michele_Michael Mimi'_Dominic Mauriello_Maurice 
+			Nandiello_Ferdinand Natalino_Noel Ndonio_Anthony Niballo_Hannibal Nofrio_Humphrey Nué_Noah Nunziato_Nunzio 
+			Paolo_Paul Pataterno Peppe_Joseph Peppiniello_Joseph Pauluccio_Paul Pio_Pius Piuccio_Pius Petruccio_Peter 
+			Rafele_Raphael Rodorfo_Rudolf 
+			Semmuone_Simon Stefano_Stephen Straillano_Stanislaus Suele_Samuel 
+			Toto'_Anthony Totore_Salvador Tummaso_Thomas 
+			Vicienzo_Vincent Vittero_Victor 
 		}
 		female_names = {
-			Angiolina_Angela
-			Barbara Bianca
-			Margarita_Margaret Maria_Mary
+			Addolorata Agata_Agatha Agnella Amalphitana Anna_Anne Anntonella_Antonia Annuccia Aròpa_Europa Aurigemma 
+			Barbata Biatrice_Beatrice Bona Brizzida_Brigit 
+			Cannetella_Candida Catina Carulina_Caroline Catarina_Catherine Chiarella_Clara Christina_Christina Cicilia_Cecilia Crementina_Clementina Cretella_Greta Crotirda_Clotilde Cuncetta_Concepción Custanza_Constance 
+			Diodora Drosu 
+			Ervira_Elvira Euphimia_Euphemia Eupraxia 
+			Fara Filumena_Philomena 
+			Gemma Generosa Gennara Giltruta_Gertrude Giusuppina_Josepha Giuritta_Judith Graziella_Grace Gregoria 
+			Itarilla 
+			Janculella_Blanche 
+			Luisina_Louise 
+			Mafardina_Matilda Mammela_Carmela Marenda Margarita_Margaret Maria_Mary "Maria Nives" Mariarita_Margaret Marila Marocta Maruzzella Marittella_Mary Maru_Mar Maruzzella_Mary Matalena_Magdalene Matirda_Matilda Matrona 
+			Niculetta 
+			Olghina_Olga Orania 
+			Parmetella Pitru_Petra 
+			Rachilina_Rachel Rebecca Retella_Rita Riggina_Regina Rosa Rusella_Rosa 
+			Santilla_Santa Sillicta Sufiella_Sophia 
+			Tammara Theodonanda Theodora Tunnulella 
+			Zufia_Sophia 
 		}
 		from_dynasty_prefix = "de "
 
@@ -144,32 +161,54 @@ latin = {
 		mat_grm_name_chance = 40
 		mother_name_chance = 5
 	}
-	umbrian = {
+	umbrian = { #roman names 
 		graphical_cultures = { italiangfx southerngfx westerngfx }
 		
 		color = { 0.80 0.95 0.75 }
 
 		male_names = {
-			Alfons_Alphonse Alois Antoni_Anthony
-			Benedetg_Benedict
-			Carl_Charles Curdin
-			Donat
-			Flurin_Florian
-			Gaudenz Giacun_Jacob Gian_John Gieri_George Giusep_Joseph Guglielm_William
-			Hasper_Casper
-			Linard_Leonard Ludivic_Louis Luzius_Lucius
-			Mitgel_Michael
-			Oscar
-			Peider_Peter Placi
-			Richard
-			Schimun_Simon
-			Tarzisius Tumasch_Thomas
-			Ulisses
+			Abele_Abel Abramo_Abraham Achille_Achilles Adamo_Adam Adeodato_Deodatus Adriano_Adrian Agapito Agatino Agatone Agostino_Augustine Agricola Alberto_Albert Alcide Alessandro_Alexander Alessio_Alexis Amadeo_Amadeus Ambrogio_Ambrosius Amilcare_Hamilcar Ampelio Anacleto_Anacletus Anastasio_Anastasius Andrea_Andrew Androclo Andronico_Andronicus Angelo_Angel Aniceto_Anicetus Annibale_Hannibal Antemio Antero Antioco_Antiochus Antonino_Antoninus Antonio_Anthony "Antonio Pio" Arcadio Aristide Aronne_Aaron Arrigo_Henry Arsenio_Arsenius Artemio_Artemius Atanasio_Athanasius Attilio_Attilius Augusto_Augustus Aureliano_Aurelian Aurelio_Aurelius Avito 
+			Balbino Baldassare_Balthazar Bartolomeo_Bartholomew Basilio_Basil Basilisco Battista_Baptist Benedetto_Benedict Bernardo_Bernard Biagio_Blaise Bonifacio_Boniface 
+			Caio_Caius Callisto_Callistus Calogero Calpurnio Camillo_Camillus Capitolino Carino Carlo_Charles Cecilio_Cecil Celeste Celestino_Celestine Cesare_Caesar Cesarino_Caesar Cicero Cipriano_Cyprian Ciriaco_Cyriacus Ciro_Cyrus Claudio_Claudius Clemente_Clement Cleto Colombano_Colombanus Conone Cornelio_Cornelius Cosimo Costante_Constans Costantine_Constantine Costanzo_Constans Crescenzo_Crescentius Cristiano_Christian Cristoforo_Christopher 
+			Damaso Damiano_Damian Daniele_Daniel Dario_Darius Davide_David Decimio Decio Demetrio_Demetrius Desiderio_Desiderius Diadumeniano Diocleziano_Diocletian Diodato Dionisio_Denis Domenico_Dominic Domiziano_Domitian Donato_Donatus Dono 
+			Efisio Egidio_Gilles Eleuterio Elia_Elias Eligio Eliodoro Elpidio Emanuele_Emmanuel Emilio_Emil Enea_Aeneas Ennio Enobarbo Epifanio_Epiphanius Eraclio_Hercules Ercole_Hercules Ermacora_Hermagoras Ermes_Hermes Esculapio Ettore_Hector Etrusco Eugenio_Eugene Eusebio_Eusebius Eustorgio Eutichiano Eutimio Evaristo_Evaristus Ezio_Aetius 
+			Fabiano_Fabian Fabio_Fabius Fabrizio_Fabrice Federico_Frederick Felice_Felix Ferdinando_Ferdinand Filippo_Philip Fiore Fiorenzo_Florent Firmino Flavio_Flavian Formoso_Formosus Fortunato_Fortunatus Francesco_Francis Fulgenzio_Fulgentius Fulvio 
+			Gabriele_Gabriel Gaetano_Cajetan Gaio_Caius Galba Galeazzo_Galahad Galerio Gallieno Gallo_Gallus Gaspare_Casper Gelasio Gennaro_Januarius Germano_German Geta Giacinto_Hyacinth Giacomo_James Gioacchino_Joachim Gionata_Jonathan Giorgio_George Giovanni_John Giove_Jupiter Gioviano Giuliano_Julian Giulio_Julius Giuseppe_Joseph Giustiniano_Justinian Giustino_Justin Glicerio Gordiano Graziano_Gratian Gregorio_Gregory Guglielmo_William 
+			Igino_Hyginius Ilario_Hilarius Innocenzo_Innocent Invicto Ippolito_Hyppolite Isacco_Isaac Italo_Italus 
+			Lando Lazzaro_Lazarus Leandro_Leander Leonardo_Leonard Leone_Leo Leonida_Leonidas Leonzio_Leontius Liberio Libio Licino Lino_Linus Livio_Livius Longino Lorenzo_Lawrence Luca_Luke Lucilio_Lucilius Lucio_Lucius Luigi_Louis Luperco 
+			Macrino Maggioriano Manuele_Emmanuel Marcellino_Marcel Marcello_Marcel Marco_Mark "Marco Aurelio" Maria_Mary Mario_Marius Marino_Marinus Martino_Martin Massimiano_Maximian Massimiliano_Maximilian Massimo_Maximus Matteo_Matthew Maurizio_Maurice Melchiorre_Melchior Mercurio_Mercurius Metello Michelangelo Michele_Michael Milziade 
+			Napoleone_Napoleon Narciso_Narcissus Natale_Natal Nazario_Nazarius Nazzareno Nerva Nestore_Nestor Nettuno_Neptune Niccolò_Nicholas Niceforo_Nikephoros Nicodemo_Nicodemus Nicomede Nicostrato Noè_Noah Numeriano Numitore 
+			Onofrio_Humphrey Onorio_Honoratus Orazio_Horatio Oreste_Orestes Orfeo_Orpheus Orlando_Roland Ormisda Ostiliano Ottaviano_Octavian Ottavio_Octavius Ovidio_Ovid 
+			Palmiro Pancrazio_Pancrace Panfilo Pantaleone Paolo_Paul Paride_Paris Pasquale_Pascal Patrizio_Patrick Pelagio_Pelagius Pertinace_Pertinax Petronio Pietro_Peter Pio_Pius Placido Plinio_Pliny Plutone Pompeo_Pompey Ponziano Ponzio_Pontus Porfirio_Porphyrius Publio_Publius Prudenzio_Prudentius 
+			Quintillo Quintino_Quentin Quinto Quirinus 
+			Raffaele_Raphael Remigio_Remigius Rocco Roberto_Robert Romano_Roman Romeo Romolo 
+			Sabiniano Sabino_Sabinus Salvatore_Salvador Salvio Santo Saturnino Saverio_Xavier Scevola Scipione_Scipio Sebastiano_Sebastian Sergio_Sergius Servio_Servius Settimio_Septimus Severino_Severian Severo_Severus Silverio Silvestro_Sylvester Simmaco_Symmachus Simone_Simon Simplicio Siricio Sisinnio_Sisinnius Sisto_Sixtus Sotero Stauracio_Staurakios Stefano_Stephen Sulpiciano 
+			Tacito_Tacitus Taddeo_Thaddeus Tarquinio Telesforo Teodoro_Theodore Teodosio_Theodosius Terenzio_Terrence Terzo Tiberio_Tiberius Timoteo_Timothy Tito_Titus Tiziano Tommaso_Thomas Traiano_Trajan Tullio_Tullius 
+			Ulisse_Odysseus Urbano_Urban 
+			Valente_Valens Valentino_Valentine Valeriano_Valerian Valerio_Valerius Vespasiano_Vespasian Vigilio Vitellio Vincenzo_Vincent Virgilio_Virgil Vittore_Victor Vittorio_Victor Volusiano 
+			Zaccaria_Zachary Zefirino_Zephyrinus Zeno Zenone Zosimo 
 		}
 		female_names = {
-			Angiolina_Angela
-			Barbara Bianca
-			Margarita_Margaret Maria_Mary
+			Adriana Agata_Agatha Agnese_Agnes Agostina_Augustina Agrippina Alba Albina Alessa_Alexandra Alessandra_Alexandra Alessia_Alexia Alina Allegra Amanda Amaranta_Amaranth Ambra Amedea Amore Anastasia Andreina Angela Angelica_Angela Angelina_Angela Anna_Anne Annabella_Annabelle Annachiara Annamaria_Ann-Mary Annunziata Antonia Antonietta_Antonia Antonina Apollonia Appia Argentea Arianna_Ariane Armida Assunta_Asunción Attica Augusta Aura Aurelia Aurora 
+			Balbina Barbara Basilina Basilissa Beatrice Benedetta Benigna Berenice Bianca_Blanche Bibiana Blandina Brigida_Brigit Bruna 
+			Caderina_Catherine Calogera Calpurnia Camilla Carla Carlotta_Charlotte Carmina_Carmen Carolina_Caroline Cassandra Caterina_Catherine Cecilia Celeste Celestina Celia Cesarina Chiara_Claire Ciriaca Clarissa Claudia Clelia Clementina Cloe_Chloe Colomba Colombina Comasia Concetta_Concepción Concordia Consolata Cornelia Corona Cosima Cossuzia Costanza_Constance Crispina Cristiana_Christina Crocifissa_Cruz 
+			Dafne_Daphne Dalila Damiana Dana Daniela Daria Debora_Deborah Delfia Delia Demetra Desideria Diana Diletta Dionisia_Denise Domenica Domitilla Domizia Donata Donatella Dorotea_Dorothy Drusilla 
+			Elena_Helen Eleonora_Eleanor Elettra_Electra Elisabetta_Elizabeth Eloisa Emanuela_Emmanuela Emerenziana Emilia_Emily Emiliana_Emily Emma Engrazia Epafra Erminia Ester_Esther Eufemia_Euphemia Eugenia Eulalia Eva_Eve 
+			Fabia Fabiana_Fabia Fabiola_Fabia Fabrizia Fausta Faustina Felicia Felicita_Felicity Ferdinanda Fiammetta Filippa_Philippa Filomena_Philomena Fioralba Fiore Fiorella Fiorenza Flavia Flora Fortunata Francesca_Françoise Fulvia 
+			Gabriella Gaetana Gaia Galla Gelsomina_Jasmine Gemma Giacinta Giacoma Giada_Jade Gianna_Joan Ginevra Gioconda Gioia_Joy Giorgia_Georgia Giovanna_Joan Giuditta_Judith Giulia_Julia Giuliana_Julia Giuseppina_Josepha Giustina_Justina Gloria Gordiana Grazia_Grace 
+			Ilaria_Hillary Immacolata_Inmaculada Irene Iris Isabella_Elizabeth Isidora Italia 
+			Laura Leandra Lelia Lena Leonarda Leonora_Eleanor Leontina Leonzia Lepidia Letizia Lia_Leah Liboria Lidia_Lydia Lisa_Elizabeth Livia Livilla Loredana Lorenza_Laurence Luce_Luz Lucia Lucilla Lucrezia Ludovica_Louise Luigia_Louise 
+			Maddalena_Magdalene Mafalda_Matilda Manuela_Emmanuela Marcella Marcia Margheria_Margaret Maria_Mary "Maria Chiara" "Maria Francesca" "Maria Grazia" "Mariangela" Marianna_Marianne "Maria Pia" "Maria Vittoria" Marina Maristella Marta_Martha Martina Mattea Maurizia Melania Metella Micaela_Michelle Minerva Mirabella Mirta Monica 
+			Narcisa Natalia Nerina Nicoletta Noemi Nunzia 
+			Ofelia_Ophelia Olimpia_Olympias Oliva_Olivia Onorina Oriana Orlanda Orsola_Ursula Ottavia_Octavia 
+			Paola_Paula Pasqualina Patrizia_Patricia Paulina Pelagia Perpetua Petronilla Pia Piera_Petra Placida Polissena_Polyxena Pompea Prisca Priscilla Pulcheria 
+			Quinta 
+			Raffaella Rebecca Regina Romana Rosa_Rose Rosalba Rosalinda Rosetta Rossana_Roxana Rubina 
+			Sabina Sabrina Salomè_Salome Salvatrice Samantha Santa Sara_Sarah Saveria Savina_Sabina Scribonia Sebastiana Seconda Sempronia Serafina Serena Serviria Severa Severina Sibilla_Sibylla Silla Silvestra Silvia Simona Siria Sofia_Sophia Sonia Stefania_Stephania Stella Susanna_Susan 
+			Tecla Teodora_Theodora Teofila Terenzia Teresa_Theresa Tertulla Tiziana Tullia 
+			Urbana 
+			Valentina Valeria Vanna_Joan Veronica Vincenza Violante_Yolanda Vita Vitalia Vittoria_Victoria Viviana 
+			Zita Zoe 
 		}
 		from_dynasty_prefix = "de "
 
