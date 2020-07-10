@@ -1,0 +1,24 @@
+government_flavor = {
+	name = gov_confederation
+	graphics = GFX_evt_diplomatic_greeting
+	priority = 5
+	trigger = {
+		government = confederation_government
+	}
+}
+government_flavor = {
+	name = gov_bureaucracy
+	graphics = GFX_evt_chinese_emissary
+	priority = 5
+	trigger = {
+		government = bureaucratic_government
+	}
+}
+government_flavor = {
+	name = gov_pirate
+	graphics = GFX_evt_ship_voyage_hf
+	priority = 5
+	trigger = {
+		government = pirate_government
+	}
+}
