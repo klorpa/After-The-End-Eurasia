@@ -25,7 +25,7 @@ west_slavic = {
 			Oswald Ota_Otto
 			Pawol_Paul Pjetr_Peter
 			Richard
-			Stanislaw
+			Stanislaw_Stanislav
 			Tomaš_Thomas Tunglo
 			Ulrich
 			Wjaclaw_Wenceslaus Wjlem_William
@@ -89,6 +89,55 @@ west_slavic = {
 			Natalia_Natalie
 			Wanda Wérónika_Veronica
 			Zofiô_Sophia
+		}
+
+		from_dynasty_prefix = "z "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	czech = {
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.1 0.6 0.6 }
+
+		male_names = {
+			Miloš_Milo
+			Václav_Wenceslaus
+		}
+		female_names = {
+			Marie_Mary
+		}
+
+		from_dynasty_prefix = "z "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	slovak = {
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.1 0.6 0.6 }
+
+		male_names = {
+			Ján_John Jozef_Joseph Juraj_George
+		}
+		female_names = {
+			Mária_Mary
 		}
 
 		from_dynasty_prefix = "z "
