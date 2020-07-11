@@ -1,4 +1,4 @@
-###ÄNSI
+###Ã„NSI
 
 east_slavic = {
 	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
@@ -32,4 +32,25 @@ east_slavic = {
 
 		modifier = default_culture_modifier
 	}
+
+#leningradian = {
+
+graphical_cultures = { westernslavicgfx}
+
+colour = {1.0 0.25 0.35 }
+
+male names = {Aleksander_Sasha_Shura_Sanya Aleksei_Alyosha_Lyosha Anatoliy Andrei Anton Arkadiy Avgust Boris Constantin Denis Fyodor Gennnadiy Igor Ivan_Vanya  Kirill Kolya Konstanin Leonid Lev Lyosha Maxim Nikita Nikolai Oleg Pavel Pyotr Roman  Semyon Sergei Vasiliy_Vasya Vitaliy_Vitya Vladimir_Vlad  Vladislav Vsevolod}
+
+female names {Adelle Aleksandra Alisa Alla Alyona Anna Asya Dasha Dina Evgenia Galina Ksenia Ksyusha Lena Liza Nastya Sasha Sveta Svetlana Tatiyana Valentina Valya Varvara Vasilisa Vera Veronika Victoria Yelena}
+
+from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+
+seafarer=yes
+
+feminist=yes
+}
+
 }
