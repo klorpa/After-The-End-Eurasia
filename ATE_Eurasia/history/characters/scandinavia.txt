@@ -1254,6 +1254,7 @@
 	trait=cynical 
 	trait=proud
 	disallow_random_traits=yes
+	father=8000160
 	2649.1.1={birth=yes}
 	2666.1.1={give_nickname nick_tanglehair }
 	2670.1.1={death=yes}
@@ -1430,7 +1431,7 @@
 }
 
 8000115={
-	name="Tharkûn"
+	name="Ulf"
 	dynasty=2220357 #Hedin 
 	culture=swedish
 	religion=valinorism
@@ -1962,3 +1963,181 @@
 	2497.1.1={birth=yes}
 	2558.1.1={death=yes}
 }
+
+8000160={
+	name="Halvdan"
+	dynasty=2220060 #Luva
+	culture=vestlending
+	religion=folketro
+	father=8000161
+	2621.1.1={birth=yes}
+	2663.1.1={death=yes}
+}
+
+8000161={
+	name="Espen"
+	dynasty=2220060 #Luva
+	culture=vestlending
+	religion=folketro
+	father=8000162
+	2599.1.1={birth=yes}
+	2651.1.1={death=yes}
+}
+
+8000162={
+	name="Aksel"
+	dynasty=2220060 #Luva
+	culture=vestlending
+	religion=folketro
+	father=8000163
+	2573.1.1={birth=yes}
+	2634.1.1={death=yes}
+}
+
+8000163={
+	name="Petter"
+	dynasty=2220060 #Luva
+	culture=vestlending
+	religion=folketro
+	father=8000164
+	2536.1.1={birth=yes}
+	2602.1.1={death=yes}
+}
+
+8000164={
+	name="Balder"
+	dynasty=2220060 #Luva
+	culture=vestlending
+	religion=folketro
+	father=8000165
+	2506.1.1={birth=yes}
+	2578.1.1={death=yes}
+}
+
+8000165={
+	name="Kristoffer"
+	dynasty=2220060 #Luva
+	culture=vestlending
+	religion=folketro
+	father=8000166
+	2474.1.1={birth=yes}
+	2532.1.1={death=yes}
+}
+
+8000166={
+	name="Kåre"
+	dynasty=2220060 #Luva
+	culture=vestlending
+	religion=folketro
+	father=8000167
+	2444.1.1={birth=yes}
+	2501.1.1={death=yes}
+}
+
+8000167={
+	name="Askeladd"
+	dynasty=2220060 #Luva
+	culture=vestlending
+	religion=folketro
+	trait=bastard
+	father=8000088
+	2421.1.1={birth=yes}
+	2456.1.1={death=yes}
+}
+
+8000168={
+	name="Håkan"
+	dynasty=2220345 #Vasa
+	culture=swedish
+	religion=folketro
+	father=8000143
+	2445.1.1={birth=yes}
+	2521.1.1={death=yes}
+}
+
+8000169={
+	name="Björn"
+	dynasty=2220345 #Vasa
+	culture=swedish
+	religion=folketro
+	father=8000168
+	2476.1.1={birth=yes}
+	2548.1.1={death=yes}
+}
+
+8000170={
+	name="Gustaf"
+	dynasty=2220345 #Vasa
+	culture=swedish
+	religion=folketro
+	father=8000169
+	2503.1.1={birth=yes}
+	2548.1.1={death=yes}
+}
+
+8000171={
+	name="Karl Johan"
+	dynasty=2220345 #Vasa
+	culture=swedish
+	religion=folketro
+	father=8000169
+	2513.1.1={birth=yes}
+	2562.1.1={death=yes}
+}
+
+8000172={
+	name="Edmund"
+	dynasty=2220345 #Vasa
+	culture=swedish
+	religion=folketro
+	father=8000171
+	2536.1.1={birth=yes}
+	2597.1.1={death=yes}
+}
+
+8000173={
+	name="Gustaf"
+	dynasty=2220345 #Vasa
+	culture=swedish
+	religion=folketro
+	father=8000172
+	2572.1.1={birth=yes}
+	2623.1.1={death=yes}
+}
+
+8000174={
+	name="Magnus"
+	dynasty=2220345 #Vasa
+	culture=swedish
+	religion=neuhumanist
+	father=8000173
+	2609.1.1={birth=yes}
+	2658.1.1={death=yes}
+}
+
+8000175={
+	name="Henrik"
+	dynasty=2220465 #Vasa-Bernadotte
+	culture=swedish
+	religion=neuhumanist
+	trait=ruthless
+	trait=ambitious
+	trait=cynical
+	trait=misguided_warrior
+	trait=gregarious
+	father=8000174
+	mother=8000176
+	2638.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000176={
+	name="Kyriana"
+	female=yes
+	dynasty=2220348 #Bernadotte
+	culture=walloon
+	religion=neuhumanist
+	2621.1.1={birth=yes}
+	2663.1.1={death=yes}
+}
+
