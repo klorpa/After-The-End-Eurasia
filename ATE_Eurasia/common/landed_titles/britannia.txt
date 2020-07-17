@@ -404,18 +404,6 @@ e_britannia = {
 				b_evesham = {}
 				b_bromsgrove = {}
 			}
-			c_warwickshire = {
-				color={ 241 60 30 }
-				color2={ 255 255 255 }
-			
-				b_tamworth = {}
-				b_rugby = {}
-				b_nuneaton = {}
-				b_stratford_upon_avon = {}
-				b_kenilworth = {}
-				b_warwick = {}
-				b_leamington = {}
-			}
 			c_birmingham = {
 				color={ 250 25 25 }
 				color2={ 255 255 255 }
@@ -427,6 +415,13 @@ e_britannia = {
 				b_sutton_coldfield = {}
 				b_dudley = {}
 				b_west_bromwich = {}
+				b_tamworth = {}
+				b_rugby = {}
+				b_nuneaton = {}
+				b_stratford_upon_avon = {}
+				b_kenilworth = {}
+				b_warwick = {}
+				b_leamington = {}
 			}
 		}
 		d_east_midlands = {
@@ -529,7 +524,7 @@ e_britannia = {
 				b_skipton = {}
 				b_whitby = {}
 			}
-			c_humberside = {
+			c_east_yorkshire = {
 				color={ 250 93 16 }
 				color2={ 255 255 255 }
 				
@@ -564,17 +559,6 @@ e_britannia = {
 				b_halifax = {}
 				b_batley = {}
 				b_dewsbury = {}
-			}
-			c_cleveland = {
-				color={ 71 130 120 }
-				color2={ 255 255 255 }
-				
-				b_middlesbrough = {}
-				b_stockton_on_tees = {}
-				b_redcar = {}
-				b_billingham = {}
-				b_thornaby_on_tees = {}
-				b_saltburne_marske = {}
 			}
 		}
 		d_manchester = {
@@ -695,11 +679,12 @@ e_britannia = {
 				b_peterlee = {}
 				b_bishop_auckland = {}
 				b_newton_aycliffe = {}
-			}
-			c_tyne_and_wear = {
-				color={ 103 143 71 }
-				color2={ 255 255 255 }
-				
+				b_middlesbrough = {}
+				b_stockton_on_tees = {}
+				b_redcar = {}
+				b_billingham = {}
+				b_thornaby_on_tees = {}
+				b_saltburne_marske = {}
 				b_sunderland = {}
 				b_newcastle = {}
 				b_south_shields = {}
@@ -707,6 +692,49 @@ e_britannia = {
 				b_washington = {}
 				b_wallsend = {}
 				b_jarrow = {}
+			}
+		}
+		d_the_isles = {
+			color={ 10 48 243 }
+			color2={ 255 255 255 }
+
+			capital = 105 # Isle of Man
+			
+			c_isle_of_man = {
+				
+				manx = "Mannin"
+				irish = "Oileán Mhanann"
+				ulsterman = "Isle o Man"
+				lowlander = "Isle o Man"
+				highlander = "Eilean Mhanainn"
+				welsh = "Ynys Manaw"
+				cornish = "Ynys Manow"
+
+				
+				color={ 168 162 27 }
+				color2={ 255 255 255 }
+				
+				b_castletown = {
+					manx = "Balley Chashtal"
+				}
+				b_peel = {
+					manx = "Purt ny h-Inshey"
+				}
+				b_douglas2 = {
+					manx = "Doolish"
+				}
+				b_ramsey = {
+					manx = "Rhumsaa"
+				}
+				b_kirk_michael = {
+					manx = "Kirk Maayl"
+				}
+				b_laxey = {
+					manx = "Laksaa"
+				}
+				b_port_st_mary = {
+					manx = "Purt le Moirrey"
+				}
 			}
 		}
 	}
@@ -2366,15 +2394,6 @@ e_britannia = {
 				}
 			}
 		}
-	}
-	k_ulster = {
-		color = { 215 130 77 }
-		color2 = { 255 255 255 }
-
-		irish = "Ulaidh"
-
-		capital = 23 #belfast
-
 		d_ulster = {
 			color={ 215 130 77 }
 			color2={ 255 255 255 }
@@ -2383,7 +2402,7 @@ e_britannia = {
 
 			capital = 23# belfast
 			
-			c_belfast = {
+			c_down = {
 				color={ 215 130 77 }
 				color2={ 255 255 255 }
 				holy_site = high_church
@@ -2608,49 +2627,6 @@ e_britannia = {
 				}
 				b_arranmore = {
 					irish = "Árainn Mhór"
-				}
-			}
-		}
-		d_the_isles = {
-			color={ 10 48 243 }
-			color2={ 255 255 255 }
-
-			capital = 105 # Isle of Man
-			
-			c_isle_of_man = {
-				
-				manx = "Mannin"
-				irish = "Oileán Mhanann"
-				ulsterman = "Isle o Man"
-				lowlander = "Isle o Man"
-				highlander = "Eilean Mhanainn"
-				welsh = "Ynys Manaw"
-				cornish = "Ynys Manow"
-
-				
-				color={ 168 162 27 }
-				color2={ 255 255 255 }
-				
-				b_castletown = {
-					manx = "Balley Chashtal"
-				}
-				b_peel = {
-					manx = "Purt ny h-Inshey"
-				}
-				b_douglas2 = {
-					manx = "Doolish"
-				}
-				b_ramsey = {
-					manx = "Rhumsaa"
-				}
-				b_kirk_michael = {
-					manx = "Kirk Maayl"
-				}
-				b_laxey = {
-					manx = "Laksaa"
-				}
-				b_port_st_mary = {
-					manx = "Purt le Moirrey"
 				}
 			}
 		}
