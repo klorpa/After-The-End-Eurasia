@@ -585,7 +585,6 @@
 	learning=5
 	father=8000058
 	2423.1.1={birth=yes}
-	2470.1.1={give_nickname nick_the_old}
 	2471.1.1={death=yes}
 }
 
@@ -616,6 +615,7 @@
 	learning=5
 	father=8000060
 	2469.1.1={birth=yes}
+	2486.1.1={give_nickname nick_the_young}
 	2487.1.1={death=yes}
 }
 
@@ -713,14 +713,13 @@
 	name="Wilmer"
 	dynasty=2220179 #Skånske
 	culture=scanian
-	religion=lutheran
-	martial=7
-	diplomacy=3
-	stewardship=4
-	intrigue=6
-	learning=5
+	religion=folketro
+	trait=zealous 
+	trait=strong 
+	trait=mastermind_theologian
 	father=8000067
 	2552.1.1={birth=yes}
+	2570.1.1={give_nickname nick_the_apostate}
 	2591.1.1={death=yes}
 }
 
@@ -728,7 +727,7 @@
 	name="Mats"
 	dynasty=2220179 #Skånske
 	culture=scanian
-	religion=lutheran
+	religion=folketro
 	martial=7
 	diplomacy=3
 	stewardship=4
@@ -743,7 +742,7 @@
 	name="Zlatan"
 	dynasty=2220179 #Skånske
 	culture=scanian
-	religion=lutheran
+	religion=folketro
 	martial=7
 	diplomacy=3
 	stewardship=4
@@ -758,7 +757,7 @@
 	name="Erik"
 	dynasty=2220179 #Skånske
 	culture=scanian
-	religion=lutheran
+	religion=folketro
 	martial=7
 	diplomacy=3
 	stewardship=4
@@ -773,12 +772,7 @@
 	name="Wilmer"
 	dynasty=2220179 #Skånske
 	culture=scanian
-	religion=lutheran
-	martial=7
-	diplomacy=3
-	stewardship=4
-	intrigue=6
-	learning=5
+	religion=folketro
 	trait=is_fat
     trait=gregarious
     trait=gluttonous
@@ -872,15 +866,11 @@
 	dynasty=2220409 #Allén
 	culture=swedish
 	religion=lutheran
-	martial=3
-	diplomacy=6
-	stewardship=4
-	intrigue=6
-	learning=5
 	trait=underhanded_rogue
 	trait=wounded
 	trait=scarred 
 	trait=diligent
+	father=8000177
 	2638.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
@@ -1191,7 +1181,7 @@
 }
 
 8000098={
-	name="Kåre"
+	name="Milorg"
 	dynasty=2220061 #Linge 
 	culture=vestlending
 	religion=lutheran
@@ -1230,8 +1220,7 @@
 }
 
 8000101={
-	name="Tikken"
-	female=yes
+	name="Carl Gustav"
 	dynasty=2220061 #Linge 
 	culture=vestlending
 	religion=lutheran
@@ -1518,7 +1507,7 @@
 
 8000121={
 	name="Dacke"
-	dynasty=2220119 
+	dynasty=2220181 
 	culture=swedish
 	religion=folketro
 	trait=brilliant_strategist
@@ -1792,7 +1781,11 @@
 	trait=skilled_tactician
 	father=8000142
 	2421.1.1={birth=yes}
-	2484.1.1={death=yes}
+	2484.1.1={death={
+			death_reason=death_execution
+			killer=8000183
+		}
+	}
 }
 
 8000144={
@@ -2141,3 +2134,169 @@
 	2663.1.1={death=yes}
 }
 
+8000177={
+	name="Martin" #King of the Geats
+	dynasty=2220409 #Allén
+	culture=swedish
+	religion=lutheran
+	father=8000178
+	2611.1.1={birth=yes}
+	2654.1.1={death=yes}
+}
+
+8000178={
+	name="Ansgar" #King of the Geats
+	dynasty=2220409 #Allén
+	culture=swedish
+	religion=lutheran
+	mother=8000179
+	2591.1.1={birth=yes}
+	2632.1.1={death=yes}
+}
+
+8000179={
+	name="Birgitta" #Queen of the Geats
+	female=yes
+	dynasty=2220409 #Allén
+	culture=swedish
+	religion=lutheran
+	father=8000180
+	2568.1.1={birth=yes}
+	2607.1.1={death=yes}
+}
+
+8000180={
+	name="David" #King of the Geats
+	dynasty=2220409 #Allén
+	culture=swedish
+	religion=lutheran
+	father=8000181
+	2541.1.1={birth=yes}
+	2586.1.1={death=yes}
+}
+
+8000181={
+	name="Sigfrid" #King of the Geats
+	dynasty=2220409 #Allén
+	culture=swedish
+	religion=lutheran
+	father=8000182
+	2513.1.1={birth=yes}
+	2560.1.1={death=yes}
+}
+
+8000182={
+	name="Martin" #King of the Geats
+	dynasty=2220409 #Allén
+	culture=swedish
+	religion=lutheran
+	father=8000183
+	2481.1.1={birth=yes}
+	2533.1.1={death=yes}
+}
+
+8000183={
+	name="Göte" #King of the Geats
+	dynasty=2220409 #Allén
+	culture=swedish
+	religion=lutheran
+	trait=quick
+	trait=zealous
+	trait=skilled_tactician
+	trait=holy_warrior
+	2433.1.1={birth=yes}
+	2484.1.1={give_nickname nick_the_great}
+	2500.1.1={death=yes}
+}
+
+8000184={
+	name="Vilgot"
+	dynasty=2220408
+	culture=swedish
+	trait=family_person
+	trait=kind 
+	trait=martial_cleric
+	trait=slow
+	religion=lutheran
+	2636.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000185={
+	name="Elin"
+	female=yes
+	dynasty=2220410
+	culture=swedish
+	trait=homosexual
+	trait=fair
+	trait=zealous
+	trait=shy
+	religion=folketro
+	trait=indulgent_wastrel
+	2641.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000186={
+	name="Alfred"
+	dynasty=2220412
+	culture=swedish
+	trait=misguided_warrior
+	trait=ambitious
+	trait=weak
+	trait=chaste 
+	religion=folketro
+	2622.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000187={
+	name="Dennis"
+	dynasty=2220413
+	culture=swedish
+	trait=just 
+	trait=craven
+	trait=humble
+	trait=honest
+    trait=intricate_webweaver	
+	religion=folketro
+	2626.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000188={
+	name="Peter"
+	dynasty=2220414
+	culture=swedish
+	trait=erudite 
+	trait=thrifty_clerk
+	trait=diligent
+	trait=selfish
+    trait=paranoid	
+	religion=folketro
+	father=8000189
+	2629.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000189={
+	name="Pekka"
+	dynasty=2220414
+	culture=finnish
+	religion=folketro
+	2600.1.1={birth=yes}
+	2656.1.1={death=yes}
+}
+
+8000190={
+	name="Pontus"
+	dynasty=2220415
+	culture=swedish
+	trait=humble
+	trait=content
+	trait=slothful
+    trait=skilled_tactician	
+	religion=folketro
+	2633.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
