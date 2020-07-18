@@ -15,10 +15,6 @@ e_alpenland = {
 		d_baden = {
 			color={ 255 205 0 }
 			color2={ 255 255 255 }
-
-			walloon="Bade"
-			chti="Bade"
-			parisian="Bade"
 			
 			capital = 452 #Karlsruhe
 			
@@ -37,21 +33,9 @@ e_alpenland = {
 			c_karlsruhe = {
 				color={ 0 162 190 }
 				color2={ 255 255 255 }
-
-				walloon="Carlsruhe"
-				chti="Carlsruhe"
-				parisian="Carlsruhe"
 				
-				b_baden_baden = {
-					walloon="Bade-les-Bains"
-					chti="Bade-les-Bains"
-					parisian="Bade-les-Bains"
-				}
-				b_karlsruhe = {
-					walloon="Carlsruhe"
-					chti="Carlsruhe"
-					parisian="Carlsruhe"
-				}
+				b_baden_baden = {}
+				b_karlsruhe = {}
 				b_pforzheim = {}
 				b_rastatt = {}
 				b_ettlingen = {}
@@ -62,16 +46,8 @@ e_alpenland = {
 				color={ 20 153 176 }
 				color2={ 255 255 255 }
 				
-				walloon="Brisgau"
-				chti="Brisgau"
-				parisian="Brisgau"
-				
 				b_emmendingen = {}
-				b_freiburg_im_breisgau = {
-					walloon="Fribourg-en-Brisgau"
-					chti="Fribourg-en-Brisgau"
-					parisian="Fribourg-en-Brisgau"
-				}
+				b_freiburg_im_breisgau = {}
 				b_villingen_schwenningen = {}
 				b_offenburg = {}
 				b_lorrach = {}
@@ -86,17 +62,9 @@ e_alpenland = {
 			c_stuttgart = {
 				color={ 22 117 134 }
 				color2={ 255 255 255 }
-
-				walloon="Stutgard"
-				chti="Stutgard"
-				parisian="Stutgard"
 				
 				b_ludwigsburg = {}
-				b_stuttgart = {
-					walloon="Stutgard"
-					chti="Stutgard"
-					parisian="Stutgarde"
-				}
+				b_stuttgart = {}
 				b_heilbronn = {}
 				b_crailsheim = {}
 				b_aalen = {}
@@ -109,11 +77,7 @@ e_alpenland = {
 				
 				b_tuttlingen = {}
 				b_tubingen = {}
-				b_konstanz = {
-					walloon="Constance"
-					chti="Constance"
-					parisian="Constance"
-				}
+				b_konstanz = {}
 				b_balingen = {}
 				b_albstadt = {}
 				b_rottweil = {}
@@ -133,10 +97,6 @@ e_alpenland = {
 			c_bodensee = {
 				color={ 135 166 171 }
 				color2={ 255 255 255 }
-		
-				walloon="Constance"
-				chti="Constance"
-				parisian="Constance"
 
 				b_ravensburg = {}
 				b_friedrichshafen = {}
@@ -173,7 +133,6 @@ e_alpenland = {
 				bavarian="Unterelsass"
 				swabian="Unterelsass"
 				austrian="Unterelsass"
-				schwyzer="Unterelsass"
 
 				b_hagenau = {}
 				b_strasbourg = {
@@ -184,7 +143,6 @@ e_alpenland = {
 					bavarian="Strassburg"
 					swabian="Strassburg"
 					austrian="Strassburg"
-					schwyzer="Strassburg"
 				}
 				b_molsheim = {}
 				b_selestat = {
@@ -195,7 +153,6 @@ e_alpenland = {
 					bavarian="Schlettstadt"
 					swabian="Schlettstadt"
 					austrian="Schlettstadt"
-					schwyzer="Schlettstadt"
 				}
 				b_schiltigheim = {}
 				b_saverne = {
@@ -206,7 +163,6 @@ e_alpenland = {
 					bavarian="Zabern"
 					swabian="Zabern"
 					austrian="Zabern"
-					schwyzer="Zabern"
 				}
 				b_niederbronn_les_bains = {
 					rhenish="Bad Niederbronn"
@@ -216,7 +172,6 @@ e_alpenland = {
 					bavarian="Bad Niederbronn"
 					swabian="Bad Niederbronn"
 					austrian="Bad Niederbronn"
-					schwyzer="Bad Niederbronn"
 				}
 			}
 			c_haut_rhin = {
@@ -230,7 +185,6 @@ e_alpenland = {
 				bavarian="Oberrhein"
 				swabian="Oberrhein"
 				austrian="Oberrhein"
-				schwyzer="Oberrhein"
 
 				b_colmar = {
 					rhenish="Kolmar"
@@ -240,7 +194,6 @@ e_alpenland = {
 					bavarian="Kolmar"
 					swabian="Kolmar"
 					austrian="Kolmar"
-					schwyzer="Kolmar"
 				}
 				b_mulhouse = {
 					rhenish="Mülhausen"
@@ -250,7 +203,6 @@ e_alpenland = {
 					bavarian="Mülhausen"
 					swabian="Mülhausen"
 					austrian="Mülhausen"
-					schwyzer="Mülhausen"
 				}
 				b_altkirch = {}
 				b_thann = {}
@@ -262,7 +214,6 @@ e_alpenland = {
 					bavarian="Rappoltsweiler"
 					swabian="Rappoltsweiler"
 					austrian="Rappoltsweiler"
-					schwyzer="Rappoltsweiler"
 				}
 				b_guebwiller = {
 					rhenish="Gebweiler"
@@ -272,7 +223,6 @@ e_alpenland = {
 					bavarian="Gebweiler"
 					swabian="Gebweiler"
 					austrian="Gebweiler"
-					schwyzer="Gebweiler"
 				}
 				b_wittenheim = {}
 			}
@@ -282,35 +232,11 @@ e_alpenland = {
 		color = { 0 153 213 }
 		color2 = { 255 255 255 }
 
-		rhenish="Bayern"
-		low_saxon="Bayern"
-		ossi="Bayern"
-		upper_saxon="Bayern"
-		bavarian="Bayern"
-		swabian="Bayern"
-		austrian="Bayern"
-		schwyzer="Bayern"
-		walloon="Bavière"
-		chti="Bavière"
-		parisian="Bavière"
-
 		capital = 465 #Munich
 		
 		d_franconia = {
 			color={ 255 0 0 }
 			color2={ 255 255 255 }
-
-			rhenish="Franken"
-			low_saxon="Franken"
-			ossi="Franken"
-			upper_saxon="Franken"
-			bavarian="Franken"
-			swabian="Franken"
-			austrian="Franken"
-			schwyzer="Franken"
-			walloon="Franconie"
-			chti="Franconie"
-			parisian="Franconie"
 			
 			capital = 458 #Nuremberg
 			
@@ -342,20 +268,8 @@ e_alpenland = {
 				color={ 75 82 114 }
 				color2={ 255 255 255 }
 
-				walloon="Baireut"
-				chti="Baireut"
-				parisian="Baireut"
-
-				b_coburg = {
-					walloon="Cobourg"
-					chti="Cobourg"
-					parisian="Cobourg"
-				}
-				b_bayreuth = {
-					walloon="Baireut"
-					chti="Baireut"
-					parisian="Baireut"
-				}
+				b_coburg = {}
+				b_bayreuth = {}
 				b_bamberg = {}
 				b_hof = {}
 				b_lichtenfels = {}
@@ -366,26 +280,8 @@ e_alpenland = {
 				color={ 64 73 114 }
 				color2={ 255 255 255 }
 
-				rhenish="Nürnberg"
-				low_saxon="Nürnberg"
-				ossi="Nürnberg"
-				upper_saxon="Nürnberg"
-				bavarian="Nürnberg"
-				swabian="Nürnberg"
-				austrian="Nürnberg"
-				schwyzer="Nürnberg"
-
 				b_ansbach = {}
-				b_nuremberg = {
-					rhenish="Nürnberg"
-					low_saxon="Nürnberg"
-					ossi="Nürnberg"
-					upper_saxon="Nürnberg"
-					bavarian="Nürnberg"
-					swabian="Nürnberg"
-					austrian="Nürnberg"
-					schwyzer="Nürnberg"
-				}
+				b_nuremberg = {}
 				b_erlangen = {}
 				b_furth = {}
 				b_schwabach = {}
@@ -396,18 +292,6 @@ e_alpenland = {
 		d_upper_palatinate = {
 			color={ 100 104 126 }
 			color2={ 255 255 255 }
-
-			rhenish="Oberpfalz"
-			low_saxon="Oberpfalz"
-			ossi="Oberpfalz"
-			upper_saxon="Oberpfalz"
-			bavarian="Oberpfalz"
-			swabian="Oberpfalz"
-			austrian="Oberpfalz"
-			schwyzer="Oberpfalz"
-			walloon="Haut-Palatinat"
-			chti="Haut-Palatinat"
-			parisian="Haut-Palatinat"
 			
 			capital = 460 #Regensburg
 			
@@ -439,18 +323,6 @@ e_alpenland = {
 		d_lower_bavaria = {
 			color={ 0 106 167 }
 			color2={ 255 255 255 }
-
-			rhenish="Niederbayern"
-			low_saxon="Niederbayern"
-			ossi="Niederbayern"
-			upper_saxon="Niederbayern"
-			bavarian="Niederbayern"
-			swabian="Niederbayern"
-			austrian="Niederbayern"
-			schwyzer="Niederbayern"
-			walloon="Basse-Bavière"
-			chti="Basse-Bavière"
-			parisian="Basse-Bavière"
 			
 			capital = 463 #Landshut
 			
@@ -494,18 +366,6 @@ e_alpenland = {
 		d_bavaria = {
 			color={ 0 153 213 }
 			color2={ 255 255 255 }
-
-			rhenish="Bayern"
-			low_saxon="Bayern"
-			ossi="Bayern"
-			upper_saxon="Bayern"
-			bavarian="Bayern"
-			swabian="Bayern"
-			austrian="Bayern"
-			schwyzer="Bayern"
-			walloon="Bavière"
-			chti="Bavière"
-			parisian="Bavière"
 			
 			capital = 465 #Munich
 			
@@ -525,26 +385,8 @@ e_alpenland = {
 				color={ 0 93 185 }
 				color2={ 255 255 255 }
 
-				rhenish="München"
-				low_saxon="München"
-				ossi="München"
-				upper_saxon="München"
-				bavarian="München"
-				swabian="München"
-				austrian="München"
-				schwyzer="München"
-
 				b_dachau = {}
-				b_munich = {
-					rhenish="München"
-					low_saxon="München"
-					ossi="München"
-					upper_saxon="München"
-					bavarian="München"
-					swabian="München"
-					austrian="München"
-					schwyzer="München"
-				}
+				b_munich = {}
 				b_erding = {}
 				b_freising = {}
 				b_ebersberg = {}
@@ -567,18 +409,6 @@ e_alpenland = {
 		d_swabia = {
 			color={ 240 190 61 }
 			color2={ 255 255 255 }
-
-			rhenish="Schwaben"
-			low_saxon="Schwaben"
-			ossi="Schwaben"
-			upper_saxon="Schwaben"
-			bavarian="Schwaben"
-			swabian="Schwaben"
-			austrian="Schwaben"
-			schwyzer="Schwaben"
-			walloon="Souabe"
-			chti="Souabe"
-			parisian="Souabe"
 			
 			capital = 468 #Augsburg
 			
@@ -619,34 +449,12 @@ e_alpenland = {
 		d_romandy = {
 			color={ 112 192 89 }
 			color2={ 255 255 255 }
-
-			rhenish="Welschland"
-			low_saxon="Welschland"
-			ossi="Welschland"
-			upper_saxon="Welschland"
-			bavarian="Welschland"
-			swabian="Welschland"
-			austrian="Welschland"
-			schwyzer="Welschland"
 			
 			capital = 469 #Geneva
 			
 			c_geneva = {
 				color={ 25 58 54 }
 				color2={ 255 255 255 }
-
-				rhenish="Genf"
-				low_saxon="Genf"
-				ossi="Genf"
-				upper_saxon="Genf"
-				bavarian="Genf"
-				swabian="Genf"
-				austrian="Genf"
-				schwyzer="Genf"
-				walloon="Genève"
-				chti="Genève"
-				parisian="Genève"
-				romansh="Genevra"
 
 				b_geneva = {}
 				b_geneva1 = {}
@@ -660,15 +468,6 @@ e_alpenland = {
 				color={ 43 147 133 }
 				color2={ 255 255 255 }
 
-				rhenish="Waadt"
-				low_saxon="Waadt"
-				ossi="Waadt"
-				upper_saxon="Waadt"
-				bavarian="Waadt"
-				swabian="Waadt"
-				austrian="Waadt"
-				schwyzer="Waadt"
-
 				b_vaud = {}
 				b_vaud1 = {}
 				b_vaud2 = {}
@@ -681,16 +480,6 @@ e_alpenland = {
 				color={ 42 84 148 }
 				color2={ 255 255 255 }
 
-				rhenish="Neuenburg"
-				low_saxon="Neuenburg"
-				ossi="Neuenburg"
-				upper_saxon="Neuenburg"
-				bavarian="Neuenburg"
-				swabian="Neuenburg"
-				austrian="Neuenburg"
-				schwyzer="Neuenburg"
-				romansh="Neufchâtel"
-
 				b_neuchatel = {}
 				b_neuchatel1 = {}
 				b_neuchatel2 = {}
@@ -702,15 +491,6 @@ e_alpenland = {
 			c_valais = {
 				color={ 143 102 57 }
 				color2={ 255 255 255 }
-
-				rhenish="Wallis"
-				low_saxon="Wallis"
-				ossi="Wallis"
-				upper_saxon="Wallis"
-				bavarian="Wallis"
-				swabian="Wallis"
-				austrian="Wallis"
-				schwyzer="Wallis"
 
 				b_lower_valais = {}
 				b_lower_valais1 = {}
@@ -731,19 +511,6 @@ e_alpenland = {
 				color={ 84 87 21 }
 				color2={ 255 255 255 }
 
-				rhenish="Basle"
-				low_saxon="Basle"
-				ossi="Basle"
-				upper_saxon="Basle"
-				bavarian="Basle"
-				swabian="Basle"
-				austrian="Basle"
-				schwyzer="Basle"
-				walloon="Bâle"
-				chti="Bâle"
-				parisian="Bâle"
-				romansh="Basilea"
-
 				b_basel = {}
 				b_basel1 = {}
 				b_basel2 = {}
@@ -752,19 +519,9 @@ e_alpenland = {
 				b_basel5 = {}
 				b_basel6 = {}
 			}
-			c_lucerne = {
+			c_aargau = {
 				color={ 141 94 49 }
 				color2={ 255 255 255 }
-
-				rhenish="Luzern"
-				low_saxon="Luzern"
-				ossi="Luzern"
-				upper_saxon="Luzern"
-				bavarian="Luzern"
-				swabian="Luzern"
-				austrian="Luzern"
-				schwyzer="Luzern"
-				romansh="Lucerna"
 
 				b_aargau = {}
 				b_aargau1 = {}
@@ -777,19 +534,6 @@ e_alpenland = {
 			c_bern = {
 				color={ 168 93 22 }
 				color2={ 255 255 255 }
-
-				rhenish="Bärn"
-				low_saxon="Bärn"
-				ossi="Bärn"
-				upper_saxon="Bärn"
-				bavarian="Bärn"
-				swabian="Bärn"
-				austrian="Bärn"
-				schwyzer="Bärn"
-				walloon="Berne"
-				chti="Berne"
-				parisian="Berne"
-				romansh="Berna"
 
 				b_bern = {}
 				b_bern1 = {}
@@ -810,8 +554,6 @@ e_alpenland = {
 				color={ 0 96 150 }
 				color2={ 255 255 255 }
 
-				romansh="Turtig"
-
 				b_zurich = {}
 				b_zurich1 = {}
 				b_zurich2 = {}
@@ -824,10 +566,6 @@ e_alpenland = {
 				color={ 42 99 23 }
 				color2={ 255 255 255 }
 
-				walloon="Zoug"
-				chti="Zoug"
-				parisian="Zoug"
-
 				b_schwyz = {}
 				b_schwyz1 = {}
 				b_schwyz2 = {}
@@ -836,14 +574,9 @@ e_alpenland = {
 				b_schwyz5 = {}
 				b_schwyz6 = {}
 			}
-			c_sankt_gallen = {
+			c_st_gallen = {
 				color={ 126 105 24 }
 				color2={ 255 255 255 }
-
-				walloon="Saint-Gall"
-				chti="Saint-Gall"
-				parisian="Saint-Gall"
-				romansh="Son Gagl"
 
 				b_st_gallen = {}
 				b_st_gallen1 = {}
@@ -860,21 +593,9 @@ e_alpenland = {
 				
 			capital = 481 #Grisons
 				
-			c_ticino = {
+			c_tessino = {
 				color={ 85 150 6 }
 				color2={ 255 255 255 }
-
-				rhenish="Tessin"
-				low_saxon="Tessin"
-				ossi="Tessin"
-				upper_saxon="Tessin"
-				bavarian="Tessin"
-				swabian="Tessin"
-				austrian="Tessin"
-				schwyzer="Tessin"
-				walloon="Tessin"
-				chti="Tessin"
-				parisian="Tessin"
 
 				b_tessino = {}
 				b_tessino1 = {}
@@ -887,16 +608,6 @@ e_alpenland = {
 			c_grisons = {
 				color={ 84 102 151 }
 				color2={ 255 255 255 }
-
-				rhenish="Graubünden"
-				low_saxon="Graubünden"
-				ossi="Graubünden"
-				upper_saxon="Graubünden"
-				bavarian="Graubünden"
-				swabian="Graubünden"
-				austrian="Graubünden"
-				schwyzer="Graubünden"
-				romansh="Grischun"
 
 				b_grisons = {}
 				b_grisons1 = {}
@@ -931,32 +642,11 @@ e_alpenland = {
 		color={ 240 240 240 }
 		color2={ 255 255 255 }
 
-		rhenish="Österreich"
-		low_saxon="Österreich"
-		ossi="Österreich"
-		upper_saxon="Österreich"
-		bavarian="Österreich"
-		swabian="Österreich"
-		austrian="Österreich"
-		schwyzer="Österreich"
-		walloon="Autriche"
-		chti="Autriche"
-		parisian="Autriche"
-
 		capital = 449
 		
 		d_tyrol = {
 			color={ 219 10 19 }
 			color2={ 255 255 255 }
-
-			rhenish="Tirol"
-			low_saxon="Tirol"
-			ossi="Tirol"
-			upper_saxon="Tirol"
-			bavarian="Tirol"
-			swabian="Tirol"
-			austrian="Tirol"
-			schwyzer="Tirol"
 			
 			capital = 580 #Tyrol
 			
@@ -964,11 +654,7 @@ e_alpenland = {
 				color={ 199 38 53 }
 				color2={ 255 255 255 }
 
-				b_bregenz = {
-					walloon="Brigance"
-					chti="Brigance"
-					parisian="Brigance"
-				}
+				b_bregenz = {}
 				b_dornbirn = {}
 				b_feldkirch = {}
 				b_bludenz = {}
@@ -981,15 +667,6 @@ e_alpenland = {
 				color={ 182 18 32 }
 				color2={ 255 255 255 }
 
-				rhenish="Tirol"
-				low_saxon="Tirol"
-				ossi="Tirol"
-				upper_saxon="Tirol"
-				bavarian="Tirol"
-				swabian="Tirol"
-				austrian="Tirol"
-				schwyzer="Tirol"
-
 				b_innsbruck = {}
 				b_trento = {}
 				b_bolzano = {}
@@ -1001,15 +678,6 @@ e_alpenland = {
 			c_south_tyrol = {
 				color={ 122 133 123 }
 				color2={ 255 255 255 }
-
-				rhenish="Südtirol"
-				low_saxon="Südtirol"
-				ossi="Südtirol"
-				upper_saxon="Südtirol"
-				bavarian="Südtirol"
-				swabian="Südtirol"
-				austrian="Südtirol"
-				schwyzer="Südtirol"
 				
 				b_meran = {}
 				b_brixen = {}
@@ -1047,33 +715,12 @@ e_alpenland = {
 		d_styria = {
 			color={ 140 240 200 }
 			color2={ 255 255 255 }
-
-			rhenish="Steiermark"
-			low_saxon="Steiermark"
-			ossi="Steiermark"
-			upper_saxon="Steiermark"
-			bavarian="Steiermark"
-			swabian="Steiermark"
-			austrian="Steiermark"
-			schwyzer="Steiermark"
-			walloon="Styrie"
-			chti="Styrie"
-			parisian="Styrie"
 			
 			capital = 586 #Styria
 			
 			c_carinthia = {
 				color={ 198 30 44 }
 				color2={ 255 255 255 }
-
-				rhenish="Kärnten"
-				low_saxon="Kärnten"
-				ossi="Kärnten"
-				upper_saxon="Kärnten"
-				bavarian="Kärnten"
-				swabian="Kärnten"
-				austrian="Kärnten"
-				schwyzer="Kärnten"
 
 				b_klagenfurt = {}
 				b_villach = {}
@@ -1087,15 +734,6 @@ e_alpenland = {
 				color={ 165 67 76 }
 				color2={ 255 255 255 }
 
-				rhenish="Obersteiermark"
-				low_saxon="Obersteiermark"
-				ossi="Obersteiermark"
-				upper_saxon="Obersteiermark"
-				bavarian="Obersteiermark"
-				swabian="Obersteiermark"
-				austrian="Obersteiermark"
-				schwyzer="Obersteiermark"
-
 				b_leoben = {}
 				b_kapfenberg = {}
 				b_bruckandermur = {}
@@ -1107,18 +745,6 @@ e_alpenland = {
 			c_styria = {
 				color={ 203 80 91 }
 				color2={ 255 255 255 }
-
-				rhenish="Steiermark"
-				low_saxon="Steiermark"
-				ossi="Steiermark"
-				upper_saxon="Steiermark"
-				bavarian="Steiermark"
-				swabian="Steiermark"
-				austrian="Steiermark"
-				schwyzer="Steiermark"
-				walloon="Styrie"
-				chti="Styrie"
-				parisian="Styrie"
 
 				b_graz = {}
 				b_leibnitz = {}
@@ -1132,33 +758,12 @@ e_alpenland = {
 		d_austria = {
 			color={ 238 36 54 }
 			color2={ 255 255 255 }
-
-			rhenish="Österreich"
-			low_saxon="Österreich"
-			ossi="Österreich"
-			upper_saxon="Österreich"
-			bavarian="Österreich"
-			swabian="Österreich"
-			austrian="Österreich"
-			schwyzer="Österreich"
-			walloon="Autriche"
-			chti="Autriche"
-			parisian="Autriche"
 			
 			capital = 589 #Vienna
 			
 			c_upper_austria = {
 				color={ 168 52 62 }
 				color2={ 255 255 255 }
-
-				rhenish="Oberösterreich"
-				low_saxon="Oberösterreich"
-				ossi="Oberösterreich"
-				upper_saxon="Oberösterreich"
-				bavarian="Oberösterreich"
-				swabian="Oberösterreich"
-				austrian="Oberösterreich"
-				schwyzer="Oberösterreich"
 
 				b_linz = {}
 				b_steyr = {}
@@ -1168,9 +773,9 @@ e_alpenland = {
 				b_laakirchen = {}
 				b_bad_ischl = {}
 			}
-			c_manhartsberg = {
-				color={ 197 90 100 }
-				color2={ 255 255 255 }
+		c_manhartsberg = {
+			color={ 197 90 100 }
+			color2={ 255 255 255 }
 			
 				b_krems = {}
 				b_zwettl = {}
@@ -1180,9 +785,9 @@ e_alpenland = {
 				b_eggenburg = {}
 				b_thaya = {}
 			}
-			c_burgenland = {
-				color={ 197 90 100 }
-				color2={ 255 255 255 }
+		c_burgenland = {
+			color={ 197 90 100 }
+			color2={ 255 255 255 }
 			
 				b_rust = {}
 				b_eisenstadt = {}
@@ -1192,21 +797,9 @@ e_alpenland = {
 				b_gussing = {}
 				b_jennersdorf = {}
 			}
-			c_vienna = {
-				color={ 238 36 54 }
-				color2={ 255 255 255 }
-
-				rhenish="Wien"
-				low_saxon="Wien"
-				ossi="Wien"
-				upper_saxon="Wien"
-				bavarian="Wien"
-				swabian="Wien"
-				austrian="Wien"
-				schwyzer="Wien"
-				walloon="Vienne"
-				chti="Vienne"
-				parisian="Vienne"
+		c_vienna = {
+			color={ 238 36 54 }
+			color2={ 255 255 255 }
 			
 				b_sankt_polten = {}
 				b_wiener_neustadt = {}
