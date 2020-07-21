@@ -1,0 +1,234 @@
+1982000={
+	name="Airam"
+	dynasty=2025111 #Cabrera
+	culture=canarian
+	religion=catholic
+	martial=5
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait=grey_eminence
+	trait=ugly
+	trait=shrewd
+	trait=strategist
+	trait=chaste
+	trait=zealous
+	trait=just
+	trait=diligent
+	trait=shrewd
+	2631.5.12={birth=yes}
+	2662.4.3={
+			add_spouse=1982006
+		}
+	2700.1.1={death=yes}
+}
+1982001={
+	name="Acoran"
+	dynasty=2025112 #Guerra
+	culture=canarian
+	religion=catholic
+	martial=4
+	diplomacy=5
+	stewardship=5
+	intrigue=6
+	learning=5
+	trait=brilliant_strategist
+	trait=aggressive_leader
+	trait=craven
+	trait=cruel
+	trait=zealous
+	trait=selfish
+	trait=deceitful
+	2628.7.3={birth=yes}
+	2700.1.1={death=yes}
+}
+1982002={
+	name="Pelinor"
+	dynasty=2025113 #Manrique
+	culture=canarian
+	religion=catholic
+	martial=5
+	diplomacy=6
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait=fortune_builder
+	trait=humble
+	trait=selfish
+	trait=paranoid
+	trait=just
+	2633.5.19={birth=yes}
+	2654.7.15={
+		add_spouse=1982009
+	}
+	2700.1.1={death=yes}
+}
+1982003={
+	name="Jorge"
+	dynasty=2025114 #Blahnik
+	culture=canarian
+	religion=catholic
+	martial=4
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=6
+	trait=thrifty_clerk
+	trait=humble
+	trait=kind
+	trait=diligent
+	trait=gluttonous
+	2647.9.3={birth=yes}
+	2700.1.1={death=yes}
+}
+1982004={
+	name="Tomah"
+	dynasty=9100 #Waylee
+	culture=kru
+	religion=catholic
+	martial=4
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=6
+	trait=mastermind_theologian
+	trait=quick
+	trait=scholar
+	trait=cynical
+	trait=honest
+	trait=shy
+	trait=diligent
+	2625.12.9={birth=yes}
+		2659.3.12={
+		add_spouse=1982012
+	}
+	2700.1.1={death=yes}
+}
+1982005={
+	name="Félix"
+	dynasty=2025115 #Pargo
+	culture=canarian
+	religion=pelagic
+	martial=6
+	diplomacy=5
+	stewardship=5
+	intrigue=4
+	learning=6
+	trait=brilliant_strategist
+	trait=genius
+	trait=seducer
+	trait=honorable
+	trait=shy
+	trait=proud
+	trait=ambitious
+	2636.9.8={birth=yes effect = {
+	add_weak_claim = d_las_palmas }
+	}
+	2700.1.1={death=yes}
+}
+1982006={
+	name="Maria"
+	female=yes
+	dynasty=2025116 #Yanez
+	culture=canarian
+	religion=catholic
+	martial=4
+	diplomacy=5
+	stewardship=5
+	intrigue=4
+	learning=3
+	trait=thrifty_clerk
+	trait=honest
+	trait=kind
+	trait=gluttonous
+	trait=humble
+	2643.6.9={birth=yes}
+	2700.1.1={death=yes}
+}
+1982007={
+	name="Juan"
+	dynasty=2025111 #Cabrera
+	culture=canarian
+	religion=catholic
+	trait=ugly
+	trait=affectionate
+	father=1982000
+	mother=1982006
+	2661.8.12={birth=yes}
+	2700.1.1={death=yes}
+}
+1982008={
+	name="Catalina"
+	female=yes
+	dynasty=2025111 #Cabrera
+	culture=canarian
+	religion=catholic
+	trait=fair
+	father=1982000
+	mother=1982006
+	2665.12.24={birth=yes}
+	2725.1.1={death=yes}
+}
+1982009={
+	name="Blanca"
+	female=yes
+	dynasty=2025117 #Yanez
+	culture=canarian
+	religion=catholic
+	martial=4
+	diplomacy=5
+	stewardship=5
+	intrigue=4
+	learning=3
+	trait=elusive_shadow
+	trait=erudite
+	trait=gregarious
+	trait=charitable
+	trait=humble
+	2640.8.19={birth=yes}
+	2700.1.1={death=yes}
+}
+1982010={
+	name="Mercedes"
+	female=yes
+	dynasty=2025113 #Manrique
+	culture=canarian
+	religion=catholic
+	father=1982002
+	mother=1982009
+	2654.8.13={birth=yes}
+	2725.1.1={death=yes}
+}
+1982011={
+	name="Aternery"
+	female=yes
+	dynasty=2025113 #Manrique
+	culture=canarian
+	religion=catholic
+	trait=sickly
+	trait=quick
+	father=1982002
+	mother=1982009
+	2660.8.13={birth=yes}
+	2725.1.1={death=yes}
+}
+1982012={
+	name="Ellen"
+	female=yes
+	dynasty=0
+	culture=kru
+	religion=catholic
+	martial=4
+	diplomacy=6
+	stewardship=5
+	intrigue=4
+	learning=4
+	trait=elusive_shadow
+	trait=erudite
+	trait=temperate
+	trait=diligent
+	trait=wroth
+	2642.12.19={birth=yes}
+	2700.1.1={death=yes}
+}
