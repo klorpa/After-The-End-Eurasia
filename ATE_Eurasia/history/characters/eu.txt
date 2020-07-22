@@ -5,6 +5,7 @@
 	dynasty=2058000 #Coudenhove
 	culture=flemish
 	religion=neuhumanist
+	father=1958196
 	martial=6
 	diplomacy=9
 	stewardship=8
@@ -164,6 +165,7 @@
 	dynasty=2061000 #Defacqz
 	culture=walloon
 	religion=neuhumanist
+	father=1958202
 	trait=scholar
 	trait=scholarly_theologian
 	trait=shy
@@ -233,6 +235,7 @@
 	dynasty=2059020 #Dekker
 	culture=dutch
 	religion=neuhumanist
+	father=1958208
 	2627.7.27={birth=yes}
 	2700.1.1={death=yes}
 }
@@ -251,10 +254,11 @@
 	2700.1.1={death=yes}
 }
 1958020={
-	name="Johannes"
+	name="Friedrich"
 	dynasty=1948000 #Wulf
 	culture=low_saxon
 	religion=neuhumanist
+	father=1958197
 	martial=8
 	diplomacy=8
 	stewardship=5
@@ -265,7 +269,7 @@
 	trait=groomed
 	trait=gamer
 	trait=skilled_tactician
-	2638.2.30={birth=yes}
+	2628.2.30={birth=yes}
 	2700.1.1={death=yes}
 }
 1958021={
@@ -273,6 +277,7 @@
 	dynasty=1848001 #Geyer
 	culture=rhenish
 	religion=neuhumanist
+	father=1958172
 	trait=strong
 	trait=rowdy
 	2653.10.4={birth=yes}
@@ -283,6 +288,7 @@
 	dynasty=1948011 #Muller
 	culture=low_saxon
 	religion=neuhumanist
+	mother=1958181
 	trait=charismatic_negotiator
 	trait=arbitrary
 	trait=charitable
@@ -342,6 +348,7 @@
 	dynasty=1848073 #Becker
 	culture=rhenish
 	religion=neuhumanist
+	father=1958189
 	trait=charismatic_negotiator
 	trait=gregarious
 	trait=deceitful
@@ -755,7 +762,7 @@
 	trait=cancer
 	2219.8.19={birth=yes}
 	2240.1.1={add_spouse=1958112}
-	2264.12.19={death=yes}
+	2264.12.19={death={death_reason=death_trait}}
 }
 1958112={
 	name="Marie"
@@ -823,7 +830,7 @@
 	trait=is_malnourished
 	trait=brave
 	2276.4.8={birth=yes}
-	2303.7.16={
+	2304.7.16={
 		death={
 			death_reason=death_execution
 			killer=1958104
@@ -920,7 +927,7 @@
 	trait=chaste
 	2248.1.8={birth=yes}
 	2266.1.1={add_spouse=1958119}
-	2303.7.16={
+	2304.7.16={
 		death={
 			death_reason=death_execution
 			killer=1958104
@@ -957,8 +964,9 @@
 	trait=ambitious
 	trait=brave
 	trait=proud
+	trait=wounded
 	2348.5.3={birth=yes}
-	2389.10.21={death=yes}
+	2389.10.21={death={death_reason=death_trait}}
 }
 1958126={
 	name="Friedrich"
@@ -979,7 +987,10 @@
 	trait=brave
 	trait=ambitious
 	2351.6.7={birth=yes}
-	2412.11.5={death=yes}
+	2412.11.5={death={
+			death_reason=death_battle
+		}
+	}
 }
 1958128={
 	name="Mickael"
@@ -996,7 +1007,7 @@
 	religion=neuhumanist
 	father=1958128
 	2350.7.16={birth=yes}
-	2409.10.21={death=yes}
+	2409.10.6={death=yes}
 }
 1958130={
 	name="Mickael"
@@ -1006,7 +1017,12 @@
 	father=1958129
 	trait=patient
 	2375.2.7={birth=yes}
-	2419.10.21={death=yes}
+	2419.10.21={
+		death={
+			death_reason=death_execution
+			killer=1804000
+		}
+	}
 }
 1958131={
 	name="Boudewijn"
@@ -1024,7 +1040,12 @@
 	religion=neuhumanist
 	father=1958131
 	2348.10.3={birth=yes}
-	2419.10.21={death=yes}
+	2419.10.21={
+		death={
+			death_reason=death_execution
+			killer=1804000
+		}
+	}
 }
 1958133={
 	name="Karel"
@@ -1062,7 +1083,12 @@
 	religion=neuhumanist
 	father=1958135
 	2365.6.7={birth=yes}
-	2419.10.21={death=yes}
+	2419.10.21={
+		death={
+			death_reason=death_execution
+			killer=1804000
+		}
+	}
 }
 1958137={
 	name="Christiaan"
@@ -1075,7 +1101,829 @@
 	trait=gregarious
 	trait=stressed
 	2370.6.5={birth=yes}
-	2419.9.15={death=yes}
+	2419.9.15={death={death_reason=death_trait}}
+}
+1958138={
+	name="Johannes"
+	dynasty=1848073 #Becker
+	culture=rhenish
+	religion=neuhumanist
+	trait=intricate_webweaver
+	trait=wroth
+	trait=brave
+	trait=ambitious
+	trait=quick
+	trait=proud
+	trait=drunkard
+	trait=depressed
+	2411.4.16={birth=yes}
+	2485.7.3={death={death_reason=death_trait}}
+}
+1958139={
+	name="Floris"
+	dynasty=2059020 #Dekker
+	culture=dutch
+	religion=neuhumanist
+	trait=shy
+	trait=erudite
+	trait=diligent
+	trait=just
+	trait=administrator
+	trait=midas_touched
+	2448.3.8={birth=yes}
+	2509.3.26={death=yes}
+}
+1958140={
+	name="Harald"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958127
+	2380.3.15={birth=yes}
+	2440.11.5={death=yes}
+}
+1958141={
+	name="Karl"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958140
+	2403.3.5={birth=yes}
+	2465.5.6={death=yes}
+}
+1958142={
+	name="Eberhard"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958141
+	2431.3.26={birth=yes}
+	2480.4.16={death=yes}
+}
+1958143={
+	name="Friedrich"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958142
+	trait=lustful
+	trait=proud
+	trait=cruel
+	trait=charismatic_negotiator
+	2455.7.26={birth=yes}
+	2489.4.16={death={
+			death_reason=death_murder
+			killer=1958193
+		}
+	}
+}
+1958144={
+	name="Karl"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958143
+	mother=1958193
+	trait=bastard
+	trait=shrewd
+	trait=ambitious
+	trait=grey_eminence
+	2478.7.15={birth=yes}
+	2544.4.16={death=yes}
+}
+1958145={
+	name="Johannes"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958141
+	2435.1.8={birth=yes}
+	2475.7.2={death=yes}
+}
+1958190={
+	name="Erich"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958145
+	trait=tough_soldier
+	trait=duelist
+	trait=brave
+	trait=ruthless
+	2466.2.15={birth=yes}
+	2522.2.3={death=yes}
+}
+1958191={
+	name="Raoul"
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958133
+	2397.3.15={birth=yes}
+	2456.1.3={death=yes}
+}
+1958192={
+	name="Willem"
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958191
+	2420.8.27={birth=yes}
+	2477.3.3={death=yes}
+}
+1958193={
+	name="Hilde"
+	female=yes
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958192
+	trait=flamboyant_schemer
+	trait=proud
+	trait=ambitious
+	2457.3.15={birth=yes}
+	2489.5.28={
+		death={
+			death_reason=death_execution
+			killer=1958139
+		}
+	}
+}
+1958194={
+	name="Casper"
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958192
+	trait=just
+	trait=stubborn
+	trait=honorable
+	2460.5.12={birth=yes}
+	2492.3.26={death={
+			death_reason=death_duel
+			killer=1958190
+		}
+	}
+}
+1958195={
+	name="Theodoor"
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958192
+	2462.3.5={birth=yes}
+	2516.5.26={death=yes}
+}
+1958146={
+	name="Johanna"
+	female=yes
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958190
+	trait=skilled_tactician
+	trait=brave
+	2486.7.6={birth=yes}
+	2509.4.4={add_spouse=1958144}
+	2509.4.5={
+		effect={
+			set_character_flag=recieved_royal_marriage_aid_duty
+			spouse={
+				set_character_flag=recieved_royal_marriage_aid_duty
+				remove_spouse=spouse
+				add_spouse_matrilineal=ROOT
+				clr_character_flag=recieved_royal_marriage_aid_duty
+			}
+			clr_character_flag=recieved_royal_marriage_aid_duty
+		}
+	}
+	2550.7.9={death=yes}
+}
+1958147={
+	name="Rainier"
+	dynasty=2061000 #Defacqz
+	culture=walloon
+	religion=neuhumanist
+	father=1958130
+	2400.1.3={birth=yes}
+	2467.4.26={death=yes}
+}
+1958148={
+	name="Ysaline"
+	female=yes
+	dynasty=2061000 #Defacqz
+	culture=walloon
+	religion=neuhumanist
+	father=1958147
+	2428.11.8={birth=yes}
+	2499.5.7={death=yes}
+}
+1958149={
+	name="Fernand"
+	dynasty=2061000 #Defacqz
+	culture=walloon
+	religion=neuhumanist
+	mother=1958148
+	2459.2.7={birth=yes}
+	2520.9.8={death=yes}
+}
+1958150={
+	name="Fernand"
+	dynasty=2061000 #Defacqz
+	culture=walloon
+	religion=neuhumanist
+	father=1958149
+	2480.2.3={birth=yes}
+	2536.4.27={death=yes}
+}
+1958151={
+	name="Orlande"
+	dynasty=2061000 #Defacqz
+	culture=walloon
+	religion=neuhumanist
+	father=1958150
+	trait=charismatic_negotiator
+	trait=homosexual
+	trait=diligent
+	trait=just
+	trait=ambitious
+	2505.8.3={birth=yes}
+	2556.3.17={death=yes}
+}
+1958152={
+	name="Pieter"
+	dynasty=2059066 #van Doorn
+	culture=dutch
+	religion=mariavite
+	trait=grey_eminence
+	trait=shrewd
+	trait=brave
+	trait=strategist
+	trait=diligent
+	trait=gregarious
+	trait=proud
+	trait=ambitious
+	2527.2.3={birth=yes}
+	2573.7.21={death={
+			death_reason=death_accident
+		}
+	}
+}
+1958153={
+	name="Karl-Johann"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958144
+	mother=1958146
+	trait=fortune_builder
+	trait=diligent
+	trait=ambitious
+	2522.10.6={birth=yes}
+	2584.6.11={death={
+			death_reason=death_battle
+			killer=1958209
+		}
+	}
+}
+1958154={
+	name="Adalie"
+	female=yes
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958153
+	trait=charismatic_negotiator
+	trait=diligent
+	trait=kind
+	trait=charitable	
+	trait=just
+	2569.4.10={birth=yes}
+	2586.1.1={add_spouse=1958168}
+	2586.1.2={
+		effect={
+			set_character_flag=recieved_royal_marriage_aid_duty
+			spouse={
+				set_character_flag=recieved_royal_marriage_aid_duty
+				remove_spouse=spouse
+				add_spouse_matrilineal=ROOT
+				clr_character_flag=recieved_royal_marriage_aid_duty
+			}
+			clr_character_flag=recieved_royal_marriage_aid_duty
+		}
+	}
+	2634.7.26={death=yes}
+}
+1958155={
+	name="Hendrik"
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958195
+	2488.2.26={birth=yes}
+	2561.3.27={death=yes}
+}
+1958156={
+	name="Nicolaas"
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958155
+	2510.3.16={birth=yes}
+	2571.4.7={death=yes}
+}
+1958157={
+	name="Nicolaas"
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958156
+	trait=intricate_webweaver
+	trait=diligent
+	trait=deceitful
+	trait=ruthless
+	trait=wroth
+	trait=ambitious
+	2539.8.10={birth=yes}
+	2611.8.15={death=yes}
+}
+1958158={
+	name="Jozef"
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958157
+	trait=thrifty_clerk
+	trait=content
+	trait=honorable
+	trait=zealous
+	trait=diligent
+	2575.6.6={birth=yes}
+	2645.12.28={death=yes}
+}
+1958159={
+	name="Gottfried"
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	mother=1958123
+	2306.8.5={birth=yes}
+	2368.10.26={death=yes}
+}
+1958160={
+	name="Heinrich"
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	father=1958159
+	2330.3.7={birth=yes}
+	2384.8.3={death=yes}
+}
+1958161={
+	name="Gustav"
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	father=1958160
+	2355.2.16={birth=yes}
+	2410.7.3={death=yes}
+}
+1958162={
+	name="Heinrich"
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	father=1958161
+	2390.3.26={birth=yes}
+	2454.9.5={death=yes}
+}
+1958163={
+	name="Heinrich"
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	father=1958162
+	2418.8.8={birth=yes}
+	2465.4.8={death=yes}
+}
+1958164={
+	name="Heinrich"
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	father=1958163
+	2442.3.5={birth=yes}
+	2478.7.17={death={
+			death_reason=death_battle
+		}
+	}
+}
+1958165={
+	name="Ademar"
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	father=1958164
+	2467.9.29={birth=yes}
+	2530.4.12={death=yes}
+}
+1958166={
+	name="Alaholf"
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	father=1958165
+	2492.3.19={birth=yes}
+	2549.6.3={death=yes}
+}
+1958167={
+	name="Heinrich"
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	father=1958166
+	2515.5.26={birth=yes}
+	2570.8.3={death=yes}
+}
+1958168={
+	name="Gustav"
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	father=1958167
+	2548.2.4={birth=yes}
+	2615.3.26={death=yes}
+}
+1958169={
+	name="Ademar"
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	father=1958167
+	2551.4.7={birth=yes}
+	2620.6.2={death=yes}
+}
+1958170={
+	name="Gustav"
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	father=1958169
+	2582.4.5={birth=yes}
+	2646.9.3={death=yes}
+}
+1958171={
+	name="Reinhard"
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	father=1958170
+	2604.2.20={birth=yes}
+	2659.7.29={death=yes}
+}
+1958172={
+	name="Heinrich"
+	dynasty=1848001 #Geyer
+	culture=rhenish
+	religion=neuhumanist
+	father=1958171
+	2629.2.16={birth=yes}
+	2655.8.26={death=yes}
+}
+1958173={
+	name="Hans"
+	dynasty=1948011 #Muller
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958136
+	2390.2.15={birth=yes}
+	2459.8.3={death=yes}
+}
+1958174={
+	name="Ingrid"
+	female=yes
+	dynasty=1948011 #Muller
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958173
+	2413.3.2={birth=yes}
+	2478.9.4={death=yes}
+}
+1958175={
+	name="Ulrike"
+	female=yes
+	dynasty=1948011 #Muller
+	culture=low_saxon
+	religion=neuhumanist
+	mother=1958174
+	2444.4.4={birth=yes}
+	2504.3.19={death=yes}
+}
+1958176={
+	name="Armin"
+	dynasty=1948011 #Muller
+	culture=low_saxon
+	religion=neuhumanist
+	mother=1958175
+	2470.8.7={birth=yes}
+	2527.7.18={death=yes}
+}
+1958177={
+	name="Ulrike"
+	female=yes
+	dynasty=1948011 #Muller
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958176
+	2501.5.3={birth=yes}
+	2565.3.8={death=yes}
+}
+1958178={
+	name="Otto"
+	dynasty=1948011 #Muller
+	culture=low_saxon
+	religion=neuhumanist
+	mother=1958177
+	2530.2.27={birth=yes}
+	2587.9.20={death=yes}
+}
+1958179={
+	name="Rudolf"
+	dynasty=1948011 #Muller
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958178
+	2556.8.2={birth=yes}
+	2610.8.7={death=yes}
+}
+1958180={
+	name="Armin"
+	dynasty=1948011 #Muller
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958179
+	2583.3.9={birth=yes}
+	2637.4.3={death=yes}
+}
+1958181={
+	name="Gertrud"
+	female=yes
+	dynasty=1948011 #Muller
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958180
+	trait=scholarly_theologian
+	trait=scholar
+	trait=erudite
+	trait=content
+	2609.10.12={birth=yes}
+	2665.6.13={death=yes}
+}
+1958182={
+	name="Johannes"
+	dynasty=1848073 #Becker
+	culture=rhenish
+	religion=neuhumanist
+	father=1958138
+	2425.8.5={birth=yes}
+	2456.3.4={death={
+			death_reason=death_battle
+		}
+	}
+}
+1958183={
+	name="Manfred"
+	dynasty=1848073 #Becker
+	culture=rhenish
+	religion=neuhumanist
+	father=1958138
+	2429.3.18={birth=yes}
+	2460.2.14={death={
+			death_reason=death_battle
+		}
+	}
+}
+1958184={
+	name="Johannes"
+	dynasty=1848073 #Becker
+	culture=rhenish
+	religion=neuhumanist
+	father=1958183
+	2450.4.12={birth=yes}
+	2500.7.3={death=yes}
+}
+1958185={
+	name="Helmut"
+	dynasty=1848073 #Becker
+	culture=rhenish
+	religion=neuhumanist
+	father=1958184
+	2476.3.15={birth=yes}
+	2534.9.23={death=yes}
+}
+1958186={
+	name="Boris"
+	dynasty=1848073 #Becker
+	culture=rhenish
+	religion=neuhumanist
+	father=1958185
+	2505.6.27={birth=yes}
+	2561.1.19={death=yes}
+}
+1958187={
+	name="Manfred"
+	dynasty=1848073 #Becker
+	culture=rhenish
+	religion=neuhumanist
+	father=1958186
+	2530.8.4={birth=yes}
+	2589.7.21={death=yes}
+}
+1958188={
+	name="Felix"
+	dynasty=1848073 #Becker
+	culture=rhenish
+	religion=neuhumanist
+	father=1958187
+	2557.2.16={birth=yes}
+	2610.6.17={death=yes}
+}
+1958189={
+	name="Karl-Heinz"
+	dynasty=1848073 #Becker
+	culture=rhenish
+	religion=neuhumanist
+	father=1958188
+	2581.8.26={birth=yes}
+	2653.9.8={death=yes}
+}
+1958196={
+	name="Lodewijk"
+	dynasty=2058000 #Coudenhove
+	culture=flemish
+	religion=neuhumanist
+	father=1958158
+	2606.10.6={birth=yes}
+	2658.3.15={death=yes}
+}
+1958197={
+	name="Johannes"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958168
+	mother=1958154
+	2595.3.13={birth=yes}
+	2656.10.4={death=yes}
+}
+1958198={
+	name="Enzo"
+	dynasty=2061000 #Defacqz
+	culture=walloon
+	religion=neuhumanist
+	father=1958150
+	trait=zealous
+	trait=ambitious
+	2508.4.26={birth=yes}
+	2560.7.11={death=yes}
+}
+1958199={
+	name="Quentin"
+	dynasty=2061000 #Defacqz
+	culture=walloon
+	religion=neuhumanist
+	father=1958198
+	trait=ruthless
+	trait=zealous
+	trait=cruel
+	trait=stubborn
+	trait=patient
+	2532.6.4={birth=yes}
+	2595.8.25={death=yes}
+}
+1958200={
+	name="Fernand"
+	dynasty=2061000 #Defacqz
+	culture=walloon
+	religion=neuhumanist
+	father=1958199
+	2552.2.4={birth=yes}
+	2609.9.10={death=yes}
+}
+1958201={
+	name="Orlande"
+	dynasty=2061000 #Defacqz
+	culture=walloon
+	religion=neuhumanist
+	father=1958200
+	2580.6.16={birth=yes}
+	2644.9.15={death=yes}
+}
+1958202={
+	name="Édouard"
+	dynasty=2061000 #Defacqz
+	culture=walloon
+	religion=neuhumanist
+	father=1958201
+	2604.6.16={birth=yes}
+	2661.9.15={death=yes}
+}
+1958203={
+	name="Leendert"
+	dynasty=2059020 #Dekker
+	culture=dutch
+	religion=neuhumanist
+	father=1958139
+	2474.2.16={birth=yes}
+	2531.8.27={death=yes}
+}
+1958204={
+	name="Hugo"
+	dynasty=2059020 #Dekker
+	culture=dutch
+	religion=neuhumanist
+	father=1958203
+	2499.3.29={birth=yes}
+	2556.4.16={death=yes}
+}
+1958205={
+	name="Gerrit"
+	dynasty=2059020 #Dekker
+	culture=dutch
+	religion=neuhumanist
+	father=1958204
+	2530.7.6={birth=yes}
+	2592.8.4={death=yes}
+}
+1958206={
+	name="Willem"
+	dynasty=2059020 #Dekker
+	culture=dutch
+	religion=neuhumanist
+	father=1958205
+	2555.5.5={birth=yes}
+	2609.2.7={death=yes}
+}
+1958207={
+	name="Hilbert"
+	dynasty=2059020 #Dekker
+	culture=dutch
+	religion=neuhumanist
+	father=1958206
+	2580.9.27={birth=yes}
+	2630.12.3={death=yes}
+}
+1958208={
+	name="Maarten"
+	dynasty=2059020 #Dekker
+	culture=dutch
+	religion=neuhumanist
+	father=1958207
+	2615.8.9={birth=yes}
+	2660.2.27={death=yes}
+}
+1958209={
+	name="Ramund"
+	dynasty=0
+	culture=danish
+	religion=neuhumanist
+	trait=tough_soldier
+	trait=duelist
+	trait=brave
+	trait=humble
+	2560.6.6={birth=yes}
+	2600.6.6={death=yes}
+}
+1958210={
+	name="Friedrich"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958190
+	2499.6.16={birth=yes}
+	2548.5.27={death=yes}
+}
+1958211={
+	name="Widukind"
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958210
+	2529.9.7={birth=yes}
+	2578.2.3={death={
+			death_reason=death_battle
+		}
+	}
+}
+1958212={
+	name="Louise"
+	female=yes
+	dynasty=1948000 #Wulf
+	culture=low_saxon
+	religion=neuhumanist
+	father=1958143
+	2484.8.7={birth=yes}
+	2551.7.26={death=yes}
 }
 
 1923000={
