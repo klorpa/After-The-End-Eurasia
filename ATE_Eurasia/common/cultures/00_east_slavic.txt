@@ -33,24 +33,34 @@ east_slavic = {
 		modifier = default_culture_modifier
 	}
 
-#leningradian = {
+	leningradian = {
+		graphical_cultures = { westernslavicgfx }
 
-graphical_cultures = { westernslavicgfx}
+		colour = {1.0 0.25 0.35 }
 
-colour = {1.0 0.25 0.35 }
+		male names = {
+			Aleksander_Sasha_Shura_Sanya Aleksei_Alyosha_Lyosha Anatoliy Andrei Anton Arkadiy Avgust Boris Constantin Denis Fyodor Gennnadiy Igor Ivan_Vanya  Kirill Kolya Konstanin Leonid Lev Lyosha Maxim Nikita Nikolai Oleg Pavel Pyotr Roman  Semyon Sergei Vasiliy_Vasya Vitaliy_Vitya Vladimir_Vlad  Vladislav Vsevolod
+		}
 
-male names = {Aleksander_Sasha_Shura_Sanya Aleksei_Alyosha_Lyosha Anatoliy Andrei Anton Arkadiy Avgust Boris Constantin Denis Fyodor Gennnadiy Igor Ivan_Vanya  Kirill Kolya Konstanin Leonid Lev Lyosha Maxim Nikita Nikolai Oleg Pavel Pyotr Roman  Semyon Sergei Vasiliy_Vasya Vitaliy_Vitya Vladimir_Vlad  Vladislav Vsevolod}
-
-female names {Adelle Aleksandra Alisa Alla Alyona Anna Asya Dasha Dina Evgenia Galina Ksenia Ksyusha Lena Liza Nastya Sasha Sveta Svetlana Tatiyana Valentina Valya Varvara Vasilisa Vera Veronika Victoria Yelena}
-
-from_dynasty_prefix = "of "
+		female names = {
+			Adelle Aleksandra Alisa Alla Alyona Anna Asya Dasha Dina Evgenia Galina Ksenia Ksyusha Lena Liza Nastya Sasha Sveta Svetlana Tatiyana Valentina Valya Varvara Vasilisa Vera Veronika Victoria Yelena
+		}
+		
+		from_dynasty_prefix = "of "
 		
 		male_patronym = "ovich"
 		female_patronym = "ovna"
+		prefix = no
 
-seafarer=yes
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
 
-feminist=yes
-}
+		modifier = default_culture_modifier
+	}
 
 }
