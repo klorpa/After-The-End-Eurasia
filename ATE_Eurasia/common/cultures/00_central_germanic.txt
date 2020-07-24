@@ -126,27 +126,27 @@ central_germanic = {
 		color = { 0.5 0.2 0.3 }
 
 		male_names = {
-			Adalbert Adolf Albert Alexander Alfred Alwin Andreas_Andrew Anton_Anthony Arne Arnold August_Augustus Axel
-			Benno Bernd_Bernard Bernhard_Bernard Berthold Björn_Beorn Bodo Bruno Burkhard
-			Carl_Charles Carsten Casimir Casper Christian Christoph_Christopher Cord
-			Daniel Detlef Dieter Dietrich Dirk
-			Eberhard Eduard_Edward Egon Eilhard Ekkehard_Eckart Elimar Emil_Aemilius Enno Erhard Erich_Erik Ernst_Ernest Erwin
+			Adalbert_Albert Adolf Albert Alexander Alfred Alwin Andreas_Andrew Anton_Anthony Arne Arnold August_Augustus Axel
+			Benno Bernd_Bernard Bernhard_Bernard Berthold Björn_Beorn Bodo Börries Bruno Burkhard
+			Carl_Charles Carl-Heinz Carl-Henning Carsten_Christian Casimir Casper Christoph_Christopher Cord
+			Daniel Detlev_Detlef Dieter Dietrich Dirk
+			Eberhard Eduard_Edward Egon_Eugene Eilhard Ekkehard_Eckart Elimar Emil_Aemilius Enno Erhard Erich_Erik Ernst_Ernest Erwin
 			Felix Florian Franz_Francis Friedrich_Frederick Fritz_Frederick
-			Georg_George Gerd_Gerard Gerlach Gero Gottfried_Godfrey Gottlieb Gunnar Günter Gustav
-			Hagen Hans Hans-Adolf Hans-Christoph Hans-Georg Hans-Günther Hans-Henning Hans-Joachim Hans-Jörg Hans-Lothar Hans-Peter Hans-Walter Harald_Harold Hartmut Hartwig Heiko Heino Helmut Henning Herbord_Herbert Hermann_Herman Hinrich_Henry Holger Horst Hubertus_Hubert
-			Jakob_Jacob Jens_John Jens-Peter Jobst Johannes_John Jörn Julius
-			Kai Karl-Heinz Karl-Henning Klaus_Nicholas Konrad_Conrad Kuno Kurt
+			Gerd_Gerard Gerlach Gero Gödert Gottfried_Godfrey Gottlieb Gunnar Günter Gustav
+			Hagen Hans Hans-Adolf Hans-Christoph Hans-Georg Hans-Günther Hans-Henning Hans-Joachim Hans-Jörg Hans-Lothar Hans-Peter Hans-Walter Harald_Harold Hartmut Hartwig Heiko_Henry Heino Helmut Henning Herbord_Herbert Hermann_Herman Hinnerk_Henry Holger Horst Hubertus_Hubert
+			Jakob_Jacob Jens_John Jens-Peter Jobst Johan_John Jörn_George Julius
+			Kai Klaus_Nicholas Konrad_Conrad Kuno Kurt
 			Lars_Lawrence Lauritz_Lawrence Liudolf Ludger Ludwig_Louis
-			Magnus Manfred Martin Matthäus_Matthew Michael Moritz_Maurice
+			Magnus Manfred Martin Matthäus_Matthew Meinert_Meinhard Michael Moritz_Maurice
 			Nils Norbert
 			Olaf Ordolf Oscar Oswalt_Oswald Ottmar Otto
 			Paul Peter Philipp_Philip
-			Rainer Ralf_Ralph Reinhold Richard Robert Roland Rolf Rolf-Dieter Rüdiger_Roger Rudolf
-			Sascha Sebastian Siegfried Siegmund Sigmar Sören Stephan_Stephen Sven
+			Rainer_Ragnar Ralf_Ralph Reinhold_Ronald Richard Rickmer Robert Roland Rolf_Rudolf Rolf-Dieter Rüdiger_Roger
+			Sascha Sebastian Siegfried_Sigfried Siegmund Sievert Sigmar Sönnich Sören Stephan_Stephen Sven
 			Theodor_Theodore Thietmar_Dietmar Thilo Timo Torsten Tycho
-			Ulf Ulrich Uwe Uwe-Kai
-			Veit Victor Volker
-			Walter Walter-Herwig Werner Widukind Wigbert Wilhelm_William Woldemar_Vladimir Wolf-Dieter Wolf-Ludger Wolfgang Wolfram Wolrad
+			Ulf_Wolf Ulfert Ulrich Uwe Uwe-Kai
+			Veit_Vitus Victor Volker
+			Walter-Herwig Werner Widukind Wigbert Wilhelm_William Wilm_William Woldemar_Vladimir Wolf-Dieter Wolf-Ludger Wolfgang Wolfram Wolrad Wöltje_Walter
 		}
 		female_names = {
 			Adele Alexandra Amalie Angelika_Angelica Anja Anke Anne
@@ -199,7 +199,7 @@ central_germanic = {
 			Hagen Hans Hans-Günther Hans-Otto Harald_Harold Harro Hartmut Heinrich_Henry Heinz_Henry Helmut Heribert_Herbert Hermann_Herman Hoimar Horst Hubert Hugo_Hugh
 			Ignaz_Ignatius Ilja_Elias Ingo
 			Jakob_Jacob Jesko Joachim Jobst Jochen Johannes_John Josef_Joseph Julius Jürgen_George
-			Karl_Carl Karl-Christian Karl-Fritz Karl-Gustav Karl-Heinz Karl-Ludwig Karl-Marx Karl-Robert Karl-Theodor Karsten_Carsten Kevin Klaus_Nicholas Konrad_Conrad Kurt
+			Karl_Carl Karl-Christian Karl-Fritz Karl-Gustav Karl-Heinz Karl-Ludwig Karl-Marx Karl-Robert Karl-Theodor Karsten_Christian Kevin Klaus_Nicholas Konrad_Conrad Kurt
 			Leon Leopold Lorenz_Lawrence Lothar Ludwig_Louis Lukas_Lucas
 			Manfred Matthias_Matthew Markus_Mark Maximilian Meinhard Michael Muhammed
 			Oskar_Oscar Oswald Ottmar Otto
@@ -253,7 +253,7 @@ central_germanic = {
 		male_names = {
 			Andreas_Andrew Arno_Arnolf August_Augustus
 			Bruno Burkhard
-			Carl_Charles Carl-Gustav Carsten Christian Christoph_Christopher
+			Carl_Charles Carl-Gustav Christian Christoph_Christopher
 			Dirk
 			Eckart Eduard_Edward Erich_Erik Ernst_Ernest
 			Fabian Ferdinand Friedrich_Frederick
@@ -318,7 +318,7 @@ central_germanic = {
 			Paul Peter Philipp_Philip
 			Reinhold Richard Rüdiger_Roger Rudolf Ruprecht_Rupert
 			Sebastian Siegfried_Sigfried Simon Stefan_Stephen
-			Theodor_Theodore
+			Thaddäus_Thaddeus Theodor_Theodore
 			Ulrich
 			Walter Werner Wilhelm_William Winfried Wolfgang Wolfhard
 		}
@@ -406,19 +406,20 @@ central_germanic = {
 			Adolphe_Adolf Alain_Alan Albert Aldo Alexander Alphonse Antoine_Anthony Armand Arno_Arnolf Auguste_Augustus
 			Bernard Bruno
 			Camille Charles Claude Claus_Nicholas Curt_Kurt
-			Edouard_Edward Egmond Emile_Aemilius Ernest
+			Edouard_Edward Egmond Emil_Aemilius Ernest
 			Félicien Félix_Felix Ferdinand Fräntz_Francis
-			Gabriel Gaspard_Casper Gast_Gaston Georges_George Gilles Guillaume_William Guy
-			Henri_Henry Hugo_Hugh
+			Gabriel Gaspard_Casper Gast_Gaston Georges_George Gilles Guy
+			Heng_Henry Hugo_Hugh
 			Jacques Jean_John Jean-Baptiste Jean-Claude Jean-Jacques Jean-Louis Jean-Marie Jean-Pierre Joël_Joel Joseph Joseph-Alexandre Jules
 			Lambert Laurent_Lawrence Léon_Leon Léopold_Leopold Louis Lucien_Lucius
 			Marcel Marco_Mark Mathias_Matthew Michel_Michael
-			Norbert
-			Pascal Paul Pierre_Peter Pierre-Joseph Pol_Paul
+			Nicolas_Nicholas Norbert
+			Pascal Paul Péiter_Peter Pierre-Joseph Pol_Paul
 			Raymond René Robert Roger Roland
 			Sébastien_Sebastian Sigfried
 			Théodore_Theodore Théophile_Theophilus
 			Victor
+			Wëllem_William
 			Xavier
 			Yvon
 		}
@@ -480,7 +481,7 @@ central_germanic = {
 			Salvator Sebastian Sigmund Stanislaus_Stanislav Stefan_Stephen "Stephan Maria" Sylvius
 			Theodor_Theodore
 			Ulrich
-			Viktor_Victor
+			Viktor_Victor Vinzenz_Vincent
 			Walther_Walter Wenzel_Wenceslaus Wilhelm_William Wladimir_Vladimir Wolfgang Wratislaw_Vratislav
 			Xaver_Xavier
 			Zeno Zvonimir

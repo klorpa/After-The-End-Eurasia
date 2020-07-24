@@ -12,6 +12,20 @@ e_italy = {
 		color2={ 255 255 255 }
 		capital = 356 # Venice
 		culture = italian
+
+		rhenish="Venetien"
+		low_saxon="Venetien"
+		ossi="Venetien"
+		upper_saxon="Venetien"
+		bavarian="Venetien"
+		swabian="Venetien"
+		austrian="Venetien"
+		schwyzer="Venetien"
+		neapolitan="Veneto"
+		umbrian="Veneto"
+		tuscan="Veneto"
+		sicilian="Veneto"
+		venetian="Vèneto"
 		
 		d_venice = {
 			color = { 97 130 112 }
@@ -19,10 +33,38 @@ e_italy = {
 			
 			capital = 356 #Venice
 			culture = venetian
+
+			rhenish="Venedig"
+			low_saxon="Venedig"
+			ossi="Venedig"
+			upper_saxon="Venedig"
+			bavarian="Venedig"
+			swabian="Venedig"
+			austrian="Venedig"
+			schwyzer="Venedig"
+			neapolitan="Venezia"
+			umbrian="Venezia"
+			tuscan="Venezia"
+			sicilian="Venezia"
+			venetian="Venexia"
 			
 			c_venice = {
 				color={ 97 130 112 }
 				color2={ 255 255 255 }
+
+				rhenish="Venedig"
+				low_saxon="Venedig"
+				ossi="Venedig"
+				upper_saxon="Venedig"
+				bavarian="Venedig"
+				swabian="Venedig"
+				austrian="Venedig"
+				schwyzer="Venedig"
+				neapolitan="Venezia"
+				umbrian="Venezia"
+				tuscan="Venezia"
+				sicilian="Venezia"
+				venetian="Venexia"
 				
 				b_san_marco = {}
 				b_cannaregio = {}
@@ -36,27 +78,75 @@ e_italy = {
 		d_veneto = {
 			color = { 34 137 126 }
 			capital = 356 # Venice
+
+			rhenish="Venetien"
+			low_saxon="Venetien"
+			ossi="Venetien"
+			upper_saxon="Venetien"
+			bavarian="Venetien"
+			swabian="Venetien"
+			austrian="Venetien"
+			schwyzer="Venetien"
+			venetian="Vèneto"
 			
 			c_padua = {
 				color={ 14 51 31 }
 				color2={ 255 255 255 }
+
+				neapolitan="Padova"
+				umbrian="Padova"
+				tuscan="Padova"
+				sicilian="Padova"
+				venetian="Pàdova"
 				
 				b_mestre = {}
 				b_rovigo = {}
-				b_padua = {}
+				b_padua = {
+					neapolitan="Padova"
+					umbrian="Padova"
+					tuscan="Padova"
+					sicilian="Padova"
+					venetian="Pàdova"
+				}
 				b_mira = {}
-				b_chioggia = {}
+				b_chioggia = {
+					venetian="Cióxa"
+				}
 				b_adria = {}
 				b_albignasego = {}
 			}
 			c_verona = {
 				color={ 123 164 127 }
 				color2={ 255 255 255 }
+
+				rhenish="Welschbern"
+				low_saxon="Welschbern"
+				ossi="Welschbern"
+				upper_saxon="Welschbern"
+				bavarian="Welschbern"
+				swabian="Welschbern"
+				austrian="Welschbern"
+				schwyzer="Welschbern"
+				venetian="Veròna"
 				
 				b_villafranca_di_verona = {}
-				b_vicenza = {}
-				b_verona = {}
-				b_bassano_del_grappa = {}
+				b_vicenza = {
+					venetian="Vicensa"
+				}
+				b_verona = {
+					rhenish="Welschbern"
+					low_saxon="Welschbern"
+					ossi="Welschbern"
+					upper_saxon="Welschbern"
+					bavarian="Welschbern"
+					swabian="Welschbern"
+					austrian="Welschbern"
+					schwyzer="Welschbern"
+					venetian="Veròna"
+				}
+				b_bassano_del_grappa = {
+					venetian="Basan"
+				}
 				b_schio = {}
 				b_villa = {}
 				b_san_giovanni_lupatoto = {}
@@ -65,10 +155,18 @@ e_italy = {
 			c_treviso = {
 				color={ 80 147 86 }
 				color2={ 255 255 255 }
+
+				venetian="Trevixo"
 				
-				b_treviso = {}
-				b_conegliano = {}
-				b_castelfranco_veneto = {}
+				b_treviso = {
+					venetian="Trevixo"
+				}
+				b_conegliano = {
+					venetian="Conejan"
+				}
+				b_castelfranco_veneto = {
+					venetian="Castelo"
+				}
 				b_montebelluna = {}
 				b_vittorio_veneto = {}
 				b_paese = {}
@@ -77,11 +175,36 @@ e_italy = {
 			c_friuli = {
 				color={ 112 146 115 }
 				color2={ 255 255 255 }
+
+				rhenish="Friaul"
+				low_saxon="Friaul"
+				ossi="Friaul"
+				upper_saxon="Friaul"
+				bavarian="Friaul"
+				swabian="Friaul"
+				austrian="Friaul"
+				schwyzer="Friaul"
 				
-				b_pordenone = {}
-				b_sacile = {}
-				b_udine = {}
-				b_cordenons = {}
+				b_pordenone = {
+					venetian="Pordenon"
+				}
+				b_sacile = {
+					venetian="Sathìl"
+				}
+				b_udine = {
+					rhenish="Weiden in Friaul"
+					low_saxon="Weiden in Friaul"
+					ossi="Weiden in Friaul"
+					upper_saxon="Weiden in Friaul"
+					bavarian="Weiden in Friaul"
+					swabian="Weiden in Friaul"
+					austrian="Weiden in Friaul"
+					schwyzer="Weiden in Friaul"
+					venetian="Údine"
+				}
+				b_cordenons = {
+					venetian="Cordenòns"
+				}
 				b_codroipo = {}
 				b_azzano_decimo = {}
 				b_porcia = {}
@@ -90,28 +213,117 @@ e_italy = {
 	d_trentino = {
 		color = { 34 137 126 }
 		capital = 356 # Venice
+
+		rhenish="Welschtirol"
+		low_saxon="Welschtirol"
+		ossi="Welschtirol"
+		upper_saxon="Welschtirol"
+		bavarian="Welschtirol"
+		swabian="Welschtirol"
+		austrian="Welschtirol"
+		schwyzer="Welschtirol"
 			
 		c_trentino = {
 			color={ 63 117 68 }
 			color2={ 255 255 255 }
+
+			rhenish="Trient"
+			low_saxon="Trient"
+			ossi="Trient"
+			upper_saxon="Trient"
+			bavarian="Trient"
+			swabian="Trient"
+			austrian="Trient"
+			schwyzer="Trient"
 				
-				b_rovereto = {}
-				b_pergine_valsugana = {}
-				b_trento = {}
-				b_riva_del_garda = {}
-				b_cles = {}
-				b_tione_di_trento = {}
-				b_mezzocorona = {}
+				b_rovereto = {
+					rhenish="Rofreit"
+					low_saxon="Rofreit"
+					ossi="Rofreit"
+					upper_saxon="Rofreit"
+					bavarian="Rofreit"
+					swabian="Rofreit"
+					austrian="Rofreit"
+					schwyzer="Rofreit"
+				}
+				b_pergine_valsugana = {
+					rhenish="Fersen im Suganertal"
+					low_saxon="Fersen im Suganertal"
+					ossi="Fersen im Suganertal"
+					upper_saxon="Fersen im Suganertal"
+					bavarian="Fersen im Suganertal"
+					swabian="Fersen im Suganertal"
+					austrian="Fersen im Suganertal"
+					schwyzer="Fersen im Suganertal"
+				}
+				b_trento = {
+					rhenish="Trient"
+					low_saxon="Trient"
+					ossi="Trient"
+					upper_saxon="Trient"
+					bavarian="Trient"
+					swabian="Trient"
+					austrian="Trient"
+					schwyzer="Trient"
+				}
+				b_riva_del_garda = {
+					rhenish="Reiff am Gartsee"
+					low_saxon="Reiff am Gartsee"
+					ossi="Reiff am Gartsee"
+					upper_saxon="Reiff am Gartsee"
+					bavarian="Reiff am Gartsee"
+					swabian="Reiff am Gartsee"
+					austrian="Reiff am Gartsee"
+					schwyzer="Reiff am Gartsee"
+				}
+				b_cles = {
+					rhenish="Glöss"
+					low_saxon="Glöss"
+					ossi="Glöss"
+					upper_saxon="Glöss"
+					bavarian="Glöss"
+					swabian="Glöss"
+					austrian="Glöss"
+					schwyzer="Glöss"
+				}
+				b_tione_di_trento = {
+					rhenish="Taun"
+					low_saxon="Taun"
+					ossi="Taun"
+					upper_saxon="Taun"
+					bavarian="Taun"
+					swabian="Taun"
+					austrian="Taun"
+					schwyzer="Taun"
+				}
+				b_mezzocorona = {
+					rhenish="Kronmetz"
+					low_saxon="Kronmetz"
+					ossi="Kronmetz"
+					upper_saxon="Kronmetz"
+					bavarian="Kronmetz"
+					swabian="Kronmetz"
+					austrian="Kronmetz"
+					schwyzer="Kronmetz"
+				}
 			}
 		c_belluno = {
 			color={ 122 133 123 }
 			color2={ 255 255 255 }
+
+			venetian="Belùn"
 				
-				b_feltre = {}
+				b_feltre = {
+					venetian="Fèltre"
+				}
 				b_borgo_valbelluna = {}
-				b_belluno = {}
+				b_belluno = {
+					venetian="Belùn"
+				}
 				b_sedico = {}
-				b_ponte_nelle_alpi = {}
+				b_ponte_nelle_alpi = {
+					venetian="Pont"
+				}
 				b_alpago = {}
 				b_santa_giustina = {}
 			}
@@ -126,78 +338,182 @@ e_italy = {
 		
 		culture = italian
 		
-		d_genoa = {
+		d_liguria = {
 			color={ 244 141 120 }
 			color2={ 255 255 255 }
 			
 			capital = 233 # Genoa
 			
 			dignity = 10
+
+			ligurian="Ligûria"
 			
 			c_genoa = {
 				color={ 99 174 101 }
 				color2={ 255 255 255 }
+
+				rhenish="Genua"
+				low_saxon="Genua"
+				ossi="Genua"
+				upper_saxon="Genua"
+				bavarian="Genua"
+				swabian="Genua"
+				austrian="Genua"
+				schwyzer="Genua"
+				neapolitan="Genova"
+				umbrian="Genova"
+				tuscan="Genova"
+				sicilian="Genova"
+				ligurian="Zêna"
 				
-				b_genoa = {}
-				b_la_spezia = {}
+				b_genoa = {
+					neapolitan="Genova"
+					umbrian="Genova"
+					tuscan="Genova"
+					sicilian="Genova"
+					ligurian="Zêna"
+				}
+				b_la_spezia = {
+					ligurian="A Spèza"
+				}
 				b_rapallo = {}
-				b_chiavari = {}
+				b_chiavari = {
+					ligurian="Ciävai"
+				}
 				b_sestri_levante = {}
 				b_lavagna = {}
-				b_serra_ricco = {}
+				b_serra_ricco = {
+					ligurian="A Særa"
+				}
 			}
 			c_savona = {
 				color={ 253 247 228 }
 				color2={ 255 255 255 }
+			
+				ligurian="Sann-a"
 				
-				b_sanremo = {}
+				b_sanremo = {
+					ligurian="Sanrému"
+				}
 				b_imperia = {}
-				b_savona = {}
-				b_albenga = {}
-				b_ventimiglia = {}
+				b_savona = {
+					ligurian="Sann-a"
+				}
+				b_albenga = {
+					ligurian="Arbenga"
+				}
+				b_ventimiglia = {
+					ligurian="Vintimiggia"
+				}
 				b_taggia = {}
-				b_bordighera = {}
+				b_bordighera = {
+					ligurian="A Bordighea"
+				}
 			}
 		}
-		d_turin = {
+		d_piedmont = {
 			color={ 118 18 50 }
 			color2={ 255 255 255 }
 			
 			capital = 233 # Genoa
 			
 			dignity = 10
+
+			neapolitan="Piemonte"
+			umbrian="Piemonte"
+			tuscan="Piemonte"
+			sicilian="Piemonte"
+			piedmontese="Piemont"
 			
 			c_cuneo = {
 				color={ 134 181 53 }
 				color2={ 255 255 255 }
+
+				piedmontese="Coni"
 				
-				b_alba = {}
+				b_alba = {
+					piedmontese="Arba"
+				}
 				b_bra = {}
-				b_cuneo = {}
-				b_fossano = {}
-				b_mondovi = {}
-				b_savigliano = {}
-				b_saluzzo = {}
+				b_cuneo = {
+					piedmontese="Coni"
+				}
+				b_fossano = {
+					piedmontese="Fossan"
+				}
+				b_mondovi = {
+					piedmontese="Ël Mondvì"
+				}
+				b_savigliano = {
+					piedmontese="Savijan"
+				}
+				b_saluzzo = {
+					piedmontese="Salusse"
+				}
 			}
 			c_turin = {
 				color={ 71 98 51 }
 				color2={ 255 255 255 }
+
+				neapolitan="Torino"
+				umbrian="Torino"
+				tuscan="Torino"
+				sicilian="Torino"
+				piedmontese="Torino"
 				
-				b_moncalieri = {}
-				b_collegno = {}
-				b_torino = {}
-				b_rivoli = {}
+				b_moncalieri = {
+					piedmontese="Moncalé"
+				}
+				b_collegno = {
+					piedmontese="Colegn"
+				}
+				b_turin = {
+					neapolitan="Torino"
+					umbrian="Torino"
+					tuscan="Torino"
+					sicilian="Torino"
+					piedmontese="Torino"
+				}
+				b_rivoli = {
+					piedmontese="Rìvole"
+				}
 				b_nichelino = {}
-				b_settimo_torinese = {}
-				b_grugliasco = {}
+				b_settimo_torinese = {
+					piedmontese="Ël Seto"
+				}
+				b_grugliasco = {
+					piedmontese="Grujasch"
+				}
 			}
 			c_aosta = {
 				color={ 112 134 94 }
 				color2={ 255 255 255 }
+
+				rhenish="Augschtal"
+				low_saxon="Augschtal"
+				ossi="Augschtal"
+				upper_saxon="Augschtal"
+				bavarian="Augschtal"
+				swabian="Augschtal"
+				austrian="Augschtal"
+				schwyzer="Augschtal"
+				piedmontese="Osta"
 				
 				b_sarre = {}
-				b_chatillon = {}
-				b_aosta = {}
+				b_chatillon = {
+					piedmontese="Cas-cion"
+				}
+				b_aosta = {
+					rhenish="Augschtal"
+					low_saxon="Augschtal"
+					ossi="Augschtal"
+					upper_saxon="Augschtal"
+					bavarian="Augschtal"
+					swabian="Augschtal"
+					austrian="Augschtal"
+					schwyzer="Augschtal"
+					piedmontese="Osta"
+				}
 				b_saint_vincent = {}
 				b_quart = {}
 				b_pont_saint_martin = {}
@@ -206,46 +522,244 @@ e_italy = {
 			c_alessandria = {
 				color={ 70 88 56 }
 				color2={ 255 255 255 }
+
+				piedmontese="Lissandria"
 				
-				b_alessandria = {}
+				b_alessandria = {
+					piedmontese="Lissandria"
+				}
 				b_casale_monferrato = {}
-				b_asti = {}
-				b_novi_ligure = {}
-				b_tortona = {}
-				b_acqui_terme = {}
-				b_valenza = {}
+				b_asti = {
+					piedmontese="Ast"
+				}
+				b_novi_ligure = {
+					piedmontese="Neuvi"
+					ligurian="Nêuve"
+				}
+				b_tortona = {
+					piedmontese="Torton-a"
+				}
+				b_acqui_terme = {
+					piedmontese="Àich"
+				}
+				b_valenza = {
+					piedmontese="Valensa"
+				}
 			}
 			c_novara = {
 				color={ 64 149 74 }
 				color2={ 255 255 255 }
+
+				lombard="Nuàra"
 				
 				b_verbania = {}
-				b_borgomanero = {}
-				b_novara = {}
-				b_vercelli = {}
-				b_gattinara = {}
+				b_borgomanero = {
+					piedmontese="Borbané"
+					ligurian="Burbanee"
+				}
+				b_novara = {
+					lombard="Nuàra"
+				}
+				b_vercelli = {
+					piedmontese="Vërsèj"
+				}
+				b_gattinara = {
+					piedmontese="Gatinera"
+				}
 				b_galliate = {}
 				b_omegna = {}
 			}
 		}
-		d_lombardia = {
+		d_lombardy = {
 			color={ 200 133 222 }
 			color2={ 255 255 255 }
 			capital = 235 # Lombardia
 
-			lombard = "Lombardy"
+			neapolitan="Lombardia"
+			umbrian="Lombardia"
+			tuscan="Lombardia"
+			sicilian="Lombardia"
+			lombard="Lombardéa"
 			
-			c_pavia = {
-				color={ 93 126 97 }
+			c_sondrio = {
+				color={ 59 153 117 }
 				color2={ 255 255 255 }
+
+				rhenish="Sünders"
+				low_saxon="Sünders"
+				ossi="Sünders"
+				upper_saxon="Sünders"
+				bavarian="Sünders"
+				swabian="Sünders"
+				austrian="Sünders"
+				schwyzer="Sünders"
+				romansh="Sunder"
+				lombard="Sùndri"
 				
-				b_vigevano = {}
-				b_voghera = {}
-				b_pavia = {}
-				b_mortara = {}
-				b_stradella = {}
-				b_gambolo = {}
-				b_garlasco = {}
+				b_morbegno = {
+					rhenish="Morbend"
+					low_saxon="Morbend"
+					ossi="Morbend"
+					upper_saxon="Morbend"
+					bavarian="Morbend"
+					swabian="Morbend"
+					austrian="Morbend"
+					schwyzer="Morbend"
+					lombard="Murbegn"
+				}
+				b_tirano = {
+					rhenish="Thiran"
+					low_saxon="Thiran"
+					ossi="Thiran"
+					upper_saxon="Thiran"
+					bavarian="Thiran"
+					swabian="Thiran"
+					austrian="Thiran"
+					schwyzer="Thiran"
+					lombard="Tiràn"
+				}
+				b_sondrio = {
+					rhenish="Sünders"
+					low_saxon="Sünders"
+					ossi="Sünders"
+					upper_saxon="Sünders"
+					bavarian="Sünders"
+					swabian="Sünders"
+					austrian="Sünders"
+					schwyzer="Sünders"
+					romansh="Sunder"
+					lombard="Sùndri"
+				}
+				b_chiavenna = {
+					rhenish="Cläven"
+					low_saxon="Cläven"
+					ossi="Cläven"
+					upper_saxon="Cläven"
+					bavarian="Cläven"
+					swabian="Cläven"
+					austrian="Cläven"
+					schwyzer="Cläven"
+					romansh="Clavenna"
+					lombard="Ciavèna"
+				}
+				b_livigno = {
+					rhenish="Luwin"
+					low_saxon="Luwin"
+					ossi="Luwin"
+					upper_saxon="Luwin"
+					bavarian="Luwin"
+					swabian="Luwin"
+					austrian="Luwin"
+					schwyzer="Luwin"
+					lombard="Livígn"
+				}
+				b_cosio_valtellino = {}
+				b_talamona = {}
+			}
+			c_bergamo = {
+				color={ 62 181 117 }
+				color2={ 255 255 255 }
+
+				lombard="Bèrghem"
+				
+				b_citta_alta = {}
+				b_ponte_san_pietro = {
+					lombard="Pùt San Piero"
+				}
+				b_bergamo = {
+					lombard="Bèrghem"
+				}
+				b_seriate = {
+					lombard="Seriàt"
+				}
+				b_treviglio = {
+					lombard="Treì"
+				}
+				b_clusone = {
+					lombard="Clüsù"
+				}
+				b_dalmine = {
+					lombard="Dàlmen"
+				}
+			}
+			c_brescia = {
+				color={ 146 205 173 }
+				color2={ 255 255 255 }
+
+				rhenish="Welschbrixen"
+				low_saxon="Welschbrixen"
+				ossi="Welschbrixen"
+				upper_saxon="Welschbrixen"
+				bavarian="Welschbrixen"
+				swabian="Welschbrixen"
+				austrian="Welschbrixen"
+				schwyzer="Welschbrixen"
+				venetian="Bressa"
+				lombard="Brèsa"
+				
+				b_falcone_d_italia = {}
+				b_desenzano_del_garda = {
+					lombard="Dezensà"
+				}
+				b_brescia = {
+					rhenish="Welschbrixen"
+					low_saxon="Welschbrixen"
+					ossi="Welschbrixen"
+					upper_saxon="Welschbrixen"
+					bavarian="Welschbrixen"
+					swabian="Welschbrixen"
+					austrian="Welschbrixen"
+					schwyzer="Welschbrixen"
+					venetian="Bressa"
+					lombard="Brèsa"
+				}
+				b_lumezzane = {
+					lombard="Lömedhane"
+				}
+				b_palazzolo_sull_oglio = {
+					lombard="Palasöl"
+				}
+				b_rovato = {
+					lombard="Ruàt"
+				}
+				b_chiari = {
+					lombard="Ciare"
+				}
+			}
+			c_mantua = {
+				color={ 26 187 124 }
+				color2={ 255 255 255 }
+
+				neapolitan="Mantova"
+				umbrian="Mantova"
+				tuscan="Mantova"
+				sicilian="Mantova"
+				
+				b_mantua = {
+					neapolitan="Mantova"
+					umbrian="Mantova"
+					tuscan="Mantova"
+					sicilian="Mantova"
+				}
+				b_castiglione_delle_stiviere = {
+					lombard="Castiù"
+				}
+				b_cremona = {
+					lombard="Cremùna"
+					romagnol="Carmona"
+				}
+				b_crema = {
+					lombard="Crèma"
+				}
+				b_casalmaggiore = {
+					romagnol="Casalmagiùr"
+				}
+				b_castelleone = {
+					lombard="Castigliòn"
+				}
+				b_pandino = {
+					lombard="Pandì"
+				}
 			}
 		}
 	d_emilia_romagna = {
@@ -253,167 +767,303 @@ e_italy = {
 		color2={ 255 255 255 }
 			
 		capital = 322 # Modena
+
+		romagnol="Emélia-Rumâgna"
 			
-			c_parma = {
-				color={ 33 58 6 }
-				color2={ 255 255 255 }
-				
-				b_piacenza = {}
-				b_fidenza = {}
-				b_parma = {}
-				b_salsomaggiore_terme = {}
-				b_fiorenzuola_d_arda = {}
-				b_castel_san_giovanni = {}
-				b_collecchio = {}
+		c_parma = {
+			color={ 33 58 6 }
+			color2={ 255 255 255 }
+
+			romagnol="Pärma"
+			
+			b_piacenza = {
+				romagnol="Pia?ëinsa"
 			}
-			c_modena = {
-				color={ 50 95 32 }
-				color2={ 255 255 255 }
-				
-				b_reggio-emilia = {}
-				b_carpi = {}
-				b_modena = {}
-				b_sassuolo = {}
-				b_formigine = {}
-				b_castelfranco_emilia = {}
-				b_casalgrande = {}
+			b_fidenza = {
+				romagnol="Fidénsa"
 			}
-			c_bologna = {
-				color={ 77 104 66 }
-				color2={ 255 255 255 }
-				
-				b_imola = {}
-				b_casalecchio_di_reno = {}
-				b_bologna = {}
-				b_san_lazzaro_di_savena = {}
-				b_valsamoggia = {}
-				b_san_giovanni_in_persiceto = {}
-				b_castel_san_pietro_terme = {}
+			b_parma = {
+				romagnol="Pärma"
 			}
-			c_ravenna = {
-				color={ 97 159 72 }
-				color2={ 255 255 255 }
-				
-				b_faenza = {}
-				b_lugo = {}
-				b_ravenna = {}
-				b_cervia = {}
-				b_bagnacavallo = {}
-				b_russi = {}
-				b_alfonsine = {}
+			b_salsomaggiore_terme = {
+				romagnol="Sälsmagiór"
 			}
-			c_ferrara = {
-				color={ 170 208 173 }
-				color2={ 255 255 255 }
-				
-				b_cento = {}
-				b_comacchio = {}
-				b_ferrara = {}
-				b_argenta = {}
-				b_copparo = {}
-				b_bondeno = {}
-				b_riva_del_po = {}
+			b_fiorenzuola_d_arda = {
+				romagnol="Fiurinsöla"
 			}
-			c_rimini = {
-				color={ 97 170 67 }
-				color2={ 255 255 255 }
-				
-				b_forli = {}
-				b_cesena = {}
-				b_rimini = {}
-				b_argenta = {}
-				b_savignano_sul_rubicone = {}
-				b_forlimpopoli = {}
-				b_san_mauro_pascoli = {}
+			b_castel_san_giovanni = {
+				romagnol="Castél San Giuàn"
+			}
+			b_collecchio = {
+				romagnol="Colècc'"
 			}
 		}
-	d_milano = {
+		c_modena = {
+			color={ 50 95 32 }
+			color2={ 255 255 255 }
+
+			romagnol="Mòdna"
+				
+			b_reggio_nell_emilia = {
+				romagnol="Rèz"
+			}
+			b_carpi = {
+				romagnol="Chèrp"
+			}
+			b_modena = {
+				romagnol="Mòdna"
+			}
+			b_sassuolo = {
+				romagnol="Sasol"
+			}
+			b_formigine = {
+				romagnol="Furmézen"
+			}
+			b_castelfranco_emilia = {
+				romagnol="Castèlfrànc"
+			}
+			b_casalgrande = {
+				romagnol="Càsalgrând"
+			}
+		}
+		c_bologna = {
+			color={ 77 104 66 }
+			color2={ 255 255 255 }
+
+			romagnol="Bulåggna"
+				
+			b_imola = {
+				romagnol="Jemula"
+			}
+			b_casalecchio_di_reno = {
+				romagnol="Ca?alècc'"
+			}
+			b_bologna = {
+				romagnol="Bulåggna"
+			}
+			b_san_lazzaro_di_savena = {
+				romagnol="San Lâzer"
+			}
+			b_valsamoggia = {
+				romagnol="Valsamûz"
+			}
+			b_san_giovanni_in_persiceto = {
+				romagnol="San Zvân"
+			}
+			b_castel_san_pietro_terme = {
+				romagnol="Castèl San Pîr"
+			}
+		}
+		c_ravenna = {
+			color={ 97 159 72 }
+			color2={ 255 255 255 }
+
+			romagnol="Ravèna"
+				
+			b_faenza = {
+				romagnol="Fènza"
+			}
+			b_lugo = {
+				romagnol="Lùgh"
+			}
+			b_ravenna = {
+				romagnol="Ravèna"
+			}
+			b_cervia = {
+				romagnol="Zirvia"
+			}
+			b_bagnacavallo = {
+				romagnol="Bagnacavàl"
+			}
+			b_russi = {
+				romagnol="Ròss"
+			}
+			b_alfonsine = {
+				romagnol="Agl'infulsèn"
+			}
+		}
+		c_ferrara = {
+			color={ 170 208 173 }
+			color2={ 255 255 255 }
+
+			romagnol="Fràra"
+				
+			b_cento = {
+				romagnol="Zènt"
+			}
+			b_comacchio = {
+				romagnol="Cmâc'"
+			}
+			b_ferrara = {
+				romagnol="Fràra"
+			}
+			b_argenta = {
+				romagnol="Arzènta"
+			}
+			b_copparo = {
+				romagnol="Cupar"
+			}
+			b_bondeno = {
+				romagnol="Bundén"
+			}
+			b_riva_del_po = {}
+		}
+		c_rimini = {
+			color={ 97 170 67 }
+			color2={ 255 255 255 }
+
+			romagnol="Rémin"
+				
+			b_forli = {
+				romagnol="Furlè"
+			}
+			b_cesena = {
+				romagnol="Cisêna"
+			}
+			b_rimini = {
+				romagnol="Rémin"
+			}
+			b_argenta = {
+				romagnol="Arzènta"
+			}
+			b_savignano_sul_rubicone = {
+				romagnol="Savgnèn"
+			}
+			b_forlimpopoli = {
+				romagnol="Frampùl"
+			}
+			b_san_mauro_pascoli = {
+				romagnol="San Mevar"
+			}
+		}
+	}
+	d_milan = {
 		color = { 252 238 227 }
 		color2={ 255 255 255 }
+
+		rhenish="Mailand"
+		low_saxon="Mailand"
+		ossi="Mailand"
+		upper_saxon="Mailand"
+		bavarian="Mailand"
+		swabian="Mailand"
+		austrian="Mailand"
+		schwyzer="Mailand"
+		neapolitan="Milano"
+		umbrian="Milano"
+		tuscan="Milano"
+		sicilian="Milano"
 		
 			c_pavia = {
 				color={ 97 170 67 }
 				color2={ 255 255 255 }
 				
-				b_vigevano = {}
-				b_voghera = {}
+				b_vigevano = {
+					lombard="Avgevan"
+				}
+				b_voghera = {
+					romagnol="Vughera"
+				}
 				b_pavia = {}
 				b_mortara = {}
 				b_stradella = {}
 				b_gambolo = {}
 				b_garlasco = {}
 			}
-			c_milano = {
+			c_milan = {
 				color={ 79 117 83 }
 				color2={ 255 255 255 }
+
+				rhenish="Mailand"
+				low_saxon="Mailand"
+				ossi="Mailand"
+				upper_saxon="Mailand"
+				bavarian="Mailand"
+				swabian="Mailand"
+				austrian="Mailand"
+				schwyzer="Mailand"
+				neapolitan="Milano"
+				umbrian="Milano"
+				tuscan="Milano"
+				sicilian="Milano"
 				
-				b_sesto_san_giovanni = {}
-				b_monza = {}
-				b_milan = {}
-				b_legnano = {}
-				b_rho = {}
-				b_cologno_monzese = {}
-				b_lissone = {}
+				b_sesto_san_giovanni = {
+					lombard="Sest San Giovann"
+				}
+				b_monza = {
+					lombard="Monscia"
+				}
+				b_milan = {
+					rhenish="Mailand"
+					low_saxon="Mailand"
+					ossi="Mailand"
+					upper_saxon="Mailand"
+					bavarian="Mailand"
+					swabian="Mailand"
+					austrian="Mailand"
+					schwyzer="Mailand"
+					neapolitan="Milano"
+					umbrian="Milano"
+					tuscan="Milano"
+					sicilian="Milano"
+				}
+				b_legnano = {
+					lombard="Legnàn"
+				}
+				b_rho = {
+					lombard="Rò"
+				}
+				b_cologno_monzese = {
+					lombard="Cològn"
+				}
+				b_lissone = {
+					lombard="Lison"
+				}
 			}
-			c_como = {
+			c_varesotto = {
 				color={ 143 182 147 }
 				color2={ 255 255 255 }
+
+				rhenish="Väris"
+				low_saxon="Väris"
+				ossi="Väris"
+				upper_saxon="Väris"
+				bavarian="Väris"
+				swabian="Väris"
+				austrian="Väris"
+				schwyzer="Väris"
+				lombard="Varés"
 				
-				b_como = {}
-				b_varese = {}
-				b_busto_arsizio = {}
-				b_gallarate = {}
-				b_lecco = {}
-				b_cantu = {}
-				b_saronno = {}
-			}
-			c_sondrio = {
-				color={ 59 153 117 }
-				color2={ 255 255 255 }
-				
-				b_morbegno = {}
-				b_tirano = {}
-				b_sondrio = {}
-				b_chiavenna = {}
-				b_livigno = {}
-				b_cosio_valtellino = {}
-				b_talamona = {}
-			}
-			c_bergamo = {
-				color={ 62 181 117 }
-				color2={ 255 255 255 }
-				
-				b_citta_alta = {}
-				b_ponte_san_pietro = {}
-				b_bergamo = {}
-				b_seriate = {}
-				b_treviglio = {}
-				b_clusone = {}
-				b_dalmine = {}
-			}
-			c_brescia = {
-				color={ 146 205 173 }
-				color2={ 255 255 255 }
-				
-				b_falcone_d_italia = {}
-				b_desenzano_del_garda = {}
-				b_brescia = {}
-				b_lumezzane = {}
-				b_palazzolo_sull_oglio = {}
-				b_rovato = {}
-				b_chiari = {}
-			}
-			c_mantua = {
-				color={ 26 187 124 }
-				color2={ 255 255 255 }
-				
-				b_mantua = {}
-				b_castiglione_delle_stiviere = {}
-				b_cremona = {}
-				b_crema = {}
-				b_casalmaggiore = {}
-				b_castelleone = {}
-				b_pandino = {}
+				b_como = {
+					romansh="Com"
+					lombard="Còmm"
+				}
+				b_varese = {
+					rhenish="Väris"
+					low_saxon="Väris"
+					ossi="Väris"
+					upper_saxon="Väris"
+					bavarian="Väris"
+					swabian="Väris"
+					austrian="Väris"
+					schwyzer="Väris"
+					lombard="Varés"
+				}
+				b_busto_arsizio = {
+					lombard="Büsti Grandi"
+				}
+				b_gallarate = {
+					lombard="Galaraa"
+				}
+				b_lecco = {
+					lombard="Lècch"
+				}
+				b_cantu = {
+					lombard="Cantuu"
+				}
+				b_saronno = {
+					lombard="Saronn"
+				}
 			}
 		}
 	}
@@ -422,18 +1072,26 @@ e_italy = {
 		color2={ 255 255 255 }
 		
 		capital = 334 # Napoli
+
+		romagnol="San Marein"
 		
 		d_san_marino = {
 			color={ 94 190 228 }
 			color2={ 255 255 255 }
 			
 			capital = 333 # Rome
+
+			romagnol="San Marein"
 			
 			c_san_marino = {
 				color={ 94 182 228 }
 				color2={ 255 255 255 }
+
+				romagnol="San Marein"
 				
-				b_san_marino = {}
+				b_san_marino = {
+					romagnol="San Marein"
+				}
 				b_borgo_maggiore = {}
 				b_dogana ={}
 				b_faetano = {}
@@ -469,9 +1127,22 @@ e_italy = {
 				b_cassino = {}
 				b_alatri = {}
 			}
-			c_roma = {
+			c_rome = {
 				color={ 134 155 146 }
 				color2={ 255 255 255 }
+
+				rhenish="Rom"
+				low_saxon="Rom"
+				ossi="Rom"
+				upper_saxon="Rom"
+				bavarian="Rom"
+				swabian="Rom"
+				austrian="Rom"
+				schwyzer="Rom"
+				neapolitan="Roma"
+				umbrian="Roma"
+				tuscan="Roma"
+				sicilian="Roma"
 				
 				b_vatican = {}
 				b_guidonia = {}
@@ -549,11 +1220,16 @@ e_italy = {
 				b_gubbio = {}
 			}
 		}
-		d_toscana = {
+		d_tuscany = {
 			color = { 222 186 25 }
 			color2={ 255 255 255 }
 			
 			capital = 328 # Firenze
+
+			neapolitan="Toscana"
+			umbrian="Toscana"
+			tuscan="Toscana"
+			sicilian="Toscana"
 			
 			c_grosseto = {
 				color={ 14 153 18 }
@@ -603,13 +1279,39 @@ e_italy = {
 				b_ponsacco = {}
 				b_santa_croce_sull_arno = {}
 			}
-			c_firenze = {
+			c_florence = {
 				color={ 16 100 60 }
 				color2={ 255 255 255 }
+
+				rhenish="Florenz"
+				low_saxon="Florenz"
+				ossi="Florenz"
+				upper_saxon="Florenz"
+				bavarian="Florenz"
+				swabian="Florenz"
+				austrian="Florenz"
+				schwyzer="Florenz"
+				neapolitan="Firenze"
+				umbrian="Firenze"
+				tuscan="Firenze"
+				sicilian="Firenze"
 			
 				b_scandicci = {}
 				b_prato = {}
-				b_florence = {}
+				b_florence = {
+					rhenish="Florenz"
+					low_saxon="Florenz"
+					ossi="Florenz"
+					upper_saxon="Florenz"
+					bavarian="Florenz"
+					swabian="Florenz"
+					austrian="Florenz"
+					schwyzer="Florenz"
+					neapolitan="Firenze"
+					umbrian="Firenze"
+					tuscan="Firenze"
+					sicilian="Firenze"
+				}
 				b_pistoia = {}
 				b_sesto_fiorentino = {}
 				b_empoli = {}
@@ -633,33 +1335,71 @@ e_italy = {
 		color = { 218 217 242 }
 		
 		capital = 334 # Napoli
+
+		rhenish="Neapel"
+		low_saxon="Neapel"
+		ossi="Neapel"
+		upper_saxon="Neapel"
+		bavarian="Neapel"
+		swabian="Neapel"
+		austrian="Neapel"
+		schwyzer="Neapel"
+		neapolitan="Napule"
+		umbrian="Napoli"
+		tuscan="Napoli"
+		sicilian="Napoli"
 		
 		d_calabria = {
 			color={ 2 78 163 }
 			color2={ 255 255 255 }
+
+			sicilian="Calàbbria"
 			
 			c_calabria = {
 				color={ 0 147 68 }
 				color2={ 255 255 255 }
+
+				sicilian="Calàbbria"
 				
-				b_reggio_calabria = {}
-				b_catanzaro = {}
-				b_vibo_valentia = {}
+				b_reggio_calabria = {
+					sicilian="Rìggiu"
+				}
+				b_catanzaro = {
+					sicilian="Catanzaru"
+				}
+				b_vibo_valentia = {
+					sicilian="Muntalaùni"
+				}
 				b_lamezia_terme = {}
-				b_vibo_valentia = {}
-				b_palmi = {}
-				b_amato = {}
+				b_palmi = {
+					sicilian="Pàrmi"
+				}
+				b_amato = {
+					sicilian="Amàtu"
+				}
 			}
 			c_cosenza = {
 				color={ 0 147 68 }
 				color2={ 255 255 255 }
+
+				sicilian="Cusenze"
 				
 				b_corigliano_rossano = {}
-				b_cosenza = {}
-				b_crotone = {}
-				b_castrovillari = {}
-				b_montalto_uffugo = {}
-				b_san_giovanni_in_fiore = {}
+				b_cosenza = {
+					sicilian="Cusenze"
+				}
+				b_crotone = {
+					sicilian="Cutrone"
+				}
+				b_castrovillari = {
+					sicilian="Castruvìddari"
+				}
+				b_montalto_uffugo = {
+					sicilian="Muntàvutu"
+				}
+				b_san_giovanni_in_fiore = {
+					sicilian="Sangiuvanni"
+				}
 				b_isola_di_capo_rizzuto = {}
 			}
 		}
@@ -668,53 +1408,123 @@ e_italy = {
 			color2={ 255 255 255 }
 			
 			capital = 347 # Apulia
-			
+
+			neapolitan="Púgghie"
+			umbrian="Puglia"
+			tuscan="Puglia"
+			sicilian="Puia"
+				
 			c_foggia = {
 				color={ 53 116 63 }
 				color2={ 255 255 255 }
+
+				neapolitan="Fògge"
 				
-				b_foggia = {}
+				b_foggia = {
+					neapolitan="Fògge"
+				}
 				b_san_giovanni_rotondo = {}
 				b_san_severo = {}
 				b_manfredonia = {}
-				b_vieste = {}
-				b_lucera = {}
-				b_cerignola = {}
+				b_vieste = {
+					neapolitan="Vìst"
+				}
+				b_lucera = {
+					neapolitan="Lucére"
+				}
+				b_cerignola = {
+					neapolitan="Ceregnòule"
+				}
 			}
 			c_bari = {
 				color={ 53 116 63 }
 				color2={ 255 255 255 }
+
+				neapolitan="Bare"
 				
-				b_bari = {}
+				b_bari = {
+					neapolitan="Bare"
+				}
 				b_trani = {}
-				b_monopoli = {}
+				b_monopoli = {
+					neapolitan="Menòpele"
+				}
 				b_andria = {}
-				b_bisceglie = {}
-				b_altamura = {}
-				b_gravina_in_puglia = {}
+				b_bisceglie = {
+					neapolitan="Vescégghie"
+				}
+				b_altamura = {
+					neapolitan="Ialtamùre"
+				}
+				b_gravina_in_puglia = {
+					neapolitan="Gravéine"
+				}
 			}
 			c_salento = {
 				color={ 49 150 95 }
 				color2={ 255 255 255 }
+
+				rhenish="Salent"
+				low_saxon="Salent"
+				ossi="Salent"
+				upper_saxon="Salent"
+				bavarian="Salent"
+				swabian="Salent"
+				austrian="Salent"
+				schwyzer="Salent"
+				sicilian="Salentu"
 				
-				b_taranto = {}
-				b_lecce = {}
-				b_brindisi = {}
-				b_otranto = {}
-				b_gallipoli_it = {}
-				b_altamura = {}
-				b_ostuni = {}
+				b_taranto = {
+					rhenish="Tarent"
+					low_saxon="Tarent"
+					ossi="Tarent"
+					upper_saxon="Tarent"
+					bavarian="Tarent"
+					swabian="Tarent"
+					austrian="Tarent"
+					schwyzer="Tarent"
+					neapolitan="Tarde"
+				}
+				b_lecce = {
+					sicilian="Lècce"
+				}
+				b_brindisi = {
+					sicilian="Brìnnisi"
+				}
+				b_otranto = {
+					sicilian="Utràntu"
+				}
+				b_gallipoli = {
+					sicilian="Caddìpuli"
+				}
+				b_altamura = {
+					neapolitan="Ialtamùre"
+				}
+				b_ostuni = {
+					neapolitan="Ostune"
+					sicilian="Stune"
+				}
 			}
 			c_basilicata = {
 				color={ 47 121 81 }
 				color2={ 255 255 255 }
 				
-				b_potenza = {}
+				b_potenza = {
+					neapolitan="Putenza"
+				}
 				b_matera = {}
-				b_policoro = {}
-				b_pisticci = {}
-				b_bernalda = {}
-				b_montescaglioso = {}
+				b_policoro = {
+					neapolitan="Pulecòre"
+				}
+				b_pisticci = {
+					neapolitan="Pestìzze"
+				}
+				b_bernalda = {
+					neapolitan="Bernàlle"
+				}
+				b_montescaglioso = {
+					neapolitan="Mònde"
+				}
 				b_anzi = {}
 			}
 		}
@@ -726,13 +1536,39 @@ e_italy = {
 			
 			capital = 347 # Apulia
 			
-			c_napoli = {
+			c_naples = {
 				color={ 53 116 63 }
 				color2={ 255 255 255 }
+
+				rhenish="Neapel"
+				low_saxon="Neapel"
+				ossi="Neapel"
+				upper_saxon="Neapel"
+				bavarian="Neapel"
+				swabian="Neapel"
+				austrian="Neapel"
+				schwyzer="Neapel"
+				neapolitan="Napule"
+				umbrian="Napoli"
+				tuscan="Napoli"
+				sicilian="Napoli"
 				
 				b_caserta = {}
 				b_nola = {}
-				b_napoli = {}
+				b_naples = {
+					rhenish="Neapel"
+					low_saxon="Neapel"
+					ossi="Neapel"
+					upper_saxon="Neapel"
+					bavarian="Neapel"
+					swabian="Neapel"
+					austrian="Neapel"
+					schwyzer="Neapel"
+					neapolitan="Napule"
+					umbrian="Napoli"
+					tuscan="Napoli"
+					sicilian="Napoli"
+				}
 				b_giugliano_in_campania = {}
 				b_torre_del_greco = {}
 				b_pozzuoli = {}
@@ -741,11 +1577,17 @@ e_italy = {
 			c_benevento = {
 				color={ 32 101 43 }
 				color2={ 255 255 255 }
+	
+				neapolitan="Beneviento"
 				
-				b_benevento = {}
+				b_benevento = {
+					neapolitan="Beneviento"
+				}
 				b_ariano_irpino = {}
 				b_avellino = {}
-				b_montesarchio = {}
+				b_montesarchio = {
+					neapolitan="Muntesarchio"
+				}
 				b_sant_agata_de_goti = {}
 				b_san_marco_dei_cavoti = {}
 				b_apice = {}
@@ -753,13 +1595,23 @@ e_italy = {
 			c_salerno = {
 				color={ 27 138 45 }
 				color2={ 255 255 255 }
+
+				neapolitan="Salierno"
 				
-				b_salerno = {}
-				b_cava_de_tirreni = {}
+				b_salerno = {
+					neapolitan="Salierno"
+				}
+				b_cava_de_tirreni = {
+					neapolitan="'A Cava"
+				}
 				b_battipaglia = {}
-				b_nocera_inferiore = {}
+				b_nocera_inferiore = {
+					neapolitan="Nucere"
+				}
 				b_amalfi = {}
-				b_vietri_sul_mare = {}
+				b_vietri_sul_mare = {
+					neapolitan="Vietre"
+				}
 				b_cetara = {}
 			}
 		}
@@ -768,16 +1620,24 @@ e_italy = {
 			color2={ 255 255 255 }
 
 			capital = 929 # Teramo
+
+			neapolitan="Abbrùzze"
 			
 			c_molise = {
 				color={ 51 124 41 }
 				color2={ 255 255 255 }
+
+				neapolitan="Mulise"
 				
-				b_campobasso = {}
+				b_campobasso = {
+					neapolitan="Cambuàsce"
+				}
 				b_termoli = {}
 				b_isernia = {}
 				b_campomarino = {}
-				b_larino = {}
+				b_larino = {
+					neapolitan="Larìne"
+				}
 				b_guglionesi = {}
 				b_riccia = {}
 			}
@@ -787,7 +1647,9 @@ e_italy = {
 				
 				b_pescara = {}
 				b_chieti = {}
-				b_teramo = {}
+				b_teramo = {
+					neapolitan="Tèreme"
+				}
 				b_isola_del_gran_sasso_d_italia = {}
 				b_lanciano = {}
 				b_vasto = {}
@@ -814,87 +1676,227 @@ e_italy = {
 		capital = 590 #	Palermo
 		
 		culture = italian
+
+		neapolitan="Sicilia"
+		umbrian="Sicilia"
+		tuscan="Sicilia"
+		sicilian="Sicilia"
 		
 		d_palermo = {
 			color={ 219 183 16 }
 			color2={ 255 255 255 }
+
+			sicilian="Palermu"
 			
 			c_palermo = {
 				color={ 219 183 16 }
 				color2={ 255 255 255 }
+
+				sicilian="Palermu"
 				
-				b_palermo = {}
-				b_bagheria = {}
-				b_monreale = {}
+				b_palermo = {
+					sicilian="Palermu"
+				}
+				b_bagheria = {
+					sicilian="Baarìa"
+				}
+				b_monreale = {
+					sicilian="Murriali"
+				}
 				b_carini = {}
-				b_partinico = {}
-				b_misilmeri = {}
-				b_termini_imerese = {}
+				b_partinico = {
+					sicilian="Partinicu"
+				}
+				b_misilmeri = {
+					sicilian="Musulumeli"
+				}
+				b_termini_imerese = {
+					sicilian="Tèrmini"
+				}
 			}
 			c_trapani = {
 				color={ 213 202 16 }
 				color2={ 255 255 255 }
+
+				sicilian="Tràpani"
 				
-				b_trapani = {}
-				b_marsala = {}
-				b_mazara_del_vallo = {}
-				b_alcamo = {}
-				b_castelvetrano = {}
-				b_erice = {}
-				b_castellammare_del_golfo = {}
+				b_trapani = {
+					sicilian="Tràpani"
+				}
+				b_marsala = {
+					sicilian="Maissala"
+				}
+				b_mazara_del_vallo = {
+					sicilian="Mazzara"
+				}
+				b_alcamo = {
+					sicilian="Àrcamu"
+				}
+				b_castelvetrano = {
+					sicilian="Castidduvitranu"
+				}
+				b_erice = {
+					sicilian="Èrici"
+				}
+				b_castellammare_del_golfo = {
+					sicilian="Casteddammari"
+				}
 			}
 			c_agrigento = {
 				color={ 213 202 16 }
 				color2={ 255 255 255 }
+
+				rhenish="Agrigent"
+				low_saxon="Agrigent"
+				ossi="Agrigent"
+				upper_saxon="Agrigent"
+				bavarian="Agrigent"
+				swabian="Agrigent"
+				austrian="Agrigent"
+				schwyzer="Agrigent"
+				sicilian="Girgenti"
 				
-				b_agrigento = {}
+				b_agrigento = {
+					rhenish="Agrigent"
+					low_saxon="Agrigent"
+					ossi="Agrigent"
+					upper_saxon="Agrigent"
+					bavarian="Agrigent"
+					swabian="Agrigent"
+					austrian="Agrigent"
+					schwyzer="Agrigent"
+					sicilian="Girgenti"
+				}
 				b_sciacca = {}
 				b_licata = {}
-				b_canicatti = {}
+				b_canicatti = {
+					sicilian="Caniattì"		
+				}
 				b_favara = {}
-				b_palma_di_montechiaro = {}
-				b_ribera = {}
+				b_palma_di_montechiaro = {
+					sicilian="Parma di Muntichiaru"
+				}
+				b_ribera = {
+					sicilian="Rivela"
+				}
 			}
 		}
-		d_siracusa = {
+		d_syracuse = {
 			color={ 229 206 137 }
 			color2={ 255 255 255 }
+
+			rhenish="Syrakus"
+			low_saxon="Syrakus"
+			ossi="Syrakus"
+			upper_saxon="Syrakus"
+			bavarian="Syrakus"
+			swabian="Syrakus"
+			austrian="Syrakus"
+			schwyzer="Syrakus"
+			neapolitan="Siracusa"
+			umbrian="Siracusa"
+			tuscan="Siracusa"
+			sicilian="Sarausa"
 			
-			c_siracusa = {
+			c_syracuse = {
 				color={ 221 245 56 }
 				color2={ 255 255 255 }
+
+				rhenish="Syrakus"
+				low_saxon="Syrakus"
+				ossi="Syrakus"
+				upper_saxon="Syrakus"
+				bavarian="Syrakus"
+				swabian="Syrakus"
+				austrian="Syrakus"
+				schwyzer="Syrakus"
+				neapolitan="Siracusa"
+				umbrian="Siracusa"
+				tuscan="Siracusa"
+				sicilian="Sarausa"
 				
-				b_siracusa = {}
-				b_ragusa = {}
-				b_augusta = {}
-				b_avola = {}
-				b_lentini = {}
-				b_noto = {}
-				b_floridia = {}
+				b_syracuse = {
+					rhenish="Syrakus"
+					low_saxon="Syrakus"
+					ossi="Syrakus"
+					upper_saxon="Syrakus"
+					bavarian="Syrakus"
+					swabian="Syrakus"
+					austrian="Syrakus"
+					schwyzer="Syrakus"
+					neapolitan="Siracusa"
+					umbrian="Siracusa"
+					tuscan="Siracusa"
+					sicilian="Sarausa"
+				}
+				b_ragusa = {
+					sicilian="Rausa"
+				}
+				b_augusta = {
+					sicilian="Austa"
+				}
+				b_avola = {
+					sicilian="Àula"
+				}
+				b_lentini = {
+					sicilian="Lintini"
+				}
+				b_noto = {
+					sicilian="Notu"
+				}
+				b_floridia = {
+					sicilian="Ciuriddia"
+				}
 			}
 			c_catania = {
 				color={ 240 255 142 }
 				color2={ 255 255 255 }
 				
 				b_catania = {}
-				b_acireale = {}
-				b_paterno = {}
-				b_misterbianco = {}
-				b_caltagirone = {}
-				b_adrano = {}
-				b_mascalucia = {}
+				b_acireale = {
+					sicilian="Jaciriali"
+				}
+				b_paterno = {
+					sicilian="Patennò"
+				}
+				b_misterbianco = {
+					sicilian="Mustarjancu"
+				}
+				b_caltagirone = {
+					sicilian="Caltaggiruni"
+				}
+				b_adrano = {
+					sicilian="Adranu"
+				}
+				b_mascalucia = {
+					sicilian="Mascalucìa"
+				}
 			}
 			c_messina = {
 				color={ 217 224 170 }
 				color2={ 255 255 255 }
+
+				sicilian="Missina"
 				
-				b_messina = {}
-				b_barcellona_pozzo_di_gotto = {}
-				b_milazzo = {}
+				b_messina = {
+					sicilian="Missina"
+				}
+				b_barcellona_pozzo_di_gotto = {
+					sicilian="Baccialona Pizzaottu"
+				}
+				b_milazzo = {
+					sicilian="Milazzu"
+				}
 				b_patti = {}
-				b_capo_d'orlando = {}
-				b_sant'agata_di_militello = {}
-				b_lipari = {}
+				b_capo_d_orlando = {
+					sicilian="Capu d'Orlando"
+				}
+				b_sant_agata_di_militello = {
+					sicilian="Sant'Àita di Militieddu"
+				}
+				b_lipari = {
+					sicilian="Lìpari"
+				}
 			}
 		}
 		d_malta = {
@@ -909,7 +1911,7 @@ e_italy = {
 				color={ 208 12 39 }
 				color2={ 255 255 255 }
 				
-				b_birgu_mt = {}
+				b_birgu = {}
 				b_valletta = {}
 				b_st_pauls_bay = {}
 				b_victoria = {}
@@ -926,60 +1928,126 @@ e_italy = {
 		capital = 326 # Cagliari
 		
 		culture = italian
+
+		neapolitan="Sardegna"
+		umbrian="Sardegna"
+		tuscan="Sardegna"
+		sicilian="Sardegna"
+		sardinian="Sardìgna"
 		
 		d_sardinia = {
 			color={ 217 159 255 }
 			color2={ 255 255 255 }
 			
 			capital = 326 # Cagliari
+
+			neapolitan="Sardegna"
+			umbrian="Sardegna"
+			tuscan="Sardegna"
+			sicilian="Sardegna"
+			sardinian="Sardìgna"
 			
 			c_cagliari = {
 				color={ 21 39 86 }
 				color2={ 255 255 255 }
+
+				sardinian="Casteddu"
 				
-				b_cagliari = {}
-				b_quartu_sant_elena = {}
-				b_selargius = {}
-				b_assemini = {}
-				b_capoterra = {}
+				b_cagliari = {
+					sardinian="Casteddu"
+				}
+				b_quartu_sant_elena = {
+					sardinian="Cuartu Sant'Aleni"
+				}
+				b_selargius = {
+					sardinian="Ceraxius"
+				}
+				b_assemini = {
+					sardinian="Assèmini"
+				}
+				b_capoterra = {
+					sardinian="Cabuderra"
+				}
 				b_sestu = {}
-				b_monserrato = {}
+				b_monserrato = {
+					sardinian="Paùli"
+				}
 			}
 			c_oristano = {
 				color={ 48 74 141 }
 				color2={ 255 255 255 }
+
+				sardinian="Aristanis"
 				
-				b_oristano = {}
-				b_terralba = {}
-				b_cabras = {}
+				b_oristano = {
+					sardinian="Aristanis"
+				}
+				b_terralba = {
+					sardinian="Terraba"
+				}
+				b_cabras = {
+					sardinian="Crabas"
+				}
 				b_bosa = {}
-				b_marrubiu = {}
-				b_santa_giusta = {}
-				b_ghilarza = {}
+				b_marrubiu = {
+					sardinian="Marrùbiu"
+				}
+				b_santa_giusta = {
+					sardinian="Santa Justa"
+				}
+				b_ghilarza = {
+					sardinian="Ilàrtzi"
+				}
 			}
 			c_nuoro = {
 				color={ 48 74 141 }
 				color2={ 255 255 255 }
+
+				sardinian="Nùgoro"
 				
-				b_nuoro = {}
-				b_siniscola = {}
-				b_macomer = {}
-				b_dorgali = {}
-				b_oliena = {}
-				b_orosei = {}
+				b_nuoro = {
+					sardinian="Nùgoro"
+				}
+				b_siniscola = {
+					sardinian="Thiniscòle"
+				}
+				b_macomer = {
+					sardinian="Macumere"
+				}
+				b_dorgali = {
+					sardinian="Durgali"
+				}
+				b_oliena = {
+					sardinian="Ulìana"
+				}
+				b_orosei = {
+					sardinian="Orosèi"
+				}
 				b_santa_maria_navarrese = {}
 			}
 			c_sassari = {
 				color={ 21 50 124 }
 				color2={ 255 255 255 }
+
+				sardinian="Tàtari"
 				
-				b_sassari = {}
-				b_olbia = {}
-				b_alghero = {}
-				b_porto_torres = {}
+				b_sassari = {
+					sardinian="Tàtari"
+				}
+				b_olbia = {
+					sardinian="Terranoa"
+				}
+				b_alghero = {
+					sardinian="S'Alighèra"
+				}
+				b_porto_torres = {
+					sardinian="Portu Turre"
+				}
 				b_tempio_pausania = {}
 				b_sorso = {}
-				b_ozieri = {}
+				b_ozieri = {
+					sardinian="Otieri"
+				}
 			}
 		}
 	}

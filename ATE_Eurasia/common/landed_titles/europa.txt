@@ -564,6 +564,7 @@ e_europa = {
 			color={ 250 135 42 }
 			color2={ 255 255 255 }
 
+			low_saxon="Freesland"
 			frisian="Fryslân"
 			walloon="Frise"
 			chti="Frise"
@@ -575,6 +576,7 @@ e_europa = {
 				color={ 217 195 62 }
 				color2={ 255 255 255 }
 
+				low_saxon="Freesland"
 				frisian="Fryslân"
 				walloon="Frise"
 				chti="Frise"
@@ -592,6 +594,7 @@ e_europa = {
 				color={ 217 195 62 }
 				color2={ 255 255 255 }
 
+				low_saxon="Grönnen"
 				frisian="Grinslân"
 				walloon="Groningue"
 				chti="Groningue"
@@ -664,7 +667,10 @@ e_europa = {
 					chti="Crevelt"
 					parisian="Crevelt"
 				}
-				b_xanten = {}
+				b_xanten = {
+					dutch="Santen"
+					flemish="Santen"
+				}
 				b_viersen = {}
 				b_willich = {}
 				b_goch = {}
@@ -708,12 +714,20 @@ e_europa = {
 				color={ 0 57 45 }
 				color2={ 255 255 255 }
 
+				dutch="Aken"
+				flemish="Aken"
 				walloon="Aix-la-Chapelle"
 				chti="Aix-la-Chapelle"
 				parisian="Aix-la-Chapelle"
 
-				b_eschweiler = {}
+				b_eschweiler = {
+					walloon="Exvilliers"
+					chti="Exvilliers"
+					parisian="Exvilliers"
+				}
 				b_aachen = {
+					dutch="Aken"
+					flemish="Aken"
 					walloon="Aix-la-Chapelle"
 					chti="Aix-la-Chapelle"
 					parisian="Aix-la-Chapelle"
@@ -754,6 +768,7 @@ e_europa = {
 				schwyzer="Ruhrgebiet"
 
 				b_dortmund = {
+					low_saxon="Düörpm"
 					walloon="Trémoigne"
 					chti="Trémoigne"
 					parisian="Trémoigne"
@@ -764,7 +779,9 @@ e_europa = {
 					chti="Duisbourg"
 					parisian="Duisbourg"
 				}
-				b_bochum = {}
+				b_bochum = {
+					low_saxon="Baukem"
+				}
 				b_gelsenkirchen = {}
 				b_oberhausen = {}
 				b_hagen = {}
@@ -776,8 +793,16 @@ e_europa = {
 				color={ 145 149 181 }
 				color2={ 255 255 255 }
 
+				low_saxon="Düsseldorp"
+				dutch="Dusseldorp"
+				flemish="Dusseldorp"
+
 				b_wuppertal = {}
-				b_dusseldorf = {}
+				b_dusseldorf = {
+					low_saxon="Düsseldorp"
+					dutch="Dusseldorp"
+					flemish="Dusseldorp"
+				}
 				b_solingen = {}
 				b_leverkusen = {}
 				b_langenfeld = {}
@@ -798,6 +823,8 @@ e_europa = {
 			bavarian="Pfalz"
 			swabian="Pfalz"
 			austrian="Pfalz"
+			dutch="Palts"
+			flemish="Palts"
 			
 			c_koblenz = {
 				color={ 126 141 59 }
@@ -842,27 +869,43 @@ e_europa = {
 					chti="Sarrebruck"
 					parisian="Sarrebruck"
 				}
-				b_neunkirchen = {}
+				b_neunkirchen = {
+					walloon="Neufeglises"
+					chti="Neufeglises"
+					parisian="Neufeglises"
+				}
 				b_volklingen = {}
-				b_sankt_ingbert = {}
+				b_sankt_ingbert = {
+					walloon="Saint-Ingbert"
+					chti="Saint-Ingbert"
+					parisian="Saint-Ingbert"
+				}
 				b_saarlouis = {
 					walloon="Sarrelouis"
 					chti="Sarrelouis"
 					parisian="Sarrelouis"
 				}
-				b_sankt_wendel = {}
+				b_sankt_wendel = {
+					walloon="Saint-Wendel"
+					chti="Saint-Wendel"
+					parisian="Saint-Wendel"
+				}
 			}
 			
 			c_mainz = {
 				color={ 47 40 125 }
 				color2={ 255 255 255 }
 
+				dutch="Ments"
+				flemish="Ments"
 				walloon="Mayence"
 				chti="Mayence"
 				parisian="Mayence"
 
 				b_ingelheim_am_rhein = {}
 				b_mainz = {
+					dutch="Ments"
+					flemish="Ments"
 					walloon="Mayence"
 					chti="Mayence"
 					parisian="Mayence"
@@ -877,18 +920,30 @@ e_europa = {
 				color={ 61 54 133 }
 				color2={ 255 255 255 }
 
+				walloon="Port-Louis"
+				chti="Port-Louis"
+				parisian="Port-Louis"
+
 				b_kaiserslautern = {
 					walloon="Caseloutre"
 					chti="Caseloutre"
 					parisian="Caseloutre"
 				}
-				b_ludwigshafen = {}
+				b_ludwigshafen = {
+					walloon="Port-Louis-sur-le-Rhin"
+					chti="Port-Louis-sur-le-Rhin"
+					parisian="Port-Louis-sur-le-Rhin"
+				}
 				b_speyer = {
 					walloon="Spire"
 					chti="Spire"
 					parisian="Spire"
 				}
-				b_frankenthal = {}
+				b_frankenthal = {
+					walloon="Franckendhal"
+					chti="Franckendhal"
+					parisian="Franckendhal"
+				}
 				b_neustadt_an_der_weinstrasse = {}
 				b_pirmasens = {}
 				b_zweibrucken = {
@@ -909,6 +964,9 @@ e_europa = {
 
 				b_bitburg = {
 					luxembourger="Béibreg"
+					walloon="Bitbourg"
+					chti="Bitbourg"
+					parisian="Bitbourg"
 				}
 				b_trier = {
 					luxembourger="Tréier"
@@ -973,10 +1031,10 @@ e_europa = {
 				parisian="Francfort"
 
 				b_offenbach_am_main = {}
-				b_frankfurt = {
-					walloon="Francfort"
-					chti="Francfort"
-					parisian="Francfort"
+				b_frankfurt_am_main = {
+					walloon="Francfort-sur-le-Main"
+					chti="Francfort-sur-le-Main"
+					parisian="Francfort-sur-le-Main"
 				}
 				b_hanau = {}
 				b_gelnhausen = {}
@@ -1057,16 +1115,34 @@ e_europa = {
 			color2={ 255 255 255 }
 			
 			capital = 359 #Bielefeld
+
+			walloon="Westphalie"
+			chti="Westphalie"
+			parisian="Westphalie"
 			
 			c_munster = {
 				color={ 126 51 44 }
 				color2={ 255 255 255 }
 
-				b_borken = {}
-				b_munster = {}
-				b_steinfurt = {}
+				low_saxon="Mönster"
+				dutch="Munster"
+				flemish="Munster"
+
+				b_borken = {
+					low_saxon="Buorken"
+				}
+				b_munster = {
+					low_saxon="Mönster"
+					dutch="Munster"
+					flemish="Munster"
+				}
+				b_steinfurt = {
+					low_saxon="Stemmert"
+				}
 				b_coesfeld = {}
-				b_emsdetten = {}
+				b_emsdetten = {
+					low_saxon="Detten"
+				}
 				b_greven = {}
 				b_dulmen = {}
 			}
@@ -1074,10 +1150,16 @@ e_europa = {
 				color={ 124 74 69 }
 				color2={ 255 255 255 }
 
-				b_gutersloh = {}
+				b_gutersloh = {
+					low_saxon="Gütsel"
+				}
 				b_bielefeld = {}
-				b_herford = {}
-				b_warendorf = {}
+				b_herford = {
+					low_saxon="Hiärwede"
+				}
+				b_warendorf = {
+					low_saxon="Warnduorp"
+				}
 				b_rheda_wiedenbruck = {}
 				b_oelde = {}
 				b_beckum = {}
@@ -1109,6 +1191,9 @@ e_europa = {
 		bavarian="Niedersachsen"
 		swabian="Niedersachsen"
 		austrian="Niedersachsen"
+		dutch="Nedersaksen"
+		flemish="Nedersaksen"
+		frisian="Läichsaksen"
 		walloon="Basse-Saxe"
 		chti="Basse-Saxe"
 		parisian="Basse-Saxe"
@@ -1117,6 +1202,8 @@ e_europa = {
 			color={ 119 105 96 }
 			color2={ 255 255 255 }
 
+			low_saxon="Ollnborg"
+			frisian="Ooldenbuurich"
 			walloon="Le Vieux-Bourg"
 			chti="Le Vieux-Bourg"
 			parisian="Le Vieux-Bourg"
@@ -1127,32 +1214,55 @@ e_europa = {
 				color={ 34 35 123 }
 				color2={ 255 255 255 }
 
+				low_saxon="Ollnborg"
+				frisian="Ooldenbuurich"
 				walloon="Le Vieux-Bourg"
 				chti="Le Vieux-Bourg"
 				parisian="Le Vieux-Bourg"
 
-				b_delmenhorst = {}
+				b_delmenhorst = {
+					low_saxon="Demost"
+				}
 				b_oldenburg = {
+					low_saxon="Ollnborg"
+					frisian="Ooldenbuurich"
 					walloon="Le Vieux-Bourg"
 					chti="Le Vieux-Bourg"
 					parisian="Le Vieux-Bourg"
 				}
-				b_wildeshausen = {}
+				b_wildeshausen = {
+					low_saxon="Wilshusen"
+				}
 				b_brake = {}
 				b_nordenham = {}
-				b_wardenburg = {}
-				b_rastede = {}
+				b_wardenburg = {
+					low_saxon="Wardenborg"
+				}
+				b_rastede = {
+					low_saxon="Raastäe"
+				}
 			}
 			c_emsland = {
 				color={ 84 48 171 }
 				color2={ 255 255 255 }
 
+				low_saxon="Eemsland"
+				dutch="Eemsland"
+				flemish="Eemsland"
+				frisian="Oamselân"
+
 				b_meppen = {}
 				b_lingen = {}
-				b_nordhorn = {}
-				b_papenburg = {}
+				b_nordhorn = {
+					low_saxon="Northorn"
+				}
+				b_papenburg = {
+					low_saxon="Papenborg"
+				}
 				b_haren = {}
-				b_bad_bentheim = {}
+				b_bad_bentheim = {
+					low_saxon="Beantem"
+				}
 				b_haselunne = {}
 			}
 			c_east_frisia = {
@@ -1160,7 +1270,7 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				rhenish="Ostfriesland"
-				low_saxon="Ostfräisland"
+				low_saxon="Ostfreesland"
 				ossi="Ostfriesland"
 				upper_saxon="Ostfriesland"
 				bavarian="Ostfriesland"
@@ -1171,8 +1281,13 @@ e_europa = {
 				frisian="Eastfryslân"
 
 				b_emden = {}
-				b_wilhemshaven = {}
-				b_aurich = {}
+				b_wilhemshaven = {
+					low_saxon="Wilmshoben"
+				}
+				b_aurich = {
+					low_saxon="Auerk"
+					frisian="Auwerk"
+				}
 				b_leer = {}
 				b_norden = {}
 				b_wittmund = {}
@@ -1182,13 +1297,27 @@ e_europa = {
 				color={ 0 3 225 }
 				color2={ 255 255 255 }
 
-				b_westerstede = {}
-				b_cloppenburg = {}
-				b_bad_zwischenahn = {}
-				b_friesoythe = {}
+				frisian="Ammerlân"
+
+				b_westerstede = {
+					low_saxon="Westerstäe"
+				}
+				b_cloppenburg = {
+					low_saxon="Cloppenborg"
+				}
+				b_bad_zwischenahn = {
+					low_saxon="Twüschenahn"
+				}
+				b_friesoythe = {
+					frisian="Äit"
+				}
 				b_loningen = {}
-				b_apen = {}
-				b_quackenbruck = {}
+				b_apen = {
+					low_saxon="Aap"
+				}
+				b_quackenbruck = {
+					low_saxon="Quakenbrügge"
+				}
 			}
 			c_osnabruck = {
 				color={ 78 107 161 }
@@ -1211,6 +1340,7 @@ e_europa = {
 			color={ 107 122 109 }
 			color2={ 255 255 255 }
 
+			low_saxon="Breem"
 			walloon="Brême"
 			chti="Brême"
 			parisian="Brême"
@@ -1221,21 +1351,33 @@ e_europa = {
 				color={ 127 165 44 }
 				color2={ 255 255 255 }
 
+				low_saxon="Breem"
 				walloon="Brême"
 				chti="Brême"
 				parisian="Brême"
 
 				b_bremen = {
+					low_saxon="Breem"
 					walloon="Brême"
 					chti="Brême"
 					parisian="Brême"
 				}
-				b_bremerhaven = {}
-				b_verden = {}
-				b_cuxhaven = {}
-				b_stade = {}
+				b_bremerhaven = {
+					low_saxon="Bremerhoben"
+				}
+				b_verden = {
+					low_saxon="Veern"
+				}
+				b_cuxhaven = {
+					low_saxon="Cuxhoben"
+				}
+				b_stade = {
+					low_saxon="Stood"
+				}
 				b_bremervorde = {}
-				b_osterholz_scharmbeck = {}
+				b_osterholz_scharmbeck = {
+					low_saxon="Oosterholt-Scharmbeek"
+				}
 			}
 			c_celle = {
 				color={ 133 169 122 }
@@ -1244,8 +1386,12 @@ e_europa = {
 				b_bad_fallingbostel = {}
 				b_celle = {}
 				b_walsrode = {}
-				b_rotenburg_an_der_wumme = {}
-				b_schneverdingen = {}
+				b_rotenburg_an_der_wumme = {
+					low_saxon="Rodenborg an der Wümm"
+				}
+				b_schneverdingen = {
+					low_saxon="Snevern"
+				}
 				b_soltau = {}
 				b_bremervorde = {}
 			}
@@ -1259,7 +1405,9 @@ e_europa = {
 				chti="Lunebourg"
 				parisian="Lunebourg"
 
-				b_uelzen = {}
+				b_uelzen = {
+					low_saxon="Ülzn"
+				}
 				b_luneburg = {
 					low_saxon="Lümborg"
 					sorbian="Glain"
@@ -1267,18 +1415,30 @@ e_europa = {
 					chti="Lunebourg"
 					parisian="Lunebourg"
 				}
-				b_bleckede = {}
-				b_luchow = {}
-				b_bienenbuttel = {}
-				b_dannenberg = {}
+				b_bleckede = {
+					sorbian="Bleketsa"
+				}
+				b_luchow = {
+					sorbian="Ljauchüw"
+				}
+				b_bienenbuttel = {
+					low_saxon="Bienenbüddel"
+				}
+				b_dannenberg = {
+					low_saxon="Dannenbarg"
+					sorbian="Woikam"
+				}
 				b_amt_neuhaus = {}
-				b_adendorf = {}
+				b_adendorf = {
+					low_saxon="Adendörp"
+				}
 			}
 		}
 		d_hannover = {
 			color={ 107 142 104 }
 			color2={ 255 255 255 }
 
+			low_saxon="Hannober"
 			walloon="Hanovre"
 			chti="Hanovre"
 			parisian="Hanovre"
@@ -1289,35 +1449,49 @@ e_europa = {
 				color={ 16 173 90 }
 				color2={ 255 255 255 }
 
-				b_diepholz = {}
+				low_saxon="Werser"
+
+				b_diepholz = {
+					low_saxon="Deefholt"
+				}
 				b_nienburg = {
 					low_saxon="Neenborg"
 				}
 				b_rehburg_loccum = {}
 				b_sulingen = {}
-				b_twistringen = {}
-				b_bassum = {}
+				b_twistringen = {
+					low_saxon="Twustern"
+				}
+				b_bassum = {
+					low_saxon="Bassen"
+				}
 				b_syke = {}
 			}
 			c_hannover = {
 				color={ 126 135 29 }
 				color2={ 255 255 255 }
 
+				low_saxon="Hannober"
 				walloon="Hanovre"
 				chti="Hanovre"
 				parisian="Hanovre"
 
 				b_garbsen = {}
 				b_hannover = {
+					low_saxon="Hannober"
 					walloon="Hanovre"
 					chti="Hanovre"
 					parisian="Hanovre"
 				}
-				b_langenhagen = {}
+				b_langenhagen = {
+					low_saxon="Langenhogen"
+				}
 				b_wunstorf = {}
 				b_laatzen = {}
 				b_lehrte = {}
-				b_barsinghausen = {}
+				b_barsinghausen = {
+					low_saxon="Baschehusen"
+				}
 			}
 			c_brunswick = {
 				color={ 111 118 38 }
@@ -1331,44 +1505,82 @@ e_europa = {
 				swabian="Braunschweig"
 				austrian="Braunschweig"
 
-				b_wolfsburg = {}
-				b_braunschweig = {
-					low_saxon="Brunswiek"
+				b_wolfsburg = {
+					low_german="Wulfsborg"
 				}
-				b_wolfenbuttel = {}
-				b_salzgitter = {}
-				b_hildesheim = {}
+				b_brunswick = {
+					rhenish="Braunschweig"
+					low_saxon="Brunswiek"
+					ossi="Braunschweig"
+					upper_saxon="Braunschweig"
+					bavarian="Braunschweig"
+					swabian="Braunschweig"
+					austrian="Braunschweig"
+				}
+				b_wolfenbuttel = {
+					low_saxon="Wulfenbüddel"
+				}
+				b_salzgitter = {
+					low_saxon="Soltgitter"
+				}
+				b_hildesheim = {
+					low_saxon="Hilmessen"
+				}
 				b_gifhorn = {}
-				b_helmstedt = {}
-				b_peine = {}
+				b_helmstedt = {
+					low_saxon="Helmstidde"
+				}
+				b_peine = {
+					low_saxon="Paane"
+				}
 			}
 			c_schaumburg_lippe = {
 				color={ 112 113 23 }
 				color2={ 255 255 255 }
+
+				low_saxon="Schomborg-Lippe"
 
 				b_hameln = {
 					walloon="Hamelin"
 					chti="Hamelin"
 					parisian="Hamelin"
 				}
-				b_detmold = {}
-				b_bad_salzuflen = {}
-				b_stadthagen = {}
-				b_holzminden = {}
-				b_horn_bad_meinberg = {}
-				b_oerlinghausen = {}
+				b_detmold = {
+					low_saxon="Deppelt"
+				}
+				b_bad_salzuflen = {
+					low_saxon="Iufeln"
+				}
+				b_stadthagen = {
+					low_saxon="Stiddehogen"
+				}
+				b_holzminden = {
+					low_saxon="Holtminden"
+				}
+				b_horn_bad_meinberg = {
+					low_saxon="Häoern-Möomag"
+				}
+				b_oerlinghausen = {
+					low_saxon="Ankhiusen"
+				}
 			}
 			c_gottingen = {
 				color={ 58 142 98 }
 				color2={ 255 255 255 }
 
+				low_saxon="Chöttingen"
+
 				b_goslar = {}
-				b_gottingen = {}
+				b_gottingen = {
+					low_saxon="Chöttingen"
+				}
 				b_northeim = {}
 				b_einbeck = {}
 				b_seesen = {}
 				b_bovenden = {}
-				b_rosdorf = {}
+				b_rosdorf = {
+					low_saxon="Rosdörp"
+				}
 			}
 		}
 		d_hansa = {
@@ -1393,22 +1605,38 @@ e_europa = {
 					chti="Hambourg"
 					parisian="Hambourg"
 				}
-				b_itzehoe = {}
+				b_itzehoe = {
+					low_saxon="Itzhoe"
+				}
 				b_altona = {}
 				b_gluckstadt = {}
-				b_pinneberg = {}
-				b_elmshorn = {}
+				b_pinneberg = {
+					low_saxon="Pinnbarg"
+				}
+				b_elmshorn = {
+					low_saxon="Elveshorn"
+				}
 				b_uetersen = {}
 			}
 			c_lubeck = {
 				color={ 84 147 31 }
 				color2={ 255 255 255 }
 
-				b_bad_schwartau = {}
-				b_lubeck = {}
-				b_ratzeburg = {}
+				low_saxon="Lübeek"
+
+				b_bad_schwartau = {
+					low_saxon="Bad Swartau"
+				}
+				b_lubeck = {
+					low_saxon="Lübeek"
+				}
+				b_ratzeburg = {
+					low_saxon="Ratzborg"
+				}
 				b_bad_odesloe = {}
-				b_bad_segeberg = {}
+				b_bad_segeberg = {
+					low_saxon="Sebarg"
+				}
 				b_molln = {}
 				b_eutin = {}
 			}
@@ -1421,17 +1649,36 @@ e_europa = {
 			capital = 381 #Kiel
 
 			low_saxon="Sleswig-Holsteen"
+			frisian="Slaswik-Holstiinj"
+			dutch="Sleeswijk-Holstein"
+			flemish="Sleeswijk-Holstein"
 			
 			c_dithmarschen = {
 				color={ 168 153 32 }
 				color2={ 255 255 255 }
 
-				b_heide = {}
-				b_friedrichstadt = {}
-				b_tonning = {}
-				b_meldorf = {}
-				b_brunsbuttel = {}
-				b_sankt_peter_ording = {}
+				b_heide = {
+					low_saxon="De Heid"
+				}
+				b_friedrichstadt = {
+					low_saxon="Friesstadt"
+					frisian="Fräärstää"
+					dutch="Frederikstad aan de Eider"
+					flemish="Frederikstad aan de Eider"
+				}
+				b_tonning = {
+					low_saxon="Tönn"
+					frisian="Taning"
+				}
+				b_meldorf = {
+					low_saxon="Möldörp"
+				}
+				b_brunsbuttel = {
+					low_saxon="Bruunsbüddel"
+				}
+				b_sankt_peter_ording = {
+					frisian="St. Peter-Urdem"
+				}
 				b_tellingstedt = {}
 			}
 			c_schleswig = {
@@ -1440,30 +1687,45 @@ e_europa = {
 
 				low_saxon="Sleswig"
 				frisian="Slaswik"
+				dutch="Sleeswijk"
+				flemish="Sleeswijk"
 
-				b_schleswig = {}
+				b_schleswig = {
+					low_saxon="Sleswig"
+					frisian="Slaswik"
+					dutch="Sleeswijk"
+					flemish="Sleeswijk"
+				}
 				b_flensburg = {
 					low_saxon="Flensborg"
 					frisian="Flansborj"
 				}
-				b_husum = {}
-				b_eckernforde = {}
+				b_husum = {
+					frisian="Hüsem"
+				}
+				b_eckernforde = {
+					low_german="Eckernför"
+				}
 				b_handewitt = {}
 				b_harrislee = {}
-				b_tonning = {}
-				b_friedrichstadt = {}
 			}
 			c_kiel = {
 				color={ 126 150 159 }
 				color2={ 255 255 255 }
 
-				b_neumunster = {}
+				b_neumunster = {
+					low_saxon="Niemünster"
+				}
 				b_kiel = {}
-				b_rendsburg = {}
+				b_rendsburg = {
+					low_saxon="Rendsborg"
+				}
 				b_schwentinental = {}
 				b_bordesholm = {}
 				b_kronshagen = {}
-				b_plon = {}
+				b_plon = {
+					low_german="Plöön"
+				}
 			}
 		}
 	}
@@ -1680,6 +1942,8 @@ e_europa = {
 			bavarian="Sachsen-Anhalt"
 			swabian="Sachsen-Anhalt"
 			austrian="Sachsen-Anhalt"
+			dutch="Saksen-Anhalt"
+			flemish="Saksen-Anhalt"
 			
 			c_altmark = {
 				color={ 117 130 135 }
@@ -1702,7 +1966,9 @@ e_europa = {
 				chti="Magdebourg"
 				parisian="Magdebourg"
 				
-				b_haldensleben = {}
+				b_haldensleben = {
+					low_saxon="Halslä"
+				}
 				b_magdeburg = {
 					low_saxon="Meideborg"
 					walloon="Magdebourg"
@@ -1834,6 +2100,8 @@ e_europa = {
 			bavarian="Sachsen"
 			swabian="Sachsen"
 			austrian="Sachsen"
+			dutch="Saksen"
+			flemish="Saksen"
 			sorbian="Sakska"
 			walloon="Saxe"
 			chti="Saxe"
