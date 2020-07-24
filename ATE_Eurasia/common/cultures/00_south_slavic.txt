@@ -165,4 +165,30 @@ south_slavic = {
 		mother_name_chance = 5
 		
 	}
+	slovenian = {
+		graphical_cultures = { croatsouthslavicgfx }
+		
+		color = { 0.1 0.8 0.5 }
+
+		male_names = {
+			Janez_John
+		}
+		female_names = {
+			Maria_Mary
+		}
+		
+		from_dynasty_prefix = "od "
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+	}
 }
