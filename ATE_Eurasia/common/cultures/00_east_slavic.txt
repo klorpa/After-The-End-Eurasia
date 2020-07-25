@@ -1,4 +1,4 @@
-###Ã„NSI
+###ÄNSI
 
 east_slavic = {
 	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
@@ -63,4 +63,124 @@ east_slavic = {
 		modifier = default_culture_modifier
 	}
 
+	muscovite = {
+		graphical_cultures = { westernslavicgfx }
+
+		colour = {0.8 0.1 0.3 }
+
+		male names = {
+			Aleksander Aleksandr Aleksei Aleksey Alexander Alexandre Alexei Alexey Alexis Alfred Anatoli Anatoliy Andrei Arcady Arthur Aryeh Askold Boris Bruno Dmitry Emanuel Evgeny Fyodor Gavriil Gennadi Gennady Georg George Georgy Gurgen Ivan Josef Joseph Kim Konstantin Leo Leonid Lev Lidiya Mark Maya Mikhail Nikolai Nikolay Oleg Pavel Peter Philaret Pyotr Sabir Semyon Sergei Sergey Simon Sophrony Spartak Stanislav Tasoltan Umyar Valery Vasili Victor Viktor Vitaly Vladimir Vsevolod Vyacheslav Yevgeni Yevgeny Yosef Yuri Yury
+		}
+
+		female names = {
+			Alexandra Alla Anna Ariadna Bella Catherine Ekaterina Elena Eudoxia Fanni Galina Inessa Irina Karen Lyudmila Maria Marina Nadezhda Natalya Nina Olga Rozaliia Sonja Sophie Tatiana Tatjana Tatyana Valentina Vera Victoria Yelena Yevdokiya Yevgenia Zoja 
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+
+	white_sea = {
+		graphical_cultures = { westernslavicgfx }
+
+		colour = {0.8 0.4 0.5 }
+
+		male names = {
+			Aleksandr Aleksandrs Aleksey Alexander Alexei Anatoli Anatoly Anton Boris Daniil Denis Dmitri Dmitry Eduard Eugenijus Evgeny Fyodor Igor Ilya Ivan Konstantin Mikhail Monja Nikita Nikolay Oleh Rail Roman Serge Sergei Sergey Serguei Stepan Timur Vadim Valeri Valery Vasily Viktor Vitaliy Vitaly Vladimir Volodimir Yevgeny Yuri Yury
+		}
+
+		female names = {
+			Anna Elena Elina Elizaveta Hanna Irina Ksenia Larisa Lyudmyla Maria Marina Mariya Nadezhda Natalia Oksana Olga Polina Svetlana Tatiana Valentina Vera Yana Yelena Yuliya Zinaida Zlata 
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+
+	belarusan = {
+		graphical_cultures = { westernslavicgfx }
+
+		colour = {0.3 0.8 0.6 }
+
+		male names = {
+			Abraham Aharon Alaksiej Aleh Aleksandr Aleksey Ales Alés Alexander Alexandr Alexey Alhierd Aliaksandr Alyaksandr Anatol Anatoly Andrei Andrey Andrzej Anton Arieh Arkady Avraham Barys Beno Boris Borrah Chimen Denis Dmitry Dzmitry Edward Egor Eliezer Gabriel Gavriil Gennady Herman Herzl Hienadz Igor Ilya Iosif Isaak Jacob Jakiv Janka Jauhien Jazep Jerzy Joseph Karl Konrad Kuzma Lavon Leanid Leonid Lev Mai Maks Maksim Marc Maryna Max Mikhail Moisei Morris Oleg Osip Oskar Owsei Pavel Piotr Refael Ruslan Sergei Sergey Shmuel Siarhei Stanislav Thaddeus Timofei Uladzimir Uladzimir Vadim Valery Vasil Viktar Viktor Vital Vitali Vladimir Volodymyr Wilhelm Wladyslaw Yakov Yehudah Yevgeni Yuri Yuryi Zalman Zmicier
+		}
+
+		female names = {
+			Alena Anastasia Angelica Bashka Berta Bianka Bronislava Dasha Dina Ekaterina Elena Ella Esther Halina Hanna Irina Irma Isabelle Karen Katya Leila Margalit Marina Maryna Masha Nadezhda Nadine Nastassia Natalia Ninel Olga Ottilia Polina Regina Rokhl Sofia Sophie Stefaniya Svetlana Sviatlana Tamara Tatsiana Tatyana Vanda Veronika Volha Yenia Yuliya Zhanna Zinaida
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
+	yekatarinburger = {
+		graphical_cultures = { westernslavicgfx }
+
+		colour = {0.3 0.5 0.8 }
+
+		male names = {
+			Albert Aleksandr Aleksei Alexander Alexei Alexey Andrey Anton Boris Dmitri Dmitry Edouard Eduard Erik Ernst Fyodor Georgy Grigori Igor Ilya Ivan Julian Juvenaly Lev Malik Marat Mikhail Nikolai Nikolay Nukhim Oleg Pavlo Peter Pyotr Roman Samuil Semyon Sergey Stanislav Valeri Viktor Vitaly Vladimir Yevgeny Yuri
+		}
+
+		female names = {
+			Alfia Alyona Anna Elena Galina Irina Julia Larisa Lena Ludmila Lyudmila Marina Mariya Nadezhda Natalia Nina Olga Rimma Svetlana Svitlana Tatiana Tatyana Veronica Yelena Yuliya 
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
 }
+
