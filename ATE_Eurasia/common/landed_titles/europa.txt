@@ -63,13 +63,53 @@ e_europa = {
 				chti="Flandre-Occidentale"
 				parisian="Flandre-Occidentale"
 
-				b_west_flanders = {}
-				b_west_flanders1 = {}
-				b_west_flanders2 = {}
-				b_west_flanders3 = {}
-				b_west_flanders4 = {}
-				b_west_flanders5 = {}
-				b_west_flanders6 = {}
+				b_kortrijk = {
+					walloon="Courtrai"
+					chti="Courtrai"
+					parisian="Courtrai"
+				}
+				b_bruges = {
+					rhenish="Brügge"
+					low_saxon="Brügge"
+					ossi="Brügge"
+					upper_saxon="Brügge"
+					bavarian="Brügge"
+					swabian="Brügge"
+					austrian="Brügge"
+					schwyzer="Brügge"
+					dutch="Brugge"
+					flemish="Brugge"
+				}
+				b_ostend = {
+					rhenish="Ostende"
+					low_saxon="Ostende"
+					ossi="Ostende"
+					upper_saxon="Ostende"
+					bavarian="Ostende"
+					swabian="Ostende"
+					austrian="Ostende"
+					schwyzer="Ostende"
+					dutch="Oostende"
+					flemish="Ostende"
+					walloon="Ostende"
+					chti="Ostende"
+					parisian="Ostende"
+				}
+				b_roeselare = {
+					walloon="Roulers"
+					chti="Roulers"
+					parisian="Roulers"
+				}
+				b_ypres = {
+					dutch="Ieper"
+					flemish="Ieper"
+				}
+				b_tielt = {}
+				b_diksmuide = {
+					walloon="Dixmude"
+					chti="Dixmude"
+					parisian="Dixmude"
+				}
 			}
 			c_east_flanders = {
 				color={ 188 166 32 }
@@ -89,13 +129,47 @@ e_europa = {
 				chti="Flandre-Orientale"
 				parisian="Flandre-Orientale"
 
-				b_east_flanders = {}
-				b_east_flanders1 = {}
-				b_east_flanders2 = {}
-				b_east_flanders3 = {}
-				b_east_flanders4 = {}
-				b_east_flanders5 = {}
-				b_east_flanders6 = {}
+				b_aalst = {
+					walloon="Alost"
+					chti="Alost"
+					parisian="Alost"
+				}
+				b_ghent = {
+					dutch="Gent"
+					flemish="Gent"
+					walloon="Gand"
+					chti="Gand"
+					parisian="Gand"
+				}
+				b_sint_niklaas = {
+					rhenish="Sankt-Klaus"
+					low_saxon="Sankt-Klaus"
+					ossi="Sankt-Klaus"
+					upper_saxon="Sankt-Klaus"
+					bavarian="Sankt-Klaus"
+					swabian="Sankt-Klaus"
+					austrian="Sankt-Klaus"
+					schwyzer="Sankt-Klaus"
+					walloon="Saint-Nicolas"
+					chti="Saint-Nicolas"
+					parisian="Saint-Nicolas"
+				}
+				b_dendermonde = {
+					walloon="Termonde"
+					chti="Termonde"
+					parisian="Termonde"
+				}
+				b_oudenaarde = {
+					walloon="Audenarde"
+					chti="Audenarde"
+					parisian="Audenarde"
+				}
+				b_eeklo = {
+					walloon="Eccloo"
+					chti="Eccloo"
+					parisian="Eccloo"
+				}
+				b_torhout = {}
 			}
 			c_antwerp = {
 				color={ 84 138 186 }
@@ -115,13 +189,31 @@ e_europa = {
 				chti="Anvers"
 				parisian="Anvers"
 
-				b_antwerp = {}
-				b_antwerp1 = {}
-				b_antwerp2 = {}
-				b_antwerp3 = {}
-				b_antwerp4 = {}
-				b_antwerp5 = {}
-				b_antwerp6 = {}
+				b_mechelen = {
+					walloon="Malines"
+					chti="Malines"
+					parisian="Malines"
+				}
+				b_antwerp = {
+					rhenish="Antwerpen"
+					low_saxon="Antwerpen"
+					ossi="Antwerpen"
+					upper_saxon="Antwerpen"
+					bavarian="Antwerpen"
+					swabian="Antwerpen"
+					austrian="Antwerpen"
+					schwyzer="Antwerpen"
+					dutch="Antwerpen"
+					flemish="Antwerpen"
+					walloon="Anvers"
+					chti="Anvers"
+					parisian="Anvers"
+				}
+				b_turnhout = {}
+				b_heist_op_den_berg = {}
+				b_brasschaat = {}
+				b_geel = {}
+				b_hoogstraten = {}
 			}
 			c_loon = {
 				color={ 225 178 51 }
@@ -131,13 +223,29 @@ e_europa = {
 				chti="Looz"
 				parisian="Looz"
 
-				b_loon = {}
-				b_loon1 = {}
-				b_loon2 = {}
-				b_loon3 = {}
-				b_loon4 = {}
-				b_loon5 = {}
-				b_loon6 = {}
+				b_genk = {}
+				b_hasselt = {}
+				b_tongeren = {
+					rhenish="Tongern"
+					low_saxon="Tongern"
+					ossi="Tongern"
+					upper_saxon="Tongern"
+					bavarian="Tongern"
+					swabian="Tongern"
+					austrian="Tongern"
+					schwyzer="Tongern"
+					walloon="Tongres"
+					chti="Tongres"
+					parisian="Tongres"
+				}
+				b_sint_truiden = {
+					walloon="Saint-Trond"
+					chti="Saint-Trond"
+					parisian="Saint-Trond"
+				}
+				b_maaseik = {}
+				b_diepenbeek = {}
+				b_lommel = {}
 			}
 			c_brussels = {
 				color={ 250 224 66 }
@@ -157,13 +265,51 @@ e_europa = {
 				chti="Bruxelles"
 				parisian="Bruxelles"
 
-				b_brussels = {}
-				b_brussels1 = {}
-				b_brussels2 = {}
-				b_brussels3 = {}
-				b_brussels4 = {}
-				b_brussels5 = {}
-				b_brussels6 = {}
+				b_leuven = {
+					rhenish="Löwen"
+					low_saxon="Löwen"
+					ossi="Löwen"
+					upper_saxon="Löwen"
+					bavarian="Löwen"
+					swabian="Löwen"
+					austrian="Löwen"
+					schwyzer="Löwen"
+					walloon="Louvain"
+					chti="Louvain"
+					parisian="Louvain"
+				}
+				b_brussels = {
+					rhenish="Brüssel"
+					low_saxon="Brüssel"
+					ossi="Brüssel"
+					upper_saxon="Brüssel"
+					bavarian="Brüssel"
+					swabian="Brüssel"
+					austrian="Brüssel"
+					schwyzer="Brüssel"
+					dutch="Brussel"
+					flemish="Brussel"
+					walloon="Bruxelles"
+					chti="Bruxelles"
+					parisian="Bruxelles"
+				}
+				b_vilvoorde = {
+					walloon="Vilvorde"
+					chti="Vilvorde"
+					parisian="Vilvorde"
+				}
+				b_halle_BE = {
+					walloon="Hal"
+					chti="Hal"
+					parisian="Hal"
+				}
+				b_zaventem = {}
+				b_tienen = {
+					walloon="Tirlemont"
+					chti="Tirlemont"
+					parisian="Tirlemont"
+				}
+				b_grimbergen = {}
 			}
 		}
 		d_wallonia = {
@@ -196,25 +342,75 @@ e_europa = {
 				walloon="Hinnot"
 				chti="Hénau"
 
-				b_hainaut = {}
-				b_hainaut1 = {}
-				b_hainaut2 = {}
-				b_hainaut3 = {}
-				b_hainaut4 = {}
-				b_hainaut5 = {}
-				b_hainaut6 = {}
+				b_mons = {
+					rhenish="Bergen"
+					low_saxon="Bergen"
+					ossi="Bergen"
+					upper_saxon="Bergen"
+					bavarian="Bergen"
+					swabian="Bergen"
+					austrian="Bergen"
+					schwyzer="Bergen"
+					luxembourger="Bergen"
+					dutch="Bergen"
+					flemish="Bergen"
+					walloon="Mont"
+					chti="Mont"
+				}
+				b_charleroi = {
+					walloon="Tchålerwè"
+				}
+				b_tournai = {
+					dutch="Doornik"
+					flemish="Doornik"
+					walloon="Tornè"
+					chti="Tornai"
+				}
+				b_mouscron = {
+					dutch="Moeskroen"
+					flemish="Moeskroen"
+					chti="Moucron"
+				}
+				b_ath = {
+					dutch="Aat"
+					flemish="Aat"
+					chti="Ât"
+				}
+				b_soignies = {
+					dutch="Zinnik"
+					flemish="Zinnik"
+					chti="Sougniye"
+				}
+				b_thuin = {
+					walloon="Twin"
+				}
 			}
 			c_brabant = {
 				color={ 193 191 45 }
 				color2={ 255 255 255 }
 
-				b_brabant = {}
-				b_brabant1 = {}
-				b_brabant2 = {}
-				b_brabant3 = {}
-				b_brabant4 = {}
-				b_brabant5 = {}
-				b_brabant6 = {}
+				b_nivelles = {
+					dutch="Nijvel"
+					flemish="Neyvel"
+					walloon="Nivele"
+				}
+				b_wavre = {
+					dutch="Waver"
+					flemish="Waver"
+				}
+				b_waterloo = {
+					walloon="Waterlô"
+				}
+				b_braine_l_alleud = {
+					dutch="Eigenbrakel"
+					flemish="Eigenbrakel"
+				}
+				b_tubize = {
+					dutch="Tubeke"
+					flemish="Tubeke"
+				}
+				b_rixensart = {}
+				b_genappe = {}
 			}
 			c_namur = {
 				color={ 212 188 40 }
@@ -234,13 +430,37 @@ e_europa = {
 				chti="Nameur"
 				parisian="Nameur"
 
-				b_namur = {}
-				b_namur1 = {}
-				b_namur2 = {}
-				b_namur3 = {}
-				b_namur4 = {}
-				b_namur5 = {}
-				b_namur6 = {}
+				b_dinant = {}
+				b_namur = {
+					rhenish="Namen"
+					low_saxon="Namen"
+					ossi="Namen"
+					upper_saxon="Namen"
+					bavarian="Namen"
+					swabian="Namen"
+					austrian="Namen"
+					schwyzer="Namen"
+					dutch="Namen"
+					flemish="Namen"
+					walloon="Nameur"
+					chti="Nameur"
+					parisian="Nameur"
+				}
+				b_rochefort = {
+					walloon="Rotchfoirt"
+				}
+				b_philippeville = {}
+				b_gembloux = {
+					dutch="Gembloers"
+					flemish="Gembloers"
+					walloon="Djiblou"
+				}
+				b_eghezee = {
+					walloon="Inguezêye"
+				}
+				b_ciney = {
+					walloon="Cînè"
+				}
 			}
 			c_liege = {
 				color={ 42 135 58 }
@@ -258,13 +478,48 @@ e_europa = {
 				flemish="Luik"
 				walloon="Lidje"
 
-				b_liege = {}
-				b_liege1 = {}
-				b_liege2 = {}
-				b_liege3 = {}
-				b_liege4 = {}
-				b_liege5 = {}
-				b_liege6 = {}
+				b_seraing = {
+					walloon="Serè"
+				}
+				b_liege = {
+					rhenish="Lüttich"
+					low_saxon="Lüttich"
+					ossi="Lüttich"
+					upper_saxon="Lüttich"
+					bavarian="Lüttich"
+					swabian="Lüttich"
+					austrian="Lüttich"
+					schwyzer="Lüttich"
+					dutch="Luik"
+					flemish="Luik"
+					walloon="Lidje"
+				}
+				b_verviers = {
+					walloon="Vervî"
+				}
+				b_huy = {
+					dutch="Hoei"
+					flemish="Hoei"
+					walloon="Hu"
+				}
+				b_waremme = {
+					dutch="Borgworm"
+					flemish="Borgworm"
+				}
+				b_malmedy = {
+					rhenish="Malmünd"
+					low_saxon="Malmünd"
+					ossi="Malmünd"
+					upper_saxon="Malmünd"
+					bavarian="Malmünd"
+					swabian="Malmünd"
+					austrian="Malmünd"
+					schwyzer="Malmünd"
+					walloon="Måmdiy"
+				}
+				b_hannut = {
+					walloon="Haneu"
+				}
 			}
 		}
 		d_luxembourg = {
@@ -301,13 +556,69 @@ e_europa = {
 				flemish="Luxemburg"
 				luxembourger="Lëtzebuerg"
 
-				b_luxembourg = {}
-				b_luxembourg1 = {}
-				b_luxembourg2 = {}
-				b_luxembourg3 = {}
-				b_luxembourg4 = {}
-				b_luxembourg5 = {}
-				b_luxembourg6 = {}
+				b_esch_sur_alzette = {
+					rhenish="Esch-an-der-Alzig"
+					low_saxon="Esch-an-der-Alzig"
+					ossi="Esch-an-der-Alzig"
+					upper_saxon="Esch-an-der-Alzig"
+					bavarian="Esch-an-der-Alzig"
+					swabian="Esch-an-der-Alzig"
+					austrian="Esch-an-der-Alzig"
+					schwyzer="Esch-an-der-Alzig"
+					luxembourger="Esch-Uelzecht"
+				}
+				b_luxembourg = {
+					rhenish="Luxemburg"
+					low_saxon="Luxemburg"
+					ossi="Luxemburg"
+					upper_saxon="Luxemburg"
+					bavarian="Luxemburg"
+					swabian="Luxemburg"
+					austrian="Luxemburg"
+					schwyzer="Luxemburg"
+					dutch="Luxemburg"
+					flemish="Luxemburg"
+					luxembourger="Lëtzebuerg"
+				}
+				b_differdange = {
+					rhenish="Differdingen"
+					low_saxon="Differdingen"
+					ossi="Differdingen"
+					upper_saxon="Differdingen"
+					bavarian="Differdingen"
+					swabian="Differdingen"
+					austrian="Differdingen"
+					schwyzer="Differdingen"
+					luxembourger="Déifferdeng"
+				}
+				b_dudelange = {
+					rhenish="Düdelingen"
+					low_saxon="Düdelingen"
+					ossi="Düdelingen"
+					upper_saxon="Düdelingen"
+					bavarian="Düdelingen"
+					swabian="Düdelingen"
+					austrian="Düdelingen"
+					schwyzer="Düdelingen"
+					luxembourger="Diddeleng"
+				}
+				b_ettelbruck = {
+					rhenish="Ettelbrück"
+					low_saxon="Ettelbrück"
+					ossi="Ettelbrück"
+					upper_saxon="Ettelbrück"
+					bavarian="Ettelbrück"
+					swabian="Ettelbrück"
+					austrian="Ettelbrück"
+					schwyzer="Ettelbrück"
+					luxembourger="Ettelbréck"
+				}
+				b_diekirch = {
+					luxembourger="Dikrech"
+				}
+				b_grevenmacher = {
+					luxembourger="Gréiwemaacher"
+				}
 			}
 			c_arelerland = {
 				color={ 202 182 61 }
@@ -319,13 +630,45 @@ e_europa = {
 				chti="Pays d'Arlon"
 				parisian="Pays d'Arlon"
 
-				b_arelerland = {}
-				b_arelerland1 = {}
-				b_arelerland2 = {}
-				b_arelerland3 = {}
-				b_arelerland4 = {}
-				b_arelerland5 = {}
-				b_arelerland6 = {}
+				b_bastogne = {
+					rhenish="Bastenach"
+					low_saxon="Bastenach"
+					ossi="Bastenach"
+					upper_saxon="Bastenach"
+					bavarian="Bastenach"
+					swabian="Bastenach"
+					austrian="Bastenach"
+					schwyzer="Bastenach"
+					dutch="Bastenaken"
+					flemish="Bastenaken"
+					luxembourger="Baaschtnech"
+				}
+				b_arlon = {
+					rhenish="Arel"
+					low_saxon="Arel"
+					ossi="Arel"
+					upper_saxon="Arel"
+					bavarian="Arel"
+					swabian="Arel"
+					austrian="Arel"
+					schwyzer="Arel"
+					dutch="Aarlen"
+					flemish="Aarlen"
+					luxembourger="Arel"
+				}
+				b_marche_en_famenne = {
+					walloon="Måtche-el-Fåmene"
+				}
+				b_virton = {}
+				b_neufchateau = {
+					walloon="Li Tchestea"
+				}
+				b_bertrix = {
+					walloon="Bietris"
+				}
+				b_saint_hubert = {
+					walloon="Sint-Houbert"
+				}
 			}
 		}
 	}
@@ -380,13 +723,13 @@ e_europa = {
 				chti="Hollande-Septentrionale"
 				parisian="Hollande-Septentrionale"
 
-				b_north_holland = {}
-				b_north_holland1 = {}
-				b_north_holland2 = {}
-				b_north_holland3 = {}
-				b_north_holland4 = {}
-				b_north_holland5 = {}
-				b_north_holland6 = {}
+				b_haarlem = {}
+				b_amsterdam = {}
+				b_alkmaar = {}
+				b_hoorn = {}
+				b_den_helder = {}
+				b_heemskerk = {}
+				b_schagen = {}
 			}
 			c_holland = {
 				color={ 185 122 25 }
@@ -396,13 +739,19 @@ e_europa = {
 				chti="Hollande"
 				parisian="Hollande"
 
-				b_holland = {}
-				b_holland1 = {}
-				b_holland2 = {}
-				b_holland3 = {}
-				b_holland4 = {}
-				b_holland5 = {}
-				b_holland6 = {}
+				b_the_hague = {
+					dutch="Den Haag"
+					flemish="Den Haag"
+					walloon="La Haye"
+					chti="La Haye"
+					parisian="La Haye"
+				}
+				b_rotterdam = {}
+				b_leiden = {}
+				b_dordrecht = {}
+				b_delft = {}
+				b_gouda = {}
+				b_noordwijk = {}
 			}
 			c_zeeland = {
 				color={ 217 195 62 }
@@ -412,13 +761,13 @@ e_europa = {
 				chti="Zélande"
 				parisian="Zélande"
 
-				b_zeeland = {}
-				b_zeeland1 = {}
-				b_zeeland2 = {}
-				b_zeeland3 = {}
-				b_zeeland4 = {}
-				b_zeeland5 = {}
-				b_zeeland6 = {}
+				b_middelburg = {}
+				b_terneuzen = {}
+				b_vlissingen = {}
+				b_goes = {}
+				b_schouwen_duiveland = {}
+				b_hulst = {}
+				b_tholen = {}
 			}
 		}
 		d_gelre = {
@@ -443,25 +792,34 @@ e_europa = {
 				color={ 217 195 62 }
 				color2={ 255 255 255 }
 
-				b_gelre = {}
-				b_gelre1 = {}
-				b_gelre2 = {}
-				b_gelre3 = {}
-				b_gelre4 = {}
-				b_gelre5 = {}
-				b_gelre6 = {}
+				b_arnhem = {
+					rhenish="Arnheim"
+					low_saxon="Arnheim"
+					ossi="Arnheim"
+					upper_saxon="Arnheim"
+					bavarian="Arnheim"
+					swabian="Arnheim"
+					austrian="Arnheim"
+					schwyzer="Arnheim"
+				}
+				b_nijmegen = {}
+				b_apeldoorn = {}
+				b_ede = {}
+				b_doetinchem = {}
+				b_zutphen = {}
+				b_harderwijk = {}
 			}
 			c_flevoland = {
 				color={ 217 195 62 }
 				color2={ 255 255 255 }
 
-				b_flevoland = {}
-				b_flevoland1 = {}
-				b_flevoland2 = {}
-				b_flevoland3 = {}
-				b_flevoland4 = {}
-				b_flevoland5 = {}
-				b_flevoland6 = {}
+				b_lelystad = {}
+				b_almere = {}
+				b_dronten = {}
+				b_emmeloord = {}
+				b_urk = {}
+				b_zeewolde = {}
+				b_biddinghuizen = {}
 			}
 			c_overijssel = {
 				color={ 255 140 78 }
@@ -476,25 +834,31 @@ e_europa = {
 				austrian="Oberyssel"
 				schwyzer="Oberyssel"
 
-				b_overijssel = {}
-				b_overijssel1 = {}
-				b_overijssel2 = {}
-				b_overijssel3 = {}
-				b_overijssel4 = {}
-				b_overijssel5 = {}
-				b_overijssel6 = {}
+				b_zwolle = {}
+				b_enschede = {
+					low_saxon="Eanske"
+				}
+				b_deventer = {
+					low_saxon="Daeventer"
+				}
+				b_hengelo = {}
+				b_almelo = {}
+				b_kampen = {}
+				b_hardenberg = {
+					low_saxon="Haddenbarreg"
+				}
 			}
 			c_utrecht = {
 				color={ 217 195 62 }
 				color2={ 255 255 255 }
 
+				b_amersfoort = {}
 				b_utrecht = {}
-				b_utrecht1 = {}
-				b_utrecht2 = {}
-				b_utrecht3 = {}
-				b_utrecht4 = {}
-				b_utrecht5 = {}
-				b_utrecht6 = {}
+				b_nieuwegein = {}
+				b_zeist = {}
+				b_veenendaal = {}
+				b_houten = {}
+				b_ijsselstein = {}
 			}
 		}
 		d_north_brabant = {
@@ -535,13 +899,17 @@ e_europa = {
 				chti="Brabant-Septentrionale"
 				parisian="Brabant-Septentrionale"
 
-				b_north_brabant = {}
-				b_north_brabant1 = {}
-				b_north_brabant2 = {}
-				b_north_brabant3 = {}
-				b_north_brabant4 = {}
-				b_north_brabant5 = {}
-				b_north_brabant6 = {}
+				b_s_hertogenbosch = {
+					walloon="Blois-le-Duc"
+					chti="Bois-le-Duc"
+					parisian="Bois-le-Duc"
+				}
+				b_eindhoven = {}
+				b_tilburg = {}
+				b_breda = {}
+				b_bergen_op_zoom = {}
+				b_helmond = {}
+				b_oss = {}
 			}
 			c_limburg = {
 				color={ 217 195 62 }
@@ -551,13 +919,13 @@ e_europa = {
 				chti="Limbourg"
 				parisian="Limbourg"
 
-				b_limburg = {}
-				b_limburg1 = {}
-				b_limburg2 = {}
-				b_limburg3 = {}
-				b_limburg4 = {}
-				b_limburg5 = {}
-				b_limburg6 = {}
+				b_venlo = {}
+				b_maastricht = {}
+				b_roermond = {}
+				b_sittard_geleen = {}
+				b_heerlen = {}
+				b_weert = {}
+				b_kerkrade = {}
 			}
 		}
 		d_friesland = {
@@ -582,13 +950,25 @@ e_europa = {
 				chti="Frise"
 				parisian="Frise"
 
-				b_friesland = {}
-				b_friesland1 = {}
-				b_friesland2 = {}
-				b_friesland3 = {}
-				b_friesland4 = {}
-				b_friesland5 = {}
-				b_friesland6 = {}
+				b_drachten = {}
+				b_leeuwarden = {
+					frisian="Ljouwert"
+				}
+				b_sneek = {
+					frisian="Snits"
+				}
+				b_heerenveen = {
+					frisian="It Hearrenfean"
+				}
+				b_harlingen = {
+					frisian="Harns"
+				}
+				b_joure = {
+					frisian="De Jouwer"
+				}
+				b_wolvega = {
+					frisian="Wolvegea"
+				}
 			}
 			c_groningen = {
 				color={ 217 195 62 }
@@ -600,13 +980,19 @@ e_europa = {
 				chti="Groningue"
 				parisian="Groningue"
 
-				b_groningen = {}
-				b_groningen1 = {}
-				b_groningen2 = {}
-				b_groningen3 = {}
-				b_groningen4 = {}
-				b_groningen5 = {}
-				b_groningen6 = {}
+				b_assen = {}
+				b_groningen = {
+					low_saxon="Grönnen"
+					frisian="Grun'n"
+					walloon="Groningue"
+					chti="Groningue"
+					parisian="Groningue"
+				}
+				b_emmen = {}
+				b_hoogeveen = {}
+				b_oldambt = {}
+				b_coevorden = {}
+				b_meppel = {}
 			}
 		}
 	}
