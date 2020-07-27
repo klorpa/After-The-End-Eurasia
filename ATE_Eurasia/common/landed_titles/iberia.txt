@@ -14,11 +14,16 @@ e_iberia = {
 		
 		capital = 187 # c_madrid
 		
+		parisian = "Tolède"
+		
 		d_madrid = {
 			color={ 232 85 84 }
 			color2={ 255 255 255 }
 			
 			capital = 187 # c_madrid
+	
+			basque = "Madril"
+			aragonese = "Madrit"
 			
 			c_madrid = { # 187
 				color={ 242 75 89 }
@@ -62,6 +67,11 @@ e_iberia = {
 			color2={ 255 255 255 }
 			
 			capital = 194 # c_badajoz
+		
+			portuguese = "Estremadura"
+			asturian = "Estremadura"
+			aragonese = "Estremadura"
+			galician = "Estremadura"
 			
 			c_badajoz = { # 194
 				color={ 212 201 255 }
@@ -117,6 +127,11 @@ e_iberia = {
 			color2={ 255 255 255 }
 			
 			capital = 190 # c_toledo
+		
+			basque = "Mantxa"
+			catalan = "La Manxa"
+			portuguese = "Mancha"
+			galician = "A Mancha"
 			
 			c_toledo = { # 190
 				color={ 239 146 101 }
@@ -173,12 +188,33 @@ e_iberia = {
 		color2={ 255 255 255 }
 		
 		capital = 220 # c_seville
+	
+		basque = "Andaluzia"
+		portuguese = "Andaluzia"
+		arpitan = "Andalosie"
+		parisian = "Andalousie"
+		occitan = "Andalosia"
+		provencal = "Andalosia"
+		castilian = "Andalucía"
+		andalusian = "Andalucía"
+		leonese = "Andalucía"
+		asturian = "Andalucía"
+		aragonese = "Andalucía"
+		galician = "Andalucía"
 		
 		d_seville = {
 			color={ 232 230 77 }
 			color2={ 255 255 255 }
 			
 			capital = 220 # c_seville
+		
+			basque = "Sibilia"
+			catalan = "Xibília"
+			portuguese = "Sevilha"
+			occitan = "Sevilha"
+			provencal = "Sevilha"
+			castilian = "Sevilla"
+			andalusian = "Sevilla"
 			
 			c_seville = { # 220
 				color={ 242 220 82 }
@@ -234,6 +270,16 @@ e_iberia = {
 			color2={ 255 255 255 }
 			
 			capital = 224 # c_cadiz
+		
+			basque = "Karize"
+			catalan = "Cadis"
+			portuguese = "Cádis"
+			occitan = "Cadis"
+			provencal = "Cadis"
+			castilian = "Cádiz"
+			andalusian = "Cádiz"
+			leonese = "Cádiz"
+			galician = "Cádiz"
 			
 			c_cadiz = { # 224
 				color={ 242 180 125 }
@@ -333,12 +379,38 @@ e_iberia = {
 		color2={ 255 255 255 }
 		
 		capital = 198 # c_valladolid
+	
+		basque = "Gaztela eta Leon"
+		parisian = "Castille-et-León"
+		catalan = "Castella i Lleó"
+		portuguese = "Castela e Leão"
+		arpitan = "Castilye-et-Lion"
+		occitan = "Castelha e Leon"
+		provencal = "Castelha e Leon"
+		castilian = "Castilla y León"
+		andalusian = "Castilla y León"
+		leonese = "Castiella y Llión"
+		asturian = "Castiella y Llión"
+		aragonese = "Castiella y Leyón"
+		galician = "Castela e León"
 		
 		d_castile = {
 			color={ 194 155 94 }
 			color2={ 255 255 255 }
 			
 			capital = 198 # c_valladolid
+		
+			basque = "Gaztela"
+			catalan = "Castella"
+			portuguese = "Castela"
+			occitan = "Castelha"
+			provencal = "Castelha"
+			castilian = "Castilla"
+			andalusian = "Castilla"
+			leonese = "Castiella"
+			asturian = "Castiella"
+			aragonese = "Castiella"
+			galician = "Castela"
 			
 			c_valladolid = { # 198
 				color={ 204 145 99 }
@@ -418,6 +490,13 @@ e_iberia = {
 			color2={ 255 255 255 }
 			
 			capital = 208 # c_oviedo
+		
+			catalan = "Astúries"
+			portuguese = "Astúrias"
+			occitan = "Astúrias"
+			provencal = "Astúrias"
+			leonese = "Asturies"
+			asturian = "Asturies"
 			
 			c_oviedo = { # 208
 				color={ 140 142 204 }
@@ -461,6 +540,13 @@ e_iberia = {
 			color2={ 255 255 255 }
 			
 			capital = 211 # c_a_coruna
+		
+			basque = "Galizia"
+			catalan = "Galícia"
+			portuguese = "Galiza"
+			occitan = "Galícia"
+			provencal = "Galícia"
+			galician = "Galiza"
 			
 			c_a_coruna = { # 211
 				color={ 12 153 204 }
@@ -516,6 +602,14 @@ e_iberia = {
 			color2={ 255 255 255 }
 			
 			capital = 204 # c_leon
+		
+			catalan = "Lleó"
+			portuguese = "Leão"
+			occitan = "Leon"
+			provencal = "Leon"
+			leonese = "Llión"
+			asturian = "Llión"
+			aragonese = "Leyón"
 			
 			c_leon = { # 204
 				color={ 204 33 0 }
@@ -572,12 +666,28 @@ e_iberia = {
 		color2={ 255 255 255 }
 		
 		capital = 231 # c_barcelona
+	
+		basque = "Katalunia"
+		catalan = "Catalunya"
+		portuguese = "Catalunha"
+		arpitan = "Catalogne"
+		parisian = "Catalogne"
+		occitan = "Catalonha"
+		provencal = "Catalonha"
+		castilian = "Cataluña"
+		andalusian = "Cataluña"
+		leonese = "Cataluña"
+		asturian = "Cataluña"
+		aragonese = "Catalunya"
+		galician = "Cataluña"
 		
 		d_barcelona = {
 			color={ 3 71 19 }
 			color2={ 255 255 255 }
 			
 			capital = 231 # c_barcelona
+		
+			basque = "Bartzelona"
 			
 			c_barcelona = { # 231
 				color={ 249 81 14 }
@@ -633,6 +743,16 @@ e_iberia = {
 			color2={ 255 255 255 }
 
 			capital = 292 # c_mallorca
+		
+			basque = "Balearrak"
+			portuguese = "Baleares"
+			occitan = "Balearas"
+			provencal = "Balearas"
+			castilian = "Baleares"
+			andalusian = "Baleares"
+			leonese = "Baleares"
+			asturian = "Baleares"
+			galician = "Baleares"
 			
 			c_menorca = { # 291
 				color={ 255 163 15 }
@@ -676,6 +796,9 @@ e_iberia = {
 			color2={ 255 255 255 }
 			
 			capital = 243 # c_andorra
+		
+			occitan = "Andòrra"
+			provencal = "Andòrra"
 			
 			c_andorra = { # 243
 				color={ 224 150 22 }
@@ -695,6 +818,16 @@ e_iberia = {
 			color2={ 255 255 255 }
 			
 			capital = 235 # c_zaragoza
+		
+			basque = "Aragoi"
+			catalan = "Aragó"
+			portuguese = "Aragão"
+			castilian = "Aragón"
+			andalusian = "Aragón"
+			leonese = "Aragón"
+			asturian = "Aragón"
+			aragonese = "Aragón"
+			galician = "Aragón"
 			
 			c_zaragoza = { # 235
 				color={ 119 133 239 }
@@ -750,6 +883,12 @@ e_iberia = {
 			color2={ 255 255 255 }
 			
 			capital = 239 # c_valencia
+		
+			basque = "Valentzia"
+			catalan = "València"
+			portuguese = "Valência"
+			occitan = "Valéncia"
+			provencal = "Valéncia"
 			
 			c_valencia = { # 239
 				color={ 175 82 0 }
@@ -806,12 +945,18 @@ e_iberia = {
 		color2={ 255 255 255 }
 		
 		capital = 215 # c_navarre
+	
+		occitan = "Bascoat"
+		provencal = "Bascoat"
 		
 		d_baskonia = {
 			color={ 221 18 5 }
 			color2={ 255 255 255 }
 			
 			capital = 215 # c_navarre
+		
+			occitan = "Bascoat"
+			provencal = "Bascoat"
 			
 			c_navarre = { # 215
 				color={ 211 28 0 }
@@ -882,12 +1027,19 @@ e_iberia = {
 		dignity = 10 # One more county than de jure
 		
 		capital = 163 #Tenerife
+	
+		basque = "Makaronesia"
+		catalan = "Macaronèsia"
+		portuguese = "Macaronésia"
+		parisian = "Macaronésie"
 		
 		d_las_palmas = {
 			color = { 14 27 50 }
 			color2={ 255 255 255 }
 			
 			capital = 160 # Gran Canaria
+		
+			galician = "As Palmas"
 
 			c_gran_canaria = {
 				color = { 81 121 195 }
@@ -973,6 +1125,9 @@ e_iberia = {
 			color={ 95 117 156 }
 			color2={ 255 255 255 }
 		
+			occitan = "Madèira"
+			provencal = "Madèira"
+		
 			capital = 163 #Tenerife
 		
 			c_madeira = {
@@ -1000,6 +1155,18 @@ e_iberia = {
 			color2={ 255 255 255 }
 
 			capital = 167 # Lisboa
+		
+			basque = "Lisboa"
+			catalan = "Lisbona"
+			portuguese = "Lisboa"
+			occitan = "Lisbona"
+			provencal = "Lisbona"
+			castilian = "Lisboa"
+			andalusian = "Lisboa"
+			leonese = "Lisboa"
+			asturian = "Lisboa"
+			aragonese = "Lisbona"
+			galician = "Lisboa"
 		
 			c_lisboa = {
 				color = { 77 108 83 }
@@ -1562,7 +1729,7 @@ k_asturias = {
 	capital = 208 #Uvieu
 	
 	allow = {
-		culture = asturianu
+		culture = asturian
 		conditional_tooltip = {
 			trigger = {
 				k_asturias = {
