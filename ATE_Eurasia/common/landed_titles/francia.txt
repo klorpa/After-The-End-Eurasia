@@ -51,6 +51,14 @@ e_france = {
 				arpitan = "Marselye"
 				occitan = "Marselha"
 				provencal = "Marsiho"
+				rhenish="Massilien"
+				low_saxon="Massilien"
+				ossi="Massilien"
+				upper_saxon="Massilien"
+				bavarian="Massilien"
+				swabian="Massilien"
+				austrian="Massilien"
+				schwyzer="Massilien"
 				
 				b_aix = {
 					catalan = "Ais"
@@ -63,6 +71,14 @@ e_france = {
 					arpitan = "Marselye"
 					occitan = "Marselha"
 					provencal = "Marsiho"
+					rhenish="Massilien"
+					low_saxon="Massilien"
+					ossi="Massilien"
+					upper_saxon="Massilien"
+					bavarian="Massilien"
+					swabian="Massilien"
+					austrian="Massilien"
+					schwyzer="Massilien"
 				}
 				b_arles = {
 					catalan = "Arle"
@@ -1145,6 +1161,23 @@ e_france = {
 		
 		capital = 1551 # c_paris
 	
+		occitan="Lengadoïl"
+		provencal="Lengadoïl"
+		catalan="França"
+		corsican="Francia"
+		basque = "Frantzia"
+		breton="Bro-C'hall"
+		chti="Franche"
+		rhenish="Frankreich"
+		low_saxon="Frankreich"
+		ossi="Frankreich"
+		upper_saxon="Frankreich"
+		bavarian="Frankreich"
+		swabian="Frankreich"
+		austrian="Frankreich"
+		schwyzer="Frankreich"
+		dutch="Frankrijk"
+		flemish="Frankrijk"
 		occitan = "Lengadoïl"
 		provencal = "Lengadoïl"
 		catalan = "França"
@@ -1174,14 +1207,18 @@ e_france = {
 				
 				holy_site = jacobin
 	
-				breton = "Pariz"
-				flemish = "Parys"
+				breton="Pariz"
+				flemish="Parys"
+				dutch="Parijs"
+				luxembourger="Paräis"
 				
 				b_elysee = {
 				}
 				b_paris = {
-					breton = "Pariz"
-					flemish = "Parys"
+					breton="Pariz"
+					flemish="Parys"
+					dutch="Parijs"
+					luxembourger="Paräis"
 				}
 				b_saint_denis = {
 				}
@@ -1333,8 +1370,16 @@ e_france = {
 			breton = "Bourgogn"
 			parisian = "Bourgogne"
 			walloon = "Borgogne"
-			rhenish = "Burgund"
-			swabian = "Burgund"
+			rhenish="Burgund"
+			low_saxon="Burgund"
+			ossi="Burgund"
+			upper_saxon="Burgund"
+			bavarian="Burgund"
+			swabian="Burgund"
+			austrian="Burgund"
+			schwyzer="Burgund"
+			dutch="Bourgondië"
+			flemish="Bourgondië"
 			
 			c_cote_dor = { # 1583
 				color={ 72 74 50 }
@@ -1460,9 +1505,20 @@ e_france = {
 				color={ 168 129 57 }
 				color2={ 255 255 255 }
 	
-				arpitan = "Ardenes"
-				chti = "Ardène"
-				walloon = "Årdene"
+				arpitan="Ardenes"
+				chti="Ardène"
+				walloon="Årdene"
+				rhenish="Ardennen"
+				low_saxon="Ardennen"
+				ossi="Ardennen"
+				upper_saxon="Ardennen"
+				bavarian="Ardennen"
+				swabian="Ardennen"
+				austrian="Ardennen"
+				schwyzer="Ardennen"
+				dutch="Ardennen"
+				flemish="Ardennen"
+				luxembourger="Ardennen"
 				
 				b_sedan = {
 				}
@@ -1538,31 +1594,85 @@ e_france = {
 			catalan = "Franc-Comtat"
 			chti = "Franke-Comtè"
 			rhenish = "Freigrafschaft"
+			low_saxon = "Freigrafschaft"
+			ossi = "Freigrafschaft"
+			upper_saxon = "Freigrafschaft"
+			bavarian = "Freigrafschaft"
 			swabian = "Freigrafschaft"
+			austrian = "Freigrafschaft"
+			schwyzer = "Freigrafschaft"
 			
 			c_doubs = { # 1587
 				color={ 103 105 78 }
 				color2={ 255 255 255 }
 	
 				arpitan = "Dubs"
+				rhenish="Dub"
+				low_saxon="Dub"
+				ossi="Dub"
+				upper_saxon="Dub"
+				bavarian="Dub"
+				swabian="Dub"
+				austrian="Dub"
+				schwyzer="Dub"
 				
 				b_besancon = {
 					arpitan = "Besençon"
+					rhenish="Bisanz"
+					low_saxon="Bisanz"
+					ossi="Bisanz"
+					upper_saxon="Bisanz"
+					bavarian="Bisanz"
+					swabian="Bisanz"
+					austrian="Bisanz"
+					schwyzer="Bisanz"
 				}
 				b_montbeliard = {
+					rhenish="Mömpelgard"
+					low_saxon="Mömpelgard"
+					ossi="Mömpelgard"
+					upper_saxon="Mömpelgard"
+					bavarian="Mömpelgard"
+					swabian="Mömpelgard"
+					austrian="Mömpelgard"
+					schwyzer="Mömpelgard"
 				}
 				b_pontarlier = {
 					arpitan = "Pontarliér"
+					rhenish="Bünterlin"
+					low_saxon="Bünterlin"
+					ossi="Bünterlin"
+					upper_saxon="Bünterlin"
+					bavarian="Bünterlin"
+					swabian="Bünterlin"
+					austrian="Bünterlin"
+					schwyzer="Bünterlin"
 				}
 				b_audincourt = {
 					chti = "Adïncoûe"
 					walloon = "Adïncoûe"
+					rhenish="Andelach"
+					low_saxon="Andelach"
+					ossi="Andelach"
+					upper_saxon="Andelach"
+					bavarian="Andelach"
+					swabian="Andelach"
+					austrian="Andelach"
+					schwyzer="Andelach"
 				}
 				b_valentigney = {
 					chti = "Velantignaie"
 					walloon = "Velantignaie"
 				}
 				b_morteau = {
+					rhenish="Mordau"
+					low_saxon="Mordau"
+					ossi="Mordau"
+					upper_saxon="Mordau"
+					bavarian="Mordau"
+					swabian="Mordau"
+					austrian="Mordau"
+					schwyzer="Mordau"
 				}
 				b_seloncourt = {
 					chti = "Seloncoué"
@@ -1574,11 +1684,35 @@ e_france = {
 				color2={ 255 255 255 }
 				
 				b_lons_le_saunier = {
+					rhenish="Lon"
+					low_saxon="Lon"
+					ossi="Lon"
+					upper_saxon="Lon"
+					bavarian="Lon"
+					swabian="Lon"
+					austrian="Lon"
+					schwyzer="Lon"
 				}
 				b_dole = {
+					rhenish="Doll"
+					low_saxon="Doll"
+					ossi="Doll"
+					upper_saxon="Doll"
+					bavarian="Doll"
+					swabian="Doll"
+					austrian="Doll"
+					schwyzer="Doll"
 				}
 				b_saint_claude = {
-					arpitan = "Sent-Gllôdo"
+					arpitan="Sent-Gllôdo"
+					rhenish="Sankt Klaus"
+					low_saxon="Sankt Klaus"
+					ossi="Sankt Klaus"
+					upper_saxon="Sankt Klaus"
+					bavarian="Sankt Klaus"
+					swabian="Sankt Klaus"
+					austrian="Sankt Klaus"
+					schwyzer="Sankt Klaus"
 				}
 				b_champagnole = {
 					arpitan = "Champagnôla"
@@ -1594,14 +1728,47 @@ e_france = {
 			c_vesoul = { # 1588
 				color={ 89 92 58 }
 				color2={ 255 255 255 }
+
+				rhenish="Wesul"
+				low_saxon="Wesul"
+				ossi="Wesul"
+				upper_saxon="Wesul"
+				bavarian="Wesul"
+				swabian="Wesul"
+				austrian="Wesul"
+				schwyzer="Wesul"
 				
 				b_vesoul = {
+					rhenish="Wesul"
+					low_saxon="Wesul"
+					ossi="Wesul"
+					upper_saxon="Wesul"
+					bavarian="Wesul"
+					swabian="Wesul"
+					austrian="Wesul"
+					schwyzer="Wesul"
 				}
 				b_hericourt = {
 				}
 				b_lure = {
+					rhenish="Lüdersdorf"
+					low_saxon="Lüdersdorf"
+					ossi="Lüdersdorf"
+					upper_saxon="Lüdersdorf"
+					bavarian="Lüdersdorf"
+					swabian="Lüdersdorf"
+					austrian="Lüdersdorf"
+					schwyzer="Lüdersdorf"
 				}
 				b_luxeuil_les_bains = {
+					rhenish="Luseul"
+					low_saxon="Luseul"
+					ossi="Luseul"
+					upper_saxon="Luseul"
+					bavarian="Luseul"
+					swabian="Luseul"
+					austrian="Luseul"
+					schwyzer="Luseul"
 				}
 				b_gray = {
 				}
@@ -1697,6 +1864,14 @@ e_france = {
 			
 			capital = 1579 # c_nancy
 	
+			rhenish="Lothringen"
+			low_saxon="Lothringen"
+			ossi="Lothringen"
+			upper_saxon="Lothringen"
+			bavarian="Lothringen"
+			swabian="Lothringen"
+			austrian="Lothringen"
+			schwyzer="Lothringen"
 			occitan = "Lorena"
 			provencal = "Lorrena"
 			arpitan = "Lorrêna"
@@ -1708,82 +1883,233 @@ e_france = {
 				color={ 84 168 191 }
 				color2={ 255 255 255 }
 	
-				rhenish = "Nanzeg"
-				swabian = "Nanzig"
+				rhenish="Nanzeg"
+				low_saxon="Nanzig"
+				ossi="Nanzig"
+				upper_saxon="Nanzig"
+				bavarian="Nanzig"
+				swabian="Nanzig"
+				austrian="Nanzig"
+				schwyzer="Nanzig"
 				
 				b_vandoeuvre = {
+					rhenish="Vandover"
+					low_saxon="Vandover"
+					ossi="Vandover"
+					upper_saxon="Vandover"
+					bavarian="Vandover"
+					swabian="Vandover"
+					austrian="Vandover"
+					schwyzer="Vandover"
 				}
 				b_nancy = {
-					rhenish = "Nanzeg"
-					swabian = "Nanzig"
+					rhenish="Nanzeg"
+					low_saxon="Nanzig"
+					ossi="Nanzig"
+					upper_saxon="Nanzig"
+					bavarian="Nanzig"
+					swabian="Nanzig"
+					austrian="Nanzig"
+					schwyzer="Nanzig"
 				}
 				b_luneville = {
+					rhenish="Lünstadt"
+					low_saxon="Lünstadt"
+					ossi="Lünstadt"
+					upper_saxon="Lünstadt"
+					bavarian="Lünstadt"
+					swabian="Lünstadt"
+					austrian="Lünstadt"
+					schwyzer="Lünstadt"
 				}
 				b_toul = {
+					rhenish="Toll"
+					low_saxon="Toll"
+					ossi="Toll"
+					upper_saxon="Toll"
+					bavarian="Toll"
+					swabian="Toll"
+					austrian="Toll"
+					schwyzer="Toll"
 				}
 				b_laxou = {
+					rhenish="Lachsau"
+					low_saxon="Lachsau"
+					ossi="Lachsau"
+					upper_saxon="Lachsau"
+					bavarian="Lachsau"
+					swabian="Lachsau"
+					austrian="Lachsau"
+					schwyzer="Lachsau"
 				}
 				b_longwy = {
+					rhenish="Langich"
+					low_saxon="Langich"
+					ossi="Langich"
+					upper_saxon="Langich"
+					bavarian="Langich"
+					swabian="Langich"
+					austrian="Langich"
+					schwyzer="Langich"
+					luxembourger="Longkech"
 				}
 				b_briey = {
+					rhenish="Brietz"
+					low_saxon="Brietz"
+					ossi="Brietz"
+					upper_saxon="Brietz"
+					bavarian="Brietz"
+					swabian="Brietz"
+					austrian="Brietz"
+					schwyzer="Brietz"
 				}
 			}
 			c_meuse = { # 1581
 				color={ 43 126 18 }
 				color2={ 255 255 255 }
 	
-				rhenish = "Maas"
-				swabian = "Maas"
+				rhenish="Maas"
+				low_saxon="Maas"
+				ossi="Maas"
+				upper_saxon="Maas"
+				bavarian="Maas"
+				swabian="Maas"
+				austrian="Maas"
+				schwyzer="Maas"
 				arpitan = "Môsa"
-				walloon = "Moûse"
+				walloon = "Moûze"
 				
 				b_bar_le_duc = {
+					rhenish="Herzogenbar"
+					low_saxon="Herzogenbar"
+					ossi="Herzogenbar"
+					upper_saxon="Herzogenbar"
+					bavarian="Herzogenbar"
+					swabian="Herzogenbar"
+					austrian="Herzogenbar"
+					schwyzer="Herzogenbar"
 				}
 				b_verdun = {
+					rhenish="Verden an der Maas"
+					low_saxon="Verden an der Maas"
+					ossi="Verden an der Maas"
+					upper_saxon="Verden an der Maas"
+					bavarian="Verden an der Maas"
+					swabian="Verden an der Maas"
+					austrian="Verden an der Maas"
+					schwyzer="Verden an der Maas"
 				}
 				b_commercy = {
+					rhenish="Commarchen"
+					low_saxon="Commarchen"
+					ossi="Commarchen"
+					upper_saxon="Commarchen"
+					bavarian="Commarchen"
+					swabian="Commarchen"
+					austrian="Commarchen"
+					schwyzer="Commarchen"
 				}
 				b_saint_mihiel = {
 				}
 				b_ligny_en_barrois = {
+					rhenish="Lingen in Bar"
+					low_saxon="Lingen in Bar"
+					ossi="Lingen in Bar"
+					upper_saxon="Lingen in Bar"
+					bavarian="Lingen in Bar"
+					swabian="Lingen in Bar"
+					austrian="Lingen in Bar"
+					schwyzer="Lingen in Bar"
 				}
 				b_etain = {
+					rhenish="Stain"
+					low_saxon="Stain"
+					ossi="Stain"
+					upper_saxon="Stain"
+					bavarian="Stain"
+					swabian="Stain"
+					austrian="Stain"
+					schwyzer="Stain"
 				}
 				b_thierville_sur_meuse = {
+					rhenish="Dierburg an der Maas"
+					low_saxon="Dierburg an der Maas"
+					ossi="Dierburg an der Maas"
+					upper_saxon="Dierburg an der Maas"
+					bavarian="Dierburg an der Maas"
+					swabian="Dierburg an der Maas"
+					austrian="Dierburg an der Maas"
+					schwyzer="Dierburg an der Maas"
 				}
 			}
 			c_moselle = { # 1580
 				color={ 126 171 64 }
 				color2={ 255 255 255 }
 	
-				rhenish = "Mosel"
-				swabian = "Mosel"
-				arpitan = "Mosèla"
+				rhenish="Mosel"
+				low_saxon="Mosel"
+				ossi="Mosel"
+				upper_saxon="Mosel"
+				bavarian="Mosel"
+				swabian="Mosel"
+				austrian="Mosel"
+				schwyzer="Mosel"
+				arpita ="Mosèla"
 				
 				b_montigny = {
-					rhenish = "Monteningen"
-					swabian = "Monteningen"
+					rhenish="Monteningen"
+					low_saxon="Monteningen"
+					ossi="Monteningen"
+					upper_saxon="Monteningen"
+					bavarian="Monteningen"
+					swabian="Monteningen"
+					austrian="Monteningen"
+					schwyzer="Monteningen"
 				}
 				b_metz = {
 				}
 				b_thionville = {
 					rhenish = "Diedenhofen"
+					low_saxon="Diedenhofen"
+					ossi="Diedenhofen"
+					upper_saxon="Diedenhofen"
+					bavarian="Diedenhofen"
 					swabian = "Diddenuewen"
+					austrian="Diedenhofen"
+					schwyzer="Diedenhofen"
 				}
 				b_forbach = {
-					swabian = "Fuerboch"
+					rhenish="Fuerboch"
 				}
 				b_sarreguemines = {
-					rhenish = "Saargemünd"
-					swabian = "Saargemìnn"
+					rhenish="Saargemünd"
+					low_saxon="Saargemünd"
+					ossi="Saargemünd"
+					upper_saxon="Saargemünd"
+					bavarian="Saargemünd"
+					swabian = "Saargemünd"
+					austrian="Saargemünd"
+					schwyzer="Saargemünd"
 				}
 				b_yutz = {
-					rhenish = "Jeutz"
-					swabian = "Jäitz"
+					rhenish = "Jäitz"
+					low_saxon="Jeutz"
+					ossi="Jeutz"
+					upper_saxon="Jeutz"
+					bavarian="Jeutz"
+					swabian = "Jeutz"
+					austrian="Jeutz"
+					schwyzer="Jeutz"
 				}
 				b_sarrebourg = {
-					rhenish = "Saarburch"
-					swabian = "Såårburi"
+					rhenish="Saarburch"
+					low_saxon="Saarburg"
+					ossi="Saarburg"
+					upper_saxon="Saarburg"
+					bavarian="Saarburg"
+					swabian="Såårburi"
+					austrian="Saarburg"
+					schwyzer="Saarburg"
 				}
 			}
 			c_vosges = { # 1582
@@ -1791,26 +2117,76 @@ e_france = {
 				color2={ 255 255 255 }
 	
 				rhenish = "Vogesen"
+				low_saxon="Vogesen"
+				ossi="Vogesen"
+				upper_saxon="Vogesen"
+				bavarian="Vogesen"
 				swabian = "Vogese"
+				austrian="Vogesen"
+				schwyzer="Vogesen"
 				arpitan = "Vôges"
 				
 				b_thaon_les_vosges = {
+					rhenish = "Thalfang im Wasgenwald"
+					low_saxon="Thalfang im Wasgenwald"
+					ossi="Thalfang im Wasgenwald"
+					upper_saxon="Thalfang im Wasgenwald"
+					bavarian="Thalfang im Wasgenwald"
+					swabian = "Thalfang im Wasgenwald"
+					austrian="Thalfang im Wasgenwald"
+					schwyzer="Thalfang im Wasgenwald"
 				}
 				b_epinal = {
+					rhenish="Spinneln"
+					low_saxon="Spinneln"
+					ossi="Spinneln"
+					upper_saxon="Spinneln"
+					bavarian="Spinneln"
+					swabian="Spinneln"
+					austrian="Spinneln"
+					schwyzer="Spinneln"
 				}
 				b_saint_die = {
-					rhenish = "Sankt Didel"
-					swabian = "Sankt Didel"
+					rhenish="Sankt Didel"
+					low_saxon="Sankt Didel"
+					ossi="Sankt Didel"
+					upper_saxon="Sankt Didel"
+					bavarian="Sankt Didel"
+					swabian="Sankt Didel"
+					austrian="Sankt Didel"
+					schwyzer="Sankt Didel"
 				}
 				b_golbey = {
 				}
 				b_gerardmer = {
-					rhenish = "Gerdsee"
-					swabian = "Gerdsee"
+					rhenish="Gerdsee"
+					low_saxon="Gerdsee"
+					ossi="Gerdsee"
+					upper_saxon="Gerdsee"
+					bavarian="Gerdsee"
+					swabian="Gerdsee"
+					austrian="Gerdsee"
+					schwyzer="Gerdsee"
 				}
 				b_remiremont = {
+					rhenish="Romberg"
+					low_saxon="Romberg"
+					ossi="Romberg"
+					upper_saxon="Romberg"
+					bavarian="Romberg"
+					swabian="Romberg"
+					austrian="Romberg"
+					schwyzer="Romberg"
 				}
 				b_neufchateau = {
+					rhenish="Neuenburg"
+					low_saxon="Neuenburg"
+					ossi="Neuenburg"
+					upper_saxon="Neuenburg"
+					bavarian="Neuenburg"
+					swabian="Neuenburg"
+					austrian="Neuenburg"
+					schwyzer="Neuenburg"
 				}
 			}
 		}
@@ -1818,12 +2194,13 @@ e_france = {
 			color={ 39 68 160 }
 			color2={ 255 255 255 }
 	
-			breton = "Norzh"
-			corsican = "Nordu"
-			flemish = "Noord"
-			occitan = "Nòrd"
-			provencal = "Nòrd"
-			walloon = "Nôr"
+			breton="Norzh"
+			corsican="Nordu"
+			dutch="Noord"
+			flemish="Noord"
+			occitan="Nòrd"
+			provencal="Nòrd"
+			walloon="Nôr"
 			
 			capital = 1571 # c_lille
 			
@@ -1831,37 +2208,65 @@ e_france = {
 				color={ 168 9 37 }
 				color2={ 255 255 255 }
 	
-				arpitan = "Lela"
-				chti = "Lile"
-				walloon = "Lîle"
-				flemish = "Rysel"
+				rhenish="Reissel"
+				low_saxon="Reissel"
+				ossi="Reissel"
+				upper_saxon="Reissel"
+				bavarian="Reissel"
+				swabian="Reissel"
+				austrian="Reissel"
+				schwyzer="Reissel"
+				arpitan="Lela"
+				chti="Lile"
+				walloon="Lîle"
+				dutch="Rijsel"
+				flemish="Rysel"
 				
 				b_tourcoing = {
-					chti = "Tourco"
-					flemish = "Terkoeje"
+					chti="Tourco"
+					dutch="Toerkonje"
+					flemish="Terkoeje"
 				}
 				b_lille = {
-					arpitan = "Lela"
-					chti = "Lile"
-					walloon = "Lîle"
-					flemish = "Rysel"
+					rhenish="Reissel"
+					low_saxon="Reissel"
+					ossi="Reissel"
+					upper_saxon="Reissel"
+					bavarian="Reissel"
+					swabian="Reissel"
+					austrian="Reissel"
+					schwyzer="Reissel"
+					arpitan="Lela"
+					chti="Lile"
+					walloon="Lîle"
+					dutch="Rijsel"
+					flemish="Rysel"
 				}
 				b_roubaix = {
-					chti = "Roubés"
-					walloon = "Roubés"
-					flemish = "Roboais"
+					chti="Roubés"
+					walloon="Roubés"
+					dutch="Robaais"
+					flemish="Roboais"
 				}
 				b_dunkerque = {
-					chti = "Dunkèke"
-					flemish = "Duunkerke"
-					rhenish = "Dünkirchen"
-					swabian = "Dünkirche"
+					chti="Dunkèke"
+					dutch="Duinkerke"
+					flemish="Duunkerke"
+					rhenish="Dünkirchen"
+					low_saxon="Dünkirchen"
+					ossi="Dünkirchen"
+					upper_saxon="Dünkirchen"
+					bavarian="Dünkirchen"
+					swabian="Dünkirche"
+					austrian="Dünkirchen"
+					schwyzer="Dünkirchen"
 				}
 				b_villeneuve_dascq = {
 					chti = "Neuvile-Ask"
 				}
 				b_wattrelos = {
-					flemish = "Watterloo"
+					dutch="Waterlos"
+					flemish="Watterloo"
 				}
 				b_marcq_en_baroeul = {
 					chti = "Marke-in-Bareul"
@@ -1871,15 +2276,25 @@ e_france = {
 				color={ 84 18 166 }
 				color2={ 255 255 255 }
 	
-				breton = "Artez"
-				chti = "Artoé"
-				flemish = "Artesië"
+				breton="Artez"
+				chti="Artoé"
+				dutch="Artesië"
+				flemish="Artesië"
 				
 				b_arras = {
-					chti = "Aros"
+					dutch="Atrecht"
+					flemish="Atrecht"
+					rhenish="Atrecht"
+					low_saxon="Atrecht"
+					ossi="Atrecht"
+					upper_saxon="Atrecht"
+					bavarian="Atrecht"
+					swabian="Atrecht"
+					austrian="Atrecht"
+					schwyzer="Atrecht"
+					chti="Aros"
 				}
 				b_lens = {
-					chti = "Linse"
 					chti = "Linse"
 				}
 				b_lievin = {
@@ -1889,8 +2304,9 @@ e_france = {
 					chti = "Hinnin-Biaumont"
 				}
 				b_bethune = {
-					chti = "Bétunne"
-					flemish = "Betun"
+					chti="Bétunne"
+					dutch="Betun"
+					flemish="Betun"
 				}
 				b_bruay_la_buissiere = {
 					chti = "Brouay-l'Bussière"
@@ -1905,15 +2321,25 @@ e_france = {
 				arpitan = "Pâs-de-Calês"
 				chti = "Pas-Calés"
 				flemish = "Nauw van Kales"
+				dutch = "Nauw van Kales"
 				
 				b_calais = {
-					chti = "Calés"
-					flemish = "Cales"
-					rhenish = "Kalen"
+					chti="Calés"
+					dutch="Kales"
+					flemish="Cales"
+					rhenish="Kalen"
+					low_saxon="Kalen"
+					ossi="Kalen"
+					upper_saxon="Kalen"
+					bavarian="Kalen"
+					swabian="Kalen"
+					austrian="Kalen"
+					schwyzer="Kalen"
 				}
 				b_boulogne_sur_mer = {
-					chti = "Boulonne-su-Mér"
-					flemish = "Bonen"
+					chti="Boulonne-su-Mér"
+					dutch="Bonen"
+					flemish="Bonen"
 				}
 				b_saint_omer = {
 					chti = "Saint-Onmé"
@@ -1931,42 +2357,51 @@ e_france = {
 					flemish = "Sint-Maarten bij Bonen"
 				}
 				b_longuenesse = {
-					flemish = "Langenesse"
+					dutch="Langenesse"
+					flemish="Langenesse"
 				}
 			}
 			c_valenciennes = { # 1572
 				color={ 39 47 171 }
 				color2={ 255 255 255 }
 	
-				chti = "Valincyinne"
-				flemish = "Valencijn"
+				chti="Valincyinne"
+				flemish="Valencijn"
+				dutch="Valencijn"
 				
 				b_valenciennes = {
-					chti = "Valincyinne"
-					flemish = "Valencijn"
+					chti="Valincyinne"
+					flemish="Valencijn"
+					dutch="Valencijn"
 				}
 				b_douai = {
-					chti = "Doï"
-					flemish = "Dowaai"
+					chti="Doï"
+					flemish="Dowaai"
+					dutch="Dowaai"
 				}
 				b_cambrai = {
-					chti = "Kimbré"
-					flemish = "Kamerijk"
+					chti="Kimbré"
+					flemish="Kamerijk"
+					dutch="Kamerijk"
 				}
 				b_avesnes_sur_helpe = {
-					chti = "Avinne"
-					flemish = "Avenne aan de Helpe"
+					chti="Avinne"
+					flemish="Avenne aan de Helpe"
+					dutch="Avenne aan de Helpe"
 				}
 				b_maubeuge = {
-					chti = "Maubeuche"
-					flemish = "Mabuse"
+					chti="Maubeuche"
+					flemish="Mabuse"
+					dutch="Malbode"
 				}
 				b_denain = {
-					chti = "Dnain"
-					flemish = "Dening"
+					chti="Dnain"
+					flemish="Dening"
+					dutch="Dening"
 				}
 				b_halluin = {
-					flemish = "Oalewyne"
+					flemish="Oalewyne"
+					dutch="Halewijn"
 				}
 			}
 		}
@@ -1976,6 +2411,16 @@ e_france = {
 			
 			capital = 1563 # c_seine_maritime
 	
+			breton="Normandi"
+			catalan="Normandia"
+			basque = "Normandia"
+			occitan="Normandia"
+			provencal="Normandia"
+			parisian="Normandie"
+			chti="Normandie"
+			walloon="Normandie"
+			dutch="Normandië"
+			flemish="Normandië"
 			breton = "Normandi"
 			catalan = "Normandia"
 			basque = "Normandia"
@@ -2192,7 +2637,8 @@ e_france = {
 			provencal = "Picardia"
 			parisian = "Picardie"
 			chti = "Picardie"
-			walloon = "Picårdeye"
+			walloon = "Picårdeye"		
+			dutch = "Picardië"
 			flemish = "Picardië"
 			
 			c_somme = { # 1568
@@ -2208,6 +2654,7 @@ e_france = {
 				b_abbeville = {
 					chti = "Advile"
 					flemish = "Abbekerke"
+					dutch = "Abbekerke"
 				}
 				b_albert = {
 					chti = "Inke"
@@ -2215,8 +2662,9 @@ e_france = {
 				b_peronne = {
 				}
 				b_corbie = {
-					chti = "Corbeu"
-					flemish = "Korbie"
+					chti="Corbeu"
+					flemish="Korbie"
+					dutch="Korbei"
 				}
 				b_montdidier = {
 					chti = "Montdidji"
@@ -2224,6 +2672,7 @@ e_france = {
 				b_doullens = {
 					chti = "Dourlin"
 					flemish = "Dorland"
+					dutch = "Dorland"
 				}
 			}
 			c_aisne = { # 1569
@@ -2235,6 +2684,7 @@ e_france = {
 				
 				b_laon = {
 					flemish = "Louwen"
+					dutch = "Louwen"
 				}
 				b_saint_quentin = {
 					chti = "Saint-Kintin"
@@ -2249,6 +2699,7 @@ e_france = {
 				}
 				b_vervins = {
 					flemish = "Werwen"
+					dutch = "Werwen"
 				}
 			}
 			c_oise = { # 1570
