@@ -672,4 +672,67 @@ latin = {
 		mat_grm_name_chance = 40
 		mother_name_chance = 5
 	}
+	friulian = {
+		graphical_cultures = { italiangfx southerngfx westerngfx }
+		
+		color = { 0.03 0.37 0.52 }
+
+		male_names = {
+			Adrian Aitor_Hector Alessandri_Alexander Anibal_Hannibal Antoni_Anthony Aristotel_Aristotle August_Augustus 
+			Baldiçar_Balthazar Benedet_Benedict Blas_Blaise Bortolomio_Bartholomew Bortolot Brût_Brutus 
+			Callist_Callistus Canziàn Carli_Charles Cesar_Caesar Ciceron_Cicero Ciprian_Cyprian Clario Clement Corat_Conrad Çorç_George Corneli_Cornelius Cras_Crassus Cristoful_Christopher Culau_Nicholas 
+			Dante Denêl_Daniel Domeni_Dominic Durì 
+			Ercul_Hercules Erodot_Herodotus Eugenio_Eugene 
+			Fabi_Fabius Fidrich_Frederick Floreàn_Florian Fortunât_Fortunatus Francesch_Francis 
+			Gai_Gaius Grivôr_Gregory 
+			Iançil_John Ilari_Hilarius Indrea_Andrew Indrich_Henry Ingistalt Innocent_Innocentius Iosef_Joseph Ipocrat_Hippocrates 
+			Jacum_James Juli_Jules 
+			Laçarin_Lazarus Laurinzut_Lawrence Lazer_Lazarus Lenart_Leonard Leon_Leo Lissandri_Alexander Lorenç_Lawrence Luca_Luke Luci_Lucius Luîs_Louis 
+			Madùs_Amadeus Marc_Mark Marc Antoni_Mark-Anthony Marcello_Marcel Martin Massim_Maximus Matio_Matthew Menìs_Dominic Mian_Damian Michêlagnul_Michelangelo Micjêl_Michael 
+			Nichulau_Nicholas 
+			Omêr_Homer Otavian_Octavian 
+			Pauli_Paul Pedròs_Peter Philipan_Philip Pieri_Peter Pilirin_Pellegrino Pitagore_Pythagorus Piu_Pius Pompeu_Pompey Pontaleon_Pantaleon 
+			Ramacul_Hermagoras Ridolf_Rudolf 
+			Quarin_Quirinus Quint_Quintus 
+			Rafael_Raphael 
+			Scjefin_Stephen Siart_Siward Simion_Simon Simon Sistu_Sixtus Stiefin_Stephen Stin Stolf_Astolfo 
+			Tecili_Cecil Terenzi_Terentius Tomat_Thomas Tuone_Anthony 
+			Valerian Vielm_William Vignut_Benvenudo Virgjli_Virgil Vît_Vito 
+			Zirolamo_Hieronymus Zorç_George Zuan_John Zuan Pauli_John-Paul Zuan Pieri_John-Peter 
+		}
+		female_names = {
+			Adaleita_Adelaide Adelca Agite_Agatha Agnabella_Annabella Aligranze Ane_Anne Antonie_Antonia Anute_Anne Auriglussa_Aurelia 
+			Baltrama_Bertranda Barbare_Barbara Benvignude_Benvenuta Bernarde_Bernarda Bete_Elizabeth Betta_Elizabeth Biatrìs_Beatrice Birtulina_Bertha Blasiola Bortholomee_Bartholomea 
+			Catarine_Catherine Cecilie_Cecilia Chostanza_Constance Chumina_Jacoba Çiana Clara_Claire Cleopatre_Cleopatra Crestina_Christina Çuana_Joan 
+			Domenia_Domenica Donata Doriga Dorotea_Dorothy 
+			Emilie_Emily Eva_Eve 
+			Filipa_Philippa Flor_Flora Francescha_Françoise 
+			Galdrut_Gertrude Galiana Gina Gisele_Gisela Gnesa_Agnes 
+			Ilarie_Hillary Indrigina_Henrietta Indryna_Andrée Iustina_Justina 
+			Jacume_Jacoba Josefe_Josepha 
+			Lamberta Lena_Helen Leonarde_Leonarda Lorença_Lorenza Lucia_Lucy Luciana_Lucy Luisa_Louise 
+			Madalena_Magdalene Marchiole Margaretta_Margaret Marie_Mary Maria_Mary Maria Madalena_Mary-Magdalene Marila Marta_Martha Matie Melda Merigarda Milena Mira Miranda Miria Mirvana 
+			Nastasie_Anastasia Neva_Nieves Nicolusse 
+			Oderica 
+			Palma Paschuta_Pascalina Pelegrine Perine_Petra 
+			Romane_Romana 
+			Sabida Serafin Silia Simona Sofie_Sophia Stella Subette_Elizabeth Susane_Susan 
+			Taresie_Theresa Tomasina Tonie_Antonia 
+			Uliana_Julia Ursula Ustine_Justina 
+			Vignuda_Benvenuta Viniria Viola Vitorie_Victoria 
+			Zuane_Joan 
+		}
+		from_dynasty_prefix = "de "
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
 }
