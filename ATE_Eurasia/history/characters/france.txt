@@ -335,7 +335,7 @@
 1804031={
 	name="Zinédine"
 	dynasty=2008216 #Fekir
-	culture=moroccan
+	culture=francarabe
 	religion=sunni
 	trait=strong
 	trait=proud
@@ -375,4 +375,100 @@
 	trait=proud
 	trait=proud
 	2644.8.30={birth=yes}
+}
+1804035={
+	name="Guustave"
+	dynasty=2037237 #Bovary
+	culture=norman
+	religion=jacobin
+	trait=erudite
+	trait=poet
+	2630.5.8={birth=yes}
+	2658.1.1={
+		add_spouse=1804036 
+	}
+}
+1804036={
+	name="Emma"
+	female=yes
+	culture=norman
+	religion=jacobin
+	trait=erudite
+	trait=poet
+	trait=depressed
+	2637.12.9={birth=yes}
+	2658.1.1={
+		add_spouse=1804035 
+	}
+}
+1804037={
+	name="Charles"
+	dynasty=2037237 #Bovary
+	culture=norman
+	father=1804035
+	mother=1804036
+	2661.3.4={birth=yes}
+}
+1804038={
+	name="Guy"
+	dynasty=2037238 #Hors-de-Là
+	culture=norman
+	religion=jacobin
+	trait=paranoid
+	trait=lunatic
+	trait=depressed
+	2624.8.5={birth=yes}
+}
+1804039={
+	name="Tristan"
+	dynasty=2037239 #Goultard
+	culture=norman
+	religion=jacobin
+	trait=strong
+	trait=dull
+	trait=brave
+	2648.4.1={birth=yes}
+}
+1804040={
+	name="Dylan"
+	dynasty=2012183 #Marsylle
+	culture=chti
+	religion=jacobin
+	2638.12.21={birth=yes}
+}
+1804041={
+	name="Stanislas"
+	dynasty=2008217 #Carrépoint
+	culture=parisian
+	religion=jacobin
+	2632.10.20={birth=yes}
+	2657.1.1={
+		add_spouse=1804043 
+	}
+}
+1804042={
+	name="Robert"
+	dynasty=2008217 #Carrépoint
+	culture=parisian
+	religion=jacobin
+	father=1804041
+	mother=1804043
+	2661.4.2={birth=yes}
+}
+1804043={
+	name="Marie"
+	culture=parisian
+	religion=jacobin
+	2630.1.19={birth=yes}
+	2657.1.1={
+		add_spouse=1804041 
+	}
+}
+1804044={
+	name="Patrice"
+	dynasty=2008218 #Picquard
+	culture=parisian
+	religion=jacobin
+	2619.7.13={birth=yes}
+	properties = co0c0k000000
 }

@@ -854,10 +854,11 @@ e_france = {
 		catalan = "Bretanya"
 		basque = "Bretainia"
 		breton = "Breizh"
-		gallo = "Bertègn"
+		gallo = "Bertaèyn"
 		parisian = "Bretagne"
 		walloon = "Burtaegne"
 		chti = "Bertanne"
+		norman = "Brétangne"
 		
 		d_breizh_uhel = {
 			color={ 146 143 138 }
@@ -873,6 +874,7 @@ e_france = {
 			parisian = "Haute-Bretagne"
 			walloon = "Hôte-Burtaegne"
 			chti = "Haute-Bertanne"
+			norman = "Basse-Brétangne"
 			
 			capital = 1542 # c_rennes
 			
@@ -986,15 +988,17 @@ e_france = {
 				color2={ 255 255 255 }
 	
 				breton = "Sant-Maloù"
-				gallo = "Sint Mâlo"
+				gallo = "Saent-Malo"
+				norman = "Saint Mâlo"
 				
 				b_saint_servan = {
 					breton = "Sant-Servan"
-					gallo = "Sint Sren"
+					gallo = "Saent-Sren"
 				}
-				b_saint_malo = {
+					b_saint_malo = {
 					breton = "Sant-Maloù"
-					gallo = "Sint Mâlo"
+					gallo = "Saent-Malo"
+					norman = "Saint Mâlo"
 				}
 				b_dinan = {
 				}
@@ -1029,6 +1033,7 @@ e_france = {
 			parisian = "Basse-Bretagne"
 			walloon = "Basse-Burtaegne"
 			chti = "Basse-Bertanne"
+			chti = "Hâote-Brétangne"
 			
 			capital = 1547 # c_vannes
 			
@@ -1104,6 +1109,7 @@ e_france = {
 				
 				b_quimper = {
 					breton = "Kemper"
+					norman = "Tchîmpèr"
 				}
 				b_concarneau = {
 					breton = "Konk-Kerne"
@@ -1675,12 +1681,14 @@ e_france = {
 			parisian = "Normandie"
 			chti = "Normandie"
 			walloon = "Normandie"
+			norman = "Normaundie"
 			
 			c_seine_maritime = { # 1563
 				color={ 88 55 82 }
 				color2={ 255 255 255 }
 	
 				arpitan = "Sêna-Maritima"
+				norman = "Seine-Maritème"
 				
 				b_rouen = {
 					breton = "Rouan"
@@ -1688,8 +1696,10 @@ e_france = {
 				}
 				b_le_havre = {
 					breton = "An Havr-Nevez"
+					norman = "Lé Hâvre"
 				}
 				b_dieppe = {
+					norman = "Dgieppe"
 				}
 				b_sotteville_les_rouen = {
 				}
@@ -1704,7 +1714,10 @@ e_france = {
 				color={ 61 31 55 }
 				color2={ 255 255 255 }
 				
+				norman = "Alençoun"
+				
 				b_alencon = {
+					norman = "Alençoun"
 				}
 				b_flers = {
 				}
@@ -1726,6 +1739,7 @@ e_france = {
 				b_herouville = {
 				}
 				b_caen = {
+					norman = "Caën"
 				}
 				b_lisieux = {
 				}
@@ -1742,18 +1756,25 @@ e_france = {
 				color={ 137 66 124 }
 				color2={ 255 255 255 }
 				
+				norman = "Côtentin"
+				
 				b_saint_lo = {
 				}
 				b_cherbourg = {
+					norman = "Chèrbourg"
 				}
 				b_mont_saint_michel = {
 					breton = "Menez Mikael ar Mor"
+					gallo = "Mont Saent-Michèu"
+					norman = "Mont Saint Miché"
 				}
 				b_granville = {
+					norman = "Graunville"
 				}
 				b_la_hague = {
 				}
 				b_avranches = {
+					norman = "Avraunches"
 				}
 				b_carentan_les_marais = {
 				}
@@ -1778,6 +1799,7 @@ e_france = {
 				b_bernay = {
 				}
 				b_les_andelys = {
+					norman = "Les Aundelys"
 				}
 			}
 		}
