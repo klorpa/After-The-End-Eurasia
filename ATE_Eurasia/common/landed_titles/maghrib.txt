@@ -1,0 +1,764 @@
+###### AUTO GENERATED CONTENT (c) CKTools v19 ######
+
+
+
+e_maghrib = {
+	color={ 235 11 45 }
+	color2={ 255 255 20 }
+	
+	capital = 1039 # c_ar_ribat
+	culture = moroccan
+	
+	k_morocco = {
+		color={ 225 21 40 }
+		color2={ 255 255 255 }
+		
+		capital = 1039 # c_ar_ribat
+		culture = moroccan
+		
+		d_ar_ribat = {
+			color={ 205 41 30 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1039 province_id = 1040 province_id = 1041 } }
+				}
+			}
+			capital = 1039 # c_ar_ribat
+			
+			c_ar_ribat = { # 1039
+				color={ 195 51 25 }
+				color2={ 255 255 255 }
+				
+				b_tawaruka = {
+				}
+				b_ar_ribat = {
+				}
+				b_sila = {
+				}
+				b_binslayman = {
+				}
+				b_tamara = {
+				}
+				b_yaqub_al_mansur = {
+				}
+				b_sidi_buqnadil = {
+				}
+			}
+			c_al_khamisat = { # 1040
+				color={ 226 9 9 }
+				color2={ 255 255 255 }
+				
+				b_essalam = {
+				}
+				b_ezzahra = {
+				}
+				b_tayfilat = {
+				}
+				b_ayat_yudin = {
+				}
+				b_uwlimas = {
+				}
+				b_sidi_al_ghandur = {
+				}
+				b_majmae_al_talaba = {
+				}
+			}
+			c_al_qunaytira = { # 1041
+				color={ 122 192 91 }
+				color2={ 255 255 255 }
+				
+				b_khabazat = {
+				}
+				b_mimosas = {
+				}
+				b_suq_alarbiea = {
+				}
+				b_sidi_taibi = {
+				}
+				b_ben_mansur = {
+				}
+				b_sidi_mohamed_lihamr = {
+				}
+				b_munasira = {
+				}
+			}
+		}
+		d_ad_dar_al_baidaa = {
+			color={ 123 123 29 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1042 province_id = 1043 province_id = 1044 } }
+				}
+			}
+			capital = 1042 # c_ad_dar_al_baidaa
+			
+			c_ad_dar_al_baidaa = { # 1042
+				color={ 113 133 24 }
+				color2={ 255 255 255 }
+				
+				b_al_mashur = {
+				}
+				b_anfa = {
+				}
+				b_sidi_bernoussi = {
+				}
+				b_mohammedia = {
+				}
+				b_nouaceur = {
+				}
+				b_mediouna = {
+				}
+				b_ain_chock = {
+				}
+			}
+			c_al_jadida = { # 1044
+				color={ 186 43 0 }
+				color2={ 255 255 255 }
+				
+				b_azemmour = {
+				}
+				b_al_jadida = {
+				}
+				b_my_abdellah = {
+				}
+				b_haouzia = {
+				}
+				b_chtouka = {
+				}
+				b_oulad_hcine = {
+				}
+				b_mettouh = {
+				}
+			}
+			c_sitat = { # 1043
+				color={ 140 102 0 }
+				color2={ 255 255 255 }
+				
+				b_sitat = {
+				}
+				b_ben_ahmed = {
+				}
+				b_sidi_hajjaj = {
+				}
+				b_dar_chaffai = {
+				}
+				b_el_borouj = {
+				}
+				b_ras_el_ain_chaouia = {
+				}
+				b_ain_nzagh = {
+				}
+			}
+		}
+		d_ash_sharq = {
+			color={ 239 174 230 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1054 province_id = 1055 province_id = 1056 } }
+				}
+			}
+			capital = 1054 # c_wajida
+			
+			c_wajida = { # 1054
+				color={ 249 164 235 }
+				color2={ 255 255 255 }
+				
+				b_ahl_angad = {
+				}
+				b_wajida = {
+				}
+				b_sidi_slimane_echcharraa = {
+				}
+				b_bni_drar = {
+				}
+				b_ahfir = {
+				}
+				b_naima = {
+				}
+				b_isly = {
+				}
+			}
+			c_fakik = { # 1056
+				color={ 249 191 190 }
+				color2={ 255 255 255 }
+				
+				b_fakik = {
+				}
+				b_bouarfa = {
+				}
+				b_talsint = {
+				}
+				b_bni_tadjite = {
+				}
+				b_tendrara = {
+				}
+				b_bouanane = {
+				}
+				b_ain_chair = {
+				}
+			}
+			c_tawrirat = { # 1055
+				color={ 250 213 230 }
+				color2={ 255 255 255 }
+				
+				b_tawrirat = {
+				}
+				b_jerada = {
+				}
+				b_el_aioun_sidi_mellouk = {
+				}
+				b_ain_bni_mathar = {
+				}
+				b_debdou = {
+				}
+				b_touissit = {
+				}
+				b_oued_heimer = {
+				}
+			}
+		}
+		d_bani_mellal = {
+			color={ 200 226 233 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1062 province_id = 1063 province_id = 1064 province_id = 1065 } }
+				}
+			}
+			capital = 1062 # c_bani_mellal
+			
+			c_bani_mellal = { # 1062
+				color={ 210 216 238 }
+				color2={ 255 255 255 }
+				
+				b_el_ksiba = {
+				}
+				b_bani_mellal = {
+				}
+				b_fquih_ben_salah = {
+				}
+				b_kasba_tadla = {
+				}
+				b_oulad_nemma = {
+				}
+				b_zaouiat_cheikh = {
+				}
+				b_oulad_ayad = {
+				}
+			}
+			c_azilal = { # 1064
+				color={ 252 211 193 }
+				color2={ 255 255 255 }
+				
+				b_azilal = {
+				}
+				b_demnate = {
+				}
+				b_afourar = {
+				}
+				b_ouaouizeght = {
+				}
+				b_foum_jemaa = {
+				}
+				b_bzou = {
+				}
+				b_ait_attab = {
+				}
+			}
+			c_khunyfira = { # 1065
+				color={ 200 197 226 }
+				color2={ 255 255 255 }
+				
+				b_mrirt = {
+				}
+				b_khunyfira = {
+				}
+				b_boumia = {
+				}
+				b_midelt = {
+				}
+				b_amalou_ighriben = {
+				}
+				b_ait_ishaq = {
+				}
+				b_aguelmous = {
+				}
+			}
+			c_khuraybika = { # 1063
+				color={ 254 206 121 }
+				color2={ 255 255 255 }
+				
+				b_oued_zem = {
+				}
+				b_khuraybika = {
+				}
+				b_boujad = {
+				}
+				b_boujniba = {
+				}
+				b_boulanouare = {
+				}
+				b_hattane = {
+				}
+				b_oulad_abdoune = {
+				}
+			}
+		}
+		d_dara_tafilalt = {
+			color={ 159 149 206 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1066 province_id = 1067 province_id = 1068 } }
+				}
+			}
+			capital = 1066 # c_warzazat
+			
+			c_warzazat = { # 1066
+				color={ 169 139 211 }
+				color2={ 255 255 255 }
+				
+				b_tighremt_n_tawrirt = {
+				}
+				b_warzazat = {
+				}
+				b_tabounte = {
+				}
+				b_taznakht = {
+				}
+				b_skoura = {
+				}
+				b_imi_noulaoune = {
+				}
+				b_ouisselsate = {
+				}
+			}
+			c_dara_dads = { # 1067
+				color={ 177 172 213 }
+				color2={ 255 255 255 }
+				
+				b_tinghir = {
+				}
+				b_zagora = {
+				}
+				b_kellaat_mgouna = {
+				}
+				b_boumalne_dades = {
+				}
+				b_agdz = {
+				}
+				b_alnif = {
+				}
+				b_tamegroute = {
+				}
+			}
+			c_qasr_al_suwk = { # 1068
+				color={ 178 221 193 }
+				color2={ 255 255 255 }
+				
+				b_errachidia = {
+				}
+				b_erfoud = {
+				}
+				b_moulay_ali_cherif = {
+				}
+				b_goulmima = {
+				}
+				b_jorf = {
+				}
+				b_boudnib = {
+				}
+				b_tinedjad = {
+				}
+			}
+		}
+		d_fas_maknas = {
+			color={ 201 237 131 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1057 province_id = 1058 province_id = 1059 province_id = 1060 province_id = 1061 } }
+				}
+			}
+			capital = 1057 # c_fas
+			
+			c_fas = { # 1057
+				color={ 211 227 136 }
+				color2={ 255 255 255 }
+				
+				b_mechouar_fas_jdid = {
+				}
+				b_jnan_el_ouard = {
+				}
+				b_al_qarawiyyin = {
+				}
+				b_moulay_yacoub = {
+				}
+				b_sefrou = {
+				}
+				b_el_mariniyine = {
+				}
+				b_saiss = {
+				}
+			}
+			c_bulman = { # 1061
+				color={ 255 252 189 }
+				color2={ 255 255 255 }
+				
+				b_bulman = {
+				}
+				b_missour = {
+				}
+				b_guigou = {
+				}
+				b_outat_el_haj = {
+				}
+				b_imouzzer_marmoucha = {
+				}
+				b_fritissa = {
+				}
+				b_ksabi_moulouya = {
+				}
+			}
+			c_miknas = { # 1060
+				color={ 251 211 211 }
+				color2={ 255 255 255 }
+				
+				b_dar_el_beida = {
+				}
+				b_miknas = {
+				}
+				b_ouislane = {
+				}
+				b_azrou = {
+				}
+				b_el_hajeb = {
+				}
+				b_ifrane = {
+				}
+				b_moulay_idriss = {
+				}
+			}
+			c_tawnat = { # 1058
+				color={ 254 250 203 }
+				color2={ 255 255 255 }
+				
+				b_tawnat = {
+				}
+				b_bouhouda = {
+				}
+				b_mkansa = {
+				}
+				b_ain_aicha = {
+				}
+				b_tamedit = {
+				}
+				b_jbabra = {
+				}
+				b_karia_ba_mohammed = {
+				}
+			}
+			c_taza = { # 1059
+				color={ 204 231 212 }
+				color2={ 255 255 255 }
+				
+				b_taza = {
+				}
+				b_guercif = {
+				}
+				b_tahla = {
+				}
+				b_oulad_zbair = {
+				}
+				b_matmata = {
+				}
+				b_tainaste = {
+				}
+				b_zrarda = {
+				}
+			}
+		}
+		d_marrakish = {
+			color={ 221 219 163 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1045 province_id = 1046 province_id = 1047 province_id = 1048 } }
+				}
+			}
+			capital = 1045 # c_marrakish
+			
+			c_marrakish = { # 1045
+				color={ 231 209 168 }
+				color2={ 255 255 255 }
+				
+				b_mechouar_kasba = {
+				}
+				b_menara = {
+				}
+				b_gueliz = {
+				}
+				b_sidi_youssef_ben_ali = {
+				}
+				b_tamansourt = {
+				}
+				b_chichaoua = {
+				}
+				b_tahannaout = {
+				}
+			}
+			c_as_safi = { # 1047
+				color={ 207 227 155 }
+				color2={ 255 255 255 }
+				
+				b_dar_asultane = {
+				}
+				b_as_safi = {
+				}
+				b_jamaat_shaim = {
+				}
+				b_sebt_gzoula = {
+				}
+				b_bouguedra = {
+				}
+				b_el_gouraani = {
+				}
+				b_labkhati = {
+				}
+			}
+			c_as_sawirah = { # 1046
+				color={ 253 232 231 }
+				color2={ 255 255 255 }
+				
+				b_sqala = {
+				}
+				b_as_sawirah = {
+				}
+				b_aquermoud = {
+				}
+				b_sidi_laaroussi = {
+				}
+				b_ounagha = {
+				}
+				b_takate = {
+				}
+				b_korimate = {
+				}
+			}
+			c_qalaat_as_sraghna = { # 1048
+				color={ 255 250 194 }
+				color2={ 255 255 255 }
+				
+				b_qalaat_as_sraghna = {
+				}
+				b_ben_guerir = {
+				}
+				b_laattaouia = {
+				}
+				b_sidi_bou_othmane = {
+				}
+				b_tamallalt = {
+				}
+				b_sidi_rahhal = {
+				}
+				b_assahrij = {
+				}
+			}
+		}
+		d_reef = {
+			color={ 245 6 218 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1049 province_id = 1050 province_id = 1051 province_id = 1052 province_id = 1053 } }
+				}
+			}
+			capital = 1049 # c_tanja
+			
+			c_tanja = { # 1049
+				color={ 255 252 223 }
+				color2={ 255 255 255 }
+				
+				b_tanja_medina = {
+				}
+				b_bni_makada = {
+				}
+				b_charf_mghogha = {
+				}
+				b_charf_souani = {
+				}
+				b_assilah = {
+				}
+				b_gueznaia = {
+				}
+				b_sidi_lyamani = {
+				}
+			}
+			c_al_hasima = { # 1052
+				color={ 231 240 193 }
+				color2={ 255 255 255 }
+				
+				b_ajdir = {
+				}
+				b_al_hasima = {
+				}
+				b_targouist = {
+				}
+				b_imzouren = {
+				}
+				b_issaguen = {
+				}
+				b_tamassint = {
+				}
+				b_bni_hafida = {
+				}
+			}
+			c_al_naazur = { # 1053
+				color={ 255 235 176 }
+				color2={ 255 255 255 }
+				
+				b_ammas_n_temdint = {
+				}
+				b_ayt_mimun = {
+				}
+				b_driouch = {
+				}
+				b_al_aaroui = {
+				}
+				b_beni_ensar = {
+				}
+				b_zaio = {
+				}
+				b_ben_taieb = {
+				}
+			}
+			c_shafashawn = { # 1051
+				color={ 225 222 239 }
+				color2={ 255 255 255 }
+				
+				b_shawn = {
+				}
+				b_ouezzane = {
+				}
+				b_tiflet = {
+				}
+				b_zoumi = {
+				}
+				b_bab_berred = {
+				}
+				b_jebha = {
+				}
+				b_ain_dorij = {
+				}
+			}
+			c_tetwan = { # 1050
+				color={ 253 209 172 }
+				color2={ 255 255 255 }
+				
+				b_el_feddane = {
+				}
+				b_tetwan = {
+				}
+				b_oued_laou = {
+				}
+				b_mdiq = {
+				}
+				b_anjra = {
+				}
+				b_ksar_el_kebir = {
+				}
+				b_larache = {
+				}
+			}
+		}
+		d_sus_masa = {
+			color={ 244 229 176 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1069 province_id = 1070 province_id = 1071 } }
+				}
+			}
+			capital = 1069 # c_aghadir
+			
+			c_aghadir = { # 1069
+				color={ 254 219 181 }
+				color2={ 255 255 255 }
+				
+				b_talborjt = {
+				}
+				b_aghadir = {
+				}
+				b_ait_melloul = {
+				}
+				b_inezgane = {
+				}
+				b_dcheira_el_jihadia = {
+				}
+				b_taroudant = {
+				}
+				b_biougra = {
+				}
+			}
+			c_tata = { # 1071
+				color={ 253 188 134 }
+				color2={ 255 255 255 }
+				
+				b_tata = {
+				}
+				b_foum_zguid = {
+				}
+				b_akka = {
+				}
+				b_fam_el_hisn = {
+				}
+				b_tissint = {
+				}
+				b_allougoum = {
+				}
+				b_tamanarte = {
+				}
+			}
+			c_tazniyat = { # 1070
+				color={ 152 209 173 }
+				color2={ 255 255 255 }
+				
+				b_tafraout = {
+				}
+				b_tazniyat = {
+				}
+				b_sidi_ifni = {
+				}
+				b_lakhsas = {
+				}
+				b_tnine_aglou = {
+				}
+				b_reggada = {
+				}
+				b_arbaa_sahel = {
+				}
+			}
+		}
+	}
+}
