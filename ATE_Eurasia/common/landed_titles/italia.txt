@@ -172,43 +172,6 @@ e_italy = {
 				b_paese = {}
 				b_oderzo = {}
 			}
-			c_friuli = {
-				color={ 112 146 115 }
-				color2={ 255 255 255 }
-
-				rhenish="Friaul"
-				low_saxon="Friaul"
-				ossi="Friaul"
-				upper_saxon="Friaul"
-				bavarian="Friaul"
-				swabian="Friaul"
-				austrian="Friaul"
-				schwyzer="Friaul"
-				
-				b_pordenone = {
-					venetian="Pordenon"
-				}
-				b_sacile = {
-					venetian="Sathìl"
-				}
-				b_udine = {
-					rhenish="Weiden in Friaul"
-					low_saxon="Weiden in Friaul"
-					ossi="Weiden in Friaul"
-					upper_saxon="Weiden in Friaul"
-					bavarian="Weiden in Friaul"
-					swabian="Weiden in Friaul"
-					austrian="Weiden in Friaul"
-					schwyzer="Weiden in Friaul"
-					venetian="Údine"
-				}
-				b_cordenons = {
-					venetian="Cordenòns"
-				}
-				b_codroipo = {}
-				b_azzano_decimo = {}
-				b_porcia = {}
-			}
 		}
 	d_trentino = {
 		color = { 34 137 126 }
@@ -307,6 +270,7 @@ e_italy = {
 					schwyzer="Kronmetz"
 				}
 			}
+	
 		c_belluno = {
 			color={ 122 133 123 }
 			color2={ 255 255 255 }
@@ -326,6 +290,60 @@ e_italy = {
 				}
 				b_alpago = {}
 				b_santa_giustina = {}
+			}
+		}
+		d_fruli = {
+			color = { 112 146 115 }
+			capital = 1154 #Udine
+			
+				rhenish="Friaul"
+				low_saxon="Friaul"
+				ossi="Friaul"
+				upper_saxon="Friaul"
+				bavarian="Friaul"
+				swabian="Friaul"
+				austrian="Friaul"
+				schwyzer="Friaul"
+			
+			c_udine = {
+				color={ 112 146 115 }
+				color2={ 255 255 255 }
+				
+				b_villalta = {}
+				b_codroipo = {}
+				b_udine = {
+					rhenish="Weiden in Friaul"
+					low_saxon="Weiden in Friaul"
+					ossi="Weiden in Friaul"
+					upper_saxon="Weiden in Friaul"
+					bavarian="Weiden in Friaul"
+					swabian="Weiden in Friaul"
+					austrian="Weiden in Friaul"
+					schwyzer="Weiden in Friaul"
+					venetian="Údine"
+				}
+				b_tavagnacco = {}
+				b_cervignano_del_friuli = {}
+				b_latisana = {}
+				b_cividale_del_friuli = {}
+			}
+			c_pordenone = {
+				color={ 101 155 106 }
+				color2={ 255 255 255 }
+				
+				b_sacile = {
+					venetian="Sathìl"
+				}
+				b_cordenons = {
+					venetian="Cordenòns"
+				}
+				b_pordenone = {
+					venetian="Pordenon"
+				}
+				b_azzano_decimo = {}
+				b_porcia = {}
+				b_san_vito_al_tagliamento = {}
+				b_fontanfredda = {}
 			}
 		}
 	}
