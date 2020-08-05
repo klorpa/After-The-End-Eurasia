@@ -816,6 +816,180 @@ e_iberia = {
 			}
 		}
 	}
+	k_aragon = {
+		color={ 109 143 234 }
+			color2={ 255 255 255 }
+			
+			capital = 235 # c_zaragoza
+		
+			basque = "Aragoi"
+			catalan = "Aragó"
+			portuguese = "Aragão"
+			castilian = "Aragón"
+			andalusian = "Aragón"
+			leonese = "Aragón"
+			asturian = "Aragón"
+			aragonese = "Aragón"
+			galician = "Aragón"
+			
+		d_alto_aragon = {
+			color={ 70 95 171 }
+			color2={ 255 255 255 }
+			
+			capital = 235 # c_zaragoza
+		
+			basque = "Altu Aragoi"
+			catalan = "Alt Aragó"
+			portuguese = "Alto Aragão"
+			castilian = "Alto Aragón"
+			andalusian = "Alto Aragón"
+			leonese = "Alto Aragón"
+			asturian = "Alto Aragón"
+			aragonese = "Alto Aragón"
+			galician = "Alto Aragón"
+			
+			c_zaragoza = { # 235
+				color={ 119 133 239 }
+				color2={ 255 255 255 }
+				
+				catalan = "Saragossa"
+				aragonese = "Zaragoça"
+				occitan = "Saragossa"
+				provencal = "Saragossa"
+				
+				b_lalchafaria = {}
+				b_zaragoza = {
+					catalan = "Saragossa"
+					aragonese = "Zaragoça"
+					occitan = "Saragossa"
+					provencal = "Saragossa"}
+				b_ejea_de_los_caballeros = {
+					catalan = "Eixea"
+					aragonese = "Exeya d'os Caballers"
+					occitan = "Exeya d'os Cavallers"
+					provencal = "Exeya d'os Cavallers"}
+				b_utebo = {
+					aragonese = "Utevo"}
+				b_tarazona = {
+					catalan = "Tarassona"
+					aragonese = "Taraçona"
+					occitan = "Taraçona"
+					provencal = "Taraçona"}
+				b_caspe = {
+					catalan = "Casp"
+					aragonese = "Casp"
+					occitan = "Casp"
+					provencal = "Casp"}
+				b_tauste = {
+					catalan = "Taüst"
+					aragonese = "Taust"}
+			}
+			c_huesca = { # 237
+				color={ 232 108 67 }
+				color2={ 255 255 255 }
+				
+				catalan = "Osca"
+				aragonese = "Uesca"
+				occitan = "Òsca"
+				provencal = "Òsca"
+				
+				b_monzon = {
+					catalan = "Montsó"
+					occitan = "Montson"
+					provencal = "Montson"}
+				b_huesca = {
+					catalan = "Osca"
+					aragonese = "Uesca"
+					occitan = "Òsca"
+					provencal = "Òsca"}
+				b_barbastro = {
+					catalan = "Barbastre"
+					aragonese = "Balbastro"
+					occitan = "Barbastre"
+					provencal = "Barbastre"}
+				b_fraga = {}
+				b_jaca = {
+					aragonese = "Chaca"
+					basque = "Jaka"}
+				b_sabinanigo = {
+					catalan = "Samianigo"
+					aragonese = "Samianigo"}
+				b_binefar = {
+					aragonese = "Binèfar"}
+			}
+		}
+		d_bajo_aragon = {
+			color={ 122 141 204 }
+			color2={ 255 255 255 }
+			
+			capital = 238 # c_teruel
+		
+			basque = "Baxua Aragoi"
+			catalan = "Baix Aragó"
+			portuguese = "Baixo Aragão"
+			castilian = "Bajo Aragón"
+			andalusian = "Bajo Aragón"
+			leonese = "Bajo Aragón"
+			asturian = "Bajo Aragón"
+			aragonese = "Bajo Aragón"
+			galician = "Baixo Aragón"
+			
+			c_calatayud = { # 236
+				color={ 86 78 237 }
+				color2={ 255 255 255 }
+				
+				catalan = "Calataiud"
+				aragonese = "Calatayú"
+				occitan = "Calatayú"
+				provencal = "Calatayú"
+				
+				b_ayud = {}
+				b_calatayud = {
+					catalan = "Calataiud"
+					aragonese = "Calatayú"
+					occitan = "Calatayú"
+					provencal = "Calatayú"}
+				b_carinena = {
+					catalan = "Carinyena"
+					aragonese = "Carinyena"
+					occitan = "Cariñena"
+					provencal = "Cariñena"}
+				b_daroca = {}
+				b_ateca = {}
+				b_belchite = {
+					aragonese = "Belchit"
+					occitan = "Belgit"
+					provencal = "Belgit"}
+				b_alfamen = {}
+			}
+			c_teruel = { # 238
+				color={ 175 0 41 }
+				color2={ 255 255 255 }
+				
+				catalan = "Terol"
+				occitan = "Teròl"
+				provencal = "Teròl"
+				
+				b_alcaniz = {
+					aragonese = "Alcanyiz"
+					catalan = "Alcanyís"
+					occitan = "Alcanyiz"
+					provencal = "Alcanyiz"}
+				b_teruel = {
+					catalan = "Terol"
+					occitan = "Teròl"
+					provencal = "Teròl"}
+				b_andorra = {}
+				b_calamocha = {}
+				b_calanda = {}
+				b_alcorisa = {}
+				b_utrillas = {
+					aragonese = "Utriellas"
+					occitan = "Utriellas"
+					provencal = "Utriellas"}
+			}
+		}
+	}
 	k_catalonia = {
 		color={ 23 51 29 }
 		color2={ 255 255 255 }
@@ -1044,146 +1218,6 @@ e_iberia = {
 				b_sant_julia_de_loria = {}
 				b_encamp = {}
 				b_la_massana = {}
-			}
-		}
-		d_aragon = {
-			color={ 109 143 234 }
-			color2={ 255 255 255 }
-			
-			capital = 235 # c_zaragoza
-		
-			basque = "Aragoi"
-			catalan = "Aragó"
-			portuguese = "Aragão"
-			castilian = "Aragón"
-			andalusian = "Aragón"
-			leonese = "Aragón"
-			asturian = "Aragón"
-			aragonese = "Aragón"
-			galician = "Aragón"
-			
-			c_zaragoza = { # 235
-				color={ 119 133 239 }
-				color2={ 255 255 255 }
-				
-				catalan = "Saragossa"
-				aragonese = "Zaragoça"
-				occitan = "Saragossa"
-				provencal = "Saragossa"
-				
-				b_lalchafaria = {}
-				b_zaragoza = {
-					catalan = "Saragossa"
-					aragonese = "Zaragoça"
-					occitan = "Saragossa"
-					provencal = "Saragossa"}
-				b_ejea_de_los_caballeros = {
-					catalan = "Eixea"
-					aragonese = "Exeya d'os Caballers"
-					occitan = "Exeya d'os Cavallers"
-					provencal = "Exeya d'os Cavallers"}
-				b_utebo = {
-					aragonese = "Utevo"}
-				b_tarazona = {
-					catalan = "Tarassona"
-					aragonese = "Taraçona"
-					occitan = "Taraçona"
-					provencal = "Taraçona"}
-				b_caspe = {
-					catalan = "Casp"
-					aragonese = "Casp"
-					occitan = "Casp"
-					provencal = "Casp"}
-				b_tauste = {
-					catalan = "Taüst"
-					aragonese = "Taust"}
-			}
-			c_calatayud = { # 236
-				color={ 86 78 237 }
-				color2={ 255 255 255 }
-				
-				catalan = "Calataiud"
-				aragonese = "Calatayú"
-				occitan = "Calatayú"
-				provencal = "Calatayú"
-				
-				b_ayud = {}
-				b_calatayud = {
-					catalan = "Calataiud"
-					aragonese = "Calatayú"
-					occitan = "Calatayú"
-					provencal = "Calatayú"}
-				b_carinena = {
-					catalan = "Carinyena"
-					aragonese = "Carinyena"
-					occitan = "Cariñena"
-					provencal = "Cariñena"}
-				b_daroca = {}
-				b_ateca = {}
-				b_belchite = {
-					aragonese = "Belchit"
-					occitan = "Belgit"
-					provencal = "Belgit"}
-				b_alfamen = {}
-			}
-			c_huesca = { # 237
-				color={ 232 108 67 }
-				color2={ 255 255 255 }
-				
-				catalan = "Osca"
-				aragonese = "Uesca"
-				occitan = "Òsca"
-				provencal = "Òsca"
-				
-				b_monzon = {
-					catalan = "Montsó"
-					occitan = "Montson"
-					provencal = "Montson"}
-				b_huesca = {
-					catalan = "Osca"
-					aragonese = "Uesca"
-					occitan = "Òsca"
-					provencal = "Òsca"}
-				b_barbastro = {
-					catalan = "Barbastre"
-					aragonese = "Balbastro"
-					occitan = "Barbastre"
-					provencal = "Barbastre"}
-				b_fraga = {}
-				b_jaca = {
-					aragonese = "Chaca"
-					basque = "Jaka"}
-				b_sabinanigo = {
-					catalan = "Samianigo"
-					aragonese = "Samianigo"}
-				b_binefar = {
-					aragonese = "Binèfar"}
-			}
-			c_teruel = { # 238
-				color={ 175 0 41 }
-				color2={ 255 255 255 }
-				
-				catalan = "Terol"
-				occitan = "Teròl"
-				provencal = "Teròl"
-				
-				b_alcaniz = {
-					aragonese = "Alcanyiz"
-					catalan = "Alcanyís"
-					occitan = "Alcanyiz"
-					provencal = "Alcanyiz"}
-				b_teruel = {
-					catalan = "Terol"
-					occitan = "Teròl"
-					provencal = "Teròl"}
-				b_andorra = {}
-				b_calamocha = {}
-				b_calanda = {}
-				b_alcorisa = {}
-				b_utrillas = {
-					aragonese = "Utriellas"
-					occitan = "Utriellas"
-					provencal = "Utriellas"}
 			}
 		}
 		d_valencia = {
