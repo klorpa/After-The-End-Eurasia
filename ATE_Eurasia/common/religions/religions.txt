@@ -163,6 +163,40 @@ pagan_group = {
 		religious_clothing_priest = 3
 		intermarry = folketro_reformed
 	}
+	lusitanian = {
+		graphical_culture = westerngfx
+
+		icon = 15
+		heresy_icon = 15
+		
+		color = { 0 153 51 }
+
+		high_god_name = GOD_GUDDOMMELEG
+
+		god_names = {
+			GOD_ASKELADDEN GOD_ASAGRIM GOD_THE_ELVES GOD_THE_DRAGONSLAYER GOD_THE_MASTER_MAID
+		}
+		evil_god_names = {
+			LOKI HELA FENRIR THE_FROST_GIANTS
+		}
+		evil_god_names = {
+			LOKI HELA FENRIR THE_FROST_GIANTS
+		}
+		
+		crusade_name = WILD_HUNT
+		scripture_name = THE_SAGAS
+		priest_title = STORYTELLER
+		priests_can_marry = yes
+		
+		pre_reformed = yes
+		
+		aggression = 0.5
+		
+		can_demand_religious_conversion = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
 }
 	
 christian = {
