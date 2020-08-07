@@ -1,0 +1,839 @@
+###ÄNSI###
+
+e_intermarium = {
+	color={ 250 75 120 }
+	color2={ 255 255 0 }
+	
+	capital = 412 #Berlin
+	
+	k_ossiland = {
+		color={ 120 84 61 }
+		color2 = { 255 255 255 }
+
+		capital = 412 #Berlin
+		
+		d_mecklenburg_vorpommern = {
+			color={ 8 8 8 }
+			color2={ 255 255 255 }
+			
+			capital = 392 #Schwerin
+
+			low_saxon="Mekelborg-Vorpommern"
+			
+			c_schwerin = {
+				color={ 0 141 30 }
+				color2={ 255 255 255 }
+
+				b_ludwigslust = {}
+				b_schwerin = {}
+				b_parchim = {}
+				b_hagenow = {}
+				b_boizenburg = {}
+				b_lubtheen = {}
+				b_crivitz = {}
+			}
+			c_rostock = {
+				color={ 43 133 62 }
+				color2={ 255 255 255 }
+
+				b_gustrow = {}
+				b_rostock = {}
+				b_bad_doberan = {}
+				b_kuhlungsborn = {}
+				b_kropelin = {}
+				b_teterow = {}
+				b_neubukow = {}
+			}
+			c_muritz = {
+				color={ 84 69 181 }
+				color2={ 255 255 255 }
+
+				b_neustrelitz = {}
+				b_neubrandenburg = {}
+				b_demmin = {}
+				b_waren = {}
+				b_dargun = {}
+				b_woldegk = {}
+				b_stavenhagen = {}
+			}
+			c_rugen = {
+				color={ 84 147 31 }
+				color2={ 255 255 255 }
+
+				b_bergen_auf_rugen = {}
+				b_sassnitz = {}
+				b_putbus = {}
+				b_glowe = {}
+				b_sellin = {}
+				b_binz = {}
+				b_dreschvitz = {}
+			}
+			c_stralsund = {
+				color={ 42 66 53 }
+				color2={ 255 255 255 }
+
+				b_wismar = {}
+				b_stralsund = {}
+				b_grimmen = {}
+				b_grevesmuhlen = {}
+				b_zingst = {}
+				b_marlow = {}
+				b_poel = {}
+				b_suderholz = {}
+			}
+			c_greifswald = {
+				color={ 126 72 54 }
+				color2={ 255 255 255 }
+
+				walloon="Gripswalde"
+				chti="Gripswalde"
+				parisian="Gripswalde"
+
+				b_wolgast = {}
+				b_greifswald = {
+					walloon="Gripswalde"
+					chti="Gripswalde"
+					parisian="Gripswalde"
+				}
+				b_anklam = {}
+				b_ueckermunde = {}
+				b_pasewalk = {}
+				b_heringsdorf = {}
+				b_zinnowitz = {}
+			}
+		}
+		d_brandenburg = {
+			color={ 100 90 105 }
+			color2={ 255 255 255 }
+			
+			capital = 409 #Havelland
+
+			low_saxon="Brannenborg"
+			sorbian="Braniborska"
+			walloon="Brandenbourg"
+			chti="Brandenbourg"
+			parisian="Brandenbourg"
+			
+			c_prignitz = {
+				color={ 153 161 170 }
+				color2={ 255 255 255 }
+
+				b_perleberg = {}
+				b_neuruppin = {}
+				b_wittenberge = {}
+				b_wittstock = {}
+				b_pritzwalk = {}
+				b_fehrbellin = {}
+				b_wusterhausen = {}
+			}
+			c_uckermark = {
+				color={ 131 141 152 }
+				color2={ 255 255 255 }
+
+				b_prenzlau = {}
+				b_oranienberg = {}
+				b_eberswalde = {}
+				b_bernau_bei_berlin = {}
+				b_schwedt = {}
+				b_hohen_neuendorf = {}
+				b_templin = {}
+			}
+			c_oder_spree = {
+				color={ 83 94 107 }
+				color2={ 255 255 255 }
+
+				b_eisenhuttenstadt = {}
+				b_frankfurt_an_der_oder = {
+					sorbian="Zliwic"
+				}
+				b_strausberg = {}
+				b_lubben = {}
+				b_erkner = {}
+				b_beeskow = {}
+				b_seelow = {}
+			}
+			c_teltow_flaming = {
+				color={ 69 85 103 }
+				color2={ 255 255 255 }
+
+				b_zossen = {}
+				b_luckenwalde = {}
+				b_mittenwalde = {}
+				b_luckau = {}
+				b_trebbin = {}
+				b_juterbog = {}
+				b_ludwigsfelde = {}
+			}
+			c_havelland = {
+				color={ 50 64 78 }
+				color2={ 255 255 255 }
+
+				b_rathenow = {}
+				b_brandenburg_an_der_havel = {
+					walloon="Brandenbourg"
+					chti="Brandenbourg"
+					parisian="Brandenbourg"
+				}
+				b_falkensee = {}
+				b_bad_belzig = {}
+				b_nauen = {}
+				b_werder = {}
+				b_beelitz = {}
+			}
+		}
+		d_berlin = {
+			color={ 240 250 140 }
+			color2={ 255 255 255 }
+			
+			capital = 412 #Berlin
+			
+			c_berlin = {
+				color={ 255 245 104 }
+				color2={ 255 255 255 }
+				
+				b_pankow = {}
+				b_berlin = {}
+				b_potsdam = {}
+				b_spandau = {}
+				b_tempelhof_schoneberg = {}
+				b_charlottenburg_wilmersdorf = {}
+				b_neukolln = {}
+				b_steglitz_zehlendorf = {}
+				b_friedrichshain_kreuzberg = {}
+				b_lichtenberg = {}
+				b_marzahn_hellersdorf = {}
+				b_treptow_kopenick = {}
+				b_reinickendorf = {}
+			}
+		}
+		d_saxony_anhalt = {
+			color={ 120 80 50 }
+			color2={ 255 255 255 }
+			
+			capital = 362 #Magdeburg
+
+			rhenish="Sachsen-Anhalt"
+			low_saxon="Sassen-Anhalt"
+			ossi="Sachsen-Anhalt"
+			upper_saxon="Sachsen-Anhalt"
+			bavarian="Sachsen-Anhalt"
+			swabian="Sachsen-Anhalt"
+			austrian="Sachsen-Anhalt"
+			dutch="Saksen-Anhalt"
+			flemish="Saksen-Anhalt"
+			
+			c_altmark = {
+				color={ 117 130 135 }
+				color2={ 255 255 255 }
+				
+				b_salzwedel = {}
+				b_stendal = {}
+				b_gardelegen = {}
+				b_tangerhutte = {}
+				b_klotze = {}
+				b_tangermunde = {}
+				b_havelberg = {}
+			}
+			c_magdeburg = {
+				color={ 190 134 50 }
+				color2={ 255 255 255 }
+
+				low_saxon="Meideborg"
+				walloon="Magdebourg"
+				chti="Magdebourg"
+				parisian="Magdebourg"
+				
+				b_haldensleben = {
+					low_saxon="Halslä"
+				}
+				b_magdeburg = {
+					low_saxon="Meideborg"
+					walloon="Magdebourg"
+					chti="Magdebourg"
+					parisian="Magdebourg"
+				}
+				b_oschersleben = {}
+				b_wanzleben_borde = {}
+				b_oebisfelde_weferlingen = {}
+				b_wolmirstedt = {}
+				b_flechtingen = {}
+			}
+			c_harz = {
+				color={ 84 89 32 }
+				color2={ 255 255 255 }
+
+				b_falkenstein = {}
+				b_quedlinburg = {}
+				b_halberstadt = {}
+				b_bernburg = {}
+				b_sangerhausen = {}
+				b_eisleben = {}
+				b_wernigerode = {}
+			}
+			c_halle = {
+				color={ 76 79 45 }
+				color2={ 255 255 255 }
+				
+				b_dessau = {}
+				b_halle = {}
+				b_bitterfeld_wolfen = {}
+				b_merseburg = {}
+				b_naumburg = {}
+				b_kothen = {}
+				b_lutzen = {}
+			}
+			c_wittenberg = {
+				color={ 168 60 52 }
+				color2={ 255 255 255 }
+				
+				b_zerbst = {}
+				b_lutherstadt_wittenberg = {}
+				b_rosslau = {}
+				b_coswig = {}
+				b_jessen = {}
+				b_mockern = {}
+				b_zahna_elster = {}
+			}
+		}
+		d_thuringia = {
+			color={ 138 43 35 }
+			color2={ 255 255 255 }
+			
+			capital = 399 #Erfurt
+
+			rhenish="Thüringen"
+			low_saxon="Thüringen"
+			ossi="Thüringen"
+			upper_saxon="Thüringen"
+			bavarian="Thüringen"
+			swabian="Thüringen"
+			austrian="Thüringen"
+			walloon="Touringe"
+			chti="Touringe"
+			parisian="Touringe"
+			
+			c_erfurt = {
+				color={ 139 64 59 }
+				color2={ 255 255 255 }
+	
+				walloon="Erfort"
+				chti="Erfort"
+				parisian="Erfort"
+				
+				b_gotha = {}
+				b_erfurt = {
+					walloon="Erfort"
+					chti="Erfort"
+					parisian="Erfort"
+				}
+				b_muhlhausen = {}
+				b_heilbad_heiligenstadt = {}
+				b_sondershausen = {}
+				b_sommerda = {}
+				b_nordhausen = {}
+				b_bleicherode = {}
+			}
+			c_weimar = {
+				color={ 118 51 47 }
+				color2={ 255 255 255 }
+				
+				b_jena = {
+					walloon="Iéna"
+					chti="Iéna"
+					parisian="Iéna"
+				}
+				b_weimar = {}
+				b_gera = {}
+				b_apolda = {}
+				b_greiz = {}
+				b_eisenberg = {}
+				b_saalfeld = {}
+				b_rudolstadt = {}
+			}
+			c_eisenach = {
+				color={ 162 81 76 }
+				color2={ 255 255 255 }
+
+				b_eisenach = {}
+				b_suhl = {}
+				b_meiningen = {}
+				b_sonneburg = {}
+				b_bad_salzungen = {}
+				b_schmalkalden = {}
+				b_hildburghausen = {}
+				b_wartburg = {}
+			}
+		}
+		d_saxony = {
+			color={ 190 200 140 }
+			color2={ 255 255 255 }
+			
+			capital = 407 #Leipzig
+
+			rhenish="Sachsen"
+			low_saxon="Sassen"
+			ossi="Sachsen"
+			upper_saxon="Sachsen"
+			bavarian="Sachsen"
+			swabian="Sachsen"
+			austrian="Sachsen"
+			dutch="Saksen"
+			flemish="Saksen"
+			sorbian="Sakska"
+			walloon="Saxe"
+			chti="Saxe"
+			parisian="Saxe"
+			
+			c_leipzig = {
+				color={ 83 99 105 }
+				color2={ 255 255 255 }
+
+				sorbian="Lipsk"
+				
+				b_torgau = {}
+				b_leipzig = {
+					sorbian="Lipsk"
+				}
+				b_borna = {}
+				b_grimma = {
+					sorbian="Grima"
+				}
+				b_schkeuditz = {}
+				b_taucha = {}
+				b_oschatz = {}
+				b_delitzsch = {}
+			}
+			c_erzgebirge = {
+				color={ 195 209 209 }
+				color2={ 255 255 255 }
+				
+				b_annaberg_buchholz = {}
+				b_zwickau = {
+					sorbian="Šwikawa"
+				}
+				b_plauen = {}
+				b_reichenbach_im_vogtland = {}
+				b_aue = {}
+				b_schwarzenberg = {}
+				b_glauchau = {}
+				b_crimmitschau = {}
+			}
+			c_dresden = {
+				color={ 102 131 143 }
+				color2={ 255 255 255 }
+
+				sorbian="Drježdzany"
+				walloon="Dresde"
+				chti="Dresde"
+				parisian="Dresde"
+				
+				b_freital = {}
+				b_dresden = {
+					sorbian="Drježdzany"
+					walloon="Dresde"
+					chti="Dresde"
+					parisian="Dresde"
+				}
+				b_pirna = {
+					sorbian="Pjerno"
+				}
+				b_freiberg = {}
+				b_chemnitz = {
+					sorbian="Kamjenica"
+				}
+				b_dobeln = {}
+				b_frankenberg = {
+					walloon="Frammont"
+					chti="Frammont"
+					parisian="Frammont"
+				}
+				b_mittweida = {}
+				b_floha = {}
+				b_brand_erbisdorf = {}
+				b_dippoldiswalde = {}
+			}
+			c_upper_lusatia = {
+				color={ 255 207 0 }
+				color2={ 255 255 255 }
+
+				rhenish="Oberlausitz"
+				low_saxon="Oberlausitz"
+				ossi="Oberlausitz"
+				upper_saxon="Oberlausitz"
+				bavarian="Oberlausitz"
+				swabian="Oberlausitz"
+				austrian="Oberlausitz"
+				sorbian="Hornja Lužyca"
+				
+				b_bautzen = {
+					sorbian="Budyšin"
+				}
+				b_gorlitz = {
+					sorbian="Zhorjelc"
+				}
+				b_zittau = {
+					sorbian="Žitawa"
+				}
+				b_meissen = {
+					sorbian="Mišno"
+				}
+				b_hoyerswerda = {
+					sorbian="Wojerecy"
+				}
+				b_lobau = {
+					sorbian="Lubij"
+				}
+				b_radebeul = {}
+				b_kamenz = {
+					sorbian="Kamjenc"
+				}
+				b_niesky = {
+					sorbian="Niska"
+				}
+				b_weisswasser = {
+					sorbian="Bjela Woda"
+				}
+			}
+			c_lower_lusatia = {
+				color={ 169 189 77 }
+				color2={ 255 255 255 }
+
+				rhenish="Niederlausitz"
+				low_saxon="Niederlausitz"
+				ossi="Niederlausitz"
+				upper_saxon="Niederlausitz"
+				bavarian="Niederlausitz"
+				swabian="Niederlausitz"
+				austrian="Niederlausitz"
+				sorbian="Delnja Lužyca"
+
+				b_senftenberg = {
+					sorbian="Zly Komorow"
+				}
+				b_cottbus = {
+					sorbian="Chosebuz"
+				}
+				b_forst = {
+					sorbian="Baršc"
+				}
+				b_spremberg = {
+					sorbian="Grodk"
+				}
+				b_finsterwalde = {
+					sorbian="Grabin"
+				}
+				b_herzberg = {}
+				b_calau = {
+					sorbian="Kalawa"
+				}
+			}
+		}
+	}
+	k_czechoslovakia = {
+		color={ 205 145 60 }
+		color2 = { 255 255 255 }
+
+		capital = 1027 #Stredocesky
+		
+		d_bohemia = {
+			color={ 180 120 80 }
+			color2={ 255 255 255 }
+			
+			capital = 1027 #Stredocesky
+			
+			c_praha = {
+				color={ 159 102 55 }
+				color2={ 255 255 255 }
+
+				b_praha = {}
+				b_zlicin = {}
+				b_horomerice = {}
+				b_sterboholy = {}
+				b_melnik = {}
+				b_neratovice = {}
+				b_libeznice = {}
+			}
+			c_karlovarsky = {
+				color={ 177 121 33 }
+				color2={ 255 255 255 }
+
+				b_karlovy_vary = {}
+				b_cheb = {}
+				b_loket= {}
+				b_touzim = {}
+				b_chyse = {}
+				b_jachymov = {}
+				b_habartov = {}
+			}
+			c_ustecky = {
+				color={ 133 92 30 }
+				color2={ 255 255 255 }
+
+				b_usti_nad_labem = {}
+				b_teplice = {}
+				b_most = {}
+				b_chomutov = {}
+				b_litomerice = {}
+				b_louny = {}
+				b_kadan = {}
+			}
+			c_plzen = {
+				color={ 111 77 12 }
+				color2={ 255 255 255 }
+
+				b_plzen = {}
+				b_klatovy = {}
+				b_rokycany = {}
+				b_plasy = {}
+				b_kralovice = {}
+				b_bor = {}
+				b_prestice = {}
+			}
+			c_jihocesky = {
+				color={ 157 92 44 }
+				color2={ 255 255 255 }
+
+				b_ceske = {}
+				b_pisek = {}
+				b_strakonice = {}
+				b_hluboka = {}
+				b_tabor = {}
+				b_sobeslav = {}
+				b_temelin = {}
+				
+			}
+			c_stredocesky = {
+				color={ 177 102 76 }
+				color2={ 255 255 255 }
+
+				b_benesov = {}
+				b_pribram = {}
+				b_neveklov = {}
+				b_dobris = {}
+				b_vlasim = {}
+				b_sedlec_prcice = {}
+				b_mezno = {}
+			}
+		}
+		
+		d_moravia = {
+			color={ 225 120 100 }
+			color2={ 255 255 255 }
+			
+			capital = 1025 #Moravskoslezsky
+			
+			c_moravskoslezsky = {
+				color={ 233 143 77 }
+				color2={ 255 255 255 }
+
+				b_ostrava = {}
+				b_opava = {}
+				b_bruntal = {}
+				b_krnov = {}
+				b_novy_jicin = {}
+				b_mosnov = {}
+				b_havirov = {}
+			}
+			c_olomoucky = {
+				color={ 222 155 112 }
+				color2={ 255 255 255 }
+
+				b_olomouc = {}
+				b_prerov = {}
+				b_prostejov = {}
+				b_sumperk = {}
+				b_jesenik = {}
+				b_hranice = {}
+				b_unicov = {}
+			}
+			c_zlinsky = {
+				color={ 244 122 70 }
+				color2={ 255 255 255 }
+
+				b_zlin = {}
+				b_vsetin = {}
+				b_otrokovice = {}
+				b_kromeriz = {}
+				b_buchlovice = {}
+				b_strani = {}
+				b_luhacovice = {}
+			}
+			c_jihomoravsky = {
+				color={ 250 100 30 }
+				color2={ 255 255 255 }
+				
+				holy_site = jacobin
+
+				b_brno = {}
+				b_hodonin = {}
+				b_breclav = {}
+				b_znojmo = {}
+				b_blansko = {}
+				b_vyskov = {}
+				b_letovice = {}
+			}
+			c_vysocina = {
+				color={ 222 92 55 }
+				color2={ 255 255 255 }
+
+				b_jihlava = {}
+				b_polna = {}
+				b_trebic = {}
+				b_pacov = {}
+				b_chotebor = {}
+				b_pocatky = {}
+				b_merin = {}
+			}
+		}
+		
+		d_severovychod = {
+			color={ 210 100 40 }
+			color2={ 255 255 255 }
+			
+			capital = 1038 #Liberec
+			
+			c_liberecky = {
+				color={ 233 75 22 }
+				color2={ 255 255 255 }
+
+				b_liberec = {}
+				b_ceska_lipa = {}
+				b_harrachov = {}
+				b_trosky = {}
+				b_jablonec_nad_nisou = {}
+				b_frydlant = {}
+				b_chrastava = {}
+			}
+			c_kralovehradecky = {
+				color={ 205 60 12 }
+				color2={ 255 255 255 }
+
+				b_hradec_kralove = {}
+				b_nachod = {}
+				b_jaromer = {}
+				b_horice = {}
+				b_jicin = {}
+				b_detenice = {}
+				b_vrchlabi = {}
+			}
+			c_pardubicky = {
+				color={ 222 142 106 }
+				color2={ 255 255 255 }
+
+				b_pardubice = {}
+				b_prelouc = {}
+				b_chrudim = {}
+				b_holice = {}
+				b_luze = {}
+				b_svitavy = {}
+				b_zamberk = {}
+			}
+		}
+		
+		d_tatra = {
+			color={ 210 130 80 }
+			color2={ 255 255 255 }
+			
+			capital = 1030 #Presov
+			
+			c_zilina = {
+				color={ 190 122 85 }
+				color2={ 255 255 255 }
+
+				b_zilina = {}
+				b_cadca = {}
+				b_turzovka = {}
+				b_martin = {}
+				b_terchova = {}
+				b_ruzomberok = {}
+				b_dolny_kubin = {}
+			}
+			
+			c_presov = {
+				color={ 233 131 67 }
+				color2={ 255 255 255 }
+
+				b_presov = {}
+				b_humenne = {}
+				b_bardejov = {}
+				b_poprad = {}
+				b_lipany = {}
+				b_strba = {}
+				b_bystre = {}
+			}
+			
+			c_kosice = {
+				color={ 253 161 94 }
+				color2={ 255 255 255 }
+
+				b_kosice = {}
+				b_trebisov = {}
+				b_haniska = {}
+				b_jasov = {}
+				b_betliar = {}
+				b_michalovce = {}
+				b_secovce = {}
+			}
+		}
+		
+		d_slovakia = {
+			color={ 150 100 20 }
+			color2={ 255 255 255 }
+			
+			capital = 1036 #Bratislava
+			
+			c_bratislava = {
+				color={ 177 102 55 }
+				color2={ 255 255 255 }
+
+				b_bratislava = {}
+				b_trnava = {}
+				b_pezinok = {}
+				b_stupava = {}
+				b_senica = {}
+				b_galanta = {}
+				b_hlohovec = {}
+				b_sered = {}
+			}
+			
+			c_nitra = {
+				color={ 133 87 12 }
+				color2={ 255 255 255 }
+
+				b_nitra = {}
+				b_levice = {}
+				b_nove_zamky = {}
+				b_komarno = {}
+				b_kolarovo = {}
+				b_surany = {}
+				b_topolcany = {}
+			}
+			
+			c_banska_bystrica = {
+				color={ 122 45 8 }
+				color2={ 255 255 255 }
+
+				b_banska_bystrica = {}
+				b_zvolen = {}
+				b_krupina = {}
+				b_lucenec = {}
+				b_rimavska_sobota = {}
+				b_detva = {}
+				b_ciz = {}
+			}
+			
+			c_trencin = {
+				color={ 178 92 44 }
+				color2={ 255 255 255 }
+
+				b_trencin = {}
+				b_myjava = {}
+				b_nove_mesto_nad_vahom = {}
+				b_banovce_nad_bebravou = {}
+				b_dubnica_nad_vahom = {}
+				b_prievidza = {}
+				b_povazska_bystrica = {}
+			}
+		}
+	}
+}
