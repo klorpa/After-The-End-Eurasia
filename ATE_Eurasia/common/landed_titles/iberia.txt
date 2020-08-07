@@ -2398,3 +2398,24 @@ d_christ_rey = {
 		always = no #Only created through decision
 	}
 }
+
+d_sea_consulate = {
+	color={ 150 60 0 }
+	color2={ 255 255 255 }
+	
+	dignity = 10
+	
+	primary = yes
+	short_name = yes
+	
+	capital = 239 # valencia
+	
+	#castilian = "Consulado del Mar"
+	#basque = "Itsasoaren Kontsulatu"
+	#galician = "Consulado do Mar"
+	#portuguese = "Consulado do Mar"
+	
+	allow = {
+		is_patrician = yes
+	}
+}
