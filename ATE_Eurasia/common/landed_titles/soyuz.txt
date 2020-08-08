@@ -4,19 +4,19 @@ e_soyuz = {
 	color={ 245 29 15 }
 	color2={ 255 255 255 }
 		
-	capital = 652 #	Moscow
+	capital = 652 #Moscow
 	
 	k_moscow = {
 		color={ 160 39 70 }
 		color2={ 255 255 255 }
 		
-		capital = 652 #	Moscow
+		capital = 652 #Moscow
 				
 		d_moscow = {
 			color={ 150 59 80 }
 			color2={ 255 255 255 }
 		
-			capital = 652 #	Moscow
+			capital = 652 #Moscow
 			
 			c_moscow = {
 				color={ 151 59 95 }
@@ -68,18 +68,161 @@ e_soyuz = {
 				b_tempy = {}
 			}
 		}
+		d_yaroslavl = {
+			color={ 100 133 155 }
+			color2={ 255 255 255 }
+		
+			capital = 647 #Yaroslavl
+			
+			c_danilov = {
+				color={ 140 148 146 }
+				color2={ 255 255 255 }
+				
+				b_danilov = {}
+				b_prechistoe = {}
+				b_kachalka = {}
+				b_ditino = {}
+				b_poshekhonye = {}
+				b_lyubim = {}
+				b_vyatskoye = {}
+				b_demino = {}
+			}
+			c_yaroslavl = {
+				color={ 99 127 201 }
+				color2={ 255 255 255 }
+				
+				b_yaroslavl = {}
+				b_rostov = {}
+				b_lvy = {}
+				b_borisoglebsky = {}
+				b_gavrilov_yam = {}
+				b_krasnyye_tkachi = {}
+				b_nekrasovskoye = {}
+				b_godenovo = {}
+			}
+			c_rybinsk = {
+				color={ 15 129 183 }
+				color2={ 255 255 255 }
+				
+				b_rybinsk = {}
+				b_uglich = {}
+				b_tutayev = {}
+				b_pereslavl_zalessky = {}
+				b_babayki = {}
+				b_bolshoye_selo = {}
+				b_yepikharka = {}
+			}
+		}
+		d_nizhny = {
+			color={ 88 153 245 }
+			color2={ 255 255 255 }
+		
+			capital = 629 #Nizhny Novgorod
+			
+			c_nizhny_novgorod = {
+				color={ 124 198 255 }
+				color2={ 255 255 255 }
+				
+				b_nizhny_novgorod = {}
+				b_bogorodsk = {}
+				b_kstovo = {}
+				b_dalnee_konstantinovo = {}
+				b_pavlovo = {}
+				b_vorsma = {}
+				b_rabotki = {}
+			}
+			c_kineshma = {
+				color={ 57 134 195 }
+				color2={ 255 255 255 }
+				
+				b_kineshma = {}
+				b_ivanovo = {}
+				b_shuya = {}
+				b_vichuga = {}
+				b_plyos = {}
+				b_teykovo = {}
+				b_palekh = {}
+			}
+			c_dzerzhinsk = {
+				color={ 98 154 224 }
+				color2={ 255 255 255 }
+				
+				b_dzerzhinsk = {}
+				b_balakhna = {}
+				b_mulino = {}
+				b_chkalovsk = {}
+				b_zavolzhye = {}
+				b_avtozavodsky = {}
+				b_volodarsk = {}
+			}
+		}
+		d_vladimir = {
+			color={ 88 123 155 }
+			color2={ 255 255 255 }
+		
+			capital = 649 #Vladimir
+			
+			c_vladimir = {
+				color={ 202 187 112 }
+				color2={ 255 255 255 }
+				
+				b_vladimir = {}
+				b_lakinsk = {}
+				b_suzdal = {}
+				b_sugodga = {}
+				b_raduzhny = {}
+				b_yuryev_polsky = {}
+				b_kolchugino = {}
+			}
+			c_murom = {
+				color={ 179 135 85 }
+				color2={ 255 255 255 }
+				
+				b_murom = {}
+				b_krasnaya_gorbatka = {}
+				b_nikologory = {}
+				b_vyazniki = {}
+				b_gorokhovets = {}
+				b_kovrov = {}
+				b_melekhovo = {}
+			}
+			c_yegoryevsk = {
+				color={ 213 197 157 }
+				color2={ 255 255 255 }
+				
+				b_yegoryevsk = {}
+				b_voskresensk = {}
+				b_orekhovo_zuyevo = {}
+				b_shatura = {}
+				b_roshal = {}
+				b_kurovskoye = {}
+				b_likino_dulyovo = {}
+			}
+			c_kasimov = {
+				color={ 241 158 197 }
+				color2={ 255 255 255 }
+				
+				b_kasimov = {}
+				b_gus_khrustalny = {}
+				b_gus_zhelezny = {}
+				b_elatma = {}
+				b_spas_klepiki = {}
+				b_izhevskoye = {}
+				b_tuma = {}
+			}
+		}
 	}
 	k_leningrad = {
 		color={ 251 56 51 }
 		color2={ 255 255 255 }
 		
-		capital = 664 #	Leningrad
+		capital = 664 #Leningrad
 				
 		d_leningrad = {
-			color={ 220 100 104 }
+			color={ 220 80 70 }
 			color2={ 255 255 255 }
 		
-			capital = 664 #	Leningrad
+			capital = 664 #Leningrad
 			
 			c_leningrad = {
 				color={ 225 132 136 }
@@ -171,10 +314,46 @@ e_soyuz = {
 			color={ 200 59 145 }
 			color2={ 255 255 255 }
 		
-			capital = 737 #	Vologda
+			capital = 737 #Vologda
 			
+			c_vologda = {
+				color={ 198 187 111 }
+				color2={ 255 255 255 }
+				
+				b_vologda = {}
+				b_sheskna = {}
+				b_gryazovets = {}
+				b_sokol = {}
+				b_kadnikov = {}
+				b_molochnoe = {}
+				b_yemelyanovo = {}
+			}
+			c_vytegra = {
+				color={ 189 177 56 }
+				color2={ 255 255 255 }
+				
+				b_vytegra = {}
+				b_troitskoye = {}
+				b_ferapontovo = {}
+				b_kirillov = {}
+				b_annenskiy_most = {}
+				b_silovo = {}
+				b_lipin_bor = {}
+			}
+			c_verkhovazhe = {
+				color={ 199 127 101 }
+				color2={ 255 255 255 }
+				
+				b_verkhovazhe = {}
+				b_syamzha = {}
+				b_vozhega = {}
+				b_tolstukha = {}
+				b_baza = {}
+				b_kharovsk = {}
+				b_kumzero = {}
+			}
 			c_cherepovets = {
-				color={ 180 180 180 }
+				color={ 147 98 123 }
 				color2={ 255 255 255 }
 				
 				b_cherepovets = {}
@@ -202,7 +381,7 @@ e_soyuz = {
 			color={ 188 23 55 }
 			color2={ 255 255 255 }
 		
-			capital = 655 #	Tver
+			capital = 655 #Tver
 			
 			c_vyshny_volochyok = {
 				color={ 210 99 87 }
@@ -269,7 +448,7 @@ e_soyuz = {
 			color={ 253 49 89 }
 			color2={ 255 255 255 }
 		
-			capital = 676 #	Pskov
+			capital = 676 #Pskov
 			
 			c_pskov = {
 				color={ 198 87 75 }
@@ -312,7 +491,7 @@ e_soyuz = {
 			color={ 241 121 87 }
 			color2={ 255 255 255 }
 		
-			capital = 674 #	Veliky Novgorod
+			capital = 674 #Veliky Novgorod
 			
 			c_veliky_novgorod = {
 				color={ 189 26 79 }
@@ -368,13 +547,13 @@ e_soyuz = {
 		color={ 210 230 250 }
 		color2={ 255 255 255 }
 		
-		capital = 671 #	Arkhangelsk
+		capital = 671 #Arkhangelsk
 				
 		d_arkhangelsk = {
 			color={ 223 235 236 }
 			color2={ 255 255 255 }
 		
-			capital = 671 #	Arkhangelsk
+			capital = 671 #Arkhangelsk
 			
 			c_arkhangelsk = {
 				color={ 210 231 221 }
@@ -413,12 +592,24 @@ e_soyuz = {
 				b_konevo = {}
 				b_samoded = {}
 			}
+			c_velsk = {
+				color={ 155 200 200 }
+				color2={ 255 255 255 }
+				
+				b_velsk = {}
+				b_nyandoma = {}
+				b_shalakusha = {}
+				b_kargopol = {}
+				b_niz = {}
+				b_kuloy = {}
+				b_shilovskaya = {}
+			}
 		}
 		d_zapolyarny = {
 			color={ 184 190 226 }
 			color2={ 255 255 255 }
 		
-			capital = 711 #	Naryan-Mar
+			capital = 711 #Naryan-Mar
 			
 			c_kanin = {
 				color={ 199 187 211 }
@@ -437,7 +628,7 @@ e_soyuz = {
 			color={ 205 200 204 }
 			color2={ 255 255 255 }
 		
-			capital = 701 #	Murmansk
+			capital = 701 #Murmansk
 			
 			c_murmansk = {
 				color={ 200 214 197 }
@@ -493,7 +684,7 @@ e_soyuz = {
 			color={ 175 165 185 }
 			color2={ 255 255 255 }
 		
-			capital = 705 #	Kem
+			capital = 705 #Kem
 			
 			c_kem = {
 				color={ 219 125 150 }
@@ -562,13 +753,13 @@ e_soyuz = {
 		color={ 180 180 180 }
 		color2={ 255 255 255 }
 		
-		capital = 616 #	Volgograd
+		capital = 616 #Volgograd
 				
 		d_volgograd = {
 			color={ 180 180 180 }
 			color2={ 255 255 255 }
 		
-			capital = 616 #	Volgograd
+			capital = 616 #Volgograd
 			
 			c_volgograd = {
 				color={ 180 180 180 }
@@ -588,7 +779,7 @@ e_soyuz = {
 		color={ 68 184 124 }
 		color2={ 255 255 255 }
 		
-		capital = 908 #	Krasnodar
+		capital = 908 #Krasnodar
 
 	}
 }
