@@ -21,8 +21,7 @@ k_lombardy = {
 	dignity = 10 # Counted as having this many more counties than it does
 }
 
-
-### titular kingdoms ###
+### titular duchies ###
 
 d_sligo = {
 	color={ 41 96 74 }
@@ -41,6 +40,18 @@ d_rome = {
 	capital = 1117 # Roma
 	dignity = 20 # Counted as having this many more counties than it does
 }
+d_gibraltar = { # 225
+	color={ 242 72 60 }
+	color2={ 255 255 255 }
+	
+	culture = llanito	
+	capital = 225 #Gibraltar
+	
+	dignity=10
+}
+
+### Titular counties ###
+
 c_roman_testo = {
 	color={ 0 0 0 }
 	
