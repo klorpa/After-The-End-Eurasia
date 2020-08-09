@@ -4,8 +4,15 @@ e_ruthenia = {
 	color={ 38 175 245 }
 	color2={ 255 255 255 }
 		
-	capital = 600 #	Sevastopol
+	capital = 819 #Kyiv
 	
+	k_kyiv = {
+		color={ 252 250 14 }
+		color2={ 255 255 255 }
+		
+		capital = 819 #Kyiv
+	
+	}
 	k_crimea = {
 		color={ 39 84 209 }
 		color2={ 255 255 255 }
@@ -67,14 +74,21 @@ e_ruthenia = {
 				b_pervomais'ke = {}
 			}
 		}
+	}
+	k_dyke_pole = {
+		color={ 215 185 123 }
+		color2={ 255 255 255 }
+		
+		capital = 785 #	Kherson
+				
 		d_kherson = {
-			color={ 50 50 50 }
+			color={ 200 180 170 }
 			color2={ 255 255 255 }
 		
 			capital = 785 #	Kherson
 			
 			c_kherson = {
-				color={ 180 180 180 }
+				color={ 189 148 100 }
 				color2={ 255 255 255 }
 				
 				b_kherson = {}
@@ -86,147 +100,8 @@ e_ruthenia = {
 				b_charivne = {}
 				b_lvove = {}
 			}
-			c_kropyvnytskyi = {
-				color={ 180 180 180 }
-				color2={ 255 255 255 }
-				
-				b_kropyvnytskyi = {}
-				b_bobrynets = {}
-				b_kompaniivka = {}
-				b_pomichna = {}
-				b_novhorodka = {}
-				b_subottsi = {}
-				b_adzhamka = {}
-			}
-			c_novomoskovsk = {
-				color={ 180 180 180 }
-				color2={ 255 255 255 }
-				
-				b_novomoskovsk = {}
-				b_synelnykove = {}
-				b_pavlohrad = {}
-				b_hubynykha = {}
-				b_obukhivka = {}
-				b_slobozhanske = {}
-				b_petrykivka = {}
-			}
-			c_cherkasy = {
-				color={ 180 180 180 }
-				color2={ 255 255 255 }
-				
-				b_cherkasy = {}
-				b_smila = {}
-				b_chyhyryn = {}
-				b_chervona_sloboda = {}
-				b_korsun_shevchenkivskyi = {}
-				b_kaniv = {}
-				b_kamyanka = {}
-			}
-			c_oleksandriya = {
-				color={ 180 180 180 }
-				color2={ 255 255 255 }
-				
-				b_oleksandriya = {}
-				b_svitlovodsk = {}
-				b_nova_praha = {}
-				b_petrove = {}
-				b_znamyanka = {}
-				b_sadky = {}
-				b_deriivka = {}
-			}
-			c_kryvyi_rih = {
-				color={ 180 180 180 }
-				color2={ 255 255 255 }
-				
-				b_kryvyi_rih = {}
-				b_nikopol = {}
-				b_marhanets = {}
-				b_pokrov = {}
-				b_apostolove = {}
-				b_shyroke = {}
-				b_sofiivka = {}
-			}
-			c_dnipro = {
-				color={ 180 180 180 }
-				color2={ 255 255 255 }
-				
-				b_dnipro = {}
-				b_vilnohirsk = {}
-				b_kamianske = {}
-				b_krynychky = {}
-				b_karnaukhivka = {}
-				b_solone = {}
-				b_zhovti_vody = {}
-			}
-			c_zaporizhzhia = {
-				color={ 180 180 180 }
-				color2={ 255 255 255 }
-				
-				b_zaporizhzhia = {}
-				b_enerhodar = {}
-				b_tokmak = {}
-				b_vasylivka = {}
-				b_dniprorudne = {}
-				b_vilnyansk = {}
-				b_orikhiv = {}
-			}
-			c_henichesk = {
-				color={ 180 180 180 }
-				color2={ 255 255 255 }
-				
-				b_henichesk = {}
-				b_shchaslyvtseve = {}
-				b_novotroitske = {}
-				b_ivanivka = {}
-				b_novooleksiivka = {}
-				b_strilkove = {}
-				b_chaplynka = {}
-			}
-			c_mariupol = {
-				color={ 180 180 180 }
-				color2={ 255 255 255 }
-				
-				b_mariupol = {}
-				b_sjedove = {}
-				b_novoazovsk = {}
-				b_nikolske = {}
-				b_boikivske = {}
-				b_melekyne = {}
-				b_sartana = {}
-			}
-		}
-		d_odesa = {
-			color={ 50 50 50 }
-			color2={ 255 255 255 }
-		
-			capital = 787 # Odesa
-			
-			c_odesa = {
-				color={ 180 180 180 }
-				color2={ 255 255 255 }
-				
-				b_odesa = {}
-				b_rozdilna = {}
-				b_chornomorsk = {}
-				b_yuzhne = {}
-				b_teplodar = {}
-				b_vynohradar = {}
-				b_bilyaivka = {}
-			}
-			c_mykolaiv = {
-				color={ 180 180 180 }
-				color2={ 255 255 255 }
-				
-				b_mykolaiv = {}
-				b_nova_odesa = {}
-				b_ochakiv = {}
-				b_shevchenkove = {}
-				b_nechayane = {}
-				b_balovne = {}
-				b_lymany = {}
-			}
 			c_nova_kakhovka = {
-				color={ 180 180 180 }
+				color={ 159 157 147 }
 				color2={ 255 255 255 }
 				
 				b_nova_kakhovka = {}
@@ -238,7 +113,7 @@ e_ruthenia = {
 				b_verkhnii_rohachyk = {}
 			}
 			c_hola_prystan = {
-				color={ 180 180 180 }
+				color={ 167 144 85 }
 				color2={ 255 255 255 }
 				
 				b_hola_prystan = {}
@@ -249,8 +124,149 @@ e_ruthenia = {
 				b_kalanchak = {}
 				b_heroiske = {}
 			}
+			c_henichesk = {
+				color={ 199 178 59 }
+				color2={ 255 255 255 }
+				
+				b_henichesk = {}
+				b_shchaslyvtseve = {}
+				b_novotroitske = {}
+				b_ivanivka = {}
+				b_novooleksiivka = {}
+				b_strilkove = {}
+				b_chaplynka = {}
+			}
+		}
+		d_dnipro = {
+			color={ 225 224 170 }
+			color2={ 255 255 255 }
+		
+			capital = 789 #Dnipro
+			
+			c_dnipro = {
+				color={ 222 127 150 }
+				color2={ 255 255 255 }
+				
+				b_dnipro = {}
+				b_vilnohirsk = {}
+				b_kamianske = {}
+				b_krynychky = {}
+				b_karnaukhivka = {}
+				b_solone = {}
+				b_zhovti_vody = {}
+			}
+			c_novomoskovsk = {
+				color={ 198 163 91 }
+				color2={ 255 255 255 }
+				
+				b_novomoskovsk = {}
+				b_synelnykove = {}
+				b_pavlohrad = {}
+				b_hubynykha = {}
+				b_obukhivka = {}
+				b_slobozhanske = {}
+				b_petrykivka = {}
+			}
+			c_oleksandriya = {
+				color={ 189 189 123 }
+				color2={ 255 255 255 }
+				
+				b_oleksandriya = {}
+				b_svitlovodsk = {}
+				b_nova_praha = {}
+				b_petrove = {}
+				b_znamyanka = {}
+				b_sadky = {}
+				b_deriivka = {}
+			}
+			c_kryvyi_rih = {
+				color={ 145 143 102 }
+				color2={ 255 255 255 }
+				
+				b_kryvyi_rih = {}
+				b_nikopol = {}
+				b_marhanets = {}
+				b_pokrov = {}
+				b_apostolove = {}
+				b_shyroke = {}
+				b_sofiivka = {}
+			}
+		}
+		d_cherkasy = {
+			color={ 150 130 130 }
+			color2={ 255 255 255 }
+		
+			capital = 871 #Cherkasy
+			
+			c_cherkasy = {
+				color={ 195 158 151 }
+				color2={ 255 255 255 }
+				
+				b_cherkasy = {}
+				b_smila = {}
+				b_chyhyryn = {}
+				b_chervona_sloboda = {}
+				b_korsun_shevchenkivskyi = {}
+				b_kaniv = {}
+				b_kamyanka = {}
+			}
+			c_uman = {
+				color={ 221 184 121 }
+				color2={ 255 255 255 }
+				
+				b_uman = {}
+				b_buky = {}
+				b_khrystynivka = {}
+				b_zhashkiv = {}
+				b_talne = {}
+				b_monastyryshche = {}
+				b_zvenyhorodka = {}
+			}
+			c_kropyvnytskyi = {
+				color={ 197 159 144 }
+				color2={ 255 255 255 }
+				
+				b_kropyvnytskyi = {}
+				b_bobrynets = {}
+				b_kompaniivka = {}
+				b_pomichna = {}
+				b_novhorodka = {}
+				b_subottsi = {}
+				b_adzhamka = {}
+			}
+		}
+		d_mariupol = {
+			color={ 238 206 110 }
+			color2={ 255 255 255 }
+		
+			capital = 796 #Mariupol
+			
+			c_mariupol = {
+				color={ 192 177 32 }
+				color2={ 255 255 255 }
+				
+				b_mariupol = {}
+				b_sjedove = {}
+				b_novoazovsk = {}
+				b_nikolske = {}
+				b_boikivske = {}
+				b_melekyne = {}
+				b_sartana = {}
+			}
+			c_zaporizhzhia = {
+				color={ 231 205 121 }
+				color2={ 255 255 255 }
+				
+				b_zaporizhzhia = {}
+				b_enerhodar = {}
+				b_tokmak = {}
+				b_vasylivka = {}
+				b_dniprorudne = {}
+				b_vilnyansk = {}
+				b_orikhiv = {}
+			}
 			c_melitopol = {
-				color={ 180 180 180 }
+				color={ 210 195 80 }
 				color2={ 255 255 255 }
 				
 				b_melitopol = {}
@@ -260,6 +276,204 @@ e_ruthenia = {
 				b_kyrylivka = {}
 				b_pryazovske = {}
 				b_stepanivka_persha = {}
+			}
+		}
+		d_odesa = {
+			color={ 218 146 50 }
+			color2={ 255 255 255 }
+		
+			capital = 787 # Odesa
+			
+			c_odesa = {
+				color={ 213 115 52 }
+				color2={ 255 255 255 }
+				
+				b_odesa = {}
+				b_rozdilna = {}
+				b_chornomorsk = {}
+				b_yuzhne = {}
+				b_teplodar = {}
+				b_vynohradar = {}
+				b_bilyaivka = {}
+			}
+			c_mykolaiv = {
+				color={ 228 103 69 }
+				color2={ 255 255 255 }
+				
+				b_mykolaiv = {}
+				b_nova_odesa = {}
+				b_ochakiv = {}
+				b_shevchenkove = {}
+				b_nechayane = {}
+				b_balovne = {}
+				b_lymany = {}
+			}
+			c_podilsk = {
+				color={ 159 101 21 }
+				color2={ 255 255 255 }
+				
+				b_podilsk = {}
+				b_okny = {}
+				b_ananiv = {}
+				b_shyryajeve = {}
+				b_lyubashivka = {}
+				b_balta = {}
+				b_petrovirivka = {}
+			}
+			c_ladyzhyn = {
+				color={ 234 159 45 }
+				color2={ 255 255 255 }
+				
+				b_ladyzhyn = {}
+				b_mohyliv_podilskyi = {}
+				b_haisyn = {}
+				b_bershad = {}
+				b_yampil = {}
+				b_tulchyn = {}
+				b_sharhorod = {}
+			}
+		}
+	}
+	k_bessarabia = {
+		color={ 249 144 94 }
+		color2={ 255 255 255 }
+		
+		capital = 937 #Izmail
+				
+		d_budjak = {
+			color={ 232 188 123 }
+			color2={ 255 255 255 }
+		
+			capital = 937 #Izmail
+			
+			c_izmail = {
+				color={ 195 111 54 }
+				color2={ 255 255 255 }
+				
+				b_vylkove = {}
+				b_kiliya = {}
+				b_reni = {}
+				b_bolhrad = {}
+				b_kyrnychky = {}
+				b_sulina = {}
+				b_bahate = {}
+			}
+			c_artsyz = {
+				color={ 234 154 46 }
+				color2={ 255 255 255 }
+				
+				b_artsyz = {}
+				b_bilhorod_dnistrovskyi = {}
+				b_sarata = {}
+				b_kurortne = {}
+				b_zatoka = {}
+				b_lebedivka = {}
+				b_tatarbunary = {}
+			}
+		}
+		d_bukovina = {
+			color={ 157 162 141 }
+			color2={ 255 255 255 }
+		
+			capital = 879 #Chernivtsi
+			
+			c_chernivtsi = {
+				color={ 154 94 32 }
+				color2={ 255 255 255 }
+				
+				b_chernivtsi = {}
+				b_myhove = {}
+				b_storozhynets = {}
+				b_mamaivtsi = {}
+				b_khotyn = {}
+				b_krasnoilsk = {}
+				b_kitsman = {}
+			}
+		}
+		d_western_moldova = {
+			color={ 195 159 122 }
+			color2={ 255 255 255 }
+		
+			capital = 1195 #Iasi
+			
+			c_iasi = {
+				color={ 184 155 121 }
+				color2={ 255 255 255 }
+				
+				b_iasi = {}
+				b_botosani = {}
+				b_suceava = {}
+				b_falticeni = {}
+				b_radauti = {}
+				b_dorhoi = {}
+				b_pascani = {}
+			}
+			c_galati = {
+				color={ 174 148 94 }
+				color2={ 255 255 255 }
+				
+				b_galati = {}
+				b_barlad = {}
+				b_vaslui = {}
+				b_husi = {}
+				b_tecuci = {}
+				b_negresti = {}
+				b_targu_bujor = {}
+			}
+			c_bacau = {
+				color={ 194 166 121 }
+				color2={ 255 255 255 }
+				
+				b_bacau = {}
+				b_onesti = {}
+				b_piatra_neamt = {}
+				b_targu_neamt = {}
+				b_roman = {}
+				b_moinesti = {}
+				b_bicaz = {}
+			}
+		}
+		d_moldova = {
+			color={ 225 221 110 }
+			color2={ 255 255 255 }
+		
+			capital = 866 #Chisinau
+			
+			c_chisinau = {
+				color={ 224 137 55 }
+				color2={ 255 255 255 }
+				
+				b_chisinau = {}
+				b_tiraspol = {}
+				b_crasnoe = {}
+				b_bender = {}
+				b_dubasari = {}
+				b_causeni = {}
+				b_orhei = {}
+			}
+			c_cahul = {
+				color={ 211 149 73 }
+				color2={ 255 255 255 }
+				
+				b_cahul = {}
+				b_comrat = {}
+				b_ceadir_lunga = {}
+				b_taraclia = {}
+				b_basarabeasca = {}
+				b_leova = {}
+				b_hincesti = {}
+			}
+			c_balti = {
+				color={ 176 115 55 }
+				color2={ 255 255 255 }
+				
+				b_balti = {}
+				b_ribnita = {}
+				b_drochia = {}
+				b_falesti = {}
+				b_camenca = {}
+				b_ungheni = {}
+				b_edinet = {}
 			}
 		}
 	}
