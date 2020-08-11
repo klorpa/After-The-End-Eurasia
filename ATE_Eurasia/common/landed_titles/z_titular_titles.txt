@@ -49,6 +49,26 @@ d_gibraltar = { # 225
 	
 	dignity=10
 }
+d_consolat_de_mar  = {
+	color={ 150 60 0 }
+	color2={ 255 255 255 }
+	
+	castilian = "Consulado del Mar"
+	basque = "Itsasoaren Kontsulatu"
+	galician = "Consulado do Mar"
+	portuguese = "Consulado do Mar"
+	
+	dignity = 10
+	
+	primary = yes
+	short_name = yes
+	
+	capital = 239 # valencia
+	
+	allow = {
+		is_patrician = yes
+	}
+}
 
 ### Titular counties ###
 

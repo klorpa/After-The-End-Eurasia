@@ -365,12 +365,15 @@
 	trait=stubborn
 	trait=proud
 	2613.8.23={birth=yes}
+	2641.2.12={
+		add_spouse=1713005
+	}
 	2700.1.1={death=yes}
 }
 1713001={
 	name="Tariq"
-	dynasty=2023151 #placeholder
-	culture=llanito
+	dynasty=1956000 #Ziyadi
+	culture=moroccan
 	religion=sunni
 	martial=5
 	diplomacy=4
@@ -383,14 +386,17 @@
 	trait=charitable
 	trait=paranoid
 	trait=chaste
-	2643.10.18={birth=yes}
+	2633.10.18={birth=yes}
+	2658.2.3={
+		add_spouse=1713013
+	}
 	2700.1.1={death=yes}
 }
 1713002={
 	name="Giacomo"
 	dynasty=2023149 #Risso
 	culture=llanito
-	religion=lusitanian
+	religion=catholic
 	martial=5
 	diplomacy=6
 	stewardship=5
@@ -402,6 +408,9 @@
 	trait=gregarious
 	trait=zealous
 	2636.8.2={birth=yes}
+	2666.1.12={
+		add_spouse=1713015
+	}
 	2700.1.1={death=yes}
 }
 1713003={
@@ -421,28 +430,12 @@
 	trait=gregarious
 	trait=patient
 	2620.5.16={birth=yes}
+	2656.8.2={
+		add_spouse=1713010
+	}
 	2700.1.1={death=yes}
 }
 1713004={
-	name="Edwin"
-	dynasty=2023152 #Mahtani
-	culture=llanito
-	religion=hindu
-	martial=5
-	diplomacy=5
-	stewardship=6
-	intrigue=5
-	learning=5
-	trait=fortune_builder
-	trait=quick
-	trait=ambitious
-	trait=honorable
-	trait=proud
-	trait=honest
-	2621.8.30={birth=yes}
-	2700.1.1={death=yes}
-}
-1713005={
 	name="Javiar"
 	dynasty=2023148 #Isola
 	culture=llanito
@@ -458,5 +451,210 @@
 	trait=honorable
 	trait=chaste
 	2633.5.12={birth=yes}
+	2700.1.1={death=yes}
+}
+1713005={
+	name="Adriana"
+	female=yes
+	dynasty=2023005 #Perez
+	culture=llanito
+	religion=lusitanian
+	martial=5
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait=fortune_builder
+	trait=hedonist
+	trait=authoritative
+	trait=kind
+	trait=wroth
+	2620.2.10={birth=yes}
+	2700.1.1={death=yes}
+}
+1713006={
+	name="Juan"
+	dynasty=2023147 #Macfarlane
+	culture=llanito
+	religion=lusitanian
+	martial=5
+	diplomacy=6
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait=thrifty_clerk
+	trait=shrewd
+	trait=brave
+	trait=lustful
+	trait=proud
+	trait=honorable
+	father=1713000
+	mother=1713005
+	2643.2.10={birth=yes}
+	2700.1.1={death=yes}
+}
+1713007={
+	name="Edwin"
+	dynasty=2023147 #Macfarlane
+	culture=llanito
+	religion=lusitanian
+	martial=5
+	diplomacy=6
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait=thrifty_clerk
+	trait=shrewd
+	trait=brave
+	trait=lustful
+	trait=proud
+	trait=honorable
+	father=1713000
+	mother=1713005
+	2643.2.10={birth=yes}
+	2700.1.1={death=yes}
+}
+1713008={
+	name="Juan"
+	dynasty=2023147 #Macfarlane
+	culture=llanito
+	religion=lusitanian
+	martial=0
+	diplomacy=2
+	stewardship=3
+	intrigue=0
+	learning=1
+	trait=willful
+	trait=stubborn
+	father=1713000
+	mother=1713005
+	2659.3.31={birth=yes}
+	2700.1.1={death=yes}
+}
+1713009={
+	name="Isabella"
+	female=yes
+	dynasty=2023147 #Macfarlane
+	culture=llanito
+	religion=lusitanian
+	martial=0
+	diplomacy=3
+	stewardship=1
+	intrigue=0
+	learning=1
+	trait=idolizer
+	trait=craven
+	father=1713000
+	mother=1713005
+	2660.2.21={birth=yes}
+	2700.1.1={death=yes}
+}
+1713010={
+	name="Joanna"
+	female=yes
+	dynasty=0000000
+	culture=llanito
+	religion=jewish
+	martial=5
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait=thrifty_clerk
+	trait=content
+	trait=kind
+	trait=stubborn
+	2630.5.20={birth=yes}
+	2700.1.1={death=yes}
+}
+1713011={
+	name="Elisa"
+	female=yes
+	dynasty=2023150 #Abudarham
+	culture=llanito
+	religion=jewish
+	martial=3
+	diplomacy=3
+	stewardship=1
+	intrigue=2
+	learning=1
+	trait=fair
+	trait=playful
+	trait=affectionate
+	father=1713003
+	mother=1713010
+	2656.4.11={birth=yes}
+	2700.1.1={death=yes}
+}
+1713012={
+	name="Isaac"
+	dynasty=2023150 #Abudarham
+	culture=llanito
+	religion=jewish
+	martial=0
+	diplomacy=3
+	stewardship=1
+	intrigue=0
+	learning=1
+	trait=curious
+	trait=affectionate
+	father=1713003
+	mother=1713010
+	2660.8.2={birth=yes}
+	2700.1.1={death=yes}
+}
+1713013={
+	name="Adilah"
+	female=yes
+	dynasty=0000000
+	culture=moroccan
+	religion=sunni
+	martial=5
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait=scholarly_theologian
+	trait=erudite
+	trait=brave
+	trait=shy
+	trait=just
+	2631.4.31={birth=yes}
+	2700.1.1={death=yes}
+}
+1713014={
+	name="Amina"
+	female=yes
+	dynasty=1956000 #Ziyadi
+	culture=moroccan
+	religion=sunni
+	martial=0
+	diplomacy=1
+	stewardship=1
+	intrigue=0
+	learning=1
+	trait=idolizer
+	father=1713001
+	mother=1713013
+	2665.8.2={birth=yes}
+	2720.1.1={death=yes}
+}
+1713015={
+	name="María"
+	female=yes
+	dynasty=2023046 #Galliano
+	culture=llanito
+	religion=catholic
+	martial=5
+	diplomacy=6
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait=grey_eminence
+	trait=fair
+	trait=trusting
+	trait=gregarious
+	trait=lustful
+	2640.5.4={birth=yes}
 	2700.1.1={death=yes}
 }
