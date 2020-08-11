@@ -12,6 +12,123 @@ e_ruthenia = {
 		
 		capital = 819 #Kyiv
 	
+		d_kyiv = {
+			color={ 220 210 70 }
+			color2={ 255 255 255 }
+		
+			capital = 819 #Kyiv
+			
+			c_kyiv = {
+				color={ 250 240 30 }
+				color2={ 255 255 255 }
+				
+				b_kyiv = {}
+				b_irpin = {}
+				b_fastin = {}
+				b_obukhiv = {}
+				b_katyuzhanka = {}
+				b_vasylkiv = {}
+				b_hlibivka = {}
+			}
+			c_brovary = {
+				color={ 231 215 110  }
+				color2={ 255 255 255 }
+				
+				b_brovary = {}
+				b_boryspil = {}
+				b_rusaniv = {}
+				b_berezan = {}
+				b_pereiaslav = {}
+				b_yahotyn = {}
+				b_zhurivka = {}
+			}
+			c_prypyat = {
+				color={ 197 189 59 }
+				color2={ 255 255 255 }
+				
+				b_prypyat = {}
+				b_chornobyl = {}
+				b_ivankiv = {}
+				b_poliske = {}
+				b_dytyatky = {}
+				b_strakholissya = {}
+				b_veresnya = {}
+			}
+			c_bila_tserkva = {
+				color={ 210 202 95 }
+				color2={ 255 255 255 }
+				
+				b_bila_tserkva = {}
+				b_myronivka = {}
+				b_tarashcha = {}
+				b_skvyra = {}
+				b_tetiiv = {}
+				b_uzyn = {}
+				b_rzhyshchiv = {}
+			}
+		}
+		d_zhytomyr = {
+			color={ 184 188 30 }
+			color2={ 255 255 255 }
+		
+			capital = 869 #Zhytomyr
+			
+			c_zhytomyr = {
+				color={ 210 210 50 }
+				color2={ 255 255 255 }
+				
+				b_zhytomyr = {}
+				b_korostyshiv = {}
+				b_berdychiv = {}
+				b_chudniv = {}
+				b_ivanopil = {}
+				b_lyubar = {}
+				b_romaniv = {}
+			}
+			c_korosten = {
+				color={ 178 175 100 }
+				color2={ 255 255 255 }
+				
+				b_korosten = {}
+				b_malyn = {}
+				b_ovruch = {}
+				b_narodychi = {}
+				b_pershotravnene = {}
+				b_bilokorovychi = {}
+				b_luhyny = {}
+			}
+			c_novohrad_volynskyi = {
+				color={ 235 235 161 }
+				color2={ 255 255 255 }
+				
+				b_novohrad_volynskyi = {}
+				b_olevsk = {}
+				b_yemilchyne = {}
+				b_horodnytsya = {}
+				b_dubrivka = {}
+				b_hrud = {}
+				b_baranivka = {}
+			}
+		}
+		d_chernihiv = {
+			color={ 244 203 120 }
+			color2={ 255 255 255 }
+		
+			capital = 824 #Chernihiv
+			
+			c_chernihiv = {
+				color={ 241 236 34 }
+				color2={ 255 255 255 }
+				
+				b_chernihiv = {}
+				b_nizhyn = {}
+				b_slavutych = {}
+				b_kozelets = {}
+				b_ripky = {}
+				b_mena = {}
+				b_horodnya = {}
+			}
+		}
 	}
 	k_crimea = {
 		color={ 39 84 209 }
@@ -125,7 +242,7 @@ e_ruthenia = {
 				b_heroiske = {}
 			}
 			c_henichesk = {
-				color={ 199 178 59 }
+				color={ 179 158 59 }
 				color2={ 255 255 255 }
 				
 				b_henichesk = {}
@@ -137,7 +254,38 @@ e_ruthenia = {
 				b_chaplynka = {}
 			}
 		}
-		d_dnipro = {
+		d_poltava = {
+			color={ 245 243 100 }
+			color2={ 255 255 255 }
+		
+			capital = 815 #Poltava
+			
+			c_poltava = {
+				color={ 215 193 102 }
+				color2={ 255 255 255 }
+				
+				b_poltava = {}
+				b_karlivka = {}
+				b_reshetylivka = {}
+				b_dykanka = {}
+				b_chutove = {}
+				b_opishnya = {}
+				b_mashivka = {}
+			}
+			c_kremenchuk = {
+				color={ 185 156 112 }
+				color2={ 255 255 255 }
+				
+				b_kremenchuk = {}
+				b_horishni_plavni = {}
+				b_hradyzk = {}
+				b_kobelyaky = {}
+				b_hlobyne = {}
+				b_novi_sanzhary = {}
+				b_khorol = {}
+			}
+		}
+		d_dnipropetrovsk = {
 			color={ 225 224 170 }
 			color2={ 255 255 255 }
 		
@@ -209,6 +357,18 @@ e_ruthenia = {
 				b_korsun_shevchenkivskyi = {}
 				b_kaniv = {}
 				b_kamyanka = {}
+			}
+			c_zolotnosha = {
+				color={ 211 185 68 }
+				color2={ 255 255 255 }
+				
+				b_zolotnosha = {}
+				b_drabiv = {}
+				b_chornobai = {}
+				b_blahodatne = {}
+				b_pishcane = {}
+				b_irkliiv = {}
+				b_velykyi_khutir = {}
 			}
 			c_uman = {
 				color={ 221 184 121 }
@@ -389,6 +549,18 @@ e_ruthenia = {
 				b_krasnoilsk = {}
 				b_kitsman = {}
 			}
+			c_suceava = {
+				color={ 197 111 52 }
+				color2={ 255 255 255 }
+				
+				b_suceava = {}
+				b_radauti = {}
+				b_campulung_moldovenesc = {}
+				b_falticeni = {}
+				b_botosani = {}
+				b_dorhoi = {}
+				b_gura_humorului = {}
+			}
 		}
 		d_western_moldova = {
 			color={ 195 159 122 }
@@ -397,16 +569,16 @@ e_ruthenia = {
 			capital = 1195 #Iasi
 			
 			c_iasi = {
-				color={ 184 155 121 }
+				color={ 212 175 131 }
 				color2={ 255 255 255 }
 				
 				b_iasi = {}
-				b_botosani = {}
-				b_suceava = {}
-				b_falticeni = {}
-				b_radauti = {}
-				b_dorhoi = {}
 				b_pascani = {}
+				b_piatra_neamt = {}
+				b_targu_neamt = {}
+				b_roman = {}
+				b_bicaz = {}
+				b_agapia = {}
 			}
 			c_galati = {
 				color={ 174 148 94 }
@@ -421,16 +593,16 @@ e_ruthenia = {
 				b_targu_bujor = {}
 			}
 			c_bacau = {
-				color={ 194 166 121 }
+				color={ 194 166 111 }
 				color2={ 255 255 255 }
 				
 				b_bacau = {}
 				b_onesti = {}
-				b_piatra_neamt = {}
-				b_targu_neamt = {}
-				b_roman = {}
+				b_focsani = {}
 				b_moinesti = {}
-				b_bicaz = {}
+				b_adjud = {}
+				b_panciu = {}
+				b_targu_ocna = {}
 			}
 		}
 		d_moldova = {
@@ -444,12 +616,24 @@ e_ruthenia = {
 				color2={ 255 255 255 }
 				
 				b_chisinau = {}
-				b_tiraspol = {}
-				b_crasnoe = {}
-				b_bender = {}
+				b_ribnita = {}
 				b_dubasari = {}
-				b_causeni = {}
 				b_orhei = {}
+				b_criuleni = {}
+				b_ialoveni = {}
+				b_calarasi = {}
+			}
+			c_tiraspol = {
+				color={ 188 157 98 }
+				color2={ 255 255 255 }
+				
+				b_tiraspol = {}
+				b_bender = {}
+				b_causeni = {}
+				b_crasnoe = {}
+				b_anenii_noi = {}
+				b_zaim = {}
+				b_varnita = {}
 			}
 			c_cahul = {
 				color={ 211 149 73 }
@@ -468,12 +652,12 @@ e_ruthenia = {
 				color2={ 255 255 255 }
 				
 				b_balti = {}
-				b_ribnita = {}
 				b_drochia = {}
 				b_falesti = {}
 				b_camenca = {}
 				b_ungheni = {}
 				b_edinet = {}
+				b_riscani = {}
 			}
 		}
 	}
@@ -489,8 +673,20 @@ e_ruthenia = {
 		
 			capital = 680 #	Viciebsk
 			
+			c_viciebsk = {
+				color={ 36 195 165 }
+				color2={ 255 255 255 }
+				
+				b_viciebsk = {}
+				b_novka = {}
+				b_zamostoche = {}
+				b_liozna = {}
+				b_ruba = {}
+				b_dobromysli = {}
+				b_beshankovichy = {}
+			}
 			c_polatsk = {
-				color={ 125 214 65 }
+				color={ 105 214 65 }
 				color2={ 255 255 255 }
 				
 				b_polatsk = {}
@@ -500,6 +696,18 @@ e_ruthenia = {
 				b_kokhanovichi = {}
 				b_selyavshina = {}
 				b_sestrenki = {}
+			}
+			c_navapolatsk = {
+				color={ 126 216 154 }
+				color2={ 255 255 255 }
+				
+				b_navapolatsk = {}
+				b_vetrino = {}
+				b_dzisna = {}
+				b_gomel = {}
+				b_otoki = {}
+				b_ushachy = {}
+				b_prozaroki = {}
 			}
 		}
 	}
