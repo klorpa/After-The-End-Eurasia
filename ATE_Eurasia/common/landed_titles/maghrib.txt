@@ -5,14 +5,12 @@ e_maghrib = {
 	color2={ 255 255 20 }
 	
 	capital = 1039 # c_ar_ribat
-	culture = algerian
 	
 	k_tunisia = {
 		color={ 218 26 113 }
 		color2={ 255 255 255 }
 		
 		capital = 420 # c_tunis
-		culture = tunisian
 		
 		algerian = "Tunis"
 		moroccan = "Tunis"
@@ -27,12 +25,6 @@ e_maghrib = {
 			color={ 198 46 103 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 420 province_id = 421 province_id = 422 province_id = 423 } }
-				}
-			}
 			capital = 420 # c_tunis
 			
 			kabyle = "Tunes"
@@ -51,8 +43,7 @@ e_maghrib = {
 				riffian = "Tunes"
 				atlas = "Tunes"
 				
-				b_dar_ben_abdallah = {
-				}
+				b_dar_ben_abdallah = {}
 				b_tunis = {
 					kabyle = "Tunes"
 					chaoui = "Tunes"
@@ -79,29 +70,20 @@ e_maghrib = {
 					riffian = "Aryana"
 					atlas = "Aryana"
 				}
-				b_manuba = {
-				}
-				b_al_muruj = {
-				}
+				b_manuba = {}
+				b_al_muruj = {}
 			}
 			c_benzart = { # 421
 				color={ 188 57 39 }
 				color2={ 255 255 255 }
 				
-				b_manzil_burqibah = {
-				}
-				b_benzart = {
-				}
-				b_mater = {
-				}
-				b_ras_al_jabal = {
-				}
-				b_manzil_jamil = {
-				}
-				b_tinja = {
-				}
-				b_manzil_abd_al_rahman = {
-				}
+				b_manzil_burqibah = {}
+				b_benzart = {}
+				b_mater = {}
+				b_ras_al_jabal = {}
+				b_manzil_jamil = {}
+				b_tinja = {}
+				b_manzil_abd_al_rahman = {}
 			}
 			c_nabil = { # 423
 				color={ 188 22 61 }
@@ -120,16 +102,11 @@ e_maghrib = {
 					riffian = "Nabel"
 					atlas = "Nabel"
 				}
-				b_hammamat = {
-				}
-				b_qorba = {
-				}
-				b_manzil_tamim = {
-				}
-				b_grombalia = {
-				}
-				b_qlibiya = {
-				}
+				b_hammamat = {}
+				b_qorba = {}
+				b_manzil_tamim = {}
+				b_grombalia = {}
+				b_qlibiya = {}
 				b_sliman = {
 					algerian = "Slimène"
 					moroccan = "Slimène"
@@ -153,30 +130,18 @@ e_maghrib = {
 					riffian = "Zeghwan"
 					atlas = "Zeghwan"
 				}
-				b_al_fahs = {
-				}
-				b_zariba = {
-				}
-				b_bir_musharga = {
-				}
-				b_al_naazur = {
-				}
-				b_jabal_al_wasat = {
-				}
-				b_sawaf = {
-				}
+				b_al_fahs = {}
+				b_zariba = {}
+				b_bir_musharga = {}
+				b_al_naazur = {}
+				b_jabal_al_wasat = {}
+				b_sawaf = {}
 			}
 		}
 		d_al_jarid = {
 			color={ 191 51 88 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 435 province_id = 436 province_id = 437 } }
-				}
-			}
 			capital = 435 # c_gafsa
 			
 			algerian = "l-Jrid"
@@ -187,39 +152,25 @@ e_maghrib = {
 				color={ 181 61 83 }
 				color2={ 255 255 255 }
 				
-				b_mitlawi = {
-				}
-				b_gafsa = {
-				}
-				b_al_qasr = {
-				}
-				b_ar_rudayyif = {
-				}
-				b_umm_al_arais = {
-				}
-				b_al_qatar = {
-				}
-				b_al_madila = {
-				}
+				b_mitlawi = {}
+				b_gafsa = {}
+				b_al_qasr = {}
+				b_ar_rudayyif = {}
+				b_umm_al_arais = {}
+				b_al_qatar = {}
+				b_al_madila = {}
 			}
 			c_gbili = { # 437
 				color={ 181 39 23 }
 				color2={ 255 255 255 }
 				
-				b_nazla_al_jawfia = {
-				}
-				b_qbili = {
-				}
-				b_duz = {
-				}
-				b_suq_al_ahad = {
-				}
-				b_al_qalah = {
-				}
-				b_gamna = {
-				}
-				b_al_fawar = {
-				}
+				b_nazla_al_jawfia = {}
+				b_qbili = {}
+				b_duz = {}
+				b_suq_al_ahad = {}
+				b_al_qalah = {}
+				b_gamna = {}
+				b_al_fawar = {}
 			}
 			c_tozir = { # 436
 				color={ 181 52 54 }
@@ -231,8 +182,7 @@ e_maghrib = {
 				riffian = "Tuzer"
 				atlas = "Tuzer"
 				
-				b_wadi_al_hadif = {
-				}
+				b_wadi_al_hadif = {}
 				b_tozir = {
 					kabyle = "Tuzer"
 					chaoui = "Tuzer"
@@ -240,48 +190,30 @@ e_maghrib = {
 					riffian = "Tuzer"
 					atlas = "Tuzer"
 				}
-				b_nufta = {
-				}
-				b_degash = {
-				}
-				b_hamat_al_jarid = {
-				}
-				b_tamghiza = {
-				}
-				b_hazua = {
-				}
+				b_nufta = {}
+				b_degash = {}
+				b_hamat_al_jarid = {}
+				b_tamghiza = {}
+				b_hazua = {}
 			}
 		}
 		d_al_sahil = {
 			color={ 196 6 38 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 428 province_id = 429 province_id = 430 province_id = 431 } }
-				}
-			}
 			capital = 428 # c_sfaqes
 			
 			c_sfaqes = { # 428
 				color={ 186 16 33 }
 				color2={ 255 255 255 }
 				
-				b_sfaqes = {
-				}
-				b_sfaqes_el_jadida = {
-				}
-				b_saqiyat_az_zit = {
-				}
-				b_saqiyat_al_dayr = {
-				}
-				b_al_ein = {
-				}
-				b_gramada = {
-				}
-				b_tina = {
-				}
+				b_sfaqes = {}
+				b_sfaqes_el_jadida = {}
+				b_saqiyat_az_zit = {}
+				b_saqiyat_al_dayr = {}
+				b_al_ein = {}
+				b_gramada = {}
+				b_tina = {}
 			}
 			c_al_mahdiyah = { # 430
 				color={ 181 30 48 }
@@ -293,8 +225,7 @@ e_maghrib = {
 				riffian = "Mehdeyya"
 				atlas = "Mehdeyya"
 				
-				b_burj_al_kabir = {
-				}
+				b_burj_al_kabir = {}
 				b_al_mahdiyah = {
 					kabyle = "Mehdeyya"
 					chaoui = "Mehdeyya"
@@ -302,19 +233,15 @@ e_maghrib = {
 					riffian = "Mehdeyya"
 					atlas = "Mehdeyya"
 				}
-				b_qsur_as_saf = {
-				}
-				b_as_sabbah = {
-				}
+				b_qsur_as_saf = {}
+				b_as_sabbah = {}
 				b_al_jam = {
 					algerian = "il-Jam"
 					moroccan = "il-Jam"
 					tunisian = "il-Jam"
 				}
-				b_rajish = {
-				}
-				b_sidi_alwan = {
-				}
+				b_rajish = {}
+				b_sidi_alwan = {}
 			}
 			c_monastir = { # 429
 				color={ 186 52 42 }
@@ -329,8 +256,7 @@ e_maghrib = {
 				moroccan = "Mistir"
 				tunisian = "Mistir"
 				
-				b_ribat = {
-				}
+				b_ribat = {}
 				b_monastir = {
 					algerian = "Mistir"
 					moroccan = "Mistir"
@@ -341,16 +267,11 @@ e_maghrib = {
 					riffian = "Munastir"
 					atlas = "Munastir"
 				}
-				b_al_makanin = {
-				}
-				b_jamal = {
-				}
-				b_kasr_hilal = {
-				}
-				b_tubliba = {
-				}
-				b_qusayb_al_madyuni = {
-				}
+				b_al_makanin = {}
+				b_jamal = {}
+				b_kasr_hilal = {}
+				b_tubliba = {}
+				b_qusayb_al_madyuni = {}
 			}
 			c_susa = { # 431
 				color={ 186 31 62 }
@@ -361,30 +282,18 @@ e_maghrib = {
 					moroccan = "Msaken"
 					tunisian = "Msaken"
 				}
-				b_susa = {
-				}
-				b_al_qalaat_al_kubraa = {
-				}
-				b_hmmam_susa = {
-				}
-				b_al_qalaat_al_sughraa = {
-				}
-				b_akudat = {
-				}
-				b_zawiat_susa = {
-				}
+				b_susa = {}
+				b_al_qalaat_al_kubraa = {}
+				b_hmmam_susa = {}
+				b_al_qalaat_al_sughraa = {}
+				b_akudat = {}
+				b_zawiat_susa = {}
 			}
 		}
 		d_gabis = {
 			color={ 188 22 61 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 438 province_id = 439 province_id = 440 province_id = 441 } }
-				}
-			}
 			capital = 438 # c_gabis
 				
 			kabyle = "Gabes"
@@ -403,8 +312,7 @@ e_maghrib = {
 				riffian = "Gabes"
 				atlas = "Gabes"
 				
-				b_menzil = {
-				}
+				b_menzil = {}
 				b_gabis = {
 					kabyle = "Gabes"
 					chaoui = "Gabes"
@@ -412,16 +320,11 @@ e_maghrib = {
 					riffian = "Gabes"
 					atlas = "Gabes"
 				}
-				b_al_hammah = {
-				}
-				b_gannus = {
-				}
-				b_sanini_an_nahal = {
-				}
-				b_marat = {
-				}
-				b_al_matwiya = {
-				}
+				b_al_hammah = {}
+				b_gannus = {}
+				b_sanini_an_nahal = {}
+				b_marat = {}
+				b_al_matwiya = {}
 			}
 			c_jirba = { # 441
 				color={ 104 24 24 }
@@ -433,27 +336,19 @@ e_maghrib = {
 				riffian = "Gerba"
 				atlas = "Gerba"
 				
-				b_erriadh = {
-				}
-				b_humet_es_suq = {
-				}
-				b_midun = {
-				}
-				b_agim = {
-				}
-				b_guellala = {
-				}
-				b_mellita = {
-				}
-				b_al_may = {
-				}
+				b_erriadh = {}
+				b_humet_es_suq = {}
+				b_midun = {}
+				b_agim = {}
+				b_guellala = {}
+				b_mellita = {}
+				b_al_may = {}
 			}
 			c_mednin = { # 440
 				color={ 178 27 24 }
 				color2={ 255 255 255 }
 				
-				b_mednin = {
-				}
+				b_mednin = {}
 				b_zerzis = {
 					algerian = "Gergis"
 					moroccan = "Gergis"
@@ -464,14 +359,10 @@ e_maghrib = {
 					moroccan = "Bin Guirdan"
 					tunisian = "Bin Guirdan"
 				}
-				b_bani_haddas = {
-				}
-				b_sidi_makhluf = {
-				}
-				b_jallel = {
-				}
-				b_al_amria = {
-				}
+				b_bani_haddas = {}
+				b_sidi_makhluf = {}
+				b_jallel = {}
+				b_al_amria = {}
 			}
 			c_tatawin = { # 439
 				color={ 178 64 46 }
@@ -483,8 +374,7 @@ e_maghrib = {
 				riffian = "Tittawin"
 				atlas = "Tittawin"
 				
-				b_shanini = {
-				}
+				b_shanini = {}
 				b_tatawin = {
 					kabyle = "Tittawin"
 					chaoui = "Tittawin"
@@ -492,28 +382,17 @@ e_maghrib = {
 					riffian = "Tittawin"
 					atlas = "Tittawin"
 				}
-				b_ghomrassen = {
-				}
-				b_bir_al_ahmar = {
-				}
-				b_ramadat = {
-				}
-				b_dehiba = {
-				}
-				b_al_samar = {
-				}
+				b_ghomrassen = {}
+				b_bir_al_ahmar = {}
+				b_ramadat = {}
+				b_dehiba = {}
+				b_al_samar = {}
 			}
 		}
 		d_majardah = {
 			color={ 196 17 61 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 424 province_id = 425 province_id = 426 province_id = 427 } }
-				}
-			}
 			capital = 424 # c_janduba
 			
 			c_janduba = { # 424
@@ -526,8 +405,7 @@ e_maghrib = {
 				riffian = "Jendouba"
 				atlas = "Jendouba"
 				
-				b_wadi_muliz = {
-				}
+				b_wadi_muliz = {}
 				b_janduba = {
 					kabyle = "Jendouba"
 					chaoui = "Jendouba"
@@ -535,16 +413,11 @@ e_maghrib = {
 					riffian = "Jendouba"
 					atlas = "Jendouba"
 				}
-				b_ghar_aldamaa = {
-				}
-				b_farnan = {
-				}
-				b_tbarqa = {
-				}
-				b_ayn_drahim = {
-				}
-				b_buasalim = {
-				}
+				b_ghar_aldamaa = {}
+				b_farnan = {}
+				b_tbarqa = {}
+				b_ayn_drahim = {}
+				b_buasalim = {}
 			}
 			c_al_kaf = { # 426
 				color={ 186 55 46 }
@@ -559,8 +432,7 @@ e_maghrib = {
 				moroccan = "il-Kaf"
 				tunisian = "il-Kaf"
 				
-				b_tajrwyn = {
-				}
+				b_tajrwyn = {}
 				b_al_kaf = {
 					algerian = "il-Kaf"
 					moroccan = "il-Kaf"
@@ -571,35 +443,23 @@ e_maghrib = {
 					riffian = "Lkaf"
 					atlas = "Lkaf"
 				}
-				b_al_dahmani = {
-				}
-				b_al_sirus = {
-				}
-				b_al_jarisa = {
-				}
-				b_qalaat_snan = {
-				}
-				b_saqiat_sidi_yusuf = {
-				}
+				b_al_dahmani = {}
+				b_al_sirus = {}
+				b_al_jarisa = {}
+				b_qalaat_snan = {}
+				b_saqiat_sidi_yusuf = {}
 			}
 			c_baja = { # 425
 				color={ 186 26 34 }
 				color2={ 255 255 255 }
 				
-				b_bardo = {
-				}
-				b_baja = {
-				}
-				b_majaz_al_bab = {
-				}
-				b_tistur = {
-				}
-				b_tabursuq = {
-				}
-				b_al_maqula = {
-				}
-				b_nafiza = {
-				}
+				b_bardo = {}
+				b_baja = {}
+				b_majaz_al_bab = {}
+				b_tistur = {}
+				b_tabursuq = {}
+				b_al_maqula = {}
+				b_nafiza = {}
 			}
 			c_siliana = { # 427
 				color={ 186 14 77 }
@@ -611,8 +471,7 @@ e_maghrib = {
 				riffian = "Silyana"
 				atlas = "Silyana"
 				
-				b_makhtr = {
-				}
+				b_makhtr = {}
 				b_siliana = {
 					kabyle = "Silyana"
 					chaoui = "Silyana"
@@ -620,28 +479,17 @@ e_maghrib = {
 					riffian = "Silyana"
 					atlas = "Silyana"
 				}
-				b_bwarada = {
-				}
-				b_gaafur = {
-				}
-				b_al_karib = {
-				}
-				b_bargu = {
-				}
-				b_al_ruwhia = {
-				}
+				b_bwarada = {}
+				b_gaafur = {}
+				b_al_karib = {}
+				b_bargu = {}
+				b_al_ruwhia = {}
 			}
 		}
 		d_shaanabi = {
 			color={ 193 1 87 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 432 province_id = 433 province_id = 434 } }
-				}
-			}
 			capital = 432 # c_qiyrwan
 			
 			c_qiyrwan = { # 432
@@ -654,8 +502,7 @@ e_maghrib = {
 				riffian = "Taqirwant"
 				atlas = "Taqirwant"
 				
-				b_hajib_al_ayoun = {
-				}
+				b_hajib_al_ayoun = {}
 				b_qiyrwan = {
 					kabyle = "Taqirwant"
 					chaoui = "Taqirwant"
@@ -663,16 +510,11 @@ e_maghrib = {
 					riffian = "Taqirwant"
 					atlas = "Taqirwant"
 				}
-				b_al_wislatia = {
-				}
-				b_hufuz = {
-				}
-				b_al_sabikha = {
-				}
-				b_bawahjala = {
-				}
-				b_nasrallah = {
-				}
+				b_al_wislatia = {}
+				b_hufuz = {}
+				b_al_sabikha = {}
+				b_bawahjala = {}
+				b_nasrallah = {}
 			}
 			c_al_qasrin = { # 433
 				color={ 183 58 85 }
@@ -704,16 +546,11 @@ e_maghrib = {
 					riffian = "Seftula"
 					atlas = "Seftula"
 				}
-				b_fariana = {
-				}
-				b_fawasana = {
-				}
-				b_sabiba = {
-				}
-				b_tala = {
-				}
-				b_al_zuhur = {
-				}
+				b_fariana = {}
+				b_fawasana = {}
+				b_sabiba = {}
+				b_tala = {}
+				b_al_zuhur = {}
 			}
 			c_sidi_bu_zid = { # 434
 				color={ 183 67 123 }
@@ -732,18 +569,12 @@ e_maghrib = {
 					riffian = "Sidi Bu Sâid"
 					atlas = "Sidi Bu Sâid"
 				}
-				b_al_rehab = {
-				}
-				b_jelma = {
-				}
-				b_bir_al_hafiu = {
-				}
-				b_sidi_ali_ibn_awn = {
-				}
-				b_manzil_buzian = {
-				}
-				b_al_muzawana = {
-				}
+				b_al_rehab = {}
+				b_jelma = {}
+				b_bir_al_hafiu = {}
+				b_sidi_ali_ibn_awn = {}
+				b_manzil_buzian = {}
+				b_al_muzawana = {}
 			}
 		}
 	}
@@ -753,7 +584,6 @@ e_maghrib = {
 		color2={ 255 255 255 }
 		
 		capital = 244 # c_al_jazair
-		culture = algerian
 		
 		algerian = "Dzayer"
 		moroccan = "Dzayer"
@@ -768,12 +598,6 @@ e_maghrib = {
 			color={ 66 89 172 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 244 province_id = 245 province_id = 246 province_id = 247 province_id = 266 } }
-				}
-			}
 			capital = 244 # c_al_jazair
 		
 			algerian = "Dzayer"
@@ -808,8 +632,7 @@ e_maghrib = {
 					riffian = "Dzayer"
 					atlas = "Dzayer"
 				}
-				b_bab_el_oued = {
-				}
+				b_bab_el_oued = {}
 				b_blida = {
 					kabyle = "Leblida"
 					chaoui = "Leblida"
@@ -817,10 +640,8 @@ e_maghrib = {
 					riffian = "Leblida"
 					atlas = "Leblida"	
 				}
-				b_baluzdad = {
-				}
-				b_bir_khadim = {
-				}
+				b_baluzdad = {}
+				b_bir_khadim = {}
 				b_awlad_yaeish = {
 					kabyle = "Uled Iâic"
 					chaoui = "Uled Iâic"
@@ -828,8 +649,7 @@ e_maghrib = {
 					riffian = "Uled Iâic"
 					atlas = "Uled Iâic"
 				}
-				b_dar_al_bayda = {
-				}
+				b_dar_al_bayda = {}
 			}
 			c_al_madiya = { # 247
 				color={ 155 81 165 }
@@ -841,8 +661,7 @@ e_maghrib = {
 				riffian = "Lemdiyyet"
 				atlas = "Lemdiyyet"
 				
-				b_draa_al_samar = {
-				}
+				b_draa_al_samar = {}
 				b_al_madiya = {
 					kabyle = "Lemdiyyet"
 					chaoui = "Lemdiyyet"
@@ -857,14 +676,10 @@ e_maghrib = {
 					riffian = "Virwen"
 					atlas = "Virwen"	
 				}
-				b_kasr_al_bukhari = {
-				}
-				b_beni_sulayman = {
-				}
-				b_ayn_busif = {
-				}
-				b_shalalat_al_adhawira = {
-				}
+				b_kasr_al_bukhari = {}
+				b_beni_sulayman = {}
+				b_ayn_busif = {}
+				b_shalalat_al_adhawira = {}
 			}
 			c_al_shalaf = { # 246
 				color={ 113 110 163 }
@@ -890,14 +705,10 @@ e_maghrib = {
 					riffian = "Clef"
 					atlas = "Clef"
 				}
-				b_buqadir = {
-				}
-				b_ayn_maran = {
-				}
-				b_wadi_salaa = {
-				}
-				b_wadi_al_fida = {
-				}
+				b_buqadir = {}
+				b_ayn_maran = {}
+				b_wadi_salaa = {}
+				b_wadi_al_fida = {}
 				b_tenes = {
 					kabyle = "Tinas"
 					chaoui = "Tinas"
@@ -923,8 +734,7 @@ e_maghrib = {
 					riffian = "Âin n Defla"
 					atlas = "Âin n Defla"
 				}
-				b_khamis_milyan = {
-				}
+				b_khamis_milyan = {}
 				b_tibaza = {
 					kabyle = "Tifezza"
 					chaoui = "Tifezza"
@@ -932,14 +742,10 @@ e_maghrib = {
 					riffian = "Tifezza"
 					atlas = "Tifezza"
 				}
-				b_al_qaliea = {
-				}
-				b_al_eibadia = {
-				}
-				b_al_eitaf = {
-				}
-				b_fawaka = {
-				}
+				b_al_qaliea = {}
+				b_al_eibadia = {}
+				b_al_eitaf = {}
+				b_fawaka = {}
 			}
 			c_taysamsilat = { # 266
 				color={ 144 78 163 }
@@ -951,8 +757,7 @@ e_maghrib = {
 				riffian = "Tismsilt"
 				atlas = "Tismsilt"
 				
-				b_awlad_bisam = {
-				}
+				b_awlad_bisam = {}
 				b_taysamsilat = {
 					kabyle = "Tismsilt"
 					chaoui = "Tismsilt"
@@ -960,28 +765,17 @@ e_maghrib = {
 					riffian = "Tismsilt"
 					atlas = "Tismsilt"
 				}
-				b_thuniyat_al_ahad = {
-				}
-				b_lardjem = {
-				}
-				b_khemisti = {
-				}
-				b_burj_bwnam = {
-				}
-				b_burj_al_amir_abdelkader = {
-				}
+				b_thuniyat_al_ahad = {}
+				b_lardjem = {}
+				b_khemisti = {}
+				b_burj_bwnam = {}
+				b_burj_al_amir_abdelkader = {}
 			}
 		}
 		d_annaba = {
 			color={ 59 118 137 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 253 province_id = 254 province_id = 255 } }
-				}
-			}
 			capital = 253 # c_balad_al_unnab
 				
 			algerian = "Anneba"
@@ -1003,8 +797,7 @@ e_maghrib = {
 				riffian = "Buna"
 				atlas = "Buna"
 				
-				b_sidi_brahim = {
-				}
+				b_sidi_brahim = {}
 				b_annaba = {
 					algerian = "Anneba"
 					moroccan = "Anneba"
@@ -1036,8 +829,7 @@ e_maghrib = {
 					riffian = "Buni"
 					atlas = "Buni"	
 				}
-				b_sidi_ammar = {
-				}
+				b_sidi_ammar = {}
 				b_al_hijar = {
 					kabyle = "Lheggar"
 					chaoui = "Lheggar"
@@ -1063,14 +855,10 @@ e_maghrib = {
 					riffian = "El Tarf"
 					atlas = "El Tarf"
 				}
-				b_al_dhiran = {
-				}
-				b_besbes = {
-				}
-				b_ben_mahdi = {
-				}
-				b_buhijar = {
-				}
+				b_al_dhiran = {}
+				b_besbes = {}
+				b_ben_mahdi = {}
+				b_buhijar = {}
 				b_al_qala = {
 					kabyle = "Lkala"
 					chaoui = "Lkala"
@@ -1078,8 +866,7 @@ e_maghrib = {
 					riffian = "Lkala"
 					atlas = "Lkala"
 				}
-				b_buthlaja = {
-				}
+				b_buthlaja = {}
 			}
 			c_suq_ahras = { # 255
 				color={ 82 132 121 }
@@ -1091,8 +878,7 @@ e_maghrib = {
 				riffian = "Tagast"
 				atlas = "Tagast"
 				
-				b_al_hananisha = {
-				}
+				b_al_hananisha = {}
 				b_suq_ahras = {
 					kabyle = "Tagast"
 					chaoui = "Tagast"
@@ -1107,10 +893,8 @@ e_maghrib = {
 					riffian = "Isedraten"
 					atlas = "Isedraten"
 				}
-				b_mdawrush = {
-				}
-				b_al_mashruha = {
-				}
+				b_mdawrush = {}
+				b_al_mashruha = {}
 				b_tawira = {
 					kabyle = "Tawra"
 					chaoui = "Tawra"
@@ -1118,20 +902,13 @@ e_maghrib = {
 					riffian = "Tawra"
 					atlas = "Tawra"
 				}
-				b_al_murahina = {
-				}
+				b_al_murahina = {}
 			}
 		}
 		d_awras = {
 			color={ 38 126 30 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 248 province_id = 249 province_id = 250 province_id = 251 province_id = 252 } }
-				}
-			}
 			capital = 248 # c_batana
 			
 			c_batana = { # 248
@@ -1144,12 +921,9 @@ e_maghrib = {
 				riffian = "Tbatent"
 				atlas = "Tbatent"
 				
-				b_zmala = {
-				}
-				b_buakal = {
-				}
-				b_barika = {
-				}
+				b_zmala = {}
+				b_buakal = {}
+				b_barika = {}
 				b_ayn_al_tawta = {
 					kabyle = "Âin Tuta"
 					chaoui = "Âin Tuta"
@@ -1171,8 +945,7 @@ e_maghrib = {
 					riffian = "Arris"
 					atlas = "Arris"
 				}
-				b_ngaous = {
-				}
+				b_ngaous = {}
 			}
 			c_al_wadi = { # 442
 				color={ 83 132 42 }
@@ -1184,8 +957,7 @@ e_maghrib = {
 				riffian = "Suf"
 				atlas = "Suf"
 				
-				b_qwinin = {
-				}
+				b_qwinin = {}
 				b_al_wadi = {
 					kabyle = "Suf"
 					chaoui = "Suf"
@@ -1193,16 +965,11 @@ e_maghrib = {
 					riffian = "Suf"
 					atlas = "Suf"
 				}
-				b_jamiaa = {
-				}
-				b_al_mghir = {
-				}
-				b_al_reguib = {
-				}
-				b_guemar = {
-				}
-				b_al_biada = {
-				}
+				b_jamiaa = {}
+				b_al_mghir = {}
+				b_al_reguib = {}
+				b_guemar = {}
+				b_al_biada = {}
 			}
 			c_am_al_bwaqi = { # 249
 				color={ 102 135 93 }
@@ -1249,10 +1016,8 @@ e_maghrib = {
 					riffian = "Âin Kerca"
 					atlas = "Âin Kerca"
 				}
-				b_maskiana = {
-				}
-				b_suq_neman = {
-				}
+				b_maskiana = {}
+				b_suq_neman = {}
 			}
 			c_biskara = { # 252
 				color={ 76 135 56 }
@@ -1285,12 +1050,9 @@ e_maghrib = {
 					riffian = "Sidi Okba"
 					atlas = "Sidi Okba"
 				}
-				b_awrilal = {
-				}
-				b_zirbiat_al_wadi = {
-				}
-				b_fawaghala = {
-				}
+				b_awrilal = {}
+				b_zirbiat_al_wadi = {}
+				b_fawaghala = {}
 				b_jamura = {
 					kabyle = "Gmura"
 					chaoui = "Gmura"
@@ -1309,8 +1071,7 @@ e_maghrib = {
 				riffian = "Xencelt"
 				atlas = "Xencelt"
 				
-				b_al_hama = {
-				}
+				b_al_hama = {}
 				b_khunshila = {
 					kabyle = "Xencelt"
 					chaoui = "Xencelt"
@@ -1318,16 +1079,11 @@ e_maghrib = {
 					riffian = "Xencelt"
 					atlas = "Xencelt"
 				}
-				b_awlad_rashshash = {
-				}
-				b_kais = {
-				}
-				b_babar = {
-				}
-				b_shashar = {
-				}
-				b_buhmama = {
-				}
+				b_awlad_rashshash = {}
+				b_kais = {}
+				b_babar = {}
+				b_shashar = {}
+				b_buhmama = {}
 			}
 			c_tibissa = { # 250
 				color={ 37 135 92 }
@@ -1339,8 +1095,7 @@ e_maghrib = {
 				riffian = "Tibest"
 				atlas = "Tibest"
 				
-				b_al_kuayf = {
-				}
+				b_al_kuayf = {}
 				b_tibissa = {
 					kabyle = "Tibest"
 					chaoui = "Tibest"
@@ -1348,28 +1103,17 @@ e_maghrib = {
 					riffian = "Tibest"
 					atlas = "Tibest"
 				}
-				b_bir_al_atir = {
-				}
-				b_al_shrye = {
-				}
-				b_al_wanza = {
-				}
-				b_al_awainat = {
-				}
-				b_ain_al_zirqa = {
-				}
+				b_bir_al_atir = {}
+				b_al_shrye = {}
+				b_al_wanza = {}
+				b_al_awainat = {}
+				b_ain_al_zirqa = {}
 			}
 		}
 		d_mustaganam = {
 			color={ 17 135 226 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 267 province_id = 268 province_id = 269 } }
-				}
-			}
 			capital = 267 # c_mustaganam
 				
 			kabyle = "Mestghalim"
@@ -1394,8 +1138,7 @@ e_maghrib = {
 				tunisian = "Mestghalim"
 				moroccan = "Mestghalim"
 				
-				b_tigdit = {
-				}
+				b_tigdit = {}
 				b_mustaganam = {
 					kabyle = "Mestghalim"
 					chaoui = "Mestghalim"
@@ -1413,12 +1156,9 @@ e_maghrib = {
 					riffian = "Tala Tadles"
 					atlas = "Tala Tadles"
 				}
-				b_buqirat = {
-				}
-				b_ashaasha = {
-				}
-				b_sidi_lakhdar = {
-				}
+				b_buqirat = {}
+				b_ashaasha = {}
+				b_sidi_lakhdar = {}
 				b_khayr_ad_din = {
 					kabyle = "Tunin"
 					chaoui = "Tunin"
@@ -1437,8 +1177,7 @@ e_maghrib = {
 				riffian = "Ghilizan"
 				atlas = "Ghilizan"
 				
-				b_ben_dawud = {
-				}
+				b_ben_dawud = {}
 				b_ghalayzan = {
 					kabyle = "Ghilizan"
 					chaoui = "Ghilizan"
@@ -1446,8 +1185,7 @@ e_maghrib = {
 					riffian = "Ghilizan"
 					atlas = "Ghilizan"
 				}
-				b_wadi_rhiw = {
-				}
+				b_wadi_rhiw = {}
 				b_yalal = {
 					kabyle = "Yelel"
 					chaoui = "Yelel"
@@ -1455,12 +1193,9 @@ e_maghrib = {
 					riffian = "Yelel"
 					atlas = "Yelel"
 				}
-				b_sidi_mhamed_ben_ali = {
-				}
-				b_jayadiwa = {
-				}
-				b_zamura = {
-				}
+				b_sidi_mhamed_ben_ali = {}
+				b_jayadiwa = {}
+				b_zamura = {}
 			}
 			c_meskr = { # 269
 				color={ 89 210 219 }
@@ -1472,8 +1207,7 @@ e_maghrib = {
 				riffian = "Mâesker"
 				atlas = "Mâesker"
 				
-				b_mohammadia = {
-				}
+				b_mohammadia = {}
 				b_meskr = {
 					kabyle = "Mâesker"
 					chaoui = "Mâesker"
@@ -1488,8 +1222,7 @@ e_maghrib = {
 					riffian = "Tighennif"
 					atlas = "Tighennif"
 				}
-				b_sig = {
-				}
+				b_sig = {}
 				b_gharis = {
 					kabyle = "Aghris"
 					chaoui = "Aghris"
@@ -1497,22 +1230,14 @@ e_maghrib = {
 					riffian = "Aghris"
 					atlas = "Aghris"
 				}
-				b_al_hashim = {
-				}
-				b_al_baraj = {
-				}
+				b_al_hashim = {}
+				b_al_baraj = {}
 			}
 		}
 		d_qusantinah = {
 			color={ 66 180 196 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 256 province_id = 257 province_id = 258 province_id = 259 } }
-				}
-			}
 			capital = 256 # c_qusantinah
 				
 			kabyle = "Qsntina"
@@ -1537,8 +1262,7 @@ e_maghrib = {
 				tunisian = "Qsentina"
 				moroccan = "Qsentina"
 				
-				b_al_sakhra = {
-				}
+				b_al_sakhra = {}
 				b_qusantinah = {
 					kabyle = "Qsentina"
 					chaoui = "Qsentina"
@@ -1595,8 +1319,7 @@ e_maghrib = {
 				riffian = "Ighil Gili"
 				atlas = "Ighil Gili"
 				
-				b_qaws = {
-				}
+				b_qaws = {}
 				b_jijl = {
 					kabyle = "Ighil Gili"
 					chaoui = "Ighil Gili"
@@ -1621,8 +1344,7 @@ e_maghrib = {
 					tunisian = "Ettahir"
 					moroccan = "Ettahir"
 				}
-				b_amir_abdelkader = {
-				}
+				b_amir_abdelkader = {}
 				b_al_shaqfa = {
 					kabyle = "Ceqfa"
 					chaoui = "Ceqfa"
@@ -1667,7 +1389,7 @@ e_maghrib = {
 					chaoui = "Ighil N'Ait Imzalen"
 					soussi = "Ighil N'Ait Imzalen"
 					riffian = "Ighil N'Ait Imzalen"
-					atlas = "Ighil N'Ait Imzalen
+					atlas = "Ighil N'Ait Imzalen"
 				}
 				b_al_qararim_qawqa = {
 					kabyle = "Grerem Guga"
@@ -1676,8 +1398,7 @@ e_maghrib = {
 					riffian = "Grerem Guga"
 					atlas = "Grerem Guga"
 				}
-				b_wadi_enja = {
-				}
+				b_wadi_enja = {}
 				b_rwashed = {
 					kabyle = "Qwaced"
 					chaoui = "Qwaced"
@@ -1703,8 +1424,7 @@ e_maghrib = {
 				riffian = "Skikda"
 				atlas = "Skikda"
 				
-				b_hamada_karuma = {
-				}
+				b_hamada_karuma = {}
 				b_sukayakda = {
 					kabyle = "Skikda"
 					chaoui = "Skikda"
@@ -1712,12 +1432,9 @@ e_maghrib = {
 					riffian = "Skikda"
 					atlas = "Skikda"
 				}
-				b_azaba = {
-				}
-				b_al_harush = {
-				}
-				b_tamalus = {
-				}
+				b_azaba = {}
+				b_al_harush = {}
+				b_tamalus = {}
 				b_al_qoll = {
 					kabyle = "Kullu"
 					chaoui = "Kullu"
@@ -1725,32 +1442,22 @@ e_maghrib = {
 					riffian = "Kullu"
 					atlas = "Kullu"
 				}
-				b_sidi_mzghish = {
-				}
+				b_sidi_mzghish = {}
 			}
 		}
 		d_saida = {
 			color={ 132 9 244 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 270 province_id = 274 province_id = 279 province_id = 280 } }
-				}
-			}
 			capital = 270 # c_saida
 			
 			c_saida = { # 270
 				color={ 142 255 249 }
 				color2={ 255 255 255 }
 				
-				b_awlad_khalid = {
-				}
-				b_saida = {
-				}
-				b_sidi_abu_bakr = {
-				}
+				b_awlad_khalid = {}
+				b_saida = {}
+				b_sidi_abu_bakr = {}
 				b_ayn_al_hajar = {
 					kabyle = "Talezran"
 					chaoui = "Talezran"
@@ -1758,10 +1465,8 @@ e_maghrib = {
 					riffian = "Talezran"
 					atlas = "Talezran"
 				}
-				b_al_hasasana = {
-				}
-				b_yub = {
-				}
+				b_al_hasasana = {}
+				b_yub = {}
 				b_awlad_ibrahim = {
 					kabyle = "Wlad Brahim"
 					chaoui = "Wlad Brahim"
@@ -1801,8 +1506,7 @@ e_maghrib = {
 					riffian = "Buâlam"
 					atlas = "Buâlam"
 				}
-				b_al_raqasa = {
-				}
+				b_al_raqasa = {}
 				b_buqatab = {
 					kabyle = "Bugteb"
 					chaoui = "Bugteb"
@@ -1810,10 +1514,8 @@ e_maghrib = {
 					riffian = "Bugteb"
 					atlas = "Bugteb"
 				}
-				b_shalala = {
-				}
-				b_sidi_amir = {
-				}
+				b_shalala = {}
+				b_sidi_amir = {}
 			}
 			c_al_naama = { # 279
 				color={ 214 101 49 }
@@ -1892,10 +1594,8 @@ e_maghrib = {
 					riffian = "Tessala"
 					atlas = "Tessala"
 				}
-				b_ayn_al_bard = {
-				}
-				b_ben_badis = {
-				}
+				b_ayn_al_bard = {}
+				b_ben_badis = {}
 				b_marin = {
 					kabyle = "Mrin"
 					chaoui = "Mrin"
@@ -1903,8 +1603,7 @@ e_maghrib = {
 					riffian = "Mrin"
 					atlas = "Mrin"
 				}
-				b_telioum = {
-				}
+				b_telioum = {}
 				b_safayzaf = {
 					kabyle = "Sfisef"
 					chaoui = "Sfisef"
@@ -1925,12 +1624,6 @@ e_maghrib = {
 			color={ 208 58 36 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 260 province_id = 261 province_id = 262 province_id = 263 province_id = 264 province_id = 265 } }
-				}
-			}
 			capital = 260 # c_tyzi_wazu
 			
 			c_tyzi_wazu = { # 260
@@ -1985,8 +1678,7 @@ e_maghrib = {
 					riffian = "Draâ Ben Xedda"
 					atlas = "Draâ Ben Xedda"
 				}
-				b_bughni = {
-				}
+				b_bughni = {}
 			}
 			c_al_bwyra = { # 262
 				color={ 198 109 127 }
@@ -2072,10 +1764,8 @@ e_maghrib = {
 					riffian = "Bgayet"
 					atlas = "Bgayet"
 				}
-				b_aqbu = {
-				}
-				b_amizur = {
-				}
+				b_aqbu = {}
+				b_amizur = {}
 				b_khirata = {
 					kabyle = "Xerratta"
 					chaoui = "Xerratta"
@@ -2168,8 +1858,7 @@ e_maghrib = {
 				riffian = "Burg Bu Âririg"
 				atlas = "Burg Bu Âririg"
 				
-				b_al_anasir = {
-				}
+				b_al_anasir = {}
 				b_burj_bw_eryrij = {
 					kabyle = "Burg Bu Âririg"
 					chaoui = "Burg Bu Âririg"
@@ -2191,12 +1880,9 @@ e_maghrib = {
 					riffian = "Ras Lwad"
 					atlas = "Ras Lwad"
 				}
-				b_burj_al_ghadir = {
-				}
-				b_bir_qasad_ali = {
-				}
-				b_al_hamadia = {
-				}
+				b_burj_al_ghadir = {}
+				b_bir_qasad_ali = {}
+				b_al_hamadia = {}
 			}
 			c_satif = { # 265
 				color={ 198 57 35 }
@@ -2243,8 +1929,7 @@ e_maghrib = {
 					riffian = "Âin Lekbira"
 					atlas = "Âin Lekbira"
 				}
-				b_bayda_burj = {
-				}
+				b_bayda_burj = {}
 				b_ayn_arnat = {
 					kabyle = "Âin Arnat"
 					chaoui = "Âin Arnat"
@@ -2258,12 +1943,6 @@ e_maghrib = {
 			color={ 28 26 143 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 275 province_id = 276 province_id = 277 province_id = 278 } }
-				}
-			}
 			capital = 275 # c_tayarat
 				
 			kabyle = "Tyaret"
@@ -2356,10 +2035,8 @@ e_maghrib = {
 					riffian = "Aflu"
 					atlas = "Aflu"
 				}
-				b_tajimut = {
-				}
-				b_qasr_al_hayran = {
-				}
+				b_tajimut = {}
+				b_qasr_al_hayran = {}
 				b_hasaa_al_raml = {
 					kabyle = "Hasi Rrmel"
 					chaoui = "Hasi Rrmel"
@@ -2367,10 +2044,8 @@ e_maghrib = {
 					riffian = "Hasi Rrmel"
 					atlas = "Hasi Rrmel"
 				}
-				b_qaltat_sidi_saad = {
-				}
-				b_sidi_makhluf = {
-				}
+				b_qaltat_sidi_saad = {}
+				b_sidi_makhluf = {}
 			}
 			c_al_julfa = { # 277
 				color={ 35 51 137 }
@@ -2389,10 +2064,8 @@ e_maghrib = {
 					riffian = "Gelfa"
 					atlas = "Gelfa"
 				}
-				b_msed = {
-				}
-				b_ayn_al_ibil = {
-				}
+				b_msed = {}
+				b_ayn_al_ibil = {}
 				b_hasi_bibah = {
 					kabyle = "Hasi Behbah"
 					chaoui = "Hasi Behbah"
@@ -2400,10 +2073,8 @@ e_maghrib = {
 					riffian = "Hasi Behbah"
 					atlas = "Hasi Behbah"
 				}
-				b_al_sharif = {
-				}
-				b_dar_al_shuyukh = {
-				}
+				b_al_sharif = {}
+				b_dar_al_shuyukh = {}
 				b_al_idrisia = {
 					kabyle = "Lidriseyya"
 					chaoui = "Lidriseyya"
@@ -2429,30 +2100,18 @@ e_maghrib = {
 					riffian = "Tamsilt"
 					atlas = "Tamsilt"
 				}
-				b_bw_saada = {
-				}
-				b_magra = {
-				}
-				b_awlad_diraj = {
-				}
-				b_sidi_aissa = {
-				}
-				b_ayn_al_mulihi = {
-				}
-				b_hamam_al_dulaa = {
-				}
+				b_bw_saada = {}
+				b_magra = {}
+				b_awlad_diraj = {}
+				b_sidi_aissa = {}
+				b_ayn_al_mulihi = {}
+				b_hamam_al_dulaa = {}
 			}
 		}
 		d_wahran = {
 			color={ 227 254 66 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 271 province_id = 272 province_id = 273 } }
-				}
-			}
 			capital = 271 # c_wahran
 				
 			kabyle = "Wehran"
@@ -2471,20 +2130,13 @@ e_maghrib = {
 				riffian = "Wahren"
 				atlas = "Wahren"
 				
-				b_sidi_al_hawari = {
-				}
-				b_sidi_al_bashir = {
-				}
-				b_ibn_sina = {
-				}
-				b_bir_al_jir = {
-				}
-				b_al_saania = {
-				}
-				b_arziu = {
-				}
-				b_hassi_bounif = {
-				}
+				b_sidi_al_hawari = {}
+				b_sidi_al_bashir = {}
+				b_ibn_sina = {}
+				b_bir_al_jir = {}
+				b_al_saania = {}
+				b_arziu = {}
+				b_hassi_bounif = {}
 			}
 			c_ayn_tmushent = { # 272
 				color={ 216 65 113 }
@@ -2496,20 +2148,13 @@ e_maghrib = {
 				riffian = "Tala l Timucent"
 				atlas = "Tala l Timucent"
 				
-				b_sidi_ben_ed = {
-				}
-				b_ayn_tmushent = {
-				}
-				b_al_amiria = {
-				}
-				b_ayn_al_arbia = {
-				}
-				b_ayn_al_kyhl = {
-				}
-				b_al_malih = {
-				}
-				b_hamam_baw_hijr = {
-				}
+				b_sidi_ben_ed = {}
+				b_ayn_tmushent = {}
+				b_al_amiria = {}
+				b_ayn_al_arbia = {}
+				b_ayn_al_kyhl = {}
+				b_al_malih = {}
+				b_hamam_baw_hijr = {}
 			}
 			c_tilimsan = { # 273
 				color={ 216 41 49 }
@@ -2521,20 +2166,13 @@ e_maghrib = {
 				riffian = "Tilimsan"
 				atlas = "Tilimsan"
 				
-				b_el_meshwar = {
-				}
-				b_qissaria = {
-				}
-				b_maghnia = {
-				}
-				b_al_mansura = {
-				}
-				b_chetwan = {
-				}
-				b_al_rumshaa = {
-				}
-				b_sebdu = {
-				}
+				b_el_meshwar = {}
+				b_qissaria = {}
+				b_maghnia = {}
+				b_al_mansura = {}
+				b_chetwan = {}
+				b_al_rumshaa = {}
+				b_sebdu = {}
 			}
 		}
 	}
@@ -2544,7 +2182,6 @@ e_maghrib = {
 		color2={ 255 255 255 }
 		
 		capital = 1039 # c_ar_ribat
-		culture = moroccan
 		
 		kabyle = "Merruk"
 		chaoui = "Merruk"
@@ -2559,12 +2196,6 @@ e_maghrib = {
 			color={ 205 41 30 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1039 province_id = 1040 province_id = 1041 } }
-				}
-			}
 			capital = 1039 # c_ar_ribat
 				
 			kabyle = "Rbat"
@@ -2589,20 +2220,13 @@ e_maghrib = {
 				moroccan = "er-Rbat"
 				tunisian = "er-Rbat"
 				
-				b_tawaruka = {
-				}
-				b_ar_ribat = {
-				}
-				b_sila = {
-				}
-				b_binslayman = {
-				}
-				b_tamara = {
-				}
-				b_yaqub_al_mansur = {
-				}
-				b_sidi_buqnadil = {
-				}
+				b_tawaruka = {}
+				b_ar_ribat = {}
+				b_sila = {}
+				b_binslayman = {}
+				b_tamara = {}
+				b_yaqub_al_mansur = {}
+				b_sidi_buqnadil = {}
 			}
 			c_al_khamisat = { # 1040
 				color={ 226 9 9 }
@@ -2614,20 +2238,13 @@ e_maghrib = {
 				riffian = "Xmisat"
 				atlas = "Xmisat"
 				
-				b_essalam = {
-				}
-				b_ezzahra = {
-				}
-				b_tayfilat = {
-				}
-				b_ayat_yudin = {
-				}
-				b_uwlimas = {
-				}
-				b_sidi_al_ghandur = {
-				}
-				b_majmae_al_talaba = {
-				}
+				b_essalam = {}
+				b_ezzahra = {}
+				b_tayfilat = {}
+				b_ayat_yudin = {}
+				b_uwlimas = {}
+				b_sidi_al_ghandur = {}
+				b_majmae_al_talaba = {}
 			}
 			c_al_qunaytira = { # 1041
 				color={ 122 192 91 }
@@ -2642,32 +2259,19 @@ e_maghrib = {
 				moroccan = "Qnitra"
 				tunisian = "Qnitra"
 				
-				b_khabazat = {
-				}
-				b_mimosas = {
-				}
-				b_suq_alarbiea = {
-				}
-				b_sidi_taibi = {
-				}
-				b_ben_mansur = {
-				}
-				b_sidi_mohamed_lihamr = {
-				}
-				b_munasira = {
-				}
+				b_khabazat = {}
+				b_mimosas = {}
+				b_suq_alarbiea = {}
+				b_sidi_taibi = {}
+				b_ben_mansur = {}
+				b_sidi_mohamed_lihamr = {}
+				b_munasira = {}
 			}
 		}
 		d_ad_dar_al_baidaa = {
 			color={ 123 123 29 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1042 province_id = 1043 province_id = 1044 } }
-				}
-			}
 			capital = 1042 # c_ad_dar_al_baidaa
 				
 			kabyle = "Anfa"
@@ -2692,20 +2296,13 @@ e_maghrib = {
 				moroccan = "Anfa"
 				tunisian = "Anfa"
 				
-				b_al_mashur = {
-				}
-				b_anfa = {
-				}
-				b_sidi_bernoussi = {
-				}
-				b_mohammedia = {
-				}
-				b_nouaceur = {
-				}
-				b_mediouna = {
-				}
-				b_ain_chock = {
-				}
+				b_al_mashur = {}
+				b_anfa = {}
+				b_sidi_bernoussi = {}
+				b_mohammedia = {}
+				b_nouaceur = {}
+				b_mediouna = {}
+				b_ain_chock = {}
 			}
 			c_al_jadida = { # 1044
 				color={ 186 43 0 }
@@ -2720,20 +2317,13 @@ e_maghrib = {
 				moroccan = "j-Jdida"
 				tunisian = "j-Jdida"
 				
-				b_azemmour = {
-				}
-				b_al_jadida = {
-				}
-				b_my_abdellah = {
-				}
-				b_haouzia = {
-				}
-				b_chtouka = {
-				}
-				b_oulad_hcine = {
-				}
-				b_mettouh = {
-				}
+				b_azemmour = {}
+				b_al_jadida = {}
+				b_my_abdellah = {}
+				b_haouzia = {}
+				b_chtouka = {}
+				b_oulad_hcine = {}
+				b_mettouh = {}
 			}
 			c_sitat = { # 1043
 				color={ 140 102 0 }
@@ -2745,32 +2335,19 @@ e_maghrib = {
 				riffian = "Zettat"
 				atlas = "Zettat"
 				
-				b_sitat = {
-				}
-				b_ben_ahmed = {
-				}
-				b_sidi_hajjaj = {
-				}
-				b_dar_chaffai = {
-				}
-				b_el_borouj = {
-				}
-				b_ras_el_ain_chaouia = {
-				}
-				b_ain_nzagh = {
-				}
+				b_sitat = {}
+				b_ben_ahmed = {}
+				b_sidi_hajjaj = {}
+				b_dar_chaffai = {}
+				b_el_borouj = {}
+				b_ras_el_ain_chaouia = {}
+				b_ain_nzagh = {}
 			}
 		}
 		d_ash_sharq = {
 			color={ 239 174 230 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1054 province_id = 1055 province_id = 1056 } }
-				}
-			}
 			capital = 1054 # c_wajida
 				
 			kabyle = "Tagmudant"
@@ -2789,20 +2366,13 @@ e_maghrib = {
 				riffian = "Wejda"
 				atlas = "Wejda"
 				
-				b_ahl_angad = {
-				}
-				b_wajida = {
-				}
-				b_sidi_slimane_echcharraa = {
-				}
-				b_bni_drar = {
-				}
-				b_ahfir = {
-				}
-				b_naima = {
-				}
-				b_isly = {
-				}
+				b_ahl_angad = {}
+				b_wajida = {}
+				b_sidi_slimane_echcharraa = {}
+				b_bni_drar = {}
+				b_ahfir = {}
+				b_naima = {}
+				b_isly = {}
 			}
 			c_fakik = { # 1056
 				color={ 249 191 190 }
@@ -2814,20 +2384,13 @@ e_maghrib = {
 				riffian = "Ifeyyey"
 				atlas = "Ifeyyey"
 				
-				b_fakik = {
-				}
-				b_bouarfa = {
-				}
-				b_talsint = {
-				}
-				b_bni_tadjite = {
-				}
-				b_tendrara = {
-				}
-				b_bouanane = {
-				}
-				b_ain_chair = {
-				}
+				b_fakik = {}
+				b_bouarfa = {}
+				b_talsint = {}
+				b_bni_tadjite = {}
+				b_tendrara = {}
+				b_bouanane = {}
+				b_ain_chair = {}
 			}
 			c_tawrirat = { # 1055
 				color={ 250 213 230 }
@@ -2839,32 +2402,19 @@ e_maghrib = {
 				riffian = "Tawrirt"
 				atlas = "Tawrirt"
 				
-				b_tawrirat = {
-				}
-				b_jerada = {
-				}
-				b_el_aioun_sidi_mellouk = {
-				}
-				b_ain_bni_mathar = {
-				}
-				b_debdou = {
-				}
-				b_touissit = {
-				}
-				b_oued_heimer = {
-				}
+				b_tawrirat = {}
+				b_jerada = {}
+				b_el_aioun_sidi_mellouk = {}
+				b_ain_bni_mathar = {}
+				b_debdou = {}
+				b_touissit = {}
+				b_oued_heimer = {}
 			}
 		}
 		d_bani_mellal = {
 			color={ 200 226 233 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1062 province_id = 1063 province_id = 1064 province_id = 1065 } }
-				}
-			}
 			capital = 1062 # c_bani_mellal
 				
 			kabyle = "Ayt Mellal"
@@ -2883,20 +2433,13 @@ e_maghrib = {
 				riffian = "Ayt Mellal"
 				atlas = "Ayt Mellal"
 				
-				b_el_ksiba = {
-				}
-				b_bani_mellal = {
-				}
-				b_fquih_ben_salah = {
-				}
-				b_kasba_tadla = {
-				}
-				b_oulad_nemma = {
-				}
-				b_zaouiat_cheikh = {
-				}
-				b_oulad_ayad = {
-				}
+				b_el_ksiba = {}
+				b_bani_mellal = {}
+				b_fquih_ben_salah = {}
+				b_kasba_tadla = {}
+				b_oulad_nemma = {}
+				b_zaouiat_cheikh = {}
+				b_oulad_ayad = {}
 			}
 			c_azilal = { # 1064
 				color={ 252 211 193 }
@@ -2908,20 +2451,13 @@ e_maghrib = {
 				riffian = "Azilal"
 				atlas = "Azilal"
 				
-				b_azilal = {
-				}
-				b_demnate = {
-				}
-				b_afourar = {
-				}
-				b_ouaouizeght = {
-				}
-				b_foum_jemaa = {
-				}
-				b_bzou = {
-				}
-				b_ait_attab = {
-				}
+				b_azilal = {}
+				b_demnate = {}
+				b_afourar = {}
+				b_ouaouizeght = {}
+				b_foum_jemaa = {}
+				b_bzou = {}
+				b_ait_attab = {}
 			}
 			c_khunyfira = { # 1065
 				color={ 200 197 226 }
@@ -2933,20 +2469,13 @@ e_maghrib = {
 				riffian = "Xnifra"
 				atlas = "Xnifra"
 				
-				b_mrirt = {
-				}
-				b_khunyfira = {
-				}
-				b_boumia = {
-				}
-				b_midelt = {
-				}
-				b_amalou_ighriben = {
-				}
-				b_ait_ishaq = {
-				}
-				b_aguelmous = {
-				}
+				b_mrirt = {}
+				b_khunyfira = {}
+				b_boumia = {}
+				b_midelt = {}
+				b_amalou_ighriben = {}
+				b_ait_ishaq = {}
+				b_aguelmous = {}
 			}
 			c_khuraybika = { # 1063
 				color={ 254 206 121 }
@@ -2958,32 +2487,19 @@ e_maghrib = {
 				riffian = "Xuribga"
 				atlas = "Xuribga"
 				
-				b_oued_zem = {
-				}
-				b_khuraybika = {
-				}
-				b_boujad = {
-				}
-				b_boujniba = {
-				}
-				b_boulanouare = {
-				}
-				b_hattane = {
-				}
-				b_oulad_abdoune = {
-				}
+				b_oued_zem = {}
+				b_khuraybika = {}
+				b_boujad = {}
+				b_boujniba = {}
+				b_boulanouare = {}
+				b_hattane = {}
+				b_oulad_abdoune = {}
 			}
 		}
 		d_dara_tafilalt = {
 			color={ 159 149 206 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1066 province_id = 1067 province_id = 1068 } }
-				}
-			}
 			capital = 1066 # c_warzazat
 				
 			kabyle = "Dra-Tafilalt"
@@ -3002,20 +2518,13 @@ e_maghrib = {
 				riffian = "Warzazat"
 				atlas = "Warzazat"
 				
-				b_tighremt_n_tawrirt = {
-				}
-				b_warzazat = {
-				}
-				b_tabounte = {
-				}
-				b_taznakht = {
-				}
-				b_skoura = {
-				}
-				b_imi_noulaoune = {
-				}
-				b_ouisselsate = {
-				}
+				b_tighremt_n_tawrirt = {}
+				b_warzazat = {}
+				b_tabounte = {}
+				b_taznakht = {}
+				b_skoura = {}
+				b_imi_noulaoune = {}
+				b_ouisselsate = {}
 			}
 			c_dara_dads = { # 1067
 				color={ 177 172 213 }
@@ -3027,20 +2536,13 @@ e_maghrib = {
 				riffian = "Dra-Dadss"
 				atlas = "Dra-Dadss"
 				
-				b_tinghir = {
-				}
-				b_zagora = {
-				}
-				b_kellaat_mgouna = {
-				}
-				b_boumalne_dades = {
-				}
-				b_agdz = {
-				}
-				b_alnif = {
-				}
-				b_tamegroute = {
-				}
+				b_tinghir = {}
+				b_zagora = {}
+				b_kellaat_mgouna = {}
+				b_boumalne_dades = {}
+				b_agdz = {}
+				b_alnif = {}
+				b_tamegroute = {}
 			}
 			c_qasr_al_suwk = { # 1068
 				color={ 178 221 193 }
@@ -3052,32 +2554,19 @@ e_maghrib = {
 				riffian = "Imetgharen"
 				atlas = "Imetgharen"
 				
-				b_errachidia = {
-				}
-				b_erfoud = {
-				}
-				b_moulay_ali_cherif = {
-				}
-				b_goulmima = {
-				}
-				b_jorf = {
-				}
-				b_boudnib = {
-				}
-				b_tinedjad = {
-				}
+				b_errachidia = {}
+				b_erfoud = {}
+				b_moulay_ali_cherif = {}
+				b_goulmima = {}
+				b_jorf = {}
+				b_boudnib = {}
+				b_tinedjad = {}
 			}
 		}
 		d_fas_maknas = {
 			color={ 201 237 131 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1057 province_id = 1058 province_id = 1059 province_id = 1060 province_id = 1061 } }
-				}
-			}
 			capital = 1057 # c_fas
 				
 			kabyle = "Fas-Meknas"
@@ -3090,39 +2579,25 @@ e_maghrib = {
 				color={ 211 227 136 }
 				color2={ 255 255 255 }
 				
-				b_mechouar_fas_jdid = {
-				}
-				b_jnan_el_ouard = {
-				}
-				b_al_qarawiyyin = {
-				}
-				b_moulay_yacoub = {
-				}
-				b_sefrou = {
-				}
-				b_el_mariniyine = {
-				}
-				b_saiss = {
-				}
+				b_mechouar_fas_jdid = {}
+				b_jnan_el_ouard = {}
+				b_al_qarawiyyin = {}
+				b_moulay_yacoub = {}
+				b_sefrou = {}
+				b_el_mariniyine = {}
+				b_saiss = {}
 			}
 			c_bulman = { # 1061
 				color={ 255 252 189 }
 				color2={ 255 255 255 }
 				
-				b_bulman = {
-				}
-				b_missour = {
-				}
-				b_guigou = {
-				}
-				b_outat_el_haj = {
-				}
-				b_imouzzer_marmoucha = {
-				}
-				b_fritissa = {
-				}
-				b_ksabi_moulouya = {
-				}
+				b_bulman = {}
+				b_missour = {}
+				b_guigou = {}
+				b_outat_el_haj = {}
+				b_imouzzer_marmoucha = {}
+				b_fritissa = {}
+				b_ksabi_moulouya = {}
 			}
 			c_miknas = { # 1060
 				color={ 251 211 211 }
@@ -3134,70 +2609,43 @@ e_maghrib = {
 				riffian = "Mknas"
 				atlas = "Mknas"
 				
-				b_dar_el_beida = {
-				}
-				b_miknas = {
-				}
-				b_ouislane = {
-				}
-				b_azrou = {
-				}
-				b_el_hajeb = {
-				}
-				b_ifrane = {
-				}
-				b_moulay_idriss = {
-				}
+				b_dar_el_beida = {}
+				b_miknas = {}
+				b_ouislane = {}
+				b_azrou = {}
+				b_el_hajeb = {}
+				b_ifrane = {}
+				b_moulay_idriss = {}
 			}
 			c_tawnat = { # 1058
 				color={ 254 250 203 }
 				color2={ 255 255 255 }
 				
-				b_tawnat = {
-				}
-				b_bouhouda = {
-				}
-				b_mkansa = {
-				}
-				b_ain_aicha = {
-				}
-				b_tamedit = {
-				}
-				b_jbabra = {
-				}
-				b_karia_ba_mohammed = {
-				}
+				b_tawnat = {}
+				b_bouhouda = {}
+				b_mkansa = {}
+				b_ain_aicha = {}
+				b_tamedit = {}
+				b_jbabra = {}
+				b_karia_ba_mohammed = {}
 			}
 			c_taza = { # 1059
 				color={ 204 231 212 }
 				color2={ 255 255 255 }
 				
-				b_taza = {
-				}
-				b_guercif = {
-				}
-				b_tahla = {
-				}
-				b_oulad_zbair = {
-				}
-				b_matmata = {
-				}
-				b_tainaste = {
-				}
-				b_zrarda = {
-				}
+				b_taza = {}
+				b_guercif = {}
+				b_tahla = {}
+				b_oulad_zbair = {}
+				b_matmata = {}
+				b_tainaste = {}
+				b_zrarda = {}
 			}
 		}
 		d_marrakish = {
 			color={ 221 219 163 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1045 province_id = 1046 province_id = 1047 province_id = 1048 } }
-				}
-			}
 			capital = 1045 # c_marrakish
 				
 			kabyle = "Merrakec"
@@ -3216,20 +2664,13 @@ e_maghrib = {
 				riffian = "Amurakuc"
 				atlas = "Amurakuc"
 				
-				b_mechouar_kasba = {
-				}
-				b_menara = {
-				}
-				b_gueliz = {
-				}
-				b_sidi_youssef_ben_ali = {
-				}
-				b_tamansourt = {
-				}
-				b_chichaoua = {
-				}
-				b_tahannaout = {
-				}
+				b_mechouar_kasba = {}
+				b_menara = {}
+				b_gueliz = {}
+				b_sidi_youssef_ben_ali = {}
+				b_tamansourt = {}
+				b_chichaoua = {}
+				b_tahannaout = {}
 			}
 			c_as_safi = { # 1047
 				color={ 207 227 155 }
@@ -3244,20 +2685,13 @@ e_maghrib = {
 				moroccan = "Asfi"
 				tunisian = "Asfi"
 				
-				b_dar_asultane = {
-				}
-				b_as_safi = {
-				}
-				b_jamaat_shaim = {
-				}
-				b_sebt_gzoula = {
-				}
-				b_bouguedra = {
-				}
-				b_el_gouraani = {
-				}
-				b_labkhati = {
-				}
+				b_dar_asultane = {}
+				b_as_safi = {}
+				b_jamaat_shaim = {}
+				b_sebt_gzoula = {}
+				b_bouguedra = {}
+				b_el_gouraani = {}
+				b_labkhati = {}
 			}
 			c_as_sawirah = { # 1046
 				color={ 253 232 231 }
@@ -3272,20 +2706,13 @@ e_maghrib = {
 				moroccan = "Sswira"
 				tunisian = "Sswira"
 				
-				b_sqala = {
-				}
-				b_as_sawirah = {
-				}
-				b_aquermoud = {
-				}
-				b_sidi_laaroussi = {
-				}
-				b_ounagha = {
-				}
-				b_takate = {
-				}
-				b_korimate = {
-				}
+				b_sqala = {}
+				b_as_sawirah = {}
+				b_aquermoud = {}
+				b_sidi_laaroussi = {}
+				b_ounagha = {}
+				b_takate = {}
+				b_korimate = {}
 			}
 			c_qalaat_as_sraghna = { # 1048
 				color={ 255 250 194 }
@@ -3297,32 +2724,19 @@ e_maghrib = {
 				riffian = "Qelâat Sraghna"
 				atlas = "Qelâat Sraghna"
 				
-				b_qalaat_as_sraghna = {
-				}
-				b_ben_guerir = {
-				}
-				b_laattaouia = {
-				}
-				b_sidi_bou_othmane = {
-				}
-				b_tamallalt = {
-				}
-				b_sidi_rahhal = {
-				}
-				b_assahrij = {
-				}
+				b_qalaat_as_sraghna = {}
+				b_ben_guerir = {}
+				b_laattaouia = {}
+				b_sidi_bou_othmane = {}
+				b_tamallalt = {}
+				b_sidi_rahhal = {}
+				b_assahrij = {}
 			}
 		}
 		d_reef = {
 			color={ 245 6 218 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1049 province_id = 1050 province_id = 1051 province_id = 1052 province_id = 1053 } }
-				}
-			}
 			capital = 1049 # c_tanja
 				
 			kabyle = "Arrif"
@@ -3335,20 +2749,13 @@ e_maghrib = {
 				color={ 255 252 223 }
 				color2={ 255 255 255 }
 				
-				b_tanja_medina = {
-				}
-				b_bni_makada = {
-				}
-				b_charf_mghogha = {
-				}
-				b_charf_souani = {
-				}
-				b_assilah = {
-				}
-				b_gueznaia = {
-				}
-				b_sidi_lyamani = {
-				}
+				b_tanja_medina = {}
+				b_bni_makada = {}
+				b_charf_mghogha = {}
+				b_charf_souani = {}
+				b_assilah = {}
+				b_gueznaia = {}
+				b_sidi_lyamani = {}
 			}
 			c_al_hasima = { # 1052
 				color={ 231 240 193 }
@@ -3360,20 +2767,13 @@ e_maghrib = {
 				riffian = "Tijdit"
 				atlas = "Tijdit"
 				
-				b_ajdir = {
-				}
-				b_al_hasima = {
-				}
-				b_targouist = {
-				}
-				b_imzouren = {
-				}
-				b_issaguen = {
-				}
-				b_tamassint = {
-				}
-				b_bni_hafida = {
-				}
+				b_ajdir = {}
+				b_al_hasima = {}
+				b_targouist = {}
+				b_imzouren = {}
+				b_issaguen = {}
+				b_tamassint = {}
+				b_bni_hafida = {}
 			}
 			c_al_naazur = { # 1053
 				color={ 255 235 176 }
@@ -3385,20 +2785,13 @@ e_maghrib = {
 				riffian = "Ennador"
 				atlas = "Ennador"
 				
-				b_ammas_n_temdint = {
-				}
-				b_ayt_mimun = {
-				}
-				b_driouch = {
-				}
-				b_al_aaroui = {
-				}
-				b_beni_ensar = {
-				}
-				b_zaio = {
-				}
-				b_ben_taieb = {
-				}
+				b_ammas_n_temdint = {}
+				b_ayt_mimun = {}
+				b_driouch = {}
+				b_al_aaroui = {}
+				b_beni_ensar = {}
+				b_zaio = {}
+				b_ben_taieb = {}
 			}
 			c_shafashawn = { # 1051
 				color={ 225 222 239 }
@@ -3410,20 +2803,13 @@ e_maghrib = {
 				riffian = "Ashawen"
 				atlas = "Ashawen"
 				
-				b_shawn = {
-				}
-				b_ouezzane = {
-				}
-				b_tiflet = {
-				}
-				b_zoumi = {
-				}
-				b_bab_berred = {
-				}
-				b_jebha = {
-				}
-				b_ain_dorij = {
-				}
+				b_shawn = {}
+				b_ouezzane = {}
+				b_tiflet = {}
+				b_zoumi = {}
+				b_bab_berred = {}
+				b_jebha = {}
+				b_ain_dorij = {}
 			}
 			c_tetwan = { # 1050
 				color={ 253 209 172 }
@@ -3435,32 +2821,19 @@ e_maghrib = {
 				riffian = "Tittawin"
 				atlas = "Tittawin"
 				
-				b_el_feddane = {
-				}
-				b_tetwan = {
-				}
-				b_oued_laou = {
-				}
-				b_mdiq = {
-				}
-				b_anjra = {
-				}
-				b_ksar_el_kebir = {
-				}
-				b_larache = {
-				}
+				b_el_feddane = {}
+				b_tetwan = {}
+				b_oued_laou = {}
+				b_mdiq = {}
+				b_anjra = {}
+				b_ksar_el_kebir = {}
+				b_larache = {}
 			}
 		}
 		d_sus_masa = {
 			color={ 244 229 176 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1069 province_id = 1070 province_id = 1071 } }
-				}
-			}
 			capital = 1069 # c_aghadir
 				
 			kabyle = "Sus-Masset"
@@ -3479,39 +2852,25 @@ e_maghrib = {
 				riffian = "Agadir"
 				atlas = "Agadir"
 				
-				b_talborjt = {
-				}
-				b_aghadir = {
-				}
-				b_ait_melloul = {
-				}
-				b_inezgane = {
-				}
-				b_dcheira_el_jihadia = {
-				}
-				b_taroudant = {
-				}
-				b_biougra = {
-				}
+				b_talborjt = {}
+				b_aghadir = {}
+				b_ait_melloul = {}
+				b_inezgane = {}
+				b_dcheira_el_jihadia = {}
+				b_taroudant = {}
+				b_biougra = {}
 			}
 			c_tata = { # 1071
 				color={ 253 188 134 }
 				color2={ 255 255 255 }
 				
-				b_tata = {
-				}
-				b_foum_zguid = {
-				}
-				b_akka = {
-				}
-				b_fam_el_hisn = {
-				}
-				b_tissint = {
-				}
-				b_allougoum = {
-				}
-				b_tamanarte = {
-				}
+				b_tata = {}
+				b_foum_zguid = {}
+				b_akka = {}
+				b_fam_el_hisn = {}
+				b_tissint = {}
+				b_allougoum = {}
+				b_tamanarte = {}
 			}
 			c_tazniyat = { # 1070
 				color={ 152 209 173 }
@@ -3523,20 +2882,13 @@ e_maghrib = {
 				riffian = "Tiznit"
 				atlas = "Tiznit"
 				
-				b_tafraout = {
-				}
-				b_tazniyat = {
-				}
-				b_sidi_ifni = {
-				}
-				b_lakhsas = {
-				}
-				b_tnine_aglou = {
-				}
-				b_reggada = {
-				}
-				b_arbaa_sahel = {
-				}
+				b_tafraout = {}
+				b_tazniyat = {}
+				b_sidi_ifni = {}
+				b_lakhsas = {}
+				b_tnine_aglou = {}
+				b_reggada = {}
+				b_arbaa_sahel = {}
 			}
 		}
 	}
