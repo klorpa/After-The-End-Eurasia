@@ -749,27 +749,85 @@ e_soyuz = {
 			}
 		}
 	}
-	k_chernozemnyl = {
-		color={ 180 180 180 }
+	k_chernozemye = {
+		color={ 100 90 110 }
 		color2={ 255 255 255 }
 		
 		capital = 830 #Voronezh
+		
+		ukraine = "Chornozem'ya"
+		
+		d_voronehz = {
+			color={ 89 115 105 }
+			color2={ 255 255 255 }
+		
+			capital = 830 #Voronezh
+			
+			c_voronehz = {
+				color={ 99 105 100 }
+				color2={ 255 255 255 }
 				
+				b_voronehz = {}
+				b_novovoronezh = {}
+				b_solnechnyy = {}
+				b_sanatoriy_im_tsyurupy = {}
+				b_latnaya = {}
+				b_novaya_usman = {}
+				b_semiluki = {}
+				b_kostyonki = {}
+			}
+			c_kursk = {
+				color={ 106 122 84 }
+				color2={ 255 255 255 }
+				
+				b_kursk = {}
+				b_marshala_zhukova = {}
+				b_zashchitnoye = {}
+				b_tim = {}
+				b_gorshechnoye = {}
+				b_besedino = {}
+				b_pryamitsyno = {}
+			}
+			c_pavlovsk = {
+				color={ 79 130 98 }
+				color2={ 255 255 255 }
+				
+				b_pavlovsk = {}
+				b_verkhniy_mamon = {}
+				b_kalach = {}
+				b_losevo = {}
+				b_buturlinovka = {}
+				b_petropavlovka = {}
+				b_krasnyy = {}
+			}
+			c_mikhaylovka = {
+				color={ 85 112 85 }
+				color2={ 255 255 255 }
+				
+				b_mikhaylovka = {}
+				b_archedinskaya = {}
+				b_novoanninsky = {}
+				b_sukhoy_log = {}
+				b_vyoshenskaya = {}
+				b_uryupinsk = {}
+				b_alexeyevskaya = {}
+			}
+		}
 	}
 	k_povolzhye = {
-		color={ 180 180 180 }
+		color={ 250 142 98 }
 		color2={ 255 255 255 }
 		
 		capital = 616 #Volgograd
 				
 		d_volgograd = {
-			color={ 180 180 180 }
+			color={ 246 168 22 }
 			color2={ 255 255 255 }
 		
 			capital = 616 #Volgograd
 			
 			c_volgograd = {
-				color={ 180 180 180 }
+				color={ 221 158 59 }
 				color2={ 255 255 255 }
 				
 				b_volgograd = {}
@@ -780,10 +838,34 @@ e_soyuz = {
 				b_nariman = {}
 				b_chervlenoye = {}
 			}
+			c_dubovka = {
+				color={ 234 198 79 }
+				color2={ 255 255 255 }
+				
+				b_dubovka = {}
+				b_frolovo = {}
+				b_kachalinskaya = {}
+				b_ilovlya = {}
+				b_vetyutnev = {}
+				b_gornyy_balykley = {}
+				b_suvodskaya = {}
+			}
+			c_kletskaya = {
+				color={ 189 154 55 }
+				color2={ 255 255 255 }
+				
+				b_kletskaya = {}
+				b_pyatiizbyanskiy = {}
+				b_surovikino = {}
+				b_perelazovskiy = {}
+				b_nizhniy_chir = {}
+				b_morskoy = {}
+				b_serafimovich = {}
+			}
 		}
 	}
 	k_ciscaucasia = {
-		color={ 68 184 124 }
+		color={ 251 184 124 }
 		color2={ 255 255 255 }
 		
 		capital = 908 #Krasnodar
