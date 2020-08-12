@@ -260,6 +260,46 @@ christian = {
 		religious_clothing_priest = 1
 		#intermarry = catholic
 	}
+	ultrajectine = {
+		graphical_culture = westerngfx
+
+		icon = 11
+		heresy_icon = 16
+		
+		color = { 0.8 0.7 0.6 }
+		
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		investiture = yes
+		can_have_antipopes = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		#intermarry = catholic
+	}
 	high_church = {
 		graphical_culture = westerngfx
 
@@ -328,35 +368,6 @@ christian = {
 		intermarry = lutheran
 		intermarry = high_church
 		intermarry = insular
-		intermarry = presbyterian
-	}
-	presbyterian = {
-		graphical_culture = westerngfx
-		
-		icon = 26
-		heresy_icon = 27
-		
-		color = { 0.02 0.32 0.62 }
-		
-		
-		
-		pacifist = yes # Makes the AI less likely to start wars, plots and factions
-		crusade_name = CRUSADE
-		can_grant_divorce = yes
-		can_call_crusade = no
-		priests_can_marry = yes
-		priests_can_inherit = yes
-		allow_rivermovement = yes
-		peace_piety_gain = 1.0 #Gains 1 extra piety per month while at peace
-		aggression = 0.5 # AI aggression factor
-		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-		
-		intermarry = lutheran
-		intermarry = high_church
-		intermarry = insular
-		intermarry = presbyterian
 	}
 	insular = {
 		graphical_culture = westerngfx
@@ -735,6 +746,7 @@ esoteric = {
 		religious_clothing_priest = 3
 		intermarry = high_thelema
 	}
+	
 	neuhumanist = { #placeholder
 		graphical_culture = hellenicgfx
 		secondary_event_pictures = westerngfx
@@ -797,9 +809,40 @@ esoteric = {
             GOD_MORGOTH
         }
 	}
+	sun_king_cultist = {
+		graphical_culture = westerngfx
+
+		icon = 11
+		heresy_icon = 16
+		
+		color = { 0.86 0.67 0 }
+		
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		
+		scripture_name = LES_LOIS_FONDAMENTALES
+		priest_title = PRIEST
+		
+		high_god_name = THE_SOLAR_GOD
+		
+		god_names = {
+			THE_SOLAR_GOD CHRIST_THE_KING THE_VIRGIN_QUEEN THE_MAID
+		}
+		
+		evil_god_names = {
+			THE_USURPER SATAN LUCIFER THE_DEVIL MARIANNE
+		}
+		
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		#intermarry = catholic
+	}
 }
-
-
 
 muslim = {
 	has_coa_on_barony_only = yes
@@ -1008,7 +1051,7 @@ old_world_cultist_group = {
 		icon = 4
 		heresy_icon = 5
 		
-		color = { 0.3 0.3 0.8 }
+		color = { 0 0.25 0.85 }
 		
 		interface_skin = { americanist_interface oldworld_interface }
 
