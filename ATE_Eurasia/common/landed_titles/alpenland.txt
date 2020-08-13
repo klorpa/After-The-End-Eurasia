@@ -330,9 +330,17 @@ e_alpenland = {
 				color={ 84 90 114 }
 				color2={ 255 255 255 }
 
-				b_schweinfurt = {}
-				b_wurzburg = {}
-				b_bad_kissingen = {}
+				 czech="Vicpurk"
+
+				b_schweinfurt = {
+					czech="Svinibrod"
+				}
+				b_wurzburg = {
+					czech="Vicpurk"
+				}
+				b_bad_kissingen = {
+					czech="Chýžice"
+				}
 				b_kitzingen = {}
 				b_karlstadt_am_main = {}
 				b_hassfurt = {}
@@ -345,18 +353,23 @@ e_alpenland = {
 				walloon="Baireut"
 				chti="Baireut"
 				parisian="Baireut"
+				czech="Barout"
 
 				b_coburg = {
 					walloon="Cobourg"
 					chti="Cobourg"
 					parisian="Cobourg"
+					czech="Koburk"
 				}
 				b_bayreuth = {
 					walloon="Baireut"
 					chti="Baireut"
 					parisian="Baireut"
+					czech="Barout"
 				}
-				b_bamberg = {}
+				b_bamberg = {
+					czech="Bamberk"
+				}
 				b_hof = {}
 				b_lichtenfels = {}
 				b_kronach = {}
@@ -374,6 +387,7 @@ e_alpenland = {
 				swabian="Nürnberg"
 				austrian="Nürnberg"
 				schwyzer="Nürnberg"
+				czech="Norimberk"
 
 				b_ansbach = {}
 				b_nuremberg = {
@@ -385,9 +399,14 @@ e_alpenland = {
 					swabian="Nürnberg"
 					austrian="Nürnberg"
 					schwyzer="Nürnberg"
+					czech="Norimberk"
 				}
-				b_erlangen = {}
-				b_furth = {}
+				b_erlangen = {
+					czech="Erlanky"
+				}
+				b_furth = {
+					czech="Brod"
+				}
 				b_schwabach = {}
 				b_nordlingen = {}
 				b_herzogenaurach = {}
@@ -415,7 +434,9 @@ e_alpenland = {
 				color={ 36 140 148 }
 				color2={ 255 255 255 }
 
-				b_neustadt_an_der_waldnaab = {}
+				b_neustadt_an_der_waldnaab = {
+					czech="Nové Mesto nad Nábou"
+				}
 				b_weiden_in_der_oberpfalz = {}
 				b_amberg = {}
 				b_neumarkt_in_der_oberpfalz = {}
@@ -427,9 +448,15 @@ e_alpenland = {
 				color={ 1 204 220 }
 				color2={ 255 255 255 }
 
+				czech="Rezno"
+
 				b_schwandorf = {}
-				b_regensburg = {}
-				b_cham = {}
+				b_regensburg = {
+					czech="Rezno"
+				}
+				b_cham = {
+					czech="Kouba"
+				}
 				b_burglegenfeld = {}
 				b_regenstauf = {}
 				b_hemau = {}
@@ -458,10 +485,14 @@ e_alpenland = {
 				color={ 42 18 208 }
 				color2={ 255 255 255 }
 
-				b_regen = {}
+				b_regen = {
+					czech="Rezen"
+				}
 				b_deggendorf = {}
 				b_bogen = {}
-				b_zwiesel = {}
+				b_zwiesel = {
+					czech="Svízel"
+				}
 				b_viechtach = {}
 				b_freyung = {}
 				b_grafenau = {}
@@ -470,8 +501,12 @@ e_alpenland = {
 				color={ 84 63 151 }
 				color2={ 255 255 255 }
 
+				czech="Pasov"
+
 				b_vilshofen_an_der_donau = {}
-				b_passau = {}
+				b_passau = {
+					czech="Pasov"
+				}
 				b_pocking = {}
 				b_osterhofen = {}
 				b_bad_griesbach = {}
@@ -484,7 +519,9 @@ e_alpenland = {
 
 				b_ergolding = {}
 				b_landshut = {}
-				b_straubing = {}
+				b_straubing = {
+					czech="Štrubina"
+				}
 				b_dingolfing = {}
 				b_geiselhoring = {}
 				b_landau_an_der_isar = {}
@@ -533,6 +570,7 @@ e_alpenland = {
 				swabian="München"
 				austrian="München"
 				schwyzer="München"
+				czech="Mnichov"
 
 				b_dachau = {}
 				b_munich = {
@@ -544,6 +582,7 @@ e_alpenland = {
 					swabian="München"
 					austrian="München"
 					schwyzer="München"
+					czech="Mnichov"
 				}
 				b_erding = {}
 				b_freising = {}
@@ -647,6 +686,13 @@ e_alpenland = {
 				chti="Genève"
 				parisian="Genève"
 				romansh="Genevra"
+				neapolitan="Ginevra"
+				umbrian="Ginevra"
+				tuscan="Ginevra"
+				sicilian="Ginevra"
+				venetian="Ginevra"
+				slovene="Ženeva"
+				czech="Ženeva"
 
 				b_geneva = {}
 				b_geneva1 = {}
@@ -690,6 +736,11 @@ e_alpenland = {
 				austrian="Neuenburg"
 				schwyzer="Neuenburg"
 				romansh="Neufchâtel"
+				neapolitan="Neocastello"
+				umbrian="Neocastello"
+				tuscan="Neocastello"
+				sicilian="Neocastello"
+				venetian="Neocastello"
 
 				b_neuchatel = {}
 				b_neuchatel1 = {}
@@ -711,6 +762,11 @@ e_alpenland = {
 				swabian="Wallis"
 				austrian="Wallis"
 				schwyzer="Wallis"
+				neapolitan="Vallese"
+				umbrian="Vallese"
+				tuscan="Vallese"
+				sicilian="Vallese"
+				venetian="Vallese"
 
 				b_lower_valais = {}
 				b_lower_valais1 = {}
@@ -743,6 +799,12 @@ e_alpenland = {
 				chti="Bâle"
 				parisian="Bâle"
 				romansh="Basilea"
+				neapolitan="Basilea"
+				umbrian="Basilea"
+				tuscan="Basilea"
+				sicilian="Basilea"
+				venetian="Basilea"
+				czech="Basilej"
 
 				b_basel = {}
 				b_basel1 = {}
@@ -765,6 +827,13 @@ e_alpenland = {
 				austrian="Luzern"
 				schwyzer="Luzern"
 				romansh="Lucerna"
+				neapolitan="Lucerna"
+				umbrian="Lucerna"
+				tuscan="Lucerna"
+				sicilian="Lucerna"
+				venetian="Lucerna"
+				slovene="Lucern"
+				czech="Loucern"
 
 				b_aargau = {}
 				b_aargau1 = {}
@@ -790,6 +859,11 @@ e_alpenland = {
 				chti="Berne"
 				parisian="Berne"
 				romansh="Berna"
+				neapolitan="Berna"
+				umbrian="Berna"
+				tuscan="Berna"
+				sicilian="Berna"
+				venetian="Berna"
 
 				b_bern = {}
 				b_bern1 = {}
@@ -811,6 +885,12 @@ e_alpenland = {
 				color2={ 255 255 255 }
 
 				romansh="Turtig"
+				neapolitan="Zurigo"
+				umbrian="Zurigo"
+				tuscan="Zurigo"
+				sicilian="Zurigo"
+				venetian="Zurigo"
+				czech="Curych"
 
 				b_zurich = {}
 				b_zurich1 = {}
@@ -827,6 +907,11 @@ e_alpenland = {
 				walloon="Zoug"
 				chti="Zoug"
 				parisian="Zoug"
+				neapolitan="Zugo"
+				umbrian="Zugo"
+				tuscan="Zugo"
+				sicilian="Zugo"
+				venetian="Zugo"
 
 				b_schwyz = {}
 				b_schwyz1 = {}
@@ -844,6 +929,12 @@ e_alpenland = {
 				chti="Saint-Gall"
 				parisian="Saint-Gall"
 				romansh="Son Gagl"
+				neapolitan="San Gallo"
+				umbrian="San Gallo"
+				tuscan="San Gallo"
+				sicilian="San Gallo"
+				venetian="San Gallo"
+				czech="Svatý Havel"
 
 				b_st_gallen = {}
 				b_st_gallen1 = {}
@@ -897,6 +988,11 @@ e_alpenland = {
 				austrian="Graubünden"
 				schwyzer="Graubünden"
 				romansh="Grischun"
+				neapolitan="Grigioni"
+				umbrian="Grigioni"
+				tuscan="Grigioni"
+				sicilian="Grigioni"
+				venetian="Grigioni"
 
 				b_grisons = {}
 				b_grisons1 = {}
@@ -942,6 +1038,8 @@ e_alpenland = {
 		walloon="Autriche"
 		chti="Autriche"
 		parisian="Autriche"
+		slovene="Avstrija"
+		czech="Rakousko"
 
 		capital = 449
 		
@@ -957,6 +1055,11 @@ e_alpenland = {
 			swabian="Tirol"
 			austrian="Tirol"
 			schwyzer="Tirol"
+			neapolitan="Tirolo"
+			umbrian="Tirolo"
+			tuscan="Tirolo"
+			sicilian="Tirolo"
+			venetian="Tirolo"
 			
 			capital = 580 #Tyrol
 			
@@ -989,8 +1092,21 @@ e_alpenland = {
 				swabian="Tirol"
 				austrian="Tirol"
 				schwyzer="Tirol"
+				neapolitan="Tirolo"
+				umbrian="Tirolo"
+				tuscan="Tirolo"
+				sicilian="Tirolo"
+				venetian="Tirolo"
 
-				b_innsbruck = {}
+				b_innsbruck = {	
+					neapolitan="Enoponte"
+					umbrian="Enoponte"
+					tuscan="Enoponte"
+					sicilian="Enoponte"
+					venetian="Enoponte"
+					slovene="Inomost"
+					czech="Inšpruk"	
+				}
 				b_trento = {}
 				b_bolzano = {}
 				b_merano = {}
@@ -1022,8 +1138,24 @@ e_alpenland = {
 			c_salzburg = {
 				color={ 163 6 20 }
 				color2={ 255 255 255 }
+				
+				neapolitan="Salisburgo"
+				umbrian="Salisburgo"
+				tuscan="Salisburgo"
+				sicilian="Salisburgo"
+				venetian="Salisburgo"
+				slovene="Solnograd"
+				czech="Salcburk"
 
-				b_salzburg = {}
+				b_salzburg = {
+					neapolitan="Salisburgo"
+					umbrian="Salisburgo"
+					tuscan="Salisburgo"
+					sicilian="Salisburgo"
+					venetian="Salisburgo"
+					slovene="Solnograd"
+					czech="Salcburk"
+				}
 				b_hallein = {}
 				b_salfeden = {}
 				b_st_johann_im_pongau = {}
@@ -1035,7 +1167,19 @@ e_alpenland = {
 				color={ 151 17 28 }
 				color2={ 255 255 255 }
 
-				b_lienz = {}
+				neapolitan="Agonto"
+				umbrian="Agonto"
+				tuscan="Agonto"
+				sicilian="Agonto"
+				venetian="Agonto"
+
+				b_lienz = {
+					neapolitan="Agonto"
+					umbrian="Agonto"
+					tuscan="Agonto"
+					sicilian="Agonto"
+					venetian="Agonto"
+				}
 				b_matrei_in_osttirol = {}
 				b_nubdorf_debant = {}
 				b_virgen = {}
@@ -1059,6 +1203,7 @@ e_alpenland = {
 			walloon="Styrie"
 			chti="Styrie"
 			parisian="Styrie"
+			slovene="Štajerska"
 			
 			capital = 586 #Styria
 			
@@ -1074,12 +1219,37 @@ e_alpenland = {
 				swabian="Kärnten"
 				austrian="Kärnten"
 				schwyzer="Kärnten"
+				neapolitan="Carinzia"
+				umbrian="Carinzia"
+				tuscan="Carinzia"
+				sicilian="Carinzia"
+				venetian="Carinzia"
+				slovene="Koroška"
+				slovene="Korutany"
 
-				b_klagenfurt = {}
-				b_villach = {}
-				b_spittal_an_der_drau = {}
-				b_sankt_veit_an_der_glan = {}
-				b_volkermarkt = {}
+				b_klagenfurt = {
+					slovene="Celovec"
+					czech="Celovec"
+				}
+				b_villach = {
+					neapolitan="Villaco"
+					umbrian="Villaco"
+					tuscan="Villaco"
+					sicilian="Villaco"
+					venetian="Villaco"
+					slovene="Beljak"
+					czech="Belák"
+				}
+				b_spittal_an_der_drau = {
+					czech="Špitál nad Drávou"
+				}
+				b_sankt_veit_an_der_glan = {
+					slovene="Šent Vid na Glini"
+				}
+				b_volkermarkt = {
+					slovene="Velikovec"
+					czech="Velikovec"
+				}
 				b_eberndorf = {}
 				b_bruckl = {}
 			}
@@ -1089,7 +1259,10 @@ e_alpenland = {
 
 				b_leoben = {}
 				b_kapfenberg = {}
-				b_bruckandermur = {}
+				b_bruckandermur = {
+					slovene="Most na Muri"
+					czech="Most nad Murou"
+				}
 				b_knittelfeld = {}
 				b_trofaiach = {}
 				b_judenburg = {}
@@ -1099,8 +1272,17 @@ e_alpenland = {
 				color={ 203 80 91 }
 				color2={ 255 255 255 }
 
-				b_graz = {}
-				b_leibnitz = {}
+				slovene="Gradec"
+				czech="Štýrský Hradec"
+
+				b_graz = {
+					slovene="Gradec"
+					czech="Štýrský Hradec"
+				}
+				b_leibnitz = {
+					slovene="Lipnica"
+					czech="Lipnice"
+				}
 				b_weiz = {}
 				b_deutschlandsberg = {}
 				b_voitsberg = {}
@@ -1123,6 +1305,8 @@ e_alpenland = {
 			walloon="Autriche"
 			chti="Autriche"
 			parisian="Autriche"
+			slovene="Avstrija"
+			czech="Rakousko"
 			
 			capital = 589 #Vienna
 			
@@ -1138,12 +1322,19 @@ e_alpenland = {
 				swabian="Oberösterreich"
 				austrian="Oberösterreich"
 				schwyzer="Oberösterreich"
+				czech="Horní Rakousy"
 
-				b_linz = {}
-				b_steyr = {}
+				b_linz = {
+					czech="Linec"
+				}
+				b_steyr = {
+					czech="Štýr"
+				}
 				b_wels = {}
 				b_leonding = {}
-				b_braunau_am_inn = {}
+				b_braunau_am_inn = {
+					czech="Brunov"
+				}
 				b_laakirchen = {}
 				b_bad_ischl = {}
 			}
@@ -1152,20 +1343,34 @@ e_alpenland = {
 				color2={ 255 255 255 }
 			
 				b_hollabrun = {}
-				b_krems_an_der_donau = {}
-				b_horn = {}
+				b_krems_an_der_donau = {
+					czech="Kremže"
+				}
+				b_horn = {
+					czech="Rohy"
+				}
 				b_korneuburg = {}
 				b_mistelbach_an_der_zaya = {}
-				b_eggenburg = {}
+				b_eggenburg = {
+					czech="Eggenburk"
+				}
 				b_ganserndorf = {}
 			}
 			c_burgenland = {
 				color={ 197 90 100 }
 				color2={ 255 255 255 }
+
+				slovene="Gradišcanska"
+				czech="Hradsko"
 			
 				b_rust = {}
-				b_eisenstadt = {}
-				b_neusiedl_am_see = {}
+				b_eisenstadt = {
+					slovene="Železno"
+					czech="Železné Mesto"
+				}
+				b_neusiedl_am_see = {
+					czech="Nezider"
+				}
 				b_mattersburg = {}
 				b_oberpullendorf = {}
 				b_gussing = {}
@@ -1186,9 +1391,17 @@ e_alpenland = {
 				walloon="Vienne"
 				chti="Vienne"
 				parisian="Vienne"
+				slovene="Dunaj"
+				czech="Víden"
 			
-				b_wiener_neustadt = {}
-				b_vienna = {}
+				b_wiener_neustadt = {
+					slovene="Dunajsko Novo Mesto"
+					czech="Vídenské Nové Mesto"
+				}
+				b_vienna = {
+					slovene="Dunaj"
+					czech="Víden"
+				}
 				b_schwechat = {}
 				b_baden_bei_wien = {}
 				b_klosterneuburg = {}
@@ -1198,23 +1411,37 @@ e_alpenland = {
 			c_sankt_polten = {
 				color={ 216 135 44 }
 				color2={ 255 255 255 }
+
+				czech="Svatý Hippolyt"
 			
 				b_amstetten = {}
-				b_sankt_polten = {}
-				b_waidhofen_an_der_ybbs = {}
+				b_sankt_polten = {
+					czech="Svatý Hippolyt"
+				}
+				b_waidhofen_an_der_ybbs = {
+					czech="Bejdov nad Jivici"
+				}
 				b_neulengbach = {}
 				b_herzogenburg = {}
 				b_wieselburg = {}
-				b_ybbs_an_der_donau = {}
+				b_ybbs_an_der_donau = {
+					czech="Jivici nad Dunaj"
+				}
 			}
 			c_urfahr = {
 				color={ 149 142 213 }
 				color2={ 255 255 255 }
 			
-				b_zwettl = {}
+				b_zwettl = {
+					czech="Svetlá"
+				}
 				b_urfahr = {}
-				b_freistadt = {}
-				b_gmund = {}
+				b_freistadt = {
+					czech="Cáchlav"
+				}
+				b_gmund = {
+					czech="Cmunt"
+				}
 				b_perg = {}
 				b_steyregg = {}
 				b_bad_leonfelden = {}
