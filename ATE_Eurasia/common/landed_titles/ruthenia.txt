@@ -42,18 +42,6 @@ e_ruthenia = {
 				b_yahotyn = {}
 				b_zhurivka = {}
 			}
-			c_prypyat = {
-				color={ 197 189 59 }
-				color2={ 255 255 255 }
-				
-				b_prypyat = {}
-				b_chornobyl = {}
-				b_ivankiv = {}
-				b_poliske = {}
-				b_dytyatky = {}
-				b_strakholissya = {}
-				b_veresnya = {}
-			}
 			c_bila_tserkva = {
 				color={ 210 202 95 }
 				color2={ 255 255 255 }
@@ -127,75 +115,6 @@ e_ruthenia = {
 				b_ripky = {}
 				b_mena = {}
 				b_horodnya = {}
-			}
-		}
-		d_volyn = {
-			color={ 195 154 70 }
-			color2={ 255 255 255 }
-		
-			capital = 887 #Lutsk
-			
-			c_lutsk = {
-				color={ 221 225 142 }
-				color2={ 255 255 255 }
-				
-				b_lutsk = {}
-				b_novovolynsk = {}
-				b_volodymyr_volynsky = {}
-				b_kivertsi = {}
-				b_rozhyshche = {}
-				b_horokhiv = {}
-				b_zaturtsi = {}
-				b_pidhaitsi = {}
-				b_derno = {}
-			}
-			c_rivne = {
-				color={ 200 180 54 }
-				color2={ 255 255 255 }
-				
-				b_rivne = {}
-				b_mlyniv = {}
-				b_dubno = {}
-				b_klevan = {}
-				b_kostopil = {}
-				b_korets = {}
-				b_ostroh = {}
-			}
-			c_kovel = {
-				color={ 243 158 121 }
-				color2={ 255 255 255 }
-				
-				b_kovel = {}
-				b_ratne = {}
-				b_lyuboml = {}
-				b_manevychi = {}
-				b_kamin_kashyrskyi = {}
-				b_svityaz = {}
-				b_lyubeshiv = {}
-			}
-			c_sarny = {
-				color={ 181 170 74 }
-				color2={ 255 255 255 }
-				
-				b_sarny = {}
-				b_varash = {}
-				b_zarichne = {}
-				b_sernyky = {}
-				b_klesiv = {}
-				b_dubrovytsya = {}
-				b_berezove = {}
-			}
-			c_shepetivka = {
-				color={ 221 225 142 }
-				color2={ 255 255 255 }
-				
-				b_shepetivka = {}
-				b_slavuta = {}
-				b_izyaslav = {}
-				b_polonne = {}
-				b_mykhailyuchka = {}
-				b_netishyn = {}
-				b_pluzhne = {}
 			}
 		}
 	}
@@ -1092,35 +1011,104 @@ e_ruthenia = {
 				b_yaremche = {}
 			}
 		}
-		d_krakow = {
-			color={ 150 80 20 }
+		d_volyn = {
+			color={ 195 154 70 }
+			color2={ 255 255 255 }
+		
+			capital = 887 #Lutsk
+			
+			c_lutsk = {
+				color={ 221 225 142 }
+				color2={ 255 255 255 }
+				
+				b_lutsk = {}
+				b_novovolynsk = {}
+				b_volodymyr_volynsky = {}
+				b_kivertsi = {}
+				b_rozhyshche = {}
+				b_horokhiv = {}
+				b_zaturtsi = {}
+				b_pidhaitsi = {}
+				b_derno = {}
+			}
+			c_rivne = {
+				color={ 200 180 54 }
+				color2={ 255 255 255 }
+				
+				b_rivne = {}
+				b_mlyniv = {}
+				b_dubno = {}
+				b_klevan = {}
+				b_kostopil = {}
+				b_korets = {}
+				b_ostroh = {}
+			}
+			c_kovel = {
+				color={ 243 158 121 }
+				color2={ 255 255 255 }
+				
+				b_kovel = {}
+				b_ratne = {}
+				b_lyuboml = {}
+				b_manevychi = {}
+				b_kamin_kashyrskyi = {}
+				b_svityaz = {}
+				b_lyubeshiv = {}
+			}
+			c_sarny = {
+				color={ 181 170 74 }
+				color2={ 255 255 255 }
+				
+				b_sarny = {}
+				b_varash = {}
+				b_zarichne = {}
+				b_sernyky = {}
+				b_klesiv = {}
+				b_dubrovytsya = {}
+				b_berezove = {}
+			}
+			c_shepetivka = {
+				color={ 221 225 142 }
+				color2={ 255 255 255 }
+				
+				b_shepetivka = {}
+				b_slavuta = {}
+				b_izyaslav = {}
+				b_polonne = {}
+				b_mykhailyuchka = {}
+				b_netishyn = {}
+				b_pluzhne = {}
+			}
+		}
+		d_subcarpathia = {
+			color={ 247 170 119 }
 			color2={ 255 255 255 }
 		
 			capital = 1335 #Krakow
 			
-			c_krakow = {
-				color={ 224 100 120 }
-				color2={ 255 255 255 }
-				
-				b_krakow = {}
-				b_brzesko = {}
-				b_skawina = {}
-				b_wieliczka = {}
-				b_oswiecim = {}
-				b_tarnow = {}
-				b_bochnia = {}
-			}
-			c_subcarpathia = {
+			c_rzeszow = {
 				color={ 250 140 130 }
 				color2={ 255 255 255 }
 				
-				b_rzeszow = {}
-				b_przemysl = {}
-				b_krosno = {}
 				b_stalowa_wola = {}
-				b_lancut = {}
+				b_rzeszow = {}
+				b_mielec = {}
+				b_tarnobrzeg = {}
 				b_debica = {}
 				b_jaroslaw = {}
+				b_lancut = {}
+			}
+			c_przemysl = {
+				color={ 243 202 108 }
+				color2={ 255 255 255 }
+				
+				b_krosno = {}
+				b_przemysl = {}
+				b_sanok = {}
+				b_jaslo = {}
+				b_ustrzyki_dolne = {}
+				b_brzozow = {}
+				b_dynow = {}
 			}
 		}
 	}
