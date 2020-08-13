@@ -781,13 +781,13 @@ e_italy = {
 				}
 			}
 		}
-	d_emilia_romagna = {
-		color={ 225 180 180 }
+	d_romagna = {
+		color={ 220 185 180 }
 		color2={ 255 255 255 }
 			
-		capital = 322 # Modena
+		capital = 1139 # Ravenna
 
-		romagnol="Emélia-Rumâgna"
+		romagnol="Rumâgna"
 			
 		c_parma = {
 			color={ 33 58 6 }
@@ -796,7 +796,7 @@ e_italy = {
 			romagnol="Pärma"
 			
 			b_piacenza = {
-				romagnol="Pia?ëinsa"
+				romagnol="Piacëinsa"
 			}
 			b_fidenza = {
 				romagnol="Fidénsa"
@@ -873,34 +873,6 @@ e_italy = {
 				romagnol="Castèl San Pîr"
 			}
 		}
-		c_ravenna = {
-			color={ 97 159 72 }
-			color2={ 255 255 255 }
-
-			romagnol="Ravèna"
-				
-			b_faenza = {
-				romagnol="Fènza"
-			}
-			b_lugo = {
-				romagnol="Lùgh"
-			}
-			b_ravenna = {
-				romagnol="Ravèna"
-			}
-			b_cervia = {
-				romagnol="Zirvia"
-			}
-			b_bagnacavallo = {
-				romagnol="Bagnacavàl"
-			}
-			b_russi = {
-				romagnol="Ròss"
-			}
-			b_alfonsine = {
-				romagnol="Agl'infulsèn"
-			}
-		}
 		c_ferrara = {
 			color={ 170 208 173 }
 			color2={ 255 255 255 }
@@ -927,6 +899,15 @@ e_italy = {
 			}
 			b_riva_del_po = {}
 		}
+	}
+	d_emilia = {
+		color={ 225 180 175 }
+		color2={ 255 255 255 }
+			
+		capital = 322 # Modena
+
+		romagnol="Emélia"
+		
 		c_rimini = {
 			color={ 97 170 67 }
 			color2={ 255 255 255 }
@@ -953,6 +934,34 @@ e_italy = {
 			}
 			b_san_mauro_pascoli = {
 				romagnol="San Mevar"
+			}
+		}
+		c_ravenna = {
+			color={ 97 159 72 }
+			color2={ 255 255 255 }
+
+			romagnol="Ravèna"
+				
+			b_faenza = {
+				romagnol="Fènza"
+			}
+			b_lugo = {
+				romagnol="Lùgh"
+			}
+			b_ravenna = {
+				romagnol="Ravèna"
+			}
+			b_cervia = {
+				romagnol="Zirvia"
+			}
+			b_bagnacavallo = {
+				romagnol="Bagnacavàl"
+			}
+			b_russi = {
+				romagnol="Ròss"
+			}
+			b_alfonsine = {
+				romagnol="Agl'infulsèn"
 			}
 		}
 	}

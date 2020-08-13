@@ -340,7 +340,7 @@
 	2700.1.1={death=yes}
 }
 1861020={
-	name="PÃ¡draig" 
+	name="Pádraig" 
 	dynasty=1501028 #O'Keiran
 	culture=irish
 	religion=catholic
@@ -481,7 +481,7 @@
 	2700.1.1={death=yes}
 }
 1861025={
-	name="JoÅ¾e" 
+	name="Jože" 
 	dynasty=2002126 #Zibert
 	culture=slovene
 	religion=catholic
@@ -507,5 +507,186 @@
 	trait=arbitrary
 	trait=tough_soldier
 	2641.9.8={birth=yes}
+	2700.1.1={death=yes}
+}
+2032000={
+	name="Gianfranco" 
+	dynasty=2032259 #Alberoni
+	culture=romagnol
+	religion=catholic
+	trait=elusive_shadow
+	trait=hunter
+	trait=erudite
+	trait=proud
+	trait=honorable
+	2629.6.2={birth=yes}
+	2700.1.1={death=yes}
+}
+2032001={
+	name="Renato" 
+	dynasty=2032238 #Villa
+	culture=romagnol
+	religion=catholic
+	trait=tough_soldier
+	trait=mystic
+	trait=just
+	trait=chaste
+	trait=brave
+	trait=trusting
+	2641.1.4={birth=yes}
+	2657.6.2={
+		add_spouse=2032002
+	}
+	2700.1.1={death=yes}
+}
+2032002={
+	name="Giosetta"
+	female=yes
+	dynasty=2032122 #Vecchi
+	culture=romagnol
+	religion=catholic
+	martial=3
+	diplomacy=4
+	stewardship=4
+	intrigue=5
+	learning=3
+	trait=fortune_builder
+	trait=craven
+	trait=temperate
+	trait=chaste
+	trait=shy
+	2641.2.1={birth=yes}
+	2700.1.1={death=yes}
+}
+2032003={
+	name="Antonietta"
+	female=yes
+	dynasty=2032238 #Villa
+	culture=romagnol
+	religion=catholic
+	martial=3
+	diplomacy=1
+	stewardship=1
+	intrigue=2
+	learning=3
+	trait=playful
+	trait=willful
+	father=2032001
+	mother=2032002
+	2658.2.21={birth=yes}
+	2700.1.1={death=yes}
+}
+2032004={
+	name="Orsino"
+	dynasty=2032238 #Villa
+	culture=romagnol
+	religion=catholic
+	martial=1
+	diplomacy=3
+	stewardship=1
+	intrigue=2
+	learning=1
+	trait=haughty 
+	trait=willful
+	father=2032001
+	mother=2032002
+	2659.1.15={birth=yes}
+	2700.1.1={death=yes}
+}
+2033000={
+	name="Lorenço"
+	dynasty=2033228 #Delle Piane
+	culture=ligurian
+	religion=catholic
+	martial=4
+	diplomacy=4
+	stewardship=4
+	intrigue=5
+	learning=4
+	trait=grey_eminence 
+	trait=honorable
+	trait=cynical
+	trait=brave
+	trait=honest
+	2628.11.17={birth=yes}
+	2653.8.12={
+		add_spouse=2033001
+	}
+	2700.1.1={death=yes}
+}
+2033001={
+	name="Brigidin"
+	female=yes
+	dynasty=2033114 #Olivari
+	culture=ligurian
+	religion=catholic
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=5
+	learning=4
+	trait=naive_appeaser 
+	trait=paranoid
+	trait=selfish
+	trait=rude
+	trait=honorable
+	2631.3.1={birth=yes}
+	2700.1.1={death=yes}
+}
+2032002={
+	name="Alescio"
+	dynasty=2033228 #Delle Piane
+	culture=ligurian
+	religion=catholic
+	martial=1
+	diplomacy=3
+	stewardship=3
+	intrigue=2
+	learning=1
+	trait=playful 
+	trait=haughty
+	trait=idolizer
+	trait=willful
+	father=2033000
+	mother=2033001
+	2653.3.20={birth=yes}
+	2700.1.1={death=yes}
+}
+2032003={
+	name="Lusciandro"
+	dynasty=2033228 #Delle Piane
+	culture=ligurian
+	religion=catholic
+	martial=1
+	diplomacy=3
+	stewardship=3
+	intrigue=2
+	learning=1
+	trait=playful 
+	trait=affectionate
+	trait=rowdy
+	trait=willful
+	father=2033000
+	mother=2033001
+	2654.8.12={birth=yes}
+	2700.1.1={death=yes}
+}
+2032003={
+	name="Bianchin"
+	female=yes
+	dynasty=2033228 #Delle Piane
+	culture=ligurian
+	religion=catholic
+	martial=1
+	diplomacy=4
+	stewardship=4
+	intrigue=2
+	learning=1
+	trait=idolizer
+	trait=affectionate
+	trait=willful
+	father=2033000
+	mother=2033001
+	2655.2.28={birth=yes}
 	2700.1.1={death=yes}
 }
