@@ -541,11 +541,11 @@ e_intermarium = {
 			
 			capital = 1037 #Praha
 			
-			c_praha = {
+			c_prague = {
 				color={ 159 102 55 }
 				color2={ 255 255 255 }
 
-				b_praha = {}
+				b_prague = {}
 				b_zlicin = {}
 				b_horomerice = {}
 				b_sterboholy = {}
@@ -553,7 +553,7 @@ e_intermarium = {
 				b_neratovice = {}
 				b_libeznice = {}
 			}
-			c_karlovarsky = {
+			c_karlovy_vary = {
 				color={ 177 121 33 }
 				color2={ 255 255 255 }
 
@@ -565,7 +565,7 @@ e_intermarium = {
 				b_jachymov = {}
 				b_habartov = {}
 			}
-			c_ustecky = {
+			c_usti = {
 				color={ 133 92 30 }
 				color2={ 255 255 255 }
 
@@ -589,11 +589,11 @@ e_intermarium = {
 				b_bor = {}
 				b_prestice = {}
 			}
-			c_jihocesky = {
+			c_south_bohemia = {
 				color={ 157 92 44 }
 				color2={ 255 255 255 }
 
-				b_ceske = {}
+				b_ceske_budejovice = {}
 				b_pisek = {}
 				b_strakonice = {}
 				b_hluboka = {}
@@ -602,7 +602,7 @@ e_intermarium = {
 				b_temelin = {}
 				
 			}
-			c_stredocesky = {
+			c_middle_bohemia = {
 				color={ 177 102 76 }
 				color2={ 255 255 255 }
 
@@ -622,7 +622,7 @@ e_intermarium = {
 			
 			capital = 1025 #Moravskoslezsky
 			
-			c_moravskoslezsky = {
+			c_ostrava = {
 				color={ 233 143 77 }
 				color2={ 255 255 255 }
 
@@ -634,7 +634,7 @@ e_intermarium = {
 				b_mosnov = {}
 				b_havirov = {}
 			}
-			c_olomoucky = {
+			c_olomouc = {
 				color={ 222 155 112 }
 				color2={ 255 255 255 }
 
@@ -646,7 +646,7 @@ e_intermarium = {
 				b_hranice = {}
 				b_unicov = {}
 			}
-			c_zlinsky = {
+			c_zlin = {
 				color={ 244 122 70 }
 				color2={ 255 255 255 }
 
@@ -658,7 +658,7 @@ e_intermarium = {
 				b_strani = {}
 				b_luhacovice = {}
 			}
-			c_jihomoravsky = {
+			c_south_moravia = {
 				color={ 250 100 30 }
 				color2={ 255 255 255 }
 				
@@ -692,7 +692,7 @@ e_intermarium = {
 			
 			capital = 1038 #Liberec
 			
-			c_liberecky = {
+			c_liberec = {
 				color={ 233 75 22 }
 				color2={ 255 255 255 }
 
@@ -704,7 +704,7 @@ e_intermarium = {
 				b_frydlant = {}
 				b_chrastava = {}
 			}
-			c_kralovehradecky = {
+			c_hradec_kralove = {
 				color={ 205 60 12 }
 				color2={ 255 255 255 }
 
@@ -716,7 +716,7 @@ e_intermarium = {
 				b_detenice = {}
 				b_vrchlabi = {}
 			}
-			c_pardubicky = {
+			c_pardubice = {
 				color={ 222 142 106 }
 				color2={ 255 255 255 }
 
@@ -833,6 +833,458 @@ e_intermarium = {
 				b_dubnica_nad_vahom = {}
 				b_prievidza = {}
 				b_povazska_bystrica = {}
+			}
+		}
+	}
+	k_poland = {
+		color={ 33 66 99 }
+		color2 = { 255 255 255 }
+
+		capital = 1321 #Warsaw
+		
+		d_pomerania = {
+			color={ 33 62 59 }
+			color2={ 255 255 255 }
+			
+			capital = 803
+
+			rhenish="Pommern"
+			low_saxon="Pommern"
+			ossi="Pommern"
+			upper_saxon="Pommern"
+			bavarian="Pommern"
+			swabian="Pommern"
+			austrian="Pommern"
+			polish="Pomorze"
+			kashubian="Pòmòrskô"
+			
+			c_trojmiasto = {
+				color={ 33 107 207 }
+				color2={ 255 255 255}
+
+				rhenish="Dreistadt"
+				low_saxon="Dreistadt"
+				ossi="Dreistadt"
+				upper_saxon="Dreistadt"
+				bavarian="Dreistadt"
+				swabian="Dreistadt"
+				austrian="Dreistadt"
+				kashubian="Trzëgard"
+				
+				b_sopot = {}
+				b_gdansk = {
+					rhenish="Danzig"
+					low_saxon="Danzig"
+					ossi="Danzig"
+					upper_saxon="Danzig"
+					bavarian="Danzig"
+					swabian="Danzig"
+					austrian="Danzig"
+					swedish="Danzig"
+					kashubian="Gdunsk"
+				}
+				b_gdynia = {}
+				b_pruszcz_gdanski = {}
+				b_tczew = {}
+				b_kolbudy = {}
+				b_trabki_wielkie = {}
+			}
+			c_wejherowo = {
+				color={ 219 62 44 }
+				color2={ 255 255 255 }
+				
+				b_puck = {}
+				b_wejherowo = {}
+				b_lebork = {}
+				b_rumia = {}
+				b_reda = {}
+				b_wladyslawowo = {}
+				b_leba = {}
+			}
+			c_szczecin = {
+				color={ 206 44 59 }
+				color2={ 255 255 255 }
+				
+				b_koszalin = {}
+				b_szczecin = {}
+				b_kolobrzeg = {}
+				b_swinoujscie = {}
+				b_police = {}
+				b_bialogard = {}
+				b_goleniow = {}
+			}
+			c_slupsk = {
+				color={ 206 128 59 }
+				color2={ 255 255 255 }
+				
+				b_bytow = {}
+				b_slupsk = {}
+				b_ustka = {}
+				b_szczecinek = {}
+				b_darlowo = {}
+				b_miastko = {}
+				b_kepice = {}
+			}
+			c_stargard = {
+				color={ 131 141 47 }
+				color2={ 255 255 255 }
+				
+				b_gryfino = {}
+				b_stargard = {}
+				b_choszczno = {}
+				b_barlinek = {}
+				b_mysliborz = {}
+				b_drawsko_pomorskie = {}
+				b_chojna = {}
+			}
+		}
+		d_warmia_masuria = {
+			color={ 0 155 46 }
+			color2={ 255 255 255 }
+			
+			capital = 805 #Elblag
+
+			c_elblag = {
+				color={ 99 155 2 }
+				color2={ 255 255 255 }
+				
+				b_malbork = {}
+				b_elblag = {}
+				b_kwidzyn = {}
+				b_bartoszyce = {}
+				b_palsek = {}
+				b_braniewo = {}
+				b_lidzbark_warminski = {}
+			}
+			c_olsztyn = {
+				color={ 0 255 46 }
+				color2={ 255 255 255 }
+				
+				b_ostroda = {}
+				b_olsztyn = {}
+				b_ilawa = {}
+				b_szczytno = {}
+				b_dzialdowo = {}
+				b_nidzica = {}
+				b_morag = {}
+			}
+			c_elk = {
+				color={ 0 147 22 }
+				color2={ 255 255 255 }
+				
+				b_gizycko = {}
+				b_elk = {}
+				b_ketrzyn = {}
+				b_mragowo = {}
+				b_pisz = {}
+				b_olecko = {}
+				b_goldap = {}
+			}
+		}
+		d_greater_poland = {
+			color={ 163 127 33 }
+			color2={ 255 255 255 }
+			
+			capital = 805 #Elblag
+
+			c_pila = {
+				color={ 163 79 34 }
+				color2={ 255 255 255 }
+
+				b_chojnice = {}
+				b_pila = {}
+				b_walcz = {}
+				b_czluchow = {}
+				b_zlotow = {}
+				b_czarne = {}
+				b_jastrowie = {}
+			}
+			c_poznan = {
+				color={ 91 127 79 }
+				color2={ 255 255 255 }
+
+				b_gniezno = {}
+				b_poznan = {}
+				b_leszno = {}
+				b_srem = {}
+				b_swarzedz = {}
+				b_lubon = {}
+				b_wagrowiec = {}
+			}
+			c_kalisz = {
+				color={ 81 127 33 }
+				color2={ 255 255 255 }
+
+				b_ostrow_wielkpolski = {}
+				b_kalisz = {}
+				b_krotoszyn = {}
+				b_jarocin = {}
+				b_rawicz = {}
+				b_pleszew = {}
+				b_kepno = {}
+			}
+			c_lodz = {
+				color={ 206 72 78 }
+				color2={ 255 255 255 }
+
+				b_pabianice = {}
+				b_lodz = {}
+				b_gostynin = {}
+				b_zgierz = {}
+				b_skierniewice = {}
+				b_kutno = {}
+				b_sieradz = {}
+			}
+			c_piotrkow = {
+				color={ 167 48 78 }
+				color2={ 255 255 255 }
+
+				b_tomaszow_mazowiecki = {}
+				b_piotrkow_trybunalski = {}
+				b_belchatow = {}
+				b_radomsko = {}
+				b_wielun = {}
+				b_opoczno = {}
+				b_rawa_mazowiecka = {}
+			}
+		}
+		d_kujawy_pomerania = {
+			color={ 89 209 33 }
+			color2={ 255 255 255 }
+			
+			capital = 805 #Elblag
+
+			c_tuchola = {
+				color={ 89 111 165 }
+				color2={ 255 255 255 }
+
+				b_tuchola = {}
+				b_starogard_gdanski = {}
+				b_swiecie = {}
+				b_koscierzyna = {}
+				b_czersk = {}
+				b_pelplin = {}
+				b_skarszewy = {}
+			}
+			c_bydgoszcz = {
+				color={ 100 209 33 }
+				color2={ 255 255 255 }
+
+				b_inowroclaw = {}
+				b_bydgoszcz = {}
+				b_naklo_nad_notecia = {}
+				b_solec_kujawski = {}
+				b_znin = {}
+				b_mogilno = {}
+				b_koronowo = {}
+			}
+			c_wloclawek = {
+				color={ 156 209 33 }
+				color2={ 255 255 255 }
+
+				b_konin = {}
+				b_wloclawek = {}
+				b_kolo = {}
+				b_turek = {}
+				b_alexandrow_kujawski = {}
+				b_ciechocinek = {}
+				b_klodawa = {}
+			}
+		}
+		d_lower_silesia = {
+			color={ 122 108 55 }
+			color2={ 255 255 255 }
+			
+			capital = 805 #Elblag
+
+			c_lubusz = {
+				color={ 122 191 49 }
+				color2={ 255 255 255 }
+
+				b_gorzow_wielkopolski = {}
+				b_zielona_gora = {}
+				b_zary = {}
+				b_nowa_sol = {}
+				b_zagan = {}
+				b_swiebodzin = {}
+				b_kostrzyn_nad_odra = {}
+			}
+			c_legnica = {
+				color={ 142 108 77 }
+				color2={ 255 255 255 }
+
+				b_legnica = {}
+				b_walbrzych = {}
+				b_jelenia_gora = {}
+				b_swidnica = {}
+				b_boleslawiec = {}
+				b_dzierzoniow = {}
+				b_klodzko = {}
+			}
+			c_wroclaw = {
+				color={ 137 55 55 }
+				color2={ 255 255 255 }
+
+				b_lubin = {}
+				b_wroclaw = {}
+				b_glogow = {}
+				b_olesnica = {}
+				b_olawa = {}
+				b_polkowice = {}
+				b_trzebnica = {}
+			}
+		}
+		d_upper_silesia = {
+			color={ 55 108 122 }
+			color2={ 255 255 255 }
+			
+			capital = 805 #Elblag
+
+			c_opole = {
+				color={ 132 11 11 }
+				color2={ 255 255 255 }
+
+				b_kedzierzyn_kozle = {}
+				b_opole = {}
+				b_nysa = {}
+				b_brzeg = {}
+				b_kluczbork = {}
+				b_prudnik = {}
+				b_krapkowice = {}
+			}
+			c_katowice = {
+				color={ 204 127 79 }
+				color2={ 255 255 255 }
+
+				b_czestochowa = {}
+				b_katowice = {}
+				b_sosnowiec = {}
+				b_gliwice = {}
+				b_zabrze = {}
+				b_bielsko_biala = {}
+				b_bytom = {}
+			}
+		}
+		d_mazovia = {
+			color={ 243 119 19 }
+			color2={ 255 255 255 }
+			
+			capital = 805 #Elblag
+
+			c_plock = {
+				color={ 243 15 19 }
+				color2={ 255 255 255 }
+
+				b_legionowo = {}
+				b_plock = {}
+				b_ostroleka = {}
+				b_ciechanow = {}
+				b_mlawa = {}
+				b_nowy_dwor_mazowiecki = {}
+				b_plonsk = {}
+			}
+			c_warsaw = {
+				color={ 255 119 124 }
+				color2={ 255 255 255 }
+
+				b_radom = {}
+				b_warsaw = {}
+				b_pruszkow = {}
+				b_piaseczno = {}
+				b_zyrardow = {}
+				b_sochaczew = {}
+				b_grodzisk_mazowiecki = {}
+			}
+			c_siedlce = {
+				color={ 137 15 19 }
+				color2={ 255 255 255 }
+
+				b_otwock = {}
+				b_siedlce = {}
+				b_minsk_mazowiecki = {}
+				b_wolomin = {}
+				b_zabki = {}
+				b_marki = {}
+				b_jozefow = {}
+			}
+			c_swietokrzyskie = {
+				color={ 147 72 78 }
+				color2={ 255 255 255 }
+
+				b_ostrowiec_swietokrzyski = {}
+				b_kielce = {}
+				b_starachowice = {}
+				b_skarzysko_kamienna = {}
+				b_sandomierz = {}
+				b_konskie = {}
+				b_busko_zdroj = {}
+			}
+		}
+		d_podlasie = {
+			color={ 242 88 68 }
+			color2={ 255 255 255 }
+			
+			capital = 805 #Elblag
+
+			c_bialystok = {
+				color={ 242 106 111 }
+				color2={ 255 255 255 }
+
+				b_bielsk_podlaski = {}
+				b_bialystok = {}
+				b_hajnowka = {}
+				b_lapy = {}
+				b_siemiatycze = {}
+				b_czarna_bialostocka = {}
+				b_wasilkow = {}
+			}
+			c_lomza = {
+				color={ 201 88 156 }
+				color2={ 255 255 255 }
+
+				b_zambrow = {}
+				b_lomza = {}
+				b_grajewo = {}
+				b_kolno = {}
+				b_monki = {}
+				b_wysokie_mazowiecki = {}
+				b_choroszcz = {}
+			}
+			c_suwalki = {
+				color={ 143 63 68 }
+				color2={ 255 255 255 }
+
+				b_augustow = {}
+				b_suwalki = {}
+				b_sokolka = {}
+				b_dabrowa_bialostocka = {}
+				b_sejny = {}
+				b_lipsk_nad_biebrza = {}
+				b_suchowola = {}
+			}
+			c_lublin = {
+				color={ 206 131 51 }
+				color2={ 255 255 255 }
+
+				b_biala_podlaska = {}
+				b_lublin = {}
+				b_pulawy = {}
+				b_swidnik = {}
+				b_krasnik = {}
+				b_lukow = {}
+				b_lubartow = {}
+			}
+			c_chelm = {
+				color={ 175 60 54 }
+				color2={ 255 255 255 }
+
+				b_zamosc = {}
+				b_chelm = {}
+				b_bilgoraj = {}
+				b_leczna = {}
+				b_tomaszow_lubelski = {}
+				b_krasnystaw = {}
+				b_hrubieszow = {}
 			}
 		}
 	}
