@@ -4,13 +4,134 @@ e_baltic = {
 	color={ 110 130 90 }
 	color2={ 255 255 0 }
 	
-	capital = 535 # Tallinn
+	capital = 685 #Riga
 	
 	k_latvia = {
 		color={ 165 23 56 }
 		color2={ 136 157 23 }
 		
 		capital = 685 # Riga
+
+		d_courland = {
+			color={ 171 52 145 }
+			color2={ 255 255 255 }
+		
+			capital = 682 #Liepaja
+			
+			c_liepaja = {
+				
+				color={ 171 114 99 }
+				color2={ 255 255 255 }
+				
+				b_karosta = {}
+				b_liepaja = {}
+				b_grobina={}
+				b_pavilosta = {}
+				b_durbe={}
+				b_nica={}
+				b_rucava={}
+			}
+			c_ventspils = {
+				color={ 115 52 187 }
+				color2={ 255 255 255 }
+
+				b_kuldiga= {}
+				b_ventspils={}
+				b_talsi={}
+				b_aizpute={}
+				b_kandava={}
+				b_skrunda={}
+				b_stende={}
+			}
+		}
+		d_semigallia = {
+			color={ 134 208 75 }
+			color2={ 255 255 255 }
+		
+			capital = 686 #Jelgava
+			
+			c_jurmala = {
+				
+				color={ 134 143 16 }
+				color2={ 255 255 255 }
+				
+				b_tukums = {}
+				b_jurmala = {}
+				b_marupe={}
+				b_olaine = {}
+				b_saldus={}
+				b_dobele={}
+				b_broceni={}
+			}
+			c_jelgava = {
+				color={ 163 208 127 }
+				color2={ 255 255 255 }
+
+				b_bauska={}
+				b_jelgava={}
+				b_baldone={}
+				b_auce={}
+				b_ilukste={}
+				b_jaunjelgava={}
+				b_viesite={}
+			}
+		}
+		d_livonia = {
+			color={ 246 121 199 }
+			color2={ 255 255 255 }
+		
+			capital = 685 #Riga
+			
+			c_riga = {
+				
+				color={ 124 41 246 }
+				color2={ 255 255 255 }
+				
+				b_riga = {}
+               			b_vecriga = {}
+                		b_sarkandaugava = {}
+				b_salaspils = {}
+                		b_ogre = {}
+               		 	b_sigulda = {}
+                		b_adazi = {}
+			}
+			c_valmiera = {
+				color={ 124 121 197 }
+				color2={ 255 255 255 }
+
+				b_cesis = {}
+				b_valmiera = {}
+				b_limbazi = {}
+				b_smiltene = {}
+				b_valka = {}
+				b_rujiena = {}
+				b_salacgriva = {}
+			}
+			c_jekabpils = {
+				color={ 199 232 255 }
+				color2={ 255 255 255 }
+
+				b_krustpils = {}
+				b_jekabpils = {}
+				b_madona = {}
+				b_aluksne = {}
+				b_gulbene = {}
+				b_aizkraukle = {}
+				b_lielvarde = {}
+			}
+			c_latgale = {
+				color={ 108 79 33 }
+				color2={ 255 255 255 }
+
+				b_balvi = {}
+				b_daugavpils = {}
+				b_rezekne = {}
+				b_kraslava = {}
+				b_ludza = {}
+				b_livani = {}
+				b_preili = {}
+			}
+		}
 		
 	}
 	
@@ -24,7 +145,7 @@ e_baltic = {
 			color={ 237 19 30 }
 			color2={ 255 255 255 }
 		
-			capital = 535 # Tallinn
+			capital = 800 #Kaliningrad
 			
 			c_kaliningrad = {
 				
@@ -33,25 +154,169 @@ e_baltic = {
 				
 				kaliningradyets="Kyonik"
 				
-				b_leningradsky = {}
-				b_moskovsky = {}
-				b_tsentralny = {}
-				b_baltiysk={}
-				b_guryevsky={}
+				b_baltiysk = {}
+				b_kaliningrad = {}
+				b_svetly = {}
+				b_gvardeysk={}
 				b_zelenogradsk={}
 				b_guryevsk={}
+				b_svetlogorsk={}
 			}
-			c_chernyakhovske = {
+			c_sovetsk = {
 				color={ 116 161 243 }
 				color2={ 255 255 255 }
 
-				b_chernyakhovske= {}
-				b_gusev = {}
+				b_chernyakhovsk= {}
 				b_sovetsk = {}
+				b_gusev = {}
 				b_polessk={}
-				b_slavsk={}
 				b_neman={}
-				b_krasnoznammensk={}
+				b_nesterov={}
+				b_slavsk={}
+			}
+		}
+		d_aukstaitija = {
+			color={ 151 184 88 }
+			color2={ 255 255 255 }
+		
+			capital = 861 #Vilnius
+			
+			c_vilnius = {
+				
+				color={ 151 239 120 }
+				color2={ 255 255 255 }
+				
+				b_ukmerge = {}
+				b_vilnius = {}
+				b_elektrenai = {}
+				b_sirvintos = {}
+				b_trakai = {}
+				b_salcininkai = {}
+				b_svencionys = {}
+			}
+			c_alytus = {
+				color={ 6 184 7 }
+				color2={ 255 255 255 }
+
+				b_druskininkai = {}
+				b_alytus = {}
+				b_varena = {}
+				b_lazdijai = {}
+				b_leipalingis = {}
+				b_senoji_varena = {}
+				b_merkine = {}
+			}
+			c_panevezys = {
+				color={ 9 181 88 }
+				color2={ 255 255 255 }
+
+				b_birzai = {}
+				b_panevezys = {}
+				b_rokiskis = {}
+				b_kupiskis = {}
+				b_pasvalys = {}
+				b_joniskelis = {}
+				b_obeliai = {}
+			}
+			c_utena = {
+				color={ 108 198 81 }
+				color2={ 255 255 255 }
+
+				b_visaginas = {}
+				b_utena = {}
+				b_anyksciai = {}
+				b_zarasai = {}
+				b_moletai = {}
+				b_ignalina = {}
+				b_dusetos = {}
+			}
+		}
+		d_samogitia = {
+			color={ 48 238 69 }
+			color2={ 255 255 255 }
+		
+			capital = 896 #Siauliai
+			
+			c_klaipeda = {
+				
+				color={ 48 94 74 }
+				color2={ 255 255 255 }
+				
+				b_kretinga = {}
+				b_klaipeda = {}
+				b_silute = {}
+				b_gargzdai = {}
+				b_palanga = {}
+				b_skuodas = {}
+				b_nida = {}
+			}
+			c_telsiai = {
+				color={ 57 238 162 }
+				color2={ 255 255 255 }
+
+				b_telsiai = {}
+				b_mazeikiai = {}
+				b_plunge = {}
+				b_rietavas = {}
+				b_plateliai = {}
+				b_tirksliai = {}
+				b_luoke = {}
+			}
+			c_siauliai = {
+				color={ 145 162 69 }
+				color2={ 255 255 255 }
+
+				b_radviliskis = {}
+				b_siauliai = {}
+				b_naujoji_akmene = {}
+				b_joniskis = {}
+				b_kelme = {}
+				b_pakruojis = {}
+				b_venta = {}
+			}
+		}
+		d_sudovia = {
+			color={ 234 28 187 }
+			color2={ 255 255 255 }
+		
+			capital = 862 #Kaunas
+			
+			c_taurage = {
+				
+				color={ 234 249 47 }
+				color2={ 255 255 255 }
+				
+				b_jurbarkas = {}
+				b_taurage = {}
+				b_silale = {}
+				b_pagegiai = {}
+				b_skaudvile = {}
+				b_kvedarna = {}
+				b_pajuris = {}
+			}
+			c_kaunas = {
+				color={ 193 28 199 }
+				color2={ 255 255 255 }
+
+				b_jonava = {}
+				b_kaunas = {}
+				b_kedainiai = {}
+				b_raseiniai = {}
+				b_kaisiadorys = {}
+				b_prienai = {}
+				b_birstonas = {}
+			}
+			c_marijampole = {
+				color={ 134 108 187 }
+				color2={ 255 255 255 }
+
+				b_vilkaviskis = {}
+				b_marijampole = {}
+				b_sakiai = {}
+				b_kazlu_ruda = {}
+				b_kalvarija = {}
+				b_kybartai = {}
+				b_graziskiai = {}
 			}
 		}
 	}
@@ -211,7 +476,7 @@ e_baltic = {
 				b_aidu = {}
 				b_adavere = {}
 				b_tartu = {}
-			    b_rannu = {}
+			    	b_rannu = {}
 				b_puhja = {}
 			}
 			c_valgamaa = {
