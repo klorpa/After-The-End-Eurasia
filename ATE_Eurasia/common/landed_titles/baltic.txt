@@ -20,8 +20,41 @@ e_baltic = {
 		
 		capital = 861 # Vilnius
 		
+		d_kaliningrad = {
+			color={ 237 19 30 }
+			color2={ 255 255 255 }
+		
+			capital = 535 # Tallinn
+			
+			c_kaliningrad = {
+				
+				color={ 89 125 190 }
+				color2={ 255 255 255 }
+				
+				kaliningradyets="Kyonik"
+				
+				b_leningradsky = {}
+				b_moskovsky = {}
+				b_tsentralny = {}
+				b_baltiysk={}
+				b_guryevsky={}
+				b_zelenogradsk={}
+				b_guryevsk={}
+			}
+			c_chernyakhovske = {
+				color={ 116 161 243 }
+				color2={ 255 255 255 }
+
+				b_chernyakhovske= {}
+				b_gusev = {}
+				b_sovetsk = {}
+				b_polessk={}
+				b_slavsk={}
+				b_neman={}
+				b_krasnoznammensk={}
+			}
+		}
 	}
-	
 	k_estonia = {
 		color={ 100 120 120 }
 		color2={ 136 157 23 }
