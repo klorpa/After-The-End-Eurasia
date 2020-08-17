@@ -12,36 +12,227 @@ e_baltic = {
 		
 		capital = 685 # Riga
 
+		rhenish="Lettland"
+		low_saxon="Lettland"
+		ossi="Lettland"
+		upper_saxon="Lettland"
+		bavarian="Lettland"
+		swabian="Lettland"
+		austrian="Lettland"
+		schwyzer="Lettland"
+		polish="Lotwa"
+		lithuanian="Latvija"
+		latvian="Latvija"
+		estonian="Läti"
+
 		d_courland = {
 			color={ 171 52 145 }
 			color2={ 255 255 255 }
 		
 			capital = 682 #Liepaja
+
+			rhenish="Kurland"
+			low_saxon="Kurland"
+			ossi="Kurland"
+			upper_saxon="Kurland"
+			bavarian="Kurland"
+			swabian="Kurland"
+			austrian="Kurland"
+			schwyzer="Kurland"
+			polish="Kurlandia"
+			lithuanian="Kuršas"
+			latvian="Kurzeme"
+			estonian="Kuramaa"
 			
 			c_liepaja = {
 				
 				color={ 171 114 99 }
 				color2={ 255 255 255 }
 				
-				b_karosta = {}
-				b_liepaja = {}
-				b_grobina={}
-				b_pavilosta = {}
-				b_durbe={}
-				b_nica={}
-				b_rucava={}
+				rhenish="Libau"
+				low_saxon="Libau"
+				ossi="Libau"
+				upper_saxon="Libau"
+				bavarian="Libau"
+				swabian="Libau"
+				austrian="Libau"
+				schwyzer="Libau"
+				polish="Lipawa"
+				lithuanian="Liepoja"
+				estonian="Liipavi"
+				
+				b_karosta = {
+					rhenish="Kriegshafen"
+					low_saxon="Kriegshaven"
+					ossi="Kriegshafen"
+					upper_saxon="Kriegshafen"
+					bavarian="Kriegshafen"
+					swabian="Kriegshafen"
+					austrian="Kriegshafen"
+					schwyzer="Kriegshafen"
+				}
+				b_liepaja = {
+					rhenish="Libau"
+					low_saxon="Libau"
+					ossi="Libau"
+					upper_saxon="Libau"
+					bavarian="Libau"
+					swabian="Libau"
+					austrian="Libau"
+					schwyzer="Libau"
+					polish="Lipawa"
+					lithuanian="Liepoja"
+					estonian="Liipavi"
+				}
+				b_grobina={
+					rhenish="Grobin"
+					low_saxon="Grobin"
+					ossi="Grobin"
+					upper_saxon="Grobin"
+					bavarian="Grobin"
+					swabian="Grobin"
+					austrian="Grobin"
+					schwyzer="Grobin"
+					lithuanian="Gruobinia"
+				}
+				b_pavilosta = {
+					rhenish="Paulshafen"
+					low_saxon="Paulshaven"
+					ossi="Paulshafen"
+					upper_saxon="Paulshafen"
+					bavarian="Paulshafen"
+					swabian="Paulshafen"
+					austrian="Paulshafen"
+					schwyzer="Paulshafen"
+					lithuanian="Paviluostas"
+				}
+				b_durbe={
+					rhenish="Durben"
+					low_saxon="Durben"
+					ossi="Durben"
+					upper_saxon="Durben"
+					bavarian="Durben"
+					swabian="Durben"
+					austrian="Durben"
+					schwyzer="Durben"
+					polish="Dorbiany"
+				}
+				b_nica={
+					rhenish="Niederbartau"
+					low_saxon="Niederbartau"
+					ossi="Niederbartau"
+					upper_saxon="Niederbartau"
+					bavarian="Niederbartau"
+					swabian="Niederbartau"
+					austrian="Niederbartau"
+					lithuanian="Nyca"
+				}
+				b_rucava={
+					rhenish="Rutzau"
+					low_saxon="Rutzau"
+					ossi="Rutzau"
+					upper_saxon="Rutzau"
+					bavarian="Rutzau"
+					swabian="Rutzau"
+					austrian="Rutzau"
+					schwyzer="Rutzau"
+					lithuanian="Rukiava"
+				}
 			}
 			c_ventspils = {
 				color={ 115 52 187 }
 				color2={ 255 255 255 }
+				
+				rhenish="Windau"
+				low_saxon="Windau"
+				ossi="Windau"
+				upper_saxon="Windau"
+				bavarian="Windau"
+				swabian="Windau"
+				austrian="Windau"
+				schwyzer="Windau"
+				polish="Windawa"
+				lithuanian="Ventspilis"
+				estonian="Vindavi"
 
-				b_kuldiga= {}
-				b_ventspils={}
-				b_talsi={}
-				b_aizpute={}
-				b_kandava={}
-				b_skrunda={}
-				b_stende={}
+				b_kuldiga= {
+					rhenish="Goldingen"
+					low_saxon="Goldingen"
+					ossi="Goldingen"
+					upper_saxon="Goldingen"
+					bavarian="Goldingen"
+					swabian="Goldingen"
+					austrian="Goldingen"
+					schwyzer="Goldingen"
+					polish="Kuldyga"
+					lithuanian="Kuldyga"
+				}
+				b_ventspils={
+					rhenish="Windau"
+					low_saxon="Windau"
+					ossi="Windau"
+					upper_saxon="Windau"
+					bavarian="Windau"
+					swabian="Windau"
+					austrian="Windau"
+					schwyzer="Windau"
+					polish="Windawa"
+					lithuanian="Ventspilis"
+					estonian="Vindavi"
+				}
+				b_talsi={
+					rhenish="Talsen"
+					low_saxon="Talsen"
+					ossi="Talsen"
+					upper_saxon="Talsen"
+					bavarian="Talsen"
+					swabian="Talsen"
+					austrian="Talsen"
+					schwyzer="Talsen"
+					lithuanian="Talsai"
+				}
+				b_aizpute={
+					rhenish="Hasenpoth"
+					low_saxon="Hasenpoth"
+					ossi="Hasenpoth"
+					upper_saxon="Hasenpoth"
+					bavarian="Hasenpoth"
+					swabian="Hasenpoth"
+					austrian="Hasenpoth"
+					schwyzer="Hasenpoth"
+					polish="Hazenpot"
+				}
+				b_kandava={
+					rhenish="Kandau"
+					low_saxon="Kandau"
+					ossi="Kandau"
+					upper_saxon="Kandau"
+					bavarian="Kandau"
+					swabian="Kandau"
+					austrian="Kandau"
+					schwyzer="Kandau"
+					polish="Kandawa"
+				}
+				b_skrunda={
+					rhenish="Schrunden"
+					low_saxon="Schrunden"
+					ossi="Schrunden"
+					upper_saxon="Schrunden"
+					bavarian="Schrunden"
+					swabian="Schrunden"
+					austrian="Schrunden"
+					schwyzer="Schrunden"
+				}
+				b_stende={
+					rhenish="Stenden"
+					low_saxon="Stenden"
+					ossi="Stenden"
+					upper_saxon="Stenden"
+					bavarian="Stenden"
+					swabian="Stenden"
+					austrian="Stenden"
+					schwyzer="Stenden"
+				}
 			}
 		}
 		d_semigallia = {
@@ -50,30 +241,205 @@ e_baltic = {
 		
 			capital = 686 #Jelgava
 			
+			rhenish="Semgallen"
+			low_saxon="Semgallen"
+			ossi="Semgallen"
+			upper_saxon="Semgallen"
+			bavarian="Semgallen"
+			swabian="Semgallen"
+			austrian="Semgallen"
+			schwyzer="Semgallen"
+			polish="Semigalia"
+			lithuanian="Žiemgala"
+			latvian="Zemgale"
+			
 			c_jurmala = {
 				
 				color={ 134 143 16 }
 				color2={ 255 255 255 }
 				
-				b_tukums = {}
-				b_jurmala = {}
-				b_marupe={}
-				b_olaine = {}
-				b_saldus={}
-				b_dobele={}
-				b_broceni={}
+				rhenish="Rigastrand"
+				low_saxon="Rigastrand"
+				ossi="Rigastrand"
+				upper_saxon="Rigastrand"
+				bavarian="Rigastrand"
+				swabian="Rigastrand"
+				austrian="Rigastrand"
+				schwyzer="Rigastrand"
+				estonian="Juurmala"
+				
+				b_tukums = {
+					rhenish="Tuckum"
+					low_saxon="Tuckum"
+					ossi="Tuckum"
+					upper_saxon="Tuckum"
+					bavarian="Tuckum"
+					swabian="Tuckum"
+					austrian="Tuckum"
+					schwyzer="Tuckum"
+					polish="Tukum"
+					lithuanian="Tukumas"
+				}
+				b_jurmala = {
+					rhenish="Rigastrand"
+					low_saxon="Rigastrand"
+					ossi="Rigastrand"
+					upper_saxon="Rigastrand"
+					bavarian="Rigastrand"
+					swabian="Rigastrand"
+					austrian="Rigastrand"
+					schwyzer="Rigastrand"
+					estonian="Juurmala"
+				}
+				b_marupe={
+					rhenish="Marienbach"
+					low_saxon="Marienbach"
+					ossi="Marienbach"
+					upper_saxon="Marienbach"
+					bavarian="Marienbach"
+					swabian="Marienbach"
+					austrian="Marienbach"
+					schwyzer="Marienbach"
+				}
+				b_olaine = {
+					rhenish="Olai"
+					low_saxon="Olai"
+					ossi="Olai"
+					upper_saxon="Olai"
+					bavarian="Olai"
+					swabian="Olai"
+					austrian="Olai"
+					schwyzer="Olai"
+					lithuanian="Uolaine"
+				}
+				b_saldus={
+					rhenish="Frauenburg"
+					low_saxon="Frauenburg"
+					ossi="Frauenburg"
+					upper_saxon="Frauenburg"
+					bavarian="Frauenburg"
+					swabian="Frauenburg"
+					austrian="Frauenburg"
+					schwyzer="Frauenburg"
+				}
+				b_dobele={
+					rhenish="Doblen"
+					low_saxon="Doblen"
+					ossi="Doblen"
+					upper_saxon="Doblen"
+					bavarian="Doblen"
+					swabian="Doblen"
+					austrian="Doblen"
+					schwyzer="Doblen"
+					lithuanian="Duobele"
+				}
+				b_broceni={
+					rhenish="Berghof-Brotzen"
+					low_saxon="Berghof-Brotzen"
+					ossi="Berghof-Brotzen"
+					upper_saxon="Berghof-Brotzen"
+					bavarian="Berghof-Brotzen"
+					swabian="Berghof-Brotzen"
+					austrian="Berghof-Brotzen"
+					schwyzer="Berghof-Brotzen"
+					lithuanian="Bruocenai"
+				}
 			}
 			c_jelgava = {
 				color={ 163 208 127 }
 				color2={ 255 255 255 }
+				
+				rhenish="Mitau"
+				low_saxon="Mitau"
+				ossi="Mitau"
+				upper_saxon="Mitau"
+				bavarian="Mitau"
+				swabian="Mitau"
+				austrian="Mitau"
+				schwyzer="Mitau"
+				polish="Jelgawa"
+				estonian="Miitavi"
 
-				b_bauska={}
-				b_jelgava={}
-				b_baldone={}
-				b_auce={}
-				b_ilukste={}
-				b_jaunjelgava={}
-				b_viesite={}
+				b_bauska={
+					rhenish="Bauske"
+					low_saxon="Bauske"
+					ossi="Bauske"
+					upper_saxon="Bauske"
+					bavarian="Bauske"
+					swabian="Bauske"
+					austrian="Bauske"
+					schwyzer="Bauske"
+					polish="Bowsk"
+					lithuanian="Bauske"
+				}
+				b_jelgava={
+					rhenish="Mitau"
+					low_saxon="Mitau"
+					ossi="Mitau"
+					upper_saxon="Mitau"
+					bavarian="Mitau"
+					swabian="Mitau"
+					austrian="Mitau"
+					schwyzer="Mitau"
+					polish="Jelgawa"
+					estonian="Miitavi"
+				}
+				b_baldone={
+					rhenish="Baldohn"
+					low_saxon="Baldohn"
+					ossi="Baldohn"
+					upper_saxon="Baldohn"
+					bavarian="Baldohn"
+					swabian="Baldohn"
+					austrian="Baldohn"
+					schwyzer="Baldohn"
+					lithuanian="Balduone"
+				}
+				b_auce={
+					rhenish="Alt-Autz"
+					low_saxon="Alt-Autz"
+					ossi="Alt-Autz"
+					upper_saxon="Alt-Autz"
+					bavarian="Alt-Autz"
+					swabian="Alt-Autz"
+					austrian="Alt-Autz"
+					schwyzer="Alt-Autz"
+					lithuanian="Auke"
+				}
+				b_ilukste={
+					rhenish="Illuxt"
+					low_saxon="Illuxt"
+					ossi="Illuxt"
+					upper_saxon="Illuxt"
+					bavarian="Illuxt"
+					swabian="Illuxt"
+					austrian="Illuxt"
+					schwyzer="Illuxt"
+					polish="Ilukszta"
+					lithuanian="Aluksta"
+				}
+				b_jaunjelgava={
+					rhenish="Friedrichstadt"
+					low_saxon="Friedrichstadt"
+					ossi="Friedrichstadt"
+					upper_saxon="Friedrichstadt"
+					bavarian="Friedrichstadt"
+					swabian="Friedrichstadt"
+					austrian="Friedrichstadt"
+					schwyzer="Friedrichstadt"
+					polish="Frydrychsztat"
+				}
+				b_viesite={
+					rhenish="Eckengrafen"
+					low_saxon="Eckengraven"
+					ossi="Eckengrafen"
+					upper_saxon="Eckengrafen"
+					bavarian="Eckengrafen"
+					swabian="Eckengrafen"
+					austrian="Eckengrafen"
+					schwyzer="Eckengrafen"
+					lithuanian="Viesyte"
+				}
 			}
 		}
 		d_livonia = {
@@ -82,54 +448,413 @@ e_baltic = {
 		
 			capital = 685 #Riga
 			
+			rhenish="Livland"
+			low_saxon="Livland"
+			ossi="Livland"
+			upper_saxon="Livland"
+			bavarian="Livland"
+			swabian="Livland"
+			austrian="Livland"
+			schwyzer="Livland"
+			dutch="Lijfland"
+			flemish="Lijfland"
+			frisian-"Lijfland"
+			swedish="Livland"
+			danish="Livland"
+			icelander="Livland"
+			faroese="Livland"
+			tronder="Livland"
+			ostlending="Livland"
+			vestlending="Livland"
+			scanian="Livland"
+			jamta="Livland"
+			polish="Inflanty"
+			lithuanian="Livonija"
+			latvian="Vidzeme"
+			estonian="Liivimaa"
+			finnish="Liivinmaa"
+			
 			c_riga = {
 				
 				color={ 124 41 246 }
 				color2={ 255 255 255 }
+
+				polish="Ryga"
+				lithuanian="Ryga"
+				estonian="Riia"
+				finnish="Riika"
 				
-				b_riga = {}
-               			b_vecriga = {}
-                		b_sarkandaugava = {}
-				b_salaspils = {}
-                		b_ogre = {}
-               		 	b_sigulda = {}
-                		b_adazi = {}
+				b_riga = {
+					polish="Ryga"
+					lithuanian="Ryga"
+					estonian="Riia"
+					finnish="Riika"
+				}
+				b_vecriga = {
+					rhenish="Alt-Riga"
+					low_saxon="Alt-Riga"
+					ossi="Alt-Riga"
+					upper_saxon="Alt-Riga"
+					bavarian="Alt-Riga"
+					swabian="Alt-Riga"
+					austrian="Alt-Riga"
+					schwyzer="Alt-Riga"
+					polish="Stara Ryga"
+					lithuanian="Vecryga"
+					estonian="Riia Vanalinn"
+				}
+				b_sarkandaugava = {
+					rhenish="Rote Düna"
+					low_saxon="Rote Düna"
+					ossi="Rote Düna"
+					upper_saxon="Rote Düna"
+					bavarian="Rote Düna"
+					swabian="Rote Düna"
+					austrian="Rote Düna"
+					schwyzer="Rote Düna"
+				}
+				b_salaspils = {
+					rhenish="Kirchholm"
+					low_saxon="Kirchholm"
+					ossi="Kirchholm"
+					upper_saxon="Kirchholm"
+					bavarian="Kirchholm"
+					swabian="Kirchholm"
+					austrian="Kirchholm"
+					schwyzer="Kirchholm"
+					swedish="Kirkholm"
+					lithuanian="Salaspilis"
+				}
+				b_ogre = {
+					rhenish="Oger"
+					low_saxon="Oger"
+					ossi="Oger"
+					upper_saxon="Oger"
+					bavarian="Oger"
+					swabian="Oger"
+					austrian="Oger"
+					schwyzer="Oger"
+					lithuanian="Uogre"
+				}
+				b_sigulda = {
+					rhenish="Segewold"
+					low_saxon="Segewold"
+					ossi="Segewold"
+					upper_saxon="Segewold"
+					bavarian="Segewold"
+					swabian="Segewold"
+					austrian="Segewold"
+					schwyzer="Segewold"
+					polish="Zygwold"
+				}
+				b_adazi = {
+					rhenish="Neuermühlen"
+					low_saxon="Neuermühlen"
+					ossi="Neuermühlen"
+					upper_saxon="Neuermühlen"
+					bavarian="Neuermühlen"
+					swabian="Neuermühlen"
+					austrian="Neuermühlen"
+					schwyzer="Neuermühlen"
+					lithuanian="Adažiai"
+				}
 			}
 			c_valmiera = {
 				color={ 124 121 197 }
 				color2={ 255 255 255 }
+				
+				rhenish="Wolmar"
+				low_saxon="Wolmar"
+				ossi="Wolmar"
+				upper_saxon="Wolmar"
+				bavarian="Wolmar"
+				swabian="Wolmar"
+				austrian="Wolmar"
+				schwyzer="Wolmar"
+				polish="Wolmar"
+				estonian="Volmari"
 
-				b_cesis = {}
-				b_valmiera = {}
-				b_limbazi = {}
-				b_smiltene = {}
-				b_valka = {}
-				b_rujiena = {}
-				b_salacgriva = {}
+				b_cesis = {
+					rhenish="Wenden"
+					low_saxon="Wenden"
+					ossi="Wenden"
+					upper_saxon="Wenden"
+					bavarian="Wenden"
+					swabian="Wenden"
+					austrian="Wenden"
+					schwyzer="Wenden"
+					polish="Kies"
+					lithuanian="Cesys"
+					estonian="Võnnu"
+				}
+				b_valmiera = {
+					rhenish="Wolmar"
+					low_saxon="Wolmar"
+					ossi="Wolmar"
+					upper_saxon="Wolmar"
+					bavarian="Wolmar"
+					swabian="Wolmar"
+					austrian="Wolmar"
+					schwyzer="Wolmar"
+					polish="Wolmar"
+					estonian="Volmari"
+				}
+				b_limbazi = {
+					rhenish="Lemsal"
+					low_saxon="Lemsal"
+					ossi="Lemsal"
+					upper_saxon="Lemsal"
+					bavarian="Lemsal"
+					swabian="Lemsal"
+					austrian="Lemsal"
+					schwyzer="Lemsal"
+					lithuanian="Limbažiai"
+					estonian="Lemsalu"
+				}
+				b_smiltene = {
+					rhenish="Smilten"
+					low_saxon="Smilten"
+					ossi="Smilten"
+					upper_saxon="Smilten"
+					bavarian="Smilten"
+					swabian="Smilten"
+					austrian="Smilten"
+					schwyzer="Smilten"
+					estonian="Miltina"
+				}
+				b_valka = {
+					rhenish="Walk"
+					low_saxon="Walk"
+					ossi="Walk"
+					upper_saxon="Walk"
+					bavarian="Walk"
+					swabian="Walk"
+					austrian="Walk"
+					schwyzer="Walk"
+					polish="Walka"
+					estonian="Läti Valga"
+				}
+				b_rujiena = {
+					rhenish="Rujen"
+					low_saxon="Rujen"
+					ossi="Rujen"
+					upper_saxon="Rujen"
+					bavarian="Rujen"
+					swabian="Rujen"
+					austrian="Rujen"
+					schwyzer="Rujen"
+					polish="Rujen"
+					estonian="Ruhja"
+				}
+				b_salacgriva = {
+					rhenish="Salismünde"
+					low_saxon="Salismünde"
+					ossi="Salismünde"
+					upper_saxon="Salismünde"
+					bavarian="Salismünde"
+					swabian="Salismünde"
+					austrian="Salismünde"
+					schwyzer="Salismünde"
+					lithuanian="Salacgryva"
+					estonian="Salatsi"
+				}
 			}
 			c_jekabpils = {
 				color={ 199 232 255 }
 				color2={ 255 255 255 }
 
-				b_krustpils = {}
-				b_jekabpils = {}
-				b_madona = {}
-				b_aluksne = {}
-				b_gulbene = {}
-				b_aizkraukle = {}
-				b_lielvarde = {}
+				rhenish="Jakobstadt"
+				low_saxon="Jakobstadt"
+				ossi="Jakobstadt"
+				upper_saxon="Jakobstadt"
+				bavarian="Jakobstadt"
+				swabian="Jakobstadt"
+				austrian="Jakobstadt"
+				schwyzer="Jakobstadt"
+				polish="Jakubów"
+				lithuanian="Jekabpilis"
+
+				b_krustpils = {
+					rhenish="Kreutzburg"
+					low_saxon="Kreutzburg"
+					ossi="Kreutzburg"
+					upper_saxon="Kreutzburg"
+					bavarian="Kreutzburg"
+					swabian="Kreutzburg"
+					austrian="Kreutzburg"
+					schwyzer="Kreutzburg"
+					polish="Krzyzbork"
+					lithuanian="Krustpilis"
+				}
+				b_jekabpils = {
+					rhenish="Jakobstadt"
+					low_saxon="Jakobstadt"
+					ossi="Jakobstadt"
+					upper_saxon="Jakobstadt"
+					bavarian="Jakobstadt"
+					swabian="Jakobstadt"
+					austrian="Jakobstadt"
+					schwyzer="Jakobstadt"
+					polish="Jakubów"
+					lithuanian="Jekabpilis"
+				}
+				b_madona = {
+					rhenish="Modohn"
+					low_saxon="Modohn"
+					ossi="Modohn"
+					upper_saxon="Modohn"
+					bavarian="Modohn"
+					swabian="Modohn"
+					austrian="Modohn"
+					schwyzer="Modohn"
+					lithuanian="Maduona"
+				}
+				b_aluksne = {
+					rhenish="Marienburg"
+					low_saxon="Marienburg"
+					ossi="Marienburg"
+					upper_saxon="Marienburg"
+					bavarian="Marienburg"
+					swabian="Marienburg"
+					austrian="Marienburg"
+					schwyzer="Marienburg"
+					polish="Olyszta"
+					estonian="Aluliina"
+				}
+				b_gulbene = {
+					rhenish="Schwanenburg"
+					low_saxon="Schwanenburg"
+					ossi="Schwanenburg"
+					upper_saxon="Schwanenburg"
+					bavarian="Schwanenburg"
+					swabian="Schwanenburg"
+					austrian="Schwanenburg"
+					schwyzer="Schwanenburg"
+					estonian="Kulna"
+				}
+				b_aizkraukle = {
+					rhenish="Ascheraden"
+					low_saxon="Ascheraden"
+					ossi="Ascheraden"
+					upper_saxon="Ascheraden"
+					bavarian="Ascheraden"
+					swabian="Ascheraden"
+					austrian="Ascheraden"
+					schwyzer="Ascheraden"
+				}
+				b_lielvarde = {
+					rhenish="Lennewarden"
+					low_saxon="Lennewarden"
+					ossi="Lennewarden"
+					upper_saxon="Lennewarden"
+					bavarian="Lennewarden"
+					swabian="Lennewarden"
+					austrian="Lennewarden"
+					schwyzer="Lennewarden"
+				}
 			}
 			c_latgale = {
 				color={ 108 79 33 }
 				color2={ 255 255 255 }
+				
+				rhenish="Lettgallen"
+				low_saxon="Lettgallen"
+				ossi="Lettgallen"
+				upper_saxon="Lettgallen"
+				bavarian="Lettgallen"
+				swabian="Lettgallen"
+				austrian="Lettgallen"
+				schwyzer="Lettgallen"
+				polish="Latgalia"
+				lithuanian="Latgala"
 
-				b_balvi = {}
-				b_daugavpils = {}
-				b_rezekne = {}
-				b_kraslava = {}
-				b_ludza = {}
-				b_livani = {}
-				b_preili = {}
+				b_balvi = {
+					rhenish="Bolwen"
+					low_saxon="Bolwen"
+					ossi="Bolwen"
+					upper_saxon="Bolwen"
+					bavarian="Bolwen"
+					swabian="Bolwen"
+					austrian="Bolwen"
+					schwyzer="Bolwen"
+					polish="Bolowsk"
+					lithuanian="Balvai"
+				}
+				b_daugavpils = {
+					rhenish="Dünaburg"
+					low_saxon="Dünaburg"
+					ossi="Dünaburg"
+					upper_saxon="Dünaburg"
+					bavarian="Dünaburg"
+					swabian="Dünaburg"
+					austrian="Dünaburg"
+					schwyzer="Dünaburg"
+					polish="Dyneburg"
+					belarusian="Dzvinsk"
+					lithuanian="Daugpilis"
+					estonian="Väinalinn"
+					finnish="Väinänlinna"
+				}
+				b_rezekne = {
+					rhenish="Rositten"
+					low_saxon="Rositten"
+					ossi="Rositten"
+					upper_saxon="Rositten"
+					bavarian="Rositten"
+					swabian="Rositten"
+					austrian="Rositten"
+					schwyzer="Rositten"
+					polish="Rzezyca"
+					belarusian="Režica"
+					estonian="Räisaku"
+				}
+				b_kraslava = {
+					rhenish="Kreslau"
+					low_saxon="Kreslau"
+					ossi="Kreslau"
+					upper_saxon="Kreslau"
+					bavarian="Kreslau"
+					swabian="Kreslau"
+					austrian="Kreslau"
+					schwyzer="Kreslau"
+					polish="Kraslaw"
+					belarusian="Kraslauka"
+				}
+				b_ludza = {
+					rhenish="Ludsen"
+					low_saxon="Ludsen"
+					ossi="Ludsen"
+					upper_saxon="Ludsen"
+					bavarian="Ludsen"
+					swabian="Ludsen"
+					austrian="Ludsen"
+					schwyzer="Ludsen"
+					polish="Lucyn"
+					estonian="Lutsi"
+				}
+				b_livani = {
+					rhenish="Lievenhof"
+					low_saxon="Lievenhof"
+					ossi="Lievenhof"
+					upper_saxon="Lievenhof"
+					bavarian="Lievenhof"
+					swabian="Lievenhof"
+					austrian="Lievenhof"
+					schwyzer="Lievenhof"
+					lithuanian="Lyvanai" 
+				}
+				b_preili = {
+					rhenish="Prely"
+					low_saxon="Prely"
+					ossi="Prely"
+					upper_saxon="Prely"
+					bavarian="Prely"
+					swabian="Prely"
+					austrian="Prely"
+					schwyzer="Prely"
+					polish="Prele"
+					lithuanian="Preiliai" 
+				}
 			}
 		}
 		
@@ -141,38 +866,289 @@ e_baltic = {
 		
 		capital = 861 # Vilnius
 		
+		rhenish="Litauen"
+		low_saxon="Litauen"
+		ossi="Litauen"
+		upper_saxon="Litauen"
+		bavarian="Litauen"
+		swabian="Litauen"
+		austrian="Litauen"
+		schwyzer="Litauen"
+		swedish="Litauen"
+		danish="Litauen"
+		icelander="Litauen"
+		faroese="Litauen"
+		tronder="Litauen"
+		ostlending="Litauen"
+		vestlending="Litauen"
+		scanian="Litauen"
+		jamta="Litauen"
+		polish="Litwa"
+		belarusian="Litva"
+		lithuanian="Lietuva"
+		latvian="Lietuva"
+		estonian="Leedu"
+		
 		d_kaliningrad = {
 			color={ 237 19 30 }
 			color2={ 255 255 255 }
 		
 			capital = 800 #Kaliningrad
 			
+			rhenish="Königsberg"
+			low_saxon="Königsberg"
+			ossi="Königsberg"
+			upper_saxon="Königsberg"
+			bavarian="Königsberg"
+			swabian="Königsberg"
+			austrian="Königsberg"
+			schwyzer="Königsberg"
+			swedish="Kungsborg"
+			danish="Kongsborg"
+			tronder="Kongsborg"
+			ostlending="Kongsborg"
+			vestlending="Kongsborg"
+			scanian="Kongsborg"
+			jamta="Kungsborg"
+			polish="Królewiec"
+			czech="Královec"
+			belarusian="Kalininhrad"
+			lithuanian="Karaliaucius"
+			
 			c_kaliningrad = {
 				
 				color={ 89 125 190 }
 				color2={ 255 255 255 }
 				
+				rhenish="Königsberg"
+				low_saxon="Königsberg"
+				ossi="Königsberg"
+				upper_saxon="Königsberg"
+				bavarian="Königsberg"
+				swabian="Königsberg"
+				austrian="Königsberg"
+				schwyzer="Königsberg"
+				swedish="Kungsborg"
+				danish="Kongsborg"
+				tronder="Kongsborg"
+				ostlending="Kongsborg"
+				vestlending="Kongsborg"
+				scanian="Kongsborg"
+				jamta="Kungsborg"
+				polish="Królewiec"
+				czech="Královec"
+				belarusian="Kalininhrad"
+				lithuanian="Karaliaucius"
+				
 				kaliningradyets="Kyonik"
 				
-				b_baltiysk = {}
-				b_kaliningrad = {}
-				b_svetly = {}
-				b_gvardeysk={}
-				b_zelenogradsk={}
-				b_guryevsk={}
-				b_svetlogorsk={}
+				b_baltiysk = {
+					rhenish="Pillau"
+					low_saxon="Pillau"
+					ossi="Pillau"
+					upper_saxon="Pillau"
+					bavarian="Pillau"
+					swabian="Pillau"
+					austrian="Pillau"
+					schwyzer="Pillau"
+					polish="Pilawa"
+					lithuanian="Piliava"
+				}
+				b_kaliningrad = {
+					rhenish="Königsberg"
+					low_saxon="Königsberg"
+					ossi="Königsberg"
+					upper_saxon="Königsberg"
+					bavarian="Königsberg"
+					swabian="Königsberg"
+					austrian="Königsberg"
+					schwyzer="Königsberg"
+					swedish="Kungsborg"
+					danish="Kongsborg"
+					tronder="Kongsborg"
+					ostlending="Kongsborg"
+					vestlending="Kongsborg"
+					scanian="Kongsborg"
+					jamta="Kungsborg"
+					polish="Królewiec"
+					czech="Královec"
+					belarusian="Kalininhrad"
+					lithuanian="Karaliaucius"
+				}
+				b_svetly = {
+					rhenish="Zimmerbude"
+					low_saxon="Zimmerbude"
+					ossi="Zimmerbude"
+					upper_saxon="Zimmerbude"
+					bavarian="Zimmerbude"
+					swabian="Zimmerbude"
+					austrian="Zimmerbude"
+					schwyzer="Zimmerbude"
+					polish="Buda"
+					belarusian="Cymierbude"
+					lithuanian="Cimerbude"
+				}
+				b_gvardeysk={
+					rhenish="Tapiau"
+					low_saxon="Tapiau"
+					ossi="Tapiau"
+					upper_saxon="Tapiau"
+					bavarian="Tapiau"
+					swabian="Tapiau"
+					austrian="Tapiau"
+					schwyzer="Tapiau"
+					polish="Tapiewo"
+					belarusian="Hvardziejsk"
+					lithuanian="Tepliava"
+				}
+				b_zelenogradsk={
+					rhenish="Cranz"
+					low_saxon="Cranz"
+					ossi="Cranz"
+					upper_saxon="Cranz"
+					bavarian="Cranz"
+					swabian="Cranz"
+					austrian="Cranz"
+					schwyzer="Cranz"
+					polish="Kranc"
+					belarusian="Kranc"
+					lithuanian="Krantas"
+				}
+				b_guryevsk={
+					rhenish="Neuhausen"
+					low_saxon="Neuhausen"
+					ossi="Neuhausen"
+					upper_saxon="Neuhausen"
+					bavarian="Neuhausen"
+					swabian="Neuhausen"
+					austrian="Neuhausen"
+					schwyzer="Neuhausen"
+					polish="Romnowo"
+					belarusian="Hurjeusk"
+					lithuanian="Gurjevskas"
+					latvian="Gurjevska"
+				}
+				b_svetlogorsk={
+					rhenish="Rauschen"
+					low_saxon="Rauschen"
+					ossi="Rauschen"
+					upper_saxon="Rauschen"
+					bavarian="Rauschen"
+					swabian="Rauschen"
+					austrian="Rauschen"
+					schwyzer="Rauschen"
+					polish="Ruszowice"
+					belarusian="Svietlahorsk"
+					lithuanian="Raušiai"
+				}
 			}
 			c_sovetsk = {
 				color={ 116 161 243 }
 				color2={ 255 255 255 }
+				
+				rhenish="Tilsit"
+				low_saxon="Tilsit"
+				ossi="Tilsit"
+				upper_saxon="Tilsit"
+				bavarian="Tilsit"
+				swabian="Tilsit"
+				austrian="Tilsit"
+				schwyzer="Tilsit"
+				polish="Tylza"
+				belarusian="Savieck"
+				lithuanian="Tilže"
 
-				b_chernyakhovsk= {}
-				b_sovetsk = {}
-				b_gusev = {}
-				b_polessk={}
-				b_neman={}
-				b_nesterov={}
-				b_slavsk={}
+				b_chernyakhovsk= {
+					rhenish="Insterburg"
+					low_saxon="Insterburg"
+					ossi="Insterburg"
+					upper_saxon="Insterburg"
+					bavarian="Insterburg"
+					swabian="Insterburg"
+					austrian="Insterburg"
+					schwyzer="Insterburg"
+					polish="Wystruc"
+					belarusian="Carniachousk"
+					lithuanian="Isrutis"
+				}
+				b_sovetsk = {
+					rhenish="Tilsit"
+					low_saxon="Tilsit"
+					ossi="Tilsit"
+					upper_saxon="Tilsit"
+					bavarian="Tilsit"
+					swabian="Tilsit"
+					austrian="Tilsit"
+					schwyzer="Tilsit"
+					polish="Tylza"
+					belarusian="Savieck"
+					lithuanian="Tilže"
+				}
+				b_gusev = {
+					rhenish="Gumbinnen"
+					low_saxon="Gumbinnen"
+					ossi="Gumbinnen"
+					upper_saxon="Gumbinnen"
+					bavarian="Gumbinnen"
+					swabian="Gumbinnen"
+					austrian="Gumbinnen"
+					schwyzer="Gumbinnen"
+					polish="Gabin"
+					belarusian="Husieu"
+					lithuanian="Gumbine"
+				}
+				b_polessk={
+					rhenish="Labiau"
+					low_saxon="Labiau"
+					ossi="Labiau"
+					upper_saxon="Labiau"
+					bavarian="Labiau"
+					swabian="Labiau"
+					austrian="Labiau"
+					schwyzer="Labiau"
+					polish="Labiawa"
+					belarusian="Paliesk"
+					lithuanian="Labguva"
+				}
+				b_neman={
+					rhenish="Ragnit"
+					low_saxon="Ragnit"
+					ossi="Ragnit"
+					upper_saxon="Ragnit"
+					bavarian="Ragnit"
+					swabian="Ragnit"
+					austrian="Ragnit"
+					schwyzer="Ragnit"
+					polish="Ragneta"
+					belarusian="Nieman"
+					lithuanian="Ragaine"
+				}
+				b_nesterov={
+					rhenish="Stallupönen"
+					low_saxon="Stallupönen"
+					ossi="Stallupönen"
+					upper_saxon="Stallupönen"
+					bavarian="Stallupönen"
+					swabian="Stallupönen"
+					austrian="Stallupönen"
+					schwyzer="Stallupönen"
+					polish="Stolupiany"
+					belarusian="Niescierau"
+					lithuanian="Stalupenai"
+				}
+				b_slavsk={
+					rhenish="Heinrichswalde"
+					low_saxon="Heinrichswalde"
+					ossi="Heinrichswalde"
+					upper_saxon="Heinrichswalde"
+					bavarian="Heinrichswalde"
+					swabian="Heinrichswalde"
+					austrian="Heinrichswalde"
+					schwyzer="Heinrichswalde"
+					polish="Jedrzychowo"
+					belarusian="Slausk"
+					lithuanian="Gastos"
+				}
 			}
 		}
 		d_aukstaitija = {
@@ -181,54 +1157,419 @@ e_baltic = {
 		
 			capital = 861 #Vilnius
 			
+			rhenish="Oberlitauen"
+			low_saxon="Oberlitauen"
+			ossi="Oberlitauen"
+			upper_saxon="Oberlitauen"
+			bavarian="Oberlitauen"
+			swabian="Oberlitauen"
+			austrian="Oberlitauen"
+			schwyzer="Oberlitauen"
+			polish="Auksztota"
+			belarusian="Aukštajcija"
+			
 			c_vilnius = {
 				
 				color={ 151 239 120 }
 				color2={ 255 255 255 }
 				
-				b_ukmerge = {}
-				b_vilnius = {}
-				b_elektrenai = {}
-				b_sirvintos = {}
-				b_trakai = {}
-				b_salcininkai = {}
-				b_svencionys = {}
+				rhenish="Wilna"
+				low_saxon="Wilna"
+				ossi="Wilna"
+				upper_saxon="Wilna"
+				bavarian="Wilna"
+				swabian="Wilna"
+				austrian="Wilna"
+				schwyzer="Wilna"
+				polish="Wilno"
+				belarusian="Vilnya"
+				latvian="Vilna"
+				
+				b_ukmerge = {
+					rhenish="Wilkomir"
+					low_saxon="Wilkomir"
+					ossi="Wilkomir"
+					upper_saxon="Wilkomir"
+					bavarian="Wilkomir"
+					swabian="Wilkomir"
+					austrian="Wilkomir"
+					schwyzer="Wilkomir"
+					polish="Wilkomierz"
+				}
+				b_vilnius = {
+					rhenish="Wilna"
+					low_saxon="Wilna"
+					ossi="Wilna"
+					upper_saxon="Wilna"
+					bavarian="Wilna"
+					swabian="Wilna"
+					austrian="Wilna"
+					schwyzer="Wilna"
+					polish="Wilno"
+					belarusian="Vilnya"
+					latvian="Vilna"
+				}
+				b_elektrenai = {
+					rhenish="Elektrischestadt"
+					low_saxon="Elektrischestadt"
+					ossi="Elektrischestadt"
+					upper_saxon="Elektrischestadt"
+					bavarian="Elektrischestadt"
+					swabian="Elektrischestadt"
+					austrian="Elektrischestadt"
+					schwyzer="Elektrischestadt"
+					polish="Elektreny"
+					belarusian="Eliaktrenaj"
+					latvian="Elektreni"
+				}
+				b_sirvintos = {
+					rhenish="Schirwindt"
+					low_saxon="Schirwindt"
+					ossi="Schirwindt"
+					upper_saxon="Schirwindt"
+					bavarian="Schirwindt"
+					swabian="Schirwindt"
+					austrian="Schirwindt"
+					schwyzer="Schirwindt"
+					polish="Szyrwinty"
+					belarusian="Šyrvintas"
+					latvian="Širvintas"
+				}
+				b_trakai = {
+					rhenish="Tracken"
+					low_saxon="Tracken"
+					ossi="Tracken"
+					upper_saxon="Tracken"
+					bavarian="Tracken"
+					swabian="Tracken"
+					austrian="Tracken"
+					schwyzer="Tracken"
+					polish="Troki"
+					belarusian="Trakaj"
+					latvian="Traki"
+				}
+				b_salcininkai = {
+					rhenish="Sassenicken"
+					low_saxon="Sassenicken"
+					ossi="Sassenicken"
+					upper_saxon="Sassenicken"
+					bavarian="Sassenicken"
+					swabian="Sassenicken"
+					austrian="Sassenicken"
+					schwyzer="Sassenicken"
+					polish="Soleczniki"
+					belarusian="Saliecniki"
+					latvian="Šalcininki"
+				}
+				b_svencionys = {
+					rhenish="Swenziany"
+					low_saxon="Swenziany"
+					ossi="Swenziany"
+					upper_saxon="Swenziany"
+					bavarian="Swenziany"
+					swabian="Swenziany"
+					austrian="Swenziany"
+					schwyzer="Swenziany"
+					polish="Swieciany"
+					belarusian="Svianciany"
+					latvian="Švenconi"
+				}
 			}
 			c_alytus = {
 				color={ 6 184 7 }
 				color2={ 255 255 255 }
+				
+				rhenish="Aliten"
+				low_saxon="Aliten"
+				ossi="Aliten"
+				upper_saxon="Aliten"
+				bavarian="Aliten"
+				swabian="Aliten"
+				austrian="Aliten"
+				schwyzer="Aliten"
+				polish="Olita"
+				belarusian="Alita"
+				latvian="Alita"
 
-				b_druskininkai = {}
-				b_alytus = {}
-				b_varena = {}
-				b_lazdijai = {}
-				b_leipalingis = {}
-				b_senoji_varena = {}
-				b_merkine = {}
+				b_druskininkai = {
+					rhenish="Druscheniken"
+					low_saxon="Druscheniken"
+					ossi="Druscheniken"
+					upper_saxon="Druscheniken"
+					bavarian="Druscheniken"
+					swabian="Druscheniken"
+					austrian="Druscheniken"
+					schwyzer="Druscheniken"
+					polish="Druskieniki"
+					belarusian="Druskieniki"
+					latvian="Druskininki"
+				}
+				b_alytus = {
+					rhenish="Aliten"
+					low_saxon="Aliten"
+					ossi="Aliten"
+					upper_saxon="Aliten"
+					bavarian="Aliten"
+					swabian="Aliten"
+					austrian="Aliten"
+					schwyzer="Aliten"
+					polish="Olita"
+					belarusian="Alita"
+					latvian="Alita"
+				}
+				b_varena = {
+					rhenish="Warnen"
+					low_saxon="Warnen"
+					ossi="Warnen"
+					upper_saxon="Warnen"
+					bavarian="Warnen"
+					swabian="Warnen"
+					austrian="Warnen"
+					schwyzer="Warnen"
+					polish="Orany"
+				}
+				b_lazdijai = {
+					rhenish="Lasdien"
+					low_saxon="Lasdien"
+					ossi="Lasdien"
+					upper_saxon="Lasdien"
+					bavarian="Lasdien"
+					swabian="Lasdien"
+					austrian="Lasdien"
+					schwyzer="Lasdien"
+					polish="Lozdzieje"
+					belarusian="Lazdzijaj"
+					latvian="Lazdiji"
+				}
+				b_leipalingis = {
+					polish="Lejpuny"
+					belarusian="Liejpalinhis"
+				}
+				b_senoji_varena = {
+					rhenish="Altwarnen"
+					low_saxon="Altwarnen"
+					ossi="Altwarnen"
+					upper_saxon="Altwarnen"
+					bavarian="Altwarnen"
+					swabian="Altwarnen"
+					austrian="Altwarnen"
+					schwyzer="Altwarnen"
+					polish="Stare Orany"
+				}
+				b_merkine = {
+					rhenish="Meresch"
+					low_saxon="Meresch"
+					ossi="Meresch"
+					upper_saxon="Meresch"
+					bavarian="Meresch"
+					swabian="Meresch"
+					austrian="Meresch"
+					schwyzer="Meresch"
+					polish="Merecz"
+					belarusian="Mierac"
+				}
 			}
 			c_panevezys = {
 				color={ 9 181 88 }
 				color2={ 255 255 255 }
+				
+				rhenish="Ponewiesch"
+				low_saxon="Ponewiesch"
+				ossi="Ponewiesch"
+				upper_saxon="Ponewiesch"
+				bavarian="Ponewiesch"
+				swabian="Ponewiesch"
+				austrian="Ponewiesch"
+				schwyzer="Ponewiesch"
+				polish="Poniewiez"
+				belarusian="Paniaviežys"
+				latvian="Paneveža"
 
-				b_birzai = {}
-				b_panevezys = {}
-				b_rokiskis = {}
-				b_kupiskis = {}
-				b_pasvalys = {}
-				b_joniskelis = {}
-				b_obeliai = {}
+				b_birzai = {
+					rhenish="Birsen"
+					low_saxon="Birsen"
+					ossi="Birsen"
+					upper_saxon="Birsen"
+					bavarian="Birsen"
+					swabian="Birsen"
+					austrian="Birsen"
+					schwyzer="Birsen"
+					polish="Birze"
+					belarusian="Biržaj"
+					latvian="Birži"
+				}
+				b_panevezys = {
+					rhenish="Ponewiesch"
+					low_saxon="Ponewiesch"
+					ossi="Ponewiesch"
+					upper_saxon="Ponewiesch"
+					bavarian="Ponewiesch"
+					swabian="Ponewiesch"
+					austrian="Ponewiesch"
+					schwyzer="Ponewiesch"
+					polish="Poniewiez"
+					belarusian="Paniaviežys"
+					latvian="Paneveža"
+				}
+				b_rokiskis = {
+					rhenish="Rokischken"
+					low_saxon="Rokischken"
+					ossi="Rokischken"
+					upper_saxon="Rokischken"
+					bavarian="Rokischken"
+					swabian="Rokischken"
+					austrian="Rokischken"
+					schwyzer="Rokischken"
+					polish="Rakiszki"
+					latvian="Rokiški"
+				}
+				b_kupiskis = {
+					rhenish="Kupischken"
+					low_saxon="Kupischken"
+					ossi="Kupischken"
+					upper_saxon="Kupischken"
+					bavarian="Kupischken"
+					swabian="Kupischken"
+					austrian="Kupischken"
+					schwyzer="Kupischken"
+					polish="Kupiszki"
+					latvian="Kupiški"
+				}
+				b_pasvalys = {
+					rhenish="Poswol"
+					low_saxon="Poswol"
+					ossi="Poswol"
+					upper_saxon="Poswol"
+					bavarian="Poswol"
+					swabian="Poswol"
+					austrian="Poswol"
+					schwyzer="Poswol"
+					polish="Poswol"
+					belarusian="Pasvalis"
+					latvian="Pasvale"
+				}
+				b_joniskelis = {
+					rhenish="Johansgrat"
+					low_saxon="Johansgrat"
+					ossi="Johansgrat"
+					upper_saxon="Johansgrat"
+					bavarian="Johansgrat"
+					swabian="Johansgrat"
+					austrian="Johansgrat"
+					schwyzer="Johansgrat"
+					polish="Johaniszkiele"
+					belarusian="Johaniškeli"
+					latvian="Joniškele"
+				}
+				b_obeliai = {
+					rhenish="Abeln"
+					low_saxon="Abeln"
+					ossi="Abeln"
+					upper_saxon="Abeln"
+					bavarian="Abeln"
+					swabian="Abeln"
+					austrian="Abeln"
+					schwyzer="Abeln"
+					polish="Abele"
+					belarusian="Abialiej"
+					latvian="Obeli"
+				}
 			}
 			c_utena = {
 				color={ 108 198 81 }
 				color2={ 255 255 255 }
+				
+				rhenish="Utenen"
+				low_saxon="Utenen"
+				ossi="Utenen"
+				upper_saxon="Utenen"
+				bavarian="Utenen"
+				swabian="Utenen"
+				austrian="Utenen"
+				schwyzer="Utenen"
+				polish="Uciana"
+				belarusian="Uciana"
 
-				b_visaginas = {}
-				b_utena = {}
-				b_anyksciai = {}
-				b_zarasai = {}
-				b_moletai = {}
-				b_ignalina = {}
-				b_dusetos = {}
+				b_visaginas = {
+					rhenish="Wisginen"
+					low_saxon="Wisginen"
+					ossi="Wisginen"
+					upper_saxon="Wisginen"
+					bavarian="Wisginen"
+					swabian="Wisginen"
+					austrian="Wisginen"
+					schwyzer="Wisginen"
+					polish="Wisaginia"
+					belarusian="Visahinas"
+					latvian="Visagina"
+				}
+				b_utena = {
+					rhenish="Utenen"
+					low_saxon="Utenen"
+					ossi="Utenen"
+					upper_saxon="Utenen"
+					bavarian="Utenen"
+					swabian="Utenen"
+					austrian="Utenen"
+					schwyzer="Utenen"
+					polish="Uciana"
+					belarusian="Uciana"
+				}
+				b_anyksciai = {
+					rhenish="Onikschten"
+					low_saxon="Onikschten"
+					ossi="Onikschten"
+					upper_saxon="Onikschten"
+					bavarian="Onikschten"
+					swabian="Onikschten"
+					austrian="Onikschten"
+					schwyzer="Onikschten"
+					polish="Onikszty"
+					belarusian="Anikšcej"
+					latvian="Anikšci"
+				}
+				b_zarasai = {
+					rhenish="Escheren"
+					low_saxon="Escheren"
+					ossi="Escheren"
+					upper_saxon="Escheren"
+					bavarian="Escheren"
+					swabian="Escheren"
+					austrian="Escheren"
+					schwyzer="Escheren"
+					polish="Jeziorosy"
+					latvian="Zarasi"
+				}
+				b_moletai = {
+					rhenish="Mulau"
+					low_saxon="Mulau"
+					ossi="Mulau"
+					upper_saxon="Mulau"
+					bavarian="Mulau"
+					swabian="Mulau"
+					austrian="Mulau"
+					schwyzer="Mulau"
+					polish="Malaty"
+					belarusian="Malietaj"
+					latvian="Moleti"
+				}
+				b_ignalina = {
+					rhenish="Ingelin"
+					low_saxon="Ingelin"
+					ossi="Ingelin"
+					upper_saxon="Ingelin"
+					bavarian="Ingelin"
+					swabian="Ingelin"
+					austrian="Ingelin"
+					schwyzer="Ingelin"
+					polish="Ignalino"
+					belarusian="Ihnalina"
+				}
+				b_dusetos = {
+					polish="Dusiaty"
+					belarusian="Dusiatas"
+					latvian="Dusetas"
+				}
 			}
 		}
 		d_samogitia = {
@@ -237,86 +1578,651 @@ e_baltic = {
 		
 			capital = 896 #Siauliai
 			
+			rhenish="Samogitien"
+			low_saxon="Samogitien"
+			ossi="Samogitien"
+			upper_saxon="Samogitien"
+			bavarian="Samogitien"
+			swabian="Samogitien"
+			austrian="Samogitien"
+			schwyzer="Samogitien"
+			polish="Zmudz"
+			belarusian="Žamojc"
+			lithuanian="Žemaitija"
+			latvian="Žemaitija"
+			
 			c_klaipeda = {
 				
 				color={ 48 94 74 }
 				color2={ 255 255 255 }
 				
-				b_kretinga = {}
-				b_klaipeda = {}
-				b_silute = {}
-				b_gargzdai = {}
-				b_palanga = {}
-				b_skuodas = {}
-				b_nida = {}
+				rhenish="Memel"
+				low_saxon="Memel"
+				ossi="Memel"
+				upper_saxon="Memel"
+				bavarian="Memel"
+				swabian="Memel"
+				austrian="Memel"
+				schwyzer="Memel"
+				polish="Klajpeda"
+				belarusian="Klajpieda"
+				
+				b_kretinga = {
+					rhenish="Crottingen"
+					low_saxon="Crottingen"
+					ossi="Crottingen"
+					upper_saxon="Crottingen"
+					bavarian="Crottingen"
+					swabian="Crottingen"
+					austrian="Crottingen"
+					schwyzer="Crottingen"
+					polish="Kretynga"
+					belarusian="Kracinha"
+				}
+				b_klaipeda = {
+					rhenish="Memel"
+					low_saxon="Memel"
+					ossi="Memel"
+					upper_saxon="Memel"
+					bavarian="Memel"
+					swabian="Memel"
+					austrian="Memel"
+					schwyzer="Memel"
+					polish="Klajpeda"
+					belarusian="Klajpieda"
+				}
+				b_silute = {
+					rhenish="Heydekrug"
+					low_saxon="Heydekrug"
+					ossi="Heydekrug"
+					upper_saxon="Heydekrug"
+					bavarian="Heydekrug"
+					swabian="Heydekrug"
+					austrian="Heydekrug"
+					schwyzer="Heydekrug"
+					polish="Szylokarczma"
+					belarusian="Šylucie"
+				}
+				b_gargzdai = {
+					rhenish="Garsden"
+					low_saxon="Garsden"
+					ossi="Garsden"
+					upper_saxon="Garsden"
+					bavarian="Garsden"
+					swabian="Garsden"
+					austrian="Garsden"
+					schwyzer="Garsden"
+					polish="Gorzdy"
+					belarusian="Harhždaj"
+					latvian="Gargždi"
+				}
+				b_palanga = {
+					rhenish="Polangen"
+					low_saxon="Polangen"
+					ossi="Polangen"
+					upper_saxon="Polangen"
+					bavarian="Polangen"
+					swabian="Polangen"
+					austrian="Polangen"
+					schwyzer="Polangen"
+					polish="Polaga"
+					belarusian="Palanha"
+				}
+				b_skuodas = {
+					rhenish="Schoden"
+					low_saxon="Schoden"
+					ossi="Schoden"
+					upper_saxon="Schoden"
+					bavarian="Schoden"
+					swabian="Schoden"
+					austrian="Schoden"
+					schwyzer="Schoden"
+					polish="Szkudy"
+				}
+				b_nida = {
+					rhenish="Nidden"
+					low_saxon="Nidden"
+					ossi="Nidden"
+					upper_saxon="Nidden"
+					bavarian="Nidden"
+					swabian="Nidden"
+					austrian="Nidden"
+					schwyzer="Nidden"
+				}
 			}
 			c_telsiai = {
 				color={ 57 238 162 }
 				color2={ 255 255 255 }
+				
+				rhenish="Telsche"
+				low_saxon="Telsche"
+				ossi="Telsche"
+				upper_saxon="Telsche"
+				bavarian="Telsche"
+				swabian="Telsche"
+				austrian="Telsche"
+				schwyzer="Telsche"
+				polish="Telsze"
+				belarusian="Cialšej"
+				latvian="Telši"
 
-				b_telsiai = {}
-				b_mazeikiai = {}
-				b_plunge = {}
-				b_rietavas = {}
-				b_plateliai = {}
-				b_tirksliai = {}
-				b_luoke = {}
+				b_telsiai = {
+					rhenish="Telsche"
+					low_saxon="Telsche"
+					ossi="Telsche"
+					upper_saxon="Telsche"
+					bavarian="Telsche"
+					swabian="Telsche"
+					austrian="Telsche"
+					schwyzer="Telsche"
+					polish="Telsze"
+					belarusian="Cialšej"
+					latvian="Telši"
+				}
+				b_mazeikiai = {
+					rhenish="Moscheiken"
+					low_saxon="Moscheiken"
+					ossi="Moscheiken"
+					upper_saxon="Moscheiken"
+					bavarian="Moscheiken"
+					swabian="Moscheiken"
+					austrian="Moscheiken"
+					schwyzer="Moscheiken"
+					polish="Mozejki"
+					belarusian="Mažejkiej"
+					latvian="Mažeiki"
+				}
+				b_plunge = {
+					rhenish="Plungen"
+					low_saxon="Plungen"
+					ossi="Plungen"
+					upper_saxon="Plungen"
+					bavarian="Plungen"
+					swabian="Plungen"
+					austrian="Plungen"
+					schwyzer="Plungen"
+					polish="Plungiany"
+					belarusian="Plunhie"
+				}
+				b_rietavas = {
+					rhenish="Redau"
+					low_saxon="Redau"
+					ossi="Redau"
+					upper_saxon="Redau"
+					bavarian="Redau"
+					swabian="Redau"
+					austrian="Redau"
+					schwyzer="Redau"
+					polish="Retów"
+					belarusian="Retava" 
+					latvian="Rietava"
+				}
+				b_plateliai = {
+					rhenish="Platelen"
+					low_saxon="Platelen"
+					ossi="Platelen"
+					upper_saxon="Platelen"
+					bavarian="Platelen"
+					swabian="Platelen"
+					austrian="Platelen"
+					schwyzer="Platelen"
+					polish="Plótele"
+					latvian="Plateli"
+				}
+				b_tirksliai = {
+					rhenish="Tirkschlen"
+					low_saxon="Tirkschlen"
+					ossi="Tirkschlen"
+					upper_saxon="Tirkschlen"
+					bavarian="Tirkschlen"
+					swabian="Tirkschlen"
+					austrian="Tirkschlen"
+					schwyzer="Tirkschlen"
+					polish="Tyrkszle"
+				}
+				b_luoke = {
+					rhenish="Lucken"
+					low_saxon="Lucken"
+					ossi="Lucken"
+					upper_saxon="Lucken"
+					bavarian="Lucken"
+					swabian="Lucken"
+					austrian="Lucken"
+					schwyzer="Lucken"
+					polish="Lukniki"
+					latvian="Loke"
+				}
 			}
 			c_siauliai = {
 				color={ 145 162 69 }
 				color2={ 255 255 255 }
+				
+				rhenish="Schaulen"
+				low_saxon="Schaulen"
+				ossi="Schaulen"
+				upper_saxon="Schaulen"
+				bavarian="Schaulen"
+				swabian="Schaulen"
+				austrian="Schaulen"
+				schwyzer="Schaulen"
+				polish="Szawle"
+				belarusian="Šauliaj"
+				latvian="Šauli"
 
-				b_radviliskis = {}
-				b_siauliai = {}
-				b_naujoji_akmene = {}
-				b_joniskis = {}
-				b_kelme = {}
-				b_pakruojis = {}
-				b_venta = {}
+				b_radviliskis = {
+					rhenish="Radwilischken"
+					low_saxon="Radwilischken"
+					ossi="Radwilischken"
+					upper_saxon="Radwilischken"
+					bavarian="Radwilischken"
+					swabian="Radwilischken"
+					austrian="Radwilischken"
+					schwyzer="Radwilischken"
+					polish="Radziwiliszki"
+					belarusian="Radzviliškis"
+					latvian="Radviliški"
+				}
+				b_siauliai = {
+					rhenish="Schaulen"
+					low_saxon="Schaulen"
+					ossi="Schaulen"
+					upper_saxon="Schaulen"
+					bavarian="Schaulen"
+					swabian="Schaulen"
+					austrian="Schaulen"
+					schwyzer="Schaulen"
+					polish="Szawle"
+					belarusian="Šauliaj"
+					latvian="Šauli"
+				}
+				b_naujoji_akmene = {
+					rhenish="Neu Akmenen"
+					low_saxon="Neu Akmenen"
+					ossi="Neu Akmenen"
+					upper_saxon="Neu Akmenen"
+					bavarian="Neu Akmenen"
+					swabian="Neu Akmenen"
+					austrian="Neu Akmenen"
+					schwyzer="Neu Akmenen"
+					polish="Nowe Okmiany"
+					belarusian="Novy Akmianie"
+				}
+				b_joniskis = {
+					rhenish="Jonischken"
+					low_saxon="Jonischken"
+					ossi="Jonischken"
+					upper_saxon="Jonischken"
+					bavarian="Jonischken"
+					swabian="Jonischken"
+					austrian="Jonischken"
+					schwyzer="Jonischken"
+					polish="Janiszki"
+					belarusian="Janiški"
+					latvian="Janiške"
+				}
+				b_kelme = {
+					rhenish="Kelm"
+					low_saxon="Kelm"
+					ossi="Kelm"
+					upper_saxon="Kelm"
+					bavarian="Kelm"
+					swabian="Kelm"
+					austrian="Kelm"
+					schwyzer="Kelm"
+					polish="Kielmy"
+					belarusian="Kialmie"
+				}
+				b_pakruojis = {
+					rhenish="Pockroy"
+					low_saxon="Pockroy"
+					ossi="Pockroy"
+					upper_saxon="Pockroy"
+					bavarian="Pockroy"
+					swabian="Pockroy"
+					austrian="Pockroy"
+					schwyzer="Pockroy"
+					polish="Pokroje"
+					belarusian="Pakroj"
+					latvian="Pakroja"
+				}
+				b_venta = {
+					rhenish="Wenta"
+					low_saxon="Wenta"
+					ossi="Wenta"
+					upper_saxon="Wenta"
+					bavarian="Wenta"
+					swabian="Wenta"
+					austrian="Wenta"
+					schwyzer="Wenta"
+					polish="Wenta"
+					belarusian="Vianta"
+				}
 			}
 		}
-		d_sudovia = {
+		d_suvalkija = {
 			color={ 234 28 187 }
 			color2={ 255 255 255 }
 		
 			capital = 862 #Kaunas
+			
+			rhenish="Sudauen"
+			low_saxon="Sudauen"
+			ossi="Sudauen"
+			upper_saxon="Sudauen"
+			bavarian="Sudauen"
+			swabian="Sudauen"
+			austrian="Sudauen"
+			schwyzer="Sudauen"
+			polish="Jacwingia"
 			
 			c_taurage = {
 				
 				color={ 234 249 47 }
 				color2={ 255 255 255 }
 				
-				b_jurbarkas = {}
-				b_taurage = {}
-				b_silale = {}
-				b_pagegiai = {}
-				b_skaudvile = {}
-				b_kvedarna = {}
-				b_pajuris = {}
+				rhenish="Tauroggen"
+				low_saxon="Tauroggen"
+				ossi="Tauroggen"
+				upper_saxon="Tauroggen"
+				bavarian="Tauroggen"
+				swabian="Tauroggen"
+				austrian="Tauroggen"
+				schwyzer="Tauroggen"
+				polish="Taurogi"
+				belarusian="Taurahie"
+				
+				b_jurbarkas = {
+					rhenish="Georgenburg"
+					low_saxon="Georgenburg"
+					ossi="Georgenburg"
+					upper_saxon="Georgenburg"
+					bavarian="Georgenburg"
+					swabian="Georgenburg"
+					austrian="Georgenburg"
+					schwyzer="Georgenburg"
+					polish="Taurogi"
+					belarusian="Taurahie"
+				}
+				b_taurage = {
+					rhenish="Tauroggen"
+					low_saxon="Tauroggen"
+					ossi="Tauroggen"
+					upper_saxon="Tauroggen"
+					bavarian="Tauroggen"
+					swabian="Tauroggen"
+					austrian="Tauroggen"
+					schwyzer="Tauroggen"
+					polish="Jurbork"
+					latvian="Jurbarka"
+				}
+				b_silale = {
+					rhenish="Schlelen"
+					low_saxon="Schlelen"
+					ossi="Schlelen"
+					upper_saxon="Schlelen"
+					bavarian="Schlelen"
+					swabian="Schlelen"
+					austrian="Schlelen"
+					schwyzer="Schlelen"
+					polish="Szylele"
+					belarusian="Šylalie"
+				}
+				b_pagegiai = {
+					rhenish="Pogegen"
+					low_saxon="Pogegen"
+					ossi="Pogegen"
+					upper_saxon="Pogegen"
+					bavarian="Pogegen"
+					swabian="Pogegen"
+					austrian="Pogegen"
+					schwyzer="Pogegen"
+					polish="Pojegi"
+					belarusian="Pahiehi"
+					latvian="Pagegi"
+				}
+				b_skaudvile = {
+					rhenish="Schaudwillen"
+					low_saxon="Schaudwillen"
+					ossi="Schaudwillen"
+					upper_saxon="Schaudwillen"
+					bavarian="Schaudwillen"
+					swabian="Schaudwillen"
+					austrian="Schaudwillen"
+					schwyzer="Schaudwillen"
+					polish="Skaudwile"
+					belarusian="Skaudzvilie"
+				}
+				b_kvedarna = {
+					rhenish="Konstantinau"
+					low_saxon="Konstantinau"
+					ossi="Konstantinau"
+					upper_saxon="Konstantinau"
+					bavarian="Konstantinau"
+					swabian="Konstantinau"
+					austrian="Konstantinau"
+					schwyzer="Konstantinau"
+					polish="Konstantynowo"
+				}
+				b_pajuris = {
+					rhenish="Pairen"
+					low_saxon="Pairen"
+					ossi="Pairen"
+					upper_saxon="Pairen"
+					bavarian="Pairen"
+					swabian="Pairen"
+					austrian="Pairen"
+					schwyzer="Pairen"
+					polish="Pojurze"
+					latvian="Pajura"
+				}
 			}
 			c_kaunas = {
 				color={ 193 28 199 }
 				color2={ 255 255 255 }
+				
+				rhenish="Kauen"
+				low_saxon="Kauen"
+				ossi="Kauen"
+				upper_saxon="Kauen"
+				bavarian="Kauen"
+				swabian="Kauen"
+				austrian="Kauen"
+				schwyzer="Kauen"
+				polish="Kowno"
+				belarusian="Kouna"
+				latvian="Kauna"
 
-				b_jonava = {}
-				b_kaunas = {}
-				b_kedainiai = {}
-				b_raseiniai = {}
-				b_kaisiadorys = {}
-				b_prienai = {}
-				b_birstonas = {}
+				b_jonava = {
+					rhenish="Janau"
+					low_saxon="Janau"
+					ossi="Janau"
+					upper_saxon="Janau"
+					bavarian="Janau"
+					swabian="Janau"
+					austrian="Janau"
+					schwyzer="Janau"
+					polish="Janów"
+					belarusian="Janava"
+				}
+				b_kaunas = {
+					rhenish="Kauen"
+					low_saxon="Kauen"
+					ossi="Kauen"
+					upper_saxon="Kauen"
+					bavarian="Kauen"
+					swabian="Kauen"
+					austrian="Kauen"
+					schwyzer="Kauen"
+					polish="Kowno"
+					belarusian="Kouna"
+					latvian="Kauna"
+				}
+				b_kedainiai = {
+					rhenish="Kedahnen"
+					low_saxon="Kedahnen"
+					ossi="Kedahnen"
+					upper_saxon="Kedahnen"
+					bavarian="Kedahnen"
+					swabian="Kedahnen"
+					austrian="Kedahnen"
+					schwyzer="Kedahnen"
+					polish="Kiejdany"
+					belarusian="Kiedajniej"
+					latvian="Kedaini"
+				}
+				b_raseiniai = {
+					rhenish="Raseinen"
+					low_saxon="Raseinen"
+					ossi="Raseinen"
+					upper_saxon="Raseinen"
+					bavarian="Raseinen"
+					swabian="Raseinen"
+					austrian="Raseinen"
+					schwyzer="Raseinen"
+					polish="Rosienie"
+					belarusian="Rasiejny"
+					latvian="Raseini"
+				}
+				b_kaisiadorys = {
+					rhenish="Koschedaren"
+					low_saxon="Koschedaren"
+					ossi="Koschedaren"
+					upper_saxon="Koschedaren"
+					bavarian="Koschedaren"
+					swabian="Koschedaren"
+					austrian="Koschedaren"
+					schwyzer="Koschedaren"
+					polish="Koszedary"
+					belarusian="Kašadary"
+					latvian="Kaišadore"
+				}
+				b_prienai = {
+					rhenish="Prenn"
+					low_saxon="Prenn"
+					ossi="Prenn"
+					upper_saxon="Prenn"
+					bavarian="Prenn"
+					swabian="Prenn"
+					austrian="Prenn"
+					schwyzer="Prenn"
+					polish="Preny"
+					belarusian="Pryjenaj"
+					latvian="Prieni"
+				}
+				b_birstonas = {
+					rhenish="Birschtannen"
+					low_saxon="Birschtannen"
+					ossi="Birschtannen"
+					upper_saxon="Birschtannen"
+					bavarian="Birschtannen"
+					swabian="Birschtannen"
+					austrian="Birschtannen"
+					schwyzer="Birschtannen"
+					polish="Birsztany"
+					belarusian="Birštanas"
+					latvian="Birštona"
+				}
 			}
 			c_marijampole = {
 				color={ 134 108 187 }
 				color2={ 255 255 255 }
+				
+				rhenish="Mariampol"
+				low_saxon="Mariampol"
+				ossi="Mariampol"
+				upper_saxon="Mariampol"
+				bavarian="Mariampol"
+				swabian="Mariampol"
+				austrian="Mariampol"
+				schwyzer="Mariampol"
+				polish="Mariampol"
+				belarusian="Marjampalie"
 
-				b_vilkaviskis = {}
-				b_marijampole = {}
-				b_sakiai = {}
-				b_kazlu_ruda = {}
-				b_kalvarija = {}
-				b_kybartai = {}
-				b_graziskiai = {}
+				b_vilkaviskis = {
+					rhenish="Wilkowischken"
+					low_saxon="Wilkowischken"
+					ossi="Wilkowischken"
+					upper_saxon="Wilkowischken"
+					bavarian="Wilkowischken"
+					swabian="Wilkowischken"
+					austrian="Wilkowischken"
+					schwyzer="Wilkowischken"
+					polish="Wylkowyszki"
+					belarusian="Vaukaviški"
+					latvian="Vilkaviški"
+				}
+				b_marijampole = {
+					rhenish="Mariampol"
+					low_saxon="Mariampol"
+					ossi="Mariampol"
+					upper_saxon="Mariampol"
+					bavarian="Mariampol"
+					swabian="Mariampol"
+					austrian="Mariampol"
+					schwyzer="Mariampol"
+					polish="Mariampol"
+					belarusian="Marjampalie"
+				}
+				b_sakiai = {
+					rhenish="Schaken"
+					low_saxon="Schaken"
+					ossi="Schaken"
+					upper_saxon="Schaken"
+					bavarian="Schaken"
+					swabian="Schaken"
+					austrian="Schaken"
+					schwyzer="Schaken"
+					polish="Szaki"
+					belarusian="Šakiej"
+					latvian="Šaki"
+				}
+				b_kazlu_ruda = {
+					rhenish="Koselrode"
+					low_saxon="Koselrode"
+					ossi="Koselrode"
+					upper_saxon="Koselrode"
+					bavarian="Koselrode"
+					swabian="Koselrode"
+					austrian="Koselrode"
+					schwyzer="Koselrode"
+					polish="Kozlowa Ruda"
+				}
+				b_kalvarija = {
+					rhenish="Kalvarien"
+					low_saxon="Kalvarien"
+					ossi="Kalvarien"
+					upper_saxon="Kalvarien"
+					bavarian="Kalvarien"
+					swabian="Kalvarien"
+					austrian="Kalvarien"
+					schwyzer="Kalvarien"
+					polish="Kalwaria"
+					belarusian="Kalvaryja"
+				}
+				b_kybartai = {
+					rhenish="Kibarten"
+					low_saxon="Kibarten"
+					ossi="Kibarten"
+					upper_saxon="Kibarten"
+					bavarian="Kibarten"
+					swabian="Kibarten"
+					austrian="Kibarten"
+					schwyzer="Kibarten"
+					polish="Kibarty"
+					belarusian="Kibartaj"
+					latvian="Kibarti"
+				}
+				b_graziskiai = {
+					rhenish="Graschken"
+					low_saxon="Graschken"
+					ossi="Graschken"
+					upper_saxon="Graschken"
+					bavarian="Graschken"
+					swabian="Graschken"
+					austrian="Graschken"
+					schwyzer="Graschken"
+					polish="Grazyszki"
+				}
 			}
 		}
 	}
@@ -326,7 +2232,26 @@ e_baltic = {
 		
 		capital = 535 # Tallinn
 		
-		danish = "Øsel" 
+		rhenish="Estland"
+		low_saxon="Estland"
+		ossi="Estland"
+		upper_saxon="Estland"
+		bavarian="Estland"
+		swabian="Estland"
+		austrian="Estland"
+		schwyzer="Estland"
+		swedish="Estland"
+		danish="Estland"
+		icelander="Estland"
+		faroese="Estland"
+		tronder="Estland"
+		ostlending="Estland"
+		vestlending="Estland"
+		scanian="Estland"
+		jamta="Estland"
+		lithuanian="Estija"
+		latvian="Igaunija"
+		estonian="Eesti"
 		
 		d_harjumaa = {
 			color={ 90 140 110 }
@@ -334,11 +2259,70 @@ e_baltic = {
 		
 			capital = 535 # Tallinn
 			
+			rhenish="Harrien"
+			low_saxon="Harrien"
+			ossi="Harrien"
+			upper_saxon="Harrien"
+			bavarian="Harrien"
+			swabian="Harrien"
+			austrian="Harrien"
+			schwyzer="Harrien"
+			swedish="Harrien"
+			danish="Harrien"
+			icelander="Harrien"
+			faroese="Harrien"
+			tronder="Harrien"
+			ostlending="Harrien"
+			vestlending="Harrien"
+			scanian="Harrien"
+			jamta="Harrien"
+			latvian="Harjuma"
+			
 			c_tallinn = {
 				color={ 124 157 59 }
 				color2={ 255 255 255 }
+				
+				rhenish="Reval"
+				low_saxon="Reval"
+				ossi="Reval"
+				upper_saxon="Reval"
+				bavarian="Reval"
+				swabian="Reval"
+				austrian="Reval"
+				schwyzer="Reval"
+				swedish="Reval"
+				danish="Reval"
+				icelander="Reval"
+				faroese="Reval"
+				tronder="Reval"
+				ostlending="Reval"
+				vestlending="Reval"
+				scanian="Reval"
+				jamta="Reval"
+				lithuanian="Talinas"
+				latvian="Tallina"
 
-				b_tallinn = {}
+				b_tallinn = {
+					rhenish="Reval"
+					low_saxon="Reval"
+					ossi="Reval"
+					upper_saxon="Reval"
+					bavarian="Reval"
+					swabian="Reval"
+					austrian="Reval"
+					schwyzer="Reval"
+					swedish="Reval"
+					danish="Reval"
+					icelander="Reval"
+					faroese="Reval"
+					tronder="Reval"
+					ostlending="Reval"
+					vestlending="Reval"
+					scanian="Reval"
+					jamta="Reval"
+					lithuanian="Talinas"
+					latvian="Tallina"
+				}
 				b_tabasalu = {}
 				b_juri = {}
 				b_tuhala = {}
@@ -352,6 +2336,19 @@ e_baltic = {
 			c_laanemaa = {
 				color={ 89 149 189 }
 				color2={ 255 255 255 }
+				
+				rhenish="Wiek"
+				low_saxon="Wiek"
+				ossi="Wiek"
+				upper_saxon="Wiek"
+				bavarian="Wiek"
+				swabian="Wiek"
+				austrian="Wiek"
+				schwyzer="Wiek"
+				swedish="Wiek"
+				danish="Wiek"
+				lithuanian="Lenema"
+				latvian="Lenema"
 
 				b_haapsalu = {}
 				b_hullo = {}
@@ -365,6 +2362,26 @@ e_baltic = {
 			c_raplamaa = {
 				color={ 147 155 129 }
 				color2={ 255 255 255 }
+				
+				rhenish="Rappel"
+				low_saxon="Rappel"
+				ossi="Rappel"
+				upper_saxon="Rappel"
+				bavarian="Rappel"
+				swabian="Rappel"
+				austrian="Rappel"
+				schwyzer="Rappel"
+				swedish="Rappel"
+				danish="Rappel"
+				icelander="Rappel"
+				faroese="Rappel"
+				tronder="Rappel"
+				ostlending="Rappel"
+				vestlending="Rappel"
+				scanian="Rappel"
+				jamta="Rappel"
+				lithuanian="Raplama"
+				latvian="Raplama"
 
 				b_rapla = {}
 				b_sipa = {}
@@ -383,9 +2400,41 @@ e_baltic = {
 		
 			capital = 537 # Saaremaa
 			
+			rhenish="Ösel"
+			low_saxon="Ösel"
+			ossi="Ösel"
+			upper_saxon="Ösel"
+			bavarian="Ösel"
+			swabian="Ösel"
+			austrian="Ösel"
+			schwyzer="Ösel"
+			swedish="Ösel"
+			danish="Øsel"
+			tronder="Øsel"
+			ostlending="Øsel"
+			vestlending="Øsel"
+			lithuanian="Sarema"
+			latvian="Samsala"
+			
 			c_saaremaa = {
 				color={ 56 123 145 }
 				color2={ 255 255 255 }
+				
+				rhenish="Ösel"
+				low_saxon="Ösel"
+				ossi="Ösel"
+				upper_saxon="Ösel"
+				bavarian="Ösel"
+				swabian="Ösel"
+				austrian="Ösel"
+				schwyzer="Ösel"
+				swedish="Ösel"
+				danish="Øsel"
+				tronder="Øsel"
+				ostlending="Øsel"
+				vestlending="Øsel"
+				lithuanian="Sarema"
+				latvian="Samsala"
 
 				b_kuressaare = {}
 				b_padaste = {}
@@ -400,6 +2449,23 @@ e_baltic = {
 			c_hiiumaa = {
 				color={ 187 110 133 }
 				color2={ 255 255 255 }
+				
+				rhenish="Dagö"
+				low_saxon="Dagö"
+				ossi="Dagö"
+				upper_saxon="Dagö"
+				bavarian="Dagö"
+				swabian="Dagö"
+				austrian="Dagö"
+				schwyzer="Dagö"
+				swedish="Dagö"
+				danish="Dagø"
+				tronder="Dagø"
+				ostlending="Dagø"
+				vestlending="Dagø"
+				lithuanian="Hyjuma"
+				latvian="Hijuma"
+				finnish="Hiidenmaa"
 
 				b_hiiumaa = {}
 				b_kalana = {}
@@ -417,6 +2483,18 @@ e_baltic = {
 		
 			capital = 547 # Kohtlajarve
 			
+			rhenish="Wierland"
+			low_saxon="Wierland"
+			ossi="Wierland"
+			upper_saxon="Wierland"
+			bavarian="Wierland"
+			swabian="Wierland"
+			austrian="Wierland"
+			schwyzer="Wierland"
+			swedish="Wierland"
+			latvian="Viruzeme"
+			finnish="Viro"
+			
 			c_kohtlajarve = {
 				color={ 155 199 152 }
 				color2={ 255 255 255 }
@@ -433,8 +2511,28 @@ e_baltic = {
 			c_rakvere = {
 				color={ 134 155 122 }
 				color2={ 255 255 255 }
+				
+				rhenish="Wesenberg"
+				low_saxon="Wesenberg"
+				ossi="Wesenberg"
+				upper_saxon="Wesenberg"
+				bavarian="Wesenberg"
+				swabian="Wesenberg"
+				austrian="Wesenberg"
+				schwyzer="Wesenberg"
+				swedish="Wesenberg"
 
-				b_rakvere = {}
+				b_rakvere = {
+					rhenish="Wesenberg"
+					low_saxon="Wesenberg"
+					ossi="Wesenberg"
+					upper_saxon="Wesenberg"
+					bavarian="Wesenberg"
+					swabian="Wesenberg"
+					austrian="Wesenberg"
+					schwyzer="Wesenberg"
+					swedish="Wesenberg"
+				}
 				b_tapa = {}
 				b_kunda = {}
 				b_essu = {}
@@ -451,11 +2549,47 @@ e_baltic = {
 		
 			capital = 539 # Parnu
 			
+			rhenish="Pernau"
+			low_saxon="Pernau"
+			ossi="Pernau"
+			upper_saxon="Pernau"
+			bavarian="Pernau"
+			swabian="Pernau"
+			austrian="Pernau"
+			schwyzer="Pernau"
+			swedish="Pernau"
+			lithuanian="Pernuma"
+			latvian="Pernuma"
+			
 			c_parnu = {
 				color={ 35 97 100 }
 				color2={ 255 255 255 }
+				
+				rhenish="Pernau"
+				low_saxon="Pernau"
+				ossi="Pernau"
+				upper_saxon="Pernau"
+				bavarian="Pernau"
+				swabian="Pernau"
+				austrian="Pernau"
+				schwyzer="Pernau"
+				swedish="Pernau"
+				lithuanian="Pernu"
+				latvian="Pernava"
 
-				b_parnu = {}
+				b_parnu = {
+					rhenish="Pernau"
+					low_saxon="Pernau"
+					ossi="Pernau"
+					upper_saxon="Pernau"
+					bavarian="Pernau"
+					swabian="Pernau"
+					austrian="Pernau"
+					schwyzer="Pernau"
+					swedish="Pernau"
+					lithuanian="Pernu"
+					latvian="Pernava"
+				}
 				b_varbla = {}
 				b_kalli = {}
 				b_sindi = {}
@@ -468,6 +2602,18 @@ e_baltic = {
 			c_viljandimaa = {
 				color={ 55 125 107 }
 				color2={ 255 255 255 }
+				
+				rhenish="Fellin"
+				low_saxon="Fellin"
+				ossi="Fellin"
+				upper_saxon="Fellin"
+				bavarian="Fellin"
+				swabian="Fellin"
+				austrian="Fellin"
+				schwyzer="Fellin"
+				swedish="Fellin"
+				lithuanian="Viljandima"
+				latvian="Viljandima"
 
 				b_viljandi = {}
 				b_puiatu = {}
@@ -476,12 +2622,25 @@ e_baltic = {
 				b_aidu = {}
 				b_adavere = {}
 				b_tartu = {}
-			    	b_rannu = {}
+				b_rannu = {}
 				b_puhja = {}
 			}
 			c_valgamaa = {
 				color={ 145 155 150 }
 				color2={ 255 255 255 }
+				
+				rhenish="Walk"
+				low_saxon="Walk"
+				ossi="Walk"
+				upper_saxon="Walk"
+				bavarian="Walk"
+				swabian="Walk"
+				austrian="Walk"
+				schwyzer="Walk"
+				swedish="Walk"
+				polish="Walka"
+				lithuanian="Valka"
+				latvian="Valka" 
 
 				b_valga = {}
 				b_hargla = {}
