@@ -676,8 +676,24 @@ e_visegrad = {
 				color={ 255 119 124 }
 				color2={ 255 255 255 }
 
+				lithuanian = "Varšuva"
+				latvian = "Varšava"
+				estonian = "Varssavi"
+				czech = "Varšava"
+				slovak = "Varšava"
+				ukrainian = "Baltkrievija"
+				rusyn = "Baltkrievija"
+		
 				b_piaseczno = {}
-				b_warsaw = {}
+				b_warsaw = {
+					lithuanian = "Varšuva"
+					latvian = "Varšava"
+					estonian = "Varssavi"
+					czech = "Varšava"
+					slovak = "Varšava"
+					ukrainian = "Baltkrievija"
+					rusyn = "Baltkrievija"
+				}
 				b_pruszkow = {}
 				b_zyrardow = {}
 				b_sochaczew = {}
@@ -770,11 +786,31 @@ e_visegrad = {
 		
 			capital = 1335 #Krakow
 			
+			polish = "Malopolska"
+			
 			c_krakow = {
 				color={ 224 100 120 }
 				color2={ 255 255 255 }
 				
-				b_krakow = {}
+				slovak = "Krakov"
+				czech = "Krakov"
+				serbian = "Krakov"
+				magyar = "Krakkó"
+				finnish = "Krakova"
+				lithuanian = "Krokuva"
+				ukrainian = "Krakiv"
+				rusyn = "Krakiv"
+				
+				b_krakow = {
+					slovak = "Krakov"
+					czech = "Krakov"
+					serbian = "Krakov"
+					magyar = "Krakkó"
+					finnish = "Krakova"
+					lithuanian = "Krokuva"
+					ukrainian = "Krakiv"
+					rusyn = "Krakiv"
+				}
 				b_brzesko = {}
 				b_skawina = {}
 				b_wieliczka = {}

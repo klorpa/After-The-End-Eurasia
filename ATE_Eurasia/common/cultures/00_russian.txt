@@ -64,7 +64,7 @@ russian = {
 		modifier = default_culture_modifier
 	}
 
-	white_sea = {
+	pomor = {
 		graphical_cultures = { westernslavicgfx }
 
 		color = { 0.8 0.4 0.5 }
@@ -123,10 +123,39 @@ russian = {
 
 		modifier = default_culture_modifier
 	}
-	volgan = {
+	don_volgan = {
 		graphical_cultures = { westernslavicgfx }
 
 		color = { 0.7 0.3 0.4 }
+
+		male_names = {
+			Aleksander
+		}
+
+		female_names = {
+			Alexandra
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	chernyan = {
+		graphical_cultures = { westernslavicgfx }
+
+		color = { 0.4 0.2 0.3 }
 
 		male_names = {
 			Aleksander
