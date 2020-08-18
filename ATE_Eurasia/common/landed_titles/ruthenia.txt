@@ -6,11 +6,21 @@ e_ruthenia = {
 		
 	capital = 819 #Kyiv
 	
+	muscovite = "Malaya Rossiya"
+	pitersky = "Malaya Rossiya"
+	volgan = "Malaya Rossiya"
+	kaliningradyets = "Malaya Rossiya"
+	
 	k_kyiv = {
 		color={ 252 250 14 }
 		color2={ 255 255 255 }
 		
 		capital = 819 #Kyiv
+	
+		muscovite = "Kiyev"
+		pitersky = "Kiyev"
+		volgan = "Kiyev"
+		kaliningradyets = "Kiyev"
 	
 		d_kyiv = {
 			color={ 220 210 70 }
@@ -18,11 +28,26 @@ e_ruthenia = {
 		
 			capital = 819 #Kyiv
 			
+			muscovite = "Kiyev"
+			pitersky = "Kiyev"
+			volgan = "Kiyev"
+			kaliningradyets = "Kiyev"
+		
 			c_kyiv = {
 				color={ 250 240 30 }
 				color2={ 255 255 255 }
 				
-				b_kyiv = {}
+				muscovite = "Kiyev"
+				pitersky = "Kiyev"
+				volgan = "Kiyev"
+				kaliningradyets = "Kiyev"
+		
+				b_kyiv = {
+					muscovite = "Kiyev"
+					pitersky = "Kiyev"
+					volgan = "Kiyev"
+					kaliningradyets = "Kiyev"
+				}
 				b_irpin = {}
 				b_fastin = {}
 				b_obukhiv = {}
@@ -102,13 +127,31 @@ e_ruthenia = {
 			color={ 244 203 120 }
 			color2={ 255 255 255 }
 		
+			pitersky = "Chernigov"
+			muscovite = "Chernigov"
+			volgan = "Chernigov"
+			kaliningradyets = "Chernigov"
+			polish = "Czernihów"
+			
 			capital = 824 #Chernihiv
 			
 			c_chernihiv = {
 				color={ 198 198 23 }
 				color2={ 255 255 255 }
 				
-				b_chernihiv = {}
+				pitersky = "Chernigov"
+				muscovite = "Chernigov"
+				volgan = "Chernigov"
+				kaliningradyets = "Chernigov"
+				polish = "Czernihów"
+			
+				b_chernihiv = {
+					pitersky = "Chernigov"
+					muscovite = "Chernigov"
+					volgan = "Chernigov"
+					kaliningradyets = "Chernigov"
+					polish = "Czernihów"
+				}
 				b_nizhyn = {}
 				b_slavutych = {}
 				b_kozelets = {}
@@ -147,18 +190,40 @@ e_ruthenia = {
 		color2={ 255 255 255 }
 		
 		capital = 600 #Sevastopol
-				
+		
+		ukrainian = "Krym"
+		moskal = "Krym"
+		muscovite = "Krym"
+		pitersky = "Krym"
+		volgan = "Krym"
+		kaliningradyets = "Krym"
+		crimean = "Kirim"
+			
 		d_crimea = {
 			color={ 87 126 199 }
 			color2={ 255 255 255 }
 		
 			capital = 600 #Sevastopol
 			
+			ukrainian = "Krym"
+			moskal = "Krym"
+			muscovite = "Krym"
+			pitersky = "Krym"
+			volgan = "Krym"
+			kaliningradyets = "Krym"
+			crimean = "Kirim"
+		
 			c_sevastopol = {
 				color={ 55 120 210 }
 				color2={ 255 255 255 }
 				
-				b_sevastopol = {}
+				hungarian = "Szevasztopol"
+				polish = "Sewastopol"
+				
+				b_sevastopol = {
+					hungarian = "Szevasztopol"
+					polish = "Sewastopol"
+				}
 				b_simferopol = {}
 				b_yalta = {}
 				b_bakhchysarai = {}
@@ -170,7 +235,11 @@ e_ruthenia = {
 				color={ 49 156 198 }
 				color2={ 255 255 255 }
 				
-				b_feodosia = {}
+				polish = "Teodozja"
+					
+				b_feodosia = {
+					polish = "Teodozja"
+				}
 				b_sudak = {}
 				b_nizhnegorskiy = {}
 				b_dzhankoi = {}
@@ -182,7 +251,15 @@ e_ruthenia = {
 				color={ 100 198 200 }
 				color2={ 255 255 255 }
 				
-				b_kerch = {}
+				polish = "Kercz"
+				moldovan = "Kerci"
+				romanian = "Kerci"
+					
+				b_kerch = {
+					polish = "Kercz"
+					moldovan = "Kerci"
+					romanian = "Kerci"
+				}
 				b_shcholkine = {}
 				b_hornostaivka = {}
 				b_lenino = {}
@@ -204,12 +281,21 @@ e_ruthenia = {
 			}
 		}
 	}
-	k_dyke_pole = {
+	k_wild_fields = {
 		color={ 215 185 123 }
 		color2={ 255 255 255 }
 		
 		capital = 785 #Kherson
-				
+		
+		ukrainian = "Dyke Pole"
+		moskal = "Dikoye Polye"
+		muscovite = "Dikoye Polye"
+		pitersky = "Dikoye Polye"
+		volgan = "Dikoye Polye"
+		kaliningradyets = "Dikoye Polye"
+		polish = "Dzikie Pola"
+		lithuanian = "Dykra"
+		
 		d_kherson = {
 			color={ 200 180 170 }
 			color2={ 255 255 255 }
@@ -327,11 +413,26 @@ e_ruthenia = {
 		
 			capital = 814 #Kharkiv
 			
+			muscovite = "Kharkov"
+			pitersky = "Kharkov"
+			volgan = "Kharkov"
+			kaliningradyets = "Kharkov"
+				
 			c_kharkiv = {
 				color={ 222 127 150 }
 				color2={ 255 255 255 }
 				
-				b_kharkiv = {}
+				muscovite = "Kharkov"
+				pitersky = "Kharkov"
+				volgan = "Kharkov"
+				kaliningradyets = "Kharkov"
+			
+				b_kharkiv = {
+					muscovite = "Kharkov"
+					pitersky = "Kharkov"
+					volgan = "Kharkov"
+					kaliningradyets = "Kharkov"
+				}
 				b_pisochyn = {}
 				b_chuhuiv = {}
 				b_zolochiv = {}
@@ -362,7 +463,17 @@ e_ruthenia = {
 				color={ 222 127 150 }
 				color2={ 255 255 255 }
 				
-				b_dnipro = {}
+				muscovite = "Dnepr"
+				pitersky = "Dnepr"
+				volgan = "Dnepr"
+				kaliningradyets = "Dnepr"
+				
+				b_dnipro = {
+					muscovite = "Dnepr"
+					pitersky = "Dnepr"
+					volgan = "Dnepr"
+					kaliningradyets = "Dnepr"
+				}
 				b_vilnohirsk = {}
 				b_kamianske = {}
 				b_krynychky = {}
@@ -651,7 +762,27 @@ e_ruthenia = {
 				color={ 154 94 32 }
 				color2={ 255 255 255 }
 				
-				b_chernivtsi = {}
+				ukrainian = "Cernivci"
+				crimean = "Cernivci"
+				rusyn = "Cernivci"
+				polish = "Czerniowce"
+				romanian = "Cernauti"
+				moldovan = "Cernauti"
+				slovak = "Cernovice"
+				czech = "Cernovice"
+				hungarian = "Csernivci"
+				
+				b_chernivtsi = {
+					ukrainian = "Cernivci"
+					crimean = "Cernivci"
+					rusyn = "Cernivci"
+					polish = "Czerniowce"
+					romanian = "Cernauti"
+					moldovan = "Cernauti"
+					slovak = "Cernovice"
+					czech = "Cernovice"
+					hungarian = "Csernivci"
+				}
 				b_myhove = {}
 				b_storozhynets = {}
 				b_mamaivtsi = {}
@@ -663,7 +794,11 @@ e_ruthenia = {
 				color={ 197 111 52 }
 				color2={ 255 255 255 }
 				
-				b_suceava = {}
+				polish = "Suczawa"
+				
+				b_suceava = {
+					polish = "Suczawa"
+				}
 				b_radauti = {}
 				b_campulung_moldovenesc = {}
 				b_falticeni = {}
@@ -678,6 +813,12 @@ e_ruthenia = {
 		
 			capital = 1195 #Iasi
 			
+			moldovan = "Moldova Occidentala"
+			romanian = "Moldova Occidentala"
+			ukrainian = "Zapadnaya Moldaviya"
+			rusyn = "Zapadnaya Moldaviya"
+			crimean = "Zapadnaya Moldaviya"
+				
 			c_iasi = {
 				color={ 212 175 131 }
 				color2={ 255 255 255 }
@@ -721,11 +862,32 @@ e_ruthenia = {
 		
 			capital = 866 #Chisinau
 			
+			ukrainian = "Moldaviya"
+			rusyn = "Moldaviya"
+			crimean = "Moldaviya"
+			
 			c_chisinau = {
 				color={ 224 137 55 }
 				color2={ 255 255 255 }
 				
-				b_chisinau = {}
+				ukrainian = "Kyshyniv"
+				rusyn = "Kyshyniv"
+				crimean = "Kyshyniv"
+				moskal = "Kishinev"
+				muscovite = "Kishinev"
+				pitersky = "Kishinev"
+				volgan = "Kishinev"
+				kaliningradyets = "Kishinev"
+			
+				b_chisinau = {
+					ukrainian = "Kyshyniv"
+					crimean = "Kyshyniv"
+					moskal = "Kishinev"
+					muscovite = "Kishinev"
+					pitersky = "Kishinev"
+					volgan = "Kishinev"
+					kaliningradyets = "Kishinev"
+				}
 				b_ribnita = {}
 				b_dubasari = {}
 				b_orhei = {}
@@ -776,7 +938,15 @@ e_ruthenia = {
 		color2={ 255 255 255 }
 		
 		capital = 857 #Minsk
-				
+			
+		muscovite = "Belorussiya"
+		pitersky = "Belorussiya"
+		volgan = "Belorussiya"
+		kaliningradyets = "Belorussiya"
+		polish = "Bialorus"
+		lithuanian = "Baltarusija"
+		latvian = "Baltkrievija"
+			
 		d_viciebsk = {
 			color={ 100 201 180 }
 			color2={ 255 255 255 }
@@ -799,7 +969,25 @@ e_ruthenia = {
 				color={ 105 214 65 }
 				color2={ 255 255 255 }
 				
-				b_polatsk = {}
+				latvian = "Polocka"
+				estonian = "Polack"
+				lithuanian = "Polockas"
+				polish = "Polock"
+				moskal = "Polotsk"
+				muscovite = "Polotsk"
+				pitersky = "Polotsk"
+				kaliningradyets = "Polotsk"
+				
+				b_polatsk = {
+					latvian = "Polocka"
+					estonian = "Polack"
+					lithuanian = "Polockas"
+					polish = "Polock"
+					moskal = "Polotsk"
+					muscovite = "Polotsk"
+					pitersky = "Polotsk"
+					kaliningradyets = "Polotsk"
+				}
 				b_rasony = {}
 				b_verkhnyadzvinsk = {}
 				b_zabore = {}
@@ -810,6 +998,15 @@ e_ruthenia = {
 			c_navapolatsk = {
 				color={ 126 216 154 }
 				color2={ 255 255 255 }
+				
+				latvian = "Navapolacka"
+				estonian = "Navapolack"
+				lithuanian = "Novopolockas"
+				polish = "Nowopolock"
+				moskal = "Novopolotsk"
+				muscovite = "Novopolotsk"
+				pitersky = "Novopolotsk"
+				kaliningradyets = "Novopolotsk"
 				
 				b_navapolatsk = {}
 				b_vetrino = {}
@@ -823,6 +1020,8 @@ e_ruthenia = {
 				color={ 119 217 35 }
 				color2={ 255 255 255 }
 				
+				belarusian = "Mahiliou"
+			
 				b_mogilev = {}
 				b_buinichi = {}
 				b_bychau = {}
@@ -905,11 +1104,23 @@ e_ruthenia = {
 		
 			capital = 853 #Brest
 			
+			polish = "Brzesc"
+			lithuanian = "Brasta"
+			ukrainian = "Berestia"
+			
 			c_brest = {
 				color={ 45 199 157 }
 				color2={ 255 255 255 }
 				
-				b_brest = {}
+				polish = "Brzesc"
+				lithuanian = "Brasta"
+				ukrainian = "Berestia"
+			
+				b_brest = {
+					polish = "Brzesc"
+					lithuanian = "Brasta"
+					ukrainian = "Berestia"
+				}
 				b_kobryn = {}
 				b_malaryta = {}
 				b_kamyanyets = {}
@@ -960,11 +1171,17 @@ e_ruthenia = {
 		
 			capital = 823 #Gomel
 			
+			belarusian = "Homiel"
+			
 			c_gomel = {
 				color={ 45 199 157 }
 				color2={ 255 255 255 }
 				
-				b_gomel_2 = {}
+				belarusian = "Homiel"
+			
+				b_gomel_2 = {
+					belarusian = "Homiel"
+				}
 				b_zlobin = {}
 				b_vietka = {}
 				b_dobrus = {}
@@ -1004,17 +1221,62 @@ e_ruthenia = {
 		
 		capital = 885 #Lviv
 	
+		czech = "Halic"
+		slovak = "Halic"
+		polish = "Galicja"
+		muscovite = "Galitsiya"
+		pitersky = "Galitsiya"
+		volgan = "Galitsiya"
+		moskal = "Galitsiya"
+		kaliningradyets = "Galitsiya"
+		ukrainian = "Halycyna"
+		rusyn = "Halycyna"
+		crimean = "Halycyna"
+		moldovan = "Galitia"
+		romanian = "Galitia"
+		hungarian = "Galícia"
+	
 		d_lviv = {
 			color={ 50 80 220 }
 			color2={ 255 255 255 }
 		
 			capital = 885 #Lviv
 			
+			crimean = "Ilbav"
+			polish = "Lwów"
+			muscovite = "Lvov"
+			pitersky = "Lvov"
+			volgan = "Lvov"
+			moskal = "Lvov"
+			kaliningradyets = "Lvov"
+			hungarian = "Ilyvó"
+			romanian = "Liov"
+		
 			c_lviv = {
 				color={ 150 40 230 }
 				color2={ 255 255 255 }
 				
-				b_lviv = {}
+				crimean = "Ilbav"
+				polish = "Lwów"
+				muscovite = "Lvov"
+				pitersky = "Lvov"
+				volgan = "Lvov"
+				moskal = "Lvov"
+				kaliningradyets = "Lvov"
+				hungarian = "Ilyvó"
+				romanian = "Liov"
+			
+				b_lviv = {
+					crimean = "Ilbav"
+					polish = "Lwów"
+					muscovite = "Lvov"
+					pitersky = "Lvov"
+					volgan = "Lvov"
+					moskal = "Lvov"
+					kaliningradyets = "Lvov"
+					hungarian = "Ilyvó"
+					romanian = "Liov"
+				}
 				b_sokilnyky = {}
 				b_novoiavorivsk = {}
 				b_zhovka = {}
@@ -1065,11 +1327,17 @@ e_ruthenia = {
 		
 			capital = 887 #Lutsk
 			
+			polish = "Wolyn"
+				
 			c_lutsk = {
 				color={ 221 225 142 }
 				color2={ 255 255 255 }
 				
-				b_lutsk = {}
+				polish = "Luck"
+			
+				b_lutsk = {
+					polish = "Luck"
+				}
 				b_novovolynsk = {}
 				b_volodymyr_volynsky = {}
 				b_kivertsi = {}
@@ -1083,7 +1351,11 @@ e_ruthenia = {
 				color={ 200 180 54 }
 				color2={ 255 255 255 }
 				
-				b_rivne = {}
+				polish = "Równe"
+					
+				b_rivne = {
+					polish = "Równe"
+				}
 				b_mlyniv = {}
 				b_dubno = {}
 				b_klevan = {}
@@ -1095,7 +1367,11 @@ e_ruthenia = {
 				color={ 243 158 121 }
 				color2={ 255 255 255 }
 				
-				b_kovel = {}
+				polish = "Kowel"
+				
+				b_kovel = {
+					polish = "Kowel"
+				}
 				b_ratne = {}
 				b_lyuboml = {}
 				b_manevychi = {}
@@ -1119,7 +1395,11 @@ e_ruthenia = {
 				color={ 221 225 142 }
 				color2={ 255 255 255 }
 				
-				b_shepetivka = {}
+				polish = "Szepetówka"
+					
+				b_shepetivka = {
+					polish = "Szepetówka"
+				}
 				b_slavuta = {}
 				b_izyaslav = {}
 				b_polonne = {}
@@ -1132,14 +1412,25 @@ e_ruthenia = {
 			color={ 247 170 119 }
 			color2={ 255 255 255 }
 		
-			capital = 1335 #Krakow
+			capital = 1336 #Rzeszow
 			
+			polish = "Podkarpackie"
+			ukrainian = "Pidkarpattya"
+			rusyn = "Pidkarpattya"
+			moskal = "Podkarpatskoye"
+					
 			c_rzeszow = {
 				color={ 250 140 130 }
 				color2={ 255 255 255 }
 				
+				ukrainian = "Riashiv"
+				rusyn = "Riashiv"
+				
 				b_stalowa_wola = {}
-				b_rzeszow = {}
+				b_rzeszow = {
+					ukrainian = "Riashiv"
+					rusyn = "Riashiv"
+				}
 				b_mielec = {}
 				b_tarnobrzeg = {}
 				b_debica = {}
@@ -1150,8 +1441,14 @@ e_ruthenia = {
 				color={ 243 202 108 }
 				color2={ 255 255 255 }
 				
+				ukrainian = "Peremyshl"
+				rusyn = "Peremyshl"
+					
 				b_krosno = {}
-				b_przemysl = {}
+				b_przemysl = {
+					ukrainian = "Peremyshl"
+					rusyn = "Peremyshl"
+				}
 				b_sanok = {}
 				b_jaslo = {}
 				b_ustrzyki_dolne = {}
