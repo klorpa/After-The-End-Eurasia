@@ -133,24 +133,106 @@
 	father=1992300
 	2635.7.9={birth=yes}
 }
+# PORTUGAL #
 1992400={
 	name="Leandro"
-	dynasty=2024123 #Liberato
+	dynasty=2024230 #Teles
+	culture=portuguese
+	religion=catholic
+	martial=3
+	diplomacy=3
+	stewardship=3
+	intrigue=3
+	learning=3
+	trait=drunkard
+	2565.9.16={birth=yes}
+	2600.2.4={death=yes}
+}
+1992401={
+	name="Pedro"
+	dynasty=2024230 #Teles
 	culture=portuguese
 	religion=lusitanian
-	martial=6
+	martial=10
 	diplomacy=5
 	stewardship=8
 	intrigue=7
 	learning=4
-	trait=proud
-	trait=charitable
-	trait=honest
-	trait=gregarious
-	trait=authoritative
-	trait=thrifty_clerk
-	2644.7.9={birth=yes}
+	trait=brilliant_strategist
+	trait=peasant_leader
+	trait=honorable
+	trait=quick
+	father=1992400
+	2584.12.22={birth=yes}
+	2619.5.29={death=yes}
 }
+1992402={
+	name="Simao"
+	dynasty=2024230 #Teles
+	give_nickname=nick_the_grim
+	culture=portuguese
+	religion=lusitanian
+	martial=4
+	diplomacy=6
+	stewardship=7
+	intrigue=8
+	learning=5
+	trait=thrifty_clerk
+	trait=zealous
+	father=1992400
+	2586.7.9={birth=yes}
+	2628.8.9={death=yes}
+}
+1992403={
+	name="Bento"
+	dynasty=2024230 #Teles
+	give_nickname=nick_the_wise
+	culture=portuguese
+	religion=lusitanian
+	martial=5
+	diplomacy=8
+	stewardship=10
+	intrigue=5
+	learning=10
+	trait=midas_touched
+	trait=just
+	trait=authoritative
+	father=1992402
+	2607.3.21={birth=yes}
+	2654.8.13={death=yes}
+}
+1992404={
+	name="Rodolfo"
+	dynasty=2024230 #Teles
+	give_nickname=nick_the_unfortunate
+	culture=portuguese
+	religion=lusitanian
+	martial=6
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	trait=misguided_warrior
+	trait=ruthless
+	trait=robust
+	father=1992403
+	2633.2.26={birth=yes}
+	2660.5.5={death=yes}
+}
+1992405={
+	name="Diogo"
+	dynasty=2024230 #Teles
+	culture=portuguese
+	religion=lusitanian
+	martial=3
+	diplomacy=3
+	stewardship=3
+	intrigue=3
+	learning=3
+	father=1992404
+	2657.5.14={birth=yes}
+}
+# #
 1992500={
 	name="Raymond"
 	dynasty=2019101 #Tenorio
