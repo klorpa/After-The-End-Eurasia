@@ -9,12 +9,22 @@ carpathian = {
 		color = { 0.9 0.3 0.1 }
 
 		male_names = {
-			Aleksander
+			János_John
 		}
 		female_names = {
-			Alexandra
+			Mária_Mary
 		}
 		
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
 		modifier = default_culture_modifier
 	}
 
@@ -24,60 +34,38 @@ carpathian = {
 		color = {0.5 0.5 0.2 }
 
 		male_names = {
-			Aleksander
+			Ion_John
 		}
 		female_names = {
-			Alexandra
+			Maria_Mary
 		}
 		
-		modifier = default_culture_modifier
-	}
+		from_dynasty_prefix = "of "
 
-	vlach = {
-		graphical_cultures = { westernslavicgfx }
-
-		color = { 0.6 0.1 0.3 }
-
-		male_names = {
-			Aleksander
-		}
-		female_names = {
-			Alexandra
-		}
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
 
 		modifier = default_culture_modifier
 	}
-	shwoveh = {
-		graphical_cultures = { westernslavicgfx }
 
-		color = { 0.8 0.5 0.5 }
-
-		male_names = {
-			Aleksander
-		}
-		female_names = {
-			Alexandra
-		}
-
-		modifier = default_culture_modifier
-	}
 	moldovan = {
-		graphical_cultures = { croatsouthslavicgfx }
+		graphical_cultures = { westernslavicgfx }
 		
 		color = { 0.9 0.5 0.2 }
 
 		male_names = {
-			Aleksander
+			Ion_John
 		}
 		female_names = {
-			Alexandra
+			Maria_Mary
 		}
 		
 		from_dynasty_prefix = "of "
-		
-		male_patronym = "ovich"
-		female_patronym = "ovna"
-		prefix = no
 
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 40

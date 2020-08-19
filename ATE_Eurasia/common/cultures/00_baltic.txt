@@ -13,6 +13,16 @@ baltic = {
 			Maria_Mary
 		}
 
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
 		modifier = default_culture_modifier
 	}
 	estonian = {
@@ -27,6 +37,16 @@ baltic = {
 			Mari_Mary
 		}
 
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
 		modifier = default_culture_modifier
 	}
 	latvian = {
@@ -40,6 +60,94 @@ baltic = {
 		female_names = {
 			Maria_Mary
 		}
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	krievi = {
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.27 0.27 0.9 }
+
+		male_names = {
+			Aleksandrs_Alexander Aleksejs_Alexis Andrejs_Andrew Antons_Anthony
+			Danijls_Daniel Deniss_Dionysus
+			Eduards_Edward
+			Gavrijls_Gabriel
+			Igors_Ingvar Ilja_Elijah Ivans_John
+			Jakovs_Jacob Jevgenijs_Eugene Jurijs_George
+			Konstantins_Constantine
+			Maksims_Maximus Mihails_Michael Miroslavs_Miroslav
+			Nikita Nils_Neil
+			Olegs_Helgi
+			Sergejs_Sergius
+			Vadims Valentins_Valentine Valerijs_Valerius Vasilijs_Basil Vitalijs_Vitus Vjaceslavs_Wenceslaus Vladimirs_Vladimir Vladislavs_Vladislav
+		}
+		female_names = {
+			Aleksandra_Alexandra
+			Diana_Diane
+			Irina_Irene
+			Jevgenija_Eugenia
+			Marija_Mary Marjana_Marianne
+			Tatjana_Tatiana
+			Uljana_Juliana
+			Viktoria_Victoria
+		}
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	venelased = {
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.84 0.27 0.29 }
+
+		male_names = {
+			Aleksander_Alexander Artjom_Artemius
+			Dmitri_Demetrius
+			Grigori_Gregory
+			Ilja_Elijah
+			Jegor_Ingvar Jevgeni_Eugene Jüri_George
+			Leonid_Leonidas
+			Nikolai_Nicholas
+			Peeter_Peter
+			Sergej_Sergius
+			Tihhon_Tikhon
+		}
+		female_names = {
+			Darja_Daria
+			Jekaterina_Catherine Jelena_Helen
+			Olga
+			Tanja_Antonia
+		}
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
 
 		modifier = default_culture_modifier
 	}
