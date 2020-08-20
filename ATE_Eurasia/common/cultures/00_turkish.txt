@@ -60,4 +60,53 @@ tatar = {
 		modifier = default_culture_modifier
 	}
 
+	qirimlar = {
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.4 0.3 0.2 }
+
+		male_names = {
+			Abdulakim Abdülcemil Abdulla_Abdullah Abduraim Abduraman Abdurefi Abil Ahtem Amet_Ahmed Amet-han Arsen Arslan Asan_Hassan
+			Bahadir Bekir Belyal
+			Cemil_Jamil Cengiz_Genghis
+			Dilaver Dzhambek
+			Elnur Elvin Elzar Emin Emir-Üsein Ennan Enver Esat
+			Fahrettin Fahri Fetih Fetislyam Fevzi Fikret
+			Gafar Geray
+			Hayder
+			Ibragim_Abraham Ilmi Ilyas_Elijah Irfan Islyam_Islam Ismail_Ishmael Izet
+			Kamil Kenan Kerim
+			Lenur Lenzi Lyuman
+			Mahmudkul Mamut_Mahmud Maqsud Mansur Memet_Muhammad Mengli Mubeyyin Muhtar_Mukhtar Musa_Moses Muslim Mustafa
+			Nariman Numan
+			Osman
+			Qaplan
+			Ramazan Refat Reshat Rizvan Ruslan Rustem
+			Sadet Selamet Selim Server Seyitamet Seyitcelil Seyitdevlet Seyitnafe Seyitnebi Seyitosman Seyitumer Shahin Shahip Shamil Shevket Suleiman_Solomon
+			Talat Tasim Teyfuq Togay Toqtamish Timur
+			Ümer_Omar Üsein_Hussein Üzeir
+			Yagya_John Yakub_Jacob Yusuf_Joseph
+			Zeytulla
+		}
+		female_names = {
+			Adaviye Alime Ayshe_Aisha
+			Gulnara
+			Qadriye
+			Saide
+			Zenife
+		}
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+
 }
