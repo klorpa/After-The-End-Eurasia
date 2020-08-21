@@ -406,7 +406,7 @@ e_soyuz = {
 			}
 		}
 		d_kostroma = {
-			color={ 88 153 245 }
+			color={ 155 113 145 }
 			color2={ 255 255 255 }
 		
 			capital = 747 #Kostroma
@@ -923,24 +923,29 @@ e_soyuz = {
 				b_kuloy = {}
 				b_shilovskaya = {}
 			}
-		}
-		d_zapolyarny = {
-			color={ 184 190 226 }
-			color2={ 255 255 255 }
-		
-			capital = 711 #Naryan-Mar
-			
-			c_kanin = {
-				color={ 199 187 211 }
+			c_pinega = {
+				color={ 150 150 150 }
 				color2={ 255 255 255 }
 				
-				b_shoyna = {}
-				b_kiya = {}
-				b_chizha = {}
-				b_nes = {}
-				b_vizhas = {}
-				b_oma = {}
-				b_snopa = {}
+				b_pinega = {}
+				b_krasnyy_gorka = {}
+				b_soyala = {}
+				b_chakola = {}
+				b_karpogory = {}
+				b_pirinem = {}
+				b_shasta = {}
+			}
+			c_mezen = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_mezen = {}
+				b_lampozhnya = {}
+				b_bychye = {}
+				b_pogorelets = {}
+				b_paluga = {}
+				b_kamenka = {}
+				b_yuroma = {}
 			}
 		}
 		d_kola = {
@@ -1065,6 +1070,73 @@ e_soyuz = {
 				b_kalevala = {}
 				b_kepa = {}
 				b_kevyatozero = {}
+			}
+		}
+		d_dvina = {
+			color={ 166 171 189 }
+			color2={ 255 255 255 }
+		
+			capital = 744 #Kotlas
+			
+			c_kotlas = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_kotlas = {}
+				b_luza = {}
+				b_koryazhma = {}
+				b_ilyinsko_podomskoye = {}
+				b_chepemushskiy = {}
+				b_vychegodsky = {}
+				b_urdoma = {}
+			}
+			c_bereznik = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_bereznik = {}
+				b_kulikovskaya = {}
+				b_pochtovoye = {}
+				b_shenkursk = {}
+				b_sakulinskaya = {}
+				b_odintsovskaya = {}
+				b_ust_padenga = {}
+			}
+			c_veliky_ustyug = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_veliky_ustyug = {}
+				b_kichmengsky_gorodok = {}
+				b_novator = {}
+				b_kuzino = {}
+				b_krasavino = {}
+				b_peganovo = {}
+				b_nizhniy_yenangsk = {}
+			}
+			c_lena = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_lena = {}
+				b_litvino = {}
+				b_soyga = {}
+				b_kulikovo = {}
+				b_bepezonavolok = {}
+				b_pustosh = {}
+				b_yarensk = {}
+			}
+			c_ust_vayenga = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_ust_vayenga = {}
+				b_rostovskoye = {}
+				b_topsa = {}
+				b_zelennik = {}
+				b_verkhnyaya_toyma = {}
+				b_lukinskaya = {}
+				b_ploso = {}
 			}
 		}
 	}
