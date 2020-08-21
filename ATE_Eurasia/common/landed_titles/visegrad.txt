@@ -366,53 +366,41 @@ e_visegrad = {
 				b_kolbudy = {}
 				b_trabki_wielkie = {}
 			}
-			c_wejherowo = {
-				color={ 219 62 44 }
-				color2={ 255 255 255 }
-				
-				b_puck = {}
-				b_wejherowo = {}
-				b_lebork = {}
-				b_rumia = {}
-				b_reda = {}
-				b_wladyslawowo = {}
-				b_leba = {}
-			}
 			c_szczecin = {
 				color={ 206 44 59 }
 				color2={ 255 255 255 }
 				
-				b_koszalin = {}
+				b_stargard = {}
 				b_szczecin = {}
-				b_kolobrzeg = {}
 				b_swinoujscie = {}
 				b_police = {}
-				b_bialogard = {}
 				b_goleniow = {}
+				b_gryfino = {}
+				b_nowogard = {}
 			}
 			c_slupsk = {
 				color={ 206 128 59 }
 				color2={ 255 255 255 }
 				
-				b_bytow = {}
+				b_wejherowo = {}
 				b_slupsk = {}
+				b_rumia = {}
+				b_lebork = {}
+				b_reda = {}
+				b_bytow = {}
 				b_ustka = {}
-				b_szczecinek = {}
-				b_darlowo = {}
-				b_miastko = {}
-				b_kepice = {}
 			}
-			c_stargard = {
-				color={ 131 141 47 }
+			c_koszalin = {
+				color={ 169 246 15 }
 				color2={ 255 255 255 }
 				
-				b_gryfino = {}
-				b_stargard = {}
-				b_choszczno = {}
-				b_barlinek = {}
-				b_mysliborz = {}
-				b_drawsko_pomorskie = {}
-				b_chojna = {}
+				b_kolobrzeg = {}
+				b_koszalin = {}
+				b_szczecinek = {}
+				b_bialogard = {}
+				b_darlowo = {}
+				b_swidwin = {}
+				b_zlocieniec = {}
 			}
 			c_pila = {
 				color={ 163 79 34 }
@@ -512,6 +500,18 @@ e_visegrad = {
 				b_opoczno = {}
 				b_rawa_mazowiecka = {}
 			}
+			c_konin = {
+				color={ 116 129 177 }
+				color2={ 255 255 255 }
+				
+				b_turek = {}
+				b_konin = {}
+				b_wrzesnia = {}
+				b_kolo = {}
+				b_sroda_wielkopolska = {}
+				b_slupca = {}
+				b_kostrzyn = {}
+			}
 		}
 		d_kujawy_pomerania = {
 			color={ 89 209 33 }
@@ -535,10 +535,10 @@ e_visegrad = {
 				color={ 100 209 33 }
 				color2={ 255 255 255 }
 
-				b_inowroclaw = {}
+				b_solec_kujawski = {}
 				b_bydgoszcz = {}
 				b_naklo_nad_notecia = {}
-				b_solec_kujawski = {}
+				b_szubin = {}
 				b_znin = {}
 				b_mogilno = {}
 				b_koronowo = {}
@@ -547,13 +547,13 @@ e_visegrad = {
 				color={ 156 209 33 }
 				color2={ 255 255 255 }
 
-				b_konin = {}
+				b_inowroclaw = {}
 				b_wloclawek = {}
-				b_kolo = {}
-				b_turek = {}
-				b_alexandrow_kujawski = {}
 				b_ciechocinek = {}
-				b_klodawa = {}
+				b_aleksandrow_kujawski = {}
+				b_kruszwica = {}
+				b_janikowo = {}
+				b_gniewkowo = {}
 			}
 			c_torun = {
 				color={ 167 32 147 }
@@ -574,41 +574,65 @@ e_visegrad = {
 			
 			capital = 805 #Elblag
 
-			c_lubusz = {
+			c_gorzow = {
+				color={ 131 141 47 }
+				color2={ 255 255 255 }
+				
+				b_swiebodzin = {}
+				b_gorzow_wielkopolski = {}
+				b_miedzyrzecz = {}
+				b_kostrzyn_nad_odra = {}
+				b_slubice = {}
+				b_krosno_odrzanskie = {}
+				b_drezdenko = {}
+			}
+			c_zielona_gora = {
 				color={ 122 191 49 }
 				color2={ 255 255 255 }
-
-				b_gorzow_wielkopolski = {}
+				
+				b_nowa_sol = {}
 				b_zielona_gora = {}
 				b_zary = {}
-				b_nowa_sol = {}
 				b_zagan = {}
-				b_swiebodzin = {}
-				b_kostrzyn_nad_odra = {}
+				b_sulechow = {}
+				b_gubin = {}
+				b_lubsko = {}
 			}
 			c_legnica = {
 				color={ 142 108 77 }
 				color2={ 255 255 255 }
 
-				b_legnica = {}
-				b_walbrzych = {}
 				b_jelenia_gora = {}
-				b_swidnica = {}
+				b_legnica = {}
+				b_lubin = {}
+				b_glogow = {}
 				b_boleslawiec = {}
+				b_jawor = {}
+				b_polkowice = {}
+			}
+			c_walbrzych = {
+				color={ 211 34 220 }
+				color2={ 255 255 255 }
+				
+				b_swidnica = {}
+				b_walbrzych = {}
 				b_dzierzoniow = {}
+				b_bielawa = {}
 				b_klodzko = {}
+				b_swiebodzice = {}
+				b_nowa_ruda = {}
 			}
 			c_wroclaw = {
 				color={ 137 55 55 }
 				color2={ 255 255 255 }
 
-				b_lubin = {}
-				b_wroclaw = {}
-				b_glogow = {}
-				b_olesnica = {}
-				b_olawa = {}
-				b_polkowice = {}
 				b_trzebnica = {}
+				b_wroclaw = {}
+				b_olesnica = {}
+				b_jelcz_laskowice = {}
+				b_olawa = {}
+				b_brzeg_dolny = {}
+				b_strzelin = {}
 			}
 		}
 		d_upper_silesia = {
@@ -625,21 +649,33 @@ e_visegrad = {
 				b_opole = {}
 				b_nysa = {}
 				b_brzeg = {}
-				b_kluczbork = {}
 				b_prudnik = {}
-				b_krapkowice = {}
+				b_strzelce_opolskie = {}
+				b_namyslow = {}
 			}
 			c_katowice = {
 				color={ 204 127 79 }
 				color2={ 255 255 255 }
 
-				b_czestochowa = {}
-				b_katowice = {}
 				b_sosnowiec = {}
+				b_katowice = {}
 				b_gliwice = {}
 				b_zabrze = {}
 				b_bielsko_biala = {}
 				b_bytom = {}
+				b_rybnik = {}
+			}
+			c_czestochowa = {
+				color={ 127 142 137 }
+				color2={ 255 255 255 }
+				
+				b_zawiercie = {}
+				b_czestochowa = {}
+				b_myszkow = {}
+				b_kluczbork = {}
+				b_lubliniec = {}
+				b_klobuck = {}
+				b_olesno = {}
 			}
 		}
 		d_mazovia = {
@@ -801,6 +837,7 @@ e_visegrad = {
 				ukrainian = "Krakiv"
 				rusyn = "Krakiv"
 				
+				b_tarnow = {}
 				b_krakow = {
 					slovak = "Krakov"
 					czech = "Krakov"
@@ -811,12 +848,23 @@ e_visegrad = {
 					ukrainian = "Krakiv"
 					rusyn = "Krakiv"
 				}
-				b_brzesko = {}
-				b_skawina = {}
-				b_wieliczka = {}
 				b_oswiecim = {}
-				b_tarnow = {}
+				b_chrzanow = {}
+				b_olkusz = {}
+				b_skawina = {}
 				b_bochnia = {}
+			}
+			c_nowy_sacz = {
+				color={ 118 144 118 }
+				color2={ 255 255 255 }
+				
+				b_nowy_targ = {}
+				b_nowy_sacz = {}
+				b_gorlice = {}
+				b_zakopane = {}
+				b_limanowa = {}
+				b_rabka_zdroj = {}
+				b_krynica_zdroj = {}
 			}
 			c_swietokrzyskie = {
 				color={ 147 72 78 }
