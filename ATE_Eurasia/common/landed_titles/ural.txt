@@ -1,22 +1,22 @@
 ###ÄNSI###
 
-e_siberia = {
+e_ural = {
 	color={ 225 235 255 }
 	color2={ 255 255 255 }
 		
-	capital = 725 #	Sverdlovsk
+	capital = 725 #Sverdlovsk
 	
 	k_ural = {
 		color={ 210 210 230 }
 		color2={ 255 255 255 }
 		
-		capital = 725 #	Sverdlovsk
+		capital = 725 #Sverdlovsk
 				
 		d_sverdlovsk = {
 			color={ 180 180 240 }
 			color2={ 255 255 255 }
 		
-			capital = 725 #	Sverdlovsk
+			capital = 725 #Sverdlovsk
 			
 			c_sverdlovsk = {
 				color={ 219 212 243 }
@@ -47,7 +47,7 @@ e_siberia = {
 			color={ 180 230 190 }
 			color2={ 255 255 255 }
 		
-			capital = 635 #	Perm
+			capital = 635 #Perm
 			
 			c_perm = {
 				color={ 185 221 185 }
@@ -87,6 +87,13 @@ e_siberia = {
 				b_angasyak = {}
 				b_zirka = {}
 			}
+		}
+		d_udmurtia = {
+			color={ 159 200 170 }
+			color2={ 255 255 255 }
+		
+			capital = 637 #Izhevka
+			
 			c_izhevka = {
 				color={ 150 150 150 }
 				color2={ 255 255 255 }
@@ -99,6 +106,18 @@ e_siberia = {
 				b_sarkan = {}
 				b_azino = {}
 			}
+			c_glazov = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_glazov = {}
+				b_balezino = {}
+				b_igra = {}
+				b_zura = {}
+				b_uva = {}
+				b_karsovay = {}
+				b_kez = {}
+			}
 		}
 	}
 	
@@ -106,6 +125,6 @@ e_siberia = {
 		color={ 110 180 130 }
 		color2={ 255 255 255 }
 		
-		capital = 719 #	Surgut
+		capital = 719 #Surgut
 	}
 }
