@@ -935,6 +935,13 @@ e_soyuz = {
 				b_pirinem = {}
 				b_shasta = {}
 			}
+		}
+		d_mezen = {
+			color={ 159 178 199 }
+			color2={ 255 255 255 }
+		
+			capital = 710 #Mezen
+			
 			c_mezen = {
 				color={ 150 150 150 }
 				color2={ 255 255 255 }
@@ -944,8 +951,20 @@ e_soyuz = {
 				b_bychye = {}
 				b_pogorelets = {}
 				b_paluga = {}
-				b_kamenka = {}
+				b_leshukonskoye = {}
 				b_yuroma = {}
+			}
+			c_kamenka = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_kamenka = {}
+				b_koyda = {}
+				b_soyana = {}
+				b_okulovskiy = {}
+				b_sovpolye = {}
+				b_kimzha = {}
+				b_kiltsa = {}
 			}
 		}
 		d_kola = {
@@ -1070,73 +1089,6 @@ e_soyuz = {
 				b_kalevala = {}
 				b_kepa = {}
 				b_kevyatozero = {}
-			}
-		}
-		d_dvina = {
-			color={ 166 171 189 }
-			color2={ 255 255 255 }
-		
-			capital = 744 #Kotlas
-			
-			c_kotlas = {
-				color={ 150 150 150 }
-				color2={ 255 255 255 }
-				
-				b_kotlas = {}
-				b_luza = {}
-				b_koryazhma = {}
-				b_ilyinsko_podomskoye = {}
-				b_chepemushskiy = {}
-				b_vychegodsky = {}
-				b_urdoma = {}
-			}
-			c_bereznik = {
-				color={ 150 150 150 }
-				color2={ 255 255 255 }
-				
-				b_bereznik = {}
-				b_kulikovskaya = {}
-				b_pochtovoye = {}
-				b_shenkursk = {}
-				b_sakulinskaya = {}
-				b_odintsovskaya = {}
-				b_ust_padenga = {}
-			}
-			c_veliky_ustyug = {
-				color={ 150 150 150 }
-				color2={ 255 255 255 }
-				
-				b_veliky_ustyug = {}
-				b_kichmengsky_gorodok = {}
-				b_novator = {}
-				b_kuzino = {}
-				b_krasavino = {}
-				b_peganovo = {}
-				b_nizhniy_yenangsk = {}
-			}
-			c_lena = {
-				color={ 150 150 150 }
-				color2={ 255 255 255 }
-				
-				b_lena = {}
-				b_litvino = {}
-				b_soyga = {}
-				b_kulikovo = {}
-				b_bepezonavolok = {}
-				b_pustosh = {}
-				b_yarensk = {}
-			}
-			c_ust_vayenga = {
-				color={ 150 150 150 }
-				color2={ 255 255 255 }
-				
-				b_ust_vayenga = {}
-				b_rostovskoye = {}
-				b_topsa = {}
-				b_zelennik = {}
-				b_verkhnyaya_toyma = {}
-				b_lukinskaya = {}
-				b_ploso = {}
 			}
 		}
 	}
