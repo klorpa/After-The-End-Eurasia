@@ -1,31 +1,21 @@
-###### AUTO GENERATED CONTENT (c) CKTools v19 ######
-
-
+###ÄNSI###
 
 e_al_sharq_al_awsat = {
 	color={ 177 59 61 }
 	color2={ 255 255 20 }
 	
 	capital = 1399 # c_al_qahirah
-	culture = egyptian
 	
 	k_egypt = {
 		color={ 167 69 56 }
 		color2={ 255 255 255 }
 		
 		capital = 1399 # c_al_qahirah
-		culture = egyptian
 		
 		d_al_qahirah = {
 			color={ 147 89 46 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1399 province_id = 1400 province_id = 1401 } }
-				}
-			}
 			capital = 1399 # c_al_qahirah
 			
 			c_al_qahirah = { # 1399
@@ -90,12 +80,6 @@ e_al_sharq_al_awsat = {
 			color={ 205 68 250 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1426 province_id = 1427 province_id = 1428 province_id = 1429 province_id = 1430 } }
-				}
-			}
 			capital = 1426 # c_al_ghurdaqah
 			
 			c_al_ghurdaqah = { # 1426
@@ -198,12 +182,6 @@ e_al_sharq_al_awsat = {
 			color={ 62 36 129 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1405 province_id = 1406 } }
-				}
-			}
 			capital = 1405 # c_al_iskandariyya
 			
 			c_al_iskandariyya = { # 1405
@@ -249,12 +227,6 @@ e_al_sharq_al_awsat = {
 			color={ 171 181 101 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1431 province_id = 1432 province_id = 1433 province_id = 1434 province_id = 1435 } }
-				}
-			}
 			capital = 1431 # c_al_kharijah
 			
 			c_al_kharijah = { # 1431
@@ -357,12 +329,6 @@ e_al_sharq_al_awsat = {
 			color={ 74 151 250 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1410 province_id = 1411 province_id = 1412 } }
-				}
-			}
 			capital = 1410 # c_as_suways
 			
 			c_as_suways = { # 1410
@@ -427,12 +393,6 @@ e_al_sharq_al_awsat = {
 			color={ 84 117 250 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1424 province_id = 1425 province_id = 1439 } }
-				}
-			}
 			capital = 1424 # c_aswan
 			
 			c_aswan = { # 1424
@@ -495,12 +455,6 @@ e_al_sharq_al_awsat = {
 			color={ 113 117 123 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1402 province_id = 1403 province_id = 1404 } }
-				}
-			}
 			capital = 1402 # c_al_gharbiyah
 			
 			c_al_gharbiyah = { # 1402
@@ -565,12 +519,6 @@ e_al_sharq_al_awsat = {
 			color={ 117 9 171 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1420 province_id = 1421 province_id = 1422 province_id = 1423 province_id = 1436 province_id = 1437 province_id = 1438 } }
-				}
-			}
 			capital = 1420 # c_al_uqsur
 			
 			c_al_uqsur = { # 1420
@@ -711,12 +659,6 @@ e_al_sharq_al_awsat = {
 			color={ 132 76 104 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1407 province_id = 1408 province_id = 1409 } }
-				}
-			}
 			capital = 1407 # c_marsa_matruh
 			
 			c_marsa_matruh = { # 1407
@@ -781,12 +723,6 @@ e_al_sharq_al_awsat = {
 			color={ 178 0 131 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1415 province_id = 1416 province_id = 1417 province_id = 1418 } }
-				}
-			}
 			capital = 1415 # c_al_fayyum
 			
 			c_al_fayyum = { # 1415
@@ -870,12 +806,6 @@ e_al_sharq_al_awsat = {
 			color={ 102 172 250 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1413 province_id = 1414 province_id = 1419 } }
-				}
-			}
 			capital = 1413 # c_al_arish
 			
 			c_al_arish = { # 1413
