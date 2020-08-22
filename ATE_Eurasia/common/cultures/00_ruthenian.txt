@@ -125,59 +125,6 @@ ruthenian = {
 		modifier = default_culture_modifier
 	}
 	
-	slobozhan = {
-		graphical_cultures = { croatsouthslavicgfx }
-		
-		color = { 0.3 0.6 0.8 }
-
-		male_names = {
-			Albert Aleksandr_Alexander Aleksei_Alexis Anatoliy_Anatole Andrei_Andrew Arkady_Arcadius Arseny_Arsenius
-			Boris
-			Denis_Dionysus Dmitri_Demetrius
-			Eduard_Edward Evgeni_Eugene
-			Fyodor_Theodore
-			Gennady_Gennadius Georgi_George Grigori_Gregory
-			Igor_Ingvar Ilya_Elijah Ivan_John
-			Konstantin_Constantine
-			Leonid_Leonidas Lev_Leo
-			Maksim_Maximus Mikhail_Michael
-			Nikita Nikolai_Nicholas
-			Oleg_Helgi
-			Pavel_Paul
-			Roman Rostislav
-			Sergei_Sergius Stanislav
-			Terenty_Terence
-			Vadim Valery_Valerius Viktor_Victor Vitali Vladimir Vladislav Vsevolod Vyacheslav
-			Yakov_Jacob Yaroslav
-		}
-		female_names = {
-			Anastasiya_Anastasia
-			Ekaterina_Catherine
-			Irina_Irene
-			Maria_Mary
-			Nadia Natalia Nina
-			Olga
-			Tatiana
-			Svitlana
-			Yuliya_Julia
-		}
-		
-		from_dynasty_prefix = "of "
-		
-		male_patronym = "ovich"
-		female_patronym = "ovna"
-		prefix = no
-
-		pat_grf_name_chance = 50
-		mat_grf_name_chance = 40
-		father_name_chance = 0
-		
-		pat_grm_name_chance = 30
-		mat_grm_name_chance = 30
-		mother_name_chance = 0
-
-		modifier = default_culture_modifier
-	}
 	
 	rusyn = {
 		graphical_cultures = { croatsouthslavicgfx }
@@ -254,8 +201,7 @@ ruthenian = {
 			Semen_Simon Serhiy_Sergius Stanyslav_Stanislav Stepan_Stephen Svyatoslav_Sviatoslav
 			Taras Trokhym Tymofiy_Timothy
 			Vadym_Vadim Valentyn_Valentine Valeriy_Valerius Vasyl_Basil Viktor_Victor Vitaliy Vladyslav_Vladislav Volodymyr_Vladimir Vsevolod Vyacheslav
-			Yevhen_Eugene
-			Yakiv_Jacob Yaroslav Yosyp_Joseph Yukhym_Euthymius Yuriy_George
+			Yakiv_Jacob Yaroslav Yevhen_Eugene Yosyp_Joseph Yukhym_Euthymius Yuriy_George
 			Zinoviy_Zenobius
 		}
 		female_names = {
@@ -340,6 +286,126 @@ ruthenian = {
 		from_dynasty_prefix = "of "
 		
 		male_patronym = "ovych"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	halychian = {
+		graphical_cultures = { croatsouthslavicgfx }
+		
+		color = { 0.6 0.4 0.1 }
+
+		male_names = {
+			Afanasiy_Athanasius Amvroziy_Ambrose Anatoliy_Anatole Andriy_Andrew Anton_Anthony Arkadiy_Arcadius Arsen_Arsenius Artem_Artemius Artur_Arthur Avhustyn_Augustine
+			Bohdan_Bogdan Borys_Boris Bronislav
+			Danylo_Daniel Davyd_David Demyan_Damian Denys_Dionysus Dmytro_Demetrius
+			Eduard_Edward Emanuyil_Emmanuel
+			Fedir_Theodore Feodosiy_Theodosius Frants_Francis
+			Hennadiy_Gennadius Hryhoriy_Gregory
+			Ihnatiy_Ignatius Ihor_Ingvar Illya_Elijah Ivan_John 
+			Kazymyr_Casimir Kostyantyn_Constantine Kyrylo_Cyril
+			Leonid_Leonidas Leontiy_Leontius Lev_Leo Lonhyn_Longinus Lyubomyr
+			Maksym_Maximus Markiyan_Marcian Marko_Mark Maryan_Marianus Matviy_Matthew Mechyslav Mykhaylo_Michael Mykola_Nicholas Mykyta_Nikita Myron Myroslav_Miroslav
+			Nazariy
+			Oleksandr_Alexander Oleksiy_Alexis Oleh_Helgi Omelyan_Aemilian Orest_Orestes Ostap_Eustace
+			Pavlo_Paul Petro_Peter Pylyp_Philip
+			Roman Rostyslav_Rostislav Ruslan
+			Semen_Simon Serhiy_Sergius Stanyslav_Stanislav Stepan_Stephen Svyatoslav_Sviatoslav
+			Taras Trokhym Tymofiy_Timothy
+			Vadym_Vadim Valentyn_Valentine Valeriy_Valerius Vasyl_Basil Venedykt_Benedict Viktor_Victor Vitaliy Vladyslav_Vladislav Volodymyr_Vladimir Vsevolod Vyacheslav
+			Yakiv_Jacob Yaroslav Yevhen_Eugene Yosyp_Joseph Yukhym_Euthymius Yuriy_George
+			Zbyhnyev Zinoviy_Zenobius
+		}
+		female_names = {
+			Alla Anastasiya_Anastasia Anhelina_Angeline Antonina Anzhela_Angela
+			Bohdana Bronislava
+			Dariya_Daria Daryna Dina_Dinah
+			Emiliya_Amelia
+			Fedora_Theodora
+			Halyna_Galene Hanna_Hannah
+			Inna Iryna_Irene Ivanna_Joan
+			Kateryna_Catherine Khrystyna_Christine Klavdiya_Claudia
+			Larysa_Larissa Leonida Lidiya Liliya Lyubomyra Lyubov Lyudmyla_Ludmila
+			Marfa_Martha Marharyta_Margaret Mariya_Mary Maryna_Marina Mayya Melaniya_Melanie Mykhaylyna_Michelle Myroslava_Miroslava
+			Nadiya Nataliya_Natalie Nina
+			Oksana_Xenia Oleksandra_Alexandra Olena_Helen Olesya Olha_Olga
+			Pelaheya
+			Rayisa Romana Rosalya Ruslana
+			Snizhana Sofiya_Sophia Solomiya_Salome Stefaniya_Stephanie Svitlana Svyatoslava
+			Tamara Tayisiya Teklya_Thecla Tetyana
+			Ulyana_Juliana
+			Valentyna_Valentina Varvara_Barbara Vasylyna Veronika_Veronica Viktoriya_Victoria Vira
+			Yanina Yaroslava Yefrosyniya Yelyzaveta_Elizabeth Yeva_Eve Yevdokiya Yevheniya_Eugenia Yuliya_Julia
+			Zinayida_Zenaida Zlata Zoryana Zoya
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovych"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	donskoy = {
+		graphical_cultures = { croatsouthslavicgfx }
+		
+		color = { 0.3 0.6 0.8 }
+
+		male_names = {
+			Albert Aleksandr_Alexander Aleksei_Alexis Anatoliy_Anatole Andrei_Andrew Arkady_Arcadius Arseny_Arsenius
+			Boris
+			Denis_Dionysus Dmitri_Demetrius
+			Eduard_Edward Evgeni_Eugene
+			Filip_Philip Fyodor_Theodore
+			Gennady_Gennadius Georgi_George Grigori_Gregory
+			Igor_Ingvar Ilya_Elijah Ivan_John
+			Kharlampi Konstantin_Constantine
+			Lavr_Laurence Leonid_Leonidas Lev_Leo
+			Maksim_Maximus Mikhail_Michael
+			Nazar Nikita Nikolai_Nicholas
+			Oleg_Helgi
+			Pavel_Paul Petr_Peter
+			Roman Rostislav
+			Sergei_Sergius Stanislav Stepan_Stephen
+			Terenty_Terence
+			Vadim Valery_Valerius Vasily_Basil Viktor_Victor Vitali Vladimir Vladislav Vsevolod Vyacheslav
+			Yakov_Jacob Yaroslav Yemelyan_Aemilian Yermak
+		}
+		female_names = {
+			Aleksandra_Alexandra Anastasia_Anastasia
+			Ekaterina_Catherine Elena_Helen
+			Irina_Irene
+			Lyudmila
+			Maria_Mary
+			Nadia Natalia Nina
+			Olga
+			Svitlana
+			Tatiana
+			Valentina
+			Yevgeniya_Eugenia Yulia_Julia
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
 		female_patronym = "ovna"
 		prefix = no
 
