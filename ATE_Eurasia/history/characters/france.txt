@@ -467,6 +467,7 @@
 1804044={
 	name="Patrice"
 	dynasty=2008218 #Picquard
+	father=1804060
 	culture=parisian
 	religion=jacobin
 	2619.7.13={birth=yes}
@@ -512,4 +513,192 @@
 	culture=gallo
 	religion=sun_king_cultist 
 	2652.12.2={birth=yes}
+}
+
+1804050={
+	name="Jean-Luc"
+	dynasty=2008218 #Picquard
+	culture=parisian
+	religion=neuhumanist
+	father=1804051
+	2305.7.13={birth=yes}
+	2375.4.13={ 
+		death = {
+			death_reason = death_poor_health
+			}
+	martial=8
+	diplomacy=10
+	stewardship=5
+	intrigue=5
+	learning=10
+	add_trait="grey_eminence"
+	add_trait="proud"
+	add_trait="chaste"
+	add_trait="genius"
+	add_trait="scholar"
+	add_trait="patient"
+	add_trait="just"
+	add_trait="legendary"
+	properties = co0c0k000000
+}
+
+1804051={
+	name="Maurice"
+	dynasty=2008218 #Picquard
+	culture=parisian
+	religion=neuhumanist
+	2280.12.5={birth=yes}
+	2360.1.1={ 
+		death = {
+			death_reason = death_poor_health
+			}
+	martial=4
+	diplomacy=4
+	stewardship=4
+	intrigue=4
+	learning=4
+	add_trait="thrifty_clerk"
+	add_trait="proud"
+	add_trait="legendary"
+}
+
+1804052={
+	name="Robert"
+	dynasty=2008218 #Picquard
+	culture=parisian
+	religion=neuhumanist
+	father=1804051
+	2300.12.5={birth=yes}
+	2371.12.25={ 
+		death = {
+			death_reason = death_natural
+			}
+			}
+	martial=4
+	diplomacy=4
+	stewardship=4
+	intrigue=4
+	learning=4
+}
+
+1804053={
+	name="René"
+	dynasty=2008218 #Picquard
+	culture=parisian
+	religion=neuhumanist
+	father=1804052
+	2360.12.5={birth=yes}
+	2399.12.25={ 
+		death = {
+			death_reason = death_accident_fire
+			}
+			}
+	martial=4
+	diplomacy=4
+	stewardship=4
+	intrigue=4
+	learning=4
+}
+
+1804054={
+	name="Jacques-Robèrt"
+	dynasty=2008218 #Picquard
+	culture=parisian
+	religion=neuhumanist
+	father=1804053
+	2381.12.5={birth=yes}
+	2450.7.13={ 
+		death = {
+			death_reason = death_natural
+			}
+			}
+	martial=4
+	diplomacy=4
+	stewardship=4
+	intrigue=4
+	learning=4
+}
+
+1804055={
+	name="Jean-René"
+	dynasty=2008218 #Picquard
+	culture=parisian
+	religion=neuhumanist
+	father=1804054
+	2404.3.21={birth=yes}
+	2480.1.30={ 
+		death = {
+			death_reason = death_natural
+			}
+			}
+}
+
+1804056={
+	name="Jacques"
+	dynasty=2008218 #Picquard
+	culture=parisian
+	religion=neuhumanist
+	father=1804055
+	2423.3.21={birth=yes}
+	2478.6.22={ 
+		death = {
+			death_reason = death_natural
+			}
+			}
+}
+
+1804057={
+	name="Robèrt"
+	dynasty=2008218 #Picquard
+	culture=parisian
+	religion=neuhumanist
+	father=1804056
+	2452.9.5={birth=yes}
+	2510.2.11={ 
+		death = {
+			death_reason = death_natural
+			}
+			}
+}
+
+1804058={
+	name="David"
+	dynasty=2008218 #Picquard
+	culture=parisian
+	religion=neuhumanist
+	father=1804057
+	2490.8.1={birth=yes}
+	2544.4.7={ 
+		death = {
+			death_reason = death_natural
+			}
+			}
+}
+
+1804059={
+	name="Guérin"
+	dynasty=2008218 #Picquard
+	culture=parisian
+	religion=neuhumanist
+	father=1804058
+	2510.4.11={birth=yes}
+	2567.5.7={ 
+		death = {
+			death_reason = death_natural
+			}
+			}
+}
+
+1804060={
+	name="Zacharie"
+	dynasty=2008218 #Picquard
+	culture=parisian
+	religion=neuhumanist
+	father=1804059
+	2564.6.3={birth=yes}
+	2650.1.20={ 
+		death = {
+			death_reason = death_natural
+			}
+			}
 }
