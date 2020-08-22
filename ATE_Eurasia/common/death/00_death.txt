@@ -311,6 +311,25 @@ death_accident_tiger = {
 	}
 }
 
+death_accident_fire = {
+	violent = yes
+	long_desc = "BURNT_ALIVE"
+	sound_list = {
+		female = {
+			"burning_female_01"
+			"burning_female_02"
+			"burning_female_03"
+		}
+		male = {
+			"burning_male_01"
+			"burning_male_02"
+			"burning_male_03"
+			"burning_male_04"
+		}
+	}
+}
+
+
 #MURDER 
 #Update the death_murder_unknown_trigger and the death_murder_known_trigger with new death reasons
 death_murder = {
