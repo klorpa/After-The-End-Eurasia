@@ -124,37 +124,6 @@ e_ural = {
 				b_usva = {}
 			}
 		}
-		d_ufa = {
-			color={ 135 157 125 }
-			color2={ 255 255 255 }
-		
-			capital = 770 #Ufa
-			
-			c_ufa = {
-				color={ 150 150 150 }
-				color2={ 255 255 255 }
-				
-				b_ufa = {}
-				b_blagoveshchensk = {}
-				b_iglino = {}
-				b_birsk = {}
-				b_chishmy = {}
-				b_knyazevo = {}
-				b_akberdino = {}
-			}
-			c_neftekamsk = {
-				color={ 150 150 150 }
-				color2={ 255 255 255 }
-				
-				b_neftekamsk = {}
-				b_yanaul = {}
-				b_agidel = {}
-				b_Krasnokholmskiy = {}
-				b_burajevo = {}
-				b_angasyak = {}
-				b_zirka = {}
-			}
-		}
 		d_udmurtia = {
 			color={ 159 200 170 }
 			color2={ 255 255 255 }
@@ -398,12 +367,12 @@ e_ural = {
 				color2={ 255 255 255 }
 				
 				b_bugrino = {}
-				b_bluchikoffsky = {}
-				b_yelisky = {}
-				b_uanosky = {}
-				b_marrksky = {}
+				b_bulchikova = {}
+				b_yelskiy = {}
+				b_uanoskiy = {}
+				b_marrkskiy = {}
 				b_peschanoozerskoye = {}
-				b_on_tipsky = {}
+				b_on_tipskiy = {}
 			}
 			c_yuzhny = {
 				color={ 150 150 150 }
@@ -716,7 +685,159 @@ e_ural = {
 			}
 		}
 	}
-	
+	k_bashkortostan = {
+		color={ 210 210 101 }
+		color2={ 255 255 255 }
+		
+		capital = 770 #Ufa
+		
+		d_ufa = {
+			color={ 185 177 125 }
+			color2={ 255 255 255 }
+		
+			capital = 770 #Ufa
+			
+			c_ufa = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_ufa = {}
+				b_blagoveshchensk = {}
+				b_iglino = {}
+				b_birsk = {}
+				b_chishmy = {}
+				b_knyazevo = {}
+				b_akberdino = {}
+			}
+			c_mesyagutovo = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_mesyagutovo = {}
+				b_karaidel = {}
+				b_bolsheustyikinskoye = {}
+				b_duvan = {}
+				b_burayevo = {}
+				b_mishkino = {}
+				b_verkhniye_kigi = {}
+			}
+			c_oktyabrsky = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_oktyabrsky = {}
+				b_tuymazy = {}
+				b_belebey = {}
+				b_priyutovo = {}
+				b_sharan = {}
+				b_kandry = {}
+				b_buzdyak = {}
+			}
+			c_sibay = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_sibay = {}
+				b_kizilskoye = {}
+				b_zilair = {}
+				b_baymak = {}
+				b_temyasovo = {}
+				b_starosubkhangulovo = {}
+				b_akyar = {}
+			}
+			c_sterlitamak = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_sterlitamak = {}
+				b_ishimbay = {}
+				b_salavat = {}
+				b_kumertau = {}
+				b_meleuz = {}
+				b_yermolayevo = {}
+				b_krasnousolsky = {}
+			}
+			c_neftekamsk = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_neftekamsk = {}
+				b_yanaul = {}
+				b_agidel = {}
+				b_krasnokholmskiy = {}
+				b_burajevo = {}
+				b_angasyak = {}
+				b_zirka = {}
+			}
+		}
+		d_orenburg = {
+			color={ 186 169 121 }
+			color2={ 255 255 255 }
+		
+			capital = 768 #Orenburg
+		
+			c_orenburg = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_orenburg = {}
+				b_sol_iletsk = {}
+				b_tyulgan = {}
+				b_akbulak = {}
+				b_nezhinka = {}
+				b_oktyabrskoye = {}
+				b_ilek = {}
+			}
+			c_orsk = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_orsk = {}
+				b_novotroitsk = {}
+				b_gay = {}
+				b_mednogorsk = {}
+				b_kuvandyk = {}
+				b_ashchebutak = {}
+				b_dzhanatalap = {}
+			}
+			c_yasny = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_yasny = {}
+				b_adamovka = {}
+				b_svetlyy = {}
+				b_shilda = {}
+				b_kvarkeno = {}
+				b_dombarovskiy = {}
+				b_energetik = {}
+			}
+			c_buzuluk = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_buzuluk = {}
+				b_sorochinsk = {}
+				b_novosergiyevka = {}
+				b_totskoye = {}
+				b_pervomaiskii = {}
+				b_kurmanayevka = {}
+				b_tashla = {}
+			}
+			c_buguruslan = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_buguruslan = {}
+				b_abdulino = {}
+				b_matveyevka = {}
+				b_ponomarevka = {}
+				b_sharlyk = {}
+				b_severnoye = {}
+				b_verkhnenovokutlumbetyevo = {}
+			}
+		}
+	}
 	k_ob = {
 		color={ 110 180 130 }
 		color2={ 255 255 255 }

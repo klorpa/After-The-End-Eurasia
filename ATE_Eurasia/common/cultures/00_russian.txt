@@ -1,7 +1,6 @@
 ###ÄNSI
 
 russian = {
-	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
 	graphical_cultures = { easterngfx }
 
 	pitersky = {
@@ -123,7 +122,7 @@ russian = {
 
 		modifier = default_culture_modifier
 	}
-	don_volgan = {
+	volgan = {
 		graphical_cultures = { westernslavicgfx }
 
 		color = { 0.7 0.3 0.4 }
@@ -217,35 +216,6 @@ russian = {
 			Tatiyana_Tatiana 
 			Valentina Valya Varvara_Barbara Vasilisa Vera Veronika_Veronica Victoria 
 			Yelena_Helen
-		}
-		
-		from_dynasty_prefix = "of "
-		
-		male_patronym = "ovich"
-		female_patronym = "ovna"
-		prefix = no
-
-		pat_grf_name_chance = 50
-		mat_grf_name_chance = 40
-		father_name_chance = 0
-		
-		pat_grm_name_chance = 30
-		mat_grm_name_chance = 30
-		mother_name_chance = 0
-
-		modifier = default_culture_modifier
-	}
-	tatar = {
-		graphical_cultures = { westernslavicgfx }
-
-		color = { 0.5 0.7 0.4 }
-
-		male_names = {
-			Aleksander_Alexander
-		}
-
-		female_names = {
-			Aleksandra_Alexandra 
 		}
 		
 		from_dynasty_prefix = "of "
