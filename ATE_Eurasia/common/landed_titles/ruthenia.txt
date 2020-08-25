@@ -87,49 +87,6 @@ e_ruthenia = {
 				b_rzhyshchiv = {}
 			}
 		}
-		d_zhytomyr = {
-			color={ 184 188 30 }
-			color2={ 255 255 255 }
-		
-			capital = 869 #Zhytomyr
-			
-			c_zhytomyr = {
-				color={ 210 210 50 }
-				color2={ 255 255 255 }
-				
-				b_zhytomyr = {}
-				b_korostyshiv = {}
-				b_berdychiv = {}
-				b_chudniv = {}
-				b_ivanopil = {}
-				b_lyubar = {}
-				b_romaniv = {}
-			}
-			c_korosten = {
-				color={ 178 175 100 }
-				color2={ 255 255 255 }
-				
-				b_korosten = {}
-				b_malyn = {}
-				b_ovruch = {}
-				b_narodychi = {}
-				b_pershotravnene = {}
-				b_bilokorovychi = {}
-				b_luhyny = {}
-			}
-			c_novohrad_volynskyi = {
-				color={ 235 235 161 }
-				color2={ 255 255 255 }
-				
-				b_novohrad_volynskyi = {}
-				b_olevsk = {}
-				b_yemilchyne = {}
-				b_horodnytsya = {}
-				b_dubrivka = {}
-				b_hrud = {}
-				b_baranivka = {}
-			}
-		}
 		d_chernihiv = {
 			color={ 244 203 120 }
 			color2={ 255 255 255 }
@@ -1704,7 +1661,7 @@ e_ruthenia = {
 			}
 		}
 	}
-	k_galicia_eastern = {
+	k_galicia_lodomeria = {
 		color={ 52 94 239 }
 		color2={ 255 255 255 }
 		
@@ -1893,52 +1850,47 @@ e_ruthenia = {
 				b_bilohiria = {}
 			}
 		}
-		d_subcarpathia = {
-			color={ 247 170 119 }
+		d_zhytomyr = {
+			color={ 184 188 30 }
 			color2={ 255 255 255 }
 		
-			capital = 1336 #Rzeszow
+			capital = 869 #Zhytomyr
 			
-			polish = "Podkarpackie"
-			ukrainian = "Pidkarpattya"
-			rusyn = "Pidkarpattya"
-			chernyan = "Podkarpatskoye"
-					
-			c_rzeszow = {
-				color={ 250 140 130 }
+			c_zhytomyr = {
+				color={ 210 210 50 }
 				color2={ 255 255 255 }
 				
-				ukrainian = "Riashiv"
-				rusyn = "Riashiv"
-				
-				b_stalowa_wola = {}
-				b_rzeszow = {
-					ukrainian = "Riashiv"
-					rusyn = "Riashiv"
-				}
-				b_mielec = {}
-				b_tarnobrzeg = {}
-				b_debica = {}
-				b_jaroslaw = {}
-				b_lancut = {}
+				b_zhytomyr = {}
+				b_korostyshiv = {}
+				b_berdychiv = {}
+				b_chudniv = {}
+				b_ivanopil = {}
+				b_lyubar = {}
+				b_romaniv = {}
 			}
-			c_przemysl = {
-				color={ 243 202 108 }
+			c_korosten = {
+				color={ 178 175 100 }
 				color2={ 255 255 255 }
 				
-				ukrainian = "Peremyshl"
-				rusyn = "Peremyshl"
-					
-				b_krosno = {}
-				b_przemysl = {
-					ukrainian = "Peremyshl"
-					rusyn = "Peremyshl"
-				}
-				b_sanok = {}
-				b_jaslo = {}
-				b_ustrzyki_dolne = {}
-				b_brzozow = {}
-				b_dynow = {}
+				b_korosten = {}
+				b_malyn = {}
+				b_ovruch = {}
+				b_narodychi = {}
+				b_pershotravnene = {}
+				b_bilokorovychi = {}
+				b_luhyny = {}
+			}
+			c_novohrad_volynskyi = {
+				color={ 235 235 161 }
+				color2={ 255 255 255 }
+				
+				b_novohrad_volynskyi = {}
+				b_olevsk = {}
+				b_yemilchyne = {}
+				b_horodnytsya = {}
+				b_dubrivka = {}
+				b_hrud = {}
+				b_baranivka = {}
 			}
 		}
 	}
