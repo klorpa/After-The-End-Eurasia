@@ -4,6 +4,8 @@
 	dynasty=1949031 #Stromer
 	culture=bavarian
 	religion=catholic
+	father=1805030
+	mother=1805029
 	martial=4
 	diplomacy=3
 	stewardship=5
@@ -117,7 +119,7 @@
 	2695.2.1={death=yes}
 }
 1805006={
-	name="Johannes"
+	name="Johann"
 	dynasty=1949033 #Maestlin
 	culture=bavarian
 	religion=catholic
@@ -136,7 +138,7 @@
 	2717.7.23={death=yes}
 }
 1805007={
-	name="Joseph"
+	name="Josef"
 	dynasty=1949034 #Reger
 	culture=bavarian
 	religion=catholic
@@ -211,7 +213,7 @@
 	2701.1.1={death=yes}
 }
 1805011={
-	name="Friedrich"
+	name="Fritz"
 	dynasty=1947014 #Fugger
 	culture=swabian
 	religion=catholic
@@ -234,6 +236,7 @@
 	dynasty=1947003 #Weissbrunner
 	culture=swabian
 	religion=catholic
+	father=1805028
 	martial=6
 	diplomacy=4
 	stewardship=4
@@ -288,15 +291,17 @@
 	trait=scholar
 	trait=erudite
 	trait=proud
+	trait=chaste
 	trait=twin
 	2644.12.6={birth=yes}
+	2666.3.12={add_spouse=1805031}
 	2700.1.1={death=yes}
 }
 1805023={
-	name="Alfred"
-	dynasty=1947008 #Exle
+	name="Fritz"
+	dynasty=1947008 #von Hohenzollern
 	culture=swabian
-	religion=neuhumanist
+	religion=lutheran
 	trait=naive_appeaser
 	trait=slow
 	trait=gregarious
@@ -304,7 +309,7 @@
 	trait=trusting
 	trait=diligent
 	trait=lustful
-	trait=humble
+	trait=proud
 	2637.1.5={birth=yes}
 	2700.1.1={death=yes}
 }
@@ -369,4 +374,69 @@
 	trait=zealous
 	2401.12.10={birth=yes}
 	2475.10.20={death=yes}
+}
+1805028={
+	name="Josef"
+	dynasty=1947003 #Weissbrunner
+	culture=swabian
+	religion=catholic
+	trait=underhanded_rogue
+	trait=brave
+	trait=gregarious
+	trait=diligent
+	trait=temperate
+	2594.8.28={birth=yes}
+	2649.1.26={death=yes}
+}
+1805029={
+	name="Klara"
+	female=yes
+	dynasty=1947003 #Weissbrunner
+	culture=swabian
+	religion=catholic
+	father=1805028
+	martial=6
+	diplomacy=4
+	stewardship=4
+	intrigue=5
+	learning=4
+	2619.2.6={birth=yes}
+	2700.1.1={death=yes}
+}
+1805030={
+	name="Wilhelm"
+	dynasty=1949031 #Stromer
+	culture=bavarian
+	religion=catholic
+	trait=brilliant_strategist
+	trait=wroth
+	trait=lustful
+	trait=ambitious
+	trait=family_person
+	2608.3.27={birth=yes}
+	2635.5.5={add_spouse=1805029}
+	2661.6.8={death=yes}
+}
+1805031={
+	name="Hannah"
+	female=yes
+	dynasty=1949031 #Stromer
+	culture=bavarian
+	religion=catholic
+	father=1805030
+	mother=1805029
+	martial=4
+	diplomacy=3
+	stewardship=5
+	intrigue=3
+	learning=5
+	trait=underhanded_rogue
+	trait=ugly
+	trait=rude
+	trait=proud
+	trait=strong
+	trait=drunkard
+	trait=ambitious
+	2638.9.2={birth=yes}
+	2700.1.1={death=yes}
 }
