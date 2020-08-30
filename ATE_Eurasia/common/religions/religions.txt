@@ -747,7 +747,7 @@ esoteric = {
 		intermarry = high_thelema
 	}
 	
-	neuhumanist = { #placeholder
+	neuhumanist = {
 		graphical_culture = hellenicgfx
 		secondary_event_pictures = westerngfx
 
@@ -758,14 +758,14 @@ esoteric = {
 		
 		interface_skin = { taoist_interface indian_interface muslim_interface }
 		
-		high_god_name = GOD_THE_TRUTH
+		high_god_name = GOD_THE_SUPREME_BEING
 		
 		god_names = {
-			GOD_CONCORDIA GOD_GOD GOD_CHRIST GOD_PLATO GOD_NIETZCHE
+			GOD_GOD GOD_CHRIST GOD_THE_MUSES GOD_MUSE_CONCORDIA GOD_ST_KANT GOD_ST_SPINOZA GOD_ST_KIERKEGAARD GOD_ST_ROUSSEAU
 		}
 		
 		evil_god_names = {
-			THE_UNENLIGHTENED MOLOCH GOD_MAMMON
+			THE_UNENLIGHTENED GOD_THE_DECEIVER GOD_DISCORDIA
 		}
 		
 		can_grant_divorce = yes
@@ -777,9 +777,9 @@ esoteric = {
 		religious_clothing_priest = 10
 		
 		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_WRITINGS
-		priest_title = GURU
-		piety_name = KARMA
+		scripture_name = THE_CLASSICS
+		priest_title = TEACHER
+		piety_name = ENLIGHTENMENT
 		
 	}
 	valinorism = {
@@ -1079,6 +1079,39 @@ old_world_cultist_group = {
 		
 		intermarry = neuhumanist
 		intermarry = jacobin
+	}
+	proletcult = { #placeholder
+		graphical_culture = hellenicgfx
+
+		icon = 19
+		heresy_icon = 13
+		
+		color = { 0.8 0.0 0.0 }
+		interface_skin = { rust_cultist_interface hellenic_interface }
+
+		high_god_name = GOD_THE_TITANS #removed this blatant 40k reference
+
+		god_names = {
+			GOD_THE_TITANS GOD_FATHER_FORD GOD_FATHER_BESSEMER GOD_FATHER_CARNEGIE GOD_VULCAN GOD_THE_MACHINE_SPIRITS
+		}
+		evil_god_names = {
+			THE_LORD_OF_RUST HE_WHO_RUSTS LUDD
+		}
+		crusade_name = INDUSTRIAL_ACTION
+		scripture_name = THE_BOOK_OF_RUST
+		priest_title = TECHPRIEST
+		
+		can_call_crusade = yes
+		priests_can_marry = yes
+		priests_can_inherit = no
+		female_temple_holders = yes #I want to make the High Fabricator decision gender-neutral
+		allow_rivermovement = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		join_crusade_if_bordering_hostile = yes
+		
+		religious_clothing_head = 18
+		religious_clothing_priest = 18
 	}
 }
 
