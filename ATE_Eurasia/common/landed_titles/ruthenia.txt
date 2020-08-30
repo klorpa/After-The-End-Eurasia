@@ -23,79 +23,278 @@ e_ruthenia = {
 		
 			capital = 819 #Kyiv
 			
-			muscovite = "Kiyev"
-			pitersky = "Kiyev"
-			don_volgan = "Kiyev"
-			kaliningradyets = "Kiyev"
+			muscovite="Kiyev"
+			pitersky="Kiyev"
+			chornomorsky="Kiyev"
+			kaliningradyets="Kiyev"
+			donskoy="Kiyev"
+			chernyan="Kiyev"
+			kubantsy="Kiyev"
+			polish="Kijów"
 		
 			c_kyiv = {
 				color={ 250 240 30 }
 				color2={ 255 255 255 }
 				
-				muscovite = "Kiyev"
-				pitersky = "Kiyev"
-				don_volgan = "Kiyev"
-				kaliningradyets = "Kiyev"
+				muscovite="Kiyev"
+				pitersky="Kiyev"
+				chornomorsky="Kiyev"
+				kaliningradyets="Kiyev"
+				donskoy="Kiyev"
+				chernyan="Kiyev"
+				kubantsy="Kiyev"
+				polish="Kijów"
 		
-				b_kyiv = {
-					muscovite = "Kiyev"
-					pitersky = "Kiyev"
-					don_volgan = "Kiyev"
-					kaliningradyets = "Kiyev"
+				b_irpin = {
+					muscovite="Irpen'"
+					pitersky="Irpen'"
+					chornomorsky="Irpen'"
+					kaliningradyets="Irpen'"
+					donskoy="Irpen'"
+					chernyan="Irpen'"
+					kubantsy="Irpen'"
 				}
-				b_irpin = {}
-				b_fastin = {}
-				b_obukhiv = {}
-				b_katyuzhanka = {}
-				b_vasylkiv = {}
-				b_hlibivka = {}
+				b_kyiv = {
+					muscovite="Kiyev"
+					pitersky="Kiyev"
+					chornomorsky="Kiyev"
+					kaliningradyets="Kiyev"
+					donskoy="Kiyev"
+					chernyan="Kiyev"
+					kubantsy="Kiyev"
+					polish="Kijów"
+				}
+				b_obukhiv = {
+					muscovite="Obukhov"
+					pitersky="Obukhov"
+					chornomorsky="Obukhov"
+					kaliningradyets="Obukhov"
+					donskoy="Obukhov"
+					chernyan="Obukhov"
+					kubantsy="Obukhov"
+					polish="Obuchów"
+				}
+				b_bucha = {}
+				b_vyshhorod = {
+					muscovite="Vishgorod"
+					pitersky="Vishgorod"
+					chornomorsky="Vishgorod"
+					kaliningradyets="Vishgorod"
+					donskoy="Vishgorod"
+					chernyan="Vishgorod"
+					kubantsy="Vishgorod"
+					polish="Wyszogród"
+				}
+				b_vasylkiv = {
+					polish="Wasylków"
+				}
+				b_fastiv = {
+					polish="Fastów"
+				}
 			}
 			c_prypyat = {
 				color={ 197 189 59 }
 				color2={ 255 255 255 }
 				
-				b_prypyat = {}
-				b_chornobyl = {}
-				b_ivankiv = {}
-				b_poliske = {}
-				b_dytyatky = {}
-				b_strakholissya = {}
-				b_veresnya = {}
+				muscovite="Pripyat'"
+				pitersky="Pripyat'"
+				chornomorsky="Pripyat'"
+				kaliningradyets="Pripyat'"
+				donskoy="Pripyat'"
+				chernyan="Pripyat'"
+				kubantsy="Pripyat'"
+				
+				b_ivankiv = {
+					muscovite="Ivankov"
+					pitersky="Ivankov"
+					chornomorsky="Ivankov"
+					kaliningradyets="Ivankov"
+					donskoy="Ivankov"
+					chernyan="Ivankov"
+					kubantsy="Ivankov"
+					polish="Iwanków"
+				}
+				b_prypyat = {
+					muscovite="Pripyat'"
+					pitersky="Pripyat'"
+					chornomorsky="Pripyat'"
+					kaliningradyets="Pripyat'"
+					donskoy="Pripyat'"
+					chernyan="Pripyat'"
+					kubantsy="Pripyat'"
+				}
+				b_chornobyl = {
+					muscovite="Chernobyl'"
+					pitersky="Chernobyl'"
+					chornomorsky="Chernobyl'"
+					kaliningradyets="Chernobyl'"
+					donskoy="Chernobyl'"
+					chernyan="Chernobyl'"
+					kubantsy="Chernobyl'"
+					polish="Czarnobyl"
+					belarusian="Charnobyl'"
+				}
+				b_poliske = {
+					muscovite="Polesskoye"
+					pitersky="Polesskoye"
+					chornomorsky="Polesskoye"
+					kaliningradyets="Polesskoye"
+					donskoy="Polesskoye"
+					chernyan="Polesskoye"
+					kubantsy="Polesskoye"
+				}
+				b_dytyatky = {
+					muscovite="Dityatki"
+					pitersky="Dityatki"
+					chornomorsky="Dityatki"
+					kaliningradyets="Dityatki"
+					donskoy="Dityatki"
+					chernyan="Dityatki"
+					kubantsy="Dityatki"
+				}
+				b_krasyatychi = {
+					muscovite="Krasiatychi"
+					pitersky="Krasiatychi"
+					chornomorsky="Krasiatychi"
+					kaliningradyets="Krasiatychi"
+					donskoy="Krasiatychi"
+					chernyan="Krasiatychi"
+					kubantsy="Krasiatychi"
+					polish="Krasiatyczi"
+				}
+				b_hornostaipil = {
+					muscovite="Gornostaypol'"
+					pitersky="Gornostaypol'"
+					chornomorsky="Gornostaypol'"
+					kaliningradyets="Gornostaypol'"
+					donskoy="Gornostaypol'"
+					chernyan="Gornostaypol'"
+					kubantsy="Gornostaypol'"
+				}
 			}
 			c_brovary = {
 				color={ 231 215 110  }
 				color2={ 255 255 255 }
 				
-				b_brovary = {}
-				b_boryspil = {}
-				b_rusaniv = {}
+				muscovite="Brovari"
+				pitersky="Brovari"
+				chornomorsky="Brovari"
+				kaliningradyets="Brovari"
+				donskoy="Brovari"
+				chernyan="Brovari"
+				kubantsy="Brovari"
+				polish="Browary"
+				
+				b_boryspil = {
+					muscovite="Borispol"
+					pitersky="Borispol"
+					chornomorsky="Borispol"
+					kaliningradyets="Borispol"
+					donskoy="Borispol"
+					chernyan="Borispol"
+					kubantsy="Borispol"
+				}
+				b_brovary = {
+					muscovite="Brovari"
+					pitersky="Brovari"
+					chornomorsky="Brovari"
+					kaliningradyets="Brovari"
+					donskoy="Brovari"
+					chernyan="Brovari"
+					kubantsy="Brovari"
+					polish="Browary"
+				}
+				b_pereyaslav = {}
 				b_berezan = {}
-				b_pereiaslav = {}
 				b_yahotyn = {}
-				b_zhurivka = {}
+				b_baryshivka = {
+					muscovite="Baryshevka"
+					pitersky="Baryshevka"
+					chornomorsky="Baryshevka"
+					kaliningradyets="Baryshevka"
+					donskoy="Baryshevka"
+					chernyan="Baryshevka"
+					kubantsy="Baryshevka"
+				}
+				b_zhurivka = {
+					muscovite="Zgurovka"
+					pitersky="Zgurovka"
+					chornomorsky="Zgurovka"
+					kaliningradyets="Zgurovka"
+					donskoy="Zgurovka"
+					chernyan="Zgurovka"
+					kubantsy="Zgurovka"
+				}
 			}
 			c_bila_tserkva = {
 				color={ 210 202 95 }
 				color2={ 255 255 255 }
 				
-				b_bila_tserkva = {}
-				b_myronivka = {}
-				b_tarashcha = {}
+				muscovite="Belaya Tserkov"
+				pitersky="Belaya Tserkov"
+				chornomorsky="Belaya Tserkov"
+				kaliningradyets="Belaya Tserkov"
+				donskoy="Belaya Tserkov"
+				chernyan="Belaya Tserkov"
+				kubantsy="Belaya Tserkov"
+				polish="Biala Cerkiew"
+				
 				b_skvyra = {}
-				b_tetiiv = {}
+				b_bila_tserkva = {
+					muscovite="Belaya Tserkov"
+					pitersky="Belaya Tserkov"
+					chornomorsky="Belaya Tserkov"
+					kaliningradyets="Belaya Tserkov"
+					donskoy="Belaya Tserkov"
+					chernyan="Belaya Tserkov"
+					kubantsy="Belaya Tserkov"
+					polish="Biala Cerkiew"
+				}
+				b_myronivka = {
+					muscovite="Mironovka"
+					pitersky="Mironovka"
+					chornomorsky="Mironovka"
+					kaliningradyets="Mironovka"
+					donskoy="Mironovka"
+					chernyan="Mironovka"
+					kubantsy="Mironovka"
+					polish="Mironówka"
+				}
+				b_rzhyshchiv = {
+					muscovite="Rzhishchev"
+					pitersky="Rzhishchev"
+					chornomorsky="Rzhishchev"
+					kaliningradyets="Rzhishchev"
+					donskoy="Rzhishchev"
+					chernyan="Rzhishchev"
+					kubantsy="Rzhishchev"
+					polish="Rzyszczów"
+				}
+				b_tarashcha = {}
+				b_tetyiv = {
+					muscovite="Tetiyev"
+					pitersky="Tetiyev"
+					chornomorsky="Tetiyev"
+					kaliningradyets="Tetiyev"
+					donskoy="Tetiyev"
+					chernyan="Tetiyev"
+					kubantsy="Tetiyev"
+				}
 				b_uzyn = {}
-				b_rzhyshchiv = {}
 			}
 		}
 		d_chernihiv = {
 			color={ 244 203 120 }
 			color2={ 255 255 255 }
 		
-			pitersky = "Chernigov"
-			muscovite = "Chernigov"
-			don_volgan = "Chernigov"
-			kaliningradyets = "Chernigov"
-			polish = "Czernihów"
+			pitersky="Chernigov"
+			muscovite="Chernigov"
+			chornomorsky="Chernigov"
+			kaliningradyets="Chernigov"
+			donskoy="Chernigov"
+			chernyan="Chernigov"
+			kubantsy="Chernigov"
+			polish="Czernihów"
 			
 			capital = 824 #Chernihiv
 			
@@ -103,49 +302,118 @@ e_ruthenia = {
 				color={ 198 198 23 }
 				color2={ 255 255 255 }
 				
-				pitersky = "Chernigov"
-				muscovite = "Chernigov"
-				don_volgan = "Chernigov"
-				kaliningradyets = "Chernigov"
-				polish = "Czernihów"
-			
-				b_chernihiv = {
-					pitersky = "Chernigov"
-					muscovite = "Chernigov"
-					don_volgan = "Chernigov"
-					kaliningradyets = "Chernigov"
-					polish = "Czernihów"
-				}
-				b_nizhyn = {}
+				pitersky="Chernigov"
+				muscovite="Chernigov"
+				chornomorsky="Chernigov"
+				kaliningradyets="Chernigov"
+				donskoy="Chernigov"
+				chernyan="Chernigov"
+				kubantsy="Chernigov"
+				polish="Czernihów"
+				
 				b_slavutych = {}
+				b_chernihiv = {
+					pitersky="Chernigov"
+					muscovite="Chernigov"
+					chornomorsky="Chernigov"
+					kaliningradyets="Chernigov"
+					donskoy="Chernigov"
+					chernyan="Chernigov"
+					kubantsy="Chernigov"
+					polish="Czernihów"
+				}
+				b_novhorod_siverskyi = {
+					pitersky="Novgorod-Severskiy"
+					muscovite="Novgorod-Severskiy"
+					chornomorsky="Novgorod-Severskiy"
+					kaliningradyets="Novgorod-Severskiy"
+					donskoy="Novgorod-Severskiy"
+					chernyan="Novgorod-Severskiy"
+					kubantsy="Novgorod-Severskiy"
+					polish="Nowogród Siewierski"
+				}
+				b_horodnya = {
+					pitersky="Gorodnia"
+					muscovite="Gorodnia"
+					chornomorsky="Gorodnia"
+					kaliningradyets="Gorodnia"
+					donskoy="Gorodnia"
+					chernyan="Gorodnia"
+					kubantsy="Gorodnia"
+				}
 				b_kozelets = {}
-				b_ripky = {}
 				b_mena = {}
-				b_horodnya = {}
+				b_koryukyvka = {}
 			}
-			c_pryluky = {
+			c_nizhyn = {
 				color={ 231 164 128 }
 				color2={ 255 255 255 }
 				
-				b_pryluky = {}
-				b_varva = {}
-				b_kachanivka = {}
+				pitersky="Nezhin"
+				muscovite="Nezhin"
+				chornomorsky="Nezhin"
+				kaliningradyets="Nezhin"
+				donskoy="Nezhin"
+				chernyan="Nezhin"
+				kubantsy="Nezhin"
+				polish="Niezyn"
+				
+				b_pryluky = {
+					pitersky="Priluki"
+					muscovite="Priluki"
+					chornomorsky="Priluki"
+					kaliningradyets="Priluki"
+					donskoy="Priluki"
+					chernyan="Priluki"
+					kubantsy="Priluki"
+				}
+				b_nizhyn = {
+					pitersky="Nezhin"
+					muscovite="Nezhin"
+					chornomorsky="Nezhin"
+					kaliningradyets="Nezhin"
+					donskoy="Nezhin"
+					chernyan="Nezhin"
+					kubantsy="Nezhin"
+					polish="Niezyn"
+				}
+				b_bakhmach = {}
+				b_nosivka = {
+					pitersky="Nosovka"
+					muscovite="Nosovka"
+					chornomorsky="Nosovka"
+					kaliningradyets="Nosovka"
+					donskoy="Nosovka"
+					chernyan="Nosovka"
+					kubantsy="Nosovka"
+					polish="Nosówka"
+				}
 				b_ichnya = {}
-				b_talalaivka = {}
 				b_bobrovytsya = {}
-				b_sribne = {}
+				b_borzna = {}
 			}
-			c_shostka = {
+			c_konotop = {
 				color={ 231 164 128 }
 				color2={ 255 255 255 }
 				
 				b_shostka = {}
 				b_konotop = {}
-				b_hlukhiv = {}
-				b_druzhba = {}
-				b_krolevets = {}
+				b_hlukhiv = {
+					pitersky="Glukhov"
+					muscovite="Glukhov"
+					chornomorsky="Glukhov"
+					kaliningradyets="Glukhov"
+					donskoy="Glukhov"
+					chernyan="Glukhov"
+					kubantsy="Glukhov"
+					polish="Gluchów"
+				}
+				b_krolevets = {
+					polish="Królewiec"
+				}
 				b_putyvl = {}
 				b_seredyna_buda = {}
+				b_buryn = {}
 			}
 		}
 	}
@@ -155,13 +423,18 @@ e_ruthenia = {
 		
 		capital = 600 #Sevastopol
 		
-		ukrainian = "Krym"
-		chernyan = "Krym"
-		muscovite = "Krym"
-		pitersky = "Krym"
-		don_volgan = "Krym"
-		kaliningradyets = "Krym"
-		crimean = "Kirim"
+		pitersky="Krym"
+		muscovite="Krym"
+		chornomorsky="Krym"
+		kaliningradyets="Krym"
+		donskoy="Krym"
+		chernyan="Krym"
+		kubantsy="Krym"
+		ukrainian="Krym"
+		halychian="Krym"
+		rusyn="Krym"
+		poleshuk="Krym"
+		qirimlar="Qirim"
 			
 		d_crimea = {
 			color={ 87 126 199 }
@@ -169,79 +442,208 @@ e_ruthenia = {
 		
 			capital = 600 #Sevastopol
 			
-			ukrainian = "Krym"
-			chernyan = "Krym"
-			muscovite = "Krym"
-			pitersky = "Krym"
-			don_volgan = "Krym"
-			kaliningradyets = "Krym"
-			crimean = "Kirim"
+			pitersky="Krym"
+			muscovite="Krym"
+			chornomorsky="Krym"
+			kaliningradyets="Krym"
+			donskoy="Krym"
+			chernyan="Krym"
+			kubantsy="Krym"
+			ukrainian="Krym"
+			halychian="Krym"
+			rusyn="Krym"
+			poleshuk="Krym"
+			qirimlar="Qirim"
 		
 			c_sevastopol = {
 				color={ 55 120 210 }
 				color2={ 255 255 255 }
 				
-				magyar = "Szevasztopol"
-				polish = "Sewastopol"
+				magyar="Szevasztopol"
+				polish="Sewastopol"
+				qirimlar="Aqyar"
 				
-				b_sevastopol = {
-					magyar = "Szevasztopol"
-					polish = "Sewastopol"
-				}
-				b_simferopol = {}
 				b_yalta = {}
-				b_bakhchysarai = {}
-				b_alushta = {}
-				b_foros = {}
-				b_kacha = {}
+				b_sevastopol = {
+					magyar="Szevasztopol"
+					polish="Sewastopol"
+					qirimlar="Aqyar"
+				}
+				b_simferopol = {
+					qirimlar="Aqmescit"
+				}
+				b_bakhchysarai = {
+					qirimlar="Bagçasaray"
+				}
+				b_alushta = {
+					qirimlar="Alusta"
+				}
+				b_belogorsk = {
+					ukrainian="Bilohirsk"
+					halychian="Bilohirsk"
+					rusyn="Bilohirsk"
+					poleshuk="Bilohirsk"
+					qirimlar="Qarasuvbazar"
+				}
+				b_inkerman = {}
 			}
 			c_feodosia = {
 				color={ 49 156 198 }
 				color2={ 255 255 255 }
 				
-				polish = "Teodozja"
-					
-				b_feodosia = {
-					polish = "Teodozja"
+				polish="Teodozja"
+				pitersky="Feodosiya"
+				muscovite="Feodosiya"
+				chornomorsky="Feodosiya"
+				kaliningradyets="Feodosiya"
+				donskoy="Feodosiya"
+				chernyan="Feodosiya"
+				kubantsy="Feodosiya"
+				ukrainian="Feodosiya"
+				halychian="Feodosiya"
+				rusyn="Feodosiya"
+				poleshuk="Feodosiya"
+				qirimlar="Kefe"
+				
+				b_dzhankoy = {
+					qirimlar="Canköy"
 				}
-				b_sudak = {}
-				b_nizhnegorskiy = {}
-				b_dzhankoi = {}
-				b_krasnogvardeyskoye = {}
-				b_koktebel = {}
-				b_novyi_svit = {}
+				b_feodosia = {
+					polish="Teodozja"
+					pitersky="Feodosiya"
+					muscovite="Feodosiya"
+					chornomorsky="Feodosiya"
+					kaliningradyets="Feodosiya"
+					donskoy="Feodosiya"
+					chernyan="Feodosiya"
+					kubantsy="Feodosiya"
+					ukrainian="Feodosiya"
+					halychian="Feodosiya"
+					rusyn="Feodosiya"
+					poleshuk="Feodosiya"
+					qirimlar="Kefe"
+				}
+				b_sudak = {
+					qirimlar="Sudaq"
+				}
+				b_stary_krym = {
+					qirimlar="Eski Qirim"
+				}
+				b_nizhnegorskiy = {
+					ukrainian="Nyzhnohirskyi"
+					halychian="Nyzhnohirskyi"
+					rusyn="Nyzhnohirskyi"
+					poleshuk="Nyzhnohirskyi"
+					qirimlar="Seyitler"
+				}
+				b_sovietskyi = {
+					qirimlar="Içki"
+				}
+				b_kirovske = {
+					pitersky="Kirovskoye"
+					muscovite="Kirovskoye"
+					chornomorsky="Kirovskoye"
+					kaliningradyets="Kirovskoye"
+					donskoy="Kirovskoye"
+					chernyan="Kirovskoye"
+					kubantsy="Kirovskoye"
+					qirimlar="Islâm Terek"
+				}
 			}
 			c_kerch = {
 				color={ 100 198 200 }
 				color2={ 255 255 255 }
 				
-				polish = "Kercz"
-				moldovan = "Kerci"
-				romanian = "Kerci"
-					
-				b_kerch = {
-					polish = "Kercz"
-					moldovan = "Kerci"
-					romanian = "Kerci"
+				polish="Kercz"
+				moldovan="Kerci"
+				romanian="Kerci"
+				qirimlar="Keriç"
+				
+				b_shcholkine = {
+					pitersky="Shcholkino"
+					muscovite="Shcholkino"
+					chornomorsky="Shcholkino"
+					kaliningradyets="Shcholkino"
+					donskoy="Shcholkino"
+					chernyan="Shcholkino"
+					kubantsy="Shcholkino"
+					qirimlar="Sçolkino"
 				}
-				b_shcholkine = {}
-				b_hornostaivka = {}
-				b_lenino = {}
-				b_oktyabrske = {}
+				b_kerch = {
+					polish="Kercz"
+					moldovan="Kerci"
+					romanian="Kerci"
+					qirimlar="Keriç"
+				}
+				b_lenino = {
+					ukrainian="Lenine"
+					halychian="Lenine"
+					rusyn="Lenine"
+					poleshuk="Lenine"
+					qirimlar="Yedi Quyu"
+				}
+				b_baherove = {
+					pitersky="Bagerovo"
+					muscovite="Bagerovo"
+					chornomorsky="Bagerovo"
+					kaliningradyets="Bagerovo"
+					donskoy="Bagerovo"
+					chernyan="Bagerovo"
+					kubantsy="Bagerovo"
+					qirimlar="Bagerovo"
+				}
+				b_osoviny = {}
 				b_kamyanske = {}
-				b_batalne = {}
+				b_hornostaivka = {}
 			}
 			c_yevpatoriya = {
 				color={ 159 210 230 }
 				color2={ 255 255 255 }
 				
-				b_yevpatoriya = {}
-				b_saky = {}
-				b_zaozerne = {}
-				b_olenivka = {}
-				b_krasnoperekopsk = {}
-				b_chornomorske = {}
-				b_pervomaiske = {}
+				qirimlar="Kezlev"
+				
+				b_krasnoperekopsk = {
+					qirimlar="Yani Qapi"
+				}
+				b_yevpatoriya = {
+					qirimlar="Kezlev"
+				}
+				b_saky = {
+					qirimlar="Saq"
+				}
+				b_armyansk = {
+					qirimlar="Ermeni Bazar"
+				}
+				b_chornomorske = {
+					pitersky="Chernomorskoye"
+					muscovite="Chernomorskoye"
+					chornomorsky="Chernomorskoye"
+					kaliningradyets="Chernomorskoye"
+					donskoy="Chernomorskoye"
+					chernyan="Chernomorskoye"
+					kubantsy="Chernomorskoye"
+					qirimlar="Aqmeçit"
+				}
+				b_rozdolne = {
+					pitersky="Razdolnoe"
+					muscovite="Razdolnoe"
+					chornomorsky="Razdolnoe"
+					kaliningradyets="Razdolnoe"
+					donskoy="Razdolnoe"
+					chernyan="Razdolnoe"
+					kubantsy="Razdolnoe"
+					qirimlar="Aqseyh"
+				}
+				b_pervomaiske = {
+					pitersky="Pervomayskoe"
+					muscovite="Pervomayskoe"
+					chornomorsky="Pervomayskoe"
+					kaliningradyets="Pervomayskoe"
+					donskoy="Pervomayskoe"
+					chernyan="Pervomayskoe"
+					kubantsy="Pervomayskoe"
+					qirimlar="Curçi"
+				}
 			}
 		}
 	}
@@ -1856,41 +2258,189 @@ e_ruthenia = {
 		
 			capital = 869 #Zhytomyr
 			
+			muscovite="Zhitomir"
+			pitersky="Zhitomir"
+			chornomorsky="Zhitomir"
+			kaliningradyets="Zhitomir"
+			donskoy="Zhitomir"
+			chernyan="Zhitomir"
+			kubantsy="Zhitomir"
+			polish="Zytomierz"
+			
 			c_zhytomyr = {
 				color={ 210 210 50 }
 				color2={ 255 255 255 }
 				
-				b_zhytomyr = {}
-				b_korostyshiv = {}
-				b_berdychiv = {}
-				b_chudniv = {}
-				b_ivanopil = {}
-				b_lyubar = {}
-				b_romaniv = {}
+				muscovite="Zhitomir"
+				pitersky="Zhitomir"
+				chornomorsky="Zhitomir"
+				kaliningradyets="Zhitomir"
+				donskoy="Zhitomir"
+				chernyan="Zhitomir"
+				kubantsy="Zhitomir"
+				polish="Zytomierz"
+				
+				b_berdychiv = {
+					muscovite="Berdichev"
+					pitersky="Berdichev"
+					chornomorsky="Berdichev"
+					kaliningradyets="Berdichev"
+					donskoy="Berdichev"
+					chernyan="Berdichev"
+					kubantsy="Berdichev"
+					polish="Berdyczów"
+				}
+				b_zhytomyr = {
+					muscovite="Zhitomir"
+					pitersky="Zhitomir"
+					chornomorsky="Zhitomir"
+					kaliningradyets="Zhitomir"
+					donskoy="Zhitomir"
+					chernyan="Zhitomir"
+					kubantsy="Zhitomir"
+					polish="Zytomierz"
+				}
+				b_korostyshiv = {
+					muscovite="Korostyshev"
+					pitersky="Korostyshev"
+					chornomorsky="Korostyshev"
+					kaliningradyets="Korostyshev"
+					donskoy="Korostyshev"
+					chernyan="Korostyshev"
+					kubantsy="Korostyshev"
+					polish="Korosteszów"
+				}
+				b_radomyshl = {
+					polish="Radomysl"
+				}
+				b_andrushivka = {
+					muscovite="Andrushevka"
+					pitersky="Andrushevka"
+					chornomorsky="Andrushevka"
+					kaliningradyets="Andrushevka"
+					donskoy="Andrushevka"
+					chernyan="Andrushevka"
+					kubantsy="Andrushevka"
+					polish="Andruszówka"
+				}
+				b_chudniv = {
+					muscovite="Chudnov"
+					pitersky="Chudnov"
+					chornomorsky="Chudnov"
+					kaliningradyets="Chudnov"
+					donskoy="Chudnov"
+					chernyan="Chudnov"
+					kubantsy="Chudnov"
+					polish="Cudnów"
+				}
+				b_cherniakhiv = {
+					muscovite="Chernyakhov"
+					pitersky="Chernyakhov"
+					chornomorsky="Chernyakhov"
+					kaliningradyets="Chernyakhov"
+					donskoy="Chernyakhov"
+					chernyan="Chernyakhov"
+					kubantsy="Chernyakhov"
+					polish="Czerniachów"
+				}
 			}
 			c_korosten = {
 				color={ 178 175 100 }
 				color2={ 255 255 255 }
 				
-				b_korosten = {}
 				b_malyn = {}
-				b_ovruch = {}
-				b_narodychi = {}
-				b_pershotravnene = {}
-				b_bilokorovychi = {}
-				b_luhyny = {}
+				b_korosten = {}
+				b_ovruch = {
+					polish="Owrucz"
+				}
+				b_luhyny = {
+					muscovite="Luginy"
+					pitersky="Luginy"
+					chornomorsky="Luginy"
+					kaliningradyets="Luginy"
+					donskoy="Luginy"
+					chernyan="Luginy"
+					kubantsy="Luginy"
+				}
+				b_narodychi = {
+					polish="Narodycze"
+				}
+				b_pershotravneve = {
+					muscovite="Pershotravnevoe"
+					pitersky="Pershotravnevoe"
+					chornomorsky="Pershotravnevoe"
+					kaliningradyets="Pershotravnevoe"
+					donskoy="Pershotravnevoe"
+					chernyan="Pershotravnevoe"
+					kubantsy="Pershotravnevoe"
+					polish="Pierszotrawiensk"
+				}
+				b_chopovychi = {
+					polish="Czopowice"
+				}
 			}
 			c_novohrad_volynskyi = {
 				color={ 235 235 161 }
 				color2={ 255 255 255 }
 				
-				b_novohrad_volynskyi = {}
-				b_olevsk = {}
-				b_yemilchyne = {}
-				b_horodnytsya = {}
-				b_dubrivka = {}
-				b_hrud = {}
-				b_baranivka = {}
+				muscovite="Novograd-Volynsky"
+				pitersky="Novograd-Volynsky"
+				chornomorsky="Novograd-Volynsky"
+				kaliningradyets="Novograd-Volynsky"
+				donskoy="Novograd-Volynsky"
+				chernyan="Novograd-Volynsky"
+				kubantsy="Novograd-Volynsky"
+				polish="Nowogród Wolynski"
+				
+				b_baranivka = {
+					muscovite="Baranovka"
+					pitersky="Baranovka"
+					chornomorsky="Baranovka"
+					kaliningradyets="Baranovka"
+					donskoy="Baranovka"
+					chernyan="Baranovka"
+					kubantsy="Baranovka"
+					polish="Baranówka"
+				}
+				b_novohrad_volynskyi = {
+					muscovite="Novograd-Volynsky"
+					pitersky="Novograd-Volynsky"
+					chornomorsky="Novograd-Volynsky"
+					kaliningradyets="Novograd-Volynsky"
+					donskoy="Novograd-Volynsky"
+					chernyan="Novograd-Volynsky"
+					kubantsy="Novograd-Volynsky"
+					polish="Nowogród Wolynski"
+				}
+				b_olevsk = {
+					polish="Olewsk"
+				}
+				b_yemilchyne = {
+					muscovite="Yemil'chino"
+					pitersky="Yemil'chino"
+					chornomorsky="Yemil'chino"
+					kaliningradyets="Yemil'chino"
+					donskoy="Yemil'chino"
+					chernyan="Yemil'chino"
+					kubantsy="Yemil'chino"
+					polish="Emilczyn"
+				}
+				b_horodnytsya = {
+					muscovite="Gorodnitsa"
+					pitersky="Gorodnitsa"
+					chornomorsky="Gorodnitsa"
+					kaliningradyets="Gorodnitsa"
+					donskoy="Gorodnitsa"
+					chernyan="Gorodnitsa"
+					kubantsy="Gorodnitsa"
+					polish="Horodnica"
+				}
+				b_dovbysh = {
+					polish="Dolbysz"
+				}
+				b_pershotravensk = {
+					polish="Perszotrawensk"
+				}
 			}
 		}
 	}
