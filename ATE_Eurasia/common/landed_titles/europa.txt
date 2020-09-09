@@ -11,37 +11,43 @@ e_europa = {
 		color2 = { 255 255 255 }
 		capital = 326 # brussels
 
-		rhenish="Belgien"
+		rhenish="Beljie"
 		low_saxon="Belgien"
 		ossi="Belgien"
 		upper_saxon="Belgien"
-		bavarian="Belgien"
+		bavarian="Bejgien"
 		swabian="Belgien"
 		austrian="Belgien"
 		schwyzer="Belgien"
 		dutch="België"
 		flemish="België"
-		walloon="Belgique"
-		chti="Belgique"
+		walloon="Beldjike"
+		chti="Bergike"
 		parisian="Belgique"
+		luxembourger="Belsch"
+		frisian="Belgje"
+		sorbian="Belgiska"
 		
 		d_flanders = {
 			color={ 255 120 0 }
 			color2={ 255 255 255 }
 
 			rhenish="Flandern"
-			low_saxon="Flandern"
+			low_saxon="Flannern"
 			ossi="Flandern"
 			upper_saxon="Flandern"
 			bavarian="Flandern"
-			swabian="Flandern"
+			swabian="Flandere"
 			austrian="Flandern"
-			schwyzer="Flandern"
+			schwyzer="Flandere"
 			dutch="Vlaanderen"
-			flemish="Vlaanderen"
-			walloon="Flandre"
-			chti="Flandre"
+			flemish="Vloandern"
+			walloon="Flande"
+			chti="Flande"
 			parisian="Flandre"
+			luxembourger="Flandern"
+			frisian="Flaanderen"
+			sorbian="Flandriskeje"
 			
 			capital = 324 #Antwerp
 			
@@ -49,19 +55,21 @@ e_europa = {
 				color={ 217 195 62 }
 				color2={ 255 255 255 }
 
-				rhenish="Westflandern"
-				low_saxon="Westflandern"
+				rhenish="Wäßßflaandere"
+				low_saxon="West-Flannern"
 				ossi="Westflandern"
 				upper_saxon="Westflandern"
 				bavarian="Westflandern"
-				swabian="Westflandern"
+				luxembourger="Westflandern"
+				swabian="Westflandere"
 				austrian="Westflandern"
-				schwyzer="Westflandern"
+				schwyzer="Westflandere"
 				dutch="West-Vlaanderen"
-				flemish="West-Vlaanderen"
-				walloon="Flandre-Occidentale"
-				chti="Flandre-Occidentale"
+				flemish="West-Vloandern"
+				walloon="Flande Coûtchantrece"
+				chti="Flande-Occhidintale"
 				parisian="Flandre-Occidentale"
+				frisian="West-Flaanderen"
 
 				b_kortrijk = {
 					walloon="Courtrai"
@@ -115,19 +123,21 @@ e_europa = {
 				color={ 188 166 32 }
 				color2={ 255 255 255 }
 
-				rhenish="Ostflandern"
-				low_saxon="Ostflandern"
+				rhenish="Oßßflaandere"
+				low_saxon="Oost-Flannern"
 				ossi="Ostflandern"
 				upper_saxon="Ostflandern"
 				bavarian="Ostflandern"
-				swabian="Ostflandern"
+				swabian="Ostflandere"
 				austrian="Ostflandern"
-				schwyzer="Ostflandern"
+				schwyzer="Ostflandere"
+				luxembourger="Ostflandern"
 				dutch="Oost-Vlaanderen"
-				flemish="Oost-Vlaanderen"
-				walloon="Flandre-Orientale"
-				chti="Flandre-Orientale"
+				flemish="Ôost-Vloandern"
+				walloon="Flande Levantrece"
+				chti="Flande-Oryintale"
 				parisian="Flandre-Orientale"
+				frisian="East-Flaanderen"
 
 				b_aalst = {
 					walloon="Alost"
@@ -176,17 +186,18 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				rhenish="Antwerpen"
-				low_saxon="Antwerpen"
+				low_saxon="Antwarp"
 				ossi="Antwerpen"
 				upper_saxon="Antwerpen"
 				bavarian="Antwerpen"
-				swabian="Antwerpen"
+				swabian="Antwärpe"
 				austrian="Antwerpen"
-				schwyzer="Antwerpen"
+				schwyzer="Antwärpe"
 				dutch="Antwerpen"
-				flemish="Antwerpen"
-				walloon="Anvers"
-				chti="Anvers"
+				flemish="Antwerpn"
+				frisian="Antwerpen"
+				walloon="Anverse"
+				chti="Anvérse"
 				parisian="Anvers"
 
 				b_mechelen = {
@@ -219,9 +230,10 @@ e_europa = {
 				color={ 225 178 51 }
 				color2={ 255 255 255 }
 
-				walloon="Looz"
+				walloon="Lô"
 				chti="Looz"
 				parisian="Looz"
+				frisian="Loan"
 
 				b_genk = {}
 				b_hasselt = {}
@@ -251,19 +263,21 @@ e_europa = {
 				color={ 250 224 66 }
 				color2={ 255 255 255 }
 
-				rhenish="Brüssel"
+				rhenish="Brüßßel"
 				low_saxon="Brüssel"
 				ossi="Brüssel"
 				upper_saxon="Brüssel"
-				bavarian="Brüssel"
+				bavarian="Brissl"
 				swabian="Brüssel"
 				austrian="Brüssel"
 				schwyzer="Brüssel"
 				dutch="Brussel"
 				flemish="Brussel"
-				walloon="Bruxelles"
-				chti="Bruxelles"
+				frisian="Brussel"
+				walloon="Brussele"
+				chti="Brusselle"
 				parisian="Bruxelles"
+				luxembourger="Bréissel"
 
 				b_leuven = {
 					rhenish="Löwen"
@@ -328,8 +342,10 @@ e_europa = {
 			dutch="Wallonië"
 			flemish="Wallonië"
 			walloon="Walonreye"
-			chti="Wallonie"
+			chti="Walonnie"
 			parisian="Wallonie"
+			frisian="Walloanje"
+			sorbian="Wallonskeje"
 			
 			capital = 330 #liege
 			
@@ -338,9 +354,19 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				dutch="Henegouwen"
-				flemish="Henegouwen"
+				flemish="Enegouwn"
 				walloon="Hinnot"
 				chti="Hénau"
+				rhenish="Hennot"
+				low_saxon="Hainego"
+				ossi="Hennegau"
+				upper_saxon="Hennegau"
+				bavarian="Hennegau"
+				swabian="Hennegau"
+				austrian="Hennegau"
+				schwyzer="Hennegau"
+				luxembourger="Hainaut"
+				frisian="Henegouwen"
 
 				b_mons = {
 					rhenish="Bergen"
@@ -388,6 +414,11 @@ e_europa = {
 			c_brabant = {
 				color={ 193 191 45 }
 				color2={ 255 255 255 }
+				
+				low_saxon="Broabant"
+				flemish="Broabant"
+				frisian="Brabân"
+				walloon="Braibant"
 
 				b_nivelles = {
 					dutch="Nijvel"
@@ -424,11 +455,13 @@ e_europa = {
 				swabian="Namen"
 				austrian="Namen"
 				schwyzer="Namen"
+				luxembourger="Namouer"
 				dutch="Namen"
-				flemish="Namen"
+				flemish="Noamn"
+				frisian="Noamn"
 				walloon="Nameur"
 				chti="Nameur"
-				parisian="Nameur"
+				parisian="Namur"
 
 				b_dinant = {}
 				b_namur = {
@@ -440,11 +473,13 @@ e_europa = {
 					swabian="Namen"
 					austrian="Namen"
 					schwyzer="Namen"
+					luxembourger="Namouer"
 					dutch="Namen"
-					flemish="Namen"
+					flemish="Noamn"
+					frisian="Noamn"
 					walloon="Nameur"
 					chti="Nameur"
-					parisian="Nameur"
+					parisian="Namur"
 				}
 				b_rochefort = {
 					walloon="Rotchfoirt"
@@ -474,8 +509,10 @@ e_europa = {
 				swabian="Lüttich"
 				austrian="Lüttich"
 				schwyzer="Lüttich"
+				luxembourger="Léck"
 				dutch="Luik"
-				flemish="Luik"
+				frisian="Luik"
+				flemish="Luuk"
 				walloon="Lidje"
 
 				b_seraing = {
@@ -527,16 +564,20 @@ e_europa = {
 			color2={ 255 255 255 }
 
 			rhenish="Luxemburg"
-			low_saxon="Luxemburg"
+			low_saxon="Luxemborg"
 			ossi="Luxemburg"
 			upper_saxon="Luxemburg"
-			bavarian="Luxemburg"
-			swabian="Luxemburg"
+			bavarian="Luxnbuag"
+			swabian="Luxeburi"
 			austrian="Luxemburg"
-			schwyzer="Luxemburg"
+			schwyzer="Luxeburi"
 			dutch="Luxemburg"
 			flemish="Luxemburg"
 			luxembourger="Lëtzebuerg"
+			walloon="Lussimbork"
+			frisian="Lúksemboarch"
+			chti="Lussimbourk"
+			sorbian="Luxemburgska"
 			
 			capital = 331 #luxembourg
 			
@@ -545,16 +586,20 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				rhenish="Luxemburg"
-				low_saxon="Luxemburg"
+				low_saxon="Luxemborg"
 				ossi="Luxemburg"
 				upper_saxon="Luxemburg"
-				bavarian="Luxemburg"
-				swabian="Luxemburg"
+				bavarian="Luxnbuag"
+				swabian="Luxeburi"
 				austrian="Luxemburg"
-				schwyzer="Luxemburg"
+				schwyzer="Luxeburi"
 				dutch="Luxemburg"
 				flemish="Luxemburg"
 				luxembourger="Lëtzebuerg"
+				walloon="Lussimbork"
+				frisian="Lúksemboarch"
+				chti="Lussimbourk"
+				sorbian="Luxemburgska"
 
 				b_esch_sur_alzette = {
 					rhenish="Esch-an-der-Alzig"
@@ -626,8 +671,8 @@ e_europa = {
 
 				dutch="Aarlenland"
 				flemish="Aarlenland"
-				walloon="Pays d'Arlon"
-				chti="Pays d'Arlon"
+				walloon="Payis d'Årlon"
+				chti="Poaiyis d'Arlon"
 				parisian="Pays d'Arlon"
 
 				b_bastogne = {
@@ -678,19 +723,21 @@ e_europa = {
 		color2 = { 255 255 255 }
 
 		rhenish="Niederlande"
-		low_saxon="Niederlande"
+		low_saxon="Nedderlannen"
 		ossi="Niederlande"
 		upper_saxon="Niederlande"
-		bavarian="Niederlande"
-		swabian="Niederlande"
+		bavarian="Niedaland"
+		swabian="Niderland"
 		austrian="Niederlande"
-		schwyzer="Niederlande"
+		schwyzer="Niderland"
 		dutch="Nederland"
 		flemish="Nederland"
-		luxembourger="Niederlande"
-		walloon="Pays-Bas"
-		chti="Pays-Bas"
+		luxembourger="Nidderlanden"
+		walloon="Bas Payis"
+		chti="Bas-Païs"
 		parisian="Pays-Bas"
+		frisian="Nederlân"
+		sorbian="Nižozemska"
 
 		capital = 152 # Sunnlendingafjordungur
 
@@ -699,9 +746,10 @@ e_europa = {
 			color={ 185 122 25 }
 			color2={ 255 255 255 }
 
-			walloon="Hollande"
-			chti="Hollande"
+			walloon="Holande"
+			chti="Hollinde"
 			parisian="Hollande"
+			frisian="Hollân"
 			
 			capital = 78
 			
@@ -710,17 +758,19 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				rhenish="Nordholland"
-				low_saxon="Nordholland"
+				low_saxon="Noord-Hollaand"
 				ossi="Nordholland"
 				upper_saxon="Nordholland"
 				bavarian="Nordholland"
 				swabian="Nordholland"
 				austrian="Nordholland"
 				schwyzer="Nordholland"
+				luxembourger="Nordholland"
 				dutch="Noord-Holland"
-				flemish="Noord-Holland"
-				walloon="Hollande-Septentrionale"
-				chti="Hollande-Septentrionale"
+				flemish="Nôord-Holland"
+				frisian="Noard-Hollân"
+				walloon="Holande Bijhrece"
+				chti="Hollinde-Septentrionale"
 				parisian="Hollande-Septentrionale"
 
 				b_haarlem = {}
@@ -738,6 +788,11 @@ e_europa = {
 				walloon="Hollande"
 				chti="Hollande"
 				parisian="Hollande"
+
+				walloon="Holande"
+				chti="Hollinde"
+				parisian="Hollande"
+				frisian="Hollân"
 
 				b_the_hague = {
 					dutch="Den Haag"
@@ -757,9 +812,12 @@ e_europa = {
 				color={ 217 195 62 }
 				color2={ 255 255 255 }
 
-				walloon="Zélande"
-				chti="Zélande"
+				walloon="Zelande"
+				chti="Zilinde"
 				parisian="Zélande"
+				low_saxon="Seeland"
+				flemish="Zêeland"
+				frisian="Seelân"
 
 				b_middelburg = {}
 				b_terneuzen = {}
@@ -812,6 +870,9 @@ e_europa = {
 			c_flevoland = {
 				color={ 217 195 62 }
 				color2={ 255 255 255 }
+				
+				low_saxon="Flevolaand"
+				frisian="Flevolân"
 
 				b_lelystad = {}
 				b_almere = {}
@@ -832,7 +893,10 @@ e_europa = {
 				bavarian="Oberyssel"
 				swabian="Oberyssel"
 				austrian="Oberyssel"
+				luxembourger="Oberyssel"
 				schwyzer="Oberyssel"
+				flemish="Overyssel"
+				frisian="Oerisel"
 
 				b_zwolle = {}
 				b_enschede = {
@@ -851,6 +915,9 @@ e_europa = {
 			c_utrecht = {
 				color={ 217 195 62 }
 				color2={ 255 255 255 }
+				
+				chti="Trèke"
+				flemish="Utert"
 
 				b_amersfoort = {}
 				b_utrecht = {}
@@ -866,7 +933,7 @@ e_europa = {
 			color2={ 255 255 255 }
 
 			rhenish="Nordbrabant"
-			low_saxon="Nordbrabant"
+			low_saxon="Noord-Brabant"
 			ossi="Nordbrabant"
 			upper_saxon="Nordbrabant"
 			bavarian="Nordbrabant"
@@ -874,10 +941,12 @@ e_europa = {
 			austrian="Nordbrabant"
 			schwyzer="Nordbrabant"
 			dutch="Noord-Brabant"
-			flemish="Noord-Brabant"
-			walloon="Brabant-Septentrionale"
+			flemish="Nôord-Broabant"
+			walloon="Braibant Bijhrece"
 			chti="Brabant-Septentrionale"
 			parisian="Brabant-Septentrionale"
+			luxembourger="Nordbrabant"
+			frisian="Noard-Brabân"
 			
 			capital = 78
 						
@@ -886,7 +955,7 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				rhenish="Nordbrabant"
-				low_saxon="Nordbrabant"
+				low_saxon="Noord-Brabant"
 				ossi="Nordbrabant"
 				upper_saxon="Nordbrabant"
 				bavarian="Nordbrabant"
@@ -894,10 +963,12 @@ e_europa = {
 				austrian="Nordbrabant"
 				schwyzer="Nordbrabant"
 				dutch="Noord-Brabant"
-				flemish="Noord-Brabant"
-				walloon="Brabant-Septentrionale"
+				flemish="Nôord-Broabant"
+				walloon="Braibant Bijhrece"
 				chti="Brabant-Septentrionale"
 				parisian="Brabant-Septentrionale"
+				luxembourger="Nordbrabant"
+				frisian="Noard-Brabân"
 
 				b_s_hertogenbosch = {
 					walloon="Blois-le-Duc"
@@ -915,7 +986,9 @@ e_europa = {
 				color={ 217 195 62 }
 				color2={ 255 255 255 }
 
-				walloon="Limbourg"
+				rhenish="Limburrsh"
+				frisian="Limburch"
+				walloon="Limbork"
 				chti="Limbourg"
 				parisian="Limbourg"
 
@@ -933,10 +1006,13 @@ e_europa = {
 			color2={ 255 255 255 }
 
 			low_saxon="Freesland"
+			swabian="Frysland"
+			schwyzer="Frysland"
 			frisian="Fryslân"
-			walloon="Frise"
+			walloon="Frize"
 			chti="Frise"
 			parisian="Frise"
+			sorbian="Friziska"
 			
 			capital = 78
 			
@@ -945,10 +1021,13 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				low_saxon="Freesland"
+				swabian="Frysland"
+				schwyzer="Frysland"
 				frisian="Fryslân"
-				walloon="Frise"
+				walloon="Frize"
 				chti="Frise"
 				parisian="Frise"
+				sorbian="Friziska"
 
 				b_drachten = {}
 				b_leeuwarden = {
@@ -974,7 +1053,7 @@ e_europa = {
 				color={ 217 195 62 }
 				color2={ 255 255 255 }
 
-				low_saxon="Grönnen"
+				low_saxon="Grunneng"
 				frisian="Grinslân"
 				walloon="Groningue"
 				chti="Groningue"
@@ -982,7 +1061,7 @@ e_europa = {
 
 				b_assen = {}
 				b_groningen = {
-					low_saxon="Grönnen"
+					low_saxon="Grunneng"
 					frisian="Grun'n"
 					walloon="Groningue"
 					chti="Groningue"
@@ -1002,19 +1081,22 @@ e_europa = {
 
 		capital = 365 #Bonn
 
-		rhenish="Rheinland"
-		low_saxon="Rheinland"
+		rhenish="Rhingland"
+		low_saxon="Rhienland"
 		ossi="Rheinland"
 		upper_saxon="Rheinland"
 		bavarian="Rheinland"
-		swabian="Rheinland"
+		swabian="Rhiland"
 		austrian="Rheinland"
-		schwyzer="Rheinland"
+		schwyzer="Rhiland"
 		dutch="Rijnland"
-		flemish="Rijnland"
-		walloon="Rhénanie"
+		flemish="Reynland"
+		walloon="Renaneye"
 		chti="Rhénanie"
 		parisian="Rhénanie"
+		frisian="Rynlân"
+		luxembourger="Rheinland"
+		sorbian="Porynsko"
 		
 		d_rhine_ruhr = {
 			color={ 135 132 140 }
@@ -1022,16 +1104,22 @@ e_europa = {
 			
 			capital = 365 #Bonn
 
-			rhenish="Rhein-Ruhr"
-			low_saxon="Rhein-Ruhr"
+			rhenish="Rhing-Ruhr"
+			low_saxon="Rhien-Ruhr"
 			ossi="Rhein-Ruhr"
 			upper_saxon="Rhein-Ruhr"
 			bavarian="Rhein-Ruhr"
-			swabian="Rhein-Ruhr"
+			swabian="Rei-Ruhr"
 			austrian="Rhein-Ruhr"
-			schwyzer="Rhein-Ruhr"
+			schwyzer="Rhy-Ruhr"
 			dutch="Rijn-Ruhr"
-			flemish="Rijn-Ruhr"
+			flemish="Reyn-Ruhr"
+			walloon="Rén-Ruhr"
+			parisian="Rhin-Ruhr"
+			chti="Rhin-Ruhr"
+			luxembourger="Rhäin-Ruhr"
+			frisian="Ryn-Ruhr"
+			sorbian="Ryn-Ruhr"
 			
 			c_krefeld = {
 				color={ 168 144 187 }
@@ -1066,7 +1154,7 @@ e_europa = {
 				color={ 140 113 161 }
 				color2={ 255 255 255 }
 
-				rhenish="Köln"
+				rhenish="Kölle"
 				low_saxon="Köln"
 				ossi="Köln"
 				upper_saxon="Köln"
@@ -1074,8 +1162,11 @@ e_europa = {
 				swabian="Köln"
 				austrian="Köln"
 				schwyzer="Köln"
+				luxembourger="Köln"
 				dutch="Keulen"
 				flemish="Keulen"
+				frisian="Keulen"
+				chti="Kolonne"
 
 				b_bergheim = {}
 				b_cologne = {
@@ -1100,9 +1191,13 @@ e_europa = {
 				color={ 0 57 45 }
 				color2={ 255 255 255 }
 
+				rhenish="Oche"
 				dutch="Aken"
 				flemish="Aken"
-				walloon="Aix-la-Chapelle"
+				frisian="Aken"
+				low_saxon="Aken"
+				luxembourger="Oochen"
+				walloon="Åxhe"
 				chti="Aix-la-Chapelle"
 				parisian="Aix-la-Chapelle"
 
@@ -1144,7 +1239,7 @@ e_europa = {
 				color={ 49 103 177 }
 				color2={ 255 255 255 }
 
-				rhenish="Ruhrgebiet"
+				rhenish="Ruhrpott"
 				low_saxon="Ruhrgebiet"
 				ossi="Ruhrgebiet"
 				upper_saxon="Ruhrgebiet"
@@ -1152,6 +1247,9 @@ e_europa = {
 				swabian="Ruhrgebiet"
 				austrian="Ruhrgebiet"
 				schwyzer="Ruhrgebiet"
+				luxembourger="Ruhrgebiet"
+				dutch="Ruhrgebied"
+				flemish="Ruhrgebied"
 
 				b_dortmund = {
 					low_saxon="Düörpm"
@@ -1179,7 +1277,9 @@ e_europa = {
 				color={ 145 149 181 }
 				color2={ 255 255 255 }
 
+				rhenish="Düsseldorp"
 				low_saxon="Düsseldorp"
+				bavarian="Düssldoaf"
 				dutch="Dusseldorp"
 				flemish="Dusseldorp"
 
@@ -1202,20 +1302,28 @@ e_europa = {
 			
 			capital = 374 #Mainz
 
-			rhenish="Pfalz"
-			low_saxon="Pfalz"
+			rhenish="Palz"
+			low_saxon="Palz"
 			ossi="Pfalz"
 			upper_saxon="Pfalz"
-			bavarian="Pfalz"
+			bavarian="Pfoiz"
 			swabian="Pfalz"
+			schwyzer="Pfalz"
 			austrian="Pfalz"
 			dutch="Palts"
 			flemish="Palts"
+			frisian="Palts"
+			walloon="Palatina"
+			parisian="Palatinat"
+			chti="Palatinat"
+			luxembourger="Pfalz"
+			sorbian="Pfalca"
 			
 			c_koblenz = {
 				color={ 126 141 59 }
 				color2={ 255 255 255 }
-
+				
+				rhenish="Kowelenz"
 				walloon="Coblence"
 				chti="Coblence"
 				parisian="Coblence"
@@ -1244,6 +1352,9 @@ e_europa = {
 				walloon="Sarre"
 				chti="Sarre"
 				parisian="Sarre"
+				flemish="Soarland"
+				sorbian="Posaarska"
+				frisian="Saarlân"
 
 				b_homburg = {
 					walloon="Hombourg"
@@ -1287,6 +1398,8 @@ e_europa = {
 				walloon="Mayence"
 				chti="Mayence"
 				parisian="Mayence"
+				sorbian="Mohuc"
+				rhenish="Meenz"
 
 				b_ingelheim_am_rhein = {}
 				b_mainz = {
@@ -1309,6 +1422,7 @@ e_europa = {
 				walloon="Port-Louis"
 				chti="Port-Louis"
 				parisian="Port-Louis"
+				rhenish="Ludwigshavve"
 
 				b_kaiserslautern = {
 					walloon="Caseloutre"
@@ -1344,9 +1458,10 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				luxembourger="Tréier"
-				walloon="Trèves"
+				walloon="Trive"
 				chti="Trèves"
 				parisian="Trèves"
+				rhenish="Drir"
 
 				b_bitburg = {
 					luxembourger="Béibreg"
@@ -1375,16 +1490,17 @@ e_europa = {
 			color={ 90 120 100 }
 			color2={ 255 255 255 }
 
-			rhenish="Hessen"
+			rhenish="Heßße"
 			low_saxon="Hessen"
 			ossi="Hessen"
 			upper_saxon="Hessen"
-			bavarian="Hessen"
-			swabian="Hessen"
+			bavarian="Hessn"
 			austrian="Hessen"
-			schwyzer="Hessen"
+			luxembourger="Hessen"
 			dutch="Hessen"
 			flemish="Hessen"
+			frisian="Hessen"
+			sorbian="Hessenska"
 			
 			capital = 370 #Frankfurt
 			
@@ -1395,6 +1511,10 @@ e_europa = {
 				walloon="Wisbaden"
 				chti="Wisbaden"
 				parisian="Wisbaden"
+				rhenish="Wissbade"
+				schwyzer="Wiesbade"
+				swabian="Wiesbade"
+				bavarian="Wiesbodn"
 
 				b_hofheim = {}
 				b_wiesbaden = {
@@ -1412,9 +1532,13 @@ e_europa = {
 				color={ 43 192 218 }
 				color2={ 255 255 255 }
 
-				walloon="Francfort"
+				rhenish="Frangford"
+				low_saxon="Frankfort"
 				chti="Francfort"
 				parisian="Francfort"
+				dutch="Frankfort"
+				sorbian="Frankobrod"
+				walloon="Frankfort"
 
 				b_offenbach_am_main = {}
 				b_frankfurt_am_main = {
@@ -1431,6 +1555,8 @@ e_europa = {
 			c_darmstadt = {
 				color={ 68 116 91 }
 				color2={ 255 255 255 }
+				
+				bavarian="Darmstod"
 
 				b_bensheim = {}
 				b_darmstadt = {}
@@ -1459,9 +1585,13 @@ e_europa = {
 			
 			capital = 368 #Kassel
 			
+			parisian="Cassel"
+			
 			c_kassel = {
 				color={ 141 100 96 }
 				color2={ 255 255 255 }
+				
+				parisian="Cassel"
 
 				b_baunatal = {}
 				b_kassel = {}
@@ -1502,9 +1632,13 @@ e_europa = {
 			
 			capital = 359 #Bielefeld
 
-			walloon="Westphalie"
-			chti="Westphalie"
+			rhenish="Wäßßfaale"
+			swabian="Westfale"
+			schwyzer="Westfale"
+			walloon="Wesfaleye"
+			chti="Westfalie"
 			parisian="Westphalie"
+			sorbian="Westfalska"
 			
 			c_munster = {
 				color={ 126 51 44 }
@@ -1513,6 +1647,7 @@ e_europa = {
 				low_saxon="Mönster"
 				dutch="Munster"
 				flemish="Munster"
+				frisian="Múnster"
 
 				b_borken = {
 					low_saxon="Buorken"
@@ -1535,6 +1670,8 @@ e_europa = {
 			c_bielefeld = {
 				color={ 124 74 69 }
 				color2={ 255 255 255 }
+				
+				low_saxon="Builefeld"
 
 				b_gutersloh = {
 					low_saxon="Gütsel"
@@ -1553,6 +1690,8 @@ e_europa = {
 			c_paderborn = {
 				color={ 84 142 159 }
 				color2={ 255 255 255 }
+				
+				low_saxon="Patterbuorn"
 
 				b_delbruck = {}
 				b_paderborn = {}
@@ -1570,25 +1709,30 @@ e_europa = {
 
 		capital = 352 #Hannover
 
-		rhenish="Niedersachsen"
+		rhenish="Needersachse"
 		low_saxon="Neddersassen"
 		ossi="Niedersachsen"
 		upper_saxon="Niedersachsen"
-		bavarian="Niedersachsen"
-		swabian="Niedersachsen"
+		bavarian="Niedasaggsn"
+		swabian="Nidersachse"
+		schwyzer="Nidersachse"
 		austrian="Niedersachsen"
 		dutch="Nedersaksen"
 		flemish="Nedersaksen"
 		frisian="Läichsaksen"
-		walloon="Basse-Saxe"
+		walloon="Basse-Sacse"
 		chti="Basse-Saxe"
 		parisian="Basse-Saxe"
+		luxembourger="Niddersachsen"
+		sorbian="Delnja Sakska"
 		
 		d_oldenburg = {
 			color={ 119 105 96 }
 			color2={ 255 255 255 }
 
 			low_saxon="Ollnborg"
+			swabian="Oldeburg"
+			schwyzer="Oldeburg"
 			frisian="Ooldenbuurich"
 			walloon="Le Vieux-Bourg"
 			chti="Le Vieux-Bourg"
@@ -1601,6 +1745,8 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				low_saxon="Ollnborg"
+				swabian="Oldeburg"
+				schwyzer="Oldeburg"
 				frisian="Ooldenbuurich"
 				walloon="Le Vieux-Bourg"
 				chti="Le Vieux-Bourg"
@@ -1635,7 +1781,7 @@ e_europa = {
 				low_saxon="Eemsland"
 				dutch="Eemsland"
 				flemish="Eemsland"
-				frisian="Oamselân"
+				frisian="Iemslân"
 
 				b_meppen = {}
 				b_lingen = {}
@@ -1660,11 +1806,16 @@ e_europa = {
 				ossi="Ostfriesland"
 				upper_saxon="Ostfriesland"
 				bavarian="Ostfriesland"
-				swabian="Ostfriesland"
+				swabian="Ostfrysland"
+				schwyzer="Ostfrysland"
 				austrian="Ostfriesland"
+				luxembourger="Ostfriesland"
 				dutch="Oost-Friesland"
-				flemish="Oost-Friesland"
+				flemish="Ôost-Friesland"
 				frisian="Eastfryslân"
+				parisian="Frise-Orientale"
+				walloon="Frize Levantrece"
+				chti="Frise-Oryintale"
 
 				b_emden = {}
 				b_wilhemshaven = {
@@ -1727,9 +1878,12 @@ e_europa = {
 			color2={ 255 255 255 }
 
 			low_saxon="Breem"
+			swabian="Breme"
+			schwyzer="Breme"
 			walloon="Brême"
 			chti="Brême"
 			parisian="Brême"
+			sorbian="Bremy"
 			
 			capital = 348 #Bremen
 			
@@ -1738,9 +1892,12 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				low_saxon="Breem"
+				swabian="Breme"
+				schwyzer="Breme"
 				walloon="Brême"
 				chti="Brême"
 				parisian="Brême"
+				sorbian="Bremy"
 
 				b_bremen = {
 					low_saxon="Breem"
@@ -1790,6 +1947,7 @@ e_europa = {
 				walloon="Lunebourg"
 				chti="Lunebourg"
 				parisian="Lunebourg"
+				frisian="Luneburch"
 
 				b_uelzen = {
 					low_saxon="Ülzn"
@@ -1890,9 +2048,11 @@ e_europa = {
 				bavarian="Braunschweig"
 				swabian="Braunschweig"
 				austrian="Braunschweig"
+				frisian="Breunswyk"
+				sorbian="Brunšwik"
 
 				b_wolfsburg = {
-					low_german="Wulfsborg"
+					low_saxon="Wulfsborg"
 				}
 				b_brunswick = {
 					rhenish="Braunschweig"
@@ -1973,6 +2133,15 @@ e_europa = {
 			color={ 140 140 126 }
 			color2={ 255 255 255 }
 			
+			low_saxon="Hanse"
+			bavarian="Hanse"
+			chti="Hanse"
+			walloon="Hanse"
+			parisian="Hanse"
+			flemish="Hanze"
+			dutch="Hanze"
+			frisian="Hânze"
+			
 			capital = 349 #Hamburg
 			
 			c_hamburg = {
@@ -1980,8 +2149,10 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				low_saxon="Hamborg"
+				bavarian="Hambuag"
+				frisian="Hamburch"
 				walloon="Hambourg"
-				chti="Hambourg"
+				chti="Hambourq"
 				parisian="Hambourg"
 
 				b_norderstedt = {}
@@ -2009,6 +2180,7 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				low_saxon="Lübeek"
+				sorbian="Lubica"
 
 				b_bad_schwartau = {
 					low_saxon="Bad Swartau"
@@ -2035,13 +2207,21 @@ e_europa = {
 			capital = 381 #Kiel
 
 			low_saxon="Sleswig-Holsteen"
+			rhenish="Schleswij-Holsteijn"
+			swabian="Schleswig-Holstei"
+			schwyzer="Schleswig-Holstei"
 			frisian="Slaswik-Holstiinj"
 			dutch="Sleeswijk-Holstein"
-			flemish="Sleeswijk-Holstein"
+			flemish="Sleeswyk-Holstein"
+			sorbian="Schleswigsko-Holsteinska"
 			
 			c_dithmarschen = {
 				color={ 168 153 32 }
 				color2={ 255 255 255 }
+				
+				chti="Dithmarse"
+				walloon="Dithmarse"
+				parisian="Dithmarse"
 
 				b_heide = {
 					low_saxon="De Heid"
@@ -2072,9 +2252,11 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				low_saxon="Sleswig"
+				rhenish="Schleswij"
 				frisian="Slaswik"
 				dutch="Sleeswijk"
-				flemish="Sleeswijk"
+				flemish="Sleeswyk"
+				sorbian="Schleswigsko"
 
 				b_schleswig = {
 					low_saxon="Sleswig"
@@ -2090,7 +2272,7 @@ e_europa = {
 					frisian="Hüsem"
 				}
 				b_eckernforde = {
-					low_german="Eckernför"
+					low_saxon="Eckernför"
 				}
 				b_handewitt = {}
 				b_harrislee = {}
@@ -2110,7 +2292,7 @@ e_europa = {
 				b_bordesholm = {}
 				b_kronshagen = {}
 				b_plon = {
-					low_german="Plöön"
+					low_saxon="Plöön"
 				}
 			}
 		}
@@ -2128,10 +2310,24 @@ e_europa = {
 			capital = 392 #Schwerin
 
 			low_saxon="Mekelborg-Vorpommern"
+			rhenish="Mecklenborsch-Vüürpommere"
+			bavarian="Mecklenbuag-Voapomman"
+			swabian="Meckleburg-Vorpommre"
+			schwyzer="Meckleburg-Vorpommre"
+			dutch="Mecklenburg-Voor-Pommeren"
+			flemish="Mecklenburg-Voorpommern"
+			parisian="Mecklembourg-Poméranie-Occidentale"
+			chti="Mecklembourg-Poméranie-Occhidintale"
+			walloon="Mecklembourg-Poméranie-Coûtchantrece"
+			frisian="Meklenburch-Foarpommeren"
+			sorbian="Mecklenburgsko-Predpomorska"
 			
 			c_schwerin = {
 				color={ 0 141 30 }
 				color2={ 255 255 255 }
+				
+				low_saxon="Swerin"
+				sorbian="Zwerin"
 
 				b_ludwigslust = {}
 				b_schwerin = {}
@@ -2144,6 +2340,8 @@ e_europa = {
 			c_rostock = {
 				color={ 43 133 62 }
 				color2={ 255 255 255 }
+				
+				sorbian="Roztok"
 
 				b_gustrow = {}
 				b_rostock = {}
@@ -2156,6 +2354,8 @@ e_europa = {
 			c_muritz = {
 				color={ 84 69 181 }
 				color2={ 255 255 255 }
+				
+				sorbian="Morica"
 
 				b_neustrelitz = {}
 				b_neubrandenburg = {}
@@ -2168,6 +2368,8 @@ e_europa = {
 			c_rugen = {
 				color={ 84 147 31 }
 				color2={ 255 255 255 }
+				
+				sorbian="Rujany"
 
 				b_bergen_auf_rugen = {}
 				b_sassnitz = {}
@@ -2180,6 +2382,9 @@ e_europa = {
 			c_stralsund = {
 				color={ 42 66 53 }
 				color2={ 255 255 255 }
+
+				dutch="Straalsond"
+				flemish="Straalsond"
 
 				b_wismar = {}
 				b_stralsund = {}
@@ -2194,15 +2399,21 @@ e_europa = {
 				color={ 126 72 54 }
 				color2={ 255 255 255 }
 
-				walloon="Gripswalde"
-				chti="Gripswalde"
-				parisian="Gripswalde"
+				rhenish="Graifswald"
+				low_saxon="Griepswohld"
+				dutch="Griepswoude"
+				walloon="Gripsvalde"
+				chti="Gripsvalde"
+				parisian="Gripsvalde"
 
 				b_wolgast = {}
 				b_greifswald = {
-					walloon="Gripswalde"
-					chti="Gripswalde"
-					parisian="Gripswalde"
+					rhenish="Graifswald"
+					low_saxon="Griepswohld"
+					dutch="Griepswoude"
+					walloon="Gripsvalde"
+					chti="Gripsvalde"
+					parisian="Gripsvalde"
 				}
 				b_anklam = {}
 				b_ueckermunde = {}
@@ -2218,10 +2429,13 @@ e_europa = {
 			capital = 409 #Havelland
 
 			low_saxon="Brannenborg"
+			rhenish="Brandeborsch"
 			sorbian="Braniborska"
 			walloon="Brandenbourg"
 			chti="Brandenbourg"
 			parisian="Brandenbourg"
+			bavarian="Brandnbuag"
+			frisian="Brandenburch"
 			
 			c_prignitz = {
 				color={ 153 161 170 }
@@ -2250,6 +2464,8 @@ e_europa = {
 			c_oder_spree = {
 				color={ 83 94 107 }
 				color2={ 255 255 255 }
+				
+				sorbian="Wódra-Sprjewja"
 
 				b_eisenhuttenstadt = {}
 				b_frankfurt_an_der_oder = {
@@ -2264,6 +2480,8 @@ e_europa = {
 			c_teltow_flaming = {
 				color={ 69 85 103 }
 				color2={ 255 255 255 }
+				
+				sorbian="Teltow-Fleming"
 
 				b_zossen = {}
 				b_luckenwalde = {}
@@ -2296,9 +2514,21 @@ e_europa = {
 			
 			capital = 412 #Berlin
 			
+			rhenish="Bälliin"
+			dutch="Berlijn"
+			flemish="Berlyn"
+			sorbian="Barlin"
+			frisian="Berlyn"
+			
 			c_berlin = {
 				color={ 255 245 104 }
 				color2={ 255 255 255 }
+			
+				rhenish="Bälliin"
+				dutch="Berlijn"
+				flemish="Berlyn"
+				sorbian="Barlin"
+				frisian="Berlyn"
 				
 				b_pankow = {}
 				b_berlin = {}
@@ -2321,19 +2551,27 @@ e_europa = {
 			
 			capital = 362 #Magdeburg
 
-			rhenish="Sachsen-Anhalt"
-			low_saxon="Sassen-Anhalt"
+			rhenish="Saxe-Anhalt"
+			low_saxon="Sassen-Anholt"
 			ossi="Sachsen-Anhalt"
 			upper_saxon="Sachsen-Anhalt"
-			bavarian="Sachsen-Anhalt"
-			swabian="Sachsen-Anhalt"
+			bavarian="Saggsn-Anhalt"
+			swabian="Sachse-Anhalt"
+			schwyzer="Sachse-Anhalt"
 			austrian="Sachsen-Anhalt"
 			dutch="Saksen-Anhalt"
+			frisian="Saksen-Anhalt"
 			flemish="Saksen-Anhalt"
+			parisian="Saxe-Anhalt"
+			chti="Saxe-Anhalt"
+			walloon="Saxe-Anhalt"
+			sorbian="Saksko-Anhaltska"
 			
 			c_altmark = {
 				color={ 117 130 135 }
 				color2={ 255 255 255 }
+				
+				low_saxon="Ollmark"
 				
 				b_salzwedel = {}
 				b_stendal = {}
@@ -2348,18 +2586,26 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				low_saxon="Meideborg"
+				bavarian="Magdebuag"
 				walloon="Magdebourg"
-				chti="Magdebourg"
+				chti="Magdebourq"
 				parisian="Magdebourg"
+				dutch="Maagdenburg"
+				flemish="Maagdenburg"
+				sorbian="Dzewin"
 				
 				b_haldensleben = {
 					low_saxon="Halslä"
 				}
 				b_magdeburg = {
 					low_saxon="Meideborg"
+					bavarian="Magdebuag"
 					walloon="Magdebourg"
-					chti="Magdebourg"
+					chti="Magdebourq"
 					parisian="Magdebourg"
+					dutch="Maagdenburg"
+					flemish="Maagdenburg"
+					sorbian="Dzewin"
 				}
 				b_oschersleben = {}
 				b_wanzleben_borde = {}
@@ -2370,6 +2616,8 @@ e_europa = {
 			c_harz = {
 				color={ 84 89 32 }
 				color2={ 255 255 255 }
+				
+				sorbian="Smoliny"
 
 				b_falkenstein = {}
 				b_quedlinburg = {}
@@ -2383,8 +2631,11 @@ e_europa = {
 				color={ 76 79 45 }
 				color2={ 255 255 255 }
 				
+				sorbian="Hala"
+				
 				b_dessau = {}
 				b_halle = {}
+					sorbian="Hala"
 				b_bitterfeld_wolfen = {}
 				b_merseburg = {}
 				b_naumburg = {}
@@ -2394,6 +2645,12 @@ e_europa = {
 			c_wittenberg = {
 				color={ 168 60 52 }
 				color2={ 255 255 255 }
+				
+				low_saxon="Wittenbarg"
+				parisian="Wittemberg"
+				walloon="Wittemberg"
+				chti="Wittemberg"
+				sorbian="Bela Hora"
 				
 				b_zerbst = {}
 				b_lutherstadt_wittenberg = {}
@@ -2410,16 +2667,22 @@ e_europa = {
 			
 			capital = 399 #Erfurt
 
-			rhenish="Thüringen"
-			low_saxon="Thüringen"
+			rhenish="Thüringe"
+			low_saxon="Döringen"
 			ossi="Thüringen"
 			upper_saxon="Thüringen"
 			bavarian="Thüringen"
-			swabian="Thüringen"
+			swabian="Thüringe"
 			austrian="Thüringen"
-			walloon="Touringe"
-			chti="Touringe"
-			parisian="Touringe"
+			schwyzer="Thüringe"
+			dutch="Thüringen"
+			flemish="België"
+			walloon="Thuringe"
+			chti="Thuringe"
+			parisian="Thuringe"
+			luxembourger="Thüringen"
+			frisian="Tueringen"
+			sorbian="Durinska"
 			
 			c_erfurt = {
 				color={ 139 64 59 }
@@ -2428,12 +2691,14 @@ e_europa = {
 				walloon="Erfort"
 				chti="Erfort"
 				parisian="Erfort"
+				sorbian="Jarobrod"
 				
 				b_gotha = {}
 				b_erfurt = {
 					walloon="Erfort"
 					chti="Erfort"
 					parisian="Erfort"
+					sorbian="Jarobrod"
 				}
 				b_muhlhausen = {}
 				b_heilbad_heiligenstadt = {}
@@ -2462,8 +2727,11 @@ e_europa = {
 			c_eisenach = {
 				color={ 162 81 76 }
 				color2={ 255 255 255 }
+				
+				low_saxon="Iesenack"
 
 				b_eisenach = {}
+					low_saxon="Iesenack"
 				b_suhl = {}
 				b_meiningen = {}
 				b_sonneburg = {}
@@ -2479,29 +2747,33 @@ e_europa = {
 			
 			capital = 407 #Leipzig
 
-			rhenish="Sachsen"
+			rhenish="Saxe"
 			low_saxon="Sassen"
 			ossi="Sachsen"
 			upper_saxon="Sachsen"
-			bavarian="Sachsen"
-			swabian="Sachsen"
+			bavarian="Saggsn"
+			swabian="Sachse"
+			schwyzer="Sachse"
 			austrian="Sachsen"
 			dutch="Saksen"
+			frisian="Saksen"
 			flemish="Saksen"
-			sorbian="Sakska"
-			walloon="Saxe"
-			chti="Saxe"
 			parisian="Saxe"
+			chti="Saxe"
+			walloon="Saxe"
+			sorbian="Sakska"
 			
 			c_leipzig = {
 				color={ 83 99 105 }
 				color2={ 255 255 255 }
 
 				sorbian="Lipsk"
+				upper_saxon="Leibz'sch"
 				
 				b_torgau = {}
 				b_leipzig = {
 					sorbian="Lipsk"
+					upper_saxon="Leibz'sch"
 				}
 				b_borna = {}
 				b_grimma = {
@@ -2515,6 +2787,11 @@ e_europa = {
 			c_erzgebirge = {
 				color={ 195 209 209 }
 				color2={ 255 255 255 }
+
+				dutch="Ertsgebergte"
+				flemish="Ertsgebergte"
+				frisian="Ertsberchtme"
+				sorbian="Rudohory"
 				
 				b_annaberg_buchholz = {}
 				b_zwickau = {
@@ -2535,6 +2812,8 @@ e_europa = {
 				walloon="Dresde"
 				chti="Dresde"
 				parisian="Dresde"
+				bavarian="Dresdn"
+				upper_saxon="Dräsdn"
 				
 				b_freital = {}
 				b_dresden = {
@@ -2542,6 +2821,8 @@ e_europa = {
 					walloon="Dresde"
 					chti="Dresde"
 					parisian="Dresde"
+					bavarian="Dresdn"
+					upper_saxon="Dräsdn"
 				}
 				b_pirna = {
 					sorbian="Pjerno"
@@ -2572,6 +2853,8 @@ e_europa = {
 				bavarian="Oberlausitz"
 				swabian="Oberlausitz"
 				austrian="Oberlausitz"
+				dutch="Opper-Lausitz"
+				flemish="Opper-Lausitz"
 				sorbian="Hornja Lužyca"
 				
 				b_bautzen = {
@@ -2614,6 +2897,8 @@ e_europa = {
 				bavarian="Niederlausitz"
 				swabian="Niederlausitz"
 				austrian="Niederlausitz"
+				dutch="Neder-Lausitz"
+				flemish="Neder-Lausitz"
 				sorbian="Delnja Lužyca"
 
 				b_senftenberg = {
