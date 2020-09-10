@@ -779,12 +779,16 @@
     trait=skilled_tactician	
 	father=8000071
 	2630.1.1={birth=yes}
+	2648.1.1={
+	    add_spouse = 8000191
+	}
 	2670.1.1={death=yes}
 }
 
 8000073={
 	name="Aurora"
 	female=yes
+	mother=8000208
 	dynasty=2220052 #Gløkksborg
 	culture=ostlending
 	religion=neuhumanist
@@ -1232,7 +1236,7 @@
 }
 
 8000102={
-	name="Askeladd"
+	name="Håkon"
 	dynasty=2220060 #Luva 
 	culture=vestlending
 	religion=folketro
@@ -1240,12 +1244,15 @@
 	trait=fair
 	trait=skilled_tactician
 	trait=ambitious 
-	trait=cynical 
+	trait=brave 
 	trait=proud
+	trait=lefthanded
 	disallow_random_traits=yes
 	father=8000160
+	mother=8000203
 	2649.1.1={birth=yes}
-	2666.1.1={give_nickname = nick_tanglehair }
+	2659.1.1={ add_claim=d_opplandene}
+	2666.1.1={give_nickname = nick_half_troll }
 	2670.1.1={death=yes}
 }
 
@@ -1265,8 +1272,9 @@
 }
 
 8000104={
-	name="Ole"
-	dynasty=2220056 #Tretelgje 
+	name="Magnus"
+	dynasty=2220029 #Hynne 
+	father=8000195
 	culture=ostlending
 	religion=folketro
 	trait=thrifty_clerk
@@ -1326,6 +1334,7 @@
 	dynasty=2220053 #Prøysen 
 	culture=ostlending
 	religion=folketro
+	father=8000204
 	trait=amateurish_plotter
 	trait=ugly
 	trait=cruel
@@ -2299,4 +2308,228 @@
 	religion=folketro
 	2633.1.1={birth=yes}
 	2670.1.1={death=yes}
+}
+
+8000191={
+	name="Naima" #Princess of the Geats
+	female=yes 
+	dynasty=2220409 #Allén
+	culture=swedish
+	religion=lutheran
+	father=8000177
+	2630.1.1={birth=yes}
+	2648.1.1={
+	    add_spouse = 8000072
+	}
+	2670.1.1={death=yes}
+}
+
+8000192={
+	name="Martin"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=folketro
+	trait=rowdy	
+	father=8000072
+	mother=8000191
+	2661.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000193={
+	name="Erik"
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=folketro
+	father=8000072
+	mother=8000191
+	2664.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000194={
+	name="Miriam"
+	female=yes
+	dynasty=2220179 #Skånske
+	culture=scanian
+	religion=folketro
+	father=8000072
+	mother=8000191
+	2666.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000195={
+	name="Mons"
+	dynasty=2220029 #Hynne 
+	culture=ostlending
+	religion=folketro
+	trait=indulgent_wastrel
+	trait=lustful
+	trait=seducer
+	trait=content 
+	trait=kind 
+	trait=gregarious
+	trait=is_fat
+	trait=family_person
+	2592.1.1={birth=yes}
+	2650.1.1={give_nickname nick_the_merry}
+	2661.1.1={death=yes}
+}
+
+8000196={
+	name="Marius"
+	dynasty=2220029 #Hynne 
+	father=8000195
+	culture=ostlending
+	religion=folketro
+	trait=bastard
+	2622.1.1={birth=yes}
+	2652.1.1={death=yes}
+}
+
+8000197={
+	name="Markus"
+	dynasty=2220029 #Hynne 
+	father=8000195
+	culture=ostlending
+	religion=folketro
+	trait=bastard
+	2623.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000198={
+	name="Morten"
+	dynasty=2220029 #Hynne 
+	father=8000195
+	culture=ostlending
+	religion=folketro
+	trait=bastard
+	2624.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000199={
+	name="Mikkel"
+	dynasty=2220029 #Hynne 
+	father=8000195
+	culture=ostlending
+	religion=folketro
+	trait=bastard
+	2627.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000200={
+	name="Mons"
+	dynasty=2220029 #Hynne 
+	father=8000195
+	culture=ostlending
+	religion=folketro
+	trait=bastard
+	2629.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000201={
+	name="Mette"
+	female=yes
+	father=8000195
+	dynasty=2220029 #Hynne 
+	culture=ostlending
+	religion=folketro
+	trait=bastard
+	2623.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000202={
+	name="Marion"
+	female=yes
+	father=8000195
+	dynasty=2220029 #Hynne 
+	culture=ostlending
+	religion=folketro
+	trait=bastard
+	2621.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000203={
+	name="Isabel"
+	female=yes 
+	dynasty=2220053 #Prøysen 
+	father=8000108
+	culture=ostlending
+	religion=folketro
+	trait=underhanded_rogue
+	trait=shy 
+	trait=weak 
+	trait=bastard 
+	2634.1.1={birth=yes}
+	2659.1.1={death=yes}
+}
+
+8000204={
+	name="Thor" #King of Opplandene
+	dynasty=2220053 #Prøysen 
+	culture=ostlending
+	religion=folketro
+	father=8000205
+	2577.1.1={birth=yes}
+	2636.1.1={death=yes}
+}
+
+8000205={
+	name="Øystein" #King of Opplandene 
+	dynasty=2220053 #Prøysen 
+	culture=ostlending
+	religion=folketro
+	father=8000206
+	2554.1.1={birth=yes}
+	2621.1.1={death=yes}
+}
+
+8000206={
+	name="Reidar" #King of Opplandene 
+	dynasty=2220053 #Prøysen 
+	culture=ostlending
+	trait=strong 
+	trait=zealous
+	trait=cruel 
+	trait=robust
+	religion=folketro
+	2531.1.1={birth=yes}
+	2550.1.1={give_nickname nick_the_strong}
+	2597.1.1={death=yes}
+}
+
+8000207={
+	name="Tommy" 
+	dynasty=2220381 #Reutersvärd 
+	culture=swedish
+	trait=giant 
+	trait=kind 
+	trait=dull 
+	trait=underhanded_rogue
+	trait=gluttonous
+	religion=lutheran
+	2631.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000208={
+	name="Linnea"
+	female=yes
+	dynasty=2220052 #Gløkksborg
+	culture=ostlending
+	religion=neuhumanist
+    trait=skilled_tactician
+	trait=ambitious
+	trait=quick 
+	trait=diligent
+	2613.1.1={birth=yes}
+	2647.1.1={give_nickname nick_longsword}
+	2657.1.1={death=yes}
 }
