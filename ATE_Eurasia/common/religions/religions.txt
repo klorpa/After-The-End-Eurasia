@@ -1,5 +1,167 @@
 ###ÄNSI
 
+vernacular = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.2 0.8 0.8 }
+	
+	folketro = {
+		graphical_culture = westerngfx
+
+		icon = 28
+		heresy_icon = 30
+		
+		color = { 0.8 0.3 0.3 }
+		
+		crusade_name = WILD_HUNT
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_HERREN
+		
+		god_names = {
+			GOD_THE_DRAGONSLAYER GOD_JESUS GOD_THE_ELVES
+		}
+		
+		evil_god_names = {
+			SATAN THE_DEVIL THE_TROLLS KRAKEN
+		}
+		
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		intermarry = lucian
+		intermarry = skogskult
+		intermarry = sun_king_cultist
+		intermarry = lutheran
+	}
+	
+	lucian = {
+		graphical_culture = westerngfx
+
+		icon = 28
+		heresy_icon = 30
+		
+		color = { 0.9 0.7 0.7 }
+		
+		parent = folketro
+		
+		crusade_name = WILD_HUNT
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GUD
+		
+		god_names = {
+			SANTA_LUCIA SANKTE_PAR GOD_JESUS GOD_THE_ETERNAL_KING
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL THE_TROLLS
+		}
+		
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		feminist = yes 
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		intermarry = skogskult
+		intermarry = folketro
+		intermarry = lutheran 
+		intermarry = sun_king_cultist
+	}
+	
+	skogskult = {
+		graphical_culture = westerngfx
+
+		icon = 28
+		heresy_icon = 30
+		
+		color = { 0.95 0.1 0.2 }
+		
+		parent = folketro
+		
+		crusade_name = WILD_HUNT
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_ALLFAR
+		
+		god_names = {
+			GOD_LUSSI GOD_THE_HANGED_ONE GOD_THE_FIDDLER GOD_DOVREGUBBEN THE_DEVIL
+		}
+		
+		evil_god_names = {
+			GOD_LUSSI GOD_THE_HANGED_ONE GOD_THE_FIDDLER GOD_DOVREGUBBEN THE_DEVIL
+		}
+		
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+		intermarry = folketro 
+		intermarry = lucian 
+		intermarry = sun_king_cultist
+	}
+	
+	sun_king_cultist = {
+		graphical_culture = westerngfx
+
+		icon = 11
+		heresy_icon = 16
+		
+		color = { 0.86 0.67 0 }
+		
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		
+		scripture_name = LES_LOIS_FONDAMENTALES
+		priest_title = PRIEST
+		
+		high_god_name = THE_SOLAR_GOD
+		
+		god_names = {
+			THE_SOLAR_GOD CHRIST_THE_KING THE_VIRGIN_QUEEN THE_MAID
+		}
+		
+		evil_god_names = {
+			THE_USURPER SATAN LUCIFER THE_DEVIL MARIANNE
+		}
+		
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		intermarry = folketro
+		intermarry = lucian
+		intermarry = skogskult
+	}
+}
+
 pagan_group = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
@@ -42,127 +204,7 @@ pagan_group = {
 	color = { 0.6 0.0 0.0 }
 	
 	interface_skin = { pagan_interface }
-	
-	folketro_reformed = {
-		graphical_culture = norsegfx
-		secondary_event_pictures = norse_pagan
-		alternate_start = { always = no }
-		
-		icon = 29
-		heresy_icon = 30
-		
-		ai_convert_other_group = 2 # always try to convert
-		
-		color = { 235 5 20 }
 
-		high_god_name = GOD_GUDDOMMELEG
-
-		god_names = {
-			GOD_ASKELADDEN GOD_ASAGRIM GOD_THE_ELVES GOD_THE_DRAGONSLAYER GOD_THE_MASTER_MAID
-		}
-		evil_god_names = {
-			LOKI HELA FENRIR THE_FROST_GIANTS
-		}
-		
-		unit_modifier = {
-			levy_size = 0.1
-			
-			key = "DEF_RELIGION"
-		}
-		
-		crusade_name = WILD_HUNT
-		scripture_name = THE_SAGAS
-		priest_title = STORYTELLER
-		priests_can_marry = yes
-		
-		can_call_crusade = yes
-		join_crusade_if_bordering_hostile = yes
-		
-		allow_looting = yes
-		allow_rivermovement = yes 		#Special features are added via reformation. If HF is not installed, default features are applied on reformed religion by event.
-		female_temple_holders = yes
-		#allow_viking_invasion = yes
-		#seafarer = yes
-		allow_in_ruler_designer = no
-		#short_reign_opinion_year_mult = 3 # The default is 2
-		
-		#aggression = 1.0 # AI aggression factor
-		
-		max_consorts = 3
-		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-		
-		intermarry = folketro
-	}
-	folketro = {
-		graphical_culture = norsegfx
-
-		icon = 28
-		heresy_icon = 30
-		
-		color = { 255 0 25 }
-
-		high_god_name = GOD_GUDDOMMELEG
-
-		god_names = {
-			GOD_ASKELADDEN GOD_ASAGRIM GOD_THE_ELVES GOD_THE_DRAGONSLAYER GOD_THE_MASTER_MAID
-		}
-		evil_god_names = {
-			LOKI HELA FENRIR THE_FROST_GIANTS
-		}
-		evil_god_names = {
-			LOKI HELA FENRIR THE_FROST_GIANTS
-		}
-		
-		unit_modifier = {
-			levy_size = 0.1
-			
-			key = "DEF_RELIGION"
-		}
-		unit_home_modifier = {
-			land_morale = 0.8
-			light_infantry_defensive = 0.8
-			heavy_infantry_defensive = 0.8
-			pikemen_defensive = 0.8
-			light_cavalry_defensive = 0.8
-			knights_defensive = 0.8
-			archers_defensive = 0.8
-			horse_archers_defensive = 0.8
-			camel_cavalry_defensive = 0.8
-			war_elephants_defensive = 0.8
-			
-			garrison_size = 0.4
-			
-			key = "DEF_RELIGION_HOME_TERRITORY"
-		}
-		
-		crusade_name = WILD_HUNT
-		scripture_name = THE_SAGAS
-		priest_title = STORYTELLER
-		priests_can_marry = yes
-		
-		allow_viking_invasion = yes # Allows the "Prepare Invasion" diplo action
-		allow_looting = yes
-		seafarer = yes
-		allow_rivermovement = yes
-		female_temple_holders = yes
-		defensive_attrition = yes
-		raised_vassal_opinion_loss = no
-		max_consorts = 3
-		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
-		reformed = folketro_reformed
-		
-		aggression = 1.0 # AI aggression factor
-		
-		short_reign_opinion_year_mult = 5 # The default is 2
-		
-		can_demand_religious_conversion = no
-		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-		intermarry = folketro_reformed
-	}
 	lusitanian = {
 		graphical_culture = westerngfx
 
@@ -808,39 +850,6 @@ esoteric = {
 		evil_god_names = {
             GOD_MORGOTH
         }
-	}
-	sun_king_cultist = {
-		graphical_culture = westerngfx
-
-		icon = 11
-		heresy_icon = 16
-		
-		color = { 0.86 0.67 0 }
-		
-		crusade_name = CRUSADE
-		use_new_crusade = yes
-		crusade_cb = new_crusade
-		
-		scripture_name = LES_LOIS_FONDAMENTALES
-		priest_title = PRIEST
-		
-		high_god_name = THE_SOLAR_GOD
-		
-		god_names = {
-			THE_SOLAR_GOD CHRIST_THE_KING THE_VIRGIN_QUEEN THE_MAID
-		}
-		
-		evil_god_names = {
-			THE_USURPER SATAN LUCIFER THE_DEVIL MARIANNE
-		}
-		
-		can_retire_to_monastery = yes
-		priests_can_inherit = no
-		allow_rivermovement = yes
-		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-		#intermarry = catholic
 	}
 }
 
