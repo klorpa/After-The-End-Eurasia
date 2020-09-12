@@ -303,6 +303,11 @@
 	dynasty=2223011 #Holberg
 	culture=danish
 	religion=neuhumanist
+	martial=4
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=7
 	trait=martial_cleric
 	trait=sympathy_christendom
 	trait=poet
@@ -311,7 +316,6 @@
 	trait=chaste
 	trait=charitable
 	2610.3.1={birth=yes}
-	2657.1.1={ add_spouse = 80000216}
 	2670.5.10={death=yes}
 }
 8000012={
@@ -775,27 +779,22 @@
     trait=skilled_tactician	
 	father=8000071
 	2630.1.1={birth=yes}
-	2648.1.1={
-	    add_spouse = 8000191
-	}
 	2670.1.1={death=yes}
 }
 
 8000073={
 	name="Aurora"
 	female=yes
-	mother=8000208
-	father = 8000225
 	dynasty=2220052 #Gløkksborg
 	culture=ostlending
 	religion=neuhumanist
-	trait=groomed
-	trait=strong 
-	trait=lustful 
-	trait=wroth
-	trait=legit_bastard
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=5
+	trait=fair
     trait=flamboyant_schemer
-	disallow_random_traits = yes
 	2645.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
@@ -1233,7 +1232,7 @@
 }
 
 8000102={
-	name="Håkon"
+	name="Askeladd"
 	dynasty=2220060 #Luva 
 	culture=vestlending
 	religion=folketro
@@ -1241,15 +1240,12 @@
 	trait=fair
 	trait=skilled_tactician
 	trait=ambitious 
-	trait=brave 
+	trait=cynical 
 	trait=proud
-	trait=lefthanded
 	disallow_random_traits=yes
 	father=8000160
-	mother=8000203
 	2649.1.1={birth=yes}
-	2659.1.1={ add_claim=d_opplandene}
-	2666.1.1={give_nickname = nick_half_troll }
+	2666.1.1={give_nickname = nick_tanglehair }
 	2670.1.1={death=yes}
 }
 
@@ -1269,9 +1265,8 @@
 }
 
 8000104={
-	name="Magnus"
-	dynasty=2220029 #Hynne 
-	father=8000195
+	name="Ole"
+	dynasty=2220056 #Tretelgje 
 	culture=ostlending
 	religion=folketro
 	trait=thrifty_clerk
@@ -1331,7 +1326,6 @@
 	dynasty=2220053 #Prøysen 
 	culture=ostlending
 	religion=folketro
-	father=8000204
 	trait=amateurish_plotter
 	trait=ugly
 	trait=cruel
@@ -2304,421 +2298,5 @@
     trait=skilled_tactician	
 	religion=folketro
 	2633.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000191={
-	name="Naima" #Princess of the Geats
-	female=yes 
-	dynasty=2220409 #Allén
-	culture=swedish
-	religion=lutheran
-	father=8000177
-	2630.1.1={birth=yes}
-	2648.1.1={
-	    add_spouse = 8000072
-	}
-	2670.1.1={death=yes}
-}
-
-8000192={
-	name="Martin"
-	dynasty=2220179 #Skånske
-	culture=scanian
-	religion=folketro
-	trait=rowdy	
-	father=8000072
-	mother=8000191
-	2661.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000193={
-	name="Erik"
-	dynasty=2220179 #Skånske
-	culture=scanian
-	religion=folketro
-	father=8000072
-	mother=8000191
-	2664.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000194={
-	name="Miriam"
-	female=yes
-	dynasty=2220179 #Skånske
-	culture=scanian
-	religion=folketro
-	father=8000072
-	mother=8000191
-	2666.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000195={
-	name="Mons"
-	dynasty=2220029 #Hynne 
-	culture=ostlending
-	religion=folketro
-	trait=indulgent_wastrel
-	trait=lustful
-	trait=seducer
-	trait=content 
-	trait=kind 
-	trait=gregarious
-	trait=is_fat
-	trait=family_person
-	2592.1.1={birth=yes}
-	2650.1.1={give_nickname nick_the_merry}
-	2661.1.1={death=yes}
-}
-
-8000196={
-	name="Marius"
-	dynasty=2220029 #Hynne 
-	father=8000195
-	culture=ostlending
-	religion=folketro
-	trait=bastard
-	2622.1.1={birth=yes}
-	2652.1.1={death=yes}
-}
-
-8000197={
-	name="Markus"
-	dynasty=2220029 #Hynne 
-	father=8000195
-	culture=ostlending
-	religion=folketro
-	trait=bastard
-	2623.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000198={
-	name="Morten"
-	dynasty=2220029 #Hynne 
-	father=8000195
-	culture=ostlending
-	religion=folketro
-	trait=bastard
-	2624.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000199={
-	name="Mikkel"
-	dynasty=2220029 #Hynne 
-	father=8000195
-	culture=ostlending
-	religion=folketro
-	trait=bastard
-	2627.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000200={
-	name="Mons"
-	dynasty=2220029 #Hynne 
-	father=8000195
-	culture=ostlending
-	religion=folketro
-	trait=bastard
-	2629.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000201={
-	name="Mette"
-	female=yes
-	father=8000195
-	dynasty=2220029 #Hynne 
-	culture=ostlending
-	religion=folketro
-	trait=bastard
-	2623.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000202={
-	name="Marion"
-	female=yes
-	father=8000195
-	dynasty=2220029 #Hynne 
-	culture=ostlending
-	religion=folketro
-	trait=bastard
-	2621.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000203={
-	name="Isabel"
-	female=yes 
-	dynasty=2220053 #Prøysen 
-	father=8000108
-	culture=ostlending
-	religion=folketro
-	trait=underhanded_rogue
-	trait=shy 
-	trait=weak 
-	trait=bastard 
-	2634.1.1={birth=yes}
-	2659.1.1={death=yes}
-}
-
-8000204={
-	name="Thor" #King of Opplandene
-	dynasty=2220053 #Prøysen 
-	culture=ostlending
-	religion=folketro
-	father=8000205
-	2577.1.1={birth=yes}
-	2636.1.1={death=yes}
-}
-
-8000205={
-	name="Øystein" #King of Opplandene 
-	dynasty=2220053 #Prøysen 
-	culture=ostlending
-	religion=folketro
-	father=8000206
-	2554.1.1={birth=yes}
-	2621.1.1={death=yes}
-}
-
-8000206={
-	name="Reidar" #King of Opplandene 
-	dynasty=2220053 #Prøysen 
-	culture=ostlending
-	trait=strong 
-	trait=zealous
-	trait=cruel 
-	trait=robust
-	religion=folketro
-	2531.1.1={birth=yes}
-	2550.1.1={give_nickname nick_the_strong}
-	2597.1.1={death=yes}
-}
-
-8000207={
-	name="Tommy" 
-	dynasty=2220381 #Reutersvärd 
-	culture=swedish
-	trait=giant 
-	trait=kind 
-	trait=dull 
-	trait=underhanded_rogue
-	trait=gluttonous
-	religion=lutheran
-	2631.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000208={
-	name="Linnea"
-	female=yes
-	father=8000209
-	dynasty=2220052 #Gløkksborg
-	culture=ostlending
-	religion=neuhumanist
-    trait=skilled_tactician
-	trait=ambitious
-	trait=quick 
-	trait=zealous
-	trait=diligent
-	2613.1.1={birth=yes}
-	2647.1.1={give_nickname nick_longsword}
-	2657.1.1={death=yes}
-}
-
-8000209={
-	name="Vidar"
-	dynasty=2220052 #Gløkksborg
-	culture=ostlending
-	mother=8000211
-	religion=neuhumanist
-	2588.1.1={birth=yes}
-	2641.1.1={death=yes}
-}
-
-8000210={
-	name="Daria"
-	female=yes 
-	mother=8000211
-	dynasty=2220052 #Gløkksborg
-	culture=ostlending
-	religion=neuhumanist
-	2583.1.1={birth=yes}
-	2634.1.1={death=yes}
-}
-
-8000211={
-	name="Hadia"
-	female=yes 
-	mother=8000212
-	dynasty=2220052 #Gløkksborg
-	culture=ostlending
-	religion=neuhumanist
-	2549.1.1={birth=yes}
-	2596.1.1={death=yes}
-}
-
-8000212={
-	name="Daria"
-	female=yes 
-	dynasty=2220052 #Gløkksborg
-	culture=ostlending
-	religion=neuhumanist
-	2523.1.1={birth=yes}
-	2567.1.1={death=yes}
-}
-
-8000213={
-	name="Gerhard"
-	dynasty=2220052 #Gløkksborg
-	culture=ostlending
-	father=8000209
-	religion=neuhumanist
-	2614.1.1={birth=yes}
-	2650.1.1={death=yes}
-}
-
-8000214={
-	name="Gisle"
-	dynasty=2220052 #Gløkksborg
-	culture=ostlending
-	father=8000213
-	religion=neuhumanist
-	2630.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000215={
-	name="Daniel"
-	dynasty=2220052 #Gløkksborg
-	culture=ostlending
-	father=8000213
-	religion=neuhumanist
-	2632.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000216={
-	name="Iben"
-	female=yes
-	dynasty=2220052 #Gløkksborg
-	culture=ostlending
-	father=8000213
-	religion=neuhumanist
-	2635.1.1={birth=yes}
-	2657.1.1={ add_spouse = 8000011 }
-	2670.1.1={death=yes}
-}
-
-8000217={
-	name="Tanja"
-	female=yes
-	dynasty=2220052 #Gløkksborg
-	culture=ostlending
-	father=8000213
-	religion=neuhumanist
-	2635.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000218={
-	name="Edmund"
-	father=8000011
-	mother=8000216
-	dynasty=2223011 #Holberg
-	culture=danish
-	religion=neuhumanist
-	trait=playful
-	trait=fair
-	trait=wroth
-	2660.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000219={
-	name="Ejler"
-	father=8000011
-	mother=8000216
-	dynasty=2223011 #Holberg
-	culture=danish
-	religion=neuhumanist
-	trait=curious
-	2664.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000220={
-	name="Lasse"
-	dynasty=2220052 #Gløkksborg
-	culture=ostlending
-	father=8000214
-	trait=timid
-	trait=is_fat
-	religion=neuhumanist
-	2654.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000221={
-	name="Ulrik"
-	dynasty=2220052 #Gløkksborg
-	culture=ostlending
-	father=8000214
-	religion=neuhumanist
-	2659.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000222={
-	name="Celine"
-	female=yes
-	dynasty=2220052 #Gløkksborg
-	culture=ostlending
-	father=8000214
-	religion=neuhumanist
-	2663.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000223={
-	name="Hans"
-	dynasty=2220052 #Gløkksborg
-	culture=ostlending
-	father=8000215
-	religion=neuhumanist
-	2662.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000224={
-	name="Anne"
-	female=yes
-	dynasty=2220052 #Gløkksborg
-	culture=ostlending
-	father=8000215
-	religion=neuhumanist
-	2660.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000225={
-	name="Aslak"
-	culture=ostlending
-	religion=folketro
-	trait=uncouth
-	trait=strong 
-	trait=lustful 
-	trait=wroth
-    trait=skilled_tactician
-	disallow_random_traits = yes 
-	employer = 8000073
-	2621.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
