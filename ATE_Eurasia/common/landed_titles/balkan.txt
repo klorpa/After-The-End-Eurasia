@@ -112,16 +112,6 @@ e_yugoslavia = {
 				b_slunj = {}
 			}
 			
-			c_boska = {
-				color={ 100 80 5 }
-				color2={ 255 255 255 }
-				croatian = "Plitvice"
-				
-				b_kastel = {}
-				b_banja_luka = {}
-				b_kozara = {}
-			}
-			
 			c_split = {
 				color={ 50 20 100 }
 				color2={ 255 255 255 }
@@ -131,15 +121,6 @@ e_yugoslavia = {
 				b_split = {}
 				b_dugi_rat = {}
 				b_pomorac = {}
-			}
-			
-			c_poljana = {
-				color={ 35 44 5 }
-				color2={ 255 255 255 }
-				croatian = "Poljana"
-				
-				b_livno = {}
-				b_glamoc = {}
 			}
 			
 			c_pokuplje = {
@@ -182,6 +163,51 @@ e_yugoslavia = {
 				b_krapina = {}
 			}
 		}
+	}
+	
+	    k_bosnia = {
+		color={ 200 150 20 }
+		color2={ 200 150 20 }
+		capital = 1160 # Kranjska
+		dignity = 2 # Counted as having this many more counties than it does
+		
+		bosniak = "Bosna"
+		
+		d_krajina = {
+			color={ 241 90 35 }
+			color2={ 255 255 255 }
+			capital = 1009 # Boska
+			
+			c_bihac = {
+				color={ 35 44 5 }
+				color2={ 255 255 255 }
+				croatian = "Bihac"
+				
+				b_bihac = {}
+				b_cazin = {}
+			}
+			
+						
+			c_boska = {
+				color={ 100 80 5 }
+				color2={ 255 255 255 }
+				croatian = "Boska"
+				
+				b_kastel = {}
+				b_banja_luka = {}
+				b_kozara = {}
+			}
+		}
+	}
+	
+	    k_slovenia = {
+		color={ 180 120 50 }
+		color2={ 180 120 50 }
+		capital = 1160 # Kranjska
+		dignity = 2 # Counted as having this many more counties than it does
+		
+		slovene = "Slovenija"
+		
 		d_slovenia = {
 			color={ 180 120 50 }
 			color2={ 255 255 255 }
@@ -584,5 +610,6 @@ e_yugoslavia = {
 				}
 			}
 		}
+	    }
 	}
 }
