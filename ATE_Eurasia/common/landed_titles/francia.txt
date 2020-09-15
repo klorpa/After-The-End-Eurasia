@@ -54,9 +54,9 @@ e_france = {
 				ossi="Massilien"
 				upper_saxon="Massilien"
 				bavarian="Massilien"
-				swabian="Massilien"
+				swabian="Maarsei"
 				austrian="Massilien"
-				schwyzer="Massilien"
+				schwyzer="Maarsei"
 				
 				b_aix = {
 					catalan = "Ais"
@@ -74,9 +74,9 @@ e_france = {
 					ossi="Massilien"
 					upper_saxon="Massilien"
 					bavarian="Massilien"
-					swabian="Massilien"
+					swabian="Maarsei"
 					austrian="Massilien"
-					schwyzer="Massilien"
+					schwyzer="Maarsei"
 				}
 				b_arles = {
 					catalan = "Arle"
@@ -857,6 +857,7 @@ e_france = {
 		walloon = "Burtaegne"
 		chti = "Bertanne"
 		norman = "Brétangne"
+		frisian = "Bretanje"
 		
 		d_breizh_uhel = {
 			color={ 146 143 138 }
@@ -872,7 +873,7 @@ e_france = {
 			parisian = "Haute-Bretagne"
 			walloon = "Hôte-Burtaegne"
 			chti = "Haute-Bertanne"
-			norman = "Basse-Brétangne"
+			norman = "Haute-Brétangne"
 			
 			capital = 1542 # c_rennes
 			
@@ -1031,7 +1032,7 @@ e_france = {
 			parisian = "Basse-Bretagne"
 			walloon = "Basse-Burtaegne"
 			chti = "Basse-Bertanne"
-			chti = "Hâote-Brétangne"
+			norman = "Basse-Brétangne"
 			
 			capital = 1547 # c_vannes
 			
@@ -1172,16 +1173,17 @@ e_france = {
 		basque = "Frantzia"
 		breton="Bro-C'hall"
 		chti="Franche"
-		rhenish="Frankreich"
-		low_saxon="Frankreich"
+		rhenish="Fronkreish"
+		low_saxon="Frankriek"
 		ossi="Frankreich"
 		upper_saxon="Frankreich"
 		bavarian="Frankreich"
-		swabian="Frankreich"
+		swabian="Frànkrich"
 		austrian="Frankreich"
-		schwyzer="Frankreich"
+		schwyzer="Frànkrich"
+		luxembourger="Frankräich"
 		dutch="Frankrijk"
-		flemish="Frankrijk"
+		flemish="Vrankryk"
 		occitan = "Lengadoïl"
 		provencal = "Lengadoïl"
 		catalan = "França"
@@ -1189,6 +1191,7 @@ e_france = {
 		basque = "Frantzia"
 		breton = "Bro-C'hall"
 		chti = "Franche"
+		frisian = "Frankryk"
 		
 		d_ile_de_france = {
 			color={ 0 119 192 }
@@ -1215,6 +1218,7 @@ e_france = {
 				flemish="Parys"
 				dutch="Parijs"
 				luxembourger="Paräis"
+				frisian="Parys"
 				
 				b_elysee = {
 				}
@@ -1223,6 +1227,7 @@ e_france = {
 					flemish="Parys"
 					dutch="Parijs"
 					luxembourger="Paräis"
+					frisian="Parys"
 				}
 				b_saint_denis = {
 				}
@@ -1667,18 +1672,16 @@ e_france = {
 			occitan="Normandia"
 			provencal="Normandia"
 			parisian="Normandie"
-			chti="Normandie"
+			chti="Normindie"
 			walloon="Normandie"
 			dutch="Normandië"
 			flemish="Normandië"
+			frisian="Normandje"
 			breton = "Normandi"
 			catalan = "Normandia"
 			basque = "Normandia"
 			occitan = "Normandia"
 			provencal = "Normandia"
-			parisian = "Normandie"
-			chti = "Normandie"
-			walloon = "Normandie"
 			norman = "Normaundie"
 			
 			c_seine_maritime = { # 1563
@@ -1906,6 +1909,7 @@ e_france = {
 			walloon = "Picårdeye"		
 			dutch = "Picardië"
 			flemish = "Picardië"
+			frisian = "Pikardje"
 			
 			c_somme = { # 1568
 				color={ 85 135 81 }
@@ -2025,6 +2029,7 @@ e_france = {
 			schwyzer="Burgund"
 			dutch="Bourgondië"
 			flemish="Bourgondië"
+			frisian="Boergonje"
 			
 			c_cote_dor = { # 1583
 				color={ 72 74 50 }
@@ -2122,7 +2127,9 @@ e_france = {
 			occitan = "Champanha"
 			provencal = "Champanha"
 			catalan = "Xampanya"
+			chti = "Champaingne"
 			breton = "Champagn"
+			frisian = "Sjampanje"
 			
 			capital = 1575 # c_marne
 			
@@ -2164,6 +2171,7 @@ e_france = {
 				dutch="Ardennen"
 				flemish="Ardennen"
 				luxembourger="Ardennen"
+				frisian="Ardinnen"
 				
 				b_sedan = {
 				}
@@ -2429,7 +2437,7 @@ e_france = {
 			
 			capital = 1579 # c_nancy
 	
-			rhenish="Lothringen"
+			rhenish="Lothringe"
 			low_saxon="Lothringen"
 			ossi="Lothringen"
 			upper_saxon="Lothringen"
@@ -2443,6 +2451,10 @@ e_france = {
 			catalan = "Lorena"
 			basque = "Lorrena"
 			breton = "Loren"
+			luxembourger = "Loutrengen"
+			flemish = "Lotharingen"
+			dutch = "Lotharingen"
+			frisian = "Loataringen"
 			
 			c_nancy = { # 1579
 				color={ 84 168 191 }
@@ -2456,6 +2468,7 @@ e_france = {
 				swabian="Nanzig"
 				austrian="Nanzig"
 				schwyzer="Nanzig"
+				luxembourger="Nanzeg"
 				
 				b_vandoeuvre = {
 					rhenish="Vandover"
@@ -2476,6 +2489,7 @@ e_france = {
 					swabian="Nanzig"
 					austrian="Nanzig"
 					schwyzer="Nanzig"
+					luxembourger="Nanzeg"
 				}
 				b_luneville = {
 					rhenish="Lünstadt"
@@ -2540,6 +2554,10 @@ e_france = {
 				bavarian="Maas"
 				swabian="Maas"
 				austrian="Maas"
+				schwyzer="Maas"
+				flemish="Moas"
+				dutch="Maas"
+				frisian="Maas"
 				schwyzer="Maas"
 				arpitan = "Môsa"
 				walloon = "Moûze"
@@ -2615,11 +2633,12 @@ e_france = {
 				low_saxon="Mosel"
 				ossi="Mosel"
 				upper_saxon="Mosel"
-				bavarian="Mosel"
+				bavarian="Mosl"
 				swabian="Mosel"
 				austrian="Mosel"
 				schwyzer="Mosel"
-				arpita ="Mosèla"
+				arpita="Mosèla"
+				luxembourger="Musel"
 				
 				b_montigny = {
 					rhenish="Monteningen"
@@ -2690,6 +2709,9 @@ e_france = {
 				austrian="Vogesen"
 				schwyzer="Vogesen"
 				arpitan = "Vôges"
+				frisian = "Fogezen"
+				dutch = "Vogezen"
+				flemish = "Vogezen"
 				
 				b_thaon_les_vosges = {
 					rhenish = "Thalfang im Wasgenwald"
