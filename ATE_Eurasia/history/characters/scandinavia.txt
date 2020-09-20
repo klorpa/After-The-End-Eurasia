@@ -18,14 +18,11 @@
 	2670.1.4={death=yes}
 }
 2501001={
-	name="Robert" ##god fucking dammit what the fuck
-	dynasty=2501000 #Glaepur
+	name="Þorvaldur" ##god fucking dammit what the fuck
+	dynasty=2501084 #Eagle
+	father=8000226
 	culture=icelander
 	religion=pelagic
-	martial=4
-	diplomacy=6
-	intrigue=5
-	learning=4
 	trait=flamboyant_schemer
 	trait=genius
 	trait=slothful
@@ -40,13 +37,10 @@
 }
 2501002={
 	name="Sveinn"
-	dynasty=2501001 #Edda
+	dynasty=2501005 #Bull
 	culture=icelander
-	religion=free_church #change to lutheran
-	martial=3
-	diplomacy=5
-	intrigue=4
-	learning=4
+	father=8000241
+	religion=lutheran #change to lutheran
 	trait=charismatic_negotiator
 	trait=administrator
 	trait=scholar
@@ -58,14 +52,11 @@
 	2700.9.3={death=yes}
 }
 2501003={
-	name="Leifur"
-	dynasty=2501000
+	name="Brján"
+	dynasty=2501106 #Giant
+	father=8000233
 	culture=icelander
-	religion=norse
-	martial=5
-	diplomacy=4
-	intrigue=3
-	learning=4
+	religion=pelagic
 	trait=skilled_tactician
 	trait=viking
 	trait=fair
@@ -79,13 +70,10 @@
 }
 2501004={
 	name="Jón"
-	dynasty=2501016 
+	father=8000249
+	dynasty=2501107 #Dragon 
 	culture=icelander
 	religion=lutheran
-	martial=4
-	diplomacy=6
-	intrigue=4
-	learning=5
 	trait=martial_cleric
 	trait=stubborn
 	trait=zealous
@@ -100,10 +88,6 @@
 	dynasty=2501004 #Laxness
 	culture=icelander
 	religion=pelagic
-	martial=4
-	diplomacy=5
-	intrigue=4
-	learning=5
 	trait=mastermind_theologian
 	trait=poet
 	trait=stubborn
@@ -863,8 +847,8 @@
 }
 
 8000078={
-	name="Götrik" #King of the Geats
-	dynasty=2220409 #Allén
+	name="Anton" #King of the Geats
+	dynasty=2220467 #Allén
 	culture=swedish
 	religion=lutheran
 	trait=underhanded_rogue
@@ -2142,7 +2126,7 @@
 
 8000177={
 	name="Martin" #King of the Geats
-	dynasty=2220409 #Allén
+	dynasty=2220467 #Allén
 	culture=swedish
 	religion=lutheran
 	father=8000178
@@ -2152,7 +2136,7 @@
 
 8000178={
 	name="Ansgar" #King of the Geats
-	dynasty=2220409 #Allén
+	dynasty=2220467 #Allén
 	culture=swedish
 	religion=lutheran
 	mother=8000179
@@ -2163,7 +2147,7 @@
 8000179={
 	name="Birgitta" #Queen of the Geats
 	female=yes
-	dynasty=2220409 #Allén
+	dynasty=2220467 #Allén
 	culture=swedish
 	religion=lutheran
 	father=8000180
@@ -2173,7 +2157,7 @@
 
 8000180={
 	name="David" #King of the Geats
-	dynasty=2220409 #Allén
+	dynasty=2220467 #Allén
 	culture=swedish
 	religion=lutheran
 	father=8000181
@@ -2183,7 +2167,7 @@
 
 8000181={
 	name="Sigfrid" #King of the Geats
-	dynasty=2220409 #Allén
+	dynasty=2220467 #Allén
 	culture=swedish
 	religion=lutheran
 	father=8000182
@@ -2193,7 +2177,7 @@
 
 8000182={
 	name="Martin" #King of the Geats
-	dynasty=2220409 #Allén
+	dynasty=2220467 #Allén
 	culture=swedish
 	religion=lutheran
 	father=8000183
@@ -2202,8 +2186,8 @@
 }
 
 8000183={
-	name="Göte" #King of the Geats
-	dynasty=2220409 #Allén
+	name="Henrik" #King of the Geats
+	dynasty=2220467 #Allén
 	culture=swedish
 	religion=lutheran
 	trait=quick
@@ -2308,9 +2292,9 @@
 }
 
 8000191={
-	name="Naima" #Princess of the Geats
+	name="Ida" #Princess of the Geats
 	female=yes 
-	dynasty=2220409 #Allén
+	dynasty=2220467 #Allén
 	culture=swedish
 	religion=lutheran
 	father=8000177
@@ -2721,4 +2705,543 @@
 	employer = 8000073
 	2621.1.1={birth=yes}
 	2670.1.1={death=yes}
+}
+
+8000226={
+	name="Víglundur" ##iceoids
+	dynasty=2501084 #Eagle
+	father=8000227
+	culture=icelander
+	religion=pelagic
+	2603.1.1={birth=yes}
+	2661.1.1={death=yes}
+}
+
+8000227={
+	name="Sturla" ##iceoids
+	dynasty=2501084 #Eagle
+	father=8000228
+	culture=icelander
+	religion=pelagic
+	2589.1.1={birth=yes}
+	2634.1.1={death=yes}
+}
+
+8000228={
+	name="Nikulás" ##iceoids
+	dynasty=2501084 #Eagle
+	mother=8000229
+	culture=icelander
+	religion=pelagic
+	2573.1.1={birth=yes}
+	2610.1.1={death=yes}
+}
+
+8000229={
+	name="Elín" ##iceoids
+	dynasty=2501084 #Eagle
+	female=yes
+	mother=8000230
+	culture=icelander
+	religion=pelagic
+	2545.1.1={birth=yes}
+	2593.1.1={death=yes}
+}
+
+8000230={
+	name="Dís" ##iceoids
+	dynasty=2501084 #Eagle
+	female=yes
+	mother=8000231
+	culture=icelander
+	religion=pelagic
+	2522.1.1={birth=yes}
+	2561.1.1={death=yes}
+}
+
+8000231={
+	name="Björk" ##iceoids
+	dynasty=2501084 #Eagle
+	female=yes
+	father=8000232
+	culture=icelander
+	religion=pelagic
+	2497.1.1={birth=yes}
+	2542.1.1={death=yes}
+}
+
+8000232={
+	name="Sigurður " ##iceoids
+	dynasty=2501084 #Eagle
+	culture=icelander
+	religion=pelagic
+	2481.1.1={birth=yes}
+	2499.1.1={give_nickname nick_the_eagle}
+	2501.1.1={death=yes}
+}
+
+8000233={
+	name="Pálmar"
+	father=8000235
+	dynasty=2501106 #Giant
+	culture=icelander
+	religion=pelagic
+	2596.1.1={birth=yes}
+	2649.1.1={death=yes}
+}
+
+8000234={
+	name="Mordekaí"
+	father=8000235
+	dynasty=2501106 #Giant
+	culture=icelander
+	religion=pelagic
+	2590.1.1={birth=yes}
+	2641.1.1={death=yes}
+}
+
+8000235={
+	name="Dalbert"
+	father=8000236
+	dynasty=2501106 #Giant
+	culture=icelander
+	religion=pelagic
+	2543.1.1={birth=yes}
+	2603.1.1={death=yes}
+}
+
+8000236={
+	name="Njál"
+	mother=8000237
+	dynasty=2501106 #Giant
+	culture=icelander
+	religion=pelagic
+	2521.1.1={birth=yes}
+	2583.1.1={death=yes}
+}
+
+8000237={
+	name="Bríana"
+	female=yes
+	father=8000238
+	dynasty=2501106 #Giant
+	culture=icelander
+	religion=pelagic
+	2488.1.1={birth=yes}
+	2557.1.1={death=yes}
+}
+
+8000238={
+	name="Patrekur"
+	father=8000239
+	dynasty=2501106 #Giant
+	culture=icelander
+	religion=pelagic
+	2452.1.1={birth=yes}
+	2521.1.1={death=yes}
+}
+
+8000239={
+	name="Brján"
+	mother=8000240
+	father=8000271
+	dynasty=2501106 #Giant
+	culture=icelander
+	religion=pelagic
+	trait=giant 
+	trait=strong 
+	trait=robust 
+	2434.1.1={birth=yes}
+	2490.1.1={give_nickname nick_the_giant}
+	2499.1.1={death=yes}
+}
+
+8000240={
+	name="Melkorka"
+	female=yes
+	dynasty=2501106 #Giant
+	culture=irish
+	trait=quick 
+	trait=zealous 
+	trait=skilled_tactician 
+	trait=giant 
+	trait=gregarious
+	religion=pelagic
+	2399.1.1={birth=yes}
+	2431.1.1={add_spouse=8000271}
+	2452.1.1={give_nickname nick_the_stranger}
+	2461.1.1={death=yes}
+}
+
+8000241={
+	name="Bragi"
+	father=8000242
+	dynasty=2501005 #Bull
+	culture=icelander
+	religion=lutheran 
+	2606.1.1={birth=yes}
+	2652.1.1={death=yes}
+}
+
+8000242={
+	name="Davíð"
+	father=8000243
+	dynasty=2501005 #Bull
+	culture=icelander
+	religion=lutheran 
+	2577.1.1={birth=yes}
+	2633.1.1={death=yes}
+}
+
+8000243={
+	name="Ragnar"
+	mother=8000245
+	dynasty=2501005 #Bull
+	culture=icelander
+	religion=lutheran 
+	2545.1.1={birth=yes}
+	2600.1.1={death=yes}
+}
+
+8000244={
+	name="Asta"
+	female=yes
+	father=8000245
+	dynasty=2501005 #Bull
+	culture=icelander
+	religion=lutheran 
+	2544.1.1={birth=yes}
+	2581.1.1={death=yes}
+}
+
+8000245={
+	name="Örvar"
+	father=8000246
+	dynasty=2501005 #Bull
+	culture=icelander
+	religion=lutheran 
+	trait=cruel 
+	trait=wroth 
+	2492.1.1={birth=yes}
+	2542.1.1={give_nickname nick_elf_hater}
+	2560.1.1={death=yes}
+}
+
+8000246={
+	name="Páll"
+	father=8000247
+	dynasty=2501005 #Bull
+	culture=icelander
+	religion=lutheran 
+	2464.1.1={birth=yes}
+	2512.1.1={death=yes}
+}
+
+8000247={
+	name="Ernir"
+	father=8000248
+	dynasty=2501005 #Bull
+	culture=icelander
+	religion=lutheran 
+	2437.1.1={birth=yes}
+	2480.1.1={death=yes}
+}
+
+8000248={
+	name="Bragi"
+	dynasty=2501005 #Bull
+	culture=icelander
+	religion=lutheran 
+	2402.1.1={birth=yes}
+	2438.1.1={give_nickname nick_the_bull}
+	2452.1.1={death=yes}
+}
+
+8000249={
+	name="Teitur"
+	mother=8000250
+	dynasty=2501107 #Dragon 
+	culture=icelander
+	religion=lutheran
+	2581.1.1={birth=yes}
+	2641.1.1={death=yes}
+}
+
+8000250={
+	name="Sigurlína"
+	father=8000251
+	female=yes
+	dynasty=2501107 #Dragon 
+	culture=icelander
+	religion=pelagic
+	2556.1.1={birth=yes}
+	2618.1.1={death=yes}
+}
+
+8000251={
+	name="Sigurður"
+	father=8000252
+	dynasty=2501107 #Dragon 
+	culture=icelander
+	religion=pelagic
+	2530.1.1={birth=yes}
+	2590.1.1={death=yes}
+}
+
+8000252={
+	name="Teitur"
+	mother=8000253
+	dynasty=2501107 #Dragon 
+	culture=icelander
+	religion=pelagic
+	2498.1.1={birth=yes}
+	2562.1.1={death=yes}
+}
+
+8000253={
+	name="Hulda"
+	father=8000254
+	female=yes
+	dynasty=2501107 #Dragon 
+	culture=icelander
+	religion=pelagic
+	2471.1.1={birth=yes}
+	2536.1.1={death=yes}
+}
+
+8000254={
+	name="Snorri"
+	father=8000255
+	dynasty=2501107 #Dragon 
+	culture=icelander
+	religion=pelagic
+	2450.1.1={birth=yes}
+	2502.1.1={death=yes}
+}
+
+8000255={
+	name="Úlfhéðinn"
+	mother=8000256
+	dynasty=2501107 #Dragon 
+	culture=icelander
+	religion=pelagic
+	2423.1.1={birth=yes}
+	2478.1.1={death=yes}
+}
+
+8000256={
+	name="Valgerður"
+	father=8000258
+	female=yes
+	dynasty=2501107 #Dragon 
+	culture=icelander
+	religion=pelagic
+	2402.1.1={birth=yes}
+	2429.1.1={give_nickname nick_the_dragon}
+	2438.1.1={death=yes}
+}
+
+8000257={
+	name="Drífa"
+    father=8000258
+	female=yes
+	dynasty=2501107 #Dragon 
+	culture=icelander
+	religion=pelagic
+	2489.1.1={birth=yes}
+	2529.1.1={death=yes}
+}
+
+8000258={
+	name="Sigmar"
+	dynasty=2501107 #Dragon 
+	culture=icelander
+	religion=pelagic
+	trait=strong 
+	2367.1.1={birth=yes}
+	2388.1.1={give_nickname nick_the_strong}
+	2406.1.1={death=yes}
+}
+
+8000259={
+    name="Emil"
+	father=8000078
+	dynasty=2220467
+	culture=swedish
+	religion=lutheran
+	trait=deceitful 
+	trait=gregarious
+	trait=shrewd 
+	2654.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000260={
+	name="Jörmundur"
+	father=8000267
+	dynasty=2501100 
+	culture=icelander
+	religion=pelagic
+	trait=quick 
+    trait=midas_touched	
+	trait=legendary
+	2290.1.1={birth=yes}
+	2322.1.1={death=yes}
+}
+
+8000261={
+	name="Guðjón"
+	dynasty=2501100 
+	father=8000260
+	culture=icelander
+	religion=pelagic
+	2300.1.1={birth=yes}
+	2330.1.1={give_nickname nick_the_old}
+	2358.1.1={death=yes}
+}
+
+8000262={
+	name="Guðjón"
+	dynasty=2501100 
+	father=8000261
+	culture=icelander
+	religion=pelagic
+	2330.1.1={birth=yes}
+	2300.1.1={give_nickname nick_the_younger}
+	2361.1.1={death=yes}
+}
+
+8000263={
+	name="Emilíana"
+	dynasty=2501100 
+	female=yes
+	father=8000260
+	culture=icelander
+	religion=pelagic
+	2302.1.1={birth=yes}
+	2346.1.1={death=yes}
+}
+
+8000264={
+	name="Ísak"
+	dynasty=2501100 
+	mother=8000263
+	culture=icelander
+	religion=pelagic
+	2323.1.1={birth=yes}
+	2371.1.1={death=yes}
+}
+
+8000265={
+	name="Ríkarður"
+	dynasty=2501100 
+	father=8000264
+	culture=icelander
+	religion=pelagic
+	2349.1.1={birth=yes}
+	2421.1.1={death=yes}
+}
+
+8000266={
+	name="Torfhildur"
+	female=yes
+	dynasty=2501100 
+	father=8000262
+	culture=icelander
+	religion=pelagic
+	2354.1.1={birth=yes}
+	2388.1.1={death=yes}
+}
+
+8000267={
+	name="Kristleifur"
+	father=8000268
+	dynasty=2501100 
+	culture=icelander
+	religion=pelagic
+	trait=legendary
+	2280.1.1={birth=yes}
+	2311.1.1={death=yes}
+}
+
+8000268={
+	name="Vígfus"
+	dynasty=2501100 
+	culture=icelander
+	religion=pelagic
+	trait=legendary
+	2250.1.1={birth=yes}
+	2300.1.1={give_nickname nick_the_prophet}
+	2310.1.1={death=yes}
+}
+
+8000269={
+	name="Katrín"
+	female=yes
+	dynasty=2501082
+	culture=icelander
+	religion=pelagic
+	2332.1.1={birth=yes}
+	2370.1.1={death=yes}
+}
+
+8000270={
+	name="Vígfus"
+	father=8000258
+	dynasty=2501107 #Dragon 
+	culture=icelander
+	religion=pelagic
+	trait=strong
+	trait=giant 
+	2392.1.1={birth=yes}
+	2415.1.1={death={
+			death_reason=death_execution
+			killer=8000240
+		}
+	}
+}
+
+8000271={
+	name="Finnur"
+	father=8000270
+	dynasty=2501107 #Dragon 
+	culture=icelander
+	religion=pelagic
+	trait=strong 
+	trait=giant
+	2409.1.1={birth=yes}
+	2431.1.1={add_spouse = 8000240}
+	2459.1.1={death=yes}
+}
+
+8000272={
+	name="Anníe"
+	father=8000258
+	female=yes
+	dynasty=2501107 #Dragon 
+	culture=icelander
+	religion=pelagic
+	2393.1.1={birth=yes}
+	2428.1.1={death=yes}
+}
+
+8000273={
+	name="Sigurdrífa"
+	female=yes
+	dynasty=2501108 
+	culture=icelander
+	religion=pelagic
+	2468.1.1={birth=yes}
+	2517.1.1={death=yes}
+}
+
+8000274={
+	name="Lilja"
+	mother=8000273
+	female=yes
+	dynasty=2501108 
+	culture=icelander
+	religion=pelagic
+	294.1.1={birth=yes}
+	2533.1.1={death=yes}
 }
