@@ -204,7 +204,7 @@ high_anglican = {
 	opposite_opinion = -10
 	
 	learning = 2
-	ursuline_opinion = 5
+	mariavite_opinion = 5
 	catholic_opinion = 5
 
 	potential = { religion = high_church }
@@ -242,8 +242,8 @@ low_anglican = {
 	opposite_opinion = -10
 	
 	diplomacy = 2
-	anabaptist_opinion = 5
-	nonconformist_opinion = 5
+	calvinist_opinion = 5
+	free_church_opinion = 5
 
 	potential = { religion = high_church }
 	religious_branch = high_church
@@ -292,6 +292,135 @@ patron_the_general = {
 
 	potential = { religion = jacobin }
 	religious_branch = jacobin
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+methodist = {
+	opposites = {
+		quaker
+		low_anglican
+	}
+
+	diplomacy = 1
+	
+	mariavite_opinion = 5
+	catholic_opinion = 5
+	lutheran_opinion = 5
+	calvinist_opinion = 5
+
+	potential = { religion = free_church }
+	religious_branch = free_church
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+
+quaker = {
+	opposites = {
+		high_anglican
+		low_anglican
+	}
+
+	learning = 1
+	diplomacy = 1
+	vassal_opinion = 5
+	
+	potential = { religion = free_church }
+	religious_branch = free_church
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+	ai_honor = 10
+}
+
+baptist = {
+	opposites = {
+		high_anglican
+		broad_anglican
+	}
+
+	diplomacy = 2
+	calvinist_opinion = 5
+
+	potential = { religion = free_church }
+	religious_branch = free_church
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+branch_idealism = {
+	opposites = {
+		branch_realism
+		branch_existentialism
+		branch_romanticism
+	}
+
+	diplomacy = 2
+	intrigue = -1
+	prestige = 0.20
+	
+	opposite_opinion = -5
+
+	potential = { religion = neuhumanism }
+	religious_branch = neuhumanism
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+branch_realism = {
+	opposites = {
+		branch_idealism
+		branch_existentialism
+		branch_romanticism
+	}
+
+	martial = +1
+	learning = +1
+	calvinist_opinion = 5
+	
+	opposite_opinion = -5
+
+	potential = { religion = neuhumanism }
+	religious_branch = neuhumanism
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+branch_existentialism = {
+	opposites = {
+		branch_idealism
+		branch_romanticism
+		branch_realism
+	}
+
+	learning = 2
+	stewardship = -1
+	piety = 0.20
+	
+	opposite_opinion = -5
+
+	potential = { religion = neuhumanism }
+	religious_branch = neuhumanism
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+branch_romanticism = {
+	opposites = {
+		branch_idealism
+		branch_existentialism
+		branch_realism
+	}
+
+	stewardship = 2
+	intrigue = -1
+	vassal_opinion = 5
+	
+	opposite_opinion = -5
+
+	potential = { religion = neuhumanism }
+	religious_branch = neuhumanism
 	random = no
 	religious = yes
 	ruler_designer_cost = 0

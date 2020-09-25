@@ -1,0 +1,66 @@
+# Neuhumanism events
+namespace = neuhumanism
+
+character_event = {
+	id = neuhumanism.1	
+	desc = EVTDESC_neuhumanism_1
+	picture = GFX_evt_bishop
+	religion = neuhumanism
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+	}
+	option = {
+		name = EVTOPTA_neuhumanism_1
+		hidden_tooltip = {
+			remove_trait = broad_anglican
+			remove_trait = low_anglican
+		}
+		add_trait = high_anglican
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2	learning = 10 }
+		}
+	}
+
+	option = {
+		name = EVTOPTB_neuhumanism_1
+		hidden_tooltip = {
+			remove_trait = high_anglican
+			remove_trait = low_anglican
+		}
+		add_trait = broad_anglican
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2	learning = 5 }
+			modifier = { factor = 2	diplomacy = 5 }
+		}
+	}
+	option = {
+		name = EVTOPTC_neuhumanism_1
+		hidden_tooltip = {
+			remove_trait = broad_anglican
+			remove_trait = high_anglican
+		}
+		add_trait = low_anglican
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 1.5 diplomacy = 10 }
+		}
+	}
+	option = {
+		name = EVTOPTC_neuhumanism_1
+		hidden_tooltip = {
+			remove_trait = broad_anglican
+			remove_trait = high_anglican
+		}
+		add_trait = low_anglican
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 1.5 diplomacy = 10 }
+		}
+	}
+}

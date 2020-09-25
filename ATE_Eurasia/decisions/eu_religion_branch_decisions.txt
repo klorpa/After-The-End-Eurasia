@@ -1,0 +1,89 @@
+decisions = {	
+	change_high_church_branch = {
+		ai = no
+		
+		potential = {
+			religion = high_church
+			is_playable = yes
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			NOT = { has_character_flag = changedhighchurchbranch }
+		}
+		
+		allow = {
+			religion = high_church
+			is_playable = yes
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				character_event = { id = britain.1 }				
+			}
+			custom_tooltip = { text = TXT_change_high_church_branch }
+			set_character_flag = changedhighchurchbranch
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+	}
+	change_free_church_branch = {
+		ai = no
+		
+		potential = {
+			religion = free_church
+			is_playable = yes
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			NOT = { has_character_flag = changedfreechurchbranch }
+		}
+		
+		allow = {
+			religion = free_church
+			is_playable = yes
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				character_event = { id = britain.1 }				
+			}
+			custom_tooltip = { text = TXT_change_free_church_branch }
+			set_character_flag = changedfreechurchbranch
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+	}
+	change_neuhumanist_branch = {
+		ai = no
+		
+		potential = {
+			religion = neuhumanist
+			is_playable = yes
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			NOT = { has_character_flag = changedneuhumanistbranch }
+		}
+		
+		allow = {
+			religion = neuhumanist
+			is_playable = yes
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				character_event = { id = neuhumanist.1 }				
+			}
+			custom_tooltip = { text = TXT_change_neuhumanist_branch }
+			set_character_flag = changedneuhumanistbranch
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+	}
+}
