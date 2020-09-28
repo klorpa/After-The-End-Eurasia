@@ -123,6 +123,74 @@ central_germanic = {
 
 		modifier = default_culture_modifier
 	}
+	bavarian = {
+		graphical_cultures = { germangfx }
+
+		color = { 0.93 0.11 0.15 }
+
+
+		male_names = {
+			Adam Àdri_Adrian Àlis_Aloysius Àmbrosi_Ambrosius Andoni_Anthony Àndrees_Andrew Anstett_Anastasius Arbogast Arno_Arnold 
+			Bànni_Benedict Bàrdelmebs_Bartholomew Bàrnabas_Barnaby Bàschtiàn_Sebastian Bènes_Bernard Bernhardt_Bernard Berri_Albert Blasi_Blaise Boll Brosi_Ambrosius 
+			Claus_Nicholas 
+			Damian Dani_Daniel Deew_David Dides_Didier Diebold_Theobald Dietri_Thierry Domes_Dominic Dürri_Arthur 
+			Edgi_Edgar Erich_Eric Erwin 
+			Fehrele_Alexis Färdi_Ferdinand Fidelis Fredel_Alfred Fons_Alfonso Franz_Francis Fridrich_Frederick Fritz_Frederick Fülli_Raphael 
+			Gàmil_Camillus Gasti_Gaston Gotti_Geoffrey Gregori_Gregory Güscht_Augustus Güschtàv_Gustav 
+			Hànsi_John Hàns-Jockel_John-James Hàri_Henry Heinz Hèmes_William Hogo_Hugh Hubbes_Hubert 
+			Jacob_James Jacques_James 
+			Kajetan Kiril_Cyril Klodi_Claudius Konni_Conrad Kreschti_Christopher Krischànn_Christian 
+			Lehmann Lips_Philip Lollo_Leo Lorenz_Lawrence Lüï_Louis Lüssi_Lucian Lutz Lüx_Felix 
+			Maderla Mànni_Hermann Marki_Mark Màrti_Martin Martzel_Marcel Mathias_Matthew Màx_Maximus Mechel_Michael Médérick Michael Milla_Emil Mundi_Edmund 
+			Nàndel_Ferdinand Nappi_Napoleon Neschtel_Ernest Nicki_Nicholas Noldi_Arnold 
+			Ogeschtin_Augustine Oski_Oscar Otti_Otto 
+			Pantrion Pates_Patrick Paul Pelt_Hippolyte Peter Piäri_Peter Poldi_Leopold 
+			Quirin 
+			Rèmes_Raymond Riches_Richard Roald Robes_Robert Roderich_Roderick Roll_Roland Roman Rönni_Renatus Roschi_Roger Rüedi_Rudolf 
+			Salli_Solomon Sälla_Marcel Samuel Säpp_Joseph Schàcki_James Schägel_James Schàmbediss_John-Baptist Schàngi_John Schàntz_Constans Schàrel_Charles Scheres_Gerard Schilbert_Gilbert Schilles_Gilles Schorsch_George Schossef_Joseph Schtaffi_Stephen Schtani_Stanislaus Schüliä_Julian Schüll_Jules Schülli_Justin Sergel_Sergius Silväri_Sylvester 
+			Thebs_Matthew Thedor_Theodore Theng_Anthony Tommes_Thomas 
+			Üalri_Ulrich Ürwes_Urban Üschen_Eugene 
+			Veit_Guy Velten_Valentine Vickes_Victor Vinzans_Vincent Viox Vix_Guy 
+			Walter Willi_William 
+			Xàndri_Alexander Xàveri_Xavier 
+			Zilliox_Cyriacus Zimbrian Zix_Sixtus 
+		}
+		female_names = {
+			Àdi_Adelaide Àliss_Alice Ànni_Anne Aplung Àschali_Angela Aurelia 
+			Barbala_Barbara Bàrwel Bätti_Elizabeth Beate_Beatrice Berta_Bertha Bibiana_Vivian Breinel Britt_Brigit 
+			Catharina_Catherine Chreschtin_Christina 
+			Dennis_Denise 
+			Edda Edel Elsa Elsbäth_Elizabeth Emeli_Emily Emma Emmele Eva_Eve 
+			Finni_Josepha Flora Fränzele_Françoise Frommet 
+			Gabi_Gabriella Gisela Gretel_Margaret 
+			Hedwige_Hedwig Heidi_Adelaide 
+			Jätti_Henrietta Jendellé Johanna_Joan 
+			Karmel Katel_Catherine Klärel_Clara Klotilde_Clothilde 
+			Leni_Helen Leyan_Lea Lidi_Lydia Liesel_Elizabeth Lisi_Elisa Lizzi_Alice Lotti_Charlotte Lüss_Lucia Luwisla_Louise 
+			Màdlung_Magdalene Maite_Maria-Theresa Malgen Margaritha_Margaret Maria_Mary Marinschen_Marianne Màrtel_Martha Mätz_Matilda Mindelé Minnele Misi_Mary-Louise Monika 
+			Nanni_Antonia Nànni_Joan-Mary Neesi_Agnes 
+			Oda Olivia 
+			Reesi_Theresa Reisel Rosala_Rosalie Rosi_Rose 
+			Salmel_Salome Schann_Joan Schättla_Georgia Scheinel Schossefin_Josepha Silli_Cecilia Siwi_Sylvia Süsi_Susan 
+			Tildi_Matilda Trädla_Gertrude 
+			Üddele Ursse Üscheni_Eugenia Üschi_Ursula 
+			Vögelé Vreni_Veronica 
+			Wàlri_Valeria Wätti_Yvette Wendel_Céline Wonni_Yvonne 
+		}
+			
+		from_dynasty_prefix = "vun "
+
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
 	low_saxon = {
 		graphical_cultures = { germangfx }
 		
