@@ -909,9 +909,21 @@
 1801008 = { name="Bradshaw" culture=scouse }
 
 1848000 = { name="Klein" culture=rhenish}
-1848001 = { name="Geyer" culture=rhenish}
+1848001 = { name="Geyer" culture=rhenish
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1848002 = { name="Hoffmann" culture=rhenish}
-1848003 = { name="Nguyen-Bloch" culture=rhenish used_for_random = no}
+1848003 = { name="Mann" culture=rhenish}
 1848004 = { name="Pfeiffer" culture=rhenish}
 1848005 = { name="Reichert" culture=rhenish}
 1848006 = { name="Holz" culture=rhenish}
@@ -981,7 +993,19 @@
 1848070 = { name="Leybold" culture=rhenish}
 1848071 = { name="Kramer" culture=rhenish}
 1848072 = { name="Hoch" culture=rhenish}
-1848073 = { name="Becker" culture=rhenish}
+1848073 = { name="Becker" culture=rhenish
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1848074 = { name="Conradi" culture=rhenish}
 1848075 = { name="Dröse" culture=rhenish}
 1848076 = { name="Laux" culture=rhenish}
@@ -1038,8 +1062,6 @@
 1848127 = { name="Fuhrmann" culture=rhenish}
 1848128 = { name="Busch" culture=rhenish}
 1848129 = { name="Specht" culture=rhenish}
-1848130 = { name="Mann" culture=rhenish}
-
 
 1853000 = { name="Mishin" culture=chornomorsky}
 1853001 = { name="Grigorovich" culture=chornomorsky}
@@ -1902,7 +1924,19 @@
 1947000 = { name="Faber" culture=swabian}
 1947001 = { name="Nagel" culture=swabian}
 1947002 = { name="von Hohenheim" culture=swabian}
-1947003 = { name="Weissbrunner" culture=swabian}
+1947003 = { name="Weissbrunner" culture=swabian
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1947004 = { name="Beck" culture=swabian}
 1947005 = { name="Hastenteufel" culture=swabian}
 1947006 = { name="Straub" culture=swabian}
@@ -2021,8 +2055,32 @@
 1947119 = { name="Weller" culture=swabian}
 1947120 = { name="Schmieder" culture=swabian}
 
-1948000 = { name="Wulf" culture=ossi}
-1948001 = { name="Ampelmann" culture=ossi}
+1948000 = { name="Wulf" culture=ossi
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1948001 = { name="Ampelmann" culture=ossi
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1948002 = { name="Wegener" culture=ossi}
 1948003 = { name="Podolski" culture=ossi}
 1948004 = { name="Delbrück" culture=ossi}
@@ -2184,7 +2242,19 @@
 1949028 = { name="Lochner" culture=bavarian}
 1949029 = { name="Händel" culture=bavarian}
 1949030 = { name="Stuhlfauth" culture=bavarian}
-1949031 = { name="Stromer" culture=bavarian}
+1949031 = { name="Stromer" culture=bavarian
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1949032 = { name="Waldman" culture=bavarian}
 1949033 = { name="Mästlin" culture=bavarian}
 1949034 = { name="Reger" culture=bavarian}
@@ -10770,8 +10840,6 @@
 2038218 = { name="Zarrouk" culture=francarabe }
 2038219 = { name="Zribi" culture=francarabe }
 
-
-
 2039001 = { name="Meyer" culture=alsatian }
 2039002 = { name="Müller" culture=alsatian }
 2039003 = { name="Schmitt" culture=alsatian }
@@ -10972,6 +11040,19 @@
 2039198 = { name="Seytel" culture=alsatian }
 2039199 = { name="Spiehler" culture=alsatian }
 2039200 = { name="Billiger" culture=alsatian }
+2039201 = { name="Nguyen-Bloch" culture=alsatian used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 2058000 = { name="Coudenhove" culture=flemish}
 2058001 = { name="van Heirbroek" culture=flemish}
@@ -11992,7 +12073,19 @@
 2335080 = { name="Bliksetrud" culture="ostlending" }
 2335081 = { name="Børsheim" culture="ostlending" }
 
-2220060 = { name="Luva" culture="vestlending" }
+2220060 = { name="Luva" culture="vestlending" 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 12
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2220061 = { name="Linge" culture="vestlending" }
 2220062 = { name="Huitfeldt" culture="vestlending" }
 2220063 = { name="Ylvisåker" culture="vestlending" }
@@ -12564,7 +12657,19 @@
 2220640 = { name="Jakobsen" culture="kalaaleq" }
 
 2223000 = { name="Stavad" culture="danish" }
-2223001 = { name="Sønderborg" culture="danish" }
+2223001 = { name="Sønderborg" culture="danish" 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 12
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2223002 = { name="Lomborg" culture="danish" }
 2223003 = { name="Utzon" culture="danish" }
 2223004 = { name="Tønnies" culture="danish" }
@@ -12685,7 +12790,19 @@
 2223121 = { name="Vullum" culture="danish" }
 2223122 = { name="Blom" culture="danish" }
 
-2220700 = { name="Báltu" culture="sami" }
+2220700 = { name="Báltu" culture="sami" 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 12
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2220701 = { name="Luhkkár" culture="sami" }
 2220702 = { name="Kemi" culture="sami" }
 2220703 = { name="Iskurasjok" culture="sami" }
