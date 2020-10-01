@@ -1941,7 +1941,19 @@
 1947005 = { name="Hastenteufel" culture=swabian}
 1947006 = { name="Straub" culture=swabian}
 1947007 = { name="Schopper" culture=swabian}
-1947008 = { name="von Hohenzollern" culture=swabian}
+1947008 = { name="von Hohenzollern" culture=swabian
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1947009 = { name="Schmidt" culture=swabian}
 1947010 = { name="Pojt" culture=swabian}
 1947011 = { name="Amendt" culture=swabian}
@@ -4236,7 +4248,19 @@
 2009033 = { name="Guérin" culture=parisian }
 2009034 = { name="Boyer" culture=parisian }
 2009035 = { name="Garnier" culture=parisian }
-2009036 = { name="Chevalier" culture=parisian }
+2009036 = { name="Chevalier" culture=parisian 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2009037 = { name="François" culture=parisian }
 2009038 = { name="Legrand" culture=parisian }
 2009039 = { name="Gauthier" culture=parisian }
@@ -4417,12 +4441,24 @@
 2009213 = { name="de Wendel" culture=parisian }
 2009214 = { name="Benaïm" culture=parisian }
 2009215 = { name="Colonna-Walewski" culture=parisian used_for_random = no }
-2008216 = { name="Fekir" culture=parisian used_for_random = no }
-2008217 = { name="Carrépoint" culture=parisian used_for_random = no }
-2008218 = { name="Picquard" culture=parisian used_for_random = no }
-2008219 = { name="Arbalèste" culture=parisian used_for_random = no }
-2008220 = { name="de l'Étoile" culture=parisian used_for_random = no }
-2008221 = { name="Ferry" culture=parisian }
+2009216 = { name="Georgoceau" culture=parisian used_for_random = no 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2009217 = { name="Carrépoint" culture=parisian used_for_random = no }
+2009218 = { name="Picquard" culture=parisian used_for_random = no }
+2009219 = { name="Arbalèste" culture=parisian used_for_random = no }
+2009220 = { name="de l'Étoile" culture=parisian used_for_random = no }
+2009221 = { name="Ferry" culture=parisian }
 
 2010001 = { name="Abgrall" culture=breton }
 2010002 = { name="Abjean" culture=breton }
@@ -10839,6 +10875,7 @@
 2038217 = { name="Zaouche" culture=francarabe }
 2038218 = { name="Zarrouk" culture=francarabe }
 2038219 = { name="Zribi" culture=francarabe }
+2038220 = { name="Fekir" culture=francarabe used_for_random = no }
 
 2039001 = { name="Meyer" culture=alsatian }
 2039002 = { name="Müller" culture=alsatian }
