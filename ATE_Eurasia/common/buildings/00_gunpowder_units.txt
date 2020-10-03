@@ -1,0 +1,141 @@
+#level 5 siege and mil org. Intended to be powerful units, that slowly build up over time. Only one special unit time per holding is supported.
+castle = {
+	ca_firing_range_1 = {
+		desc = ca_firing_range_1_desc
+		show_as_percent = no
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 TECH_RECRUITMENT = 5 TECH_SIEGE_EQUIPMENT = 5 }
+		gold_cost = 100
+		build_time = 365
+		handgunners = 40
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_firing_range_2 = {
+		desc = ca_firing_range_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 TECH_RECRUITMENT = 6 TECH_SIEGE_EQUIPMENT = 6 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_firing_range_1
+		gold_cost = 120
+		build_time = 547
+		handgunners = 60
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.2
+	}
+	ca_firing_range_3 = {
+		desc = ca_militia_barracks_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 TECH_RECRUITMENT = 7 TECH_SIEGE_EQUIPMENT = 7 }
+		upgrades_from = ca_firing_range_2
+		gold_cost = 200
+		build_time = 1095
+		handgunners = 80
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 1.2
+	}
+	ca_firing_range_4 = {
+		desc = ca_militia_barracks_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 TECH_RECRUITMENT = 8 TECH_SIEGE_EQUIPMENT = 8 }
+		upgrades_from = ca_firing_range_3
+		gold_cost = 300
+		build_time = 1095
+		handgunners = 100
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+}
+city = {
+	ct_firing_range_1 = {
+		desc = ct_firing_range_1_desc
+		show_as_percent = no
+		trigger = { TECH_CITY_CONSTRUCTION = 0 TECH_RECRUITMENT = 5 TECH_SIEGE_EQUIPMENT = 5 }
+		gold_cost = 100
+		build_time = 365
+		handgunners = 40
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	ct_firing_range_2 = {
+		desc = ct_firing_range_1_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 1 TECH_RECRUITMENT = 6 TECH_SIEGE_EQUIPMENT = 6 }
+		prerequisites = { ct_wall_1 }
+		upgrades_from = ct_firing_range_1
+		gold_cost = 120
+		build_time = 547
+		handgunners = 60
+		ai_creation_factor = 99
+
+		extra_tech_building_start = 2.2
+	}
+	ct_firing_range_3 = {
+		desc = ct_militia_barracks_3_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 5 TECH_RECRUITMENT = 7 TECH_SIEGE_EQUIPMENT = 7 }
+		upgrades_from = ct_firing_range_2
+		gold_cost = 200
+		build_time = 1095
+		handgunners = 80
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 1.2
+	}
+	ct_firing_range_4 = {
+		desc = ct_militia_barracks_3_desc
+		trigger = { TECH_CITY_CONSTRUCTION = 7 TECH_RECRUITMENT = 8 TECH_SIEGE_EQUIPMENT = 8 }
+		upgrades_from = ct_firing_range_3
+		gold_cost = 300
+		build_time = 1095
+		handgunners = 100
+		ai_creation_factor = 98
+
+		extra_tech_building_start = 0.5
+	}
+}
+temple = {
+	tp_firing_range_1 = {
+		desc = tp_firing_range_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 TECH_RECRUITMENT = 5 TECH_SIEGE_EQUIPMENT = 5 }
+		gold_cost = 100
+		build_time = 365
+		handgunners = 40
+		ai_creation_fatpor = 100
+		
+		extra_tech_building_start = 1.0
+	}
+	tp_firing_range_2 = {
+		desc = tp_firing_range_2_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 1 TECH_RECRUITMENT = 6 TECH_SIEGE_EQUIPMENT = 6 }
+		prerequisites = { tp_wall_1 }
+		upgrades_from = tp_firing_range_1
+		gold_cost = 120
+		build_time = 547
+		handgunners = 60
+		ai_creation_fatpor = 99
+
+		extra_tech_building_start = 2.2
+	}
+	tp_firing_range_3 = {
+		desc = tp_firing_range_3_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 5 TECH_RECRUITMENT = 7 TECH_SIEGE_EQUIPMENT = 7 }
+		upgrades_from = tp_firing_range_2
+		gold_cost = 200
+		build_time = 1095
+		handgunners = 80
+		ai_creation_fatpor = 98
+
+		extra_tech_building_start = 1.2
+	}
+	tp_firing_range_4 = {
+		desc = tp_firing_range_4_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 7 TECH_RECRUITMENT = 8 TECH_SIEGE_EQUIPMENT = 8 }
+		upgrades_from = tp_firing_range_3
+		gold_cost = 300
+		build_time = 1095
+		handgunners = 100
+		ai_creation_fatpor = 98
+
+		extra_tech_building_start = 0.5
+	}
+}

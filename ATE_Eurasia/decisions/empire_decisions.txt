@@ -1,0 +1,99 @@
+decisions = {
+	form_benelux = {
+		is_high_prio = yes
+		only_playable = yes
+		
+		potential = {
+			is_alternate_start = no
+			NOT = { has_global_flag = benelux_formed }
+			independent = yes
+			OR = {
+				culture = frisian
+				culture = dutch
+				culture = flemish
+				culture = walloon
+				culture = luxembourger
+			}
+			OR = {
+				has_landed_title = k_netherlands
+				has_landed_title = k_belgium
+			}
+			NOT = { tier = EMPEROR }
+			e_europa = {
+				has_holder = no
+			}
+		}
+		allow = {
+			is_adult = yes
+			prisoner = no
+			NOT = { is_incapable = yes }
+			prestige = 1000
+			scaled_wealth = 1.5
+			war = no
+			OR = {
+				primary_title = { lower_tier_than = KING }
+				primary_title = { title = k_netherlands }
+				primary_title = { title = k_belgium }
+				primary_title = { title = k_luxembourg }
+			}
+		}
+		effect = {
+			activate_title = { title = k_benelux status = yes }
+			primary_title = {
+				k_benelux = {
+					grant_title = ROOT
+					copy_title_laws = PREV
+				}
+			}
+			scaled_wealth = -1.5
+			if = {
+				limit = { has_nickname = no }
+				give_nickname = nick_the_great
+			}
+			d_friesland = {
+				de_jure_liege = k_netherlands
+			}
+			d_holland = {
+				de_jure_liege = k_netherlands
+			}
+			d_gelre = {
+				de_jure_liege = k_netherlands
+			}
+			d_north_brabant = {
+				de_jure_liege = k_netherlands
+			}
+			d_flanders = {
+				de_jure_liege = k_belgium
+			}
+			d_wallonia = {
+				de_jure_liege = k_belgium
+			}
+			d_wallonia = {
+				de_jure_liege = k_belgium
+			}
+			k_benelux = {
+				de_jure_liege = e_europa
+			}
+			k_benelux = {
+				ROOT = { make_primary_title = yes }
+			}
+			k_netherlands = {
+				destroy_landed_title = THIS
+			}
+			k_belgium = {
+				destroy_landed_title = THIS
+			}
+			hidden_tooltip = {
+				activate_title = { title = k_netherlands status = no }
+				activate_title = { title = k_belgium status = no }
+			}
+			set_global_flag = benelux_formed
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
