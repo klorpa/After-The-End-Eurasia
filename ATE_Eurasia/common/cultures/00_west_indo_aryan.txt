@@ -1,12 +1,13 @@
-west_indo-aryan = {
-	graphical_culture = { indiangfx }
+west_indo_aryan = {
+	graphical_cultures = { indiangfx }
 	
 	bhiji = {
-		graphical_culture = { indiangfx }
+		graphical_cultures = { indiangfx }
 		
-		color = { .5, .7, .3}
+		color = { 0.5 0.7 0.3 }
 		
-		male_names = { Amryo Bapu Bilado Bijlo Bawo Bungio Bhangio Babio Chipa Chedadyo Dedko 
+		male_names = { 
+			Amryo Bapu Bilado Bijlo Bawo Bungio Bhangio Babio Chipa Chedadyo Dedko 
 		Devlo_Devadatta Damania Dhorio_Dhavala Dungario Fakir_Faqir Funja Gimlo Gajlyo Gono_Govinda 
 		Heptyo Hindio Indio_Indra Jamdyo Jethyo Kakio Kutro Kotwal Khojyo Kachkyo Khetyo Kunji Lalji 
 		Laxman_Laksmana Mansur Moti Nawadyo Margyo Mamdo_Muhammad Moylo Nawsyo Nurio Nario Naktyo 
@@ -14,18 +15,20 @@ west_indo-aryan = {
 		Surio Tetio Tulio Umedyo Ughranio Vaghadio Vesto
 		}
 		
-		female_names = { Amli Alu Awansi Bidi Bhani Babli Cuhdi Damani Dhani_Dhanika Dungari Fendi 
+		female_names = { 
+			Amli Alu Awansi Bidi Bhani Babli Cuhdi Damani Dhani_Dhanika Dungari Fendi 
 		Gimli Gunja Gomsuri Gisu Gandi Hendra Homli Jumla Jeta_Jitya Jhili Kotwali Lali Moti Mani 
 		Malu Molyi Nawi Nura Nani Nakli Puni_Punya Pitli Toru Surji Siktl Tekri Vesti Visli Vanjari 
 		Velu Veju Yeta
 		}
 	}
 	gujarati = {
-		graphical_culture = { indiangfx }
+		graphical_cultures = { indiangfx }
 		
-		color = { .4, .5, .1}
+		color = { 0.4 0.5 0.1 }
 		
-		male_names = { Abishek_Abisheka Ajay_Ajaya Akshay Anand_Ananda Anil_Anila Anikt_Ankita Arjun_Arjuna 
+		male_names = { 
+			Abishek_Abisheka Ajay_Ajaya Akshay Anand_Ananda Anil_Anila Anikt_Ankita Arjun_Arjuna 
 		Arun_Aruna Ashis_Ashisa Ashok_Ashoka Brijesh_Brijesha Cetan Darshan_Darshana 
 		Dhaval_Dhavala Dilip_Dilipa Dinesh_Dinesha Dip Dipak_Dipaka Harish_Harisha Harshal 
 		Hira Jagdish_Jagdisha Jay_Jaya Jayesh_Jayisha Jitendra Kamal_Kamala Karan Kiran_Kirana Kishan 
@@ -35,25 +38,30 @@ west_indo-aryan = {
 		Rohit_Rohita Sachin Samir Sandip_Sandipa Sanjay_Sanjaya Siddharth_Siddhartha Subash 
 		Suraj_Surya Vikram_Vikrama Vivek Yash_Yashas
 		}
-		female_names = { Avani Adasi Ahlada Aladita Ahna Ahni Aila Akshata Anji Anjali Arani Arna Bisa 
+		
+		female_names = { 
+			Avani Adasi Ahlada Aladita Ahna Ahni Aila Akshata Anji Anjali Arani Arna Bisa 
 		Bhagni Carvangi Diva Dora Edha Homi Hira Irita Ishta Jami Japa Jatini Java Jhalari Hallika 
 		Kara Kiran_Kirana Mahini Mahita Marjan_Marjani Marula Mittal Mriduna Nini Nisha Ojasa Okaja 
 		Priti Puja Racana Radhika_Radha Shriya Shweta Sonal_Suvarna Tejal_Tejas Varsha Yuni Yuva
 		}
 	}
 	punjabi = {
-		graphical_culture = { indiangfx }
+		graphical_cultures = { indiangfx }
 		
-		color = { .3, .3, .3}
+		color = { 0.3 0.3 0.3 }
 		
-		male_names = { Ajit_Ajita Aman Amit_Amita Anil Arif Arun_Aruna Bhawandip Dip Dipak_Dipaka 
+		male_names = { 
+			Ajit_Ajita Aman Amit_Amita Anil Arif Arun_Aruna Bhawandip Dip Dipak_Dipaka 
 		Dinesh_Dinesha Esh_Esha Falak Gunit Hasan Hardin Harim Hemant_Hemanta Jagmit Jyani Kamal 
 		Karan_Karana Kumar_Kumara Lav_Lava Mahim_Mahima Manpal_Manapala Manish_Manisha Manoj_Manoja 
 		Marj_Marja Nanak Nazir Osha Pankaj_Pankaja Raj_Raja Rajesh Rakesh_Rakesha Ram_Rama Rana Ricik 
 		Sandip_Sandipa Sajiv_Sanjiva Shekkar Sunil_Sunila Taimur_Timur Taran Vijay_Vijaya Vaj_Vaja 
 		Yash_Yashas Zahir 
-			}
-		female_names = { Ahlada Astiki Adasi Aladita Aila Akshata Anji Araga Arna Atti Avashya Bhagni 
+		}
+		
+		female_names = { 
+			Ahlada Astiki Adasi Aladita Aila Akshata Anji Araga Arna Atti Avashya Bhagni 
 		Bimla Diva Edha Edhita Eha Ema Ena Etasha Falisha Farzana_Farzaneh Fulli Ghazala Gita Gurlin 
 		Gurvin_Guruvina Hardiki Harim Hira Hina_Hinna Homi Hradini Ishta Ishtu Jami Jasbir Jaslin 
 		Jivan Josha Kara Karvi Kayika Keta Ketaki Maheshi_Maheshiva Mahie Mahini Mahita Marjan_Marjani 
@@ -62,11 +70,12 @@ west_indo-aryan = {
 			}
 	}
 	rajasthani = {
-		graphical_culture = { indiangfx }
+		graphical_cultures = { indiangfx }
 		
-		color = {.2, .2, .2}
+		color = { 0.2 0.2 0.2 }
 		
-		male_names = { Abhir_Abhira Atma_Atman Abhay Abhimanyu Adarsh Aditya Ajit_Ajita Amanprit 
+		male_names = { 
+			Abhir_Abhira Atma_Atman Abhay Abhimanyu Adarsh Aditya Ajit_Ajita Amanprit 
 		Arjun_Arjuna Bajrang  Baldeb_Baldeva Balvant_Balavant Bhanuprasad Bharat_Bharata 
 		Bhudev_Bhudeva Biju Canda_Candra Devendra Devilal Gajendra Gokul Gopaldas Gopal_Gopala 
 		Hanuman Gyan Hari Hariram Jagat Jagdish_Jagdisha Jamuna_Yamuna Jawahar Kailash Kalyan
@@ -75,7 +84,9 @@ west_indo-aryan = {
 		Rajendra_Raja Rajesh Rajyashri Ratan Rushi_Rishi Satish Saurabh Suraj_Surya Udai Vir 
 		Vijay_Vijaya Vikrant_Vikrama Vishwa_Vishva Vivek
 		}
-		female_names = { Arti_Arati Abhilasha Aishwarya_Aishvarya Alka Amba Anita Anju Asha Babita 
+		
+		female_names = { 
+			Arti_Arati Abhilasha Aishwarya_Aishvarya Alka Amba Anita Anju Asha Babita 
 		Barkha Basanti_Vasanti Bela Bhagwati_Bhagavati Bhagyashri Bhanu Bharti Bhavana Bijli Bimla 
 		Bindiya Bindu Cakorti Cameli Campa Candi Candni Cetna_Cetana Chaya Damini Dipa Dipali Dipika 
 		Dipti Dharmini Divya Drukilla Durgesh Ila Ekta Fullara Ganga Garima Gita Gitanjali Girja 
@@ -84,20 +95,25 @@ west_indo-aryan = {
 		Malti_Malati Mamta Mandakini Managala Maju Manorama Mansi Maya Mina Minakshi Minu Megha Naina 
 		Nadini Nilam Padma Puja Payal Radhika_Radha Rakhi Rohini Sweta Usha_Ushas Vimla
 		}
+	}
 	sindhi = {
-		graphical_culture = { indiangfx }
+		graphical_cultures = { indiangfx }
 		
-		color = { .2, .3, .5}
+		color = { 0.2 0.3 0.5 }
 		
-		male_names = { Abdul Ajith Abdus Abyad Aidh Afdal Ali Allama Anas Anasah Arjan Arshaq Asif 
+		male_names = { 
+			Abdul Ajith Abdus Abyad Aidh Afdal Ali Allama Anas Anasah Arjan Arshaq Asif 
 		Atul Ashish Azraq Bahhath Bahlawan Bajala Balil Barrak_Barraq Bhai Bhagat_Bhagata Bulo 
 		Chandra Candru Damin Dakhil Damir Damura Dawlah Devakumar_Devakumara Devadas_Devadasa 
 		Dipak_Dipaka Farafisa Fujai Hari Hitin Ghulam Gopaldas Gulu Iqbal Kaibr Kartar Kirat Krishna 
 		Jivatram Lal Mohammad_Muhammad Raj_Raja Rajiv_Rajiva Rasul Ruplo Tarun Sajamal_Sajamala Shah 
 		Sonu Syed_Sayyid Vishal Vasudev_Vasudeva Yusef
-			}
-		female_names = { Abira Abida Abish Abquarah Alimah Afira Amila Amina Alia Ariti Atiqa Babita 
+		}
+		female_names = { 
+			Abira Abida Abish Abquarah Alimah Afira Amila Amina Alia Ariti Atiqa Babita 
 		Badiya Candra Dujana Faiqa Fakhta Fakiha Fasiha Fasila Kamna Gulfeshan Habus_Haboos Hajjah 
 		Hajna Hakimah Ibtihal Iffah Jaimala Jumayamah Hansika Humaira Indiara Mira Lila Rani Roshan 
 		Sabiqah Sadhana Sakina Sonam Sonakshi Sohai Sumaira Sundri Suceta Tamanna Urusa
 		}
+	}
+}

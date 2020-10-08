@@ -369,7 +369,7 @@ berber = {
 		modifier = default_culture_modifier
 	}	
 }
-egyptian = { 
+egyptian_group = { 
 	graphical_cultures = { muslimgfx }
 
 	sudani = {
@@ -413,6 +413,21 @@ egyptian = {
 			Tahani
 			Yassmin
 			Zeinab_Zaynab
+		}
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes 
+	}
+	
+	egyptian = {
+		graphical_cultures = { berbergfx arabicgfx muslimgfx }
+		
+		color = { 0.4 1.0 0.6 }
+		
+		male_names = {
+		}
+		female_names = {
 		}
 		
 		male_patronym = "ibn "
@@ -470,14 +485,29 @@ arabic = {
 		female_patronym = "bint "
 		prefix = yes 
 	}
+	yemeni = {
+		graphical_cultures = { westafricangfx arabicgfx muslimgfx }
+		
+		color = { 0.5 0.7 0.4 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+
+		male_patronym = "bin "
+		female_patronym = "bint "
+		prefix = yes 
+	}
 }
-maghrebi = { 
+maghrebi = {
 	graphical_cultures = { muslimgfx }
 	
 	algerian = {
 		graphical_cultures = { muslimgfx arabicgfx }
 
-		color = { 0 0.38 0.2 }
+		color = { 0.0 0.38 0.2 }
 
 		male_names = {
 			Abbès Abdallah Abdechahid Abdelaziz_Abdul-Aziz Abdelbassir Abdeldjalil Abdelfettah_Abdelfattah Abdelghafour Abdelghani Abdelhadi Abdelhak Abdelhakim Abdelhalim Abdelkader_Abdul-QadirAbdelkarim Abdellatif Abdelmadjid Abdelmalik_Abdelmalek Abdelmoumen Abdelwaheb Abdenour Abderrahim Abderrazek Abdessalem_Abdessalam Abed Abou Bakr_Abu-Bakr Achik Achir Achour Achraf_Ashraf Adam Adel Adib Adil Adnane Afdal Ahmed Aissa_Jesus Akli Akmar Alaeddine_Alaeddin Ali Allal Allaoua Amar Amine_Amin Amir Amjad Anas Anis Anouar_Anwar Antar Araslane Assim Assad Atmane Ayachi Ayoub_Job Azhar Azzim Azziz 
@@ -545,7 +575,7 @@ maghrebi = {
 		modifier = default_culture_modifier
 	}	
 	
-	moroccan = { 
+	moroccan = {
 		graphical_cultures = { muslimgfx arabicgfx }
 
 		color = { 0.76 0.15 0.18 }
@@ -615,7 +645,7 @@ maghrebi = {
 		modifier = default_culture_modifier
 	}	
 	
-	tunisian = { 
+	tunisian = {
 		graphical_cultures = { muslimgfx arabicgfx }
 
 		color = { 0.92 0.77 0.25 }
@@ -665,6 +695,36 @@ maghrebi = {
 			Wafa Waseela Wided Wiem 
 			Yasmine_Jasmine Yosra 
 			Zahra Zeina Zeineb_Zaynab Zohra 
+		}
+		from_dynasty_prefix = "mn "
+		
+		male_patronym = "ben "
+		female_patronym = "bint "
+		prefix = yes
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}	
+	libyan = {
+		graphical_cultures = { muslimgfx arabicgfx }
+
+		color = { 0.7 0.5 0.2 }
+
+		male_names = {
+		
+		}
+		female_names = {
+		
 		}
 		from_dynasty_prefix = "mn "
 		
