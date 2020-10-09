@@ -25,6 +25,56 @@ finno_ugric = {
 
 		modifier = default_culture_modifier
 	}
+	
+	karelian = { #Karjalainen
+		graphical_cultures = { ugricgfx }
+		
+		color = { 0.4 0.7 0.85 }
+
+		male_names = {
+			Antti Aleksanteri_Alexander Alfred Arto Ari Aale Aulis Armi Akima_Joachim Abroi_Abraham Aakko_Aaron Arijoutsi
+			Borissa_Boris 
+			Davida_David Duanila_Daniel Djemi 
+			Erno Einari_Einar Everkki Eirikki_Eric
+			Filatkie Fadei_Thaddeus 
+			Grigo_Gregory 
+			Hillar Hinterikki_Henry Homa_Thomas Herppa 
+			Ilkka Ilja_Elijah Isakka_Isaac Iivana_Johannes
+			Jarmo Juhani_John Jorma Jaakko_Jacob Joro Joska Jeru_Jeremiah
+			Koop Kimmo Kuismas Kostja_Constantine Kormi_Cornelius Karppa
+			Lauri_Laurence Lalli Lutikka_Louis
+			Martti_Martin Manu_Magnus Mika_Michael Markki_Marcus
+			Nikolai_Nicholas
+			Oskari_Oscar Olli Onni_Andrew Olukka Ohvana
+			Porissa_Boris
+			Reino 
+			Sten Seppo Santtu-Matias Sakarja_Zachary Siitäri Siidorko Semjon_Simon Sasu_Salomon
+			Tatu 
+			Urho Unkka Uljaanus_Julian
+			Vesa Vilho Väinö Viljam_William Vänttä_Väinämöinen Vilppo_Phillip
+		}
+		female_names = {
+			Alisa Audotja Ainikki 
+			Eeva_Eve Elikka Eliska Elkko Elkku
+			Heta 
+			Irinja
+			Jela Jelenä Joutsi 
+			Kaija Kakko Kateri_Catherine Katuska Kyllikki Kyllätty Kseniya
+			Lemmingöine Lemmitty
+			Marjatta_Mary Mielikki Merikirja Maima
+			Olja Oljoi Opri 
+			Piatta Päiviö Päiväkkä Paraskovia
+			Riitta Raija 
+			Tarja Tauno Tynskä Tyykkö Tyyskä Tähetär Toija Toivo 
+			Uljaana 
+			Varvara Varvoi Vetora Valittu
+			Sylvi Suovakko 
+		}
+		from_dynasty_prefix = "of "
+
+		modifier = default_culture_modifier
+	}
+	
 	sami = {
 		graphical_cultures = { ugricgfx }
 		
@@ -43,6 +93,53 @@ finno_ugric = {
 
 		modifier = default_culture_modifier
 	}
+	
+	seto = {
+		graphical_cultures = { ugricgfx }
+		
+		color = { 0.4 0.75 0.85 }
+
+		male_names = {
+			Andres_Andrew Ahto Axel_Aksel Antti Ain Aare_Aaron Arno Aarne_Arne
+			D 
+			Einar_Einar
+			Feliks_Felix
+			G 
+			H
+			Ilja_Elijah Imre_Emmerich
+			Jakob Jüri Jyrki
+			Kalle_Charles
+			Mart Margus_Marcus 
+			Nikolai_Nicholas
+			Oleg_Helge
+			Peko Priit_Frederick Pulga Paul_Paul 
+			Reigo Rein Raul Raivo
+			Toomas_Thomas Tanel_Daniel
+			Vello Volli
+		}
+		female_names = {
+			Anne Annela
+			B 
+			Darja_Daria
+			Elina Eve_Eve Egle
+			F 
+			G 
+			Hilana Helen
+			Irina
+			Jevdokia
+			Karin 
+			Laivi Linda 
+			Miku Martina Merily Merju Merike
+			Ülle Ulvi
+			Paraskeva Piret
+			Tiina Triinu
+			Svetlana
+		}
+		from_dynasty_prefix = "of "
+
+		modifier = default_culture_modifier
+	}
+	
 	nenet = {
 		graphical_cultures = { ugricgfx }
 		
