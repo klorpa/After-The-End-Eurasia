@@ -20,6 +20,12 @@ character_event = {
 	option = {
 		450 = {
 			add_province_modifier = { name = landmark_heidelberg_belt duration = -1 }
+			}
+		1520 = {
+			add_province_modifier = { name = landmark_pech_de_bugarach duration = -1 }
+			}
+		1525 = {
+			add_province_modifier = { name = landmark_capbreton_gouf duration = -1 }
 			} 
 			set_global_flag = landmarks_set
 	}
