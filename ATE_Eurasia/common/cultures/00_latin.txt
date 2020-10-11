@@ -482,56 +482,47 @@ latin = {
 		mat_grm_name_chance = 40
 		mother_name_chance = 5
 	}
-	lombard = { #full lombard larp #don't tell them the lombards are dead
+	lombard = { #actual names
 		graphical_cultures = { italiangfx southerngfx westerngfx }
 		
 		color = { 0.90 0.85 0.75 }
 
 		male_names = {
-			Adaloaldo Adalulfo Adelchi Adón Adriano_Adrian Adelardo Adelmo Ademario_Ademar Agatho Agón Agiulfo Aichar Aimo Aio Aistolfo Aiulfo Alberico Alberto_Albert Alboíno_Alwin Alderico Aldioco Aldo Aldobrando Aleardo Alessandro_Alexandro Alessio_Alexis Alfonso Alfredo_Alfred Aliprando Amalongo Ambrogio_Ambrose Amedeo_Amadeus Amo Andrea_Andrew Angelo_Angel Ansaldo Ansane Anselmo_Anselm Ansfrido Ansilone Ansperto Ansprando Ansulfo Antonio_Anthony Ardengo Arduino Argait Arimundo Arioaldo Ariperto Ariúlfo Arogis Arturo_Arthur Arnefredo Arnoldo_Arnold Arnolfo_Arnulf Atenulfo_Adolf Ato Attón Audoíno Augusto_Augustus Aurelio_Aurelius Autario Axelmundo Axilulfo Axiprando Azzo 
-			Baldovino_Baldwin Bartolomeo_Bartholomew Battista_Baptist Beleos Benedetto_Benedict Beniamino_Benjamin Berengario_Berengar Bernardo_Bernard Berto Bertoldo Biagio_Blaise Billo Bruningo Bruno 
-			Caccón Calogero Camillo_Camille Carlo_Charles Castaldo Cesare_Caesar Claffone Claudio_Claudius Clemente_Clement Contardo Corrado_Conrad Córvulo Cosimo Costantino_Constantine Cristiano_Christian Cuniperto 
-			Damiano_Damian Daniele_Daniel Dario_Darius Davide_David Desidero Dino Domenico_Dominic Droctone Drudo 
-			Edoardo_Edward Elia_Elias Elio Elmichi Emanuele_Emmanuel Emilio_Emil Enrico_Henry Enzo Erchemperto Erfemar Ermanno_Hermann Ernesto_Ernest Ettore_Hector Eugenio_Eugene Euin Evaldo Everardo 
-			Fabio_Fabian Fabrizio_Fabrice Farao Faroaldo Federico_Frederick Felice_Felix Ferdinando_Ferdinand Ferdulfo Filippo_Philip Fiorenzo_Florent Flavio_Flavian Folco Fortunato_Fortunatus Francesco_Francis 
-			Gabriele_Gabriel Gaidulfo Gaiferos Galeazzo_Galahad Galeotto Galfrido Gamaleri Gangalando Garibaldo Gaspare_Casper Gastaldato Gausos Gennaro_Januarius Gerardo_Gerard Gesualdo Giacomo_James Gilberto_Gilbert Gioacchino_Joachim Giorgio_George Giovanni_John Gisimundo Giuliano_Julian Giulio_Jules Giuseppe_Joseph Godeperto Godescalco Goduoc Goffredo_Geoffrey Grasulfo Gregorio_Gregory Grimoaldo Guaimaro Gualberto Gualcoso Gualfredo Gualtiero Guarino Guarnefrido Guarnieri Guasco Guglielmo_William Guido_Guy Guilberto_Gilbert Guinibaldo Gundoaldo 
-			Iacopo_James Ibor Ignazio_Ignatius Ildebrandino Ildeprando_Hildebrand Ilderico Ilduoc Inghiramo Ingoberto Isnardo Italo Ivo_Yves 
-			Lamberto_Lambert Lamissio Landari Landulfo_Landolf Leonardo_Leonard Lethuoc Litifredo Liutperto Liutprando Livio Lopo_Lope Lorenzo_Lawrence Lotario_Lothar Luca_Lucas Luciano_Lucian Ludovico_Louis Luigi_Louis 
-			Mainardo_Meinhard Manfredo_Manfred Mansón Manuele_Manuel Marcello_Marcel Marco_Mark Marcolfo Mario_Marius Martino_Martin Massimo_Maximus Matteo_Matthew Mauringo Maurizio_Maurice Michele_Michael Mimulfo Mitola Munichi 
-			Napoleone_Napoleon Natale_Noel Nicola_Nicholas 
-			Offredo Ogleri Oreste Orlando_Roland Orso_Beorn Ottavio_Octavian 
-			Paldo Pandulfo Paolo_Paul Pasquale_Pascal Patrizio_Patrick Pemón Perctarito Peredeo Pietro_Peter 
-			Radelchis Radelgardo Radoaldo Raffaele_Raphael Raghinperto Ragilone Raimondo_Raymond Randolfo Renato_Renatus Riccardo_Richard Roberto_Robert Rocco Rodan Rodoaldo Rodobaldo Rodolfo_Rudolf Romano_Roman Romeo Romualdo Ronzone Rotario Rotcari Rotgaudo Rotofredo Ruberto_Robert Ruggero_Roger 
-			Salvatore_Salvador Samuele_Samuel Santo Saverio_Xavier Sebastiano_Sebastian Seno Sergio_Sergius Sesualdo Sicardo Sico Siconulfo Sigemar_Sigmar Sigfrido_Sigefried Sigiprando Silvio_Sylvan Simone_Simon Stefano_Stephen Sundrari 
-			Tallarico Tatto Tasón Tatone Tatzo Teodaldo Teodelapo Teodicio Teodón Tommaso_Thomas Toto Transamundo Trasoaldo 
-			Ubaldo Uberto Ugo_Hugh Ulfari Umberto Unichis Unnolfo 
-			Vaccone Valdo_Waldo Valentino_Valentine Valtari_Walter Vechtari Vilfredo_Wilfried Vincenzo_Vincent Vito Vittorio_Victor 
-			Wachilape Walcauso Wallari Wechtari Winixiso 
-			Xisolfo Xoán_John 
-			Zabano Zangrulfo Zotto Zuchilo 
+			Abondi Alberigh_Alberic Albert Albin_Albinus Ambroeus_Ambrosius Andrea_Andrew Angiol_Angel Antoni_Anthony 
+			Bartolomee_Bartholomew Bastian_Sebastian Batista_Baptist Benedett_Benedict Benin_Benigno Bernard Bias_Blaise Bonifazzi_Boniface Bortol Bramm_Abraham 
+			Carlo_Charles Cesch_Francis Ceser_Caesar Chille_Achilles Cinto_Hyacinth Cleto_Anacletus Cristofen_Christopher 
+			Davin_David Diodatt_Adeodatus Doard_Edward Domenegh_Dominic 
+			Federigh_Frederick Felipp_Philip Felizzin_Felix Fonsœul_Alfonso Francesc_Francis 
+			Galeazz_Galahad Gasper_Casper Ghitan_Cajetan Gildo_Hermanagildo Giovann_John Girolom_Hieronymus Giuli_Jules Giuseff_Joseph Gnazzi_Ignatius Grigœu_Gregory Gujerm_William Gustin_Augustine 
+			Isepp_Joseph 
+			Jacom_James 
+			Lessi_Alexis Lissander_Alexander Lodovigh_Louis Lorenz_Lawrence Luis_Louis 
+			Manuell_Emmanuel March_Mark Marchionn_Melchior Mario_Marius Martin Maver_Mauro Mentin_Clement Michel_Michael Milio_Emil 
+			Nando_Ferdinand Nardo_Leonard Natalin_Noel Nest_Ernest Nocent_Innocent 
+			Paol_Paul Peder_Peter Poldo_Leopold 
+			Rafaell_Raphael Rasmin_Erasmus Redolf_Rudolf Rico_Henry Rocch_Rocco 
+			Selmo_Anselm Simon Steven_Stephen 
+			Tilio_Attilius Tomas_Thomas Torin_Hector 
+			Ugeni_Eugene Usœubi_Eusebius Ustin_Justin Ustorgg_Eustorgius 
+			Vincenz_Vincent Visio_Alvise 
+			Zarin_Lazarus Zerill_Cyril Ziprian_Cyprian 
 		}
 		female_names = {
-			Ada Adaleta Adalgisa Adelaide Adele_Adela Adelinda Adelperga Agata_Agatha Agnese_Agnes Agostina_Augusta Alba Alda Alberta Aldegarda Aldegonda Alessandra_Alexandra Alessia Alfreda Allegra Alma Alpsuinda Amanda Ambra Amelia Amore Anastasia Anfelisia Angela Anna_Anne Annabella_Annabelle Annachiara Annalisa "Anna Maria" Annunziata_Anunciación Ansa Antonia Antonietta_Antonia Arianna_Ariane Arinsida Armida Augusta Aurelia Aurora Austricusa Azzurra 
-			Barbara Beatrice Benedetta_Benedicta Berenice Bernardetta Berta Bianca_Blanche Brera Brigida_Brigit Brunisenda 
-			Calogera Camilla Carlotta_Charlotte Carla Carmela Caterina_Catherine Cassandra Cecilia Celestina Chiara_Claire Cinzia_Cynthia Clara_Claire Clarissa Claudia Clementina Cloe_Chloe Clotilde Concetta_Concepción Corona Costanza_Constance Cristina_Christina Cunincperga 
-			Dafne_Daphne Debora_Deborah Delfina Desideria Diana Domenica_Dominica Dorotea_Dorothy 
-			Elena_Helen Eleonora_Eleanor Elisa_Elizabeth Elisabetta_Elizabeth Eloisa_Héloïse Elsa Elvira Emanuela_Emmanuela Emerentiana Emma Engelrada Enrica_Henriette Erica Ermelinda Ermenegilda Ermengarda Ermetruda Ernesta Ester_Esther Eva_Eve 
-			Fabiola Federica_Frederica Felicia Felicita_Felicity Filippa_Philippa Fioralba Fiorella Flora Franca_Françoise Francesca_Françoise "Francesca Pia" Frida 
-			Gabriella_Gabrielle Gaia Gaita Gaitelgrima Geltrude_Gertrude Gerberga Giacinta Gilberta Ginevra Giorgia_Georgia Giosetta_Josette Giovanna_Joan Gisa Giuditta_Judith Giulia_Julia Giuseppina_Josepha Gloria Grazia_Grace Greta Gualdrada Guinelda Gundeberga Guntperga 
-			Hermetruda 
-			Ida Ilaria_Hillary Ildegarda_Hildegard Imberga Immacolata_Inmaculada Irene Iris Irma Isabella_Elizabeth Isotta_Iseult 
-			Laura Leonarda Letizia_Laetitia Linda Lisa Liutgarda Liutperga Lorenza Loretta Lucia Lucrezia Luigia_Louise Luna 
-			Maddalena_Magdalene Magnerada Margherita_Margaret Maria_Mary "Maria Chiara" "Maria Francesca" "Maria Grazia" Mariangela_Mary-Angela Marianna_Marianne "Maria Pia" "Mariasole" "Maria Vittoria" Marilena_Mary-Helen Marta_Martha Martina Matilde_Matilda Maurizia Melania Michela_Michelle Michelangela Mirabella Monica 
-			Nicole Nunzia_Anunciación 
-			Olivia Orsola_Ursula Ottavia 
-			Paola_Paula Patrizia_Patricia Perla Pia Pierina Pietra_Petra Prangarda Priscilla 
-			Rachele_Rachel Radegonda Ragintruda Ratperga Regina Renata Riccarda Richelda Roberta Rodelinda Romilda Rosa_Rose Rosalba Rosalinda Rosangela Rosanna Rosemunda Rosetta Rossana_Roxana Rotilda Rumetruda 
-			Sabrina Sandra_Alexandra Sara_Sarah Scauniperga Serena Sibilla_Sibylla Silvia_Sylvia Simona Sofia_Sophia Stefania_Stephania Stella Susanna_Susan Sveva 
-			Tassia Tedesca Teodolinda Teodora_Theodora Teresa_Theresa Theuderada 
-			Ubaldesca 
-			Valentina Valeria Vanna_Joan Veronica Vida Vincenza Violetta_Violet Virginia Vittoria_Victoria 
-			Wigilinda Winiperga Wisegarda 
-			Zoe 
+			Agheta_Agatha Agnesa_Agnes Angiolina_Angela Annin_Anne 
+			Beppa_Josepha Betta_Elizabeth 
+			Carola_Charla Caterina_Catherine Ciara_Claire Clotilda_Clotilde 
+			Delaida_Adelaide Delia_Adela Dœula_Bernarda 
+			Elena_Helen 
+			Femia_Euphemia Fonsina_Alfonsina 
+			Ghielma_Wilhelmina Gisa Gustina_Augusta 
+			Laura Leonora_Eleanor Luisa_Louise Luzzia_Lucy 
+			Malia_Amelia Margherita_Margaret Maria_Mary Milia_Emily 
+			Nonziada_Anunciación 
+			Polonia_Apollonia 
+			Rosa_Rose 
+			Sandra_Alexandra Sonta_Asunción 
+			Teresa Tilda_Matilda Tina_Alberta 
+			Ustina_Justina 
 		}
 		from_dynasty_prefix = "de "
 
