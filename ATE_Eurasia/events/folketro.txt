@@ -2,8 +2,8 @@ namespace = folketro
 
 narrative_event = {
 	id = folketro.1
-	title = EVTNAME_folketro_trollherre
-	desc = EVTDESC_folketro_trollherre
+	title = EVTNAME_folketro_allfader
+	desc = EVTDESC_folketro_allfader
 	picture = dark_prayer
 	border = GFX_event_narrative_frame_religion
 
@@ -12,16 +12,16 @@ narrative_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_global_flag = trollherre_reborn }
+		NOT = { has_global_flag = allfader_reborn }
 	}
 	
 	immediate = {
-		set_global_flag = trollherre_reborn
+		set_global_flag = allfader_reborn
 		d_skogskult = { grant_title = ROOT }
 	}
 	
 	option = {
-		name = EVTOPTA_folketro_trollherre
+		name = EVTOPTA_folketro_allfader
 		trigger = {
 			religion = skogskult
 			NOT = { has_landed_title = d_skogskult }
@@ -29,17 +29,18 @@ narrative_event = {
 	}
 	
 	option = {
-		name = EVTOPTB_folketro_trollherre
+		name = EVTOPTB_folketro_allfader
 		trigger = {
 			NOT = { religion = skogskult }
 		}
 	}
 	
 	option = { #
-		name = EVTOPTC_folketro_trollherre
+		name = EVTOPTC_folketro_allfader
 		trigger = {
 			religion = skogskult
 			has_landed_title = d_skogskult
 		}
 	}
 }
+
