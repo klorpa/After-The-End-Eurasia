@@ -13,6 +13,58 @@ e_al_sharq_al_awsat = {
 		capital = 1479 # c_abu_dhabi
 		culture = bahrayni
 		
+		d_qatar = {
+			color={ 165 42 76 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1350 province_id = 1351 } }
+				}
+			}
+			capital = 1350 # c_doha
+			
+			c_doha = { # 1350
+				color={ 155 52 71 }
+				color2={ 255 255 255 }
+				
+				b_qasr_al_amiri = {
+				}
+				b_ad_dawha = {
+				}
+				b_al_gharrafah = {
+				}
+				b_al_rayyan = {
+				}
+				b_madinat_ash_shamal = {
+				}
+				b_al_khawr = {
+				}
+				b_umm_salal = {
+				}
+			}
+			c_al_wakrah = { # 1351
+				color={ 103 52 62 }
+				color2={ 255 255 255 }
+				
+				b_al_wakrah = {
+				}
+				b_ash_shihaniyah = {
+				}
+				b_musayid = {
+				}
+				b_dukhan = {
+				}
+				b_umm_bab = {
+				}
+				b_khawr_al_udayd = {
+				}
+				b_shaqra = {
+				}
+			}
+		}
+		
 		d_abu_dhabi = {
 			color={ 208 56 71 }
 			color2={ 255 255 255 }
