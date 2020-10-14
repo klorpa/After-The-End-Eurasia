@@ -156,7 +156,7 @@
 8000000={
 	name="Tyge"
 	dynasty=2223001 #Sønderborg
-	culture=low_saxon
+	culture=danish
 	religion=neuhumanist
 	2471.3.22={birth=yes}
 	2518.1.1={death={
@@ -221,9 +221,10 @@
 }
 8000006={
 	name="Holger" #took advantage of Danish civil war, invaded
+	father=8000063
 	dynasty=2220179 #Skånske
 	culture=scanian
-	religion=lutheran #maybe neonorse
+	religion=lucian #maybe neonorse
 	2520.4.3={birth=yes}
 	2610.1.1={death=yes}
 }
@@ -595,7 +596,7 @@
 	learning=5
 	father=8000060
 	2469.1.1={birth=yes}
-	2486.1.1={give_nickname=nick_the_young}
+	2486.1.1={give_nickname = nick_the_young}
 	2487.1.1={death=yes}
 }
 
@@ -699,7 +700,7 @@
 	trait=mastermind_theologian
 	father=8000067
 	2552.1.1={birth=yes}
-	2570.1.1={give_nickname=nick_the_apostate}
+	2570.1.1={give_nickname = nick_the_apostate}
 	2591.1.1={death=yes}
 }
 
@@ -758,7 +759,7 @@
     trait=gluttonous
     trait=skilled_tactician	
 	father=8000071
-	2630.1.1={birth=yes}
+	2623.1.1={birth=yes}
 	2648.1.1={
 	    add_spouse = 8000191
 	}
@@ -829,7 +830,7 @@
 	trait=shy
 	trait=just 
 	2636.1.1={birth=yes}
-	2666.1.1={give_nickname=nick_the_arrow }
+	2666.1.1={give_nickname = nick_the_arrow }
 	2670.1.1={death=yes}
 }
 
@@ -877,7 +878,7 @@
 	trait=ambitious 
 	trait=blind
 	2100.1.1={birth=yes}
-	2100.1.1={give_nickname=nick_the_victorious}
+	2100.1.1={give_nickname = nick_the_victorious}
 	2200.1.1={death=yes}
 }
 
@@ -894,7 +895,7 @@
 	trait=strong
 	father=8000079
 	2150.1.1={birth=yes}
-	2200.1.1={give_nickname=nick_the_mighty }
+	2200.1.1={give_nickname = nick_the_mighty }
 	2250.1.1={death=yes}
 }
 
@@ -990,7 +991,7 @@
 	trait=authoritative
 	father=8000085
 	2391.1.1={birth=yes}
-	2410.1.1={give_nickname=nick_the_red}
+	2410.1.1={give_nickname = nick_the_red}
 	2411.1.1={death=yes}
 }
 
@@ -1021,8 +1022,12 @@
 	learning=5
 	father=8000085
 	2396.1.1={birth=yes}
-	2413.1.1={give_nickname=nick_the_conqueror}
-	2430.1.1={death=yes}
+	2413.1.1={give_nickname = nick_the_conqueror}
+	2430.1.1={death={
+			death_reason=death_execution
+			killer=8000142
+		}
+	}
 }
 
 8000089={
@@ -1071,7 +1076,7 @@
 	trait=mystic
 	father=8000089
 	2476.1.1={birth=yes}
-	2510.1.1={give_nickname=nick_the_wanderer}
+	2510.1.1={give_nickname = nick_the_wanderer}
 	2514.1.1={death=yes}
 }
 
@@ -1166,7 +1171,7 @@
 }
 
 8000098={
-	name="Milorg"
+	name="Audun"
 	dynasty=2220061 #Linge 
 	culture=vestlending
 	religion=lutheran
@@ -1233,7 +1238,7 @@
 	mother=8000203
 	2649.1.1={birth=yes}
 	2659.1.1={ add_claim=d_opplandene}
-	2666.1.1={give_nickname=nick_half_troll }
+	2666.1.1={give_nickname = nick_half_troll }
 	2670.1.1={death=yes}
 }
 
@@ -1491,7 +1496,7 @@
 	trait=hunter
     trait=sturdy
 	2640.1.1={birth=yes}
-	2666.1.1={give_nickname=nick_the_fearless}
+	2666.1.1={give_nickname = nick_the_fearless}
 	2670.1.1={death=yes}
 }
 
@@ -1506,7 +1511,7 @@
 	trait=impaler
     trait=wroth
 	2629.1.1={birth=yes}
-	2666.1.1={give_nickname=nick_the_liberator}
+	2666.1.1={give_nickname = nick_the_liberator}
 	2670.1.1={death=yes}
 }
 
@@ -1535,7 +1540,7 @@
 	trait=kind
 	trait=trusting
 	2640.4.15={birth=yes}
-	2665.1.1={give_nickname=nick_the_good}
+	2665.1.1={give_nickname = nick_the_good}
 	2672.7.14={death=yes}
 }
 
@@ -1588,7 +1593,7 @@
 }
 
 8000127={
-	name="Jenny" #the Snow Queen
+	name="Kerttu" #the Snow Queen
 	female=yes 
 	dynasty=2335052 #Andersen
 	culture=sami
@@ -1596,12 +1601,14 @@
 	trait=mystic 
 	trait=fair 
 	trait=ambitious
+	trait=patient 
+	trait=diligent 
 	trait=mastermind_theologian
 	trait=shrewd
 	disallow_random_traits = yes 
 	2050.1.1={birth=yes}
 	2100.1.1={
-	    give_nickname=nick_the_snow_queen
+	    give_nickname = nick_the_snow_queen
 	    create_bloodline = {
 		    type = snow_queen
 			has_dlc = "Holy Fury"
@@ -1758,7 +1765,7 @@
 	religion=folketro
 	father=8000141
 	2395.1.1={birth=yes}
-	2414.1.1={give_nickname=nick_the_restorer}
+	2414.1.1={give_nickname = nick_the_restorer}
 	2448.1.1={death=yes}
 }
 
@@ -1832,7 +1839,7 @@
 	culture=danish
 	religion=lutheran
 	2300.1.1={birth=yes}
-	2340.1.1={give_nickname=nick_the_blessed}
+	2340.1.1={give_nickname = nick_the_blessed}
 	2351.1.1={death=yes}
 }
 
@@ -2194,8 +2201,9 @@
 	trait=zealous
 	trait=skilled_tactician
 	trait=holy_warrior
+	father=8000278
 	2433.1.1={birth=yes}
-	2484.1.1={give_nickname=nick_the_great}
+	2484.1.1={give_nickname = nick_the_great}
 	2500.1.1={death=yes}
 }
 
@@ -2264,18 +2272,8 @@
 	trait=selfish
     trait=paranoid	
 	religion=folketro
-	father=8000189
 	2629.1.1={birth=yes}
 	2670.1.1={death=yes}
-}
-
-8000189={
-	name="Pekka"
-	dynasty=2220414
-	culture=finnish
-	religion=folketro
-	2600.1.1={birth=yes}
-	2656.1.1={death=yes}
 }
 
 8000190={
@@ -2298,7 +2296,7 @@
 	culture=swedish
 	religion=lutheran
 	father=8000177
-	2630.1.1={birth=yes}
+	2628.1.1={birth=yes}
 	2648.1.1={
 	    add_spouse = 8000072
 	}
@@ -2318,13 +2316,20 @@
 }
 
 8000193={
-	name="Erik"
+	name="Nils"
 	dynasty=2220179 #Skånske
 	culture=scanian
+	trait=legit_bastard
+	trait=intricate_webweaver
+	trait=sturdy 
+	trait=shrewd 
+	trait=cynical 
+	trait=erudite
+	trait=slothful
 	religion=folketro
+	disallow_random_traits = yes 
 	father=8000072
-	mother=8000191
-	2664.1.1={birth=yes}
+	2645.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
 
@@ -2354,7 +2359,7 @@
 	trait=is_fat
 	trait=family_person
 	2592.1.1={birth=yes}
-	2650.1.1={give_nickname=nick_the_merry}
+	2650.1.1={give_nickname nick_the_merry}
 	2661.1.1={death=yes}
 }
 
@@ -2482,7 +2487,7 @@
 	trait=robust
 	religion=folketro
 	2531.1.1={birth=yes}
-	2550.1.1={give_nickname=nick_the_strong}
+	2550.1.1={give_nickname nick_the_strong}
 	2597.1.1={death=yes}
 }
 
@@ -2513,7 +2518,7 @@
 	trait=zealous
 	trait=diligent
 	2613.1.1={birth=yes}
-	2647.1.1={give_nickname=nick_longsword}
+	2647.1.1={give_nickname nick_longsword}
 	2657.1.1={death=yes}
 }
 
@@ -2776,7 +2781,7 @@
 	culture=icelander
 	religion=pelagic
 	2481.1.1={birth=yes}
-	2499.1.1={give_nickname=nick_the_eagle}
+	2499.1.1={give_nickname nick_the_eagle}
 	2501.1.1={death=yes}
 }
 
@@ -2852,7 +2857,7 @@
 	trait=strong 
 	trait=robust 
 	2434.1.1={birth=yes}
-	2490.1.1={give_nickname=nick_the_giant}
+	2490.1.1={give_nickname nick_the_giant}
 	2499.1.1={death=yes}
 }
 
@@ -2869,7 +2874,7 @@
 	religion=pelagic
 	2399.1.1={birth=yes}
 	2431.1.1={add_spouse=8000271}
-	2452.1.1={give_nickname=nick_the_stranger}
+	2452.1.1={give_nickname nick_the_stranger}
 	2461.1.1={death=yes}
 }
 
@@ -2923,7 +2928,7 @@
 	trait=cruel 
 	trait=wroth 
 	2492.1.1={birth=yes}
-	2542.1.1={give_nickname=nick_elf_hater}
+	2542.1.1={give_nickname nick_elf_hater}
 	2560.1.1={death=yes}
 }
 
@@ -2953,7 +2958,7 @@
 	culture=icelander
 	religion=lutheran 
 	2402.1.1={birth=yes}
-	2438.1.1={give_nickname=nick_the_bull}
+	2438.1.1={give_nickname nick_the_bull}
 	2452.1.1={death=yes}
 }
 
@@ -3037,7 +3042,7 @@
 	culture=icelander
 	religion=pelagic
 	2402.1.1={birth=yes}
-	2429.1.1={give_nickname=nick_the_dragon}
+	2429.1.1={give_nickname nick_the_dragon}
 	2438.1.1={death=yes}
 }
 
@@ -3059,7 +3064,7 @@
 	religion=pelagic
 	trait=strong 
 	2367.1.1={birth=yes}
-	2388.1.1={give_nickname=nick_the_strong}
+	2388.1.1={give_nickname nick_the_strong}
 	2406.1.1={death=yes}
 }
 
@@ -3096,7 +3101,7 @@
 	culture=icelander
 	religion=pelagic
 	2300.1.1={birth=yes}
-	2330.1.1={give_nickname=nick_the_old}
+	2330.1.1={give_nickname nick_the_old}
 	2358.1.1={death=yes}
 }
 
@@ -3107,7 +3112,7 @@
 	culture=icelander
 	religion=pelagic
 	2330.1.1={birth=yes}
-	2300.1.1={give_nickname=nick_the_younger}
+	2300.1.1={give_nickname nick_the_younger}
 	2361.1.1={death=yes}
 }
 
@@ -3171,7 +3176,7 @@
 	religion=pelagic
 	trait=legendary
 	2250.1.1={birth=yes}
-	2300.1.1={give_nickname=nick_the_prophet}
+	2300.1.1={give_nickname nick_the_prophet}
 	2310.1.1={death=yes}
 }
 
@@ -3244,4 +3249,182 @@
 	religion=pelagic
 	294.1.1={birth=yes}
 	2533.1.1={death=yes}
+}
+
+8000275={
+	name="Eirik"
+	father=8000088
+	dynasty=2220051 #Nordraak
+	culture=ostlending
+	religion=folketro
+	2410.1.1={birth=yes}
+	2430.1.1={death={
+			death_reason=death_execution
+			killer=8000142
+		}
+	}
+}
+
+8000276={
+	name="Reidar"
+	father=8000088
+	dynasty=2220051 #Nordraak
+	culture=ostlending
+	religion=folketro
+	trait=twin
+	2411.1.1={birth=yes}
+	2430.1.1={death={
+			death_reason=death_execution
+			killer=8000142
+		}
+	}
+}
+
+8000277={
+	name="Sunniva"
+	female=yes
+	father=8000088
+	dynasty=2220051 #Nordraak
+	culture=ostlending
+	religion=folketro
+	trait=twin
+	2411.1.1={birth=yes}
+	2430.1.1={death={
+			death_reason=death_execution
+			killer=8000142
+		}
+	}
+}
+
+8000278={
+	name="Börje"
+	dynasty=2220467 #Allén
+	culture=swedish
+	religion=lutheran
+	father=8000279
+	2413.1.1={birth=yes}
+	2479.1.1={death=yes}
+}
+
+8000279={
+	name="André"
+	dynasty=2220467 #Allén
+	culture=swedish
+	religion=lutheran
+	father=8000280
+	2387.1.1={birth=yes}
+	2452.1.1={death=yes}
+}
+
+8000280={
+	name="Måns"
+	dynasty=2220467 #Allén
+	culture=swedish
+	religion=lutheran
+	father=8000281
+	2360.1.1={birth=yes}
+	2421.1.1={death=yes}
+}
+
+8000281={
+	name="Oldemar"
+	dynasty=2220467 #Allén
+	culture=swedish
+	religion=lutheran
+	father=8000282
+	2340.1.1={birth=yes}
+	2399.1.1={death=yes}
+}
+
+8000282={
+	name="Ulf"
+	dynasty=2220467 #Allén
+	culture=swedish
+	religion=lutheran
+	2301.1.1={birth=yes}
+	2335.1.1={give_nickname nick_the_wolf}
+	2363.1.1={death=yes}
+}
+
+8000283={
+	name="Harald"
+	dynasty=2220060 #Luva 
+	culture=vestlending
+	religion=folketro
+	trait=robust 
+	trait=gluttonous
+	trait=gregarious
+	father=8000160
+	mother=8000203
+	2650.1.1={birth=yes}
+	2659.1.1={ add_claim=d_opplandene}
+	2666.1.1={give_nickname = nick_half_troll }
+	2670.1.1={death=yes}
+}
+
+8000284={
+	name="Halkatla"
+	female=yes
+	dynasty=2220060 #Luva 
+	culture=vestlending
+	religion=folketro
+	trait=chaste 
+	trait=patient 
+	trait=authoritative
+	father=8000160
+	mother=8000203
+	2653.1.1={birth=yes}
+	2659.1.1={ add_claim=d_opplandene}
+	2666.1.1={give_nickname = nick_half_troll }
+	2670.1.1={death=yes}
+}
+
+8000285={
+	name="Knud"
+	dynasty=2223082 #Gyldmark
+	culture=danish
+	religion=lutheran
+	father=8000019
+	2639.1.1={birth=yes}
+	2680.10.10={death=yes}
+}
+
+8000286={
+	name="Erik"
+	dynasty=2223082 #Gyldmark
+	culture=danish
+	religion=lutheran
+	father=8000019
+	2643.1.1={birth=yes}
+	2680.10.10={death=yes}
+}
+
+8000287={
+	name="Bjørn"
+	dynasty=2223082 #Gyldmark
+	culture=danish
+	religion=lutheran
+	father=8000019
+	2633.1.1={birth=yes}
+	2670.5.2={death=yes}
+}
+
+8000288={
+	name="Eyvin"
+	dynasty=2223082 #Gyldmark
+	culture=danish
+	religion=lutheran
+	father=8000287
+	2656.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000289={
+	name="Daniel"
+	dynasty=2223082 #Gyldmark
+	culture=danish
+	religion=lutheran
+	father=8000287
+	2661.1.1={birth=yes}
+	2670.1.1={death=yes}
 }
