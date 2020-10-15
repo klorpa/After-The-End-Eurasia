@@ -69,3 +69,274 @@ character_event = {
 		}
 	}
 }
+
+***Philosphical Wankery***
+
+narrative_event = { #Narrative event for leading research
+	id = neuhumanist.2
+	desc = EVTDESC_neuhumanist_start_book
+	picture  = GFX_evt_library
+	religion = neuhumanist
+	is_triggered_only = yes 
+
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+	} 
+	option = {
+		name = EVTOPT_neuhumanist_start_write
+		hidden_tooltip = { 
+			add_character_modifier = intense_writing
+		} 
+} 
+
+character_event = { #Choosing Event that occures when you are researching, certain traits help, or you may give up or potentially pick up bad traits.
+	id = neuhumanist.3
+	desc = EVTDESC_neuhumanist_write_book
+	picture = GFX_evt_library
+	
+	trigger = {
+		religion = neuhumanist
+		has_character_modifier = intense_writing
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		modifier = { factor = 2 trait = diligent }
+		modifier = { factor = 1 trait = quick }
+		modifier = { factor = 2 trait = genius }
+		modifier = { factor = 1 trait = scholar }
+		modifier = { factor = 1 trait = erudite }
+		modifier = { factor = 1 trait = theologian }
+		modifier = { factor = 0.5 trait = slothful }
+		modifier = { factor = 0.1 trait = imbecile }
+		modifier = { factor = 0.5 trait = stressed }
+		modifier = { factor = 0.5 trait = depressed }
+	}
+	
+	imediate = {
+		remove_character_modifier = intense_writing
+	}		
+	option = {
+		name = EVTOPT_neuhumanist_writers_block_focused
+		trigger = { trait = diligent }
+		add_character_modifier = { name = intense_writing duration = -1 }
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = EVTOPT_neuhumanist_writers_block_scholar
+		trigger = {
+		OR = {
+			trait = scholar
+			trait = erudite
+			trait = theologian
+			}
+		}
+		add_character_modifier = { name = intense_writing duration = -1 }
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = EVTOPT_neuhumanist_writers_block_ask_help
+		trigger = { 
+		OR = {
+		trait = gregarious }
+		trait = socializer
+		}
+		add_character_modifier = { name = intense_writing duration = -1 }
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = EVTOPT_neuhumanist_write_block_stress
+		random_list = {
+			20 = { add_trait = stressed }
+			10 = { add_trait = depressed }
+			10 = { add_trait = drunkard }
+			5 = { add_trait = lunatic }
+			5 = { add_trait = possessed }
+			50 = { add_character_modifier = { name = intense_writing duration = -1 } }
+		}
+		ai_chance = { factor = 25 }
+	}
+	option = {
+		name = EVTOPT_neuhumanist_write_block_quit
+		prestige = -50
+		piety = -50
+		ai_chance = { factor = 50 }
+		}	
+	}
+	character_event = { #You wrote something bad, you take a loss to prestige and piety and you get a bit of a bad reputation.
+		id = neuhumanist.4
+		title = EVTNAME_neuhumanist_writing_bad
+		desc = EVTDESC_neuhumanist_writing_bad
+		picture = GFX_evt_library
+		
+		trigger = {
+		has_character_modifier = intense_writing
+		NOT = { trait = genius }
+		NOT = { trait = quick }
+		OR = {
+			learning = 7
+			trait = lunatic
+			trait = possessed
+			trait = slow
+			trait = imbecile
+			trait = inbred
+			}
+		}
+		
+		mean_time_to_happen = {
+			months = 24
+			modifier = { factor = 1.5 has_character_modifier = writing_inspiration_neuhumanist }
+			modifier = { factor = 1.5 trait = slothful }
+			modifier = { factor = 0.8 trait = diligent }
+			modifier = { factor = 0.5 trait = lunatic }
+			modifier = { factor = 0.8 trait = possessed }
+			modifier = { factor = 0.8 trait = slow }
+			modifier = { factor = 0.8 trait = imbecile }
+			modifier = { factor = 0.8 trait = inbred }
+		}
+		immediate = {
+			remove_character_modifier = intense_writing
+			any_playable_ruler = {
+				limit = { 
+					religion = neuhumanist
+					same_realm = ROOT
+				}
+				character_event = { id = neuhumanist.5 }
+			}
+			add_character_modifier = { name = recent_writings duration = 180 }
+		}
+		option = {
+			name = EVTOPT_neuhumanist_write_lapse
+			trigger = { learning = 10 }
+			tooltip_info = learning
+			prestige = -50
+			ai_chance = { factor = 50 }
+			
+		}
+		option = {
+			name = EVTOPT_neuhumanist_educate_self
+			prestige = -50
+			scaled_wealth = -1
+			random = { chance = 50 change_learning = 1 }
+			religion_authority = { modifier = unenlightened_philospher }
+			ai_chance = {
+				factor = 30
+				modifier = { factor = 2 trait = humble }
+				modifier = { factor = 2 trait = diligent }
+				modifier = { factor = 2 trait = patient }
+			}
+		}
+		
+		option = {
+			name = EVTOPT_educate_write_pride
+			prestige = -50
+			piety = -100
+			religion_authority = { modifier = unenlightened_philospher }
+			hidden_tooltip = {
+				ROOT = {
+					limit = { religion = neuhumanist }
+					any_realm_province = {
+						limit = { religion = neuhumanist }
+						add_province_modifier = { name = unenlightened_philospher duration = 365 }
+					}
+				}
+			}
+		ai_chance = {
+			factor = 5
+			modifier = { factor = 2 trait = cynical }
+			modifier = { factor = 2 trait = ambitious }
+			modifier = { factor = 2 trait = proud }
+			modifier = { factor = 2 trait = slothful }
+			modifier = { factor = 2 trait = arbitrary }
+			}
+		}
+	}
+	character_event = {
+		id = neuhumanist.5
+		desc = EVTDESC_neuhumanist_write_competent
+		picture = GFX_evt_library
+		
+		trigger = {
+			religion = neuhumanist
+			has_character_modifier = intense_writing
+			NOT = { trait = imbecile }
+			NOT = { trait = inbred }
+			NOT = { trait = incapable }
+		}
+		
+		mean_time_to_happen = {
+			months = 24
+			modifier = { factor = 1.5 trait = slothful }
+			modifier = { factor = 0.8 trait = diligent }
+			modifier = { factor = 0.8 has_character_modifier = writing_inspiration_neuhumanist }
+			modifier = { factor = 2 NOT = { learning = 6 } }
+			modifier = { factor = 3 NOT = { learning = 4 } }
+			modifier = { factor = 5 NOT = { learning = 2 } }
+			modifier = { factor = 1.2 learning = 12 }
+			modifier = { factor = 1.2 learning = 16 }
+			modifier = { factor = 1.2 learning = 20 }
+		}
+		
+		immediate = {
+			remove_character_modifier = intense_writing
+			add_character_modifier = { name = recent_writings duration = 180 }
+		}
+		
+		option = {
+			name = EVTOPT_neuhumanist_write_better
+			piety = 10
+			random = { chance = 50 change_learning = 1 }
+			random_list = {
+				10 = { add_trait = stressed }
+				10 = { add_trait = zealous }
+				10 = { add_trait = diligent }
+				10 = { add_trait = proud }
+				10 = { add_trait = ambitious }
+				50 = { }
+			}
+		}
+		
+		option = {
+			name = EVTOPT_neuhumanist_write_goodenough
+			prestige = 10
+			random_list = {
+				10 = { add_trait = humble }
+				10 = { add_trait = slothful }
+				10 = { add_trait = cynical }
+				10 = { add_trait = content }
+				40 = { }
+			}
+		}
+	}
+	character_event = {
+		id = neuhumanist.6
+		desc = EVTDESC_neuhumanist_write_discuss
+		picture = GFX_evt_courtiers_talking
+		is_triggered_only = yes
+		
+		trigger = {
+			religion = neuhumanist
+			has_character_modifier = intense_writing
+			NOT = { trait = imbecile }
+			NOT = { trait = inbred }
+			NOT = { trait = incapable }
+			learning = 12
+		}
+		
+		option = {
+			name = EVTOPT_neuhumanist_write_learn
+			change_learning = 1
+			prestige = 100
+			piety = 100
+		}
+		
+		option = {
+			name = EVTOPT_neuhumanist_write_inspire
+			change_learning = 1
+			add_character_modifier = { name = writing_inspiration_neuhumanist duration = 120 }
+			opinion = { modifier = opinion_inspiring who = FROM years = 10 }
+		}
+	}
+

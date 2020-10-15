@@ -1,0 +1,26 @@
+decisions = {
+	lead_research = { #Philosophical wankery
+	only_playable = no
+	ai_check_interval = 36
+	
+	potential = { 
+			religion = neuhumanist
+			is_playable = yes
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			
+	allow = { 
+			prisoner = no
+			is_into_hiding = no
+			wealth = 60
+			}
+	
+	effect = {
+			wealth = -60
+			narrative_event = { id = neuhumanist.2 } 
+	}
+	ai_will_do = {
+		factor = 1
+	}
+} 
