@@ -1016,8 +1016,8 @@
 180478={
 	name="Hubert"
 	dynasty=2009778 #Dubain
-	culture=sun_king_cultist
-	religion=jacobin
+	culture=parisian
+	religion=sun_king_cultist
 	diplomacy=3
 	martial=4
 	stewardship=3
@@ -1032,8 +1032,157 @@
 	trait=lustful
 	trait=scarred
 	2621.12.31={birth=yes}
-	2637.7.21={
+	2638.7.21={
 		add_spouse=180479
 	}
 }
-	
+180479={
+	name="Émilie"
+	dynasty=2009778 #Dubain
+	culture=parisian
+	religion=sun_king_cultist
+	diplomacy=6
+	martial=2
+	stewardship=3
+	intrigue=6
+	learning=5
+	trait=charismatic_negociator
+	trait=socializer
+	trait=honest
+	trait=craven
+	trait=gluttonous
+	trait=proud
+	trait=possessed
+	2620.9.20={birth=yes}
+}
+180480={
+	name="Raoul"
+	dynasty=2009778 #Dubain
+	culture=parisian
+	religion=sun_king_cultist
+	diplomacy=4
+	martial=3
+	stewardship=4
+	intrigue=7
+	learning=4
+	trait=flamboyant_schemer
+	trait=seducer
+	trait=lunatic
+	trait=cynical
+	trait=one_eyed
+	trait=twin
+	trait=sturdy
+	trait=diligent
+	father=180478
+	mother=180479
+	2640.4.4={birth=yes}
+}
+180481={
+	name="Karine"
+	dynasty=2009778 #Dubain
+	culture=parisian
+	religion=sun_king_cultist
+	diplomacy=3
+	martial=2
+	stewardshship=4
+	intrigue=5
+	learning=3
+	trait=indulgent_wastrel
+	trait=twin
+	trait=fair
+	trait=poet
+	trait=chaste
+	trait=humble
+	trait=slothful
+	father=180478
+	mother=180479
+	2640.4.4={birth=yes}
+}
+1804082={
+	name="Mathieu"
+	dynasty=200978 #Dubain
+	culture=parisian
+	religion=sun_king_cultist
+	diplomacy=3
+	martial=4
+	stewardship=3
+	intrigue=2
+	learning=2
+	2650.10.12={birth=yes}
+	2665.12.30={
+		death={
+			death_reason=death_accident
+		}
+	}
+}
+1804083={
+	name="Régis"
+	dynasty= 2009161 #Romanin
+	culture=provencal
+	religion=catholic
+	diplomacy=5
+	martial=7
+	stewardship=5
+	intrigue=6
+	learning=4
+	trait=brilliant_strategist
+	trait=flanker
+	trait=brave
+	trait=crowned_by_bishop
+	trait=falconer
+	trait=just
+	trait=trusting
+	2635.6.20={birth=yes}
+	2656.11.11={
+		add_spouse=1804084
+	}
+}
+1804084={
+	name="Margarido"
+	dynasty=2009161 #Romanin
+	culture=provencal
+	religion=catholic
+	diplomacy=7
+	martial=4
+	stewardship=4
+	intrigue=5
+	learning=3
+	trait=underhanded_rogue
+	trait=stubborn
+	trait=poet
+	trait=kind
+	trait=greedy
+	2636.12.14={birth=yes}
+}
+1804085={
+	name="Lio"
+	dynasty=2009161 #Romanin
+	culture=provencal
+	religion=catholic
+	diplomacy=4
+	martial=3
+	stewardship=2
+	intrigue=4
+	learning=2
+	trait=diligent
+	trait=greedy
+	father=1804083
+	mother=1804084
+	2657.10.8={birth=yes}
+}
+1804086={
+	name="Pascau"
+	dynasty=2009161 #Romanin
+	culture=provencal
+	religion=catholic
+	diplomacy=3
+	martial=4
+	stewardship=2
+	intrigue=3
+	learning=2
+	trait=rowdy
+	trait=haughty
+	father=1804083
+	mother=180408
+	2660.4.20={birth=yes}
+} 
