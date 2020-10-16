@@ -1,8 +1,6 @@
-# neuhumanist events
 namespace = neuhumanist
-
-character_event = {
-	id = neuhumanist.1	
+character_event = { #Choosing a branch
+	id = neuhumanist.1
 	desc = EVTDESC_neuhumanist_1
 	picture = GFX_evt_bishop
 	religion = neuhumanist
@@ -56,7 +54,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPTD_neuhumanist_1
+		name = EVTOPTC_neuhumanist_1
 		hidden_tooltip = {
 			remove_trait = branch_idealism
 			remove_trait = branch_realism
@@ -66,31 +64,36 @@ character_event = {
 		ai_chance = {
 			factor = 10
 			modifier = { factor = 1.5 diplomacy = 10 }
+			}
 		}
+	}
+	
+***Philosphical Wankery***
+
+narrative_event = { #Notification letting people know they clicked the decision...
+	id = neuhumanist.2
+	title = EVTNAME_neuhumanist_starts_philosophizing
+	desc = EVTDESC_neuhumanist_starts_writing
+	picture = GFX_evt_library
+
+	is_triggered_only = yes
+	weight_multiplier = {
+		days = 2
+	}
+	
+	option = {
+		name = OPT_let_the_research_begin
+		piety = 20
+		random_list = {
+			20 = { }
+			80 = { add_trait = humble }
+		}	
+		ai_chance = { factor = 5 }
 	}
 }
 
-***Philosphical Wankery***
-
-narrative_event = { #Narrative event for leading research
-	id = neuhumanist.2
-	desc = EVTDESC_neuhumanist_start_book
-	picture  = GFX_evt_library
-	religion = neuhumanist
-	is_triggered_only = yes 
-
-	trigger = {
-		NOT = {
-			has_alternate_start_parameter = { key = religion_names value = random }
-		}
-	} 
-	option = {
-		name = EVTOPT_neuhumanist_start_write
-		hidden_tooltip = { 
-			add_character_modifier = intense_writing
-		} 
-} 
-
+#Any of the Following Events will occur randomly during the Writing Process - Ends by Quitting (via Decision) or Writing Something Competent which progresses to the end state
+	
 character_event = { #Choosing Event that occures when you are researching, certain traits help, or you may give up or potentially pick up bad traits.
 	id = neuhumanist.3
 	desc = EVTDESC_neuhumanist_write_book
@@ -102,7 +105,7 @@ character_event = { #Choosing Event that occures when you are researching, certa
 	}
 	
 	mean_time_to_happen = {
-		months = 36
+		months = 12
 		modifier = { factor = 2 trait = diligent }
 		modifier = { factor = 1 trait = quick }
 		modifier = { factor = 2 trait = genius }
@@ -115,7 +118,7 @@ character_event = { #Choosing Event that occures when you are researching, certa
 		modifier = { factor = 0.5 trait = depressed }
 	}
 	
-	imediate = {
+	immediate = {
 		remove_character_modifier = intense_writing
 	}		
 	option = {
@@ -127,10 +130,10 @@ character_event = { #Choosing Event that occures when you are researching, certa
 	option = {
 		name = EVTOPT_neuhumanist_writers_block_scholar
 		trigger = {
-		OR = {
-			trait = scholar
-			trait = erudite
-			trait = theologian
+			OR = {
+				trait = scholar
+				trait = erudite
+				trait = theologian
 			}
 		}
 		add_character_modifier = { name = intense_writing duration = -1 }
@@ -139,9 +142,10 @@ character_event = { #Choosing Event that occures when you are researching, certa
 	option = {
 		name = EVTOPT_neuhumanist_writers_block_ask_help
 		trigger = { 
-		OR = {
-		trait = gregarious }
-		trait = socializer
+			OR = {
+			trait = gregarious
+			trait = socializer 
+			}
 		}
 		add_character_modifier = { name = intense_writing duration = -1 }
 		ai_chance = { factor = 100 }
@@ -163,6 +167,7 @@ character_event = { #Choosing Event that occures when you are researching, certa
 		prestige = -50
 		piety = -50
 		ai_chance = { factor = 50 }
+		set_character_flag = { name = wanting_to_quit duration = -1 }
 		}	
 	}
 	character_event = { #You wrote something bad, you take a loss to prestige and piety and you get a bit of a bad reputation.
@@ -186,7 +191,7 @@ character_event = { #Choosing Event that occures when you are researching, certa
 		}
 		
 		mean_time_to_happen = {
-			months = 24
+			months = 12
 			modifier = { factor = 1.5 has_character_modifier = writing_inspiration_neuhumanist }
 			modifier = { factor = 1.5 trait = slothful }
 			modifier = { factor = 0.8 trait = diligent }
@@ -296,6 +301,14 @@ character_event = { #Choosing Event that occures when you are researching, certa
 				10 = { add_trait = ambitious }
 				50 = { }
 			}
+			hidden_tooltip = {
+				random_list = {
+					40 = { set_character_flag = name = philosophizing_results_excellent }
+					10 = { set_character_flag = name = philosophizing_results_good }
+					10 = { set_character_flag = name = philosophizing_results_acceptable }
+					40 = { set_character_flag = name = philosophizing_results_bad }
+				}
+			}
 		}
 		
 		option = {
@@ -308,6 +321,14 @@ character_event = { #Choosing Event that occures when you are researching, certa
 				10 = { add_trait = content }
 				40 = { }
 			}
+			hidden_tooltip = {
+				random_list = {
+					15 = { set_character_flag = name = philosophizing_results_excellent }
+					35 = { set_character_flag = name = philosophizing_results_good }
+					30 = { set_character_flag = name = philosophizing_results_acceptable }
+					20 = { set_character_flag = name = philosophizing_results_bad }
+				}
+			}
 		}
 	}
 	character_event = {
@@ -319,9 +340,11 @@ character_event = { #Choosing Event that occures when you are researching, certa
 		trigger = {
 			religion = neuhumanist
 			has_character_modifier = intense_writing
-			NOT = { trait = imbecile }
-			NOT = { trait = inbred }
-			NOT = { trait = incapable }
+			OR = {
+				NOT = { trait = imbecile }
+				NOT = { trait = inbred }
+				NOT = { trait = incapable }
+			}
 			learning = 12
 		}
 		
@@ -340,3 +363,91 @@ character_event = { #Choosing Event that occures when you are researching, certa
 		}
 	}
 
+#End State of the Philosphical Writing Event
+
+	narrative_event = {
+		id = neuhumanist.7
+		title = EVTNAME_neuhumanist_end_of_writing
+		desc = {
+			trigger = {
+				has_character_flag = philosophizing_results_excellent
+			}
+			text = EVTDESC_neuhumanist_excellent_results
+		}
+		desc = {
+			trigger = {
+				has_character_flag = philosophizing_results_good
+			}
+			text = EVTDESC_neuhumanist_good_results
+		}
+		desc = {
+			trigger = {
+				has_character_flag = philosophizing_results_acceptable
+			}
+			text = EVTDESC_neuhumanist_acceptable_results
+		}
+		desc = {
+			trigger = {
+				has_character_flag = philosophizing_results_bad
+			}
+			text = EVTDESC_neuhumanist_bad_results
+		}
+		is_triggered_only = yes
+		
+		trigger = {
+			religion = neuhumanist
+			OR = {
+				has_character_flag = philosophizing_results_excellent
+				has_character_flag = philosophizing_results_good
+				has_character_flag = philosophizing_results_acceptable
+				has_character_flag = philosophizing_results_bad
+			}
+		}
+		
+		option = {
+			trigger = {
+				has_character_flag = philosophizing_results_excellent
+			}
+			name = OPT_i_comprehend_the_five_maxims
+			prestige = 100
+			piety = 100
+			neuhumanist_opinion = 10
+			remove_character_flag = philosophizing_results_excellent
+			add_character_modifier = {name = philosophic_work_done duration = {months = 24}}
+		}
+		
+		option = {
+			trigger = {
+				has_character_flag = philosophizing_results_good
+			}
+			name = OPT_i_am_well_learnt
+			prestige = 50
+			piety = 50
+			neuhumanist_opinion = 5
+			remove_character_flag = philosophizing_results_good
+			add_character_modifier = {name = philosophic_work_done duration = {months = 24}}
+		}
+		
+		option = {
+			trigger = {
+				has_character_flag = philosophizing_results_acceptable
+			}
+			name = OPT_there_is_much_to_learn
+			prestige = 25
+			piety = 25
+			remove_character_flag = philosophizing_results_acceptable
+			add_character_modifier = {name = philosophic_work_done duration = {months = 24}}
+		}
+		
+		option = {
+			trigger = {
+				has_character_flag = philosophizing_results_bad
+			}
+			name = OPT_aaaaaaaaa_no
+			prestige = -25
+			piety = -25
+			neuhumanist_opinion = -10
+			remove_character_flag = philosophizing_results_bad
+			add_character_modifier = {name = philosophic_work_done duration = {months = 24}}
+		}
+	}

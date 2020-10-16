@@ -1,26 +1,81 @@
 decisions = {
 	lead_research = { #Philosophical wankery
-	only_playable = no
-	ai_check_interval = 36
-	
-	potential = { 
-			religion = neuhumanist
-			is_playable = yes
-			NOT = {
+		is_high_prio = yes
+		
+		ai_check_interval = 24
+		
+		potential = {
+			NOT = { #immersion-breaking
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
-			
-	allow = { 
-			prisoner = no
-			is_into_hiding = no
-			wealth = 60
+			OR = {
+				is_ruler = yes
+				controls_religion = yes
 			}
+			religion = neuhumanist
+			age = 16
+			prisoner = no
+			NOT = { is_incapable = yes }
+			NOT = { has_character_modifier = intense_writing }
+			NOT = { has_character_flag = currently_working_on_a_book }
+			NOT = { has_character_flag = wanting_to_quit }
+		}
+		allow = {
+			war = no
+			NOT = { has_character_modifier = recent_writings }
+		}
+		effect = {
+			add_character_modifier = { name = intense_writing duration = -1 }
+			hidden_tooltip = {
+				character_event = {
+					id = neuhumanist.2
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.3 }
+			modifier = { factor = 2	trait = zealous }
+			modifier = { factor = 2	trait = diligent }
+			modifier = { factor = 0.3 trait = slothful }
+			modifier = { factor = 0.3 trait = cynical }
+		}
+	}
 	
-	effect = {
-			wealth = -60
-			narrative_event = { id = neuhumanist.2 } 
+	end_research = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 24
+		
+		potential = {
+			NOT = { #immersion-breaking
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			OR = {
+				is_ruler = yes
+				controls_religion = yes
+			}
+			religion = neuhumanist
+			age = 16
+			OR = {
+			has_character_modifier = intense_writing
+			has_character_flag = wanting_to_quit
+			}
+		}
+		effect = {
+			remove_character_modifier = intense_writing
+			piety = -50
+			prestige = -50
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 }
+		}
 	}
-	ai_will_do = {
-		factor = 1
-	}
-} 
+}
