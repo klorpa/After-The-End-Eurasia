@@ -19,10 +19,11 @@ decisions = {
 			NOT = { has_character_modifier = intense_writing }
 			NOT = { has_character_flag = currently_working_on_a_book }
 			NOT = { has_character_flag = wanting_to_quit }
+			NOT = { has_character_modifier = philosophic_work_done}
 		}
 		allow = {
 			war = no
-			NOT = { has_character_modifier = recent_writings }
+			NOT = { has_character_modifier = philosophic_work_done}
 		}
 		effect = {
 			add_character_modifier = { name = intense_writing duration = -1 }
