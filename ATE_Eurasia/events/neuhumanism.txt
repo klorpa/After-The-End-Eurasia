@@ -120,13 +120,15 @@ character_event = { #Choosing Event that occures when you are researching, certa
 	
 	immediate = {
 		remove_character_modifier = intense_writing
-	}		
+	}	
+	
 	option = {
 		name = EVTOPT_neuhumanist_writers_block_focused
 		trigger = { trait = diligent }
 		add_character_modifier = { name = intense_writing duration = -1 }
 		ai_chance = { factor = 100 }
 	}
+	
 	option = {
 		name = EVTOPT_neuhumanist_writers_block_scholar
 		trigger = {
@@ -139,6 +141,7 @@ character_event = { #Choosing Event that occures when you are researching, certa
 		add_character_modifier = { name = intense_writing duration = -1 }
 		ai_chance = { factor = 100 }
 	}
+	
 	option = {
 		name = EVTOPT_neuhumanist_writers_block_ask_help
 		trigger = { 
@@ -150,6 +153,7 @@ character_event = { #Choosing Event that occures when you are researching, certa
 		add_character_modifier = { name = intense_writing duration = -1 }
 		ai_chance = { factor = 100 }
 	}
+	
 	option = {
 		name = EVTOPT_neuhumanist_write_block_stress
 		random_list = {
@@ -162,31 +166,32 @@ character_event = { #Choosing Event that occures when you are researching, certa
 		}
 		ai_chance = { factor = 25 }
 	}
+	
 	option = {
 		name = EVTOPT_neuhumanist_write_block_quit
 		prestige = -50
 		piety = -50
 		ai_chance = { factor = 50 }
 		set_character_flag = { name = wanting_to_quit duration = -1 }
-		}	
-	}
-	character_event = { #You wrote something bad, you take a loss to prestige and piety and you get a bit of a bad reputation.
-		id = neuhumanist.4
-		title = EVTNAME_neuhumanist_writing_bad
-		desc = EVTDESC_neuhumanist_writing_bad
-		picture = GFX_evt_library
+	}	
+}
+character_event = { #You wrote something bad, you take a loss to prestige and piety and you get a bit of a bad reputation.
+	id = neuhumanist.4
+	title = EVTNAME_neuhumanist_writing_bad
+	desc = EVTDESC_neuhumanist_writing_bad
+	picture = GFX_evt_library
 		
 		trigger = {
-		has_character_modifier = intense_writing
-		NOT = { trait = genius }
-		NOT = { trait = quick }
-		OR = {
-			learning = 7
-			trait = lunatic
-			trait = possessed
-			trait = slow
-			trait = imbecile
-			trait = inbred
+			has_character_modifier = intense_writing
+			NOT = { trait = genius }
+			NOT = { trait = quick }
+			OR = {
+				learning = 7
+				trait = lunatic
+				trait = possessed
+				trait = slow
+				trait = imbecile
+				trait = inbred
 			}
 		}
 		
@@ -208,14 +213,13 @@ character_event = { #Choosing Event that occures when you are researching, certa
 					religion = neuhumanist
 					same_realm = ROOT
 				}
-				character_event = { id = neuhumanist.5 }
+				character_event = { id = neuhumanist.4 }
 			}
 			add_character_modifier = { name = recent_writings duration = 180 }
 		}
 		option = {
 			name = EVTOPT_neuhumanist_write_lapse
 			trigger = { learning = 10 }
-			tooltip_info = learning
 			prestige = -50
 			ai_chance = { factor = 50 }
 			
@@ -223,9 +227,9 @@ character_event = { #Choosing Event that occures when you are researching, certa
 		option = {
 			name = EVTOPT_neuhumanist_educate_self
 			prestige = -50
-			scaled_wealth = -1
+			scaled_wealth = 1
 			random = { chance = 50 change_learning = 1 }
-			religion_authority = { modifier = unenlightened_philospher }
+			religion_authority = { add_character_modifier = disgraced_philospher }
 			ai_chance = {
 				factor = 30
 				modifier = { factor = 2 trait = humble }
@@ -238,7 +242,7 @@ character_event = { #Choosing Event that occures when you are researching, certa
 			name = EVTOPT_educate_write_pride
 			prestige = -50
 			piety = -100
-			religion_authority = { modifier = unenlightened_philospher }
+			religion_authority = { add_character_modifier = disgraced_philospher }
 			hidden_tooltip = {
 				ROOT = {
 					limit = { religion = neuhumanist }
@@ -257,7 +261,7 @@ character_event = { #Choosing Event that occures when you are researching, certa
 			modifier = { factor = 2 trait = arbitrary }
 			}
 		}
-	}
+}
 	character_event = {
 		id = neuhumanist.5
 		desc = EVTDESC_neuhumanist_write_competent
@@ -361,6 +365,75 @@ character_event = { #Choosing Event that occures when you are researching, certa
 			add_character_modifier = { name = writing_inspiration_neuhumanist duration = 120 }
 			opinion = { modifier = opinion_inspiring who = FROM years = 10 }
 		}
+	}
+	character_event = { #You need some books to help with your research, you can spend gold or use other traits to move forward or of course give up
+		id = neuhumanist.8
+		desc = EVTDESC_neuhumanist_write_book
+		picture = GFX_evt_library
+
+		trigger = {
+				religion = neuhumanist
+				has_character_modifier = intense_writing
+			}
+
+		mean_time_to_happen = {
+			months = 12
+			modifier = { factor = 2 trait = diligent }
+			modifier = { factor = 1 trait = quick }
+			modifier = { factor = 2 trait = genius }
+			modifier = { factor = 1 trait = scholar }
+			modifier = { factor = 1 trait = erudite }
+			modifier = { factor = 1 trait = theologian }
+			modifier = { factor = 0.5 trait = slothful }
+			modifier = { factor = 0.1 trait = imbecile }
+			modifier = { factor = 0.5 trait = stressed }
+			modifier = { factor = 0.5 trait = depressed }
+		}
+		
+		immediate = {
+			remove_character_modifier = intense_writing
+		}
+		
+		option = {
+			name = EVTOPT_neuhumanist_research_book_buy
+			scaled_wealth = 1
+			add_character_modifier = { name = intense_writing duration = -1 }
+			ai_chance = { factor = 50 }
+		}
+		option = {
+			name = EVTOPT_neuhumanist_research_book_scholar
+			trigger = {
+				learning = 8
+				OR = {
+					trait = scholar
+					trait = erudite
+					trait = theologian
+				}
+			}
+			scaled_wealth = 0.5
+			add_character_modifier = { name = intense_writing duration = -1 }
+			ai_chance = { factor = 100 }
+		}
+		option = {
+			name = EVTOPT_neuhumanist_research_book_steal
+			trigger = {
+				intrigue = 8
+				OR = {
+					trait = deceitful
+					trait = schemer
+				}
+			}
+			piety = -50
+			add_character_modifier = { name = intense_writing duration = -1 }
+			ai_chance = { factor = 100 }
+		}
+		option = {
+			name = EVTOPT_neuhumanist_research_book_quit
+			prestige = -50
+			piety = -50
+			ai_chance = { factor = 50 }
+			set_character_flag = { name = wanting_to_quit duration = -1 }
+		}	
 	}
 
 #End State of the Philosphical Writing Event

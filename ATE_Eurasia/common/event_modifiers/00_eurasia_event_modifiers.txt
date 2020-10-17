@@ -6,15 +6,22 @@ valinor_vana_preg = {
 intense_writing = {
 	icon = 34
 }
+recent_writings = {
+	icon = 2
+}
 writing_inspiration_neuhumanist = {
 	icon = 85
 	neuhumanist_opinion = 5
 }
-unenlightened_philospher = {
-	icon = 20
+disgraced_philospher = {
+	icon = 86
 	neuhumanist_opinion = -5
 }
 philosophic_work_done = {
 	icon = 3 
 	monthly_character_piety = 0.5
+}
+unenlightened_emperor = {
+	local_revolt_risk = 0.01
+	icon = 98
 }
