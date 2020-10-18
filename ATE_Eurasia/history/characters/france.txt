@@ -794,7 +794,7 @@
 
 1804065={
     	name="Robert"
-    	dynasty=2008244 #Comte
+    	dynasty=2008245 #Comte
     	culture=occitan
     	religion=jacobin
     	diplomacy=6
@@ -898,7 +898,7 @@
 	learning=6
 	trait=mastermind_theologian
 	trait=gardener
-	trait=frail
+	trait=feeble
 	trait=quick
 	trait=shrewd
 	trait=patient
@@ -961,6 +961,9 @@
 	trait=impaler
 	trait=wroth
 	2636.5.19={birth=yes}
+	2636.5.21={
+		add_nickname=nick_the_surfer
+	}
 	2656.6.6={
 		add_spouse=180475
 	}
@@ -1233,7 +1236,7 @@
 	trait=mastermind_theologian
 	trait=mystic
 	trait=erudite
-	trait=frail
+	trait=feeble
 	trait=chaste
 	trait=paranoid
 	trait=zealous
@@ -1367,4 +1370,81 @@
 	father=1804092
 	mother=1804093
 	2659.2.4={birth=yes}
+}
+180495={
+	name="Gustau"
+	dynasty=2008255 #Maíchelùn
+	culture=occitan
+	religion=catholic
+	diplomacy=4
+	martial=6
+	stewardship=9
+	intrigue=6
+	learning=4
+	trait=midas_touched
+	trait=sturdy
+	trait=uncouth
+	trait=diligent
+	trait=ambitious
+	trait=cruel
+	trait=wroth
+	trait=greedy
+	trait=selfish
+	2627.6.12={birth=yes}
+	2649.8.22={
+		add_spouse=1804096
+}
+1804096={
+	name="Amèlia"
+	female=yes
+	dynasty=2008251 #Fauré
+	culture=occitan
+	religion=catholic
+	diplomacy=4
+	martial=6
+	stewardship=5
+	intrigue=4
+	learning=7
+	trait=thrifty_clerk
+	trait=content
+	trait=ruthless
+	trait=gregarious
+	trait=stubborn
+	trait=just
+	2633.1.11={birth=yes}
+}
+1804097={
+	name="Adrian"
+	dynasty=2008255 #Maíchelùn
+	culture=occitan
+	religion=catholic
+	diplomacy=5
+	martial=7
+	stewardship=6
+	intrigue=5
+	learning=5
+	trait=skilled_tactician
+	trait=ambitious
+	trait=proud
+	trait=honest
+	father=1804095
+	mother=1804096
+	2650.5.2={birth=yes}
+}
+1804098={
+	name="Ofèlia"
+	female=yes
+	dynasty=2008255 #Maíchelùn
+	culture=occitan
+	religion=catholic
+	diplomacy=2
+	martial=2
+	stewardship=3
+	intrigue=2
+	learning=3
+	trait=conscentious
+	trait=brooding
+	father=1804095
+	mother=1804096
+	2656.11.26={birth=yes}
 }
