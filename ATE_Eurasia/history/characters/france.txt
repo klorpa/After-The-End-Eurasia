@@ -961,8 +961,12 @@
 	trait=impaler
 	trait=wroth
 	2636.5.19={birth=yes}
-	2636.5.21={give_nickname=nick_the_surfer}
-	2656.6.6={add_spouse=180475}
+	2636.5.21={
+		give_nickname=nick_the_surfer
+	}
+	2656.6.6={
+		add_spouse=180475
+	}
 }
 180475={
 	name="Adèla"
@@ -1091,7 +1095,7 @@
 	religion=sun_king_cultist
 	diplomacy=3
 	martial=2
-	stewardship=4
+	stewardshship=4
 	intrigue=5
 	learning=3
 	trait=indulgent_wastrel
@@ -1583,6 +1587,7 @@
 }
 1804106={
 	name="Joséphine"
+	female=yes
 	dynasty=2009226 #Hauteroute
 	culture=parisian
 	religion=sun_king_cultist
@@ -1599,4 +1604,97 @@
 	trait=freckles
 	trait=fair
 	2648.10.19={birth=yes}
+}
+1804107={
+	name="Stanislas"
+	dynasty=2009228 #Outreterre
+	culture=parisian
+	religion=jacobin
+	diplomacy=6
+	martial=9
+	stewardship=5
+	intrigue=5
+	learning=6
+	trait=skilled_tactician
+	trait=flat_terrain_leader
+	trait=humble
+	trait=patient
+	trait=gluttonous
+	trait=honest
+	2630.6.6={birth=yes}
+	2656.9.8={
+		add_spouse=1804108
+	}
+}
+1804108={
+	name="Mathilde"
+	female=yes
+	dynasty=2009229 #Dubellay
+	culture=parisian
+	religion=jacobin
+	diplomacy=6
+	martial=5
+	stewardship=6
+	intrigue=5
+	learning=4
+	2637.2.11={birth=yes}
+}
+1804109={
+	name="Léonie"
+	female=yes
+	dynasty=2009228 #Outreterre
+	culture=parisian
+	religion=jacobin
+	diplomacy=2
+	martial=2
+	stewardship=1
+	intrigue=1
+	learning=2
+	trait=conscentious
+	trait=fussy
+	father=1804107
+	mother=1804108
+	2660.12.1={birth=yes}
+}
+1804110={
+	name="Louì"
+	dynasty=2011205 #Luxière
+	culture=arpitan
+	religion=aphite
+	diplomacy=5
+	martial=4
+	stewardship=5
+	intrigue=5
+	learning=9
+	trait=mastermind_theologian
+	trait=musician
+	trait=poet
+	trait=shrewd
+	trait=patient
+	trait=content
+	trait=proud
+	trait=slothful
+	2649.1.1={birth=yes}
+	2665.2.10={
+		add_spouse=1804111
+	}
+}
+1804111={
+	name="Oliva"
+	dynasty=2011206 #Aulas
+	culture=arpitan
+	religion=aphite
+	diplomacy=5
+	martial=3
+	stewardship=7
+	intrigue=6
+	learning=7
+	trait=thrifty_clerk
+	trait=feeble
+	trait=lustful
+	trait=trusting
+	trait=honest
+	trait=stressed
+	trait=charitable
+	2649.1.11={birth=yes}
 }
