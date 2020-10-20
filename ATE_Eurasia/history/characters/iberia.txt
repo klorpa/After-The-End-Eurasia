@@ -747,6 +747,11 @@
 	dynasty=2017251 #Vallé
 	culture=catalan
 	religion=catholic
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=6
+	learning=7
 	trait=scholarly_theologian
 	trait=genius
 	trait=fair
@@ -761,6 +766,11 @@
 	dynasty=2017252 #Barbés
 	culture=catalan
 	religion=catholic
+	diplomacy=5
+	martial=3
+	stewardship=7
+	intrigue=5
+	learning=6
 	trait=fortune_builder
 	trait=administrator
 	trait=erudite
@@ -772,4 +782,112 @@
 	2660.1.1={
 		add_weak_claim=k_france
 	}
+1713018={
+	name="Alonso"
+	dynasty=2020111 #Moquesuma
+	culture=leonese
+	religion=catholic
+	diplomacy=6
+	martial=7
+	intrigue=6
+	learning=5
+	trait=skilled_tactician
+	trait=mystic
+	trait=cruel
+	trait=diligent
+	trait=shrewd
+	trait=honest
+	trait=wroth
+	trait=gluttonous
+	2645.10.22={birth=yes}
+	2661.11.2={
+		add_spouse=1713019
+	}
+}
+1713019={
+	name="Isabel"
+	female=yes
+	dynasty=2020112 #Almendarez
+	culture=leonese
+	religion=catholic
+	diplomacy=5
+	martial=5
+	stewardship=7
+	intrigue=6
+	learning=6
+	trait=fortune_builder
+	trait=fair
+	trait=temperate
+	trait=charitable
+	trait=chaste
+	trait=paranoid
+	trait=slothful
+	trait=cynical
+	father=1713020
+	mother=1713021
+	2644.2.18={birth=yes}
+}
+1713020={
+	name="Ignacio"
+	dynasty=2020112 #Almendarez
+	culture=leonese
+	religion=catholic
+	diplomacy=9
+	martial=6
+	stewardship=6
+	intrigue=6
+	learning=4
+	trait=mastermind_theologian
+	trait=socializer
+	trait=gregarious
+	trait=drunkard
+	trait=greedy
+	trait=paranoid
+	trait=zealous
+	2601.5.6={birth=yes}
+	2631.11.29={
+		add_spouse=1713021
+	}
+}
+1713021={
+	name="Inés"
+	female=yes
+	dynasty=2020113 #Covarrubias
+	culture=leonese
+	religion=catholic
+	diplomacy=5
+	martial=3
+	stewardship=4
+	intrigue=6
+	learning=6
+	trait=intricate_webweaver
+	trait=shy
+	trait=gluttonous
+	trait=wroth
+	trait=stressed
+	trait=deceitful
+	trait=chaste
+	2612.4.9={birth=yes}
+}
+1713022={
+	name="Youssef"
+	dynasty=2020112 #Almendarez
+	culture=leonese
+	religion=catholic
+	diplomacy=7
+	martial=6
+	stewardship=7
+	intrigue=5
+	learning=6
+	trait=brilliant_strategist
+	trait=heavy_infantry_leader
+	trait=fair
+	trait=diligent
+	trait=honorable
+	trait=greedy
+	trait=zealous
+	trait=humble
+	father=1713020
+	mother=1713021
+	2638.6.27={birth=yes}
 }

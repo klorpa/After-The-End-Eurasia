@@ -798,6 +798,7 @@ e_italy = {
 					sardinian="Torinu"
 					ligurian="Torin"
 					lombard="Türì"
+					holy_site = chronicler
 				}
 				b_rivoli = {
 					piedmontese="Rìvole"
@@ -1891,7 +1892,8 @@ e_italy = {
 				occitan="Roma"
 				provencal="Roma"
 				
-				b_vatican = {}
+				b_vatican = { holy_site = chronicler
+				}
 				b_guidonia = {}
 				b_fiumicino = {}
 				b_tivoli = {}
