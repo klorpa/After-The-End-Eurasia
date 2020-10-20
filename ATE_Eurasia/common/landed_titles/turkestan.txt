@@ -6,11 +6,11 @@ e_turkestan = {
 	
 	capital = 970 #Almaty
 	
-	k_kazakhstan = {
+	k_saryarqa = {
 		color={ 25 220 200 }
 		color2 = { 255 255 255 }
 		
-		capital = 970 #Almaty
+		capital = 978 #Akmola
 		
 		d_akmola = {
 			color={ 95 122 133 }
@@ -54,63 +54,32 @@ e_turkestan = {
 				b_ishimka = {}
 				b_krasiviye = {}
 			}
-		}
-		d_almaty = {
-			color={ 10 216 223 }
-			color2={ 255 255 255 }
-			
-			capital = 970 #Almaty
-			
-			c_almaty = {
+			c_kokshetau = {
 				color={ 150 150 150 }
 				color2={ 255 255 255 }
 				
-				b_almaty = {}
-				b_kapchagay = {}
-				b_kaskelen = {}
-				b_talgar = {}
-				b_uzynagash = {}
-				b_kurty = {}
-				b_kargaly = {}
+				b_kokshetau = {}
+				b_zerenda = {}
+				b_yelenovka = {}
+				b_akkol = {}
+				b_krasnyl_yar = {}
+				b_kenesary = {}
+				b_alekseevka = {}
 			}
-			c_alakol = {
+			c_shchuchinsk = {
 				color={ 150 150 150 }
 				color2={ 255 255 255 }
 				
-				b_usharal = {}
-				b_urzhar = {}
-				b_beskol = {}
-				b_kabanbay = {}
-				b_zhanama = {}
-				b_alakol = {}
-				b_zharbulak = {}
-			}
-			c_bakanas = {
-				color={ 150 150 150 }
-				color2={ 255 255 255 }
-				
-				b_bakanas = {}
-				b_topar = {}
-				b_balatopar = {}
-				b_zhideli = {}
-				b_araltobe = {}
-				b_akzhar = {}
-				b_karaoy = {}
-			}
-			c_aksu = {
-				color={ 150 150 150 }
-				color2={ 255 255 255 }
-				
-				b_taldykorgan = {}
-				b_zhansugirov = {}
-				b_aksu = {}
-				b_balpyk_bi = {}
-				b_ushtobe = {}
-				b_kalpe = {}
-				b_kuraksu = {}
+				b_shchuchinsk = {}
+				b_makinsk = {}
+				b_burabay = {}
+				b_stepnyak = {}
+				b_zhanalyk = {}
+				b_katarkol = {}
+				b_saule = {}
 			}
 		}
-		d_karaganda = {
+		d_karagandy = {
 			color={ 42 121 241 }
 			color2={ 255 255 255 }
 			
@@ -126,19 +95,7 @@ e_turkestan = {
 				b_abay = {}
 				b_botakara = {}
 				b_rostovka = {}
-				b_kokpekty = {}
-			}
-			c_nura = {
-				color={ 150 150 150 }
-				color2={ 255 255 255 }
-				
-				b_nura = {}
-				b_kievka = {}
-				b_kazagorodok = {}
-				b_baitugan = {}
-				b_shakhterskoe = {}
-				b_zarechnoe = {}
-				b_kulanotpes = {}
+				b_kokpekty_2 = {}
 			}
 			c_balkhash = {
 				color={ 150 150 150 }
@@ -164,18 +121,6 @@ e_turkestan = {
 				b_koktenkol = {}
 				b_burma = {}
 			}
-			c_zhanaarka = {
-				color={ 150 150 150 }
-				color2={ 255 255 255 }
-				
-				b_atasu = {}
-				b_karamola = {}
-				b_karazhal = {}
-				b_zhairem = {}
-				b_qyzylzhar = {}
-				b_shalginskiy = {}
-				b_aktau = {}
-			}
 			c_karkaraly = {
 				color={ 150 150 150 }
 				color2={ 255 255 255 }
@@ -187,6 +132,61 @@ e_turkestan = {
 				b_aktasty = {}
 				b_zharly = {}
 				b_koyandy = {}
+			}
+		}
+		d_zhezqazghan = {
+			color={ 93 135 200 }
+			color2={ 255 255 255 }
+			
+			capital = 551 #Zhezqazghan
+			
+			c_zhezqazghan = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_zhezqazghan = {}
+				b_satpayev = {}
+				b_kengir = {}
+				b_terekty = {}
+				b_nikolskiy = {}
+				b_geologicheski = {}
+				b_mybulak = {}
+			}
+			c_ulytau = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_ulytau = {}
+				b_karsakbay = {}
+				b_zhezdy = {}
+				b_sarlyk = {}
+				b_baykonur = {}
+				b_koskol = {}
+				b_poselok_severnyy = {}
+			}
+			c_nura = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_nura = {}
+				b_kievka = {}
+				b_kazagorodok = {}
+				b_baitugan = {}
+				b_shakhterskoe = {}
+				b_zarechnoe = {}
+				b_kulanotpes = {}
+			}
+			c_zhanaarka = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_atasu = {}
+				b_karamola = {}
+				b_karazhal = {}
+				b_zhairem = {}
+				b_qyzylzhar = {}
+				b_shalginskiy = {}
+				b_aktau_2 = {}
 			}
 		}
 		d_kostanay = {
@@ -228,7 +228,7 @@ e_turkestan = {
 				b_denisovka = {}
 				b_bestobye = {}
 				b_lisakovsk = {}
-				b_pushkino = {}
+				b_pushkino_2 = {}
 				b_kamyshnoye = {}
 			}
 			c_karasu = {
@@ -244,23 +244,23 @@ e_turkestan = {
 				b_zapadnoye = {}
 			}
 		}
-		d_oskemen = {
-			color={ 22 24 153 }
+		d_shygys_saryarqa = {
+			color={ 142 200 176 }
 			color2={ 255 255 255 }
 			
-			capital = 1213 #Oskemen
+			capital = 804 #Urzhar
 
-			c_oskemen = {
+			c_urzhar = {
 				color={ 150 150 150 }
 				color2={ 255 255 255 }
 				
-				b_oskemen = {}
-				b_belousovka = {}
-				b_ridder = {}
-				b_shemonaikha = {}
-				b_glubokoe = {}
-				b_zimovjo = {}
-				b_sekisovka = {}
+				b_urzhar = {}
+				b_taskesken = {}
+				b_makanchi = {}
+				b_karabulak_3 = {}
+				b_zharbulak = {}
+				b_zhalanashkol = {}
+				b_naualy = {}
 			}
 			c_aktogay = {
 				color={ 150 150 150 }
@@ -286,20 +286,62 @@ e_turkestan = {
 				b_koryk = {}
 				b_kosagosh = {}
 			}
-			c_kokpekti = {
+		}
+		d_almaty = {
+			color={ 10 216 223 }
+			color2={ 255 255 255 }
+			
+			capital = 970 #Almaty
+			
+			c_almaty = {
 				color={ 150 150 150 }
 				color2={ 255 255 255 }
 				
-				b_kokpekty = {}
-				b_qalbatau = {}
-				b_ulanskoye = {}
-				b_molodyozhnij = {}
-				b_bastaushy = {}
-				b_verkhnie_tainty = {}
-				b_zhangiztobe = {}
+				b_almaty = {}
+				b_kapchagay = {}
+				b_kaskelen = {}
+				b_talgar = {}
+				b_uzynagash = {}
+				b_kurty = {}
+				b_kargaly = {}
+			}
+			c_alakol = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_usharal = {}
+				b_sarkand = {}
+				b_beskol = {}
+				b_kabanbay = {}
+				b_zhanama = {}
+				b_alakol = {}
+				b_lepsy = {}
+			}
+			c_bakanas = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_bakanas = {}
+				b_topar = {}
+				b_balatopar = {}
+				b_zhideli = {}
+				b_araltobe_2 = {}
+				b_akzhar_2 = {}
+				b_karaoy = {}
+			}
+			c_aksu = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_taldykorgan = {}
+				b_zhansugirov = {}
+				b_aksu = {}
+				b_balpyk_bi = {}
+				b_ushtobe = {}
+				b_kalpe = {}
+				b_kuraksu = {}
 			}
 		}
-		
 		d_kyzylorda = {
 			color={ 49 187 166 }
 			color2={ 255 255 255 }
@@ -327,20 +369,8 @@ e_turkestan = {
 				b_engels_2 = {}
 				b_dzhusaly = {}
 				b_akzhar = {}
-				b_lenino = {}
+				b_lenino_2 = {}
 				b_toretam = {}
-			}
-			c_ulytau = {
-				color={ 150 150 150 }
-				color2={ 255 255 255 }
-				
-				b_ulytau = {}
-				b_zhezqazghan = {}
-				b_satpayev = {}
-				b_karsakbay = {}
-				b_kengir = {}
-				b_zhezdy = {}
-				b_terekty = {}
 			}
 			c_zhanakorgan = {
 				color={ 150 150 150 }
@@ -364,11 +394,11 @@ e_turkestan = {
 				b_zhuantobe = {}
 				b_ulanbel = {}
 				b_baytal = {}
-				b_karaboget = {}
+				b_talaski = {}
 			}
 		}
-		d_zhambyl = {
-			color={ 145 110 210 }
+		d_jambyl = {
+			color={ 105 110 210 }
 			color2={ 255 255 255 }
 			
 			capital = 1299 #Taraz
@@ -382,7 +412,7 @@ e_turkestan = {
 				b_asa = {}
 				b_mikhaylovka_2 = {}
 				b_myrzatay = {}
-				b_zhambul = {}
+				b_zhambul_2 = {}
 				b_zhalpaktobe = {}
 			}
 			c_turkistan = {
@@ -428,10 +458,22 @@ e_turkestan = {
 				b_moiynkum = {}
 				b_zhasulam = {}
 				b_mirnyy = {}
-				b_shyganak = {}
+				b_shyganak_2 = {}
 				b_mynaral = {}
 				b_kashkanteniz = {}
 				b_karaboget = {}
+			}
+			c_bishkek = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_bishkek = {}
+				b_tokmok = {}
+				b_kara_balta = {}
+				b_belovodskoe = {}
+				b_kant = {}
+				b_sokuluk = {}
+				b_kalinovka = {}
 			}
 		}
 	}
@@ -467,7 +509,7 @@ e_turkestan = {
 				b_zhanbay = {}
 				b_ganyushkino = {}
 				b_isatay = {}
-				b_akkol = {}
+				b_akkol_2 = {}
 				b_akkystau = {}
 				b_utery = {}
 				b_shortanbay = {}
@@ -480,7 +522,7 @@ e_turkestan = {
 				b_turgyzba = {}
 				b_koschagyl = {}
 				b_tengiz = {}
-				b_komsomolskiy = {}
+				b_komsomolskiy_2 = {}
 				b_nova_karaton = {}
 				b_qaraton = {}
 			}
@@ -547,7 +589,7 @@ e_turkestan = {
 				b_chapaev = {}
 				b_mergenevo = {}
 				b_oyan = {}
-				b_chizha = {}
+				b_chizha_2 = {}
 				b_shagatay = {}
 				b_lbishenskoe = {}
 			}
@@ -556,7 +598,7 @@ e_turkestan = {
 				color2={ 255 255 255 }
 				
 				b_zhympity = {}
-				b_aksay = {}
+				b_aksay_3 = {}
 				b_shyngyrlau = {}
 				b_amangeldy = {}
 				b_borili = {}
@@ -577,10 +619,10 @@ e_turkestan = {
 				b_aktyubinsk = {}
 				b_martuk = {}
 				b_chernovodsk = {}
-				b_petropavlovka = {}
+				b_petropavlovka_2 = {}
 				b_alga = {}
 				b_karatogay = {}
-				b_akzhar = {}
+				b_akzhar_3 = {}
 			}
 			c_temir = {
 				color={ 150 150 150 }
@@ -590,7 +632,7 @@ e_turkestan = {
 				b_shubarkuduk = {}
 				b_kobda = {}
 				b_kemaly = {}
-				b_karatal = {}
+				b_karatal_2 = {}
 				b_zhekendy = {}
 				b_koptogay = {}
 			}
@@ -615,7 +657,7 @@ e_turkestan = {
 				b_karabutak = {}
 				b_kumkuduk = {}
 				b_terensay = {}
-				b_severnoye = {}
+				b_severnoye_2 = {}
 				b_komsomolskoye_2 = {}
 			}
 		}
@@ -889,12 +931,12 @@ e_turkestan = {
 				color2={ 255 255 255 }
 				
 				b_moynoq = {}
-				b_kungirot = {}
 				b_tokmak_2 = {}
 				b_karakoltyk = {}
 				b_shagyrlyk = {}
 				b_shege = {}
 				b_porlatau = {}
+				b_kazakhdarya = {}
 			}
 			c_kungrad = {
 				color={ 150 150 150 }
@@ -959,11 +1001,171 @@ e_turkestan = {
 		}
 	}
 	
-	k_karakalpakstan = {
+	k_altay = {
 		color={ 195 201 110 }
 		color2 = { 255 255 255 }
 		
-		capital = 945 #Nukus
+		capital = 1213 #Oskemen
 	
+		d_oskemen = {
+			color={ 222 200 153 }
+			color2={ 255 255 255 }
+			
+			capital = 1213 #Oskemen
+
+			c_oskemen = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_oskemen = {}
+				b_belousovka = {}
+				b_ridder = {}
+				b_shemonaikha = {}
+				b_glubokoe = {}
+				b_zimovjo = {}
+				b_sekisovka = {}
+			}
+			c_kokpekti = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_kokpekty = {}
+				b_qalbatau = {}
+				b_ulanskoye = {}
+				b_molodyozhnij = {}
+				b_bastaushy = {}
+				b_verkhnie_tainty = {}
+				b_zhangiztobe = {}
+			}
+			c_semey = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_semey = {}
+				b_znamenka_2 = {}
+				b_beskarahay = {}
+				b_semeytau = {}
+				b_semyonovka = {}
+				b_borodulikha = {}
+				b_zhezkent = {}
+			}
+			c_kurshim = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_kurshim = {}
+				b_arshaty = {}
+				b_terekty_2 = {}
+				b_chernyahevka = {}
+				b_amanat = {}
+				b_verkhnyaya_beryozovka = {}
+				b_bolshenarymskoe = {}
+			}
+			c_tarbagatay = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_aksuat = {}
+				b_zaysan = {}
+				b_kabanbay_2 = {}
+				b_tughyl = {}
+				b_uan = {}
+				b_akzhar_4 = {}
+				b_karatal = {}
+			}
+		}
+	}
+	k_sibir = {
+		color={ 156 202 210 }
+		color2 = { 255 255 255 }
+		
+		capital = 1220 #Omsk
+		
+		d_petropavl = {
+			color={ 141 190 253 }
+			color2={ 255 255 255 }
+			
+			capital = 983 #Petropavl
+			
+			c_petropavl = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_petropavl = {}
+				b_tayinsha = {}
+				b_mamlyutka = {}
+				b_sergeevka = {}
+				b_bishkul = {}
+				b_smirnovo = {}
+				b_bulaevo = {}
+			}
+			c_shal_akyn = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_sergeyevka = {}
+				b_novoishimskoye = {}
+				b_ruzaevka = {}
+				b_presnovka = {}
+				b_saumalkol = {}
+				b_chistopolye = {}
+				b_zolotonosha_2 = {}
+			}
+			c_ualikhanov = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_kishkenekol = {}
+				b_talshik = {}
+				b_alkaterek = {}
+				b_chkalovo = {}
+				b_ilyichevka = {}
+				b_bidaikskoe = {}
+				b_sovkhoznoye = {}
+			}
+		}
+		d_pavlodar = {
+			color={ 175 211 198 }
+			color2={ 255 255 255 }
+			
+			capital = 1216 #Pavlodar
+
+			c_pavlodar = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_pavlodar = {}
+				b_sherbakty = {}
+				b_aksu_2 = {}
+				b_leninskiy = {}
+				b_krasnoharmeyka = {}
+				b_aqqu = {}
+				b_uspenka = {}
+			}
+			c_ekibastuz = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_ekibastuz = {}
+				b_bayanaul = {}
+				b_maykain = {}
+				b_shiderty = {}
+				b_bayet = {}
+				b_tendyk = {}
+				b_tortkuduk = {}
+			}
+			c_kashyr = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_kashyr = {}
+				b_zhanabet = {}
+				b_zhelezinka = {}
+				b_ertis = {}
+				b_krasokutsk = {}
+				b_priyrtyshskoye = {}
+				b_beregovoe = {}
+			}
+		}
 	}
 }
