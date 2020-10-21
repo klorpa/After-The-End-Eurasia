@@ -829,6 +829,9 @@
 	trait=patient
 	trait=cruel
 	2631.11.18={birth=yes}
+	2635.6.21={
+		add_claim=d_haut_languedoc
+	}
 	2660.1.1={
 		add_spouse=1804067
 	}
@@ -944,7 +947,7 @@
 	trait=charitable
 	2633.7.4={birth=yes}
 }
-180474={
+1804074={
 	name="Jeremias"
 	dynasty=2008247 #Flores
 	culture=occitan
@@ -968,7 +971,7 @@
 		add_spouse=180475
 	}
 }
-180475={
+1804075={
 	name="Adèla"
 	female = yes
 	dynasty=2008248 #Bosc
@@ -988,7 +991,7 @@
 	trait=content
 	2634.10.31={birth=yes}
 }
-180476={
+1804076={
 	name="Camila"
 	female = yes
 	dynasty=2008247 #Flores
@@ -1005,7 +1008,7 @@
 	mother=18045
 	2658.4.13={birth=yes}
 }
-180477={
+1804077={
 	name="Mirèlha"
 	female = yes
 	dynasty=2008247 #Flores
@@ -1022,7 +1025,7 @@
 	mother=180475
 	2662.2.25={birth=yes}
 }
-180478={
+1804078={
 	name="Hubert"
 	dynasty=2009222 #Dubain
 	culture=parisian
@@ -1045,7 +1048,7 @@
 		add_spouse=180479
 	}
 }
-180479={
+1804079={
 	name="Émilie"
 	female = yes
 	dynasty=2009223 #Belloubet
@@ -1065,7 +1068,7 @@
 	trait=possessed
 	2620.9.20={birth=yes}
 }
-180480={
+1804080={
 	name="Raoul"
 	dynasty=2009222 #Dubain
 	culture=parisian
@@ -1087,7 +1090,7 @@
 	mother=180479
 	2640.4.4={birth=yes}
 }
-180481={
+1804081={
 	name="Karine"
 	female = yes
 	dynasty=2009222 #Dubain
@@ -1713,4 +1716,87 @@
 	trait=haughty
 	trait=bastard
 	2653.3.21={birth=yes}
+}
+1804113={
+	name="Jacme"
+	dynasty=2008256 #Amouroux
+	culture=occitan
+	religion=catholic
+	diplomacy=6
+	martial=5
+	stewardshship=7
+	intrigue=7
+	learning=4
+	trait=fortune_builder
+	trait=architect
+	trait=greedy
+	trait=cynical
+	trait=possessed
+	trait=stubborn
+	2624.11.2={birth=yes}
+}
+1804114={
+	name="Ramzi"
+	dynasty=2038221 #Boukhiam
+	culture=francarabe
+	religion=sunni
+	diplomacy=7
+	martial=4
+	stewardship=8
+	intrigue=9
+	learning=5
+	trait=elusive_shadow
+	trait=architect
+	trait=greedy
+	trait=diligent
+	trait=temperate
+	trait=drunkard
+	trait=selfish
+	trait=deceitful
+	trait=just
+	2640.1.6={birth=yes}
+	2640.1.7={
+		give_nickname=nick_the_surfer
+	}
+}
+1804115={
+	name="Marc"
+	dynasty=2008257 #Lacomár
+	culture=occitan
+	religion=catholic
+	diplomacy=4
+	martial=8
+	stewardship=7
+	intrigue=5
+	learning=5
+	trait=skilled_tactician
+	trait=zealous
+	trait=chaste
+	trait=duelist
+	trait=falconer
+	trait=gluttonous
+	trait=wroth
+	trait=envious
+	2465.10.13={birth=yes}
+}
+1804116={
+	name="Daunés"
+	dynasty=2008258 #Montesqiou
+	culture=occitan
+	religion=jacobin
+	diplomacy=8
+	martial=5
+	stewardship=8
+	intrigue=6
+	learning=7
+	trait=mastermind_theologian
+	trait=quick
+	trait=erudite
+	trait=feeble
+	trait=cynical
+	trait=chaste
+	trait=temperate
+	trait=slothful
+	trait=humble
+	2615.4.11={birth=yes}
 }
