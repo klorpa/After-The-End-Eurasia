@@ -362,21 +362,6 @@
 	2640.10.7={birth=yes}
 	2700.1.1={death=yes}
 }
-1805027={
-	name="Franz"
-	dynasty=1947003 #Weissbrunner
-	culture=swabian
-	religion=catholic
-	trait=charismatic_negotiator
-	trait=gardener
-	trait=kind
-	trait=diligent
-	trait=gregarious
-	trait=charitable
-	trait=zealous
-	2401.12.10={birth=yes}
-	2475.10.20={death=yes}
-}
 1805028={
 	name="Josef"
 	dynasty=1947003 #Weissbrunner
@@ -1077,7 +1062,6 @@
 	dynasty=1947003 #Weissbrunner
 	culture=swabian
 	religion=catholic
-	father=1805027
 	2440.11.21={birth=yes}
 	2504.6.20={death=yes}
 }
@@ -1105,13 +1089,14 @@
 	culture=swabian
 	religion=catholic
 	father=1805091
-	trait=diligent
-	trait=patient
+	trait=charismatic_negotiator
+	trait=gardener
 	trait=kind
-	trait=humble
+	trait=diligent
+	trait=gregarious
 	trait=charitable
-	trait=brave
-	give_nickname=nick_the_confessor
+	trait=zealous
+	give_nickname=nick_the_gentle
 	2522.9.24={birth=yes}
 	2554.7.20={add_spouse=1805080}
 	2573.10.18={death=yes}
@@ -1132,6 +1117,11 @@
 	culture=swabian
 	religion=catholic
 	father=1805093
+	trait=fortune_builder
+	trait=diligent
+	trait=kind
+	trait=gregarious
+	trait=honest
 	2577.8.14={birth=yes}
 	2611.11.30={death=yes}
 }
