@@ -1,0 +1,328 @@
+####################Seance in the Salon Events#######################
+#	By; Derrick
+
+# 1		Recieves Invitation for a Salon Visit
+# 2		Accept or Deny Salon Invitation
+# 3		Accept or Deny a drink (Absinthe)
+# 4		Seance Quest Start up (A truncated Vision Quest from ATE)
+# 5		Seance Quest -Event Selection-
+# 6		Seance Quest Ends
+# 7		Seance Result
+# 20	The Salon Trip has ended
+# 21	Clean up flags
+
+#Space for Muses for Seance (nh_seance.x)
+
+#100	Concordia (Muse of Harmony and Peace)
+#101	The Green Fairy (Muse of Surrealist)
+#102	The Hungry Man (Muse of Nilihism)
+#103	Salome (Muse of the Ubermensch)
+
+###############################################################
+namespace = nh_seance
+
+narrative_event = {
+	id = nh_seance.1
+	title = EVTNAME_nh_seance_prep
+	desc = EVTDESC_nh_seance_prep
+	picture = GFX_musing_in_the_salon
+
+	is_triggered_only = yes
+	weight_multiplier = {
+		days = 2
+	}
+	
+	option = {
+		name = EVTOPT_nh_seance_prep_humble
+		piety = 20
+		random_list = {
+			20 = { add_trait = humble }
+			10 = { add_trait = trusting }
+			70 = { }
+		}	
+		narrative_event = { id = nh_seance.2 days = 7 random = 10 }
+		ai_chance = { factor = 5 }
+	}
+}
+
+narrative_event = {
+	id = nh_seance.2
+	title = EVTNAME_the_invitation
+	desc = EVTDESC_the_invitation
+	picture = GFX_musing_in_the_salon
+
+	is_triggered_only = yes
+	trigger = { trait = on_pilgrimage }
+	immediate = {
+		set_character_flag = salon_talk
+	}
+	
+	option = {
+		name = EVTOPT_accept_invite_neuhumanist
+		prestige = 20
+		narrative_event = { id = nh_seance.3 days = 2}
+	}
+	option = {
+		name = EVTOPT_reject_invite_neuhumanist
+		prestige = 20
+		narrative_event = { id = nh_seance.20 days = 2}
+	}
+}
+narrative_event = {
+	id = nh_seance.3
+	title = EVTNAME_wanna_drink
+	desc = EVTDESC_wanna_drink
+	picture = GFX_musing_in_the_salon
+
+	is_triggered_only = yes
+	trigger = { trait = on_pilgrimage }
+	immediate = {
+		add_trait = humble
+	}
+	
+	option = {
+		name = EVTOPT_accept drink
+		piety = 20
+		narrative_event = { id = nh_seance.4 days = 2}
+		random_list = {
+			80 = {}
+			20 = {add_trait = drunkard}
+		}
+		add_character_modifier = {name = accepted_absinthe duration = -1}
+	}
+	option = {
+		name = EVTOPT_reject_drink
+		prestige = 20
+		narrative_event = { id = nh_seance.4 days = 2}
+	}
+}
+narrative_event = {
+	id = nh_seance.4
+	title = EVTNAME_seance_name
+	desc = EVTDESC_seance_neuhumanist
+	picture = GFX_musing_in_the_salon
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPT_seance_opt
+		add_character_modifier = { name = doing_seance duration = -1 } 
+		character_event = { id = nh_seance.5}
+	}
+	option = {
+		name = EVTOPT_rejected_seance_opt
+		narrative_event = { id = nh_seance.20 days = 2}
+	}
+}
+character_event = {
+	id = nh_seance.5
+	desc = EVTDESC_bounce
+	picture = GFX_musing_in_the_salon
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		random_list = {
+			# potential seances of Saints
+			25 = { character_event = { id = nh_seance.100 } }
+			25 = { character_event = { id = nh_seance.101 } }
+			25 = { character_event = { id = nh_seance.102 } }
+			25 = { character_event = { id = nh_seance.103 } }
+		}
+	}
+	option = {}
+}
+
+narrative_event = {
+	id = nh_seance.6
+	title = EVTNAME_seance_ends
+	desc = EVTDESC_seance_ends
+	picture = GFX_musing_in_the_salon
+	is_triggered_only = yes
+
+	immediate = {
+		remove_character_modifier = doing_seance
+		set_character_flag = done_seance
+	}
+	option = {
+		name = EVTOPT_concordia_plan
+		trigger = {
+			OR = {
+				has_character_flag = vis_concordia
+			}
+		}
+		character_event = { id = nh_seance.7 }
+		ai_chance = { factor = 50 }
+	}
+	option = {
+		name = EVTOPT_the_green_fairy_plan
+		trigger = {
+			OR = {
+				has_character_flag = vis_the_green_fairy
+			}
+		}
+		character_event = { id = nh_seance.7 }
+		ai_chance = { factor = 50 }
+	}
+	option = {
+		name = EVTOPT_the_hungry_man_plan
+		trigger = {
+			OR = {
+				has_character_flag = vis_the_hungry_man
+			}
+		}
+		character_event = { id = nh_seance.7 }
+		ai_chance = { factor = 50 }
+	}
+	option = {
+		name = EVTOPT_salome_plan
+		trigger = {
+			OR = {
+				has_character_flag = vis_salome
+			}
+		}
+		character_event = { id = nh_seance.7 }
+		ai_chance = { factor = 50 }
+	}
+}
+narrative_event = {
+	id = nh_seance.7
+	title = EVTNAME_seance_results
+	desc = EVTDESC_seance_results
+	picture = GFX_musing_in_the_salon
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPT_seance_results
+		piety = 50
+		change_stewardship = 1
+		change_learning = 2
+		change_diplomacy = 1
+		if = {
+			has_character_flag = vis_salome
+			
+			random list = {
+			
+			20 = {change_martial = 1}
+			80 = {}
+			
+			}
+		}
+		random_list = {
+		
+		20 = {add_trait = erudite}
+		30 = {add_trait = just}
+		50 = {add_trait = zealous}
+		
+		}
+		
+		narrative_event = { id = nh_seance.20 days = 2 }
+	}
+	
+	option = {
+		name = EVTOPT_reject_seance_faith
+		prestige = 50
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = cynical }
+			
+			narrative_event = { id = nh_seance.20 days = 2 }
+		}
+	}
+}
+
+# ************************* Final Results ************************
+
+narrative_event = {
+	id = nh_seance.20
+	title = EVTNAME_leaving_the_salon
+	desc = EVTDESC_leaving_the_salon
+	picture = GFX_evt_carriage
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	trigger = { trait = on_pilgrimage }
+	immediate = {
+		character_event = { id = nh_seance.21 days = 2 }
+	}
+	
+	option = {
+		name = EVTOPT_leaving_the_salon
+		piety = 50
+		prestige = 50
+		remove_trait = on_pilgrimage
+		add_character_modifier = { name = salon_done duration = months = 12}
+	}
+}
+
+character_event = {
+	id = nh_seance.21
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		remove_character_modifier = accepted_absinthe
+		clr_character_flag = salon_talk
+	}
+}
+
+# ************************* Saint Encounter ************************
+character_event = {
+	id = nh_seance.100
+	title = EVTNAME_concordia
+	desc = EVTDESC_concordia
+	picture = GFX_concordia
+	is_triggered_only = yes
+
+	immediate = {
+		set_character_flag = vis_concordia
+	}
+	option = { 
+		name = OK
+		narrative_event = { id = nh_seance.6 days = 2 }
+	}	
+}
+character_event = {
+	id = nh_seance.101
+	title = EVTNAME_the_green_fairy
+	desc = EVTDESC_the_green_fairy
+	picture = GFX_the_green_fairy
+	is_triggered_only = yes
+
+	immediate = {
+		set_character_flag = vis_the_green_fairy
+	}
+	option = { 
+		name = OK
+		narrative_event = { id = nh_seance.6 days = 2 }
+	}	
+}
+character_event = {
+	id = nh_seance.102
+	title = EVTNAME_the_hungry_man
+	desc = EVTDESC_the_hungry_man
+	picture = GFX_evt_the_hungry_man
+	is_triggered_only = yes
+
+	immediate = {
+		set_character_flag = vis_the_hungry_man
+	}
+	option = { 
+		name = OK
+		narrative_event = { id = nh_seance.6 days = 2 }
+	}	
+}
+character_event = {
+	id = nh_seance.103
+	title = EVTNAME_salome
+	desc = EVTDESC_salome
+	picture = GFX_salome
+	is_triggered_only = yes
+
+	immediate = {
+		set_character_flag = vis_salome
+	}
+	option = { 
+		name = OK
+		narrative_event = { id = nh_seance.6 days = 2 }
+	}	
+}
