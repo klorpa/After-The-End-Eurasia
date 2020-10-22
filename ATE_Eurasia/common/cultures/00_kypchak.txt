@@ -122,7 +122,7 @@ kypchak = {
 	kazakh = {
 		graphical_cultures = { westernslavicgfx }
 
-		color = { 0.6 0.5 0.7 }
+		color = { 0.4 0.8 0.9 }
 
 		male_names = {
 			Aleksander_Alexander
@@ -151,7 +151,7 @@ kypchak = {
 	uzbek = {
 		graphical_cultures = { westernslavicgfx }
 
-		color = { 0.3 0.7 0.6 }
+		color = { 0.4 0.8 0.6 }
 
 		male_names = {
 			Aleksander_Alexander
@@ -239,6 +239,35 @@ kypchak = {
 		graphical_cultures = { westernslavicgfx }
 
 		color = { 0.8 0.8 0.4 }
+
+		male_names = {
+			Aleksander_Alexander
+		}
+
+		female_names = {
+			Aleksandra_Alexandra 
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	turkmen = {
+		graphical_cultures = { westernslavicgfx }
+
+		color = { 0.4 0.6 0.4 }
 
 		male_names = {
 			Aleksander_Alexander

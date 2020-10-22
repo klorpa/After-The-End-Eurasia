@@ -898,18 +898,6 @@ e_turkestan = {
 				b_histevarz = {}
 				b_margun = {}
 			}
-			c_istaravshan = {
-				color={ 150 150 150 }
-				color2={ 255 255 255 }
-				
-				b_istaravshan = {}
-				b_shakhristan = {}
-				b_kalininabad = {}
-				b_khushikat = {}
-				b_dzharkutan = {}
-				b_margedar = {}
-				b_navabad = {}
-			}
 		}
 		d_bukhara = {
 			color={ 94 224 150 }
@@ -1527,7 +1515,7 @@ e_turkestan = {
 			}
 		}
 		d_turpan = {
-			color={ 211 198 84 }
+			color={ 211 218 94 }
 			color2={ 255 255 255 }
 			
 			capital = 1267 #Turpan
@@ -1555,6 +1543,192 @@ e_turkestan = {
 				b_komul = {}
 				b_tuolekule = {}
 				b_hami = {}
+			}
+		}
+	}
+	k_turkmenistan = {
+		color={ 146 187 115 }
+		color2 = { 255 255 255 }
+		
+		capital = 949 #Ashgabat
+		
+		d_ahal = {
+			color={ 129 210 120 }
+			color2={ 255 255 255 }
+			
+			capital = 949 #Ashgabat
+			
+			c_ashgabat = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_ashgabat = {}
+				b_annau = {}
+				b_yashlyk = {}
+				b_firjuza = {}
+				b_baharly = {}
+				b_archman = {}
+				b_kelete = {}
+			}
+			c_tejen = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_tejen = {}
+				b_dushak = {}
+				b_zhdanov = {}
+				b_kulanly = {}
+				b_tedzhen = {}
+				b_kaakhka = {}
+				b_miana = {}
+			}
+			c_balkan = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_balkanabat = {}
+				b_turkmenbashi = {}
+				b_jebel = {}
+				b_awaza = {}
+				b_dzhanga = {}
+				b_okarem = {}
+				b_kum_dag = {}
+			}
+			c_serdar = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_serdar = {}
+				b_purnuar = {}
+				b_kara_kala = {}
+				b_khodzhakala = {}
+				b_bereket = {}
+				b_chukur = {}
+				b_bendesen = {}
+			}
+		}
+		d_lebap = {
+			color={ 115 189 114 }
+			color2={ 255 255 255 }
+			
+			capital = 950 #Turkmenabat
+			
+			c_turkmenabat = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_turkmenabat = {}
+				b_krasny_partizan = {}
+				b_farab = {}
+				b_garabekewul = {}
+				b_sakar = {}
+				b_seydi = {}
+				b_sayat = {}
+			}
+			c_mary = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_mary = {}
+				b_zahmet = {}
+				b_bayramaly = {}
+				b_kirov_3 = {}
+				b_murgap = {}
+				b_sakar_chage = {}
+				b_satlyk = {}
+			}
+			c_kerki = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_kerki = {}
+				b_esenmengli = {}
+				b_hodzhambas = {}
+				b_basaga = {}
+				b_gowurdak = {}
+				b_halach = {}
+				b_elech = {}
+			}
+		}
+	}
+	k_tajikstan = {
+		color={ 216 100 143 }
+		color2 = { 255 255 255 }
+		
+		capital = 1282 #Dushanbe
+		
+		d_dushanbe = {
+			color={ 221 85 100 }
+			color2={ 255 255 255 }
+			
+			capital = 1282 #Dushanbe
+			
+			c_dushanbe = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_dushanbe = {}
+				b_dzerzhinskogo = {}
+				b_chimteppa = {}
+				b_hisor = {}
+				b_tursunzoda = {}
+				b_chorbogh = {}
+				b_vahdat = {}
+			}
+			c_qurgonteppa = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_qurgonteppa = {}
+				b_sarband = {}
+				b_kolkhozabad = {}
+				b_danghara = {}
+				b_shahrtuz = {}
+				b_kulob = {}
+				b_vakhsh = {}
+			}
+			c_istaravshan = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_istaravshan = {}
+				b_shakhristan = {}
+				b_kalininabad = {}
+				b_khushikat = {}
+				b_dzharkutan = {}
+				b_margedar = {}
+				b_navabad = {}
+			}
+		}
+		d_alay = {
+			color={ 200 100 100 }
+			color2={ 255 255 255 }
+			
+			capital = 1272 #Alay
+			
+			c_alay = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_daroot_korgon = {}
+				b_sary_mogul = {}
+				b_sary_tash = {}
+				b_uch_tyube = {}
+				b_kolduk = {}
+				b_karamyk = {}
+				b_jar_bashy = {}
+			}
+			c_rasht = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_gharm = {}
+				b_navobod = {}
+				b_dzhergatol = {}
+				b_tojikobod = {}
+				b_karakendzha = {}
+				b_shule = {}
+				b_kashkaterak = {}
 			}
 		}
 	}
