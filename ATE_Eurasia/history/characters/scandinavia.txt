@@ -1258,15 +1258,15 @@
 }
 
 8000104={
-	name="Magnus"
+	name="Håkan"
 	dynasty=2220029 #Hynne 
-	father=8000195
-	culture=ostlending
+	culture=swedish
 	religion=folketro
 	trait=thrifty_clerk
 	trait=paranoid
 	trait=diligent
 	trait=patient 
+	trait=lunatic
 	trait=legit_bastard
 	2643.1.1={birth=yes}
 	2670.1.1={death=yes}
@@ -1359,7 +1359,7 @@
 }
 
 8000111={
-	name="Heikko"
+	name="Heandarat"
 	dynasty=2220700 #Balto 
 	culture=sami
 	religion=folketro
@@ -2131,7 +2131,7 @@
 	female=yes
 	dynasty=2220467 #Allén
 	culture=swedish
-	religion=lutheran
+	religion=lucian
 	father=8000180
 	2568.1.1={birth=yes}
 	2607.1.1={death=yes}
@@ -2317,103 +2317,6 @@
 	father=8000072
 	mother=8000191
 	2666.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000195={
-	name="Mons"
-	dynasty=2220029 #Hynne 
-	culture=ostlending
-	religion=folketro
-	trait=indulgent_wastrel
-	trait=lustful
-	trait=seducer
-	trait=content 
-	trait=kind 
-	trait=gregarious
-	trait=is_fat
-	trait=family_person
-	2592.1.1={birth=yes}
-	2650.1.1={give_nickname = nick_the_merry}
-	2661.1.1={death=yes}
-}
-
-8000196={
-	name="Marius"
-	dynasty=2220029 #Hynne 
-	father=8000195
-	culture=ostlending
-	religion=folketro
-	trait=bastard
-	2622.1.1={birth=yes}
-	2652.1.1={death=yes}
-}
-
-8000197={
-	name="Markus"
-	dynasty=2220029 #Hynne 
-	father=8000195
-	culture=ostlending
-	religion=folketro
-	trait=bastard
-	2623.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000198={
-	name="Morten"
-	dynasty=2220029 #Hynne 
-	father=8000195
-	culture=ostlending
-	religion=folketro
-	trait=bastard
-	2624.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000199={
-	name="Mikkel"
-	dynasty=2220029 #Hynne 
-	father=8000195
-	culture=ostlending
-	religion=folketro
-	trait=bastard
-	2627.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000200={
-	name="Mons"
-	dynasty=2220029 #Hynne 
-	father=8000195
-	culture=ostlending
-	religion=folketro
-	trait=bastard
-	2629.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000201={
-	name="Mette"
-	female=yes
-	father=8000195
-	dynasty=2220029 #Hynne 
-	culture=ostlending
-	religion=folketro
-	trait=bastard
-	2623.1.1={birth=yes}
-	2670.1.1={death=yes}
-}
-
-8000202={
-	name="Marion"
-	female=yes
-	father=8000195
-	dynasty=2220029 #Hynne 
-	culture=ostlending
-	religion=folketro
-	trait=bastard
-	2621.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
 
@@ -5557,4 +5460,404 @@
 	religion=lutheran
 	1940.1.1={birth=yes}
 	2100.1.1={death=yes}
+}
+
+80003500={ 
+	name="Rosemarie" #1st Lucia ruler
+	female=yes
+ 	dynasty=0
+	trait=legendary 
+	occluded=yes
+	culture=swedish
+	religion=lucian
+	trait=quick 
+	trait=zealous 
+	trait=temperate
+	trait=skilled_tactician
+	trait=frail
+	trait=shrewd
+	disallow_random_traits = yes
+	2250.1.1={birth=yes}
+	2297.1.1={death=yes}
+}
+
+80003501={ 
+	name="Sofie" #2nd Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=swedish
+	religion=lucian
+	2256.1.1={birth=yes}
+	2315.1.1={death=yes}
+}
+
+80003502={ 
+	name="Sunniva" #3rd Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=tronder 
+	religion=lucian
+	2264.1.1={birth=yes}
+	2323.1.1={death=yes}
+}
+
+80003503={ 
+	name="Magnhild" #4th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=scanian 
+	religion=lucian
+	2280.1.1={birth=yes}
+	2348.1.1={death=yes}
+}
+
+80003504={ 
+	name="Rosemarie" #5th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=swedish 
+	religion=lucian
+	2287.1.1={birth=yes}
+	2361.1.1={death=yes}
+}
+
+80003505={ 
+	name="Ingamoder" #6th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=swedish 
+	religion=lucian
+	2302.1.1={birth=yes}
+	2364.1.1={death=yes}
+}
+
+80003506={ 
+	name="Valderborg" #7th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=danish 
+	religion=lucian
+	2333.1.1={birth=yes}
+	2383.1.1={death=yes}
+}
+
+80003507={ 
+	name="Rosemarie" #8th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=swedish 
+	religion=lucian
+	2354.1.1={birth=yes}
+	2397.1.1={death=yes}
+}
+
+80003508={ 
+	name="Maria" #9th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=swedish 
+	religion=lucian
+	2357.1.1={birth=yes}
+	2399.1.1={death=yes}
+}
+
+80003509={ 
+	name="Sofie" #10th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=scanian 
+	religion=lucian
+	2370.1.1={birth=yes}
+	2406.1.1={death=yes}
+}
+
+80003510={ 
+	name="Ragnhild" #11th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=ostlending 
+	religion=lucian
+	2393.1.1={birth=yes}
+	2434.1.1={death=yes}
+}
+
+80003511={ 
+	name="Katarina" #12th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=swedish 
+	religion=lucian
+	2401.1.1={birth=yes}
+	2439.1.1={death=yes}
+}
+
+80003512={ 
+	name="Rosemarie" #13th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=swedish 
+	religion=lucian
+	2402.1.1={birth=yes}
+	2444.1.1={death=yes}
+}
+
+80003513={ 
+	name="Lucia" #14th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=swedish 
+	religion=lucian
+	2413.1.1={birth=yes}
+	2456.1.1={death={
+			death_reason=death_execution
+			killer=80003514
+		}
+	}
+}
+
+80003514={ 
+	name="Reorus" #15th Lucia ruler
+ 	dynasty=0
+	culture=ostlending 
+	religion=lucian
+	trait=cruel 
+	trait=authoritative
+	trait=ambitious
+	2433.1.1={birth=yes}
+	2456.1.1={give_nickname = nick_the_bloody}
+	2470.1.1={death=yes}
+}
+
+80003515={ 
+	name="Valderborg" #16th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=danish 
+	religion=lucian
+	2432.1.1={birth=yes}
+	2473.1.1={death=yes}
+}
+
+80003516={ 
+	name="Rosemarie" #17th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=sami 
+	religion=lucian
+	2436.1.1={birth=yes}
+	2478.1.1={death=yes}
+}
+
+80003517={ 
+	name="Lucia" #18th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=swedish
+	religion=lucian
+	2443.1.1={birth=yes}
+	2494.1.1={death=yes}
+}
+
+80003518={ 
+	name="Katarina" #19th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=swedish
+	religion=lucian
+	2457.1.1={birth=yes}
+	2500.1.1={death=yes}
+}
+
+80003519={ 
+	name="Solveig" #20th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=ostlending
+	religion=lucian
+	2482.1.1={birth=yes}
+	2519.1.1={death=yes}
+}
+
+80003520={ 
+	name="Sofie" #21st Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=swedish
+	religion=lucian
+	2487.1.1={birth=yes}
+	2526.1.1={death=yes}
+}
+
+80003521={ 
+	name="Helena" #22nd Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=finnish
+	religion=lucian
+	2496.1.1={birth=yes}
+	2541.1.1={death=yes}
+}
+
+80003522={ 
+	name="Rosemarie" #23rd Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=scanian
+	religion=lucian
+	2508.1.1={birth=yes}
+	2556.1.1={death=yes}
+}
+
+80003523={ 
+	name="Ingrid" #24th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=swedish
+	religion=lucian
+	2518.1.1={birth=yes}
+	2571.1.1={death=yes}
+}
+
+80003524={ 
+	name="Frida" #25th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=swedish
+	religion=lucian
+	2543.1.1={birth=yes}
+	2585.1.1={death=yes}
+}
+
+80003525={ 
+	name="Rosemarie" #26th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=swedish
+	religion=lucian
+	2560.1.1={birth=yes}
+	2601.1.1={death=yes}
+}
+
+80003526={ 
+	name="Christina" #28th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=swedish
+	religion=lucian
+	2578.1.1={birth=yes}
+	2624.1.1={death=yes}
+}
+
+80003527={ 
+	name="Sofie" #29th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=scanian
+	religion=lucian
+	2583.1.1={birth=yes}
+	2640.1.1={death=yes}
+}
+
+80003528={ 
+	name="Lucia" #30th Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=scanian
+	religion=lucian
+	2589.1.1={birth=yes}
+	2653.1.1={death=yes}
+}
+
+80003529={ 
+	name="Maria" #31st Lucia ruler
+	female=yes 
+ 	dynasty=0
+	culture=swedish
+	religion=lucian
+	2599.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003530={ 
+	name="Folke" #Duke of Finland
+ 	dynasty=2220347
+	culture=swedish
+	religion=folketro
+	trait=elusive_shadow
+	trait=schemer
+	trait=is_fat 
+	trait=ambitious 
+	2612.1.1={birth=yes}
+	2650.1.1={give_nickname = nick_the_fat}
+	2670.1.1={death=yes}
+}
+
+80003531={ 
+	name="Eero" #King of Finland
+ 	dynasty=2220813
+	culture=finnish
+	religion=lutheran
+	trait=robust
+	trait=misguided_warrior
+	trait=gregarious
+	trait=humble 
+	trait=giant
+	2643.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003532={ 
+	name="Samuli"
+ 	dynasty=2220815
+	culture=finnish
+	religion=lutheran
+	trait=robust
+	trait=thrifty_clerk
+	trait=wroth 
+	trait=kind  
+	trait=just 
+	2631.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003533={ 
+	name="Turo"
+ 	dynasty=2220810
+	culture=finnish
+	religion=lutheran
+	trait=frail
+	trait=mastermind_theologian
+	trait=quick 
+	trait=shy  
+	trait=cruel 
+	2638.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003534={ 
+	name="Ahkejuoksa"
+ 	dynasty=2220741
+	culture=sami 
+	religion=lutheran
+	trait=envious
+	trait=one_eyed
+	trait=ambitious 
+	trait=skilled_tactician  
+	trait=shrewd  
+	2641.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003535={ 
+	name="Siitäri"
+ 	dynasty=2220968
+	culture=karelian 
+	religion=lutheran
+	trait=tough_soldier
+    trait=greedy
+	trait=proud 
+	trait=authoritative
+	trait=direct_leader
+	2632.1.1={birth=yes}
+	2670.1.1={death=yes}
 }
