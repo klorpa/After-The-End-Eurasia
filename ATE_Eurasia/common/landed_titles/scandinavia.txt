@@ -398,10 +398,12 @@ e_scandinavia = {
 			color2={ 255 255 255 }
 		
 			capital = 303 # Skåne
-			
+						
 			c_scania = {
 				color={ 226 57 179 }
 				color2={ 255 255 255 }
+				
+				holy_site = folketro
 			
 				b_malmo = {}
 				b_kristianstad = {}
@@ -518,6 +520,11 @@ e_scandinavia = {
 			c_oland = {
 				color={ 0 48 50 }
 				color2={ 255 255 255 }
+				
+				danish = "Øland"
+				ostlending = "Øland"
+				vestlending = "Øland"
+				tronder = "Øland"
 			
 				b_farjestaden = {}
 				b_sandvik = {}
@@ -568,6 +575,10 @@ e_scandinavia = {
 			c_bohuslan = {
 				color={ 42 36 48 }
 				color2={ 255 255 255 }
+				
+				ostlending = "Bohuslen"
+				vestlending = "Bohuslen"
+				tronder = "Bohuslen"
 			
 				b_stromstad = {}
 				b_kungshamn = {}
@@ -612,7 +623,11 @@ e_scandinavia = {
 					vestlending = "Gauteborg"
 					danish = "Gøteborg"
 				}
-				b_kungalv = {}
+				b_kungalv = {
+				    ostlending = "Konghelle"
+					vestlending = "Konghelle"
+				    tronder = "Konghelle"
+				}
 				b_molndal = {}
 				b_kungsbacka = {}
 				b_lerum = {}
@@ -648,9 +663,12 @@ e_scandinavia = {
 			
 			capital = 301 # Gotland
 			
+			
 			c_uppland = {
 				color={ 0 18 45 }
 				color2={ 255 255 255 }
+				
+				holy_site = folketro
 				
 				ostlending = "Oppland"
 				vestlending = "Oppland"
@@ -1051,6 +1069,8 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 				
 				danish = "Bratsberg"
+				
+				holy_site = folketro
 				
 				b_porsgrunn = {
 				    danish = "Porsgrund"
