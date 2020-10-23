@@ -94,6 +94,10 @@ narrative_event = {
 		name = EVTOPT_reject_drink
 		prestige = 20
 		narrative_event = { id = nh_seance.4 days = 2}
+		random_list = {
+			70 = {}
+			30 = {add_trait = craven}
+		}
 	}
 }
 narrative_event = {
@@ -144,40 +148,40 @@ narrative_event = {
 		set_character_flag = done_seance
 	}
 	option = {
-		name = EVTOPT_concordia_plan
+		name = EVTOPT_poststructuralism
 		trigger = {
 			OR = {
-				has_character_flag = vis_concordia
+				has_character_flag = vis_postructuralism
 			}
 		}
 		character_event = { id = nh_seance.7 }
 		ai_chance = { factor = 50 }
 	}
 	option = {
-		name = EVTOPT_the_green_fairy_plan
+		name = EVTOPT_tiqqun
 		trigger = {
 			OR = {
-				has_character_flag = vis_the_green_fairy
+				has_character_flag = vis_tiqqun
 			}
 		}
 		character_event = { id = nh_seance.7 }
 		ai_chance = { factor = 50 }
 	}
 	option = {
-		name = EVTOPT_the_hungry_man_plan
+		name = EVTOPT_positivism
 		trigger = {
 			OR = {
-				has_character_flag = vis_the_hungry_man
+				has_character_flag = vis_positivism
 			}
 		}
 		character_event = { id = nh_seance.7 }
 		ai_chance = { factor = 50 }
 	}
 	option = {
-		name = EVTOPT_salome_plan
+		name = EVTOPT_jankelevitch
 		trigger = {
 			OR = {
-				has_character_flag = vis_salome
+				has_character_flag = vis_jankelevitch
 			}
 		}
 		character_event = { id = nh_seance.7 }
@@ -198,12 +202,15 @@ narrative_event = {
 		change_learning = 2
 		change_diplomacy = 1
 		if = {
-			has_character_flag = vis_salome
+			has_character_flag = vis_postructuralism
 			
 			random list = {
 			
-			20 = {change_martial = 1}
-			80 = {}
+			30 = {
+				change_martial = 2
+				change_learning = 2
+			}
+			70 = {}
 			
 			}
 		}
@@ -268,61 +275,61 @@ character_event = {
 # ************************* Saint Encounter ************************
 character_event = {
 	id = nh_seance.100
-	title = EVTNAME_concordia
-	desc = EVTDESC_concordia
+	title = EVTNAME_poststructuralism
+	desc = EVTDESC_poststructuralism
 	picture = GFX_concordia
 	is_triggered_only = yes
 
 	immediate = {
-		set_character_flag = vis_concordia
+		set_character_flag = vis_postructuralism
 	}
 	option = { 
-		name = OK
+		name = EVTOPT_OK1
 		narrative_event = { id = nh_seance.6 days = 2 }
 	}	
 }
 character_event = {
 	id = nh_seance.101
-	title = EVTNAME_the_green_fairy
-	desc = EVTDESC_the_green_fairy
+	title = EVTNAME_tiqqun
+	desc = EVTDESC_tiqqun
 	picture = GFX_the_green_fairy
 	is_triggered_only = yes
 
 	immediate = {
-		set_character_flag = vis_the_green_fairy
+		set_character_flag = vis_tiqqun
 	}
 	option = { 
-		name = OK
+		name = EVTOPT_OK2
 		narrative_event = { id = nh_seance.6 days = 2 }
 	}	
 }
 character_event = {
 	id = nh_seance.102
-	title = EVTNAME_the_hungry_man
-	desc = EVTDESC_the_hungry_man
+	title = EVTNAME_positivism
+	desc = EVTDESC_positivism
 	picture = GFX_evt_the_hungry_man
 	is_triggered_only = yes
 
 	immediate = {
-		set_character_flag = vis_the_hungry_man
+		set_character_flag = vis_positivism
 	}
 	option = { 
-		name = OK
+		name = EVTOPT_OK3
 		narrative_event = { id = nh_seance.6 days = 2 }
 	}	
 }
 character_event = {
 	id = nh_seance.103
-	title = EVTNAME_salome
-	desc = EVTDESC_salome
+	title = EVTNAME_jankelevitch
+	desc = EVTDESC_jankelevitch
 	picture = GFX_salome
 	is_triggered_only = yes
 
 	immediate = {
-		set_character_flag = vis_salome
+		set_character_flag = vis_jankelevitch
 	}
 	option = { 
-		name = OK
+		name = EVTOPT_OK4
 		narrative_event = { id = nh_seance.6 days = 2 }
 	}	
 }

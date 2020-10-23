@@ -96,6 +96,7 @@ narrative_event = { #Notification letting people know they clicked the decision.
 	
 character_event = { #Choosing Event that occures when you are researching, certain traits help, or you may give up or potentially pick up bad traits.
 	id = neuhumanist.3
+	title = EVTNAME_neuhumanist_write_book
 	desc = EVTDESC_neuhumanist_write_book
 	picture = GFX_evt_library
 	
@@ -264,6 +265,7 @@ character_event = { #You wrote something bad, you take a loss to prestige and pi
 }
 	character_event = {
 		id = neuhumanist.5
+		title = EVTNAME_neuhumanist_write_competent
 		desc = EVTDESC_neuhumanist_write_competent
 		picture = GFX_evt_library
 		
@@ -368,7 +370,7 @@ character_event = { #You wrote something bad, you take a loss to prestige and pi
 	}
 	character_event = { #You need some books to help with your research, you can spend gold or use other traits to move forward or of course give up
 		id = neuhumanist.8
-		desc = EVTDESC_neuhumanist_write_book
+		desc = EVTDESC_neuhumanist_advance_book
 		picture = GFX_evt_library
 
 		trigger = {

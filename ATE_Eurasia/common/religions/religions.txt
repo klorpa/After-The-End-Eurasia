@@ -855,6 +855,63 @@ esoteric = {
 
 muslim = {
 	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	crusade_cb = crusade
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2
+	ai_convert_other_group = 1
+	ai_fabricate_claims = no
+	
+	color = { 0 0.7 0 }
+	
+	interface_skin = { muslim_interface } 
+	
+	# Names given only to Muslims
+	# the way this works is that it looks at all the names in a particular culture's name list and only assigns certain names to them if they follow the appropriate religion.
+	# i was rather confused about this myself for a while.
+	# this can be used to, say, add way more explicitly Muslim names to Motowners that only show up if they are Muslim.
+	# i can still get why Neomoors need to be their own culture, the system only works on a religion group rather than an individual religion basis.
+	male_names = {
+		Abbas Abdul Abdullah Abolhassan Abu-Bakr Ahmad Akbar Allahyar Ali Ali-Fay Ali-Kolon Ali-Zalil Hasan Hossein Hussayn Ismail Mahmud Mohammed Muammar Muhammad
+	}
+	female_names = {
+		Ayesha Abrar Afifah Anabia Hijrah Hind Hareem Iqra Judi Karida Khadijah Khalidah Khawlah Madeeha Maryam Mariyah Maymunah Mariam Mina Nuwwarrah Qismah Ruqayyah Saba Safaa Safiyyah Salma Shahrazad Sirin Sumaiyah Thuwaibah Umamah Zainab Zubaidah
+	}
+	
+	ruhi = {
+		graphical_culture = muslimgfx
+		
+		icon = 
+		
+		color = { 0 0.8 0 }
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+		feminist = yes
+		has_heir_designation = yes
+		uses_decadence = no
+		uses_jizya_tax = no
+		can_demand_religious_conversion = no
+		max_wives = 3
+		peace_piety_gain = 0.5
+		hard_to_convert=yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+		
+		intermarry = neuhumanist
+	}	
 }
 	
 pirate = {
@@ -1021,10 +1078,10 @@ old_world_cultist_group = {
 		high_god_name = GOD_MONAD
 
 		god_names = { #Might want to rethink the god names, but this seems fine for now
-			GOD_THE_ELEMENTS GOD_THE_SHIELD 
+			GOD_THE_KNOWLEDGES
 		}
 		evil_god_names = {
-			GOD_ATOMOS THE_DEMON_CORE THE_VOID GOD_FAT_MAN GOD_LITTLE_BOY GOD_TSAR_BOMBA
+			GOD_THE_IGNORANT
 		}
 		
 		#allow_viking_invasion = yes
@@ -1053,6 +1110,7 @@ old_world_cultist_group = {
 		intermarry = rust_cultist
 		intermarry = chrome_cultist
 	}
+}
 	jacobin = {
 		graphical_culture = hellenicgfx
 		
