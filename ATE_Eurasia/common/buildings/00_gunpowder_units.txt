@@ -2,7 +2,6 @@
 castle = {
 	ca_firing_range_1 = {
 		desc = ca_firing_range_1_desc
-		show_as_percent = no
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 TECH_RECRUITMENT = 5 TECH_SIEGE_EQUIPMENT = 5 }
 		gold_cost = 100
 		build_time = 365
@@ -49,7 +48,6 @@ castle = {
 city = {
 	ct_firing_range_1 = {
 		desc = ct_firing_range_1_desc
-		show_as_percent = no
 		trigger = { TECH_CITY_CONSTRUCTION = 0 TECH_RECRUITMENT = 5 TECH_SIEGE_EQUIPMENT = 5 }
 		gold_cost = 100
 		build_time = 365
@@ -100,7 +98,7 @@ temple = {
 		gold_cost = 100
 		build_time = 365
 		handgunners = 40
-		ai_creation_fatpor = 100
+		ai_creation_factor = 100
 		
 		extra_tech_building_start = 1.0
 	}
@@ -112,7 +110,7 @@ temple = {
 		gold_cost = 120
 		build_time = 547
 		handgunners = 60
-		ai_creation_fatpor = 99
+		ai_creation_factor = 99
 
 		extra_tech_building_start = 2.2
 	}
@@ -123,7 +121,7 @@ temple = {
 		gold_cost = 200
 		build_time = 1095
 		handgunners = 80
-		ai_creation_fatpor = 98
+		ai_creation_factor = 98
 
 		extra_tech_building_start = 1.2
 	}
@@ -134,7 +132,7 @@ temple = {
 		gold_cost = 300
 		build_time = 1095
 		handgunners = 100
-		ai_creation_fatpor = 98
+		ai_creation_factor = 98
 
 		extra_tech_building_start = 0.5
 	}
