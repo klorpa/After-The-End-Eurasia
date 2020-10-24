@@ -68,7 +68,7 @@ character_event = { #Choosing a branch
 		}
 	}
 	
-***Philosphical Wankery***
+###Philosphical Wankery###
 
 narrative_event = { #Notification letting people know they clicked the decision...
 	id = neuhumanist.2
@@ -176,7 +176,7 @@ character_event = { #Choosing Event that occures when you are researching, certa
 		set_character_flag = { name = wanting_to_quit duration = -1 }
 	}	
 }
-character_event = { #You wrote something bad, you take a loss to prestige and piety and you get a bit of a bad reputation.
+character_event = {
 	id = neuhumanist.4
 	title = EVTNAME_neuhumanist_writing_bad
 	desc = EVTDESC_neuhumanist_writing_bad
@@ -309,10 +309,10 @@ character_event = { #You wrote something bad, you take a loss to prestige and pi
 			}
 			hidden_tooltip = {
 				random_list = {
-					40 = { set_character_flag = name = philosophizing_results_excellent }
-					10 = { set_character_flag = name = philosophizing_results_good }
-					10 = { set_character_flag = name = philosophizing_results_acceptable }
-					40 = { set_character_flag = name = philosophizing_results_bad }
+					40 = { set_character_flag = philosophizing_results_excellent }
+					10 = { set_character_flag = philosophizing_results_good }
+					10 = { set_character_flag = philosophizing_results_acceptable }
+					40 = { set_character_flag = philosophizing_results_bad }
 				}
 			}
 		}
@@ -329,10 +329,10 @@ character_event = { #You wrote something bad, you take a loss to prestige and pi
 			}
 			hidden_tooltip = {
 				random_list = {
-					15 = { set_character_flag = name = philosophizing_results_excellent }
-					35 = { set_character_flag = name = philosophizing_results_good }
-					30 = { set_character_flag = name = philosophizing_results_acceptable }
-					20 = { set_character_flag = name = philosophizing_results_bad }
+					15 = { set_character_flag = philosophizing_results_excellent }
+					35 = { set_character_flag = philosophizing_results_good }
+					30 = { set_character_flag = philosophizing_results_acceptable }
+					20 = { set_character_flag = philosophizing_results_bad }
 				}
 			}
 		}
