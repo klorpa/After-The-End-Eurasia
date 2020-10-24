@@ -1,0 +1,60 @@
+###ÄNSI##
+
+sami_group = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { easterngfx }
+	
+	sami = {
+		graphical_cultures = { ugricgfx }
+		
+		color = { 0.4 0.75 0.85 }
+
+		male_names = {
+			A 
+			B 
+			C 
+			D 
+			E 
+			F 
+			G 
+			H 
+			I 
+			J 
+			K 
+			L 
+			M 
+			N 
+			P 
+			R 
+			S 
+			T 
+			U 
+			V 
+		}
+		female_names = {
+			A 
+			B 
+			C 
+			D 
+			E 
+			F 
+			G 
+			H 
+			I 
+			J 
+			K 
+			L 
+			M 
+			N 
+			P 
+			R 
+			S 
+			T 
+			U 
+			V 
+		}
+		from_dynasty_prefix = "of "
+
+		modifier = default_culture_modifier
+	}
+}
