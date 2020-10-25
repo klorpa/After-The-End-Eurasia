@@ -256,15 +256,16 @@
 	trait=chaste
 	trait=hunter
 	trait=patient
-	trait=brave
+	trait=honest
 	trait=diligent
 	trait=cruel
+	trait=poet
 	2623.6.14={birth=yes}
 	2640.2.1={add_spouse=1804072}
 	2700.1.1={death=yes}
 }
 1805021={
-	name="Wolfram"
+	name="Friedhelm"
 	dynasty=1947003 #Weissbrunner
 	culture=swabian
 	religion=catholic
@@ -300,11 +301,12 @@
 	learning=4
 	trait=martial_cleric
 	trait=cynical
-	trait=diligent
-	trait=scholar
+	trait=slothful
+	trait=quick
 	trait=erudite
-	trait=proud
-	trait=chaste
+	trait=deceitful
+	trait=lustful
+	trait=gregarious
 	trait=twin
 	2644.12.6={birth=yes}
 	2666.3.12={add_spouse=1805031}
@@ -1069,37 +1071,37 @@
 	}
 }
 1805089={
-	name="Friedhelm"
-	dynasty=1947003 #Weissbrunner
+	name="Wolfram"
+	dynasty=1947122 #Wendlenger
+	father=1805085
 	culture=swabian
-	religion=catholic
-	2440.11.21={birth=yes}
-	2504.6.20={death=yes}
+	religion=lutheran
+	2536.7.6={birth=yes}
+	2599.9.5={death=yes}
 }
 1805090={
-	name="Franz"
-	dynasty=1947003 #Weissbrunner
+	name="Bernhard"
+	dynasty=1947122 #Wendlenger
 	culture=swabian
-	religion=catholic
+	religion=lutheran
 	father=1805089
-	2471.9.3={birth=yes}
-	2531.7.28={death=yes}
+	2571.9.3={birth=yes}
+	2631.7.28={death=yes}
 }
 1805091={
-	name="Eberhard"
-	dynasty=1947003 #Weissbrunner
+	name="Bernhard"
+	dynasty=1947122 #Wendlenger
 	culture=swabian
-	religion=catholic
+	religion=lutheran
 	father=1805090
-	2499.9.12={birth=yes}
-	2544.12.20={death=yes}
+	2599.9.12={birth=yes}
+	2644.12.20={death=yes}
 }
 1805092={
 	name="Franz"
 	dynasty=1947003 #Weissbrunner
 	culture=swabian
 	religion=catholic
-	father=1805091
 	trait=charismatic_negotiator
 	trait=gardener
 	trait=kind
@@ -1188,4 +1190,53 @@
 			killer=1958162
 		}
 	}
+}
+1805100={
+	name="Silvie"
+	female=yes
+	dynasty=1947122 #Wendlenger
+	culture=swabian
+	religion=lutheran
+	father=1805091
+	2628.5.5={birth=yes}
+	2700.1.1={death=yes}
+}
+1805101={
+	name="Eiges"
+	dynasty=1947122 #Wendlenger
+	culture=swabian
+	religion=lutheran
+	mother=1805100
+	2651.8.26={birth=yes}
+	2700.1.1={death=yes}
+}
+1805102={
+	name="Anna"
+	female=yes
+	dynasty=1947122 #Wendlenger
+	culture=swabian
+	religion=lutheran
+	mother=1805100
+	2653.10.5={birth=yes}
+	2700.1.1={death=yes}
+}
+1805103={
+	name="Lydia"
+	female=yes
+	dynasty=1947122 #Wendlenger
+	culture=swabian
+	religion=lutheran
+	mother=1805100
+	2653.7.2={birth=yes}
+	2700.1.1={death=yes}
+}
+1805104={
+	name="Maria"
+	female=yes
+	dynasty=1947122 #Wendlenger
+	culture=swabian
+	religion=lutheran
+	mother=1805100
+	2653.6.3={birth=yes}
+	2700.1.1={death=yes}
 }
