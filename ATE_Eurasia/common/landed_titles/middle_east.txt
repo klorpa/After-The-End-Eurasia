@@ -6,6 +6,682 @@ e_al_sharq_al_awsat = {
 	
 	capital = 1399 # c_al_qahirah
 	
+	k_hijaz = {
+		color={ 132 101 129 }
+		color2={ 255 255 255 }
+		
+		capital = 1923 # c_mecca
+		culture = hijazi
+		
+		d_makkah = {
+			color={ 112 121 119 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1923 province_id = 1924 province_id = 1925 province_id = 1926 province_id = 1927 } }
+				}
+			}
+			capital = 1923 # c_mecca
+			
+			c_mecca = { # 1923
+				color={ 102 131 114 }
+				color2={ 255 255 255 }
+				
+				b_ajyad = {
+				}
+				b_makkah = {
+				}
+				b_masjid_al_haram = {
+				}
+				b_al_aziziyah = {
+				}
+				b_al_tindbawi = {
+				}
+				b_muzdalifah = {
+				}
+				b_mina = {
+				}
+			}
+			c_al_lith = { # 1925
+				color={ 68 106 84 }
+				color2={ 255 255 255 }
+				
+				b_al_lith = {
+				}
+				b_al_qalh = {
+				}
+				b_ghumayqah = {
+				}
+				b_ayaar = {
+				}
+				b_al_wasqah = {
+				}
+				b_al_mujermah = {
+				}
+				b_sayaa = {
+				}
+			}
+			c_jeddah = { # 1924
+				color={ 64 99 79 }
+				color2={ 255 255 255 }
+				
+				b_al_balad = {
+				}
+				b_jeddah = {
+				}
+				b_masjid_uthman_ibn_affan = {
+				}
+				b_khulays = {
+				}
+				b_kamil = {
+				}
+				b_al_jumum = {
+				}
+				b_harrat_al_mathlum = {
+				}
+			}
+			c_mahazat_as_said = { # 1927
+				color={ 69 107 84 }
+				color2={ 255 255 255 }
+				
+				b_muwayh = {
+				}
+				b_dhalm = {
+				}
+				b_al_badrah = {
+				}
+				b_umm_aldum = {
+				}
+				b_maqar_shanif = {
+				}
+				b_al_mozeraah = {
+				}
+				b_heelan = {
+				}
+			}
+			c_taif = { # 1926
+				color={ 60 95 74 }
+				color2={ 255 255 255 }
+				
+				b_shubra = {
+				}
+				b_suq_ukaz = {
+				}
+				b_al_hada = {
+				}
+				b_ash_shafa = {
+				}
+				b_shihar = {
+				}
+				b_al_sadad = {
+				}
+				b_nakhab = {
+				}
+			}
+		}
+		d_al_bahah = {
+			color={ 60 190 119 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1934 province_id = 1935 province_id = 1936 province_id = 1937 } }
+				}
+			}
+			capital = 1934 # c_al_bahah
+			
+			c_al_bahah = { # 1934
+				color={ 50 200 114 }
+				color2={ 255 255 255 }
+				
+				b_al_bahah = {
+				}
+				b_biljurashi = {
+				}
+				b_al_mandaq = {
+				}
+				b_al_mikhwah = {
+				}
+				b_al_aqiq = {
+				}
+				b_az_zafir = {
+				}
+				b_dhi_ayn = {
+				}
+			}
+			c_al_qunfudhah = { # 1935
+				color={ 87 228 147 }
+				color2={ 255 255 255 }
+				
+				b_al_qunfudhah = {
+				}
+				b_al_quz = {
+				}
+				b_hali = {
+				}
+				b_al_muthilif = {
+				}
+				b_sabat_al_jarah = {
+				}
+				b_ahad_bani_zayd = {
+				}
+				b_duqa = {
+				}
+			}
+			c_ranyah = { # 1936
+				color={ 40 219 116 }
+				color2={ 255 255 255 }
+				
+				b_ranyah = {
+				}
+				b_al_amlah = {
+				}
+				b_abu_muloh = {
+				}
+				b_al_uferiah = {
+				}
+				b_aylh = {
+				}
+				b_al_habit = {
+				}
+				b_khuddan = {
+				}
+			}
+			c_turubah = { # 1937
+				color={ 61 201 120 }
+				color2={ 255 255 255 }
+				
+				b_al_labt = {
+				}
+				b_turubah = {
+				}
+				b_al_khurma = {
+				}
+				b_al_gharith = {
+				}
+				b_al_allawah = {
+				}
+				b_al_salam = {
+				}
+				b_munif = {
+				}
+			}
+		}
+		d_asir = {
+			color={ 70 116 93 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1928 province_id = 1929 province_id = 1930 province_id = 1931 province_id = 1932 province_id = 1933 } }
+				}
+			}
+			capital = 1928 # c_abha
+			
+			c_abha = { # 1928
+				color={ 60 126 88 }
+				color2={ 255 255 255 }
+				
+				b_qasr_shadda = {
+				}
+				b_abha = {
+				}
+				b_muhayil = {
+				}
+				b_tanomah = {
+				}
+				b_al_qahma = {
+				}
+				b_al_birk = {
+				}
+				b_amaq = {
+				}
+			}
+			c_ahad_rafidah = { # 1933
+				color={ 24 90 52 }
+				color2={ 255 255 255 }
+				
+				b_ahad_rafidah = {
+				}
+				b_sarat_abidah = {
+				}
+				b_dhahran_al_janub = {
+				}
+				b_al_harajah = {
+				}
+				b_humran = {
+				}
+				b_al_rabwah = {
+				}
+				b_al_farshah = {
+				}
+			}
+			c_al_majardah = { # 1929
+				color={ 69 141 99 }
+				color2={ 255 255 255 }
+				
+				b_al_majardah = {
+				}
+				b_an_namas = {
+				}
+				b_sabt_al_alayah = {
+				}
+				b_al_qahtan = {
+				}
+				b_shawas = {
+				}
+				b_halaba = {
+				}
+				b_tharban = {
+				}
+			}
+			c_bisah = { # 1930
+				color={ 50 100 71 }
+				color2={ 255 255 255 }
+				
+				b_bisah = {
+				}
+				b_waaer = {
+				}
+				b_al_gafrat = {
+				}
+				b_tabalah = {
+				}
+				b_al_bahim = {
+				}
+				b_samakh = {
+				}
+				b_mansebah = {
+				}
+			}
+			c_khamis_mushait = { # 1932
+				color={ 55 114 80 }
+				color2={ 255 255 255 }
+				
+				b_khamis_mushait = {
+				}
+				b_tareeb = {
+				}
+				b_tendaha = {
+				}
+				b_khaiber_al_janub = {
+				}
+				b_yaara = {
+				}
+				b_al_madha = {
+				}
+				b_wadi_ibn_ashbal = {
+				}
+			}
+			c_tathlith = { # 1931
+				color={ 39 100 65 }
+				color2={ 255 255 255 }
+				
+				b_tathlith = {
+				}
+				b_morighan = {
+				}
+				b_al_qirah = {
+				}
+				b_jash = {
+				}
+				b_al_subaykhah = {
+				}
+				b_ayn_qahtan = {
+				}
+				b_al_amoah = {
+				}
+			}
+		}
+		d_madinah = {
+			color={ 75 204 126 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1942 province_id = 1943 province_id = 1944 province_id = 1945 province_id = 1946 province_id = 1947 province_id = 1948 } }
+				}
+			}
+			capital = 1942 # c_medina
+			
+			c_medina = { # 1942
+				color={ 85 194 131 }
+				color2={ 255 255 255 }
+				
+				b_al_haram = {
+				}
+				b_qubaa = {
+				}
+				b_masjid_an_nabawi = {
+				}
+				b_uhud = {
+				}
+				b_al_awali = {
+				}
+				b_al_uqaiq = {
+				}
+				b_al_uyun = {
+				}
+			}
+			c_al_hinakiyah = { # 1945
+				color={ 53 164 100 }
+				color2={ 255 255 255 }
+				
+				b_al_hinakiyah = {
+				}
+				b_al_nkhil = {
+				}
+				b_al_humaij = {
+				}
+				b_arjaa = {
+				}
+				b_bilghah = {
+				}
+				b_al_faleh = {
+				}
+				b_al_mahfar = {
+				}
+			}
+			c_al_ula = { # 1943
+				color={ 55 206 118 }
+				color2={ 255 255 255 }
+				
+				b_al_ula = {
+				}
+				b_mogayra = {
+				}
+				b_al_mutadil = {
+				}
+				b_al_athib = {
+				}
+				b_madain_saleh = {
+				}
+				b_fadhla = {
+				}
+				b_masader = {
+				}
+			}
+			c_al_wajh = { # 1948
+				color={ 58 189 113 }
+				color2={ 255 255 255 }
+				
+				b_al_wajh = {
+				}
+				b_al_manjur = {
+				}
+				b_hadiba = {
+				}
+				b_al_naabi = {
+				}
+				b_al_khaldiyah = {
+				}
+				b_as_safa = {
+				}
+				b_al_samdah = {
+				}
+			}
+			c_khaybar = { # 1946
+				color={ 42 197 107 }
+				color2={ 255 255 255 }
+				
+				b_khaybar = {
+				}
+				b_zobran = {
+				}
+				b_al_thamad = {
+				}
+				b_al_uqiylah = {
+				}
+				b_al_eshash = {
+				}
+				b_isharah = {
+				}
+				b_daa = {
+				}
+			}
+			c_umluj = { # 1947
+				color={ 24 215 104 }
+				color2={ 255 255 255 }
+				
+				b_umluj = {
+				}
+				b_al_shadakh = {
+				}
+				b_al_shabhah = {
+				}
+				b_khuff = {
+				}
+				b_abu_shajarah = {
+				}
+				b_al_muqarah = {
+				}
+				b_al_ulaya = {
+				}
+			}
+			c_yanbu = { # 1944
+				color={ 71 170 112 }
+				color2={ 255 255 255 }
+				
+				b_al_nakhal = {
+				}
+				b_al_bahr = {
+				}
+				b_al_sinaiya = {
+				}
+				b_al_nabah = {
+				}
+				b_sabil = {
+				}
+				b_barka = {
+				}
+				b_al_nagaf = {
+				}
+			}
+		}
+		d_rabigh = {
+			color={ 18 45 33 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1938 province_id = 1939 province_id = 1940 province_id = 1941 } }
+				}
+			}
+			capital = 1938 # c_rabigh
+			
+			c_rabigh = { # 1938
+				color={ 8 55 28 }
+				color2={ 255 255 255 }
+				
+				b_rabigh = {
+				}
+				b_abwa = {
+				}
+				b_masturah = {
+				}
+				b_al_nuaibeaa = {
+				}
+				b_al_qadimah = {
+				}
+				b_al_nasaif = {
+				}
+				b_al_sabuh = {
+				}
+			}
+			c_al_faqirah = { # 1941
+				color={ 20 101 54 }
+				color2={ 255 255 255 }
+				
+				b_al_faqirah = {
+				}
+				b_al_akhal = {
+				}
+				b_al_atshan = {
+				}
+				b_al_yutamah = {
+				}
+				b_al_hendeyah = {
+				}
+				b_al_jernafh = {
+				}
+				b_al_sedr = {
+				}
+			}
+			c_al_mahd = { # 1939
+				color={ 8 80 38 }
+				color2={ 255 255 255 }
+				
+				b_mahd_adh_dhahab = {
+				}
+				b_al_jerisiyah = {
+				}
+				b_al_ghmir = {
+				}
+				b_safinah = {
+				}
+				b_hebaa = {
+				}
+				b_al_omaq = {
+				}
+				b_thrab = {
+				}
+			}
+			c_badr = { # 1940
+				color={ 9 70 35 }
+				color2={ 255 255 255 }
+				
+				b_badr_hunayn = {
+				}
+				b_al_barakh = {
+				}
+				b_alfariah = {
+				}
+				b_al_wastah = {
+				}
+				b_husayniyah = {
+				}
+				b_al_hamrah = {
+				}
+				b_ar_rayis = {
+				}
+			}
+		}
+		d_tabuk = {
+			color={ 79 97 90 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1949 province_id = 1950 province_id = 1951 province_id = 1952 province_id = 1953 } }
+				}
+			}
+			capital = 1949 # c_tabuk
+			
+			c_tabuk = { # 1949
+				color={ 69 107 85 }
+				color2={ 255 255 255 }
+				
+				b_qalat_tabuk = {
+				}
+				b_tabuk = {
+				}
+				b_ayn_sukkrah = {
+				}
+				b_shigri = {
+				}
+				b_al_mahrajan = {
+				}
+				b_bijdah = {
+				}
+				b_al_wurud = {
+				}
+			}
+			c_duba = { # 1952
+				color={ 45 81 59 }
+				color2={ 255 255 255 }
+				
+				b_duba = {
+				}
+				b_dahkan = {
+				}
+				b_maqna = {
+				}
+				b_salma = {
+				}
+				b_kafafah = {
+				}
+				b_al_surah = {
+				}
+				b_sharma = {
+				}
+			}
+			c_halat_ammar = { # 1950
+				color={ 51 85 65 }
+				color2={ 255 255 255 }
+				
+				b_halat_ammar = {
+				}
+				b_bir_ibn_hirmas = {
+				}
+				b_al_bandari = {
+				}
+				b_al_bir = {
+				}
+				b_jabir_ibn_abdullah = {
+				}
+				b_al_rahma = {
+				}
+				b_imam_al_bukhari = {
+				}
+			}
+			c_haql = { # 1953
+				color={ 45 71 57 }
+				color2={ 255 255 255 }
+				
+				b_haql = {
+				}
+				b_al_wasel = {
+				}
+				b_al_sharaf = {
+				}
+				b_magna = {
+				}
+				b_al_bad = {
+				}
+				b_al_yarmuk = {
+				}
+				b_al_sabkhah = {
+				}
+			}
+			c_tayma = { # 1951
+				color={ 104 130 115 }
+				color2={ 255 255 255 }
+				
+				b_qasr_al_ablaq = {
+				}
+				b_tayma = {
+				}
+				b_al_hadiqah = {
+				}
+				b_al_jadid = {
+				}
+				b_mushid = {
+				}
+				b_sahut = {
+				}
+				b_abayt = {
+				}
+			}
+		}
+	}
+	
 	k_bahrayn = {
 		color={ 228 36 81 }
 		color2={ 255 255 255 }
