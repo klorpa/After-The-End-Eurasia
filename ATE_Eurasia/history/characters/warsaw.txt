@@ -61,7 +61,9 @@
 	trait=charitable
 	trait=cynical
 	trait=lustful
-	2639.7.24={birth=yes}
+	2639.7.24={birth=yes
+		effect={set_character_flag=no_historical_family}
+	}
 	2663.1.1={effect={add_lover=1991006}}
 	2700.1.1={death=yes}
 }
@@ -170,5 +172,38 @@
 	trait=scarred
 	trait=brave
 	2629.5.3={birth=yes}
+	2700.1.1={death=yes}
+}
+1991011={
+	name="Bretislav" 
+	dynasty=1968028 #Hasek
+	culture=czech
+	religion=neuhumanist
+	trait=fair
+	trait=cynical
+	trait=ambitious
+	trait=arbitrary
+	trait=gregarious
+	trait=lustful
+	trait=trusting
+	trait=grey_eminance
+	2634.3.26={birth=yes}
+	2700.1.1={death=yes}
+}
+1991012={
+	name="Pavol" 
+	dynasty=1969016 #Skultety
+	culture=slovak
+	religion=mariavite
+	trait=cynical
+	trait=just
+	trait=depressed
+	trait=patient
+	trait=honest
+	trait=brave
+	trait=quick
+	trait=skilled_tactician
+	trait=one_handed
+	2618.2.15={birth=yes}
 	2700.1.1={death=yes}
 }
