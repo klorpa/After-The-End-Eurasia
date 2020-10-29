@@ -1,0 +1,370 @@
+###### AUTO GENERATED CONTENT (c) CKTools v19 ######
+
+
+
+e_al_mashriq = {
+	color={ 105 186 99 }
+	color2={ 255 255 20 }
+	
+	capital = 1958 # c_west_jerusalem
+	culture = ivri
+	
+	k_ard_al_muqaddis = {
+		color={ 115 176 104 }
+		color2={ 255 255 255 }
+		
+		capital = 1958 # c_west_jerusalem
+		culture = ivri
+		
+		d_jerusalem = {
+			color={ 135 156 114 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1958 province_id = 1959 } }
+				}
+			}
+			capital = 1958 # c_west_jerusalem
+			
+			c_west_jerusalem = { # 1958
+				color={ 145 146 119 }
+				color2={ 255 255 255 }
+				
+				b_bet_hammikdas = {
+				}
+				b_jerusalem = {
+				}
+				b_beit_shemesh = {
+				}
+				b_abu_ghosh = {
+				}
+				b_mevaseret_zion = {
+				}
+				b_kiryat_yearim = {
+				}
+				b_mateh_yehuda = {
+				}
+			}
+			c_east_jerusalem = { # 1959
+				color={ 140 142 81 }
+				color2={ 255 255 255 }
+				
+				b_al_quds = {
+				}
+				b_al_balda_al_qadimah = {
+				}
+				b_abu_dis = {
+				}
+				b_al_izzariya = {
+				}
+				b_ar_ram = {
+				}
+				b_biddu = {
+				}
+				b_qatanaa = {
+				}
+			}
+		}
+		d_galil = {
+			color={ 184 211 56 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1970 province_id = 1971 province_id = 1972 } }
+				}
+			}
+			capital = 1970 # c_carmel
+			
+			c_carmel = { # 1970
+				color={ 194 201 61 }
+				color2={ 255 255 255 }
+				
+				b_wadi_salib = {
+				}
+				b_haifa = {
+				}
+				b_carmel = {
+				}
+				b_hadera_2 = {
+				}
+				b_qiryat_ata = {
+				}
+				b_umm_al_fahm = {
+				}
+				b_qiryat_motzkin = {
+				}
+			}
+			c_galil_elion = { # 1972
+				color={ 178 182 49 }
+				color2={ 255 255 255 }
+				
+				b_nahariya = {
+				}
+				b_akko = {
+				}
+				b_karmiel = {
+				}
+				b_safed = {
+				}
+				b_qiryat_shemona = {
+				}
+				b_maalut_tarsiha = {
+				}
+				b_jish = {
+				}
+			}
+			c_galil_tachton = { # 1971
+				color={ 212 220 43 }
+				color2={ 255 255 255 }
+				
+				b_nof_hagalil = {
+				}
+				b_nazareth = {
+				}
+				b_afula = {
+				}
+				b_tiberias = {
+				}
+				b_safaamr = {
+				}
+				b_tamra = {
+				}
+				b_sakhnin = {
+				}
+			}
+		}
+		d_hof_yehuda = {
+			color={ 168 188 156 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1960 province_id = 1961 province_id = 1962 } }
+				}
+			}
+			capital = 1960 # c_tel_aviv
+			
+			c_tel_aviv = { # 1960
+				color={ 178 178 161 }
+				color2={ 255 255 255 }
+				
+				b_ramla = {
+				}
+				b_tel_aviv = {
+				}
+				b_jaffah = {
+				}
+				b_rishot_lezion = {
+				}
+				b_rehovot = {
+				}
+				b_modiin = {
+				}
+				b_lod = {
+				}
+			}
+			c_hof_yehuda = { # 1962
+				color={ 82 83 10 }
+				color2={ 255 255 255 }
+				
+				b_ashkelon = {
+				}
+				b_ashdod = {
+				}
+				b_qiryat_gat = {
+				}
+				b_ofaqim = {
+				}
+				b_qiryat_malakhi = {
+				}
+				b_barnea = {
+				}
+				b_afridar = {
+				}
+			}
+			c_sharon = { # 1961
+				color={ 187 187 162 }
+				color2={ 255 255 255 }
+				
+				b_hod_hasharon = {
+				}
+				b_netanya = {
+				}
+				b_herzliya = {
+				}
+				b_hadera = {
+				}
+				b_kfar_saba = {
+				}
+				b_kfar_yona = {
+				}
+				b_raanana = {
+				}
+			}
+		}
+		d_negev = {
+			color={ 65 46 20 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1966 province_id = 1967 province_id = 1968 province_id = 1969 } }
+				}
+			}
+			capital = 1966 # c_beersheba
+			
+			c_beersheba = { # 1966
+				color={ 55 56 15 }
+				color2={ 255 255 255 }
+				
+				b_arad = {
+				}
+				b_beersheba = {
+				}
+				b_rahat = {
+				}
+				b_netivot = {
+				}
+				b_dimona = {
+				}
+				b_tel_sheva = {
+				}
+				b_kseifa = {
+				}
+			}
+			c_eilat = { # 1968
+				color={ 90 92 15 }
+				color2={ 255 255 255 }
+				
+				b_arava = {
+				}
+				b_ganim = {
+				}
+				b_yeelim = {
+				}
+				b_hadekel = {
+				}
+				b_mizpe_yam = {
+				}
+				b_ophir = {
+				}
+				b_shahamon = {
+				}
+			}
+			c_gaza = { # 1967
+				color={ 107 108 32 }
+				color2={ 255 255 255 }
+				
+				b_gazzah = {
+				}
+				b_khan_yunus = {
+				}
+				b_jabalya = {
+				}
+				b_rafah = {
+				}
+				b_dair_al_balah = {
+				}
+				b_bayt_lahiya = {
+				}
+				b_bani_suhayla = {
+				}
+			}
+			c_naqab = { # 1969
+				color={ 118 121 19 }
+				color2={ 255 255 255 }
+				
+				b_mutasaby_rimun = {
+				}
+				b_shitim = {
+				}
+				b_nysana = {
+				}
+				b_qadish_barmea = {
+				}
+				b_qmehin = {
+				}
+				b_beer_milka = {
+				}
+				b_ezuz = {
+				}
+			}
+		}
+		d_west_bank = {
+			color={ 157 178 122 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1963 province_id = 1964 province_id = 1965 } }
+				}
+			}
+			capital = 1963 # c_hebron
+			
+			c_hebron = { # 1963
+				color={ 167 168 127 }
+				color2={ 255 255 255 }
+				
+				b_ad_dhahiriya = {
+				}
+				b_bethlehem = {
+				}
+				b_bethlehem_2 = {
+				}
+				b_yattah = {
+				}
+				b_halhul = {
+				}
+				b_dura = {
+				}
+				b_zaatarah = {
+				}
+			}
+			c_nablus = { # 1965
+				color={ 183 184 163 }
+				color2={ 255 255 255 }
+				
+				b_nablus = {
+				}
+				b_ganin = {
+				}
+				b_tulkarm = {
+				}
+				b_qalqilya = {
+				}
+				b_salfit = {
+				}
+				b_tubas = {
+				}
+				b_aqraba = {
+				}
+			}
+			c_ramallah = { # 1964
+				color={ 198 200 133 }
+				color2={ 255 255 255 }
+				
+				b_ramallah = {
+				}
+				b_al_birah = {
+				}
+				b_jericho = {
+				}
+				b_bitunya = {
+				}
+				b_al_zaitunah = {
+				}
+				b_al_awja = {
+				}
+				b_al_jitflik = {
+				}
+			}
+		}
+	}
+}
