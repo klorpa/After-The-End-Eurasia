@@ -11,18 +11,11 @@ e_al_sharq_al_awsat = {
 		color2={ 255 255 255 }
 		
 		capital = 1599 # c_riyad
-		culture = najdi
 		
 		d_riyad = {
 			color={ 159 202 218 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1599 province_id = 1600 province_id = 1601 province_id = 1602 province_id = 1603 province_id = 1604 } }
-				}
-			}
 			capital = 1599 # c_riyad
 			
 			c_riyad = { # 1599
@@ -144,12 +137,6 @@ e_al_sharq_al_awsat = {
 			color={ 23 53 126 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1619 province_id = 1620 } }
-				}
-			}
 			capital = 1619 # c_arar
 			
 			c_arar = { # 1619
@@ -214,12 +201,6 @@ e_al_sharq_al_awsat = {
 			color={ 78 71 103 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1954 province_id = 1955 province_id = 1956 province_id = 1957 } }
-				}
-			}
 			capital = 1954 # c_hail
 			
 			c_hail = { # 1954
@@ -303,12 +284,6 @@ e_al_sharq_al_awsat = {
 			color={ 95 154 193 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1605 province_id = 1606 province_id = 1607 province_id = 1608 } }
-				}
-			}
 			capital = 1605 # c_sakakah
 			
 			c_sakakah = { # 1605
@@ -392,12 +367,6 @@ e_al_sharq_al_awsat = {
 			color={ 13 83 214 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1613 province_id = 1614 province_id = 1615 province_id = 1616 province_id = 1617 province_id = 1618 } }
-				}
-			}
 			capital = 1613 # c_buraydah
 			
 			c_buraydah = { # 1613
@@ -519,12 +488,6 @@ e_al_sharq_al_awsat = {
 			color={ 25 46 118 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1609 province_id = 1610 province_id = 1611 province_id = 1612 } }
-				}
-			}
 			capital = 1609 # c_duwadmi
 			
 			c_duwadmi = { # 1609
@@ -611,18 +574,11 @@ e_al_sharq_al_awsat = {
 		color2={ 255 255 255 }
 		
 		capital = 1923 # c_mecca
-		culture = hijazi
 		
 		d_makkah = {
 			color={ 112 121 119 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1923 province_id = 1924 province_id = 1925 province_id = 1926 province_id = 1927 } }
-				}
-			}
 			capital = 1923 # c_mecca
 			
 			c_mecca = { # 1923
@@ -725,12 +681,6 @@ e_al_sharq_al_awsat = {
 			color={ 60 190 119 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1934 province_id = 1935 province_id = 1936 province_id = 1937 } }
-				}
-			}
 			capital = 1934 # c_al_bahah
 			
 			c_al_bahah = { # 1934
@@ -814,12 +764,6 @@ e_al_sharq_al_awsat = {
 			color={ 70 116 93 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1928 province_id = 1929 province_id = 1930 province_id = 1931 province_id = 1932 province_id = 1933 } }
-				}
-			}
 			capital = 1928 # c_abha
 			
 			c_abha = { # 1928
@@ -941,12 +885,6 @@ e_al_sharq_al_awsat = {
 			color={ 75 204 126 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1942 province_id = 1943 province_id = 1944 province_id = 1945 province_id = 1946 province_id = 1947 province_id = 1948 } }
-				}
-			}
 			capital = 1942 # c_medina
 			
 			c_medina = { # 1942
@@ -1087,12 +1025,6 @@ e_al_sharq_al_awsat = {
 			color={ 18 45 33 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1938 province_id = 1939 province_id = 1940 province_id = 1941 } }
-				}
-			}
 			capital = 1938 # c_rabigh
 			
 			c_rabigh = { # 1938
@@ -1176,12 +1108,6 @@ e_al_sharq_al_awsat = {
 			color={ 79 97 90 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1949 province_id = 1950 province_id = 1951 province_id = 1952 province_id = 1953 } }
-				}
-			}
 			capital = 1949 # c_tabuk
 			
 			c_tabuk = { # 1949
@@ -1283,7 +1209,7 @@ e_al_sharq_al_awsat = {
 	}
 	
 	k_bahrayn = {
-		color={ 228 36 81 }
+		color={ 238 56 81 }
 		color2={ 255 255 255 }
 		
 		capital = 1479 # c_abu_dhabi
@@ -3165,7 +3091,7 @@ e_al_sharq_al_awsat = {
 	}
 	
 	k_oman = {
-		color={ 211 25 70 }
+		color={ 201 25 30 }
 		color2={ 255 255 255 }
 		
 		capital = 1469 # c_masqat
