@@ -9,6 +9,219 @@ e_al_mashriq = {
 	capital = 1958 # c_west_jerusalem
 	culture = ivri
 	
+	k_lebanon = {
+		color={ 196 56 100 }
+		color2={ 255 255 255 }
+		
+		capital = 1973 # c_beirut
+		culture = lebneni
+		
+		d_beirut = {
+			color={ 176 76 90 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1973 } }
+				}
+			}
+			capital = 1973 # c_beirut
+			
+			c_beirut = { # 1973
+				color={ 166 86 85 }
+				color2={ 255 255 255 }
+				
+				b_baabda = {
+				}
+				b_ashrafiat = {
+				}
+				b_badaro = {
+				}
+				b_mar_makhayil = {
+				}
+				b_ras_beirut = {
+				}
+				b_zuqaq_al_blat = {
+				}
+				b_saifi = {
+				}
+			}
+		}
+		d_as_shamal = {
+			color={ 189 113 96 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1979 province_id = 1980 } }
+				}
+			}
+			capital = 1979 # c_tarabulus
+			
+			c_tarabulus = { # 1979
+				color={ 199 103 101 }
+				color2={ 255 255 255 }
+				
+				b_tarabulus = {
+				}
+				b_al_batrun = {
+				}
+				b_zgharta = {
+				}
+				b_bsharri = {
+				}
+				b_miniyah = {
+				}
+				b_amyun = {
+				}
+				b_halba = {
+				}
+			}
+			c_jabal_lubnan = { # 1980
+				color={ 220 127 125 }
+				color2={ 255 255 255 }
+				
+				b_jbeil = {
+				}
+				b_juniya = {
+				}
+				b_al_judaydat = {
+				}
+				b_qartaba = {
+				}
+				b_kfar_yasin = {
+				}
+				b_ghabat = {
+				}
+				b_tabarja = {
+				}
+			}
+		}
+		d_beqaa = {
+			color={ 72 12 26 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1977 province_id = 1978 } }
+				}
+			}
+			capital = 1977 # c_rashaya
+			
+			c_rashaya = { # 1977
+				color={ 62 22 21 }
+				color2={ 255 255 255 }
+				
+				b_rashaya = {
+				}
+				b_jub_jannin = {
+				}
+				b_nebi_safa = {
+				}
+				b_mashgara = {
+				}
+				b_qaraun = {
+				}
+				b_kifraya = {
+				}
+				b_al_birah = {
+				}
+			}
+			c_baalbek = { # 1978
+				color={ 203 148 146 }
+				color2={ 255 255 255 }
+				
+				b_baalbek = {
+				}
+				b_zahleh = {
+				}
+				b_riyaq = {
+				}
+				b_hermel = {
+				}
+				b_arsal = {
+				}
+				b_hallaniyah = {
+				}
+				b_qasr_naba = {
+				}
+			}
+		}
+		d_al_jnoub = {
+			color={ 205 127 110 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1974 province_id = 1975 province_id = 1976 } }
+				}
+			}
+			capital = 1974 # c_sur
+			
+			c_sur_lb = { # 1974
+				color={ 215 117 115 }
+				color2={ 255 255 255 }
+				
+				b_sur_lb = {
+				}
+				b_qana = {
+				}
+				b_an_naqurah = {
+				}
+				b_abbasiyah = {
+				}
+				b_sidiqin = {
+				}
+				b_jennata = {
+				}
+				b_tayr_debba = {
+				}
+			}
+			c_jabal_amil = { # 1975
+				color={ 208 71 68 }
+				color2={ 255 255 255 }
+				
+				b_bint_jbeil = {
+				}
+				b_hasbaya = {
+				}
+				b_marjuyun = {
+				}
+				b_jumayjimah = {
+				}
+				b_khiyam = {
+				}
+				b_kfar_shuba = {
+				}
+				b_ayatrun = {
+				}
+			}
+			c_saida_lb = { # 1976
+				color={ 97 27 25 }
+				color2={ 255 255 255 }
+				
+				b_saida_lb = {
+				}
+				b_nabatiyya = {
+				}
+				b_aley = {
+				}
+				b_jizyin = {
+				}
+				b_bayt_ad_din = {
+				}
+				b_tabbaya = {
+				}
+				b_bayt_shamun = {
+				}
+			}
+		}
+	}
+	
 	k_ard_al_muqaddis = {
 		color={ 115 176 104 }
 		color2={ 255 255 255 }
