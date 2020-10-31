@@ -22,10 +22,6 @@ republic_governments = {
 		frame_suffix = "_merchantrepublic"
 		title_prefix = "city_"
 		potential = {
-			NAND = { #disable automatic merchant republic to make mafia work for southern italian cultures
-				higher_real_tier_than = COUNT
-				culture = italian #placeholder
-			}
 			OR = {
 				controls_religion = no
 				religion_group = muslim
