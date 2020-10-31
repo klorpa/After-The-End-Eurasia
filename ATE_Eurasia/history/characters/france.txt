@@ -1686,7 +1686,7 @@
 	name="Oliva"
 	dynasty=2011206 #Aulas
 	culture=arpitan
-	religion=aphite
+	religion=chronicler
 	diplomacy=5
 	martial=3
 	stewardship=7
@@ -1740,6 +1740,9 @@
 	2640.1.7={
 		give_nickname=nick_the_surfer
 	}
+	2659.12.8={
+		add_spouse=1804116
+	}
 }
 1804114={
 	name="Marc"
@@ -1781,4 +1784,100 @@
 	trait=slothful
 	trait=humble
 	2615.4.11={birth=yes}
+	2638.9.9={
+		add_spouse=1804118
+	}
+}
+1804116={
+	name="Oumaïma"
+	female=yes
+	dynasty=2038222 #Cheiki
+	culture=francarabe
+	religion=ruhi
+	diplomacy=6
+	martial=5
+	stewardship=4
+	intrigue=7
+	learning=6
+	trait=underhanded_rogue
+	trait=fair
+	trait=cynical
+	trait=selfish
+	trait=humble
+	trait=patient
+	2643.10.9={birth=yes}
+}
+1804117={
+	name="Mehdi"
+	dynasty=2038221 #Boukhiam
+	culture=francarabe
+	religion=ruhi
+	diplomacy=3
+	martial=2
+	stewardship=2
+	intrigue=2
+	learning=1
+	trait=fussy
+	trait=idolizer
+	father=1804113
+	mother=1804116
+	2661.2.1={birth=yes}
+}
+1804118={
+	name="Ginette"
+	female=yes
+	dynasty=2008259 #Ravailhac
+	culture=occitan
+	religion=jacobin
+	diplomacy=3
+	martial=3
+	stewardship=6
+	intrigue=4
+	learning=7
+	trait=naive_appeaser
+	trait=wroth
+	trait=craven
+	trait=greedy
+	trait=chaste
+	trait=selfish
+	2618.6.24={birth=yes}
+}
+1804119={
+	name="Miquèu"
+	dynasty=2008258 #Montesqiou
+	culture=occitan
+	religion=catholic
+	diplomacy=5
+	martial=6
+	stewardship=6
+	intrigue=5
+	learning=6
+	trait=tough_soldier
+	trait=proud
+	trait=honorable
+	trait=dull
+	trait=duelist
+	trait=cruel
+	father=1804115
+	mother=1804118
+	2644.8.17={birth=yes}
+}
+1804120={
+	name="Lesièn"
+	dynasty=2011049 #Vuillierme
+	culture=arpitan
+	religion=chronicler
+	diplomacy=5
+	martial=4
+	stewardship=5
+	intrigue=6
+	learning=8
+	trait=mastermind_theologian
+	trait=gardener
+	trait=mystic
+	trait=possessed
+	trait=proud
+	trait=greedy
+	trait=dwarf
+	2621.1.1={birth=yes}
 }
