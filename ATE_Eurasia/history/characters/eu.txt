@@ -175,7 +175,6 @@
 	trait=erudite
 	trait=patient
 	2633.11.4={birth=yes}
-	2650.1.1={add_spouse=1923011}
 	2700.1.1={death=yes}
 }
 1958013={
@@ -394,7 +393,7 @@
 1958029={
 	name="Wilhelm"
 	dynasty=1848009 #Jacoby
-	culture=rhenish
+	culture=polish
 	religion=neuhumanist
 	trait=elusive_shadow
 	trait=quick
@@ -403,7 +402,7 @@
 	trait=patient
 	trait=cynical
 	trait=envious
-	2628.7.8={birth=yes}
+	2628.7.8={birth=yes culture=rhenish}
 	2700.1.1={death=yes}
 }
 1958030={
@@ -2055,56 +2054,4 @@
 	father=1958170
 	2602.2.22={birth=yes}
 	2648.9.11={death=yes}
-}
-1923007={
-	name="Wilhelm"
-	dynasty=1848009 #Jacoby
-	culture=rhenish
-	religion=neuhumanist
-	father=1958029
-	trait=amateurish_plotter
-	trait=quick
-	2658.8.6={birth=yes}
-	2700.1.1={death=yes}
-}
-1923008={
-	name="Edgar"
-	dynasty=1848009 #Jacoby
-	culture=rhenish
-	religion=neuhumanist
-	father=1958029
-	trait=ugly
-	2659.12.24={birth=yes}
-	2700.1.1={death=yes}
-}
-1923009={
-	name="Iselle"
-	female=yes
-	dynasty=2061000 #Defacqz
-	culture=walloon
-	religion=neuhumanist
-	father=1958012
-	mother=1923011
-	2658.7.3={birth=yes}
-	2700.1.1={death=yes}
-}
-1923010={
-	name="Cédric"
-	dynasty=2061000 #Defacqz
-	culture=walloon
-	religion=neuhumanist
-	father=1958012
-	mother=1923011
-	2660.9.9={birth=yes}
-	2700.1.1={death=yes}
-}
-1923011={
-	name="Angela"
-	female=yes
-	dynasty=1848001 #Geyer
-	culture=rhenish
-	religion=neuhumanist
-	father=1958171
-	2634.5.3={birth=yes}
-	2700.1.1={death=yes}
 }
