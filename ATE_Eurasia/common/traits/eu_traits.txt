@@ -425,3 +425,58 @@ branch_romanticism = {
 	religious = yes
 	ruler_designer_cost = 0
 }
+branch_nuclearism = {
+	opposites = {
+		branch_medicalism
+		branch_industrialism
+	}
+
+	stewardship = 2
+	intrigue = -1
+	monthly_character_piety = 0.20
+	
+	opposite_opinion = -5
+
+	potential = { religion = chronicler }
+	religious_branch = chronicler
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+branch_medicalism = {
+	opposites = {
+		branch_nuclearism
+		branch_medicalism
+	}
+
+	learning = 2
+	martial = -1
+	vassal_opinion = 5
+	health = 0.05
+	
+	opposite_opinion = -5
+
+	potential = { religion = chronicler }
+	religious_branch = chronicler
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+branch_industrialism = {
+	opposites = {
+		branch_nuclearism
+		branch_existentialism
+	}
+
+	stewardship = 3
+	intrigue = -1
+	monthly_character_prestige = 0.02
+	
+	opposite_opinion = -5
+
+	potential = { religion = chronicler }
+	religious_branch = chronicler
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
