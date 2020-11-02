@@ -103,10 +103,13 @@ e_italy = {
 				provencal="Venècia"
 				
 				b_san_marco = {}
-				b_cannaregio = {}
-				b_santa_croce = {}
+				b_cannaregio = {
+					venetian="Canarégio"}
+				b_santa_croce = {
+					venetian="Santa Cróxe"}
 				b_san_polo = {}
-				b_castello = {}
+				b_castello = {
+					venetian="Castèlo"}
 				b_dorsoduro = {}
 				b_lido = {}
 			}
@@ -165,20 +168,31 @@ e_italy = {
 				provencal="Pàdoa"
 				
 				b_mestre = {}
-				b_rovigo = {}
+				b_rovigo = {
+					piedmontese="Rovigh"
+					sicilian="Ruvigu"
+					lombard="Ruvigh"
+					friulian="Ruvì"
+					romagnol="Ruig"}
 				b_padua = {
 					neapolitan="Padova"
 					umbrian="Padova"
 					tuscan="Padova"
-					sicilian="Padova"
+					sicilian="Pàduva"
 					venetian="Pàdova"
-				}
+					romagnol="Pâdva"
+					sardinian="Padova"
+					friulian="Padue"
+					ligurian="Padoa"
+					piedmontese="Pàdoa"
+					lombard="Padoa"}
 				b_mira = {}
 				b_chioggia = {
 					venetian="Cióxa"
 				}
 				b_adria = {}
-				b_albignasego = {}
+				b_albignasego = {
+					venetian="Binjàxego"}
 			}
 			c_verona = {
 				color={ 123 164 127 }
@@ -205,9 +219,29 @@ e_italy = {
 				chti="Vérone"
 				arpitan="Vèrona"
 				
-				b_villafranca_di_verona = {}
+				b_villafranca_di_verona = {
+					ligurian="Vilafranca de Veronn-a"
+					piedmontese="Vilafranca di Veron-a"
+					friulian="Villefrance de Verone"
+					sardinian="Villafranca de Berona"
+					romagnol="Vilafrànca ed Verånna"
+					sicilian="Villafranca di Viròna"
+					venetian="Vilafranca de Verona"
+					lombard="Villafranca di Verùna"}
 				b_vicenza = {
+					lombard="Vicènsa"
+					friulian="Vicense"
+					sardinian="Bissèntzia"
+					piedmontese="Vicensa"
 					venetian="Vicensa"
+					rhenish="Wiesenthein"
+					low_saxon="Wiesenthein"
+					ossi="Wiesenthein"
+					upper_saxon="Wiesenthein"
+					bavarian="Wiesenthein"
+					swabian="Wiesenthein"
+					austrian="Wiesenthein"
+					schwyzer="Wiesenthein" 
 				}
 				b_verona = {
 					rhenish="Welschbern"
@@ -218,15 +252,36 @@ e_italy = {
 					swabian="Welschbern"
 					austrian="Welschbern"
 					schwyzer="Welschbern"
+					sicilian="Viròna"
 					venetian="Veròna"
+					romagnol="Verånna"
+					sardinian="Berona"
+					friulian="Verone"
+					ligurian="Veronn-a"
+					piedmontese="Veron-a"
+					lombard="Verùna"
+					parisian="Vérone"
+					walloon="Vérone"
+					chti="Vérone"
+					arpitan="Vèrona"
 				}
 				b_bassano_del_grappa = {
 					venetian="Basan"
+					bavarian="Wassan"
+					rhenish="Bassan"
+					low_saxon="Bassan"
+					ossi="Bassan"
+					upper_saxon="Bassan"
+					swabian="Bassan"
+					austrian="Bassan"
+					schwyzer="Bassan" 
 				}
-				b_schio = {}
-				b_villa = {}
-				b_san_giovanni_lupatoto = {}
-				b_legnago = {}
+				b_schio = {
+					bavarian="Slait"}
+				b_san_giovanni_lupatoto = {
+					venetian="San Joane"}
+				b_legnago = {
+					lombard="Legnach"}
 			}
 			c_treviso = {
 				color={ 80 147 86 }
@@ -246,18 +301,32 @@ e_italy = {
 				provencal="Trevís"
 				
 				b_treviso = {
+					sicilian="Trivisu"
 					venetian="Trevixo"
-				}
+					romagnol="Trevîs"
+					sardinian="Trebisu"
+					friulian="Trevîs"
+					piedmontese="Trevis"
+					parisian="Trévise"
+					walloon="Trévise"
+					chti="Trévise"
+					arpitan="Trèviso"
+					occitan="Trevís"
+					provencal="Trevís"}
 				b_conegliano = {
 					venetian="Conejan"
 				}
 				b_castelfranco_veneto = {
-					venetian="Castelo"
+					venetian="Castèlo"
 				}
-				b_montebelluna = {}
-				b_vittorio_veneto = {}
-				b_paese = {}
-				b_oderzo = {}
+				b_montebelluna = {
+					venetian="Montebeluna"}
+				b_vittorio_veneto = {
+					venetian="Vitòrio"}
+				b_paese = {
+					venetian="Paéxe"}
+				b_oderzo = {
+					venetian="Oderso"}
 			}
 		}
 	d_trentino = {
@@ -324,12 +393,16 @@ e_italy = {
 					low_saxon="Rofreit"
 					ossi="Rofreit"
 					upper_saxon="Rofreit"
-					bavarian="Rofreit"
+					bavarian="Rovereit"
 					swabian="Rofreit"
 					austrian="Rofreit"
 					schwyzer="Rofreit"
-				}
+					romagnol="Ruveraid"
+					lombard="Roveredo"
+					venetian="Roveredo"
+					sicilian="Roveretu"}
 				b_pergine_valsugana = {
+					venetian="Pèrxen"
 					rhenish="Fersen im Suganertal"
 					low_saxon="Fersen im Suganertal"
 					ossi="Fersen im Suganertal"
@@ -337,19 +410,26 @@ e_italy = {
 					bavarian="Fersen im Suganertal"
 					swabian="Fersen im Suganertal"
 					austrian="Fersen im Suganertal"
-					schwyzer="Fersen im Suganertal"
-				}
+					schwyzer="Fersen im Suganertal"}
 				b_trento = {
 					rhenish="Trient"
 					low_saxon="Trient"
 					ossi="Trient"
 					upper_saxon="Trient"
-					bavarian="Trient"
+					bavarian="Treant"
 					swabian="Trient"
-					austrian="Trient"
+					austrian="Treant"
 					schwyzer="Trient"
+					friulian="Trent"
+					lombard="Trent"
+					piedmontese="Trent"
+					sardinian="Trentu"
+					sicilian="Trentu"
+					venetian="Trénto"
+					ligurian="Trènto"
 				}
 				b_riva_del_garda = {
+					lombard="Rìa del Garda"
 					rhenish="Reiff am Gartsee"
 					low_saxon="Reiff am Gartsee"
 					ossi="Reiff am Gartsee"
@@ -360,16 +440,18 @@ e_italy = {
 					schwyzer="Reiff am Gartsee"
 				}
 				b_cles = {
-					rhenish="Glöss"
-					low_saxon="Glöss"
-					ossi="Glöss"
-					upper_saxon="Glöss"
-					bavarian="Glöss"
-					swabian="Glöss"
-					austrian="Glöss"
-					schwyzer="Glöss"
+					rhenish="Glöß"
+					low_saxon="Glöß"
+					ossi="Glöß"
+					upper_saxon="Glöß"
+					bavarian="Glöß"
+					swabian="Glöß"
+					austrian="Glöß"
+					schwyzer="Glöß"
 				}
 				b_tione_di_trento = {
+					venetian="Tion de Trento"
+					lombard="Tió"
 					rhenish="Taun"
 					low_saxon="Taun"
 					ossi="Taun"
@@ -380,6 +462,7 @@ e_italy = {
 					schwyzer="Taun"
 				}
 				b_mezzocorona = {
+					venetian="Mexacorona"
 					rhenish="Kronmetz"
 					low_saxon="Kronmetz"
 					ossi="Kronmetz"
@@ -422,14 +505,14 @@ e_italy = {
 					parisian="Bellune"
 					walloon="Bellune"
 					chti="Bellune"
-					arpitan="Bèlon"
-				}
-				b_sedico = {}
+					arpitan="Bèlon"}
+				b_sedico = {
+					arpitan="Sedego"}
 				b_ponte_nelle_alpi = {
-					venetian="Pont"
-				}
+					venetian="Pont"}
 				b_alpago = {}
-				b_santa_giustina = {}
+				b_santa_giustina = {
+					venetian="Santa Jostina"}
 			}
 		}
 		d_fruli = {
@@ -484,7 +567,8 @@ e_italy = {
 				piedmontese="Ùdin"
 				
 				b_villalta = {}
-				b_codroipo = {}
+				b_codroipo = {
+					friulian="Codroip"}
 				b_udine = {
 					rhenish="Weiden in Friaul"
 					low_saxon="Weiden in Friaul"
@@ -501,10 +585,25 @@ e_italy = {
 					ligurian="Uddine"
 					piedmontese="Ùdin"
 				}
-				b_tavagnacco = {}
-				b_cervignano_del_friuli = {}
-				b_latisana = {}
-				b_cividale_del_friuli = {}
+				b_tavagnacco = {
+					friulian="Tavagnà"}
+				b_cervignano_del_friuli = {
+					friulian="Çarvignan"}
+				b_latisana = {
+					venetian="Latixana"
+					friulian="Tisane"}
+				b_cividale_del_friuli = {
+					venetian="Cividal"
+					friulian="Sividât"
+					rhenish="Östrich"
+					low_saxon="Östrich"
+					ossi="Östrich"
+					upper_saxon="Östrich"
+					bavarian="Östrich"
+					swabian="Östrich"
+					austrian="Östrich"
+					schwyzer="Östrich"
+					slovene="Czedad"}
 			}
 			c_pordenone = {
 				color={ 101 155 106 }
@@ -519,18 +618,30 @@ e_italy = {
 				lombard="Pordenon"
 				
 				b_sacile = {
-					venetian="Sathìl"
-				}
+					friulian="Sacîl"
+					venetian="Sathìl"}
 				b_cordenons = {
-					venetian="Cordenòns"
-				}
+					friulian="Cordenòns"
+					venetian="Cordenòns"}
 				b_pordenone = {
+					sicilian="Pordenoni"
 					venetian="Pordenon"
-				}
-				b_azzano_decimo = {}
-				b_porcia = {}
-				b_san_vito_al_tagliamento = {}
-				b_fontanfredda = {}
+					romagnol="Pordenon"
+					friulian="Pordenon"
+					ligurian="Pordenòn"
+					piedmontese="Pordenon"
+					lombard="Pordenon"}
+				b_azzano_decimo = {
+					venetian="Azano Decimo"
+					friulian="Daçan di Pordenon"}
+				b_porcia = {
+					friulian="Purcîe"}
+				b_san_vito_al_tagliamento = {
+					venetian="San Vito al Tajamento"
+					friulian="San Vît dal Tiliment"}
+				b_fontanafredda = {
+					venetian="Fontanafreda"
+					friulian="Fontanefrede"}
 			}
 		}
 	}
