@@ -86,4 +86,29 @@ decisions = {
 			always = no
 		}
 	}
+	change_chronicler_branch = {
+		ai = no
+		
+		potential = {
+			religion = chronicler
+			is_playable = yes 
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names = random }
+			}
+			NOT = { has_character_flag = changedchroniclerbranch }
+		}
+		
+		allow = { 
+			religion = chronicler 
+			is_playable = yes 
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				character_event = { id = chronicler.1 }
+			}
+			custom_tooltip = { text = TXT_change_neuhumanist_branch }
+			set_character_flag = changedchroniclerbranch 
+		}
+	}
 }
