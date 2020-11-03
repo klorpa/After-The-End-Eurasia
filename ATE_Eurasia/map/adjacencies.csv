@@ -1,6 +1,7 @@
 From;To;Type;Through;-1;-1;-1;-1;Comment
 1638;1639;portage;2016;-1;-1;-1;-1;River Ob Access
 1798;1808;portage;616;-1;-1;-1;-1;Don-Volga portage
+1849;1850;portage;349;-1;-1;-1;-1;Elbe-Kiel connectivity
 23;90;sea;1719;-1;-1;-1;-1;Belfast-Galloway
 25;100;sea;1719;-1;-1;-1;-1;Belfast-Argyll
 377;394;sea;1786;-1;-1;-1;-1;Rugen-Stralsund
@@ -68,10 +69,12 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 1489;1351;sea;1667;-1;-1;-1;-1;al-Awal-al-Wakrah
 1419;1411;sea;1764;-1;-1;-1;-1;Shamal Saina-al-Ismailiyah
 1419;1410;sea;1764;-1;-1;-1;-1;Shamal Saina-as-Suways
+1564;1563;sea;1846;-1;-1;-1;-1;Eure-Seine-Maritime
+1552;1551;sea;1846;-1;-1;-1;-1;Yvelines-Paris
 220;221;major_river;1843;-1;-1;-1;-1;Seville-Sierra Norte
 224;222;major_river;1843;-1;-1;-1;-1;Cadiz-Huelva
-664;673;major_river;1906;-1;-1;-1;-1;Leningrad-Kirovsk
-664;665;major_river;1906;-1;-1;-1;-1;Leningrad-Gatchina
+664;673;major_river;1906;-1;-1;-1;-1;Petrograd-Kirovsk
+664;665;major_river;1906;-1;-1;-1;-1;Petrograd-Gatchina
 669;699;major_river;1831;-1;-1;-1;-1;Petrozavodsk-Tikhvin
 700;738;major_river;1830;-1;-1;-1;-1;Cherepovets-Vytegra
 700;737;major_river;1830;-1;-1;-1;-1;Cherepovets-Vologda
@@ -104,7 +107,44 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 1322;396;major_river;1908;-1;-1;-1;-1;Stargard-Szczecin
 1322;413;major_river;1908;-1;-1;-1;-1;Stargard-Uckermark
 1322;411;major_river;1908;-1;-1;-1;-1;Stargard-Oder-Spree
-1564;1563;sea;1846;-1;-1;-1;-1;Eure-Seine-Maritime
-1552;1551;sea;1846;-1;-1;-1;-1;Yvelines-Paris
-1527;1528;sea;1845;-1;-1;-1;-1;Gironde-Perigord
-1527;1535;sea;1845;-1;-1;-1;-1;Gironde-Saintonge
+1527;1528;major_river;1845;-1;-1;-1;-1;Gironde-Perigord
+1527;1535;major_river;1845;-1;-1;-1;-1;Gironde-Saintonge
+494;495;major_river;1911;-1;-1;-1;-1;Uppland-Sodermanland
+490;492;major_river;1909;-1;-1;-1;-1;Vastra-Gotaland-Dalsland
+529;491;major_river;1909;-1;-1;-1;-1;Goteborg-Bohuslan
+805;803;major_river;1854;-1;-1;-1;-1;Elblag-Trojmiasto
+805;1325;major_river;1854;-1;-1;-1;-1;Elblag-Tuchola
+53;1325;major_river;1854;-1;-1;-1;-1;Torun-Tuchola
+53;1334;major_river;1854;-1;-1;-1;-1;Torun-Bydgoszcz
+53;1332;major_river;1855;-1;-1;-1;-1;Torun-Wloclawek
+1340;1338;major_river;1855;-1;-1;-1;-1;Plock-Lodz
+1339;1340;major_river;1855;-1;-1;-1;-1;Warsaw-Plock
+1339;599;major_river;1855;-1;-1;-1;-1;Warsaw-Ostroleka
+1339;1321;major_river;1855;-1;-1;-1;-1;Warsaw-Siedlce
+1321;443;major_river;1856;-1;-1;-1;-1;Siedlce-Radom
+1341;443;major_river;1856;-1;-1;-1;-1;Lublin-Radom
+1341;1337;major_river;1856;-1;-1;-1;-1;Lublin-Swietokrzyskie
+547;666;major_river;1907;-1;-1;-1;-1;Narva-Kingisepp
+710;753;major_river;;-1;-1;-1;-1;Mezen-Kamenka
+534;416;major_river;1865;-1;-1;-1;-1;Ulm-Bodensee
+534;468;major_river;1865;-1;-1;-1;-1;Ulm-Augsburg
+338;334;major_river;1847;-1;-1;-1;-1;North Brabant-Holland
+338;336;major_river;1847;-1;-1;-1;-1;North Brabant-Utrecht
+339;336;major_river;1847;-1;-1;-1;-1;Limburg-Utrecht
+339;337;major_river;1847;-1;-1;-1;-1;Limburg-Gelderland
+557;337;major_river;1847;-1;-1;-1;-1;Krefeld-Gelderland
+557;363;major_river;1847;-1;-1;-1;-1;Krefeld-Ruhr
+366;555;major_river;1848;-1;-1;-1;-1;Dusseldorf-Cologne
+366;365;major_river;1848;-1;-1;-1;-1;Dusseldorf-Bonn
+379;372;major_river;1848;-1;-1;-1;-1;Koblenz-Wiesbaden
+379;373;major_river;1848;-1;-1;-1;-1;Koblenz-Westerwald
+465;458;major_river;1864;-1;-1;-1;-1;Munich-Nuremberg
+463;458;major_river;1864;-1;-1;-1;-1;Landshut-Nuremberg
+463;460;major_river;1864;-1;-1;-1;-1;Landshut-Regensburg
+463;461;major_river;1864;-1;-1;-1;-1;Landshut-Deggendorf
+462;461;major_river;1864;-1;-1;-1;-1;Passau-Deggendorf
+584;461;major_river;1864;-1;-1;-1;-1;Upper Austria-Deggendorf
+584;147;major_river;1863;-1;-1;-1;-1;Upper Austria-Urfahr
+147;822;major_river;1863;-1;-1;-1;-1;Urfahr-Sankt Polten
+588;822;major_river;1863;-1;-1;-1;-1;Manhartsberg-Sankt Polten
+588;589;major_river;1863;-1;-1;-1;-1;Manhartsberg-Vienna
