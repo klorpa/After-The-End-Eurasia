@@ -7,3 +7,52 @@ nick_half_troll = {}
 nick_the_child = {}
 nick_the_sungazer = {}
 nick_the_surfer = {}
+nick_atterdag = {
+	allow = {
+		ruled_years = 10
+		culture = danish
+		prestige = 2000
+		higher_tier_than = COUNT
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2.0
+			prestige = 4000
+		}
+		modifier = {
+			factor = 2.0
+			prestige = 8000
+		}
+		modifier = {
+			factor = 5.0
+			prestige = 15000
+		}
+	}
+}
+##########################################
+nick_the_great = { #added to remove Danes from being called Great
+	allow = {
+		ruled_years = 10
+		NOT = {culture = danish}
+		prestige = 2000
+		higher_tier_than = COUNT
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2.0
+			prestige = 4000
+		}
+		modifier = {
+			factor = 2.0
+			prestige = 8000
+		}
+		modifier = {
+			factor = 5.0
+			prestige = 15000
+		}
+	}
+}
+##########################################
+nick_witch_breaker = {}

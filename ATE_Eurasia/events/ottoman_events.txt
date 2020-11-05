@@ -1,0 +1,1055 @@
+#######################################
+#
+# Ottoman Events
+#
+# Event ID ottoman.1 - ottoman.199 reserved
+#
+#######################################
+
+# Edited by Derrick
+# Taken from the Vanilla Rome Events now with Turkish Flavor
+
+namespace = ottoman
+
+### Lost Ottoman Provinces
+
+# Restoration of Levantine Coast
+narrative_event = {
+	id = ottoman.1
+	title = EVTNAMEottoman.1
+	desc = EVTDESCottoman.1
+	
+	picture = GFX_victory_march_ottoman
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		
+		NOT = { has_global_flag = western_sham }
+		completely_controls = d_amman
+		completely_controls = d_irbid
+		completely_controls = d_karak
+		completely_controls = d_beirut
+		completely_controls = d_as_shamal
+		completely_controls = d_beqaa
+		completely_controls = d_al_jnoub
+		completely_controls = d_jerusalem
+		completely_controls = d_galil
+		completely_controls = d_mishor_hahof
+		completely_controls = d_negev
+		completely_controls = d_west_bank
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.1
+		set_global_flag = western_sham
+		prestige = 100
+	}
+}
+
+# Restoration of Misr
+narrative_event = {
+	id = ottoman.2
+	title = EVTNAMEottoman.2
+	desc = EVTDESCottoman.2
+	
+	picture = GFX_victory_march_ottoman
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		NOT = { has_global_flag = misr }
+		completely_controls = d_al_qahirah
+		completely_controls = d_cyrenaica
+		completely_controls = d_al_bahr_al_ahmar
+		completely_controls = d_al_iskandariyya
+		completely_controls = d_as_sahra_al_gharbia
+		completely_controls = d_as_suways
+		completely_controls = d_buhayra_nasr
+		completely_controls = d_delta_an_nil
+		completely_controls = d_janub_as_said
+		completely_controls = d_matruh
+		completely_controls = d_shamal_as_said
+		completely_controls = d_sinai
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.2
+		set_global_flag = misr
+		prestige = 100
+	}
+}
+
+# Libya Restored
+narrative_event = {
+	id = ottoman.3
+	title = EVTNAMEottoman.3
+	desc = EVTDESCottoman.3
+	
+	picture = GFX_victory_march_ottoman
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		NOT = { has_global_flag = libya }
+		completely_controls = d_tripolitania
+		completely_controls = d_fezzan
+		completely_controls = d_misratah
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.3
+		set_global_flag = libya
+		prestige = 100
+	}
+}
+
+# Tunisia Restored
+narrative_event = {
+	id = ottoman.4
+	title = EVTNAMEottoman.4
+	desc = EVTDESCottoman.4
+	
+	picture = GFX_victory_march_ottoman
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		NOT = { has_global_flag = tunisia }
+		completely_controls = d_tunis
+		completely_controls = d_al_jarid
+		completely_controls = d_al_sahil
+		completely_controls = d_gabis
+		completely_controls = d_majardah
+		completely_controls = d_shaanabi
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.4
+		set_global_flag = tunisia
+		prestige = 100
+	}
+}
+
+# Algeria Restored
+narrative_event = {
+	id = ottoman.5
+	title = EVTNAMEottoman.5
+	desc = EVTDESCottoman.5
+	
+	picture = GFX_victory_march_ottoman
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		NOT = { has_global_flag = algeria }
+		completely_controls = d_al_jazair
+		completely_controls = d_annaba
+		completely_controls = d_awras
+		completely_controls = d_mustaganam
+		completely_controls = d_qusantinah
+		completely_controls = d_saida
+		completely_controls = d_tamurt_n_yiqbayliyen
+		completely_controls = d_tayarat
+		completely_controls = d_wahran
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.5
+		set_global_flag = algeria
+		prestige = 100
+	}
+}
+
+# The City of World's Desire
+#narrative_event = {
+#	id = ottoman.6
+#	title = EVTNAMEottoman.6
+#	desc = EVTDESCottoman.6
+#	
+#	picture = GFX_victory_march_ottoman
+#	
+#	ai = no
+#	
+#	trigger = {
+#		has_dlc = "Legacy of Rome"
+#		is_alternate_start = no
+#		OR = {
+#			has_landed_title = e_turkey
+#			has_landed_title = e_ottoman_empire
+#		}
+#		OR = { 
+#				religion = nizami
+#				religion = ruhi
+#		}
+#		NOT = { has_global_flag = trakya }
+#		completely_controls = d_instanbul
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	option = {
+#		name = EVTOPTAottoman.6
+#		set_global_flag = trakya
+#		prestige = 100
+#	}
+#}
+#
+# Unification of Anadolu
+#narrative_event = {
+#	id = ottoman.7
+#	title = EVTNAMEottoman.7
+#	desc = EVTDESCottoman.7
+#	
+#	picture = GFX_victory_march_ottoman
+#	
+#	ai = no
+#	
+#	trigger = {
+#		has_dlc = "Legacy of Rome"
+#		is_alternate_start = no
+#		OR = {
+#			has_landed_title = e_turkey
+#			has_landed_title = e_ottoman_empire
+#		}
+#		OR = { 
+#				religion = nizami
+#				religion = ruhi
+#		}
+#		NOT = { has_global_flag = anadolu }
+#		completely_controls = d_ankara
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	option = {
+#		name = EVTOPTAottoman.7
+#		set_global_flag = anadolu
+#		prestige = 100
+#	}
+#}
+
+# Restoration of Hijaz
+narrative_event = {
+	id = ottoman.8
+	title = EVTNAMEottoman.8
+	desc = EVTDESCottoman.8
+	
+	picture = GFX_victory_march_ottoman
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		NOT = { has_global_flag = hijaz }
+		completely_controls = d_makkah
+		completely_controls = d_al_bahah
+		completely_controls = d_asir
+		completely_controls = d_madinah
+		completely_controls = d_rabigh
+		completely_controls = d_tabuk
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.8
+		set_global_flag = hijaz
+		prestige = 100
+	}
+}
+
+# Restoration of Yemen
+narrative_event = {
+	id = ottoman.9
+	title = EVTNAMEottoman.9
+	desc = EVTDESCottoman.9
+	
+	picture = GFX_victory_march_ottoman
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		NOT = { has_global_flag = yemen }
+		completely_controls = d_azal
+		completely_controls = d_aden
+		completely_controls = d_hadramawt
+		completely_controls = d_janad
+		completely_controls = d_saba
+		completely_controls = d_tihamah
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.9
+		set_global_flag = yemen
+		prestige = 100
+	}
+}
+
+# Restoration of Bahrayn
+narrative_event = {
+	id = ottoman.10
+	title = EVTNAMEottoman.10
+	desc = EVTDESCottoman.10
+	
+	picture = GFX_victory_march_ottoman
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		NOT = { has_global_flag = bahrayn }
+		completely_controls = d_qatar
+		completely_controls = d_abu_dhabi
+		completely_controls = d_al_ahsa
+		completely_controls = d_al_hajar_al_gharbi
+		completely_controls = d_dammam
+		completely_controls = d_bahrayn
+		completely_controls = d_hafar_al_batin
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.10
+		set_global_flag = bahrayn
+		prestige = 100
+	}
+}
+
+# Restoration of Iraq
+#narrative_event = {
+#	id = ottoman.11
+#	title = EVTNAMEottoman.11
+#	desc = EVTDESCottoman.11
+#	
+#	picture = GFX_victory_march_ottoman
+#	
+#	ai = no
+#	
+#	trigger = {
+#		has_dlc = "Legacy of Rome"
+#		is_alternate_start = no
+#		OR = {
+#			has_landed_title = e_turkey
+#			has_landed_title = e_ottoman_empire
+#		}
+#		OR = { 
+#				religion = nizami
+#				religion = ruhi
+#		}
+#		NOT = { has_global_flag = iraq }
+#		completely_controls = d_mosul
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	option = {
+#		name = EVTOPTAottoman.11
+#		set_global_flag = iraq
+#		prestige = 100
+#	}
+#}
+#
+# Restoration of Rumelia
+#narrative_event = {
+#	id = ottoman.12
+#	title = EVTNAMEottoman.12
+#	desc = EVTDESCottoman.12
+#	
+#	picture = GFX_victory_march_ottoman
+#	
+#	ai = no
+#	
+#	trigger = {
+#		has_dlc = "Legacy of Rome"
+#		is_alternate_start = no
+#		OR = {
+#			has_landed_title = e_turkey
+#			has_landed_title = e_ottoman_empire
+#		}
+#		OR = { 
+#				religion = nizami
+#				religion = ruhi
+#		}
+#		NOT = { has_global_flag = rumelia }
+#		completely_controls = d_attica
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	option = {
+#		name = EVTOPTAottoman.12
+#		set_global_flag = rumelia
+#		prestige = 100
+#	}
+#}
+
+# Restoration of Yugoslavya
+narrative_event = {
+	id = ottoman.13
+	title = EVTNAMEottoman.13
+	desc = EVTDESCottoman.13
+	
+	picture = GFX_victory_march_ottoman
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		NOT = { has_global_flag = yugoslavia }
+		completely_controls = d_kvarner
+		completely_controls = d_krajina
+		completely_controls = d_slovenia
+		#More duchies will be added when they exist
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.13
+		set_global_flag = yugoslavia
+		prestige = 100
+	}
+}
+
+# Conquest of Mohac
+#narrative_event = {
+#	id = ottoman.14
+#	title = EVTNAMEottoman.14
+#	desc = EVTDESCottoman.14
+#	
+#	picture = GFX_victory_march_ottoman
+#	
+#	ai = no
+#	
+#	trigger = {
+#		has_dlc = "Legacy of Rome"
+#		is_alternate_start = no
+#		OR = {
+#			has_landed_title = e_turkey
+#			has_landed_title = e_ottoman_empire
+#		}
+#		OR = { 
+#				religion = nizami
+#				religion = ruhi
+#		}
+#		NOT = { has_global_flag = mohac }
+#		completely_controls = d_buda
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	option = {
+#		name = EVTOPTAottoman.14
+#		set_global_flag = mohac
+#		prestige = 100
+#	}
+#}
+
+# Conquest of Crimea
+narrative_event = {
+	id = ottoman.15
+	title = EVTNAMEottoman.15
+	desc = EVTDESCottoman.15
+	
+	picture = GFX_victory_march_ottoman
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		NOT = { has_global_flag = crimea }
+		completely_controls = d_crimea
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.15
+		set_global_flag = crimea
+		prestige = 100
+	}
+}
+
+# Vienna Seized
+narrative_event = {
+	id = ottoman.16
+	title = EVTNAMEottoman.16
+	desc = EVTDESCottoman.16
+	
+	picture = GFX_vienna_seized_ottoman
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		NOT = { has_global_flag = vienna_falls }
+		completely_controls = d_austria
+		completely_controls = c_vienna
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.16
+		set_global_flag = vienna_falls
+		prestige = 100
+	}
+}
+
+### Ottoman Empire Restored
+
+# The Restoration of Sublime State
+narrative_event = {
+	id = ottoman.20
+	title = EVTNAMEottoman.20
+	desc = {
+		text = EVTDESCottoman.20
+		trigger = { 
+			is_alternate_start = no
+		}
+	}
+	desc = {
+		text = EVTDESCottoman20_HF
+		trigger = { 
+			is_alternate_start = yes
+		}
+	}
+	
+	picture = GFX_ottoman_empire_restored
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				ai = no
+			}
+			set_character_flag = achievement_legacy_of_the_sublime_state
+		}
+	}
+	
+	option = {
+		name = EVTOPTAottoman.20
+		hidden_tooltip = {
+			primary_title = {
+				any_direct_de_jure_vassal_title = {
+					de_jure_liege = e_ottoman_empire
+				}
+			}
+		}
+		e_ottoman_empire = {
+			show_scope_change = no
+			grant_title = ROOT
+			hidden_tooltip = { make_primary_title = yes }
+			copy_title_laws = e_turkey
+			copy_title_history = e_turkey
+		}
+		e_turkey = {
+			show_scope_change = no
+			destroy_landed_title = THIS
+		}
+		hidden_tooltip = {
+			activate_title = { title = e_turkey status = no }
+			any_playable_ruler = {
+				limit = {
+					NOT = { has_landed_title = e_turkey }
+					ai = no
+				}
+				narrative_event = { id = ottoman.21 }
+			}
+		}
+		add_trait = sultan_khan
+		give_nickname = nick_the_glorious
+		if = { #New Imperial Bloodline. (male)
+				limit = { 
+					has_dlc = "Holy Fury" 
+					is_female = no
+					is_alternate_start = no
+					OR = { 
+						religion = nizami
+						religion = ruhi
+					}
+	    			NOT = {
+	    				any_owned_bloodline = {
+    						has_bloodline_flag = ottoman_bloodline #Not if already member of a famous historical Ottoman Bloodline.
+    					}
+    				}
+				}
+				create_bloodline = {
+					type = ottoman_emperor_male
+				}
+				new_bloodline = {
+					set_description = "bloodline_desc_ottoman"
+				}	
+				sound_effect = bloodline_added			
+			}
+		if = { #New Imperial Bloodline. (female)
+			limit = { 
+				has_dlc = "Holy Fury" 
+				is_female = yes
+				is_alternate_start = no
+				OR = { 
+						religion = nizami
+						religion = ruhi
+					}
+    			NOT = {
+    				any_owned_bloodline = {
+						has_bloodline_flag = ottoman_bloodline #Not if already member of a famous historical Ottoman Bloodline.
+					}
+				}
+			}
+			create_bloodline = {
+				type = ottoman_emperor_female
+			}
+			new_bloodline = {
+				set_description = "bloodline_desc_ottoman"
+			}				
+			sound_effect = bloodline_added
+		}
+	}
+}
+
+# Informed about Restoration of Rome
+narrative_event = {
+	id = ottoman.21
+	title = EVTNAMEottoman.21
+	desc = {
+		text = EVTDESCottoman.21
+		trigger = { 
+			is_alternate_start = no
+		}
+	}
+	desc = {
+		text = EVTDESCottoman21_HF
+		trigger = { 
+			is_alternate_start = yes
+		}
+	}
+	
+	picture = GFX_ottoman_empire_restored
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAottoman.21
+		trigger = {
+			NOT = { has_landed_title = e_europa }
+		}
+	}
+	option = {
+		name = EVTOPTBottoman.21
+		trigger = {
+			has_landed_title = e_europa
+		}
+		prestige = -500
+	}
+}
+
+### Victory Triumphs
+
+# Triumph Expected
+character_event = {
+	id = ottoman.30
+	desc = EVTDESCottoman.30
+	picture = GFX_ottoman_celebration
+	
+	hide_from = yes
+	
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+	}
+	
+	option = {
+		name = EVTOPTAottoman.30
+		character_event = { id = ottoman.31 days = 12 tooltip = EVTTOOLTIPottoman.31 }
+		scaled_wealth = -0.3
+		prestige = 75
+	}
+	option = {
+		name = EVTOPTBottoman.30
+		scaled_wealth = -0.1
+		prestige = 25
+	}
+	option = {
+		name = EVTOPTCottoman.30
+		prestige = -30
+	}
+}
+
+# Triumph Held
+character_event = {
+	id = ottoman.31
+	desc = EVTDESCottoman.31
+	picture = GFX_ottoman_celebration
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAottoman.31
+		custom_tooltip = {
+			text = triumph_held
+			hidden_tooltip = {
+				any_realm_lord = {
+					limit = {
+						primary_title = { higher_tier_than = BARON }
+						NOT = { character = ROOT }
+					}
+					opinion = {
+						modifier = opinion_triumph_held
+						who = ROOT
+					}
+					character_event = { id = ottoman.32 }
+				}
+			}
+		}
+	}
+}
+
+# Triumph Held Vassals
+character_event = {
+	id = ottoman.32
+	desc = EVTDESCottoman.32
+	picture = GFX_ottoman_celebration
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAottoman.32
+	}
+}
+
+### Ottoman Borders Restored
+
+# Ottoman Borders
+narrative_event = {
+	id = ottoman.40
+	title = EVTNAMEottoman.40
+	desc = {
+		trigger = {
+			NOR = {
+				religion = nizami
+				religion = ruhi
+			}
+			religion_group = muslim
+		}
+		text = EVTDESCottoman40_MUSLIM
+	}
+	desc = {
+		trigger = {
+			NOR = { 
+				religion_group = muslim
+				religion = nizami
+				religion = ruhi
+			}
+		}
+		text = EVTDESCottoman40_GENERIC
+	}
+	
+	picture = GFX_ottoman_empire_restored
+	
+	ai = no
+	
+	trigger = {
+		is_alternate_start = no
+		has_dlc = "Legacy of Rome"
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = {
+			religion = nizami
+			religion = ruhi
+		}
+		NOT = { has_global_flag = ottoman_borders }
+		
+		#The List isn't current exhaustive they will fill in when the time comes
+		
+		completely_controls = d_northumberland
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				ai = no
+			}
+			set_character_flag = achievement_devlet_i_aliyye
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.40
+		set_global_flag = ottoman_borders
+		prestige = 1000
+	}
+}
+
+### The Sultan Khan Trait
+
+# Sultan Khan Trait Gained
+narrative_event = {
+	id = ottoman.45
+	title = EVTNAMEottoman.45
+	desc = {
+		text = EVTDESCottoman.45
+		trigger = { 
+			is_alternate_start = no
+		}
+	}
+	desc = {
+		text = EVTDESCottoman45_HF
+		trigger = { 
+			is_alternate_start = yes
+		}
+	}
+	picture = GFX_ottoman_succession
+	
+	only_playable = yes
+	has_dlc = "Legacy of Rome"
+	has_global_flag = ottoman_restored
+	
+	trigger = {
+		has_landed_title = e_ottoman_empire
+		NOT = { trait = sultan_khan }
+	}
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = EVTOPTAottoman.45
+		add_trait = sultan_khan
+	}
+}
+
+# Sultan Khan Trait Lost
+character_event = {
+	id = ottoman.46
+	desc = EVTDESCottoman.46
+	picture = GFX_ottoman_succession
+	
+	has_dlc = "Legacy of Rome"
+	has_global_flag = ottoman_restored
+		
+	trigger = {
+		trait = sultan_khan
+		NOT = { has_landed_title = e_ottoman_empire }
+		is_alive = yes
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAottoman.46
+		remove_trait = sultan_khan
+	}
+}
+
+#On_death Sultan Khan Trait inheritance
+character_event = {
+	id = ottoman.47
+	hide_window = yes
+	
+	only_playable = yes
+	has_global_flag = ottoman_restored
+	has_dlc = "Legacy of Rome"
+	
+	trigger = {
+		has_landed_title = e_ottoman_empire
+	}
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		e_ottoman_empire = { current_heir = { narrative_event = { id = ottoman.45 days = 2 } } }
+	}
+}
+
+#On_title_usurped Sultan Khan Trait inheritance
+character_event = {
+	id = ottoman.48
+	hide_window = yes
+	
+	only_playable = yes
+	has_global_flag = ottoman_restored
+	has_dlc = "Legacy of Rome"
+	
+	trigger = {
+		FROM = { title = e_ottoman_empire }
+		NOT = { trait = sultan_khan }
+	}
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		ROOT = { character_event = { id = ottoman.45 days = 2 } }
+	}
+}
