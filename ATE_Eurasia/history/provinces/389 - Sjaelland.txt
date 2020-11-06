@@ -16,3 +16,24 @@ religion = neuhumanist
 terrain = farmlands
 
 # History
+
+1400.1.1{
+	build_wonder=wonder_kronborg_castle
+}
+1420.1.1{
+#Erik VII
+	set_wonder_stage=1
+	build_wonder_upgrade=upgrade_walls_sea
+	build_wonder_upgrade=upgrade_road_tolls
+}
+1559.1.1{
+#Christian III
+	set_wonder_stage=2
+	build_wonder_upgrade=upgrade_soaring_fortresses
+	build_wonder_upgrade=upgrade_watch_tower
+}
+1590.1.1{
+#Fredrick II
+	set_wonder_stage=3
+	build_wonder_upgrade=upgrade_studded_bastions
+}
