@@ -106,7 +106,10 @@ e_italy = {
 				b_cannaregio = {
 					venetian="Canarégio"}
 				b_santa_croce = {
-					venetian="Santa Cróxe"}
+					venetian="Santa Cróxe"
+					parisian="Sainte-Croix"
+					walloon="Sainte-Croix"
+					chti="Sainte-Croix"}
 				b_san_polo = {}
 				b_castello = {
 					venetian="Castèlo"}
@@ -185,7 +188,13 @@ e_italy = {
 					friulian="Padue"
 					ligurian="Padoa"
 					piedmontese="Pàdoa"
-					lombard="Padoa"}
+					lombard="Padoa"
+					parisian="Padoue"
+					walloon="Padoue"
+					chti="Padoa"
+					arpitan="Padoua"
+					occitan="Pàdoa"
+					provencal="Pàdoa"}
 				b_mira = {}
 				b_chioggia = {
 					venetian="Cióxa"
@@ -241,8 +250,10 @@ e_italy = {
 					bavarian="Wiesenthein"
 					swabian="Wiesenthein"
 					austrian="Wiesenthein"
-					schwyzer="Wiesenthein" 
-				}
+					schwyzer="Wiesenthein"
+					parisian="Vicence"
+					walloon="Vicence"
+					chti="Vicence"}
 				b_verona = {
 					rhenish="Welschbern"
 					low_saxon="Welschbern"
@@ -427,6 +438,9 @@ e_italy = {
 					sicilian="Trentu"
 					venetian="Trénto"
 					ligurian="Trènto"
+					parisian="Trente"
+					walloon="Trente"
+					chti="Trente"
 				}
 				b_riva_del_garda = {
 					lombard="Rìa del Garda"
@@ -750,13 +764,21 @@ e_italy = {
 				}
 				b_la_spezia = {
 					ligurian="A Spèza"
+					friulian="La Spezie"
+					sicilian="La Spezzia"
+					lombard="La Spesia"
+					venetian="La Spesia"
+					piedmontese="La Spessia"
 				}
 				b_rapallo = {}
 				b_chiavari = {
 					ligurian="Ciävai"
-				}
-				b_sestri_levante = {}
-				b_lavagna = {}
+					venetian="Ciàvari"}
+				b_sestri_levante = {
+					ligurian="Séstri Levànte"
+					lombard="Sester Levànt"}
+				b_lavagna = {
+					ligurian="Lavàgna"} 
 				b_serra_ricco = {
 					ligurian="A Særa"
 				}
@@ -775,9 +797,16 @@ e_italy = {
 				chti="Savone"
 				
 				b_sanremo = {
-					ligurian="Sanrému"
-				}
-				b_imperia = {}
+					ligurian="Sanrœmu"
+					lombard="Sanremu"
+					sicilian="Sanremu"
+					occitan="Sant Rémol"
+					provencal="Sant Rémol"}
+				b_imperia = {
+					venetian="Inperia"
+					sardinian="Impèria"
+					provencal="Impèria"
+					occitan="Impèria"}
 				b_savona = {
 					ligurian="Sann-a"
 					sicilian="Savuna"
@@ -786,18 +815,22 @@ e_italy = {
 					piedmontese="Savon-a"
 					parisian="Savone"
 					walloon="Savone"
-					chti="Savone"
-				}
+					chti="Savone"}
 				b_albenga = {
 					ligurian="Arbenga"
-				}
+					parisian="Albengue"
+					walloon="Albengue"
+					chti="Albengue"}
 				b_ventimiglia = {
-					ligurian="Vintimiggia"
-				}
+					ligurian="Ventemija"
+					parisian="Vintimille"
+					chti="Vintimille"
+					walloon="Vintimille"
+					occitan="Ventemilha"
+					provencal="Ventemilha"}
 				b_taggia = {}
 				b_bordighera = {
-					ligurian="A Bordighea"
-				}
+					ligurian="A Burdighea"}
 			}
 		}
 		d_piedmont = {
@@ -843,8 +876,8 @@ e_italy = {
 				sicilian="Cuneu"
 				romagnol="Cònni"
 				piedmontese="Coni"
-				parisian="Vénétie"
-				walloon="Vénétie"
+				parisian="Coni"
+				walloon="Coni"
 				chti="Coni"
 				arpitan="Coni"
 				occitan="Cóuni"
@@ -852,14 +885,17 @@ e_italy = {
 				
 				b_alba = {
 					piedmontese="Arba"
+					walloon="Albe"
+					parisian="Albe"
+					chti="Albe"
 				}
 				b_bra = {}
 				b_cuneo = {
 					sicilian="Cuneu"
 					romagnol="Cònni"
 					piedmontese="Coni"
-					parisian="Vénétie"
-					walloon="Vénétie"
+					parisian="Coni"
+					walloon="Coni"
 					chti="Coni"
 					arpitan="Coni"
 					occitan="Cóuni"
@@ -870,12 +906,23 @@ e_italy = {
 				}
 				b_mondovi = {
 					piedmontese="Ël Mondvì"
+					parisian="Mondovi"
+					walloon="Mondovi"
+					chti="Mondovi"
 				}
 				b_savigliano = {
 					piedmontese="Savijan"
+					parisian="Savillan"
+					walloon="Savillan"
+					chti="Savillan"
 				}
 				b_saluzzo = {
 					piedmontese="Salusse"
+					walloon="Saluces"
+					parisian="Saluces"
+					chti="Saluces"
+					occitan="Saluças"
+					provencal="Saluças"
 				}
 			}
 			c_turin = {
@@ -894,9 +941,15 @@ e_italy = {
 				
 				b_moncalieri = {
 					piedmontese="Moncalé"
+					parisian="Moncalier"
+					walloon="Moncalier"
+					chti="Moncalier"
 				}
 				b_collegno = {
 					piedmontese="Colegn"
+					parisian="Colègne"
+					walloon="Colègne"
+					chti="Colègne"
 				}
 				b_turin = {
 					neapolitan="Turino"
@@ -913,12 +966,19 @@ e_italy = {
 				b_rivoli = {
 					piedmontese="Rìvole"
 				}
-				b_nichelino = {}
+				b_nichelino = {
+					piedmontese="Ël Niclin"}
 				b_settimo_torinese = {
 					piedmontese="Ël Seto"
+					parisian="Septime"
+					walloon="Septime"
+					chti="Septime"
 				}
 				b_grugliasco = {
 					piedmontese="Grujasch"
+					parisian="Gruillasque"
+					walloon="Gruillasque"
+					chti="Gruillasque"
 				}
 			}
 			c_aosta = {
@@ -929,10 +989,11 @@ e_italy = {
 				low_saxon="Augschtal"
 				ossi="Augschtal"
 				upper_saxon="Augschtal"
-				bavarian="Augschtal"
-				swabian="Augschtal"
-				austrian="Augschtal"
-				schwyzer="Augschtal"
+				bavarian="Aostatoi"
+				swabian="Aostatal"
+				alsatian="Aostatal"
+				austrian="Aostatoi"
+				schwyzer="Augschtalann"
 				venetian="Aòsta"
 				friulian="Aoste"
 				piedmontese="Osta"
@@ -941,19 +1002,37 @@ e_italy = {
 				chti="Aoste"
 				arpitan="Aoûta"
 				
-				b_sarre = {}
+				b_sarre = {
+					arpitan="Saro"
+					alsatian="Soaru"
+					schwyzer="Soaru"
+					swabian="Soaru"}
 				b_chatillon = {
 					piedmontese="Cas-cion"
+					arpitan="Tchahtéyón"
+					umbrian="Castiglion Dora"
+					tuscan="Castiglion Dora"
+					venetian="Castiglion Dora"
+					neapolitan="Castiglion Dora"
+					sicilian="Castiglion Dora"
+					romagnol="Castiglion Dora"
+					lombard="Castiglion Dora"
+					ligurian="Castiglion Dora"
+					friulian="Castiglion Dora"
+					schwyzer="Géschtullju"
+					alsatian="Géschtullju"
+					swabian="Géschtullju"}  
 				}
 				b_aosta = {
 					rhenish="Augschtal"
 					low_saxon="Augschtal"
 					ossi="Augschtal"
 					upper_saxon="Augschtal"
-					bavarian="Augschtal"
-					swabian="Augschtal"
-					austrian="Augschtal"
-					schwyzer="Augschtal"
+					bavarian="Aostatoi"
+					swabian="Aostatal"
+					alsatian="Aostatal"
+					austrian="Aostatoi"
+					schwyzer="Augschtalann"
 					venetian="Aòsta"
 					friulian="Aoste"
 					piedmontese="Osta"
@@ -962,10 +1041,62 @@ e_italy = {
 					chti="Aoste"
 					arpitan="Aoûta"
 				}
-				b_saint_vincent = {}
-				b_quart = {}
-				b_pont_saint_martin = {}
-				b_saint_christophe = {}
+				b_saint_vincent = {
+					arpitan="Sèn-Veuncein"
+					alsatian="Finze"
+					schwyzer="Finze"
+					swabian="Finze"
+					piedmontese="San Vincenzo della Fonte"
+					tuscan="San Vincenzo della Fonte"
+					venetian="San Vincenzo della Fonte"
+					neapolitan="San Vincenzo della Fonte"
+					sicilian="San Vincenzo della Fonte"
+					romagnol="San Vincenzo della Fonte"
+					lombard="San Vincenzo della Fonte"
+					ligurian="San Vincenzo della Fonte"
+					friulian="San Vincenzo della Fonte"}
+				b_quart = {
+					arpitan="Car"
+					umbrian="Quarto Pretoria"
+					piedmontese="Quarto Pretoria"
+					tuscan="Quarto Pretoria"
+					venetian="Quarto Pretoria"
+					neapolitan="Quarto Pretoria"
+					sicilian="Quarto Pretoria"
+					romagnol="Quarto Pretoria"
+					lombard="Quarto Pretoria"
+					ligurian="Quarto Pretoria"
+					friulian="Quarto Pretoria"
+					schwyzer="Koart"
+					alsatian="Koart"
+					swabian="Koart"}
+				b_pont_saint_martin = {
+					arpitan="Pón-Sén-Martìn"
+					umbrian="Ponte San Martino"
+					piedmontese="Pont San Martin"
+					tuscan="Ponte San Martino"
+					venetian="Ponte San Martino"
+					neapolitan="Ponte San Martino"
+					sicilian="Ponte San Martino"
+					romagnol="Ponte San Martino"
+					lombard="Ponte San Martino"
+					ligurian="Ponte San Martino"
+					friulian="Ponte San Martino"
+					schwyzer="Martinstäg"
+					alsatian="Martinstäg"
+					swabian="Martinstäg"}
+				b_saint_christophe = {
+					arpitan="Sèn-Crétoublo"
+					umbrian="San Cristoforo"
+					piedmontese="San Cristoforo"
+					tuscan="San Cristoforo"
+					venetian="San Cristoforo"
+					neapolitan="San Cristoforo"
+					sicilian="San Cristoforo"
+					romagnol="San Cristoforo"
+					lombard="San Cristoforo"
+					ligurian="San Cristoforo"
+					friulian="San Cristoforo"}
 			}
 			c_alessandria = {
 				color={ 70 88 56 }
@@ -1016,22 +1147,43 @@ e_italy = {
 					occitan="Alexàndria"
 					provencal="Alexàndria"
 				}
-				b_casale_monferrato = {}
+				b_casale_monferrato = {
+					piedmontese="Casal Monfrà"
+					parisian="Casal"
+					walloon="Casal"
+					chti="Casal"}
 				b_asti = {
 					piedmontese="Ast"
+					romagnol="Ast"
+					lombard="Ast"
+					occitan="Ast"
+					parisian="Aste"
+					walloon="Aste"
+					chti="Aste"
 				}
 				b_novi_ligure = {
+					venetian="Novi Ligure"
 					piedmontese="Neuvi"
 					ligurian="Nêuve"
+					parisian="Neuve-en-Ligurie"
+					walloon="Neuve-en-Ligurie"
+					chti="Neuve-en-Ligurie"
 				}
 				b_tortona = {
 					piedmontese="Torton-a"
+					parisian="Tortone"
+					walloon="Tortone"
+					chti="Tortone"
+					lombard="Turtùna"
 				}
 				b_acqui_terme = {
 					piedmontese="Àich"
 				}
 				b_valenza = {
 					piedmontese="Valensa"
+					walloon="Valence-sur-Pô"
+					chti="Valence-sur-Pô"
+					lombard="Valence-sur-Pô"
 				}
 			}
 			c_novara = {
