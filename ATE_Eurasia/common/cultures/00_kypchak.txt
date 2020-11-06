@@ -32,17 +32,75 @@ kypchak = {
 
 		modifier = default_culture_modifier
 	}
+	tuvan = {
+		graphical_cultures = { westernslavicgfx }
+
+		color = { 0.8 0.3 0.6 }
+
+		male_names = {
+			Salchak Galsan Sergey Kongar-ool Mongush Kaigal-ool Aldyn-ool Gennadi
+		}
+
+		female_names = {
+			Khertek Sainkho
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	altay = {
+		graphical_cultures = { westernslavicgfx }
+
+		color = { 0.4 0.7 0.8 }
+
+		male_names = {
+			Altay Grigory Mikhail Sergey Viktor Valery Oleg Alexander
+		}
+
+		female_names = {
+			Raisa
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
 	bashkir = {
 		graphical_cultures = { westernslavicgfx }
 
 		color = { 0.3 0.7 0.6 }
 
 		male_names = {
-			Aleksander_Alexander
+			Salawat Zeki Shaikhzada Shagit Tagir Mustai Zagir Murtaza
 		}
 
 		female_names = {
-			Aleksandra_Alexandra 
+			Lyasan Alina 
 		}
 		
 		from_dynasty_prefix = "of "
@@ -67,11 +125,11 @@ kypchak = {
 		color = { 0.1 0.6 0.6 }
 
 		male_names = {
-			Aleksander_Alexander
+			Valem Mehmet Nikita Iskej Vasily Daniil Nikolay Aransajpik Kamaj Metri Vakrim Ivan Gennady Atner Boris Pyotr Praski Gerasim Ille Missi Andriyan Vladimir
 		}
 
 		female_names = {
-			Aleksandra_Alexandra 
+			Tany Nadezhda Ermine Lyudmila Irina Olimiada Svetlana 
 		}
 		
 		from_dynasty_prefix = "of "
