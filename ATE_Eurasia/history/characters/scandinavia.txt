@@ -1,7 +1,7 @@
 ###ÄNSI
 
 2501000={
-	name="Rasmus"
+	name="Jógvan"
 	dynasty=2102000
 	culture=faroese
 	religion=pelagic
@@ -773,7 +773,7 @@
 	father = 8000225
 	dynasty=2220052 #Gløkksborg
 	culture=ostlending
-	religion=neuhumanist
+	religion=folketro
 	trait=groomed
 	trait=strong 
 	trait=lustful 
@@ -806,15 +806,15 @@
 
 8000075={
 	name="Trond"
+	father=80003550
 	dynasty=2220303 #Lademoen
 	culture=tronder
 	religion=folketro
-	martial=3
-	diplomacy=6
-	stewardship=4
-	intrigue=6
-	learning=5
 	trait=fortune_builder
+	trait=familyperson
+	trait=just 
+	trait=honorable
+	trait=gregarious
 	2631.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
@@ -1175,11 +1175,11 @@
 	dynasty=2220061 #Linge 
 	culture=vestlending
 	religion=lutheran
-	martial=5
-	diplomacy=6
-	stewardship=4
-	intrigue=6
-	learning=5
+	trait=grey_eminence
+	trait=gregarious
+	trait=brave
+	trait=trickster
+	trait=familyperson
 	2628.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
@@ -1243,17 +1243,17 @@
 }
 
 8000103={
-	name="Norunn"
-	female=yes
-	dynasty=2220055 #Bjorneboe 
+	name="Bjørn"
+	dynasty=2220113 #Brækhus 
 	culture=vestlending
 	religion=lutheran
-	trait=scholarly_theologian 
-	trait=erudite
-	trait=shy
-	trait=scholar 
-	trait=stressed
-	2639.1.1={birth=yes}
+	trait=lustful 
+	trait=cynical
+	trait=wroth
+	trait=misguided_warrior 
+	trait=diligent
+	2642.1.1={birth=yes}
+	2663.1.1={add_spouse = 800035620}
 	2670.1.1={death=yes}
 }
 
@@ -2395,7 +2395,7 @@
 	father=8000209
 	dynasty=2220052 #Gløkksborg
 	culture=ostlending
-	religion=neuhumanist
+	religion=folketro
     trait=skilled_tactician
 	trait=ambitious
 	trait=quick 
@@ -2411,7 +2411,7 @@
 	dynasty=2220052 #Gløkksborg
 	culture=ostlending
 	mother=8000211
-	religion=neuhumanist
+	religion=folketro
 	2588.1.1={birth=yes}
 	2641.1.1={death=yes}
 }
@@ -2422,7 +2422,7 @@
 	mother=8000211
 	dynasty=2220052 #Gløkksborg
 	culture=ostlending
-	religion=neuhumanist
+	religion=folketro
 	2583.1.1={birth=yes}
 	2634.1.1={death=yes}
 }
@@ -2433,7 +2433,7 @@
 	mother=8000212
 	dynasty=2220052 #Gløkksborg
 	culture=ostlending
-	religion=neuhumanist
+	religion=folketro
 	2549.1.1={birth=yes}
 	2596.1.1={death=yes}
 }
@@ -2443,7 +2443,7 @@
 	female=yes 
 	dynasty=2220052 #Gløkksborg
 	culture=ostlending
-	religion=neuhumanist
+	religion=folketro
 	2523.1.1={birth=yes}
 	2567.1.1={death=yes}
 }
@@ -5921,5 +5921,179 @@
 	trait=just
 	trait=wroth
 	2641.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003550={
+	name="Hårek"
+	father=80003551
+	dynasty=2220303 #Lademoen
+	culture=tronder
+	religion=folketro
+	2604.1.1={birth=yes}
+	2646.1.1={death=yes}
+}
+
+80003551={
+	name="Arnolf"
+	father=80003553
+	dynasty=2220303 #Lademoen
+	culture=tronder
+	religion=folketro
+	2586.1.1={birth=yes}
+	2621.1.1={death=yes}
+}
+
+80003552={
+	name="Trond"
+	father=80003553
+	dynasty=2220303 #Lademoen
+	culture=tronder
+	religion=folketro
+	2583.1.1={birth=yes}
+	2613.1.1={death=yes}
+}
+
+80003553={
+	name="Leidulf"
+	father=80003554
+	dynasty=2220303 #Lademoen
+	culture=tronder
+	religion=folketro
+	2558.1.1={birth=yes}
+	2600.1.1={death=yes}
+}
+
+80003554={
+	name="Oddleiv"
+	father=80003555
+	dynasty=2220303 #Lademoen
+	culture=tronder
+	religion=folketro
+	2531.1.1={birth=yes}
+	2562.1.1={death=yes}
+}
+
+80003555={
+	name="Magne"
+	father=80003556
+	dynasty=2220303 #Lademoen
+	trait=cruel 
+	trait=impaler 
+	trait=cannibal
+	culture=tronder
+	religion=folketro
+	2503.1.1={birth=yes}
+	2540.1.1={give_nickname = nick_the_monster}
+	2544.1.1={death=yes}
+}
+
+80003556={
+	name="Trond"
+	father=80003557
+	dynasty=2220303 #Lademoen
+	culture=tronder
+	religion=folketro
+	2467.1.1={birth=yes}
+	2509.1.1={death=yes}
+}
+
+80003557={
+	name="Hårek"
+	father=80003558
+	dynasty=2220303 #Lademoen
+	culture=tronder
+	religion=folketro
+	2441.1.1={birth=yes}
+	2487.1.1={death=yes}
+}
+
+80003558={
+	name="Sindre"
+	father=80003560
+	dynasty=2220303 #Lademoen
+	culture=tronder
+	religion=folketro
+	2415.1.1={birth=yes}
+	2455.1.1={give_nickname = nick_the_vengeful}
+	2465.1.1={death=yes}
+}
+
+80003559={
+	name="Thoning"
+	father=80003560
+	dynasty=2220303 #Lademoen
+	culture=tronder
+	religion=folketro
+	2411.1.1={birth=yes}
+	2432.1.1={death=yes}
+}
+
+80003560={
+	name="Tord"
+	father=80003561
+	dynasty=2220303 #Lademoen
+	culture=tronder
+	religion=folketro
+	2387.1.1={birth=yes}
+	2420.1.1={death=yes}
+}
+
+80003561={
+	name="Tordenskjold"
+	dynasty=2220303 #Lademoen
+	culture=tronder
+	religion=folketro
+	2340.1.1={birth=yes}
+	2406.1.1={death=yes}
+}
+
+80003562={
+	name="Ljufvina"
+	female=yes
+	culture=chinese
+	religion=lutheran
+	trait=brave 
+	trait=kind
+	trait=robust
+	trait=thrifty_clerk 
+	trait=shy
+	2645.1.1={
+	    birth=yes
+	    culture = vestlending
+	}
+	2663.1.1={add_spouse = 8000103}
+	2670.1.1={death=yes}
+}
+
+80003563={
+	name="Gjermund"
+	mother=80003562
+	father=8000103
+	dynasty=2220113 #Brækhus 
+	culture=chinese
+	religion=lutheran
+	trait=rowdy
+	trait=willful
+	2663.1.1={
+	    birth=yes
+	    culture = vestlending
+	}
+	2670.1.1={death=yes}
+}
+
+80003564={
+	name="Håmund"
+	mother=80003562
+	father=8000103
+	dynasty=2220113 #Brækhus 
+	culture=chinese
+	religion=lutheran
+	trait=curious
+	trait=conscientious
+	2663.1.1={
+	    birth=yes
+	    culture = vestlending
+	}
 	2670.1.1={death=yes}
 }
