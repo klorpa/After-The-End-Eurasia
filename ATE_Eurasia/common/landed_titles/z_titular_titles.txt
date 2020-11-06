@@ -7,10 +7,15 @@ e_ottoman_empire = {
 	color2={ 220 220 20 }
 	
 	title = sultan
+	culture = turkish
 
 	capital = 39 # temporary Istanbul will be its capital
 	
 	dignity = 20 # Counted as having this many more counties than it does
+	
+	allow = {
+		always = no # Only created through special event
+	}
 }
 
 ### titular kingdoms ###
