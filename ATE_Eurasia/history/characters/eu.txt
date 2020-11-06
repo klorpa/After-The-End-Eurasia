@@ -317,7 +317,7 @@
 1958024={
 	name="Karl-Mehmet"
 	dynasty=1848065 #Engin
-	culture=bedouin
+	culture=badawi
 	religion=neuhumanist
 	trait=charismatic_negotiator
 	trait=zealous	
@@ -326,7 +326,8 @@
 	trait=kind
 	trait=brave
 	trait=authoritative
-	2636.2.14={birth=yes culture=rhenish}
+	2636.2.14={birth=yes 
+		culture=rhenish}
 	2700.1.1={death=yes}
 }
 1958025={
@@ -753,7 +754,7 @@
 1958111={
 	name="Karel"
 	dynasty=2058000 #Coudenhove
-	culture=flemish
+	culture=chinese
 	religion=neuhumanist
 	trait=grey_eminence
 	trait=quick
@@ -762,7 +763,8 @@
 	trait=greedy
 	trait=diligent
 	trait=cancer
-	2219.8.19={birth=yes}
+	2219.8.19={birth=yes
+		culture=flemish}
 	2240.1.1={add_spouse=1958112}
 	2264.12.19={death={death_reason=death_trait}}
 }
