@@ -613,8 +613,8 @@
 	stewardship=2
 	intrigue=2
 	learning=3
-	father=1861029
-	mother=1861030
+	father=1861030
+	mother=1861031
 	2654.11.5={birth=yes}
 }
 1861033={
@@ -694,6 +694,143 @@
 	father=1861033
 	mother=1861034
 	2651.2.18={birth=yes}
+}
+1861037={
+	name="Benedetto"
+	dynasty=2032260 #Zamboni
+	culture=romagnol
+	religion=catholic
+	trait=brilliant_strategist
+	trait=holy_warrior
+	trait=possessed
+	trait=scarred_high
+	trait=wroth
+	trait=diligent
+	trait=selfish
+	trait=sturdy
+	diplomacy=5
+	martial=9
+	stewardship=7
+	intrigue=7
+	learning=6
+	2624.10.29={birth=yes}
+	2644.11.2={
+		add_spouse=1861038
+	}
+}
+1861038={
+	name="Letizia"
+	female=yes
+	dynasty=2032160 #Garagnani
+	culture=romagnol
+	religion=catholic
+	trait=scholarly_theologian
+	trait=mystic
+	trait=trusting
+	trait=humble
+	trait=familyperson
+	trait=stressed
+	diplomacy=5
+	martial=5
+	stewardship=6
+	intrigue=6
+	learning=8
+	2628.3.17={birth=yes}
+}
+1861039={
+	name="Massimo"
+	dynasty=2032260 #Zamboni
+	culture=romagnol
+	religion=catholic
+	trait=tough_soldier
+	trait=siege_leader
+	trait=slothful
+	trait=greedy
+	trait=zealous
+	trait=paranoid
+	trait=lustful
+	diplomacy=5
+	martial=7
+	stewardship=5
+	intrigue=6
+	learning=5
+	father=1861037
+	mother=1861038
+	2646.9.3={birth=yes}
+}
+1861040={
+	name="Maddalena"
+	female=yes
+	dynasty=2032260 #Zamboni
+	culture=romagnol
+	religion=catholic
+	trait=fussy
+	trait=conscientious
+	diplomacy=3
+	martial=3
+	stewardship=4
+	intrigue=4
+	learning=3
+	father=1861037
+	mother=1861038
+	2651.8.14={birth=yes}
+}
+1861041={
+	name="Saverio"
+	dynasty=2032260 #Zamboni
+	culture=romagnol
+	religion=catholic
+	trait=haughty
+	trait=rowdy
+	diplomacy=3
+	martial=4
+	stewardship=3
+	intrigue=4
+	learning=2
+	father=1861037
+	mother=1861038
+	2654.4.22={birth=yes}
+}
+1861042={
+	name="Carmine"
+	dynasty=2028105 #Abbruzzese
+	culture=neapolitan
+	religion=catholic
+	trait=fair
+	trait=grey_eminence
+	trait=poet
+	trait=shrewd
+	trait=brawny
+	trait=deceitful
+	trait=gregarious
+	trait=proud
+	diplomacy=7
+	martial=7
+	stewardship=6
+	intrigue=5
+	learning=6
+	2647.2.19={birth=yes}
+	2666.1.23={
+		add_spouse=1861043
+	}
+}
+1861043={
+	name="Elvira"
+	female=yes
+	dynasty=2028062 #De Luca Bossa
+	culture=neapolitan
+	religion=catholic
+	trait=fortune_builder
+	trait=fair
+	trait=charitable
+	trait=content
+	trait=depressed
+	diplomacy=6
+	martial=4
+	stewardship=7
+	intrigue=5
+	learning=5
+	2650.1.3={birth=yes}
 }
 2032000={
 	name="Gianfranco" 
