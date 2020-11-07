@@ -18,18 +18,24 @@ character_event = {
 	}
 
 	option = {
+		232 = {
+			add_province_modifier = { name = landmark_cap_de_creus duration = -1 }
+			}
 		386 = {
 			add_province_modifier = { name = landmark_legoland duration = -1 }
 			}
 		450 = {
 			add_province_modifier = { name = landmark_heidelberg_belt duration = -1 }
 			}
+		1496 = {
+			add_province_modifier = { name = landmark_la_bonne_mere duration = -1 }
+			}
 		1520 = {
 			add_province_modifier = { name = landmark_pech_de_bugarach duration = -1 }
 			}
 		1525 = {
 			add_province_modifier = { name = landmark_capbreton_gouf duration = -1 }
-			} 
+			}
 			set_global_flag = landmarks_set
 	}
 }
