@@ -4,7 +4,7 @@ egyptian_group = {
 	graphical_cultures = { muslimgfx }
 
 	sudani = {
-		graphical_cultures = { berbergfx arabicgfx muslimgfx }
+		graphical_cultures = { eastafricangfx arabicgfx muslimgfx }
 		
 		color = { 0.2 1.0 0.4 }
 		
@@ -52,7 +52,7 @@ egyptian_group = {
 	}
 	
 	masri = {
-		graphical_cultures = { arabicgfx muslimgfx egyptiangfx }
+		graphical_cultures = { egyptiangfx arabicgfx muslimgfx }
 		
 		color = { 0.2 1.0 0.2 }
 		
@@ -169,6 +169,23 @@ arabic = {
 		female_patronym = "bint "
 		prefix = yes 
 	}
+	suriyi = {
+		graphical_cultures = { arabicgfx muslimgfx egyptiangfx }
+		
+		color = { 0 0.5 0.24 }
+		
+		male_names = {
+			Muhammad
+		}
+		female_names = {
+			Fatima
+		}
+		
+
+		male_patronym = "bin "
+		female_patronym = "bint "
+		prefix = yes 
+	}
 	yemeni = {
 		graphical_cultures = { arabicgfx muslimgfx egyptiangfx }
 		
@@ -196,6 +213,23 @@ arabic = {
 		}
 		female_names = {
 			Fatima
+		}
+		
+
+		male_patronym = "bin "
+		female_patronym = "bint "
+		prefix = yes 
+	}
+	assyrian = {
+		graphical_cultures = { arabicgfx muslimgfx egyptiangfx }
+		
+		color = { 0.84 0.52 0.19 }
+		
+		male_names = {
+			Dawid_David 
+		}
+		female_names = {
+			Dinah 
 		}
 		
 
