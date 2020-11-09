@@ -1,20 +1,16 @@
-###### AUTO GENERATED CONTENT (c) CKTools v19 ######
-
-
+###ÄNSI###
 
 e_al_mashriq = {
 	color={ 105 186 99 }
 	color2={ 255 255 20 }
 	
 	capital = 1997 # c_damascus
-	culture = suriyi
 	
 	k_syria = {
 		color={ 236 59 55 }
 		color2={ 255 255 255 }
 		
 		capital = 1997 # c_damascus
-		culture = suriyi
 		
 		c_damascus = { # 1997
 			color={ 206 89 40 }
@@ -381,12 +377,6 @@ e_al_mashriq = {
 			color={ 216 79 45 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1997 province_id = 1998 province_id = 1999 province_id = 2000 } }
-				}
-			}
 			capital = 1997 # c_damascus
 			
 			c_damascus = { # 1997
@@ -470,12 +460,6 @@ e_al_mashriq = {
 			color={ 199 199 165 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 2001 province_id = 2002 } }
-				}
-			}
 			capital = 2001 # c_al_ladhqiyah
 			
 			c_al_ladhqiyah = { # 2001
@@ -521,12 +505,6 @@ e_al_mashriq = {
 			color={ 125 41 24 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 2003 province_id = 2004 province_id = 2005 province_id = 2006 } }
-				}
-			}
 			capital = 2003 # c_aleppo
 			
 			c_aleppo = { # 2003
@@ -610,12 +588,6 @@ e_al_mashriq = {
 			color={ 112 66 57 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 2007 province_id = 2008 province_id = 2009 province_id = 2010 } }
-				}
-			}
 			capital = 2007 # c_homs
 			
 			c_homs = { # 2007
@@ -699,12 +671,6 @@ e_al_mashriq = {
 			color={ 212 104 26 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 2011 province_id = 2012 province_id = 2013 province_id = 2014 province_id = 2015 } }
-				}
-			}
 			capital = 2011 # c_raqqa
 			
 			c_raqqa = { # 2011
@@ -809,18 +775,11 @@ e_al_mashriq = {
 		color2={ 255 255 255 }
 		
 		capital = 1981 # c_amman
-		culture = urduni
 		
 		d_amman = {
 			color={ 131 55 210 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1981 province_id = 1982 province_id = 1983 province_id = 1984 province_id = 1985 } }
-				}
-			}
 			capital = 1981 # c_amman
 			
 			c_amman = { # 1981
@@ -923,12 +882,6 @@ e_al_mashriq = {
 			color={ 183 157 223 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1986 province_id = 1987 province_id = 1988 province_id = 1989 } }
-				}
-			}
 			capital = 1986 # c_irbid
 			
 			c_irbid = { # 1986
@@ -993,12 +946,6 @@ e_al_mashriq = {
 			color={ 87 21 118 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1990 province_id = 1991 province_id = 1992 province_id = 1993 province_id = 1994 province_id = 1995 } }
-				}
-			}
 			capital = 1990 # c_karak
 			
 			c_karak = { # 1990
@@ -1123,18 +1070,11 @@ e_al_mashriq = {
 		color2={ 255 255 255 }
 		
 		capital = 1973 # c_beirut
-		culture = lebneni
 		
 		d_beirut = {
 			color={ 176 76 90 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1973 } }
-				}
-			}
 			capital = 1973 # c_beirut
 			
 			c_beirut = { # 1973
@@ -1161,12 +1101,6 @@ e_al_mashriq = {
 			color={ 189 113 96 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1979 province_id = 1980 } }
-				}
-			}
 			capital = 1979 # c_tarabulus
 			
 			c_tarabulus = { # 1979
@@ -1212,12 +1146,6 @@ e_al_mashriq = {
 			color={ 72 12 26 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1977 province_id = 1978 } }
-				}
-			}
 			capital = 1977 # c_rashaya
 			
 			c_rashaya = { # 1977
@@ -1263,12 +1191,6 @@ e_al_mashriq = {
 			color={ 205 127 110 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1974 province_id = 1975 province_id = 1976 } }
-				}
-			}
 			capital = 1974 # c_sur
 			
 			c_sur_lb = { # 1974
@@ -1336,18 +1258,11 @@ e_al_mashriq = {
 		color2={ 255 255 255 }
 		
 		capital = 1958 # c_west_jerusalem
-		culture = ivri
 		
 		d_jerusalem = {
 			color={ 135 156 114 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1958 province_id = 1959 } }
-				}
-			}
 			capital = 1958 # c_west_jerusalem
 			
 			c_west_jerusalem = { # 1958
@@ -1393,12 +1308,6 @@ e_al_mashriq = {
 			color={ 184 211 56 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1970 province_id = 1971 province_id = 1972 } }
-				}
-			}
 			capital = 1970 # c_carmel
 			
 			c_carmel = { # 1970
@@ -1463,12 +1372,6 @@ e_al_mashriq = {
 			color={ 168 188 156 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1960 province_id = 1961 province_id = 1962 } }
-				}
-			}
 			capital = 1960 # c_tel_aviv
 			
 			c_tel_aviv = { # 1960
@@ -1533,12 +1436,6 @@ e_al_mashriq = {
 			color={ 65 46 20 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1966 province_id = 1967 province_id = 1968 province_id = 1969 } }
-				}
-			}
 			capital = 1966 # c_beersheba
 			
 			c_beersheba = { # 1966
@@ -1622,12 +1519,6 @@ e_al_mashriq = {
 			color={ 157 178 122 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1963 province_id = 1964 province_id = 1965 } }
-				}
-			}
 			capital = 1963 # c_hebron
 			
 			c_hebron = { # 1963
