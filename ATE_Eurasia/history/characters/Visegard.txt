@@ -177,6 +177,7 @@
 1991011={
 	name="Bretislav" 
 	dynasty=1968028 #Hasek
+	father=1991018
 	culture=czech
 	religion=neuhumanist
 	trait=fair
@@ -187,12 +188,13 @@
 	trait=lustful
 	trait=trusting
 	trait=grey_eminance
-	2634.3.26={birth=yes}
+	2625.3.26={birth=yes}
 	2700.1.1={death=yes}
 }
 1991012={
 	name="Pavol" 
 	dynasty=1969016 #Skultety
+	father=1991017
 	culture=slovak
 	religion=mariavite
 	trait=cynical
@@ -206,4 +208,133 @@
 	trait=one_handed
 	2618.2.15={birth=yes}
 	2700.1.1={death=yes}
+}
+1991013={
+	name="Anna" 
+	dynasty=1968051 #Komenský
+	culture=czech
+	religion=neuhumanist
+	father=1991016
+	female = yes
+	trait=fair
+	trait=cynical
+	trait=wroth
+	trait=arbitrary
+	trait=uncouth
+	trait=shrewd
+	trait=scholar
+	trait=underhanded_rogue
+	2540.9.19={birth=yes}
+	2570.1.1={add_matrilineal_spouse=1991014}
+	2580.12.25={add_friend=1991015}
+	2600.1.1={death=yes}
+}
+1991014={
+	name="Otakar"
+	dynasty=1968052 #Jebavý
+	culture=czech
+	religion=neuhumanist
+	trait=fair
+	trait=cynical
+	trait=ambitious
+	trait=branch_realism
+	trait=arbitrary
+	trait=uncouth
+	trait=shrewd
+	trait=scholar
+	trait=martial_cleric
+	2537.9.13={birth=yes}
+	2580.1.1={death=death_murder killer=1958199} #Pushed off a Tower
+}
+1991015={
+	name="Hana" 
+	dynasty=1968051 #Komenský
+	culture=slovak
+	religion=neuhumanist
+	father=1991016
+	female = yes
+	trait=fair
+	trait=cynical
+	trait=kind
+	trait=just
+	trait=uncouth
+	trait=shrewd
+	trait=scholar
+	trait=underhanded_rogue
+	2552.9.19={birth=yes}
+	2560.12.25={religion=mariavite}
+	2580.12.25={add_friend=1991013}
+	2600.1.1={death=yes}
+}
+1991016={
+	name="Amos" 
+	dynasty=1968051 #Komenský
+	culture=czech
+	religion=mariavite
+	trait=fair
+	trait=cynical
+	trait=kind
+	trait=temperate
+	trait=just
+	trait=erudite
+	trait=scholar
+	trait=sympathy_christendom
+	trait=mastermind_theologian
+	2500.3.28={birth=yes}
+	2540.12.25={religion=neuhumanist}
+	2560.11.15={death=yes}
+}
+1991017={
+	name="Janko" 
+	dynasty=1969016 #Skultety
+	mother=1991015
+	culture=slovak
+	religion=mariavite
+	trait=zealous
+	trait=just
+	trait=trusting
+	trait=patient
+	trait=honest
+	trait=brave
+	trait=quick
+	trait=skilled_tactician
+	trait=legit_bastard
+	2580.2.15={birth=yes}
+	2660.1.1={death=yes}
+}
+1991018={
+	name="Jan" 
+	dynasty=1968052 #Jebavý
+	culture=czech
+	father=1991014
+	mother=1991013
+	religion=neuhumanist
+	trait=fair
+	trait=cynical
+	trait=ambitious
+	trait=arbitrary
+	trait=gregarious
+	trait=lustful
+	trait=trusting
+	trait=scholarly_theologian
+	2580.3.26={birth=yes}
+	2610.3.26={add_lover=1991019}
+	2615.3.26={add_spouse=1991019}
+	2630.1.1={death=yes}
+}
+1991019={
+	name="Marie" 
+	dynasty=1968053 #Terešova
+	culture=czech
+	religion=mariavite
+	trait=arbitrary
+	trait=ambitious
+	trait=deceitful
+	trait=stubborn
+	trait=gregarious
+	trait=lustful
+	trait=trusting
+	trait=flamboyant_schemer
+	2580.3.26={birth=yes}
+	2630.1.1={death=yes}
 }
