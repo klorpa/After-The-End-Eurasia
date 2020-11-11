@@ -13,6 +13,7 @@ e_france = {
 	chti = "Franche"
 	basque = "Frantzia"
 	catalan = "França"
+	arpitan = "Fransa"
 	
 	
 	k_provence = {
@@ -26,6 +27,9 @@ e_france = {
 		provencal = "Prouvènço"
 		basque = "Proventza"
 		catalan = "Provença"
+		parisian = "Provence"
+		corsican = "Pruvenza"
+		arpitan = "Prouvànce"
 		
 		d_provence = {
 			color={ 254 228 110 }
@@ -38,6 +42,9 @@ e_france = {
 			provencal = "Prouvènço"
 			basque = "Proventza"
 			catalan = "Provença"
+			parisian = "Provence"
+			corsican = "Pruvenza"
+			arpitan = "Prouvànce"
 			
 			c_marseille = { # 1496
 				color={ 41 125 184 }
@@ -57,12 +64,14 @@ e_france = {
 				swabian="Maarsei"
 				austrian="Massilien"
 				schwyzer="Maarsei"
+				parisian = "Marseille"
 				
 				b_aix = {
 					catalan = "Ais"
 					arpitan = "Èx"
 					occitan = "Ais"
 					provencal = "Ais"
+					parisian = "Aix"
 				}
 				b_marseille = {
 					catalan = "Marsella"
@@ -77,32 +86,38 @@ e_france = {
 					swabian="Maarsei"
 					austrian="Massilien"
 					schwyzer="Maarsei"
+					parisian = "Marseille"
 				}
 				b_arles = {
 					catalan = "Arle"
 					arpitan = "Ârlo"
 					occitan = "Arle"
 					provencal = "Arle"
+					parisian = "Arles"
 				}
 				b_marignane = {
 					catalan = "Marinhana"
 					occitan = "Marinhana"
 					provencal = "Marignano"
+					parisian = "Marignane"
 				}
 				b_la_ciotat = {
 					catalan = "La Ciutat"
 					occitan = "La Ciutat"
 					provencal = "La Ciéutat"
+					parisian = "La Ciotat"
 				}
 				b_martigues = {
 					catalan = "Lo Martegue"
 					occitan = "Lo Martegue"
 					provencal = "Lou Martegue"
+					parisian = "Martigues"
 				}
 				b_aubagne = {
 					catalan = "Aubanha"
 					occitan = "Aubanha"
 					provencal = "Aubagno"
+					parisian = "Aubagne"
 				}
 			}
 			c_basses_alpes = { # 1499
@@ -118,34 +133,41 @@ e_france = {
 					catalan = "Dinha"
 					occitan = "Dinha"
 					provencal = "Digno"
+					parisian = "Digne-Les-Bains"
 				}
 				b_manosque = {
 					catalan = "Manòsca"
 					occitan = "Manòsca"
 					provencal = "Manosco"
+					parisian = "Manosque"
 				}
 				b_sisteron = {
 					provencal = "Sisteroun"
+					parisian = "Sisteron"
 				}
 				b_forcalquier = {
 					catalan = "Forcalquer"
 					occitan = "Forcauquièr"
 					provencal = "Fourcauquié"
+					parisian = "Forcalquier"
 				}
 				b_barcelonnette = {
 					catalan = "Barceloneta de Provença"
 					occitan = "Barcilona de Provença"
 					provencal = "Barcilouneto"
+					parisian = "Barcelonnette"
 				}
 				b_castellane = {
 					catalan = "Castelana"
 					occitan = "Castelana"
 					provencal = "Castelano"
+					parisian = "Castellane"
 				}
 				b_oraison = {
 					catalan = "Aurason"
 					occitan = "Aurason"
 					provencal = "Aurasoun"
+					parisian = "Oraison"
 				}
 			}
 			c_comtat_venaissin = { # 1500
@@ -156,35 +178,42 @@ e_france = {
 				arpitan = "Comtât Venêssin"
 				occitan = "Comtat Venaicin"
 				provencal = "Comtat Venaissin"
+				parisian = "Comat Venaissin"
 				
 				b_carpentras = {
 					catalan = "Carpentràs"
 					occitan = "Carpentràs"
+					parisian = "Carpentras"
 				}
 				b_avignon = {
 					catalan = "Avinyó"
 					occitan = "Avinhon"
 					provencal = "Avignoun"
+					parisian = "Avignon"
 				}
 				b_apt = {
 					catalan = "Ate"
 					occitan = "At"
 					provencal = "Ate"
+					parisian = "Apt"
 				}
 				b_orange = {
 					catalan = "Aurenja"
 					occitan = "Aurenja"
 					provencal = "Aurenjo"
+					parisian = "Orange"
 				}
 				b_cavaillon = {
 					catalan = "Cavalhon"
 					occitan = "Cavalhon"
 					provencal = "Cavaioun"
+					parisian = "Cavaillon"
 				}
 				b_pertuis = {
 					catalan = "Pertús"
 					occitan = "Pertús"
 					provencal = "Pertus"
+					parisian = "Pertuis"
 				}
 				b_lisle_sur_sorgue = {
 					catalan = "L'Illa de Veniça"
@@ -282,6 +311,8 @@ e_france = {
 			occitan = "Cevenas"
 			provencal = "Cevenas"
 			catalan = "Cevenes"
+			parisian = "Cévennes"
+			arpitan = "Sévène"
 			
 			c_gard = { # 1507
 				color={ 42 57 94 }
@@ -415,12 +446,14 @@ e_france = {
 	
 			occitan = "Corsega"
 			provencal = "Còrso"
+			corsican = "Corsica"
 			catalan = "Còrsega"
 			basque = "Korsika"
 			breton = "Korsika"
 			parisian = "Corse"
 			chti = "Corse"
 			walloon = "Corse"
+			arpitan = "Kórsa"
 			
 			c_pumonti = { # 1502
 				color={ 44 73 147 }
@@ -629,7 +662,7 @@ e_france = {
 			arpitan = "Liyonês"
 			catalan = "Lionès"
 			basque = "Lyonerria"
-			walloon = "Korsika"
+			parisian = "Lyonnais"
 			
 			c_rhone = { # 1512
 				color={ 6 13 33 }
@@ -858,6 +891,7 @@ e_france = {
 		chti = "Bertanne"
 		norman = "Brétangne"
 		frisian = "Bretanje"
+		arpitan = "Breutanye"
 		
 		d_breizh_uhel = {
 			color={ 146 143 138 }
@@ -874,6 +908,7 @@ e_france = {
 			walloon = "Hôte-Burtaegne"
 			chti = "Haute-Bertanne"
 			norman = "Haute-Brétangne"
+			arpitan = "Hyôt-Breutanye"
 			
 			capital = 1542 # c_rennes
 			
@@ -922,7 +957,7 @@ e_france = {
 				
 				b_saint_herbalin = {
 					breton = "Sant-Ervlan"
-					gallo = "Sint-t Èrblin"
+					gallo = "Sint Èrblin"
 				}
 				b_nantes = {
 					breton = "Naoned"
@@ -1033,6 +1068,7 @@ e_france = {
 			walloon = "Basse-Burtaegne"
 			chti = "Basse-Bertanne"
 			norman = "Basse-Brétangne"
+			arpitan = "Davà-Breutanye"
 			
 			capital = 1547 # c_vannes
 			
@@ -1192,6 +1228,7 @@ e_france = {
 		breton = "Bro-C'hall"
 		chti = "Franche"
 		frisian = "Frankryk"
+		arpitan = "Franse"
 		
 		d_ile_de_france = {
 			color={ 0 119 192 }
@@ -1205,6 +1242,7 @@ e_france = {
 			parisian = "Île-de-France"
 			walloon = "Île-de-France"
 			chti = "Île-de-France"
+			arpitan = "Ila de Franse"
 			
 			capital = 1551 # c_paris
 			
@@ -1463,6 +1501,7 @@ e_france = {
 			occitan="Nòrd"
 			provencal="Nòrd"
 			walloon="Nôr"
+			arpitan = "No'"
 			
 			capital = 1571 # c_lille
 			
@@ -1690,6 +1729,7 @@ e_france = {
 			occitan = "Normandia"
 			provencal = "Normandia"
 			norman = "Normaundie"
+			arpitan = "Normàndi"
 			
 			c_seine_maritime = { # 1563
 				color={ 88 55 82 }
@@ -2137,6 +2177,7 @@ e_france = {
 			chti = "Champaingne"
 			breton = "Champagn"
 			frisian = "Sjampanje"
+			arpitan = "Chanpanye"
 			
 			capital = 1575 # c_marne
 			
@@ -2800,6 +2841,7 @@ e_france = {
 		parisian = "Midi"
 		chti = "Midi"
 		walloon = "Midi"
+		arpitan = "Oksitanyà"
 		
 		d_haut_languedoc = {
 			color={ 255 128 0 }
@@ -2954,6 +2996,8 @@ e_france = {
 				color={ 83 85 90 }
 				color2={ 255 255 255 }
 				
+				arpitan = "Tarnà"
+				
 				b_albi = {
 				}
 				b_castres = {
@@ -3005,7 +3049,7 @@ e_france = {
 	
 				catalan = "Gironda"
 				basque = "Gironda"
-				arpitan = "G·ironde"
+				arpitan = "Gironde"
 				occitan = "Gironda"
 				provencal = "Gironda"
 				
@@ -3469,6 +3513,7 @@ e_france = {
 			parisian = "Gascogne"
 			chti = "Gascogne"
 			walloon = "Gascogne"
+			arpitan = "Gaskonye"
 			
 			c_armagnac = { # 1524
 				color={ 36 49 85 }

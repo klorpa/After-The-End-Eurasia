@@ -14,7 +14,13 @@ e_britannia = {
 	breton = "Rouantelezh-Unanet"
 	manx = "Reeriaght Uwnaneysit"
 	cornish = "Breten"
-	albanian = "Mbretëria e Bashkuar e Britanisë së Madhe dhe Irlandës së Veriut" 
+	parisian = "Royaume-Uni"
+	provencal = "Reiaume Unit"
+	corsican = "Regnu Unitu"
+	occitan = "Reialme Unit"
+	arpitan = "Rayômo Apyannâ"
+	chti = "Reaume Uni"
+	
 
 	k_london = {
 		color={ 127 0 0 }
@@ -163,6 +169,16 @@ e_britannia = {
 	k_england = {
 		color={ 202 26 26 }
 		color2={ 255 255 255 }
+		
+		parisian = "Angleterre"
+		irish = "Sasana"
+		welsh = "Lloegr"
+		scottish = "Englifee"
+		provencal = "Englatèrra"
+		occitan = "Anglatèrra"
+		arpitan = "Anglyotêra"
+		breton = "Anglizien"
+		
 		capital = 39 # Berkshire
 		dignity = 15 # Counted as having this many more counties than it does
 		
@@ -267,6 +283,8 @@ e_britannia = {
 		d_cornwall = {
 			color={ 181 60 10 }
 			color2={ 255 255 255 }
+			
+			parisian = "Cornouailles"
 			
 			capital = 46 # Cornwall
 			
@@ -740,6 +758,9 @@ e_britannia = {
 		color2={ 255 255 255 }
 
 		welsh = "Cymru"
+		irish = "An Bhreatain Bheag"
+		parisian = "Pays de Galles"
+		scottish = "A ’Chuimrigh"
 		
 		capital = 60 # Gwynedd
 		
@@ -1032,6 +1053,8 @@ e_britannia = {
 		color2={ 255 255 255 }
 		
 		highlander = "Alba"
+		irish = "Albain"
+		welsh = "Yr Alban"
 
 		capital = 85 #Edinburgh
 		
@@ -1744,6 +1767,8 @@ e_britannia = {
 		
 		irish = "Éire"
 		ulsterman = "Airlann"
+		scottish = "Èirinn"
+		welsh = "Iwerddon"
 
 		capital = 19 #Dublin
 		
