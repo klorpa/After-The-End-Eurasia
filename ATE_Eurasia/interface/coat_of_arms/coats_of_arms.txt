@@ -3,6 +3,10 @@ culture =
 	religion = {
 		"high_church"
 		"free_church"
+		"folketro"
+		"lucian"
+		"lutheran"
+		"calvinist"
 	}
 	
 	templates = { 
@@ -161,6 +165,16 @@ culture =
 			emblem = no
 			random = no # Do not use for random CoAs
 		}
+		textures = {
+		texture = {
+			file = "gfx\\coats_of_arms\\pattern_christian.tga"
+			size = { x = 6 y = 7 }
+			noOfFrames = 42
+			color = 3
+			emblem = no
+			#random = no
+		}
+	}
 		# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
 	}
 }
