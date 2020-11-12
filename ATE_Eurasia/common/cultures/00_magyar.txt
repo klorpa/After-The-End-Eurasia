@@ -1,0 +1,68 @@
+magyar = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { magyargfx }
+
+	hungarian = {
+		graphical_cultures = { magyargfx }
+		
+		color = { 0.26 0.44 0.3 }
+
+		male_names = {
+			Ábel_Abel Ádám_Adam Adrián_Adrian Ákos Albert Alex Andor_Andrew András_Andrew Antal_Anthony Arnold Áron_Aaron Ármin_Armin Árpád Attila Aurél_Aurelius 
+			Balázs_Blaise Bálint_Valentine Barna_Barnaby Barnabás_Barnaby Béla Bence_Vincent Bendegúz Benedek_Benedict Benett_Benedict Benjámin_Benjamin Bertalan_Bartholomew Boldizsár_Balthasar Botond Brendon 
+			Csaba Csanád Csongor 
+			Dániel_Daniel Dávid_David Dénes_Denis Dezsõ_Desiderius Dominik_Dominic Domonkos_Dominic Donát_Donatus 
+			Elemér Emil Endre_Andrew Erik_Eric Ernõ_Ernest Ervin_Erwin 
+			Ferenc_Francis Flórián_Florian 
+			Gábor_Gabriel Gellért_Gerard Gergely_Gregory Gergõ_Gregory Géza Gusztáv_Gustav György_George Gyõzõ Gyula_Jules 
+			Henrik_Henry Hunor 
+			Imre_Aymeric István_Stephen Iván_Ivan 
+			János_John Jenõ_Eugene József_Joseph 
+			Kálmán Károly_Charles Kende Kevin Kolos Kornél_Cornelius Kristóf_Christopher Krisztián_Christian Krisztofer_Christopher 
+			Lajos_Louis László_Ladislaus Levente Lorinc_Lawrence 
+			Marcell_Marcel Márk_Mark Márton_Martin Máté_Matthew Mátyás_Matthew Mihály_Michael Miklós_Nicholas Milán_Milan 
+			Nándor_Ferdinand Nimród_Nimrod Noel Norbert 
+			Ödön_Edmund Olivér_Oliver Ottó_Otto 
+			Pál_Paul Patrik_Patrick Péter_Peter 
+			Richárd_Richard Rikárdó_Richard Róbert_Robert Roland Rudolf 
+			Sándor_Alexander Simon Soma Szabolcs Szebasztián_Sebastian Szilárd Szilveszter_Sylvester 
+			Tamás_Thomas Tibor Tivadar_Theodore 
+			Viktor_Victor Vilmos_William Vince_Vincent 
+			Zalán Zente Zétény Zoltán Zsigmond_Sigismund Zsolt_Zoltán Zsombor 
+		}
+		female_names = {
+			Abigél_Abigail Adél_Adela Adrienn Ágnes_Agnes Alexandra Alíz_Alice Amanda Amira Andrea_Andrea Anett Anita Anikó Anna_Anne Annamária_Anne-Mary Aranka Aurélia_Aurelia 
+			Barbara Beáta_Beata Beatrix_Beatrice Bernadett_Bernadette Bettina_Benedicta Bianka_Blanche Bíborka Boglárka Borbála_Barbara Brigitta_Brigit 
+			Csenge Csilla 
+			Dalma Diána_Diana Dóra_Dorothy Dorina Dorka Dorottya_Dorothy Dzsenifer_Jennifer 
+			Edina Edit_Edith Emese Emília_Emily Emma Enikõ Erika Erzsébet_Elizabeth Eszter_Esther Etelka Éva_Eve Evelin_Evelyn 
+			Fanni Flóra_Flora Fruzsina_Euphrosyne 
+			Gabriella_Gabrielle Gizella_Gisela Greta_Greta Gyöngyi Györgyi_Georgia 
+			Hajnalka Hanga Hanna Hédi_Hedwig Henrietta 
+			Ibolya Ildikó_Hilda Ilona_Helen Irén_Irene Irma Izabella_Elizabeth 
+			Janka_Joan Jázmin_Jasmine Jolán_Yolanda Judit_Judith Júlia_Julia Julianna_Juliana 
+			Kamilla_Camilla Kata Katalin_Catherine Kincsõ Kinga_Kunigunde Kíra Kitti_Catherine Klára_Clara Klaudia_Claudia Krisztina_Christina 
+			Laura Leila Léna Lia Lili Liliána Lilla Lívia_Livia Liza_Lisa Lotti Luca_Lucia 
+			Magdolna_Magdalene Maja Margit_Margaret Mária_Mary Marianna_Marianne Márta_Martha Melinda Melissza_Melissa Mia Mira Mónika_Monika 
+			Natália_Nathalie Nikolett Noémi_Naomi Nóra 
+			Olívia_Olivia Orsolya_Ursula 
+			Panna Patrícia_Patricia Petra Piroska 
+			Ramóna_Raymonde Rebeka_Rebecca Regina Réka Renáta_Renata Rita Róza_Rose Rózsa_Rose Rozália_Rosalie 
+			Sára_Sarah Sarolta_Charlotte Szilvia_Silvia Szonja_Sonia 
+			Tamara Teréz_Theresa Terézia_Theresa Tifani_Tiffany Tímea Tünde 
+			Valéria_Valeria Vanda_Wanda Vanessza_Vanessa Veronika_Veronica Viktória_Victoria Virág Vivien_Vivian 
+			Zita Zoé_Zoe Zsanett_Joan Zselyke Zsófia_Sophia Zsuzsanna_Susan 
+		}
+
+		modifier = default_culture_modifier
+		dynasty_name_first = yes
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 60
+		mother_name_chance = 10
+	}
+}
