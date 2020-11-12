@@ -1738,10 +1738,43 @@ e_iberia = {
 				b_ponta_do_sol = {}
 			}
 		}
+		d_acores = {
+			color={ 7 35 87 }
+			color2={ 255 255 255 }
+		
+			capital = 1196 # Sao Miguel
+	
+			c_sao_miguel = {
+				color={ 10 52 174 }
+				color2={ 255 255 255 }
+			
+				b_ponta_delgada = {}
+				b_ribeira_grande = {}
+				b_lagoa = {}
+				b_vila_franca_do_campo = {}
+				b_povoacao = {}
+				b_vila_do_porto = {}
+				b_nordeste = {}
+			}
+			c_terceira = {
+				color={ 6 29 96 }
+				color2={ 255 255 255 }
+			
+				b_angra_do_heroismo = {}
+				b_praia_da_vitoria = {}
+				b_horta = {}
+				b_madalena = {}
+				b_velas = {}
+				b_santa_cruz_da_graciosa = {}
+				b_santa_cruz_da_flores = {}
+			}
+		}
 	}
 	k_portugal = {
 		color={ 182 88 5 }
 		color2={ 255 255 255 }
+		
+		dignity = 10 # One more county than de jure
 		
 		capital = 167 # Lisboa
 		
