@@ -48,6 +48,11 @@ narrative_event = {
 		completely_controls = d_mishor_hahof
 		completely_controls = d_negev
 		completely_controls = d_west_bank
+		completely_controls = d_dimashq
+		completely_controls = d_al_ladhqiyah
+		completely_controls = d_halab
+		completely_controls = d_hims
+		completely_controls = d_raqqa
 	}
 	
 	mean_time_to_happen = {
@@ -407,6 +412,7 @@ narrative_event = {
 				religion = ruhi
 		}
 		NOT = { has_global_flag = bahrayn }
+		completely_controls = d_kuwait
 		completely_controls = d_qatar
 		completely_controls = d_abu_dhabi
 		completely_controls = d_al_ahsa
@@ -427,42 +433,46 @@ narrative_event = {
 	}
 }
 
-# Restoration of Iraq
-#narrative_event = {
-#	id = ottoman.11
-#	title = EVTNAMEottoman.11
-#	desc = EVTDESCottoman.11
-#	
-#	picture = GFX_victory_march_ottoman
-#	
-#	ai = no
-#	
-#	trigger = {
-#		has_dlc = "Legacy of Rome"
-#		is_alternate_start = no
-#		OR = {
-#			has_landed_title = e_turkey
-#			has_landed_title = e_ottoman_empire
-#		}
-#		OR = { 
-#				religion = nizami
-#				religion = ruhi
-#		}
-#		NOT = { has_global_flag = iraq }
-#		completely_controls = d_mosul
-#	}
-#	
-#	mean_time_to_happen = {
-#		days = 1
-#	}
-#	
-#	option = {
-#		name = EVTOPTAottoman.11
-#		set_global_flag = iraq
-#		prestige = 100
-#	}
-#}
-#
+ Restoration of Iraq
+narrative_event = {
+	id = ottoman.11
+	title = EVTNAMEottoman.11
+	desc = EVTDESCottoman.11
+	
+	picture = GFX_victory_march_ottoman
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		NOT = { has_global_flag = iraq }
+		completely_controls = d_baghdad
+		completely_controls = d_al_hajarah
+		completely_controls = d_al_jazira
+		completely_controls = d_kurdistan
+		completely_controls = d_sawad
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.11
+		set_global_flag = iraq
+		prestige = 100
+	}
+}
+
 # Restoration of Rumelia
 #narrative_event = {
 #	id = ottoman.12
