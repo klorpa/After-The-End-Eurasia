@@ -548,41 +548,43 @@ narrative_event = {
 	}
 }
 
-# Conquest of Mohac
-#narrative_event = {
-#	id = ottoman.14
-#	title = EVTNAMEottoman.14
-#	desc = EVTDESCottoman.14
-#	
-#	picture = GFX_victory_march_ottoman
-#	
-#	ai = no
-#	
-#	trigger = {
-#		has_dlc = "Legacy of Rome"
-#		is_alternate_start = no
-#		OR = {
-#			has_landed_title = e_turkey
-#			has_landed_title = e_ottoman_empire
-#		}
-#		OR = { 
-#				religion = nizami
-#				religion = ruhi
-#		}
-#		NOT = { has_global_flag = mohac }
-#		completely_controls = d_buda
-#	}
-#	
-#	mean_time_to_happen = {
-#		days = 1
-#	}
-#	
-#	option = {
-#		name = EVTOPTAottoman.14
-#		set_global_flag = mohac
-#		prestige = 100
-#	}
-#}
+ Conquest of Mohac
+narrative_event = {
+	id = ottoman.14
+	title = EVTNAMEottoman.14
+	desc = EVTDESCottoman.14
+	
+	picture = GFX_victory_march_ottoman
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		NOT = { has_global_flag = mohac }
+		completely_controls = d_transdanubia
+		completely_controls = d_alfoeld
+		completely_controls = d_budapest
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.14
+		set_global_flag = mohac
+		prestige = 100
+	}
+}
 
 # Conquest of Crimea
 narrative_event = {
