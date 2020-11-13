@@ -1,0 +1,27 @@
+rom = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { serbsouthslavicgfx }
+
+	romani = {
+		graphical_cultures = { serbsouthslavicgfx }
+		
+		color = { 0.07 0.27 0.66 }
+
+		male_names = {
+			Aladár 
+		}
+		female_names = {
+			Viktória_Victoria 
+		}
+
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 60
+		mother_name_chance = 10
+	}
+}

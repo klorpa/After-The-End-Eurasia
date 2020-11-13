@@ -6,6 +6,244 @@ e_visegrad = {
 	
 	capital = 1037 #Prague
 	
+	k_hungary = {
+		color={ 55 79 154 }
+		color2={ 255 255 255 }
+		
+		capital = 1170 # c_pest
+		culture = hungarian
+		
+		d_transdanubia = {
+			color={ 35 99 144 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 2000 province_id = 2001 province_id = 2002 province_id = 2003 } }
+				}
+			}
+			capital = 1165 # c_baranya
+			
+			c_baranya = { # 1165
+				color={ 25 109 139 }
+				color2={ 255 255 255 }
+				
+				b_kozarmisleny = {
+				}
+				b_pecs = {
+				}
+				b_szekszard = {
+				}
+				b_paks = {
+				}
+				b_tamasi = {
+				}
+				b_siklos = {
+				}
+				b_komlo = {
+				}
+			}
+			c_gyor = { # 1168
+				color={ 176 213 171 }
+				color2={ 255 255 255 }
+				
+				b_gyorujbarat = {
+				}
+				b_gyor = {
+				}
+				b_esztergom = {
+				}
+				b_sopron = {
+				}
+				b_tatabanya = {
+				}
+				b_mosonmagyarovar = {
+				}
+				b_tata = {
+				}
+			}
+			c_veszprem = { # 1167
+				color={ 145 70 115 }
+				color2={ 255 255 255 }
+				
+				b_veszprem = {
+				}
+				b_szombathely = {
+				}
+				b_papa = {
+				}
+				b_ajka = {
+				}
+				b_sarvar = {
+				}
+				b_varpalota = {
+				}
+				b_tapolca = {
+				}
+			}
+			c_zala = { # 1166
+				color={ 129 211 39 }
+				color2={ 255 255 255 }
+				
+				b_zalaegerszeg = {
+				}
+				b_kaposvar = {
+				}
+				b_nagykanizsa = {
+				}
+				b_siofok = {
+				}
+				b_keszthely = {
+				}
+				b_marcali = {
+				}
+				b_fonyod = {
+				}
+			}
+		}
+		d_alfoeld = {
+			color={ 232 11 75 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 2006 province_id = 2007 province_id = 2008 province_id = 2009 } }
+				}
+			}
+			capital = 1174 # c_hajdu_bihar
+			
+			c_bacs_kiskun = { # 1171
+				color={ 222 21 70 }
+				color2={ 255 255 255 }
+				
+				b_kecskemet = {
+				}
+				b_szeged = {
+				}
+				b_baja = {
+				}
+				b_hodmezovasarhely = {
+				}
+				b_kiskoroes = {
+				}
+				b_kalocsa = {
+				}
+				b_mako = {
+				}
+			}
+			c_bekes = { # 1172
+				color={ 205 70 42 }
+				color2={ 255 255 255 }
+				
+				b_bekes = {
+				}
+				b_bekescsaba = {
+				}
+				b_szolnok = {
+				}
+				b_oroshaza = {
+				}
+				b_jaszbereny = {
+				}
+				b_karcag = {
+				}
+				b_gyula = {
+				}
+			}
+			c_hajdu_bihar = { # 1173
+				color={ 22 212 91 }
+				color2={ 255 255 255 }
+				
+				b_hajdusamson = {
+				}
+				b_debrecen = {
+				}
+				b_nyiregyhaza = {
+				}
+				b_mateszalka = {
+				}
+				b_berettyoujfalu = {
+				}
+				b_kisvarda = {
+				}
+				b_hajduszoboszlo = {
+				}
+			}
+			c_miskolc = { # 1174
+				color={ 251 95 35 }
+				color2={ 255 255 255 }
+				
+				b_felsozsolca = {
+				}
+				b_miskolc = {
+				}
+				b_eger = {
+				}
+				b_salgotarjan = {
+				}
+				b_gyoengyoes = {
+				}
+				b_kazincbarcika = {
+				}
+				b_ozd = {
+				}
+			}
+		}
+		d_budapest = {
+			color={ 214 94 189 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 2004 province_id = 2005 } }
+				}
+			}
+			capital = 1170 # c_pest
+			
+			c_buda = { # 1169
+				color={ 224 84 194 }
+				color2={ 255 255 255 }
+				
+				b_varkeruelet = {
+				}
+				b_szekesfehervar = {
+				}
+				b_ujbuda = {
+				}
+				b_obuda_bekasmegyer = {
+				}
+				b_dunaujvaros = {
+				}
+				b_hegyvidek = {
+				}
+				b_budafok_teteny = {
+				}
+			}
+			c_pest = { # 1170
+				color={ 118 186 247 }
+				color2={ 255 255 255 }
+				
+				b_belvaros_lipotvaros = {
+				}
+				b_zuglo = {
+				}
+				b_goedoello = {
+				}
+				b_angyalfoeld_ujlipotvaros_vizafogo = {
+				}
+				b_erd = {
+				}
+				b_szigetszentmiklos = {
+				}
+				b_pestszentlorinc_pestszentimre = {
+				}
+			}
+		}
+	}
+	
 	k_czechoslovakia = {
 		color={ 205 145 60 }
 		color2 = { 255 255 255 }
