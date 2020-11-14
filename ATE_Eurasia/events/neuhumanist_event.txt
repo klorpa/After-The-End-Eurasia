@@ -1,6 +1,6 @@
-namespace = neuhumanist
+namespace = nhevent
 character_event = { #Choosing a branch
-	id = neuhumanist.1
+	id = nhevent.1
 	desc = EVTDESC_neuhumanist_1
 	picture = GFX_evt_bishop
 	religion = neuhumanist
@@ -71,7 +71,7 @@ character_event = { #Choosing a branch
 ###Philosphical Wankery###
 
 narrative_event = { #Notification letting people know they clicked the decision...
-	id = neuhumanist.2
+	id = nhevent.2
 	title = EVTNAME_neuhumanist_starts_philosophizing
 	desc = EVTDESC_neuhumanist_starts_writing
 	picture = GFX_evt_library
@@ -95,7 +95,7 @@ narrative_event = { #Notification letting people know they clicked the decision.
 #Any of the Following Events will occur randomly during the Writing Process - Ends by Quitting (via Decision) or Writing Something Competent which progresses to the end state
 	
 character_event = { #Choosing Event that occures when you are researching, certain traits help, or you may give up or potentially pick up bad traits.
-	id = neuhumanist.3
+	id = nhevent.3
 	title = EVTNAME_neuhumanist_write_book
 	desc = EVTDESC_neuhumanist_write_book
 	picture = GFX_evt_library
@@ -177,7 +177,7 @@ character_event = { #Choosing Event that occures when you are researching, certa
 	}	
 }
 character_event = {
-	id = neuhumanist.4
+	id = nhevent.4
 	title = EVTNAME_neuhumanist_writing_bad
 	desc = EVTDESC_neuhumanist_writing_bad
 	picture = GFX_evt_library
@@ -214,7 +214,7 @@ character_event = {
 					religion = neuhumanist
 					same_realm = ROOT
 				}
-				character_event = { id = neuhumanist.4 }
+				character_event = { id = nhevent.4 }
 			}
 			add_character_modifier = { name = recent_writings duration = 180 }
 		}
@@ -264,7 +264,7 @@ character_event = {
 		}
 }
 	character_event = {
-		id = neuhumanist.5
+		id = nhevent.5
 		title = EVTNAME_neuhumanist_write_competent
 		desc = EVTDESC_neuhumanist_write_competent
 		picture = GFX_evt_library
@@ -338,7 +338,7 @@ character_event = {
 		}
 	}
 	character_event = {
-		id = neuhumanist.6
+		id = nhevent.6
 		desc = EVTDESC_neuhumanist_write_discuss
 		picture = GFX_evt_courtiers_talking
 		is_triggered_only = yes
@@ -369,7 +369,7 @@ character_event = {
 		}
 	}
 	character_event = { #You need some books to help with your research, you can spend gold or use other traits to move forward or of course give up
-		id = neuhumanist.8
+		id = nhevent.8
 		desc = EVTDESC_neuhumanist_advance_book
 		picture = GFX_evt_library
 
@@ -441,7 +441,7 @@ character_event = {
 #End State of the Philosphical Writing Event
 
 	narrative_event = {
-		id = neuhumanist.7
+		id = nhevent.7
 		title = EVTNAME_neuhumanist_end_of_writing
 		desc = {
 			trigger = {

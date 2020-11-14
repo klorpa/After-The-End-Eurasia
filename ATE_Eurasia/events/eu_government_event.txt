@@ -10,7 +10,7 @@ namespace = gov
 
 #add diet member status
 character_event = {
-	id = gov.001
+	id = gov.1
 	hide_window = yes
 	
 	mean_time_to_happen = {
@@ -35,7 +35,7 @@ character_event = {
 
 #remove diet member status
 character_event = {
-	id = gov.002
+	id = gov.2
 	hide_window = yes
 	
 	mean_time_to_happen = {
@@ -64,7 +64,7 @@ character_event = {
 
 #set succession law (bureaucratic)
 character_event = {
-	id = gov.003
+	id = gov.3
 	hide_window = yes
 	
 	mean_time_to_happen = {
@@ -98,7 +98,7 @@ character_event = {
 
 #become bureaucratic if liege is (liege)
 character_event = {
-	id = gov.004
+	id = gov.4
 	hide_window = yes
 	
 	mean_time_to_happen = {
@@ -129,7 +129,7 @@ character_event = {
 
 #become bureaucratic if liege is (vassal)
 character_event = {
-	id = gov.005
+	id = gov.5
 	picture = GFX_evt_chinese_emissary
 	desc = EVTDESCgov.005
 	
@@ -161,7 +161,7 @@ character_event = {
 
 #automatic feudal->pirate
 character_event = {
-	id = gov.006
+	id = gov.6
 	hide_window = yes
 	
 	trigger = {
@@ -179,7 +179,7 @@ character_event = {
 
 #automatic pirate->feudal
 character_event = {
-	id = gov.007
+	id = gov.7
 	hide_window = yes
 	
 	trigger = {
@@ -196,7 +196,7 @@ character_event = {
 
 #automatic iqta->pirate
 character_event = {
-	id = gov.008
+	id = gov.8
 	hide_window = yes
 	
 	trigger = {
@@ -214,7 +214,7 @@ character_event = {
 
 #automatic pirate->iqta
 character_event = {
-	id = gov.009
+	id = gov.9
 	hide_window = yes
 	
 	trigger = {
@@ -231,7 +231,7 @@ character_event = {
 
 #Fate of FROM
 character_event = {
-	id = gov.010
+	id = gov.10
 	title = EVTgov.010
 	desc = EVTDESCgov.010
 	picture = GFX_evt_prisoner_hf
