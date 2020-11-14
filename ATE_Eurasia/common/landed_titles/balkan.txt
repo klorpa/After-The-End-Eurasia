@@ -36,8 +36,13 @@ e_yugoslavia = {
 				
 				b_uljanik = {}
 				b_pula = {}
-				b_rovinj = {}
-				b_brijuni = {}
+				b_rovinj = {
+					lombard = "Rovigno"
+					umbrian = "Ruginium"
+				}
+				b_brijuni = {
+					lombard = "Brioni"
+				}
 			}
 			
 			c_hartera = {
@@ -46,7 +51,10 @@ e_yugoslavia = {
 				croatian = "Hartera"
 				
 				b_rijeka = {}
-				b_opatija = {}
+				b_opatija = {
+					austrian = "Sankt Jakobi"
+					lombard = "Abbazia"
+				}
 				b_labinstina = {}
 				b_podhum = {}
 			}
@@ -65,7 +73,12 @@ e_yugoslavia = {
 				croatian = "Krk-Cres-Losinj"
 				
 				b_krk = {}
-				b_losinj = {}
+				b_losinj = {
+					lombard = "Lussino"
+					venetian = "Lusin"
+					austrian = "Lötzing"
+					umbrian = "Apsorrus"
+				}
 			}
 			
 			c_bagat = {
@@ -109,7 +122,11 @@ e_yugoslavia = {
 				color2={ 255 255 255 }
 				croatian = "Plitvice"
 				
-				b_slunj = {}
+				b_slunj = {
+					hungarian = "Szluin"
+					austrian = "Sluin"
+					umbrian = "Slovin"
+				}
 			}
 			
 			c_split = {
@@ -139,7 +156,10 @@ e_yugoslavia = {
 				
 				b_zeljezara = {}
 				b_rafinerija = {}
-				b_bjelovar = {}
+				b_bjelovar = {
+					hungarian = "Belovár"
+					austrian = "Bellowar"
+				}
 			}
 			
 			c_prigorje = {
@@ -147,10 +167,12 @@ e_yugoslavia = {
 				color2={ 255 255 255 }
 				croatian = "Prigorje"
 				
-				b_medvedgrad = {}
+				b_medvedgrad = {
+					hungarian = "Medvevár"
+				}
 				b_zagreb = {}
 				b_gorica = {}
-				b_pleso = {}
+				b_ples = {}
 			}
 			
 			c_medjimurje = {
@@ -192,7 +214,11 @@ e_yugoslavia = {
 				color2={ 255 255 255 }
 				croatian = "Boska"
 				
-				b_kastel = {}
+				b_kastel = {
+					croatian = "Tvrdava"
+					bosniak = "Tvrdava"
+					serbian = "Tvrdava"
+				}
 				b_banja_luka = {}
 				b_kozara = {}
 			}
