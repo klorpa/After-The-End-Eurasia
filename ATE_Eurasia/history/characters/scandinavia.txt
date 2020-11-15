@@ -771,7 +771,7 @@
 	female=yes
 	mother=8000208
 	father = 8000225
-	dynasty=2220052 #Gløkksborg
+	dynasty=2335104 #Rosensverd
 	culture=ostlending
 	religion=folketro
 	trait=groomed
@@ -2585,6 +2585,8 @@
 	name="Aslak"
 	culture=ostlending
 	religion=folketro
+	father=80003568
+	dynasty = 2335104
 	trait=uncouth
 	trait=strong 
 	trait=lustful 
@@ -6095,5 +6097,277 @@
 	    birth=yes
 	    culture = vestlending
 	}
+	2670.1.1={death=yes}
+}
+
+80003565={
+	name="Olav"
+	culture=ostlending
+	father=8000225
+	religion=folketro
+	dynasty = 2335104
+	trait=uncouth
+	trait=strong 
+	trait=legit_bastard
+	trait=lustful 
+	trait=wroth
+    trait=misguided_warrior
+	disallow_random_traits = yes 
+	employer = 8000073
+	2650.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003566={
+	name="Eirik"
+	culture=ostlending
+	father=8000225
+	trait=legit_bastard
+	religion=folketro
+	dynasty = 2335104
+	employer = 8000073
+	2661.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003567={
+	name="Nadia"
+	female=yes
+	culture=ostlending
+	trait=thrifty_clerk
+	trait=shrewd 
+	trait=zealous
+	trait=patient 
+	trait=chaste 
+	religion=ruhi
+	employer = 8000073
+	2639.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003568={
+	name="Øyvind"
+	father=80003569
+	culture=ostlending
+	religion=folketro
+	dynasty = 2335104
+	2600.1.1={birth=yes}
+	2645.1.1={death=yes}
+}
+
+80003569={
+	name="Vetle"
+	father=80003570
+	culture=ostlending
+	religion=folketro
+	dynasty = 2335104
+	2577.1.1={birth=yes}
+	2614.1.1={death=yes}
+}
+
+80003570={
+	name="Sjøfar"
+	culture=ostlending
+	religion=folketro
+	trait=quick 
+	trait=midas_touched 
+	trait=fair 
+	trait=ambitious
+	trait=gregarious
+	dynasty = 2335104
+	2503.1.1={birth=yes}
+	2598.1.1={death=yes}
+}
+
+80003571={
+	name="Ludvik"
+	culture=ostlending
+	father=80003569
+	religion=folketro
+	dynasty = 2335104
+	2597.1.1={birth=yes}
+	2622.1.1={death=yes}
+}
+
+80003572={
+	name="Dag"
+	culture=ostlending
+	father=80003571
+	religion=folketro
+	dynasty = 2335104
+	2620.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003573={
+	name="Guttorm"
+	culture=ostlending
+	father=80003572
+	religion=folketro
+	dynasty = 2335104
+	2646.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003575={
+	name="Pia"
+	female=yes
+	culture=ostlending
+	father=80003572
+	religion=folketro
+	dynasty = 2335104
+	2643.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003576={
+	name="Sigurd"
+	father=80003570
+	culture=ostlending
+	religion=folketro
+	dynasty = 2335104
+	2545.1.1={birth=yes}
+	2594.1.1={death=yes}
+}
+
+80003577={
+	name="Rolf"
+	father=80003576
+	culture=ostlending
+	religion=folketro
+	dynasty = 2335104
+	2570.1.1={birth=yes}
+	2630.1.1={death=yes}
+}
+
+80003578={
+	name="Asbjørn"
+	father=80003577
+	culture=ostlending
+	religion=folketro
+	dynasty = 2335104
+	2598.1.1={birth=yes}
+	2667.1.1={death=yes}
+}
+
+80003579={
+	name="Gudbrand"
+	father=80003578
+	culture=ostlending
+	religion=folketro
+	dynasty = 2335104
+	2630.1.1={birth=yes}
+	2667.1.1={death=yes}
+}
+
+80003580={
+	name="Ulf"
+	father=80003578
+	culture=ostlending
+	religion=folketro
+	dynasty = 2335104
+	2636.1.1={birth=yes}
+	2667.1.1={death=yes}
+}
+
+80003581={
+	name="Anne"
+	female=yes
+	father=80003578
+	culture=ostlending
+	religion=folketro
+	dynasty = 2335104
+	2639.1.1={birth=yes}
+	2667.1.1={death=yes}
+}
+
+80003582={
+	name="Sigbjørn"
+	father=80003576
+	culture=ostlending
+	religion=folketro
+	dynasty = 2335104
+	2576.1.1={birth=yes}
+	2623.1.1={death=yes}
+}
+
+80003583={
+	name="Ingebrikt"
+	father=80003582
+	culture=ostlending
+	religion=folketro
+	dynasty = 2335104
+	2605.1.1={birth=yes}
+	2657.1.1={death=yes}
+}
+
+80003584={
+	name="Sverre"
+	father=80003583
+	culture=ostlending
+	religion=folketro
+	dynasty = 2335104
+	2633.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003585={
+	name="Joakim"
+	father=80003583
+	culture=ostlending
+	religion=folketro
+	dynasty = 2335104
+	2637.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003586={
+	name="Jannicke"
+	female=yes 
+	father=80003583
+	culture=ostlending
+	religion=folketro
+	dynasty = 2335104
+	2638.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003587={
+	name="Kjersti"
+	female=yes 
+	father=80003583
+	culture=ostlending
+	religion=folketro
+	dynasty = 2335104
+	2640.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003588={
+	name="Celine"
+	female=yes 
+	father=80003583
+	culture=ostlending
+	religion=folketro
+	dynasty = 2335104
+	2643.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003589={
+	name="Loke"
+	father=80003583
+	culture=ostlending
+	religion=folketro
+	dynasty = 2335104
+	trait=elusive_shadow
+	trait=lustful
+	trait=deceitful
+	trait=cruel 
+	trait=ruthless
+	trait=fair 
+	trait=cynical
+	trait=shrewd
+	2645.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
