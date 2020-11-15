@@ -250,17 +250,25 @@ e_visegrad = {
 
 		capital = 1037 #Prague
 		
-		d_bohemia = {
+		czech = "Ceskoslovensko"
+		slovak = "Ceskoslovensko"
+		
+		d_czechia = {
 			color={ 180 120 80 }
 			color2={ 255 255 255 }
+			
+			czech = "Cesko"
 			
 			capital = 1037 #Praha
 			
 			c_prague = {
 				color={ 159 102 55 }
 				color2={ 255 255 255 }
+				
+				czech = "Praha"
 
 				b_prague = { 
+					czech = "Praha"
 					holy_site = chronicler 
 					}
 				b_zlicin = {}
@@ -309,6 +317,8 @@ e_visegrad = {
 			c_south_bohemia = {
 				color={ 157 92 44 }
 				color2={ 255 255 255 }
+				
+				czech = "Jihoceský"
 
 				b_ceske_budejovice = {}
 				b_pisek = {}
@@ -322,6 +332,8 @@ e_visegrad = {
 			c_middle_bohemia = {
 				color={ 177 102 76 }
 				color2={ 255 255 255 }
+				
+				czech = "Stredníceský"
 
 				b_benesov = {}
 				b_pribram = {}
@@ -338,6 +350,8 @@ e_visegrad = {
 			color2={ 255 255 255 }
 			
 			capital = 1025 #Moravskoslezsky
+			
+			czech = "Morava"
 			
 			c_ostrava = {
 				color={ 233 143 77 }
@@ -379,6 +393,9 @@ e_visegrad = {
 				color={ 250 100 30 }
 				color2={ 255 255 255 }
 				
+				czech = "Jihomoravský"
+				slovak = "Juhomoravský"
+				
 				holy_site = jacobin
 
 				b_brno = {}
@@ -392,6 +409,7 @@ e_visegrad = {
 			c_vysocina = {
 				color={ 222 92 55 }
 				color2={ 255 255 255 }
+				
 
 				b_jihlava = {}
 				b_polna = {}
@@ -498,6 +516,9 @@ e_visegrad = {
 			color2={ 255 255 255 }
 			
 			capital = 1036 #Bratislava
+			
+			czech = "Slovensko"
+			slovak = "Slovensko"
 			
 			c_bratislava = {
 				color={ 177 102 55 }
