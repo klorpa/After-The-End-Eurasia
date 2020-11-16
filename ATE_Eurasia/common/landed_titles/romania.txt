@@ -6,6 +6,232 @@ e_romania = {
 	
 	capital = 1190 #Bucharest
 	
+	k_wallachia = {
+		color={ 112 54 58 }
+		color2={ 255 255 255 }
+		
+		capital = 1190 # c_bucharest
+		culture = romanian
+		
+		d_muntenia = {
+			color={ 92 74 48 }
+			color2={ 255 255 255 }
+			
+			capital = 1190 # c_bucharest
+			
+			c_bucharest = { # 1190
+				color={ 82 84 43 }
+				color2={ 255 255 255 }
+				
+				b_buftea = {
+				}
+				b_bucharest = {
+				}
+				b_calarasi = {
+				}
+				b_giurgiu = {
+				}
+				b_voluntari = {
+				}
+				b_oltenita = {
+				}
+				b_pantelimon = {
+				}
+			}
+			c_arges = { # 1187
+				color={ 168 94 47 }
+				color2={ 255 255 255 }
+				
+				b_balitesti = {
+				}
+				b_pitesti = {
+				}
+				b_ramnicu_valcea = {
+				}
+				b_campulung = {
+				}
+				b_curtea_de_arges = {
+				}
+				b_dragasani = {
+				}
+				b_mioveni = {
+				}
+			}
+			c_braila = { # 1192
+				color={ 27 228 59 }
+				color2={ 255 255 255 }
+				
+				b_slobozia = {
+				}
+				b_braila = {
+				}
+				b_fetesti = {
+				}
+				b_urziceni = {
+				}
+				b_tandarei = {
+				}
+				b_ianca = {
+				}
+				b_amara = {
+				}
+			}
+			c_buzau = { # 1191
+				color={ 194 121 246 }
+				color2={ 255 255 255 }
+				
+				b_buzau = {
+				}
+				b_ramnicu_sarat = {
+				}
+				b_nehoiu = {
+				}
+				b_patarlagele = {
+				}
+				b_pogoanele = {
+				}
+				b_amaru = {
+				}
+				b_braesti = {
+				}
+			}
+			c_olt = { # 1188
+				color={ 166 235 138 }
+				color2={ 255 255 255 }
+				
+				b_slatina = {
+				}
+				b_alexandria = {
+				}
+				b_caracal = {
+				}
+				b_rosiorii_de_vede = {
+				}
+				b_turnu_magurele = {
+				}
+				b_bals = {
+				}
+				b_corabia = {
+				}
+			}
+			c_prahova = { # 1189
+				color={ 247 198 219 }
+				color2={ 255 255 255 }
+				
+				b_targoviste = {
+				}
+				b_ploiesti = {
+				}
+				b_campina = {
+				}
+				b_moreni = {
+				}
+				b_baicoi = {
+				}
+				b_breaza = {
+				}
+				b_mizil = {
+				}
+			}
+		}
+		d_dobruja = {
+			color={ 205 199 43 }
+			color2={ 255 255 255 }
+			
+			capital = 876 # c_constanta
+			
+			c_constanta = { # 876
+				color={ 215 189 48 }
+				color2={ 255 255 255 }
+				
+				b_mamaia = {
+				}
+				b_constanta = {
+				}
+				b_medgidia = {
+				}
+				b_mangalia = {
+				}
+				b_navodari = {
+				}
+				b_cernavoda = {
+				}
+				b_ovidiu = {
+				}
+			}
+			c_tulcea = { # 877
+				color={ 133 80 175 }
+				color2={ 255 255 255 }
+				
+				b_tulcea = {
+				}
+				b_babadag = {
+				}
+				b_macin = {
+				}
+				b_isaccea = {
+				}
+				b_sulina = {
+				}
+				b_bratianu = {
+				}
+				b_chilia_veche = {
+				}
+			}
+		}
+		d_oltenia = {
+			color={ 83 183 121 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 2006 province_id = 2007 } }
+				}
+			}
+			capital = 1186 # c_dolj
+			
+			c_dolj = { # 1186
+				color={ 73 193 116 }
+				color2={ 255 255 255 }
+				
+				b_cernele = {
+				}
+				b_craiova = {
+				}
+				b_bailesti = {
+				}
+				b_calafat = {
+				}
+				b_filiasi = {
+				}
+				b_dabuleni = {
+				}
+				b_segarcea = {
+				}
+			}
+			c_mehedinti = { # 1187
+				color={ 45 139 67 }
+				color2={ 255 255 255 }
+				
+				b_targu_jiu = {
+				}
+				b_drobeta_turnu_severin = {
+				}
+				b_motru = {
+				}
+				b_orsova = {
+				}
+				b_strehaia = {
+				}
+				b_rovinari = {
+				}
+				b_bumbesti_jiu = {
+				}
+			}
+		}
+	}
+	
 	k_transylvania = {
 		color={ 99 20 145 }
 		color2={ 255 255 255 }
