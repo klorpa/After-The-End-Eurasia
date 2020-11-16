@@ -11,7 +11,6 @@ e_romania = {
 		color2={ 255 255 255 }
 		
 		capital = 1190 # c_bucharest
-		culture = romanian
 		
 		d_muntenia = {
 			color={ 92 74 48 }
@@ -20,7 +19,7 @@ e_romania = {
 			capital = 1190 # c_bucharest
 			
 			c_bucharest = { # 1190
-				color={ 82 84 43 }
+				color={ 142 134 43 }
 				color2={ 255 255 255 }
 				
 				b_buftea = {
@@ -58,7 +57,7 @@ e_romania = {
 				}
 			}
 			c_braila = { # 1192
-				color={ 27 228 59 }
+				color={ 167 178 59 }
 				color2={ 255 255 255 }
 				
 				b_slobozia = {
@@ -160,7 +159,7 @@ e_romania = {
 				}
 			}
 			c_tulcea = { # 877
-				color={ 133 80 175 }
+				color={ 133 80 75 }
 				color2={ 255 255 255 }
 				
 				b_tulcea = {
@@ -183,12 +182,6 @@ e_romania = {
 			color={ 83 183 121 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 2006 province_id = 2007 } }
-				}
-			}
 			capital = 1186 # c_dolj
 			
 			c_dolj = { # 1186
@@ -237,7 +230,6 @@ e_romania = {
 		color2={ 255 255 255 }
 		
 		capital = 1177 # c_cluj
-		culture = romanian
 		
 		d_transylvania = {
 			color={ 119 0 155 }
@@ -246,7 +238,7 @@ e_romania = {
 			capital = 1177 # c_cluj
 			
 			c_cluj = { # 1177
-				color={ 129 246 160 }
+				color={ 199 146 160 }
 				color2={ 255 255 255 }
 				
 				b_floresti = {

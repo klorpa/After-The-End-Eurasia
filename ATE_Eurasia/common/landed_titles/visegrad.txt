@@ -11,18 +11,11 @@ e_visegrad = {
 		color2={ 255 255 255 }
 		
 		capital = 1170 # c_pest
-		culture = hungarian
 		
 		d_transdanubia = {
 			color={ 35 99 144 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 2000 province_id = 2001 province_id = 2002 province_id = 2003 } }
-				}
-			}
 			capital = 1165 # c_baranya
 			
 			c_baranya = { # 1165
@@ -106,12 +99,6 @@ e_visegrad = {
 			color={ 232 11 75 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 2006 province_id = 2007 province_id = 2008 province_id = 2009 } }
-				}
-			}
 			capital = 1174 # c_hajdu_bihar
 			
 			c_bacs_kiskun = { # 1171
@@ -195,16 +182,10 @@ e_visegrad = {
 			color={ 214 94 189 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 2004 province_id = 2005 } }
-				}
-			}
 			capital = 1170 # c_pest
 			
 			c_buda = { # 1169
-				color={ 224 84 194 }
+				color={ 154 84 194 }
 				color2={ 255 255 255 }
 				
 				b_varkeruelet = {
@@ -472,7 +453,7 @@ e_visegrad = {
 			capital = 1030 #Presov
 			
 			c_zilina = {
-				color={ 190 122 85 }
+				color={ 220 122 85 }
 				color2={ 255 255 255 }
 
 				b_zilina = {}
@@ -1105,7 +1086,7 @@ e_visegrad = {
 				b_polkowice = {}
 			}
 			c_walbrzych = {
-				color={ 211 34 220 }
+				color={ 211 134 120 }
 				color2={ 255 255 255 }
 				
 				b_swidnica = {}
