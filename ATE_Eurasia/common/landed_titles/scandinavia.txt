@@ -7,7 +7,7 @@ e_scandinavia = {
 	
 	icelander = "Skandinavía"
 	svalbarder = "Skandinavija"
-	ostlending = "Skandinavia"
+	ostlending =  "Skandinavia"
 	tronder = "Skandinavia"
 	vestlending = "Skandinavia"
 	jamta = "Skandinavien"
@@ -38,7 +38,7 @@ e_scandinavia = {
 		
 		icelander = "Ísland"
 		svalbarder = "Island"
-		ostlending = "Island"
+		ostlending =  "Island"
 		tronder = "Island"
 		vestlending = "Island"
 		jamta = "Island"
@@ -67,7 +67,7 @@ e_scandinavia = {
 			
 			icelander = "Ísland"
 			svalbarder = "Island"
-			ostlending = "Island"
+			ostlending =  "Island"
 			tronder = "Island"
 			vestlending = "Island"
 			jamta = "Island"
@@ -86,7 +86,9 @@ e_scandinavia = {
 				holy_site = low_thelema
 				holy_site = skogskult #Legend about that one giant
 
-				b_reykjavik = {}
+				b_reykjavik = {
+				    vestlending = "Røykjavik"
+				}
 				b_alftanes = {}
 				b_skalholt = {}
 				b_kjalarnes = {}
@@ -334,9 +336,10 @@ e_scandinavia = {
 				holy_site = skogskult #made by trolls/ giantesses according to folklore
 				
 				b_kobenhavn = {
-				swedish = "Köbenhamn"
+				    swedish = "Köbenhamn"
 					jamta = "Köbenhamn"
 					scanian = "Köbenhamn"
+					vestlending = "Kaupenhamn"
 				}
 				b_roskilde = {}
 				b_helsingor = {
@@ -519,7 +522,7 @@ e_scandinavia = {
 		}
 		
 		d_kalmar = {
-		color={ 80 20 95 }
+		    color={ 80 20 95 }
 			color2={ 255 255 255 }
 			
 			capital = 486
@@ -584,7 +587,9 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 			
 				b_trollhattan = {}
-				b_uddevalla = {}
+				b_uddevalla = {
+				    vestlending = "Oddevoll"
+				}
 				b_skara = {}
 				b_vara = {}
 				b_vanersborg = {}
@@ -636,16 +641,16 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 			
 				b_goteborg = {
-				icelander = "Gautaborg"
+				    icelander = "Gautaborg"
 					ostlending = "Gøteborg"
 					tronder = "Gøteborg"
 					vestlending = "Gauteborg"
 					danish = "Gøteborg"
 				}
 				b_kungalv = {
-					ostlending = "Konghelle"
+				    ostlending = "Konghelle"
 					vestlending = "Konghelle"
-					tronder = "Konghelle"
+				    tronder = "Konghelle"
 				}
 				b_molndal = {}
 				b_kungsbacka = {}
@@ -695,7 +700,7 @@ e_scandinavia = {
 				
 				b_gamlastan = {}
 				b_uppsala = {
-					yankee = "Oopsalah"
+				    yankee = "Oopsalah"
 					ostlending = "Oppsala"
 					vestlending = "Oppsala"
 					tronder = "Oppsala"
@@ -718,10 +723,10 @@ e_scandinavia = {
 				danish = "Ørebro"
 				
 				b_orebro = {
-					ostlending = "Ørebro"
-					vestlending = "Ørebro"
-					tronder = "Ørebro"
-					danish = "Ørebro"
+				    ostlending = "Ørebro"
+				    vestlending = "Ørebro"
+				    tronder = "Ørebro"
+				    danish = "Ørebro"
 				}
 				b_karlskoga = {}
 				b_kumla = {}
@@ -753,7 +758,7 @@ e_scandinavia = {
 				danish = "Vestmandland"
 				
 				b_vasteras = {
-					ostlending = "Vesterås"
+				    ostlending = "Vesterås"
 					vestlending = "Vesterås"
 					tronder = "Vesterås"
 					danish = "Vesterås"
@@ -843,7 +848,11 @@ e_scandinavia = {
 				
 				tronder = "Øst-Trøndelag"
 				
-				b_ostersund = {}
+				b_ostersund = {
+				    vestlending = "Austersund"
+					ostlending = "Østersund"
+					tronder = "Østersund"
+				}
 				b_are = {}
 				b_hammerdal = {}
 				b_brunflo = {}
@@ -854,6 +863,8 @@ e_scandinavia = {
 			c_herjedalen = {
 				color={ 168 0 42 }
 				color2={ 255 255 255 }
+				
+				vestlending = "Herjådalen"
 				
 				b_sveg = {}
 				b_glote = {}
@@ -866,7 +877,7 @@ e_scandinavia = {
 		}
 		
 		d_norrland = {
-		color={ 195 195 200 }
+		    color={ 195 195 200 }
 			color2={ 255 255 255 }
 			
 			capital = 506
@@ -982,6 +993,7 @@ e_scandinavia = {
 			
 			danish = "Vigen"
 			icelander = "Víkin"
+			ostlending = "Vika"
 			
 			c_akershus = {
 				color={ 55 221 251 }
@@ -991,23 +1003,24 @@ e_scandinavia = {
 				icelander = "Akrshús"
 				
 				b_oslo = {
-					danish = "Christiania"
+				    danish = "Christiania"
 					icelander = "Ósló"
 				}
 				b_sarpsborg = {}
 				b_fredrikstad = {
-					danish = "Frederiksstad"
+				    danish = "Frederiksstad"
+					vestlending = "Glåmos"
 				}
 				b_moss = {
-					icelander = "Mors"
+				    icelander = "Mors"
 					danish = "Mosse"
 				}
 				b_oppegard = {
-				danish = "Oppegaard"
+				    danish = "Oppegaard"
 				}
 				b_ski = {}
 				b_lillestrom = {
-					swedish = "Lilleström"
+				    swedish = "Lilleström"
 					scanian = "Lilleström"
 					jamta = "Lilleström"
 				}
@@ -1017,26 +1030,28 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 				
 				danish = "Bragernæs"
+				icelander = "Biskupsruð"
 				
 				b_drammen = {
-					icelander = "Drafn"
-					ostlending = "Elvebyen"
+				    icelander = "Drafn"
+					vestlending = "Dramn"
 				}
 				b_asker = {}
 				b_hokksund = {}
 				b_mjondalen = {
-					swedish = "Mjöndalen"
+				    swedish = "Mjöndalen"
 					scanian = "Mjöndalen"
 					jamta = "Mjöndalen"
 				}
 				b_kongsberg = {
-					swedish = "Konungsberg"
+				    swedish = "Konungsberg"
 					jamta = "Konungsberg"
 					scanian = "Konungsberg"
 				}
 				b_amot = {}
 				b_svelvik = {
-					danish = "Svelvig"
+				    danish = "Svelvig"
+					vestlending = "Sverdvik"
 				}
 			}
 			c_vestfold = {
@@ -1046,21 +1061,22 @@ e_scandinavia = {
 				danish = "Jarlsberg"
 				
 				b_tonsberg = {
-					swedish = "Tönsberg"
+				    swedish = "Tönsberg"
 					scanian = "Tönsberg"
 					jamta = "Tönsberg"
+					vestlending = "Tunsberg"
 				}
 				b_sandefjord = {}
 				b_larvik = {
-					danish = "Laurvig"
+				    danish = "Laurvig"
 				}
 				b_horten = {
-					danish = "Hortan"
+				    danish = "Hortan"
 				}
 				b_stokke = {}
 				b_holmestrand = {}
 				b_notteroy = {
-					danish = "Nørrerøe"
+				    danish = "Nørrerøe"
 				}
 			}
 			c_agder = {
@@ -1068,18 +1084,25 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 				
 				danish = "Nedenæs"
+				ostlending = "Sørlandet"
 				
 				b_kristiansand = {
-					danish = "Christianssand"
+				    danish = "Christianssand"
+					vestlending = "Storesand"
 				}
 				b_arendal = {}
-				b_grimstad = {}
-				b_flekkefjord = {}
+				b_grimstad = {
+				    vestlending = "Grømstad"
+				}
+				b_flekkefjord = {
+				    vestlending = "Flikkefjord"
+				}
 				b_mandal = {}
 				b_risor = {
-					swedish = "Risör"
+				    swedish = "Risör"
 					scanian = "Risör"
 					jamta = "Risör"
+					vestlending = "Risøyr"
 				}
 				b_farsund = {}
 			}
@@ -1092,19 +1115,22 @@ e_scandinavia = {
 				holy_site = folketro
 				
 				b_porsgrunn = {
-					danish = "Porsgrund"
+				    danish = "Porsgrund"
 				}
 				b_kragero = {
-					swedish = "Kragerö"
+				    swedish = "Kragerö"
 					scanian = "Kragerö"
 					jamta = "Kragerö"
+					vestlending = "Kråkerøy"
 				}
-				b_skien = {}
+				b_skien = {
+				    vestlending = "Skida"
+				}
 				b_drangedal = {}
 				b_notodden = {}
 				b_rjukan = {}
 				b_seljord = {
-					danish = "Sillegjord"
+				    danish = "Sillegjord"
 				}
 			}
 		}
@@ -1121,19 +1147,19 @@ e_scandinavia = {
 				danish = "Bergenshuus"
 				
 				b_bergen = {
-					sami = "Birgon"
+				    sami = "Birgon"
 					icelander = "Björgvin"
 				}
 				b_askoy = {
-					swedish = "Askö"
+				    swedish = "Askö"
 					jamta = "Askö"
 					scanian = "Askö"
 				}
 				b_leirvik = {
-					danish = "Leirvig"
+				    danish = "Leirvig"
 				}
 				b_osoyro = {
-					swedish = "Osöyro"
+				    swedish = "Osöyro"
 					jamta = "Osöyro"
 					scanian = "Osöyro"
 				}
@@ -1149,14 +1175,16 @@ e_scandinavia = {
 				
 				b_stavanger = {}
 				b_sandnes = {
-					danish = "Sandnæs"
+				    danish = "Sandnæs"
 				}
 				b_haugesund = {}
 				b_sola = {}
-				b_egersund = {}
+				b_egersund = {
+				    vestlending = "Eigersund"
+				}
 				b_jorpeland = {}
 				b_avaldsnes = {
-					danish = "Avaldsnæs"
+				    danish = "Avaldsnæs"
 				}
 			}
 			c_sogn = {
@@ -1164,18 +1192,18 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 				
 				b_sogndalsfjora = {
-					swedish = "Sogndalsfjöra"
+				    swedish = "Sogndalsfjöra"
 					jamta = "Sogndalsfjöra"
 					scanian = "Sogndalsfjöra"
 				}
 				b_hoyanger = {
-					swedish = "Höyanger"
+				    swedish = "Höyanger"
 					jamta = "Höyanger"
 					scanian = "Höyanger"
 				}
 				b_leikanger = {}
 				b_viksoyri = {
-					swedish = "Viksöyri"
+				    swedish = "Viksöyri"
 					jamta = "Viksöyri"
 					scanian = "Viksöyri"
 				}
@@ -1188,19 +1216,19 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 				
 				b_alesund = {
-					danish = "Aalesund"
+				    danish = "Aalesund"
 				}
 				b_ulsteinvik = {
-					danish = "Ulfsteensvig"
+				    danish = "Ulfsteensvig"
 				}
 				b_vestnes = {
-					danish = "Vestnæs"
+				    danish = "Vestnæs"
 				}
 				b_rauma_2 = {}
 				b_nesset = {}
 				b_midsund = {}
 				b_sandoy = {
-					swedish = "Sandö"
+				    swedish = "Sandö"
 					scanian = "Sandö"
 					jamta = "Sandö"
 				}
@@ -1212,28 +1240,39 @@ e_scandinavia = {
 			
 			capital = 508 #Oslo
 			
+			swedish = "Tröndelag"
+			jamta = "Tröndelag"
+			scanian = "Tröndelag"
+			sami = "Trööndelage"
+			icelander = "Þrændalög"
+			danish = "Trondhjem"
+			vestlending = "Trondheim"
+			
 			c_trondheim = {
 				color={ 132 140 251 }
 				color2={ 255 255 255 }
 				
-					danish = "Throndhjem"
-					low_saxon = "Drontheim"
-					tronder = "Stiftstaden"
+				danish = "Trondhjem"
+				low_saxon = "Drontheim"
+				jamta = "Västra-Jämtland"
+				vestlending = "Nidaros"
 				
 				b_trondheim = {
-					danish = "Throndhem"
+				    danish = "Trondhjem"
+					tronder = "Stiftstaden"
+					vestlending = "Nidaros"
 				}
 				b_nidaros = {}
 				b_melhus = {
-					danish = "Melhuus"
+				    danish = "Melhuus"
 				}
 				b_stjordal = {
-					danish = "Størdal"
+				    danish = "Størdal"
 				}
 				b_levanger = {}
 				b_steinkjer = {}
 				b_leksvik = {
-					danish = "Lexvigen"
+				    danish = "Lexvigen"
 				}
 			}
 			c_namdalen = {
@@ -1253,17 +1292,17 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 				
 				b_roros = {
-					tronder = "Sta'a"
+				    tronder = "Sta'a"
 					danish = "Røraas"
 				}
-				b_alen = {
-					danish = "Holtaalen"
+				b_alen = { #used to be b_holtalen but that wasnt a settlement
+				    danish = "Holtaalen"
 				}
 				b_soknedal = {}
 				b_rennebu = {}
 				b_haltdalen = {}
 				b_storen = {
-				icelander = "Staurin"
+				    icelander = "Staurin"
 				}
 				b_glamos = {}
 			}
@@ -1274,29 +1313,31 @@ e_scandinavia = {
 				danish = "Nordmøer"
 				
 				b_molde = {
-					icelander = "Moldar"
+				    icelander = "Moldar"
 					vestlending = "Rosebyen"
 				}
 				b_kristiansund = {
-					danish = "Christianssund"
+				    danish = "Christianssund"
 					vestlending = "Fosna"
 				}
 				b_tingvoll = {
-					icelander = "Þingvellir"
+				    icelander = "Þingvellir"
 					danish = "Tingvold"
 					vestlending = "Vågen"
 				}
 				b_eide = {
-					icelander = "Eið"
+				    icelander = "Eið"
 				}
 				b_sunndalsora = {
-					swedish = "Sunndalsöra"
+				    swedish = "Sunndalsöra"
 					jamta = "Sunndalsöra"
 					scanian = "Sunndalsöra"
 				}
-				b_rensvik = {}
+				b_rensvik = {
+				    danish = "Rensvig"
+				}
 				b_skei = {
-					vestlending = "Skei i Jølster"
+				    vestlending = "Skei i Jølster"
 				}
 			}
 		}
@@ -1320,37 +1361,40 @@ e_scandinavia = {
 				icelander = "Finnmörk"
 				
 				b_alta = {
-					sami = "Áltá"
+				    sami = "Áltá"
 					finnish = "Alattio"
 					karelian = "Alattio"
 					danish = "Alten"
 					icelander = "Alpt"
 				}
 				b_hammerfest = {
-					sami = "Hámmerfeasta"
+				    sami = "Hámmerfeasta"
+					vestlending = "Hamarfest"
 				}
 				b_vadso = {
-					finnish = "Vesisaari"
+				    finnish = "Vesisaari"
 					sami = "Cáhcesuolu"
 					danish = "Vadsøe"
 					swedish = "Vadsö"
 					scanian = "Vadsö"
 					jamta = "Vadsö"
+					vestlending = "Vatsøy"
 				}
 				b_kirkenes = {
-					danish = "Kirkenæs"
+				    danish = "Kirkenæs"
 					sami = "Girkonjárga"
+					vestlending = "Kyrkjenes"
 				}
 				b_bjornevatn = {
-					swedish = "Björnevatn"
+				    swedish = "Björnevatn"
 					scanian = "Björnevatn"
 					jamta = "Björnevatn"
 				}
 				b_honningsvag = {
-					sami = "Honnesváhki"
+				    sami = "Honnesváhki"
 				}
 				b_kautokeino = {
-					sami = "Guovdageaidnu"
+				    sami = "Guovdageaidnu"
 				}
 			}
 			c_troms = {
@@ -1362,15 +1406,17 @@ e_scandinavia = {
 				sami = "Romsa"
 				finnish = "Tromssa"
 				karelian = "Tromssa"
+				vestlending = "Trums"
 				
 				b_tromso = {
-					danish = "Tromsøe"
+				    danish = "Tromsøe"
 					sami = "Romsa"
 					finnish = "Tromssa"
 					karelian = "Tromssa"
 					swedish = "Tromsö"
 					jamta = "Tromsö"
 					scanian = "Tromsö"
+					vestlending = "Trumsøy"
 				}
 				b_harstad = {}
 				b_tromsdalen = {}
@@ -1386,7 +1432,7 @@ e_scandinavia = {
 				sami = "Nordlánda"
 				
 				b_bodo = {
-					sami = "Bådåddjo"
+				    sami = "Bådåddjo"
 					danish = "Bodøe"
 					swedish = "Bodö"
 					scanian = "Bodö"
@@ -1394,23 +1440,23 @@ e_scandinavia = {
 				}
 				b_straumen = {}
 				b_narvik = {
-					danish = "Narvig"
+				    danish = "Narvig"
 					sami = "Áhkanjárga"
 				}
 				b_fauske = {
-					sami = "Fuoisku"
+				    sami = "Fuoisku"
 				}
 				b_sortland = {
-					sami = "Suortá"
+				    sami = "Suortá"
 				}
 				b_bronnoysund = {
-					sami = "Brïenne"
+				    sami = "Brïenne"
 					swedish = "Brönnöysund"
 					jamta = "Brönnöysund"
 					scanian = "Brönnöysund"
 				}
 				b_kjerringoy = {
-					swedish = "Kärringö"
+				    swedish = "Kärringö"
 					jamta = "Kärringö"
 					scanian = "Kärringö"
 				}
@@ -1422,28 +1468,28 @@ e_scandinavia = {
 				sami = "Helgelánda"
 				
 				b_mo_i_rana = {
-					icelander = "Móar"
+				    icelander = "Móar"
 					sami = "Måehvie"
 				}
 				b_mosjoen = {
-					swedish = "Mosjön"
+				    swedish = "Mosjön"
 					jamta = "Mosjön"
 					scanian = "Mosjön"
 				}
 				b_maela = {}
 				b_tjotta = {
-					swedish = "Tjötta"
+				    swedish = "Tjötta"
 					jamta = "Tjötta"
 					scanian = "Tjötta"
 				}
 				b_ornes = {
-					danish = "Ørnæs"
+				    danish = "Ørnæs"
 					swedish = "Örnes"
 					jamta = "Örnes"
 					scanian = "Örnes"
 				}
 				b_sandnessjoen = {
-					swedish = "Sandnesjön"
+				    swedish = "Sandnesjön"
 					jamta = "Sandnesjön"
 					scanian = "Sandnesjön"
 				}
@@ -1457,6 +1503,9 @@ e_scandinavia = {
 			capital = 508 #Oslo
 			
 			danish = "Oplandene"
+			ostlending = "Opplanda"
+			icelander = "Upplöndum"
+			vestlending = "Upplandi"
 			
 			c_gudbrandsdal = {
 				color={ 41 166 28 }
@@ -1465,18 +1514,21 @@ e_scandinavia = {
 				holy_site = skogskult #Dovregubben
 				
 				danish = "Guldbrandsdalen"
+				icelander = "Guðbrandsdalur"
 				
-				b_lillehammer = {}
+				b_lillehammer = {
+				    vestlending = "Mesna"
+				}
 				b_gjovik = {
-					danish = "Gjøvig"
+				    danish = "Gjøvig"
 				}
 				b_beitostolen = {
-					swedish = "Beitostölen"
+				    swedish = "Beitostölen"
 					jamta = "Beitostölen"
 					scanian = "Beitostölen"
 				}
 				b_nesbyen = {
-					danish = "Næsbyen"
+				    danish = "Næsbyen"
 				}
 				b_vang = {}
 				b_ringebu = {}
@@ -1486,15 +1538,17 @@ e_scandinavia = {
 				color={ 34 177 76 }
 				color2={ 255 255 255 }
 				
-				b_kongsvinger = {}
+				b_kongsvinger = {
+				    vestlending = "Vinger"
+				}
 				b_jessheim = {}
 				b_arnes = {
-					danish = "Arnæs"
+				    danish = "Arnæs"
 				}
 				b_valer = {}
 				b_flisa = {}
 				b_skarnes = {
-					danish = "Skarnæs"
+				    danish = "Skarnæs"
 				}
 				b_kirkenaer = {}
 			}
@@ -1505,6 +1559,7 @@ e_scandinavia = {
 				swedish = "Österdalen"
 				jamta = "Österdalen"
 				scanian = "Österdalen"
+				vestlending = "Austerdalen"
 				
 				b_hamar = {}
 				b_elverum = {}
