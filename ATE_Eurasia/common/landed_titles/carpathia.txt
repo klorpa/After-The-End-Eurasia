@@ -6,11 +6,257 @@ e_carpathia = {
 	
 	capital = 1190 #Bucharest
 	
+	k_transylvania = {
+		color={ 99 20 145 }
+		color2={ 255 255 255 }
+		
+		capital = 1177 # c_cluj
+		culture = romanian
+		
+		d_transylvania = {
+			color={ 119 0 155 }
+			color2={ 255 255 255 }
+			
+			capital = 1177 # c_cluj
+			
+			c_cluj = { # 1177
+				color={ 129 246 160 }
+				color2={ 255 255 255 }
+				
+				b_floresti = {
+				}
+				b_cluj_napoca = {
+				}
+				b_zalau = {
+				}
+				b_turda = {
+				}
+				b_dej = {
+				}
+				b_campia_turzii = {
+				}
+				b_gherla = {
+				}
+			}
+			c_brasov = { # 1180
+				color={ 195 121 107 }
+				color2={ 255 255 255 }
+				
+				b_ghimbav = {
+				}
+				b_brasov = {
+				}
+				b_sibiu = {
+				}
+				b_medias = {
+				}
+				b_sacele = {
+				}
+				b_fagaras = {
+				}
+				b_codlea = {
+				}
+			}
+			c_harghita = { # 1179
+				color={ 198 173 103 }
+				color2={ 255 255 255 }
+				
+				b_miercurea_ciuc = {
+				}
+				b_sfantu_gheorghe = {
+				}
+				b_odorheiu_secuiesc = {
+				}
+				b_gheorgheni = {
+				}
+				b_targu_secuiesc = {
+				}
+				b_toplita = {
+				}
+				b_cristuru_secuiesc = {
+				}
+			}
+			c_hunedoara = { # 1181
+				color={ 210 145 252 }
+				color2={ 255 255 255 }
+				
+				b_hunedoara = {
+				}
+				b_deva = {
+				}
+				b_alba_iulia = {
+				}
+				b_petrosani = {
+				}
+				b_sebes = {
+				}
+				b_aiud = {
+				}
+				b_vulcan = {
+				}
+			}
+			c_mures = { # 1178
+				color={ 255 215 26 }
+				color2={ 255 255 255 }
+				
+				b_sancraiu_de_mures = {
+				}
+				b_targu_mures = {
+				}
+				b_bistrita = {
+				}
+				b_reghin = {
+				}
+				b_sighisoara = {
+				}
+				b_tarnaveni = {
+				}
+				b_ludus = {
+				}
+			}
+		}
+		d_banat = {
+			color={ 73 193 87 }
+			color2={ 255 255 255 }
+			
+			capital = 1183 # c_timis
+			
+			c_timis = { # 1183
+				color={ 63 203 82 }
+				color2={ 255 255 255 }
+				
+				b_giroc = {
+				}
+				b_timisoara = {
+				}
+				b_lugoj = {
+				}
+				b_sannicolau_mare = {
+				}
+				b_jimbolia = {
+				}
+				b_recas = {
+				}
+				b_faget = {
+				}
+			}
+			c_caras_severin = { # 1184
+				color={ 132 158 25 }
+				color2={ 255 255 255 }
+				
+				b_caransebes = {
+				}
+				b_resita = {
+				}
+				b_bocsa = {
+				}
+				b_moldova_noua = {
+				}
+				b_oravita = {
+				}
+				b_otelu_rosu = {
+				}
+				b_anina = {
+				}
+			}
+		}
+		d_crisana = {
+			color={ 214 216 92 }
+			color2={ 255 255 255 }
+			
+			capital = 1176 # c_bihor
+			
+			c_bihor = { # 1176
+				color={ 224 206 97 }
+				color2={ 255 255 255 }
+				
+				b_santandrei = {
+				}
+				b_oradea = {
+				}
+				b_salonta = {
+				}
+				b_marghita = {
+				}
+				b_beius = {
+				}
+				b_sacueni = {
+				}
+				b_alesd = {
+				}
+			}
+			c_arad = { # 1182
+				color={ 171 47 130 }
+				color2={ 255 255 255 }
+				
+				b_vladimirescu = {
+				}
+				b_arad = {
+				}
+				b_pecica = {
+				}
+				b_santana = {
+				}
+				b_lipova = {
+				}
+				b_ineu = {
+				}
+				b_chisineu_cris = {
+				}
+			}
+		}
+		d_maramures = {
+			color={ 120 124 88 }
+			color2={ 255 255 255 }
+			
+			capital = 1175 # c_maramures
+			
+			c_maramures = { # 1175
+				color={ 110 134 83 }
+				color2={ 255 255 255 }
+				
+				b_baia_mare = {
+				}
+				b_satu_mare = {
+				}
+				b_sighetu_marmatiei = {
+				}
+				b_carei = {
+				}
+				b_viseu_de_sus = {
+				}
+				b_baia_sprie = {
+				}
+				b_negresti_oas = {
+				}
+			}
+			c_transcarpathia = { # 893
+				color={ 73 161 144 }
+				color2={ 255 255 255 }
+				
+				b_serednie = {
+				}
+				b_uzhhorod = {
+				}
+				b_mukachevo = {
+				}
+				b_khust = {
+				}
+				b_vynohradiv = {
+				}
+				b_berehove = {
+				}
+				b_svaliava = {
+				}
+			}
+		}
+	}
+	
 	k_bessarabia = {
 		color={ 249 144 94 }
 		color2={ 255 255 255 }
 		
-		capital = 937 #Izmail
+		capital = 866 #Chisinau
 		
 		rhenish="Bessarabien"
 		low_saxon="Bessarabien"
