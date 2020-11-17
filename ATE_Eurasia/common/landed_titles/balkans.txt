@@ -1,0 +1,389 @@
+###### AUTO GENERATED CONTENT (c) CKTools v19 ######
+
+
+
+e_balkans = {
+	color={ 161 217 20 }
+	color2={ 255 255 20 }
+	
+	capital = 1372 # c_sofia
+	culture = bulgarian
+	
+	k_bulgaria = {
+		color={ 151 227 15 }
+		color2={ 255 255 255 }
+		
+		capital = 1372 # c_sofia
+		culture = bulgarian
+		
+		d_sofia = {
+			color={ 131 247 5 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1371 province_id = 1372 province_id = 1383 } }
+				}
+			}
+			capital = 1372 # c_sofia
+			
+			c_sofia = { # 1372
+				color={ 121 1 0 }
+				color2={ 255 255 255 }
+				
+				b_largo = {
+				}
+				b_lyulin = {
+				}
+				b_samokov = {
+				}
+				b_mladost = {
+				}
+				b_poduyane = {
+				}
+				b_nadezhda = {
+				}
+				b_svoge = {
+				}
+			}
+			c_blagoevgrad = { # 1383
+				color={ 106 0 124 }
+				color2={ 255 255 255 }
+				
+				b_blagoevgrad = {
+				}
+				b_petrich = {
+				}
+				b_sandanski = {
+				}
+				b_gotse_delchev = {
+				}
+				b_razlog = {
+				}
+				b_satovcha = {
+				}
+				b_garmen = {
+				}
+			}
+			c_pernik = { # 1371
+				color={ 104 223 100 }
+				color2={ 255 255 255 }
+				
+				b_pernik = {
+				}
+				b_kyustendil = {
+				}
+				b_dupnitsa = {
+				}
+				b_radomir = {
+				}
+				b_bobov_dol = {
+				}
+				b_sapareva_banya = {
+				}
+				b_breznik = {
+				}
+			}
+		}
+		d_chernomorie = {
+			color={ 152 248 58 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 311 province_id = 312 province_id = 313 } }
+				}
+			}
+			capital = 312 # c_varna
+			
+			c_varna = { # 312
+				color={ 162 238 63 }
+				color2={ 255 255 255 }
+				
+				b_batak = {
+				}
+				b_varna = {
+				}
+				b_provadia = {
+				}
+				b_aksakovo = {
+				}
+				b_dolfni_chiflik = {
+				}
+				b_dalgopol = {
+				}
+				b_beloslav = {
+				}
+			}
+			c_burgas = { # 311
+				color={ 133 42 228 }
+				color2={ 255 255 255 }
+				
+				b_burgas = {
+				}
+				b_aytos = {
+				}
+				b_ruen = {
+				}
+				b_pomorie = {
+				}
+				b_karnobat = {
+				}
+				b_nesebar = {
+				}
+				b_sredets = {
+				}
+			}
+			c_dobrich = { # 313
+				color={ 237 36 75 }
+				color2={ 255 255 255 }
+				
+				b_dobrich = {
+				}
+				b_dobrichka = {
+				}
+				b_balchik = {
+				}
+				b_tervel = {
+				}
+				b_general_toshevo = {
+				}
+				b_kavarna = {
+				}
+				b_shabla = {
+				}
+			}
+		}
+		d_dunavska_ravina = {
+			color={ 150 251 200 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1380 province_id = 1381 province_id = 1382 } }
+				}
+			}
+			capital = 1381 # c_pleven
+			
+			c_pleven = { # 1381
+				color={ 140 5 195 }
+				color2={ 255 255 255 }
+				
+				b_slavyanovo = {
+				}
+				b_pleven = {
+				}
+				b_vratsa = {
+				}
+				b_cherven_bryag = {
+				}
+				b_byala_slatina = {
+				}
+				b_levski = {
+				}
+				b_kozloduy = {
+				}
+			}
+			c_lovech = { # 1380
+				color={ 208 136 165 }
+				color2={ 255 255 255 }
+				
+				b_lovech = {
+				}
+				b_botevgrad = {
+				}
+				b_troyan = {
+				}
+				b_teteven = {
+				}
+				b_lukovit = {
+				}
+				b_etropole = {
+				}
+				b_pravets = {
+				}
+			}
+			c_vidin = { # 1382
+				color={ 229 102 172 }
+				color2={ 255 255 255 }
+				
+				b_vidin = {
+				}
+				b_montana = {
+				}
+				b_lom = {
+				}
+				b_berkovitsa = {
+				}
+				b_valchedram = {
+				}
+				b_dimovo = {
+				}
+				b_varshets = {
+				}
+			}
+		}
+		d_ruse = {
+			color={ 237 151 186 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1377 province_id = 1378 province_id = 1379 } }
+				}
+			}
+			capital = 1378 # c_ruse
+			
+			c_ruse = { # 1378
+				color={ 247 141 191 }
+				color2={ 255 255 255 }
+				
+				b_marten = {
+				}
+				b_ruse = {
+				}
+				b_silistra = {
+				}
+				b_razgrad = {
+				}
+				b_dulovo = {
+				}
+				b_isperih = {
+				}
+				b_tutrakan = {
+				}
+			}
+			c_shumen = { # 1377
+				color={ 227 150 95 }
+				color2={ 255 255 255 }
+				
+				b_ivanski = {
+				}
+				b_shumen = {
+				}
+				b_targovishte = {
+				}
+				b_popovo = {
+				}
+				b_omurtag = {
+				}
+				b_novi_pazar = {
+				}
+				b_veliki_preslav = {
+				}
+			}
+			c_veliko_tarnovo = { # 1379
+				color={ 167 173 250 }
+				color2={ 255 255 255 }
+				
+				b_veliko_tarnovo = {
+				}
+				b_gabrovo = {
+				}
+				b_svishtov = {
+				}
+				b_gorna_oryahovitsa = {
+				}
+				b_sevlievo = {
+				}
+				b_pavlikeni = {
+				}
+				b_polski_trambesh = {
+				}
+			}
+		}
+		d_trakiyska_nizina = {
+			color={ 210 222 159 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1374 province_id = 1375 province_id = 1376 province_id = 1384 } }
+				}
+			}
+			capital = 1374 # c_plovdiv
+			
+			c_plovdiv = { # 1374
+				color={ 220 212 164 }
+				color2={ 255 255 255 }
+				
+				b_kamenitsa = {
+				}
+				b_plovdiv = {
+				}
+				b_pazardzhik = {
+				}
+				b_asenovgrad = {
+				}
+				b_karlovo = {
+				}
+				b_velingrad = {
+				}
+				b_rodopi = {
+				}
+			}
+			c_kardzhali = { # 1384
+				color={ 93 162 35 }
+				color2={ 255 255 255 }
+				
+				b_kardzhali = {
+				}
+				b_smolyan = {
+				}
+				b_kirkovo = {
+				}
+				b_krumovgrad = {
+				}
+				b_momchilgrad = {
+				}
+				b_ardino = {
+				}
+				b_devin = {
+				}
+			}
+			c_sliven = { # 1376
+				color={ 192 193 90 }
+				color2={ 255 255 255 }
+				
+				b_sliven = {
+				}
+				b_yambol = {
+				}
+				b_nova_zagora = {
+				}
+				b_tundzha = {
+				}
+				b_kotel = {
+				}
+				b_elhovo = {
+				}
+				b_tvarditsa = {
+				}
+			}
+			c_stara_zagora = { # 1375
+				color={ 159 44 20 }
+				color2={ 255 255 255 }
+				
+				b_stara_zagora = {
+				}
+				b_haskovo = {
+				}
+				b_harmanli = {
+				}
+				b_svilengrad = {
+				}
+				b_chirpan = {
+				}
+				b_radnevo = {
+				}
+				b_pavel_banya = {
+				}
+			}
+		}
+	}
+}

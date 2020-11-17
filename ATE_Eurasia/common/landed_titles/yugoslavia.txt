@@ -1,0 +1,639 @@
+###ÄNSI###
+
+e_yugoslavia = {
+	color={ 56 167 97 }
+	color2={ 255 255 255 }
+	capital = 27 # London REPLACE
+	
+	croatian = "Jugoslavija" 
+
+	# Creation/usurpation trigger
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture = south_slavic
+			}
+		}
+	}
+	k_croatia = {
+		color={ 56 58 97 }
+		color2={ 56 58 97 }
+		capital = 1001 # Hartera
+		dignity = 2 # Counted as having this many more counties than it does
+		
+		croatian = "Hrvatska"
+		
+		d_kvarner = {
+			color={ 241 90 35 }
+			color2={ 255 255 255 }
+			capital = 322 # Uljanik
+			
+			c_uljanik = {
+				color={ 241 90 35 }
+				color2={ 255 255 255 }
+				croatian = "Uljanik"
+				
+				b_uljanik = {}
+				b_pula = {}
+				b_rovinj = {
+					lombard = "Rovigno"
+					umbrian = "Ruginium"
+				}
+				b_brijuni = {
+					lombard = "Brioni"
+				}
+			}
+			
+			c_hartera = {
+				color={ 24 66 130 }
+				color2={ 255 255 255 }
+				croatian = "Hartera"
+				
+				b_rijeka = {}
+				b_opatija = {
+					austrian = "Sankt Jakobi"
+					lombard = "Abbazia"
+				}
+				b_labinstina = {}
+				b_podhum = {}
+			}
+			
+			c_crikvenica = {
+				color={ 4 70 80 }
+				color2={ 255 255 255 }
+				croatian = "Crikvenica"
+				
+				b_crikvenica = {}
+			}
+			
+			c_kvarnerska_ostrva = {
+				color={ 124 45 200 }
+				color2={ 255 255 255 }
+				croatian = "Krk-Cres-Losinj"
+				
+				b_krk = {}
+				b_losinj = {
+					lombard = "Lussino"
+					venetian = "Lusin"
+					austrian = "Lötzing"
+					umbrian = "Apsorrus"
+				}
+			}
+			
+			c_bagat = {
+				color={ 90 44 110 }
+				color2={ 255 255 255 }
+				croatian = "Bagat"
+				
+				b_bagat_2 = {}
+				b_zadar = {}
+				b_velebitgrad = {}
+			}
+			
+			c_josipovina = {
+				color={ 10 150 39 }
+				color2={ 255 255 255 }
+				croatian = "Josipovina"
+				
+				b_gospic = {}
+			}
+			
+			c_krka = {
+				color={ 0 123 200 }
+				color2={ 255 255 255 }
+				croatian = "Krka"
+				
+				b_sibenik = {}
+				
+				b_knin = {}
+			}
+			
+			c_dinara = {
+				color={ 90 95 0 }
+				color2={ 255 255 255 }
+				croatian = "Dinara"
+				
+				b_sinj = {}
+			}
+			
+			c_plitvice = {
+				color={ 5 195 0 }
+				color2={ 255 255 255 }
+				croatian = "Plitvice"
+				
+				b_slunj = {
+					hungarian = "Szluin"
+					austrian = "Sluin"
+					umbrian = "Slovin"
+				}
+			}
+			
+			c_split = {
+				color={ 50 20 100 }
+				color2={ 255 255 255 }
+				croatian = "Split"
+				
+				b_jugoplastika = {}
+				b_split = {}
+				b_dugi_rat = {}
+				b_pomorac = {}
+			}
+			
+			c_pokuplje = {
+				color={ 55 104 25 }
+				color2={ 255 255 255 }
+				croatian = "Pokuplje"
+				
+				b_zvijezda = {}
+				b_karlovac = {}
+			}
+			
+			c_zeljezara = {
+				color={ 1 100 200 }
+				color2={ 255 255 255 }
+				croatian = "Željezara"
+				
+				b_zeljezara = {}
+				b_rafinerija = {}
+				b_bjelovar = {
+					hungarian = "Belovár"
+					austrian = "Bellowar"
+				}
+			}
+			
+			c_prigorje = {
+				color={ 53 1 1 }
+				color2={ 255 255 255 }
+				croatian = "Prigorje"
+				
+				b_medvedgrad = {
+					hungarian = "Medvevár"
+				}
+				b_zagreb = {}
+				b_gorica = {}
+				b_ples = {}
+			}
+			
+			c_medjimurje = {
+				color={ 150 40 70 }
+				color2={ 255 255 255 }
+				croatian = "Medjimurje"
+				
+				b_cakovec = {}
+				b_varazdin = {}
+				b_krapina = {}
+			}
+		}
+	}
+	k_bosnia = {
+		color={ 200 150 20 }
+		color2={ 200 150 20 }
+		capital = 1160 # Kranjska
+		dignity = 2 # Counted as having this many more counties than it does
+		
+		bosniak = "Bosna"
+		
+		d_krajina = {
+			color={ 158 126 49 }
+			color2={ 255 255 255 }
+			capital = 1009 # Boska
+			
+			c_bihac = {
+				color={ 235 144 50 }
+				color2={ 255 255 255 }
+				croatian = "Bihac"
+				
+				b_bihac = {}
+				b_cazin = {}
+			}
+			
+						
+			c_boska = {
+				color={ 100 80 5 }
+				color2={ 255 255 255 }
+				croatian = "Boska"
+				
+				b_kastel = {
+					croatian = "Tvrdava"
+					bosniak = "Tvrdava"
+					serbian = "Tvrdava"
+				}
+				b_banja_luka = {}
+				b_kozara = {}
+			}
+		}
+	}
+	
+	k_slovenia = {
+		color={ 180 120 50 }
+		color2={ 180 120 50 }
+		capital = 1160 # Kranjska
+		dignity = 2 # Counted as having this many more counties than it does
+		
+		slovene = "Slovenija"
+		
+		d_slovenia = {
+			color={ 180 120 50 }
+			color2={ 255 255 255 }
+			capital = 1160
+
+			slovene="Slovenija"
+			rhenish="Slowenien"
+			low_saxon="Slowenien"
+			ossi="Slowenien"
+			upper_saxon="Slowenien"
+			bavarian="Slowenien"
+			swabian="Slowenien"
+			austrian="Slowenien"
+			schwyzer="Slowenien"
+			
+			c_trieste = {
+				color={ 24 135 34 }
+				color2={ 255 255 255 }
+
+				croatian="Trst"
+				slovene="Trst"
+				rhenish="Triest"
+				low_saxon="Triest"
+				ossi="Triest"
+				upper_saxon="Triest"
+				bavarian="Triest"
+				swabian="Triest"
+				austrian="Triest"
+				schwyzer="Triest"
+				
+				b_koper = {
+					croatian="Kopar"
+					rhenish="Gafers"
+					low_saxon="Gafers"
+					ossi="Gafers"
+					upper_saxon="Gafers"
+					bavarian="Gafers"
+					swabian="Gafers"
+					austrian="Gafers"
+					schwyzer="Gafers"
+					neapolitan="Capodistria"
+					umbrian="Capodistria"
+					tuscan="Capodistria"
+					sicilian="Capodistria"
+					venetian="Capodistria"
+				}
+				b_trieste = {
+					croatian="Trst"
+					slovene="Trst"
+					rhenish="Triest"
+					low_saxon="Triest"
+					ossi="Triest"
+					upper_saxon="Triest"
+					bavarian="Triest"
+					swabian="Triest"
+					austrian="Triest"
+					schwyzer="Triest"
+				}
+				b_monfalcone = {
+					slovene="Tržic"
+					rhenish="Falkenberg"
+					low_saxon="Falkenberg"
+					ossi="Falkenberg"
+					upper_saxon="Falkenberg"
+					bavarian="Falkenberg"
+					swabian="Falkenberg"
+					austrian="Falkenberg"
+					schwyzer="Falkenberg"
+					venetian="Mofalcòn"
+				}
+				b_muggia = {
+					slovene="Milje"
+					rhenish="Mulgs"
+					low_saxon="Mulgs"
+					ossi="Mulgs"
+					upper_saxon="Mulgs"
+					bavarian="Mulgs"
+					swabian="Mulgs"
+					austrian="Mulgs"
+					schwyzer="Mulgs"
+					venetian="Muja"
+				}
+				b_izola = {
+					neapolitan="Isola"
+					umbrian="Isola"
+					tuscan="Isola"
+					sicilian="Isola"
+					venetian="Isola"
+				}
+				b_duino_aurisina = {
+					slovene="Devin-Nabrežina"
+					rhenish="Thübein-Nabreschin"
+					low_saxon="Thübein-Nabreschin"
+					ossi="Thübein-Nabreschin"
+					upper_saxon="Thübein-Nabreschin"
+					bavarian="Thübein-Nabreschin"
+					swabian="Thübein-Nabreschin"
+					austrian="Thübein-Nabreschin"
+					schwyzer="Thübein-Nabreschin"
+					venetian="Duin-Aurisina"
+				}
+				b_piran = {
+					neapolitan="Pirano"
+					umbrian="Pirano"
+					tuscan="Pirano"
+					sicilian="Pirano"
+					venetian="Pirano"
+				}
+			}
+			c_gorizia = {
+				color={ 174 136 88 }
+				color2={ 255 255 255 }
+				
+				slovene="Goriška"
+				rhenish="Görz"
+				low_saxon="Görz"
+				ossi="Görz"
+				upper_saxon="Görz"
+				bavarian="Görz"
+				swabian="Görz"
+				austrian="Görz"
+				schwyzer="Görz"
+				venetian="Gorisia"
+				
+				b_nova_gorica = {
+					rhenish="Neugörz"
+					low_saxon="Neugörz"
+					ossi="Neugörz"
+					upper_saxon="Neugörz"
+					bavarian="Neugörz"
+					swabian="Neugörz"
+					austrian="Neugörz"
+					schwyzer="Neugörz"
+					neapolitan="Nova Gorizia"
+					umbrian="Nova Gorizia"
+					tuscan="Nova Gorizia"
+					sicilian="Nova Gorizia"
+					venetian="Nova Gorisia"
+				}
+				b_gorizia = {
+					slovene="Gorica"
+					rhenish="Görz"
+					low_saxon="Görz"
+					ossi="Görz"
+					upper_saxon="Görz"
+					bavarian="Görz"
+					swabian="Görz"
+					austrian="Görz"
+					schwyzer="Görz"
+					venetian="Gorisia"
+				}
+				b_gradisca_d_isonzo = {
+					slovene="Gradišce ob Soci"
+					rhenish="Gradis am Sontig"
+					low_saxon="Gradis am Sontig"
+					ossi="Gradis am Sontig"
+					upper_saxon="Gradis am Sontig"
+					bavarian="Gradis am Sontig"
+					swabian="Gradis am Sontig"
+					austrian="Gradis am Sontig"
+					schwyzer="Gradis am Sontig"
+				}
+				b_kobarid = {
+					rhenish="Karfreit"
+					low_saxon="Karfreit"
+					ossi="Karfreit"
+					upper_saxon="Karfreit"
+					bavarian="Karfreit"
+					swabian="Karfreit"
+					austrian="Karfreit"
+					schwyzer="Karfreit"
+					neapolitan="Caporetto"
+					umbrian="Caporetto"
+					tuscan="Caporetto"
+					sicilian="Caporetto"
+					venetian="Caporetto"
+				}
+				b_tolmin = {
+					rhenish="Tolmein"
+					low_saxon="Tolmein"
+					ossi="Tolmein"
+					upper_saxon="Tolmein"
+					bavarian="Tolmein"
+					swabian="Tolmein"
+					austrian="Tolmein"
+					schwyzer="Tolmein"
+					neapolitan="Tolmino"
+					umbrian="Tolmino"
+					tuscan="Tolmino"
+					sicilian="Tolmino"
+					venetian="Tolmino"
+				}
+				b_cerkno = {
+					rhenish="Kirchheim"
+					low_saxon="Kirchheim"
+					ossi="Kirchheim"
+					upper_saxon="Kirchheim"
+					bavarian="Kirchheim"
+					swabian="Kirchheim"
+					austrian="Kirchheim"
+					schwyzer="Kirchheim"
+					neapolitan="Circhina"
+					umbrian="Circhina"
+					tuscan="Circhina"
+					sicilian="Circhina"
+					venetian="Circhina"
+				}
+				b_most_na_soca = {
+					rhenish="Sankt Luzia"
+					low_saxon="Sankt Luzia"
+					ossi="Sankt Luzia"
+					upper_saxon="Sankt Luzia"
+					bavarian="Sankt Luzia"
+					swabian="Sankt Luzia"
+					austrian="Sankt Luzia"
+					schwyzer="Sankt Luzia"
+					neapolitan="Santa Lucia"
+					umbrian="Santa Lucia"
+					tuscan="Santa Lucia"
+					sicilian="Santa Lucia"
+					venetian="Santa Lucia"
+				}
+			}
+			c_carniola = {
+				color={ 106 127 96 }
+				color2={ 255 255 255 }
+
+				croatian="Kranjska"
+				slovene="Kranjska"
+				rhenish="Krain"
+				low_saxon="Krain"
+				ossi="Krain"
+				upper_saxon="Krain"
+				bavarian="Krain"
+				swabian="Krain"
+				austrian="Krain"
+				schwyzer="Krain"
+				
+				b_kranj = {
+					rhenish="Krainburg"
+					low_saxon="Krainburg"
+					ossi="Krainburg"
+					upper_saxon="Krainburg"
+					bavarian="Krainburg"
+					swabian="Krainburg"
+					austrian="Krainburg"
+					schwyzer="Krainburg"
+					neapolitan="Carnia"
+					umbrian="Carnia"
+					tuscan="Carnia"
+					sicilian="Carnia"
+					venetian="Carnia"
+				}
+				b_ljubljana = {
+					rhenish="Laibach"
+					low_saxon="Laibach"
+					ossi="Laibach"
+					upper_saxon="Laibach"
+					bavarian="Laibach"
+					swabian="Laibach"
+					austrian="Laibach"
+					schwyzer="Laibach"
+					neapolitan="Lubiana"
+					umbrian="Lubiana"
+					tuscan="Lubiana"
+					sicilian="Lubiana"
+					venetian="Lubiana"
+				}
+				b_novo_mesto = {
+					rhenish="Rudolfswerth"
+					low_saxon="Rudolfswerth"
+					ossi="Rudolfswerth"
+					upper_saxon="Rudolfswerth"
+					bavarian="Rudolfswerth"
+					swabian="Rudolfswerth"
+					austrian="Rudolfswerth"
+					schwyzer="Rudolfswerth"
+				}
+				b_kamnik = {
+					rhenish="Stein in Oberkrain"
+					low_saxon="Stein in Oberkrain"
+					ossi="Stein in Oberkrain"
+					upper_saxon="Stein in Oberkrain"
+					bavarian="Stein in Oberkrain"
+					swabian="Stein in Oberkrain"
+					austrian="Stein in Oberkrain"
+					schwyzer="Stein in Oberkrain"
+				}
+				b_jesenice = {
+					rhenish="Assling"
+					low_saxon="Assling"
+					ossi="Assling"
+					upper_saxon="Assling"
+					bavarian="Assling"
+					swabian="Assling"
+					austrian="Assling"
+					schwyzer="Assling"
+				}
+				b_domzale = {
+					rhenish="Domschale"
+					low_saxon="Domschale"
+					ossi="Domschale"
+					upper_saxon="Domschale"
+					bavarian="Domschale"
+					swabian="Domschale"
+					austrian="Domschale"
+					schwyzer="Domschale"
+				}
+				b_skofja_loka = {
+					rhenish="Bischoflack"
+					low_saxon="Bischoflack"
+					ossi="Bischoflack"
+					upper_saxon="Bischoflack"
+					bavarian="Bischoflack"
+					swabian="Bischoflack"
+					austrian="Bischoflack"
+					schwyzer="Bischoflack"
+				}
+			}
+			c_drava_mura = {
+				color={ 180 123 185 }
+				color2={ 255 255 255 }
+
+				austrian="Drau-Mur"
+				
+				b_celje = {
+					rhenish="Cilli"
+					low_saxon="Cilli"
+					ossi="Cilli"
+					upper_saxon="Cilli"
+					bavarian="Cilli"
+					swabian="Cilli"
+					austrian="Cilli"
+					schwyzer="Cilli"
+					neapolitan="Cilli"
+					umbrian="Cilli"
+					tuscan="Cilli"
+					sicilian="Cilli"
+					venetian="Cilli"
+				}
+				b_maribor = {
+					rhenish="Marburg an der Drau"
+					low_saxon="Marburg an der Drau"
+					ossi="Marburg an der Drau"
+					upper_saxon="Marburg an der Drau"
+					bavarian="Marburg an der Drau"
+					swabian="Marburg an der Drau"
+					austrian="Marburg an der Drau"
+					schwyzer="Marburg an der Drau"
+				}
+				b_velenje = {
+					rhenish="Wöllan"
+					low_saxon="Wöllan"
+					ossi="Wöllan"
+					upper_saxon="Wöllan"
+					bavarian="Wöllan"
+					swabian="Wöllan"
+					austrian="Wöllan"
+					schwyzer="Wöllan"
+				}
+				b_ptuj = {
+					rhenish="Pettau"
+					low_saxon="Pettau"
+					ossi="Pettau"
+					upper_saxon="Pettau"
+					bavarian="Pettau"
+					swabian="Pettau"
+					austrian="Pettau"
+					schwyzer="Pettau"
+				}
+				b_trbovlje = {
+					rhenish="Trifail"
+					low_saxon="Trifail"
+					ossi="Trifail"
+					upper_saxon="Trifail"
+					bavarian="Trifail"
+					swabian="Trifail"
+					austrian="Trifail"
+					schwyzer="Trifail"
+				}
+				b_murska_sobota = {
+					rhenish="Olsnitz"
+					low_saxon="Olsnitz"
+					ossi="Olsnitz"
+					upper_saxon="Olsnitz"
+					bavarian="Olsnitz"
+					swabian="Olsnitz"
+					austrian="Olsnitz"
+					schwyzer="Olsnitz"
+				}
+				b_slovenj_gradec = {
+					rhenish="Windischgraz"
+					low_saxon="Windischgraz"
+					ossi="Windischgraz"
+					upper_saxon="Windischgraz"
+					bavarian="Windischgraz"
+					swabian="Windischgraz"
+					austrian="Windischgraz"
+					schwyzer="Windischgraz"
+				}
+			}
+		}
+	}
+}
