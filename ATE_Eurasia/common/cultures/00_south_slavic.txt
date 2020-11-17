@@ -159,6 +159,74 @@ south_slavic = {
 		mother_name_chance = 5
 		
 	}
+	
+	bulgarian = {
+		graphical_cultures = { serbsouthslavicgfx }
+		
+		color = { 0.1 0.59 0.43 }
+
+		male_names = {
+			Aleksandar_Alexander Aleksi_Alexis Alusian Anastas_Anastasius Andrey_Andrew Andronik_Andronicus Angel Anton_Anthony Aron_Aaron Asen Asparuh Atanas_Athanasius Avitohol 
+			Blagovest Blagoy Bogomil Bogoris Boril Boris Borislav Boyan Boyko Bozhidar 
+			Damyan_Damian Daniel David Deyan Dimitar_Demetrius Dimo_Demetrius Diyan Dobrin Dobromir Dragan Dragomir 
+			Emanuil_Emmanuel Emil Evgeni_Eugene Evlogi_Euloge Evtim_Euthymius 
+			Ferdinand Filip_Philip Fruzhin 
+			Galin Gavril_Gabriel Georgi_George Gerasim_Gerasimos Gospodin Gostun Grigor_Gregory Grozdan 
+			Hristo_Christopher Hristofor_Christopher 
+			Ignat_Ignatius Iliya_Elias Ioan_John Irnik Iskren Ivan_John Ivaylo Ivelin Ivo 
+			Kaliman Kalin Kaloyan Kamen Kardam Kimon Kiril_Cyril Kliment_Clement Kolyo Komnin Konstantin_Constantine Kormesiy Kormisosh Kosta_Constans Kostadin_Constantine Krasen Krasimir Kristiyan_Christian Krum 
+			Lazar_Lazarus Luchezar Lyuben Lyubomir Lyudmil 
+			Maksim_Maximus Malamir Malin Marian Marin_Marinus Mario_Marius Marko_Marcus Martin Matey_Matthew Metodi_Methodius Mikhail_Michael Milen Miroslav Mitko_Demetrius Mitso Mladen Momchil Moysey_Moses 
+			Nayden Nasko Nedelcho Nedko Nedyalko Nikola_Nicholas Nikolay_Nicholas 
+			Ognyan Omurtag Orlin 
+			Pagan Parvan Pavel_Paul Panayot Pavlin Petar_Peter Petko Plamen Presiyan 
+			Radko Radomir Radoslav Radostin Rangel Roman Rosen Rumen Ruslan 
+			Samuil_Samuel Sergey_Sergius Sevar Shishman Simeon_Simon Slavko Smilets Spas Sratsimir Stanimir Stefan_Stephen Stiliyan Stoyan Svetlozar Svetoslav_Sviatoslav Svilen 
+			Telerig Telets Tervel Theodosii_Theodosius Tihomir Todor_Theodore Toktu Trayan_Trajan Trifon Tsanko Tsvetan Tsvetko Tsvetomir Tsvyatko 
+			Valentin Valeri_Valerius Valko Vasil_Basil Velichko Venelin Ventsislav_Wenceslaus Veselin Viktor_Victor Vineh Vladimir Vladislav 
+			Yanislav Yasen Yavor Yordan_Jordan Yosif_Joseph Yulian_Julian Yuri_George 
+			Zakhari_Zachary Zdravko Zhelyazko Zhelyu Zhivko Zlatan Zlatomir 
+		}
+		female_names = {
+			Agata_Agatha Albena Aleksandra_Alexandra Ana_Anne Anastasia Aneliya Aneta Anna_Anne Angelina_Angela Antoaneta_Antonia Antoniya_Antonia Atanaska Asya 
+			Beloslava Bisera Bistra Blagovesta Bogdana Boyana Boyka Boryana Boyana 
+			Daniela Darina Desislava Detelina Deyana Dilyana Dimitrina Diyana_Diana Dobromira Doroslava Doroteya_Dorothy Dragomira 
+			Ekaterina_Catherine Elena_Helen Eleonora_Eleanor Elisaveta_Elizabeth Elitsa_Elisa Emanuela Emiliya_Emily Evgeniya_Eugenia Evdokiya_Eudokia Evelina_Evelyne 
+			Filipa_Philippa 
+			Gabriela_Gabrielle Galina Gergana_Georgia Greta Grozdana 
+			Hristina_Christina 
+			Iliana Ilona_Helen Ina Irina_Irene Iskra Ivana_Joan Ivanina_Joan Ivanka_Joan Ivelina Ivet_Yvette 
+			Kalina Kameliya_Camelia Keratsa Kostadinka_Constantina Krasimira Kremena  
+			Lazarina Liliya_Lily Lina Lora_Laura Lyuba Lyubomira Lyubov Lyudmila 
+			Magdalena_Magdalene Malina Margarita_Margaret Maria_Mary Mariana_Marianne Mariela Marina Mariya_Mary Martina Maya Miglena Mila Milena Miroslava Mladena 
+			Nadezhda Nadya Nataliya_Nathalie Natasha Nevena Neda Nedyalka Nikoleta_Nicolette Nikolina Nina Nora 
+			Ognyana Olga Olimpia_Olympia 
+			Pavlina_Paula Penka Petka Petritsa Petya_Petra Plamena 
+			Radina Radka Radoslava Radostina Radosveta Ralitsa Rayna_Regina Reneta_Renata Roza_Rose Rumena 
+			Sevdalina Silviya_Silvia Slavka Sofiya_Sophia Stanimira Stefana_Stephania Stela_Stella Stoyanka Svetla 
+			Tamara Tanya Tatyana_Tatiana Temenuzhka Todora_Theodora Tina Toma_Thomas Trayana Trendafila Tsanka Tsveta Tsvetomira 
+			Valentina Valeriya_Valeria Vasilisa Vasilka Velichka Veneta Vesela Viktoriya_Victoria Violeta_Violet Vyara_Vera 
+			Yanislava Yordanka Yulia_Julia Yuliana_Juliana 
+			Zdravka Zara Zhasmina_Jasmine Zhelyazka Zhenya Zhivka Zlatka Zlatomira Zorka Zornitsa Zoya_Zoe 
+		}
+		
+		from_dynasty_prefix = "ot "
+		
+		male_patronym = "ov"
+		female_patronym = "ova"
+		prefix = no
+
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+	}
 	slovene = {
 		graphical_cultures = { croatsouthslavicgfx }
 		
