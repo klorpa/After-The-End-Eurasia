@@ -433,7 +433,7 @@ narrative_event = {
 	}
 }
 
- Restoration of Iraq
+# Restoration of Iraq
 narrative_event = {
 	id = ottoman.11
 	title = EVTNAMEottoman.11
@@ -474,40 +474,46 @@ narrative_event = {
 }
 
 # Restoration of Rumelia
-#narrative_event = {
-#	id = ottoman.12
-#	title = EVTNAMEottoman.12
-#	desc = EVTDESCottoman.12
-#	
-#	picture = GFX_victory_march_ottoman
-#	
-#	ai = no
-#	
-#	trigger = {
-#		has_dlc = "Legacy of Rome"
-#		is_alternate_start = no
-#		OR = {
-#			has_landed_title = e_turkey
-#			has_landed_title = e_ottoman_empire
-#		}
-#		OR = { 
-#				religion = nizami
-#				religion = ruhi
-#		}
-#		NOT = { has_global_flag = rumelia }
-#		completely_controls = d_attica
-#	}
-#	
-#	mean_time_to_happen = {
-#		days = 1
-#	}
-#	
-#	option = {
-#		name = EVTOPTAottoman.12
-#		set_global_flag = rumelia
-#		prestige = 100
-#	}
-#}
+narrative_event = {
+	id = ottoman.12
+	title = EVTNAMEottoman.12
+	desc = EVTDESCottoman.12
+	
+	picture = GFX_victory_march_ottoman
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		NOT = { has_global_flag = rumelia }
+		completely_controls = d_dobruja
+		completely_controls = d_sofia
+		completely_controls = d_chernomorie
+		completely_controls = d_dunavska_ravina
+		completely_controls = d_ruse
+		completely_controls = d_trakiyska_nizina
+		#More duchies will be added when they exist
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.12
+		set_global_flag = rumelia
+		prestige = 100
+	}
+}
 
 # Restoration of Yugoslavya
 narrative_event = {
@@ -533,7 +539,9 @@ narrative_event = {
 		NOT = { has_global_flag = yugoslavia }
 		completely_controls = d_kvarner
 		completely_controls = d_krajina
-		completely_controls = d_slovenia
+		completely_controls = d_belgrade
+		completely_controls = d_nis
+		completely_controls = d_vojvodina
 		#More duchies will be added when they exist
 	}
 	
@@ -548,7 +556,7 @@ narrative_event = {
 	}
 }
 
- Conquest of Mohac
+# Conquest of Mohac
 narrative_event = {
 	id = ottoman.14
 	title = EVTNAMEottoman.14
@@ -721,7 +729,7 @@ narrative_event = {
 				narrative_event = { id = ottoman.21 }
 			}
 		}
-		add_trait = sultan_khan
+		add_trait = sultan_han
 		give_nickname = nick_the_glorious
 		if = { #New Imperial Bloodline. (male)
 				limit = { 
@@ -962,9 +970,9 @@ narrative_event = {
 	}
 }
 
-### The Sultan Khan Trait
+### The Sultan Han Trait
 
-# Sultan Khan Trait Gained
+# Sultan Han Trait Gained
 narrative_event = {
 	id = ottoman.45
 	title = EVTNAMEottoman.45
@@ -988,7 +996,7 @@ narrative_event = {
 	
 	trigger = {
 		has_landed_title = e_ottoman_empire
-		NOT = { trait = sultan_khan }
+		NOT = { trait = sultan_han }
 	}
 	
 	is_triggered_only = yes
@@ -996,7 +1004,7 @@ narrative_event = {
 	
 	option = {
 		name = EVTOPTAottoman.45
-		add_trait = sultan_khan
+		add_trait = sultan_han
 	}
 }
 
@@ -1010,7 +1018,7 @@ character_event = {
 	has_global_flag = ottoman_restored
 		
 	trigger = {
-		trait = sultan_khan
+		trait = sultan_han
 		NOT = { has_landed_title = e_ottoman_empire }
 		is_alive = yes
 	}
@@ -1019,7 +1027,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTAottoman.46
-		remove_trait = sultan_khan
+		remove_trait = sultan_han
 	}
 }
 
@@ -1055,7 +1063,7 @@ character_event = {
 	
 	trigger = {
 		FROM = { title = e_ottoman_empire }
-		NOT = { trait = sultan_khan }
+		NOT = { trait = sultan_han }
 	}
 	
 	is_triggered_only = yes
