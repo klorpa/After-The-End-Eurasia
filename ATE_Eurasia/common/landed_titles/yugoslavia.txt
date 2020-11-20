@@ -837,4 +837,83 @@ e_yugoslavia = {
 			}
 		}
 	}
+	
+	k_montenegro = {
+		color={ 92 227 211 }
+		color2={ 255 255 255 }
+		
+		capital = 418 # c_podgorica
+		culture = montenegrin
+		
+		d_montenegro = {
+			color={ 112 207 221 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 2000 province_id = 2001 province_id = 2002 } }
+				}
+			}
+			capital = 418 # c_podgorica
+			
+			c_podgorica = { # 418
+				color={ 122 197 226 }
+				color2={ 255 255 255 }
+				
+				b_nova_varos = {
+				}
+				b_podgorica = {
+				}
+				b_niksic = {
+				}
+				b_danilovgrad = {
+				}
+				b_kolasin = {
+				}
+				b_golubovci = {
+				}
+				b_tuzi = {
+				}
+			}
+			c_bar = { # 320
+				color={ 253 41 251 }
+				color2={ 255 255 255 }
+				
+				b_bar = {
+				}
+				b_herceg_novi = {
+				}
+				b_kotor = {
+				}
+				b_budva = {
+				}
+				b_ulcinj = {
+				}
+				b_cetinje = {
+				}
+				b_tivat = {
+				}
+			}
+			c_bijelo_polje = { # 419
+				color={ 170 88 83 }
+				color2={ 255 255 255 }
+				
+				b_bijelo_polje = {
+				}
+				b_berane = {
+				}
+				b_pljevlja = {
+				}
+				b_rozaje = {
+				}
+				b_plav = {
+				}
+				b_mojkovac = {
+				}
+				b_petnjica = {
+				}
+			}
+		}
+	}
 }

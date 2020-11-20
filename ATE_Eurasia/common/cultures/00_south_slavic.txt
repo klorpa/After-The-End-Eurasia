@@ -160,6 +160,71 @@ south_slavic = {
 		
 	}
 	
+	montenegrin = {
+		graphical_cultures = { serbsouthslavicgfx }
+		
+		color = { 0.77 0.01 0.02 }
+
+		male_names = {
+			Aco Adam Aleksa_Alexis Aleksandar_Alexander Aleksej_Alexis Aljoša Andrej_Andrew Andrija_Andrew Antonije_Anthony Arsenije_Arsene 
+			Balša Berislav Blagoje Blažo Bogdan Boris Boško Božidar Branimir Branko 
+			Chedo 
+			Dalibor Damir Damjan_Damian Danijel_Daniel Danilo_Daniel Darko David Davor Dejan Denis Despot Dimitrije_Demetrius Djordje_George Djuradj_George Dobroslav Dragan Dragiša Dragoljub Dragomir Draško Dušan Duško 
+			Evgenije_Eugene 
+			Filip_Philip 
+			Gavrilo_Gabriel Gojko Goran 
+			Ignjat_Ignatius Igor Ilija_Elias Irnes Ivan_John 
+			Jakov_Jacob Jakša_Jacob Janko Jevrem_Ephraim Jovan_John 
+			Konstantin_Constantine Kosta_Constans Kristijan_Christian Krsto 
+			Lav_Leo Lazar_Lazarus Leon_Leo Ljubo Lubomir Luka_Lucas 
+			Maksim_Maximus Marinko Mario_Marius Marko_Mark Martin Matej_Matthew Mateja_Matthew Matija_Matthew Mihailo_Michael Mihajlo_Michael Mijat Miladin Milan Milivoj Milo Milorad Miloš Milovan Milutin Miodrag Mirko Miroslav Mladen Momchilo_Momchil 
+			Nebojša Nemanja Nenad Nikanor Nikola_Nicholas Nikolaj_Nicholas Nikša_Nicholas Njegoš Novak Novica 
+			Ognjen_Ognyan Oleg Ostoje 
+			Pavle_Paul Peko Petar_Peter Predrag 
+			Radich Radivoj Radoje Radomir Radovan Ranko Rastko Ratimir Ratko Relja Risto 
+			Saša_Alexander Sava Sekula Sergej_Sergius Simeon_Simon Simon Slaven Slavko Slavoljub Slobodan Srdjan Sreten Stanimir Stefan_Stephen Stevan_Stephen Stracimir Strahinja Svetozar 
+			Tadej_Thaddeus Tadija_Thaddeus Teodor_Theodore Tihomir Todor_Theodore Tripo 
+			Uglješa Uroš 
+			Vanja Vasilije_Basil Velimir Veljko Vid_Guy Vidak Viktor_Victor Vitomir Vladan Vladimir Vojin Vojo Vujadin Vuk Vukan Vukašin 
+			Zdrvko Željko Živko Zlatan Zoran Zvonimir 
+		}
+		female_names = {
+			Aleksandra_Alexandra Aleksija_Alexia Anastasija_Anastasia Ana_Anne Andjelija_Angela Andjela_Angela Andrea_Andrea Andrijana Angelina_Angela Anika Anja 
+			Biljana Branka 
+			Danica Darija_Daria Djurdja_Georgia Dorotea_Dorothy Draginja Drina Dubravka Dunja 
+			Elena_Helen Ema_Emma Emilija_Emily Eva_Eve 
+			Gojslava Gordana 
+			Hana Helena_Helen 
+			Irena_Irene Irina_Irene Iris Isidora_Isidora Iskra Iva Ivana_Joan 
+			Jana_Joan Janja Jasna Jelena_Helen Jelisaveta_Elizabeth Jevdokija_Eudocia Jovana_Joan Julija_Julia 
+			Kalina Karnela Katarina_Catherine Katja_Catherine Kasija_Cassia Kristina_Christina Krstinja_Christina Kruna Ksenija_Xenia 
+			Lana Lara Lena Lenka Leonora_Eleanor Ljubica Lola 
+			Magdalena_Magdalene Marica Marija_Mary Marta_Martha Martina Maša Matea Mia Mila Milena Milica Mina Minja Miona Mira Mirjana Mišnja Mitra Mladija 
+			Nadja Natalija_Nathalie Nataša_Natasha Nevena Nika Nikolija_Nicole Nikolina_Nicole Nina Nora 
+			Olga Olivera 
+			Petra 
+			Radmila Ružica_Rose 
+			Sara_Sarah Simona Sofia_Sophia Sofija_Sophia Sonja_Sonia Srna Staša_Anastasia Svjetlana_Svetlana 
+			Tamara Tanja Tara Tatjana_Tatiana Tea Teodora_Theodora Tijana 
+			Una 
+			Valentina Vanja Vida Viktorija_Victoria Višnja Vera_Vera Vladana 
+			Zara Zoja_Zoe Zorka  
+		}
+		
+		from_dynasty_prefix = "ot "
+
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+	}
+	
 	bulgarian = {
 		graphical_cultures = { serbsouthslavicgfx }
 		
