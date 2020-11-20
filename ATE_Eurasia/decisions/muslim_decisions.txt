@@ -132,7 +132,7 @@ decisions = {
 			hidden_tooltip = {
 				letter_event = { id = hajj.2 }
 			}
-			set_character_flag = activated_hajj_alaqsa
+			set_character_flag = activated_hajj_albaqi
 			set_character_flag = recent_minor_decision
 			set_character_flag = do_not_disturb
 			
@@ -350,14 +350,14 @@ decisions = {
 		ai_check_interval = 60
 		potential = {
 			is_playable = yes
-			religion = sunni
+			religion_group = muslim
 			NOT = { trait = zair }
 			NOT = { trait = on_ziyara }
 			NOT = { trait = on_hajj }
 			NOT = { trait = hajjaj }
-			NOT = { has_character_flag = preparing_hajj_alaqsa }
-			NOT = { has_character_flag = ramadan }
-			NOT = { has_character_flag = activated_hajj_alaqsa }	
+			NOT = {	has_character_flag = preparing_hajj_ummayad_mosque }
+			NOT = {	has_character_flag = ramadan }
+			NOT = {	has_character_flag = activated_hajj_ummayad_mosque }	
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
@@ -393,10 +393,10 @@ decisions = {
 		}
 		effect = {
 			scaled_wealth = -0.2
-			hidden_tooltip = {
-				letter_event = { id = ummayad.1 }
-			}
-			set_character_flag = activated_ummayad_pilgrimage
+			#hidden_tooltip = {
+			#	letter_event = { id = hajj.3 }
+			#}
+			set_character_flag = activated_hajj_ummayad_mosque
 			set_character_flag = recent_minor_decision
 			set_character_flag = do_not_disturb
 			
