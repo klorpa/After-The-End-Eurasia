@@ -22,17 +22,35 @@ character_event = {
 		232 = {
 			add_province_modifier = { name = landmark_cap_de_creus duration = -1 }
 			}
+		323 = {
+			add_province_modifier = { name = landmark_gravensteen duration = -1 }
+			}
 		326 = {
 			add_province_modifier = { name = landmark_grand_place duration = -1 }
 			}
 		333 = { 
 			add_province_modifier = { name = landmark_keukenhof duration = -1 }
 			}
+		349 = {
+			add_province_modifier = { name = landmark_altona_cemetery duration = -1 }
+			}
+		363 = {
+			add_province_modifier = { name = landmark_ruhrpott_hills duration = -1 }
+			}
+		365 = {
+			add_province_modifier = { name = landmark_drachenfeld duration = -1 }
+			}
+		368 = {
+			add_province_modifier = { name = landmark_kellerwald duration = -1 }
+			}
 		386 = {
 			add_province_modifier = { name = landmark_legoland duration = -1 }
 			}
 		450 = {
 			add_province_modifier = { name = landmark_heidelberg_belt duration = -1 }
+			}
+		513 = { 
+			add_province_modifier = { name = landmark_bryggen duration = -1 }
 			}
 		1496 = {
 			add_province_modifier = { name = landmark_la_bonne_mere duration = -1 }
@@ -42,6 +60,9 @@ character_event = {
 			}
 		1525 = {
 			add_province_modifier = { name = landmark_capbreton_gouf duration = -1 }
+			}
+		1546 = {
+			add_province_modifier = { name = landmark_notre_dame_des_landes duration = -1 }
 			}
 			set_global_flag = landmarks_set
 	}
