@@ -21,12 +21,8 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
-		name = "GFX_pilgrimage_to_alaqsa"
-		texturefile = "gfx/interface/decision_icon_gotoalaqsa.dds"
-	}
-	spriteType = {
-		name = "GFX_pilgrimage_to_albaqi"
-		texturefile = "gfx/interface/decision_icon_gotoalbaqi.dds"
+		name = "GFX_pilgrimage_to_muslim_shrines"
+		texturefile = "gfx/interface/decision_icon_pilgrimage_to_muslim_shrines.dds"
 	}
 	spriteType = {
 		name = "GFX_hajj_to_mecca"
@@ -39,5 +35,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_quran"
 		texturefile = "gfx/interface/inventory/artifacts/quran_med.dds"
+	}
+	spriteType = {
+		name = "GFX_prayermat_small"
+		texturefile = "gfx/interface/inventory/artifacts/prayer_mat_small.dds"
+	}
+	spriteType = {
+		name = "GFX_prayermat"
+		texturefile = "gfx/interface/inventory/artifacts/prayer_mat_normal.dds"
 	}
 }

@@ -168,3 +168,22 @@ ancient_quran = {
 	slot = library
 	picture = "GFX_quran"
 }
+prayer_mat = {
+	monthly_character_piety = 1
+	learning = 3
+
+	active = {
+		OR = {
+			religion_group = muslim
+		}
+	}
+	allowed_gift = {
+		OR = {
+			religion_group = muslim
+		}
+	}
+	quality = 2
+	flags = { religious muslim }
+	stacking = no
+	picture = "GFX_prayermat"
+}
