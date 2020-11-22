@@ -187,3 +187,86 @@ prayer_mat = {
 	stacking = no
 	picture = "GFX_prayermat"
 }
+
+####Neuhumanist Artifacts####
+
+the_coming_enlightenment = {
+	learning = 3
+	local_movement_speed = 0.2
+	plot_power_modifier = 0.1
+	quality = 4
+	flags = { neuhumanist book }
+	active = {
+		AND = {
+			is_adult = yes
+			learning = 8
+			religion = neuhumanist
+			}
+		}
+	allowed_gift = {
+		always = no 
+	}
+	stacking = no
+	picture = "GFX_book_architect_01"
+	slot = library 
+}
+crumbs_of_an_enlightened_work = {
+	learning = 2
+	add_piety_modifier = 0.5
+	add_prestige_modifier = 0.2
+	quality = 3
+	flags = { saint kierkegaard book }
+	active = {
+		AND = {
+			is_adult = yes
+			learning = 6
+			religion = neuhumanist
+			}
+		}
+	allowed_gift = {
+		always = no 
+	}
+	stacking = no 
+	picture = "GFX_book"
+	slot = library
+}
+tractatus_explicatio = {
+	learning = 2
+	intrigue = 3
+	church_opinion = -5
+	quality = 3
+	flags = { neuhumanist book }
+	active = {
+		AND = {
+			is_adult = yes
+			religion = neuhumanist
+			}
+		}
+	allowed_gift = {
+		always = no 
+	}
+	stacking = no 
+	picture = "GFX_book_variant_4"
+	slot = library
+}
+the_spiritual_contract = {
+	stewardship = 1
+	diplomacy = 2
+	global_revolt_risk = -0.15
+	local_revolt_risk = -0.15
+	quality = 4
+	flags = { saint rousseau book }
+	active = {
+		AND = {
+			is_adult = yes
+			religion = neuhumanist
+			learning = 6
+			}
+		}
+	allowed_gift = {
+		always = no 
+	}
+	stacking = no 
+	picture = "GFX_book"
+	slot = library
+}
