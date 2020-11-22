@@ -26,7 +26,7 @@ imperial_ottoman_restoration = {
 			mercenary = no
 		}
 		FROM = {
-			NOT = { religion_group = christian }
+			NOT = { religion_group = muslim }
 		}
 	}
 
@@ -36,15 +36,34 @@ imperial_ottoman_restoration = {
 			de_jure_liege_or_above = k_jordan
 			de_jure_liege_or_above = k_lebanon
 			de_jure_liege_or_above = k_ard_al_muqaddis
+			de_jure_liege_or_above = k_iraq
+			de_jure_liege_or_above = k_syria
 			#Arabia
 			de_jure_liege_or_above = k_hijaz
 			de_jure_liege_or_above = k_bahrayn
+			de_jure_liege_or_above = k_kuwait
+			de_jure_liege_or_above = k_yemen
 			#Misr/Egypt
 			de_jure_liege_or_above = k_egypt
 			#Maghrib
 			de_jure_liege_or_above = k_libya
 			de_jure_liege_or_above = k_tunisia
 			de_jure_liege_or_above = k_algeria
+			#Rumelia (Balkans)
+			de_jure_liege_or_above = k_albania
+			de_jure_liege_or_above = k_bulgaria
+			de_jure_liege_or_above = k_libya
+			#Yugoslavia
+			de_jure_liege_or_above = k_croatia
+			de_jure_liege_or_above = k_bosnia
+			de_jure_liege_or_above = k_slovenia
+			de_jure_liege_or_above = k_serbia
+			de_jure_liege_or_above = k_montenegro
+			#Austria-Hungary
+			de_jure_liege_or_above = k_hungary
+			de_jure_liege_or_above = k_austria
+			#Crimea
+			de_jure_liege_or_above = k_crimea
 		}
 	}
 	

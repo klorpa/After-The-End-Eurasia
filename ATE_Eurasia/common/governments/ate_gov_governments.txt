@@ -198,10 +198,9 @@ feudal_governments = {
 		frame_suffix = "_iqta"
 		title_prefix = "ghazi_government_"
 		potential = {
-			OR = { 
-				religion = nizami
-				religion = sunni #temporary
-				religion = shiite #temporary
+			NAND = { 
+				NOT = {religion = ruhi}
+				religion_group = muslim
 			}
 			NOT = { is_government_potential = colonial_government }
 			NOT = { is_government_potential = roman_imperial_government }
