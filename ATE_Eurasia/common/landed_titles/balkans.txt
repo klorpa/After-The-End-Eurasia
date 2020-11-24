@@ -9,6 +9,79 @@ e_balkans = {
 	capital = 1372 # c_sofia
 	culture = bulgarian
 	
+	k_macedonia = {
+		color={ 153 245 205 }
+		color2={ 255 255 255 }
+		
+		capital = 403 # c_skopje
+		culture = macedonian
+		
+		d_north_macedonia = {
+			color={ 173 225 215 }
+			color2={ 255 255 255 }
+			
+			capital = 403 # c_skopje
+			
+			c_skopje = { # 403
+				color={ 183 215 220 }
+				color2={ 255 255 255 }
+				
+				b_centar = {
+				}
+				b_skopje = {
+				}
+				b_kumanovo = {
+				}
+				b_tetovo = {
+				}
+				b_gostivar = {
+				}
+				b_kriva_palanka = {
+				}
+				b_kratovo = {
+				}
+			}
+			c_pelagonia = { # 382
+				color={ 133 205 193 }
+				color2={ 255 255 255 }
+				
+				b_bitola = {
+				}
+				b_prilep = {
+				}
+				b_ohrid = {
+				}
+				b_kichevo = {
+				}
+				b_struga = {
+				}
+				b_debar = {
+				}
+				b_resen = {
+				}
+			}
+			c_vardar = { # 417
+				color={ 139 118 181 }
+				color2={ 255 255 255 }
+				
+				b_veles = {
+				}
+				b_stip = {
+				}
+				b_strumica = {
+				}
+				b_kavadarci = {
+				}
+				b_kochani = {
+				}
+				b_radovis = {
+				}
+				b_gevgelija = {
+				}
+			}
+		}
+	}
+	
 	k_albania = {
 		color={ 143 171 129 }
 		color2={ 255 255 255 }
@@ -20,12 +93,6 @@ e_balkans = {
 			color={ 163 151 139 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 314 province_id = 315 province_id = 316 province_id = 317 province_id = 318 province_id = 1356 } }
-				}
-			}
 			capital = 317 # c_tirana
 			
 			c_tirana = { # 317
@@ -147,12 +214,6 @@ e_balkans = {
 			color={ 163 137 9 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 319 province_id = 321 } }
-				}
-			}
 			capital = 319 # c_pristina
 			
 			c_pristina = { # 319
