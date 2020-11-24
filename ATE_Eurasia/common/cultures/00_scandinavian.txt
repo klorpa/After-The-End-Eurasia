@@ -317,7 +317,7 @@ scandinavian = {
 			Pål_Paul Peder_Peter Per-Egil 
 			Ronny Rørek_Rurik Roald Rune Rolv_Rolf Ragnvald_Ronald Reimund_Ramund
 			Schak Sjur Stig Salo Sondre Simen_Simon Stein Stig-Ole Sturle_Sturla Sigurd_Sigurd Sigbjørn Svale
-			Thorolf Tim_Timothy Tobias_Tobias Tjerand Tønnes_Anthony Tarjei
+			Thorolf Tim_Timothy Tobias_Tobias Tjerand Tønnes_Anthony Tarjei Tjøstolf
 			Valter_Walter Vidar Vigleik Viking Vinjar Valfar
 			Wollert Waldemar_Vladimir Willy_William Wald
 			Ørjan Ølvar Øivind_Øyvind
@@ -352,6 +352,84 @@ scandinavian = {
 		}
 		
 		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	
+	norwegian = { #Nordmann
+		graphical_cultures = { norsegfx }
+		
+		color = { 0.1 0.4 0.7 }
+
+		male_names = {
+			Arild Arent Amund Alv_Alf Alan Audun Alex_Alexander Arnvid Arve Asle Adrian Axel_Axel Agnar Askeladd Arnodd Almar Asbjørn Arnt Arnolf_Arnulf Are Annfinn Arvid Anders_Andrew Aslak_Aslak Arnfinn
+			Bengt Bjarte Berge Bellest Bjørn_Bjørn Brikt Bastian_Sebastian Bjartmar Brynjel Bård Bjørnstjerne Bertram Bjørn-Endre Bernt Børge Bendek_Benedict Balthazar Brede Bernhof Bardo Bodvar Bjarne Bjørnar
+			Cort_Kurt Claus_Klaus Conrad_Konrad Calle_Charles 
+			Danckert Davy Dag Dagmund Ditleif_Ditleif Daniel_Daniel Didrik_Dietrich 
+			Edvard_Edward Eilert Even Erik_Eric Eivind_Øyvind Eilif Egil Einar_Einar Einride Erling_Erling Espen_Esben Eiler_Ejler Emil Edmond_Edmund Eldor Eidis Edvart_Edward Edin 
+			Frode Frederik_Frederick Fartein Finn Frode Fredmund 
+			Gabriel Gjert Gerhard Gustav_Gustaf Geir Gotskalk_Gotschalk Gjermund Grutle Gaute_Gaute Gisle Georg_George Gudolf Godtvard Gunder Gunnbjørn Gudbrand
+			Håkon_Håkon Henry_Henrik Herman_Hermann Helge_Oleg Hilmar_Hjalmar Herlof_Härluf Herbjørn Henning_Henning Hauk Håmund Hjallis_Hjalmar Hårek Hallbjørn Henrik_Henry Håvard Henning Hermod Helmer Halvdan_Halfdan Hans Hallstein Halvor 
+			Ingmar_Ingemar Inge Ingvald Ingvard Ingar Ingolf_Ingolf Ingebrikt_Engelbrecht Ivar_Ivar Isak_Isaac
+			Jørgen Julian Jon_John Johnny_John Jonatan_Johnatan Jappe Jarle Janove Jørund Joar Jentoft Jørleif Jørgen_George Jorodd Jardar Joakim_Joachim Jørn
+			Kolbjørn Ketill_Kjetil Kyrre Korsmus Kjartan Kevin Kim Kristoffer_Christopher Kåre_Kåre Knut_Knut Kjelvik Kjell_Kjell Karlot Karl-Ove Kyrre Kai_Kai Kato
+			Lyder Leif_Leif Lasse Luther Leonhard Lars Leidulf Loke Linus Ludvik_Louis Lillebjørn Lukas_Lucas
+			Max Mangor Matias_Mathias Magne Magnar Magnus_Magnus Marvin Mads Magnor 
+			Nils_Nicholas Norulv Norvald Niklas_Nicholas Njål_Niall
+			Ove Olav_Olaf Olve Onar Oddvard Oddleif_Oddleiv Odd-Bjørn Otto Oddmund Orm Oskar_Oscar 
+			Pål_Paul Peder_Peter Per-Egil 
+			Roger Rørek_Rurik Roald Rune Rolv_Rolf Ragnvald_Ronald Reimund_Ramund Remo Reinulf Rikard_Richard Roar Reidar 
+			Sander_Alexander Sverre Sjur Stig Salo Sondre Simen_Simon Stein Stig-Ole Sturle_Sturla Sigurd_Sigurd Sigbjørn Svale Steinar Skjalg Sivert Skule Sigstein Sofus Sindre Ståle Stian Søren_Severin 
+			Thorolf Tim_Timothy Tobias_Tobias Tjerand Trym_Trym Truls Tyrihans Terje Toralf Tønnes_Anthony Tarjei Tjøstolf Tormod Torstein_Thorstein Trond Tor_Tor Tore_Tore Tordenskjold Tjodrek_Theodoric Tryggve Torgeir Torfinn 
+			Ulf_Ulf Ulrik_Ulrich
+			Valter_Walter Vidar_Vidar Vigleik Viking Vinjar Valfar Viktor_Victor Vebjørn Valemon Vegard_Vegard
+			Wollert Valdemar_Vladimir Willy_William Wald Wilfred Wegger 
+			Ørjan Ølvar Øyvind_Øyvind Ørnulf_Ørnulf Ørvar
+			Åsmund Åge_Åge 
+			Yngve_Yngve
+		}
+		female_names = {
+		    Aasel Astri_Astrid Anne Agdis Anja Anlaug Annemor Annemarta Airin Alfrid Aina Aurora Askepott Anniken
+			Bendine Berghil_Berghild Bergljot Birthe Birgit_Birgitte Borghild Beate Bente Berit Bjørg Borgny
+			Caja_Kaja Cecilia Caro_Caroline Charlotte
+			Dagmor Dorte Dyveke Dorothea Dagrun_Dagrún Duva Dordi 
+			Elen Ellinor Ebba Ebrikka Else-Mai Elida Eldrid Eilif Engel Elsa Elaine Elvine Ena Enny 
+			Fredrika Fridlaug Frøydis Frida 
+			Gjartu Gurianna Gunhil_Gunhild Geirri_Geirrid Gerda Grete_Grethe Guro Gerd Gro Gunnlaug Guri Gudbjørg
+			Halla Hallri_Hallrid Hjørdis Halkatla Herborg Harriet Hermine Halfrid Helfrid Hillgunn Herlaug 
+			Ingri_Ingrid Ida Indiane Ika Ingelin Ingvild Inga
+			Jorid Julie Jannikke_Jannicke Josefine_Josephine Jenny Jordis 
+			Katrine Karoline_Caroline Karita Karianne Kaja Kari Kiersten
+			Lise Laila Linn Lynni Ljufvina Lana Lagerda Lillegull 
+			Massi Mina Mari_Maria Marte Mariann_Marianne Marte_Marthe Minda Mimi Magda Magnhild Maiken Martine Mette Marion
+			Nina Nauma Nathalie Nini Nicoline Nora Norlaug Nine 
+			Olefine Olaug Oda_Odda Olea 
+			Pernilla Peternille Pia 
+			Randi Ragnhild_Ragnhild Roselin Ragne Runa 
+			Sylvi Susanne_Susanne Sara_Sarah Solgull Svanhild Sissel Synnøve Synne Sigrid Selma Siri Siw-Anita Santjanna Sigdis Sigrun Skade Sunniva
+			Torny Trine Torhild Trude Torill Thale Tora Torunn Tanja Turid
+			Una Unni Ulrikke_Ulrikke
+			Vibeke Veronika_Veronica Valgerd Veslemøy Valborg Vera Vigdis 
+			Yngvild
+			Wenche
+			Zinken
+			Åsne Åste Ågot Åse 
+			Øyvor 
+		}
+		
+		dukes_called_kings = yes
+		seafarer = yes 
 		
 		from_dynasty_prefix = "of "
 
