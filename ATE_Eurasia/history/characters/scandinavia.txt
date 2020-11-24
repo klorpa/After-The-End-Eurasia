@@ -776,7 +776,7 @@
 	religion=folketro
 	trait=groomed
 	trait=strong 
-	trait=lustful 
+	trait=chaste 
 	trait=wroth
 	trait=legit_bastard
     trait=flamboyant_schemer
@@ -1486,7 +1486,7 @@
 }
 
 8000120={
-	name="Faravid"
+	name="Gállá"
 	dynasty=2220377
 	culture=sami
 	religion=folketro
@@ -6133,6 +6133,7 @@
 80003567={
 	name="Nadia"
 	female=yes
+	father=80003592
 	culture=ostlending
 	trait=thrifty_clerk
 	trait=shrewd 
@@ -6369,5 +6370,132 @@
 	trait=cynical
 	trait=shrewd
 	2645.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003590={
+	name="Ingrid"
+	female=yes
+	father=80003592
+	culture=ostlending
+	trait=misguided_warrior
+	trait=wroth 
+	trait=hunter
+	trait=patient 
+	trait=shy 
+	religion=ruhi
+	employer = 8000073
+	2642.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003591={
+	name="Ingemar"
+	culture=ostlending
+	father=80003592
+	religion=ruhi
+	employer = 8000073
+	2630.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003592={
+	name="Torgrim"
+	culture=ostlending
+	religion=ruhi
+	employer = 8000073
+	2606.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003593={
+	name="Pavel"
+	culture=ostlending
+	religion=mariavite
+	employer = 8000073
+	2626.1.1={birth=yes}
+	2660.1.1={add_spouse = 80003594}
+	2670.1.1={death=yes}
+}
+
+80003594={
+	name="Katarina"
+	female=yes 
+	culture=ostlending
+	religion=mariavite
+	employer = 8000073
+	2633.1.1={birth=yes}
+	2660.1.1={add_spouse = 80003593}
+	2670.1.1={death=yes}
+}
+
+80003595={
+	name="Agnes"
+	female=yes 
+	father=80003593
+	mother=80003594
+	culture=ostlending
+	religion=mariavite
+	employer = 8000073
+	2661.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003596={
+	name="Irene"
+	female=yes 
+	culture=finnish
+	religion=lutheran
+	employer = 8000111
+	2624.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003597={
+	name="Bjørn"
+	mother=80003596
+	culture=finnish
+	religion=lutheran
+	employer = 8000111
+	2646.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003598={
+	name="Anna-Riitta"
+	mother=80003596
+	female=yes 
+	culture=finnish
+	religion=lutheran
+	employer = 8000111
+	2648.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003599={
+	name="Leonhard"
+	mother=80003596
+	culture=finnish
+	religion=lutheran
+	employer = 8000111
+	2650.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003600={
+	name="Faravid"
+	culture=finnish
+	religion=lutheran
+	employer = 8000111
+	2644.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+80003601={
+	name="Torstein"
+	culture=finnish
+	religion=lutheran
+	employer = 8000111
+	2634.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
