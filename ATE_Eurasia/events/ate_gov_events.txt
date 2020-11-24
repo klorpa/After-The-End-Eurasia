@@ -212,20 +212,20 @@ character_event = {
 	}
 }
 
-#automatic pirate->iqta
+#automatic pirate->bureaucratic muslim government
 character_event = {
 	id = gov.009
 	hide_window = yes
 	
 	trigger = {
-		liege = { government = muslim_government }
+		liege = { government = bureaucratic_muslim_government }
 		government = pirate_government
 	}
 	
 	mean_time_to_happen = { days = 1 }
 
 	immediate = {
-		set_government_type = muslim_government
+		set_government_type = bureaucratic_muslim_government
 	}
 }
 
@@ -379,5 +379,95 @@ character_event = {
 				who = ROOT
 			}
 		}
+	}
+}
+#AI ONLY: Convert from GHAZI to Muslim Bureaucracy
+character_event = {
+	id = gov.011
+	hide_window = yes
+	
+	trigger = {
+		ai = yes
+		higher_real_tier_than = DUKE
+		government = ghazi_government
+	}
+	
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		set_government_type = bureaucratic_muslim_government
+	}
+}
+#AI ONLY: Convert from Muslim Bureaucracy to GHAZI
+character_event = {
+	id = gov.012
+	hide_window = yes
+	
+	trigger = {
+		ai = yes
+		lower_tier_than = KING
+		government = bureaucratic_muslim_government
+	}
+	
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		set_government_type = ghazi_government
+	}
+}
+#IF Muslim covert to Ghazi
+character_event = {
+	id = gov.013
+	hide_window = yes
+	
+	trigger = {
+		AND = {
+			ai = no
+			religion_group = muslim
+			lower_tier_than = KING
+			NOT = {government = ghazi_government}
+		}
+		OR = {
+			ai = no
+			lower_tier_than = KING
+			AND = {
+				religion = ruhi
+				NOT = {government = feudal_government}
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		set_government_type = ghazi_government
+	}
+}
+#IF Muslim covert to Muslim Bureaucracy
+character_event = {
+	id = gov.014
+	hide_window = yes
+	
+	trigger = {
+		AND = {
+			ai = no
+			religion_group = muslim
+			higher_tier_than = DUKE
+			NOT = {government = bureaucratic_muslim_government}
+		}
+		OR = {
+			ai = no
+			higher_tier_than = DUKE
+			AND = {
+				religion = ruhi
+				NOT = {government = feudal_government}
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		set_government_type = bureaucratic_muslim_government
 	}
 }
