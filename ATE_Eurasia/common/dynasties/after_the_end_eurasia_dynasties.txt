@@ -14099,7 +14099,19 @@
 2220467 = { name="af Lönneberg" culture="swedish" }
 2220468 = { name="Rödros" culture="swedish" }
 2220469 = { name="de Gothia" culture="swedish" used_for_random = no }
-2220470 = { name="Kamprad" culture="swedish" used_for_random = no }
+2220470 = { name="Kamprad" culture="swedish"
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 12
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 2220585 = { name="Kangeq" culture="kalaaleq" }
 2220586 = { name="Brønlund" culture="kalaaleq" }
