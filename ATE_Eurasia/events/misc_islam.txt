@@ -13,9 +13,12 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Sword of Islam"
-		#capital_scope = {
-		#	region = world_europe
-		#}
+		capital_scope = {
+			region = custom_benelux
+			region = custom_old_germany
+			region = custom_old_france
+			region = custom_old_spain
+		}
 		OR = {
 			religion_group = christian
 			religion_group = vernacular
@@ -98,9 +101,12 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Sword of Islam"
-		#capital_scope = {
-		#	region = world_europe
-		#}
+		capital_scope = {
+			region = custom_benelux
+			region = custom_old_germany
+			region = custom_old_france
+			region = custom_old_spain
+		}
 		OR = {
 			religion_group = christian
 			religion_group = vernacular
@@ -184,12 +190,19 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Sword of Islam"
-		#capital_scope = {
-		#	region = custom_europe
-		#}
+		capital_scope = {
+			region = custom_benelux
+			region = custom_old_germany
+			region = custom_old_france
+			region = custom_old_spain
+		}
 		OR = {
 			religion_group = christian
+			religion_group = vernacular
+			religion_group = old_world_cultist_group
 			religion_group = jewish_group
+			religion = neuhumanist
+			religion = valinorism
 		}
 		NOT = { trait = zealous } #obvious
 		NOT = { is_inaccessible_trigger = yes }
@@ -204,12 +217,12 @@ character_event = {
 			random_traits = yes
 			culture = francarabe
 			dynasty = actually_culture 
-			religion = nizami
+			religion = ruhi
 			female = no
 			age = 30
 			trait = charismatic_negotiator
 			attributes = {
-				diplomacy = 10
+				learning = 10
 			}
 			flag = ai_flag_refuse_conversion
 		}
@@ -230,13 +243,16 @@ character_event = {
 			remove_trait = seductress
 			remove_trait = scholar
 			remove_trait = theologian
+			remove_trait = poet
 			remove_trait = mystic
 			random_list = {
 				70 = {
-					add_trait = poet
+					add_trait = scholar
+					add_trait = theologian
 				}
 				30 = {
-					add_trait = poet
+					add_trait = scholar
+					add_trait = theologian
 					add_trait = shrewd
 				}
 			}
@@ -265,13 +281,19 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Sword of Islam"
-		#capital_scope = {
-		#	region = custom_europe
-		#}
+		capital_scope = {
+			region = custom_benelux
+			region = custom_old_germany
+			region = custom_old_france
+			region = custom_old_spain
+		}
 		OR = {
 			religion_group = christian
-			religion_group = latter_day_saints
+			religion_group = vernacular
+			religion_group = old_world_cultist_group
 			religion_group = jewish_group
+			religion = neuhumanist
+			religion = valinorism
 		}
 		NOT = { trait = zealous } #obvious
 		NOT = { is_inaccessible_trigger = yes }
@@ -286,7 +308,7 @@ character_event = {
 			random_traits = yes
 			culture = francarabe
 			dynasty = actually_culture 
-			religion = nizami
+			religion = ruhi
 			female = no
 			age = 30
 			trait = intricate_webweaver
@@ -347,13 +369,19 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Sword of Islam"
-		#capital_scope = {
-		#	region = custom_europe
-		#}
+		capital_scope = {
+			region = custom_benelux
+			region = custom_old_germany
+			region = custom_old_france
+			region = custom_old_spain
+		}
 		OR = {
 			religion_group = christian
-			religion_group = latter_day_saints
+			religion_group = vernacular
+			religion_group = old_world_cultist_group
 			religion_group = jewish_group
+			religion = neuhumanist
+			religion = valinorism
 		}
 		NOT = { trait = zealous } #obvious
 		NOT = { is_inaccessible_trigger = yes }
@@ -397,93 +425,10 @@ character_event = {
 			remove_trait = mystic
 			random_list = {
 				70 = {
-					add_trait = schemer
+					add_trait = musician
 				}
 				30 = {
-					add_trait = schemer
-					add_trait = shrewd
-				}
-			}
-			save_event_target_as = muslim_courtier
-		}
-	}
-	
-	option = {
-		name = EVTOPTA_SoA_200
-		custom_tooltip = {
-			text = muslim_courtier_tooltip
-		}
-	}
-}
-character_event = {
-	id = islamate.8
-	desc = EVTDESC_islamate8
-	picture = GFX_evt_emissary
-	border = GFX_event_normal_frame_religion
-	has_dlc = "The Sword of Islam"
-	min_age = 16
-	prisoner = no
-	only_playable = yes
-	capable_only = yes
-	only_independent = yes
-	
-	trigger = {
-		#capital_scope = {
-		#	region = custom_europe
-		#}
-		OR = {
-			religion_group = christian
-			religion_group = cult_of_saints
-			religion_group = jewish_group
-		}
-		NOT = { trait = zealous } #obvious
-		NOT = { is_inaccessible_trigger = yes }
-	}
-	
-	mean_time_to_happen = {
-		months = 420
-	}
-	
-	immediate = {
-		create_character = {
-			random_traits = yes
-			culture = francarabe
-			dynasty = actually_culture 
-			religion = nizami
-			female = no
-			age = 30
-			trait = scholarly_theologian
-			attributes = {
-				learning = 10
-			}
-			flag = ai_flag_refuse_conversion
-		}
-		new_character = {
-			#character_event = { id = misc.3 } # Diversity
-			#character_event = { id = misc.4 } # Physique
-			remove_trait = socializer
-			remove_trait = gamer
-			remove_trait = hedonist
-			remove_trait = duelist
-			remove_trait = hunter
-			remove_trait = strategist
-			remove_trait = administrator
-			remove_trait = architect
-			remove_trait = gardener
-			remove_trait = schemer
-			remove_trait = impaler
-			remove_trait = seductress
-			remove_trait = scholar
-			remove_trait = theologian
-			remove_trait = mystic
-			random_list = {
-				70 = {
-					add_trait = mystic
-					add_trait = physician
-				}
-				30 = {
-					add_trait = mystic
-					add_trait = physician
+					add_trait = musician
 					add_trait = shrewd
 				}
 			}
@@ -500,8 +445,8 @@ character_event = {
 }
 
 character_event = {
-	id = islamate.9
-	desc = EVTDESC_islamate9
+	id = islamate.6
+	desc = EVTDESC_islamate6
 	picture = GFX_evt_emissary
 	border = GFX_event_normal_frame_religion
 	has_dlc = "The Sword of Islam"
@@ -512,95 +457,20 @@ character_event = {
 	only_independent = yes
 	
 	trigger = {
-		#capital_scope = {
-		#	region = world_europe
-		#}
+		has_dlc = "The Sword of Islam"
+		capital_scope = {
+			region = custom_benelux
+			region = custom_old_germany
+			region = custom_old_france
+			region = custom_old_spain
+		}
 		OR = {
 			religion_group = christian
-			religion_group = cult_of_saints
+			religion_group = vernacular
+			religion_group = old_world_cultist_group
 			religion_group = jewish_group
-		}
-		NOT = { trait = zealous } #obvious
-		NOT = { is_inaccessible_trigger = yes }
-	}
-	
-	mean_time_to_happen = {
-		months = 420
-	}
-	
-	immediate = {
-		create_character = {
-			random_traits = yes
-			culture = francarabe
-			dynasty = actually_culture 
-			religion = nizami
-			female = no
-			age = 30
-			trait = fortune_builder
-			attributes = {
-				stewardship = 10
-			}
-			flag = ai_flag_refuse_conversion
-		}
-		new_character = {
-			#character_event = { id = misc.3 } # Diversity
-			#character_event = { id = misc.5 } # Physique
-			remove_trait = socializer
-			remove_trait = gamer
-			remove_trait = hedonist
-			remove_trait = duelist
-			remove_trait = hunter
-			remove_trait = strategist
-			remove_trait = administrator
-			remove_trait = architect
-			remove_trait = gardener
-			remove_trait = schemer
-			remove_trait = impaler
-			remove_trait = seductress
-			remove_trait = scholar
-			remove_trait = theologian
-			remove_trait = mystic
-			random_list = {
-				70 = {
-					add_trait = administrator
-				}
-				30 = {
-					add_trait = administrator
-					add_trait = shrewd
-				}
-			}
-			save_event_target_as = muslim_courtier
-		}
-	}
-	
-	option = {
-		name = EVTOPTA_SoA_200
-		custom_tooltip = {
-			text = muslim_courtier_tooltip
-		}
-	}
-}
-
-character_event = {
-	id = islamate.10
-	desc = EVTDESC_islamate10
-	picture = GFX_evt_emissary
-	border = GFX_event_normal_frame_religion
-	has_dlc = "The Sword of Islam"
-	min_age = 16
-	prisoner = no
-	only_playable = yes
-	capable_only = yes
-	only_independent = yes
-	
-	trigger = {
-		#capital_scope = {
-		#	region = world_europe
-		#}
-		OR = {
-			religion_group = christian
-			religion_group = cult_of_saints
-			religion_group = jewish_group
+			religion = neuhumanist
+			religion = valinorism
 		}
 		NOT = { trait = zealous } #obvious
 		NOT = { is_inaccessible_trigger = yes }
@@ -620,7 +490,96 @@ character_event = {
 			age = 30
 			trait = charismatic_negotiator
 			attributes = {
-				diplomacy = 10
+				learning = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			#character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.4 } # Physique
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = strategist
+			random_list = {
+				70 = {
+					add_trait = mystic
+					add_trait = physician
+				}
+				30 = {
+					add_trait = mystic
+					add_trait = physician
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = muslim_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_SoA_200
+		custom_tooltip = {
+			text = muslim_courtier_tooltip
+		}
+	}
+}
+character_event = {
+	id = islamate.7
+	desc = EVTDESC_islamate7
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	has_dlc = "The Sword of Islam"
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "The Sword of Islam"
+		capital_scope = {
+			region = custom_benelux
+			region = custom_old_germany
+			region = custom_old_france
+			region = custom_old_spain
+		}
+		OR = {
+			religion_group = christian
+			religion_group = vernacular
+			religion_group = old_world_cultist_group
+			religion_group = jewish_group
+			religion = neuhumanist
+			religion = valinorism
+		}
+		NOT = { trait = zealous } #obvious
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 420
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = francarabe
+			dynasty = actually_culture 
+			religion = ruhi
+			female = no
+			age = 30
+			trait = charismatic_negotiator
+			attributes = {
+				martial = 10
 			}
 			flag = ai_flag_refuse_conversion
 		}
@@ -644,10 +603,12 @@ character_event = {
 			remove_trait = mystic
 			random_list = {
 				70 = {
-					add_trait = musician
+					add_trait = strategist
+					add_trait = brave
 				}
 				30 = {
-					add_trait = musician
+					add_trait = strategist
+					add_trait = brave
 					add_trait = shrewd
 				}
 			}
