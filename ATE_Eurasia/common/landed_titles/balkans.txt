@@ -16,8 +16,8 @@ e_balkans = {
 		capital = 120 # c_athens
 		culture = greek
 		
-		d_roumeli = {
-			color={ 226 243 199 }
+		d_attica = {
+			color={ 215 23 100 }
 			color2={ 255 255 255 }
 			
 			capital = 120 # c_athens
@@ -41,6 +41,13 @@ e_balkans = {
 				b_kallithea = {
 				}
 			}
+		}
+		d_roumeli = {
+			color={ 226 243 199 }
+			color2={ 255 255 255 }
+			
+			capital = 131 # c_aetolia_acarnania
+			
 			c_aetolia_acarnania = { # 131
 				color={ 237 93 72 }
 				color2={ 255 255 255 }
@@ -118,7 +125,7 @@ e_balkans = {
 				}
 			}
 		}
-		d_aegean_islands = {
+		d_south_aegean_islands = {
 			color={ 179 39 148 }
 			color2={ 255 255 255 }
 			
@@ -143,23 +150,23 @@ e_balkans = {
 				b_kasos = {
 				}
 			}
-			c_chios = { # 127
-				color={ 119 71 3 }
+			c_samos = { # 148
+				color={ 147 115 129 }
 				color2={ 255 255 255 }
 				
-				b_chios = {
+				b_samos = {
 				}
-				b_oinousses = {
+				b_karlovasi = {
 				}
-				b_psara = {
+				b_patmos = {
 				}
-				b_omiroupoli = {
+				b_ikaria = {
 				}
-				b_kallimasia = {
+				b_leros = {
 				}
-				b_mastichochoria = {
+				b_vathy = {
 				}
-				b_agios_minas = {
+				b_pythagoreio = {
 				}
 			}
 			c_cyclades = { # 77
@@ -179,6 +186,31 @@ e_balkans = {
 				b_andros = {
 				}
 				b_tinos = {
+				}
+			}
+		}
+		d_north_aegean_islands = {
+			color={ 200 39 150 }
+			color2={ 255 255 255 }
+			
+			capital = 128 #Lesbos
+			c_chios = { # 127
+				color={ 119 71 3 }
+				color2={ 255 255 255 }
+				
+				b_chios = {
+				}
+				b_oinousses = {
+				}
+				b_psara = {
+				}
+				b_omiroupoli = {
+				}
+				b_kallimasia = {
+				}
+				b_mastichochoria = {
+				}
+				b_agios_minas = {
 				}
 			}
 			c_lemnos = { # 129
@@ -219,25 +251,8 @@ e_balkans = {
 				b_gera = {
 				}
 			}
-			c_samos = { # 148
-				color={ 147 115 129 }
-				color2={ 255 255 255 }
-				
-				b_samos = {
-				}
-				b_karlovasi = {
-				}
-				b_patmos = {
-				}
-				b_ikaria = {
-				}
-				b_leros = {
-				}
-				b_vathy = {
-				}
-				b_pythagoreio = {
-				}
-			}
+			
+		
 		}
 		d_aeolia = {
 			color={ 192 108 104 }
