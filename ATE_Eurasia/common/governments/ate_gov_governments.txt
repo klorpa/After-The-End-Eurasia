@@ -21,7 +21,19 @@ feudal_governments = {
 		title_prefix = "pirate_"
 		potential = {
 			#capital_holding_shipyard_trigger = yes
-			religion_group = pirate
+			OR = {
+				religion_group = pirate
+				AND = {
+					religion = ichthysist
+					OR = {
+						culture = breton
+						culture = icelander
+						culture = faroese
+						culture = svalbarder
+						culture = kalaaleq
+					}
+				}
+			}
 			is_patrician = no
 		}
 		
