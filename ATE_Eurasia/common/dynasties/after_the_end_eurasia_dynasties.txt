@@ -225,7 +225,19 @@
 1101098 = { name="Hine-Haycock" culture=westerner }
 1101099 = { name="Burthogge" culture=westerner }
 1101100 = { name="Wimbush" culture=westerner }
-1101101 = { name="Kelly" culture=westerner used_for_random = no}
+1101101 = { name="Kelly" culture=westerner
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 1102000 = { name="Pentreath" culture=cornish }
 1102001 = { name="Kelynack" culture=cornish }
