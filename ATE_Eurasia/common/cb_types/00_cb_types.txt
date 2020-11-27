@@ -8937,7 +8937,10 @@ muslim_invasion = {
 					}
 				}
 			}
-			religion_group = muslim
+			AND = (
+				religion_group = muslim
+				NOT = {religion = ruhi}
+			}
 			
 			# These use 'tribal_invasion' instead:
 			NOR = {
