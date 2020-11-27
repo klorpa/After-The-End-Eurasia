@@ -659,7 +659,7 @@ christian = {
 	}
 }
 
-esoteric = {
+scholastic = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	playable = yes
@@ -873,7 +873,7 @@ muslim = {
 		icon = 37
 		heresy_icon = 38
 		
-		color = { 0 0.8 0 }
+		color = { 0.2 0.8 0 }
 		
 		parent = nizami
 		
@@ -901,6 +901,34 @@ muslim = {
 		religious_clothing_priest = 10
 		
 		intermarry = neuhumanist
+	}
+	ashari = {
+		graphical_culture = muslimgfx
+		
+		icon = 13
+		heresy_icon = 18
+		
+		color = { 0.5 0.9 0.1 }
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+		crusade_name = JIHAD
+		uses_decadence = no
+		max_wives = 4
+		can_call_crusade = yes
+		can_grant_invasion_cb = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
 	}
 }
 	
