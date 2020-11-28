@@ -2,7 +2,7 @@ tatar = {
 	graphical_cultures = { muslimgfx }
 
 	qirimlar = {
-		graphical_cultures = { westernslavicgfx }
+		graphical_cultures = { cumangfx }
 		
 		color = { 0.4 0.3 0.2 }
 
@@ -54,7 +54,7 @@ tatar = {
 		modifier = default_culture_modifier
 	}
 	gagauz = {
-		graphical_cultures = { westernslavicgfx }
+		graphical_cultures = { cumangfx }
 		
 		color = { 0.2 0.4 0.3 }
 
@@ -66,6 +66,55 @@ tatar = {
 		}
 
 		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	turkish = {
+		graphical_cultures = { persiangfx }
+		
+		color = { 0.96 0.77 0.33 }
+
+		male_names = {
+			Abdullah Ahmet_Ahmed Ali 
+			Berat 
+			Ekin Emir Emirhan Eymen 
+			Fatih Furkan 
+			Hasan Hüseyin_Hussein 
+			Ibrahim_Abraham Ismail_Ishmael 
+			Mehmet_Muhammad Muhammad Mustafa "Mustafa Kemal" 
+			Necmettin_Nejmeddin 
+			Ömer Onur Orhan Osman 
+			Recep 
+			Shevket Suleyman_Solomon 
+			Yahya_John Yusuf_Joseph 
+		}
+		female_names = {
+			Ayshe_Aisha Aytaç Azra 
+			Betül 
+			Deniz 
+			Ekin Emine Evrem 
+			Fatma_Fatima 
+			Gökçe Gulbahar 
+			Hatice 
+			Leila 
+			Mina 
+			Nehir Nilufer 
+			Öykü 
+			Selma Songül Süyümbike 
+			Tilbe Tugçe 
+			Yagmur Yasmin_Jasmine 
+			Zehra_Zohra Zekiye Zeynep_Zeynab 
+		}
+		
+		founder_named_dynasties = yes
 
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 40
