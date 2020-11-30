@@ -7,6 +7,22 @@ nick_half_troll = {}
 nick_the_child = {}
 nick_the_sungazer = {}
 nick_the_surfer = {}
+nick_the_silk_stocking = {
+	allow = {
+		OR = {
+			culture_group = french
+			culture = breton
+			religion = jacobin
+		}
+		trait = deceitful
+		age = 20
+		diplomacy = 9
+		intrigue = 8
+	}
+	chance = {
+		factor = 1
+	}
+}
 nick_atterdag = {
 	allow = {
 		ruled_years = 10

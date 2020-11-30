@@ -5,9 +5,656 @@
 e_turkey = {
 	color={ 133 38 22 }
 	color2={ 255 255 20 }
-	
-	capital = 143 # c_istanbul
+		
+	capital = 2080 # c_ankara
 	culture = turkish
+	
+	k_anatolia = {
+		color={ 111 137 120 }
+		color2={ 255 255 255 }
+		
+		capital = 2080 # c_ankara
+		culture = turkish
+		
+		d_ankara = {
+			color={ 91 157 110 }
+			color2={ 255 255 255 }
+			
+			capital = 2080 # c_ankara
+			
+			c_ankara = { # 2080
+				color={ 81 167 105 }
+				color2={ 255 255 255 }
+				
+				b_ulus = {
+				}
+				b_cankaya = {
+				}
+				b_kecioeren = {
+				}
+				b_cubuk = {
+				}
+				b_elmadag = {
+				}
+				b_kalecik = {
+				}
+				b_akyurt = {
+				}
+			}
+			c_cankiri = { # 2093
+				color={ 142 115 239 }
+				color2={ 255 255 255 }
+				
+				b_cankiri = {
+				}
+				b_orta = {
+				}
+				b_cerkesh = {
+				}
+				b_ilgaz = {
+				}
+				b_shabanoezue = {
+				}
+				b_kurshunlu = {
+				}
+				b_yaprakli = {
+				}
+			}
+			c_eskishehir = { # 2083
+				color={ 106 40 107 }
+				color2={ 255 255 255 }
+				
+				b_odunpazari = {
+				}
+				b_tepebashi = {
+				}
+				b_nallihan = {
+				}
+				b_sivrihisar = {
+				}
+				b_cifteler = {
+				}
+				b_seyitgazi = {
+				}
+				b_alpu = {
+				}
+			}
+			c_golbashi = { # 2082
+				color={ 40 124 64 }
+				color2={ 255 255 255 }
+				
+				b_polatli = {
+				}
+				b_goelbashi = {
+				}
+				b_haymana = {
+				}
+				b_bala = {
+				}
+				b_adatoprakpinar = {
+				}
+				b_calish = {
+				}
+				b_eymir = {
+				}
+			}
+			c_sincan = { # 2081
+				color={ 57 151 199 }
+				color2={ 255 255 255 }
+				
+				b_sincan = {
+				}
+				b_beypazari = {
+				}
+				b_kizilcahamam = {
+				}
+				b_kahramankazan = {
+				}
+				b_ayash = {
+				}
+				b_gueduel = {
+				}
+				b_camlidere = {
+				}
+			}
+		}
+		d_antalya = {
+			color={ 138 21 58 }
+			color2={ 255 255 255 }
+			
+			capital = 183 # c_antalya
+			
+			c_antalya = { # 183
+				color={ 128 31 53 }
+				color2={ 255 255 255 }
+				
+				b_kaleici = {
+				}
+				b_antalya = {
+				}
+				b_kumluca = {
+				}
+				b_kemer = {
+				}
+				b_korkuteli = {
+				}
+				b_kash = {
+				}
+				b_finike = {
+				}
+			}
+			c_afyonkarahisar = { # 2084
+				color={ 137 69 138 }
+				color2={ 255 255 255 }
+				
+				b_afyonkarahisar = {
+				}
+				b_sandikli = {
+				}
+				b_dinar = {
+				}
+				b_bolvadin = {
+				}
+				b_sinanpasha = {
+				}
+				b_emirdag = {
+				}
+				b_shuhut = {
+				}
+			}
+			c_alanya = { # 287
+				color={ 227 9 86 }
+				color2={ 255 255 255 }
+				
+				b_alanya = {
+				}
+				b_manavgat = {
+				}
+				b_serik = {
+				}
+				b_gazipasha = {
+				}
+				b_akseki = {
+				}
+				b_demirkoey = {
+				}
+				b_guendogmush = {
+				}
+			}
+			c_burdur = { # 286
+				color={ 103 154 199 }
+				color2={ 255 255 255 }
+				
+				b_burdur = {
+				}
+				b_bucak = {
+				}
+				b_goelhisar = {
+				}
+				b_yeshilova = {
+				}
+				b_cavdir = {
+				}
+				b_tefenni = {
+				}
+				b_aglasun = {
+				}
+			}
+			c_isparta = { # 284
+				color={ 196 94 197 }
+				color2={ 255 255 255 }
+				
+				b_isparta = {
+				}
+				b_yalvac = {
+				}
+				b_egirdir = {
+				}
+				b_sharkikaraagac = {
+				}
+				b_gelendost = {
+				}
+				b_keciborlu = {
+				}
+				b_senirkent = {
+				}
+			}
+		}
+		d_cappadocia = {
+			color={ 75 109 184 }
+			color2={ 255 255 255 }
+			
+			capital = 2094 # c_kayseri
+			
+			c_kayseri = { # 2094
+				color={ 65 119 179 }
+				color2={ 255 255 255 }
+				
+				b_melikgazi = {
+				}
+				b_kocasinan = {
+				}
+				b_hacilar = {
+				}
+				b_talas = {
+				}
+				b_develi = {
+				}
+				b_yahyali = {
+				}
+				b_buenyan = {
+				}
+			}
+			c_corum = { # 2096
+				color={ 111 156 207 }
+				color2={ 255 255 255 }
+				
+				b_corum = {
+				}
+				b_sungurlu = {
+				}
+				b_osmancik = {
+				}
+				b_alaca = {
+				}
+				b_iskilip = {
+				}
+				b_bayat = {
+				}
+				b_mecitoezue = {
+				}
+			}
+			c_sivas = { # 2097
+				color={ 42 77 116 }
+				color2={ 255 255 255 }
+				
+				b_sivas = {
+				}
+				b_sharkishla = {
+				}
+				b_yildizeli = {
+				}
+				b_gemerek = {
+				}
+				b_kangal = {
+				}
+				b_gueruen = {
+				}
+				b_ulash = {
+				}
+			}
+			c_sushehri = { # 2098
+				color={ 59 115 179 }
+				color2={ 255 255 255 }
+				
+				b_sushehri = {
+				}
+				b_zara = {
+				}
+				b_divrigi = {
+				}
+				b_koyulhisar = {
+				}
+				b_hafik = {
+				}
+				b_imranli = {
+				}
+				b_akincilar = {
+				}
+			}
+			c_yozgat = { # 2095
+				color={ 43 99 162 }
+				color2={ 255 255 255 }
+				
+				b_yozgat = {
+				}
+				b_sorgun = {
+				}
+				b_akdagmadeni = {
+				}
+				b_yerkoey = {
+				}
+				b_bogazliyan = {
+				}
+				b_sarikaya = {
+				}
+				b_cekerek = {
+				}
+			}
+		}
+		d_cilicia = {
+			color={ 197 153 200 }
+			color2={ 255 255 255 }
+			
+			capital = 290 # c_adana
+			
+			c_adana = { # 290
+				color={ 207 143 205 }
+				color2={ 255 255 255 }
+				
+				b_tepebag = {
+				}
+				b_seyhan = {
+				}
+				b_cukurova = {
+				}
+				b_ceyhan = {
+				}
+				b_kozan = {
+				}
+				b_imamoglu = {
+				}
+				b_karatash = {
+				}
+			}
+			c_mersin = { # 285
+				color={ 142 47 233 }
+				color2={ 255 255 255 }
+				
+				b_toroslar = {
+				}
+				b_tartus = {
+				}
+				b_akdeniz = {
+				}
+				b_yenishehir = {
+				}
+				b_mezitli = {
+				}
+				b_erdemli = {
+				}
+				b_camliyayla = {
+				}
+			}
+			c_silifke = { # 288
+				color={ 75 37 166 }
+				color2={ 255 255 255 }
+				
+				b_silifke = {
+				}
+				b_anamur = {
+				}
+				b_mut = {
+				}
+				b_bozyazi = {
+				}
+				b_guelnar = {
+				}
+				b_aydincik = {
+				}
+				b_uzuncaburc = {
+				}
+			}
+		}
+		d_hatay = {
+			color={ 179 181 40 }
+			color2={ 255 255 255 }
+			
+			capital = 307 # c_hatay
+			
+			c_hatay = { # 307
+				color={ 189 171 45 }
+				color2={ 255 255 255 }
+				
+				b_antakya = {
+				}
+				b_iskenderun = {
+				}
+				b_doertyol = {
+				}
+				b_samandag = {
+				}
+				b_kirikhan = {
+				}
+				b_reyhanli = {
+				}
+				b_arsuz = {
+				}
+			}
+			c_gaziantep = { # 306
+				color={ 255 173 252 }
+				color2={ 255 255 255 }
+				
+				b_oguzeli = {
+				}
+				b_gaziantep = {
+				}
+				b_kilis = {
+				}
+				b_nizip = {
+				}
+				b_islahiye = {
+				}
+				b_nurdagi = {
+				}
+				b_araban = {
+				}
+			}
+			c_kahramanmaras = { # 309
+				color={ 117 128 126 }
+				color2={ 255 255 255 }
+				
+				b_kahramanmaras = {
+				}
+				b_elbistan = {
+				}
+				b_afshin = {
+				}
+				b_tuerkoglu = {
+				}
+				b_pazarcik = {
+				}
+				b_goeksun = {
+				}
+				b_andirin = {
+				}
+			}
+			c_osmaniye = { # 310
+				color={ 149 216 3 }
+				color2={ 255 255 255 }
+				
+				b_osmaniye = {
+				}
+				b_kadiri = {
+				}
+				b_duezici = {
+				}
+				b_bahce = {
+				}
+				b_toprakkale = {
+				}
+				b_sumbas = {
+				}
+				b_hasanbeyli = {
+				}
+			}
+		}
+		d_kirikkale = {
+			color={ 175 113 46 }
+			color2={ 255 255 255 }
+			
+			capital = 2088 # c_kirikkale
+			
+			c_kirikkale = { # 2088
+				color={ 165 123 41 }
+				color2={ 255 255 255 }
+				
+				b_kirikkale = {
+				}
+				b_yahshihan = {
+				}
+				b_keskin = {
+				}
+				b_delice = {
+				}
+				b_sulakyurt = {
+				}
+				b_bahshili = {
+				}
+				b_balisheyh = {
+				}
+			}
+			c_aksaray = { # 2091
+				color={ 177 120 46 }
+				color2={ 255 255 255 }
+				
+				b_aksaray = {
+				}
+				b_ortakoey = {
+				}
+				b_eskil = {
+				}
+				b_guelagac = {
+				}
+				b_guezelyurt = {
+				}
+				b_sultanhani = {
+				}
+				b_agacoeren = {
+				}
+			}
+			c_kirshehir = { # 2089
+				color={ 212 161 63 }
+				color2={ 255 255 255 }
+				
+				b_kirshehir = {
+				}
+				b_kaman = {
+				}
+				b_shereflikochisar = {
+				}
+				b_mucur = {
+				}
+				b_cicekdagi = {
+				}
+				b_akpinar = {
+				}
+				b_boztepe = {
+				}
+			}
+			c_nevshehir = { # 2090
+				color={ 89 60 22 }
+				color2={ 255 255 255 }
+				
+				b_nevshehir = {
+				}
+				b_urguep = {
+				}
+				b_avanos = {
+				}
+				b_guelshehir = {
+				}
+				b_derinkuyu = {
+				}
+				b_acigoel = {
+				}
+				b_kozakli = {
+				}
+			}
+			c_nigde = { # 2092
+				color={ 84 59 174 }
+				color2={ 255 255 255 }
+				
+				b_nigde = {
+				}
+				b_eregli = {
+				}
+				b_bor = {
+				}
+				b_ciftlik = {
+				}
+				b_ulukishla = {
+				}
+				b_altunhisar = {
+				}
+				b_camardi = {
+				}
+			}
+		}
+		d_konya = {
+			color={ 142 151 188 }
+			color2={ 255 255 255 }
+			
+			capital = 2085 # c_konya
+			
+			c_konya = { # 2085
+				color={ 152 141 193 }
+				color2={ 255 255 255 }
+				
+				b_meram = {
+				}
+				b_selcuklu = {
+				}
+				b_karatay = {
+				}
+				b_cumra = {
+				}
+				b_seydishehir = {
+				}
+				b_karapinar = {
+				}
+				b_bozkir = {
+				}
+			}
+			c_akshehir = { # 2086
+				color={ 49 104 132 }
+				color2={ 255 255 255 }
+				
+				b_akshehir = {
+				}
+				b_beyshehir = {
+				}
+				b_ilgin = {
+				}
+				b_derbent = {
+				}
+				b_doganhisar = {
+				}
+				b_hueyuek = {
+				}
+				b_altinekin = {
+				}
+			}
+			c_cihanbeyli = { # 2087
+				color={ 32 172 201 }
+				color2={ 255 255 255 }
+				
+				b_cihanbeyli = {
+				}
+				b_kulu = {
+				}
+				b_kadinhani = {
+				}
+				b_sarayoenue = {
+				}
+				b_yunak = {
+				}
+				b_celtik = {
+				}
+				b_tuzlukcu = {
+				}
+			}
+			c_karaman = { # 308
+				color={ 127 101 221 }
+				color2={ 255 255 255 }
+				
+				b_karaman = {
+				}
+				b_ermenek = {
+				}
+				b_sariveliler = {
+				}
+				b_ayranci = {
+				}
+				b_kazimkarabekir = {
+				}
+				b_bashyayla = {
+				}
+				b_yeshildere = {
+				}
+			}
+		}
+	}
 	
 	k_ege = {
 		color={ 123 48 17 }
