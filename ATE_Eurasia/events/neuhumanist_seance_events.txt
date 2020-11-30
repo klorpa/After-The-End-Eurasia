@@ -81,7 +81,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = EVTOPT_accept drink
+		name = EVTOPT_accept_drink
 		piety = 20
 		narrative_event = { id = nh_seance.4 days = 2}
 		random_list = {
@@ -226,7 +226,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = EVTOPT_reject_seance_faith
+		name = EVTOPT_reject_seance
 		prestige = 50
 		ai_chance = {
 			factor = 10

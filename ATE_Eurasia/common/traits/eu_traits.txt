@@ -489,3 +489,63 @@ sultan_han = {
 	male_compliment = COMPL_SULTAN
 	female_compliment = COMPL_SULTAN
 }
+neuhumanist_associate = {
+	opposites = {
+		neuhumanist_bachelor
+		neuhumanist_master
+		neuhumanist_doctor
+	}
+	
+	learning = 1
+	monthly_character_prestige = 0.02
+
+	potential = { religion = neuhumanist }
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+neuhumanist_bachelor = {
+	opposites = {
+		neuhumanist_associate
+		neuhumanist_master
+		neuhumanist_doctor
+	}
+	
+	learning = 2
+	monthly_character_prestige = 0.05
+
+	potential = { religion = neuhumanist }
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+neuhumanist_master = {
+	opposites = {
+		neuhumanist_associate
+		neuhumanist_bachelor
+		neuhumanist_doctor
+	}
+	
+	learning = 3
+	monthly_character_prestige = 0.08
+
+	potential = { religion = neuhumanist }
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+neuhumanist_doctor = {
+	opposites = {
+		neuhumanist_associate
+		neuhumanist_bachelor
+		neuhumanist_master
+	}
+	
+	learning = 4
+	monthly_character_prestige = 0.1
+
+	potential = { religion = neuhumanist }
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
