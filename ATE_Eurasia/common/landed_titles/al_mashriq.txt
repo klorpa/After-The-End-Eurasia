@@ -658,15 +658,15 @@ e_al_mashriq = {
 				}
 				b_izra = {
 				}
-				b_qunaytrah = {
-				}
 				b_as_sanamayn = {
-				}
-				b_fiq = {
 				}
 				b_bosra = {
 				}
 				b_khirbet_gazalah = {
+				}
+				b_ash_shajarah = {
+				}
+				b_dail = {
 				}
 			}
 			c_duma = { # 1998
@@ -1356,6 +1356,8 @@ e_al_mashriq = {
 				color={ 145 146 119 }
 				color2={ 255 255 255 }
 				
+				sabra="Tzion"
+				
 				b_yerushalaim = {
 				}
 				b_givat_ram = {
@@ -1371,9 +1373,11 @@ e_al_mashriq = {
 				b_mea_shearim= {
 				}
 			}
-			c_east_jerusalem = { # 1959
+			c_al_quds = { # 1959
 				color={ 140 142 81 }
 				color2={ 255 255 255 }
+				
+				sabra="Moria"
 				
 				holy_site = catholic
 				holy_site = penitants
@@ -1410,36 +1414,17 @@ e_al_mashriq = {
 				
 				b_haifa = {
 				}
+				b_akko = {
+				}
 				b_qiryat_ata = {
 				}
-				b_hadera_2 = {
+				b_hadera = {
 				}
 				b_qiryat_yam = {
 				}
-				b_qiryat_byaliq = {
-				}
-				b_umm_al_fahm = {
-				}
-				b_qiryat_motzkin = {
-				}
-			}
-			c_galil_elion = { # 1972
-				color={ 178 182 49 }
-				color2={ 255 255 255 }
-				
-				b_akko = {
-				}
 				b_nahariya = {
 				}
-				b_karmiel = {
-				}
-				b_safed = {
-				}
-				b_qiryat_shemona = {
-				}
-				b_maalut_tarsiha = {
-				}
-				b_jish = {
+				b_qiryat_byaliq = {
 				}
 			}
 			c_galil = { # 1971
@@ -1450,6 +1435,8 @@ e_al_mashriq = {
 				}
 				b_nazareth = {
 				}
+				b_safed = {
+				}
 				b_yoqneam = {
 				}
 				b_tiberias = {
@@ -1457,8 +1444,6 @@ e_al_mashriq = {
 				b_safaamr = {
 				}
 				b_tamra = {
-				}
-				b_sakhnin = {
 				}
 			}
 		}
@@ -1472,7 +1457,7 @@ e_al_mashriq = {
 				color={ 178 178 161 }
 				color2={ 255 255 255 }
 				
-				b_ramla = {
+				b_netanya = {
 				}
 				b_tel_aviv = {
 				}
@@ -1482,9 +1467,9 @@ e_al_mashriq = {
 				}
 				b_rehovot = {
 				}
-				b_modiin = {
+				b_herzliya = {
 				}
-				b_lod = {
+				b_kfar_saba = {
 				}
 			}
 			c_hof_yehuda = { # 1962
@@ -1504,25 +1489,6 @@ e_al_mashriq = {
 				b_barnea = {
 				}
 				b_afridar = {
-				}
-			}
-			c_sharon = { # 1961
-				color={ 187 187 162 }
-				color2={ 255 255 255 }
-				
-				b_hod_hasharon = {
-				}
-				b_netanya = {
-				}
-				b_herzliya = {
-				}
-				b_hadera = {
-				}
-				b_kfar_saba = {
-				}
-				b_kfar_yona = {
-				}
-				b_raanana = {
 				}
 			}
 		}
@@ -1589,25 +1555,6 @@ e_al_mashriq = {
 				b_bani_suhayla = {
 				}
 			}
-			c_naqab = { # 1969
-				color={ 118 121 19 }
-				color2={ 255 255 255 }
-				
-				b_mutasaby_rimun = {
-				}
-				b_shitim = {
-				}
-				b_nysana = {
-				}
-				b_qadish_barmea = {
-				}
-				b_qmehin = {
-				}
-				b_beer_milka = {
-				}
-				b_ezuz = {
-				}
-			}
 		}
 		d_west_bank = {
 			color={ 157 178 122 }
@@ -1623,8 +1570,6 @@ e_al_mashriq = {
 				}
 				b_bethlehem = {
 				}
-				b_bethlehem_2 = {
-				}
 				b_yattah = {
 				}
 				b_halhul = {
@@ -1632,6 +1577,8 @@ e_al_mashriq = {
 				b_dura = {
 				}
 				b_zaatarah = {
+				}
+				b_bani_naim = {
 				}
 			}
 			c_nablus = { # 1965
