@@ -549,3 +549,77 @@ neuhumanist_doctor = {
 	religious = yes
 	ruler_designer_cost = 0
 }
+haredi_breslov = {
+	opposites = {
+		haredi_litvak
+		haredi_chassid
+		haredi_sepharadi
+	}
+
+	opposite_opinion = -5
+	
+	diplomacy = 1
+
+	
+	potential = { religion = haredi }
+	religious_branch = haredi
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+
+}
+haredi_chassid = {
+	opposites = {
+		haredi_litvak
+		haredi_breslov
+		haredi_sepharadi
+	}
+
+	opposite_opinion = -5
+	
+
+	stewardship = 1
+	
+	potential = { religion = haredi }
+	religious_branch = haredi
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+haredi_litvak = {
+	opposites = {
+		haredi_breslov
+		haredi_chassid
+		haredi_sepharadi
+	}
+
+	opposite_opinion = -5
+	
+	learning = 1
+	
+	
+	potential = { religion = haredi }
+	religious_branch = haredi
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+haredi_sepharadi = {
+	opposites = {
+		haredi_litvak
+		haredi_chassid
+		haredi_breslov
+	}
+
+	opposite_opinion = -5
+	
+	monthly_character_piety = .5
+	monthly_character_prestige = .5
+	
+	potential = { religion = haredi }
+	religious_branch = haredi
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+
+}
