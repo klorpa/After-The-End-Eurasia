@@ -642,7 +642,6 @@ e_yugoslavia = {
 		color2={ 255 255 255 }
 		
 		capital = 1390 # c_belgrade
-		culture = serbian
 		
 		d_belgrade = {
 			color={ 173 254 226 }
@@ -843,18 +842,11 @@ e_yugoslavia = {
 		color2={ 255 255 255 }
 		
 		capital = 418 # c_podgorica
-		culture = montenegrin
 		
 		d_montenegro = {
 			color={ 112 207 221 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 2000 province_id = 2001 province_id = 2002 } }
-				}
-			}
 			capital = 418 # c_podgorica
 			
 			c_podgorica = { # 418

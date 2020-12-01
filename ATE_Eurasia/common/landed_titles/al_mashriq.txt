@@ -11,18 +11,11 @@ e_al_mashriq = {
 		color2={ 255 255 255 }
 		
 		capital = 2023 # c_baghdad
-		culture = furataini
 		
 		d_baghdad = {
 			color={ 73 136 28 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 2023 province_id = 2024 province_id = 2025 province_id = 2026 province_id = 2027 province_id = 2028 province_id = 2029 } }
-				}
-			}
 			capital = 2023 # c_baghdad
 			
 			c_baghdad = { # 2023
@@ -163,12 +156,6 @@ e_al_mashriq = {
 			color={ 135 198 119 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 2030 province_id = 2031 province_id = 2032 province_id = 2033 province_id = 2034 } }
-				}
-			}
 			capital = 2030 # c_ramadi
 			
 			c_ramadi = { # 2030
@@ -271,12 +258,6 @@ e_al_mashriq = {
 			color={ 34 40 12 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 2035 province_id = 2036 province_id = 2037 province_id = 2038 province_id = 2039 } }
-				}
-			}
 			capital = 2035 # c_mosul
 			
 			c_mosul = { # 2035
@@ -379,12 +360,6 @@ e_al_mashriq = {
 			color={ 119 241 56 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 2040 province_id = 2041 province_id = 2042 province_id = 2043 province_id = 2044 province_id = 2045 province_id = 2046 } }
-				}
-			}
 			capital = 2040 # c_erbil
 			
 			c_erbil = { # 2040
@@ -506,12 +481,6 @@ e_al_mashriq = {
 			color={ 50 41 38 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 2047 province_id = 2048 province_id = 2049 province_id = 2050 province_id = 2051 province_id = 2052 } }
-				}
-			}
 			capital = 2047 # c_basrah
 			
 			c_basrah = { # 2047
@@ -1600,7 +1569,7 @@ e_al_mashriq = {
 				b_jish = {
 				}
 			}
-			c_galil_tachton = { # 1971
+			c_galil = { # 1971
 				color={ 212 220 43 }
 				color2={ 255 255 255 }
 				
