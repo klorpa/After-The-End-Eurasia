@@ -10,13 +10,177 @@ israelite = {
 		color = { 0.4 0.8 0.87 }
 
 		male_names = {
-			Adam
+			Adam 
+
 		}
 		female_names = {
-			Esther
-		}
-		from_dynasty_prefix = "of "
+			Ester
 
+		}
+		from_dynasty_prefix = " "
+		
+		
+		male_patronym = "ben "
+		female_patronym = "bat "
+		prefix = yes
+
+		pat_grf_name_chance = 0
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
+	yiddish = {
+		graphical_cultures = { westernslavicgfx easternslavicgfx }
+		unit_graphical_cultures = { easternslavicgfx westernslavicgfx }
+		
+		color = { 0.5 0.05 0.05 }
+
+		male_names = {
+			Abba Adam_Adam Aharon_Aaron Akiva Alexander_Alexander Alter Amram Ariel Asher Avomai Avraham_Abraham
+			Baruch_Benedict Benesh_Benedict Ber Ben-Tzion Binyamin_Benjamin Bunem
+			Calev Chananel Chaninai Chanoch Chatzkel Chayim Chelbo Chisdai Chiyya Chizkiyah Chofni Chushiel
+			Dan_Daniel Daniel_Daniel David_David Dodai Dov
+			Efrayim_Ephraim Ehud Eina Elchanan Eldad Eli Eliezer Elimelech Eliyahu_Elijah Elyakim Ethan
+			Faivish Feivel Fishel Fishke Frederik_Frederick
+			Gavriel_Gabriel Gad Gedalyah Gershom Gershon Gideon_Gideon Gilead
+			Harold Hersh Hershel Hillel
+			Ivomai Israel Issac_Isaac Issur Immanuel_Emmanuel
+			Kafnai Kahana Kalmen Khlavne Koppel_Jacob
+			Jonah Josh_Joshua Joseph_Joseph Jonathan_Jonathan
+			Lazar_Lazarus Leonard_Leonard Levi
+			Maxwell Machir Malcha Matiyahu_Matthew Meir Mendel Menechem Menashe Mesharsheya Meshulam Mevasser Michael_Michael Mordechai Motel Moshe_Moses
+			Naftali Nachman Nosson_Nathan Natroi Natronai Nechemiah_Nehamiah Nehilai Nesanel Nissim Noah
+			Paltoi Pirkoi Pinchas
+			Ram Rav Reuven_Ruben
+			Saul_Paul Sam_Samuel Selig Sechok Sender_Alexander Seth "Shem Tov" Shalom Shanoi Shemaryah Sherira Sheshna Shila Shimon_Simon Shlomo_Solomon Shmuel_Samuel Simcha 
+			Tevye Todres_Theodore Tzadok Zion Tzemach Tzvi
+			Uri Uzziyahu
+			Velvel_William Volef
+			Yaakov_Jacob Yachya Yechiam Yechiel Yedidiah Yehudah_Judah Yeshua_Joshua Yeshayahu Yisroel Yissachar Yitzchak Yochanan_John Yehonatan_Jonathan Yoel "Yom Tov" Yosef_Joseph
+			Zachary_Zachary Zevulun_Zebulon Zlate Zusman Ze'ev Zvi
+		}
+		
+		female_names = {
+			Adina Alte Alisa_Alice Ariela Avigayil
+			Batsheva Baila Batzion Baylah Belet Beth Beylke Bilhah Bluma Breindel Bielke
+			Chana Chava Chaya Catherine_Catherine Carmen Charna Clara
+			Dalia Daniela Doltza Dora Doris Devorah Dinah
+			Eidel Elisheva_Elizabeth Emma Esther
+			Faigel Fanny Feige Fran Freyde Fruma
+			Gavriela_Gabriele Gittel Golda Gladys Gluke Glukel Guta Guthela
+			Hagit Hannah_Anne Henye_Anne Hila Hodel Hudes
+			Isabel_Isabelle 
+			Kaila Kreindel Kreine
+			Leah Leeba Lisa_Elizabeth
+			Malka Mazel Matrona Michal Michelle Milcah Minna Mirele_Mary Miriam_Mary
+			Naomi Natalie Nikki_Nicole Noa
+			Perle Puah Pultzelina
+			Rachel Raisa Rebecca_Rebecca Reina Rivkah_Rebecca Rosa Ruth Ruchche
+			Sara_Sarah Scolaster Shayna Sheine Shifrah Shonlin Shluida Shoshana_Susan Shprintza Sisel Sophia_Sofia
+			Tamar Tova Tziporah Tzieitel 
+			Velvela
+			Yehudit Yente Yentl
+			Zelda Zilpa Zisel Zoe Zusa
+		}
+
+		from_dynasty_prefix = "fun "
+
+		male_patronym = "ben "
+		female_patronym = "bat "
+		prefix = yes
+
+		pat_grf_name_chance = 0
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
+	sefardi = {
+		graphical_cultures = { byzantinegfx arabgfx egyptiangfx }
+		
+		color = { 0.4 0.8 0.7 }
+
+		male_names = {
+			Abiezer Abadias_Ovadia Abram_Abraham Adam Aharon Akiba Amnon Amram Amos Arie Ariel Aryeh
+			Asher_Asher Asherico_Asher Avraham_Abraham Azaria Azran_Ezra Azriel  
+			Bahya Barzilai Barukh_Baruch Bebert_Albert Benyamin Bekhor Ben-Tzion Bessalel Binchas_Pinchas Boaz Bonjuha Bourak_Baruch 
+			Caleb Cevi_Tzvi Chaim_Haim Chemtoub_"Shem Tov"
+			Damam Dan Davi_David David_David Dudi
+			Efraim Elazar Eldad Elhanan Eli Eliahu Elisha Eliashiv Eliezer Elkana Eviatar Ezmel Ezra 
+			Gabriel_Gabriel Gad Gerson Gideon_Gideon Giora Gibri_Gabriel Ghedalia
+			Habib Haggai Hakham Haim_Haim Hanania Hannoun Hanokh Hassin Hasdai Haskia Haskiel Hayim_Haim Hillel Hizkia
+			Ibrahim Imanuel Ishmael Isakito Israel Itamar
+			Lazar_Elazar Levi Lisha
+			Maimon Makhlouf Malakhi Mallah Manasse Maor Marco Massoud Matatia Mayer Menachem Menashe Meshulam Meir Messod Mimun Moshe Mordo Mori Mordekhai Moyses 
+			Naftali Nahman Nahum Natan Natanel Nehemia Nehorai Nisim Nissin Noah 
+			Obadia Oded Ohad Oriel Ovadia Ozer
+			Pesah Peres Perahia Petahia Pinhas Presiado
+			Rabenu Rafi_Rafael Rafael_Rafael Rahamim Rami Ruben
+			Saadia Saadon Sadok Salomon_Solomon Said Salem Sason Semah Sevi Shabtai Shalev Shalom Shaul Shaya
+			Shemaria Shemaya Shimon Shimshon Shlomo_Solomon  "Shem Tov" Shmuel_Samuel Silvan Simhon 
+			Tchelebi Toubia Tsadik Tsemah Tsion
+			Ulad Uriel Uziel
+			Veissi Vidal
+			Yaakov Yamin Yakir Yedidiah Yefet Yehezkel  Yehia Yehiel Yehoshua Yehuda_Judah Yekutiel Yeshaya Yiftah Yigal Yirmiyahu Yitzhak Yoel "Yom Tov" Yona_Jonah Yonatan_Jonathan Yosef_Joseph Yuda_Judah 
+			Zadik Zekharia Zerah Ziko Zion Zikri
+
+		}
+		female_names = {
+			Achinoam Ada Adi Adina Agar_Hagar Alegra Aljafa Amalia Amada Ajohar Alegria Asibuena Awali Aziza
+			Batsheva Batia_Batya Bekhora Bellida Benouta Benvenuta Brakha 
+			Chana Chaya Cima Clara
+			Dana Dalya Debora Dina Dudu Dulsa
+			Edna Elana Elisa Elisheva Ermoza Ester_Ester Estreya Etty_Ester
+			Fabuena Fanoula Farida Flora Fortuna
+			Gali Ghezala Gila Giudita_Yehudit Guemara 
+			Hadassa Habiba Hasiba Hanem Hanna Hannula Hagar_Hagar Hatun Hasiba Hava Haya Hnina Hora Hursi
+			Iohana Ines Izza Ilana
+			Jamila Jemima Johanna Johar
+			Kamra Komprada
+			Laila Lea Lina Lucia Lulu Lumbre Lydia
+			Maey Malka Malkuna Margalit Marhaba Mati Mato Mazal Mazalta Myriam Maymona Menora Mercedes Mina Misol Muna 
+			Naama Nadjma Naomi Naziha Nehama Nina
+			Ofra Ori Orly Oroduenia Orovida Orna Oumila
+			Palomba Penina Perla Presiada 
+			Rahel Rachel Rivka Reina Rahma Rahmouna Rica Ronit Rosula Rumiya Ruth
+			Saada Sabatia Saida Saphira Sara Saraya Sarit Sefora Sheba Shira Shoshana Sida Sima Simha Smadar Sol Solica Stella Sterina
+			Tamar Tolsana Tsipora Tsoulia
+			Ventura Vida Violeta
+			Yael Yafa Yakot Yasmin Yehudit Yokheved 
+			Zafira Zahra Zana Zehava Zinbul Ziza
+
+		}
+		
+		from_dynasty_prefix = " "
+		male_patronym = " Ben "
+		female_patronym = " Bat "
+		#grammar_transform =
+
+		pat_grf_name_chance = 0
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+				
 		modifier = default_culture_modifier
 	}
 }

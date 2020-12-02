@@ -1398,9 +1398,10 @@ jewish = {
 			GOD_GOD GOD_HASHEM
 		}
 		evil_god_names = {
-			BAAL
+			YETZER_HARA
 		}
 		
+		autocephaly = yes
 		can_grant_divorce = yes
 		can_grant_invasion_cb = invasion
 		allow_rivermovement = yes
@@ -1413,10 +1414,10 @@ jewish = {
 		
 		expel_modifier = expelled_jewish
 		
-		intermarry = hasakalah
+		intermarry = haskalah
 		intermarry = ivri
 	}
-	hasakalah = {
+	haskalah = {
 		graphical_culture = jewishgfx
 		
 		icon = 9
@@ -1428,6 +1429,10 @@ jewish = {
 		god_names = {
 			GOD_GOD GOD_THE_LORD ADONAI
 		}
+		evil_god_names = {
+			YETZER_HARA
+		}
+		
 		
 		crusade_name = GREAT_HOLY_WAR
 
@@ -1437,6 +1442,7 @@ jewish = {
 		priests_can_marry = yes
 		female_temple_holders = yes
 		feminist = yes
+		can_demand_religious_conversion = no
 		priests_can_inherit = no
 		hard_to_convert = yes
 		
@@ -1454,9 +1460,14 @@ jewish = {
 		icon = 10
 		
 		color = { 0.1 0.8 0.8 }
+
+		high_god_name = ADONAI
 		
 		god_names = {
 			GOD_GOD GOD_HASHEM GOD_THE_LORD
+		}
+		evil_god_names = {
+			YETZER_HARA
 		}
 		
 		crusade_name = GREAT_HOLY_WAR
@@ -1474,7 +1485,7 @@ jewish = {
 		expel_modifier = expelled_jewish
 		
 		intermarry = haredi
-		intermarry = hasakalah
+		intermarry = haskalah
 	}
 }
 indian_group = { #placeholder
