@@ -223,6 +223,34 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	spriteType = {
+		name = "GFX_trait_haredi_breslov"
+		texturefile = "gfx/traits/haredi_breslov.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_haredi_chassid"
+		texturefile = "gfx/traits/haredi_chassid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_haredi_litvak"
+		texturefile = "gfx/traits/haredi_litvak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_haredi_sepharadi"
+		texturefile = "gfx/traits/haredi_sepharadi.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 	
 	#Decisions
 	spriteType = {
@@ -236,5 +264,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_nh_salon_visit"
 		texturefile = "gfx\\interface\\nh_salon_visit.dds"
+	}
+	spriteType = {
+		name = "GFX_switch_haredi"
+		texturefile = "gfx\\interface\\switch_haredi.dds"
 	}
 }

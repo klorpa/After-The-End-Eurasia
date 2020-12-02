@@ -1,0 +1,32 @@
+decisions = {
+switch_haredi = {
+		ai = no
+		
+		potential = {
+			religion = haredi
+			is_playable = yes
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			NOT = { has_character_flag = changedharedibranch }
+		}
+		
+		allow = {
+			religion = haredi
+			is_playable = yes
+			piety = 500
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				narrative_event = { id = jewish.1 }				
+			}
+			piety = -250
+			add_character_modifier = { name = haredi_outrage years = 10 }
+			set_character_flag = changedharedibranch
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+}
