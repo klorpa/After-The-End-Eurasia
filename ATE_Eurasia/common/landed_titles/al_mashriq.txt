@@ -1346,6 +1346,7 @@ e_al_mashriq = {
 		
 		capital = 1958 # c_west_jerusalem
 		
+		
 		d_jerusalem = {
 			color={ 135 156 114 }
 			color2={ 255 255 255 }
@@ -1385,6 +1386,9 @@ e_al_mashriq = {
 				holy_site = ruhi
 				holy_site = nizami
 				holy_site = ashari
+				holy_site = haredi
+				holy_site = ivri
+				holy_site = haskalah
 				
 				b_al_quds = {
 				}
@@ -1431,6 +1435,9 @@ e_al_mashriq = {
 				color={ 212 220 43 }
 				color2={ 255 255 255 }
 				
+				holy_site = ivri
+				holy_site = haskalah
+				
 				b_beit_shean = {
 				}
 				b_nazareth = {
@@ -1457,11 +1464,11 @@ e_al_mashriq = {
 				color={ 178 178 161 }
 				color2={ 255 255 255 }
 				
-				b_netanya = {
-				}
+				b_jaffah = {
+				}		
 				b_tel_aviv = {
 				}
-				b_jaffah = {
+				b_netanya = {
 				}
 				b_rishon_lezion = {
 				}
@@ -1565,6 +1572,9 @@ e_al_mashriq = {
 			c_hebron = { # 1963
 				color={ 167 168 127 }
 				color2={ 255 255 255 }
+				
+				holy_site = ivri
+				holy_site = haredi
 				
 				b_ad_dhahiriya = {
 				}
