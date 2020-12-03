@@ -237,76 +237,89 @@ narrative_event = {
 }
 
 # The City of World's Desire
-#narrative_event = {
-#	id = ottoman.6
-#	title = EVTNAMEottoman.6
-#	desc = EVTDESCottoman.6
-#	
-#	picture = GFX_istanbul
-#	
-#	ai = no
-#	
-#	trigger = {
-#		has_dlc = "Legacy of Rome"
-#		is_alternate_start = no
-#		OR = {
-#			has_landed_title = e_turkey
-#			has_landed_title = e_ottoman_empire
-#		}
-#		OR = { 
-#				religion = nizami
-#				religion = ruhi
-#		}
-#		NOT = { has_global_flag = trakya }
-#		completely_controls = d_instanbul
-#	}
-#	
-#	mean_time_to_happen = {
-#		days = 1
-#	}
-#	
-#	option = {
-#		name = EVTOPTAottoman.6
-#		set_global_flag = trakya
-#		prestige = 100
-#	}
-#}
-#
+narrative_event = {
+	id = ottoman.6
+	title = EVTNAMEottoman.6
+	desc = EVTDESCottoman.6
+	
+	picture = GFX_istanbul
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		NOT = { has_global_flag = trakya }
+		completely_controls = d_istanbul
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.6
+		set_global_flag = trakya
+		prestige = 100
+	}
+}
+
 # Unification of Anadolu
-#narrative_event = {
-#	id = ottoman.7
-#	title = EVTNAMEottoman.7
-#	desc = EVTDESCottoman.7
-#	
-#	picture = GFX_victory_march_ottoman
-#	
-#	ai = no
-#	
-#	trigger = {
-#		has_dlc = "Legacy of Rome"
-#		is_alternate_start = no
-#		OR = {
-#			has_landed_title = e_turkey
-#			has_landed_title = e_ottoman_empire
-#		}
-#		OR = { 
-#				religion = nizami
-#				religion = ruhi
-#		}
-#		NOT = { has_global_flag = anadolu }
-#		completely_controls = d_ankara
-#	}
-#	
-#	mean_time_to_happen = {
-#		days = 1
-#	}
-#	
-#	option = {
-#		name = EVTOPTAottoman.7
-#		set_global_flag = anadolu
-#		prestige = 100
-#	}
-#}
+narrative_event = {
+	id = ottoman.7
+	title = EVTNAMEottoman.7
+	desc = EVTDESCottoman.7
+	
+	picture = GFX_victory_march_ottoman
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_turkey
+			has_landed_title = e_ottoman_empire
+		}
+		OR = { 
+				religion = nizami
+				religion = ruhi
+		}
+		NOT = { has_global_flag = anadolu }
+		completely_controls = d_trabzon
+		completely_controls = d_samsun
+		completely_controls = d_zonguldak
+		completely_controls = d_antalya
+		completely_controls = d_ankara
+		completely_controls = d_cappadocia
+		completely_controls = d_cilicia
+		completely_controls = d_hatay
+		completely_controls = d_kirikkale
+		completely_controls = d_konya
+		completely_controls = d_aydin
+		completely_controls = d_izmir
+		completely_controls = d_marmara
+		completely_controls = d_tekirdag
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAottoman.7
+		set_global_flag = anadolu
+		prestige = 100
+	}
+}
 
 # Restoration of Hijaz
 narrative_event = {
@@ -501,9 +514,18 @@ narrative_event = {
 		completely_controls = d_dunavska_ravina
 		completely_controls = d_ruse
 		completely_controls = d_trakiyska_nizina
-		completely_controls = d_albania
+		completely_controls = d_tirana
+		completely_controls = d_vlore
 		completely_controls = d_kosovo
-		#More duchies will be added when they exist
+		completely_controls = d_attica
+		completely_controls = d_roumeli
+		completely_controls = d_ionian_isles
+		completely_controls = d_south_aegean_islands
+		completely_controls = d_north_aegean_islands
+		completely_controls = d_crete
+		completely_controls = d_peloponnese
+		completely_controls = d_south_macedonia
+		completely_controls = d_north_macedonia
 	}
 	
 	mean_time_to_happen = {

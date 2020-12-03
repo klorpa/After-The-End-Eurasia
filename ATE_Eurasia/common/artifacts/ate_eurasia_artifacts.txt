@@ -270,3 +270,26 @@ the_spiritual_contract = {
 	picture = "GFX_book"
 	slot = library
 }
+
+####Christian Artifacts####
+
+ethics_boenhoeffer = {
+	learning = 2
+	lutheran_opinion = 5
+	monthly_character_piety = 0.25
+	quality = 3
+	flags = { christian boenhoeffer book }
+	active = {
+		AND = {
+			is_adult = yes
+			learning = 10
+			religion_group = christian
+			}
+		}
+	allowed_gift = {
+		always = no 
+	}
+	stacking = no
+	picture = "GFX_book_etiquette_3"
+	slot = library 
+}
