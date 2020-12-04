@@ -1529,7 +1529,7 @@
 	name="Jean"
 	dynasty=2009226 #Hauteroute
 	culture=parisian
-	religion=sun_king_cultist
+	religion=jacobin
 	diplomacy=4
 	martial=7
 	stewardship=10
@@ -1554,7 +1554,7 @@
 	female=yes
 	dynasty= 2009227 #Duras
 	culture=parisian
-	religion=sun_king_cultist
+	religion=jacobin
 	diplomacy=5
 	martial=3
 	stewardship=6
@@ -1573,7 +1573,7 @@
 	name="Ulysse"
 	dynasty=2009226 #Hauteroute
 	culture=parisian
-	religion=sun_king_cultist
+	religion=jacobin
 	diplomacy=6
 	martial=5
 	stewardship=8
@@ -1596,7 +1596,7 @@
 	female=yes
 	dynasty=2009226 #Hauteroute
 	culture=parisian
-	religion=sun_king_cultist
+	religion=jacobin
 	diplomacy=5
 	martial=4
 	stewardship=7
@@ -1615,7 +1615,7 @@
 	name="Stanislas"
 	dynasty=2009228 #Outreterre
 	culture=parisian
-	religion=jacobin
+	religion=sun_king_cultist
 	diplomacy=6
 	martial=9
 	stewardship=5
@@ -1637,7 +1637,7 @@
 	female=yes
 	dynasty=2009229 #Dubellay
 	culture=parisian
-	religion=jacobin
+	religion=sun_king_cultist
 	diplomacy=6
 	martial=5
 	stewardship=6
@@ -1650,7 +1650,7 @@
 	female=yes
 	dynasty=2009228 #Outreterre
 	culture=parisian
-	religion=jacobin
+	religion=sun_king_cultist
 	diplomacy=2
 	martial=2
 	stewardship=1
@@ -1884,4 +1884,192 @@
 	trait=greedy
 	trait=dwarf
 	2621.1.1={birth=yes}
+}
+1804121={
+	name="Habib"
+	dynasty=2007233 #Absalem
+	culture=sefardi
+	religion=ivri
+	diplomacy=8
+	martial=5
+	stewardship=7
+	intrigue=6
+	learning=8
+	trait=grey_eminence
+	trait=stubborn
+	trait=zealous
+	trait=chaste
+	trait=drunkard
+	trait=mystic
+	trait=temperate
+	trait=ruthless
+	2615.8.4={birth=yes}
+	2635.3.23={
+		add_spouse=1804122
+	}
+}
+1804122={
+	name="Ada"
+	female=yes
+	dynasty=2007234 #Des Goudes
+	culture=sefardi
+	religion=ivri
+	diplomacy=7
+	martial=3
+	stewardship=6
+	intrigue=8
+	learning=8
+	trait=elusive_shadow
+	trait=seductress
+	trait=gregarious
+	trait=paranoid
+	trait=slothful
+	trait=familyperson
+	trait=temperate
+	2616.1.18={birth=yes}
+}
+1804123={
+	name="Aharon"
+	dynasty=2007233 #Absalem
+	culture=sefardi
+	religion=ivri
+	diplomacy=7
+	martial=7
+	stewardship=6
+	intrigue=4
+	learning=6
+	trait=tough_soldier
+	trait=wroth
+	trait=proud
+	trait=ambitious
+	trait=dull
+	father=1804121
+	mother=1804122
+	2640.12.1={birth=yes}
+}
+1804124={
+	name="Shemaya"
+	dynasty=2007233 #Absalem
+	culture=sefardi
+	religion=ivri
+	diplomacy=7
+	martial=5
+	stewardship=7
+	intrigue=3
+	learning=8
+	trait=scholarly_theologian
+	trait=poet
+	trait=shy
+	trait=feeble
+	trait=coward	
+	trait=scholar
+	trait=diligent
+	father=1804121
+	mother=1804122
+	2648.2.12={birth=yes}
+}
+1804125={
+	name="Brakha"
+	female=yes
+	dynasty=2007233 #Absalem
+	culture=sefardi
+	religion=ivri
+	diplomacy=5
+	martial=3
+	stewardship=5
+	intrigue=5
+	learning=4
+	trait=playful
+	trait=ambitious
+	trait=haughty
+	father=1804121
+	mother=1804122
+	2653.12.13={birth=yes}
+}
+1804126={
+	name="Guilyômo"
+	dynasty=2011207 #Vizille
+	culture=arpitan
+	religion=chronicler
+	diplomacy=6
+	martial=7
+	stewardship=6
+	intrigue=8
+	learning=5
+	trait=intricate_webweaver
+	trait=shy
+	trait=honorable
+	trait=deceitful
+	trait=wroth
+	2628.10.31={birth=yes}
+	2648.11.24={
+		add_spouse=1804127
+	}
+}
+1804127={
+	name="Alisa"
+	female=yes
+	dynasty=2011037 #Blanc-Travaillon
+	culture=arpitan
+	religion=chronicler
+	diplomacy=5
+	martial=4
+	stewardship=4
+	intrigue=3
+	learning=5
+	trait=detached_priest
+	trait=stubborn
+	trait=homosexual
+	trait=chaste
+	trait=cynical
+	trait=charitable
+	2631.6.2={birth=yes}
+}
+1804128={
+	name="Pahcâl"
+	dynasty=2011037 #Vizille
+	culture=arpitan
+	religion=chronicler
+	diplomacy=3
+	martial=6
+	stewardship=5
+	intrigue=4
+	learning=4
+	trait=haughty
+	trait=proud
+	father=1804126
+	mother=1804127
+	2652.9.18={birth=yes}
+}
+1804129={
+	name="Eve"
+	dynasty=2011037 #Vizille
+	culture=arpitan
+	religion=chronicler
+	diplomacy=3
+	martial=3
+	stewardship=5
+	intrigue=2
+	learning=2
+	trait=fussy
+	trait=idolizer
+	father=1804126
+	mother=1804127
+	2656.2.21={birth=yes}
+}
+1804130={
+	name="Flavièn"
+	dynasty=2011037 #Vizille
+	culture=arpitan
+	religion=chronicler
+	diplomacy=2
+	martial=2
+	stewardship=1
+	intrigue=3
+	learning=1
+	trait=affectionate
+	trait=curious
+	father=1804126
+	mother=1804127
+	2660.12.11={birth=yes}
 }
