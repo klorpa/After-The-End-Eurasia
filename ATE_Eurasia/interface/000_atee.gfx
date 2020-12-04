@@ -251,6 +251,13 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	spriteType = {
+		name = "GFX_trait_alevi"
+		texturefile = "gfx/traits/alevi.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 	
 	#Decisions
 	spriteType = {
@@ -268,5 +275,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_switch_haredi"
 		texturefile = "gfx\\interface\\switch_haredi.dds"
+	}
+	spriteType = {
+		name = "GFX_celebrate_ashura"
+		texturefile = "gfx\\interface\\decision_icon_celebrate_ashura.dds"
+	}
+	spriteType = {
+		name = "GFX_become_alevi"
+		texturefile = "gfx\\interface\\decision_icon_become_alevi.dds"
 	}
 }

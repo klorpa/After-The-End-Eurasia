@@ -32,6 +32,11 @@ imperial_ottoman_restoration = {
 
 	can_use_title = { #more titles will be added when those places start existing
 		OR = {
+			#Turkey
+			de_jure_liege_or_above = k_ege
+			de_jure_liege_or_above = k_anatolia
+			de_jure_liege_or_above = k_karadeniz
+			de_jure_liege_or_above = k_east_anatolia
 			#Sham
 			de_jure_liege_or_above = k_jordan
 			de_jure_liege_or_above = k_lebanon
@@ -52,6 +57,8 @@ imperial_ottoman_restoration = {
 			#Rumelia (Balkans)
 			de_jure_liege_or_above = k_albania
 			de_jure_liege_or_above = k_bulgaria
+			de_jure_liege_or_above = k_greece
+			de_jure_liege_or_above = k_macedonia
 			#Yugoslavia
 			de_jure_liege_or_above = k_croatia
 			de_jure_liege_or_above = k_bosnia
