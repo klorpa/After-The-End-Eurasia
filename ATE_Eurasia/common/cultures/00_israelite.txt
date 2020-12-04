@@ -11,7 +11,7 @@ israelite = {
 
 		male_names = {
 			Abba Adam Adisu Ageze Aharon Akiva Alon Amos Amit Amitai Amir Amnon Amram Arad Ari Ariel Arik Aryeh Asaf Asi Avi Avigdor Avihu Avishai Aviram Aviv Avner Avraham_Abraham  
-			Barukh_Baruch Ben Benny Boris
+			Barukh_Baruch Barak Ben Benny Bezalel Boris
 			Chaim_Haim Chanoch
 			Dan Danny David Dor Doron Dov Dover Dror Dudi Dudu 
 			Effie Ehud Eitan Elchanan Eldad Elam Elazar Eli Eliezer Eliran Eliyahu_Elijah Elon Elroi Etgar Erel Erez Eyal
@@ -32,27 +32,27 @@ israelite = {
 			Zadik Zalman Zohar Zvi Ze'ev Ziv Zion
 		}
 		female_names = {
-			Abigail Achinoam Adi Adina Adva Agam Alona Alma Almog Aliya Anastasia Amit Ariel Avital Aviva Aura Ayala Ayelet
+			Abigail Achinoam Adi Adina Adva Agam Anael Alona Alma Almog Aliya Anastasia Amit Ariel Avital Aviva Avivit Aura Ayala Ayelet
 			Bar Batya "Bat El" Brakha
 			Carmel Chana Chava Chaya Chen
-			Dani Danielle Daniela Dalya Dana Darya Dina Dorit Dvora Dora
-			Eden Efrat Elah Elana Elisheva Elinor Elah Eilat Ester Esti Etti_Ester
-			Gal Gali Galit Gefen Geula Gila Gili Golda 
+			Dalya Dana Dani Daniela Danielle Danit Daphna Darya Dekel Dina Dora Dorit Dvora
+			Eden Efrat Elah Elana Elisheva Elinor Elah Eilat Einat Ester Esti Etti_Ester
+			Gal Gali Galit Galya Gefen Geula Gila Gili Golda 
 			Hadar Hadas Hadassa Hagar Halleli Hila Hili Hodaya
 			Ilanit Ilana Inbar Inbal Irina
 			Keren
-			Leah Lia Liat Lilach Liron Linor Liraz Lital Liv Lipaz Lian Liri
-			Maayan Malka Margalit Marina Maya Mai Meirav Meitar Meshi Meskie Michal Miri Miriam Mor Moran Moriah
+			Leah Lia Lior Liat Lilach Liron Linor Linoy Liraz Lital Liv Lipaz Lian Liri
+			Maayan Mai Malka Margalit Marina Maya Maytal Meirav Meitar Meshi Meskie Michal Miri Miriam Mor Moran Moriah
 			Naama Natali Naomi Nechama Neta Netsanet Nini Nitzan Nofar Noa Noam Noga Noya Nurit
-			Odeya Ofira Ofra Oshra Orit Or Ori Oria Orly Orna Ophir
+			Odeya Ofira Ofra Ofri Ofek Oshra Osnat Orit Or Ori Oria Orly Orna Ophir
 			Paz Pnina
-			Rachel Raz Reut Rivka Roni Ronit Ruti Rona
-			Sarit Sigalit Sivan Shani Sharon Shaked Shelly Shir Shira Shiran Shiri Shlomit Shoshana Shulamit Smadar Sapir Shapir
-			Tali Talia Tahounia Tamar Tatiana Tehila Tova Tsega Tzipi Tziporah Tzvia
+			Rachel Rakel Raz Reut Rivka Roni Ronit Rotem Ruti Rona
+			Sarit Sigalit Sivan Shani Shalev Sharon Shaked Shelly Shir Shira Shiran Shiri Shlomit Shoshana Shulamit Smadar Sapir Shapir Stav
+			Tal Tali Talia Tahounia Tamar Tatiana Tehila Tova Tsega Tzipi Tziporah Tzvia
 			Yael Yafit Yaheli Yasmin Yarden Yardena Yemima Yifat Yityish Yosefa Yuval
 			Zaharira Zehava Ze'eva Zeruya Ziva Zohar
 		}
-		from_dynasty_prefix = " "
+		
 		
 		
 		male_patronym = "ben "
@@ -97,7 +97,7 @@ israelite = {
 			Paltoi Pirkoi Pinchas
 			Ram Rav Reuven_Ruben
 			Saul_Paul Sam_Samuel Selig Sechok Sender_Alexander Seth "Shem Tov" Shalom Shanoi Shemaryah Sherira Sheshna Shila Shimon_Simon Shlomo_Solomon Shmuel_Samuel Simcha 
-			Tevye Todres_Theodore Tzadok Zion Tzemach Tzvi
+			Tevye Todres_Theodore Traitle Tzadok Zion Tzemach Tzvi
 			Uri Uzziyahu
 			Velvel_William Volef
 			Yaakov_Jacob Yachya Yechiam Yechiel Yedidiah Yehudah_Judah Yeshua_Joshua Yeshayahu Yisroel Yissachar Yitzchak Yochanan_John Yehonatan_Jonathan Yoel "Yom Tov" Yosef_Joseph
@@ -203,10 +203,8 @@ israelite = {
 
 		}
 		
-		from_dynasty_prefix = " "
 		male_patronym = " Ben "
 		female_patronym = " Bat "
-		#grammar_transform =
 
 		pat_grf_name_chance = 0
 		mat_grf_name_chance = 0
