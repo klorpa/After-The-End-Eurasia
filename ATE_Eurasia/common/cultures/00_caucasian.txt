@@ -34,22 +34,63 @@ caucasian = {
 	}
 
 	ossetian = {
-		graphical_cultures = { ugricgfx }
+		graphical_cultures = { easternslavicgfx }
 		
 		color = { 0.3 0.7 0.5 }
 
 		male_names = {
-			Aleksander_Alexander
+			Æhsarbeg Ækhsærtæg Ækhsar 
+			Abisal Afæqo_Athanasius Âkov_James Akhsar Akhsarbeg Ahmæt_Ahmad Alan Alêksêy_Alexis Alibeg Alimbeg Alyksandr_Alexander Amirhan Arsen_Arsene Artur_Arthur Aslan_Arslan Aslanbeg Asmat Atsæmæz 
+			Bæppij_John Bahvæ Bakhva Baris_Boris Batraz Batyradz Bega Bekyzæ Besik 
+			Dmitry_Demetrius Dhzambulad Dzæuyg Dzakhot Dzambedž Dzankhot Dzantemir 
+			Êdward_Edward Elbazduko Elbrus Elizbar 
+			Fedyr_Theodore Feliks_Felix 
+			Gæmæt Gajto Gela Giuærgi_George Gorki_Gregory 
+			Harithon Hetæg 
+			Ibragim_Abraham Il'âj_Elias Irbeg Isaq_Isaac Issæ Ivan_John 
+			Jabêy 
+			Kaurbeg Kazbeg Khadzhimurat Khasan_Hasan Khazbi Khetag Kim Kosta_Constantine Kuydzæg 
+			Lazær_Lazarus Leonid Leuan_Leo Lûdvig_Louis 
+			Mæhæmæt_Muhammad Maharbeg Mauladin Mikhal_Michael Murat_Murad Mushtæfa_Mustafa Muzafer_Muzaffar Mysost 
+			Nikhalaj_Nicholas 
+			Otar 
+			Phaule_Paul Petro_Peter 
+			Qambolat 
+			Ruslan 
+			Safar Sakhandzheri Salam Sarmat Sauarmæg Savelij Sergej_Sergius Seqa Serodin Soslan Soslanbeg Sozyr Sozyryqo Stanislav Sulayman_Solomon 
+			Tætærqan Tajmuraz Tamerlan Taymuraz_Teimuraz Timur Torez Totraz Tsomak Tsotsoko Tugan 
+			Uyryzmag 
+			Vâcheslav_Wenceslaus Vadim Valeri_Valerius Viktor Vitali Vladimir Vladislav 
+			Zaur Zaurbeg Zaza Zelimhan_Zelimkhan Zhamiræt Znauyr_Znaur 
 		}
 
 		female_names = {
-			Aleksandra_Alexandra 
+			Adadza Agunda Allæ Altun Ana_Anna Arianæ_Ariane Atsyrukhs
+			Borena Btsenon Burudukan
+			Duda Dzerassa 
+			Elenæ_Helen Eliso
+			Fatimæ_Fatima 
+			Gergana Gulchara Guranduht_Gorandukht
+			Irinæ_Irene Isabel 
+			Keratsa Ketevan_Catherine 
+			Lamara Lashin Lira 
+			Mariæ_Mary Mariamæ_Mary 
+			Nataliæ_Nathalie Natia 
+			Olgæ_Olga 
+			Roksalana Rushana Rusudan 
+			Sanatha Saræ_Sarah Satinik_Satinik Shatana Shorena Svetlanæ_Svetlana 
+			Veronikæ_Veronica 
+			Tamara_Tamar Tsiala 
+			Vardo Vedokha 
+			Zalina Zarina Zhanna Zinæ 
 		}
+		
+		dynasty_name_first = yes
 		
 		from_dynasty_prefix = "of "
 		
-		male_patronym = "ovich"
-		female_patronym = "ovna"
+		male_patronym = "y fyrt"
+		female_patronym = "y chyzg"
 		prefix = no
 
 		pat_grf_name_chance = 50
@@ -128,20 +169,59 @@ caucasian = {
 	abkhazian = {
 		graphical_cultures = { easternslavicgfx }
 		
-		color = { 0.2 0.6 0.2 }
+		color = { 0.0 0.6 0.24 }
 
 		male_names = {
-			Aleksander_Alexander
+			Aajsa_Joshua Abdala_Abdallah Abga Abrskil Adaga Adamär Adamej Adgur Ahmät_Ahmad Ajub_Job Akaki_Acacius Aksent Aläp_Alp Alias Almasxan Aläksandr_Alexander Almasbei Almaxsit Alow Altar Alxas Amiran Amza Anzor Arda Ardašäl_Ardeshir Anatol_Anatolius Andranik_Andronicus Antipa_Antipas Arakel Aram Ardaš Aršak Artak Artur_Arthur Arut Arutan Arzadin Arzaqan Aslan_Arslan Ašot_Ashot Astamur Astan Avdenia Avtandil Axra Axrik Azac Azamat Aziz 
+			Badr Baghärqan Bagrat Bakä-bei Batal Batärgärej Bazräqa Babäš Batal Batalbei Bazala Besik Beslan Boghos 
+			Dadaš Damär Daratija_Dorotheos Daräqa Därmit_Demetrius Daur_David Dawät_David Dikran Dzamal_Jamal 
+			Ebärham_Abraham Edär Ešsow Estat_Eusthatius 
+			Fardawäs_Firdows 
+			Galust Gari Gazia Givi Gozar Grigor_Gregory Gudisa 
+			Hakop_James Hamayak Hambartsum Hänap Hrant 
+			Istvine_Justinian Išxan Iurii_George 
+			Jasäf_Joseph Jašsow 
+			Käbra Kadär_Qadir Kamug Karapets Konstantin_Constantine Kräm_Karim Kuagu 
+			Madzät_Majid Mafa Malxaz Mamsär_Mansur Markoz_Mark Marzabak Melik Mirab Msaust Mstaabei Murat_Murad Musa_Moses Muxamed_Muhammad 
+			Naharbei Nart Nawräz Nazrun Nodar Nugzar Nuri 
+			Otar Ovanes_John Ozbak 
+			Pavel_Paul Petra_Peter 
+			Qan Qansow Qara 
+			Rafael_Raphael Rafik Raštam_Rustam Raul 
+			Sad Salämbak Salix Saluman_Solomon Šamil Samson Samvel_Samuel Sasräqa Satbei Saveli Savlak Sejäd_Said Sergei_Sergius Setrak Sokrat_Socrates Soslan Šuarax Suren 
+			Taif Talix Talum Tamaz Tatarqan Tejmär_Timur Temraz_Teimuraz Tengäz_Genghis 
+			Uasyl_Basil 
+			Vadim Vagharšak Valerii_Valerius Vaxtang_Vakhtang Vazgen Vazha Viktor_Victor Vladimir Volodja 
+			Xados Xamzat Xäršät_Xerxes Xasik Xrips 
+			Zakan Zaur Zegnak Zelimxan Zorik Zurab 
 		}
 
 		female_names = {
-			Aleksandra_Alexandra 
+			Aajša_Aisha Abzagë Ada Adesa Adler Almasxan Amina Amra Amza Anahid Anuš Apša Arda Arewaluys Asida Astanda Astghik 
+			Bärfänka Bašnux 
+			Cäbra C'äs-na 
+			Diana 
+			Edlä Edlähanäm Ejza Elvira Endza Ešja Esma Esmahanäm 
+			Farida 
+			Gälnara Gända Gašamafa Gašanäsa Gayane Gäzel Geganuš Gohar Gunda Guranduxt_Gurandukht 
+			Hanäm Haykanuš Hripsima 
+			Kaka Kaja Katwan Knarik Kuarasa 
+			Leila Liudmla 
+			Maria_Mary Mariahanäm Marina Mra-laša Mramza 
+			Naala Nanegyul Natelo 
+			Qarasa 
+			Pekruhi 
+			Rica 
+			Safra Safrahanäm Šamiram_Semiramis Satenik Seda Siranuš Siruš Šoghakat 
+			Tuana 
+			Xibla Ximra 
+			Zalina 
 		}
 		
 		from_dynasty_prefix = "of "
 		
 		male_patronym = "-ipa"
-		female_patronym = "ovna"
+		female_patronym = "-ipha"
 		prefix = no
 
 		pat_grf_name_chance = 50
