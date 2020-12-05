@@ -1,5 +1,5 @@
 decisions = {
-switch_haredi = {
+	switch_haredi = {
 		ai = no
 		
 		potential = {
@@ -29,4 +29,113 @@ switch_haredi = {
 		revoke_allowed = {
 			always = no
 		}
+	}
+	restore_ivri_rabbi = {
+		only_independent = yes
+		is_high_prio = yes
+		ai_check_interval = 36
+		
+		potential = {
+			is_playable = yes
+			independent = yes
+			has_dlc = "Sons of Abraham"
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			religion = ivri
+			
+			controls_religion = no
+			
+			c_west_jerusalem = {
+				holder_scope = {
+					OR = {
+						character = ROOT
+						is_liege_or_above = ROOT
+					}
+					AND = {
+						ROOT = { religion = ivri }
+						d_ivri = {
+							holder_scope = {
+								NOT = { character = PREVPREV }
+								NOT = { is_vassal_or_below = PREVPREV }
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {		
+			if = {
+				limit = {
+					religion = ivri
+				}
+				d_ivri = {
+					holder_scope = {
+						c_west_jerusalem = {
+							grant_title = PREV
+							any_de_jure_vassal_title = {
+								limit = {
+									holder_scope = { 
+										OR = {
+											character = ROOT
+											is_liege_or_above = ROOT
+										}
+									}
+								}
+								grant_title = PREVPREV
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					religion = ivri
+					NOT = { has_character_flag = restored_chief_rabbi }
+				}
+				d_ivri = {
+					holder_scope = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_restored_chief_rabbi
+						}
+					}
+				}
+				piety = 1000
+				set_character_flag = restored_chief_rabbi
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					any_demesne_province = {
+						NOT = { province_id = 1958 }
+					}
+				}
+			}
+			modifier = {
+				factor = 5
+				trait = zealous
+			}
+			modifier = {
+				factor = 0
+				c_west_jerusalem = {
+					holder_scope = {
+						OR = {
+							ai = no
+							any_liege = { ai = no }  # AI will never take West Jerusalem province away from a player
+						}
+					}
+				}
+			}
+		}
+	}
 }
