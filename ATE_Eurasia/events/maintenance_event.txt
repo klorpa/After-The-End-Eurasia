@@ -1,0 +1,34 @@
+namespace = maintenance
+
+character_event = {
+	id = maintenance.1
+	hide_window = yes
+	is_triggered_only = yes
+	only_rulers = yes
+	war = no
+	
+	trigger = {
+		always = no
+		AND = {
+			landless = yes
+			has_landed_title = c_roman_patriarch
+		}
+	}
+	
+	immediate = {
+		set_government_type = theocracy_government
+		if = {
+			limit = { has_landed_title = c_roman_patriarch }
+			c_roman_patriarch = { destroy_landed_title = THIS }
+		}
+	}
+	
+	option = {
+		name = OK
+		set_government_type = theocracy_government
+		if = {
+			limit = {has_landed_title = c_roman_patriarch}
+			activate_title = { title = c_roman_patriarch status = no}
+		}
+	}	
+}
