@@ -3,56 +3,6 @@
 turkic_oghuz = {
 	graphical_cultures = { muslimgfx }
 
-	istanbulite = {
-		graphical_cultures = { persiangfx }
-		
-		color = { 0.0 0.35 0.66 }
-
-		male_names = {
-			Abdullah Ahmet_Ahmed Ali 
-			Berat 
-			Ekin Emir Emirhan Eymen 
-			Fatih Furkan 
-			Hasan Hüseyin_Hussein 
-			Ibrahim_Abraham Ismail_Ishmael 
-			Mehmet_Muhammad Muhammad Mustafa "Mustafa Kemal" 
-			Necmettin_Nejmeddin 
-			Ömer Onur Orhan Osman 
-			Recep 
-			Shevket Suleyman_Solomon 
-			Yahya_John Yusuf_Joseph 
-		}
-		female_names = {
-			Ayshe_Aisha Aytaç Azra 
-			Betül 
-			Deniz 
-			Ekin Emine Evrem 
-			Fatma_Fatima 
-			Gökçe Gulbahar 
-			Hatice 
-			Leila 
-			Mina 
-			Nehir Nilufer 
-			Öykü 
-			Selma Songül Süyümbike 
-			Tilbe Tugçe 
-			Yagmur Yasmin_Jasmine 
-			Zehra_Zohra Zekiye Zeynep_Zeynab 
-		}
-		
-		founder_named_dynasties = yes
-
-		pat_grf_name_chance = 50
-		mat_grf_name_chance = 40
-		father_name_chance = 0
-		
-		pat_grm_name_chance = 30
-		mat_grm_name_chance = 30
-		mother_name_chance = 0
-
-		modifier = default_culture_modifier
-	}
-
 	west_anatolian = {
 		graphical_cultures = { persiangfx }
 		
@@ -315,6 +265,75 @@ turkic_oghuz = {
 		}
 
 		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	azeri = {
+		graphical_cultures = { persiangfx turkishgfx muslimgfx }
+		
+		color = { 0.2 0.4 0.3 }
+
+		male_names = {
+			Abbas "Abbas Äli" "Abbas Mirzä" Abbasgulu Äbdülcabbar Äbdülhüseyn Abdulla Äbdürrähim Äbdürrähman Äbülfäz Äbülqasim Ädalät Äfrasiyab Äkräm Aghakärim Aghalar Aghasadiq Aghasälim Aghateyyub Aghaxan Ähäd Ähmäd Ähmädiyyä Ähliman Akif Äläkbär Äläsgär Äli Äliagha Alif Älixan Allahsükür Allahverdi Änvär Amir Ämirhüseyn Araz Arzuman Äshräf_Ashraf Aslan_Arslan Aslanbäy Axundbala Aydin Äyyub Azad Äzim  
+			Babaxan Badal Bahlul Bähram Balabäy Bäxtiyar Boris Böyükagha Bulud 
+			Cäfär_Jafar Cäfärqulu Cahangir_Jahangir Cälal_Jalal Cämshid Ceyhun Çingiz_Genghis 
+			Dadash Dasdämir Davud_David Dilavär 
+			Elçin Eldäniz Eldar Elmar Elnur Elshad Emin Eynulla 
+			Faiq Färäc Färäculla Färhad_Farhat Färman Färrux Färzäli Farzi Fätäli Fättah Fätulla Fäxräddin_Fakhruddin Fazil Fevzi Fikrät Firidun Firuddin Fuad 
+			Häbib_Habib Häbibulla Habil Haciagha Hacibaba Hacibäy Hafiz Hamlet Hämid Hämzä_Hamza Harun_Aaron Häsän Häsänagha Heydär Hüseyn Hüseynagha Hüseynäli Hüseynqulu Hüseynxan 
+			Ibrahim_Abraham Idris Ilham Ilqar Ilyas_Elias Imam Isfar Isgändär_Alexander Ishaq_Isaac Ismät Ismayil_Ismail Ismayilagha Israfil Izzäddin_Izzuddin 
+			Kämal_Kemal Kämaläddin Kamran Kärbälayi Kazbek Kazim Kerim_Karim Khorshid Khosrow 
+			Lätif Lütfäli Lütfi Lütfiyar 
+			Mäcid Mähämmäd_Muhammad Mähärräm Mahir Mahmud Mämmäd_Muhammad Mämmädbaghir Mämmädagha Mämmädäli_Muhammad-Ali "Mämmäd Häsän" Mämmädrza Mänsum Maqsud Märdan Mäshädi Mehdi Mikayil_Michael Mirbäshir Mircäfär Mirshahin Mirteymur Mirzä Mirzäagha "Mirzä Fätäli" Mübariz Murad Murtuza Musa_Moses Müslüm_Muslim Mustafa Mütällim  
+			Namiq Näsib Nasir Näzakät Nazim Nijat Nizami Nüsrät 
+			Ömär_Umar Oqtay Orhan Osman_Uthman 
+			Pasha Polad 
+			Qädim Qädir Qähräman Qämär Qara Qasim Qäzänfär Qulam Qulamrza Qurban 
+			Rafiq Rähim Ramil Rämzi Räshid Rasim Räsul Rauf Rövshän Ruhulla Rüstäm Rza 
+			Sabit Sadiq Sädräddun Säfär Säfixan Sähraman Sälahäddin_Salahuddin Salamulla Salman Sämäd Samin Samir Saqif Särdar Säxavät Säyavush Sevinc Seyid_Sayyid Seyidäli Shahin Shähriyar Shämädagha Shämsi Shiräli Shirälibäy Shixäli Soltan Süleyman_Solomon Sultanhüseyn 
+			Tahir Tapdiq Telman Teymur_Timur Tofiq_Tawfiq Toghrul Tokay 
+			Üzeyir 
+			Väfa Vahid Väli Vaqif Vidadi Vüqar 
+			Xälil_Khalil Xanlar Xosrov_Khosrau Xudadat 
+			Yähya_John Yaqub_James Yashar Yunis_Jonas Yusif_Joseph 
+			Zakir Zaur Zeynalabidin Ziya 
+		}
+		female_names = {
+			Afaq Alaviyya Ayça_Aisha Aydan Aygün Aysel Äzizä 
+			Barat Brilliant 
+			Camila 
+			Diana Dilarä Dinarä 
+			Elmira 
+			Farah Färidä Färqanä Fatma_Fatima Fidan Firängiz 
+			Gülxar 
+			Irada 
+			Jalä 
+			Khorshid 
+			Hämidä Häqiqät Hökümä Homa 
+			Lalä Leyla 
+			Mädinä Maral Mehriban Mirvarid Monir Münävvär 
+			Nadia Naira Närgiz Näsibä Nasrin Natävan Nigar Nuray 
+			Oksana 
+			Qänirä Qeysär 
+			Rahilya Rahima Rena Rosa Rübabä 
+			Säbinä Säfurä Säkinä Salatin Sara_Sarah Sättar Sevinc Sevda Shahla Shirin Shövkät 
+			Xuraman 
+			Zahra Zemfira Zeynäb 
+		}
+
+		from_dynasty_prefix = "of "
+		
+		male_patronym = " oghlu"
+		female_patronym = " qizi"
+		prefix = no
 
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 40
