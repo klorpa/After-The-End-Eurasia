@@ -19,10 +19,10 @@
 }
 2501001={
 	name="Þorvaldur" ##god fucking dammit what the fuck
-	dynasty=2501084 #Eagle
+	dynasty=2501084 
 	father=8000226
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	trait=flamboyant_schemer
 	trait=genius
 	trait=slothful
@@ -40,7 +40,7 @@
 	dynasty=2501005 #Bull
 	culture=icelander
 	father=8000241
-	religion=lutheran
+	religion=lutheran #change to lutheran
 	trait=charismatic_negotiator
 	trait=administrator
 	trait=scholar
@@ -53,10 +53,10 @@
 }
 2501003={
 	name="Brján"
-	dynasty=2501106 #Giant
+	dynasty=2501106 
 	father=8000233
 	culture=icelander
-	religion=lutheran
+	religion=insular
 	trait=skilled_tactician
 	trait=viking
 	trait=fair
@@ -87,7 +87,7 @@
 	name="Kiljan"
 	dynasty=2501004 #Laxness
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	trait=mastermind_theologian
 	trait=poet
 	trait=stubborn
@@ -158,6 +158,11 @@
 	dynasty=2223001 #Sønderborg
 	culture=danish
 	religion=neuhumanist
+	trait=ambitious 
+	trait=thrifty_clerk
+	trait=zealous
+	trait=envious
+	trait=gregarious
 	2471.3.22={birth=yes}
 	2518.1.1={death={
 			death_reason=death_execution
@@ -2600,83 +2605,85 @@
 
 8000226={
 	name="Víglundur" ##iceoids
-	dynasty=2501084 #Eagle
+	dynasty=2501084 
 	father=8000227
 	culture=icelander
-	religion=lutheran
+	religion=folketro
 	2603.1.1={birth=yes}
 	2661.1.1={death=yes}
 }
 
 8000227={
 	name="Sturla" ##iceoids
-	dynasty=2501084 #Eagle
+	dynasty=2501084 
 	father=8000228
 	culture=icelander
-	religion=lutheran
+	religion=folketro
 	2589.1.1={birth=yes}
 	2634.1.1={death=yes}
 }
 
 8000228={
 	name="Nikulás" ##iceoids
-	dynasty=2501084 #Eagle
+	dynasty=2501084 
 	mother=8000229
 	culture=icelander
-	religion=lutheran
+	religion=folketro
 	2573.1.1={birth=yes}
 	2610.1.1={death=yes}
 }
 
 8000229={
 	name="Elín" ##iceoids
-	dynasty=2501084 #Eagle
+	dynasty=2501084 
 	female=yes
 	mother=8000230
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	2545.1.1={birth=yes}
 	2593.1.1={death=yes}
 }
 
 8000230={
 	name="Dís" ##iceoids
-	dynasty=2501084 #Eagle
+	dynasty=2501084 
 	female=yes
 	mother=8000231
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	2522.1.1={birth=yes}
 	2561.1.1={death=yes}
 }
 
 8000231={
 	name="Björk" ##iceoids
-	dynasty=2501084 #Eagle
+	dynasty=2501084 
 	female=yes
 	father=8000232
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	2497.1.1={birth=yes}
 	2542.1.1={death=yes}
 }
 
 8000232={
 	name="Sigurður " ##iceoids
-	dynasty=2501084 #Eagle
+	dynasty=2501084 
 	culture=icelander
 	religion=folketro
+	trait=giant 
+	trait=strong 
 	2481.1.1={birth=yes}
-	2499.1.1={give_nickname = nick_the_eagle}
+	2499.1.1={give_nickname = nick_the_giant}
 	2501.1.1={death=yes}
 }
 
 8000233={
 	name="Pálmar"
 	father=8000235
-	dynasty=2501106 #Giant
+	dynasty=2501106 
 	culture=icelander
-	religion=ichthysist
+	religion=insular
 	2596.1.1={birth=yes}
 	2649.1.1={death=yes}
 }
@@ -2684,9 +2691,9 @@
 8000234={
 	name="Mordekaí"
 	father=8000235
-	dynasty=2501106 #Giant
+	dynasty=2501106 
 	culture=icelander
-	religion=folketro
+	religion=insular
 	2590.1.1={birth=yes}
 	2641.1.1={death=yes}
 }
@@ -2694,9 +2701,9 @@
 8000235={
 	name="Dalbert"
 	father=8000236
-	dynasty=2501106 #Giant
+	dynasty=2501106 
 	culture=icelander
-	religion=folketro
+	religion=insular
 	2543.1.1={birth=yes}
 	2603.1.1={death=yes}
 }
@@ -2704,9 +2711,9 @@
 8000236={
 	name="Njál"
 	mother=8000237
-	dynasty=2501106 #Giant
+	dynasty=2501106 
 	culture=icelander
-	religion=folketro
+	religion=insular
 	2521.1.1={birth=yes}
 	2583.1.1={death=yes}
 }
@@ -2715,9 +2722,9 @@
 	name="Bríana"
 	female=yes
 	father=8000238
-	dynasty=2501106 #Giant
+	dynasty=2501106 
 	culture=icelander
-	religion=folketro
+	religion=insular
 	2488.1.1={birth=yes}
 	2557.1.1={death=yes}
 }
@@ -2725,9 +2732,9 @@
 8000238={
 	name="Patrekur"
 	father=8000239
-	dynasty=2501106 #Giant
+	dynasty=2501106 
 	culture=icelander
-	religion=folketro
+	religion=insular
 	2452.1.1={birth=yes}
 	2521.1.1={death=yes}
 }
@@ -2736,14 +2743,14 @@
 	name="Brján"
 	mother=8000240
 	father=8000271
-	dynasty=2501106 #Giant
+	dynasty=2501106 
 	culture=icelander
-	religion=folketro
+	religion=insular
 	trait=giant 
 	trait=strong 
 	trait=robust 
 	2434.1.1={birth=yes}
-	2490.1.1={give_nickname = nick_the_giant}
+	2490.1.1={give_nickname = nick_the_eagle}
 	2499.1.1={death=yes}
 }
 
@@ -2972,7 +2979,7 @@
 	father=8000267
 	dynasty=2501100 
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	trait=quick 
     trait=midas_touched	
 	trait=legendary
@@ -2985,7 +2992,7 @@
 	dynasty=2501100 
 	father=8000260
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	2300.1.1={birth=yes}
 	2330.1.1={give_nickname = nick_the_old}
 	2358.1.1={death=yes}
@@ -2996,7 +3003,7 @@
 	dynasty=2501100 
 	father=8000261
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	2330.1.1={birth=yes}
 	2300.1.1={give_nickname = nick_the_younger}
 	2361.1.1={death=yes}
@@ -3008,7 +3015,7 @@
 	female=yes
 	father=8000260
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	2302.1.1={birth=yes}
 	2346.1.1={death=yes}
 }
@@ -3018,7 +3025,7 @@
 	dynasty=2501100 
 	mother=8000263
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	2323.1.1={birth=yes}
 	2371.1.1={death=yes}
 }
@@ -3028,7 +3035,7 @@
 	dynasty=2501100 
 	father=8000264
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	2349.1.1={birth=yes}
 	2421.1.1={death=yes}
 }
@@ -3039,7 +3046,7 @@
 	dynasty=2501100 
 	father=8000262
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	2354.1.1={birth=yes}
 	2388.1.1={death=yes}
 }
@@ -3049,7 +3056,7 @@
 	father=8000268
 	dynasty=2501100 
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	trait=legendary
 	2280.1.1={birth=yes}
 	2311.1.1={death=yes}
@@ -3059,7 +3066,7 @@
 	name="Vígfus"
 	dynasty=2501100 
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	trait=legendary
 	2250.1.1={birth=yes}
 	2300.1.1={give_nickname = nick_the_prophet}
@@ -3071,7 +3078,7 @@
 	female=yes
 	dynasty=2501082
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	2332.1.1={birth=yes}
 	2370.1.1={death=yes}
 }
@@ -3081,7 +3088,7 @@
 	father=8000258
 	dynasty=2501107 #Dragon 
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	trait=strong
 	trait=giant 
 	2392.1.1={birth=yes}
@@ -3097,7 +3104,7 @@
 	father=8000270
 	dynasty=2501107 #Dragon 
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	trait=strong 
 	trait=giant
 	2409.1.1={birth=yes}
@@ -3111,7 +3118,7 @@
 	female=yes
 	dynasty=2501107 #Dragon 
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	2393.1.1={birth=yes}
 	2428.1.1={death=yes}
 }
@@ -3121,7 +3128,7 @@
 	female=yes
 	dynasty=2501108 
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	2468.1.1={birth=yes}
 	2517.1.1={death=yes}
 }
@@ -3132,7 +3139,7 @@
 	female=yes
 	dynasty=2501108 
 	culture=icelander
-	religion=ichthysist
+	religion=folketro
 	294.1.1={birth=yes}
 	2533.1.1={death=yes}
 }
@@ -5789,14 +5796,14 @@
 80003530={ 
 	name="Folke" #Duke of Finland
  	dynasty=2220347
-	culture=swedish
+	culture=fennoswede
 	religion=folketro
 	trait=elusive_shadow
 	trait=schemer
 	trait=is_fat 
 	trait=ambitious 
 	2612.1.1={birth=yes}
-	2650.1.1={give_nickname = nick_the_fat}
+	2650.1.1={give_nickname = nick_the_greater}
 	2670.1.1={death=yes}
 }
 
@@ -6076,6 +6083,7 @@
 	culture=chinese
 	religion=lutheran
 	trait=rowdy
+	trait=twin
 	trait=willful
 	2663.1.1={
 	    birth=yes
@@ -6092,6 +6100,7 @@
 	culture=chinese
 	religion=lutheran
 	trait=curious
+	trait=twin 
 	trait=conscientious
 	2663.1.1={
 	    birth=yes
@@ -6489,6 +6498,38 @@
 	employer = 8000111
 	2644.1.1={birth=yes}
 	2670.1.1={death=yes}
+}
+
+80003601={
+	name="Torstein"
+	culture=finnish
+	religion=lutheran
+	employer = 8000111
+	2634.1.1={birth=yes}
+	2670.1.1={death=yes}
+}
+
+8000127={
+	name="Akka"
+	female=yes
+	culture=sami
+	religion=folketro
+	trait=mastermind_theologian
+	trait=ambitious
+	trait=zealous 
+	trait=mystic
+	trait=brave
+	trait=legendary
+	occluded=yes 
+	disallow_random_traits = yes 
+	2000.1.1={birth=yes}
+	2100.1.1={
+	    create_bloodline = {
+		    type = snow_queen
+			has_dlc = "Holy Fury"
+		}
+	}
+	2150.1.1={death=yes}
 }
 
 80003601={
