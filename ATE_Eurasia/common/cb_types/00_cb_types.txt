@@ -3759,7 +3759,6 @@ crusade = {
 			AND = {
 				OR = {
 					religion = catholic
-					religion = fraticelli
 				}
 				has_global_flag = schism_mended
 			}
@@ -4323,7 +4322,7 @@ new_crusade = {
 				}
 				AND = {
 					has_global_flag = 4th_crusade_official
-					has_landed_title = e_byzantium
+					has_landed_title = e_baltic
 					NOT = { religion = ROOT }
 				}
 				is_heresy_of = ROOT
@@ -4337,10 +4336,7 @@ new_crusade = {
 		
 		NOT = { # Not if the Schism has been mended
 			AND = {
-				OR = {
-					religion = catholic
-					religion = fraticelli
-				}
+				religion = catholic
 				has_global_flag = schism_mended
 			}
 		}
@@ -4360,9 +4356,9 @@ new_crusade = {
 					title = PREV
 				}
 				PREV = {
-					title = k_thrace	
+					title = k_latvia	
 					FROM = { 
-						has_landed_title = e_byzantium 
+						has_landed_title = e_baltic 
 						religion_group = christian
 					}
 				} 
@@ -4459,7 +4455,7 @@ new_crusade = {
 			if = { # Achievement
 				limit = {
 					event_target:new_crusade_target_char = {
-						has_landed_title = e_byzantium
+						has_landed_title = e_baltic
 						religion_group = FROM
 					}
 				}
@@ -4512,7 +4508,6 @@ new_crusade = {
 						mercenary = no
 						NOR = {
 							has_landed_title = k_papal_state
-							has_landed_title = d_fraticelli
 						}
 						OR = {
 							AND = {
@@ -4789,7 +4784,7 @@ new_crusade = {
 				# Find a logical "Beneficiary" from any playable Catholic/Fraticelli ruler, if all else fails
 				else = {
 					most_participating_crusader = {
-						# Try to find a Catholic/Fraticelli ruler
+						# Try to find a Catholic ruler
 						if = {
 							limit = {
 								any_playable_ruler = {
@@ -4967,7 +4962,7 @@ new_crusade = {
 					limit = {
 						has_global_flag = 4th_crusade_official
 						crusade_target_title = {
-							title = k_thrace
+							title = k_latvia
 						}
 						FROM = {
 							religion_group = ROOT
@@ -4978,48 +4973,49 @@ new_crusade = {
 							}
 						}
 						crusade_target_char = {
-							e_byzantium = {
+							e_baltic = {
 								owner = {
 									character = PREVPREV
 								}
 							}
 						}
 					}
-					# Find a King for Trebizond
-					e_byzantium = {
+					# Find a King for Lithuania
+					e_baltic = {
 						owner = {
 							if = {
 								limit = {
 									NOT = {
 										any_playable_ruler = {
-											has_landed_title = k_trebizond
+											has_landed_title = k_lithuania
 										}
 									}
 								}
 								random_vassal = {
 									limit = {
 										OR = {
-											has_landed_title = d_trebizond
-											has_landed_title = d_armeniacon
+											has_landed_title = d_aukstaitija
+											has_landed_title = d_samogitia
+											has_landed_title = d_suvalkija
 										}
 									}
 									preferred_limit = {
-										has_landed_title = d_trebizond
+										has_landed_title = d_aukstaitija
 									}
-									grant_title_no_opinion = k_trebizond
+									grant_title_no_opinion = k_lithuania
 								}
 							}
 
 						}
 					}
-					# Set vassals for Trebizond
-					k_trebizond = {
+					# Set vassals for Lithuania
+					k_lithuania = {
 						owner = {
 							e_byzantium = {
 								owner = {
 									any_vassal = {
 										limit = {
-											de_jure_liege = k_trebizond
+											de_jure_liege = k_lithuania
 										}
 										set_defacto_liege = PREVPREVPREV
 									}
@@ -5027,24 +5023,52 @@ new_crusade = {
 							}
 						}
 					}
-					# Find a Catholic/Fraticelli lord for Cyprus
+					# Find a Catholic lord for Borussia
 					if = {
 						limit = {
-							c_famagusta = {
+							c_kaliningrad = {
 								owner = {
 									religion = FROM
 									culture = FROM
 									ai = yes
 								}
 							}
-							c_limisol = {
+							c_sovetsk = {
 								owner = {
 									religion = FROM
 									culture = FROM
 									ai = yes
 								}
 							}
-							k_cyprus = {
+							c_chernyakhovsk = {
+								owner = {
+									religion = FROM
+									culture = FROM
+									ai = yes
+								}
+							}
+							c_elblag = {
+								owner = {
+									religion = FROM
+									culture = FROM
+									ai = yes
+								}
+							}
+							c_olsztyn = {
+								owner = {
+									religion = FROM
+									culture = FROM
+									ai = yes
+								}
+							}
+							c_elk = {
+								owner = {
+									religion = FROM
+									culture = FROM
+									ai = yes
+								}
+							}
+							k_borussia = {
 								has_holder = no
 							}
 						}
@@ -5058,12 +5082,20 @@ new_crusade = {
 								}
 							}
 							crusade_beneficiary = {
-								grant_title_no_opinion = c_famagusta
-								grant_title_no_opinion = c_limisol
-								grant_title_no_opinion = d_cyprus
-								grant_title_no_opinion = k_cyprus
-								d_cyprus = {
-									de_jure_liege = k_cyprus
+								grant_title_no_opinion = c_kaliningrad
+								grant_title_no_opinion = c_sovetsk
+								grant_title_no_opinion = c_chernyakhovsk
+								grant_title_no_opinion = c_elblag
+								grant_title_no_opinion = c_olsztyn
+								grant_title_no_opinion = c_elk
+								grant_title_no_opinion = d_kaliningrad
+								grant_title_no_opinion = d_warmia_masuria
+								grant_title_no_opinion = k_borussia
+								d_kaliningrad = {
+									de_jure_liege = k_borussia
+								}
+								d_warmia_masuria = {
+									de_jure_liege = k_borussia
 								}
 								set_defacto_liege = THIS
 								character_event = { id = HFP.41090 days = 1 }
@@ -5084,10 +5116,10 @@ new_crusade = {
 					distribute_crusade_target_title = yes
 					#The Crusader King becomes an Emperor and gets a bloodline
 					crusader_king = {
-						grant_title_no_opinion = e_latin_empire
+						grant_title_no_opinion = e_latin_empire #replace with a new title
 					}
 					# Find random vassal and make a king out of them
-					e_byzantium = {
+					e_baltic = {
 						owner = {
 							random_vassal = {
 								limit = {
@@ -5095,13 +5127,13 @@ new_crusade = {
 									ai = yes
 								}
 								preferred_limit = {
-									de_jure_liege = k_byzantium
+									de_jure_liege = k_latvia
 								}
 								preferred_limit = {
-									de_jure_liege = k_anatolia
+									de_jure_liege = k_lithuania
 								}
 								preferred_limit = {
-									de_jure_liege = k_sicily
+									de_jure_liege = k_estonia
 								}
 								primary_title = {
 									create_title = {
@@ -5119,8 +5151,8 @@ new_crusade = {
 							}
 						}
 					}
-					# All Byzantine vassals go independent except those neighboring the old Emperor, and he/she gets an inferior Empire title while the Byzantine title is broken
-					e_byzantium = {
+					# All Baltic vassals go independent except those neighboring the old Emperor, and he/she gets an inferior Empire title while the Baltic title is broken
+					e_baltic = {
 						owner = {
 							any_vassal = {
 								limit = {
@@ -5131,21 +5163,21 @@ new_crusade = {
 							if = {
 								limit = {
 									primary_title = {
-										title = e_byzantium
+										title = e_baltic
 									}
-									has_landed_title = c_nikaea
+									has_landed_title = c_vilnius
 								}
-								grant_title = e_nicaea
+								grant_title = e_nicaea #replace with a new title
 								e_nicaea = {
-									copy_title_laws = e_byzantium
-									copy_title_history = e_byzantium
+									copy_title_laws = e_baltic
+									copy_title_history = e_baltic
 									make_primary_title = yes
 								}
 								any_demesne_title = {
 									limit = {
 										tier = EMPEROR
 										NOT = {
-											title = e_nicaea
+											title = e_nicaea #replace with a new title
 										}
 									}
 									destroy_landed_title = THIS
@@ -5163,7 +5195,7 @@ new_crusade = {
 							else_if = {
 								limit = {
 									primary_title = {
-										title = e_byzantium
+										title = e_baltic
 									}
 								}
 								capital_scope = {
@@ -5200,12 +5232,12 @@ new_crusade = {
 					# Crete is taken by a Merchant Lord
 					if = {
 						limit = {
-							c_kaneia = {
+							c_reval = {
 								owner = {
 									ai = yes
 								}
 							} 
-							c_chandax = {
+							c_narva = {
 								owner = {
 									ai = yes
 								}
@@ -5232,9 +5264,9 @@ new_crusade = {
 							preferred_limit = {
 								tier = KING
 							}
-							grant_title_no_opinion = d_krete 
-							grant_title_no_opinion = c_kaneia
-							grant_title_no_opinion = c_chandax
+							grant_title_no_opinion = d_esthonia 
+							grant_title_no_opinion = c_reval
+							grant_title_no_opinion = c_narva
 						}
 					}
 
@@ -5248,7 +5280,7 @@ new_crusade = {
 							save_event_target_as = byzantine_refugee
 						}
 					}
-					# Narrative event explaining that Byzantium has been taken out
+					# Narrative event explaining that Baltic Empire has been taken out
 					any_character = {
 						narrative_event = { id = HF.49008 }
 					}
@@ -5258,8 +5290,8 @@ new_crusade = {
 							killer = FROM
 						}
 					}
-					# Making sure the Byzantine Empire is destroyed
-					e_byzantium = {
+					# Making sure the Baltic Empire is destroyed
+					e_baltic = {
 						unsafe_destroy_landed_title = THIS
 					}
 				}
@@ -5595,8 +5627,7 @@ new_crusade = {
 				limit = { 
 					has_dlc = "Legacy of Rome"
 					OR = { 
-						has_landed_title = e_byzantium
-						has_landed_title = e_roman_empire
+						has_landed_title = e_baltic
 					}
 						OR = { 
 							religion_group = christian
@@ -5669,8 +5700,7 @@ new_crusade = {
 				limit = { 
 					has_dlc = "Legacy of Rome"
 					OR = { 
-						has_landed_title = e_byzantium
-						has_landed_title = e_roman_empire
+						has_landed_title = e_baltic
 					}
 						OR = { 
 							religion_group = christian
@@ -5831,6 +5861,7 @@ religious = {
 			OR = {
 				NOT = { religion = neuhumanist }
 				NOT = { religion = buddhist }
+				NOR = { religion = ruhi }
 				piety = 250
 			}
 		}
@@ -5843,6 +5874,7 @@ religious = {
 				limit = {
 					religion = neuhumanist
 					religion = buddhist
+					religion = ruhi
 				}
 				piety = -250
 			}
@@ -6038,6 +6070,7 @@ religious = {
 	is_valid = {
 		ROOT = {
 			NOT = { religion = neuhumanist }
+			NOT = { religion = ruhi }
 			NOT = { religion_group = pagan_group }
 			NOT = { pacifist = yes }
 			NOT = { same_realm = FROM }
