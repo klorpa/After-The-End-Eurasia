@@ -1,6 +1,6 @@
 3600000 = {
 	name = "Ovadia"
-	dynasty = 1818006
+	dynasty = 1818006 #Kook
 	culture = sabra
 	religion = ivri
 	martial=3
@@ -9,10 +9,542 @@
 	intrigue=6
 	learning=8
 	trait = mastermind_theologian
+	trait = theologian
 	trait = patient
 	trait = gregarious
 	trait = ambitious
 	trait = erudite
 	2608.11.2 = { birth=yes }
+	2629.5.2 ={
+		add_spouse = 3600001
+	}
 	2680.11.2 = { death=yes }
+}
+
+3600001 = {
+	name = "Brakha"
+	female = yes
+	culture = sabra
+	religion = ivri
+	diplomacy = 7
+	martial = 2
+	stewardship = 6
+	intrigue = 2
+	learning = 5
+	trait = gregarious
+	2610.4.2 = { birth = yes }
+	
+}
+
+3600002 = {
+	name = "Tzvi"
+	culture = sabra
+	religion = ivri
+	dynasty = 1818006 #Kook
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 2
+	trait=dull
+	trait=slothful
+	father = 3600000
+	mother = 3600001
+	2638.4.4= {birth = yes}
+)
+3600003 = {
+	name = "Shlomit"
+	dynasty = 1818006 #Kook
+	culture = sabra
+	religion = ivri
+	female = yes
+	martial=3
+	diplomacy=6
+	stewardship=5
+	intrigue=4
+	learning=4
+	trait = charismatic_negotiator
+	trait = fair
+	trait = gregarious
+	trait = honest
+	trait = lustful
+	father = 3600000
+	mother = 3600001	
+	2640.4.4 = { birth=yes }
+}
+3600004 = {
+	name = "Adina"
+	dynasty = 1818006 #Kook
+	culture = sabra
+	religion = ivri
+	female = yes
+	martial=3
+	diplomacy=6
+	stewardship=5
+	intrigue=4
+	learning=4
+	trait = amateurish_plotter
+	trait = envious
+	trait = arbitrary
+	trait = deceitful
+	trait = patient
+	father = 3600000
+	mother = 3600001	
+	2640.4.4 = { birth=yes }
+}
+3600005 = {
+	name = "Uzi"
+	dynasty = 1818053 #Tzabari
+	culture = sabra
+	religion = ivri
+	martial = 6
+	stewardship = 4
+	diplomacy = 4
+	intrigue = 7
+	learning = 4
+	trait = intricate_webweaver
+	trait = ambitious
+	trait = envious
+	trait = deceitful
+	2636.4.4 = { birth = yes }
+	2664.4.5 = {
+		add_spouse = 3600004
+	}
+}
+3600006 = {
+	name = "Erran"
+	dynasty = 1818002 #Morad
+	culture = sabra
+	religion = ivri
+	martial = 7
+	stewardship = 4
+	diplomacy = 3
+	intrigue = 5
+	learning = 5
+	trait = tough_soldier
+	trait = brawny
+	trait = dull
+	trait = brave
+	2636.4.4 = { birth = yes }
+	2660.4.5 = {
+		add_spouse = 3600007
+	}
+}
+3600007 = {
+	name = "Tikvah"
+	culture = sabra
+	religion = calvinist
+	female = yes
+	martial = 6
+	stewardship = 4
+	diplomacy = 4
+	intrigue = 7
+	learning = 4
+	2638.4.4 = { birth = yes }
+	2665.4.4 = {
+		add_rival = 3600006
+	}
+}
+3600008 = {
+	name = "Tomer"
+	dynasty = 1818002 #Morad
+	culture = sabra
+	religion = ivri
+	martial = 6
+	stewardship = 4
+	diplomacy = 4
+	intrigue = 7
+	learning = 4
+	2660.4.4 = { birth = yes }
+	2665.4.3 = {
+		death = {
+			death_reason = death_accident_arrow
+			killer = 3600006
+		}
+	}
+}
+3600009 =	{
+	name = "Nehorai"
+	dynasty = 1818073 #Abuhatziera
+	culture = sabra
+	religion = ivri
+	martial=3
+	diplomacy=9
+	stewardship=5
+	intrigue=6
+	learning=8
+	trait = scholarly_theologian
+	trait = mystic
+	trait = gregarious
+	2628.11.2 = { birth=yes }	
+	2660.11.1 = {
+		add_spouse=3600010
+	}	
+}	
+3600010 = {
+	name = "Tali"
+	culture = sabra
+	religion = ivri
+	female = yes
+	martial = 6
+	stewardship = 4
+	diplomacy = 4
+	intrigue = 7
+	learning = 4
+	2640.4.4 = { birth = yes }
+}
+
+3600011 = {
+	name = "Nachum"
+	dynasty = 1818001 #Biton
+	culture = sabra
+	religion = ivri
+	martial=3
+	diplomacy=9
+	stewardship=5
+	intrigue=6
+	learning=8
+	trait = fortune_builder
+	trait = sympathy_islam
+	trait = just
+	trait = gregarious
+	trait = wroth
+	2623.11.2 = { birth=yes }	
+	2645.11.2 = {
+		add_spouse = 3600012
+	}
+}
+3600012 = {
+	name = "Malka"
+	culture = sabra
+	religion = haredi
+	female = yes
+	martial = 6
+	stewardship = 4
+	diplomacy = 4
+	intrigue = 7
+	learning = 4
+	trait = naive_appeaser
+	trait = haredi_chassid
+	trait = kind
+	2623.4.4 = { birth = yes }
+}
+3600013 = {
+	name = "Tzachi"
+	dynasty = 1818001 #Biton
+	culture = sabra
+	religion = ivri
+	martial=3
+	diplomacy=7
+	stewardship=7
+	intrigue=3
+	learning=5
+	father = 3600011
+	mother = 3600012
+	trait = fortune_builder
+	2645.11.2 = { birth=yes }	
+	# should be married/betrothed to an egyptian royal
+}
+3600014 = {
+	name = "Chaimke"
+	dynasty = 1818001 #Biton
+	culture = sabra
+	religion = haredi
+	martial=3
+	diplomacy=7
+	stewardship=7
+	intrigue=3
+	learning=5
+	father = 3600011
+	mother = 3600012
+	trait = underhanded_rogue
+	trait = haredi_chassid
+	2648.11.2 = { birth=yes }	
+}
+3600015 = {
+	name = "Batya"
+	dynasty = 1818001 #Biton
+	culture = sabra
+	religion = ivri
+	martial=3
+	diplomacy=7
+	stewardship=7
+	intrigue=3
+	learning=5
+	female = yes
+	father = 3600011
+	mother = 3600012
+	trait = amateurish_plotter
+	2650.11.2 = { birth=yes }	
+}
+3600016 = {
+	name = "Adisu" #give ethiopian portait
+	dynasty = 1818024 #Tegegne
+	culture = sabra
+	religion = haskalah
+	martial=3
+	diplomacy=7
+	stewardship=7
+	intrigue=3
+	learning=5
+	trait = charismatic_negotiator
+	2640.11.2 = { birth=yes }	
+}
+3600017 = {
+	name = "Musa"
+	dynasty = 1824003 #Halabi
+	culture = filastini
+	religion = ruhi
+	martial=3
+	diplomacy=7
+	stewardship=7
+	intrigue=3
+	learning=5
+	trait = naive_appeaser
+	trait = gregarious
+	2640.11.2 = { birth=yes }
+	#married/betrothed to prominent egyptian family
+}
+3600018 = {
+	name = "Yusuf"
+	dynasty = 1824000 #Hamoudeh
+	culture = filastini
+	religion = sunni
+	martial=7
+	diplomacy=4
+	stewardship=5
+	intrigue=3
+	learning=5
+	trait = skilled_tactician
+	trait = honest
+	trait = brave
+	2625.11.2 = { birth=yes }
+	2645.11.3 = {
+		add_spouse = 3600019
+	}
+}
+3600019 = {
+	name = "Amal"
+	culture = filastini
+	religion = sunni
+	female = yes
+	martial=7
+	diplomacy=7
+	stewardship=7
+	intrigue=3
+	learning=5
+	trait = underhanded_rogue
+	trait = honest
+	trait = kind
+	2625.11.2 = { birth=yes }
+}
+3600020 = {
+	name = "Fadwa"
+	culture = filastini
+	religion = sunni
+	dynasty = 1824000 #Hamoudeh
+	female = yes
+	martial=7
+	diplomacy=7
+	stewardship=7
+	intrigue=3
+	learning=5
+	trait = charismatic_negotiator
+	trait = twin
+	trait = honest
+	trait = kind
+	father = 3600018
+	mother = 3600019
+	2648.11.2 = { birth=yes }
+	
+}
+3600021 = {
+	name = "Ayman"
+	culture = filastini
+	religion = sunni
+	dynasty = 1824000 #Hamoudeh
+	martial=7
+	diplomacy=7
+	stewardship=7
+	intrigue=3
+	learning=5
+	trait = thrifty_clerk
+	trait = twin
+	trait = gregarious
+	trait = charitable
+	father = 3600018
+	mother = 3600019
+	2648.11.2 = { birth=yes }
+	
+}
+3600022 = {
+	name = "Fariborz"
+	culture = azeri #should be an Iranian culture
+	religion = bahai
+	dynasty = 2054069 #placeholder for now, should be Amini
+	martial=3
+	diplomacy=7
+	stewardship=4
+	intrigue=6
+	learning=5
+	trait = grey_eminence
+	trait = gregarious
+	trait = charitable
+	2627.7.2 = { birth=yes }
+}
+3600023 = {
+	name = "Abdullah"
+	culture = filastini
+	religion = orthodox
+	dynasty = 1824003 #Al-Issa
+	martial=5
+	diplomacy=5
+	stewardship=7
+	intrigue=3
+	learning=5
+	trait = thrifty_clerk
+	trait = sympathy_islam
+	trait = sympathy_judaism
+	trait = patient
+	2644.11.2 = { birth=yes }
+}
+3600024 = {
+	name = "Hazeem"
+	culture = filastini
+	religion = sunni
+	dynasty = 1824001 #Rifa'i
+	martial=5
+	diplomacy=5
+	stewardship=7
+	intrigue=3
+	learning=5
+	trait = fortune_builder
+	trait = humble
+	trait = shy
+	trait = stressed
+	trait = patient
+	2649.11.2 = { birth=yes }
+}
+
+3600025 = {
+	name = "Yusuf"
+	culture = filastini
+	religion = sunni
+	dynasty = 1824005 #Al-Shuqayri
+	martial=5
+	diplomacy=5
+	stewardship=7
+	intrigue=3
+	learning=5
+	trait = skilled_tactician
+	trait = ambitious
+	trait = envious
+	trait = zealous
+	trait = just
+	2630.11.2 = { birth=yes }
+	2650.3.22 = {
+		add_spouse = 3600024
+	}
+}
+3600026 = {
+	name = "Ghada"
+	culture = filastini
+	religion = sunni
+	martial=5
+	diplomacy=5
+	stewardship=7
+	intrigue=3
+	learning=5
+	trait = flamboyant_schemer
+	2635.11.2 = { birth=yes }
+}
+3600027 = {
+	name = "Muhammed"
+	culture = filastini
+	religion = sunni
+	dynasty = 1824005 #Al-Shuqayri
+	martial=5
+	diplomacy=5
+	stewardship=4
+	intrigue=3
+	learning=5
+	2656.11.2 = { birth=yes }
+}
+3600028 = {
+	name = "Haitham"
+	culture = filastini
+	religion = sunni
+	dynasty = 1824006 #Nusaybah
+	martial=5
+	diplomacy=5
+	stewardship=7
+	intrigue=3
+	learning=5
+	trait = brilliant_strategist
+	trait = patient
+	trait = just
+	2649.11.2 = { birth=yes }
+}
+3600029 = {
+	name = "Ohad"
+	dynasty = 1818005 #Dayan
+	culture = sabra
+	religion = ivri
+	martial=7
+	diplomacy=3
+	stewardship=6
+	intrigue=4
+	learning=5
+	trait = skilled_tactician
+	trait = stubborn
+	trait = wroth
+	2645.11.2 = { birth=yes }	
+}
+3600030 = {
+	name = "Mordechai"
+	dynasty = 1818003 # Buber
+	culture = sabra
+	religion = ivri
+	martial=2
+	diplomacy=7
+	stewardship=6
+	intrigue=3
+	learning=7
+	trait = scholarly_theologian
+	trait = genius
+	trait = theologian
+	2600.2.22 = { birth = yes }
+}
+3600031 = { #hello
+	name = "Yoni"
+	dynasty = 1818008 # Shmaryahu 
+	culture = sabra
+	religion = ivri
+	martial=2
+	diplomacy=7
+	stewardship=6
+	intrigue=3
+	learning=7
+	trait = underhanded_rogue
+	trait = scholar
+	trait = honest
+	trait = slothful
+	trait = content
+	trait = gregarious
+	2640.7.15 = { birth = yes }
+}
+3600032 = {
+	name = "Toufik"
+	culture = filastini
+	religion = druze
+	dynasty = 1824013 #Tarif
+	martial=5
+	diplomacy=5
+	stewardship=7
+	intrigue=3
+	learning=5
+	trait = mastermind_theologian
+	trait = patient
+	trait = just
+	2630.11.2 = { birth=yes }
 }

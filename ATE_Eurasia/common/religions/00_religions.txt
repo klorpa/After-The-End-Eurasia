@@ -1145,7 +1145,75 @@ muslim = {
 		religious_clothing_priest = 10
 	}
 }
+
+islamosyncretic = {
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	crusade_cb = crusade
+	playable = yes
+	hostile_within_group = yes
 	
+	ai_convert_same_group = 1
+	ai_convert_other_group = 1
+	
+	color = { 0 0.5 0 }
+	
+	interface_skin = { muslim_interface } 
+	
+		druze = {
+		graphical_culture = muslimgfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+
+		icon = 4
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALI GOD_Al_HAKIM GOD_HASAN GOD_ADAM
+		}
+		evil_god_names = {
+			GOD_SHAYTAN
+		} 
+		
+		scripture_name = THE_EPISTLES_OF_WISDOM
+		
+		color = { 0.0 0.9 0.4 }
+		priests_can_marry = yes
+		psc_marriage = no
+		priests_can_inherit = yes
+		allow_rivermovement = yes
+		can_demand_religious_conversion = no
+		hard_to_convert = yes
+		
+		
+	}
+	bahai = {
+		graphical_culture = muslimgfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+
+		icon = 4
+		
+		high_god_name = GOD_BAHA
+		
+		god_names = {
+			GOD_GOD GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS 
+		} 
+		
+		scripture_name = KITAB_I_AQDAS
+		
+		color = { 0.0 0.9 0.4 }
+		feminist = yes
+		psc_marriage = no
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		
+		
+	}
+	
+}
 pirate = {
 	has_coa_on_barony_only = yes
 	graphical_culture = norsegfx
