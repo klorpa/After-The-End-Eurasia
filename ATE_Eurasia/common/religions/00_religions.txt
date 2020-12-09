@@ -1212,7 +1212,33 @@ islamosyncretic = {
 		
 		
 	}
-	
+	yazidi = {
+		graphical_culture = muslimgfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+
+		icon = 4
+		
+		high_god_name = GOD_KHOWDA
+		
+		god_names = {
+			GOD_TAWUSE_MELEK GOD_SHEIKH_ALI GOD_SHEMSEDIN GOD_FEKHREDIN GOD_SAJADIN GOD_NASIRIDIN GOD_SHEIKH_HASAN
+		}
+		evil_god_names = {
+			GOD_PIR_BUB
+		} 
+		
+		scripture_name = QWALS
+		
+		color = { 0.0 0.9 0.4 }
+		priests_can_marry = yes
+		can_excommunicate = yes
+		psc_marriage = no
+		priests_can_inherit = yes
+		allow_rivermovement = yes
+		can_demand_religious_conversion = no
+		hard_to_convert = yes
+			
+	}	
 }
 pirate = {
 	has_coa_on_barony_only = yes
