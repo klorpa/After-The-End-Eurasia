@@ -443,13 +443,14 @@
 	trait = just
 	2630.11.2 = { birth=yes }
 	2650.3.22 = {
-		add_spouse = 3600024
+		add_spouse = 3600026
 	}
 }
 3600026 = {
 	name = "Ghada"
 	culture = filastini
 	religion = sunni
+	female = yes
 	martial=5
 	diplomacy=5
 	stewardship=7
@@ -468,6 +469,8 @@
 	stewardship=4
 	intrigue=3
 	learning=5
+	father=3600025
+	mother=3600026
 	2656.11.2 = { birth=yes }
 }
 3600028 = {
