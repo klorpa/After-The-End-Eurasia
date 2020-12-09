@@ -629,3 +629,35 @@ alevi  = {
 	religious = yes
 	ruler_designer_cost = 5
 }
+lamb_cult = {
+	opposites = {
+		hiddenfolk_cult
+	}
+
+	opposite_opinion = -5
+	
+	monthly_character_piety = 0.5
+	diplomacy = 1
+	
+	potential = { religion = folketro }
+	religious_branch = folketro
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+hiddenfolk_cult = {
+	opposites = {
+		lamb_cult
+	}
+
+	opposite_opinion = -5
+	
+	monthly_character_prestige = 1
+	martial = 1
+	
+	potential = { religion = folketro }
+	religious_branch = folketro
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}

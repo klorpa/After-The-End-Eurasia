@@ -26,6 +26,12 @@ world_united_kingdom = {
 	}
 }
 
+world_scandinavia = {
+	regions = {
+		region_iceland region_faroe region_south_greenland custom_norway custom_sweden custom_denmark
+	}
+}
+
 ###########################################################################
 # Custom Regions
 ###########################################################################
@@ -62,4 +68,10 @@ custom_old_spain = {
 }
 custom_norway = {
 	duchies = { d_viken d_vestlandet d_trondelag d_opplandene d_halogaland }
+}
+custom_sweden = {
+	duchies = { d_skaneland d_smaland d_kalmar d_vastra_gotaland d_gotland d_svealand d_bergslagen d_jamtland d_norrland d_halsingland }
+}
+custom_denmark = {
+	duchies = { d_nordjylland d_syddanmark d_sjaelland }
 }
