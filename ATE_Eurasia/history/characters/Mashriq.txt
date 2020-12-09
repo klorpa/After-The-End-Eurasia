@@ -1,3 +1,4 @@
+#Ard Al-Muqaddis
 3600000 = {
 	name = "Ovadia"
 	dynasty = 1818006 #Kook
@@ -126,7 +127,7 @@
 	trait = dull
 	trait = brave
 	2636.4.4 = { birth = yes }
-	2660.4.5 = {
+	2657.4.4 = {
 		add_spouse = 3600007
 	}
 }
@@ -141,9 +142,11 @@
 	intrigue = 7
 	learning = 4
 	2638.4.4 = { birth = yes }
-	2665.4.4 = {
-		add_rival = 3600006
-	}
+	2660.1.1={
+		effect={
+			add_rival = 3600006
+		}
+	} 
 }
 3600008 = {
 	name = "Tomer"
@@ -155,8 +158,10 @@
 	diplomacy = 4
 	intrigue = 7
 	learning = 4
+	father = 3600006
+	mother = 3600007
 	2660.4.4 = { birth = yes }
-	2665.4.3 = {
+	2663.4.3 = {
 		death = {
 			death_reason = death_accident_arrow
 			killer = 3600006
