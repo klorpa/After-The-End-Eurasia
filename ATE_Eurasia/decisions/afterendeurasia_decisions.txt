@@ -144,6 +144,7 @@ decisions = {
 					character_event = { id = canada.30 } 
 				}
 			}
+			}
 			if = {
 				limit = {
 					has_dlc = "Reapers"
@@ -163,7 +164,7 @@ decisions = {
 		}
 		ai_will_do = {
 			factor = 1
-			
+		}	
 			modifier = {
 				factor = 0
 				NOT = {
@@ -184,8 +185,6 @@ decisions = {
 					}
 				}
 			}
-		}
-	}
 	change_jacobin_branch = {
 		ai = no
 		
@@ -246,5 +245,86 @@ decisions = {
 			factor = 1
 		}
 	}
+	
+	celebrate_yule = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 3
+		
+		potential = {
+			is_playable = yes
+			is_adult = yes
+			prisoner = no
+			OR = {
+				culture_group = finnic
+				culture_group = sami_group
+				culture = vestlending
+				culture = ostlending
+				culture = jamta
+				culture = tronder
+				culture = swedish
+			}
+			NOT = { has_character_flag = celebrating_yule }
+		}
+		allow = {
+			war = no
+			custom_tooltip = {
+				text = UNOCCUPIED_DEMESNE_TITLE
+				hidden_tooltip = {
+					any_demesne_title = {
+						NOT = { higher_tier_than = count }
+						is_occupied = no
+					}
+				}
+			}
+			month = 11
+			NOT = { month = 12 }
+			wealth = 50
+			prisoner = no
+			NOT = { is_inaccessible_trigger = yes }
+			custom_tooltip = {
+				text = is_not_busy_trigger_tooltip
+				hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
+			}
+		}
+		effect = {
+			wealth = -50
+			set_character_flag = recent_minor_decision
+			set_character_flag = do_not_disturb
+			hidden_tooltip = { character_event = { id = yule.1 days = 1 } }
+			}
+			if = {
+				limit = {
+					has_dlc = "Reapers"
+				}
+				custom_tooltip = {
+					text = capital_prospers_custom_tooltip
+					hidden_tooltip = {
+						capital_scope = {
+							change_variable = { which = prosperity_value value = 4 }
+						}
+					}
+				}
+			}
+		modifier = {
+			factor = 0
+			NOT = {
+				wealth = 200
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = cynical
+			}	
+			modifier = {
+				factor = 0
+				has_character_flag = recent_minor_decision
+				NOT = {
+					has_character_flag = {
+						flag = recent_minor_decision
+						days = 730
+				}
+			}
+		}
+	}
 }
-
