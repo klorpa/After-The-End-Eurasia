@@ -2,7 +2,7 @@
 3600000 = {
 	name = "Ovadia"
 	dynasty = 1818006 #Kook
-	culture = sabra
+	culture = german
 	religion = ivri
 	martial=3
 	diplomacy=9
@@ -16,10 +16,15 @@
 	trait = ambitious
 	trait = erudite
 	2608.11.2 = { birth=yes }
+	2608.11.2 = { culture = sabra }
 	2629.5.2 ={
 		add_spouse = 3600001
 	}
-	2680.11.2 = { death=yes }
+	2664.7.6 = {
+		effect = {
+			add_friend = 3600005
+		}
+	}
 }
 
 3600001 = {
@@ -39,7 +44,7 @@
 
 3600002 = {
 	name = "Tzvi"
-	culture = sabra
+	culture = german
 	religion = ivri
 	dynasty = 1818006 #Kook
 	diplomacy = 3
@@ -51,12 +56,14 @@
 	trait=slothful
 	father = 3600000
 	mother = 3600001
-	2638.4.4= {birth = yes}
-)
+	2638.4.4= { birth = yes }
+	2638.4.8= { culture = sabra }
+
+}
 3600003 = {
 	name = "Shlomit"
 	dynasty = 1818006 #Kook
-	culture = sabra
+	culture = german
 	religion = ivri
 	female = yes
 	martial=3
@@ -72,11 +79,12 @@
 	father = 3600000
 	mother = 3600001	
 	2640.4.4 = { birth=yes }
+	2640.4.9 = { culture = sabra }
 }
 3600004 = {
 	name = "Adina"
 	dynasty = 1818006 #Kook
-	culture = sabra
+	culture = german
 	religion = ivri
 	female = yes
 	martial=3
@@ -91,7 +99,8 @@
 	trait = patient
 	father = 3600000
 	mother = 3600001	
-	2640.4.4 = { birth=yes }
+	2642.4.4 = { birth = yes }
+	2642.4.9 = { culture = sabra } 
 }
 3600005 = {
 	name = "Uzi"
@@ -106,7 +115,7 @@
 	trait = intricate_webweaver
 	trait = ambitious
 	trait = envious
-	trait = deceitful
+	trait = ruthless
 	2636.4.4 = { birth = yes }
 	2664.4.5 = {
 		add_spouse = 3600004
@@ -133,7 +142,7 @@
 }
 3600007 = {
 	name = "Tikvah"
-	culture = sabra
+	culture = black
 	religion = calvinist
 	female = yes
 	martial = 6
@@ -142,6 +151,7 @@
 	intrigue = 7
 	learning = 4
 	2638.4.4 = { birth = yes }
+	2638.5.4 = { culture = sabra }
 	2660.1.1={
 		effect={
 			add_rival = 3600006
@@ -213,7 +223,7 @@
 	trait = sympathy_islam
 	trait = just
 	trait = gregarious
-	trait = wroth
+	trait = rude
 	2623.11.2 = { birth=yes }	
 	2645.11.2 = {
 		add_spouse = 3600012
@@ -221,7 +231,7 @@
 }
 3600012 = {
 	name = "Malka"
-	culture = sabra
+	culture = slavic
 	religion = haredi
 	female = yes
 	martial = 6
@@ -233,6 +243,8 @@
 	trait = haredi_chassid
 	trait = kind
 	2623.4.4 = { birth = yes }
+	2623.4.6 = { culture = sabra }
+
 }
 3600013 = {
 	name = "Tzachi"
@@ -283,9 +295,9 @@
 	2650.11.2 = { birth=yes }	
 }
 3600016 = {
-	name = "Adisu" #give ethiopian portait
-	dynasty = 1818024 #Tegegne
-	culture = sabra
+	name = "Ilak" 
+	dynasty = 1818024 #Alamo
+	culture = black
 	religion = haskalah
 	martial=3
 	diplomacy=7
@@ -293,7 +305,10 @@
 	intrigue=3
 	learning=5
 	trait = charismatic_negotiator
-	2640.11.2 = { birth=yes }	
+	trait = honorable
+	trait = musician
+	2640.11.2 = { birth = yes }
+	2640.11.3 = { culture = sabra }
 }
 3600017 = {
 	name = "Musa"
@@ -496,7 +511,7 @@
 3600029 = {
 	name = "Ohad"
 	dynasty = 1818005 #Dayan
-	culture = sabra
+	culture = slavic
 	religion = ivri
 	martial=7
 	diplomacy=3
@@ -506,7 +521,9 @@
 	trait = skilled_tactician
 	trait = stubborn
 	trait = wroth
-	2645.11.2 = { birth=yes }	
+	trait = one_eyed
+	2645.11.2 = { birth=yes }
+	2645.11.8 = { culture = sabra }
 }
 3600030 = {
 	name = "Mordechai"
@@ -535,7 +552,8 @@
 	learning=7
 	trait = underhanded_rogue
 	trait = scholar
-	trait = honest
+	trait = rude
+	trait = charitable
 	trait = slothful
 	trait = content
 	trait = gregarious
