@@ -548,3 +548,83 @@
 	1912.8.18={birth=yes}
 	2100.1.1={death=yes}
 }
+
+#Fill in the Post Collapse "Osmanoglu descendants" before the most recent Claimants (the current 2666 rulers)
+
+######2666 Characters######
+
+2202056={#Ottoman Claimant
+	name="Suleyman"
+	dynasty=2052000 #Osmanoglu
+	culture=rumelian
+	religion=nizami
+	trait=poet
+	trait=ambitious
+	trait=shrewd
+	trait=diligent
+	trait=just
+	trait=wroth
+	trait=brave
+	trait=brilliant_strategist
+	#trait=muslim_mystic
+	2643.11.6={birth=yes}
+	2661.11.6={add_spouse=2202057}
+}
+2202057={#Suleyman Wife
+	name="Alexandra"
+	female=yes
+	culture=ukrainian
+	religion=nizami
+	trait=poet
+	trait=charitable
+	trait=shrewd
+	trait=diligent
+	trait=just
+	trait=socializer
+	trait=brave
+	trait=grey_eminence
+	2643.11.6={birth=yes}
+}
+2202058={#Ottoman Claimant
+	name="Baris"
+	dynasty=2052000 #Osmanoglu
+	culture=west_anatolian
+	religion=ruhi
+	trait=poet
+	trait=drunkard
+	trait=ill
+	trait=patient
+	trait=content
+	trait=shrewd
+	trait=indulgent_wastrel
+	2600.6.9={birth=yes}
+}
+2202059={#Baris's Son
+	name="Mahmud"
+	dynasty=2052000 #Osmanoglu
+	culture=west_anatolian
+	religion=ruhi
+	father=2202058
+	trait=strong
+	trait=brave
+	trait=ambitious
+	trait=just
+	trait=duelist
+	trait=tough_soldier
+	2647.6.9={birth=yes}
+}
+2202060={#Ottoman Claimant
+	name="Zenci Musa"
+	dynasty=2052000 #Osmanoglu
+	culture=black
+	religion=nizami
+	#trait=muslim_mystic
+	trait=zealous
+	trait=ambitious
+	trait=patient
+	#trait=mevlevi
+	2643.11.6={
+		birth=yes
+		culture = central_anatolian
+	}
+}

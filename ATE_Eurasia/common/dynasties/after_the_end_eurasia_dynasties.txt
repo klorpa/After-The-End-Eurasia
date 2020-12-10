@@ -13058,7 +13058,20 @@
 2051111 = { name="Vakhvakhishvili" culture=georgian }
 2051112 = { name="Vakhvakhishvili" culture=georgian }
 
-2052000 = { name="Osmanoglu" culture=central_anatolian }
+2052000 = { name="Osmanoglu" culture=central_anatolian 
+	coat_of_arms = { 
+		religion = nizami
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 2053000 = { name="Tseberte" culture=ossetian}
 2053001 = { name="Æbati" culture=ossetian}
