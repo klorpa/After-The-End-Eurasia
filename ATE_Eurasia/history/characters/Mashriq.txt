@@ -231,8 +231,8 @@
 }
 3600012 = {
 	name = "Malka"
-	culture = slavic
-	religion = haredi
+	culture = sabra
+	religion = ivri
 	female = yes
 	martial = 6
 	stewardship = 4
@@ -240,10 +240,8 @@
 	intrigue = 7
 	learning = 4
 	trait = naive_appeaser
-	trait = haredi_chassid
 	trait = kind
 	2623.4.4 = { birth = yes }
-	2623.4.6 = { culture = sabra }
 
 }
 3600013 = {
@@ -266,7 +264,7 @@
 	name = "Chaimke"
 	dynasty = 1818001 #Biton
 	culture = sabra
-	religion = haredi
+	religion = ivri
 	martial=3
 	diplomacy=7
 	stewardship=7
@@ -275,7 +273,6 @@
 	father = 3600011
 	mother = 3600012
 	trait = underhanded_rogue
-	trait = haredi_chassid
 	2648.11.2 = { birth=yes }	
 }
 3600015 = {
@@ -298,7 +295,7 @@
 	name = "Ilak" 
 	dynasty = 1818024 #Alamo
 	culture = black
-	religion = haskalah
+	religion = ivri
 	martial=3
 	diplomacy=7
 	stewardship=7
@@ -312,7 +309,7 @@
 }
 3600017 = {
 	name = "Musa"
-	dynasty = 1824003 #Halabi
+	dynasty = 1824002 #Halabi
 	culture = filastini
 	religion = ruhi
 	martial=3
@@ -588,3 +585,163 @@
 	trait=scholar
 	2630.11.2 = { birth=yes }
 }
+3600034 = {
+	name = "Barukh"
+	dynasty = 1818040 #Lopian
+	culture = west_slavic
+	religion = haredi
+	martial=4
+	diplomacy=4
+	stewardship=6
+	intrigue=3
+	learning=7
+	trait=scholarly_theologian
+	trait=haredi_litvak
+	trait=erudite
+	trait=familyperson
+	2630.11.2 = { birth = yes }
+	2630.12.1 = { culture = sabra }
+	2647.12.1 = { 
+		add_spouse = 3600035
+	}
+}
+3600035 = {
+	name = "Yehudit"
+	culture = west_slavic
+	religion = haredi
+	female = yes
+	martial=4
+	diplomacy=4
+	stewardship=6
+	intrigue=3
+	learning=7
+	trait=thrifty_clerk
+	trait=haredi_litvak
+	trait=kind
+	trait=patient
+	2630.11.2 = { birth = yes }
+	2630.12.1 = { culture = sabra }
+}
+3600036 = {
+	name = "Shalom"
+	dynasty = 1818040 #Lopian
+	culture = west_slavic
+	religion = haredi
+	martial=4
+	diplomacy=4
+	stewardship=6
+	intrigue=3
+	learning=7
+	trait=indulgent_wastrel
+	trait=haredi_litvak
+	trait=slothful
+	trait=stubborn
+	father=3600034
+	mother=3600035
+	2648.11.2 = { birth = yes }
+	2648.12.1 = { culture = sabra }
+}
+3600037 = {
+	name = "Amram"
+	dynasty = 1818040 #Lopian
+	culture = west_slavic
+	religion = haredi
+	martial=4
+	diplomacy=4
+	stewardship=6
+	intrigue=3
+	learning=7
+	trait=thrifty_clerk
+	trait=haredi_litvak
+	trait=patient
+	trait=ambitious
+	father=3600034
+	mother=3600035
+	2649.11.2 = { birth = yes }
+	2649.12.1 = { culture = sabra }
+}
+3600038 = {
+	name = "Dov"
+	dynasty = 1818040 #Lopian
+	culture = west_slavic
+	religion = haredi
+	martial=4
+	diplomacy=4
+	stewardship=6
+	intrigue=3
+	learning=7
+	father=3600034
+	mother=3600035
+	trait=haredi_litvak
+	trait=envious
+	2651.11.2 = { birth = yes }
+	2651.12.1 = { culture = sabra }
+	2660.12.1 = { 
+		effect= {
+			add_rival = 3600037
+		}
+	}
+}
+3600039 = {
+	name = "Tziporah"
+	dynasty = 1818040 #Lopian
+	culture = west_slavic
+	religion = haredi
+	female = yes
+	martial=4
+	diplomacy=4
+	stewardship=6
+	intrigue=3
+	learning=7
+	father=3600034
+	mother=3600035
+	trait=haredi_litvak
+	trait=patient
+	2654.11.2 = { birth = yes }
+	2654.12.1 = { culture = sabra }
+}
+3600040 = {
+	name = "Bat El"
+	dynasty = 1818040 #Lopian
+	culture = west_slavic
+	religion = haredi
+	female = yes
+	father=3600034
+	mother=3600035
+	trait=haredi_litvak
+	2656.11.2 = { birth = yes }
+	2656.12.1 = { culture = sabra }
+}
+3600041 = {
+	name = "Simcha"
+	dynasty = 1818040 #Lopian
+	culture = west_slavic
+	religion = haredi
+	father=3600034
+	mother=3600035
+	trait=haredi_litvak
+	2658.11.2 = { birth = yes }
+	2658.12.1 = { culture = sabra }
+}
+3600042 = {
+	name = "Yeruham"
+	dynasty = 1818040 #Lopian
+	culture = west_slavic
+	religion = haredi
+	father=3600034
+	mother=3600035
+	trait=haredi_litvak
+	2660.11.2 = { birth = yes }
+	2660.12.1 = { culture = sabra }
+}
+3600043 = {
+	name = "Ben-Tzion"
+	dynasty = 1818040 #Lopian
+	culture = west_slavic
+	religion = haredi
+	father=3600034
+	mother=3600035
+	trait=haredi_litvak
+	2662.11.2 = { birth = yes }
+	2662.12.1 = { culture = sabra }
+}		
