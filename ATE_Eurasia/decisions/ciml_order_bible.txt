@@ -8,11 +8,16 @@ order_latin_bible = {
 	is_landed = yes
 	OR = {
 		religion = catholic
-		religion = fraticelli
+		religion = penitants
+		religion = mariavite
+		religion = insular
+		religion = apparitionist
 		AND = {
 			OR = {
 				culture_group = latin
-				culture_group = iberian
+				culture_group = spanish
+				culture_group = french
+				culture = irish
 			}
 			religion_group = christian
 		}
@@ -29,13 +34,18 @@ order_latin_bible = {
 	}
 	NAND = {
 		ai = yes
-		culture_group = byzantine
+		culture_group = hellenic
 	}
 	NAND = {
 		ai = yes
 		culture_group = east_slavic
 	}
-	NOT = { religion = mandean }
+	NOR = {
+		religion = lutheran
+		religion = laestadian
+		religion = calvinist
+		religion = orthodox
+	}
 	NOR = {
 		has_artifact = illustrated_vulgate
 		has_artifact = vulgate
@@ -78,13 +88,30 @@ order_greek_septuagint = {
 		culture = greek
 		learning = 19
 		AND = {
+			OR = {
+				culture_group = south_slavic
+				culture_group = ruthenian
+				culture_group = russian
+			}
+			religion_group = christian
+		}
+		AND = {
 			ai = no
 			any_realm_province = {
-				culture_group = byzantine
+				culture_group = hellenic
 			}
 		}
 	}
-	NOT = { religion = mandean }
+	NOR = {
+		religion = lutheran
+		religion = laestadian
+		religion = calvinist
+		religion = catholic
+		religion = penitants
+		religion = mariavite
+		religion = insular
+		religion = apparitionist
+	}
 	NOR = {
 		has_artifact = illustrated_septuagint
 		has_artifact = septuagint
@@ -124,13 +151,30 @@ order_greek_new_testament = {
 		culture = greek
 		learning = 19
 		AND = {
+			OR = {
+				culture_group = south_slavic
+				culture_group = ruthenian
+				culture_group = russian
+			}
+			religion_group = christian
+		}
+		AND = {
 			ai = no
 			any_realm_province = {
-				culture_group = byzantine
+				culture_group = hellenic
 			}
 		}
 	}
-	NOT = { religion = mandean }
+	NOR = {
+		religion = lutheran
+		religion = laestadian
+		religion = calvinist
+		religion = catholic
+		religion = penitants
+		religion = mariavite
+		religion = insular
+		religion = apparitionist
+	}
 	NOR = {
 		has_artifact = illustrated_greek_new_testament
 		has_artifact = greek_new_testament
@@ -168,22 +212,27 @@ order_coptic_bible = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
-		culture = coptic
-		culture = egyptian_arabic
 		AND = {
-			ai = no
-			any_realm_province = {
-				culture = coptic
-			}
+			culture = masri
+			religion = orthodox
 		}
 		AND = {
 			ai = no
 			any_realm_province = {
-				culture = egyptian_arabic
+				culture = masri
 			}
 		}
 	}
-	NOT = { religion = mandean }
+	NOR = {
+		religion = lutheran
+		religion = laestadian
+		religion = calvinist
+		religion = catholic
+		religion = penitants
+		religion = mariavite
+		religion = insular
+		religion = apparitionist
+	}
 	NOR = {
 		has_artifact = illustrated_coptic_bible
 		has_artifact = coptic_bible
@@ -221,15 +270,25 @@ order_geez_bible = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
-		culture = ethiopian
+		culture_group = cushitic
+		religion = orthodox
 		AND = {
 			ai = no
 			any_realm_province = {
-				culture = ethiopian
+				culture_group = cushitic
 			}
 		}
 	}
-	NOT = { religion = mandean }
+	NOR = {
+		religion = lutheran
+		religion = laestadian
+		religion = calvinist
+		religion = catholic
+		religion = penitants
+		religion = mariavite
+		religion = insular
+		religion = apparitionist
+	}
 	NOR = {
 		has_artifact = illustrated_geez_bible
 		has_artifact = geez_bible
@@ -268,6 +327,7 @@ order_armenian_bible = {
 	is_landed = yes
 	OR = {
 		culture = armenian
+		religion = orthodox
 		AND = {
 			ai = no
 			any_realm_province = {
@@ -275,7 +335,16 @@ order_armenian_bible = {
 			}
 		}
 	}
-	NOT = { religion = mandean }
+	NOR = {
+		religion = lutheran
+		religion = laestadian
+		religion = calvinist
+		religion = catholic
+		religion = penitants
+		religion = mariavite
+		religion = insular
+		religion = apparitionist
+	}
 	NOR = {
 		has_artifact = illustrated_armenian_bible
 		has_artifact = armenian_bible
@@ -314,14 +383,36 @@ order_georgian_bible = {
 	is_landed = yes
 	OR = {
 		culture = georgian
+		religion = orthodox
 		AND = {
 			ai = no
 			any_realm_province = {
 				culture = georgian
 			}
 		}
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = abkhazian
+			}
+		}
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = ossetian
+			}
+		}
 	}
-	NOT = { religion = mandean }
+	NOR = {
+		religion = lutheran
+		religion = laestadian
+		religion = calvinist
+		religion = catholic
+		religion = penitants
+		religion = mariavite
+		religion = insular
+		religion = apparitionist
+	}
 	NOR = {
 		has_artifact = illustrated_georgian_bible
 		has_artifact = georgian_bible
@@ -405,14 +496,20 @@ order_peshitta_bible = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
-		culture = levantine_arabic
+		culture = suriyi
+		culture = filastini
 		culture = assyrian
-		religion = nestorian
-		religion = chaldean
+		religion = orthodox
 		AND = {
 			ai = no
 			any_realm_province = {
-				culture = levantine_arabic
+				culture = filastini
+			}
+		}
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture = suriyi
 			}
 		}
 		AND = {
@@ -461,12 +558,19 @@ order_old_slavonic_bible = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
-		culture_group = east_slavic
+		culture_group = russian
+		culture_group = ruthenian
 		culture_group = south_slavic
 		AND = {
 			ai = no
 			any_realm_province = {
-				culture_group = east_slavic
+				culture_group = russian
+			}
+		}
+		AND = {
+			ai = no
+			any_realm_province = {
+				culture_group = ruthenian
 			}
 		}
 		AND = {
@@ -476,7 +580,16 @@ order_old_slavonic_bible = {
 			}
 		}
 	}
-	NOT = { religion = mandean }
+	NOR = {
+		religion = lutheran
+		religion = laestadian
+		religion = calvinist
+		religion = catholic
+		religion = penitants
+		religion = mariavite
+		religion = insular
+		religion = apparitionist
+	}
 	NOR = {
 		has_artifact = illustrated_old_slavonic_bible
 		has_artifact = old_slavonic_bible
@@ -514,11 +627,11 @@ order_italian_bible = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
-		culture = italian
+		culture_group = latin
 		AND = {
 			ai = no
 			any_realm_province = {
-				culture = italian
+				culture_group = latin
 			}
 		}
 	}
@@ -646,53 +759,6 @@ order_catalan_bible = {
 }
 
 
-#### Frankish
-order_frankish_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
-	religion_group = christian
-	is_landed = yes
-	OR = {
-		culture = old_frankish
-		AND = {
-			ai = no
-			any_realm_province = {
-				culture = old_frankish
-			}
-		}
-	}
-	NOT = { religion = mandean }
-	NOR = {
-		has_artifact = illustrated_frankish_bible
-		has_artifact = frankish_bible
-		has_character_flag = ciml_hide_bible_decisions
-	}
-  }
-  
-  allow = {
-	wealth = 500
-	NOT = { has_character_modifier = ordered_bible }
-	OR = {
-		has_focus = focus_scholarship
-		has_focus = focus_theology
-		has_ambition = obj_become_paragon_of_virtue 
-		AND = {
-			ai = no
-			NOT = { has_dlc = "Way of Life" }
-		}
-	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.443 }
-	add_character_modifier = { 
-		name = ordered_bible
-		months = 60
-	}
-  }
-}
-
-
 
 #### German
 order_german_bible = { 
@@ -701,18 +767,18 @@ order_german_bible = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
-		culture = german
-		culture = old_saxon
+		culture_group = central_germanic
+		culture_group = benelux
 		AND = {
 			ai = no
 			any_realm_province = {
-				culture = german
+				culture_group = central_germanic
 			}
 		}
 		AND = {
 			ai = no
 			any_realm_province = {
-				culture = old_saxon
+				culture_group = benelux
 			}
 		}
 	}
@@ -755,25 +821,11 @@ order_french_bible = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
-		culture = frankish
-		culture = norman
-		culture = occitan
+		culture_group = french
 		AND = {
 			ai = no
 			any_realm_province = {
-				culture = norman
-			}
-		}
-		AND = {
-			ai = no
-			any_realm_province = {
-				culture = frankish
-			}
-		}
-		AND = {
-			ai = no
-			any_realm_province = {
-				culture = occitan
+				culture_group = french
 			}
 		}
 	}
@@ -801,52 +853,6 @@ order_french_bible = {
   
   effect = {
     character_event = { id = CIML.449 }
-	add_character_modifier = { 
-		name = ordered_bible
-		months = 60
-	}
-  }
-}
-
-#### Nubian
-order_nubian_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
-	religion_group = christian
-	is_landed = yes
-	OR = {
-		culture = nubian
-		AND = {
-			ai = no
-			any_realm_province = {
-				culture = nubian
-			}
-		}
-	}
-	NOT = { religion = mandean }
-	NOR = {
-		has_artifact = illustrated_nubian_bible
-		has_artifact = nubian_bible
-		has_character_flag = ciml_hide_bible_decisions
-	}
-  }
-  
-  allow = {
-	wealth = 500
-	NOT = { has_character_modifier = ordered_bible }
-	OR = {
-		has_focus = focus_scholarship
-		has_focus = focus_theology
-		has_ambition = obj_become_paragon_of_virtue 
-		AND = {
-			ai = no
-			NOT = { has_dlc = "Way of Life" }
-		}
-	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.452 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
@@ -1171,53 +1177,6 @@ order_welsh_bible = {
 }
 
 
-#### Anglo-Saxon
-order_anglo_saxon_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
-	religion_group = christian
-	is_landed = yes
-	OR = {
-		culture = saxon
-		AND = {
-			ai = no
-			any_realm_province = {
-				culture = saxon
-			}
-		}
-	}
-	NOT = { religion = mandean }
-	NOR = {
-		has_artifact = lindisfarne_gospels
-		has_artifact = aelfrics_old_testament
-		has_character_flag = ciml_hide_bible_decisions
-	}
-  }
-  
-  allow = {
-	wealth = 500
-	NOT = { has_character_modifier = ordered_bible }
-	OR = {
-		has_focus = focus_scholarship
-		has_focus = focus_theology
-		has_ambition = obj_become_paragon_of_virtue 
-		AND = {
-			ai = no
-			NOT = { has_dlc = "Way of Life" }
-		}
-	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.469 }
-	add_character_modifier = { 
-		name = ordered_bible
-		months = 60
-	}
-  }
-}
-
-
 #### English
 order_english_bible = { 
   ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
@@ -1264,70 +1223,6 @@ order_english_bible = {
 }
 
 
-#### Mongolian
-order_mongolian_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
-	religion_group = christian
-	is_landed = yes
-	OR = {
-		culture = mongol
-		culture = uyghur
-		AND = {
-			ai = no
-			any_realm_province = {
-				culture = mongol
-			}
-		}
-		AND = {
-			ai = no
-			any_realm_province = {
-				culture = uyghur
-			}
-		}
-	}
-	NOT = { religion = mandean }
-	NOR = {
-		has_artifact = ornate_mongolian_new_testament
-		has_artifact = mongolian_new_testament
-		has_character_flag = ciml_hide_bible_decisions
-	}
-  }
-  
-  allow = {
-	wealth = 500
-	NOT = { has_character_modifier = ordered_bible }
-	OR = {
-		has_focus = focus_scholarship
-		has_focus = focus_theology
-		has_ambition = obj_become_paragon_of_virtue 
-		AND = {
-			ai = no
-			NOT = { has_dlc = "Way of Life" }
-		}
-	}
-	OR = {
-		religion = catholic
-		year = 1300
-		any_realm_province = {
-			religion = catholic
-		}
-		any_courtier = {
-			religion = catholic
-		}
-	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.474 }
-	add_character_modifier = { 
-		name = ordered_bible
-		months = 60
-	}
-  }
-}
-
-
 
 #### bohemian
 order_bohemian_bible = { 
@@ -1336,11 +1231,11 @@ order_bohemian_bible = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
-		culture = bohemian
+		culture = czech
 		AND = {
 			ai = no
 			any_realm_province = {
-				culture = bohemian
+				culture = czech
 			}
 		}
 	}
@@ -1374,164 +1269,13 @@ order_bohemian_bible = {
   }
 }
 
-#### waldensian
-order_waldensian_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
-	OR = {
-		religion = waldensian
-		secret_religion = waldensian
-	}
-	is_landed = yes
-	NOR = {
-		has_artifact = waldensian_bible
-		has_character_flag = ciml_hide_bible_decisions
-	}
-  }
-  
-  allow = {
-	wealth = 500
-	NOT = { has_character_modifier = ordered_bible }
-	OR = {
-		culture_group = latin
-		ai = no
-	}
-	NOR = {
-		AND = {
-			culture = dalmatian
-			ai = yes
-		}
-		AND = {
-			culture = sardinian
-			ai = yes
-		}
-	}
-	OR = {
-		has_focus = focus_scholarship
-		has_focus = focus_theology
-		has_ambition = obj_become_paragon_of_virtue 
-		AND = {
-			ai = no
-			NOT = { has_dlc = "Way of Life" }
-		}
-	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.479 }
-	add_character_modifier = { 
-		name = ordered_bible
-		months = 60
-	}
-  }
-}
-
-
-#### lollard
-order_lollard_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
-	OR = {
-		religion = lollard
-		secret_religion = lollard
-	}
-	is_landed = yes
-	NOR = {
-		has_artifact = wycliffe_bible
-		has_artifact = hungarian_hussite_bible
-		has_artifact = hussite_bible
-		has_character_flag = ciml_hide_bible_decisions
-	}
-  }
-  
-  allow = {
-	wealth = 500
-	NOT = { has_character_modifier = ordered_bible }
-	OR = {
-		culture = saxon
-		culture = english
-		culture = old_saxon
-		culture_group = west_slavic
-		culture = hungarian
-		ai = no
-	}
-	OR = {
-		has_focus = focus_scholarship
-		has_focus = focus_theology
-		has_ambition = obj_become_paragon_of_virtue 
-		AND = {
-			ai = no
-			NOT = { has_dlc = "Way of Life" }
-		}
-		trait = zealous
-	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.481 }
-	add_character_modifier = { 
-		name = ordered_bible
-		months = 60
-	}
-  }
-}
-
-
-#### samaritan
-order_ciml_samaritan_pentateuch = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
-	is_landed = yes
-	OR = {
-		religion = samaritan
-		AND = {
-			religion_group = christian
-			trait = sympathy_judaism
-			OR = {
-				any_realm_province = {
-					religion = samaritan
-				}
-				completely_controls = c_jerusalem	
-			}
-		}
-	}
-	NOR = {
-		has_artifact = ciml_samaritan_pentateuch
-		has_character_flag = ciml_hide_bible_decisions
-	}
-  }
-  
-  allow = {
-	wealth = 500
-	NOT = { has_character_modifier = ordered_bible }
-	OR = {
-		has_focus = focus_scholarship
-		has_focus = focus_theology
-		has_ambition = obj_become_paragon_of_virtue 
-		AND = {
-			ai = no
-			NOT = { has_dlc = "Way of Life" }
-		}
-	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.485 }
-	add_character_modifier = { 
-		name = ordered_bible
-		months = 60
-	}
-  }
-}
-
 #### Jewish
 order_ciml_torah = { 
   ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
   potential = {
 	is_landed = yes
 	OR = {
-		religion = jewish
-		religion = karaite
+		religion_group = jewish_group
 		culture_group = israelite
 		AND = {
 			trait = sympathy_judaism
@@ -1574,8 +1318,7 @@ order_ciml_tanakh = {
   potential = {
 	is_landed = yes
 	OR = {
-		religion = jewish
-		religion = karaite
+		religion_group = jewish_group
 		culture_group = israelite
 		AND = {
 			trait = sympathy_judaism
@@ -1621,7 +1364,8 @@ hide_bible_decisions = {
 	ai = no
 	OR = {
 		religion_group = christian
-		religion_group = jewish
+		religion_group = jewish_group
+		religion_group = muslim
 	}
 	NOT  = { has_character_flag = ciml_hide_bible_decisions }
   }
@@ -1641,7 +1385,8 @@ show_bible_decisions = {
 	ai = no
 	OR = {
 		religion_group = christian
-		religion_group = jewish
+		religion_group = jewish_group
+		religion_group = muslim
 	}
 	has_character_flag = ciml_hide_bible_decisions
   }
@@ -1668,8 +1413,7 @@ order_arab_quran = {
 		has_artifact = ornate_quran
 		has_artifact = ciml_quran
 		has_character_flag = ciml_ordered_quran
-		religion = yarsan
-		religion = yazidi
+		religion_group = islamosyncretic
 	}
   }
   
@@ -1704,8 +1448,7 @@ order_persian_quran = {
 	NOR = {
 		has_artifact = persian_quran
 		has_character_flag = ciml_ordered_quran
-		religion = yarsan
-		religion = yazidi
+		religion_group = islamosyncretic
 	}
 	OR = {
 		culture = afghan
@@ -1759,27 +1502,15 @@ order_latin_quran = {
 			trait = sympathy_islam
 		}
 		AND = {
-			religion = fraticelli
+			religion = penitants
 			trait = sympathy_islam
 		}
 		AND = {
-			religion = adoptionist
+			religion = mariavite
 			trait = sympathy_islam
 		}
 		AND = {
-			religion = lollard
-			trait = sympathy_islam
-		}
-		AND = {
-			religion = waldensian
-			trait = sympathy_islam
-		}
-		AND = {
-			religion = free_spirits
-			trait = sympathy_islam
-		}
-		AND = {
-			religion = cathar
+			religion = insular
 			trait = sympathy_islam
 		}
 		AND = {
@@ -1787,7 +1518,7 @@ order_latin_quran = {
 			trait = sympathy_islam
 		}
 		AND = {
-			culture_group = iberian
+			culture_group = spanish
 			trait = sympathy_islam
 		}
 	}
@@ -1811,7 +1542,7 @@ order_latin_quran = {
 		AND = {
 			religion_group = muslim
 			any_realm_province = {
-				culture_group = iberian
+				culture_group = spanish
 			}
 		}
 		AND = {
