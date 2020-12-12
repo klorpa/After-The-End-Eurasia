@@ -679,66 +679,191 @@
 	2638.11.6={ birth=yes }
 }
 #####################################
-2202067={#Aydin Strongman
+2202068={#Aydin Strongman
 	name="Yörük"
 	dynasty=2055004 #Burakgazi
 	culture=west_anatolian
 	religion=ruhi
 	2638.11.6={ birth=yes }
 }
-2202068={#Istanbul Strongman
+2202069={#Istanbul Strongman
 	name="Nazim"
 	dynasty=2057000 #Kartal
 	culture=rumelian
 	religion=nizami
 	2638.11.6={ birth=yes }
 }
-2202069={#Corum Strongman
+2202070={#Corum Strongman
 	name="Gürkan"
 	dynasty=2052001 #Coskun
 	culture=central_anatolian
 	religion=ruhi
 	2638.11.6={ birth=yes }
 }
-2202070={#Ankara Strongman
+2202071={#Ankara Strongman
 	name="Fazil"
 	dynasty=2052002 #Biret
 	culture=central_anatolian
 	religion=ruhi
 	2638.11.6={ birth=yes }
 }
-2202071={#Ankara Vassal
+2202072={#Ankara Vassal
 	name="Erdil"
 	dynasty=2052003 #Demirel
 	culture=central_anatolian
 	religion=nizami
 	2638.11.6={ birth=yes }
 }
-2202072={#Pontic King
+2202073={#Pontic King
 	name="Yiannis"
 	dynasty=2056001 #Skliros
 	culture=romioi
 	religion=ruhi
 	2638.11.6={ birth=yes }
 }
-2202073={#Samsun Vassal
+2202074={#Samsun Vassal
 	name="Talat"
 	dynasty=2052004 #Özüdogru
 	culture=central_anatolian
 	religion=ruhi
 	2638.11.6={ birth=yes }
 }
-2202074={#Count of Ordu
+2202075={#Count of Ordu
 	name="Ekin"
 	dynasty=2060000 #Sönmez
 	culture=black_sea
 	religion=nizami
 	2638.11.6={ birth=yes }
 }
-2202075={#Count of Rize
+2202076={#Count of Rize
 	name="Gürbüz"
 	dynasty=2060001 #Üçok
 	culture=black_sea
 	religion=ruhi
+	2638.11.6={ birth=yes }
+}
+2202077={#King of Antakya (and Arab descendant)
+	name="Abdullah"
+	dynasty=2065000 #Arap
+	culture=turcoman
+	father=2202078
+	mother=2202079
+	religion=sunni
+	give_nickname=nick_the_arab
+	2638.11.6={ birth=yes }
+	2662.1.1={
+		prestige=500
+		effect={
+			spawn_unit={
+				province=307 #Hatay
+				owner=ROOT
+				troops={
+					archers={250 250}
+					heavy_infantry={250 750}
+					light_infantry={500 500}
+				}
+				attrition=0.5
+			}
+		}
+	}
+}
+2202078={#Arab Father
+	name="Adnan"
+	dynasty=2065000 #Arap
+	culture=suriyi
+	religion=sunni
+	2610.11.6={ birth=yes }
+	2636.11.6={ add_spouse = 2202079 }
+}
+2202079={#Turkish Mother
+	name="Aydan"
+	female=yes
+	culture=central_anatolian
+	religion=nizami
+	2610.11.6={ birth=yes }
+}
+2202080={#Turkish Vassal to Antakya King
+	name="Bahadir"
+	dynasty=2052005 #Aksoy
+	culture=central_anatolian
+	religion=nizami
+	2638.11.6={ birth=yes }
+}
+2202081={#Turkish Vassal to Antakya King
+	name="Bora"
+	dynasty=2052006 #Binici
+	culture=central_anatolian
+	religion=nizami
+	2638.11.6={ birth=yes }
+}
+2202082={#Kurdish Tribute to Antakya
+	name="Cigerxwîn"
+	dynasty=2066000 #Hasan
+	culture=kurdish
+	father=2202084
+	mother=2202083
+	religion=nizami
+	2638.11.6={ birth=yes }
+}
+2202083={
+	name="Evîn"
+	female=yes
+	culture=kurdish
+	religion=yazidi
+	2610.11.6={ birth=yes }
+}
+2202084={
+	name="Sheikhmous"
+	dynasty=2066000 #Hasan
+	culture=kurdish
+	religion=nizami
+	2610.11.6={ birth=yes }
+}
+2202085={#Marriage Alliance with Kurdish Van dude
+	name="Nesrîn"
+	dynasty=2066000 #Hasan
+	culture=kurdish
+	female=yes
+	father=2202084
+	mother=2202083
+	religion=nizami
+	2638.11.6={ birth=yes }
+}
+2202086={#Kurdish Duke of Van
+	name="Hozan"
+	dynasty=2066001 #Bedlîsî
+	culture=kurdish
+	religion=nizami
+	2620.11.6={ birth=yes }
+	2660.11.6={ add_spouse=2202085 }
+}
+2202087={#Count of Kars
+	name="Caner"
+	dynasty=2060002 #Bedlîsî
+	culture=black_sea
+	religion=shiite
+	trait=alevi
+	2638.11.6={ birth=yes }
+}
+2202088={#Kurdish Duke of Malatya
+	name="Nemrud"
+	dynasty=2066002 #Yamulki
+	culture=kurdish
+	religion=nizami
+	2638.11.6={ birth=yes }
+}
+2202089={#Count of Malatya
+	name="Battal"
+	dynasty=2052007 #Dede
+	culture=central_anatolian
+	religion=nizami
+	2638.11.6={ birth=yes }
+}
+2202090={#Count of Erzincan
+	name="Ekber"
+	dynasty=2060003 #Cicek
+	culture=black_sea
+	religion=shiite
+	trait=alevi
 	2638.11.6={ birth=yes }
 }
