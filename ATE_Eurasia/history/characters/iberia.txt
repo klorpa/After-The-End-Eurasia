@@ -1,25 +1,44 @@
 1992000={
 	name="Ibai"
-	dynasty=2014061 #Esparza
+	dynasty=2014061 #Elorza
 	culture=basque
 	religion=catholic
-	martial=6
-	diplomacy=5
-	stewardship=8
-	intrigue=7
-	learning=4
-	trait=proud
-	trait=charitable
-	trait=honest
-	trait=gregarious
-	trait=authoritative
-	trait=thrifty_clerk
+	father=1992002
+	martial=8
+	diplomacy=6
+	stewardship=6
+	intrigue=8
+	learning=6
+	trait=ruthless
+	trait=brave
+	trait=just
+	trait=cynical
+	trait=patient
+	trait=ambitious
+	trait=intricate_webweaver
 	2646.2.14={birth=yes}
 	2700.1.1={death=yes}
 }
+1992001={
+	name="Iñaki"
+	dynasty=2014061 #Elorza
+	culture=basque
+	religion=catholic
+	father=1992002
+	2652.2.14={birth=yes}
+	2700.1.1={death=yes}
+}
+1992002={
+	name="Urtzi"
+	dynasty=2014061 #Elorza
+	culture=basque
+	religion=catholic
+	2619.6.25={birth=yes}
+	2662.4.6={death=yes}
+}
 1992100={
-	name="Fernando"
-	dynasty=2015044 #Murillo
+	name="Ferrán"
+	dynasty=2015044 #Ezquerra
 	culture=aragonese
 	religion=penitants
 	martial=6
@@ -37,20 +56,20 @@
 	2663.8.11={death=yes}
 }
 1992101={
-	name="Fernando"
-	dynasty=2015044 #Murillo
+	name="Ferrán"
+	dynasty=2015044 #Ezquerra
 	culture=aragonese
 	religion=penitants
-	martial=6
+	martial=5
 	diplomacy=5
 	stewardship=8
-	intrigue=7
-	learning=4
+	intrigue=4
+	learning=8
 	trait=proud
 	trait=charitable
 	trait=honest
-	trait=gregarious
-	trait=authoritative
+	trait=diligent
+	trait=erudite
 	trait=thrifty_clerk
 	father=1992100
 	2646.2.14={birth=yes}
@@ -59,40 +78,41 @@
 }
 1992102={
 	name="Ricardo"
-	dynasty=2015044 #Murillo
+	dynasty=2015044 #Ezquerra
 	culture=aragonese
 	religion=catholic
-	martial=6
-	diplomacy=5
-	stewardship=8
+	martial=5
+	diplomacy=8
+	stewardship=4
 	intrigue=7
-	learning=4
-	trait=proud
+	learning=5
 	trait=charitable
 	trait=honest
-	trait=gregarious
-	trait=authoritative
-	trait=thrifty_clerk
+	trait=patient
+	trait=temperate
+	trait=slothful
+	trait=charismatic_negotiator
 	father=1992100
 	2649.6.3={birth=yes}
 	2700.1.1={death=yes}
 	2663.8.11 = {add_claim=d_alto_aragon}
 }
 1992200={
-	name="Jordi"
+	name="Lluís"
 	dynasty=2017060 #Cadafalch
 	culture=catalan
 	religion=penitants
-	martial=6
-	diplomacy=5
+	martial=5
+	diplomacy=8
 	stewardship=8
-	intrigue=7
-	learning=4
-	trait=proud
+	intrigue=5
+	learning=8
+	trait=temperate
 	trait=charitable
-	trait=honest
-	trait=gregarious
+	trait=shy
+	trait=cynical
 	trait=authoritative
+	trait=just
 	trait=thrifty_clerk
 	2636.9.3={birth=yes}
 }
@@ -107,11 +127,11 @@
 	intrigue=7
 	learning=4
 	trait=proud
-	trait=charitable
-	trait=honest
-	trait=gregarious
+	trait=greedy
+	trait=brave
+	trait=honorable
 	trait=authoritative
-	trait=thrifty_clerk
+	trait=skilled_tactician
 	2623.4.1={birth=yes}
 }
 1992301={
@@ -119,24 +139,25 @@
 	dynasty=2018060 #Carrasco
 	culture=castilian
 	religion=catholic
-	martial=6
-	diplomacy=5
-	stewardship=8
-	intrigue=7
-	learning=4
+	martial=8
+	diplomacy=9
+	stewardship=3
+	intrigue=8
+	learning=9
 	trait=proud
-	trait=charitable
+	trait=diligent
 	trait=honest
 	trait=gregarious
-	trait=authoritative
-	trait=thrifty_clerk
+	trait=scholar
+	trait=brave
+	trait=scholarly_theologian
 	father=1992300
 	2635.7.9={birth=yes}
 }
 # PORTUGAL #
 1992400={
 	name="Leandro"
-	dynasty=2024230 #Teles
+	dynasty=2024230 #Teixeira
 	culture=portuguese
 	religion=catholic
 	martial=3
@@ -150,7 +171,7 @@
 }
 1992401={
 	name="Pedro"
-	dynasty=2024230 #Teles
+	dynasty=2024230 #Teixeira
 	culture=portuguese
 	religion=lusitanian
 	martial=10
@@ -167,8 +188,8 @@
 	2619.5.29={death=yes}
 }
 1992402={
-	name="Simao"
-	dynasty=2024230 #Teles
+	name="Simão"
+	dynasty=2024230 #Teixeira
 	give_nickname=nick_the_grim
 	culture=portuguese
 	religion=lusitanian
@@ -185,7 +206,7 @@
 }
 1992403={
 	name="Bento"
-	dynasty=2024230 #Teles
+	dynasty=2024230 #Teixeira
 	give_nickname=nick_the_wise
 	culture=portuguese
 	religion=lusitanian
@@ -203,7 +224,7 @@
 }
 1992404={
 	name="Rodolfo"
-	dynasty=2024230 #Teles
+	dynasty=2024230 #Teixeira
 	give_nickname=nick_the_unfortunate
 	culture=portuguese
 	religion=lusitanian
@@ -221,7 +242,7 @@
 }
 1992405={
 	name="Diogo"
-	dynasty=2024230 #Teles
+	dynasty=2024230 #Teixeira
 	culture=portuguese
 	religion=lusitanian
 	martial=3
@@ -234,21 +255,22 @@
 }
 # #
 1992500={
-	name="Raymond"
+	name="Ramón"
 	dynasty=2019101 #Tenorio
 	culture=andalusian
 	religion=catholic
 	martial=6
-	diplomacy=5
-	stewardship=8
-	intrigue=7
-	learning=4
-	trait=thrifty_clerk
+	diplomacy=9
+	stewardship=6
+	intrigue=6
+	learning=8
+	trait=charismatic_negotiator
 	trait=proud
-	trait=charitable
-	trait=honest
+	trait=deceitful
+	trait=ambitious
 	trait=gregarious
 	trait=authoritative
+	trait=patient
 	2615.2.25={birth=yes}
 	2700.1.1={death=yes}
 }
@@ -257,17 +279,18 @@
 	dynasty=2019049 #Baena
 	culture=andalusian
 	religion=catholic
-	martial=6
-	diplomacy=5
-	stewardship=8
-	intrigue=7
+	martial=8
+	diplomacy=4
+	stewardship=4
+	intrigue=4
 	learning=4
 	trait=proud
-	trait=charitable
-	trait=honest
-	trait=gregarious
-	trait=authoritative
-	trait=thrifty_clerk
+	trait=wroth
+	trait=envious
+	trait=rude
+	trait=brave
+	trait=strong
+	trait=skilled_tactician
 	2626.4.30={birth=yes}
 }
 1992700={
@@ -280,30 +303,20 @@
 	stewardship=8
 	intrigue=7
 	learning=4
-	trait=proud
+	trait=diligent
 	trait=charitable
-	trait=honest
+	trait=arbitrary
 	trait=gregarious
-	trait=authoritative
+	trait=lustful
+	trait=erudite
 	trait=thrifty_clerk
 	2641.7.18={birth=yes}
 }
 1992800={
-	name="Alejandro"
+	name="Alexandre"
 	dynasty=2022177 #Romariz
 	culture=galician
 	religion=lusitanian
-	martial=6
-	diplomacy=5
-	stewardship=8
-	intrigue=7
-	learning=4
-	trait=proud
-	trait=charitable
-	trait=honest
-	trait=gregarious
-	trait=authoritative
-	trait=thrifty_clerk
 	2612.5.9={birth=yes}
 }
 1992801={
@@ -311,17 +324,6 @@
 	dynasty=2021029 #Armayor
 	culture=asturian
 	religion=penitants
-	martial=6
-	diplomacy=5
-	stewardship=8
-	intrigue=7
-	learning=4
-	trait=proud
-	trait=charitable
-	trait=honest
-	trait=gregarious
-	trait=authoritative
-	trait=thrifty_clerk
 	2641.12.2={birth=yes}
 }
 1992802={
@@ -329,17 +331,6 @@
 	dynasty=2021052 #Bercial
 	culture=asturian
 	religion=penitants
-	martial=6
-	diplomacy=5
-	stewardship=8
-	intrigue=7
-	learning=4
-	trait=proud
-	trait=charitable
-	trait=honest
-	trait=gregarious
-	trait=authoritative
-	trait=thrifty_clerk
 	2626.2.27={birth=yes}
 }
 1992803={
@@ -347,35 +338,24 @@
 	dynasty=2021107 #Corrales
 	culture=asturian
 	religion=penitants
-	martial=6
-	diplomacy=5
-	stewardship=8
-	intrigue=7
-	learning=4
-	trait=proud
-	trait=charitable
-	trait=honest
-	trait=gregarious
-	trait=authoritative
-	trait=thrifty_clerk
 	2638.6.16={birth=yes}
 }
 1992804={
 	name="Fernando"
 	dynasty=2020034 #Benito
-	culture=leonese
+	culture=castilian
 	religion=lusitanian
-	martial=6
+	martial=8
 	diplomacy=5
-	stewardship=8
+	stewardship=7
 	intrigue=7
 	learning=4
-	trait=proud
-	trait=charitable
-	trait=honest
-	trait=gregarious
-	trait=authoritative
-	trait=thrifty_clerk
+	trait=zealous
+	trait=ambitious
+	trait=deceitful
+	trait=cruel
+	trait=stubborn
+	trait=tough_soldier
 	2635.12.12={birth=yes}
 }
 1992805={
@@ -392,26 +372,28 @@
 	trait=charitable
 	trait=honest
 	trait=gregarious
-	trait=authoritative
+	trait=wroth
 	trait=thrifty_clerk
 	2645.3.9={birth=yes}
 }
 1992806={
 	name="Alfonso"
-	dynasty=2018037 #Rubio
+	dynasty=2018037 #Blazquez
 	culture=castilian
 	religion=penitants
-	martial=6
-	diplomacy=5
-	stewardship=8
-	intrigue=7
-	learning=4
-	trait=proud
+	martial=8
+	diplomacy=8
+	stewardship=4
+	intrigue=4
+	learning=6
 	trait=charitable
 	trait=honest
 	trait=gregarious
 	trait=authoritative
-	trait=thrifty_clerk
+	trait=strong
+	trait=brave
+	trait=honorable
+	trait=charismatic_negotiator
 	2638.5.26={birth=yes}
 }
 1992900={
@@ -419,15 +401,15 @@
 	dynasty=2017067 #Pons
 	culture=catalan
 	religion=catholic
-	martial=6
+	martial=5
 	diplomacy=5
 	stewardship=8
-	intrigue=7
-	learning=4
-	trait=proud
-	trait=charitable
-	trait=honest
-	trait=gregarious
+	intrigue=8
+	learning=8
+	trait=patient
+	trait=greedy
+	trait=deceitful
+	trait=paranoid
 	trait=authoritative
 	trait=thrifty_clerk
 	2603.8.22={birth=yes}
@@ -744,7 +726,7 @@
 }
 1713016={
 	name="Valentí"
-	dynasty=2017251 #Vallé
+	dynasty=2017251 #Vallvé
 	culture=catalan
 	religion=catholic
 	diplomacy=5
@@ -784,10 +766,10 @@
 	}
 }
 1713018={
-	name="Alonso"
-	dynasty=2020111 #Moquesuma
+	name="Enrique"
+	dynasty=2020111 #Moctezuma
 	culture=leonese
-	religion=catholic
+	religion=penitants
 	diplomacy=6
 	martial=7
 	intrigue=6
@@ -810,7 +792,7 @@
 	female=yes
 	dynasty=2020112 #Almendarez
 	culture=leonese
-	religion=catholic
+	religion=penitants
 	diplomacy=5
 	martial=5
 	stewardship=7
@@ -903,7 +885,10 @@
 	trait=humble
 	trait=just
 	trait=zealous
+	trait=brave
+	trait=duelist
 	2638.6.27={birth=yes}
+	2700.1.1={death=yes}
 }
 1713024={
 	name="Rocinante"
@@ -912,4 +897,172 @@
 	trait=is_malnourished
 	2638.6.27={birth=yes}
 	2650.6.27={employer=1713023 give_job_title = job_marshal}
+	2700.1.1={death=yes}
+}
+1713025={
+	name="Chuan"
+	dynasty=2015340 #Lascorz
+	culture=aragonese
+	religion=catholic
+	martial=6
+	diplomacy=6
+	stewardship=6
+	intrigue=6
+	learning=6
+	trait=tough_soldier
+	trait=humble
+	trait=zealous
+	trait=content
+	trait=chaste
+	2619.6.1={birth=yes}
+	2700.1.1={death=yes}
+}
+1713026={
+	name="Manuel"
+	dynasty=2015340 #Lascorz
+	culture=aragonese
+	religion=catholic
+	father=1713025
+	martial=7
+	diplomacy=7
+	stewardship=1
+	intrigue=2
+	learning=5
+	trait=tough_soldier
+	trait=humble
+	trait=gregarious
+	trait=lustful
+	trait=brave
+	trait=cynical
+	2643.8.14={birth=yes}
+	2700.1.1={death=yes}
+}
+1713027={
+	name="Teodoro"
+	dynasty=2015340 #Lascorz
+	culture=aragonese
+	religion=catholic
+	father=1713025
+	martial=7
+	diplomacy=7
+	stewardship=7
+	intrigue=4
+	learning=4
+	trait=tough_soldier
+	trait=proud
+	trait=zealous
+	trait=chaste
+	trait=brave
+	2648.1.5={birth=yes}
+	2700.1.1={death=yes}
+}
+1713028={
+	name="Arnau"
+	dynasty=2015339 #Uson
+	culture=aragonese
+	religion=catholic
+	martial=4
+	diplomacy=6
+	stewardship=4
+	intrigue=10
+	learning=5
+	trait=elusive_shadow
+	trait=diligent
+	trait=deceitful
+	trait=cynical
+	trait=scarred
+	trait=patient
+	2634.7.5={birth=yes}
+	2700.1.1={death=yes}
+}
+1713029={
+	name="Carlos"
+	dynasty=2019008 #Perez
+	culture=andalusian
+	religion=catholic
+	martial=12
+	diplomacy=12
+	stewardship=5
+	intrigue=5
+	learning=5
+	trait=tough_soldier
+	trait=zealous
+	trait=brave
+	trait=adventurer
+	trait=duelist
+	trait=lustful
+	trait=proud
+	trait=fair
+	2638.2.25={birth=yes}
+	2700.1.1={death=yes}
+}
+1713030={
+	name="Raimon"
+	dynasty=2017202 #Belloch
+	culture=catalan
+	religion=penitants
+	martial=4
+	diplomacy=8
+	stewardship=5
+	intrigue=5
+	learning=9
+	trait=scholarly_theologian
+	trait=cruel
+	trait=lustful
+	trait=ambitious
+'	trait=diligent
+	trait=erudite
+	trait=mystic
+	2615.8.6={birth=yes}
+	2700.1.1={death=yes}
+}
+1713031={
+	name="Domènec"
+	dynasty=2017017 #Bosch
+	culture=catalan
+	religion=penitants
+	martial=0
+	diplomacy=8
+	stewardship=4
+	intrigue=4
+	learning=7
+	trait=naive_appeaser
+	trait=erudite
+	trait=poet
+	trait=humble
+	trait=gregarious
+	trait=chaste
+	2644.5.25={birth=yes}
+	2700.1.1={death=yes}
+}
+1713032={
+	name="Xabier"
+	dynasty=2014064 #Unamuno
+	culture=basque
+	religion=penitants
+	trait=skilled_tactician
+	trait=brave
+	2633.2.5={birth=yes}
+	2700.1.1={death=yes}
+}
+1713033={
+	name="Jerónimo"
+	dynasty=2020111 #Moctezuma
+	culture=leonese
+	religion=penitants
+	father=1713018
+	mother=1713019
+	trait=twin
+	2663.12.5={birth=yes}
+}
+1713034={
+	name="Mariana"
+	female=yes
+	dynasty=2020111 #Moctezuma
+	culture=leonese
+	religion=penitants
+	father=1713018
+	mother=1713019
+	trait=twin
+	2663.12.5={birth=yes}
 }
