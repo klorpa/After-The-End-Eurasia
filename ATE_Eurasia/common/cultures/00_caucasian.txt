@@ -34,22 +34,47 @@ caucasian = {
 	}
 
 	dargin = {
-		graphical_cultures = { ugricgfx }
+		graphical_cultures = { easternslavicgfx }
 		
 		color = { 0.5 1.0 0.5 }
 
 		male_names = {
-			Aleksander_Alexander
+			Abu Abubakar_Abu-Bakr Abulmumin Abulmuslim Abutyalib Amir Amirhan Anvar Arsen_Arsene Arslan Asadullagh Askhyab 
+			Baghadur Baghautdin Bashir Bilal Bulaç Bulat Byakhyamma Byakhyand Byakhyammad 
+			Daud_David 
+			Glisa_Jesus Glisak_Isaac Glyapdulatip Glyabdulgyaziz_Abdulaziz Glyabadulhalik Glyabdulkhyamid_Abdulhamid Glyabdulkadir_Abdulkadir Glyabdulkarim_Abdulkarim  Glyabdulla_Abdullah Glyabdullabek Glyabdulmalik_Abdulmalik Glyabdulmedzhid_Abdulmajid Glyabdulvaghab_Abdulwahab Glyabdulvyakhid_Abdulwahid Glyabdurashid_Abdulrashid Glyabdurryakhim_Abdurrahim Glyabdulrryakhman_Abdurrahman Glyabdusalam Glyabdusamad Glyabid Glyakhmad_Ahmad Glyakhmadhan Glyali_Ali Glyalibek Glyalibulat Glyalikhyazhi Glyalihan Glyaliaskhyab Glyaziz_Aziz 
+			Ibragim_Abraham Ilyas_Elijah Imanshapigh Islam Ismaglil_Ismail 
+			Kagir Kadi Kadir_Qadir Kalimullag Kamal Kamaludin Karim Karimullag Kazim Khabib_Habib Khusejn_Hussein Khyamid_Hamid Khyamzat_Hamza Khyanipa Khyasan_Hasan Khyazhi_Haji Khyazhighyali Khazhigyamar Khyazhimurad Khyazhimyakhyamad Kurdan 
+			Magdi_Mahdi Myakhyarram_Maharram Myakhyammad_Muhammad Myakhyammadali Myakhyammadrasul Myakhyammadsalam 
+			Talkhyat_Talhat  
+			Vaghab_Wahab Vyakhid_Wahid 
+			Zagir Zagirbek Zairbek Zajdullag Zajnudin Zalimhan Zaur Zhabrail_Gabriel Zhaghpar Zhamal_Jamal Zhamalutdin_Jamaluddin Zubajru Zugum Zugumkadi Zugumkhyazhi Zulpukar 
 		}
 
 		female_names = {
-			Aleksandra_Alexandra 
+			Ajshat_Aisha Ajzanat Amatullagh Aminat Anisat Asiyat 
+			Bariyat Basirat Bahtika Bahu Bika Bulbun Burliyat 
+			Çakar Çamsiyat 
+			Glyabidat Glyashura Gulbariyat Gulzhanat 
+			Hadizha_Khadija Hamis Hanum Hanza 
+			Kalimat Kavsarat Khabibat Khyazhipatimat Kumsiyat Kursum 
+			Majrusat Majsarat Malika Mariyam_Mary Maryam_Mary Muhlisat Muminat Muslimat 
+			Nadizhat Naida Napisat Nasikhyat 
+			Oksana 
+			Patimat_Fatima Pazilat Perziyat Pirdauz 
+			Rabiyat Raisat Rajkhanat Raziyat_Razia Rukiyat 
+			Sajgibat Sakinat Salikhyat Salimat Saniyat Sapiyat Shaganaz Shagrizat Shalazaj Shamaj Sultanat_Sultana Sultanum Syaghidat_Saida 
+			Taibat Tajgibat Tsibac 
+			Ubajdat Umajganat Umiyat Umukusum Uzlipat 
+			Zaghidat Zaira Zajnab_Zaynab Zarema Zavzhat Zhamilat_Jamila Zhariyat Zhuirat Zhumyagh Zubajdat_Zubaida Zughra_Zohra Zulkhizhat Zumrud 
 		}
+		
+		dynasty_name_first = yes
 		
 		from_dynasty_prefix = "of "
 		
-		male_patronym = "ovich"
-		female_patronym = "ovna"
+		male_patronym = "la"
+		female_patronym = "la"
 		prefix = no
 
 		pat_grf_name_chance = 50
@@ -64,22 +89,64 @@ caucasian = {
 	}
 
 	lezgin = {
-		graphical_cultures = { ugricgfx }
+		graphical_cultures = { easternslavicgfx }
 		
 		color = { 0.3 0.8 0.7 }
 
 		male_names = {
-			Aleksander_Alexander
+			Abdulkair Abdurraghim Abdurraghman Abdurrashid Abdurrazak Abdussalam Abilferz Ali Alibek Alirza Alqadar Arab Arah Ashuh 
+			Baku Bejbut Bici Bicirush Binet Byurkyud 
+			Çançur Çandar Çarçi Çaush Carah Caru Caruhan Çerkes Çinig Çingiz_Genghis Çlulav Çuban Cuhur Çuru 
+			Dair Devlethan Dzhabar_Jabbar Dzhalal_Jalal 
+			Efendi Ehir Elbrus Eldar Elkhan Elmar Emin_Amin Emir Emirbek Emirgamza Enver Erziman Esed_Asad Eskender_Alexander Esli 
+			Fahruddin Fajzudin Fajzullah Farhat_Ferhat Farid Farman Farzali Fatali Fatullah Fazil Fazludin Fidaj Fikret Firuz Fuad 
+			Gadzhi Gadzhimagomed Gadzhimurad Ghabib Ghadis Ghumaj Ghumajçu Ghumajran Ghumajstan Ghumajzat Gigi Gumyush Gyurçeg 
+			Hair Hairbek Hajruddin Hajrullah Hakverdi Halid Halif Halil Hanlar Hanaga Hanzhal Hazar Hizri Huda Hudaverdi Hurma Hurshid Hva 
+			Igit Ihlas Isfaghan Isfendiyar 
+			Kafar Kahriman Kair Kavha Karib Kazan Kehler Kevis Keyebi Kihrler Kilindzh Ksen Ksenhan Ksenhva Ktab Kudrat Kurban Kyure Kyurebek Kyurehan Kurogli 
+			Lavkha Lamet Lametali Lametulla Lek Lezhbedin Lifri 
+			Magharam_Muharram Magomed_Muhammad Magomedsalam Maidin Mail Manuçar_Manuchehr Marhar Mehti_Mehdi Mejlan Merden Meshedi Miraghmed Mirze_Mirza Misri Mityad Muhuz Mulkaj Munçar 
+			Nahçir Naib Nakhchir Namet Narim Nariman Nasib Nasruddin Nasrullah Navruz Navruzbeg Nazhmuddin_Nejmeddin Nazim Nazir Niyaz Nisred Nizam Nuker Nur Nuh 
+			Pir Pirmagomed Pirmet Pirsulejman 
+			Radzhab_Rajab Rafi Rafik Raghim Raghman Raghmet Raghmatullah Ramaldan_Ramadan Ramazan_Ramadan Ramidin Ramiz Rashid Rasim Rasul Rauf Raufuddin Razak Razhidin Remihan Rifat Riza Rizahan Rizvan Ruslan Rustam 
+			Sabet Sabir Sabzali Sadih Safar Saghibat Sahib Said_Sayyid Saidahmed Saidbek Salam Salaudin Salih Salman Sambur Samed Sasan Sayad Sedef Sedredin Sefi Sefiullah Sejfudin Sejfullah Selim Serder Serker Sevil Shadibek Shafi Shah Shahabas Shahbaz Shahemir Shahmandar Shahmardan Shakir Shalbuz Shamil Shapur Sharafuddin Shejh_Sheikh Shejhali Shejriban Sheker Shekerali Shemah Sherif Sherihan Shevket Shimshir Shir Shirali Shirvan Shirin Shtibek Shukur Shukurali Sirazhudin Sufijan_Sufyan Sulejman_Solomon Sultan  
+			Tadzhir Tadzhlar Taghir_Tahir Taib Tarikuli Tariverdi Tarlan Temezhan Timur Tlalib Tofik 
+			Uzeir Uzden Uzum Umar Urazhan Urfan Urugh Urus Urusbek Urushan Uruzh Usman_Uthman Ustabala Ustakishi Ustar Ustarhan 
+			Vagab Verg Vezirkhan 
+			Yahya_John Yakub_Jacob Yarahmed Yarali Yarmet Yavash Yunus_Jonas Yusuf_Joseph 
+			Zavir 
 		}
 
 		female_names = {
-			Aleksandra_Alexandra 
+			Abidat Adishirin Aghanaz Ajnise Amira Asiyat 
+			Badan Bade Bartsalay Basti Bes Besen Beshanum Bitsirush Bizi Bubu 
+			Çirah Çirahanum Clijivarz Cuk Cukver 
+			Dairat Deste Destegyul Destehanum Dide Dilber Dilshad Dilsuz Dunyanaz Duriya 
+			Ekebazhi Ekoyat Elmira Emina 
+			Faiza Farida Fatlima_Fatima Fazilya Firuza 
+			Gerekmaz Ghabibat Ghava Gite Gyulbes Gyulçahra Gyulçiçek Gyuldeste Gyulnara Gyulnaz Gulnise Gyulperi Gyulsenem Gyurçeg Gyuzgyush 
+			Hadizhat Hala Halida Halisat Halum Hanbiçe Handide Hanifat Hanum Hatuzhaj 
+			Içer Içinkelem Iera Iltis Imarat Irada 
+			Kamer Kiztamam Kyubre Kyuzi Kveri 
+			Lala Lejli Lejlibeke Lejlihanum 
+			Mahpur Maral Marvar Mehriban Mehriva Mejri Men Merzhegyul Merziyat Mihid Mishlesh Mughul Mulkaj Muminat 
+			Nafisat Naida Nailya Naima Nargiz Nasibat Nazbike Nazlu Neki Nekiyat Niger Nise Nuriyat 
+			Pakizat Patimat_Fatima Pecenaj Penker Perizada Pirdavus 
+			Rafiga Raghimat Raisat Rajghanat Rakuyat Raziyat Rushen 
+			Sabina Sabira Safiyat Saida Saimat Salihat Salimat Saniyat Sedef Sekinat Selmi Senem Sevdet Sevindzh Shahsenem Shamaj Shamsi Sheker Sherifa Sherihan Shevket Shirinat Shirvanat Shirvanzade Shukufa Shushe Shushehalum Simihan Sulmaz Sultanat Suna Surajya Suvar 
+			Taibat Tamam Tavat Telli Tellihanum Tevriz Tevrizhanum Tuguya Tukezban 
+			Ughlan Ughlangerek Unejzat Uzlifat 
+			Varcalaj Varz 
+			Yakut Yaru 
+			Zarbaf Zerengul Zerniyar Zhavagir Zhejran Zhimi Zulfi 
 		}
+		
+		dynasty_name_first = yes
 		
 		from_dynasty_prefix = "of "
 		
-		male_patronym = "ovich"
-		female_patronym = "ovna"
+		male_patronym = " hwa"
+		female_patronym = ""
 		prefix = no
 
 		pat_grf_name_chance = 50
