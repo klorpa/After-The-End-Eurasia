@@ -629,7 +629,7 @@ alevi  = {
 	religious = yes
 	ruler_designer_cost = 5
 }
-ansgar_cult = {
+apostle_cult = {
 	opposites = {
 		hiddenfolk_cult
 	}
@@ -647,7 +647,7 @@ ansgar_cult = {
 }
 hiddenfolk_cult = {
 	opposites = {
-		ansgar_cult
+		apostle_cult
 	}
 
 	opposite_opinion = -5
