@@ -29,6 +29,7 @@
 
 3600001 = {
 	name = "Brakha"
+	dynasty = 1818050 #Ben-Yehuda
 	female = yes
 	culture = sabra
 	religion = ivri
@@ -37,11 +38,12 @@
 	stewardship = 6
 	intrigue = 2
 	learning = 5
+	father = 3600056
+	mother = 3600057	
 	trait = gregarious
 	2610.4.2 = { birth = yes }
 	
 }
-
 3600002 = {
 	name = "Tzvi"
 	culture = german
@@ -104,7 +106,7 @@
 }
 3600005 = {
 	name = "Uzi"
-	dynasty = 1818053 #Tzabari
+	dynasty = 1818074 #Ben-Avi
 	culture = sabra
 	religion = ivri
 	martial = 6
@@ -112,6 +114,8 @@
 	diplomacy = 4
 	intrigue = 7
 	learning = 4
+	father = 3600063
+	mother = 3600064
 	trait = intricate_webweaver
 	trait = ambitious
 	trait = envious
@@ -273,7 +277,7 @@
 	father = 3600011
 	mother = 3600012
 	trait = underhanded_rogue
-	2648.11.2 = { birth=yes }	
+	2647.6.2 = { birth=yes }	
 }
 3600015 = {
 	name = "Batya"
@@ -289,7 +293,12 @@
 	father = 3600011
 	mother = 3600012
 	trait = amateurish_plotter
-	2650.11.2 = { birth=yes }	
+	2648.11.2 = { birth=yes }	
+	2664.11.2 = {
+		effect = {
+			add_lover=3600021
+		}
+	}
 }
 3600016 = {
 	name = "Ilak" 
@@ -547,6 +556,7 @@
 	stewardship=6
 	intrigue=3
 	learning=7
+	dna = dcldhhedadf
 	trait = underhanded_rogue
 	trait = scholar
 	trait = rude
@@ -745,3 +755,401 @@
 	2662.11.2 = { birth = yes }
 	2662.12.1 = { culture = sabra }
 }		
+3600044 = {
+	name = "Elazar"
+	culture = german
+	religion = ivri
+	dynasty = 1818050 #Ben-Yehuda
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=mastermind_theologian
+	trait=genius
+	trait=scholar
+	trait=charitable
+	trait=honorable
+	trait=gregarious
+	2358.1.7= { birth = yes }
+	2358.1.7= { culture = sabra }
+	2380.12.2 = {
+		add_spouse = 3600045
+	}
+	2390.11.1 = {
+		give_nickname = nick_the_wise
+	}
+	2410.1.1= {
+		create_bloodline = {
+			type=ben_yehuda
+			has_dlc="Holy Fury"
+		}
+	}
+	2422.12.16= {death = yes}
+}
+3600045 = {
+	name = "Hemda"
+	culture = german
+	religion = ivri
+	female=yes
+	dynasty = 1818050 #Ben-Yehuda
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=thrifty_clerk
+	2355.1.7= { birth = yes }
+	2355.1.7= { culture = sabra }
+	2415.12.16= {death = yes}
+}
+3600046 = {
+	name = "Tomer"
+	culture = german
+	religion = ivri
+	dynasty = 1818050 #Ben-Yehuda
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=scholarly_theologian
+	trait=frail
+	trait=shy
+	father = 3600044
+	mother = 3600045
+	2390.1.7= { birth = yes }
+	2390.1.7= { culture = sabra }
+	2425.5.6= {
+		give_nickname= nick_the_frail
+	}
+	2440.12.16= {
+		death={
+			death_reason = death_rabble
+		}
+	}
+}
+3600047 = {
+	name = "Adi"
+	culture = sabra
+	religion = ivri
+	female=yes
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=indulgent_wastrel
+	2393.1.7= { birth = yes }
+	2393.1.7= { culture = sabra }
+	2425.1.8= {
+		death = {
+			death_reason = death_childbirth
+		}
+	}
+}
+3600048 = { 
+	name = "Amir"
+	culture = german
+	religion = ivri
+	dynasty = 1818050 #Ben-Yehuda
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=scholarly_theologian
+	trait=humble
+	trait=content
+	father = 3600046
+	mother = 3600047
+	2425.1.7= { birth = yes }
+	2425.1.7= { culture = sabra }
+	2450.1.7= {
+		add_spouse = 3600049
+	}
+	2490.1.1= { death = yes }	
+}
+3600049 = {
+	name = "Chen"
+	culture = sabra
+	religion = ivri
+	female=yes
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=thrifty_clerk
+	2422.1.7= { birth = yes }
+	2492.1.8= {	death = yes }
+}
+3600050 = { 
+	name = "Ze'ev"
+	culture = sabra
+	religion = ivri
+	dynasty = 1818050 #Ben-Yehuda
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=scholarly_theologian
+	trait=scholar
+	trait=erudite
+	father = 3600048
+	mother = 3600049
+	2460.1.7= { birth = yes }
+	2490.1.7= {
+		add_spouse = 3600051
+	}
+	2540.1.1= { death = yes }	
+}
+3600051 = {
+	name = "Mor"
+	culture = sabra
+	religion = ivri
+	female=yes
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=thrifty_clerk
+	2465.1.7= { birth = yes }
+	2530.1.8= {	death = yes }
+}
+3600052 = { 
+	name = "Re'em"
+	culture = sabra
+	religion = ivri
+	dynasty = 1818050 #Ben-Yehuda
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=scholarly_theologian
+	trait=scholar
+	trait=erudite
+	father = 3600050
+	mother = 3600051
+	2500.1.7= { birth = yes }
+	2527.1.7= {
+		add_spouse = 3600053
+	}
+	2570.1.1= { death = yes }	
+}
+3600053 = {
+	name = "Agam"
+	culture = sabra
+	religion = ivri
+	female=yes
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=thrifty_clerk
+	2499.1.7= { birth = yes }
+	2579.1.8= {	death = yes }
+}
+3600054 = { 
+	name = "Shabtai"
+	culture = sabra
+	religion = ivri
+	dynasty = 1818050 #Ben-Yehuda
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=scholarly_theologian
+	trait=scholar
+	trait=erudite
+	father = 3600052
+	mother = 3600053
+	2535.1.7= { birth = yes }
+	2552.1.7= {
+		add_spouse = 3600055
+	}
+	2600.1.1= { death = yes }	
+}
+3600055 = {
+	name = "Galit"
+	culture = sabra
+	religion = ivri
+	female=yes
+	diplomacy = 3
+	stewardship = 6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=charismatic_negotiator
+	2540.1.7= { birth = yes }
+	2610.1.8= {	death = yes }
+}
+3600056 = { 
+	name = "David"
+	culture = sabra
+	religion = ivri
+	dynasty = 1818050 #Ben-Yehuda
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=scholarly_theologian
+	trait=scholar
+	trait=erudite
+	trait=lustful 
+	father = 3600054
+	mother = 3600055
+	2572.1.7= { birth = yes }
+	2598.1.7= {
+		add_spouse = 3600057
+	}
+	2605.1.1= {
+		give_nickname = nick_the_lecher
+	}
+	2625.1.1= { death = yes }	
+}
+3600057 = {
+	name = "Achinoam"
+	culture = sabra
+	religion = ivri
+	female=yes
+	diplomacy = 3
+	stewardship = 6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait= midas_touched
+	2577.1.7= { birth = yes }
+	2630.1.8= {	death = yes }
+}
+3600058 = {
+	name = "Batsheba"
+	culture = sabra
+	religion = ivri
+	female=yes
+	diplomacy = 3
+	stewardship = 6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait = intricate_webweaver
+	2540.1.7= { birth = yes }
+	2630.1.8= {	death = yes }
+}
+3600059 = { 
+	name = "Amnon"
+	culture = sabra
+	religion = ivri
+	dynasty = 1818050 #Ben-Yehuda
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=mastermind_theologian
+	trait=scholar
+	trait=erudite 
+	father = 3600056
+	mother = 3600057
+	2606.1.7= { birth = yes }
+	2635.1.7= {
+		add_spouse = 3600060
+	}
+	2665.1.1= { death = yes }	
+}
+3600060 = {
+	name = "Elinor"
+	culture = sabra
+	religion = ivri
+	female=yes
+	diplomacy = 3
+	stewardship = 6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	2610.1.7= { birth = yes }
+}
+3600061 = { 
+	name = "Aryeh"
+	culture = sabra
+	religion = ivri
+	dynasty = 1818050 #Ben-Yehuda
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=scholarly_theologian
+	trait=scholar
+	trait=erudite 
+	father = 3600059
+	mother = 3600060
+	2642.1.7= { birth = yes }	
+}
+3600062 = { 
+	name = "Avital"
+	culture = sabra
+	religion = ivri
+	female = yes
+	dynasty = 1818050 #Ben-Yehuda
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=scholarly_theologian
+	trait=scholar
+	trait=erudite 
+	father = 3600059
+	mother = 3600060
+	2645.1.7= { birth = yes }
+}
+3600063 = { 
+	name = "Natan"
+	culture = sabra
+	religion = ivri
+	dynasty = 1818074 #Ben-Avi
+	diplomacy = 3
+	stewardship =6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	trait=elusive_shadow
+	trait=bastard
+	trait=decietful
+	trait=ambitious
+	trait=envious
+	trait=disfigured
+	father = 3600056
+	mother = 3600058
+	2604.1.7= { birth = yes }
+	2630.1.7= {
+		add_spouse = 3600064
+	}
+	2635.1.1= {
+		give_nickname = nick_of_a_thousand_faces
+	}
+	2660.1.1= { 
+		death = { 
+			death_reason = death_drank_poison
+		}
+	}
+}
+3600064 = {
+	name = "Lital"
+	culture = sabra
+	religion = ivri
+	female=yes
+	diplomacy = 3
+	stewardship = 6
+	martial = 5
+	intrigue = 5
+	learning = 10
+	2610.1.7= { birth = yes }
+}
