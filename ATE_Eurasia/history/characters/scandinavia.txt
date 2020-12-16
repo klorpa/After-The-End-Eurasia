@@ -14,6 +14,7 @@
 	trait=poet
 	trait=patient
 	trait=proud
+	trait=quick
 	2622.7.3={birth=yes}
 	2670.1.4={death=yes}
 }
@@ -412,6 +413,7 @@
 	trait=cruel
 	trait=humble
 	trait=cynical
+	trait=apostle_cult
 	2618.8.12={birth=yes}
 	2667.7.1={death=yes}
 }
@@ -769,6 +771,7 @@
     trait=gregarious
     trait=gluttonous
     trait=skilled_tactician	
+	trait=apostle_cult
 	father=8000071
 	2623.1.1={birth=yes}
 	2648.1.1={
@@ -790,6 +793,7 @@
 	trait=chaste 
 	trait=wroth
 	trait=legit_bastard
+	trait=apostle_cult
     trait=flamboyant_schemer
 	disallow_random_traits = yes
 	2645.1.1={birth=yes}
@@ -810,6 +814,7 @@
     trait=ambitious
 	trait=wroth 
 	trait=robust
+	trait=hiddenfolk_cult
 	trait=arbitrary
 	2642.1.1={birth=yes}
 	2670.1.1={death=yes}
@@ -826,6 +831,7 @@
 	trait=just 
 	trait=honorable
 	trait=gregarious
+	trait=hiddenfolk_cult
 	2631.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
@@ -834,11 +840,14 @@
 	name="Ørvar" #the Arrow
 	dynasty=2220301 #Ramstad
 	culture=tronder
+	father=80003603
 	religion=folketro
 	trait=tough_soldier
 	trait=robust
 	trait=strong
 	trait=shy
+	trait=brave
+	trait=hiddenfolk_cult
 	trait=just 
 	2636.1.1={birth=yes}
 	2666.1.1={give_nickname = nick_the_arrow }
@@ -853,6 +862,7 @@
 	trait=martial_cleric
 	trait=scholar
 	trait=poet
+	trait=hiddenfolk_cult
 	father=8000108
 	2636.1.1={birth=yes}
 	2670.1.1={death=yes}
@@ -1243,6 +1253,7 @@
 	trait=ambitious 
 	trait=brave 
 	trait=proud
+	trait=hiddenfolk_cult
 	trait=lefthanded
 	disallow_random_traits=yes
 	father=8000160
@@ -1277,6 +1288,7 @@
 	trait=paranoid
 	trait=diligent
 	trait=patient 
+	trait=apostle_cult
 	trait=lunatic
 	trait=legit_bastard
 	2643.1.1={birth=yes}
@@ -1293,6 +1305,7 @@
 	trait=slothful
 	trait=harelip 
 	trait=cynical
+	trait=hiddenfolk_cult
 	2631.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
@@ -1307,6 +1320,7 @@
 	trait=greedy
 	trait=strong 
 	trait=just
+	trait=hiddenfolk_cult
 	2636.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
@@ -1319,6 +1333,7 @@
 	trait=amateurish_plotter
 	trait=ugly
 	trait=cruel
+	trait=hiddenfolk_cult
 	trait=mystic
 	trait=temperate
 	father=8000108
@@ -1333,6 +1348,7 @@
 	religion=folketro
 	father=8000204
 	trait=amateurish_plotter
+	trait=hiddenfolk_cult
 	trait=ugly
 	trait=cruel
 	trait=mystic
@@ -1363,6 +1379,7 @@
 	religion=folketro
 	trait=indulgent_wastrel
 	trait=craven
+	trait=hiddenfolk_cult
 	trait=diligent
 	trait=content 
 	2636.1.1={birth=yes}
@@ -1376,6 +1393,7 @@
 	religion=folketro
 	trait=flamboyant_schemer
 	trait=is_fat
+	trait=apostle_cult
 	trait=humble
 	trait=arbitrary 
 	2641.1.1={birth=yes}
@@ -1390,6 +1408,7 @@
 	trait=martial_cleric
 	trait=brave
 	trait=trusting
+	trait=apostle_cult
 	trait=honest 
 	2626.1.1={birth=yes}
 	2670.1.1={death=yes}
@@ -1463,6 +1482,7 @@
 	trait=greedy
 	trait=wroth
 	trait=gregarious
+	trait=apostle_cult
     trait=is_fat
 	2631.1.1={birth=yes}
 	2670.1.1={death=yes}
@@ -1476,6 +1496,7 @@
 	trait=misguided_warrior
 	trait=feeble
 	trait=kind
+	trait=apostle_cult
 	trait=just
     trait=gregarious
 	2644.1.1={birth=yes}
@@ -1491,6 +1512,7 @@
 	trait=wroth
 	trait=poet
 	trait=shy
+	trait=apostle_cult
     trait=proud
 	2641.1.1={birth=yes}
 	2670.1.1={death=yes}
@@ -1505,6 +1527,7 @@
 	trait=just
 	trait=brave
 	trait=hunter
+	trait=hiddenfolk_cult
     trait=sturdy
 	2640.1.1={birth=yes}
 	2666.1.1={give_nickname = nick_the_fearless}
@@ -1520,6 +1543,7 @@
 	trait=cruel
 	trait=zealous
 	trait=impaler
+	trait=apostle_cult
     trait=wroth
 	2629.1.1={birth=yes}
 	2666.1.1={give_nickname = nick_the_liberator}
@@ -2215,6 +2239,7 @@
 	trait=fair
 	trait=zealous
 	trait=shy
+	trait=apostle_cult
 	religion=folketro
 	trait=indulgent_wastrel
 	2641.1.1={birth=yes}
@@ -2229,6 +2254,7 @@
 	trait=ambitious
 	trait=weak
 	trait=chaste 
+	trait=hiddenfolk_cult
 	religion=folketro
 	2622.1.1={birth=yes}
 	2670.1.1={death=yes}
@@ -2241,6 +2267,7 @@
 	trait=just 
 	trait=craven
 	trait=humble
+	trait=apostle_cult
 	trait=honest
     trait=intricate_webweaver	
 	religion=folketro
@@ -2255,6 +2282,7 @@
 	trait=erudite 
 	trait=thrifty_clerk
 	trait=diligent
+	trait=apostle_cult
 	trait=selfish
     trait=paranoid	
 	religion=folketro
@@ -2268,6 +2296,7 @@
 	culture=swedish
 	trait=humble
 	trait=content
+	trait=hiddenfolk_cult
 	trait=slothful
     trait=skilled_tactician	
 	religion=folketro
@@ -2294,6 +2323,7 @@
 	dynasty=2220179 #Skånske
 	culture=scanian
 	religion=folketro
+	trait=apostle_cult
 	trait=rowdy	
 	father=8000072
 	mother=8000191
@@ -2307,6 +2337,7 @@
 	culture=scanian
 	trait=legit_bastard
 	trait=intricate_webweaver
+	trait=apostle_cult
 	trait=sturdy 
 	trait=shrewd 
 	trait=cynical 
@@ -2602,6 +2633,7 @@
 	trait=strong 
 	trait=lustful 
 	trait=wroth
+	trait=hiddenfolk_cult
     trait=skilled_tactician
 	disallow_random_traits = yes 
 	employer = 8000073
@@ -5490,7 +5522,7 @@
 	trait=legendary 
 	occluded=yes
 	culture=swedish
-	religion=folketro
+	religion=fornsed
 	trait=quick 
 	trait=zealous 
 	trait=temperate
@@ -5507,7 +5539,7 @@
 	female=yes 
  	dynasty=0
 	culture=swedish
-	religion=folketro
+	religion=fornsed
 	2256.1.1={birth=yes}
 	2315.1.1={death=yes}
 }
@@ -5517,7 +5549,7 @@
 	female=yes 
  	dynasty=0
 	culture=tronder 
-	religion=folketro
+	religion=fornsed
 	2264.1.1={birth=yes}
 	2323.1.1={death=yes}
 }
@@ -5527,7 +5559,7 @@
 	female=yes 
  	dynasty=0
 	culture=scanian 
-	religion=folketro
+	religion=fornsed
 	2280.1.1={birth=yes}
 	2348.1.1={death=yes}
 }
@@ -5537,17 +5569,17 @@
 	female=yes 
  	dynasty=0
 	culture=swedish 
-	religion=folketro
+	religion=fornsed
 	2287.1.1={birth=yes}
 	2361.1.1={death=yes}
 }
 
 80003505={ 
-	name="Ingamoder" #6th Lucia ruler
+	name="Katarina" #6th Lucia ruler
 	female=yes 
  	dynasty=0
 	culture=swedish 
-	religion=folketro
+	religion=fornsed
 	2302.1.1={birth=yes}
 	2364.1.1={death=yes}
 }
@@ -5557,7 +5589,7 @@
 	female=yes 
  	dynasty=0
 	culture=danish 
-	religion=folketro
+	religion=fornsed
 	2333.1.1={birth=yes}
 	2383.1.1={death=yes}
 }
@@ -5567,7 +5599,7 @@
 	female=yes 
  	dynasty=0
 	culture=swedish 
-	religion=folketro
+	religion=fornsed
 	2354.1.1={birth=yes}
 	2397.1.1={death=yes}
 }
@@ -5577,7 +5609,7 @@
 	female=yes 
  	dynasty=0
 	culture=swedish 
-	religion=folketro
+	religion=fornsed
 	2357.1.1={birth=yes}
 	2399.1.1={death=yes}
 }
@@ -5587,7 +5619,7 @@
 	female=yes 
  	dynasty=0
 	culture=scanian 
-	religion=folketro
+	religion=fornsed
 	2370.1.1={birth=yes}
 	2406.1.1={death=yes}
 }
@@ -5597,7 +5629,7 @@
 	female=yes 
  	dynasty=0
 	culture=ostlending 
-	religion=folketro
+	religion=fornsed
 	2393.1.1={birth=yes}
 	2434.1.1={death=yes}
 }
@@ -5607,7 +5639,7 @@
 	female=yes 
  	dynasty=0
 	culture=swedish 
-	religion=folketro
+	religion=fornsed
 	2401.1.1={birth=yes}
 	2439.1.1={death=yes}
 }
@@ -5617,7 +5649,7 @@
 	female=yes 
  	dynasty=0
 	culture=swedish 
-	religion=folketro
+	religion=fornsed
 	2402.1.1={birth=yes}
 	2444.1.1={death=yes}
 }
@@ -5627,7 +5659,7 @@
 	female=yes 
  	dynasty=0
 	culture=swedish 
-	religion=folketro
+	religion=fornsed
 	2413.1.1={birth=yes}
 	2456.1.1={death={
 			death_reason=death_execution
@@ -5640,7 +5672,7 @@
 	name="Reorus" #15th Lucia ruler
  	dynasty=0
 	culture=ostlending 
-	religion=folketro
+	religion=fornsed
 	trait=cruel 
 	trait=authoritative
 	trait=ambitious
@@ -5654,7 +5686,7 @@
 	female=yes 
  	dynasty=0
 	culture=danish 
-	religion=folketro
+	religion=fornsed
 	2432.1.1={birth=yes}
 	2473.1.1={death=yes}
 }
@@ -5664,7 +5696,7 @@
 	female=yes 
  	dynasty=0
 	culture=sami 
-	religion=folketro
+	religion=fornsed
 	2436.1.1={birth=yes}
 	2478.1.1={death=yes}
 }
@@ -5674,7 +5706,7 @@
 	female=yes 
  	dynasty=0
 	culture=swedish
-	religion=folketro
+	religion=fornsed
 	2443.1.1={birth=yes}
 	2494.1.1={death=yes}
 }
@@ -5684,7 +5716,7 @@
 	female=yes 
  	dynasty=0
 	culture=swedish
-	religion=folketro
+	religion=fornsed
 	2457.1.1={birth=yes}
 	2500.1.1={death=yes}
 }
@@ -5694,7 +5726,7 @@
 	female=yes 
  	dynasty=0
 	culture=ostlending
-	religion=folketro
+	religion=fornsed
 	2482.1.1={birth=yes}
 	2519.1.1={death=yes}
 }
@@ -5704,7 +5736,7 @@
 	female=yes 
  	dynasty=0
 	culture=swedish
-	religion=folketro
+	religion=fornsed
 	2487.1.1={birth=yes}
 	2526.1.1={death=yes}
 }
@@ -5714,7 +5746,7 @@
 	female=yes 
  	dynasty=0
 	culture=finnish
-	religion=folketro
+	religion=fornsed
 	2496.1.1={birth=yes}
 	2541.1.1={death=yes}
 }
@@ -5724,7 +5756,7 @@
 	female=yes 
  	dynasty=0
 	culture=scanian
-	religion=folketro
+	religion=fornsed
 	2508.1.1={birth=yes}
 	2556.1.1={death=yes}
 }
@@ -5734,7 +5766,7 @@
 	female=yes 
  	dynasty=0
 	culture=swedish
-	religion=folketro
+	religion=fornsed
 	2518.1.1={birth=yes}
 	2571.1.1={death=yes}
 }
@@ -5744,7 +5776,7 @@
 	female=yes 
  	dynasty=0
 	culture=swedish
-	religion=folketro
+	religion=fornsed
 	2543.1.1={birth=yes}
 	2585.1.1={death=yes}
 }
@@ -5754,7 +5786,7 @@
 	female=yes 
  	dynasty=0
 	culture=swedish
-	religion=folketro
+	religion=fornsed
 	2560.1.1={birth=yes}
 	2601.1.1={death=yes}
 }
@@ -5764,7 +5796,7 @@
 	female=yes 
  	dynasty=0
 	culture=swedish
-	religion=folketro
+	religion=fornsed
 	2578.1.1={birth=yes}
 	2624.1.1={death=yes}
 }
@@ -5774,7 +5806,7 @@
 	female=yes 
  	dynasty=0
 	culture=scanian
-	religion=folketro
+	religion=fornsed
 	2583.1.1={birth=yes}
 	2640.1.1={death=yes}
 }
@@ -5784,7 +5816,7 @@
 	female=yes 
  	dynasty=0
 	culture=scanian
-	religion=folketro
+	religion=fornsed
 	2589.1.1={birth=yes}
 	2653.1.1={death=yes}
 }
@@ -5794,8 +5826,13 @@
 	female=yes 
  	dynasty=0
 	culture=swedish
-	religion=folketro
+	religion=fornsed
+	trait=lunatic
+	trait=zealous
+	trait=kind 
+	trait=scarred
 	2599.1.1={birth=yes}
+	2650.1.1={ give_nickname = nick_the_mad}
 	2670.1.1={death=yes}
 }
 
@@ -5806,6 +5843,7 @@
 	religion=folketro
 	trait=elusive_shadow
 	trait=schemer
+	trait=apostle_cult
 	trait=is_fat 
 	trait=ambitious 
 	2612.1.1={birth=yes}
@@ -6515,6 +6553,8 @@
 	trait=zealous 
 	trait=mystic
 	trait=brave
+	trait=diligent
+	trait=hiddenfolk_cult
 	trait=legendary
 	occluded=yes 
 	disallow_random_traits = yes 
@@ -6558,21 +6598,83 @@
 	2670.1.1={death=yes}
 }
 
-80003603={ #Count of Blekinge
-	name="Bengt"
-	dynasty=2220467
-	culture=scanian
-	religion=lutheran
-	2630.1.1={birth=yes}
-	2670.1.1={death=yes}
+80003603={
+	name="Sture"
+	dynasty=2220301 #Ramstad
+	father=80003604
+	culture=tronder
+	religion=folketro
+	2604.1.1={birth=yes}
+	2646.1.1={death=yes}
 }
 
-80003604={ #Chief of Oland
-	name="Anna"
-	female=yes
-	dynasty=2220181
-	culture=swedish
+80003604={
+	name="Ørvar"
+	dynasty=2220301 #Ramstad
+	father=80003605
+	culture=tronder
 	religion=folketro
-	2630.1.1={birth=yes}
-	2670.1.1={death=yes}
+	2581.1.1={birth=yes}
+	2626.1.1={death=yes}
+}
+
+80003605={
+	name="Gudolf"
+	dynasty=2220301 #Ramstad
+	father=80003606
+	culture=tronder
+	religion=folketro
+	2558.1.1={birth=yes}
+	2598.1.1={death=yes}
+}
+
+80003606={
+	name="Jorodd"
+	dynasty=2220301 #Ramstad
+	father=80003607
+	culture=tronder
+	religion=folketro
+	2523.1.1={birth=yes}
+	2573.1.1={death=yes}
+}
+
+80003607={
+	name="Godtvard"
+	dynasty=2220301 #Ramstad
+	father=80003608
+	culture=tronder
+	religion=folketro
+	2493.1.1={birth=yes}
+	2550.1.1={death=yes}
+}
+
+80003608={
+	name="Vebjørn"
+	dynasty=2220301 #Ramstad
+	father=80003609
+	culture=tronder
+	religion=folketro
+	2462.1.1={birth=yes}
+	2525.1.1={death=yes}
+}
+
+80003609={
+	name="Gudolf"
+	dynasty=2220301 #Ramstad
+	father=80003610
+	culture=tronder
+	religion=folketro
+	2438.1.1={birth=yes}
+	2507.1.1={death=yes}
+}
+
+80003610={
+	name="Rune"
+	dynasty=2220301 #Ramstad
+	father=8000086
+	culture=tronder
+	religion=folketro
+	trait=bastard
+	2408.1.1={birth=yes}
+	2480.1.1={death=yes}
 }
