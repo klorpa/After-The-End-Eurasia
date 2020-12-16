@@ -1,77 +1,78 @@
 decisions = {
-	unify_ireland = { #a nation once again!
+	unify_germany = { #a nation once again!
 		is_high_prio = yes
 		only_playable = yes
 		ai = no
 
 		potential = {
 			is_alternate_start = no
-			OR = {
-				has_landed_title = e_dixie
-				AND = {
-					top_liege = {
-						has_landed_title = k_ireland
-					}
-					tier = KING
-					has_landed_title = d_derry
-					has_landed_title = d_ulster
-				}
-			}
-
 			NOT = {
-				has_global_flag = ireland_unified
-			}
-			NOR = {
-				has_alternate_start_setting = {
-					setting = dejure
-					value = random
-				}
-				has_alternate_start_setting = {
-					setting = title_names
-					value = random
-				}
-				has_alternate_start_setting = {
-					setting = title_names
-					value = random_including_duchies
+				has_game_rule = {
+					name = empire_decisions
+					value = off
 				}
 			}
+			NOT = { has_global_flag = germany_unified }
+			NOT = { religion = neuhumanist }
+			independent = yes
+			culture_group = central_germanic
 		}
 
 		allow = {
 			is_adult = yes
 			war = no
 			prestige = 1000
-			wealth = 500
-			completely_controls = d_derry
-			completely_controls = d_ulster
-			k_ulster = {
-				has_holder = no
-			}
+			wealth = 1000
+			completely_controls = k_rhineland
+			completely_controls = k_lower_saxony
+			completely_controls = k_ossiland
+			completely_controls = k_landle
+			completely_controls = k_bavaria
+			completely_controls = k_switzerland
+			completely_controls = k_austria
 		}
 
 		effect = {
-			wealth = -500
+			wealth = -1000
+			if = {
+				limit = { has_nickname = no }
+				give_nickname = nick_the_great
+			}
+			activate_title = { title = e_germany status = yes }
+			primary_title = {
+				e_germany = {
+					grant_title = ROOT
+					copy_title_laws = PREV
+				}
+			}
+			custom_tooltip = { text = unify_germany_TT }
 
-			custom_tooltip = { text = unify_ireland_TT }
-
-			set_global_flag = ireland_unified
+			set_global_flag = germany_unified
 			
 			hidden_tooltip = {
-				d_derry = {
-					show_scope_change = no
-					de_jure_liege = k_ireland
+				k_rhineland = {
+					de_jure_liege = e_germany
+				}
+				k_lower_saxony = {
+					de_jure_liege = e_germany
+				}
+				k_ossiland = {
+					de_jure_liege = e_germany
+				}
+				k_landle = {
+					de_jure_liege = e_germany
+				}
+				k_bavaria = {
+					de_jure_liege = e_germany
+				}
+				k_switzerland = {
+					de_jure_liege = e_germany
+				}
+				k_austria = {
+					de_jure_liege = e_germany
 				}
 			}
-
-			hidden_tooltip = {
-				d_ulster = {
-					show_scope_change = no
-					de_jure_liege = k_ireland
-				}
-			}
-
-
-			narrative_event = { id = ire.1 }
+			narrative_event = { id = anoa.1 }
 		}
 	}
 }

@@ -7,9 +7,23 @@ e_ottoman_empire = {
 	color2={ 220 220 20 }
 	
 	title = sultan
-	culture = turkish
 
-	capital = 39 # temporary Istanbul will be its capital
+	capital = 143 # Istanbul
+	
+	dignity = 20 # Counted as having this many more counties than it does
+	
+	allow = {
+		always = no # Only created through special event
+	}
+}
+
+e_germany = {
+	color={ 77 93 83 }
+	color2={ 220 220 20 }
+	
+	title = kaiser
+
+	capital = 412 # Berlin
 	
 	dignity = 20 # Counted as having this many more counties than it does
 	
