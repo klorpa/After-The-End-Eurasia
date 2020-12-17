@@ -32,6 +32,32 @@ e_germany = {
 	}
 }
 
+e_north_germany = {
+	color={ 40 73 83 }
+	color2={ 220 220 20 }
+
+	capital = 412 # Berlin
+	
+	dignity = 20 # Counted as having this many more counties than it does
+	
+	allow = {
+		always = no # Only created through special event
+	}
+}
+
+e_south_germany = {
+	color={ 220 93 83 }
+	color2={ 220 220 20 }
+
+	capital = 370 # Frankfurt
+	
+	dignity = 20 # Counted as having this many more counties than it does
+	
+	allow = {
+		always = no # Only created through special event
+	}
+}
+
 ### titular kingdoms ###
 
 k_britain = {

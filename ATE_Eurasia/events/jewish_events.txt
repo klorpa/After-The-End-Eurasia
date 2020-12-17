@@ -1,7 +1,18 @@
-
 namespace = jewish
+###############################################################
+#	JEWISH EVENTS - After the End Eurasia					  #
+#															  #
+#	Religious Trait Selection (jewish.1 - jewish.3)			  #
+#	Haredi Events (jewish.1x - jewish.2x)				      #
+#	Hasakalah Events (jewish.3x - jewish.4x)				  #
+#	Ivri Events (jewish.5x - jewish.6x)						  #
+#															  #
+#	General Jewish Holidays and Events (jewish.1xx)			  #
+#															  #
+#															  #
+###############################################################
 
-# Choose religious movement
+################Choose Jewish Religious Movement##################################
 character_event = {
 	id = jewish.1
 	desc = EVTDESC_haredi_choose
@@ -100,3 +111,7 @@ character_event = {
 		}
 	}
 }
+
+######################HAREDI EVENTS#####################
+
+#Hold Tish for your Court Rabbi

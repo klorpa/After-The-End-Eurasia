@@ -1,0 +1,120 @@
+# Restoration Event Declaration
+namespace = anoa
+
+############GERMANY#################################
+
+narrative_event = {
+	id = anoa.1	
+	title = EVTTITLE_germany
+	desc = EVTDESC_germany_reunited
+	picture = GFX_evt_bishop
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_germany_reunited
+		trigger = {
+			culture_group = central_germanic
+		}
+	}
+	option = {
+		name = EVTOPTB_europa_decline
+		trigger = {
+			has_landed_title = e_europa
+		}
+		prestige = -500
+	}
+}
+narrative_event = {
+	id = anoa.2
+	title = EVTTITLE_north_germany
+	desc = EVTDESC_north_germany_reunited
+	picture = GFX_evt_bishop
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_germany_reunited
+		trigger = {
+			culture_group = central_germanic
+		}
+	}
+	option = {
+		name = EVTOPTB_europa_decline
+		trigger = {
+			has_landed_title = e_europa
+		}
+		prestige = -500
+	}
+}
+narrative_event = {
+	id = anoa.3	
+	title = EVTTITLE_south_germany
+	desc = EVTDESC_south_germany_reunited
+	picture = GFX_evt_bishop
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_germany_reunited
+		trigger = {
+			culture_group = central_germanic
+		}
+	}
+	option = {
+		name = EVTOPTB_europa_decline
+		trigger = {
+			has_landed_title = e_europa
+		}
+		prestige = -500
+	}
+}
+character_event = {
+	id = anoa.4
+	desc = OK
+	picture = GFX_evt_bishop
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_landed_title = e_germany
+	}
+	immediate = {
+		random_list = {
+			50 = { set_global_flag = swiss_desire_to_join }
+			50 = { set_global_flag = swiss_no_desire_to_join }
+		}
+	}
+}
+narrative_event = {
+	id = anoa.5	
+	title = EVTTITLE_swiss_invitation
+	desc = EVTDESC_the_swiss_delegation
+	picture = GFX_evt_bishop
+	is_triggered_only = yes
+	
+	trigger = {
+		has_landed_title = e_germany
+		OR = {
+			has_global_flag = swiss_desire_to_join
+			has_global_flag = swiss_no_desire_to_join
+		}
+	}
+	
+	option = {
+		name = accept_swiss_delegation
+		trigger = {
+			has_global_flag = swiss_desire_to_join
+		}
+		clr_global_flag = swiss_desire_to_join
+		k_switzerland = {
+			de_jure_liege = e_germany
+		}
+		prestige = 1000
+	}
+	option = {
+		name = declined_swiss_delegation
+		trigger = {
+			has_global_flag = swiss_no_desire_to_join
+		}
+		clr_global_flag = swiss_no_desire_to_join
+		prestige = -1000
+	}
+}

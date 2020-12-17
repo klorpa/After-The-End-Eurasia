@@ -1,4 +1,6 @@
 decisions = {
+
+###################GERMANY#######################################
 	unify_germany = { #a nation once again!
 		is_high_prio = yes
 		only_playable = yes
@@ -14,6 +16,10 @@ decisions = {
 			}
 			NOT = { has_global_flag = germany_unified }
 			NOT = { religion = neuhumanist }
+			OR = {
+				has_global_flag = north_germany_unified
+				has_global_flag = south_germany_unified
+			}
 			independent = yes
 			culture_group = central_germanic
 		}
@@ -28,7 +34,6 @@ decisions = {
 			completely_controls = k_ossiland
 			completely_controls = k_landle
 			completely_controls = k_bavaria
-			completely_controls = k_switzerland
 			completely_controls = k_austria
 		}
 
@@ -36,7 +41,7 @@ decisions = {
 			wealth = -1000
 			if = {
 				limit = { has_nickname = no }
-				give_nickname = nick_the_great
+				give_nickname = nick_the_restorer
 			}
 			activate_title = { title = e_germany status = yes }
 			primary_title = {
@@ -65,14 +70,159 @@ decisions = {
 				k_bavaria = {
 					de_jure_liege = e_germany
 				}
-				k_switzerland = {
+				k_austria = {
+					de_jure_liege = e_germany
+				}
+			}
+			
+			custom_tooltip = { text = forfeit_crown_TT }
+			
+			hidden_tooltip = {
+				e_north_germany = {
+					destroy_landed_title = THIS
+				}
+				e_south_germany = {
+					destroy_landed_title = THIS
+				}
+			}
+			
+			narrative_event = { id = anoa.1 }
+		}
+	}
+	unify_north_germany = { #a nation once again!
+		is_high_prio = yes
+		only_playable = yes
+		ai = no
+
+		potential = {
+			is_alternate_start = no
+			NOT = {
+				has_game_rule = {
+					name = empire_decisions
+					value = off
+				}
+			}
+			NOT = { has_global_flag = north_germany_unified }
+			NOT = { religion = neuhumanist }
+			independent = yes
+			AND = {
+				culture_group = central_germanic
+				NOT = { culture = austrian }
+				NOT = { culture = alsatian }
+				NOT = { culture = swabian }
+				NOT = { culture = bavarian }
+				NOT = { culture = schwyzer }
+				NOT = { culture = luxembourger }
+			}
+		}
+
+		allow = {
+			is_adult = yes
+			war = no
+			prestige = 1000
+			wealth = 1000
+			completely_controls = k_rhineland
+			completely_controls = k_lower_saxony
+			completely_controls = k_ossiland
+		}
+
+		effect = {
+			wealth = -1000
+			if = {
+				limit = { has_nickname = no }
+				give_nickname = nick_the_great
+			}
+			activate_title = { title = e_north_germany status = yes }
+			primary_title = {
+				e_north_germany = {
+					grant_title = ROOT
+					copy_title_laws = PREV
+				}
+			}
+			custom_tooltip = { text = north_germany_TT }
+
+			set_global_flag = north_germany_unified
+			
+			hidden_tooltip = {
+				k_rhineland = {
+					de_jure_liege = e_germany
+				}
+				k_lower_saxony = {
+					de_jure_liege = e_germany
+				}
+				k_ossiland = {
+					de_jure_liege = e_germany
+				}
+			}
+			narrative_event = { id = anoa.2 }
+		}
+	}
+	unify_south_germany = { #a nation once again!
+		is_high_prio = yes
+		only_playable = yes
+		ai = no
+
+		potential = {
+			is_alternate_start = no
+			NOT = {
+				has_game_rule = {
+					name = empire_decisions
+					value = off
+				}
+			}
+			NOT = { has_global_flag = south_germany_unified }
+			NOT = { religion = neuhumanist }
+			independent = yes
+			AND = {
+				culture_group = central_germanic
+				NOT = { culture = rhenish }
+				NOT = { culture = low_saxon }
+				NOT = { culture = upper_saxon }
+				NOT = { culture = ossi }
+				NOT = { culture = schwyzer }
+				NOT = { culture = luxembourger }
+			}
+		}
+
+		allow = {
+			is_adult = yes
+			war = no
+			prestige = 1000
+			wealth = 1000
+			completely_controls = k_landle
+			completely_controls = k_bavaria
+			completely_controls = k_austria
+		}
+
+		effect = {
+			wealth = -1000
+			if = {
+				limit = { has_nickname = no }
+				give_nickname = nick_the_great
+			}
+			activate_title = { title = e_south_germany status = yes }
+			primary_title = {
+				e_south_germany = {
+					grant_title = ROOT
+					copy_title_laws = PREV
+				}
+			}
+			custom_tooltip = { text = south_germany_TT }
+
+			set_global_flag = south_germany_unified
+			
+			hidden_tooltip = {
+				k_landle = {
+					de_jure_liege = e_germany
+				}
+				k_bavaria = {
 					de_jure_liege = e_germany
 				}
 				k_austria = {
 					de_jure_liege = e_germany
 				}
 			}
-			narrative_event = { id = anoa.1 }
+			narrative_event = { id = anoa.3 }
 		}
 	}
 }
