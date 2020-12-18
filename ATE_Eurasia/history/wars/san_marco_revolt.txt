@@ -1,0 +1,26 @@
+name = "War of the two Eriks"
+
+casus_belli={
+    casus_belli=bid_for_independence
+    actor=6970000
+    recipient=1975000
+    landed_title=k_lombardy
+    date=2666.1.1
+}
+
+# In civil wars defender MUST be added before attacker!
+2666.1.1 = {
+    add_defender = 1975000
+    add_attacker = 6970000
+    start_war = yes
+    vassal_liege = {
+        vassal = 6970000
+        liege = 1975000
+    }
+}
+
+2667.12.20= {
+    end_war = yes
+    rem_attacker = 6970000
+    rem_defender = 1975000
+}

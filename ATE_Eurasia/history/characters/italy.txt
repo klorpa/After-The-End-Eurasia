@@ -389,6 +389,7 @@
 	intrigue=6
 	learning=5
 	trait=grey_eminence
+	trait=crowned_by_pope 
 	trait=quick
 	trait=groomed
 	trait=paranoid
@@ -398,7 +399,223 @@
 	trait=wroth
 	trait=authoritative
 	2640.7.14={birth=yes}
+	2664.4.8={effect={add_lover=1975000}}
+	2666.1.1={effect={add_rival=6970000}}
 	2710.1.1={death=yes}
+}
+1975001={
+	name="Francesco"
+	dynasty=2031117 #Manzoni
+	culture=lombard
+	religion=catholic
+	martial=5
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait=naive_appeaser
+	trait=crowned_by_pope
+	trait=poet
+	trait=trusting
+	trait=honest
+	trait=charitable
+	trait=gluttonous
+	trait=stubborn
+	2642.8.10={birth=yes}
+	2663.8.2={add_spouse = 1975000}
+	2666.1.1={death={
+			death_reason=death_murder
+			killer=6970000
+		}
+	}
+}
+1975010={
+	name="Pietro"
+	dynasty=2031060 #Beretta
+	culture=lombard
+	religion=catholic
+	martial=6
+	diplomacy=4
+	stewardship=6
+	intrigue=5
+	learning=5
+	trait=skilled_tactician
+	trait=duelist
+	trait=diligent
+	trait=charitable
+	trait=lustful
+	trait=ambitious
+	2632.5.20={birth=yes}
+	2650.5.20={effect={add_artifact=ate_firearm}}
+	2652.3.1={
+		add_spouse=1975011
+	}
+	2700.1.1={death=yes}
+}
+1975011={
+	name="Leonora"
+	female=yes
+	dynasty=2031186 #Simonetta
+	culture=lombard
+	religion=catholic
+	martial=4
+	diplomacy=6
+	stewardship=6
+	intrigue=5
+	learning=5
+	trait=mastermind_theologian
+	trait=scholar
+	trait=cynical
+	trait=gregarious
+	trait=kind
+	trait=content
+	2635.2.18={birth=yes}
+	2700.1.1={death=yes}
+}
+1975012={
+	name="Ustin"
+	dynasty=2031235 #Nervi
+	culture=lombard
+	religion=catholic
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=5
+	learning=6
+	trait=fortune_builder
+	trait=erudite
+	trait=architect
+	trait=diligent
+	trait=content
+	trait=charitable
+	trait=proud
+	2591.6.21={birth=yes}
+	2623.10.1={
+		add_spouse=1975013
+	}
+	2681.1.1={death=yes}
+}
+1975013={
+	name="Gabriela"
+	female=yes
+	dynasty=2031202 #Stampa
+	culture=lombard
+	religion=catholic
+	martial=5
+	diplomacy=5
+	stewardship=4
+	intrigue=5
+	learning=5
+	trait=underhanded_rogue
+	trait=erudite
+	trait=trusting
+	trait=diligent
+	trait=content
+	trait=selfish
+	2595.8.10={birth=yes}
+	2689.1.1={death=yes}
+}
+1975014={
+	name="Zerill"
+	dynasty=2031235 #Nervi
+	culture=lombard
+	religion=catholic
+	martial=5
+	diplomacy=5
+	stewardship=4
+	intrigue=5
+	learning=5
+	trait=underhanded_rogue
+	trait=architect
+	trait=gregarious
+	trait=paranoid
+	trait=diligent
+	trait=stubborn
+	trait=authoritative
+	father=1975012
+	mother=1975013
+	2628.10.29={birth=yes}
+	2700.1.1={death=yes}
+}
+1975015={
+	name="Delaida"
+	female=yes
+	dynasty=2031235 #Nervi
+	culture=lombard
+	religion=catholic
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	trait=thrifty_clerk
+	trait=charitable
+	trait=ruthless
+	trait=ambitious
+	trait=patient
+	father=1975012
+	mother=1975013
+	2631.1.10={birth=yes}
+	2700.1.1={death=yes}
+}
+1975016={
+	name="Luigi"
+	dynasty=2031236 #Volta
+	culture=lombard
+	religion=catholic
+	martial=4
+	diplomacy=3
+	stewardship=4
+	intrigue=5
+	learning=5
+	trait=mastermind_theologian
+	trait=quick
+	trait=scholar
+	trait=shy
+	trait=familyperson
+	trait=humble
+	trait=diligent
+	trait=honest
+	2632.10.29={birth=yes}
+	2665.12.10={
+		add_spouse=1975015
+	}
+	2700.1.1={death=yes}
+}
+1975017={
+	name="Tilio"
+	dynasty=2031236 #Volta
+	culture=lombard
+	religion=catholic
+	martial=1
+	diplomacy=1
+	stewardship=1
+	intrigue=1
+	learning=1
+	father=1975016
+	mother=1975015
+	2666.2.10={birth=yes}
+	2750.1.1={death=yes}
+}
+1975018={
+	name="Cleto"
+	dynasty=2026171 #Morera
+	culture=piedmontese
+	religion=catholic
+	martial=4
+	diplomacy=3
+	stewardship=4
+	intrigue=4
+	learning=4
+	trait=tough_soldier
+	trait=scarred
+	trait=just
+	trait=lustful
+	trait=rude
+	trait=slothful
+	trait=honest
+	2640.8.11={birth=yes}
+	2700.1.1={death=yes}
 }
 6970000={
 	name="Orso"
@@ -437,6 +654,25 @@
 	trait=chaste
 	2634.8.20={birth=yes}
 	2710.1.1={death=yes}
+}
+6970010={
+	name="Nicolò"
+	dynasty=2034228 #Mazzurana
+	culture=venetian
+	religion=catholic
+	martial=5
+	diplomacy=6
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait=charismatic_negociator
+	trait=stubborn
+	trait=proud
+	trait=ambitious
+	trait=diligent
+	trait=erudite
+	2634.6.25={birth=yes}
+	2720.1.1={death=yes}
 }
 1929001={
 	name="Antonio"
