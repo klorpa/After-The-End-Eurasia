@@ -1,0 +1,251 @@
+# High Church, and other British events
+namespace = story
+
+narrative_event = {
+	id = story.1
+	title = EVTTITLE_TREACHERY_SAN_MARCO
+	desc = {
+		trigger = {
+			has_landed_title = k_lombardy
+		}
+		text = lombardy_event_1
+	}
+	desc = {
+		trigger = {
+			has_landed_title = d_venice
+		}
+		text = venice_event_1
+	}
+	picture = GFX_evt_hiding_from_pursuers
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			has_landed_title = k_lombardy
+			has_landed_title = d_venice
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_story_tsm_1
+		trigger = {
+			k_lombardy = {
+				holder_scope = {
+					is_player = yes
+					war = yes
+				}
+			}
+		}
+		custom_tooltip = { text = treachery_will_be_answered_TT }
+		hidden_tooltip = {
+		k_lombardy = {
+			holder_scope = {
+				hidden_tooltip = {
+						random_list = {
+							50 = { set_character_flag = mourning_queen }
+							50 = { set_character_flag = vengeful_queen }
+						}
+					}
+				}
+			}
+		}
+		d_venice = {
+			holder_scope = {
+				set_character_flag = treacherous_venetian
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTB_story_tsm_1
+		trigger = {
+			d_venice = {
+				holder_scope = {
+					is_player = yes
+					war = yes
+				}
+			}
+		}
+		custom_tooltip = { text = time_to_strike_TT }
+		hidden_tooltip = {
+		k_lombardy = {
+			holder_scope = {
+				hidden_tooltip = {
+						random_list = {
+							50 = { set_character_flag = mourning_queen }
+							50 = { set_character_flag = vengeful_queen }
+						}
+					}
+				}
+			}
+		}
+		d_venice = {
+			holder_scope = {
+				set_character_flag = treacherous_venetian
+			}
+		}
+	}
+}
+narrative_event = {
+	id = story.2
+	title = EVTTITLE_TREACHERY_SAN_MARCO_FAILURE
+	desc = {
+		trigger = {
+			has_landed_title = k_lombardy
+		}
+		text = lombardy_event_2
+	}
+	desc = {
+		trigger = {
+			has_landed_title = d_venice
+		}
+		text = venice_event_2
+	}
+	picture = GFX_evt_hiding_from_pursuers
+
+	trigger = {
+		AND = {
+			has_landed_title = d_venice
+			prisoner = yes
+		}
+	}
+	
+	immediate = {
+		d_venice = {
+			holder_scope = {
+				set_character_flag = awaiting_judgement
+			}
+		}
+	}
+	
+	option = { #The Grief-Striken but Merciful Queen
+		name = EVTOPTA_story_tsm_2
+		trigger = {
+			k_lombardy = {
+				holder_scope = {
+					is_player = yes
+					war = no
+					has_character_flag = mourning_queen
+				}
+			}
+		}
+		d_venice = {
+			holder_scope = {
+				opinion = {
+					who = ROOT
+					modifier = opinion_merciful_queen
+				}
+				imprison = no
+			}
+		}
+	}
+	option = { #The Vengeful Queen
+		name = EVTOPTB_story_tsm_2
+		trigger = {
+			k_lombardy = {
+				holder_scope = {
+					is_player = yes
+					war = no
+					has_character_flag = vengeful_queen
+				}
+			}
+		}
+		d_venice = {
+			holder_scope = {
+				death = {
+					death_reason = death_execution
+					killer = ROOT
+				}
+			}
+			clr_character_flag = treacherous_venetian
+			clr_character_flag = awaiting_judgement
+		}
+	}
+	option = { #Awaiting Judgement
+		name = EVTOPTC_story_tsm_2
+		trigger = {
+			d_venice = {
+				holder_scope = {
+					is_player = yes
+					war = no
+					prisoner = yes
+					has_character_flag = treacherous_venetian
+				}
+			}
+		}
+		k_lombardy = {
+			holder_scope = {
+				OR = {
+					has_character_flag = vengeful_queen
+					has_character_flag = mourning_queen
+				}
+				clr_character_flag = vengeful_queen
+				clr_character_flag = mourning_queen
+			}
+		}
+	}
+}
+narrative_event = {
+	id = story.3
+	title = EVTTITLE_TREACHERY_SAN_MARCO_SUCCESS
+	desc = {
+		trigger = {
+			has_landed_title = d_venice
+		}
+		text = venice_event_3
+	}
+	picture = GFX_evt_hiding_from_pursuers
+
+	trigger = {
+		AND = {
+			has_landed_title = d_venice
+			prisoner = no
+		}
+	}
+	
+	immediate = {
+		clr_character_flag = mourning_queen
+		clr_character_flag = vengeful_queen
+	}
+	
+	option = {
+		name = EVTOPTA_story_tsm_3
+		trigger = {
+			NOT = {
+				d_venice = {
+					holder_scope = {
+						is_player = yes
+					}
+				}
+			}
+			k_lombardy = {
+				holder_scope = {
+					is_player = yes
+				}
+			}
+		}
+		d_venice = {
+			holder_scope = {
+				clr_character_flag = treacherous_venetian
+			}
+		}
+		custom_tooltip = { text = become_king_of_venetia_TT }
+		hidden_tooltip = {
+			primary_title = {
+				k_venetia = {
+					grant_title = ROOT
+					copy_title_laws = PREV
+				}
+			}
+			d_veneto = {
+				set_defacto_liege = k_venetia
+			}
+			d_trentino = {
+				set_defacto_liege = k_venetia
+			}
+			d_fruli = {
+				set_defacto_liege = k_venetia
+			}
+		}
+	}
+}
