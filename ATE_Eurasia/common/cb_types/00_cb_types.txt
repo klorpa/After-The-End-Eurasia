@@ -12816,14 +12816,15 @@ pagan_county_conquest = {
 		
 		OR = {
 			AND = {
-				OR = {
-					ROOT = { religion = norse_pagan }
-					ROOT = { religion = norse_pagan_reformed }
+				ROOT = {
+					AND = {
+						religion = folketro
+						trait = hiddenfolk_cult 
+					}
 				}
 				location = {
 					port = yes
 				}
-				#has_global_flag = viking_age_started
 			}
 			location = {
 				any_neighbor_province = {
@@ -17701,7 +17702,10 @@ nomad_subjugation = {
 					}
 				}
 			}
-			is_nomadic = yes
+			AND = {
+				is_nomadic = yes
+				NOT = {government = herder_government}
+			}
 			NOT = { same_realm = FROM }
 			NOT = { is_liege_or_above = FROM }
 			mercenary = no
@@ -18034,7 +18038,10 @@ nomad_invasion = {
 
 	can_use = {
 		ROOT = {
-			is_nomadic = yes
+			AND = {
+				is_nomadic = yes
+				NOT = {government = herder_government}
+			}
 			OR = {
 				ai = yes
 				multiplayer = no
@@ -18424,7 +18431,10 @@ nomad_expansion = {
 
 	can_use = {
 		ROOT = {
-			is_nomadic = yes
+			AND = {
+				is_nomadic = yes
+				NOT = {government = herder_government}
+			}
 			NOT = { same_realm = FROM }
 			mercenary = no
 		}

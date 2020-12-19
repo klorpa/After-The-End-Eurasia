@@ -86,7 +86,7 @@ nomadic_governments = {
 		ignore_in_vassal_limit_calculation = {
 			herder_government
 		}
-		frame_suffix = "_nomadic"
+		frame_suffix = "_merchantrepublic"
 		title_prefix = "herder_"
 		potential = {
 			culture = sami
@@ -103,7 +103,7 @@ nomadic_governments = {
 		
 		uses_prestige_for_law_change = yes
 		allow_title_revokation = yes
-		allow_looting = yes
+		allow_looting = no
 		max_consorts = 3
 		ignores_de_jure_laws = yes
 		can_build_holdings = no
@@ -112,6 +112,7 @@ nomadic_governments = {
 		can_build_temple = yes
 		can_demand_religious_conversion = no
 		marriage_ignore_religion = yes
+		aggression = 0.5
 		
 		vassal_limit = -10
 		commander_limit = -4
