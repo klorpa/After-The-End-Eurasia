@@ -8,7 +8,7 @@ namespace = jewish
 #	Ivri Events (jewish.5x - jewish.6x)						  #
 #															  #
 #	General Jewish Holidays and Events (jewish.1xx)			  #
-#															  #
+#	Jewish Maintanance Events for AI (jewish.2xx)			  #
 #															  #
 ###############################################################
 
@@ -479,4 +479,44 @@ character_event = {
 		clr_character_flag = in_religious_seclusion
 	}
 	
+}
+
+######################AI-ONLY EVENTS#####################
+character_event = {
+	id = jewish.200
+	desc = OK
+	picture = GFX_evt_religious_exultation
+	hide_window = yes
+	
+	ai = yes
+	
+	trigger = {
+		always = no
+		AND = {
+			landless = yes
+			has_landed_title = d_ivri
+		}
+	}
+	
+	immediate = {
+		set_government_type = theocracy_government
+		d_ivri = {
+			holder_scope = {
+				c_west_jerusalem = {
+					grant_title = PREV
+					any_de_jure_vassal_title = {
+						limit = {
+							holder_scope = { 
+								OR = {
+									character = ROOT
+									is_liege_or_above = ROOT
+								}
+							}
+						}
+						grant_title = PREVPREV
+					}
+				}
+			}
+		}
+	}
 }
