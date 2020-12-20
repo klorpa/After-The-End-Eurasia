@@ -193,24 +193,36 @@ narrative_event = {
 narrative_event = {
 	id = jewish.13
 	title = EVTTITLE_A_NIGHT_OUT
-	desc = EVTDESC_PARTY
+	desc = EVTDESC_TISH_PARTY
 	picture = GFX_evt_feast
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPT_party_with_rabbi
+		name = EVTOPTA_party_with_rabbi
 		hidden_tooltip = {
 			random_list = {
 				5 = { add_trait = drunkard }
 				95 = { }
 			}
+			piety = 10
+		}
+		narrative_event = { id = jewish.14 days = 2 }
+	}
+	option = {
+		name = EVTOPTB_party_with_rabbi
+		hidden_tooltip = {
+			random_list = {
+				5 = { add_trait = wounded }
+				95 = { }
+			}
+			prestige = 10
 		}
 		narrative_event = { id = jewish.14 days = 2 }
 	}
 }
 narrative_event = {
 	id = jewish.14
-	title = EVTTITLE_TISH_FARWELLS
+	title = EVTTITLE_TISH_FAREWELLS
 	desc = EVTDESC_TISH_END
 	picture = GFX_evt_carriage
 	is_triggered_only = yes
@@ -228,4 +240,243 @@ narrative_event = {
 			clr_character_flag = invited_to_tish
 		}
 	}
+}
+
+#Hitboddedut Events for Breslovers
+
+character_event = {
+	id = jewish.15
+	desc = EVTDESC_hitboddedut_0
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		trait = haredi_breslov
+		is_adult = yes
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 2.0
+			trait = zealous
+		}
+		modifier = {
+			factor = 1.5
+			trait = depressed
+		}
+		
+	}
+	
+	option = {
+		name = EVTOPTA_hitboddedut_0
+		add_trait = in_hiding
+		set_character_flag = do_not_disturb
+		set_character_flag = in_religious_seclusion
+		random_list = {
+			5 = {
+				character_event = { id = jewish.16 days = 3 }
+			}
+			20 = {
+				character_event = { id = jewish.17 days = 3 }
+			}
+			20 = {
+				character_event = { id = jewish.18 days = 3 }
+			}
+			25 = {
+				character_event = { id = jewish.19 days = 3 }
+			}
+			25 = {
+				character_event = { id = jewish.20 days = 3 }
+			}
+			5 = {
+				character_event = { id = jewish.21 days = 3 }
+			}			
+		}
+	}		
+}
+
+character_event = {
+	id = jewish.16
+	desc = EVTDESC_hitboddedut_1
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_hitboddedut_1
+		add_character_modifier = { name = breslov_foolish years = 2 }
+		remove_trait = in_hiding
+		clr_character_flag = do_not_disturb
+		clr_character_flag = in_religious_seclusion
+	}		
+}
+
+character_event = {
+	id = jewish.17
+	desc = EVTDESC_hitboddedut_2
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_hitboddedut_2
+		random_list = {
+			10 = { add_trait = trusting }
+			10 = { add_trait = content }
+			10 = { add_trait = honest }
+		}
+		piety = 25		
+		remove_trait = in_hiding
+		clr_character_flag = do_not_disturb
+		clr_character_flag = in_religious_seclusion
+	}		
+}
+
+character_event = {
+	id = jewish.18
+	desc = EVTDESC_hitboddedut_3
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_hitboddedut_3
+		random_list = {
+			10 = { 
+				modifier = { 
+					factor = 0 
+					NOT = { trait = ambitious }
+				}
+				remove_trait = ambitious 
+			}
+			10 = { 
+				modifier = { 
+					factor = 0 
+					NOT = { trait = envious }
+				}
+				remove_trait = envious 
+			}
+			10 = { 
+				modifier = { 
+					factor = 0 
+					NOT = { trait = cynical }
+				}
+				remove_trait = cynical 
+			}
+			10 = { 
+				modifier = { 
+					factor = 0 
+					NOT = { trait = paranoid }
+				}
+				remove_trait = paranoid 
+			}
+			10 = { 
+				modifier = { 
+					factor = 0 
+					NOT = { trait = deceitful }
+				}
+				remove_trait = deceitful 
+			}
+		}
+		piety = 25		
+		remove_trait = in_hiding
+		clr_character_flag = do_not_disturb
+		clr_character_flag = in_religious_seclusion
+	}		
+}
+
+character_event = {
+	id = jewish.19
+	desc = EVTDESC_hitboddedut_4
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_hitboddedut_4
+		random_list = {
+			10 = { 
+				modifier = { 
+					factor = 0 
+					NOT = { trait = stressed }
+				}
+				remove_trait = stressed 
+			}
+			10 = { 
+				modifier = { 
+					factor = 0 
+					NOT = { trait = depressed }
+				}
+				remove_trait = depressed 
+			}
+		}
+		piety = 25		
+		remove_trait = in_hiding
+		clr_character_flag = do_not_disturb
+		clr_character_flag = in_religious_seclusion
+	}		
+}
+
+character_event = {
+	id = jewish.20
+	desc = EVTDESC_hitboddedut_5
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_hitboddedut_5
+		add_trait = cynical
+		remove_trait = in_hiding
+		clr_character_flag = do_not_disturb
+		clr_character_flag = in_religious_seclusion
+	}
+	option = {
+		name = EVTOPTB_hitboddedut_5
+		random_list = {
+			50 = { add_trait = stressed }
+			50 = { add_trait = depressed }
+		remove_trait = in_hiding
+		clr_character_flag = do_not_disturb
+		clr_character_flag = in_religious_seclusion
+		}
+	}
+}
+character_event = {
+	id = jewish.21
+	desc = EVTDESC_hitboddedut_6
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_hitboddedut_6
+		add_character_modifier = { name = breslov_rejuvenated years = 2 }
+		remove_trait = in_hiding
+		clr_character_flag = do_not_disturb
+		clr_character_flag = in_religious_seclusion
+	}
+	
 }

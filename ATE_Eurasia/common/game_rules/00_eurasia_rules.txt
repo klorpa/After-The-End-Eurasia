@@ -11,3 +11,19 @@ eurasia_landmarks = {
 		desc = "RULE_LANDMARKS_OFF_DESC"
 	}
 }
+
+holy_war_cooldown_rule = {
+	name = "RULE_HOLY_WAR_COOLDOWN"
+	
+	option = {
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_COOLDOWN_ON"
+	}
+	
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_COOLDOWN_OFF"
+	}
+}

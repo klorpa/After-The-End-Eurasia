@@ -200,6 +200,76 @@ arabic = {
 		female_patronym = "bint "
 		prefix = yes 
 	}
+	teimani =
+			graphical_cultures = { arabgfx egyptiangfx }
+		
+		color = { 0.4 0.8 0.7 }
+
+		male_names = {
+			Abram_Abraham Adam Aharon Akiba Amnon Amram Amos Arie Ariel Aryeh
+			Asher_Asher  Avraham_Abraham Azaria Azran_Ezra Azriel  
+			Bahya Barzilai Barukh_Baruch Bebert_Albert Benyamin Bekhor Ben-Tzion Bessalel Binchas_Pinchas Boaz Bonjuha Bourak_Baruch 
+			Caleb Chaim_Haim 
+			Damam Dan Davi_David David_David Dudi
+			Efraim Elazar Eldad Elhanan Eli Eliahu Elisha Eliashiv Eliezer Elkana Eviatar Ezmel Ezra 
+			Gabriel_Gabriel Gad Gerson Gideon_Gideon Giora Gibri_Gabriel Ghedalia
+			Habib Haggai Hakham Haim_Haim Hanania Hannoun Hanokh Hassin Hasdai Haskia Haskiel Hayim_Haim Hillel Hizkia
+			Ibrahim Imanuel Ishmael  Israel Itamar
+			Lazar_Elazar Levi 
+			Maimon Makhlouf Malakhi Mallah Manasse Maor Marco Massoud Matatia Mayer Menachem Menashe Meshulam Meir Messod Mimun Moshe Mordo Mori Mordekhai Moyses 
+			Naftali Nahman Nahum Natan Natanel Nehemia Nehorai Nisim Nissin Noah 
+			Obadia Oded Ohad Oriel Ovadia Ozer
+			Pesah Peres Perahia Petahia Pinhas Presiado
+			Rabenu Rafi_Rafael Rafael_Rafael Rahamim Rami Ruben
+			Saadia Saadon Sadok Salomon_Solomon Said Salem Sason Semah Sevi Shabtai Shalev Shalom Shaul Shaya
+			Shemaria Shemaya Shimon Shimshon Shlomo_Solomon  "Shem Tov" Shmuel_Samuel Silvan Simhon 
+			Tchelebi Toubia Tsadik Tsemah Tsion
+			Ulad Uriel Uziel
+			Veissi Vidal
+			Yaakov Yamin Yakir Yedidiah Yefet Yehezkel Yehia Yehiel Yehoshua Yehuda_Judah Yekutiel Yeshaya Yiftah Yigal Yirmiyahu Yitzhak Yoel "Yom Tov" Yona_Jonah Yonatan_Jonathan Yosef_Joseph Yuda_Judah 
+			Zadik Zekharia Zerah Ziko Zion Zikri
+
+		}
+		female_names = {
+			Achinoam Ada Adi Adina Agar_Hagar Alegra Aljafa Amalia Amada Ajohar Alegria Asibuena Awali Aziza
+			Batsheva Batia_Batya Bekhora Bellida Benouta Benvenuta Brakha 
+			Chana Chaya Cima Clara
+			Dana Dalya Debora Dina Dudu Dulsa
+			Edna Elana Elisa Elisheva Ermoza Ester_Ester Estreya Etty_Ester
+			Fabuena Fanoula Farida Flora Fortuna
+			Gali Ghezala Gila Giudita_Yehudit Guemara 
+			Hadassa Habiba Hasiba Hanem Hanna Hannula Hagar_Hagar Hatun Hasiba Hava Haya Hnina Hora Hursi
+			Iohana Ines Izza Ilana
+			Jamila Jemima Johanna Johar
+			Kamra Komprada
+			Laila Lea Lina Lucia Lulu Lumbre Lydia
+			Maey Malka Malkuna Margalit Marhaba Mati Mato Mazal Mazalta Myriam Maymona Menora Mercedes Mina Misol Muna 
+			Naama Nadjma Naomi Naziha Nehama Nina
+			Ofra Ori Orly Oroduenia Orovida Orna Oumila
+			Palomba Penina Perla Presiada 
+			Rahel Rachel Rivka Reina Rahma Rahmouna Rica Ronit Rosula Rumiya Ruth
+			Saada Sabatia Saida Saphira Sara Saraya Sarit Sefora Sheba Shira Shoshana Sida Sima Simha Smadar Sol Solica
+			Tamar Tolsana Tsipora Tsoulia
+			Ventura Vida Violeta
+			Yael Yafa Yakot Yasmin Yehudit Yokheved 
+			Zafira Zahra Zana Zehava Zinbul Ziza
+
+		}
+		
+		male_patronym = "Ben "
+		female_patronym = "Bat "
+		prefix = yes
+
+		pat_grf_name_chance = 0
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+				
+		modifier = default_culture_modifier
+	}
 	filastini = {
 		graphical_cultures = { arabicgfx muslimgfx egyptiangfx }
 		

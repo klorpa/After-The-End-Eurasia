@@ -5862,11 +5862,17 @@ religious = {
 				NOT = { religion = neuhumanist }
 				NOT = { religion = buddhist }
 				NOT = { religion = ruhi }
+				NOT = { religion = haskalah }
 				NAND = {
 					religion = folketro
 					trait = hiddenfolk_cult
 				}
+
 				piety = 250
+			}
+			OR = {
+					NOT = { has_character_modifier = holy_war_cooldown }
+					has_game_rule = { name = holy_war_cooldown_rule value = off }
 			}
 		}
 	}
@@ -5879,8 +5885,23 @@ religious = {
 					religion = neuhumanist
 					religion = buddhist
 					religion = ruhi
+					religion = haskalah
 				}
 				piety = -250
+			}
+			if = {
+				limit = {
+					has_game_rule = { name = holy_war_cooldown_rule value = on }
+				}
+				custom_tooltip = {
+					text = holy_war_cooldown_ctt
+					hidden_tooltip = {
+						add_character_modifier = {
+							name = holy_war_cooldown
+							duration = 1825
+						}
+					}
+				}
 			}
 		}
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
@@ -5900,6 +5921,7 @@ religious = {
 			NOT = { pacifist = yes }
 			NOT = { religion = neuhumanist }
 			NOT = { religion = ruhi }
+			NOT = { religion = haskalah }
 		#	NAND = {
 		#		OR = {
 		#			has_landed_title = k_teutonic_state
@@ -6080,6 +6102,7 @@ religious = {
 		ROOT = {
 			NOT = { religion = neuhumanist }
 			NOT = { religion = ruhi }
+			NOT = { religion = haskalah }
 			NOT = { religion_group = pagan_group }
 			NOT = { pacifist = yes }
 			NOT = { same_realm = FROM }
@@ -11956,12 +11979,32 @@ pagan_holy_war = {
 	
 	can_use_gui = {
 		ROOT = {
+			OR = {
+				NOT = { has_character_modifier = holy_war_cooldown }
+				has_game_rule = { name = holy_war_cooldown_rule value = off }
+			}
 			piety = 100
 		}
 	}
 	
 	on_add = {
-		ROOT = { piety = -100 }
+		ROOT = { 
+			if = {
+				limit = {
+					has_game_rule = { name = holy_war_cooldown_rule value = on }
+				}
+				custom_tooltip = {
+					text = holy_war_cooldown_ctt
+					hidden_tooltip = {
+						add_character_modifier = {
+							name = holy_war_cooldown
+							duration = 1825
+						}
+					}
+				}
+			}
+			piety = -100 
+		}
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
