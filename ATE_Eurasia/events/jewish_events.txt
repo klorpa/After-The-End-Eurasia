@@ -230,15 +230,14 @@ narrative_event = {
 	option = {
 		name = EVTOPT_tish_memories
 		job_spiritual = {
-			holder_scope = {
-					opinion = {
-						who = ROOT
-						modifier = opinion_tish_celebration
-					}
+		holder_scope = {
+			opinion = {
+					who = ROOT
+					modifier = opinion_tish_celebration
 				}
 			}
-			clr_character_flag = invited_to_tish
 		}
+		clr_character_flag = invited_to_tish
 	}
 }
 
@@ -250,13 +249,12 @@ character_event = {
 	picture = GFX_evt_religious_exultation
 	border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	capable_only = yes
-	prisoner = no
-	
 	trigger = {
 		trait = haredi_breslov
 		is_adult = yes
+		only_playable = yes
+		capable_only = yes
+		prisoner = no
 		NOT = { is_inaccessible_trigger = yes }
 	}
 	
@@ -282,25 +280,27 @@ character_event = {
 		add_trait = in_hiding
 		set_character_flag = do_not_disturb
 		set_character_flag = in_religious_seclusion
-		random_list = {
-			5 = {
-				character_event = { id = jewish.16 days = 3 }
+		hidden_tooltip = {
+			random_list = {
+				5 = {
+					character_event = { id = jewish.16 days = 3 }
+				}
+				20 = {
+					character_event = { id = jewish.17 days = 3 }
+				}
+				20 = {
+					character_event = { id = jewish.18 days = 3 }
+				}
+				25 = {
+					character_event = { id = jewish.19 days = 3 }
+				}
+				25 = {
+					character_event = { id = jewish.20 days = 3 }
+				}
+				5 = {
+					character_event = { id = jewish.21 days = 3 }
+				}
 			}
-			20 = {
-				character_event = { id = jewish.17 days = 3 }
-			}
-			20 = {
-				character_event = { id = jewish.18 days = 3 }
-			}
-			25 = {
-				character_event = { id = jewish.19 days = 3 }
-			}
-			25 = {
-				character_event = { id = jewish.20 days = 3 }
-			}
-			5 = {
-				character_event = { id = jewish.21 days = 3 }
-			}			
 		}
 	}		
 }
@@ -320,7 +320,7 @@ character_event = {
 		remove_trait = in_hiding
 		clr_character_flag = do_not_disturb
 		clr_character_flag = in_religious_seclusion
-	}		
+	}
 }
 
 character_event = {
