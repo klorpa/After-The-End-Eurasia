@@ -19532,6 +19532,10 @@ reconquest_france = {
 		ROOT = {
 			prisoner = no
 			is_adult = yes
+			OR = {
+				NOT = { has_character_modifier = holy_war_cooldown }
+				has_game_rule = { name = holy_war_cooldown_rule value = off }
+			}
 		}
 	}
 
@@ -19676,6 +19680,20 @@ reconquest_france = {
 	on_add = {
 		custom_tooltip = { text = add_allies_reconquista_TT }
 		ROOT = {
+			if = {
+				limit = {
+					has_game_rule = { name = holy_war_cooldown_rule value = on }
+				}
+				custom_tooltip = {
+					text = holy_war_cooldown_ctt
+					hidden_tooltip = {
+						add_character_modifier = {
+							name = holy_war_cooldown
+							duration = 3650
+						}
+					}
+				}
+			}
 			character_event = { id = HF.49210 }
 		}
 	}
@@ -19745,6 +19763,10 @@ reconquest_provence = {
 		ROOT = {
 			prisoner = no
 			is_adult = yes
+			OR = {
+				NOT = { has_character_modifier = holy_war_cooldown }
+				has_game_rule = { name = holy_war_cooldown_rule value = off }
+			}
 		}
 	}
 
@@ -19889,6 +19911,20 @@ reconquest_provence = {
 	on_add = {
 		custom_tooltip = { text = add_allies_reconquista_TT }
 		ROOT = {
+			if = {
+				limit = {
+					has_game_rule = { name = holy_war_cooldown_rule value = on }
+				}
+				custom_tooltip = {
+					text = holy_war_cooldown_ctt
+					hidden_tooltip = {
+						add_character_modifier = {
+							name = holy_war_cooldown
+							duration = 3650
+						}
+					}
+				}
+			}
 			character_event = { id = HF.49210 }
 		}
 	}
@@ -19958,6 +19994,10 @@ reconquest_brittany = {
 		ROOT = {
 			prisoner = no
 			is_adult = yes
+			OR = {
+				NOT = { has_character_modifier = holy_war_cooldown }
+				has_game_rule = { name = holy_war_cooldown_rule value = off }
+			}
 		}
 	}
 
@@ -20102,6 +20142,20 @@ reconquest_brittany = {
 	on_add = {
 		custom_tooltip = { text = add_allies_reconquista_TT }
 		ROOT = {
+			if = {
+				limit = {
+					has_game_rule = { name = holy_war_cooldown_rule value = on }
+				}
+				custom_tooltip = {
+					text = holy_war_cooldown_ctt
+					hidden_tooltip = {
+						add_character_modifier = {
+							name = holy_war_cooldown
+							duration = 3650
+						}
+					}
+				}
+			}
 			character_event = { id = HF.49210 }
 		}
 	}
@@ -20171,6 +20225,10 @@ reconquest_balc = {
 		ROOT = {
 			prisoner = no
 			is_adult = yes
+			OR = {
+				NOT = { has_character_modifier = holy_war_cooldown }
+				has_game_rule = { name = holy_war_cooldown_rule value = off }
+			}
 		}
 	}
 	can_use = {
@@ -20315,6 +20373,20 @@ reconquest_balc = {
 	on_add = {
 		custom_tooltip = { text = add_allies_reconquista_TT }
 		ROOT = {
+			if = {
+				limit = {
+					has_game_rule = { name = holy_war_cooldown_rule value = on }
+				}
+				custom_tooltip = {
+					text = holy_war_cooldown_ctt
+					hidden_tooltip = {
+						add_character_modifier = {
+							name = holy_war_cooldown
+							duration = 3650
+						}
+					}
+				}
+			}
 			character_event = { id = HF.49210 }
 		}
 	}
@@ -20384,6 +20456,10 @@ reconquest_occitania = {
 		ROOT = {
 			prisoner = no
 			is_adult = yes
+			OR = {
+				NOT = { has_character_modifier = holy_war_cooldown }
+				has_game_rule = { name = holy_war_cooldown_rule value = off }
+			}
 		}
 	}
 
@@ -20529,6 +20605,20 @@ reconquest_occitania = {
 	on_add = {
 		custom_tooltip = { text = add_allies_reconquista_TT }
 		ROOT = {
+			if= {
+				limit = {
+					has_game_rule = { name = holy_war_cooldown_rule value = on }
+				}
+				custom_tooltip = {
+					text = holy_war_cooldown_ctt
+					hidden_tooltip = {
+						add_character_modifier = {
+							name = holy_war_cooldown
+							duration = 3650
+						}
+					}
+				}
+			}
 			character_event = { id = HF.49210 }
 		}
 	}

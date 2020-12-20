@@ -175,7 +175,7 @@ narrative_event = {
 		}
 		text = TORAH_VERSE_4
 	}
-	picture = GFX_evt_synagogue
+	picture = GFX_rebbe_wisdom
 	is_triggered_only = yes
 	
 	option = {
@@ -246,7 +246,7 @@ narrative_event = {
 character_event = {
 	id = jewish.15
 	desc = EVTDESC_hitboddedut_0
-	picture = GFX_evt_religious_exultation
+	picture = GFX_evt_mysterious_forest
 	border = GFX_event_normal_frame_religion
 	
 	trigger = {
@@ -259,7 +259,7 @@ character_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 36
+		months = 18
 		modifier = {
 			factor = 0.5
 			trait = cynical
@@ -308,7 +308,7 @@ character_event = {
 character_event = {
 	id = jewish.16
 	desc = EVTDESC_hitboddedut_1
-	picture = GFX_evt_religious_exultation
+	picture = GFX_abraham_lilien
 	border = GFX_event_normal_frame_religion
 	
 	only_playable = yes
@@ -326,7 +326,7 @@ character_event = {
 character_event = {
 	id = jewish.17
 	desc = EVTDESC_hitboddedut_2
-	picture = GFX_evt_religious_exultation
+	picture = GFX_abraham_lilien
 	border = GFX_event_normal_frame_religion
 	
 	only_playable = yes
@@ -349,7 +349,7 @@ character_event = {
 character_event = {
 	id = jewish.18
 	desc = EVTDESC_hitboddedut_3
-	picture = GFX_evt_religious_exultation
+	picture = GFX_abraham_lilien
 	border = GFX_event_normal_frame_religion
 	
 	only_playable = yes
@@ -438,7 +438,7 @@ character_event = {
 character_event = {
 	id = jewish.20
 	desc = EVTDESC_hitboddedut_5
-	picture = GFX_evt_religious_exultation
+	picture = GFX_lilien_psalm
 	border = GFX_event_normal_frame_religion
 	
 	only_playable = yes
