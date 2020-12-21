@@ -3,6 +3,7 @@
 2501000={
 	name="Jógvan"
 	dynasty=2102000
+	father=80003624
 	culture=faroese
 	religion=lutheran
 	martial=3
@@ -1195,7 +1196,7 @@
 	name="Audun"
 	dynasty=2220061 #Linge 
 	culture=vestlending
-	religion=lutheran
+	religion=folketro
 	trait=grey_eminence
 	trait=gregarious
 	trait=brave
@@ -1209,7 +1210,7 @@
 	name="Max"
 	dynasty=2220061 #Linge 
 	culture=vestlending
-	religion=lutheran
+	religion=folketro
 	trait=willful
 	trait=fussy
 	disallow_random_traits=yes
@@ -1222,7 +1223,7 @@
 	name="Gunnar"
 	dynasty=2220061 #Linge 
 	culture=vestlending
-	religion=lutheran
+	religion=folketro
 	trait=rowdy
 	disallow_random_traits=yes 
 	father=8000098
@@ -1234,7 +1235,7 @@
 	name="Carl Gustav"
 	dynasty=2220061 #Linge 
 	culture=vestlending
-	religion=lutheran
+	religion=folketro
 	trait=curious
 	disallow_random_traits=yes
 	father=8000098
@@ -1251,6 +1252,7 @@
 	trait=fair
 	trait=skilled_tactician
 	trait=ambitious 
+	trait=zealous
 	trait=brave 
 	trait=proud
 	trait=hiddenfolk_cult
@@ -1268,7 +1270,7 @@
 	name="Bjørn"
 	dynasty=2220113 #Brækhus 
 	culture=vestlending
-	religion=lutheran
+	religion=folketro
 	trait=lustful 
 	trait=cynical
 	trait=wroth
@@ -6125,7 +6127,7 @@
 	father=8000103
 	dynasty=2220113 #Brækhus 
 	culture=chinese
-	religion=lutheran
+	religion=folketro
 	trait=rowdy
 	trait=twin
 	trait=willful
@@ -6142,7 +6144,7 @@
 	father=8000103
 	dynasty=2220113 #Brækhus 
 	culture=chinese
-	religion=lutheran
+	religion=folketro
 	trait=curious
 	trait=twin 
 	trait=conscientious
@@ -6677,4 +6679,146 @@
 	trait=bastard
 	2408.1.1={birth=yes}
 	2480.1.1={death=yes}
+}
+
+80003611={
+	name="Leif"
+	dynasty=0
+	father=8000079
+	culture=vestlending
+	religion=folketro
+	trait=bastard
+	2150.1.1={birth=yes}
+	2200.1.1={give_nickname = nick_the_lucky}
+	2220.1.1={death=yes}
+}
+
+80003612={
+	name="Jørgen"
+	dynasty=0
+	father=80003611
+	culture=vestlending
+	religion=folketro
+	2200.1.1={birth=yes}
+	2250.1.1={death=yes}
+}
+
+80003613={
+	name="Naddoddur"
+	dynasty=0
+	father=80003612
+	culture=faroese
+	religion=folketro
+	2225.1.1={birth=yes}
+	2300.1.1={death=yes}
+}
+
+80003614={
+	name="Tır"
+	dynasty=0
+	father=80003613
+	culture=faroese
+	religion=folketro
+	2270.1.1={birth=yes}
+	2350.1.1={death=yes}
+}
+
+80003615={
+	name="Erlendur"
+	dynasty=0
+	father=80003614
+	culture=faroese
+	religion=folketro
+	2324.1.1={birth=yes}
+	2388.1.1={death=yes}
+}
+
+80003616={
+	name="Sunnleif"
+	dynasty=0
+	father=80003615
+	culture=faroese
+	religion=folketro
+	2367.1.1={birth=yes}
+	2421.1.1={death=yes}
+}
+
+80003617={
+	name="Erlendur"
+	dynasty=0
+	father=80003616
+	culture=faroese
+	religion=folketro
+	2393.1.1={birth=yes}
+	2445.1.1={death=yes}
+}
+
+80003618={
+	name="Erlendur"
+	dynasty=0
+	father=80003617
+	culture=faroese
+	religion=folketro
+	2418.1.1={birth=yes}
+	2470.1.1={death=yes}
+}
+
+80003619={
+	name="Jógvan"
+	dynasty=0
+	father=80003618
+	culture=faroese
+	religion=folketro
+	2445.1.1={birth=yes}
+	2504.1.1={death=yes}
+}
+
+80003620={
+	name="Rói"
+	dynasty=0
+	father=80003619
+	culture=faroese
+	religion=folketro
+	2476.1.1={birth=yes}
+	2531.1.1={death=yes}
+}
+
+80003621={
+	name="Erlendur"
+	dynasty=2102000
+	father=80003620
+	culture=faroese
+	religion=lutheran
+	2507.1.1={birth=yes}
+	2556.1.1={death=yes}
+}
+
+80003622={
+	name="Kristian"
+	dynasty=2102000
+	father=80003621
+	culture=faroese
+	religion=lutheran
+	2530.1.1={birth=yes}
+	2578.1.1={death=yes}
+}
+
+80003623={
+	name="Jógvan"
+	dynasty=2102000
+	father=80003622
+	culture=faroese
+	religion=lutheran
+	2558.1.1={birth=yes}
+	2611.1.1={death=yes}
+}
+
+80003624={
+	name="Eilif"
+	dynasty=2102000
+	father=80003623
+	culture=faroese
+	religion=lutheran
+	2590.1.1={birth=yes}
+	2634.1.1={death=yes}
 }
