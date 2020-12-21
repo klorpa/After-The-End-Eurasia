@@ -139,10 +139,10 @@ character_event = {
 	
 	immediate = {
 		random_list = {
-			25 = { set_character flag = random_torah_verse_1 }
-			25 = { set_character flag = random_torah_verse_2 }
-			25 = { set_character flag = random_torah_verse_3 }
-			25 = { set_character flag = random_torah_verse_4 }
+			25 = { set_character_flag = random_torah_verse_1 }
+			25 = { set_character_flag = random_torah_verse_2 }
+			25 = { set_character_flag = random_torah_verse_3 }
+			25 = { set_character_flag = random_torah_verse_4 }
 		}
 		narrative_event = { id = jewish.12 days = 2 }
 	}
@@ -282,7 +282,7 @@ character_event = {
 		set_character_flag = in_religious_seclusion
 		hidden_tooltip = {
 			random_list = {
-				5 = {
+				10 = {
 					character_event = { id = jewish.16 days = 3 }
 				}
 				20 = {
@@ -291,13 +291,13 @@ character_event = {
 				20 = {
 					character_event = { id = jewish.18 days = 3 }
 				}
-				25 = {
+				20 = {
 					character_event = { id = jewish.19 days = 3 }
 				}
-				25 = {
+				20 = {
 					character_event = { id = jewish.20 days = 3 }
 				}
-				5 = {
+				10 = {
 					character_event = { id = jewish.21 days = 3 }
 				}
 			}
@@ -308,7 +308,7 @@ character_event = {
 character_event = {
 	id = jewish.16
 	desc = EVTDESC_hitboddedut_1
-	picture = GFX_abraham_lilien
+	picture = GFX_lilien_jonas
 	border = GFX_event_normal_frame_religion
 	
 	only_playable = yes
@@ -335,11 +335,38 @@ character_event = {
 	option = {
 		name = EVTOPTA_hitboddedut_2
 		random_list = {
-			10 = { add_trait = trusting }
-			10 = { add_trait = content }
-			10 = { add_trait = honest }
+			10 = { 
+				modifier = { 
+					factor = 0 
+					trait = trusting
+				}
+				add_trait = trusting 
+			}
+			10 = { 
+				modifier = { 
+					factor = 0 
+					trait = content
+				}
+				add_trait = content
+			}
+			10 = { 
+				modifier = { 
+					factor = 0 
+					trait = honest
+				}
+				add_trait = honest 
+			}
+			10 = { 
+				modifier = { 
+					factor = 0 
+					trait = humble
+				}
+				add_trait = humble 
+			}
+			fallback = {
+				piety = 50
+			}
 		}
-		piety = 25		
 		remove_trait = in_hiding
 		clr_character_flag = do_not_disturb
 		clr_character_flag = in_religious_seclusion
@@ -349,7 +376,7 @@ character_event = {
 character_event = {
 	id = jewish.18
 	desc = EVTDESC_hitboddedut_3
-	picture = GFX_abraham_lilien
+	picture = GFX_lilien_psalm
 	border = GFX_event_normal_frame_religion
 	
 	only_playable = yes
@@ -375,9 +402,9 @@ character_event = {
 			10 = { 
 				modifier = { 
 					factor = 0 
-					NOT = { trait = cynical }
+					NOT = { trait = proud }
 				}
-				remove_trait = cynical 
+				remove_trait = proud 
 			}
 			10 = { 
 				modifier = { 
@@ -393,8 +420,11 @@ character_event = {
 				}
 				remove_trait = deceitful 
 			}
+			fallback = {
+				piety = 50	
+			}
+
 		}
-		piety = 25		
 		remove_trait = in_hiding
 		clr_character_flag = do_not_disturb
 		clr_character_flag = in_religious_seclusion
@@ -404,7 +434,7 @@ character_event = {
 character_event = {
 	id = jewish.19
 	desc = EVTDESC_hitboddedut_4
-	picture = GFX_evt_religious_exultation
+	picture = GFX_lilien_psalmist
 	border = GFX_event_normal_frame_religion
 	
 	only_playable = yes
@@ -427,8 +457,10 @@ character_event = {
 				}
 				remove_trait = depressed 
 			}
+			fallback = {
+				piety = 50		
+			}
 		}
-		piety = 25		
 		remove_trait = in_hiding
 		clr_character_flag = do_not_disturb
 		clr_character_flag = in_religious_seclusion
@@ -438,7 +470,7 @@ character_event = {
 character_event = {
 	id = jewish.20
 	desc = EVTDESC_hitboddedut_5
-	picture = GFX_lilien_psalm
+	picture = GFX_lilien_isaiah
 	border = GFX_event_normal_frame_religion
 	
 	only_playable = yes
@@ -456,16 +488,17 @@ character_event = {
 		random_list = {
 			50 = { add_trait = stressed }
 			50 = { add_trait = depressed }
+		}
 		remove_trait = in_hiding
 		clr_character_flag = do_not_disturb
 		clr_character_flag = in_religious_seclusion
-		}
+		
 	}
 }
 character_event = {
 	id = jewish.21
 	desc = EVTDESC_hitboddedut_6
-	picture = GFX_evt_religious_exultation
+	picture = GFX_lilien_daniel
 	border = GFX_event_normal_frame_religion
 	
 	only_playable = yes
