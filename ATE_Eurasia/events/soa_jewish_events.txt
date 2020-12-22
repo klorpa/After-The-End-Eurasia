@@ -877,8 +877,7 @@ character_event = {
 		name = EVTOPTA_SoA_500
 		any_vassal = {
 			limit = {
-				religion = jewish
-				age = 16
+				religion_group = jewish_group
 				prisoner = no
 				war = no
 				NOT = { trait = incapable }
@@ -886,11 +885,26 @@ character_event = {
 			character_event = { id = SoA.501 days = 2 tooltip = EVTTOOLTIP_SoA_501 }
 		}
 		custom_tooltip = { text = passover_invitations_sent }
+		if = {
+			limit ={
+				OR = { 
+					religion = ivri
+					culture = sefardi
+				}
+			}
+			hidden_tooltip = { character_event = { id = SoA.509 days = 9 } }
+		}
 		hidden_tooltip = { character_event = { id = SoA.503 days = 10 } }
 		hidden_tooltip = {
 			random_list = {
 				50 = { character_event = { id = SoA.506 days = 8  } } 
-				#50 = { character_event = { id = SoA.507 days = 11 } } 
+				50 = { 
+					modifier = {
+						factor = 0
+						num_of_vassal <= 2
+					}
+					character_event = { id = SoA.507 days = 11 } 
+				} 
 				50 = { character_event = { id = SoA.508 days = 11 } } 
 			}
 		}
@@ -915,7 +929,7 @@ character_event = {
 			factor = 95
 			modifier = {
 				factor = 0
-				NOT = {	opinion = { who = ROOT value = -20 } }
+				opinion = { who = ROOT value <= -20 }
 			}
 		}
 		custom_tooltip = { text = passover_accepted }
@@ -1060,47 +1074,45 @@ character_event = { # Adding Passover flavor: Bedikat Chametz
 	}
 }
 
-# character_event = { # Adding Passover flavor: a 5th cup of wine?
-	# id = SoA.507
-	# desc = EVTDESC_SoA_507
-	# picture = GFX_evt_fancy_feast
-	# border = GFX_event_normal_frame_religion
+character_event = { # Adding Passover flavor: a 5th cup?
+	id = SoA.507
+	desc = EVTDESC_SoA_507
+	picture = GFX_evt_fancy_feast
+	border = GFX_event_normal_frame_religion
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = EVTOPTA_SoA_507
-		# random_vassal = { 
-			# limit = { has_character_flag = attending_passover }
-			# random_list = {
-				# 10 = {add_friend = ROOT}
-				# 80 = {
-					# opinion = {
-						# modifier = welcoming_host
-						# who = ROOT
-					# }			
-				# }
-				# 10 = { add_trait = drunkard }
-				
-			# }
-		# }
-		# prestige = 20
-	# }
+	option = {
+		name = EVTOPTA_SoA_507
+		random_vassal = { 
+			limit = { has_character_flag = attending_passover }
+			opinion = {
+				who = ROOT
+				modifier = welcoming_host
+			}
+		}
+		
+		random_list = { 
+			10 = { add_trait = drunkard }
+			20 = { add_trait = gregarious }
+			60 = { prestige = 20 }			
+		}
+	}
 	
-	# option = {
-		# name = EVTOPTB_SoA_507
-		# random_list	={
-			# 30 = {add_trait = temperate} 
-			# 70 = {piety = 30}
-		# }
-		# show_trait = temperate
-	# }
-# }
+	option = {
+		name = EVTOPTB_SoA_507
+		random_list	={
+			30 = {add_trait = temperate} 
+			70 = {piety = 30}
+		}
+		show_trait = temperate
+	}
+}
 
 character_event = { # Adding Passover flavor: Kol dichfin yeitei v’yeichol
 	id = SoA.508
 	desc = EVTDESC_SoA_508
-	picture = GFX_evt_passover_exodus
+	picture = GFX_passover_exodus
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1124,185 +1136,118 @@ character_event = { # Adding Passover flavor: Kol dichfin yeitei v’yeichol
 	}
 }
 
-# character_event = { # Adding Passover flavor: Selling Chametz # for some reason this is a nightmare, I'll deal with it later
-	# id = SoA.509
-	# desc = EVTDESC_SoA_509
-	# picture = GFX_evt_jewish_market
-	# border = GFX_event_normal_frame_religion
+character_event = { # Adding Passover flavor: Selling Chametz
+	id = SoA.509
+	desc = EVTDESC_SoA_509
+	picture = GFX_evt_jewish_market
+	border = GFX_event_normal_frame_religion
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = EVTOPTA_SoA_509
-		# wealth = 20
-	# }
-	
-	# option = {
-		# name = EVTOPTB_SoA_509
-		# piety = 10
-		# gold = -10
-	# }
-	# option ={
-		# trigger_if = {
-			# limit = { 
-					# any_realm_lord = { 
-						# limit = { NOT = { religion_group = jewish_group } } 
-					# }
-			# }
-			# name = EVTOPTC_SoA_507
-			# random_realm_lord = { 
-				# limit = { NOT = { religion_group = jewish_group }}
-				# character_event = { id = SoA.509 }
-				# character_flag = sold_chametz
-				# opinion = {
-					# modifier = chametz_sale
-					# who = ROOT
-				# }
-			# }
-			# cash = -20
-			# hidden_tooltip = { character_event = { id = SoA.508 days = 9  } }
-		# }
-		# trigger_else_if = {
-			# limit = { 
-					# any_neighbor_independent_ruler = { 
-						# limit = { NOT = { religion_group = jewish_group } } 
-					# }
-			# }
-			# name = EVTOPTC_SoA_507
-			# random_neighbor_independent_ruler = { 
-				# limit = {NOT = { religion_group = jewish_group }}
-				# character_event = { id = SoA.509 }
-				# character_flag = sold_chametz
-				# opinion = {
-					# modifier = chametz_sale
-					# who = ROOT
-				# }
-			# }
-			# cash = -20
-			# hidden_tooltip = { character_event = { id = SoA.508 days = 7  } }
-		# }
-	# }			
-# }
+	trigger_if = { 
+		any_realm_lord = { 
+			limit = { NOT = { religion_group = jewish_group } } 
+			prisoner = no
+			is_adult = yes
+			NOR = {
+				trait = incapable
+				is_inaccessible_trigger = yes
+			}
+		}
+	}
+	trigger_else_if = { 
+		any_neighbor_independent_ruler = { 
+			limit = { NOT = { religion_group = jewish_group } } 
+						prisoner = no
+			is_adult = yes
+			NOR = {
+				trait = incapable
+				is_inaccessible_trigger = yes
+			}
+		}
+	}
+	immediate = {
+		if = {
+			limit = {
+				any_realm_lord = { 
+				limit = { NOT = { religion_group = jewish_group } } 
+				prisoner = no
+				is_adult = yes
+				NOR = {
+					trait = incapable
+					is_inaccessible_trigger = yes
+					}
+				}
+			}
+			random_realm_lord = { 
+				limit = { 
+					NOT = { religion_group = jewish_group } 
+					prisoner = no
+					is_adult = yes
+					NOR = {
+						trait = incapable
+						is_inaccessible_trigger = yes
+					}
+				}
+				save_event_target_as = chametz_sale
+			}
+		}
+		else = {
+			random_neighbor_independent_ruler = { 
+				limit = { 
+					NOT = { religion_group = jewish_group }
+					prisoner = no
+					is_adult = yes
+					NOR = {
+						trait = incapable
+						is_inaccessible_trigger = yes
+					}
+				}
+				save_event_target_as = chametz_sale
+			}
+		}
+	}
+	option = {
+		name = EVTOPTA_SoA_509
+		event_target:chametz_sale = {
+			cash = 20
+		}
+		cash = -20
+		character_event = { id = SoA.510 days = 9 }
+	}						
+}
 
-# character_event = { # Adding Passover flavor: Buying Back Chametz
-	# id = SoA.508
-	# desc = EVTDESC_SoA_508
-	# picture = GFX_evt_jewish_market
-	# border = GFX_event_normal_frame_religion
+character_event = { # Adding Passover flavor: Buying Back Chametz/Mimouna time!
+	id = SoA.510
+	desc = EVTDESC_SoA_510
+	picture = GFX_evt_fancy_feast
+	border = GFX_event_normal_frame_religion
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = EVTOPTA_SoA_508
-		# piety = 10
-		# gold = -20
-		# random_list = { 
-			# 50 = add_trait = shy 
-			# 50 = add_trait = charitable
-			# }
-	# }
-	
+	option = {
+		name = EVTOPTA_SoA_510
+		event_target:chametz_sale = {
+			cash = -20
+			prestige = 50
+			random = { chance = 25 trait = sympathy_judaism }
+			random_list = {
+				10 = { add_friend = ROOT }
+				90 = { 
+					opinion = {
+						modifier = opinion_celebrated_mimouna
+						who = ROOT
+					}
+				}
+			}
+		}
+		cash = 20
+		prestige = 50
+		# give root a chance of getting sympathy for whatever religious group target is in
+	}
+}
 
-	# option = {
-		# name = EVTOPTB_SoA_508
-			# any_realm_lord = {
-				# limit = { has_character_flag = sold_chametz }
-				# random_list = {
-					# 30 = { 
-						# add_friend=ROOT
-					# }
-					# 70 = {
-						# opinion = {
-						# modifier = welcoming_host
-						# who = ROOT
-						# }
-					# }
-				# }
-				# character_event= {id = SoA.510 }
-				# cash = 20
-			# }
-			# any_neighbor_independent_ruler = {
-				# limit = { has_character_flag = sold_chametz }
-				# random_list = {
-					# 30 = { 
-						# add_friend=ROOT
-					# }
-				# 70 = {
-					# opinion = {
-					# modifier = welcoming_host
-					# who = ROOT
-					# }
-				# }
-				# character_event= { id= SoA.510 }
-				# cash = 20
 
-			# }
-		
-	# }
-# }			
-
-# character_event = { # Adding Passover flavor: Buying Chametz
-	# id = SoA.509
-	# desc = EVTDESC_SoA_509
-	# picture = GFX_evt_jewish_market
-	# border = GFX_event_normal_frame_religion
-	
-	# is_triggered_only = yes
-			
-	# option = {
-		# name = EVTOPTA_SoA_509
-		# cash = 20
-	# }
-# }
-
-# character_event = { # Adding Passover flavor: Buying Chametz
-	# id = SoA.510
-	# desc = EVTDESC_SoA_510
-	# picture = GFX_evt_jewish_market
-	# border = GFX_event_normal_frame_religion
-	
-	# is_triggered_only = yes
-			
-	# option = {
-		# name = EVTOPTA_SoA_510
-		# cash = 20
-	# }
-# }
-
-# The Priesthood Restored
-# narrative_event = {
-	# id = SoA.550
-	# title = EVTNAME_SoA_550
-	# desc = EVTDESC_SoA_550
-	# picture = GFX_evt_synagogue
-	# border = GFX_event_narrative_frame_religion
-	
-	# major = yes
-	
-	# is_triggered_only = yes
-	
-	# option = {
-		# name = EVTOPTA_SoA_550
-		# trigger = {
-			# religion_group = jewish_group
-		# }
-	# }
-	# option = {
-		# name = EVTOPTB_TOG_6004
-		# trigger = {
-			# NOT = {
-				# religion_group = jewish_group
-				# religion_group = muslim
-			# }
-		# }
-	# }
-	# option = {
-		# name = EVTOPTC_TOG_6004
-		# trigger = {
-			# religion_group = muslim
-		# }
-	# }
-# }
 
 ### Jewish Councillor Events
 
