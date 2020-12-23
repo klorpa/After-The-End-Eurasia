@@ -1088,7 +1088,7 @@ character_event = { # Adding Passover flavor: a 5th cup?
 			limit = { has_character_flag = attending_passover }
 			opinion = {
 				who = ROOT
-				modifier = welcoming_host
+				modifier = opinion_welcoming_host
 			}
 		}
 		
@@ -1170,13 +1170,16 @@ character_event = { # Adding Passover flavor: Selling Chametz
 		if = {
 			limit = {
 				any_realm_lord = { 
-				limit = { NOT = { religion_group = jewish_group } } 
-				prisoner = no
-				is_adult = yes
-				NOR = {
-					trait = incapable
-					is_inaccessible_trigger = yes
+					limit = { 
+						NOT = { religion_group = jewish_group } 
+						prisoner = no
+						is_adult = yes
+						NOR = {
+							trait = incapable
+							is_inaccessible_trigger = yes
+						}
 					}
+					always = no
 				}
 			}
 			random_realm_lord = { 
@@ -1230,7 +1233,6 @@ character_event = { # Adding Passover flavor: Buying Back Chametz/Mimouna time!
 		event_target:chametz_sale = {
 			cash = -20
 			prestige = 50
-			random = { chance = 25 trait = sympathy_judaism }
 			random_list = {
 				10 = { add_friend = ROOT }
 				90 = { 
@@ -1239,11 +1241,24 @@ character_event = { # Adding Passover flavor: Buying Back Chametz/Mimouna time!
 						who = ROOT
 					}
 				}
+			}		
+			random = {
+				chance = 25
+				add_trait = sympathy_judaism
+				trigger_switch = {
+					on_trigger = religion_group
+					christian 	= { FROM = { add_trait = sympathy_christendom } }
+					muslim 	= { FROM = { add_trait = sympathy_islam } }
+					pagan_group = { FROM = { add_trait = sympathy_pagans } }
+					vernacular 	= { FROM = { add_trait = sympathy_vernacular } }
+					jewish_group = { FROM = { add_trait = sympathy_judaism } }
+					indian_group = { FROM = { add_trait = sympathy_indian } }
+				}
 			}
 		}
 		cash = 20
 		prestige = 50
-		# give root a chance of getting sympathy for whatever religious group target is in
+
 	}
 }
 

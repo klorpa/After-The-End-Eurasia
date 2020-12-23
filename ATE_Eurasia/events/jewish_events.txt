@@ -27,22 +27,21 @@ character_event = {
 	}
 
 	option = {
-		name = EVTOPT_haredi_litvak
-		desc = EVTOPT_haredi_litvak_desc
+		name = EVTOPT_haredi_yashvai
+		desc = EVTOPT_haredi_yashvai_desc
 		hidden_tooltip = {
 			remove_trait = haredi_breslov
 			remove_trait = haredi_chassid
-			remove_trait = haredi_sepharadi
 		}
-		add_trait = haredi_litvak
-		show_trait = haredi_litvak
+		add_trait = haredi_yashvai
+		show_trait = haredi_yashvai
 		ai_chance = {
 			factor = 10
-			modifier = { factor = 2 trait = haredi_litvak }
+			modifier = { factor = 2 trait = haredi_yashvai }
 			modifier = { factor = 1.5 trait = erudite }
 			modifier = { factor = 1.5 trait = proud }
-			modifier = { factor = 0.1 culture = sephardi }
-			modifier = { factor = 0.1 culture = sabra }
+			modifier = { factor = 5 culture = sefardi }
+			modifier = { factor = 1 culture = sabra }
 			madifier = { factor = 5 culture = yiddish }
 		}
 	}
@@ -51,9 +50,8 @@ character_event = {
 		name = EVTOPT_haredi_breslov
 		desc = EVTOPT_haredi_breslov_desc
 		hidden_tooltip = {
-			remove_trait = haredi_litvak
+			remove_trait = haredi_yashvai
 			remove_trait = haredi_chassid
-			remove_trait = haredi_sepharadi
 		}
 		add_trait = haredi_breslov
 		show_trait = haredi_breslov
@@ -72,8 +70,7 @@ character_event = {
 		desc = EVTOPT_haredi_chassid_desc
 		hidden_tooltip = {
 			remove_trait = haredi_breslov
-			remove_trait = haredi_litvak
-			remove_trait = haredi_sepharadi
+			remove_trait = haredi_yashvai
 		}
 		add_trait = haredi_chassid
 		show_trait = haredi_chassid
@@ -83,33 +80,12 @@ character_event = {
 			modifier = { factor = 2 trait = humble }
 			modifier = { factor = 1.5 trait = lustful }
 			modifier = { factor = 1.5 trait = gregarious }
-			modifier = { factor = 0.1 culture = sephardi }
+			modifier = { factor = 0.1 culture = sefardi }
 			modifier = { factor = 0.1 culture = sabra }
 			madifier = { factor = 5 culture = yiddish }
 		}
 	}
-	option = {
-		name = EVTOPT_haredi_sepharadi
-		desc = EVTOPT_haredi_sepharadi_desc
-		hidden_tooltip = {
-			remove_trait = haredi_breslov
-			remove_trait = haredi_litvak
-			remove_trait = haredi_chassid
-		}
-		add_trait = haredi_sepharadi
-		show_trait = haredi_sepharadi
-		ai_chance = {
-			factor = 10
-			modifier = { factor = 2 trait = haredi_sepharadi }
-			modifier = { factor = 2 trait = humble }
-			modifier = { factor = 1.5 trait = lustful }
-			modifier = { factor = 1.5 trait = gregarious }
-			modifier = { factor = 10 culture = sephardi }
-			modifier = { factor = 10 culture = sabra }
-			modifier = { factor = 10 culture = yemeni }
-			modifier = { factor = 0.1 culture = yiddish }
-		}
-	}
+
 }
 
 ######################HAREDI EVENTS#####################

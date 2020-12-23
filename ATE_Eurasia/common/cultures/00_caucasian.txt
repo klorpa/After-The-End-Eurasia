@@ -3,6 +3,68 @@
 caucasian = {
 	graphical_cultures = { easterngfx }
 
+	armenian = {
+		graphical_cultures = { byzantinegfx }
+		
+		color = { 0.3 0.7 0.2 }
+		
+		male_names = {
+			Adour Agheg Aleksandr Alen Alik Andranik Aram Aramayis Ararat Arayik Areg Arkadi
+			Armen Arsen Arshak Artak Artashes Artur Artyom Ashot Avedis Avetik Avo Azat
+			Dalian Davit_David Dikran
+			Edik Edvard
+			Gagik Garegin Garen Garik Garnik Garo Gegham Gevorg Gor Grigor_Gregory Grisha Gurgen
+			Hakob Hamlet Harut Harutun Harutyun Hayk Henrik Hovhannes Hovik Hrach Hrachik Hrachya Hrag Hrant Hrayr
+			Kamo Karapet Karlen Khachatur Khachik
+			Levon Lyova
+			Manuk Manvel Marat Martin Mikayel Misha Mkrtich Mher
+			Narek Nareg Norayr Norik Nune Nver
+			Rafayel Rafik Razmik Roman Ruben Rubik
+			Samvel Sargis Saro Sasun Sevak Sergey Seryoza Shant Smbat Stepan Suren
+			Talin Tigran
+			Vachagan Vahagn Vahe Vanik Vatche Vardan Varuzan Vazgen Volodya Vladimir Vrez
+			Yurik
+			Zaven
+		}
+		female_names = {
+			Aida Alina Alisa Alla Amalya Anahit Ani Anush Anzela Ara Araksya Ararat 
+			Arevik Armenuhi Armine Arpine Arusyak Ashken Astghik Asya
+			Diana
+			Elmira Emma
+			Gayane Geghecik Gohar Goharik Greta
+			Karen Karine Kristina Kristine Knarik
+			Hasmik Haykanush Heghine Hermine Hranush Hripsime
+			Irina
+			Jemma Julieta
+			Larisa Laura Lena Liana Lida Lilit Lusik Lusine Lyudmila
+			Manushak Mariam Margalit Margarita Marieta Marina Marine Melanya Meline Meri Mushegh
+			Naira Nazik Nelli Nina Nune Nvard Nver
+			Ofelya
+			Rima Rita Roza Ruzanna
+			Satenik Seda Seyran Silva Siranush Sirvard Shoghik Shushanik Sofya Sona Sonya Syuzanna Susan Svetlana
+			Tamara Taguhi Tatevik Tereza
+			Vahram Vardanush Varduhi Varsenik
+			Yelena
+			Zanna Zaruhi Zora Zoya
+		}
+			
+		from_dynasty_suffix = "atsi "
+			
+		male_patronym = "yan"
+		female_patronym = "yan"
+		prefix = no
+				
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
 	circassian = {
 		graphical_cultures = { ugricgfx }
 		

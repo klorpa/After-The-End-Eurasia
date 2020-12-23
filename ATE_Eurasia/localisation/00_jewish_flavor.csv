@@ -2,12 +2,10 @@
 
 ###########Jewish Traits###########
 
-haredi_litvak;Litvak;;;;;;;;;;;;;x
-haredi_litvak_desc;Litvaks stress highly intellectual Talmud study through yeshivas. They descend from earlier opponents to the Chassidic movent known as the Misnagdim, who were centered around the area of Greater Lithuania.;;;;;;;;;;;;;x
+haredi_yashvai;Yashva'i;;;;;;;;;;;;;x
+haredi_yashvai_desc;Yashva'im stress highly intellectual and rationalist Talmud study through yeshivas, rejecting the emphasis on popularized mysticism prevalent in Chasssidim. Many belong to the traditions of the Ashenazi Litvaks or the Sefaradi Haredis.;;;;;;;;;;;;;x
 haredi_breslov;Breslover;;;;;;;;;;;;;x
 haredi_breslov_desc;Breslover Chassids follow the teachings of Rebbe Nachman of Breslov, who stressed building a personal connection with God and advocated for Kiruv (outreach to non-Haredi Jews). He left no successor and encouraged his followers to remain decentralized.;;;;;;;;;;;;;x
-haredi_sepharadi;Porat Yosef;;;;;;;;;;;;;x
-haredi_sepharadi_desc;Porat Yosef was the first Sepharadi Haredi Yeshiva, and the Rabbis who taught there shaped a new uniquely Sepharadi tradition of Haredi Judaism.;;;;;;;;;;;;;x
 haredi_chassid;Chassid;;;;;;;;;;;;;x
 haredi_chassid_desc;The Chassidic movement developed in Eastern Europe beginning with the Baal Shem Tov. Chassids follow one of many rabbinical courts, each run by a Rebbe of a given dynasty who guides his followers in all their life decisions and whose position is passed down from father to son.;;;;;;;;;;;;;x
 
@@ -24,14 +22,13 @@ celebrate_tish_desc;The time has come to invite all the disciples of your Rebbe 
 ###########Jewish Event###########
 
 EVTDESC_haredi_choose;I find myself distanced from the community I was raised in. The teachings I once valued no longer hold the same meaning. While it might cause scandal, I can choose to join another Haredi community, but which teachings should I choose to follow?;;;;;;;;;;;;;x
-EVTOPT_haredi_litvak;I will follow the teachings of the Vilna Gaon and the Litvaks;;;;;;;;;;;;;x
-EVTOPT_haredi_litvak_desc;Gain the Litvak trait;;;;;;;;;;;;;x
-EVTOPT_haredi_chassid;I will follow the teachings of the Baal Shem Tov and the Chassidim;;;;;;;;;;;;;x
+EVTOPT_haredi_yashvai;I will follow the teachings of the Roshei Yeshiva;;;;;;;;;;;;;x
+EVTOPT_haredi_yashvai_desc;Gain the Yashva'i trait;;;;;;;;;;;;;x
+EVTOPT_haredi_chassid;I will follow the wisdom of the Tzadikim;;;;;;;;;;;;;x
 EVTOPT_haredi_chassid_desc;Gain the Chassid trait;;;;;;;;;;;;;x
-EVTOPT_haredi_breslov;I will follow the teachings of Nachman of Breslov and the Breslover Chassidim;;;;;;;;;;;;;x
+EVTOPT_haredi_breslov;I will follow the spirit of Rebbe Nachman;;;;;;;;;;;;;x
 EVTOPT_haredi_breslov_desc;Gain the Breslover trait;;;;;;;;;;;;;x
-EVTOPT_haredi_sepharadi;I will follow the teachings of the rabbis of Porat Yosef;;;;;;;;;;;;;x
-EVTOPT_haredi_sepharadi_desc;Gain the Porat Yosef trait;;;;;;;;;;;;;x
+
 
 #Tish Localizations
 EVTTITLE_TISH_INVITATION;A Grand Tish;;;;;;;;;;;;;x
@@ -92,8 +89,8 @@ EVTDESC_SoA_508;The Passover meal has begun, though some outside your castle may
 EVTOPTA_SoA_508;Bring them in, let all who are hungry come eat at our Seder Table!;;;;;;;;;;;;;x
 EVTOPTB_SoA_508;Their hunger is not my problem.;;;;;;;;;;;;;x
 EVTDESC_SoA_509;The chametz in your storerooms remains in your castle, though not in your possession. Your Rabbi [Root.job_spiritual.GetFirstName] has arranged for you to sell your chametz to [chametz_sale.GetBestName], a gentile lord who you both trust.;;;;;;;;;;;;;x
-EVTOPTA_SoA_509;This should bring us closer together;;;;;;;;;;;;;x
-EVTDESC_SoA_510;The eight long days of Passover are finally over and it has come time for the celebration of Mimouna. As soon as [chametz_sale.GetBestName] comes back with the money for you to "buy back" your chametz, the cooks rush to your storeroom, quickly preparing a massive pile of mofletta pancakes and a spread of other sweets.;;;;;;;;;;;;;x
+EVTOPTA_SoA_509;This should bring us closer together.;;;;;;;;;;;;;x
+EVTDESC_SoA_510;The eight long days of Passover are finally over and it has come time for the feast of Mimouna! As soon as [chametz_sale.GetBestName] comes back with the money for you to "buy back" your chametz, the cooks rush to your storeroom, quickly preparing a heaping pile of mofletta pancakes spread with honey and filling the table with Babke and Ma'amoul.;;;;;;;;;;;;;x
 EVTOPTA_SoA_510;"Come in and dine with us, [chametz_sale.GetFirstName]!";;;;;;;;;;;;;x
 
 ###########Jewish Opinion###########
