@@ -37,3 +37,71 @@ character_event = {
 		add_trait = sympathy_pagans
 	}
 }
+
+narrative_event = {
+	id = troll.3
+	title = EVTNAME_allsherjargode_formed
+	desc = EVTDESC_allsherjargode_formed
+	picture = GFX_allsherjargode
+	border = GFX_event_narrative_frame_religion
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_allsherjargode_formed
+		trigger = {
+			religion = folketro
+		}
+	}
+	option = {
+		name = EVTOPTB_allsherjargode_formed
+		trigger = {
+			religion_group = vernacular
+			NOT = { religion = folketro }
+		}
+	}
+	option = {
+		name = EVTOPTC_allsherjargode_formed
+		trigger = {
+			NOT = {
+				religion_group = vernacular
+			}
+		}
+	}
+}
+
+narrative_event = {
+	id = troll.4
+	title = EVTNAME_nysed_reborn
+	desc = EVTDESC_nysed_reborn
+	picture = GFX_allsherjargode
+	border = GFX_event_narrative_frame_religion
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_nysed_reborn
+		trigger = {
+			religion = nysed
+		}
+	}
+	option = {
+		name = EVTOPTB_nysed_reborn
+		trigger = {
+			religion_group = vernacular
+			NOT = { religion = nysed }
+		}
+	}
+	option = {
+		name = EVTOPTC_nysed_reborn
+		trigger = {
+			NOT = {
+				religion_group = vernacular
+			}
+		}
+	}
+}

@@ -113,12 +113,12 @@ d_nysed = {
 	capital = 501 # London
 	creation_requires_capital = no 
 	
-	title = "TROLLHERRE"
-	title_female = "TROLLHERRE"
+	title = "ALLFADER"
+	title_female = "ALLMODER"
 	foa = "FYLKIR_FOA"
 	
 	allow = {
-		has_global_flag = trollherre_reborn
+		has_global_flag = nysed_reborn
 		religion = nysed
 		num_of_holy_sites = 3 
 		piety = 250
@@ -185,10 +185,9 @@ d_ivri = {
 	capital = 1958 # West Jerusalem
 	
 	title = "RISHON_LETZION"
-	title_prefix = "CHIEF_RABBINATE_OF"
 	
 	
-	#short_name = yes
+	short_name = yes
 	#location_ruler_title = yes
 
 	# Always exists
@@ -205,4 +204,41 @@ d_ivri = {
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 
 
+}
+d_folketro = {
+	color={ 240 250 140 }
+	color2={ 220 220 0 }
+	
+	capital = 486 
+	creation_requires_capital = no 
+	
+	landless = yes 
+	
+	title = "ALLSHERJARGODE"
+	title_female = "ALLSHERJARGODE"
+	foa = "FYLKIR_FOA"
+	short_name = yes 
+	
+	primary = yes 
+	
+	short_name = yes
+		
+	dignity = 200 # Counted as having this many more counties than it does
+	
+	male_names = { 
+		Ansgar Anders Botvid David Eystein Eirik Eskil Elias Fridtjov Gudmund Hallvard Henrik Hartvig Kjell Knut Leofdag Læstadius
+		Mikael Martin Magnus Nils Nothold Olav Per Ragnvald Reorus Roald Severin Sigfrid Torfinn Trifon Torlak Thøger Thomas Tor Vilhelm
+	}
+	
+	female_names = { 
+		Annelise Britt Birgitta Christina Elisabeth Frida Helena Herborg Ingamoder Ingrid Ingegjerd Katarina
+		Lucia Liselotte Magnhild Marianne Maria Ragnhild Rosemarie Sunniva Sofie Solveig Valderborg
+	}
+	
+	# Controls a religion
+	controls_religion = folketro
+	
+	religion = folketro
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }

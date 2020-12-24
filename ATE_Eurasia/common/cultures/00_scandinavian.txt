@@ -653,11 +653,228 @@ scandinavian = {
 
 		modifier = default_culture_modifier
 	}
-	
 	swedish = { #stockholmer
 		graphical_cultures = { norsegfx }
 		
 		color = { 0.4 0.5 0.7 }
+
+		male_names = {
+			Assar Axel_Aksel August Alfred Art Alarik André_Andreas
+			Bo Benny Björn_Bjørn Börje Borgar Birger
+			Casten Carl_Charles
+			Domalde Dyggve Dag Daniel David Dolph 
+			Erik_Eric Erland Elner Edvard_Edward Elliot
+			Fabian Falk Folkmar Florian Frej Fridtjof Fridolf
+			Gerard Gustaf_Gustaf Gard Gisle Gudbrand Gad 
+			Hugo_Hugh Hasse_Hans Hilmer Hjalmar Håkan_Håkon Hektor_Hector
+			Ingjald Ingmar Inge Ingvar Ivar_Ivar
+			Joakim_Joachim Janus Jermund Johan_Johannes
+			Karl_Charles Karius Kenne Ken Konstantin_Constantine Kol
+			Leo Ludde Lasse Linus Lukas_Lucas
+			Mikael_Michael Mathis_Mathias Max Måns_Magnus 
+			Niklas_Nicholas Nataniel_Nathaniel Njal_Niall
+			Olov_Olaf Olle Oddvar Oden_Odin Oldemar Otrygg 
+			Pontus Pale Piär_Peter Philip  
+			Ragnar_Ragnar Reuben_Ruben Rolf Reinhold Rafn
+			Sven_Svein Snöbjörn Sigurd Stig Sture Sigismund
+			Tommy_Thomas Tage Thor_Tor Thorlak Tjalve 
+			Ulf_Ulv Ubbe  
+			Vilhelm_William Vilgot Vendel
+			Östen
+			Yngve_Yngve
+			Warner_Werner 
+			Åke 
+			Andy Arne Arno Arvid Artur_Arthur Agne
+			Birger Brosa Bo Bengt Beowulf Björn_Bjørn Berndt 
+			Charles_Karl Claes_Klaus 
+			Ditlef_Ditleif Dennis 
+			Erik_Eric Evert Edmund Erling
+			Finn Folke Felix Freddie_Frederick 
+			Göran Gösta Gideon Gaute Gautulf Glenn_Glen
+			Humbert Herman_Hermann Harald_Harold
+			Ingjald Ingmar_Ingemar
+			Jerker Jonas Johan_Johannes
+			Knut_Knut Kent Kalle_Charles Kilian Kasper_Caspar
+			Leif Lasse Lars 
+			Marcus_Markus Mats_Mads Mårten_Martin Micael_Michael 
+			Niclas_Nicholas
+			Olof_Olaf Oscar_Oskar Ottmar Olle 
+			Pär_Peter Patrik_Patrick 
+			Reine Ruben Roy
+			Sun Stellan Sigge Staffan_Stephen Sebastian
+			Torbjörn_Torbjørn Tor Torsten_Thorstein Ture_Tore
+			Willy_William Weiron 
+			Örjan 
+		}
+		female_names = {
+		    	Alice Anita Anja Alicia Aino 
+			Basia Bullan Barbro Bianca 
+			Doris 
+			Elsie Emilie Erica_Erika Embla Esther
+			Fylgja Felissa Feline Freyja_Frøyja
+			Greta_Grethe
+			Helga_Olga Harriet
+			Inga Irma Ingeborg 
+			Janne Jessica Jenny 
+			Kristina
+			Lena Lotte Livia Lydia Lili Lisa 
+			Maud Malin Meta May Margreth Marika
+			Naima Nadine 
+			Pauline Pia Pernilla
+			Rebecka_Rebecca Rakel 
+			Svante Sascha Svea 
+			Thecla_Tekla Tehilla Tanja Tora Tollie
+			Unni Ulla 
+			Viveca Victoria_Viktoria 
+			Zarah_Sara
+			Yohanna
+			Anna Annika Alicia Agneta 
+			Betty Berit Beatrice Beate Botil 
+			Carolina Cécilia
+			Essy Ebba Edla Eli Elina 
+			Gunnie Gunilla Gunnel 
+			Helene Halldis Hanna_Hannah Hedda Hekla 
+			Ida Iben Iliana Ingerid_Ingrid 
+			Josefin_Josephine Janna Jessica Jenny
+			Kristina Karin 
+			Linnea Linda Linn 
+			Maria_Mary Miriam 
+			Nina Nikki 
+			Ragnvor Rakel Rebekka_Rebecca Reidun Rena 
+			Sofie_Sophie Sissela 
+			Tatja Telia Therese Thomine 
+			Ulrika 
+			Vicke 
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	gotalander = { #stockholmer
+		graphical_cultures = { norsegfx }
+		
+		color = { 0.4 0.5 0.8 }
+
+		male_names = {
+			Assar Axel_Aksel August Alfred Art Alarik André_Andreas
+			Bo Benny Björn_Bjørn Börje Borgar Birger
+			Casten Carl_Charles
+			Domalde Dyggve Dag Daniel David Dolph 
+			Erik_Eric Erland Elner Edvard_Edward Elliot
+			Fabian Falk Folkmar Florian Frej Fridtjof Fridolf
+			Gerard Gustaf_Gustaf Gard Gisle Gudbrand Gad 
+			Hugo_Hugh Hasse_Hans Hilmer Hjalmar Håkan_Håkon Hektor_Hector
+			Ingjald Ingmar Inge Ingvar Ivar_Ivar
+			Joakim_Joachim Janus Jermund Johan_Johannes
+			Karl_Charles Karius Kenne Ken Konstantin_Constantine Kol
+			Leo Ludde Lasse Linus Lukas_Lucas
+			Mikael_Michael Mathis_Mathias Max Måns_Magnus 
+			Niklas_Nicholas Nataniel_Nathaniel Njal_Niall
+			Olov_Olaf Olle Oddvar Oden_Odin Oldemar Otrygg 
+			Pontus Pale Piär_Peter Philip  
+			Ragnar_Ragnar Reuben_Ruben Rolf Reinhold Rafn
+			Sven_Svein Snöbjörn Sigurd Stig Sture Sigismund
+			Tommy_Thomas Tage Thor_Tor Thorlak Tjalve 
+			Ulf_Ulv Ubbe  
+			Vilhelm_William Vilgot Vendel
+			Östen
+			Yngve_Yngve
+			Warner_Werner 
+			Åke 
+			Andy Arne Arno Arvid Artur_Arthur Agne
+			Birger Brosa Bo Bengt Beowulf Björn_Bjørn Berndt 
+			Charles_Karl Claes_Klaus 
+			Ditlef_Ditleif Dennis 
+			Erik_Eric Evert Edmund Erling
+			Finn Folke Felix Freddie_Frederick 
+			Göran Gösta Gideon Gaute Gautulf Glenn_Glen
+			Humbert Herman_Hermann Harald_Harold
+			Ingjald Ingmar_Ingemar
+			Jerker Jonas Johan_Johannes
+			Knut_Knut Kent Kalle_Charles Kilian Kasper_Caspar
+			Leif Lasse Lars 
+			Marcus_Markus Mats_Mads Mårten_Martin Micael_Michael 
+			Niclas_Nicholas
+			Olof_Olaf Oscar_Oskar Ottmar Olle 
+			Pär_Peter Patrik_Patrick 
+			Reine Ruben Roy
+			Sun Stellan Sigge Staffan_Stephen Sebastian
+			Torbjörn_Torbjørn Tor Torsten_Thorstein Ture_Tore
+			Willy_William Weiron 
+			Örjan 
+		}
+		female_names = {
+		    	Alice Anita Anja Alicia Aino 
+			Basia Bullan Barbro Bianca 
+			Doris 
+			Elsie Emilie Erica_Erika Embla Esther
+			Fylgja Felissa Feline Freyja_Frøyja
+			Greta_Grethe
+			Helga_Olga Harriet
+			Inga Irma Ingeborg 
+			Janne Jessica Jenny 
+			Kristina
+			Lena Lotte Livia Lydia Lili Lisa 
+			Maud Malin Meta May Margreth Marika
+			Naima Nadine 
+			Pauline Pia Pernilla
+			Rebecka_Rebecca Rakel 
+			Svante Sascha Svea 
+			Thecla_Tekla Tehilla Tanja Tora Tollie
+			Unni Ulla 
+			Viveca Victoria_Viktoria 
+			Zarah_Sara
+			Yohanna
+			Anna Annika Alicia Agneta 
+			Betty Berit Beatrice Beate Botil 
+			Carolina Cécilia
+			Essy Ebba Edla Eli Elina 
+			Gunnie Gunilla Gunnel 
+			Helene Halldis Hanna_Hannah Hedda Hekla 
+			Ida Iben Iliana Ingerid_Ingrid 
+			Josefin_Josephine Janna Jessica Jenny
+			Kristina Karin 
+			Linnea Linda Linn 
+			Maria_Mary Miriam 
+			Nina Nikki 
+			Ragnvor Rakel Rebekka_Rebecca Reidun Rena 
+			Sofie_Sophie Sissela 
+			Tatja Telia Therese Thomine 
+			Ulrika 
+			Vicke 
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	svealander = { 
+		graphical_cultures = { norsegfx }
+		
+		color = { 0.4 0.5 0.6 }
 
 		male_names = {
 			Assar Axel_Aksel August Alfred Art Alarik André_Andreas

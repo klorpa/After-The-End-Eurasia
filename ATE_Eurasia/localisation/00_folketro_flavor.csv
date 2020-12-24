@@ -1,8 +1,47 @@
 ###ÄNSI
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 
+###########Folketro Decision Localization###########
+
+create_allsherjargode;Appoint an Allsherjargode;;;;;;;;;;;;;x
+create_allsherjargode_desc;By gathering enough of the Folketro lands under your rule, you can unite the faithful under a high priest, the Allsherjargode.;;;;;;;;;;;;;x
+become_allfader;Become Allfader;;;;;;;;;x
+become_allfader_desc;If powerful enough, a Ny Sed ruler may have the possibility to claim the religion for himself and bring the Ny Sed faith to a new era...;;;;;;;;;x
+
+###########Folketro Title Localization###########
+
+ALLSHERJARGODE;Allsherjargode;;;;;;;;;;;;;x
+ALLFADER;Allfader;;;;;;;;;;;;;x
+ALLMODER;Allmoder;;;;;;;;;;;;;x
+
+###########Folketro Event Localization###########
+
 troll_eventdesc1;As a member of the [lamb_cult.GetName], you have begun a dive into the legends of the Saints, uncovering a strange familiarity of these tales with the Christians of the South, perhaps you have more in common then you think...;;;;;;;;;;;;;x
 troll_eventopt1;Christ was a great shepard as much as he was a warrior...;;;;;;;;;;;;;x
 
 troll_eventdesc2;As a member of the [hiddenfolk_cult.GetName], you have begun a dive into the legends of the Huntsmen, uncovering a strange familiarity of these tales with tales of other great and legendary warriors among the Stories of Other People...;;;;;;;;;;;;;x
 troll_eventopt2;Was the Huntsmen the only great one on the battlefield of Ragnarok?;;;;;;;;;;;;;x
+
+EVTNAME_allsherjargode_formed;The Folketro Faith United;;;;;;;;;;;;;x
+EVTDESC_allsherjargode_formed;Ever since Ragnarok struck down the Old World, the Folketro faith has been but a scattered tapestry of local cults and practices. However, [d_folketro.Holder.GetBestName] has managed to secure key religious positions throughout Scandinavia and many of the greatest priests, skalds and lords have accepted the guiding wisdom of the newly created Allsherjargode; a priest of priests who will be the final religious authority of all Folketro.;;;;;;;;;;;;;x
+EVTOPTA_allsherjargode_formed;Praise [folketro.GetHighGodName]!;;;;;;;;;;;;;x
+EVTOPTB_allsherjargode_formed;Interesting...;;;;;;;;;;;;;x
+EVTOPTC_allsherjargode_formed;Blasted Heathens!;;;;;;;;;;;;;x
+
+###########Folketro Bloodline Localization###########
+
+
+#Snow Queen
+snow_queen;Blood of the Snow Queen;;;;;;;;;;;;;x
+snow_queen_desc;A legendary sorceror-queen of old whose sons would go on to found mighty kingdoms. Many of  the noble clans of Scandinavia therefore claim descent from her.;;;;;;;;;;;;;x
+
+bloodline_effect_mystic;Characters tend to be §Gmystics§;;;;;;;;;x
+danish_opinion;Danish Opinion;;;;;;;;;;;;;x
+folketro_opinion;Folketro Opinion;;;;;;;;;;;;;x
+fornsed_opinion;Forn Sed Opinion;;;;;;;;;;;;;x
+nysed_opinion;Ny Sed Opinion;;;;;;;;;;;;;x
+
+
+#Sønderborg
+sonderborg;Sønderborg Blood;;;;;;;;;;;;;x
+sonderborg_desc;The first Neuhumanist king of Denmark who for a time broke the hegemony of the Lutheran lords there.;;;;;;;;;;;;;x
