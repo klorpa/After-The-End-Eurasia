@@ -1168,21 +1168,21 @@ character_event = { # Adding Passover flavor: Selling Chametz
 	}
 	immediate = {
 		if = {
-			limit = {
-				any_realm_lord = { 
-					limit = { 
-						NOT = { religion_group = jewish_group } 
-						prisoner = no
-						is_adult = yes
-						NOR = {
-							trait = incapable
-							is_inaccessible_trigger = yes
-						}
+			any_liege = { 
+				limit = { 
+					NOT = { religion_group = jewish_group } 
+					prisoner = no
+					is_adult = yes
+					NOR = {
+						trait = incapable
+						is_inaccessible_trigger = yes
 					}
-					always = no
 				}
+				save_event_target_as = chametz_sale
 			}
-			random_realm_lord = { 
+		}
+		else_if = {
+			any_vassal = { 
 				limit = { 
 					NOT = { religion_group = jewish_group } 
 					prisoner = no
