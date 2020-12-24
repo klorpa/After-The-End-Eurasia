@@ -254,7 +254,7 @@ decisions = {
 			factor = 1
 		}
 	}
-	create_allsherjargode = {
+	organize_the_nordic_priesthood = {
 		only_playable = yes
 		is_high_prio = yes
 		ai_check_interval = 12
@@ -289,8 +289,8 @@ decisions = {
 					age = 41
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
-					character_event = { id = misc.4 } # Physique
+					#character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.4 } # Physique
 					d_folketro = { grant_title = PREV }
 					narrative_event = { id = troll.3 }
 				}

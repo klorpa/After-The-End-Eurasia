@@ -2,8 +2,6 @@ namespace = drift
 
 #####Scandinavian Unification of Culture Events#####
 
-# Province culture changes from Regional Swedish to Unified Swedish
-
 # Province culture changes from Regional Norwegian to Unified Norwegian
 province_event = {
 	id = drift.1
@@ -95,5 +93,95 @@ province_event = {
 			owner = { culture = norwegian }
 		}
 		culture = norwegian
+	}
+}
+
+# Province culture changes from Regional Swedish to Unified Swedish
+province_event = {
+	id = drift.2
+	desc = drift_2_desc
+	picture = GFX_evt_viking_throneroom_oldgods
+	border = GFX_event_normal_frame_diplomacy
+	
+	trigger = {
+		should_evolve_cultures_trigger = yes
+		year = 2866
+		OR = {
+			culture = gotalander
+			culture = svealander
+		}
+		region = custom_sweden
+		NOT = {
+			owner = { 
+				top_liege = { 
+					OR = {
+						culture = gotalander
+						culture = svealander
+					}
+					OR = {
+						tier = emperor
+						num_of_king_titles = 2
+					}
+				} 
+			}
+		}
+		NOT = {
+			owner = { 
+				religion_head = {
+					OR = {
+						culture = gotalander
+						culture = svealander
+					}
+				}
+			}
+		}
+		OR = {
+			AND = {
+				owner = {
+					top_liege = {
+						OR = {
+							culture = gotalander
+							culture = svealander
+						}
+					} 
+				}
+				region = custom_sweden
+			}
+			owner = { top_liege = { culture = swedish } }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 2800
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_drift_2
+		trigger = {
+			NOT = {
+				owner = { culture = swedish }
+			}
+		}
+		culture = swedish
+	}
+	option = {
+		name = EVTOPTB_drift_2
+		trigger = {
+			owner = { culture = swedish }
+		}
+		culture = swedish
 	}
 }

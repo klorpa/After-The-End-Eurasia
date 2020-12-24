@@ -111,4 +111,29 @@ decisions = {
 			set_character_flag = changedchroniclerbranch 
 		}
 	}
+	change_folketro_branch = {
+		ai = no
+		
+		potential = {
+			religion = folketro
+			is_playable = yes 
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names = random }
+			}
+			NOT = { has_character_flag = changedfolketrobranch }
+		}
+		
+		allow = { 
+			religion = folketro 
+			is_playable = yes 
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				character_event = { id = troll.5 }
+			}
+			custom_tooltip = { text = TXT_change_folketro_branch }
+			set_character_flag = changedfolketrobranch 
+		}
+	}
 }

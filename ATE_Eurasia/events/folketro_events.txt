@@ -105,3 +105,42 @@ narrative_event = {
 		}
 	}
 }
+character_event = { #Branch decision
+	id = troll.5
+	desc = EVTDESC_troll_5
+	picture = GFX_evt_bishop
+	religion = folketro 
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_troll_5
+		hidden_tooltip = {
+			remove_trait = hiddenfolk_cult
+		}
+		add_trait = apostle_cult
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 learning = 5 }
+			modifier = { factor = 2 diplomacy = 5 }
+		}
+	}
+	
+	option = { 
+		name = EVTOPTB_troll_5
+		hidden_tooltip = {
+			remove_trait = apostle_cult
+		}
+		add_trait = hiddenfolk_cult
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 intrigue = 5 }
+			modifier = { factor = 2 martial = 5 }
+		}
+	}
+}

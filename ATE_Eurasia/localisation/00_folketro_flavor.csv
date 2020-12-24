@@ -3,16 +3,19 @@
 
 ###########Folketro Decision Localization###########
 
-create_allsherjargode;Appoint an Allsherjargode;;;;;;;;;;;;;x
-create_allsherjargode_desc;By gathering enough of the Folketro lands under your rule, you can unite the faithful under a high priest, the Allsherjargode.;;;;;;;;;;;;;x
+organize_the_nordic_priesthood;Organize the Nordic Priesthood;;;;;;;;;;;;;x
+organize_the_nordic_priesthood_desc;By gathering enough of the Folketro lands under your rule, you can unite the faithful under a great high priest, the Allsherjargode.;;;;;;;;;;;;;x
 become_allfader;Become Allfader;;;;;;;;;x
 become_allfader_desc;If powerful enough, a Ny Sed ruler may have the possibility to claim the religion for himself and bring the Ny Sed faith to a new era...;;;;;;;;;x
+change_folketro_branch;Change Folketro Branch;Changer de branche Folketro;Folketro Zweig Ändern;Cambiar de ramia Folketro;;;;;;;;;x
+change_folketro_branch_desc;You have the possibility to change your religious branch once in a lifetime;Vous avez la possibilité de changer de branche religieuse une fois dans votre vie; Sie haben die Möglichkeit ihren Zweig ein mal ins Leben zu ändern;Tienes la posibilidad de cambiar de rama religiosa una vez en la vida;;;;;;;;;x
 
 ###########Folketro Title Localization###########
 
 ALLSHERJARGODE;Allsherjargode;;;;;;;;;;;;;x
 ALLFADER;Allfader;;;;;;;;;;;;;x
 ALLMODER;Allmoder;;;;;;;;;;;;;x
+GENERAL_SECRETARY;General Secretary;;;;;;;;;;;;;x
 
 ###########Folketro Event Localization###########
 
@@ -23,10 +26,15 @@ troll_eventdesc2;As a member of the [hiddenfolk_cult.GetName], you have begun a 
 troll_eventopt2;Was the Huntsmen the only great one on the battlefield of Ragnarok?;;;;;;;;;;;;;x
 
 EVTNAME_allsherjargode_formed;The Folketro Faith United;;;;;;;;;;;;;x
-EVTDESC_allsherjargode_formed;Ever since Ragnarok struck down the Old World, the Folketro faith has been but a scattered tapestry of local cults and practices. However, [d_folketro.Holder.GetBestName] has managed to secure key religious positions throughout Scandinavia and many of the greatest priests, skalds and lords have accepted the guiding wisdom of the newly created Allsherjargode; a priest of priests who will be the final religious authority of all Folketro.;;;;;;;;;;;;;x
+EVTDESC_allsherjargode_formed;Ever since Ragnarok struck down the Old World, the Folketro faith has been but a scattered tapestry of local cults and practices. However, [d_folketro.Holder.GetBestName] has managed to secure key religious positions throughout Scandinavia and many of the greatest priests, skalds and lords have accepted the guiding wisdom of the newly created Allsherjargode. A priest of priests, the Allsherjargode and [d_folketro.Holder.GetHerHis] wise council who will be the final religious authority of all Folketro.;;;;;;;;;;;;;x
 EVTOPTA_allsherjargode_formed;Praise [folketro.GetHighGodName]!;;;;;;;;;;;;;x
 EVTOPTB_allsherjargode_formed;Interesting...;;;;;;;;;;;;;x
 EVTOPTC_allsherjargode_formed;Blasted Heathens!;;;;;;;;;;;;;x
+
+TXT_change_folketro_branch;Choose the ancestors you wish to venerate!;;;;;;;;;;;;;x
+EVTDESC_troll_5;The Folketro Faith has many figures that are worshipped to varying degrees by its most ardent believers. From the mysteries of the Hidden Folk to the reverance of the holy Apostles, your personal devotion to these spirits are paramount to being a devout Folketro adherence.;;;;;;;;;;;;;x
+EVTOPTA_troll_5;In the spirit of God Almighty I shall heed the word of his Holy Apostles!;;;;;;;;;;;;;x
+EVTOPTB_troll_5;Perhaps, I should look into [folketro.GetHighGodName] as to guard against Ragnarok...;;;;;;;;;;;;;x
 
 ###########Folketro Bloodline Localization###########
 
