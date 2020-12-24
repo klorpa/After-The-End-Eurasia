@@ -253,8 +253,45 @@ pagan_group = {
 	sjotru = {
 		graphical_culture = norsegfx
 
-		icon = 28
-		heresy_icon = 29
+		icon = 45
+		heresy_icon = 46
+		
+		color = { 20 123 123 }
+
+		high_god_name = GOD_THE_SEA
+
+		god_names = {
+			GOD_NJORD GOD_LEIF GOD_FATHER_RAVEN GOD_THE_SEA_MOTHER
+		}
+		evil_god_names = {
+			KRAKEN THE_TROLLS THE_MOUNTAIN_WALKER
+		}
+		
+		scripture_name = THE_SAGAS
+		priest_title = SHAMAN
+		priests_can_marry = yes
+		
+		
+		allow_looting = yes 
+		allow_rivermovement = yes 
+		seafarer = yes 
+		max_consorts = 3 
+		can_demand_religious_conversion = no
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = lusitanian
+		intermarry = nysed
+		intermarry = folketro
+		
+		reformed = sjotru_reformed
+	}
+	sjotru_reformed = {
+		graphical_culture = norsegfx
+
+		icon = 47
+		heresy_icon = 46
 		
 		color = { 20 123 123 }
 
@@ -1380,8 +1417,8 @@ old_world_cultist_group = {
 	chronicler = { #This Is Not A Place Of Honor
 		graphical_culture = hellenicgfx
 
-		icon = 45
-		heresy_icon = 15
+		icon = 29
+		heresy_icon = 29
 		
 		character_modifier = {
 			learning = 1
