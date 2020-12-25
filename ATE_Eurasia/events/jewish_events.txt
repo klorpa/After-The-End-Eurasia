@@ -490,6 +490,109 @@ character_event = {
 	
 }
 
+
+
+######################General Jewish Events##############
+
+#Bar Mitvah Events
+
+character_event = { #training to read Torah
+	id = jewish.100
+	desc = EVTDESC_barmiztvah_1
+	picture = GFX_evt_church_council
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		event_target:bar_mitzvah_target = { 
+			is_alive = yes
+		}
+
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				NOT = { event_target:bar_mitzvah_target = { is_alive = yes } }
+			}
+			clr_event_target = bar_mitzvah_target
+		}
+	}
+	
+
+	
+	#Accept offer
+	option = {
+		name = EVTOPTA_barmitzvah_1
+		
+		event_target:bar_mitzvah_target = { 
+			change_learning = 1
+			piety = 50
+			set_character_flag = bar_mitzvah_studies # eventually want to set different flags that effect the chance of success at the torah reading
+		}
+		job_spiritual = {
+			holder_scope = {
+				opinion = {
+					who = bar_mitzvah_target
+					modifier = opinion_good_student
+				}
+				add_favor = ROOT
+				
+			}
+		}
+	}
+	#Teach the kid yourself
+	option = {
+		name = EVTOPTB_barmitvah_1
+		trigger = {
+			OR = {
+				trait = theologian
+				trait = scholar
+				learning = 12
+			}
+		}
+		prestige = 50
+		random_list = {
+			90 = { trait = proud }
+			10 = { trait = erudite }
+		}
+		event_target:bar_mitzvah_target = { 
+			change_learning = 1
+			piety = 50
+			set_character_flag = bar_mitzvah_studies
+		}
+		job_spiritual = {
+			holder_scope = {
+				opinion = {
+					modifier = opinion_disappointed
+					who = ROOT
+					years = 5
+				}
+			}
+		}
+	}
+	
+	#Decline offer
+	option = {
+		name = EVTOPTC_barmitzvah_1
+		
+		piety = -50
+		
+		job_spiritual = {
+			holder_scope = {
+				opinion = {
+					modifier = opinion_disappointed
+					who = ROOT
+					years = 10
+				}
+			}
+		}
+	}
+	after={
+		#next events
+	}
+}
+
 ######################AI-ONLY EVENTS#####################
 character_event = {
 	id = jewish.200

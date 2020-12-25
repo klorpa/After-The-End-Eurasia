@@ -144,3 +144,100 @@ character_event = { #Branch decision
 		}
 	}
 }
+
+character_event = { #training to read scripture: copiead straight from Bar Mitzvah, change as y'all wish
+	id = troll.6
+	desc = EVTDESC_confirmation_1
+	picture = GFX_evt_church_council
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		event_target:confirmation_target = { 
+			is_alive = yes
+		}
+
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				NOT = { event_target:confirmation_target = { is_alive = yes } }
+			}
+			clr_event_target = confirmation_target
+		}
+	}
+	
+
+	
+	#Accept offer
+	option = {
+		name = EVTOPTA_confirmation_1
+		
+		event_target:confirmation_target = { 
+			change_learning = 1
+			piety = 50
+			set_character_flag = confirmation_studies # eventually want to set different flags that effect the chance of success at the torah reading
+		}
+		job_spiritual = {
+			holder_scope = {
+				opinion = {
+					who = confirmation_target
+					modifier = opinion_good_student
+				}
+				add_favor = ROOT
+				
+			}
+		}
+	}
+	#Teach the kid yourself
+	option = {
+		name = EVTOPTB_confirmation_1
+		trigger = {
+			OR = {
+				trait = theologian
+				trait = scholar
+				learning = 12
+			}
+		}
+		prestige = 50
+		random_list = {
+			90 = { trait = proud }
+			10 = { trait = erudite }
+		}
+		event_target:confirmation_target = { 
+			change_learning = 1
+			piety = 50
+			set_character_flag = confirmation_studies
+		}
+		job_spiritual = {
+			holder_scope = {
+				opinion = {
+					modifier = opinion_disappointed
+					who = ROOT
+					years = 5
+				}
+			}
+		}
+	}
+	
+	#Decline offer
+	option = {
+		name = EVTOPTC_confirmation_1
+		
+		piety = -50
+		
+		job_spiritual = {
+			holder_scope = {
+				opinion = {
+					modifier = opinion_disappointed
+					who = ROOT
+					years = 10
+				}
+			}
+		}
+	}
+	after={
+		#next events
+	}
+}

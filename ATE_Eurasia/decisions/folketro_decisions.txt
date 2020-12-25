@@ -1,0 +1,161 @@
+
+decisions= {
+
+become_allfader = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 12
+		
+		potential = {
+			religion = nysed
+			d_nysed = { has_holder = no }
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			primary_title = { higher_tier_than = COUNT }
+		}
+		
+		allow = {
+			primary_title = { higher_tier_than = DUKE }
+			num_of_holy_sites = 3
+			prestige = 500
+		}
+		
+		effect = {
+			wealth = -250
+			piety = -200
+			set_global_flag = nysed_reborn
+			activate_title = { title = d_nysed status = yes }
+			d_nysed = { grant_title = ROOT }
+			narrative_event = { id = troll.4 }
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+organize_the_nordic_priesthood = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 12
+		
+		potential = {
+			religion = folketro
+			d_folketro = { has_holder = no }
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			primary_title = { higher_tier_than = COUNT }
+		}
+		
+		allow = {
+			primary_title = { higher_tier_than = DUKE }
+			num_of_holy_sites = 3
+			piety = 500
+		}
+		
+		effect = {
+			wealth = -250
+			piety = -200
+			set_global_flag = allsherjargode_formed
+			activate_title = { title = d_folketro status = yes }
+			hidden_tooltip = {
+				create_random_priest = {
+					random_traits = yes
+					religion = ROOT
+					culture = ROOT
+					dynasty = random
+					female = no
+					age = 41
+				}
+				new_character = {
+					#character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.4 } # Physique
+					d_folketro = { grant_title = PREV }
+					narrative_event = { id = troll.3 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+
+
+
+targeted_decisions = {			
+			
+	folketro_confirmation = {
+		only_playable = yes
+		is_high_prio = yes
+		
+		filter = home_court
+		ai_target_filter = home_court
+		ai_check_interval = 12
+	
+		from_potential = {
+			is_playable = yes
+			OR = {
+				religion = folketro
+				religion = fornsed
+			}
+			prisoner = no
+			NOR = { 
+				trait = incapable
+				is_inaccessible_trigger = yes
+			}
+			war = no
+		}
+		
+		potential = {
+			is_alive = yes
+			OR = {
+				religion = folketro
+				religion = fornsed
+			}
+			NOT = {
+				has_character_flag = confirmed				
+			}
+			is_child_of = FROM
+		}
+		allow = {
+			age = 12
+			NOR = {
+				is_landed = yes
+				prisoner = yes
+				is_adult = yes
+				custom_tooltip = {
+					text = bastard_eunuch_celibate_or_incapable_tt
+					OR = {
+						trait = bastard
+						trait = eunuch
+						trait = celibate
+						trait = incapable
+					}
+				}
+				is_ascetic_trigger = yes
+			}
+			is_inaccessible_trigger = no
+			host = { character = FROM }
+		}
+		effect = {
+			custom_tooltip = {
+				text = folketro_confirmation_custom_tooltip
+				hidden_tooltip = {
+					set_character_flag = confirmed
+					save_event_target_as = confirmation_target
+					FROM = { character_event = { id = troll.6 } }
+				}
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
