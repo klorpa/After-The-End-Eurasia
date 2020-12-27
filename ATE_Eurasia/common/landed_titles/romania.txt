@@ -499,7 +499,8 @@ e_romania = {
 		moldovan="Basarabia"
 		qirimlar="Besarabiya"
 		gagauz="Besarabiya"
-
+		yiddish="Basarabye"
+	
 		d_budjak = {
 			color={ 232 188 123 }
 			color2={ 255 255 255 }
@@ -529,7 +530,7 @@ e_romania = {
 			moldovan="Bugeac"
 			qirimlar="Bucak"
 			gagauz="Bucak"
-			
+			yiddish = "Drom Basarabye"
 			c_izmail = {
 				color={ 195 111 54 }
 				color2={ 255 255 255 }
@@ -550,13 +551,14 @@ e_romania = {
 				moldovan="Ismail"
 				qirimlar="Izmayil"
 				gagauz="Izmayil"
-				
+				yiddish="Izmayl"
 				b_kiliya = {
 					polish="Kilia"
 					romanian="Chilia Noua"
 					moldovan="Chilia Noua"
 					qirimlar="Kilya"
 					gagauz="Kilya"
+					yiddish="Kiliye"
 				}
 				b_izmail = {
 					rhenish="Ismajil"
@@ -575,6 +577,7 @@ e_romania = {
 					moldovan="Ismail"
 					qirimlar="Izmayil"
 					gagauz="Izmayil"
+					yiddish="Izmayl"
 				}
 				b_reni = {}
 				b_bolhrad = {
@@ -587,6 +590,7 @@ e_romania = {
 					polish="Bolgrad"
 					romanian="Bolgrad"
 					moldovan="Bolgrad"
+					yiddish="Bolgrad"
 				}
 				b_vylkove = {
 					rhenish="Wylkowe"
@@ -600,10 +604,12 @@ e_romania = {
 					polish="Wilkowo"
 					romanian="Valcov"
 					moldovan="Valcov"
+					yiddish="Vilkev"
 				}
 				b_tarutyne = {
 					romanian="Tarutino"
 					moldovan="Tarutino"
+					yiddish="Anchikrak"
 				}
 				b_berezyne = {}
 			}
@@ -634,6 +640,7 @@ e_romania = {
 				moldovan="Nistru"
 				qirimlar="Turla"
 				gagauz="Turla"
+				yiddish="Nester"
 				
 				b_artsyz = {
 					rhenish="Artzis"
@@ -649,6 +656,7 @@ e_romania = {
 					moldovan="Arciz"
 					qirimlar="Arsiz"
 					gagauz="Arsiz"
+					yiddish="Artsiz"
 				}
 				b_bilhorod_dnistrovskyi = {
 					rhenish="Walachisch Weissenburg"
@@ -671,12 +679,14 @@ e_romania = {
 					hungarian="Dnyeszterfehérvár"
 					qirimlar="Akkerman"
 					gagauz="Akkerman"
+					yiddish="Akerman"
 				}
 				b_tatarbunary = {
 					romanian="Tatarbunar"
 					moldovan="Tatarbunar"
 					qirimlar="Tatarpinari"
 					gagauz="Tatarpinari"
+					yiddish="Tarbunar"
 				}
 				b_sarata = {}
 				b_zatoka = {
@@ -715,6 +725,7 @@ e_romania = {
 			polish="Bukowina"
 			romanian="Tara Fagilor"
 			moldovan="Tara Fagilor"
+			yiddish="Bukevine"
 			
 			c_chernivtsi = {
 				color={ 154 94 32 }
@@ -744,6 +755,7 @@ e_romania = {
 				slovak="Cernovice"
 				czech="Cernovice"
 				hungarian="Csernivci"
+				yiddish="Chernovits"
 				
 				b_khotyn = {
 					rhenish="Chotyn"
@@ -759,6 +771,7 @@ e_romania = {
 					moldovan="Hotin"
 					qirimlar="Hotin"
 					gagauz="Hotin"
+					yiddish="Khetin"
 				}
 				b_chernivtsi = {
 					rhenish="Czernowitz"
@@ -785,6 +798,7 @@ e_romania = {
 					slovak="Cernovice"
 					czech="Cernovice"
 					hungarian="Csernivci"
+					yiddish="Chernovits"
 				}
 				b_storozhytnets = {
 					rhenish="Storozynetz"
@@ -806,6 +820,7 @@ e_romania = {
 					moldovan="Storojinet"
 					slovak="Storožynec"
 					czech="Storožynec"
+					yiddish="Strožinits"
 				}
 				b_novodnistrovsk = {
 					rhenish="Nowodnistrowsk"
@@ -823,6 +838,7 @@ e_romania = {
 					moldovan="Secureni"
 					qirimlar="Sokirâni"
 					gagauz="Sokirâni"
+					yiddish="Skuron"
 				}
 				b_kelmentsi = {
 					polish="Kelmience"
@@ -839,6 +855,7 @@ e_romania = {
 					austrian="Sastawna"
 					schwyzer="Sastawna"
 					polish="Zastawna"
+					yiddish="Zastavne"
 				}
 			}
 			c_suceava = {
@@ -865,6 +882,7 @@ e_romania = {
 				kaliningradyets="Suchava"
 				polish="Suczawa"
 				hungarian="Szucsáva"
+				yiddish="Shotz"
 				
 				b_botosani = {
 					rhenish="Botoschan"
@@ -877,6 +895,8 @@ e_romania = {
 					schwyzer="Botoschan"
 					polish="Botoszany"
 					hungarian="Botosány"
+					yiddish="Botschan"
+					
 				}
 				b_suceava = {
 					rhenish="Sedschopff"
@@ -899,6 +919,7 @@ e_romania = {
 					kaliningradyets="Suchava"
 					polish="Suczawa"
 					hungarian="Szucsáva"
+					yiddish="Shotz"
 				}
 				b_radauti = {
 					rhenish="Radautz"
@@ -923,8 +944,11 @@ e_romania = {
 					hungarian="Radóc"
 					qirimlar="Radoviçe"
 					gagauz="Radoviçe"
+					yiddish="Radevits"
 				}
-				b_dorohoi = {}
+				b_dorohoi = {
+					yiddish="Dorkhoy"
+				}
 				b_falticeni = {
 					rhenish="Foltischen"
 					low_saxon="Foltischen"
@@ -934,6 +958,7 @@ e_romania = {
 					swabian="Foltischen"
 					austrian="Foltischen"
 					schwyzer="Foltischen"
+					yiddish="Faltischen"
 				}
 				b_vatra_dornei = {
 					rhenish="Dorna-Watra"
@@ -945,6 +970,7 @@ e_romania = {
 					austrian="Dorna-Watra"
 					schwyzer="Dorna-Watra"
 					hungarian="Dornavátra"
+					yiddish="Dorne"
 				}
 				b_campulung_moldovenesc = {
 					rhenish="Kimpolung"
@@ -961,6 +987,7 @@ e_romania = {
 					halychian="Dovhe Pole"
 					polish="Kimpulung Moldawski"
 					hungarian="Moldvahosszúmezo"
+					yiddish="Kimpeling"
 				}
 			}
 		}
@@ -984,7 +1011,7 @@ e_romania = {
 			rusyn="Zapadnaya Moldaviya"
 			poleshuk="Zapadnaya Moldaviya"
 			halychian="Zapadnaya Moldaviya"
-				
+			yiddish="Ma'arav Moldave"	
 			c_iasi = {
 				color={ 212 175 131 }
 				color2={ 255 255 255 }
@@ -1011,7 +1038,7 @@ e_romania = {
 				hungarian="Jászvásár"
 				qirimlar="Yas"
 				gagauz="Yas"
-				
+				yiddish="Yas"
 				b_piatra_neamt = {
 					rhenish="Kreuzburg an der Bistritz"
 					low_saxon="Kreuzburg an der Bistritz"
@@ -1022,6 +1049,7 @@ e_romania = {
 					austrian="Kreuzburg an der Bistritz"
 					schwyzer="Kreuzburg an der Bistritz"
 					hungarian="Karácsonko"
+					yiddish="Kyotre"
 				}
 				b_iasi = {
 					rhenish="Jassy"
@@ -1046,6 +1074,7 @@ e_romania = {
 					hungarian="Jászvásár"
 					qirimlar="Yas"
 					gagauz="Yas"
+					yiddish="Yas"
 				}
 				b_roman = {
 					rhenish="Romesmarkt"
@@ -1058,7 +1087,9 @@ e_romania = {
 					schwyzer="Romesmarkt"
 					hungarian="Románvásár"
 				}
-				b_pascani = {}
+				b_pascani = {
+					yiddish="Pashkan"
+				}
 				b_targu_neamt = {
 					rhenish="Niamtz"
 					low_saxon="Niamtz"
@@ -1069,6 +1100,7 @@ e_romania = {
 					austrian="Niamtz"
 					schwyzer="Niamtz"
 					hungarian="Németvásár"
+					yiddish="Niamtz"
 				}
 				b_harlau = {
 					rhenish="Harlau"
@@ -1080,6 +1112,7 @@ e_romania = {
 					austrian="Harlau"
 					schwyzer="Harlau"
 					hungarian="Harló"
+					yiddish="Herloy"
 				}
 				b_targu_frumos = {
 					rhenish="Schönermarkt"
@@ -1091,6 +1124,7 @@ e_romania = {
 					austrian="Schönermarkt"
 					schwyzer="Schönermarkt"
 					hungarian="Szépvásár"
+					yiddish="Tergu"
 				}
 			}
 			c_galati = {
@@ -1119,6 +1153,7 @@ e_romania = {
 				hungarian="Galac"
 				qirimlar="Kalas"
 				gagauz="Kalas"
+				yiddish="Galits"
 				
 				b_vaslui = {
 					rhenish="Wassluy"
@@ -1154,6 +1189,7 @@ e_romania = {
 					hungarian="Galac"
 					qirimlar="Kalas"
 					gagauz="Kalas"
+					yiddish="Galits"
 				}
 				b_barlad = {}
 				b_tecuci = {}
@@ -1167,6 +1203,7 @@ e_romania = {
 					austrian="Hussburg"
 					schwyzer="Hussburg"
 					hungarian="Huszváros"
+					yiddish="Hirsch"
 				}
 				b_negresti = {}
 				b_murgeni = {}
@@ -1195,7 +1232,7 @@ e_romania = {
 				kaliningradyets="Bakova"
 				polish="Baków"
 				hungarian="Bákó"
-				
+				yiddish="Bakoi"
 				b_focsani = {
 					rhenish="Fokschan"
 					low_saxon="Fokschan"
@@ -1209,6 +1246,7 @@ e_romania = {
 					hungarian="Foksány"
 					qirimlar="Foksan"
 					gagauz="Foksan"
+					yiddish="Fokshan"
 				}
 				b_bacau = {
 					rhenish="Bakau"
@@ -1231,6 +1269,7 @@ e_romania = {
 					kaliningradyets="Bakova"
 					polish="Baków"
 					hungarian="Bákó"
+					yiddish="Bakoi"
 				}
 				b_onesti = {
 					hungarian="Ónfalva"
@@ -1245,6 +1284,7 @@ e_romania = {
 					austrian="Mojnescht"
 					schwyzer="Mojnescht"
 					hungarian="Mojnest"
+					yiddsh="Moinesht"
 				}
 				b_adjud = {
 					hungarian="Egyedhalma"
@@ -1262,6 +1302,7 @@ e_romania = {
 					austrian="Bohusch"
 					schwyzer="Bohusch"
 					hungarian="Buhus"
+					yiddish="Bahush"
 				}
 			}
 		}
@@ -1283,7 +1324,7 @@ e_romania = {
 			rusyn="Moldaviya"
 			poleshuk="Moldaviya"
 			halychian="Moldaviya"
-			
+			Yiddish="Moldave"
 			c_chisinau = {
 				color={ 224 137 55 }
 				color2={ 255 255 255 }
@@ -1308,6 +1349,7 @@ e_romania = {
 				polish="Kiszyniów"
 				qirimlar="Kisinöv"
 				gagauz="Kisinöv"
+				yiddish="Kishinev"
 			
 				b_straseni = {
 					polish="Straszany"
@@ -1333,6 +1375,7 @@ e_romania = {
 					polish="Kiszyniów"
 					qirimlar="Kisinöv"
 					gagauz="Kisinöv"
+					yiddish="Kishinev"
 				}
 				b_dubasari = {
 					ukrainian="Dubossary"
@@ -1345,6 +1388,7 @@ e_romania = {
 					donskoy="Dubossary"
 					kaliningradyets="Dubossary"
 					polish="Dubosary"
+					Yiddish="Budosar"
 				}
 				b_orhei = {
 					ukrainian="Orheyev"
@@ -1357,6 +1401,7 @@ e_romania = {
 					donskoy="Orgeyev"
 					kaliningradyets="Orgeyev"
 					polish="Orgiejów"
+					Yiddish="Ariev"
 				}
 				b_durlesti = {
 					ukrainian="Durleshty"
@@ -1403,6 +1448,7 @@ e_romania = {
 				poleshuk="Tiraspil"
 				halychian="Tiraspil"
 				polish="Tyraspol"
+				yiddish="Trespil"
 				
 				b_causeni = {
 					ukrainian="Kaushany"
@@ -1415,6 +1461,7 @@ e_romania = {
 					donskoy="Kaushany"
 					kaliningradyets="Kaushany"
 					polish="Kauszany"
+					Yiddish="Kaushon"
 				}
 				b_tiraspol = {
 					ukrainian="Tiraspil"
@@ -1422,6 +1469,7 @@ e_romania = {
 					poleshuk="Tiraspil"
 					halychian="Tiraspil"
 					polish="Tyraspol"
+					yiddish="Trespil"
 				}
 				b_bender = {
 					ukrainian="Bendery"
@@ -1446,6 +1494,7 @@ e_romania = {
 					pitersky="Slobodzeya"
 					donskoy="Slobodzeya"
 					kaliningradyets="Slobodzeya"
+					yiddish="Slobodze
 				}
 				b_dnestrovsc = {
 					ukrainian="Dnistrovs'k"
@@ -1545,6 +1594,7 @@ e_romania = {
 					pitersky="Kagul"
 					donskoy="Kagul"
 					kaliningradyets="Kagul"
+					Yiddish="Chimshilye"
 				}
 				b_leova = {}
 			}
@@ -1570,6 +1620,7 @@ e_romania = {
 				donskoy="Beltsy"
 				kaliningradyets="Beltsy"
 				polish="Bielce"
+				yiddish-"Belts"
 				
 				b_ribnita = {
 					rhenish="Ribnitz"
@@ -1590,6 +1641,7 @@ e_romania = {
 					donskoy="Rybnitsa"
 					kaliningradyets="Rybnitsa"
 					polish="Rybnica"
+					yiddish="Rybnitse"
 				}
 				b_balti = {
 					rhenish="Belz"
@@ -1610,6 +1662,7 @@ e_romania = {
 					donskoy="Beltsy"
 					kaliningradyets="Beltsy"
 					polish="Bielce"
+					yiddish-"Belts"
 				}
 				b_ungheni = {
 					ukrainian="Ungeny"
@@ -1623,6 +1676,7 @@ e_romania = {
 					kaliningradyets="Ungeny"
 					qirimlar="Ungeni"
 					gagauz="Ungeni"
+					yiddish="Ungen"
 				}
 				b_soroca = {
 					ukrainian="Soroky"
@@ -1647,6 +1701,7 @@ e_romania = {
 					donskoy="Yedinez"
 					kaliningradyets="Yedinez"
 					polish="Jedynce"
+					yiddish="Yedinits"
 				}
 				b_drochia = {
 					ukrainian="Drokiya"
@@ -1660,8 +1715,11 @@ e_romania = {
 					kaliningradyets="Drokiya"
 					qirimlar="Drokiya"
 					gagauz="Drokiya"
+					
 				}
-				b_falesti = {}
+				b_falesti = {
+					yiddish="Falesht"
+				}
 			}
 		}
 	}
