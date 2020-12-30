@@ -5929,10 +5929,10 @@ religious = {
 		#		}
 		#		has_global_flag = northern_crusades_active
 		#	}
-		#	NOR = {
-		#		has_character_flag = currently_reconquering_france
-		#		reconquista_check_trigger = yes
-		#	}
+			NOR = {
+				has_character_flag = currently_reconquering_france
+				reconquista_check_trigger = yes
+			}
 			OR = {
 				NOT = { religion = hindu }
 				FROM = { NOT = { has_dharmic_religion_trigger = yes } }

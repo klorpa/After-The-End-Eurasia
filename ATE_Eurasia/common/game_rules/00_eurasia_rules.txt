@@ -27,3 +27,24 @@ holy_war_cooldown_rule = {
 		desc = "RULE_COOLDOWN_OFF"
 	}
 }
+
+reconquista = {
+	name = "RULE_RECONQUISTA"
+	dlc = "Holy Fury"
+	group = "RULE_GROUP_CRUSADE"
+	option = {
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_RECONQUISTA_ON"
+	}
+	option = {
+		name = limited
+		text = "RULE_OPTION_LIMITED"
+		desc = "RULE_RECONQUISTA_LIMITED"
+	}
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_RECONQUISTA_OFF"
+	}
+}
