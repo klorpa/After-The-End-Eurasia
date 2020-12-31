@@ -32,3 +32,67 @@ character_event = {
 		}
 	}	
 }
+character_event = {
+	id = maintenance.2
+	hide_window = yes
+	is_triggered_only = yes
+	only_rulers = yes
+	war = no
+	
+	trigger = {
+		religion = catholic
+	}
+	
+	immediate = {
+		if = {
+			limit = { capital_scope = {region = custom_western_europe} }
+			add_trait = latin_rite
+			remove_trait = byzantine_rite
+			remove_trait = alexandrian_rite
+			remove_trait = maronite_rite
+		}
+		else_if = {
+			limit = { culture = lebneni }
+			add_trait = maronite_rite
+			remove_trait = latin_rite
+			remove_trait = alexandrian_rite
+			remove_trait = byzantine_rite
+		}
+		else_if = {
+			limit = {
+				OR = {
+					OR = {
+						culture = suriyi
+						culture = filastini
+						culture = furataini
+						culture = assyrian
+					}
+					OR = {
+						culture_group = hellenic
+						culture_group = baltic
+						culture_group = russian
+						culture_group = south_slavic
+						culture_group = ruthenian
+						culture_group = carpathian
+					}
+				}
+				has_global_flag = byzantine_rite_restored
+			}
+			add_trait = byzantine_rite
+			remove_trait = latin_rite
+			remove_trait = alexandrian_rite
+			remove_trait = maronite_rite
+		}
+		else_if = {
+			limit = {
+				culture = masri
+				#future slot for Ethiopian Groups
+				has_global_flag = alexandrian_rite_restored
+			}
+			add_trait = alexandrian_rite
+			remove_trait = latin_rite
+			remove_trait = maronite_rite
+			remove_trait = byzantine_rite
+		}
+	}
+}
