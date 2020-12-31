@@ -1,24 +1,58 @@
 government_flavor = {
-	name = gov_confederation
-	graphics = GFX_evt_diplomatic_greeting
-	priority = 5
+	name = gov_elective_ghazi_state
+	graphics = GFX_evt_battle
+	priority = 2
 	trigger = {
-		government = confederation_government
+		government = ghazi_government
+		NOR = { has_law = succ_gavelkind has_law = succ_elective_gavelkind }
+		NOT = { tier = EMPEROR }
+		NOT = { has_landed_title = k_morroco }
 	}
 }
+
 government_flavor = {
-	name = gov_bureaucracy
-	graphics = GFX_evt_chinese_emissary
-	priority = 5
+	name = gov_noble_ghazi_state
+	graphics = GFX_evt_battle
+	priority = 2
 	trigger = {
-		government = bureaucratic_government
+		government = ghazi_government
+		OR = { has_law = succ_gavelkind has_law = succ_elective_gavelkind }
+		NOT = { tier = EMPEROR }
+		NOT = { has_landed_title = k_morroco }
 	}
 }
+
 government_flavor = {
-	name = gov_pirate
-	graphics = GFX_evt_ship_voyage_hf
-	priority = 5
+	name = gov_exalted_ghazi_state
+	graphics = GFX_evt_emissary_arabic
+	priority = 2
 	trigger = {
-		government = pirate_government
+		government = ghazi_government
+		tier = EMPEROR
+		NOT = { has_landed_title = k_morroco }
+	}
+}
+
+government_flavor = {
+	name = gov_islamic_republic
+	graphics = GFX_evt_carriage_arabic
+	priority = 2
+	trigger = {
+		religion_group = muslim
+		OR = {
+			government = merchant_republic_government
+			government = republic_government
+		}
+		NOT = { has_landed_title = k_morroco }
+	}
+}
+
+government_flavor = {
+	name = gov_ghazi_caliphate
+	graphics = GFX_evt_carriage_arabic
+	priority = 2
+	trigger = {
+		government = ghazi_government
+		has_landed_title = k_morroco
 	}
 }
