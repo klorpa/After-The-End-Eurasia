@@ -727,8 +727,19 @@
     	trait=charitable
     	trait=humble
     	trait=zealous
+		father=1804158
+		mother=1804159
     	2621.1.25={birth=yes}
     	2655.12.2={give_nickname=nick_the_sungazer}
+		2659.1.1={
+			add_lover=1804152
+		}
+		2660.1.1={
+			add_lover=1804153
+		}
+		2663.1.1={
+			add_lover=1804151
+		}
     	2700.1.1={death=yes}
 }
 
@@ -2461,4 +2472,202 @@
 	father=1804147
 	mother=1804148
 	2662.9.15={birth=yes}
+}
+1804151={
+	name="Bernadette"
+	female=yes
+	dynasty=1848131 #Öztürk
+	culture=rhenish
+	religion=neuhumanist
+	diplomacy=5
+	martial=5
+	stewardship=6
+	intrigue=4
+	learning=7
+	trait=dutiful_cleric
+	trait=shy
+	trait=lustful
+	trait=fair
+	trait=erudite
+	trait=kind
+	trait=patient
+	2642.10.13={birth=yes}
+	2642.10.13={culture=rumelian}
+}
+1804152={
+	name="Katell"
+	female=yes
+	dynasty=2010045 #Evenou
+	culture=gallo
+	religion=sun_king_cultist
+	diplomacy=4
+	martial=7
+	stewardship=5
+	intrigue=6
+	learning=4
+	trait=brilliant_strategist
+	trait=agressive_leader
+	trait=strong
+	trait=wroth
+	trait=cruel
+	trait=lustful
+	trait=giant
+	trait=gregarious
+	2641.1.4={birth=yes}
+}
+1804153={
+	name="Stella"
+	female=yes
+	dynasty=2032101 #Cattabriga
+	culture=romagnol
+	religion=catholic
+	diplomacy=6
+	martial=5
+	stewardship=4
+	intrigue=8
+	learning=6
+	trait=intricate_webweaver
+	trait=lustful
+	trait=deceitful
+	trait=seductress
+	trait=ruthless
+	trait=one_eyed
+	2639.4.22={birth=yes}
+}
+1804154={
+	name="Yves"
+	dynasty=2009036 #Chevalier
+	culture=parisian
+	religion=sun_king_cultist
+	diplomacy=4
+	martial=2
+	stewardship=4
+	intrigue=3
+	learning=3
+	trait=conscentious
+	trait=brooding
+	trait=dull
+	trait=brave
+	trait=twin
+	trait=bastard
+	father=1804061
+	mother=1804152
+	2661.3.6={birth=yes}
+}
+1804155={
+	name="Yvonne"
+	female=yes
+	dynasty=2009036 #Chevalier
+	culture=parisian
+	religion=sun_king_cultist
+	diplomacy=4
+	martial=3
+	stewardship=2
+	intrigue=3
+	learning=4
+	trait=curious
+	trait=conscentious
+	trait=familyperson
+	trait=twin
+	trait=bastard
+	father=1804061
+	mother=1804152
+	2661.3.6={birth=yes}
+}
+1804156={
+	name="Ulysse"
+	dynasty=2009036 #Chevalier
+	culture=parisian
+	religion=sun_king_cultist
+	diplomacy=1
+	martial=0
+	stewardship=2
+	intrigue=1
+	learning=2
+	trait=bastard
+	trait=strong
+	trait=indolent
+	trait=affectionate
+	father=1804061
+	mother=1804153
+	2663.1.22={birth=yes}
+}
+1804157={
+	name="Guy"
+	dynasty=2009036 #Chevalier
+	culture=parisian
+	religion=sun_king_cultist
+	trait=bastard
+	father=1804061
+	mother=1804151
+	2665.8.14={birth=yes}
+}
+1804158={
+	name="Hervé"
+	dynasty=2009036 #Chevalier
+	culture=parisian
+	religion=sun_king_cultist
+	diplomacy=4
+	martial=6
+	stewardship=5
+	intrigue=7
+	learning=4
+	trait=misguided_warrior
+	trait=dull
+	trait=wroth
+	trait=ugly
+	trait=uncouth
+	trait=robust
+	trait=selfish
+	trait=rude
+	trait=gladiator
+	2594.9.27={birth=yes}
+	2620.1.1={
+		add_spouse=1804159
+	}
+	2650.12.12={
+		death={
+		death_reason=death_pneumonic
+		}
+	}
+}
+1804159={
+	name="Barbara"
+	female=yes
+	dynasty=2009094 #Rey
+	culture=parisian
+	religion=sun_king_cultist
+	diplomacy=7
+	martial=4
+	stewardship=6
+	intrigue=5
+	learning=7
+	trait=charismatic_negociator
+	trait=celibate
+	trait=gamer
+	trait=poet
+	trait=humble
+	trait=cynical
+	2604.1.1={birth=yes}
+}
+1804160={
+	name="Arnaud"
+	dynasty=2009036
+	culture=parisian
+	religion=sun_king_cultist
+	diplomacy=6
+	martial=4
+	stewardship=6
+	intrigue=5
+	learning=5
+	trait=indulgent_wastrel
+	trait=scarred_high
+	trait=drunkard
+	trait=genius
+	trait=lefthanded
+	trait=feeble
+	trait=slothful
+	father=1804158
+	mother=1804159
+	2649.1.18={birth=yes}
 }
