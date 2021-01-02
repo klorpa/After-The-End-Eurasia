@@ -263,11 +263,11 @@
 }
 1435.2.7 = {
 	holder = 8001030 # Qizhen
-	status = china_mongol_invasion
+	status = china_mongol_invasion #3rd Mongol Incursion
 }
 1449.9.22 = {
 	holder = 8001035 # Qiyu
-	status = china_civil_war #War of the Brothers
+	status = china_civil_war #1st Ming Civil War
 }
 1457.2.11 = {
 	holder = 8001030 # Qizhen (Rules again)
@@ -281,4 +281,33 @@
 }
 1505.6.19 = {
 	holder = 8001048 # Houzhao
+}
+1521.5.27 = {
+	holder = 8001053 # Houcong
+	status = china_unrest #Renyin Plot (The Great Rite Controversy)
+}
+1567.2.4 = {
+	holder = 8001058 # Zaiji
+	status = china_stable #Longqing Reform
+}
+1578.7.19 = {
+	holder = 8001066 # Yijun
+	status = china_unrest #Decline of the Ming
+}
+1620.8.28 = {
+	holder = 8001073 # Changluo
+}
+1620.10.10 = {
+	holder = 8001088 # Youjiao
+}
+1627.10.2 = {
+	holder = 8001090 # Youjian
+	status = china_mongol_invasion #Manchu Invasion of the Ming
+	policy = china_isolationist
+}
+1636.1.1 = {
+	holder = 8001103 # Hong Taiji
+	name = "qing_china"
+	policy = china_isolationist
+	status = china_unrest
 }
