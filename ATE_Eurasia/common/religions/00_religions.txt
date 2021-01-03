@@ -222,6 +222,42 @@ pagan_group = {
 	color = { 0.6 0.0 0.0 }
 	
 	interface_skin = { pagan_interface }
+	
+	pagan = { # Use for misc other pagans
+		graphical_culture = pagangfx
+		alternate_start = { always = no }
+
+		icon = 15
+		
+		color = { 0.6 0.0 0.0 }
+		
+		high_god_name = GOD_THE_CREATOR
+		
+		god_names = {
+			GOD_THE_SPIRITS GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		priests_can_marry = yes
+		female_temple_holders = yes
+		max_consorts = 3
+		
+		defensive_attrition = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		allow_in_ruler_designer = no
+		
+		dislike_tribal_organization = yes
+		
+		dynamic_cult = no
+		secret_religion = no
+	}
 
 	lusitanian = {
 		graphical_culture = westerngfx
@@ -1692,8 +1728,8 @@ indian_group = { #placeholder
 	hindu = {
 		graphical_culture = hindugfx
 
-		icon = 44
-		heresy_icon = 45
+		icon = 15
+		heresy_icon = 15
 		
 		color = { 1.0 0.0 0.0 }
 		
@@ -1735,5 +1771,163 @@ indian_group = { #placeholder
 		intermarry = bon
 		intermarry = bon_reformed
 		
+	}
+}
+eastern = { #placeholder
+	has_coa_on_barony_only = no
+	graphical_culture = chinesegfx
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2	# always try to convert
+	
+	color = { 0.8 0.4 0.0 }
+	
+	interface_skin = { taoist_interface indian_interface muslim_interface }
+	
+	ruist = { #(Imported from Orientalis)
+		graphical_culture = chinesegfx
+		secondary_event_pictures = sunni
+		has_coa_on_barony_only = yes
+		#alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+
+		icon = 48
+		heresy_icon = 48
+		
+		color = { 226 241 182 }
+		
+		interface_skin = { taoist_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_TIAN
+		
+		god_names = {
+			GOD_DAO THE_ANCESTORS GOD_SHEN THE_FIVE_CONSTANTS GOD_SIZI GOD_JUNZI
+		}
+		
+		evil_god_names = {
+			TAOWU
+		}
+
+		character_modifier = {
+			stewardship = 2
+		}
+
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		max_consorts = 3
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		scripture_name = WUJING
+		priest_title = LISHENG
+		piety_name = XIAO
+		
+		intermarry = buddhist
+		intermarry = nestorian
+		intermarry = manichean
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		intermarry = bon
+		intermarry = bon_reformed
+	}
+	taoist = {
+		graphical_culture = chinesegfx
+		secondary_event_pictures = sunni
+		has_coa_on_barony_only = yes
+		#alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+
+		icon = 15
+		heresy_icon = 15
+		
+		color = { 226 241 182 }
+		
+		interface_skin = { taoist_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_HEAVENLY_ORDER
+		
+		god_names = {
+			THE_THREE_PURITIES THE_ANCESTORS GOD_YANSHIH_TIENTSUN
+		}
+		
+		evil_god_names = {
+			KING_YAN YANLUO
+		}
+
+		character_modifier = {
+			stewardship = 2
+		}
+
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		max_consorts = 3
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		scripture_name = TAO_TE_CHING
+		priest_title = DAOSHI
+		piety_name = PIETY_TE
+		
+		intermarry = buddhist
+		intermarry = nestorian
+		intermarry = manichean
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		intermarry = bon
+		intermarry = bon_reformed
+	}
+}
+buddhist_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = indiangfx
+	playable = yes
+	
+	interface_skin = { indian_interface muslim_interface }
+	
+	mahayana = {
+		graphical_culture = chinesegfx
+
+		icon = 49
+		heresy_icon = 50
+		
+		color = { 128 0 0 }
+		
+		scripture_name = MAHAYANA_SUTRAS
+		priest_title = B_BHIKSHU
+		
+		high_god_name = GOD_DHAMA
+		
+		god_names = {
+			 GOD_BUDDHA GOD_BODDHISATTVA GOD_AVALOKITESHVARA GOD_AMITABHA
+		}
+		
+		evil_god_names = {
+			NARAKA MARA
+		}
+		
+		piety_name = KARMA
+		character_modifier = { learning = 2 }
+		short_reign_opinion_year_mult = 0
+		
+		intermarry = eastern
+		
+		feminist = yes
+		female_temple_holders = yes
+		can_grant_divorce = yes
+		castes = yes
+		priests_can_inherit = no
+		can_retire_to_monastery = yes 
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
 	}
 }

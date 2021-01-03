@@ -73,7 +73,6 @@ feudal_governments = {
 
 		## Modifiers
 		court_size_modifier = 10
-		vassal_limit = -15
 		
 		allow_looting = yes
 		
@@ -156,6 +155,7 @@ feudal_governments = {
 		
 		## Modifiers
 		court_size_modifier = 15
+		vassal_limit = 15
 	}
 	bureaucratic_government = {
 		preferred_holdings = { CASTLE }
@@ -213,7 +213,7 @@ feudal_governments = {
 
 		## Modifiers
 		court_size_modifier = 20
-		vassal_limit = -20
+		vassal_limit = 15
 		character_modifier = {
 			stewardship = 3
 		}
@@ -291,7 +291,7 @@ feudal_governments = {
 
 		## Modifiers
 		court_size_modifier = 20
-		vassal_limit = +15
+		vassal_limit = 15
 		character_modifier = {
 			stewardship = 2
 			learning = 1
