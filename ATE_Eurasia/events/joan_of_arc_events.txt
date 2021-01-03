@@ -1,0 +1,176 @@
+
+namespace = joan
+
+narrative_event = { #Some crazy fucknut claims to liberate the cursed city of Paris
+    id = joan.1 
+    title = EVTTITLE_joan_1
+    desc = EVTDESC_joan_1
+    picture = GFX_evt_bandits
+
+    only_independent = yes 
+    only_playable = yes
+    has_dlc = "Charlemagne"
+    has_global_flag = joan_of_arc_revolt
+
+    trigger = {
+        NOT = {
+            has_global_flag = joan_of_arc_revolt_spawned
+        }
+        NOR = {
+            religion = jacobin
+            religion = chronicler
+            religion = sun_king_cultist 
+        }
+        NOT = {government = merchant_republic}
+        OR = {
+            has_landed_title = d_ile_de_france
+            any_realm_character = { has_landed_title = d_ile_de_france }
+            has_landed_title = c_paris
+            any_realm_character = { has_landed_title = c_paris }
+        }
+        OR = { 
+            primary_title = { tier = EMPEROR }
+            primary_title = { tier = KING }
+        }
+        any_realm_province = {
+            OR = {
+                religion = chronicler
+                religion = jacobin
+                religion = sun_king_cultist
+            }
+        }
+	}
+    mean_time_to_happen = {
+        months = 20
+    }
+    mmediate = {
+        set_global_flag = joan_of_arc_revolt_spawned
+        set_character_flag = joan_of_arc_enemy
+    }
+    option = {
+        name = EVTOPTA_joan_1
+        1551 = {
+			hidden_tooltip = { 
+				province_event = { id = joan.2 } 
+			}
+		}
+    }
+}
+
+province_event = {
+	id = joan.2
+	hide_window = yes
+	
+	is_triggered_only = yes
+
+	immediate = {
+		create_character = {
+			random_traits = no
+			religion  = ROOT
+			culture = parisian
+			age = 25
+			female = yes
+			#trait and arritributes goes here
+		}
+		new_character = {
+			set_name = joan
+			set_character_flag = is_joan
+			set
+			set_defacto_liege = THIS
+			prestige = 100
+			piety = 50
+			add_claim = d_ile_de_france
+			if = {#if paris isn't a french religion, converts her to one
+				limit = {
+					NOR = {
+						religion = sun_king_cultist
+						religion = chronicler
+						religion = jacobin
+					}
+				}
+				random_list = {
+					40 = {
+						religion = sun_king_cultist
+					}
+					40 = {
+						religion = jacobin
+					}
+					20 = {
+						religion = chronicler
+					}
+				}
+			}
+			create_title = {
+				tier = DUKE
+				landless = yes
+				temporary = yes
+				culture = parisian
+				name = "JOAN D'ARC ARMY"
+				holder = THIS
+			}
+			
+			##unit size tbd
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = ROOT
+				home = ROOT
+				troops = {
+					archers = { 1000 1000 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1000 1000 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 1.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = ROOT
+				home = ROOT
+				troops = {
+					archers = { 1000 1000 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1000 1000 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 1.0
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = ROOT
+				home = ROOT
+				troops = {
+					archers = { 1000 1000 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1000 1000 }
+					light_cavalry = { 500 500 }
+				}
+				attrition = 1.0
+			}
+			if = {
+				limit = {
+					FROM = { any_realm_title = { title = d_ile_de_france } }
+				}
+				d_ile_de_france = {
+					FROM = {
+						reverse_war = {
+							target = PREVPREV
+							casus_belli = claim
+							thirdparty_title = PREV
+						}
+					}
+				}
+			}
+		}
+		any_independent_ruler = {
+			limit = {
+				new_character = {
+					religion = PREV
+				}
+			}
+			character_event = {id = joan.3}#same religion can join her war
+		}
+	}
+}

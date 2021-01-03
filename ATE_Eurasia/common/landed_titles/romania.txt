@@ -5,7 +5,6 @@ e_romania = {
 	color2={ 255 255 0 }
 	
 	capital = 1190 #Bucharest
-	
 	k_wallachia = {
 		color={ 112 54 58 }
 		color2={ 255 255 255 }
@@ -228,28 +227,30 @@ e_romania = {
 	k_transylvania = {
 		color={ 99 20 145 }
 		color2={ 255 255 255 }
-		
 		capital = 1177 # c_cluj
-		
+		yiddish = "Zibenbergen"
 		d_transylvania = {
 			color={ 119 0 155 }
 			color2={ 255 255 255 }
 			
 			capital = 1177 # c_cluj
+			yiddish = "Zibenbergen"
 			
 			c_cluj = { # 1177
 				color={ 199 146 160 }
 				color2={ 255 255 255 }
-				
+				yiddish = "Kloyzenborg"
 				b_floresti = {
 				}
 				b_cluj_napoca = {
+					yiddish = "Kloyzenborg
 				}
 				b_zalau = {
 				}
 				b_turda = {
 				}
 				b_dej = {
+					yiddish ="Desh"
 				}
 				b_campia_turzii = {
 				}
@@ -259,10 +260,11 @@ e_romania = {
 			c_brasov = { # 1180
 				color={ 195 121 107 }
 				color2={ 255 255 255 }
-				
+				yiddish = "Kroynshtot" 
 				b_ghimbav = {
 				}
 				b_brasov = {
+					yiddish = "Kroynshtot" 
 				}
 				b_sibiu = {
 				}
@@ -284,6 +286,7 @@ e_romania = {
 				b_sfantu_gheorghe = {
 				}
 				b_odorheiu_secuiesc = {
+					yiddish = "Odorhoi"
 				}
 				b_gheorgheni = {
 				}
@@ -326,6 +329,7 @@ e_romania = {
 				b_reghin = {
 				}
 				b_sighisoara = {
+					yiddish = "Seshborg"s
 				}
 				b_tarnaveni = {
 				}
@@ -343,9 +347,12 @@ e_romania = {
 				color={ 63 203 82 }
 				color2={ 255 255 255 }
 				
+				yiddish = "Temeshvar"
+				
 				b_giroc = {
 				}
 				b_timisoara = {
+					yiddish = "Temeshvar"
 				}
 				b_lugoj = {
 				}
@@ -429,11 +436,16 @@ e_romania = {
 			
 			capital = 1175 # c_maramures
 			
+			yiddish = "Maramarash"
+			
 			c_maramures = { # 1175
 				color={ 110 134 83 }
 				color2={ 255 255 255 }
 				
+				yiddish = "Maramarash"
+				
 				b_baia_mare = {
+					yiddish = "Banye"
 				}
 				b_satu_mare = {
 				}
@@ -451,6 +463,8 @@ e_romania = {
 			c_transcarpathia = { # 893
 				color={ 73 161 144 }
 				color2={ 255 255 255 }
+				
+				yiddish = "Karpatn"
 				
 				b_serednie = {
 				}
