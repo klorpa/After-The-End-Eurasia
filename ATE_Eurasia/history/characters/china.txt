@@ -12194,7 +12194,8 @@
 		death = { death_reason = death_offmap }
 	}
 }
-####Rise of the Ming####
+####THE RISE OF THE GREAT MING#####
+####Not all of House Zhu is rendered outside the immediate family of the Emperors and any previous consort preceding the birth of the next emperor
 8001000 = { #Hongwu Emperor (lived 1320-1398) (reigned 1368)
 	dynasty = 8001000 #Zhu
 	name = "Yuanzhang"
@@ -12493,6 +12494,12 @@
 }
 #########The Great Qing Empire######################
 
+#####NOTES: The Manchu is a later name given to what was then called Jurchen but for brevity they are all Manchu as was the ancient Jin Dynasty of the 13th century
+#####Qing Nobility was organized to banners and ranks much like the Yuan Emperors and other Mongol Cliques
+#####Not all the Kids of Emperors are included for the sake of my sanity and tbh not all matter (Sorry Iron Princes and First Rank Fans)
+#####As such the game will only render the primary consorts of note such as those relevant to the Next Emperors succession
+#####i.e. (Empress Dowagers, Empresses and primary consorts that the Emperor Liked)
+
 8001103 = { #Taizong Emperor (lived 1626-1643) (reigned 1636) #First Qing Emperor though his father is retroactively named the First Emperor
 	dynasty = 1051209 #Aisin Gioro
 	name = "Hong Taiji"
@@ -12509,7 +12516,134 @@
 	}
 	1643.9.21 = {death = { death_reason = death_offmap }}
 }
-
+8001141 = { #Shunzhi Emperor (lived 1638-1661) (reigned 1643) #9th Son of Taizong and first true Qing Emperor of All of China the conquest of the Southern Ming was finished in his reign
+	dynasty = 1051209 #Aisin Gioro
+	name = "Fulin"
+	religion = ruist
+	culture = manchu
+	father = 8001103
+	mother = 8001110
+	1638.1.27 = {birth = yes}
+	1643.10.8 = {
+		name = "Shunzhi"
+	}
+	1651.9.27 = {add_consort = 8001142} #Consort Jing
+	1653.10.25 = {
+		remove_consort = 8001142 #Consort Jing Deposed
+		add_consort = 8001143 #Empress Xiaokangzhang
+	}
+	1654.1.1 = {add_spouse = 8001150} #Empress Xiaohuizhang (Primary Consort)
+	1656.1.1 = {add_consort = 8001153} #Empress Xiaoxian
+	1661.2.5 = {death = { death_reason = death_offmap }}
+}
+#Note the High Qing Era had a succession crisis during the reign of the Kangxi Emperor as such the Yongzheng and Qianlong Emperors ruled parts of China while the Princes fought for the throne through court intrigue
+8001157 = { #Kangxi Emperor (lived 1654-1722) (reigned 1661) #9th Son of Taizong and first true Qing Emperor of All of China the conquest of the Southern Ming was finished in his reign
+	dynasty = 1051209 #Aisin Gioro
+	name = "Xuanye"
+	religion = ruist
+	culture = manchu
+	father = 8001141
+	mother = 8001143
+	1654.2.5 = {birth = yes}
+	1661.2.5 = {
+		name = "Kangxi"
+	}
+	1665.10.5 = {add_spouse = 8001158} #Empress Xiaochengren
+	1677.9.18 = {add_spouse = 8001161} #Empress Xiaozhaoren
+	1689.8.23 = {add_spouse = 8001164} #Empress Xiaoyiren
+	1720.12.20 = {add_spouse = 8001165} #Empress Xiaogongren
+	1722.12.20 = {death = { death_reason = death_offmap }}
+}
+8001170 = { #Yongzheng Emperor (lived 1678-1735) (reigned 1722) #11th (4th) Son of Kangxi
+	dynasty = 1051209 #Aisin Gioro
+	name = "Yinzhen"
+	religion = ruist
+	culture = manchu
+	father = 8001157
+	mother = 8001165
+	1678.12.13 = {birth = yes}
+	1691.1.1 = {add_spouse = 8001176} #Empress Xiaojingxian
+	1722.12.22 = {
+		name = "Yongzheng"
+	}
+	1704.3.28 = {add_consort = 8001179} #Empress Xiaoshengxian
+	
+	#There are Three other concubines which ultimately don't matter since the Qianlong Emperor was born to the 2nd rank Concubine :)
+	#The Three According to their rank is:
+	#1st: Huang'guifei (died December 27, 1725) Married the Yongzheng Emperor in 1711
+	#3rd: Yu Fei (January 1690 – January 27, 1785) Married the Yongzheng Emperor in 1729
+	#4th: Xiangyu (1714 – June 17, 1767) Mistress of the Yongzheng Emperor in 1723
+	
+	1735.10.8 = {death = { death_reason = death_offmap }}
+}
+8001183 = { #Qianlong Emperor (lived 1711-1799) (reigned 1735) #11th (4th) Son of Kangxi
+	dynasty = 1051209 #Aisin Gioro
+	name = "Hongli"
+	religion = ruist
+	culture = manchu
+	father = 8001170
+	mother = 8001179
+	1711.9.25 = {birth = yes}
+	1735.10.8 = {
+		name = "Qianlong"
+	}
+	1727.1.23 = {add_spouse = 8001184} #Empress Xiaoxianchun
+	#Empress Nara "Xian" was married earlier in 1734 but you can't have multiple primary wives in this game
+	1750.9.2 = {add_spouse = 8001187} #Empress "Xian" -She was censured out of the Imperial Records
+	1766.8.19 = {add_spouse = 8001188} #Empress Xiaoyichun
+	1799.2.7 = {death = { death_reason = death_offmap }}
+}
+8001206 = { #Jiaqing Emperor (lived 1760-1820) (reigned 1796) #15th of Qianlong
+#Maker of Great Qing Legal Code, forced the Vietnamese King Gia Long to rename his country Viet Nam instead of Nam Viet...
+	dynasty = 1051209 #Aisin Gioro
+	name = "Yongyan"
+	religion = ruist
+	culture = manchu
+	father = 8001183
+	mother = 8001188
+	1760.11.13 = {birth = yes}
+	1774.3.5 = {add_spouse = 8001208} #Empress Xiaoshurui
+	1796.2.9 = {
+		name = "Jiaqing"
+	}
+	1790.5.27 = {add_spouse = 8001215} #Empress Xiaoherui
+	1820.9.2 = {death = { death_reason = death_offmap }}
+}
+8001219 = { #Daoguang Emperor (lived 1782-1850) (reigned 1796) #Second Son of the Jiaqing Emperor
+#Chinese Emperor during the Opium Wars
+	dynasty = 1051209 #Aisin Gioro
+	name = "Mianning"
+	religion = ruist
+	culture = manchu
+	father = 8001206
+	mother = 8001208
+	1782.9.16 = {birth = yes}
+	1796.1.1 = {add_spouse = 8001224} #Empress Xiaomucheng
+	1809.1.1 = {add_spouse = 8001228} #Empress Xiaoshencheng
+	1813.1.1 = {
+		name = "Daoguang"
+	}
+	1821.1.1 = {
+		remove_spouse = 8001228 #Empress Xiaoshencheng
+		add_spouse = 8001237 #Empress Xiaoquancheng
+	}
+	#Empress Xiaojingcheng was also married to the Daoguang Emperor but do to the birth of the Xianfeng Emperor being of Xiaoquancheng I will not be including her in this list
+	1850.2.26 = {death = { death_reason = death_offmap }}
+}
+8001244 = { #Xianfeng Emperor (lived 1831-1861) (reigned 1850) #Fourth Son of the Daoguang Emperor
+#Chinese Emperor during the Taiping Rebellion
+	dynasty = 1051209 #Aisin Gioro
+	name = "Yizhu"
+	religion = ruist
+	culture = manchu
+	father = 8001219
+	mother = 8001237
+	1831.7.17 = {birth = yes}
+	1850.3.9 = {
+		name = "Xianfeng"
+	}
+	1861.8.22 = {death = { death_reason = death_offmap }}
+}
 #########EXTRA TITLE HISTORY CHARACTERS######################
 
 #Qing
@@ -12536,6 +12670,7 @@
 	religion = ruist
 	culture = manchu
 	female = yes
+	father = 8001214
 	1543.1.1 = {birth = yes}
 	1583.1.1 = {death = death_battle}
 }
@@ -12562,7 +12697,7 @@
 	dynasty = 1051212 #Borjigit
 	name = "Namusai"
 	religion = pagan
-	culture = manchu
+	culture = khalkha
 	1543.1.1 = {birth = yes}
 	1583.1.1 = {death = death_offmap}
 }
@@ -12570,7 +12705,7 @@
 	dynasty = 1051212 #Borjigit
 	name = "Manggusi"
 	religion = pagan
-	culture = manchu
+	culture = khalkha
 	father = 8001104
 	1559.5.14 = {birth = yes}
 	1579.5.14 = {add_spouse = 8001106}
@@ -12579,7 +12714,7 @@
 8001106 = {
 	name = "Gunbu"
 	religion = pagan
-	culture = manchu
+	culture = khalkha
 	female = yes
 	1559.5.14 = {birth = yes}
 	1626.9.30 = {death = death_offmap}
@@ -12588,7 +12723,7 @@
 	dynasty = 1051212 #Borjigit
 	name = "Jerjer"
 	religion = pagan
-	culture = manchu
+	culture = khalkha
 	female = yes
 	father = 8001105
 	mother = 8001106
@@ -12599,7 +12734,7 @@
 	dynasty = 1051212 #Borjigit
 	name = "Jaisang"
 	religion = pagan
-	culture = manchu
+	culture = khalkha
 	father = 8001105
 	1590.5.14 = {birth = yes}
 	1620.5.14 = {add_spouse = 8001109}
@@ -12608,7 +12743,7 @@
 8001109 = {
 	name = "Boli"
 	religion = pagan
-	culture = manchu
+	culture = khalkha
 	female = yes
 	1590.5.14 = {birth = yes}
 	1654.9.30 = {death = death_offmap}
@@ -12617,7 +12752,7 @@
 	dynasty = 1051212 #Borjigit
 	name = "Bumbutai"
 	religion = pagan
-	culture = manchu
+	culture = khalkha
 	female = yes
 	father = 8001108
 	mother = 8001109
@@ -12628,7 +12763,7 @@
 	dynasty = 1051212 #Borjigit
 	name = "Harjol"
 	religion = pagan
-	culture = manchu
+	culture = khalkha
 	female = yes
 	father = 8001108
 	mother = 8001109
@@ -12667,7 +12802,7 @@
 	dynasty = 1051212 #Borjigit
 	name = "Suonuomu"
 	religion = pagan
-	culture = manchu
+	culture = khalkha
 	father = 8001108
 	1591.3.28 = {birth = yes}
 	1600.9.30 = {add_matrilineal_spouse = 8001106}
@@ -12677,7 +12812,7 @@
 	dynasty = 1051212 #Borjigit
 	name = "Kitad"
 	religion = pagan
-	culture = manchu
+	culture = khalkha
 	father = 8001129
 	mother = 8001106
 	1600.3.28 = {birth = yes}
@@ -12700,7 +12835,7 @@
 	dynasty = 1051212 #Borjigit
 	name = "Bayasihulang"
 	religion = pagan
-	culture = manchu
+	culture = khalkha
 	father = 8001129 #uncertain
 	1600.3.28 = {birth = yes}
 	1653.1.27 = {death = death_offmap}
@@ -12721,7 +12856,7 @@
 	dynasty = 1051212 #Borjigit
 	name = "Wukeshan"
 	religion = pagan
-	culture = manchu
+	culture = khalkha
 	father = 8001108
 	1600.3.28 = {birth = yes}
 	1629.1.27 = {death = death_offmap}
@@ -12730,11 +12865,979 @@
 	dynasty = 1051212 #Borjigit
 	name = "Birtakhar"
 	religion = pagan
-	culture = manchu
+	culture = khalkha
 	father = 8001134
 	#mother = Unknown mother
-	1610.3.28 = {birth = yes}
+	1620.3.28 = {birth = yes}
 	1667.1.1 = {death = death_offmap}
+}
+8001136 = { #5th Daughter (Hong Taiji)
+	dynasty = 1051209 #Aisin Gioro
+	name = "Atu"
+	religion = pagan
+	culture = manchu
+	female = yes
+	father = 8001103
+	mother = 8001110
+	1632.3.2 = {birth = yes}
+	1643.1.1 = {add_matrilineal_spouse = 8001137}
+	1648.1.1 = {add_matrilineal_spouse = 8001138}
+	1700.2.8 = {death = death_offmap}
+}
+8001137 = { #Mongol Consort to Atu (Khalka Mongol)
+	name = "Suo'erha"
+	religion = pagan
+	culture = khalkha
+	#father = Unknown father
+	#mother = Unknown mother
+	1620.3.28 = {birth = yes}
+	1648.1.1 = {death = death_offmap}
+}
+8001138 = { #Mongol Consort to Atu (Barin Mongol)
+	name = "Sabdan"
+	religion = pagan
+	culture = khalkha
+	#father = Unknown father
+	#mother = Unknown mother
+	1620.3.28 = {birth = yes}
+	1667.1.1 = {death = death_offmap}
+}
+8001139 = { #7th Daughter (Hong Taiji)
+	dynasty = 1051209 #Aisin Gioro
+	name = "Shuzhe Duanxian"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001103
+	mother = 8001110
+	1633.12.16 = {birth = yes}
+	1645.1.1 = {add_matrilineal_spouse = 8001140}
+	1648.1.1 = {death = death_offmap}
+}
+8001140 = { #Mongol Consort to Shuzhe Duanxian (Jarud Mongol)
+	name = "Lamasi"
+	religion = pagan
+	culture = khalkha
+	#father = Unknown father
+	#mother = Unknown mother
+	1620.3.28 = {birth = yes}
+	1667.1.1 = {death = death_offmap}
+}
+8001142 = { #Shunzhi Consort
+	dynasty = 1051212 #Borjigit
+	name = "Erdeni Bumba"
+	religion = pagan
+	culture = khalkha
+	female = yes
+	father = 8001134
+	#mother = Unknown mother
+	1620.3.28 = {birth = yes}
+	1653.10.25 = {death = death_offmap} #After being deposed, she vanished from records
+}
+8001143 = { #Shunzhi Consort
+	dynasty = 1051213 #Tunggiya
+	name = "Cihe" #Personal Name Unknown arrived to China through the Pale Blue Banner
+	religion = pagan
+	culture = manchu
+	female = yes
+	father = 8001144
+	mother = 8001145
+	1638.1.1 = {birth = yes}
+	1663.3.20 = {death = death_offmap}
+}
+8001144 = {
+	dynasty = 1051213 #Tunggiya
+	name = "Tulai"
+	religion = pagan
+	culture = manchu
+	father = 8001146
+	1606.1.1 = {birth = yes}
+	1631.1.1 = {add_spouse = 8001145}
+	1658.1.1 = {death = death_offmap}
+}
+8001145 = {
+	name = "Gioro"
+	religion = pagan
+	culture = manchu
+	female = yes
+	1606.1.1 = {birth = yes}
+	1658.1.1 = {death = death_offmap}
+}
+8001146 = {
+	dynasty = 1051213 #Tunggiya
+	name = "Yangzhen"
+	religion = pagan
+	culture = manchu
+	1580.1.1 = {birth = yes}
+	1621.1.1 = {death = death_offmap}
+}
+8001147 = { #Brother of Cihe
+	dynasty = 1051213 #Tunggiya
+	name = "Guoji"
+	religion = pagan
+	culture = manchu
+	father = 8001144
+	mother = 8001145
+	1640.1.1 = {birth = yes}
+	1660.1.1 = {death = death_offmap}
+}
+8001148 = { #Brother of Cihe
+	dynasty = 1051213 #Tunggiya
+	name = "Guogang"
+	religion = pagan
+	culture = manchu
+	father = 8001144
+	mother = 8001145
+	1641.1.1 = {birth = yes}
+	1690.1.1 = {death = death_offmap}
+}
+8001149 = { #Brother of Cihe (Father to Empress Xiaoyiren)
+	dynasty = 1051213 #Tunggiya
+	name = "Guowei"
+	religion = pagan
+	culture = manchu
+	father = 8001144
+	mother = 8001145
+	1650.1.1 = {birth = yes}
+	1719.1.1 = {death = death_offmap}
+}
+8001150 = { #Shunzhi Consort (Empress Xiaohuizhang)
+	dynasty = 1051212 #Borjigit
+	name = "Alatan Qiqige"
+	religion = pagan
+	culture = khalkha
+	female = yes
+	father = 8001152
+	#mother = Lady Aisin Gioro
+	1641.11.5 = {birth = yes}
+	1718.1.7 = {death = death_offmap}
+}
+8001151 = {
+	dynasty = 1051212 #Borjigit
+	name = "Chahan"
+	religion = pagan
+	culture = khalkha
+	father = 8001108
+	mother = 8001109
+	1605.1.1 = {birth = yes}
+	1641.10.22 = {death = death_offmap}
+}
+8001152 = {
+	dynasty = 1051212 #Borjigit
+	name = "Chuo'erji"
+	religion = pagan
+	culture = khalkha
+	father = 8001108
+	1640.1.1 = {birth = yes}
+	1670.1.1 = {death = death_offmap}
+}
+8001153 = { #Shunzhi Consort (Empress Xiaohuizhang)
+	dynasty = 1051214 #Donggo
+	name = "Xiaoxian"
+	religion = ruist
+	culture = khalkha
+	female = yes
+	father = 8001154
+	#mother = Lady Aisin Gioro
+	1641.11.5 = {birth = yes}
+	1718.1.7 = {death = death_offmap}
+}
+8001154 = {
+	dynasty = 1051214 #Donggo
+	name = "Eshuo"
+	religion = pagan
+	culture = khalkha
+	father = 8001155
+	1615.1.1 = {birth = yes}
+	1657.1.1 = {death = death_offmap}
+}
+8001155 = {
+	dynasty = 1051214 #Donggo
+	name = "Xihan"
+	religion = pagan
+	culture = khalkha
+	father = 8001108
+	1590.1.1 = {birth = yes}
+	1650.1.1 = {death = death_offmap}
+}
+8001156 = { #4th Son (Shunzhi)
+	dynasty = 1051209 #Aisin Gioro
+	name = "Rong"
+	religion = ruist
+	culture = manchu
+	father = 8001141
+	mother = 8001153
+	1657.11.12 = {birth = yes}
+	1658.2.25 = {death = death_offmap}
+}
+8001158 = { #Kangxi Consort (Empress Xiaochengren)
+	dynasty = 1051215 #Hešeri
+	name = "Xiaochengren"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001159
+	#mother = Unknown
+	1654.2.3 = {birth = yes}
+	1674.6.6 = {death = death_offmap}
+}
+8001159 = {
+	dynasty = 1051215 #Hešeri
+	name = "Gabula"
+	religion = pagan
+	culture = manchu
+	father = 8001160
+	1630.1.1 = {birth = yes}
+	1681.1.1 = {death = death_offmap}
+}
+8001160 = { #One of 4 regents to Kangxi
+	dynasty = 1051215 #Hešeri
+	name = "Sonin"
+	religion = pagan
+	culture = manchu
+	1601.1.1 = {birth = yes}
+	1667.8.12 = {death = death_offmap}
+}
+8001161 = { #Kangxi Consort (Empress Xiaozhaoren)
+	dynasty = 1051216 #Niohuru
+	name = "Xiaozhaoren"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001162
+	#mother = Unknown
+	1654.2.3 = {birth = yes}
+	1674.6.6 = {death = death_offmap}
+}
+8001162 = { #One of 4 regents to Kangxi
+	dynasty = 1051216 #Niohuru
+	name = "Ebilun"
+	religion = pagan
+	culture = manchu
+	father = 8001163
+	1618.1.1 = {birth = yes}
+	1673.1.1 = {death = death_offmap}
+}
+8001163 = { #Manchu General during Hong Taiji
+	dynasty = 1051216 #Niohuru
+	name = "Eidu"
+	religion = pagan
+	culture = manchu
+	1562.1.1 = {birth = yes}
+	1621.1.1 = {death = death_offmap}
+}
+8001164 = { #Kangxi Consort (Empress Xiaozhaoren)
+	dynasty = 1051213 #Tunggiya
+	name = "Xiaoyiren"
+	religion = ruist
+	culture = khalkha
+	female = yes
+	father = 8001149
+	#mother = Lady Hešeri
+	1670.1.1 = {birth = yes}
+	1689.8.24 = {death = death_offmap}
+}
+8001165 = { #Kangxi Consort (Empress Xiaogongren)
+	dynasty = 1051217 #Uya
+	name = "Xiaogongren"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001166
+	#mother = Unknown
+	1660.2.8 = {birth = yes}
+	1723.6.25 = {death = death_offmap}
+}
+8001166 = {
+	dynasty = 1051217 #Uya
+	name = "Weiwu"
+	religion = pagan
+	culture = manchu
+	father = 8001167
+	1620.1.1 = {birth = yes}
+	1673.1.1 = {death = death_offmap}
+}
+8001167 = { #Manchu General during Hong Taiji
+	dynasty = 1051217 #Uya
+	name = "Esen"
+	religion = pagan
+	culture = manchu
+	1562.1.1 = {birth = yes}
+	1621.1.1 = {death = death_offmap}
+}
+8001168 = { #2nd Son (Kangxi)
+	dynasty = 1051209 #Aisin Gioro
+	name = "Chenghu"
+	religion = ruist
+	culture = manchu
+	father = 8001157
+	mother = 8001158
+	1670.1.4 = {birth = yes}
+	1672.3.3 = {death = death_offmap}
+}
+8001169 = { #2nd/7th Son (Kangxi) Prince Limi of the First Rank
+	dynasty = 1051209 #Aisin Gioro
+	name = "Yunreng"
+	religion = ruist
+	culture = manchu
+	father = 8001157
+	mother = 8001158
+	1674.6.6 = {birth = yes}
+	1725.1.27 = {death = death_offmap}
+}
+8001171 = { #14th/6th Son (Kangxi)
+	dynasty = 1051209 #Aisin Gioro
+	name = "Yinzuo"
+	religion = ruist
+	culture = manchu
+	father = 8001157
+	mother = 8001165
+	1683.10.10 = {birth = yes}
+	1685.6.6 = {death = death_offmap}
+}
+8001172 = { #9th Daughter (Kangxi)
+	dynasty = 1051209 #Aisin Gioro
+	name = "Wenxian"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001157
+	mother = 8001165
+	1680.3.5 = {birth = yes}
+	1700.1.1 = {add_matrilineal_spouse = 8001173}
+	1702.8.1 = {death = death_offmap}
+}
+8001173 = { #9th Daughter (Kangxi) Husband
+	dynasty = 1051213 #Tunggiya
+	name = "Shun'anyan"
+	religion = ruist
+	culture = manchu
+	father = 8001174
+	1680.3.5 = {birth = yes}
+	1724.8.1 = {death = death_offmap}
+}
+8001174 = {
+	dynasty = 1051213 #Tunggiya
+	name = "Yekeshu"
+	religion = pagan
+	culture = manchu
+	father = 8001146
+	1650.1.1 = {birth = yes}
+	1690.1.1 = {death = death_offmap}
+}
+8001175 = { #23rd/14th Son (Kangxi) Prince Xunqin of the Second Rank
+	dynasty = 1051209 #Aisin Gioro
+	name = "Yunti"
+	religion = ruist
+	culture = manchu
+	father = 8001157
+	mother = 8001165
+	1688.1.1 = {birth = yes}
+	1755.2.16 = {death = death_offmap}
+}
+8001179 = { #Yongzheng 2nd Consort (Empress Xiaoshengxian)
+	dynasty = 1051216 #Niohuru
+	name = "Xiaoshengxian"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001180
+	#mother = Lady Peng
+	1692.1.12 = {birth = yes}
+	1777.3.2 = {death = death_offmap}
+}
+8001180 = { #Xiaoshengxian Father
+	dynasty = 1051216 #Niohuru
+	name = "Lingzhu"
+	religion = pagan
+	culture = manchu
+	father = 8001181
+	1664.1.1 = {birth = yes}
+	1754.1.1 = {death = death_offmap}
+}
+8001181 = { #Xiaoshengxian Grandfather (Cousin to Eidu)
+	dynasty = 1051216 #Niohuru
+	name = "Wulu"
+	religion = pagan
+	culture = manchu
+	1600.1.1 = {birth = yes}
+	1670.1.1 = {death = death_offmap}
+}
+8001182 = { #1st Son of Yongzheng
+	dynasty = 1051209 #Aisin Gioro
+	name = "Honghui"
+	religion = ruist
+	culture = manchu
+	father = 8001170
+	mother = 8001176
+	1697.4.17 = {birth = yes}
+	1704.7.7 = {death = death_offmap}
+}
+8001184 = { #Qianlong Consort (Empress Xiaoxianchun)
+	dynasty = 1051219 #Fuca
+	name = "Xiaoxianchun"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001185
+	#mother = Lady Gioro
+	1712.3.28 = {birth = yes}
+	1748.4.8 = {death = death_offmap}
+}
+8001185 = {
+	dynasty = 1051219 #Fuca
+	name = "Lirongbao"
+	religion = pagan
+	culture = manchu
+	father = 8001186
+	1674.1.1 = {birth = yes}
+	1723.1.1 = {death = death_offmap}
+}
+8001186 = {
+	dynasty = 1051219 #Fuca
+	name = "Mishan"
+	religion = pagan
+	culture = manchu
+	1633.1.1 = {birth = yes}
+	1675.1.1 = {death = death_offmap}
+}
+8001187 = { #Qianlong Consort (Empress Nara)
+	dynasty = 1051220 #Nara
+	name = "Xian"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001185
+	#mother = Lady Gioro
+	1718.3.11 = {birth = yes}
+	1766.8.19 = {death = death_offmap}
+}
+8001188 = { #Qianlong Consort (Empress Xiaoyichun)
+	dynasty = 8001021 #Weigiya
+	name = "Xiaoyichun"
+	religion = ruist
+	culture = mandarin
+	female = yes
+	father = 8001189
+	#mother = Lady Yanggiya
+	1727.10.23 = {birth = yes}
+	1775.2.28 = {death = death_offmap}
+}
+8001189 = {
+	dynasty = 8001021 #Weigiya
+	name = "Qingtai"
+	religion = ruist
+	culture = mandarin
+	father = 8001190
+	1700.1.1 = {birth = yes}
+	1750.1.1 = {death = death_offmap}
+}
+8001190 = {
+	dynasty = 8001021 #Weigiya
+	name = "Jiuling"
+	religion = ruist
+	culture = mandarin
+	1680.1.1 = {birth = yes}
+	1730.1.1 = {death = death_offmap}
+}
+8001191 = { #2nd Son of the Qianlong Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Yonglian"
+	religion = ruist
+	culture = manchu
+	father = 8001183
+	mother = 8001184
+	1730.8.9 = {birth = yes}
+	1738.11.23 = {death = death_offmap}
+}
+8001192 = { #3rd Daughter of the Qianlong Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Hejing"
+	religion = ruist
+	culture = manchu
+	father = 8001183
+	mother = 8001184
+	1731.7.31 = {birth = yes}
+	1747.5.1 = {add_matrilineal_spouse=8001193}
+	1792.9.30 = {death = death_offmap}
+}
+8001193 = { #3rd Daughter of the Qianlong Emperor Husband
+	dynasty = 11100 #Borjigin
+	name = "Septeng"
+	religion = ruist
+	culture = khalkha
+	father = 8001194
+	1720.3.5 = {birth = yes}
+	1792.8.1 = {death = death_offmap}
+}
+8001194 = {
+	dynasty = 11100 #Borjigin
+	name = "Danjin"
+	religion = pagan
+	culture = khalkha
+	father = 8001195
+	1680.1.1 = {birth = yes}
+	1738.1.1 = {death = death_offmap}
+}
+8001195 = {
+	dynasty = 11100 #Borjigin
+	name = "Lubsan" #teniously link to the Yuan
+	religion = pagan
+	culture = khalkha
+	father = 8001127
+	1640.1.1 = {birth = yes}
+	1700.1.1 = {death = death_offmap}
+}
+8001196 = { #7th Son of the Qianlong Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Yongcong"
+	religion = ruist
+	culture = manchu
+	father = 8001183
+	mother = 8001184
+	1746.5.27 = {birth = yes}
+	1748.1.29 = {death = death_offmap}
+}
+8001197 = { #12th Son of the Qianlong Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Yongji"
+	religion = ruist
+	culture = manchu
+	father = 8001183
+	mother = 8001187
+	1752.6.7 = {birth = yes}
+	1776.3.17 = {death = death_offmap}
+}
+8001198 = { #13th Son of the Qianlong Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Yongjing"
+	religion = ruist
+	culture = manchu
+	father = 8001183
+	mother = 8001187
+	1756.1.22 = {birth = yes}
+	1757.9.7 = {death = death_offmap}
+}
+8001199 = { #7th Daughter of the Qianlong Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Hejing"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001183
+	mother = 8001188
+	1756.8.10 = {birth = yes}
+	1770.8.1 = {add_matrilineal_spouse=8001200}
+	1775.2.9 = {death = death_offmap}
+}
+8001200 = {
+	dynasty = 11100 #Borjigin
+	name = "Lhawang"
+	religion = pagan
+	culture = khalkha
+	father = 8001201
+	1680.1.1 = {birth = yes}
+	1738.1.1 = {death = death_offmap}
+}
+8001201 = {
+	dynasty = 11100 #Borjigin
+	name = "Chenggunjab" #teniously link to the Yuan
+	religion = pagan
+	culture = khalkha
+	father = 8001127
+	1640.1.1 = {birth = yes}
+	1700.1.1 = {death = death_offmap}
+}
+8001202 = { #14th Son of the Qianlong Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Yonglu"
+	religion = ruist
+	culture = manchu
+	father = 8001183
+	mother = 8001188
+	1757.8.31 = {birth = yes}
+	1760.5.3 = {death = death_offmap}
+}
+8001203 = { #9th Daughter of the Qianlong Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Heke"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001183
+	mother = 8001188
+	1758.8.17 = {birth = yes}
+	1772.9.1 = {add_matrilineal_spouse=8001204}
+	1780.12.14 = {death = death_offmap}
+}
+8001204 = {
+	dynasty = 1051217 #Uya
+	name = "Jalantai"
+	religion = pagan
+	culture = khalkha
+	father = 8001205
+	1720.1.1 = {birth = yes}
+	1788.1.1 = {death = death_offmap}
+}
+8001205 = {
+	dynasty = 1051217 #Uya
+	name = "Jaohui" #teniously link to the Uya
+	religion = pagan
+	culture = khalkha
+	father = 8001166
+	1660.2.8 = {birth = yes}
+	1723.6.25 = {death = death_offmap}
+}
+8001207 = { #17th Son of the Qianlong Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Yonglin"
+	religion = ruist
+	culture = manchu
+	father = 8001183
+	mother = 8001188
+	1766.6.17 = {birth = yes}
+	1820.4.25 = {death = death_offmap}
+}
+8001208 = { #Jiajing Emperor Consort
+	dynasty = 1051210 #Hitara
+	name = "Xiaoshurui"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001209
+	1760.10.2 = {birth = yes}
+	1797.3.5 = {death = death_offmap}
+}
+8001209 = {
+	dynasty = 1051210 #Hitara
+	name = "He'erjing'e"
+	religion = ruist
+	culture = manchu
+	father = 8001210
+	1720.1.1 = {birth = yes}
+	1780.1.1 = {death = death_offmap}
+}
+8001210 = {
+	dynasty = 1051210 #Hitara
+	name = "Chang'an"
+	religion = ruist
+	culture = manchu
+	father = 8001211
+	1680.1.1 = {birth = yes}
+	1722.1.1 = {death = death_offmap}
+}
+8001211 = {
+	dynasty = 1051210 #Hitara
+	name = "Aisinggga"
+	religion = pagan
+	culture = manchu
+	father = 8001212
+	1640.1.1 = {birth = yes}
+	1690.1.1 = {death = death_offmap}
+}
+8001212 = {
+	dynasty = 1051210 #Hitara
+	name = "Antai"
+	religion = pagan
+	culture = manchu
+	father = 8001213
+	1600.1.1 = {birth = yes}
+	1650.1.1 = {death = death_offmap}
+}
+8001213 = {
+	dynasty = 1051210 #Hitara
+	name = "Zhage"
+	religion = pagan
+	culture = manchu
+	father = 8001214
+	1560.1.1 = {birth = yes}
+	1610.1.1 = {death = death_offmap}
+}
+8001214 = {
+	dynasty = 1051210 #Hitara
+	name = "A'gu"
+	religion = pagan
+	culture = manchu
+	1540.1.1 = {birth = yes}
+	1610.1.1 = {death = death_offmap}
+}
+8001215 = { #Jiajing Emperor Consort
+	dynasty = 1051216 #Niohuru
+	name = "Xiaoherui"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001216
+	1776.11.20 = {birth = yes}
+	1850.1.23 = {death = death_offmap}
+}
+8001216 = {
+	dynasty = 1051216 #Niohuru
+	name = "Gunggala"
+	religion = ruist
+	culture = manchu
+	father = 8001217
+	1753.1.1 = {birth = yes}
+	1812.1.1 = {death = death_offmap}
+}
+8001217 = {
+	dynasty = 1051216 #Niohuru
+	name = "Gongbao"
+	religion = ruist
+	culture = manchu
+	father = 8001218
+	1733.1.1 = {birth = yes}
+	1801.1.1 = {death = death_offmap}
+}
+8001218 = {
+	dynasty = 1051216 #Niohuru
+	name = "Xiyuan"
+	religion = ruist
+	culture = manchu
+	father = 8001181
+	1659.1.1 = {birth = yes}
+	1750.1.1 = {death = death_offmap}
+}
+8001220 = { #4th Daughter of the Jiaqing Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Zhuangjing"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001206
+	mother = 8001208
+	1784.10.20 = {birth = yes}
+	1802.11.1 = {add_matrilineal_spouse = 1051221}
+	1811.6.27 = {death = death_offmap}
+}
+8001221 = {
+	dynasty = 1051221 #Tumed
+	name = "Manibadala"
+	religion = ruist
+	culture = khalkha
+	1760.1.1 = {birth = yes}
+	1832.1.1 = {death = death_offmap}
+}
+8001222 = { #3rd Son of the Jiaqing Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Miankai"
+	religion = ruist
+	culture = manchu
+	father = 8001206
+	mother = 8001215
+	1795.8.6 = {birth = yes}
+	1838.1.18 = {death = death_offmap}
+}
+8001223 = { #4th Son of the Jiaqing Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Mianxin"
+	religion = ruist
+	culture = manchu
+	father = 8001206
+	mother = 8001215
+	1805.3.9 = {birth = yes}
+	1828.9.27 = {death = death_offmap}
+}
+8001224 = { #Daoguang Emperor Consort
+	dynasty = 1051216 #Niohuru
+	name = "Xiaomucheng"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001225
+	1781.1.1 = {birth = yes}
+	1808.2.17 = {death = death_offmap}
+}
+8001225 = {
+	dynasty = 1051216 #Niohuru
+	name = "Buyandalai"
+	religion = ruist
+	culture = manchu
+	father = 8001226
+	1752.1.1 = {birth = yes}
+	1801.1.1 = {death = death_offmap}
+}
+8001226 = {
+	dynasty = 1051216 #Niohuru
+	name = "Arigun"
+	religion = ruist
+	culture = manchu
+	father = 8001181
+	1712.1.1 = {birth = yes}
+	1770.1.1 = {death = death_offmap}
+}
+8001227 = {
+	dynasty = 1051216 #Niohuru
+	name = "Yende"
+	religion = ruist
+	culture = manchu
+	father = 8001162 #Ebilun Niohuru
+	1670.1.1 = {birth = yes}
+	1727.1.1 = {death = death_offmap}
+}
+8001228 = { #Daoguang Emperor Consort
+	dynasty = 1051213 #Tunggiya
+	name = "Xiaoshencheng"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001229
+	1792.6.5 = {birth = yes}
+	1833.6.16 = {death = death_offmap}
+}
+8001229 = {
+	dynasty = 1051213 #Tunggiya
+	name = "Shuming'a"
+	religion = ruist
+	culture = manchu
+	father = 8001230
+	1752.1.1 = {birth = yes}
+	1820.1.1 = {death = death_offmap}
+}
+8001230 = {
+	dynasty = 1051213 #Tunggiya
+	name = "Changzhou"
+	religion = ruist
+	culture = manchu
+	father = 8001231
+	1731.1.1 = {birth = yes}
+	1752.1.1 = {death = death_offmap}
+}
+8001231 = {
+	dynasty = 1051213 #Tunggiya
+	name = "Namushan"
+	religion = ruist
+	culture = manchu
+	father = 8001232
+	1714.1.1 = {birth = yes}
+	1739.1.1 = {death = death_offmap}
+}
+8001232 = {
+	dynasty = 1051213 #Tunggiya
+	name = "Darina"
+	religion = ruist
+	culture = manchu
+	father = 8001233
+	1690.1.1 = {birth = yes}
+	1715.1.1 = {death = death_offmap}
+}
+8001233 = {
+	dynasty = 1051213 #Tunggiya
+	name = "Liuyong"
+	religion = ruist
+	culture = manchu
+	father = 8001234
+	1647.1.1 = {birth = yes}
+	1709.1.1 = {death = death_offmap}
+}
+8001234 = {
+	dynasty = 1051209 #Aisin Gioro
+	name = "Keda"
+	religion = pagan
+	culture = manchu
+	father = 8001235
+	1606.1.1 = {birth = yes}
+	1652.1.1 = {death = death_offmap}
+}
+8001235 = {
+	dynasty = 1051209 #Aisin Gioro
+	name = "Daišan"
+	religion = pagan
+	culture = manchu
+	father = 8001101 #Nurhaci
+	1606.1.1 = {birth = yes}
+	1652.1.1 = {death = death_offmap}
+}
+8001236 = { #1st Daughter of the Daoguang Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Duanmin"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001219
+	mother = 8001228
+	1813.7.29 = {birth = yes}
+	1819.12.7 = {death = death_offmap}
+}
+8001237 = { #Daoguang Emperor Consort
+	dynasty = 1051216 #Niohuru
+	name = "Xiaoquancheng"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001238
+	1808.3.24 = {birth = yes}
+	1840.2.13 = {death = death_offmap}
+}
+8001238 = {
+	dynasty = 1051216 #Niohuru
+	name = "Yiling"
+	religion = ruist
+	culture = manchu
+	father = 8001239
+	1780.1.1 = {birth = yes}
+	1830.1.1 = {death = death_offmap}
+}
+8001239 = {
+	dynasty = 1051216 #Niohuru
+	name = "Mukedengbu"
+	religion = ruist
+	culture = manchu
+	father = 8001101
+	1740.1.1 = {birth = yes}
+	1803.1.1 = {death = death_offmap}
+}
+8001240 = {
+	dynasty = 1051216 #Niohuru
+	name = "De"
+	religion = ruist
+	culture = manchu
+	father = 8001227
+	1720.1.1 = {birth = yes}
+	1799.1.1 = {death = death_offmap}
+}
+8001241 = { #3rd Daughter of the Daoguang Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Duanshun"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001219
+	mother = 8001237
+	1825.4.8 = {birth = yes}
+	1835.12.27 = {death = death_offmap}
+}
+8001241 = { #4th Daughter of the Daoguang Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Shou'an"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001219
+	mother = 8001237
+	1826.5.12 = {birth = yes}
+	1841.11.15 = {add_matrilineal_spouse = 8001242}
+	1860.3.24 = {death = death_offmap}
+}
+8001242 = {
+	dynasty = 1051222 #Naiman
+	name = "Demchüghjab"
+	religion = ruist
+	culture = khalkha
+	1820.1.1 = {birth = yes}
+	1865.1.1 = {death = death_offmap}
+}
+8001243 = { #4th Daughter of the Daoguang Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Shou'an"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001219
+	mother = 8001237
+	1826.5.12 = {birth = yes}
+	1841.11.15 = {add_matrilineal_spouse = 8001242}
+	1860.3.24 = {death = death_offmap}
 }
 #########################################
 #Later Northern Yuan Leaders
@@ -12877,6 +13980,37 @@
 	1661.1.1 = {death = death_offmap}
 }
 #########################################
+#The Banner of Ula Nara was founded by Gudai Juyan after the branches of the Nara clan splintered
+
+8001176 = { #Yongzheng Primary Consort (Empress Xiaojingxian)
+	dynasty = 1051218 #Ula Nara
+	name = "Duoqimuli"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001177
+	#mother = Lady Aisin Gioro
+	1681.6.28 = {birth = yes}
+	1731.10.29 = {death = death_offmap}
+}
+8001177 = { #Father of Empress Xiaojingxian
+	dynasty = 1051218 #Ula Nara
+	name = "Fiyanggu"
+	religion = ruist
+	culture = manchu
+	father = 8001178
+	1650.1.1 = {birth = yes}
+	1700.1.1 = {death = death_offmap}
+}
+8001178 = { #Father of Empress Xiaojingxian
+	dynasty = 1051218 #Ula Nara
+	name = "Bohucha"
+	religion = ruist
+	culture = manchu
+	1630.1.1 = {birth = yes}
+	1780.1.1 = {death = death_offmap}
+}
+################################################################################################
 
 #Ming
 

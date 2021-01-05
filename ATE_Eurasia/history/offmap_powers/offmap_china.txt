@@ -302,12 +302,36 @@
 }
 1627.10.2 = {
 	holder = 8001090 # Youjian
-	status = china_mongol_invasion #Manchu Invasion of the Ming
-	policy = china_isolationist
+	status = china_jurchen_invasion #Manchu Invasion of the Ming
+	policy = china_expansionist
 }
 1636.1.1 = {
 	holder = 8001103 # Hong Taiji
 	name = "qing_china"
+}
+1643.10.8 = {
+	holder = 8001141 # Fulin
+}
+1661.2.5 = {
+	#The Rule of the 4 Regents during the Kangxi Emperors reign
+	holder = 8001157 # Xuanye
+	status = china_golden_age #Prosperous Reign of Kangxi to Qianlong Emperors (High Qing Era)
+	policy = china_open
+}
+1722.12.22 = {
+	holder = 8001183 # Hongli
+}
+1796.2.9 = {
+	holder = 8001206 # Yongyan
+	status = china_stable
 	policy = china_isolationist
-	status = china_unrest
+}
+1813.1.1 = {
+	holder = 8001219 # Mianning
+	status = china_unrest #Opium Wars, Conspiracy of the Eight Trigram and Khoja Rebellion
+	policy = china_isolationist
+}
+1850.3.9 = {
+	#Emperor of the Taiping Rebellion
+	holder = 8001244 # Yizhu
 }

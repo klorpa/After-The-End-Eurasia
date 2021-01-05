@@ -1,12 +1,34 @@
 11100= {
 	name="Borjigin"
 	culture="khalkha"
-	religion="pagan"
+	coat_of_arms = { 
+		religion = ruist
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
 }
 1051124= {
 	name="Onggirat"
 	culture="khalkha"
 	religion="pagan"
+}
+1051221= {
+	name="Tumed"
+	culture="khalkha"
+	religion="ruist"
+}
+1051222= {
+	name="Naiman"
+	culture="khalkha"
+	religion="ruist"
 }
 ################################# 
 ### Chinese dynasties
@@ -15,20 +37,53 @@
 {
 	name = "Li"
 	culture = mandarin
-	religion = ruist
+	coat_of_arms = { 
+		religion = ruist
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 	used_for_random = no
 }
 1051151=
 {
 	name = "Zhao"
 	culture = mandarin
-	religion = ruist
+	coat_of_arms = {
+		religion = ruist
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 1051152=
 {
 	name = "Wu"
 	culture = mandarin
-	religion = ruist
+	coat_of_arms = { 
+		religion = ruist
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 	used_for_random = no
 }
 1055000=
@@ -707,7 +762,18 @@
 105837 = {
 	name="Yang" #Imperial family of Sui
 	culture="mandarin"
-	religion="ruist"
+	coat_of_arms = { 
+		religion = ruist
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 105853 = {
@@ -736,7 +802,19 @@
 8001000 = {
 	name="Zhu" #- Ruling Ming Dynasty
 	culture="mandarin"
-	religion="ruist"
+	coat_of_arms = { 
+		religion = ruist
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
 }
 8001001 = {
 	name="Ma"
@@ -838,6 +916,11 @@
 	culture="mandarin"
 	religion="ruist"
 }
+8001021 = {
+	name="Weigiya"
+	culture="mandarin"
+	religion="ruist"
+}
 #################################
 ### Jurchen Dynasties
 #################################
@@ -846,8 +929,19 @@
 {
 	name = "Wanyan"
 	culture = manchu
-	religion = ruist
-	#used_for_random = no
+	coat_of_arms = { 
+		religion = ruist
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
 }
 1051154=
 {
@@ -1238,7 +1332,19 @@
 {
 	name = "Aisin Gioro"
 	culture = manchu
-	religion = ruist
+	coat_of_arms = {
+		religion = ruist
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
 }
 1051210=
 {
@@ -1255,6 +1361,54 @@
 1051212=
 {
 	name = "Borjigit"
+	culture = manchu
+	religion = ruist
+}
+1051213=
+{
+	name = "Tunggiya"
+	culture = manchu
+	religion = ruist
+}
+1051214=
+{
+	name = "Donggo"
+	culture = manchu
+	religion = ruist
+}
+1051215=
+{
+	name = "Hešeri"
+	culture = manchu
+	religion = ruist
+}
+1051216=
+{
+	name = "Niohuru"
+	culture = manchu
+	religion = ruist
+}
+1051217=
+{
+	name = "Uya"
+	culture = manchu
+	religion = ruist
+}
+1051218=
+{
+	name = "Ula Nara"
+	culture = manchu
+	religion = ruist
+}
+1051219=
+{
+	name = "Fuca"
+	culture = manchu
+	religion = ruist
+}
+1051220=
+{
+	name = "Nara"
 	culture = manchu
 	religion = ruist
 }
