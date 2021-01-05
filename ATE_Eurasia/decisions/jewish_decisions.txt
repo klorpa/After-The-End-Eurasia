@@ -226,6 +226,101 @@ decisions = {
 			}
 		}
 	}
+	form_empire_pale = {
+		is_high_prio = yes
+		only_playable = yes
+		ai = no
+
+		potential = {
+			religion_group = jewish_group
+			culture = yiddish
+			any_demesne_title = {
+				OR = {
+					tier = KING
+					tier = EMPEROR
+				}
+				region = custom_pale
+			}
+			NOR = {
+				has_landed_title = e_ottoman_emprie
+				has_landed_title = e_europa
+			}
+			e_pale_settlement = {
+				is_titular = yes
+			}
+			e_pale_settlement = {
+				has_holder = no
+			}
+			is_alternate_start = no
+		}
+
+		allow = {
+			is_adult = yes
+			independent = yes
+			war = no
+			prestige = 2000
+
+			custom_tooltip = {
+				text = completely_control_pale_TT
+
+				completely_controls_region = custom_pale
+			}
+		}
+
+		effect = {
+			hidden_tooltip = {
+				primary_title = {
+					e_pale_settlement = {
+						copy_title_laws = PREV
+						copy_title_history = PREV
+					}
+				}
+			}
+
+			custom_tooltip = {
+				text = create_pale_tt
+				grant_title_no_opinion = e_pale_settlement 
+			}
+			#this stuff isn't really necessary
+
+			hidden_tooltip = {
+
+				any_demesne_title = {
+					limit = {
+						tier = EMPEROR
+						NOT = { title = e_pale_settlement }
+					}
+					destroy_landed_title = THIS
+				}
+
+				any_landed_title = {
+					limit = {
+						tier = KING
+						region = custom_pale
+					}
+					de_jure_liege = e_pale_settlement
+				}
+				if = {
+					limit = {
+						completely_controls = k_poland
+					}
+					k_poland = {
+						de_jure_liege = e_pale_settlement
+					}
+				}
+
+				ROOT = {
+					narrative_event = { id = jewish.22 }
+				}
+				any_playable_ruler = {
+					narrative_event = { id = jewish.22 }
+				}
+
+			}
+		}
+	}
+
+	
 }
 
 targeted_decisions = {			

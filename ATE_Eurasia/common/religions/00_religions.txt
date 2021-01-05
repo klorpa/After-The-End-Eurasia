@@ -165,6 +165,46 @@ vernacular = {
 		intermarry = fornsed
 		intermarry = nysed
 	}
+	
+	chevalier = {
+		graphical_culture = westerngfx
+
+		icon = 42
+		heresy_icon = 42
+		
+		color = { 1 0.70 0 }
+		
+		parent = sun_king_cultist
+		
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		
+		scripture_name = LES_LOIS_FONDAMENTALES
+		priest_title = PRIEST
+		
+		high_god_name = DIEU
+		
+		god_names = {
+			LES_NEUF_PREUX CHRIST_THE_KING VIERGE SAINT_ESPRIT
+		}
+		
+		evil_god_names = {
+			THE_USURPER SATAN GANELON MORDRED
+		}
+		
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		intermarry = folketro
+		intermarry = sun_king_cultist
+		intermarry = fornsed
+		intermarry = nysed
+	}
+	
 	ichthysist = { # Maritime Christian
 		graphical_culture = westerngfx
 
@@ -1606,7 +1646,7 @@ jewish_group = {
 		high_god_name = GOD_HASHEM
 		
 		god_names = {
-			GOD_GOD GOD_HASHEM
+			GOD_GOD GOD_HASHEM ADONAI
 		}
 		evil_god_names = {
 			YETZER_HARA

@@ -22,7 +22,8 @@ bar_mitzvah;Prepare Grand Bar Mitzvah;;;;;;;;;;;;;x
 bar_mitzvah_named;Prepare Grand Bar Mitzvah;;;;;;;;;;;;;x
 bar_mitzvah_desc;As your child is soon of age you can choose to hold an extravagant Bar Mitzvah for [Root.GetHerHim], inviting your vassals and the members of your court. This can help build trust that will certainly prove useful for the child in the future.;;;;;;;;;;;;;x
 bar_mitzvah_custom_tooltip;Send out the invitations.;;;;;;;;;;;;;x
-
+form_empire_pale;Form Der Tkhum HaMoyshav;;;;;;;;;;;;;x
+form_empire_pale_desc;If the Yiddish heartlands are been gathered under your rule, a new Empire can be created.;;;;;;;;;;;;;x
 
 ###########Jewish Event###########
 
@@ -69,6 +70,36 @@ EVTOPTA_hitboddedut_5;This was a waste of time;;;;;;;;;;;;;x
 EVTOPTB_hitboddedut_5;My help will come from HaShem, in time;;;;;;;;;;;;;x
 EVTDESC_hitboddedut_6;You let out a silent scream, emptying your mind of all its ills. Although the road ahead may seem diificult, you remember the words of the Rebbe: "All the world is a very narrow bridge, and the most important thing is to have no fear at all.";;;;;;;;;;;;;x
 EVTOPTA_hitboddedut_6;I am ready for whatever comes next;;;;;;;;;;;;;x
+
+custom_pale;The Pale of Settlement;;;;;;;;;;;;;x
+completely_control_pale_TT;Completely controls the region of §Y[custom_pale.GetName]§!;;;;;;;;;;;;;x
+create_pale_tt;§Y[Root.GetBestName]§! creates the §Y[e_pale_settlement.GetName]§!;;;;;;;;;;;;;x
+EVTTITLE_pale_settlement;Der Tkhum HaMoyshav;;;;;;;;;;;;;x
+EVTDESC_pale_settlement;Shaped by the oppressive decree of an ancient Tzar, the Pale of Settlement became the great center of Yiddish life in spite of the hardships. The Shtetls built in those years long ago birthed entire movements in Jewish religion and culture. Though the first flowering of Jewish life here was built under the shadow of the wicked Tzars, under [From.GetTitledName]'s reign a new rebirth of Jewish life in the pale has begun, one borne from joy rather than strife.;;;;;;;;;;;;;x
+EVTOPTA_pale_settlement;Praise [Root.Religion.GetHighGodName]!;;;;;;;;;;;;;x
+EVTOPTB_pale_settlement;A black day!;;;;;;;;;;;;;x
+
+#Bar Mitzvah Localizations 
+EVTDESC_barmitzvah_1;The day of [bar_mitzvah_target.GetBestName]'s Bar Mitzvah is soon approaching, and excitement builds in the palace. Your Rabbi [Root.job_spiritual.GetBestName] has offered to personally prepare [bar_mitzvah_target.GetHimHer] in the final month, to read from the Torah and give a D'var Torah as well.;;;;;;;;;;;;;x
+EVTOPTA_barmitzvah_1;[Root.job_spiritual.GetBestName] will prepare my [bar_mitzvah_target.GetSonDaughter].;;;;;;;;;;;;;x
+EVTOPTB_barmitzvah_1;I can prepare [bar_mitzvah_target.GetBestName] for the Bar Mitzvah myself!;;;;;;;;;;;;;x
+EVTOPTC_barmitzvah_1;[bar_mitzvah_target.GetBestName] can figure it out on [bar_mitzvah_target.GetHisHer] own.;;;;;;;;;;;;;x
+EVTDES1_barmitzvah_2;The day has arrived. At your family's synagogue [bar_mitzvah_target.GetBestName] approaches the bimah brimming with a regal confidence. [bar_mitzvah_target.GetHeShe] reads [bar_mitzvah_target.GetHisHer] Torah portion effortlessly, followed by a D'var Torah on the portion that impresses even the most cynical of your vassals.;;;;;;;;;;;;;x
+EVTDES2_barmitzvah_2;The day has arrived. At your family's synagogue [bar_mitzvah_target.GetBestName] approaches the bimah shaking nervously. [bar_mitzvah_target.GetHeShe] stumbles [bar_mitzvah_target.GetHisHer] way through the passage, constantly stopping for corrections from the gabbai. Your vassals cringe in pity as [bar_mitzvah_target.GetFirstName] attempts to deliver a clumsy D'var Torah clearly written the night before.;;;;;;;;;;;;;x
+EVTOPTA_barmitzvah_2;I'm so proud!;;;;;;;;;;;;;x
+EVTOPTB_barmitzvah_2;That fool!;;;;;;;;;;;;;x
+EVTDESC_barmitzvah_3;In the celebration after, you see [bar_mitzvah_target.GetBestName] and [compliment_vassal.GetBestName] discussing intently some issue brought up in [bar_mitzvah_target.GetHisHer] D'var Torah, with [bar_mitzvah_target.GetFirstName] displaying a maturity you didn't realize [bar_mitzvah_target.GetHeShe] had. Afterwards [compliment_vassal.GetFirstName] pull you aside to tell you just how impressed [compliment_vassal.GetHeShe] is.;;;;;;;;;;;;;x
+EVTOPTA_barmitzvah_3;That's my [bar_mitzvah_target.GetSonDaughter]!;;;;;;;;;;;;;x
+EVTDESC_barmitzvah_4;In the celebration after, you see [bar_mitzvah_target.GetBestName] and [insult_vassal.GetBestName] arguing, when [bar_mitzvah_target.GetFirstName] suddenly jumps up out of [bar_mitzvah_target.GetHisHer] seat, flailing at [insult_vassal.GetFirstName] until your guards are able to pull [bar_mitzvah_target.GetHimHer] away. [insult_vassal.GetFirstName] calls out to you: "is this how your family treats guests?".;;;;;;;;;;;;;x
+EVTOPTA_barmitzvah_4;Ugh, what have you done [bar_mitzvah_target.GetFirstName]!;;;;;;;;;;;;;x
+EVTDESC_barmitzvah_5;It seems as if [bar_mitzvah_target.GetFirstName] has started getting along incredibly well with the child of one of the visiting vassals! Indeed, apparently [bar_mitzvah_target.GetFirstName] and [befriended_child.GetBestName] are becoming fast friends.;;;;;;;;;;;;;x
+EVTOPTA_barmitzvah_5;How lovely!;;;;;;;;;;;;;x
+EVTDESC_barmitzvah_6;While having a pleasant conversation you are suddenly interrupted by an infernal ruckus, upon further investigation it seems as if [bar_mitzvah_target.GetFirstName] has gotten into a fight with the child of one of the visiting vassals! You tear the two children apart, but it is obvious that [bar_mitzvah_target.GetFirstName] and [rival_child.GetBestName] will not ever be friends after this encounter...;;;;;;;;;;;;;x
+EVTOPTA_barmitzvah_6;I wonder who started it?;;;;;;;;;;;;;x
+EVTDESC_barmitzvah_7;As the hours go by you notice [bar_mitzvah_target.GetFirstName]'s mood starting to drop. [bar_mitzvah_target.GetSheHeCap] is obviously still upset about the embarassment at [bar_mitzvah_target.GetHerHis] Bar Mitzvah. Hopefully this slump in [bar_mitzvah_target.GetFirstName]'s mood will pass soon.;;;;;;;;;;;;;x
+EVTOPTA_barmitzvah_7;I should go help [bar_mitzvah_target.GetHerHim]...;;;;;;;;;;;;;x
+EVTDESC_barmitzvah_8;After a long night of celebration, the Bar Mitzvah is finally over. After all the stresses of the day, [bar_mitzvah_target.GetFirstName] retires to [bar_mitzvah_target.GetHerHis] chambers and wishes you good night. For better or worse, you look on the child you raised, finally grown to adulthood, and wonder what [bar_mitzvah_target.GetHerHis] future will bring.;;;;;;;;;;;;;x
+EVTOPTA_barmitzvah_8;I feel old...;;;;;;;;;;;;;x
 
 #Passover Localizations
 EVTDESC_SoA_500;More than 2,000 years ago, God aided the Children of Israel in their escape from slavery by inflicting ten plagues upon ancient Egypt. The last of these saw a spirit of the Lord slay every first-born in Egypt, but 'pass over' Jewish homes marked with the blood of a slaughtered lamb. This festival celebrates the return of freedom to the enslaved Jewish people.;Il y a plus de 2 000 ans, Dieu aida les Enfants d'Israël à fuir l'esclavage en infligeant les Dix Plaies d'Égypte. Pour la dernière de ces plaies, Dieu envoya un esprit qui causa la mort de tous les premiers-nés d'Égypte, mais qui ignora les maisons des juifs car ils en avaient marqué les portes du sang d'un agneau.\nLa fête célèbre le retour à la liberté pour le peuple juif réduit à l'esclavage.;Vor über 2000 Jahren half Gott den Kindern Israels bei ihrer Flucht aus der ägyptischen Gefangenschaft, indem er Ägypten mit 10 Plagen heimsuchte. Bei der letzten Plage schickte Gott einen Geist, der jeden Erstgeborenen in Ägypten erschlug. Nur die Häuser der Israeliten, die mit dem Blut eines geopferten Lamms gekennzeichnet waren, wurden verschont. Das Pessach-Fest wird zum Gedenken an die Rückkehr der Juden in die Freiheit gefeiert.;;Hace más de 2.000 años, Dios ayudó a los Hijos de Israel a huir de la esclavitud enviando diez plagas sobre el Antiguo Egipto. En la última de ellas un espíritu del Señor hizo matar a todos los primogénitos de Egipto, excepto los de aquellos hogares judíos cuya puerta estuviera marcada con la sangre de un cordero sacrificado. Esta festividad celebra el retorno del esclavizado pueblo judío a la libertad.;;;;;;;;;x
@@ -120,6 +151,10 @@ breslov_rejuvenated;Rejuvenated;;;;;;;;;;;;;x
 breslov_rejuvenated_desc;After some time in Hitboddedut, this ruler feel rejuvenated and in touch with HaShem;;;;;;;;;;;;;x
 breslov_foolish;Holy Chutzpah;;;;;;;;;;;;;x
 breslov_foolish_desc;After some time in Hitboddedut, this ruler has decided to live life more simply.;;;;;;;;;;;;;x
+bar_mitzvah_good;Impressive Bar Mitzvah;;;;;;;;;;;;;x
+bar_mitzvah_good_desc;After [root.GetHisHer] Bar Mitzvah, [root.GetFirstName] has impressed the nearby Jewish community with [root.GetHisHer] performance.;;;;;;;;;;;;;x
+bar_mitzvah_bad;Disasterous Bar Mitzvah;;;;;;;;;;;;;x
+bar_mitzvah_bad_desc;After [root.GetHisHer] Bar Mitzvah, [root.GetFirstName] has disappointed the nearby Jewish community with [root.GetHisHer] performance.;;;;;;;;;;;;;x
 
 ###########Jewish Title Localization###########
 
@@ -129,3 +164,5 @@ RISHON_LETZION;Rishon LeTzion;;;;;;;;;;;;;x
 
 ben_yehuda;Blood of Ben-Yehuda;;;;;;;;;;;;;x
 ben_yehuda_desc;A renowned scholar-king, who unified the squabbling [sabra.GetName] and [filastini.GetName] tribes. While his Kingdom is no more, his descendants are well-respected scholars and theologians.;;;;;;;;;;;;;x
+yiddishe_bloodline;Lord of the Yidn;;;;;;;;;;;;;x
+yiddishe_bloodline_desc;This character descends from the founder of [e_pale_settlement.GetName], who revitalized the old [yiddish.GetName] homeland.;;;;;;;;;;;;;x

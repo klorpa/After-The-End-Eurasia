@@ -1251,8 +1251,11 @@ character_event = { # Adding Passover flavor: Buying Back Chametz/Mimouna time!
 					muslim 	= { FROM = { add_trait = sympathy_islam } }
 					pagan_group = { FROM = { add_trait = sympathy_pagans } }
 					vernacular 	= { FROM = { add_trait = sympathy_vernacular } }
-					jewish_group = { FROM = { add_trait = sympathy_judaism } }
+					old_world_cultist_group = { FROM = { add_trait = sympathy_old_world_cults } }
 					indian_group = { FROM = { add_trait = sympathy_indian } }
+					scholastic = { FROM = { add_trait = sympathy_scholastic } }
+					islamosyncretic = { FROM = { add_trait = sympathy_islamosyncretic } }
+					
 				}
 			}
 		}

@@ -3,9 +3,9 @@ namespace = jewish
 #	JEWISH EVENTS - After the End Eurasia					  #
 #															  #
 #	Religious Trait Selection (jewish.1 - jewish.3)			  #
-#	Haredi Events (jewish.1x - jewish.2x)				      #
-#	Hasakalah Events (jewish.3x - jewish.4x)				  #
-#	Ivri Events (jewish.5x - jewish.6x)						  #
+#	Haredi Events (jewish.1x - jewish.3x)				      #
+#	Hasakalah Events (jewish.4x - jewish.6x)				  #
+#	Ivri Events (jewish.7x - jewish.9x)						  #
 #															  #
 #	General Jewish Holidays and Events (jewish.1xx)			  #
 #	Jewish Maintanance Events for AI (jewish.2xx)			  #
@@ -490,7 +490,71 @@ character_event = {
 	
 }
 
+#Pale of Settlement and additional Haredi events
+narrative_event = {
+	id = jewish.22
+	title = EVTTITLE_pale_settlement
+	desc = EVTDESC_pale_settlement
+	picture = GFX_evt_crusaders
+	border = GFX_event_narrative_frame_religion
+	is_triggered_only = yes
 
+	option = {	  
+		name = EVTOPTA_pale_settlement
+		trigger = {
+			religion_group = jewish_group
+		}
+		if = {
+			limit = {
+				has_landed_title = e_pale_settlement
+			}
+			prestige = 1000
+			religion_authority = { modifier = pale_settlement_established }
+			if = {
+				limit = {
+					has_dlc = "Holy Fury"
+				}
+				if = {
+					limit = {
+						is_female = yes
+					}
+					create_bloodline = {
+						type = yiddishe_bloodline
+						inheritance = matrilineal
+					}
+				}
+				else = {
+					create_bloodline = {
+						type = yiddishe_bloodline
+					}
+				}
+				set_bloodline_founder_religion_flag_effect = yes
+			}
+		}
+	}
+	option = {	  
+		name = EVTOPTB_pale_settlement
+		trigger = {
+			NOT = {
+				religion_group = jewish_group
+			}
+		}
+
+		ai_chance = {
+			factor = 1
+			trigger = {
+				OR = {
+					NOT = {
+						any_liege = {
+							religion = FROM
+						}
+					}
+					ai = no
+				}
+			}
+		}
+	}
+}
 
 ######################General Jewish Events##############
 
@@ -498,7 +562,7 @@ character_event = {
 
 character_event = { #training to read Torah
 	id = jewish.101
-	desc = EVTDESC_barmiztvah_1
+	desc = EVTDESC_barmitzvah_1
 	picture = GFX_evt_church_council
 	
 	is_triggered_only = yes
@@ -583,7 +647,7 @@ character_event = { #training to read Torah
 					mult_modifier = {#slow/stutter/cynical
 						factor = 2
 						trigger = {
-							bar_mitzvah_traget = {
+							bar_mitzvah_target = {
 								OR = {
 									trait = stutter
 									trait = slow
@@ -710,7 +774,7 @@ character_event = { #training to read Torah
 					mult_modifier = {#slow/stutter/cynical
 						factor = 2
 						trigger = {
-							bar_mitzvah_traget = {
+							bar_mitzvah_target = {
 								OR = {
 									trait = stutter
 									trait = slow
@@ -800,7 +864,7 @@ character_event = { #training to read Torah
 					mult_modifier = {#slow/stutter/cynical
 						factor = 2
 						trigger = {
-							bar_mitzvah_traget = {
+							bar_mitzvah_target = {
 								OR = {
 									trait = stutter
 									trait = slow
@@ -809,7 +873,7 @@ character_event = { #training to read Torah
 							}
 						}
 					}
-					mult_modifier = {#bad chilhood traits
+					mult_modifier = {#bad childhood traits
 						factor = 1.5
 						trigger = {
 							bar_mitzvah_target = {
@@ -849,13 +913,23 @@ character_event = { #training to read Torah
 
 character_event = { #reading in the Synagogue
 	id = jewish.102
-	desc = EVTDESC_barmiztvah_2
-	picture = GFX_evt_church_council
-	
+	picture = GFX_bar_mitzvah
+	desc = {
+		trigger = {
+			event_target:bar_mitzvah_target = { has_character_flag = torah_success }
+		}
+		text = EVTDES1_barmitzvah_2
+	}
+	desc = {
+		trigger = {
+			event_target:bar_mitzvah_target = { has_character_flag = torah_failure }
+		}
+		text = EVTDES2_barmitzvah_2
+	}
 	is_triggered_only = yes
 	
-		trigger = {
-			event_target:bar_mitzvah_target = { 
+	trigger = {
+		event_target:bar_mitzvah_target = { 
 				is_alive = yes
 		}
 
@@ -910,7 +984,7 @@ character_event = { #reading in the Synagogue
 	after = {
 		random_list = {
 			100 = { #Heir impresses visiting vassal
-				character_event = { id = jewish.103 days = 21 random = 5 } # send event
+				character_event = { id = jewish.103 days = 5 } # send event
 				trigger = {
 					any_vassal = {
 						ai = yes
@@ -937,7 +1011,7 @@ character_event = { #reading in the Synagogue
 				}
 	    	}
 			100 = { #Heir accidently insults visiting vassal
-				character_event = { id = jewish.104 days = 15 random = 5 } # send event
+				character_event = { id = jewish.104 days = 5 } # send event
 				trigger = {
 					any_vassal = {
 						ai = yes
@@ -964,7 +1038,7 @@ character_event = { #reading in the Synagogue
 				}
 			}
 			50 = { #Heir befriends vassal child
-				character_event = { id = jewish.105 days = 32 random = 5 } # send event
+				character_event = { id = jewish.105 days = 5 } # send event
 				trigger = {
 					event_target:bar_mitzvah_target = {
 						NOR = {
@@ -997,7 +1071,7 @@ character_event = { #reading in the Synagogue
 				}
 			}
 			50 = { #Heir rivals vassal child
-				character_event = { id = jewish.106 days = 13 random = 5 }
+				character_event = { id = jewish.106 days = 5 }
 				trigger = {
 					event_target:bar_mitzvah_target = {
 						NOR = {
@@ -1030,7 +1104,7 @@ character_event = { #reading in the Synagogue
 				}
 			}			
 			10 = { #Heir underperforms and becomes depressed
-				character_event = { id = jewish.107 days = 14 random = 5 } #send event
+				character_event = { id = jewish.107 days = 5 } #send event
 				trigger = {
 					event_target:bar_mitzvah_target = {
 						NOR = {
