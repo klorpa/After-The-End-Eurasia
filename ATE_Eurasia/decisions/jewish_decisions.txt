@@ -323,8 +323,7 @@ decisions = {
 	
 }
 
-targeted_decisions = {			
-			
+targeted_decisions = {						
 	bar_mitzvah = {
 		only_playable = yes
 		is_high_prio = yes
@@ -402,6 +401,73 @@ targeted_decisions = {
 				factor = 0.1
 				always = yes
 			}
+		}
+	}
+	
+	
+	interfaith_dialogue = {
+		only_playable = yes
+		filter = realm
+		ai_target_filter = realm
+		from_potential = {
+			#Conditions on the decision taker for the decision to appear. Not taken into account when filter = self, use potential instead.
+			religion = haskalah
+			NOR = {
+				has_character_flag = dialoguing
+				has_character_modifier = recently_dialogued
+			}
+			NOT ={
+				ROOT = {
+					trigger_switch ={
+						#### reminder to update as more religion groups are added
+						on_trigger = religion_group
+						christianity			= { FROM = { trait = sympathy_christendom}}
+						vernacular	 			= { FROM = { trait = sympathy_vernacular } }
+						#jewish_group 			= { trait = sympathy_judaism }}
+						pagan_group 			= { FROM = { trait = sympathy_pagans }}
+						muslim 					= { FROM = { trait = sympathy_islam }}
+						old_world_cultist_group	= { FROM = { trait = sympathy_old_world_cults }}
+						islamosyncretic			= { FROM = { trait = sympathy_islamosyncretic }}
+						scholastic				= { FROM = { trait = sympathy_scholastic }}
+					}
+				}	
+			}
+		}
+		potential = {
+			#Conditions on the targeted character for the decision to appear
+			NOT = {religion_group = jewish_group}
+			NOT = {has_trait = sympathy_judaism}
+		}
+		allow = {
+			#Conditions for the decision to be enabled
+			ROOT = {
+				NAND = {
+					trait = zealous
+					has_character_modifier = expelled_jewish
+				}
+			}
+			FROM = {
+				piety = 50
+			}
+		}	
+		effect = {
+			#Commands executed when taking the decision
+			FROM = {
+				piety = -50
+				set_character_flag = dialoguing
+				save_event_target_as = dialogue_jew
+			}
+			ROOT = {
+				character_event ={ id = jewish.31 days = 3}
+				save_event_target_as = dialogue_gentile
+			}
+		}
+		revoke_allowed = {
+			always = no #Not used in vanilla
+		}
+		ai_will_do = {
+			#Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
+			factor  = 0 #needs to add more later, now at 0 so it won't bug shit
 		}
 	}
 }

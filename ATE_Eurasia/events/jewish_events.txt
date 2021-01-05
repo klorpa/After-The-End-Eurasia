@@ -471,6 +471,7 @@ character_event = {
 		
 	}
 }
+
 character_event = {
 	id = jewish.21
 	desc = EVTDESC_hitboddedut_6
@@ -556,7 +557,78 @@ narrative_event = {
 	}
 }
 
-######################General Jewish Events##############
+
+######################HASKALAH EVENTS##################
+
+#####INTER FAITH  DIALOGUE EVNETS
+character_event = { #gentile can accept or deny it
+	id = jewish.31
+	desc = EVTDESC_dialogue_1
+	picture = GFX_evt_bishop
+	is_triggered_only = yes
+	trigger = {
+		NOT = {religion_group = jewish_group}
+	}
+	option = {
+		name = EVTOPTA_dialogue_1
+		random = {
+			chance = 60
+			add_trait = sympathy_judaism
+		}
+		FROM = {
+			character_event = {
+				id = jewish.32 #event for the jewish ruler
+				days = 3
+			}
+		}
+		ai_chance = {
+			factor = 15
+			modifier = {factor = 2 trait = kind}
+			modifier = {factor = 1.5 trait = scholar}
+		}
+	}
+	option = {
+		name = EVTOPTB_dialogue_1
+		random = {
+			chance = 15
+			add_trait = zealous
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {factor = 3 trait = stubborn}
+			modifier = {factor = 1.2 trait = proud}
+			modifier = {factor = 1.5 trait = cruel}
+		}
+	}
+}
+character_event = { #accepted, event for jew
+	id = jewish.32
+	desc = EVTDESC_dialogue_2
+	picture = GFX_evt_bishop
+	is_triggered_only = yes
+	trigger =  {religion = haskalah}
+	Option = {
+		name = EVTOPTA_dialogue_2
+		event_target:dialogue_gentile
+			trigger_switch = {##adds symapthy in accordance with gentiles religion
+				#### reminder to update as more religion groups are added
+				on_trigger = religion_group
+				christianity			= { event_target:dialogue_jew = { add_trait = sympathy_christendom}}
+				vernacular	 			= { event_target:dialogue_jew = { add_trait = sympathy_vernacular } }
+				#jewish_group 			= { add_trait = sympathy_judaism }}
+				pagan_group 			= { event_target:dialogue_jew = { add_trait = sympathy_pagans }}
+				muslim 					= { event_target:dialogue_jew = { add_trait = sympathy_islam }}
+				old_world_cultist_group	= { event_target:dialogue_jew = { add_trait = sympathy_old_world_cults }}
+				islamosyncretic			= { event_target:dialogue_jew = { add_trait = sympathy_islamosyncretic }}
+				scholastic				= { event_tar get:dialogue_jew = { add_trait = sympathy_scholastic }}
+		}
+	}
+}
+
+
+
+
+####################General Jewish Events##############
 
 #######Bar Mitzvah Events
 
@@ -1131,7 +1203,7 @@ character_event = { #reading in the Synagogue
 			}
 		}
 	}
-}
+
 ####only one of 103-107 events happen
 	
 # Heir impresses vassal
@@ -1511,8 +1583,13 @@ character_event = {
 			clr_flags_torah = yes
 		}
 	}
-}	
+}
+
+
+
 ######################AI-ONLY EVENTS#####################
+
+
 character_event = {
 	id = jewish.200
 	desc = OK
