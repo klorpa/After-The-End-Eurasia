@@ -1,0 +1,588 @@
+namespace = skc
+
+character_event = { 
+	id = skc.100
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	only_playable = yes
+	only_capable = yes
+	prisoner = no
+	min_age = 16
+
+	trigger = {
+		piety = 50
+		martial = 15
+		is_virtous = yes
+		religion = chevalier
+	}
+	
+	immediate = {
+		random_list = {
+			60 = { #Knight
+				character_event = { id = skc.101 }
+			}
+			60 = { #Bard
+				character_event = { id = skc.102 }
+			}
+			80 = {
+				modifier = {
+					factor = 3
+					ai = yes
+				}
+				modifier = {
+					factor = 1.35
+					NOT = {
+						higher_tier_than = COUNT
+					}
+				}
+				modifier = {
+					factor = 1.35
+					NOT = {
+						higher_tier_than = DUKE
+					}
+				}
+				modifier = {
+					factor = 1.75
+					is_evil_trigger = yes
+				}
+				modifier = {
+					factor = 0.65
+					is_benevolent_trigger = yes
+				}
+				modifier = {
+					factor = 1.35
+					any_courtier_or_vassal = {
+						count = 2
+						has_bloodline_flag = bloodline_knights
+					}
+				}
+				modifier = {
+					factor = 1.35
+					any_courtier_or_vassal = {
+						count = 3
+						has_bloodline_flag = bloodline_knights
+					}
+				}
+			}
+		}
+	}
+}
+
+character_event = { # Knight character arrives
+	id = skc.101
+	desc = EVTDESCHF24130
+	picture = GFX_evt_western_knights_byzantine
+	border = GFX_event_normal_frame_war
+
+	is_triggered_only = yes
+	
+	only_playable = yes
+	only_capable = yes
+	prisoner = no
+	min_age = 16
+	
+	immediate = {
+		spawn_fantastic_commander_effect = yes
+		event_target:invited_character = {
+			set_character_flag = bloodline_great_hero
+			set_character_flag = hero_knight
+			remove_trait = cruel
+			remove_trait = craven
+			add_trait = kind
+			add_trait = cavalry_leader
+		}
+	}
+	
+	option = {
+		name = EVTOPTAHF24130
+		
+		trigger = {
+			OR = { 
+				NOT = { ROOT = { has_law = succ_byzantine_elective } }  #Either not Imperial...
+				NOT = { #...Or there are no valid vassal candidates that can be commanders.
+					any_vassal = { 
+						higher_real_tier_than = BARON
+						NOT = { 
+							primary_title = { temporary = yes } 
+						}
+						OR = {
+							AND = {
+								OR = {
+									male_can_hold_minor_title_trigger = yes
+									female_can_hold_minor_commander_title_trigger = yes
+								}
+								OR = {
+									NOT = { religion = hindu }
+									trait = kshatriya
+								}
+								is_adult = yes
+							}
+							has_character_flag = special_marshal
+						}
+				
+						prisoner = no
+						NOT = { trait = incapable }
+						NOT = { is_inaccessible_trigger = yes }
+						NOT = { has_character_flag = guru }
+						NOT = { has_character_modifier = refusing_to_lead }
+						NOR = {
+							has_job_title = job_chancellor
+							has_job_title = job_marshal
+							has_job_title = job_treasurer
+							has_job_title = job_spymaster
+							has_job_title = job_spiritual
+							has_minor_title = title_commander
+						}
+					} 
+				}
+			}
+			any_realm_character = {
+				NOT = {
+					higher_tier_than = BARON
+				}
+				liege = { character = ROOT }
+				has_minor_title = title_commander
+				NOT = {
+					martial = 12
+				}
+			}
+			OR = {
+				AND = {
+					tier = COUNT
+					any_realm_character = {
+						count = 2
+						liege = { character = ROOT }
+						has_minor_title = title_commander
+					}
+				}
+				AND = {
+					tier = DUKE
+					any_realm_character = {
+						count = 4
+						liege = { character = ROOT }
+						has_minor_title = title_commander
+					}
+				}
+				AND = {
+					tier = KING
+					is_nomadic = no
+					any_realm_character = {
+						count = 6
+						liege = { character = ROOT }
+						has_minor_title = title_commander
+					}
+				}
+				AND = {
+					tier = EMPEROR
+					is_nomadic = no
+					any_realm_character = {
+						count = 8
+						liege = { character = ROOT }
+						has_minor_title = title_commander
+					}
+				}
+				AND = {
+					tier = KING
+					is_nomadic = yes
+					any_realm_character = {
+						count = 2
+						liege = { character = ROOT }
+						has_minor_title = title_commander
+					}
+				}
+				AND = {
+					tier = EMPEROR
+					is_nomadic = yes
+					any_realm_character = {
+						count = 4
+						liege = { character = ROOT }
+						has_minor_title = title_commander
+					}
+				}
+			}
+		}
+		
+		random_realm_character = {
+			limit = {
+				NOT = {
+					higher_tier_than = BARON
+				}
+				liege = { character = ROOT }
+				has_minor_title = title_commander
+				NOT = {
+					martial = 12
+				}
+			}
+			remove_title = title_commander
+			opinion = {
+				modifier = insulted
+				who = ROOT
+				years = 2
+			}
+		}
+		
+		event_target:invited_character = {
+			give_minor_title = title_commander
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTAHF24130
+		
+		trigger = {
+			OR = { 
+				NOT = { ROOT = { has_law = succ_byzantine_elective } }  #Either not Imperial...
+				NOT = { #...Or there are no valid vassal candidates that can be commanders.
+					any_vassal = { 
+						higher_real_tier_than = BARON
+						NOT = { 
+							primary_title = { temporary = yes } 
+						}
+						OR = {
+							AND = {
+								OR = {
+									male_can_hold_minor_title_trigger = yes
+									female_can_hold_minor_commander_title_trigger = yes
+								}
+								OR = {
+									NOT = { religion = hindu }
+									trait = kshatriya
+								}
+								is_adult = yes
+							}
+							has_character_flag = special_marshal
+						}
+				
+						prisoner = no
+						NOT = { trait = incapable }
+						NOT = { is_inaccessible_trigger = yes }
+						NOT = { has_character_flag = guru }
+						NOT = { has_character_modifier = refusing_to_lead }
+						NOR = {
+							has_job_title = job_chancellor
+							has_job_title = job_marshal
+							has_job_title = job_treasurer
+							has_job_title = job_spymaster
+							has_job_title = job_spiritual
+							has_minor_title = title_commander
+						}
+					} 
+				}
+			}
+			event_target:invited_character = { has_character_flag = invited_soldier }
+			OR = {
+				AND = {
+					tier = COUNT
+					NOT = {
+						any_realm_character = {
+							count = 2
+							liege = { character = ROOT }
+							has_minor_title = title_commander
+						}
+					}
+				}
+				AND = {
+					tier = DUKE
+					NOT = {
+						any_realm_character = {
+							count = 4
+							liege = { character = ROOT }
+							has_minor_title = title_commander
+						}
+					}
+				}
+				AND = {
+					tier = KING
+					is_nomadic = no
+					NOT = {
+						any_realm_character = {
+							count = 6
+							liege = { character = ROOT }
+							has_minor_title = title_commander
+						}
+					}
+				}
+				AND = {
+					tier = EMPEROR
+					is_nomadic = no
+					NOT = {
+						any_realm_character = {
+							count = 8
+							liege = { character = ROOT }
+							has_minor_title = title_commander
+						}
+					}
+				}
+				AND = {
+					tier = KING
+					is_nomadic = yes
+					NOT = {
+						any_realm_character = {
+							count = 2
+							liege = { character = ROOT }
+							has_minor_title = title_commander
+						}
+					}
+				}
+				AND = {
+					tier = EMPEROR
+					is_nomadic = yes
+					NOT = {
+						any_realm_character = {
+							count = 4
+							liege = { character = ROOT }
+							has_minor_title = title_commander
+						}
+					}
+				}
+			}
+		}
+		
+		event_target:invited_character = {
+			give_minor_title = title_commander
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}
+		}
+	}
+	
+	option = {
+		name = FANTASTIC
+		event_target:invited_character = {
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTCHF24130
+		
+		hidden_tooltip = {
+			event_target:invited_character = { 
+				death = {
+					death_reason = death_missing
+				}
+			}
+		}
+	}
+}
+
+character_event = { # Bard character arrives
+	id = skc.102
+	desc = EVTDESCHF24131
+	picture = GFX_evt_jugglers
+	border = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+	
+	only_playable = yes
+	only_capable = yes
+	prisoner = no
+	min_age = 16
+	
+	immediate = {
+		spawn_fantastic_diplomat_effect = yes
+		event_target:invited_character = {
+			add_trait = poet
+		}
+	}
+	
+	option = {
+		name = EVTOPTAHF24131
+		event_target:invited_character = {
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCHF24130
+		
+		hidden_tooltip = {
+			event_target:invited_character = { 
+				death = {
+					death_reason = death_missing
+				}
+			}
+		}
+	}
+}
+
+#Landless ladies of same religion might ask for protection.
+character_event = { 
+	id = skc.103
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	only_women = yes
+	min_age = 16
+	max_age = 30
+	only_capable = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = no
+		is_female = yes
+		NOT = { has_religion_feature = religion_matriarchal }
+		#religion_group = christian
+		is_married = no
+		NOT = { num_of_children = 1 }
+		NOT = { num_of_lovers = 1 }
+		NOT = { num_of_friends = 1 }
+		NOR = { 
+			trait = nun 
+			trait = brave
+			trait = content
+		}
+		NOT = { has_character_flag = special_marshal }
+		liege = {  
+			OR = { 
+				NOT = { religion = ROOT }
+				NOT = { reverse_opinion = { who = ROOT value = -40 } }
+				is_rival = ROOT
+			}
+			any_neighbor_independent_ruler = {  
+				age = 16
+				NOT = { trait = incapable }
+				martial = 15
+				is_virtous = yes
+				religion = chevalier
+			}
+		}
+
+	}
+
+	immediate = {
+		random = {
+			chance = 5
+			random_neighbor_independent_ruler = {  
+				limit = {  
+					age = 16
+					NOT = { trait = incapable }
+					martial = 15
+					is_virtous = yes
+					religion = chevalier
+				}
+				character_event = { id = skc.104 }
+			}
+		}
+	}
+}
+
+character_event = { # Woman asks for assistance
+	id = skc.104
+	desc = EVTDESCHF24133
+	picture = GFX_evt_homage_hf
+	border = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+	
+	#Marry her.
+	#Host her.
+	#Refuse her.
+	
+	option = {
+		name = EVTOPTAHF24133
+		trigger = {
+			is_benevolent_trigger = yes
+			is_married = no
+			is_female = no
+			FROM = { is_married = no }
+		}
+		FROM = {
+			show_scope_change = no
+			liege = {
+				show_scope_change = no
+				opinion = {
+					modifier = opinion_outraged
+					who = ROOT
+					years = 100
+				}
+			}
+		}
+		FROM = {
+			show_scope_change = no
+			opinion = {
+				modifier = opinion_saved_me
+				who = ROOT
+				years = 100
+			}
+			move_character = ROOT
+			if = {
+				limit = {
+					is_betrothed = yes
+				}
+				break_betrothal = yes
+			}
+			if = {
+				limit = {
+					is_married = yes #Multiplayer delay
+				}
+				remove_spouse = yes
+			}
+			add_spouse = ROOT
+			add_lover = ROOT
+		}
+	}
+	option = {
+		name = EVTOPTBHF24133
+		FROM = {
+			show_scope_change = no
+			liege = {
+				show_scope_change = no
+				opinion = {
+					modifier = opinion_outraged
+					who = ROOT
+					years = 100
+				}
+			}
+		}
+		FROM = {
+			show_scope_change = no
+			opinion = {
+				modifier = opinion_saved_me
+				who = ROOT
+				years = 100
+			}
+			move_character = ROOT
+			if = {
+				limit = {
+					is_betrothed = yes
+				}
+				break_betrothal = yes
+			}
+			if = {
+				limit = {
+					is_married = yes #Multiplayer delay
+				}
+				remove_spouse = yes
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCHF24133
+		tiered_piety_negative_effect = yes
+		FROM = {
+			opinion = {
+				modifier = opinion_dishonorable_scum
+				who = ROOT
+				years = 100
+			}
+		}
+	}
+}
