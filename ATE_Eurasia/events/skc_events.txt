@@ -586,3 +586,37 @@ character_event = { # Woman asks for assistance
 		}
 	}
 }
+
+narrative_event = {
+	id = skc.105
+	title = EVTNAME_skc_105
+	desc = EVTDESC_skc_105
+	picture = GFX_evt_council
+	border = GFX_event_narrative_frame_religion
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_skc_105
+		trigger = {
+			religion = sun_king_cultist
+		}
+	}
+	option = {
+		name = EVTOPTB_skc_105
+		trigger = {
+			religion_group = vernacular
+			NOT = { religion = sun_king_cultist }
+		}
+	}
+	option = {
+		name = EVTOPTC_skc_105
+		trigger = {
+			NOT = {
+				religion_group = vernacular
+			}
+		}
+	}
+}

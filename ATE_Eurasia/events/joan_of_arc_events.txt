@@ -56,10 +56,27 @@ province_event = {#creates joan and her armies
 			culture = parisian
 			age = 25
 			female = yes
-			#traits and arritributes goes here
+			trait = brilliant_strategist
+			trait = holy_warrior
+			trait = shrewd
+			trait = mystic
+			trait = chaste
+			trait = wroth
+			trait = zealous
+			trait = humble
+			trait=possessed
+			trait = malnourished
+			attributes = {
+				diplomacy = 6
+				martial = 9
+				stewardship = 5
+				intrigue = 7
+				learning = 9
+			}
 		}
 		new_character = {
-			set_name = joan
+			set_name = Jeanne
+			dynasty = 2009230 #Larchère
 			set_character_flag = is_joan
 			set_defacto_liege = THIS
 			prestige = 100
@@ -90,7 +107,7 @@ province_event = {#creates joan and her armies
 				landless = yes
 				temporary = yes
 				culture = parisian
-				name = "JOAN D'ARC ARMY"
+				name = "L'Armée du Salut"
 				holder = THIS
 			}
 			

@@ -261,8 +261,8 @@ the_spiritual_contract = {
 			is_adult = yes
 			religion = neuhumanist
 			learning = 6
-			}
 		}
+	}
 	allowed_gift = {
 		always = no 
 	}
@@ -273,7 +273,41 @@ the_spiritual_contract = {
 
 ####Chronicler Artifacts####
 
-
+radiation_detector = {
+	intrigue = 2
+	plot_power_modifier = 0.05
+	quality = 2
+	flags = { oldworld salvage }
+	active = {
+		AND = {
+			is_adult = yes
+			religion = chronicler
+		}
+	}
+	allowed_gift = {
+		always = no
+	}
+	stacking = no
+	picture = "GFX_radiation_detector"
+}
+mysterious_medical_instrument = {
+	learning = 2
+	diplomacy = 1
+	vassal_opinion = 5
+	quality = 3
+	flags = { oldworld salvage }
+	active = {
+		AND = {
+			is_adult = yes
+			religion = chronicler
+		}
+	}
+	allowed_gift = {
+		always = no
+	}
+	stacking = no
+	picture = "GFX_mysterious_medical_instrument"
+}
 
 ####Christian Artifacts####
 

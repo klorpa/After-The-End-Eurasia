@@ -1342,7 +1342,7 @@
 	trait=diligent
 	trait=proud
 	trait=stressed
-	trait=sympathy_for_vernacular
+	trait=sympathy_judaism
 	diplomacy=7
 	martial=8
 	stewardship=6
@@ -1385,6 +1385,180 @@
 	mother=1861057
 	2661.1.18={birth=yes}
 }
+
+##### 3046 - Papal History #####
+
+3046000={
+	name="Jan-Batisto"
+	dynasty=2007238 #Eyraú
+	culture=provencal
+	religion=catholic
+	diplomacy=4
+	martial=6
+	stewardship=5
+	intrigue=7
+	learning=5
+	trait=detached_priest
+	trait=zealous
+	trait=latin_rite
+	trait=drunkard
+	trait=arbitrary
+	trait=wroth
+	2599.3.14={birth=yes}
+	2649.10.13={name="Iosephus"}
+	2660.1.1={death={
+			death_reason=death_accident
+		}
+	}
+}
+3046001={
+	name="Azzedine"
+	dynasty=2044028 #Djeddaï
+	culture=kabyle
+	religion=catholic
+	diplomacy=7
+	martial=5
+	stewardship=7
+	intrigue=6
+	learning=10
+	trait=scholarly_theologian
+	trait=genius
+	trait=kind
+	trait=charitable
+	trait=stubborn
+	trait=chaste
+	trait=erudite
+	trait=honorable
+	2579.8.19={birth=yes}
+	2630.4.7={name="Cyprian"}
+	2649.10.13={death={
+			death_reason=death_natural
+		}
+	}
+}
+3046002={
+	name="Frantzisko"
+	dynasty=2014243 #De Jasso
+	culture=basque
+	religion=catholic
+	diplomacy=8
+	martial=4
+	stewardship=6
+	intrigue=5
+	learning=8
+	trait=charismatic_negociator
+	trait=diligent
+	trait=scholar
+	trait=kind
+	trait=trusting
+	trait=depressed
+	2574.3.5={birth=yes}
+	2622.3.24={name="Franciscus Xavierus"}
+	2630.4.7={death={
+			death_reason=death_cancer
+		}
+	}
+}
+3046003={
+	name="Vincent"
+	dynasty=2007239 #Thran-Boyer
+	culture=provencal
+	religion=catholic
+	diplomacy=6
+	martial=7
+	stewardship=7
+	intrigue=7
+	learning=6
+	trait=dutiful_cleric
+	trait=wroth
+	trait=selfish
+	trait=stubborn
+	trait=stressed
+	trait=strong
+	trait=patient
+	2559.9.1={birth=yes}
+	2559.9.1={culture=cantonese} #placeholder culture
+	2597.10.23={name="Titus"}
+	2622.3.24={death={
+			death_reason=death_stress
+		}
+	}
+}
+3046004={
+	name="Ian"
+	dynasty=1501000 #O'Fearghail
+	culture=irish
+	religion=catholic
+	diplomacy=5
+	martial=9
+	stewardship=6
+	intrigue=7
+	learning=7
+	trait=skilled_tactician
+	trait=heavy_cavalry_leader
+	trait=quick
+	trait=adventurer
+	trait=sympathy_vernacular
+	trait=authoritative
+	trait=ambitious
+	trait=charitable
+	2498.5.6={birth=yes}
+	2543.9.13={name="Iannus"}
+	2597.10.23={death={
+			death_reason=death_murder_unknown
+		}
+	}
+}
+3046005={
+	name="Oreste"
+	dynasty=2028199 #Ingrosso
+	culture=neapolitan
+	religion=catholic
+	diplomacy=7
+	martial=6
+	stewardship=8
+	intrigue=7
+	learning=7
+	trait=fortune_builder
+	trait=fair
+	trait=cynical
+	trait=greedy
+	trait=proud
+	trait=patient
+	2481.2.11={birth=yes}
+	2520.6.5={name="Dominicus"}
+	2547.7.7={death={
+			death_reason=death_dungeon
+		}
+	}
+}
+3046006={
+	name="Martin"
+	dynasty=1848132 #Möntzer
+	culture=rhenish
+	religion=catholic
+	diplomacy=6
+	martial=7
+	stewardship=4
+	intrigue=5
+	learning=8
+	trait=mastermind_theologian
+	trait=charitable
+	trait=zealous
+	trait=authoritative
+	trait=wroth
+	trait=diligent
+	trait=proud
+	2457.11.12={birth=yes}
+	2499.1.1={name=Martinus}
+	2520.6.5={death={
+			death_reason=death_natural
+		}
+	}
+}
+
+#### End of Papal History ####
+
 2032000={
 	name="Gianfranco" 
 	dynasty=2032259 #Alberoni

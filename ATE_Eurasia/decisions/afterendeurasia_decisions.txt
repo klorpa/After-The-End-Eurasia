@@ -302,4 +302,39 @@ decisions = {
 			}
 		}
 	}
+	become_solarque = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 12
+		
+		potential = {
+			religion = sun_king_cultist
+			d_sun_king_cultist = { has_holder = no }
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			primary_title = { higher_tier_than = DUKE }
+		}
+		
+		allow = {
+			religion = sun_king_cultist
+			has_landed_title = k_france
+			num_of_holy_sites = 3
+			piety = 150
+			wealth = 100
+		}
+		
+		effect = {
+			wealth = -100
+			piety = -150
+			set_global_flag = solarque_reborn
+			activate_title = { title = d_sun_king_cultist status = yes }
+			d_sun_king_cultist = { grant_title = ROOT }
+			narrative_event = { id = skc.1 }	
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

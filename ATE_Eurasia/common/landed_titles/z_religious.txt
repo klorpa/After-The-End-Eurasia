@@ -100,8 +100,8 @@ k_papal_state = {
 	
 	# Regnal names
 	male_names = {
-		Adeodatus Agapetus Alexander Aloisius Anastasius Anscharius Antonius Benedictus Bonifatius Caelestinus Callixtus Clemens Damasus Damianus Eduardus Engelmarus Eugenius 
-		Felix Franciscus "Franciscus Xavierus" Frumentius Gelasius Gregorius Hadrianus Honorius Ianuarius Ignatius Innocentius Ioannes "Ioannes Henricus" "Ioannes Paulus" Iosephus Julius 
+		Adeodatus Agapetus Alexander Aloisius Anastasius Anscharius Antonius Benedictus Bonifatius Caelestinus Callixtus Clemens Damasus Damianus Dominicus Eduardus Engelmarus Eugenius 
+		Felix Franciscus "Franciscus Xavierus" Frumentius Gelasius Gregorius Hadrianus Honorius Iannus Ianuarius Ignatius Innocentius Ioannes "Ioannes Henricus" "Ioannes Paulus" Iosephus Julius 
 		Leo Lucius Marcellus Marinus Martinus Maximilianus Nicolaus Paschalis Paulus Pelagius Pius Sarbelus Sergius Silvester Sixtus Stephanus Theodorus Thomas Titus Urbanus Victor Xavierus
 	}
 }
@@ -110,8 +110,10 @@ d_nysed = {
 	color={ 120 150 30 }
 	color2={ 220 220 0 }
 	
-	capital = 501 # London
+	capital = 501 # Jamtland
 	creation_requires_capital = no 
+	
+	landless = no 
 	
 	title = "ALLFADER"
 	title_female = "ALLMODER"
@@ -147,7 +149,7 @@ k_fornsed = {
 	capital = 486 
 	creation_requires_capital = no 
 	
-	landless = yes 
+	landless = no
 	
 	title = "GENERAL_SECRETARY"
 	title_female = "GENERAL_SECRETARY"
@@ -241,4 +243,37 @@ d_folketro = {
 	religion = folketro
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+d_sun_king_cultist = {
+	color = { 255 255 33 }
+	color2={ 220 220 0 }
+	
+	capital = 1551 #Paris
+	creation_requires_capital = no
+	
+	landless = no
+	
+	title = "SOLARQUE"
+	title = "SOLARQUE"
+	foa = "SOLARQUE_FOA"
+	title_prefix = "SOLARCHIE_OF"
+	
+	allow = {
+		has_global_flag = solarque_reborn
+		has_landed_title = k_france
+		religion = sun_king_cultist
+		num_of_holy_sites = 3
+		piety = 150
+		wealth = 100
+	}
+	
+	controls_religion = sun_king_cultist
+	
+	religion = sun_king_cultist
+	
+	primary = no 
+	
+	dignity = 200
+
+	dynasty_title_names = no 
 }
