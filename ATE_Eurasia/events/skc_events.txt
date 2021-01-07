@@ -1,88 +1,156 @@
 namespace = skc
 
-character_event = { 
-	id = skc.100
-	hide_window = yes
+###########Soleil Royale Events############
+
+narrative_event = { #Solarque 
+	id = skc.1
+	title = EVTNAME_skc_1
+	desc = EVTDESC_skc_1
+	picture = GFX_evt_council
+	border = GFX_event_narrative_frame_religion
 	
+	major = yes
+
 	is_triggered_only = yes
 	
-	only_playable = yes
-	only_capable = yes
-	prisoner = no
-	min_age = 16
-
-	trigger = {
-		piety = 50
-		martial = 15
-		is_virtous = yes
-		religion = chevalier
+	option = {
+		name = EVTOPTA_skc_1
+		trigger = {
+			religion = sun_king_cultist
+		}
 	}
-	
-	immediate = {
-		random_list = {
-			60 = { #Knight
-				character_event = { id = skc.101 }
-			}
-			60 = { #Bard
-				character_event = { id = skc.102 }
-			}
-			80 = {
-				modifier = {
-					factor = 3
-					ai = yes
-				}
-				modifier = {
-					factor = 1.35
-					NOT = {
-						higher_tier_than = COUNT
-					}
-				}
-				modifier = {
-					factor = 1.35
-					NOT = {
-						higher_tier_than = DUKE
-					}
-				}
-				modifier = {
-					factor = 1.75
-					is_evil_trigger = yes
-				}
-				modifier = {
-					factor = 0.65
-					is_benevolent_trigger = yes
-				}
-				modifier = {
-					factor = 1.35
-					any_courtier_or_vassal = {
-						count = 2
-						has_bloodline_flag = bloodline_knights
-					}
-				}
-				modifier = {
-					factor = 1.35
-					any_courtier_or_vassal = {
-						count = 3
-						has_bloodline_flag = bloodline_knights
-					}
-				}
+	option = {
+		name = EVTOPTB_skc_1
+		trigger = {
+			religion_group = vernacular
+			NOT = { religion = sun_king_cultist }
+		}
+	}
+	option = {
+		name = EVTOPTC_skc_1
+		trigger = {
+			NOT = {
+				religion_group = vernacular
 			}
 		}
 	}
 }
 
-character_event = { # Knight character arrives
-	id = skc.101
-	desc = EVTDESCHF24130
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_war
+########Chevalier Events##########
 
-	is_triggered_only = yes
+#Worthy Knight Events
+character_event = { #character named as a Worthy 
+	id = skc.100
+	desc = EVTDESC_worthy_chevalier
+	picture = GFX_nine_worthies
+	border = GFX_event_normal_frame_religion
 	
 	only_playable = yes
 	only_capable = yes
 	prisoner = no
 	min_age = 16
+	religion = chevalier
+
+	trigger = {
+		calc_true_if = {
+			amount >= 3
+			trait = brave
+			trait = honorable
+			trait = honest
+			trait = just
+			trait = chaste
+			trait = temperate
+			trait = charitable
+			trait = diligent
+			trait = patient
+			trait = kind
+			trait = humble
+		}
+		prestige = 750
+		martial = 15
+		religion = chevalier
+		NOR = {
+			has_character_modifier = adulterer
+			has_character_modifier = adultress
+			has_character_modifier = incestuous_adulterer
+			has_character_modifier = incestuous_adultress
+			has_character_modifier = known_murderer
+			has_character_modifier = uncivilized_dueler
+			has_character_modifier = shamed_knight
+			trait = kinslayer
+			trait = greedy
+			trait = envious
+			trait = wroth
+			trait = slothful
+			trait = greedy
+			trait = gluttonous
+			trait = lustful
+			trait = cruel
+			trait = drunkard
+			trait = craven
+			trait = hedonist
+			trait = impaler
+			trait = paranoid
+		}
+		NOT = { trait = worthy_knight }
+	}
 	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = EVTOPTA_worthy_chevalier
+		add_trait = worthy_knight
+		prestige = 100
+		piety = 100
+	}
+}
+
+character_event = { # Knight character arrives
+	id = skc.101
+	desc = EVTDESC_knight_arrives_worthy
+	picture = GFX_evt_western_knights_byzantine
+	border = GFX_event_normal_frame_war
+
+	only_playable = yes
+	only_capable = yes
+	prisoner = no
+	min_age = 16
+	
+	trigger = {
+		religion = chevalier
+		trait = worthy_knight
+		NOR = {
+
+			trait = greedy
+			trait = envious
+			trait = wroth
+			trait = slothful
+			trait = greedy
+			trait = gluttonous
+			trait = lustful
+			trait = cruel
+			trait = drunkard
+			trait = craven
+			trait = hedonist
+			trait = impaler
+			trait = paranoid
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 10
+		modifier = {
+			factor = 0.5
+			AND = {
+				prestige = 2000
+				martial = 20
+			}
+		}
+	}
+		
+
 	immediate = {
 		spawn_fantastic_commander_effect = yes
 		event_target:invited_character = {
@@ -96,7 +164,7 @@ character_event = { # Knight character arrives
 	}
 	
 	option = {
-		name = EVTOPTAHF24130
+		name = EVTOPTA_knight_arrives_worthy
 		
 		trigger = {
 			OR = { 
@@ -234,7 +302,7 @@ character_event = { # Knight character arrives
 	}
 
 	option = {
-		name = EVTOPTAHF24130
+		name = EVTOPTA_knight_arrives_worthy
 		
 		trigger = {
 			OR = { 
@@ -367,7 +435,7 @@ character_event = { # Knight character arrives
 	}
 	
 	option = {
-		name = EVTOPTCHF24130
+		name = EVTOPTB_knight_arrives_worthy
 		
 		hidden_tooltip = {
 			event_target:invited_character = { 
@@ -381,16 +449,46 @@ character_event = { # Knight character arrives
 
 character_event = { # Bard character arrives
 	id = skc.102
-	desc = EVTDESCHF24131
+	desc = EVTDESC_bard_arrives_worthy
 	picture = GFX_evt_jugglers
 	border = GFX_event_normal_frame_diplomacy
-
-	is_triggered_only = yes
 	
 	only_playable = yes
 	only_capable = yes
 	prisoner = no
 	min_age = 16
+	
+	trigger = {
+		religion = chevalier
+		trait = worthy_knight
+		NOR = {
+
+			trait = greedy
+			trait = envious
+			trait = wroth
+			trait = slothful
+			trait = greedy
+			trait = gluttonous
+			trait = lustful
+			trait = cruel
+			trait = drunkard
+			trait = craven
+			trait = hedonist
+			trait = impaler
+			trait = paranoid
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 10
+		modifier = {
+			factor = 0.5
+			AND = {
+				prestige = 2000
+				martial = 20
+			}
+		}
+	}
 	
 	immediate = {
 		spawn_fantastic_diplomat_effect = yes
@@ -400,7 +498,7 @@ character_event = { # Bard character arrives
 	}
 	
 	option = {
-		name = EVTOPTAHF24131
+		name = EVTOPTA_bard_arrives_worthy
 		event_target:invited_character = {
 			opinion = {
 				modifier = opinion_loyal_servant
@@ -410,7 +508,7 @@ character_event = { # Bard character arrives
 		}
 	}
 	option = {
-		name = EVTOPTCHF24130
+		name = EVTOPTB_knight_arrives_worthy
 		
 		hidden_tooltip = {
 			event_target:invited_character = { 
@@ -422,7 +520,7 @@ character_event = { # Bard character arrives
 	}
 }
 
-#Landless ladies of same religion might ask for protection.
+#Landless ladies  might ask for protection.
 character_event = { 
 	id = skc.103
 	hide_window = yes
@@ -439,7 +537,6 @@ character_event = {
 		is_ruler = no
 		is_female = yes
 		NOT = { has_religion_feature = religion_matriarchal }
-		#religion_group = christian
 		is_married = no
 		NOT = { num_of_children = 1 }
 		NOT = { num_of_lovers = 1 }
@@ -457,11 +554,11 @@ character_event = {
 				is_rival = ROOT
 			}
 			any_neighbor_independent_ruler = {  
-				age = 16
-				NOT = { trait = incapable }
-				martial = 15
-				is_virtous = yes
-				religion = chevalier
+				AND = {
+					NOT = { trait = incapable }
+					religion = chevalier
+					trait = worthy_knight
+				}
 			}
 		}
 
@@ -472,13 +569,11 @@ character_event = {
 			chance = 5
 			random_neighbor_independent_ruler = {  
 				limit = {  
-					age = 16
 					NOT = { trait = incapable }
-					martial = 15
-					is_virtous = yes
 					religion = chevalier
+					trait = worthy_knight
 				}
-				character_event = { id = skc.104 }
+				character_event = { id = skc.104 } #adding a duel in here
 			}
 		}
 	}
@@ -486,8 +581,8 @@ character_event = {
 
 character_event = { # Woman asks for assistance
 	id = skc.104
-	desc = EVTDESCHF24133
-	picture = GFX_evt_homage_hf
+	desc = EVTDESC_damsel_distress_1
+	picture = GFX_evt_bloodlines
 	border = GFX_event_normal_frame_diplomacy
 
 	is_triggered_only = yes
@@ -496,15 +591,118 @@ character_event = { # Woman asks for assistance
 	#Host her.
 	#Refuse her.
 	
+	
+	
 	option = {
-		name = EVTOPTAHF24133
+		name = EVTOPTA_damsel_distress_1
+		FROM = {
+			save_event_target_as = damsel_in_distress
+		}
+		character_event = [ id = skc.105 days = 7 }
+	}
+
+	option = {
+		name = EVTOPTB_damsel_distress_1
+		tiered_piety_negative_effect = yes
+		FROM = {
+			opinion = {
+				modifier = opinion_dishonorable_scum
+				who = ROOT
+				years = 100
+			}
+		}
+	}
+}
+
+character_event = { # Duel for the Damsel!
+	id = skc.105
+	desc = EVTDESC_damsel_distress_2
+	picture = GFX_evt_duel_scene
+	border = GFX_event_normal_frame_war
+
+	is_triggered_only = yes
+	portrait = event_target:combatant_2
+
+	#Marry her.
+	#Host her.
+	#Refuse her.
+	
+	
+    immediate = {
+        event_target:damsel_in_distress = { #choose a target...
+            any_host_courtier = {
+                limit = { 
+                    prisoner = no
+                    society_rank == 4
+                    ai = yes
+                    NOT = { trait = incapable }
+                    NOT = { has_character_flag = call_to_legend_active }
+                }
+                score_value = { #Prioritizes selecting some kind of warrior...
+                    value = 100
+                    has_assigned_minor_title = { title = title_commander }
+                }
+                save_event_target_as = combatant_2
+            }
+        }
+        save_event_target_as = combatant_1
+    }
+
+    option = {
+        name = EVTOPTA_damsel_distress_2 #I have been itching for a fight anyway!
+        character_event = { id = HFP.10100 } #Send actual duel events... 
+		character_event = { id = skc.106 days = 2 }
+    }
+	
+
+
+	option = {
+		name = EVTOPTB_damsel_distress_2
+		tiered_piety_negative_effect = yes
+		event_target:damsel_in_distress = {
+			opinion = {
+				modifier = opinion_dishonorable_scum
+				who = ROOT
+				years = 100
+			}
+		}
+	}
+}
+
+
+character_event = { # victory or defeat
+	id = skc.106
+	picture = GFX_evt_homage_hf
+	border = GFX_event_normal_frame_diplomacy
+	is_triggered_only = yes
+
+	desc = {
+		trigger = { has_character_modifier = recent_duel_victory }
+		text = EVTDES1_damsel_distress_3
+		picture = GFX_evt_homage_hf
+    }
+    desc = {
+		trigger = { NOT = { has_character_modifier = recent_duel_victory } }
+		text = EVTDES2_damsel_distress_3
+		picture = GFX_evt_bad_news_soa
+    }
+	is_triggered_only = yes
+	
+	
+	#Marry her.
+	#Host her.
+	#Refuse her.
+	
+	option = {
+		name = EVTOPTA_damsel_distress_3
 		trigger = {
+			has_character_modifier = recent_duel_victory
 			is_benevolent_trigger = yes
 			is_married = no
 			is_female = no
-			FROM = { is_married = no }
+			event_target:damsel_in_distress = { is_married = no }
 		}
-		FROM = {
+		event_target:damsel_in_distress = {
 			show_scope_change = no
 			liege = {
 				show_scope_change = no
@@ -515,7 +713,7 @@ character_event = { # Woman asks for assistance
 				}
 			}
 		}
-		FROM = {
+		event_target:damsel_in_distress = {
 			show_scope_change = no
 			opinion = {
 				modifier = opinion_saved_me
@@ -540,7 +738,10 @@ character_event = { # Woman asks for assistance
 		}
 	}
 	option = {
-		name = EVTOPTBHF24133
+		trigger = {
+			has_character_modifier = recent_duel_victory
+		}
+		name = EVTOPTB_damsel_distress_3
 		FROM = {
 			show_scope_change = no
 			liege = {
@@ -575,48 +776,107 @@ character_event = { # Woman asks for assistance
 		}
 	}
 	option = {
-		name = EVTOPTCHF24133
-		tiered_piety_negative_effect = yes
-		FROM = {
-			opinion = {
-				modifier = opinion_dishonorable_scum
-				who = ROOT
-				years = 100
+		trigger = {
+			NOT =  { has_character_modifier = recent_duel_victory }
+		}
+		name = EVTOPTC_damsel_distress_3
+		event_target:damsel_in_distress = {
+			show_scope_change = no
+			liege = {
+				show_scope_change = no
+				opinion = {
+					modifier = opinion_outraged
+					who = ROOT
+					years = 100
+				}
 			}
 		}
 	}
 }
 
-narrative_event = {
-	id = skc.105
-	title = EVTNAME_skc_105
-	desc = EVTDESC_skc_105
-	picture = GFX_evt_council
-	border = GFX_event_narrative_frame_religion
-	
-	major = yes
 
-	is_triggered_only = yes
+
+character_event = { #character rejected as a Worthy 
+	id = skc.107
+	desc = EVTDESC_unworthy_chevalier
+	picture = GFX_nine_worthies
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+	only_capable = yes
+	prisoner = no
+	min_age = 16
+	religion = chevalier
+
+	trigger = {
+		OR = {
+			has_character_modifier = adulterer
+			has_character_modifier = adultress
+			has_character_modifier = incestuous_adulterer
+			has_character_modifier = incestuous_adultress
+			has_character_modifier = known_murderer
+			has_character_modifier = uncivilized_dueler			
+			trait = kinslayer
+			trait = greedy
+			trait = envious
+			trait = wroth
+			trait = slothful
+			trait = greedy
+			trait = gluttonous
+			trait = lustful
+			trait = cruel
+			trait = drunkard
+			trait = craven
+			trait = hedonist
+			trait = impaler
+			trait = paranoid
+		}
+		trait = worthy_knight
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = .001
+			OR = {
+				has_character_modifier = adulterer
+				has_character_modifier = adultress
+				has_character_modifier = incestuous_adulterer
+				has_character_modifier = incestuous_adultress
+				has_character_modifier = known_murderer
+				has_character_modifier = uncivilized_dueler
+				trait = kinslayer
+			}
+		}
+		modifier = {
+			factor = .25
+			calc_true_if = {
+				amount >= 2
+				trait = greedy
+				trait = envious
+				trait = wroth
+				trait = slothful
+				trait = greedy
+				trait = gluttonous
+				trait = lustful
+				trait = cruel
+				trait = drunkard
+				trait = craven
+				trait = hedonist
+				trait = impaler
+				trait = paranoid
+			}
+		}
+	}
 	
 	option = {
-		name = EVTOPTA_skc_105
-		trigger = {
-			religion = sun_king_cultist
-		}
-	}
-	option = {
-		name = EVTOPTB_skc_105
-		trigger = {
-			religion_group = vernacular
-			NOT = { religion = sun_king_cultist }
-		}
-	}
-	option = {
-		name = EVTOPTC_skc_105
-		trigger = {
-			NOT = {
-				religion_group = vernacular
-			}
+		name = EVTOPTA_unworthy_chevalier
+		remove_trait = worthy_knight
+		prestige = -100
+		piety = -100
+		add_character_modifier = {
+			name = shamed_knight
+			years = 10
 		}
 	}
 }

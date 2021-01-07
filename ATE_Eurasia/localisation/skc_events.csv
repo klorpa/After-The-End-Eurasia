@@ -1,5 +1,40 @@
-EVTNAME_skc_105;A Solarque Reborn;;;;;;;;;;;;;x
-EVTDESC_skc_105; After decades of submission under the reign of foolish heathens, the Soleil Royal faith has restored it's original splendor and luminous glory. Thanks to many worthy conquests in the name of [sun_king_cultist.GetHighGodName], the partisans of the Diable have been pushed back to lands not graced by his luminous kingship of the newly anointed Solarque.;;;;;;;;;;;;;x
-EVTOPTA_skc_105;Long live the Solarque!;;;;;;;;;;;;;x
-EVTOPTB_skc_105;That is none of our business.;;;;;;;;;;;;;x
-EVTOPTC_skc_105;Foolish heathens, God will punish them!;;;;;;;;;;;;;x
+EVTNAME_skc_1;A Solarque Reborn;;;;;;;;;;;;;x
+EVTDESC_skc_1; After decades of submission under the reign of foolish heathens, the Soleil Royal faith has restored it's original splendor and luminous glory. Thanks to many worthy conquests in the name of [sun_king_cultist.GetHighGodName], the partisans of the Diable have been pushed back to lands not graced by his luminous kingship of the newly anointed Solarque.;;;;;;;;;;;;;x
+EVTOPTA_skc_1;Long live the Solarque!;;;;;;;;;;;;;x
+EVTOPTB_skc_1;That is none of our business.;;;;;;;;;;;;;x
+EVTOPTC_skc_1;Foolish heathens, God will punish them!;;;;;;;;;;;;;x
+
+
+EVTDESC_worthy_chevalier;Your valiant deeds have become known by many throughout the [chevalier.GetName] world. Many priests have begun to speak of you in reverent tones, hailing you as a Worthy, a knight whose valor and virtues are fit for comparison to those of the Nine Worthies of Old.;;;;;;;;;;;;;x
+EVTOPTA_worthy_chevalier;I hope that I prove worthy of this honor;;;;;;;;;;;;;x
+EVTDESC_knight_arrives_worthy;A wandering knight has arrived to my court, drawn in by the tales of my virtue and valiance. [invited_character.GetSheHeCap] claims to have traveled far and wide, searching for a liege worth following, and that [invited_character.GetSheHe] wishes to pledge [invited_character.GetHerselfHimself] to my service.;;;;;;;;;;;;x
+EVTOPTA_knight_arrives_worthy;I will give you command of an army.;;;;;;;;;;;;x
+EVTOPTB_knight_arrives_worthy;I am sorry, but my court is full.;;;;;;;;;;;;x
+EVTDESC_bard_arrives_worthy;A wandering bard has arrived at my court, drawn in by the great tales of my valor and honor. [invited_character.GetSheHeCap] claims that [invited_character.GetSheHe] wishes to pledge [invited_character.GetHerHis] loyalty to me and sing about the great deeds of my dynasty.;;;;;;;;;;;;x
+EVTOPTA_bard_arrives_worthy;You are welcome!;;;;;;;;;;;;x
+EVTDESC_damsel_distress_1;I have received a distraught message from a damsel in need. [From.GetTitledFirstName] is suffering under the yoke of an uncouth [From.Liege.GetManWoman] with no honor. Hearing tales of my valor and my status as a Worthy Knight of the Chevaliers, [From.GetSheHe] pleads me to offer [From.GetHerHim] my protection.;;;;;;;;;;;;x
+EVTOPTA_damsel_distress_1;Fear not, my [From.GetLordLady]! I will protect you!;;;;;;;;;;;;x
+EVTOPTB_damsel_distress_1;Unfortunately, I cannot offer assistance now.;;;;;;;;;;;;x
+EVTDESC_damsel_distress_2;After a long week on the road, I have arrived at the castle to deliver [event_target:damsel_in_distress.GetTitledFirstName] from [event_target:damsel_in_distress.GetHerHis] captors. Soon, I am faced with the commander of guard, who has heard the tales of my skill in combat. He agrees to release [event_target:damsel_in_distress.GetTitledFirstName]  if I can defeat him in a duel.;;;;;;;;;;;;x
+EVTOPTA_damsel_distress_2;Alright then! En Garde!;;;;;;;;;;;;x
+EVTOPTB_damsel_distress_2;On second thought, I better head home...;;;;;;;;;;;;x
+
+EVTDES1_damsel_distress_3;While the duel was hard-fought, you have emerged as the victor. [event_target:damsel_in_distress.GetTitledFirstName] falls into your arms, thanking you endlessly for taking [event_target:damsel_in_distress.GetHerHim] away from this dreaded place. ;;;;;;;;;;;;x
+EVTDES2_damsel_distress_3;You have been  defeated in the duel and must ride home to your castle in shame, without rescuing [event_target:damsel_in_distress.GetTitledFirstName]. ;;;;;;;;;;;;x
+EVTOPTA_damsel_distress_3;My Lady! May I have your hand?;;;;;;;;;;;;x
+EVTOPTB_damsel_distress_3;You will be welcome to stay in my court;;;;;;;;;;;;x
+EVTOPTC_damsel_distress_3;I will never live this down...;;;;;;;;;;;;x
+
+EVTDESC_unworthy_chevalier;While once you were once known for valor and virtue, your sins have become too apparent. The priests who once spoke of you as a Worthy now spit at the mention of your name. At least for now, your time in their favor is over.;;;;;;;;;;;;;x
+EVTOPTA_unworthy_chevalier;I ought to look over my sins.;;;;;;;;;;;;;x
+
+
+##traits
+worthy_knight;Worthy;;;;;;;;;;;;;x
+worthy_knight_desc;The [chevalier.GetName] priesthood has recognized this character as a Worthy, a valiant knight for whom other chevaliers will flock to [this.GetHerHis] banners.;;;;;;;;;;;;;x
+##modifier
+shamed_knight;Shamed Knight;;;;;;;;;;;;;x
+shamed_knight_desc;This Knight has lost [this.GetHerHis] position as a Worthy of the [chevalier.GetName], leaving [this.GetHerHim] in shame.;;;;;;;;;;;;;x
+both_chevalier_tt;Both chatacerts follow the [chevalier.GetName] Religion.;;;;;;;;;;;;;x
+sun_king_cultist_opinion;Soleil Royal Opinion;;;;;;;;;;;;;x
+chevalier_opinion;Chévalier Opinion;;;;;;;;;;;;;x
