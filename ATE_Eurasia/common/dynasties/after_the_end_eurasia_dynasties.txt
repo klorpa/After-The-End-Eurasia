@@ -5473,8 +5473,19 @@
 2009227 = { name="Duras" culture=parisian }
 2009228 = { name="Outreterre" culture=parisian }
 2009229 = { name="Dubellay" culture=parisian }
-2009230 = { name="Larchère" culture=parisian }
-
+2009230 = { name="Larchère" culture=parisian
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2010001 = { name="Abgrall" culture=breton }
 2010002 = { name="Abjean" culture=breton }
 2010003 = { name="Armez" culture=breton }
