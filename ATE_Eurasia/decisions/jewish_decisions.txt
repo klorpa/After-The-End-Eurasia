@@ -423,7 +423,7 @@ targeted_decisions = {
 						on_trigger = religion_group
 						christianity			= { FROM = { trait = sympathy_christendom}}
 						vernacular	 			= { FROM = { trait = sympathy_vernacular } }
-						#jewish_group 			= { trait = sympathy_judaism }}
+						#jewish_group 			= { FROM = { trait = sympathy_judaism }}
 						pagan_group 			= { FROM = { trait = sympathy_pagans }}
 						muslim 					= { FROM = { trait = sympathy_islam }}
 						old_world_cultist_group	= { FROM = { trait = sympathy_old_world_cults }}
