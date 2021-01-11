@@ -42,7 +42,7 @@ character_event = {
 			modifier = { factor = 1.5 trait = proud }
 			modifier = { factor = 5 culture = sefardi }
 			modifier = { factor = 1 culture = sabra }
-			madifier = { factor = 5 culture = yiddish }
+			modifier = { factor = 5 culture = yiddish }
 		}
 	}
 
@@ -82,7 +82,7 @@ character_event = {
 			modifier = { factor = 1.5 trait = gregarious }
 			modifier = { factor = 0.1 culture = sefardi }
 			modifier = { factor = 0.1 culture = sabra }
-			madifier = { factor = 5 culture = yiddish }
+			modifier = { factor = 5 culture = yiddish }
 		}
 	}
 
@@ -609,18 +609,19 @@ character_event = { #accepted, event for jew
 	trigger =  {religion = haskalah}
 	Option = {
 		name = EVTOPTA_dialogue_2
-		event_target:dialogue_gentile
+		event_target:dialogue_gentile = {
 			trigger_switch = {##adds symapthy in accordance with gentiles religion
 				#### reminder to update as more religion groups are added
 				on_trigger = religion_group
-				christianity			= { event_target:dialogue_jew = { add_trait = sympathy_christendom}}
-				vernacular	 			= { event_target:dialogue_jew = { add_trait = sympathy_vernacular } }
+				christianity			= { ROOT = { add_trait = sympathy_christendom}}
+				vernacular	 			= { ROOT = { add_trait = sympathy_vernacular } }
 				#jewish_group 			= { add_trait = sympathy_judaism }}
-				pagan_group 			= { event_target:dialogue_jew = { add_trait = sympathy_pagans }}
-				muslim 					= { event_target:dialogue_jew = { add_trait = sympathy_islam }}
-				old_world_cultist_group	= { event_target:dialogue_jew = { add_trait = sympathy_old_world_cults }}
-				islamosyncretic			= { event_target:dialogue_jew = { add_trait = sympathy_islamosyncretic }}
-				scholastic				= { event_tar get:dialogue_jew = { add_trait = sympathy_scholastic }}
+				pagan_group 			= { ROOT = { add_trait = sympathy_pagans }}
+				muslim 					= { ROOT = { add_trait = sympathy_islam }}
+				old_world_cultist_group	= { ROOT = { add_trait = sympathy_old_world_cults }}
+				islamosyncretic			= { ROOT = { add_trait = sympathy_islamosyncretic }}
+				scholastic				= { ROOT = { add_trait = sympathy_scholastic }}
+			}
 		}
 	}
 }

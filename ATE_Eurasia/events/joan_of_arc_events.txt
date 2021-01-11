@@ -6,7 +6,9 @@ narrative_event = { #Some crazy fucknut claims to liberate the cursed city of Pa
     title = EVTTITLE_joan_1
     desc = EVTDESC_joan_1
     picture = GFX_evt_bandits
-
+	
+	major = yes
+	
     only_independent = yes 
     only_playable = yes
 
@@ -34,12 +36,29 @@ narrative_event = { #Some crazy fucknut claims to liberate the cursed city of Pa
     }
     immediate = {
         set_global_flag = joan_of_arc_revolt_spawned
-    }
-    option = {
-        name = EVTOPTA_joan_1
-        1551 = {
+		1551 = {
 			hidden_tooltip = { 
 				province_event = { id = joan.2 } 
+			}
+		}
+    }
+    option = {#locs for frenchies
+        name = EVTOPTA_joan_1
+		trigger = {
+			NOR = {
+				religion = jacobin
+				religion = sun_king_cultist
+				religion = chronicler
+			}
+		}
+    }
+	option = {#locs for non french
+        name = EVTOPTB_joan_1
+		trigger = {
+			OR = {
+				religion = jacobin
+				religion = sun_king_cultist
+				religion = chronicler
 			}
 		}
     }
@@ -53,6 +72,8 @@ province_event = {#creates joan and her armies
 		create_character = {
 			random_traits = no
 			religion  = ROOT
+			name = "Jeanne"
+			dynasty = 2009230 #Larchère
 			culture = parisian
 			age = 25
 			female = yes
@@ -64,8 +85,8 @@ province_event = {#creates joan and her armies
 			trait = wroth
 			trait = zealous
 			trait = humble
-			trait=possessed
-			trait = malnourished
+			trait = possessed
+			trait = is_malnourished
 			attributes = {
 				diplomacy = 6
 				martial = 9
@@ -75,8 +96,6 @@ province_event = {#creates joan and her armies
 			}
 		}
 		new_character = {
-			set_name = Jeanne
-			dynasty = 2009230 #Larchère
 			set_character_flag = is_joan
 			set_defacto_liege = THIS
 			prestige = 100
@@ -107,7 +126,7 @@ province_event = {#creates joan and her armies
 				landless = yes
 				temporary = yes
 				culture = parisian
-				name = "L'Armée du Salut"
+				name = JOAN_ARMY
 				holder = THIS
 			}
 			
@@ -159,7 +178,7 @@ province_event = {#creates joan and her armies
 					FROM = {
 						reverse_war = {
 							target = PREVPREV
-							casus_belli = claim
+							casus_belli = joan_revolt
 							thirdparty_title = PREV
 						}
 					}
@@ -183,8 +202,6 @@ character_event = {#Ping event so that joan is the FROM in joan.4, no one sees i
             letter_event = { id = joan.4 }
         }
 	}
-
-	option = { name = OK } # must always have an option
 }
 
 letter_event = { #Good ol' Jeanne wants yo troops
@@ -200,7 +217,7 @@ letter_event = { #Good ol' Jeanne wants yo troops
     option = { #yes
         name = EVTOPTA_joan_4
         custom_tooltip = { text = TXT_EVTOPTA_joan_4 }
-        PREV = { join_attacker_wars = FROM }
+        join_attacker_wars = FROM
 
         ai_chance = {
             factor = 100
@@ -270,52 +287,14 @@ character_event = { #gets claims on the other infidel duchies in the french hear
 	#border = GFX_event_narrative_frame
 	#Conditions
 	has_character_flag = is_joan
-	trigger = {
-		has_landed_title = d_ile_de_france
-		war = no
-		NOT = { has_character_flag = conquering_infidel_france }
-		OR = {#at least one ducy in k_france is of a non-french religion
-			d_berry = { holder_scope = { NOR = {
-				religion = jacobin
-				religion = chronicler
-				religion = sun_king_cultist 
-			}}}
-			d_loire = { holder_scope = { NOR = {
-						religion = jacobin
-						religion = chronicler
-						religion = sun_king_cultist 
-			}}}
-			d_nord = { holder_scope = { NOR = {
-						religion = jacobin
-						religion = chronicler
-						religion = sun_king_cultist 
-			}}}
-			d_normandy = { holder_scope = { NOR = {
-						religion = jacobin
-						religion = chronicler
-						religion = sun_king_cultist 
-			}}}
-			d_orleanais = { holder_scope = { NOR = {
-						religion = jacobin
-						religion = chronicler
-						religion = sun_king_cultist 
-			}}}
-			d_picardy = { holder_scope = { NOR = {
-						religion = jacobin
-						religion = chronicler
-						religion = sun_king_cultist 
-			}}}
-		}
+	is_triggered_only = yes
+	immediate = {
+		set_government_type = feudal_government#temporary measure until pirate gov gets reworked
 	}
-	mean_time_to_happen = {
-		days = 5
-	}
-	
 	option = {
 		name = EVTOPTA_joan_5
 		prestige = 50
 		piety = 100
-		set_character_flag = conquering_infidel_france
 		grant_title = k_joan_darc
 		#sets claims on appropriate non french duchies
 		if = {
