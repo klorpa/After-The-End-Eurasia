@@ -605,4 +605,70 @@ central_germanic = {
 
 		modifier = default_culture_modifier
 	}
+	palzisch = {
+		graphical_cultures = { germangfx }
+
+		color = { 0.2 1.5 0.15 }
+
+
+		male_names = {
+			Achim Albert Alexander Alfons Andreas_Andrew Anton_Anthony August 
+			Benedikt_Benedict Benjamin Bernhard_Bernard Bonifaz
+			Christian Christoph
+			Dagobert Daniel David Dietrich
+			Eberhard Edmund Elias_Elijah Emil Ernst Erwin
+			Fabian Felix Frank Franz Fridolin Friedrich_Frederick Fritz
+			Gebhard Georg_George Gerd Gerhard_Gerard Guido Günter
+			Hannes Hans "Hans Jürgen" Heiner_Henry Heinrich_Henry Henner_Henry Herbert Hermann "Hermann Josef” Horst
+			Jacques_Jacob Jakob_Jacob Jean_John Jens Joachim Jochen Johannes_John "Johann Philip" Jonas Jonathan_John Josef Julian Julius
+			Karl_Carl "Karl Ludwig" "Karl Rudolf" Klaus Konstantin_Constantin Kornelius_Cornelius Kurt
+			Leberecht Leonhardt_Leonard Lorenz Lothar Ludwig Ludwig_Louis Lukas_Lucas
+			Manfred Markus_Marcus Martin Maximilian Melchior Michael 
+			Nikolas_Nicolas Noah Norbert
+			Oskar_Oscar Otto Ottmar
+			Paul Peter Philipp_Philip
+			Ralf_Ralph Raphael Roland Rolf_Rudolph Rudi_Rudolph Rudolf_Rudolph
+			Samuel Sebastian Silvia Stefan_Stephen
+			Thomas Tobias
+			Ulrich
+			Valentin_Valentine Volker 
+			Walter Wilfried Wilhelm_William Willi_William 
+		}
+		female_names = {
+			Amelie Andrea Anke Anna_Anne Anneliese Astrid
+			Barbara Beate Birgit Bäppche
+			Charlotte Christel_Christine Christina Christine_Christina 
+                        Doris Dorothea
+			Edith Elfriede Elisabeth Else Elvira Emilia Emma Erika_Erica Esther Eva_Eve
+			Fanny Franziska_Francisca Freya Friederike
+                        Gisela Greta
+			Hannah Hannelore Hedwig Helena_Helen Helga Hildegard
+                        Ilse Ingeborg Irmgard Isabell_Isabella
+			Johanna Judith Julia Jutta
+			Karoline_Caroline Katharina_Catherine Kathrin_Catherine Kerstin_Christina Klara_Clara
+                        Laura Lisa Liselotte Lotte_Charlotte Louisa Lydia 
+			Magdalena Margit Maria Marie_Mary Marliese Martha Mathilda Miriam Monika_Monica
+                        Natalie Nina
+                        Paula Petra
+                        Regina Ruth
+			Sabine Sarah Sophia Sophie_Sophia Stefanie_Stephanie Susanne Sylvia
+                        Therese 
+			Ursula Ulrike Ute 
+			Vanessa Vera
+			Waltraud
+		}
+			
+		from_dynasty_prefix = "von "
+
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
 }
