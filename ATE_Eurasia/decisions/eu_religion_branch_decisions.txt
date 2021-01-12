@@ -93,7 +93,7 @@ decisions = {
 			religion = chronicler
 			is_playable = yes 
 			NOT = {
-				has_alternate_start_parameter = { key = religion_names = random }
+				has_alternate_start_parameter = { key = religion_names value = random }
 			}
 			NOT = { has_character_flag = changedchroniclerbranch }
 		}
@@ -118,7 +118,7 @@ decisions = {
 			religion = folketro
 			is_playable = yes 
 			NOT = {
-				has_alternate_start_parameter = { key = religion_names = random }
+				has_alternate_start_parameter = { key = religion_names value = random }
 			}
 			NOT = { has_character_flag = changedfolketrobranch }
 		}

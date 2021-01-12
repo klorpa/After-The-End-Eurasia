@@ -204,7 +204,7 @@ narrative_event = {
 		if = {
 			has_character_flag = vis_postructuralism
 			
-			random list = {
+			random_list = {
 			
 			30 = {
 				change_martial = 2
@@ -257,7 +257,7 @@ narrative_event = {
 		piety = 50
 		prestige = 50
 		remove_trait = on_pilgrimage
-		add_character_modifier = { name = salon_done duration = months = 12}
+		add_character_modifier = { name = salon_done months = 12}
 	}
 }
 

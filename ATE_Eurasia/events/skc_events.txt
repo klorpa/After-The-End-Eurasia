@@ -598,7 +598,7 @@ character_event = { # Woman asks for assistance
 		FROM = {
 			save_event_target_as = damsel_in_distress
 		}
-		character_event = [ id = skc.105 days = 7 }
+		character_event = { id = skc.105 days = 7 }
 	}
 
 	option = {

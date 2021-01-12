@@ -17,7 +17,7 @@ de_jure_laws = {
 		}
 		allow = {
 			has_law = culture_tolerance_1
-			TECH_CULTURE_FLEX>=1
+			TECH_CULTURE_FLEX>=2
 		}
 
 		revoke_allowed = {
@@ -32,7 +32,7 @@ de_jure_laws = {
 		}
 		
 		pass_effect = {
-			ROOT = {
+			owner = {
 				hidden_tooltip = {
 					any_realm_province = {	
 						remove_province_modifier = autonomous_province
@@ -86,6 +86,16 @@ de_jure_laws = {
 		ai_will_revoke = {
 			factor = 0
 		}
+		pass_effect = {
+			owner = {
+				hidden_tooltip = {
+					any_realm_province = {	
+						remove_province_modifier = autonomous_province
+						remove_province_modifier = assimilationist_province
+					}	
+				}
+			}
+		}
 		effect = {
 			hidden_tooltip = {
 				revoke_law = culture_tolerance_0
@@ -123,7 +133,7 @@ de_jure_laws = {
 		}
 		
 		pass_effect = {
-			ROOT = {
+			owner = {
 				hidden_tooltip = {
 					any_realm_province = {	
 						remove_province_modifier = autonomous_province
@@ -174,7 +184,7 @@ de_jure_laws = {
 		
 		pass_effect = {
 			hidden_tooltip = {
-				ROOT = {
+				owner = {
 					any_realm_province = {
 						remove_province_modifier = pacifist_province
 						remove_province_modifier = tolerant_province
@@ -239,7 +249,7 @@ de_jure_laws = {
 		
 		pass_effect = {
 			hidden_tooltip = {
-				ROOT = {
+				owner = {
 					any_realm_province = {	
 						remove_province_modifier = pacifist_province
 						remove_province_modifier = tolerant_province
@@ -305,6 +315,18 @@ de_jure_laws = {
 		ai_will_revoke = {
 			factor = 0
 		}
+		pass_effect = {
+			hidden_tooltip = {
+				owner = {
+					any_realm_province = {	
+						remove_province_modifier = pacifist_province
+						remove_province_modifier = tolerant_province
+						remove_province_modifier = dogmatic_province
+						remove_province_modifier = inquisitional_province
+					}
+				}
+			}
+		}
 		effect = {
 			hidden_tooltip = {
 				revoke_law = religion_tolerance_0
@@ -347,7 +369,7 @@ de_jure_laws = {
 		
 		pass_effect = {
 			hidden_tooltip = {
-				ROOT = {
+				owner = {
 					any_realm_province = {	
 						remove_province_modifier = pacifist_province
 						remove_province_modifier = tolerant_province
@@ -413,7 +435,7 @@ de_jure_laws = {
 		
 		pass_effect = {
 			hidden_tooltip = {
-				ROOT = { 
+				owner = { 
 					any_realm_province = {	
 						remove_province_modifier = pacifist_province
 						remove_province_modifier = tolerant_province
