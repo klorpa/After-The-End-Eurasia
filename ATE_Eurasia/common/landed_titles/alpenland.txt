@@ -9,6 +9,8 @@ e_alpenland = {
 	k_landle = {
 		color={ 255 255 0 }
 		color2 = { 255 255 255 }
+		
+		palatinate="Schwobe"
 
 		capital = 451 #Stuttgart
 		
@@ -26,6 +28,7 @@ e_alpenland = {
 			sorbian="Badensko"
 			swabian="Baade"
 			schwyzer="Baade"
+			palatinate="Bade"
 			
 			capital = 452 #Karlsruhe
 			
@@ -36,18 +39,28 @@ e_alpenland = {
 				rhenish="Mannem"
 				swabian="Manne"
 				schwyzer="Manne"
+				palatinate="Kurpalz"
 
-				b_heidelberg = {}
+				b_heidelberg = {
+					palatinate="Heidlberg"
+				}
 				b_mannheim = {
 					rhenish="Mannem"
 					swabian="Manne"
 					schwyzer="Manne"
+					palatinate="Monnem"
 				}
-				b_weinheim = {}
-				b_mosbach = {}
+				b_weinheim = {
+					palatinate="Woinem"
+				}
+				b_mosbach = {
+					palatinate="Mossbach"
+				}
 				b_tauberbischofsheim = {}
 				b_bad_mergentheim = {}
-				b_sinsheim = {}
+				b_sinsheim = {
+					palatinate="Sinse"
+				}
 			}
 			c_karlsruhe = {
 				color={ 0 162 190 }
@@ -62,6 +75,7 @@ e_alpenland = {
 				walloon="Carlsruhe"
 				chti="Carlsruhe"
 				parisian="Carlsruhe"
+				palatinate="Kallsruh"
 				
 				b_baden_baden = {
 					walloon="Bade-les-Bains"
@@ -78,8 +92,11 @@ e_alpenland = {
 					walloon="Carlsruhe"
 					chti="Carlsruhe"
 					parisian="Carlsruhe"
+					palatinate="Kallsruh"
 				}
-				b_pforzheim = {}
+				b_pforzheim = {
+					palatinate="Pforze"
+				}
 				b_rastatt = {}
 				b_ettlingen = {}
 				b_philippsburg = {}
@@ -125,6 +142,7 @@ e_alpenland = {
 			parisian="Wurtemberg"
 			walloon="Wurtemberg"
 			chti="Wurtemberg"
+			palatinate="Wirddebärsch"
 
 			c_stuttgart = {
 				color={ 22 117 134 }
@@ -238,6 +256,7 @@ e_alpenland = {
 			arpitan="Ôcês"
 			occitan="Alsàcia"
 			provencal="Alsàcia"
+			palatinate="Elsass"
 			
 			c_bas_rhin = {
 				color={ 141 100 96 }
@@ -257,9 +276,11 @@ e_alpenland = {
 				arpitan="Rin-d’Avâl"
 				occitan="Baish Ren"
 				provencal="Baish Ren"
+				palatinate="Unnaelsass"
 
 				b_hagenau = {
 					alsatian="Hàjenöi"
+					palatinate="Hàwenau"
 				}
 				b_strasbourg = {
 					rhenish="Strossburch"
@@ -271,11 +292,13 @@ e_alpenland = {
 					austrian="Strassburg"
 					schwyzer="Strossburi"
 					alsatian="Stroßbùrri"
+					palatinate="Schdrooßbursch"
 				}
 				b_molsheim = {
 					alsatian="Molse"
 					swabian="Molse"
 					schwyzer="Molse"
+					palatinate="Molse"
 				}
 				b_selestat = {
 					rhenish="Schlettstadt"
@@ -287,11 +310,13 @@ e_alpenland = {
 					austrian="Schlettstadt"
 					schwyzer="Schlettstàdt"
 					alsatian="Schlettstàdt"
+					palatinate="Schlettstàdt"
 				}
 				b_schiltigheim = {
 					alsatian="Schìllige"
 					swabian="Schìliga"
 					schwyzer="Schìliga"
+					palatinate="Schìllige"
 				}
 				b_saverne = {
 					rhenish="Zabern"
@@ -303,6 +328,7 @@ e_alpenland = {
 					austrian="Zabern"
 					schwyzer="Zàwere"
 					alsatian="Zàwere"
+					palatinate="Zàwere"
 				}
 				b_niederbronn_les_bains = {
 					rhenish="Bad Niederbronn"
@@ -314,6 +340,7 @@ e_alpenland = {
 					austrian="Bad Niederbronn"
 					schwyzer="Nìderbrunn"
 					alsatian="Nìderbrunn"
+					palatinate="Nìderbrunn"
 				}
 			}
 			c_haut_rhin = {
@@ -333,6 +360,7 @@ e_alpenland = {
 				provencal="Naut Ren"
 				occitan="Naut Ren"
 				arpitan="Rin-d’Amont"
+				palatinate="Owwaelsass"
 
 				b_colmar = {
 					rhenish="Kolmar"
@@ -344,6 +372,7 @@ e_alpenland = {
 					austrian="Kolmar"
 					schwyzer="Kolmer"
 					alsatian="Kolmer"
+					palatinate="Colmer"
 				}
 				b_mulhouse = {
 					rhenish="Mülhausen"
@@ -355,14 +384,17 @@ e_alpenland = {
 					austrian="Mülhausen"
 					schwyzer="Milhüsa"
 					alsatian="Milhüsa"
+					palatinate="Milhüüsa"
 				}
 				b_altkirch = {
 					alsatian="Àltkìrech"
 					swabian="Àltkìrech"
 					schwyzer="Àltkìrech"
+					palatinate="Àltkìrech"
 				}
 				b_thann = {
 					alsatian="Dànn"
+					palatinate="Dànn"
 				}
 				b_ribeauville = {
 					rhenish="Rappoltsweiler"
@@ -374,6 +406,7 @@ e_alpenland = {
 					austrian="Rappoltsweiler"
 					schwyzer="Rappschwihr"
 					alsatian="Rappschwihr"
+					palatinate="Rappschwihr"
 				}
 				b_guebwiller = {
 					rhenish="Gebweiler"
@@ -385,11 +418,13 @@ e_alpenland = {
 					austrian="Gebweiler"
 					schwyzer="Gawiller"
 					alsatian="Gawiller"
+					palatinate="Gawiller"
 				}
 				b_wittenheim = {
 					alsatian="Wettena"
 					swabian="Wettena"
 					schwyzer="Wettena"
+					palatinate="Wittene"
 				}
 			}
 		}
@@ -420,6 +455,7 @@ e_alpenland = {
 		provencal="Bavièra"
 		arpitan="Baviére"
 		romansh="Baviera"
+		palatinate="Bayan"
 
 		capital = 465 #Munich
 		
@@ -443,6 +479,7 @@ e_alpenland = {
 			walloon="Franconie"
 			chti="Franconie"
 			parisian="Franconie"
+			palatinate="Franken"
 			
 			capital = 458 #Nuremberg
 			
@@ -594,6 +631,7 @@ e_alpenland = {
 			walloon="Hôt-Palatina"
 			chti="Haut-Palatinat"
 			parisian="Haut-Palatinat"
+			palatinate="Oberpalz"
 			
 			capital = 460 #Regensburg
 			
@@ -660,6 +698,7 @@ e_alpenland = {
 			walloon="Basse-Bavière"
 			chti="Basse-Bavière"
 			parisian="Basse-Bavière"
+			palatinate="Niederbayan"
 			
 			capital = 463 #Landshut
 			
@@ -744,6 +783,7 @@ e_alpenland = {
 			provencal="Bavièra"
 			arpitan="Baviére"
 			romansh="Baviera"
+			palatinate="Bayan"
 			
 			capital = 465 #Munich
 			
@@ -782,6 +822,7 @@ e_alpenland = {
 				occitan="Munic"
 				provencal="Munic"
 				romansh="Minca"
+				palatinate="Minsche"
 
 				b_dachau = {}
 				b_munich = {
@@ -802,6 +843,7 @@ e_alpenland = {
 					occitan="Munic"
 					provencal="Munic"
 					romansh="Minca"
+					palatinate="Minsche"
 				}
 				b_erding = {
 					holy_site = catholic
@@ -845,6 +887,7 @@ e_alpenland = {
 			provencal="Soabia"
 			dutch="Zwaben"
 			flemish="Zwaben"
+			palatinate="Schwobe"
 			
 			capital = 468 #Augsburg
 			
@@ -855,6 +898,7 @@ e_alpenland = {
 				bavarian="Allgai"
 				swabian="Allgai"
 				schwyzer="Allgai"
+				palatinate="Allgai"
 
 				b_landsberg_am_lech = {}
 				b_kempten = {}
@@ -939,6 +983,7 @@ e_alpenland = {
 		ligurian="Confederassion Svissea"
 		piedmontese="Confederassion Svìssera"
 		lombard="Cunfederaziun Elvetica"
+		palatinate="Schwaizarischi Aidgenosseschaffd"
 	
 		d_romandy = {
 			color={ 112 192 89 }
@@ -970,6 +1015,7 @@ e_alpenland = {
 			ligurian="Romandia"
 			piedmontese="Romandia"
 			lombard="Romandia"
+			palatinate="Welschland"
 			
 			capital = 469 #Geneva
 			
@@ -1007,6 +1053,7 @@ e_alpenland = {
 				ligurian="Zeneivia"
 				piedmontese="Gëneva"
 				lombard="Ginevra"
+				palatinate="Genf"
 
 				b_saint_gervais = {}
 				b_geneva = {
@@ -1043,6 +1090,7 @@ e_alpenland = {
 					ligurian="Zeneivia"
 					piedmontese="Gëneva"
 					lombard="Ginevra"
+					palatinate="Genf"
 				}
 				b_vernier = {
 					arpitan="Vèrneyér"
@@ -1107,6 +1155,7 @@ e_alpenland = {
 				ligurian="Vaûd"
 				piedmontese="Vaud"
 				lombard="Vo"
+				palatinate="Waadt"
 
 				b_colline = {}
 				b_lausanne = {
@@ -1134,6 +1183,7 @@ e_alpenland = {
 					arpitan="Losena"
 					occitan="Lausana"
 					provencal="Lausana"
+					palatinate="Lausannen"
 				}
 				b_yverdon = {
 					rhenish="Iferten"
@@ -1146,6 +1196,7 @@ e_alpenland = {
 					luxembourger="Iferten"
 					schwyzer="Iferten"
 					arpitan="Invèrdon"
+					palatinate="Iferten"
 				}
 				b_montreux = {
 					rhenish="Muchtern"
@@ -1157,6 +1208,7 @@ e_alpenland = {
 					austrian="Muchtern"
 					luxembourger="Muchtern"
 					arpitan="Montrolx"
+					palatinate="Muchtern"
 				}
 				b_renens = {
 					arpitan="Renèn"
@@ -1172,6 +1224,7 @@ e_alpenland = {
 					luxembourger="Vivis"
 					schwyzer="Vivis"
 					arpitan="Vevê"
+					palatinate="Vivis" 
 				}
 				b_pully = {}
 			}
@@ -1200,6 +1253,7 @@ e_alpenland = {
 				ligurian="Castello Neuvo"
 				piedmontese="Neocastello"
 				lombard="Neocastello"
+				palatinate="Neuenburg"
 
 				b_neuchatel = {
 					rhenish="Neuenburg"
@@ -1223,6 +1277,7 @@ e_alpenland = {
 					ligurian="Castello Neuvo"
 					piedmontese="Neocastello"
 					lombard="Neocastello"
+					palatinate="Neuenburg"
 				}
 				b_fribourg = {
 					tuscan="Friburgo"
@@ -1247,6 +1302,7 @@ e_alpenland = {
 					schwyzer="Frybùrg"
 					romansh="Friburg"
 					arpitan="Fribôrg"
+					palatinate="Freiburg"
 				}
 				b_la_chaux = {
 					arpitan="La Châls"
@@ -1309,6 +1365,7 @@ e_alpenland = {
 				ligurian="Vallèise"
 				piedmontese="Valèis"
 				lombard="Vales"
+				palatinate="Wallis"
 
 				b_la_majorie = {}
 				b_sion = {
@@ -1322,6 +1379,7 @@ e_alpenland = {
 					schwyzer="Sitte"
 					arpitan="Chyoun"
 					ligurian="Siòn"
+					palatinate="Sitten"
 				}
 				b_martigny = {
 					rhenish="Martinach"
@@ -1397,6 +1455,7 @@ e_alpenland = {
 				ligurian="Basileïa"
 				piedmontese="Basilea"
 				lombard="Basilea"
+				palatinate="Basel"
 
 				b_riehen = {
 					swabian="Rieche"
@@ -1422,6 +1481,7 @@ e_alpenland = {
 					ligurian="Basileïa"
 					piedmontese="Basilea"
 					lombard="Basilea"
+					palatinate="Basel"
 				}
 				b_allschwil = {
 					swabian="Allschwyl"
@@ -1515,6 +1575,7 @@ e_alpenland = {
 				lombard="Lüzerna"
 				occitan="Lucèrna"
 				provencal="Lucèrna"
+				palatinate="Luzern"
 
 				b_wasserturm = {}
 				b_lucerne = {
@@ -1545,6 +1606,7 @@ e_alpenland = {
 					lombard="Lüzerna"
 					occitan="Lucèrna"
 					provencal="Lucèrna"
+					palatinate="Luzern"
 				}
 				b_emmen_2 = {
 					swabian="Ämme"
@@ -1700,6 +1762,7 @@ e_alpenland = {
 			ligurian="Svissea"
 			piedmontese="Svìssera"
 			lombard="Svìzzera"
+			palatinate="Schwaiz"
 				
 			c_zurich = {
 				color={ 0 96 150 }
@@ -1728,6 +1791,7 @@ e_alpenland = {
 				parisian="Zürigh"
 				chti="Zürigh"
 				walloon="Zürigh"
+				palatinate="Zirich"
 
 				b_lindenhof = {}
 				b_zurich = {
@@ -1754,6 +1818,7 @@ e_alpenland = {
 					parisian="Zürigh"
 					chti="Zürigh"
 					walloon="Zürigh"
+					palatinate="Zirich"
 				}
 				b_winterthur = {
 					swabian="Wintertuur"
@@ -1980,6 +2045,7 @@ e_alpenland = {
 			ligurian="Rezia"
 			piedmontese="Rezia"
 			lombard="Rhaetia"
+			palatinate="Rätien"
 				
 			c_ticino = {
 				color={ 85 150 6 }
@@ -2005,6 +2071,7 @@ e_alpenland = {
 				ligurian="Tixin"
 				piedmontese="Tësin"
 				lombard="Tesin"
+				palatinate="Tessin"
 
 				b_bellinzona = {
 					romansh="Blizuna"
@@ -2127,6 +2194,7 @@ e_alpenland = {
 				ligurian="Grixoin"
 				piedmontese="Grison"
 				lombard="Grisun"
+				palatinate="Graubünden"
 
 				b_maladers = {
 					swabian="Malaadersch"
@@ -2249,10 +2317,14 @@ e_alpenland = {
 			color2={ 255 255 255 }
 				
 			capital = 578 #liechtenstein
+			
+			palatinate="Lischdeschdain"
 				
 			c_liechtenstein = {
 				color={ 147 125 187 }
 				color2={ 255 255 255 }
+				
+				palatinate="Lischdeschdain"
 
 				b_vaduz = {}
 				b_schaan = {}
@@ -2292,6 +2364,7 @@ e_alpenland = {
 		arpitan="Ôtriche"
 		occitan="Àustria"
 		provencal="Ëustria"
+		palatinate="Eestraisch"
 
 		capital = 589 #Vienna
 		
@@ -2317,6 +2390,7 @@ e_alpenland = {
 			tuscan="Tirolo"
 			sicilian="Tirolo"
 			venetian="Tirolo"
+			palatinate="Tirol"
 			
 			capital = 580 #Tyrol
 
@@ -2363,6 +2437,7 @@ e_alpenland = {
 				tuscan="Tirolo"
 				sicilian="Tirolo"
 				venetian="Tirolo"
+				palatinate="Tirol"
 
 				b_innsbruck = {	
 					neapolitan="Enoponte"
@@ -2402,6 +2477,7 @@ e_alpenland = {
 				arpitan="Tirolo du Mié-jorn"
 				occitan="Sud-Tiròl"
 				provencal="Sud-Tiròl"
+				palatinate="Südtirol"
 				
 				b_meran = {}
 				b_brixen = {}
@@ -2500,6 +2576,7 @@ e_alpenland = {
 			occitan="Estíria"
 			provencal="Estíria"
 			slovene="Štajerska"
+			palatinate="Steiermark"
 			
 			capital = 586 #Styria
 			
@@ -2530,6 +2607,7 @@ e_alpenland = {
 				walloon="Carinthie"
 				occitan="Caríntia"
 				provencal="Caríntia"
+				palatinate="Kärnten"
 
 				b_klagenfurt = {
 					slovene="Celovec"
@@ -2623,6 +2701,7 @@ e_alpenland = {
 			arpitan="Ôtriche"
 			occitan="Àustria"
 			provencal="Ëustria"
+			palatinate="Eestraisch"
 			
 			capital = 589 #Vienna
 			
@@ -2646,6 +2725,7 @@ e_alpenland = {
 				dutch="Opper-Oostenrijk"
 				flemish="Ipper-Ôostnryk"
 				czech="Horní Rakousy"
+				palatinate="Obereestraisch"
 
 				b_linz = {
 					czech="Linec"
@@ -2725,6 +2805,7 @@ e_alpenland = {
 				sorbian="Win"
 				arpitan="Vièna"
 				romansh="Vienna"
+				palatinate="Wien"
 			
 				b_wiener_neustadt = {
 					slovene="Dunajsko Novo Mesto"
@@ -2750,6 +2831,7 @@ e_alpenland = {
 					sorbian="Win"
 					arpitan="Vièna"
 					romansh="Vienna"
+					palatinate="Wien"
 				}
 				b_schwechat = {}
 				b_baden_bei_wien = {}
