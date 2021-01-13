@@ -1,18 +1,20 @@
 namespace = law
 
-province_event =  {
+character_event =  {
 	id = law.1
 	desc = OK
 	picture = GFX_evt_religious_exultation
 	hide_window = yes
 	
+	only_independent = yes
+	only_playable = yes
+	
+	
 	trigger = {
-		ROOT = {
-			holder_scope = {
-				top_liege = {
-					has_law = religion_tolerance_0
-				}
-			}
+		has_law = religion_tolerance_0
+		is_tribal = no
+		is_nomadic = no	
+		any_realm_province = {
 			NOT = { has_province_modifier = pacifist_province }
 		}
 	}
@@ -24,6 +26,9 @@ province_event =  {
 	immediate = {
 		ROOT = {
 			any_realm_province = {	
+				limit = {
+					NOT = { has_province_modifier = pacifist_province }
+				}
 				remove_province_modifier = pacifist_province
 				remove_province_modifier = tolerant_province
 				remove_province_modifier = dogmatic_province
@@ -37,19 +42,21 @@ province_event =  {
 	}
 }
 
-province_event =  {
+character_event =  {
 	id = law.2
 	desc = OK
 	picture = GFX_evt_religious_exultation
 	hide_window = yes
 	
+	only_independent = yes
+	only_playable = yes
+	
+	
 	trigger = {
-		ROOT = {
-			holder_scope = {
-				top_liege = {
-					has_law = religion_tolerance_1
-				}
-			}
+		has_law = religion_tolerance_1
+		is_tribal = no
+		is_nomadic = no	
+		any_realm_province = {
 			NOT = { has_province_modifier = tolerant_province }
 		}
 	}
@@ -61,6 +68,9 @@ province_event =  {
 	immediate = {
 		ROOT = {
 			any_realm_province = {	
+				limit = {
+					NOT = { has_province_modifier = tolerant_province }
+				}
 				remove_province_modifier = pacifist_province
 				remove_province_modifier = tolerant_province
 				remove_province_modifier = dogmatic_province
@@ -74,25 +84,25 @@ province_event =  {
 	}
 }
 
-province_event =  {
+character_event =  {
 	id = law.3
 	desc = OK
 	picture = GFX_evt_religious_exultation
 	hide_window = yes
 	
+	only_independent = yes
+	only_playable = yes
+	
+	
 	trigger = {
-		ROOT = {
-			holder_scope = {
-				top_liege = {
-					has_law = religion_tolerance_2
-				}
-			}
-			OR = { 	
-				has_province_modifier = pacifist_province
-				has_province_modifier = tolerant_province
-				has_province_modifier = dogmatic_province
-				has_province_modifier = inquisitional_province
-			}
+		has_law = religion_tolerance_2
+		is_tribal = no
+		is_nomadic = no	
+		any_realm_province = {
+			has_province_modifier = pacifist_province
+			has_province_modifier = tolerant_province
+			has_province_modifier = dogmatic_province
+			has_province_modifier = inquisitional_province
 		}
 	}
 	
@@ -103,6 +113,14 @@ province_event =  {
 	immediate = {
 		ROOT = {
 			any_realm_province = {	
+				limit= { 
+					OR= {
+						has_province_modifier = pacifist_province
+						has_province_modifier = tolerant_province
+						has_province_modifier = dogmatic_province
+						has_province_modifier = inquisitional_province
+					}
+				}
 				remove_province_modifier = pacifist_province
 				remove_province_modifier = tolerant_province
 				remove_province_modifier = dogmatic_province
@@ -112,19 +130,21 @@ province_event =  {
 	}
 }
 
-province_event =  {
+character_event =  {
 	id = law.4
 	desc = OK
 	picture = GFX_evt_religious_exultation
 	hide_window = yes
 	
+	only_independent = yes
+	only_playable = yes
+	
+	
 	trigger = {
-		ROOT = {
-			holder_scope = {
-				top_liege = {
-					has_law = religion_tolerance_3
-				}
-			}
+		has_law = religion_tolerance_3
+		is_tribal = no
+		is_nomadic = no	
+		any_realm_province = {
 			NOT = { has_province_modifier = dogmatic_province }
 		}
 	}
@@ -135,7 +155,10 @@ province_event =  {
 	
 	immediate = {
 		ROOT = {
-			any_realm_province = {	
+			any_realm_province = {
+				limit= { 
+					NOT = { has_province_modifier = dogmatic_province } 
+				}
 				remove_province_modifier = pacifist_province
 				remove_province_modifier = tolerant_province
 				remove_province_modifier = dogmatic_province
@@ -150,19 +173,21 @@ province_event =  {
 }
 
 
-province_event =  {
+character_event =  {
 	id = law.5
 	desc = OK
 	picture = GFX_evt_religious_exultation
 	hide_window = yes
 	
+	only_independent = yes
+	only_playable = yes
+	
+	
 	trigger = {
-		ROOT = {
-			holder_scope = {
-				top_liege = {
-					has_law = religion_tolerance_4
-				}
-			}
+		has_law = religion_tolerance_4
+		is_tribal = no
+		is_nomadic = no	
+		any_realm_province = {
 			NOT = { has_province_modifier = inquisitional_province }
 		}
 	}
@@ -174,6 +199,9 @@ province_event =  {
 	immediate = {
 		ROOT = {
 			any_realm_province = {	
+				limit = {
+					NOT = { has_province_modifier = inquisitional_province }
+				}
 				remove_province_modifier = pacifist_province
 				remove_province_modifier = tolerant_province
 				remove_province_modifier = dogmatic_province
@@ -187,19 +215,21 @@ province_event =  {
 	}
 }
 
-province_event =  {
+character_event =  {
 	id = law.6
 	desc = OK
 	picture = GFX_evt_religious_exultation
 	hide_window = yes
+
+	only_independent = yes
+	only_playable = yes
+	
 	
 	trigger = {
-		ROOT = {
-			holder_scope = {
-				top_liege = {
-					has_law = culture_tolerance_0
-				}
-			}
+		has_law = culture_tolerance_0
+		is_tribal = no
+		is_nomadic = no	
+		any_realm_province = {
 			NOT = { has_province_modifier = autonomous_province }
 		}
 	}
@@ -211,6 +241,9 @@ province_event =  {
 	immediate = {
 		ROOT = {
 			any_realm_province = {	
+				limit = {
+					NOT = { has_province_modifier = autonomous_province }
+				}
 				remove_province_modifier = autonomous_province
 				remove_province_modifier = assimilationist_province
 				add_province_modifier = {
@@ -222,19 +255,21 @@ province_event =  {
 	}
 }
 
-province_event =  {
+character_event =  {
 	id = law.7
 	desc = OK
 	picture = GFX_evt_religious_exultation
 	hide_window = yes
 
+	only_independent = yes
+	only_playable = yes
+	
+	
 	trigger = {
-		ROOT = {
-			holder_scope = {
-				top_liege = {
-					has_law = culture_tolerance_1
-				}
-			}
+		has_law = culture_tolerance_1
+		is_tribal = no
+		is_nomadic = no	
+		any_realm_province = {
 			OR = { 	
 				has_province_modifier = autonomous_province
 				has_province_modifier = assimilationist_province
@@ -249,6 +284,12 @@ province_event =  {
 	immediate = {
 		ROOT = {
 			any_realm_province = {	
+				limit = {
+					OR = { 	
+						has_province_modifier = autonomous_province
+						has_province_modifier = assimilationist_province
+					}
+				}
 				remove_province_modifier = assimilationist_province
 				remove_province_modifier = autonomous_province
 			}
@@ -256,19 +297,21 @@ province_event =  {
 	}
 }
 
-province_event =  {
+character_event =  {
 	id = law.8
 	desc = OK
 	picture = GFX_evt_religious_exultation
 	hide_window = yes
 	
+	only_independent = yes
+	only_playable = yes
+	
+	
 	trigger = {
-		ROOT = {
-			holder_scope = {
-				top_liege = {
-					has_law = culture_tolerance_2
-				}
-			}
+		has_law = culture_tolerance_2
+		is_tribal = no
+		is_nomadic = no	
+		any_realm_province = {
 			NOT = { has_province_modifier = assimilationist_province }
 		}
 	}
@@ -280,6 +323,9 @@ province_event =  {
 	immediate = {
 		ROOT = {
 			any_realm_province = {	
+				limit = {
+					NOT = { has_province_modifier = assimilationist_province }
+				}
 				remove_province_modifier = autonomous_province
 				remove_province_modifier = assimilationist_province
 				add_province_modifier = {
