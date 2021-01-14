@@ -8,6 +8,9 @@ namespace = jewish
 #	Ivri Events (jewish.7x - jewish.9x)						  #
 #															  #
 #	General Jewish Holidays and Events (jewish.1xx)			  #
+#	Lifecycle Events (jewish.10x-jewish.14x)				  #
+#	Yeshiva/Theology Events (jewish.15x-jewish.19x)			  #
+#															  #
 #	Jewish Maintanance Events for AI (jewish.2xx)			  #
 #															  #
 ###############################################################
@@ -1586,7 +1589,28 @@ character_event = {
 	}
 }
 
+#########Yeshiva Events##############
 
+#it begins
+character_event = {
+	id = jewish.150
+	desc = EVTDESC_yeshiva_1
+	picture = GFX_evt_religious_exultation
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_yeshiva_1
+		add_trait = yeshiva_student
+	}
+	
+	after = {
+		#character_event = {	id = jewish.151 days = 180 random = 30 }
+	}
+}
+	
+	
+	
 
 ######################AI-ONLY EVENTS#####################
 

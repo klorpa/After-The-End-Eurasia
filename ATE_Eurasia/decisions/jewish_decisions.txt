@@ -226,6 +226,59 @@ decisions = {
 			}
 		}
 	}
+	
+	attend_yeshiva ={
+		only_playable= yes
+		is_high_prio = yes
+	
+		filter = self
+		ai_target_filter = self
+		ai_check_interval = 24
+		
+		potential = {			
+			is_playable = yes
+			is_adult = yes
+			religion_group = jewish_group
+			OR = {
+				has_focus = focus_theology
+				trait = haredi_yashvai
+			}
+			NOR = { 
+				trait = incapable
+				is_inaccessible_trigger = yes
+			}
+			war = no
+			prisoner = no
+		}
+		
+		allow = {
+			NOR = {
+				is_ill = yes
+				has_character_flag = talmud_studytimer
+			}
+			piety = 100
+			wealth = 50
+		}
+		effect = {
+			custom_tooltip = { text = TXT_talmud_study		}
+			set_character_flag = talmud_studytimer
+			wealth = -50
+			hidden_tooltip = {
+				narrative_event = { id = jewish.150 }				
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor =.05
+			modifier = {
+				factor = 5
+				trait = erudite
+			}
+		}	
+	}
+	
 	form_empire_pale = {
 		is_high_prio = yes
 		only_playable = yes
