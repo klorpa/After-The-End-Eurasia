@@ -104,7 +104,7 @@ character_event = {
 				opinion = { who = ROOT value <= -20 }
 			}
 		}
-		custom_tooltip = { text = passover_accepted }
+		custom_tooltip = { text = bastille_day_accepted }
 		set_character_flag = attending_bastille_day
 		set_character_flag = do_not_disturb
 		hidden_tooltip = { character_event = { id = SoA.503 days = 8 } }
@@ -117,11 +117,11 @@ character_event = {
 		}
 		FROM = {
 			opinion = {
-				modifier = opinion_refused_passover
+				modifier = opinion_refused_bastille_day
 				who = ROOT
 			}
 		}
-		custom_tooltip = { text = passover_declined }
+		custom_tooltip = { text = bastille_day_declined }
 		hidden_tooltip = {
 			FROM = { character_event = { id = jacobin.3 } }
 		}

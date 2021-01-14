@@ -1335,13 +1335,7 @@ muslim = {
 		peace_prestige_loss = yes # Lose Prestige while at peace
 		allow_looting = yes
 	
-		intermarry = imamite
-		intermarry = traditionalist
-		intermarry = transcendentalist
-		intermarry = qingzhen
-		intermarry = alawiyya
-		intermarry = orientalist
-		intermarry = misrist
+
 
 		religious_clothing_head = 5
 		religious_clothing_priest = 5
@@ -1362,7 +1356,7 @@ islamosyncretic = {
 	
 	interface_skin = { muslim_interface } 
 	
-		druze = {
+	druze = {
 		graphical_culture = muslimgfx
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
@@ -1398,17 +1392,18 @@ islamosyncretic = {
 		high_god_name = GOD_BAHA
 		
 		god_names = {
-			GOD_ALLAH GOD_THE_GREATEST
-		}
+			GOD_BAHAULLAH GOD_BAB GOD_KRISHNA GOD_BUDDHA GOD_MUHAMMAD GOD_JESUS GOD_ABRAHAM GOD_HUNDRED_NAMES	
+			}
 		evil_god_names = {
-			GOD_SHAYTAN GOD_IBLIS 
+			GOD_ABSENCE
 		} 
 		
-		scripture_name = KITAB_I_AQDAS
+		scripture_name = KITAB_AL_AQDAS
 		
 		color = { 0.0 0.9 0.4 }
 		feminist = yes
 		psc_marriage = no
+		hard_to_convert = yes
 		priests_can_marry = yes
 		allow_rivermovement = yes
 		
@@ -1441,6 +1436,33 @@ islamosyncretic = {
 		hard_to_convert = yes
 			
 	}	
+	alawi = {
+		graphical_culture = muslimgfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+
+		icon = 4
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALI GOD_MUHAMMAD GOD_SALMAN GOD_AIN_MEEM_SEEN
+		}
+		evil_god_names = {
+			GOD_SHAYTAN
+		} 
+		
+		scripture_name = NAHJ_AL_BALAGHA
+		
+		color = { 0.0 0.9 0.4 }
+		priests_can_marry = yes
+		psc_marriage = no
+		priests_can_inherit = yes
+		allow_rivermovement = yes
+		can_demand_religious_conversion = no
+		hard_to_convert = yes
+		
+		
+	}
 }
 pirate = {
 	has_coa_on_barony_only = yes
