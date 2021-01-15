@@ -1158,8 +1158,6 @@ muslim = {
 		
 		color = { 0 0.6 0 }
 		
-		parent = salafi
-		
 		high_god_name = GOD_ALLAH
 		
 		god_names = {
@@ -1340,6 +1338,34 @@ muslim = {
 		religious_clothing_head = 5
 		religious_clothing_priest = 5
 	}
+	liberation_islam = {
+		graphical_culture = muslimgfx
+		
+		icon = 13
+		heresy_icon = 18
+		
+		color = { 80 200 120 }
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+		crusade_name = JIHAD
+		uses_decadence = no
+		max_wives = 4
+		can_call_crusade = yes
+		can_grant_invasion_cb = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+	}
 }
 
 islamosyncretic = {
@@ -1387,7 +1413,7 @@ islamosyncretic = {
 		graphical_culture = muslimgfx
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
-		icon = 4
+		icon = 51
 		
 		high_god_name = GOD_BAHA
 		
@@ -1440,7 +1466,7 @@ islamosyncretic = {
 		graphical_culture = muslimgfx
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
-		icon = 4
+		icon = 52
 		
 		high_god_name = GOD_ALLAH
 		
@@ -1681,6 +1707,34 @@ old_world_cultist_group = {
 		
 		religious_clothing_head = 18
 		religious_clothing_priest = 18
+	}
+	an_nahar = {
+		graphical_culture = muslimgfx
+		
+		icon = 13
+		heresy_icon = 18
+		
+		color = { 237 27 36 }
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+		crusade_name = JIHAD
+		uses_decadence = no
+		max_wives = 4
+		can_call_crusade = yes
+		can_grant_invasion_cb = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
 	}
 }
 
