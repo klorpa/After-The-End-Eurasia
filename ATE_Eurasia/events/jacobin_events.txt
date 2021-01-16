@@ -58,8 +58,9 @@ character_event = {
 # Invitation Sent
 character_event = {
 	id = jacobin.2
-	desc = EVTDESC_SoA_500
-	picture = GFX_evt_synagogue
+	title = EVTTITLE_bastilleday_1
+	desc = EVTDESC_bastilleday_1
+	picture = GFX_evt_fancy_feast
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -67,7 +68,7 @@ character_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_SoA_500
+		name = EVTOPTA_bastilleday_1
 		any_vassal = {
 			limit = {
 				religion = jacobin
@@ -75,11 +76,11 @@ character_event = {
 				war = no
 				NOT = { trait = incapable }
 			}
-			character_event = { id = jacobin.3 days = 2 tooltip = EVTTOOLTIP_SoA_501 }
+			character_event = { id = jacobin.3 days = 2 tooltip = EVTTOOLTIP_bastilleday_1 }
 		}
 		custom_tooltip = { text = bastille_day_invitations_sent }
-		hidden_tooltip = { character_event = { id = jacobin. days = 2 } }
-		hidden_tooltip = { character_event = { id = SoA.503 days = 10 } }
+		hidden_tooltip = { character_event = { id = jacobin.4 days = 2 } }
+		hidden_tooltip = { character_event = { id = jacobin.6 days = 10 } }
 
 	}
 }
@@ -87,8 +88,8 @@ character_event = {
 # Invitation Received
 character_event = {
 	id = jacobin.3
-	desc = EVTDESC_SoA_501
-	picture = GFX_evt_synagogue
+	desc = EVTDESC_bastilleday_2
+	picture = GFX_evt_fancy_feast
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -96,7 +97,7 @@ character_event = {
 	trigger = { NOT = { is_inaccessible_trigger = yes } }
 	
 	option = {
-		name = EVTOPTA_SoA_501
+		name = EVTOPTA_bastilleday_2
 		ai_chance = {
 			factor = 95
 			modifier = {
@@ -107,11 +108,11 @@ character_event = {
 		custom_tooltip = { text = bastille_day_accepted }
 		set_character_flag = attending_bastille_day
 		set_character_flag = do_not_disturb
-		hidden_tooltip = { character_event = { id = SoA.503 days = 8 } }
-		hidden_tooltip = { character_event = { id = SoA.599 days = 20 } } # Safety catch flag clearing
+		hidden_tooltip = { character_event = { id = jacobin.6 days = 8 } }
+		hidden_tooltip = { character_event = { id = jacobin.12 days = 20 } } # Safety catch flag clearing
 	}
 	option = {
-		name = EVTOPTB_SoA_501
+		name = EVTOPTB_bastilleday_2
 		ai_chance = {
 			factor = 5
 		}
@@ -123,24 +124,24 @@ character_event = {
 		}
 		custom_tooltip = { text = bastille_day_declined }
 		hidden_tooltip = {
-			FROM = { character_event = { id = jacobin.3 } }
+			FROM = { character_event = { id = jacobin.4 } }
 		}
 	}
 }
 
 # Invitation Refused
 character_event = {
-	id = jacobin.3
-	desc = EVTDESC_SoA_502
-	picture = GFX_evt_synagogue
+	id = jacobin.4
+	desc = EVTDESC_bastilleday_3
+	picture = GFX_evt_fancy_feast
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_SoA_502
+		name = EVTOPTA_bastilleday_3
 		opinion = {
-			modifier = opinion_refused_passover
+			modifier = opinion_refused_bastille_day
 			who = FROM
 		}
 	}
@@ -148,28 +149,80 @@ character_event = {
 
 #Marianne Selection
 character_event = {
-	id = jacobin.4
-	desc = EVTDESC_SoA_502
-	picture = GFX_evt_synagogue
+	id = jacobin.5
+	desc = EVTDESC_bastilleday_4
+	picture = GFX_evt_fancy_feast
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SoA_502
-		opinion = {
-			modifier = opinion_refused_passover
-			who = FROM
+	trigger = {
+		any_courtier = {
+			count >= 2
+			is_female = yes
+			age = 16
+			NOT = { age = 40 }
 		}
+	}
+	
+	immediate = {
+		any_courtier = {
+			limit = {
+				is_female = yes
+				age = 16
+				NOT = { age = 40 }
+			}
+			add_character_flag = marianne_1
+			save_event_target_as = marianne_candidate_1
+		}
+		any_courtier = {
+			limit = {
+				is_female = yes
+				age = 16
+				NOT = { age = 40 }
+				NOT = { has_character_flag = marianne_1 }
+			}
+			save_event_target_as = marianne_candidate_2
+		}
+	}
+	option = {
+		name = EVTOPTA_bastilleday_4
+		event_target:marianne_candidate_1 = {
+			opinion = {
+				modifier = opinion_marianne_selection 
+				who = ROOT
+			}
+			save_event_target_as = marianne
+			clr_character_flag = marianne_1
+		}
+	}
+		
+	option = {
+		name = EVTOPTB_bastilleday_4
+		event_target:marianne_candidate_2 = {
+			opinion = {
+				modifier = opinion_marianne_selection 
+				who = ROOT
+			}
+			save_event_target_as = marianne
+		}
+		event_target:marianne_candidate_1 = {
+			clr_character_flag = marianne_1
+		}			
+	}
+	
+	after = {
+		clear_event_target = marianne_candidate_1
+		clear_event_target = marianne_candidate_2
 	}
 }
 
 
 # Bastille Day Begins
 character_event = {
-	id = jacobin.5
-	desc = EVTDESC_SoA_503
-	picture = GFX_passover
+	id = jacobin.6
+	desc = EVTDESC_bastilleday_5
+	picture = GFX_evt_fancy_feast
 	border = GFX_event_normal_frame_religion
 	
 	hide_from = yes
@@ -177,32 +230,44 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_SoA_503
+		trigger = {
+			has_character_flag = holding_bastille_day
+		}
+		name = EVTOPTA_bastilleday_5
 		hidden_tooltip = {
-			if = {
-				limit = { has_character_flag = holding_bastille_day }
-				random_list = {
-					50 = { character_event = { id = jacobin.6 days = 1  } } 
-					50 = { 
-						modifier = {
-							factor = 0
-							num_of_prisoners <= 2
-						}
-						character_event = { id = jacobin.7 days = 1 } 
-					} 
-					50 = { character_event = { id = jacobin.8 days = 1 } } 
-				}
-				character_event = { id = jacobin.9 days = 2 }
+			random_list = {
+				50 = { character_event = { id = jacobin.7 days = 1  } } 
+				50 = { 
+					modifier = {
+						factor = 0
+						num_of_prisoners <= 2
+					}
+					character_event = { id = jacobin.8 days = 1 } 
+				} 
+				50 = { character_event = { id = jacobin.9 days = 1 } } 
+			}
+			character_event = { id = jacobin.10 days = 2 }
+		}
+		event_target:marianne = {
+			add_character_modifier = {
+				name = impersonated_marianne
+				duration = 1825
 			}
 		}
 	}
+	option = {
+		trigger = {
+			has_character_flag = attending_bastille_day
+		}
+		name = EVTOPTB_bastilleday_5
+	}
 }
 
-# Marshal Organizing Soldiers for parade
+# some event IDK
 character_event = {
-	id = jacobin.6
-	desc = EVTDESC_SoA_503
-	picture = GFX_passover
+	id = jacobin.7
+	desc = EVTDESC_bastilleday_6
+	picture = GFX_evt_fancy_feast
 	border = GFX_event_normal_frame_religion
 	
 	hide_from = yes
@@ -210,15 +275,15 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_SoA_503
+		name = EVTOPTA_bastilleday_6
 	}
 }
 
 # Freeing the prisoners?
 character_event = {
-	id = jacobin.7
-	desc = EVTDESC_SoA_503
-	picture = GFX_passover
+	id = jacobin.8
+	desc = EVTDESC_bastilleday_7
+	picture = GFX_evt_fancy_feast
 	border = GFX_event_normal_frame_religion
 	
 	hide_from = yes
@@ -226,15 +291,46 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_SoA_503
+		name = EVTOPTA_bastilleday_7
+		any_courtier = {
+			limit = {
+				prisoner = yes
+			}
+			count = 2
+			imprison = no
+		}
+		piety = 50
+		prestige = 50
+	}
+	option = {
+		name = EVTOPTB_bastilleday_7
+	}
+	option = {
+		trigger = {
+			trait = cruel
+			trait = impaler
+			trait = lunatic
+		}
+		name = EVTOPTC_bastilleday_7
+		any_courtier = {
+			limit = {
+				prisoner = yes
+			}
+			count = 2	
+			death = {
+				death_reason = death_execution
+				killer = ROOT
+			}
+		}
+		piety = -50
 	}
 }
 
 # some other event IDK
 character_event = {
-	id = jacobin.8
-	desc = EVTDESC_SoA_503
-	picture = GFX_passover
+	id = jacobin.9
+	desc = EVTDESC_bastilleday_8
+	picture = GFX_evt_fancy_feast
 	border = GFX_event_normal_frame_religion
 	
 	hide_from = yes
@@ -242,7 +338,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_SoA_503
+		name = EVTOPTA_bastilleday_8
 	}
 }
 
@@ -251,9 +347,9 @@ character_event = {
 
 # Bastille Day Ends (Host)
 character_event = {
-	id = jacobin.9
-	desc = EVTDESC_SoA_504
-	picture = GFX_evt_synagogue
+	id = jacobin.10
+	desc = EVTDESC_bastilleday_9
+	picture = GFX_evt_fancy_feast
 	border = GFX_event_normal_frame_religion
 	
 	hide_from = yes
@@ -261,7 +357,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_SoA_504
+		name = EVTOPTA_bastilleday_9
 		any_vassal = {
 			limit = { has_character_flag = attending_bastille_day }
 			opinion = {
@@ -272,7 +368,7 @@ character_event = {
 		hidden_tooltip = {
 			any_vassal = {
 				limit = { has_character_flag = attending_bastille_day }
-				character_event = { id = jacobin.10 }
+				character_event = { id = jacobin.11 }
 			}
 		}
 		add_character_modifier = {
@@ -284,21 +380,40 @@ character_event = {
 		piety = 100
 		clr_character_flag = holding_bastille_day
 		clr_character_flag = do_not_disturb
+		clear_event_target = marianne
 	}
 }
 
 # Bastille Day Ends (Guest)
 character_event = {
-	id = jacobin.10
-	desc = EVTDESC_SoA_505
-	picture = GFX_evt_synagogue
+	id = jacobin.11
+	desc = EVTDESC_bastilleday_10
+	picture = GFX_evt_fancy_feast
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_SoA_504
+		name = EVTOPTA_bastilleday_10
 		clr_character_flag = attending_bastille_day
 		clr_character_flag = do_not_disturb
+	}
+}
+
+
+
+
+# Safety catch - clears character flags and modifiers
+character_event = {
+	id = jacobin.12
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		clr_character_flag = do_not_disturb
+		clr_character_flag = holding_bastille_day
+		clr_character_flag = attending_bastille_day
 	}
 }
