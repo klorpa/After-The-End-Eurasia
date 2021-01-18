@@ -308,4 +308,83 @@ decisions = {
 			}
 		}
 	}
+	reform_sunni_islam = {
+		only_playable = yes
+		ai_check_interval = 10
+		is_high_prio = yes
+		potential = {
+			is_playable = yes
+			OR = {
+				religion = sunni
+				religion = nizami
+				religion = ruhi
+			}
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		allow = {
+			age = 16
+			prisoner = no
+			war = no
+			in_command = no
+			custom_tooltip = {
+				text = UNOCCUPIED_DEMESNE_TITLE
+				hidden_tooltip = {
+					any_demesne_title = {
+						NOT = { higher_tier_than = count }
+						is_occupied = no
+					}
+				}
+			}
+			AND = {
+				completely_controls = c_mecca
+				completely_controls = c_medina
+				completely_controls = c_damascus
+				completely_controls = c_al_quds
+				OR = {
+					completely_controls = c_baghdad
+					completely_controls = c_istanbul
+					completely_controls = c_tunis
+				}
+			}
+			piety = 2000
+			prestige = 2000
+			tier = EMPEROR
+		}
+		effect = {
+			piety = -2000
+			prestige = -2000
+			religion = sunnah
+			custom_tooltip = {
+				text = unified_sunni
+				hidden_tooltip = { 
+					character_event = { id = islamate.28 } 
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				trait = zealous
+			}
+			modifier = {
+				factor = 2
+				trait = mystic
+			}
+			modifier = { # Monthly randomizer for when AI takes decision (1% chance)
+				factor = 0
+				random = 1
+			}
+			modifier = {
+				factor = 0
+				NOT = { age = 30 }
+			}
+		}
+	}
 }
