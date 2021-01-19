@@ -2,6 +2,7 @@
 #hajj.1&4 = Going to Al-Aqsa
 #hajj.2&5 = Going to Al-Baqi'
 #hajj.3&6 = Going to the Umayyad Mosque
+#hajj.100&101 = Going to Al-Azhar
 #hajj.7-16 = Hadith (General Muslim)
 #hajj.200 = Pilgrimage to Minor Shrines Setup
 
@@ -1165,7 +1166,562 @@ narrative_event = {
 		}
 	}
 }
+#############################
+#More Places to Go
+#############################
+# Going to Al-Azhar
+#############################
+letter_event = {
+	id = hajj.100
+	desc = "EVTDESC_hajjtoalazhar"
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT_hajjtocity"
+		piety = 5
+		set_character_flag = preparing_hajj_alazhar
+		clr_character_flag = activated_hajj_alazhar
+		clr_character_flag = preparing_ziyara
+		hidden_tooltip = {
+			character_event = { id = hajj.101 days = 12 }
+		}	
+	}
+}
+##########################################################################
+#A Trip to Al-Azhar
+##########################################################################
+narrative_event = {
+	id = hajj.101
+	title = EVTTITLE_HAJJALAZHAR
+	desc = EVTDESC_hajj101
+	picture = GFX_al_azhar
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPT_hajj101"
+		clr_character_flag = preparing_hajj_alazhar
+		add_trait = on_ziyara
+		hidden_tooltip = {
+			character_event = { id = hajj.7 days = 30 }
+		}
+		hidden_tooltip = {
+			character_event = { id = hajj.102 days = 30 }
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					location = {
+						distance = {
+							where = 1399	#Cairo
+							value = 400	#kind of far..
+						}
+					}
+				}
+				random_list = {
+					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
+					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
+					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
+					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
+				}
+			}
+			if = {
+				limit = {
+					location = {
+						distance = {
+							where = 1399	#Cairo
+							value = 100	#kind of far..
+						}
+					}
+				}
+				random_list = {
+					10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
+					10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
+					10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
+					10 = {  character_event = { id = SoA.5034 days = 15 random = 7 } }
+					10 = {  character_event = { id = SoA.5035 days = 15 random = 7 } }
+					10 = {  character_event = { id = SoA.5036 days = 15 random = 7 } }
+					10 = {  character_event = { id = SoA.5037 days = 15 random = 7 } }
+					10 = {  character_event = { id = SoA.5038 days = 15 random = 7 } }
+				}
+			}
+		}
+	}
+}
+##########################################################################
+# Arrival at Al-Azhar
+##########################################################################				
 
+#Hidden gateway event				
+character_event = {
+	id = hajj.102
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_list = {
+			50 = {  character_event = { id = hajj.103 } }
+			50 = {  character_event = { id = hajj.104 } }
+		}
+	}
+}
+
+character_event = {
+	id = hajj.103
+	desc = "EVTDESC_hajj103"
+	picture = GFX_evt_library
+	border = GFX_event_normal_frame_religion
+	prisoner = no
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPT_hajjstudyscripture"
+		change_learning = 1
+		add_trait = erudite
+		hidden_tooltip = {
+			character_event = { id = hajj.105 days = 35 }
+		}
+	}
+	option = {
+		name = "EVTOPT_hajjreadstories"
+		change_diplomacy = 1
+		add_trait = proud
+		hidden_tooltip = {
+			character_event = { id = hajj.105 days = 35 }
+		}	
+	}
+}
+character_event = {
+	id = hajj.104
+	desc = "EVTDESC_hajj104"
+	picture = GFX_evt_library
+	border = GFX_event_normal_frame_religion
+	prisoner = no
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPT_hajjdebatesalazhar"
+		trigger = {
+			OR = {
+				diplomacy >= 10
+				learning >= 10
+			}
+		}
+		prestige = 100
+		piety = 20
+		hidden_tooltip = {
+			character_event = { id = hajj.105 days = 4 }
+		}	
+	}
+	option = {
+		name = "EVTOPT_hajjnodebatesalazhar"
+		hidden_tooltip = {
+			character_event = { id = hajj.105 days = 4 }
+		}	
+	}
+}
+narrative_event = {
+	id = hajj.105
+	title = EVTTITLE_HAJJALAZHARARRIVED
+	desc = EVTDESC_hajjalazharmosque
+	picture = GFX_al_azhar
+	border = GFX_event_narrative_frame_religion
+	prisoner = no
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPT_hajjalazharmosque1"
+		piety = 50
+		hidden_tooltip = {
+			character_event = { id = hajj.106 days = 35 }
+		}	
+	}
+}
+character_event = {
+	id = hajj.106
+	desc = "EVTDESC_hajjalazharhome"
+	picture = GFX_evt_prospering_province
+	border = GFX_event_normal_frame_religion
+	prisoner = no
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPT_hajjalazharhome"
+		clr_character_flag = do_not_disturb
+		piety = 50
+		remove_trait = on_ziyara
+		add_trait = zair
+	}
+}
+#############################
+# Going to Baghdad Tombs
+#############################
+letter_event = {
+	id = hajj.107
+	desc = "EVTDESC_hajjtobaghdadtombs"
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT_hajjtocity"
+		piety = 5
+		set_character_flag = preparing_hajj_baghdadtombs
+		clr_character_flag = activated_hajj_baghdadtombs
+		clr_character_flag = preparing_ziyara
+		hidden_tooltip = {
+			character_event = { id = hajj.108 days = 12 }
+		}	
+	}
+}
+##########################################################################
+#A Trip to Baghdad Tombs
+##########################################################################
+narrative_event = {
+	id = hajj.108
+	title = EVTTITLE_HAJJBAGHDADTOMBS
+	desc = EVTDESC_hajj108
+	picture = GFX_baghdad
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPT_hajj108"
+		clr_character_flag = preparing_hajj_baghdadtombs
+		add_trait = on_ziyara
+		hidden_tooltip = {
+			character_event = { id = hajj.7 days = 30 }
+		}
+		hidden_tooltip = {
+			character_event = { id = hajj.109 days = 30 }
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					location = {
+						distance = {
+							where = 2023	#Baghdad
+							value = 400	#kind of far..
+						}
+					}
+				}
+				random_list = {
+					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
+					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
+					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
+					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
+				}
+			}
+			if = {
+				limit = {
+					location = {
+						distance = {
+							where = 2023	#Baghdad
+							value = 100	#kind of far..
+						}
+					}
+				}
+				random_list = {
+					10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
+					10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
+					10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
+					10 = {  character_event = { id = SoA.5034 days = 15 random = 7 } }
+					10 = {  character_event = { id = SoA.5035 days = 15 random = 7 } }
+					10 = {  character_event = { id = SoA.5036 days = 15 random = 7 } }
+					10 = {  character_event = { id = SoA.5037 days = 15 random = 7 } }
+					10 = {  character_event = { id = SoA.5038 days = 15 random = 7 } }
+				}
+			}
+		}
+	}
+}
+##########################################################################
+# Arrival at Baghdad Tombs
+##########################################################################				
+
+#Hidden gateway event				
+character_event = {
+	id = hajj.109
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_list = {
+			50 = {  character_event = { id = hajj.110 } }
+			50 = {  character_event = { id = hajj.111 } }
+		}
+	}
+}
+
+character_event = {
+	id = hajj.110
+	desc = "EVTDESC_hajj110"
+	picture = GFX_evt_library
+	border = GFX_event_normal_frame_religion
+	prisoner = no
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPT_hajjsbaghdadmysteries"
+		change_learning = 1
+		add_trait = mystic
+		hidden_tooltip = {
+			character_event = { id = hajj.112 days = 35 }
+		}
+	}
+	option = {
+		name = "EVTOPT_hajjnobaghdadmysteries"
+		add_trait = proud
+		prestige = 20
+		hidden_tooltip = {
+			character_event = { id = hajj.112 days = 35 }
+		}	
+	}
+}
+character_event = {
+	id = hajj.111
+	desc = "EVTDESC_hajj111"
+	picture = GFX_evt_market_byzantine
+	border = GFX_event_normal_frame_religion
+	prisoner = no
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPT_hajjbaghdadstudies"
+		trigger = {
+			OR = {
+				trait = mystic
+				#trait = hanafi
+			}
+		}
+		piety = 20
+		hidden_tooltip = {
+			character_event = { id = hajj.112 days = 4 }
+		}	
+	}
+	option = {
+		name = "EVTOPT_hajjnobaghdadstudies"
+		hidden_tooltip = {
+			character_event = { id = hajj.112 days = 4 }
+		}	
+	}
+}
+narrative_event = {
+	id = hajj.112
+	title = EVTTITLE_HAJJBAGHDADTOMBSARRIVED
+	desc = EVTDESC_hajjbaghdadtombs
+	picture = GFX_baghdad
+	border = GFX_event_narrative_frame_religion
+	prisoner = no
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPT_hajjbaghdadtombs1"
+		piety = 50
+		hidden_tooltip = {
+			character_event = { id = hajj.113 days = 35 }
+		}	
+	}
+}
+character_event = {
+	id = hajj.113
+	desc = "EVTDESC_hajjbaghdadtombshome"
+	picture = GFX_evt_prospering_province
+	border = GFX_event_normal_frame_religion
+	prisoner = no
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPT_hajjbaghdadtombshome"
+		clr_character_flag = do_not_disturb
+		piety = 50
+		remove_trait = on_ziyara
+		add_trait = zair
+	}
+}
+#############################
+# Going to the Karbala
+#############################
+letter_event = {
+	id = hajj.114
+	desc = "EVTDESC_hajjtokarbala"
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT_hajjtocity"
+		piety = 5
+		set_character_flag = preparing_hajj_karbala
+		clr_character_flag = activated_hajj_karbala
+		clr_character_flag = preparing_ziyara
+		hidden_tooltip = {
+			character_event = { id = hajj.115 days = 12 }
+		}	
+	}
+}
+##########################################################################
+#A Trip to the Karbala
+##########################################################################
+narrative_event = {
+	id = hajj.115
+	title = EVTTITLE_HAJJKARBALA
+	desc = EVTDESC_hajj115
+	picture = GFX_karbala
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPT_hajj115"
+		clr_character_flag = preparing_hajj_karbala
+		add_trait = on_ziyara
+		hidden_tooltip = {
+			character_event = { id = hajj.7 days = 30 }
+		}
+		hidden_tooltip = {
+			character_event = { id = hajj.116 days = 30 }
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					location = {
+						distance = {
+							where = 2023	#Baghdad
+							value = 400	#kind of far..
+						}
+					}
+				}
+				random_list = {
+					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
+					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
+					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
+					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
+				}
+			}
+			if = {
+				limit = {
+					location = {
+						distance = {
+							where = 2023	#Baghdad
+							value = 100	#kind of far..
+						}
+					}
+				}
+				random_list = {
+					10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
+					10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
+					10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
+					10 = {  character_event = { id = SoA.5034 days = 15 random = 7 } }
+					10 = {  character_event = { id = SoA.5035 days = 15 random = 7 } }
+					10 = {  character_event = { id = SoA.5036 days = 15 random = 7 } }
+					10 = {  character_event = { id = SoA.5037 days = 15 random = 7 } }
+					10 = {  character_event = { id = SoA.5038 days = 15 random = 7 } }
+				}
+			}
+		}
+	}
+}
+##########################################################################
+# Arrival at the Karbala
+##########################################################################				
+
+#Hidden gateway event				
+character_event = {
+	id = hajj.116
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_list = {
+			50 = {  character_event = { id = hajj.117 } }
+			50 = {  character_event = { id = hajj.118 } }
+		}
+	}
+}
+
+character_event = {
+	id = hajj.117
+	desc = "EVTDESC_hajj117"
+	picture = GFX_evt_library
+	border = GFX_event_normal_frame_religion
+	prisoner = no
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPT_hajjsbaghdadmysteries2"
+		change_learning = 1
+		add_trait = mystic
+		hidden_tooltip = {
+			character_event = { id = hajj.119 days = 35 }
+		}
+	}
+	option = {
+		name = "EVTOPT_hajjnobaghdadmysteries2"
+		add_trait = proud
+		prestige = 20
+		hidden_tooltip = {
+			character_event = { id = hajj.119 days = 35 }
+		}	
+	}
+}
+character_event = {
+	id = hajj.118
+	desc = "EVTDESC_hajj118"
+	picture = GFX_evt_market_byzantine
+	border = GFX_event_normal_frame_religion
+	prisoner = no
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPT_hajjbaghdadcontemplation"
+		piety = 20
+		random_list = {
+			50 = {remove_trait = depressed}
+			50 = {remove_trait = stressed}
+		}
+		hidden_tooltip = {
+			character_event = { id = hajj.119 days = 4 }
+		}	
+	}
+	option = {
+		name = "EVTOPT_hajjnobaghdadcontemplation"
+		hidden_tooltip = {
+			character_event = { id = hajj.119 days = 4 }
+		}	
+	}
+}
+narrative_event = {
+	id = hajj.119
+	title = EVTTITLE_HAJJKARBALAARRIVED
+	desc = EVTDESC_hajjkarbala
+	picture = GFX_karbala
+	border = GFX_event_narrative_frame_religion
+	prisoner = no
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPT_hajjkarbala1"
+		piety = 50
+		hidden_tooltip = {
+			character_event = { id = hajj.113 days = 35 }
+		}	
+	}
+}
+character_event = {
+	id = hajj.113
+	desc = "EVTDESC_hajjkarbalahome"
+	picture = GFX_evt_prospering_province
+	border = GFX_event_normal_frame_religion
+	prisoner = no
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPT_hajjkarbalahome"
+		clr_character_flag = do_not_disturb
+		piety = 50
+		remove_trait = on_ziyara
+		add_trait = zair
+	}
+}
 #################################################################################
 #Singular Decision to encompass all Zijaya Locations to declutter Intrigue Screen
 #################################################################################
@@ -1192,12 +1748,15 @@ narrative_event = {
 				}
 			}
 			set_character_flag = activated_hajj_umayyadmosque
+			set_character_flag = activated_hajj_alazhar
 		}
 		else_if = {
 			limit = {
 				religion = shiite
 			}
-			#set_character_flag = activated_hajj_umayyadmosque
+			set_character_flag = activated_hajj_karbala
+			set_character_flag = activated_hajj_mashhad
+			set_character_flag = activated_hajj_kadhimiyya
 		}
 	}
 	
@@ -1220,12 +1779,29 @@ narrative_event = {
 		}
 	}
 	option = {
-		name = EVTOPTC_ZIYARA_UMAYYAD_MOSQUE
+		name = EVTOPTC_ZIYARA_SUNNI_GENERAL
 		trigger = {
-			has_character_flag = activated_hajj_umayyadmosque
+			OR = {
+				has_character_flag = activated_hajj_umayyadmosque
+				has_character_flag = activated_hajj_alazhar
+				has_character_flag = activated_hajj_baghdadtombs
+			}
 		}
 		hidden_tooltip = {
-			letter_event = { id = hajj.3 days = 12 }
+			narrative_event = { id = hajj.202 days = 2 }
+		}
+	}
+	option = {
+		name = EVTOPTC_ZIYARA_SHIA_GENERAL
+		trigger = {
+			OR = {
+				has_character_flag = activated_hajj_karbala
+				has_character_flag = activated_hajj_mashhad
+				has_character_flag = activated_hajj_kadhimiyya
+			}
+		}
+		hidden_tooltip = {
+			narrative_event = { id = hajj.203 days = 2 }
 		}
 	}
 }
@@ -1248,6 +1824,97 @@ narrative_event = {
 		add_trait = on_hajj
 		hidden_tooltip = {
 			character_event = { id = hajj.90 days = 12 }
+		}
+	}
+}
+narrative_event = {
+	id = hajj.202
+	title = EVTTITLE_ZIYARA
+	desc = EVTDESC_hajj202
+	picture = GFX_travel_muslim
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_ZIYARA_ALAZHAR
+		trigger = {
+			has_character_flag = activated_hajj_alazhar
+		}
+		hidden_tooltip = {
+			letter_event = { id = hajj.100 days = 12 }
+		}
+	}
+	option = {
+		name = EVTOPTB_ZIYARA_BAGHDADTOMBS
+		trigger = {
+			OR = {
+				religion = nizami
+				religion = ruhi
+				#trait = hanafi
+			}
+		}
+		set_character_flag = activated_hajj_baghdadtombs
+		hidden_tooltip = {
+			letter_event = { id = hajj.107 days = 12 }
+		}
+	}
+	option = {
+		name = EVTOPTC_ZIYARA_UMAYYAD_MOSQUE
+		trigger = {
+			has_character_flag = activated_hajj_umayyadmosque
+		}
+		hidden_tooltip = {
+			letter_event = { id = hajj.3 days = 12 }
+		}
+	}
+	option = {
+		name = EVTOPTC_ZIYARA_GENERAL
+		hidden_tooltip = {
+			narrative_event = { id = hajj.200 days = 2 }
+		}
+	}
+}
+narrative_event = {
+	id = hajj.203
+	title = EVTTITLE_ZIYARA
+	desc = EVTDESC_hajj203
+	picture = GFX_travel_muslim
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_ZIYARA_KARBALA
+		trigger = {
+			has_character_flag = activated_hajj_karbala
+		}
+		hidden_tooltip = {
+			letter_event = { id = hajj.114 days = 12 }
+		}
+	}
+	#option = {
+	#	name = EVTOPTB_ZIYARA_MASHHAD
+	#	trigger = {
+	#		has_character_flag = activated_hajj_mashhad
+	#	}
+		#hidden_tooltip = {
+		#	letter_event = { id = hajj.2 days = 12 }
+		#}
+	#}
+	#option = {
+	#	name = EVTOPTC_ZIYARA_KADHIMIYYA
+	#	trigger = {
+	#		has_character_flag = activated_hajj_kadhimiyya
+	#	}
+		#hidden_tooltip = {
+		#	letter_event = { id = hajj.3 days = 12 }
+		#}
+	#}
+	option = {
+		name = EVTOPTC_ZIYARA_GENERAL
+		hidden_tooltip = {
+			narrative_event = { id = hajj.200 days = 2 }
 		}
 	}
 }
