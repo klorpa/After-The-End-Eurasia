@@ -360,6 +360,7 @@ character_event = {
 		}
 	}
 }
+#####ALL OF THE FEDERAL ELCTION CODE IS UNREACHEABLE
 
 # FEDERAL ELECTIONS
 character_event = {
@@ -815,6 +816,9 @@ province_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		# was this taken from CotC? I think we should rewrite what makes people vote for somone
+		
+		
 		# Incumbent's Ideology
 		if = {
 			limit = {
@@ -1329,6 +1333,7 @@ character_event = {
 }
 
 # Special case - the hold_election command needs to be finessed a little
+
 character_event = {
 	id = laws.5211
 	hide_window = yes
@@ -1520,7 +1525,7 @@ character_event = {
 	}
 }
 
-# You lost the federal election
+# You lost the popular election
 character_event = {
 	id = laws.5225
 	desc = "EVTDESCLAWS5225"
