@@ -73,6 +73,53 @@ feudal_governments = {
 		court_size_modifier = 10
 	}
 	
+	playable_republic_government = {
+		preferred_holdings = { CITY }
+		allowed_holdings = { 
+			CITY
+			CASTLE
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Accepts other republics
+			merchant_republic_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		frame_suffix = "_republic"
+		title_prefix = "city_"
+		potential = {
+		controls_religion = no
+	    NOT = { government = merchant_republic_government }
+	    NOT = { is_government_potential = merchant_republic_government }
+            NOT = {tier = baron}
+		}
+	
+		color = { 209 125 130 }
+        
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		uses_prestige_for_law_change = yes
+		uses_bride_price = yes
+		can_create_empires = yes
+		can_usurp_kingdoms_and_empires = no
+		can_grant_kingdoms_and_empires_to_other_government_group = no
+		commander_limit = +4
+		city_vassal_tax_modifier = 0.5
+		character_modifier = { feudal_opinion = -40 }
+		
+		can_build_tribal = no    
+
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 12		
+	}
+	
 	theocratic_feudal_government = {
 		preferred_holdings = { CASTLE TEMPLE }
 		allowed_holdings = { 

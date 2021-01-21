@@ -123,3 +123,83 @@ herder_empire_of;Grand Council of;;;;;;;;;;;;;x
 #Chinese Bureaucracy Government (Re-Flavored)
 confucian_bureaucracy;Sinic Bureaucracy;Bureaucratie sinique;Sündige Bürokratie;;Burocracia sinica;;;;;;;;;x
 confucian_bureaucracy_desc;Sinic Bureaucracies rely on a set of strict imperial examinations to select their rulers. Candidates are tested on their knowledge of the Ancient Classics - though merit, previous achievements and recommendations from prominent aristocrats also play a major role in the selection process. Rulers tend to be very skilled stewards.;Les bureaucraties sinique s'appuient sur des examens impériaux stricts pour sélectionner leurs dirigeants. Les candidats sont testés sur leurs connaissances des ancien classique - en dehors du mérite, les accomplissements précédents et les recommandations d'aristocrates en vue jouent aussi un rôle majeur dans le processus de sélection. Les dirigeants ont tendance à être des intendants très compétents.;Sündige Bürokraten verlassen sich auf eine Reihe von strengen kaiserlichen Prüfungen, um ihre Herrscher auszuwählen. Die Kandidaten werden auf ihre Kenntnisse der alter Klassiker getestet, wobei Verdienst, frühere Errungenschaften und Empfehlungen von prominenten Aristokraten auch eine wichtige Rolle bei der Auswahl spielen. Herrscher neigen dazu, sehr erfahrene Kämmerer zu sein.;;Las burocracias sinica recurren a una serie de rigurosos exámenes imperiales para elegir a sus gobernantes. Los candidatos prueban su conocimiento de los clásicos antiguo. Aunque méritos, logros previos y recomendaciones de aristócratas destacados también desempeñan un papel importante en el proceso de selección. Los gobernantes suelen ser administradores hábiles.;;;;;;;;;x
+
+#Playable Inland Republics###############################################
+playable_republic_government;Republic;;;;;;;;;;;;;x
+playable_republic_government_desc;The Republic, an ancient system of government where the people elect their representatives through a mix of either direct democratic or federal/parliamentary elections. The elected sovereigns of these realms are elected among the great houses of the Republic, can you sway the public to vote for you or will you fade into obscurity?;;;;;;;;;;;;;x
+
+gov_free_republic;Representative Council;;;;;;;;;;;;;x
+gov_parliamentary_republic;Parliamentary Cabinet;;;;;;;;;;;;;x
+gov_imperial_republic;Autocratic Elective;;;;;;;;;;;;;x
+
+democratic_elective;Democratic Elective;;;;;;;;;;;;;x
+succ_democratic_elective;Democratic Elective;;;;;;;;;;;;;x
+succ_democratic_elective_desc;Direct Representatives of your people can cast a vote to choose the sovereign of the realm. Candidates are the prestigous houses (vassals) of the republic which also include members from the ruling house of the Republic of the current sovereign. Skilled rulers have more sway in electing the successor.;;;;;;;;;;;;;x
+
+#Laws
+local_term_length;Term Length of Office;;;;;;;;;;;;;x
+local_term_length_desc;You can choose to elect the length of Office at the express approval of your citizen and council.;;;;;;;;;;;;;x
+local_term_length_0;Annual;;;;;;;;;;;;;x
+local_term_length_0_desc;Elections for the republic are on an annual bases with the elected sovereign holding the office for the duration before the next election.;;;;;;;;;;;;;x
+local_term_length_1;4 Year;;;;;;;;;;;;;x
+local_term_length_1_desc;Elections for the republic are on an Four Years bases with the elected sovereign holding the office for the duration before the next election.;;;;;;;;;;;;;x
+local_term_length_2;6 Year;;;;;;;;;;;;;x
+local_term_length_2_desc;Elections for the republic are on an Six Years bases with the elected sovereign holding the office for the duration before the next election.;;;;;;;;;;;;;x
+local_term_length_3;10 Year;;;;;;;;;;;;;x
+local_term_length_3_desc;Elections for the republic every decade with the elected sovereign holding the office for the duration before the next election.;;;;;;;;;;;;;x
+
+#Decisions
+establish_republic;Establish a Republic;;;;;;;;;;;;;x
+establish_republic_desc;By Establishing a Republic, you forfeit the hereditary rule of the Kings of Feudal Realms.;;;;;;;;;;;;;x
+gain_family_estate;Establish your House;;;;;;;;;;;;;x
+gain_family_estate_desc;As a Representative of the People you must make a name for yourself and your family among the people.;;;;;;;;;;;;;x
+hold_elections;Hold an Election;;;;;;;;;;;;;x
+hold_elections_desc;You may hold the election early if you wish by calling all the citizens of the realm to vote.;;;;;;;;;;;;;x
+
+#Modifiers
+constitutional_crisis;Constitutional Crisis;;;;;;;;;;;;;x
+constitutional_crisis_desc;The Governing Body of the Republic is facing a Great Crisis of Faith...;;;;;;;;;;;;;x
+
+#Events
+EVTOPTACCEPT;I Accept!;;;;;;;;;;;;;x
+
+EVTDESCDEMO1000;As a Representative of the People you have for consistency elected to reform all your titles to the same elective system as the primary title of the republic.;;;;;;;;;;;;;x
+EVTOPTACCEPTDEMO1;For the Republic!;;;;;;;;;;;;;x
+
+EVTDESCLAWS4000;The Annual Elections are being held and you and your opponents are thrust into the heat of debate as the people watch to elect their future representatives. You wait with eager breath as you wait for the election results.;;;;;;;;;;;;;x
+EVTOPTCLAWS4000;Can't change the results now...;;;;;;;;;;;;;x
+
+EVTDESCLAWS4100;The 4-year Elections are being held and you and your opponents are thrust into the heat of debate as the people watch to elect their future representatives. You wait with eager breath as you wait for the election results.;;;;;;;;;;;;;x
+
+EVTDESCLAWS4200;The 6-year Elections are being held and you and your opponents are thrust into the heat of debate as the people watch to elect their future representatives. You wait with eager breath as you wait for the election results.;;;;;;;;;;;;;x
+
+EVTDESCLAWS4300;The 10-year Elections are being held and you and your opponents are thrust into the heat of debate as the people watch to elect their future representatives. You wait with eager breath as you wait for the election results.;;;;;;;;;;;;;x
+
+EVTDESCLAWS5000;On the behest of your council you are to hold an election, a time honored tradition of the Republic since antiquity. You stand before the people to announce yourself as a candidate with opponents appear within the crowds in jovial cheer.;;;;;;;;;;;;;x
+EVTOPTCONFIRM;I place my service for the Republic!;;;;;;;;;;;;;x
+EVTTOOLTIPLAWS5100;Off to the Representative Halls, I go!;;;;;;;;;;;;;x
+EVTTOOLTIPLAWS5200;Off to the Public Forums, I go!;;;;;;;;;;;;;x
+
+#Federal
+EVTDESCLAWS5100;In a Federal Republic, you are a representative of your constituencies whom have elected you to stand before the Halls of Representatives who judge and your merits as an orator and as a steward to the republic.;;;;;;;;;;;;;x
+
+EVTDESCLAWS5105;In a Federal Republic, you as a constituent can elect from a pool of candidates who would represent you before the Halls of Representatives who will judge your candidates on their merits as an orator and as a steward to the republic.;;;;;;;;;;;;;x
+EVTOPTALAWS5105;My Ballot is for the Incumbent!;;;;;;;;;;;;;x
+EVTOPTBLAWS5105;My Ballot is for the Challenger!;;;;;;;;;;;;;x
+
+EVTDESCLAWS5110;My challenger has defeated me in this election and now stands poised to rule the republic in your stead... perhaps you can get them next time?;;;;;;;;;;;;;x
+EVTDESCLAWS5115;You have won a great victory today and the titles you recieve based on ranks are just as full of history as a the crowns of great feudal kings...;;;;;;;;;;;;;x
+EVTDESCLAWS5120;I have bested my opponent in the art of debate and now stands poised to rule the republic... may your next opponent not best your clever wit!;;;;;;;;;;;;;x
+EVTDESCLAWS5125;For shame you lost the Election you bow your head in shame as you return to your stately manor...;;;;;;;;;;;;;x
+
+#Popular
+EVTDESCLAWS5200;In a Democratic System, you are a representative of the people whom have elected you due to your merits and or wits as a representative of them. With this honor you must be a great steward of the people.;;;;;;;;;;;;;x
+
+EVTDESCLAWS5205;In a Democratic System, you directly vote for a representative of the people whom due to merits and or wits as a representative of you and the people. With this honor they must be a great steward of the people.;;;;;;;;;;;;;x
+EVTOPTALAWS5205;My Ballot is for the Incumbent!;;;;;;;;;;;;;x
+EVTOPTBLAWS5205;My Ballot is for the Challenger!;;;;;;;;;;;;;x
+
+EVTDESCLAWS5210;My challenger has defeated me in this election and now stands poised to rule as their representative in your stead... perhaps you can get them next time?;;;;;;;;;;;;;x
+EVTDESCLAWS5215;You have won a great victory today and the titles you recieve based on ranks are just as full of history as a the crowns of great feudal kings...;;;;;;;;;;;;;x
+EVTDESCLAWS5220;I have bested my opponent in the art of debate and now stands poised as their representative... may your next opponent not best your clever wit!;;;;;;;;;;;;;x
+EVTDESCLAWS5225;For shame you lost the Election you bow your head in shame as you return to your stately manor...;;;;;;;;;;;;;x

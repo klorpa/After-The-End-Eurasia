@@ -69,6 +69,7 @@ republic_governments = {
 					}
 				}
 			}
+			NOT = { government = playable_republic_government }
 		}
 		
 		color = { 250 0 0 }
@@ -111,6 +112,7 @@ republic_governments = {
 		}
 		accepts_liege_governments = { # Accepts other republics
 			merchant_republic_government
+			playable_republic_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
@@ -123,6 +125,7 @@ republic_governments = {
 				NOT = { religion_group = muslim }
 			}
 			NOT = { is_government_potential = merchant_republic_government }
+			NOT = { government = playable_republic_government }
 			holy_order = no
 		}
 		
