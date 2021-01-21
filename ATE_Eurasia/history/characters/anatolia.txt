@@ -748,7 +748,7 @@
 	culture=suriyi
 	father=2202078
 	mother=2202079
-	religion=nizami
+	religion=sunni
 	give_nickname=nick_the_arab
 	2638.11.6={ birth=yes culture=central_anatolian }
 	2662.1.1={
@@ -802,7 +802,7 @@
 	culture=kurdish
 	father=2202084
 	mother=2202083
-	religion=nizami
+	religion=sunni
 	2638.11.6={ birth=yes }
 }
 2202083={
@@ -816,7 +816,7 @@
 	name="Sheikhmous"
 	dynasty=2066000 #Hasan
 	culture=kurdish
-	religion=nizami
+	religion=sunni
 	2610.11.6={ birth=yes }
 }
 2202085={#Marriage Alliance with Kurdish Van dude
@@ -826,14 +826,14 @@
 	female=yes
 	father=2202084
 	mother=2202083
-	religion=nizami
+	religion=sunni
 	2638.11.6={ birth=yes }
 }
 2202086={#Kurdish Duke of Van
 	name="Hozan"
 	dynasty=2066001 #Bedlîsî
 	culture=kurdish
-	religion=nizami
+	religion=sunni
 	2620.11.6={ birth=yes }
 	2660.11.6={ add_spouse=2202085 }
 }
@@ -849,7 +849,7 @@
 	name="Nemrud"
 	dynasty=2066002 #Yamulki
 	culture=kurdish
-	religion=nizami
+	religion=sunni
 	2638.11.6={ birth=yes }
 }
 2202089={#Count of Malatya
@@ -865,5 +865,11 @@
 	culture=black_sea
 	religion=shiite
 	trait=alevi
+	2638.11.6={ birth=yes }
+}
+2202091 = { #Most Recent Seyh Ul-Islam
+	name = "Fatih"
+	culture = west_anatolian
+	religion = nizami
 	2638.11.6={ birth=yes }
 }

@@ -6,8 +6,21 @@ on_startup = {
 		maintenance.2 #Rite Dispensing (Catholic)
 	}
 }
+on_bi_yearly_pulse = {
+	events = {
+		jewish.15 # Breslover Hitboddedut
+	}
+}
 on_five_year_pulse = {
 	events = {
-		skc.103 # Lady seeks protection.
+		skc.104 # Lady seeks protection.
+		skc.101 # Knight/bards
+		skc.20 # Royal Touch
+	}
+}
+on_death = {
+	events = {
+		skc.25 #check if failed Royal Touch
+		#adding shiva events
 	}
 }

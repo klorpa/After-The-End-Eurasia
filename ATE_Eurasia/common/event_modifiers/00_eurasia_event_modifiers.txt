@@ -78,13 +78,13 @@ haredi_learning = {
 breslov_rejuvenated = {
 	icon = 63
 	health = 1
-	monthly_character_piety = .05
+	monthly_character_piety = 0.05
 }
 breslov_foolish = {
 	icon = 63
 	learning = -1
 	diplomacy = -1
-	monthly_character_piety = .50
+	monthly_character_piety = 0.50
 }
 holy_war_cooldown = {
 	icon = 34
@@ -93,8 +93,8 @@ bar_mitzvah_good = {
 	icon = 2
 	learning = 1
 	jewish_group_opinion = 5
-	monthly_character_prestige = .1
-	monthly_character_piety = .50
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.50
 }
 bar_mitzvah_bad = {
 	icon = 20
@@ -145,3 +145,26 @@ constitutional_crisis = {
 	general_opinion = -10
 	global_revolt_risk = 0.1
 }
+kings_touch = {
+	icon = 50
+	monthly_character_prestige = 0.1
+	health = 0.5
+}
+successful_kings_touch = {
+	icon = 50
+	monthly_character_prestige = 0.1
+	sun_king_cultist_opinion = 10
+}
+failed_kings_touch = {
+	icon = 51
+	monthly_character_prestige = -0.1
+	sun_king_cultist_opinion = -10
+}
+kings_touch_success = {
+	icon = 50
+}
+province_kings_touch = {
+	icon = 50
+	local_revolt_risk = -0.01
+}
+

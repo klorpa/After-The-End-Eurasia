@@ -1,4 +1,4 @@
-#Ard Al-Muqaddis
+#Ard Al-Muqaddis Characters
 3600000 = {
 	name = "Ovadia"
 	dynasty = 1818006 #Kook
@@ -1063,7 +1063,7 @@
 	2655.1.1= { death = yes }	
 }
 3600060 = {
-	name = "Elinor"
+	name = "Liat"
 	culture = sabra
 	religion = ivri
 	female=yes
@@ -1121,7 +1121,7 @@
 	learning = 10
 	trait=elusive_shadow
 	trait=bastard
-	trait=decietful
+	trait=deceitful
 	trait=ambitious
 	trait=envious
 	trait=disfigured
@@ -1206,14 +1206,267 @@
 	2460.11.3 = { culture = sabra }
 	2530.1.1 = { death = yes }
 }
-####################### PLACEHOLDER MASHRIQ CHARACTERS ########################
-2103000 = { #Duke of Hims (Titular) Bath Salts an-Nahar Cult based in Tadmur
-	name = "Muhammad" 
-	dynasty = 2103000 #Ali
+
+#Jordan
+
+3600500 = { #King of Jordan
+	name = "Abdullah" 
+	dynasty = 1824014 #Al-Ahmar
+	culture = hijazi
+	religion = ruhi
+	father = 3600502
+	mother = 3600503
+	trait = tough_soldier
+	trait = cynical
+	trait = brave
+	trait = deceitful
+	2625.1.1 = { birth = yes }
+	2650.1.7= {
+		add_spouse = 3600501
+	}
+}
+
+3600501 = { #Queen of Jordan
+	name = "Laila" 
+	dynasty = 1824009 #Tamimi
+	culture = filastini
+	religion = ruhi
+	female = yes
+	2630.1.1 = { birth = yes }
+}
+
+
+3600502 = { #King of Jordan
+	name = "Sufyan" 
+	dynasty = 1824014 #Al-Ahmar
+	culture = hijazi
+	religion = ruhi
+	father = 3600504
+	2580.1.1 = { birth = yes }
+	2640.1.1 = { death = yes }
+	2605.1.7= {
+		add_spouse = 3600501
+	}
+}
+
+3600503 = { #Queen of Jordan
+	name = "Fatima" 
+	culture = hijazi
+	religion = ruhi
+	female = yes
+	2590.1.1 = { birth = yes }
+}
+
+3600504 = { #King of Jordan
+	name = "Jad'" 
+	dynasty = 2109013 #Al-Hashemi
+	culture = hijazi
+	religion = ruhi
+	occluded = yes
+	1990.1.1 = { birth = yes }
+	2599.1.1 = { death = yes }
+	
+}
+
+3600505 = { #Powerful Jordanian Filastini Vassal
+	name = "Ismail" 
+	dynasty = 1824082 #Nasrallah
+	culture = filastini
+	religion = sunni
+	trait = charismatic_negotiator
+	trait = poet
+	trait = ambitious
+	trait = diligent
+	trait = shrewd
+	2640.1.1 = { birth = yes }
+}
+
+3600506 = { # Powerful Jordanian Badawi Vassal
+	name = "Hamad"
+	dynasty = 1825000 #Al-Huwaytat
+	culture = badawi
+	religion = sunni 
+	trait = tough_soldier
+	trait = zealous
+	trait = honorable
+	trait = familyperson
+	2620.1.1 = { birth = yes }
+}
+
+
+#Syria
+
+3601000 = { #King of North Syria
+	name = "Khalaf" 
+	dynasty = 2103002 #Ujayli
 	culture = suriyi
-	religion = an_nahar
+	religion = sunni
+	father = 3601001
+	trait = scholarly_theologian
+	trait = organizer
+	trait = poet
+	trait = frail
+	trait = quick
+	trait = honest
+	trait = stubborn
+	trait = gregarious
+	trait = erudite
+	trait = trusting
+	2638.1.1 = { birth = yes }	
+}
+3601001 = { 
+	name = "Omar" 
+	dynasty = 2103002 #Ujayli
+	culture = suriyi
+	religion = sunni
+	father = 3601002
+	2610.1.1 = { birth = yes }
+	2660.1.1 = { death = yes }
+}
+3601002 = { 
+	name = "Hafez" 
+	dynasty = 2103002 #Ujayli
+	culture = suriyi
+	religion = sunni
+	2579.1.1 = { birth = yes }
+	2660.1.1 = { death = yes }
+}
+3601003 = { 
+	name = "Yasser" 
+	dynasty = 2103002 #Ujayli
+	culture = suriyi
+	religion = sunni
+	father = 3601002
+	2612.1.1 = { birth = yes }
+	2660.1.1 = { death = yes }
+}
+3601004 = { #Count of Manbij
+	name = "Muhammad" 
+	dynasty = 2103002 #Ujayli
+	culture = suriyi
+	religion = sunni
+	father = 3601003
+	trait = elusive_shadow
+	trait = detached_priest
+	trait = schemer
+	trait = greedy
+	trait = gregarious
+	trait = ambitious
+	trait = diligent
+	2640.1.1 = { birth = yes }
+}
+3601005 = { #Count of Tartus and al-Ladhiqiyah
+	name = "Suleiman" 
+	dynasty = 2103005 #Al-Assad
+	culture = suriyi
+	religion = alawi
+	trait = midas_touched
+	trait = shrewd
+	trait = stutter
+	trait = mystic
+	trait = diligent
+	trait = ambitious
+	trait = brave
+	trait = shy
+	trait = pious
 	2638.1.1 = { birth = yes }
 }
+3601006 = { #Count of Idlib
+	name = "Samer" 
+	dynasty = 2103006 #Touqan
+	culture = suriyi
+	religion = sunni
+	2610.1.1 = { birth = yes }
+}
+3601007 = { #Count of Hama
+	name = "Ahmed" 
+	dynasty = 2103006 #Al-Nuri
+	culture = suriyi
+	religion = sunni
+	trait = naive_appeaser
+	trait = honorable
+	trait = honest
+	trait = familyperson
+	trait = wroth
+	trait = zealous
+	2638.1.1 = { birth = yes }
+}
+3601008 = { #Count of Kobani
+	name = "Najiba" 
+	dynasty = 2066021 #Mirkan
+	culture = kurdish
+	religion = sunni
+	female = yes
+	trait = charismatic_negotiator
+	trait = lefthanded
+	trait = honest
+	trait = brave
+	trait = gregarious
+	trait = just
+	2642.1.1 = { birth = yes }
+}
+3601009 = { #Count of Al-Hasakah
+	name = "Aram" 
+	dynasty = 2066022 #Hajo
+	culture = kurdish
+	religion = sunni
+	trait = tough_soldier
+	trait = musician
+	trait = humble
+	trait = familyperson
+	trait = honorable
+	trait = just
+	trait = temperate
+	2609.1.1 = { birth = yes }
+}
+3601010 = { 
+	name = "Rojda" 
+	dynasty = 2066022 #Hajo
+	culture = kurdish
+	religion = sunni
+	female = yes
+	father = 3601009
+	trait = charismatic_negotiator
+	trait = attractive
+	trait = trusting
+	trait = humble
+	trait = honest
+	trait = gregarious
+	2644.1.1 = { birth = yes }
+}
+3601011 = { #Count of Tell Tamer
+	name = "David" 
+	dynasty = 2104000 #Yonadam
+	culture = assyrian
+	religion = orthodox
+	2638.1.1 = { birth = yes }
+}
+
+3601012 = { #Duke of Hims (Titular) Bath Salts an-Nahar Cult based in Tadmur
+	name = "Khalid" 
+	dynasty = 2103000 #Al-Asaad
+	culture = suriyi
+	religion = an_nahar
+	trait = thrifty_clerk
+	trait = quick
+	trait = scholar
+	trait = ambitious
+	trait = brave
+	2628.1.1 = { birth = yes }
+}
+
+3601013 = { #Duke of Hims (Actual Duchy)
+	name = "Ali" 
+	dynasty = 2103003 #Jandali
+	culture = suriyi
+	religion = sunni
+	2638.1.1 = { birth = yes }
+}
+####################### PLACEHOLDER MASHRIQ CHARACTERS ########################
+
+
+
+
 2103001 = { #Duke of Damascus
 	name = "Muhammad" 
 	dynasty = 2103001 #Ali
@@ -1221,20 +1474,8 @@
 	religion = sunni
 	2638.1.1 = { birth = yes }
 }
-2103002 = { #Duke of Raqqa
-	name = "Muhammad" 
-	dynasty = 2103002 #Ali
-	culture = suriyi
-	religion = sunni
-	2638.1.1 = { birth = yes }
-}
-2103003 = { #Duke of Hims (Actual Duchy)
-	name = "Muhammad" 
-	dynasty = 2103003 #Ali
-	culture = suriyi
-	religion = alawi
-	2638.1.1 = { birth = yes }
-}
+
+
 2103004 = { #Count of Aleppo
 	name = "Muhammad" 
 	dynasty = 2103004 #Ali
@@ -1242,27 +1483,13 @@
 	religion = sunni
 	2638.1.1 = { birth = yes }
 }
-2103005 = { #Count of Tartus
-	name = "Muhammad" 
-	dynasty = 2103005 #Ali
-	culture = suriyi
-	religion = sunni
-	2638.1.1 = { birth = yes }
-}
-2104000 = { #Count of Tell Tamer
-	name = "David" 
-	dynasty = 2104000 #Yonadam
-	culture = assyrian
-	religion = orthodox
-	2638.1.1 = { birth = yes }
-}
-2104001 = { #Count of Tel Kayf
-	name = "David" 
-	dynasty = 2104001 #Agassi
-	culture = assyrian
-	religion = orthodox
-	2638.1.1 = { birth = yes }
-}
+
+
+
+
+
+
+#Lebanon
 2105000 = { #Head Patrician of the Beirut Republic
 	name = "Muhammad" 
 	dynasty = 2105000 #Ali
@@ -1305,6 +1532,17 @@
 	religion = sunni
 	2638.1.1 = { birth = yes }
 }
+
+#Iraq
+
+2104001 = { #Count of Tel Kayf
+	name = "David" 
+	dynasty = 2104001 #Agassi
+	culture = assyrian
+	religion = orthodox
+	2638.1.1 = { birth = yes }
+}
+
 2066018 = { #Duke of Sinjar
 	name = "Ako" 
 	dynasty = 2066018 #Dost
@@ -1365,20 +1603,6 @@
 	name = "Muhammad" 
 	dynasty = 2106005 #Ali
 	culture = furataini
-	religion = sunni
-	2638.1.1 = { birth = yes }
-}
-1824014 = { #King of Jordan
-	name = "Muhammad" 
-	dynasty = 1824014 #Urduni
-	culture = filastini
-	religion = ruhi
-	2638.1.1 = { birth = yes }
-}
-1824015 = { #Powerful Jordanian Vassal
-	name = "Muhammad" 
-	dynasty = 1824015 #Al-Khatib
-	culture = filastini
-	religion = sunni
+	religion = shiite
 	2638.1.1 = { birth = yes }
 }

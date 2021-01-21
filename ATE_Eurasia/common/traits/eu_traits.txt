@@ -158,6 +158,28 @@ selfish = {
 	child_insult = INSULT_MEANIE
 	child_insult_adj = INSULT_MEAN
 }
+pious = {					
+	personality = yes
+	opposites =  {
+		zealous
+		cynical
+	}
+
+	learning = 2
+	intrigue = -1
+	
+	church_opinion = 5
+
+	ai_honor = 5
+	ai_greed = -10
+	ai_ambition = -10
+	
+	male_compliment = COMPL_SCHOLAR
+	female_compliment = COMPL_SCHOLAR
+	male_insult_adj = INSULT_NAIVE
+	female_insult_adj = INSULT_NAIVE
+
+}
 blinded_age = { # Natural Blindness
 	sex_appeal_opinion = -5
 	
@@ -726,7 +748,52 @@ worthy_knight = {
 	female_compliment_adj = COMPL_WORTHY
 	
 	religious = yes
-	religion = chevalier
+	potential = { religion = chevalier }
+	random = no 
+	customizer = no
+}
+avrach = {
+
+	monthly_character_piety = 0.5
+	monthly_character_wealth = -0.5
+	
+	
+	
+	cached = yes
+	religious = yes
+	potential = { religion_group = jewish_group }
+	random = no 
+	customizer = no
+}
+hakham = {
+
+	monthly_character_piety = 0.5
+	learning = 2
+	jewish_group_opinion = 10
+	
+	religious = yes
+	potential = { religion_group = jewish_group }
+	random = no 
+	customizer = no
+}
+maskil = {
+
+	monthly_character_piety = 0.5
+	learning = 1
+	
+	religious = yes
+	potential = { religion_group = jewish_group }
+	random = no 
+	customizer = no
+}
+blessed_hands = {
+	
+	sun_king_cultist_opinion = 5
+	health = 0.5
+	monthly_character_piety = 0.5
+	
+	religious = yes
+	potential = { religion = sun_king_cultist }
 	random = no 
 	customizer = no
 }

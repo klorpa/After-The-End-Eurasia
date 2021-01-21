@@ -1093,34 +1093,6 @@ muslim = {
 		
 		intermarry = neuhumanist
 	}
-	sunnah = {
-		graphical_culture = muslimgfx
-		
-		icon = 13
-		heresy_icon = 18
-		
-		color = { 1 50 32 }
-		
-		high_god_name = GOD_ALLAH
-		
-		god_names = {
-			GOD_ALLAH GOD_THE_GREATEST
-		}
-		evil_god_names = {
-			GOD_SHAYTAN GOD_IBLIS
-		}
-		
-		scripture_name = THE_QURAN
-		priest_title = IMAM
-		crusade_name = JIHAD
-		uses_decadence = no
-		max_wives = 4
-		can_call_crusade = yes
-		can_grant_invasion_cb = yes
-		
-		religious_clothing_head = 10
-		religious_clothing_priest = 10
-	}
 	sunni = {
 		graphical_culture = muslimgfx
 		
@@ -1657,16 +1629,7 @@ old_world_cultist_group = {
 		religious_clothing_head = 14
 		religious_clothing_priest = 14
 		
-		intermarry = americanist
-		intermarry = hamiltonian
-		intermarry = jeffersonian
-		intermarry = libertarian
-		
-		intermarry = consumerist
-		intermarry = monetarist
-		intermarry = cetic
-		intermarry = rust_cultist
-		intermarry = chrome_cultist
+
 	}
 	jacobin = {
 		graphical_culture = hellenicgfx

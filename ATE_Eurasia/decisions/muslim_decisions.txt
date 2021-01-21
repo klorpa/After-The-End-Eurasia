@@ -362,6 +362,9 @@ decisions = {
 					character_event = { id = islamate.28 } 
 				}
 			}
+			set_global_flag = sunnah_reunited
+			activate_title = { title = d_sunnah status = yes }
+			d_sunnah = { grant_title = ROOT }
 		}
 		revoke_allowed = {
 			always = no
