@@ -1,3 +1,5 @@
+#i'm putting this here so we are free to delete previous code in the original file
+#i'm doing some radical changes to the election code so I don't want us to lose the original
 namespace = laws
 
 # Regular cycle elections
@@ -322,6 +324,23 @@ character_event = {
 				clr_title_flag = flag_holding_election
 			}
 		}
+		# Federal Elections
+		any_demesne_title = {
+			limit = {
+				has_title_flag = flag_holding_election
+				OR = {
+					has_law = succ_feudal_elective
+					has_law = succ_elective_gavelkind
+					has_law = succ_tanistry
+				}
+				current_heir = { NOT = { has_character_flag = flag_already_chosen_for_federal_election } }
+			}
+			current_heir = {
+				clr_character_flag = flag_already_chosen_for_federal_election
+				set_character_flag = flag_already_chosen_for_federal_election
+				character_event = { id = laws.5100 tooltip = "EVTTOOLTIPLAWS5100" days = 1 }
+			}
+		}
 		# Popular Elections
 		any_demesne_title = {
 			limit = {
@@ -333,7 +352,7 @@ character_event = {
 					has_law = succ_democratic_elective
 					is_primary_holder_title = yes
 				}
-				#current_heir = { NOT = { has_character_flag = flag_already_chosen_for_popular_election } }
+				current_heir = { NOT = { has_character_flag = flag_already_chosen_for_popular_election } }
 			}
 			current_heir = {
 				clr_character_flag = flag_already_chosen_for_popular_election
@@ -342,6 +361,308 @@ character_event = {
 			}
 		}
 	}
+}
+#####ALL OF THE FEDERAL ELCTION CODE IS UNREACHEABLE
+
+# FEDERAL ELECTIONS
+character_event = {
+	id = laws.5100
+	desc = "EVTDESCLAWS5100"
+	picture = GFX_evt_election
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTCONFIRM"
+		set_variable = { which = "victory_margin_federal" value = -1 }
+		clr_character_flag = flag_already_chosen_for_federal_election
+		hidden_tooltip = {
+			FROM = {
+				character_event = { id = laws.5110 days = 1 }
+				character_event = { id = laws.5120 days = 1 }
+			}
+		}
+		FROM = {
+			any_vassal = {
+				limit = {
+					NOT = { character = FROM } # This shouldn't be possible, but you never know
+					# Must reside in the affected area
+					capital_scope = {
+						OR = {
+							county = {
+								has_title_flag = flag_holding_election
+								has_law = succ_feudal_elective
+								holder_scope = { character = FROM }
+								current_heir = { character = ROOT }
+							}
+							duchy = {
+								has_title_flag = flag_holding_election
+								has_law = succ_feudal_elective
+								holder_scope = { character = FROM }
+								current_heir = { character = ROOT }
+							}
+							kingdom = {
+								has_title_flag = flag_holding_election
+								has_law = succ_feudal_elective
+								holder_scope = { character = FROM }
+								current_heir = { character = ROOT }
+							}
+							empire = {
+								has_title_flag = flag_holding_election
+								has_law = succ_feudal_elective
+								holder_scope = { character = FROM }
+								current_heir = { character = ROOT }
+							}
+						}
+					}
+				}
+				character_event = { id = laws.5105 tooltip = "EVTTOOLTIPLAWS5105" }
+			}
+		}
+	}
+}
+
+# You are a voter in a federal election
+character_event = {
+	id = laws.5105
+	desc = "EVTDESCLAWS5105"
+	picture = GFX_evt_election
+	show_from_from = yes
+	is_triggered_only = yes
+	
+	option = {
+		# Vote for the incumbent
+		trigger = { NOT = { character = FROM } }
+		name = "EVTOPTALAWS5105"
+		tooltip = { FROMFROM = { } }
+		hidden_tooltip = { FROM = { change_variable = { which = "victory_margin_federal" value = -1 } } }
+		ai_chance = {
+			factor = 50
+			modifier = {	
+				factor = 0
+				opinion_diff = {
+					first = FROMFROM
+					second = FROM
+					value = 1
+					as_if_liege = yes
+				}
+			}
+		}
+	}
+	
+	option = {
+		# Vote for the challenger
+		trigger = { NOT = { character = FROMFROM } }
+		name = "EVTOPTBLAWS5105"
+		tooltip = { FROM = { } }
+		hidden_tooltip = { FROM = { change_variable = { which = "victory_margin_federal" value = 1 } } }
+		ai_chance = {
+			factor = 50
+			modifier = {	
+				factor = 0
+				opinion_diff = {
+					first = FROM
+					second = FROMFROM
+					value = 1
+					as_if_liege = yes
+				}
+			}
+		}
+	}
+}
+
+# A challenger has beaten you in a federal election!
+character_event = {
+	id = laws.5110
+	desc = "EVTDESCLAWS5110"
+	picture = GFX_evt_election
+	is_triggered_only = yes
+	
+	trigger = { FROM = { check_variable = { which = "victory_margin_federal" value = 1 } } }
+	
+	option = {
+		name = "EVTOPTCONFIRM"
+		any_demesne_title = {
+			limit = {
+				has_title_flag = flag_holding_election
+				has_law = succ_feudal_elective
+				current_heir = { character = FROM }
+			}
+			# If there's a designated capital, give it over as well
+			ROOT = {
+				random_demesne_province = {
+					limit = {
+						owner = { character = ROOT }
+						empire = { title = PREVPREVPREV }
+						has_province_modifier = empire_capital_system
+					}
+					usurp_title_plus_barony_if_unlanded_and_vassals  = FROM
+				}
+				random_demesne_province = {
+					limit = {
+						owner = { character = ROOT }
+						kingdom = { title = PREVPREVPREV }
+						has_province_modifier = kingdom_capital_system
+					}
+					usurp_title_plus_barony_if_unlanded_and_vassals  = FROM
+				}
+			}
+			set_title_flag = flag_just_won_federal_election
+			usurp_title_plus_barony_if_unlanded_and_vassals  = FROM
+		}
+	}
+}
+
+# Called from any titles you win in a federal election
+character_event = {
+	id = laws.5115
+	desc = "EVTDESCLAWS5115"
+	picture = GFX_evt_election
+	is_triggered_only = yes
+	
+	trigger = { FROM = { has_title_flag = flag_just_won_federal_election } }
+	
+	option = {
+		name = "EVTOPTCONFIRM"
+		FROM = {
+			# End election
+			clr_title_flag = flag_just_won_federal_election
+			clr_title_flag = flag_holding_election
+		}
+		# Gain prestige equivalent to gained titles
+		if = {
+			limit = { FROM = { tier = count } }
+			prestige = 25
+		}
+		if = {
+			limit = { FROM = { tier = duke } }
+			prestige = 50
+		}
+		if = {
+			limit = { FROM = { tier = king } }
+			prestige = 75
+		}
+		if = {
+			limit = { FROM = { tier = emperor } }
+			prestige = 100
+		}
+		# Inform all relevant personnel of the new incumbent
+		hidden_tooltip = {
+			any_realm_character = {
+				limit = {
+					NOT = { character = ROOT }
+					OR = {
+						any_liege = { character = ROOT }
+						any_vassal = { character = ROOT }
+					}
+				}
+				character_event = { id = laws.5116 }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = laws.5116
+	desc = "EVTDESCLAWS5116"
+	notification = yes
+	is_triggered_only = yes
+	
+	immediate = { }
+	
+	option = { name = "EVTOPTCONFIRM" } # Escape option
+}
+
+# A challenger has lost to you in a federal election!
+character_event = {
+	id = laws.5120
+	desc = "EVTDESCLAWS5120"
+	picture = GFX_evt_election
+	is_triggered_only = yes
+	
+	trigger = { FROM = { NOT = { check_variable = { which = "victory_margin_federal" value = 1 } } } }
+	
+	option = {
+		name = "EVTOPTCONFIRM"
+		any_demesne_title = {
+			limit = {
+				has_title_flag = flag_holding_election
+				OR = {
+					has_law = succ_feudal_elective
+					has_law = succ_tanistry
+				}
+				current_heir = { character = FROM }
+			}
+			
+			# End the election and reset the election cycle
+			clr_title_flag = flag_holding_election
+			clr_title_flag = flag_election_cycle
+			set_title_flag = flag_election_cycle
+			
+			# Gain prestige based on title rank
+			if = {
+				limit = { tier = count }
+				ROOT = { prestige = 25 }
+			}
+			if = {
+				limit = { tier = duke }
+				ROOT = { prestige = 50 }
+			}
+			if = {
+				limit = { tier = king }
+				ROOT = { prestige = 75 }
+			}
+			if = {
+				limit = { tier = emperor }
+				ROOT = { prestige = 100 }
+			}
+			hidden_tooltip = {
+				current_heir = {
+					if = {
+						limit = { NOT = { has_character_flag = flag_informed_of_election_loss } }
+						set_character_flag = flag_informed_of_election_loss
+						character_event = { id = laws.5125 }
+					}
+				}
+			}
+		}
+		hidden_tooltip = {
+			ROOT = {
+				any_realm_character = {
+					limit = {
+						NOT = { character = ROOT }
+						OR = {
+							any_liege = { character = ROOT }
+							any_vassal = { character = ROOT }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# You lost the federal election
+character_event = {
+	id = laws.5125
+	desc = "EVTDESCLAWS5125"
+	picture = GFX_evt_election
+	is_triggered_only = yes
+	
+	option = {
+		clr_character_flag = flag_informed_of_election_loss
+		name = "EVTOPTCONFIRM"
+	}
+}
+
+character_event = {
+	id = laws.5126
+	desc = "EVTDESCLAWS5126"
+	notification = yes
+	is_triggered_only = yes
+	
+	immediate = { }
+	
+	option = { name = "EVTOPTCONFIRM" } # Escape option
 }
 
 

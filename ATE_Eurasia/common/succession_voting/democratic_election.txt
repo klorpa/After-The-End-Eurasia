@@ -3186,7 +3186,8 @@ democratic_elective = {
 			NOR = { 
 				trait = crusader_king 
 				trait = crusader_queen
-			} 
+			}
+			age = 16#it's a democratic election, no children!
 		} 
 		FROM = { #Either the candidate is in the realm, or is landless, or the title is independent, or the realm of the title does NOT have protected inheritance.
 			OR = { 

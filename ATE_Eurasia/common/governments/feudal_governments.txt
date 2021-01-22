@@ -93,9 +93,9 @@ feudal_governments = {
 		frame_suffix = "_republic"
 		title_prefix = "city_"
 		potential = {
-		controls_religion = no
-	    NOT = { government = merchant_republic_government }
-	    NOT = { is_government_potential = merchant_republic_government }
+			controls_religion = no
+			NOT = { government = merchant_republic_government }
+			NOT = { is_government_potential = merchant_republic_government }
             NOT = {tier = baron}
 		}
 	

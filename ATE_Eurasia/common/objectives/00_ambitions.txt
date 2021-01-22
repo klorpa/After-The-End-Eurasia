@@ -2474,8 +2474,10 @@ obj_become_paragon_of_enlightenment = {
 	type = character
 	
 	potential = {
-		religion_group = indian_group
-		religion_group = buddhist_group
+		OR ={
+			religion_group = indian_group
+			religion_group = buddhist_group
+		}
 	}
 	
 	allow = {

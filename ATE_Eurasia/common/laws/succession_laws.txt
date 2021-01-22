@@ -76,6 +76,8 @@ succession_laws = {
 #			always = no
 #		}			
 #	}
+#
+
 	succ_confederation_elective = {
 		potential = {
 			holder_scope = {
@@ -222,7 +224,7 @@ succession_laws = {
 				holder_scope = { is_feudal = yes }
 				holder_scope = { is_tribal = yes }
 			}
-			top_liege = NOT = { government = playable_republic_government}
+			top_liege = {NOT = { government = playable_republic_government}}
 			NOT = { holder_scope = { government = playable_republic_government } }
 			
 			is_primary_type_title = no
@@ -350,7 +352,7 @@ succession_laws = {
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = playable_republic_government } }
-			top_liege = NOT = { government = playable_republic_government}
+			top_liege = {NOT = { government = playable_republic_government}}
 		}
 		allow = {
 			conditional_tooltip = {
@@ -476,7 +478,7 @@ succession_laws = {
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = playable_republic_government } }
-			top_liege = NOT = { government = playable_republic_government}
+			top_liege = {NOT = { government = playable_republic_government}}
 		}
 		allow = {
 			conditional_tooltip = {
@@ -611,7 +613,7 @@ succession_laws = {
 			
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = playable_republic_government } }
-			top_liege = NOT = { government = playable_republic_government}
+			top_liege ={ NOT = { government = playable_republic_government}}
 		}
 		
 		allow = {
@@ -765,7 +767,7 @@ succession_laws = {
 			}
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = playable_republic_government } }
-			top_liege = NOT = { government = playable_republic_government}
+			top_liege = {NOT = { government = playable_republic_government}}
 		}
 		allow = {
 			conditional_tooltip = {
@@ -959,7 +961,7 @@ succession_laws = {
 				has_title_flag = alternate_hre
 			}
 			NOT = { holder_scope = { government = playable_republic_government } }
-			top_liege = NOT = { government = playable_republic_government}
+			top_liege = {NOT = { government = playable_republic_government}}
 		}
 		allow = {
 			custom_tooltip = {
@@ -996,7 +998,7 @@ succession_laws = {
 				}
 			}
 			NOT = { holder_scope = { government = playable_republic_government } }
-			top_liege = NOT = { government = playable_republic_government}
+			top_liege = {NOT = { government = playable_republic_government}}
 			OR = {
 				title = e_hre #Title-bound.
 				ROOT = {
@@ -1127,7 +1129,7 @@ succession_laws = {
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = playable_republic_government } }
-			top_liege = NOT = { government = playable_republic_government}
+			top_liege = {NOT = { government = playable_republic_government}}
 
 		}
 		allow = {
@@ -1216,7 +1218,7 @@ succession_laws = {
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = playable_republic_government } }
-			top_liege = NOT = { government = playable_republic_government}
+			top_liege = {NOT = { government = playable_republic_government}}
 
 		}
 		allow = {
@@ -1362,7 +1364,7 @@ succession_laws = {
 			}
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = playable_republic_government } }
-			top_liege = NOT = { government = playable_republic_government}
+			top_liege = {NOT = { government = playable_republic_government}}
 		}
 		allow = {
 			conditional_tooltip = {
@@ -1516,7 +1518,7 @@ succession_laws = {
 			}
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = playable_republic_government } }
-			top_liege = NOT = { government = playable_republic_government}
+			top_liege = {NOT = { government = playable_republic_government}}
 		}
 		effect = {
 			succession = turkish_succession
@@ -1552,7 +1554,7 @@ succession_laws = {
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = playable_republic_government } }
-			top_liege = NOT = { government = playable_republic_government}
+			top_liege = {NOT = { government = playable_republic_government}}
 		}
 		effect = {
 			succession = appointment
@@ -1627,7 +1629,7 @@ succession_laws = {
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = playable_republic_government } }
-			top_liege = NOT = { government = playable_republic_government}
+			top_liege = {NOT = { government = playable_republic_government}}
 		}
 		
 		effect = {
@@ -1668,7 +1670,7 @@ succession_laws = {
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = playable_republic_government } }
-			top_liege = NOT = { government = playable_republic_government}
+			top_liege = {NOT = { government = playable_republic_government}}
 		}
 		effect = {
 			succession = catholic_bishopric
@@ -1695,7 +1697,7 @@ succession_laws = {
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = playable_republic_government } }
-			top_liege = NOT = { government = playable_republic_government}
+			top_liege = {NOT = { government = playable_republic_government}}
 		}
 		effect = {
 			succession = patrician_elective
@@ -1731,6 +1733,7 @@ succession_laws = {
 			# This succession type generates a character of China's culture and religion
 			# They have decent (4-10) stats, and good (7-11) stewardship, and will always have a Stewardship education
 			# The offmap power defined in the top liege's government is used to determine the culture and religion. Will not function if this isn't defined
+			#
 		}
 		revoke_allowed = {
 			always = no
