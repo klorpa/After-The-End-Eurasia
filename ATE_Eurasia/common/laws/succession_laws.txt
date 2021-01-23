@@ -1697,7 +1697,7 @@ succession_laws = {
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = playable_republic_government } }
-			top_liege = {NOT = { government = playable_republic_government}}
+			NOT = { top_liege = { government = playable_republic_government } }
 		}
 		effect = {
 			succession = patrician_elective
