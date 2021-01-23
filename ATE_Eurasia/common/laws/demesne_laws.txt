@@ -2610,10 +2610,9 @@ laws = {
 	# LOCAL TERM LENGTH LAWS
 	##############################
 	
-		local_term_length_0 = { # Annual
-			show_as_title = yes
-			group = local_term_length
-		
+	local_term_length_0 = { # Annual
+		show_as_title = yes
+		group = local_term_length
 		# Annual elections cause no end of headaches
 		vassal_opinion = -15
 		
@@ -2696,6 +2695,7 @@ laws = {
 	local_term_length_1 = { # Every Four Years
 		show_as_title = yes
 		group = local_term_length
+		default = yes
 		
 		potential = {
 			NOT = { tier = emperor }
