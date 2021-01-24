@@ -24,33 +24,6 @@ establish_republic = {
 			add_law = succ_democratic_elective
 		}
 		character_event = {id = inland.1}
-		any_vassal = {
-			score_value = {
-				value = 1
-				additive_modifier = {
-					tier = KING
-					value = 1000
-				}
-				additive_modifier = {
-					tier = DUKE
-					value = 300
-				}
-				additive_modifier = {
-					tier = COUNT
-					value = 50
-				}
-				additive_modifier = {
-					is_powerful_vassal = yes
-					value = 30
-				}
-				additive_modifier = {
-					among_most_powerful_vassals = 4
-					value = 10
-				}
-			}
-			count = 4
-			character_event = {id = inland.1}
-		}
 	}
 }
 

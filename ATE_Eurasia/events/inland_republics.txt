@@ -11,7 +11,7 @@ character_event = {#adds a titular county
 	trigger = {
 		government = playable_republic_government
 		NOT = {
-			any_title_under = {
+			any_demesne_title = {
 				has_title_flag = inland_patrician
 			}
 		}
@@ -100,7 +100,6 @@ character_event = {#adds a titular county
 						set_title_flag = inland_patrician
 						set_name = "House of [Root.GetLastWordInDynastyName]"
 						set_coa = PREVPREVPREV#primary title
-						de_jure_liege = PREV
 					}
 				}
 			}
@@ -110,24 +109,31 @@ character_event = {#adds a titular county
 
 character_event = {#removes the titular county
 	id = inland.2
-	is_triggered_only = yes
 	
 	picture = GFX_evt_powerful_ruler
 	desc = EVTDESC_lose_oligrach
 	
 	only_rulers = yes
 	only_playable = yes
-	
+	trigger = {
+		NOT = {government = playable_republic_government}
+		any_demesne_title = {has_title_flag = inland_patrician}
+	}
 	option = {
 		name = EVTOPTA_lose_oligarch
-		any_title = {
+		any_demesne_title = {
 			limit = {
-				has_title_flag = inland_republic
+				has_title_flag = inland_patrician
+			}	
+			set_title_landless = {
+				title = THIS
+				status = no
 			}
 			activate_title = {
 				title = THIS
 				status = no
 			}
+			unsafe_destroy_landed_title = {title = THIS}
 		}
 	}
 }

@@ -96,7 +96,9 @@ feudal_governments = {
 			controls_religion = no
 			NOT = { government = merchant_republic_government }
 			NOT = { is_government_potential = merchant_republic_government }
-            NOT = {tier = baron}
+			top_liege = {
+				higher_tier_than = COUNT#if the title is a county or a duchy, the titular counties system won't work
+			}
 		}
 	
 		color = { 209 125 130 }
