@@ -24,9 +24,9 @@ e_al_mashriq = {
 				
 				b_karkh = {
 				}
-				b_al_fallujah = {
+				b_kadhimiyya = {
 				}
-				b_kazimiyyah = {
+				b_sadr = {
 				}
 				b_abu_ghurayb = {
 				}
@@ -34,26 +34,7 @@ e_al_mashriq = {
 				}
 				b_ar_rashid = {
 				}
-				b_al_habanyah = {
-				}
-			}
-			c_malahma = { # 2024
-				color={ 44 109 12 }
-				color2={ 255 255 255 }
-				
-				b_aqabah = {
-				}
-				b_malahma = {
-				}
-				b_albu_faraj = {
-				}
-				b_albu_shejel = {
-				}
-				b_saqlawiyah = {
-				}
-				b_albu_bali = {
-				}
-				b_albu_aath = {
+				b_nissan = {
 				}
 			}
 			c_babil = { # 2028
@@ -152,8 +133,8 @@ e_al_mashriq = {
 				}
 			}
 		}
-		d_al_hajarah = {
-			color={ 135 198 119 }
+		d_anbar = {
+			color={ 105 178 149 }
 			color2={ 255 255 255 }
 			
 			capital = 2030 # c_ramadi
@@ -177,23 +158,23 @@ e_al_mashriq = {
 				b_al_baghdadi = {
 				}
 			}
-			c_al_muthanna = { # 2034
-				color={ 127 142 120 }
+			c_fallujah = { # 2024
+				color={ 44 109 12 }
 				color2={ 255 255 255 }
 				
-				b_samawah = {
+				b_al_fallujah = {
 				}
-				b_al_khidhir = {
+				b_aqabah = {
 				}
-				b_as_salman = {
+				b_malahma = {
 				}
-				b_darraji = {
+				b_albu_faraj = {
 				}
-				b_suq_al_shuyukh = {
+				b_albu_shejel = {
 				}
-				b_al_fadhliya = {
+				b_saqlawiyah = {
 				}
-				b_batha = {
+				b_albu_bali = {
 				}
 			}
 			c_al_qaim = { # 2031
@@ -215,25 +196,6 @@ e_al_mashriq = {
 				b_barwanah = {
 				}
 			}
-			c_an_najaf = { # 2033
-				color={ 158 184 145 }
-				color2={ 255 255 255 }
-				
-				b_an_najaf = {
-				}
-				b_kufa = {
-				}
-				b_al_manathera = {
-				}
-				b_al_meshkhab = {
-				}
-				b_al_qadisiyyah = {
-				}
-				b_abu_sakhair = {
-				}
-				b_al_shakabah = {
-				}
-			}
 			c_ar_rutbah = { # 2032
 				color={ 134 165 118 }
 				color2={ 255 255 255 }
@@ -251,6 +213,51 @@ e_al_mashriq = {
 				b_al_habbariyah = {
 				}
 				b_al_kasrah = {
+				}
+			}
+		}
+		d_al_hajarah = {
+			color={ 135 198 119 }
+			color2={ 255 255 255 }
+			
+			capital = 2034 # c_al_muthanna
+			
+			c_al_muthanna = { # 2034
+				color={ 127 142 120 }
+				color2={ 255 255 255 }
+				
+				b_samawah = {
+				}
+				b_al_khidhir = {
+				}
+				b_as_salman = {
+				}
+				b_darraji = {
+				}
+				b_suq_al_shuyukh = {
+				}
+				b_al_fadhliya = {
+				}
+				b_batha = {
+				}
+			}
+			c_an_najaf = { # 2033
+				color={ 158 184 145 }
+				color2={ 255 255 255 }
+				
+				b_an_najaf = {
+				}
+				b_kufa = {
+				}
+				b_al_manathera = {
+				}
+				b_al_meshkhab = {
+				}
+				b_al_qadisiyyah = {
+				}
+				b_abu_sakhair = {
+				}
+				b_al_shakabah = {
 				}
 			}
 		}
