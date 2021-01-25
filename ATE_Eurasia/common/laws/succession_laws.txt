@@ -122,9 +122,7 @@ succession_laws = {
 					government = bureaucratic_muslim_government
 				}
 			}
-			religion_group = muslim
 			NOT = { holder_scope = { government = military_governorate } }
-
 		}
 		allow = {
 			custom_tooltip = {
@@ -185,7 +183,6 @@ succession_laws = {
 		potential = {
 			NOT = { has_law = succ_confederation_elective }
 			NOT = { has_law = succ_bureaucratic_elective }
-			NOT = { has_law = succ_ghazi_elective }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				OR = { 
@@ -228,6 +225,8 @@ succession_laws = {
 			}
 			top_liege = {NOT = { government = playable_republic_government}}
 			NOT = { holder_scope = { government = playable_republic_government } }
+			NOT = { holder_scope = { government = bureaucratic_muslim_government } }
+			NOT = { holder_scope = { government = ghazi_government } }
 			
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = confucian_bureaucracy } }

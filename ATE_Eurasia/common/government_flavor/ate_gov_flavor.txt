@@ -3,7 +3,10 @@ government_flavor = {
 	graphics = GFX_evt_battle
 	priority = 2
 	trigger = {
-		government = ghazi_government
+		OR = {
+			government = ghazi_government
+			government = bureaucratic_muslim_government
+		}
 		NOR = { has_law = succ_gavelkind has_law = succ_elective_gavelkind }
 		NOT = { tier = EMPEROR }
 		NOT = { has_landed_title = k_morroco }
@@ -15,7 +18,10 @@ government_flavor = {
 	graphics = GFX_evt_battle
 	priority = 2
 	trigger = {
-		government = ghazi_government
+		OR = {
+			government = ghazi_government
+			government = bureaucratic_muslim_government
+		}
 		OR = { has_law = succ_gavelkind has_law = succ_elective_gavelkind }
 		NOT = { tier = EMPEROR }
 		NOT = { has_landed_title = k_morroco }
@@ -27,7 +33,10 @@ government_flavor = {
 	graphics = GFX_evt_emissary_arabic
 	priority = 2
 	trigger = {
-		government = ghazi_government
+		OR = {
+			government = ghazi_government
+			government = bureaucratic_muslim_government
+		}
 		tier = EMPEROR
 		NOT = { has_landed_title = k_morroco }
 	}
@@ -42,6 +51,7 @@ government_flavor = {
 		OR = {
 			government = merchant_republic_government
 			government = republic_government
+			government = playable_republic_government
 		}
 		NOT = { has_landed_title = k_morroco }
 	}
@@ -52,7 +62,10 @@ government_flavor = {
 	graphics = GFX_evt_carriage_arabic
 	priority = 2
 	trigger = {
-		government = ghazi_government
+		OR = {
+			government = ghazi_government
+			government = bureaucratic_muslim_government
+		}
 		has_landed_title = k_morroco
 	}
 }
