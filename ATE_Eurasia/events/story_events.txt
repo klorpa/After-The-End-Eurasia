@@ -199,7 +199,17 @@ narrative_event = {
 	trigger = {
 		AND = {
 			has_landed_title = d_venice
+			has_character_flag = treacherous_venetian
 			prisoner = no
+			war = no
+			k_lombardy = {
+				holder_scope = {
+					OR = {
+						has_character_flag = vengeful_queen
+						has_character_flag = mourning_queen
+					}
+				}
+			}
 		}
 	}
 	
@@ -238,12 +248,6 @@ narrative_event = {
 				}
 			}
 			d_veneto = {
-				set_defacto_liege = k_venetia
-			}
-			d_trentino = {
-				set_defacto_liege = k_venetia
-			}
-			d_fruli = {
 				set_defacto_liege = k_venetia
 			}
 		}
