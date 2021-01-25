@@ -122,6 +122,7 @@ succession_laws = {
 					government = bureaucratic_muslim_government
 				}
 			}
+			religion_group = muslim
 			NOT = { holder_scope = { government = military_governorate } }
 
 		}
@@ -184,6 +185,7 @@ succession_laws = {
 		potential = {
 			NOT = { has_law = succ_confederation_elective }
 			NOT = { has_law = succ_bureaucratic_elective }
+			NOT = { has_law = succ_ghazi_elective }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				OR = { 
