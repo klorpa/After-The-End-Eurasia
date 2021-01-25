@@ -1449,65 +1449,7 @@ succession_laws = {
 		#child_opinion = 30
 		#dynasty_opinion = 10
 		potential = {
-			NOT = { has_law = succ_confederation_elective }
-			NOT = { has_law = succ_bureaucratic_elective }
-			NAND = { 
-				has_law = succ_byzantine_elective 
-				OR = { 
-					title = e_byzantium
-					title = e_roman_empire
-				}
-			}
-			holder_scope = {
-				OR = {
-					religion_group = muslim
-					AND = {
-						has_religion_feature = religion_patriarchal
-						is_theocracy = no
-					}
-					AND = {
-						has_religion_feature = religion_matriarchal
-						is_theocracy = no
-					}
-				}
-				is_republic = no
-				is_merchant_republic = no
-				is_nomadic = no
-			}
-			OR = {
-				holder_scope = { # Viceroyalties can always have turkish succession if muslim
-					any_demesne_title = {
-						is_vice_royalty = yes
-					}
-				}
-				AND = {
-					OR = {
-						is_landless_type_title = no
-						is_tribal_type_title = yes
-						temporary = yes
-					}
-					holder_scope = {
-						OR = {
-							independent = yes
-							NOT = {
-								any_liege = {
-									holy_order = yes
-								}
-							}
-						}
-					}
-					is_primary_type_title = no
-				}
-			}
-			NAND = { 
-				has_law = succession_voting_power_1
-				OR = { 
-					has_law = succ_feudal_elective 
-					has_law = succ_hre_elective
-				}
-			}
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
-			NOT = { holder_scope = { government = playable_republic_government } }
+			always = no
 		}
 		effect = {
 			succession = turkish_succession
