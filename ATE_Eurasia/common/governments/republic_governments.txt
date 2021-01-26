@@ -122,7 +122,6 @@ republic_governments = {
 		potential = {
 			NAND = {
 				controls_religion = yes
-				NOT = { religion_group = muslim }
 			}
 			NOT = { is_government_potential = merchant_republic_government }
 			NOT = { government = playable_republic_government }

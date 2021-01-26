@@ -27,6 +27,15 @@ theocracy_governments = {
 		potential = {
 			holy_order = no
 			is_patrician = no
+			NAND = {
+				OR = {
+					religion = yazidi
+					religion = nysed
+					religion = sunnah
+					religion = sun_king_cultist
+				}
+				controls_religion = yes
+			}
 			OR = {
 				is_female = no
 				religion_allows_female_temple_holders = yes

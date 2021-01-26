@@ -5712,7 +5712,7 @@ narrative_event = {
 	}
 }
 
-# THE START OF MUSLIM JIHADS - 2700 IF THERE IS STILL A CALIPH
+# THE START OF NIZAMI JIHADS - 2700 ARRIVES
 narrative_event = {
 	id = 39670
 	title = EVTNAME39670
@@ -5727,7 +5727,7 @@ narrative_event = {
 	
 	only_playable = yes
 	min_age = 16
-	religion_group = muslim
+	religion = nizami
 	
 	trigger = {
 		NOT = {
@@ -5735,8 +5735,7 @@ narrative_event = {
 		}
 		controls_religion = yes
 		year = 2700
-		
-		NOT = { has_global_flag = muslim_jihads_unlocked }
+		NOT = { has_global_flag = nizami_jihads_unlocked }
 	}
 	
 	mean_time_to_happen = {
@@ -5744,12 +5743,20 @@ narrative_event = {
 	}
 	
 	immediate = {
-		set_global_flag = muslim_jihads_unlocked
+		set_global_flag = nizami_jihads_unlocked
 	}
 	
 	option = {
 		name = EVTOPTA39670
 		trigger = {
+			religion = nizami
+		}
+	}
+	
+	option = {
+		name = EVTOPTA39670
+		trigger = {
+			NOT = { religion = nizami }
 			religion_group = muslim
 		}
 	}
@@ -5762,7 +5769,7 @@ narrative_event = {
 	}
 }
 
-# THE START OF MUSLIM JIHADS - JERUSALEM HAS FALLEN
+# THE START OF NIZAMI JIHADS - ISTANBUL HAS FALLEN
 narrative_event = {
 	id = 39671
 	title = EVTNAME39670
@@ -5777,17 +5784,19 @@ narrative_event = {
 	
 	only_playable = yes
 	min_age = 16
-	religion_group = muslim
+	religion = nizami
 	
 	trigger = {
 		NOT = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
-		year = 2700
 		controls_religion = yes
-		NOT = { has_global_flag = muslim_jihads_unlocked }
-		1958 = { # West Jerusalem
-			NOT = { owner = { top_liege = { religion_group = muslim } } }
+		NOT = { has_global_flag = nizami_jihads_unlocked }
+		143 = { # Istanbul
+			OR = { 
+				owner = { top_liege = { NOT = { religion_group = muslim } } }
+				owner = { top_liege = { religion = ruhi } }
+			}
 		}
 	}
 	
@@ -5796,12 +5805,20 @@ narrative_event = {
 	}
 	
 	immediate = {
-		set_global_flag = muslim_jihads_unlocked
+		set_global_flag = nizami_jihads_unlocked
 	}
 	
 	option = {
 		name = EVTOPTA39670
 		trigger = {
+			religion = nizami
+		}
+	}
+	
+	option = {
+		name = EVTOPTA39670
+		trigger = {
+			NOT = { religion = nizami }
 			religion_group = muslim
 		}
 	}
@@ -5814,59 +5831,7 @@ narrative_event = {
 	}
 }
 
-# THE START OF MUSLIM JIHADS - MECCA HAS FALLEN
-narrative_event = {
-	id = 39672
-	title = EVTNAME39670
-	desc = EVTDESC39672
-	picture = GFX_evt_mecca_falls_soa
-	border = GFX_event_narrative_frame_religion
-	
-	major = yes
-	
-	show_ROOT = yes
-	hide_new = yes
-	
-	only_playable = yes
-	min_age = 16
-	religion_group = muslim
-	
-	trigger = {
-		NOT = {
-			has_alternate_start_parameter = { key = religion_names value = random }
-		}
-		year = 2700
-		controls_religion = yes
-		NOT = { has_global_flag = muslim_jihads_unlocked }
-		117 = { # Mecca
-			NOT = { owner = { top_liege = { religion_group = muslim } } }
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 3
-	}
-	
-	immediate = {
-		set_global_flag = muslim_jihads_unlocked
-	}
-	
-	option = {
-		name = EVTOPTA39670
-		trigger = {
-			religion_group = muslim
-		}
-	}
-	
-	option = {
-		name = EVTOPTB39670
-		trigger = {
-			NOT = { religion_group = muslim }
-		}
-	}
-}
-
-# THE START OF MUSLIM JIHADS - THE CENTER CANNOT HOLD
+# THE START OF NIZAMI JIHADS - THE RETURN OF AN EMPIRE
 narrative_event = {
 	id = 39673
 	title = EVTNAME39670
@@ -5881,24 +5846,26 @@ narrative_event = {
 	
 	only_playable = yes
 	min_age = 16
-	religion_group = muslim
+	religion = nizami
 	
 	trigger = {
 		NOT = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
-		year = 2700
 		controls_religion = yes
-		NOT = { has_global_flag = muslim_jihads_unlocked }
+		NOT = { has_global_flag = nizami_jihads_unlocked }
 		OR = {
-			2023 = { # Baghdad
-				NOT = { owner = { top_liege = { religion_group = muslim } } }
+			e_turkey = { 
+				has_holder = yes
+				owner = {
+					religion = nizami
+				}
 			}
-			1997 = { # Damascus
-				NOT = { owner = { top_liege = { religion_group = muslim } } }
-			}
-			1399 = { # Cairo
-				NOT = { owner = { top_liege = { religion_group = muslim } } }
+			e_ottoman_empire = { 
+				has_holder = yes
+				owner = {
+					religion = nizami
+				}
 			}
 		}
 	}
@@ -5908,12 +5875,20 @@ narrative_event = {
 	}
 	
 	immediate = {
-		set_global_flag = muslim_jihads_unlocked
+		set_global_flag = nizami_jihads_unlocked
 	}
 	
 	option = {
 		name = EVTOPTA39670
 		trigger = {
+			religion = nizami
+		}
+	}
+	
+	option = {
+		name = EVTOPTA39670
+		trigger = {
+			NOT = { religion = nizami }
 			religion_group = muslim
 		}
 	}
@@ -5926,65 +5901,67 @@ narrative_event = {
 	}
 }
 
-# THE START OF MUSLIM JIHADS - AFRICA UNDER THREAT
-narrative_event = {
-	id = 39674
-	title = EVTNAME39670
-	desc = EVTDESC39674
-	picture = GFX_evt_desert
-	border = GFX_event_narrative_frame_religion
+# # THE START OF MUSLIM JIHADS - AFRICA UNDER THREAT adapt this for ithnaasriyya
+# narrative_event = {
+	# id = 39674
+	# title = EVTNAME39670
+	# desc = EVTDESC39674
+	# picture = GFX_evt_desert
+	# border = GFX_event_narrative_frame_religion
 	
-	major = yes
+	# major = yes
 	
-	show_ROOT = yes
-	hide_new = yes
+	# show_ROOT = yes
+	# hide_new = yes
 	
-	only_playable = yes
-	min_age = 16
-	religion_group = muslim
+	# only_playable = yes
+	# min_age = 16
+	# religion_group = muslim
 	
-	trigger = {
-		NOT = {
-			has_alternate_start_parameter = { key = religion_names value = random }
-		}
-		year = 2700
-		controls_religion = yes
-		NOT = { has_global_flag = muslim_jihads_unlocked }
-		OR = {
-			1039 = { # Rabat
-				NOT = { owner = { top_liege = { religion_group = muslim } } }
-			}
-			420 = { # Tunis
-				NOT = { owner = { top_liege = { religion_group = muslim } } }
-			}
-			244 = { # Al Djazair
-				NOT = { owner = { top_liege = { religion_group = muslim } } }
-			}
-		}
-	}
+	# trigger = {
+		# NOT = {
+			# has_alternate_start_parameter = { key = religion_names value = random }
+		# }
+		# year = 2700
+		# controls_religion = yes
+		# NOT = { has_global_flag = muslim_jihads_unlocked }
+		# OR = {
+			# 1039 = { # Rabat
+				# NOT = { owner = { top_liege = { religion_group = muslim } } }
+			# }
+			# 420 = { # Tunis
+				# NOT = { owner = { top_liege = { religion_group = muslim } } }
+			# }
+			# 244 = { # Al Djazair
+				# NOT = { owner = { top_liege = { religion_group = muslim } } }
+			# }
+		# }
+	# }
 	
-	mean_time_to_happen = {
-		months = 3
-	}
+	# mean_time_to_happen = {
+		# months = 3
+	# }
 	
-	immediate = {
-		set_global_flag = muslim_jihads_unlocked
-	}
+	# immediate = {
+		# set_global_flag = muslim_jihads_unlocked
+	# }
 	
-	option = {
-		name = EVTOPTA39670
-		trigger = {
-			religion_group = muslim
-		}
-	}
+	# option = {
+		# name = EVTOPTA39670
+		# trigger = {
+			# religion_group = muslim
+		# }
+	# }
 	
-	option = {
-		name = EVTOPTB39670
-		trigger = {
-			NOT = { religion_group = muslim }
-		}
-	}
-}
+	# option = {
+		# name = EVTOPTB39670
+		# trigger = {
+			# NOT = { religion_group = muslim }
+		# }
+	# }
+# }
+
+
 
 # THE START OF PAGAN GREAT HOLY WARS - AFTER THE ABRAHAMICS
 narrative_event = {
