@@ -36,6 +36,65 @@ world_scandinavia = {
 # Custom Regions
 ###########################################################################
 
+custom_tarim_basin = {
+	duchies = { 
+		d_kashgar d_aksu d_khotan d_bayingholin
+	}
+}
+
+custom_altay_sayan = {
+	duchies = { 
+		d_tuva d_gorny_altay d_lugovoy_altay d_oskemen d_altay d_turpan
+	}
+}
+
+custom_tian_shan = {
+	duchies = { 
+		d_ili d_urumqi d_chuy d_talas d_fergana d_tashkent
+	}
+}
+
+custom_urals = {
+	duchies = { 
+		d_ufa d_magnitogorsk d_chelyabinsk d_sverdlovsk d_perm d_orenburg
+	}
+}
+
+custom_siberian_steppe = {
+	duchies = { 
+		d_omsk d_kurgan d_tyumen d_petropavl d_novosibirsk 
+	}
+}
+
+custom_turan_desert = {
+	duchies = { 
+		d_mangystau d_ahal d_karakalpakstan d_lebap d_bukhara d_samarkand
+	}
+}
+
+custom_pamir = {
+	duchies = { 
+		d_pamir d_dushanbe d_samarkand d_ladakh
+	}
+}
+
+custom_kazakh_steppe = {
+	duchies = { 
+		d_kostanay d_akmola d_pavlodar d_karagandy d_zhezqazghan d_shygys_saryarqa d_almaty d_jambyl d_kyzylorda d_aktyubinsk d_aral
+	}
+}
+
+custom_caucasus = {
+	duchies = { 
+		d_kavkaz d_abkhazia d_kartli d_kakheti d_gyumri d_chechnya d_baku d_aran d_ganja d_shirvan d_imereti
+	}
+}
+
+custom_pontic_caspian_steppe = {
+	duchies = { 
+		d_atyrau d_uralsk d_astrakhan d_kalmykia d_stavropol d_dagestan d_volgograd d_krasnodar d_chernomorye d_adygea d_rostov d_donbas d_don 
+	}
+}
 custom_great_britain = {
 	duchies = {
 		d_northome d_london d_sussex d_thames_valley d_norfolk d_cornwall d_wessex d_west_midlands d_east_midlands d_yorkshire d_manchester d_liverpool d_cumbria d_northumberland d_gwynedd d_dyfed d_gwent d_powys d_lothian d_strathclyde d_tayside d_the_highlands d_hebrides d_northern_isles d_the_isles
@@ -62,21 +121,33 @@ custom_old_france = {
 	counties = { c_labourd }
 }
 custom_old_spain = {
-	duchies = { d_alto_aragon d_barcelona d_bajo_aragon d_valencia d_balears d_castile d_leon d_asturias d_galicia d_madrid d_la_mancha d_granada d_seville d_extramadura d_las_palmas d_santa_cruz_de_tenerife } 
+	duchies = { 
+		d_alto_aragon d_barcelona d_bajo_aragon d_valencia d_balears d_castile d_leon d_asturias d_galicia d_madrid d_la_mancha d_granada d_seville d_extramadura d_las_palmas d_santa_cruz_de_tenerife 
+	} 
 	
-	counties = { c_navarre c_biscay c_alava c_la_rioja c_cadiz }
+	counties = { 
+		c_navarre c_biscay c_alava c_la_rioja c_cadiz 
+	}
 }
 custom_norway = {
-	duchies = { d_viken d_vestlandet d_trondelag d_opplandene d_halogaland }
+	duchies = { 
+		d_viken d_vestlandet d_trondelag d_opplandene d_halogaland 
+	}
 }
 custom_sweden = {
-	duchies = { d_skaneland d_smaland d_kalmar d_vastra_gotaland d_gotland d_svealand d_bergslagen d_jamtland d_norrland d_halsingland }
+	duchies = { 
+		d_skaneland d_smaland d_kalmar d_vastra_gotaland d_gotland d_svealand d_bergslagen d_jamtland d_norrland d_halsingland 
+	}
 }
 custom_denmark = {
-	duchies = { d_nordjylland d_syddanmark d_sjaelland }
+	duchies = { 
+		d_nordjylland d_syddanmark d_sjaelland 
+	}
 }
 custom_italy = {
-	duchies = { d_venice d_veneto d_trentino d_liguria d_piedmont d_lombardy d_romagna d_emilia d_milan d_san_marino d_lazio d_marche d_tuscany d_calabria d_apulia d_campania d_abruzzo d_palermo d_syracuse d_malta d_sardinia }
+	duchies = { 
+		d_venice d_veneto d_trentino d_liguria d_piedmont d_lombardy d_romagna d_emilia d_milan d_san_marino d_lazio d_marche d_tuscany d_calabria d_apulia d_campania d_abruzzo d_palermo d_syracuse d_malta d_sardinia 
+	}
 }
 
 custom_western_europe = {
@@ -86,7 +157,9 @@ custom_western_europe = {
 }
 
 custom_pale = {
-	duchies = { d_crimea d_kyiv d_chernihiv d_kherson d_poltava d_kharkiv d_dnipropetrovsk d_cherkasy d_zaporizhia d_odessa d_vinnytsia d_viciebsk d_minsk d_brest d_gomel d_lviv d_volyn d_zhytomyr d_mazovia d_podlasie d_lubelia d_lodz d_aukstaitija d_samogitia d_suvalkija d_budjak d_bukovina d_western_moldova d_moldova }
+	duchies = { 
+		d_crimea d_kyiv d_chernihiv d_kherson d_poltava d_kharkiv d_dnipropetrovsk d_cherkasy d_zaporizhia d_odessa d_vinnytsia d_viciebsk d_minsk d_brest d_gomel d_lviv d_volyn d_zhytomyr d_mazovia d_podlasie d_lubelia d_lodz d_aukstaitija d_samogitia d_suvalkija d_budjak d_bukovina d_western_moldova d_moldova 
+	}
 	
 	counties = { c_swietokrzyskie c_rzeszow c_czestochowa }
 }
