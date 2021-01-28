@@ -797,3 +797,43 @@ blessed_hands = {
 	random = no 
 	customizer = no
 }
+qomi = {
+	monthly_character_piety = 0.25 #balancing
+	vassal_opinion = 10
+	
+	religious = yes # Lost immediately on religion change
+	
+	potential = { #this ensures that only twelvers get it
+		religion = shia
+	}
+	
+	opposites =  {
+		najafi
+	}
+	
+	opposite_opinion = -5
+	same_opinion = 10
+	
+	customizer = no
+	random = no
+}
+najafi = {
+	monthly_character_piety = 0.25
+	learning = 1
+	
+	religious = yes # Lost immediately on religion change
+	
+	potential = {
+		religion = shia
+	}
+	
+	opposites =  {
+		qomi
+	}
+	
+	opposite_opinion = -5
+	same_opinion = 10
+	
+	customizer = no
+	random = no
+}
