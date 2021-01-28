@@ -4,6 +4,23 @@ uralic_west = {
 	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
 	graphical_cultures = { easterngfx }
 	
+	khanty = {
+		graphical_cultures = { ugricgfx }
+		
+		color = { 0.4 0.7 0.8 }
+
+		male_names = {
+			Ambal Igor Andrei Yaroslav Aleksandr Viktor Anton Aleksei Semyon Kirill Artur Artem Evgeny
+		}
+		female_names = {
+			Miroslava Inessa Yelena Katharina Matrena
+		}
+		
+		from_dynasty_prefix = "of "
+
+		modifier = default_culture_modifier
+	}
+	
 	nenet = {
 		graphical_cultures = { ugricgfx }
 		
