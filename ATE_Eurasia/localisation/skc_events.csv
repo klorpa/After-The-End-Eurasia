@@ -1,5 +1,3 @@
-###ÄNSI###
-
 EVTNAME_skc_1;A Solarque Reborn;;;;;;;;;;;;;x
 EVTDESC_skc_1; After decades of submission under the reign of foolish heathens, the Soleil Royal faith has restored it's original splendor and luminous glory. Thanks to many worthy conquests in the name of [sun_king_cultist.GetHighGodName], the partisans of the Diable have been pushed back to lands not graced by his luminous kingship of the newly anointed Solarque.;;;;;;;;;;;;;x
 EVTOPTA_skc_1;Long live the Solarque!;;;;;;;;;;;;;x
@@ -17,12 +15,12 @@ EVTOPTA_bard_arrives_worthy;You are welcome!;;;;;;;;;;;;x
 EVTDESC_damsel_distress_1;I have received a distraught message from a damsel in need. [From.GetTitledFirstName] is suffering under the yoke of an uncouth [From.Liege.GetManWoman] with no honor. Hearing tales of my valor and my status as a Worthy Knight of the Chevaliers, [From.GetSheHe] pleads me to offer [From.GetHerHim] my protection.;;;;;;;;;;;;x
 EVTOPTA_damsel_distress_1;Fear not, my [From.GetLordLady]! I will protect you!;;;;;;;;;;;;x
 EVTOPTB_damsel_distress_1;Unfortunately, I cannot offer assistance now.;;;;;;;;;;;;x
-EVTDESC_damsel_distress_2;After a long week on the road, I have arrived at the castle to deliver [event_target:damsel_in_distress.GetTitledFirstName] from [event_target:damsel_in_distress.GetHerHis] captors. Soon, I am faced with the commander of guard, who has heard the tales of my skill in combat. He agrees to release [event_target:damsel_in_distress.GetTitledFirstName] if I can defeat him in a duel.;;;;;;;;;;;;x
+EVTDESC_damsel_distress_2;After a long week on the road, I have arrived at the castle to deliver [event_target:damsel_in_distress.GetTitledFirstName] from [event_target:damsel_in_distress.GetHerHis] captors. Soon, I am faced with the commander of guard, who has heard the tales of my skill in combat. He agrees to release [event_target:damsel_in_distress.GetTitledFirstName]  if I can defeat him in a duel.;;;;;;;;;;;;x
 EVTOPTA_damsel_distress_2;Alright then! En Garde!;;;;;;;;;;;;x
 EVTOPTB_damsel_distress_2;On second thought, I better head home...;;;;;;;;;;;;x
 
 EVTDES1_damsel_distress_3;While the duel was hard-fought, you have emerged as the victor. [event_target:damsel_in_distress.GetTitledFirstName] falls into your arms, thanking you endlessly for taking [event_target:damsel_in_distress.GetHerHim] away from this dreaded place. ;;;;;;;;;;;;x
-EVTDES2_damsel_distress_3;You have been defeated in the duel and must ride home to your castle in shame, without rescuing [event_target:damsel_in_distress.GetTitledFirstName]. ;;;;;;;;;;;;x
+EVTDES2_damsel_distress_3;You have been  defeated in the duel and must ride home to your castle in shame, without rescuing [event_target:damsel_in_distress.GetTitledFirstName]. ;;;;;;;;;;;;x
 EVTOPTA_damsel_distress_3;My Lady! May I have your hand?;;;;;;;;;;;;x
 EVTOPTB_damsel_distress_3;You will be welcome to stay in my court;;;;;;;;;;;;x
 EVTOPTC_damsel_distress_3;I will never live this down...;;;;;;;;;;;;x
@@ -30,13 +28,40 @@ EVTOPTC_damsel_distress_3;I will never live this down...;;;;;;;;;;;;x
 EVTDESC_unworthy_chevalier;While once you were once known for valor and virtue, your sins have become too apparent. The priests who once spoke of you as a Worthy now spit at the mention of your name. At least for now, your time in their favor is over.;;;;;;;;;;;;;x
 EVTOPTA_unworthy_chevalier;I ought to look over my sins.;;;;;;;;;;;;;x
 
+##Royal Touch Event
+EVTDESC_royal_touch_1;Our followers are hungry to see you work miracles with your healing touch. As their king, it is your duty to heal people with your touch as your healing powers are important for your legitimacy in the eyes of the priesthood and your subjects.;;;;;;;;;;;;;x
+EVTOPTA_royal_touch_1;Only my vassals are worthy of my touch.;;;;;;;;;;;;;x
+EVTOPTB_royal_touch_1;My courtiers shall deserve my touch.;;;;;;;;;;;;;x
+EVTOPTC_royal_touch_1;I shall perform my touch at a local hospital.;;;;;;;;;;;;;x
+EVTDESC_royal_touch_2;You inform your vassal that you are on your way to give [From.GetHerHim] your healing touch.;;;;;;;;;;;;;x
+EVTOPTA_royal_touch_2;May my vassal knows that I am coming.;;;;;;;;;;;;;x
+EVTDESC_royal_touch_3;You greet your subject along with the clergy accompanying you. People begin to flock around you as they witness you give your subject the royal touch.;;;;;;;;;;;;;x
+EVTOPTA_royal_touch_3;May my subject be healed from my touch.;;;;;;;;;;;;;x
+EVTDESC_royal_touch_4;Your liege arrived at your realm, and gives you the royal touch.;;;;;;;;;;;;;x
+EVTOPTA_royal_touch_4;May my lord's touch cures me from my disease.;;;;;;;;;;;;;x
+EVTDESC_royal_touch_5;It seems that your subject has not showed signs of recovery from their diseases despite you giving [From.GetHerHim] the royal touch recently.;;;;;;;;;;;;;x
+EVTOPTA_royal_touch_5;How unfortunate!;;;;;;;;;;;;;x
+EVTDESC_royal_touch_6;It seems that your touch was successful as your vassal shows sign of recovery from [From.GetHerHis] illness after you touch [From.GetHerHim].;;;;;;;;;;;;;x
+EVTOPTA_royal_touch_6;[Root.Religion.GetHighGodName]blesses me with the Divine Rights to Rule.;;;;;;;;;;;;;x
+EVTDESC_royal_touch_8;You decide to head out to the local hospital with some clergies accompanying you to give the patient your royal touch to heal them from their diseases. Once you arrived there, people begin to crowd around you as the afflicted subjects are waiting for your blessing. You begin blessing your patients one by one as they line up for your healing touch.
+EVTOPTA_royal_touch_8;May my subjects be cured from their illness with my touch.;;;;;;;;;;;;;x
+EVTDES1_royal_touch_9;It seems that your subjects show signs of recovery from their illness after your recent touch.;;;;;;;;;;;;;x
+EVTDES2_royal_touch_9;Unfortunately, your subjects have not showed any signs of recovery from their illness, with some even died afterward despite your best ability to give them your touch. Now the people are riled up because of your failure to cure them from their disease.;;;;;;;;;;;;;x
+EVTOPTA_royal_touch_9;[Root.Religion.GetHighGodName]blesses me with the Divine Rights to Rule.;;;;;;;;;;;;;x
+EVTOPTB_royal_touch_9;This would be the death of me!;;;;;;;;;;;;;x
 
 ##traits
 worthy_knight;Worthy;;;;;;;;;;;;;x
 worthy_knight_desc;The [chevalier.GetName] priesthood has recognized this character as a truly worthy and valiant knight for whom other chevaliers will flock to [this.GetHerHis] banners.;;;;;;;;;;;;;x
+blessed_hands;Blessed Hands;;;;;;;;;;;;;x
+blessed_hands_desc;The people has recognized the King as having hands that are capable of blessing the sick from illness.;;;;;;;;;;;;;x
 ##modifier
 shamed_knight;Shamed Knight;;;;;;;;;;;;;x
 shamed_knight_desc;This Knight has lost [this.GetHerHis] position as a Worthy Knight of the [chevalier.GetName] Faith, a great shame for [this.GetHerHim] and all thier blood-kin.;;;;;;;;;;;;;x
 both_chevalier_tt;Both characters follow the [chevalier.GetName] Religion.;;;;;;;;;;;;;x
 sun_king_cultist_opinion;Soleil Royal Opinion;;;;;;;;;;;;;x
-chevalier_opinion;Chévalier Opinion;;;;;;;;;;;;;x
+chevalier_opinion;ChÃ©valier Opinion;;;;;;;;;;;;;x
+opinion_royal_touch;Royal Touch Opinion;;;;;;;;;;;;;x
+failed_kings_touch;Failed King's Touch;;;;;;;;;;;;;x
+successful_kings_touch;Successful King's Touch;;;;;;;;;;;;;x
+province_kings_touch;King's Touched Province;;;;;;;;;;;;;x
