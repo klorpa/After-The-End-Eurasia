@@ -252,6 +252,56 @@ turkic_oghuz = {
 
 		modifier = default_culture_modifier
 	}
+
+	qashqai = {
+		graphical_cultures = { persiangfx }
+		
+		color = { 0.89 0.67 0.23 }
+
+		male_names = {
+			Abdullah Ahmet_Ahmed Ali 
+			Berat 
+			Ekin Emir Emirhan Eymen 
+			Fatih Furkan 
+			Hasan Hüseyin_Hussein 
+			Ibrahim_Abraham Ismail_Ishmael 
+			Mehmet_Muhammad Muhammad Mustafa "Mustafa Kemal" 
+			Necmettin_Nejmeddin 
+			Ömer Onur Orhan Osman 
+			Recep_Rajab 
+			Shevket Suleyman_Solomon 
+			Yahya_John Yusuf_Joseph 
+		}
+		female_names = {
+			Ayshe_Aisha Aytaç Azra 
+			Betül 
+			Deniz 
+			Ekin Emine Evrem 
+			Fatma_Fatima 
+			Gökçe Gulbahar 
+			Hatice 
+			Leila 
+			Mina 
+			Nehir Nilufer 
+			Öykü 
+			Selma Songül Süyümbike 
+			Tilbe Tugçe 
+			Yagmur Yasmin_Jasmine 
+			Zehra_Zohra Zekiye Zeynep_Zeynab 
+		}
+		
+		founder_named_dynasties = yes
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
 	gagauz = {
 		graphical_cultures = { cumangfx }
 		
