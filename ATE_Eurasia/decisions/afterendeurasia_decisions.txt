@@ -267,7 +267,6 @@ decisions = {
 			set_character_flag = recent_minor_decision
 			set_character_flag = do_not_disturb
 			hidden_tooltip = { character_event = { id = yule.1 days = 1 } }
-			}
 			if = {
 				limit = {
 					has_dlc = "Reapers"
@@ -281,11 +280,11 @@ decisions = {
 					}
 				}
 			}
-		modifier = {
-			factor = 0
-			NOT = {
-				wealth = 200
-				}
+		}
+		ai_chance = {
+			modifier = {
+				factor = 0
+				NOT = {wealth = 200}
 			}
 			modifier = {
 				factor = 0
@@ -298,6 +297,7 @@ decisions = {
 					has_character_flag = {
 						flag = recent_minor_decision
 						days = 730
+					}
 				}
 			}
 		}
