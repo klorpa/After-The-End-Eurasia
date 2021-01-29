@@ -5717,7 +5717,7 @@ narrative_event = {
 	id = 39670
 	title = EVTNAME39670
 	desc = EVTDESC39670
-	picture = GFX_evt_bishop
+	picture = GFX_istanbul
 	border = GFX_event_narrative_frame_religion
 	
 	major = yes
@@ -5774,7 +5774,7 @@ narrative_event = {
 	id = 39671
 	title = EVTNAME39670
 	desc = EVTDESC39671
-	picture = GFX_evt_jerusalem_captured_muslims
+	picture = GFX_evt_moors
 	border = GFX_event_narrative_frame_religion
 	
 	major = yes
@@ -5816,7 +5816,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = EVTOPTA39670
+		name = EVTOPTB39670
 		trigger = {
 			NOT = { religion = nizami }
 			religion_group = muslim
@@ -5824,7 +5824,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = EVTOPTB39670
+		name = EVTOPTC39670
 		trigger = {
 			NOT = { religion_group = muslim }
 		}
@@ -5836,7 +5836,7 @@ narrative_event = {
 	id = 39673
 	title = EVTNAME39670
 	desc = EVTDESC39673
-	picture = GFX_evt_moors
+	picture = GFX_victory_march_ottoman
 	border = GFX_event_narrative_frame_religion
 	
 	major = yes

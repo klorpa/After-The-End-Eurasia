@@ -221,7 +221,6 @@ narrative_event = {
 		50 = {add_trait = zealous}
 		
 		}
-		
 		narrative_event = { id = nh_seance.20 days = 2 }
 	}
 	
@@ -231,9 +230,8 @@ narrative_event = {
 		ai_chance = {
 			factor = 10
 			modifier = { factor = 2 trait = cynical }
-			
-			narrative_event = { id = nh_seance.20 days = 2 }
 		}
+		narrative_event = { id = nh_seance.20 days = 2 }
 	}
 }
 

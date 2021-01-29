@@ -1,0 +1,386 @@
+###################################
+#
+# MUSLIM SCHOOL IMAMITES
+# - Muslim School Events
+#
+###################################
+namespace = MSI
+
+# Adopts Qom'i 
+character_event = {
+	id = MSI.00 #i don't think you can have event id of 00, needs testing
+	desc = EVTDESC_MSI_00
+	picture = GFX_evt_kaaba
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_MSI_00
+		add_trait = qomi
+		if = {
+			limit = {
+				primary_title = { higher_tier_than = COUNT }
+			}
+			economy_techpoints = 25
+			culture_techpoints = 25
+			military_techpoints = 25
+		}
+	}
+}
+
+# Adopts Najaf'i
+character_event = {
+	id = MSI.01
+	desc = EVTDESC_MSI_01
+	picture = GFX_evt_kaaba
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_MSI_00
+		add_trait = najafi
+		piety = 100
+	}
+}
+
+# Najafi liege has Qomi vassal (Hidden)
+character_event = {
+	id = MSI.02
+	
+	hide_window = yes
+	
+	min_age = 16
+	only_capable = yes
+	prisoner = no
+	only_rulers = yes
+	religion = shiite
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		NOR = {
+			liege = {
+				war = yes
+			}
+			trait = incapable
+			is_inaccessible_trigger = yes
+			prisoner = yes
+		}
+		trait = qomi
+		liege = { 
+			trait = najafi 
+			NOT = {
+				has_opinion_modifier = { who = ROOT modifier = opinion_rejected_school }
+			}
+		}
+	}
+	
+	immediate = {
+		liege = {
+			character_event = { id = MSI.03 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 640
+	}
+}
+
+# Najaf'i liege has Qom'i vassal
+character_event = {
+	id = MSI.03
+	desc = EVTDESC_MSI_03
+	picture = GFX_evt_kaaba
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_MSI_03
+		FROM = { 
+			letter_event = { id = MSI.04 days = 3 tooltip = EVTTOOLTIP_MSI_04 }
+		}
+	}
+	option = {
+		name = EVTOPTB_MSI_03
+	}
+}
+
+# Qom'i vassal receives letter
+letter_event = {
+	id = MSI.04
+	desc = EVTDESC_MSI_04
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_MSI_04
+		ai_chance = {
+			factor = 1
+		}
+		FROM = { 
+			letter_event = { id = MSI.05 days = 3 tooltip = EVTTOOLTIP_MSI_05 }
+		}
+	}
+	option = {
+		name = EVTOPTB_MSI_04
+		ai_chance = {
+			factor = 1
+		}
+		FROM = { 
+			opinion = {
+				modifier = opinion_rejected_school
+				who = ROOT
+			}
+			letter_event = { id = MSI.06 days = 3 tooltip = EVTTOOLTIP_MSI_06 }
+		}
+	}
+}
+
+# Qom'i vassal complies
+letter_event = {
+	id = MSI.05
+	desc = EVTDESC_MSI_05
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_MSI_05
+		tooltip = {
+			FROM = {
+				remove_trait = qomi
+				add_trait = najafi
+			}
+		}
+	}
+}
+
+# Qom'i vassal refuses
+letter_event = {
+	id = MSI.06
+	desc = EVTDESC_MSI_06
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_MSI_06
+	}
+}
+
+# Qom'i liege has Najaf'i vassal (Hidden)
+character_event = {
+	id = MSI.10
+	
+	hide_window = yes
+	
+	min_age = 16
+	only_capable = yes
+	prisoner = no
+	only_rulers = yes
+	religion = shiite
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		NOR = {
+			liege = {
+				war = yes
+			}
+			trait = incapable
+			is_inaccessible_trigger = yes
+			prisoner = yes
+		}
+		trait = najafi
+		liege = { 
+			trait = qomi
+			NOT = {
+				has_opinion_modifier = { who = ROOT modifier = opinion_rejected_school }
+			}
+		}
+	}
+	
+	immediate = {
+		liege = {
+			character_event = { id = MSI.11 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 640
+	}
+}
+
+# Qom'i liege has Najaf'i vassal
+character_event = {
+	id = MSI.11
+	desc = EVTDESC_MSI_11
+	picture = GFX_evt_kaaba
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_MSI_11
+		FROM = { 
+			letter_event = { id = MSI.12 days = 3 tooltip = EVTTOOLTIP_MSI_12 }
+		}
+	}
+	option = {
+		name = EVTOPTB_MSI_11
+	}
+}
+
+# Najaf'i vassal receives letter
+letter_event = {
+	id = MSI.12
+	desc = EVTDESC_MSI_12
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_MSI_12
+		ai_chance = {
+			factor = 1
+		}
+		FROM = { 
+			letter_event = { id = MSI.13 days = 3 tooltip = EVTTOOLTIP_MSI_13 }
+		}
+		remove_trait = najafi
+		add_trait = qomi
+	}
+	option = {
+		name = EVTOPTB_MSI_12
+		ai_chance = {
+			factor = 1
+		}
+		FROM = { 
+			opinion = {
+				modifier = opinion_rejected_school
+				who = ROOT
+			}
+			letter_event = { id = MSI.14 days = 3 tooltip = EVTTOOLTIP_MSI_14 }
+		}
+	}
+}
+
+# Najaf'i vassal complies
+letter_event = {
+	id = MSI.13
+	desc = EVTDESC_MSI_13
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_MSI_13
+		tooltip = {
+			FROM = {
+				remove_trait = najafi
+				add_trait = qomi
+			}
+		}
+	}
+}
+
+# Najaf'i vassal refuses
+letter_event = {
+	id = MSI.14
+	desc = EVTDESC_MSI_14
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_MSI_14
+	}
+}
+
+# zealous Najaf'i considers Qom'i
+character_event = {
+	id = MSI.20
+	desc = EVTDESC_MSI_20
+	picture = GFX_evt_kaaba
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	only_capable = yes
+	prisoner = no
+	only_rulers = yes
+	religion = shiite
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		trait = najafi
+		trait = zealous
+	}
+	
+	mean_time_to_happen = {
+		months = 140
+	}
+	
+	option = {
+		name = EVTOPTA_MSI_20
+		ai_chance = {
+			factor = 1
+		}
+		remove_trait = najafi
+		add_trait = qomi
+	}
+	option = {
+		name = EVTOPTB_MSI_20
+		ai_chance = {
+			factor = 1
+		}
+		remove_trait = zealous
+		add_trait = pious
+	}
+}
+
+# Pious Qom'i considers Najaf'i
+character_event = {
+	id = MSI.21
+	desc = EVTDESC_MSI_21
+	picture = GFX_evt_kaaba
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	only_capable = yes
+	prisoner = no
+	only_rulers = yes
+	religion = shiite
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		trait = qomi
+		trait = pious
+	}
+	
+	mean_time_to_happen = {
+		months = 140
+	}
+	
+	option = {
+		name = EVTOPTA_MSI_20
+		ai_chance = {
+			factor = 1
+		}
+		remove_trait = qomi
+		add_trait = najafi
+	}
+	option = {
+		name = EVTOPTB_MSI_21
+		ai_chance = {
+			factor = 1
+		}
+		remove_trait = pious
+		add_trait = zealous
+	}
+}
