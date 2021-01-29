@@ -1343,7 +1343,7 @@
 	name="Yuanzhong"
 	dynasty=1055016  
 	religion="mahayana"
-	culture="sogdian"
+	culture="tajik"
 	trait=tough_soldier
 	trait=desert_terrain_leader
 	trait=brave
@@ -6213,7 +6213,7 @@
 	name="Tang"
 	dynasty = 1053120 # Liu
 	religion="ruist"
-	culture="tangut"
+	culture = mandarin
 	dna="daceacaebal"
 	prp="cl0cbd000000000000"
 	disallow_random_traits = yes
@@ -6840,7 +6840,7 @@
 	culture="mandarin"
 	trait = brilliant_strategist
 	trait = ambitious
-	trait=sympathy_zoroastrianism
+	#trait=sympathy_zoroastrianism
 	trait=sympathy_islam
 	trait=sympathy_christendom
 	865.1.1={
@@ -6857,7 +6857,7 @@
 	religion="ruist"
 	culture="mandarin"
 	father=1059714
-	trait=sympathy_zoroastrianism
+	#trait=sympathy_zoroastrianism
 	trait=sympathy_islam
 	trait=sympathy_christendom
 	905.1.1={
@@ -6877,7 +6877,7 @@
 	culture="mandarin"
 	father=1059714
 	trait=tough_soldier
-	trait=sympathy_zoroastrianism
+	#trait=sympathy_zoroastrianism
 	trait=sympathy_islam
 	trait=sympathy_christendom
 	890.1.1={
@@ -6910,7 +6910,7 @@
 	religion="ruist"
 	culture="mandarin"
 	father=1059714
-	trait=sympathy_zoroastrianism
+	#trait=sympathy_zoroastrianism
 	trait=sympathy_islam
 	trait=sympathy_christendom
 	892.1.1={
@@ -6928,10 +6928,10 @@
 	father=1059714
 	trait=charismatic_negotiator
 	trait=quick
-	trait=sympathy_zoroastrianism
+	#trait=sympathy_zoroastrianism
 	trait=sympathy_islam
 	trait=sympathy_christendom
-	trait=theravada_mahayana
+	trait=pious
 	920.1.1={
 		birth=yes # maybe
 	}
@@ -6946,7 +6946,7 @@
 	religion="ruist"
 	culture="mandarin"
 	father=1059714
-	trait=sympathy_zoroastrianism
+	#trait=sympathy_zoroastrianism
 	trait=sympathy_islam
 	trait=sympathy_christendom
 	912.1.1={
@@ -7106,7 +7106,7 @@
 		death = yes
 	}
 }
-217285 = {
+2172850 = {
 	name = Belgunutei # fictional
 	dynasty = 1051120 # Buryat
 	religion = pagan
@@ -7124,7 +7124,7 @@
 	dynasty = 1051120 # Buryat
 	religion = pagan
 	culture = khalkha
-	father = 217285
+	father = 2172850
 	1245.3.27 = {
 		birth = yes
 	}
@@ -7710,7 +7710,7 @@
      birth=yes
    }
    1254.1.1={
-     religion="catholic"
+     religion="nestorian"
    }
    1256.1.1={
      death=yes
@@ -7813,7 +7813,7 @@
    add_trait="sympathy_indian"
    add_trait="sympathy_christendom"
    add_trait="sympathy_judaism"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    1265.1.1={
      birth=yes
    }
@@ -7982,12 +7982,12 @@
 125522 = {
    name="Baidu"
    dynasty=11100
-   religion="catholic"
+   religion="nestorian"
    culture="khalkha"
    father=125521
    add_trait="sympathy_pagans"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_indian"
    1255.1.1={
@@ -8008,7 +8008,7 @@
 125523 = {
    name="Teguder"
    dynasty=11100
-   religion="catholic"
+   religion="nestorian"
    culture="khalkha"
    father=478011
    mother=166940
@@ -8030,13 +8030,13 @@
    dynasty=11100
    diplomacy=8
    intrigue=8
-   religion="catholic"
+   religion="nestorian"
    culture="khalkha"
    father=478008
    mother=166949
    add_trait="sympathy_indian"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    1271.11.5={
@@ -8067,7 +8067,7 @@
    add_trait="hedonist"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    add_trait="child_of_consort"
@@ -8243,7 +8243,7 @@
    name="Oljat"
    female = yes
    dynasty=11100
-   religion="catholic"
+   religion="nestorian"
    culture="khalkha"
    father=478010
    mother=166943
@@ -8399,7 +8399,7 @@
 478007 = {
    name="Nicholas"
    dynasty=11100
-   religion="catholic"
+   religion="nestorian"
    culture="khalkha"
    father=478008
    mother=166950
@@ -8434,7 +8434,7 @@
    add_trait="just"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    add_trait="child_of_consort"
@@ -8461,7 +8461,7 @@
    culture="khalkha"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_indian"
    1235.1.1={
@@ -8482,7 +8482,7 @@
    mother=166940
    add_trait="sympathy_pagans"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_christendom"
    1234.1.1={
@@ -8514,7 +8514,7 @@
    add_trait="ambitious"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_indian"
    father=125520
@@ -11141,7 +11141,7 @@
 93462 = {
 	name="Kitbuqa"
 	dynasty=7371
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	trait="skilled_tactician"
 	trait="brave"
@@ -11247,7 +11247,7 @@
    add_trait="just"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_indian"
    1186.11.7={
@@ -11272,7 +11272,7 @@
 172006 = {
    name="Töregene"
    dynasty=1041001 #Naiman
-   religion="catholic"
+   religion="nestorian"
    culture="khalkha"
    female=yes
    father = 217215 # fictional connection
@@ -11280,7 +11280,7 @@
    add_trait="diligent"
    add_trait="sympathy_pagans"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_indian"
    1187.1.1={
@@ -11300,7 +11300,7 @@
    mother=172006
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_indian"
    1206.3.19={
@@ -11351,7 +11351,7 @@
 172010 = {
    name="Sorkhaghatani"
    dynasty=1041002
-   religion="catholic"
+   religion="nestorian"
    culture="khalkha"
    female=yes
    father=166894
@@ -11360,7 +11360,7 @@
    add_trait="fair"
    add_trait="sympathy_pagans"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_indian"
    1188.1.1={
@@ -11451,7 +11451,7 @@
 217227 = {
    name = "Altun" #fictional, Altun Begi moved to 166875
    dynasty = 1041001 # Naiman
-   religion = "catholic"
+   religion = "nestorian"
    culture = "khalkha"
    father=217215
    female = yes
@@ -11475,7 +11475,7 @@
    add_trait="just"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_indian"
    1209.1.10 = {
@@ -11519,7 +11519,7 @@
    add_trait="midas_touched"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_indian"
    1215.9.23 = {
@@ -11562,7 +11562,7 @@
    add_trait="grey_eminence"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_indian"
    1227.5.5 = {
@@ -11583,7 +11583,7 @@
    culture="khalkha"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    father=217266
@@ -11605,7 +11605,7 @@
    culture="khalkha"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    father=217268
@@ -11627,7 +11627,7 @@
    culture="khalkha"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    father=217268
@@ -11649,7 +11649,7 @@
    culture="khalkha"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    father=217270
@@ -11668,7 +11668,7 @@
    culture="khalkha"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    father=217270
@@ -11707,7 +11707,7 @@
    culture="khalkha"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    father=217272
@@ -11729,7 +11729,7 @@
    culture="khalkha"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    father=217268
@@ -11789,7 +11789,7 @@
    culture="khalkha"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    father=217275
@@ -11811,7 +11811,7 @@
    culture="khalkha"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    father=217279
@@ -11832,7 +11832,7 @@
    culture="khalkha"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    father=217271
@@ -11853,7 +11853,7 @@
    culture="khalkha"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    father=217271
@@ -11877,7 +11877,7 @@
    culture="khalkha"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    father=217282
@@ -11896,7 +11896,7 @@
    culture="khalkha"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    add_trait="child_of_consort"
@@ -11917,7 +11917,7 @@
    culture="khalkha"
    add_trait="sympathy_christendom"
    add_trait="sympathy_islam"
-   add_trait="sympathy_zoroastrianism"
+   #add_trait=sympathy_zoroastrianism
    add_trait="sympathy_judaism"
    add_trait="sympathy_pagans"
    add_trait="child_of_consort"
@@ -12436,7 +12436,7 @@
 	}
 	1560.1.1 = {
 		add_spouse = 8001061 #Empress Xiaoding
-		set_secret_religion = taoist
+		
 	}
 	1572.7.5 = {death = { death_reason = death_offmap }}
 }
@@ -15034,7 +15034,7 @@
 #Later Northern Yuan Leaders
 8001113 = {
 	dynasty = 11100
-	name = "Tögüs Temür" Son of Toghon
+	name = "Tögüs Temür" #Son of Toghon
 	religion = pagan
 	culture = khalkha
 	father = 217284
@@ -15233,7 +15233,7 @@
 188914 = {
    name="Kuchlug"
    dynasty=1041001 # Naiman
-   religion=catholic
+   religion=nestorian
    culture=khalkha
    father=217215
    1175.1.1={
@@ -15251,7 +15251,7 @@
 217213 = {
    name = "Bogen" # fictional
    dynasty = 1041001 # Naiman
-   religion = "catholic"
+   religion = "nestorian"
    culture = "khalkha"
    father=166885
    1102.5.19 = {
@@ -15265,7 +15265,7 @@
 217214 = {
 	name = "Tamachi" # fictional
 	dynasty = 1041001 # Naiman
-	religion = catholic
+	religion = nestorian
 	culture = khalkha
 	father = 217213
 	1132.7.27 = {
@@ -15278,7 +15278,7 @@
 217215 = {
    name = "Taibuqa"
    dynasty = 1041001 # Naiman
-   religion = catholic
+   religion = nestorian
    culture = khalkha
    father = 217214
    1154.11.7 = {
@@ -15291,7 +15291,7 @@
 217216 = {
 	name = "Holuikmandarin" # fictional
 	dynasty = 1041001 # Naiman
-	religion = catholic
+	religion = nestorian
 	culture = khalkha
 	female = yes
 	father = 217214
@@ -15305,7 +15305,7 @@
 217217 = {
 	name = "Shiraghul" # fictional
 	dynasty = 1041001 # Naiman
-	religion = catholic
+	religion = nestorian
 	culture = khalkha
 	father = 217215
 	1188.5.9 = {
@@ -15318,7 +15318,7 @@
 217246 = {
 	name = Khorilartai # fictional
 	dynasty = 1041001 # Naiman
-	religion = catholic
+	religion = nestorian
 	culture = khalkha
 	father = 217217
 	1211.3.24 = {
@@ -15331,7 +15331,7 @@
 217247 = {
 	name = Mandukhai # fictional
 	dynasty = 1041001 # Naiman
-	religion = catholic
+	religion = nestorian
 	culture = khalkha
 	father = 217217
 	female = yes
@@ -15345,7 +15345,7 @@
 217259 = {
 	name = Chormakmandarin # fictional
 	dynasty = 1041001 # Naiman
-	religion = catholic
+	religion = nestorian
 	culture = khalkha
 	father = 217246
 	1239.3.11 = {
@@ -15358,7 +15358,7 @@
 217260 = {
 	name = Munglig # fictional
 	dynasty = 1041001 # Naiman
-	religion = catholic
+	religion = nestorian
 	culture = khalkha
 	father = 217259
 	1264.5.22 = {
@@ -15371,7 +15371,7 @@
 217261 = {
 	name = Kokochu # fictional
 	dynasty = 1041001 # Naiman
-	religion = catholic
+	religion = nestorian
 	culture = khalkha
 	father = 217260
 	1291.4.15 = {
@@ -15386,7 +15386,7 @@
 }
 217262 = {
 	name = Khojin # fictional
-	religion = catholic
+	religion = nestorian
 	culture = khalkha
 	female = yes
 	1294.3.16 = {
@@ -15399,7 +15399,7 @@
 217263 = {
 	name = Ibakha # fictional
 	dynasty = 1041001 # Naiman
-	religion = catholic
+	religion = nestorian
 	culture = khalkha
 	father = 217261
 	mother = 217262
@@ -15414,7 +15414,7 @@
 217264 = {
 	name = Oronartai # fictional
 	dynasty = 1041001 # Naiman
-	religion = catholic
+	religion = nestorian
 	culture = khalkha
 	father = 217261
 	mother = 217262
@@ -16956,7 +16956,7 @@
 		birth=yes
 	}
 	1012.1.1={
-		religion="catholic"
+		religion="nestorian"
 	}
 	1015.1.1={
 		death=yes
@@ -16974,7 +16974,7 @@
 		add_spouse=166880
 	}
 	1012.1.1={
-		religion="catholic"
+		religion="nestorian"
 	}#Conversion of the Khereid King according to Nestorian records
 	1026.1.1={
 		death=yes
@@ -16991,7 +16991,7 @@
 		birth=yes
 	}
 	1012.1.1={
-		religion="catholic"
+		religion="nestorian"
 	}
 	1055.1.1={
 		death=yes
@@ -17000,7 +17000,7 @@
 166883 = {
 	name="Gerel" #fictional name
 	dynasty=1041002
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	father=166882
 	1035.1.1={
@@ -17013,7 +17013,7 @@
 166884 = {
 	name="Markus Buyruk"
 	dynasty=1041002
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	father=166883
 	1058.1.1={
@@ -17026,7 +17026,7 @@
 166885 = {
 	name = "Korchi Buiruk" # Korchi Buiruk Kmandarin
 	dynasty = 1041001 # Naiman
-	religion = "catholic"
+	religion = "nestorian"
 	culture = "khalkha"
 	1064.1.1 = {
 		birth=yes
@@ -17039,7 +17039,7 @@
 	name="Toreqaimish"
 	female=yes
 	dynasty = 1041001 # Naiman
-	religion = "catholic"
+	religion = "nestorian"
 	culture = "khalkha"
 	father=166885
 	1108.1.1 = {
@@ -17052,7 +17052,7 @@
 166887 = {
 	name="Saryk"
 	dynasty=1041002
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	father=166884
 	1079.1.1={
@@ -17065,7 +17065,7 @@
 166888 = {
 	name="Kurchakus Buyruk"
 	dynasty=1041002
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	father=166884
 	1096.1.1={
@@ -17081,7 +17081,7 @@
 166889 = {
 	name="Gur"
 	dynasty=1041002
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	father=166884
 	1099.1.1={
@@ -17094,7 +17094,7 @@
 166890 = {
 	name="Toghrul" #Wang Kmandarin
 	dynasty=1041002
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	father=166888
 	mother=166886
@@ -17118,7 +17118,7 @@
 166891 = {
 	name="Yula Mangus"
 	dynasty=1041002
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	father=166888
 	mother=166886
@@ -17132,7 +17132,7 @@
 166892 = {
 	name="Tai Temür"
 	dynasty=1041002
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	father=166888
 	mother=166886
@@ -17146,7 +17146,7 @@
 166893 = {
 	name="Bukha Temür"
 	dynasty=1041002
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	father=166888
 	mother=166886
@@ -17160,7 +17160,7 @@
 166894 = {
 	name="Jakha Khambu"
 	dynasty=1041002
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	father=166888
 	mother=166886
@@ -17177,7 +17177,7 @@
 166895 = {
 	name="Nilkha Sengum"
 	dynasty=1041002
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	father=166890
 	1156.1.1={
@@ -17993,7 +17993,7 @@
 166939 = {
 	name="Sartaq"
 	dynasty=1041002
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	father=166895
 	1195.1.1={
@@ -18007,14 +18007,14 @@
 	name="Doquz" #Doquz Khatun, wife of Hulagu
 	female=yes
 	dynasty=1041002
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	father=166895
 	add_trait="fair"
 	add_trait="kind"
 	add_trait="just"
 	add_trait="sympathy_pagans"
-	add_trait="sympathy_zoroastrianism"
+	#add_trait=sympathy_zoroastrianism
 	add_trait="sympathy_judaism"
 	add_trait="sympathy_indian"
 	1214.1.1={
@@ -18055,7 +18055,7 @@
 	name="Haimash" #concubine of Abaqa Kmandarin
 	female=yes
 	dynasty=1041001
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	1242.1.1={
 		birth=yes
@@ -18101,7 +18101,7 @@
 	name="Uruk" #concubine of Arghun
 	female = yes
 	dynasty=1041002
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	1260.1.1={
 		birth=yes
@@ -18139,7 +18139,7 @@
 166954 = {
 	name="Tacar"
 	dynasty=11100
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	father=166953
 	1210.1.1={
@@ -18152,7 +18152,7 @@
 166955 = {
 	name="Ajul"
 	dynasty=11100
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	father=166954
 	1233.1.1={
@@ -18165,7 +18165,7 @@
 166956 = {
 	name="Nayan"
 	dynasty=11100
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	father=166955
 	1257.1.1={
@@ -18568,7 +18568,7 @@
 	name="Babusha" # wife of Khutughtu Kmandarin
 	female=yes
 	dynasty=1041001 #Naiman
-	religion="catholic"
+	religion="nestorian"
 	culture="khalkha"
 	1302.1.1 = {
 		birth=yes
@@ -18782,7 +18782,7 @@
 	name="Cmandaringshi" 
 	dynasty=11100
 	religion="pagan"
-	secret_religion="catholic"
+	secret_religion="nestorian"
 	culture="khalkha"
 	trait=sympathy_christendom
 	father=93085
@@ -18804,7 +18804,7 @@
 		birth="1315.1.1"
 	}
 	1234.1.1={
-		religion=catholic
+		religion=nestorian
 	}
 	1338.1.1={
 		death="1338.1.1"
@@ -18815,7 +18815,7 @@
 	name="Yesun Temur" 
 	dynasty=11100
 	religion="pagan"
-	secret_religion="catholic"
+	secret_religion="nestorian"
 	culture="khalkha"
 	trait=sympathy_christendom
 	father=93085
