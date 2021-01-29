@@ -4504,12 +4504,13 @@ faction_independence = {
 					NOT = {
 						capital_scope = { 
 							can_naval_path_to = {
-								target = { ROOT = capital_scope }
+								target = { ROOT = {capital_scope} }
 								distance > 600
 							}
 						}
 					}
-				}			}
+				}			
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -4519,7 +4520,7 @@ faction_independence = {
 					NOT = {
 						capital_scope = { 
 							can_naval_path_to = {
-								target = { ROOT = capital_scope }
+								target = { ROOT = {capital_scope} }
 								distance > 800
 							}
 						}
