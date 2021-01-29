@@ -3708,8 +3708,10 @@ crusade = {
 					}
 				}
 				OR = {
-					religion_group = zoroastrian_group
-					religion_group = jewish_group
+					religion_group = vernacular
+					religion = wahhabi
+					religion = sunnah
+					religion = salafi
 					AND = {
 						religion_group = pagan_group
 						custom_tooltip = {
@@ -3725,10 +3727,10 @@ crusade = {
 						}
 					}
 					AND = {
-						religion_group = muslim
+						religion = nizami
 						custom_tooltip = {
-							text = CTT_MUSLIM_JIHADS_UNLOCKED
-							has_global_flag = muslim_jihads_unlocked
+							text = CTT_NIZAMI_JIHADS_UNLOCKED
+							has_global_flag = nizami_jihads_unlocked
 						}
 					}
 				}

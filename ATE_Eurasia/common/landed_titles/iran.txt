@@ -3,111 +3,434 @@
 e_iran = {
 	color={ 111 245 168 }
 	color2={ 255 255 255 }
+		
+	capital = 2282 # c_tabriz
 	
-	capital = 949 #Ashgabat
-
-	k_turkmenistan = {
-		color={ 146 187 115 }
-		color2 = { 255 255 255 }
+	k_south_azerbaijan = {
+		color={ 151 212 96 }
+		color2={ 255 255 255 }
 		
-		capital = 949 #Ashgabat
+		capital = 2282 # c_tabriz
+		culture = azeri
 		
-		d_ahal = {
-			color={ 129 210 120 }
+		d_tabriz = {
+			color={ 171 192 106 }
 			color2={ 255 255 255 }
 			
-			capital = 949 #Ashgabat
+			capital = 2282 # c_tabriz
+
+			azeri="Täbriz"
+			kurdish="Tewrêz"
 			
-			c_ashgabat = {
-				color={ 154 235 103 }
+			c_tabriz = { # 2282
+				color={ 181 182 111 }
 				color2={ 255 255 255 }
+
+				azeri="Täbriz"
+				kurdish="Tewrêz"
 				
-				b_ashgabat = {}
-				b_annau = {}
-				b_yashlyk = {}
-				b_firjuza = {}
-				b_baharly = {}
-				b_archman = {}
-				b_kelete = {}
+				b_saat = {
+				}
+				b_tabriz = {
+					azeri="Täbriz"
+					kurdish="Tewrêz"
+				}
+				b_osku = {
+					azeri="Üçqaya"
+				}
+				b_azarshahr = {
+					azeri="Azärshähr"
+				}
+				b_sardrud = {
+					azeri="Särdrud"
+				}
+				b_khosrowshah = {
+					azeri="Xosrovshah"
+				}
+				b_basmenj = {
+					azeri="Basminc"
+				}
 			}
-			c_tejen = {
-				color={ 154 212 121 }
+			c_ahar = { # 2285
+				color={ 223 224 175 }
 				color2={ 255 255 255 }
+
+				azeri="Ähär"
 				
-				b_tejen = {}
-				b_dushak = {}
-				b_zhdanov = {}
-				b_kulanly = {}
-				b_tedzhen = {}
-				b_kaakhka = {}
-				b_miana = {}
+				b_ahar = {
+					azeri="Ähär"
+				}
+				b_heris = {
+				}
+				b_kaleybar = {
+					azeri="Käleybär"
+				}
+				b_khomarlu = {
+					azeri="Xumarli"
+				}
+				b_hurand = {
+				}
+				b_kolvanaq = {
+					azeri="Külvanäq"
+				}
+				b_abish_ahmad = {
+					azeri="Abish Ähmäd"
+				}
 			}
-			c_balkan = {
-				color={ 152 200 110 }
+			c_maragheh = { # 2283
+				color={ 173 175 71 }
 				color2={ 255 255 255 }
+
+				azeri="Maragha"
 				
-				b_balkanabat = {}
-				b_turkmenbashi = {}
-				b_jebel = {}
-				b_awaza = {}
-				b_dzhanga = {}
-				b_okarem = {}
-				b_kum_dag = {}
+				b_maragheh = {
+					azeri="Maragha"
+				}
+				b_bonab = {
+				}
+				b_malekan = {
+					rumelian="Melik Kendi"
+					west_anatolian="Melik Kendi"
+					central_anatolian="Melik Kendi"
+					black_sea="Melik Kendi"
+					turcoman="Melik Kendi"
+					qashqai="Melik Kendi"
+					azeri="Mälekan"
+				}
+				b_ajabshir = {
+					azeri="Äcäbshir"
+				}
+				b_khodaju = {
+					azeri="Xodacu"
+				}
+				b_leylan = {
+				}
+				b_jowan_qaleh = {
+					azeri="Cavanqalä"
+				}
 			}
-			c_serdar = {
-				color={ 194 226 161 }
+			c_marand = { # 2284
+				color={ 167 169 80 }
 				color2={ 255 255 255 }
+
+				azeri="Märänd"
 				
-				b_serdar = {}
-				b_purnuar = {}
-				b_kara_kala = {}
-				b_khodzhakala = {}
-				b_bereket = {}
-				b_chukur = {}
-				b_bendesen = {}
+				b_marand = {
+					azeri="Märänd"
+				}
+				b_shabestar = {
+					azeri="Shäbüstär"
+				}
+				b_jolfa = {
+					azeri="Culfa"
+					armenian="Jowgha"
+				}
+				b_varzaqan = {
+					azeri="Värziqan"
+				}
+				b_hadishahr = {
+					azeri="Hadishähr"
+				}
+				b_shendabad = {
+					azeri="Shindabad"
+				}
+				b_kharvana = {
+					azeri="Xarvana"
+				}
+			}
+			c_miyaneh = { # 2286
+				color={ 120 121 76 }
+				color2={ 255 255 255 }
+
+				azeri="Miyanä"
+				
+				b_miyaneh = {
+					azeri="Miyanä"
+				}
+				b_sarab = {
+					azeri="Särab"
+				}
+				b_bostanabad = {
+				}
+				b_hashtrud = {
+					azeri="Häshtrud"
+				}
+				b_qarah_aghaj = {
+					azeri="Qaraaghac"
+				}
+				b_torkamanchay = {
+					azeri="Türkmänçay"
+				}
+				b_mehraban = {
+				}
 			}
 		}
-		d_lebap = {
-			color={ 115 189 114 }
+		d_ardabil = {
+			color={ 152 175 62 }
 			color2={ 255 255 255 }
 			
-			capital = 950 #Turkmenabat
+			capital = 2291 # c_ardabil
+
+			azeri="Ärdäbil"
+			kurdish="Erdebîl"
 			
-			c_turkmenabat = {
-				color={ 123 184 100 }
+			c_ardabil = { # 2291
+				color={ 162 165 67 }
 				color2={ 255 255 255 }
+
+				azeri="Ärdäbil"
+				kurdish="Erdebîl"
 				
-				b_turkmenabat = {}
-				b_krasny_partizan = {}
-				b_farab = {}
-				b_garabekewul = {}
-				b_sakar = {}
-				b_seydi = {}
-				b_sayat = {}
+				b_ardabil = {
+					azeri="Ärdäbil"
+					kurdish="Erdebîl"
+				}
+				b_khalkhal = {
+					azeri="Xalxal"
+				}
+				b_namin = {
+					azeri="Nämin"
+				}
+				b_givi = {
+				}
+				b_nir = {
+				}
+				b_sareyn = {
+					azeri="Säreyn"
+				}
+				b_hir = {
+				}
 			}
-			c_mary = {
-				color={ 95 153 86 }
+			c_parsabad = { # 2292
+				color={ 211 215 110 }
 				color2={ 255 255 255 }
+
+				azeri="Pärsabad"
 				
-				b_mary = {}
-				b_zahmet = {}
-				b_bayramaly = {}
-				b_kirov_3 = {}
-				b_murgap = {}
-				b_sakar_chage = {}
-				b_satlyk = {}
+				b_parsabad = {
+					azeri="Pärsabad"
+				}
+				b_meshginshahr = {
+					azeri="Meshkinshähr"
+				}
+				b_germi = {
+				}
+				b_bileh_savar = {
+					azeri="Biläsuvar"
+				}
+				b_aslan_duz = {
+					azeri="Aslandüz"
+				}
+				b_lahrud = {
+				}
+				b_tazeh_kand_e_angut = {
+					azeri="Täzäkänd Üngüt"
+				}
 			}
-			c_kerki = {
-				color={ 120 204 84 }
+		}
+		d_urmiya = {
+			color={ 194 156 79 }
+			color2={ 255 255 255 }
+			
+			capital = 2287 # c_urmiya
+			
+			kurdish="Ûrmiye"
+			
+			c_urmiya = { # 2287
+				color={ 204 146 84 }
 				color2={ 255 255 255 }
+			
+				kurdish="Ûrmiye"
 				
-				b_kerki = {}
-				b_esenmengli = {}
-				b_hodzhambas = {}
-				b_basaga = {}
-				b_gowurdak = {}
-				b_halach = {}
-				b_elech = {}
+				b_urmiya = {
+					kurdish="Ûrmiye"
+				}
+				b_salmas = {
+					armenian="Salmast"
+					kurdish="Selmas"
+				}
+				b_oshnavieh = {
+					kurdish="Shino"
+					azeri="Üshnäviyyä"
+				}
+				b_silvaneh = {
+					azeri="Silvanä"
+					kurdish="Silîvana"
+				}
+				b_serow = {
+					azeri="Sero"
+					kurdish="Sêro"
+				}
+				b_nushin = {
+					azeri="Nushinshähr"
+					kurdish="Nushînshar"
+				}
+				b_qushchi = {
+					azeri="Qushçu"
+					kurdish="Qushçu"
+				}
+			}
+			c_bukan = { # 2289
+				color={ 199 154 105 }
+				color2={ 255 255 255 }
+
+				azeri="Bükan"
+				kurdish="Bokan"
+				
+				b_bukan = {
+					azeri="Bükan"
+					kurdish="Bokan"
+				}
+				b_mahabad = {
+					azeri="Mähabad"
+					kurdish="Mehabad"
+				}
+				b_miandoab = {
+					azeri="Qoshaçay"
+					kurdish="Miyanduaw"
+				}
+				b_piranshahr = {
+					azeri="Piranshähr"
+					kurdish="Pïranshar"
+				}
+				b_naqadeh = {
+					azeri="Näqädä"
+					kurdish="Nexede"
+				}
+				b_takab = {
+					azeri="Täkab"
+					kurdish="Tîkab"
+				}
+				b_sardasht = {
+					azeri="Särdäsht"
+					kurdish="Serdesht"
+				}
+			}
+			c_khoy = { # 2288
+				color={ 182 114 41 }
+				color2={ 255 255 255 }
+
+				azeri="Xoy"
+				kurdish="Xoy"
+				
+				b_khoy = {
+					azeri="Xoy"
+					kurdish="Xoy"
+				}
+				b_maku = {
+					azeri="Maki"
+					kurdish="Mako"
+				}
+				b_qarah_zia_od_din = {
+					azeri="Qaraziyaäddin"
+					kurdish="Qereziyadîn"
+				}
+				b_showt = {
+					azeri="Shövt"
+					kurdish="Shot"
+				}
+				b_siah_cheshmeh = {
+					azeri="Qaraeyni"
+					kurdish="Siya Çishme"
+				}
+				b_poldasht = {
+					azeri="Puldäsht"
+					kurdish="Puldesht"
+				}
+				b_firuraq = {
+					azeri="Firuräq"
+					kurdish="Fîrureq"
+				}
+			}
+			c_nakhchivan = { # 2290
+				color={ 115 92 69 }
+				color2={ 255 255 255 }
+
+				azeri="Naxçivan"
+				kurdish="Naxçivan"
+				
+				b_naxcivan = {
+				}
+				b_shaerur = {
+					kurdish="Sherîl"
+				}
+				b_babaek = {
+				}
+				b_ordubad = {
+				}
+				b_culfa = {
+				}
+				b_qivraq = {
+				}
+				b_shahbuz = {
+				}
+			}
+		}
+		d_zanjan = {
+			color={ 165 121 89 }
+			color2={ 255 255 255 }
+			
+			capital = 2293 # c_zanjan
+
+			azeri="Zäncan"
+			kurdish="Zencan"
+			
+			c_zanjan = { # 2293
+				color={ 155 131 84 }
+				color2={ 255 255 255 }
+
+				azeri="Zäncan"
+				kurdish="Zencan"
+				
+				b_zanjan = {
+					azeri="Zäncan"
+					kurdish="Zencan"
+				}
+				b_mah_neshan = {
+					azeri="Mahnishan"
+				}
+				b_ab_bar = {
+					azeri="Abbär"
+				}
+				b_armaghankhaneh = {
+					azeri="Ärmäghanxanä"
+				}
+				b_dandi = {
+					azeri="Dändi"
+				}
+				b_chavarzaq = {
+					azeri="Çävärzäq"
+				}
+				b_nik_pey = {
+					azeri="Nikpey"
+				}
+			}
+			c_khodabandeh = { # 2294
+				color={ 195 155 76 }
+				color2={ 255 255 255 }
+
+				azeri="Xudabändä"
+				
+				b_qeydar = {
+				}
+				b_abhar = {
+					azeri="Äbhär"
+				}
+				b_khorramdarreh = {
+					azeri="Xürrämdärä"
+				}
+				b_zarrinabad = {
+					azeri="Zärrinabad"
+				}
+				b_soltaniyeh = {
+					azeri="Sultaniyä"
+				}
+				b_zarrin_rud = {
+					azeri="Zärrinrud"
+				}
+				b_hidaj = {
+					azeri="Hidäc"
+				}
 			}
 		}
 	}
@@ -173,7 +496,7 @@ e_iran = {
 			}
 		}
 		d_pamir = {
-			color={ 211 80 125 }
+			color={ 175 80 85 }
 			color2={ 255 255 255 }
 			
 			capital = 111 #Panj
@@ -214,18 +537,6 @@ e_iran = {
 				b_ab_garch = {}
 				b_sast = {}
 			}
-			c_gilgit = {
-				color={ 201 99 110 }
-				color2={ 255 255 255 }
-				
-				b_gilgit = {}
-				b_karimabad = {}
-				b_sost = {}
-				b_khyber = {}
-				b_parri = {}
-				b_danyor = {}
-				b_rahim_abad = {}
-			}
 			c_panj = {
 				color={ 187 114 76 }
 				color2={ 255 255 255 }
@@ -238,17 +549,48 @@ e_iran = {
 				b_rivak = {}
 				b_dashtitem = {}
 			}
-			c_tashkurgan = {
-				color={ 196 85 110 }
+		}
+		d_ladakh = {
+			color={ 150 110 112 }
+			color2={ 255 255 255 }
+			
+			capital = 1095 #Kargil
+			
+			c_kargil = {
+				color={ 180 74 121 }
 				color2={ 255 255 255 }
 				
-				b_tashkurgan = {}
-				b_dafda = {}
-				b_weqa = {}
-				b_kokyar = {}
-				b_baldir = {}
-				b_tiznap = {}
-				b_tagarma = {}
+				b_kargil = {}
+				b_akchamal = {}
+				b_samar = {}
+				b_mulbekh = {}
+				b_kakshar = {}
+				b_shargole = {}
+				b_madjass = {}
+			}
+			c_skardu = {
+				color={ 145 112 85 }
+				color2={ 255 255 255 }
+				
+				b_skardu = {}
+				b_shagar_kalan = {}
+				b_zambkha = {}
+				b_baghicha = {}
+				b_agha_hadi_chok = {}
+				b_hussainabad = {}
+				b_charathang = {}
+			}
+			c_gilgit = {
+				color={ 201 99 110 }
+				color2={ 255 255 255 }
+				
+				b_gilgit = {}
+				b_karimabad = {}
+				b_sost = {}
+				b_khyber = {}
+				b_parri = {}
+				b_danyor = {}
+				b_rahim_abad = {}
 			}
 		}
 	}

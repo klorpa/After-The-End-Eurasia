@@ -56,7 +56,7 @@ character_event = {
 
 #Bastille Day
 # Invitation Sent
-character_event = {
+narrative_event = {
 	id = jacobin.2
 	title = EVTTITLE_bastilleday_1
 	desc = EVTDESC_bastilleday_1
@@ -208,7 +208,10 @@ character_event = {
 		}
 		event_target:marianne_candidate_1 = {
 			clr_character_flag = marianne_1
-		}			
+		}
+		hidden_tooltip = {
+			character_event = { id = jacobin.6 days = 4 }
+		}
 	}
 	
 	after = {
@@ -224,8 +227,6 @@ character_event = {
 	desc = EVTDESC_bastilleday_5
 	picture = GFX_evt_fancy_feast
 	border = GFX_event_normal_frame_religion
-	
-	hide_from = yes
 	
 	is_triggered_only = yes
 	
@@ -310,6 +311,7 @@ character_event = {
 			trait = cruel
 			trait = impaler
 			trait = lunatic
+			trait = possessed
 		}
 		name = EVTOPTC_bastilleday_7
 		any_courtier = {
