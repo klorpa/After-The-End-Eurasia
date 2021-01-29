@@ -100,6 +100,8 @@ character_event = { #Choosing Event that occures when you are researching, certa
 	desc = EVTDESC_neuhumanist_write_book
 	picture = GFX_evt_library
 	
+	only_playable = yes
+	
 	trigger = {
 		religion = neuhumanist
 		has_character_modifier = intense_writing
@@ -122,7 +124,6 @@ character_event = { #Choosing Event that occures when you are researching, certa
 	immediate = {
 		remove_character_modifier = intense_writing
 	}	
-	
 	option = {
 		name = EVTOPT_neuhumanist_writers_block_focused
 		trigger = { trait = diligent }
@@ -173,7 +174,7 @@ character_event = { #Choosing Event that occures when you are researching, certa
 		prestige = -50
 		piety = -50
 		ai_chance = { factor = 50 }
-		set_character_flag = { name = wanting_to_quit duration = -1 }
+		set_character_flag = wanting_to_quit
 	}	
 }
 character_event = {
@@ -253,21 +254,22 @@ character_event = {
 					}
 				}
 			}
-		ai_chance = {
-			factor = 5
-			modifier = { factor = 2 trait = cynical }
-			modifier = { factor = 2 trait = ambitious }
-			modifier = { factor = 2 trait = proud }
-			modifier = { factor = 2 trait = slothful }
-			modifier = { factor = 2 trait = arbitrary }
+			ai_chance = {
+				factor = 5
+				modifier = { factor = 2 trait = cynical }
+				modifier = { factor = 2 trait = ambitious }
+				modifier = { factor = 2 trait = proud }
+				modifier = { factor = 2 trait = slothful }
+				modifier = { factor = 2 trait = arbitrary }
 			}
 		}
 }
-	character_event = {
-		id = nhevent.5
-		title = EVTNAME_neuhumanist_write_competent
-		desc = EVTDESC_neuhumanist_write_competent
-		picture = GFX_evt_library
+
+character_event = {
+	id = nhevent.5
+	title = EVTNAME_neuhumanist_write_competent
+	desc = EVTDESC_neuhumanist_write_competent
+	picture = GFX_evt_library
 		
 		trigger = {
 			religion = neuhumanist
@@ -434,7 +436,7 @@ character_event = {
 			prestige = -50
 			piety = -50
 			ai_chance = { factor = 50 }
-			set_character_flag = { name = wanting_to_quit duration = -1 }
+			set_character_flag = wanting_to_quit
 		}	
 	}
 
@@ -488,7 +490,7 @@ character_event = {
 			piety = 100
 			neuhumanist_opinion = 10
 			remove_character_flag = philosophizing_results_excellent
-			add_character_modifier = {name = philosophic_work_done duration = {months = 24}}
+			add_character_modifier = {name = philosophic_work_donemonths = 24}
 		}
 		
 		option = {
@@ -500,7 +502,7 @@ character_event = {
 			piety = 50
 			neuhumanist_opinion = 5
 			remove_character_flag = philosophizing_results_good
-			add_character_modifier = {name = philosophic_work_done duration = {months = 24}}
+			add_character_modifier = {name = philosophic_work_done months = 24}
 		}
 		
 		option = {
@@ -511,7 +513,7 @@ character_event = {
 			prestige = 25
 			piety = 25
 			remove_character_flag = philosophizing_results_acceptable
-			add_character_modifier = {name = philosophic_work_done duration = {months = 24}}
+			add_character_modifier = {name = philosophic_work_don months = 24}
 		}
 		
 		option = {
@@ -523,6 +525,6 @@ character_event = {
 			piety = -25
 			neuhumanist_opinion = -10
 			remove_character_flag = philosophizing_results_bad
-			add_character_modifier = {name = philosophic_work_done duration = {months = 24}}
+			add_character_modifier = {name = philosophic_work_done months = 24}
 		}
 	}
