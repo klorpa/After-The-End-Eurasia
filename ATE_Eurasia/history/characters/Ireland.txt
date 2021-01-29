@@ -32,7 +32,7 @@
 	learning=4
 	trait=tough_soldier
 	trait=erudite
-	trait=brawny
+	trait=robust
 	trait=kind
 	trait=just
 	trait=honest
@@ -92,7 +92,7 @@
 	health=8
 	trait=brilliant_strategist
 	trait=duelist
-	trait=brawny
+	trait=robust
 	trait=just
 	trait=humble
 	trait=brave
@@ -305,7 +305,7 @@
 	stewardship=5
 	intrigue= 6
 	learning= 4
-	trait=skilled_tactican
+	trait=skilled_tactician
 	trait=scarred
 	trait=lustful
 	trait=proud
@@ -432,8 +432,7 @@
 	name="Séamus" #spicebag
 	dynasty=1501015 #Yin
 	religion=insular
-	culture=irish
-	race=han
+	culture=chinese
 	martial=7
 	stewardship=4
 	intrigue=5
@@ -444,7 +443,8 @@
 	trait=scholar
 	trait=patient
 	trait=content
-	2626.12.3={birth=yes}
+	2626.12.3={birth=yes
+		culture=irish}
 	2710.1.1={death=yes}
 }
 1501022={
@@ -491,7 +491,7 @@
 	intrigue=5
 	learning=2
 	trait=tough_soldier
-	trait=unyielding
+	trait=unyielding_leader
 	trait=stubborn
 	trait=patient
 	trait=proud
@@ -510,7 +510,7 @@
 	intrigue=8
 	learning=5
 	trait=intricate_webweaver
-	trait=attractive
+	trait=fair
 	trait=groomed
 	trait=envious
 	trait=deceitful
@@ -669,7 +669,7 @@
 	trait=detached_priest
 	trait=temperate
 	trait=content
-	trait=left_handed
+	trait=lefthanded
 	2639.5.22={birth=yes}
 	2670.1.1={death=yes}
 }
@@ -728,7 +728,7 @@
 }
 1501038={
 	name="Diarmait"
-	dynasty=1501 #Li
+	dynasty=1501001 #Li
 	culture=irish
 	religion=insular
 	martial=5
@@ -822,7 +822,7 @@
 	stewardship=4
 	learning=2
 	intrigue=4
-	trait=though_soldier
+	trait=tough_soldier
 	trait=rude
 	trait=proud
 	trait=lustful
@@ -868,14 +868,14 @@
 1501045={
 	name="Millie"
 	dynasty=1601001 #Clarkson
-	culture=norfie
+	culture=northerner
 	religion=high_church
 	martial=3
 	stewardship=4
 	diplomacy=5
 	intrigue=6
 	learning=4
-	trait=naieve_appeaser
+	trait=naive_appeaser
 	female=yes
 	2628.4.10={birth=yes}
 	2644.6.21={add_spouse=1501010}
@@ -915,7 +915,7 @@
 	stewardship=5
 	intrigue=5
 	learning=5
-	trait=though_soldier
+	trait=tough_soldier
 	trait=wroth
 	trait=diligent
 	trait=freckles
@@ -926,14 +926,14 @@
 1501048={
 	name="Lucy"
 	dynasty=1901007 #Cox
-	culture=scots
+	culture=lowlander
 	religion=high_church
 	martial=5
 	diplomacy=5
 	stewardship=5
 	intrigue=5
 	learning=5
-	trait=amatureish_plotter
+	trait=amateurish_plotter
 	female=yes
 	2604.4.8={birth=yes}
 	2525.7.8={add_spouse=1501047}
@@ -970,7 +970,7 @@
 	intrigue=6
 	learning=3
 	female=yes
-	trait=depression
+	trait=depressed
 	2603.12.15={birth=yes}
 	2620.27.5={add_spouse=1501049}
 	2647.1.1={

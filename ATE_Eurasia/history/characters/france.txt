@@ -234,19 +234,6 @@
 	}
 }
 1804022={
-	name="Alano"
-	dynasty=2007224 #Borsalino
-	culture=provencal
-	religion=catholic
-	trait=peasant_leader
-	2444.1.1={birth=yes}
-	2472.3.1={
-		death={
-			death_reason=death_execution
-		}
-	}
-}
-1804022={
 	name="Cesàri"
 	dynasty=2007225 #Pagnol
 	culture=provencal
@@ -732,13 +719,13 @@
     	2621.1.25={birth=yes}
     	2655.12.2={give_nickname=nick_the_sungazer}
 		2659.1.1={
-			add_lover=1804152
+			effect={add_lover=1804152}
 		}
 		2660.1.1={
-			add_lover=1804153
+			effect={add_lover=1804153}
 		}
 		2663.1.1={
-			add_lover=1804151
+			effect={add_lover=1804151}
 		}
     	2700.1.1={death=yes}
 }
@@ -765,7 +752,7 @@
 
 1804063={
     	name="Ferrand"
-    	dynasty=2008244 #Georgeoceau
+    	dynasty=2009216 #Georgeoceau
     	culture=occitan
     	religion=sun_king_cultist
     	martial=5
@@ -868,7 +855,7 @@
 
 1804068={
 	name="Baptistòu"
-	dynasty=200244 #Dusautoir
+	dynasty=2008244 #Dusautoir
 	culture=occitan
 	religion=chronicler
 	diplomacy=1
@@ -893,8 +880,8 @@
 	intrigue=2
 	learning=1
 	trait=sickly
-	father=180466
-	mother=180467
+	father=1804066
+	mother=1804067
 	2665.1.2={birth=yes}
 }
 1804070={
@@ -1071,7 +1058,7 @@
 	stewardship=3
 	intrigue=6
 	learning=5
-	trait=charismatic_negociator
+	trait=charismatic_negotiator
 	trait=socializer
 	trait=honest
 	trait=craven
@@ -1110,7 +1097,7 @@
 	religion=haredi
 	diplomacy=3
 	martial=2
-	stewardshship=4
+	stewardship=4
 	intrigue=5
 	learning=3
 	trait=indulgent_wastrel
@@ -1274,7 +1261,7 @@
 	trait=hedonist
 	trait=drunkard
 	trait=greedy
-	trait=malnourished
+	trait=is_malnourished
 	trait=honest
 	trait=paranoid
 	trait=depressed
@@ -1317,7 +1304,7 @@
 	stewardship=6
 	intrigue=5
 	learning=6
-	trait=charismatic_negociator
+	trait=charismatic_negotiator
 	trait=wroth
 	trait=diligent
 	trait=honest
@@ -1460,7 +1447,7 @@
 	stewardship=3
 	intrigue=2
 	learning=3
-	trait=conscentious
+	trait=conscientious
 	trait=brooding
 	father=1804095
 	mother=1804096
@@ -1524,7 +1511,8 @@
 }
 1804102={
 	name="Huguette"
-	dynasty=209224 #Rohmer
+	dynasty=2009224 #Rohmer
+	female=yes
 	culture=parisian
 	religion=jacobin
 	diplomacy=2
@@ -1553,7 +1541,7 @@
 	trait=proud
 	trait=greedy
 	trait=lunatic
-	trait=cannibal
+	trait=cannibal_trait
 	trait=selfish
 	2619.7.21={birth=yes}
 	2639.1.1={
@@ -1667,7 +1655,7 @@
 	stewardship=1
 	intrigue=1
 	learning=2
-	trait=conscentious
+	trait=conscientious
 	trait=fussy
 	father=1804107
 	mother=1804108
@@ -1972,7 +1960,7 @@
 	trait=poet
 	trait=shy
 	trait=feeble
-	trait=coward	
+	trait=craven	
 	trait=scholar
 	trait=diligent
 	father=1804121
@@ -2302,7 +2290,7 @@
 	intrigue=6
 	learning=5
 	trait=idolizer
-	trait=conscentious
+	trait=conscientious
 	father=1804137
 	mother=1804138
 	2653.5.18={birth=yes}
@@ -2484,7 +2472,7 @@
 	stewardship=6
 	intrigue=4
 	learning=7
-	trait=dutiful_cleric
+	trait=martial_cleric
 	trait=shy
 	trait=lustful
 	trait=fair
@@ -2506,7 +2494,7 @@
 	intrigue=6
 	learning=4
 	trait=brilliant_strategist
-	trait=agressive_leader
+	trait=aggressive_leader
 	trait=strong
 	trait=wroth
 	trait=cruel
@@ -2544,7 +2532,7 @@
 	stewardship=4
 	intrigue=3
 	learning=3
-	trait=conscentious
+	trait=conscientious
 	trait=brooding
 	trait=dull
 	trait=brave
@@ -2566,7 +2554,7 @@
 	intrigue=3
 	learning=4
 	trait=curious
-	trait=conscentious
+	trait=conscientious
 	trait=familyperson
 	trait=twin
 	trait=bastard
@@ -2642,7 +2630,7 @@
 	stewardship=6
 	intrigue=5
 	learning=7
-	trait=charismatic_negociator
+	trait=charismatic_negotiator
 	trait=celibate
 	trait=gamer
 	trait=poet
@@ -2741,7 +2729,7 @@
 	stewardship=6
 	intrigue=5
 	learning=3
-	trait=conscentious
+	trait=conscientious
 	trait=affectionate
 	father=1804161
 	mother=1804162
