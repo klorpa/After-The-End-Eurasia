@@ -4502,10 +4502,14 @@ faction_independence = {
 				AND = {
 					distance = { who = ROOT distance = 300 }
 					NOT = {
-						capital_scope = { 
-							can_naval_path_to = {
-								target = { ROOT = {capital_scope} }
-								distance > 600
+						capital_scope = {
+							ROOT ={
+								capital_scope = {	
+									can_naval_path_to = {
+										target = PREVPREV
+										distance > 600
+									}
+								}
 							}
 						}
 					}
@@ -4518,10 +4522,14 @@ faction_independence = {
 				AND = {
 					distance = { who = ROOT distance = 400 }
 					NOT = {
-						capital_scope = { 
-							can_naval_path_to = {
-								target = { ROOT = {capital_scope} }
-								distance > 800
+						capital_scope = {
+							ROOT ={
+								capital_scope = {	
+									can_naval_path_to = {
+										target = PREVPREV
+										distance > 800
+									}
+								}
 							}
 						}
 					}
