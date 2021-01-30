@@ -493,7 +493,7 @@ character_event = { #character named as a Worthy
 	}
 }
 
-haracter_event = { 
+character_event = { 
 	id = skc.101
 	hide_window = yes
 	
@@ -588,6 +588,7 @@ character_event = { # Knight character arrives
 	immediate = {
 		spawn_fantastic_commander_effect = yes
 		event_target:invited_character = {
+			set_character_flag = invited_soldier 
 			set_character_flag = hero_knight
 			remove_trait = cruel
 			remove_trait = craven
@@ -600,45 +601,6 @@ character_event = { # Knight character arrives
 		name = EVTOPTA_knight_arrives_worthy
 		
 		trigger = {
-			OR = { 
-				NOT = { ROOT = { has_law = succ_byzantine_elective } }  #Either not Imperial...
-				NOT = { #...Or there are no valid vassal candidates that can be commanders.
-					any_vassal = { 
-						higher_real_tier_than = BARON
-						NOT = { 
-							primary_title = { temporary = yes } 
-						}
-						OR = {
-							AND = {
-								OR = {
-									male_can_hold_minor_title_trigger = yes
-									female_can_hold_minor_commander_title_trigger = yes
-								}
-								OR = {
-									NOT = { religion = hindu }
-									trait = kshatriya
-								}
-								is_adult = yes
-							}
-							has_character_flag = special_marshal
-						}
-				
-						prisoner = no
-						NOT = { trait = incapable }
-						NOT = { is_inaccessible_trigger = yes }
-						NOT = { has_character_flag = guru }
-						NOT = { has_character_modifier = refusing_to_lead }
-						NOR = {
-							has_job_title = job_chancellor
-							has_job_title = job_marshal
-							has_job_title = job_treasurer
-							has_job_title = job_spymaster
-							has_job_title = job_spiritual
-							has_minor_title = title_commander
-						}
-					} 
-				}
-			}
 			any_realm_character = {
 				NOT = {
 					higher_tier_than = BARON
@@ -738,45 +700,6 @@ character_event = { # Knight character arrives
 		name = EVTOPTA_knight_arrives_worthy
 		
 		trigger = {
-			OR = { 
-				NOT = { ROOT = { has_law = succ_byzantine_elective } }  #Either not Imperial...
-				NOT = { #...Or there are no valid vassal candidates that can be commanders.
-					any_vassal = { 
-						higher_real_tier_than = BARON
-						NOT = { 
-							primary_title = { temporary = yes } 
-						}
-						OR = {
-							AND = {
-								OR = {
-									male_can_hold_minor_title_trigger = yes
-									female_can_hold_minor_commander_title_trigger = yes
-								}
-								OR = {
-									NOT = { religion = hindu }
-									trait = kshatriya
-								}
-								is_adult = yes
-							}
-							has_character_flag = special_marshal
-						}
-				
-						prisoner = no
-						NOT = { trait = incapable }
-						NOT = { is_inaccessible_trigger = yes }
-						NOT = { has_character_flag = guru }
-						NOT = { has_character_modifier = refusing_to_lead }
-						NOR = {
-							has_job_title = job_chancellor
-							has_job_title = job_marshal
-							has_job_title = job_treasurer
-							has_job_title = job_spymaster
-							has_job_title = job_spiritual
-							has_minor_title = title_commander
-						}
-					} 
-				}
-			}
 			event_target:invited_character = { has_character_flag = invited_soldier }
 			OR = {
 				AND = {

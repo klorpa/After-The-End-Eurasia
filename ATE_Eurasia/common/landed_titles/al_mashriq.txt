@@ -13,6 +13,8 @@ e_al_mashriq = {
 		
 		capital = 2023 # c_baghdad
 		
+		nizami = 700
+		
 		d_baghdad = {
 			color={ 73 136 28 }
 			color2={ 255 255 255 }
@@ -22,6 +24,11 @@ e_al_mashriq = {
 			c_baghdad = { # 2023
 				color={ 63 146 23 }
 				color2={ 255 255 255 }
+				
+				holy_site = sunni
+				holy_site = revivalist
+				holy_site = wahhabi
+				holy_site = salafi
 				
 				b_karkh = {
 				}
@@ -79,6 +86,9 @@ e_al_mashriq = {
 			c_karbala = { # 2029
 				color={ 80 156 42 }
 				color2={ 255 255 255 }
+				
+				holy_site = zaydi
+				holy_site = ismaili
 				
 				b_karbala = {
 				}
@@ -245,6 +255,8 @@ e_al_mashriq = {
 			c_an_najaf = { # 2033
 				color={ 158 184 145 }
 				color2={ 255 255 255 }
+				
+				holy_site = shiite
 				
 				b_an_najaf = {
 				}
@@ -613,6 +625,8 @@ e_al_mashriq = {
 		color2={ 255 255 255 }
 		
 		capital = 1997 # c_damascus
+		
+		nizami = 700
 		
 		d_dimashq = {
 			color={ 216 79 45 }
@@ -1055,6 +1069,8 @@ e_al_mashriq = {
 		
 		capital = 1981 # c_amman
 		
+		nizami = 600
+		
 		d_amman = {
 			color={ 131 55 210 }
 			color2={ 255 255 255 }
@@ -1230,6 +1246,8 @@ e_al_mashriq = {
 		
 		capital = 1973 # c_beirut
 		
+		nizami = 800
+		
 		d_beirut = {
 			color={ 176 76 90 }
 			color2={ 255 255 255 }
@@ -1373,6 +1391,8 @@ e_al_mashriq = {
 		
 		capital = 1958 # c_west_jerusalem
 		
+		nizami = 800
+		
 		sabra = "Israel"
 		filastini="Filastin"
 		
@@ -1412,12 +1432,19 @@ e_al_mashriq = {
 				holy_site = catholic
 				holy_site = penitants
 				holy_site = orthodox
-				holy_site = ruhi
-				holy_site = nizami
-				holy_site = ashari
 				holy_site = haredi
 				holy_site = ivri
 				holy_site = haskalah
+				holy_site = sunnah
+				holy_site = sunni
+				holy_site = shiite
+				holy_site = nizami
+				holy_site = revivalist
+				holy_site = ibadi
+				holy_site = zaydi
+				holy_site = ismaili
+				holy_site = salafi
+				holy_site = wahhabi
 				
 				b_al_quds = {
 				}

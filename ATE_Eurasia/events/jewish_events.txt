@@ -641,7 +641,7 @@ character_event = { #accepted, event for jew
 character_event = { #training to read Torah
 	id = jewish.101
 	desc = EVTDESC_barmitzvah_1
-	picture = GFX_evt_rosh_hashanah
+	picture = GFX_rosh_hashanah
 	
 	is_triggered_only = yes
 	
@@ -1611,63 +1611,63 @@ character_event = {
 	}
 }
 
-#find a chevruta partner
-character_event = {
-	id = jewish.151
-	desc = EVTDESC_yeshiva_1
-	picture = GFX_evt_religious_exultation
+# #find a chevruta partner
+# character_event = {
+	# id = jewish.151
+	# desc = EVTDESC_yeshiva_1
+	# picture = GFX_evt_religious_exultation
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	immediate = {
-		if = { 
-			limit = {
-				yeshiva_student = {
-					NOT = { has_character_flag = chevruta }
-					NOT = { character = ROOT }
-				}
-			}
-			yeshiva_student = {
-				limit = {
-					NOT = { has_character_flag = chevruta }
-					NOT = { character = ROOT }
-				}
-				save_event_target_as = chevruta_partner_1
-			}	
-		}
-		elseif = {
-			limit = {
-				any_courtier_or_vassal = {
-					religion_group = jewish_group
-					OR = {
-						is_theocracy = yes
-						AND = { 
-							NOT = { higher_tier_than = BARON }
-							OR = {
-								trait = martial_cleric
-								trait = scholarly_theologian
-								trait = mastermind_theologian
-							}
-						}
-					}
-					NOR = {
-						trait = hakham
-						#trait = idk what to call the basic graduate yet
-					}
-				}
-			}
-		}
-		else = {
-		}
-	}
-	option = {
-		name = EVTOPTA_yeshiva_1
+	# immediate = {
+		# if = { 
+			# limit = {
+				# yeshiva_student = {
+					# NOT = { has_character_flag = chevruta }
+					# NOT = { character = ROOT }
+				# }
+			# }
+			# yeshiva_student = {
+				# limit = {
+					# NOT = { has_character_flag = chevruta }
+					# NOT = { character = ROOT }
+				# }
+				# save_event_target_as = chevruta_partner_1
+			# }	
+		# }
+		# elseif = {
+			# limit = {
+				# any_courtier_or_vassal = {
+					# religion_group = jewish_group
+					# OR = {
+						# is_theocracy = yes
+						# AND = { 
+							# NOT = { higher_tier_than = BARON }
+							# OR = {
+								# trait = martial_cleric
+								# trait = scholarly_theologian
+								# trait = mastermind_theologian
+							# }
+						# }
+					# }
+					# NOR = {
+						# trait = hakham
+						# #trait = idk what to call the basic graduate yet
+					# }
+				# }
+			# }
+		# }
+		# else = {
+		# }
+	# }
+	# option = {
+		# name = EVTOPTA_yeshiva_1
 		
-	}
+	# }
 	
-	after = {
-	}
-}
+	# after = {
+	# }
+# }
 	
 	
 	

@@ -205,48 +205,7 @@ vernacular = {
 		intermarry = nysed
 	}
 	
-	ichthysist = { # Maritime Christian
-		graphical_culture = westerngfx
 
-		icon = 8
-		
-		color = { 0.2 0.3 0.8 }
-
-		high_god_name = THE_FISHER_KING
-
-		god_names = {
-			GOD_STELLA_MARIS GOD_BRENDAN GOD_THE_LORD
-		}
-		evil_god_names = {
-			GOD_STORM SATAN LEVITHAN
-		}
-		
-		scripture_name = THE_BIBLE
-		priest_title = PRIEST
-		priests_can_marry = yes
-		allow_rivermovement = yes
-		female_temple_holders = yes
-		max_consorts = 3
-		seafarer = yes
-		raised_vassal_opinion_loss = no
-		defensive_attrition = yes
-		aggression = 2.0 # AI aggression factor
-		has_heir_designation = yes
-		
-		unit_home_modifier = {
-			land_morale = 0.8
-			light_infantry_defensive = 0.8
-			heavy_infantry_defensive = 0.8
-			pikemen_defensive = 0.8
-			archers_defensive = 0.8
-			key = "DEF_RELIGION_HOME_TERRITORY"
-		}
-		
-		religious_clothing_head = 17
-		religious_clothing_priest = 17
-		
-		intermarry = brethren
-	}
 }
 
 pagan_group = {
@@ -1373,6 +1332,38 @@ muslim = {
 		max_wives = 4
 		can_call_crusade = yes
 		can_grant_invasion_cb = yes
+		uses_jizya_tax = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+	}
+	akhbari = {
+		graphical_culture = muslimgfx
+		
+		icon = 13
+		heresy_icon = 18
+		
+		parent = shiite
+		
+		color = { 0 0.8 0 }
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+		crusade_name = JIHAD
+		pacifist = yes
+		uses_decadence = no
+		max_wives = 4
+		can_call_crusade = no
+		can_grant_invasion_cb = no
 		uses_jizya_tax = yes
 		
 		religious_clothing_head = 10
