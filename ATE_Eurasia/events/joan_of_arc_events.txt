@@ -101,24 +101,25 @@ province_event = {#creates joan and her armies
 			prestige = 100
 			piety = 50
 			add_claim = d_ile_de_france
-			if = {#if paris isn't a french religion, converts her to one
-				limit = {
-					NOR = {
-						religion = sun_king_cultist
-						religion = chronicler
-						religion = jacobin
-					}
+			random_list = {
+				40 = {
+					religion = sun_king_cultist
 				}
-				random_list = {
-					40 = {
-						religion = sun_king_cultist
+				40 = {
+					religion = jacobin
+				}
+				20 = {
+					religion = chronicler
+				}
+				100 = {	
+					trigger = {
+						OR = {
+							religion = sun_king_cultist 
+							religion = jacobin
+							religion = chronicler
+						}
 					}
-					40 = {
-						religion = jacobin
-					}
-					20 = {
-						religion = chronicler
-					}
+					religion = THIS #doesn't change her religion
 				}
 			}
 			create_title = {
@@ -130,45 +131,54 @@ province_event = {#creates joan and her armies
 				holder = THIS
 			}
 			
-			##unit size tbd
+			##unit size may be adjusted later
 			spawn_unit = {
-				owner = THIS
-				leader = THIS
 				province = ROOT
 				home = ROOT
-				troops = {
-					archers = { 1000 1000 }
-					light_infantry = { 1500 1500 }
-					heavy_infantry = { 1000 1000 }
-					light_cavalry = { 500 500 }
-				}
-				attrition = 1.0
+				owner = THIS
+				leader = THIS
+				match_character = FROM
+				match_mult = 0.25
+				match_min = 300
+				match_max = 5000
+				attrition = 0.5
+				cannot_inherit = yes
 			}
 			spawn_unit = {
-				owner = THIS
-				leader = THIS
 				province = ROOT
 				home = ROOT
-				troops = {
-					archers = { 1000 1000 }
-					light_infantry = { 1500 1500 }
-					heavy_infantry = { 1000 1000 }
-					light_cavalry = { 500 500 }
-				}
-				attrition = 1.0
+				owner = THIS
+				leader = THIS
+				match_character = FROM
+				match_mult = 0.25
+				match_min = 300
+				match_max = 5000
+				attrition = 0.5
+				cannot_inherit = yes
 			}
 			spawn_unit = {
-				owner = THIS
-				leader = THIS
 				province = ROOT
 				home = ROOT
-				troops = {
-					archers = { 1000 1000 }
-					light_infantry = { 1500 1500 }
-					heavy_infantry = { 1000 1000 }
-					light_cavalry = { 500 500 }
-				}
-				attrition = 1.0
+				owner = THIS
+				leader = THIS
+				match_character = FROM
+				match_mult = 0.25
+				match_min = 300
+				match_max = 5000
+				attrition = 0.5
+				cannot_inherit = yes
+			}
+			spawn_unit = {
+				province = ROOT
+				home = ROOT
+				owner = THIS
+				leader = THIS
+				match_character = FROM
+				match_mult = 0.25
+				match_min = 300
+				match_max = 5000
+				attrition = 0.5
+				cannot_inherit = yes
 			}
 			if = {
 				limit = {
@@ -216,7 +226,6 @@ letter_event = { #Good ol' Jeanne wants yo troops
     }
     option = { #yes
         name = EVTOPTA_joan_4
-        custom_tooltip = { text = TXT_EVTOPTA_joan_4 }
         join_attacker_wars = FROM
 
         ai_chance = {
@@ -250,7 +259,6 @@ letter_event = { #Good ol' Jeanne wants yo troops
 
     option = { #no
         name = EVTOPTB_joan_4
-        custom_tooltip = { text = TXT_EVTOPTB_joan_4 }
         prestige = -25
         piety = -50
 
@@ -296,64 +304,94 @@ character_event = { #gets claims on the other infidel duchies in the french hear
 		prestige = 50
 		piety = 100
 		grant_title = k_joan_darc
+		spawn_unit = {
+			province = 1551
+			home = 1551
+			owner = ROOT
+			troops = {
+				light_cavalry = { 400 400 }
+				light_infantry = { 1200 1200 }
+				heavy_infantry = { 600 600 }
+				knights = { 200 200 }
+				pikemen = { 400 400 }
+			}
+			attrition = 1.0
+			reinforces = yes
+			cannot_inherit = yes
+		}
+		spawn_unit = {
+			province = 1551
+			home = 1551
+			owner = ROOT
+			troops = {
+				light_cavalry = { 400 400 }
+				light_infantry = { 1200 1200 }
+				heavy_infantry = { 600 600 }
+				knights = { 200 200 }
+				pikemen = { 400 400 }
+			}
+			attrition = 1.0
+			reinforces = yes
+			cannot_inherit = yes
+		}
 		#sets claims on appropriate non french duchies
 		if = {
 			limit = {
 				d_berry = { holder_scope = { NOR = {
-				religion = jacobin
-				religion = chronicler
-				religion = sun_king_cultist 
-			}}}
+					religion = jacobin
+					religion = chronicler
+					religion = sun_king_cultist 
+				}}}
 			}
 			add_claim = d_berry
 		}
 		if = {
 			limit = {
 				d_loire = { holder_scope = { NOR = {
-				religion = jacobin
-				religion = chronicler
-				religion = sun_king_cultist 
-			}}}
+					religion = jacobin
+					religion = chronicler
+					religion = sun_king_cultist 
+				}}}
 			}
 			add_claim = d_loire
 		}
 		if = {
 			limit = {
 				d_nord = { holder_scope = { NOR = {
-				religion = jacobin
-				religion = chronicler
-				religion = sun_king_cultist 
-			}}}
+					religion = jacobin
+					religion = chronicler
+					religion = sun_king_cultist 
+				}}}
 			}
 			add_claim = d_nord
 		}
 		if = {
 			limit = {
 				d_normandy = { holder_scope = { NOR = {
-				religion = jacobin
-				religion = chronicler
-				religion = sun_king_cultist 
-			}}}
+					religion = jacobin
+					religion = chronicler
+					religion = sun_king_cultist 
+				}}}
 			}
 			add_claim = d_normandy
 		}
 		if = {
 			limit = {
 				d_orleanais = { holder_scope = { NOR = {
-				religion = jacobin
-				religion = chronicler
-				religion = sun_king_cultist 
-			}}}
+					religion = jacobin
+					religion = chronicler
+					religion = sun_king_cultist 
+				}}}
 			}
 			add_claim = d_orleanais
 		}
 		if = {
 			limit = {
 				d_picardy = { holder_scope = { NOR = {
-				religion = jacobin
-				religion = chronicler
-				religion = sun_king_cultist 
-			}}}
+					religion = jacobin
+					religion = chronicler
+					religion = sun_king_cultist 
+				}}}
 			}
 			add_claim = d_picardy
 		}
