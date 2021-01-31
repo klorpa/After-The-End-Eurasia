@@ -1144,25 +1144,25 @@ character_event = { # Adding Passover flavor: Selling Chametz
 	
 	is_triggered_only = yes
 	
-	trigger_if = { 
-		any_realm_lord = { 
-			limit = { NOT = { religion_group = jewish_group } } 
-			prisoner = no
-			is_adult = yes
-			NOR = {
-				trait = incapable
-				is_inaccessible_trigger = yes
+	trigger = { 
+		OR = {
+			any_realm_lord = { 
+				limit = { NOT = { religion_group = jewish_group } } 
+				prisoner = no
+				is_adult = yes
+				NOR = {
+					trait = incapable
+					is_inaccessible_trigger = yes
+				}
 			}
-		}
-	}
-	trigger_else_if = { 
-		any_neighbor_independent_ruler = { 
-			limit = { NOT = { religion_group = jewish_group } } 
-						prisoner = no
-			is_adult = yes
-			NOR = {
-				trait = incapable
-				is_inaccessible_trigger = yes
+			any_neighbor_independent_ruler = { 
+				limit = { NOT = { religion_group = jewish_group } } 
+							prisoner = no
+				is_adult = yes
+				NOR = {
+					trait = incapable
+					is_inaccessible_trigger = yes
+				}
 			}
 		}
 	}

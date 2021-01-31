@@ -36,6 +36,35 @@ narrative_event = { #Solarque
 	}
 }
 
+# character_event = { #claim the blood of the sun king
+	# id = skc.2
+	# desc = EVTDES1_claim_sun_blood_1
+	# picture = GFX_evt_bloodlines
+	# border = GFX_event_normal_frame_religion
+
+	# only_playable = yes
+	# religion = sun_king_cultist
+	# only_men = yes
+	# only_capable = yes
+	# prisoner = no
+	# min_age = 16
+	
+	# trigger = {
+		# higher_real_tier_than = DUKE
+		# prestige = 2000
+		# is_ill = no
+		# NOT = { trait = sang_capetian }
+		# NOT = { trait = content }
+	# }
+	
+	# mean_time_to_happen = {
+		# months = 60
+		
+	# }
+	# option = {
+	# }
+# }
+
 #royal touch events
 character_event = {
 	id = skc.20
@@ -1012,7 +1041,7 @@ character_event = { # victory or defeat
     desc = {
 		trigger = { NOT = { has_character_modifier = recent_duel_victory } }
 		text = EVTDES2_damsel_distress_3
-		picture = GFX_evt_bad_news_soa
+		picture = GFX_evt_bad_news
     }
 	is_triggered_only = yes
 	
@@ -1165,7 +1194,7 @@ character_event = { #character rejected as a Worthy
 	mean_time_to_happen = {
 		months = 36
 		modifier = {
-			factor = .001
+			factor = 0.01
 			OR = {
 				has_character_modifier = adulterer
 				has_character_modifier = adultress
@@ -1177,7 +1206,7 @@ character_event = { #character rejected as a Worthy
 			}
 		}
 		modifier = {
-			factor = .25
+			factor = 0.25
 			calc_true_if = {
 				amount >= 2
 				trait = greedy

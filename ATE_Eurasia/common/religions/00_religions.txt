@@ -1535,6 +1535,34 @@ islamosyncretic = {
 		hard_to_convert = yes
 			
 	}	
+	ahl_e_haqq = {
+		graphical_culture = muslimgfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+
+		icon = 43
+		
+		high_god_name = GOD_KAVANDAGAR
+		
+		god_names = {
+			GOD_ALI GOD_KHATUN_E_RABAR GOD_BABA_YADEGAR GOD_DAWAN GOD_DAWUD GOD_BENYAMIN GOD_SHAH_KHOSHIN GOD_SULTAN_SAHAK
+		}
+		evil_god_names = {
+			GOD_SHAYTAN
+		} 
+		
+		scripture_name = KITAB_E_SARANJAM
+		
+		color = { 0.0 0.9 0.4 }
+		priests_can_marry = yes
+		autocephaly = yes
+		can_excommunicate = yes
+		psc_marriage = no
+		priests_can_inherit = yes
+		allow_rivermovement = yes
+		can_demand_religious_conversion = no
+		hard_to_convert = yes
+			
+	}
 	alawi = {
 		graphical_culture = muslimgfx
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
