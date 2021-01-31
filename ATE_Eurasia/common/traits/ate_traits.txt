@@ -22,3 +22,31 @@ zair = {
 	religious = yes
 	muslim_opinion = 5
 }
+
+distractible = {
+	birth = 100
+	inherit_chance = 15
+	
+	diplomacy = -2
+	stewardship = -2
+
+	male_insult = INSULT_DIM
+	ruler_designer_cost = -5
+}
+
+bisexual = {
+	sex_appeal_opinion = 5 # Only to those of the same sex
+	vassal_opinion = -5
+	same_opinion = 5
+	opposites = {
+		homosexual
+	}	
+	ruler_designer_cost = 0
+	
+	male_insult = INSULT_SODOMITE
+	male_insult_adj = INSULT_EFFEMINATE
+	female_insult = INSULT_LESBIAN
+	female_insult_adj = INSULT_SAPPHIC
+	child_insult = INSULT_PEABRAIN
+	child_insult_adj = INSULT_CRAZY
+}

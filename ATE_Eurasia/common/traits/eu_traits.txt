@@ -837,3 +837,18 @@ najafi = {
 	customizer = no
 	random = no
 }
+sang_capetien = {
+	sun_king_cultist_opinion = 10
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.5
+	agnatic = yes
+	potential = {
+		religion = sun_king_cultist
+	}
+	opposites = {
+		trait = peasant_leader
+	}
+	opposite_opinion = -10
+	same_opinion = 10
+	religious = yes
+}
