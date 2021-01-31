@@ -7,6 +7,20 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
+		name = "GFX_trait_distractible"
+		texturefile = "gfx/traits/distractible.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bisexual"
+		texturefile = "gfx/traits/bisexual.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
 		name = "GFX_trait_legendary"
 		texturefile = "gfx/traits/legendary.dds"
 		noOfFrames = 1
@@ -328,7 +342,13 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
-	
+	spriteType = {
+		name = "GFX_trait_sang_capetien"
+		texturefile = "gfx/traits/sang_capetien.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 	
 	#Sympathy Traits
 	
