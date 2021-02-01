@@ -25,9 +25,12 @@ feudal_governments = {
 		frame_suffix = "_iqta"
 		title_prefix = "ghazi_government_"
 		potential = {
-			AND = { 
-				NOT = {religion = ruhi}
-				religion_group = muslim
+			OR = {
+				religion_group = islamosyncretic 
+				AND = { 
+					religion_group = muslim
+					NOT = {religion = ruhi}
+				}
 			}
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
@@ -36,7 +39,17 @@ feudal_governments = {
 			NAND = {
 				controls_religion = yes
 				religion = nizami
-			}	
+			}
+			NOR = {
+				primary_title = {
+					title = e_ottoman_empire #list of imperial-tier realms allowed
+				}
+				top_liege = {
+					government = bureaucratic_muslim_government
+					higher_tier_than = DUKE
+					religion_group = muslim
+				}
+			}			
 		}
 		
 		color = { 0 204 0 }

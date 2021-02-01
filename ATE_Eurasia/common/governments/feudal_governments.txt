@@ -30,9 +30,16 @@ feudal_governments = {
 					has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
 				}
 			}
-			NAND = {
-				religion = ruhi
+			NOT = {religion_group = islamosyncretic}
+			OR = {
 				NOT = {religion_group = muslim}
+				AND = {
+					religion = ruhi
+					capital_scope = {OR = {
+						region = custom_western_europe
+						region = world_scandinavia
+					}}
+				}
 			}
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }

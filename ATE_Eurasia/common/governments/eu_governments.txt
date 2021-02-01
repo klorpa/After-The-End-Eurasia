@@ -246,11 +246,20 @@ feudal_governments = {
 		frame_suffix = "_iqta"
 		title_prefix = "bureaucratic_muslim_government_"
 		potential = {
-			AND = { 
-				NOT = {religion = ruhi}
-				religion_group = muslim
+			OR = {
+				religion_group = islamosyncretic 
+				AND = { 
+					religion_group = muslim
+					NAND = {
+						religion = ruhi
+						OR = {
+							capital_scope = {region = custom_western_europe}
+							capital_scope = {region = world_scandinavia}
+						}
+					}
+				}
 			}
-			has_law = succ_ghazi_elective
+			#has_law = succ_ghazi_elective
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
 			NOT = { is_government_potential = military_governorate }
@@ -259,16 +268,6 @@ feudal_governments = {
 				religion = nizami
 			}
 			is_patrician = no
-			OR = {
-				primary_title = {
-					title = e_ottoman_empire #list of imperial-tier realms allowed
-				}
-				top_liege = {
-					government = bureaucratic_muslim_government
-					higher_tier_than = DUKE
-					religion_group = muslim
-				}
-			}
 		}
 		
 		color = { 50 205 50 }
