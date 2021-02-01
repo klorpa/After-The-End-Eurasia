@@ -12707,9 +12707,18 @@
 #########THE GREAT HONG######################
 8001282 = { #PLACEHOLDER
 	dynasty = 8001022 #HONG
+	name = "Ping"
+	religion = ruist
+	culture = mandarin
+	2610.2.7 = {birth = yes}
+	2645.2.7 = {death = {death_reason=death_offmap}}
+}
+8001283 = { #PLACEHOLDER
+	dynasty = 8001022 #HONG
 	name = "Mushu"
 	religion = ruist
 	culture = mandarin
+	father = 8001282
 	2640.2.7 = {birth = yes}
 }
 #########EXTRA TITLE HISTORY CHINESE CHARACTERS (MING and HONG Dynasties and Other misc. Chinese Warlords) ######################
