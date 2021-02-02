@@ -6,7 +6,7 @@ narrative_event = { #Solarque
 	id = skc.1
 	title = EVTNAME_skc_1
 	desc = EVTDESC_skc_1
-	picture = GFX_evt_council
+	picture = GFX_capet_king
 	border = GFX_event_narrative_frame_religion
 	
 	major = yes
@@ -36,35 +36,244 @@ narrative_event = { #Solarque
 	}
 }
 
-# character_event = { #claim the blood of the sun king
-	# id = skc.2
-	# desc = EVTDES1_claim_sun_blood_1
-	# picture = GFX_evt_bloodlines
-	# border = GFX_event_normal_frame_religion
+character_event = { #claim the blood of the sun king
+	id = skc.2
+	desc = EVTDESC_claim_sun_blood_1
+	picture = GFX_evt_bloodlines
+	border = GFX_event_normal_frame_religion
 
-	# only_playable = yes
-	# religion = sun_king_cultist
-	# only_men = yes
-	# only_capable = yes
-	# prisoner = no
-	# min_age = 16
+	only_playable = yes
+	religion = sun_king_cultist
+	only_men = yes
+	only_capable = yes
+	prisoner = no
+	min_age = 16
 	
-	# trigger = {
-		# higher_real_tier_than = DUKE
-		# prestige = 2000
-		# is_ill = no
-		# NOT = { trait = sang_capetian }
-		# NOT = { trait = content }
-	# }
+	trigger = {
+		higher_real_tier_than = DUKE
+		prestige = 2000
+		is_ill = no
+		NOT = { trait = sang_capetien }
+		NOT = { trait = content }
+		learning = 10
+		martial = 10
+		NOT = { has_character_flag = no_capet_ambition }
+	}
 	
-	# mean_time_to_happen = {
-		# months = 60
+	mean_time_to_happen = {
+		months = 60
 		
-	# }
-	# option = {
-	# }
-# }
+	}
+	option = {
+		name = EVTOPTA_claim_sun_blood_1
+		character_event = { id = skc.3	days = 30	random = 10 }
+	}
+	option = {
+		name = EVTOPTB_claim_sun_blood_1
+		random_list = {
+			50 = { add_trait = humble }
+			50 = { add_trait = content }
+		}
+		add_character_flag = no_capet_ambition
+	}
+}
 
+character_event = { #claim the blood of the sun king
+	id = skc.3
+	desc = EVTDESC_claim_sun_blood_2
+	picture = GFX_evt_bloodlines
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = { #do it myself!
+		name = EVTOPTA_claim_sun_blood_2
+		random_list = {
+			80 = { add_trait = proud }
+			10 = { add_trait = diligent }
+			10 = { add_trait = erudite }
+		}
+		hidden_tooltip = {
+			random_list = {
+				10 = {
+					mult_modifier = {
+						factor = 3
+						OR = {
+							learning = 16
+							martial = 16
+						}
+					}
+					mult_modifier = {
+						factor = 3
+						trait = blessed_hands
+					}
+					mult_modifier = {
+						factor = 3
+						higher_real_tier_than = KING
+					}
+					character_event  = { id = skc.4	days = 30	random = 10 }
+				}
+				90 = {
+					character_event  = { id = skc.5	days = 30	random = 10 }
+				}
+			}
+		}
+	}
+	option = { 
+		name = EVTOPTB_claim_sun_blood_2
+		job_spiritual = {
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 5
+			}
+		}
+		hidden_tooltip = {
+			random_list = {
+				10 = {
+					mult_modifier = {
+						factor = 4
+						job_spiritual = {
+							learning = 14
+						}
+					}
+					mult_modifier = {
+						factor = 3
+						trait = blessed_hands
+					}
+					mult_modifier = {
+						factor = 3
+						higher_real_tier_than = KING
+					}
+					character_event  = { id = skc.4	days = 30	random = 10 }
+				}
+				90 = {
+					character_event  = { id = skc.5	days = 30	random = 10 }
+				}
+			}
+		}
+	}
+	
+}
+character_event = { #claim the blood of the sun king
+	id = skc.3
+	desc = EVTDESC_claim_sun_blood_2
+	picture = GFX_evt_open_book_hf
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = { #do it myself!
+		name = EVTOPTA_claim_sun_blood_2
+		random_list = {
+			80 = { add_trait = proud }
+			10 = { add_trait = diligent }
+			10 = { add_trait = erudite }
+		}
+		hidden_tooltip = {
+			random_list = {
+				10 = {
+					mult_modifier = {
+						factor = 3
+						OR = {
+							learning = 16
+							martial = 16
+						}
+					}
+					mult_modifier = {
+						factor = 3
+						trait = blessed_hands
+					}
+					mult_modifier = {
+						factor = 3
+						higher_real_tier_than = KING
+					}
+					character_event  = { id = skc.4	days = 30	random = 10 }
+				}
+				90 = {
+					character_event  = { id = skc.5	days = 30	random = 10 }
+				}
+			}
+		}
+	}
+	option = { 
+		name = EVTOPTB_claim_sun_blood_2
+		job_spiritual = {
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 5
+			}
+		}
+		hidden_tooltip = {
+			random_list = {
+				10 = {
+					mult_modifier = {
+						factor = 4
+						job_spiritual = {
+							learning = 14
+						}
+					}
+					mult_modifier = {
+						factor = 3
+						trait = blessed_hands
+					}
+					mult_modifier = {
+						factor = 3
+						higher_real_tier_than = KING
+					}
+					character_event  = { id = skc.4	days = 30	random = 10 }
+				}
+				90 = {
+					character_event  = { id = skc.5	days = 30	random = 10 }
+				}
+			}
+		}
+	}
+	
+}
+character_event = { #claim the blood of the sun king
+	id = skc.4
+	desc = EVTDESC_claim_sun_blood_3
+	picture = GFX_capet_king
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = { #success
+		name = EVTOPTA_claim_sun_blood_3
+		add_trait = sang_capetien
+		any_close_relative = {
+			add_trait = sang_capetien
+			opinion = {
+				modifier = opinion_capet_connection
+				who = ROOT
+				years = 100
+			}
+		}
+		add_character_modifier = {
+			name = claimed_capet_blood
+			years = 10
+		}
+	}
+	
+}
+character_event = { #claim the blood of the sun king
+	id = skc.5
+	desc = EVTDESC_claim_sun_blood_4
+	picture = GFX_evt_bad_news
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = { #failure
+		name = EVTOPTA_claim_sun_blood_4
+		random = { 
+			chance = 25
+			add_trait = stressed
+		}
+	}
+}
 #royal touch events
 character_event = {
 	id = skc.20
