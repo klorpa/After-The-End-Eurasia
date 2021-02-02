@@ -161,13 +161,24 @@ k_hatay = {
 	suriyi = "Khatay"
 	turcoman = "Khatay"
 }
-
-
 k_joan_darc = {
 	color = {86 164 191}
 	color2 = {255 255 255}
 	
 	capital = 1551 # paris
+	
+	allow = {
+		always = no # Only created through special event
+	}
+}
+k_kurdistan = {
+	color = {254 189 17}
+	color2 = {255 255 255}
+	
+	capital = 2440 #Erbil
+	culture = kurdish
+	
+	kurdish = "Kurdistanê"
 	
 	allow = {
 		always = no # Only created through special event

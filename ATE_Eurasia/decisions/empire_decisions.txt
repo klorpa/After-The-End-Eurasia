@@ -183,4 +183,67 @@ decisions = {
 			factor = 1
 		}
 	}
+	unify_kurdistan = {
+		is_high_prio = yes
+		only_playable = yes
+		ai = no
+
+		potential = {
+			is_alternate_start = no
+			NOT = {
+				has_game_rule = {
+					name = empire_decisions
+					value = off
+				}
+			}
+			NOT = { has_global_flag = kurdistan_unified }
+			independent = yes
+			culture = kurdish
+		}
+
+		allow = {
+			is_adult = yes
+			war = no
+			prestige = 1000
+			wealth = 500
+			tier = DUKE
+			completely_controls = d_kurdistan
+			completely_controls = d_van
+			completely_controls = d_mardin
+			completely_controls = d_urmiya
+		}
+
+		effect = {
+			wealth = -500
+			if = {
+				limit = { has_nickname = no }
+				give_nickname = nick_the_restorer
+			}
+			activate_title = { title = k_kurdistan status = yes }
+			primary_title = {
+				k_kurdistan = {
+					grant_title = ROOT
+					copy_title_laws = PREV
+				}
+			}
+			custom_tooltip = { text = unify_kurdistan_TT }
+
+			set_global_flag = kurdistan_unified
+			
+			hidden_tooltip = {
+				d_kurdistan = {
+					de_jure_liege = k_kurdistan
+				}
+				d_van = {
+					de_jure_liege = k_kurdistan
+				}
+				d_mardin = {
+					de_jure_liege = k_kurdistan
+				}
+				d_urmiya = {
+					de_jure_liege = k_kurdistan
+				}
+			}
+		}
+	}
 }
