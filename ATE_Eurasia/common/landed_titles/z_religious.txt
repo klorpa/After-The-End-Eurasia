@@ -1,14 +1,14 @@
 ###ÄNSI
 
-d_thelema = {
+d_glorian = {
 	color={ 192 192 192 }
 	color2={ 220 220 0 }
 	
 	capital = 27 # London
 	
-	title = "IPSISSIMUS"
-	title_female = "IPSISSIMUS_FEMALE"
-	foa = "IPSISSIMUS_FOA"
+	title = "PRIME_MINISTER"
+	title_female = "PRIME_MINISTER"
+	foa = "PRIME_MINISTER_FOA"
 	
 	creation_requires_capital = no
 	
@@ -20,9 +20,9 @@ d_thelema = {
 	dignity = 100 # Counted as having this many more counties than it does
 	
 	# Controls a religion
-	controls_religion = high_thelema
+	controls_religion = glorian
 	
-	religion = high_thelema
+	religion = glorian
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 

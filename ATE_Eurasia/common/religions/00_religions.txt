@@ -898,25 +898,25 @@ scholastic = {
 	
 	interface_skin = { pagan_interface }
 
-	high_thelema = {
+	glorian = {
 		graphical_culture = norsegfx
 
-		icon = 5
-		heresy_icon = 6
+		icon = 56
+		heresy_icon = 56
 		
 		ai_convert_other_group = 1
 		
-		color = { 0.6 0.6 0.5 }
+		color = { 200 16 46 }
 		
 		interface_skin = { zun_interface pagan_interface }
 
-		high_god_name = GOD_THE_QUEEN
+		high_god_name = GOD_THE_VIRGIN_QUEEN
 
 		god_names = {
-			GOD_THE_QUEEN GOD_NUIT GOD_HADIT GOD_RA_HOOR_KHUIT GOD_GUNTHER
+			GOD_THE_QUEEN GOD_ALBION GOD_THE_HOLY_LAMB GOD_THE_BARD
 		}
 		evil_god_names = {
-			GOD_JESUS
+			GOD_DRAGON GOD_THE_DECEIVER GOD_SATAN
 		}
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_BOOK_OF_THE_LAW
@@ -936,20 +936,19 @@ scholastic = {
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
-		intermarry = low_thelema
+		intermarry = thelema
 	}
 
-	low_thelema = {
+	thelema = {
 		graphical_culture = norsegfx
 
 		icon = 5
-		heresy_icon = 6
+		heresy_icon = 5
 		
 		ai_convert_other_group = 1
 		
 		color = { 0.6 0.6 0.5 }
 		
-		parent = high_thelema
 		
 		interface_skin = { zun_interface pagan_interface }
 
@@ -975,7 +974,7 @@ scholastic = {
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
-		intermarry = high_thelema
+		intermarry = glorian
 	}
 	
 	neuhumanist = {
@@ -1137,8 +1136,8 @@ muslim = {
 	sunnah = {
 		graphical_culture = muslimgfx
 		
-		icon = 13
-		heresy_icon = 18
+		icon = 55
+		heresy_icon = 55
 		
 		color = { 80 220 100 }
 		
@@ -1193,8 +1192,8 @@ muslim = {
 	salafi = {
 		graphical_culture = muslimgfx
 		
-		icon = 13
-		heresy_icon = 18
+		icon = 53
+		heresy_icon = 53
 		
 		color = { 43 45 47 }
 		
@@ -1222,8 +1221,8 @@ muslim = {
 	wahhabi = {
 		graphical_culture = muslimgfx
 		
-		icon = 13
-		heresy_icon = 18
+		icon = 54
+		heresy_icon = 54
 		
 		color = { 0 0.6 0 }
 		
@@ -1339,8 +1338,8 @@ muslim = {
 	shiite = {
 		graphical_culture = muslimgfx
 		
-		icon = 13
-		heresy_icon = 18
+		icon = 14
+		heresy_icon = 19
 		
 		color = { 0 0.8 0 }
 		
@@ -1368,8 +1367,8 @@ muslim = {
 	akhbari = {
 		graphical_culture = muslimgfx
 		
-		icon = 13
-		heresy_icon = 18
+		icon = 19
+		heresy_icon = 14
 		
 		parent = shiite
 		
