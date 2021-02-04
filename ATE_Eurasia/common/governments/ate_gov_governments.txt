@@ -38,7 +38,10 @@ feudal_governments = {
 			is_patrician = no
 			NAND = {
 				controls_religion = yes
-				religion = nizami
+				OR= {
+					religion = nizami
+					religion = sunni
+				}
 			}
 			NOR = {
 				primary_title = {

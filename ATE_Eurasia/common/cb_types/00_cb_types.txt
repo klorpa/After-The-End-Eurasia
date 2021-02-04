@@ -3733,6 +3733,13 @@ crusade = {
 							has_global_flag = nizami_jihads_unlocked
 						}
 					}
+					AND = {
+						religion = shiite
+						custom_tooltip = {
+							text = CTT_SHIITE_JIHADS_UNLOCKED
+							has_global_flag = shiite_jihads_unlocked
+						}
+					}
 				}
 			}
 			mercenary = no

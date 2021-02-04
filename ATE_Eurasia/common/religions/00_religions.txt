@@ -82,6 +82,7 @@ vernacular = {
 		
 		priests_can_inherit = no
 		allow_rivermovement = yes
+		can_call_crusade = no
 		feminist = yes 
 		
 		religious_clothing_head = 0
@@ -916,24 +917,19 @@ scholastic = {
 			GOD_THE_QUEEN GOD_ALBION GOD_THE_HOLY_LAMB GOD_THE_BARD
 		}
 		evil_god_names = {
-			GOD_DRAGON GOD_THE_DECEIVER GOD_SATAN
+			GOD_DRAGON GOD_THE_DECEIVER GOD_ERIS
 		}
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_BOOK_OF_THE_LAW
 		priest_title = LORD_SPIRITUAL
 		can_grant_divorce = yes
 		can_grant_claim = yes
-		can_grant_invasion_cb = yes
 		can_excommunicate = yes
-		can_call_crusade = yes
 		priests_can_marry = yes
 		allow_rivermovement = yes
-		allow_looting = yes
 		female_temple_holders = yes
 		max_consorts = 3
-		
-		#aggression = 2.5 # AI aggression factor
-		
+				
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		intermarry = thelema
@@ -1092,8 +1088,14 @@ muslim = {
 		uses_decadence = no
 		max_wives = 4
 		can_call_crusade = yes
-		can_grant_invasion_cb = yes
 		uses_jizya_tax = yes
+		can_excommunicate = yes
+		can_grant_invasion_cb = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
 		
 		religious_clothing_head = 10
 		religious_clothing_priest = 10
@@ -1181,9 +1183,52 @@ muslim = {
 		scripture_name = THE_QURAN
 		priest_title = IMAM
 		crusade_name = JIHAD
+		autocephaly = yes
+		psc_marriage = no
+		can_grant_invasion_cb = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
 		uses_decadence = no
 		max_wives = 4
-		can_call_crusade = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+	}
+	ahl_as_salah = {
+		graphical_culture = muslimgfx
+		
+		icon = 13
+		heresy_icon = 18
+		
+		parent = sunni
+		
+		color = { 0 108 53 }
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+		crusade_name = JIHAD
+		
+		psc_marriage = no
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		uses_decadence = no
+		max_wives = 4
+		pacifist = yes
 		can_grant_invasion_cb = yes
 		
 		religious_clothing_head = 10
@@ -1328,7 +1373,7 @@ muslim = {
 		crusade_name = JIHAD
 		uses_decadence = no
 		max_wives = 4
-		can_call_crusade = yes
+		can_call_crusade = no
 		can_grant_invasion_cb = yes
 		uses_jizya_tax = yes
 		

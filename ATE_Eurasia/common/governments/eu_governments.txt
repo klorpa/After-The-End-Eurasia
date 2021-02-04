@@ -265,7 +265,10 @@ feudal_governments = {
 			NOT = { is_government_potential = military_governorate }
 			NAND = {
 				controls_religion = yes
-				religion = nizami
+				OR = {
+					religion = nizami
+					religion = sunni
+				}
 			}
 			is_patrician = no
 		}
