@@ -9,10 +9,7 @@ decisions = {
 			war = no
 			is_feudal = yes
 			pirate_island_trigger = yes
-			OR = {
-				religion_group = pirate
-				religion = ichthysist
-			}
+			religion_group = pirate
 			OR = {
 				tier = COUNT
 				tier = DUKE
@@ -86,10 +83,7 @@ decisions = {
 			is_feudal = yes
 			independent = yes
 			NOT = { 
-				OR = {
-					religion_group = pirate
-					religion = ichthysist
-				}
+				religion_group = pirate
 			}
 			OR = {
 				controls_religion = no

@@ -10454,15 +10454,9 @@ pagan_subjugation = {
 	
 	can_use = {
 		ROOT = {
-			OR = {
-				AND = {
-					religion_group = pagan_group
-					is_reformed_religion = no
-				}
-				AND = {
-					religion_group = vernacular
-					NOT = { religion = ichthysist }
-				}
+			AND = {
+				religion_group = pagan_group
+				is_reformed_religion = no
 			}
 			NOT = { same_realm = FROM }
 			NOT = { is_liege_or_above = FROM }
@@ -10509,13 +10503,7 @@ pagan_subjugation = {
 		
 		FROM = {
 			in_revolt = no
-			OR = {
-				religion_group = pagan_group
-				AND = {
-					religion_group = vernacular
-					NOT = { religion = ichthysist }
-				}
-			}
+			religion_group = pagan
 			is_nomadic = no
 			NOT = { is_offmap_governor = yes }
 			OR = {
