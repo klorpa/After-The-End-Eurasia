@@ -32,6 +32,18 @@ world_scandinavia = {
 	}
 }
 
+world_great_steppe = {
+	regions = {
+		custom_siberian_steppe custom_kazakh_steppe custom_pontic_caspian_steppe
+	}
+}
+
+world_siberia = {
+	regions = {
+		custom_urals custom_siberian_taiga
+	}
+}
+
 ###########################################################################
 # Custom Regions
 ###########################################################################
@@ -63,6 +75,12 @@ custom_urals = {
 custom_siberian_steppe = {
 	duchies = { 
 		d_omsk d_kurgan d_tyumen d_petropavl d_novosibirsk 
+	}
+}
+
+custom_siberian_taiga = {
+	duchies = { 
+		d_khanty_mansi d_tomsk d_oktyabrsky d_priuralsky d_purovsky d_yeniseysky d_tobolsk
 	}
 }
 
