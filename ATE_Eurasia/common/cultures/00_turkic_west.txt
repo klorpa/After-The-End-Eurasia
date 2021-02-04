@@ -62,7 +62,7 @@ turkic_west = {
 	}
 
 	tatar = {
-		graphical_cultures = { westernslavicgfx }
+		graphical_cultures = { cumangfx }
 
 		color = { 0.5 0.7 0.4 }
 
@@ -91,22 +91,33 @@ turkic_west = {
 		modifier = default_culture_modifier
 	}
 	bashkir = {
-		graphical_cultures = { westernslavicgfx }
+		graphical_cultures = { cumangfx }
 
 		color = { 0.3 0.7 0.6 }
 
 		male_names = {
-			Salawat Zeki Shaikhzada Shagit Tagir Mustai Zagir Murtaza
+			Ähmät_Ahmad Ähmätshah Ähmätzäki Ajrat Albert_Albert Aynur 
+			Dmitriy_Demetrius 
+			Irek 
+			Kadyr_Qadir 
+			Mihail_Michael Mortaza Mustai 
+			Rähim 
+			Salawat Shaikhzada Shagit 
+			Tagir 
+			Ûlaj Ural 
+			Zagir Zeki 
 		}
 
 		female_names = {
-			Lyasan Alina 
+			Alina 
+			Läjsän 
+			Tamara 
 		}
 		
 		from_dynasty_prefix = "of "
 		
-		male_patronym = "ovich"
-		female_patronym = "ovna"
+		male_patronym = "-uly"
+		female_patronym = "-kyzy"
 		prefix = no
 
 		pat_grf_name_chance = 50
