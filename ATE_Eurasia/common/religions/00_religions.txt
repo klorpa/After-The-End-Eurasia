@@ -289,6 +289,40 @@ pagan_group = {
 		religious_clothing_priest = 3
 		
 		intermarry = sjotru
+		
+		reformed = lusitanian_reformed
+	}
+	lusitanian_reformed = {
+		graphical_culture = westerngfx
+
+		icon = 39
+		heresy_icon = 39
+		
+		color = { 0 153 51 }
+
+		high_god_name = GOD_LUSUS
+
+		god_names = {
+			GOD_JUPITER GOD_VENUS GOD_MERCURY GOD_THE_FATES
+		}
+		evil_god_names = {
+			BACCHUS
+		}
+		
+		scripture_name = THE_LUSIADS
+		priest_title = STORYTELLER
+		priests_can_marry = yes
+		
+		
+		aggression = 0.5
+		
+		can_demand_religious_conversion = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = sjotru
+		intermarry = lusitanian
 	}
 	
 	sjotru = {
@@ -900,7 +934,8 @@ scholastic = {
 	interface_skin = { pagan_interface }
 
 	glorian = {
-		graphical_culture = norsegfx
+		graphical_culture = hellenicgfx
+		secondary_event_pictures = westerngfx
 
 		icon = 56
 		heresy_icon = 56
@@ -909,7 +944,7 @@ scholastic = {
 		
 		color = { 200 16 46 }
 		
-		interface_skin = { zun_interface pagan_interface }
+		interface_skin = { zun_interface indian_interface }
 
 		high_god_name = GOD_THE_VIRGIN_QUEEN
 
