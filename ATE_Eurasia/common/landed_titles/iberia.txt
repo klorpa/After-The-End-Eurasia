@@ -1778,6 +1778,8 @@ e_iberia = {
 			c_terceira = {
 				color={ 6 29 96 }
 				color2={ 255 255 255 }
+				holy_site = lusitanian
+				#holy_site = lusitanian_reformed
 			
 				b_angra_do_heroismo = {}
 				b_praia_da_vitoria = {}
@@ -1846,7 +1848,10 @@ e_iberia = {
 					aragonese = "Lisbona"
 					galician = "Lisboa"
 				b_sintra = {}
-				b_cascais = {}
+				b_cascais = {
+					holy_site = lusitanian
+					#holy_site = lusitanian_reformed
+				}
 				b_loures = {}
 				b_amadora = {}
 				b_oeiras = {}
@@ -2030,7 +2035,10 @@ e_iberia = {
 			
 				b_porto = {}
 				b_vila_nova_de_gaia = {}
-				b_braga = {}	
+				b_braga = {
+					holy_site = lusitanian
+					#holy_site = lusitanian_reformed
+				}	
 				b_vila_nova_de_famalicao = {}
 				b_valongo = {}
 				b_maia = {}
