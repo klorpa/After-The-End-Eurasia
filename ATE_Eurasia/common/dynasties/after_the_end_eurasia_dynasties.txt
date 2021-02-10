@@ -1614,7 +1614,21 @@
 1824011 = { name="Darwish" culture=filastini }
 1824012 = { name="Said" culture=filastini }
 1824013 = { name="Tarif" culture=filastini	religion=druze }
-1824014 = { name="Al-Ahmar" culture=filastini religion=ruhi } #The Hashemites of Jordan
+#The Hashemites of Jordan
+1824014 = { name="Al-Ahmar" culture=filastini
+	coat_of_arms = { 
+		religion=ruhi
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1824015 = { name="Al-Khatib" culture=filastini }
 1824016 = { name="Awad" culture=filastini }
 1824017 = { name="Hamdan" culture=filastini }
