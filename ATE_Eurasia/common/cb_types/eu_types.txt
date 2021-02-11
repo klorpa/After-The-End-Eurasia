@@ -76,10 +76,7 @@ imperial_ottoman_restoration = {
 	is_valid = {
 		ROOT = {
 			independent = yes
-			OR = { 
-				religion = nizami
-				religion = ruhi
-			}
+			religion_group = muslim
 			NOT = { same_realm = FROM }
 		}
 	}
