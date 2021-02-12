@@ -18,15 +18,9 @@ imperial_ottoman_restoration = {
 		ROOT = {
 			has_landed_title = e_ottoman_empire
 			independent = yes
-			OR = { 
-				religion = nizami
-				religion = ruhi
-			}
+			religion_group = muslim
 			NOT = { same_realm = FROM }
 			mercenary = no
-		}
-		FROM = {
-			NOT = { religion_group = muslim }
 		}
 	}
 

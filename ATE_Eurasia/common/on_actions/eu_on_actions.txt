@@ -21,6 +21,12 @@ on_five_year_pulse = {
 on_death = {
 	events = {
 		skc.25 #check if failed Royal Touch
+		ottoman.47 #Getting the Sultan Han Trait upon Succession
 		#adding shiva events
+	}
+}
+on_new_holder_usurpation = {
+	events = {
+		ottoman.48 #Getting the Sultan Han Trait upon Usurpation
 	}
 }
