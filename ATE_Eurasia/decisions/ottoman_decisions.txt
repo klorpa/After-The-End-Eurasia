@@ -88,18 +88,19 @@ decisions = {
 		}
 		effect = {
 			custom_tooltip = {
-				text = rome_capital
+				text = istanbul_capital
 				hidden_tooltip = {
-					b_tivoli = { province_capital = yes }
+					b_fatih = { province_capital = yes }
 					ROOT = {
-						b_tivoli = {
+						b_fatih = {
 							usurp_title = PREV
 						}
 					}
-					#b_roma = { set_name = Lateran }
-					b_tivoli = { 
-						set_name = Rome 
+					b_fatih = { 
 						ROOT = { capital = PREV }
+					}
+					c_istanbul = {
+						name = Kostantiniyye
 					}
 				}
 			}
