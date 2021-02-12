@@ -8,10 +8,12 @@ decisions = {
 			is_playable = yes
 			has_dlc = "Legacy of Rome"
 			has_landed_title = e_turkey
-			OR = { 
-				religion = nizami
-				religion = ruhi
-				culture = turkish
+			religion_group = muslim
+			OR = {
+				culture = west_anatolian
+				culture = rumelian
+				culture = central_anatolian
+				culture = black_sea
 			}
 			is_adult = yes
 			prisoner = no
