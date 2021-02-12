@@ -167,10 +167,20 @@ custom_italy = {
 		d_venice d_veneto d_trentino d_liguria d_piedmont d_lombardy d_romagna d_emilia d_milan d_san_marino d_lazio d_marche d_tuscany d_calabria d_apulia d_campania d_abruzzo d_palermo d_syracuse d_malta d_sardinia 
 	}
 }
+custom_austria = {
+	duchies = { 
+		d_tyrol d_styria d_austria
+	}
+}
+custom_switzerland = {
+	duchies = { 
+		d_romandy d_espace_mittelland d_switzerland d_raetia d_liechtenstein
+	}
+}
 
 custom_western_europe = {
 	regions = {
-		custom_old_france custom_old_germany custom_old_spain world_united_kingdom custom_italy custom_benelux
+		custom_old_france custom_old_germany custom_old_spain world_united_kingdom custom_italy custom_benelux custom_austria custom_switzerland
 	}
 }
 
