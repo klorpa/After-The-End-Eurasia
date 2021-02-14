@@ -12788,7 +12788,6 @@ pagan_county_conquest = {
 				ROOT = {
 					OR = {
 						religion_group = pagan_group
-						religion = neuhumanist
 						OR = {
 							AND = {
 								religion = folketro
@@ -12862,7 +12861,6 @@ pagan_county_conquest = {
 				ROOT = {
 					OR = {
 						religion_group = pagan_group
-						religion = neuhumanist
 						OR = {
 							AND = {
 								religion = folketro
@@ -14856,7 +14854,7 @@ buddhist_holy_war = {
 	
 	can_use = {
 		ROOT = {
-			religion = buddhist
+			religion_group = buddhist_group
 			NOT = { same_realm = FROM }
 			OR = {
 				NOT = { religion_group = FROM }
@@ -14947,7 +14945,7 @@ buddhist_holy_war = {
 
 	is_valid = {
 		ROOT = {
-			religion = buddhist
+			religion_group = buddhist_group
 			NOT = { same_realm = FROM }
 			OR = {
 				NOT = { religion_group = FROM }
