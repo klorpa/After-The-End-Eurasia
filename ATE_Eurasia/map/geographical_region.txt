@@ -164,7 +164,7 @@ custom_denmark = {
 }
 custom_italy = {
 	duchies = { 
-		d_venice d_veneto d_trentino d_liguria d_piedmont d_lombardy d_romagna d_emilia d_milan d_san_marino d_lazio d_marche d_tuscany d_calabria d_apulia d_campania d_abruzzo d_palermo d_syracuse d_malta d_sardinia 
+		d_venice d_veneto d_trentino d_liguria d_piedmont d_lombardy d_romagna d_emilia d_milan d_san_marino d_lazio d_marche d_tuscany d_calabria d_apulia d_campania d_abruzzo d_palermo d_syracuse d_malta d_sardinia d_fruli
 	}
 }
 custom_austria = {
@@ -177,11 +177,17 @@ custom_switzerland = {
 		d_romandy d_espace_mittelland d_switzerland d_raetia d_liechtenstein
 	}
 }
+custom_old_portugal = {
+	duchies = {
+		d_lisboa d_beja d_beira d_norte d_acores d_madeira
+	}
+}
 
 custom_western_europe = {
 	regions = {
-		custom_old_france custom_old_germany custom_old_spain world_united_kingdom custom_italy custom_benelux custom_austria custom_switzerland
+		custom_old_france custom_old_germany custom_old_spain world_united_kingdom custom_italy custom_benelux custom_austria custom_switzerland custom_old_portugal 
 	}
+	counties = { c_gibraltar }
 }
 
 custom_pale = {
@@ -191,6 +197,7 @@ custom_pale = {
 	
 	counties = { c_swietokrzyskie c_rzeszow c_czestochowa }
 }
+
 
 ###########################################################################
 # French Reconquest Regions
