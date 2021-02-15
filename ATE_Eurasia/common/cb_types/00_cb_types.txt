@@ -14854,7 +14854,10 @@ buddhist_holy_war = {
 	
 	can_use = {
 		ROOT = {
-			religion_group = buddhist_group
+			OR = {
+				religion_group = buddhist_group
+				religion = neuhumanist
+			}
 			NOT = { same_realm = FROM }
 			OR = {
 				NOT = { religion_group = FROM }
@@ -14945,7 +14948,10 @@ buddhist_holy_war = {
 
 	is_valid = {
 		ROOT = {
-			religion_group = buddhist_group
+			OR = {
+				religion_group = buddhist_group
+				religion = neuhumanist
+			}
 			NOT = { same_realm = FROM }
 			OR = {
 				NOT = { religion_group = FROM }
