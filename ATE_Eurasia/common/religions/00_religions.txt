@@ -388,7 +388,7 @@ pagan_group = {
 		allow_rivermovement = yes 
 		seafarer = yes 
 		max_consorts = 3 
-		can_demand_religious_conversion = no
+		can_demand_religious_conversion = yes
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
@@ -955,7 +955,7 @@ scholastic = {
 			GOD_DRAGON GOD_THE_DECEIVER GOD_ERIS
 		}
 		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_BOOK_OF_THE_LAW
+		scripture_name = THE_GREAT_CHARTER
 		priest_title = LORD_SPIRITUAL
 		can_grant_divorce = yes
 		can_grant_claim = yes
@@ -967,7 +967,10 @@ scholastic = {
 				
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
+		
 		intermarry = thelema
+		intermarry = high_church
+		intermarry = valinorism
 	}
 
 	thelema = {

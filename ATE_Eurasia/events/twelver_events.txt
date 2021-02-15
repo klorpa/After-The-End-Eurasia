@@ -1,0 +1,36 @@
+namespace = twelver
+
+character_event = { 
+	id = twelver.1
+	desc = EVTDESC_new_al_waqil
+	picture = GFX_evt_bishop
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_new_al_waqil
+		event_target:old_al_waqil = {
+			opinion = {
+				who = ROOT
+				modifier = took_al_waqil
+			}
+		}
+		prestige = 50
+	}
+	
+}	
+
+character_event = { 
+	id = twelver.2
+	desc = EVTDESC_lost_al_waqil
+	picture = GFX_evt_bad_news_hf
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_lost_al_waqil
+		prestige = -50
+	}
+}

@@ -612,7 +612,7 @@ character_event = { #accepted, event for jew
 	picture = GFX_evt_bishop
 	is_triggered_only = yes
 	trigger =  {religion = haskalah}
-	Option = {
+	option = {
 		name = EVTOPTA_dialogue_2
 		event_target:dialogue_gentile = {
 			trigger_switch = {##adds symapthy in accordance with gentiles religion

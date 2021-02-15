@@ -1,4 +1,64 @@
 targetted_decisions = {
+	become_waqil = {
+		only_playable = yes
+		is_high_prio = yes
+		filter = religious_head
+		ai_target_filter = religious_head
+		ai_check_interval = 60
+		only_independent = yes
+		
+		from_potential = {
+			religion = shiite
+			has_secret_religion = no
+			prisoner = no
+		}
+		potential = {
+			is_playable = yes
+			religion = shiite
+			has_landed_title = d_shiite
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		allow = {
+			war = no
+			FROM = {
+				piety = 50
+				war = no
+				relative_realm_size = {
+					who = ROOT
+					size >= 1
+				}
+				
+			}
+		}
+		effect = {
+			d_shiite = {
+				holder_scope = {
+					save_event_target_as = old_al_waqil
+				}
+				usurp_title = FROM
+			}
+			character_event = { id = twelver.2 }
+			FROM = {
+				character_event = { id = twelver.1 }
+				piety = -25
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.5
+				trait = content
+			}
+		}
+	}	
 	embrace_qomi = { #i suppose this is supposed to be targeted
 		only_playable = yes
 		
@@ -20,7 +80,6 @@ targetted_decisions = {
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
 		}
-		
 		allow = {
 			piety = 50
 			learning = 8
