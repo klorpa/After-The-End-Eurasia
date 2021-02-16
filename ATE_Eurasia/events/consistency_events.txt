@@ -12,35 +12,35 @@ character_event = {
 		any_demesne_title = {
 			OR = {
 				government = playable_republic_government
-				has_law = { succ_gavelkind }
+				has_law = succ_gavelkind
 			}
 			OR = {
 				government = playable_republic_government
-				has_law = { succ_elective_gavelkind }
+				has_law = succ_elective_gavelkind
 			}
 			OR = {
 				government = playable_republic_government
-				has_law = { succ_eldership }
+				has_law = succ_eldership
 			}
 			OR = {
 				government = playable_republic_government
-				has_law = { succ_seniority }
+				has_law = succ_seniority
 			}
 			OR = {
 				government = playable_republic_government
-				has_law = { succ_primogeniture }
+				has_law = succ_primogeniture
 			}
 			OR = {
 				government = playable_republic_government
-				has_law = { succ_feudal_elective }
+				has_law = succ_feudal_elective
 			}
 			OR = {
 				government = playable_republic_government
-				has_law = { succ_hre_elective }
+				has_law = succ_hre_elective
 			}
 			OR = {
 				government = playable_republic_government
-				has_law = { succ_tanistry }
+				has_law = succ_tanistry
 			}
 		}
 	}
