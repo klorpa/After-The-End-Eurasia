@@ -160,8 +160,10 @@ targetted_decisions = {
 	
 		from_potential = {
 			is_playable = yes
-			#government = pirate_government
-			trait = pirate
+			OR = {
+				government = pirate_government
+				trait = pirate
+			}
 		}
 	
 		potential = {

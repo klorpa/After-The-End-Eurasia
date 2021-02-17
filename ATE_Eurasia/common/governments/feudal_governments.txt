@@ -30,12 +30,6 @@ feudal_governments = {
 					has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
 				}
 			}
-			NOR = {
-				capital_scope = { has_province_modifier = pirate_outpost } 
-				primary_title = {
-					title = d_jirba
-				}
-			}
 			NOT = {religion_group = islamosyncretic}
 			OR = {
 				NOT = {religion_group = muslim}
@@ -111,12 +105,6 @@ feudal_governments = {
 			controls_religion = no
 			NOT = { government = merchant_republic_government }
 			NOT = { is_government_potential = merchant_republic_government }
-			NOR = {
-				capital_scope = { has_province_modifier = pirate_outpost }
-				primary_title = {
-					title = d_jirba_corsairs
-				}
-			}
 			NOT = { is_government_potential = pirate_government }
 			top_liege = {
 				higher_tier_than = COUNT#if the title is a county or a duchy, the titular counties system won't work

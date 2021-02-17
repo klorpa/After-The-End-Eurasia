@@ -687,7 +687,7 @@ christian = {
 		icon = 24
 		heresy_icon = 25
 		
-		color = { 0.5 0.8 0.8 }
+		color = { 0.1 0.86 0.78 }
 		
 		parent = lutheran
 
@@ -763,7 +763,7 @@ christian = {
 
 	}
 
-	apparitionist= {
+	apparitionist = {
 		graphical_culture = westerngfx
 
 		icon = 3
@@ -1785,17 +1785,17 @@ old_world_cultist_group = {
 		interface_skin = { zun_interface pagan_interface }
 
 
-	crusade_name = PEOPLES_LIBERATORY_WAR
-	scripture_name = PARTISAN_LEGENDS
-	priest_title = MANAGER
+		crusade_name = PEOPLES_LIBERATORY_WAR
+		scripture_name = PARTISAN_LEGENDS
+		priest_title = MANAGER
 
-	high_god_name = GOD_BROOTHERHOOD_AND_UNITY
+		high_god_name = GOD_BROOTHERHOOD_AND_UNITY
 
-	god_names = {
+		god_names = {
             GOD_TITO
         }
 
-	evil_god_names = {
+		evil_god_names = {
             GOD_THE_OCCUPIERS
         }
 	}
@@ -1943,6 +1943,34 @@ old_world_cultist_group = {
 		heresy_icon = 18
 		
 		color = { 215 198 171 }
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+		crusade_name = JIHAD
+		uses_decadence = no
+		max_wives = 4
+		can_call_crusade = yes
+		can_grant_invasion_cb = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+	}
+	zimiran = {
+		graphical_culture = muslimgfx
+		
+		icon = 13
+		heresy_icon = 18
+		
+		color = { 0.0 0.2 0.4 }
 		
 		high_god_name = GOD_ALLAH
 		
