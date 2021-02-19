@@ -622,6 +622,7 @@ pirate_invasion = {
 			prestige = 2000
 			NOT = { is_liege_or_above = FROM }
 			mercenary = no
+			has_character_flag = preparing_pirate_invasion
 			NOT = { has_character_flag = pirate_invader }
 			
 		}
@@ -631,6 +632,7 @@ pirate_invasion = {
 			NOT = { government = nomadic_government }
 			NOT = { government = herder_government }
 			NOT = { religion = ROOT }
+			has_character_flag = pirate_invasion_target
 		}
 	}
 	

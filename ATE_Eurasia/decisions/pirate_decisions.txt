@@ -152,6 +152,28 @@
 	# }
 # }
 targetted_decisions = {
+	# call_grand_expedition = {
+		# only_playable = yes
+		# filter = independent_rulers
+		# ai_target_filter = independent_rulers
+		# ai_check_interval = 24
+		
+		# from_potential = {
+			# prestige = 2000
+			# government = pirate_government
+			# NOT = { has_character_flag = pirate_invader }
+			# NOT = { has_character_flag = preparing_pirate_invasion }
+		# }
+		
+		# potential = {
+			# realm_size >= 100 
+			# NOT = { government = pirate_government }
+			# NOT = { government = nomadic_government }
+			# NOT = { government = herder_government }
+			# NOT = { religion = ROOT }
+		# }
+		
+		 
 	pirate_decide_fate = {
 		only_playable = yes
 		filter = court

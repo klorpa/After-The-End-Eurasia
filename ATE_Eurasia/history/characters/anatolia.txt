@@ -549,7 +549,85 @@
 	2100.1.1={death=yes}
 }
 
-#Fill in the Post Collapse "Osmanoglu descendants" before the most recent Claimants (the current 2666 rulers)
+2202048={
+	name="Büyükbaba  Osman"
+	father=2202047
+	dynasty=2052000 #Osmanoglu
+	culture=rumelian
+	religion=nizami
+	trait=legendary 
+	occluded=yes
+	2075.8.18={birth=yes}
+	2580.1.1={death=yes}
+}
+
+2202049={
+	name="Yahya"
+	father=2202048
+	dynasty=2052000
+	culture=west_anatolian
+	religion=ruhi
+	2575.1.1 = {birth=yes}
+	2630.1.1 = {death=yes}
+}
+2202050={
+	name="Mehmed"
+	father=2202048
+	dynasty=2052000
+	culture=rumelian
+	religion=nizami
+	2578.1.1 = {birth=yes}
+	2630.1.1 = {death=yes}
+}
+2202051={
+	name="Bayezid"
+	father=2202050
+	dynasty=2052000
+	culture=rumelian
+	religion=nizami
+	2610.1.1 = {birth=yes}
+	2635.1.1 = {
+		add_spouse = 2202052
+	}
+	2660.1.1 = {death=yes}
+}
+2202052={
+	name="Zeynep"
+	female=yes
+	culture=rumelian
+	religion=nizami
+	2610.1.1 = {birth=yes}
+	2660.1.1 = {death=yes}
+}
+2202053={
+	name="Selim"
+	father=2202048
+	dynasty=2052000
+	culture=central_anatolian
+	religion=nizami
+	2579.1.1 = {birth=yes}
+	2630.1.1 = {death=yes}
+}
+2202054={
+	name="Murad"
+	father=2202053
+	dynasty=2052000
+	culture=central_anatolian
+	religion=nizami
+	2610.1.1 = {birth=yes}
+	2635.1.1 = {
+		add_spouse = 2202055
+	}
+	2660.1.1 = {death=yes}
+}
+2202055={
+	name="Hatice"
+	female=yes
+	culture=black
+	religion=nizami
+	2610.1.1 = {birth=yes	culture=central_anatolian}
+	2660.1.1 = {death=yes}
+}
 
 ######2666 Characters######
 
@@ -558,6 +636,8 @@
 	dynasty=2052000 #Osmanoglu
 	culture=rumelian
 	religion=nizami
+	father=2202051
+	mother=2202052
 	trait=poet
 	trait=ambitious
 	trait=shrewd
@@ -590,6 +670,7 @@
 	dynasty=2052000 #Osmanoglu
 	culture=west_anatolian
 	religion=ruhi
+	father=2202049
 	trait=poet
 	trait=drunkard
 	trait=ill
@@ -616,6 +697,8 @@
 2202060={#Ottoman Claimant
 	name="Zenci Musa"
 	dynasty=2052000 #Osmanoglu
+	father=2202054
+	mother=2202055
 	culture=black
 	religion=nizami
 	#trait=muslim_mystic
@@ -665,8 +748,8 @@
 	2638.11.6={ birth=yes }
 }
 2202066={#Izmir Patrician (Tournsel Friend Slot)
-	name="Avram"
-	dynasty=1820091 #Nasi
+	name="Emir"
+	dynasty=1820096 #Alaton
 	culture=sefardi
 	religion=ivri
 	2638.11.6={ birth=yes }
@@ -838,25 +921,36 @@
 	2660.11.6={ add_spouse=2202085 }
 }
 2202087={#Count of Kars
-	name="Caner"
-	dynasty=2060002 #Bedlîsî
+	name="Pamuk"
+	dynasty=2060004 #Orhanoglu
 	culture=black_sea
 	religion=shiite
 	trait=alevi
+	trait=pious
+	trait=shy
+	trait=poet
 	2638.11.6={ birth=yes }
 }
 2202088={#Kurdish Duke of Malatya
-	name="Nemrud"
+	name="Kamer Diyap"
 	dynasty=2066002 #Yamulki
 	culture=kurdish
-	religion=sunni
+	religion=shiite
+	trait=alevi
+	trait=faqih
+	trait=brave
+	trait=shrewd
+	trait=pious
+	trait=content
+	trait=scarred
 	2638.11.6={ birth=yes }
 }
 2202089={#Count of Malatya
 	name="Battal"
 	dynasty=2052007 #Dede
 	culture=central_anatolian
-	religion=nizami
+	religion=shiite
+	trait=alevi
 	2638.11.6={ birth=yes }
 }
 2202090={#Count of Erzincan
