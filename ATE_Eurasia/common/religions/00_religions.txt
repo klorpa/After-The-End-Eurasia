@@ -1952,25 +1952,25 @@ old_world_cultist_group = {
 		icon = 19
 		heresy_icon = 13
 		
-		color = { 0.8 0.0 0.0 }
+		color = { 0.6 0.0 0.2 }
 		interface_skin = { rust_cultist_interface hellenic_interface }
 
-		high_god_name = GOD_THE_TITANS #removed this blatant 40k reference
+		high_god_name = GOD_DADDY_MARX
 
 		god_names = {
-			GOD_THE_TITANS GOD_FATHER_FORD GOD_FATHER_BESSEMER GOD_FATHER_CARNEGIE GOD_VULCAN GOD_THE_MACHINE_SPIRITS
+			GOD_DADDY_MARX
 		}
 		evil_god_names = {
-			THE_LORD_OF_RUST HE_WHO_RUSTS LUDD
+			THE_REACTIONARIES
 		}
-		crusade_name = INDUSTRIAL_ACTION
-		scripture_name = THE_BOOK_OF_RUST
-		priest_title = TECHPRIEST
+		crusade_name = PEOPLES_CRUSADE
+		scripture_name = THE_BOOK_OF_MARX
+		priest_title = BOLSHEVIK
 		
 		can_call_crusade = yes
 		priests_can_marry = yes
 		priests_can_inherit = no
-		female_temple_holders = yes #I want to make the High Fabricator decision gender-neutral
+		female_temple_holders = yes
 		allow_rivermovement = yes
 		can_grant_claim = yes
 		can_grant_divorce = yes
