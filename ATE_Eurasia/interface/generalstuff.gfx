@@ -1265,10 +1265,6 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\checkmark.dds"
 	}
 	spriteType = {
-		name = "GFX_icon_californian_imperial_government"
-		texturefile = "gfx\\interface\\government_icon_californian_imperial.dds"
-	}
-	spriteType = {
 		name = "GFX_icon_herder_government"
 		texturefile = "gfx\\interface\\government_herder.dds"
 	}
@@ -1280,6 +1276,14 @@ spriteTypes = {
 		name = "GFX_icon_nogovernment"
 		texturefile = "gfx\\interface\\government_icon_nogovernment.dds"
 	}
+	spriteType = {
+		name = "GFX_icon_ibadi_imamate"
+		texturefile = "gfx\\interface\\government_icon_ibadi_imamate.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_ghazi_government"
+		texturefile = "gfx/interface/government_icon_ghazi_government.dds"
+	}
 	
 	# Roman Imperial Government
 	spriteType = {
@@ -1290,13 +1294,5 @@ spriteTypes = {
 		name = "GFX_hints_roman_imperial_government"
 		texturefile = "gfx\\interface\\hints_splashscreen_image_feudal.dds"
 		allwaystransparent = yes
-	}
-	spriteType = {
-		name = "GFX_icon_mormon_government"
-		texturefile = "gfx\\interface\\government_icon_mormon_government.dds"
-	}
-	spriteType = {
-		name = "GFX_icon_ghazi_government"
-		texturefile = "gfx/interface/government_icon_ghazi_government.dds"
 	}
 }

@@ -979,59 +979,114 @@ narrative_event = {
 	
 	option = {
 		name = EVTOPTA_reformed_sunni
-		trigger = {
-			religion = sunnah
-		}
-		province_event = { id = islamate.29 }
+		narrative_event = { id = islamate.29 }
 	}
+}
+narrative_event = { #Representatives of the Three "Heresies" Convene to discuss Unification - Majlisi (sunni) Topic: Tradition
+	id = islamate.29
+	title = EVTNAME_reformed_majilisi
+	desc = EVTDESC_reformed_sunni_m_representative
+	picture = GFX_evt_moors
+	border = GFX_event_narrative_frame_religion
+
+	is_triggered_only = yes
+	
 	option = {
-		name = EVTOPTB_reformed_sunni
-		trigger = {
-			OR = {
-				religion = sunni
-				religion = nizami
-				religion = ruhi
-			}
-		}
-		province_event = { id = islamate.29 }
+		name = OK
+		narrative_event = { id = islamate.30 }
 	}
+}
+narrative_event = { #Representatives of the Three "Heresies" Convene to discuss Unification - Nizami Topic: Brotherhood
+	id = islamate.30
+	title = EVTNAME_reformed_nizami
+	desc = EVTDESC_reformed_sunni_n_representative
+	picture = GFX_evt_moors
+	border = GFX_event_narrative_frame_religion
+
+	is_triggered_only = yes
+	
 	option = {
-		name = EVTOPTC_reformed_sunni
-		trigger = {
-			religion_group = muslim
-			NOR = {
-				religion = sunni
-				religion = nizami
-				religion = ruhi
-				religion = sunnah
+		name = OK
+		narrative_event = { id = islamate.31 }
+	}
+}
+narrative_event = { #Representatives of the Three "Heresies" Convene to discuss Unification - Ruh'i Topic: Openess
+	id = islamate.31
+	title = EVTNAME_reformed_ruhi
+	desc = EVTDESC_reformed_sunni_r_representative
+	picture = GFX_evt_moors
+	border = GFX_event_narrative_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OK
+		narrative_event = { id = islamate.32 }
+	}
+}
+narrative_event = { #Turns these Sunni Religions into Heresies
+	id = islamate.32
+	title = EVTNAME_islamate32
+	desc = EVTDESC_islamate32
+	
+	picture = GFX_evt_moors
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_islamate30
+
+		set_parent_religion = { religion = sunni parent = sunnah }
+		set_parent_religion = { religion = nizami parent = sunnah }
+		set_parent_religion = { religion = ruhi parent = sunnah }
+		
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					OR = {
+						religion = sunni
+						religion = nizami
+						religion = ruhi
+					}
+					controls_religion = no
+				}
+				narrative_event = { id = islamate.33 }
 			}
 		}
 	}
 }
 
-province_event = {
-	id = islamate.29
-	desc = EVTNAME_reformed_sunni2
+# Sunni Characters outside of the borders of the Caliphate
+narrative_event = {
+	id = islamate.33
+	title = EVTNAME_islamate33
+	desc = EVTDESC_islamate33
+	
 	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
-	trigger = {
+	option = { # Yes
+		name = EVTOPTA_sunni_united_accepted
+		ai_chance = { factor = 80 }
+		religion = sunnah
+		any_courtier = {
+			limit = {
+				OR = {
+						religion = sunni
+						religion = nizami
+						religion = ruhi
+					}
+				liege = { character = ROOT }
+			}
+			religion = sunnah
+		}
 		capital_scope = {
-			NOT = { religion = sunnah }
+			religion = sunnah
 		}
 	}
-	
-	option = {
-		name = EVTOPTA_reformed_sunni2
-		trigger = { capital_scope = { religion = sunnah } }
-		religion = sunnah
-	}
-	
-	option = {
-		name = EVTOPTB_reformed_sunni2
-		trigger = { capital_scope = { NOT = { religion = sunnah } } }
-		religion = sunnah
+	option = { # No
+		name = EVTOPTA_sunni_united_rejected
+		ai_chance = { factor = 20 }
 	}
 }

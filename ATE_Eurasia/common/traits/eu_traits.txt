@@ -861,3 +861,96 @@ sang_capetien = {
 	opposite_opinion = -10
 	religious = yes
 }
+qawi = {
+	monthly_character_piety = 0.25
+	monthly_character_prestige = 0.25
+	
+	religious = yes # Lost immediately on religion change
+	
+	potential = {
+		religion = ibadi
+	}
+	
+	opposites =  {
+		thaif
+	}
+	
+	opposite_opinion = -5
+	same_opinion = 10
+	ibadi_opinion = 50
+	
+	customizer = no
+	random = no
+}
+thaif = {
+	monthly_character_piety = -0.25
+	monthly_character_prestige = -0.25
+	
+	religious = yes # Lost immediately on religion change
+	
+	potential = {
+		religion = ibadi
+	}
+	
+	opposites =  {
+		qawi
+	}
+	
+	opposite_opinion = -5
+	same_opinion = 10
+	ibadi_opinion = -50
+	
+	customizer = no
+	random = no
+}
+wahbi = {
+	opposites = {
+		nukkari
+		azzabas
+	}
+
+	opposite_opinion = -5
+	same_opinion = 10
+	
+	monthly_character_piety = 1
+	learning = 1
+	
+	religious_branch = ibadi
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+nukkari = {
+	opposites = {
+		wahbi
+		azzabas
+	}
+
+	opposite_opinion = -5
+	same_opinion = 10
+	
+	monthly_character_piety = 1
+	learning = 1
+	
+	religious_branch = ibadi
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+azzabas = {
+	opposites = {
+		nukkari
+		wahbi
+	}
+
+	opposite_opinion = -5
+	same_opinion = 10
+	
+	monthly_character_piety = 1
+	learning = 1
+	
+	religious_branch = ibadi
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}

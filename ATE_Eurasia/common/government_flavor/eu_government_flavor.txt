@@ -22,3 +22,12 @@ government_flavor = {
 		government = pirate_government
 	}
 }
+government_flavor = {
+	name = gov_ibadi_imamate
+	graphics = GFX_muslim_prayer
+	priority = 1
+	trigger = {
+		government = ibadi_imamate
+		has_law = succ_imamate_elective
+	}
+}

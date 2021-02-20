@@ -322,6 +322,7 @@ decisions = {
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
+			NOT = { has_global_flag = sunnah_reunited }
 		}
 		allow = {
 			age = 16
@@ -356,15 +357,18 @@ decisions = {
 			piety = -2000
 			prestige = -2000
 			religion = sunnah
+			activate_title = { title = d_sunnah status = yes }
+			d_sunnah = { grant_title = ROOT }
+			
 			custom_tooltip = {
 				text = unified_sunni
 				hidden_tooltip = { 
 					character_event = { id = islamate.28 } 
+					activate_title = { title = d_nizami status = no }
+					activate_title = { title = d_sunni status = no }
 				}
 			}
 			set_global_flag = sunnah_reunited
-			activate_title = { title = d_sunnah status = yes }
-			d_sunnah = { grant_title = ROOT }
 		}
 		revoke_allowed = {
 			always = no
