@@ -1110,13 +1110,13 @@ narrative_event = {
 				limit = {
 					trait = on_hajj
 				}
-				narrative_event = { id = hajj.100 days = 18 }
+				narrative_event = { id = hajj.96 days = 18 }
 			}
 			else_if = {
 				limit = {
 					trait = on_hajj2
 				}
-				narrative_event = { id = hajj.100 days = 7 }
+				narrative_event = { id = hajj.96 days = 7 }
 			}
 		}		
 	}
@@ -1129,20 +1129,20 @@ narrative_event = {
 				limit = {
 					trait = on_hajj
 				}
-				narrative_event = { id = hajj.100 days = 18 }
+				narrative_event = { id = hajj.96 days = 18 }
 			}
 			else_if = {
 				limit = {
 					trait = on_hajj2
 				}
-				narrative_event = { id = hajj.100 days = 7 }
+				narrative_event = { id = hajj.96 days = 7 }
 			}
 		}		
 	}	
 }
 
 narrative_event = {
-	id = hajj.100
+	id = hajj.96
 	title = EVTTITLE_HAJJ_HOME
 	desc = "EVTDESC86800"
 	picture = GFX_evt_bishop
