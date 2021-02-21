@@ -120,29 +120,3 @@ character_event = {
 		}
 	}
 }
-#character_event = {
-#	id = maintenance.4
-#	hide_window = yes
-#	is_triggered_only = yes
-#	
-#	trigger = {
-#		religion = ibadi
-#	}
-#	
-#	immediate = {
-#		if = {
-#			limit = { capital_scope = {region = custom_oman} }
-#			add_trait = wahbi
-#			remove_trait = nukkari
-#			remove_trait = azzabas
-#		}
-#		else_if = {
-#			limit = { capital_scope = {region = custom_north_africa} }
-#			random_list = {
-#				50 = {add_trait = nukkari}
-#				50 = {add_trait = azzabas}
-#			}
-#			remove_trait = wahbi
-#		}
-#	}
-#}

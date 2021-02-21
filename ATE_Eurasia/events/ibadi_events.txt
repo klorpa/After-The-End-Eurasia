@@ -3,7 +3,7 @@ namespace = ibadi
 character_event = { #Strong Imam 
 	id = ibadi.1
 	desc = EVTDESC_strong_imam
-	picture = GFX_nine_worthies
+	picture = GFX_muslim_prayer
 	border = GFX_event_normal_frame_religion
 	
 	only_independent = yes
@@ -45,7 +45,7 @@ character_event = { #Weak Imam
 		}
 		text = EVTDES2_weak_imam
 	}
-	picture = GFX_nine_worthies
+	picture = GFX_muslim_prayer
 	border = GFX_event_normal_frame_religion
 	
 	only_independent = yes
@@ -84,7 +84,7 @@ character_event = { #Weak Imam
 		trigger = {
 			NOT = { trait = qawi }
 		}
-		name = EVTOPTA_weak_imam
+		name = EVTOPTB_weak_imam
 		add_trait = thaif
 		prestige = 100
 		piety = 100
@@ -93,7 +93,7 @@ character_event = { #Weak Imam
 character_event = { #Imam loses Thaif
 	id = ibadi.3
 	desc = EVTDESC_lose_thaif
-	picture = GFX_nine_worthies
+	picture = GFX_muslim_prayer
 	border = GFX_event_normal_frame_religion
 	
 	only_independent = yes
@@ -129,7 +129,7 @@ character_event = { #Imam loses Thaif
 character_event = { #Incapable Imam
 	id = ibadi.4
 	desc = EVTDESC_incapable_imam
-	picture = GFX_nine_worthies
+	picture = GFX_muslim_departure
 	border = GFX_event_normal_frame_religion
 	
 	only_independent = yes
