@@ -1,41 +1,183 @@
 namespace = ibadi
 
-# character_event = { #Strong Imam 
-	# id = ibadi.1
-	# desc = EVTDESC_worthy_chevalier
-	# picture = GFX_nine_worthies
-	# border = GFX_event_normal_frame_religion
+character_event = { #Strong Imam 
+	id = ibadi.1
+	desc = EVTDESC_strong_imam
+	picture = GFX_nine_worthies
+	border = GFX_event_normal_frame_religion
 	
-	# only_playable = yes
-	# only_capable = yes
-	# prisoner = no
-	# min_age = 16
-	# religion = chevalier
+	only_independent = yes
+	only_capable = yes
+	prisoner = no
+	religion = ibadi
 
-	# trigger = {
-		# learning = 12
-		# martial = 15
-		# religion = ibadi
-		# NOR = {
-			# has_character_modifier = adulterer
-			# has_character_modifier = adultress
-			# has_character_modifier = incestuous_adulterer
-			# has_character_modifier = incestuous_adultress
-			# has_character_modifier = known_murderer
-			# has_character_modifier = uncivilized_dueler
+	trigger = {
+		learning = 12
+		martial = 12
+		religion = ibadi
+		NOT = { trait = qawi }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = EVTOPTA_strong_imam
+		add_trait = qawi
+		remove_trait = thaif
+		prestige = 100
+		piety = 100
+	}
+}
 
-		# }
-		# NOT = { trait = worthy_knight }
-	# }
+character_event = { #Weak Imam 
+	id = ibadi.2
+	desc = {
+		trigger = {
+			trait = qawi
+		}
+		text = EVTDES1_weak_imam
+	}
+	desc = {
+		trigger = {
+			NOT = { trait = qawi }
+		}
+		text = EVTDES2_weak_imam
+	}
+	picture = GFX_nine_worthies
+	border = GFX_event_normal_frame_religion
 	
-	# mean_time_to_happen = {
-		# months = 1
-	# }
+	only_independent = yes
+	only_capable = yes
+	prisoner = no
+	religion = ibadi
+
+	trigger = {
+		OR = {
+			learning = 10
+			martial = 10
+		}
+		NAND = {
+			learning = 12
+			martial = 12
+		}
+		religion = ibadi
+		NOT = { trait = thaif }
+	}
 	
-	# option = {
-		# name = EVTOPTA_worthy_chevalier
-		# add_trait = worthy_knight
-		# prestige = 100
-		# piety = 100
-	# }
-# }
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		trigger = {
+			trait = qawi
+		}
+		name = EVTOPTA_weak_imam
+		remove_trait = qawi
+		add_trait = thaif
+		prestige = -100
+		piety = -100
+	}
+	option = {
+		trigger = {
+			NOT = { trait = qawi }
+		}
+		name = EVTOPTA_weak_imam
+		add_trait = thaif
+		prestige = 100
+		piety = 100
+	}	
+}
+character_event = { #Imam loses Thaif
+	id = ibadi.3
+	desc = EVTDESC_lose_thaif
+	picture = GFX_nine_worthies
+	border = GFX_event_normal_frame_religion
+	
+	only_independent = yes
+	only_capable = yes
+	prisoner = no
+	religion = ibadi
+
+	trigger = {
+		NOR = {
+			learning = 10
+			martial = 10
+		}
+		OR = { 
+			trait = qawi
+			trait = thaif
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = EVTOPTA_lose_thaif
+		remove_trait = qawi
+		remove_trait = thaif
+		prestige = -100
+		piety = -100
+		
+	}
+}
+
+character_event = { #Incapable Imam
+	id = ibadi.4
+	desc = EVTDESC_incapable_imam
+	picture = GFX_nine_worthies
+	border = GFX_event_normal_frame_religion
+	
+	only_independent = yes
+	only_capable = yes
+	prisoner = no
+	religion = ibadi
+
+	trigger = {
+		NOR = {
+			learning = 10
+			martial = 10
+			trait = thaif
+			trait = qawi
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	immediate = {
+		current_heir = {
+			save_event_target_as = imam_heir
+		}
+		
+	}
+	
+	option = {
+		name = EVTOPTA_incapable_imam
+		if = { 
+			limit = { 
+				event_target:imam_heir = {
+					is_landed = no
+				}
+			}
+			capital_scope = {
+				gain_title = event_target:imam_heir
+			}
+		}
+		if = {
+			limit = { has_title = d_ibadi }
+			d_ibadi = {
+				gain_title = event_target:imam_heir
+			}
+		}
+
+		primary_title = {
+			gain_title = event_target:imam_heir
+		}
+	}
+}

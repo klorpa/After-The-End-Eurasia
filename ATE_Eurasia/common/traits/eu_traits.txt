@@ -862,8 +862,8 @@ sang_capetien = {
 	religious = yes
 }
 qawi = {
-	monthly_character_piety = 0.25
-	monthly_character_prestige = 0.25
+	monthly_character_piety = 0.50
+	monthly_character_prestige = 0.50
 	
 	religious = yes # Lost immediately on religion change
 	
@@ -883,8 +883,8 @@ qawi = {
 	random = no
 }
 thaif = {
-	monthly_character_piety = -0.25
-	monthly_character_prestige = -0.25
+	monthly_character_piety = 0.25
+	monthly_character_prestige = 0.25
 	
 	religious = yes # Lost immediately on religion change
 	
@@ -897,8 +897,7 @@ thaif = {
 	}
 	
 	opposite_opinion = -5
-	same_opinion = 10
-	ibadi_opinion = -50
+	ibadi_opinion = 5
 	
 	customizer = no
 	random = no

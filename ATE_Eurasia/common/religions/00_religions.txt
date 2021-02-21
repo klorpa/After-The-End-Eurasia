@@ -1871,7 +1871,7 @@ old_world_cultist_group = {
         }
 	}
 	
-	chronicler = { #This Is Not A Place Of Honor
+	chronicler = { 
 		graphical_culture = hellenicgfx
 
 		icon = 30
@@ -1946,7 +1946,7 @@ old_world_cultist_group = {
 		intermarry = neuhumanist
 		intermarry = jacobin
 	}
-	proletcult = { #placeholder
+	proletcult = { 
 		graphical_culture = hellenicgfx
 
 		icon = 19
@@ -1955,26 +1955,24 @@ old_world_cultist_group = {
 		color = { 0.6 0.0 0.2 }
 		interface_skin = { rust_cultist_interface hellenic_interface }
 
-		high_god_name = GOD_DADDY_MARX
+		high_god_name = GOD_THE_WILL
 
 		god_names = {
-			GOD_DADDY_MARX
+			GOD_THE_PEOPLE GOD_THE_WORKER GOD_THE_KOLKHOZNITSA
 		}
 		evil_god_names = {
-			THE_REACTIONARIES
+			GOD_THE_OLD GOD_THE_UNINVITED
 		}
-		crusade_name = PEOPLES_CRUSADE
-		scripture_name = THE_BOOK_OF_MARX
-		priest_title = BOLSHEVIK
+		scripture_name = THE_BOOK_OF_SAYINGS
+		priest_title = COMRADE
 		
-		can_call_crusade = yes
+		can_call_crusade = no
 		priests_can_marry = yes
 		priests_can_inherit = no
 		female_temple_holders = yes
 		allow_rivermovement = yes
 		can_grant_claim = yes
 		can_grant_divorce = yes
-		join_crusade_if_bordering_hostile = yes
 		
 		religious_clothing_head = 18
 		religious_clothing_priest = 18
