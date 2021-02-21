@@ -701,7 +701,7 @@ confederation_elective = {
 			}
 		}
 		additive_modifier = { # Spiritual culture prefers scholars
-			value = 15
+			value = 25
 			localisation_key = tooltip_feudal_elector_vote_spiritual_education
 			this_is_spiritual_culture_trigger = yes
 			FROM = { 
@@ -7710,8 +7710,6 @@ imamate_elective = {
 			NOR = {
 				has_religion_feature = religion_matriarchal
 				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_aria_de_machete
-				has_religion_feature = religion_feature_midewiwin
 				has_game_rule = {
 					name = gender
 					value = all
@@ -7730,8 +7728,6 @@ imamate_elective = {
 			NOR = {
 				has_religion_feature = religion_matriarchal
 				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_aria_de_machete
-				has_religion_feature = religion_feature_midewiwin
 				has_game_rule = {
 					name = gender
 					value = all
@@ -7750,8 +7746,6 @@ imamate_elective = {
 			NOR = {
 				has_religion_feature = religion_matriarchal
 				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_aria_de_machete
-				has_religion_feature = religion_feature_midewiwin
 				has_game_rule = {
 					name = gender
 					value = all
@@ -7770,8 +7764,6 @@ imamate_elective = {
 			NOR = {
 				has_religion_feature = religion_matriarchal
 				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_aria_de_machete
-				has_religion_feature = religion_feature_midewiwin
 				has_game_rule = {
 					name = gender
 					value = all
@@ -8213,7 +8205,31 @@ imamate_elective = {
 				has_weak_claim = FROMFROM
 			}
 		}
-
+		#Educational preferences
+		additive_modifier = { # Warrior culture prefers warriors
+			value = 40
+			localisation_key = tooltip_feudal_elector_vote_martial_education
+			this_is_warrior_culture_trigger = yes
+			FROM = { 
+				martial = 12
+				OR = { 
+					has_education_martial_trigger = yes 
+					has_lifestyle_martial_trigger = yes
+				} 
+			}
+		}
+		additive_modifier = { # Spiritual culture prefers scholars
+			value = 40
+			localisation_key = tooltip_feudal_elector_vote_spiritual_education
+			this_is_spiritual_culture_trigger = yes
+			FROM = { 
+				learning = 12
+				OR = { 
+					has_education_learning_trigger = yes 
+					has_lifestyle_learning_trigger = yes
+				} 
+			}
+		}
 
 		#All the Traits
 		additive_modifier = {
@@ -9696,15 +9712,6 @@ imamate_elective = {
 				OR = { 
 					trait = sympathy_christendom
 					trait = sympathy_judaism
-					trait = sympathy_afro_syncretic
-					trait = sympathy_american_native
-					trait = sympathy_amero_syncretic
-					trait = sympathy_pacific
-					trait = sympathy_oldworld
-					trait = sympathy_mesoamerican_gods
-					trait = sympathy_nautical
-					trait = sympathy_pagans
-					trait = sympathy_indian
 				}
 			}
 		}
@@ -9768,26 +9775,6 @@ imamate_elective = {
 					trait = is_fat
 					trait = shy
 				}
-			}
-		}
-		additive_modifier = { #Praised for being a Strong Imam
-			value = 50
-			localisation_key = tooltip_feudal_elector_vote_zealous_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			religion = FROM
-			NOT = { trait = thaif }
-			FROM = { 
-				trait = qawi
-			}
-		}
-		additive_modifier = { #Shunned for being a Weak Imam
-			value = -50
-			localisation_key = tooltip_feudal_elector_vote_zealous_negative
-			NOT = { character = FROM } #Do not judge yourself.
-			religion = FROM
-			NOT = { trait = qawi }
-			FROM = { 
-				trait = thaif
 			}
 		}
 
@@ -9871,7 +9858,13 @@ imamate_elective = {
 		additive_modifier = { #Praised for being a Strong Imam
 			value = 50
 			localisation_key = tooltip_feudal_elector_vote_zealous_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			FROM = { character = ROOT_FROMFROMFROM }
+			NOT = { character = FROM } #But not if it's me.
+			NOR = {
+				trait = lunatic #Don't care
+				trait = possessed #Don't care
+				trait = arbitrary #Don't care
+			}
 			religion = FROM
 			NOT = { trait = thaif }
 			FROMFROM = { 
@@ -9881,14 +9874,42 @@ imamate_elective = {
 			}
 		}
 		additive_modifier = { #Shunned for being a Weak Imam
-			value = -50
+			value = -25
 			localisation_key = tooltip_feudal_elector_vote_zealous_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			FROM = { character = ROOT_FROMFROMFROM }
+			NOT = { character = FROM } #But not if it's me.
+			NOR = {
+				trait = lunatic #Don't care
+				trait = possessed #Don't care
+				trait = arbitrary #Don't care
+			}
 			religion = FROM
 			NOT = { trait = qawi }
 			FROMFROM = { 
 				holder_scope = {
 					trait = thaif
+				} 
+			}
+		}
+		additive_modifier = { #Shunned for lacking either Imam Positions
+			value = -50
+			localisation_key = tooltip_feudal_elector_vote_zealous_negative
+			FROM = { character = ROOT_FROMFROMFROM }
+			NOT = { character = FROM } #But not if it's me.
+			NOR = {
+				trait = lunatic #Don't care
+				trait = possessed #Don't care
+				trait = arbitrary #Don't care
+			}
+			religion = FROM
+			NOT = { trait = qawi }
+			NOT = { trait = thaif }
+			FROMFROM = { 
+				holder_scope = {
+					OR = {
+						trait = qawi
+						trait = thaif
+					}
 				} 
 			}
 		}
