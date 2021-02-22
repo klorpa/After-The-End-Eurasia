@@ -153,84 +153,6 @@ character_event = { #claim the blood of the sun king
 			}
 		}
 	}
-	
-}
-character_event = { #claim the blood of the sun king
-	id = skc.3
-	desc = EVTDESC_claim_sun_blood_2
-	picture = GFX_evt_open_book_hf
-	border = GFX_event_normal_frame_religion
-
-	is_triggered_only = yes
-	
-	option = { #do it myself!
-		name = EVTOPTA_claim_sun_blood_2
-		random_list = {
-			80 = { add_trait = proud }
-			10 = { add_trait = diligent }
-			10 = { add_trait = erudite }
-		}
-		hidden_tooltip = {
-			random_list = {
-				10 = {
-					mult_modifier = {
-						factor = 3
-						OR = {
-							learning = 16
-							martial = 16
-						}
-					}
-					mult_modifier = {
-						factor = 3
-						trait = blessed_hands
-					}
-					mult_modifier = {
-						factor = 3
-						higher_real_tier_than = KING
-					}
-					character_event  = { id = skc.4	days = 30	random = 10 }
-				}
-				90 = {
-					character_event  = { id = skc.5	days = 30	random = 10 }
-				}
-			}
-		}
-	}
-	option = { 
-		name = EVTOPTB_claim_sun_blood_2
-		job_spiritual = {
-			opinion = {
-				modifier = opinion_loyal_servant
-				who = ROOT
-				years = 5
-			}
-		}
-		hidden_tooltip = {
-			random_list = {
-				10 = {
-					mult_modifier = {
-						factor = 4
-						job_spiritual = {
-							learning = 14
-						}
-					}
-					mult_modifier = {
-						factor = 3
-						trait = blessed_hands
-					}
-					mult_modifier = {
-						factor = 3
-						higher_real_tier_than = KING
-					}
-					character_event  = { id = skc.4	days = 30	random = 10 }
-				}
-				90 = {
-					character_event  = { id = skc.5	days = 30	random = 10 }
-				}
-			}
-		}
-	}
-	
 }
 character_event = { #claim the blood of the sun king
 	id = skc.4
@@ -1246,7 +1168,13 @@ character_event = { # Duel for the Damsel!
                 }
                 score_value = { #Prioritizes selecting some kind of warrior...
                     value = 100
-                    has_assigned_minor_title = { title = title_commander }
+					additive_modifier = {
+						value = 1000
+						OR = {
+							has_minor_title = title_commander
+							has_job_title = job_marshal
+						}
+					}
                 }
                 save_event_target_as = combatant_2
             }

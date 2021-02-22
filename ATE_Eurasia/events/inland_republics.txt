@@ -1,4 +1,5 @@
 namespace = inland
+
 character_event = {#adds a titular county
 	id = inland.1
 	picture = GFX_evt_powerful_ruler
@@ -118,7 +119,7 @@ character_event = {#removes the titular county
 	trigger = {
 		NOT = {government = playable_republic_government}
 		any_demesne_title = {has_title_flag = inland_patrician}
-		always = no#shit is bugged
+		always = no #shit is bugged
 	}
 	mean_time_to_happen = {
 		months = 6
