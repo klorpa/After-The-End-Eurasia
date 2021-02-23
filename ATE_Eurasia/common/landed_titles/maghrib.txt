@@ -44,17 +44,29 @@ e_maghrib = {
 				b_zaltun = {}
 				b_al_ajaylat = {}
 			}
+			c_nalut = {
+				color={ 152 198 125 }
+				color2={ 255 255 255 }
+				
+				b_nalut = {}
+				b_tiji = {}
+				b_al_jawsh = {}
+				b_al_khirabh = {}
+				b_al_majabrah = {}
+				b_sinawin = {}
+				b_fersta = {}
+			}
 			c_ghadamis = { # 1074
 				color={ 93 175 119 }
 				color2={ 255 255 255 }
 				
 				b_ghadamis = {}
-				b_nalut = {}
 				b_alala = {}
 				b_badr = {}
 				b_wazzin = {}
 				b_kabaw = {}
 				b_al_ghazaya = {}
+				b_debdeb = {}
 			}
 			c_jabal_al_gharbi = { # 1075
 				color={ 51 175 111 }
@@ -67,49 +79,6 @@ e_maghrib = {
 				b_kakalat = {}
 				b_jadu = {}
 				b_al_qawalish = {}
-			}
-		}
-		d_fezzan = {
-			color={ 178 64 93 }
-			color2={ 255 255 255 }
-			
-			capital = 1076 # c_sabha
-			
-			c_sabha = { # 1076
-				color={ 168 74 88 }
-				color2={ 255 255 255 }
-				
-				b_elena = {}
-				b_sabha = {}
-				b_ghadduwah = {}
-				b_al_hijarat = {}
-				b_jadid = {}
-				b_umm_al_ahrar = {}
-				b_al_nssria = {}
-			}
-			c_al_jufrah = { # 1078
-				color={ 168 50 30 }
-				color2={ 255 255 255 }
-				
-				b_hun = {}
-				b_waddan = {}
-				b_az_zallah = {}
-				b_sukanat = {}
-				b_al_faquha = {}
-				b_haruj = {}
-				b_garet_es_sebaa = {}
-			}
-			c_ashati = { # 1077
-				color={ 170 87 133 }
-				color2={ 255 255 255 }
-				
-				b_biraq = {}
-				b_adri = {}
-				b_qira = {}
-				b_az_zawia = {}
-				b_al_hashmi = {}
-				b_zalwaz = {}
-				b_tamzawa = {}
 			}
 		}
 		d_misratah = {
@@ -3507,7 +3476,7 @@ e_maghrib = {
 			}
 		}
 		d_sus_masa = {
-			color={ 244 229 176 }
+			color={ 234 199 176 }
 			color2={ 255 255 255 }
 			
 			capital = 1069 # c_aghadir
@@ -3565,6 +3534,224 @@ e_maghrib = {
 				b_tnine_aglou = {}
 				b_reggada = {}
 				b_arbaa_sahel = {}
+			}
+			c_laayoune = {
+				color={ 153 114 156 }
+				color2={ 255 255 255 }
+				
+				b_laayoune = {}
+				b_tantan = {}
+				b_tarfaya = {}
+				b_dora = {}
+				b_el_marsa = {}
+				b_tah = {}
+				b_el_ouatia = {}
+			}
+			c_tindouf = {
+				color={ 186 128 164 }
+				color2={ 255 255 255 }
+				
+				b_tindouf = {}
+				b_zag = {}
+				b_touizgui = {}
+				b_oum_el_assel = {}
+				b_al_mahbes = {}
+				b_al_farssia = {}
+				b_labouriat = {}
+			}
+		}
+	}
+	k_sahara = {
+		color={ 181 102 186 }
+		color2={ 255 255 255 }
+		
+		capital = 1076 # c_sabha
+
+		d_fezzan = {
+			color={ 178 64 93 }
+			color2={ 255 255 255 }
+			
+			capital = 1076 # c_sabha
+			
+			c_sabha = { # 1076
+				color={ 168 74 88 }
+				color2={ 255 255 255 }
+				
+				b_elena = {}
+				b_sabha = {}
+				b_ghadduwah = {}
+				b_al_hijarat = {}
+				b_jadid = {}
+				b_umm_al_ahrar = {}
+				b_al_nssria = {}
+			}
+			c_al_jufrah = { # 1078
+				color={ 168 50 30 }
+				color2={ 255 255 255 }
+				
+				b_hun = {}
+				b_waddan = {}
+				b_az_zallah = {}
+				b_sukanat = {}
+				b_al_faquha = {}
+				b_haruj = {}
+				b_garet_es_sebaa = {}
+			}
+			c_ashati = { # 1077
+				color={ 170 87 133 }
+				color2={ 255 255 255 }
+				
+				b_biraq = {}
+				b_adri = {}
+				b_qira = {}
+				b_az_zawia = {}
+				b_al_hashmi = {}
+				b_zalwaz = {}
+				b_tamzawa = {}
+			}
+			c_bechar = {
+				color={ 138 188 100 }
+				color2={ 255 255 255 }
+				
+				b_bechar = {}
+				b_ouled_khoudir = {}
+				b_beni_abbes = {}
+				b_kerzaz = {}
+				b_igli = {}
+				b_abadla = {}
+				b_taghit = {}
+			}
+			c_adrar = {
+				color={ 138 188 100 }
+				color2={ 255 255 255 }
+				
+				b_adrar = {}
+				b_charouine = {}
+				b_akabli = {}
+				b_ouled_ahmed = {}
+				b_tamentit = {}
+				b_timimoun = {}
+				b_aoulef = {}
+			}
+			c_ain_salah = {
+				color={ 138 188 100 }
+				color2={ 255 255 255 }
+				
+				b_ain_salah = {}
+				b_in_ghar = {}
+				b_igostene = {}
+				b_tiguentourine = {}
+				b_foggaret_ezzoua = {}
+				b_el_barka = {}
+				b_sahela_foukania = {}
+			}
+			c_el_menia = {
+				color={ 138 188 100 }
+				color2={ 255 255 255 }
+				
+				b_el_menia = {}
+				b_hassi_gara = {}
+				b_badriane = {}
+				b_hassi_toul = {}
+				b_garet_tin_bouzid = {}
+				b_bel_bachir = {}
+				b_belaid = {}
+			}
+			c_ghardaia = {
+				color={ 138 188 100 }
+				color2={ 255 255 255 }
+				
+				b_ghardaia = {}
+				b_hassi_fehal = {}
+				b_el_atteuf = {}
+				b_metlili = {}
+				b_el_guerrara = {}
+				b_zelfana = {}
+				b_berriane = {}
+			}
+			c_touggourt = {
+				color={ 138 188 100 }
+				color2={ 255 255 255 }
+				
+				b_touggourt = {}
+				b_sidi_slimane = {}
+				b_megarine = {}
+				b_tamacine = {}
+				b_blidet_amor = {}
+				b_nezla = {}
+				b_zaouia_el_abidia = {}
+			}
+			c_ouargla = {
+				color={ 138 188 100 }
+				color2={ 255 255 255 }
+				
+				b_ouargla = {}
+				b_hass_messaoud = {}
+				b_rouissat = {}
+				b_el_hadjira = {}
+				b_hassi_ben_abdellah = {}
+				b_ngoussa = {}
+				b_ain_beida = {}
+			}
+			c_bordj_omar_driss = {
+				color={ 138 188 100 }
+				color2={ 255 255 255 }
+				
+				b_bordj_omar_driss = {}
+				b_hassi_bel_guebour = {}
+				b_zaouia_sidi_moussa = {}
+				b_dayen = {}
+				b_tit = {}
+				b_rhoud_ennous = {}
+				b_hassi_tamenkort = {}
+			}
+			c_illizi = {
+				color={ 138 188 100 }
+				color2={ 255 255 255 }
+				
+				b_illizi = {}
+				b_in_amenas = {}
+				b_zerzaitine = {}
+				b_polignac = {}
+				b_edjeleh = {}
+				b_sidi_bouslah = {}
+				b_takebalt = {}
+			}
+			c_tamanrasset = {
+				color={ 138 188 100 }
+				color2={ 255 255 255 }
+				
+				b_tamanrasset = {}
+				b_tahifet = {}
+				b_abalessa = {}
+				b_idles = {}
+				b_tazrouk = {}
+				b_hirhafok = {}
+				b_in_amguel = {}
+			}
+			c_djanet = {
+				color={ 138 188 100 }
+				color2={ 255 255 255 }
+				
+				b_djanet = {}
+				b_bordj_el_haouas = {}
+				b_tamdjert = {}
+				b_eferi = {}
+				b_azelouaz = {}
+				b_zferi = {}
+				b_tabakat = {}
+			}
+			c_ghat = {
+				color={ 138 188 100 }
+				color2={ 255 255 255 }
+				
+				b_ghat = {}
+				b_al_gurayfah = {}
+				b_al_birkah = {}
+				b_alawenat = {}
+				b_awbari = {}
+				b_al_hatiyah = {}
+				b_burik = {}
 			}
 		}
 	}
