@@ -489,7 +489,7 @@ character_event = {
 			prestige = 100
 			piety = 100
 			neuhumanist_opinion = 10
-			remove_character_flag = philosophizing_results_excellent
+			clr_character_flag = philosophizing_results_excellent
 			add_character_modifier = {name = philosophic_work_done months = 24}
 		}
 		
@@ -501,7 +501,7 @@ character_event = {
 			prestige = 50
 			piety = 50
 			neuhumanist_opinion = 5
-			remove_character_flag = philosophizing_results_good
+			clr_character_flag = philosophizing_results_good
 			add_character_modifier = {name = philosophic_work_done months = 24}
 		}
 		
@@ -512,7 +512,7 @@ character_event = {
 			name = OPT_there_is_much_to_learn
 			prestige = 25
 			piety = 25
-			remove_character_flag = philosophizing_results_acceptable
+			clr_character_flag = philosophizing_results_acceptable
 			add_character_modifier = {name = philosophic_work_done months = 24}
 		}
 		
@@ -524,7 +524,7 @@ character_event = {
 			prestige = -25
 			piety = -25
 			neuhumanist_opinion = -10
-			remove_character_flag = philosophizing_results_bad
+			clr_character_flag = philosophizing_results_bad
 			add_character_modifier = {name = philosophic_work_done months = 24}
 		}
 	}

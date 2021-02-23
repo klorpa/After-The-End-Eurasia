@@ -104,7 +104,7 @@ narrative_event = {
 	option = {
 		name = EVTOPT_inform_haredi_rabbi
 		job_spiritual = {
-			add_character_flag = invited_to_tish
+			set_character_flag = invited_to_tish
 		}
 		character_event = { id = jewish.11 days = 2 }
 	}
@@ -760,7 +760,7 @@ character_event = { #training to read Torah
 							}
 						}
 					}
-				set_charcter_flag = torah_failure
+				set_character_flag = torah_failure
 				}
 			}
 		}
@@ -877,7 +877,7 @@ character_event = { #training to read Torah
 							}
 						}
 					}
-				set_charcter_flag = torah_failure
+				set_character_flag = torah_failure
 				}
 			}
 		}
