@@ -468,6 +468,70 @@ pagan_group = {
 		intermarry = orthodox
 		
 	}
+	khanist_reformed = {
+		graphical_culture = norsegfx
+
+		icon = 15
+		heresy_icon = 15
+		
+		color = { 190 200 050 }
+
+		high_god_name = GOD_CHINGGIS
+
+		god_names = {
+			GOD_THE_KHANS GOD_TEMUJIN GOD_KUBLAI GOD_HELUGU GOD_MONGKE
+		}
+		evil_god_names = {
+			GOD_ZHU GOD_HAN GOD_MING GOD_SONG GOD_YAMATO
+		}
+		
+		scripture_name = THE_LEGENDS
+		priest_title = SHAMAN
+		priests_can_marry = yes
+		
+		
+		allow_looting = yes 
+		allow_rivermovement = yes 
+		max_consorts = 3 
+		allow_in_ruler_designer = no
+		can_demand_religious_conversion = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+	}
+	khanist = {
+		graphical_culture = norsegfx
+
+		icon = 15
+		heresy_icon = 15
+		
+		color = { 190 200 050 }
+
+		high_god_name = GOD_KUGO_JUMA
+
+		god_names = {
+			GOD_MASTORAVA GOD_SHUNDY_MUMY GOD_TYLZE GOD_UZHARA GOD_KWAZ GOD_KEREMET
+		}
+		evil_god_names = {
+			GOD_KEREMET
+		}
+		
+		scripture_name = THE_LEGENDS
+		priest_title = SHAMAN
+		priests_can_marry = yes
+		reformed = khanist_reformed
+		
+		
+		allow_looting = yes 
+		allow_rivermovement = yes 
+		max_consorts = 3 
+		can_demand_religious_conversion = no
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+	}
 }
 	
 christian = {
@@ -1597,6 +1661,34 @@ muslim = {
 		heresy_icon = 18
 		
 		color = { 80 200 120 }
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+		crusade_name = JIHAD
+		uses_decadence = no
+		max_wives = 4
+		can_call_crusade = yes
+		can_grant_invasion_cb = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+	}
+	hui = {
+		graphical_culture = muslimgfx
+		
+		icon = 13
+		heresy_icon = 18
+		
+		color = { 192 192 192 }
 		
 		high_god_name = GOD_ALLAH
 		
