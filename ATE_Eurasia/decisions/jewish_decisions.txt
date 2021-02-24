@@ -245,7 +245,15 @@ decisions = {
 			# }
 			# NOR = { 
 				# trait = incapable
+				# trait 
 				# is_inaccessible_trigger = yes
+				# AND = {
+					# OR= {
+						# religion = haredi
+						# religion = ivri
+					# }
+					# is_female = yes
+				# }
 			# }
 			# war = no
 			# prisoner = no
