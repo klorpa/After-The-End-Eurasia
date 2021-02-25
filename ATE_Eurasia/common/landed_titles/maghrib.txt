@@ -3535,66 +3535,6 @@ e_maghrib = {
 				b_reggada = {}
 				b_arbaa_sahel = {}
 			}
-			c_laayoune = {
-				color={ 153 114 156 }
-				color2={ 255 255 255 }
-				
-				b_laayoune = {}
-				b_tantan = {}
-				b_tarfaya = {}
-				b_dora = {}
-				b_el_marsa = {}
-				b_tah = {}
-				b_el_ouatia = {}
-			}
-			c_tindouf = {
-				color={ 186 128 164 }
-				color2={ 255 255 255 }
-				
-				b_tindouf = {}
-				b_zag = {}
-				b_touizgui = {}
-				b_oum_el_assel = {}
-				b_al_mahbes = {}
-				b_al_farssia = {}
-				b_labouriat = {}
-			}
-			c_tifariti = {
-				color={ 186 128 164 }
-				color2={ 255 255 255 }
-				
-				b_tifariti = {}
-				b_bir_lehlou = {}
-				b_ain_ben_tili = {}
-				b_bir_moghrein = {}
-				b_guelta_zemmur = {}
-				b_bir_tigissit = {}
-				b_samara_2 = {}
-			}
-			c_zouerat = {
-				color={ 186 128 164 }
-				color2={ 255 255 255 }
-				
-				b_zouerat = {}
-				b_fderick = {}
-				b_mijek = {}
-				b_agounit = {}
-				b_choum = {}
-				b_oum_dreyga = {}
-				b_mhaoudat = {}
-			}
-			c_dakhla = {
-				color={ 186 128 164 }
-				color2={ 255 255 255 }
-				
-				b_dakhla = {}
-				b_ntireft = {}
-				b_el_argoub = {}
-				b_imlili = {}
-				b_awsard = {}
-				b_bir_anzerane = {}
-				b_peche_de_lassarga = {}
-			}
 		}
 	}
 	k_sahara = {
@@ -3604,7 +3544,7 @@ e_maghrib = {
 		capital = 1076 # c_sabha
 
 		d_fezzan = {
-			color={ 178 64 93 }
+			color={ 178 64 113 }
 			color2={ 255 255 255 }
 			
 			capital = 1076 # c_sabha
@@ -3658,7 +3598,7 @@ e_maghrib = {
 				b_tamzawa = {}
 			}
 			c_ghat = {
-				color={ 138 188 100 }
+				color={ 201 98 89 }
 				color2={ 255 255 255 }
 				
 				b_ghat = {}
@@ -3671,13 +3611,13 @@ e_maghrib = {
 			}
 		}
 		d_adrar = {
-			color={ 180 112 124 }
+			color={ 180 132 124 }
 			color2={ 255 255 255 }
 			
 			capital = 2526 # Adrar
 			
 			c_adrar = {
-				color={ 138 188 100 }
+				color={ 201 154 121 }
 				color2={ 255 255 255 }
 				
 				b_adrar = {}
@@ -3689,7 +3629,7 @@ e_maghrib = {
 				b_aoulef = {}
 			}
 			c_ain_salah = {
-				color={ 138 188 100 }
+				color={ 199 132 152 }
 				color2={ 255 255 255 }
 				
 				b_ain_salah = {}
@@ -3702,13 +3642,13 @@ e_maghrib = {
 			}
 		}
 		d_bechar = {
-			color={ 206 141 132 }
+			color={ 206 173 132 }
 			color2={ 255 255 255 }
 			
 			capital = 2525 # Bechar
 			
 			c_bechar = {
-				color={ 138 188 100 }
+				color={ 241 159 113 }
 				color2={ 255 255 255 }
 				
 				b_bechar = {}
@@ -3719,8 +3659,20 @@ e_maghrib = {
 				b_ksiksou = {}
 				b_benzireg = {}
 			}
+			c_tindouf = {
+				color={ 185 154 169 }
+				color2={ 255 255 255 }
+				
+				b_tindouf = {}
+				b_zag = {}
+				b_touizgui = {}
+				b_oum_el_assel = {}
+				b_al_mahbes = {}
+				b_al_farssia = {}
+				b_labouriat = {}
+			}
 			c_el_ouata = {
-				color={ 138 188 100 }
+				color={ 203 176 159 }
 				color2={ 255 255 255 }
 				
 				b_el_ouata = {}
@@ -3732,6 +3684,61 @@ e_maghrib = {
 				b_kerzaz = {}
 			}
 		}
+		d_as_sahra_al_gharbiah = {
+			color={ 221 132 125 }
+			color2={ 255 255 255 }
+			
+			capital = 2524 # Laayoune
+				
+			c_laayoune = {
+				color={ 153 114 156 }
+				color2={ 255 255 255 }
+				
+				b_laayoune = {}
+				b_tantan = {}
+				b_tarfaya = {}
+				b_dora = {}
+				b_el_marsa = {}
+				b_tah = {}
+				b_el_ouatia = {}
+			}
+			c_tifariti = {
+				color={ 195 146 198 }
+				color2={ 255 255 255 }
+				
+				b_tifariti = {}
+				b_bir_lehlou = {}
+				b_ain_ben_tili = {}
+				b_bir_moghrein = {}
+				b_guelta_zemmur = {}
+				b_bir_tigissit = {}
+				b_samara_2 = {}
+			}
+			c_zouerat = {
+				color={ 201 132 175 }
+				color2={ 255 255 255 }
+				
+				b_zouerat = {}
+				b_fderick = {}
+				b_mijek = {}
+				b_agounit = {}
+				b_choum = {}
+				b_oum_dreyga = {}
+				b_mhaoudat = {}
+			}
+			c_dakhla = {
+				color={ 209 176 193 }
+				color2={ 255 255 255 }
+				
+				b_dakhla = {}
+				b_ntireft = {}
+				b_el_argoub = {}
+				b_imlili = {}
+				b_awsard = {}
+				b_bir_anzerane = {}
+				b_peche_de_lassarga = {}
+			}
+		}
 		d_ghardaia = {
 			color={ 154 59 142 }
 			color2={ 255 255 255 }
@@ -3739,7 +3746,7 @@ e_maghrib = {
 			capital = 2522 # Ghardaia
 			
 			c_ghardaia = {
-				color={ 138 188 100 }
+				color={ 156 95 132 }
 				color2={ 255 255 255 }
 				
 				b_ghardaia = {}
@@ -3751,7 +3758,7 @@ e_maghrib = {
 				b_berriane = {}
 			}
 			c_el_menia = {
-				color={ 138 188 100 }
+				color={ 135 52 101 }
 				color2={ 255 255 255 }
 				
 				b_el_menia = {}
@@ -3763,7 +3770,7 @@ e_maghrib = {
 				b_belaid = {}
 			}
 			c_touggourt = {
-				color={ 138 188 100 }
+				color={ 176 101 135 }
 				color2={ 255 255 255 }
 				
 				b_touggourt = {}
@@ -3775,7 +3782,7 @@ e_maghrib = {
 				b_zaouia_el_abidia = {}
 			}
 			c_ouargla = {
-				color={ 138 188 100 }
+				color={ 112 51 131 }
 				color2={ 255 255 255 }
 				
 				b_ouargla = {}
@@ -3794,7 +3801,7 @@ e_maghrib = {
 			capital = 2535 # Illizi
 			
 			c_illizi = {
-				color={ 138 188 100 }
+				color={ 159 105 101 }
 				color2={ 255 255 255 }
 				
 				b_illizi = {}
@@ -3806,7 +3813,7 @@ e_maghrib = {
 				b_takebalt = {}
 			}
 			c_bordj_omar_driss = {
-				color={ 138 188 100 }
+				color={ 176 64 69 }
 				color2={ 255 255 255 }
 				
 				b_bordj_omar_driss = {}
@@ -3818,7 +3825,7 @@ e_maghrib = {
 				b_hassi_tamenkort = {}
 			}
 			c_tamanrasset = {
-				color={ 138 188 100 }
+				color={ 125 89 82 }
 				color2={ 255 255 255 }
 				
 				b_tamanrasset = {}
@@ -3830,7 +3837,7 @@ e_maghrib = {
 				b_in_amguel = {}
 			}
 			c_djanet = {
-				color={ 138 188 100 }
+				color={ 139 51 55 }
 				color2={ 255 255 255 }
 				
 				b_djanet = {}

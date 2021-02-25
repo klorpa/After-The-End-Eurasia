@@ -695,7 +695,7 @@ e_siberia = {
 				b_proskokovo = {}
 			}
 			c_bely_yar = {
-				color={ 113 199 198 }
+				color={ 83 189 188 }
 				color2={ 255 255 255 }
 				
 				b_bely_yar = {}
@@ -799,18 +799,6 @@ e_siberia = {
 				b_atamanovo = {}
 				b_balakhta = {}
 			}
-			c_lesosibirsk = {
-				color={ 184 70 98 }
-				color2={ 255 255 255 }
-				
-				b_lesosibirsk = {}
-				b_yeniseysk = {}
-				b_kazachinskoye = {}
-				b_galanino = {}
-				b_novokargino = {}
-				b_strelka = {}
-				b_gorodishche_2 = {}
-			}
 			c_achinsk = {
 				color={ 176 119 83 }
 				color2={ 255 255 255 }
@@ -824,7 +812,7 @@ e_siberia = {
 				b_kozulka = {}
 			}
 			c_kansk = {
-				color={ 141 75 46 }
+				color={ 191 135 126 }
 				color2={ 255 255 255 }
 				
 				b_kansk = {}
@@ -846,6 +834,50 @@ e_siberia = {
 				b_shalinskoye = {}
 				b_sayanskii = {}
 				b_aginskoye = {}
+			}
+		}
+		
+		d_yeniseysky = {
+			color={ 205 78 88 }
+			color2={ 255 255 255 }
+		
+			capital = 1093 #Lesosibirsk
+		
+			c_yeniseysky = {
+				color={ 243 100 123 }
+				color2={ 255 255 255 }
+				
+				b_selo_yartsevo = {}
+				b_vorogovo = {}
+				b_nazimovo = {}
+				b_krivlyak = {}
+				b_nizhneshadrino = {}
+				b_mayskoye = {}
+				b_nikulino = {}
+			}
+			c_lesosibirsk = {
+				color={ 184 70 98 }
+				color2={ 255 255 255 }
+				
+				b_lesosibirsk = {}
+				b_yeniseysk = {}
+				b_kazachinskoye = {}
+				b_galanino = {}
+				b_novokargino = {}
+				b_strelka = {}
+				b_gorodishche_2 = {}
+			}
+			c_boguchany = {
+				color={ 195 120 101 }
+				color2={ 255 255 255 }
+				
+				b_boguchany = {}
+				b_kezhma = {}
+				b_kamenka_2 = {}
+				b_tayezhnyy = {}
+				b_kodinsk = {}
+				b_angarskiy = {}
+				b_pinchuga = {}
 			}
 		}
 		d_khakassia = {
@@ -879,7 +911,7 @@ e_siberia = {
 				b_karatuzskoye = {}
 			}
 		}
-		d_yeniseysky = {
+		d_norilsk = {
 			color={ 206 96 151 }
 			color2={ 255 255 255 }
 		
@@ -897,18 +929,6 @@ e_siberia = {
 				b_alykel = {}
 				b_talnakh = {}
 			}
-			c_yeniseysky = {
-				color={ 243 100 123 }
-				color2={ 255 255 255 }
-				
-				b_selo_yartsevo = {}
-				b_vorogovo = {}
-				b_nazimovo = {}
-				b_krivlyak = {}
-				b_nizhneshadrino = {}
-				b_mayskoye = {}
-				b_nikulino = {}
-			}
 			c_bakhta = {
 				color={ 211 58 115 }
 				color2={ 255 255 255 }
@@ -922,7 +942,7 @@ e_siberia = {
 				b_vereshchagino = {}
 			}
 			c_turukhansk = {
-				color={ 203 139 158 }
+				color={ 203 109 148 }
 				color2={ 255 255 255 }
 				
 				b_turukhansk = {}
@@ -946,7 +966,7 @@ e_siberia = {
 				b_totydeottato = {}
 			}
 			c_yeniseyskiy_zaliv = {
-				color={ 179 128 105 }
+				color={ 189 128 105 }
 				color2={ 255 255 255 }
 				
 				b_karaul = {}
@@ -1006,6 +1026,18 @@ e_siberia = {
 				b_kuitun = {}
 				b_tyret = {}
 				b_kutulik = {}
+			}
+			c_ulan_ude = {
+				color={ 189 185 209 }
+				color2={ 255 255 255 }
+				
+				b_ulan_ude = {}
+				b_selenginsk = {}
+				b_tarbagatay = {}
+				b_onokhoi = {}
+				b_kamensk = {}
+				b_zaigraevo = {}
+				b_turuntayevo = {}
 			}
 		}
 		d_bratsk = {
@@ -1074,6 +1106,61 @@ e_siberia = {
 				b_markovo = {}
 				b_zvezdnyi = {}
 				b_ruchey = {}
+			}
+		}
+		d_baikal = {
+			color={ 212 217 245 }
+			color2={ 255 255 255 }
+		
+			capital = 1201 #Barguzin
+		
+			c_barguzin = {
+				color={ 195 186 202 }
+				color2={ 255 255 255 }
+				
+				b_barguzin = {}
+				b_kurumkan = {}
+				b_ust_barguzin = {}
+				b_baragkhan = {}
+				b_ulyun = {}
+				b_uro = {}
+				b_alla = {}
+			}
+			c_severobaykalsk = {
+				color={ 246 216 246 }
+				color2={ 255 255 255 }
+				
+				b_severobaykalsk = {}
+				b_severomuysk = {}
+				b_nizhneangarsk = {}
+				b_kichera = {}
+				b_novy_uoyan = {}
+				b_kumora = {}
+				b_kunerminskoye = {}
+			}
+			c_muya = {
+				color={ 216 193 234 }
+				color2={ 255 255 255 }
+				
+				b_ust_muya = {}
+				b_taksimo = {}
+				b_chara = {}
+				b_kuanda = {}
+				b_vitim = {}
+				b_muya = {}
+				b_novaya_chara = {}
+			}
+			c_bauntovsky = {
+				color={ 222 236 221 }
+				color2={ 255 255 255 }
+				
+				b_bagdarin = {}
+				b_malovskiy = {}
+				b_kurort_baunt = {}
+				b_uakit = {}
+				b_baunt = {}
+				b_rossoshino = {}
+				b_bugunda = {}
 			}
 		}
 	}

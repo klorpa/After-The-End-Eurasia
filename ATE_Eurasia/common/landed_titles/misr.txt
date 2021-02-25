@@ -103,30 +103,6 @@ e_misr = {
 				b_masliwa = {}
 				b_sultan = {}
 			}
-			c_jalu = {
-				color={ 82 16 164 }
-				color2={ 255 255 255 }
-				
-				b_jalu = {}
-				b_al_sawani = {}
-				b_jowfe = {}
-				b_awjilah = {}
-				b_jakharrah = {}
-				b_jakharrad = {}
-				b_messla = {}
-			}
-			c_kufra = {
-				color={ 52 124 98 }
-				color2={ 255 255 255 }
-				
-				b_al_jawf = {}
-				b_buzaymah = {}
-				b_tazirbu = {}
-				b_at_tallab = {}
-				b_rabyanah = {}
-				b_al_kufrah = {}
-				b_harat_zuwayyah = {}
-			}
 			c_darnah = { # 1085
 				color={ 71 91 170 }
 				color2={ 255 255 255 }
@@ -150,6 +126,37 @@ e_misr = {
 				b_susat = {}
 				b_tilamaytat = {}
 				b_al_faidiyah = {}
+			}
+		}
+		d_kufra = {
+			color={ 125 149 194 }
+			color2={ 255 255 255 }
+			
+			capital = 2546 # Kufra
+			
+			c_jalu = {
+				color={ 82 156 164 }
+				color2={ 255 255 255 }
+				
+				b_jalu = {}
+				b_al_sawani = {}
+				b_jowfe = {}
+				b_awjilah = {}
+				b_jakharrah = {}
+				b_jakharrad = {}
+				b_messla = {}
+			}
+			c_kufra = {
+				color={ 52 124 198 }
+				color2={ 255 255 255 }
+				
+				b_al_jawf = {}
+				b_buzaymah = {}
+				b_tazirbu = {}
+				b_at_tallab = {}
+				b_rabyanah = {}
+				b_al_kufrah = {}
+				b_harat_zuwayyah = {}
 			}
 		}
 		d_al_bahr_al_ahmar = {
