@@ -148,7 +148,7 @@
 3600007 = {
 	name = "Tikvah"
 	culture = black
-	religion = calvinist
+	religion = sabra
 	female = yes
 	martial = 6
 	stewardship = 4
@@ -319,9 +319,11 @@
 }
 3600017 = {
 	name = "Musa"
-	dynasty = 1824002 #Halabi
+	dynasty = 1824080 #Abdi
 	culture = filastini
 	religion = ruhi
+	father = 3600069
+	mother = 3600070
 	martial=3
 	diplomacy=7
 	stewardship=7
@@ -329,6 +331,7 @@
 	learning=5
 	trait = naive_appeaser
 	trait = gregarious
+	trait = poet #ideally would be artist
 	2640.11.2 = { birth=yes }
 	#married/betrothed to prominent egyptian family
 }
@@ -1224,6 +1227,59 @@
 	trait = charitable
 	2620.11.2 = { birth = yes }
 }
+3600069 = {
+	name = "Abed"
+	dynasty = 1824080 #Abdi
+	culture = filastini
+	religion = ruhi
+	martial=3
+	diplomacy=7
+	stewardship=7
+	intrigue=3
+	learning=5
+	trait = naive_appeaser
+	trait = gregarious
+	trait = poet #ideally would be artist
+	2615.11.2 = { birth=yes }
+	2636.11.2 = {
+		add_spouse = 3600070
+	}
+	2660.11.2 = { death = yes }
+}
+3600070 = {
+	name = "Rula"
+	culture = filastini
+	religion = ruhi
+	female = yes
+	martial=3
+	diplomacy=7
+	stewardship=7
+	intrigue=3
+	learning=5
+	trait = naive_appeaser
+	2618.11.2 = { birth=yes }
+}
+3600071 = {
+	name = "Edward"
+	dynasty = 1824012 #Said
+	culture = filastini
+	religion = high_church
+	martial=3
+	diplomacy=7
+	stewardship=7
+	intrigue=3
+	learning=5
+	trait = grey_eminence
+	trait = scholar
+	trait = gregarious
+	trait = musician
+	trait = just
+	2640.11.2 = { birth=yes }
+	2665.1.1 = {
+		employer = 3600025
+	}
+}
+
 
 ################################Jordan Characters################################
 
@@ -1704,7 +1760,7 @@
 	trait = sympathy_islamosyncretic
 	trait = sympathy_christendom
 	2618.1.1 = { birth = yes }
-	2640.1.1 = {
+	2665.1.1 = {
 		employer = 3601000
 	}
 }
