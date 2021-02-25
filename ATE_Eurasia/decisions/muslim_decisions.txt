@@ -8,9 +8,11 @@ decisions = {
 			religion_group = muslim
 			NOT = { trait = zair }
 			NOT = { trait = on_ziyara }
+			NOT = { trait = on_hajj }
 			NOT = {	has_character_flag = preparing_ziyara }
 			NOT = {	has_character_flag = ramadan }
 			NOT = {	has_character_flag = activated_ziyara }	
+			NOT = {	has_character_flag = preparing_hajj_mecca }
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
@@ -86,8 +88,10 @@ decisions = {
 			is_playable = yes
 			religion_group = muslim
 			NOT = { trait = on_hajj }
+			NOT = { trait = on_ziyara }
 			NOT = { trait = hajjaj }
-			NOT = {	has_character_flag = preparing_hajj_mecca }
+			NOT = {	has_character_flag = preparing_ziyara }	
+			NOT = {	has_character_flag = activated_hajj_mecca }
 			NOT = {	has_character_flag = ramadan }
 			NOT = {	has_character_flag = preparing_hajj_mecca }
 			NOT = {

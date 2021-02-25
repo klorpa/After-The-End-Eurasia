@@ -1673,7 +1673,20 @@
 1824003 = { name="Al-Issa" culture=filastini religion = orthodox }
 1824004 = { name="Al-Khalidi" culture=filastini }
 1824005 = { name="Al-Shuqayri" culture=filastini }
-1824006 = { name="Nusaybah" culture=filastini }
+1824006 = { name="Nusaybah" culture=filastini 
+	coat_of_arms = { 
+		religion=sunni
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1824007 = { name="Tuqan" culture=filastini }
 1824008 = { name="Barghouti" culture=filastini }
 1824009 = { name="Tamimi" culture=filastini }
@@ -1769,7 +1782,20 @@
 1824085 = { name="Nasrallah" culture=filastini }
 
 1825000 = { name="al-Huwaytat" culture=badawi }
-1825001 = { name="al-Dulaymi" culture=badawi }
+1825001 = { name="al-Dulaymi" culture=badawi 
+	coat_of_arms = { 
+		religion=sunni
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 1848000 = { name="Klein" culture=rhenish}
 1848001 = { name="Geyer" culture=rhenish
@@ -5379,7 +5405,19 @@
 2007222 = { name="Zidane" culture=provencal }
 2007223 = { name="Gubernatis" culture=provencal }
 2007224 = { name="Borsalino" culture=provencal }
-2007225 = { name="Pagnol" culture=provencal }
+2007225 = { name="Pagnol" culture=provencal 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2007226 = { name="de Salvemec" culture=provencal }
 2007227 = { name="Foussard" culture=provencal }
 2007228 = { name="Bertani" culture=provencal }
@@ -10337,19 +10375,7 @@
 2028144 = { name="Senatore" culture=neapolitan }
 2028145 = { name="Landi" culture=neapolitan }
 2028146 = { name="Apicella" culture=neapolitan }
-2028147 = { name="Grimaldi" culture=neapolitan
-	coat_of_arms = { 
-		template = 0
-		layer = {
-			texture = 19
-			texture_internal = 7
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
-}
+2028147 = { name="Grimaldi" culture=neapolitan }
 2028148 = { name="Lamberti" culture=neapolitan }
 2028149 = { name="Amato" culture=neapolitan }
 2028150 = { name="Pagano" culture=neapolitan }
@@ -11682,7 +11708,19 @@
 2033223 = { name="Carboni" culture=ligurian }
 2033224 = { name="Giuffra" culture=ligurian }
 2033225 = { name="Rovegno" culture=ligurian }
-2033226 = { name="Grimaldi" culture=ligurian }
+2033226 = { name="Grimaldi" culture=ligurian 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2033227 = { name="da Varazze" culture=ligurian used_for_random = no}
 2033228 = { name="Delle Piane" culture=ligurian used_for_random = no}
 
@@ -12842,7 +12880,19 @@
 2038217 = { name="Zaouche" culture=francarabe }
 2038218 = { name="Zarrouk" culture=francarabe }
 2038219 = { name="Zribi" culture=francarabe }
-2038220 = { name="Fekir" culture=francarabe used_for_random = no }
+2038220 = { name="Fekir" culture=francarabe
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2038221 = { name="Boukhiam" culture=francarabe }
 2038222 = { name="Cheiki" culture=francarabe }
 2038223 = { name="Sekkoumi" culture=francarabe used_for_random = no }
@@ -15372,7 +15422,20 @@
 2064047 = { name="Shapikhala" culture=dargin}
 
 2065000 = { name="Arap" culture=turcoman}
-2065001 = { name="Turkmehmet" culture=turcoman}
+2065001 = { name="Turkmehmet" culture=turcoman
+	coat_of_arms = { 
+		religion=sunni
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2065002 = { name="Felekoglu" culture=turcoman}
 
 
@@ -15398,12 +15461,51 @@
 2066019 = { name="Ehmed" culture=kurdish }
 2066020 = { name="Yahia" culture=kurdish }
 2066021 = { name="Mirkan" culture=kurdish }
-2066022 = { name="Hajo" culture=kurdish }
+2066022 = { name="Hajo" culture=kurdish 
+	coat_of_arms = { 
+		religion=sunni
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2066023 = { name="Mihemed" culture=kurdish }
-2066024 = { name="Sa'id" culture=kurdish	religion = yazidi }
+2066024 = { name="Sa'id" culture=kurdish	
+	coat_of_arms = { 
+		religion=yazidi
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2066025 = { name="Taha" culture=kurdish }
 2066026 = { name="Al-Hubbi" culture=kurdish	religion = yazidi }
-2066027 = { name="Barzani" culture=kurdish	}
+2066027 = { name="Barzani" culture=kurdish	
+	coat_of_arms = { 
+		religion=sunni
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2066028 = { name="Talabani" culture=kurdish	}
 
 2067000 = { name="Beel" culture=limburgish }
@@ -16077,12 +16179,90 @@
 2102059 = { name="Vatnhamar" culture=faroese }
 2102060 = { name="Arge" culture=faroese }
 
-2103000 = { name="Al-Asaad" culture=suriyi }
-2103001 = { name="Qabbani" culture=suriyi }
-2103002 = { name="Ujayli'" culture=suriyi }
-2103003 = { name="Jandali" culture=suriyi }
-2103004 = { name="Faris" culture=suriyi }
-2103005 = { name="Al-Assad" culture=suriyi }
+2103000 = { name="Al-Asaad" culture=suriyi 
+	coat_of_arms = { 
+		religion=sunni
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2103001 = { name="Qabbani" culture=suriyi 
+	coat_of_arms = { 
+		religion=sunni
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2103002 = { name="Ujayli'" culture=suriyi
+	coat_of_arms = { 
+		religion=sunni
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2103003 = { name="Jandali" culture=suriyi 
+	coat_of_arms = { 
+		religion=sunni
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2103004 = { name="Faris" culture=suriyi 
+	coat_of_arms = { 
+		religion=sunni
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2103005 = { name="Al-Assad" culture=suriyi 
+	coat_of_arms = { 
+		religion=sunni
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2103006 = { name="Sahyouni" culture=suriyi }
 2103007 = { name="Al-Nuri" culture=suriyi }
 2103008 = { name="Al-Suwar" culture=suriyi }
@@ -16098,16 +16278,54 @@
 
 2104000 = { name="Yonadam" culture=assyrian }
 2104001 = { name="Agassi" culture=assyrian }
-2104002 = { name="Malek" culture=assyrian }
+2104002 = { name="Malek" culture=assyrian 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 22
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2104003 = { name="Tamraz" culture=assyrian }
 
-2105000 = { name="Jibran" culture=lebneni }
+2105000 = { name="Jibran" culture=lebneni 
+	coat_of_arms = { 
+		religion=sunni
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2105001 = { name="Sarkesian" culture=lebneni }
 2105002 = { name="Rahbani" culture=lebneni }
 2105003 = { name="Usseiran" culture=lebneni }
 2105004 = { name="Talal" culture=lebneni }
 2105005 = { name="Sharafeddine" culture=lebneni }
-2105006 = { name="Arslan" culture=lebneni }
+2105006 = { name="Arslan" culture=lebneni 
+	coat_of_arms = { 
+		religion=druze
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2105007 = { name="as-Sulah" culture=lebneni }
 2105008 = { name="Harfush" culture=lebneni }
 2105009 = { name="Karami" culture=lebneni }
@@ -16115,10 +16333,36 @@
 
 
 
-2106000 = { name="al-Jalili" culture=furataini }
+2106000 = { name="al-Jalili" culture=furataini 
+	coat_of_arms = { 
+		religion=sunni
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2106001 = { name="al-Abu Nasir" culture=furataini }
 2106002 = { name="al-Muntadhar" culture=furataini }
-2106003 = { name="al-Hakim" culture=furataini }
+2106003 = { name="al-Hakim" culture=furataini 
+	coat_of_arms = { 
+		religion=sunni
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2106004 = { name="Haddad" culture=furataini }
 2106005 = { name="al-Fa'iz" culture=furataini }
 2106006 = { name="al-Sabah" culture=furataini }
@@ -16132,7 +16376,20 @@
 2106014 = { name="Al-Ajwad" culture=furataini }
 2106015 = { name="Sistani" culture=furataini }
 2106016 = { name="al-Samawi" culture=furataini }
-2106017 = { name="Youssef" culture=furataini }
+2106017 = { name="Youssef" culture=furataini 
+	coat_of_arms = { 
+		religion=sunni
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2106018 = { name="al-Kharafi" culture=furataini }
 
 
