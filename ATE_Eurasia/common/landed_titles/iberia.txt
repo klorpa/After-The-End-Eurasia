@@ -2078,22 +2078,6 @@ e_iberia = {
 		}
 	}
 }
-
-### Empires ###
-
-e_spain = {
-	color={ 197 168 8 }
-	color2 = { 255 255 255 }
-	
-	capital = 187 #Madrid
-	
-	dignity = 20
-	
-	allow = { 
-		always = no #Only created through decision
-	}
-}
-
 ### Kingdoms ###
 
 k_asturias = {
@@ -2116,30 +2100,5 @@ k_asturias = {
 				is_titular = no
 			}
 		}
-	}
-}
-
-### Duchies ###
-
-d_christ_rey = {
-	color={ 153 130 105 }
-	color2 = { 220 220 0 }
-	
-	capital = 275 #Toledo
-	
-	title = CRISTO_REY
-	foa = CHRIST_REY_FOA
-	short_name = yes
-	location_ruler_title = yes
-	
-	# Controls a religion
-	controls_religion = hispanic
-	
-	religion = hispanic
-
-	dignity = 100
-	
-	allow = { 
-		always = no #Only created through decision
 	}
 }
