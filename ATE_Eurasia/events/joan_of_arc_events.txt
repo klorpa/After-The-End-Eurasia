@@ -2,48 +2,48 @@
 namespace = joan
 
 narrative_event = { #Some crazy fucknut claims to liberate the cursed city of Paris
-    id = joan.1 
-    title = EVTTITLE_joan_1
-    desc = EVTDESC_joan_1
-    picture = GFX_evt_bandits
+	id = joan.1 
+	title = EVTTITLE_joan_1
+	desc = EVTDESC_joan_1
+	picture = GFX_evt_bandits
 	
 	major = yes
 	
-    only_independent = yes 
-    only_playable = yes
+	only_independent = yes 
+	only_playable = yes
 
-    trigger = {
-        NOT = {
-            has_global_flag = joan_of_arc_revolt_spawned
-        }
-        NOR = {
-            religion = jacobin
-            religion = chronicler
-            religion = sun_king_cultist 
-        }
-        NOT = {government = merchant_republic_government}
-        OR = {
-            has_landed_title = d_ile_de_france
-            any_realm_character = { has_landed_title = d_ile_de_france }
-        }
-        OR = { 
-            primary_title = { tier = EMPEROR }
-            primary_title = { tier = KING }
-        }
+	trigger = {
+		NOT = {
+			has_global_flag = joan_of_arc_revolt_spawned
+		}
+		NOR = {
+			religion = jacobin
+			religion = chronicler
+			religion = sun_king_cultist 
+		}
+		NOT = {government = merchant_republic_government}
+		OR = {
+			has_landed_title = d_ile_de_france
+			any_realm_character = { has_landed_title = d_ile_de_france }
+		}
+		OR = { 
+			primary_title = { tier = EMPEROR }
+			primary_title = { tier = KING }
+		}
 	}
-    mean_time_to_happen = {
-        months = 20
-    }
-    immediate = {
-        set_global_flag = joan_of_arc_revolt_spawned
+	mean_time_to_happen = {
+		months = 20
+	}
+	immediate = {
+		set_global_flag = joan_of_arc_revolt_spawned
 		1551 = {
 			hidden_tooltip = { 
 				province_event = { id = joan.2 } 
 			}
 		}
-    }
-    option = {#locs for frenchies
-        name = EVTOPTA_joan_1
+	}
+	option = {#locs for frenchies
+		name = EVTOPTA_joan_1
 		trigger = {
 			NOR = {
 				religion = jacobin
@@ -51,9 +51,9 @@ narrative_event = { #Some crazy fucknut claims to liberate the cursed city of Pa
 				religion = chronicler
 			}
 		}
-    }
+	}
 	option = {#locs for non french
-        name = EVTOPTB_joan_1
+		name = EVTOPTB_joan_1
 		trigger = {
 			OR = {
 				religion = jacobin
@@ -61,7 +61,7 @@ narrative_event = { #Some crazy fucknut claims to liberate the cursed city of Pa
 				religion = chronicler
 			}
 		}
-    }
+	}
 }
 
 province_event = {#creates joan and her armies
@@ -71,7 +71,7 @@ province_event = {#creates joan and her armies
 	immediate = {
 		create_character = {
 			random_traits = no
-			religion  = ROOT
+			religion = ROOT
 			name = "Jeanne"
 			dynasty = 2009230 #Larchère
 			culture = parisian
@@ -205,87 +205,87 @@ character_event = {#Ping event so that joan is the FROM in joan.4, no one sees i
 	is_triggered_only = yes
 	immediate = {
 		any_independent_ruler = {
-            limit = {
-                religion = PREV
-                war = no
-            }
-            letter_event = { id = joan.4 }
-        }
+			limit = {
+				religion = PREV
+				war = no
+			}
+			letter_event = { id = joan.4 }
+		}
 	}
 }
 
 letter_event = { #Good ol' Jeanne wants yo troops
-    id = joan.4
-    desc = EVTDESC_joan_4
+	id = joan.4
+	desc = EVTDESC_joan_4
 
-    is_triggered_only = yes
+	is_triggered_only = yes
 
-    trigger = {
-        war = no 
+	trigger = {
+		war = no 
 		religion = FROM
-    }
-    option = { #yes
-        name = EVTOPTA_joan_4
-        join_attacker_wars = FROM
+	}
+	option = { #yes
+		name = EVTOPTA_joan_4
+		join_attacker_wars = FROM
 
-        ai_chance = {
-            factor = 100
-            modifier = {
-                factor = 2
-                trait = brave
-            }
-            modifier = {
-                factor = 2
-                trait = zealous
-            }
-            modifier = {
-                factor = 1.5
-                trait = wroth
-            }
-            modifier = {
-                factor = 0.1
-                trait = craven
-            }
-            modifier = {
-                factor = 0.6
-                trait = cynical
-            }
-            modifier = {
-                factor = 0.8
-                trait = kind
-            }
-        }
-    }
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 2
+				trait = brave
+			}
+			modifier = {
+				factor = 2
+				trait = zealous
+			}
+			modifier = {
+				factor = 1.5
+				trait = wroth
+			}
+			modifier = {
+				factor = 0.1
+				trait = craven
+			}
+			modifier = {
+				factor = 0.6
+				trait = cynical
+			}
+			modifier = {
+				factor = 0.8
+				trait = kind
+			}
+		}
+	}
 
-    option = { #no
-        name = EVTOPTB_joan_4
-        prestige = -25
-        piety = -50
+	option = { #no
+		name = EVTOPTB_joan_4
+		prestige = -25
+		piety = -50
 
-        ai_chance = {
-            factor = 10
-            modifier = {
-                factor = 0
-                trait = brave
-            }
-            modifier = {
-                factor = 0
-                trait = zealous
-            }
-            modifier = {
-                factor = 3
-                trait = craven
-            }
-            modifier = {
-                factor = 2
-                trait = cynical
-            }
-            modifier = {
-                factor = 1.5
-                trait = kind
-            }
-        }
-    }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				trait = brave
+			}
+			modifier = {
+				factor = 0
+				trait = zealous
+			}
+			modifier = {
+				factor = 3
+				trait = craven
+			}
+			modifier = {
+				factor = 2
+				trait = cynical
+			}
+			modifier = {
+				factor = 1.5
+				trait = kind
+			}
+		}
+	}
 }
 
 character_event = { #gets claims on the other infidel duchies in the french heart

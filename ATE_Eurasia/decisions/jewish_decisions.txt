@@ -131,7 +131,7 @@ decisions = {
 					holder_scope = {
 						OR = {
 							ai = no
-							any_liege = { ai = no }  # AI will never take West Jerusalem province away from a player
+							any_liege = { ai = no } # AI will never take West Jerusalem province away from a player
 						}
 					}
 				}
@@ -528,7 +528,7 @@ targeted_decisions = {
 		}
 		ai_will_do = {
 			#Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
-			factor  = 0 #needs to add more later, now at 0 so it won't bug shit
+			factor = 0 #needs to add more later, now at 0 so it won't bug shit
 		}
 	}
 }

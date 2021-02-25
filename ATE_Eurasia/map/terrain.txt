@@ -1,7 +1,7 @@
 terrain = 17
 # Note that costs below 1 may result in somewhat strange pathfinding results. It is thus preferable to increase global movement speed rather than reduce terrain costs below 1
 
-categories =  {
+categories = {
 
 	pti = {
 		color = { 210 210 210 }
@@ -30,7 +30,7 @@ categories =  {
 	farmlands = {
 		movement_cost = 1.1
 		max_attrition = -0.01
-		color = { 137 104 165  }
+		color = { 137 104 165 }
 		
 		supply_limit = 5
 		bottleneck_chance = 5
@@ -149,17 +149,17 @@ categories =  {
 	}
 }
 
-text_0	= { type = plains    color = { 	 0	 } priority = 	0	 }
+text_0	= { type = plains	color = { 	 0	 } priority = 	0	 }
 text_1	= { type = farmlands color = { 	1	 } priority = 	1	 }
-text_2	= { type = plains    color = { 	2	 } priority = 	2	 }
-text_3	= { type = desert    color = { 	3	 } priority = 	3	 }
+text_2	= { type = plains	color = { 	2	 } priority = 	2	 }
+text_3	= { type = desert	color = { 	3	 } priority = 	3	 }
 
 text_4	= { type = mountain color = { 	4	 } priority = 	4	 }
-text_5	= { type = steppe   color = { 	5	 } priority = 	5	 }
-text_6	= { type = arctic   color = { 	6	 } priority = 	6	 }
+text_5	= { type = steppe color = { 	5	 } priority = 	5	 }
+text_6	= { type = arctic color = { 	6	 } priority = 	6	 }
 text_7	= { type = mountain color = { 	7	 } priority = 	7	 }
 
-text_8	= { type = hills    color = { 	8	 } priority = 	8	 }
+text_8	= { type = hills	color = { 	8	 } priority = 	8	 }
 text_9	= { type = mountain color = { 	9	 } priority = 	9	 }
 text_10	= { type = marsh color = { 	10	 } priority = 	10	 }
 text_11	= { type = marsh color = { 	11	 } priority = 	11	 }

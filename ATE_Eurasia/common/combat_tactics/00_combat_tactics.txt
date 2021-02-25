@@ -482,7 +482,7 @@ swarm_volley_tactic = {
 
 	light_cavalry_offensive = -1.8
 	camel_cavalry_offensive = -1.8
-	horse_archers_offensive =  0.6
+	horse_archers_offensive = 0.6
 	archers_offensive = 1.2
 	handgunners_offensive = 1.2
 	enemy = {
@@ -1741,7 +1741,7 @@ confused_orders_tactic = {
 	group = volley
 
 	trigger = {
-		phase = skirmish  
+		phase = skirmish 
 		troops = {
 			who = archers
 			value = 0.01
@@ -2176,7 +2176,7 @@ glorious_tengri_tactic = {
 	
 	change_phase_to = skirmish
 	
-	horse_archers_offensive =  2.0
+	horse_archers_offensive = 2.0
 	light_cavalry_offensive = 1.2
 }
 
@@ -2363,7 +2363,7 @@ glorious_finnish_tactic = {
 	
 	change_phase_to = skirmish
 	
-	archers_offensive =  2.5
+	archers_offensive = 2.5
 	light_infantry_defensive = 1.5
 }
 
@@ -2435,7 +2435,7 @@ glorious_zun_tactic = {
 	group = volley
 
 	trigger = {
-		phase = skirmish  
+		phase = skirmish 
 		troops = {
 			who = archers
 			value = 0.01
@@ -2653,7 +2653,7 @@ clever_ambush_tactic = {
 			horse_archers = 0.1
 			camel_cavalry = 0.1
 		}
-		light_infantry = 0.1			  
+		light_infantry = 0.1			 
 		flank_has_leader = yes
 		leader = {
 			OR = {
@@ -2855,7 +2855,7 @@ retreat_and_ambush_tactic = {
 	
 	change_phase_to = skirmish
 	
-	horse_archers_offensive =  2.0
+	horse_archers_offensive = 2.0
 	light_cavalry_offensive = 1.2
 	archers_offensive = 1.0
 	handgunners_offensive = 1.0
@@ -3051,7 +3051,7 @@ massive_longbow_volley_tactic = {
 	group = volley
 
 	trigger = {
-		phase = skirmish  
+		phase = skirmish 
 		troops = {
 			who = archers
 			value = 0.01

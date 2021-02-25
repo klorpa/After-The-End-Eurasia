@@ -167,8 +167,8 @@
 	trait=gregarious
 	2471.3.22={birth=yes}
 	2511.1.1={
-	    create_bloodline = {
-		    type = sonderborg
+		create_bloodline = {
+			type = sonderborg
 			has_dlc = "Holy Fury"
 		}
 	}
@@ -769,14 +769,14 @@
 	culture=scanian
 	religion=folketro
 	trait=is_fat
-    trait=gregarious
-    trait=gluttonous
-    trait=skilled_tactician	
+	trait=gregarious
+	trait=gluttonous
+	trait=skilled_tactician	
 	trait=apostle_cult
 	father=8000071
 	2623.1.1={birth=yes}
 	2648.1.1={
-	    add_spouse = 8000191
+		add_spouse = 8000191
 	}
 	2670.1.1={death=yes}
 }
@@ -795,7 +795,7 @@
 	trait=wroth
 	trait=legit_bastard
 	trait=apostle_cult
-    trait=flamboyant_schemer
+	trait=flamboyant_schemer
 	disallow_random_traits = yes
 	2645.1.1={birth=yes}
 	2670.1.1={death=yes}
@@ -812,7 +812,7 @@
 	intrigue=6
 	learning=5
 	trait=tough_soldier
-    trait=ambitious
+	trait=ambitious
 	trait=wroth 
 	trait=robust
 	trait=hiddenfolk_cult
@@ -1085,7 +1085,7 @@
 	name="Odin"
 	dynasty=2220028 #Vreim
 	culture=ostlending
-	religion=valinorism
+	religion=valinorist
 	martial=5
 	diplomacy=6
 	stewardship=4
@@ -1423,7 +1423,7 @@
 	trait=adventurer
 	trait=proud
 	trait=uncouth
-    trait=lustful	
+	trait=lustful	
 	2633.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
@@ -1432,12 +1432,12 @@
 	name="Gandalf"
 	dynasty=2220357 #Hedin 
 	culture=gotalander
-	religion=valinorism
+	religion=valinorist
 	trait=mastermind_theologian
 	trait=lunatic
 	trait=shrewd
 	trait=mystic
-    trait=ambitious
+	trait=ambitious
 	trait=zealous 
 	trait=kind
 	2627.1.1={birth=yes}
@@ -1448,12 +1448,12 @@
 	name="Ulf"
 	dynasty=2220357 #Hedin 
 	culture=gotalander
-	religion=valinorism
+	religion=valinorist
 	trait=tough_soldier
 	trait=duelist
 	trait=cynical
 	trait=wroth
-    trait=dwarf
+	trait=dwarf
 	father=8000114
 	2649.1.1={birth=yes}
 	2670.1.1={death=yes}
@@ -1468,7 +1468,7 @@
 	trait=adventurer
 	trait=diligent
 	trait=drunkard
-    trait=lustful
+	trait=lustful
 	2638.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
@@ -1483,7 +1483,7 @@
 	trait=wroth
 	trait=gregarious
 	trait=apostle_cult
-    trait=is_fat
+	trait=is_fat
 	2631.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
@@ -1498,7 +1498,7 @@
 	trait=kind
 	trait=apostle_cult
 	trait=just
-    trait=gregarious
+	trait=gregarious
 	2644.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
@@ -1513,7 +1513,7 @@
 	trait=poet
 	trait=shy
 	trait=apostle_cult
-    trait=proud
+	trait=proud
 	2641.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
@@ -1527,7 +1527,7 @@
 	trait=just
 	trait=brave
 	trait=hunter
-    trait=sturdy
+	trait=sturdy
 	2640.1.1={birth=yes}
 	2666.1.1={give_nickname = nick_the_fearless}
 	2670.1.1={death=yes}
@@ -1543,7 +1543,7 @@
 	trait=zealous
 	trait=impaler
 	trait=apostle_cult
-    trait=wroth
+	trait=wroth
 	2629.1.1={birth=yes}
 	2666.1.1={give_nickname = nick_the_liberator}
 	2670.1.1={death=yes}
@@ -2269,7 +2269,7 @@
 	trait=humble
 	trait=apostle_cult
 	trait=honest
-    trait=intricate_webweaver	
+	trait=intricate_webweaver	
 	religion=folketro
 	2626.1.1={birth=yes}
 	2670.1.1={death=yes}
@@ -2284,7 +2284,7 @@
 	trait=diligent
 	trait=apostle_cult
 	trait=selfish
-    trait=paranoid	
+	trait=paranoid	
 	religion=folketro
 	2629.1.1={birth=yes}
 	2670.1.1={death=yes}
@@ -2298,7 +2298,7 @@
 	trait=content
 	trait=hiddenfolk_cult
 	trait=slothful
-    trait=skilled_tactician	
+	trait=skilled_tactician	
 	religion=folketro
 	2633.1.1={birth=yes}
 	2670.1.1={death=yes}
@@ -2313,7 +2313,7 @@
 	father=8000177
 	2628.1.1={birth=yes}
 	2648.1.1={
-	    add_spouse = 8000072
+		add_spouse = 8000072
 	}
 	2670.1.1={death=yes}
 }
@@ -2438,7 +2438,7 @@
 	dynasty=2220052 #Gløkksborg
 	culture=ostlending
 	religion=folketro
-    trait=skilled_tactician
+	trait=skilled_tactician
 	trait=ambitious
 	trait=quick 
 	trait=zealous
@@ -2634,7 +2634,7 @@
 	trait=lustful 
 	trait=wroth
 	trait=hiddenfolk_cult
-    trait=skilled_tactician
+	trait=skilled_tactician
 	disallow_random_traits = yes 
 	employer = 8000073
 	2621.1.1={birth=yes}
@@ -2979,7 +2979,7 @@
 
 8000257={
 	name="Drífa"
-    father=8000258
+	father=8000258
 	female=yes
 	dynasty=2501107 #Dragon 
 	culture=icelander
@@ -3000,7 +3000,7 @@
 }
 
 8000259={
-    name="Emil"
+	name="Emil"
 	father=8000078
 	dynasty=2220467
 	culture=svealander
@@ -3019,7 +3019,7 @@
 	culture=icelander
 	religion=sjotru
 	trait=quick 
-    trait=midas_touched	
+	trait=midas_touched	
 	trait=legendary
 	2290.1.1={birth=yes}
 	2322.1.1={death=yes}
@@ -5873,7 +5873,7 @@
 	trait=robust
 	trait=thrifty_clerk
 	trait=wroth 
-	trait=kind  
+	trait=kind 
 	trait=just 
 	2631.1.1={birth=yes}
 	2670.1.1={death=yes}
@@ -5887,7 +5887,7 @@
 	trait=feeble
 	trait=mastermind_theologian
 	trait=quick 
-	trait=shy  
+	trait=shy 
 	trait=cruel 
 	2638.1.1={birth=yes}
 	2670.1.1={death=yes}
@@ -5901,8 +5901,8 @@
 	trait=envious
 	trait=one_eyed
 	trait=ambitious 
-	trait=skilled_tactician  
-	trait=shrewd  
+	trait=skilled_tactician 
+	trait=shrewd 
 	2641.1.1={birth=yes}
 	2670.1.1={death=yes}
 }
@@ -5913,7 +5913,7 @@
 	culture=karelian 
 	religion=lutheran
 	trait=tough_soldier
-    trait=greedy
+	trait=greedy
 	trait=proud 
 	trait=authoritative
 	trait=experimenter
@@ -5927,7 +5927,7 @@
 	culture=finnish 
 	religion=lutheran
 	trait=hunter 
-    trait=shy
+	trait=shy
 	trait=diligent 
 	trait=ruthless
 	trait=paranoid
@@ -5941,7 +5941,7 @@
 	culture=finnish 
 	religion=lutheran
 	trait=erudite 
-    trait=envious
+	trait=envious
 	trait=underhanded_rogue 
 	trait=deceitful
 	trait=ambitious
@@ -5955,7 +5955,7 @@
 	culture=karelian 
 	religion=orthodox
 	trait=scholarly_theologian 
-    trait=arbitrary
+	trait=arbitrary
 	trait=lustful 
 	trait=stubborn
 	trait=humble
@@ -5969,7 +5969,7 @@
 	culture=finnish 
 	religion=lutheran
 	trait=flamboyant_schemer 
-    trait=kind
+	trait=kind
 	trait=honest 
 	trait=just
 	trait=wroth
@@ -6112,8 +6112,8 @@
 	trait=thrifty_clerk 
 	trait=shy
 	2645.1.1={
-	    birth=yes
-	    culture = vestlending
+		birth=yes
+		culture = vestlending
 	}
 	2663.1.1={add_spouse = 8000103}
 	2670.1.1={death=yes}
@@ -6130,8 +6130,8 @@
 	trait=twin
 	trait=willful
 	2663.1.1={
-	    birth=yes
-	    culture = vestlending
+		birth=yes
+		culture = vestlending
 	}
 	2670.1.1={death=yes}
 }
@@ -6147,8 +6147,8 @@
 	trait=twin 
 	trait=conscientious
 	2663.1.1={
-	    birth=yes
-	    culture = vestlending
+		birth=yes
+		culture = vestlending
 	}
 	2670.1.1={death=yes}
 }
@@ -6164,7 +6164,7 @@
 	trait=legit_bastard
 	trait=lustful 
 	trait=wroth
-    trait=misguided_warrior
+	trait=misguided_warrior
 	disallow_random_traits = yes 
 	employer = 8000073
 	2650.1.1={birth=yes}
@@ -6560,8 +6560,8 @@
 	disallow_random_traits = yes 
 	2000.1.1={birth=yes}
 	2100.1.1={
-	    create_bloodline = {
-		    type = snow_queen
+		create_bloodline = {
+			type = snow_queen
 			has_dlc = "Holy Fury"
 		}
 	}

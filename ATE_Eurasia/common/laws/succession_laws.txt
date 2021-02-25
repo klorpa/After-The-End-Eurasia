@@ -590,13 +590,13 @@ succession_laws = {
 					}
 				}
 				
-                OR = {
-                    NOR = {
+				OR = {
+					NOR = {
 						religion_group = muslim
 						religion_group = indian_group 
 					}
-                    is_patrician = yes
-                }
+					is_patrician = yes
+				}
 				
 				OR = {
 					NOT = { religion_group = pagan_group }
@@ -983,7 +983,7 @@ succession_laws = {
 			}
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
-			NOR = {  #Special Elective.
+			NOR = { #Special Elective.
 				title = e_hre 
 				has_title_flag = alternate_hre
 			}

@@ -4,13 +4,13 @@ character_event = {
 	id = valinorist_fea.1
 	desc = { 
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = smol_mandos }	
+			has_game_rule = { name = valinorist_big_events value = smol_mandos }	
 		} 
 		text = EVTDESCvalinorist_fea.1 
 	}
 	desc = {
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = big_mandos }	
+			has_game_rule = { name = valinorist_big_events value = big_mandos }	
 		} 
 		text = EVTDESCvalinorist_fea.1A
 	}
@@ -20,7 +20,7 @@ character_event = {
 	window = EventWindowNarrative
 	
 	trigger = {
-		religion = valinorism
+		religion = valinorist
 		has_character_modifier = valinorist_fea_study
 		NOR = {
 			has_character_flag = fea_study_event_1
@@ -31,7 +31,7 @@ character_event = {
 			age = 16
 			prisoner = no
 			has_job_title = job_spiritual
-			religion = valinorism
+			religion = valinorist
 			NOR = {
 				character = ROOT
 				trait = incapable
@@ -50,7 +50,7 @@ character_event = {
 	option = {
 		name = EVTOPTAvalinorist_fea.1
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = smol_mandos }
+			has_game_rule = { name = valinorist_big_events value = smol_mandos }
 		}
 		hidden_tooltip = {
 			random_list = {
@@ -102,7 +102,7 @@ character_event = {
 	}
 	option = {
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = big_mandos }
+			has_game_rule = { name = valinorist_big_events value = big_mandos }
 		}
 		name = EVTOPTBvalinorist_fea.1
 		hidden_tooltip = {
@@ -176,13 +176,13 @@ character_event = {
 	id = valinorist_fea.2
 	desc = { 
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = smol_mandos }	
+			has_game_rule = { name = valinorist_big_events value = smol_mandos }	
 		} 
 		text = EVTDESCvalinorist_fea.2 
 	}
 	desc = {
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = big_mandos }	
+			has_game_rule = { name = valinorist_big_events value = big_mandos }	
 		} 
 		text = EVTDESCvalinorist_fea.2A
 	}
@@ -192,7 +192,7 @@ character_event = {
 	window = EventWindowNarrative
 	
 	trigger = {
-		religion = valinorism
+		religion = valinorist
 		has_character_modifier = valinorist_fea_study
 		NOR = {
 			has_character_flag = fea_study_event_2
@@ -203,7 +203,7 @@ character_event = {
 			age = 16
 			prisoner = no
 			has_job_title = job_spiritual
-			religion = valinorism
+			religion = valinorist
 			NOR = {
 				character = ROOT
 				trait = incapable
@@ -222,7 +222,7 @@ character_event = {
 	option = {
 		name = EVTOPTAvalinorist_fea.2
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = smol_mandos }
+			has_game_rule = { name = valinorist_big_events value = smol_mandos }
 		}
 		hidden_tooltip = {
 			random_list = {
@@ -274,7 +274,7 @@ character_event = {
 	}
 	option = {
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = big_mandos }
+			has_game_rule = { name = valinorist_big_events value = big_mandos }
 		}
 		name = EVTOPTBvalinorist_fea.2
 		hidden_tooltip = {
@@ -348,13 +348,13 @@ character_event = {
 	id = valinorist_fea.3
 	desc = { 
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = smol_mandos }	
+			has_game_rule = { name = valinorist_big_events value = smol_mandos }	
 		}
 		text = EVTDESCvalinorist_fea.3 
 	}
 	desc = {
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = big_mandos }	
+			has_game_rule = { name = valinorist_big_events value = big_mandos }	
 		} 
 		text = EVTDESCvalinorist_fea.3A
 	}
@@ -363,7 +363,7 @@ character_event = {
 	window = EventWindowNarrative
 	
 	trigger = {
-		religion = valinorism
+		religion = valinorist
 		has_character_modifier = valinorist_fea_study
 		NOR = {
 			has_character_flag = fea_study_event_3
@@ -374,7 +374,7 @@ character_event = {
 			age = 16
 			prisoner = no
 			has_job_title = job_spiritual
-			religion = valinorism
+			religion = valinorist
 			NOR = {
 				character = ROOT
 				trait = incapable
@@ -393,7 +393,7 @@ character_event = {
 	option = {
 		name = EVTOPTAvalinorist_fea.3
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = smol_mandos }
+			has_game_rule = { name = valinorist_big_events value = smol_mandos }
 		}
 		hidden_tooltip = {
 			random_list = {
@@ -445,7 +445,7 @@ character_event = {
 	}
 	option = {
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = big_mandos }
+			has_game_rule = { name = valinorist_big_events value = big_mandos }
 		}
 		hidden_tooltip = {
 			character_event = { id = valinorist_fea.301 }
@@ -519,13 +519,13 @@ character_event = {
 	id = valinorist_fea.4
 	desc = { 
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = smol_mandos }	
+			has_game_rule = { name = valinorist_big_events value = smol_mandos }	
 		} 
 		text = EVTDESCvalinorist_fea.4 
 	}
 	desc = {
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = big_mandos }	
+			has_game_rule = { name = valinorist_big_events value = big_mandos }	
 		} 
 		text = EVTDESCvalinorist_fea.4A
 	}
@@ -534,7 +534,7 @@ character_event = {
 	window = EventWindowNarrative
 
 	trigger = {
-		religion = valinorism
+		religion = valinorist
 		has_character_modifier = valinorist_fea_study
 		NOR = {
 			has_character_flag = fea_study_event_4
@@ -545,7 +545,7 @@ character_event = {
 			age = 16
 			prisoner = no
 			has_job_title = job_spiritual
-			religion = valinorism
+			religion = valinorist
 			NOR = {
 				character = ROOT
 				trait = incapable
@@ -564,7 +564,7 @@ character_event = {
 	option = {
 		name = EVTOPTAvalinorist_fea.4
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = smol_mandos }
+			has_game_rule = { name = valinorist_big_events value = smol_mandos }
 		}
 		hidden_tooltip = {
 			random_list = {
@@ -616,7 +616,7 @@ character_event = {
 	}
 	option = {
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = big_mandos }
+			has_game_rule = { name = valinorist_big_events value = big_mandos }
 		}
 		name = EVTOPTBvalinorist_fea.4
 		hidden_tooltip = {
@@ -708,13 +708,13 @@ character_event = {
 	id = valinorist_fea.6
 	desc = { 
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = smol_mandos }	
+			has_game_rule = { name = valinorist_big_events value = smol_mandos }	
 		} 
 		text = EVTDESCvalinorist_fea.6
 	}
 	desc = {
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = big_mandos }	
+			has_game_rule = { name = valinorist_big_events value = big_mandos }	
 		} 
 		text = EVTDESCvalinorist_fea.6A
 	}
@@ -730,7 +730,7 @@ character_event = {
 	}
 	
 	trigger = {
-		religion = valinorism
+		religion = valinorist
 		has_character_modifier = valinorist_fea_grant
 		has_character_flag = fea_method_study
 		NOR = {
@@ -741,7 +741,7 @@ character_event = {
 			age = 16
 			prisoner = no
 			has_job_title = job_spiritual
-			religion = valinorism
+			religion = valinorist
 			NOR = {
 				character = ROOT
 				trait = incapable
@@ -753,7 +753,7 @@ character_event = {
 	option = {
 		name = EVTOPTAvalinorist_fea.6
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = smol_mandos }
+			has_game_rule = { name = valinorist_big_events value = smol_mandos }
 		}
 		hidden_tooltip = {
 			character_event = { id = valinorist_fea.7 days = 20 random = 10 }
@@ -762,7 +762,7 @@ character_event = {
 	option = {
 		name = EVTOPTBvalinorist_fea.6
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = big_mandos }
+			has_game_rule = { name = valinorist_big_events value = big_mandos }
 		}
 		hidden_tooltip = {
 			character_event = { id = valinorist_fea.601 }
@@ -791,13 +791,13 @@ character_event = {
 	id = valinorist_fea.7
 	desc = { 
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = smol_mandos }	
+			has_game_rule = { name = valinorist_big_events value = smol_mandos }	
 		} 
 		text = EVTDESCvalinorist_fea.7
 	}
 	desc = {
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = big_mandos }	
+			has_game_rule = { name = valinorist_big_events value = big_mandos }	
 		} 
 		text = EVTDESCvalinorist_fea.7A
 	}
@@ -810,13 +810,13 @@ character_event = {
 	
 	trigger = {
 		has_character_flag = fea_study_event_6
-		religion = valinorism
+		religion = valinorist
 		has_character_modifier = valinorist_fea_grant
 		any_courtier = {
 			age = 16
 			prisoner = no
 			has_job_title = job_spiritual
-			religion = valinorism
+			religion = valinorist
 			NOR = {
 				character = ROOT
 				trait = incapable
@@ -830,7 +830,7 @@ character_event = {
 	option = {
 		name = EVTOPTAvalinorist_fea.7
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = smol_mandos }
+			has_game_rule = { name = valinorist_big_events value = smol_mandos }
 		}
 		remove_character_modifier = valinorist_fea_grant
 		add_character_modifier = { name = valinorist_fea_gift duration = -1 }
@@ -839,7 +839,7 @@ character_event = {
 	option = {
 		name = EVTOPTBvalinorist_fea.7
 		trigger = {
-			has_game_rule = { name = valinorism_big_events value = big_mandos }
+			has_game_rule = { name = valinorist_big_events value = big_mandos }
 		}
 		hidden_tooltip = {
 			character_event = { id = valinorist_fea.701 }
@@ -907,7 +907,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTAvalinorist_fea.10
-		death = { death_reason  = valinorist_gift_death }
+		death = { death_reason = valinorist_gift_death }
 	}
 }
 
@@ -931,7 +931,7 @@ character_event = {
 				has_job_title = job_spiritual
 				age = 16
 				prisoner = no
-				religion = valinorism
+				religion = valinorist
 				NOR = {
 					character = ROOT
 					trait = incapable

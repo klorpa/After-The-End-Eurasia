@@ -60,7 +60,7 @@ character_event = {
 	
 	is_triggered_only = yes
 
-	trigger =  { NOT = { is_inaccessible_trigger = yes } }
+	trigger = { NOT = { is_inaccessible_trigger = yes } }
 	
 	option = {
 		name = EVTOPTA_TOG_601
@@ -2514,7 +2514,7 @@ character_event = {
 				has_character_flag = blot_feast_vassal
 				NOT = { has_character_flag = feast_friendship }
 				NOT = { character = ROOT }
-				opinion = { who = ROOT value =  20 }
+				opinion = { who = ROOT value = 20 }
 			}		
 		}
 	}
@@ -2555,7 +2555,7 @@ character_event = {
 				limit = {
 					has_character_flag = blot_feast_vassal
 					NOT = { character = ROOT }
-					opinion = { who = ROOT value =  20 }
+					opinion = { who = ROOT value = 20 }
 				}
 				character_event = { id = TOG.661 }
 				set_character_flag = feast_friendship
@@ -2649,7 +2649,7 @@ character_event = {
 				has_character_flag = blot_feast_vassal
 				NOT = { has_character_flag = feast_homosexual }
 				NOT = { character = ROOT }
-				opinion = { who = ROOT value =  0 }
+				opinion = { who = ROOT value = 0 }
 				trait = homosexual
 				is_female = no
 				has_lover = no
@@ -2695,7 +2695,7 @@ character_event = {
 					has_character_flag = blot_feast_vassal
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = ROOT }
-					opinion = { who = ROOT value =  0 }
+					opinion = { who = ROOT value = 0 }
 					trait = homosexual
 					is_female = no
 				}
@@ -2794,7 +2794,7 @@ character_event = {
 				has_character_flag = blot_feast_vassal
 				NOT = { has_character_flag = feast_homosexual }
 				NOT = { character = ROOT }
-				opinion = { who = ROOT value =  0 }
+				opinion = { who = ROOT value = 0 }
 				trait = homosexual
 				is_female = yes
 				has_lover = no
@@ -2840,7 +2840,7 @@ character_event = {
 					has_character_flag = blot_feast_vassal
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = ROOT }
-					opinion = { who = ROOT value =  0 }
+					opinion = { who = ROOT value = 0 }
 					trait = homosexual
 					is_female = yes
 				}
@@ -3323,7 +3323,7 @@ character_event = {
 					has_character_flag = blot_feast_vassal
 					NOT = { has_character_flag = feast_friendship }
 					NOT = { character = PREVPREV }
-					opinion = { who = PREVPREV value =  20 }
+					opinion = { who = PREVPREV value = 20 }
 				}		
 			}
 		}
@@ -3339,7 +3339,7 @@ character_event = {
 						has_character_flag = blot_feast_vassal
 						NOT = { has_character_flag = feast_friendship }
 						NOT = { character = PREVPREV }
-						opinion = { who = PREVPREV value =  20 }
+						opinion = { who = PREVPREV value = 20 }
 					}		
 				}
 			}
@@ -3370,7 +3370,7 @@ character_event = {
 					has_character_flag = blot_feast_vassal
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = PREVPREV }
-					opinion = { who = PREVPREV value =  0 }
+					opinion = { who = PREVPREV value = 0 }
 					trait = homosexual
 					is_female = no
 					has_lover = no
@@ -3392,7 +3392,7 @@ character_event = {
 						has_character_flag = blot_feast_vassal
 						NOT = { has_character_flag = feast_homosexual }
 						NOT = { character = PREVPREV }
-						opinion = { who = PREVPREV value =  0 }
+						opinion = { who = PREVPREV value = 0 }
 						trait = homosexual
 						is_female = no
 						has_lover = no
@@ -3426,7 +3426,7 @@ character_event = {
 					has_character_flag = blot_feast_vassal
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = PREVPREV }
-					opinion = { who = PREVPREV value =  0 }
+					opinion = { who = PREVPREV value = 0 }
 					trait = homosexual
 					is_female = yes
 					has_lover = no
@@ -3448,7 +3448,7 @@ character_event = {
 						has_character_flag = blot_feast_vassal
 						NOT = { has_character_flag = feast_homosexual }
 						NOT = { character = PREVPREV }
-						opinion = { who = PREVPREV value =  0 }
+						opinion = { who = PREVPREV value = 0 }
 						trait = homosexual
 						is_female = yes
 						has_lover = no
@@ -3461,7 +3461,7 @@ character_event = {
 }
 
 ###########################################
-# Flag management                         #
+# Flag management						 #
 ###########################################
 
 # Safety catch - clears character flags and modifiers

@@ -200,7 +200,7 @@ character_event = {
 				religion = ROOT
 				NOT = { block_general_event_trigger = yes }
 				OR = { 
-					higher_tier_than = BARON  
+					higher_tier_than = BARON 
 					has_minor_title = title_cardinal
 					has_minor_title = title_fraticelli_cardinal
 					any_claim = { title = k_papal_state } #Antipope
@@ -242,7 +242,7 @@ character_event = {
 				religion = ROOT
 				NOT = { block_general_event_trigger = yes }
 				OR = { 
-					higher_tier_than = BARON  
+					higher_tier_than = BARON 
 					has_minor_title = title_cardinal
 					has_minor_title = title_fraticelli_cardinal
 					any_claim = { title = k_papal_state } #Antipope
@@ -562,7 +562,7 @@ letter_event = {
 				FROM = { letter_event = { id = HF.20202 } } #Priest asks for nothing, proceed with coronation.
 			} 
 		
-			50 = {  
+			50 = { 
 				modifier = {
 					factor = 1.5
 					trait = greedy
@@ -884,7 +884,7 @@ letter_event = {
 							vassal_of = FROM
 							ROOT_FROM = {
 								NOT = { 
-									current_heir = { character = PREVPREV  }
+									current_heir = { character = PREVPREV }
 								}
 							}
 							NOR = { 
@@ -907,7 +907,7 @@ letter_event = {
 							vassal_of = FROM
 							FROM = {
 								NOT = { 
-									current_heir = { character = PREVPREV  }
+									current_heir = { character = PREVPREV }
 								}
 							}
 							NOR = { 
@@ -930,7 +930,7 @@ letter_event = {
 							vassal_of = FROM
 							FROM = {
 								NOT = { 
-									current_heir = { character = PREVPREV  }
+									current_heir = { character = PREVPREV }
 								}
 							}
 							NOR = { 
@@ -953,7 +953,7 @@ letter_event = {
 							vassal_of = FROM
 							FROM = {
 								NOT = { 
-									current_heir = { character = PREVPREV  }
+									current_heir = { character = PREVPREV }
 								}
 							}
 							NOR = { 
@@ -976,7 +976,7 @@ letter_event = {
 							vassal_of = FROM
 							FROM = {
 								NOT = { 
-									current_heir = { character = PREVPREV  }
+									current_heir = { character = PREVPREV }
 								}
 							}
 							NOR = { 
@@ -1362,7 +1362,7 @@ letter_event = {
 				}
 				FROM = { letter_event = { id = HF.20212 } } #I want gold.
 			}
-			30 = {  
+			30 = { 
 				modifier = {
 					factor = 0
 					FROM = { NOT = { primary_title = { has_law = investiture_law_1 } } }
@@ -1396,7 +1396,7 @@ letter_event = {
 				}
 				FROM = { letter_event = { id = HF.20213 } } #I want you to enact Papal Investiture.
 			}
-			30 = {  
+			30 = { 
 				trigger = {
 					FROM = { war = no } #Wartime coronation.
 				}
@@ -1442,7 +1442,7 @@ letter_event = {
 				}
 				FROM = { letter_event = { id = HF.20214 } } #I want you to depose excommunicated ruler.
 			}
-			30 = {  
+			30 = { 
 				trigger = {
 					FROM = { war = no } #Wartime coronation.
 				}
@@ -1803,7 +1803,7 @@ letter_event = {
 				}
 				FROM = { letter_event = { id = HF.20235 } } #Wishes to have orgy.
 			}
-			5 = {  
+			5 = { 
 				trigger = { #Check if holy orders exist.
 					OR = { 
 						is_title_active = d_knights_templar 
@@ -1874,7 +1874,7 @@ letter_event = {
 				}
 				FROM = { letter_event = { id = HF.20217 } } #Give lands to the Holy Orders.
 			}
-			15 = {  
+			15 = { 
 				modifier = {
 					factor = 0
 					NOT = {
@@ -2595,7 +2595,7 @@ letter_event = {
 				who = ROOT
 			}
 		}	
-        FROM = { ROOT = { join_prev_monastic_order_society = yes } }
+		FROM = { ROOT = { join_prev_monastic_order_society = yes } }
 		hidden_tooltip = { character_event = { id = HF.20300 } } #Go to budget event
 		ai_chance = { factor = 100 }
 	}
@@ -2639,10 +2639,10 @@ letter_event = {
 			}
 		}
 		hidden_tooltip = { 
-       		FROM = { 
-       			character_event = { id = HF.20234 } 
-       		} 
-       	}
+	 		FROM = { 
+	 			character_event = { id = HF.20234 } 
+	 		} 
+	 	}
 		hidden_tooltip = { character_event = { id = HF.20300 } } #Go to budget event
 		ai_chance = { factor = 100 }
 	}
@@ -2706,7 +2706,7 @@ letter_event = {
 		if = { 
 			limit = { real_tier = KING }
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -2736,7 +2736,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 2 min = 600 max = 1200 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -2756,7 +2756,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 1.35 min = 500 max = 900 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					piety = 350
 					FROM = { 
 						opinion = { 
@@ -2774,7 +2774,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 1.25 min = 400 max = 750 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -2815,7 +2815,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}  
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -2853,7 +2853,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}   
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -2880,7 +2880,7 @@ letter_event = {
 		if = { 
 			limit = { real_tier = EMPEROR }
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -2910,7 +2910,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 2.5 min = 750 max = 1500 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -2930,7 +2930,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 2.0 min = 600 max = 1000 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					piety = 350
 					FROM = { 
 						opinion = { 
@@ -2948,7 +2948,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 1.75 min = 500 max = 850 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -2989,7 +2989,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}  
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -3027,7 +3027,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}   
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -3244,7 +3244,7 @@ letter_event = {
 		if = { 
 			limit = { real_tier = KING }
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -3274,7 +3274,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 2 min = 600 max = 1200 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -3294,7 +3294,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 1.35 min = 500 max = 900 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					piety = 350
 					FROM = { 
 						opinion = { 
@@ -3312,7 +3312,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 1.25 min = 400 max = 750 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -3353,7 +3353,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}  
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -3391,7 +3391,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}   
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -3418,7 +3418,7 @@ letter_event = {
 		if = { 
 			limit = { real_tier = EMPEROR }
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -3448,7 +3448,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 2.5 min = 750 max = 1500 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -3468,7 +3468,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 2.0 min = 600 max = 1000 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					piety = 350
 					FROM = { 
 						opinion = { 
@@ -3486,7 +3486,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 1.75 min = 500 max = 850 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -3527,7 +3527,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}  
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -3565,7 +3565,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}   
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -3733,7 +3733,7 @@ letter_event = {
 		if = { 
 			limit = { real_tier = KING }
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -3763,7 +3763,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 2 min = 600 max = 1200 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -3783,7 +3783,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 1.35 min = 500 max = 900 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					piety = 350
 					FROM = { 
 						opinion = { 
@@ -3801,7 +3801,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 1.25 min = 400 max = 750 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -3842,7 +3842,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}  
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -3880,7 +3880,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}   
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -3907,7 +3907,7 @@ letter_event = {
 		if = { 
 			limit = { real_tier = EMPEROR }
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -3937,7 +3937,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 2.5 min = 750 max = 1500 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -3957,7 +3957,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 2.0 min = 600 max = 1000 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					piety = 350
 					FROM = { 
 						opinion = { 
@@ -3975,7 +3975,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 1.75 min = 500 max = 850 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -4016,7 +4016,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}  
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -4054,7 +4054,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}   
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -4125,20 +4125,20 @@ letter_event = {
 		hidden_tooltip = { character_event = { id = HF.20300 } } #Go to budget event
 		#First of all, if the Emperor has Rome, it is asked automatically as an additional gift.
 		#Latium Check
-		if  = { 
+		if = { 
 			limit = { has_landed_title = c_roma }
 			c_roma = { 
 				grant_title = FROM 
 				any_de_jure_vassal = { #Pope vassalizes all vassal titles in the scope
 					limit = { 
 						vassal_of = ROOT 
-						NOT = { owner =  { character = ROOT } } 
+						NOT = { owner = { character = ROOT } } 
 					}
 					set_defacto_liege = FROM
-					hidden_tooltip = { character_event =  { id = HF.20230 } } 
+					hidden_tooltip = { character_event = { id = HF.20230 } } 
 				}
 				any_de_jure_vassal_title = { #Pope takes over any titles under the title he's taking over from you.
-					limit = { owner =  { character = ROOT } }
+					limit = { owner = { character = ROOT } }
 					grant_title = FROM
 				} 
 			}
@@ -4146,7 +4146,7 @@ letter_event = {
 		#Secondly, check for all Duchies within the borders of the historical Donation of Pepin (Latium, Spoleto, Ancona, Ferrara, Benevento).
 		#If the Emperor owns them directly, the Pope takes the title, if his vassals do, said vassals will become the Papacy's vassals.
 		#Latium Check
-		if  = { 
+		if = { 
 			limit = {
 				any_demesne_title = {
 					can_be_given_away = yes
@@ -4159,19 +4159,19 @@ letter_event = {
 				any_de_jure_vassal = {
 					limit = { 
 						vassal_of = ROOT 
-						NOT = { owner =  { character = ROOT } } 
+						NOT = { owner = { character = ROOT } } 
 					}
 					set_defacto_liege = FROM
-					hidden_tooltip = { character_event =  { id = HF.20230 } }
+					hidden_tooltip = { character_event = { id = HF.20230 } }
 				}
 				any_de_jure_vassal_title = {
-					limit = { owner =  { character = ROOT } }
+					limit = { owner = { character = ROOT } }
 					grant_title = FROM
 				} 
 			}
 			break = yes
 		}
-		if  = { 
+		if = { 
 			limit = {
 				any_vassal = {
 					lower_tier_than = FROM
@@ -4188,12 +4188,12 @@ letter_event = {
 					lower_tier_than = FROM
 				} 
 				set_defacto_liege = FROM
-					hidden_tooltip = { character_event =  { id = HF.20230 } }
+					hidden_tooltip = { character_event = { id = HF.20230 } }
 			}
 			break = yes
 		}
 		#Spoleto Check
-		if  = { 
+		if = { 
 			limit = {
 				any_demesne_title = {
 					can_be_given_away = yes
@@ -4206,19 +4206,19 @@ letter_event = {
 				any_de_jure_vassal = {
 					limit = { 
 						vassal_of = ROOT 
-						NOT = { owner =  { character = ROOT } } 
+						NOT = { owner = { character = ROOT } } 
 					}
 					set_defacto_liege = FROM
-					hidden_tooltip = { character_event =  { id = HF.20230 } }
+					hidden_tooltip = { character_event = { id = HF.20230 } }
 				}
 				any_de_jure_vassal_title = {
-					limit = { owner =  { character = ROOT } }
+					limit = { owner = { character = ROOT } }
 					grant_title = FROM
 				} 
 			}
 			break = yes
 		}
-		if  = { 
+		if = { 
 			limit = {
 				any_vassal = {
 					lower_tier_than = FROM
@@ -4235,12 +4235,12 @@ letter_event = {
 					lower_tier_than = FROM
 				} 
 				set_defacto_liege = FROM
-				hidden_tooltip = { character_event =  { id = HF.20230 } }
+				hidden_tooltip = { character_event = { id = HF.20230 } }
 			}
 			break = yes
 		}
 		#Ancona Check
-		if  = { 
+		if = { 
 			limit = {
 				any_demesne_title = {
 					can_be_given_away = yes
@@ -4253,19 +4253,19 @@ letter_event = {
 				any_de_jure_vassal = {
 					limit = { 
 						vassal_of = ROOT 
-						NOT = { owner =  { character = ROOT } } 
+						NOT = { owner = { character = ROOT } } 
 					}
 					set_defacto_liege = FROM
-					hidden_tooltip = { character_event =  { id = HF.20230 } }
+					hidden_tooltip = { character_event = { id = HF.20230 } }
 				}
 				any_de_jure_vassal_title = {
-					limit = { owner =  { character = ROOT } }
+					limit = { owner = { character = ROOT } }
 					grant_title = FROM
 				} 
 			}
 			break = yes
 		}
-		if  = { 
+		if = { 
 			limit = {
 				any_vassal = {
 					lower_tier_than = FROM
@@ -4282,12 +4282,12 @@ letter_event = {
 					lower_tier_than = FROM
 				} 
 				set_defacto_liege = FROM
-				hidden_tooltip = { character_event =  { id = HF.20230 } }
+				hidden_tooltip = { character_event = { id = HF.20230 } }
 			}
 			break = yes
 		}
 		#Ferrara
-		if  = { 
+		if = { 
 			limit = {
 				any_demesne_title = {
 					can_be_given_away = yes
@@ -4300,19 +4300,19 @@ letter_event = {
 				any_de_jure_vassal = {
 					limit = { 
 						vassal_of = ROOT 
-						NOT = { owner =  { character = ROOT } } 
+						NOT = { owner = { character = ROOT } } 
 					}
 					set_defacto_liege = FROM
-					hidden_tooltip = { character_event =  { id = HF.20230 } }
+					hidden_tooltip = { character_event = { id = HF.20230 } }
 				}
 				any_de_jure_vassal_title = {
-					limit = { owner =  { character = ROOT } }
+					limit = { owner = { character = ROOT } }
 					grant_title = FROM
 				} 
 			}
 			break = yes
 		}
-		if  = { 
+		if = { 
 			limit = {
 				any_vassal = {
 					lower_tier_than = FROM
@@ -4329,12 +4329,12 @@ letter_event = {
 					lower_tier_than = FROM
 				} 
 				set_defacto_liege = FROM
-				hidden_tooltip = { character_event =  { id = HF.20230 } }
+				hidden_tooltip = { character_event = { id = HF.20230 } }
 			}
 			break = yes
 		}
 		#Benevento
-		if  = { 
+		if = { 
 			limit = {
 				any_demesne_title = {
 					can_be_given_away = yes
@@ -4347,19 +4347,19 @@ letter_event = {
 				any_de_jure_vassal = {
 					limit = { 
 						vassal_of = ROOT 
-						NOT = { owner =  { character = ROOT } } 
+						NOT = { owner = { character = ROOT } } 
 					}
 					set_defacto_liege = FROM
-					hidden_tooltip = { character_event =  { id = HF.20230 } }
+					hidden_tooltip = { character_event = { id = HF.20230 } }
 				}
 				any_de_jure_vassal_title = {
-					limit = { owner =  { character = ROOT } }
+					limit = { owner = { character = ROOT } }
 					grant_title = FROM
 				} 
 			}
 			break = yes
 		}
-		if  = { 
+		if = { 
 			limit = {
 				any_vassal = {
 					lower_tier_than = FROM
@@ -4376,7 +4376,7 @@ letter_event = {
 					lower_tier_than = FROM
 				} 
 				set_defacto_liege = FROM
-				hidden_tooltip = { character_event =  { id = HF.20230 } }
+				hidden_tooltip = { character_event = { id = HF.20230 } }
 			}
 			break = yes
 		}
@@ -4426,7 +4426,7 @@ letter_event = {
 
 	immediate = {
 		#Check if there is an available bordering province, in order to limit bordergore.
-		if  = { 
+		if = { 
 			limit = {
 				any_demesne_title = {
 					can_be_given_away = yes
@@ -4466,7 +4466,7 @@ letter_event = {
 				}
 				preferred_limit = { #Try to give them counties as well.
 					any_de_jure_vassal_title = {
-						owner =  { character = ROOT } 
+						owner = { character = ROOT } 
 					}
 				}
 				save_event_target_as = scoped_duchy
@@ -4481,7 +4481,7 @@ letter_event = {
 				}
 				preferred_limit = { #Try to give them counties as well.
 					any_de_jure_vassal_title = {
-						owner =  { character = ROOT } 
+						owner = { character = ROOT } 
 					}
 				}
 			}
@@ -4533,12 +4533,12 @@ letter_event = {
 					limit = { 
 						vassal_of = ROOT 
 						lower_tier_than = event_target:scoped_grandmaster
-						NOT = { owner =  { character = ROOT } } 
+						NOT = { owner = { character = ROOT } } 
 					}
 					set_defacto_liege = event_target:scoped_grandmaster
 				} 
 				any_de_jure_vassal_title = { 	#Take over dejure titles under the Duchy
-					limit = { owner =  { character = ROOT }  }
+					limit = { owner = { character = ROOT } }
 					grant_title = event_target:scoped_grandmaster
 				}
 			}
@@ -4567,12 +4567,12 @@ letter_event = {
 							limit = { 
 								vassal_of = ROOT 
 								lower_tier_than = PREVPREVPREV
-								NOT = { owner =  { character = ROOT } } 
+								NOT = { owner = { character = ROOT } } 
 							}
 							set_defacto_liege = PREVPREVPREV
 						} 
 						any_de_jure_vassal_title = {
-							limit = { owner =  { character = ROOT } }
+							limit = { owner = { character = ROOT } }
 							grant_title = PREVPREVPREV
 						}
 					}
@@ -4627,7 +4627,7 @@ letter_event = {
 		if = { 
 			limit = { real_tier = KING }
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -4657,7 +4657,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 2 min = 600 max = 1200 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -4677,7 +4677,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 1.35 min = 500 max = 900 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					piety = 350
 					FROM = { 
 						opinion = { 
@@ -4695,7 +4695,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 1.25 min = 400 max = 750 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -4736,7 +4736,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}  
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -4774,7 +4774,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}   
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -4801,7 +4801,7 @@ letter_event = {
 		if = { 
 			limit = { real_tier = EMPEROR }
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -4831,7 +4831,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 2.5 min = 750 max = 1500 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -4851,7 +4851,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 2.0 min = 600 max = 1000 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					piety = 350
 					FROM = { 
 						opinion = { 
@@ -4869,7 +4869,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 1.75 min = 500 max = 850 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -4910,7 +4910,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}  
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -4948,7 +4948,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}   
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -5160,7 +5160,7 @@ character_event = {
 		clr_character_flag = flag_antipope_for_coronation
 		clr_character_flag = flag_excommunicated_for_coronation
 		set_character_flag = flag_crowned_by_pope
-		religion_head = {  #otherwise the scope would have been lost.
+		religion_head = { #otherwise the scope would have been lost.
 			save_event_target_as = coronation_priest
 				show_scope_change = no	 
 			opinion = {
@@ -5646,7 +5646,7 @@ letter_event = {
 		if = { 
 			limit = { real_tier = KING }
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -5676,7 +5676,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 2 min = 600 max = 1200 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -5696,7 +5696,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 1.35 min = 500 max = 900 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					piety = 350
 					FROM = { 
 						opinion = { 
@@ -5714,7 +5714,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 1.25 min = 400 max = 750 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -5755,7 +5755,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}  
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -5793,7 +5793,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}   
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -5820,7 +5820,7 @@ letter_event = {
 		if = { 
 			limit = { real_tier = EMPEROR }
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -5850,7 +5850,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 2.5 min = 750 max = 1500 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -5870,7 +5870,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 2.0 min = 600 max = 1000 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					piety = 350
 					FROM = { 
 						opinion = { 
@@ -5888,7 +5888,7 @@ letter_event = {
 				transfer_scaled_wealth = { to = FROM value = 1.75 min = 500 max = 850 } 
 			}
 			if = { 
-				limit = {  
+				limit = { 
 					NOT = { 
 						piety = 350
 					} 
@@ -5929,7 +5929,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}  
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -5967,7 +5967,7 @@ letter_event = {
 				limit = { 
 					NOT = { 
 						piety = 350
-					}   
+					} 
 					FROM = { 
 						opinion = { 
 							who = ROOT 
@@ -6007,7 +6007,7 @@ character_event = {
 	id = HF.20222
 	desc = {
 		trigger = {
-			NOT  = { religion = FROMFROM }
+			NOT = { religion = FROMFROM }
 		}
 		text = EVTDESCHFA20222
 	}
@@ -6029,7 +6029,7 @@ character_event = {
 		########################################################################################
 		#Check if the target or one of his vassals own one of the possible target Duchies or any land within their dejure.
 		if = { 
-			limit = {  
+			limit = { 
 				OR = {
 					#Check whether you (or your vassals) own the title directly...
 					has_landed_title = d_latium
@@ -6049,7 +6049,7 @@ character_event = {
 			FROM = { character_event = { id = HF.20223 } }
 		}
 		else_if = { 
-			limit = {  
+			limit = { 
 				OR = {
 					#Check whether you (or your vassals) own the title directly...
 					has_landed_title = d_spoleto
@@ -6069,7 +6069,7 @@ character_event = {
 			FROM = { character_event = { id = HF.20223 } }
 		}
 		else_if = { 
-			limit = {  
+			limit = { 
 				OR = {
 					#Check whether you (or your vassals) own the title directly...
 					has_landed_title = d_ancona
@@ -6089,7 +6089,7 @@ character_event = {
 			FROM = { character_event = { id = HF.20223 } }
 		}
 		else_if = { 
-			limit = {  
+			limit = { 
 				OR = {
 					#Check whether you (or your vassals) own the title directly...
 					has_landed_title = d_ferrara
@@ -6109,7 +6109,7 @@ character_event = {
 			FROM = { character_event = { id = HF.20223 } }
 		}
 		else_if = { 
-			limit = {  
+			limit = { 
 				OR = {
 					#Check whether you (or your vassals) own the title directly...
 					has_landed_title = d_benevento
@@ -6175,7 +6175,7 @@ character_event = {
 	id = HF.20224
 	desc = {
 		trigger = {
-			NAND  = { 
+			NAND = { 
 				has_character_flag = flag_pepin_for_coronation
 				higher_real_tier_than = DUKE 
 			}
@@ -6193,7 +6193,7 @@ character_event = {
 	}
 	desc = {
 		trigger = {
-			NAND  = { 
+			NAND = { 
 				has_character_flag = flag_pepin_for_coronation 
 				higher_real_tier_than = DUKE
 			}
@@ -6224,7 +6224,7 @@ character_event = {
 				random_artifact = { 
 					limit = {
 						has_artifact_flag = christian
-						NOR =  { 
+						NOR = { 
 							has_artifact_flag = very_rare
 							has_artifact_flag = unique #Won't give the holiest ones away.
 						}
@@ -6245,7 +6245,7 @@ character_event = {
 			clr_character_flag = flag_pepin_for_coronation
 			set_character_flag = flag_preparing_coronation
 			set_character_flag = flag_crowned_by_pope
-			religion_head = {  #otherwise the scope would have been lost.
+			religion_head = { #otherwise the scope would have been lost.
 				save_event_target_as = coronation_priest 
 				show_scope_change = no	
 				reverse_opinion = {
@@ -6320,7 +6320,7 @@ character_event = {
 	option = {
 		name = EVTOPTAHF20226
 		set_character_flag = flag_crowned_by_pope
-		religion_head = {  #otherwise the scope would have been lost.
+		religion_head = { #otherwise the scope would have been lost.
 			save_event_target_as = coronation_priest 
 				show_scope_change = no	
 			opinion = {
@@ -6366,7 +6366,7 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes
 
-	has_character_flag = flag_excommunicated_for_coronation  
+	has_character_flag = flag_excommunicated_for_coronation 
 
 	trigger = {
 		any_war = {
@@ -6388,7 +6388,7 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes
 
-	has_character_flag = flag_pepin_for_coronation   
+	has_character_flag = flag_pepin_for_coronation 
 
 	trigger = {
 		any_war = {
@@ -7004,7 +7004,7 @@ letter_event = {
 	immediate = {
 		random_artifact = { 
 			limit = { 
-				has_artifact_flag = christian  
+				has_artifact_flag = christian 
 				NOT = { has_artifact_flag = rare } 
 				NOT = { has_artifact_flag = very_rare } 
 				NOT = { has_artifact_flag = flag_considering_donation } 
@@ -7070,7 +7070,7 @@ letter_event = {
 	immediate = {
 		random_artifact = { 
 			limit = { 
-				has_artifact_flag = christian  
+				has_artifact_flag = christian 
 				OR = { 
 					has_artifact_flag = very_rare 
 					has_artifact_flag = rare 
@@ -7192,7 +7192,7 @@ character_event = {
 		hidden_tooltip = {
 			character_event = { id = HF.20305 days = 11 } #Ceremony actually starts
 			any_vassal = {
-				limit =  {
+				limit = {
 					prisoner = no
 					NOT = { has_character_flag = do_not_disturb }
 					NOT = { has_character_modifier = holding_large_feast }
@@ -7258,7 +7258,7 @@ character_event = {
 		hidden_tooltip = {
 			character_event = { id = HF.20305 days = 11 } #Ceremony actually starts
 			any_vassal = {
-				limit =  {
+				limit = {
 					prisoner = no
 					NOT = { has_character_flag = do_not_disturb }
 					NOT = { has_character_modifier = holding_large_feast }
@@ -7909,7 +7909,7 @@ character_event = {
 	option = {
 		name = EVTOPTAHF20310
 		show_portrait = event_target:potential_friend
-		event_target:potential_friend = {  
+		event_target:potential_friend = { 
 			character_event = { id = HF.20307 tooltip = EVTTOOLTIPAHF20307 }
 		}
 		ai_chance = { 	
@@ -8089,7 +8089,7 @@ character_event = {
 		event_target:coronation_ruler = { is_alive = yes } #Check if the ruler supposed to be crowned is still alive. (check for guests)
 	}
 	immediate = { 
-		event_target:coronation_ruler = { set_character_flag = flag_coronation_learning_boost  } #to avoid the same event happening twice during the coronation.
+		event_target:coronation_ruler = { set_character_flag = flag_coronation_learning_boost } #to avoid the same event happening twice during the coronation.
 	}
 
 	is_triggered_only = yes
@@ -8341,7 +8341,7 @@ character_event = {
 				} 
 				character_event = { id = HF.20319 }
 			}
-			event_target:coronation_priest = {  
+			event_target:coronation_priest = { 
 				character_event = { id = HF.20319 }
 			}
 		}		
@@ -8408,7 +8408,7 @@ character_event = {
 				} 
 				character_event = { id = HF.20320 }
 			}
-			event_target:coronation_priest = {  
+			event_target:coronation_priest = { 
 				character_event = { id = HF.20320 }
 			}
 		}		
@@ -8564,7 +8564,7 @@ character_event = {
 	}
 
 	immediate = { 
-		event_target:coronation_ruler = { set_character_flag = flag_coronation_gain_ambitious  } #to avoid the same event happening twice during the coronation.
+		event_target:coronation_ruler = { set_character_flag = flag_coronation_gain_ambitious } #to avoid the same event happening twice during the coronation.
 	}
 	is_triggered_only = yes
 	
@@ -8830,7 +8830,7 @@ character_event = {
 		event_target:coronation_ruler = { is_alive = yes } #Check if the ruler supposed to be crowned is still alive. (check for guests)
 	}
 	immediate = { 
-		event_target:coronation_ruler = { set_character_flag = flag_coronation_pope_talk  } #to avoid the same event happening twice during the coronation.
+		event_target:coronation_ruler = { set_character_flag = flag_coronation_pope_talk } #to avoid the same event happening twice during the coronation.
 	}
 
 	is_triggered_only = yes
@@ -10146,7 +10146,7 @@ character_event = {
 		}
 		hidden_tooltip = { 
 			random_list = { 
-				30 = {  } 
+				30 = { } 
 				40 = { #Court Love
 					trigger = { 
 						is_female = yes
@@ -10331,7 +10331,7 @@ character_event = {
 					} 
 					character_event = { id = HF.20349 days = 1 }
 				}
-				event_target:coronation_priest = {  
+				event_target:coronation_priest = { 
 					character_event = { id = HF.20349 days = 1 }
 				}
 			}
@@ -11144,7 +11144,7 @@ character_event = {
 				NOR = { 
 					trait = diligent 
 					trait = slothful
-				}  
+				} 
 			} 
 			random = { 
 				chance = 50
@@ -11321,13 +11321,13 @@ character_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		if =  { 
+		if = { 
 			limit = { 
 				NOT = { check_variable = { which = coronation_count value = 2 } } 
 			}
 			random_coronation_events_effect = yes	
 		}
-		if =  { 
+		if = { 
 			limit = { 
 				check_variable = { which = coronation_count value = 2 } 
 			}
@@ -11578,7 +11578,7 @@ character_event = {
 			days = 7300 #20 years
 		}
 		#Notify all guests, then conclude the ceremony.
-		hidden_tooltip = {  
+		hidden_tooltip = { 
 			character_event = { id = HF.20371 } #Self-Coronation scandal.
 			character_event = { id = HF.20369 days = 3 random = 3 } #wrap up, clear all flags.
 			any_vassal = { 
@@ -11683,7 +11683,7 @@ character_event = {
 			}
 		}
 		#Notify all guests, then conclude the ceremony.
-		hidden_tooltip = {  
+		hidden_tooltip = { 
 			character_event = { id = HF.20369 days = 3 random = 3 } #wrap up, clear all flags.
 			any_vassal = { 
 				limit = { 
@@ -11947,13 +11947,13 @@ character_event = {
 				FROM = { 
 					has_character_flag = flag_secluded_coronation 
 					NOT = { has_character_flag = flag_crowned_by_pope } 
-				}  
+				} 
 			} 
 			prestige = -25
 		}
 		if = { 
 			limit = { 
-				FROM = { has_character_flag = flag_regular_coronation }  
+				FROM = { has_character_flag = flag_regular_coronation } 
 			} 
 			prestige = 50
 		}
@@ -12333,7 +12333,7 @@ character_event = {
 					}
 					modifier = { #More distant/Less powerful Kingdom less likely to be crowned by the Pope.
 						factor = 0.5
-						NOR = {  
+						NOR = { 
 							has_landed_title = k_france
 							has_landed_title = k_burgundy
 							has_landed_title = k_aquitaine
@@ -12346,7 +12346,7 @@ character_event = {
 					}
 					modifier = { #If the Pope disliked him, less likely to be crowned by him.
 						factor = 0.5
-						NOT = {  
+						NOT = { 
 							reverse_opinion = { 
 								who = ROOT
 								value = 0 
@@ -12355,7 +12355,7 @@ character_event = {
 					}
 					modifier = { #Historically more likely.
 						factor = 10
-						OR = {  
+						OR = { 
 							has_landed_title = k_italy
 							has_landed_title = e_hre
 						} 
@@ -12506,7 +12506,7 @@ character_event = {
 			religion = catholic
 			religion = fraticelli
 		}
-		NOR =  { 
+		NOR = { 
 			trait = crowned_by_priest
 			trait = crowned_by_bishop
 			trait = crowned_by_pope
@@ -12538,7 +12538,7 @@ character_event = {
 			religion = catholic
 			religion = fraticelli
 		}
-		NOR =  { 
+		NOR = { 
 			trait = crowned_by_priest
 			trait = crowned_by_bishop
 			trait = crowned_by_pope
@@ -13301,7 +13301,7 @@ character_event = {
 		name = EVTOPTAHF20387
 		tooltip = { 
 			FROM = { 
-				remove_title = job_spiritual  
+				remove_title = job_spiritual 
 				add_character_modifier = { 
 					name = resigned_in_anger
 					duration = -1
@@ -13312,7 +13312,7 @@ character_event = {
 			FROM = { 
 			remove_opinion = { 
 					who = ROOT
-					modifier = opinion_fired_from_council  
+					modifier = opinion_fired_from_council 
 				}
 			}
 		} 
@@ -13890,14 +13890,14 @@ character_event = {
 				20 = { 
 					modifier = {
 						factor = 0
-						NOT = { FROM = { is_evil_trigger = yes } }  
+						NOT = { FROM = { is_evil_trigger = yes } } 
 					}
 					set_character_flag = flag_homage_evil
 				}
 				20 = { 
 					modifier = {
 						factor = 0
-						NOT = { FROM = { has_virtue_trigger = yes } }  
+						NOT = { FROM = { has_virtue_trigger = yes } } 
 					}
 					set_character_flag = flag_homage_good
 				}
@@ -14337,7 +14337,7 @@ character_event = {
 			religion = fraticelli
 		}
 		NOT = { check_variable = { which = uncrowned_count value = 30 } } #Stop at minus thirty.
-		NOR =  { 
+		NOR = { 
 			trait = crowned_by_priest
 			trait = crowned_by_bishop
 			trait = crowned_by_pope
@@ -14370,8 +14370,8 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-		OR =  { 
-			AND =  { 
+		OR = { 
+			AND = { 
 				has_landed_title = e_hre 
 				any_artifact = { artifact_type = crown_hre }
 				e_hre = { 
@@ -14380,7 +14380,7 @@ character_event = {
 					} 
 				} 
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = e_byzantium 
 				any_artifact = { artifact_type = crown_byzantine }
 				e_byzantium = { 
@@ -14389,7 +14389,7 @@ character_event = {
 					} 
 				} 
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_norse_pagan_reformed 
 				any_artifact = { artifact_type = crown_fylkir }
 				d_norse_pagan_reformed = { 
@@ -14398,7 +14398,7 @@ character_event = {
 					} 
 				} 
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_tengri_pagan_reformed 
 				any_artifact = { artifact_type = crown_tengri_fylkir }
 				d_tengri_pagan_reformed = { 
@@ -14407,7 +14407,7 @@ character_event = {
 					} 
 				} 
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_finnish_pagan_reformed 
 				any_artifact = { artifact_type = crown_finnish_fylkir }
 				d_finnish_pagan_reformed = { 
@@ -14416,7 +14416,7 @@ character_event = {
 					} 
 				} 
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_west_african_pagan_reformed 
 				any_artifact = { artifact_type = crown_west_african_fylkir }
 				d_west_african_pagan_reformed = { 
@@ -14425,7 +14425,7 @@ character_event = {
 					} 
 				} 
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_zun_pagan_reformed 
 				any_artifact = { artifact_type = crown_zun_fylkir }
 				d_zun_pagan_reformed = { 
@@ -14434,7 +14434,7 @@ character_event = {
 					} 
 				} 
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = k_hellenic_pagan
 				any_artifact = { artifact_type = scepter_hellenic_fylkir }
 				k_hellenic_pagan = { 
@@ -14443,7 +14443,7 @@ character_event = {
 					} 
 				} 
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_slavic_pagan_reformed 
 				any_artifact = { artifact_type = crown_slavic_fylkir }
 				d_slavic_pagan_reformed = { 
@@ -14452,7 +14452,7 @@ character_event = {
 					} 
 				} 
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_baltic_pagan_reformed 
 				any_artifact = { artifact_type = crown_romuva_fylkir }
 				d_baltic_pagan_reformed = { 
@@ -14461,7 +14461,7 @@ character_event = {
 					} 
 				} 
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_bon_reformed 
 				any_artifact = { artifact_type = scepter_bon_fylkir }
 				d_bon_reformed = { 
@@ -14470,7 +14470,7 @@ character_event = {
 					} 
 				} 
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_aztec_reformed 
 				any_artifact = { artifact_type = crown_aztec_fylkir }
 				d_aztec_reformed = { 
@@ -14479,7 +14479,7 @@ character_event = {
 					} 
 				} 
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = e_persia 
 				any_artifact = { artifact_type = crown_pahlavi }
 				e_persia = { 
@@ -14815,8 +14815,8 @@ character_event = {
 			has_character_flag = flag_crowned_by_bishop
 			has_character_flag = flag_crowned_by_pope
 			has_character_flag = flag_antipope_for_coronation 
-			has_character_flag = flag_excommunicated_for_coronation  
-			has_character_flag = flag_pepin_for_coronation  
+			has_character_flag = flag_excommunicated_for_coronation 
+			has_character_flag = flag_pepin_for_coronation 
 		} 
 
 		#Previous religion
@@ -15102,14 +15102,14 @@ character_event = {
 				20 = { 
 					modifier = {
 						factor = 0
-						NOT = { ROOT = { is_evil_trigger = yes } }  
+						NOT = { ROOT = { is_evil_trigger = yes } } 
 					}
 					set_character_flag = flag_homage_evil
 				}
 				20 = { 
 					modifier = {
 						factor = 0
-						NOT = { ROOT = { has_virtue_trigger = yes } }  
+						NOT = { ROOT = { has_virtue_trigger = yes } } 
 					}
 					set_character_flag = flag_homage_good
 				}
@@ -15884,163 +15884,163 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-		OR =  { 
-			AND =  { 
+		OR = { 
+			AND = { 
 				has_landed_title = e_hre 
 				any_artifact = { artifact_type = crown_hre } 
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = e_byzantium 
 				any_artifact = { artifact_type = crown_byzantine }
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_norse_pagan_reformed 
 				any_artifact = { artifact_type = crown_fylkir }
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_tengri_pagan_reformed 
 				any_artifact = { artifact_type = crown_tengri_fylkir }
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_finnish_pagan_reformed 
 				any_artifact = { artifact_type = crown_finnish_fylkir }
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_slavic_pagan_reformed 
 				any_artifact = { artifact_type = crown_slavic_fylkir }
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_baltic_pagan_reformed 
 				any_artifact = { artifact_type = crown_romuva_fylkir }
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_west_african_pagan_reformed 
 				any_artifact = { artifact_type = crown_west_african_fylkir }
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = k_hellenic_pagan
 				any_artifact = { artifact_type = scepter_hellenic_fylkir }
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_zun_pagan_reformed 
 				any_artifact = { artifact_type = crown_zun_fylkir }
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_aztec_reformed 
 				any_artifact = { artifact_type = crown_aztec_fylkir }
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = d_bon_reformed 
 				any_artifact = { artifact_type = scepter_bon_fylkir }
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = e_persia 
 				any_artifact = { artifact_type = crown_pahlavi }
 			}
-			AND =  { 
+			AND = { 
 				has_landed_title = k_italy 
 				any_artifact = { artifact_type = iron_crown_of_lombardy }
 			}
-		#	AND =  { 
+		#	AND = { 
 		#		any_artifact = { artifact_type = cursed_diamond_crown }
 		#	}
 		}
 	}
 	
 	immediate = {
-		if =  { 
-			limit =  { 
+		if = { 
+			limit = { 
 				has_landed_title = e_hre 
 				any_artifact = { artifact_type = crown_hre }
 			}
 			add_trait = dead_crown_hre
 		}
-		if =  { 
-			limit =  { 
+		if = { 
+			limit = { 
 				has_landed_title = e_byzantium 
 				any_artifact = { artifact_type = crown_byzantine }
 			}
 			add_trait = dead_crown_byzantine
 		}
-		if =  { 
-			limit =  { 
+		if = { 
+			limit = { 
 				has_landed_title = d_norse_pagan_reformed 
 				any_artifact = { artifact_type = crown_fylkir }
 			}
 			add_trait = dead_crown_fylkir
 		}
-		if =  { 
-			limit =  { 
+		if = { 
+			limit = { 
 				has_landed_title = d_tengri_pagan_reformed 
 				any_artifact = { artifact_type = crown_tengri_fylkir }
 			}
 			add_trait = dead_crown_tengri_fylkir
 		}
-		if =  { 
-			limit =  { 
+		if = { 
+			limit = { 
 				has_landed_title = d_finnish_pagan_reformed 
 				any_artifact = { artifact_type = crown_finnish_fylkir }
 			}
 			add_trait = dead_crown_finnish_fylkir
 		}
-		if =  { 
-			limit =  { 
+		if = { 
+			limit = { 
 				has_landed_title = d_slavic_pagan_reformed 
 				any_artifact = { artifact_type = crown_slavic_fylkir }
 			}
 			add_trait = dead_crown_slavic_fylkir
 		}
-		if =  { 
-			limit =  { 
+		if = { 
+			limit = { 
 				has_landed_title = d_baltic_pagan_reformed 
 				any_artifact = { artifact_type = crown_romuva_fylkir }
 			}
 			add_trait = dead_crown_romuva_fylkir
 		}
-		if =  { 
-			limit =  { 
+		if = { 
+			limit = { 
 				has_landed_title = d_west_african_pagan_reformed 
 				any_artifact = { artifact_type = crown_west_african_fylkir }
 			}
 			add_trait = dead_crown_west_african_fylkir
 		}
-		if =  { 
-			limit =  { 
+		if = { 
+			limit = { 
 				has_landed_title = d_bon_reformed 
 				any_artifact = { artifact_type = scepter_bon_fylkir }
 			}
 			add_trait = dead_scepter_bon_fylkir
 		}
-		if =  { 
-			limit =  { 
+		if = { 
+			limit = { 
 				has_landed_title = d_zun_pagan_reformed 
 				any_artifact = { artifact_type = crown_zun_fylkir }
 			}
 			add_trait = dead_crown_zun_fylkir
 		}
-		if =  { 
-			limit =  { 
+		if = { 
+			limit = { 
 				has_landed_title = k_hellenic_pagan
 				any_artifact = { artifact_type = scepter_hellenic_fylkir }
 			}
 			add_trait = dead_scepter_hellenic_fylkir
 		}
-		if =  { 
-			limit =  { 
+		if = { 
+			limit = { 
 				has_landed_title = d_aztec_reformed 
 				any_artifact = { artifact_type = crown_aztec_fylkir }
 			}
 			add_trait = dead_crown_aztec_fylkir
 		}
-		if =  { 
-			limit =  { 
+		if = { 
+			limit = { 
 				has_landed_title = e_persia 
 				any_artifact = { artifact_type = crown_pahlavi }
 			}
 			add_trait = dead_crown_pahlavi
 		}
-		if =  { 
-			limit =  { 
+		if = { 
+			limit = { 
 				has_landed_title = k_italy 
 				any_artifact = { artifact_type = iron_crown_of_lombardy }
 			}
@@ -16118,7 +16118,7 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes
 
-	has_character_flag = flag_excommunicated_for_coronation  
+	has_character_flag = flag_excommunicated_for_coronation 
 
 	trigger = {
 		OR = {
@@ -16141,7 +16141,7 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes
 
-	has_character_flag = flag_pepin_for_coronation   
+	has_character_flag = flag_pepin_for_coronation 
 
 	trigger = {
 		OR = {

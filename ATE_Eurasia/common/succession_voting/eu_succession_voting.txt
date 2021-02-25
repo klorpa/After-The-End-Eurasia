@@ -18,7 +18,7 @@ confederation_elective = {
 	}
 	candidate_vote_score = {
 		days = 0
-		##########################   Elector voting himself   ##########################
+		########################## Elector voting himself ##########################
 		additive_modifier = {
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_myself
@@ -81,7 +81,7 @@ confederation_elective = {
 			is_adult = yes
 		}
 
-		##########################   Candidate's traits   ##########################
+		########################## Candidate's traits ##########################
 
 		#The heir
 		additive_modifier = { #Current ruler will always try to elect his player heir.
@@ -407,27 +407,27 @@ confederation_elective = {
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
 			NOR = { 
-				AND = {  
+				AND = { 
 					trait = sympathy_christendom
 					FROM = { religion_group = christian } 
 				} 
-				AND = {  
+				AND = { 
 					trait = sympathy_islam
 					FROM = { religion_group = muslim } 
 				} 
-				AND = {  
+				AND = { 
 					trait = sympathy_pagans
 					FROM = { religion_group = pagan_group } 
 				} 
-				AND = {  
+				AND = { 
 					trait = sympathy_zoroastrianism
 					FROM = { religion_group = zoroastrian_group } 
 				} 
-				AND = {  
+				AND = { 
 					trait = sympathy_judaism
 					FROM = { religion_group = jewish_group } 
 				} 
-				AND = {  
+				AND = { 
 					trait = sympathy_indian
 					FROM = { religion_group = indian_group } 
 				} 
@@ -2834,7 +2834,7 @@ confederation_elective = {
 			}
 		}
 
-		##########################   Ruler's traits   ##########################
+		########################## Ruler's traits ##########################
 		#Ruler is lunatic, vote against his pick
 		additive_modifier = {
 			value = -10
@@ -2913,7 +2913,7 @@ confederation_elective = {
 		}
 
 
-		##########################   Raw Opinion bonus towards Candidate   ##########################
+		########################## Raw Opinion bonus towards Candidate ##########################
 		additive_modifier = {
 			value = -150
 			localisation_key = tooltip_feudal_elector_vote_opinion_negative
@@ -2940,7 +2940,7 @@ confederation_elective = {
 			NOT = {
 				opinion = {
 					who = FROM
-					value = -50  
+					value = -50 
 				}
 			}
 			opinion = {
@@ -3039,7 +3039,7 @@ confederation_elective = {
 			}
 		}
 
-		##########################   Raw Opinion bonus towards Ruler   ##########################
+		########################## Raw Opinion bonus towards Ruler ##########################
 		additive_modifier = { #Vassal hates ruler, therefore votes against the ruler's candidate (FROMFROMFROM)
 			value = -30
 			localisation_key = tooltip_feudal_elector_anti_vote_ruler_opinion_negative
@@ -3542,7 +3542,7 @@ bureaucratic_elective = {
 	}
 	candidate_vote_score = {
 		days = 0
-		##########################   Elector voting himself   ##########################
+		########################## Elector voting himself ##########################
 		additive_modifier = {
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_myself
@@ -3605,7 +3605,7 @@ bureaucratic_elective = {
 			is_adult = yes
 		}
 
-		##########################   Candidate's traits   ##########################
+		########################## Candidate's traits ##########################
 
 		#The heir
 		additive_modifier = { #Current ruler will always try to elect his player heir.
@@ -3931,27 +3931,27 @@ bureaucratic_elective = {
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
 			NOR = { 
-				AND = {  
+				AND = { 
 					trait = sympathy_christendom
 					FROM = { religion_group = christian } 
 				} 
-				AND = {  
+				AND = { 
 					trait = sympathy_islam
 					FROM = { religion_group = muslim } 
 				} 
-				AND = {  
+				AND = { 
 					trait = sympathy_pagans
 					FROM = { religion_group = pagan_group } 
 				} 
-				AND = {  
+				AND = { 
 					trait = sympathy_zoroastrianism
 					FROM = { religion_group = zoroastrian_group } 
 				} 
-				AND = {  
+				AND = { 
 					trait = sympathy_judaism
 					FROM = { religion_group = jewish_group } 
 				} 
-				AND = {  
+				AND = { 
 					trait = sympathy_indian
 					FROM = { religion_group = indian_group } 
 				} 
@@ -6358,7 +6358,7 @@ bureaucratic_elective = {
 			}
 		}
 
-		##########################   Ruler's traits   ##########################
+		########################## Ruler's traits ##########################
 		#Ruler is lunatic, vote against his pick
 		additive_modifier = {
 			value = -10
@@ -6437,7 +6437,7 @@ bureaucratic_elective = {
 		}
 
 
-		##########################   Raw Opinion bonus towards Candidate   ##########################
+		########################## Raw Opinion bonus towards Candidate ##########################
 		additive_modifier = {
 			value = -150
 			localisation_key = tooltip_feudal_elector_vote_opinion_negative
@@ -6464,7 +6464,7 @@ bureaucratic_elective = {
 			NOT = {
 				opinion = {
 					who = FROM
-					value = -50  
+					value = -50 
 				}
 			}
 			opinion = {
@@ -6563,7 +6563,7 @@ bureaucratic_elective = {
 			}
 		}
 
-		##########################   Raw Opinion bonus towards Ruler   ##########################
+		########################## Raw Opinion bonus towards Ruler ##########################
 		additive_modifier = { #Vassal hates ruler, therefore votes against the ruler's candidate (FROMFROMFROM)
 			value = -30
 			localisation_key = tooltip_feudal_elector_anti_vote_ruler_opinion_negative

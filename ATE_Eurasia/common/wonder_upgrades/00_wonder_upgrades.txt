@@ -164,7 +164,7 @@
 #### FORTRESS
 # Armory .......................... upgrade_armory
 # Watch Tower ..................... upgrade_watch_tower
-# Vault  .......................... upgrade_vault
+# Vault .......................... upgrade_vault
 # Pit Moat ........................ upgrade_moat_pit
 # Spike Moat ...................... upgrade_moat_spike
 # Water Moat ...................... upgrade_moat_water
@@ -295,10 +295,10 @@ upgrade_spikes = {
 		modifier = { #can the pope PLS stop building spikes?!
 			factor = 0
 			k_papal_state = {
-    			holder_scope = {
-    				character = ROOT
-    			}
-    		}
+				holder_scope = {
+					character = ROOT
+				}
+			}
 		}
 	}
 }
@@ -426,10 +426,10 @@ upgrade_torture_chamber = {
 		modifier = {
 			factor = 0.25
 			k_papal_state = {
-    			holder_scope = {
-    				character = ROOT
-    			}
-    		}
+				holder_scope = {
+					character = ROOT
+				}
+			}
 		}
 	}
 }
@@ -467,10 +467,10 @@ upgrade_brewery = {
 		modifier = {
 			factor = 0.25
 			k_papal_state = {
-    			holder_scope = {
-    				character = ROOT
-    			}
-    		}
+				holder_scope = {
+					character = ROOT
+				}
+			}
 		}
 	}
 }
@@ -679,13 +679,13 @@ upgrade_relic_tomb = {
 		FROM = {
 			show_scope_change = no
 			trigger_if = {
-			    limit = {
-			        NOT = { FROMFROM = { is_building_wonder_upgrade = yes } }
-			    }
-			    custom_tooltip = {
-			        text = must_be_storing_a_relic_TT
-			        FROMFROM = { has_wonder_upgrade_flag = is_storing_relic }
-			    }
+				limit = {
+					NOT = { FROMFROM = { is_building_wonder_upgrade = yes } }
+				}
+				custom_tooltip = {
+					text = must_be_storing_a_relic_TT
+					FROMFROM = { has_wonder_upgrade_flag = is_storing_relic }
+				}
 			}
 		}
 	}
@@ -1133,7 +1133,7 @@ upgrade_soup_kitchen = { #
 			religion_group = muslim
 		}
 	}
-	active = {  } # Should be active even if the owner is not Muslim?
+	active = { } # Should be active even if the owner is not Muslim?
 
 	flags = {
 		is_singular
@@ -1419,7 +1419,7 @@ upgrade_gompa= {
 			religion = buddhist
 		}
 	}
-	active = {  } #active even if owner not of the same religion
+	active = { } #active even if owner not of the same religion
 
 	flags = {
 		is_singular
@@ -1562,13 +1562,13 @@ upgrade_relic_stupa = {
 		FROM = {
 			show_scope_change = no
 			trigger_if = {
-			    limit = {
-			        NOT = { FROMFROM = { is_building_wonder_upgrade = yes } }
-			    }
-			    custom_tooltip = {
-			        text = must_be_storing_a_relic_TT
-			        FROMFROM = { has_wonder_upgrade_flag = is_storing_relic }
-			    }
+				limit = {
+					NOT = { FROMFROM = { is_building_wonder_upgrade = yes } }
+				}
+				custom_tooltip = {
+					text = must_be_storing_a_relic_TT
+					FROMFROM = { has_wonder_upgrade_flag = is_storing_relic }
+				}
 			}
 		}
 	}
@@ -1823,7 +1823,7 @@ upgrade_hospital_hindu = { #
 			religion = hindu
 		}
 	}
-	active = {  }  #active even if owner is not of same religion
+	active = { } #active even if owner is not of same religion
 
 	flags = {
 		is_singular
@@ -3413,7 +3413,7 @@ upgrade_tunnels_travel = { # Travel Tunnels
 	}
 }
 
-upgrade_metal_mine_precious = {  # Precious metal mine
+upgrade_metal_mine_precious = { # Precious metal mine
 	picture = GFX_upgrade_icon_ingots_silver
 	potential = { }
 	allow = { }

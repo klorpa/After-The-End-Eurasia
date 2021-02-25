@@ -63,7 +63,7 @@ dejure_duchy_claim = { # New1
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes
 			}
@@ -479,7 +479,7 @@ force_vassalization = { # New2
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes
 			}
@@ -652,7 +652,7 @@ great_realm_conflict = { # New3
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes
 			}
@@ -951,7 +951,7 @@ ducal_county_conquest = { # New4
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes 
 			}
@@ -1230,7 +1230,7 @@ hostages_cb = { # New5
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes
 			}
@@ -1555,7 +1555,7 @@ liberate_religion = { # New6
 				limit = {
 					NOT = {
 						ROOT = {
-							any_owned_bloodline = {  
+							any_owned_bloodline = { 
 								has_bloodline_flag = bloodline_religious_liberation
 								bloodline_is_active_for = PREV
 							}
@@ -1570,7 +1570,7 @@ liberate_religion = { # New6
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes
 			}
@@ -1584,7 +1584,7 @@ liberate_religion = { # New6
 		}
 		ROOT = {
 			OR = {
-				any_owned_bloodline = {  
+				any_owned_bloodline = { 
 					has_bloodline_flag = bloodline_religious_liberation
 					bloodline_is_active_for = PREV
 				}
@@ -1597,7 +1597,7 @@ liberate_religion = { # New6
 			}
 			independent = yes
 			OR = {
-				any_owned_bloodline = {  
+				any_owned_bloodline = { 
 					has_bloodline_flag = bloodline_religious_liberation
 					bloodline_is_active_for = PREV
 				}
@@ -2478,7 +2478,7 @@ unjust_conquest = { # New7
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes
 			}
@@ -2951,7 +2951,7 @@ tributary_permanent_cb = { # New8
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes 
 			}
@@ -2986,7 +2986,7 @@ tributary_permanent_cb = { # New8
 			make_tributary = { who = FROM tributary_type = permanent }
 		}
 		
-		if  = {
+		if = {
 			limit = {
 				ROOT = {
 					uses_decadence = yes
@@ -2996,7 +2996,7 @@ tributary_permanent_cb = { # New8
 				decadence = -10
 			}
 		}
-		if  = {
+		if = {
 			limit = {
 				ROOT = {
 					is_nomadic = yes
@@ -3090,7 +3090,7 @@ tributary_permanent_cb = { # New8
 		factor = 1
 		
 		modifier = {
-			factor = 0.5  # Low prio CB
+			factor = 0.5 # Low prio CB
 		}
 		modifier = { #Focus on Coronation first.
 			factor = 0.1
@@ -3306,7 +3306,7 @@ tributary_nomad_cb = { # New9
 			make_tributary = { who = FROM tributary_type = nomadic }
 		}
 		
-		if  = {
+		if = {
 			limit = {
 				ROOT = {
 					uses_decadence = yes
@@ -3316,7 +3316,7 @@ tributary_nomad_cb = { # New9
 				decadence = -10
 			}
 		}
-		if  = {
+		if = {
 			limit = {
 				ROOT = {
 					is_nomadic = yes
@@ -5331,7 +5331,7 @@ pepin_religious = {
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes 
 			}
@@ -5464,7 +5464,7 @@ pepin_religious = {
 					religion_head = { 
 						any_artifact = { 
 							has_artifact_flag = christian
-							NOR =  { 
+							NOR = { 
 								has_artifact_flag = very_rare
 								has_artifact_flag = unique #Won't give the holiest ones away.
 							}
@@ -5894,7 +5894,7 @@ roman_christian_revolt = {
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes 
 			}
@@ -6073,7 +6073,7 @@ abrahamic_antihellenic_revolt = {
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes 
 			}
@@ -6349,7 +6349,7 @@ flower_war_cb = {
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes 
 			}
@@ -6650,7 +6650,7 @@ childrens_crusade = {
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes 
 			}
@@ -6744,7 +6744,7 @@ childrens_crusade = {
 					limit = { 
 						is_female = no
 					} 
-					create_bloodline = { type = crusader_kid_bloodline }  
+					create_bloodline = { type = crusader_kid_bloodline } 
 				}
 				if = { 
 					limit = { 
@@ -6753,7 +6753,7 @@ childrens_crusade = {
 					create_bloodline = { 
 						type = crusader_kid_bloodline 
 						inheritance = matrilineal
-					}  
+					} 
 				}
 				set_bloodline_founder_religion_flag_effect = yes
 				any_player = { 
@@ -6776,7 +6776,7 @@ childrens_crusade = {
 						is_religious = yes
 						type = holy_war
 					}
-					if  = {
+					if = {
 						limit = {
 							primary_title = { is_primary_type_title = no } # Mercs, the Pope, Holy Orders, etc
 							PREV = { 
@@ -7042,7 +7042,7 @@ matriarchal_deposition_war = {
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes
 			}
@@ -7514,7 +7514,7 @@ patriarchal_deposition_war = {
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes
 			}
@@ -7738,7 +7738,7 @@ patriarchal_deposition_war = {
 								piety = 100
 								save_event_target_as = new_swapped_ruler
 								usurp_title = { target = event_target:title_usurped type = invasion }
-								event_target:scoped_loser  = {
+								event_target:scoped_loser = {
 									any_demesne_title = {
 										limit = {
 											tier = PREVPREV
@@ -7747,7 +7747,7 @@ patriarchal_deposition_war = {
 										add_pressed_claim = PREV
 									}
 								}
-								event_target:scoped_loser  = { set_defacto_liege = event_target:new_swapped_ruler }
+								event_target:scoped_loser = { set_defacto_liege = event_target:new_swapped_ruler }
 							}
 						}
 					}

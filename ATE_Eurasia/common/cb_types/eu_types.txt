@@ -79,7 +79,7 @@ imperial_ottoman_restoration = {
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes 
 			}
@@ -378,7 +378,7 @@ pirate_county_conquest = {
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes 
 			}
@@ -638,7 +638,7 @@ pirate_invasion = {
 	
 	can_use_title = {
 		#is_valid_viking_invasion_target = FROM # Checks that FROM holds the right amount of territory in the kingdom
-		num_title_realm_provs  = {
+		num_title_realm_provs = {
 			who = FROM
 			value >= 6
 		}
@@ -656,7 +656,7 @@ pirate_invasion = {
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
-			attacker = {  
+			attacker = { 
 				sound_effect = china_angered_emperor
 				detract_grace_super_huge_effect = yes 
 			}
@@ -936,7 +936,7 @@ pirate_invasion = {
 		# hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		# if = {
 			# limit = { defender = { is_offmap_governor = offmap_china } }
-			# attacker = {  
+			# attacker = { 
 				# sound_effect = china_angered_emperor
 				# detract_grace_super_huge_effect = yes 
 			# }

@@ -2,13 +2,13 @@ decisions = {
 
 #### Latin
 order_latin_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
 		religion = catholic
-		religion = penitants
+		religion = penitant
 		religion = mariavite
 		religion = insular
 		religion = apparitionist
@@ -53,9 +53,9 @@ order_latin_bible = {
 		has_artifact = vetus_itala
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -67,21 +67,21 @@ order_latin_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.400 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.400 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 #### Greek
 order_greek_septuagint = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -107,7 +107,7 @@ order_greek_septuagint = {
 		religion = laestadian
 		religion = calvinist
 		religion = catholic
-		religion = penitants
+		religion = penitant
 		religion = mariavite
 		religion = insular
 		religion = apparitionist
@@ -117,9 +117,9 @@ order_greek_septuagint = {
 		has_artifact = septuagint
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -131,20 +131,20 @@ order_greek_septuagint = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.407 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.407 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 order_greek_new_testament = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -170,7 +170,7 @@ order_greek_new_testament = {
 		religion = laestadian
 		religion = calvinist
 		religion = catholic
-		religion = penitants
+		religion = penitant
 		religion = mariavite
 		religion = insular
 		religion = apparitionist
@@ -180,9 +180,9 @@ order_greek_new_testament = {
 		has_artifact = greek_new_testament
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -194,21 +194,21 @@ order_greek_new_testament = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.410 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.410 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 #### Coptic
 order_coptic_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -228,7 +228,7 @@ order_coptic_bible = {
 		religion = laestadian
 		religion = calvinist
 		religion = catholic
-		religion = penitants
+		religion = penitant
 		religion = mariavite
 		religion = insular
 		religion = apparitionist
@@ -238,9 +238,9 @@ order_coptic_bible = {
 		has_artifact = coptic_bible
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -252,21 +252,21 @@ order_coptic_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.413 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.413 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 #### Geez
 order_geez_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -284,7 +284,7 @@ order_geez_bible = {
 		religion = laestadian
 		religion = calvinist
 		religion = catholic
-		religion = penitants
+		religion = penitant
 		religion = mariavite
 		religion = insular
 		religion = apparitionist
@@ -294,9 +294,9 @@ order_geez_bible = {
 		has_artifact = geez_bible
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -308,21 +308,21 @@ order_geez_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.416 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.416 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 #### Armenian
 order_armenian_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -340,7 +340,7 @@ order_armenian_bible = {
 		religion = laestadian
 		religion = calvinist
 		religion = catholic
-		religion = penitants
+		religion = penitant
 		religion = mariavite
 		religion = insular
 		religion = apparitionist
@@ -350,9 +350,9 @@ order_armenian_bible = {
 		has_artifact = armenian_bible
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -364,21 +364,21 @@ order_armenian_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.419 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.419 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 #### Georgian
 order_georgian_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -408,7 +408,7 @@ order_georgian_bible = {
 		religion = laestadian
 		religion = calvinist
 		religion = catholic
-		religion = penitants
+		religion = penitant
 		religion = mariavite
 		religion = insular
 		religion = apparitionist
@@ -418,9 +418,9 @@ order_georgian_bible = {
 		has_artifact = georgian_bible
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -432,21 +432,21 @@ order_georgian_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.422 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.422 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 #### Arabic
 order_arabic_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -464,9 +464,9 @@ order_arabic_bible = {
 		has_artifact = arabic_bible
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -478,21 +478,21 @@ order_arabic_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.425 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.425 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 #### Peshitta
 order_peshitta_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -525,9 +525,9 @@ order_peshitta_bible = {
 		has_artifact = peshitta_bible
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -539,22 +539,22 @@ order_peshitta_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.428 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.428 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 
 #### Old slavonic
 order_old_slavonic_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -585,7 +585,7 @@ order_old_slavonic_bible = {
 		religion = laestadian
 		religion = calvinist
 		religion = catholic
-		religion = penitants
+		religion = penitant
 		religion = mariavite
 		religion = insular
 		religion = apparitionist
@@ -595,9 +595,9 @@ order_old_slavonic_bible = {
 		has_artifact = old_slavonic_bible
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -609,21 +609,21 @@ order_old_slavonic_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.431 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.431 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 #### Italian
 order_italian_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -641,9 +641,9 @@ order_italian_bible = {
 		has_artifact = italian_bible
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -655,21 +655,21 @@ order_italian_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.434 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.434 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 #### Spanish
 order_spanish_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -687,9 +687,9 @@ order_spanish_bible = {
 		has_artifact = spanish_bible
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -701,21 +701,21 @@ order_spanish_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.437 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.437 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 #### Catalan
 order_catalan_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -733,9 +733,9 @@ order_catalan_bible = {
 		has_artifact = catalan_bible
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -747,23 +747,23 @@ order_catalan_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.440 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.440 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 
 
 #### German
 order_german_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -788,9 +788,9 @@ order_german_bible = {
 		has_artifact = german_bible
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -802,22 +802,22 @@ order_german_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.446 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.446 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 
 #### French
 order_french_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -835,9 +835,9 @@ order_french_bible = {
 		has_artifact = french_bible
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -849,22 +849,22 @@ order_french_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.449 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.449 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 
 #### Danish
 order_danish_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -881,9 +881,9 @@ order_danish_bible = {
 		has_artifact = danish_new_testament
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -895,21 +895,21 @@ order_danish_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.455 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.455 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 #### Swedish
 order_swedish_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -926,9 +926,9 @@ order_swedish_bible = {
 		has_artifact = swedish_new_testament
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -940,20 +940,20 @@ order_swedish_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.457 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.457 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 #### Norwegian
 order_norwegian_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -970,9 +970,9 @@ order_norwegian_bible = {
 		has_artifact = norwegian_old_testament
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -984,23 +984,23 @@ order_norwegian_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.459 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.459 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
-  
+ }
+ 
 }
 
 
 #### Hungarian
 order_hungarian_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -1017,9 +1017,9 @@ order_hungarian_bible = {
 		has_artifact = hungarian_old_testament
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -1031,22 +1031,22 @@ order_hungarian_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.461 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.461 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 
 #### Irish
 order_irish_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -1063,9 +1063,9 @@ order_irish_bible = {
 		has_artifact = irish_new_testament
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -1077,20 +1077,20 @@ order_irish_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.463 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.463 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 #### Breton
 order_breton_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -1107,9 +1107,9 @@ order_breton_bible = {
 		has_artifact = breton_new_testament
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -1121,20 +1121,20 @@ order_breton_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.465 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.465 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 #### Welsh
 order_welsh_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -1151,9 +1151,9 @@ order_welsh_bible = {
 		has_artifact = welsh_bible
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -1165,22 +1165,22 @@ order_welsh_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.467 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.467 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 
 #### English
 order_english_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -1197,9 +1197,9 @@ order_english_bible = {
 		has_artifact = english_new_testament
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -1211,23 +1211,23 @@ order_english_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.472 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.472 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 
 
 #### bohemian
 order_bohemian_bible = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	religion_group = christian
 	is_landed = yes
 	OR = {
@@ -1244,9 +1244,9 @@ order_bohemian_bible = {
 		has_artifact = bohemian_new_testament
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -1258,21 +1258,21 @@ order_bohemian_bible = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.477 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.477 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 #### Jewish
 order_ciml_torah = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	is_landed = yes
 	OR = {
 		religion_group = jewish_group
@@ -1288,9 +1288,9 @@ order_ciml_torah = {
 		has_character_modifier = expelled_jewish
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -1302,20 +1302,20 @@ order_ciml_torah = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.487 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.487 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 order_ciml_tanakh = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	is_landed = yes
 	OR = {
 		religion_group = jewish_group
@@ -1331,9 +1331,9 @@ order_ciml_tanakh = {
 		has_character_modifier = expelled_jewish
 		has_character_flag = ciml_hide_bible_decisions
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -1345,43 +1345,43 @@ order_ciml_tanakh = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.489 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.489 }
 	add_character_modifier = { 
 		name = ordered_bible
 		months = 60
 	}
-  }
+ }
 }
 
 #### Show/Hide
 hide_bible_decisions = {
-  is_high_prio = yes
-  ai_check_interval = 35000 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ is_high_prio = yes
+ ai_check_interval = 35000 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	ai = no
 	OR = {
 		religion_group = christian
 		religion_group = jewish_group
 		religion_group = muslim
 	}
-	NOT  = { has_character_flag = ciml_hide_bible_decisions }
-  }
-  
-  allow = {
+	NOT = { has_character_flag = ciml_hide_bible_decisions }
+ }
+ 
+ allow = {
 	ai = no
-  }
-  
-  effect = {
+ }
+ 
+ effect = {
 	set_character_flag = ciml_hide_bible_decisions
-  }
+ }
 }
 
 show_bible_decisions = { 
-  ai_check_interval = 35000 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 35000 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	ai = no
 	OR = {
 		religion_group = christian
@@ -1389,21 +1389,21 @@ show_bible_decisions = {
 		religion_group = muslim
 	}
 	has_character_flag = ciml_hide_bible_decisions
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	ai = no
-  }
-  
-  effect = {
+ }
+ 
+ effect = {
 	clr_character_flag = ciml_hide_bible_decisions
-  }
+ }
 }
 
 #### Qurans
 order_arab_quran = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	OR = {
 		trait = sympathy_islam
 		religion_group = muslim
@@ -1415,9 +1415,9 @@ order_arab_quran = {
 		has_character_flag = ciml_ordered_quran
 		religion_group = islamosyncretic
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	OR = {
@@ -1429,17 +1429,17 @@ order_arab_quran = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.494 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.494 }
 	set_character_flag = ciml_ordered_quran
-  }
+ }
 }
 
 order_persian_quran = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	OR = {
 		trait = sympathy_islam
 		religion_group = muslim
@@ -1466,9 +1466,9 @@ order_persian_quran = {
 			}
 		}
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	NOT = { trait = ashari }
@@ -1481,17 +1481,17 @@ order_persian_quran = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.497 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.497 }
 	set_character_flag = ciml_ordered_quran
-  }
+ }
 }
 
 order_latin_quran = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	OR = {
 		AND = {
 			trait = mutazilite
@@ -1502,7 +1502,7 @@ order_latin_quran = {
 			trait = sympathy_islam
 		}
 		AND = {
-			religion = penitants
+			religion = penitant
 			trait = sympathy_islam
 		}
 		AND = {
@@ -1552,9 +1552,9 @@ order_latin_quran = {
 			}
 		}
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	NOT = { trait = ashari }
@@ -1566,17 +1566,17 @@ order_latin_quran = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.499 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.499 }
 	set_character_flag = ciml_ordered_quran
-  }
+ }
 }
 
 order_catalan_quran = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	OR = {
 		AND = {
 			trait = mutazilite
@@ -1614,9 +1614,9 @@ order_catalan_quran = {
 			}
 		}
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	NOT = { trait = ashari }
@@ -1628,17 +1628,17 @@ order_catalan_quran = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.502 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.502 }
 	set_character_flag = ciml_ordered_quran
-  }
+ }
 }
 
 order_greek_quran = { 
-  ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 300 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	OR = {
 		AND = {
 			trait = mutazilite
@@ -1676,9 +1676,9 @@ order_greek_quran = {
 			}
 		}
 	}
-  }
-  
-  allow = {
+ }
+ 
+ allow = {
 	wealth = 500
 	NOT = { has_character_modifier = ordered_bible }
 	NOT = { trait = ashari }
@@ -1690,12 +1690,12 @@ order_greek_quran = {
 			NOT = { has_dlc = "Way of Life" }
 		}
 	}
-  }
-  
-  effect = {
-    character_event = { id = CIML.504 }
+ }
+ 
+ effect = {
+	character_event = { id = CIML.504 }
 	set_character_flag = ciml_ordered_quran
-  }
+ }
 }
 
 }

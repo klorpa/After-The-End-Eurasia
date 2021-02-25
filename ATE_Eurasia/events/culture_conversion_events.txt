@@ -206,12 +206,12 @@ province_event = {
 		modifier = {
 			factor = 0.6
 			owner = {
-		    	any_owned_bloodline = {
-    				has_bloodline_flag = cultural_saintly_bloodline
-    				founder = {
-    					culture = PREVPREV
-    				}
-    			}
+				any_owned_bloodline = {
+					has_bloodline_flag = cultural_saintly_bloodline
+					founder = {
+						culture = PREVPREV
+					}
+				}
 			}
 		}
 		modifier = { #Roman Renaissance.
@@ -713,9 +713,9 @@ character_event = {
 				}
 			}
 			score_value = { #Prioritizes selecting an interesting courtier...
-	            value = 10
-	            interesting_courtier_selection_score = yes
-	        }
+				value = 10
+				interesting_courtier_selection_score = yes
+			}
 			culture = english
 			hidden_tooltip = {
 				character_event = { id = 55006 days = 3 }
@@ -780,9 +780,9 @@ character_event = {
 				}
 			}
 			score_value = { #Prioritizes selecting an interesting courtier...
-	            value = 10
-	            interesting_courtier_selection_score = yes
-	        }
+				value = 10
+				interesting_courtier_selection_score = yes
+			}
 			culture = english
 			hidden_tooltip = {
 				character_event = { id = 55006 days = 3 }

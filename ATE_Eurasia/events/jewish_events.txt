@@ -1,18 +1,18 @@
 namespace = jewish
 ###############################################################
-#	JEWISH EVENTS - After the End Eurasia					  #
-#															  #
-#	Religious Trait Selection (jewish.1 - jewish.3)			  #
-#	Haredi Events (jewish.1x - jewish.3x)				      #
-#	Hasakalah Events (jewish.4x - jewish.6x)				  #
-#	Ivri Events (jewish.7x - jewish.9x)						  #
-#															  #
-#	General Jewish Holidays and Events (jewish.1xx)			  #
-#	Lifecycle Events (jewish.10x-jewish.14x)				  #
-#	Yeshiva/Theology Events (jewish.15x-jewish.19x)			  #
-#															  #
-#	Jewish Maintanance Events for AI (jewish.2xx)			  #
-#															  #
+#	JEWISH EVENTS - After the End Eurasia					 #
+#															 #
+#	Religious Trait Selection (jewish.1 - jewish.3)			 #
+#	Haredi Events (jewish.1x - jewish.3x)					 #
+#	Hasakalah Events (jewish.4x - jewish.6x)				 #
+#	Ivri Events (jewish.7x - jewish.9x)						 #
+#															 #
+#	General Jewish Holidays and Events (jewish.1xx)			 #
+#	Lifecycle Events (jewish.10x-jewish.14x)				 #
+#	Yeshiva/Theology Events (jewish.15x-jewish.19x)			 #
+#															 #
+#	Jewish Maintanance Events for AI (jewish.2xx)			 #
+#															 #
 ###############################################################
 
 ################Choose Jewish Religious Movement##################################
@@ -505,7 +505,7 @@ narrative_event = {
 	border = GFX_event_narrative_frame_religion
 	is_triggered_only = yes
 
-	option = {	  
+	option = {	 
 		name = EVTOPTA_pale_settlement
 		trigger = {
 			religion_group = jewish_group
@@ -538,7 +538,7 @@ narrative_event = {
 			}
 		}
 	}
-	option = {	  
+	option = {	 
 		name = EVTOPTB_pale_settlement
 		trigger = {
 			NOT = {
@@ -565,7 +565,7 @@ narrative_event = {
 
 ######################HASKALAH EVENTS##################
 
-#####INTER FAITH  DIALOGUE EVNETS
+#####INTER FAITH DIALOGUE EVNETS
 character_event = { #gentile can accept or deny it
 	id = jewish.31
 	desc = EVTDESC_dialogue_1
@@ -611,7 +611,7 @@ character_event = { #accepted, event for jew
 	desc = EVTDESC_dialogue_2
 	picture = GFX_evt_bishop
 	is_triggered_only = yes
-	trigger =  {religion = haskalah}
+	trigger = {religion = haskalah}
 	option = {
 		name = EVTOPTA_dialogue_2
 		event_target:dialogue_gentile = {
@@ -1087,7 +1087,7 @@ character_event = { #reading in the Synagogue
 						}
 					}
 				}
-	    	}
+			}
 			100 = { #Heir accidently insults visiting vassal
 				character_event = { id = jewish.104 days = 5 } # send event
 				trigger = {
@@ -1203,7 +1203,7 @@ character_event = { #reading in the Synagogue
 						has_character_flag = torah_failure
 					}
 				}
-	    	}
+			}
 			fallback = {
 				character_event = {id = jewish.108 days = 10}
 			}
@@ -1730,25 +1730,25 @@ character_event = {
 	
 # Tombola (reworked original script to stop MP spam)
 character_event = {
-    id = jewish.153
-    hide_window = yes
-    is_triggered_only = yes
+	id = jewish.153
+	hide_window = yes
+	is_triggered_only = yes
 
-    trigger = {
-    	event_target:chevruta_partner = {
+	trigger = {
+		event_target:chevruta_partner = {
 			is_alive = yes
 			prisoner = no
 		}
-    }
-    fail_trigger_effect = {
-    	clr_flags_introduce_heir_effect = yes
-    }
+	}
+	fail_trigger_effect = {
+		clr_flags_introduce_heir_effect = yes
+	}
 
-    immediate = {
-    	hidden_effect = {
-    		if = { #If you had at least 3 events already
-	    		limit = {
-	    			calc_true_if = {
+	immediate = {
+		hidden_effect = {
+			if = { #If you had at least 3 events already
+				limit = {
+					calc_true_if = {
 						amount = 3
 						has_character_flag = kosher_evt_heir_1
 						has_character_flag = kosher_evt_heir_2
@@ -1761,33 +1761,33 @@ character_event = {
 						has_character_flag = kosher_evt_heir_7
 						has_character_flag = kosher_evt_heir_8
 					}
-	    		}
-	    		character_event = { id = jewish.154 days = 10 random = 10 } #Heir is groomed!
-	    		break = yes # Skip tombola, you're done!
-	    	}
+				}
+				character_event = { id = jewish.154 days = 10 random = 10 } #Heir is groomed!
+				break = yes # Skip tombola, you're done!
+			}
 
-	    	random_list = {
-	    		100 = { #Partner helps with a conundrum
+			random_list = {
+				100 = { #Partner helps with a conundrum
 					trigger = {
 						NOT = { has_character_flag = kosher_evt_heir_1 }
 					}
 					character_event = { id = jewish.155 days = 30 random = 10 } #send event
 					set_character_flag = kosher_evt_heir_1
-	    		}
+				}
 				100 = { #inspired reading
 					trigger = {
 						NOT = { has_character_flag = kosher_evt_heir_1 }
 					}
 					character_event = { id = jewish.156 days = 30 random = 10 } # send event
 					set_character_flag = kosher_evt_heir_2
-	    		}
-	    		100 = { #inspired reading (again!)
+				}
+				100 = { #inspired reading (again!)
 					trigger = {
 						NOT = { has_character_flag = kosher_evt_heir_1 }
 					}
 					character_event = { id = jewish.156 days = 30 random = 10 } # send event
 					set_character_flag = kosher_evt_heir_2_B
-	    		}
+				}
 				100 = { #confused reading
 					trigger = {
 						NOT = { has_character_flag = kosher_evt_heir_1 }
@@ -1837,9 +1837,9 @@ character_event = {
 					character_event = { id = jewish.161 days = 10 random = 5 } #send event
 					set_character_flag = kosher_evt_heir_8
 				}
-	    	}
-    	}
-    }
+			}
+		}
+	}
 }	
 
 # Yeshiva End Event

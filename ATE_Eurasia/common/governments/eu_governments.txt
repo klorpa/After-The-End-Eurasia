@@ -17,19 +17,19 @@ feudal_governments = {
 		frame_suffix = "_merchantrepublic"
 		title_prefix = "confederation_"
 		potential = {
-            OR = {
-                primary_title = {
-                    has_law = succ_confederation_elective
-                }
-                top_liege = {
-                    government = confederation_government
-                    OR = {
+			OR = {
+				primary_title = {
+					has_law = succ_confederation_elective
+				}
+				top_liege = {
+					government = confederation_government
+					OR = {
 					tier = COUNT
-                    tier = DUKE
-                    tier = KING
-                    tier = EMPEROR
-                    }
-                }
+					tier = DUKE
+					tier = KING
+					tier = EMPEROR
+					}
+				}
 				primary_title = {
 					OR = {
 						title = k_switzerland
@@ -37,7 +37,7 @@ feudal_governments = {
 						title = k_san_marino
 					}
 				}
-            }
+			}
 			primary_title = { NOT = { title = d_liechtenstein } }
 			is_patrician = no
 		}
@@ -101,10 +101,10 @@ feudal_governments = {
 					government = bureaucratic_government
 					OR = {
 					tier = COUNT
-                    tier = DUKE
-                    tier = KING
-                    tier = EMPEROR
-                    }
+					tier = DUKE
+					tier = KING
+					tier = EMPEROR
+					}
 				}
 			}
 			is_patrician = no

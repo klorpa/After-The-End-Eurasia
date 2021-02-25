@@ -1,7 +1,7 @@
 decisions = {
 prepare_for_lent = { 
-  ai_check_interval = 200 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
-  potential = {
+ ai_check_interval = 200 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+ potential = {
 	ai = no
 	OR = {
 			religion = anglican
@@ -20,9 +20,9 @@ prepare_for_lent = {
 			religion = barlaamite
 	
 	}
-  }
-  
-  allow = {		
+ }
+ 
+ allow = {		
 		NOT = { trait = gluttonous }
 		NOT = { trait = hedonist }
 		NOT = { trait = pregnant }
@@ -41,15 +41,15 @@ prepare_for_lent = {
 	NOT = {
 		month = 4
 	}
-  }
-  
-  effect = {
+ }
+ 
+ effect = {
 	character_event = { id = CIML.301 }
 	add_character_modifier = { 
 	name = lent
 	months = 4 
 	}
 	}
-  }
+ }
 
 }

@@ -772,11 +772,11 @@ narrative_event = {
 						religion = nizami
 						religion = ruhi
 					}
-	    			NOT = {
-	    				any_owned_bloodline = {
-    						has_bloodline_flag = ottoman_bloodline #Not if already member of a famous historical Ottoman Bloodline.
-    					}
-    				}
+					NOT = {
+						any_owned_bloodline = {
+							has_bloodline_flag = ottoman_bloodline #Not if already member of a famous historical Ottoman Bloodline.
+						}
+					}
 				}
 				create_bloodline = {
 					type = ottoman_emperor_male
@@ -795,8 +795,8 @@ narrative_event = {
 						religion = nizami
 						religion = ruhi
 					}
-    			NOT = {
-    				any_owned_bloodline = {
+				NOT = {
+					any_owned_bloodline = {
 						has_bloodline_flag = ottoman_bloodline #Not if already member of a famous historical Ottoman Bloodline.
 					}
 				}

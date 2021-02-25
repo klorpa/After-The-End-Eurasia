@@ -111,10 +111,10 @@ character_event = { #claim the blood of the sun king
 						factor = 3
 						higher_real_tier_than = KING
 					}
-					character_event  = { id = skc.4	days = 30	random = 10 }
+					character_event = { id = skc.4	days = 30	random = 10 }
 				}
 				90 = {
-					character_event  = { id = skc.5	days = 30	random = 10 }
+					character_event = { id = skc.5	days = 30	random = 10 }
 				}
 			}
 		}
@@ -145,10 +145,10 @@ character_event = { #claim the blood of the sun king
 						factor = 3
 						higher_real_tier_than = KING
 					}
-					character_event  = { id = skc.4	days = 30	random = 10 }
+					character_event = { id = skc.4	days = 30	random = 10 }
 				}
 				90 = {
-					character_event  = { id = skc.5	days = 30	random = 10 }
+					character_event = { id = skc.5	days = 30	random = 10 }
 				}
 			}
 		}
@@ -300,7 +300,7 @@ character_event = {
 	option = {
 		trigger = {
 			any_courtier = {
-				is_ill =  yes
+				is_ill = yes
 				religion = sun_king_cultist
 				is_landed = no
 			}
@@ -1048,7 +1048,7 @@ character_event = { # Bard character arrives
 	}
 }
 
-#Landless ladies  might ask for protection.
+#Landless ladies might ask for protection.
 character_event = { 
 	id = skc.104
 	hide_window = yes
@@ -1075,13 +1075,13 @@ character_event = {
 			trait = content
 		}
 		NOT = { has_character_flag = special_marshal }
-		liege = {  
+		liege = { 
 			OR = { 
 				NOT = { religion = ROOT }
 				NOT = { reverse_opinion = { who = ROOT value = -40 } }
 				is_rival = ROOT
 			}
-			any_neighbor_independent_ruler = {  
+			any_neighbor_independent_ruler = { 
 				AND = {
 					NOT = { trait = incapable }
 					religion = chevalier
@@ -1095,8 +1095,8 @@ character_event = {
 	immediate = {
 		random = {
 			chance = 5
-			random_neighbor_independent_ruler = {  
-				limit = {  
+			random_neighbor_independent_ruler = { 
+				limit = { 
 					NOT = { trait = incapable }
 					religion = chevalier
 					trait = worthy_knight
@@ -1156,18 +1156,18 @@ character_event = { # Duel for the Damsel!
 	#Refuse her.
 	
 	
-    immediate = {
-        event_target:damsel_in_distress = { #choose a target...
-            any_host_courtier = {
-                limit = { 
-                    prisoner = no
-                    society_rank == 4
-                    ai = yes
-                    NOT = { trait = incapable }
-                    NOT = { has_character_flag = call_to_legend_active }
-                }
-                score_value = { #Prioritizes selecting some kind of warrior...
-                    value = 100
+	immediate = {
+		event_target:damsel_in_distress = { #choose a target...
+			any_host_courtier = {
+				limit = { 
+					prisoner = no
+					society_rank == 4
+					ai = yes
+					NOT = { trait = incapable }
+					NOT = { has_character_flag = call_to_legend_active }
+				}
+				score_value = { #Prioritizes selecting some kind of warrior...
+					value = 100
 					additive_modifier = {
 						value = 1000
 						OR = {
@@ -1175,18 +1175,18 @@ character_event = { # Duel for the Damsel!
 							has_job_title = job_marshal
 						}
 					}
-                }
-                save_event_target_as = combatant_2
-            }
-        }
-        save_event_target_as = combatant_1
-    }
+				}
+				save_event_target_as = combatant_2
+			}
+		}
+		save_event_target_as = combatant_1
+	}
 
-    option = {
-        name = EVTOPTA_damsel_distress_2 #I have been itching for a fight anyway!
-        character_event = { id = HFP.10100 } #Send actual duel events... 
+	option = {
+		name = EVTOPTA_damsel_distress_2 #I have been itching for a fight anyway!
+		character_event = { id = HFP.10100 } #Send actual duel events... 
 		character_event = { id = skc.107 days = 2 }
-    }
+	}
 	
 
 
@@ -1214,12 +1214,12 @@ character_event = { # victory or defeat
 		trigger = { has_character_modifier = recent_duel_victory }
 		text = EVTDES1_damsel_distress_3
 		picture = GFX_evt_homage_hf
-    }
-    desc = {
+	}
+	desc = {
 		trigger = { NOT = { has_character_modifier = recent_duel_victory } }
 		text = EVTDES2_damsel_distress_3
 		picture = GFX_evt_bad_news
-    }
+	}
 	is_triggered_only = yes
 	
 	
@@ -1311,7 +1311,7 @@ character_event = { # victory or defeat
 	}
 	option = {
 		trigger = {
-			NOT =  { has_character_modifier = recent_duel_victory }
+			NOT = { has_character_modifier = recent_duel_victory }
 		}
 		name = EVTOPTC_damsel_distress_3
 		event_target:damsel_in_distress = {

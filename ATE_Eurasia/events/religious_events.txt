@@ -485,7 +485,7 @@ letter_event = {
 		ai_chance = {
 			factor = 10
 			modifier = {
-				factor =  0
+				factor = 0
 				NOT = {
 					trait = cynical
 					trait = excommunicated
@@ -1504,7 +1504,7 @@ character_event = {
 			rightful_religious_head = ROOT
 			is_any_kinslayer_trigger = yes
 			piety = 100
-			reverse_opinion  = { who = ROOT value = 0 }
+			reverse_opinion = { who = ROOT value = 0 }
 			NOT = { has_character_flag = kinslaying_offered }
 		}
 	}
@@ -1519,7 +1519,7 @@ character_event = {
 				rightful_religious_head = ROOT
 				is_any_kinslayer_trigger = yes
 				piety = 100
-				reverse_opinion  = { who = ROOT value = 0 }
+				reverse_opinion = { who = ROOT value = 0 }
 			}
 			set_character_flag = kinslaying_offered
 		}
@@ -1535,7 +1535,7 @@ character_event = {
 				rightful_religious_head = ROOT
 				is_any_kinslayer_trigger = yes
 				piety = 100
-				reverse_opinion  = { who = ROOT value = 0 }
+				reverse_opinion = { who = ROOT value = 0 }
 			}
 			
 			character_event = { id = 39211 tooltip = EVTTOOLTIP39211 }
@@ -1585,7 +1585,7 @@ character_event = {
 		name = "EVTOPTB39211"
 		ai_chance = { factor = 0 }
 		add_trait = cynical
-		FROM = { character_event = { id = 39213 days = 1  tooltip = EVTTOOLTIP39213 } }
+		FROM = { character_event = { id = 39213 days = 1 tooltip = EVTTOOLTIP39213 } }
 	}
 }
 
@@ -1689,7 +1689,7 @@ character_event = {
 			}
 			random = {
 				chance = 25
-				host = { character_event = { id = 39222 days = 3 tooltip = EVTTOOLTIP39222 }  }
+				host = { character_event = { id = 39222 days = 3 tooltip = EVTTOOLTIP39222 } }
 			}
 		}
 		
@@ -2135,7 +2135,7 @@ character_event = {
 			}
 		}
 		hidden_tooltip = {
-			FROM = {  character_event = { id = 39243 days = 1  } }
+			FROM = { character_event = { id = 39243 days = 1 } }
 		}	
 		clr_character_flag = pope_dislikes_heathen_employed
 	}
@@ -2144,7 +2144,7 @@ character_event = {
 		ai_chance = {
 			factor = 1
 			modifier = {
-				factor =  0
+				factor = 0
 				NOT = {
 					trait = cynical
 					trait = excommunicated
@@ -2170,7 +2170,7 @@ character_event = {
 		}
 		piety = -50
 		hidden_tooltip = {
-			FROM = {  character_event = { id = 39244 days = 1 } }
+			FROM = { character_event = { id = 39244 days = 1 } }
 		}
 	}
 }
@@ -2344,7 +2344,7 @@ character_event = {
 		}
 
 		hidden_tooltip = {
-			FROM = {  character_event = { id = 39262 days = 1   } }
+			FROM = { character_event = { id = 39262 days = 1 } }
 		}	
 		clr_character_flag = patriarch_dislikes_heathen_employed
 	}
@@ -2367,7 +2367,7 @@ character_event = {
 			}
 		}
 		hidden_tooltip = {
-			FROM = {  character_event = { id = 39263 days = 1  } }
+			FROM = { character_event = { id = 39263 days = 1 } }
 		}	
 		clr_character_flag = patriarch_dislikes_heathen_employed
 	}
@@ -2376,7 +2376,7 @@ character_event = {
 		ai_chance = {
 			factor = 1
 			modifier = {
-				factor =  0
+				factor = 0
 				NOT = {
 					trait = cynical
 				}
@@ -2405,7 +2405,7 @@ character_event = {
 		piety = -50
 		
 		hidden_tooltip = {
-			FROM = {  character_event = { id = 39264 days = 1 } }
+			FROM = { character_event = { id = 39264 days = 1 } }
 		}
 	}
 }
@@ -2523,7 +2523,7 @@ character_event = {
 				years = 5
 			}
 		}
-#		clr_character_flag  = ask_for_indulgence	
+#		clr_character_flag = ask_for_indulgence	
 	}
 	option = {
 		name = "GLORY_TO_HIGHGOD"
@@ -2565,7 +2565,7 @@ character_event = {
 				years = 5
 			}
 		}
-#		clr_character_flag  = ask_for_indulgence	
+#		clr_character_flag = ask_for_indulgence	
 	}
 	option = {
 		name = "GLORY_TO_HIGHGOD"
@@ -2608,7 +2608,7 @@ character_event = {
 				years = 5
 			}
 		}
-#		clr_character_flag  = ask_for_indulgence	
+#		clr_character_flag = ask_for_indulgence	
 	}
 	option = {
 		name = "GLORY_TO_HIGHGOD"
@@ -2650,7 +2650,7 @@ character_event = {
 				years = 5
 			}
 		}
-#		clr_character_flag  = ask_for_indulgence	
+#		clr_character_flag = ask_for_indulgence	
 	}
 	option = {
 		name = "EVTOPTB39251"
@@ -2662,7 +2662,7 @@ character_event = {
 				years = 5
 			}
 		}
-		clr_character_flag  = ask_for_indulgence	
+		clr_character_flag = ask_for_indulgence	
 	}
 }
 
@@ -2714,7 +2714,7 @@ character_event = {
 				years = 10
 			}
 		}
-		clr_character_flag  = ask_for_repentance	
+		clr_character_flag = ask_for_repentance	
 	}
 	option = {
 		name = "GLORY_TO_HIGHGOD"
@@ -2739,7 +2739,7 @@ character_event = {
 				years = 10
 			}
 		}
-		clr_character_flag  = ask_for_repentance	
+		clr_character_flag = ask_for_repentance	
 	}
 	option = {
 		name = "GLORY_TO_HIGHGOD"
@@ -2764,7 +2764,7 @@ character_event = {
 				years = 10
 			}
 		}
-		clr_character_flag  = ask_for_repentance	
+		clr_character_flag = ask_for_repentance	
 	}
 	option = {
 		name = "GLORY_TO_HIGHGOD"
@@ -2788,7 +2788,7 @@ character_event = {
 				years = 10
 			}
 		}
-		clr_character_flag  = ask_for_repentance	
+		clr_character_flag = ask_for_repentance	
 	}
 	option = {
 		name = "EVTOPTB39253"
@@ -2800,7 +2800,7 @@ character_event = {
 				years = 5
 			}
 		}
-		clr_character_flag  = ask_for_repentance	
+		clr_character_flag = ask_for_repentance	
 	}
 }
 
@@ -2944,7 +2944,7 @@ character_event = {
 		piety = 50
 		
 		hidden_tooltip = {
-			FROM = {  character_event = { id = 39272 days = 13   } }
+			FROM = { character_event = { id = 39272 days = 13 } }
 		}	
 	}
 	option = {
@@ -2954,7 +2954,7 @@ character_event = {
 		}
 		piety = -50
 		hidden_tooltip = {
-			FROM = {  character_event = { id = 39273 days = 13 } }
+			FROM = { character_event = { id = 39273 days = 13 } }
 			
 			random_vassal = {
 				limit = { has_character_flag = loyal_bishop }
@@ -3020,7 +3020,7 @@ character_event = {
 			tier = baron
 			is_theocracy = yes
 			opinion = { who = ROOT value = 75 }
-			NOT = { de_jure_liege = ROOT  }
+			NOT = { de_jure_liege = ROOT }
 		}
 
 
@@ -3071,7 +3071,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA39276" 
 		prestige = 5
-		liege = {  letter_event = { id = 39277 }  }
+		liege = { letter_event = { id = 39277 } }
 	}	
 }
 
@@ -3094,7 +3094,7 @@ letter_event = {
 ###############################################################
 character_event = {
 	id = 39300
-	desc = "EVTDESC39300"	# Icon of Mary, Mother of God  
+	desc = "EVTDESC39300"	# Icon of Mary, Mother of God 
 	picture = "GFX_evt_icon"
 	border = "GFX_event_normal_frame_religion"
 
@@ -3448,7 +3448,7 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTA39311"	#
-		remove_character_modifier =  true_christian_knight
+		remove_character_modifier = true_christian_knight
 		prestige = -50
 	}
 }
@@ -3781,7 +3781,7 @@ character_event = {
 			# Historical			
 			modifier = {
 				factor = 2
-				NOT = { government = nomadic_government }  # We're already adopting civilized ways...
+				NOT = { government = nomadic_government } # We're already adopting civilized ways...
 				NOT = { government = tribal_government }
 			}
 			modifier = {
@@ -3789,7 +3789,7 @@ character_event = {
 				OR = {
 					culture = old_saxon
 					culture_group = baltic
-					culture_group = finno_ugric  # The most stubborn pagans
+					culture_group = finno_ugric # The most stubborn pagans
 				}
 				
 			}
@@ -3810,14 +3810,14 @@ character_event = {
 			
 			# Pragmatism
 			modifier = {
-				factor = 3  # Powerful rulers want a modern religion
+				factor = 3 # Powerful rulers want a modern religion
 				tier = KING
 				realm_size = 12
 			}
 			modifier = {
 				factor = 5
 				is_reformed_religion = no
-				primary_title = { has_law = tribal_organization_4 }  # Need it to reform government
+				primary_title = { has_law = tribal_organization_4 } # Need it to reform government
 				capital_holding = {
 					OR = {
 						AND = {
@@ -3847,7 +3847,7 @@ character_event = {
 					AND = {
 						any_realm_title = {
 							count = 3 
-							is_holy_site = ROOT  # Close to reforming own religion instead
+							is_holy_site = ROOT # Close to reforming own religion instead
 						}
 						religion_authority = 0.4
 					}
@@ -4058,14 +4058,14 @@ character_event = {
 			# Historical			
 			modifier = {
 				factor = 2
-				NOT = { government = nomadic_government }  # We're already adopting civilized ways...
+				NOT = { government = nomadic_government } # We're already adopting civilized ways...
 				NOT = { government = tribal_government }
 			}
 			modifier = {
 				factor = 0.2
 				OR = {
 					culture_group = baltic
-					culture_group = finno_ugric  # The most stubborn pagans
+					culture_group = finno_ugric # The most stubborn pagans
 				}
 				
 			}
@@ -4094,14 +4094,14 @@ character_event = {
 			
 			# Pragmatism
 			modifier = {
-				factor = 3  # Powerful rulers want a modern religion
+				factor = 3 # Powerful rulers want a modern religion
 				tier = KING
 				realm_size = 12
 			}
 			modifier = {
 				factor = 5
 				is_reformed_religion = no
-				primary_title = { has_law = tribal_organization_4 }  # Need it to reform government
+				primary_title = { has_law = tribal_organization_4 } # Need it to reform government
 				capital_holding = {
 					OR = {
 						AND = {
@@ -4135,7 +4135,7 @@ character_event = {
 					AND = {
 						any_realm_title = {
 							count = 3 
-							is_holy_site = ROOT  # Close to reforming own religion instead
+							is_holy_site = ROOT # Close to reforming own religion instead
 						}
 						religion_authority = 0.4
 					}
@@ -4212,13 +4212,13 @@ character_event = {
 			modifier = {
 				factor = 0.3
 				any_war = {
-					NOT  = {
+					NOT = {
 						using_cb = religious
 						defender = {
 							character = ROOT
 						}
 					}
-					NOT  = {
+					NOT = {
 						OR = {
 							using_cb = crusade
 							using_cb = new_crusade
@@ -4233,13 +4233,13 @@ character_event = {
 			modifier = {
 				factor = 0.3
 				any_war = {
-					NOT  = {
+					NOT = {
 						using_cb = religious
 						defender = {
 							character = ROOT
 						}
 					}
-					NOT  = {
+					NOT = {
 						OR = {
 							using_cb = crusade
 							using_cb = new_crusade
@@ -4452,7 +4452,7 @@ letter_event = {
 			# Historical			
 			modifier = {
 				factor = 2
-				NOT = { government = nomadic_government }  # We're already adopting civilized ways...
+				NOT = { government = nomadic_government } # We're already adopting civilized ways...
 				NOT = { government = tribal_government }
 			}
 			modifier = {
@@ -4460,7 +4460,7 @@ letter_event = {
 				OR = {
 					culture = old_saxon
 					culture_group = baltic
-					culture_group = finno_ugric  # The most stubborn pagans
+					culture_group = finno_ugric # The most stubborn pagans
 				}
 			}
 			modifier = {
@@ -7409,7 +7409,7 @@ character_event = {
 	option = {
 		name = EVTOPTA39823
 		trigger = {
-		    NOT = { trait = zealous }
+			NOT = { trait = zealous }
 			NOT = { trait = cynical }
 			NOT = { trait = charitable }
 			NOT = { trait = theologian }

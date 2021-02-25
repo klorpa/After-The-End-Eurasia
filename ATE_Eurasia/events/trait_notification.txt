@@ -5,7 +5,7 @@
 ######################################
 
 namespace = trait_notification
-					  #Child  #You
+					 #Child #You
 # ambitious 		= 38178 & 38278
 # arbitrary 		= 38166 & 38266
 # brave 			= 38170 & 38270
@@ -40,28 +40,28 @@ namespace = trait_notification
 # zealous 			= 38169 & 38269
 # stressed 			= 38182 & 38282
 # remove ill 		= 38183 & 38283
-# infirm 			=  N/A 	& 38284
-# celibate 			=  N/A	& 38285
-# drunkard			=  N/A	& 38286
-# kinslayer			=  N/A	& 38287
+# infirm 			= N/A 	& 38284
+# celibate 			= N/A	& 38285
+# drunkard			= N/A	& 38286
+# kinslayer			= N/A	& 38287
 # depressed			= 38188 & 38288
-# remove gardener 	=  N/A 	& 38289
+# remove gardener 	= N/A 	& 38289
 # ill				= 38190 & 38290
-# remove impaler	=  N/A 	& 38291
-# remove duelist	=  N/A 	& 38292
-# remove hunter		=  N/A 	& 38293
-# remove poet		=  N/A 	& 38294
-# remove shy		=  N/A 	& 38295
-# remove craven		=  38196(knuckey) 	& 38296
-# remove gregarious	=  N/A 	& 38297
-# remove slothful	=  N/A 	& 38298
-# remove content	=  N/A 	& 38299
-# remove proud		=  N/A 	& 38300
-# fair				=  N/A 	& 38301
-# remove lisp		=  N/A 	& 38302
-# remove chaste		=  N/A 	& 38303
+# remove impaler	= N/A 	& 38291
+# remove duelist	= N/A 	& 38292
+# remove hunter		= N/A 	& 38293
+# remove poet		= N/A 	& 38294
+# remove shy		= N/A 	& 38295
+# remove craven		= 38196(knuckey) 	& 38296
+# remove gregarious	= N/A 	& 38297
+# remove slothful	= N/A 	& 38298
+# remove content	= N/A 	& 38299
+# remove proud		= N/A 	& 38300
+# fair				= N/A 	& 38301
+# remove lisp		= N/A 	& 38302
+# remove chaste		= N/A 	& 38303
 
-# lunatic			=  N/A 	& 38304
+# lunatic			= N/A 	& 38304
 # remove paranoid = N/A & 38305
 # remove trusting = N/A & 38306
 # remove kind = N/A & 38307
@@ -82,16 +82,16 @@ namespace = trait_notification
 # remove greedy = N/A & 38322
 
 
-###added by knuckey###    trait_notification.x
-# remove cruel		=  N/A 	&  .1
-# fire obsessed		=  N/A 	& .2
-# fashionable			=  .200 	& .3
-# remove wroth		=  N/A 	& .6
-# authoritative			=  N/A 	& .7
-# ruthless				=  .201 	& .18
-# honourable			=  .202	& .8
-# pneumonic 			=  N/A 	& .10
-# remove charitable		=  N/A 	& .11
+###added by knuckey###	trait_notification.x
+# remove cruel		= N/A 	& .1
+# fire obsessed		= N/A 	& .2
+# fashionable			= .200 	& .3
+# remove wroth		= N/A 	& .6
+# authoritative			= N/A 	& .7
+# ruthless				= .201 	& .18
+# honourable			= .202	& .8
+# pneumonic 			= N/A 	& .10
+# remove charitable		= N/A 	& .11
 # crippled			= .203 & .12
 # rude				= .204 & .13
 # remove fashionable	= N/A & .14
@@ -100,7 +100,7 @@ namespace = trait_notification
 # remove honourable	= N/A & .17
 # mystic				= N/A & .19
 # remove possessed		= N/A & .20
-# fighting skill		=  .21	& .22
+# fighting skill		= .21	& .22
 # burned		= N/A & .23
 
 #Child has become trusting
@@ -1102,7 +1102,7 @@ character_event = {
 #	picture = GFX_evt_child_bully
 #	
 #	is_triggered_only = yes
-#   hide_from = yes
+# hide_from = yes
 #	
 #	option = {
 #		name = OK
@@ -1242,7 +1242,7 @@ character_event = {
 #	picture = GFX_evt_child_bully
 #	
 #	is_triggered_only = yes
-#  hide_from = yes
+# hide_from = yes
 #	
 #	option = {
 #		name = OK
@@ -1288,7 +1288,7 @@ character_event = {
 #	picture = GFX_evt_illness
 #	
 #	is_triggered_only = yes
-#    hide_from = yes
+#	hide_from = yes
 #	
 #	option = {
 #		name = OK

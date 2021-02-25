@@ -1,10 +1,10 @@
 
 ###########################################
-#                                         #
-# Catholic Pilgrimage Events              #             
-#                                         #
-# ID SoA.5000-                            #
-#                                         #
+#										 #
+# Catholic Pilgrimage Events			 #			 
+#										 #
+# ID SoA.5000-							#
+#										 #
 ###########################################
 
 # Written by Tobias Bodlund
@@ -48,7 +48,7 @@ character_event = {
 			if = {
 				limit = {
 					OR = {
-						religion = orthodox  # Jeru, Const, Antio
+						religion = orthodox # Jeru, Const, Antio
 						religion = iconoclast
 						religion = monothelite
 						religion = nestorian
@@ -154,11 +154,11 @@ character_event = {
 }
 
 ###########################################
-#                                         #
-# Choose destination                      #
-#                                         #
-# ID SoA.5009-5020                        #
-#                                         #
+#										 #
+# Choose destination					 #
+#										 #
+# ID SoA.5009-5020						#
+#										 #
 ###########################################
 
 # Choose destination as Eastern Christian
@@ -266,11 +266,11 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPTC_SOA_5018   #Find a Saintly Burial Site to visit
+		name = EVTOPTC_SOA_5018 #Find a Saintly Burial Site to visit
 		trigger = {
 			has_dlc = "Holy Fury"
 		}
-		hidden_tooltip = { character_event = { id = HF.41300  days = 15} }
+		hidden_tooltip = { character_event = { id = HF.41300 days = 15} }
 	}
 }
 
@@ -388,22 +388,22 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTA_SoA_5018   # Go to Western Europe
+		name = EVTOPTA_SoA_5018 # Go to Western Europe
 		trigger = {
 			year = 814
 		}
 		hidden_tooltip = { character_event = { id = SoA.5019 } }
 	}
 	option = {
-		name = EVTOPTB_SoA_5018   # Go to the old sites, Rome or Jerusalem
+		name = EVTOPTB_SoA_5018 # Go to the old sites, Rome or Jerusalem
 		hidden_tooltip = { character_event = { id = SoA.5020 } }
 	}
 	option = {
-		name = EVTOPTC_SOA_5018   #Find a Saintly Burial Site to visit
+		name = EVTOPTC_SOA_5018 #Find a Saintly Burial Site to visit
 		trigger = {
 			has_dlc = "Holy Fury"
 		}
-		hidden_tooltip = { character_event = { id = HF.41300  days = 15} }
+		hidden_tooltip = { character_event = { id = HF.41300 days = 15} }
 	}
 }
 
@@ -542,13 +542,13 @@ character_event = {
 }
 
 ###########################################
-#                                         #
-# The journey                             #
-#                                         #
-# ID SoA.5021-5049                        #
-#    SoA.5081-5087                        #
-#    SoA.5094-5096                        #
-#                                         #
+#										 #
+# The journey							 #
+#										 #
+# ID SoA.5021-5049						#
+#	SoA.5081-5087						#
+#	SoA.5094-5096						#
+#										 #
 ###########################################
 
 
@@ -599,33 +599,33 @@ character_event = {
 					}
 				}
 				random_list = {
-					10 = {  character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
-					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
-					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
-					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
-					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
+					10 = { character_event = { id = SoA.5027 days = 5 random = 9 } }
+					10 = { narrative_event = { id = SoA.5028 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5029 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5030 days = 5 random = 9 } }
 				}
 			}
 	
 			random_list = {
-				10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
-				10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
-				10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5034 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5035 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5036 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5037 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5038 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5039 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
+				10 = { character_event = { id = SoA.5032 days = 15 random = 7 } }
+				10 = { narrative_event = { id = SoA.5033 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5034 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5035 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5036 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5037 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5038 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5039 days = 15 random = 7 } }
 			}
 			if = {
 				limit = {
 						is_title_active = d_holy_sepulchre
 				}
 				random_list = {
-					10 = {  narrative_event = { id = SoA.5045 days = 23 random = 4 } } # Holy orders events, close to destination
-					10 = {  character_event = { id = SoA.5046 days = 23 random = 4 } }
-					10 = {  character_event = { id = SoA.5047 days = 23 random = 4 } }
+					10 = { narrative_event = { id = SoA.5045 days = 23 random = 4 } } # Holy orders events, close to destination
+					10 = { character_event = { id = SoA.5046 days = 23 random = 4 } }
+					10 = { character_event = { id = SoA.5047 days = 23 random = 4 } }
 				}
 			}
 		}
@@ -678,33 +678,33 @@ character_event = {
 					}
 				}
 				random_list = {
-					10 = {  character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
-					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
-					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
-					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
-					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
+					10 = { character_event = { id = SoA.5027 days = 5 random = 9 } }
+					10 = { narrative_event = { id = SoA.5028 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5029 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5030 days = 5 random = 9 } }
 				}
 			}
 	
 			random_list = {
-				10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
-				10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
-				10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5034 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5035 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5036 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5037 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5038 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5039 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
+				10 = { character_event = { id = SoA.5032 days = 15 random = 7 } }
+				10 = { narrative_event = { id = SoA.5033 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5034 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5035 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5036 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5037 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5038 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5039 days = 15 random = 7 } }
 			}
 			if = {
 				limit = {
 						is_title_active = d_saint_anthony
 				}
 				random_list = {
-					10 = {  narrative_event = { id = SoA.5045 days = 23 random = 4 } } # Holy orders events, close to destination
-					10 = {  character_event = { id = SoA.5046 days = 23 random = 4 } }
-					10 = {  character_event = { id = SoA.5047 days = 23 random = 4 } }
+					10 = { narrative_event = { id = SoA.5045 days = 23 random = 4 } } # Holy orders events, close to destination
+					10 = { character_event = { id = SoA.5046 days = 23 random = 4 } }
+					10 = { character_event = { id = SoA.5047 days = 23 random = 4 } }
 				}
 			}
 		}
@@ -757,24 +757,24 @@ character_event = {
 					}
 				}
 				random_list = {
-					10 = {  character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
-					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
-					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
-					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
-					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
+					10 = { character_event = { id = SoA.5027 days = 5 random = 9 } }
+					10 = { narrative_event = { id = SoA.5028 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5029 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5030 days = 5 random = 9 } }
 				}
 			}
 	
 			random_list = {
-				10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
-				10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
-				10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5034 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5035 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5036 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5037 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5038 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5039 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
+				10 = { character_event = { id = SoA.5032 days = 15 random = 7 } }
+				10 = { narrative_event = { id = SoA.5033 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5034 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5035 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5036 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5037 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5038 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5039 days = 15 random = 7 } }
 			}
 			if = {
 				limit = {
@@ -786,9 +786,9 @@ character_event = {
 						}
 				}
 				random_list = {
-					10 = {  narrative_event = { id = SoA.5045 days = 23 random = 4 } } # Holy orders events, close to destination
-					10 = {  character_event = { id = SoA.5046 days = 23 random = 4 } }
-					10 = {  character_event = { id = SoA.5047 days = 23 random = 4 } }
+					10 = { narrative_event = { id = SoA.5045 days = 23 random = 4 } } # Holy orders events, close to destination
+					10 = { character_event = { id = SoA.5046 days = 23 random = 4 } }
+					10 = { character_event = { id = SoA.5047 days = 23 random = 4 } }
 				}
 			}
 		}
@@ -842,24 +842,24 @@ character_event = {
 					}
 				}
 				random_list = {
-					10 = {  character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
-					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
-					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
-					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
-					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
+					10 = { character_event = { id = SoA.5027 days = 5 random = 9 } }
+					10 = { narrative_event = { id = SoA.5028 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5029 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5030 days = 5 random = 9 } }
 				}
 			}
 	
 			random_list = {
-				10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
-				10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
-				10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5034 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5035 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5036 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5037 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5038 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5039 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
+				10 = { character_event = { id = SoA.5032 days = 15 random = 7 } }
+				10 = { narrative_event = { id = SoA.5033 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5034 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5035 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5036 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5037 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5038 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5039 days = 15 random = 7 } }
 			}
 			if = {
 				limit = {
@@ -869,9 +869,9 @@ character_event = {
 						}
 				}
 				random_list = {
-					10 = {  narrative_event = { id = SoA.5045 days = 23 random = 4 } } # Holy orders events, close to destination
-					10 = {  character_event = { id = SoA.5046 days = 23 random = 4 } }
-					10 = {  character_event = { id = SoA.5047 days = 23 random = 4 } }
+					10 = { narrative_event = { id = SoA.5045 days = 23 random = 4 } } # Holy orders events, close to destination
+					10 = { character_event = { id = SoA.5046 days = 23 random = 4 } }
+					10 = { character_event = { id = SoA.5047 days = 23 random = 4 } }
 				}
 			}
 		}
@@ -924,24 +924,24 @@ character_event = {
 					}
 				}
 				random_list = {
-					10 = {  character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
-					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
-					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
-					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
-					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
+					10 = { character_event = { id = SoA.5027 days = 5 random = 9 } }
+					10 = { narrative_event = { id = SoA.5028 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5029 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5030 days = 5 random = 9 } }
 				}
 			}
 	
 			random_list = {
-				10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
-				10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
-				10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5034 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5035 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5036 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5037 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5038 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5039 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
+				10 = { character_event = { id = SoA.5032 days = 15 random = 7 } }
+				10 = { narrative_event = { id = SoA.5033 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5034 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5035 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5036 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5037 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5038 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5039 days = 15 random = 7 } }
 			}
 			if = {
 				limit = {
@@ -1008,24 +1008,24 @@ character_event = {
 					}
 				}
 				random_list = {
-					10 = {  character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
-					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
-					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
-					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
-					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
+					10 = { character_event = { id = SoA.5027 days = 5 random = 9 } }
+					10 = { narrative_event = { id = SoA.5028 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5029 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5030 days = 5 random = 9 } }
 				}
 			}
 	
 			random_list = {
-				10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
-				10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
-				10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5034 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5035 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5036 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5037 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5038 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5039 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
+				10 = { character_event = { id = SoA.5032 days = 15 random = 7 } }
+				10 = { narrative_event = { id = SoA.5033 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5034 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5035 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5036 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5037 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5038 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5039 days = 15 random = 7 } }
 			}
 			if = {
 				limit = {
@@ -1036,9 +1036,9 @@ character_event = {
 						}
 				}
 				random_list = {
-					10 = {  narrative_event = { id = SoA.5045 days = 23 random = 4 } } # Holy orders events, close to destination
-					10 = {  character_event = { id = SoA.5046 days = 23 random = 4 } }
-					10 = {  character_event = { id = SoA.5047 days = 23 random = 4 } }
+					10 = { narrative_event = { id = SoA.5045 days = 23 random = 4 } } # Holy orders events, close to destination
+					10 = { character_event = { id = SoA.5046 days = 23 random = 4 } }
+					10 = { character_event = { id = SoA.5047 days = 23 random = 4 } }
 				}
 			}
 		}
@@ -1092,24 +1092,24 @@ character_event = {
 					}
 				}
 				random_list = {
-					10 = {  character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
-					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
-					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
-					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
-					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
+					10 = { character_event = { id = SoA.5027 days = 5 random = 9 } }
+					10 = { narrative_event = { id = SoA.5028 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5029 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5030 days = 5 random = 9 } }
 				}
 			}
 	
 			random_list = {
-				10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
-				10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
-				10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5034 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5035 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5036 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5037 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5038 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5039 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
+				10 = { character_event = { id = SoA.5032 days = 15 random = 7 } }
+				10 = { narrative_event = { id = SoA.5033 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5034 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5035 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5036 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5037 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5038 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5039 days = 15 random = 7 } }
 			}
 			if = {
 				limit = {
@@ -1120,9 +1120,9 @@ character_event = {
 						}
 				}
 				random_list = {
-					10 = {  narrative_event = { id = SoA.5045 days = 23 random = 4 } } # Holy orders events, close to destination
-					10 = {  character_event = { id = SoA.5046 days = 23 random = 4 } }
-					10 = {  character_event = { id = SoA.5047 days = 23 random = 4 } }
+					10 = { narrative_event = { id = SoA.5045 days = 23 random = 4 } } # Holy orders events, close to destination
+					10 = { character_event = { id = SoA.5046 days = 23 random = 4 } }
+					10 = { character_event = { id = SoA.5047 days = 23 random = 4 } }
 				}
 			}
 		}
@@ -1175,24 +1175,24 @@ character_event = {
 					}
 				}
 				random_list = {
-					10 = {  character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
-					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
-					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
-					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
-					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
+					10 = { character_event = { id = SoA.5027 days = 5 random = 9 } }
+					10 = { narrative_event = { id = SoA.5028 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5029 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5030 days = 5 random = 9 } }
 				}
 			}
 	
 			random_list = {
-				10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
-				10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
-				10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5034 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5035 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5036 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5037 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5038 days = 15 random = 7 } }
-				10 = {  character_event = { id = SoA.5039 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
+				10 = { character_event = { id = SoA.5032 days = 15 random = 7 } }
+				10 = { narrative_event = { id = SoA.5033 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5034 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5035 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5036 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5037 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5038 days = 15 random = 7 } }
+				10 = { character_event = { id = SoA.5039 days = 15 random = 7 } }
 			}
 			if = {
 				limit = {
@@ -1202,9 +1202,9 @@ character_event = {
 						}
 				}
 				random_list = {
-					10 = {  narrative_event = { id = SoA.5045 days = 23 random = 4 } } # Holy orders events, close to destination
-					10 = {  character_event = { id = SoA.5046 days = 23 random = 4 } }
-					10 = {  character_event = { id = SoA.5047 days = 23 random = 4 } }
+					10 = { narrative_event = { id = SoA.5045 days = 23 random = 4 } } # Holy orders events, close to destination
+					10 = { character_event = { id = SoA.5046 days = 23 random = 4 } }
+					10 = { character_event = { id = SoA.5047 days = 23 random = 4 } }
 				}
 			}
 		}
@@ -1468,7 +1468,7 @@ character_event = {
 	}
 }
 
-# Danger on road  - broken bridge
+# Danger on road - broken bridge
 character_event = {
 	id = SoA.5030
 	desc = EVTDESC_SoA_5030
@@ -2198,7 +2198,7 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTA_SoA_5047    # yes - select order of knight depending on availability and destination. If several possible, randomize
+		name = EVTOPTA_SoA_5047	# yes - select order of knight depending on availability and destination. If several possible, randomize
 		ai_chance = {
 			factor = 90
 		}
@@ -2865,7 +2865,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPTB_SoA_5047    # no
+		name = EVTOPTB_SoA_5047	# no
 		ai_chance = {
 			factor = 10
 		}
@@ -3348,12 +3348,12 @@ character_event = {
 }
 
 ###########################################
-#                                         #
-# Pilgrim arrives                         #
-#                                         #
-# ID SoA.5050-SoA.5054                    #
-#    SoA.5094-5096                        #
-#                                         #
+#										 #
+# Pilgrim arrives						 #
+#										 #
+# ID SoA.5050-SoA.5054					#
+#	SoA.5094-5096						#
+#										 #
 ###########################################
 
 # Arrived at Canterbury
@@ -3457,7 +3457,7 @@ narrative_event = {
 
 	option = {
 		name = EVTOPTA_SoA_5052
-		hidden_tooltip = {  character_event = { id = SoA.5055 days = 5 } }
+		hidden_tooltip = { character_event = { id = SoA.5055 days = 5 } }
 	}
 }
 
@@ -3637,12 +3637,12 @@ narrative_event = {
 }
 
 ###########################################
-#                                         #
-# Events occurring at pilgrimage          #
-# destination                             #
-#                                         #
-# ID SoA.5055-SoA.5080                    #
-#                                         #
+#										 #
+# Events occurring at pilgrimage		 #
+# destination							 #
+#										 #
+# ID SoA.5055-SoA.5080					#
+#										 #
 ###########################################
 
 # Hidden event that selects what interesting things will happen at destination
@@ -3677,15 +3677,15 @@ character_event = {
 			10 = {
 				if = {
 					limit = { NOT = { trait = cynical } }
-					character_event = { id = SoA.5056 }   # Stimulated to learning
+					character_event = { id = SoA.5056 } # Stimulated to learning
 				}
 				if = {
 					limit = { trait = cynical }
 					random_list = {
-						20 = { character_event = { id = SoA.5057 } }  # Strong religious experience
-						10 = { character_event = { id = SoA.5058 } }  # Disappointed in the place
-						20 = { character_event = { id = SoA.5060 } }  # Learns things of the world - cosmopolitan
-						20 = { character_event = { id = SoA.5061 } }  # Generally impressed
+						20 = { character_event = { id = SoA.5057 } } # Strong religious experience
+						10 = { character_event = { id = SoA.5058 } } # Disappointed in the place
+						20 = { character_event = { id = SoA.5060 } } # Learns things of the world - cosmopolitan
+						20 = { character_event = { id = SoA.5061 } } # Generally impressed
 					}
 				}
 			}
@@ -3697,7 +3697,7 @@ character_event = {
 							trait = scholarly_theologian
 						}
 					}
-					character_event = { id = SoA.5059 }  # Mastermind theologian impresses everyone
+					character_event = { id = SoA.5059 } # Mastermind theologian impresses everyone
 				}
 				if = {
 					limit = {
@@ -3705,44 +3705,44 @@ character_event = {
 						NOT = { trait = scholarly_theologian }
 					}
 					random_list = {
-						20 = { character_event = { id = SoA.5057 } }  # Strong religious experience
-						10 = { character_event = { id = SoA.5058 } }  # Disappointed in the place
-						20 = { character_event = { id = SoA.5060 } }  # Learns things of the world - cosmopolitan
-						20 = { character_event = { id = SoA.5061 } }  # Generally impressed
+						20 = { character_event = { id = SoA.5057 } } # Strong religious experience
+						10 = { character_event = { id = SoA.5058 } } # Disappointed in the place
+						20 = { character_event = { id = SoA.5060 } } # Learns things of the world - cosmopolitan
+						20 = { character_event = { id = SoA.5061 } } # Generally impressed
 					}
 				}
 			}
 			10 = {
 				if = {
 					limit = { trait = lustful }
-					character_event = { id = SoA.5062 }    # Lustful tourist having fun
+					character_event = { id = SoA.5062 }	# Lustful tourist having fun
 				}
 				if = {
 					limit = { NOT = { trait = lustful }	}
 					random_list = {
-						20 = { character_event = { id = SoA.5057 } }  # Strong religious experience
-						10 = { character_event = { id = SoA.5058 } }  # Disappointed in the place
-						20 = { character_event = { id = SoA.5060 } }  # Learns things of the world - cosmopolitan
-						20 = { character_event = { id = SoA.5061 } }  # Generally impressed
+						20 = { character_event = { id = SoA.5057 } } # Strong religious experience
+						10 = { character_event = { id = SoA.5058 } } # Disappointed in the place
+						20 = { character_event = { id = SoA.5060 } } # Learns things of the world - cosmopolitan
+						20 = { character_event = { id = SoA.5061 } } # Generally impressed
 					}
 				}
 			}
 			10 = {
 				if = {
 					limit = { trait = homosexual }
-					character_event = { id = SoA.5063 }    # Freedom
+					character_event = { id = SoA.5063 }	# Freedom
 				}
 				if = {
 					limit = { NOT = { trait = homosexual } }
 					random_list = {
-						20 = {  character_event = { id = SoA.5057 } }  # Strong religious experience
-						10 = {  character_event = { id = SoA.5058 } }  # Disappointed in the place
-						20 = {  character_event = { id = SoA.5060 } }  # Learns things of the world - cosmopolitan
-						20 = {  character_event = { id = SoA.5061 } }  # Generally impressed
+						20 = { character_event = { id = SoA.5057 } } # Strong religious experience
+						10 = { character_event = { id = SoA.5058 } } # Disappointed in the place
+						20 = { character_event = { id = SoA.5060 } } # Learns things of the world - cosmopolitan
+						20 = { character_event = { id = SoA.5061 } } # Generally impressed
 					}
 				}
 			}
-			10 = {                  # Monks cure pilgrim of disease - attributed to God's hand?
+			10 = {				 # Monks cure pilgrim of disease - attributed to God's hand?
 				if = {
 					limit = {
 						OR = {
@@ -3769,10 +3769,10 @@ character_event = {
 						}
 					}
 					random_list = {
-						20 = {  character_event = { id = SoA.5057 } }  # Strong religious experience
-						10 = {  character_event = { id = SoA.5058 } }  # Disappointed in the place
-						20 = {  character_event = { id = SoA.5060 } }  # Learns things of the world - cosmopolitan
-						20 = {  character_event = { id = SoA.5061 } }  # Generally impressed
+						20 = { character_event = { id = SoA.5057 } } # Strong religious experience
+						10 = { character_event = { id = SoA.5058 } } # Disappointed in the place
+						20 = { character_event = { id = SoA.5060 } } # Learns things of the world - cosmopolitan
+						20 = { character_event = { id = SoA.5061 } } # Generally impressed
 					}
 				}
 			}
@@ -3784,7 +3784,7 @@ character_event = {
 							trait = possessed
 						}
 					}
-					character_event = { id = SoA.5065 }  # Lunatic/possessed decides (s)he is God
+					character_event = { id = SoA.5065 } # Lunatic/possessed decides (s)he is God
 				}
 				if = {
 					limit = {
@@ -3796,10 +3796,10 @@ character_event = {
 						}
 					}
 					random_list = {
-						20 = {  character_event = { id = SoA.5057 } }  # Strong religious experience
-						10 = {  character_event = { id = SoA.5058 } }  # Disappointed in the place
-						20 = {  character_event = { id = SoA.5060 } }  # Learns things of the world - cosmopolitan
-						20 = {  character_event = { id = SoA.5061 } }  # Generally impressed
+						20 = { character_event = { id = SoA.5057 } } # Strong religious experience
+						10 = { character_event = { id = SoA.5058 } } # Disappointed in the place
+						20 = { character_event = { id = SoA.5060 } } # Learns things of the world - cosmopolitan
+						20 = { character_event = { id = SoA.5061 } } # Generally impressed
 					}
 				}
 			}
@@ -3811,7 +3811,7 @@ character_event = {
 							trait = hedonist
 						}
 					}
-					character_event = { id = SoA.5066 }  # Drunkard/hedonist event
+					character_event = { id = SoA.5066 } # Drunkard/hedonist event
 				}
 				if = {
 					limit = {
@@ -3823,14 +3823,14 @@ character_event = {
 						}
 					}
 					random_list = {
-						20 = {  character_event = { id = SoA.5057 } }  # Strong religious experience
-						10 = {  character_event = { id = SoA.5058 } }  # Disappointed in the place
-						20 = {  character_event = { id = SoA.5060 } }  # Learns things of the world - cosmopolitan
-						20 = {  character_event = { id = SoA.5061 } }  # Generally impressed
+						20 = { character_event = { id = SoA.5057 } } # Strong religious experience
+						10 = { character_event = { id = SoA.5058 } } # Disappointed in the place
+						20 = { character_event = { id = SoA.5060 } } # Learns things of the world - cosmopolitan
+						20 = { character_event = { id = SoA.5061 } } # Generally impressed
 					}
 				}
 			}
-			10 = {                                           # Impressed by Islam or Judaism (Jerusalem only)
+			10 = {										 # Impressed by Islam or Judaism (Jerusalem only)
 				if = {
 					limit = { has_character_flag = pilgrimage_to_jerusalem }
 					character_event = { id = SoA.5067 }
@@ -3840,10 +3840,10 @@ character_event = {
 						NOT = { has_character_flag = pilgrimage_to_jerusalem }
 					}
 					random_list = {
-						20 = {  character_event = { id = SoA.5057 } }  # Strong religious experience
-						10 = {  character_event = { id = SoA.5058 } }  # Disappointed in the place
-						20 = {  character_event = { id = SoA.5060 } }  # Learns things of the world - cosmopolitan
-						20 = {  character_event = { id = SoA.5061 } }  # Generally impressed
+						20 = { character_event = { id = SoA.5057 } } # Strong religious experience
+						10 = { character_event = { id = SoA.5058 } } # Disappointed in the place
+						20 = { character_event = { id = SoA.5060 } } # Learns things of the world - cosmopolitan
+						20 = { character_event = { id = SoA.5061 } } # Generally impressed
 					}
 				}
 			}
@@ -4144,7 +4144,7 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTA_SoA_5062   # Let's go!
+		name = EVTOPTA_SoA_5062 # Let's go!
 		if = {
 			limit = {
 				is_female = yes
@@ -4176,7 +4176,7 @@ character_event = {
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
 	}
 	option = {
-		name = EVTOPTB_SoA_5062   # Control yourself
+		name = EVTOPTB_SoA_5062 # Control yourself
 		piety = 10
 		if = {
 			limit = { NOT = { trait = chaste } }
@@ -4222,7 +4222,7 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTA_SoA_5063    # Do it
+		name = EVTOPTA_SoA_5063	# Do it
 		if = {
 			limit = { trait = stressed }
 			remove_trait = stressed
@@ -4230,7 +4230,7 @@ character_event = {
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
 	}
 	option = {
-		name = EVTOPTB_SoA_5063    # Don't do it
+		name = EVTOPTB_SoA_5063	# Don't do it
 		if = {
 			limit = { NOT = { trait = stressed } }
 			add_trait = stressed
@@ -4643,11 +4643,11 @@ character_event = {
 
 
 ###########################################
-#                                         #
-# Homecoming                              #
-#                                         #
-# ID SoA5090-SoA5093                      #
-#                                         #
+#										 #
+# Homecoming							 #
+#										 #
+# ID SoA5090-SoA5093					 #
+#										 #
 ###########################################
 
 # Event checking result of pilgrimage and sending us on to the respective homecoming event
