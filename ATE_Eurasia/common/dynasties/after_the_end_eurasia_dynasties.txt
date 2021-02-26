@@ -5432,7 +5432,19 @@
 2007237 = { name="Massi" culture=provencal used_for_random=no }
 2007238 = { name="Eyraú" culture=provencal used_for_random=no }
 2007239 = { name="Thran-Boyer" culture=provencal used_for_random=no }
-2007240 = { name="Mari" culture=provencal used_for_random=no }
+2007240 = { name="Mari" culture=provencal used_for_random=no 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2007241 = { name="Gionoú" culture=provencal used_for_random=no }
 2007242 = { name="Venteloún" culture=provencal used_for_random=no }
 2007243 = { name="Carmoniho" culture=provencal used_for_random=no }
@@ -15422,13 +15434,13 @@
 2064047 = { name="Shapikhala" culture=dargin}
 
 2065000 = { name="Arap" culture=turcoman}
-2065001 = { name="Turkmehmet" culture=turcoman
+2065001 = { name="Turkmehmet" culture=turcoman 
 	coat_of_arms = { 
-		religion=sunni
+		religion = sunni
 		template = 0
 		layer = {
-			texture = 1
-			texture_internal = 16
+			texture = 0
+			texture_internal = 1
 			emblem = 0
 			color = 0
 			color = 0
@@ -16280,10 +16292,11 @@
 2104001 = { name="Agassi" culture=assyrian }
 2104002 = { name="Malek" culture=assyrian 
 	coat_of_arms = { 
+		religion=sunni
 		template = 0
 		layer = {
-			texture = 22
-			texture_internal = 0
+			texture = 1
+			texture_internal = 18
 			emblem = 0
 			color = 0
 			color = 0
@@ -16348,7 +16361,20 @@
 	}
 }
 2106001 = { name="al-Abu Nasir" culture=furataini }
-2106002 = { name="al-Muntadhar" culture=furataini }
+2106002 = { name="al-Muntadhar" culture=furataini 
+	coat_of_arms = { 
+		religion=shiite
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2106003 = { name="al-Hakim" culture=furataini 
 	coat_of_arms = { 
 		religion=sunni
