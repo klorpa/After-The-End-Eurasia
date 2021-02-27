@@ -8,6 +8,7 @@ laws = {
 		show_as_title = yes
 		group = culture_tolerance
 		
+		
 		potential = {
 			holder_scope = {
 				is_tribal = no
@@ -24,8 +25,37 @@ laws = {
 			always = no
 		}			
 		ai_will_do = {
-			factor = 0
-
+			factor = 1
+			modifier = {
+				factor = .01
+			}
+			modifier = {
+				factor = 10
+				holder_scope = { 
+					any_vassal = {
+						limit = { NOT = { culture_group = PREV } }
+						count = 2 
+						always = yes
+					}
+				}
+			}
+			modifier = {
+				factor = 5
+				holder_scope = {
+					OR = {
+						trait = kind
+						trait = charitable
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				holder_scope = {
+					trait = cruel
+					trait = paranoid
+					trait = possessed
+				}
+			}	
 		}
 		ai_will_revoke = {
 			factor = 0
@@ -82,7 +112,48 @@ laws = {
 			always = no
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 0
+				has_law = culture_tolerance_0
+				holder_scope = {
+					OR = {
+						trait = kind
+						trait = charitable
+					}
+				}
+			}
+			modifier = {
+				factor = 20
+				has_law = culture_tolerance_0
+				holder_scope = {
+					trait = cruel
+					trait = paranoid
+					trait = possessed
+				}
+			}
+			modifier = {
+				factor = 20
+				has_law = culture_tolerance_2
+				holder_scope = {
+					OR = {
+						trait = kind
+						trait = charitable
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = culture_tolerance_2
+				holder_scope = {
+					trait = cruel
+					trait = paranoid
+					trait = possessed
+				}
+			}
 		}
 		ai_will_revoke = {
 			factor = 0
@@ -128,7 +199,29 @@ laws = {
 			always = no
 		}			
 		ai_will_do = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 0
+				has_law = culture_tolerance_1
+				holder_scope = {
+					OR = {
+						trait = kind
+						trait = charitable
+					}
+				}
+			}
+			modifier = {
+				factor = 20
+				has_law = culture_tolerance_1
+				holder_scope = {
+					trait = cruel
+					trait = paranoid
+					trait = possessed
+				}
+			}
 		}
 		ai_will_revoke = {
 			factor = 0
@@ -167,6 +260,25 @@ laws = {
 	religion_tolerance_0 = {
 		show_as_title = yes
 		group = religion_tolerance
+		
+		default_selection = {
+			factor = 0
+			additive_modifier = { 
+				value = 10			
+				holder_scope = { 
+					OR = {
+						religion = ruhi
+						religion = neuhumanist
+						religion = haskalah
+					}
+					is_feudal = yes
+				}	
+			}
+			additive_modifier = { 
+				value = 10			
+				title = e_europa
+			}
+		}
 		
 		potential = {
 			holder_scope = {
@@ -216,8 +328,45 @@ laws = {
 		}
 				
 		ai_will_do = {
-			factor = 0
-
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 5
+				holder_scope = {
+					OR = {
+						religion = ruhi
+						religion = haskalah
+						religion = neuhumanist
+					}
+				}
+			}
+			modifier = {
+				factor = 10
+				holder_scope = {
+					OR = {
+						trait = kind
+						trait = sympathy_christendom
+						trait = sympathy_vernacular
+						trait = sympathy_judaism
+						trait = sympathy_pagans
+						trait = sympathy_islam
+						trait = sympathy_old_world_cults
+						trait = sympathy_islamosyncretic
+						trait = sympathy_scholastic	
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				holder_scope = {
+					trait = cruel
+					trait = paranoid
+					trait = possessed
+					trait = zealous
+				}
+			}
 		}
 		ai_will_revoke = {
 			factor = 0
@@ -231,6 +380,16 @@ laws = {
 	religion_tolerance_1 = {
 		show_as_title = yes
 		group = religion_tolerance
+		
+		default_selection = {
+			factor = 0
+			additive_modifier = { 
+				value = 10			
+				holder_scope = { 
+					government = merchant_republic_government
+				}	
+			}
+		}
 		
 		potential = {
 			holder_scope = {
@@ -281,8 +440,75 @@ laws = {
 		}
 		
 		ai_will_do = {
-			factor = 0
-
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 10
+				has_law = religion_tolerance_2
+				holder_scope = { 
+					any_vassal = {
+						limit = { NOT = { religion_group = PREV } }
+						count = 2 
+						always = yes
+					}
+				}
+			}
+			modifier = {
+				factor = 5
+				has_law = religion_tolerance_2
+				holder_scope = {
+					OR = {
+						trait = kind
+						trait = sympathy_christendom
+						trait = sympathy_vernacular
+						trait = sympathy_judaism
+						trait = sympathy_pagans
+						trait = sympathy_islam
+						trait = sympathy_old_world_cults
+						trait = sympathy_islamosyncretic
+						trait = sympathy_scholastic	
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = religion_tolerance_2
+				holder_scope = {
+					trait = cruel
+					trait = paranoid
+					trait = possessed
+					trait = zealous
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = religion_tolerance_0
+				holder_scope = {
+					OR = {
+						trait = kind
+						trait = sympathy_christendom
+						trait = sympathy_vernacular
+						trait = sympathy_judaism
+						trait = sympathy_pagans
+						trait = sympathy_islam
+						trait = sympathy_old_world_cults
+						trait = sympathy_islamosyncretic
+						trait = sympathy_scholastic	
+					}
+				}
+			}
+			modifier = {
+				factor = 20
+				has_law = religion_tolerance_0
+				holder_scope = {
+					trait = cruel
+					trait = paranoid
+					trait = possessed
+					trait = zealous
+				}
+			}
 		}
 		ai_will_revoke = {
 			factor = 0
@@ -315,7 +541,64 @@ laws = {
 			always = no
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 5
+				has_law = religion_tolerance_3
+				holder_scope = {
+					OR = {
+						trait = kind
+						trait = sympathy_christendom
+						trait = sympathy_vernacular
+						trait = sympathy_judaism
+						trait = sympathy_pagans
+						trait = sympathy_islam
+						trait = sympathy_old_world_cults
+						trait = sympathy_islamosyncretic
+						trait = sympathy_scholastic	
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = religion_tolerance_3
+				holder_scope = {
+					trait = cruel
+					trait = paranoid
+					trait = possessed
+					trait = zealous
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = religion_tolerance_1
+				holder_scope = {
+					OR = {
+						trait = kind
+						trait = sympathy_christendom
+						trait = sympathy_vernacular
+						trait = sympathy_judaism
+						trait = sympathy_pagans
+						trait = sympathy_islam
+						trait = sympathy_old_world_cults
+						trait = sympathy_islamosyncretic
+						trait = sympathy_scholastic	
+					}
+				}
+			}
+			modifier = {
+				factor = 20
+				has_law = religion_tolerance_1
+				holder_scope = {
+					trait = cruel
+					trait = paranoid
+					trait = possessed
+					trait = zealous
+				}
+			}
 		}
 		ai_will_revoke = {
 			factor = 0
@@ -367,7 +650,64 @@ laws = {
 			always = no
 		}			
 		ai_will_do = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 20
+				has_law = religion_tolerance_4
+				holder_scope = {
+					OR = {
+						trait = kind
+						trait = sympathy_christendom
+						trait = sympathy_vernacular
+						trait = sympathy_judaism
+						trait = sympathy_pagans
+						trait = sympathy_islam
+						trait = sympathy_old_world_cults
+						trait = sympathy_islamosyncretic
+						trait = sympathy_scholastic	
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = religion_tolerance_4
+				holder_scope = {
+					trait = cruel
+					trait = paranoid
+					trait = possessed
+					trait = zealous
+				}
+			}
+			modifier = {
+				factor = 0
+				has_law = religion_tolerance_2
+				holder_scope = {
+					OR = {
+						trait = kind
+						trait = sympathy_christendom
+						trait = sympathy_vernacular
+						trait = sympathy_judaism
+						trait = sympathy_pagans
+						trait = sympathy_islam
+						trait = sympathy_old_world_cults
+						trait = sympathy_islamosyncretic
+						trait = sympathy_scholastic	
+					}
+				}
+			}
+			modifier = {
+				factor = 20
+				has_law = religion_tolerance_2
+				holder_scope = {
+					trait = cruel
+					trait = paranoid
+					trait = possessed
+					trait = zealous
+				}
+			}
 		}
 		ai_will_revoke = {
 			factor = 0
@@ -401,19 +741,6 @@ laws = {
 
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOR = {
-					trait = cruel
-					trait = zealous
-				}
-			}
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
 		
 		zealous_opinion = 5
 		religion_flex = 1.0
@@ -470,7 +797,35 @@ laws = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 0
+				holder_scope = {
+					OR = {
+						trait = kind
+						trait = sympathy_christendom
+						trait = sympathy_vernacular
+						trait = sympathy_judaism
+						trait = sympathy_pagans
+						trait = sympathy_islam
+						trait = sympathy_old_world_cults
+						trait = sympathy_islamosyncretic
+						trait = sympathy_scholastic	
+					}
+				}
+			}
+			modifier = {
+				factor = 20
+				holder_scope = {
+					trait = cruel
+					trait = paranoid
+					trait = possessed
+					trait = zealous
+				}
+			}
 		}
 		ai_will_revoke = {
 			factor = 0
