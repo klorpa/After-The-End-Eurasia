@@ -1840,7 +1840,8 @@ character_event = {
 			}
 		}
 	}
-}	
+}
+
 
 # Yeshiva End Event
 character_event = {
@@ -1877,6 +1878,39 @@ character_event = {
 		clr_flags_introduce_heir_effect = yes
 	}
 }
+
+character_event = {
+	id = jewish.155
+	desc = EVTDESC_kosher_22903
+	picture = GFX_evt_dancing
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		event_target:chevruta_partner = {
+			is_alive = yes
+		}
+	}
+
+	fail_trigger_effect = {
+		character_event = { id = jewish.151 days = 10 random = 5 } #new partner
+	}
+	
+	option = {
+		name = EVTOPTA_kosher_22903
+		opinion = {
+			modifier = opinion_impressed
+			who = event_target:chevruta_partner
+			years = 20
+		}
+	}
+	after = {
+		hidden_effect = {
+			character_event = { id = jewish.22899 days = 10 random = 5 } #send tombola again
+		}
+	}
+}
+
 
 ######################AI-ONLY EVENTS#####################
 
