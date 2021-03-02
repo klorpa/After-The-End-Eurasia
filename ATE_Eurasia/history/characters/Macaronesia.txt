@@ -99,16 +99,16 @@
 	trait=shy
 	trait=diligent
 	2625.12.9={birth=yes}
-		2659.3.12={
+	2659.3.12={
 		add_spouse=1982012
 	}
 	2700.1.1={death=yes}
 }
 1982005={
 	name="Félix"
-	dynasty=2025006 #Perdomo
+	dynasty=2025131 #de Abreu
 	culture=canarian
-	religion=catholic
+	religion=lusitanian
 	martial=6
 	diplomacy=5
 	stewardship=5
@@ -229,5 +229,138 @@
 	trait=diligent
 	trait=wroth
 	2642.12.19={birth=yes}
+	2700.1.1={death=yes}
+}
+1982013={
+	name="Rayco"
+	dynasty=2025006 #Perdomo
+	culture=canarian
+	religion=catholic
+	martial=6
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=4
+	trait=skilled_tactician
+	trait=erudite
+	trait=ambitious
+	trait=patient
+	trait=stubborn
+	2640.8.12={birth=yes}
+	2700.1.1={death=yes}
+}
+1982014={
+	name="Nauzet"
+	dynasty=2025003 #Clavijo
+	culture=canarian
+	religion=lusitanian
+	martial=4
+	diplomacy=5
+	stewardship=5
+	intrigue=4
+	learning=4
+	trait=midas_touched
+	trait=strategist
+	trait=ambitious
+	trait=cruel
+	trait=patient
+	trait=cynical
+	trait=proud
+	2638.3.20={birth=yes}
+	2670.1.1={death=yes}
+}
+1982015={
+	name="Nauzet"
+	female=yes
+	dynasty=0
+	culture=canarian
+	religion=lusitanian
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=4
+	trait=thrifty_clerk
+	trait=erudite
+	trait=wroth
+	trait=slothful
+	trait=cruel
+	2638.3.20={birth=yes}
+	2666.1.1={death=yes}
+}
+1982016={
+	name="Idaira"
+	female=yes
+	dynasty=2025003 #Clavijo
+	culture=canarian
+	religion=lusitanian
+	martial=2
+	diplomacy=1
+	stewardship=2
+	intrigue=1
+	learning=0
+	trait=quick
+	father=1982014
+	mother=1982015
+	2660.10.9={birth=yes}
+	2720.1.1={death=yes}
+}
+1982025={
+	name="Iaspar"
+	dynasty=2025132 #Cordeiro
+	culture=canarian
+	religion=lusitanian
+	martial=5
+	diplomacy=6
+	stewardship=5
+	intrigue=4
+	learning=6
+	trait=thrifty_clerk
+	trait=theologian
+	trait=pious
+	trait=wroth
+	trait=chaste
+	trait=honest
+	2642.1.14={birth=yes}
+	2710.1.1={death=yes}
+}
+1982026={
+	name="Pauleta"
+	dynasty=2025133 #Corte-Real
+	culture=canarian
+	religion=lusitanian
+	martial=5
+	diplomacy=6
+	stewardship=5
+	intrigue=6
+	learning=5
+	trait=brilliant_strategist
+	trait=heavy_infantry_leader
+	trait=zealous
+	trait=ruthless
+	trait=honest
+	trait=erudite
+	2629.9.21={birth=yes}
+	2660.6.8={
+		add_spouse=1982027
+	}
+	2700.1.1={death=yes}
+}
+1982027={
+	name="Cristina"
+	female=yes
+	dynasty=0
+	culture=canarian
+	religion=lusitanian
+	martial=5
+	diplomacy=4
+	stewardship=4
+	intrigue=4
+	learning=5
+	trait=underhanded_rogue
+	trait=just
+	trait=paranoid
+	trait=familyperson
+	2638.4.1={birth=yes}
 	2700.1.1={death=yes}
 }
