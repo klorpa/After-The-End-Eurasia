@@ -13,7 +13,7 @@ turkic_west = {
 			Czimtay
 			Dariusz_Darius Dawid_David "Dawid Murza" Dewlet "Dewlet Berdi" "Dewlet Murza" Dymitr_Demetrius Dzabbar_Jabbar "Dzabbar Berdi" Dzalal_Jalal "Dzalal Addin" "Dzalal Murza" Dzemil_Jamil "Dzemil Murza"
 			Edige "Edige Murza" Eliasz_Elijah 
-			Ferdynand_Ferdinand Fetig
+			Ferdynand_Ferdinand Fetig_Fatih 
 			Gasan_Hassan "Gasan Murza"
 			Hajder_Haidar Henryk_Henry Husejn_Hussein "Husejn Murza"
 			Ibragim_Abraham "Ibragim Murza" Ilszat_Ilshat Islam "Islam Murza" Ismail_Ishmael "Ismail Murza" "Ismail Mustafa" Iwan_Iwan
@@ -21,27 +21,27 @@ turkic_west = {
 			Kamil_Camillus Karol_Charles Kazimierz_Casimir Kerim_Karim "Kerim Murza" Konrad_Conrad Konstanty_Constantine Kowrat Krzysztof_Christopher
 			Ludwik_Louis Lukasz_Lucas
 			Machmut_Mahmud "Machmut Ali" "Machmut Murza" Maciej_Matthew Magomed_Mohammed Maksud "Maksud Murza" Mariusz_Marius Michal_Michael Mikolaj_Nicholas Murad "Murad Murza" Musa_Moses "Musa Murza" Mustafa "Mustafa Murza"
-			Oleszko Olgierd Onufry Oskar_Oscar Osman "Osman Murza"
+			Oleszko Olgierd_Algirdas Onufry Oskar_Oscar Osman "Osman Murza"
 			Pawel_Paul Piotr_Peter
 			Rafal_Raphael Ramadan Ruslan Rustym "Rustym Murza" Rynat_Rinat Ryszard_Richard
 			Safarbek Samuel "Samuel Murza" Selim "Selim Murza" Skirmunt Stanislaw_Stanislav Stefan_Stephen "Stefan Murza" "Stefan Mustafa" Sulejman_Solomon Szahin "Szahin Murza" Szymon_Simon
-			Temruk Timur Toktamysz Tomasz_Thomas 
+			Temruk Timur_Timur Toktamysz_Toktamish Tomasz_Thomas 
 			Ulug "Ulug Murza"
 			Waclaw_Vaclav Waldemar_Valdemar Wasily_Basil Witold "Witold Murza" Wladyslaw_Vladislav Wojciech
-			Zachariasz_Zachary Zbigniew Zeryf Zygmunt_Sigmund
+			Zachariasz_Zachary Zbigniew Zeryf_Sharif Zygmunt_Sigmund
 		}
 		female_names = {
-			Anna
-			Barbara
+			Anna_Anna 
+			Barbara_Barbara 
 			Dzenneta
-			Elwira Elzbieta_Elizabeth Emilia Eugenia Ewa_Eva
-			Fatima Fursia
+			Elwira_Elvira Elzbieta_Elizabeth Emilia_Emily Eugenia_Eugenia Ewa_Eva
+			Fatima_Fatima Fursia
 			Halina
 			Iwona
 			Justyna_Justine
 			Lilla
-			Magdalena Maria_Mary Marta
-			Olga
+			Magdalena_Magdalene Maria_Mary Marta_Martha 
+			Olga_Olga 
 			Rozalia
 			Tamara Tatiana Teresa_Theresa
 			Wiktoria_Victoria
@@ -67,35 +67,49 @@ turkic_west = {
 		color = { 0.5 0.7 0.4 }
 
 		male_names = {
-			Abdulla_Abdullah Äbüsöghüd Anvar Awhadí Äxät Äxmät_Ahmad Aydar Azamat 
-			Carulla Chayan 
-			Daler 
-			Farid Fatix_Fatih Fätxulla 
-			Ghäbdelbarí Ghäbdelxalik Ghäbdennasír Ghabdulla_Abdullah Ghabdullacan Ghädel Ghädelsa Ghäliäkbär Ghäliäsghar Ghayaz Ghömär_Omar 
-			Ibrahim_Abraham Ildar Ilgiz Ilgizar Ilnaz Imil_Emil Iskander_Alexander 
-			Kamil_Kamil 
-			Marat Mintimer Mirghäziän Möbin Mödärris Mostafa_Mustafa Möxämmät_Muhammad Möxämmätfatix Möxämmätghärif Möxämmathadi Möxämmäsadíq Möxämmätzakir Möxämmätzarif Musa_Moses 
-			Nail Näqi Nizametdin Nurmöxämmät 
-			Radion Rail Rinat Rudolf Ruslan 
-			Sadretdin Sadri Shärip_Sharif Shihabetdin Síracetdin Suleiman_Solomon 
-			Timur 
-			Xämit Xäyrulla 
-			Yuri_George Yusuf_Joseph 
-			Zainutdin Zakir Zarif Zölfät 
+			Abdulla_Abdullah Äbüsöghüd Ähtär Albert_Albert Alfrid_Alfred Alikber Alim Almas Altynbay Amazat Amerhan Ämir_Amir Ansar Anvar_Anwar Arslan Artur_Arthur Asad Awhadí Äxät Äxmät_Ahmad Ayaz Aydar Aynur Ayrat Azamat Azat Azgar 
+			Bikbay Bikbulat_Bekbulat Biktimer Bulat 
+			Carulla Çayan Cihansha_Jahanshah Çiñghiz_Genghis 
+			Daler Damir Deniz 
+			Eduard_Edward Elbrus_Elbruz Eldar_Eldar Engel Erik_Eric 
+			Fanir Fanis Farhat_Farhat Färit_Farid Fatix_Fatih Fätxulla_Fathullah Fäyzulla_Fayzullah Ferdinant_Ferdinand 
+			Gata Gaziz_Aziz Ghäbdelbarí Ghäbdelxalik Ghäbdennasír_Abdulnasir Ghabdulla_Abdullah Ghabdullacan Ghädel Ghädelsa Ghäliäkbär Ghäliäsghar Ghäskär Ghayaz Ghizzätulla_Izzatullah Ghömär_Omar 
+			Ibragim_Abraham Idris_Idris Ildar_Eldar Ildus Ilgiz Ilgizar Ilham_Ilham Ilfat Ilnar Ilnaz Ilnur Ilshat Ilsur Ilyas_Elijah Imil_Emil Irek Ishbulat Iskändär_Alexander Isxak_Isaac 
+			Kamil_Kamil Kärim_Karim Kazbek_Kazbek 
+			Linar 
+			Mäjit_Majid Mansur_Mansur Mahmud_Mahmud Marat Marsel_Marcel Mintimer Mirghäziän Mirsäyet Möbin Mödärris Mostafa_Mustafa Möxämmät_Muhammad Möxämmätfatix Möxämmätghärif Möxämmathadi Möxämmäsadíq Möxämmätsha Möxämmätzakir Möxämmätzarif Mullacan Mullanur Musa_Moses 
+			Näcip_Najib Nail Näqi Narat Niaz Nizametdin_Nizamuddin Nurislam Nurmöxämmät 
+			Radion Radiq Radmir Rafail_Raphael Rail Ramil Räshit_Rashid Rasim_Rasim Rawil Razil Rinat Rishat_Richard Robert_Robert Röstäm_Rostam Rudolf_Rudolf Rushan Ruslan_Ruslan 
+			Sabircan Sadretdin_Sadreddin Sadri Safa Säyet_Sayyid Shähit_Shahid Shamil_Shamil Shärif_Sharif Shihabetdin_Shihabuddin Síracetdin_Sirajuddin Söläyman_Solomon Soltan Soltanghäli 
+			Tahir_Tahir Tajmas Talgat Timur_Timur Timurxan Toktamish_Toktamish Tulpar 
+			Ural Uraz Ütämesh 
+			Vaghiz Vilen Vildan 
+			Xäbib_Habib Xäbibulla_Habibullah Xäbir Xäliulla Xämit_Hamid Xämzä_Hamza Xasan_Hasan Xäydär_Haydar Xäydärghäli Xäyrulla_Khayrullah 
+			Yaxya_John Yasher Yosyf_Joseph Yuldash_Yuldash Yuri_George Yusuf_Joseph 
+			Zagip Zahit Zainutdin_Zainuddin Zäki_Zaki Zakir Zarif Zinetula_Zaynatullah Zölfät Zöfär_Zufar 
 		}
 
 		female_names = {
-			Aleksandra_Alexandra Aliä Amina 
-			Bella 
-			Dinara 
-			Fäwziä 
-			Galima Gulnara 
-			Irina 
-			Kamila 
-			Mämdüdä 
-			Rauza 
-			Söyembikä Svetlana 
-			Yanina 
+			Adelina_Adelina Albinä_Albina Aleksandra_Alexandra Älfiä Alfiya Aliä Alinä_Alina Alisä_Alice Alsu Altynçürä Äminä_Amina Änisä Asiä Aslanbika Aybanu Aygöl Ayninur Aysilu Aznagul 
+			Baghazat Bella Bibigäyshä Bikä 
+			Çaçak Çulpan 
+			Dana Damira Diana_Diana Dilbar Dinara 
+			Elina Elvirä_Elvira Elza_Elsa 
+			Fäniya Färidä_Farida Fatima_Fatima Fäwziä_Fawzia Firaya Firdausa Firüzä_Firuza Flyura_Flora 
+			Galima Ghäliä Ghäyshä_Aisha Ghäyshäbikä Gölçäçäk_Gulcicek Gölnara_Gulnara Gölnaz Gölsem Gölzada Güzäl_Gözel 
+			Ilnara Ilnura Ilsiya Ilsura Ilzira Indira Irina_Irina Iririya 
+			Kamila_Kamila Kamilla_Camilla 
+			Lälä Läysän Leniza Liä Liana  
+			Mädinä_Madina Maftuxa Mälikä_Malika Mämdüdä Märyäm_Mary Märziya Mavzida Miläwshä 
+			Nailya Nurbanu Nurdjamal 
+			Rauza Regina Renata Rezidä Roza_Rosa 
+			Shamsinisa Söyembikä_Süyümbike Svetlana 
+			Tañsilu 
+			Urazbikä 
+			Väsilä 
+			Xäbirä Xäliulla 
+			Yana_Joan Yanina Yulduz_Yildiz Yuliä_Julia 
+			Zahidä Zäynäp_Zaynab Zemfira Zifa Zilya Zinara Zöhrä_Zohra Zöläyxä_Zulaykha Zulfia 
 		}
 		
 		from_dynasty_prefix = "of "
