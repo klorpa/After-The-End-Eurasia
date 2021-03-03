@@ -631,3 +631,36 @@ d_jerusalem_patriarch = {
 		Theophanes Theophylaktos Tryphon Zacharias
 	}
 }
+d_lusitanian_reformed = {
+	color = { 182 88 5 }
+	color2 = { 255 255 255 }
+	
+	capital = 167 #Lisboa
+	creation_requires_capital = no
+	
+	landless = no
+	
+	title = "NAVEGADOR"
+	foa = "NAVEGADOR_FOA"
+	short_name = yes
+	
+	allow = {
+		has_landed_title = k_portugal
+		num_of_holy_sites = 3
+		piety = 150
+		wealth = 100
+	}
+	
+	#Controls a religion
+	controls_religion = lusitanian_reformed
+	
+	religion = lusitanian_reformed
+	
+	assimilate = no
+	
+	primary = no
+	
+	dignity = 200
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}

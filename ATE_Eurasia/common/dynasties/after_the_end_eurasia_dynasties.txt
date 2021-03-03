@@ -11,7 +11,7 @@
 1001005 = { name="Kray" culture=southerner }
 1001006 = { name="Rahman" culture=southerner }
 1001007 = { name="Glasman" culture=southerner }
-1001008 = { name="Vimes" culture=southerner }
+1001008 = { name="Butcher" culture=southerner }
 1001009 = { name="Ramkin" culture=southerner }
 1001010 = { name="Van Zeeland" culture=southerner }
 1001011 = { name="Welles" culture=southerner }
@@ -1043,8 +1043,8 @@
 }
 1701004 = { name="Armitage" culture=midlander }
 1701005 = { name="Locksley" culture=midlander }
-1701006 = { name="Darcy" culture=midlander }
-1701007 = { name="Bennet" culture=midlander }
+1701006 = { name="Dashwood" culture=midlander used_for_random = no }
+1701007 = { name="Austin" culture=midlander used_for_random = no }
 1701008 = { name="Erskine" culture=midlander }
 1701009 = { name="Waal" culture=midlander }
 1701010 = { name="Pierrepont" culture=midlander }
@@ -2130,6 +2130,7 @@
 1848130 = { name="Buckler" culture=rhenish}
 1848131 = { name="Öztürk" culture=rhenish}
 1848132 = { name="Möntzer" culture=rhenish used_for_random=no }
+1848133 = { name="Noether" culture=rhenish used_for_random=no }
 
 1853000 = { name="Mishin" culture=chornomorsky}
 1853001 = { name="Grigorovich" culture=chornomorsky}
@@ -2605,20 +2606,7 @@
 1901002 = { name="Robertson" culture=lowlander }
 1901003 = { name="Scott" culture=lowlander }
 1901004 = { name="Carpenter" culture=lowlander }
-1901005 = { name="Stewart" culture=lowlander 
-	coat_of_arms = { 
-		religion = thelema
-		template = 0
-		layer = {
-			texture = 0
-			texture_internal = 10
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
-}
+1901005 = { name="Stewart" culture=lowlander }
 1901006 = { name="Volant" culture=lowlander }
 1901007 = { name="Cox" culture=lowlander }
 1901008 = { name="Moray" culture=lowlander }
@@ -2920,9 +2908,70 @@
 1915089 = {name="Abu Issa" culture=sudani }
 1915090 = {name="Al Kashif" culture=sudani }
 
+1916000 = {name ="Daddach" culture=sahrawi }
+1916001 = {name ="Amidane" culture=sahrawi }
+1916002 = {name ="Tamek" culture=sahrawi }
+1916003 = {name ="El Barazani" culture=sahrawi }
+1916004 = {name ="Rebbou" culture=sahrawi }
+1916005 = {name ="Ould M'Brirek" culture=sahrawi }
+1916006 = {name ="Leibek" culture=sahrawi }
+1916007 = {name ="Ould Es-Sweyih" culture=sahrawi }
+1916008 = {name ="Dueihi" culture=sahrawi }
+1916009 = {name ="Ould Errachid" culture=sahrawi }
+1916010 = {name ="Lembarki" culture=sahrawi }
+1916011 = {name ="Bassiri" culture=sahrawi }
+1916012 = {name ="Elmoutaoikil" culture=sahrawi }
+1916013 = {name ="Ould Yumani" culture=sahrawi }
+1916014 = {name ="Buchraya" culture=sahrawi }
+1916015 = {name ="Kentaui" culture=sahrawi }
+1916016 = {name ="Bayoun" culture=sahrawi }
+1916017 = {name ="El Admi" culture=sahrawi }
+1916018 = {name ="Mouichane" culture=sahrawi }
+1916019 = {name ="Aabadilah" culture=sahrawi }
+1916020 = {name ="Ould Rabani" culture=sahrawi }
+1916021 = {name ="El Bouhali" culture=sahrawi }
+1916022 = {name ="Hakim" culture=sahrawi }
+1916023 = {name ="Malainine" culture=sahrawi }
+1916024 = {name ="Abdelaziz" culture=sahrawi }
+1916025 = {name ="Er-Rguibi" culture=sahrawi }
+1916026 = {name ="Ould Jouda" culture=sahrawi }
+1916027 = {name ="Addouh" culture=sahrawi }
+1916028 = {name ="Jumani" culture=sahrawi }
+1916029 = {name ="Ahmudi" culture=sahrawi }
+1916030 = {name ="Ould Ziou" culture=sahrawi }
+1916031 = {name ="Limam" culture=sahrawi }
+1916032 = {name ="Miské" culture=sahrawi }
+1916033 = {name ="El Waghef" culture=sahrawi }
+1916034 = {name ="Ould Mouknass" culture=sahrawi }
+1916035 = {name ="Ben Hmeida" culture=sahrawi }
+1916036 = {name ="Lemghaifry" culture=sahrawi }
+1916037 = {name ="Akeik" culture=sahrawi }
+1916038 = {name ="Busuala" culture=sahrawi }
+1916039 = {name ="Lahbib" culture=sahrawi }
+1916040 = {name ="Dkhill" culture=sahrawi }
+1916041 = {name ="Mufid" culture=sahrawi }
+1916042 = {name ="Ould El Ghazi" culture=sahrawi }
+1916043 = {name ="Esoulima" culture=sahrawi }
+1916044 = {name ="Ajeen" culture=sahrawi }
+1916045 = {name ="Moughlich" culture=sahrawi }
+1916046 = {name ="Ould Boughanbour" culture=sahrawi }
+1916047 = {name ="Sbaïr" culture=sahrawi }
+1916048 = {name ="Laaboubat" culture=sahrawi }
+1916049 = {name ="Ben Yaddas" culture=sahrawi }
+1916050 = {name ="Lamghalcha" culture=sahrawi }
+1916051 = {name ="Eddaf" culture=sahrawi }
+1916052 = {name ="Zayou" culture=sahrawi }
+1916053 = {name ="Elmachdoufi" culture=sahrawi }
+1916054 = {name ="Boutinguiza" culture=sahrawi }
+1916055 = {name ="El Ayoubi" culture=sahrawi }
+1916056 = {name ="Abman" culture=sahrawi }
+1916057 = {name ="Laaroussi" culture=sahrawi }
+1916058 = {name ="Khouna" culture=sahrawi }
+1916059 = {name ="Tahlil" culture=sahrawi }
+1916060 = {name ="Elgarhi" culture=sahrawi }
 
-1916000 = {name="Nikelov" culture=pomor }
-1916001 = {name="Semenov" culture=pomor }
+1917000 = {name="Nikelov" culture=pomor }
+1917001 = {name="Semenov" culture=pomor }
 
 1919000 = {name="Al-Gheilani" culture=umani }
 1919001 = {name="Al-Busaidi" culture=umani }
@@ -5062,6 +5111,7 @@
 2001049 = { name="Dobson" culture=highlander }
 2001050 = { name="Gunn" culture=highlander }
 2001051 = { name="Ì" culture=highlander used_for_random = no}
+2001052 = { name="Neilson" culture=highlander used_for_random = no}
 
 2002000 = { name="Kovacic" culture=slovene}
 2002001 = { name="Krajnc" culture=slovene}
@@ -9858,7 +9908,7 @@
 2025000 = { name="Quintana" culture=canarian }
 2025001 = { name="Betancor" culture=canarian }
 2025002 = { name="Falcón" culture=canarian }
-2025003 = { name="Clavijo" culture=canarian }
+2025003 = { name="Clavijo" culture=canarian used_for_random = no }
 2025004 = { name="Acosta" culture=canarian }
 2025005 = { name="Campeche" culture=canarian }
 2025006 = { name="Perdomo" culture=canarian }
@@ -9986,6 +10036,9 @@
 2025128 = { name="Reverón" culture=canarian }
 2025129 = { name="Alayón" culture=canarian }
 2025130 = { name="Palenzuela" culture=canarian }
+2025131 = { name="de Abreu" culture=canarian used_for_random = no }
+2025132 = { name="Cordeiro" culture=canarian used_for_random = no }
+2025133 = { name="Corte-Real" culture=canarian used_for_random = no }
 
 2026001 = { name="Caretti" culture=piedmontese }
 2026002 = { name="Rossi" culture=piedmontese }

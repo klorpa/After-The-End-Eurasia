@@ -131,7 +131,10 @@ republic_governments = {
 			OR = { 
 				capital_scope = { has_province_modifier = pirate_outpost }
 				primary_title = {
+				OR = {
 					title = d_jirba_corsairs
+					title = d_madeira
+					}
 				}
 				liege = { government = pirate_government }
 			}
