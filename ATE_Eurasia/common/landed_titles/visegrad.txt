@@ -4,10 +4,10 @@ e_visegrad = {
 	color={ 200 75 120 }
 	color2={ 255 255 0 }
 	
-	capital = 1037 #Prague
+	capital = 1169 #Buda
 	
 	k_hungary = {
-		color={ 55 79 154 }
+		color={ 159 78 70 }
 		color2={ 255 255 255 }
 		
 		capital = 1170 # c_pest
@@ -15,7 +15,7 @@ e_visegrad = {
 		catholic = 700 # Bring Catholicism to the East
 		
 		d_transdanubia = {
-			color={ 35 99 144 }
+			color={ 139 68 100 }
 			color2={ 255 255 255 }
 			
 			capital = 1165 # c_baranya
@@ -33,7 +33,7 @@ e_visegrad = {
 				b_komlo = {}
 			}
 			c_gyor = { # 1168
-				color={ 176 213 171 }
+				color={ 139 88 120 }
 				color2={ 255 255 255 }
 				
 				b_gyorujbarat = {}
@@ -57,7 +57,7 @@ e_visegrad = {
 				b_tapolca = {}
 			}
 			c_zala = { # 1166
-				color={ 129 211 39 }
+				color={ 129 85 99 }
 				color2={ 255 255 255 }
 				
 				b_zalaegerszeg = {}
@@ -70,13 +70,13 @@ e_visegrad = {
 			}
 		}
 		d_alfoeld = {
-			color={ 232 11 75 }
+			color={ 229 128 70 }
 			color2={ 255 255 255 }
 			
 			capital = 1174 # c_hajdu_bihar
 			
 			c_bacs_kiskun = { # 1171
-				color={ 222 21 70 }
+				color={ 219 130 65 }
 				color2={ 255 255 255 }
 				
 				b_kecskemet = {}
@@ -88,7 +88,7 @@ e_visegrad = {
 				b_mako = {}
 			}
 			c_bekes = { # 1172
-				color={ 205 70 42 }
+				color={ 219 118 66 }
 				color2={ 255 255 255 }
 				
 				b_bekes = {}
@@ -100,7 +100,7 @@ e_visegrad = {
 				b_gyula = {}
 			}
 			c_hajdu_bihar = { # 1173
-				color={ 22 212 91 }
+				color={ 239 125 70 }
 				color2={ 255 255 255 }
 				
 				b_hajdusamson = {}
@@ -112,7 +112,7 @@ e_visegrad = {
 				b_hajduszoboszlo = {}
 			}
 			c_miskolc = { # 1174
-				color={ 251 95 35 }
+				color={ 251 125 65 }
 				color2={ 255 255 255 }
 				
 				b_felsozsolca = {}
@@ -131,7 +131,7 @@ e_visegrad = {
 			capital = 1170 # c_pest
 			
 			c_buda = { # 1169
-				color={ 154 84 194 }
+				color={ 224 84 179 }
 				color2={ 255 255 255 }
 				
 				b_varkeruelet = {}
@@ -143,7 +143,7 @@ e_visegrad = {
 				b_budafok_teteny = {}
 			}
 			c_pest = { # 1170
-				color={ 118 186 247 }
+				color={ 234 64 129 }
 				color2={ 255 255 255 }
 				
 				b_belvaros_lipotvaros = {}
@@ -400,8 +400,12 @@ e_visegrad = {
 			c_zilina = {
 				color={ 220 122 85 }
 				color2={ 255 255 255 }
+				
+				hungarian = "Zsolna"
 
-				b_zilina = {}
+				b_zilina = {
+					hungarian = "Zsolna"
+				}
 				b_cadca = {}
 				b_turzovka = {}
 				b_martin = {}
@@ -413,10 +417,15 @@ e_visegrad = {
 			c_presov = {
 				color={ 233 131 67 }
 				color2={ 255 255 255 }
+				hungarian = "Eperjes"
 
-				b_presov = {}
+				b_presov = {
+					hungarian = "Eperjes"
+				}
 				b_humenne = {}
-				b_bardejov = {}
+				b_bardejov = {
+					hungarian = "Bártfa"
+				}
 				b_poprad = {}
 				b_lipany = {}
 				b_strba = {}
@@ -426,8 +435,11 @@ e_visegrad = {
 			c_kosice = {
 				color={ 253 161 94 }
 				color2={ 255 255 255 }
+				hungarian = "Kassa"
 
-				b_kosice = {}
+				b_kosice = {
+					hungarian = "Kassa"
+				}
 				b_trebisov = {}
 				b_haniska = {}
 				b_jasov = {}
@@ -449,8 +461,11 @@ e_visegrad = {
 			c_bratislava = {
 				color={ 177 102 55 }
 				color2={ 255 255 255 }
+				hungarian = "Pozsony"
 
-				b_bratislava = {}
+				b_bratislava = {
+					hungarian = "Pozsony"
+				}
 				b_trnava = {}
 				b_pezinok = {}
 				b_stupava = {}
@@ -463,11 +478,16 @@ e_visegrad = {
 			c_nitra = {
 				color={ 133 87 12 }
 				color2={ 255 255 255 }
+				hungarian = "Nyitra"
 
-				b_nitra = {}
+				b_nitra = {
+					hungarian = "Nyitra"
+				}
 				b_levice = {}
 				b_nove_zamky = {}
-				b_komarno = {}
+				b_komarno = {
+					hungarian = "Révkomárom"
+				}
 				b_kolarovo = {}
 				b_surany = {}
 				b_topolcany = {}
@@ -476,12 +496,19 @@ e_visegrad = {
 			c_banska_bystrica = {
 				color={ 122 45 8 }
 				color2={ 255 255 255 }
+				hungarian = "Besztercebánya"
 
-				b_banska_bystrica = {}
-				b_zvolen = {}
+				b_banska_bystrica = {
+					hungarian = "Besztercebánya"
+				}
+				b_zvolen = {
+					hungarian = "Zólyom"
+				}
 				b_krupina = {}
 				b_lucenec = {}
-				b_rimavska_sobota = {}
+				b_rimavska_sobota = {
+					hungarian = "Rimaszombat"
+				}
 				b_detva = {}
 				b_ciz = {}
 			}
@@ -489,8 +516,11 @@ e_visegrad = {
 			c_trencin = {
 				color={ 178 92 44 }
 				color2={ 255 255 255 }
+				hungarian = "Trencsén"
 
-				b_trencin = {}
+				b_trencin = {
+					hungarian = "Trencsén"
+				}
 				b_myjava = {}
 				b_nove_mesto_nad_vahom = {}
 				b_banovce_nad_bebravou = {}
@@ -501,7 +531,7 @@ e_visegrad = {
 		}
 	}
 	k_poland = {
-		color={ 33 66 99 }
+		color={ 233 66 99 }
 		color2 = { 255 255 255 }
 
 		capital = 1321 #Warsaw
@@ -1009,7 +1039,7 @@ e_visegrad = {
 		}
 	}
 	k_silesia = {
-		color={ 55 108 131 }
+		color={ 125 198 55 }
 		color2 = { 255 255 255 }
 
 		capital = 1321 #Warsaw

@@ -170,76 +170,145 @@ e_romania = {
 				color={ 199 146 160 }
 				color2={ 255 255 255 }
 				yiddish = "Kloyzenborg"
+				hungarian = "Kolozs"
 				b_floresti = {}
 				b_cluj_napoca = {
 					yiddish = "Kloyzenborg"
+					hungarian = "Kolozsvár"
 				}
-				b_zalau = {}
-				b_turda = {}
+				b_zalau = {
+					hungarian = "Zilah"
+				}
+				b_turda = {
+					hungarian = "Torda"
+				}
 				b_dej = {
 					yiddish ="Desh"
+					hungarian = "Dés"
 				}
-				b_campia_turzii = {}
-				b_gherla = {}
+				b_campia_turzii = {
+					hungarian = "Aranyosgyéres"
+				}
+				b_gherla = {
+					hungarian = "Szamosújvár"
+				}
 			}
 			c_brasov = { # 1180
 				color={ 195 121 107 }
 				color2={ 255 255 255 }
 				yiddish = "Kroynshtot" 
-				b_ghimbav = {}
+				hungarian = "Brassó"
+				b_ghimbav = {
+					hungarian = "Vidombák"
+				}
 				b_brasov = {
 					yiddish = "Kroynshtot" 
+					hungarian = "Brassó"
 				}
-				b_sibiu = {}
-				b_medias = {}
-				b_sacele = {}
-				b_fagaras = {}
-				b_codlea = {}
+				b_sibiu = {
+					hungarian = "Nagyszeben"
+				}
+				b_medias = {
+					hungarian = "Meggyes"
+				}
+				b_sacele = {
+					hungarian = "Torda"
+				}
+				b_fagaras = {
+					hungarian = "Fogaras"
+				}
+				b_codlea = {
+					hungarian = "Feketehalom"
+				}
 			}
 			c_harghita = { # 1179
 				color={ 198 173 103 }
 				color2={ 255 255 255 }
+				hungarian = "Székelyföld"
 				
-				b_miercurea_ciuc = {}
-				b_sfantu_gheorghe = {}
+				b_miercurea_ciuc = {
+					hungarian = "Csíkszereda"
+				}
+				b_sfantu_gheorghe = {
+					hungarian = "Sepsigszentgyörgy"
+				}
 				b_odorheiu_secuiesc = {
 					yiddish = "Odorhoi"
+					hungarian = "Székelyudvarhely"
 				}
-				b_gheorgheni = {}
-				b_targu_secuiesc = {}
-				b_toplita = {}
-				b_cristuru_secuiesc = {}
+				b_gheorgheni = {
+					hungarian = "Gyergyószentmiklós"
+				}
+				b_targu_secuiesc = {
+					hungarian = "Kézdivásárhely"
+				}
+				b_toplita = {
+					hungarian = "Maroshévíz"
+				}
+				b_cristuru_secuiesc = {
+					hungarian = "Székelykeresztúr"
+				}
 			}
 			c_hunedoara = { # 1181
 				color={ 210 145 252 }
 				color2={ 255 255 255 }
+				hungarian = "Hunyad"
 				
-				b_hunedoara = {}
-				b_deva = {}
-				b_alba_iulia = {}
-				b_petrosani = {}
-				b_sebes = {}
-				b_aiud = {}
-				b_vulcan = {}
+				b_hunedoara = {
+					hungarian = "Vajdahunyadvár"
+				}
+				b_deva = {
+					hungarian = "Déva"
+				}
+				b_alba_iulia = {
+					hungarian = "Gyulafehérvár"
+				}
+				b_petrosani = {
+					hungarian = "Petrozsény"
+				}
+				b_sebes = {
+					hungarian = "Sebes"
+				}
+				b_aiud = {
+					hungarian = "Nagyenyed"
+				}
+				b_vulcan = {
+					hungarian = "Vulkán"
+				}
 			}
 			c_mures = { # 1178
 				color={ 255 215 26 }
 				color2={ 255 255 255 }
+				hungarian = "Maros"
 				
-				b_sancraiu_de_mures = {}
-				b_targu_mures = {}
-				b_bistrita = {}
-				b_reghin = {}
+				b_sancraiu_de_mures = {
+					hungarian = "Marosszentkirály"
+				}
+				b_targu_mures = {
+					hungarian = "Marosvásárhely"
+				}
+				b_bistrita = {
+					hungarian = "Beszterce"
+				}
+				b_reghin = {
+					hungarian = "Szászrégen"
+				}
 				b_sighisoara = {
 					yiddish = "Seshborg"
+					hungarian = "Segesvár"
 				}
-				b_tarnaveni = {}
-				b_ludus = {}
+				b_tarnaveni = {
+					hungarian = "Dicsöszentmárton"
+				}
+				b_ludus = {
+					hungarian = "Marosludas"
+				}
 			}
 		}
 		d_banat = {
 			color={ 73 193 87 }
 			color2={ 255 255 255 }
+			hungarian = "Bánság"
 			
 			capital = 1183 # c_timis
 			
@@ -247,60 +316,118 @@ e_romania = {
 				color={ 63 203 82 }
 				color2={ 255 255 255 }
 				
+				hungarian = "Temes"
 				yiddish = "Temeshvar"
 				
-				b_giroc = {}
+				b_giroc = {
+					hungarian = "Gyüreg"
+				}
 				b_timisoara = {
 					yiddish = "Temeshvar"
+					hungarian = "Temesvár"
 				}
-				b_lugoj = {}
-				b_sannicolau_mare = {}
-				b_jimbolia = {}
-				b_recas = {}
-				b_faget = {}
+				b_lugoj = {
+					hungarian = "Lugos"
+				}
+				b_sannicolau_mare = {
+					hungarian = "Nagyszentmiklós"
+				}
+				b_jimbolia = {
+					hungarian = "Zsombolya"
+				}
+				b_recas = {
+					hungarian = "Temesrékas"
+				}
+				b_faget = {
+				}
 			}
 			c_caras_severin = { # 1184
 				color={ 132 158 25 }
 				color2={ 255 255 255 }
+				hungarian = "Krassó-Szörény"
 				
-				b_caransebes = {}
-				b_resita = {}
-				b_bocsa = {}
-				b_moldova_noua = {}
-				b_oravita = {}
-				b_otelu_rosu = {}
-				b_anina = {}
+				b_caransebes = {
+					hungarian = "Karánsebes"
+				}
+				b_resita = {
+					hungarian = "Resicabánya"
+				}
+				b_bocsa = {
+					hungarian = "Boksa"
+				}
+				b_moldova_noua = {
+					hungarian = "Újmoldova"
+				}
+				b_oravita = {
+					hungarian = "Oravicabánya"
+				}
+				b_otelu_rosu = {
+					hungarian = "Nándorhegy"
+				}
+				b_anina = {
+				}
 			}
 		}
 		d_crisana = {
 			color={ 214 216 92 }
 			color2={ 255 255 255 }
+			hungarian = "Körösvidék"
 			
 			capital = 1176 # c_bihor
 			
 			c_bihor = { # 1176
 				color={ 224 206 97 }
 				color2={ 255 255 255 }
+				hungarian = "Bihar"
 				
-				b_santandrei = {}
-				b_oradea = {}
-				b_salonta = {}
-				b_marghita = {}
-				b_beius = {}
-				b_sacueni = {}
-				b_alesd = {}
+				b_santandrei = {
+					hungarian = "Biharszentandrás"
+				}
+				b_oradea = {
+					hungarian = "Nagyvárad"
+				}
+				b_salonta = {
+					hungarian = "Nagyszalonta"
+				}
+				b_marghita = {
+					hungarian = "Margitta"
+				}
+				b_beius = {
+					hungarian = "Belényes"
+				}
+				b_sacueni = {
+					hungarian = "Székelyhíd"
+				}
+				b_alesd = {
+					hungarian = "Élesd"
+				}
 			}
 			c_arad = { # 1182
 				color={ 171 47 130 }
 				color2={ 255 255 255 }
+				hungarian = "Arad"
 				
-				b_vladimirescu = {}
-				b_arad_2 = {}
-				b_pecica = {}
-				b_santana = {}
-				b_lipova = {}
-				b_ineu = {}
-				b_chisineu_cris = {}
+				b_vladimirescu = {
+					hungarian = "Glogovác"
+				}
+				b_arad_2 = {
+					hungarian = "Arad"
+				}
+				b_pecica = {
+					hungarian = "Pécska"
+				}
+				b_santana = {
+					hungarian = "Újszentanna"
+				}
+				b_lipova = {
+					hungarian = "Lippa"
+				}
+				b_ineu = {
+					hungarian = "Borosjenö"
+				}
+				b_chisineu_cris = {
+					hungarian = "Kisjenö"
+				}
 			}
 		}
 		d_maramures = {
@@ -309,23 +436,38 @@ e_romania = {
 			
 			capital = 1175 # c_maramures
 			
+			hungarian = "Máramaros"
 			yiddish = "Maramarash"
 			
 			c_maramures = { # 1175
 				color={ 110 134 83 }
 				color2={ 255 255 255 }
 				
+				hungarian = "Máramaros"
 				yiddish = "Maramarash"
 				
 				b_baia_mare = {
 					yiddish = "Banye"
+					yiddish = "Nagybánya"
 				}
-				b_satu_mare = {}
-				b_sighetu_marmatiei = {}
-				b_carei = {}
-				b_viseu_de_sus = {}
-				b_baia_sprie = {}
-				b_negresti_oas = {}
+				b_satu_mare = {
+					hungarian = "Szatmárnémeti"
+				}
+				b_sighetu_marmatiei = {
+					hungarian = "Máramarossziget"
+				}
+				b_carei = {
+					hungarian = "Nagykároly"
+				}
+				b_viseu_de_sus = {
+					hungarian = "Felsövisó"
+				}
+				b_baia_sprie = {
+					hungarian = "Felsöbánya"
+				}
+				b_negresti_oas = {
+					hungarian = "Avasfelsöfalu"
+				}
 			}
 			c_transcarpathia = { # 893
 				color={ 73 161 144 }
@@ -333,12 +475,22 @@ e_romania = {
 				
 				yiddish = "Karpatn"
 				
-				b_serednie = {}
-				b_uzhhorod = {}
-				b_mukachevo = {}
-				b_khust = {}
+				b_serednie = {
+					hungarian = "Középapsa"
+				}
+				b_uzhhorod = {
+					hungarian = "Ungvár"
+				}
+				b_mukachevo = {
+					hungarian = "Munkács"
+				}
+				b_khust = {
+					hungarian = "Huszt"
+				}
 				b_vynohradiv = {}
-				b_berehove = {}
+				b_berehove = {
+					hungarian = "Beregszász"
+				}
 				b_svaliava = {}
 			}
 		}
@@ -374,6 +526,7 @@ e_romania = {
 		qirimlar="Besarabiya"
 		gagauz="Besarabiya"
 		yiddish="Basarabye"
+		hungarian="Besszarábia"
 	
 		d_budjak = {
 			color={ 232 188 123 }
