@@ -4,7 +4,7 @@ targetted_decisions = {
 		is_high_prio = yes
 		filter = religious_head
 		ai_target_filter = religious_head
-		ai_check_interval = 60
+		ai_check_interval = 12
 		only_independent = yes
 		
 		from_potential = {
@@ -27,7 +27,7 @@ targetted_decisions = {
 				war = no
 				relative_realm_size = {
 					who = ROOT
-					size >= 1
+					size > 1
 				}
 				
 			}
