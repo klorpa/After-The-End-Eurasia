@@ -281,6 +281,8 @@ patron_marianne = {
 	opposites = {
 		patron_the_emperor
 		patron_the_general
+		patron_la_montagne
+		patron_la_sociale
 	}
 	
 	stewardship = 1
@@ -296,6 +298,8 @@ patron_the_emperor = {
 	opposites = {
 		patron_the_general
 		patron_marianne
+		patron_la_montagne
+		patron_la_sociale
 	}
 	
 	martial = 1
@@ -311,6 +315,8 @@ patron_the_general = {
 	opposites = {
 		patron_marianne
 		patron_the_emperor
+		patron_la_montagne
+		patron_la_sociale
 	}
 	
 	intrigue = 1
@@ -322,6 +328,41 @@ patron_the_general = {
 	religious = yes
 	ruler_designer_cost = 0
 }
+patron_la_sociale = {
+	opposites = {
+		patron_marianne
+		patron_the_emperor
+		patron_the_general
+		patron_la_montagne
+	}
+	
+	diplomacy = 1
+	stewardship = 1
+	
+	potential = { religion = jacobin }
+	religious_branch = jacobin
+	random = no 
+	religious = yes
+	ruler_designer_cost = 0
+}
+patron_la_montagne = {
+	opposites = {
+		patron_marianne
+		patron_the_emperor
+		patron_the_general
+		patron_la_sociale
+	}
+	
+	martial = 1
+	intrigue = 1
+	
+	potential = { religion = jacobin }
+	religious_branch = jacobin
+	random = no 
+	religion = yes
+	ruler_designer_cost = 0
+}
+	
 methodist = {
 	opposites = {
 		quaker
@@ -946,4 +987,4 @@ azzabas = {
 	random = no
 	religious = yes
 	ruler_designer_cost = 0
-}
+}_è
