@@ -631,7 +631,7 @@ d_jerusalem_patriarch = {
 		Theophanes Theophylaktos Tryphon Zacharias
 	}
 }
-d_lusitanian = {
+d_lusitanian_reformed = {
 	color = { 182 88 5 }
 	color2 = { 255 255 255 }
 	
@@ -644,9 +644,8 @@ d_lusitanian = {
 	foa = "NAVEGADOR_FOA"
 	short_name = yes
 	
-		allow = {
+	allow = {
 		has_landed_title = k_portugal
-		religion = lusitanian_reformed
 		num_of_holy_sites = 3
 		piety = 150
 		wealth = 100
