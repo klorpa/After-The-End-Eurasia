@@ -27,18 +27,13 @@ targetted_decisions = {
 				war = no
 				relative_realm_size = {
 					who = ROOT
-					size > 1
+					size >= 1.05
 				}
 				
 			}
 		}
 		effect = {
-			d_shiite = {
-				holder_scope = {
-					save_event_target_as = old_al_waqil
-				}
-				usurp_title = FROM
-			}
+			save_event_target_as = old_al_waqil
 			character_event = { id = twelver.2 }
 			FROM = {
 				character_event = { id = twelver.1 }

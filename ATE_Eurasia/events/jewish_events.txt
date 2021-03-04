@@ -565,7 +565,7 @@ narrative_event = {
 
 ######################HASKALAH EVENTS##################
 
-#####INTER FAITH DIALOGUE EVNETS
+#####INTER FAITH DIALOGUE EVENTSS
 character_event = { #gentile can accept or deny it
 	id = jewish.31
 	desc = EVTDESC_dialogue_1
@@ -1614,7 +1614,7 @@ character_event = {
 #find a chevruta partner
 character_event = {
 	id = jewish.151
-	desc = EVTDESC_yeshiva_1
+	desc = EVTDESC_yeshiva_2
 	picture = GFX_evt_religious_exultation
 
 	is_triggered_only = yes
@@ -1635,7 +1635,7 @@ character_event = {
 				save_event_target_as = chevruta_partner
 			}	
 		}
-		elseif = {
+		else_if = {
 			limit = {
 				any_courtier_or_vassal = {
 					religion_group = jewish_group
@@ -1702,6 +1702,7 @@ character_event = {
 				limit = { NOT = { trait = avrach } }
 				add_trait = avrach
 			}
+			add_trait = travelling
 			character_event = { id = jewish.152 }
 		}
 		add_trait = travelling
@@ -1721,126 +1722,128 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_yeshiva_1
-		save_persistent_event_target = {
+		save_event_target_as = {
 			name = chevruta_partner
 			scope = FROM
 		}
 	}
 }
 	
-# Tombola (reworked original script to stop MP spam)
-character_event = {
-	id = jewish.153
-	hide_window = yes
-	is_triggered_only = yes
+# # Tombola (reworked original script to stop MP spam)
+# character_event = {
+	# id = jewish.153
+	# picture = GFX_evt_religious_exultation
+	# hide_window = yes
+	
+	# is_triggered_only = yes
 
-	trigger = {
-		event_target:chevruta_partner = {
-			is_alive = yes
-			prisoner = no
-		}
-	}
-	fail_trigger_effect = {
-		clr_flags_introduce_heir_effect = yes
-	}
+	# trigger = {
+		# event_target:chevruta_partner = {
+			# is_alive = yes
+			# prisoner = no
+		# }
+	# }
+	# fail_trigger_effect = {
+		# clr_flags_introduce_heir_effect = yes
+	# }
 
-	immediate = {
-		hidden_effect = {
-			if = { #If you had at least 3 events already
-				limit = {
-					calc_true_if = {
-						amount = 3
-						has_character_flag = kosher_evt_heir_1
-						has_character_flag = kosher_evt_heir_2
-						has_character_flag = kosher_evt_heir_2B
-						has_character_flag = kosher_evt_heir_3
-						has_character_flag = kosher_evt_heir_3B
-						has_character_flag = kosher_evt_heir_4
-						has_character_flag = kosher_evt_heir_5
-						has_character_flag = kosher_evt_heir_6
-						has_character_flag = kosher_evt_heir_7
-						has_character_flag = kosher_evt_heir_8
-					}
-				}
-				character_event = { id = jewish.154 days = 10 random = 10 } #Heir is groomed!
-				break = yes # Skip tombola, you're done!
-			}
+	# immediate = {
+		# hidden_effect = {
+			# if = { #If you had at least 3 events already
+				# limit = {
+					# calc_true_if = {
+						# amount = 3
+						# has_character_flag = kosher_evt_heir_1
+						# has_character_flag = kosher_evt_heir_2
+						# has_character_flag = kosher_evt_heir_2B
+						# has_character_flag = kosher_evt_heir_3
+						# has_character_flag = kosher_evt_heir_3B
+						# has_character_flag = kosher_evt_heir_4
+						# has_character_flag = kosher_evt_heir_5
+						# has_character_flag = kosher_evt_heir_6
+						# has_character_flag = kosher_evt_heir_7
+						# has_character_flag = kosher_evt_heir_8
+					# }
+				# }
+				# character_event = { id = jewish.154 days = 10 random = 10 } #Heir is groomed!
+				# break = yes # Skip tombola, you're done!
+			# }
 
-			random_list = {
-				100 = { #Partner helps with a conundrum
-					trigger = {
-						NOT = { has_character_flag = kosher_evt_heir_1 }
-					}
-					character_event = { id = jewish.155 days = 30 random = 10 } #send event
-					set_character_flag = kosher_evt_heir_1
-				}
-				100 = { #inspired reading
-					trigger = {
-						NOT = { has_character_flag = kosher_evt_heir_1 }
-					}
-					character_event = { id = jewish.156 days = 30 random = 10 } # send event
-					set_character_flag = kosher_evt_heir_2
-				}
-				100 = { #inspired reading (again!)
-					trigger = {
-						NOT = { has_character_flag = kosher_evt_heir_1 }
-					}
-					character_event = { id = jewish.156 days = 30 random = 10 } # send event
-					set_character_flag = kosher_evt_heir_2_B
-				}
-				100 = { #confused reading
-					trigger = {
-						NOT = { has_character_flag = kosher_evt_heir_1 }
-					}
-					character_event = { id = jewish.157 days = 30 random = 10 } # send event
-					set_character_flag = kosher_evt_heir_3
-				}
-				100 = { #confused reading (again!)
-					trigger = {
-						NOT = { has_character_flag = kosher_evt_heir_1 }
-					}
-					character_event = { id = jewish.157 days = 30 random = 10 } # send event
-					set_character_flag = kosher_evt_heir_3_B
-				}
-				50 = { #chevruta friendship
-					trigger = {
-						NOT = { has_character_flag = kosher_evt_heir_1 }
-					}
-					character_event = { id = jewish.158 days = 32 random = 5 } # send event
-					set_character_flag = kosher_evt_heir_4
-				}
-				50 = { #chevruta rivalry
-					trigger = {
-						NOT = { has_character_flag = kosher_evt_heir_1 }
-					}
-					character_event = { id = jewish.158 days = 13 random = 5 }
-					set_character_flag = kosher_evt_heir_5
-				}			
-				10 = { #another one
-					trigger = {
-						NOT = { has_character_flag = kosher_evt_heir_1 }
-					}
-					character_event = { id = jewish.159 days = 14 random = 5 } #send event
-					set_character_flag = kosher_evt_heir_6
-				}
-				20 = { #
-					trigger = {
-						NOT = { has_character_flag = kosher_evt_heir_1 }
-					}
-					character_event = { id = jewish.160 days = 14 random = 5 } #send event
-					set_character_flag = kosher_evt_heir_7
-				}
-				10 = { #
-					trigger = {
-						NOT = { has_character_flag = kosher_evt_heir_1 }
-					}
-					character_event = { id = jewish.161 days = 10 random = 5 } #send event
-					set_character_flag = kosher_evt_heir_8
-				}
-			}
-		}
-	}
-}
+			# random_list = {
+				# 100 = { #Partner helps with a conundrum
+					# trigger = {
+						# NOT = { has_character_flag = kosher_evt_heir_1 }
+					# }
+					# character_event = { id = jewish.155 days = 30 random = 10 } #send event
+					# set_character_flag = kosher_evt_heir_1
+				# }
+				# 100 = { #inspired reading
+					# trigger = {
+						# NOT = { has_character_flag = kosher_evt_heir_1 }
+					# }
+					# character_event = { id = jewish.156 days = 30 random = 10 } # send event
+					# set_character_flag = kosher_evt_heir_2
+				# }
+				# 100 = { #inspired reading (again!)
+					# trigger = {
+						# NOT = { has_character_flag = kosher_evt_heir_1 }
+					# }
+					# character_event = { id = jewish.156 days = 30 random = 10 } # send event
+					# set_character_flag = kosher_evt_heir_2_B
+				# }
+				# 100 = { #confused reading
+					# trigger = {
+						# NOT = { has_character_flag = kosher_evt_heir_1 }
+					# }
+					# character_event = { id = jewish.157 days = 30 random = 10 } # send event
+					# set_character_flag = kosher_evt_heir_3
+				# }
+				# 100 = { #confused reading (again!)
+					# trigger = {
+						# NOT = { has_character_flag = kosher_evt_heir_1 }
+					# }
+					# character_event = { id = jewish.157 days = 30 random = 10 } # send event
+					# set_character_flag = kosher_evt_heir_3_B
+				# }
+				# 50 = { #chevruta friendship
+					# trigger = {
+						# NOT = { has_character_flag = kosher_evt_heir_1 }
+					# }
+					# character_event = { id = jewish.158 days = 32 random = 5 } # send event
+					# set_character_flag = kosher_evt_heir_4
+				# }
+				# 50 = { #chevruta rivalry
+					# trigger = {
+						# NOT = { has_character_flag = kosher_evt_heir_1 }
+					# }
+					# character_event = { id = jewish.158 days = 13 random = 5 }
+					# set_character_flag = kosher_evt_heir_5
+				# }			
+				# 10 = { #another one
+					# trigger = {
+						# NOT = { has_character_flag = kosher_evt_heir_1 }
+					# }
+					# character_event = { id = jewish.159 days = 14 random = 5 } #send event
+					# set_character_flag = kosher_evt_heir_6
+				# }
+				# 20 = { #
+					# trigger = {
+						# NOT = { has_character_flag = kosher_evt_heir_1 }
+					# }
+					# character_event = { id = jewish.160 days = 14 random = 5 } #send event
+					# set_character_flag = kosher_evt_heir_7
+				# }
+				# 10 = { #
+					# trigger = {
+						# NOT = { has_character_flag = kosher_evt_heir_1 }
+					# }
+					# character_event = { id = jewish.161 days = 10 random = 5 } #send event
+					# set_character_flag = kosher_evt_heir_8
+				# }
+			# }
+		# }
+	# }
+# }
 
 
 # Yeshiva End Event
