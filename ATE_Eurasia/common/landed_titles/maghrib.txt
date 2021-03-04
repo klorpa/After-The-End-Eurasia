@@ -192,8 +192,14 @@ e_maghrib = {
 					riffian = "Aryana"
 					atlas = "Aryana"
 				}
-				b_manuba = {}
-				b_al_muruj = {}
+				b_zagwan = {
+					kabyle = "Zeghwan"
+					chaoui = "Zeghwan"
+					soussi = "Zeghwan"
+					riffian = "Zeghwan"
+					atlas = "Zeghwan"
+				}
+				b_al_fahs = {}
 			}
 			c_benzart = { # 421
 				color={ 188 57 39 }
@@ -206,6 +212,60 @@ e_maghrib = {
 				b_manzil_jamil = {}
 				b_tinja = {}
 				b_manzil_abd_al_rahman = {}
+			}
+			c_al_kaf = { # 426
+				color={ 186 55 46 }
+				color2={ 255 255 255 }
+				
+				kabyle = "Lkaf"
+				chaoui = "Lkaf"
+				soussi = "Lkaf"
+				riffian = "Lkaf"
+				atlas = "Lkaf"
+				algerian = "il-Kaf"
+				moroccan = "il-Kaf"
+				tunisian = "il-Kaf"
+				
+				b_tajrwyn = {}
+				b_al_kaf = {
+					algerian = "il-Kaf"
+					moroccan = "il-Kaf"
+					tunisian = "il-Kaf"
+					kabyle = "Lkaf"
+					chaoui = "Lkaf"
+					soussi = "Lkaf"
+					riffian = "Lkaf"
+					atlas = "Lkaf"
+				}
+				b_siliana = {
+					kabyle = "Silyana"
+					chaoui = "Silyana"
+					soussi = "Silyana"
+					riffian = "Silyana"
+					atlas = "Silyana"
+				}
+				b_al_dahmani = {}
+				b_bwarada = {}
+				b_al_sirus = {}
+				b_gaafur = {}
+			}
+			c_baja = { # 425
+				color={ 186 26 34 }
+				color2={ 255 255 255 }
+				
+				b_bardo = {}
+				b_baja = {}
+				b_janduba = {
+					kabyle = "Jendouba"
+					chaoui = "Jendouba"
+					soussi = "Jendouba"
+					riffian = "Jendouba"
+					atlas = "Jendouba"
+				}
+				b_ghar_aldamaa = {}
+				b_majaz_al_bab = {}
+				b_farnan = {}
+				b_tistur = {}
 			}
 			c_nabil = { # 423
 				color={ 188 22 61 }
@@ -235,89 +295,6 @@ e_maghrib = {
 					tunisian = "Slimène"
 				}
 			}
-			c_zagwan = { # 422
-				color={ 188 49 70 }
-				color2={ 255 255 255 }
-				
-				kabyle = "Zeghwan"
-				chaoui = "Zeghwan"
-				soussi = "Zeghwan"
-				riffian = "Zeghwan"
-				atlas = "Zeghwan"
-				
-				b_zagwan = {
-					kabyle = "Zeghwan"
-					chaoui = "Zeghwan"
-					soussi = "Zeghwan"
-					riffian = "Zeghwan"
-					atlas = "Zeghwan"
-				}
-				b_al_fahs = {}
-				b_zariba = {}
-				b_bir_musharga = {}
-				b_al_naazur = {}
-				b_jabal_al_wasat = {}
-				b_sawaf = {}
-			}
-		}
-		d_al_jarid = {
-			color={ 191 51 88 }
-			color2={ 255 255 255 }
-			
-			capital = 435 # c_gafsa
-			
-			algerian = "l-Jrid"
-			moroccan = "l-Jrid"
-			tunisian = "l-Jrid"
-			
-			c_gafsa = { # 435
-				color={ 181 61 83 }
-				color2={ 255 255 255 }
-				
-				b_mitlawi = {}
-				b_gafsa = {}
-				b_al_qasr_2 = {}
-				b_ar_rudayyif = {}
-				b_umm_al_arais = {}
-				b_al_qatar = {}
-				b_al_madila = {}
-			}
-			c_gbili = { # 437
-				color={ 181 39 23 }
-				color2={ 255 255 255 }
-				
-				b_nazla_al_jawfia = {}
-				b_qbili = {}
-				b_duz = {}
-				b_suq_al_ahad = {}
-				b_al_qalah = {}
-				b_gamna = {}
-				b_al_fawar = {}
-			}
-			c_tozir = { # 436
-				color={ 181 52 54 }
-				color2={ 255 255 255 }
-				
-				kabyle = "Tuzer"
-				chaoui = "Tuzer"
-				soussi = "Tuzer"
-				riffian = "Tuzer"
-				atlas = "Tuzer"
-				
-				b_wadi_al_hadif = {}
-				b_tozir = {
-					kabyle = "Tuzer"
-					chaoui = "Tuzer"
-					soussi = "Tuzer"
-					riffian = "Tuzer"
-					atlas = "Tuzer"
-				}
-				b_nufta = {}
-				b_degash = {}
-				b_hamat_al_jarid = {}
-				b_tamghiza = {}
-				b_hazua = {}
-			}
 		}
 		d_al_sahil = {
 			color={ 196 6 38 }
@@ -336,34 +313,6 @@ e_maghrib = {
 				b_al_ein = {}
 				b_gramada = {}
 				b_tina = {}
-			}
-			c_al_mahdiyah = { # 430
-				color={ 181 30 48 }
-				color2={ 255 255 255 }
-				
-				kabyle = "Mehdeyya"
-				chaoui = "Mehdeyya"
-				soussi = "Mehdeyya"
-				riffian = "Mehdeyya"
-				atlas = "Mehdeyya"
-				
-				b_burj_al_kabir = {}
-				b_al_mahdiyah = {
-					kabyle = "Mehdeyya"
-					chaoui = "Mehdeyya"
-					soussi = "Mehdeyya"
-					riffian = "Mehdeyya"
-					atlas = "Mehdeyya"
-				}
-				b_qsur_as_saf = {}
-				b_as_sabbah = {}
-				b_al_jam = {
-					algerian = "il-Jam"
-					moroccan = "il-Jam"
-					tunisian = "il-Jam"
-				}
-				b_rajish = {}
-				b_sidi_alwan = {}
 			}
 			c_monastir = { # 429
 				color={ 186 52 42 }
@@ -389,11 +338,17 @@ e_maghrib = {
 					riffian = "Munastir"
 					atlas = "Munastir"
 				}
+				b_al_mahdiyah = {
+					kabyle = "Mehdeyya"
+					chaoui = "Mehdeyya"
+					soussi = "Mehdeyya"
+					riffian = "Mehdeyya"
+					atlas = "Mehdeyya"
+				}
 				b_al_makanin = {}
+				b_qsur_as_saf = {}
 				b_jamal = {}
-				b_kasr_hilal = {}
-				b_tubliba = {}
-				b_qusayb_al_madyuni = {}
+				b_as_sabbah = {}
 			}
 			c_susa = { # 431
 				color={ 186 31 62 }
@@ -513,103 +468,6 @@ e_maghrib = {
 				b_al_samar = {}
 			}
 		}
-		d_majardah = {
-			color={ 196 17 61 }
-			color2={ 255 255 255 }
-			
-			capital = 424 # c_janduba
-			
-			c_janduba = { # 424
-				color={ 186 27 56 }
-				color2={ 255 255 255 }
-				
-				kabyle = "Jendouba"
-				chaoui = "Jendouba"
-				soussi = "Jendouba"
-				riffian = "Jendouba"
-				atlas = "Jendouba"
-				
-				b_wadi_muliz = {}
-				b_janduba = {
-					kabyle = "Jendouba"
-					chaoui = "Jendouba"
-					soussi = "Jendouba"
-					riffian = "Jendouba"
-					atlas = "Jendouba"
-				}
-				b_ghar_aldamaa = {}
-				b_farnan = {}
-				b_tbarqa = {}
-				b_ayn_drahim = {}
-				b_buasalim = {}
-			}
-			c_al_kaf = { # 426
-				color={ 186 55 46 }
-				color2={ 255 255 255 }
-				
-				kabyle = "Lkaf"
-				chaoui = "Lkaf"
-				soussi = "Lkaf"
-				riffian = "Lkaf"
-				atlas = "Lkaf"
-				algerian = "il-Kaf"
-				moroccan = "il-Kaf"
-				tunisian = "il-Kaf"
-				
-				b_tajrwyn = {}
-				b_al_kaf = {
-					algerian = "il-Kaf"
-					moroccan = "il-Kaf"
-					tunisian = "il-Kaf"
-					kabyle = "Lkaf"
-					chaoui = "Lkaf"
-					soussi = "Lkaf"
-					riffian = "Lkaf"
-					atlas = "Lkaf"
-				}
-				b_al_dahmani = {}
-				b_al_sirus = {}
-				b_al_jarisa = {}
-				b_qalaat_snan = {}
-				b_saqiat_sidi_yusuf = {}
-			}
-			c_baja = { # 425
-				color={ 186 26 34 }
-				color2={ 255 255 255 }
-				
-				b_bardo = {}
-				b_baja = {}
-				b_majaz_al_bab = {}
-				b_tistur = {}
-				b_tabursuq = {}
-				b_al_maqula = {}
-				b_nafiza = {}
-			}
-			c_siliana = { # 427
-				color={ 186 14 77 }
-				color2={ 255 255 255 }
-				
-				kabyle = "Silyana"
-				chaoui = "Silyana"
-				soussi = "Silyana"
-				riffian = "Silyana"
-				atlas = "Silyana"
-				
-				b_makhtr = {}
-				b_siliana = {
-					kabyle = "Silyana"
-					chaoui = "Silyana"
-					soussi = "Silyana"
-					riffian = "Silyana"
-					atlas = "Silyana"
-				}
-				b_bwarada = {}
-				b_gaafur = {}
-				b_al_karib = {}
-				b_bargu = {}
-				b_al_ruwhia = {}
-			}
-		}
 		d_shaanabi = {
 			color={ 193 1 87 }
 			color2={ 255 255 255 }
@@ -699,6 +557,36 @@ e_maghrib = {
 				b_sidi_ali_ibn_awn = {}
 				b_manzil_buzian = {}
 				b_al_muzawana = {}
+			}
+			c_gafsa = { # 435
+				color={ 181 61 83 }
+				color2={ 255 255 255 }
+				
+				b_mitlawi = {}
+				b_gafsa = {}
+				b_tozir = {
+					kabyle = "Tuzer"
+					chaoui = "Tuzer"
+					soussi = "Tuzer"
+					riffian = "Tuzer"
+					atlas = "Tuzer"
+				}
+				b_al_qasr_2 = {}
+				b_ar_rudayyif = {}
+				b_nufta = {}
+				b_degash = {}
+			}
+			c_gbili = { # 437
+				color={ 181 39 23 }
+				color2={ 255 255 255 }
+				
+				b_nazla_al_jawfia = {}
+				b_qbili = {}
+				b_duz = {}
+				b_suq_al_ahad = {}
+				b_al_qalah = {}
+				b_gamna = {}
+				b_al_fawar = {}
 			}
 		}
 	}
