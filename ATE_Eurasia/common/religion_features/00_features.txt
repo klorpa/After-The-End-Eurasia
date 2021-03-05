@@ -183,7 +183,7 @@ religion_nature = {
 				FROM = { 
 					character = yes 
 					OR = { 
-						religion = lusitanian
+						religion = sjotru
 						religion = tengri_pagan
 						religion = zun_pagan
 						religion = hellenic_pagan
@@ -928,6 +928,7 @@ religion_doctrine = {
 		trigger = {
 			NOT = {
 				has_selected_religion_feature = religion_peaceful
+				has_selected_religion_feature = religion_feature_norse
 				has_selected_religion_feature = religion_feature_lusitanian
 			}
 		}
@@ -942,7 +943,7 @@ religion_doctrine = {
 				factor = 1.5
 				FROM = { 	
 					character = yes 
-					religion = lusitanian
+					religion = sjotru
 				}
 			}
 			modifier = { 	
@@ -959,8 +960,9 @@ religion_doctrine = {
 		trigger = {
 			NOT = {
 				has_selected_religion_feature = religion_peaceful
-				has_selected_religion_feature = religion_feature_lusitanian #Redundant
+				has_selected_religion_feature = religion_feature_norse #Redundant
 				has_selected_religion_feature = religion_feature_aztec
+				has_selected_religion_feature = religion_feature_lusitanian
 			}
 		}
 		effect = {
@@ -993,7 +995,7 @@ religion_doctrine = {
 				factor = 1.5
 				FROM = { 
 					character = yes 
-					religion = lusitanian
+					religion = sjotru
 				}
 			}
 			modifier = { 	
@@ -1128,6 +1130,37 @@ religion_doctrine = {
 			}
 		}
 	}
+	religion_feature_norse = {
+		picture = GFX_religion_feature_norse
+		potential = {
+			has_game_started = yes
+			religion = sjotru_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = sjotru_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_adventuring
+				has_selected_religion_feature = religion_seafaring
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_adventuring }
+			custom_tooltip = { text = tooltip_religion_feature_rivermovement }
+			custom_tooltip = { text = tooltip_religion_feature_ship_maintenance }
+			custom_tooltip = { text = tooltip_religion_feature_seafaring }
+			hidden_tooltip = { 
+				enable_prepared_invasion = yes
+				set_seafaring = yes
+				set_allow_rivermovement = yes
+			}
+		}
+		ai_will_do = {
+			factor = 50
+		}
+	}
 	religion_feature_lusitanian = {
 		picture = GFX_religion_feature_lusitanian
 		potential = {
@@ -1154,11 +1187,323 @@ religion_doctrine = {
 				set_seafaring = yes
 				set_allow_rivermovement = yes
 			}
+			custom_tooltip = { text = tooltip_religion_feature_hard_conversion }
+			custom_tooltip = { text = tooltip_religion_feature_stable }
+			custom_tooltip = { text = tooltip_religion_feature_meliorism } 
+			hidden_tooltip = { 
+				set_hard_to_convert = yes
+				set_short_reign_opinion_year_mult = 0
+			}
 		}
 		ai_will_do = {
 			factor = 50
 		}
 	}
+	religion_feature_tengri = {
+		picture = GFX_religion_feature_tengri
+		potential = {
+			has_game_started = yes
+			religion = tengri_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = tengri_pagan_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_relentless
+				has_selected_religion_feature = religion_harems
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_anti_attrition }
+			custom_tooltip = { text = tooltip_religion_feature_offensive }
+			custom_tooltip = { text = tooltip_religion_feature_harems }
+			hidden_tooltip = {
+				set_max_consorts = 0
+				set_max_wives = 4
+				set_ignores_defensive_attrition = yes
+				set_unit_modifier = { 
+					light_infantry_offensive = 0.1
+					heavy_infantry_offensive = 0.1
+					light_cavalry_offensive = 0.1 
+					knights_offensive = 0.1 
+					pikemen_offensive = 0.1 
+					archers_offensive = 0.1
+					horse_archers_offensive = 0.1
+					camel_cavalry_offensive = 0.1
+					war_elephants_offensive = 0.1
+					key = "TENGRI_RELENTLESS_RELIGION"
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	religion_feature_baltic = {
+		picture = GFX_religion_feature_baltic
+		potential = {
+			has_game_started = yes
+			religion = baltic_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = baltic_pagan_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_meritocratic
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_hard_conversion }
+			custom_tooltip = { text = tooltip_religion_feature_eldership }
+			hidden_tooltip = { 
+				set_hard_to_convert = yes
+			}
+		}
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	religion_feature_slavic = {
+		picture = GFX_religion_feature_slavic
+		potential = {
+			has_game_started = yes
+			religion = slavic_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = slavic_pagan_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_stable
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_rivermovement }
+			custom_tooltip = { text = tooltip_religion_feature_stable }
+			custom_tooltip = { text = tooltip_religion_feature_meliorism } 
+			hidden_tooltip = {
+				set_short_reign_opinion_year_mult = 0
+				set_allow_rivermovement = yes
+			}
+		}
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	religion_feature_finnish = {
+		picture = GFX_religion_feature_finnish
+		potential = {
+			has_game_started = yes
+			religion = finnish_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = finnish_pagan_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_stable
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_hard_conversion }
+			custom_tooltip = { text = tooltip_religion_feature_stable }
+			custom_tooltip = { text = tooltip_religion_feature_meliorism } 
+			hidden_tooltip = { 
+				set_hard_to_convert = yes
+				set_short_reign_opinion_year_mult = 0
+			}
+		}
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	religion_feature_west_african = {
+		picture = GFX_religion_feature_west_african
+		potential = {
+			has_game_started = yes
+			religion = west_african_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = west_african_pagan_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_monastic
+				has_selected_religion_feature = religion_jizya
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_monastic }
+			custom_tooltip = { text = tooltip_religion_feature_jizya }
+			custom_tooltip = { text = tooltip_religion_feature_eldership }
+			hidden_tooltip = { 
+				set_priests_can_marry = no
+				set_priests_can_inherit = no
+				set_jizya_tax = yes
+				set_can_retire_to_monastery = yes
+			}
+		}
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	religion_feature_zun = {
+		picture = GFX_religion_feature_zun
+		potential = {
+			has_game_started = yes
+			religion = zun_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = zun_pagan_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_harems
+				has_selected_religion_feature = religion_holy_family
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_harems }
+			custom_tooltip = { text = tooltip_religion_feature_incest }
+			custom_tooltip = { text = tooltip_religion_feature_holy_family }
+			hidden_tooltip = { 
+				set_max_consorts = 0
+				set_max_wives = 4
+				set_pc_marriage = yes
+				set_bs_marriage = yes
+				set_psc_marriage = yes
+				set_cousin_marriage = yes
+				set_divine_blood = yes
+			}
+		}
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	religion_feature_bon = {
+		picture = GFX_religion_feature_bon
+		potential = {
+			has_game_started = yes
+			religion = bon_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = bon_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_holy_family
+				has_selected_religion_feature = religion_meritocratic
+				has_selected_religion_feature = religion_equal
+				has_selected_religion_feature = religion_matriarchal
+				has_selected_religion_feature = religion_patriarchal
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_no_incest }
+			custom_tooltip = { text = tooltip_religion_feature_meritocratic }
+			custom_tooltip = { text = tooltip_religion_feature_feminist }
+			custom_tooltip = { text = tooltip_religion_feature_cognatic }
+			hidden_tooltip = { 
+				set_allows_matrilineal_marriage = yes
+				set_heir_designation = yes
+				set_feminist = yes
+				set_pc_marriage = no
+				set_bs_marriage = no
+				set_psc_marriage = no
+				set_cousin_marriage = no
+			}
+		}
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	religion_feature_aztec = {
+		picture = GFX_religion_feature_aztec
+		potential = {
+			has_game_started = yes
+			religion = aztec_reformed
+			NOR = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = aztec_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_seafaring #Redundant
+				has_selected_religion_feature = religion_ritual_sacrifice #Redundant
+				has_selected_religion_feature = religion_relentless #Redundant
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_aztec_sacrifices }
+			custom_tooltip = { text = tooltip_religion_feature_bloodthirsty_mechanics }
+			custom_tooltip = { text = tooltip_religion_feature_anti_attrition }
+			custom_tooltip = { text = tooltip_religion_feature_offensive }
+			custom_tooltip = { text = tooltip_religion_feature_rivermovement }
+			#custom_tooltip = { text = tooltip_religion_feature_seafaring }
+			custom_tooltip = { text = tooltip_religion_feature_ship_maintenance }
+			hidden_tooltip = { 
+				set_ignores_defensive_attrition = yes
+				set_seafaring = yes
+				set_allow_rivermovement = yes
+				set_unit_modifier = { 
+					light_infantry_offensive = 0.1
+					heavy_infantry_offensive = 0.1
+					light_cavalry_offensive = 0.1 
+					knights_offensive = 0.1 
+					pikemen_offensive = 0.1 
+					archers_offensive = 0.1
+					horse_archers_offensive = 0.1
+					camel_cavalry_offensive = 0.1
+					war_elephants_offensive = 0.1
+					key = "AZTEC_RELENTLESS_RELIGION"
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	religion_feature_hellenic = {
+		picture = GFX_religion_feature_hellenic
+		potential = {
+			has_game_started = yes
+			religion = hellenic_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			religion = hellenic_pagan_reformed
+			NOR = { 
+				has_selected_religion_feature = religion_syncretic
+				has_selected_religion_feature = religion_dogmatic
+				has_selected_religion_feature = religion_meritocratic
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_syncretic }
+			custom_tooltip = { text = tooltip_religion_feature_meritocratic }
+			custom_tooltip = { text = tooltip_religion_feature_war_levies }
+			hidden_tooltip = { 
+				set_heir_designation = yes
+				set_raised_vassal_opinion_loss = no
+			}
+		}
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	
 	religion_feature_pyramids = {
 		picture = GFX_religion_feature_pyramids
 		potential = {
@@ -1199,7 +1544,7 @@ religion_leadership = {
 				factor = 0.1
 				FROM = { 
 					NOR = { 
-						religion = lusitanian
+						religion = sjotru
 						religion = aztec
 					}
 				}
@@ -1293,7 +1638,7 @@ religion_leadership = {
 					FROM = { 
 						character = yes 
 						OR = { 
-							religion = lusitanian 
+							religion = sjotru 
 							religion = tengri_pagan 
 						} 
 					}
@@ -1310,7 +1655,7 @@ religion_leadership = {
 					FROM = { 
 						character = yes 
 						OR = { 
-							religion = lusitanian 
+							religion = sjotru 
 							religion = tengri_pagan 
 						} 
 					} 
@@ -1465,7 +1810,7 @@ religion_leadership = {
 				factor = 0.1
 				FROM = { 
 					character = yes 
-					religion = lusitanian 
+					religion = sjotru 
 				}
 			}
 			modifier = { 	
