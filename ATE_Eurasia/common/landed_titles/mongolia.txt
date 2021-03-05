@@ -7,7 +7,7 @@ e_mongolia = {
 	capital = 1254 #Ulaanbaatar
 	
 	k_khangai = {
-		color={ 222 217 72 }
+		color={ 232 187 72 }
 		color2 = { 255 255 255 }
 		
 		capital = 1254 #Ulaanbaatar
@@ -68,7 +68,7 @@ e_mongolia = {
 			}
 		}
 		d_dornod = {
-			color={ 165 149 100 }
+			color={ 165 149 110 }
 			color2={ 255 255 255 }
 		
 			capital = 1260 #Dornod
@@ -120,6 +120,18 @@ e_mongolia = {
 				b_sumber_2 = {}
 				b_arachzhargalanta_khid = {}
 				b_dzotol = {}
+			}
+			c_hulunbuir = {
+				color={ 179 144 102 }
+				color2={ 255 255 255 }
+				
+				b_hulunbuir = {}
+				b_bayanhada = {}
+				b_hulun = {}
+				b_alatan_emole = {}
+				b_amugulang = {}
+				b_bayankuren = {}
+				b_xinbaolige = {}
 			}
 		}
 		d_khovsgol = {
@@ -221,18 +233,6 @@ e_mongolia = {
 				b_bayanlig = {}
 				b_buutsagaan = {}
 			}
-			c_gobi_altai = {
-				color={ 125 127 56 }
-				color2={ 255 255 255 }
-				
-				b_yesonbulag = {}
-				b_erdene_2 = {}
-				b_bugat = {}
-				b_khokhmorit = {}
-				b_tsogt = {}
-				b_bayan_uul_2 = {}
-				b_togrog = {}
-			}
 			c_ovorkhangai = {
 				color={ 158 181 68 }
 				color2={ 255 255 255 }
@@ -257,6 +257,13 @@ e_mongolia = {
 				b_manlai = {}
 				b_mandal_ovoo = {}
 			}
+		}
+		d_dornogovi = {
+			color={ 124 113 42 }
+			color2={ 255 255 255 }
+		
+			capital = 1257 #Dornogovi
+		
 			c_dornogovi = {
 				color={ 120 120 25 }
 				color2={ 255 255 255 }
@@ -281,6 +288,49 @@ e_mongolia = {
 				b_adaatsag = {}
 				b_deren = {}
 			}
+			c_bayannur = {
+				color={ 150 142 32 }
+				color2={ 255 255 255 }
+				
+				b_bayannur = {}
+				b_shanba = {}
+				b_bayinbaolige = {}
+				b_longxingchang = {}
+				b_mona_uul = {}
+				b_haliut = {}
+				b_bayangol = {}
+			}
+			c_sonid = {
+				color={ 184 176 86 }
+				color2={ 255 255 255 }
+				
+				b_erenhot = {}
+				b_saihantala = {}
+				b_mandulatu = {}
+				b_bayan_ula = {}
+				b_bayannaoer = {}
+				b_wurigentala = {}
+				b_zhurihe = {}
+			}
+		}
+		d_govi_altai = {
+			color={ 155 155 54 }
+			color2={ 255 255 255 }
+		
+			capital = 1247 #Gobi-Altai
+		
+			c_govi_altai = {
+				color={ 125 127 56 }
+				color2={ 255 255 255 }
+				
+				b_yesonbulag = {}
+				b_erdene_2 = {}
+				b_bugat = {}
+				b_khokhmorit = {}
+				b_tsogt = {}
+				b_bayan_uul_2 = {}
+				b_togrog = {}
+			}
 			c_barkol = {
 				color={ 182 176 99 }
 				color2={ 255 255 255 }
@@ -292,6 +342,61 @@ e_mongolia = {
 				b_xiamaya = {}
 				b_tuhulu = {}
 				b_dahezhen = {}
+			}
+		}
+		d_alxa = {
+			color={ 149 155 15 }
+			color2={ 255 255 255 }
+		
+			capital = 2572 #Alxa
+		
+			c_ejin = {
+				color={ 148 149 23 }
+				color2={ 255 255 255 }
+				
+				b_dalaihubu = {}
+				b_hangkong = {}
+				b_dongfeng = {}
+				b_saihan_taolai = {}
+				b_supornur = {}
+				b_mazongshan = {}
+				b_bayintaohai = {}
+			}
+			c_alxa = {
+				color={ 120 150 52 }
+				color2={ 255 255 255 }
+				
+				b_badain_jaran = {}
+				b_bayanhot = {}
+				b_yabulai = {}
+				b_alateng_obao = {}
+				b_bayingole = {}
+				b_barunbieli = {}
+				b_erkhashhasum = {}
+			}
+			c_wuwei = {
+				color={ 144 168 11 }
+				color2={ 255 255 255 }
+				
+				b_wuwei = {}
+				b_zhangye = {}
+				b_jinchang = {}
+				b_sanlei = {}
+				b_ganzhou = {}
+				b_xinhualu = {}
+				b_fengle = {}
+			}
+			c_jiuquan = {
+				color={ 110 120 31 }
+				color2={ 255 255 255 }
+				
+				b_jiuquan = {}
+				b_jiayuguan = {}
+				b_suzhou = {}
+				b_yumen = {}
+				b_yuanquan = {}
+				b_dangchengwan = {}
+				b_dunhuang = {}
 			}
 		}
 	}
