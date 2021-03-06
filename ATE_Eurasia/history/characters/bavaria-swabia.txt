@@ -201,6 +201,8 @@
 	trait=cynical
 	trait=diligent
 	trait=wroth
+	father=1805163
+	mother=1805162
 	2620.6.12={birth=yes}
 	2703.1.1={death=yes}
 }
@@ -409,14 +411,17 @@
 	2700.1.1={death=yes}
 }
 1805030={
-	name="Wilhelm"
+	name="Albrecht"
 	dynasty=1949031 #Stromer
+	father=1805146
 	culture=bavarian
 	religion=catholic
 	trait=brilliant_strategist
 	trait=wroth
 	trait=lustful
 	trait=ambitious
+	trait=pious
+	give_nickname=nick_the_pious
 	2608.3.27={birth=yes}
 	2635.5.5={add_spouse=1805029}
 	2661.6.8={death=yes}
@@ -548,6 +553,7 @@
 	name="Joschua"
 	dynasty=1947121 #von Lechge
 	father=1805040
+	mother=1805109
 	culture=swabian
 	religion=lutheran
 	2207.3.15={birth=yes}
@@ -562,6 +568,7 @@
 	female=yes
 	dynasty=1947121 #von Lechge
 	father=1805040
+	mother=1805109
 	culture=swabian
 	religion=lutheran
 	2208.3.24={birth=yes}
@@ -575,6 +582,7 @@
 	name="Leonhardt"
 	dynasty=1947121 #von Lechge
 	father=1805040
+	mother=1805109
 	culture=swabian
 	religion=lutheran
 	trait=cruel
@@ -591,6 +599,7 @@
 	name="Ulrich"
 	dynasty=1947121 #von Lechge
 	father=1805040
+	mother=1805109
 	culture=swabian
 	religion=lutheran
 	2210.12.19={birth=yes}
@@ -1239,4 +1248,690 @@
 	mother=1805100
 	2653.6.3={birth=yes}
 	2700.1.1={death=yes}
+}
+1805105={
+	name="Felix"
+	dynasty=1949141 #Kreile
+	culture=bavarian
+	religion=lutheran
+	trait=quick
+	trait=theologian
+	trait=humble
+	trait=just
+	trait=sympathy_judaism
+	trait=unyielding_leader
+	trait=pious
+	give_nickname=nick_theologus
+	2095.9.15={birth=yes}
+	2174.7.11={death=yes}
+}
+1805106={
+	name="Jakob"
+	dynasty=1949141 #Kreile
+	father=1805105
+	culture=bavarian
+	religion=lutheran
+	trait=diligent
+	2129.4.7={birth=yes}
+	2185.12.23={death=yes}
+}
+1805107	={
+	name="Benedikt"
+	dynasty=1949141 #Kreile
+	father=1805106
+	culture=bavarian
+	religion=lutheran
+	trait=diligent
+	trait=brave
+	trait=strategist
+	give_nickname=nick_longbeard
+	properties=ki0bld000000
+	2148.11.29={birth=yes}
+	2209.11.19={death=yes}
+}
+1805108	={
+	name="Albrecht"
+	dynasty=1949141 #Kreile
+	father=1805107
+	culture=bavarian
+	religion=lutheran
+	2173.2.3={birth=yes}
+	2213.4.13={death=yes}
+}
+1805109	={
+	name="Franziska"
+	female=yes
+	dynasty=1949141 #Kreile
+	father=1805108
+	culture=bavarian
+	religion=lutheran
+	2190.2.2={birth=yes}
+	2206.3.2={
+			add_spouse=1805040
+		}
+	2259.2.11={death=yes}
+}
+1805110	={
+	name="Albrecht"
+	dynasty=1949141 #Kreile
+	father=1805108
+	culture=bavarian
+	religion=lutheran
+	2194.11.9={birth=yes}
+	2239.10.9={death=yes}
+}
+1805111	={
+	name="Jakob"
+	dynasty=1949141 #Kreile
+	father=1805110
+	culture=bavarian
+	religion=lutheran
+	trait=fat
+	give_nickname=nick_the_fat
+	2218.10.9={birth=yes}
+	2245.3.14={death=yes}
+}
+1805112	={
+	name="Albrecht"
+	dynasty=1949141 #Kreile
+	father=1805111
+	culture=bavarian
+	religion=lutheran
+	trait=genius
+	trait=diligent
+	trait=just
+	trait=humble
+	trait=gregarious
+	trait=administrator
+	give_nickname=nick_the_franconian
+	2235.12.10={birth=yes}
+	2271.12.23={death=yes}
+}
+1805113	={
+	name="Albrecht"
+	dynasty=1949141 #Kreile
+	father=1805112
+	culture=bavarian
+	religion=catholic
+	2256.10.4={birth=yes}
+	2274.9.29={death=yes}
+}
+1805114	={
+	name="Albrecht"
+	dynasty=1949141 #Kreile
+	father=1805113
+	culture=bavarian
+	religion=catholic
+	trait=has_tuberculosis
+	2274.8.12={birth=yes}
+	2285.9.1={death=yes}
+}
+1805115	={
+	name="Marlene"
+	female=yes
+	dynasty=1949141 #Kreile
+	father=1805112
+	culture=bavarian
+	religion=catholic
+	2238.1.3={birth=yes}
+	2291.12.14={death=yes}
+}
+1805116	={
+	name="Benedikt"
+	dynasty=1949142 #von Vohburg
+	culture=bavarian
+	religion=catholic
+	trait=stutter
+	give_nickname=nick_the_stammerer
+	2233.8.28={birth=yes}
+	2255.3.2={
+			add_spouse=1805115
+		}
+	2294.6.18={death=yes}
+}
+1805117	={
+	name="Albrecht"
+	dynasty=1949142 #von Vohburg
+	father=1805116
+	mother=1805115
+	culture=bavarian
+	religion=catholic
+	trait=kind
+	trait=content
+	trait=just
+	trait=honest
+	give_nickname=nick_good_king
+	2258.11.29={birth=yes}
+	2311.12.20={death=yes}
+}
+1805118	={
+	name="Roland"
+	dynasty=1949141 #Kreile
+	father=1805111
+	culture=bavarian
+	religion=catholic
+	2239.4.5={birth=yes
+		effect = { set_government_type = feudal_government }}
+	2284.10.11={death=yes}
+}
+1805119	={
+	name="Jakob"
+	dynasty=1949141 #Kreile
+	father=1805118
+	culture=bavarian
+	religion=catholic
+	2258.5.1={birth=yes
+		effect = { set_government_type = feudal_government }}
+	2301.9.18={death=yes}
+}
+1805120	={
+	name="Horst"
+	dynasty=1949141 #Kreile
+	father=1805119
+	culture=bavarian
+	religion=catholic
+	2279.5.7={birth=yes
+		effect = { set_government_type = feudal_government }}
+	2308.5.17={death=yes}
+}
+1805121	={
+	name="Felix"
+	dynasty=1949141 #Kreile
+	father=1805120
+	culture=bavarian
+	religion=catholic
+	2296.11.15={birth=yes
+		effect = { set_government_type = feudal_government }}
+	2351.5.13={death=yes}
+}
+1805122	={
+	name="Felix"
+	dynasty=1949141 #Kreile
+	father=1805121
+	culture=bavarian
+	religion=catholic
+	give_nickname=nick_half_nose
+	trait=ugly
+	trait=scarred_mid
+	2328.5.12={birth=yes}
+	2366.4.15={death=yes}
+}
+1805123	={
+	name="Friede"
+	dynasty=1949141 #Kreile
+	female=yes
+	father=1805121
+	culture=bavarian
+	religion=catholic
+	2322.7.25={birth=yes}
+	2389.12.13={death=yes}
+}
+1805124	={
+	name="Steffen"
+	dynasty=1949143 #Burkhardinger
+	culture=bavarian
+	religion=catholic
+	2324.1.21={birth=yes}
+	2350.3.2={
+			add_spouse=1805123
+		}
+	2372.2.9={death=yes}
+}
+1805125	={
+	name="Korbinian"
+	dynasty=1949143 #Burkhardinger
+	father=1805124
+	mother=1805123
+	culture=bavarian
+	religion=catholic
+	2349.1.13={birth=yes}
+	2390.12.4={death=yes}
+}
+1805126	={
+	name="Maria"
+	female=yes
+	dynasty=1949143 #Burkhardinger
+	father=1805125
+	culture=bavarian
+	religion=catholic
+	2362.9.26={birth=yes}
+	2404.6.14={death=yes}
+}
+1805127	={
+	name="Dorothea"
+	female=yes
+	dynasty=1949143 #Burkhardinger
+	father=1805125
+	culture=bavarian
+	religion=catholic
+	2365.7.1={birth=yes}
+	2425.7.30={death=yes}
+}
+1805128	={
+	name="Alois"
+	dynasty=1951112 #Vigauner
+	culture=austrian
+	religion=catholic
+	give_nickname=nick_the_zitherplayer
+	2359.6.14={birth=yes}
+	2380.3.2={
+			add_spouse=1805126
+		}
+	2415.7.1={death=yes}
+}
+1805129	={
+	name="Wenzel"
+	dynasty=1951113 #Bludenzer
+	father=1805132
+	culture=austrian
+	religion=catholic
+	trait=mystic
+	trait=trickster
+	give_nickname=the_wizard
+	2351.9.12={birth=yes}
+	2380.3.2={
+			add_spouse=1805127
+		}
+	2439.4.5={death=yes}
+}
+1805130	={
+	name="Albrecht"
+	dynasty=1951112 #Vigauner
+	father=1805128
+	mother=1805126
+	culture=austrian
+	religion=catholic
+	2382.5.31={birth=yes}
+	2441.5.1={death=yes}
+}
+1805131	= {
+	name="Albrecht"
+	dynasty=1951112 #Vigauner
+	father=1805130
+	culture=austrian
+	religion=catholic
+	trait=mangled
+	trait=fever
+	2404.7.15={birth=yes}
+	2441.10.8={death=yes}
+}
+1805132	= {
+	name="Thomas"
+	dynasty=1951113 #Bludenzer
+	culture=austrian
+	religion=catholic
+	2318.1.6={birth=yes}
+	2369.3.37={death=yes}
+}
+1805133	= {
+	name="Heinrich"
+	dynasty=1951113 #Bludenzer
+	father=1805132
+	culture=austrian
+	religion=catholic
+	2357.2.28={birth=yes}
+	2403.9.1={death=yes}
+}
+1805134	= {
+	name="Georg"
+	dynasty=1951113 #Bludenzer
+	father=1805133
+	culture=bavarian
+	religion=catholic
+	trait=pious
+	trait=pilgrim
+	trait=celibate
+	trait=beatified
+	give_nickname=nick_the_monk
+	2395.2.28={birth=yes}
+	2473.9.1={death=yes}
+}
+1805135	= {
+	name="Maria"
+	female=yes
+	dynasty=1951113 #Bludenzer
+	father=1805136
+	culture=bavarian
+	religion=catholic
+	2445.4.7={birth=yes}
+	2495.2.23={death=yes}
+}
+1805136	= {
+	name="Thomas"
+	dynasty=1951113 #Bludenzer
+	father=1805134
+	mother=1805166
+	culture=bavarian
+	religion=catholic
+	2417.1.18={birth=yes}
+	2462.10.4={death=yes}
+}
+1805137	= {
+	name="Andreas"
+	dynasty=1949031 #Stromer
+	culture=bavarian
+	religion=catholic
+	2397.11.18={birth=yes}
+	2459.7.26={death=yes}
+}
+1805138	= {
+	name="David"
+	dynasty=1949031 #Stromer
+	father=1805137
+	culture=bavarian
+	religion=catholic
+	2428.2.1={birth=yes}
+	2462.3.2={
+			add_spouse=1805135
+		}
+	2470.8.15={death=yes}
+}
+1805139	= {
+	name="Albrecht"
+	dynasty=1949031 #Stromer
+	father=1805138
+	mother=1805135
+	culture=bavarian
+	religion=catholic
+	2465.12.1={birth=yes}
+	2521.12.15={death=yes}
+}
+1805140	= {
+	name="Valentin"
+	dynasty=1949144 #Eichstätter
+	culture=bavarian
+	religion=lutheran
+	trait=falconer
+	trait=giant
+	give_nickname=nick_the_tall
+	2488.3.18={birth=yes}
+	2551.11.13={death=yes}
+}
+1805141	= {
+	name="Benedikt"
+	dynasty=1949144 #Eichstätter
+	father=1805140
+	culture=bavarian
+	religion=lutheran
+	2511.3.7={birth=yes}
+	2567.9.18={death={
+			death_reason=death_murder
+			killer=1805142
+		}
+	}
+}
+1805142	= {
+	name="Steffen"
+	dynasty=1949145 #Sonntag
+	culture=bavarian
+	religion=catholic
+	trait=peasant_leader
+	2542.4.22={birth=yes}
+	2583.2.28={death={
+			death_reason=death_execution
+			killer=1805143
+		}
+	}
+}
+1805143	= {
+	name="Albrecht"
+	dynasty=1949031 #Stromer
+	culture=bavarian
+	religion=catholic
+	father=1805144
+	2528.10.24={birth=yes}
+	2584.9.29={death=yes}
+}
+1805144	= {
+	name="Markus"
+	dynasty=1949031 #Stromer
+	culture=bavarian
+	religion=catholic
+	father=1805139
+	2492.2.7={birth=yes}
+	2551.4.17={death=yes}
+}
+1805145	= {
+	name="Felix"
+	dynasty=1949031 #Stromer
+	culture=bavarian
+	religion=catholic
+	father=1805143
+	2556.9.27={birth=yes}
+	2607.2.25={death=yes}
+}
+1805146	= {
+	name="Steffen"
+	dynasty=1949031 #Stromer
+	culture=bavarian
+	religion=catholic
+	father=1805145
+	trait=blinded_age
+	give_nickname=nick_the_blind
+	2581.9.27={birth=yes}
+	2620.5.26={death=yes}
+}
+1805147	= {
+	name="Johanna"
+	female=yes
+	dynasty=1949031 #Stromer
+	culture=bavarian
+	religion=catholic
+	father=1805146
+	trait=twin
+	trait=fair
+	trait=crowned_by_priest
+	trait=groomed
+	trait=quick
+	trait=chaste
+	trait=kind
+	trait=just
+	trait=fever
+	trait=vomiting
+	trait=abdominal_pain
+	2604.2.26={birth=yes}
+	2621.1.20={
+		death={
+			death_reason=death_murder_unknown 
+			killer=1805148
+		}
+	}
+}
+1805148	= {
+	name="Maximilian"
+	dynasty=1949031 #Stromer
+	culture=bavarian
+	religion=catholic
+	father=1805146
+	trait=twin
+	trait=fair
+	trait=quick
+	trait=lustful
+	trait=envious
+	trait=ambitious
+	trait=deceitful
+	trait=charitable
+	trait=seducer
+	give_nickname=nick_the_whoremonger
+	2604.2.26={birth=yes}
+	2629.12.30={death=yes}
+}
+1805149	= {
+	name="Xaver"
+	dynasty=1949146 #Hofer
+	culture=bavarian
+	religion=catholic
+	father=1805148
+	trait=bastard
+	give_nickname=nick_the_bastard
+	2621.2.16={birth=yes}
+	2631.8.6={death=yes}
+}
+1805150	={
+	name="Jakob"
+	dynasty=1949141 #Kreile
+	father=1805120
+	culture=bavarian
+	religion=catholic
+	2300.1.1={birth=yes}
+	2354.10.13={death=yes}
+}
+1805151	={
+	name="Roland"
+	dynasty=1949141 #Kreile
+	father=1805150
+	culture=bavarian
+	religion=catholic
+	2328.3.20={birth=yes}
+	2388.3.10={death=yes}
+}
+1805152	={
+	name="Roland"
+	dynasty=1949141 #Kreile
+	father=1805151
+	culture=bavarian
+	religion=catholic
+	2356.6.13={birth=yes}
+	2411.11.5={death=yes}
+}
+1805153	={
+	name="Horst"
+	dynasty=1949141 #Kreile
+	father=1805152
+	culture=bavarian
+	religion=catholic
+	2384.11.13={birth=yes}
+	2432.11.8={death=yes}
+}
+1805154	={
+	name="Roland"
+	dynasty=1949141 #Kreile
+	father=1805153
+	culture=bavarian
+	religion=catholic
+	2426.2.21={birth=yes}
+	2499.3.1={death=yes}
+}
+1805155	={
+	name="Albrecht"
+	dynasty=1949141 #Kreile
+	father=1805154
+	culture=bavarian
+	religion=catholic
+	2451.3.17={birth=yes}
+	2504.3.16={death=yes}
+}
+1805156	={
+	name="Siegfried"
+	dynasty=1949141 #Kreile
+	father=1805155
+	culture=bavarian
+	religion=catholic
+	2478.9.21={birth=yes}
+	2539.11.8={death=yes}
+}
+1805157	={
+	name="Horst"
+	dynasty=1949141 #Kreile
+	father=1805156
+	culture=bavarian
+	religion=catholic
+	2502.7.1={birth=yes}
+	2544.9.25={death=yes}
+}
+1805158	={
+	name="Roland"
+	dynasty=1949141 #Kreile
+	father=1805157
+	culture=bavarian
+	religion=catholic
+	2521.2.17={birth=yes}
+	2583.7.2={death=yes}
+}
+1805159	={
+	name="Franz Josef"
+	dynasty=1949141 #Kreile
+	father=1805158
+	culture=bavarian
+	religion=catholic
+	2552.3.9={birth=yes}
+	2604.3.10={death=yes}
+}
+1805160	={
+	name="Albrecht"
+	dynasty=1949141 #Kreile
+	father=1805159
+	culture=bavarian
+	religion=catholic
+	2579.4.10={birth=yes}
+	2622.4.29={death=yes}
+}
+1805161	={
+	name="Albrecht"
+	dynasty=1949141 #Kreile
+	father=1805160
+	culture=bavarian
+	religion=catholic
+	trait=clubfooted
+	trait=socializer
+	trait=cancer
+	give_nickname=nick_the_lame
+	2601.4.12={birth=yes}
+	2641.11.1={death=yes}
+}
+1805162	={
+	name="Friede"
+	female=yes
+	dynasty=1949141 #Kreile
+	father=1805160
+	culture=bavarian
+	religion=catholic
+	2598.4.29={birth=yes}
+	2662.5.28={death=yes}
+}
+1805163	={
+	name="Manfred"
+	dynasty=1949028 #Lochner
+	culture=bavarian
+	religion=neuhumanist
+	2595.9.28={birth=yes}
+	2615.3.2={
+			add_spouse=1805162
+		}
+	2648.12.16={death=yes}
+}
+1805164	={
+	name="Albrecht"
+	dynasty=1949141 #Kreile
+	father=1805161
+	culture=bavarian
+	religion=lutheran
+	trait=bastard
+	2628.12.21={birth=yes}
+}
+1805165	= {
+	name="Benedikt"
+	dynasty=1949031 #Stromer
+	culture=bavarian
+	religion=catholic
+	father=1805146
+	trait=scarred_high
+	trait=ambitious
+	trait=disfigured
+	give_nickname=nick_the_burned
+	2605.12.14={birth=yes}
+	2659.10.8={death=yes}
+}
+1805166	={
+	name="Juliane"
+	dynasty=1949141 #Kreile
+	father=1805152
+	female=yes
+	culture=bavarian
+	religion=catholic
+	2391.10.16={birth=yes}
+	2415.3.2={
+			add_spouse=1805134
+		}
+	2438.1.22={death=yes}
 }

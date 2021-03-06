@@ -67,7 +67,7 @@ turkic_west = {
 		color = { 0.5 0.7 0.4 }
 
 		male_names = {
-			Abdulla_Abdullah Äbüsöghüd Ähtär Albert_Albert Alfrid_Alfred Alikber Alim Almas Altynbay Amazat Amerhan Ämir_Amir Ansar Anvar_Anwar Arslan Artur_Arthur Asad Awhadí Äxät Äxmät_Ahmad Ayaz Aydar Aynur Ayrat Azamat Azat Azgar 
+			Abdulla_Abdullah Äbüsöghüd Ähtär Albert_Albert Alfrid_Alfred Alikber Alim Almas Altynbay Amazat Amerhan_Amirkhan Ämir_Amir Ansar Anvar_Anwar Arslan Artur_Arthur Asad Awhadí Äxät Äxmät_Ahmad Ayaz Aydar_Aydar Aynur Ayrat_Ayrat Azamat Azat Azgar 
 			Bikbay Bikbulat_Bekbulat Biktimer Bulat 
 			Carulla Çayan Cihansha_Jahanshah Çiñghiz_Genghis 
 			Daler Damir Deniz 
@@ -81,7 +81,7 @@ turkic_west = {
 			Näcip_Najib Nail Näqi Narat Niaz Nizametdin_Nizamuddin Nurislam Nurmöxämmät 
 			Radion Radiq Radmir Rafail_Raphael Rail Ramil Räshit_Rashid Rasim_Rasim Rawil Razil Rinat Rishat_Richard Robert_Robert Röstäm_Rostam Rudolf_Rudolf Rushan Ruslan_Ruslan 
 			Sabircan Sadretdin_Sadreddin Sadri Safa Säyet_Sayyid Shähit_Shahid Shamil_Shamil Shärif_Sharif Shihabetdin_Shihabuddin Síracetdin_Sirajuddin Söläyman_Solomon Soltan Soltanghäli 
-			Tahir_Tahir Tajmas Talgat Timur_Timur Timurxan Toktamish_Toktamish Tulpar 
+			Tahir_Tahir Tajmas_Tajmas Talgat_Talaat Timur_Timur Timurxan_Timurkhan Toktamish_Toktamish Tulpar 
 			Ural Uraz Ütämesh 
 			Vaghiz Vilen Vildan 
 			Xäbib_Habib Xäbibulla_Habibullah Xäbir Xäliulla Xämit_Hamid Xämzä_Hamza Xasan_Hasan Xäydär_Haydar Xäydärghäli Xäyrulla_Khayrullah 
@@ -90,17 +90,17 @@ turkic_west = {
 		}
 
 		female_names = {
-			Adelina_Adelina Albinä_Albina Aleksandra_Alexandra Älfiä Alfiya Aliä Alinä_Alina Alisä_Alice Alsu Altynçürä Äminä_Amina Änisä Asiä Aslanbika Aybanu Aygöl Ayninur Aysilu Aznagul 
+			Adelina_Adelina Albinä_Albina Aleksandra_Alexandra Älfiä Alfiya Aliä Alinä_Alina Alisä_Alice Alsu Altynçürä Äminä_Amina Änisä_Anisa Asiä Aslanbika Aybanu Aygöl_Aygul Ayninur Aysilu Aznagul 
 			Baghazat Bella Bibigäyshä Bikä 
 			Çaçak Çulpan 
 			Dana Damira Diana_Diana Dilbar Dinara 
 			Elina Elvirä_Elvira Elza_Elsa 
 			Fäniya Färidä_Farida Fatima_Fatima Fäwziä_Fawzia Firaya Firdausa Firüzä_Firuza Flyura_Flora 
-			Galima Ghäliä Ghäyshä_Aisha Ghäyshäbikä Gölçäçäk_Gulcicek Gölnara_Gulnara Gölnaz Gölsem Gölzada Güzäl_Gözel 
+			Galima Ghäliä Ghäyshä_Aisha Ghäyshäbikä Gölçäçäk_Gulcicek Gölnara_Gulnara Gölnaz_Gölnaz Gölsem Gölzada Güzäl_Gözel 
 			Ilnara Ilnura Ilsiya Ilsura Ilzira Indira Irina_Irene Iririya 
 			Kamila_Kamila Kamilla_Camilla 
-			Lälä Läysän Leniza Liä Liana  
-			Mädinä_Madina Maftuxa Mälikä_Malika Mämdüdä Märyäm_Mary Märziya Mavzida Miläwshä 
+			Lälä Läysän_Laysan Leniza Liä Liana  
+			Mädinä_Madina Maftuxa Mälikä_Malika Mämdüdä Märyäm_Mary Märziya Mavzida Miläwshä_Milawsha 
 			Nailya Nurbanu Nurdjamal 
 			Rauza Regina Renata Rezidä Roza_Rosa 
 			Shamsinisa Söyembikä_Süyümbike Svetlana 
@@ -109,7 +109,7 @@ turkic_west = {
 			Väsilä 
 			Xäbirä Xäliulla 
 			Yana_Joan Yanina Yulduz_Yildiz Yuliä_Julia 
-			Zahidä Zäynäp_Zaynab Zemfira Zifa Zilya Zinara Zöhrä_Zohra Zöläyxä_Zulaykha Zulfia 
+			Zahidä Zäynäp_Zaynab Zemfira Zifa Zilya Zinara Zöhrä_Zohra Zöläyxä_Zulaykha Zulfia_Zulfia 
 		}
 		
 		from_dynasty_prefix = "of "
@@ -134,28 +134,55 @@ turkic_west = {
 		color = { 0.3 0.7 0.6 }
 
 		male_names = {
-			Ähmät_Ahmad Ähmätshah Ähmätzäki Ajrat Albert_Albert Aynur 
-			Dmitriy_Demetrius 
-			Irek 
-			Kadyr_Qadir 
-			Mihail_Michael Mortaza Mustai 
-			Rähim 
-			Salawat Shaikhzada Shagit 
-			Tagir 
-			Ûlaj Ural 
-			Zagir Zeki 
+			Abdulla_Abdullah Afzaletdin Äghlämetdin Albert_Albert Almas Ämir_Amir Ämirxan_Amirkhan Änwär_Anwar Äðhäm_Adam Arïþlan_Arslan Äxät Äxkäm Äxmät_Ahmad Äxmätshah Äxmätzäki Aybatïr Aybulat Aygiz Ayrat_Ayrat Ayðar_Aydar Azamat 
+			Bäghiz Bayghotdin Bayras Barïy Bikbulat_Bekbulat Borxan Bulat_Bulat Büre 
+			Dayan Dauït_David Dim Dinislam Dmitriy_Demetrius 
+			Fannur Färit_Farid Fäyzulla_Fayzullah 
+			Ghäbdelghafur_Abdulghafur Ghäbdelmäzhit_Abdulmajid Ghäbdelqadir_Abdulqadir Ghabdulla_Abdullah Ghälim_Alim Ghälimyän Ghäli_Ali Ghaysa_Jesus Ghäziz_Aziz Ghilemdar Ghilmetdin Ghöbäyðulla_Ubaydullah Ghümär_Umar Gotbetdin 
+			Häbir Haðïy_Hadi 
+			Ibrahim_Abraham Il'yas_Elijah Ildar_Eldar Ilfat Ilgiz Ildus Ilnur Irändek Irek Iskändär_Alexander Islambäk Islametdin Islamghäli Israfil_Israfil Izel 
+			Kamaletdin_Kamaluddin 
+			Malik_Malik Märvän_Marwan Mäxmüt_Mahmud Mäzhit_Majid Mihail_Michael Minhazhetdin Mintimer Mirgayaz Mirxäyðär Möxämmät_Muhammad Möxämmätsha_Muhammadshah Mortaza_Murtaza Mullayän Musa_Moses Musharif 
+			Nagim Näzhip_Najib Nighmät_Nigmat Nighmätulla_Nigmatullah Nil Nögösh Nurghäni Nurislam 
+			Radik Ramaðan_Ramadan Rämil_Ramil Räsül_Rasul Räwef_Rauf Rif_Arif Rifqät Rinat Rishat_Rashid Röstäm_Rostam Ruslan 
+			Sabir Sabit Säghit_Said Salawat Sälim_Salim Sälix_Salih Samat Säyet_Sayyid Shähit_Shahid Shäyxislam Shäyxzada Shärif_Sharif Sïñghïð_Genghis Söläymän_Solomon 
+			Tahir_Tahir Taymaþ_Tajmas Tälghät_Talaat Talxa_Talha Tayfur Timer_Timur Timerxan_Timurkhan Tufan 
+			Ural Uyïldan 
+			Vafa_Vafa Vägiz Välit_Walid Växit_Wahid Vener Vildan 
+			Xäbib_Habib Xäbibulla_Habibullah Xäfiz_Hafiz Xäkim_Hakim Xälim_Halim Xälit_Khalid Xämzä_Hamza Xäsän_Hasan Xäyðär_Haydar Xösäyen_Husayn Xoðaybirgän 
+			Yähüðä Yämil_Jamil Yaqup_James Yäwðät_Jawdat Yaxya_John Yomabay_Jumabay Yosop_Joseph Yulay 
+			Zahir_Zahir Zäki_Zaki Zäkir Zäkiryän Zäynulla_Zaynullah Zöfär_Zufar 
 		}
 
 		female_names = {
-			Alina 
-			Läjsän 
-			Tamara 
+			Abïzbikä Aghzibä Al'bina_Albina Älfiä_Alfia Äliä_Aliya Almabikä Almagöl Almaseyä Alsäsäk Alsïnbikä Altïnbikä Altïngöl Altïnsäs Äminä_Amina Änisä_Anisa Änwärä_Anwara Aqbanïw Aqbikä Akyondoð Aqqosh Aqsarlaq Aqsäskä Aqtutash Asiya_Asia Äsmä Aybikä Aygöl_Aygul Aygölöm Aygüzäl Ajhïlïw Aykömösh Aynaza Ayqoyash Aysäsäk Äjshä_Aisha Aysibär Aysulpan Ayzöhrä Äðibä_Adiba Äðilä_Adila Aðnabikä 
+			Baybikä Bayrambikä Bayramgöl Bayramhïlïw Bäkirä Ballïbikä Balqïya Banat Banïw_Banu Banïwbikä Barsïn Bäshirä Bayangöl Bayanhïlïw Bäðär Bäðer Bibi Bikhïlïw Bïlbïl Büläkbikä Büläknur 
+			Däwlätbikä Dilbär_Dilbar 
+			Ebäk Eyänbikä Emesh Eðbikä 
+			Fänünä Färixa Färxänä Färzänä Färiðä_Farida Fätxiä_Fathia Fatima_Fatima Fäwziä_Fawzia Fäxriä Fäyrüzä_Firuza Firðäwes_Firdausa Flyurä_Flora 
+			Gälsär Gäwhär_Gowhar Ghäyshä_Aisha Gölbanïw Gölbüläk Gölnaz_Gölnaz Gölsäsäk_Gulcicek Gölshan Gölsibär Gölsinä Gölsirä Gölzäynäp Güzäl_Gözel 
+			Häðiä Hawa_Eve Häðär_Hajar Hïlïwbikä 
+			Iðelbikä Iðeliä Ilfizä Ilgöl Ilgüzäl Ilsöyä Ilüzä Ïnyï Ïnyïgöl Ïnyïqay Ïrïþbikä Irkä Ishleqämär 
+			Kärimä_Karima Kinyäbanïw Kinyägöl Kinyähïlïw Kinyänur Kömösh Kömöshhïlïw Kömöshnur 
+			Läylä_Layla Läysän_Laysan Liliä Lüziä_Lucy 
+			Mahibanat Mahibanïw Mahigöl Mahikamal Mahisärwär Mahishäkär Mahitap Mahïy Märyäm_Mary Märyen Mäðinä_Madina Menäwrä Miläwshä_Milawsha Miñhïlïw Miñkäbirä Miñnur Miñzahida Miñzahira Miñzifa Mönäwärä Mönirä_Munira Muyïlbikä 
+			Nädirä_Nadira Näfisä_Nafisa Näghimä Nähär Näqiä Närkäs Näsibä_Nasiba Näsimä_Nasima Näylä_Naila Näzhiä Näzhibä_Najiba Näzixä Naðlïhïlïw Nurbüläk Nurgöl Nurhïlïw Nuriya Nursäsäk 
+			Ömmöxayat Ömötbikä 
+			Qämär Qarasäs Qolansäs Qolbanat Qolbikä Qoyashbikä Qunaqbikä 
+			Räbighä Rämilä Rämziyä Räshiðä_Rashida Räsimä_Rasima Raushan Räximä_Rahima Räyxana Rezeda 
+			Säbilä Sabira Sabïrbikä Safanur Säghäðat Säghdänur Säghdia_Sadia Säghiða_Saida Säkinä Sälimä_Salima Sämirä_Samira Saniya Sara Säriä Säskä Säskäbikä Säwðä_Sawda Säyðä_Saida Seyäbikä Shafiga Shähärbanïw Shähärbikä Shäkirä_Shakira Shäkürä_Shakura Shämsiä Shämsibanat Shämsibikä Shämsinur Shärifä_Sharifa Shäwrä Shäyangöl Sibär Sibärgöl Siraðiya Sömböl Sulpan 
+			Tamara Tamsigöl Tañbikä Tañgöl Tañhïlïw Täñkäbikä Tañsulpan Tañzifa Tänzilä Tatlïbanat Tatlïbanïw Teläkbikä Timerbikä Timerbikä Tomanbikä Tughanay Tuybikä 
+			Uraliä Urazgöl 
+			Vafa_Vafa Väliðä_Walida Växiða_Wahida 
+			Xäbibä_Habiba Xafasa_Hafsa Xäfizä_Hafiz Xälimä_Halima Xäliða_Khalida Xäniä Xänifä_Hanifa Xäsibä Xayatbanïw Xäyriä Xäðisä_Khadija Xömäyrä Xörmä Xösnä_Husna Xösniä 
+			Yalanbikä Yämilä_Jamila Yaqshïbikä Yäðgöl Yavira_Elvira Yomabikä Yondoð Yöðöm Yüväyriä 
+			Zäbirä Zäynäb_Zaynab Zäytünä Zemfira Zifa Ziliä Zöhrä_Zohra Zöläyxa_Zulaykha Zölfiä_Zulfia Zölxizä 
 		}
 		
 		from_dynasty_prefix = "of "
 		
-		male_patronym = "-uly"
-		female_patronym = "-kyzy"
+		male_patronym = " ulï"
+		female_patronym = " kïzï"
 		prefix = no
 
 		pat_grf_name_chance = 50
@@ -237,7 +264,7 @@ turkic_west = {
 			Lenur Lenzi Lyuman
 			Mahmudkul Mamut_Mahmud Maqsud Mansur Mazahir Memet_Muhammad Mengli Mubeyyin Muhtar_Mukhtar Musa_Moses Muslim Mustafa
 			Nariman Numan
-			Osman Osman-han
+			Osman_Uthman Osman-han
 			Qaplan
 			Ramazan Refat Reshat Rinat Rizvan Ruslan Rustem
 			Sadet Said Samhan Selamet Selim Server Seyitamet Seyitcelil Seyitdevlet Seyitnafe Seyitnebi Seyitosman Seyitumer Shahin Shahip Shamil Shevket Süleiman_Solomon
