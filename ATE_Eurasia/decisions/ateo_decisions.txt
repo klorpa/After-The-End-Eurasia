@@ -4,7 +4,10 @@ decisions = {
 		ai_check_interval = 60
 		
 		potential = {
-			religion_group = buddhist_group
+			AND = {
+				religion_group = buddhist_group
+				NOT = { religion = navayana }
+			}
 			age = 16
 			prisoner = no
 			in_seclusion = no
