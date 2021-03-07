@@ -106,6 +106,7 @@ succession_laws = {
 					}
 				}
 				NOT = { religion_group = muslim }
+				NOT = { religion = nepmese }
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -231,6 +232,7 @@ succession_laws = {
 					}
 				}
 				NOT = { religion_group = muslim }
+				NOT = { religion = nepmese }
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -471,6 +473,7 @@ succession_laws = {
 						religion_group = muslim
 						religion_group = indian_group 
 					}
+					NOT = { religion = nepmese }
 					is_patrician = yes
 				}
 				
@@ -802,6 +805,7 @@ succession_laws = {
 					NOR = { 
 						religion_group = muslim
 						religion_group = indian_group
+						religion = nepmese
 					}
 					has_law = succession_voting_power_1
 					OR = { 
@@ -1206,6 +1210,7 @@ succession_laws = {
 					culture = mongol
 					religion = bon
 					religion = bon_reformed
+					religion = nepmese
 					AND = {
 						NOT = { religion = norse_pagan }
 						NOT = { religion = tengri_pagan }
@@ -1264,8 +1269,16 @@ succession_laws = {
 		}
 		allow = {
 			conditional_tooltip = {
+				holder_scope = {
+					religion = nepmese
+				}
+			}
+			conditional_tooltip = {
 				trigger = {
 					has_dlc = "Conclave"
+					holder_scope = {
+						NOT = { religion = nepmese }
+					}
 				}
 				holder_scope = {
 					show_scope_change = no
@@ -1282,6 +1295,9 @@ succession_laws = {
 				trigger = {
 					NOT = { has_dlc = "Conclave" }
 					NOT = { has_law = succ_hre_elective }
+					holder_scope = {
+						NOT = { religion = nepmese }
+					}
 				}
 				OR = {
 					hidden_tooltip = {
