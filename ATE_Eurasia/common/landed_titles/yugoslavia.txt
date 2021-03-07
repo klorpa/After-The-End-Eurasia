@@ -53,7 +53,11 @@ e_yugoslavia = {
 				color2={ 255 255 255 }
 				croatian = "Hartera"
 				
-				b_rijeka = {}
+				b_rijeka = {
+					hungarian = "Fiume"
+					lombard = "Fiume"
+					umbrian = "Fiume"
+				}
 				b_opatija = {
 					austrian = "Sankt Jakobi"
 					lombard = "Abbazia"
@@ -117,7 +121,9 @@ e_yugoslavia = {
 				color2={ 255 255 255 }
 				croatian = "Dinara"
 				
-				b_sinj = {}
+				b_sinj = {
+					hungarian = "Zeng"
+				}
 			}
 			
 			c_plitvice = {
@@ -173,7 +179,9 @@ e_yugoslavia = {
 				b_medvedgrad = {
 					hungarian = "Medvevár"
 				}
-				b_zagreb = {}
+				b_zagreb = {
+					hungarian = "Zágráb"
+				}
 				b_gorica = {}
 				b_ples = {}
 			}
@@ -182,6 +190,7 @@ e_yugoslavia = {
 				color={ 150 40 70 }
 				color2={ 255 255 255 }
 				croatian = "Medjimurje"
+				hungarian = "Muravidék"
 				
 				b_cakovec = {}
 				b_varazdin = {}
@@ -271,6 +280,7 @@ e_yugoslavia = {
 				swabian="Triest"
 				austrian="Triest"
 				schwyzer="Triest"
+				hungarian="Trieszt"
 				
 				b_koper = {
 					croatian="Kopar"
@@ -299,6 +309,7 @@ e_yugoslavia = {
 					swabian="Triest"
 					austrian="Triest"
 					schwyzer="Triest"
+					hungarian="Trieszt"
 				}
 				b_monfalcone = {
 					slovene="Tržic"
@@ -479,6 +490,7 @@ e_yugoslavia = {
 				swabian="Krain"
 				austrian="Krain"
 				schwyzer="Krain"
+				hungarian="Krajna"
 				
 				b_kranj = {
 					rhenish="Krainburg"
@@ -631,6 +643,7 @@ e_yugoslavia = {
 					swabian="Olsnitz"
 					austrian="Olsnitz"
 					schwyzer="Olsnitz"
+					hungarian="Muraszombat"
 				}
 				b_slovenj_gradec = {
 					rhenish="Windischgraz"
@@ -655,17 +668,25 @@ e_yugoslavia = {
 		d_belgrade = {
 			color={ 173 254 226 }
 			color2={ 255 255 255 }
+			hungarian="Belgrád"
 			
 			capital = 1390 # c_belgrade
 			
 			c_belgrade = { # 1390
 				color={ 183 244 231 }
 				color2={ 255 255 255 }
+				hungarian="Belgrád"
 				
-				b_stari_grad = {}
-				b_novi_beograd = {}
+				b_stari_grad = {
+					hungarian="Óbelgrád"
+				}
+				b_novi_beograd = {
+					hungarian="Újbelgrád"
+				}
 				b_kragujevac = {}
-				b_smederevo = {}
+				b_smederevo = {
+					hungarian="Szendrö"
+				}
 				b_chukarica = {}
 				b_zemun = {}
 				b_vozdovac = {}
@@ -673,8 +694,11 @@ e_yugoslavia = {
 			c_machva = { # 1391
 				color={ 117 208 192 }
 				color2={ 255 255 255 }
+				hungarian="Macsó"
 				
-				b_sabac = {}
+				b_sabac = {
+					hungarian="Szabács"
+				}
 				b_valjevo = {}
 				b_sremska_mitrovica = {}
 				b_loznica = {}
@@ -700,7 +724,9 @@ e_yugoslavia = {
 				
 				b_uzice = {}
 				b_prijepolje = {}
-				b_pozega = {}
+				b_pozega = {
+					hungarian="Pozsega"
+				}
 				b_priboj = {}
 				b_bajina_basta = {}
 				b_sjenica = {}
@@ -728,6 +754,7 @@ e_yugoslavia = {
 			c_branichevo = { # 1389
 				color={ 91 188 158 }
 				color2={ 255 255 255 }
+				hungarian="Brancsó"
 				
 				b_jagodina = {}
 				b_pozarevac = {}
@@ -753,32 +780,61 @@ e_yugoslavia = {
 		d_vojvodina = {
 			color={ 159 226 111 }
 			color2={ 255 255 255 }
+			hungarian="Vajdaság"
 			
 			capital = 1164 # c_bachka
 			
 			c_bachka = { # 1164
 				color={ 169 216 116 }
 				color2={ 255 255 255 }
+				hungarian="Bácska"
 				
-				b_novi_sad = {}
-				b_subotica = {}
-				b_sombor = {}
-				b_bachka_palanka = {}
-				b_kula = {}
-				b_vrbas = {}
-				b_bechej = {}
+				b_novi_sad = {
+					hungarian="Újvidék"
+				}
+				b_subotica = {
+					hungarian="Szabadka"
+				}
+				b_sombor = {
+					hungarian="Zombor"
+				}
+				b_bachka_palanka = {
+					hungarian="Palánka"
+				}
+				b_kula = {
+					hungarian="Kúla"
+				}
+				b_vrbas = {
+					hungarian="Verbász"
+				}
+				b_bechej = {
+					hungarian="Óbecse"
+				}
 			}
 			c_banat = { # 1163
 				color={ 66 233 199 }
 				color2={ 255 255 255 }
+				hungarian="Torontál"
 				
 				b_zrenjamin = {}
-				b_panchevo = {}
-				b_kikinda = {}
-				b_vrsac = {}
-				b_kovin = {}
-				b_kovachica = {}
-				b_kanjiza = {}
+				b_panchevo = {
+					hungarian="Pancsova"
+				}
+				b_kikinda = {
+					hungarian="Nagykikinda"
+				}
+				b_vrsac = {
+					hungarian="Versec"
+				}
+				b_kovin = {
+					hungarian="Kevevára"
+				}
+				b_kovachica = {
+					hungarian="Antalfalva"
+				}
+				b_kanjiza = {
+					hungarian="Magyarkanizsa"
+				}
 			}
 		}
 	}
