@@ -14,6 +14,39 @@ e_visegrad = {
 		
 		catholic = 700 # Bring Catholicism to the East
 		
+		d_budapest = {
+			color={ 214 94 189 }
+			color2={ 255 255 255 }
+			
+			capital = 1170 # c_pest
+			
+			c_buda = { # 1169
+				color={ 224 84 179 }
+				color2={ 255 255 255 }
+				
+				b_varkeruelet = {}
+				b_szekesfehervar = {}
+				b_ujbuda = {}
+				b_obuda_bekasmegyer = {}
+				b_dunaujvaros = {}
+				b_hegyvidek = {}
+				b_budafok_teteny = {}
+				b_tatabanya = {}
+				b_tata_HU = {}
+			}
+			c_pest = { # 1170
+				color={ 234 64 129 }
+				color2={ 255 255 255 }
+				
+				b_belvaros_lipotvaros = {}
+				b_zuglo = {}
+				b_goedoello = {}
+				b_angyalfoeld_ujlipotvaros_vizafogo = {}
+				b_erd = {}
+				b_szigetszentmiklos = {}
+				b_pestszentlorinc_pestszentimre = {}
+			}
+		}
 		d_transdanubia = {
 			color={ 139 68 100 }
 			color2={ 255 255 255 }
@@ -40,19 +73,19 @@ e_visegrad = {
 				b_gyor = {}
 				b_esztergom = {}
 				b_sopron = {}
-				b_tatabanya = {}
 				b_mosonmagyarovar = {}
-				b_tata_HU = {}
+				b_kapuvar = {}
+				b_csorna = {}
 			}
 			c_veszprem = { # 1167
 				color={ 145 70 115 }
 				color2={ 255 255 255 }
 				
 				b_veszprem = {}
-				b_szombathely = {}
 				b_papa = {}
 				b_ajka = {}
-				b_sarvar = {}
+				b_balatonfured = {}
+				b_balatonkenese = {}
 				b_varpalota = {}
 				b_tapolca = {}
 			}
@@ -68,9 +101,21 @@ e_visegrad = {
 				b_marcali = {}
 				b_fonyod = {}
 			}
+			c_vas = {
+				color={ 154 72 65 }
+				color2={ 255 255 255 }
+				
+				b_szombathely = {}
+				b_sarvar = {}
+				b_koszeg = {}
+				b_vasvar = {}
+				b_szentgotthard = {}
+				b_buk = {}
+				b_celldomolk = {}
+			}
 		}
 		d_alfoeld = {
-			color={ 229 128 70 }
+			color={ 229 148 80 }
 			color2={ 255 255 255 }
 			
 			capital = 1174 # c_hajdu_bihar
@@ -111,48 +156,29 @@ e_visegrad = {
 				b_kisvarda = {}
 				b_hajduszoboszlo = {}
 			}
-			c_miskolc = { # 1174
+			c_borsod = { # 1174
 				color={ 251 125 65 }
 				color2={ 255 255 255 }
 				
 				b_felsozsolca = {}
 				b_miskolc = {}
-				b_eger = {}
-				b_salgotarjan = {}
-				b_gyoengyoes = {}
 				b_kazincbarcika = {}
 				b_ozd = {}
+				b_tiszaujvaros = {}
+				b_emod = {}
+				b_mezokovesd = {}
 			}
-		}
-		d_budapest = {
-			color={ 214 94 189 }
-			color2={ 255 255 255 }
-			
-			capital = 1170 # c_pest
-			
-			c_buda = { # 1169
-				color={ 224 84 179 }
+			c_heves = {
+				color={ 201 100 84 }
 				color2={ 255 255 255 }
 				
-				b_varkeruelet = {}
-				b_szekesfehervar = {}
-				b_ujbuda = {}
-				b_obuda_bekasmegyer = {}
-				b_dunaujvaros = {}
-				b_hegyvidek = {}
-				b_budafok_teteny = {}
-			}
-			c_pest = { # 1170
-				color={ 234 64 129 }
-				color2={ 255 255 255 }
-				
-				b_belvaros_lipotvaros = {}
-				b_zuglo = {}
-				b_goedoello = {}
-				b_angyalfoeld_ujlipotvaros_vizafogo = {}
-				b_erd = {}
-				b_szigetszentmiklos = {}
-				b_pestszentlorinc_pestszentimre = {}
+				b_eger = {}
+				b_heves = {}
+				b_gyoengyoes = {}
+				b_salgotarjan = {}
+				b_fuzesabony = {}
+				b_poroszlo = {}
+				b_kiskore = {}
 			}
 		}
 	}
