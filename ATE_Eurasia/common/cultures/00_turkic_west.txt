@@ -95,7 +95,7 @@ turkic_west = {
 			Çaçak Çulpan 
 			Dana Damira Diana_Diana Dilbar Dinara 
 			Elina Elvirä_Elvira Elza_Elsa 
-			Fäniya Färidä_Farida Fatima_Fatima Fäwziä_Fawzia Firaya Firdausa Firüzä_Firuza Flyura_Flora 
+			Fäniya Färidä_Farida Fatima_Fatima Fäwziä_Fawzia Firaya Firdausa_Firdausa Firüzä_Firuza Flyura_Flora 
 			Galima Ghäliä Ghäyshä_Aisha Ghäyshäbikä Gölçäçäk_Gulcicek Gölnara_Gulnara Gölnaz_Gölnaz Gölsem Gölzada Güzäl_Gözel 
 			Ilnara Ilnura Ilsiya Ilsura Ilzira Indira Irina_Irene Iririya 
 			Kamila_Kamila Kamilla_Camilla 
@@ -183,6 +183,74 @@ turkic_west = {
 		
 		male_patronym = " ulï"
 		female_patronym = " kïzï"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	karachay = {
+		graphical_cultures = { cumangfx }
+		
+		color = { 0.23 0.18 0.81 }
+
+		male_names = {
+			Alibek Alibert_Albert Alim_Alim Aliy_Ali Asker Aslanbiy_Arslanbek Azret Azret-Aliy 
+			Batyras Beslan Bolat_Bulat Boris_Boris Borisbiy 
+			Canibek_Janibeg Cashaw Cashçik Caudebek Çaukash Ceraslan Çermen Cetul Cohar Colan Çomart Cönger Çotai Çotuu Cughu Cughutur Cumakku Cumariq Cumuq Çykku 
+			Daut_David 
+			Ebekku Egiz Elcaruqa Eldar_Eldar Ershi 
+			Hacibiy_Hajibey Haciboris Hacimuhammat Hacimurat Haciqasim Halin_Halim Hasan_Hasan Hasanbiy Hirha Hiylar Hizir_Khidr Horlam Hoshay Huseyn_Husayn 
+			Kerim_Karim Kertibiy Kiçibatir Kiçik Kishi Kökköz Küçük 
+			Lalash Leuan_Leo 
+			Magharuf_Maruf Magomet_Muhammad Mahsüt_Maqsud Mahti_Mahdi Mamuçar Mamuray Marauçu Mashaq Mashut_Masud Mijege Minçaq Mölekey Mustafa 
+			Naniq Noriy_Nur Nürahmat_Nurahmad Nürali 
+			Oghurbiy Oghurcan Oliy_Wali Ölmez Oqub_James Orman Ortay 
+			Qaçhan Qadir_Qadir Qantemir_Khantimur Qarabash Qarabatir Qarabiy Qaraçiq Qarakishi Qaya Qaysin Qazaq Qiliç_Kilij Qiliçbiy Qonaq Qoyçu Qozu 
+			Rashid_Rashid 
+			Safar Safarbiy Saghit_Said Salauat_Salawat Sarakku Saribiy Saubar Shabatuq Shaghaban Shahburan Shahlan Shamge Shauraq Shuwa Shyrdan Seypul_Sayfullah Silpaghar_Zulfiqar Soltanmurat_Sultanmurad Sülemen_Solomon Süley_Solomon 
+			Tana Taubek Taubiy Taulan Taulu Tauqan Tembot Temiraliy Temir_Timur Temircan Temirez_Taimuraz Temirqan_Timurkhan Tiri Toghuzaq Toqlu Toqmaq Tulpar Tuughan 
+			Ulaq Ünüs_Yunus 
+			Vladimir_Vladimir Vladimirbiy 
+			Zabit Zakkiy Zigitçi 
+		}
+
+		female_names = {
+			Abiy Alaköz Alçiu Alimat Altinay Altinçaç Altincan Altinqiz Aminat_Amina Anayköz Anisat_Anisa Aqbiyçe Aqboün Aqçiq Aqqiz Aqtamaq Ariucan Ariuka Ariw Aseney Asilhaniy Aycayaq Ayçiq Ayke Aykerek Aymölek Ayqiz Ayshat_Aisha Aysurat Aytuughan 
+			Balbu Balhaniy Baliy Baliyat Balqiz Baltuz Bappahan Baqiyat 
+			Çaçtiu Canay Cançiq Cangosha Cani Cansüer Cansurat Cariq Caubedek Cauharat_Gowhar Cezsan Cibek Çille Çimmaq Culduz_Yulduz Cumariq Cumush Cüztüyme 
+			Dariko Dighilen Dilyara Dughum Duppush 
+			Egiz Eldanqiz Elsüer Ershi Esli 
+			Fatimat_Fatima Fazilyat_Fadila 
+			Genca Gokka Gosha Gülqiz 
+			Habiy Haciyat Hafisat Hanbilek Hanmölek Hayirqiz Horasan Hura 
+			Janay Jandet Jüzüm 
+			Kence Kerimat_Karim Kertiqiz Kögala Kögürçün Közbau Külsün Kümüsh Künqiz Kyausar 
+			Leylya_Laila Lyalliu 
+			Mamuq Mamurhan Marcan_Marjan Mariyat_Mary Mölek 
+			Nafisat_Nafisa Nalmaz Naqut Nürcan Nürlü 
+			Ölmez Oqa 
+			Patiy_Fatima Perdaus_Firdausa 
+			Qaraqiz Qarasuu Qirghiy Qismat Qumulhan 
+			Raghiybat Raziyat_Razia 
+			Sausa Sayidat_Saida Shahidat_Shahida Shahiy Shahmölek Shahriza_Shahrazad Shama Shamariu Shamdariy Shamqiz Shamshiyat Sherifat_Sharifa Sirma Siyliqiz Süylü Süyünç 
+			Tañqiz Tatli Tatuu Taucan Tüyme 
+			Ürdü Uslu Usta 
+			Zahira_Zahira Zalina_Zarina Zaydat_Zaida Zubay_Zubaida Zulihat_Zulaykha Zumurat 
+		}
+		
+		dynasty_name_first = yes
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ni cashi"
+		female_patronym = "ni qizi"
 		prefix = no
 
 		pat_grf_name_chance = 50
