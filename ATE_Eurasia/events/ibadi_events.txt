@@ -55,8 +55,8 @@ character_event = { #Weak Imam
 
 	trigger = {
 		OR = {
-			learning = 10
-			martial = 10
+			learning = 8
+			martial = 8
 		}
 		NAND = {
 			learning = 12
@@ -103,8 +103,8 @@ character_event = { #Imam loses Thaif
 
 	trigger = {
 		NOR = {
-			learning = 10
-			martial = 10
+			learning = 8
+			martial = 8
 		}
 		OR = { 
 			trait = qawi
@@ -139,8 +139,8 @@ character_event = { #Incapable Imam
 
 	trigger = {
 		NOR = {
-			learning = 10
-			martial = 10
+			learning = 8
+			martial = 8
 			trait = thaif
 			trait = qawi
 		}

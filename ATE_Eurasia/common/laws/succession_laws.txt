@@ -78,7 +78,6 @@ succession_laws = {
 #	}
 #}
 
-	
 	succ_gavelkind = {
 		oldest_child_opinion = -5
 		child_opinion = 15
@@ -88,14 +87,6 @@ succession_laws = {
 		potential = {
 			NOT = { has_law = succ_confederation_elective }
 			NOT = { has_law = succ_bureaucratic_elective }
-			
-			NAND = { 
-				has_law = succ_byzantine_elective 
-				OR = { 
-					title = e_byzantium
-					title = e_roman_empire
-				}
-			}
 			holder_scope = {
 				OR = {
 					independent = yes
@@ -105,8 +96,10 @@ succession_laws = {
 						}
 					}
 				}
-				NOT = { religion_group = muslim }
-				NOT = { religion = nepmese }
+				OR = {
+					NOT = { religion = nepmese }
+					NOT = { religion_group = muslim }
+				}
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -118,11 +111,6 @@ succession_laws = {
 					}
 				}
 			}
-			OR = {
-				is_landless_type_title = no
-				is_tribal_type_title = yes
-				temporary = yes
-			}
 			
 			rebel = no
 			
@@ -130,12 +118,8 @@ succession_laws = {
 				holder_scope = { is_feudal = yes }
 				holder_scope = { is_tribal = yes }
 			}
-			NOT = { holder_scope = { government = playable_republic_government } }
-			NOT = { holder_scope = { government = bureaucratic_muslim_government } }
-			NOT = { holder_scope = { government = ghazi_government } }
 			
 			is_primary_type_title = no
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 		}
 		allow = {
 			holder_scope = {
@@ -159,28 +143,41 @@ succession_laws = {
 						}
 					}
 				}
+				NAND = {
+					OR = {
+						tier = king
+						tier = emperor
+					}
+					OR = {
+						government = bureaucratic_muslim_government
+						government = ghazi_government
+						government = ibadi_imamate
+					}
+				}
+				NOT = { religion = nepmese }
 				in_revolt = no
-			}
-			conditional_tooltip = {
-				trigger = {
-					has_law = succ_hre_elective
-					has_dlc = "Conclave"
+				conditional_tooltip = {
+					trigger = {
+						has_law = succ_hre_elective
+						has_dlc = "Conclave"
+					}
+					has_law = law_voting_power_0
 				}
-				has_law = law_voting_power_0
-			}
-			conditional_tooltip = {
-				trigger = {
-					has_law = succ_hre_elective
-					NOT = { has_dlc = "Conclave" }
+				conditional_tooltip = {
+					trigger = {
+						has_law = succ_hre_elective
+						NOT = { has_dlc = "Conclave" }
+					}
+					has_law = crown_authority_4
 				}
-				has_law = crown_authority_4
-			}
-			conditional_tooltip = {
-				trigger = {
-					has_law = succ_hre_elective
+				conditional_tooltip = {
+					trigger = {
+						has_law = succ_hre_elective
+					}
+					has_law = centralization_4
 				}
-				has_law = centralization_4
 			}
+
 			conditional_tooltip = {
 				trigger = {
 					has_dlc = "Conclave"
@@ -205,7 +202,7 @@ succession_laws = {
 		revoke_allowed = {
 			always = no
 		}			
-}
+	}
 	
 	succ_elective_gavelkind = {
 		child_opinion = 15
@@ -214,13 +211,6 @@ succession_laws = {
 		potential = {
 			NOT = { has_law = succ_confederation_elective }
 			NOT = { has_law = succ_bureaucratic_elective }
-			NAND = { 
-				has_law = succ_byzantine_elective 
-				OR = { 
-					title = e_byzantium
-					title = e_roman_empire
-				}
-			}
 			holder_scope = {
 				is_nomadic = no
 				OR = {
@@ -231,8 +221,6 @@ succession_laws = {
 						}
 					}
 				}
-				NOT = { religion_group = muslim }
-				NOT = { religion = nepmese }
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -243,11 +231,10 @@ succession_laws = {
 						}
 					}
 				}
-			}
-			OR = {
-				is_landless_type_title = no
-				is_tribal_type_title = yes
-				temporary = yes
+				OR = {
+					NOT = { religion = nepmese }
+					NOT = { religion_group = muslim }
+				}
 			}
 			
 			rebel = no
@@ -257,9 +244,20 @@ succession_laws = {
 				holder_scope = { is_tribal = yes }
 			}
 			is_primary_type_title = no
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
-			NOT = { holder_scope = { government = chinese_imperial_government } }
-			NOT = { holder_scope = { government = playable_republic_government } }
+			
+			holder_scope = {
+				NAND = {
+					OR = {
+						tier = king
+						tier = emperor
+					}
+					OR = {
+						government = bureaucratic_muslim_government
+						government = ghazi_government
+						government = ibadi_imamate
+					}
+				}
+			}
 		}
 		allow = {
 			conditional_tooltip = {
@@ -282,26 +280,39 @@ succession_laws = {
 			holder_scope = {
 				show_scope_change = no
 				in_revolt = no
-			}
-			conditional_tooltip = {
-				trigger = {
-					has_law = succ_hre_elective
-					has_dlc = "Conclave"
+				conditional_tooltip = {
+					trigger = {
+						has_law = succ_hre_elective
+						has_dlc = "Conclave"
+					}
+					has_law = law_voting_power_0
 				}
-				has_law = law_voting_power_0
-			}
-			conditional_tooltip = {
-				trigger = {
-					has_law = succ_hre_elective
-					NOT = { has_dlc = "Conclave" }
+				conditional_tooltip = {
+					trigger = {
+						has_law = succ_hre_elective
+						NOT = { has_dlc = "Conclave" }
+					}
+					has_law = crown_authority_4
 				}
-				has_law = crown_authority_4
-			}
-			conditional_tooltip = {
-				trigger = {
-					has_law = succ_hre_elective
+				conditional_tooltip = {
+					trigger = {
+						has_law = succ_hre_elective
+					}
+					has_law = centralization_4
 				}
-				has_law = centralization_4
+			}
+			holder_scope = {
+				NAND = {
+					OR = {
+						tier = king
+						tier = emperor
+					}
+					OR = {
+						government = bureaucratic_muslim_government
+						government = ghazi_government
+						government = ibadi_imamate
+					}
+				}
 			}
 		}
 		effect = {

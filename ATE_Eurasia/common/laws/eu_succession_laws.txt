@@ -39,12 +39,15 @@ succession_laws = {
 		feudal_opinion = -5
 		potential = {
 			holder_scope = {
+				AND = {
+					religion_group = muslim
+					NOT = {religion = ibadi}
+				}
 				OR = {
 					government = ghazi_government
 					government = bureaucratic_muslim_government
 				}
 			}
-			#NOT ={ government = military_governorate } im pretty sure we don't have that gov so i'm gonna comment it out
 		}
 		allow = {
 			custom_tooltip = {
@@ -74,7 +77,6 @@ succession_laws = {
 				religion = ibadi
 				government = ibadi_imamate
 			}
-			#NOT = { holder_scope = { government = military_governorate } }
 		}
 		allow = {
 			custom_tooltip = {

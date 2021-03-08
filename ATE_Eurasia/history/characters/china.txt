@@ -118,7 +118,7 @@
 	mother = 217704 # Wu Zetian
 	# spouse = Princess Zhao
 	# spouse = Empress Wei
-	# consort = Smandaringguan Wan'er
+	# consort = Shangguan Wan'er
 	656.11.26 = {
 		birth = yes
 	}
@@ -206,7 +206,7 @@
 		death = { death_reason = death_offmap }
 	}
 }
-217705 = { # Emperor Smandaring of Tang (lived 695/698(?)-714)(reigned 710)
+217705 = { # Emperor Shang of Tang (lived 695/698(?)-714)(reigned 710)
 	dynasty = 1051150 # Li - ruling Tang dynasty
 	name = "Chongmao"
 	religion = ruist
@@ -217,7 +217,7 @@
 		birth = yes
 	}
 	710.7.8 = {
-		name = Smandaring
+		name = Shang
 	}
 	714.9.5 = {
 		death = { death_reason = death_offmap }
@@ -267,7 +267,7 @@
 	culture = mandarin
 	father = 217706 # Emperor Xuanzong
 	mother = 247970 # Consort Yang (not Yang Guifei)
-	# spouses = # Crown Princess Wei and Empress Zmandaring
+	# spouses = # Crown Princess Wei and Empress Zhang
 	trait = child_of_consort
 	711.2.21 = {
 		birth = yes
@@ -290,11 +290,11 @@
 	}
 	744.1.1 = {
 			effect={ROOT={add_consort=c_247991}}
-	}# Empress Zmandaring as Consort
+	}# Empress Zhang as Consort
 	746.1.1 = {
 			remove_spouse = 247992
 			add_spouse = 247991
-	}# Divorce from Crown Princess Wei and promotion of Empress Zmandaring
+	}# Divorce from Crown Princess Wei and promotion of Empress Zhang
 	756.8.12 = {
 		name = "Suzong"
 	}
@@ -356,7 +356,7 @@
 	}
 	786.12.3 = {
 		add_spouse = 247998
-	} # Consort Zmandaring declared Empress three days before her death
+	} # Consort Zhang declared Empress three days before her death
 	805.2.25 = {
 		death = { death_reason = death_offmap }
 	}
@@ -419,7 +419,7 @@
 
 217713 = { # Emperor Jingzong of Tang (lived 809-827)(reigned 824-827)
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Zmandarin"
+	name = "Zhan"
 	religion = ruist
 	culture = mandarin
 	father = 217712 # Emperor Muzong
@@ -458,7 +458,7 @@
 
 217715 = { # Emperor Wuzong of Tang (lived 814-846)(reigned 840-846)
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Cmandarin"
+	name = "Chan"
 	religion = ruist
 	culture = mandarin
 	father = 217712 # Emperor Muzong
@@ -1137,7 +1137,7 @@
 	female=yes
 	dynasty = 1051150 # Li - ruling Tang dynasty
 	religion="mahayana"
-	culture="mandarin"
+	culture = mandarin
 	father= 247772 #Li Daozong
 	623.1.1={
 		birth=yes
@@ -1152,7 +1152,7 @@
 	female=yes
 	dynasty = 1051150 # Li - ruling Tang dynasty
 	religion="mahayana"
-	culture="mandarin"
+	culture = mandarin
 	father = 247916 # Li Shouli, Prince of Bin
 	698.1.1={
 		birth=yes
@@ -1167,7 +1167,7 @@
 	female=yes
 	dynasty=105823 #Meng - Rulers of Nanzhou
 	religion="mahayana"
-	culture="mandarin" #bai
+	culture = mandarin #bai
 	#father = #Meng Shengluopi, King of Nanzhao
 	710.1.1={
 		birth=yes
@@ -1182,7 +1182,7 @@
 	female=yes
 	dynasty= 105837 #Yang
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father= 247737 #Yang Hong
 	trait=fair
 	580.1.1={
@@ -1198,7 +1198,7 @@
 	female=yes
 	dynasty = 1051150 # Li - ruling Tang dynasty
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father= 247775 #Li Daoming
 	trait=fair
 	622.1.1={
@@ -1214,7 +1214,7 @@
 	female=yes
 	dynasty = 1051150 # Li - ruling Tang dynasty
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father= 247777 #Li Dao'en, Prince of Guiji
 	642.1.1={
 		birth=yes
@@ -1229,7 +1229,7 @@
 	female=yes
 	dynasty = 1051150 # Li - ruling Tang dynasty
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father= 247785 #Li Chongyi
 	646.1.1={
 		birth=yes
@@ -1245,7 +1245,7 @@
 	name="Kongzhi"
 	dynasty=1055042
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait=tough_soldier
 	trait=adventurer
 	trait=organizer
@@ -1266,7 +1266,7 @@
 	name="Puyo" 
 	dynasty=1055042
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait=skilled_tactician
 	trait=brave
 	trait=sympathy_pagans
@@ -1286,7 +1286,7 @@
 	name="Chengsi" # unknown
 	dynasty=1055001
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait=skilled_tactician
 	trait=brave
 	trait=sympathy_pagans
@@ -1310,7 +1310,7 @@
 	name="Kan"
 	dynasty=1055001
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait=brilliant_strategist
 	trait=brave
 	trait=sympathy_pagans
@@ -1352,7 +1352,7 @@
 		birth=yes
 	}
 	768.1.1={
-		culture=mandarin # imperial surname awarded
+		culture=han # imperial surname awarded
 	}
 	790.1.1={
 		death=yes
@@ -1363,7 +1363,7 @@
 	name="Ding" # governor of Hexi corridor who fled here
 	dynasty=1055021
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait=tough_soldier
 	trait=organizer
 	martial = 10
@@ -1383,7 +1383,7 @@
 	name="Xigu"
 	dynasty=1053301
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait=tough_soldier
 	trait=brave
 	martial = 10
@@ -1403,7 +1403,7 @@
 	name="Quan"
 	dynasty=1053302
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait=tough_soldier
 	trait=patient
 	martial = 10
@@ -1423,7 +1423,7 @@
 	name="Ju"
 	dynasty=1055022
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait=skilled_tactician
 	trait=brave
 	martial = 10
@@ -1441,7 +1441,7 @@
 	name="Yang"
 	dynasty=1055055
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait=tough_soldier
 	martial = 10
 	731.1.1={
@@ -1459,7 +1459,7 @@
 	name="Cen"
 	dynasty=1055049
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait=tough_soldier
 	martial = 10
 	731.1.1={
@@ -1477,7 +1477,7 @@
 	name="Riyou"
 	dynasty=1053304
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait=tough_soldier
 	martial = 10
 	731.1.1={
@@ -1495,7 +1495,7 @@
 	name="Jing"
 	dynasty=1055022
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=248152
 	trait=tough_soldier
 	martial = 10
@@ -1514,7 +1514,7 @@
 	female = yes
 	dynasty=1055022
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=248152
 	739.1.1={
 		birth=yes
@@ -1533,7 +1533,7 @@
 	female=yes
 	dynasty = 1051150 # Li - ruling Tang dynasty
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father= 247788 #Li Rong
 	673.1.1={
 		birth=yes
@@ -1548,7 +1548,7 @@
 	female=yes
 	dynasty = 1051152 # Wu
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father= 247813 #Wu Yanshou
 	703.1.1={
 		birth=yes
@@ -1599,7 +1599,7 @@
 	}
 	569.4.1 = {
 		name = "Guang"
-	} #father has name cmandaringed after consulting with oracles
+	} #father has name changed after consulting with oracles
 	582.1.1 = {
 		add_spouse = 247754
 	}
@@ -1691,7 +1691,7 @@
 	name = "Gutao" 
 	religion = ruist
 	culture = mandarin
-	# father = Lü Smandaringzhou
+	# father = Lü Shangzhou
 	# mother = Lady Yao
 	# spouse = Yang Zhong, Duke of Sui
 	519.1.1 = {
@@ -1800,10 +1800,10 @@
 		death = { death_reason = death_in_china_historic }
 	}
 } 
-247740 = { # Yang Cmandaringle
+247740 = { # Yang Changle
 	female=yes
 	dynasty = 105837 # Yang - ruling Sui dynasty
-	name = "Cmandaringle" 
+	name = "Changle" 
 	religion = mahayana
 	culture = mandarin
 	father = 247730 #Yang Zhong, Duke of Sui
@@ -1915,7 +1915,7 @@
 	culture = mandarin
 	father = 247725 #Emperor Wen of Sui
 	mother = 247742 #Dugu Qieluo, Empress Wenxian
-	# spouse = Li Cmandaringya
+	# spouse = Li Changya
 	564.1.1 = {
 		birth = yes
 	}
@@ -2023,7 +2023,7 @@
 	religion = ruist
 	culture = mandarin
 	# father = #Emperor Ming of Western Liang
-	#mother = #Lady Zmandaring
+	#mother = #Lady Zhang
 	# spouses = Emperor Yang of Sui
 	566.1.1 = {
 		birth = yes
@@ -2184,9 +2184,9 @@
 		death = { death_reason = death_in_china_historic }
 	}
 } 
-247765 = { # Li Zmandarin
+247765 = { # Li Zhan
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Zmandarin" 
+	name = "Zhan" 
 	religion = ruist
 	culture = mandarin
 	father = 247763 #Li Bing
@@ -2203,7 +2203,7 @@
 	name = "Boyi" 
 	religion = ruist
 	culture = mandarin
-	father = 247765 #Li Zmandarin
+	father = 247765 #Li Zhan
 	592.1.1 = {
 		birth = yes
 	}
@@ -2216,7 +2216,7 @@
 	name = "Fengci" 
 	religion = ruist
 	culture = mandarin
-	father = 247765 #Li Zmandarin
+	father = 247765 #Li Zhan
 	595.1.1 = {
 		birth = yes
 	}
@@ -2254,9 +2254,9 @@
 		death = { death_reason = death_in_china_historic }
 	}
 } 
-247770 = { # Li Zmandaring
+247770 = { # Li Zhang
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Zmandaring" 
+	name = "Zhang" 
 	religion = ruist
 	culture = mandarin
 	father = 247762 #Li Hu
@@ -2272,7 +2272,7 @@
 	name = "Shao" 
 	religion = ruist
 	culture = mandarin
-	father = 247770 #Li Zmandaring
+	father = 247770 #Li Zhang
 	572.1.1 = {
 		birth = yes
 	}
@@ -3540,12 +3540,12 @@
 		death = { death_reason = death_in_china_historic }
 	}
 }
-247860 = { # Zmandaringsun Sheng
-	dynasty = 1055110 # Zmandaringsun
+247860 = { # Zhangsun Sheng
+	dynasty = 1055110 # Zhangsun
 	name = "Sheng"
 	religion = ruist
 	culture = mandarin
-	# father = # Zmandaringsun Si
+	# father = # Zhangsun Si
 	# spouse = # Lady Gao, daughter of Gao Jingde
 	557.1.1 = {
 		birth = yes
@@ -3554,12 +3554,12 @@
 		death = { death_reason = death_in_china_historic }
 	}
 }
-247861 = { # Zmandaringsun Xingbu
-	dynasty = 1055110 # Zmandaringsun
+247861 = { # Zhangsun Xingbu
+	dynasty = 1055110 # Zhangsun
 	name = "Xingbu"
 	religion = ruist
 	culture = mandarin
-	father = 247860 # Zmandaringsun Sheng
+	father = 247860 # Zhangsun Sheng
 	# mother = # Lady Gao, daughter of Gao Jingde
 	585.1.1 = {
 		birth = yes
@@ -3568,12 +3568,12 @@
 		death = { death_reason = death_in_china_historic }
 	}
 }
-247862 = { # Zmandaringsun Heng'an
-	dynasty = 1055110 # Zmandaringsun
+247862 = { # Zhangsun Heng'an
+	dynasty = 1055110 # Zhangsun
 	name = "Heng'an"
 	religion = ruist
 	culture = mandarin
-	father = 247860 # Zmandaringsun Sheng
+	father = 247860 # Zhangsun Sheng
 	# mother = # Lady Gao, daughter of Gao Jingde
 	588.1.1 = {
 		birth = yes
@@ -3582,12 +3582,12 @@
 		death = { death_reason = death_in_china_historic }
 	}
 }
-247863 = { # Zmandaringsun Anye
-	dynasty = 1055110 # Zmandaringsun
+247863 = { # Zhangsun Anye
+	dynasty = 1055110 # Zhangsun
 	name = "Anye"
 	religion = ruist
 	culture = mandarin
-	father = 247860 # Zmandaringsun Sheng
+	father = 247860 # Zhangsun Sheng
 	# mother = # Lady Gao, daughter of Gao Jingde
 	591.1.1 = {
 		birth = yes
@@ -3596,12 +3596,12 @@
 		death = { death_reason = death_in_china_historic }
 	}
 }
-247864 = { # Zmandaringsun Wuji
-	dynasty = 1055110 # Zmandaringsun
+247864 = { # Zhangsun Wuji
+	dynasty = 1055110 # Zhangsun
 	name = "Wuji"
 	religion = ruist
 	culture = mandarin
-	father = 247860 # Zmandaringsun Sheng
+	father = 247860 # Zhangsun Sheng
 	# mother = # Lady Gao, daughter of Gao Jingde
 	594.1.1 = {
 		birth = yes
@@ -3610,13 +3610,13 @@
 		death = { death_reason = death_in_china_historic }
 	}
 }
-247865 = { # Zmandaringsun Chong
-	dynasty = 1055110 # Zmandaringsun
+247865 = { # Zhangsun Chong
+	dynasty = 1055110 # Zhangsun
 	name = "Chong"
 	religion = ruist
 	culture = mandarin
-	father = 247864 # Zmandaringsun Wuji
-	# spouse = # Tang Princess Cmandaringle
+	father = 247864 # Zhangsun Wuji
+	# spouse = # Tang Princess Changle
 	612.1.1 = {
 		birth = yes
 	}
@@ -3629,11 +3629,11 @@
 }
 247866 = { # Empress Wende
 	female = yes
-	dynasty = 1055110 # Zmandaringsun
+	dynasty = 1055110 # Zhangsun
 	name = "Wende"
 	religion = ruist
 	culture = mandarin
-	father = 247860 # Zmandaringsun Sheng
+	father = 247860 # Zhangsun Sheng
 	# mother = # Lady Gao, daughter of Gao Jingde
 	# spouse = Emperor Taizong of Tang
 	601.1.1 = {
@@ -4032,7 +4032,7 @@
 		death = { death_reason = death_in_china_historic }
 	}
 }
-247894 = { # Li Lizhi, Princess Cmandaringle
+247894 = { # Li Lizhi, Princess Changle
 	female = yes
 	dynasty = 1051150 # Li - ruling Tang dynasty
 	name = "Lizhi"
@@ -4040,7 +4040,7 @@
 	culture = mandarin
 	father = 217701 # Emperor Taizong
 	mother = 247866 # Empress Wende
-	# spouse = # Zmandaringsun Chong
+	# spouse = # Zhangsun Chong
 	621.1.1 = {
 		birth = yes
 	}
@@ -4247,9 +4247,9 @@
 		death = { death_reason = death_in_china_historic } # Has to die this way to count as a previous emperor
 	}
 }
-247908 = { # Li Smandaringjin
+247908 = { # Li Shangjin
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Smandaringjin"
+	name = "Shangjin"
 	religion = ruist
 	culture = mandarin
 	father = 217702 # Emperor Gaozong
@@ -4353,9 +4353,9 @@
 		death = { death_reason = death_in_china_historic } # Has to die this way to count as a previous emperor
 	} # Possibly killed by Empress Wang, Consort Xiao, Princess Gaoyang, or her mother
 }
-247914 = { # Crown Prince Zmandaringhuai, Li Xian
+247914 = { # Crown Prince Zhanghuai, Li Xian
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Xian" # different tone tmandarin younger brother's name
+	name = "Xian" # different tone than younger brother's name
 	religion = ruist
 	culture = mandarin
 	father = 217702 # Emperor Gaozong
@@ -4370,11 +4370,11 @@
 }
 247915 = { # Li Guangshun
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Guangshun" # different tone tmandarin younger brother's name
+	name = "Guangshun" # different tone than younger brother's name
 	religion = ruist
 	culture = mandarin
 	father = 247914 # Li Xian
-	# mother = # Consort Zmandaring
+	# mother = # Consort Zhang
 	trait = child_of_consort
 	671.1.1 = {
 		birth = yes
@@ -4385,11 +4385,11 @@
 }
 247916 = { # Li Shouli
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Guangren" # different tone tmandarin younger brother's name
+	name = "Guangren" # different tone than younger brother's name
 	religion = ruist
 	culture = mandarin
 	father = 247914 # Li Xian
-	# mother = # Consort Zmandaring
+	# mother = # Consort Zhang
 	trait = child_of_consort
 	672.1.1 = {
 		birth = yes
@@ -4403,11 +4403,11 @@
 }
 247917 = { # Li Shouyi
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Shouyi" # different tone tmandarin younger brother's name
+	name = "Shouyi" # different tone than younger brother's name
 	religion = ruist
 	culture = mandarin
 	father = 247914 # Li Xian
-	# mother = # Consort Zmandaring
+	# mother = # Consort Zhang
 	trait = child_of_consort
 	675.1.1 = {
 		birth = yes
@@ -4416,14 +4416,14 @@
 		death = { death_reason = death_in_china_historic } # Has to die this way to count as a previous emperor
 	}
 }
-247918 = { # Lady Cmandaringxin
+247918 = { # Lady Changxin
 	female = yes
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Cmandaringxin" # different tone tmandarin younger brother's name
+	name = "Changxin" # different tone than younger brother's name
 	religion = ruist
 	culture = mandarin
 	father = 247914 # Li Xian
-	# mother = # Consort Zmandaring
+	# mother = # Consort Zhang
 	trait = child_of_consort
 	674.1.1 = {
 		birth = yes
@@ -4434,7 +4434,7 @@
 }
 247919 = { # Li Chenghong (Declared Emperor by invading Tibetans 763.11.18-763.11.30)
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Chenghong" # different tone tmandarin younger brother's name
+	name = "Chenghong" # different tone than younger brother's name
 	religion = ruist
 	culture = mandarin
 	father = 247916 # Li Shouli
@@ -4462,10 +4462,10 @@
 		death = { death_reason = death_in_china_historic } # Has to die this way to count as a previous emperor
 	}
 }
-247921 = { # Princess Cmandaringle, daughter of Emperor Gaozu of Tang
+247921 = { # Princess Changle, daughter of Emperor Gaozu of Tang
 	female=yes
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Cmandaringle"
+	name = "Changle"
 	religion = ruist
 	culture = mandarin
 	father = 217700 # Emperor Gaozu
@@ -4484,7 +4484,7 @@
 	name = "Gui"
 	religion = ruist
 	culture = mandarin
-	# spouse = Princess Cmandaringle
+	# spouse = Princess Changle
 	618.1.1 = {
 		birth = yes
 	}
@@ -4504,7 +4504,7 @@
 	religion = ruist
 	culture = mandarin
 	father = 247922 # Zhao Gui
-	mother = 247921 # Princess Cmandaringle
+	mother = 247921 # Princess Changle
 	# spouse = Emperor Zhongzong of Tang
 	655.1.1 = {
 		birth = yes
@@ -4528,12 +4528,12 @@
 		death = { death_reason = death_in_china_historic }
 	}
 }
-247925 = { # Smandaringguan Yi
-	dynasty = 1055095 # Smandaringguan
+247925 = { # Shangguan Yi
+	dynasty = 1055095 # Shangguan
 	name = "Yi"
 	religion = ruist
 	culture = mandarin
-	# father = # Smandaringguan Hong
+	# father = # Shangguan Hong
 	608.1.1 = {
 		birth = yes
 	}
@@ -4541,12 +4541,12 @@
 		death = { death_reason = death_in_china_historic }
 	}
 }
-247926 = { # Smandaringguan Tingzhi
-	dynasty = 1055095 # Smandaringguan
+247926 = { # Shangguan Tingzhi
+	dynasty = 1055095 # Shangguan
 	name = "Tingzhi"
 	religion = ruist
 	culture = mandarin
-	father = 247925 # Smandaringguan Yi
+	father = 247925 # Shangguan Yi
 	630.1.1 = {
 		birth = yes
 	}
@@ -4554,13 +4554,13 @@
 		death = { death_reason = death_in_china_historic }
 	}
 }
-247927 = { # Smandaringguan Wan'er
+247927 = { # Shangguan Wan'er
 	female = yes
-	dynasty = 1055095 # Smandaringguan
+	dynasty = 1055095 # Shangguan
 	name = "Wan'er"
 	religion = ruist
 	culture = mandarin
-	father = 247926 # Smandaringguan Tingzhi
+	father = 247926 # Shangguan Tingzhi
 	# mother = # Lady Zheng
 	664.11.24 = {
 		birth = yes
@@ -4675,10 +4675,10 @@
 		death = { death_reason = death_in_china_historic } # Has to die this way to count as a previous emperor
 	}
 }
-247935 = { # Princess Cmandaringning 
+247935 = { # Princess Changning 
 	female = yes
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Cmandaringning"
+	name = "Changning"
 	religion = ruist
 	culture = mandarin
 	father = 217799 # Emperor Zhongzong
@@ -4834,7 +4834,7 @@
 247945 = { # Consort Doulu
 	female = yes
 	dynasty = 105856 # Doulu
-	name = "Jinsmandarin"
+	name = "Jinshan"
 	religion = ruist
 	culture = mandarin
 	# father = # Doulu Qinsu
@@ -4861,10 +4861,10 @@
 		death = { death_reason = death_in_china_historic }
 	}
 }
-247947 = { # Princess Shoucmandaring
+247947 = { # Princess Shouchang
 	female = yes
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Shoucmandaring"
+	name = "Shouchang"
 	religion = ruist
 	culture = mandarin
 	father = 217703 # Emperor Ruizong
@@ -4956,7 +4956,7 @@
 	}
 	756.1.1 = {
 		death = { death_reason = death_in_china_historic }
-	} # Killed by An Lusmandarin
+	} # Killed by An Lushan
 }
 247953 = { # Li Fan
 	dynasty = 1051150 # Li - ruling Tang dynasty
@@ -4981,7 +4981,7 @@
 	culture = mandarin
 	father = 217703 # Emperor Ruizong
 	# mother = # consort Cui
-	# spouses = # Xue Yan and Zmandaring Xiaoyi
+	# spouses = # Xue Yan and Zhang Xiaoyi
 	trait = child_of_consort
 	689.1.1 = {
 		birth = yes
@@ -5005,10 +5005,10 @@
 		death = { death_reason = death_in_china_historic }
 	}
 }
-247956 = { # Princess Jingsmandarin
+247956 = { # Princess Jingshan
 	female = yes
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Jingsmandarin"
+	name = "Jingshan"
 	religion = ruist
 	culture = mandarin
 	father = 217703 # Emperor Ruizong
@@ -5024,7 +5024,7 @@
 247957 = { # Princess Huaiyang
 	female = yes
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Huasmandarin"
+	name = "Huashan"
 	religion = ruist
 	culture = mandarin
 	father = 217703 # Emperor Ruizong
@@ -5241,7 +5241,7 @@
 	}
 	756.1.1 = {
 		death = { death_reason = death_in_china_historic }
-	} # Killed by An Lusmandarin
+	} # Killed by An Lushan
 }
 219551 = { # Father of Yang Guifei
 	dynasty = 105837 # Yang - ruling Sui dynasty
@@ -5272,7 +5272,7 @@
 	}
 	756.7.15 = {
 		death = { death_reason = death_in_china_historic }
-	} # Killed by An Lusmandarin
+	} # Killed by An Lushan
 } 
 247973 = { # Crown Prince Li Cong
 	dynasty = 1051150 # Li - ruling Tang dynasty
@@ -5560,10 +5560,10 @@
 		death = { death_reason = death_in_china_historic }
 	}
 }
-247988 = { # Princess Smandaringxian
+247988 = { # Princess Shangxian
 	female = yes
 	dynasty = 1051150 # Li - ruling Tang dynasty
-	name = "Smandaringxian"
+	name = "Shangxian"
 	religion = ruist
 	culture = mandarin
 	father = 217706 # Emperor Xuanzong
@@ -5609,13 +5609,13 @@
 		death = { death_reason = death_in_china_historic }
 	}
 }
-247991 = { # Empress Zmandaring (Suzong)
+247991 = { # Empress Zhang (Suzong)
 	female = yes
-	dynasty = 1055014 # Zmandaring
+	dynasty = 1055014 # Zhang
 	name = "Shi"
 	religion = ruist
 	culture = mandarin
-	# father = # Zmandaring Quyi
+	# father = # Zhang Quyi
 	# spouse = # Emperor Suzong
 	728.1.1 = {
 		birth = yes
@@ -5751,7 +5751,7 @@
 	properties = nd0njn00000000dc00
 	dynasty = 1055006 #ZHANG
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait=skilled_tactician
 	trait=brave
 	trait=inspiring_leader
@@ -5768,7 +5768,7 @@
 	name="Jiang"
 	dynasty = 1053100 # Song
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	disallow_random_traits = yes
 	martial=14
 	trait = grey_eminence
@@ -5797,7 +5797,7 @@
 	name="Junyi"
 	dynasty = 1053101 # Lu
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	disallow_random_traits = yes
 	trait = brilliant_strategist
 	trait = strong
@@ -5821,7 +5821,7 @@
 	name="Yong"
 	dynasty = 1053102 # Wu
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	disallow_random_traits = yes
 	trait = brilliant_strategist
 	trait = trickster
@@ -5846,7 +5846,7 @@
 	name="Sheng"
 	dynasty = 1053103 # Gongshun
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	#disallow_random_traits = yes
 	trait = mastermind_theologian
 	trait = mystic
@@ -5865,7 +5865,7 @@
 	name="Sheng"
 	dynasty = 1053104 # Guan
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	#disallow_random_traits = yes
 	trait = tough_soldier
 	trait = strong
@@ -5887,7 +5887,7 @@
 	name="Chong"
 	dynasty = 1053105 # Lin
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	disallow_random_traits = yes
 	trait = tough_soldier
 	trait = master_of_flame
@@ -5909,7 +5909,7 @@
 	name="Ming"
 	dynasty = 1053106 # Qin
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	disallow_random_traits = yes
 	trait = brilliant_strategist
 	trait = duelist
@@ -5932,7 +5932,7 @@
 	name="Zhuo"
 	dynasty = 1053107 # Huyan
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	#disallow_random_traits = yes
 	trait = brilliant_strategist
 	trait = duelist
@@ -5952,7 +5952,7 @@
 	name="Rong"
 	dynasty = 1053108 # Hua
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	martial = 15
 	disallow_random_traits = yes
 	trait = tough_soldier
@@ -5973,7 +5973,7 @@
 	name="Jin"
 	dynasty = 1053109 # Chai
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	disallow_random_traits = yes
 	trait = charismatic_negotiator
 	trait = diligent
@@ -5994,7 +5994,7 @@
 	name="Yin"
 	dynasty = 1053110 # Li
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	#disallow_random_traits = yes
 	trait = misguided_warrior
 	1030.1.1={
@@ -6012,7 +6012,7 @@
 	name="Tong"
 	dynasty = 1053111 # Zhu
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	dna="chlcczfbbbv" # Magnificent black beard
 	prp="cb0cdk00000000ab00"
 	disallow_random_traits = yes
@@ -6036,7 +6036,7 @@
 	name="Da"
 	dynasty = 1053112 # Lu
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	martial = 14
 	disallow_random_traits = yes
 	trait = brilliant_strategist
@@ -6063,7 +6063,7 @@
 	name="Song"
 	dynasty = 1053113 # Wu
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	martial = 17
 	disallow_random_traits = yes
 	trait = tough_soldier
@@ -6089,7 +6089,7 @@
 	name="Ping"
 	dynasty = 1053114 # Dong
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	#disallow_random_traits = yes
 	trait = tough_soldier
 	trait = wroth
@@ -6106,9 +6106,9 @@
 
 242315 = {
 	name="Qin"
-	dynasty = 1053115 # Zmandaring
+	dynasty = 1053115 # Zhang
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	disallow_random_traits = yes
 	trait = tough_soldier
 	trait = trickster
@@ -6130,7 +6130,7 @@
 	name="Zhi"
 	dynasty = 1053116 # Yang
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	disallow_random_traits = yes
 	trait = skilled_tactician
 	trait = humble
@@ -6152,7 +6152,7 @@
 	name="Ning"
 	dynasty = 1053117 # Xu
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	#disallow_random_traits = yes
 	trait = tough_soldier
 	1030.1.1={
@@ -6170,7 +6170,7 @@
 	name="Chao"
 	dynasty = 1053118 # Suo
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	#disallow_random_traits = yes
 	trait = tough_soldier
 	trait = robust
@@ -6190,7 +6190,7 @@
 	name="Zong"
 	dynasty = 1053119 # Dai
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	disallow_random_traits = yes
 	trait = charismatic_negotiator
 	trait = zealous
@@ -6234,7 +6234,7 @@
 	name="Kui"
 	dynasty = 1053121 # Li
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	disallow_random_traits = yes
 	martial = 20
 	trait = tough_soldier
@@ -6265,7 +6265,7 @@
 	name="Jin"
 	dynasty = 1053122 # Shi
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	martial = 13
 	disallow_random_traits = yes
 	trait = misguided_warrior
@@ -6287,7 +6287,7 @@
 	name="Hong"
 	dynasty = 1053123 # Mu
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	#disallow_random_traits = yes
 	trait = tough_soldier
 	trait = drunkard
@@ -6308,7 +6308,7 @@
 	name="Heng"
 	dynasty = 1053124 # Lei
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	martial = 10
 	disallow_random_traits = yes
 	trait = tough_soldier
@@ -6331,7 +6331,7 @@
 	name="Jun"
 	dynasty = 1053125 # Li
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	#disallow_random_traits = yes
 	trait = skilled_tactician
 	trait = master_of_flame
@@ -6353,7 +6353,7 @@
 	name="Xiao'er"
 	dynasty = 1053126 # Ruan
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=242332
 	#disallow_random_traits = yes
 	trait = skilled_tactician
@@ -6371,9 +6371,9 @@
 
 242327 = {
 	name="Heng"
-	dynasty = 1053127 # Zmandaring
+	dynasty = 1053127 # Zhang
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father = 242330
 	#disallow_random_traits = yes
 	trait = skilled_tactician
@@ -6392,7 +6392,7 @@
 	name="Xiaowu"
 	dynasty = 1053126 # Ruan
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=242332
 	#disallow_random_traits = yes
 	trait = skilled_tactician
@@ -6409,9 +6409,9 @@
 
 242329 = {
 	name="Shun"
-	dynasty = 1053127 # Zmandaring
+	dynasty = 1053127 # Zhang
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father = 242330
 	disallow_random_traits = yes
 	trait = tough_soldier
@@ -6430,9 +6430,9 @@
 
 242330 = { 
 	name="Chuke"
-	dynasty = 1053127 # Zmandaring
+	dynasty = 1053127 # Zhang
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	#disallow_random_traits = yes
 	trait = tough_soldier
 	1000.1.1={
@@ -6447,7 +6447,7 @@
 	name="Xiaoqi"
 	dynasty = 1053126 # Ruan
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=242332
 	#disallow_random_traits = yes
 	trait = tough_soldier
@@ -6466,7 +6466,7 @@
 	name="Gai"
 	dynasty = 1053126 # Ruan
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	#disallow_random_traits = yes
 	trait = tough_soldier
 	1000.1.1={
@@ -6484,7 +6484,7 @@
 	name="Xiong"
 	dynasty = 1053129 # Yang
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	#disallow_random_traits = yes
 	trait = tough_soldier
 	trait = master_of_flame
@@ -6504,7 +6504,7 @@
 	name="Xiu"
 	dynasty = 1053130 # Shi
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	#disallow_random_traits = yes
 	trait = tough_soldier
 	trait = fair
@@ -6523,7 +6523,7 @@
 	name="Zhen"
 	dynasty = 1053131 # Xie
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=242338
 	#disallow_random_traits = yes
 	trait = tough_soldier
@@ -6542,7 +6542,7 @@
 	name="Bao"
 	dynasty = 1053131 # Xie
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=242338
 	#disallow_random_traits = yes
 	trait = tough_soldier
@@ -6562,7 +6562,7 @@
 	name="Qing"
 	dynasty = 1053132 # Yan
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	#disallow_random_traits = yes
 	trait = charismatic_negotiator
 	trait = duelist
@@ -6585,7 +6585,7 @@
 	name="Wuji"
 	dynasty = 1053131 # Xie
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=242340
 	#disallow_random_traits = yes
 	trait = tough_soldier
@@ -6601,7 +6601,7 @@
 	name="Xuanling"
 	dynasty = 1053131 # Xie
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=242340
 	#disallow_random_traits = yes
 	trait = tough_soldier
@@ -6617,7 +6617,7 @@
 	name="Shilian"
 	dynasty = 1053131 # Xie
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	#disallow_random_traits = yes
 	trait = tough_soldier
 	960.1.1={
@@ -6632,7 +6632,7 @@
 	name="Gu"
 	dynasty = 1053131 # Xie
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	female=yes
 	father=242339
 	#disallow_random_traits = yes
@@ -6654,7 +6654,7 @@
 	name="San Nian"
 	dynasty = 1053133 # Hu
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	female=yes
 	#disallow_random_traits = yes
 	trait = skilled_tactician
@@ -6677,7 +6677,7 @@
 	name="Er Niang"
 	dynasty = 1053134 # Sun
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	female=yes
 	#disallow_random_traits = yes
 	trait = charismatic_negotiator
@@ -6702,7 +6702,7 @@
 242344 = {
 	name="Bi"
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait = brilliant_strategist
 	trait = master_of_flame
 	740.1.1={
@@ -6716,7 +6716,7 @@
 242345 = {
 	name="Zhou"
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait = brilliant_strategist
 	trait = master_of_flame
 	840.1.1={
@@ -6730,7 +6730,7 @@
 242346 = {
 	name="Gun"
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait = brilliant_strategist
 	trait = master_of_flame
 	1107.1.1={
@@ -6744,7 +6744,7 @@
 242347 = {
 	name="Xuanling"
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait = brilliant_strategist
 	trait = master_of_flame
 	1177.1.1={
@@ -6758,7 +6758,7 @@
 242348 = {
 	name="Yu"
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait = brilliant_strategist
 	trait = master_of_flame
 	1247.1.1={
@@ -6837,7 +6837,7 @@
 	name="Yijin"
 	dynasty=1055036
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	trait = brilliant_strategist
 	trait = ambitious
 	#trait=sympathy_zoroastrianism
@@ -6855,7 +6855,7 @@
 	dynasty=1055036
 	female=yes
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=1059714
 	#trait=sympathy_zoroastrianism
 	trait=sympathy_islam
@@ -6874,7 +6874,7 @@
 	name="Yuande" 
 	dynasty=1055036
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=1059714
 	trait=tough_soldier
 	#trait=sympathy_zoroastrianism
@@ -6908,7 +6908,7 @@
 	name="Yuanshen" 
 	dynasty=1055036
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=1059714
 	#trait=sympathy_zoroastrianism
 	trait=sympathy_islam
@@ -6924,7 +6924,7 @@
 	name="Yuanzhong" 
 	dynasty=1055036
 	religion="mahayana"
-	culture="mandarin"
+	culture = mandarin
 	father=1059714
 	trait=charismatic_negotiator
 	trait=quick
@@ -6944,7 +6944,7 @@
 	dynasty=1055036
 	female=yes
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=1059714
 	#trait=sympathy_zoroastrianism
 	trait=sympathy_islam
@@ -6964,7 +6964,7 @@
 	name="Yangong" 
 	dynasty=1055036
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=1059716
 	937.1.1={
 		birth=yes
@@ -6977,7 +6977,7 @@
 	name="Yanlu" 
 	dynasty=1055036
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=1059716
 	938.1.1={
 		birth=yes
@@ -6990,7 +6990,7 @@
 	name="Zongshou" 
 	dynasty=1055036
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=1059718
 	trait=quick
 	968.1.1={
@@ -7004,7 +7004,7 @@
 	name="Zongshou" 
 	dynasty=1055036
 	religion="ruist"
-	culture="mandarin"
+	culture = mandarin
 	father=1059722
 	trait=quick
 	988.1.1={
@@ -7246,7 +7246,7 @@
 
 125501 = {
  name="Temüjin"
- # AKA: Genghis Kmandarin
+ # AKA: Genghis Khan
  dynasty=11100
  dna="bfimkolbecc"
  properties="ge0af0000000"
@@ -7278,7 +7278,7 @@
  }
  1172.1.1={
 	 effect = {add_friend = 166796 } #Becomes blood brothers with Jamukha
-	 effect = {add_friend = 166890} #Wang Kmandarin gives patronage to Temüjin
+	 effect = {add_friend = 166890} #Wang Khan gives patronage to Temüjin
 	 effect = {add_friend = 166894} #Jakha Khambu befriends Temüjin
  }
  1178.1.1={
@@ -7296,7 +7296,7 @@
  1201.1.1={
 	 effect = {remove_friend = 166796 }
 	 effect = {add_rival = 166796 } #Becomes rivals with Jamukha
-	 effect = {add_rival = 166890 } #Becomes rivals with Wang Kmandarin
+	 effect = {add_rival = 166890 } #Becomes rivals with Wang Khan
  }
  1202.1.1={
 	 effect={add_consort=166869}
@@ -7306,10 +7306,10 @@
 	 effect_even_if_dead = {
 	 set_special_character_title = GENGHIS_KHAN
 	 set_global_flag = khalkha_horde_united
-	 add_character_modifier = { modifier = greatest_of_kmandarins duration = -1 }
+	 add_character_modifier = { modifier = greatest_of_khans duration = -1 }
 	 }
 	 create_bloodline = {
-	 	type = genghis_kmandarin
+	 	type = genghis_khan
 	 	has_dlc = "Holy Fury"
 	 }
  }
@@ -8453,8 +8453,8 @@
 }
 
 478009 = {
- name="Bulugmandarin"
- # AKA: Buluqmandarin Khatan
+ name="Bulughan"
+ # AKA: Buluqhan Khatan
  female = yes
  dynasty=1051138
  religion="pagan"
@@ -8805,7 +8805,7 @@
 	stewardship=6
 	religion="shiite"
 	culture="khalkha"
-	trait="undermandarinded_rogue"
+	trait="underhanded_rogue"
 	trait="gluttonous"
 	father=478012
 	mother=478014
@@ -9518,7 +9518,7 @@
 }
 
 34867 = {
-	name="Chormakmandarin"
+	name="Chormakhan"
 	#placeholder
 	religion="pagan"
 	culture="khalkha"
@@ -10220,7 +10220,7 @@
 }
 
 34951 = {
-	name="Chormakmandarin"
+	name="Chormakhan"
 	#placeholder
 	religion="pagan"
 	culture="khalkha"
@@ -10407,7 +10407,7 @@
 }
 
 93055 = {
- name="Yesügei" # Father of Genghis Kmandarin
+ name="Yesügei" # Father of Genghis Khan
  dynasty=11100
  religion="pagan"
  culture="khalkha"
@@ -10416,7 +10416,7 @@
 	 birth=yes
  }
  1136.1.1={
-	 effect = {add_friend = 166890} #Becomes blood brothers with Wang Kmandarin
+	 effect = {add_friend = 166890} #Becomes blood brothers with Wang Khan
  }
  1155.1.1={
 	 effect={add_consort=166851}
@@ -10500,7 +10500,7 @@
 		birth="1290.1.1"
 	}
 	1335.12.1={
-		add_claim = e_il-kmandarinate
+		add_claim = e_il-khanate
 	}
 	1353.1.1={
 		death="1353.1.1"
@@ -11110,7 +11110,7 @@
 }
 
 93310 = {
-	name="Jamandarin Temur"
+	name="Jahan Temur"
 	dynasty=11100
 	religion="shiite"
 	culture="khalkha"
@@ -11119,7 +11119,7 @@
 		birth="1320.1.1"
 	}
 	1335.1.1={
-		add_claim = e_il-kmandarinate
+		add_claim = e_il-khanate
 	}	
 	1341.1.1={
 		death="1341.1.1"
@@ -11188,7 +11188,7 @@
 }
 
 172002 = {
-	name="Chaurkmandarin"
+	name="Chaurkhan"
 	dynasty=7315
 	religion="pagan"
 	culture="khalkha"
@@ -11202,7 +11202,7 @@
 }
 
 172003 = {
- name="Hoelun" # Mother of Genghis Kmandarin
+ name="Hoelun" # Mother of Genghis Khan
  dynasty=101946
  female=yes
  religion="pagan"
@@ -11217,7 +11217,7 @@
 }
 
 172004 = {
- name="Börte" # Wife of Genghis Kmandarin
+ name="Börte" # Wife of Genghis Khan
  dynasty=1041000
  female=yes
  religion="pagan"
@@ -11236,7 +11236,7 @@
 }
 
 172005 = {
- name="Ögedei" # Ögedei Kmandarin
+ name="Ögedei" # Ögedei Khan
  dynasty=11100
  religion="pagan"
  culture="khalkha"
@@ -11292,7 +11292,7 @@
 }
 
 172007 = {
- name="Güyük" # Güyük Kmandarin
+ name="Güyük" # Güyük Khan
  dynasty=11100
  religion="pagan"
  culture="khalkha"
@@ -11464,7 +11464,7 @@
 }
 
 217265 = {
- name = "Möngke" # Möngke Kmandarin
+ name = "Möngke" # Möngke Khan
  dynasty = 11100
  religion = "pagan"
  culture = "khalkha"
@@ -11503,7 +11503,7 @@
 }
 
 217266 = {
- name="Kublai" # Kublai Kmandarin
+ name="Kublai" # Kublai Khan
  dynasty=11100
  religion="pagan"
  culture="khalkha"
@@ -11577,7 +11577,7 @@
  }
 }
 217268 = {
- name="Jingim Zhenjin" # Zhenjin, Son of Kublai Kmandarin
+ name="Jingim Zhenjin" # Zhenjin, Son of Kublai Khan
  dynasty=11100
  religion="mahayana" #supporter of Confucianism
  culture="khalkha"
@@ -11599,7 +11599,7 @@
  }
 }
 217269 = {
- name="Temür Öljeytü" # Temür Kmandarin
+ name="Temür Öljeytü" # Temür Khan
  dynasty=11100
  religion="mahayana"
  culture="khalkha"
@@ -11621,7 +11621,7 @@
  }
 }
 217270 = {
- name="Darmabala" # Grandson of Kublai Kmandarin
+ name="Darmabala" # Grandson of Kublai Khan
  dynasty=11100
  religion="mahayana"
  culture="khalkha"
@@ -11643,7 +11643,7 @@
  }
 }
 217271 = {
- name="Külüg" # Külüg Kmandarin
+ name="Külüg" # Külüg Khan
  dynasty=11100
  religion="mahayana"
  culture="khalkha"
@@ -11662,7 +11662,7 @@
  }
 }
 217272 = {
- name="Ayurbarwada" # Buyantu Kmandarin
+ name="Ayurbarwada" # Buyantu Khan
  dynasty=11100
  religion="mahayana" #favored Confucian systems
  culture="khalkha"
@@ -11701,7 +11701,7 @@
  }
 }
 217274 = {
- name="Shidibala" # Gegeen Kmandarin
+ name="Shidibala" # Gegeen Khan
  dynasty=11100
  religion="mahayana"
  culture="khalkha"
@@ -11723,7 +11723,7 @@
  }
 }
 217275 = {
- name="Gammala" # Grandson of Kublai Kmandarin
+ name="Gammala" # Grandson of Kublai Khan
  dynasty=11100
  religion="mahayana"
  culture="khalkha"
@@ -11783,7 +11783,7 @@
  }
 }
 217279 = {
- name="Yesün Temür" # Yesün Temür Kmandarin
+ name="Yesün Temür" # Yesün Temür Khan
  dynasty=11100
  religion="mahayana"
  culture="khalkha"
@@ -11805,7 +11805,7 @@
  }
 }
 217280 = {
- name="Ragibagh" # Ragibagh Kmandarin
+ name="Ragibagh" # Ragibagh Khan
  dynasty=11100
  religion="mahayana"
  culture="khalkha"
@@ -11826,7 +11826,7 @@
  }
 }
 217281 = {
- name="Jayaatu" # Jayaatu Kmandarin
+ name="Jayaatu" # Jayaatu Khan
  dynasty=11100
  religion="mahayana"
  culture="khalkha"
@@ -11847,7 +11847,7 @@
  }
 }
 217282 = {
- name="Khutughtu" # Khutughtu Kmandarin Kusala
+ name="Khutughtu" # Khutughtu Khan Kusala
  dynasty=11100
  religion="mahayana"
  culture="khalkha"
@@ -11871,7 +11871,7 @@
  }
 }
 217283 = {
- name="Rinchinbal" # Rinchinbal Kmandarin
+ name="Rinchinbal" # Rinchinbal Khan
  dynasty=11100
  religion="mahayana"
  culture="khalkha"
@@ -11890,7 +11890,7 @@
  }
 }
 217284 = {
- name="Toghon Temür" # Toghon Temür Kmandarin
+ name="Toghon Temür" # Toghon Temür Khan
  dynasty=11100
  religion="mahayana"
  culture="khalkha"
@@ -11911,7 +11911,7 @@
  }
 }
 217285 = {
- name="Biligtü Kmandarin" # Biligtü Kmandarin Ayushiridara (Emperor Zhaozong)
+ name="Biligtü Khan" # Biligtü Khan Ayushiridara (Emperor Zhaozong)
  dynasty=11100
  religion="mahayana"
  culture="khalkha"
@@ -12106,7 +12106,7 @@
 	}
 }
 
-217736 = { # Emperor Zmandaringzong of Jin (lived 1168-1208)(reigned 1189-1208)
+217736 = { # Emperor Zhangzong of Jin (lived 1168-1208)(reigned 1189-1208)
 	dynasty = 1051153 # Wanyan - ruling Jin dynasty
 	name = "Madage" # sinicised Jing
 	religion = ruist
@@ -12117,7 +12117,7 @@
 		birth = yes
 	}
 	1189.1.20 = {
-		name = "Zmandaringzong"
+		name = "Zhangzong"
 	}
 	1208.12.29 = {
 		death = { death_reason = death_offmap }
@@ -15226,7 +15226,7 @@
 	}
 }
 244009 = { # fictitious manchu
-	dynasty = 1051184 #Tusmandarin
+	dynasty = 1051184 #Tushan
 	name = "Wudubu"
 	religion = ruist
 	culture = manchu
@@ -15298,7 +15298,7 @@
  }
 }
 217216 = {
-	name = "Holuikmandarin" # fictional
+	name = "Holuikhan" # fictional
 	dynasty = 1041001 # Naiman
 	religion = nestorian
 	culture = khalkha
@@ -15352,7 +15352,7 @@
 	}
 }
 217259 = {
-	name = Chormakmandarin # fictional
+	name = Chormakhan # fictional
 	dynasty = 1041001 # Naiman
 	religion = nestorian
 	culture = khalkha
@@ -15471,7 +15471,7 @@
 	759.4.25 = { death = yes }
 }
 217308 = {
-	name = Burkmandarin # fictional
+	name = Burkhan # fictional
 	dynasty = 1051138
 	religion = pagan 
 	culture = khalkha 
@@ -15657,7 +15657,7 @@
 }
 
 217355 = { #2nd rulers spouse # fictional
-	name = Bulugmandarin
+	name = Bulughan
 	dynasty = 101930 # Bat-Erdene
 	religion = pagan 
 	culture = khalkha
@@ -15796,7 +15796,7 @@
 
 #Borjigin Ancestors (Yuan)
 166797 = {
-	name="Bartan" # Grandfather of Genghis Kmandarin
+	name="Bartan" # Grandfather of Genghis Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -15809,7 +15809,7 @@
 	}
 }
 166798 = {
-	name="Daridai" # Uncle of Genghis Kmandarin
+	name="Daridai" # Uncle of Genghis Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -15822,7 +15822,7 @@
 	}
 }
 166799 = {
-	name="Negun Taiji" # Uncle of Genghis Kmandarin
+	name="Negun Taiji" # Uncle of Genghis Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -15835,7 +15835,7 @@
 	}
 }
 166800 = {
-	name="Mengitü Hiyan" # Uncle of Genghis Kmandarin
+	name="Mengitü Hiyan" # Uncle of Genghis Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -15848,7 +15848,7 @@
 	}
 }
 166801 = {
-	name="Khabul" #Khabul Kmandarin - Great-Grandfather of Genghis Kmandarin
+	name="Khabul" #Khabul Khan - Great-Grandfather of Genghis Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -15887,7 +15887,7 @@
 	}
 }
 166804 = {
-	name="Hotula" #Hotula Kmandarin
+	name="Hotula" #Hotula Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -15939,7 +15939,7 @@
 	}
 }
 166808 = {
-	name="Tumbinai Setsen" # Father of Khabul Kmandarin
+	name="Tumbinai Setsen" # Father of Khabul Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -15952,7 +15952,7 @@
 	}
 }
 166809 = {
-	name="Semsochule" # Brother of Khabul Kmandarin
+	name="Semsochule" # Brother of Khabul Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -15965,7 +15965,7 @@
 	}
 }
 166810 = {
-	name="Ardi Barlas" # Nephew of Khabul Kmandarin
+	name="Ardi Barlas" # Nephew of Khabul Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -15978,7 +15978,7 @@
 	}
 }
 166811 = {
-	name="Angg Goraan" # Nephew of Khabul Kmandarin
+	name="Angg Goraan" # Nephew of Khabul Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -15991,7 +15991,7 @@
 	}
 }
 166812 = {
-	name="Baishinkhor Dogshin" # Grandfather of Khabul Kmandarin
+	name="Baishinkhor Dogshin" # Grandfather of Khabul Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -16030,7 +16030,7 @@
 	}
 }
 166815 = {
-	name="Ambaghai" # Ambaghai Kmandarin
+	name="Ambaghai" # Ambaghai Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -16056,7 +16056,7 @@
 	}
 }
 166817 = {
-	name="Khaidu" # Great-Grandfather of Khabul Kmandarin
+	name="Khaidu" # Great-Grandfather of Khabul Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -16125,7 +16125,7 @@
 	}
 }
 166822 = {
-	name="Jarchuud Adankmandarin"
+	name="Jarchuud Adankhan"
 	female=yes
 	dynasty=7315 # Uriankhai
 	religion="pagan"
@@ -16729,7 +16729,7 @@
 	}
 }
 166864 = {
-	name="Khulan" # Secondary Wife of Genghis Kmandarin
+	name="Khulan" # Secondary Wife of Genghis Khan
 	female=yes
 	dynasty=1040072
 	religion="pagan"
@@ -16759,7 +16759,7 @@
 	}
 }
 166866 = {
-	name="Temüjin-üge" # Kmandarin of the Tatars
+	name="Temüjin-üge" # Khan of the Tatars
 	dynasty=1040073
 	religion="pagan"
 	culture="khalkha"
@@ -16771,7 +16771,7 @@
 	}
 }
 166867 = {
-	name="Megüjin" # Kmandarin of the Tatars
+	name="Megüjin" # Khan of the Tatars
 	dynasty=1040073
 	religion="pagan"
 	culture="khalkha"
@@ -16784,7 +16784,7 @@
 	}
 }
 166868 = {
-	name="Jalibukha" # Kmandarin of the Tatars
+	name="Jalibukha" # Khan of the Tatars
 	dynasty=1040073
 	religion="pagan"
 	culture="khalkha"
@@ -16797,7 +16797,7 @@
 	}
 }
 166869 = {
-	name="Yesugen" # Concubine of Genghis Kmandarin
+	name="Yesugen" # Concubine of Genghis Khan
 	female=yes
 	dynasty=1040073
 	religion="pagan"
@@ -16811,7 +16811,7 @@
 	}
 }
 166870 = {
-	name="Yesui" # Concubine of Genghis Kmandarin
+	name="Yesui" # Concubine of Genghis Khan
 	female=yes
 	dynasty=1040073
 	religion="pagan"
@@ -16824,7 +16824,7 @@
 		death=yes
 	}
 }
-#daughters of Genghis Kmandarin
+#daughters of Genghis Khan
 166871 = {
 	name="Khochen"
 	female=yes
@@ -17033,7 +17033,7 @@
 	}#Killed by the Liao
 }
 166885 = {
-	name = "Korchi Buiruk" # Korchi Buiruk Kmandarin
+	name = "Korchi Buiruk" # Korchi Buiruk Khan
 	dynasty = 1041001 # Naiman
 	religion = "nestorian"
 	culture = "khalkha"
@@ -17101,7 +17101,7 @@
 	}
 }
 166890 = {
-	name="Toghrul" #Wang Kmandarin
+	name="Toghrul" #Wang Khan
 	dynasty=1041002
 	religion="nestorian"
 	culture="khalkha"
@@ -17114,10 +17114,10 @@
 		effect = {add_friend = 93055} #Becomes blood brothers with Yesügei
 	}
 	1172.1.1={
-		effect = {add_friend = 125501} #Wang Kmandarin gives patronage to Temüjin
+		effect = {add_friend = 125501} #Wang Khan gives patronage to Temüjin
 	}
 	1201.1.1={
-		effect = {add_rival = 125501 } #Becomes rivals with Genghis Kmandarin
+		effect = {add_rival = 125501 } #Becomes rivals with Genghis Khan
 		effect = {remove_friend = 125501}
 	}
 	1203.1.1={
@@ -17330,7 +17330,7 @@
 	}
 }
 188988 = {
-	name="Tuqtemür" #ancestor of the Great Horde Kmandarins
+	name="Tuqtemür" #ancestor of the Great Horde Khans
 	female=yes
 	dynasty=11100
 	religion="pagan"
@@ -17360,7 +17360,7 @@
 	}
 }
 188987 = {
-	name="Yesügei" # Kmandarin of the Tatars
+	name="Yesügei" # Khan of the Tatars
 	dynasty=1040073
 	religion="pagan"
 	culture="khalkha"
@@ -17373,7 +17373,7 @@
 	}
 }
 166897 = {
-	name="Borakchin" #wife of Batu Kmandarin
+	name="Borakchin" #wife of Batu Khan
 	female=yes
 	dynasty=101946
 	religion="pagan"
@@ -17473,7 +17473,7 @@
 	}
 }
 166904 = {
-	name="Orgmandarina" #wife of Qara Hülögü and Alghu
+	name="Orghana" #wife of Qara Hülögü and Alghu
 	female=yes
 	dynasty=1040075
 	religion="pagan"
@@ -17548,7 +17548,7 @@
 	}
 }
 166908 = {
-	name="Oghul Qaimish" #wife of Güyük Kmandarin
+	name="Oghul Qaimish" #wife of Güyük Khan
 	female=yes
 	dynasty=1051139 #Merkit
 	religion="pagan"
@@ -17828,7 +17828,7 @@
 	}
 }
 166927 = {
-	name="Oghul Khoimish" #concubine of Tolui and second wife of Möngke Kmandarin
+	name="Oghul Khoimish" #concubine of Tolui and second wife of Möngke Khan
 	female=yes
 	dynasty=1040075
 	religion="pagan"
@@ -17874,7 +17874,7 @@
 	}
 }
 166930 = {
-	name="Qutuqui" #first wife of Möngke Kmandarin
+	name="Qutuqui" #first wife of Möngke Khan
 	female=yes
 	dynasty=1040076
 	religion="pagan"
@@ -17930,7 +17930,7 @@
 	}
 }
 166934 = {
-	name="Chubei" #third wife of Möngke Kmandarin
+	name="Chubei" #third wife of Möngke Khan
 	female=yes
 	dynasty=1051140
 	religion="pagan"
@@ -17943,7 +17943,7 @@
 	}
 }
 166935 = {
-	name="Bayavchin" #concubine of Möngke Kmandarin
+	name="Bayavchin" #concubine of Möngke Khan
 	female=yes
 	dynasty=1051138 #Bayid
 	religion="pagan"
@@ -17986,7 +17986,7 @@
 	}
 }
 166938 = {
-	name="Quitani" #concubine of Möngke Kmandarin
+	name="Quitani" #concubine of Möngke Khan
 	female=yes
 	dynasty=1051138 #Bayid
 	religion="pagan"
@@ -18061,7 +18061,7 @@
 	}
 }
 166947 = {
-	name="Haimash" #concubine of Abaqa Kmandarin
+	name="Haimash" #concubine of Abaqa Khan
 	female=yes
 	dynasty=1041001
 	religion="nestorian"
@@ -18201,7 +18201,7 @@
 	}
 }
 166958 = {
-	name="Dorji" # First Son of Kublai Kmandarin
+	name="Dorji" # First Son of Kublai Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -18216,7 +18216,7 @@
 	}
 }
 166959 = {
-	name="Manggala" # Son of Kublai Kmandarin
+	name="Manggala" # Son of Kublai Khan
 	dynasty=11100
 	religion="mahayana"
 	culture="khalkha"
@@ -18230,7 +18230,7 @@
 	}
 }
 166960 = {
-	name="Nomukmandarin" # Son of Kublai Kmandarin
+	name="Nomukhan" # Son of Kublai Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -18244,7 +18244,7 @@
 	}
 }
 166961 = {
-	name="Khungjil" # Son of Kublai Kmandarin
+	name="Khungjil" # Son of Kublai Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -18258,7 +18258,7 @@
 	}
 }
 166962 = {
-	name="Aychi" # Son of Kublai Kmandarin
+	name="Aychi" # Son of Kublai Khan
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -18275,7 +18275,7 @@
 	}
 }
 166963 = {
-	name="Saqulghachi" # Son of Kublai Kmandarin
+	name="Saqulghachi" # Son of Kublai Khan
 	dynasty=11100
 	religion="mahayana"
 	culture="khalkha"
@@ -18289,7 +18289,7 @@
 	}
 }
 166964 = {
-	name="Qughchu" # Son of Kublai Kmandarin
+	name="Qughchu" # Son of Kublai Khan
 	dynasty=11100
 	religion="mahayana"
 	culture="khalkha"
@@ -18303,7 +18303,7 @@
 	}
 }
 166965 = {
-	name="Togmandarin" # Son of Kublai Kmandarin
+	name="Toghan" # Son of Kublai Khan
 	dynasty=11100
 	religion="mahayana"
 	culture="khalkha"
@@ -18317,7 +18317,7 @@
 	}
 }
 166966 = {
-	name="Khutugh Beki" # Daughter of Kublai Kmandarin, mother of Chungseon of Korea
+	name="Khutugh Beki" # Daughter of Kublai Khan, mother of Chungseon of Korea
 	female=yes
 	dynasty=11100
 	religion="mahayana"
@@ -18373,7 +18373,7 @@
 	}
 }
 166969 = {
-	name="Khulan Temür" # Son of Kublai Kmandarin
+	name="Khulan Temür" # Son of Kublai Khan
 	dynasty=11100
 	religion="mahayana"
 	culture="khalkha"
@@ -18387,7 +18387,7 @@
 	}
 }
 166970 = {
-	name="Tsever" # Son of Kublai Kmandarin
+	name="Tsever" # Son of Kublai Khan
 	dynasty=11100
 	religion="mahayana"
 	culture="khalkha"
@@ -18414,7 +18414,7 @@
 	}
 }
 166972 = {
-	name="Bulugan" # wife of Temür Kmandarin
+	name="Bulugan" # wife of Temür Khan
 	female=yes
 	dynasty=1051138
 	religion="mahayana"
@@ -18427,7 +18427,7 @@
 	}
 }
 166973 = {
-	name="Teshou" # son of Temür Kmandarin
+	name="Teshou" # son of Temür Khan
 	dynasty=11100
 	religion="mahayana"
 	culture="khalkha"
@@ -18454,7 +18454,7 @@
 	}
 }
 166975 = {
-	name="Ananda" # grandson of Kublai Kmandarin
+	name="Ananda" # grandson of Kublai Khan
 	dynasty=11100
 	religion="sunni"
 	culture="khalkha"
@@ -18482,7 +18482,7 @@
 	}
 }
 166977 = {
-	name="Altan Bukha" # grandson of Kublai Kmandarin
+	name="Altan Bukha" # grandson of Kublai Khan
 	dynasty=11100
 	religion="sunni"
 	culture="khalkha"
@@ -18495,7 +18495,7 @@
 	}
 }
 166978 = {
-	name="Orlug Temür" # grandson of Kublai Kmandarin
+	name="Orlug Temür" # grandson of Kublai Khan
 	dynasty=11100
 	religion="sunni"
 	culture="khalkha"
@@ -18508,7 +18508,7 @@
 	}
 }
 166979 = {
-	name="Batachikmandarin" # son of Ariq Boke
+	name="Batachikhan" # son of Ariq Boke
 	dynasty=11100
 	religion="pagan"
 	culture="khalkha"
@@ -18534,7 +18534,7 @@
 	}
 }
 166981 = {
-	name="Babukmandarin" # wife of Yesün Temür
+	name="Babukhan" # wife of Yesün Temür
 	female=yes
 	dynasty=1051125
 	religion="mahayana"
@@ -18547,7 +18547,7 @@
 	}
 }
 166982 = {
-	name="Budashiri" # wife of Tugh Temur Kmandarin
+	name="Budashiri" # wife of Tugh Temur Khan
 	female=yes
 	dynasty=1051125
 	religion="mahayana"
@@ -18560,7 +18560,7 @@
 	}
 }
 166983 = {
-	name="El Tegüs" # son of Tugh Temur Kmandarin
+	name="El Tegüs" # son of Tugh Temur Khan
 	dynasty=11100
 	religion="mahayana"
 	culture="khalkha"
@@ -18574,7 +18574,7 @@
 	}
 }
 166984 = {
-	name="Babusha" # wife of Khutughtu Kmandarin
+	name="Babusha" # wife of Khutughtu Khan
 	female=yes
 	dynasty=1041001 #Naiman
 	religion="nestorian"
@@ -18587,7 +18587,7 @@
 	}
 }
 166985 = {
-	name="Aratnadara" # son of Tugh Temur Kmandarin
+	name="Aratnadara" # son of Tugh Temur Khan
 	dynasty=11100
 	religion="mahayana"
 	culture="khalkha"
@@ -18619,7 +18619,7 @@
 	}
 }
 247239 = {
-	name="Megadung" #Daughter of Prince Godan Kmandarin
+	name="Megadung" #Daughter of Prince Godan Khan
 	female=yes
 	dynasty=11100
 	religion="pagan"
@@ -18788,7 +18788,7 @@
 }
 
 93086 = {
-	name="Cmandaringshi" 
+	name="Changshi" 
 	dynasty=11100
 	religion="pagan"
 	secret_religion="nestorian"
@@ -18836,7 +18836,7 @@
 	}
 }
 248171 = {
- name="Jigmandarin" # historical commander whose dynasty represents clans who held Yassa and Pagan ways in high value and deposed several Chagatais
+ name="Jighan" # historical commander whose dynasty represents clans who held Yassa and Pagan ways in high value and deposed several Chagatais
  dynasty=1059027
  religion="pagan"
  culture="khalkha"
