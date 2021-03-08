@@ -1,0 +1,255 @@
+3605000 = {
+	name = "Sinan"
+	dynasty = 1820095
+	culture = sefardi
+	religion = ivri
+	trait = skilled_tactician
+	trait = brave
+	trait = ambitious
+	trait = wroth
+	2640.11.2 = { birth=yes }
+}
+
+3605001 = {
+	name = "Issam"
+	dynasty = 1912027
+	culture = tunisian
+	religion = ibadi
+	trait = mastermind_theologian
+	trait = theologian
+	trait = patient
+	trait = ambitious
+	trait = erudite
+	2640.11.2 = { birth=yes }
+}
+3605002 = {
+	name = "Brahim"
+	dynasty = 1912029
+	culture = tunisian
+	religion = ruhi
+	trait = skilled_tactician
+	trait = brave
+	trait = ambitious
+	trait = wroth
+	2640.11.2 = { birth=yes }
+}
+3605003 = {
+	name = "Abdelkader"
+	dynasty = 1912030
+	culture = tunisian
+	religion = nizami
+	trait = skilled_tactician
+	trait = brave
+	trait = ambitious
+	trait = wroth
+	2640.11.2 = { birth=yes }
+}
+3605004 = {
+	name = "Bassem"
+	dynasty = 1912040
+	culture = tunisian
+	religion = liberation_islam
+	trait = skilled_tactician
+	trait = brave
+	trait = ambitious
+	trait = wroth
+	2640.11.2 = { birth=yes }
+}
+3605005 = {
+	name = "Bouchraya"
+	dynasty = 1916060
+	culture = sahrawi
+	religion = liberation_islam
+	2644.1.1 = { birth=yes }
+}
+3605006 = {
+	name = "Thiam"
+	dynasty = 1916059
+	culture = sahrawi
+	religion = liberation_islam
+	2612.1.1 = { birth=yes }
+}
+3605007 = {
+	name = "Haidalla"
+	dynasty = 1916058
+	culture = sahrawi
+	religion = liberation_islam
+	2635.1.1 = { birth=yes }
+}
+3605008 = {
+	name = "'Lî"
+	dynasty = 2083000
+	culture = soussi
+	religion = liberation_islam
+	2625.1.1 = { birth=yes }
+}
+3605009 = {
+	name = "Tamaymûnt"
+	dynasty = 2083001
+	culture = soussi
+	religion = liberation_islam
+	2639.1.1 = { birth=yes }
+}
+3605010 = {
+	name = "Dehbeyya"
+	dynasty = 2083002
+	culture = soussi
+	religion = ruhi
+	2651.1.1 = { birth=yes }
+}
+3605011 = {
+	name = "Idris"
+	dynasty = 1956001
+	culture = moroccan
+	religion = ruhi
+	2611.1.1 = { birth=yes }
+}
+3605012 = {
+	name = "Ccix"
+	dynasty = 2084000
+	culture = atlas
+	religion = revivalist
+	2574.2.26 = { birth=yes }
+	2628.10.8 = { death=yes }
+}
+3605013 = {
+	name = "Yehya"
+	dynasty = 2084000
+	father=3605012
+	culture = atlas
+	religion = revivalist
+	2601.7.23 = { birth=yes }
+	2662.6.9 = { death=yes }
+}
+3605014 = {
+	name = "Brahim"
+	dynasty = 1956002
+	father=3605018
+	culture = moroccan
+	religion = ruhi
+	trait=scholarly_theologian
+	trait=content
+	trait=kind
+	trait=trusting
+	trait=groomed
+	trait=shy
+	2640.8.21 = { birth=yes }
+	2660.12.1 = { 
+		effect= {
+			add_claim=d_bani_mellal
+			add_claim=d_ar_ribat
+			add_claim=d_fas_maknas
+		}
+	}
+}
+3605015 = {
+	name = "Ameqran"
+	dynasty = 2084000
+	father=3605013
+	culture = atlas
+	religion = revivalist
+	trait=brilliant_strategist
+	trait=cruel
+	trait=quick
+	trait=just
+	trait=brave
+	trait=humble
+	trait=charitable
+	trait=zealous
+	trait=ambitious
+	trait=inspiring_leader
+	2643.11.16 = { birth=yes }
+	2660.12.1 = { 
+		effect= {
+			add_rival = 3605014
+			add_claim=k_morocco
+			add_claim=d_bani_mellal
+			add_claim=d_ar_ribat
+			add_claim=d_fas_maknas
+		}
+	}
+}
+3605016 = {
+	name = "Abdeljalil"
+	dynasty = 1956002
+	father=3605018
+	culture = moroccan
+	religion = revivalist
+	trait=fortune_builder
+	trait=quick
+	trait=just
+	trait=temperate
+	trait=diligent
+	trait=charitable
+	trait=pious
+	trait=lustful
+	trait=bisexual
+	2642.1.4 = { birth=yes }
+	2660.12.1 = { 
+		effect= {
+			add_rival = 3605014
+			add_rival = 3605015
+			add_claim=k_morocco
+			add_claim=d_bani_mellal
+			add_claim=d_fas_maknas
+		}
+	}
+}
+3605017 = {
+	name = "Nourredine"
+	dynasty = 1956002
+	father=3605018
+	culture = moroccan
+	religion = liberation_islam
+	trait=intricate_webweaver
+	trait=shrewd
+	trait=patient
+	trait=deceitful
+	trait=envious
+	trait=diligent
+	trait=ambitious
+	2644.8.20 = { birth=yes }
+	2660.12.1 = { 
+		effect= {
+			add_rival = 3605014
+			add_rival = 3605015
+			add_rival = 3605016
+			add_claim=k_morocco
+			add_claim=d_bani_mellal
+			add_claim=d_ar_ribat
+		}
+	}
+}
+3605018 = {
+	name = "Badreddine"
+	dynasty = 1956002
+	culture = moroccan
+	religion = ruhi
+	2614.8.13 = { birth=yes }
+	2661.11.17 = {death={
+			death_reason=death_battle
+			killer=3605013
+		}
+	}
+}
+3605019 = {
+	name = "Hemmu"
+	dynasty = 2042051
+	culture = riffian
+	religion = ruhi
+	2621.1.1 = { birth=yes }
+}
+3605020 = {
+	name = "Wiwurgh"
+	dynasty = 2042050
+	culture = riffian
+	religion = liberation_islam
+	2641.1.1 = { birth=yes }
+}
+3605021 = {
+	name = "Alaeeddine"
+	dynasty = 1956003
+	culture = moroccan
+	religion = ruhi
+	2639.1.1 = { birth=yes }
+}
