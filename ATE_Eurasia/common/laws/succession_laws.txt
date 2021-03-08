@@ -76,7 +76,7 @@ succession_laws = {
 #			always = no
 #		}			
 #	}
-#
+#}
 
 	
 	succ_gavelkind = {
@@ -205,7 +205,7 @@ succession_laws = {
 		revoke_allowed = {
 			always = no
 		}			
-	}
+}
 	
 	succ_elective_gavelkind = {
 		child_opinion = 15
@@ -472,8 +472,8 @@ succession_laws = {
 					NOR = {
 						religion_group = muslim
 						religion_group = indian_group 
+						religion = nepmese
 					}
-					NOT = { religion = nepmese }
 					is_patrician = yes
 				}
 				

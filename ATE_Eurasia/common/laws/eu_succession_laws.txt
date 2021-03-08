@@ -3,7 +3,7 @@ succession_laws = {
 	succ_confederation_elective = {
 		potential = {
 			holder_scope = {
-				holder_scope = { government = confederation_government }
+				government = confederation_government
 				NOT = { religion_group = muslim }
 				is_nomadic = no
 				is_merchant_republic = no
@@ -44,7 +44,7 @@ succession_laws = {
 					government = bureaucratic_muslim_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate } }
+			#NOT ={ government = military_governorate } im pretty sure we don't have that gov so i'm gonna comment it out
 		}
 		allow = {
 			custom_tooltip = {
@@ -74,7 +74,7 @@ succession_laws = {
 				religion = ibadi
 				government = ibadi_imamate
 			}
-			NOT = { holder_scope = { government = military_governorate } }
+			#NOT = { holder_scope = { government = military_governorate } }
 		}
 		allow = {
 			custom_tooltip = {
@@ -97,7 +97,7 @@ succession_laws = {
 	succ_bureaucratic_elective = {
 		potential = {
 			holder_scope = {
-				holder_scope = { government = bureaucratic_government }
+				government = bureaucratic_government
 				NOT = { religion_group = muslim }
 				is_nomadic = no
 				is_merchant_republic = no
@@ -137,9 +137,7 @@ succession_laws = {
 				is_primary_type_title = yes
 				is_landless_type_title = yes
 				holder_scope = {
-					OR = {
-						government = playable_republic_government 
-					}
+					government = playable_republic_government 
 				}
 			}
 		}
