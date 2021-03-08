@@ -48,6 +48,42 @@ world_siberia = {
 # Custom Regions
 ###########################################################################
 
+custom_morocco = {
+	duchies = { 
+		d_ar_ribat d_ad_dar_al_baidaa d_ash_sharq d_bani_mellal d_dara_tafilalt d_fas_maknas d_marrakish d_reef d_sus_masa
+	}
+}
+
+custom_sahara = {
+	duchies = { 
+		d_fezzan d_adrar d_bechar d_as_sahra_al_gharbiah d_ghardaia d_illizi
+	}
+}
+
+custom_algeria = {
+	duchies = { 
+		d_al_jazair d_annaba d_awras d_mustaganam d_qusantinah d_saida d_tamurt_n_yiqbayliyen d_tayarat d_wahran
+	}
+}
+
+custom_tunisia = {
+	duchies = { 
+		d_tunis d_al_sahil d_gabis d_shaanabi
+	}
+}
+
+custom_libya = {
+	duchies = { 
+		d_tripolitania d_misratah d_cyrenaica
+	}
+}
+
+custom_old_egypt = {
+	duchies = { 
+		d_al_qahirah d_kufra d_al_bahr_al_ahmar d_al_iskandariyya d_as_sahra_al_gharbia d_as_suways d_delta_an_nil d_janub_as_said d_matruh d_shamal_as_said d_sinai
+	}
+}
+
 custom_baikal = {
 	duchies = { 
 		d_bratsk d_irkutsk d_ulan_ude d_zabaykalsky d_severo_baykalsky
@@ -217,6 +253,11 @@ custom_pale = {
 	counties = { c_swietokrzyskie c_rzeszow c_czestochowa }
 }
 
+custom_north_africa = {
+	regions = {
+		custom_morocco custom_sahara custom_algeria custom_tunisia custom_libya custom_old_egypt
+	}
+}
 
 ###########################################################################
 # French Reconquest Regions
