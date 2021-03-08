@@ -210,6 +210,10 @@ character_event = {
 				government = ghazi_government
 				NOT = { has_law = succ_ghazi_elective }
 			}
+			AND = {
+				government = ibadi_imamate
+				NOT = { has_law = succ_imamate_elective }
+			}
 		}
 	}
 	
@@ -221,6 +225,10 @@ character_event = {
 		if = {
 			limit = { government = ghazi_government }
 			primary_title = { add_law = { law = succ_ghazi_elective opinion_effect = no } }
+		}
+		if = {
+			limit = { government = ibadi_imamate }
+			primary_title = { add_law = { law = succ_imamate_elective opinion_effect = no } }
 		}
 	}
 }
