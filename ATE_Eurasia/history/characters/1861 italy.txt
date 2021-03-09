@@ -377,247 +377,7 @@
 	2580.3.27={birth=yes}
 	2651.8.8={death=yes}
 }
-1975000={
-	name="Gioanna"
-	female=yes
-	dynasty=2031234 #Agnesi
-	culture=lombard
-	religion=catholic
-	martial=5
-	diplomacy=4
-	stewardship=5
-	intrigue=6
-	learning=5
-	trait=grey_eminence
-	trait=crowned_by_pope 
-	trait=quick
-	trait=groomed
-	trait=paranoid
-	trait=zealous
-	trait=charitable
-	trait=chaste
-	trait=wroth
-	trait=authoritative
-	2640.7.14={birth=yes}
-	2664.4.8={effect={add_lover=1975000}}
-	2666.1.1={effect={add_rival=6970000}}
-	2710.1.1={death=yes}
-}
-1975001={
-	name="Francesc"
-	dynasty=2031117 #Manzoni
-	culture=lombard
-	religion=catholic
-	martial=5
-	diplomacy=4
-	stewardship=5
-	intrigue=4
-	learning=5
-	trait=naive_appeaser
-	trait=crowned_by_pope
-	trait=poet
-	trait=trusting
-	trait=honest
-	trait=charitable
-	trait=gluttonous
-	trait=stubborn
-	2642.8.10={birth=yes}
-	2663.8.2={add_spouse = 1975000}
-	2666.1.1={death={
-			death_reason=death_murder
-			killer=6970000
-		}
-	}
-}
-1975010={
-	name="Pietro"
-	dynasty=2031060 #Beretta
-	culture=lombard
-	religion=catholic
-	martial=6
-	diplomacy=4
-	stewardship=6
-	intrigue=5
-	learning=5
-	trait=skilled_tactician
-	trait=duelist
-	trait=diligent
-	trait=charitable
-	trait=lustful
-	trait=ambitious
-	2632.5.20={birth=yes}
-	2650.5.20={effect={add_artifact=ate_firearm}}
-	2652.3.1={
-		add_spouse=1975011
-	}
-	2700.1.1={death=yes}
-}
-1975011={
-	name="Leonora"
-	female=yes
-	dynasty=2031186 #Simonetta
-	culture=lombard
-	religion=catholic
-	martial=4
-	diplomacy=6
-	stewardship=6
-	intrigue=5
-	learning=5
-	trait=mastermind_theologian
-	trait=scholar
-	trait=cynical
-	trait=gregarious
-	trait=kind
-	trait=content
-	2635.2.18={birth=yes}
-	2700.1.1={death=yes}
-}
-1975012={
-	name="Ustin"
-	dynasty=2031235 #Nervi
-	culture=lombard
-	religion=catholic
-	martial=4
-	diplomacy=5
-	stewardship=4
-	intrigue=5
-	learning=6
-	trait=fortune_builder
-	trait=erudite
-	trait=architect
-	trait=diligent
-	trait=content
-	trait=charitable
-	trait=proud
-	2591.6.21={birth=yes}
-	2623.10.1={
-		add_spouse=1975013
-	}
-	2681.1.1={death=yes}
-}
-1975013={
-	name="Gabriela"
-	female=yes
-	dynasty=2031202 #Stampa
-	culture=lombard
-	religion=catholic
-	martial=5
-	diplomacy=5
-	stewardship=4
-	intrigue=5
-	learning=5
-	trait=underhanded_rogue
-	trait=erudite
-	trait=trusting
-	trait=diligent
-	trait=content
-	trait=selfish
-	2595.8.10={birth=yes}
-	2689.1.1={death=yes}
-}
-1975014={
-	name="Zerill"
-	dynasty=2031235 #Nervi
-	culture=lombard
-	religion=catholic
-	martial=5
-	diplomacy=5
-	stewardship=4
-	intrigue=5
-	learning=5
-	trait=underhanded_rogue
-	trait=architect
-	trait=gregarious
-	trait=paranoid
-	trait=diligent
-	trait=stubborn
-	trait=authoritative
-	father=1975012
-	mother=1975013
-	2628.10.29={birth=yes}
-	2700.1.1={death=yes}
-}
-1975015={
-	name="Delaida"
-	female=yes
-	dynasty=2031235 #Nervi
-	culture=lombard
-	religion=catholic
-	martial=5
-	diplomacy=5
-	stewardship=5
-	intrigue=5
-	learning=5
-	trait=thrifty_clerk
-	trait=charitable
-	trait=ruthless
-	trait=ambitious
-	trait=patient
-	father=1975012
-	mother=1975013
-	2631.1.10={birth=yes}
-	2700.1.1={death=yes}
-}
-1975016={
-	name="Luigi"
-	dynasty=2031236 #Volta
-	culture=lombard
-	religion=catholic
-	martial=4
-	diplomacy=3
-	stewardship=4
-	intrigue=5
-	learning=5
-	trait=mastermind_theologian
-	trait=quick
-	trait=scholar
-	trait=shy
-	trait=familyperson
-	trait=humble
-	trait=diligent
-	trait=honest
-	2632.10.29={birth=yes}
-	2665.12.10={
-		add_spouse=1975015
-	}
-	2700.1.1={death=yes}
-}
-1975017={
-	name="Tilio"
-	dynasty=2031236 #Volta
-	culture=lombard
-	religion=catholic
-	martial=1
-	diplomacy=1
-	stewardship=1
-	intrigue=1
-	learning=1
-	father=1975016
-	mother=1975015
-	2666.2.10={birth=yes}
-	2750.1.1={death=yes}
-}
-1975018={
-	name="Cleto"
-	dynasty=2026171 #Morera
-	culture=piedmontese
-	religion=catholic
-	martial=4
-	diplomacy=3
-	stewardship=4
-	intrigue=4
-	learning=4
-	trait=tough_soldier
-	trait=scarred
-	trait=just
-	trait=lustful
-	trait=rude
-	trait=slothful
-	trait=honest
-	2640.8.11={birth=yes}
-	2700.1.1={death=yes}
-}
-6970000={
+1861023={
 	name="Orso"
 	dynasty=2034227 #Manin
 	culture=venetian
@@ -635,65 +395,6 @@
 	trait=cynical
 	2618.3.18={birth=yes}
 	2710.1.1={death=yes}
-}
-6970001={
-	name="Maria Grazia"
-	female=yes
-	dynasty=2034228 #
-	culture=venetian
-	religion=catholic
-	martial=4
-	diplomacy=6
-	stewardship=6
-	intrigue=5
-	learning=5
-	trait=elusive_shadow
-	trait=kind
-	trait=paranoid
-	trait=cynical
-	trait=chaste
-	2634.8.20={birth=yes}
-	2710.1.1={death=yes}
-}
-6970010={
-	name="Nicolò"
-	dynasty=2034228 #Mazzurana
-	culture=venetian
-	religion=catholic
-	martial=5
-	diplomacy=6
-	stewardship=5
-	intrigue=4
-	learning=5
-	trait=charismatic_negotiator
-	trait=stubborn
-	trait=proud
-	trait=ambitious
-	trait=diligent
-	trait=erudite
-	2634.6.25={birth=yes}
-	2720.1.1={death=yes}
-}
-1929001={
-	name="Antonio"
-	dynasty=2029202 #Chigi
-	martial=3
-	diplomacy=4
-	stewardship=4
-	intrigue=5
-	learning=3
-	culture=umbrian
-	religion=catholic
-	trait=grey_eminence
-	trait=quick
-	trait=stutter
-	trait=groomed
-	trait=diligent
-	trait=content
-	trait=lustful
-	trait=just
-	2643.12.9={birth=yes}
-	2700.3.2=={death=yes}
 }
 1861024={
 	name="Elmo" 
@@ -1385,7 +1086,306 @@
 	mother=1861057
 	2661.1.18={birth=yes}
 }
-2032000={
+1861061={
+	name="Gioanna"
+	female=yes
+	dynasty=2031234 #Agnesi
+	culture=lombard
+	religion=catholic
+	martial=5
+	diplomacy=4
+	stewardship=5
+	intrigue=6
+	learning=5
+	trait=grey_eminence
+	trait=crowned_by_pope 
+	trait=quick
+	trait=groomed
+	trait=paranoid
+	trait=zealous
+	trait=charitable
+	trait=chaste
+	trait=wroth
+	trait=authoritative
+	2640.7.14={birth=yes}
+	2664.4.8={effect={add_lover=1861061}}
+	2666.1.1={effect={add_rival=1861023}}
+	2710.1.1={death=yes}
+}
+1861062={
+	name="Francesc"
+	dynasty=2031117 #Manzoni
+	culture=lombard
+	religion=catholic
+	martial=5
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait=naive_appeaser
+	trait=crowned_by_pope
+	trait=poet
+	trait=trusting
+	trait=honest
+	trait=charitable
+	trait=gluttonous
+	trait=stubborn
+	2642.8.10={birth=yes}
+	2663.8.2={add_spouse = 1861061}
+	2666.1.1={death={
+			death_reason=death_murder
+			killer=1861023
+		}
+	}
+}
+1861063={
+	name="Pietro"
+	dynasty=2031060 #Beretta
+	culture=lombard
+	religion=catholic
+	martial=6
+	diplomacy=4
+	stewardship=6
+	intrigue=5
+	learning=5
+	trait=skilled_tactician
+	trait=duelist
+	trait=diligent
+	trait=charitable
+	trait=lustful
+	trait=ambitious
+	2632.5.20={birth=yes}
+	2650.5.20={effect={add_artifact=ate_firearm}}
+	2652.3.1={
+		add_spouse=1861064
+	}
+	2700.1.1={death=yes}
+}
+1861064={
+	name="Leonora"
+	female=yes
+	dynasty=2031186 #Simonetta
+	culture=lombard
+	religion=catholic
+	martial=4
+	diplomacy=6
+	stewardship=6
+	intrigue=5
+	learning=5
+	trait=mastermind_theologian
+	trait=scholar
+	trait=cynical
+	trait=gregarious
+	trait=kind
+	trait=content
+	2635.2.18={birth=yes}
+	2700.1.1={death=yes}
+}
+1861065={
+	name="Ustin"
+	dynasty=2031235 #Nervi
+	culture=lombard
+	religion=catholic
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=5
+	learning=6
+	trait=fortune_builder
+	trait=erudite
+	trait=architect
+	trait=diligent
+	trait=content
+	trait=charitable
+	trait=proud
+	2591.6.21={birth=yes}
+	2623.10.1={
+		add_spouse=1861066
+	}
+	2681.1.1={death=yes}
+}
+1861066={
+	name="Gabriela"
+	female=yes
+	dynasty=2031202 #Stampa
+	culture=lombard
+	religion=catholic
+	martial=5
+	diplomacy=5
+	stewardship=4
+	intrigue=5
+	learning=5
+	trait=underhanded_rogue
+	trait=erudite
+	trait=trusting
+	trait=diligent
+	trait=content
+	trait=selfish
+	2595.8.10={birth=yes}
+	2689.1.1={death=yes}
+}
+1861067={
+	name="Zerill"
+	dynasty=2031235 #Nervi
+	culture=lombard
+	religion=catholic
+	martial=5
+	diplomacy=5
+	stewardship=4
+	intrigue=5
+	learning=5
+	trait=underhanded_rogue
+	trait=architect
+	trait=gregarious
+	trait=paranoid
+	trait=diligent
+	trait=stubborn
+	trait=authoritative
+	father=1861065
+	mother=1861066
+	2628.10.29={birth=yes}
+	2700.1.1={death=yes}
+}
+1861068={
+	name="Delaida"
+	female=yes
+	dynasty=2031235 #Nervi
+	culture=lombard
+	religion=catholic
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	trait=thrifty_clerk
+	trait=charitable
+	trait=ruthless
+	trait=ambitious
+	trait=patient
+	father=1861065
+	mother=1861066
+	2631.1.10={birth=yes}
+	2700.1.1={death=yes}
+}
+1861069={
+	name="Luigi"
+	dynasty=2031236 #Volta
+	culture=lombard
+	religion=catholic
+	martial=4
+	diplomacy=3
+	stewardship=4
+	intrigue=5
+	learning=5
+	trait=mastermind_theologian
+	trait=quick
+	trait=scholar
+	trait=shy
+	trait=familyperson
+	trait=humble
+	trait=diligent
+	trait=honest
+	2632.10.29={birth=yes}
+	2665.12.10={
+		add_spouse=1861068
+	}
+	2700.1.1={death=yes}
+}
+1861070={
+	name="Tilio"
+	dynasty=2031236 #Volta
+	culture=lombard
+	religion=catholic
+	martial=1
+	diplomacy=1
+	stewardship=1
+	intrigue=1
+	learning=1
+	father=1861069
+	mother=1861068
+	2666.2.10={birth=yes}
+	2750.1.1={death=yes}
+}
+1861071={
+	name="Cleto"
+	dynasty=2026171 #Morera
+	culture=piedmontese
+	religion=catholic
+	martial=4
+	diplomacy=3
+	stewardship=4
+	intrigue=4
+	learning=4
+	trait=tough_soldier
+	trait=scarred
+	trait=just
+	trait=lustful
+	trait=rude
+	trait=slothful
+	trait=honest
+	2640.8.11={birth=yes}
+	2700.1.1={death=yes}
+}
+1861072={
+	name="Maria Grazia"
+	female=yes
+	dynasty=2034228 #
+	culture=venetian
+	religion=catholic
+	martial=4
+	diplomacy=6
+	stewardship=6
+	intrigue=5
+	learning=5
+	trait=elusive_shadow
+	trait=kind
+	trait=paranoid
+	trait=cynical
+	trait=chaste
+	2634.8.20={birth=yes}
+	2710.1.1={death=yes}
+}
+1861073={
+	name="Nicolò"
+	dynasty=2034228 #Mazzurana
+	culture=venetian
+	religion=catholic
+	martial=5
+	diplomacy=6
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait=charismatic_negotiator
+	trait=stubborn
+	trait=proud
+	trait=ambitious
+	trait=diligent
+	trait=erudite
+	2634.6.25={birth=yes}
+	2720.1.1={death=yes}
+}
+1861074={
+	name="Antonio"
+	dynasty=2029202 #Chigi
+	martial=3
+	diplomacy=4
+	stewardship=4
+	intrigue=5
+	learning=3
+	culture=umbrian
+	religion=catholic
+	trait=grey_eminence
+	trait=quick
+	trait=stutter
+	trait=groomed
+	trait=diligent
+	trait=content
+	trait=lustful
+	trait=just
+	2643.12.9={birth=yes}
+	2700.3.2=={death=yes}
+}
+1861075={
 	name="Gianfranco" 
 	dynasty=2032259 #Alberoni
 	culture=romagnol
@@ -1398,7 +1398,7 @@
 	2629.6.2={birth=yes}
 	2700.1.1={death=yes}
 }
-2032001={
+1861076={
 	name="Renato" 
 	dynasty=2032238 #Villa
 	culture=romagnol
@@ -1411,11 +1411,11 @@
 	trait=trusting
 	2641.1.4={birth=yes}
 	2657.6.2={
-		add_spouse=2032002
+		add_spouse=1861077
 	}
 	2700.1.1={death=yes}
 }
-2032002={
+1861077={
 	name="Giosetta"
 	female=yes
 	dynasty=2032122 #Vecchi
@@ -1434,7 +1434,7 @@
 	2641.2.1={birth=yes}
 	2700.1.1={death=yes}
 }
-2032003={
+1861078={
 	name="Antonietta"
 	female=yes
 	dynasty=2032238 #Villa
@@ -1447,12 +1447,12 @@
 	learning=3
 	trait=playful
 	trait=willful
-	father=2032001
-	mother=2032002
+	father=1861076
+	mother=1861077
 	2658.2.21={birth=yes}
 	2700.1.1={death=yes}
 }
-2032004={
+1861079={
 	name="Orsino"
 	dynasty=2032238 #Villa
 	culture=romagnol
@@ -1464,12 +1464,12 @@
 	learning=1
 	trait=haughty 
 	trait=willful
-	father=2032001
-	mother=2032002
+	father=1861076
+	mother=1861077
 	2659.1.15={birth=yes}
 	2700.1.1={death=yes}
 }
-2032005={
+1861080={
 	name="Lorenço"
 	dynasty=2033228 #Delle Piane
 	culture=ligurian
@@ -1486,11 +1486,11 @@
 	trait=honest
 	2628.11.17={birth=yes}
 	2653.8.12={
-		add_spouse=2032006
+		add_spouse=1861081
 	}
 	2700.1.1={death=yes}
 }
-2032006={
+1861081={
 	name="Brigidin"
 	female=yes
 	dynasty=2033114 #Olivari
@@ -1509,7 +1509,7 @@
 	2631.3.1={birth=yes}
 	2700.1.1={death=yes}
 }
-2032007={
+1861082={
 	name="Alescio"
 	dynasty=2033228 #Delle Piane
 	culture=ligurian
@@ -1523,12 +1523,12 @@
 	trait=haughty
 	trait=idolizer
 	trait=willful
-	father=2032005
-	mother=2032006
+	father=1861080
+	mother=1861081
 	2653.3.20={birth=yes}
 	2700.1.1={death=yes}
 }
-2032008={
+1861083={
 	name="Lusciandro"
 	dynasty=2033228 #Delle Piane
 	culture=ligurian
@@ -1542,12 +1542,12 @@
 	trait=affectionate
 	trait=rowdy
 	trait=willful
-	father=2032005
-	mother=2032006
+	father=1861080
+	mother=1861081
 	2654.8.12={birth=yes}
 	2700.1.1={death=yes}
 }
-2032009={
+1861084={
 	name="Bianchin"
 	female=yes
 	dynasty=2033228 #Delle Piane
@@ -1561,12 +1561,12 @@
 	trait=idolizer
 	trait=affectionate
 	trait=willful
-	father=2032005
-	mother=2032006
+	father=1861080
+	mother=1861081
 	2655.2.28={birth=yes}
 	2700.1.1={death=yes}
 }
-2032010={
+1861085={
 	name="Romeo"
 	dynasty=2030082 #Renai
 	culture=tuscan
@@ -1583,7 +1583,7 @@
 	2630.2.28={birth=yes}
 	2700.1.1={death=yes}
 }
-2032011={
+1861086={
 	name="Massimiano"
 	dynasty=2029204 #Carlioni
 	culture=umbrian
@@ -1601,7 +1601,7 @@
 	2600.2.28={birth=yes}
 	2700.1.1={death=yes}
 }
-2032012={
+1861087={
 	name="Dario"
 	dynasty=2030047 #Bonci
 	culture=tuscan
@@ -1609,7 +1609,7 @@
 	2630.2.28={birth=yes}
 	2700.1.1={death=yes}
 }
-2032013={
+1861088={
 	name="Alfredo"
 	dynasty=2032115 #Goldoni
 	culture=romagnol
@@ -1617,7 +1617,7 @@
 	2630.2.28={birth=yes}
 	2700.1.1={death=yes}
 }
-2032014={
+1861089={
 	name="Rodrigo"
 	dynasty=2029196 #Teodori
 	culture=umbrian
@@ -1625,26 +1625,26 @@
 	2590.2.28={birth=yes}
 	2650.1.1={death=yes}
 }
-2032015={
+1861090={
 	name="Plutone"
 	dynasty=2029196 #Teodori
 	culture=umbrian
 	religion=catholic
-	father=2032014
+	father=1861089
 	2630.2.28={birth=yes}
 	2700.1.1={death=yes}
 }
-2032016={
+1861091={
 	name="Lucrezia"
 	dynasty=2029196 #Teodori
 	female=yes
 	culture=umbrian
 	religion=catholic
-	father=2032014
+	father=1861089
 	2630.2.28={birth=yes}
 	2700.1.1={death=yes}
 }
-2032017={
+1861092={
 	name="Galeazzo"
 	dynasty=2032215 #Hercolani
 	culture=romagnol
@@ -1652,7 +1652,7 @@
 	2630.2.28={birth=yes}
 	2700.1.1={death=yes}
 }
-2032018={
+1861093={
 	name="Dumminico"
 	dynasty=2030207 #Sacchetti
 	culture=neapolitan
