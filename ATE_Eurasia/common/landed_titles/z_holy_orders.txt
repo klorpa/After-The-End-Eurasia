@@ -69,3 +69,27 @@ d_trollsikkerhetstjensten = {
 	
 	mercenary_type = d_trollsikkerhetstjensten_composition
 }
+d_order_of_saint_john = {
+
+	color = { 210 35 35 }
+	color2 = { 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 412 #Berlin
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	culture = ossi
+	religion = lutheran
+	
+	short_name = yes
+	landless = yes
+	holy_order = yes
+	primary = yes 
+	monthly_income = 6
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = d_order_of_saint_john_composition
+}
