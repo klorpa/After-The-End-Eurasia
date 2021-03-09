@@ -796,13 +796,6 @@ succession_laws = {
 		potential = {
 			NOT = { has_law = succ_confederation_elective }
 			NOT = { has_law = succ_bureaucratic_elective }
-			NAND = { 
-				has_law = succ_byzantine_elective 
-				OR = { 
-					title = e_byzantium
-					title = e_roman_empire
-				}
-			}
 			holder_scope = {
 				OR = {
 					independent = yes
@@ -833,7 +826,6 @@ succession_laws = {
 				OR = {
 					NOT = { religion_group = pagan_group }
 					is_reformed_religion = yes
-					religion = hellenic_pagan
 					has_law = succession_voting_power_1
 					OR = { 
 						has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
@@ -1201,13 +1193,6 @@ succession_laws = {
 		potential = {
 			NOT = { has_law = succ_confederation_elective }
 			NOT = { has_law = succ_bureaucratic_elective }
-			NAND = { 
-				has_law = succ_byzantine_elective 
-				OR = { 
-					title = e_byzantium
-					title = e_roman_empire
-				}
-			}
 			holder_scope = {
 				OR = {
 					independent = yes
@@ -1218,22 +1203,10 @@ succession_laws = {
 					}
 				}
 				OR = {
-					culture = mongol
-					religion = bon
-					religion = bon_reformed
+					culture = khalka
+					religion = khanist
 					religion = nepmese
-					AND = {
-						NOT = { religion = norse_pagan }
-						NOT = { religion = tengri_pagan }
-						NOT = { religion = baltic_pagan }
-						NOT = { religion = finnish_pagan }
-						NOT = { religion = aztec }
-						NOT = { religion = pagan }
-						NOT = { religion = slavic_pagan }
-						NOT = { religion = west_african_pagan }
-					}
 				}
-				
 				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
@@ -1243,35 +1216,6 @@ succession_laws = {
 						any_demesne_title = {
 							is_vice_royalty = yes
 						}
-					}
-				}
-			}
-			OR = {
-				is_landless_type_title = no
-				is_tribal_type_title = yes
-				temporary = yes
-				AND = {
-					is_nomadic = no
-					OR = {
-						title = e_mongol_empire
-						title = e_golden_horde
-						title = e_il-khanate
-					}
-				}
-			}
-			is_primary_type_title = no
-			OR = {
-				AND = {
-					tier = baron
-					is_feudal = yes
-				}
-				holder_scope = { is_feudal = yes }
-				AND = {
-					is_nomadic = no
-					OR = {
-						title = e_mongol_empire
-						title = e_golden_horde
-						title = e_il-khanate
 					}
 				}
 			}
@@ -1306,9 +1250,6 @@ succession_laws = {
 				trigger = {
 					NOT = { has_dlc = "Conclave" }
 					NOT = { has_law = succ_hre_elective }
-					holder_scope = {
-						NOT = { religion = nepmese }
-					}
 				}
 				OR = {
 					hidden_tooltip = {

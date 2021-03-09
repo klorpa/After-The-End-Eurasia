@@ -189,12 +189,12 @@ k_kurdistan = {
 
 d_sligo = {
 	color={ 41 96 74 }
-				color2={ 255 255 255 }
+	color2={ 255 255 255 }
 				
-				capital= 20 #sligo
+	capital= 20 #sligo
 
-				irish = "Sligeach"
-				ulsterman= "Slygea"
+	irish = "Sligeach"
+	ulsterman= "Slygea"
 }
 d_rome = {
 	color={ 37 70 148 }
@@ -210,26 +210,6 @@ d_gibraltar = { # 225
 	capital = 225 #Gibraltar
 	
 	dignity=10
-}
-d_consolat_de_mar = {
-	color={ 150 60 0 }
-	color2={ 255 255 255 }
-	
-	castilian = "Consulado del Mar"
-	basque = "Itsasoaren Kontsulatu"
-	galician = "Consulado do Mar"
-	portuguese = "Consulado do Mar"
-	
-	dignity = 10
-	
-	primary = yes
-	short_name = yes
-	
-	capital = 239 # valencia
-	
-	allow = {
-		is_patrician = yes
-	}
 }
 d_saarland = { # 225
 	color={ 0 32 159 }

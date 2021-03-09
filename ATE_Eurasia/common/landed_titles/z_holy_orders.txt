@@ -13,6 +13,7 @@ d_forge_committee = {
 	culture = arpitan
 	religion = chronicler
 	
+	short_name = yes
 	landless = yes
 	holy_order = yes
 	primary = yes 
@@ -20,4 +21,51 @@ d_forge_committee = {
 	strength_growth_per_century = 1.0
 	
 	mercenary_type = d_forge_committee_composition
+}
+d_stjarngossarna = {
+
+	color = { 210 35 35 }
+	color2 = { 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 486 #Kalmar
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	culture = svealander
+	religion = fornsed
+	
+	short_name = yes
+	landless = yes
+	holy_order = yes
+	primary = yes 
+	monthly_income = 6
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = d_stjarngossarna_composition
+}
+d_trollsikkerhetstjensten = {
+
+	color = { 210 35 35 }
+	color2 = { 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 508 #Akershus
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	culture = tronder
+	religion = folketro
+	
+	landless = yes
+	holy_order = yes
+	primary = yes 
+	monthly_income = 6
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = d_trollsikkerhetstjensten_composition
 }

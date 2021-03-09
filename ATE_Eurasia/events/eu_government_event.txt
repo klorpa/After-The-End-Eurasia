@@ -492,3 +492,25 @@ character_event = {
 		set_government_type = bureaucratic_muslim_government
 	}
 }
+#set succession law (Religious Context)
+character_event = {
+	id = gov.015
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				religion = nepmese
+				NOT = { has_law = succ_ultimogeniture }
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = { religion = nepmese }
+			primary_title = { add_law = { law = succ_ultimogeniture opinion_effect = no } }
+		}
+	}
+}
