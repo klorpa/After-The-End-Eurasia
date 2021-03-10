@@ -399,6 +399,7 @@
 	name="Charles"
 	dynasty=2037237 #Bovary
 	culture=norman
+	religion=jacobin
 	father=1804035
 	mother=1804036
 	2661.3.4={birth=yes}
@@ -2946,7 +2947,7 @@
 1804174={
 	name="Dàvid"
 	dynasty=2008263 #Yandé
-	culture=occitan
+	culture=sudani
 	religion=catholic
 	diplomacy=5
 	martial=4
@@ -2960,7 +2961,7 @@
 	trait=shy
 	trait=stubborn
 	2624.8.27={birth=yes}
-	2624.8.27={culture=sudani}
+	2624.8.27={culture=occitan}
 	2660.1.1={employer=1804114}
 }
 1804175={
@@ -3042,4 +3043,56 @@
 	2643.12.16={birth=yes
 		culture=rhenish}
 	2660.1.1={employer=1923003}
+}
+1804179={
+	name="Tomaz"
+	dynasty=2010220 #Sant-Jakez
+	culture=breton
+	religion=sun_king_cultist
+	trait=fair
+	trait=brave
+	trait=brawny
+	trait=stubborn
+	trait=patient
+	2640.12.5={birth=yes}
+	2658.1.1={
+		add_spouse=1804181 #Marie-Jeanne Gabrielle
+	}
+}
+1804180={
+	name="Aleksandr"
+	dynasty=2010221 #Karadeg
+	culture=breton
+	religion=chevalier
+	trait=skilled_tactician
+	trait=brave
+	trait=gluttonous
+	trait=honest
+	trait=wroth
+	2621.6.16={birth=yes}
+	2658.1.1={
+		add_spouse=2201007 #Myfanwy Owen
+	}
+}
+1804181={
+	name="Mari-Janig"
+	dynasty=2010222 #Gabriel
+	culture=breton
+	religion=sun_king_cultist
+	trait=ambitious
+	trait=kind
+	2620.1.12={birth=yes}
+}
+1804182={
+	name="Alan"
+	dynasty=2010223 #Kozh-Stivelloù
+	culture=breton
+	religion=sun_king_cultist
+	trait=skilled_tactician
+	trait=charismatic_negotiator
+	trait=musician
+	trait=zealous
+	trait=proud
+	trait=charitable
+	2597.1.6={birth=yes}
 }
