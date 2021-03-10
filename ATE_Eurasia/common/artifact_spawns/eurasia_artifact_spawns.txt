@@ -19,3 +19,25 @@ eurasia_ironflare = {
 		}
 	}
 }
+
+crown_hungary = {
+	max_amount = 1
+	spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+	
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			character = 1991106
+		}
+	}
+	artifacts = {
+		sacra_corona = {
+			value = 1
+		}
+	}
+}

@@ -199,6 +199,9 @@
 	2653.8.3={birth=yes}
 	2700.1.1={death=yes}
 }
+
+
+
 1991100={
 	name="Csanád" 
 	dynasty=2045110 #Fehérlófi
@@ -210,9 +213,15 @@
 	trait=ambitious
 	trait=deceitful
 	trait=auspicious_birth
-	trait=skilled_tactician
+	trait=brilliant_strategist
 	trait=peasant_leader
+	martial=7
+	diplomacy=7
+	stewardship=6
+	intrigue=4
+	learning=3
 	2450.12.24={birth=yes}
+	2500.1.8={effect = {add_artifact = sacra_corona} }
 	2512.4.15={death=yes}
 }
 1991101={
@@ -224,6 +233,11 @@
 	trait=proud
 	trait=honest
 	trait=skilled_tactician
+	martial=5
+	diplomacy=7
+	stewardship=8
+	intrigue=4
+	learning=6
 	father=1991100
 	2477.2.2={birth=yes}
 	2525.1.15={death=yes}
@@ -294,7 +308,13 @@
 	trait=skilled_tactician
 	trait=scarred
 	father=1991105
+	martial=8
+	diplomacy=7
+	stewardship=7
+	intrigue=5
+	learning=5
 	2610.6.30={birth=yes}
+	2620.5.15={effect = {add_artifact = sacra_corona} }
 	2680.1.1={death=yes}
 }
 1991107={
@@ -397,6 +417,11 @@
 	religion=nepmese
 	trait=gamer
 	trait=quick
+	martial=8
+	diplomacy=2
+	stewardship=5
+	intrigue=0
+	learning=8
 	2555.8.8={birth=yes}
 	2610.6.2={death=yes}
 }
@@ -408,6 +433,11 @@
 	trait=charitable
 	trait=patient
 	trait=humble
+	martial=6
+	diplomacy=4
+	stewardship=4
+	intrigue=2
+	learning=7
 	father=1991120
 	2595.12.3={birth=yes}
 	2636.5.6={death=yes}
@@ -433,8 +463,14 @@
 	trait=hunter
 	trait=erudite
 	trait=humble
+	martial=6
+	diplomacy=4
+	stewardship=7
+	intrigue=4
+	learning=8
 	father=1991121
 	2629.3.21={birth=yes}
+	2652.3.3={add_spouse=1991133}
 	2680.1.1={death=yes}
 }
 1991124={
@@ -531,6 +567,115 @@
 	2650.8.9={add_spouse=1991020}
 	2680.1.1={death=yes}
 }
+1991131={
+	name="Iván" 
+	dynasty=2045113 #Bábel
+	culture=hungarian
+	religion=nepmese
+	trait=quick
+	trait=honest
+	trait=humble
+	trait=mastermind_theologian
+	trait=paranoid
+	trait=gardener
+	martial=7
+	diplomacy=5
+	stewardship=7
+	intrigue=2
+	learning=8
+	2570.12.3={birth=yes}
+	2632.1.13={death=yes}
+}
+1991132={
+	name="Jankó" 
+	dynasty=2045113 #Bábel
+	culture=hungarian
+	religion=nepmese
+	trait=gardener
+	trait=patient
+	trait=humble
+	trait=kind
+	father=1991131
+	2601.3.3={birth=yes}
+	2680.1.1={death=yes}
+}
+1991133={
+	name="Hanna" 
+	dynasty=2045113 #Bábel
+	female=yes
+	culture=hungarian
+	religion=nepmese
+	trait=auspicious_birth
+	trait=patient
+	trait=lustful
+	trait=stressed
+	martial=3
+	diplomacy=8
+	stewardship=3
+	intrigue=5
+	learning=4
+	father=1991132
+	2632.4.4={birth=yes}
+	2652.3.3={add_spouse=1991123}
+	2680.1.1={death=yes}
+}
+1991134={
+	name="Viktor" 
+	dynasty=2045113 #Bábel
+	culture=hungarian
+	religion=nepmese
+	trait=falconer
+	trait=poet
+	trait=bisexual
+	trait=master_seducer
+	trait=charitable
+	trait=cavalry_leader
+	trait=proud
+	trait=martial_cleric
+	martial=7
+	diplomacy=7
+	stewardship=3
+	intrigue=2
+	learning=2
+	father=1991132
+	2630.1.23={birth=yes}
+	2680.1.1={death=yes}
+}
+1991135={
+	name="János"
+	dynasty=2045109 #Polgár
+	culture=hungarian
+	religion=nepmese
+	trait=brave
+	trait=greedy
+	father=1991123
+	mother=1991133
+	2653.3.3={birth=yes}
+	2680.1.1={death=yes}
+}
+1991136={
+	name="Lóci"
+	dynasty=2045109 #Polgár
+	culture=hungarian
+	religion=nepmese
+	trait=rowdy
+	father=1991123
+	mother=1991133
+	2655.9.19={birth=yes}
+	2680.1.1={death=yes}
+}
+1991137={
+	name="Sára"
+	dynasty=2045109 #Polgár
+	female=yes
+	culture=hungarian
+	religion=nepmese
+	trait=homosexual
+	father=1991123
+	mother=1991133
+	2660.1.1={birth=yes}
+	2680.1.1={death=yes}
+}
 
 199150={    #el holder de place
 	name="Béla" 
@@ -561,3 +706,190 @@
 	2680.1.1={death=yes}
 }
 
+
+19911000={
+	name="Árpád" 
+	dynasty=2045114 #Toldi
+	culture=hungarian
+	religion=coronite
+	trait=grey_eminence
+	trait=genius
+	trait=holy_warrior
+	trait=gregarious
+	trait=proud
+	trait=generous
+	trait=ambitious
+	trait=deceitful
+	martial=6
+	diplomacy=6
+	stewardship=6
+	intrigue=6
+	learning=6
+	2111.1.22={birth=yes}
+	2131.2.8={effect = {add_artifact = sacra_corona} }
+	2195.4.3={death=yes}
+}
+19911001={
+	name="Simon" 
+	dynasty=2045114 #Toldi
+	culture=hungarian
+	religion=coronite
+	trait=martial_cleric
+	trait=holy_warrior
+	trait=gregarious
+	trait=generous
+	trait=kind
+	trait=deceitful
+	martial=5
+	diplomacy=6
+	stewardship=7
+	intrigue=4
+	learning=8
+	father=19911000
+	2140.5.5={birth=yes}
+	2201.1.5={death=yes}
+}
+19911002={
+	name="Mária" 
+	dynasty=2045114 #Toldi
+	female=yes
+	culture=hungarian
+	religion=coronite
+	trait=intricate_webweaver
+	trait=genius
+	trait=patient
+	trait=generous
+	trait=shrewd
+	trait=deceitful
+	martial=4
+	diplomacy=6
+	stewardship=7
+	intrigue=7
+	learning=6
+	father=19911001
+	2175.12.11={birth=yes}
+	2240.2.1={death=yes}
+}
+19911003={
+	name="János" 
+	dynasty=2045114 #Toldi
+	culture=hungarian
+	religion=coronite
+	trait=skilled_tactician
+	trait=tall
+	trait=patient
+	trait=generous
+	trait=slothful
+	trait=lustful
+	martial=7
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=4
+	mother=19911002
+	2200.8.8={birth=yes}
+	2240.9.5={death={death_reason=death_battle}}
+}
+19911004={
+	name="Árpád" 
+	dynasty=2045114 #Toldi
+	culture=hungarian
+	religion=coronite
+	trait=fortune_builder
+	trait=tall
+	trait=diligent
+	trait=quick
+	trait=cynical
+	trait=just
+	martial=6
+	diplomacy=4
+	stewardship=7
+	intrigue=5
+	learning=7
+	mother=19911002
+	2205.3.21={birth=yes}
+	2263.10.1={death=yes}
+}
+19911005={
+	name="Árpád" 
+	dynasty=2045114 #Toldi
+	culture=hungarian
+	religion=coronite
+	trait=chaste
+	trait=dull
+	trait=diligent
+	trait=humble
+	trait=kind
+	trait=just
+	trait=gardener
+	martial=6
+	diplomacy=4
+	stewardship=7
+	intrigue=5
+	learning=7
+	father=19911004
+	2230.1.2={birth=yes}
+	2272.1.10={death=yes}
+}
+19911006={
+	name="Ferenc" 
+	dynasty=2045115 #Polak-Toldi
+	culture=hungarian
+	religion=coronite
+	trait=brilliant_strategist
+	trait=tall
+	trait=wroth
+	trait=cruel
+	trait=aggressive_leader
+	trait=duelist
+	martial=9
+	diplomacy=2
+	stewardship=6
+	intrigue=2
+	learning=2
+	father=19911003
+	2233.4.5={birth=yes}
+	2289.7.12={death=yes}
+}
+19911007={
+	name="Gergely" 
+	dynasty=2045114 #Toldi
+	culture=hungarian
+	religion=coronite
+	trait=zealous
+	trait=tough_soldier
+	trait=diligent
+	trait=honest
+	trait=kind
+	trait=falconer
+	trait=poet
+	martial=7
+	diplomacy=6
+	stewardship=6
+	intrigue=6
+	learning=4
+	father=19911005
+	2255.9.4={birth=yes}
+	2300.9.1={death=yes}
+}
+19911008={
+	name="Mihály" 
+	dynasty=2045115 #Polak-Toldi
+	culture=hungarian
+	religion=coronite
+	trait=tough_soldier
+	trait=robust
+	trait=arbitrary
+	trait=diligent
+	trait=architect
+	trait=duelist
+	martial=7
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=4
+	father=19911006
+	2252.4.9={birth=yes}
+	2290.3.3={religion=mariavite}
+	2298.12.12={death=yes}
+}

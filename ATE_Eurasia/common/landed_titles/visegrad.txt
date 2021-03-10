@@ -233,10 +233,30 @@ e_visegrad = {
 				color={ 159 102 55 }
 				color2={ 255 255 255 }
 				
+				rhenish="Prag"
+				low_saxon="Prag"
+				ossi="Prag"
+				upper_saxon="Prag"
+				bavarian="Prag"
+				swabian="Prag"
+				austrian="Prag"
+				schwyzer="Prag"
 				czech = "Praha"
+				slovak = "Praha"
+				hungarian="Prága"
 
 				b_prague = { 
+					rhenish="Prag"
+					low_saxon="Prag"
+					ossi="Prag"
+					upper_saxon="Prag"
+					bavarian="Prag"
+					swabian="Prag"
+					austrian="Prag"
+					schwyzer="Prag"
 					czech = "Praha"
+					slovak = "Praha"
+					hungarian="Prága"
 					holy_site = chronicler 
 				}
 				b_zlicin = {}
@@ -273,8 +293,25 @@ e_visegrad = {
 			c_plzen = {
 				color={ 111 77 12 }
 				color2={ 255 255 255 }
+				rhenish="Pilsen"
+				low_saxon="Pilsen"
+				ossi="Pilsen"
+				upper_saxon="Pilsen"
+				bavarian="Pilsen"
+				swabian="Pilsen"
+				austrian="Pilsen"
+				schwyzer="Pilsen"
 
-				b_plzen = {}
+				b_plzen = {
+					rhenish="Pilsen"
+					low_saxon="Pilsen"
+					ossi="Pilsen"
+					upper_saxon="Pilsen"
+					bavarian="Pilsen"
+					swabian="Pilsen"
+					austrian="Pilsen"
+					schwyzer="Pilsen"
+				}
 				b_klatovy = {}
 				b_rokycany = {}
 				b_plasy = {}
@@ -319,7 +356,18 @@ e_visegrad = {
 			
 			capital = 1025 #Moravskoslezsky
 			
-			czech = "Morava"
+			rhenish="Mähren"
+			low_saxon="Mähren"
+			ossi="Mähren"
+			upper_saxon="Mähren"
+			bavarian="Mähren"
+			swabian="Mähren"
+			austrian="Mähren"
+			schwyzer="Mähren"
+			czech="Morava"
+			slovak="Morava"
+			polish="Morawy"
+			hungarian="Morvaország"
 			
 			c_ostrava = {
 				color={ 233 143 77 }
@@ -336,8 +384,27 @@ e_visegrad = {
 			c_olomouc = {
 				color={ 222 155 112 }
 				color2={ 255 255 255 }
+				rhenish="Olmütz"
+				low_saxon="Olmütz"
+				ossi="Olmütz"
+				upper_saxon="Olmütz"
+				bavarian="Olmütz"
+				swabian="Olmütz"
+				austrian="Olmütz"
+				schwyzer="Olmütz"
+				hungarian="Olmüc"
 
-				b_olomouc = {}
+				b_olomouc = {
+					rhenish="Olmütz"
+					low_saxon="Olmütz"
+					ossi="Olmütz"
+					upper_saxon="Olmütz"
+					bavarian="Olmütz"
+					swabian="Olmütz"
+					austrian="Olmütz"
+					schwyzer="Olmütz"
+					hungarian="Olmüc"
+				}
 				b_prerov = {}
 				b_prostejov = {}
 				b_sumperk = {}
@@ -448,12 +515,24 @@ e_visegrad = {
 				b_zilina = {
 					hungarian = "Zsolna"
 				}
-				b_cadca = {}
-				b_turzovka = {}
-				b_martin = {}
-				b_terchova = {}
-				b_ruzomberok = {}
-				b_dolny_kubin = {}
+				b_cadca = {
+					hungarian = "Csaca"
+				}
+				b_turzovka = {
+					hungarian = "Turzófalva"
+				}
+				b_martin = {
+					hungarian = "Turócszentmárton"
+				}
+				b_terchova = {
+					hungarian = "Terhely"
+				}
+				b_ruzomberok = {
+					hungarian = "Rózsahegy"
+				}
+				b_dolny_kubin = {
+					hungarian = "Alsókubin"
+				}
 			}
 			
 			c_presov = {
@@ -482,12 +561,24 @@ e_visegrad = {
 				b_kosice = {
 					hungarian = "Kassa"
 				}
-				b_trebisov = {}
-				b_haniska = {}
-				b_jasov = {}
-				b_betliar = {}
-				b_michalovce = {}
-				b_secovce = {}
+				b_trebisov = {
+					hungarian = "Töketerebes"
+				}
+				b_haniska = {
+					hungarian = "Eperjesenyicke"
+				}
+				b_jasov = {
+					hungarian = "Jászó"
+				}
+				b_betliar = {
+					hungarian = "Betlér"
+				}
+				b_michalovce = {
+					hungarian = "Nagymihály"
+				}
+				b_secovce = {
+					hungarian = "Gálszécs"
+				}
 			}
 		}
 		
@@ -508,13 +599,27 @@ e_visegrad = {
 				b_bratislava = {
 					hungarian = "Pozsony"
 				}
-				b_trnava = {}
-				b_pezinok = {}
-				b_stupava = {}
-				b_senica = {}
-				b_galanta = {}
-				b_hlohovec = {}
-				b_sered = {}
+				b_trnava = {
+					hungarian = "Nagyszombat"
+				}
+				b_pezinok = {
+					hungarian = "Bazin"
+				}
+				b_stupava = {
+					hungarian = "Stomfa"
+				}
+				b_senica = {
+					hungarian = "Senica"
+				}
+				b_galanta = {
+					hungarian = "Galánta"
+				}
+				b_hlohovec = {
+					hungarian = "Galgóc"
+				}
+				b_sered = {
+					hungarian = "Szered"
+				}
 			}
 			
 			c_nitra = {
@@ -525,14 +630,24 @@ e_visegrad = {
 				b_nitra = {
 					hungarian = "Nyitra"
 				}
-				b_levice = {}
-				b_nove_zamky = {}
+				b_levice = {
+					hungarian = "Léva"
+				}
+				b_nove_zamky = {
+					hungarian = "Érsekújvár"
+				}
 				b_komarno = {
 					hungarian = "Révkomárom"
 				}
-				b_kolarovo = {}
-				b_surany = {}
-				b_topolcany = {}
+				b_kolarovo = {
+					hungarian = "Gúta"
+				}
+				b_surany = {
+					hungarian = "Nagysurány"
+				}
+				b_topolcany = {
+					hungarian = "Nagytapolcsány"
+				}
 			}
 			
 			c_banska_bystrica = {
@@ -546,13 +661,21 @@ e_visegrad = {
 				b_zvolen = {
 					hungarian = "Zólyom"
 				}
-				b_krupina = {}
-				b_lucenec = {}
+				b_krupina = {
+					hungarian = "Korpona"
+				}
+				b_lucenec = {
+					hungarian = "Losonc"
+				}
 				b_rimavska_sobota = {
 					hungarian = "Rimaszombat"
 				}
-				b_detva = {}
-				b_ciz = {}
+				b_detva = {
+					hungarian = "Gyetva"
+				}
+				b_ciz = {
+					hungarian = "Csíz "
+				}
 			}
 			
 			c_trencin = {
@@ -564,11 +687,19 @@ e_visegrad = {
 					hungarian = "Trencsén"
 				}
 				b_myjava = {}
-				b_nove_mesto_nad_vahom = {}
-				b_banovce_nad_bebravou = {}
-				b_dubnica_nad_vahom = {}
+				b_nove_mesto_nad_vahom = {
+					hungarian = "Vágújhely"
+				}
+				b_banovce_nad_bebravou = {
+					hungarian = "Bán"
+				}
+				b_dubnica_nad_vahom = {
+					hungarian = "Máriatölgyes"
+				}
 				b_prievidza = {}
-				b_povazska_bystrica = {}
+				b_povazska_bystrica = {
+					hungarian = "Vágbeszterce"
+				}
 			}
 		}
 	}
