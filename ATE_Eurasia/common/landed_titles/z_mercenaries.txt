@@ -205,3 +205,26 @@ d_avaldsnes_historiesenter = {
 	
 	mercenary_type = d_avaldsnes_historiesenter_composition
 }
+d_pirates_of_the_league = {
+
+	color = { 116 185 35 }
+	color2 = { 255 255 255 }
+	
+	capital = 349 #Hamburg
+	
+	short_name = yes
+	
+	culture = low_saxon
+	religion = neuhumanist
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = d_pirates_of_the_league_composition
+}
