@@ -325,28 +325,3 @@ ethics_boenhoeffer = {
 	picture = "GFX_book_etiquette_3"
 	slot = library 
 }
-
-
-sacra_corona = {
-	learning = 2
-	vassal_opinion = 5
-	#coronite_opinion = 5
-	#hungarian_opinion = 5
-	monthly_character_piety = 1.5
-	monthly_character_piety = 1.0
-	quality = 4
-	flags = { christian coronite hungarian crown }
-	
-	active = {
-		OR = {
-			religion_group = christian
-			religion_group = vernacular
-		}
-	}
-	allowed_gift = {
-		always = no 
-	}
-	stacking = no
-	picture = "GFX_sacra_corona"
-	slot = crown 
-}

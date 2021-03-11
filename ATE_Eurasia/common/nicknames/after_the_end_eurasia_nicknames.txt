@@ -89,3 +89,40 @@ nick_the_great = { #added to remove Danes from being called Great
 }
 ##########################################
 nick_witch_breaker = {}
+nick_son_of_the_white_mare = { #added to remove Danes from being called Great
+	allow = {
+		religion = nepmese
+		trait = auspicious_birth
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2.0
+			trait = strong
+		}
+		modifier = {
+			factor = 2.0
+			trait = genius
+		}
+		modifier = {
+			factor = 2.0
+			trait = quick
+		}
+		modifier = {
+			factor = 2.0
+			trait = fair
+		}
+		modifier = {
+			factor = 2.0
+			prestige = 4000
+		}
+		modifier = {
+			factor = 2.0
+			prestige = 8000
+		}
+		modifier = {
+			factor = 5.0
+			prestige = 15000
+		}
+	}
+}

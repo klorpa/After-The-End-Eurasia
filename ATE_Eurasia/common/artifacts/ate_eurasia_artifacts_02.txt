@@ -1,0 +1,21 @@
+
+holy_crown = {
+	learning = 1
+	diplomacy = 1
+	vassal_opinion = 5
+	coronite_opinion = 6
+	hungarian_opinion = 2
+	quality = 4
+	flags = { jewelry crown_jewel christian }
+	active = {
+		OR = {
+			religion_group = christian
+			religion_group = vernacular
+		}
+	}
+	allowed_gift = {
+		always = no
+	}
+	stacking = no
+	picture = "GFX_sacra_corona"
+}
