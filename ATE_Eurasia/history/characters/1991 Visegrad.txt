@@ -725,8 +725,9 @@
 	stewardship=6
 	intrigue=6
 	learning=6
+	give_nickname=nick_the_conqueror
 	2111.1.22={birth=yes}
-	#2131.2.8={effect = {add_artifact = sacra_corona} }
+	2131.2.8={effect = {add_artifact = holy_crown} }
 	2195.4.3={death=yes}
 }
 19911001={
@@ -767,6 +768,7 @@
 	intrigue=7
 	learning=6
 	father=19911001
+	give_nickname=nick_the_great
 	2175.12.11={birth=yes}
 	2240.2.1={death=yes}
 }
@@ -807,6 +809,7 @@
 	intrigue=5
 	learning=7
 	mother=19911002
+	give_nickname=nick_the_usurper
 	2205.3.21={birth=yes}
 	2263.10.1={death=yes}
 }
@@ -822,18 +825,19 @@
 	trait=kind
 	trait=just
 	trait=gardener
-	martial=6
+	martial=3
 	diplomacy=4
-	stewardship=7
-	intrigue=5
-	learning=7
+	stewardship=3
+	intrigue=4
+	learning=3
 	father=19911004
+	give_nickname=nick_the_simple
 	2230.1.2={birth=yes}
 	2272.1.10={death=yes}
 }
 19911006={
 	name="Ferenc" 
-	dynasty=2045115 #Polak-Toldi
+	dynasty=2045115 #Bem
 	culture=hungarian
 	religion=coronite
 	trait=brilliant_strategist
@@ -874,7 +878,7 @@
 }
 19911008={
 	name="Mihály" 
-	dynasty=2045115 #Polak-Toldi
+	dynasty=2045115 #Bem
 	culture=hungarian
 	religion=coronite
 	trait=tough_soldier
@@ -889,7 +893,611 @@
 	intrigue=5
 	learning=4
 	father=19911006
+	trait=homosexual
 	2252.4.9={birth=yes}
 	2290.3.3={religion=mariavite}
 	2298.12.12={death=yes}
+}
+19911009={
+	name="Mária Hedvig" 
+	dynasty=2045114 #Toldi
+	female=yes
+	culture=hungarian
+	religion=coronite
+	trait=gamer
+	trait=intricate_webweaver
+	trait=deceitful
+	trait=honest
+	trait=kind
+	trait=proud
+	trait=wroth
+	martial=6
+	diplomacy=6
+	stewardship=5
+	intrigue=6
+	learning=5
+	father=19911007
+	2280.7.7={birth=yes}
+	2341.2.1={death=yes}
+}
+19911010={
+	name="József" 
+	dynasty=2045115 #Bem
+	culture=hungarian
+	religion=mariavite
+	trait=brilliant_strategist
+	trait=one_eyed
+	trait=brave
+	trait=diligent
+	trait=patient
+	trait=duelist
+	trait=sympathy_islam
+	martial=7
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=4
+	father=19911008
+	2279.8.3={birth=yes}
+	2302.10.3={culture=polish}
+	2328.1.12={death=yes}
+}
+19911011={
+	name="Simon" 
+	dynasty=2045114 #Toldi
+	culture=hungarian
+	religion=coronite
+	trait=gamer
+	trait=fortune_builder
+	trait=greedy
+	trait=gregarious
+	trait=chaste
+	trait=frail
+	trait=weak
+	trait=cruel
+	martial=4
+	diplomacy=4
+	stewardship=7
+	intrigue=6
+	learning=5
+	give_nickname=nick_the_frail
+	mother=19911009
+	2301.6.17={birth=yes}
+	2356.3.4={death=yes}
+}
+19911012={
+	name="Sándor" 
+	dynasty=2045114 #Toldi
+	culture=hungarian
+	religion=coronite
+	trait=flamboyant_schemer
+	trait=greedy
+	trait=humble
+	trait=chaste
+	trait=cruel
+	trait=architect
+	martial=5
+	diplomacy=6
+	stewardship=5
+	intrigue=7
+	learning=7
+	father=19911011
+	give_nickname=nick_the_schismatic
+	2320.8.18={birth=yes}
+	2358.2.4={religion=mariavite}
+	2370.4.30={death=yes}
+}
+19911013={
+	name="Janka"
+	dynasty=2045114 #Toldi
+	female=yes
+	culture=hungarian
+	religion=coronite
+	trait=midas_touched
+	trait=honest
+	trait=kind
+	trait=chaste
+	trait=fair
+	trait=trusting
+	martial=5
+	diplomacy=8
+	stewardship=5
+	intrigue=4
+	learning=4
+	give_nickname=nick_the_fair
+	father=19911012
+	2348.6.6={birth=yes}
+	2358.2.4={religion=mariavite}
+	2369.6.9={add_spouse=19911017}  #Ján Krtek
+	2407.6.6={death=yes}
+}
+19911014={
+	name="Franciska"
+	dynasty=2045114 #Toldi
+	female=yes
+	culture=hungarian
+	religion=coronite
+	trait=mastermind_theologian
+	trait=charitable
+	trait=paranoid
+	trait=lustful
+	trait=wroth
+	trait=gardener
+	trait=bisexual
+	trait=impotent
+	martial=5
+	diplomacy=6
+	stewardship=5
+	intrigue=7
+	learning=7
+	father=19911012
+	2344.9.21={birth=yes}
+	2358.2.4={religion=mariavite}
+	2401.7.31={death=yes}
+}
+
+19911015={
+	name="Ján"
+	dynasty=1968054 #Krtek
+	culture=czech
+	religion=mariavite
+	trait=flamboyant_schemer
+	trait=patient
+	trait=strong
+	trait=gardener
+	trait=ugly
+	trait=gregarious
+	trait=kind
+	martial=5
+	diplomacy=9
+	stewardship=4
+	intrigue=5
+	learning=7
+	2308.11.11={birth=yes}
+	2359.3.3={death={death_reason={death_accident}}}
+}
+19911016={
+	name="Ján"
+	dynasty=1968054 #Krtek
+	culture=czech
+	religion=mariavite
+	trait=gamer
+	trait=grey_eminence
+	trait=falconer
+	trait=duelist
+	trait=ugly
+	trait=gregarious
+	trait=kind
+	martial=4
+	diplomacy=7
+	stewardship=5
+	intrigue=6
+	learning=6
+	father=19911015
+	2322.8.31={birth=yes}
+	2388.12.24={death=yes}
+}
+19911017={
+	name="Ján"
+	dynasty=1968054 #Krtek
+	culture=czech
+	religion=mariavite
+	trait=drunk
+	trait=flamboyant_schemer
+	trait=poet
+	trait=shy
+	trait=kind
+	trait=deceitful
+	martial=5
+	diplomacy=7
+	stewardship=4
+	intrigue=7
+	learning=6
+	father=19911016
+	2344.4.4={birth=yes}
+	2369.6.9={add_spouse=19911013}  #Toldi Janka the Fair
+	2397.7.2={death=yes}
+}
+19911018={
+	name="Ján"
+	dynasty=1968054 #Krtek
+	culture=czech
+	religion=mariavite
+	trait=drunk
+	trait=flamboyant_schemer
+	trait=poet
+	trait=shy
+	trait=kind
+	trait=deceitful
+	martial=5
+	diplomacy=7
+	stewardship=4
+	intrigue=7
+	learning=6
+	father=19911017
+	give_nickname=nick_the_culture
+	2373.3.7={birth=yes}
+	2412.7.2={death={death_reason=death_murder killer=19911021}}
+}
+19911019={
+	name="Tivadar"
+	dynasty=2045114 #Toldi
+	culture=hungarian
+	religion=coronite
+	trait=content
+	trait=brilliant_strategist
+	trait=fair
+	trait=lustful
+	trait=authoritative
+	trait=aggressive_leader
+	trait=wroth
+	trait=legit_bastard
+	martial=7
+	diplomacy=4
+	stewardship=4
+	intrigue=3
+	learning=6
+	give_nickname=nick_the_tiger
+	father=19911011
+	2322.3.31={birth=yes}
+	2360.1.28={death={death_reason=death_battle}}
+}
+19911020={
+	name="Péter"
+	dynasty=2045114 #Toldi
+	culture=hungarian
+	religion=coronite
+	trait=patient
+	trait=brilliant_strategist
+	trait=tall
+	trait=duelist
+	trait=authoritative
+	trait=holy_warrior
+	trait=cruel
+	martial=6
+	diplomacy=4
+	stewardship=4
+	intrigue=4
+	learning=6
+	father=19911019
+	2352.4.4={birth=yes}
+	2407.2.3={death={death_reason=death_execution killer=19911018}}
+}
+19911021={
+	name="Ottó"
+	dynasty=2045114 #Toldi
+	culture=hungarian
+	religion=coronite
+	trait=wroth
+	trait=skilled_tactician
+	trait=tall
+	trait=hunter
+	trait=impaler
+	trait=temperate
+	trait=cruel
+	martial=7
+	diplomacy=4
+	stewardship=7
+	intrigue=4
+	learning=5
+	father=19911020
+	give_nickname=nick_the_avenger
+	2380.11.4={birth=yes}
+	2415.12.2={trait=cancer}
+	2424.2.3={death={death_reason=death_trait}}
+}
+19911022={
+	name="György"
+	dynasty=2045116 #Kinizsi
+	culture=hungarian
+	religion=coronite
+	trait=greedy
+	trait=tough_soldier
+	trait=robust
+	trait=zealous
+	trait=brave
+	trait=temperate
+	trait=cruel
+	martial=5
+	diplomacy=6
+	stewardship=6
+	intrigue=6
+	learning=5
+	father=19911021
+	2410.9.4={birth=yes}
+	2455.1.4={death=yes}
+}
+
+19911023={
+	name="Krzysztof" 
+	dynasty=2045115 #Bem
+	culture=polish
+	religion=mariavite
+	trait=naive_appeaser
+	trait=trusting
+	trait=brave
+	trait=just
+	trait=patient
+	martial=7
+	diplomacy=7
+	stewardship=5
+	intrigue=5
+	learning=5
+	father=19911010
+	2301.3.3={birth=yes}
+	2335.1.12={death={death_reason=death_murder}}
+}
+19911024={
+	name="Karolina" 
+	dynasty=2045115 #Bem
+	female=yes
+	culture=polish
+	religion=mariavite
+	trait=scholarly_theologian
+	trait=mystic
+	trait=craven
+	trait=just
+	trait=patient
+	trait=kind
+	martial=6
+	diplomacy=7
+	stewardship=7
+	intrigue=4
+	learning=6
+	father=19911023
+	2325.12.2={birth=yes}
+	2399.6.31={death=yes}
+}
+19911025={
+	name="Jacek" 
+	dynasty=2045115 #Bem
+	culture=polish
+	religion=mariavite
+	trait=scholarly_theologian
+	trait=gluttonous
+	trait=stubborn
+	trait=erudite
+	trait=arbitrary
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=4
+	learning=6
+	mother=19911024
+	2350.1.31={birth=yes}
+	2410.3.6={death=yes}
+}
+19911026={
+	name="Boleslaw"
+	dynasty=2045115 #Bem
+	culture=polish
+	religion=mariavite
+	trait=indulgent_wastrel
+	trait=homosexual
+	trait=socializer
+	trait=depression
+	trait=drunk
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	father=19911025
+	give_nickname=nick_the_clumsy
+	2375.6.6={birth=yes}
+	2415.1.4={death={death_reason=death_trait}}
+}
+19911027={
+	name="Jagoda Maria"
+	dynasty=2045115 #Bem
+	female=yes
+	culture=polish
+	religion=mariavite
+	trait=indulgent_wastrel
+	trait=ambitious
+	trait=socializer
+	trait=gregarious
+	trait=kind
+	trait=temperate
+	martial=7
+	diplomacy=6
+	stewardship=5
+	intrigue=6
+	learning=4
+	father=19911026
+	2401.8.13={birth=yes}
+	2444.11.11={death=yes}
+}
+19911028={
+	name="Stefania"
+	dynasty=2045115 #Bem
+	female=yes
+	culture=polish
+	religion=mariavite
+	trait=ambitious
+	trait=quick
+	trait=weak
+	trait=slothful
+	trait=chaste
+	trait=ill
+	trait=pneumonia
+	give_nickname=nick_the_chaste
+	martial=4
+	diplomacy=5
+	stewardship=7
+	intrigue=5
+	learning=3
+	mother=19911027
+	2424.3.4={birth=yes}
+	2446.3.17={death={death_reason=death_trait}}
+}
+19911029={
+	name="Jadwiga"
+	dynasty=2045115 #Bem
+	female=yes
+	culture=polish
+	religion=mariavite
+	trait=fair
+	trait=quick
+	trait=lustful
+	trait=slothful
+	trait=flamboyant_schemer
+	martial=2
+	diplomacy=6
+	stewardship=6
+	intrigue=5
+	learning=5
+	mother=19911027
+	2425.11.4={birth=yes}
+	2473.2.3={death=yes}
+}
+19911030={
+	name="Ján"
+	dynasty=1968054 #Krtek
+	culture=czech
+	religion=mariavite
+	trait=stressed
+	trait=tough_soldier
+	trait=poet
+	trait=slothful
+	trait=temperate
+	trait=gregarious
+	trait=one_handed
+	give_nickname=nick_iron_hand
+	martial=7
+	diplomacy=4
+	stewardship=4
+	intrigue=6
+	learning=3
+	father=19911018
+	2401.3.7={birth=yes}
+	2457.11.27={death=yes}
+}
+19911031={
+	name="Petr"
+	dynasty=1968054 #Krtek
+	culture=czech
+	religion=mariavite
+	trait=stressed
+	trait=naive_appeaser
+	trait=gamer
+	trait=content
+	trait=temperate
+	trait=shy
+	trait=patient
+	martial=7
+	diplomacy=6
+	stewardship=4
+	intrigue=4
+	learning=3
+	father=19911018
+	2405.5.15={birth=yes}
+	2460.4.12={death={death_reason=death_battle killer=19911029}}
+}
+19911032={
+	name="Ján"
+	dynasty=1968054 #Krtek
+	culture=czech
+	religion=mariavite
+	trait=ambitious
+	trait=tough_soldier
+	trait=proud
+	trait=greedy
+	trait=zealous
+	trait=twin
+	martial=6
+	diplomacy=5
+	stewardship=4
+	intrigue=3
+	learning=5
+	father=19911030
+	2424.3.19={birth=yes}
+	2458.1.6={death={death_reason=death_execution killer=19911031}}
+}
+19911033={
+	name="Egon"
+	dynasty=1968054 #Krtek
+	culture=czech
+	religion=mariavite
+	trait=ambitious
+	trait=skilled_tactician
+	trait=proud
+	trait=homosexual
+	trait=holy_warrior
+	trait=twin
+	martial=6
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=3
+	father=19911030
+	2424.3.19={birth=yes}
+	2458.1.6={death={death_reason=death_execution killer=19911031}}
+}
+19911034={
+	name="Petr"
+	dynasty=1968054 #Krtek
+	culture=czech
+	religion=mariavite
+	trait=stressed
+	trait=naive_appeaser
+	trait=gamer
+	trait=content
+	trait=temperate
+	trait=shy
+	trait=patient
+	martial=7
+	diplomacy=6
+	stewardship=4
+	intrigue=4
+	learning=3
+	father=19911031
+	2432.1.12={birth=yes}
+	2460.4.12={death={death_reason=death_battle killer=19911029}}
+}
+19911035={
+	name="Grzegorz"
+	dynasty=2045115 #Bem
+	culture=polish
+	religion=mariavite
+	trait=cruel
+	trait=wroth
+	trait=arbitrary
+	trait=posessed
+	trait=lunatic
+	trait=quick
+	trait=lustful
+	trait=flayer
+	trait=flamboyant_schemer
+	trait=impaler
+	give_nickname=nick_the_butcher
+	martial=5
+	diplomacy=5
+	stewardship=7
+	intrigue=7
+	learning=5
+	mother=19911029
+	2455.4.21={birth=yes}
+	2490.5.5={death={death_reason=death_battle}}
+}
+19911036={
+	name="István"
+	dynasty=2045116 #Kinizsi
+	culture=hungarian
+	religion=coronite
+	trait=proud
+	trait=tough_soldier
+	trait=is_fat
+	trait=zealous
+	trait=brave
+	trait=gluttonous
+	trait=cruel
+	martial=5
+	diplomacy=4
+	stewardship=5
+	intrigue=5
+	learning=4
+	father=19911022
+	2436.5.31={birth=yes}
+	2485.2.1={death=yes}
 }
