@@ -161,55 +161,79 @@ e_scandinavia = {
 				b_hov = {}
 			}
 		}
-		d_kujalleq = {
+		d_kalaallit_nunaat = {
 			color={ 99 121 69 }
 			color2={ 255 255 255 }
 			
-			capital = 552 # Narsaq
+			capital = 552 # kujalleq
 					
-			c_narsaq = {
+			c_nuuk = { #553
+				color={ 103 159 59 }
+				color2={ 255 255 255 }
+				
+				b_nuuk = {}
+				b_atangmik = {}
+				b_paamiut = {}
+				b_qeqertarsuatsiaat = {}
+				b_kangilinnguit = {}
+				b_napassoq = {}
+				b_angisorsuaq = {}
+			}
+			c_kujalleq = { #552
 				color={ 96 136 78 }
 				color2={ 255 255 255 }
 				
-				b_narsaq = {}
-				b_ivigtut = {}
-				b_narsarsuaq = {}
-				b_arsuk = {}
-				b_qassimiut = {}
-				b_qassiarsuk = {}
-				b_nunarsuit = {}
-			}
-			c_qaqortoq = {
-				color={ 74 103 35 }
-				color2={ 255 255 255 }
-				
 				b_qaqortoq = {}
+				b_narsaq = {}
 				b_eqalugaarsuit = {}
-				b_eqaluit = {}
+				b_nanortalik = {}
+				b_aappilattoq = {}
+				b_narsarsuaq = {}
 				b_alluitsup_paa = {}
-				b_lichtenau = {}
-				b_igaliku = {}
-				b_taseq = {}
 			}
-			c_nanortalik = {
-				color={ 65 148 28 }
+			c_qeqertalik = { #554
+				color={ 82 158 121 }
 				color2={ 255 255 255 }
 				
-				b_nanortalik = {}
-				b_tasiusaq = {}
-				b_karsaq_kujalleq = {}
-				b_ikeq = {}
-				b_agdleruussakasit = {}
-				b_kitsissut = {}
-				b_qingaqgssat_qaqit = {}
+				b_aasiaat = {}
+				b_sisimiut = {}
+				b_qasigiannguit = {}
+				b_qeqertarsuaq = {}
+				b_kangaatsiaq = {}
+				b_kangaamiut = {}
+				b_maniitsoq = {}
+			}
+			c_tasiilaq = { #2680
+				color={ 59 121 84 }
+				color2={ 255 255 255 }
+				
+				b_tasiilaq = {}
+				b_kuummiit = {}
+				b_utorqarmiut = {}
+				b_sermilik = {}
+				b_kulusuk = {}
+				b_kitak = {}
+				b_suunikajik = {}
 			}
 		}
 		d_svalbard = {
 			color={ 7 7 203 }
 			color2={ 255 255 255 }
 			
-			capital = 552 # svalbard
+			capital = 2681 # svalbard
 			
+			c_svalbard = { #2681
+				color={ 82 59 199 }
+				color2={ 255 255 255 }
+				
+				b_longyearbyen = {}
+				b_barentsburg = {}
+				b_sveagruva = {}
+				b_hopen_radio = {}
+				b_ny_alesund = {}
+				b_isbjornhamna = {}
+				b_pyramiden = {}
+			}
 			c_jan_mayen = {
 				color={ 139 61 125 }
 				color2={ 255 255 255 }
