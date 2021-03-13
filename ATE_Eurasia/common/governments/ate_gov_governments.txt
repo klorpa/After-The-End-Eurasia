@@ -39,9 +39,12 @@ feudal_governments = {
 			is_patrician = no
 			NAND = {
 				controls_religion = yes
-				OR= {
+				OR = {
 					religion = nizami
 					religion = sunni
+					religion = ibadi
+					religion = shiite
+					religion = zaydi
 				}
 			}
 			NOR = {
@@ -50,8 +53,6 @@ feudal_governments = {
 				}
 				top_liege = {
 					government = bureaucratic_muslim_government
-					higher_tier_than = DUKE
-					religion_group = muslim
 				}
 			}			
 		}
