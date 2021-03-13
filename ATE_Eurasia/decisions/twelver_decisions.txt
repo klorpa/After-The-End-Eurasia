@@ -8,14 +8,14 @@ targetted_decisions = {
 		only_independent = yes
 		
 		from_potential = {
-			religion = shiite
+			religion = akhbari
 			has_secret_religion = no
 			prisoner = no
 		}
 		potential = {
 			is_playable = yes
-			religion = shiite
-			has_landed_title = d_shiite
+			religion = akhbari
+			has_landed_title = d_akhbari
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
@@ -34,9 +34,65 @@ targetted_decisions = {
 		}
 		effect = {
 			save_event_target_as = old_al_waqil
-			character_event = { id = twelver.2 }
+			character_event = { id = shia.2 }
 			FROM = {
-				character_event = { id = twelver.1 }
+				character_event = { id = shia.1 }
+				piety = -25
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.5
+				trait = content
+			}
+		}
+	}
+	become_zaydi_imam = {
+		only_playable = yes
+		is_high_prio = yes
+		filter = religious_head
+		ai_target_filter = religious_head
+		ai_check_interval = 12
+		only_independent = yes
+		
+		from_potential = {
+			religion = zaydi
+			has_secret_religion = no
+			trait = sayyid
+			prisoner = no
+		}
+		potential = {
+			is_playable = yes
+			religion = zaydi
+			has_landed_title = d_zaydi
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		allow = {
+			war = no
+			FROM = {
+				piety = 50
+				war = no
+				relative_realm_size = {
+					who = ROOT
+					size >= 1.05
+				}
+				
+			}
+		}
+		effect = {
+			save_event_target_as = old_al_waqil
+			character_event = { id = shia.4 }
+			FROM = {
+				character_event = { id = shia.3 }
 				piety = -25
 			}
 		}

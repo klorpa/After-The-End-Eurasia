@@ -1,7 +1,7 @@
-namespace = twelver
+namespace = shia
 
 character_event = { 
-	id = twelver.1
+	id = shia.1
 	desc = EVTDESC_new_al_waqil
 	picture = GFX_evt_bishop
 	
@@ -16,7 +16,7 @@ character_event = {
 				modifier = took_al_waqil
 			}
 		}
-		d_shiite = {
+		d_akbari = {
 			usurp_title = ROOT
 		}
 		prestige = 50
@@ -25,7 +25,45 @@ character_event = {
 }	
 
 character_event = { 
-	id = twelver.2
+	id = shia.2
+	desc = EVTDESC_lost_al_waqil
+	picture = GFX_evt_bad_news
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_lost_al_waqil
+		prestige = -50
+	}
+}
+
+character_event = { 
+	id = shia.3
+	desc = EVTDESC_new_al_waqil
+	picture = GFX_evt_bishop
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_new_al_waqil
+		event_target:old_al_waqil = {
+			opinion = {
+				who = ROOT
+				modifier = took_al_waqil
+			}
+		}
+		d_zaydi = {
+			usurp_title = ROOT
+		}
+		prestige = 50
+	}
+	
+}	
+
+character_event = { 
+	id = shia.4
 	desc = EVTDESC_lost_al_waqil
 	picture = GFX_evt_bad_news
 	

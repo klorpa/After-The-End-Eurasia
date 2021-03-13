@@ -402,7 +402,7 @@ d_ibadi = {
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
-d_shiite = {
+d_akhbari = {
 	color={ 120 150 30 }
 	color2={ 220 220 0 }
 	
@@ -414,7 +414,7 @@ d_shiite = {
 	title = "AL_WAQIL"
 	
 	allow = {
-		religion = shiite
+		religion = akhbari
 		higher_real_tier_than = DUKE
 		prestige = 500 
 		wealth = 250
@@ -427,9 +427,41 @@ d_shiite = {
 	dignity = 100 # Counted as having this many more counties than it does
 	
 	# Controls a religion
-	controls_religion = shiite
+	controls_religion = akhbari
 	
-	religion = shiite
+	religion = akhbari
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+d_zaydi = {
+	color={ 120 150 30 }
+	color2={ 220 220 0 }
+	
+	capital = 117 # Mecca
+	creation_requires_capital = no 
+	
+	landless = no 
+	
+	title = "IMAM"
+	
+	allow = {
+		religion = zaydi
+		num_of_holy_sites = 1
+		higher_real_tier_than = DUKE
+		prestige = 500 
+		wealth = 250
+	}
+	
+	short_name = yes
+	
+	caliphate = yes 
+	
+	dignity = 100 # Counted as having this many more counties than it does
+	
+	# Controls a religion
+	controls_religion = zaydi
+	
+	religion = zaydi
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
@@ -460,6 +492,33 @@ d_sunni = {
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 
+}
+d_shiite = {
+	color={ 200 50 200 }
+	color2={ 220 220 0 }
+	
+	capital = 2033 # an-Najaf
+	
+	title = "MARJA_AT_TAQLID"
+	
+	
+	short_name = yes
+	#location_ruler_title = yes
+
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = shiite
+	
+	religion = shiite
+	
+	dignity = 200
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 
 }
 d_orthodox = {

@@ -47,10 +47,20 @@ EVTOPTA_MSI_20;Perhaps I have been walking the wrong path...;J'ai peut-être choi
 EVTOPTB_MSI_20;No! I must purge my mind of such heretical thoughts.;Non;;;;;;;;;;;;x
 EVTDESC_MSI_21;Given your privately pious nature, you are beginning to doubt whether the Qom'i school is truly right for you.;;;;;;;;;;;;;x
 EVTOPTB_MSI_21;No! I must purge my mind of such misguided notions.;Non;;;;;;;;;;;;x
+####Akhbari Events#######
 become_waqil;Become Al-Waqil;;;;;;;;;;;;x
-become_waqil_desc;I have become more powerful than the current Waqil and must take my position as defender of the [shiite.GetName] faithful;;;;;;;;;;;;x
-EVTDESC_new_al_waqil;[old_al_waqil.GetBestName] is no longer fit to be Al-Waqil of the [shiite.GetName] faithful. The Maraji have decided to recognize you as the Al-Waqil in his place.;;;;;;;;;;;;x
+become_waqil_desc;I have become more powerful than the current Waqil and must take my position as defender of the [ROOT.religion.GetName] faithful;;;;;;;;;;;;x
+EVTDESC_new_al_waqil;[old_al_waqil.GetBestName] is no longer fit to be Al-Waqil of the [ROOT.religion.GetName] faithful. The Maraji have decided to recognize you as the Al-Waqil in his place.;;;;;;;;;;;;x
 EVTOPTA_new_al_waqil;I will accept this honor.;;;;;;;;;;;;x
-EVTDESC_lost_al_waqil;The Maraji have decided that you are no longer fit to be Al-Waqil of the [shiite.GetName] faithful. They have recognized [FROM.GetName] as the Al-Waqil in your place.;;;;;;;;;;;;x
+EVTDESC_lost_al_waqil;The Maraji have decided that you are no longer fit to be Al-Waqil of the [ROOT.religion.GetName] faithful. They have recognized [FROM.GetName] as the Al-Waqil in your place.;;;;;;;;;;;;x
+EVTOPTA_lost_al_waqil;Curses!;;;;;;;;;;;;x
+took_al_waqil;Took Al-Waqil Title;;;;;;;;;;;;x
+
+####Zaydi Events#######
+become_zaydi_imam;Become Imam;;;;;;;;;;;;x
+become_zaydi_imam_desc;I have become more powerful than the current Imam and must take my position as defender of the [ROOT.religion.GetName] faithful;;;;;;;;;;;;x
+EVTDESC_new_zaydi_imam;[old_zaydi_imam.GetBestName] is no longer fit to be Imam of the [ROOT.religion.GetName] faithful. The Ummah have decided to recognize you as the Imam in his place.;;;;;;;;;;;;x
+EVTOPTA_new_zaydi_imam;I will accept this honor.;;;;;;;;;;;;x
+EVTDESC_lost_zaydi_imam;The Ummah have decided that you are no longer fit to be Imam of the [ROOT.religion.GetName] faithful. They have recognized [FROM.GetName] as the Imam in your place.;;;;;;;;;;;;x
 EVTOPTA_lost_al_waqil;Curses!;;;;;;;;;;;;x
 took_al_waqil;Took Al-Waqil Title;;;;;;;;;;;;x

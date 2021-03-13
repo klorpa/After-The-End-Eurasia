@@ -1,0 +1,37 @@
+namespace = pirate
+
+province_event = {
+	id = pirate.001
+	hide_window = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		has_province_modifier = pirate_outpost
+		holder_scope = { NOT = { government = pirate_government }
+	}
+	
+	immediate = {
+		remove_province_modifier = pirate_outpost
+	}
+}
+character_event = { #targeted for grand expedition
+	id = pirate.002
+	desc = EVTDESC_grand_expedition_1
+	picture = GFX_evt_prisoner_hf
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPT_grand_expedition_1
+		opinion = {
+			modifier= opinion_preparing_expedition
+			who = FROM
+			years =3
+		}
+	}
+}
+#some events here for grand expedition prep: extra troops, etc.
