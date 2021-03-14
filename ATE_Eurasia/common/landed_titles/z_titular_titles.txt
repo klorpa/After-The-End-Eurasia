@@ -184,6 +184,14 @@ k_kurdistan = {
 		always = no # Only created through special event
 	}
 }
+k_gibraltar = { # 225
+	color={ 242 72 60 }
+	color2={ 255 255 255 }
+	
+	capital = 225 #Gibraltar
+	
+	dignity=10
+}
 
 ### titular duchies ###
 
@@ -202,14 +210,6 @@ d_rome = {
 	
 	capital = 1117 # Roma
 	dignity = 20 # Counted as having this many more counties than it does
-}
-d_gibraltar = { # 225
-	color={ 242 72 60 }
-	color2={ 255 255 255 }
-	
-	capital = 225 #Gibraltar
-	
-	dignity=10
 }
 d_saarland = { # 225
 	color={ 0 32 159 }
