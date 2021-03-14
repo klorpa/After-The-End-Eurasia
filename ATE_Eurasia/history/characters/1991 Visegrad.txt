@@ -294,6 +294,7 @@
 	trait=cynical
 	trait=underhanded_rogue
 	trait=legit_bastard
+	give_nickname=nick_the_black
 	father=1991103
 	2558.3.1={birth=yes}
 	2620.5.15={death=yes}
@@ -391,10 +392,11 @@
 	trait=falconer
 	trait=fair
 	father=1991111
-	2626.8.7={birth=yes}
+	2633.8.7={birth=yes}
+	2660.6.22={add_matrilineal_spouse=19911050}
 	2680.1.1={death=yes}
 }
-1991112={
+1991113={
 	name="Sára" 
 	dynasty=2045110 #Fehérlófi
 	culture=hungarian
@@ -405,7 +407,7 @@
 	trait=gregarious
 	trait=grey_eminence
 	father=1991111
-	2633.5.15={birth=yes}
+	2626.5.15={birth=yes}
 	2680.1.1={death=yes}
 }
 
@@ -538,6 +540,7 @@
 	father=1991126
 	mother=1991108
 	2603.5.5={birth=yes}
+	2622.8.30={add_spouse=19911045}
 	2680.1.1={death=yes}
 }
 1991129={
@@ -707,6 +710,13 @@
 }
 
 
+
+
+
+
+
+
+
 19911000={
 	name="Árpád" 
 	dynasty=2045114 #Toldi
@@ -727,7 +737,13 @@
 	learning=6
 	give_nickname=nick_the_conqueror
 	2111.1.22={birth=yes}
-	2131.2.8={effect = {add_artifact = holy_crown} }
+	2131.2.8={
+		effect = {add_artifact = holy_crown}
+		create_bloodline = {
+			type = toldi_blood
+			has_dlc = "Holy Fury"
+		}
+	}
 	2195.4.3={death=yes}
 }
 19911001={
@@ -1115,13 +1131,14 @@
 	intrigue=7
 	learning=6
 	father=19911017
+	mother=19911013
 	give_nickname=nick_the_culture
 	2373.3.7={birth=yes}
 	2412.7.2={death={death_reason=death_murder killer=19911021}}
 }
 19911019={
 	name="Tivadar"
-	dynasty=2045114 #Toldi
+	dynasty=2045116 #Kinizsi
 	culture=hungarian
 	religion=coronite
 	trait=content
@@ -1144,7 +1161,7 @@
 }
 19911020={
 	name="Péter"
-	dynasty=2045114 #Toldi
+	dynasty=2045116 #Kinizsi
 	culture=hungarian
 	religion=coronite
 	trait=patient
@@ -1165,7 +1182,7 @@
 }
 19911021={
 	name="Ottó"
-	dynasty=2045114 #Toldi
+	dynasty=2045116 #Kinizsi
 	culture=hungarian
 	religion=coronite
 	trait=wroth
@@ -1439,17 +1456,17 @@
 	dynasty=1968054 #Krtek
 	culture=czech
 	religion=mariavite
-	trait=stressed
-	trait=naive_appeaser
-	trait=gamer
-	trait=content
-	trait=temperate
+	trait=strong
+	trait=greedy
+	trait=aggressive_leader
+	trait=dull
 	trait=shy
-	trait=patient
-	martial=7
-	diplomacy=6
+	trait=chaste
+	trait=tough_soldier
+	martial=8
+	diplomacy=8
 	stewardship=4
-	intrigue=4
+	intrigue=3
 	learning=3
 	father=19911031
 	2432.1.12={birth=yes}
@@ -1500,4 +1517,336 @@
 	father=19911022
 	2436.5.31={birth=yes}
 	2485.2.1={death=yes}
+}
+19911037={
+	name="Matej"
+	dynasty=1968054 #Krtek
+	culture=czech
+	religion=mariavite
+	trait=homosexual
+	trait=skilled_tactician
+	trait=architect
+	trait=slothful
+	trait=humble
+	trait=gregarious
+	trait=harelip
+	give_nickname=nick_longbeard
+	martial=5
+	diplomacy=6
+	stewardship=6
+	intrigue=4
+	learning=7
+	father=19911018
+	2410.5.4={birth=yes}
+	2444.11.24={religion=chronicler}
+	2475.10.27={death=yes}
+}
+19911038={
+	name="Jirí"
+	dynasty=1968054 #Krtek
+	culture=czech
+	religion=mariavite
+	trait=quick
+	trait=flamboyant_schemer
+	trait=gardener
+	trait=poet
+	trait=humble
+	trait=deceitful
+	trait=gregarious
+	martial=6
+	diplomacy=5
+	stewardship=5
+	intrigue=7
+	learning=7
+	father=19911037
+	2440.1.13={birth=yes}
+	2444.11.24={religion=chronicler}
+	2492.9.2={death=yes}
+}
+19911039={
+	name="Radim"
+	#dynasty=0
+	culture=czech
+	religion=chronicler
+	trait=peasant_leader
+	trait=brilliant_strategist
+	trait=wroth
+	trait=cruel
+	trait=flanker
+	trait=kind
+	trait=cynical
+	give_nickname=nick_the_usurper
+	martial=8
+	diplomacy=3
+	stewardship=6
+	intrigue=2
+	learning=1
+	2439.8.3={birth=yes}
+	2480.12.31={death={death_reason=death_execution killer=19911038}}
+}
+
+
+19911040={
+	name="László"
+	dynasty=2045116 #Kinizsi
+	culture=hungarian
+	religion=coronite
+	trait=proud
+	trait=grey_eminence
+	trait=holy_warrior
+	trait=zealous
+	trait=brave
+	trait=kind
+	trait=honest
+	martial=6
+	diplomacy=6
+	stewardship=5
+	intrigue=2
+	learning=4
+	father=19911036
+	2472.1.31={birth=yes}
+	2522.1.3={death=yes}
+}
+19911041={
+	name="András"
+	dynasty=2045116 #Kinizsi
+	culture=hungarian
+	religion=coronite
+	trait=proud
+	trait=midas_touched
+	trait=charitable
+	trait=temperate
+	trait=cynical
+	trait=gardener
+	trait=honest
+	trait=content
+	trait=blinded
+	martial=4
+	diplomacy=5
+	stewardship=6
+	intrigue=5
+	learning=4
+	father=19911040
+	give_nickname=nick_the_undying
+	2500.3.3={birth=yes}
+	2601.4.19={death=yes}
+}
+19911042={
+	name="Simon"
+	dynasty=2045116 #Kinizsi
+	culture=hungarian
+	religion=coronite
+	trait=proud
+	trait=lustful
+	trait=lunatic
+	trait=temperate
+	trait=cynical
+	trait=gardener
+	trait=honest
+	trait=content
+	trait=fortune_builder
+	martial=4
+	diplomacy=3
+	stewardship=7
+	intrigue=2
+	learning=6
+	father=19911041
+	2525.9.11={birth=yes}
+	2587.7.7={death=yes}
+}
+19911043={
+	name="Zsuzsanna"
+	dynasty=2045116 #Kinizsi
+	female=yes
+	culture=hungarian
+	religion=coronite
+	trait=humble
+	trait=lustful
+	trait=temperate
+	trait=patient
+	trait=seducer
+	trait=martial_cleric
+	martial=5
+	diplomacy=5
+	stewardship=7
+	intrigue=5
+	learning=5
+	father=19911042
+	2550.2.27={birth=yes}
+	2620.12.5={death=yes}
+}
+19911044={
+	name="Péter Pál"
+	dynasty=2045116 #Kinizsi
+	culture=hungarian
+	religion=coronite
+	trait=proud
+	trait=lustful
+	trait=brave
+	trait=flanker
+	trait=zealous
+	trait=arbitrary
+	trait=skilled_tactician
+	trait=wounded
+	martial=6
+	diplomacy=5
+	stewardship=5
+	intrigue=2
+	learning=2
+	mother=19911043
+	2573.4.2={birth=yes}
+	2622.1.3={death={death_reason=death_trait}}
+}
+19911045={
+	name="Pál"
+	dynasty=2045116 #Kinizsi
+	culture=hungarian
+	religion=coronite
+	trait=honest
+	trait=gamer
+	trait=authoritative
+	trait=flanker
+	trait=zealous
+	trait=just
+	trait=skilled_tactician
+	martial=6
+	diplomacy=4
+	stewardship=4
+	intrigue=4
+	learning=5
+	father=19911044
+	2600.5.10={birth=yes}
+	2624.6.14={add_spouse=19911047 add_lover=19911047}
+	2645.6.1={trait=leper}
+	2659.6.7={death={death_reason=death_trait}}
+}
+19911046={
+	name="Zsolt"
+	dynasty=2045116 #Kinizsi
+	culture=hungarian
+	religion=coronite
+	trait=humble
+	trait=poet
+	trait=duelist
+	trait=content
+	trait=cruel
+	trait=flamboyant_schemer
+	martial=4
+	diplomacy=4
+	stewardship=5
+	intrigue=6
+	learning=4
+	father=19911044
+	2603.11.9={birth=yes}
+	2622.8.30={add_spouse=1991128}
+	2670.1.1={death=yes}
+}
+19911047={
+	name="Dorottya"
+	dynasty=0
+	female=yes
+	culture=hungarian
+	religion=coronite
+	trait=strong
+	trait=wroth
+	trait=authoritative
+	trait=ambitious
+	trait=quick
+	trait=zealous
+	trait=just
+	trait=brave
+	trait=grey_eminence
+	martial=6
+	diplomacy=6
+	stewardship=6
+	intrigue=6
+	learning=5
+	2606.12.1={birth=yes}
+	2624.6.14={add_spouse=19911045 add_lover=19911045}
+	2670.1.1={death=yes}
+}
+19911048={
+	name="Hunor"
+	dynasty=2045116 #Kinizsi
+	culture=hungarian
+	religion=coronite
+	trait=falconer
+	trait=shrewd
+	trait=hunter
+	trait=sympathy_vernacular
+	trait=stressed
+	trait=patient
+	trait=just
+	trait=midas_touched
+	martial=4
+	diplomacy=4
+	stewardship=8
+	intrigue=6
+	learning=4
+	give_nickname=nick_hide_the_pain
+	father=19911045
+	mother=19911047
+	2629.12.23={birth=yes}
+	2680.1.1=yes}
+}
+19911049={
+	name="Alexandra"
+	dynasty=2045116 #Kinizsi
+	female=yes
+	culture=hungarian
+	religion=coronite
+	trait=strong
+	trait=pious
+	trait=shrewd
+	trait=zealous
+	trait=kind
+	trait=patient
+	trait=socializer
+	trait=stubborn
+	trait=martial_cleric
+	trait=bisexual
+	martial=3
+	diplomacy=5
+	stewardship=6
+	intrigue=4
+	learning=6
+	father=19911045
+	mother=19911047
+	2632.3.2={birth=yes}
+	2680.1.1=yes}
+}
+19911050={
+	name="Attila"
+	dynasty=2045116 #Kinizsi
+	culture=hungarian
+	religion=coronite
+	trait=strong
+	trait=sympathy_vernacular
+	trait=humble
+	trait=chaste
+	trait=depressed
+	trait=socializer
+	trait=poet
+	trait=tough_soldier
+	martial=6
+	diplomacy=5
+	stewardship=5
+	intrigue=4
+	learning=4
+	father=19911045
+	mother=19911047
+	2635.1.22={birth=yes}
+	2660.6.22={add_matrilineal_spouse=1991112}
+	2680.1.1=yes}
+}
+19911051={
+	name="Attila"
+	dynasty=2045110 #Fehérlófi
+	culture=hungarian
+	religion=nepmese
+	trait=strong
+	father=19911050
+	mother=1991112
+	2661.9.3={birth=yes}
+	2700.1.1=yes}
 }
