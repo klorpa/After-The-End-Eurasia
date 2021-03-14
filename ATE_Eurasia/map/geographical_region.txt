@@ -224,14 +224,39 @@ custom_old_portugal = {
 		d_lisboa d_beja d_beira d_norte d_acores d_madeira
 	}
 }
-custom_fertile_crescent = {
+custom_turkey = {
 	duchies = {
-		d_baghdad d_anbar d_al_hajarah d_al_jazira d_kurdistan d_sawad d_dimashq d_al_ladhqiyah d_halab d_hims d_raqqa d_amman d_karak d_beirut d_al_jnoub d_as_shamal d_jerusalem d_galil d_mishor_hahof d_negev d_west_bank d_cyprus d_al_qahirah d_cyrenaica d_kufra d_al_bahr_al_ahmar d_al_iskandariyya d_as_sahra_al_gharbia d_as_suways d_buhayra_nasr d_delta_an_nil d_janub_as_said d_matruh d_shamal_as_said d_sinai
+		d_diyarbakir d_agri d_erzurum d_malatya d_mardin d_van d_samsun d_trabzon d_zonguldak d_ankara d_antalya d_cappadocia d_cilicia d_hatay d_kirikkale d_konya d_istanbul d_aydin d_izmir d_marmara d_tekirdag
 	}
 }
 custom_oman = {
 	duchies = {
 		d_masqat d_ruus_al_jibal d_zufar
+	}
+}
+custom_yemen = {
+	duchies = {
+		d_azal d_aden d_hadramawt d_janad d_saba d_tihamah
+	}
+}
+custom_hejaz = {
+	duchies = {
+		d_makkah d_al_bahah d_asir d_madinah d_rabigh d_tabuk
+	}
+}
+custom_najd = {
+	duchies = {
+		d_riyad d_al_hudud_as_samaliyya d_hail d_al_jawf d_al_qasim d_duwadmi
+	}
+}
+custom_bahrain = {
+	duchies = {
+		d_qatar d_abu_dhabi d_al_ahsa d_al_hajar_al_gharbi d_dammam d_bahrayn d_hafar_al_batin
+	}
+}
+custom_fertile_crescent = {
+	duchies = {
+		d_baghdad d_anbar d_al_hajarah d_al_jazira d_kurdistan d_sawad d_dimashq d_al_ladhqiyah d_halab d_hims d_raqqa d_amman d_karak d_beirut d_al_jnoub d_as_shamal d_jerusalem d_galil d_mishor_hahof d_negev d_west_bank d_cyprus d_al_qahirah d_cyrenaica d_kufra d_al_bahr_al_ahmar d_al_iskandariyya d_as_sahra_al_gharbia d_as_suways d_buhayra_nasr d_delta_an_nil d_janub_as_said d_matruh d_shamal_as_said d_sinai d_kuwait
 	}
 }
 
@@ -258,7 +283,11 @@ custom_north_africa = {
 		custom_morocco custom_sahara custom_algeria custom_tunisia custom_libya custom_old_egypt
 	}
 }
-
+custom_arabian_pennisula = {
+	regions = {
+		custom_oman custom_yemen custom_hejaz custom_najd custom_bahrain
+	}
+}
 ###########################################################################
 # French Reconquest Regions
 ###########################################################################
