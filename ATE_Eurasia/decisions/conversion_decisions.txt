@@ -1116,181 +1116,181 @@ targetted_decisions = {
 		}
 	}
 	
-	convert_to_hinduism = {
-		only_playable = yes
-		icon_religion = hindu
+	# convert_to_hinduism = {
+		# only_playable = yes
+		# icon_religion = hindu
 		
-		filter = self
-		ai_target_filter = self
-		ai = no
+		# filter = self
+		# ai_target_filter = self
+		# ai = no
 	
-		potential = {
-			is_playable = yes
-			has_dharmic_religion_trigger = yes
-			NOT = { religion = hindu }
-			is_theocracy = no
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-		allow = {
-			is_adult = yes
-			prestige = 500
-			NOT = { trait = zealous }
-			any_realm_province = {
-				religion = hindu
-			}
-			custom_tooltip = {
-				text = indian_has_not_converted
-				NOT = { has_character_flag = india_converted }
-			}
-			holy_order = no
-		}
-		effect = {
-			if = {
-				limit = { higher_tier_than = BARON }
-				religion_authority = {
-					modifier = ruler_converted_from
-				}
-			}
-			religion = hindu
-			if = {
-				limit = { higher_tier_than = BARON }
-				hidden_tooltip = {
-					religion_authority = {
-						modifier = ruler_converted_to
-					}
-				}
-			}
-			set_character_flag = india_converted
-			prestige = -500
-			piety = 100
-			hidden_tooltip = { character_event = { id = RoI.110 } } # Choose branch
-		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+		# potential = {
+			# is_playable = yes
+			# has_dharmic_religion_trigger = yes
+			# NOT = { religion = hindu }
+			# is_theocracy = no
+			# NOT = {
+				# has_alternate_start_parameter = { key = religion_names value = random }
+			# }
+		# }
+		# allow = {
+			# is_adult = yes
+			# prestige = 500
+			# NOT = { trait = zealous }
+			# any_realm_province = {
+				# religion = hindu
+			# }
+			# custom_tooltip = {
+				# text = indian_has_not_converted
+				# NOT = { has_character_flag = india_converted }
+			# }
+			# holy_order = no
+		# }
+		# effect = {
+			# if = {
+				# limit = { higher_tier_than = BARON }
+				# religion_authority = {
+					# modifier = ruler_converted_from
+				# }
+			# }
+			# religion = hindu
+			# if = {
+				# limit = { higher_tier_than = BARON }
+				# hidden_tooltip = {
+					# religion_authority = {
+						# modifier = ruler_converted_to
+					# }
+				# }
+			# }
+			# set_character_flag = india_converted
+			# prestige = -500
+			# piety = 100
+			# hidden_tooltip = { character_event = { id = RoI.110 } } # Choose branch
+		# }
+		# revoke_allowed = {
+			# always = no
+		# }
+		# ai_will_do = {
+			# factor = 0
+		# }
+	# }
 
-	convert_to_buddhism = {
-		only_playable = yes
-		icon_religion = buddhist
+	# convert_to_buddhism = {
+		# only_playable = yes
+		# icon_religion = buddhist
 		
-		filter = self
-		ai_target_filter = self
-		ai = no
+		# filter = self
+		# ai_target_filter = self
+		# ai = no
 	
-		potential = {
-			is_playable = yes
-			has_dharmic_religion_trigger = yes
-			NOT = { religion = buddhist }
-			is_theocracy = no
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-		allow = {
-			is_adult = yes
-			prestige = 500
-			NOT = { trait = zealous }
-			any_realm_province = {
-				religion = buddhist
-			}
-			custom_tooltip = {
-				text = indian_has_not_converted
-				NOT = { has_character_flag = india_converted }
-			}
-		}
-		effect = {
-			if = {
-				limit = { higher_tier_than = BARON }
-				religion_authority = {
-					modifier = ruler_converted_from
-				}
-			}
-			religion = buddhist
-			if = {
-				limit = { higher_tier_than = BARON }
-				hidden_tooltip = {
-					religion_authority = {
-						modifier = ruler_converted_to
-					}
-				}
-			}
-			set_character_flag = india_converted
-			prestige = -500
-			piety = 100
-			hidden_tooltip = { character_event = { id = RoI.111 } } # Choose branch
-		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+		# potential = {
+			# is_playable = yes
+			# has_dharmic_religion_trigger = yes
+			# NOT = { religion = buddhist }
+			# is_theocracy = no
+			# NOT = {
+				# has_alternate_start_parameter = { key = religion_names value = random }
+			# }
+		# }
+		# allow = {
+			# is_adult = yes
+			# prestige = 500
+			# NOT = { trait = zealous }
+			# any_realm_province = {
+				# religion = buddhist
+			# }
+			# custom_tooltip = {
+				# text = indian_has_not_converted
+				# NOT = { has_character_flag = india_converted }
+			# }
+		# }
+		# effect = {
+			# if = {
+				# limit = { higher_tier_than = BARON }
+				# religion_authority = {
+					# modifier = ruler_converted_from
+				# }
+			# }
+			# religion = buddhist
+			# if = {
+				# limit = { higher_tier_than = BARON }
+				# hidden_tooltip = {
+					# religion_authority = {
+						# modifier = ruler_converted_to
+					# }
+				# }
+			# }
+			# set_character_flag = india_converted
+			# prestige = -500
+			# piety = 100
+			# hidden_tooltip = { character_event = { id = RoI.111 } } # Choose branch
+		# }
+		# revoke_allowed = {
+			# always = no
+		# }
+		# ai_will_do = {
+			# factor = 0
+		# }
+	# }
 
-	convert_to_jainism = {
-		only_playable = yes
-		icon_religion = jain
+	# convert_to_jainism = {
+		# only_playable = yes
+		# icon_religion = jain
 		
-		filter = self
-		ai_target_filter = self
-		ai = no
+		# filter = self
+		# ai_target_filter = self
+		# ai = no
 	
-		potential = {
-			is_playable = yes
-			has_dharmic_religion_trigger = yes
-			NOT = { religion = jain }
-			is_theocracy = no
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-		allow = {
-			is_adult = yes
-			holy_order = no
-			prestige = 500
-			NOT = { trait = zealous }
-			any_realm_province = {
-				religion = jain
-			}
-			custom_tooltip = {
-				text = indian_has_not_converted
-				NOT = { has_character_flag = india_converted }
-			}
-		}
-		effect = {
-			if = {
-				limit = { higher_tier_than = BARON }
-				religion_authority = {
-					modifier = ruler_converted_from
-				}
-			}
-			religion = jain
-			if = {
-				limit = { higher_tier_than = BARON }
-				hidden_tooltip = {
-					religion_authority = {
-						modifier = ruler_converted_to
-					}
-				}
-			}
-			set_character_flag = india_converted
-			prestige = -500
-			piety = 100
-			hidden_tooltip = { character_event = { id = RoI.112 } } # Choose branch
-		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+		# potential = {
+			# is_playable = yes
+			# has_dharmic_religion_trigger = yes
+			# NOT = { religion = jain }
+			# is_theocracy = no
+			# NOT = {
+				# has_alternate_start_parameter = { key = religion_names value = random }
+			# }
+		# }
+		# allow = {
+			# is_adult = yes
+			# holy_order = no
+			# prestige = 500
+			# NOT = { trait = zealous }
+			# any_realm_province = {
+				# religion = jain
+			# }
+			# custom_tooltip = {
+				# text = indian_has_not_converted
+				# NOT = { has_character_flag = india_converted }
+			# }
+		# }
+		# effect = {
+			# if = {
+				# limit = { higher_tier_than = BARON }
+				# religion_authority = {
+					# modifier = ruler_converted_from
+				# }
+			# }
+			# religion = jain
+			# if = {
+				# limit = { higher_tier_than = BARON }
+				# hidden_tooltip = {
+					# religion_authority = {
+						# modifier = ruler_converted_to
+					# }
+				# }
+			# }
+			# set_character_flag = india_converted
+			# prestige = -500
+			# piety = 100
+			# hidden_tooltip = { character_event = { id = RoI.112 } } # Choose branch
+		# }
+		# revoke_allowed = {
+			# always = no
+		# }
+		# ai_will_do = {
+			# factor = 0
+		# }
+	# }
 
 	convert_indian_branch = {
 		only_playable = yes

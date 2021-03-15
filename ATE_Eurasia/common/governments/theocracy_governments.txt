@@ -27,6 +27,7 @@ theocracy_governments = {
 		potential = {
 			holy_order = no
 			is_patrician = no
+			NOT = { trait = heresiarch }
 			NAND = {
 				OR = {
 					religion = yazidi
