@@ -352,7 +352,7 @@ turkic_west = {
 		from_dynasty_prefix = "of "
 		
 		male_patronym = "-oglu"
-		female_patronym = "ovna"
+		female_patronym = "-kizi"
 		prefix = no
 
 		pat_grf_name_chance = 50
@@ -366,22 +366,64 @@ turkic_west = {
 		modifier = default_culture_modifier
 	}
 	kumyk = {
-		graphical_cultures = { westernslavicgfx }
+		graphical_cultures = { cumangfx turkishgfx mongolgfx easternslavicgfx muslimgfx egyptiangfx }
 
 		color = { 0.4 0.7 0.6 }
 
 		male_names = {
-			Aleksander_Alexander
+			Abdulatip_Abdullatif Abdulgerey Abdulhakim_Abdulhakim Abdulhalim_Abdulhalim Abdulla_Abdullah Abdulqadyr_Abdulqadir Abdurahman_Abdulrahman Abdurazaq_Abdulrazzaq Abrek Abubakar_Abu-Bakr Abusamat Abusup'yan Abutalib Adilhan Adilmurza Adjamat Aghabek Aghahan Aghakerim Aghamurza Agharahim Aghav'yash Aghay Ahmat_Ahmad Ali_Ali Alibek Alidin_Alauddin Aligishi Alihan_Alikhan Alim Alimhan Alimpasha Alimsoltan Alimurat Aliqylyç Almashan Amir Amirali Amirhan_Amirkhan Anvar_Anwar Aqbolat Aqmurza Aqgyoz Arabhan Arabstan Arsen Arslan Arslanbek Arslangerey Arslanhan Ashtarhan Asilhan Askerhan Asylbek Atabay Atahaji Ataq Atav Atay Avarhan Aybatyr Aybay Aybolat Aydemir Aygyun Aynutdin 
+			Bahavdin Bahtiyar_Bakhtiyar Bahtumagha Balgishi Batyr_Baatar Batyrbek Baybatyr Baybek Baybolat Baygerey Baygishi Baymurza Bayramali Bayrambek Bayramgishi Baysoltan Baytemir Bekbolat_Bekbulat Bekmurza Bektemir Biybolat Biygerey Biygishi Biymurat Biysoltan Biytemir Bolat Bolathan Bolatbek Boraghan Boranbiy Bozigit Budayçy Byoryu Byoryubiy Byoryuhan  
+			Çerkes Çerkeshan Çopan Çotan Çortan 
+			Dengizbiy Derbenthan Dilbar Dinislam Dinmahammat 
+			Edilbiy Egizbay Elbay Elbrus Elder_Eldar Elderhan Elmurza Erkeç Ertabun Esengerey 
+			Genje Gereyhaji Gereyhan Gereysoltan Giççihan Giççulan Gyoqgyoz Gyuçyuk 
+			Habib_Habib Hadiyatullah_Hidayatullah Hajiahmat Hajigishi Hajimahammat Hajimurat_Hajimurad Hakim_Hakim Hamza_Hamza Hamzabek Hanarslan Hangerey Hangishi Hanmurza Hanpasha_Khanpasha Hansoltan_Khansultan Hantemir_Cantemir Hasan_Hasan Haydar Hayrulla_Khayrullah Hayrutdin_Khayruddin Hindustan Husen_Huseyn 
+			Idris_Idris Ilmidin Ilyas_Elijah Imamdin Imanali Imanmurza Imanqaziali Imanzahir Indyrçy Iniv Iramdin Isamdin Isaq_Isaac Islam Islamdin Ismayil_Ismail Izamdin 
+			Jamal_Jamal Jamaldin_Jamaluddin Jamil_Jamil Janarslan Janbolat_Dzhambulat Jangishi Janmurza Jantemir Janybek_Janibeg Javat_Jawad Javathan Jumabiy_Jumabay Jumagishi 
+			Kamil_Kamil Kamilhan Kazbek Kerim_Karim 
+			Laçin 
+			Mahammat_Muhammad Mahammathan Mahammatnabi Mahammatshapi Mahmut_Mahmud Majid_Majid Malik_Malik Marid Marsel Mikail_Michael Minatulla Mingsoltan Misirbiy Misirpasha Murat_Murad Muratbek Murathan Murathanhaji Murza_Mirza Murzabek Murzahan Muslim Muslimhan Mutalim 
+			Nabi Nabigulla Nabiyrulla Najmutdin_Najmuddin Nariman Nasurulla Nizam_Nizam Noghay Noghaymurza Nuramat Nuripasha Nurmahammat Nyurahmat Nyurali Nyurmahammat Nyurpasha 
+			Ölmes Oraqçy Orazay Orushan 
+			Pasha_Pasha Pashabek Pirali Piramat Pirmahammat 
+			Qabarty Qaçak Qalabek Qalsyn Qazaq Qazaqbiy Qaplan Qaplanhan Qaraçay Qaragishi Qaramurza Qartgishi Qazanly Qoçghar Qonaqbiy Qorqmas Qoyçu Qozu Qurash Qurman Qurmanbek Qylyç_Kilij Qyrym Qyrymhan 
+			Rahmatulla_Rahmatullah Rajab_Rajab Rashit_Rashid Rashithan Rasul_Rasul Rizvan Ruslan Rustam 
+			Salamat Salavdin_Salahuddin Salih Salim_Salim Salimgishi Salimhan Salimsoltan Sarali Sarimurza Selderhan Shahabutdin_Shahabuddin Shahgerey Shahmandar Shahmurat Shahsoltan Shairsoltan Shihmurat Shihmurza Shihsoltan Shihtemir Soltan_Sultan Soltanahmat Soltanali Soltanbiy Soltangerey Soltangishi Soltanmahmut Soltanmurat_Sultanmurad Spartak_Spartacus Stambul Syuyunç Syuyunçgerey 
+			Tana Tashav Tashavhaji Tashbek Tashtemir Tavlu Tatarhan Taymas Taymashan Temir_Timur Temirbek Temirbiy Temirbolat Temirgerey Temirhan_Timurkhan Temirlan_Tamerlane Temirsoltan Terekmurza Toqtar Toturbiy 
+			Ulantay Ulata Ulluaqay Ullubiy_Ulugbek Ulluhan Umarpasha Ustaq Ustaqay 
+			Validin Vazir 
+			Yahsayhan Yah'ya_John Yah'yahaji Yarash Yarashbek Yavmurza Yolçu Yusup_Joseph 
+			Zabit Zagir Zalimhan Zaur Zaynutdin_Zaynuddin Zaytun 
 		}
 
 		female_names = {
-			Aleksandra_Alexandra 
+			Aba Aida Ajabike Ajay Almagyul Almajan Alnyurhayat Altyn Altynçaç Altynjan Ana Anav Aqbet Aqbike Aqpatimat Ariv Arivay Arivajay Arivbet Arivjan Arivqyz Arivzat Asilbike Asilgyul Asilhanym Asiljan Asilzat Aslyhanym Atiyahan Avarhan Avarhanum Aybala Aybike Ayday Aygerek Aygimik Aygyul Ayhanym Aymesey Aypatimat Aysurat 
+			Balajan Balbike Balqyz Balsheker Balterek Baybike Bayqyz Bayramqyz Bayzat Bibi Biyke Biykebay Burliyat 
+			Çabaq 
+			Dyunyahanum 
+			Ebe Eçiv Eslijan Eva_Eve Evahan Ezbike 
+			Giççibike Giççiqyz Gunariv Gyogyurçyun Gyozel_Gözel Gyulbaghydat Gyulbahça Gyulçeçek_Gulcicek Gyulhanat Gyulhanym Gyuljamal Gyuljan Gyuller Gyulperi Gyulqyz Gyulsenem Gyul'yar Gyulzahra Gyumyush Gyunariv 
+			Habibat_Habiba Hajiqatyn Hajiqyz Hanisa Hidiyahan Hurma Hyuriyat 
+			Ilmu Ilmuhan Ilmuhanym Ilmuhat Ilmuhayat Indira Indiyat Injili Injilhan Injiqyz Ispaniyat 
+			Jamilya_Jamila Jaminat Janariv Janbike Jayran Jennet Jennethan Jennethanym Jumaqyz Jumla 
+			Kabahan Kabash Kalimat Kamilat_Kamila Kepiyahanym Kerimat_Karima 
+			Lala Limon 
+			Madina Madiyahan Makka Makkahan Malikat_Malika Maral Mariyat Marjan Marjanat Maya Melevshe Milana Mingariv Mingliqyz 
+			Nadia Narqyz Nazlyhanym Niyarhan Niyarhanym Nyurbike Nyurhaniyat Nyurhanym Nyurjan Nyurpiyat Nyurqyyat Nyur'yahan Nyur'yan 
+			Patimat_Fatima Patimahan Patimahanym Patimatzahra Pirjan 
+			Qurmanqyz Qyzaybat Qyzbiyke Qyzhanym Qyztaman 
+			Rashiya Rashiyahan Rashiyahanym Raviya Raviyahan Raviyahanym Rayjan Roza_Rose 
+			Sadia Saida Salamat Salimahan Salimahanym Salimat_Salima Shavahan Sheker Shekerhan Shekerhanym Shevlehanym Soltaniyat_Sultana Sona Sonahan Sonahanym Syurmeli Syuygyul Syuyunçbike Syyly 
+			Tamanqyz Tavbike Tyurkyustan Totu Totuhan Totuhanym Totuqush Totur 
+			Ulaba Ulanbegi Ulangerek Umuhan Umzahra 
+			Yaqut Yasin Yulduz_Yildiz Yulduzat Yuzmanat 
+			Zagirat Zahra Zaynalhanym Zaytunat Zazabike Zuhra Zuhrahanym Zumrut 
 		}
 		
 		from_dynasty_prefix = "of "
 		
-		male_patronym = "ovich"
-		female_patronym = "ovna"
+		male_patronym = "ny ulany"
+		female_patronym = "ny qyzy"
 		prefix = no
 
 		pat_grf_name_chance = 50
