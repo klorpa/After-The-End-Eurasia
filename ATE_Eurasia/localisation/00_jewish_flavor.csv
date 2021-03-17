@@ -33,8 +33,10 @@ form_empire_pale;Form Der Tkhum HaMoyshav;;;;;;;;;;;;;x
 form_empire_pale_desc;If the Yiddish heartlands are been gathered under your rule, a new Empire can be created.;;;;;;;;;;;;;x
 interfaith_dialogue;Interfaith Seminar;;;;;;;;;;;;;x
 interfaith_dialogue_desc;Interfaith Dialogue is an important aspect of pious Haskalah Jews, surrounded by powerful non-Jewish Realms you could hold an inter-faith dialogue seminar with a nieghboring Non-Jewish Realm.;;;;;;;;;;;;;x
+shvil_israel;Travel Shvil Israel;;;;;;;;;;;;;x
+shvil_israel_desc;Tour the land of the fathers, and visit the holy sites of Judaism;;;;;;;;;;;;;x
 
-###########Jewish Event###########
+###########Jewish Events###########
 
 EVTDESC_haredi_choose;I find myself distanced from the community I was raised in. The teachings I once valued no longer hold the same meaning. While it might cause scandal, I can choose to join another Haredi community, but which teachings should I choose to follow?;;;;;;;;;;;;;x
 EVTOPT_haredi_yashvai;I will follow the teachings of the Roshei Yeshiva;;;;;;;;;;;;;x
@@ -136,6 +138,17 @@ EVTDESC_SoA_509;The chametz in your storerooms remains in your castle, though no
 EVTOPTA_SoA_509;This should bring us closer together.;;;;;;;;;;;;;x
 EVTDESC_SoA_510;The eight long days of Passover are finally over and it has come time for the feast of Mimouna! As soon as [chametz_sale.GetBestName] comes back with the money for you to "buy back" your chametz, the cooks rush to your storeroom, quickly preparing a heaping pile of mofletta pancakes spread with honey and filling the table with Babke and Ma'amoul.;;;;;;;;;;;;;x
 EVTOPTA_SoA_510;"Come in and dine with us, [chametz_sale.GetFirstName]!";;;;;;;;;;;;;x
+
+##########Shvil Israel Events###########
+EVTNAME_shvil_israel_tsfat;Reaching Tsfat;;;;;;;;;;;;;x
+EVTDESC_shvil_israel_tsfat;Ever since the fall of the Temple, Tsfat has been a religious center for Jews. Here the great scholars of the kabbalah lived and wrote, and the "Shulchan Aroch" was written right here. Capital of the Galille, the city has seen many rises and falls, and has been a cultural center for jews for many centuries.;;;;;;;;;;;;;x
+EVTOPT_shvil_israel_tsfat;How beautiful is the city of Kabbala;;;;;;;;;;;;;x
+EVTNAME_shvil_israel_tiberias;Reaching Tiberias;;;;;;;;;;;;;x
+EVTDESC_shvil_israel_tiberias;The city on the Kinneret is a beautiful sight.;;;;;;;;;;;;;x
+EVTOPT_shvil_israel_tiberias;Were you real my kinneret, or was it only a dream?;;;;;;;;;;;;;x
+EVTNAME_shvil_israel_jerusalem;Reaching Jerusalem;;;;;;;;;;;;;x
+EVTDESC_shvil_israel_jerusalem;Al-Quds, Yerushalayim, Tzion, the City of David and the Prophets. The city that has 70 names, but none can decribe it truly. Her winding streets and high walls were ancient a millennium before the Event, packed into every corner of the Old City are treasures and holy places. Atop the temple mount gleams the golden enameled Dome of the Rock, nearby stands the Western Wall of the Temple, and a quarter mile away sprawls the pilgrim-packed halls and chapels of the Holy Sepulchre. She has borne herself through countless years of battle and bloodshed, under the sandaled feet of her inhabitants lay the bones of ancient warriors and kings, some from half the world away it is said. Her people pray that Jerusalem may survive as a monument to peace and tolerance in a world plunged back into an age of religious strife and war, a true “City of Peace.”;;;;;;;;;;;;;x
+EVTOPT_shvil_israel_jerusalem;If I forget you, Jerusalem, let my right hand forget its skill!;;;;;;;;;;;;;x
 
 #yeshiva event chain
 EVTDESC_yeshiva_1;A New letter has arrived from the Rosh Yeshiva: you have been accepted as a student! Soon you will pack your bags and begin your studying under great scholars of Talmud.;;;;;;;;;;;;;x

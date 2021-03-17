@@ -1,0 +1,556 @@
+#1-determine which pilgrimage
+#2-Dan
+#3-Tsfat
+#4-Tiberias
+#5-tel_aviv
+#6-yavne
+#7-jerusalem
+#8-hebron
+#9-masada
+#10-River Crossing
+#20-Hunting
+#30-Broken Wheel
+#40-Dysentery
+#50-remove flags
+#51-return to trail
+
+#TODO :
+# - rework the challenge events (10-40)
+# - figure out event pictures
+# - add the traitss
+
+ 
+namespace = shvil
+
+narrative_event = {
+	id = shvil.1000
+	title = EVTNAME_shvil_prep
+	desc = EVTDESC_shvil_prep
+	picture = GFX_evt_pilgrims_epic_journey
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPT_shvil_prep_cancel
+		piety = -10
+		remove_trait = travelling
+		ai_chance = { factor = 0 }
+	}
+	option = {
+		name = EVTOPT_shvil_prep_humble
+		piety = 20
+		random_list = {
+			20 = { add_trait = humble }
+			10 = { add_trait = trusting }
+			70 = { }
+		}	
+		hidden_tooltip = { narrative_event = { id = shvil.1 days = 7 random = 5 } }
+		ai_chance = { factor = 5 }
+	}
+	option = {
+		name = EVTOPT_shvil_prep_carivan
+		trigger = { 
+			wealth = 25
+		}
+		set_character_flag = extra_wheel
+		prestige = 20
+		wealth = -25
+		random_list = {
+			20 = { add_trait = paranoid }
+			10 = { add_trait = diligent }
+			70 = { }
+		}
+		hidden_tooltip = { narrative_event = { id = shvil.2 days = 10 random = 5 } }
+		ai_chance = { factor = 20 }
+	}
+}
+
+narrative_event = {
+	id = shvil.1
+	title = EVTNAME_shvil_israel_dan
+	desc = EVTDESC_shvil_israel_dan
+	picture = GFX_evt_pilgrims_epic_journey
+
+	is_triggered_only = yes
+	trigger = { trait = travelling }
+	immediate = {
+		set_character_flag = travelling_dan
+	}
+	
+	option = {
+		name = EVTOPT_shvil_israel_dan
+		hidden_tooltip = { 
+			random_list = {
+				25 = {  narrative_event = { id = shvil.10 days = 20 random = 7 } } #river crossing
+				25 = {  narrative_event = { id = shvil.20 days = 20 random = 7 } } #hunting
+				20 = {  narrative_event = { id = shvil.30 days = 20 random = 7 } } #broken wheel
+				10 = {	narrative_event = { id = shvil.40 days = 20 random = 7 } } #dysentery
+				20 = {	narrative_event = { id = shvil.2 days = 20 random = 7 } }  #no event
+			}
+		}
+	}
+}
+
+narrative_event = {
+	id = shvil.2
+	title = EVTNAME_shvil_israel_tsfat
+	desc = EVTDESC_shvil_israel_tsfat
+	picture = GFX_evt_pilgrims_epic_journey
+
+	is_triggered_only = yes
+	trigger = { trait = travelling }
+	immediate = {
+		set_character_flag = travelling_tsfat
+		clr_character_flag = travelling_dan
+	}
+	
+	option = {
+		name = EVTOPT_shvil_israel_tsfat
+		hidden_tooltip = {
+			random_list = {
+				25 = {  narrative_event = { id = shvil.10 days = 20 random = 7 } } #river crossing
+				25 = {  narrative_event = { id = shvil.20 days = 20 random = 7 } } #hunting
+				20 = {  narrative_event = { id = shvil.30 days = 20 random = 7 } } #broken wheel
+				5 = {	narrative_event = { id = shvil.40 days = 20 random = 7 } } #dysentery
+				25 = {	narrative_event = { id = shvil.3 days = 20 random = 7 } }  #no event
+			}
+		}		
+	}
+}
+
+narrative_event = {
+	id = shvil.3
+	title = EVTNAME_shvil_israel_tiberias
+	desc = EVTDESC_shvil_israel_tiberias
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+	trigger = { trait = travelling }
+	immediate = {
+		set_character_flag = travelling_tsfat
+		clr_character_flag = travelling_dan
+	}
+	
+	option = {
+		name = EVTOPT_shvil_israel_tsfat
+		hidden_tooltip = {
+			random_list = {
+				25 = {  narrative_event = { id = shvil.10 days = 20 random = 7 } } #river crossing
+				25 = {  narrative_event = { id = shvil.20 days = 20 random = 7 } } #hunting
+				20 = {  narrative_event = { id = shvil.30 days = 20 random = 7 } } #broken wheel
+				5 = {	narrative_event = { id = shvil.40 days = 20 random = 7 } } #dysentery
+				25 = {	narrative_event = { id = shvil.3 days = 20 random = 7 } }  #no event
+			}
+		}		
+	}
+}
+
+narrative_event = {
+	id = shvil.4
+	title = EVTNAME_shvil_israel_haifa
+	desc = EVTDESC_shvil_israel_haifa
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+	trigger = { trait = travelling }
+	immediate = {
+		set_character_flag = travelling_haifa
+		clr_character_flag = travelling_tsfat
+	}
+	
+	option = {
+		name = EVTOPT_shvil_israel_tsfat
+		hidden_tooltip = {
+			random_list = {
+				25 = {  narrative_event = { id = shvil.10 days = 20 random = 7 } } #river crossing
+				25 = {  narrative_event = { id = shvil.20 days = 20 random = 7 } } #hunting
+				20 = {  narrative_event = { id = shvil.30 days = 20 random = 7 } } #broken wheel
+				5 = {	narrative_event = { id = shvil.40 days = 20 random = 7 } } #dysentery
+				25 = {	narrative_event = { id = shvil.5 days = 20 random = 7 } }  #no event
+			}
+		}		
+	}
+}
+
+narrative_event = {
+	id = shvil.5
+	title = EVTNAME_shvil_israel_tel_aviv
+	desc = EVTDESC_shvil_israel_tel_aviv
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+	trigger = { trait = travelling }
+	immediate = {
+		set_character_flag = travelling_tel_aviv
+		clr_character_flag = travelling_haifa
+	}
+	
+	option = {
+		name = EVTOPT_shvil_israel_tel_aviv
+		hidden_tooltip = {
+			random_list = {
+				25 = {  narrative_event = { id = shvil.10 days = 20 random = 7 } } #river crossing
+				25 = {  narrative_event = { id = shvil.20 days = 20 random = 7 } } #hunting
+				20 = {  narrative_event = { id = shvil.30 days = 20 random = 7 } } #broken wheel
+				5 = {	narrative_event = { id = shvil.40 days = 20 random = 7 } } #dysentery
+				25 = {	narrative_event = { id = shvil.6 days = 20 random = 7 } }  #no event
+			}	
+		}
+	}
+}
+
+narrative_event = {
+	id = shvil.6
+	title = EVTNAME_shvil_israel_yavne
+	desc = EVTDESC_shvil_israel_yavne
+	picture = GFX_evt_pilgrims_epic_journey
+
+	is_triggered_only = yes
+	trigger = { trait = travelling }
+	immediate = {
+		set_character_flag = travelling_yavne
+		clr_character_flag = travelling_tel_aviv
+	}
+	
+	option = {
+		name = EVTOPT_shvil_israel_yavne
+		hidden_tooltip = {
+			random_list = {
+				25 = {  narrative_event = { id = shvil.10 days = 20 random = 7 } } #river crossing
+				25 = {  narrative_event = { id = shvil.20 days = 20 random = 7 } } #hunting
+				20 = {  narrative_event = { id = shvil.30 days = 20 random = 7 } } #broken wheel
+				5 = {	narrative_event = { id = shvil.40 days = 20 random = 7 } } #dysentery
+				25 = {	narrative_event = { id = shvil.7 days = 20 random = 7 } }  #no event
+			}
+		}
+	}
+}
+
+narrative_event = {
+	id = shvil.7
+	title = EVTNAME_shvil_israel_jerusalem
+	desc = EVTDESC_shvil_israel_jerusalem
+	picture = GFX_evt_jerusalem_captured_jews
+
+	is_triggered_only = yes
+	trigger = { trait = travelling }
+	immediate = {
+		set_character_flag = travelling_jerusalem
+		clr_character_flag = travelling_yavne
+	}
+	
+	option = {
+		name = EVTOPT_shvil_israel_jerusalem
+		hidden_tooltip = {
+			random_list = {
+				25 = {  narrative_event = { id = shvil.10 days = 20 random = 7 } } #river crossing
+				25 = {  narrative_event = { id = shvil.20 days = 20 random = 7 } } #hunting
+				20 = {  narrative_event = { id = shvil.30 days = 20 random = 7 } } #broken wheel
+				5 = {	narrative_event = { id = shvil.40 days = 20 random = 7 } } #dysentery
+				25 = {	narrative_event = { id = shvil.8 days = 20 random = 7 } }  #no event
+			}		
+		}
+	}
+}
+
+narrative_event = {
+	id = shvil.8
+	title = EVTNAME_shvil_israel_hebron
+	desc = EVTDESC_shvil_israel_hebron
+	picture = GFX_evt_hebron
+
+	is_triggered_only = yes
+	trigger = { trait = travelling }
+	immediate = {
+		set_character_flag = travelling_hebron
+		clr_character_flag = travelling_jerusalem
+	}
+	
+	option = {
+		name = EVTOPT_shvil_israel_hebron
+		hidden_tooltip = {
+			random_list = {
+				25 = {  narrative_event = { id = shvil.10 days = 20 random = 7 } } #river crossing
+				25 = {  narrative_event = { id = shvil.20 days = 20 random = 7 } } #hunting
+				20 = {  narrative_event = { id = shvil.30 days = 20 random = 7 } } #broken wheel
+				5 = {	narrative_event = { id = shvil.40 days = 20 random = 7 } } #dysentery
+				25 = {	narrative_event = { id = shvil.9 days = 20 random = 7 } }  #no event
+			}		
+		}
+	}
+}
+
+narrative_event = {
+	id = shvil.9
+	title = EVTNAME_shvil_israel_masada
+	desc = EVTDESC_shvil_israel_masada
+	picture = GFX_evt_nauvoo
+
+	is_triggered_only = yes
+	trigger = { trait = travelling }
+	immediate = {
+		clr_character_flag = travelling_hebron
+	}
+	
+	option = {
+		name = EVTOPT_shvil_success
+		piety = 100
+		prestige = 100
+		remove_trait = travelling
+		set_character_flag = went_on_ivri_pilgrimage
+		if = {
+			limit = { higher_tier_than = BARON }
+			religion_authority = { modifier = ruler_pilgrimage }
+		}
+		hidden_tooltip = { character_event = { id = shvil.50 days = 2 } }
+	}	
+}
+
+## River Crossing
+narrative_event = {
+	id = shvil.10
+	title = EVTNAME_shvil_river
+	desc = EVTDESC_shvil_river
+	picture = GFX_evt_ot_river
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPT_shvil_river_ferry
+		trigger = { 
+			wealth = 10
+		}
+		wealth = -10
+		hidden_tooltip = { character_event = { id = shvil.51 } }
+		
+	}
+	option = {
+		name = EVTOPT_shvil_river_raft
+		trigger = {
+			wealth = 5
+		}
+		wealth = -5
+		hidden_tooltip = {
+			random_list = {
+				80 = { character_event = { id = shvil.51 } } 
+				20 = { character_event = { id = shvil.30 } } 
+			}	
+		}
+	}	
+	option = {
+		name = EVTOPT_shvil_river_ford
+		hidden_tooltip = {
+			random_list = {
+				60 = { character_event = { id = shvil.51 } }
+				40 = { narrative_event = { id = shvil.30 days = 1 } }
+			}	
+		}
+	}
+}
+
+## Hunting
+narrative_event = {
+	id = shvil.20
+	title = EVTNAME_shvil_hunt
+	desc = EVTDESC_shvil_hunt
+	picture = GFX_evt_hunt
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_shvil_hunt
+		trigger = {
+			NOT = { health_traits = 1 }
+			NOT = { trait = craven }
+		}
+		prestige = 10
+		random_list = {
+			80 = { hidden_tooltip = { character_event = { id = shvil.51 } } }
+			15 = { 
+				change_martial = 1
+				hidden_tooltip = { character_event = { id = shvil.51 } }
+			}
+			2 = {
+				add_trait = wounded
+				hidden_tooltip = { character_event = { id = shvil.51 } }
+			}
+			2 = {
+				add_maimed_trait_effect = yes
+				hidden_tooltip = { character_event = { id = shvil.51 } }
+			}
+			1 = {
+				death = { death_reason = death_accident }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT_shvil_hunt_buy
+		trigger = {
+			wealth = 10
+		}
+		wealth = -10
+		hidden_tooltip = { character_event = { id = shvil.51 } }
+	}
+	option = {
+		name = EVTOPT_shvil_hunt_hunger
+		prestige = -10
+		hidden_tooltip = {
+			random_list = {
+				85 = { character_event = { id = shvil.51 } } 
+				15 = { character_event = { id = shvil.40 } } 
+			}
+		}
+	}		
+}
+
+## Broken Wheel
+narrative_event = {
+	id = shvil.30
+	title = EVTNAME_shvil_wagon
+	desc = EVTDESC_shvil_wagon
+	picture = GFX_evt_bad_news
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_shvil_wagon_spare
+		trigger = {
+			has_character_flag = extra_wheel
+		}
+		prestige = 10
+		hidden_tooltip = { 
+			clr_character_flag = extra_wheel
+			character_event = { id = shvil.51 } 
+		}
+	}	
+	option = {
+		name = EVTOPT_shvil_wagon_repair
+		trigger = {
+			NOT = { health_traits = 1 }
+			NOT = { trait = craven }
+		}
+		prestige = 15
+		random_list = {
+			80 = { hidden_tooltip = { character_event = { id = shvil.51 } } }
+			15 = { 
+				change_stewardship = 1
+				hidden_tooltip = { character_event = { id = shvil.51 } }
+			}
+			2 = {
+				add_trait = wounded
+				hidden_tooltip = { character_event = { id = shvil.51 } }
+			}
+			2 = {
+				add_maimed_trait_effect = yes
+				hidden_tooltip = { character_event = { id = shvil.51 } }
+			}
+			1 = {
+				death = { death_reason = death_accident }
+			}
+		}
+	}
+	option = {
+		name = EVTOPT_shvil_wagon_buy
+		trigger = {
+			wealth = 10
+		}
+		wealth = -10
+		hidden_tooltip = { character_event = { id = shvil.51 } }
+	}
+	option = {
+		name = EVTOPT_shvil_wagon_wait
+		prestige = -10
+		wealth = -1
+		hidden_tooltip = { character_event = { id = shvil.51 days = 20 random = 7 } }	
+	}		
+}
+
+narrative_event = {
+	id = shvil.40
+	title = EVTNAME_shvil_israel_failure
+	desc = EVTDESC_shvil_israel_failure
+	picture = GFX_evt_illness
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_character_flag = failed_pilgrim
+		character_event = { id = shvil.50 days = 2 }
+	}
+	
+	option = {
+		name = EVTOPT_shvil_failure
+		trigger = {
+			NOT = { has_dlc = "Reapers" }
+		}
+		piety = -50
+		prestige = -50
+		random_list = {
+			40 = { add_trait = cynical }
+			10 = { add_trait = depressed }
+			50 = { }
+		}
+		remove_trait = travelling
+		add_character_modifier = { name = dysentery duration = 30 }
+	}
+	
+	option = {
+		name = EVTOPT_shvil_failure
+		trigger = {
+			has_dlc = "Reapers"
+		}
+		piety = -50
+		prestige = -50
+		random_list = {
+			40 = { add_trait = cynical }
+			10 = { add_trait = depressed }
+			50 = { }
+		}
+		remove_trait = travelling
+		give_dysentery_effect = yes
+	}
+}
+
+character_event = {
+	id = shvil.50
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		clr_character_flag = extra_wheel
+		clr_character_flag = travelling_dan
+		clr_character_flag = travelling_tsfat
+		clr_character_flag = travelling_haifa
+		clr_character_flag = travelling_tel_aviv
+		clr_character_flag = travelling_yavne
+		clr_character_flag = travelling_jerusalem
+		clr_character_flag = travelling_hebron
+		if = {
+			limit = {
+				has_quest = quest_monastic_order_pilgrimage_mormon
+			}
+			character_event = { id = MNM.40200 days = 1}
+		}
+	}
+}
+
+character_event = {
+	id = shvil.51
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		if = { limit = { has_character_flag = travelling_dan }
+			character_event = { id = shvil.3 days = 3 } }	
+		if = { limit = { has_character_flag = travelling_tsfat }
+			character_event = { id = shvil.4 days = 3 } }	
+		if = { limit = { has_character_flag = travelling_haifa }
+			character_event = { id = shvil.5 days = 3 } }	
+		if = { limit = { has_character_flag = travelling_tel_aviv }
+			character_event = { id = shvil.6 days = 3 } }	
+		if = { limit = { has_character_flag = travelling_yavne }
+			character_event = { id = shvil.7 days = 3 } }
+		if = { limit = { has_character_flag = travelling_jerusalem }
+			character_event = { id = shvil.8 days = 3 } }
+		if = { limit = { has_character_flag = travelling_hebron}
+			character_event = { id = shvil.9 days = 3 } }
+	}
+}
