@@ -14858,7 +14858,14 @@ buddhist_holy_war = {
 		ROOT = {
 			OR = {
 				religion_group = buddhist_group
-				religion = neuhumanist
+				AND = {
+					religion = neuhumanist
+					OR = {
+						tier = BARON
+						tier = COUNT
+						tier = DUKE
+					}
+				}
 			}
 			NOT = { same_realm = FROM }
 			OR = {
