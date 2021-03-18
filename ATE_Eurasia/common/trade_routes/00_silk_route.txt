@@ -14,7 +14,7 @@ silk_road = {
 
 	start = {				# Start provinces of trade route
 		1092 # Mogocha
-		1362 # Jiuquan
+		2736 # Road to China
 	}
 
 	# Trans-Siberian Railway
@@ -28,7 +28,7 @@ silk_road = {
 	
 	# Silk Road Classic!
 	path = {
-		1362 1361
+		2721 2732 1361
 	}
 	
 	#South Tarim
@@ -41,7 +41,7 @@ silk_road = {
 	}
 	#Tian Shan Route
 	path = {
-		1362 1268 1267 1266 2132 1269 1210 1209 970 1298 1299 1276
+		2721 1268 1267 1266 2132 1269 1210 1209 970 1298 1299 1276
 	}
 	#Steppe Route
 	path = {
@@ -109,6 +109,6 @@ silk_road = {
 	}
 	#Silk Road China Start
 	path = {
-		1363 1362
+		2736 1363 2726 1362 2721
 	}
 }
