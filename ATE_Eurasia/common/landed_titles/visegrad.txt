@@ -7,7 +7,7 @@ e_visegrad = {
 	capital = 1169 #Buda
 	
 	k_hungary = {
-		color={ 159 78 70 }
+		color={ 169 78 70 }
 		color2={ 255 255 255 }
 		
 		capital = 1170 # c_pest
@@ -47,6 +47,18 @@ e_visegrad = {
 				b_szigetszentmiklos = {}
 				b_pestszentlorinc_pestszentimre = {}
 			}
+			c_komarom_esztergom = {
+				color={ 52 102 161 }
+				color2={ 255 255 255 }
+				
+				b_esztergom = {}
+				b_komarom = {}
+				b_tata_2 = {}
+				b_tatabanya = {}
+				b_kisber = {}
+				b_dorog = {}
+				b_nagyigmand = {}
+			}
 		}
 		d_transdanubia = {
 			color={ 139 68 100 }
@@ -77,18 +89,6 @@ e_visegrad = {
 				b_mosonmagyarovar = {}
 				b_kapuvar = {}
 				b_csorna = {}
-			}
-			c_komarom_esztergom = {
-				color={ 52 102 161 }
-				color2={ 255 255 255 }
-				
-				b_esztergom = {}
-				b_komarom = {}
-				b_tata_2 = {}
-				b_tatabanya = {}
-				b_kisber = {}
-				b_dorog = {}
-				b_nagyigmand = {}
 			}
 			c_veszprem = { # 1167
 				color={ 145 70 115 }
@@ -168,8 +168,14 @@ e_visegrad = {
 				b_kisvarda = {}
 				b_hajduszoboszlo = {}
 			}
+		}
+		d_greater_nograd = {
+			color={ 159 120 100 }
+			color2={ 255 255 255 }
+			
+			capital = 1173 #Borsod
 			c_borsod = { # 1174
-				color={ 251 125 65 }
+				color={ 159 110 100 }
 				color2={ 255 255 255 }
 				
 				b_felsozsolca = {}
@@ -181,8 +187,8 @@ e_visegrad = {
 				b_emod = {}
 				b_mezokovesd = {}
 			}
-			c_heves = {
-				color={ 201 100 84 }
+			c_heves = { # 2651
+				color={ 150 100 84 }
 				color2={ 255 255 255 }
 				
 				b_eger = {
