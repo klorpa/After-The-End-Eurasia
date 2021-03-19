@@ -14858,13 +14858,7 @@ buddhist_holy_war = {
 		ROOT = {
 			OR = {
 				religion_group = buddhist_group
-				AND = {
-					religion = neuhumanist
-					OR = {
-						tier = BARON
-						tier = COUNT
-						tier = DUKE
-					}
+				#religion = neuhumanist
 				}
 			}
 			NOT = { same_realm = FROM }
@@ -14906,7 +14900,17 @@ buddhist_holy_war = {
 			is_nomadic = no
 		}
 	}
-	
+	can_use_gui = {
+		ROOT = {
+			OR = {
+				religion_group = buddhist_group
+				#AND = {
+				#	religion = neuhumanist
+				#	lower_tier_than = KING#dukes, counts and barons
+				#}
+			}
+		}
+	}
 	can_use_title = {
 		tier = count
 		
