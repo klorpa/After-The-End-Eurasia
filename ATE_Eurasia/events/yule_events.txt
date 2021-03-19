@@ -243,6 +243,9 @@ character_event = { #You meet an injured old man in the woods
 				learning = 8
 			}
 		}
+		new_character = {
+			character_event = { id = maintenance.4 } #diversity
+		}
 		random_list = {
 			20 = {
 				add_trait = kind

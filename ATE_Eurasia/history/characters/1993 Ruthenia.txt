@@ -1,0 +1,31 @@
+1993180 = { # Count of Uman for the Jewish DD
+	name = "Ze'ev"
+	dynasty = 1822001 #Odesser
+	culture = yiddish
+	religion = haredi
+	trait = charismatic_negotiator
+	trait = haredi_breslov
+	trait = peasant_leader
+	trait = pious
+	trait = gregarious
+	trait = charitable
+	trait = humble
+	2649.1.22 = { birth = yes }
+	2662.1.1 = {
+		prestige=500
+		effect={
+			spawn_unit={
+				province=872 #Uman
+				owner=ROOT
+				troops={
+					archers={250 250}
+					heavy_infantry={250 750}
+					light_infantry={500 500}
+				}
+				attrition=0.5
+			}
+		}
+	}
+}
+
+	

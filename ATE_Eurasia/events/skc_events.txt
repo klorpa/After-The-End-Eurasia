@@ -540,7 +540,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA_royal_touch_8
-		any_demense_province = {
+		random_demense_province = {
 			save_event_target_as = royally_touched_province		
 		}
 		prestige = 50
@@ -788,6 +788,7 @@ character_event = { # Knight character arrives
 	immediate = {
 		spawn_fantastic_commander_effect = yes
 		event_target:invited_character = {
+			character_event = { id = maintenance.4 } #diversity
 			set_character_flag = invited_soldier 
 			set_character_flag = hero_knight
 			remove_trait = cruel
@@ -1021,7 +1022,8 @@ character_event = { # Bard character arrives
 	immediate = {
 		spawn_fantastic_diplomat_effect = yes
 		event_target:invited_character = {
-			add_trait = poet
+			character_event = { id = maintenance.4 } #diversity
+			add_trait = musician
 		}
 	}
 	

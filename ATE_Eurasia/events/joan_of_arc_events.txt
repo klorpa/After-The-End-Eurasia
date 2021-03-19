@@ -96,6 +96,7 @@ province_event = {#creates joan and her armies
 			}
 		}
 		new_character = {
+			character_event = { id = maintenance.4 } #diversity
 			set_character_flag = is_joan
 			set_defacto_liege = THIS
 			prestige = 100
