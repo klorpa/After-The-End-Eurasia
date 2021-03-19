@@ -329,20 +329,8 @@ e_mongolia = {
 			color={ 179 165 25 }
 			color2={ 255 255 255 }
 		
-			capital = 2572 #Alxa
+			capital = 2629 #Yinchuan
 		
-			c_ejin = {
-				color={ 148 149 23 }
-				color2={ 255 255 255 }
-				
-				b_dalaihubu = {}
-				b_hangkong = {}
-				b_dongfeng = {}
-				b_saihan_taolai = {}
-				b_supornur = {}
-				b_mazongshan = {}
-				b_bayintaohai = {}
-			}
 			c_alxa = {
 				color={ 120 150 52 }
 				color2={ 255 255 255 }
@@ -360,24 +348,79 @@ e_mongolia = {
 				color2={ 255 255 255 }
 				
 				b_wuwei = {}
-				b_zhangye = {}
+				b_yanjia = {}
 				b_jinchang = {}
 				b_sanlei = {}
 				b_ganzhou = {}
 				b_xinhualu = {}
 				b_fengle = {}
 			}
+			c_ejin = {
+				color={ 148 149 13 }
+				color2={ 255 255 255 }
+				
+				b_dalaihubu = {}
+				b_hangkong = {}
+				b_dongfeng = {}
+				b_saihan_taolai = {}
+				b_supornur = {}
+				b_mazongshan = {}
+				b_bayintaohai = {}
+			}
+			c_yinchuan = {
+				color={ 100 124 52 }
+				color2={ 255 255 255 }
+				
+				b_yinchuan = {}
+				b_wuzhong = {}
+				b_shizuishan = {}
+				b_wuhai = {}
+				b_pingluo = {}
+				b_yongning = {}
+				b_bayanmuren = {}
+			}
+		}
+		d_hexi = {
+			color={ 142 122 32 }
+			color2={ 255 255 255 }
+		
+			capital = 1362 #Jiuquan
+		
 			c_jiuquan = {
-				color={ 110 120 31 }
+				color={ 130 120 31 }
 				color2={ 255 255 255 }
 				
 				b_jiuquan = {}
 				b_jiayuguan = {}
 				b_suzhou = {}
 				b_yumen = {}
-				b_yuanquan = {}
+				b_jinta = {}
 				b_dangchengwan = {}
+				b_xidong = {}
+			}
+			c_zhangye = {
+				color={ 189 175 59 }
+				color2={ 255 255 255 }
+				
+				b_zhangye = {}
+				b_linze = {}
+				b_shajingzhen = {}
+				b_qingquanzhen = {}
+				b_gaotai = {}
+				b_damayingcun = {}
+				b_xindunzhen = {}
+			}
+			c_dunhuang = {
+				color={ 189 103 47 }
+				color2={ 255 255 255 }
+				
 				b_dunhuang = {}
+				b_guazhou = {}
+				b_qili = {}
+				b_yuanquan = {}
+				b_mogao = {}
+				b_nancha = {}
+				b_zhuanqukou = {}
 			}
 		}
 	}

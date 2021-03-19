@@ -1,41 +1,134 @@
 ###ÄNSI###
 
 e_tibet = {
-	color={ 241 121 100 }
+	color={ 141 43 70 }
 	color2={ 255 255 255 }
 	
 	capital = 2702 #Lhasa
 	
 	k_amdo = {
-		color={ 156 25 16 }
+		color={ 156 65 56 }
 		color2={ 255 255 255 }
 		
 		capital = 2720 # Xining
+		
+		d_qaidam = {
+			color={ 146 29 24 }
+			color2={ 255 255 255 }
+			
+			capital = 2713 #Delingha
+			
+			c_delingha = {
+				color={ 159 59 40 }
+				color2={ 255 255 255 }
+				
+				b_delingha = {}
+				b_hexi = {}
+				b_hedong = {}
+				b_xinyuan = {}
+				b_zhouqun = {}
+				b_kuierma = {}
+				b_gahai = {}
+			}
+			c_golmud = {
+				color={ 187 42 11 }
+				color2={ 255 255 255 }
+				
+				b_golmud = {}
+				b_hexi_2 = {}
+				b_huanghelu = {}
+				b_xizang = {}
+				b_kunlunlu = {}
+				b_dagele = {}
+				b_wutu_meiren = {}
+			}
+			c_dulan = {
+				color={ 141 56 22 }
+				color2={ 255 255 255 }
+				
+				b_chahanwusu = {}
+				b_xiligou = {}
+				b_balong = {}
+				b_zongjia = {}
+				b_xiangride = {}
+				b_chaka = {}
+				b_xiangjia = {}
+			}
+			c_da_qaidam = {
+				color={ 125 46 63 }
+				color2={ 255 255 255 }
+				
+				b_qaidam = {}
+				b_huatugou = {}
+				b_xitieshan = {}
+				b_mangnai = {}
+				b_lenghu = {}
+				b_gashot = {}
+				b_gasxiang = {}
+			}
+		}
 	}
 	
 	k_u_tsang = {
-		color={ 156 25 16 }
+		color={ 171 141 36 }
 		color2={ 255 255 255 }
 		
 		capital = 2702 #Lhasa
+	}
+	k_kashmir = {
+		color={ 176 25 16 }
+		color2={ 255 255 255 }
 		
-		d_ladakh = {
+		capital = 2727 #Srinagar
+		
+		d_jammu_and_kashmir = {
+			color={ 185 35 12 }
+			color2={ 255 255 255 }
+			
+			capital = 2727 #Srinagar
+			
+			c_srinagar = {
+				color={ 126 84 10 }
+				color2={ 255 255 255 }
+				
+				b_srinagar = {}
+				b_awantipur = {}
+				b_kupwara = {}
+				b_sopur = {}
+				b_hera_ahlan = {}
+				b_pahalgam = {}
+				b_sonamarg = {}
+			}
+			c_jammu = {
+				color={ 179 52 53 }
+				color2={ 255 255 255 }
+				
+				b_jammu = {}
+				b_nagrota = {}
+				b_udhampur = {}
+				b_doda = {}
+				b_samba = {}
+				b_kalu_chak = {}
+				b_akhnur = {}
+			}
+		}
+		d_gilgit_baltistan = {
 			color={ 150 110 112 }
 			color2={ 255 255 255 }
 			
-			capital = 1095 #Kargil
+			capital = 110 #Gilgit
 			
-			c_kargil = {
-				color={ 180 74 121 }
+			c_gilgit = {
+				color={ 201 99 110 }
 				color2={ 255 255 255 }
 				
-				b_kargil = {}
-				b_akchamal = {}
-				b_samar = {}
-				b_mulbekh = {}
-				b_kakshar = {}
-				b_shargole = {}
-				b_madjass = {}
+				b_gilgit = {}
+				b_karimabad = {}
+				b_sost = {}
+				b_khyber = {}
+				b_parri = {}
+				b_danyor = {}
+				b_rahim_abad = {}
 			}
 			c_skardu = {
 				color={ 145 112 85 }
@@ -49,17 +142,48 @@ e_tibet = {
 				b_hussainabad = {}
 				b_charathang = {}
 			}
-			c_gilgit = {
-				color={ 201 99 110 }
+		}
+		d_ladakh = {
+			color={ 150 110 112 }
+			color2={ 255 255 255 }
+			
+			capital = 1095 #Kargil
+			
+			c_kargil = {
+				color={ 180 74 121 }
 				color2={ 255 255 255 }
 				
-				b_gilgit = {}
-				b_karimabad = {}
-				b_sost = {}
-				b_khyber = {}
-				b_parri = {}
-				b_danyor = {}
-				b_rahim_abad = {}
+				b_kargil = {}
+				b_khalatse = {}
+				b_dras = {}
+				b_mulbekh = {}
+				b_kakshar = {}
+				b_shargole = {}
+				b_madjass = {}
+			}
+			c_leh = {
+				color={ 159 135 56 }
+				color2={ 255 255 255 }
+				
+				b_leh = {}
+				b_thangra = {}
+				b_takh = {}
+				b_tashigang = {}
+				b_panamik = {}
+				b_shyok = {}
+				b_upshi = {}
+			}
+			c_aksai_chin = {
+				color={ 185 152 52 }
+				color2={ 255 255 255 }
+				
+				b_tianshuilhai = {}
+				b_kizilyeza = {}
+				b_dahongluitan = {}
+				b_mazar = {}
+				b_khumak = {}
+				b_karakoram = {}
+				b_spanggur = {}
 			}
 		}
 	}
