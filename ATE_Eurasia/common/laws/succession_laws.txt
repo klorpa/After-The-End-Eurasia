@@ -97,7 +97,7 @@ succession_laws = {
 					}
 				}
 				OR = {
-					NOT = { religion = nepmese }
+					NOT = { AND = { religion = nepmese is_feudal = yes } }
 					NOT = { religion_group = muslim }
 				}
 				is_merchant_republic = no
@@ -154,7 +154,7 @@ succession_laws = {
 						government = ibadi_imamate
 					}
 				}
-				NOT = { religion = nepmese }
+				NOT = { AND = { religion = nepmese is_feudal = yes } }
 				in_revolt = no
 				conditional_tooltip = {
 					trigger = {
@@ -232,7 +232,7 @@ succession_laws = {
 					}
 				}
 				OR = {
-					NOT = { religion = nepmese }
+					NOT = { AND = { religion = nepmese is_feudal = yes } }
 					NOT = { religion_group = muslim }
 				}
 			}
@@ -483,7 +483,7 @@ succession_laws = {
 					NOR = {
 						religion_group = muslim
 						religion_group = indian_group 
-						religion = nepmese
+						AND = { religion = nepmese is_feudal = yes }
 					}
 					is_patrician = yes
 				}
@@ -809,7 +809,7 @@ succession_laws = {
 					NOR = { 
 						religion_group = muslim
 						religion_group = indian_group
-						religion = nepmese
+						AND = { religion = nepmese is_feudal = yes }
 					}
 					has_law = succession_voting_power_1
 					OR = { 
@@ -1205,7 +1205,7 @@ succession_laws = {
 				OR = {
 					culture = khalka
 					religion = khanist
-					religion = nepmese
+					AND = { religion = nepmese is_feudal = yes }
 				}
 				NOT = { religion_group = muslim }
 				is_merchant_republic = no
@@ -1225,14 +1225,14 @@ succession_laws = {
 		allow = {
 			conditional_tooltip = {
 				holder_scope = {
-					religion = nepmese
+					AND = { religion = nepmese is_feudal = yes }
 				}
 			}
 			conditional_tooltip = {
 				trigger = {
 					has_dlc = "Conclave"
 					holder_scope = {
-						NOT = { religion = nepmese }
+						NOT = { AND = { religion = nepmese is_feudal = yes } }
 					}
 				}
 				holder_scope = {

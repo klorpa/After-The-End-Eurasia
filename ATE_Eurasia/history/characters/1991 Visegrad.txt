@@ -710,6 +710,67 @@
 }
 
 
+199153={
+	name="József" 
+	dynasty=2045117 #Lencsi
+	culture=hungarian
+	religion=nepmese
+	trait=honest
+	trait=brave
+	trait=auspicious_birth
+	trait=content
+	trait=gregarious
+	trait=trusting
+	2569.12.12={birth=yes}
+	2629.10.11={death=yes}
+}
+199154={
+	name="László" 
+	dynasty=2045117 #Lencsi
+	culture=hungarian
+	religion=nepmese
+	trait=lustful
+	trait=temperate
+	trait=diligent
+	trait=shy
+	trait=erudite
+	father=199153
+	2598.8.8={birth=yes}
+	2660.9.9={death=yes}
+}
+199155={
+	name="Lujza" 
+	dynasty=2045117 #Lencsi
+	female=yes
+	culture=hungarian
+	religion=nepmese
+	trait=strong
+	trait=temperate
+	trait=diligent
+	trait=shy
+	trait=martial_cleric
+	father=199154
+	2630.6.14={birth=yes}
+	2670.1.1={death=yes}
+}
+199156={
+	name="Olga" 
+	dynasty=2045117 #Lencsi
+	female=yes
+	culture=hungarian
+	religion=nepmese
+	trait=gluttonous
+	trait=diligent
+	trait=gregarious
+	trait=skilled_tactician
+	trait=auspicious_birth
+	father=199154
+	2630.3.15={birth=yes}
+	2655.5.31={add_spouse=19911048}
+	2670.1.1={death=yes}
+}
+
+
 
 
 
@@ -1787,7 +1848,8 @@
 	father=19911045
 	mother=19911047
 	2629.12.23={birth=yes}
-	2680.1.1=yes}
+	2655.5.31={add_spouse=199156}
+	2680.1.1={death=yes}
 }
 19911049={
 	name="Alexandra"
@@ -1849,4 +1911,42 @@
 	mother=1991112
 	2661.9.3={birth=yes}
 	2700.1.1=yes}
+}
+
+19911052={
+	name="István"
+	dynasty=2045116 #Kinizsi
+	culture=hungarian
+	religion=coronite
+	trait=twin
+	trait=rowdy
+	father=19911048
+	mother=199156
+	2657.8.6={birth=yes}
+	2680.1.1={death=yes}
+}
+19911053={
+	name="Mária"
+	dynasty=2045116 #Kinizsi
+	female=yes
+	culture=hungarian
+	religion=coronite
+	trait=twin
+	trait=shy
+	father=19911048
+	mother=199156
+	2657.8.6={birth=yes}
+	2680.1.1={death=yes}
+}
+19911054={
+	name="Sarolta"
+	dynasty=2045116 #Kinizsi
+	female=yes
+	culture=hungarian
+	religion=coronite
+	trait=quick
+	father=19911048
+	mother=199156
+	2660.2.29={birth=yes}
+	2680.1.1={death=yes}
 }
