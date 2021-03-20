@@ -1,7 +1,7 @@
 ###ÄNSI###
 
 e_tibet = {
-	color={ 141 43 70 }
+	color={ 191 43 70 }
 	color2={ 255 255 255 }
 	
 	capital = 2702 #Lhasa
@@ -134,6 +134,56 @@ e_tibet = {
 				b_xiadawu = {}
 			}
 		}
+		d_qinghai = {
+			color={ 113 154 85 }
+			color2={ 255 255 255 }
+			
+			capital = 2720 # xining
+			
+			c_xining = {
+				color={ 131 40 82 }
+				color2={ 255 255 255 }
+				
+				b_xining = {}
+				b_ledu = {}
+				b_chengdong = {}
+				b_huzhu_tu = {}
+				b_chengxi = {}
+				b_chengzhong = {}
+				b_chengbei_2 = {}
+			}
+			c_haibei = {
+				color={ 154 112 15 }
+				color2={ 255 255 255 }
+				
+				b_haiyan = {}
+				b_babao = {}
+				b_shaliuhe = {}
+				b_xihai = {}
+				b_yikewulan = {}
+				b_jiermang = {}
+				b_zamashi = {}
+			}
+			c_hainan = {
+				color={ 100 108 43 }
+				color2={ 255 255 255 }
+				
+				b_qabqa = {}
+				b_heyin = {}
+				b_tanggu = {}
+				b_mangqu = {}
+				b_changmu = {}
+				b_guomaying = {}
+				b_gaba_songduo = {}
+			}
+		}
+	}
+	k_kham = {
+		color={ 125 196 56 }
+		color2={ 255 255 255 }
+		
+		capital = 2722 #Karuo
+		
 		d_chamdo = {
 			color={ 161 141 103 }
 			color2={ 255 255 255 }
@@ -141,7 +191,7 @@ e_tibet = {
 			capital = 2722 #Karuo
 			
 			c_karuo = {
-				color={ 178 136 16 }
+				color={ 178 186 16 }
 				color2={ 255 255 255 }
 				
 				b_chengguan = {}
@@ -153,7 +203,7 @@ e_tibet = {
 				b_gamtog = {}
 			}
 			c_serxu = {
-				color={ 123 147 57 }
+				color={ 123 247 57 }
 				color2={ 255 255 255 }
 				
 				b_shiqu = {}
@@ -189,7 +239,7 @@ e_tibet = {
 				b_sangduo = {}
 			}
 			c_lhorong = {
-				color={ 200 143 110 }
+				color={ 200 243 110 }
 				color2={ 255 255 255 }
 				
 				b_zituo = {}
@@ -201,47 +251,47 @@ e_tibet = {
 				b_mali = {}
 			}
 		}
-		d_qinghai = {
-			color={ 113 154 85 }
+		d_nyingchi = {
+			color={ 100 221 200 }
 			color2={ 255 255 255 }
 			
-			capital = 2720 # xining
+			capital = 2708 # Bayi
 			
-			c_xining = {
-				color={ 131 40 82 }
+			c_bayi = {
+				color={ 50 185 213 }
 				color2={ 255 255 255 }
 				
-				b_xining = {}
-				b_ledu = {}
-				b_chengdong = {}
-				b_huzhu_tu = {}
-				b_chengxi = {}
-				b_chengzhong = {}
-				b_chengbei = {}
+				b_bayi = {}
+				b_nyingchi = {}
+				b_mainling = {}
+				b_gongbogyamda = {}
+				b_nang = {}
+				b_beba = {}
+				b_gyamda = {}
 			}
-			c_haibei = {
-				color={ 154 112 15 }
+			c_bome = {
+				color={ 41 216 184 }
 				color2={ 255 255 255 }
 				
-				b_haiyan = {}
-				b_babao = {}
-				b_shaliuhe = {}
-				b_xihai = {}
-				b_yikewulan = {}
-				b_jiermang = {}
-				b_zamashi = {}
+				b_zhamo = {}
+				b_medog = {}
+				b_sumzom = {}
+				b_alamdo = {}
+				b_naha = {}
+				b_yupuxiang = {}
+				b_yigongxiang = {}
 			}
-			c_hainan = {
-				color={ 100 108 43 }
+			c_zayu = {
+				color={ 103 199 246 }
 				color2={ 255 255 255 }
 				
-				b_qabqa = {}
-				b_heyin = {}
-				b_tanggu = {}
-				b_mangqu = {}
-				b_changmu = {}
-				b_guomaying = {}
-				b_gaba_songduo = {}
+				b_zayu = {}
+				b_dzayul = {}
+				b_puzang = {}
+				b_golag = {}
+				b_goyu = {}
+				b_shaqiong = {}
+				b_cawarong = {}
 			}
 		}
 	}
@@ -331,57 +381,14 @@ e_tibet = {
 				b_comai = {}
 			}
 		}
-		d_nyingchi = {
-			color={ 100 121 200 }
-			color2={ 255 255 255 }
-			
-			capital = 2708 # Bayi
-			
-			c_bayi = {
-				color={ 50 85 213 }
-				color2={ 255 255 255 }
-				
-				b_bayi = {}
-				b_nyingchi = {}
-				b_mainling = {}
-				b_gongbogyamda = {}
-				b_nang = {}
-				b_beba = {}
-				b_gyamda = {}
-			}
-			c_bome = {
-				color={ 41 46 184 }
-				color2={ 255 255 255 }
-				
-				b_zhamo = {}
-				b_medog = {}
-				b_sumzom = {}
-				b_alamdo = {}
-				b_naha = {}
-				b_yupuxiang = {}
-				b_yigongxiang = {}
-			}
-			c_zayu = {
-				color={ 123 159 246 }
-				color2={ 255 255 255 }
-				
-				b_zayu = {}
-				b_dzayul = {}
-				b_puzang = {}
-				b_golag = {}
-				b_goyu = {}
-				b_shaqiong = {}
-				b_cawarong = {}
-			}
-		}
 		d_xigaze = {
-			color={ 142 144 198 }
+			color={ 162 164 218 }
 			color2={ 255 255 255 }
 			
 			capital = 2689 # Samzhubze
 			
 			c_samzhubze = {
-				color={ 151 134 236 }
+				color={ 111 134 236 }
 				color2={ 255 255 255 }
 				
 				b_chengbei = {}
@@ -417,7 +424,7 @@ e_tibet = {
 				b_xungmai = {}
 			}
 			c_lhaze = {
-				color={ 71 64 199 }
+				color={ 171 164 229 }
 				color2={ 255 255 255 }
 				
 				b_lhaze = {}
@@ -442,7 +449,7 @@ e_tibet = {
 				b_nyalam = {}
 				b_zongga = {}
 				b_dram = {}
-				b_saga = {}
+				b_saga_2 = {}
 				b_mainpu = {}
 				b_denggar = {}
 				b_nailung = {}
@@ -454,7 +461,7 @@ e_tibet = {
 				b_xigaze = {}
 				b_cogo = {}
 				b_shelkar = {}
-				b_gangga = {}
+				b_gangga_2 = {}
 				b_qulho = {}
 				b_gyaco = {}
 				b_ronxar = {}
@@ -494,10 +501,10 @@ e_tibet = {
 				color={ 103 122 204 }
 				color2={ 255 255 255 }
 				
-				b_gerze = {}
+				b_gerze_2 = {}
 				b_marme = {}
 				b_chabug = {}
-				b_oma = {}
+				b_oma_2 = {}
 				b_dongco = {}
 				b_shenchen = {}
 				b_gomo = {}
@@ -523,7 +530,7 @@ e_tibet = {
 				b_yagqu = {}
 				b_cozhedangma = {}
 				b_xibde = {}
-				b_domar = {}
+				b_domar_2 = {}
 				b_parling = {}
 			}
 			c_nyima = {
@@ -606,11 +613,11 @@ e_tibet = {
 				
 				b_pubao = {}
 				b_pagnag = {}
-				b_nyima = {}
+				b_nyima_2 = {}
 				b_dechen = {}
 				b_zharen = {}
 				b_qinglong = {}
-				b_yanshiping = {}
+				b_yanshiping_2 = {}
 			}
 			c_biru = {
 				color={ 93 16 206 }
@@ -725,7 +732,7 @@ e_tibet = {
 				b_madjass = {}
 			}
 			c_leh = {
-				color={ 159 35 56 }
+				color={ 159 65 56 }
 				color2={ 255 255 255 }
 				
 				b_leh = {}
