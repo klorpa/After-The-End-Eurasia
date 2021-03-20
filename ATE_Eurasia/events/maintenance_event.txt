@@ -312,7 +312,50 @@ character_event = {
 				culture = red_panda
 			}
 		}
-		set_graphical_culture = chinese
+		set_graphical_culture = asian
+	}
+
+	option = {
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				culture = horse
+			}
+			modifier = {
+				factor = 0
+				culture = cat
+			}
+			modifier = {
+				factor = 0
+				culture = bear
+			}
+			modifier = {
+				factor = 0
+				culture = hedgehog_culture
+			}
+			modifier = {
+				factor = 0
+				culture = duck_culture
+			}
+			modifier = {
+				factor = 0
+				culture = dog_culture
+			}
+			modifier = {
+				factor = 0
+				culture = elephant_culture
+			}
+			modifier = {
+				factor = 0
+				culture = dragon_culture
+			}
+			modifier = {
+				factor = 0
+				culture = red_panda
+			}
+		}
+		set_graphical_culture = southeastasian
 	}
 
 	option = {
@@ -750,7 +793,7 @@ character_event = {
 				culture = dragon_culture
 			}
 		}
-		set_graphical_culture = persian
+		set_graphical_culture = iranian
 	}
 	
 	option = {
