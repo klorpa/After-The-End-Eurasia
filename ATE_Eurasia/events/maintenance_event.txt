@@ -139,49 +139,6 @@ character_event = {
 		ai_chance = {
 			factor = 1
 			modifier = {
-				factor = 0
-				culture = horse
-			}
-			modifier = {
-				factor = 0
-				culture = cat
-			}
-			modifier = {
-				factor = 0
-				culture = bear
-			}
-			modifier = {
-				factor = 0
-				culture = hedgehog_culture
-			}
-			modifier = {
-				factor = 0
-				culture = duck_culture
-			}
-			modifier = {
-				factor = 0
-				culture = dog_culture
-			}
-			modifier = {
-				factor = 0
-				culture = elephant_culture
-			}
-			modifier = {
-				factor = 0
-				culture = dragon_culture
-			}
-			modifier = {
-				factor = 0
-				culture = red_panda
-			}
-		}
-		set_graphical_culture = white
-	}
-
-	option = {
-		ai_chance = {
-			factor = 1
-			modifier = {
 				factor = 10
 				culture = sabra
 			}
@@ -221,8 +178,79 @@ character_event = {
 				factor = 0
 				culture = red_panda
 			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 5
+				culture = provencal
+			}
 		}
-		set_graphical_culture = black
+		set_graphical_culture = eastafrican
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				culture = sabra
+			}
+			modifier = {
+				factor = 0
+				culture = horse
+			}
+			modifier = {
+				factor = 0
+				culture = cat
+			}
+			modifier = {
+				factor = 0
+				culture = bear
+			}
+			modifier = {
+				factor = 0
+				culture = hedgehog_culture
+			}
+			modifier = {
+				factor = 0
+				culture = duck_culture
+			}
+			modifier = {
+				factor = 0
+				culture = dog_culture
+			}
+			modifier = {
+				factor = 0
+				culture = elephant_culture
+			}
+			modifier = {
+				factor = 0
+				culture = dragon_culture
+			}
+			modifier = {
+				factor = 0
+				culture = red_panda
+			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 15
+				culture = parisian
+			}
+			modifier = {
+				factor = 10
+				culture = provencal
+			}
+		}
+		set_graphical_culture = westafrican
 	}
 
 	option = {
@@ -268,8 +296,20 @@ character_event = {
 				factor = 0
 				culture = red_panda
 			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 15
+				culture = parisian
+			}
+			modifier = {
+				factor = 20
+				culture = provencal
+			}
 		}
-		set_graphical_culture = brown
+		set_graphical_culture = arabic
 	}
 
 	option = {
@@ -310,6 +350,22 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = red_panda
+			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = sabra
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 0
+				culture = provencal
 			}
 		}
 		set_graphical_culture = asian
@@ -354,6 +410,22 @@ character_event = {
 				factor = 0
 				culture = red_panda
 			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = sabra
+			}
+			modifier = {
+				factor = 5
+				culture = parisian
+			}
+			modifier = {
+				factor = 0
+				culture = provencal
+			}
 		}
 		set_graphical_culture = southeastasian
 	}
@@ -361,6 +433,10 @@ character_event = {
 	option = {
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
 			modifier = {
 				factor = 0
 				culture = horse
@@ -396,6 +472,22 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = red_panda
+			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = sabra
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 0
+				culture = provencal
 			}
 		}
 		set_graphical_culture = norse
@@ -440,6 +532,22 @@ character_event = {
 				factor = 0
 				culture = red_panda
 			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = sabra
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 0
+				culture = provencal
+			}
 		}
 		set_graphical_culture = celtic
 	}
@@ -482,6 +590,22 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = red_panda
+			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = sabra
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 0
+				culture = provencal
 			}
 		}
 		set_graphical_culture = ugric
@@ -526,6 +650,18 @@ character_event = {
 				factor = 0
 				culture = red_panda
 			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 0
+				culture = provencal
+			}
 		}
 		set_graphical_culture = mediterranean
 	}
@@ -568,6 +704,22 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = red_panda
+			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = sabra
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 0
+				culture = provencal
 			}
 		}
 		set_graphical_culture = indian
@@ -616,6 +768,18 @@ character_event = {
 				factor = 0
 				culture = red_panda
 			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 0
+				culture = provencal
+			}
 		}
 		set_graphical_culture = slavic
 	}
@@ -662,6 +826,18 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = red_panda
+			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 0
+				culture = provencal
 			}
 		}
 		set_graphical_culture = west_slavic
@@ -710,6 +886,18 @@ character_event = {
 				factor = 0
 				culture = red_panda
 			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 0
+				culture = provencal
+			}
 		}
 		set_graphical_culture = german
 	}
@@ -753,6 +941,22 @@ character_event = {
 				factor = 0
 				culture = red_panda
 			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = sabra
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 0
+				culture = provencal
+			}
 		}
 		set_graphical_culture = english
 	}
@@ -791,6 +995,18 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = dragon_culture
+			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 0
+				culture = provencal
 			}
 		}
 		set_graphical_culture = iranian
@@ -835,6 +1051,22 @@ character_event = {
 				factor = 0
 				culture = red_panda
 			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = sabra
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 20
+				culture = provencal
+			}
 		}
 		set_graphical_culture = italian
 	}
@@ -878,6 +1110,22 @@ character_event = {
 				factor = 0
 				culture = red_panda
 			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = sabra
+			}
+			modifier = {
+				factor = 65
+				culture = parisian
+			}
+			modifier = {
+				factor = 40
+				culture = provencal
+			}
 		}
 		set_graphical_culture = french
 	}
@@ -916,6 +1164,22 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = dragon_culture
+			}
+			modifier = {
+				factor = 50
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = sabra
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 0
+				culture = provencal
 			}
 		}
 		set_graphical_culture = greek
@@ -960,8 +1224,83 @@ character_event = {
 				factor = 0
 				culture = red_panda
 			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = sabra
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 0
+				culture = provencal
+			}
 		}
 		set_graphical_culture = tibetan
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 50
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = horse
+			}
+			modifier = {
+				factor = 0
+				culture = cat
+			}
+			modifier = {
+				factor = 0
+				culture = bear
+			}
+			modifier = {
+				factor = 0
+				culture = hedgehog_culture
+			}
+			modifier = {
+				factor = 0
+				culture = duck_culture
+			}
+			modifier = {
+				factor = 0
+				culture = dog_culture
+			}
+			modifier = {
+				factor = 0
+				culture = elephant_culture
+			}
+			modifier = {
+				factor = 0
+				culture = dragon_culture
+			}
+			modifier = {
+				factor = 0
+				culture = red_panda
+			}
+			modifier = {
+				factor = 0
+				culture = sabra
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 0
+				culture = provencal
+			}
+		}
+		set_graphical_culture = southslavic
 	}
 	
 	option = {

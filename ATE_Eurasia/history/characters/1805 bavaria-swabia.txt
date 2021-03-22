@@ -237,7 +237,7 @@
 	culture=swabian
 	religion=lutheran
 	father=1805028
-	mother=1923006
+	mother=1958220
 	martial=6
 	diplomacy=4
 	stewardship=4
@@ -380,7 +380,7 @@
 	trait=temperate
 	trait=twin
 	2594.8.28={birth=yes}
-	2618.2.22={add_spouse=1923006}
+	2618.2.22={add_spouse=1958220}
 	2649.1.26={death=yes}
 }
 1805029={
@@ -390,7 +390,7 @@
 	culture=swabian
 	religion=lutheran
 	father=1805028
-	mother=1923006
+	mother=1958220
 	martial=6
 	diplomacy=4
 	stewardship=4
@@ -1144,7 +1144,7 @@
 	father=1805094
 	trait=twin
 	2594.8.24={birth=yes}
-	2618.2.22={add_spouse=1923005}
+	2618.2.22={add_spouse=1958219}
 	2632.2.16={death=yes}
 }
 1805096={
@@ -1153,7 +1153,7 @@
 	culture=swabian
 	religion=catholic
 	father=1805095
-	mother=1923005
+	mother=1958219
 	2623.10.13={birth=yes}
 	2655.6.13={death=yes}
 }
@@ -1932,4 +1932,30 @@
 	religion=lutheran
 	2610.3.8={birth=yes}
 	2654.8.3={death=yes}
+}
+1805168={
+	name="Paul"
+	dynasty=2039201 #Nguyen-Bloch
+	culture=alsatian
+	religion=calvinist
+	2628.8.27={birth=yes}
+	2700.1.1={death=yes}
+}
+1805169={
+	name="Wilhelm"
+	dynasty=1848133 #Noether
+	culture=vietnamese
+	religion=lutheran
+	stewardship=7
+	trait=underhanded_rogue
+	trait=chaste
+	trait=proud
+	trait=just
+	trait=stubborn
+	trait=patient
+	dna=bicfd0hcab0
+	properties=gh0dik000000
+	2643.12.16={birth=yes
+		culture=rhenish}
+	2660.1.1={employer=1805168}
 }

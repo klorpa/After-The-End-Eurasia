@@ -4948,7 +4948,19 @@
 1970177 = { name="von Sinse" culture=palatinate }
 1970178 = { name="Seibel" culture=palatinate }
 1970179 = { name="Siegel" culture=palatinate }
-1970180 = { name="Slevogt" culture=palatinate }
+1970180 = { name="von Slevogt" culture=palatinate used_for_random=no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 40
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1970181 = { name="Sommer" culture=palatinate }
 1970182 = { name="Spielberger" culture=palatinate }
 1970183 = { name="Spieﬂ" culture=palatinate }
@@ -6075,7 +6087,19 @@
 2007244 = { name="Ali" culture=provencal used_for_random=no }
 2007245 = { name="Zakarian" culture=provencal }
 2007246 = { name="Kassapian" culture=provencal }
-2007666 = { name="Laflamme" culture=provencal used_for_random=no } #sun king dynasty
+2007666 = { name="Laflamme" culture=provencal used_for_random=no  
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+} #sun king dynasty
 
 2008001 = { name="Andrau" culture=occitan }
 2008002 = { name="Arnal" culture=occitan }
