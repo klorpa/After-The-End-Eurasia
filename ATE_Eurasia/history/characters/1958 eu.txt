@@ -1118,6 +1118,8 @@
 	dynasty=1848073 #Becker
 	culture=rhenish
 	religion=neuhumanist
+	father=1958258
+	mother=1958257
 	trait=intricate_webweaver
 	trait=wroth
 	trait=brave
@@ -2371,4 +2373,139 @@
 			killer=1958120
 		}
 	}
+}
+1958245={
+	name="Karl" 
+	dynasty=1848134 #Büchner
+	culture=rhenish
+	religion=chronicler
+	trait=poet
+	trait=scholar
+	trait=has_typhus
+	2151.6.24={birth=yes}
+	2192.12.21={death=yes}
+}
+1958246={
+	name="Roland" 
+	dynasty=1848134 #Büchner
+	father=1958245
+	culture=rhenish
+	religion=chronicler
+	2173.2.14={birth=yes}
+	2246.1.17={death=yes}
+}
+1958247={
+	name="Wilhelm" 
+	dynasty=1848135 #Dilthey
+	culture=rhenish
+	religion=chronicler
+	trait=scholar
+	trait=temperate
+	trait=erudite
+	2212.6.3={birth=yes}
+	2274.2.2={death=yes}
+}
+1958248={
+	name="Maximilian" 
+	dynasty=1848135 #Dilthey
+	father=1958247
+	culture=rhenish
+	religion=chronicler
+	2239.5.24={birth=yes}
+	2303.2.6={death=yes}
+}
+1958249={
+	name="Ruprecht" 
+	dynasty=1848135 #Dilthey
+	father=1958248
+	culture=rhenish
+	religion=lutheran
+	2261.1.17={birth=yes}
+	2324.9.7={death=yes}
+}
+1958250={
+	name="Caroline" 
+	female=yes
+	dynasty=1848135 #Dilthey
+	father=1958249
+	culture=rhenish
+	religion=lutheran
+	2295.5.27={birth=yes}
+	2320.1.1={add_spouse=1958251}
+	2351.10.9={death=yes}
+}
+1958251={
+	name="Markus" 
+	dynasty=1848136 #von Liebig
+	culture=rhenish
+	religion=lutheran
+	2291.11.8={birth=yes}
+	2349.10.15={death=yes}
+}
+1958252={
+	name="Justus" 
+	dynasty=1848136 #von Liebig
+	father=1958251
+	mother=1958250
+	culture=rhenish
+	religion=lutheran
+	2319.1.13={birth=yes}
+	2367.7.2={death=yes}
+}
+1958253={
+	name="Helmut" 
+	dynasty=1848136 #von Liebig
+	father=1958252
+	culture=rhenish
+	religion=lutheran
+	2342.7.4={birth=yes}
+	2389.2.8={death=yes}
+}
+1958254={
+	name="Markus" 
+	dynasty=1848136 #von Liebig
+	father=1958253
+	culture=rhenish
+	religion=lutheran
+	2369.9.8={birth=yes}
+	2401.2.17={death=yes}
+}
+1958255={
+	name="Samuel" 
+	dynasty=1848136 #von Liebig
+	father=1958254
+	culture=rhenish
+	religion=neuhumanist
+	2390.4.29={birth=yes}
+	2433.7.11={death=yes}
+}
+1958256={
+	name="Emil" 
+	dynasty=1848136 #von Liebig
+	father=1958255
+	culture=rhenish
+	religion=neuhumanist
+	trait=has_typhus
+	2414.11.13={birth=yes}
+	2450.3.31={death=yes}
+}
+1958257={
+	name="Johanna" 
+	female=yes
+	dynasty=1848136 #von Liebig
+	father=1958254
+	culture=rhenish
+	religion=neuhumanist
+	trait=has_typhus
+	2388.6.24={birth=yes}
+	2410.1.1={add_spouse=1958258}
+	2449.8.25={death=yes}
+}
+1958258={
+	name="Manfred" 
+	dynasty=1848073 #Becker
+	culture=rhenish
+	religion=neuhumanist
+	2385.6.24={birth=yes}
+	2432.8.25={death=yes}
 }
