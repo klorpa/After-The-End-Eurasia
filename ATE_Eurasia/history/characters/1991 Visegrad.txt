@@ -222,7 +222,17 @@
 	learning=3
 	give_nickname=nick_son_of_the_white_mare
 	2450.12.24={birth=yes}
-	#2500.1.8={effect = {add_artifact = holy_crown} }
+	2500.1.8={
+		effect = {add_artifact = holy_crown}
+		create_bloodline = {
+			type = feherlofi_blood
+			has_dlc = "Holy Fury"
+		}
+		create_bloodline = {
+			type = napoleon_bloodline
+			has_dlc = "Holy Fury"
+		}
+	}
 	2512.4.15={death=yes}
 }
 1991101={
