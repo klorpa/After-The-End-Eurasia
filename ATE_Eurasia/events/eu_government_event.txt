@@ -503,6 +503,7 @@ character_event = {
 			AND = {
 				religion = nepmese
 				NOT = { has_law = succ_ultimogeniture }
+				is_feudal = yes
 			}
 		}
 	}
