@@ -767,7 +767,7 @@
 	name="Wilmer"
 	dynasty=2220179 #Skånske
 	culture=scanian
-	religion=folketro
+	religion=lutheran
 	trait=is_fat
 	trait=gregarious
 	trait=gluttonous
@@ -777,6 +777,9 @@
 	2623.1.1={birth=yes}
 	2648.1.1={
 		add_spouse = 8000191
+	}
+	2660.1.1 = {
+		add_alliance = 8000078
 	}
 	2670.1.1={death=yes}
 }
