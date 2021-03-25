@@ -1851,6 +1851,42 @@ scholastic = {
 		religious_clothing_priest = 3
 		intermarry = glorian
 	}
+	neoplatonist = {
+		graphical_culture = hellenicgfx
+		secondary_event_pictures = westerngfx
+
+		icon = 35
+		heresy_icon = 36
+		
+		color = { 15 15 15 }
+		
+		interface_skin = { taoist_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_ZEUS
+		
+		god_names = {
+			GOD_THE_FATHER GOD_POSEIDON GOD_HERA GOD_KRONOS GOD_PLUTO GOD_DIONYSOS GOD_APOLLO GOD_ARTEMIS GOD_ATHENA GOD_PLATO GOD_ZOROASTER
+		}
+		
+		evil_god_names = {
+			GOD_IGNORANCE
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		can_demand_religious_conversion = no
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_ORACLES
+		priest_title = PHILOSOPHER
+		piety_name = DEVOTION
+		
+	}
 	
 	neuhumanist = {
 		graphical_culture = hellenicgfx
