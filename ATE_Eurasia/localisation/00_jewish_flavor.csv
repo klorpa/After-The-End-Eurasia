@@ -30,9 +30,8 @@ bar_mitzvah_named;Prepare Grand Bar Mitzvah;;;;;;;;;;;;;x
 bar_mitzvah_desc;As your child is soon of age you can choose to hold an extravagant Bar Mitzvah for [Root.GetHerHim], inviting your vassals and the members of your court. This can help build trust that will certainly prove useful for the child in the future.;;;;;;;;;;;;;x
 bar_mitzvah_custom_tooltip;Send out the invitations.;;;;;;;;;;;;;x
 form_empire_pale;Form Der Tkhum HaMoyshav;;;;;;;;;;;;;x
-form_empire_pale_desc;If the Yiddish heartlands are been gathered under your rule, a new Empire can be created.;;;;;;;;;;;;;x
-interfaith_dialogue;Interfaith Seminar;;;;;;;;;;;;;x
-interfaith_dialogue_desc;Interfaith Dialogue is an important aspect of pious Haskalah Jews, surrounded by powerful non-Jewish Realms you could hold an inter-faith dialogue seminar with a nieghboring Non-Jewish Realm.;;;;;;;;;;;;;x
+gain_sympathy;Gain Sympathy for [Root.Religion.GetGroupName] religions;;;;;;;;;;;;;x
+gain_sympathy_desc;Interfaith Dialogue is an important aspect of religon forpious Haskalah Jews, surrounded by powerful non-Jewish Realms you could study about your neighbors faith and and their customs.;;;;;;;;;;;;;x
 shvil_israel;Travel Shvil Israel;;;;;;;;;;;;;x
 shvil_israel_desc;Tour the land of the fathers, and visit the holy sites of Judaism;;;;;;;;;;;;;x
 
@@ -147,7 +146,7 @@ EVTNAME_shvil_israel_tiberias;Reaching Tiberias;;;;;;;;;;;;;x
 EVTDESC_shvil_israel_tiberias;The city on the Kinneret is a beautiful sight.;;;;;;;;;;;;;x
 EVTOPT_shvil_israel_tiberias;Were you real my kinneret, or was it only a dream?;;;;;;;;;;;;;x
 EVTNAME_shvil_israel_jerusalem;Reaching Jerusalem;;;;;;;;;;;;;x
-EVTDESC_shvil_israel_jerusalem;Al-Quds, Yerushalayim, Tzion, the City of David and the Prophets. The city that has 70 names, but none can decribe it truly. Her winding streets and high walls were ancient a millennium before the Event, packed into every corner of the Old City are treasures and holy places. Atop the temple mount gleams the golden enameled Dome of the Rock, nearby stands the Western Wall of the Temple, and a quarter mile away sprawls the pilgrim-packed halls and chapels of the Holy Sepulchre. She has borne herself through countless years of battle and bloodshed, under the sandaled feet of her inhabitants lay the bones of ancient warriors and kings, some from half the world away it is said. Her people pray that Jerusalem may survive as a monument to peace and tolerance in a world plunged back into an age of religious strife and war, a true “City of Peace.”;;;;;;;;;;;;;x
+EVTDESC_shvil_israel_jerusalem;Al-Quds, Yerushalayim, Tzion, the City of David and the Prophets. The city that has 70 names, but none can describe it truly. Her winding streets and high walls were ancient a millennium before the Event, packed into every corner of the Old City are treasures and holy places. Atop the temple mount gleams the golden enameled Dome of the Rock, nearby stands the Western Wall of the Temple, and a quarter mile away sprawls the pilgrim-packed halls and chapels of the Holy Sepulchre. She has borne herself through countless years of battle and bloodshed, under the sandaled feet of her inhabitants lay the bones of ancient warriors and kings, some from half the world away it is said. Her people pray that Jerusalem may survive as a monument to peace and tolerance in a world plunged back into an age of religious strife and war, a true “City of Peace.”;;;;;;;;;;;;;x
 EVTOPT_shvil_israel_jerusalem;If I forget you, Jerusalem, let my right hand forget its skill!;;;;;;;;;;;;;x
 
 #Yeshiva event chain
@@ -156,7 +155,10 @@ EVTOPTA_yeshiva_1;I can't wait!;;;;;;;;;;;;;x
 EVTDESC_yeshiva_2;The Head Rabbi of your Yeshiva has found you a new chevruta partner, who will your companion in study throughtout your time there.;;;;;;;;;;;;;x
 EVTOPTA_yeshiva_2;Pleased to meet you;;;;;;;;;;;;;x
 
-
+#dialogue event(s?)
+EVTDESC_dialogue_1;After reading in [From.Religion.GetScriptureName] and other [From.Religion.GetGroupName] texts, I now have a better understanding of their religion and a new appreciation for it's followers.;;;;;;;;;;;;;x
+EVTOPTA_dialogue_1;Let there be no hate between me and [From.Religion.GetGroupName] believers.;;;;;;;;;;;;;x
+EVTOPTB_dialogue_1;I shall invite [From.GetTitledFirstName], a [From.Religion.GetFullName] believer, over to my house for further discussion.;;;;;;;;;;;;;x
 ###########Jewish Opinion###########
 
 haredi_opinion;Haredi Opinion;;;;;;;;;;;;;x
