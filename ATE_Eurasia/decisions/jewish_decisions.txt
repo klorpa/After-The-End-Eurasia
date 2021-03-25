@@ -542,7 +542,7 @@ targeted_decisions = {
 	}
 	
 	
-	interfaith_dialogue = {
+	gain_sympathy = {
 		only_playable = yes
 		filter = realm
 		ai_target_filter = realm
@@ -558,7 +558,7 @@ targeted_decisions = {
 					trigger_switch ={
 						#### reminder to update as more religion groups are added
 						on_trigger = religion_group
-						christianity			= { FROM = { trait = sympathy_christendom}}
+						christian				= { FROM = { trait = sympathy_christendom}}
 						vernacular	 			= { FROM = { trait = sympathy_vernacular } }
 						#jewish_group 			= { FROM = { trait = sympathy_judaism }}
 						pagan_group 			= { FROM = { trait = sympathy_pagans }}
@@ -582,9 +582,18 @@ targeted_decisions = {
 					trait = zealous
 					has_character_modifier = expelled_jewish
 				}
+				opinion = {
+					who = FROM
+					value = -25
+				}
 			}
 			FROM = {
 				piety = 50
+				NOT = {is_rival = ROOT}	
+				opinion = {
+					who = FROM
+					value = -25
+				}
 			}
 		}	
 		effect = {
@@ -592,11 +601,9 @@ targeted_decisions = {
 			FROM = {
 				piety = -50
 				set_character_flag = dialoguing
-				save_event_target_as = dialogue_jew
+				character_event ={ id = jewish.31}
 			}
 			ROOT = {
-				character_event ={ id = jewish.31 days = 3}
-				save_event_target_as = dialogue_gentile
 			}
 		}
 		revoke_allowed = {

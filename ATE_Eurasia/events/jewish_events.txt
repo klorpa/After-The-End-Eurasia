@@ -565,60 +565,57 @@ narrative_event = {
 
 ######################HASKALAH EVENTS##################
 
-#####INTER FAITH DIALOGUE EVENTSS
+#####INTER FAITH DIALOGUE EVENTS
+
 character_event = { #gentile can accept or deny it
 	id = jewish.31
 	desc = EVTDESC_dialogue_1
 	picture = GFX_evt_bishop
 	is_triggered_only = yes
-	trigger = {
-		NOT = {religion_group = jewish_group}
-	}
 	option = {
 		name = EVTOPTA_dialogue_1
-		random = {
-			chance = 60
-			add_trait = sympathy_judaism
-		}
 		FROM = {
-			character_event = {
-				id = jewish.32 #event for the jewish ruler
-				days = 3
+			trigger_switch = {##adds symapthy in accordance with gentiles religion
+				#### rememder to update as more religion groups are added
+				on_trigger = religion_group
+				scholastic				= { ROOT = { add_trait = sympathy_scholastic}}
+				christian				= { ROOT = { add_trait = sympathy_christendom}}
+				vernacular	 			= { ROOT = { add_trait = sympathy_vernacular }}
+				#jewish_group 			= { add_trait = sympathy_judaism }}
+				pagan_group 			= { ROOT = { add_trait = sympathy_pagans }}
+				muslim 					= { ROOT = { add_trait = sympathy_islam }}
+				old_world_cultist_group	= { ROOT = { add_trait = sympathy_old_world_cults }}
+				islamosyncretic			= { ROOT = { add_trait = sympathy_islamosyncretic }}
 			}
 		}
+		clr_character_flag = dialoguing
+		add_character_modifier = {
+			name = recently_dialogued
+			months = 6
+		}
 		ai_chance = {
-			factor = 15
-			modifier = {factor = 2 trait = kind}
-			modifier = {factor = 1.5 trait = scholar}
+			factor = 0
 		}
 	}
+	
 	option = {
 		name = EVTOPTB_dialogue_1
-		random = {
-			chance = 15
-			add_trait = zealous
+		trigger = {
+			opinion = {
+				who = FROM
+				value = -25
+			}
+			reverse_opinion = {
+				who = FROM
+				value = -25
+			}
 		}
-		ai_chance = {
-			factor = 10
-			modifier = {factor = 3 trait = stubborn}
-			modifier = {factor = 1.2 trait = proud}
-			modifier = {factor = 1.5 trait = cruel}
-		}
-	}
-}
-character_event = { #accepted, event for jew
-	id = jewish.32
-	desc = EVTDESC_dialogue_2
-	picture = GFX_evt_bishop
-	is_triggered_only = yes
-	trigger = {religion = haskalah}
-	option = {
-		name = EVTOPTA_dialogue_2
-		event_target:dialogue_gentile = {
+		
+		FROM = {
 			trigger_switch = {##adds symapthy in accordance with gentiles religion
-				#### reminder to update as more religion groups are added
+				#### remember to update as more religion groups are added
 				on_trigger = religion_group
-				christianity			= { ROOT = { add_trait = sympathy_christendom}}
+				christian				= { ROOT = { add_trait = sympathy_christendom}}
 				vernacular	 			= { ROOT = { add_trait = sympathy_vernacular } }
 				#jewish_group 			= { add_trait = sympathy_judaism }}
 				pagan_group 			= { ROOT = { add_trait = sympathy_pagans }}
@@ -627,6 +624,19 @@ character_event = { #accepted, event for jew
 				islamosyncretic			= { ROOT = { add_trait = sympathy_islamosyncretic }}
 				scholastic				= { ROOT = { add_trait = sympathy_scholastic }}
 			}
+			opinion = {
+				who = PREV
+				modifier = opinion_delighted
+			}
+			#character_event = {id = jewish.32 days = 3}
+			clr_character_flag = dialoguing
+			add_character_modifier = {
+				name = recently_dialogued
+				months = 6
+			}
+		}
+		ai_chance = {
+			factor = 1
 		}
 	}
 }
