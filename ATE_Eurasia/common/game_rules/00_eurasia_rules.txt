@@ -48,3 +48,25 @@ reconquista = {
 		desc = "RULE_RECONQUISTA_OFF"
 	}
 }
+	
+gay_marriage_rule = {
+	name = "RULE_GAY_MARRIAGE_RULE"
+	
+	option = {
+		name = historical
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_GAY_HISTORICAL"
+	}
+	
+	option = {
+		name = unrestricted
+		text = "RULE_OPTION_UNRESTRICTED"
+		desc = "RULE_GAY_OPEN"
+	}
+
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_GAY_OFF"
+	}
+}

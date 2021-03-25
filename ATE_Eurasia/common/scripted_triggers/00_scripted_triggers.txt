@@ -26,6 +26,7 @@
 #is_unattractive_trigger			Has a negative sex appeal trait and not any traits with sex appeal.
 #has_fair_trait_trigger				Is Fair/Groomed.
 #has_ugly_trait_trigger				Is Ugly/Uncouth.
+#is_accepting_of_homosexuality_trigger 		Is of a religion that accepts homosexuality.
 
 #Health/congential
 #is_smart_trigger					Has a smart trait.
@@ -560,6 +561,15 @@ is_infertile_trigger = {
 	}
 }
 
+is_accepting_of_homosexuality_trigger = {
+	hidden_tooltip = {
+		OR = { 
+			religion = thelema
+			religion = haskalah
+		}
+	
+	}
+}
 
 ##DIPLOMACY##
 
