@@ -519,6 +519,7 @@
 	dynasty=1950011 #Kimmich
 	culture=upper_saxon
 	religion=neuhumanist
+	mother=1958272
 	trait=skilled_tactician
 	trait=honorable
 	trait=brave
@@ -2508,4 +2509,223 @@
 	religion=neuhumanist
 	2385.6.24={birth=yes}
 	2432.8.25={death=yes}
+}
+1958259={
+	name="Walter" 
+	dynasty=1950131 #Dötzel
+	culture=upper_saxon
+	religion=chronicler
+	trait=fair
+	trait=kind
+	trait=just
+	trait=temperate
+	trait=diligent
+	2299.2.15={birth=yes}
+	2356.11.20={death=yes}
+}
+1958260={
+	name="Richard" 
+	dynasty=1950131 #Dötzel
+	culture=upper_saxon
+	religion=chronicler
+	father=1958259
+	2328.7.2={birth=yes}
+	2388.8.29={death=yes}
+}
+1958261={
+	name="Margit" 
+	female=yes
+	dynasty=1950131 #Dötzel
+	culture=upper_saxon
+	religion=chronicler
+	father=1958260
+	trait=temperate
+	trait=diligent
+	trait=kind
+	trait=humble
+	trait=gardener
+	2351.7.1={birth=yes}
+	2393.5.1={death=yes}
+}
+1958262={
+	name="André" 
+	dynasty=1950131 #Dötzel
+	culture=upper_saxon
+	religion=chronicler
+	mother=1958261
+	2382.12.10={birth=yes}
+	2398.11.16={death=yes}
+}
+1958263={
+	name="Karl" 
+	dynasty=1950132 #Buchholz
+	culture=upper_saxon
+	religion=neuhumanist
+	trait=painter
+	2364.11.30={birth=yes}
+	2423.11.18={death=yes}
+}
+1958264={
+	name="Erik" 
+	dynasty=1950132 #Buchholz
+	culture=upper_saxon
+	religion=neuhumanist
+	father=1958263
+	2388.12.14={birth=yes}
+	2467.5.21={death=yes}
+}
+1958265={
+	name="Oskar" 
+	dynasty=1950132 #Buchholz
+	culture=upper_saxon
+	religion=neuhumanist
+	father=1958264
+	2410.12.21={birth=yes}
+	2489.5.18={death=yes}
+}
+1958266={
+	name="Henri" 
+	dynasty=1950132 #Buchholz
+	culture=upper_saxon
+	religion=neuhumanist
+	father=1958265
+	2437.11.30={birth=yes}
+	2512.5.7={death=yes}
+}
+1958267={
+	name="Friedrich" 
+	dynasty=1950011 #Kimmich
+	culture=upper_saxon
+	religion=neuhumanist
+	2481.8.22={birth=yes}
+	2553.9.7={death=yes}
+}
+1958268={
+	name="Karolina"
+	female=yes
+	dynasty=1950011 #Kimmich
+	culture=upper_saxon
+	religion=neuhumanist
+	father=1958267
+	2502.4.30={birth=yes}
+	2574.9.17={death=yes}
+}
+1958269={
+	name="Moritz"
+	dynasty=1950011 #Kimmich
+	culture=upper_saxon
+	religion=neuhumanist
+	mother=1958268
+	2535.6.30={birth=yes}
+	2599.8.16={death=yes}
+}
+1958270={
+	name="Vincent"
+	dynasty=1950011 #Kimmich
+	culture=upper_saxon
+	religion=neuhumanist
+	father=1958269
+	2553.1.27={birth=yes}
+	2623.9.12={death=yes}
+}
+1958271={
+	name="Friedrich"
+	dynasty=1950011 #Kimmich
+	culture=upper_saxon
+	religion=neuhumanist
+	father=1958270
+	2578.3.24={birth=yes}
+	2628.8.26={death=yes}
+}
+1958272={
+	name="Charlotte"
+	female=yes
+	dynasty=1950011 #Kimmich
+	culture=upper_saxon
+	religion=neuhumanist
+	father=1958271
+	2600.1.17={birth=yes}
+	2640.5.5={death=yes}
+}
+1958273={
+	name="Krabat"
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	trait=mystic
+	trait=brave
+	trait=quick
+	trait=legendary
+	occluded=yes
+	2090.5.1={birth=yes}
+	2110.1.1={add_spouse=1958274}
+	2167.9.18={death=yes}
+}
+1958274={
+	name="Kantorka"
+	female=yes
+	culture=sorbian
+	religion=chronicler
+	trait=brave
+	trait=legendary
+	occluded=yes
+	2090.5.1={birth=yes}
+	2167.9.18={death=yes}
+}
+1958275={
+	name="Tonda"
+	father=1958273
+	mother=1958274
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2122.5.7={birth=yes}
+	2188.5.17={death=yes}
+}
+1958276={
+	name="Juro"
+	father=1958275
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2145.11.15={birth=yes}
+	2204.10.2={death=yes}
+}
+1958277={
+	name="Loboš"
+	father=1958276
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2169.11.29={birth=yes}
+	2242.1.16={death=yes}
+}
+1958278={
+	name="Michal"
+	father=1958277
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	trait=strong
+	2192.4.30={birth=yes}
+	2265.9.21={death=yes}
+}
+1958279={
+	name="Hanzo"
+	father=1958278
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	trait=robust
+	2211.9.20={birth=yes}
+	2281.11.16={death=yes}
+}
+1958280={
+	name="Lyško"
+	father=1958279
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2239.11.19={birth=yes}
+	2301.2.10={death=yes}
 }
