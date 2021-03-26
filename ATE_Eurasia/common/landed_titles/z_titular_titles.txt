@@ -69,6 +69,21 @@ e_pale_settlement = {
 		always = no # Only created through special event
 	}
 }
+e_lothc = {
+	color={ 150 100 110 }
+	color2={ 220 220 220 }
+
+	capital = 1170 # c_pest
+	
+	dignity = 20 # Counted as having this many more counties than it does
+	short_name = yes
+	title = APOSTOLIC_KING
+	title_female = APOSTOLIC_QUEEN
+	
+	allow = {
+		always = no # Only created through special event
+	}
+}
 
 ### titular kingdoms ###
 
@@ -244,6 +259,16 @@ d_jirba_corsairs = {
 		
 	capital = 441 #Jirba
 	dignity=10
+	
+	#Game-Start Titular
+}
+
+d_szekelyfold = {
+	color={ 55 125 205 }
+	color2={ 255 255 255 }
+		
+	capital = 1179
+	dignity=2
 	
 	#Game-Start Titular
 }

@@ -225,4 +225,75 @@ decisions = {
 			narrative_event = { id = anoa.3 }
 		}
 	}
+	unify_the_lands_of_the_holy_crown = { #LotHC
+		is_high_prio = yes
+		only_playable = yes
+		ai = no
+
+		potential = {
+			is_alternate_start = no
+			NOT = {
+				has_game_rule = {
+					name = empire_decisions
+					value = off
+				}
+			}
+			NOT = { has_global_flag = the_lands_of_the_holy_crown_unified }
+			religion = coronite
+			#independent = yes
+		}
+
+		allow = {
+			is_adult = yes
+			war = no
+			prestige = 1000
+			wealth = 1000
+			completely_controls = k_hungary
+			completely_controls = k_transylvania
+			completely_controls = k_croatia
+			completely_controls = d_slovakia
+			completely_controls = d_tatra
+			completely_controls = d_vojvodina
+		}
+
+		effect = {
+			wealth = -1000
+			if = {
+				limit = { has_nickname = no }
+				give_nickname = nick_the_great
+			}
+			activate_title = { title = e_lothc status = yes }
+			primary_title = {
+				e_lothc = {
+					grant_title = ROOT
+					copy_title_laws = PREV
+				}
+			}
+			custom_tooltip = { text = lothc_TT }
+
+			set_global_flag = the_lands_of_the_holy_crown_unified
+			
+			hidden_tooltip = {
+				k_hungary = {
+					de_jure_liege = e_lothc
+				}
+				k_transylvania = {
+					de_jure_liege = e_lothc
+				}
+				k_croatia = {
+					de_jure_liege = e_lothc
+				}
+				d_slovakia = {
+					de_jure_liege = k_hungary
+				}
+				d_tatra = {
+					de_jure_liege = k_hungary
+				}
+				d_vojvodina = {
+					de_jure_liege = k_hungary
+				}
+			}
+			#narrative_event = { id = anoa.3 }
+		}
+	}
 }
