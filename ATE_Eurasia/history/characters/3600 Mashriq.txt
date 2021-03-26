@@ -138,10 +138,13 @@
 	diplomacy = 3
 	intrigue = 5
 	learning = 5
+	dna = aflidcecdam
 	trait = tough_soldier
 	trait = robust
+	trait = duelist
 	trait = dull
-	trait = brave
+	trait = trusting
+	trait = rude
 	2636.4.4 = { birth = yes }
 	2657.4.4 = {
 		add_spouse = 3600007
@@ -459,7 +462,7 @@
 	trait = shy
 	trait = stressed
 	trait = patient
-	2649.11.2 = { birth=yes }
+	2642.01.2 = { birth=yes }
 }
 
 3600025 = {
@@ -467,19 +470,24 @@
 	culture = filastini
 	religion = sunni
 	dynasty = 1824005 #Al-Shuqayri
-	martial=5
+	martial=7
 	diplomacy=5
-	stewardship=7
+	stewardship=5
 	intrigue=3
 	learning=5
 	trait = skilled_tactician
+	trait = robust
+	trait = scarred_mid
 	trait = ambitious
 	trait = envious
-	trait = zealous
+	trait = brave
 	trait = just
 	2630.11.2 = { birth=yes }
 	2650.3.22 = {
 		add_spouse = 3600026
+	}
+	2660.3.22 = {
+		capital = c_hebron
 	}
 }
 3600026 = {

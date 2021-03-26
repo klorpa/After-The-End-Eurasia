@@ -10,11 +10,11 @@ haredi_breslov_desc;Breslover Chassids follow the teachings of Rebbe Nachman of 
 haredi_chassid;Chassid;;;;;;;;;;;;;x
 haredi_chassid_desc;The Chassidic movement developed in Eastern Europe beginning with the Baal Shem Tov. Chassids follow one of many rabbinical courts, each run by a Rebbe of a given dynasty who guides his followers in all their life decisions and whose position is passed down from father to son.;;;;;;;;;;;;;x
 avrach;Avrach;;;;;;;;;;;;;x
-avrach_DESC;This character has began a period of intense study of the Talmud at a prominent yeshiva;;;;;;;;;;;;;x
+avrach_desc;This character has began a period of intense study of the Talmud at a prominent yeshiva;;;;;;;;;;;;;x
 hakham;Hakham;;;;;;;;;;;;;x
-hakham_DESC;This character is considered an especially learned scholar of Talmud and Halakha after finishing yeshiva.;;;;;;;;;;;;;x
+hakham_desc;This character is considered an especially learned scholar of Talmud and Halakha.;;;;;;;;;;;;;x
 maskil;Maskil;;;;;;;;;;;;;x
-maskil_DESC;While not especially distinguished, this character has a well-rounded knowledge of Talmud and Halakha.;;;;;;;;;;;;;x
+maskil_desc;While not especially distinguished, this character has a well-rounded knowledge of Talmud and Halakha.;;;;;;;;;;;;;x
 
 ###########Jewish Decisions###########
 
@@ -31,9 +31,11 @@ bar_mitzvah_desc;As your child is soon of age you can choose to hold an extravag
 bar_mitzvah_custom_tooltip;Send out the invitations.;;;;;;;;;;;;;x
 form_empire_pale;Form Der Tkhum HaMoyshav;;;;;;;;;;;;;x
 gain_sympathy;Gain Sympathy for [Root.Religion.GetGroupName] religions;;;;;;;;;;;;;x
-gain_sympathy_desc;Interfaith Dialogue is an important aspect of religon forpious Haskalah Jews, surrounded by powerful non-Jewish Realms you could study about your neighbors faith and and their customs.;;;;;;;;;;;;;x
+gain_sympathy_desc;Interfaith Dialogue is an important aspect of religon for pious Haskalah Jews, surrounded by powerful non-Jewish Realms you could study about your neighbors faith and and their customs.;;;;;;;;;;;;;x
 shvil_israel;Travel Shvil Israel;;;;;;;;;;;;;x
-shvil_israel_desc;Tour the land of the fathers, and visit the holy sites of Judaism;;;;;;;;;;;;;x
+shvil_israel_desc;Embark on a grand journey on foot through the Holy Land, from the the cold mountains of Hermon in the North to deserts of the Negev in the South.;;;;;;;;;;;;;x
+attend_yeshiva;Attend Yeshiva;;;;;;;;;;;;;x
+attend_yeshiva_desc;Begin your journey as a student of Talmud and Torah by attending a prominent Yeshiva in the region.;;;;;;;;;;;;;x
 
 ###########Jewish Events###########
 
@@ -152,11 +154,16 @@ EVTOPT_shvil_israel_jerusalem;If I forget you, Jerusalem, let my right hand forg
 #Yeshiva event chain
 EVTDESC_yeshiva_1;A New letter has arrived from the Rosh Yeshiva: you have been accepted as a student! Soon you will pack your bags and begin your studying under great scholars of Talmud.;;;;;;;;;;;;;x
 EVTOPTA_yeshiva_1;I can't wait!;;;;;;;;;;;;;x
-EVTDESC_yeshiva_2;The Head Rabbi of your Yeshiva has found you a new chevruta partner, who will your companion in study throughtout your time there.;;;;;;;;;;;;;x
-EVTOPTA_yeshiva_2;Pleased to meet you;;;;;;;;;;;;;x
+EVTDESC_yeshiva_2;The Head Rabbi of your Yeshiva has found a fellow student [chevruta_partner.GetBestName], who will be your chevruta, a constant companion in study throughtout your time there. The Rabbi reminds you that as "Iron sharpens iron, so a man sharpens the countenance of his friend". You hope this new friend is sharp enough to help you on your path of learning.;;;;;;;;;;;;;x
+EVTOPTA_yeshiva_2;Pleased to meet you, [chevruta_partner.GetFirstName]!;;;;;;;;;;;;;x
+EVTDESC_yeshiva_teach_1;You have been look at the same Daf for what feels like ages, trying to find some way to understand the argument. You turn to [chevruta_partner.GetFirstName] who pulls out another commentary [chevruta_partner.GetHeShe] read which clarified things.
+EVTOPTA_yeshiva_teach_1;I am blessed to have such a capable chaver.
+EVTDESC_yeshiva_teach_1;[chevruta_partner.GetFirstName] has come to you after  at the same Daf for what feels like ages, trying to find some way to understand the argument. You turn to  who pulls out another commentary [chevruta_partner.GetHeShe] read which clarified things.
+EVTOPTA_yeshiva_teach_1;I am blessed to have such a capable chaver.
+
 
 #dialogue event(s?)
-EVTDESC_dialogue_1;After reading in [From.Religion.GetScriptureName] and other [From.Religion.GetGroupName] texts, I now have a better understanding of their religion and a new appreciation for it's followers.;;;;;;;;;;;;;x
+EVTDESC_dialogue_1;After reading in [From.Religion.GetScriptureName] and other [From.Religion.GetGroupName] texts, I now have a better understanding of their religion and a new appreciation for its followers.;;;;;;;;;;;;;x
 EVTOPTA_dialogue_1;Let there be no hate between me and [From.Religion.GetGroupName] believers.;;;;;;;;;;;;;x
 EVTOPTB_dialogue_1;I shall invite [From.GetTitledFirstName], a [From.Religion.GetFullName] believer, over to my house for further discussion.;;;;;;;;;;;;;x
 ###########Jewish Opinion###########
@@ -189,14 +196,12 @@ bar_mitzvah_bad_desc;After [root.GetHisHer] Bar Mitzvah, [root.GetFirstName] has
 ###########Jewish Title Localization###########
 
 RISHON_LETZION;Rishon LeTzion;;;;;;;;;;;;;x
-count_sabra;Rozen;;;;;;;;;;;;;x
-count_female_sabra;Rozenet;;;;;;;;;;;;;x
-county_sabra;Roznut;;;;;;;;;;;;;x
-county_of_sabra;Roznutat;;;;;;;;;;;;;x
-duke_sabra;Nasikh;;;;;;;;;;;;;x
-duke_female_sabra;Nesikha;;;;;;;;;;;;;x
-duchy_sabra;Makhoz;;;;;;;;;;;;;x
-duchy_of_sabra;Mahozat;;;;;;;;;;;;;x
+county_sabra;Makhoz;;;;;;;;;;;;;x
+county_of_sabra;Mahozat;;;;;;;;;;;;;x
+duke_sabra;Rozen;;;;;;;;;;;;;x
+duke_female_sabra;Rozenet;;;;;;;;;;;;;x
+duchy_sabra;Roznut;;;;;;;;;;;;;x
+duchy_of_sabra;Roznutat;;;;;;;;;;;;;x
 king_sabra;Melekh;;;;;;;;;;;;;x
 king_female_sabra;Malkah;;;;;;;;;;;;;x
 kingdom_sabra;Malkhut;;;;;;;;;;;;;x

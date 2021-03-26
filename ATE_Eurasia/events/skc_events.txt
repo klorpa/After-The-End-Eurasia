@@ -268,6 +268,9 @@ character_event = {
 				save_event_target_as = royal_touch_courtier
 			}
 		}
+		random_demesne_province = {
+			save_event_target_as = royally_touched_province		
+		}
 	}
 		
 	option = {
@@ -319,7 +322,7 @@ character_event = {
 				}
 			}
 			save_persistent_event_target = {
-				name = royal_toucher
+				name = royally_touched
 				scope = ROOT
 			}
 		}
@@ -540,9 +543,6 @@ character_event = {
 
 	option = {
 		name = EVTOPTA_royal_touch_8
-		random_demense_province = {
-			save_event_target_as = royally_touched_province		
-		}
 		prestige = 50
 		hidden_tooltip = {
 			random_list = {
