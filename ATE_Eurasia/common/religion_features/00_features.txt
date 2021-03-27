@@ -587,6 +587,7 @@ religion_doctrine = {
 			NOR = { 
 				has_selected_religion_feature = religion_feature_hellenic # Redundant Doctrine
 				has_selected_religion_feature = religion_feature_bon # Redundant Doctrine
+				has_selected_religion_feature = religion_feature_nepmese # Redundant Doctrine
 				has_selected_religion_feature = religion_patriarchal # Incompatible
 				has_selected_religion_feature = religion_matriarchal # Incompatible
 			}
@@ -1512,6 +1513,50 @@ religion_doctrine = {
 		}
 		effect = {
 			custom_tooltip = { text = tooltip_religion_feature_pyramids }
+		}
+	}
+	
+	religion_feature_nepmese = {  # Star Trails
+		picture = GFX_religion_feature_nepmese
+		potential = {
+			has_game_started = yes
+			religion = nepmese_reformed
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		trigger = {
+			NOR = {
+				has_selected_religion_feature = GFX_religion_feature_meritocratic
+				has_selected_religion_feature = religion_patriarchal
+				has_selected_religion_feature = religion_matriarchal
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_meritocratic }
+			custom_tooltip = { text = tooltip_religion_feature_rivermovement }
+			custom_tooltip = { text = tooltip_religion_feature_defensive }
+			hidden_tooltip = {
+				set_heir_designation = yes
+				set_allow_rivermovement = yes
+				set_unit_home_modifier = {
+					land_morale = 0.8
+					light_infantry_defensive = 0.8
+					heavy_infantry_defensive = 0.8
+					pikemen_defensive = 0.8
+					light_cavalry_defensive = 0.8
+					knights_defensive = 0.8
+					archers_defensive = 0.8
+					horse_archers_defensive = 0.8
+					camel_cavalry_defensive = 0.8
+					war_elephants_defensive = 0.8
+					garrison_size = 0.4
+					key = "DEF_RELIGION_HOME_TERRITORY"
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 50
 		}
 	}
 }

@@ -1,34 +1,4 @@
-# 1		char: you have a vision of the blessed virgin (choose to report it or not)
-# 2		char: idea to fake a vision
-# 10	prov: tales of our lady of <province>
-# 11	char: your vision claims have been rejected
-# 12	char: your vision claims have been accepted
-# 30	narr: describe vision quality, choose manner to investigate the claims
-# 31	char: investigation has improved the credibility of the vision
-# 32	char: investigation has revealed the visions to be fraudulent
-# 33	[hidden] char: investigation was inconclusive
-# 40	narr: describe vision quality, choose manner to shore claim them up (each option only once)
-# 41	char: notify vision seer of increased credibility
-# 42	char: notify vision seer of reduced credibility
-# 50 	narr: describe vision quality, main decision about how to react
-# 51	narr: fundraise or start the cathedral construction
-# 52	char: people angry that you've fundraised a lot but haven't started construction
-# 55	letter: ruler receives request for donation
-# 60	narr: the cathedral is complete [cathedral, large cathedral, or grand cathedral added to temple]
-# 70	[hidden] prov: repeating event to send letters inviting nearby sacred heart rulers to visit
-# 71	letter: nearby sacred heart characters invited to visit cathedral
-# 72	narr: arrive in province, describe vision quality
-# 80	narr: the miraculous spring waters of <province>!
-# 81	char: notify character of the miracle
-# 90	prov: pilgrims form army of our lady of <prov> [spawn event troops]
-# 91	prov: evidence of fraud uncovered
 
-# Important flags/variables
-# event_target:apparition_seer (the character that saw the vision)
-# event_target:apparition_site (location of the vision)
-# vision_quality (variable associated with the site, generally ranged from 1 to 5)
-# vision_true, vision_false (associated with the site, whether it's a hoax or not)
-# marian_investigation, marian_construction (current stage of the event chain)
 
 namespace = nepmese
 
@@ -42,7 +12,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		religion = nepmese
+		OR = {
+			religion = nepmese
+			religion = nepmese_reformed
+		}
 		NOT = { has_character_flag = is_child_of_destiny }
 	}
 	

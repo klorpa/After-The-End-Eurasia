@@ -1,0 +1,201 @@
+1994000={
+	name="György"
+	dynasty=2925101 #Dózsa
+	culture=szekely
+	religion=nepmese
+	trait=hunter
+	trait=wroth
+	trait=brave
+	trait=stubborn
+	trait=skilled_tactician
+	trait=patient
+	trait=humble
+	father=1994001
+	2634.12.30={birth=yes}
+	2659.11.8={add_spouse=1994009}
+	2700.1.1={death=yes}
+}
+1994001={
+	name="Sándor"
+	dynasty=2925101 #Dózsa
+	culture=szekely
+	religion=nepmese
+	trait=falconer
+	trait=content
+	trait=stubborn
+	trait=skilled_tactician
+	trait=patient
+	father=1994002
+	2601.5.7={birth=yes}
+	2660.2.2={death=yes}
+}
+1994002={
+	name="Jenõ"
+	dynasty=2925101 #Dózsa
+	culture=szekely
+	religion=nepmese
+	trait=strong
+	trait=drunkard
+	trait=stubborn
+	trait=tough_soldier
+	2569.6.9={birth=yes}
+	2620.9.6={death=yes}
+}
+1994003={
+	name="Kelemen"
+	dynasty=2925141 #Kömíves
+	culture=szekely
+	religion=nepmese
+	trait=strong
+	trait=architect
+	trait=depressed
+	trait=fortune_builder
+	2560.2.11={birth=yes}
+	2582.5.5={add_spouse=1994004}
+	2610.8.3={death={death_reason=death_suicide}}
+}
+1994004={
+	name="Ágnes"
+	culture=szekely
+	female=yes
+	religion=nepmese
+	trait=kind
+	trait=trusting
+	trait=pious
+	trait=fair
+	2560.2.11={birth=yes}
+	2582.5.5={add_spouse=1994003}
+	2600.4.28={death={death_reason=death_sacrificed killer=1994003}}
+}
+1994005={
+	name="Balázs"
+	dynasty=2925141 #Kömíves
+	culture=szekely
+	religion=nepmese
+	trait=poet
+	trait=chaste
+	trait=depressed
+	trait=strategist
+	father=1994003
+	mother=1994004
+	2585.3.13={birth=yes}
+	2644.1.2={death=yes}
+}
+1994006={
+	name="Csaba"
+	dynasty=2925141 #Kömíves
+	culture=szekely
+	religion=nepmese
+	trait=shrewd
+	trait=lustful
+	trait=socializer
+	trait=kind
+	trait=diligent
+	father=1994005
+	2609.1.29={birth=yes}
+	2637.2.18={add_spouse=1994008}
+	2690.1.1={death=yes}
+}
+1994007={
+	name="Csaba"
+	dynasty=2925141 #Kömíves
+	culture=szekely
+	religion=nepmese
+	trait=shrewd
+	trait=lustful
+	trait=socializer
+	trait=kind
+	trait=diligent
+	father=1994006
+	mother=1994008
+	2639.4.22={birth=yes}
+	2690.1.1={death=yes}
+}
+1994008={
+	name="Csillag"
+	female=yes
+	culture=szekely
+	religion=coronite
+	trait=groomed
+	trait=seductress
+	trait=grey_eminence
+	2620.3.4={birth=yes}
+	2637.2.18={add_spouse=1994006}
+	2690.1.1={death=yes}
+}
+1994009={
+	name="Annamária"
+	dynasty=2925141 #Kömíves
+	female=yes
+	culture=szekely
+	religion=nepmese
+	trait=shrewd
+	trait=seductress
+	trait=gardener
+	trait=sturdy
+	trait=diligent
+	father=1994006
+	mother=1994008
+	2640.9.3={birth=yes}
+	2659.11.8={add_spouse=1994000}
+	2660.3.9={trait=pregnant}
+	2690.1.1={death=yes}
+}
+1994010={
+	name="Zsuzsanna"
+	dynasty=2925141 #Kömíves
+	female=yes
+	culture=szekely
+	religion=nepmese
+	trait=quick
+	trait=chaste
+	trait=fair
+	trait=deceitful
+	father=1994006
+	mother=1994008
+	2643.4.9={birth=yes}
+	2690.1.1={death=yes}
+}
+1994011={
+	name="Sarolta"
+	dynasty=2925101 #Dózsa
+	female=yes
+	culture=szekely
+	religion=nepmese
+	trait=shrewd
+	trait=curious
+	father=1994000
+	mother=1994009
+	2661.20.3={birth=yes}
+	2690.1.1={death=yes}
+}
+
+
+1994050={
+	name="Bianca" 
+	dynasty=2046100 #Placeholderscu
+	culture=romanian
+	religion=orthodox
+	female=yes
+	trait=fair
+	trait=cruel
+	trait=ambitious
+	trait=deceitful
+	trait=lustful
+	trait=grey_eminence
+	2622.5.2={birth=yes}
+	2700.1.1={death=yes}
+}
+
+1994051={
+	name="Horatiu" 
+	dynasty=2046100 #Placeholderscu
+	culture=romanian
+	religion=orthodox
+	trait=falconer
+	trait=brave
+	trait=content
+	trait=lustful
+	2640.10.11={birth=yes}
+	2700.1.1={death=yes}
+}

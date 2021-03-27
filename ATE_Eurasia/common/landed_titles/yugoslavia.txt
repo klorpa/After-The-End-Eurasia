@@ -31,6 +31,51 @@ e_yugoslavia = {
 			
 			capital = 1001 # Hartera
 			
+			c_karlovac = {
+				color={ 214 58 95 }
+				color2={ 255 255 255 }
+				
+				b_karlovac = {}
+				b_ogulin = {}
+				b_crikvenica = {}
+				b_duga_resa = {}
+				b_slunj = {}
+				b_ozalj = {}
+				b_josipdol = {}
+				b_rakovica = {}
+			}
+			c_rijeka = {
+				color={ 175 154 41 }
+				color2={ 255 255 255 }
+				
+				b_rijeka = {}
+				b_pula = {}
+				b_porec = {}
+				b_matulji = {}
+				b_opatija = {}
+				b_rovinj = {}
+				b_umag = {}
+			}
+			c_lika = {
+				color={ 196 84 46 }
+				color2={ 255 255 255 }
+				
+				b_gospic = {}
+				b_otacac = {}
+				b_udbina = {}
+				b_donji_lapac = {}
+				b_licko_lesce = {}
+				b_brinje = {}
+				b_senj = {}
+			}
+		}
+		
+		d_slavonia = {
+			color={ 234 95 156 }
+			color2={ 255 255 255 }
+			
+			capital = 1001 # Hartera
+			
 			c_zagreb = {
 				color={ 200 120 19 }
 				color2={ 255 255 255 }
@@ -56,20 +101,6 @@ e_yugoslavia = {
 				b_ludbreg = {}
 				b_ivanec = {}
 			}
-			
-			c_karlovac = {
-				color={ 214 58 95 }
-				color2={ 255 255 255 }
-				
-				b_karlovac = {}
-				b_ogulin = {}
-				b_crikvenica = {}
-				b_duga_resa = {}
-				b_slunj = {}
-				b_ozalj = {}
-				b_josipdol = {}
-				b_rakovica = {}
-			}
 			c_bjelovar = {
 				color={ 180 134 132 }
 				color2={ 255 255 255 }
@@ -81,54 +112,6 @@ e_yugoslavia = {
 				b_kutina = {}
 				b_glina = {}
 				b_garesnica = {}
-			}
-			c_zadar = {
-				color={ 241 149 111 }
-				color2={ 255 255 255 }
-				
-				b_zadar = {}
-				b_sibenik = {}
-				b_jasenice = {}
-				b_biograd_na_moru = {}
-				b_sukosan = {}
-				b_uglan = {}
-				b_vodice = {}
-			}
-			c_rijeka = {
-				color={ 175 154 41 }
-				color2={ 255 255 255 }
-				
-				b_rijeka = {}
-				b_pula = {}
-				b_porec = {}
-				b_matulji = {}
-				b_opatija = {}
-				b_rovinj = {}
-				b_umag = {}
-			}
-			c_kvarnerska_ostrva = {
-				color={ 186 115 113 }
-				color2={ 255 255 255 }
-				
-				b_pag = {}
-				b_rab = {}
-				b_mali_losinj = {}
-				b_krk = {}
-				b_malinska = {}
-				b_novalja = {}
-				b_cres = {}
-			}
-			c_lika = {
-				color={ 196 84 46 }
-				color2={ 255 255 255 }
-				
-				b_gospic = {}
-				b_otacac = {}
-				b_udbina = {}
-				b_donji_lapac = {}
-				b_licko_lesce = {}
-				b_brinje = {}
-				b_senj = {}
 			}
 			c_brod = {
 				color={ 213 43 53 }
@@ -153,6 +136,38 @@ e_yugoslavia = {
 				b_beli_manastir = {}
 				b_valpovo = {}
 				b_nasice = {}
+			}
+		}
+		
+		d_dalmatia = {
+			color={ 134 50 176 }
+			color2={ 255 255 255 }
+			
+			capital = 1001 # Hartera
+			
+			c_zadar = {
+				color={ 241 149 111 }
+				color2={ 255 255 255 }
+				
+				b_zadar = {}
+				b_sibenik = {}
+				b_jasenice = {}
+				b_biograd_na_moru = {}
+				b_sukosan = {}
+				b_uglan = {}
+				b_vodice = {}
+			}
+			c_kvarnerska_ostrva = {
+				color={ 186 115 113 }
+				color2={ 255 255 255 }
+				
+				b_pag = {}
+				b_rab = {}
+				b_mali_losinj = {}
+				b_krk = {}
+				b_malinska = {}
+				b_novalja = {}
+				b_cres = {}
 			}
 			c_split = {
 				color={ 235 144 50 }
@@ -186,18 +201,6 @@ e_yugoslavia = {
 			
 			capital = 1009 # Boska
 			
-			c_sarajevo = {
-				color={ 215 243 15 }
-				color2={ 255 255 255 }
-				
-				b_sarajevo = {}
-				b_illidza = {}
-				b_goradze = {}
-				b_hadzici = {}
-				b_foca = {}
-				b_lukavica = {}
-				b_rogatica = {}
-			}
 			c_bihac = {
 				color={ 246 236 80 }
 				color2={ 255 255 255 }
@@ -236,6 +239,26 @@ e_yugoslavia = {
 				b_prozor = {}
 				b_gornji_vakuf_uskoplje = {}
 			}
+		}
+			
+		d_bosnia = {
+			color={ 150 246 70 }
+			color2={ 255 255 255 }
+			
+			capital = 1009 # Boska
+			bosniak = "Bosna"
+			c_sarajevo = {
+				color={ 215 243 15 }
+				color2={ 255 255 255 }
+				
+				b_sarajevo = {}
+				b_illidza = {}
+				b_goradze = {}
+				b_hadzici = {}
+				b_foca = {}
+				b_lukavica = {}
+				b_rogatica = {}
+			}
 			c_zenica = {
 				color={ 232 240 54 }
 				color2={ 255 255 255 }
@@ -260,6 +283,11 @@ e_yugoslavia = {
 				b_gracanica = {}
 				b_zvornik = {}
 			}
+		}
+		d_hercegovina = {
+			color={ 101 150 249 }
+			color2={ 255 255 255 }
+			
 			c_mostar = {
 				color={ 245 246 130 }
 				color2={ 255 255 255 }
@@ -570,6 +598,7 @@ e_yugoslavia = {
 					austrian="Triest"
 					schwyzer="Triest"
 					hungarian="Trieszt"
+					szekely="Trieszt"
 				}
 				b_nova_gorica = {
 					rhenish="Neugörz"
@@ -672,6 +701,7 @@ e_yugoslavia = {
 			color={ 173 254 226 }
 			color2={ 255 255 255 }
 			hungarian="Belgrád"
+			szekely="Belgrád"
 			
 			capital = 1390 # c_belgrade
 			
@@ -679,16 +709,20 @@ e_yugoslavia = {
 				color={ 183 244 231 }
 				color2={ 255 255 255 }
 				hungarian="Belgrád"
+				szekely="Belgrád"
 				
 				b_stari_grad = {
 					hungarian="Óbelgrád"
+					szekely="Óbelgrád"
 				}
 				b_novi_beograd = {
 					hungarian="Újbelgrád"
+					szekely="Újbelgrád"
 				}
 				b_kragujevac = {}
 				b_smederevo = {
 					hungarian="Szendrö"
+					szekely="Szendrö"
 				}
 				b_chukarica = {}
 				b_zemun = {}
@@ -698,9 +732,11 @@ e_yugoslavia = {
 				color={ 117 208 192 }
 				color2={ 255 255 255 }
 				hungarian="Macsó"
+				szekely="Macsó"
 				
 				b_sabac = {
 					hungarian="Szabács"
+					szekely="Szabács"
 				}
 				b_valjevo = {}
 				b_sremska_mitrovica = {}
@@ -729,6 +765,7 @@ e_yugoslavia = {
 				b_prijepolje = {}
 				b_pozega = {
 					hungarian="Pozsega"
+					szekely="Pozsega"
 				}
 				b_priboj = {}
 				b_bajina_basta = {}
@@ -758,6 +795,7 @@ e_yugoslavia = {
 				color={ 91 188 158 }
 				color2={ 255 255 255 }
 				hungarian="Brancsó"
+				szekely="Brancsó"
 				
 				b_jagodina = {}
 				b_pozarevac = {}
@@ -784,6 +822,7 @@ e_yugoslavia = {
 			color={ 159 226 111 }
 			color2={ 255 255 255 }
 			hungarian="Vajdaság"
+			szekely="Vajdaság"
 			
 			capital = 1164 # c_bachka
 			
@@ -791,52 +830,68 @@ e_yugoslavia = {
 				color={ 169 216 116 }
 				color2={ 255 255 255 }
 				hungarian="Bácska"
+				szekely="Bácska"
 				
 				b_novi_sad = {
 					hungarian="Újvidék"
+					szekely="Újvidék"
 				}
 				b_subotica = {
 					hungarian="Szabadka"
+					szekely="Szabadka"
+					holy_site=nepmese
 				}
 				b_sombor = {
 					hungarian="Zombor"
+					szekely="Zombor"
 				}
 				b_bachka_palanka = {
 					hungarian="Palánka"
+					szekely="Palánka"
 				}
 				b_kula = {
 					hungarian="Kúla"
+					szekely="Kúla"
 				}
 				b_vrbas = {
 					hungarian="Verbász"
+					szekely="Verbász"
 				}
 				b_bechej = {
 					hungarian="Óbecse"
+					szekely="Óbecse"
 				}
 			}
 			c_banat = { # 1163
 				color={ 66 233 199 }
 				color2={ 255 255 255 }
 				hungarian="Torontál"
+				szekely="Torontál"
 				
 				b_zrenjamin = {}
 				b_panchevo = {
 					hungarian="Pancsova"
+					szekely="Pancsova"
 				}
 				b_kikinda = {
 					hungarian="Nagykikinda"
+					szekely="Nagykikinda"
 				}
 				b_vrsac = {
 					hungarian="Versec"
+					szekely="Versec"
 				}
 				b_kovin = {
 					hungarian="Kevevára"
+					szekely="Kevevára"
 				}
 				b_kovachica = {
 					hungarian="Antalfalva"
+					szekely="Antalfalva"
 				}
 				b_kanjiza = {
 					hungarian="Magyarkanizsa"
+					szekely="Magyarkanizsa"
 				}
 			}
 		}

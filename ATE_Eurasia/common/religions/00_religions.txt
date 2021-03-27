@@ -983,10 +983,10 @@ pagan_group = {
 		religious_clothing_priest = 3
 		
 	}
-	nepmese = {
+	nepmese_reformed = {
 		graphical_culture = westerngfx
 
-		icon = 58
+		icon = 84
 		heresy_icon = 58
 		
 		color = { 1 0.50 0.4 }
@@ -994,7 +994,6 @@ pagan_group = {
 		crusade_name = GREAT_HOLY_WAR
 		use_new_crusade = yes
 		crusade_cb = new_crusade
-		reformed = nepmese_reformed
 		
 		scripture_name = THE_TALES_OF_OLD
 		priest_title = TALTOS
@@ -1021,12 +1020,11 @@ pagan_group = {
 		intermarry = calvinist
 		intermarry = coronite
 		intermarry = mariavite
-		intermarry = catholic
 	}
-	nepmese_reformed = {
+	nepmese = {
 		graphical_culture = westerngfx
 
-		icon = 54
+		icon = 58
 		heresy_icon = 58
 		
 		color = { 1 0.50 0.4 }
@@ -1034,6 +1032,7 @@ pagan_group = {
 		crusade_name = GREAT_HOLY_WAR
 		use_new_crusade = yes
 		crusade_cb = new_crusade
+		reformed = nepmese_reformed
 		
 		scripture_name = THE_TALES_OF_OLD
 		priest_title = TALTOS
