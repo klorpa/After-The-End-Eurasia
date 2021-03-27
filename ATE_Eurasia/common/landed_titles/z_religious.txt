@@ -723,3 +723,36 @@ d_lusitanian_reformed = {
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
+d_nepmese_reformed = {
+	color = { 50 150 5 }
+	color2 = { 255 255 255 }
+	
+	capital = 1169 #Buda
+	creation_requires_capital = no
+	
+	landless = no
+	
+	title = "TALTOS_KING"
+	foa = "TALTOS_KING_FOA"
+	short_name = yes
+	
+	allow = {
+		has_landed_title = k_hungary
+		num_of_holy_sites = 3
+		piety = 150
+		wealth = 100
+	}
+	
+	#Controls a religion
+	controls_religion = nepmese_reformed
+	
+	religion = nepmese_reformed
+	
+	assimilate = no
+	
+	primary = no
+	
+	dignity = 200
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
