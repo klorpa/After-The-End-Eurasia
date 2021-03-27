@@ -765,6 +765,7 @@ religion_doctrine = {
 				has_selected_religion_feature = religion_equal
 				has_selected_religion_feature = religion_feature_bon
 				has_selected_religion_feature = religion_meritocratic
+				has_selected_religion_feature = religion_feature_nepmese
 			}
 		}
 		effect = {
@@ -856,6 +857,7 @@ religion_doctrine = {
 				has_selected_religion_feature = religion_equal
 				has_selected_religion_feature = religion_feature_bon
 				has_selected_religion_feature = religion_meritocratic
+				has_selected_religion_feature = religion_feature_nepmese
 				trigger_if = {
 					limit = { has_game_started = yes }
 					FROM = { 
@@ -1527,7 +1529,7 @@ religion_doctrine = {
 		}
 		trigger = {
 			NOR = {
-				has_selected_religion_feature = GFX_religion_feature_meritocratic
+				has_selected_religion_feature = religion_meritocratic
 				has_selected_religion_feature = religion_patriarchal
 				has_selected_religion_feature = religion_matriarchal
 			}
