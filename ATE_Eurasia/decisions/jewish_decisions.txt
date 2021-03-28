@@ -544,36 +544,21 @@ targeted_decisions = {
 	
 	gain_sympathy = {
 		only_playable = yes
-		filter = realm
-		ai_target_filter = realm
 		from_potential = {
 			#Conditions on the decision taker for the decision to appear. Not taken into account when filter = self, use potential instead.
 			religion = haskalah
-			NOR = {
-				has_character_flag = dialoguing
-				has_character_modifier = recently_dialogued
-			}
-			NOT ={
-				ROOT = {
-					trigger_switch ={
-						#### reminder to update as more religion groups are added
-						on_trigger = religion_group
-						christian				= { FROM = { trait = sympathy_christendom}}
-						vernacular	 			= { FROM = { trait = sympathy_vernacular } }
-						#jewish_group 			= { FROM = { trait = sympathy_judaism }}
-						pagan_group 			= { FROM = { trait = sympathy_pagans }}
-						muslim 					= { FROM = { trait = sympathy_islam }}
-						old_world_cultist_group	= { FROM = { trait = sympathy_old_world_cults }}
-						islamosyncretic			= { FROM = { trait = sympathy_islamosyncretic }}
-						scholastic				= { FROM = { trait = sympathy_scholastic }}
-					}
-				}	
-			}
 		}
 		potential = {
 			#Conditions on the targeted character for the decision to appear
+			OR = {#either within the same realm or the realms are neighboring
+				same_realm = FROM
+				any_neighbor_independent_ruler = {
+					any_realm_lord = {
+						character = FROM
+					}
+				}
+			}
 			NOT = {religion_group = jewish_group}
-			NOT = {has_trait = sympathy_judaism}
 		}
 		allow = {
 			#Conditions for the decision to be enabled
@@ -584,16 +569,58 @@ targeted_decisions = {
 				}
 				opinion = {
 					who = FROM
-					value = -25
+					value = -30
+				}
+				custom_tooltip = {
+					text = not_have_corresponding_sympathy_tooltip
+					OR = {
+						#### reminder to update as more religion groups are added
+						AND = {
+							religion_group = christian
+							FROM = { NOT = { trait = sympathy_christendom}}
+						}
+						AND = {
+							religion_group = vernacular
+							FROM = { NOT = { trait = sympathy_vernacular}}
+						}
+						AND = {
+							religion_group = pagan_group
+							FROM = { NOT = { trait = sympathy_pagans}}
+						}
+						AND = {
+							religion_group = muslim
+							FROM = { NOT = { trait = sympathy_islam}}
+						}
+						AND = {
+							religion_group = old_world_cultist_group
+							FROM = { NOT = { trait = sympathy_old_world_cults}}
+						}
+						AND = {
+							religion_group = islamosyncretic
+							FROM = { NOT = { trait = sympathy_islamosyncretic}}
+						}
+						AND = {
+							religion_group = scholastic
+							FROM = { NOT = { trait = sympathy_scholastic}}
+						}
+						AND = {#in case we ever add the decision to more religions
+							religion_group = jewish_group
+							FROM = { NOT = { trait = sympathy_judaism}}
+						}
+					}
 				}
 			}
 			FROM = {
 				piety = 50
 				NOT = {is_rival = ROOT}	
 				opinion = {
-					who = FROM
-					value = -25
+					who = ROOT
+					value = -30
 				}
+				NOR = {
+					has_character_flag = dialoguing
+					has_character_modifier = recently_dialogued
+				}	
 			}
 		}	
 		effect = {
