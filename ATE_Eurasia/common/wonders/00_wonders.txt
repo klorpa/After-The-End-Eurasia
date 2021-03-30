@@ -90,7 +90,7 @@
 ################# Historical/Pre-existing Wonders #################
 
 # 7A. The University of Oxford ..... wonder_oxford_library
-# 7B. Neuschwanstein  .............. wonder_neuschwanstein
+# 7B. ...
 # 7C. Kronborg Castle in Denmark ... wonder_kronborg_castle
 # 7D. Walhalla in Germany .......... wonder_walhalla
 # 7E. Orszaghaz Palace in Hungary .. wonder_orszaghaz
@@ -2552,124 +2552,7 @@ wonder_oxford_library = {
 	}
 }
 
-# 7B. Neuschwanstein "The Fairytale Castle"
-wonder_neuschwanstein = {
-	picture = GFX_wonder_strip_neuschwanstein
-	allow_construction = no
-	potential = {
-	}
-	active = {
-	}
-	flags = {
-		inspires_relaxing
-		inspires_contentedness
-		cost_medium
-	}
-	available_upgrades = {
-		# UNIQUE:
-		upgrade_throne_fancy
-		upgrade_trap_door
-		upgrade_royal_bedchamber
-		upgrade_skull_throne
-		upgrade_golden_throne
-		upgrade_royal_custodian
-		upgrade_automata_throne
-
-		#
-		upgrade_torture_chamber
-		upgrade_brewery
-		upgrade_historical_mural
-		upgrade_dueling_room
-
-		# OTHER:
-		upgrade_roads
-		upgrade_watchtower_network
-		upgrade_spikes
-		upgrade_tower
-		upgrade_hypocausts
-		upgrade_heating_pipes
-		upgrade_retinue
-		upgrade_road_tolls
-		upgrade_tavern
-	}
-	stage = {
-		allow = {
-		}
-		build_time = 315
-		gold_cost_flat = 2600
-		gold_cost_ticking = 3
-		restore_time = 150
-		loot_time = 100
-		restore_cost_flat = 400
-		restore_cost_ticking = 2
-		upgrade_slots = 2
-		local_modifier = {
-		}
-		owner_modifier = {
-			retinuesize = 250
-			monthly_character_prestige = 0.1
-			court_size_modifier = 5
-		}
-	}
-	stage = {
-		allow = {
-		}
-		build_time = 315
-		gold_cost_flat = 1000
-		gold_cost_ticking = 3
-		restore_time = 200
-		loot_time = 100
-		restore_cost_flat = 500
-		restore_cost_ticking = 2
-		upgrade_slots = 2
-		local_modifier = {
-		}
-		owner_modifier = {
-			retinuesize = 250
-			monthly_character_prestige = 0.1
-			court_size_maintenance_cost_modifier = -0.05
-		}
-	}
-	stage = {
-		allow = {
-		}
-		build_time = 315
-		gold_cost_flat = 1000
-		gold_cost_ticking = 3
-		restore_time = 200
-		loot_time = 20
-		restore_cost_flat = 500
-		restore_cost_ticking = 2
-		upgrade_slots = 2
-		local_modifier = {
-		}
-		owner_modifier = {
-			retinuesize = 250
-			monthly_character_prestige = 0.1
-			court_size_modifier = 5
-		}
-	}
-	stage = {
-		allow = {
-		}
-		build_time = 200
-		gold_cost_flat = 1000
-		gold_cost_ticking = 3
-		restore_time = 200
-		loot_time = 2
-		restore_cost_flat = 500
-		restore_cost_ticking = 2
-		upgrade_slots = 2
-		local_modifier = {
-		}
-		owner_modifier = {
-			retinuesize_perc = 0.2
-			monthly_character_prestige = 0.1
-			land_morale = 0.03
-			court_size_maintenance_cost_modifier = -0.05
-		}
-	}
-}
+# 7B...
 
 # 7C. Kronborg Castle
 # Part Fortress Part Palace
