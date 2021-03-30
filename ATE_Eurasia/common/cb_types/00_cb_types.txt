@@ -20786,7 +20786,10 @@ tyranny_war = {
 			}
 			FROM = {
 				religion = jacobin
-				is_tyrant_trigger = yes
+				OR = {
+					is_tyrant_trigger = yes
+					trait = tyrant
+				}
 			}
 		}
 		NOT = {

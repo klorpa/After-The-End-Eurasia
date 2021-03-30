@@ -362,6 +362,18 @@ patron_la_montagne = {
 	religion = yes
 	ruler_designer_cost = 0
 }
+
+tyrant = {
+	
+	monthly_character_piety = -0.30
+	monthly_character_prestige = -0.50
+	jacobin_opinion = -15
+	vassal_opinion = -10
+	
+	potential = { religion = jacobin }
+	random = no 
+	religious = yes
+}
 	
 methodist = {
 	opposites = {

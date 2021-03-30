@@ -419,3 +419,105 @@ character_event = {
 		clr_character_flag = attending_bastille_day
 	}
 }
+
+character_event = { #tyrant event 
+	id = jacobin.13
+	desc = EVTDESC_jacobin_13
+	picture = GFX_nine_worthies
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+	only_capable = yes
+	prisoner = no
+	min_age = 16
+	religion = jacobin
+
+	trigger = {
+		calc_true_if = {
+			amount >= 3
+			has_character_modifier = known_murderer
+			trait = kinslayer
+			trait = greedy
+			trait = envious
+			trait = wroth
+			trait = slothful
+			trait = greedy
+			trait = gluttonous
+			trait = lustful
+			trait = cruel
+			trait = drunkard
+			trait = craven
+			trait = hedonist
+			trait = impaler
+			trait = paranoid
+			trait = reckless
+		}
+		religion = jacobin
+		NOR = {
+			trait = brave
+			trait = honorable
+			trait = honest
+			trait = just
+			trait = chaste
+			trait = temperate
+			trait = charitable
+			trait = diligent
+			trait = patient
+			trait = kind
+			trait = humble
+		}
+		NOT = { trait = tyrant }
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = EVTOPTA_jacobin_13
+		add_trait = tyrant
+		prestige = -100
+		piety = -100
+	}
+}
+
+character_event = { #losing the tyrant 
+	id = jacobin.14
+	desc = EVTDESC_jacobin_14
+	picture = GFX_nine_worthies
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+	only_capable = yes
+	prisoner = no
+	min_age = 16
+	religion = potential
+
+	trigger = {
+		OR = {
+			trait = brave
+			trait = honorable
+			trait = honest
+			trait = just
+			trait = chaste
+			trait = temperate
+			trait = charitable
+			trait = diligent
+			trait = patient
+			trait = kind
+			trait = humble
+		}
+		trait = worthy_knight
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = EVTOPTA_jacobin_14
+		remove_trait = tyrant
+		prestige = 100
+		piety = 100
+	}
+}
