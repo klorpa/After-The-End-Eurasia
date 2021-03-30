@@ -3737,6 +3737,79 @@ e_italy = {
 		provencal="Sardenha"
 		palatinate="Sardinje"
 		
+		d_corsica = {
+			color={ 224 224 224 }
+			color2={ 255 255 255 }
+			
+			capital = 1503 # c_pumonti
+	
+			occitan = "Corsega"
+			provencal = "Corso"
+			corsican = "Corsica"
+			catalan = "Còrsega"
+			basque = "Korsika"
+			breton = "Korsika"
+			parisian = "Corse"
+			chti = "Corse"
+			walloon = "Corse"
+			arpitan = "Kórsa"
+			
+			c_pumonti = { # 1502
+				color={ 44 73 147 }
+				color2={ 255 255 255 }
+	
+				catalan = "Còrsega del Sud"
+				occitan = "Corsega del Sud"
+				provencal = "Corso deu Sud"
+				parisian = "Corse-du-Sud"
+				
+				b_ajaccio = {
+					corsican = "Aiacciu"
+				}
+				b_porto_vecchio = {
+					catalan = "Port Vell"
+					corsican = "Portivechju"
+				}
+				b_sartena = {
+					corsican = "Sartè"
+				}
+				b_vico = {
+					corsican = "Vicu"
+				}
+				b_bonifacio = {
+					corsican = "Bunifaziu"
+				}
+				b_bastelicaccia = {
+					corsican = "Bastilicaccia"
+				}
+				b_propriano = {
+					corsican = "Prupià"
+				}
+			}
+			c_cismonte = { # 1503
+				color={ 34 59 124 }
+				color2={ 255 255 255 }
+	
+				catalan = "Alta Còrsega"
+				arpitan = "Hôta-Corse"
+				occitan = "Nauta Corsega"
+				provencal = "Nauto Corso"
+				parisian = "Haute-Corse"
+				
+				b_calvi = {}
+				b_bastia = {}
+				b_corte = {
+					corsican = "Corti"
+				}
+				b_borgo = {
+					corsican = "U Borgu"
+				}
+				b_biguglia = {}
+				b_lucciana = {}
+				b_furiani = {}
+			}
+		}
+		
 		d_sardinia = {
 			color={ 217 159 255 }
 			color2={ 255 255 255 }
