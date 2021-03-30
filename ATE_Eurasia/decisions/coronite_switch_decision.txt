@@ -1,0 +1,41 @@
+decisions = {
+	select_patron_saint_coronite = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 60
+		potential = {
+			is_playable = yes
+			religion = coronite
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		allow = {
+			wealth = 20
+			piety = 20
+			age = 16
+			prisoner = no
+			NOT = { is_incapable = yes }
+			custom_tooltip = {
+				text = CT_ALREADY_HAS_PATRON
+				
+				NOT = { has_character_modifier = chosen_coronite_patron }
+				NOT = { has_character_flag = choosing_coronite_patron }
+			}
+		}
+		effect = {
+			wealth = -20
+			piety = -20
+			hidden_tooltip = {
+				narrative_event = { id = coronite.001 }
+				set_character_flag = choosing_coronite_patron
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+}

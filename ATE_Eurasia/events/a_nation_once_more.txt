@@ -119,3 +119,27 @@ narrative_event = {
 		prestige = -1000
 	}
 }
+
+
+############LOTHC#################################
+
+narrative_event = {
+	id = anoa.6	
+	title = EVTTITLE_lothc
+	desc = EVTDESC_lothc
+	picture = GFX_evt_bishop
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_lothc
+		trigger = {
+			religion = coronite
+		}
+	}
+	option = {
+		name = OK
+		trigger = {
+			NOT = { religion = coronite }
+		}
+	}
+}

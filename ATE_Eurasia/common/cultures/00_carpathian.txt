@@ -53,7 +53,7 @@ carpathian = {
 			Zamfira Zaraza Zenaida Zenobia Zina Zita Zoe 
 		}
 		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "din "
 
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 40
@@ -116,7 +116,69 @@ carpathian = {
 			Zamfira Zaraza Zenaida Zenobia Zina Zita Zoe 
 		}
 		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "din "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	transylvanian = {
+		graphical_cultures = { serbsouthslavicgfx }
+
+		color = {0.6 0.4 0.3 }
+
+		male_names = {
+			Abel Achim Adam Adelin Adi Adonis Adrian Agnos Albert Aleodor Alex Alexandru_Alexander Alin Alistar Amedeu_Amadeus Amza Anatolie_Anatoly Andrei_Andrew Anghel_Angel Antim Antonio_Anthony Arcadian Arian Aristide_Aristides Arsenie_Arsene Artur_Arthur Atanasio_Athanasius Augustin_Augustine Aurelian_Aurelius Aurica Avram_Abraham Axinte 
+			Balint_Valentine Balas_Blaise Barna Bente_Benedict Barbu Basarab Banel Bebe Beniamin_Benjamin Benone Bernard Bogdan Bradut Bucefal Bucur 
+			Caius Camil_Camillus Cantemir Carol_Charles Caroi_Charles Casian_Cassian Cazimir_Casimir Calin Catalin Cecil Cedrin Cezar_Caesar Ciprian_Cyprian Claudiu_Claudius Codin Codrut Costache Constantin_Constantine Cornel_Cornelius Corneliu_Cornelius Corvin Cosmin_Cosme Costache_Constantine Crin Cristea_Christian Cristian_Christian Cristobal_Christopher Cristofor_Christopher Kolos
+			Dacian Damian Dan Daniel Darius David Decebal Denes Dionisie_Denis Dominic Dorel Dorian Dorin Dorinel Doru Dragomir Dragos Ducu Dumitru_Demetrius 
+			Edgar Edmond_Edmund Eduard_Edward Eftimie_Euthymus Emanoil_Emmanuel Emanuel_Emmanuel Emil Emilian Eremia_Jeremy Eric Ernest Eugen_Eugene Eusebiu_Eusebius Eustatiu 
+			Fabian Felix Ferdinand Filip_Philip Flaviu_Flavian Florea_Florian Florentin Florin_Florian Franz_Francis Ferenc_Francis Farcas
+			Gabi_Gabriel Gabriel Gelu George Ghenadie_Gennadius Gheorghe_George Gherasim_Gerasimus Gratian Gregorian_Gregory Grigore_Gregory 
+			Haralamb Henric_Henry Horatiu_Horace Horea 
+			Iacob_Jacob Ianis_John Ilarie_Hillary Ilie_Elias Inocentiu_Innocent Ioan_John Ion_John Ionut_John Iosif_Joseph Irinel Istvan_Stefan Iulian_Julian Iuliu_Julius Iustin_Justin Iustinian_Justinian Ivan_Ivan Ianos_John
+			Ladislau_Ladislaus Lascar Laurentiu_Laurence Laurian Lazar_Lazarus Leon_Leo Leonard Leontin Lica Liviu_Livius Lorin Luca_Luke Lucentiu Lucian Lucretiu_Lucrecius Ludovic_Louis 
+			Manolache Manole Marcel Marcu_Mark Marian Marin Mario_Marius Marius Martin Matei_Matthew Maxim_Maximus Maximilian Madalin Mihai_Michael Mihnea Mina Mircea Miron Mitica Mitrut Moise_Moses Mugur 
+			Nae Narcis_Narcissus Nelu Nichifor_Nikephoros Nicodim_Nicodemus Nicolae_Nicholas Nicusor Norbert Noris Norman 
+			Octav_Octavius Octaviu_Octavius Olimpiu_Olympius Oliver Ovidiu_Ovid Orban_Urbanus Otto
+			Pamfil_Pamphilius Panagachie Panait Patrascu Paul Petrisor Petru_Peter Plesu Pompiliu 
+			Radu Rafael_Raphael Rares Raul_Rudolf Razvan Relu Remus Robert Romeo Romica Romulus 
+			Sabin_Sabinus Sandu_Alexander Scarlat Sebastian Septimiu_Septimius Serban Sergiu_Sergius Severin_Severus Silviu_Silvio Simon Simion_Simon Sinica Sorin Soma Stan Stancu Stefan_Stephen Stelian 
+			Teodor_Theodore Teodosie_Theodosius Teofil_Theophilius Teohari Tiberiu_Tiberius Timotei_Timothy Titus Toma_Thomas Tamas_Thomas Traian_Trajan Trandafir Tudor_Theodore 
+			Valentin_Valentine Valeriu_Valerius Valter_Walter Vasile_Basil Victor Vincentiu_Vicent Vintila Viorel Visarion Virgil Vlad Vladimir Vlaicu_Vladislav Voicu 
+			Zaharia_Zachary Zamfir Zeno Zoltan Sigmond_Sigismund
+		}
+		female_names = {
+			Ada Adela Adelaida_Adelaide Adelina_Adeline Adriana Adnana Agata_Agatha Aglaia Agripina_Agrippina Aida Alberta Alexandra Alessia_Alexia Alice Alida Alina Alma Amanda Amelia Ana_Anne Anabela_Annabelle Anaida_Anahid Anamaria_Anne-Mary Anastasia Anca Andra_Andrea Andreea_Andrea Anemona Angela Angelica_Angela Anica Anisoara Antonela_Antonia Antonia Ariadna Arina Aristita Artemisa Astrid Atena_Athena Augusta Aura Aurelia Aurica Aurora Axenia 
+			Beatrice Betina Bianca_Blanche Barbara Borbala_Barbara Blanduzia Bogdana Brândusa 
+			Camelia Carina Carla Carmen Carolina_Caroline Casandra_Cassandra Casiana_Cassiana Catalina_Catherine Caterina_Catherine Cecilia Celia Cerasela Cezara Chira Cipriana Clara Clarisa_Clarisse Claudia Clementina Cleopatra Codrina Codruta Costanta_Constance Costantina_Constantina Consuela Coralia Corina_Corinne Cornelia Cosmina Crenguta Crina Cristina_Christina 
+			Daciana Daiana Dalia Dana Daniela Daria Delia Demetra Denisa Despina Diana Dida Didina Dina Dochia Doina Domnica Dora Doriana Dorli Draga Dumbravita 
+			Eftimia Elena_Helen Eleonora_Eleanor Eliana_Eliane Elisabeta_Elizabeth Eliza Elza Elodia_Élodie Elvira Emanuela Emilia Erica Estera_Esther Eufrosina_Euphrosyne Eugenia Eusebia Eva_Eve Evanghelina_Evangeline Evelina 
+			Fabia Fanni Felicia Filofteia Fiona Flavia Floarea Flora Florentina Florica Francesca_Françoise Frusina 
+			Gabriela Gentiana Georgia Gertrud_Gertrude Geta Gherghina_Georgia Gianina_Joan Gina Gloria Gratiana Gratiela 
+			Henrieta_Henriette Heracleea Hortensia 
+			Iasmina_Jasmine Ica Ilaria_Hillary Ileana Ilinca Ilona_Helen Ina Ioana_Joan Ianca_Joan Ioanina Iolanda_Yolanda Ionela Iosefina_Josephine Iridenta Irina_Irene Iris Irma Isabela_Elizabeth Isaura Iulia_Julia Iuliana_Juliana Iustina_Justina Ivana Ivona_Yvonne 
+			Joita Julieta_Juliet
+			Larisa Laura Laurentia Lavinia Lacramioara Leana Lelia Leontina Leopoldina Letitia Lenuta Lia Liana Liliana Lidia_Lydia Ligia Lioara Livia Loredana Lorelei Lorena_Lorraine Luana Lucia Lucretia_Lucrezia Ludmila Ludovica Luiza_Louise Luminita 
+			Magdalena_Magdalene Maia Malvina Manuela Mara Marcela Margareta_Margaret Maria_Mary Mariana_Marianne Marilena Marina Marta_Martha Martina Marusia Matilda Malina Marioara Melania Melina Melinda Melisa_Melissa Mia Mihaela_Michelle Milena Minodora Mioara Mirabela Miranda Mirela Miruna Miuta Mona Monalisa Monica_Monika 
+			Nadia Naomi Narcisa_Narcissa Natalia_Nathalie Natasa_Natasha Nicoleta Niculina Nidia Nina Nora Norica 
+			Octavia Octaviana Ofelia_Ophelia Olga Olimpia_Olympia Olivia Ortensa_Hortensia Otilia Ozana 
+			Pamela Paraschiva Patricia Paula Paulina_Pauline Petronela_Petronilla Pompilia Profira 
+			Rada Rafila Raluca Ramona_Raymonde Rebeca_Rebecca Reghina_Regina Renata Rica Rita Roberta Rodica Romana Roxana Roxelana Roza_Rose Rozalia_Rosalie Ruxandra 
+			Sabina Sabrina Safina Safta Salomea_Salome Sandra_Alexandra Sara_Sarah Sarolta_Charlotte Saveta Savina Sânziana Selina Semenica Smeralda_Esmeralda Serafina Severina Sidonia Silvana Silvia Simona Smaranda Sodica Sofia_Sophia Sonia Sorana Speranta Stana Stanca Stefania_Stephania Stela_Stella Steliana_Stella Steluta Susana_Susan Svetlana 
+			Tamara Tania Tatiana Teea Teodora_Theodora Teodosia_Theodosia Teona Tereza_Theresa Tiberia Timea Tinca Tudora_Theodora Tudosia_Theodosia 
+			Valentina Valeria Vanesa_Vanessa Varvara_Barbara Vasilica_Basilia Venera Vera Veronica Veta Vicentia Victoria Violeta_Violet Viorela Virginia Viviana_Vivian Vladelina Voichita 
+			Xenia 
+			Zamfira Zaraza Zenaida Zenobia Zina Zita Zoe Zsuzsanna_Susan
+		}
+		
+		from_dynasty_prefix = "din "
 
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 40

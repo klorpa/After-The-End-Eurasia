@@ -22,7 +22,7 @@ magyar = {
 			Lajos_Louis László_Ladislaus Levente Lörinc_Lawrence 
 			Marcell_Marcel Márk_Mark Márton_Martin Máté_Matthew Mátyás_Matthew Mihály_Michael Miklós_Nicholas Milán_Milan 
 			Nándor_Ferdinand Nimród_Nimrod Noel Norbert 
-			Ödön_Edmund Olivér_Oliver Ottó_Otto 
+			Ödön_Edmund Olivér_Oliver Ottó_Otto Orbán_Urbanus
 			Pál_Paul Patrik_Patrick Péter_Peter 
 			Richárd_Richard Róbert_Robert Roland Rudolf 
 			Sándor_Alexander Simon Soma Szabolcs Szebasztián_Sebastian Szilárd Szilveszter_Sylvester 
@@ -37,7 +37,7 @@ magyar = {
 			Dalma Diána_Diana Dóra_Dorothy Dorina Dorka Dorottya_Dorothy Dzsenifer_Jennifer 
 			Edina Edit_Edith Emese Emília_Emily Emma Enikõ Erika Erzsébet_Elizabeth Eszter_Esther Etelka Éva_Eve Evelin_Evelyn 
 			Fanni Flóra_Flora Fruzsina_Euphrosyne 
-			Gabriella_Gabrielle Gizella_Gisela Greta_Greta Gyöngyi Györgyi_Georgia 
+			Gabriella_Gabrielle Gizella_Gisela Gréta_Greta Gyöngyi Györgyi_Georgia 
 			Hajnalka Hanna Hédi_Hedwig Henrietta 
 			Ibolya Ildikó_Hilda Ilona_Helen Irén_Irene Irma Izabella_Elizabeth 
 			Janka_Joan Johanna_Joan Jázmin_Jasmine Jolán_Yolanda Judit_Judith Júlia_Julia Julianna_Juliana 
@@ -56,6 +56,7 @@ magyar = {
 
 		modifier = default_culture_modifier
 		dynasty_name_first = yes
+		from_dynasty_suffix = "i"
 
 		pat_grf_name_chance = 60
 		mat_grf_name_chance = 10
@@ -68,7 +69,7 @@ magyar = {
 	szekely = {
 		graphical_cultures = { magyargfx }
 		
-		color = { 0.1 0.4 0.2 }
+		color = { 0.1 0.4 0.1 }
 
 		male_names = {
 			Ábel_Abel Ádám_Adam Adorján_Adrian Álmos Ákos Albert Alex Andor_Andrew András_Andrew Antal_Anthony Arnold Áron_Aaron Ármin_Armin Árpád Attila Aurél_Aurelius 
@@ -100,7 +101,7 @@ magyar = {
 			Dalma Diána_Diana Dóra_Dorothy Dorina Dorka Dorottya_Dorothy Dzsenifer_Jennifer 
 			Edina Edit_Edith Emese Emília_Emily Emma Enikõ Erika Erzsébet_Elizabeth Eszter_Esther Etelka Éva_Eve 
 			Fanni Flóra_Flora Fruzsina_Euphrosyne 
-			Gabriella_Gabrielle Gizella_Gisela Greta_Greta Gyöngyi Györgyi_Georgia 
+			Gabriella_Gabrielle Gizella_Gisela Gréta_Greta Gyöngyi Györgyi_Georgia 
 			Hajnalka Hanga Hanna Hédi_Hedwig Henrietta 
 			Ibolya Ildikó_Hilda Ilona_Helen Irén_Irene Irma Izabella_Elizabeth 
 			Janka_Joan Jonka_Joan Johanna_Joan Jázmin_Jasmine Jolán_Yolanda Judit_Judith Júlia_Julia Julianna_Juliana 
@@ -119,6 +120,7 @@ magyar = {
 
 		modifier = default_culture_modifier
 		dynasty_name_first = yes
+		from_dynasty_suffix = "i"
 
 		pat_grf_name_chance = 60
 		mat_grf_name_chance = 10

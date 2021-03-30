@@ -1,0 +1,74 @@
+
+#
+
+namespace = coronite
+
+#############################
+# Choosing patron
+#############################
+character_event = {
+	id = coronite.001
+	desc = "EVTDESC_coronite_choose_patron"
+	picture = GFX_evt_beatification
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA_st_stephen"
+		add_character_modifier = { name = chosen_coronite_patron hidden = yes years = 3 }
+		add_character_modifier = { name = st_stephens_blessing years = 3 }
+		clr_character_flag = choosing_coronite_patron
+	}
+	option = {
+		name = "EVTOPTB_john_paul"
+		add_character_modifier = { name = chosen_coronite_patron hidden = yes years = 3 }
+		add_character_modifier = { name = st_john_pauls_blessing years = 3 }
+		clr_character_flag = choosing_coronite_patron
+	}
+	option = {
+		name = "EVTOPTC_blessed_virgin"
+		add_character_modifier = { name = chosen_coronite_patron hidden = yes years = 3 }
+		add_character_modifier = { name = blessed_virgins_blessing years = 3 }
+		clr_character_flag = choosing_coronite_patron
+	}
+	option = {
+		name = "EVTOPTD_undecided"
+		hidden_tooltip = {
+			character_event = { id = coronite.002 }
+		}
+	}
+}
+character_event = {
+	id = coronite.002
+	desc = "EVTDESC_coronite_choose_patron"
+	picture = GFX_evt_beatification
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA_st_ladislaus"
+		add_character_modifier = { name = chosen_coronite_patron hidden = yes years = 3 }
+		add_character_modifier = { name = st_ladislaus_blessing years = 3 }
+		clr_character_flag = choosing_coronite_patron
+	}
+	option = {
+		name = "EVTOPTB_st_zorard"
+		add_character_modifier = { name = chosen_coronite_patron hidden = yes years = 3 }
+		add_character_modifier = { name = st_zorards_blessing years = 3 }
+		clr_character_flag = choosing_coronite_patron
+	}
+	option = {
+		name = "EVTOPTC_goback"
+		hidden_tooltip = {
+			character_event = { id = coronite.001 }
+		}
+	}
+	option = {
+		name = "EVTOPTD_changedmind"
+		wealth = 20
+		piety = 20
+		clr_character_flag = choosing_coronite_patron
+	}
+}
