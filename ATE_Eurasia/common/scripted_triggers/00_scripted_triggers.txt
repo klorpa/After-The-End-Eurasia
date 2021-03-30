@@ -135,6 +135,7 @@ has_pious_trait_trigger = {
 		trait = ashari
 		trait = shieldmaiden
 		trait = zealous
+		trait = pious
 	}
 }
 
@@ -225,6 +226,20 @@ has_vice_trigger = {
 	}
 }
 
+has_tyrant_trait_trigger = {
+	OR = {
+		trait = arbitrary
+		trait = cruel
+		trait = reckless
+		trait = cannibal_trait
+		trait = greedy
+	}
+}
+
+is_tyrant_trigger = {
+	has_tyrant_trait_trigger = yes
+	has_benevolent_trait_trigger = no
+}
 
 ##ATTRACTIVENESS##
 
