@@ -20780,15 +20780,19 @@ tyranny_war = {
 	prestige_cost = 100
 	
 	can_use = {
-		AND = {
-			ROOT = {
+		ROOT = {
+			AND = {
 				religion = jacobin
+				de_facto_liege = FROM
+				}
 			}
 			FROM = {
-				religion = jacobin
-				OR = {
-					is_tyrant_trigger = yes
-					trait = tyrant
+				AND = {
+					religion = jacobin
+					OR = {
+						is_tyrant_trigger = yes
+						trait = tyrant
+					}
 				}
 			}
 		}
@@ -20797,11 +20801,6 @@ tyranny_war = {
 		}
 	}
 	
-	can_use_title = {
-		holder_scope = {
-			is_liege_or_above = FROM
-		}
-	}
 	can_use_gui = {
 		ROOT = {
 			piety_cost = 50
@@ -20839,13 +20838,8 @@ tyranny_war = {
 		}
 	}
 	
-	on_success_title = {
-		ROOT = {
-			usurp_title = PREV
-		}
-		FROM = {
-			add_claim = PREV
-		}
+	on_success_title = { 
+		usurp_title_plus_barony_if_unlanded = PREV
 	}
 	
 	on_reverse_demand = {
