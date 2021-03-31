@@ -649,9 +649,11 @@
 	#trait=muslim_mystic
 	2643.11.6={birth=yes}
 	2661.11.6={add_spouse=2202057}
+	2663.01.01={capital=c_edirne}
 }
 2202057={#Suleyman Wife
-	name="Alexandra"
+	name="Meryem"
+	dynasty = 2057006 #Hurrem
 	female=yes
 	culture=ukrainian
 	religion=nizami
@@ -665,6 +667,7 @@
 	trait=grey_eminence
 	2643.11.6={birth=yes}
 }
+
 2202058={#Ottoman Claimant
 	name="Baris"
 	dynasty=2052000 #Osmanoglu
@@ -847,6 +850,16 @@
 				}
 				attrition=0.5
 			}
+			spawn_unit={
+				province=307 #Hatay
+				owner=ROOT
+				troops={
+					archers={250 250}
+					heavy_infantry={250 750}
+					light_infantry={500 500}
+				}
+				attrition=0.5
+			}
 		}
 	}
 }
@@ -961,13 +974,18 @@
 	trait=alevi
 	2638.11.6={ birth=yes }
 }
-2202091 = { #Most Recent Seyh Ul-Islam
+2202091 = { #Most Recent Seyh ul-Islam
 	name = "Fatih"
 	culture = west_anatolian
 	religion = nizami
+	trait = scholarly_theologian
+	trait = quick
+	trait = devout
+	trait = erudite
+	trait = proud
 	2638.11.6={ birth=yes }
 }
-2202092 = {
+2202092 = { #Patriarch of Antioch
 	name = "Dawid" 
 	culture = suriyi
 	religion = orthodox
@@ -982,3 +1000,116 @@
 	trait = charitable
 	2620.11.2 = { birth = yes }
 }
+2202093 = { # Countess of Kirklareli
+	name = "Ayshenur" 
+	dynasty = 1803000 #Hizir
+	culture = dom
+	religion = ruhi
+	female = yes
+	trait = tough_soldier
+	trait = strong
+	trait = stubborn
+	trait = content
+	trait = trusting
+	trait = brave
+	2649.11.2 = { birth = yes }
+}
+2202094 = { # Count of Tekirdag
+	name = "Islam" 
+	culture = rumelian
+	religion = ruhi
+	dynasty = 2057002 #Namik
+	trait = thrify_clerk
+	trait = just
+	trait = kind
+	trait = charitable
+	trait = ambitious
+	2639.11.2 = { birth = yes }
+	2660.1.2 = {
+		add_spouse = 2202095
+	}
+}
+2202095 = {
+	name = "Zekiye" 
+	culture = rumelian
+	religion = ruhi
+	female = yes
+	2639.11.2 = { birth = yes }
+}
+2202096 = { 
+	name = "Adem" 
+	culture = rumelian
+	religion = ruhi
+	dynasty = 2057002 #Namik
+	father = 2202094
+	mother = 2202095
+	2661.11.2 = { birth = yes }
+}
+2202097 = { # Count of Cannakale
+	name = "Bigali" 
+	culture = rumelian
+	religion = nizami
+	dynasty = 2057003 #Mehmetçik
+	trait = tough_soldier
+	trait = scarred
+	trait = brave
+	trait = just
+	trait = content
+	trait = strong
+	2620.11.2 = { birth = yes }
+	2660.01.2 = {
+		add_spouse = 2202098
+	}
+}
+2202098 = {
+	name = "Evrem" 
+	culture = rumelian
+	religion = ruhi
+	female = yes
+	2621.11.2 = { birth = yes }
+}
+2202099 = { # 
+	name = "Ömer" 
+	culture = rumelian
+	religion = nizami
+	dynasty = 2057003 #Mehmetçik
+	father = 2202097
+	mother - 2202098
+	2646.11.2 = { birth = yes }
+
+}
+2202100 = {
+	name = "Shevket" 
+	culture = rumelian
+	religion = nizami
+	dynasty = 2057003 #Mehmetçik
+	father = 2202097
+	mother - 2202098
+	2648.11.2 = { birth = yes }
+}
+2202101 = { # Count of Balikesir
+	name = "Kurtdereli" 
+	culture = rumelian
+	religion = nizami
+	dynasty = 2057004 #Mehmet
+	trait = tough_soldier
+	trait = giant
+	trait = robust
+	trait = dull
+	trait = proud
+	trait = cruel
+	2640.11.2 = { birth = yes }
+}
+2202102 = { # Count of Istanbul
+	name = "Semsettin" 
+	culture = rumelian
+	religion = nizami
+	dynasty = 2057004 #Bogazkesen
+	trait = scholarly_theologian
+	trait = mystic
+	trait = frail
+	trait = temperate
+	trait = devout
+	trait = diligent
+	2640.11.2 = { birth = yes }
+}	

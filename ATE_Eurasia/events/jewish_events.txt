@@ -1682,18 +1682,18 @@ character_event = {
 	option = {
 		name = EVTOPTA_yeshiva_2
 		persistent_event_target:chevruta_partner = {
-			add_character_flag = chevruta_2
+			set_character_flag = chevruta_2
 			add_trait = travelling
 			character_event = { id = jewish.152 }
 		}
 		add_trait = travelling
-		add_character_flag = chevruta_1
+		set_character_flag = chevruta_1
 	}
 	
-	# after = {
-		# character_event = { id = jewish.153 }
-		# #begin the carousel of madness
-	# }
+	after = {
+		character_event = { id = jewish.153 }
+		#begin the carousel of madness
+	}
 }
 character_event = {
 	id = jewish.152
@@ -1944,11 +1944,12 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_yeshiva_teach_2
-		
-		opinion = {
-			modifier = opinion_chaver_lesson
-			who = persistent_event_target:chevruta_partner
-			years = 20
+		persistent_event_target:chevruta_partner = {
+			opinion = {
+				modifier = opinion_helpful_chaver
+				who = ROOT
+				years = 20
+			}
 		}
 		add_character_modifier = {
 			name = yeshiva_learning_success
@@ -1981,13 +1982,15 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_kosher_22903
-		opinion = {
-			modifier = opinion_impressed
-			who = persistent_event_target:chevruta_partner
-			years = 20
+		persistent_event_target:chevruta_partner = {
+			opinion = {
+				modifier = opinion_useless_chaver
+				who = ROOT
+				years = 20
+			}
 		}
 		add_character_modifier = {
-			name = yeshiva_learning
+			name = yeshiva_learning_failure
 			years = 5
 		}
 	}
@@ -2019,13 +2022,15 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_kosher_22903
-		opinion = {
-			modifier = opinion_impressed
-			who = persistent_event_target:chevruta_partner
-			years = 20
+		persistent_event_target:chevruta_partner = {
+			opinion = {
+				modifier = opinion_useless_chaver
+				who = ROOT
+				years = 20
+			}
 		}
 		add_character_modifier = {
-			name = yeshiva_learning
+			name = yeshiva_learning_failure
 			years = 5
 		}
 	}
@@ -2039,7 +2044,7 @@ character_event = {
 	}
 }
 character_event = {
-	id = jewish.158
+	id = jewish.159
 	desc = EVTDESC_kosher_22903
 	picture = GFX_evt_dancing
 	
@@ -2056,8 +2061,18 @@ character_event = {
 	}
 	
 	option = {
-		name = EVTOPTA_kosher_22903
-		
+		name = EVTOPTB_kosher_22903
+		add_character_modifier = {
+			name = yeshiva_kabbalah
+			duration = -1
+		}
+	}
+	option = {
+		name = EVTOPTB_kosher_22903
+		add_character_modifier = {
+			name = yeshiva_halakha
+			duration = -1
+		}
 	}
 	after = {
 		if = {
@@ -2068,6 +2083,7 @@ character_event = {
 		}
 	}
 }
+
 
 #Gedol Ha'Dor Event
 
