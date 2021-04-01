@@ -1747,6 +1747,18 @@ character_event = {
 						has_character_flag = yeshiva_evt_10
 					}
 				}
+				random_list = {
+					20 = {
+						
+						set_character_flag = yeshiva_hakham
+					}
+					60 = {
+						set_character_flag = yeshiva_maskil
+					}
+					20 = { 
+						set_character_flag = yeshiva_dropout
+					}
+				}
 				character_event = { id = jewish.154 days = 10 random = 10 } #graduation
 				break = yes # Skip tombola, you're done!
 			}
@@ -1796,61 +1808,61 @@ character_event = {
 						set_character_flag = yeshiva_evt_3
 					}
 				}
-				# 100 = { #visit with the rosh yeshiva
-					# trigger = {
-						# NOT = { has_character_flag = yeshiva_evt_5 }
-					# }
-					# character_event = { id = jewish.159 } # send event
-					# set_character_flag = yeshiva_evt_5
-					# persistent_event_target:chevruta_partner = {
-						# character_event = { id = jewish.159 } # send event
-						# set_character_flag = yeshiva_evt_5
-					# }
-				# }
-				# 100 = { #chevruta friendship
-					# trigger = {
-						# NOT = { has_character_flag = yeshiva_evt_6 }
-					# }
-					# character_event = { id = jewish.161 } # send event
-					# set_character_flag = yeshiva_evt_6
-					# persistent_event_target:chevruta_partner = {
-						# character_event = { id = jewish.161 } # send event
-						# set_character_flag = yeshiva_evt_6
-					# }
-				# }
-				# 100 = { #chevruta good argument
-					# trigger = {
-						# NOT = { has_character_flag = yeshiva_evt_7 }
-					# }
-					# character_event = { id = jewish.162 days = 13 random = 5 }
-					# set_character_flag = yeshiva_evt_7
-					# persistent_event_target:chevruta_partner = {
-						# character_event = { id = jewish.162 } # send event
-						# set_character_flag = yeshiva_evt_7
-					# }
-				# }
-				# 100 = { #chevruta fruitless argument
-					# trigger = {
-						# NOT = { has_character_flag = yeshiva_evt_8 }
-					# }
-					# character_event = { id = jewish.163 days = 13 random = 5 }
-					# set_character_flag = yeshiva_evt_8
-					# persistent_event_target:chevruta_partner = {
-						# character_event = { id = jewish.163 } # send event
-						# set_character_flag = yeshiva_evt_8
-					# }
-				# }				
-				# 10 = { #chevruta rivalry
-					# trigger = {
-						# NOT = { has_character_flag = yeshiva_evt_9 }
-					# }
-					# character_event = { id = jewish.164 days = 14 random = 5 } #send event
-					# set_character_flag = yeshiva_evt_9
-					# persistent_event_target:chevruta_partner = {
-						# character_event = { id = jewish.164 } # send event
-						# set_character_flag = yeshiva_evt_9
-					# }
-				# }
+				100 = { #visit with the rosh yeshiva
+					trigger = {
+						NOT = { has_character_flag = yeshiva_evt_5 }
+					}
+					character_event = { id = jewish.159 } # send event
+					set_character_flag = yeshiva_evt_5
+					persistent_event_target:chevruta_partner = {
+						character_event = { id = jewish.159 } # send event
+						set_character_flag = yeshiva_evt_5
+					}
+				}
+				100 = { #chevruta friendship
+					trigger = {
+						NOT = { has_character_flag = yeshiva_evt_6 }
+					}
+					character_event = { id = jewish.160 } # send event
+					set_character_flag = yeshiva_evt_6
+					persistent_event_target:chevruta_partner = {
+						character_event = { id = jewish.160 } # send event
+						set_character_flag = yeshiva_evt_6
+					}
+				}
+				100 = { #chevruta good argument
+					trigger = {
+						NOT = { has_character_flag = yeshiva_evt_7 }
+					}
+					character_event = { id = jewish.161 }
+					set_character_flag = yeshiva_evt_7
+					persistent_event_target:chevruta_partner = {
+						character_event = { id = jewish.161 } # send event
+						set_character_flag = yeshiva_evt_7
+					}
+				}
+				100 = { #chevruta fruitless argument
+					trigger = {
+						NOT = { has_character_flag = yeshiva_evt_8 }
+					}
+					character_event = { id = jewish.162 }
+					set_character_flag = yeshiva_evt_8
+					persistent_event_target:chevruta_partner = {
+						character_event = { id = jewish.162 } # send event
+						set_character_flag = yeshiva_evt_8
+					}
+				}				
+				10 = { #chevruta rivalry
+					trigger = {
+						NOT = { has_character_flag = yeshiva_evt_9 }
+					}
+					character_event = { id = jewish.163 days = 14 random = 5 } #send event
+					set_character_flag = yeshiva_evt_9
+					persistent_event_target:chevruta_partner = {
+						character_event = { id = jewish.163 } # send event
+						set_character_flag = yeshiva_evt_9
+					}
+				}
 			}
 		}
 	}
@@ -1920,7 +1932,7 @@ character_event = {
 		if = {
 			limit = { has_character_flag = chevruta_1 }
 			hidden_effect = {
-				character_event = { id = jewish.22899 days = 10 random = 5 } #send tombola again
+				character_event = { id = jewish.153 days = 30 random = 5 } #send tombola again
 			}
 		}
 	}
@@ -1957,8 +1969,11 @@ character_event = {
 		}
 	}
 	after = {
-		hidden_effect = {
-			character_event = { id = jewish.22899 days = 10 random = 5 } #send tombola again
+		if = {
+			limit = { has_character_flag = chevruta_1 }
+			hidden_effect = {
+				character_event = { id = jewish.153 days = 30 random = 5 } #send tombola again
+			}
 		}
 	}
 }
@@ -1998,7 +2013,7 @@ character_event = {
 		if = {
 			limit = { has_character_flag = chevruta_1 }
 			hidden_effect = {
-				character_event = { id = jewish.22899 days = 10 random = 5 } #send tombola again
+				character_event = { id = jewish.153 days = 30 random = 5 } #send tombola again
 			}
 		}
 	}
@@ -2038,7 +2053,7 @@ character_event = {
 		if = {
 			limit = { has_character_flag = chevruta_1 }
 			hidden_effect = {
-				character_event = { id = jewish.22899 days = 10 random = 5 } #send tombola again
+				character_event = { id = jewish.153 days = 30 random = 5 } #send tombola again
 			}
 		}
 	}
@@ -2046,7 +2061,7 @@ character_event = {
 character_event = {
 	id = jewish.159
 	desc = EVTDESC_kosher_22903
-	picture = GFX_evt_dancing
+	picture = GFX_contemplation_jewish
 	
 	is_triggered_only = yes
 	
@@ -2078,13 +2093,155 @@ character_event = {
 		if = {
 			limit = { has_character_flag = chevruta_1 }
 			hidden_effect = {
-				character_event = { id = jewish.22899 days = 10 random = 5 } #send tombola again
+				character_event = { id = jewish.153 days = 30 random = 5 } #send tombola again
 			}
 		}
 	}
 }
+character_event = {
+	id = jewish.160
+	desc = EVTDESC_kosher_22903
+	picture = GFX_yeshiva_morocco
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		persistent_event_target:chevruta_partner = {
+			is_alive = yes
+		}
+	}
 
+	fail_trigger_effect = {
+		character_event = { id = jewish.151 days = 10 random = 5 } #new partner
+	}
+	
+	option = {
+		name = EVTOPTA_kosher_22903
+		persistent_event_target:chevruta_partner = {
+			add_friend = ROOT
+		}
+	}
+	after = {
+		if = {
+			limit = { has_character_flag = chevruta_1 }
+			hidden_effect = {
+				character_event = { id = jewish.153 days = 30 random = 5 } #send tombola again
+			}
+		}
+	}
+}
+character_event = {
+	id = jewish.161
+	desc = EVTDESC_kosher_22903
+	picture = GFX_evt_dancing
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		persistent_event_target:chevruta_partner = {
+			is_alive = yes
+		}
+	}
 
+	fail_trigger_effect = {
+		character_event = { id = jewish.151 days = 10 random = 5 } #new partner
+	}
+	
+	option = {
+		name = EVTOPTA_kosher_22903
+		persistent_event_target:chevruta_partner = {
+			opinion = {
+				modifier = opinion_helpful_chaver
+				who = ROOT
+				years = 20
+			}
+		}
+		add_character_modifier = {
+			name = yeshiva_learning_success
+			years = 5
+		}
+	}
+	after = {
+		if = {
+			limit = { has_character_flag = chevruta_1 }
+			hidden_effect = {
+				character_event = { id = jewish.153 days = 30 random = 5 } #send tombola again
+			}
+		}
+	}
+}
+character_event = {
+	id = jewish.162
+	desc = EVTDESC_kosher_22903
+	picture = GFX_evt_dancing
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		persistent_event_target:chevruta_partner = {
+			is_alive = yes
+		}
+	}
+
+	fail_trigger_effect = {
+		character_event = { id = jewish.151 days = 10 random = 5 } #new partner
+	}
+	
+	option = {
+		name = EVTOPTA_kosher_22903
+		persistent_event_target:chevruta_partner = {
+			opinion = {
+				modifier = opinion_useless_chaver
+				who = ROOT
+				years = 20
+			}
+		}
+		add_character_modifier = {
+			name = yeshiva_learning_failure
+			years = 5
+		}
+	}
+	after = {
+		if = {
+			limit = { has_character_flag = chevruta_1 }
+			hidden_effect = {
+				character_event = { id = jewish.153 days = 30 random = 5 } #send tombola again
+			}
+		}
+	}
+}
+character_event = {
+	id = jewish.163
+	desc = EVTDESC_kosher_22903
+	picture = GFX_evt_dancing
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		persistent_event_target:chevruta_partner = {
+			is_alive = yes
+		}
+	}
+
+	fail_trigger_effect = {
+		character_event = { id = jewish.151 days = 10 random = 5 } #new partner
+	}
+	
+	option = {
+		name = EVTOPTA_kosher_22903
+		persistent_event_target:chevruta_partner = {
+			add_rival = ROOT
+		}
+	}
+	after = {
+		if = {
+			limit = { has_character_flag = chevruta_1 }
+			hidden_effect = {
+				character_event = { id = jewish.153 days = 30 random = 5 } #send tombola again
+			}
+		}
+	}
+}
 #Gedol Ha'Dor Event
 
 ######################AI-ONLY EVENTS#####################
