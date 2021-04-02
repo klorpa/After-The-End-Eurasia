@@ -1,13 +1,537 @@
 ###ÄNSI###
 
-
-e_dakshinapatha = {
-	color={ 211 49 114 }
+e_dashkinapatha = {
+	color={ 85 5 235 }
 	color2={ 255 255 20 }
 	
-	capital = 2255 # c_colombo
-	culture = sinhala
+	capital = 2210 # c_chennai
+	culture = tamil
 	
+	k_tamil_nadu = {
+		color={ 95 251 240 }
+		color2={ 255 255 255 }
+		
+		capital = 2210 # c_chennai
+		culture = tamil
+		
+		d_thondai_nadu = {
+			color={ 115 231 250 }
+			color2={ 255 255 255 }
+			
+			capital = 2210 # c_chennai
+			
+			c_chennai = { # 2210
+				color={ 125 221 255 }
+				color2={ 255 255 255 }
+				
+				b_chepauk = {
+				}
+				b_chennai = {
+				}
+				b_ambattur = {
+				}
+				b_ranipet = {
+				}
+				b_tiruvallur = {
+				}
+				b_avadi = {
+				}
+				b_tiruvottiyur = {
+				}
+			}
+			c_kanchipuram = { # 2211
+				color={ 100 203 189 }
+				color2={ 255 255 255 }
+				
+				b_kanchipuram = {
+				}
+				b_pallava_puram = {
+				}
+				b_chengalpattu = {
+				}
+				b_tambaram = {
+				}
+				b_alandur = {
+				}
+				b_maraimalai_nagar = {
+				}
+				b_pammal = {
+				}
+			}
+			c_puducherry = { # 2212
+				color={ 86 211 255 }
+				color2={ 255 255 255 }
+				
+				b_puducherry = {
+				}
+				b_viluppuram = {
+				}
+				b_tindivanam = {
+				}
+				b_maduranthakam = {
+				}
+				b_gingee = {
+				}
+				b_vanur = {
+				}
+				b_thiruvennainallur = {
+				}
+			}
+			c_tiruvannamalai = { # 2213
+				color={ 166 232 255 }
+				color2={ 255 255 255 }
+				
+				b_tiruvannamalai = {
+				}
+				b_arani = {
+				}
+				b_chengam = {
+				}
+				b_vandavasi = {
+				}
+				b_polur = {
+				}
+				b_cheyyar = {
+				}
+				b_thandarampattu = {
+				}
+			}
+			c_vellore = { # 2214
+				color={ 10 213 255 }
+				color2={ 255 255 255 }
+				
+				b_vellore = {
+				}
+				b_tirupattur = {
+				}
+				b_ambur = {
+				}
+				b_vaniyambadi = {
+				}
+				b_gudiyatham = {
+				}
+				b_arakkonam = {
+				}
+				b_arcot = {
+				}
+			}
+		}
+		d_chola_nadu = {
+			color={ 23 227 218 }
+			color2={ 255 255 255 }
+			
+			capital = 2226 # c_tiruchirappalli
+			
+			c_tiruchirappalli = { # 2226
+				color={ 33 217 223 }
+				color2={ 255 255 255 }
+				
+				b_malaikottai = {
+				}
+				b_tiruchirappalli = {
+				}
+				b_karur = {
+				}
+				b_manapparai = {
+				}
+				b_thuvakudi = {
+				}
+				b_kulithalai = {
+				}
+				b_aravakurichi = {
+				}
+			}
+			c_ariyalur = { # 2217
+				color={ 30 111 144 }
+				color2={ 255 255 255 }
+				
+				b_ariyalur = {
+				}
+				b_perambalur = {
+				}
+				b_thuraiyur = {
+				}
+				b_jayankondam = {
+				}
+				b_kunnam = {
+				}
+				b_udayarpalayam = {
+				}
+				b_veppanthattai = {
+				}
+			}
+			c_nagapattinam = { # 2222
+				color={ 3 186 255 }
+				color2={ 255 255 255 }
+				
+				b_nagapattinam = {
+				}
+				b_mayiladuthurai = {
+				}
+				b_thiruvarur = {
+				}
+				b_mannargudi = {
+				}
+				b_sirkazhi = {
+				}
+				b_vedaranyam = {
+				}
+				b_koothanallur = {
+				}
+			}
+			c_pudukkottai = { # 2225
+				color={ 23 33 207 }
+				color2={ 255 255 255 }
+				
+				b_pudukkottai = {
+				}
+				b_aranthangi = {
+				}
+				b_karambakkudi = {
+				}
+				b_gandarvakottai = {
+				}
+				b_rayavaram = {
+				}
+				b_iluppur = {
+				}
+				b_avudaiyarkoil = {
+				}
+			}
+			c_thanjavur = { # 2224
+				color={ 212 243 255 }
+				color2={ 255 255 255 }
+				
+				b_thanjavur = {
+				}
+				b_kumbakonam = {
+				}
+				b_pattukkottai = {
+				}
+				b_peravurani = {
+				}
+				b_papanasam = {
+				}
+				b_thiruvaiyaru = {
+				}
+				b_orathanad = {
+				}
+			}
+		}
+		d_kongu_nadu = {
+			color={ 251 186 250 }
+			color2={ 255 255 255 }
+			
+			capital = 2231 # c_coimbatore
+			
+			c_coimbatore = { # 2231
+				color={ 5 176 255 }
+				color2={ 255 255 255 }
+				
+				b_kurichi = {
+				}
+				b_coimbatore = {
+				}
+				b_tiruppur = {
+				}
+				b_kuniyamuthur = {
+				}
+				b_pollachi = {
+				}
+				b_velampalayam = {
+				}
+				b_kavundampalayam = {
+				}
+			}
+			c_dindigul = { # 2229
+				color={ 73 122 153 }
+				color2={ 255 255 255 }
+				
+				b_dindigul = {
+				}
+				b_palani = {
+				}
+				b_kodaikanal = {
+				}
+				b_oddanchatram = {
+				}
+				b_vedasandur = {
+				}
+				b_nilakkottai = {
+				}
+				b_athoor = {
+				}
+			}
+			c_erode = { # 2276
+				color={ 236 250 255 }
+				color2={ 255 255 255 }
+				
+				b_kasipalayam = {
+				}
+				b_erode = {
+				}
+				b_veerappanchatram = {
+				}
+				b_gobichettipalayam = {
+				}
+				b_bhavani = {
+				}
+				b_sathyamangalam = {
+				}
+				b_punjai_puliampatti = {
+				}
+			}
+			c_nilgiris = { # 2244
+				color={ 77 206 255 }
+				color2={ 255 255 255 }
+				
+				b_udagamandalam = {
+				}
+				b_gudalur = {
+				}
+				b_coonoor = {
+				}
+				b_nelliyalam = {
+				}
+				b_kotagiri = {
+				}
+				b_pandalur = {
+				}
+				b_kundah = {
+				}
+			}
+		}
+		d_nadu_nadu = {
+			color={ 161 243 250 }
+			color2={ 255 255 255 }
+			
+			capital = 2216 # c_cuddalore
+			
+			c_cuddalore = { # 2216
+				color={ 171 233 255 }
+				color2={ 255 255 255 }
+				
+				b_cuddalore = {
+				}
+				b_virudhachalam = {
+				}
+				b_chidambaram = {
+				}
+				b_panruti = {
+				}
+				b_nellikuppam = {
+				}
+				b_kurinjipadi = {
+				}
+				b_kattumannarkoil = {
+				}
+			}
+			c_kallakurichi = { # 2215
+				color={ 10 191 255 }
+				color2={ 255 255 255 }
+				
+				b_kallakurichi = {
+				}
+				b_tiruvennainallur = {
+				}
+				b_ulundurpettai = {
+				}
+				b_chinnasalem = {
+				}
+				b_sankarapuram = {
+				}
+				b_vadakkanandal = {
+				}
+				b_thiagadurgam = {
+				}
+			}
+		}
+		d_pandya_nadu = {
+			color={ 95 152 212 }
+			color2={ 255 255 255 }
+			
+			capital = 2228 # c_madurai
+			
+			c_madurai = { # 2228
+				color={ 105 142 217 }
+				color2={ 255 255 255 }
+				
+				b_thirumalai_nayak = {
+				}
+				b_madurai = {
+				}
+				b_meenakshi_amman = {
+				}
+				b_theni = {
+				}
+				b_theni_allinagaram = {
+				}
+				b_bodinayakanur = {
+				}
+				b_tirumangalam = {
+				}
+			}
+			c_kanyakumari = { # 2235
+				color={ 219 123 175 }
+				color2={ 255 255 255 }
+				
+				b_kottar = {
+				}
+				b_nagercoil = {
+				}
+				b_kanyakumari = {
+				}
+				b_colachel = {
+				}
+				b_padmanabhapuram = {
+				}
+				b_kuzhithura = {
+				}
+				b_killiyur = {
+				}
+			}
+			c_ramanathapuram = { # 2227
+				color={ 0 185 255 }
+				color2={ 255 255 255 }
+				
+				b_ramanathapuram = {
+				}
+				b_karaikudi = {
+				}
+				b_sivaganga = {
+				}
+				b_paramakudi = {
+				}
+				b_devakottai = {
+				}
+				b_rameswaram = {
+				}
+				b_kilakarai = {
+				}
+			}
+			c_thoothukudi = { # 2233
+				color={ 175 197 232 }
+				color2={ 255 255 255 }
+				
+				b_thoothukudi = {
+				}
+				b_kovilpatti = {
+				}
+				b_thiruchendur = {
+				}
+				b_tiruvaikuntam = {
+				}
+				b_vilathikulam = {
+				}
+				b_ottapidaram = {
+				}
+				b_sathankulam = {
+				}
+			}
+			c_tirunelveli = { # 2234
+				color={ 207 235 244 }
+				color2={ 255 255 255 }
+				
+				b_tirunelveli = {
+				}
+				b_kadayanallur = {
+				}
+				b_tenkasi = {
+				}
+				b_puliyankudi = {
+				}
+				b_sankarankovil = {
+				}
+				b_vikramasingapuram = {
+				}
+				b_ambasamudram = {
+				}
+			}
+			c_virudhunagar = { # 2232
+				color={ 83 205 243 }
+				color2={ 255 255 255 }
+				
+				b_virudhunagar = {
+				}
+				b_rajapalayam = {
+				}
+				b_aruppukkottai = {
+				}
+				b_srivilliputhur = {
+				}
+				b_sivakasi = {
+				}
+				b_thiruthangal = {
+				}
+				b_sattur = {
+				}
+			}
+		}
+		d_salem = {
+			color={ 142 254 168 }
+			color2={ 255 255 255 }
+			
+			capital = 2219 # c_salem
+			
+			c_salem = { # 2219
+				color={ 152 244 173 }
+				color2={ 255 255 255 }
+				
+				b_salem = {
+				}
+				b_attur = {
+				}
+				b_edappadi = {
+				}
+				b_mettur = {
+				}
+				b_narasingapuram = {
+				}
+				b_sankagiri = {
+				}
+				b_omalur = {
+				}
+			}
+			c_krishnagiri = { # 2218
+				color={ 204 242 255 }
+				color2={ 255 255 255 }
+				
+				b_krishnagiri = {
+				}
+				b_hosur = {
+				}
+				b_dharmapuri = {
+				}
+				b_pochampalli = {
+				}
+				b_palacode = {
+				}
+				b_denkanikottai = {
+				}
+				b_pappireddipatti = {
+				}
+			}
+			c_namakkal = { # 2220
+				color={ 123 214 248 }
+				color2={ 255 255 255 }
+				
+				b_namakkal = {
+				}
+				b_tiruchengode = {
+				}
+				b_komarapalayam = {
+				}
+				b_rasipuram = {
+				}
+				b_pallipalayam = {
+				}
+				b_sendamangalam = {
+				}
+				b_mohanur = {
+				}
+			}
+		}
+	}
 	k_sri_lanka = {
 		color={ 201 59 109 }
 		color2={ 255 255 255 }
