@@ -20784,6 +20784,13 @@ tyranny_war = {
 			AND = {
 				religion = jacobin
 				de_facto_liege = FROM
+				OR = {
+					trait = patron_la_montagne
+					trait = patron_la_sociale
+					}
+					NOT = {
+						trait = tyrant 
+					}
 				}
 			}
 			FROM = {
@@ -20795,12 +20802,10 @@ tyranny_war = {
 					}
 				}
 			}
-		}
 		NOT = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
 	}
-	
 	can_use_gui = {
 		ROOT = {
 			piety_cost = 50
@@ -20850,6 +20855,35 @@ tyranny_war = {
 		}
 		FROM = {
 			prestige = 100
+		}
+	}
+	
+	ai_will_do = {
+		factor = 0.7
+		
+		modifier = {
+			factor = 0
+			ROOT = {
+				NOT = { scaled_wealth = 1.25 }
+			}
+		}
+		modifier = {
+			factor = 1
+			ROOT = {
+				is_feudal = yes
+				OR = {
+					trait = amibitious
+					trait = just
+					trait = pious
+					trait = zealous
+				}
+				NOR = {
+					trait = craven
+					trait = cynical
+					trait = tyrant
+					trait = content
+				}
+			}
 		}
 	}
 }
