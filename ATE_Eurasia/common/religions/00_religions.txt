@@ -1735,7 +1735,7 @@ christian = {
 		intermarry = nestorian
 	}
 	nasrani = {
-		graphical_culture = westerngfx
+		graphical_culture = hindugfx
 		
 		icon = 65
 		heresy_icon = 66
@@ -1772,7 +1772,7 @@ christian = {
 		intermarry = nestorian
 	}
 	ezharapallikal = {
-		graphical_culture = westerngfx
+		graphical_culture = hindugfx
 		
 		icon = 65
 		heresy_icon = 66
@@ -3041,6 +3041,43 @@ old_world_cultist_group = {
 		religious_clothing_head = 10
 		religious_clothing_priest = 10
 	}
+	guruist = { 
+		graphical_culture = hindugfx
+
+		icon = 87
+		heresy_icon = 87
+		
+		color = { 1.0 0.0 0.5 }
+		
+		high_god_name = GOD_VISHNU
+		
+		god_names = {
+			GOD_RAMA GOD_KRISHNA GOD_KALIKI GOD_LAKSHMI
+		}
+		
+		evil_god_names = {
+			GOD_KALIASURA
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		max_consorts = 3
+		caste_opinions = yes
+		castes = yes
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_BHAGAVAD_GITA
+		priest_title = PUJARI
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = zoroastrian
+		
+	}
 	zimiran = {
 		graphical_culture = muslimgfx
 		
@@ -3836,7 +3873,7 @@ buddhist_group = {
 		religious_clothing_priest = 10
 	}
 	theravada = { #just a placeholder
-		graphical_culture = chinesegfx
+		graphical_culture = hindugfx
 
 		icon = 63
 		heresy_icon = 64
@@ -3873,7 +3910,7 @@ buddhist_group = {
 		religious_clothing_priest = 10
 	}
 	navayana = {
-		graphical_culture = chinesegfx
+		graphical_culture = hindugfx
 
 		icon = 63
 		heresy_icon = 64
@@ -3904,7 +3941,7 @@ buddhist_group = {
 		feminist = yes
 		female_temple_holders = yes
 		can_grant_divorce = yes
-		castes = yes
+		castes = no
 		priests_can_inherit = no
 		can_retire_to_monastery = yes 
 		
