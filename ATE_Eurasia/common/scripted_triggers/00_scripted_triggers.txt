@@ -8900,16 +8900,11 @@ dlc_religion_check_trigger = {
 reconquista_check_trigger = {
 	any_war = {
 		OR = {
-			using_cb = reconquista_leon
-			using_cb = reconquista_castille
-			using_cb = reconquista_aragon
-			using_cb = reconquista_galicia
-			using_cb = reconquista_beja
-			using_cb = reconquista_granada
-			using_cb = reconquista_cordoba
-			using_cb = reconquista_valencia
-			using_cb = reconquista_navarra
-			using_cb = reconquista_balearic
+			using_cb = reconquest_france
+			using_cb = reconquest_balc
+			using_cb = reconquest_provence
+			using_cb = reconquest_brittany
+			using_cb = reconquest_occitania
 		}
 	}
 }
@@ -8918,16 +8913,11 @@ not_reconquista_check_trigger = {
 	NOT = {
 		any_war = {
 			OR = {
-				using_cb = reconquista_leon
-				using_cb = reconquista_castille
-				using_cb = reconquista_aragon
-				using_cb = reconquista_galicia
-				using_cb = reconquista_beja
-				using_cb = reconquista_granada
-				using_cb = reconquista_cordoba
-				using_cb = reconquista_valencia
-				using_cb = reconquista_navarra
-				using_cb = reconquista_balearic
+				using_cb = reconquest_france
+				using_cb = reconquest_balc
+				using_cb = reconquest_provence
+				using_cb = reconquest_brittany
+				using_cb = reconquest_occitania
 			}
 		}
 	}

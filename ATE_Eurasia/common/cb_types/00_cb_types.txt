@@ -19497,7 +19497,7 @@ powerful_vassal_takeover_war = { # Started from faction
 	}
 }
 
-### French Reconquest Wars ###
+### French Maquis Wars ###
 # The Parisian Core #
 reconquest_france = {
 	name = CB_NAME_RECONQUEST_FRANCE
@@ -19552,14 +19552,12 @@ reconquest_france = {
 									OR = {
 										AND = {
 											independent = yes
-											NOR = {
-												religion = sun_king_cultist
+											NOT = {
 												religion = jacobin
 											}
 										}
 										top_liege = {
-											NOR = {
-												religion = sun_king_cultist
+											NOT = {
 												religion = jacobin
 											}
 										}
@@ -19595,14 +19593,12 @@ reconquest_france = {
 										OR = {
 											AND = {
 												independent = yes
-												NOR = {
-													religion = sun_king_cultist
+												NOT = {
 													religion = jacobin
 												}
 											}
 											top_liege = {
-												NOR = {
-													religion = sun_king_cultist
+												NOT = {
 													religion = jacobin
 												}
 											}
@@ -19783,14 +19779,12 @@ reconquest_provence = {
 									OR = {
 										AND = {
 											independent = yes
-											NOR = {
-												religion = sun_king_cultist
+											NOT = {
 												religion = jacobin
 											}
 										}
 										top_liege = {
-											NOR = {
-												religion = sun_king_cultist
+											NOT = {
 												religion = jacobin
 											}
 										}
@@ -19826,14 +19820,12 @@ reconquest_provence = {
 										OR = {
 											AND = {
 												independent = yes
-												NOR = {
-													religion = sun_king_cultist
+												NOT = {
 													religion = jacobin
 												}
 											}
 											top_liege = {
-												NOR = {
-													religion = sun_king_cultist
+												NOT = {
 													religion = jacobin
 												}
 											}
@@ -20014,14 +20006,12 @@ reconquest_brittany = {
 									OR = {
 										AND = {
 											independent = yes
-											NOR = {
-												religion = sun_king_cultist
+											NOT = {
 												religion = jacobin
 											}
 										}
 										top_liege = {
-											NOR = {
-												religion = sun_king_cultist
+											NOT = {
 												religion = jacobin
 											}
 										}
@@ -20244,14 +20234,12 @@ reconquest_balc = {
 									OR = {
 										AND = {
 											independent = yes
-											NOR = {
-												religion = sun_king_cultist
+											NOT = {
 												religion = jacobin
 											}
 										}
 										top_liege = {
-											NOR = {
-												religion = sun_king_cultist
+											NOT = {
 												religion = jacobin
 											}
 										}
@@ -20287,14 +20275,12 @@ reconquest_balc = {
 										OR = {
 											AND = {
 												independent = yes
-												NOR = {
-													religion = sun_king_cultist
+												NOT = {
 													religion = jacobin
 												}
 											}
 											top_liege = {
-												NOR = {
-													religion = sun_king_cultist
+												NOT = {
 													religion = jacobin
 												}
 											}
@@ -20476,14 +20462,12 @@ reconquest_occitania = {
 									OR = {
 										AND = {
 											independent = yes
-											NOR = {
-												religion = sun_king_cultist
+											NOT = {
 												religion = jacobin
 											}
 										}
 										top_liege = {
-											NOR = {
-												religion = sun_king_cultist
+											NOT = {
 												religion = jacobin
 											}
 										}
@@ -20519,14 +20503,12 @@ reconquest_occitania = {
 										OR = {
 											AND = {
 												independent = yes
-												NOR = {
-													religion = sun_king_cultist
+												NOT = {
 													religion = jacobin
 												}
 											}
 											top_liege = {
-												NOR = {
-													religion = sun_king_cultist
+												NOT = {
 													religion = jacobin
 												}
 											}
