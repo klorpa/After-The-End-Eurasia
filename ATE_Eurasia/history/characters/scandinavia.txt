@@ -6819,3 +6819,102 @@
 	2590.1.1={birth=yes}
 	2634.1.1={death=yes}
 }
+80003625={ 
+name="Erik" # The uncle of the current king of Denmark, has a strong claim that can be inherited
+dynasty=2223001 #Sønderborg
+culture=danish
+religion=lutheran
+father = 8000008
+martial=10
+intrigue=10
+trait=charismatic_negotiator
+trait=wroth
+trait=stubborn
+trait=ambitious
+trait=arbitrary
+trait=fair
+trait=greedy
+2610.1.1={birth=yes}
+2636.1.1={add_spouse=80003626}
+2640.1.1={add_claim = k_denmark}
+2670.1.1={death=yes}
+}
+
+80003626={ 
+name="Margaret"
+culture=danish
+religion=lutheran
+female=yes
+2610.1.1={birth=yes}
+2670.1.1={death=yes}
+}
+
+80003627={
+name="Preben"
+dynasty=2223001 #Sønderborg
+culture=danish
+religion=lutheran
+father=80003625
+mother=80003626
+martial=8
+trait=fair
+trait=rowdy
+2656.3.6={birth=yes}
+2658.1.1={add_claim = k_denmark}
+}
+
+
+80003628={
+name="Fritiof"
+dynasty= 2220181 #Nilsson
+culture=scanian
+religion=folketro
+martial=15
+trait=charismatic_negotiator
+trait=scholar
+trait=humble
+2631.1.1={birth=yes}
+2699.1.1={death=yes}
+#ximis first character
+}
+
+80003629={
+name="Bruse"
+dynasty=2221472 #Af Gothem
+culture=gotalander #geat?
+religion=folketro
+trait=intricate_webweaver
+trait=just
+trait=shy
+trait=cynical
+trait=charitable
+2645.9.8={birth=yes}
+2887.1.1={death=yes}
+#baron or mayor of the holding of Gothem, on Gotland
+#pls port the Wayne Dynasty CoA
+}
+
+80003630={
+name="Klaus"
+dynasty=1946172 #Störtebeker
+culture=low_saxon
+religion=neuhumanist
+trait=tough_soldier
+trait=cruel
+trait=greedy
+2630.3.4={birth=yes}
+2660.1.1={give_nickname=nick_the_victual}
+2700.1.1={death=yes}
+}
+
+80003631={
+name="Kazimierz"
+dynasty=2000085 #Badziag
+culture=kashubian
+religion=mariavite
+trait=scholarly_theologian
+trait=erudite
+trait=kind
+2635.3.4={birth=yes}
+2700.1.1={death=yes}
+}

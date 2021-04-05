@@ -72,7 +72,10 @@ republic_governments = {
 			NOR = { 
 				capital_scope = { has_province_modifier = pirate_outpost }
 				primary_title = {
-					title = d_jirba_corsairs
+					OR = {
+						title = d_jirba_corsairs
+						title = k_gotland
+					}
 				}
 				liege = { government = pirate_government }
 			}
@@ -131,9 +134,10 @@ republic_governments = {
 			OR = { 
 				capital_scope = { has_province_modifier = pirate_outpost }
 				primary_title = {
-				OR = {
-					title = d_jirba_corsairs
-					title = d_madeira
+					OR = {
+						title = d_jirba_corsairs
+						title = d_madeira
+						title = k_gotland
 					}
 				}
 				liege = { government = pirate_government }
