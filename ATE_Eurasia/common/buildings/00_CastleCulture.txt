@@ -26,19 +26,19 @@ castle = {
 		port = yes
 		potential = {
 			OR = {
-				religion = pelagic
+				religion = sjotru
 				has_building = ca_whaler_port_1
 			}
 		}
 		is_active_trigger = {
 			ROOT = {
-				religion = pelagic
+				religion = sjotru
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 0
 			ROOT = {
-				religion = pelagic
+				religion = sjotru
 			}
 		}
 		prerequisites = { ca_wall_1 }
@@ -56,20 +56,20 @@ castle = {
 		port = yes
 		potential = {
 			OR = {
-				religion = pelagic
+				religion = sjotru
 				has_building = ca_whaler_port_1
 				has_building = ca_whaler_port_2
 			}
 		}
 		is_active_trigger = {
 			ROOT = {
-				religion = pelagic
+				religion = sjotru
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 1
 			ROOT = {
-				religion = pelagic
+				religion = sjotru
 			}
 		}
 		upgrades_from = ca_whaler_port_1
@@ -87,7 +87,7 @@ castle = {
 		port = yes
 		potential = {
 			OR = {
-				religion = pelagic
+				religion = sjotru
 				has_building = ca_whaler_port_1
 				has_building = ca_whaler_port_2
 				has_building = ca_whaler_port_3
@@ -95,13 +95,13 @@ castle = {
 		}
 		is_active_trigger = {
 			ROOT = {
-				religion = pelagic
+				religion = sjotru
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 2
 			ROOT = {
-				religion = pelagic
+				religion = sjotru
 			}
 		}
 		upgrades_from = ca_whaler_port_2
@@ -119,7 +119,7 @@ castle = {
 		port = yes
 		potential = {
 			OR = {
-				religion = pelagic
+				religion = sjotru
 				has_building = ca_whaler_port_1
 				has_building = ca_whaler_port_2
 				has_building = ca_whaler_port_3
@@ -128,13 +128,13 @@ castle = {
 		}
 		is_active_trigger = {
 			ROOT = {
-				religion = pelagic
+				religion = sjotru
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 4
 			ROOT = {
-				religion = pelagic
+				religion = sjotru
 			}
 		}
 		upgrades_from = ca_whaler_port_3
