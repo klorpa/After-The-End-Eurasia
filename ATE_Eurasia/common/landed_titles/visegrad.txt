@@ -359,10 +359,10 @@ e_visegrad = {
 		}
 		
 		d_moravia = {
-			color={ 225 120 100 }
+			color={ 0 90 147 }
 			color2={ 255 255 255 }
 			
-			capital = 1025 #Moravskoslezsky
+			capital = 1026 #Olomouc
 			
 			rhenish="Mähren"
 			low_saxon="Mähren"
@@ -377,23 +377,6 @@ e_visegrad = {
 			polish="Morawy"
 			hungarian="Morvaország"
 			
-			c_ostrava = {
-				color={ 233 143 77 }
-				color2={ 255 255 255 }
-
-				b_ostrava = {}
-				b_novy_jicin = {}
-				b_mosnov = {}
-				b_havirov = {}
-			}
-			c_opava = {
-				color={ 233 140 90 }
-				color2={ 255 255 255 }
-
-				b_opava = {}
-				b_bruntal = {}
-				b_krnov = {}
-			}
 			c_olomouc = {
 				color={ 222 155 112 }
 				color2={ 255 255 255 }
@@ -466,6 +449,40 @@ e_visegrad = {
 				b_chotebor = {}
 				b_pocatky = {}
 				b_merin = {}
+			}
+		}
+		
+		d_moravia_silesia = {
+			color={ 225 120 100 }
+			color2={ 255 255 255 }
+			
+			capital = 1025 #Olomouc
+			
+			czech="Moravskoslezsko"
+			moravian="Moravskoslezsko"
+			
+			c_ostrava = {
+				color={ 233 143 77 }
+				color2={ 255 255 255 }
+
+				b_ostrava = {}
+				b_novy_jicin = {}
+				b_mosnov = {}
+				b_havirov = {}
+			}
+			c_opava = {
+				color={ 233 140 90 }
+				color2={ 255 255 255 }
+
+				b_opava = {}
+				b_bruntal = {}
+				b_krnov = {}
+			}
+			c_beskidenland = {
+				color={ 204 127 79 }
+				color2={ 255 255 255 }
+
+				b_bielsko_biala = {}
 			}
 		}
 		
@@ -1306,12 +1323,6 @@ e_visegrad = {
 				b_zabrze = {}
 				b_bytom = {}
 				b_rybnik = {}
-			}
-			c_beskidenland = {
-				color={ 204 127 79 }
-				color2={ 255 255 255 }
-
-				b_bielsko_biala = {}
 			}
 			c_czestochowa = {
 				color={ 127 142 137 }
