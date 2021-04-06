@@ -170,11 +170,95 @@
 	2690.1.1={death=yes}
 }
 
+1994012={
+	name="Andyelo"
+	dynasty=2926001 #Bango
+	culture=romani
+	religion=calvinist
+	trait=gluttonous
+	trait=kind
+	trait=gregarious
+	trait=is_fat
+	trait=midas_touched
+	trait=pious
+	give_nickname=nick_the_fat
+	2591.6.18={birth=yes}
+	2645.12.31={death=yes}
+}
+1994013={
+	name="Kalo"
+	dynasty=2926001 #Bango
+	culture=romani
+	religion=calvinist
+	trait=shrewd
+	trait=gardener
+	trait=lisp
+	trait=possessed
+	trait=midas_touched
+	father=1994012
+	2610.1.29={birth=yes}
+	2670.1.1={death=yes}
+}
+1994014={
+	name="Baxtalo"
+	dynasty=2926001 #Bango
+	culture=romani
+	religion=calvinist
+	trait=shrewd
+	trait=lefthanded
+	trait=physician
+	trait=flamboyant_schemer
+	father=1994012
+	2617.11.3={birth=yes}
+	2670.1.1={death=yes}
+}
+1994015={
+	name="Matko"
+	dynasty=2926001 #Bango
+	culture=romani
+	religion=calvinist
+	trait=frail
+	trait=lefthanded
+	trait=duelist
+	trait=hedonist
+	father=1994012
+	2625.8.15={birth=yes}
+	2670.1.1={death=yes}
+}
+1994016={
+	name="Somnakaj"
+	dynasty=2926001 #Bango
+	female=yes
+	culture=romani
+	religion=calvinist
+	trait=socializer
+	trait=poet
+	trait=twin
+	trait=groomed
+	father=1994012
+	2635.6.7={birth=yes}
+	2670.1.1={death=yes}
+}
+1994017={
+	name="Dzhesika"
+	dynasty=2926001 #Bango
+	female=yes
+	culture=romani
+	religion=calvinist
+	trait=lustful
+	trait=lefthanded
+	trait=twin
+	trait=seductress
+	father=1994012
+	2635.6.7={birth=yes}
+	2670.1.1={death=yes}
+}
+
 
 1994050={
 	name="Bianca" 
-	dynasty=2046100 #Placeholderscu
-	culture=romanian
+	dynasty=2046352 #Varadeanu
+	culture=transylvanian
 	religion=orthodox
 	female=yes
 	trait=fair
@@ -183,19 +267,118 @@
 	trait=deceitful
 	trait=lustful
 	trait=grey_eminence
-	2622.5.2={birth=yes}
+	father=1994051
+	2640.10.11={birth=yes}
 	2700.1.1={death=yes}
 }
-
 1994051={
-	name="Horatiu" 
-	dynasty=2046100 #Placeholderscu
-	culture=romanian
+	name="Horatiu"
+	dynasty=2046352 #Varadeanu
+	culture=transylvanian
 	religion=orthodox
 	trait=falconer
 	trait=brave
 	trait=content
 	trait=lustful
-	2640.10.11={birth=yes}
+	father=1994052
+	2611.12.8={birth=yes}
+	2663.1.1={death={death_reason=death_murder}}
+}
+1994052={
+	name="Victor"
+	dynasty=2046352 #Varadeanu
+	culture=transylvanian
+	religion=orthodox
+	trait=hunter
+	trait=impaler
+	trait=cruel
+	trait=patient
+	trait=skilled_tactician
+	trait=one_eyed
+	trait=wounded
+	father=1994053
+	2580.12.8={birth=yes}
+	2625.10.31={death={death_reason=death_trait}}
+}
+1994053={
+	name="Mihaela" 
+	dynasty=2046352 #Varadeanu
+	culture=transylvanian
+	religion=orthodox
+	female=yes
+	trait=fair
+	trait=envious
+	trait=ambitious
+	trait=deceitful
+	trait=wroth
+	trait=erudite
+	trait=freckles
+	trait=amateurish_plotter
+	father=1994051
+	2642.9.11={birth=yes}
+	2700.1.1={death=yes}
+}
+
+
+1994060={
+	name="Mihai" 
+	dynasty=2046252 #Lupu
+	culture=transylvanian
+	religion=orthodox
+	trait=fair
+	trait=envious
+	trait=brave
+	trait=deceitful
+	trait=wroth
+	trait=strong
+	trait=tough_soldier
+	2605.11.13={birth=yes}
+	2660.2.12={death=yes}
+}
+1994061={
+	name="Farcas" 
+	dynasty=2046252 #Lupu
+	culture=transylvanian
+	religion=orthodox
+	trait=patient
+	trait=brave
+	trait=possessed
+	trait=wroth
+	trait=strong
+	trait=tough_soldier
+	trait=berserker
+	father=1994060
+	2630.8.18={birth=yes}
+	2700.1.1={death=yes}
+}
+1994062={
+	name="Ianca" 
+	dynasty=2046252 #Lupu
+	female=yes
+	culture=transylvanian
+	religion=orthodox
+	trait=patient
+	trait=thrifty_clerk
+	trait=is_malnourished
+	trait=wroth
+	trait=pious
+	trait=kind
+	father=1994060
+	2636.12.1={birth=yes}
+	2700.1.1={death=yes}
+}
+1994063={
+	name="Voicu" 
+	dynasty=2046252 #Lupu
+	culture=transylvanian
+	religion=orthodox
+	trait=temperate
+	trait=bastard
+	trait=giant
+	trait=shy
+	trait=wroth
+	trait=skilled_tactician
+	father=1994060
+	2637.10.2={birth=yes}
 	2700.1.1={death=yes}
 }

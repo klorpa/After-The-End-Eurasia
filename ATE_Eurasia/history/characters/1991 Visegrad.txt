@@ -686,9 +686,9 @@
 	2680.1.1={death=yes}
 }
 
-199150={    #el holder de place
-	name="Béla" 
-	dynasty=2045010 #Orsós
+199150={
+	name="Bela" 
+	dynasty=2926073 #Puci
 	culture=romani
 	religion=nepmese
 	trait=martial_cleric
@@ -700,9 +700,9 @@
 	2570.11.11={birth=yes}
 	2625.3.3={death={death_reason=death_accident}}
 }
-199151={    #el holder de place
-	name="Béla" 
-	dynasty=2045010 #Orsós
+199151={
+	name="Choli" 
+	dynasty=2926073 #Puci
 	culture=romani
 	religion=nepmese
 	trait=brilliant_strategist
@@ -712,6 +712,21 @@
 	trait=sympathy_christendom
 	father=199150
 	2601.1.22={birth=yes}
+	2630.9.9={add_spouse=199152}
+	2680.1.1={death=yes}
+}
+199152={
+	name="Afrodita"
+	female=yes
+	culture=romani
+	religion=nepmese
+	trait=fair
+	trait=kind
+	trait=mystic
+	trait=gregarious
+	trait=deceitful
+	2610.3.23={birth=yes}
+	2630.9.9={add_spouse=199151}
 	2680.1.1={death=yes}
 }
 
@@ -757,6 +772,7 @@
 	trait=martial_cleric
 	father=199154
 	2630.6.14={birth=yes}
+	2655.8.8={add_spouse=199157}
 	2670.1.1={death=yes}
 }
 199156={
@@ -773,6 +789,62 @@
 	father=199154
 	2630.3.15={birth=yes}
 	2655.5.31={add_spouse=19911048}
+	2670.1.1={death=yes}
+}
+
+199157={
+	name="Totoj" 
+	dynasty=2926073 #Puci
+	culture=romani
+	religion=nepmese
+	trait=skilled_tactician
+	trait=greedy
+	trait=trickster
+	father=199151
+	mother=199152
+	2636.12.2={birth=yes}
+	2680.1.1={death=yes}
+}
+199158={
+	name="Feke" 
+	dynasty=2926073 #Puci
+	culture=romani
+	religion=nepmese
+	trait=charitable
+	trait=patient
+	trait=cruel
+	trait=tough_soldier
+	trait=scarred
+	father=199151
+	mother=199152
+	2640.7.28={birth=yes}
+	2680.1.1={death=yes}
+}
+199159={
+	name="Esmeralda" 
+	female=yes
+	dynasty=2926073 #Puci
+	culture=romani
+	religion=nepmese
+	trait=quick
+	trait=patient
+	trait=deceitful
+	trait=humble
+	father=199151
+	mother=199152
+	2644.3.6={birth=yes}
+	2680.1.1={death=yes}
+}
+199160={
+	name="Tomaj" 
+	dynasty=2045117 #Lencsi
+	culture=hungarian
+	religion=nepmese
+	trait=strong
+	trait=shy
+	mother=199155
+	father=199157
+	2657.11.30={birth=yes}
 	2670.1.1={death=yes}
 }
 
