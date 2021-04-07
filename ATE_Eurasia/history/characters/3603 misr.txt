@@ -23,3 +23,205 @@
 	trait = erudite
 	2618.11.2 = { birth=yes }
 }
+3603002 = { #Duke of Cyrenaica
+	name = "Umar"
+	dynasty = 1913000 #al-Sanussi
+	culture = libyan
+	religion = taharur
+	trait = skilled_tactician
+	trait = brave
+	trait = just
+	trait = ambitious
+	trait = pious
+	2638.11.2 = { birth=yes }
+	2660.1.1 = { add_spouse = 3603003 }
+}
+3603003 = { 
+	name = "Khadijah"
+	dynasty = 1913000 #Jahami
+	culture = libyan
+	religion = taharur
+	female = yes
+	trait = charismatic_negotiator
+	trait = gregarious
+	trait = charitable
+	trait = kind
+	trait = groomed
+	2638.11.2 = { birth=yes }
+}
+3603004 = { 
+	name = "Mukhtar"
+	dynasty = 1913000 #al-Sanussi
+	culture = libyan
+	religion = taharur
+	father = 3603002
+	mother = 3603003
+	2662.11.2 = { birth=yes }
+}
+3603005 = { #Count of al-Bayda
+	name = "Ruwayfi"
+	dynasty = 1913002 #Barasa
+	culture = libyan
+	religion = taharur
+	trait = thrifty_clerk
+	trait = zealous
+	trait = stubborn
+	trait = proud
+	trait = temperate
+	2620.11.2 = { birth=yes }
+	2640.1.1 = { add_spouse = 3603006 }
+}
+3603006 = { 
+	name = "Jalila"
+	culture = libyan
+	religion = taharur
+	female = yes
+	2620.11.2 = { birth=yes }
+}
+3603007 = { 
+	name = "Naguib"
+	dynasty = 1913002 #Barasa
+	culture = libyan
+	religion = taharur
+	father = 3603005
+	mother = 3603006
+	2642.11.2 = { birth=yes }
+}
+3603008 = { 
+	name = "Salim"
+	dynasty = 1913002 #Barasa
+	culture = libyan
+	religion = taharur
+	father = 3603005
+	mother = 3603006
+	2645.11.2 = { birth=yes }
+}
+3603009 = { 
+	name = "Uthman"
+	dynasty = 1913002 #Barasa
+	culture = libyan
+	religion = taharur
+	father = 3603005
+	mother = 3603006
+	2648.11.2 = { birth=yes }
+}
+3603010 = { #Count of Darnah
+	name = "Ibrahim"
+	dynasty = 1913003 #al-Afriqi
+	culture = libyan
+	religion = sunni
+	trait = flamboyant_schemer
+	trait = deceitful
+	trait = cruel
+	trait = rude
+	2647.11.2 = { birth=yes }
+}
+3603011 = { #Count of al-Tubruq
+	name = "Mukhtar"
+	dynasty = 1913004 #al-Umari
+	culture = libyan
+	religion = taharur
+	trait = tough_soldier
+	trait = trusting
+	trait = pious
+	trait = mystic
+	trait = erudite
+	trait = brave
+	2610.11.2 = { birth=yes }
+	2630.1.1 = { add_spouse = 3603012 }
+}
+3603012 = { 
+	name = "Mabrouka"
+	dynasty = 2072072 
+	culture = greek
+	religion = taharur
+	female = yes
+	2610.11.2 = { birth=yes }
+}
+3603013 = { 
+	name = "Aziza"
+	dynasty = 1913004 #al-Umari
+	culture = libyan
+	religion = taharur
+	female = yes
+	father = 3603011
+	mother = 3603012
+	2635.11.2 = { birth=yes }
+}
+3603014 = { 
+	name = "Insaf"
+	dynasty = 1913004 #al-Umari
+	culture = libyan
+	religion = taharur
+	female = yes
+	father = 3603011
+	mother = 3603012
+	2639.11.2 = { birth=yes }
+}
+3603015 = { 
+	name = "Haitham"
+	dynasty = 1913004 #al-Umari
+	culture = libyan
+	religion = taharur
+	father = 3603011
+	mother = 3603012
+	trait = scholarly_theologian
+	trait = humble
+	trait = erudite
+	trait = pious
+	trait = frail
+	2642.11.2 = { birth=yes }
+}
+3603016 = { 
+	name = "Riadh"
+	dynasty = 1913004 #al-Umari
+	culture = libyan
+	religion = taharur
+	father = 3603011
+	mother = 3603012
+	trait = skilled_tactician
+	trait = brave
+	trait = pious
+	trait = robust
+	trait = envious
+	2644.11.2 = { birth=yes }
+}
+3603017 = { #Count of al-Wahat
+	name = "Abdullah"
+	dynasty = 1913005 #Sarahna
+	culture = mozabite
+	religion = taharur
+	trait = charismatic_negotiator
+	trait = gregarious
+	trait = brave
+	trait = familyperson
+	trait = proud
+	trait = kind
+	2634.11.2 = { birth=yes }
+	2650.1.1 = { add_spouse = 3603013 }
+	2655.1.1 = { 
+		effect = {
+			add_friend = 3603002
+		}
+	}
+}
+3603018 = { 
+	name = "Fatima"
+	dynasty = 1913005 #Sarahna
+	culture = mozabite
+	religion = taharur
+	female = yes
+	father = 3603017
+	mother = 3603013
+	2654.11.2 = { birth=yes }
+}
+3603019 = { 
+	name = "Sa'ad"
+	dynasty = 1913005 #Sarahna
+	culture = mozabite
+	religion = taharur
+	father = 3603017
+	mother = 3603013
+	trait = quick
+	2658.11.2 = { birth=yes }
+}
