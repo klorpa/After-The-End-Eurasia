@@ -223,6 +223,20 @@ k_gotland = {
 	
 	dignity=10
 }
+k_dobruja = {
+	color={ 242 242 60 }
+	color2={ 255 255 255 }
+	
+	capital = 876 # c_constanta
+	
+	allow = {
+		has_landed_title = d_dobruja
+		has_landed_title = d_budjak
+		has_landed_title = d_chernomorie
+	}
+	
+	dignity=10
+}
 ### titular duchies ###
 
 d_sligo = {
