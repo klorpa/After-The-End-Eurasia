@@ -221,6 +221,7 @@
 	trait=lefthanded
 	trait=duelist
 	trait=hedonist
+	trait=adventurer
 	father=1994012
 	2625.8.15={birth=yes}
 	2670.1.1={death=yes}
@@ -251,6 +252,7 @@
 	trait=seductress
 	father=1994012
 	2635.6.7={birth=yes}
+	2656.12.1={add_spouse=1991129}
 	2670.1.1={death=yes}
 }
 
@@ -380,5 +382,82 @@
 	trait=skilled_tactician
 	father=1994060
 	2637.10.2={birth=yes}
+	2700.1.1={death=yes}
+}
+
+
+1994070={
+	name="Lazar" 
+	dynasty=2926056 #Baxtalo
+	culture=romani
+	religion=orthodox
+	trait=ambitious
+	trait=giant
+	trait=shrewd
+	trait=socializer
+	trait=adventurer
+	trait=charismatic_negotiator
+	2612.4.3={birth=yes}
+	2640.7.7={add_spouse=1994074}
+	2700.1.1={death=yes}
+}
+1994071={
+	name="Zare" 
+	dynasty=2926056 #Baxtalo
+	culture=romani
+	religion=orthodox
+	trait=kind
+	trait=hedonist
+	trait=shrewd
+	trait=socializer
+	trait=thrifty_clerk
+	father=1994070
+	mother=1994074
+	2641.11.27={birth=yes}
+	2700.1.1={death=yes}
+}
+1994072={
+	name="Sujka" 
+	dynasty=2926056 #Baxtalo
+	female=yes
+	culture=romani
+	religion=orthodox
+	trait=kind
+	trait=chaste
+	trait=trusting
+	trait=socializer
+	trait=thrifty_clerk
+	father=1994070
+	mother=1994074
+	2645.12.2={birth=yes}
+	2700.1.1={death=yes}
+}
+1994073={
+	name="Ramona"
+	dynasty=2926056 #Baxtalo
+	female=yes
+	culture=romani
+	religion=orthodox
+	trait=proud
+	trait=brooding
+	trait=timid
+	trait=lustful
+	father=1994070
+	mother=1994074
+	2653.8.4={birth=yes}
+	2700.1.1={death=yes}
+}
+1994074={
+	name="Fechka" 
+	female=yes
+	culture=romani
+	religion=orthodox
+	trait=diligent
+	trait=temperate
+	trait=paranoid
+	trait=shy
+	trait=charismatic_negotiator
+	2622.12.7={birth=yes}
+	2640.7.7={add_spouse=1994070}
 	2700.1.1={death=yes}
 }
