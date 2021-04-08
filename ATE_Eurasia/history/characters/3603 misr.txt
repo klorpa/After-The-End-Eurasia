@@ -38,7 +38,7 @@
 }
 3603003 = { 
 	name = "Khadijah"
-	dynasty = 1913000 #Jahami
+	dynasty = 1913001 #Jahami
 	culture = libyan
 	religion = taharur
 	female = yes
@@ -224,4 +224,91 @@
 	mother = 3603013
 	trait = quick
 	2658.11.2 = { birth=yes }
+}
+3603020 = { #Count of Dumyat
+	name = "Sarhan"
+	dynasty = 1912082 #al-Imam
+	culture = masri
+	religion = sunni
+	trait = midas_touched
+	trait = groomed
+	trait = gregarious
+	trait = erudite
+	trait = proud
+	2610.11.2 = { birth=yes }
+	2630.1.1 = { add_spouse = 3603012 }
+}
+3603021 = { 
+	name = "Kawkab"
+	dynasty = 1912083 #al-Sharqi
+	culture = masri
+	religion = sunni
+	female = yes
+	trait = attractive
+	2610.11.2 = { birth=yes }
+}
+3603022 = { 
+	name = "Asmahan"
+	dynasty = 1912082 #al-Imam
+	culture = masri
+	religion = sunni
+	female = yes
+	father = 3603020
+	mother = 3603021
+	trait = attractive
+	2635.11.2 = { birth=yes }
+}
+3603023 = { 
+	name = "Adel"
+	dynasty = 1912082 #al-Imam
+	culture = masri
+	religion = sunni
+	father = 3603020
+	mother = 3603021
+	trait = fortune_builder
+	trait = gregarious
+	trait = ambitious
+	trait = shrewd
+	2639.11.2 = { birth=yes }
+}
+3603024 = { #Count of Kafr al-Sheikh
+	name = "Muhammad"
+	dynasty = 1912084 #Trézéguet
+	culture = masri
+	religion = sunni
+	trait = tough_soldier
+	trait = quick
+	trait = robust
+	trait = brave
+	trait = trusting
+	2640.11.2 = { birth=yes }
+}
+3603025 = { #Count of Abnub
+	name = "Gayed"
+	dynasty = 1912085 #Roufail
+	culture = masri
+	religion = miaphysite
+	trait = charismatic_negotiator
+	trait = gregarious
+	trait = sympathy_islam
+	trait = ambitious
+	trait = kind
+	2638.11.2 = { birth=yes }
+	2660.1.1 = { add_spouse = 3603003 }
+}
+3603026 = { 
+	name = "Mariam"
+	culture = masri
+	religion = miaphysite
+	female = yes
+	2638.11.2 = { birth=yes }
+}
+3603027 = { 
+	name = "Yahya"
+	dynasty = 1912085 #Roufail
+	culture = masri
+	religion = miaphysite
+	father = 3603025
+	mother = 3603026
+	2662.11.2 = { birth=yes }
 }
