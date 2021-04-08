@@ -65,6 +65,49 @@ caucasian = {
 		modifier = default_culture_modifier
 	}
 	
+	kabardian = {
+		graphical_cultures = { easternslavicgfx }
+		
+		color = { 0.2 0.9 0.2 }
+
+		male_names = {
+			Amyrxan_Amirkhan 'Äniuar_Anwar Anzor Aslhänbäch_Arslanbek 
+			Beslhän Bilal Boris_Boris 
+			Idar Inal Inarmaz 
+			Mats Minbolät 
+			Qamyzä Q'ärmyshchä 
+			Suadin Sultan_Sultan Sultanbäch_Sultanbek 
+			Tepsoryqw'ä 
+			Valerä_Valerius Vitaliy 
+			Wnärmäs 
+			Xwryfäl' 
+			Zhanxwät 
+		}
+
+		female_names = {
+			Aleksandra_Alexandra 
+			Lyolä 
+			Gwashchänä 
+			Tamarä_Tamara 
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = " i qw'är"
+		female_patronym = " i pxwr"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
 	circassian = {
 		graphical_cultures = { ugricgfx }
 		
