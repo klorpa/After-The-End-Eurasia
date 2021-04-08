@@ -7,60 +7,12 @@ e_misr = {
 	
 	capital = 1399 # c_al_qahirah
 	
-	k_egypt = {
-		color={ 167 69 56 }
+	k_cyrenaica = {
+		color={ 117 269 56 }
 		color2={ 255 255 255 }
 		
-		capital = 1399 # c_al_qahirah
+		capital = 1082 # c_benghazi
 		
-		nizami = 700
-		
-		d_al_qahirah = {
-			color={ 147 89 46 }
-			color2={ 255 255 255 }
-			
-			capital = 1399 # c_al_qahirah
-			
-			c_al_qahirah = { # 1399
-				color={ 137 99 41 }
-				color2={ 255 255 255 }
-				
-				holy_site = nizami
-				holy_site = sunni
-				
-				b_shubra_2 = {}
-				b_al_qahirah = {}
-				b_taj_al_jawame = {}
-				b_benha = {}
-				b_helwan = {}
-				b_muqattam = {}
-				b_rawdah = {}
-			}
-			c_al_jizah = { # 1401
-				color={ 130 42 70 }
-				color2={ 255 255 255 }
-				
-				b_dokki = {}
-				b_al_jizah = {}
-				b_bulaq = {}
-				b_al_warraq = {}
-				b_imbabah = {}
-				b_al_badrashayn = {}
-				b_al_ayyat = {}
-			}
-			c_atfih = { # 1400
-				color={ 135 89 55 }
-				color2={ 255 255 255 }
-				
-				b_as_saff = {}
-				b_atfih = {}
-				b_al_wadi_2 = {}
-				b_arab_al_maazah = {}
-				b_al_manshi = {}
-				b_arab_abu_said = {}
-				b_al_shurafa = {}
-			}
-		}
 		d_cyrenaica = {
 			color={ 109 165 165 }
 			color2={ 255 255 255 }
@@ -159,6 +111,61 @@ e_misr = {
 				b_rabyanah = {}
 				b_al_kufrah = {}
 				b_harat_zuwayyah = {}
+			}
+		}
+	}
+	k_egypt = {
+		color={ 167 69 56 }
+		color2={ 255 255 255 }
+		
+		capital = 1399 # c_al_qahirah
+		
+		nizami = 700
+		
+		d_al_qahirah = {
+			color={ 147 89 46 }
+			color2={ 255 255 255 }
+			
+			capital = 1399 # c_al_qahirah
+			
+			c_al_qahirah = { # 1399
+				color={ 137 99 41 }
+				color2={ 255 255 255 }
+				
+				holy_site = nizami
+				holy_site = sunni
+				
+				b_shubra_2 = {}
+				b_al_qahirah = {}
+				b_taj_al_jawame = {}
+				b_benha = {}
+				b_helwan = {}
+				b_muqattam = {}
+				b_rawdah = {}
+			}
+			c_al_jizah = { # 1401
+				color={ 130 42 70 }
+				color2={ 255 255 255 }
+				
+				b_dokki = {}
+				b_al_jizah = {}
+				b_bulaq = {}
+				b_al_warraq = {}
+				b_imbabah = {}
+				b_al_badrashayn = {}
+				b_al_ayyat = {}
+			}
+			c_atfih = { # 1400
+				color={ 135 89 55 }
+				color2={ 255 255 255 }
+				
+				b_as_saff = {}
+				b_atfih = {}
+				b_al_wadi_2 = {}
+				b_arab_al_maazah = {}
+				b_al_manshi = {}
+				b_arab_abu_said = {}
+				b_al_shurafa = {}
 			}
 		}
 		d_al_bahr_al_ahmar = {
