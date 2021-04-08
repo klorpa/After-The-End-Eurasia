@@ -789,7 +789,7 @@ d_miaphysite_alexandria = {
 	}
 }
 d_etchmiadzin = {
-	color={ 217 155 177 }
+	color={ 102 0 153 }
 	color2={ 220 220 0 }
 	
 	capital = 2135 # Etchmiadzin
@@ -819,7 +819,7 @@ d_etchmiadzin = {
 	}
 }
 d_cilician_catholicos = {
-	color={ 217 155 177 }
+	color={ 0 0 153 }
 	color2={ 220 220 0 }
 	
 	capital = 1973 # Beirut
@@ -880,36 +880,4 @@ d_miaphysite_jerusalem = {
 		Demetrius Dioscorus Gabriel Yohannes Iosephos Isaakios Iakobos Makarios Markianos Markos Matheos Khail Mina 
 		Petros Philotheos Shenouda Simeon Theodoros Theophilus Timotheos Zacharias
 	}
-}
-d_taharur = {
-	color={ 120 150 30 }
-	color2={ 220 220 0 }
-	
-	capital = 117 # Mecca
-	creation_requires_capital = no 
-	
-	landless = no 
-	
-	title = "SHAYKH"
-	foa = "CALIPH_FOA"
-	
-	allow = {
-		religion = taharur
-		num_of_holy_sites = 3 
-		piety = 500
-		wealth = 250
-	}
-	
-	short_name = yes
-	
-	caliphate = yes 
-	
-	dignity = 500 # Counted as having this many more counties than it does
-	
-	# Controls a religion
-	controls_religion = taharur
-	
-	religion = taharur
-	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
