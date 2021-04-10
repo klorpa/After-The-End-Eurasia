@@ -277,4 +277,50 @@ feudal_governments = {
 		## Modifiers
 		court_size_modifier = 10
 	}
+	romanipen_government = {
+		preferred_holdings = { CASTLE TRIBAL }
+		allowed_holdings = {
+			CASTLE
+			TRIBAL
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			CITY
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			feudal_government
+			republic_government
+			confederation_government
+			ghazi_government
+			theocratic_feudal_government
+			bureaucratic_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		frame_suffix = "_romanipen"
+		title_prefix = "romanipen_"
+		potential = {
+			culture_group = rom
+			is_patrician = no
+		}
+		
+		color = { 127 91 157 }
+
+		barons_need_dynasty = yes
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 120
+		
+		dukes_called_kings = yes
+		can_imprison_without_reason = no
+		can_grant_kingdoms_and_empires_to_other_government_group = yes
+		uses_prestige_for_law_change = yes
+		
+		## Modifiers
+		court_size_modifier = 15
+	}
 }
