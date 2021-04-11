@@ -308,10 +308,51 @@ turkic_oghuz = {
 		color = { 0.2 0.4 0.3 }
 
 		male_names = {
-			Mihail_Michael
+			Ahmed_Ahmed Akbar_Akbar Albert_Albert Aleksandr_Alexander Ali_Ali Andrey_Andrew Antioh_Antioch Arkadi_Arcadius Arsen_Arsene Arslan_Arslan Artur_Arthur Atanas_Athanasius Augustin_Augustine 
+			Babur Baiazid Bartolomeu_Bartholomew Basarab Batu Beniamin_Benjamin Bogdan Bucefal 
+			Cantemir Carol_Charles Cazimir_Casimir Cezar_Caesar Claudiu_Claudius Cristea_Christian Cristofor_Christopher 
+			Dacian Damian_Damian Daniel Darius David Decebal Dimitri_Demetrius Dionis_Dionysus Dragan Dragomir 
+			Eduard_Edward Eftimie_Euthymus Emanuel_Emmanuel Emir_Amir Emirhan_Amirkhan Evgeniy_Eugene 
+			Ferdinand_Ferdinand Filip_Philip 
+			Gavril_Gabriel Georgiy_George Ghenadie_Gennadius Ginghis_Genghis Gleb Grigore_Gregory 
+			Han_Khan Harlampi_Charalampos 
+			Ibrahim_Abraham Iosif_Joseph Ismail_Ishmael Iustinian_Justinian Ivan_John 
+			Jahan_Jahan 
+			Kaykaus Kaykhosrau Khosrau Kiliç_Kilij Konstantin_Constantine Kutulmish 
+			Ladislau_Ladislaus Laurentiu_Laurence Luca_Luke Lucian 
+			Mahmud_Mahmud Mahomed_Muhammad Mali Marcu_Mark Matei_Matthew Maxim_Maximus Mesud_Masud Mihail_Michael Mircea Moise_Moses Murad Murtada_Murtaza Mustafa_Mustafa 
+			Nikolay_Nicholas 
+			Octaviu_Octavius Ogadei Olimpiu_Olympius Ordea Orhan Osman_Uthman 
+			Pasha_Pasha Paul_Paul Petri_Peter Petrisor Pötr_Peter
+			Radu Rafael_Raphael Robert Ruslan_Ruslan Rustam 
+			Semön_Simon Septimiu_Septimius Severin_Severus Sinan Stelian Stepan_Stephen Subotai Suleiman_Solomon Sultan Sultanhan 
+			Teodosie_Theodosius Teofil_Theophilius Timur_Timur Todur_Theodore Tohtamâsh_Toktamish Toma_Thomas Traian_Trajan Tughluk Tughril_Toghrul 
+			Valentin_Valentine Valerii_Valerius Vani Vasile_Basil Veysel Viacheslav Victor_Victor Vincentiu_Vicent Vitaliy Vladimir_Vladimir Vlaicu_Vladislav 
+			Yulian_Julian 
 		}
 		female_names = {
-			Maria_Mary
+			Ada Adela Adelaida_Adelaide Agata_Agatha Aleksandra_Alexandra Alessia_Alexia Anabela_Annabelle Anaida_Anahid Andra_Andrea Angelica_Angela Anna Artemisa Astrid Atena_Athena Augusta Aura Aurelia Aurica Aurora 
+			Beatrice Betina Bianca_Blanche Bogdana Boran 
+			Carla Carmen Carolina_Caroline Casandra_Cassandra Catalina_Catherine Cecilia Çimpoesh Claudia Cleopatra Cosmina Costanta_Constance Cristina_Christina
+			Daciana Daniela Daria Delia Demetra Denisa Despina Diana Domnica Draga 
+			Eftimia Elena_Helen Eleonora_Eleanor Elisabeta_Elizabeth Elvira Eufrosina_Euphrosyne Eugenia Eusebia Eva_Eve Evanghelina_Evangeline 
+			Fatima_Fatima Fiona Flavia Flora Francesca_Françoise 
+			Gabriela Galina Gazel_Gözel Georgia Gloria Gratiana 
+			Heracleea Hortensia 
+			Iasmina_Jasmine Ilaria_Hillary Iosefina_Josephine Irina_Irene Isabela_Elizabeth Iustina_Justina Ivanka_Joan 
+			Konstantina_Constantina 
+			Laura Laurentia Lavinia Lacramioara Lorelei Lorena_Lorraine Lucretia_Lucrezia Ludmila Ludovica Luiza_Louise 
+			Magdalena_Magdalene Margareta_Margaret Marina_Marina Mariya_Mary Marta_Martha Martina Melania Mihaela_Michelle Mina Miranda 
+			Nadia Naomi Narcisa_Narcissa Natalya Natasa_Natasha Nora 
+			Octavia Ofelia_Ophelia Olga Oli Olimpia_Olympia Olivia Ortensa_Hortensia 
+			Paulina_Pauline Petronela_Petronilla Pompilia 
+			Rada Rebeca_Rebecca Reghina_Regina Renata Roberta Roxana Roxelana Roza_Rose 
+			Salomea_Salome Sandra_Alexandra Sara_Sarah Smeralda_Esmeralda Serafina Severina Sidonia Silvia Sofia_Sophia Stefania_Stephania Stela_Stella Susana_Susan Svetlana 
+			Tamara Teodosia_Theodosia Tereza_Theresa Tiberia Tudorka_Theodora 
+			Valentina Valeria Vanesa_Vanessa Varvara_Barbara Victoria Violeta_Violet 
+			Xenia 
+			Yuliya_Julia 
+			Zahra_Zohra Zenaida Zinovia_Zenobia 
 		}
 
 		from_dynasty_prefix = "of "
@@ -323,6 +364,10 @@ turkic_oghuz = {
 		pat_grm_name_chance = 30
 		mat_grm_name_chance = 30
 		mother_name_chance = 0
+		
+		male_patronym = "oviç"
+		female_patronym = "ova"
+		prefix = no
 
 		modifier = default_culture_modifier
 	}
