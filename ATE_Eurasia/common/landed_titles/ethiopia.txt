@@ -2,16 +2,22 @@ e_ethiopia = {
 	color={ 200 34 94 }
 	color2={ 255 255 20 }
 	
+	capital = 3062 #Khartoum
+			
 	k_somalia = {
-		color={ 0 53 148 }
+		color={ 5 53 158 }
 		color2={ 255 255 255 }
 
+		capital = 3088 #Hargeysa
+			
 		somali="Soomaaliya"
 
 		d_puntland = {
-			color={ 64 66 152 }
+			color={ 64 96 192 }
 			color2={ 255 255 255 }
 
+			capital = 3094 #Bosaso
+			
 			c_nugaal = {
 				color={ 74 113 183 }
 				color2={ 255 255 255 }
@@ -25,7 +31,7 @@ e_ethiopia = {
 				b_jallam = {}
 			}
 			c_karkaar = {
-				color={ 222 83 51 }
+				color={ 22 83 251 }
 				color2={ 255 255 255 }
 					
 				b_qardho = {}
@@ -37,7 +43,7 @@ e_ethiopia = {
 				b_samaysa_dheer = {}
 			}
 			c_guardafui = {
-				color={ 92 14 90 }
+				color={ 92 14 190 }
 				color2={ 255 255 255 }
 
 				somali="Gardafuul"
@@ -51,7 +57,7 @@ e_ethiopia = {
 				b_xaafuun = {}
 			}
 			c_bosaso = {
-				color={ 46 81 53 }
+				color={ 46 81 153 }
 				color2={ 255 255 255 }
 
 				somali="Boosaaso"
@@ -66,9 +72,11 @@ e_ethiopia = {
 			}
 		}
 		d_sanaag = {
-			color={ 91 84 199 }
+			color={ 52 35 171 }
 			color2={ 255 255 255 }
 
+			capital = 3091 #Burao
+			
 			c_badhan = {
 				color={ 92 114 139 }
 				color2={ 255 255 255 }
@@ -82,7 +90,7 @@ e_ethiopia = {
 				b_buraan = {}
 			}
 			c_erigavo = {
-				color={ 36 198 83 }
+				color={ 36 178 183 }
 				color2={ 255 255 255 }
 
 				somali="Ceerigaabo"
@@ -96,7 +104,7 @@ e_ethiopia = {
 				b_yubbe = {}
 			}
 			c_khaatumo = {
-				color={ 169 71 82 }
+				color={ 69 71 182 }
 				color2={ 255 255 255 }
 					
 				b_taleh = {}
@@ -108,7 +116,7 @@ e_ethiopia = {
 				b_shahda = {}
 			}
 			c_sool = {
-				color={ 198 36 54 }
+				color={ 128 136 254 }
 				color2={ 255 255 255 }
 					
 				b_las_anod = {}
@@ -120,7 +128,7 @@ e_ethiopia = {
 				b_gowsaweyne = {}
 			}
 			c_burao = {
-				color={ 151 166 72 }
+				color={ 51 116 172 }
 				color2={ 255 255 255 }
 
 				somali="Burco"
@@ -135,11 +143,13 @@ e_ethiopia = {
 			}
 		}
 		d_somaliland = {
-			color={ 51 120 211 }
+			color={ 99 140 231 }
 			color2={ 255 255 255 }
 
+			capital = 3088 #Hargeysa
+			
 			c_sahil = {
-				color={ 80 64 4 }
+				color={ 80 64 204 }
 				color2={ 255 255 255 }
 
 				somali="Saaxil"
@@ -177,7 +187,7 @@ e_ethiopia = {
 				b_quljeed = {}
 			}
 			c_fafan = {
-				color={ 253 242 107 }
+				color={ 153 142 207 }
 				color2={ 255 255 255 }
 
 				somali="Faafan"
@@ -194,12 +204,16 @@ e_ethiopia = {
 	}
 	
 	k_sudan = {
-		color={ 10 255 80 }
+		color={ 220 55 80 }
 		color2={ 255 255 255 }
 		
+		capital = 3062 #Khartoum
+			
 		d_aswan = {
-			color={ 100 219 134 }
+			color={ 200 119 134 }
 			color2={ 255 255 255 }
+			
+			capital = 3056 #Dongola
 			
 			c_wadi_halfa = {
 				color={ 205 67 51 }
@@ -240,8 +254,10 @@ e_ethiopia = {
 			}
 		}
 		d_nile = {
-			color={ 102 191 241 }
+			color={ 187 102 51 }
 			color2={ 255 255 255 }
+			
+			capital = 3059 #ad Damir
 			
 			c_abu_hamed = {
 				color={ 218 40 148 }
@@ -281,8 +297,10 @@ e_ethiopia = {
 			}
 		}
 		d_al_mogran = {
-			color={ 102 191 241 }
+			color={ 199 23 102 }
 			color2={ 255 255 255 }
+			
+			capital = 3062 #Khartoum
 			
 			c_omdurman = {
 				color={ 245 15 226 }
@@ -310,12 +328,13 @@ e_ethiopia = {
 			}
 		}
 		d_white_nile = {
-			color={ 102 191 241 }
+			color={ 152 24 11 }
 			color2={ 255 255 255 }
 			
+			capital = 3063 #ad Douiem
 			
 			c_ad_douiem = {
-				color={ 244 180 216 }
+				color={ 244 180 166 }
 				color2={ 255 255 255 }
 				
 				b_el_geteina = {}
@@ -327,7 +346,7 @@ e_ethiopia = {
 				b_wad_alzaky = {}
 			}
 			c_al_manaqil = {
-				color={ 80 164 229 }
+				color={ 180 164 129 }
 				color2={ 255 255 255 }
 				
 				b_um_hegelega = {}
@@ -364,8 +383,10 @@ e_ethiopia = {
 			}
 		}
 		d_blue_nile = {
-			color={ 102 191 241 }
+			color={ 199 103 98 }
 			color2={ 255 255 255 }
+			
+			capital = 3065 #Gezira
 			
 			c_gezira = {
 				color={ 245 15 226 }
@@ -417,9 +438,10 @@ e_ethiopia = {
 			}
 		}
 		d_red_sea = {
-			color={ 102 191 241 }
+			color={ 222 101 41 }
 			color2={ 255 255 255 }
 			
+			capital = 3107 #Port Sudan
 			
 			c_port_sudan = {
 				color={ 61 13 118 }
@@ -459,9 +481,10 @@ e_ethiopia = {
 			}
 		}
 		d_kordofan = {
-			color={ 102 191 241 }
+			color={ 162 101 41 }
 			color2={ 255 255 255 }
 			
+			capital = 3106 #el Obeid
 			
 			c_el_obeid = {
 				color={ 61 13 118 }
