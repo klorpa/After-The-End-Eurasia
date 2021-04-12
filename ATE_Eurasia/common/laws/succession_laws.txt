@@ -1205,7 +1205,7 @@ succession_laws = {
 				OR = {
 					culture = khalka
 					religion = khanist
-					AND = { religion = nepmese is_feudal = yes }
+					religion = nepmese
 				}
 				NOT = { religion_group = muslim }
 				is_merchant_republic = no
@@ -1225,7 +1225,7 @@ succession_laws = {
 		allow = {
 			conditional_tooltip = {
 				holder_scope = {
-					AND = { religion = nepmese is_feudal = yes }
+					religion = nepmese
 				}
 			}
 			conditional_tooltip = {

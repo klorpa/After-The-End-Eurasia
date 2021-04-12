@@ -503,7 +503,10 @@ character_event = {
 			AND = {
 				religion = nepmese
 				NOT = { has_law = succ_ultimogeniture }
-				is_feudal = yes
+				OR = {
+					is_feudal = yes
+					is_ruler = yes
+				}
 			}
 		}
 	}
