@@ -10081,6 +10081,7 @@ seize_trade_post = {
 				is_patrician = yes
 			}
 			NOT = { is_liege_or_above = FROM }
+			NOT = { government = pirate_government }
 
 			OR = {
 				NOT = { same_realm = FROM }
