@@ -179,6 +179,7 @@ feudal_governments = {
 				}
 			}
 			#has_law = succ_ghazi_elective
+			NOT = { is_government_potential = romanipen_government }
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
 			NOT = { is_government_potential = military_governorate }
@@ -295,6 +296,7 @@ feudal_governments = {
 			ghazi_government
 			theocratic_feudal_government
 			bureaucratic_government
+			bureaucratic_muslim_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
