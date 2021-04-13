@@ -8,12 +8,47 @@ e_misr = {
 	capital = 1399 # c_al_qahirah
 	
 	k_sudan = {
-		color={ 10 255 80 }
+		color={ 210 25 50 }
 		color2={ 255 255 255 }
 		
-		d_aswan = {
-			color={ 100 219 134 }
+		capital = 3062 #Khartoum
+			
+		d_al_mogran = {
+			color={ 188 110 58 }
 			color2={ 255 255 255 }
+			
+			capital = 3062 #Khartoum
+			
+			c_omdurman = {
+				color={ 245 15 226 }
+				color2={ 255 255 255 }
+				
+				b_ombada = {}
+				b_omdurman = {}
+				b_karari = {}
+				b_abu_rof = {}
+				b_oum_kati = {}
+				b_eslang = {}
+				b_banat_sharq = {}
+			}
+			c_khartoum = {
+				color={ 227 50 122 }
+				color2={ 255 255 255 }
+				
+				b_khartoum_bahri = {}
+				b_khartoum = {}
+				b_jabal_awliya = {}
+				b_al_kalakla = {}
+				b_wag_ageeb = {}
+				b_umdawwanban = {}
+				b_abu_groon = {}
+			}
+		}
+		d_aswan = {
+			color={ 200 19 134 }
+			color2={ 255 255 255 }
+			
+			capital = 3056 #dongola
 			
 			c_wadi_halfa = {
 				color={ 205 67 51 }
@@ -54,8 +89,10 @@ e_misr = {
 			}
 		}
 		d_nile = {
-			color={ 102 191 241 }
+			color={ 232 54 16 }
 			color2={ 255 255 255 }
+			
+			capital = 3059 #ad damir
 			
 			c_abu_hamed = {
 				color={ 218 40 148 }
@@ -94,39 +131,11 @@ e_misr = {
 				b_al_juwer = {}
 			}
 		}
-		d_al_mogran = {
-			color={ 102 191 241 }
-			color2={ 255 255 255 }
-			
-			c_omdurman = {
-				color={ 245 15 226 }
-				color2={ 255 255 255 }
-				
-				b_ombada = {}
-				b_omdurman = {}
-				b_karari = {}
-				b_abu_rof = {}
-				b_oum_kati = {}
-				b_eslang = {}
-				b_banat_sharq = {}
-			}
-			c_khartoum = {
-				color={ 227 50 122 }
-				color2={ 255 255 255 }
-				
-				b_khartoum_bahri = {}
-				b_khartoum = {}
-				b_jabal_awliya = {}
-				b_al_kalakla = {}
-				b_wag_ageeb = {}
-				b_umdawwanban = {}
-				b_abu_groon = {}
-			}
-		}
 		d_white_nile = {
-			color={ 102 191 241 }
+			color={ 166 104 100 }
 			color2={ 255 255 255 }
 			
+			capital = 3063 #ad douiem
 			
 			c_ad_douiem = {
 				color={ 244 180 216 }
@@ -141,7 +150,7 @@ e_misr = {
 				b_wad_alzaky = {}
 			}
 			c_al_manaqil = {
-				color={ 80 164 229 }
+				color={ 180 64 29 }
 				color2={ 255 255 255 }
 				
 				b_um_hegelega = {}
@@ -178,8 +187,10 @@ e_misr = {
 			}
 		}
 		d_blue_nile = {
-			color={ 102 191 241 }
+			color={ 220 152 157 }
 			color2={ 255 255 255 }
+			
+			capital = 3066 #al Qadarif
 			
 			c_gezira = {
 				color={ 245 15 226 }
@@ -231,9 +242,10 @@ e_misr = {
 			}
 		}
 		d_red_sea = {
-			color={ 102 191 241 }
+			color={ 235 89 154 }
 			color2={ 255 255 255 }
 			
+			capital = 3107 #Port sudan
 			
 			c_port_sudan = {
 				color={ 61 13 118 }
@@ -273,9 +285,10 @@ e_misr = {
 			}
 		}
 		d_kordofan = {
-			color={ 102 191 241 }
+			color={ 149 12 39 }
 			color2={ 255 255 255 }
 			
+			capital = 3106 #el obeid
 			
 			c_el_obeid = {
 				color={ 61 13 118 }
