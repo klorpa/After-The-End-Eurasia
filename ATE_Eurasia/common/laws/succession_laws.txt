@@ -96,10 +96,7 @@ succession_laws = {
 						}
 					}
 				}
-				OR = {
-					NOT = { AND = { religion = nepmese is_feudal = yes } }
-					NOT = { religion_group = muslim }
-				}
+				#NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -111,6 +108,11 @@ succession_laws = {
 					}
 				}
 			}
+			OR = {
+				is_landless_type_title = no
+				is_tribal_type_title = yes
+				temporary = yes
+			}
 			
 			rebel = no
 			
@@ -120,6 +122,20 @@ succession_laws = {
 			}
 			
 			is_primary_type_title = no
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
+			holder_scope = {
+				NAND = {
+					OR = {
+						tier = king
+						tier = emperor
+					}
+					OR = {
+						government = bureaucratic_muslim_government
+						government = ghazi_government
+						government = ibadi_imamate
+					}
+				}
+			}
 		}
 		allow = {
 			holder_scope = {
@@ -139,22 +155,11 @@ succession_laws = {
 								religion = nenets
 								religion = ak_jeng
 								religion = khanist
+								religion = nepmese
 							}
 						}
 					}
 				}
-				NAND = {
-					OR = {
-						tier = king
-						tier = emperor
-					}
-					OR = {
-						government = bureaucratic_muslim_government
-						government = ghazi_government
-						government = ibadi_imamate
-					}
-				}
-				NOT = { AND = { religion = nepmese is_feudal = yes } }
 				in_revolt = no
 				conditional_tooltip = {
 					trigger = {
@@ -177,7 +182,19 @@ succession_laws = {
 					has_law = centralization_4
 				}
 			}
-
+			holder_scope = {
+				NAND = {
+					OR = {
+						tier = king
+						tier = emperor
+					}
+					OR = {
+						government = bureaucratic_muslim_government
+						government = ghazi_government
+						government = ibadi_imamate
+					}
+				}
+			}
 			conditional_tooltip = {
 				trigger = {
 					has_dlc = "Conclave"
@@ -231,10 +248,7 @@ succession_laws = {
 						}
 					}
 				}
-				OR = {
-					NOT = { AND = { religion = nepmese is_feudal = yes } }
-					NOT = { religion_group = muslim }
-				}
+				#NOT = { religion_group = muslim }
 			}
 			
 			rebel = no
@@ -244,6 +258,8 @@ succession_laws = {
 				holder_scope = { is_tribal = yes }
 			}
 			is_primary_type_title = no
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
+			NOT = { holder_scope = { government = chinese_imperial_government } }
 			
 			holder_scope = {
 				NAND = {
