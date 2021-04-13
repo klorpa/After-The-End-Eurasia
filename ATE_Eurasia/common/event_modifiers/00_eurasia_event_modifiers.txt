@@ -227,12 +227,12 @@ choosing_coronite_patron = {
 yeshiva_learning_success = {
 	icon = 2
 	learning = 1
-	piety = 0.25
+	monthly_character_piety = 0.25
 }
 yeshiva_learning_failure = {
 	icon = 20
 	learning = -1
-	piety = -0.25
+	monthly_character_piety = -0.25
 }
 yeshiva_halakha = {
 	icon = 63
@@ -244,4 +244,14 @@ yeshiva_kabbalah = {
 }
 got_pirate_troops = {
 	icon = 8
+}
+vessak_fast_failed = {
+	icon = 44
+	monthly_character_piety = -0.2
+	buddhist_group_opinion = -5
+}
+vessak_fast_succeded = {
+	icon = 43
+	monthly_character_piety = 0.2
+	buddhist_group_opinion = 10
 }

@@ -491,3 +491,301 @@ narrative_event = {
 		remove_trait = in_hiding
 	}
 }
+
+
+
+#Vessak events 100 - 120
+character_event = {#do you want to fast
+	id = budevents.100
+	title = budevent100_title
+	desc = budevent100_desc
+	picture = GFX_evt_buddha_teaching
+	is_triggered_only = yes
+	
+	#trigger = {has_character_modifier = holding_vessak}
+	
+	immediate = {
+		narrative_Event = {id = budevents.105 days = 10}#two days after the fast ends, celebration begins regardles of you fasting or not
+	}
+	
+	option = {#yes
+		name = EVTOPTA_budevent100
+		custom_tooltip = {
+			text = fast_begins_custom_text
+			random_list = {
+				30 = {#you experience hardships
+					mult_modifier = {
+						factor = 1.5
+						is_ill = yes
+					}
+					mult_modifier = {
+						factor = 1.15
+						health < 10
+					}
+					mult_modifier = {
+						factor = 1.15
+						health < 9
+					}
+					mult_modifier = {
+						factor = 1.15
+						health < 8
+					}
+					mult_modifier = {
+						factor = 1.15
+						health < 7
+					}
+					mult_modifier = {
+						factor = 1.15
+						health < 6
+					}
+					mult_modifier = {
+						factor = 1.15
+						health < 5
+					}
+					mult_modifier = {
+						factor = 1.15
+						health < 4
+					}
+					mult_modifier = {
+						factor = 1.15
+						health < 3
+					}
+					mult_modifier = {
+						factor = 1.15
+						health < 2
+					}
+					mult_modifier = {
+						factor = 1.15
+						health < 1
+					}
+					character_event = {id = budevents.101 days = 4} 
+				}
+				70 = {#end of the fast
+					character_event = {id = budevents.102 days = 8}
+				}
+			}
+		}
+		piety = 50
+		
+		
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0.2
+				OR = {
+					is_ill = yes
+					num_of_symptoms > 2
+				}
+			}
+			modifier = {
+				factor = 0.5
+				trait = gluttonous 
+			}
+			modifier = {
+				factor = 0.5
+				trait = cynical
+			}
+		}
+	}
+	
+	option = {#no
+		name = EVTOPTB_budevent100
+		piety = -10
+		
+		
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0.5
+				trait = temperate 
+			}
+			modifier = {
+				factor = 0.1
+				trait = zealous
+			}
+		}
+	}
+}
+
+character_event = {#experience hardships, option to abandon
+	id = budevents.101
+	is_triggered_only = yes
+	picture = GFX_evt_buddha_teaching
+	desc = budevent101_desc
+	
+	#trigger = {has_character_modifier = holding_vessak}
+	
+	option = {#abandon the fast
+		name = EVTOPTA_budevent101
+		add_character_modifier = vessak_fast_failed
+		
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.2
+				OR = {
+					is_ill = yes
+					num_of_symptoms > 2
+				}
+			}
+			modifier = {
+				factor = 0.5
+				age = 50
+			}
+			modifier = {
+				factor = 0.7
+				trait = craven
+			}
+			modifier = {
+				factor = 0.5
+				trait = gluttonous 
+			}
+			modifier = {
+				factor = 0.5
+				trait = cynical
+			}
+		}
+	}
+	option = {#power through
+		name = EVTOPTB_budevent101
+		if = {
+			limit = {
+				NOT = {
+					has_dlc = "Reapers"
+				}
+			}
+			add_trait = ill
+		}
+		else = {
+			add_symptom_effect = yes
+		}
+		character_event = { id = budevents.102 days = 4}
+		hidden_tooltip  = {#should it be a custom tooltip?
+			random = {
+				chance = 10
+				mult_modifier = {
+					factor = 1.5
+					is_ill = yes
+				}
+				mult_modifier = {
+					factor = 1.15
+					health < 6
+				}
+				mult_modifier = {
+					factor = 1.15
+					health < 5
+				}
+				mult_modifier = {
+					factor = 1.15
+					health < 4
+				}
+				mult_modifier = {
+					factor = 1.15
+					health < 3
+				}
+				mult_modifier = {
+					factor = 1.15
+					health < 2
+				}
+				mult_modifier = {
+					factor = 1.15
+					health < 1
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				trait = temperate 
+			}
+			modifier = {
+				factor = 0.1
+				trait = zealous
+			}
+		}
+	}
+}
+
+character_event = {#the fast ends - you successfully did it!
+	id = budevents.102
+	is_triggered_only = yes
+	picture = GFX_evt_buddha_teaching
+	desc = budevent102_desc
+	
+	#trigger = {has_character_modifier = holding_vessak}
+	
+	option = {#wooooo!
+		name = EVTOPTA_buddhist102
+		piety = 100
+		prestige = 50
+	}
+}
+
+narrative_event = {
+	id = budevents.105
+	is_triggered_only = yes
+	picture = GFX_evt_buddha_teaching
+	desc = budevent105_desc
+	
+	trigger = {
+		#has_character_modifier = holding_vessak
+		war = no
+	}
+	
+	option = {#small event
+		name = EVTOPTA_budevent105
+		wealth = -25
+		prestige = 50
+		piety = 50
+		#next event
+	}
+	option = {#medium event
+		name = EVTOPTB_budevent105
+		wealth = -75
+		prestige = 150
+		piety = 150
+		#next event
+	}
+	option = {#medium event
+		name = EVTOPTB_budevent105
+		wealth = -200
+		prestige = 400
+		piety = 400
+		#next event
+	}
+}
+
+character_event = { 
+	id = budevents.120
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		clr_character_flag = do_not_disturb
+		clr_character_flag = recent_minor_decision
+		clr_character_flag = holding_vessak
+	}
+}
+
+# War interrupts Vessak
+character_event = {
+	id = budevents.120
+	desc = budevent11_desc
+	has_character_flag = holding_vessak
+	war = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTA_buddeven12-
+		wealth = 50
+		piety = -50
+		hidden_tooltip = { character_event = { id = budevents.120 } }
+		#hidden_tooltip = { add_character_modifier = { name = _timer years = 3 } }
+	}
+}
+}
