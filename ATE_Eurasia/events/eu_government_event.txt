@@ -499,7 +499,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		OR = {
+		holder_scope = {
 			AND = {
 				religion = nepmese
 				NOT = { has_law = succ_ultimogeniture }
@@ -507,6 +507,7 @@ character_event = {
 					is_feudal = yes
 					is_ruler = yes
 				}
+				higher_than_tier = BARON
 			}
 		}
 	}

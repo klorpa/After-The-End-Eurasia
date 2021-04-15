@@ -1221,7 +1221,11 @@ succession_laws = {
 				OR = {
 					culture = khalka
 					religion = khanist
-					religion = nepmese
+					AND = {
+						religion = nepmese
+						is_feudal = yes
+						higher_real_tier_than = BARON
+					}
 				}
 				NOT = { religion_group = muslim }
 				is_merchant_republic = no
@@ -1431,7 +1435,7 @@ succession_laws = {
 				holder_scope = { is_theocracy = no }
 				holder_scope = { 
 					NOT = { religion = catholic }
-					NOT = { religion = fraticelli }
+					NOT = { religion = insular }
 				}
 			}
 			holder_scope = { 
@@ -1480,7 +1484,7 @@ succession_laws = {
 			holder_scope = {
 				OR = {
 					religion = catholic
-					religion = fraticelli
+					religion = insular
 				}
 				is_merchant_republic = no
 				OR = {
@@ -1520,6 +1524,7 @@ succession_laws = {
 			holder_scope = {
 				is_merchant_republic = yes
 			}
+			NOT = { holder_scope = { government = pirate_government } }
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = playable_republic_government } }
