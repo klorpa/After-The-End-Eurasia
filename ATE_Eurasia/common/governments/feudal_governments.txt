@@ -31,6 +31,7 @@ feudal_governments = {
 				#}
 			}
 			NOT = {religion_group = islamosyncretic}
+			NOT = {culture_group = rom}
 			OR = {
 				NOT = {religion_group = muslim}
 				AND = {
@@ -494,7 +495,7 @@ feudal_governments = {
 		
 	}
        
-        confederation_government = {
+	confederation_government = {
 		preferred_holdings = { CASTLE CITY }
 		allowed_holdings = {
 			CASTLE
