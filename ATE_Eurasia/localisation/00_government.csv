@@ -90,8 +90,8 @@ become_feudal_desc;Go back to your feudal roots.;;;;;;;;;;;;;x
 
 HAS_SHIPYARD;Has shipyard in capital holding;;;;;;;;;;;;;x
 
-pirate_decide_fate;§YDecide Fate§!;;;;;;;;;;;;;x
-pirate_decide_fate_desc;Decide the fate of this character and gain extra §Yprestige§!.;;;;;;;;;;;;;x
+pirate_decide_fate;Â§YDecide FateÂ§!;;;;;;;;;;;;;x
+pirate_decide_fate_desc;Decide the fate of this character and gain extra Â§YprestigeÂ§!.;;;;;;;;;;;;;x
 
 EVTgov.010;The Fate of [From.GetFirstName];;;;;;;;;;;;;x
 EVTDESCgov.010;You will now decide the fate of [From.GetFirstName]. Doing so will make you a more fearsome Pirate.;;;;;;;;;;;;;x
@@ -148,8 +148,8 @@ herder_emperor_female;Head Chieftess;;;;;;;;;;;;;x
 herder_empire_of;Grand Council of;;;;;;;;;;;;;x
 
 #Chinese Bureaucracy Government (Re-Flavored)
-confucian_bureaucracy;Sinic Bureaucracy;Bureaucratie sinique;Sündige Bürokratie;;Burocracia sinica;;;;;;;;;x
-confucian_bureaucracy_desc;Sinic Bureaucracies rely on a set of strict imperial examinations to select their rulers. Candidates are tested on their knowledge of the Ancient Classics - though merit, previous achievements and recommendations from prominent aristocrats also play a major role in the selection process. Rulers tend to be very skilled stewards.;Les bureaucraties sinique s'appuient sur des examens impériaux stricts pour sélectionner leurs dirigeants. Les candidats sont testés sur leurs connaissances des ancien classique - en dehors du mérite, les accomplissements précédents et les recommandations d'aristocrates en vue jouent aussi un rôle majeur dans le processus de sélection. Les dirigeants ont tendance à être des intendants très compétents.;Sündige Bürokraten verlassen sich auf eine Reihe von strengen kaiserlichen Prüfungen, um ihre Herrscher auszuwählen. Die Kandidaten werden auf ihre Kenntnisse der alter Klassiker getestet, wobei Verdienst, frühere Errungenschaften und Empfehlungen von prominenten Aristokraten auch eine wichtige Rolle bei der Auswahl spielen. Herrscher neigen dazu, sehr erfahrene Kämmerer zu sein.;;Las burocracias sinica recurren a una serie de rigurosos exámenes imperiales para elegir a sus gobernantes. Los candidatos prueban su conocimiento de los clásicos antiguo. Aunque méritos, logros previos y recomendaciones de aristócratas destacados también desempeñan un papel importante en el proceso de selección. Los gobernantes suelen ser administradores hábiles.;;;;;;;;;x
+confucian_bureaucracy;Sinic Bureaucracy;Bureaucratie sinique;SÃ¼ndige BÃ¼rokratie;;Burocracia sinica;;;;;;;;;x
+confucian_bureaucracy_desc;Sinic Bureaucracies rely on a set of strict imperial examinations to select their rulers. Candidates are tested on their knowledge of the Ancient Classics - though merit, previous achievements and recommendations from prominent aristocrats also play a major role in the selection process. Rulers tend to be very skilled stewards.;Les bureaucraties sinique s'appuient sur des examens impÃ©riaux stricts pour sÃ©lectionner leurs dirigeants. Les candidats sont testÃ©s sur leurs connaissances des ancien classique - en dehors du mÃ©rite, les accomplissements prÃ©cÃ©dents et les recommandations d'aristocrates en vue jouent aussi un rÃ´le majeur dans le processus de sÃ©lection. Les dirigeants ont tendance Ã  Ãªtre des intendants trÃ¨s compÃ©tents.;SÃ¼ndige BÃ¼rokraten verlassen sich auf eine Reihe von strengen kaiserlichen PrÃ¼fungen, um ihre Herrscher auszuwÃ¤hlen. Die Kandidaten werden auf ihre Kenntnisse der alter Klassiker getestet, wobei Verdienst, frÃ¼here Errungenschaften und Empfehlungen von prominenten Aristokraten auch eine wichtige Rolle bei der Auswahl spielen. Herrscher neigen dazu, sehr erfahrene KÃ¤mmerer zu sein.;;Las burocracias sinica recurren a una serie de rigurosos exÃ¡menes imperiales para elegir a sus gobernantes. Los candidatos prueban su conocimiento de los clÃ¡sicos antiguo. Aunque mÃ©ritos, logros previos y recomendaciones de aristÃ³cratas destacados tambiÃ©n desempeÃ±an un papel importante en el proceso de selecciÃ³n. Los gobernantes suelen ser administradores hÃ¡biles.;;;;;;;;;x
 
 #Playable Inland Republics###############################################
 playable_republic_government;Republic;;;;;;;;;;;;;x
@@ -162,6 +162,19 @@ gov_imperial_republic;Autocratic Elective;;;;;;;;;;;;;x
 democratic_elective;Democratic Elective;;;;;;;;;;;;;x
 succ_democratic_elective;Democratic Elective;;;;;;;;;;;;;x
 succ_democratic_elective_desc;Direct Representatives of your people can cast a vote to choose the sovereign of the realm. Candidates are the prestigous houses (vassals) of the republic which also include members from the ruling house of the Republic of the current sovereign. Skilled rulers have more sway in electing the successor.;;;;;;;;;;;;;x
+
+gov_white_martyr;BÃ¡nmartre;;;;;;;;;;;;;x
+white_martyr_government;BÃ¡nmartre;;;;;;;;;;;;;x
+white_martyr_government_desc;In the wake of the event, the Papacy retreated underground, leaving much of it's flock vulnerable. The monks of the old world became these new shepherds, tending to his own flock a warmhearted caution. This has intwined Insular rulership with monastic devotion, the affairs of church and state becoming one and the same.;;;;;;;;;;;;;x
+
+white_martyr_count;Prior;;;;;;;;;;;;;x
+white_martyr_count_female;Prioress;;;;;;;;;;;;;x
+white_martyr_duke;Abbot;;;;;;;;;;;;;x
+white_martyr_duke_female;Abbess;;;;;;;;;;;;;x
+white_martyr_king;Hegumen;;;;;;;;;;;;;x
+white_martyr_king_female;Ihumenia;;;;;;;;;;;;;x
+white_martyr_emperor;Archimandrite;;;;;;;;;;;;;x
+white_martyr_emperor_female;Archimandrate;;;;;;;;;;;;;x
 
 #Laws
 local_term_length;Term Length of Office;;;;;;;;;;;;;x
