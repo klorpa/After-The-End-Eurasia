@@ -97,6 +97,7 @@ succession_laws = {
 					}
 				}
 				#NOT = { religion_group = muslim }
+				is_republic = no
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -123,6 +124,7 @@ succession_laws = {
 			
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
+			NOT = { holder_scope = { government = merchant_republic_government } }
 			holder_scope = {
 				NAND = {
 					OR = {
@@ -160,6 +162,9 @@ succession_laws = {
 						}
 					}
 				}
+				is_republic = no
+				is_merchant_republic = no
+				is_patrician = no
 				in_revolt = no
 				conditional_tooltip = {
 					trigger = {
