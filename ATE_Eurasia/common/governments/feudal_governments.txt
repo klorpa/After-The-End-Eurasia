@@ -486,6 +486,10 @@ feudal_governments = {
 
 		## Modifiers
 		court_size_modifier = 10
+		commanders = 2
+		min_vassal_tax = -0.5
+		min_vassal_levy = -0.5
+		
 	}
        
         confederation_government = {
@@ -533,6 +537,7 @@ feudal_governments = {
 		}
 		vassal_call_to_arms = {
 			burgher_republic_government
+			feudal_government
 		}
 		
 		color = { 255 75 75 }
@@ -563,6 +568,9 @@ feudal_governments = {
 		## Modifiers
 		court_size_modifier = 15
 		vassal_limit = 15
+		aggression = -0.5
+		max_liege_levy = -0.5
+		max_liege_tax = -0.5
 	}
 	bureaucratic_government = {
 		preferred_holdings = { CASTLE }
@@ -606,6 +614,7 @@ feudal_governments = {
 
 		barons_need_dynasty = yes
 		free_retract_vassalage = yes
+		marriage_ignore_religion = yes
 
 		#No free levies in offensive war
 
@@ -622,8 +631,14 @@ feudal_governments = {
 		## Modifiers
 		court_size_modifier = 20
 		vassal_limit = 15
+		min_vassal_tax = -0.2
+		min_vassal_levy = -0.2
+		max_vassal_tax = 0.3
+		max_vassal_levy = 0.3
+		commanders = -2
 		character_modifier = {
 			stewardship = 3
+			learning = 1
 		}
 	}
 	bureaucratic_muslim_government = {
@@ -690,6 +705,7 @@ feudal_governments = {
 		allows_matrilineal_marriage = no
 		free_retract_vassalage = yes
 		marriage_ignore_religion = yes
+		
 
 		free_levies_in_offensive_war = no # Took away the hardcoded stuff for muslims where they could raise levies without pissing off vassals if in an offensive war.
 
@@ -701,6 +717,7 @@ feudal_governments = {
 		gets_religion_opinion_penalties = no
 		gives_religion_opinion_penalties = no
 		can_be_granted_kingdoms_and_empires_by_other_government = no
+		free_retract_vassalage = yes
 		
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
@@ -710,8 +727,13 @@ feudal_governments = {
 		## Modifiers
 		court_size_modifier = 20
 		vassal_limit = 15
+		min_vassal_tax = -0.4
+		min_vassal_levy = -0.4
+		max_vassal_tax = 0.4
+		max_vassal_levy = 0.4
+		commanders = -2
 		character_modifier = {
-			stewardship = 2
+			stewardship = 3
 			learning = 1
 		}
 	}
@@ -812,5 +834,60 @@ feudal_governments = {
 		
 		## Modifiers
 		court_size_modifier = 15
+	}
+	white_martyr_government = {
+		preferred_holdings = { CASTLE TEMPLE }
+		allowed_holdings = { 
+			CASTLE 
+			TEMPLE
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			bureaucratic_government
+			bureaucratic_muslim_government
+			theocracy_government
+			feudal_government
+			ghazi_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		frame_suffix = "_theocraticfeudal"
+		potential = {
+			religion = insular
+			is_patrician = no
+		}
+		
+		vassal_call_to_arms  = {
+			bureaucratic_government
+			bureaucratic_muslim_government
+			theocracy_government
+			feudal_government
+			ghazi_government
+			white_martyr_government
+		}
+		
+		color = { 64 64 64 }
+		
+		uses_piety_for_law_change = yes
+		dukes_called_kings = yes
+		barons_need_dynasty = yes
+		ignores_de_jure_laws = yes
+		can_imprison_without_reason = yes 
+
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 600
+		## Modifiers
+		court_size_modifier = 10
+		min_vassal_tax = 0.1
+		aggression = -2
 	}
 }
