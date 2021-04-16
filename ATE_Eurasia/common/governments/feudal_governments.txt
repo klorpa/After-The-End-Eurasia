@@ -36,15 +36,17 @@ feudal_governments = {
 				NOT = {religion_group = muslim}
 				AND = {
 					religion = ruhi
-					capital_scope = {OR = {
-						region = custom_western_europe
-						region = world_scandinavia
-					}}
+					OR = {
+						capital_scope = {region = custom_western_europe}
+						capital_scope = {region = world_scandinavia}
+					}
 				}
 			}
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = bureaucratic_government }
 			NOT = { is_government_potential = order_government }
+			NOT = { is_government_potential = white_martyr_government }
+			NOT = { is_government_potential = confederation_government }
 			NAND = { 
 				culture_group = tibetan
 				religion_group = buddhist_group
@@ -495,7 +497,6 @@ feudal_governments = {
 		min_vassal_levy = -0.5
 		
 	}
-       
 	confederation_government = {
 		preferred_holdings = { CASTLE CITY }
 		allowed_holdings = {
