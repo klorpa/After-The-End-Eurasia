@@ -1056,3 +1056,40 @@ d_mariavite_rome = {
 		Leo Lucius Marcellus Marinus Martinus Maximilianus Nicolaus Paschalis Paulus Pelagius Pius Sarbelus Sergius Silvester Sixtus Stephanus Theodorus Thomas Titus Urbanus Victor Xavierus
 	}
 }
+
+
+d_esztergom_primacy = {
+	color={ 255 249 198 }
+	color2={ 220 220 0 }
+	
+	capital = 2631 # Esztergom
+	
+	title = "PRIMAS"
+	foa = "PRIMAS_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = coronite
+	
+	religion = coronite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+
+	assimilate = no
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+
+	dignity = 200
+	
+	# Regnal names
+	male_names = {
+		Agapetus Alexander Aloisius Anastasius Anscharius Antonius Benedictus Bonifatius Caelestinus Carolus Callixtus Clemens Damasus Damianus Dominicus Eduardus Engelmarus Eugenius 
+		Felix Franciscus Franciscus Frumentius Gelasius Gregorius Hadrianus Hyppolitus Honorius Iannus Ianuarius Ignatius Iustinianus Innocentius Ioannes "Ioannes Paulus" Iosephus Julius 
+		Leo Lucius Laurentius Ladislaus Marcellus Marinus Martinus Macarius Maximilianus Nicolaus Paschalis Paulus Pelagius Petrus Pius Sarbelus Sebastianus Seraphinus Sergius Silvester Sixtus Stephanus Theodorus Thomas Titus Urbanus Victor Xavierus
+	}
+}
