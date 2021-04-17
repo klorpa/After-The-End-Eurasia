@@ -235,8 +235,8 @@
 	trait = gregarious
 	trait = erudite
 	trait = proud
-	2610.11.2 = { birth=yes }
-	2630.1.1 = { add_spouse = 3603012 }
+	2630.11.2 = { birth=yes }
+	2640.1.1 = { add_spouse = 3603012 }
 }
 3603021 = { 
 	name = "Kawkab"
@@ -244,8 +244,14 @@
 	culture = masri
 	religion = sunni
 	female = yes
+	trait = grey_eminence
 	trait = attractive
-	2610.11.2 = { birth=yes }
+	trait = hafiz
+	trait = musician
+	trait = gregarious
+	trait = devout
+	trait = trusting
+	2630.11.2 = { birth=yes }
 }
 3603022 = { 
 	name = "Asmahan"
@@ -255,8 +261,8 @@
 	female = yes
 	father = 3603020
 	mother = 3603021
-	trait = attractive
-	2635.11.2 = { birth=yes }
+	trait = attractive	
+	2655.11.2 = { birth=yes }
 }
 3603023 = { 
 	name = "Adel"
@@ -265,11 +271,7 @@
 	religion = sunni
 	father = 3603020
 	mother = 3603021
-	trait = fortune_builder
-	trait = gregarious
-	trait = ambitious
-	trait = shrewd
-	2639.11.2 = { birth=yes }
+	2659.11.2 = { birth=yes }
 }
 3603024 = { #Count of Kafr al-Sheikh
 	name = "Muhammad"
@@ -397,7 +399,7 @@
 	trait = gluttonous
 	2630.11.2 = { birth=yes }
 }
-3603035 = { #the General
+3603035 = { #
 	name = "Rashad"
 	dynasty = 1912035 #Thabet
 	culture = masri
