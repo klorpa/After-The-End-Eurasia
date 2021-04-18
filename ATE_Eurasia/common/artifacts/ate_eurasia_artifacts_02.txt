@@ -3,8 +3,9 @@ holy_crown = {
 	learning = 1
 	diplomacy = 1
 	vassal_opinion = 5
-	coronite_opinion = 6
-	hungarian_opinion = 2
+	coronite_opinion = 10
+	magyar_opinion = 5
+	monthly_character_prestige = 0.75
 	quality = 4
 	flags = { jewelry crown_jewel christian }
 	active = {
@@ -18,4 +19,25 @@ holy_crown = {
 	}
 	stacking = no
 	picture = "GFX_sacra_corona"
+}
+
+lehels_horn = {
+	martial = 2
+	diplomacy = 1
+	nepmese_opinion = 5
+	nepmese_reformed_opinion = 5
+	monthly_character_prestige = 0.25
+	land_morale = 0.25
+	combat_rating = 5
+	quality = 3
+	flags = { nepmese ceremonial_weapon combat_weapon pagan }
+	active = {
+		is_adult = yes
+	}
+	allowed_gift = {
+		always = no
+	}
+	stacking = no
+	slot = ceremonial_weapon
+	picture = "GFX_lehels_horn"
 }

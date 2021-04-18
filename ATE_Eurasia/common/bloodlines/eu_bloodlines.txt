@@ -32,34 +32,6 @@ ottoman_emperor_female = {
 	}
 }
 
-
-
-toldi_blood = { #Toldi Blood
-	magyar_opinion = 5
-	west_slavic_opinion = 5
-	monthly_character_piety = 0.2
-	monthly_character_prestige = 0.25
-	bloodline_effect_great_heroes_appear = 1
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_placeholder_symbol_2
-	flags = { historical_bloodline }
-}
-feherlofi_blood = { #Blood of the White Mare
-	nepmese_opinion = 7
-	monthly_character_piety = 0.25
-	monthly_character_prestige = 0.2
-	bloodline_effect_mystic = 1
-	combat_rating = 4
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_horse
-	flags = { historical_bloodline }
-	active = {
-		religion = nepmese
-	}
-}
-
 napoleon_bloodline = {
 	picture = GFX_bloodlines_symbol_napoleon
 	inheritance = patrilineal
@@ -70,4 +42,7 @@ napoleon_bloodline = {
 	monthly_character_prestige = 0.25
 	bloodline_effect_one_invasion = 1
 	flags = { created_bloodline bloodline_ambition bloodline_great_conquerors bloodline_napoleon }
+	active = {
+		always = yes
+	}
 }
