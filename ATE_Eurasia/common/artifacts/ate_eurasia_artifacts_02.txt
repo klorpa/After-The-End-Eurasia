@@ -5,8 +5,9 @@ holy_crown = {
 	vassal_opinion = 5
 	coronite_opinion = 10
 	magyar_opinion = 5
-	monthly_character_prestige = 0.75
-	quality = 4
+	monthly_character_prestige = 1
+	monthly_character_piety = 1
+	quality = 5
 	flags = { jewelry crown_jewel christian }
 	active = {
 		OR = {
@@ -26,7 +27,7 @@ lehels_horn = {
 	diplomacy = 1
 	nepmese_opinion = 5
 	nepmese_reformed_opinion = 5
-	monthly_character_prestige = 0.25
+	monthly_character_prestige = 0.5
 	land_morale = 0.25
 	combat_rating = 5
 	quality = 3
@@ -40,4 +41,84 @@ lehels_horn = {
 	stacking = no
 	slot = ceremonial_weapon
 	picture = "GFX_lehels_horn"
+}
+
+imperial_laurel_wreath = {
+	learning = 4
+	neuhumanist_opinion = 5
+	monthly_character_prestige = 1
+	monthly_character_piety = 1
+	quality = 5
+	flags = { neuhumanist crown_jewel jewelry }
+	active = {
+		religion = neuhumanist
+		has_landed_title = e_europa
+	}
+	allowed_gift = {
+		always = no
+	}
+	stacking = no
+	slot = crown
+	picture = "GFX_europa_laurel"
+}
+
+swabian_crown = {
+	learning = 4
+	vassal_opinion = 5
+	swabian_opinion = 5
+	alsatian_opinion = 5
+	monthly_character_prestige = 1
+	monthly_character_piety = 0.5
+	short_reign_length = -2
+	quality = 4
+	flags = { christian crown_jewel jewelry }
+	active = {
+		is_adult = yes
+		religion_group = christian
+	}
+	allowed_gift = {
+		always = no
+	}
+	stacking = no
+	slot = crown
+	picture = "GFX_swabian_crown"
+}
+
+bavarian_orb = {
+	stewardship = 1
+	church_opinion = 5
+	bavarian_opinion = 5
+	monthly_character_prestige = 1
+	monthly_character_piety = 1
+	quality = 4
+	flags = { christian scepter orb jewelry }
+	active = {
+		is_adult = yes
+		religion_group = christian
+	}
+	allowed_gift = {
+		always = no
+	}
+	stacking = no
+	slot = scepter
+	picture = "GFX_bavarian_orb"
+}
+
+amber_diadem = {
+	stewardship = 2
+	baltic_opinion = 5
+	monthly_character_prestige = 1.5
+	monthly_character_piety = 1.5
+	quality = 5
+	flags = { baltic crown_jewel jewelry }
+	active = {
+		is_adult = yes
+		is_feudal = yes
+	}
+	allowed_gift = {
+		always = no
+	}
+	stacking = no
+	slot = crown
+	picture = "GFX_amber_diadem"
 }

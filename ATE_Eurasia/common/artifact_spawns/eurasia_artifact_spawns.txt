@@ -62,3 +62,87 @@ lehels_horn = {
 		}
 	}
 }
+imperial_laurel_wreath = {
+	max_amount = 1
+	spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+	
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			has_landed_title = e_europa
+		}
+	}
+	artifacts = {
+		imperial_laurel_wreath = {
+			value = 1
+		}
+	}
+}
+swabian_crown = {
+	max_amount = 1
+	spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+	
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			has_landed_title = k_landle
+		}
+	}
+	artifacts = {
+		swabian_crown = {
+			value = 1
+		}
+	}
+}
+bavarian_orb = {
+	max_amount = 1
+	spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+	
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			has_landed_title = k_bavaria
+		}
+	}
+	artifacts = {
+		bavarian_orb = {
+			value = 1
+		}
+	}
+}
+amber_diadem = {
+	max_amount = 1
+	spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+	
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			has_landed_title = e_baltic
+		}
+	}
+	artifacts = {
+		amber_diadem = {
+			value = 1
+		}
+	}
+}
