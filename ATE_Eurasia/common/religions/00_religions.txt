@@ -3651,6 +3651,45 @@ buddhist_group = {
 		religious_clothing_head = 10
 		religious_clothing_priest = 10
 	}
+	milejiao = {
+		graphical_culture = chinesegfx
+
+		icon = 49
+		heresy_icon = 49
+		
+		parent = mahayana
+		
+		color = { 192 192 192 }
+		
+		scripture_name = MAHAYANA_SUTRAS
+		priest_title = B_BHIKSHU
+		
+		high_god_name = GOD_DHAMA
+		
+		god_names = {
+			 GOD_BUDDHA GOD_BODDHISATTVA GOD_AVALOKITESHVARA GOD_AMITABHA
+		}
+		
+		evil_god_names = {
+			NARAKA MARA
+		}
+		
+		piety_name = KARMA
+		character_modifier = { learning = 2 }
+		short_reign_opinion_year_mult = 0
+		
+		intermarry = eastern
+		
+		feminist = yes
+		female_temple_holders = yes
+		can_grant_divorce = yes
+		castes = yes
+		priests_can_inherit = no
+		can_retire_to_monastery = yes 
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+	}
 	gelugpa = {
 		graphical_culture = tibetangfx
 
