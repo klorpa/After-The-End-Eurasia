@@ -1093,36 +1093,3 @@ d_esztergom_primacy = {
 		Leo Lucius Laurentius Ladislaus Marcellus Marinus Martinus Macarius Maximilianus Nicolaus Paschalis Paulus Pelagius Petrus Pius Sarbelus Sebastianus Seraphinus Sergius Silvester Sixtus Stephanus Theodorus Thomas Titus Urbanus Victor Xavierus
 	}
 }
-
-d_sacerdote = {
-	color = { 0.9 0.9 0.0 }
-	color2 = { 1.0 1.0 1.0}
-	
-	capital = 220 # Seville
-	
-	title = "SACERDOTE"
-	foa = "SACERDOTE"
-	
-	dignity = 1000
-	
-	religion = penitant
-	controls_religion = penitant
-
-	primary = yes
-	short_name = yes
-	dynasty_title_names = no
-	
-	culture = andalusian
-	
-	landless = yes
-	holy_order = yes
-
-	monthly_income = 10
-
-	mercenary_type = d_sacerdote_composition
-
-	
-	allow = {
-		religion = cristo_rey
-	}
-}
