@@ -2,8 +2,223 @@ e_ethiopia = {
 	color={ 200 34 94 }
 	color2={ 255 255 20 }
 	
-	capital = 3062 #Khartoum
+	capital = 3105 #Bahir Dar
 			
+	k_amhara = {
+		color={ 210 216 33 }
+		color2={ 255 255 255 }
+
+		capital = 3105 #Bahir Dar
+			
+		d_amhara = {
+			color={ 243 210 22 }
+			color2={ 255 255 255 }
+
+			capital = 3105 #Bahir Dar
+			
+			c_bahir_dar = {
+				color={ 189 199 21 }
+				color2={ 255 255 255 }
+					
+				b_bahir_dar = {}
+				b_adet = {}
+				b_mer_awi = {}
+				b_sheba = {}
+				b_bure = {}
+				b_finote_selam = {}
+				b_durbete = {}
+			}
+			c_metekel = {
+				color={ 154 159 132 }
+				color2={ 255 255 255 }
+					
+				b_gigil_beles = {}
+				b_manbuk = {}
+				b_bulen = {}
+				b_dibate = {}
+				b_abu_ramlah = {}
+				b_genete_mariam = {}
+				b_mankush = {}
+			}
+			c_misraq_gojjam = {
+				color={ 243 222 13 }
+				color2={ 255 255 255 }
+					
+				b_debre_markos = {}
+				b_bichena = {}
+				b_debre_werq = {}
+				b_mota = {}
+				b_dima = {}
+				b_digua_tsion = {}
+				b_ginde_weyin = {}
+			}
+			c_semien_wollo = {
+				color={ 199 125 52 }
+				color2={ 255 255 255 }
+					
+				b_woldiya = {}
+				b_lalibela = {}
+				b_muja = {}
+				b_mersa = {}
+				b_hara = {}
+				b_filakit_gereger = {}
+				b_kone = {}
+			}
+			c_debub_wollo = {
+				color={ 247 187 10 }
+				color2={ 255 255 255 }
+					
+				b_dessie = {}
+				b_hayq = {}
+				b_kombolcha = {}
+				b_mekaneselam = {}
+				b_wuchale = {}
+				b_kelala = {}
+				b_tita = {}
+			}
+		}
+		d_gondar = {
+			color={ 175 189 151 }
+			color2={ 255 255 255 }
+
+			capital = 3072 #Gondar
+			
+			c_gondar = {
+				color={ 226 243 123 }
+				color2={ 255 255 255 }
+					
+				b_gondar = {}
+				b_azezo = {}
+				b_aykel = {}
+				b_dabat = {}
+				b_debark = {}
+				b_tekeldengy = {}
+				b_gorgara = {}
+			}
+			c_metema = {
+				color={ 201 244 51 }
+				color2={ 255 255 255 }
+					
+				b_metema = {}
+				b_maganan = {}
+				b_hallal_sahr = {}
+				b_sancaho = {}
+				b_bodela = {}
+				b_shawira = {}
+				b_delgi = {}
+			}
+			c_wag_hemra = {
+				color={ 179 185 33 }
+				color2={ 255 255 255 }
+					
+				b_sekota = {}
+				b_irde = {}
+				b_zoyo = {}
+				b_amdework = {}
+				b_salaise = {}
+				b_wag = {}
+				b_albeta = {}
+			}
+			c_debub_gondar = {
+				color={ 222 223 196 }
+				color2={ 255 255 255 }
+					
+				b_debre_tabor = {}
+				b_wereta = {}
+				b_arb_gebaya = {}
+				b_addis_zemen = {}
+				b_wegeda = {}
+				b_ebenat = {}
+				b_amba_same = {}
+			}
+		}
+		d_tigray = {
+			color={ 178 241 19 }
+			color2={ 255 255 255 }
+
+			capital = 3075 #Mekele
+			
+			c_shire = {
+				color={ 233 195 11 }
+				color2={ 255 255 255 }
+					
+				b_shire = {}
+				b_shiraro = {}
+				b_yirga = {}
+				b_adi_dairo = {}
+				b_inda_aba_guna = {}
+				b_gelila = {}
+				b_enda_ras = {}
+			}
+			c_mekele = {
+				color={ 242 243 101 }
+				color2={ 255 255 255 }
+					
+				b_mekele = {}
+				b_aksum = {}
+				b_adigrat = {}
+				b_wikro = {}
+				b_adigudem = {}
+				b_kola_tembien = {}
+				b_alamata = {}
+			}
+		}
+		d_afar = {
+			color={ 216 233 39 }
+			color2={ 255 255 255 }
+
+			capital = 3080 #Semera
+			
+			c_afrera = {
+				color={ 245 236 78 }
+				color2={ 255 255 255 }
+					
+				b_abala = {}
+				b_dalol = {}
+				b_adat_cussra = {}
+				b_agherri = {}
+				b_mabra = {}
+				b_assafoca = {}
+				b_maglalla = {}
+			}
+			c_semera = {
+				color={ 186 202 54 }
+				color2={ 255 255 255 }
+					
+				b_semera = {}
+				b_dubti = {}
+				b_logia = {}
+				b_asaita = {}
+				b_eboba = {}
+				b_halli = {}
+				b_eli_dar = {}
+			}
+			c_kelewina = {
+				color={ 181 155 13 }
+				color2={ 255 255 255 }
+					
+				b_kelewina = {}
+				b_dibina = {}
+				b_sifani = {}
+				b_teru = {}
+				b_chercher = {}
+				b_dirmana_debeyra = {}
+				b_hida = {}
+			}
+			c_argobba = {
+				color={ 179 185 33 }
+				color2={ 255 255 255 }
+					
+				b_debre_berhan = {}
+				b_ankoba = {}
+				b_kemise = {}
+				b_shewa_robit = {}
+				b_debre_sina = {}
+				b_gewana = {}
+				b_alem_ketema = {}
+			}
+		}
+	}
 	k_eritrea = {
 		color={ 55 153 158 }
 		color2={ 255 255 255 }
@@ -52,18 +267,13 @@ e_ethiopia = {
 				b_elabered = {}
 				b_sela = {}
 			}
-			c_afabet = {
-				color={ 95 176 243 }
-				color2={ 255 255 255 }
-					
-				b_afabet = {}
-				b_karora = {}
-				b_nakfa = {}
-				b_karora = {}
-				b_ghizghiza = {}
-				b_afchewa = {}
-				b_alghiena = {}
-			}
+		}
+		d_keyih_bahri = {
+			color={ 51 212 223 }
+			color2={ 255 255 255 }
+
+			capital = 3094 #Bosaso
+			
 			c_massawa = {
 				color={ 34 179 189 }
 				color2={ 255 255 255 }
@@ -99,6 +309,18 @@ e_ethiopia = {
 				b_halib = {}
 				b_beylul = {}
 				b_dochtumo = {}
+			}
+			c_afabet = {
+				color={ 95 176 243 }
+				color2={ 255 255 255 }
+					
+				b_afabet = {}
+				b_karora = {}
+				b_nakfa = {}
+				b_karora = {}
+				b_ghizghiza = {}
+				b_afchewa = {}
+				b_alghiena = {}
 			}
 		}
 	}
@@ -328,6 +550,18 @@ e_ethiopia = {
 				b_tuli_guled = {}
 				b_gursum = {}
 				b_handew = {}
+			}
+			c_sitti = {
+				color={ 123 198 187 }
+				color2={ 255 255 255 }
+					
+				b_shinile = {}
+				b_hadigale = {}
+				b_biki = {}
+				b_aysha = {}
+				b_asbuli = {}
+				b_erer = {}
+				b_jaldessa = {}
 			}
 		}
 	}
