@@ -122,3 +122,24 @@ amber_diadem = {
 	slot = crown
 	picture = "GFX_amber_diadem"
 }
+
+crown_windsor = { 
+	monthly_character_prestige = 1.0
+	monthly_character_piety = 1.0
+	stewardship = 2
+	diplomacy = 2
+	vassal_opinion = 10
+	quality = 5
+	active = { 
+		has_landed_title = e_united_kingdom
+		is_feudal = yes
+	}
+	flags = { unique crown jewelry crown_jewel }
+	picture = "GFX_crown_windsor"
+	slot = crown
+	stacking = no
+	indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}

@@ -117,54 +117,54 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
-	#immediate = {
-		#if = {
-			#limit = {
-				#ai = no
-			#}
-			#set_character_flag = achievement_legacy_of_the_sublime_state
-		#}
-	#}
+	immediate = {
+		if = {
+			limit = {
+				ai = no
+			}
+			set_character_flag = achievement_legacy_of_albion
+		}
+	}
 	
 	option = {
 		name = EVTOPTA_britain_100
 		add_trait = fount_of_honour
 		give_nickname = nick_gloriana
-		# custom_tooltip = { text = tooltip_forge_pahalavi_crown }
-			# hidden_tooltip = {
-				# add_artifact = crown_pahlavi
-				# new_artifact = {
-					# set_name = crown_pahlavi_name
-				# }
-			# }
-			# if = {
-				# limit = {
-					# is_female = yes
-					# has_dlc = "Holy Fury"
-				# }
-				# create_bloodline = {
-					# type = saoshyant_female
-				# }
-				# new_bloodline = {
-					# set_description = "bloodline_desc_saoshyant"
-				# }
-			# }
-			# if = {
-				# limit = {
-					# is_female = no
-					# has_dlc = "Holy Fury"
-				# }
-				# create_bloodline = {
-					# type = saoshyant_male
-				# }
-				# new_bloodline = {
-					# set_description = "bloodline_desc_saoshyant"
-				# }
-			# }
+		 custom_tooltip = { text = tooltip_forge_windsor_crown }
+			 hidden_tooltip = {
+				 add_artifact = crown_windsor
+				 new_artifact = {
+					 set_name = crown_windsor_name
+				 }
+			 }
+			 if = {
+				 limit = {
+					 is_female = yes
+					 has_dlc = "Holy Fury"
+				 }
+				 create_bloodline = {
+					 type = glorian_queen
+				 }
+				 new_bloodline = {
+					 set_description = "bloodline_desc_glorian"
+				 }
+			 }
+			 if = {
+				 limit = {
+					 is_female = no
+					 has_dlc = "Holy Fury"
+				 }
+				 create_bloodline = {
+					 type = glorian_king
+				 }
+				 new_bloodline = {
+					 set_description = "bloodline_desc_glorian"
+				 }
+			 }
 	}
 }
 
-# Informed about Restoration of the britain Empire
+# Informed about Restoration of the Empire of the United Kingdom
 narrative_event = {
 	id = britain.101
 	title = EVTNAMEbritain.101
@@ -211,7 +211,7 @@ narrative_event = {
 	}
 }
 
-# Sultan Khan Trait Lost
+# Fount of Honour Trait Lost
 character_event = {
 	id = britain.103
 	desc = EVTDESCbritain.103
@@ -233,7 +233,7 @@ character_event = {
 	}
 }
 
-#On_death Sultan Khan Trait inheritance
+#On_death Fount of Honour Trait inheritance
 character_event = {
 	id = britain.104
 	hide_window = yes
