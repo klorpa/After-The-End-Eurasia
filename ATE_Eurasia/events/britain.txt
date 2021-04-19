@@ -1,4 +1,4 @@
-# High Church, and other British events
+# High Church, Glorian, and other British events
 namespace = britain
 
 character_event = {
@@ -106,5 +106,170 @@ character_event = {
 			modifier = { factor = 2	learning = 5 }
 			modifier = { factor = 2	diplomacy = 5 }
 		}
+	}
+}
+
+narrative_event = {
+	id = britain.100
+	title = EVTNAME_britain_100
+	desc =  EVTDESC_britain_100
+	picture = GFX_uk_restored
+	
+	is_triggered_only = yes
+	
+	#immediate = {
+		#if = {
+			#limit = {
+				#ai = no
+			#}
+			#set_character_flag = achievement_legacy_of_the_sublime_state
+		#}
+	#}
+	
+	option = {
+		name = EVTOPTA_britain_100
+		add_trait = fount_of_honour
+		give_nickname = nick_gloriana
+		# custom_tooltip = { text = tooltip_forge_pahalavi_crown }
+			# hidden_tooltip = {
+				# add_artifact = crown_pahlavi
+				# new_artifact = {
+					# set_name = crown_pahlavi_name
+				# }
+			# }
+			# if = {
+				# limit = {
+					# is_female = yes
+					# has_dlc = "Holy Fury"
+				# }
+				# create_bloodline = {
+					# type = saoshyant_female
+				# }
+				# new_bloodline = {
+					# set_description = "bloodline_desc_saoshyant"
+				# }
+			# }
+			# if = {
+				# limit = {
+					# is_female = no
+					# has_dlc = "Holy Fury"
+				# }
+				# create_bloodline = {
+					# type = saoshyant_male
+				# }
+				# new_bloodline = {
+					# set_description = "bloodline_desc_saoshyant"
+				# }
+			# }
+	}
+}
+
+# Informed about Restoration of the britain Empire
+narrative_event = {
+	id = britain.101
+	title = EVTNAMEbritain.101
+	desc = EVTDESCbritain.101
+	picture = GFX_uk_restored
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAbritain.101
+		trigger = {
+			NOT = { has_landed_title = e_europa }
+		}
+	}
+	option = {
+		name = EVTOPTBbritain.101
+		trigger = {
+			has_landed_title = e_europa
+		}
+		prestige = -500
+	}
+}
+
+narrative_event = {
+	id = britain.102
+	title = EVTNAMEbritain.102
+	desc = EVTDESCbritain.102
+	picture = GFX_uk_restored
+	
+	only_playable = yes
+	has_global_flag = uk_restored
+	
+	trigger = {
+		has_landed_title = e_united_kingdom
+		NOT = { trait = fount_of_honour }
+	}
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = EVTOPTAbritain.45
+		add_trait = fount_of_honour
+	}
+}
+
+# Sultan Khan Trait Lost
+character_event = {
+	id = britain.103
+	desc = EVTDESCbritain.103
+	picture = GFX_uk_restored
+	
+	has_global_flag = uk_restored
+		
+	trigger = {
+		trait = fount_of_honour
+		NOT = { has_landed_title = e_united_kingdom }
+		is_alive = yes
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAbritain.46
+		remove_trait = fount_of_honour
+	}
+}
+
+#On_death Sultan Khan Trait inheritance
+character_event = {
+	id = britain.104
+	hide_window = yes
+	
+	only_playable = yes
+	has_global_flag = uk_restored
+	
+	trigger = {
+		has_landed_title = e_united_kingdom
+	}
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		e_united_kingdom = { current_heir = { narrative_event = { id = britain.102 days = 2 } } }
+	}
+}
+
+#On_title_usurped Sultan Khan Trait inheritance
+character_event = {
+	id = britain.105
+	hide_window = yes
+	
+	only_playable = yes
+	has_global_flag = uk_restored
+	
+	trigger = {
+		FROM = { title = e_united_kingdom }
+		NOT = { trait = fount_of_honour }
+	}
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		ROOT = { character_event = { id = britain.102 days = 2 } }
 	}
 }
