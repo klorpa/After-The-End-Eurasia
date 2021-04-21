@@ -199,9 +199,9 @@ maghrebi = {
 		color = { 0.92 0.77 0.25 }
 
 		male_names = {
-			Abbas Abdallah Abdel Abdelkader_Abdul-Qadir Abir Achraf_Ashraf Adam Adil Adnen Afef Ahmed Akram Ala Ali Amal Amine_Amin Amir Ammar Anas Anis Anouar_Anwar Atef Aymen_Ayman Aziz 
-			Bassem Bechir Belkacem Ben Béji Bilel Brahim_Abraham 
-			Chiraz_Shiraz Chokri_Shukri 
+			Abbas_Abbas Abdallah_Abdullah Abd-Allah_Abdullah Abdel Abdel-Hamid_Abdulhamid Abdelkader_Abdulqadir Abdul-Rahman_Abdulrahman Abdul-Sattar Achraf_Ashraf Adam Adil Adnen Ahmed Akram Ala Ali Amine_Amin Amir Ammar Anas Anis Anouar_Anwar Atef Aymen_Ayman Aziz 
+			Bassem Bechir Belkacem Béji Bilel_Bilal Brahim_Abraham 
+			Chokri_Shukri 
 			Dali Dhouha 
 			"El Bashir" "El Hadi" "El Moncef" Eltaher Elyes_Elias Emad_Imad Ezz Ezzeddine 
 			Faisal Faouzi_Fawzi Farhat_Ferhat Farid Fathi Fawzi Fethi Firas Foued 
@@ -209,12 +209,12 @@ maghrebi = {
 			Habib Hafedh_Hafez Hamdi Hamed_Hamid Hammadi Hamza_Hamza Hassen_Hasan Hatem Haythem_Haytham Hedi Helmi Hichem_Hisham Houssem Hussein_Husayn 
 			Ibrahim Ikram Imed Ismail Issam 
 			Jalel_Jalal Jamel_Jamal 
-			Kais Kamal Karim Khaled_Khalid Khalifa Khalil Khamis
+			Kais Kamal Karim Khaled_Khalid Khalifa Khalil Khmayes
 			Lassaâd Lotfi 
 			Mabrouk Mahdi Maher Mahmoud_Mahmud Majdi Makram Malek_Malik Mansour_Mansur Marwen_Marwan Mehdi_Mahdi Mehrez Moez Mohamed_Muhammad Mohsen Mokhtar_Mukhtar Moncef_Munsif Mondher_Mundir Mongi Mostafa_Mustafa Mouldi Mounir_Munir Mourad_Murad 
-			Nabil Nader Naguib Nejib Nidhal Nizar "Nour El Din" 
+			Nabil Nader Nejib Nidhal Nizar "Nour El Din" 
 			Omar Oussama_Usama 
-			Radhouane Rafik Ramzi Raouf_Rauf Rashid Reda Riadh Ridha Rihab 
+			Radhouane Rafik Ramzi Raouf_Rauf Reda Riadh Ridha Rshid_Rashid 
 			Saad Saber Sabri Sadiq Sadok Sahbi Said Saif Salah Saleh Salem_Salim Salim Sameh Sami Slim_Salim Samir Skander_Alexander Sofiene_Sufyan 
 			Taher Tarek Tawfiq 
 			Wael Wahid Wajdi Walid Wassim Wissem 
@@ -222,9 +222,9 @@ maghrebi = {
 			Zied_Ziad Zuhair 
 		}
 		female_names = {
-			Ahlem Aida Aisha Amani Amna Amara Amel Ameni Amina Amira Anissa Asma Awatef Aziza Azza 
+			Abir Afef Ahlem Aida Aisha_Aisha Amal Amani Amna Amara Amel Ameni Amina Amira Anissa Asma Awatef Aziza Azza 
 			Basma Besma Boutheina 
-			Chaima 
+			Chaima Chiraz_Shiraz 
 			Dalila Dorra Dorsaf 
 			Emna Eya 
 			Faiza Farah Faten Fathia Fatima Fatma_Fatima Fawzia 
@@ -237,7 +237,7 @@ maghrebi = {
 			Mabrouka Maha Malika Manel Mariam_Mary Marwa Meher Menia Meriem_Mary Mofaida Mona Monia Mouna Mounira 
 			Nabila Nada Nadia Nahla Naima Najah Najat Najia Najla Najwa Nawel Neila Nesrine Nouha Nour_Noor Noura 
 			Olfa Ons 
-			Rabeb Rachida Radhia Rafika Rahma Raja Rami Rania Raoudha Rim 
+			Rabeb Rachida Radhia Rafika Rahma Raja Rami Rania Raoudha Rihab Rim 
 			Sabrine Safa Sahar Saida Salma Salwa Samar Samia Samira Saoussen Sana Sarah Sarra Senia Siham Sihem Sirine Sondes Sonia Souad Souhir Soumaya 
 			Thouraya 
 			Wafa Waseela Wided Wiem 
@@ -249,8 +249,6 @@ maghrebi = {
 		male_patronym = "ben "
 		female_patronym = "bint "
 		prefix = yes
-		
-		founder_named_dynasties = yes
 
 		pat_grf_name_chance = 30
 		mat_grf_name_chance = 10

@@ -62,6 +62,77 @@ rom = {
 		mat_grm_name_chance = 60
 		mother_name_chance = 10
 	}
+
+	calo = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.27 0.87 0.16 }
+
+		male_names = {
+			Acái Adonay Agustín_Augustine Amador Andreu_Andrew Andreu-Pere Angelo_Angel António_Anthony Aracate Artur_Arthur Atronense  
+			Bachanó_Sebastian Bají Bamqué Bandojé_Bernard Barsali Bisnajura Bostán Brono Brujalimé Bujamí_Bartholomew Bujoné 
+			Canroné Canut Carlos_Charles Cédric Ceferino Chanelar Chico Climent_Clement Corpincho Cristau_Cristopher Cristian_Christian Curcó 
+			Daniel_Daniel Diego_James Disqueró Django Dorado 
+			Emilio_Aemilius 
+			Faustino Fraco_Francis Francisco_Francis Frugerios_Fructuós 
+			García_Garcia Gerinel 
+			Helios 
+			Inosea_Ignatius Iván_John 
+			Jacme_James Jairo Jalloul Jardani Jason Jesús_Jesus Jilé Jinoquio Joan_John Joan-António Joan-Baptista_John-Baptist Joaquín_Joachim Jordi_George Joronosco José_Joseph "José Marià" Juan_John Julio_Jules 
+			Kenji Kilian 
+			Lillac Lissandre_Alexander Livio Lombardó Louka_Luke 
+			Majoré Majoró Mandino Manfariel Manolo_Emmanuel Marcel_Marcel Marco_Mark Marià Maurici_Maurice Miguel_Michael Mitichó Mondine 
+			Nanosh_Nathan Nicolau_Nicholas Ñuntivé 
+			Orchiló Óscar_Oscar 
+			Pablo_Paul Paco Pacuaró Patchaï Pedro_Peter Pere_Peter Pipindorio Pobea 
+			Quidico 
+			Ramiro Ramón_Raymond Ricardo_Richard Roberto_Robert 
+			Salvador Santiago Simprofié 
+			Tambo Tchavolo Téji Titi Tonino_Anthony 
+			Vicente_Vincent  
+			Zaché 
+		}
+		female_names = {
+			Alba Ana_Anne Ángela_Angela Aniya Antonia_Antonia Antoñita_Antonia Ardiñipén 
+			Beatriz_Beatrice Bujoní Burjachiquí_Barbara 
+			Carmen Chachipira Chimuclaní Chucarris Ciba Cojiñí 
+			Debliá Dobastró Dojiá Dolores Dunduñí 
+			Elena_Helen Encarnación Erhatza Esperanza 
+			Francisca_Frances Furunedes 
+			Gildí Ginesa Givés_Nieves Gloria Golipén Graná Grañita Graziella 
+			Hiba 
+			Idália Indra Ineriqué Inès_Agnes Irma Isabel_Elizabeth 
+			Jahivé Jilí Josefa_Josepha 
+			Kelly Kirkila 
+			Lajariá Leonor_Eleanor Listraba Lita Lola Luísa_Louise 
+			Majaris María_Mary "María Asunción" "María Carmen" "María Concepción" "María Cruz" "María Dolores" "María Elena" "María Encarnación" "María Esperanza" "María Gloria" "María Inmaculada" "María Isabel" "María Jesús" "María Luz" "María Magdalena" "María Mercedes" Mariana_Marianne "María Nieves" "María Pilar" "María Remedios" "María Rosa" "María Teresa" "María Trinidad" "María Victoria" Mercedes Mericlén Mermeyí Micaela_Michelle Molchibé 
+			Natalia_Natalie Niña Ninine 
+			Ocán Ompión Orchilí Ostelinda 
+			Pachandra Pacuarí Pajabí Paratató Pepita Pilar Plasñí Puñiés 
+			Remedios Rosa Rosario 
+			Sabrina Santana Sara_Sarah Sardañí Satdiñela Severa Shana Silás Sonacay Suzete 
+			Tematea Teresa_Theresa Tomasa Trejú Trifuscó Trimurtí 
+			Ucho Ujaranza_Esperanza 
+			Vai_Eve Victoria_Victoria 
+			Ziboris Zujenia 
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		modifier = default_culture_modifier
+		dukes_called_kings = yes
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 60
+		mother_name_chance = 10
+	}
 	dom = {
 		graphical_cultures = { serbsouthslavicgfx }
 		
