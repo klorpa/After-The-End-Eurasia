@@ -415,7 +415,7 @@ feudal_governments = {
 		court_size_modifier = 15
 	}
        
-        ghazi_government = {
+	ghazi_government = {
 		preferred_holdings = { CASTLE }
 		allowed_holdings = { 
 			CASTLE
@@ -861,7 +861,7 @@ feudal_governments = {
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
 		}
-		frame_suffix = "_theocraticfeudal"
+		frame_suffix = "_white_martyr_government"
 		potential = {
 			religion = insular
 			is_patrician = no
@@ -876,7 +876,7 @@ feudal_governments = {
 			white_martyr_government
 		}
 		
-		color = { 64 64 64 }
+		color = { 216 205 170 }
 		
 		uses_piety_for_law_change = yes
 		dukes_called_kings = yes
