@@ -819,7 +819,10 @@ feudal_governments = {
 		frame_suffix = "_romanipen"
 		title_prefix = "romanipen_"
 		potential = {
-			culture_group = rom
+					OR = {
+					culture_group = rom
+					culture = pavee
+					}
 			is_patrician = no
 		}
 		
