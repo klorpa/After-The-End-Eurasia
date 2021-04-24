@@ -46,3 +46,26 @@ ai_pirate_trigger = {
 	}
 	NOT = { trait = content }
 }
+
+is_sufi = {
+	OR = {
+		trait = naqshbandi
+		trait = nimatullahi
+		trait = qadiri
+		trait = senussi
+		trait = shadhili
+		trait = bektashi
+		trait = galibi
+		trait = khalveti
+		trait = mevlevi
+	}
+}
+
+is_salafi_religion = {
+	OR = {
+		religion = wahhabi
+		religion = salafi
+		religion = revivalist
+		religion = deobandi
+	}
+}

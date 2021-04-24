@@ -269,7 +269,6 @@
 	mother = 3600012
 	trait = fortune_builder
 	2645.11.2 = { birth=yes }	
-	# should be married/betrothed to an egyptian royal
 }
 3600014 = {
 	name = "Chaimke"
@@ -299,13 +298,10 @@
 	female = yes
 	father = 3600011
 	mother = 3600012
-	trait = amateurish_plotter
-	2648.11.2 = { birth=yes }	
-	2664.11.2 = {
-		effect = {
-			add_lover=3600021
-		}
-	}
+	trait = intricate_webweaver
+	trait = quick
+	trait = groomed
+	2648.11.2 = { birth=yes }
 }
 3600016 = {
 	name = "Ilak" 
@@ -411,7 +407,7 @@
 	father = 3600018
 	mother = 3600019
 	2648.11.2 = { birth=yes }
-	
+	2665.1.1 = { add_spouse = 3603030 }
 }
 3600022 = {
 	name = "Fariborz"

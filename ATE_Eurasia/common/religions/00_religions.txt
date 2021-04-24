@@ -1,258 +1,6 @@
 ###ÄNSI
 
-vernacular = {
-	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
-	crusade_cb = crusade
-	playable = yes
-	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
-	
-	ai_convert_same_group = 2 # always try to convert
-	ai_convert_other_group = 2 # always try to convert
-	
-	color = { 0.2 0.8 0.8 }
-	
-	dvoeverie = {
-		graphical_culture = westerngfx
 
-		icon = 28
-		heresy_icon = 29
-		
-		color = { 0.811 0.462 0.937 }
-		
-		crusade_name = WILD_HUNT
-		use_new_crusade = yes
-		crusade_cb = new_crusade
-		
-		scripture_name = THE_BIBLE
-		priest_title = PRIEST
-		
-		high_god_name = GOD_GOD
-		
-		god_names = {
-			GOD_JESUS 
-		}
-		
-		evil_god_names = {
-			SATAN 
-		}
-		
-		can_excommunicate = yes
-		can_grant_divorce = yes
-		can_grant_invasion_cb = invasion
-		can_grant_claim = yes
-		can_call_crusade = yes
-		priests_can_inherit = no
-		allow_rivermovement = yes
-		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-		intermarry = fornsed
-		intermarry = nysed
-		intermarry = sun_king_cultist
-		intermarry = orthodox
-	}
-
-	folketro = {
-		graphical_culture = westerngfx
-
-		icon = 28
-		heresy_icon = 29
-		
-		color = { 0.8 0.3 0.3 }
-		
-		crusade_name = WILD_HUNT
-		use_new_crusade = yes
-		crusade_cb = new_crusade
-		
-		scripture_name = THE_BIBLE
-		priest_title = PRIEST
-		
-		high_god_name = GOD_HERREN
-		
-		god_names = {
-			GOD_THE_DRAGONSLAYER GOD_JESUS GOD_THE_ELVES
-		}
-		
-		evil_god_names = {
-			SATAN THE_DEVIL THE_TROLLS KRAKEN
-		}
-		
-		defensive_attrition = yes
-		
-		can_excommunicate = yes
-		can_grant_divorce = yes
-		can_grant_invasion_cb = invasion
-		can_grant_claim = yes
-		can_call_crusade = yes
-		priests_can_inherit = no
-		allow_rivermovement = yes
-		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-		intermarry = fornsed
-		intermarry = nysed
-		intermarry = sun_king_cultist
-		intermarry = lutheran
-	}
-	
-	fornsed = {
-		graphical_culture = westerngfx
-
-		icon = 28
-		heresy_icon = 29
-		
-		color = { 0.9 0.7 0.7 }
-		
-		parent = folketro
-		
-		crusade_name = WILD_HUNT
-		use_new_crusade = yes
-		crusade_cb = new_crusade
-		
-		scripture_name = THE_BIBLE
-		priest_title = PRIEST
-		
-		high_god_name = GOD_GUD
-		
-		god_names = {
-			SANTA_LUCIA SANKTE_PAR SANKT_OLAV GOD_THE_ETERNAL_KING GOD_JESUS
-		}
-		
-		evil_god_names = {
-			SATAN LUCIFER THE_DEVIL THE_TROLLS THE_HIDDEN_FOLK
-		}
-		
-		defensive_attrition = yes
-		
-		priests_can_inherit = no
-		allow_rivermovement = yes
-		can_call_crusade = no
-		feminist = yes 
-		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-		intermarry = nysed
-		intermarry = folketro
-		intermarry = lutheran 
-		intermarry = sun_king_cultist
-	}
-	
-	nysed = {
-		graphical_culture = westerngfx
-
-		icon = 28
-		heresy_icon = 29
-		
-		color = { 0.95 0.1 0.2 }
-		
-		parent = folketro
-		
-		crusade_name = WILD_HUNT
-		use_new_crusade = yes
-		crusade_cb = new_crusade
-		
-		scripture_name = THE_BIBLE
-		priest_title = FADER
-		
-		high_god_name = GOD_THE_ALLFATHER
-		
-		god_names = {
-			GOD_LUSSI GOD_THE_ALLFATHER GOD_THE_FIDDLER GOD_THE_MOUNTAIN_KING THE_DEVIL GOD_FENRIR GOD_MODER_JORD GOD_THE_ELVES
-		}
-		
-		evil_god_names = {
-			GOD_LUSSI GOD_THE_FIDDLER GOD_THE_MOUNTAIN_KING THE_DEVIL GOD_FENRIR GOD_PESTA GOD_THE_ELVES GOD_MODER_JORD
-		}
-		
-		defensive_attrition = yes
-		
-		priests_can_inherit = no
-		allow_rivermovement = yes
-		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-		
-		intermarry = folketro 
-		intermarry = fornsed 
-		intermarry = sun_king_cultist
-	}
-	
-	sun_king_cultist = {
-		graphical_culture = westerngfx
-
-		icon = 42
-		heresy_icon = 27
-		
-		color = { 0.86 0.67 0 }
-		
-		crusade_name = CRUSADE
-		use_new_crusade = yes
-		crusade_cb = new_crusade
-		
-		scripture_name = LES_LOIS_FONDAMENTALES
-		priest_title = PRIEST
-		
-		high_god_name = THE_SOLAR_GOD
-		
-		god_names = {
-			THE_SOLAR_GOD CHRIST_THE_KING THE_VIRGIN_QUEEN THE_MAID
-		}
-		
-		evil_god_names = {
-			THE_USURPER SATAN LUCIFER LE_DIABLE MARIANNE
-		}
-		
-		can_retire_to_monastery = yes
-		priests_can_inherit = no
-		allow_rivermovement = yes
-		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-		intermarry = folketro
-		intermarry = fornsed
-		intermarry = nysed
-	}
-	
-	chevalier = {
-		graphical_culture = westerngfx
-
-		icon = 42
-		heresy_icon = 27
-		
-		color = { 1 0.70 0 }
-		
-		parent = sun_king_cultist
-		
-		crusade_name = CRUSADE
-		use_new_crusade = yes
-		crusade_cb = new_crusade
-		
-		scripture_name = LES_LOIS_FONDAMENTALES
-		priest_title = PRIEST
-		
-		high_god_name = DIEU
-		
-		god_names = {
-			LES_NEUF_PREUX CHRIST_THE_KING VIERGE SAINT_ESPRIT
-		}
-		
-		evil_god_names = {
-			THE_USURPER SATAN GANELON MORDRED
-		}
-		
-		can_retire_to_monastery = yes
-		priests_can_inherit = no
-		allow_rivermovement = yes
-		feminist = yes
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-		intermarry = folketro
-		intermarry = sun_king_cultist
-		intermarry = fornsed
-		intermarry = nysed
-	}
-}
 
 pagan_group = {
 	has_coa_on_barony_only = yes
@@ -367,6 +115,81 @@ pagan_group = {
 		religious_clothing_priest = 3
 		
 		intermarry = sjotru
+		
+	}
+	adonist_reformed = {
+		graphical_culture = norsegfx
+
+		icon = 47
+		heresy_icon = 46
+		
+		color = { 20 123 123 }
+
+		high_god_name = GOD_ADONIS
+
+		god_names = {
+			GOD_DIDO GOD_BELUS GOD_BITLIS
+		}
+		evil_god_names = {
+			GOD_MOLOCH
+		}
+		
+		scripture_name = ADONISMUS
+		priest_title = SHAMAN
+		priests_can_marry = yes
+		
+		
+		allow_looting = yes 
+		allow_rivermovement = yes 
+		seafarer = yes 
+		hard_to_convert = yes		
+		max_wives = 3 
+		can_demand_religious_conversion = yes
+		allow_in_ruler_designer = no
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = lusitanian
+		intermarry = nysed
+		intermarry = folketro
+	}
+	adonist = {
+		graphical_culture = norsegfx
+
+		icon = 45
+		heresy_icon = 46
+		
+		color = { 20 123 123 }
+
+		high_god_name = GOD_ADONIS
+
+		god_names = {
+			GOD_DIDO GOD_BELUS GOD_BITLIS
+		}
+		evil_god_names = {
+			GOD_MOLOCH
+		}
+		
+		scripture_name = ADONISMUS
+		priest_title = SHAMAN
+		priests_can_marry = yes
+		reformed = adonist_reformed
+		
+		
+		allow_looting = yes 
+		allow_rivermovement = yes 
+		seafarer = yes
+		hard_to_convert = yes		
+		max_wives = 3 
+		can_demand_religious_conversion = no
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = lusitanian
+		intermarry = nysed
+		intermarry = folketro
 		
 	}
 	sjotru_reformed = {
@@ -1823,7 +1646,23 @@ christian = {
 		intermarry = barelvi
 		intermarry = nestorian
 	}
-	ezharapallikal = {
+
+}
+
+vernacular = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.2 0.8 0.8 }
+	
+	
+		ezharapallikal = {
 		graphical_culture = hindugfx
 		
 		icon = 65
@@ -1862,6 +1701,247 @@ christian = {
 		intermarry = hindu
 		intermarry = barelvi
 		intermarry = nestorian
+	}
+	
+	dvoeverie = {
+		graphical_culture = westerngfx
+
+		icon = 28
+		heresy_icon = 29
+		
+		color = { 0.811 0.462 0.937 }
+		
+		crusade_name = WILD_HUNT
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_JESUS 
+		}
+		
+		evil_god_names = {
+			SATAN 
+		}
+		
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		intermarry = fornsed
+		intermarry = nysed
+		intermarry = sun_king_cultist
+		intermarry = orthodox
+	}
+
+	folketro = {
+		graphical_culture = westerngfx
+
+		icon = 28
+		heresy_icon = 29
+		
+		color = { 0.8 0.3 0.3 }
+		
+		crusade_name = WILD_HUNT
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_HERREN
+		
+		god_names = {
+			GOD_THE_DRAGONSLAYER GOD_JESUS GOD_THE_ELVES
+		}
+		
+		evil_god_names = {
+			SATAN THE_DEVIL THE_TROLLS KRAKEN
+		}
+		
+		defensive_attrition = yes
+		
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		intermarry = fornsed
+		intermarry = nysed
+		intermarry = sun_king_cultist
+		intermarry = lutheran
+	}
+	
+	fornsed = {
+		graphical_culture = westerngfx
+
+		icon = 28
+		heresy_icon = 29
+		
+		color = { 0.9 0.7 0.7 }
+		
+		parent = folketro
+		
+		crusade_name = WILD_HUNT
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GUD
+		
+		god_names = {
+			SANTA_LUCIA SANKTE_PAR SANKT_OLAV GOD_THE_ETERNAL_KING GOD_JESUS
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL THE_TROLLS THE_HIDDEN_FOLK
+		}
+		
+		defensive_attrition = yes
+		
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		can_call_crusade = no
+		feminist = yes 
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		intermarry = nysed
+		intermarry = folketro
+		intermarry = lutheran 
+		intermarry = sun_king_cultist
+	}
+	
+	nysed = {
+		graphical_culture = westerngfx
+
+		icon = 28
+		heresy_icon = 29
+		
+		color = { 0.95 0.1 0.2 }
+		
+		parent = folketro
+		
+		crusade_name = WILD_HUNT
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		
+		scripture_name = THE_BIBLE
+		priest_title = FADER
+		
+		high_god_name = GOD_THE_ALLFATHER
+		
+		god_names = {
+			GOD_LUSSI GOD_THE_ALLFATHER GOD_THE_FIDDLER GOD_THE_MOUNTAIN_KING THE_DEVIL GOD_FENRIR GOD_MODER_JORD GOD_THE_ELVES
+		}
+		
+		evil_god_names = {
+			GOD_LUSSI GOD_THE_FIDDLER GOD_THE_MOUNTAIN_KING THE_DEVIL GOD_FENRIR GOD_PESTA GOD_THE_ELVES GOD_MODER_JORD
+		}
+		
+		defensive_attrition = yes
+		
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+		intermarry = folketro 
+		intermarry = fornsed 
+		intermarry = sun_king_cultist
+	}
+	
+	sun_king_cultist = {
+		graphical_culture = westerngfx
+
+		icon = 42
+		heresy_icon = 27
+		
+		color = { 0.86 0.67 0 }
+		
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		
+		scripture_name = LES_LOIS_FONDAMENTALES
+		priest_title = PRIEST
+		
+		high_god_name = THE_SOLAR_GOD
+		
+		god_names = {
+			THE_SOLAR_GOD CHRIST_THE_KING THE_VIRGIN_QUEEN THE_MAID
+		}
+		
+		evil_god_names = {
+			THE_USURPER SATAN LUCIFER LE_DIABLE MARIANNE
+		}
+		
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		intermarry = folketro
+		intermarry = fornsed
+		intermarry = nysed
+	}
+	
+	chevalier = {
+		graphical_culture = westerngfx
+
+		icon = 42
+		heresy_icon = 27
+		
+		color = { 1 0.70 0 }
+		
+		parent = sun_king_cultist
+		
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		
+		scripture_name = LES_LOIS_FONDAMENTALES
+		priest_title = PRIEST
+		
+		high_god_name = DIEU
+		
+		god_names = {
+			LES_NEUF_PREUX CHRIST_THE_KING VIERGE SAINT_ESPRIT
+		}
+		
+		evil_god_names = {
+			THE_USURPER SATAN GANELON MORDRED
+		}
+		
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		feminist = yes
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		intermarry = folketro
+		intermarry = sun_king_cultist
+		intermarry = fornsed
+		intermarry = nysed
 	}
 }
 

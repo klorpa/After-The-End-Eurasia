@@ -710,6 +710,7 @@ succession_laws = {
 							is_feudal = yes
 						}
 						holder_scope = { is_feudal = yes }
+						holder_scope = { government = hereditary_theocracy_government }
 					}
 				}
 				has_title_flag = alternate_byz
@@ -741,6 +742,7 @@ succession_laws = {
 							}
 						}
 					}
+					holder_scope = { government = hereditary_theocracy_government }
 				}
 			}
 			conditional_tooltip = {
@@ -1451,6 +1453,7 @@ succession_laws = {
 						is_republic = yes
 						AND = {
 							is_theocracy = yes
+							NOT = { government = hereditary_theocracy_government }
 						}
 					}
 				}
@@ -1459,6 +1462,7 @@ succession_laws = {
 						is_republic = yes
 						AND = {
 							is_theocracy = yes
+							NOT = { government = hereditary_theocracy_government }
 						}
 					}
 				}
