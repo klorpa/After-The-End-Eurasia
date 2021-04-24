@@ -1,0 +1,123 @@
+ethiopic = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { africangfx }
+
+	amhara = {
+		graphical_cultures = { africangfx }
+		
+		color = { 0.97 0.17 0.16 }
+
+		male_names = {
+			Abiyot Asfaw
+			Baheru Bekele
+			Chefchefe
+			Dagnew Daniel_Daniel Desalegn
+			Eskender_Alexander 
+			Fitsum 
+			Getachew Girma 
+			"Habte Gabriel" "Habte Giyorgis" "Habte Kristos" Hailu
+			Kassa 
+			Mekonnen Menelik Mengistu Mesfin Moges 
+			Negash 
+			Selassie 
+			Tariku Temesgen Tesfaye Tessema Tewodros_Theodore Tilahoun 
+			Woldemariam 
+			Yidnekachew Yohannes_John 
+		}
+		female_names = {
+			Abeba Addisalem Adwa Azmera 
+			Berhane Bethlehem Bezawit 
+			Debabnesh Desita 
+			Endalkachew Eyerusalem_Jerusalem 
+			Fikiri Freyhiwot 
+			Gudit 
+			Habiba Hawwa 
+			Ibsitu 
+			Manelebesh Maryam_Mary Me'erab Medferiyash Misrak 
+			Rahel_Rachel Rut_Ruth 
+			Selam 
+			Tavavich Tigist 
+			"Walatta Petros" Wetati Worknesh 
+			Yeshi 
+			Zewditu Zina 
+		}
+		modifier = default_culture_modifier
+		dukes_called_kings = yes
+
+		male_patronym = " "
+		female_patronym = " "
+		prefix = no
+	}
+
+	tigrinya = {
+		graphical_cultures = { africangfx }
+		
+		color = { 0.07 0.47 0.86 }
+
+		male_names = {
+			Aberash Abo Abraham Asefu Asmerom 
+			Bekele Belete Bethel Birhanu 
+			Debrechi Debretsion 
+			Gebremariam Gebremedhin Gebreyesus 
+			Geri Girmay Hayelnom Henok Hermon 
+			Kibrom Kiros 
+			Meabel Mebrahtom Meles Mikal 
+			Nahom 
+			Solomon 
+			Temesgen Terhas Tsegu Tsgabu 
+			Yoel_Joel 
+			Zenawi 
+		}
+		female_names = {
+			Abeba Abebech "Adis Alem" Amarech Amleset Asefu Azeb 
+			Elfnesh Emebet 
+			Fatiya Fiyori Freweyni 
+			Genet 
+			Hirity 
+			Mahelat Medhin Meri Meseret 
+			Rahel_Rachel Richel_Rachel 
+			Saba Selam Selamit Semhal Senait Sofiya 
+			Tadele Tatab Tsega Tsgerda 
+			"Walatta Petros"
+			Yirgalem Yodit 
+		}
+		modifier = default_culture_modifier
+		dukes_called_kings = yes
+	}
+	tigre = {
+		graphical_cultures = { africangfx }
+		
+		color = { 0.87 0.87 0.26 }
+
+		male_names = {
+			Abdelkadir_Abdelkader Aberra "Aberra Osman" Asfawday Awate Aziz 
+			Berekhet 
+			Dessale 
+			Eleazar 
+			Gabres Gargis 
+			Habtom Hamid_Hamid Hayat Hummed_Hamid 
+			Ibrahim_Ibrahim Idris_Idris Ismael_Ismael 
+			Mahmoud_Mahmud Mal'ak Massawa Mehbrahtu Mohamed_Muhammad 
+			Nefae 
+			Saleh Semhar Shentub Shubek 
+			Taghe 
+			Utman_Uthman 
+			Yaasin_Yasin Yemane Yonas_Jonah 
+			Zelealem Zula 
+		}
+		female_names = {
+			Afrah Aisha_Aisha Akberet Almaz Amira_Amira Asmeret Awate Ayantu 
+			Birketi 
+			Fatima_Fatima Fikadu 
+			Hadnet Hantal Hiwet Huma 
+			Kadija_Khadija 
+			Laila_Layla 
+			Menkem Milena Mulu Muna Nura 
+			Samara-zgi Samya Selam Selihom Semhar Soreya 
+			Tibereh 
+			Zebib Zeinab_Zaynab Zetaw Zufan 
+		}
+		modifier = default_culture_modifier
+		dukes_called_kings = yes
+	}
+}

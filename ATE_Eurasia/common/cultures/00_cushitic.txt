@@ -3,10 +3,98 @@ cushitic = {
 	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
 	graphical_cultures = { muslimgfx }
 	
-	somali = {
-		graphical_cultures = { sudanesegfx eastafricangfx muslimgfx }
+	oromo = {
+		graphical_cultures = { africangfx westafricangfx }
 		
-		color = { 0.2 0.2 0.1 }
+		color = { 0.47 0.48 0.61 }
+
+		male_names = {
+			Ado Ahmed_Ahmad Alemayehu Amuruu Anno Atomsa 
+			Biftuu Birru 
+			Dasta Demeksa Duqqai 
+			Goshu Gugsa Gurash Gwalu Gwangul 
+			Haylu 
+			Ibido Ibsaa Igguu 
+			Jaarraa Jawar 
+			Kasa Kuma 
+			Lemma 
+			Mar'ed Megersa 
+			Oboo 
+			Sillin 
+			Tadla 
+			"Walda Abib" 
+			"Yakrestos Zawd" Yosedeq 
+			Zawde
+		}
+		female_names = {
+			Abadan Ajame 
+			Bifani Bililee Birille 
+			Chaltu Chamie Cherit 
+			Denqenash Dissiisee 
+			Faayani 
+			Garaatoo Gonnossee Gudetu_Judith 
+			Hawwi Hawwineet 
+			Ibsituu Iftu Inba 
+			Kullani Kumii 
+			Laqech Leliftu 
+			Miheret Miyeessan 
+			Naasabbata 
+			Qantuu 
+			Selam Sena Shashe 
+			Taytu "Walatta Israel" "Walatta Petros"
+		}
+		dukes_called_kings = yes
+		modifier = default_culture_modifier
+	}
+	beja = {
+		graphical_cultures = { sudanesegfx africangfx westafricangfx }
+		
+		color = { 0.17 0.08 0.11 }
+
+		male_names = {
+			Abdallah_Abdullah "Abdel Gadif" "Abdel Karim" Adel Ahmed Al-Amin Ali
+			"Bader Eldin"
+			Esmat
+			Gely
+			Hamad Hamdan Hashim Hassan Hussain
+			Ibrahim_Abraham Idris
+			Khalil
+			Mahmoud Mohamed Musa_Moses
+			Nizar Noor
+			Omar Oshek Osman
+			Rashid
+			"Salah Eddin" Sheiba
+			Taha Tahir Taisier
+			Ustaaz
+		}
+		female_names = {
+			Aisha Amna
+			Halima
+			Mariam_Mary
+			Nayla
+			Zeinab
+		}
+		dukes_called_kings = yes
+		modifier = default_culture_modifier
+	}
+	afar = {
+		graphical_cultures = { sudanesegfx africangfx westafricangfx }
+		
+		color = { 0.97 0.18 0.51 }
+
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+		dukes_called_kings = yes
+		modifier = default_culture_modifier
+	}
+	somali = {
+		graphical_cultures = { sudanesegfx africangfx muslimgfx }
+		
+		color = { 0.25 0.54 0.87 }
 
 		male_names = {
 			Aadam_Adam Aadan_Adhan Aadangurey Abaadir Abshir Abukar_Abu-Bakr Afdhere Aleeki Amiin_Amin Axmed_Ahmed Aw Ayuub_Job 
@@ -19,11 +107,11 @@ cushitic = {
 			Ibraahim_Abraham Idiris_Idris Islaam_Islam Ismaaciil_Ishmael Isxaaq_Isaac 
 			Jaale Jaamac Jamaal_Jamal Jaylaani Jibriil_Gabriel Jimaale
 			Kaahin Kawsar Keynaan Khaalid_Khalid Khalif
-			Laadan Liibaan
+			Laadan Liibaan 
 			Macalin Madar Madoobe Magan Mahad Mahdi Mataan Maxamed_Muhammad Maxamuud_Muhammad Maxbuub Maxfuud_Mahfuz Maxmuud_Mahmud Mooge Mukhtaar_Mukhtar Mumiin Mustafa_Mustafa Muuse_Moses 
 			Nadiif Nuur_Nur Nuuradiin_Nuruddin 
-			Odowaa
-			Qaasim_Qasim Qanyare Qorane
+			Odowaa 
+			Qaasim_Qasim Qanyare Qorane 
 			Raage Raxmaan_Rahman Riyaale 
 			Saado Saalax_Salah Saalim_Salim Sacad_Saad Saciid_Said Sakaryaah_Zachary Salaad Saleebaan_Solomon Shacbaan Shariif_Sharif Sheekh_Sheikh Sheekhnuur Shire Siyaad Sufyaan_Sufyan Sugulle Suuldaan_Sultan 
 			Ugaas
@@ -52,9 +140,7 @@ cushitic = {
 			Yasmiin_Yasmin Yusuur
 			Zakiya Zara
 		}
-		
 		dukes_called_kings = yes
-
 		modifier = default_culture_modifier
 	}
 
