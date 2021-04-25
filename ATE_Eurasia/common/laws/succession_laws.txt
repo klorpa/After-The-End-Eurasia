@@ -1478,6 +1478,19 @@ succession_laws = {
 						}
 					}
 				}
+				AND = {
+					government = hereditary_theocracy_government
+					higher_real_tier_than = BARON
+					OR = {
+						religion = shiite
+						religion = haredi
+						religion = hindu
+						religion = siddhanta
+						religion = yazidi
+						religion = vaishnava
+						religion = shaktah
+					}
+				}
 			}
 			OR = {
 				is_landless_type_title = yes
