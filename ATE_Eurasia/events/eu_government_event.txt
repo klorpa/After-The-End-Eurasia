@@ -519,3 +519,29 @@ character_event = {
 		}
 	}
 }
+#fixing Succession Laws for MR and Pirate Republics (NUKE OPTION)
+character_event = {
+	id = gov.016
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		holder_scope = {
+			AND = {
+				independent = no
+				is_patrician = yes
+				OR = {
+					is_merchant_republic = yes
+					government = pirate_government
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = { is_patrician = yes }
+			primary_title = { add_law = { law = succ_seniority opinion_effect = no } }
+		}
+	}
+}

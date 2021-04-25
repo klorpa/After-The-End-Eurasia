@@ -500,6 +500,14 @@ succession_laws = {
 						}
 					}
 				}
+				AND = {
+					independent = no
+					is_patrician = yes
+					OR = {
+						is_merchant_republic = yes
+						government = pirate_government
+					}
+				}
 				OR = {
 					is_merchant_republic = no
 					primary_title = {
@@ -525,7 +533,7 @@ succession_laws = {
 				OR = {
 					NOT = { religion_group = pagan_group }
 					is_reformed_religion = yes
-					religion = hellenic_pagan
+					religion = lusitanian
 					is_patrician = yes
 				}
 				
@@ -581,12 +589,16 @@ succession_laws = {
 					}
 					holder_scope = {
 						show_scope_change = no
-						is_patrician = yes 
+						AND = {
+							independent = no
+							is_patrician = yes
+							OR = {
+								is_merchant_republic = yes
+								government = pirate_government
+							}
+						}
 						OR = {
 							is_merchant_republic = no
-							PREV = {
-								is_primary_holder_title = no
-							}
 							NOT = {
 								in_revolt = yes
 								succ_law_title = {
@@ -1550,7 +1562,13 @@ succession_laws = {
 	succ_patrician_elective = {
 		potential = {
 			OR = {
-				is_primary_holder_title = yes
+				AND = {
+					is_primary_holder_title = yes
+					OR = {
+						is_merchant_republic = yes
+						government = pirate_government
+					}
+				}
 				holder_scope = {
 					in_revolt = yes
 					succ_law_title = {
@@ -1558,10 +1576,6 @@ succession_laws = {
 					}
 				}
 			}
-			holder_scope = {
-				is_merchant_republic = yes
-			}
-			NOT = { holder_scope = { government = pirate_government } }
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = playable_republic_government } }
