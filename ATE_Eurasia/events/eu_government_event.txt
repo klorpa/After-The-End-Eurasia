@@ -531,7 +531,7 @@ character_event = {
 				independent = no
 				is_patrician = yes
 				OR = {
-					is_merchant_republic = yes
+					government = merchant_republic_government
 					government = pirate_government
 				}
 			}
