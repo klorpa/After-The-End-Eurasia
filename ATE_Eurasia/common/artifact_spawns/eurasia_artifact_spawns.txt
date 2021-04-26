@@ -146,3 +146,24 @@ amber_diadem = {
 		}
 	}
 }
+steel_crown = {
+	max_amount = 1
+	spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+	
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			has_landed_title = k_dobruja
+		}
+	}
+	artifacts = {
+		steel_crown = {
+			value = 1
+		}
+	}
+}
