@@ -124,6 +124,14 @@ succession_laws = {
 				holder_scope = { is_feudal = yes }
 				holder_scope = { is_tribal = yes }
 			}
+			NAND = {
+					independent = no
+					is_patrician = yes
+					OR = {
+						government = merchant_republic_government
+						government = pirate_government
+					}
+				}
 			
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
@@ -504,7 +512,7 @@ succession_laws = {
 					independent = no
 					is_patrician = yes
 					OR = {
-						is_merchant_republic = yes
+						government = merchant_republic_government
 						government = pirate_government
 					}
 				}
@@ -593,7 +601,7 @@ succession_laws = {
 							independent = no
 							is_patrician = yes
 							OR = {
-								is_merchant_republic = yes
+								government = merchant_republic_government
 								government = pirate_government
 							}
 						}
@@ -1578,7 +1586,7 @@ succession_laws = {
 				AND = {
 					is_primary_holder_title = yes
 					OR = {
-						is_merchant_republic = yes
+						government = merchant_republic_government
 						government = pirate_government
 					}
 				}
@@ -1657,7 +1665,7 @@ gender_laws = {
 									holy_order = yes
 								}
 							}
-							is_merchant_republic = yes
+							government = merchant_republic_government
 						}
 						OR = {
 							AND = {
