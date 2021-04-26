@@ -2578,6 +2578,8 @@ e_alpenland = {
 			provencal="Estíria"
 			slovene="Štajerska"
 			palatinate="Steiermark"
+			hungarian="Stájerország"
+			szekely="Stájerország"
 			
 			capital = 586 #Styria
 			
@@ -2609,6 +2611,8 @@ e_alpenland = {
 				occitan="Caríntia"
 				provencal="Caríntia"
 				palatinate="Kärnten"
+				hungarian="Karintia"
+				szekely="Karintia"
 
 				b_klagenfurt = {
 					slovene="Celovec"
@@ -2675,6 +2679,45 @@ e_alpenland = {
 				b_furstenfeld = {}
 				b_hartberg = {}
 			}
+			c_burgenland = {
+				color={ 197 90 100 }
+				color2={ 255 255 255 }
+
+				slovene="Gradišcanska"
+				czech="Hradsko"
+				bavarian="Burgnland"
+				swabian="Burgeland"
+				schwyzer="Burgeland"
+			
+				b_rust = {}
+				b_eisenstadt = {
+					slovene="Železno"
+					czech="Železné Mesto"
+					hungarian="Kismarton"
+					szekely="Kismarton"
+				}
+				b_neusiedl_am_see = {
+					czech="Nezider"
+					hungarian="Nezsider"
+					szekely="Nezsider"
+				}
+				b_mattersburg = {
+					hungarian="Nagymarton"
+					szekely="Nagymarton"
+				}
+				b_oberpullendorf = {
+					hungarian="Felsöpulya"
+					szekely="Felsöpulya"
+				}
+				b_gussing = {
+					hungarian="Németújvár"
+					szekely="Németújvár"
+				}
+				b_jennersdorf = {
+					hungarian="Gyanafalva"
+					szekely="Gyanafalva"
+				}
+			}
 		}
 		
 		d_austria = {
@@ -2703,6 +2746,8 @@ e_alpenland = {
 			occitan="Àustria"
 			provencal="Ëustria"
 			palatinate="Eestraisch"
+			hungarian="Ausztria"
+			szekely="Ausztria"
 			
 			capital = 589 #Vienna
 			
@@ -2727,6 +2772,8 @@ e_alpenland = {
 				flemish="Ipper-Ôostnryk"
 				czech="Horní Rakousy"
 				palatinate="Obereestraisch"
+				hungarian="Felsö-Ausztria"
+				szekely="Felsö-Ausztria"
 
 				b_linz = {
 					czech="Linec"
@@ -2760,29 +2807,6 @@ e_alpenland = {
 				}
 				b_ganserndorf = {}
 			}
-			c_burgenland = {
-				color={ 197 90 100 }
-				color2={ 255 255 255 }
-
-				slovene="Gradišcanska"
-				czech="Hradsko"
-				bavarian="Burgnland"
-				swabian="Burgeland"
-				schwyzer="Burgeland"
-			
-				b_rust = {}
-				b_eisenstadt = {
-					slovene="Železno"
-					czech="Železné Mesto"
-				}
-				b_neusiedl_am_see = {
-					czech="Nezider"
-				}
-				b_mattersburg = {}
-				b_oberpullendorf = {}
-				b_gussing = {}
-				b_jennersdorf = {}
-			}
 			c_vienna = {
 				color={ 238 36 54 }
 				color2={ 255 255 255 }
@@ -2807,10 +2831,14 @@ e_alpenland = {
 				arpitan="Vièna"
 				romansh="Vienna"
 				palatinate="Wien"
+				hungarian="Bécs"
+				szekely="Bécs"
 			
 				b_wiener_neustadt = {
 					slovene="Dunajsko Novo Mesto"
 					czech="Vídenské Nové Mesto"
+					hungarian="Bécsújheky"
+					szekely="Bécsújhely"
 				}
 				b_vienna = {
 					rhenish="Wien"
@@ -2833,6 +2861,8 @@ e_alpenland = {
 					arpitan="Vièna"
 					romansh="Vienna"
 					palatinate="Wien"
+					hungarian="Bécs"
+					szekely="Bécs"
 				}
 				b_schwechat = {}
 				b_baden_bei_wien = {}
