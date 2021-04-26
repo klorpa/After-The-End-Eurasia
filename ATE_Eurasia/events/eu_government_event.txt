@@ -203,7 +203,7 @@ character_event = {
 	trigger = {
 		OR = {
 			AND = {
-				government = bureaucratic_muslim_government
+				government = diwan_government
 				NOT = { has_law = succ_ghazi_elective }
 			}
 			AND = {
@@ -219,7 +219,7 @@ character_event = {
 	
 	immediate = {
 		if = {
-			limit = { government = bureaucratic_muslim_government }
+			limit = { government = diwan_government }
 			primary_title = { add_law = { law = succ_ghazi_elective opinion_effect = no } }
 		}
 		if = {
@@ -239,14 +239,14 @@ character_event = {
 	hide_window = yes
 	
 	trigger = {
-		liege = { government = bureaucratic_muslim_government }
+		liege = { government = diwan_government }
 		government = pirate_government
 	}
 	
 	mean_time_to_happen = { days = 1 }
 
 	immediate = {
-		set_government_type = bureaucratic_muslim_government
+		set_government_type = diwan_government
 	}
 }
 
@@ -416,7 +416,7 @@ character_event = {
 	mean_time_to_happen = { days = 1 }
 
 	immediate = {
-		set_government_type = bureaucratic_muslim_government
+		set_government_type = diwan_government
 	}
 }
 #AI ONLY: Convert from Muslim Bureaucracy to GHAZI
@@ -427,7 +427,7 @@ character_event = {
 	trigger = {
 		ai = yes
 		lower_tier_than = KING
-		government = bureaucratic_muslim_government
+		government = diwan_government
 	}
 	
 	mean_time_to_happen = { days = 1 }
@@ -474,7 +474,7 @@ character_event = {
 			ai = no
 			religion_group = muslim
 			higher_tier_than = DUKE
-			NOT = {government = bureaucratic_muslim_government}
+			NOT = {government = diwan_government}
 		}
 		OR = {
 			ai = no
@@ -489,7 +489,7 @@ character_event = {
 	mean_time_to_happen = { days = 1 }
 
 	immediate = {
-		set_government_type = bureaucratic_muslim_government
+		set_government_type = diwan_government
 	}
 }
 #set succession law (Religious Context)

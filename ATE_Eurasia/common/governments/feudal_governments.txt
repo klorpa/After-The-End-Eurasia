@@ -428,7 +428,7 @@ feudal_governments = {
 		}
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
 			feudal_government
-			bureaucratic_muslim_government
+			diwan_government
 			theocratic_feudal_government
 			bureaucratic_government
 		}
@@ -468,7 +468,7 @@ feudal_governments = {
 					title = e_ottoman_empire #list of imperial-tier realms allowed
 				}
 				top_liege = {
-					government = bureaucratic_muslim_government
+					government = diwan_government
 				}
 			}			
 		}
@@ -646,7 +646,7 @@ feudal_governments = {
 			learning = 1
 		}
 	}
-	bureaucratic_muslim_government = {
+	diwan_government = {
 		preferred_holdings = { CASTLE }
 		allowed_holdings = { 
 			CASTLE
@@ -670,7 +670,7 @@ feudal_governments = {
 			tribal_government
 		}
 		frame_suffix = "_iqta"
-		title_prefix = "bureaucratic_muslim_government_"
+		title_prefix = "diwan_government_"
 		potential = {
 			OR = {
 				religion_group = islamosyncretic 
@@ -765,11 +765,11 @@ feudal_governments = {
 			tribal_government
 		}
 		frame_suffix = "_iqta"
-		title_prefix = "bureaucratic_muslim_government_"
+		title_prefix = "diwan_government_"
 		potential = {
 			religion = ibadi
 			NOT = { is_government_potential = ghazi_government }
-			NOT = { is_government_potential = bureaucratic_muslim_government }
+			NOT = { is_government_potential = diwan_government }
 			is_patrician = no
 		}
 		
@@ -811,7 +811,7 @@ feudal_governments = {
 			ghazi_government
 			theocratic_feudal_government
 			bureaucratic_government
-			bureaucratic_muslim_government
+			diwan_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
@@ -856,7 +856,7 @@ feudal_governments = {
 		}
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
 			bureaucratic_government
-			bureaucratic_muslim_government
+			diwan_government
 			theocracy_government
 			feudal_government
 			ghazi_government
@@ -872,7 +872,7 @@ feudal_governments = {
 		
 		vassal_call_to_arms  = {
 			bureaucratic_government
-			bureaucratic_muslim_government
+			diwan_government
 			theocracy_government
 			feudal_government
 			ghazi_government

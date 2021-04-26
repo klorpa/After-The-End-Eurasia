@@ -8963,6 +8963,7 @@ muslim_invasion = {
 		ROOT = {
 			piety = 1000
 		}
+		
 	}
 	
 	on_add = {
@@ -8992,6 +8993,8 @@ muslim_invasion = {
 			AND = {
 				religion_group = muslim
 				NOT = {religion = ruhi}
+				government = ghazi_government
+				lower_tier_than = KING
 			}
 			
 			# These use 'tribal_invasion' instead:
