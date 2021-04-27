@@ -106,7 +106,7 @@ swabian_crown = {
 }
 bavarian_orb = {
 	max_amount = 1
-	spawn_date = -1.1.1
+	spawn_date = 1806.1.1
 	
 	spawn_chance = {
 		value = 100
@@ -148,7 +148,7 @@ amber_diadem = {
 }
 steel_crown = {
 	max_amount = 1
-	spawn_date = -1.1.1
+	spawn_date = 1881.1.1
 	
 	spawn_chance = {
 		value = 100
@@ -184,6 +184,52 @@ lloyds_bank_coprolite = {
 	}
 	artifacts = {
 		lloyds_bank_coprolite = {
+			value = 1
+		}
+	}
+}
+
+rubiks_cube_chess_board = {
+	max_amount = 50
+	spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+	
+	weight = {
+		value = 20
+		additive_modifier = {
+			value = 80
+			higher_tier_than = BARON
+		}
+	}
+	artifacts = {
+		chess_board = {
+			value = 1
+		}
+		rubiks_cube = {
+			value = 1
+		}
+	}
+}
+chess_board_polgar = {
+	max_amount = 1
+	spawn_date = 2595.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+	
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			has_landed_title = d_transdanubia
+		}
+	}
+	artifacts = {
+		chess_board = {
 			value = 1
 		}
 	}
