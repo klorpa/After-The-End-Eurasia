@@ -2677,6 +2677,8 @@ muslim = {
 	barelvi = {
 		graphical_culture = muslimgfx
 		
+		parent = deobandi #switch this later
+
 		icon = 77
 		heresy_icon = 110
 		
@@ -2705,7 +2707,6 @@ muslim = {
 	deobandi = {
 		graphical_culture = muslimgfx
 		
-		parent = barelvi
 		
 		icon = 13
 		heresy_icon = 18
@@ -2734,6 +2735,36 @@ muslim = {
 	}
 	ahmadi = {
 		graphical_culture = muslimgfx
+		
+		parent = zikri # switch later
+		
+		icon = 75
+		heresy_icon = 109
+		
+		color = { 192 192 192 }
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+		crusade_name = JIHAD
+		uses_decadence = no
+		max_wives = 4
+		can_call_crusade = yes
+		can_grant_invasion_cb = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+	}
+	zikri = {
+		graphical_culture = muslimgfx
 				
 		icon = 75
 		heresy_icon = 109
@@ -2760,36 +2791,7 @@ muslim = {
 		religious_clothing_head = 10
 		religious_clothing_priest = 10
 	}
-	zikiri = {
-		graphical_culture = muslimgfx
-		
-		parent = barelvi
-				
-		icon = 75
-		heresy_icon = 109
-		
-		color = { 200 192 160 }
-		
-		high_god_name = GOD_ALLAH
-		
-		god_names = {
-			GOD_ALLAH GOD_THE_GREATEST
-		}
-		evil_god_names = {
-			GOD_SHAYTAN GOD_IBLIS
-		}
-		
-		scripture_name = THE_QURAN
-		priest_title = IMAM
-		crusade_name = JIHAD
-		uses_decadence = no
-		max_wives = 4
-		can_call_crusade = yes
-		can_grant_invasion_cb = yes
-		
-		religious_clothing_head = 10
-		religious_clothing_priest = 10
-	}
+	
 }
 
 islamosyncretic = {
@@ -3120,7 +3122,7 @@ old_world_cultist_group = {
 		religious_clothing_head = 10
 		religious_clothing_priest = 10
 	}
-	resurrectionist = {
+	nazari = {
 		graphical_culture = muslimgfx
 		
 		icon = 76
