@@ -7,6 +7,7 @@
 #hajj.114-120 = Going to Karbala
 #hajj.121-127 = Going to Mashhad
 #hajj.128-134 = Going to Kadhimiyya
+#hajj.135-141 = Going to Eyup Masjid (Sufi)
 #hajj.7-16 = Hadith (General Muslim)
 #hajj.200 = Pilgrimage to Minor Shrines Setup
 
@@ -1928,7 +1929,7 @@ letter_event = {
 		clr_character_flag = activated_hajj_kadhimiyya
 		clr_character_flag = preparing_ziyara
 		hidden_tooltip = {
-			character_event = { id = hajj.122 days = 12 }
+			character_event = { id = hajj.129 days = 12 }
 		}	
 	}
 }
@@ -2096,6 +2097,191 @@ character_event = {
 		add_trait = zair
 	}
 }
+#############################
+# Going to Eyup Masjid
+#############################
+letter_event = {
+	id = hajj.135
+	desc = "EVTDESC_hajjtoeyupmasjid"
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT_hajjtocity"
+		piety = 5
+		set_character_flag = preparing_hajj_eyupmasjid
+		clr_character_flag = activated_hajj_eyupmasjid
+		clr_character_flag = preparing_ziyara
+		hidden_tooltip = {
+			character_event = { id = hajj.136 days = 12 }
+		}	
+	}
+}
+##########################################################################
+#A Trip to Eyup Masjid
+##########################################################################
+narrative_event = {
+	id = hajj.136
+	title = EVTTITLE_HAJJEYUPMASJID
+	desc = EVTDESC_hajj136
+	picture = GFX_eyupmasjid
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPT_hajj108"
+		clr_character_flag = preparing_hajj_eyupmasjid
+		add_trait = on_ziyara
+		hidden_tooltip = {
+			character_event = { id = hajj.7 days = 30 }
+		}
+		hidden_tooltip = {
+			character_event = { id = hajj.137 days = 30 }
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					location = {
+						distance = {
+							where = 143	#Istanbul
+							value = 400	#kind of far..
+						}
+					}
+				}
+				random_list = {
+					10 = { character_event = { id = SoA.5027 days = 5 random = 9 } }
+					10 = { narrative_event = { id = SoA.5028 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5029 days = 5 random = 9 } }
+					10 = { character_event = { id = SoA.5030 days = 5 random = 9 } }
+				}
+			}
+			if = {
+				limit = {
+					location = {
+						distance = {
+							where = 143	#Istanbul
+							value = 100	#kind of far..
+						}
+					}
+				}
+				random_list = {
+					10 = { character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
+					10 = { character_event = { id = SoA.5032 days = 15 random = 7 } }
+					10 = { narrative_event = { id = SoA.5033 days = 15 random = 7 } }
+					10 = { character_event = { id = SoA.5034 days = 15 random = 7 } }
+					10 = { character_event = { id = SoA.5035 days = 15 random = 7 } }
+					10 = { character_event = { id = SoA.5036 days = 15 random = 7 } }
+					10 = { character_event = { id = SoA.5037 days = 15 random = 7 } }
+					10 = { character_event = { id = SoA.5038 days = 15 random = 7 } }
+				}
+			}
+		}
+	}
+}
+##########################################################################
+# Arrival at Eyup Masjid
+##########################################################################				
+
+#Hidden gateway event				
+character_event = {
+	id = hajj.137
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_list = {
+			50 = { character_event = { id = hajj.138 } }
+			50 = { character_event = { id = hajj.139 } }
+		}
+	}
+}
+
+character_event = {
+	id = hajj.138
+	desc = "EVTDESC_hajj138"
+	picture = GFX_evt_library
+	border = GFX_event_normal_frame_religion
+	prisoner = no
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPT_hajjsbaghdadmysteries"
+		change_learning = 1
+		add_trait = mystic
+		hidden_tooltip = {
+			character_event = { id = hajj.140 days = 35 }
+		}
+	}
+	option = {
+		name = "EVTOPT_hajjnobaghdadmysteries"
+		add_trait = proud
+		prestige = 20
+		hidden_tooltip = {
+			character_event = { id = hajj.140 days = 35 }
+		}	
+	}
+}
+character_event = {
+	id = hajj.139
+	desc = "EVTDESC_hajj139"
+	picture = GFX_evt_market_byzantine
+	border = GFX_event_normal_frame_religion
+	prisoner = no
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPT_hajjbaghdadstudies"
+		trigger = {
+			OR = {
+				trait = mystic
+				trait = hanafi
+			}
+		}
+		piety = 20
+		hidden_tooltip = {
+			character_event = { id = hajj.140 days = 4 }
+		}	
+	}
+	option = {
+		name = "EVTOPT_hajjnobaghdadstudies"
+		hidden_tooltip = {
+			character_event = { id = hajj.140 days = 4 }
+		}	
+	}
+}
+narrative_event = {
+	id = hajj.140
+	title = EVTTITLE_HAJJEYUPMASJIDARRIVED
+	desc = EVTDESC_hajjeyupmasjid
+	picture = GFX_eyupmasjid
+	border = GFX_event_narrative_frame_religion
+	prisoner = no
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPT_hajjeyupmasjid"
+		piety = 50
+		hidden_tooltip = {
+			character_event = { id = hajj.141 days = 35 }
+		}	
+	}
+}
+character_event = {
+	id = hajj.141
+	desc = "EVTDESC_hajjeyupmasjidhome"
+	picture = GFX_evt_prospering_province
+	border = GFX_event_normal_frame_religion
+	prisoner = no
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPT_hajjeyupmasjidhome"
+		clr_character_flag = do_not_disturb
+		piety = 50
+		remove_trait = on_ziyara
+		add_trait = zair
+	}
+}
 #################################################################################
 #Singular Decision to encompass all Zijaya Locations to declutter Intrigue Screen
 #################################################################################
@@ -2115,22 +2301,24 @@ narrative_event = {
 		set_character_flag = activated_hajj_albaqi
 		if = {
 			limit = {
-				OR = {
-					religion = sunni
-					religion = ruhi
-					religion = nizami
-				}
+				is_sunni = yes
 			}
 			set_character_flag = activated_hajj_umayyadmosque
 			set_character_flag = activated_hajj_alazhar
 		}
-		else_if = {
+		if = {
 			limit = {
-				religion = shiite
+				is_shiite = yes
 			}
 			set_character_flag = activated_hajj_karbala
 			set_character_flag = activated_hajj_mashhad
 			set_character_flag = activated_hajj_kadhimiyya
+		}
+		if = {
+			limit = {
+				is_sufi = yes
+			}
+			set_character_flag = activated_hajj_eyupmasjid
 		}
 	}
 	
@@ -2150,6 +2338,15 @@ narrative_event = {
 		}
 		hidden_tooltip = {
 			letter_event = { id = hajj.2 days = 12 }
+		}
+	}
+	option = {
+		name = EVTOPTD_ZIYARA_EYUPMASJID
+		trigger = {
+			has_character_flag = activated_hajj_eyupmasjid
+		}
+		hidden_tooltip = {
+			letter_event = { id = hajj.135 days = 12 }
 		}
 	}
 	option = {
