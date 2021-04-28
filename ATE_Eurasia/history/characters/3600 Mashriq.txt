@@ -3661,3 +3661,30 @@
 	2645.1.1 = { birth = yes }
 }
 
+3602111 = { 
+	name = "Gabro" #Husband of Maryam the daughter of Yosip Malek
+	culture = assyrian
+	religion = nestorian
+	trait=honest
+	trait=lustful
+	trait=devout
+	trait=stubborn	
+	trait=indulgent_wastrel	
+	2645.1.1 = { birth = yes }
+	2664.2.14={add_matrilineal_spouse=3602016}
+}
+
+3602112 = { 
+	name = "Ninwa" #Daughter of Yosip Malek
+	dynasty = 2104002 #Malek
+	culture = assyrian
+	religion = nestorian
+	father = 3602014
+	mother = 3602015
+	female = yes
+	trait=deceitful
+	trait=content
+	trait=kind
+	trait=flamboyant_schemer
+	2651.1.1 = { birth = yes }
+}
