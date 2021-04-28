@@ -218,3 +218,34 @@ nebra_disk = {
 	picture = "GFX_nebra_disk"
 	stacking = no
 }
+der_racher = { 
+	just_opinion = 2
+	monthly_character_prestige = 0.1
+	quality = 1
+	active = {
+		is_adult = yes
+	}
+	flags = { unique oldworld salvage }
+	picture = "GFX_der_racher"
+	stacking = no
+}
+big_amber = {
+	monthly_character_prestige = 0.1
+	health = 0.25
+	quality = 1
+	
+	flags = { unique salvage }
+	picture = "GFX_big_amber"
+	stacking = no
+}
+golden_bee = {
+	monthly_character_prestige = 0.2
+	patron_the_emperor_opinion = 3
+	jacobin_opinion = 2
+	sun_king_cultist_opinion = 2
+	quality = 2
+	
+	flags = { unique salvage }
+	picture = "GFX_golden_bee"
+	stacking = no
+}

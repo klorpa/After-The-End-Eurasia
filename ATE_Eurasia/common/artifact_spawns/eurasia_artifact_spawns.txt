@@ -198,10 +198,14 @@ rubiks_cube_chess_board = {
 	}
 	
 	weight = {
-		value = 20
+		value = 0
 		additive_modifier = {
-			value = 80
+			value = 50
 			higher_tier_than = BARON
+		}
+		additive_modifier = {
+			value = 50
+			learning = 10
 		}
 	}
 	artifacts = {
@@ -251,6 +255,73 @@ nebra_disk = {
 	}
 	artifacts = {
 		nebra_disk = {
+			value = 1
+		}
+	}
+}
+der_racher = {
+	max_amount = 1
+	spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+	
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			has_landed_title = c_rostock
+		}
+	}
+	artifacts = {
+		der_racher = {
+			value = 1
+		}
+	}
+}
+big_amber = {
+	max_amount = 1
+	spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+	
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			has_landed_title = d_samogitia
+		}
+	}
+	artifacts = {
+		big_amber = {
+			value = 1
+		}
+	}
+}
+golden_bees = {
+	max_amount = 3
+	spawn_date = -1.1.1
+	
+	spawn_chance = {
+		value = 100
+	}
+	
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			higher_tier_than = BARON
+			OR = {
+				religion = jacobin
+				religion = sun_king_cultist
+			}
+		}
+	}
+	artifacts = {
+		golden_bee = {
 			value = 1
 		}
 	}
