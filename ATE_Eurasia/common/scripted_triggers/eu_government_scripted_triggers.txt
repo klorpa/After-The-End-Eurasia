@@ -69,3 +69,28 @@ is_salafi_religion = {
 		religion = deobandi
 	}
 }
+
+is_sunni = {
+	OR = {
+		religion = taharur
+		religion = sunni
+		religion = sunnah
+		religion = ahl_as_salah
+		religion = nizami
+		religion = ruhi
+		religion = barelvi
+		religion = hui
+		religion = ahmadi
+		religion = zikiri
+	}
+}
+
+is_shiite = {
+	OR = {
+		religion = shiite
+		religion = akhbari
+		religion = ismaili
+		religion = dawoodi
+		religion = zaydi
+	}
+}
