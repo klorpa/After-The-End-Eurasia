@@ -76,7 +76,6 @@ succession_laws = {
 #			always = no
 #		}			
 #	}
-#}
 
 	succ_gavelkind = {
 		oldest_child_opinion = -5
@@ -85,8 +84,13 @@ succession_laws = {
 		vassal_opinion = 5
 	
 		potential = {
-			NOT = { has_law = succ_confederation_elective }
-			NOT = { has_law = succ_bureaucratic_elective }
+			NAND = { 
+				has_law = succ_byzantine_elective 
+				OR = { 
+					title = e_byzantium
+					title = e_roman_empire
+				}
+			}
 			holder_scope = {
 				OR = {
 					independent = yes
@@ -96,11 +100,7 @@ succession_laws = {
 						}
 					}
 				}
-				NOR = {
-					religion = nepmese
-					religion = nepmese_reformed
-				}
-				is_republic = no
+				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -124,31 +124,8 @@ succession_laws = {
 				holder_scope = { is_feudal = yes }
 				holder_scope = { is_tribal = yes }
 			}
-			NAND = {
-					independent = no
-					is_patrician = yes
-					OR = {
-						government = merchant_republic_government
-						government = pirate_government
-					}
-				}
-			
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
-			NOT = { holder_scope = { government = merchant_republic_government } }
-			holder_scope = {
-				NAND = {
-					OR = {
-						tier = king
-						tier = emperor
-					}
-					OR = {
-						government = diwan_government
-						government = ghazi_government
-						government = ibadi_imamate
-					}
-				}
-			}
 		}
 		allow = {
 			holder_scope = {
@@ -173,44 +150,27 @@ succession_laws = {
 						}
 					}
 				}
-				NOT = { religion = nepmese_reformed }
-				is_republic = no
-				is_merchant_republic = no
-				is_patrician = no
 				in_revolt = no
-				conditional_tooltip = {
-					trigger = {
-						has_law = succ_hre_elective
-						has_dlc = "Conclave"
-					}
-					has_law = law_voting_power_0
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_law = succ_hre_elective
-						NOT = { has_dlc = "Conclave" }
-					}
-					has_law = crown_authority_4
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_law = succ_hre_elective
-					}
-					has_law = centralization_4
-				}
 			}
-			holder_scope = {
-				NAND = {
-					OR = {
-						tier = king
-						tier = emperor
-					}
-					OR = {
-						government = diwan_government
-						government = ghazi_government
-						government = ibadi_imamate
-					}
+			conditional_tooltip = {
+				trigger = {
+					has_law = succ_hre_elective
+					has_dlc = "Conclave"
 				}
+				has_law = law_voting_power_0
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_law = succ_hre_elective
+					NOT = { has_dlc = "Conclave" }
+				}
+				has_law = crown_authority_4
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_law = succ_hre_elective
+				}
+				has_law = centralization_4
 			}
 			conditional_tooltip = {
 				trigger = {
@@ -243,8 +203,13 @@ succession_laws = {
 		dynasty_opinion = 5
 	
 		potential = {
-			NOT = { has_law = succ_confederation_elective }
-			NOT = { has_law = succ_bureaucratic_elective }
+			NAND = { 
+				has_law = succ_byzantine_elective 
+				OR = { 
+					title = e_byzantium
+					title = e_roman_empire
+				}
+			}
 			holder_scope = {
 				is_nomadic = no
 				OR = {
@@ -255,6 +220,7 @@ succession_laws = {
 						}
 					}
 				}
+				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -265,10 +231,11 @@ succession_laws = {
 						}
 					}
 				}
-				NOR = {
-					religion = nepmese
-					religion = nepmese_reformed
-				}
+			}
+			OR = {
+				is_landless_type_title = no
+				is_tribal_type_title = yes
+				temporary = yes
 			}
 			
 			rebel = no
@@ -280,20 +247,6 @@ succession_laws = {
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
-			
-			holder_scope = {
-				NAND = {
-					OR = {
-						tier = king
-						tier = emperor
-					}
-					OR = {
-						government = diwan_government
-						government = ghazi_government
-						government = ibadi_imamate
-					}
-				}
-			}
 		}
 		allow = {
 			conditional_tooltip = {
@@ -316,39 +269,26 @@ succession_laws = {
 			holder_scope = {
 				show_scope_change = no
 				in_revolt = no
-				conditional_tooltip = {
-					trigger = {
-						has_law = succ_hre_elective
-						has_dlc = "Conclave"
-					}
-					has_law = law_voting_power_0
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_law = succ_hre_elective
-						NOT = { has_dlc = "Conclave" }
-					}
-					has_law = crown_authority_4
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_law = succ_hre_elective
-					}
-					has_law = centralization_4
-				}
 			}
-			holder_scope = {
-				NAND = {
-					OR = {
-						tier = king
-						tier = emperor
-					}
-					OR = {
-						government = diwan_government
-						government = ghazi_government
-						government = ibadi_imamate
-					}
+			conditional_tooltip = {
+				trigger = {
+					has_law = succ_hre_elective
+					has_dlc = "Conclave"
 				}
+				has_law = law_voting_power_0
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_law = succ_hre_elective
+					NOT = { has_dlc = "Conclave" }
+				}
+				has_law = crown_authority_4
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_law = succ_hre_elective
+				}
+				has_law = centralization_4
 			}
 		}
 		effect = {
@@ -365,8 +305,6 @@ succession_laws = {
 		dynasty_opinion = 5
 	
 		potential = {
-			NOT = { has_law = succ_confederation_elective }
-			NOT = { has_law = succ_bureaucratic_elective }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				OR = { 
@@ -431,7 +369,6 @@ succession_laws = {
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
-			NOT = { holder_scope = { government = playable_republic_government } }
 		}
 		allow = {
 			conditional_tooltip = {
@@ -490,8 +427,6 @@ succession_laws = {
 		dynasty_opinion = 5
 	
 		potential = {
-			NOT = { has_law = succ_confederation_elective }
-			NOT = { has_law = succ_bureaucratic_elective }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				OR = { 
@@ -508,14 +443,6 @@ succession_laws = {
 						}
 					}
 				}
-				AND = {
-					independent = no
-					is_patrician = yes
-					OR = {
-						government = merchant_republic_government
-						government = pirate_government
-					}
-				}
 				OR = {
 					is_merchant_republic = no
 					primary_title = {
@@ -523,25 +450,18 @@ succession_laws = {
 					}
 				}
 				
-				OR = {
-					NOR = {
+                OR = {
+                    NOR = {
 						religion_group = muslim
 						religion_group = indian_group 
-						AND = { 
-							OR = {
-								religion = nepmese
-								religion = nepmese_reformed
-							}
-							is_feudal = yes 
-						}
 					}
-					is_patrician = yes
-				}
+                    is_patrician = yes
+                }
 				
 				OR = {
 					NOT = { religion_group = pagan_group }
 					is_reformed_religion = yes
-					religion = lusitanian
+					religion = hellenic_pagan
 					is_patrician = yes
 				}
 				
@@ -580,8 +500,6 @@ succession_laws = {
 			}
 			
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
-			NOT = { holder_scope = { government = playable_republic_government } }
-			top_liege ={ NOT = { government = playable_republic_government}}
 		}
 		
 		allow = {
@@ -597,16 +515,12 @@ succession_laws = {
 					}
 					holder_scope = {
 						show_scope_change = no
-						AND = {
-							independent = no
-							is_patrician = yes
-							OR = {
-								government = merchant_republic_government
-								government = pirate_government
-							}
-						}
+						is_patrician = yes 
 						OR = {
 							is_merchant_republic = no
+							PREV = {
+								is_primary_holder_title = no
+							}
 							NOT = {
 								in_revolt = yes
 								succ_law_title = {
@@ -683,8 +597,6 @@ succession_laws = {
 		child_opinion = -10
 		dynasty_opinion = -5
 		potential = {
-			NOT = { has_law = succ_confederation_elective }
-			NOT = { has_law = succ_bureaucratic_elective }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				OR = { 
@@ -715,7 +627,10 @@ succession_laws = {
 						}
 						OR = {
 							NOT = { religion_group = pagan_group }
+							religion = bon
+							religion = bon_reformed
 							is_reformed_religion = yes
+							religion = hellenic_pagan
 						}
 					}
 					OR = {
@@ -730,13 +645,11 @@ succession_laws = {
 							is_feudal = yes
 						}
 						holder_scope = { is_feudal = yes }
-						holder_scope = { government = hereditary_theocracy_government }
 					}
 				}
 				has_title_flag = alternate_byz
 			}
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
-			NOT = { holder_scope = { government = playable_republic_government } }
 		}
 		allow = {
 			conditional_tooltip = {
@@ -762,7 +675,6 @@ succession_laws = {
 							}
 						}
 					}
-					holder_scope = { government = hereditary_theocracy_government }
 				}
 			}
 			conditional_tooltip = {
@@ -847,8 +759,13 @@ succession_laws = {
 		dynasty_opinion = -5
 		vassal_opinion = 10
 		potential = {
-			NOT = { has_law = succ_confederation_elective }
-			NOT = { has_law = succ_bureaucratic_elective }
+			NAND = { 
+				has_law = succ_byzantine_elective 
+				OR = { 
+					title = e_byzantium
+					title = e_roman_empire
+				}
+			}
 			holder_scope = {
 				OR = {
 					independent = yes
@@ -862,13 +779,6 @@ succession_laws = {
 					NOR = { 
 						religion_group = muslim
 						religion_group = indian_group
-						AND = { 
-							OR = {
-								religion = nepmese
-								religion = nepmese_reformed
-							}
-							is_feudal = yes 
-						}
 					}
 					has_law = succession_voting_power_1
 					OR = { 
@@ -885,6 +795,7 @@ succession_laws = {
 				OR = {
 					NOT = { religion_group = pagan_group }
 					is_reformed_religion = yes
+					religion = hellenic_pagan
 					has_law = succession_voting_power_1
 					OR = { 
 						has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
@@ -925,11 +836,10 @@ succession_laws = {
 			}
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
-			NOR = { #Special Elective.
+			NOR = {  #Special Elective.
 				title = e_hre 
 				has_title_flag = alternate_hre
 			}
-			NOT = { holder_scope = { government = playable_republic_government } }
 		}
 		allow = {
 			custom_tooltip = {
@@ -956,8 +866,6 @@ succession_laws = {
 		vassal_opinion = 15
 		vassal_limit = 20
 		potential = {
-			NOT = { has_law = succ_confederation_elective }
-			NOT = { has_law = succ_bureaucratic_elective }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				OR = { 
@@ -965,7 +873,6 @@ succession_laws = {
 					title = e_roman_empire
 				}
 			}
-			NOT = { holder_scope = { government = playable_republic_government } }
 			OR = {
 				title = e_hre #Title-bound.
 				ROOT = {
@@ -1095,7 +1002,7 @@ succession_laws = {
 			#is_primary_type_title = no
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
-			NOT = { holder_scope = { government = playable_republic_government } }
+
 		}
 		allow = {
 			custom_tooltip = {
@@ -1122,8 +1029,6 @@ succession_laws = {
 		dynasty_opinion = 5
 		vassal_opinion = 5
 		potential = {
-			NOT = { has_law = succ_confederation_elective }
-			NOT = { has_law = succ_bureaucratic_elective }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				OR = { 
@@ -1182,7 +1087,7 @@ succession_laws = {
 			}
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
-			NOT = { holder_scope = { government = playable_republic_government } }
+
 		}
 		allow = {
 			OR = {
@@ -1250,8 +1155,13 @@ succession_laws = {
 		child_opinion = -10
 		dynasty_opinion = -5
 		potential = {
-			NOT = { has_law = succ_confederation_elective }
-			NOT = { has_law = succ_bureaucratic_elective }
+			NAND = { 
+				has_law = succ_byzantine_elective 
+				OR = { 
+					title = e_byzantium
+					title = e_roman_empire
+				}
+			}
 			holder_scope = {
 				OR = {
 					independent = yes
@@ -1263,16 +1173,20 @@ succession_laws = {
 				}
 				OR = {
 					culture = khalka
-					religion = khanist
+					religion = bon
+					religion = bon_reformed
 					AND = {
-						OR = {
-							religion = nepmese
-							religion = nepmese_reformed
-						}
-						is_feudal = yes
-						higher_real_tier_than = BARON
+						NOT = { religion = norse_pagan }
+						NOT = { religion = tengri_pagan }
+						NOT = { religion = baltic_pagan }
+						NOT = { religion = finnish_pagan }
+						NOT = { religion = aztec }
+						NOT = { religion = pagan }
+						NOT = { religion = slavic_pagan }
+						NOT = { religion = west_african_pagan }
 					}
 				}
+				
 				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
@@ -1285,30 +1199,41 @@ succession_laws = {
 					}
 				}
 			}
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
-			NOT = { holder_scope = { government = playable_republic_government } }
-		}
-		allow = {
-			conditional_tooltip = {
-				holder_scope = {
+			OR = {
+				is_landless_type_title = no
+				is_tribal_type_title = yes
+				temporary = yes
+				AND = {
+					is_nomadic = no
 					OR = {
-						religion = nepmese
-						religion = nepmese_reformed
+						title = e_mongol_empire
+						title = e_golden_horde
+						title = e_il-khanate
 					}
 				}
 			}
+			is_primary_type_title = no
+			OR = {
+				AND = {
+					tier = baron
+					is_feudal = yes
+				}
+				holder_scope = { is_feudal = yes }
+				AND = {
+					is_nomadic = no
+					OR = {
+						title = e_mongol_empire
+						title = e_golden_horde
+						title = e_il-khanate
+					}
+				}
+			}
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
+		}
+		allow = {
 			conditional_tooltip = {
 				trigger = {
 					has_dlc = "Conclave"
-					holder_scope = {
-						NAND = {
-							OR = {
-								religion = nepmese
-								religion = nepmese_reformed
-							}
-							is_feudal = yes
-						}
-					}
 				}
 				holder_scope = {
 					show_scope_change = no
@@ -1398,7 +1323,62 @@ succession_laws = {
 		#child_opinion = 30
 		#dynasty_opinion = 10
 		potential = {
-			always = no
+			NAND = { 
+				has_law = succ_byzantine_elective 
+				OR = { 
+					title = e_byzantium
+					title = e_roman_empire
+				}
+			}
+			holder_scope = {
+				OR = {
+					religion_group = muslim
+					AND = {
+						has_religion_feature = religion_patriarchal
+						is_theocracy = no
+					}
+					AND = {
+						has_religion_feature = religion_matriarchal
+						is_theocracy = no
+					}
+				}
+				is_republic = no
+				is_merchant_republic = no
+				is_nomadic = no
+			}
+			OR = {
+				holder_scope = { # Viceroyalties can always have turkish succession if muslim
+					any_demesne_title = {
+						is_vice_royalty = yes
+					}
+				}
+				AND = {
+					OR = {
+						is_landless_type_title = no
+						is_tribal_type_title = yes
+						temporary = yes
+					}
+					holder_scope = {
+						OR = {
+							independent = yes
+							NOT = {
+								any_liege = {
+									holy_order = yes
+								}
+							}
+						}
+					}
+					is_primary_type_title = no
+				}
+			}
+			NAND = { 
+				has_law = succession_voting_power_1
+				OR = { 
+					has_law = succ_feudal_elective 
+					has_law = succ_hre_elective
+				}
+			}
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
 		}
 		effect = {
 			succession = turkish_succession
@@ -1438,7 +1418,6 @@ succession_laws = {
 			}
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
-			NOT = { holder_scope = { government = playable_republic_government } }
 		}
 		effect = {
 			succession = appointment
@@ -1457,12 +1436,7 @@ succession_laws = {
 					title = e_roman_empire
 				}
 			}
-			NOR = { 
-				title = k_papal_state
-				title = k_glorian				
-				title = d_ivri
-				title = d_shiite
-			}
+			NOT = { title = k_papal_state }
 			temporary = no
 			OR = {
 				is_primary_type_title = yes
@@ -1473,7 +1447,7 @@ succession_laws = {
 						is_republic = yes
 						AND = {
 							is_theocracy = yes
-							NOT = { government = hereditary_theocracy_government }
+							NOT = { holder_scope = { religion_group = muslim } }
 						}
 					}
 				}
@@ -1482,21 +1456,8 @@ succession_laws = {
 						is_republic = yes
 						AND = {
 							is_theocracy = yes
-							NOT = { government = hereditary_theocracy_government }
+							NOT = { religion_group = muslim }
 						}
-					}
-				}
-				AND = {
-					government = hereditary_theocracy_government
-					higher_real_tier_than = BARON
-					OR = {
-						religion = shiite
-						religion = haredi
-						religion = hindu
-						religion = siddhanta
-						religion = yazidi
-						religion = vaishnava
-						religion = shaktah
 					}
 				}
 			}
@@ -1505,7 +1466,7 @@ succession_laws = {
 				holder_scope = { is_theocracy = no }
 				holder_scope = { 
 					NOT = { religion = catholic }
-					NOT = { religion = insular }
+					NOT = { religion = fraticelli }
 				}
 			}
 			holder_scope = { 
@@ -1530,7 +1491,6 @@ succession_laws = {
 			}
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
-			NOT = { holder_scope = { government = playable_republic_government } }
 		}
 		
 		effect = {
@@ -1554,7 +1514,7 @@ succession_laws = {
 			holder_scope = {
 				OR = {
 					religion = catholic
-					religion = insular
+					religion = fraticelli
 				}
 				is_merchant_republic = no
 				OR = {
@@ -1570,7 +1530,6 @@ succession_laws = {
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
-			NOT = { holder_scope = { government = playable_republic_government } }
 		}
 		effect = {
 			succession = catholic_bishopric
@@ -1583,13 +1542,7 @@ succession_laws = {
 	succ_patrician_elective = {
 		potential = {
 			OR = {
-				AND = {
-					is_primary_holder_title = yes
-					OR = {
-						government = merchant_republic_government
-						government = pirate_government
-					}
-				}
+				is_primary_holder_title = yes
 				holder_scope = {
 					in_revolt = yes
 					succ_law_title = {
@@ -1597,9 +1550,11 @@ succession_laws = {
 					}
 				}
 			}
+			holder_scope = {
+				is_merchant_republic = yes
+			}
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
-			NOT = { holder_scope = { government = playable_republic_government } }
 		}
 		effect = {
 			succession = patrician_elective
@@ -1635,77 +1590,60 @@ succession_laws = {
 			# This succession type generates a character of China's culture and religion
 			# They have decent (4-10) stats, and good (7-11) stewardship, and will always have a Stewardship education
 			# The offmap power defined in the top liege's government is used to determine the culture and religion. Will not function if this isn't defined
-			#
 		}
 		revoke_allowed = {
 			always = no
 		}			
 	}
 }
-gender_laws = {
 
+gender_laws = {
 	cognatic_succession = {
 		potential = {
 			holder_scope = {
 				NOT = { has_religion_feature = religion_matriarchal }
 				NOT = { has_religion_feature = religion_equal }
-				NOT = { has_religion_feature = religion_feature_midewiwin }
 				OR = {
-					has_bloodline_flag = bloodline_effect_cognatic
+					NOT = { tier = baron }
+					is_theocracy = yes
+					is_republic = yes
+				}
+				OR = {
+					independent = yes
+					NOT = {
+						any_liege = {
+							holy_order = yes
+						}
+					}
+					is_merchant_republic = yes
+				}
+				OR = {
 					AND = {
+						NOT = { religion_group = muslim }
+						NOT = { religion = aztec }
+						has_horde_culture = no
+						#is_tribal = no
+						is_nomadic = no
+						is_merchant_republic = no
+						is_patrician = no
+					}
+					AND = {
+						has_dlc = "Zeus"
 						OR = {
-							NOT = { tier = baron }
-							is_theocracy = yes
-							is_republic = yes
-						}
-						OR = {
-							independent = yes
-							NOT = {
-								any_liege = {
-									holy_order = yes
-								}
+							ROOT = { holder_scope = { primary_title = { has_law = status_of_women_3 } } }
+							ROOT = { holder_scope = { primary_title = { has_law = status_of_women_4 } } }
+							has_game_rule = {
+								name = gender
+								value = all
 							}
-							government = merchant_republic_government
 						}
 						OR = {
-							AND = {
-								#has_horde_culture = no
-								#is_tribal = no
-								#is_nomadic = no
-								#is_merchant_republic = no
-								is_patrician = no
-								
-								NAND = {
+							is_patrician = no
+							liege = {
+								primary_title = {
 									OR = {
-										is_theocracy = yes
-										holy_order = yes
-									}
-									#OR = {
-									#	religion = ursuline
-									#	religion = gaian
-									#}
-								}
-								
-							}
-							AND = {
-								has_dlc = "Zeus"
-								OR = {
-									ROOT = { holder_scope = { primary_title = { has_law = status_of_women_3 } } }
-									ROOT = { holder_scope = { primary_title = { has_law = status_of_women_4 } } }
-									has_game_rule = {
-										name = gender
-										value = all
-									}
-								}
-								OR = {
-									is_patrician = no
-									liege = {
-										primary_title = {
-											OR = {
-												has_law = true_cognatic_succession
-												has_law = cognatic_succession
-											}
-										}
+										has_law = true_cognatic_succession
+										has_law = cognatic_succession
 									}
 								}
 							}
@@ -1747,23 +1685,9 @@ gender_laws = {
 		female_dynasty_opinion = -5
 	
 		potential = {
-			holder_scope = {
-				#NOT = { religion = gaian }
-				#NOT = { religion = neomayan }
+			holder_scope = { 
 				NOT = { has_religion_feature = religion_matriarchal } 
 				NOT = { has_religion_feature = religion_equal }
-				NOT = { has_religion_feature = religion_feature_midewiwin }
-				
-				NAND = {
-					OR = {
-						is_theocracy = yes
-						holy_order = yes
-					}
-					#OR = {
-					#	religion = ursuline
-					#	religion = gaian
-					#}
-				}
 			}
 		}
 		effect = {
@@ -1789,7 +1713,13 @@ gender_laws = {
 				holder_scope = {
 					NOR = {
 						religion_group = christian
-						religion_group = old_world_cultist_group
+						religion = west_african_pagan
+						religion = west_african_pagan_reformed
+						AND = {
+							culture_group = tibetan_group
+							NOT = { religion = taoist }
+							NOT = { culture = tangut }
+						}
 					}
 					primary_title = {
 						NOT = { has_law = status_of_women_3 }
@@ -1818,28 +1748,16 @@ gender_laws = {
 				holder_scope = {
 					OR = {
 						AND = {
-							OR = {
-								NAND = {
-									OR = {
-										is_theocracy = yes
-										holy_order = yes
-									}
-									#OR = {
-									#	religion = ursuline
-									#	religion = gaian
-									#}
-								}
-							}
+							NOT = { religion_group = muslim }
+							NOT = { religion = aztec }
 							has_horde_culture = no
 							#is_tribal = no
 							is_nomadic = no
 							#is_merchant_republic = no
 							#is_patrician = no
 						}
-						OR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_midewiwin
-						}
+						has_religion_feature = religion_equal
+						has_religion_feature = religion_feature_bon
 						AND = {
 							has_dlc = "Zeus"
 							ROOT = { holder_scope = { primary_title = { has_law = status_of_women_4 } } }
@@ -1875,10 +1793,7 @@ gender_laws = {
 					}
 				}
 				holder_scope = {
-					OR = {
-						has_religion_feature = religion_equal
-						has_religion_feature = religion_feature_midewiwin
-					}
+					has_religion_feature = religion_equal
 				}
 			}
 			
@@ -1888,11 +1803,13 @@ gender_laws = {
 			OR = {
 				holder_scope = {
 					OR = {
-						religion_group = old_world_cultist_group
+						culture = basque
+						culture = zhangzhung
+						culture = sumpa
+						religion = cathar
+						religion = messalian
+						religion = mazdaki
 						has_religion_feature = religion_equal
-						any_owned_bloodline = {
-							has_bloodline_flag = bloodline_tanistry
-						}
 					}
 				}
 				OR = {
@@ -1918,9 +1835,7 @@ gender_laws = {
 				factor = 0.1
 				NOT = {
 					holder_scope = {
-						OR = {
-							has_religion_feature = religion_equal
-						}
+						has_religion_feature = religion_equal
 					}
 				}
 			}
@@ -1928,9 +1843,7 @@ gender_laws = {
 			modifier = {
 				factor = 100
 				holder_scope = {
-					OR = {
-						has_religion_feature = religion_equal
-					}
+					has_religion_feature = religion_equal
 				}
 			}
 		}
@@ -1941,29 +1854,13 @@ gender_laws = {
 		female_dynasty_opinion = 10
 		
 		potential = {
-			holder_scope = {
-				OR = {
-					has_religion_feature = religion_matriarchal
-					AND = {
-						OR = {
-							is_theocracy = yes
-							holy_order = yes
-						}
-						#OR = {
-						#	religion = ursuline
-						#	religion = gaian
-						#	religion = neomayan
-						#}
-					}
-				}
-			}
+			holder_scope = { has_religion_feature = religion_matriarchal }
 		}
 		allow = {
 			
 		}
 		effect = {
 			gender_succ = enatic
-			law_set_allow_matrilineal_marriage = yes
 		}
 		revoke_allowed = {
 			always = no
@@ -1985,23 +1882,8 @@ gender_laws = {
 					any_owned_bloodline = {
 						has_bloodline_flag = bloodline_enatic_cognatic 
 					}
-					religion = gaian
-					trait = way_branch
-					#religion = neomayan					
-				}
-				NAND = {
-					OR = {
-						is_theocracy = yes
-						holy_order = yes
-					}
-					#OR = {
-					#	religion = ursuline
-					#	religion = gaian
-					#}
 				}
 			}
-			
-			is_landless_type_title = no
 		}
 		allow = {
 			
