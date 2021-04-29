@@ -546,41 +546,6 @@ e_misr = {
 				b_al_asher = {}
 			}
 		}
-		d_al_iskandariyya = {
-			color={ 62 36 129 }
-			color2={ 255 255 255 }
-			
-			capital = 1405 # c_al_iskandariyya
-			
-			c_al_iskandariyya = { # 1405
-				color={ 52 46 124 }
-				color2={ 255 255 255 }
-				
-				
-				holy_site = druze
-				holy_site = miaphysite
-				
-				b_al_muntazah = {}
-				b_ar_raml = {}
-				b_al_amriyah = {}
-				b_ad_dukhaylah = {}
-				b_muharram_bik = {}
-				b_mina_al_basal = {}
-				b_sidi_jabir = {}
-			}
-			c_al_buhayra = { # 1406
-				color={ 70 34 124 }
-				color2={ 255 255 255 }
-				
-				b_damanhur = {}
-				b_kafr_ad_dawwar = {}
-				b_nasser = {}
-				b_abu_al_matamir = {}
-				b_abu_hummus = {}
-				b_kawm_hamadah = {}
-				b_ityay_al_barud = {}
-			}
-		}
 		d_as_sahra_al_gharbia = {
 			color={ 171 181 101 }
 			color2={ 255 255 255 }
@@ -737,8 +702,35 @@ e_misr = {
 			color={ 113 117 123 }
 			color2={ 255 255 255 }
 			
-			capital = 1402 # c_al_gharbiyah
+			capital = 1405 # c_al_iskandariyya
 			
+			c_al_iskandariyya = { # 1405
+				color={ 52 46 124 }
+				color2={ 255 255 255 }
+				
+				holy_site = druze
+				holy_site = miaphysite
+				
+				b_al_muntazah = {}
+				b_ar_raml = {}
+				b_al_amriyah = {}
+				b_ad_dukhaylah = {}
+				b_muharram_bik = {}
+				b_mina_al_basal = {}
+				b_sidi_jabir = {}
+			}
+			c_al_buhayra = { # 1406
+				color={ 70 34 124 }
+				color2={ 255 255 255 }
+				
+				b_damanhur = {}
+				b_kafr_ad_dawwar = {}
+				b_nasser = {}
+				b_abu_al_matamir = {}
+				b_abu_hummus = {}
+				b_kawm_hamadah = {}
+				b_ityay_al_barud = {}
+			}
 			c_al_gharbiyah = { # 1402
 				color={ 103 127 118 }
 				color2={ 255 255 255 }
@@ -788,7 +780,7 @@ e_misr = {
 				b_bila = {}
 			}
 		}
-		d_janub_as_said = {
+		d_al_uqsur = {
 			color={ 117 9 171 }
 			color2={ 255 255 255 }
 			
@@ -806,6 +798,37 @@ e_misr = {
 				b_ash_shaghab = {}
 				b_al_qilabiyyah = {}
 			}
+			c_isna = { # 1436
+				color={ 218 213 224 }
+				color2={ 255 255 255 }
+				
+				b_al_qarnah = {}
+				b_naj_hammadi = {}
+				b_isna = {}
+				b_armant = {}
+				b_abu_tisht = {}
+				b_farshut = {}
+				b_naqada = {}
+			}
+			c_qina = { # 1421
+				color={ 107 245 171 }
+				color2={ 255 255 255 }
+				
+				b_qina = {}
+				b_qus = {}
+				b_dishna = {}
+				b_qift = {}
+				b_al_qinawiyyah = {}
+				b_al_hijirat = {}
+				b_nagaa_said = {}
+			}
+		}
+		d_asyut = {
+			color={ 38 12 109 }
+			color2={ 255 255 255 }
+			
+			capital = 1422 # c_asyut
+			
 			c_abnub = { # 1438
 				color={ 122 235 168 }
 				color2={ 255 255 255 }
@@ -841,30 +864,6 @@ e_misr = {
 				b_abnub = {}
 				b_al_badari = {}
 				b_abu_tij = {}
-			}
-			c_isna = { # 1436
-				color={ 218 213 224 }
-				color2={ 255 255 255 }
-				
-				b_al_qarnah = {}
-				b_naj_hammadi = {}
-				b_isna = {}
-				b_armant = {}
-				b_abu_tisht = {}
-				b_farshut = {}
-				b_naqada = {}
-			}
-			c_qina = { # 1421
-				color={ 107 245 171 }
-				color2={ 255 255 255 }
-				
-				b_qina = {}
-				b_qus = {}
-				b_dishna = {}
-				b_qift = {}
-				b_al_qinawiyyah = {}
-				b_al_hijirat = {}
-				b_nagaa_said = {}
 			}
 			c_sawhaj = { # 1423
 				color={ 170 215 224 }

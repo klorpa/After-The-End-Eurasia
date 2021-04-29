@@ -6883,7 +6883,19 @@
 		}
 	}
 }
-2009217 = { name="Carrépoint" culture=parisian used_for_random = no }
+2009217 = { name="Carrépoint" culture=parisian used_for_random = no 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2009218 = { name="Picquard" culture=parisian used_for_random = no }
 2009219 = { name="Arbalèste" culture=parisian used_for_random = no 
 	coat_of_arms = { 
@@ -16938,6 +16950,11 @@
 2069065 = { name="Keldi" culture=tajik }
 2069066 = { name="Latifi" culture=tajik }
 2069067 = { name="Osimi" culture=tajik }
+2069068 = { name="Forsi" culture=tajik }
+2069069 = { name="Turajonzoda" culture=tajik }
+2069070 = { name="Hindustoni" culture=tajik }
+2069071 = { name="Sharifzoda" culture=tajik }
+2069072 = { name="Tojikobodi" culture=tajik }
 
 2070000 = { name="Amini" culture=persian }
 2070001 = { name="Ali" culture=persian }
