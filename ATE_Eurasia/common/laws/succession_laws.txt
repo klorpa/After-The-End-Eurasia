@@ -42,7 +42,6 @@ succession_laws = {
 #				holder_scope = { is_tribal = yes }
 #			}
 #			is_primary_type_title = no
-#			NOT = { holder_scope = { government = confucian_bureaucracy } }
 #			NOT = { holder_scope = { government = chinese_imperial_government } }
 #		}
 #		allow = {
@@ -125,7 +124,6 @@ succession_laws = {
 				holder_scope = { is_tribal = yes }
 			}
 			is_primary_type_title = no
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 		}
 		allow = {
 			holder_scope = {
@@ -220,7 +218,6 @@ succession_laws = {
 						}
 					}
 				}
-				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -245,7 +242,6 @@ succession_laws = {
 				holder_scope = { is_tribal = yes }
 			}
 			is_primary_type_title = no
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}
 		allow = {
@@ -316,11 +312,11 @@ succession_laws = {
 				OR = {
 					AND = {
 						is_tribal = yes
-						religion = baltic_pagan
+						religion = jumic
 					}
 					AND = {
 						is_tribal = yes
-						religion = west_african_pagan
+						religion = nenets
 					}
 					has_religion_feature = religion_beatification
 					has_religion_feature = religion_feature_baltic
@@ -339,7 +335,6 @@ succession_laws = {
 					}
 				}
 				NOR = { 
-					religion_group = muslim 
 					has_religion_feature = religion_matriarchal
 					has_religion_feature = religion_patriarchal
 				}
@@ -367,7 +362,6 @@ succession_laws = {
 				holder_scope = { is_tribal = yes }
 			}
 			is_primary_type_title = no
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}
 		allow = {
@@ -379,11 +373,11 @@ succession_laws = {
 					OR = {
 						AND = {
 							is_tribal = yes
-							religion = baltic_pagan
+							religion = jumic
 						}
 						AND = {
 							is_tribal = yes
-							religion = west_african_pagan
+							religion = nenets
 						}
 						has_religion_feature = religion_beatification
 						has_religion_feature = religion_feature_baltic
@@ -499,7 +493,6 @@ succession_laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 		}
 		
 		allow = {
@@ -649,7 +642,6 @@ succession_laws = {
 				}
 				has_title_flag = alternate_byz
 			}
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 		}
 		allow = {
 			conditional_tooltip = {
@@ -834,10 +826,9 @@ succession_laws = {
 					}
 				}
 			}
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOR = {  #Special Elective.
-				title = e_hre 
+				title = e_germany
 				has_title_flag = alternate_hre
 			}
 		}
@@ -868,13 +859,9 @@ succession_laws = {
 		potential = {
 			NAND = { 
 				has_law = succ_byzantine_elective 
-				OR = { 
-					title = e_byzantium
-					title = e_roman_empire
-				}
 			}
 			OR = {
-				title = e_hre #Title-bound.
+				title = e_germany
 				ROOT = {
 					has_title_flag = alternate_hre
 				}
@@ -889,10 +876,6 @@ succession_laws = {
 					}
 				}
 				OR = {
-					NOR = { 
-						religion_group = muslim
-						religion_group = indian_group
-					}
 					has_law = succession_voting_power_1
 					has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
 					has_law = succ_hre_elective
@@ -941,7 +924,6 @@ succession_laws = {
 					}
 				}
 			}
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}
 		allow = {
@@ -969,40 +951,7 @@ succession_laws = {
 		dynasty_opinion = -5
 		feudal_opinion = -5
 		potential = {
-			holder_scope = {
-				OR = {
-					has_landed_title = e_byzantium
-					has_landed_title = e_roman_empire
-				}
-				NOT = { religion_group = muslim }
-				is_nomadic = no
-				is_merchant_republic = no
-				is_patrician = no
-			#	OR = {
-			#		culture_group = byzantine
-			#		culture = roman
-			#		religion = orthodox
-			#		religion = hellenic_pagan
-			#		religion = hellenic_pagan_reformed
-			#	}
-			#	OR = {
-			#		independent = yes
-			#		NOT = {
-			#			any_demesne_title = {
-			#				is_vice_royalty = yes
-			#			}
-			#		}
-			#	}
-			}
-			#OR = {
-			#	is_landless_type_title = no
-			#	is_tribal_type_title = yes
-			#	temporary = yes
-			#}
-			#is_primary_type_title = no
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
-			NOT = { holder_scope = { government = chinese_imperial_government } }
-
+			always = no
 		}
 		allow = {
 			custom_tooltip = {
@@ -1031,10 +980,7 @@ succession_laws = {
 		potential = {
 			NAND = { 
 				has_law = succ_byzantine_elective 
-				OR = { 
-					title = e_byzantium
-					title = e_roman_empire
-				}
+
 			}
 			holder_scope = {
 				OR = {
@@ -1045,7 +991,6 @@ succession_laws = {
 						}
 					}
 				}
-				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -1085,7 +1030,6 @@ succession_laws = {
 				}
 				holder_scope = { is_feudal = yes }
 			}
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 
 		}
@@ -1157,10 +1101,7 @@ succession_laws = {
 		potential = {
 			NAND = { 
 				has_law = succ_byzantine_elective 
-				OR = { 
-					title = e_byzantium
-					title = e_roman_empire
-				}
+
 			}
 			holder_scope = {
 				OR = {
@@ -1173,21 +1114,10 @@ succession_laws = {
 				}
 				OR = {
 					culture = khalka
-					religion = bon
-					religion = bon_reformed
-					AND = {
-						NOT = { religion = norse_pagan }
-						NOT = { religion = tengri_pagan }
-						NOT = { religion = baltic_pagan }
-						NOT = { religion = finnish_pagan }
-						NOT = { religion = aztec }
-						NOT = { religion = pagan }
-						NOT = { religion = slavic_pagan }
-						NOT = { religion = west_african_pagan }
-					}
+					religion = nepmese
+					religion = nepmese_reformed
 				}
 				
-				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -1203,14 +1133,7 @@ succession_laws = {
 				is_landless_type_title = no
 				is_tribal_type_title = yes
 				temporary = yes
-				AND = {
-					is_nomadic = no
-					OR = {
-						title = e_mongol_empire
-						title = e_golden_horde
-						title = e_il-khanate
-					}
-				}
+				is_nomadic = no
 			}
 			is_primary_type_title = no
 			OR = {
@@ -1228,7 +1151,6 @@ succession_laws = {
 					}
 				}
 			}
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 		}
 		allow = {
 			conditional_tooltip = {
@@ -1325,14 +1247,10 @@ succession_laws = {
 		potential = {
 			NAND = { 
 				has_law = succ_byzantine_elective 
-				OR = { 
-					title = e_byzantium
-					title = e_roman_empire
-				}
+
 			}
 			holder_scope = {
 				OR = {
-					religion_group = muslim
 					AND = {
 						has_religion_feature = religion_patriarchal
 						is_theocracy = no
@@ -1378,7 +1296,6 @@ succession_laws = {
 					has_law = succ_hre_elective
 				}
 			}
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 		}
 		effect = {
 			succession = turkish_succession
@@ -1416,7 +1333,6 @@ succession_laws = {
 				}
 				is_merchant_republic = no
 			}
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}
 		effect = {
@@ -1436,7 +1352,12 @@ succession_laws = {
 					title = e_roman_empire
 				}
 			}
-			NOT = { title = k_papal_state }
+			NOR = { 
+				title = k_papal_state
+				title = k_glorian
+				title = d_ivri
+				title = d_shiite
+			}
 			temporary = no
 			OR = {
 				is_primary_type_title = yes
@@ -1447,7 +1368,6 @@ succession_laws = {
 						is_republic = yes
 						AND = {
 							is_theocracy = yes
-							NOT = { holder_scope = { religion_group = muslim } }
 						}
 					}
 				}
@@ -1456,7 +1376,6 @@ succession_laws = {
 						is_republic = yes
 						AND = {
 							is_theocracy = yes
-							NOT = { religion_group = muslim }
 						}
 					}
 				}
@@ -1466,7 +1385,6 @@ succession_laws = {
 				holder_scope = { is_theocracy = no }
 				holder_scope = { 
 					NOT = { religion = catholic }
-					NOT = { religion = fraticelli }
 				}
 			}
 			holder_scope = { 
@@ -1489,7 +1407,6 @@ succession_laws = {
 					has_law = succ_hre_elective
 				}
 			}
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}
 		
@@ -1514,7 +1431,6 @@ succession_laws = {
 			holder_scope = {
 				OR = {
 					religion = catholic
-					religion = fraticelli
 				}
 				is_merchant_republic = no
 				OR = {
@@ -1528,7 +1444,6 @@ succession_laws = {
 				}
 			}
 			is_primary_type_title = no
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}
 		effect = {
@@ -1553,7 +1468,6 @@ succession_laws = {
 			holder_scope = {
 				is_merchant_republic = yes
 			}
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}
 		effect = {
@@ -1582,7 +1496,6 @@ succession_laws = {
 		potential = {
 			holder_scope = {
 				top_liege = { is_offmap_governor = yes }
-				government = confucian_bureaucracy # To use this with future offmap powers, use an OR clause here with the new government types
 			}
 		}
 		effect = {
@@ -1619,8 +1532,6 @@ gender_laws = {
 				}
 				OR = {
 					AND = {
-						NOT = { religion_group = muslim }
-						NOT = { religion = aztec }
 						has_horde_culture = no
 						#is_tribal = no
 						is_nomadic = no
@@ -1711,15 +1622,10 @@ gender_laws = {
 			modifier = {
 				factor = 100
 				holder_scope = {
-					NOR = {
-						religion_group = christian
-						religion = west_african_pagan
-						religion = west_african_pagan_reformed
-						AND = {
-							culture_group = tibetan_group
-							NOT = { religion = taoist }
-							NOT = { culture = tangut }
-						}
+					OR = {
+						religion = haredi
+						religion = wahhabi
+						
 					}
 					primary_title = {
 						NOT = { has_law = status_of_women_3 }
@@ -1748,8 +1654,6 @@ gender_laws = {
 				holder_scope = {
 					OR = {
 						AND = {
-							NOT = { religion_group = muslim }
-							NOT = { religion = aztec }
 							has_horde_culture = no
 							#is_tribal = no
 							is_nomadic = no
@@ -1803,12 +1707,9 @@ gender_laws = {
 			OR = {
 				holder_scope = {
 					OR = {
-						culture = basque
-						culture = zhangzhung
-						culture = sumpa
-						religion = cathar
-						religion = messalian
-						religion = mazdaki
+						religion = haskalah
+						religion = neuhumanist
+						religion = glorian
 						has_religion_feature = religion_equal
 					}
 				}

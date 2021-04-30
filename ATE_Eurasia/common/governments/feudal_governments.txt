@@ -42,6 +42,7 @@ feudal_governments = {
 					}
 				}
 			}
+			NOT = { is_government_potential = diwan_government }
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = bureaucratic_government }
 			NOT = { is_government_potential = order_government }
@@ -445,7 +446,7 @@ feudal_governments = {
 				religion_group = islamosyncretic 
 				AND = { 
 					religion_group = muslim
-					NOT = {religion = ruhi}
+					NOT = { religion = ruhi }
 					NOT = { religion = ibadi }
 				}
 			}
@@ -685,7 +686,17 @@ feudal_governments = {
 					}
 					NOT = { religion = ibadi }
 				}
+				top_liege = {
+					government = diwan_government
+					OR = {
+					tier = COUNT
+					tier = DUKE
+					tier = KING
+					tier = EMPEROR
+					}
+				}
 			}
+			
 			#has_law = succ_ghazi_elective
 			NOT = { is_government_potential = romanipen_government }
 			NOT = { is_government_potential = roman_imperial_government }
@@ -737,10 +748,7 @@ feudal_governments = {
 		max_vassal_tax = 0.4
 		max_vassal_levy = 0.4
 		commanders = -2
-		character_modifier = {
-			stewardship = 3
-			learning = 1
-		}
+
 	}
 	ibadi_imamate = {
 		preferred_holdings = { CASTLE }
@@ -819,10 +827,10 @@ feudal_governments = {
 		frame_suffix = "_romanipen"
 		title_prefix = "romanipen_"
 		potential = {
-					OR = {
+				OR = {
 					culture_group = rom
 					culture = pavee
-					}
+				}
 			is_patrician = no
 		}
 		
