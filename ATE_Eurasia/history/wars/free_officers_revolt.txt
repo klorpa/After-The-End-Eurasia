@@ -1,0 +1,26 @@
+name = "Free Officers Revolt"
+
+casus_belli={
+	casus_belli=free_officers_revolt
+	actor=3603033
+	recipient=3603028
+	landed_title=k_egypt
+	date=2660.1.1
+}
+
+# In civil wars defender MUST be added before attacker!
+2666.1.1 = {
+	add_defender = 3603028
+	add_attacker = 3603033
+	start_war = yes
+	vassal_liege = {
+		vassal = 3603033
+		liege = 3603028
+	}
+}
+
+2667.12.20= {
+	end_war = yes
+	rem_attacker = 3603033
+	rem_defender = 3603028
+}
