@@ -1230,6 +1230,18 @@ succession_laws = {
 				}
 				has_law = centralization_4
 			}
+			OR = {
+					is_feudal = yes
+					custom_tooltip = { 
+						text = TT_IS_NEPMESE
+						hidden_tooltip = {
+							NOR = { 
+								religion = nepmese
+								religion = nepmese_reformed
+							}
+						}
+					}
+				}
 		}
 		
 		effect = {
