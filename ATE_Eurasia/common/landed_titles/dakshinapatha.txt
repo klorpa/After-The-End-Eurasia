@@ -1471,10 +1471,10 @@ e_dashkinapatha = {
 		color={ 201 59 109 }
 		color2={ 255 255 255 }
 		
-		capital = 2255 # c_colombo
+		capital = 2255 # c_kandy
 		culture = sinhala
 		
-		d_colombo = {
+		d_kotte = {
 			color={ 181 79 99 }
 			color2={ 255 255 255 }
 			
@@ -1486,9 +1486,9 @@ e_dashkinapatha = {
 				
 				b_kotte = {
 				}
-				b_colombo = {
+				b_gangaramaya = {
 				}
-				b_gampaha = {
+				b_colombo = {
 				}
 				b_panadura = {
 				}
@@ -1518,6 +1518,32 @@ e_dashkinapatha = {
 				b_dharga = {
 				}
 			}
+			c_sabaragamuwa = { # 2256
+				color={ 226 149 155 }
+				color2={ 255 255 255 }
+				
+				b_ratnapura = {
+				}
+				b_sri_pada = {
+				}
+				b_embilipitiya = {
+				}
+				b_balangoda = {
+				}
+				b_mawanella = {
+				}
+				b_rambukkana = {
+				}
+				b_kalawana = {
+				}
+			}
+		}
+		d_kandy = {
+			color={ 176 108 142 }
+			color2={ 255 255 255 }
+			
+			capital = 2258 # c_kandy
+			
 			c_matara = { # 2257
 				color={ 255 169 140 }
 				color2={ 255 255 255 }
@@ -1537,32 +1563,13 @@ e_dashkinapatha = {
 				b_ambalangoda = {
 				}
 			}
-			c_sabaragamuwa = { # 2256
-				color={ 226 149 155 }
-				color2={ 255 255 255 }
-				
-				b_ratnapura = {
-				}
-				b_kegalle = {
-				}
-				b_embilipitiya = {
-				}
-				b_balangoda = {
-				}
-				b_mawanella = {
-				}
-				b_rambukkana = {
-				}
-				b_kalawana = {
-				}
-			}
 			c_uva = { # 2277
 				color={ 255 203 185 }
 				color2={ 255 255 255 }
 				
 				b_badulla = {
 				}
-				b_monaragala = {
+				b_kataragama = {
 				}
 				b_haputale = {
 				}
@@ -1575,22 +1582,15 @@ e_dashkinapatha = {
 				b_mahiyanganaya = {
 				}
 			}
-		}
-		d_kandy = {
-			color={ 176 108 142 }
-			color2={ 255 255 255 }
-			
-			capital = 2258 # c_kandy
-			
 			c_kandy = { # 2258
 				color={ 186 98 147 }
 				color2={ 255 255 255 }
 				
 				b_kandy = {
 				}
-				b_matale = {
+				b_sri_dalada_maligawa = {
 				}
-				b_nuwara_eliya = {
+				b_matale = {
 				}
 				b_dambulla = {
 				}
@@ -1601,17 +1601,42 @@ e_dashkinapatha = {
 				b_nawalapitiya = {
 				}
 			}
+			c_batticaloa = { # 2260
+				color={ 216 62 79 }
+				color2={ 255 255 255 }
+				
+				b_batticaloa = {
+				}
+				b_kalmunai = {
+				}
+				b_ampara = {
+				}
+				b_kattankudy = {
+				}
+				b_eravur = {
+				}
+				b_chenkalady = {
+				}
+				b_dehiattakandiya = {
+				}
+			}
+		}
+		d_rajarata = {
+			color={ 132 100 150 }
+			color2={ 255 255 255 }
+			
+			capital = 2251 # c_anuradhapura
 			c_anuradhapura = { # 2251
 				color={ 255 143 104 }
 				color2={ 255 255 255 }
 				
 				b_anuradhapura = {
 				}
-				b_polonnaruwa = {
+				b_jaya_sri_maha_bodhi = {
 				}
 				b_nuwaragam_palatha = {
 				}
-				b_medirigiriya = {
+				b_miriswetiya = {
 				}
 				b_hingurakgoda = {
 				}
@@ -1659,11 +1684,11 @@ e_dashkinapatha = {
 				}
 			}
 		}
-		d_tamil_eelam = {
+		d_jaffna = {
 			color={ 245 245 223 }
 			color2={ 255 255 255 }
 			
-			capital = 2250 # c_trincomalee
+			capital = 2249 # c_jaffna
 			
 			c_trincomalee = { # 2250
 				color={ 255 235 228 }
@@ -1684,25 +1709,6 @@ e_dashkinapatha = {
 				b_seruvila = {
 				}
 			}
-			c_batticaloa = { # 2260
-				color={ 216 62 79 }
-				color2={ 255 255 255 }
-				
-				b_batticaloa = {
-				}
-				b_kalmunai = {
-				}
-				b_ampara = {
-				}
-				b_kattankudy = {
-				}
-				b_eravur = {
-				}
-				b_chenkalady = {
-				}
-				b_dehiattakandiya = {
-				}
-			}
 			c_jaffna = { # 2249
 				color={ 255 63 0 }
 				color2={ 255 255 255 }
@@ -1711,7 +1717,7 @@ e_dashkinapatha = {
 				}
 				b_kilinochchi = {
 				}
-				b_mullaitivu = {
+				b_sri_nagapushani = {
 				}
 				b_kopay = {
 				}
