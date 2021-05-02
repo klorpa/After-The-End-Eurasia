@@ -366,3 +366,26 @@ d_hajdu_company = {
 	
 	mercenary_type = d_hajdu_company_composition
 }
+d_hemshinli = {
+
+	color = { 46 13 154 }
+	color2 = { 255 255 255 }
+	
+	capital = 2108 #Rize
+	
+	short_name = yes
+	
+	culture = armenian
+	religion = ruhi
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = d_hemshinli_composition
+}
