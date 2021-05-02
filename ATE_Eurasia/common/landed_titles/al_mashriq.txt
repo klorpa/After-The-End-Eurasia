@@ -40,20 +40,6 @@ e_al_mashriq = {
 				b_ar_rashid = {}
 				b_nissan = {}
 			}
-			c_babil = { # 2028
-				color={ 47 117 12 }
-				color2={ 255 255 255 }
-				
-				holy_site = nestorian
-				
-				b_al_hillah = {}
-				b_risafa = {}
-				b_al_kifl = {}
-				b_al_hashimiyah_IRQ = {}
-				b_al_midhatiyah = {}
-				b_al_latifiyah = {}
-				b_al_qasim = {}
-			}
 			c_diyala = { # 2027
 				color={ 66 143 29 }
 				color2={ 255 255 255 }
@@ -65,21 +51,6 @@ e_al_mashriq = {
 				b_balad_ruz = {}
 				b_kifri = {}
 				b_nahrawan = {}
-			}
-			c_karbala = { # 2029
-				color={ 80 156 42 }
-				color2={ 255 255 255 }
-				
-				holy_site = zaydi
-				holy_site = ismaili
-				
-				b_karbala = {}
-				b_al_hindiya = {}
-				b_ayn_at_tamr = {}
-				b_rahhaliyah = {}
-				b_haideridh = {}
-				b_amiriyat_fallujah = {}
-				b_hasai = {}
 			}
 			c_salah_ad_din = { # 2025
 				color={ 65 130 33 }
@@ -104,6 +75,18 @@ e_al_mashriq = {
 				b_azim = {}
 				b_sulayman_beg = {}
 				b_maftul = {}
+			}
+			c_al_kut = { # 2052
+				color={ 75 87 68 }
+				color2={ 255 255 255 }
+				
+				b_al_kut = {}
+				b_al_aziziyah = {}
+				b_badra = {}
+				b_gassan = {}
+				b_badra_spend = {}
+				b_sheikh_sad = {}
+				b_mazraat_as_suwaira = {}
 			}
 		}
 		d_anbar = {
@@ -161,12 +144,24 @@ e_al_mashriq = {
 				b_al_kasrah = {}
 			}
 		}
-		d_al_hajarah = {
+		d_an_najaf_al_ashraf = {
 			color={ 135 198 119 }
 			color2={ 255 255 255 }
 			
-			capital = 2034 # c_al_muthanna
+			capital = 2033 # c_an_najaf
 			
+			c_al_qadisiyyah = { # 2050
+				color={ 48 67 36 }
+				color2={ 255 255 255 }
+				
+				b_al_diwaniyah = {}
+				b_ash_shamiya = {}
+				b_afak = {}
+				b_hamza = {}
+				b_ghammas = {}
+				b_al_aslaha = {}
+				b_ad_dair = {}
+			}
 			c_al_muthanna = { # 2034
 				color={ 127 142 120 }
 				color2={ 255 255 255 }
@@ -194,6 +189,35 @@ e_al_mashriq = {
 				b_al_qadisiyyah = {}
 				b_abu_sakhair = {}
 				b_al_shakabah = {}
+			}
+			c_babil = { # 2028
+				color={ 47 117 12 }
+				color2={ 255 255 255 }
+				
+				holy_site = nestorian
+				
+				b_al_hillah = {}
+				b_risafa = {}
+				b_al_kifl = {}
+				b_al_hashimiyah_IRQ = {}
+				b_al_midhatiyah = {}
+				b_al_latifiyah = {}
+				b_al_qasim = {}
+			}
+			c_karbala = { # 2029
+				color={ 80 156 42 }
+				color2={ 255 255 255 }
+				
+				holy_site = zaydi
+				holy_site = ismaili
+				
+				b_karbala = {}
+				b_al_hindiya = {}
+				b_ayn_at_tamr = {}
+				b_rahhaliyah = {}
+				b_haideridh = {}
+				b_amiriyat_fallujah = {}
+				b_hasai = {}
 			}
 		}
 		d_al_jazira = {
@@ -368,30 +392,6 @@ e_al_mashriq = {
 				b_az_zubayr = {}
 				b_jaykur = {}
 				b_shuaiba = {}
-			}
-			c_al_qadisiyyah = { # 2050
-				color={ 48 67 36 }
-				color2={ 255 255 255 }
-				
-				b_al_diwaniyah = {}
-				b_ash_shamiya = {}
-				b_afak = {}
-				b_hamza = {}
-				b_ghammas = {}
-				b_al_aslaha = {}
-				b_ad_dair = {}
-			}
-			c_al_kut = { # 2052
-				color={ 75 87 68 }
-				color2={ 255 255 255 }
-				
-				b_al_kut = {}
-				b_al_aziziyah = {}
-				b_badra = {}
-				b_gassan = {}
-				b_badra_spend = {}
-				b_sheikh_sad = {}
-				b_mazraat_as_suwaira = {}
 			}
 			c_dhi_qar = { # 2049
 				color={ 83 101 72 }
