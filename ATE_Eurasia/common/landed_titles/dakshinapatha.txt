@@ -608,6 +608,72 @@ e_dashkinapatha = {
 		}
 	}
 	
+	k_maldives = {
+		color={ 14 228 11 }
+		color2={ 255 255 255 }
+		
+		capital = 1594 #Male
+		culture = dhivehi
+		
+		d_maldives = {
+			color={ 241 90 125 }
+			color2={ 255 255 255 }
+			
+			capital = 1594 #Male
+			
+			c_male = {	#1594
+				color={ 201 130 100 }
+				color2={ 255 255 255 }
+				
+				b_male = {}
+				b_thinadhoo = {}
+				b_kaashidhoo = {}
+				b_keyodhoo = {}
+				b_maafushi = {}
+				b_mulah = {}
+				b_guraidhoo = {}
+			}
+			
+			c_huvadhu = {	#1593
+				color={ 245 85 65 }
+				color2={ 255 255 255 }
+				
+				b_addu = {}
+				b_fuvahmulah = {}
+				b_hithadhoo = {}
+				b_madaveli = {}
+				b_gadhdhoo = {}
+				b_viligili = {}
+				b_thinadhoo_2 = {}
+			}
+			
+			c_thiladhunmathi = {	#1591
+				color={ 187 53 35 }
+				color2={ 255 255 255 }
+				
+				b_kulhudhuffushi = {}
+				b_naifaru = {}
+				b_hinnavaru = {}
+				b_dhuvaafaru = {}
+				b_dhidhdhoo = {}
+				b_ihavandhoo = {}
+				b_nolhivaramu = {}
+			}
+			
+			c_nilandhe = {	#1592
+				color={ 216 133 125 }
+				color2={ 255 255 255 }
+				
+				b_gan = {}
+				b_gamu = {}
+				b_maamigili = {}
+				b_guraidhoo_2 = {}
+				b_kudahuvadhoo = {}
+				b_fonadhoo = {}
+				b_thoddoo = {}
+			}
+		}
+	}
 	k_kerala = {
 		color={ 164 228 191 }
 		color2={ 255 255 255 }
@@ -615,6 +681,25 @@ e_dashkinapatha = {
 		capital = 2236 # c_thiruvananthapuram
 		culture = malayali
 		
+		d_lakshadweep = {
+			color={ 244 148 81 }
+			color2={ 255 255 255 }
+			
+			capital = 1590 # c_lakshadweep
+			
+			c_lakshadweep = {	#1590
+				color={ 251 185 53 }
+				color2={ 255 255 255 }
+				
+				b_kavaratti = {}
+				b_andrott = {}
+				b_agatti = {}
+				b_maliku = {}
+				b_amini = {}
+				b_kadmat = {}
+				b_kiltan = {}
+			}
+		}
 		d_travancore = {
 			color={ 144 248 181 }
 			color2={ 255 255 255 }
@@ -864,77 +949,6 @@ e_dashkinapatha = {
 				}
 				b_pattambi = {
 				}
-			}
-		}
-		d_maldives = {
-			color={ 241 90 125 }
-			color2={ 255 255 255 }
-			
-			capital = 1594 #Male
-			
-			c_male = {	#1594
-				color={ 201 130 100 }
-				color2={ 255 255 255 }
-				
-				b_male = {}
-				b_thinadhoo = {}
-				b_kaashidhoo = {}
-				b_keyodhoo = {}
-				b_maafushi = {}
-				b_mulah = {}
-				b_guraidhoo = {}
-			}
-			
-			c_huvadhu = {	#1593
-				color={ 245 85 65 }
-				color2={ 255 255 255 }
-				
-				b_addu = {}
-				b_fuvahmulah = {}
-				b_hithadhoo = {}
-				b_madaveli = {}
-				b_gadhdhoo = {}
-				b_viligili = {}
-				b_thinadhoo_2 = {}
-			}
-			
-			c_thiladhunmathi = {	#1591
-				color={ 187 53 35 }
-				color2={ 255 255 255 }
-				
-				b_kulhudhuffushi = {}
-				b_naifaru = {}
-				b_hinnavaru = {}
-				b_dhuvaafaru = {}
-				b_dhidhdhoo = {}
-				b_ihavandhoo = {}
-				b_nolhivaramu = {}
-			}
-			
-			c_nilandhe = {	#1592
-				color={ 216 133 125 }
-				color2={ 255 255 255 }
-				
-				b_gan = {}
-				b_gamu = {}
-				b_maamigili = {}
-				b_guraidhoo_2 = {}
-				b_kudahuvadhoo = {}
-				b_fonadhoo = {}
-				b_thoddoo = {}
-			}
-			
-			c_lakshadweep = {	#1590
-				color={ 251 185 53 }
-				color2={ 255 255 255 }
-				
-				b_kavaratti = {}
-				b_andrott = {}
-				b_agatti = {}
-				b_maliku = {}
-				b_amini = {}
-				b_kadmat = {}
-				b_kiltan = {}
 			}
 		}
 	}
