@@ -1145,9 +1145,8 @@ succession_laws = {
 				AND = {
 					is_nomadic = no
 					OR = {
-						title = e_mongol_empire
-						title = e_golden_horde
-						title = e_il-khanate
+						title = e_mongolia
+						title = e_turkestan
 					}
 				}
 			}
@@ -1231,17 +1230,17 @@ succession_laws = {
 				has_law = centralization_4
 			}
 			OR = {
-					is_feudal = yes
-					custom_tooltip = { 
-						text = TT_IS_NEPMESE
-						hidden_tooltip = {
-							NOR = { 
-								religion = nepmese
-								religion = nepmese_reformed
-							}
+				is_feudal = yes
+				custom_tooltip = { 
+					text = TT_IS_NEPMESE
+					hidden_tooltip = {
+						OR = { 
+							religion = nepmese
+							religion = nepmese_reformed
 						}
 					}
 				}
+			}
 		}
 		
 		effect = {
@@ -1637,7 +1636,7 @@ gender_laws = {
 					OR = {
 						religion = haredi
 						religion = ahlul_hadith
-						reilgion = revivalist
+						religion = revivalist
 					}
 					primary_title = {
 						NOT = { has_law = status_of_women_3 }

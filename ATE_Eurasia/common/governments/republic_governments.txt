@@ -144,10 +144,6 @@ republic_governments = {
 				}
 				liege = { government = pirate_government }
 			}
-			OR = {
-				independent = yes
-				liege = { government = pirate_government }
-			}
 			controls_religion = no
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
