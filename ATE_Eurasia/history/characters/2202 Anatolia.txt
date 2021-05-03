@@ -549,10 +549,11 @@
 	2100.1.1={death=yes}
 }
 
+#Claims descent from the Pre-Event Osmanoglu (not actually)
 2202048={
 	name="Büyükbaba Osman"
 	father=2202047
-	dynasty=2052000 #Osmanoglu
+	dynasty=2057009 #Post-Event Osmanoglu
 	culture=rumelian
 	religion=nizami
 	trait=legendary 
@@ -561,7 +562,7 @@
 	2580.1.1={death=yes}
 }
 
-2202049={ #Claims descent from the Pre-Event Osmanoglu (not actually)
+2202049={
 	name="Yahya"
 	father=2202048
 	dynasty=2057009
@@ -611,16 +612,13 @@
 2202054={
 	name="Hatice"
 	female=yes
-	father=2202048
+	father=2202053
 	dynasty=2057009
 	culture=eastafrican
 	religion=nizami
 	2610.1.1 = {
 		birth=yes 
 		culture=central_anatolian
-	}
-	2635.1.1 = {
-		add_matrilineal_spouse = 2202055
 	}
 	2660.1.1 = {death=yes}
 }
@@ -630,6 +628,9 @@
 	culture=rumelian
 	religion=nizami
 	2610.1.1 = {birth=yes}
+	2635.1.1 = {
+		add_spouse = 2202054
+	}
 	2660.1.1 = {death=yes}
 }
 
