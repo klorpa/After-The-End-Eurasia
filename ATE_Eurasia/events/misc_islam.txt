@@ -1034,11 +1034,12 @@ narrative_event = { #Turns these Sunni Religions into Heresies
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_islamate30
-
+		name = EVTOPTA_islamate32
+		
 		set_parent_religion = { religion = sunni parent = sunnah }
 		set_parent_religion = { religion = nizami parent = sunnah }
 		set_parent_religion = { religion = ruhi parent = sunnah }
+		set_parent_religion = { religion = ahl_as_salah parent = sunnah }
 		
 		hidden_tooltip = {
 			any_playable_ruler = {
@@ -1047,6 +1048,7 @@ narrative_event = { #Turns these Sunni Religions into Heresies
 						religion = sunni
 						religion = nizami
 						religion = ruhi
+						religion = ahl_as_salah
 					}
 					controls_religion = no
 				}
@@ -1076,6 +1078,7 @@ narrative_event = {
 						religion = sunni
 						religion = nizami
 						religion = ruhi
+						religion = ahl_as_salah
 					}
 				liege = { character = ROOT }
 			}
