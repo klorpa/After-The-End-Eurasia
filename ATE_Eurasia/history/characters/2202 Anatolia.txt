@@ -561,10 +561,10 @@
 	2580.1.1={death=yes}
 }
 
-2202049={
+2202049={ #Claims descent from the Pre-Event Osmanoglu (not actually)
 	name="Yahya"
 	father=2202048
-	dynasty=2052000
+	dynasty=2057009
 	culture=west_anatolian
 	religion=ruhi
 	2575.1.1 = {birth=yes}
@@ -573,7 +573,7 @@
 2202050={
 	name="Mehmed"
 	father=2202048
-	dynasty=2052000
+	dynasty=2057009
 	culture=rumelian
 	religion=nizami
 	2578.1.1 = {birth=yes}
@@ -582,7 +582,7 @@
 2202051={
 	name="Bayezid"
 	father=2202050
-	dynasty=2052000
+	dynasty=2057009
 	culture=rumelian
 	religion=nizami
 	2610.1.1 = {birth=yes}
@@ -602,30 +602,34 @@
 2202053={
 	name="Selim"
 	father=2202048
-	dynasty=2052000
+	dynasty=2057009
 	culture=central_anatolian
 	religion=nizami
 	2579.1.1 = {birth=yes}
 	2630.1.1 = {death=yes}
 }
 2202054={
-	name="Murad"
-	father=2202053
-	dynasty=2052000
-	culture=central_anatolian
+	name="Hatice"
+	female=yes
+	father=2202048
+	dynasty=2057009
+	culture=eastafrican
 	religion=nizami
-	2610.1.1 = {birth=yes}
+	2610.1.1 = {
+		birth=yes 
+		culture=central_anatolian
+	}
 	2635.1.1 = {
-		add_spouse = 2202055
+		add_matrilineal_spouse = 2202055
 	}
 	2660.1.1 = {death=yes}
 }
 2202055={
-	name="Hatice"
-	female=yes
-	culture=eastafrican
+	name="Murad"
+	dynasty=2057010 #Esref
+	culture=rumelian
 	religion=nizami
-	2610.1.1 = {birth=yes	culture=central_anatolian}
+	2610.1.1 = {birth=yes}
 	2660.1.1 = {death=yes}
 }
 
@@ -633,7 +637,7 @@
 
 2202056={#Ottoman Claimant
 	name="Suleyman"
-	dynasty=2052000 #Osmanoglu
+	dynasty=2057009 #Osmanoglu
 	culture=rumelian
 	religion=nizami
 	father=2202051
@@ -667,13 +671,47 @@
 	trait=grey_eminence
 	2643.11.6={birth=yes}
 }
-
-2202058={#Ottoman Claimant
+2202069={#Eldest Son of Suleyman
+	name="Mustafa"
+	dynasty=2057009 #Osmanoglu
+	culture=rumelian
+	religion=nizami
+	father=2202056
+	2660.11.6={ birth=yes }
+}
+2202106={#Second Son of Suleyman
+	name="Mehmet"
+	dynasty=2057009 #Osmanoglu
+	culture=rumelian
+	religion=nizami
+	father=2202056
+	mother=2202057
+	2662.11.6={ birth=yes }
+}
+2202107={#Daughter of Suleyman
+	name="Mihrimah"
+	dynasty=2057009 #Osmanoglu
+	culture=rumelian
+	religion=nizami
+	female=yes
+	father=2202056
+	mother=2202057
+	2663.11.6={ birth=yes }
+}
+2202108={#Third Son of Suleyman
+	name="Selim"
+	dynasty=2057009 #Osmanoglu
+	culture=rumelian
+	religion=nizami
+	father=2202056
+	mother=2202057
+	2665.11.6={ birth=yes }
+}
+2202058={#Family who lost land to the Post-Event Osmanoglu
 	name="Baris"
-	dynasty=2052000 #Osmanoglu
+	dynasty=2055005 #Kemal
 	culture=west_anatolian
 	religion=ruhi
-	father=2202049
 	trait=poet
 	trait=drunkard
 	trait=ill
@@ -682,10 +720,15 @@
 	trait=shrewd
 	trait=indulgent_wastrel
 	2600.6.9={birth=yes}
+	2660.10.10={
+		effect = {
+			add_claim = d_marmara
+		}
+	}
 }
 2202059={#Baris's Son
 	name="Mahmud"
-	dynasty=2052000 #Osmanoglu
+	dynasty=2055005 #Kemal
 	culture=west_anatolian
 	religion=ruhi
 	father=2202058
@@ -697,18 +740,17 @@
 	trait=tough_soldier
 	2647.6.9={birth=yes}
 }
-2202060={#Ottoman Claimant
+2202060={#Matrilineal Connected to the Post-Event Osmanoglu
 	name="Zenci Musa"
-	dynasty=2052000 #Osmanoglu
-	father=2202054
-	mother=2202055
+	dynasty=2057010 #Esref
+	father=2202055
+	mother=2202054
 	culture=eastafrican
 	religion=nizami
-	#trait=muslim_mystic
 	trait=zealous
 	trait=ambitious
 	trait=patient
-	#trait=mevlevi
+	trait=mevlevi
 	2643.11.6={
 		birth=yes
 		culture = central_anatolian
@@ -770,13 +812,6 @@
 	dynasty=2055004 #Burakgazi
 	culture=west_anatolian
 	religion=ruhi
-	2638.11.6={ birth=yes }
-}
-2202069={#Istanbul Strongman
-	name="Nazim"
-	dynasty=2057000 #Kartal
-	culture=rumelian
-	religion=nizami
 	2638.11.6={ birth=yes }
 }
 2202070={#Corum Strongman
@@ -980,7 +1015,7 @@
 	religion = nizami
 	trait = scholarly_theologian
 	trait = quick
-	trait = devout
+	trait = pious
 	trait = erudite
 	trait = proud
 	2638.11.6={ birth=yes }
@@ -1100,7 +1135,7 @@
 	trait = cruel
 	2640.11.2 = { birth = yes }
 }
-2202102 = { # Count of Istanbul
+2202102 = { # Count of Bolu
 	name = "Semsettin" 
 	culture = rumelian
 	religion = nizami
@@ -1109,7 +1144,46 @@
 	trait = mystic
 	trait = frail
 	trait = temperate
-	trait = devout
+	trait = pious
 	trait = diligent
 	2640.11.2 = { birth = yes }
-}	
+}
+2202103 = { # Count of Kutahya
+	name = "Mehmed" 
+	culture = west_anatolian
+	religion = nizami
+	dynasty = 2055006 #Evliya
+	trait = scholarly_theologian
+	trait = ambitious
+	trait = brave
+	trait = pious
+	trait = scholar
+	trait = diligent
+	2640.11.2 = { birth = yes }
+}
+2202104 = { # Count of Eskishehir
+	name = "Fahrettin" 
+	culture = west_anatolian
+	religion = ruhi
+	dynasty = 2055007 #Cüneyt
+	trait = tough_soldier
+	trait = strong
+	trait = brave
+	trait = robust
+	trait = just
+	trait = humble
+	2640.11.2 = { birth = yes }
+}
+2202105 = { # Count of Bursa
+	name = "Karim Enes" 
+	culture = west_anatolian
+	religion = nizami
+	dynasty = 2055008 #Kanter
+	trait = tough_soldier
+	trait = strong
+	trait = brave
+	trait = robust
+	trait = ambitious
+	trait = strong
+	2640.11.2 = { birth = yes }
+}

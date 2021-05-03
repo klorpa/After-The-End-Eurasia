@@ -15593,7 +15593,7 @@
 2051120 = { name="Kipiani" culture=georgian }
 2051121 = { name="Lionidze" culture=georgian }
 
-2052000 = { name="Osmanoglu" culture=central_anatolian 
+2052000 = { name="Osmanoglu" culture=central_anatolian #The Actual Osmanoglu
 	coat_of_arms = { 
 		religion = nizami
 		template = 0
@@ -15780,6 +15780,10 @@
 2055002 = { name="Ulukaya" culture=west_anatolian }
 2055003 = { name="Polat" culture=west_anatolian }
 2055004 = { name="Burakgazi" culture=west_anatolian }
+2055005 = { name="Kemal" culture=west_anatolian }
+2055006 = { name="Evliya" culture=west_anatolian }
+2055007 = { name="Cüneyt" culture=west_anatolian }
+2055008 = { name="Kanter" culture=west_anatolian }
 
 2056000 = { name="Menderes" culture=romioi }
 2056001 = { name="Skliros" culture=romioi }
@@ -15860,7 +15864,21 @@
 2057006 = { name="Hurrem" culture=rumelian }
 2057007 = { name="Namik" culture=rumelian }
 2057008 = { name="Namik" culture=rumelian }
-
+2057009 = { name="Osmanoglu" culture=rumelian #The 2666 Ones
+	coat_of_arms = { 
+		religion = nizami
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2057010 = { name="Esref" culture=rumelian }
 
 2058000 = { name="Coudenhove" culture=flemish
 	coat_of_arms = { 
