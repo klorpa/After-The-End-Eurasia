@@ -450,42 +450,7 @@ e_visegrad = {
 				b_pocatky = {}
 				b_merin = {}
 			}
-		}
-		
-		d_moravia_silesia = {
-			color={ 225 120 100 }
-			color2={ 255 255 255 }
-			
-			capital = 1025 #Olomouc
-			
-			czech="Moravskoslezsko"
-			moravian="Moravskoslezsko"
-			
-			c_ostrava = {
-				color={ 233 143 77 }
-				color2={ 255 255 255 }
-
-				b_ostrava = {}
-				b_novy_jicin = {}
-				b_mosnov = {}
-				b_havirov = {}
-			}
-			c_opava = {
-				color={ 233 140 90 }
-				color2={ 255 255 255 }
-
-				b_opava = {}
-				b_bruntal = {}
-				b_krnov = {}
-			}
-			c_beskidenland = {
-				color={ 204 127 79 }
-				color2={ 255 255 255 }
-
-				b_bielsko_biala = {}
-			}
-		}
-		
+		}		
 		d_severovychod = {
 			color={ 210 100 40 }
 			color2={ 255 255 255 }
@@ -839,6 +804,49 @@ e_visegrad = {
 				b_darlowo = {}
 				b_swidwin = {}
 				b_zlocieniec = {}
+			}
+		}
+		d_lubusz = {
+			color={ 131 191 46 }
+			color2={ 255 255 255 }
+		
+			capital = 2660 #Miedzyrzecz
+					
+			c_miedzyrzecz = {
+				color={ 155 113 75 }
+				color2={ 255 255 255 }
+				
+				b_miedzyrzecz = {}
+				b_swiebodzin = {}
+				b_slubice = {}
+				b_krosno_odrzanskie = {}
+				b_rzepin = {}
+				b_sulecin = {}
+				b_zbaszynek = {}
+			}
+			c_gorzow = {
+				color={ 131 141 47 }
+				color2={ 255 255 255 }
+				
+				b_gorzow_wielkopolski = {}
+				b_kostrzyn_nad_odra = {}
+				b_drezdenko = {}
+				b_witnica = {}
+				b_strzelce_krajenskie = {}
+				b_rozanki = {}
+				b_dobiegniew = {}
+			}
+			c_zielona_gora = {
+				color={ 122 191 49 }
+				color2={ 255 255 255 }
+				
+				b_nowa_sol = {}
+				b_zielona_gora = {}
+				b_zary = {}
+				b_zagan = {}
+				b_sulechow = {}
+				b_gubin = {}
+				b_lubsko = {}
 			}
 		}
 		d_greater_poland = {
@@ -1340,47 +1348,37 @@ e_visegrad = {
 				b_olesno = {}
 			}
 		}
-		d_lubusz = {
-			color={ 131 191 46 }
+		d_moravia_silesia = {
+			color={ 225 120 100 }
 			color2={ 255 255 255 }
-		
-			capital = 2660 #Miedzyrzecz
-					
-			c_miedzyrzecz = {
-				color={ 155 113 75 }
+			
+			capital = 1025 #Olomouc
+			
+			czech="Moravskoslezsko"
+			moravian="Moravskoslezsko"
+			
+			c_ostrava = {
+				color={ 233 143 77 }
 				color2={ 255 255 255 }
-				
-				b_miedzyrzecz = {}
-				b_swiebodzin = {}
-				b_slubice = {}
-				b_krosno_odrzanskie = {}
-				b_rzepin = {}
-				b_sulecin = {}
-				b_zbaszynek = {}
+
+				b_ostrava = {}
+				b_novy_jicin = {}
+				b_mosnov = {}
+				b_havirov = {}
 			}
-			c_gorzow = {
-				color={ 131 141 47 }
+			c_opava = {
+				color={ 233 140 90 }
 				color2={ 255 255 255 }
-				
-				b_gorzow_wielkopolski = {}
-				b_kostrzyn_nad_odra = {}
-				b_drezdenko = {}
-				b_witnica = {}
-				b_strzelce_krajenskie = {}
-				b_rozanki = {}
-				b_dobiegniew = {}
+
+				b_opava = {}
+				b_bruntal = {}
+				b_krnov = {}
 			}
-			c_zielona_gora = {
-				color={ 122 191 49 }
+			c_beskidenland = {
+				color={ 204 127 79 }
 				color2={ 255 255 255 }
-				
-				b_nowa_sol = {}
-				b_zielona_gora = {}
-				b_zary = {}
-				b_zagan = {}
-				b_sulechow = {}
-				b_gubin = {}
-				b_lubsko = {}
+
+				b_bielsko_biala = {}
 			}
 		}
 	}
