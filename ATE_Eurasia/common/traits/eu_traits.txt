@@ -1087,3 +1087,21 @@ shafii = {
 	religious = yes
 	ruler_designer_cost = 0
 }
+waqil = {
+	martial = 1
+	monthly_character_piety = 0.50
+	monthly_character_prestige = 0.50
+	
+	religious = yes # Lost immediately on religion change
+	
+	potential = {
+		religion = shiite
+		higher_real_tier_than = DUKE
+	}
+	
+	religion_head_opinion = 10
+	shiite_opinion = 10
+	cached = yes
+	customizer = no
+	random = no
+}

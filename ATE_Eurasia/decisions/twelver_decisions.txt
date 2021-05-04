@@ -1,5 +1,70 @@
 targetted_decisions = {
-	become_waqil = {
+	appoint_waqil = {
+		only_playable = yes
+		is_high_prio = yes
+		filter = independent_rulers
+		ai_target_filter = independent_rulers
+		ai_check_interval = 6
+		only_independent = yes
+		
+		from_potential = {
+			religion = shiite
+			controls_religion = yes
+			prisoner = no
+		}
+		potential = {
+			is_playable = yes
+			NOT = { trait = waqil }
+			religion = shiite
+			higher_real_tier_than = DUKE
+		}
+		allow = {
+			war = no
+			FROM = {
+				war = no
+			}
+			OR = {
+				waqil = {
+					relative_realm_size = {
+						who = ROOT
+						size <= 0.95
+					}
+				}
+				NOT = {
+					waqil = {
+						is_alive = yes
+					}
+				}
+			}
+		}
+		effect = {
+			waqil = {
+				limit = { is_alive = yes }
+				character_event = { id = shia.6 }
+			}
+			character_event = { id = shia.5 }
+
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				waqil = {
+					relative_realm_size = {
+						who = ROOT
+						size <= 0.90
+					}
+				}
+			}
+		}
+	}
+	become_waqil_akhbari = {
 		only_playable = yes
 		is_high_prio = yes
 		filter = religious_head

@@ -28,12 +28,14 @@ on_death = {
 		skc.25 #check if failed Royal Touch
 		ottoman.47 #Getting the Sultan Han Trait upon Succession
 		britain.104 #Getting the Fount of Honour Trait upon Succession
+		shia.7 # Getting he Al-Waqil trait
 		#adding shiva events
 	}
 }
 on_new_holder_usurpation = {
 	events = {
 		ottoman.48 #Getting the Sultan Han Trait upon Usurpation
+		shia.8 #Getting the Al-Waqil Trait
 	}
 }
 on_birth = {

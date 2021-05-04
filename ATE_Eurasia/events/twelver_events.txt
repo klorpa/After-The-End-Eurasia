@@ -75,3 +75,88 @@ character_event = {
 		prestige = -50
 	}
 }
+### The Waqil Trait
+
+# al-Waqil Trait Gained
+narrative_event = {
+	id = shia.5
+	title = EVTNAME_al_waqil_1
+	desc = EVTDESC_al_waqil_1
+	picture = GFX_an_najaf
+	
+	only_independent = yes
+	
+	trigger = {
+		NOT = { trait = waqil }
+	}
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = EVTOPTA_al_waqil_1
+		add_trait = waqil
+	}
+}
+
+# al-Waqil Trait Lost
+character_event = {
+	id = shia.6
+	desc = EVTDESC_al_waqil_2
+	picture = GFX_an_najaf
+	
+	has_dlc = "Legacy of Rome"
+		
+	trigger = {
+		trait = waqil
+		is_alive = yes
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_al_waqil_2
+		remove_trait = waqil
+	}
+}
+
+#On_death al-Waqil Trait inheritance
+character_event = {
+	id = shia.7
+	hide_window = yes
+	
+	only_playable = yes
+	has_dlc = "Legacy of Rome"
+	
+	trigger = {
+		trait = waqil
+	}
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		current_heir = { narrative_event = { id = shia.5 days = 1} }
+	}
+}
+
+#On_title_usurped al-Waqil Trait inheritance
+character_event = {
+	id = shia.8
+	hide_window = yes
+	
+	only_playable = yes
+	has_dlc = "Legacy of Rome"
+	
+	trigger = {
+		FROMFROM = { trait = waqil }
+	}
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		ROOT = { character_event = { id = shia.5 days = 1 } }
+		FROMFROM = { character_event = { id = shia.6 days = 1 } }
+	}
+}
