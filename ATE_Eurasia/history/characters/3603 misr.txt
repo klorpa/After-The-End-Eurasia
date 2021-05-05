@@ -375,7 +375,7 @@
 	2610.11.2 = { birth=yes }
 	2635.11.2 = { add_spouse=3603032 }
 	2650.11.1 = { add_claim = k_egypt }
-	2650.11.2 = { death=yes }
+	2662.11.2 = { death=yes }
 }
 3603032 = { 
 	name = "Salma"
@@ -661,7 +661,10 @@
 	trait = patient
 	trait = kind
 	2628.11.2 = { birth=yes }
-	2630.1.1 =  { add_claim = k_egypt }
+	2630.1.1 =  { 
+		add_claim = k_egypt
+		add_claim = d_delta_an_nil
+	}
 	2652.1.1 = { add_spouse = 3603050 }
 }
 3603059 = { 
@@ -680,7 +683,10 @@
 	mother = 3603059
 	trait =twin
 	2657.11.2 = { birth=yes }
-	2660.1.1 =  { add_claim = k_egypt }
+	2660.1.1 =  { 
+		add_claim = k_egypt
+		add_claim = d_delta_an_nil		
+	}
 }
 3603061 = { 
 	name = "Ragheb"
@@ -691,7 +697,10 @@
 	mother = 3603059
 	trait = twin
 	2657.11.2 = { birth=yes }
-	2660.1.1 =  { add_claim = k_egypt }
+	2660.1.1 =  { 
+		add_claim = k_egypt
+		add_claim = d_delta_an_nil
+	}
 }
 
 
