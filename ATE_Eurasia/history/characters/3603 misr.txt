@@ -330,7 +330,10 @@
 	trait = ambitious
 	trait = gluttonous
 	2638.11.2 = { birth=yes }
-	2650.11.1 = { add_claim = k_egypt }
+	2650.11.1 = { 
+		add_claim = k_egypt
+		add_claim = d_al_qahirah
+	}
 }
 3603029 = { 
 	name = "Tewfik"
@@ -345,7 +348,10 @@
 	trait = ambitious
 	trait = erudite
 	2644.11.2 = { birth=yes }
-	2650.11.1 = { add_claim = k_egypt }
+	2650.11.1 = { 
+		add_claim = k_egypt
+		add_claim = d_al_qahirah
+	}
 }
 3603030 = { 
 	name = "Nabila"
@@ -374,7 +380,10 @@
 	trait = brave
 	2610.11.2 = { birth=yes }
 	2635.11.2 = { add_spouse=3603032 }
-	2650.11.1 = { add_claim = k_egypt }
+	2650.11.1 = { 
+		add_claim = k_egypt
+		add_claim = d_al_qahirah
+	}
 	2662.11.2 = { death=yes }
 }
 3603032 = { 
@@ -654,12 +663,12 @@
 	dynasty = 1912033 #Hegazi
 	culture = masri
 	religion = sunni
-	trait = fortune_builder
-	trait = physician
-	trait = sympathy_islam
-	trait = erudite
-	trait = patient
-	trait = kind
+	trait = brilliant_strategist
+	trait = organizer
+	trait = stubborn
+	trait = honest
+	trait = dull
+	trait = diligent
 	2628.11.2 = { birth=yes }
 	2630.1.1 =  { 
 		add_claim = k_egypt
@@ -702,44 +711,158 @@
 		add_claim = d_delta_an_nil
 	}
 }
-
-
-3603065 = { # Duke of as-Sahra al-Gharbia
+3603062 = { # Duke of as-Sahra al-Gharbia
+	name = "Bassem"
+	dynasty = 1912096 #el-Sanadiyah
+	culture = masri
+	religion = sunni
+	trait = charismatic_negotiator
+	trait = content
+	trait = familyperson
+	trait = just
+	trait = kind
+	2610.11.2 = { birth=yes }
+	2635.11.2 = {
+		add_spouse = 3603063
+	}
+}
+3603063 = { 
+	name = "Ghada"
+	culture = masri
+	religion = sunni
+	female = yes
+	2610.11.2 = { birth=yes }
+}
+3603064 = { 
+	name = "Marwa"
+	dynasty = 1912096 #el-Sanadiyah
+	culture = masri
+	religion = sunni
+	female = yes
+	father = 3603062
+	mother = 3603063
+	trait = underhanded_rogue
+	trait = groomed
+	trait = diligent
+	trait = proud
+	trait = stubborn
+	2637.11.2 = { birth=yes }	
+}
+3603065 = { 
+	name = "Aisha"
+	dynasty = 1912096 #el-Sanadiyah
+	culture = masri
+	religion = sunni
+	female = yes
+	father = 3603062
+	mother = 3603063
+	trait = underhanded_rogue
+	trait = groomed
+	trait = diligent
+	trait = proud
+	trait = stubborn
+	2639.11.2 = { birth=yes }		
+}
+3603066 = { 
+	name = "Baibars"
+	dynasty = 1912096 #el-Sanadiyah
+	culture = masri
+	religion = sunni
+	father = 3603062
+	mother = 3603063
+	2641.11.2 = { birth=yes }
+	2660.1.1 = {
+		effect = { add_rival = 3603067 }
+	}
+}
+3603067 = { 
+	name = "Eslam"
+	dynasty = 1912096 #el-Sanadiyah
+	culture = masri
+	religion = sunni
+	father = 3603062
+	mother = 3603063
+	2644.11.2 = { birth=yes }
+}
+3603068 = { #Count of Ad-Dakhlah
+	name = "Baibars"
+	dynasty = 1912096 #el-Sanadiyah
+	culture = masri
+	religion = sunni
+	2639.11.2 = { birth=yes }
+	2660.1.1 = {
+		effect = { add_rival = 3603069 }
+	}
+	2662.1.1 = {
+		add_spouse = 3603064
+	}
+}
+3603069 = { #Count of Al-Bahriya
+	name = "Baibars"
+	dynasty = 1912096 #el-Sanadiyah
+	culture = masri
+	religion = sunni
+	2638.11.2 = { birth=yes }
+	2662.1.1 = {
+		add_spouse = 3603065
+	}
+}
+3603070 = { #count of al-Farafirah
 	name = "Muhammad"
-	dynasty = 1912089 #Ali
+	dynasty = 1912095 #El Senusi
+	culture = masri
+	religion = taharur
+	trait = skilled_tactician
+	trait = senussi
+	trait = brave
+	trait = wroth
+	trait = just
+	trait = stubborn
+	2644.11.2 = { birth=yes }
+}
+3603071 = { # count of Siwa
+	name = "Âemran"
+	dynasty = 1917002 #Hweiti
 	culture = eastern_berber
 	religion = sunni
-	trait = skilled_tactician
-	trait = brave
-	trait = gregarious
-	trait = just
-	trait = gluttonous
+	trait = fortune_builder
+	trait = diligent
+	trait = pious
+	trait = patient
+	trait = proud
 	2630.11.2 = { birth=yes }
 }
-3603070 = { #Duke of Matruh
-	name = "Muhammad"
-	dynasty = 1912089 #Ali
-	culture = masri
+3603072 = { 
+	name = "Dilissya"
+	culture = eastern_berber
 	religion = sunni
-	trait = skilled_tactician
-	trait = brave
+	female = yes
+	trait = amateurish_plotter
+	trait = kind
 	trait = gregarious
-	trait = just
-	trait = gluttonous
-	2630.11.2 = { birth=yes }
+	trait = groomed
+	trait = envious
+	2634.11.2 = { birth=yes }
 }
-3603075 = { # count of al-Kharijah
-	name = "Muhammad"
-	dynasty = 1912089 #Ali
-	culture = masri
+3603073 = {
+	name = "Yesmaâil"
+	dynasty = 1917002 #Hweiti
+	culture = eastern_berber
 	religion = sunni
-	trait = skilled_tactician
-	trait = brave
-	trait = gregarious
-	trait = just
-	trait = gluttonous
-	2630.11.2 = { birth=yes }
+	father = 3603071
+	mother = 3603072
+	2656.11.2 = { birth=yes }
 }
+3603074 = { 
+	name = "Ilelli"
+	dynasty = 1917002 #Hweiti
+	culture = eastern_berber
+	religion = sunni
+	father = 3603071
+	mother = 3603072
+	2658.11.2 = { birth=yes }
+}
+
 3603080 = { #Duke of Al-Bahr Al-Ahmar
 	name = "Muhammad"
 	dynasty = 1912089 #Ali

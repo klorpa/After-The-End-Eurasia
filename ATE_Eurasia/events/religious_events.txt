@@ -4024,6 +4024,10 @@ character_event = {
 			}
 			modifier = {
 				factor = 0.1
+				is_hard_to_convert = yes
+			}
+			modifier = {
+				factor = 0.1
 				any_war = {
 					using_cb = viking_invasion
 					attacker = {
@@ -4055,52 +4059,17 @@ character_event = {
 				}
 			}
 			
-			# Historical			
-			modifier = {
-				factor = 2
-				NOT = { government = nomadic_government } # We're already adopting civilized ways...
-				NOT = { government = tribal_government }
-			}
+			# Historical
 			modifier = {
 				factor = 0.2
-				OR = {
-					culture_group = baltic
-					culture_group = finno_ugric # The most stubborn pagans
-				}
-				
-			}
-			modifier = {
-				factor = 0.2
-				culture_group = east_slavic # Like alcohol
-				FROM = {
-					religion_group = muslim
-				}
-			}
-			modifier = {
-				factor = 0.2
-				culture_group = north_germanic # Vikings do like their alcohol
-				FROM = {
-					religion_group = muslim
-				}
-			}
-			modifier = {
-				factor = 0.2
-				religion = bon
-			}
-			modifier = {
-				factor = 0.2
-				religion = bon_reformed
+				NOT = { year = 2726 } #give em some more time
 			}
 			
 			# Pragmatism
 			modifier = {
-				factor = 3 # Powerful rulers want a modern religion
-				tier = KING
-				realm_size = 12
-			}
-			modifier = {
 				factor = 5
 				is_reformed_religion = no
+				is_feudal = no
 				primary_title = { has_law = tribal_organization_4 } # Need it to reform government
 				capital_holding = {
 					OR = {
@@ -4178,7 +4147,7 @@ character_event = {
 
 			# Realm stability
 			modifier = {
-				factor = 10
+				factor = 3
 				num_of_vassals = 3
 				NOT = {
 					any_vassal = {
@@ -4187,7 +4156,7 @@ character_event = {
 				}
 			}
 			modifier = {
-				factor = 10
+				factor = 3
 				NOT = {
 					any_realm_province = {
 						NOT = { religion = FROM }
