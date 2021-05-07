@@ -3074,3 +3074,140 @@ wonder_palatul_parlamentului = {
 		}
 	}
 }
+
+#7A: Al Azhar
+wonder_al_azhar = {
+	picture = GFX_wonder_strip_al_azhar
+	allow_construction = no
+	potential = {
+		is_nomadic = no
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = jewish_group
+			religion_group = indian_group
+			religion_group = pagan_group
+			religion_group = scholastic
+		}
+		trigger_if = {
+			limit = {
+				religion_group = pagan_group
+			}
+			ROOT = {
+				is_reformed_religion = yes
+			}
+		}
+	}
+	active = {
+		trigger_if = {
+			limit = {
+				religion_group = pagan_group
+			}
+			ROOT = {
+				is_reformed_religion = yes
+			}
+		}
+	}
+	flags = {
+		inspires_learning
+		cost_high
+		gives_artifact
+		gives_artifact_bells
+		is_historical
+	}
+	available_upgrades = {
+		# UNIQUE:
+		upgrade_collection_drama
+		upgrade_collection_architecture
+		upgrade_collection_math
+		upgrade_collection_history
+		upgrade_collection_science
+		upgrade_scribe_room
+		upgrade_keeper_of_tomes
+
+		upgrade_historical_mural
+
+		# OTHER:
+		upgrade_roads
+		upgrade_watchtower_network
+		upgrade_tower
+		upgrade_hypocausts
+		upgrade_heating_pipes
+		upgrade_retinue
+		upgrade_road_tolls
+		upgrade_tavern
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 320
+		gold_cost_flat = 2000
+		gold_cost_ticking = 3
+		restore_time = 150
+		loot_time = 20
+		restore_cost_flat = 400
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+			culture_techpoints = 0.05
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 320
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 20
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+			culture_techpoints = 0.05
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.2
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 320
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 6
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+			tech_growth_modifier_culture = 0.25
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.3
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 320
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 2
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+			tech_growth_modifier_economy = 0.25
+			tech_growth_modifier_military = 0.25
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.4
+		}
+	}
+}
