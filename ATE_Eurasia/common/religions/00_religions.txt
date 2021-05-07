@@ -1,7 +1,4 @@
 ###ÄNSI
-
-
-
 pagan_group = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
@@ -2140,6 +2137,32 @@ scholastic = {
 			GOD_MORGOTH
 		}
 	}
+	roerichist = {
+		graphical_culture = indiangfx
+
+		icon = 101
+		heresy_icon = 101
+		
+		ai_convert_other_group = 1
+		
+		color = { 0.5 0 0 }
+		
+		interface_skin = { taoist_interface indian_interface muslim_interface }
+
+
+		scripture_name = THE_SIGNS
+		priest_title = GURU
+
+		high_god_name = GOD_UR_ADITI
+
+		god_names = {
+			GOD_MORYA GOD_MAITREYA GOD_URUSVATI GOD_FUYAMA GOD_UPASICA GOD_RAMAKRISHNA GOD_KUTHUMI GOD_JESUS GOD_SOPHIE
+		}
+
+		evil_god_names = {
+			GOD_MAYA
+		}
+	}
 }
 
 muslim = {
@@ -3756,45 +3779,6 @@ buddhist_group = {
 		religious_clothing_head = 10
 		religious_clothing_priest = 10
 	}
-	milejiao = {
-		graphical_culture = chinesegfx
-
-		icon = 49
-		heresy_icon = 49
-		
-		parent = mahayana
-		
-		color = { 192 192 192 }
-		
-		scripture_name = MAHAYANA_SUTRAS
-		priest_title = B_BHIKSHU
-		
-		high_god_name = GOD_DHAMA
-		
-		god_names = {
-			 GOD_BUDDHA GOD_BODDHISATTVA GOD_AVALOKITESHVARA GOD_AMITABHA
-		}
-		
-		evil_god_names = {
-			NARAKA MARA
-		}
-		
-		piety_name = KARMA
-		character_modifier = { learning = 2 }
-		short_reign_opinion_year_mult = 0
-		
-		intermarry = eastern
-		
-		feminist = yes
-		female_temple_holders = yes
-		can_grant_divorce = yes
-		castes = yes
-		priests_can_inherit = no
-		can_retire_to_monastery = yes 
-		
-		religious_clothing_head = 10
-		religious_clothing_priest = 10
-	}
 	gelugpa = {
 		graphical_culture = tibetangfx
 
@@ -3815,82 +3799,6 @@ buddhist_group = {
 		evil_god_names = {
 			NARAKA MARA
 		}
-		
-		piety_name = KARMA
-		character_modifier = { learning = 2 }
-		short_reign_opinion_year_mult = 0
-		
-		intermarry = eastern
-		
-		can_grant_divorce = yes
-		castes = yes
-		priests_can_inherit = no
-		can_retire_to_monastery = yes 
-		
-		religious_clothing_head = 10
-		religious_clothing_priest = 10
-	}
-	rime = {
-		graphical_culture = tibetangfx
-
-		icon = 61
-		heresy_icon = 62
-		
-		parent = gelugpa
-		
-		color = { 180 2 16 }
-		
-		scripture_name = KANGYUR
-		priest_title = LAMA
-		
-		high_god_name = GOD_DHAMA
-		
-		god_names = {
-			 GOD_BUDDHA GOD_BODDHISATTVA GOD_AVALOKITESHVARA GOD_AMITABHA
-		}
-		
-		evil_god_names = {
-			NARAKA MARA
-		}
-		
-		
-		piety_name = KARMA
-		character_modifier = { learning = 2 }
-		short_reign_opinion_year_mult = 0
-		
-		intermarry = eastern
-		
-		can_grant_divorce = yes
-		castes = yes
-		priests_can_inherit = no
-		can_retire_to_monastery = yes 
-		
-		religious_clothing_head = 10
-		religious_clothing_priest = 10
-	}
-	ligmincha = {
-		graphical_culture = tibetangfx
-
-		icon = 61
-		heresy_icon = 62
-
-		parent = gelugpa
-		
-		color = { 8 150 131 }
-		
-		scripture_name = KANGYUR
-		priest_title = LAMA
-		
-		high_god_name = GOD_DHAMA
-		
-		god_names = {
-			 GOD_BUDDHA GOD_BODDHISATTVA GOD_AVALOKITESHVARA GOD_AMITABHA
-		}
-		
-		evil_god_names = {
-			NARAKA MARA
-		}
-		
 		
 		piety_name = KARMA
 		character_modifier = { learning = 2 }
@@ -3943,84 +3851,7 @@ buddhist_group = {
 		religious_clothing_head = 10
 		religious_clothing_priest = 10
 	}
-	dorje_shugden = {
-		graphical_culture = tibetangfx
-
-		icon = 59
-		heresy_icon = 60
-
-		parent = ngocholugspa
-		
-		color = { 153 0 0 }
-		
-		scripture_name = KANGYUR
-		priest_title = LAMA
-		
-		high_god_name = GOD_DHAMA
-		
-		god_names = {
-			 GOD_BUDDHA GOD_BODDHISATTVA GOD_AVALOKITESHVARA GOD_AMITABHA
-		}
-		
-		evil_god_names = {
-			NARAKA MARA
-		}
-		
-		
-		piety_name = KARMA
-		character_modifier = { learning = 2 }
-		short_reign_opinion_year_mult = 0
-		
-		intermarry = eastern
-		
-		feminist = yes
-		female_temple_holders = yes
-		can_grant_divorce = yes
-		castes = yes
-		priests_can_inherit = no
-		can_retire_to_monastery = yes 
-		
-		religious_clothing_head = 10
-		religious_clothing_priest = 10
-	}
-	mahachakrakin = {
-		graphical_culture = tibetangfx
-
-		icon = 101
-		heresy_icon = 101
-		
-		color = { 128 0 0 }
-		
-		scripture_name = KALACHAKRA
-		priest_title = LAMA
-		
-		high_god_name = GOD_DHAMA
-		
-		god_names = {
-			 GOD_BUDDHA GOD_BODDHISATTVA GOD_AMITABHA GOD_MORYA GOD_URUSVATI
-		}
-		
-		evil_god_names = {
-			NARAKA MARA
-		}
-		
-		piety_name = KARMA
-		character_modifier = { learning = 2 }
-		short_reign_opinion_year_mult = 0
-		
-		intermarry = eastern
-		
-		feminist = yes
-		female_temple_holders = yes
-		can_grant_divorce = yes
-		castes = yes
-		priests_can_inherit = no
-		can_retire_to_monastery = yes 
-		
-		religious_clothing_head = 10
-		religious_clothing_priest = 10
-	}
-	theravada = { #just a placeholder
+	theravada = {
 		graphical_culture = hindugfx
 
 		icon = 63
