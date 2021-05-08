@@ -9309,4 +9309,30 @@ is_single_player_observer_mode = {
 		is_local_human_observer = yes
 	}
 }
-
+is_dishonorable = {
+	hidden_tooltip = {
+		text = dishonorable_txt
+		OR = {
+			has_character_modifier = adulterer
+			has_character_modifier = adultress
+			has_character_modifier = incestuous_adulterer
+			has_character_modifier = incestuous_adultress
+			has_character_modifier = known_murderer
+			has_character_modifier = uncivilized_dueler
+			trait = kinslayer
+			trait = greedy
+			trait = envious
+			trait = wroth
+			trait = slothful
+			trait = greedy
+			trait = gluttonous
+			trait = lustful
+			trait = cruel
+			trait = drunkard
+			trait = craven
+			trait = hedonist
+			trait = impaler
+			trait = paranoid
+		}
+	}
+}

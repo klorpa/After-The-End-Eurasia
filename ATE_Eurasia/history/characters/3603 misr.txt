@@ -785,7 +785,7 @@
 	2644.11.2 = { birth=yes }
 }
 3603068 = { #Count of Ad-Dakhlah
-	name = "Baibars"
+	name = "Taha"
 	dynasty = 1912096 #el-Sanadiyah
 	culture = masri
 	religion = sunni
@@ -798,7 +798,7 @@
 	}
 }
 3603069 = { #Count of Al-Bahriya
-	name = "Baibars"
+	name = "Lotfy"
 	dynasty = 1912096 #el-Sanadiyah
 	culture = masri
 	religion = sunni
@@ -862,7 +862,60 @@
 	mother = 3603072
 	2658.11.2 = { birth=yes }
 }
-
+3603075 = { 
+	name = "Hussein Kamel"
+	dynasty = 1912093 #el-Gamal
+	culture = masri
+	religion = an_nahar
+	trait = fortune_builder
+	trait = diligent
+	trait = pious
+	trait = patient
+	trait = proud
+	2620.11.2 = { birth=yes }
+	2642.1.1 = { add_spouse = 3603076 }
+	2664.1.1 = { death=yes }
+}
+3603076 = { 
+	name = "Hala"
+	culture = masri
+	religion = an_nahar
+	female = yes
+	trait = intricate_webweaver
+	trait = kind
+	trait = gregarious
+	trait = groomed
+	trait = deceitful
+	2620.11.2 = { birth=yes }
+}
+3603077 = {
+	name = "Ihsan"
+	dynasty = 1912093 #el-Gamal
+	culture = masri
+	religion = an_nahar
+	trait = midas_touched
+	trait = diligent
+	trait = ambitious
+	trait = rude
+	trait = proud
+	father = 3603075
+	mother = 3603076
+	2642.11.2 = { birth=yes }
+}
+3603078 = { 
+	name = "Omar"
+	dynasty = 1912093 #el-Gamal
+	culture = masri
+	religion = an_nahar
+	trait = intricate_webweaver
+	trait = deceitful
+	trait = envious
+	trait = ambitious
+	trait = patient
+	father = 3603071
+	mother = 3603072
+	2646.11.2 = { birth=yes }
+}
 3603080 = { #Duke of Al-Bahr Al-Ahmar
 	name = "Muhammad"
 	dynasty = 1912089 #Ali
