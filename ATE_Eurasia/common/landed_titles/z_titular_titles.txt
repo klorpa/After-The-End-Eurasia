@@ -255,6 +255,20 @@ k_dobruja = {
 	dignity=10
 }
 
+k_czechoslovakia = {
+		color={ 225 145 60 }
+		color2 = { 255 255 255 }
+
+		capital = 1037 #Prague
+	
+	allow = {
+		has_landed_title = k_czechia
+		has_landed_title = k_slovakia
+	}
+	
+	dignity=10
+}
+
 ### titular duchies ###
 
 d_sligo = {

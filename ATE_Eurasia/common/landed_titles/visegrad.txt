@@ -207,7 +207,7 @@ e_visegrad = {
 		}
 	}
 	
-	k_czechoslovakia = {
+	k_czechia = {
 		color={ 205 145 60 }
 		color2 = { 255 255 255 }
 
@@ -215,8 +215,18 @@ e_visegrad = {
 		
 		catholic = 700 # Bring Catholicism to the East
 		
-		czech = "Czeskoslovensko"
-		slovak = "Czeskoslovensko"
+		czech = "Czesko"
+		slovak = "Czesko"
+		hungarian="Csehország"
+		szekely="Csehország"
+		rhenish="Tschechien"
+		low_saxon="Tschechien"
+		ossi="Tschechien"
+		upper_saxon="Tschechien"
+		bavarian="Tschechien"
+		swabian="Tschechien"
+		austrian="Tschechien"
+		schwyzer="Tschechien"
 		
 		d_bohemia = {
 			color={ 180 120 80 }
@@ -234,6 +244,7 @@ e_visegrad = {
 			slovak="Czechy"
 			polish="Czechy"
 			hungarian="Csehország"
+			szekely="Csehország"
 			
 			capital = 1037 #Praha
 			
@@ -252,6 +263,7 @@ e_visegrad = {
 				czech = "Praha"
 				slovak = "Praha"
 				hungarian="Prága"
+				szekely="Prága"
 
 				b_prague = { 
 					rhenish="Prag"
@@ -494,6 +506,16 @@ e_visegrad = {
 				b_zamberk = {}
 			}
 		}
+	}	
+		
+	k_slovakia = {
+		color={ 150 39 47 }
+		color2={ 255 255 255 }
+		
+		capital = 1036 #Bratislava
+			
+		czech = "Slovensko"
+		slovak = "Slovensko"
 		
 		d_tatra = {
 			color={ 210 130 80 }
@@ -577,14 +599,16 @@ e_visegrad = {
 			}
 		}
 		
-		d_slovakia = {
+		d_nitra = {
 			color={ 150 100 20 }
 			color2={ 255 255 255 }
 			
 			capital = 1036 #Bratislava
 			
-			czech = "Slovensko"
-			slovak = "Slovensko"
+			czech = "Nitra"
+			slovak = "Nitra"
+			hungarian = "Nyitra"
+			szekely = "Nyitra"
 			
 			c_bratislava = {
 				color={ 177 102 55 }
