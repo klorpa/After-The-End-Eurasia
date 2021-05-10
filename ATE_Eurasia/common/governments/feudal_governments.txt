@@ -450,6 +450,12 @@ feudal_governments = {
 					NOT = { religion = ibadi }
 				}
 			}
+			OR = {
+				lower_tier_than = KING
+				has_law = muslim_government_slider_0
+				has_law = muslim_government_slider_1
+				has_law = muslim_government_slider_2
+			}
 			NOT = { is_government_potential = romanipen_government }
 			NOT = { is_government_potential = confederation_government }
 			NOT = { is_government_potential = roman_imperial_government }
@@ -685,6 +691,14 @@ feudal_governments = {
 						}
 					}
 					NOT = { religion = ibadi }
+				}
+				AND = {
+					NOT = {religion = ruhi}
+					OR = {
+						has_law = muslim_government_slider_2
+						has_law = muslim_government_slider_3
+						has_law = muslim_government_slider_4
+					}
 				}
 				top_liege = {
 					government = diwan_government

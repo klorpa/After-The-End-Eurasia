@@ -14,17 +14,22 @@ laws = {
 				holder_scope = { 
 					government = ghazi_government
 					lower_tier_than = DUKE
+					NOT = {religion = ibadi}
+					NOT = {religion = ruhi}
 				}	
 			}
 		}
 		
 		potential = {
 			holder_scope = {
-				OR = {
-					government = ghazi_government
-					government = diwan_government
-				}
-				
+				AND = {
+					OR = {
+						government = ghazi_government
+						government = diwan_government
+					}
+					NOT = {religion = ibadi}
+					NOT = {religion = ruhi}
+				}			
 			}
 		}
 		allow = {
@@ -96,16 +101,22 @@ laws = {
 				holder_scope = { 
 					government = ghazi_government
 					tier = DUKE
+					NOT = {religion = ibadi}
+					NOT = {religion = ruhi}
 				}	
 			}
 		}
 		
 		potential = {
 			holder_scope = {
-				OR = {
-					government = ghazi_government
-					government = diwan_government
-				}
+				AND = {
+					OR = {
+						government = ghazi_government
+						government = diwan_government
+					}
+					NOT = {religion = ibadi}
+					NOT = {religion = ruhi}
+				}			
 			}
 		}
 		allow = {	
@@ -164,15 +175,20 @@ laws = {
 					government = diwan_government
 				}
 				higher_tier_than = DUKE
+				NOT = {religion = ibadi}
+				NOT = {religion = ruhi}
 			}
 		}
 		allow = {
 			holder_scope = {
-				OR = {
-					government = ghazi_government
-					government = diwan_government
-				}
-				higher_tier_than = DUKE
+				AND = {
+					OR = {
+						government = ghazi_government
+						government = diwan_government
+					}
+					NOT = {religion = ibadi}
+					NOT = {religion = ruhi}
+				}			
 			}
 		}
 		revoke_allowed = {
@@ -198,7 +214,7 @@ laws = {
 			if = {
 				limit = {
 					holder_scope = {
-						government = ghazi_government
+						lower_tier_than = KING
 					}
 				}
 				set_government = ghazi_government
@@ -206,7 +222,7 @@ laws = {
 			else_if = {
 				limit = {
 					holder_scope = {
-						government = diwan_government
+						higher_tier_than = DUKE
 					}
 				}
 				set_government = diwan_government
@@ -226,15 +242,21 @@ laws = {
 				holder_scope = { 
 					government = diwan_government
 					tier = KING
+					NOT = {religion = ibadi}
+					NOT = {religion = ruhi}
 				}	
 			}
 		}
 		potential = {
 			holder_scope = {
-				OR = {
-					government = ghazi_government
-					government = diwan_government
-				}
+				AND = {
+					OR = {
+						government = ghazi_government
+						government = diwan_government
+					}
+					NOT = {religion = ibadi}
+					NOT = {religion = ruhi}
+				}			
 			}
 		}		
 		allow = {
@@ -289,15 +311,21 @@ laws = {
 				holder_scope = { 
 					government = diwan_government
 					tier = EMPEROR
+					NOT = {religion = ibadi}
+					NOT = {religion = ruhi}
 				}	
 			}
 		}
 		potential = {
 			holder_scope = {
-				OR = {
-					government = ghazi_government
-					government = diwan_government
-				}
+				AND = {
+					OR = {
+						government = ghazi_government
+						government = diwan_government
+					}
+					NOT = {religion = ibadi}
+					NOT = {religion = ruhi}
+				}			
 			}
 		}	
 		allow = {
