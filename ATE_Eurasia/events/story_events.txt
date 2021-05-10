@@ -255,3 +255,81 @@ narrative_event = {
 		}
 	}
 }
+
+#Romanian Successor States Narrative Opening
+narrative_event = {
+	id = story.4
+	picture = GFX_dagan_the_great
+	title = title_romania_successors
+	is_triggered_only = yes
+	trigger = {
+		culture_group = carpathian
+	}
+	desc = {
+		trigger = {
+			has_landed_title = k_bessarabia
+		}
+		text = DESCA_Romania_1
+	}
+	desc = {
+		trigger = {
+			has_landed_title = k_dobruja
+		}
+		text = DESCA_Romania_2
+	}
+	desc = {
+		trigger = {
+			has_landed_title = k_wallachia
+		}
+		text = DESCA_Romania_3
+	}
+	desc = {
+		trigger = {
+			has_landed_title = k_galicia_lodomeria
+		}
+		text = DESCA_Romania_4
+	}
+	desc = {
+		trigger = {
+			AND = {
+				NOR = {
+					has_landed_title = k_bessarabia
+					has_landed_title = k_dobruja
+					has_landed_title = k_wallachia
+					has_landed_title = k_galicia_lodomeria
+				}
+				culture_group = carpathian
+			}
+		}
+		text = DESCA_Romania_5
+	}
+	immediate = {
+		if = {
+			limit = {
+				holder_scope = {
+					has_landed_title = k_bessarabia
+				}
+			}
+			set_character_flag = numa_numa_star
+		}
+	}
+	
+	option = {
+		name = OPT_A_NUMA_NUMA
+		trigger = {
+			has_character_flag = numa_numa_star
+		}
+		custom_tooltip = {
+			text = romanian_destiny_TT
+		}
+	}
+	option = {
+		name = OPT_B_GENERAL
+		trigger = {
+			NOT = { has_character_flag = numa_numa_star }
+		}
+		custom_tooltip = {
+			text = romanian_destiny_TT
+		}
+	}
+}
