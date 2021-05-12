@@ -392,19 +392,27 @@ RETTYPE_CUL_FRANK_NOR_GER =
 	}
 }
 
-RETTYPE_CUL_IBER = 
+RETTYPE_CUL_HISP = 
 {
-	first_type = 3
-	first_amount = 400
+	first_type = 2
+	first_amount = 125
+	second_type = 5
+	second_amount = 125
 	
 	potential = {
 		is_nomadic = no
 		culture_group = iberian
+		NOT = {
+			culture = portuguese
+			culture = andalusian
+			}
 	}
 	
 	modifier = {
-		light_cavalry_offensive = 0.2
-		light_cavalry_morale = 0.2
+		archers_offensive = 0.2
+		pikemen_offensive = 0.2
+		archers_defensive = 0.35
+		pikemen_defensive = 0.35
 	}
 }
 
@@ -535,7 +543,10 @@ RETTYPE_CUL_ANDALUSIAN =
 
 	potential = {
 		is_nomadic = no
-		culture = andalusian_arabic
+		OR = {
+			culture = andalusian_arabic
+			culture = andalusian
+		}
 	}
 
 	modifier = {
@@ -1549,5 +1560,22 @@ RETTYPE_CUL_SAR =
 		pikemen_defensive = 0.2
 		pikemen_offensive = 0.2
 		pikemen_morale = 0.4
+	}
+}
+
+RETTYPE_CUL_POR = 
+{
+	first_type = 5
+	first_amount = 300
+	
+	potential = {
+		is_nomadic = no
+		culture = portuguese
+	}
+	
+	modifier = {
+		archers_defensive = 0.2
+		archers_offensive = 0.1
+		archers_morale = 0.1
 	}
 }

@@ -147,4 +147,422 @@ castle = {
 		
 		extra_tech_building_start = 0.8
 	}
+
+	ca_culture_portuguese_1 = {
+		desc = ca_culture_portuguese_1_desc
+		port = yes
+		potential = {
+			OR = {
+				culture = portuguese
+				has_building = ca_culture_portuguese_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture = portuguese
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0
+			ROOT = {
+				culture = portuguese
+			}
+		}
+		prerequisites = { ca_wall_1 }
+		gold_cost = 150
+		build_time = 730
+		archers_offensive = 0.15
+		archers = 60
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_portuguese_2 = {
+		desc = ca_culture_portuguese_1_desc
+		port = yes
+		potential = {
+			OR = {
+				culture = portuguese
+				has_building = ca_culture_portuguese_1
+				has_building = ca_culture_portuguese_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture = portuguese
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				culture = portuguese
+			}
+		}
+		upgrades_from = ca_culture_portuguese_1
+		gold_cost = 200
+		build_time = 1095
+		archers_offensive = 0.15
+		archers = 80
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_portuguese_3 = {
+		desc = ca_culture_portuguese_1_desc
+		port = yes
+		potential = {
+			OR = {
+				culture = portuguese
+				has_building = ca_culture_portuguese_1
+				has_building = ca_culture_portuguese_2
+				has_building = ca_culture_portuguese_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture = portuguese
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				culture = portuguese
+			}
+		}
+		upgrades_from = ca_culture_portuguese_2
+		gold_cost = 250
+		build_time = 2190
+		archers_offensive = 0.15
+		archers = 100
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_portuguese_4 = {
+		desc = ca_culture_portuguese_1_desc
+		port = yes
+		potential = {
+			OR = {
+				culture = portuguese
+				has_building = ca_culture_portuguese_1
+				has_building = ca_culture_portuguese_2
+				has_building = ca_culture_portuguese_3
+				has_building = ca_culture_portuguese_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture = portuguese
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				culture = portuguese
+			}
+		}
+		upgrades_from = ca_culture_portuguese_3
+		gold_cost = 350
+		build_time = 2190
+		archers_offensive = 0.15
+		archers = 120
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	ca_culture_iberian_1 = {
+		desc = ca_culture_iberian_1_desc
+		port = yes
+		potential = {
+			OR = {
+				culture_group = iberian 
+				NOT = { culture = portuguese culture = andalusian }
+				has_building = ca_culture_iberian_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture_group = iberian 
+				NOT = { culture = portuguese culture = andalusian }
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0
+			ROOT = {
+				culture_group = iberian 
+				NOT = { culture = portuguese culture = andalusian }
+			}
+		}
+		prerequisites = { ca_wall_1 }
+		gold_cost = 150
+		build_time = 730
+		pikemen_morale = 0.7
+		handgunners_morale = 0.7
+		pikemen = 15
+		handgunners = 15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_iberian_2 = {
+		desc = ca_culture_iberian_1_desc
+		port = yes
+		potential = {
+			OR = {
+				culture_group = iberian 
+				NOT = { culture = portuguese culture = andalusian }
+				has_building = ca_culture_iberian_1
+				has_building = ca_culture_iberian_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture_group = iberian 
+				NOT = { culture = portuguese culture = andalusian }
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				culture_group = iberian 
+				NOT = { culture = portuguese culture = andalusian }
+			}
+		}
+		upgrades_from = ca_culture_iberian_1
+		gold_cost = 200
+		build_time = 1095
+		pikemen_morale = 0.7
+		handgunners_morale = 0.7
+		pikemen = 20
+		handgunners = 20
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_iberian_3 = {
+		desc = ca_culture_iberian_1_desc
+		port = yes
+		potential = {
+			OR = {
+				culture_group = iberian 
+				NOT = { culture = portuguese culture = andalusian }
+				has_building = ca_culture_iberian_1
+				has_building = ca_culture_iberian_2
+				has_building = ca_culture_iberian_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture_group = iberian 
+				NOT = { culture = portuguese culture = andalusian }
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				culture_group = iberian 
+				NOT = { culture = portuguese culture = andalusian }
+			}
+		}
+		upgrades_from = ca_culture_iberian_2
+		gold_cost = 250
+		build_time = 2190
+		pikemen_morale = 0.7
+		handgunners_morale = 0.7
+		pikemen = 25
+		handgunners = 25
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_iberian_4 = {
+		desc = ca_culture_iberian_1_desc
+		port = yes
+		potential = {
+			OR = {
+				culture_group = iberian 
+				NOT = { culture = portuguese 
+					culture = andalusian }
+				has_building = ca_culture_iberian_1
+				has_building = ca_culture_iberian_2
+				has_building = ca_culture_iberian_3
+				has_building = ca_culture_iberian_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture_group = iberian 
+				NOT = { culture = portuguese culture = andalusian }
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				culture_group = iberian 
+				NOT = { culture = portuguese culture = andalusian }
+			}
+		}
+		upgrades_from = ca_culture_iberian_3
+		gold_cost = 350
+		build_time = 2190
+		pikemen_morale = 0.7
+		handgunners_morale = 0.7
+		pikemen = 30
+		handgunners = 30
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+	
+		ca_culture_andalusia_1 = {
+		desc = ca_culture_andalusia_1_desc
+		potential = {
+			OR = {
+				culture = andalusian
+				has_building = ca_culture_andalusia_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = andalusian_arabic
+					culture = maghreb_arabic
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+					culture = andalusian_arabic
+					culture = maghreb_arabic
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		light_cavalry = 30
+		light_cavalry_offensive = 0.1
+		light_cavalry_defensive = 0.1
+		light_cavalry_morale = 0.1
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_andalusia_2 = {
+		desc = ca_culture_andalusia_1_desc
+		potential = {
+			OR = {
+				culture = andalusian
+				has_building = ca_culture_andalusia_1
+				has_building = ca_culture_andalusia_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = andalusian_arabic
+					culture = maghreb_arabic
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+					culture = andalusian_arabic
+					culture = maghreb_arabic
+				}
+			}
+		}
+		upgrades_from = ca_culture_andalusia_1
+		gold_cost = 300
+		build_time = 1095
+		light_cavalry = 40
+		light_cavalry_offensive = 0.1
+		light_cavalry_defensive = 0.1
+		light_cavalry_morale = 0.1
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_andalusia_3 = {
+		desc = ca_culture_andalusia_1_desc
+		potential = {
+			OR = {
+				culture = andalusian
+				has_building = ca_culture_andalusia_1
+				has_building = ca_culture_andalusia_2
+				has_building = ca_culture_andalusia_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = andalusian_arabic
+					culture = maghreb_arabic
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = andalusian_arabic
+					culture = maghreb_arabic
+				}
+			}
+		}
+		upgrades_from = ca_culture_andalusia_2
+		gold_cost = 400
+		build_time = 2190
+		light_cavalry = 50
+		light_cavalry_offensive = 0.1
+		light_cavalry_defensive = 0.1
+		light_cavalry_morale = 0.1
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_andalusia_4 = {
+		desc = ca_culture_andalusia_1_desc
+		potential = {
+			OR = {
+				culture = andalusian
+				has_building = ca_culture_andalusia_1
+				has_building = ca_culture_andalusia_2
+				has_building = ca_culture_andalusia_3
+				has_building = ca_culture_andalusia_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = andalusian_arabic
+					culture = maghreb_arabic
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = andalusian_arabic
+					culture = maghreb_arabic
+				}
+			}
+		}
+		upgrades_from = ca_culture_andalusia_3
+		gold_cost = 500
+		build_time = 2190
+		light_cavalry = 60
+		light_cavalry_offensive = 0.1
+		light_cavalry_defensive = 0.1
+		light_cavalry_morale = 0.1
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
 }
