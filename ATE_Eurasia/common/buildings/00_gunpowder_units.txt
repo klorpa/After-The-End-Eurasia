@@ -2,7 +2,23 @@
 castle = {
 	ca_firing_range_1 = {
 		desc = ca_firing_range_1_desc
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 TECH_RECRUITMENT = 5 TECH_SIEGE_EQUIPMENT = 5 }
+		potential = {
+			OR = {
+				NOT = { culture_group = iberian } 
+				has_building = ca_firing_range_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				NOT = { culture_group = iberian }
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 TECH_RECRUITMENT = 5 TECH_SIEGE_EQUIPMENT = 5 
+			ROOT = {
+				NOT = { culture_group = iberian }
+			}
+		}
 		gold_cost = 100
 		build_time = 365
 		handgunners = 40
@@ -12,7 +28,24 @@ castle = {
 	}
 	ca_firing_range_2 = {
 		desc = ca_firing_range_1_desc
-		trigger = { TECH_CASTLE_CONSTRUCTION = 1 TECH_RECRUITMENT = 6 TECH_SIEGE_EQUIPMENT = 6 }
+		potential = {
+			OR = {
+				NOT = { culture_group = iberian } 
+				has_building = ca_firing_range_1
+				has_building = ca_firing_range_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				NOT = { culture_group = iberian }
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1 TECH_RECRUITMENT = 6 TECH_SIEGE_EQUIPMENT = 6
+			ROOT = {
+				NOT = { culture_group = iberian }
+			}
+		}
 		prerequisites = { ca_wall_1 }
 		upgrades_from = ca_firing_range_1
 		gold_cost = 120
@@ -24,7 +57,25 @@ castle = {
 	}
 	ca_firing_range_3 = {
 		desc = ca_militia_barracks_3_desc
-		trigger = { TECH_CASTLE_CONSTRUCTION = 5 TECH_RECRUITMENT = 7 TECH_SIEGE_EQUIPMENT = 7 }
+		potential = {
+			OR = {
+				NOT = { culture_group = iberian } 
+				has_building = ca_firing_range_1
+				has_building = ca_firing_range_2
+				has_building = ca_firing_range_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				NOT = { culture_group = iberian }
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 5 TECH_RECRUITMENT = 7 TECH_SIEGE_EQUIPMENT = 7
+			ROOT = {
+				NOT = { culture_group = iberian }
+			}
+		}
 		upgrades_from = ca_firing_range_2
 		gold_cost = 200
 		build_time = 1095
@@ -35,7 +86,26 @@ castle = {
 	}
 	ca_firing_range_4 = {
 		desc = ca_militia_barracks_3_desc
-		trigger = { TECH_CASTLE_CONSTRUCTION = 7 TECH_RECRUITMENT = 8 TECH_SIEGE_EQUIPMENT = 8 }
+		potential = {
+			OR = {
+				NOT = { culture_group = iberian } 
+				has_building = ca_firing_range_1
+				has_building = ca_firing_range_2
+				has_building = ca_firing_range_3
+				has_building = ca_firing_range_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				NOT = { culture_group = iberian }
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 7 TECH_RECRUITMENT = 8 TECH_SIEGE_EQUIPMENT = 8
+			ROOT = {
+				NOT = { culture_group = iberian }
+			}
+		}
 		upgrades_from = ca_firing_range_3
 		gold_cost = 300
 		build_time = 1095
@@ -43,6 +113,144 @@ castle = {
 		ai_creation_factor = 98
 
 		extra_tech_building_start = 0.5
+	}
+	
+	ca_tercio_gunners_1 = {
+		desc = ca_tercio_gunners_1_desc
+		potential = {
+			OR = {
+				culture_group = iberian 
+				has_building = ca_tercio_gunners_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture_group = iberian 
+				
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 TECH_RECRUITMENT = 5 TECH_SIEGE_EQUIPMENT = 5
+			ROOT = {
+				culture_group = iberian 
+				
+			}
+		}
+		prerequisites = { ca_wall_1 }
+		gold_cost = 150
+		build_time = 730
+		pikemen_morale = 0.7
+		handgunners_morale = 0.7
+		pikemen = 15
+		handgunners = 15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_tercio_gunners_2 = {
+		desc = ca_tercio_gunners_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 TECH_RECRUITMENT = 6 TECH_SIEGE_EQUIPMENT = 6 }
+		potential = {
+			OR = {
+				culture_group = iberian 
+				has_building = ca_tercio_gunners_1
+				has_building = ca_tercio_gunners_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture_group = iberian 
+				
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				culture_group = iberian 
+				
+			}
+		}
+		upgrades_from = ca_tercio_gunners_1
+		gold_cost = 200
+		build_time = 1095
+		pikemen_morale = 0.7
+		handgunners_morale = 0.7
+		pikemen = 20
+		handgunners = 20
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_tercio_gunners_3 = {
+		desc = ca_tercio_gunners_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 TECH_RECRUITMENT = 7 TECH_SIEGE_EQUIPMENT = 7 }
+		potential = {
+			OR = {
+				culture_group = iberian 
+				has_building = ca_tercio_gunners_1
+				has_building = ca_tercio_gunners_2
+				has_building = ca_tercio_gunners_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture_group = iberian 
+				
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				culture_group = iberian 
+				
+			}
+		}
+		upgrades_from = ca_tercio_gunners_2
+		gold_cost = 250
+		build_time = 2190
+		pikemen_morale = 0.7
+		handgunners_morale = 0.7
+		pikemen = 25
+		handgunners = 25
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_tercio_gunners_4 = {
+		desc = ca_tercio_gunners_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 TECH_RECRUITMENT = 8 TECH_SIEGE_EQUIPMENT = 8 }
+		potential = {
+			OR = {
+				culture_group = iberian 
+				has_building = ca_tercio_gunners_1
+				has_building = ca_tercio_gunners_2
+				has_building = ca_tercio_gunners_3
+				has_building = ca_tercio_gunners_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture_group = iberian 
+				
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				culture_group = iberian 
+				
+			}
+		}
+		upgrades_from = ca_tercio_gunners_3
+		gold_cost = 350
+		build_time = 2190
+		pikemen_morale = 0.7
+		handgunners_morale = 0.7
+		pikemen = 30
+		handgunners = 30
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
 	}
 }
 city = {
