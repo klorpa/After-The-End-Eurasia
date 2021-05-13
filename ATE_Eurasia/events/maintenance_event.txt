@@ -1421,6 +1421,9 @@ character_event = { #Madhab Trait Dispensing (on_startup and on_adulthood checki
 				OR = {
 					culture = kurdish
 					culture = yemeni
+					culture = hadhrami
+					culture = dhofari
+					culture_group = cushitic
 				}
 			}
 			add_trait = shafii
@@ -1430,15 +1433,12 @@ character_event = { #Madhab Trait Dispensing (on_startup and on_adulthood checki
 		}
 		else_if = {
 			limit = {
-				OR = {
-					AND = {
+				AND = {
+					OR = {
 						capital_scope = {region = custom_fertile_crescent}
-						culture_group = arabic
-					}
-					AND = {
 						capital_scope = {region = custom_old_egypt}
-						culture_group = arabic
 					}
+					culture_group = arabic
 				}
 			}
 			random_list = {
@@ -1450,14 +1450,13 @@ character_event = { #Madhab Trait Dispensing (on_startup and on_adulthood checki
 		}
 		else_if = {
 			limit = { 
-				AND = {
-					capital_scope = {region = custom_turkey}
-					OR = {
-						culture = west_anatolian
-						culture = rumelian
-						culture = central_anatolian
-						culture = black_sea
-					}
+				OR = {
+					culture_group = turkic_karluk
+					culture_group = turkic_oghuz
+					culture_group = turkic_east
+					culture_group = turkic_west
+					culture_group = caucasian
+					culture_group = iranian
 				}
 			}
 			add_trait = hanafi
@@ -1469,11 +1468,30 @@ character_event = { #Madhab Trait Dispensing (on_startup and on_adulthood checki
 			limit = { 
 				AND = {
 					capital_scope = {region = custom_arabian_pennisula}
-					NOT = { culture = yemeni }
+					NOT = { 
+						culture = yemeni
+						culture = hadhrami
+						culture = dhofari
+					}
 				}
 			}
 			add_trait = hanbali
 			remove_trait = maliki
+			remove_trait = hanafi
+			remove_trait = shafii
+		}
+		else_if = {
+			limit = { 
+				OR = {
+					culture = sudani
+					culture_group = nilotic
+					culture_group = maghrebi
+					culture_group = amazigh
+					culture = tigre
+				}
+			}
+			add_trait = maliki
+			remove_trait = hanbali
 			remove_trait = hanafi
 			remove_trait = shafii
 		}

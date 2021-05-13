@@ -389,6 +389,7 @@
 	trait = thrifty_clerk
 	trait = just
 	trait = gluttonous
+	trait = patient
 	trait = ambitious
 	trait = brave
 	2610.11.2 = { birth=yes }
@@ -681,11 +682,12 @@
 	culture = masri
 	religion = sunni
 	trait = brilliant_strategist
-	trait = organizer
+	trait = unyielding_leader
 	trait = stubborn
 	trait = honest
 	trait = dull
-	trait = diligent
+	trait = robust
+	trait = brave
 	2628.11.2 = { birth=yes }
 	2630.1.1 =  { 
 		add_claim = k_egypt
@@ -1078,4 +1080,35 @@
 	father = 3603084
 	mother = 3603085
 	2648.11.2 = { birth=yes }
+}
+
+
+###Historical Characters
+3603250 = { 
+	name = "Abdel Hakim"
+	dynasty = 1912093 #el-Gamal
+	culture = masri
+	religion = an_nahar
+	trait = brilliant_strategist
+	trait = diligent
+	trait = pious
+	trait = sympathy_islam
+	trait = sympathy_christendom
+	trait = proud
+	trait = brave
+	2220.11.2 = { birth=yes }
+	2290.1.1 = { death=yes }
+}
+3603251 = { #General of Egypt
+	name = "Hakim"
+	dynasty = 1912092 #el-Tawfik
+	culture = masri
+	religion = sunni
+	trait = skilled_tactician
+	trait = brave
+	trait = gregarious
+	trait = just
+	trait = temperate
+	2595.11.2 = { birth=yes }
+	2640.11.5 = { death = yes }	
 }

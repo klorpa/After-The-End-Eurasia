@@ -1093,3 +1093,126 @@ narrative_event = {
 		ai_chance = { factor = 20 }
 	}
 }
+
+character_event = { #Choosing a madhab
+	id = islamate.40
+	desc = EVTDESC_madhab_switch
+	picture = GFX_evt_al_azhar
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+	}
+	option = {
+		name = EVTOPTA_madhab_switch
+		hidden_tooltip = {
+			remove_trait = hanbali
+			remove_trait = maliki
+			remove_trait = shafii
+		}
+		add_trait = hanafi
+		ai_chance = {
+			factor = 1
+			modifier = { 
+				factor = 16
+				OR = {
+					culture = lebneni
+					culture = suriyi
+					culture = furataini
+					culture = filastini
+					culture = masri
+				}
+			}
+			modifier = { 
+				factor = 20
+				OR = {
+					culture_group = turkic_karluk
+					culture_group = turkic_oghuz
+					culture_group = turkic_east
+					culture_group = turkic_west
+					culture_group = caucasian
+					culture_group = persian
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTB_madhab_switch
+		hidden_tooltip = {
+			remove_trait = hanafi
+			remove_trait = maliki
+			remove_trait = shafii
+		}
+		add_trait = hanbali
+		ai_chance = {
+			factor = 1
+			modifier = { 
+				factor = 20
+				OR = {
+					culture = bahrayni
+					culture = najdi
+					culture = badawi
+					culture = hijazi
+				}
+			}
+
+		}
+	}
+	option = {
+		name = EVTOPTC_madhab_switch
+		hidden_tooltip = {
+			remove_trait = hanafi
+			remove_trait = hanbali
+			remove_trait = shafii
+		}
+		add_trait = maliki
+		ai_chance = {
+			factor = 1
+			modifier = { 
+				factor = 20 
+				OR = {
+					culture = sudani
+					culture_group = nilotic
+					culture_group = maghrebi
+					culture_group = amazigh
+					culture = tigre
+				}
+			}
+		}
+		
+	}
+	option = {
+		name = EVTOPTD_madhab_switch
+		hidden_tooltip = {
+			remove_trait = hanafi
+			remove_trait = hanbali
+			remove_trait = maliki
+		}
+		add_trait = shafii
+		ai_chance = {
+			factor = 1
+			modifier = { 
+				factor = 20
+				OR = {
+					culture = kurdish
+					culture = yemeni
+					culture = hadhrami
+					culture = dhofari
+				}
+			}
+			modifier = { 
+				factor = 4
+				OR = {
+					culture = lebneni
+					culture = suriyi
+					culture = furataini
+					culture = filastini
+					culture = masri
+				}
+			}
+		}
+	}
+}
