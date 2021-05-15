@@ -394,10 +394,8 @@ RETTYPE_CUL_FRANK_NOR_GER =
 
 RETTYPE_CUL_HISP = 
 {
-	first_type = 2
-	first_amount = 125
-	second_type = 5
-	second_amount = 125
+	first_type = 1
+	first_amount = 200
 	
 	potential = {
 		is_nomadic = no
@@ -405,14 +403,14 @@ RETTYPE_CUL_HISP =
 		NOT = {
 			culture = portuguese
 			culture = andalusian
+			culture = azorean
+			culture = madeiran
 			}
 	}
 	
 	modifier = {
-		archers_offensive = 0.2
-		pikemen_offensive = 0.2
-		archers_defensive = 0.35
-		pikemen_defensive = 0.35
+		heavy_infantry_offensive = 0.4
+		heavy_infantry_morale = 0.2
 	}
 }
 
@@ -1570,7 +1568,11 @@ RETTYPE_CUL_POR =
 	
 	potential = {
 		is_nomadic = no
-		culture = portuguese
+		OR = {
+			culture = portuguese
+			culture = azorean
+			culture = madeiran
+		}
 	}
 	
 	modifier = {
