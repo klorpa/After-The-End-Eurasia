@@ -152,19 +152,25 @@ castle = {
 		desc = ca_culture_portuguese_1_desc
 		potential = {
 			OR = {
-				culture = portuguese
+				culture = portuguese 
+				culture = azorean 
+				culture = madeiran
 				has_building = ca_culture_portuguese_1
 			}
 		}
 		is_active_trigger = {
 			ROOT = {
-				culture = portuguese
+				culture = portuguese 
+				culture = azorean 
+				culture = madeiran
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 0
 			ROOT = {
-				culture = portuguese
+				culture = portuguese 
+				culture = azorean 
+				culture = madeiran
 			}
 		}
 		prerequisites = { ca_wall_1 }
@@ -180,20 +186,26 @@ castle = {
 		desc = ca_culture_portuguese_1_desc
 		potential = {
 			OR = {
-				culture = portuguese
+				culture = portuguese 
+				culture = azorean 
+				culture = madeiran
 				has_building = ca_culture_portuguese_1
 				has_building = ca_culture_portuguese_2
 			}
 		}
 		is_active_trigger = {
 			ROOT = {
-				culture = portuguese
+				culture = portuguese 
+				culture = azorean 
+				culture = madeiran
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 1
 			ROOT = {
-				culture = portuguese
+				culture = portuguese 
+				culture = azorean 
+				culture = madeiran
 			}
 		}
 		upgrades_from = ca_culture_portuguese_1
@@ -209,7 +221,9 @@ castle = {
 		desc = ca_culture_portuguese_1_desc
 		potential = {
 			OR = {
-				culture = portuguese
+				culture = portuguese 
+				culture = azorean 
+				culture = madeiran
 				has_building = ca_culture_portuguese_1
 				has_building = ca_culture_portuguese_2
 				has_building = ca_culture_portuguese_3
@@ -217,13 +231,17 @@ castle = {
 		}
 		is_active_trigger = {
 			ROOT = {
-				culture = portuguese
+				culture = portuguese 
+				culture = azorean 
+				culture = madeiran
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 2
 			ROOT = {
-				culture = portuguese
+				culture = portuguese 
+				culture = azorean 
+				culture = madeiran
 			}
 		}
 		upgrades_from = ca_culture_portuguese_2
@@ -239,7 +257,9 @@ castle = {
 		desc = ca_culture_portuguese_1_desc
 		potential = {
 			OR = {
-				culture = portuguese
+				culture = portuguese 
+				culture = azorean 
+				culture = madeiran
 				has_building = ca_culture_portuguese_1
 				has_building = ca_culture_portuguese_2
 				has_building = ca_culture_portuguese_3
@@ -248,13 +268,17 @@ castle = {
 		}
 		is_active_trigger = {
 			ROOT = {
-				culture = portuguese
+				culture = portuguese 
+				culture = azorean 
+				culture = madeiran
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 4
 			ROOT = {
-				culture = portuguese
+				culture = portuguese 
+				culture = azorean 
+				culture = madeiran
 			}
 		}
 		upgrades_from = ca_culture_portuguese_3
@@ -273,7 +297,9 @@ castle = {
 			OR = {
 				AND = {
 					culture_group = iberian 
-					NOT = { culture = portuguese } 
+					NOT = { culture = portuguese }
+					NOT = { culture = azorean }
+					NOT = { culture = madeiran } 
 					NOT = { culture = andalusian }
 				}
 				has_building = ca_culture_iberian_1
@@ -282,7 +308,9 @@ castle = {
 		is_active_trigger = {
 			ROOT = {
 				culture_group = iberian 
-				NOT = { culture = portuguese } 
+				NOT = { culture = portuguese }
+				NOT = { culture = azorean }
+				NOT = { culture = madeiran } 
 				NOT = { culture = andalusian }
 			}
 		} 
@@ -290,7 +318,9 @@ castle = {
 			TECH_CASTLE_CONSTRUCTION = 0
 			ROOT = {
 				culture_group = iberian 
-				NOT = { culture = portuguese } 
+				NOT = { culture = portuguese }
+				NOT = { culture = azorean }
+				NOT = { culture = madeiran } 
 				NOT = { culture = andalusian }
 			}
 		}
@@ -309,7 +339,9 @@ castle = {
 			OR = {
 				AND = {
 					culture_group = iberian 
-					NOT = { culture = portuguese } 
+					NOT = { culture = portuguese }
+					NOT = { culture = azorean }
+					NOT = { culture = madeiran } 
 					NOT = { culture = andalusian }
 				}
 				has_building = ca_culture_iberian_1
@@ -319,7 +351,9 @@ castle = {
 		is_active_trigger = {
 			ROOT = {
 				culture_group = iberian 
-				NOT = { culture = portuguese } 
+				NOT = { culture = portuguese }
+				NOT = { culture = azorean }
+				NOT = { culture = madeiran } 
 				NOT = { culture = andalusian }
 			}
 		} 
@@ -327,7 +361,9 @@ castle = {
 			TECH_CASTLE_CONSTRUCTION = 1
 			ROOT = {
 				culture_group = iberian 
-				NOT = { culture = portuguese } 
+				NOT = { culture = portuguese }
+				NOT = { culture = azorean }
+				NOT = { culture = madeiran } 
 				NOT = { culture = andalusian }
 			}
 		}
@@ -345,9 +381,11 @@ castle = {
 		potential = {
 			OR = {
 				AND = {
-					culture_group = iberian 
-					NOT = { culture = portuguese } 
-					NOT = { culture = andalusian }
+				culture_group = iberian 
+				NOT = { culture = portuguese }
+				NOT = { culture = azorean }
+				NOT = { culture = madeiran } 
+				NOT = { culture = andalusian }
 				}
 				has_building = ca_culture_iberian_1
 				has_building = ca_culture_iberian_2
@@ -357,7 +395,9 @@ castle = {
 		is_active_trigger = {
 			ROOT = {
 				culture_group = iberian 
-				NOT = { culture = portuguese } 
+				NOT = { culture = portuguese }
+				NOT = { culture = azorean }
+				NOT = { culture = madeiran } 
 				NOT = { culture = andalusian }
 			}
 		} 
@@ -365,7 +405,9 @@ castle = {
 			TECH_CASTLE_CONSTRUCTION = 2
 			ROOT = {
 				culture_group = iberian 
-				NOT = { culture = portuguese } 
+				NOT = { culture = portuguese }
+				NOT = { culture = azorean }
+				NOT = { culture = madeiran } 
 				NOT = { culture = andalusian }
 			}
 		}
@@ -383,9 +425,11 @@ castle = {
 		potential = {
 			OR = {
 				AND = {
-					culture_group = iberian 
-					NOT = { culture = portuguese } 
-					NOT = { culture = andalusian }
+				culture_group = iberian 
+				NOT = { culture = portuguese }
+				NOT = { culture = azorean }
+				NOT = { culture = madeiran } 
+				NOT = { culture = andalusian }
 				}
 				has_building = ca_culture_iberian_1
 				has_building = ca_culture_iberian_2
@@ -396,7 +440,9 @@ castle = {
 		is_active_trigger = {
 			ROOT = {
 				culture_group = iberian 
-				NOT = { culture = portuguese } 
+				NOT = { culture = portuguese }
+				NOT = { culture = azorean }
+				NOT = { culture = madeiran } 
 				NOT = { culture = andalusian }
 			}
 		} 
@@ -404,7 +450,9 @@ castle = {
 			TECH_CASTLE_CONSTRUCTION = 4
 			ROOT = {
 				culture_group = iberian 
-				NOT = { culture = portuguese } 
+				NOT = { culture = portuguese }
+				NOT = { culture = azorean }
+				NOT = { culture = madeiran } 
 				NOT = { culture = andalusian }
 			}
 		}
