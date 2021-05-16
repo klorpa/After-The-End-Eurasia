@@ -888,9 +888,13 @@ feudal_governments = {
 		}
 		frame_suffix = "_white_martyr_government"
 		potential = {
-			religion = insular
-			is_patrician = no
+		OR= {
+		religion = insular
+		religion = miaphysite
 		}
+			is_patrician = no		
+		}
+
 		
 		vassal_call_to_arms  = {
 			bureaucratic_government
