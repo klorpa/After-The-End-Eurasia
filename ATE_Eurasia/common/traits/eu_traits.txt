@@ -961,7 +961,9 @@ wahbi = {
 		nukkari
 		azzabas
 	}
-
+	potential = {
+		religion = ibadi
+	}
 	opposite_opinion = -5
 	same_opinion = 10
 	
@@ -978,7 +980,9 @@ nukkari = {
 		wahbi
 		azzabas
 	}
-
+	potential = {
+		religion = ibadi
+	}
 	opposite_opinion = -5
 	same_opinion = 10
 	
@@ -995,7 +999,10 @@ azzabas = {
 		nukkari
 		wahbi
 	}
-
+	
+	potential = {
+		religion = ibadi
+	}
 	opposite_opinion = -5
 	same_opinion = 10
 	
@@ -1013,7 +1020,13 @@ hanafi = {
 		maliki
 		shafii
 	}
-
+	potential = {
+		OR = {
+			religion = sunni
+			religion = ahl_as_salah
+			religion = sunnah
+		}
+	}
 	opposite_opinion = -5
 	same_opinion = 10
 	
@@ -1033,7 +1046,13 @@ hanbali = {
 		maliki
 		shafii
 	}
-
+	potential = {
+		OR = {
+			religion = sunni
+			religion = ahl_as_salah
+			religion = sunnah
+		}
+	}
 	opposite_opinion = -5
 	same_opinion = 10
 	
@@ -1053,7 +1072,13 @@ maliki = {
 		hanbali
 		shafii
 	}
-
+	potential = {
+		OR = {
+			religion = sunni
+			religion = ahl_as_salah
+			religion = sunnah
+		}
+	}
 	opposite_opinion = -5
 	same_opinion = 10
 	
@@ -1073,7 +1098,13 @@ shafii = {
 		hanbali
 		maliki
 	}
-
+	potential = {
+		OR = {
+			religion = sunni
+			religion = ahl_as_salah
+			religion = sunnah
+		}
+	}
 	opposite_opinion = -5
 	same_opinion = 10
 	
@@ -1105,14 +1136,15 @@ waqil = {
 	customizer = no
 	random = no
 }
-
 school_mark = {
 	opposites = {
 		school_mathew
 		school_peter
 		school_thaddeus
 	}
-
+	potential = {
+		religion = miaphysite
+	}
 	same_opinion = 5
 	
 	monthly_character_piety = 0.50
@@ -1124,32 +1156,15 @@ school_mark = {
 	religious = yes
 	ruler_designer_cost = 0
 }
-
-school_mathew = {
-	opposites = {
-		school_mark
-		school_peter
-		school_thaddeus
-	}
-
-	same_opinion = 5
-	
-	tax_income = 1
-	stewardship = 1
-	
-	religious_branch = miaphysite
-	random = no
-	religious = yes
-	ruler_designer_cost = 0
-}
-
 school_peter = {
 	opposites = {
 		school_mathew
 		school_mark
 		school_thaddeus
 	}
-
+	potential = {
+		religion = miaphysite
+	}
 	same_opinion = 5
 	
 	health = 1
@@ -1160,14 +1175,35 @@ school_peter = {
 	religious = yes
 	ruler_designer_cost = 0
 }
-
+school_mathew = {
+	opposites = {
+		school_mark
+		school_peter
+		school_thaddeus
+	}
+	potential = {
+		religion = miaphysite
+	}
+	same_opinion = 5
+	
+	tax_income = 1
+	stewardship = 1
+	
+	religious_branch = miaphysite
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
 school_thaddeus = {
 	opposites = {
 		school_mathew
 		school_peter
 		school_mark
 	}
-
+	potential = {
+		religion = miaphysite
+	}
+	
 	same_opinion = 5
 	
 	levy_reinforce_rate = 0.15
@@ -1177,4 +1213,82 @@ school_thaddeus = {
 	random = no
 	religious = yes
 	ruler_designer_cost = 0
+}
+lingayat = {
+	opposites = {
+		natha
+		siddhanta
+	}
+	potential = {
+		religion = mantramarga
+	}
+	opposite_opinion = -5
+	same_opinion = 10
+	
+	diplomacy = 1
+	stewardship = 1
+	martial = -1
+	
+	religious_branch = mantramarga
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+natha = {
+	opposites = {
+		lingayat
+		siddhanta
+	}
+	potential = {
+		religion = mantramarga
+	}
+	opposite_opinion = -5
+	same_opinion = 10
+	
+	diplomacy = 1
+	stewardship = 1
+	martial = -1
+	
+	religious_branch = mantramarga
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+siddhanta = {
+	opposites = {
+		natha
+		lingayat
+	}
+	potential = {
+		religion = mantramarga
+	}
+	opposite_opinion = -5
+	same_opinion = 10
+	
+	diplomacy = 1
+	stewardship = 1
+	martial = -1
+	
+	religious_branch = mantramarga
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+vegetarian = {
+	opposites = {
+		hunter
+	}
+	potential = {
+		OR = {
+			religion_group = indian_group
+			religion_group = buddhist_group
+		}
+	}
+	same_opinion = 5
+	
+	health = 0.5
+	
+	random = no
+	religious = yes
+	ruler_designer_cost = 5
 }

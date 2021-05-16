@@ -42,22 +42,6 @@ targetted_decisions = {
 				}
 			}
 			if = {
-				limit = { liege = { trait = shaivist_hindu } }
-				add_trait = shaivist_hindu
-			}
-			if = {
-				limit = { liege = { trait = vaishnavist_hindu } }
-				add_trait = vaishnavist_hindu
-			}
-			if = {
-				limit = { liege = { trait = shaktist_hindu } }
-				add_trait = shaktist_hindu
-			}
-			if = {
-				limit = { liege = { trait = smartist_hindu } }
-				add_trait = smartist_hindu
-			}
-			if = {
 				limit = { liege = { trait = mahayana_buddhist } }
 				add_trait = mahayana_buddhist
 			}
@@ -142,22 +126,6 @@ targetted_decisions = {
 							modifier = ruler_converted_to
 						}
 					}
-				}
-				if = {
-					limit = { ROOT = { trait = shaivist_hindu } }
-					add_trait = shaivist_hindu
-				}
-				if = {
-					limit = { ROOT = { trait = vaishnavist_hindu } }
-					add_trait = vaishnavist_hindu
-				}
-				if = {
-					limit = { ROOT = { trait = shaktist_hindu } }
-					add_trait = shaktist_hindu
-				}
-				if = {
-					limit = { ROOT = { trait = smartist_hindu } }
-					add_trait = smartist_hindu
 				}
 				if = {
 					limit = { ROOT = { trait = mahayana_buddhist } }
@@ -455,6 +423,232 @@ targetted_decisions = {
 		}
 	}
 	
+	convert_to_vaishnava = {
+		only_playable = yes		
+		filter = self
+		ai_target_filter = self
+		ai = no
+	
+		potential = {
+			is_playable = yes
+			has_dharmic_religion_trigger = yes
+			NOT = { religion = vaishnava }
+			is_theocracy = no
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		allow = {
+			is_adult = yes
+			prestige = 500
+			NOT = { trait = zealous }
+			any_realm_province = {
+				religion = vaishnava
+			}
+			custom_tooltip = {
+				text = indian_has_not_converted
+				NOT = { has_character_flag = india_converted }
+			}
+			holy_order = no
+		}
+		effect = {
+			if = {
+				limit = { higher_tier_than = BARON }
+				religion_authority = {
+					modifier = ruler_converted_from
+				}
+			}
+			religion = vaishnava
+			if = {
+				limit = { higher_tier_than = BARON }
+				hidden_tooltip = {
+					religion_authority = {
+						modifier = ruler_converted_to
+					}
+				}
+			}
+			set_character_flag = india_converted
+			prestige = -500
+			piety = 100
+			#hidden_tooltip = { character_event = { id = RoI.110 } } # Choose branch
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	convert_to_srauta = {
+		only_playable = yes		
+		filter = self
+		ai_target_filter = self
+		ai = no
+	
+		potential = {
+			is_playable = yes
+			has_dharmic_religion_trigger = yes
+			NOT = { religion = hindu }
+			is_theocracy = no
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		allow = {
+			is_adult = yes
+			prestige = 500
+			NOT = { trait = zealous }
+			any_realm_province = {
+				religion = hindu
+			}
+			custom_tooltip = {
+				text = indian_has_not_converted
+				NOT = { has_character_flag = india_converted }
+			}
+			holy_order = no
+		}
+		effect = {
+			if = {
+				limit = { higher_tier_than = BARON }
+				religion_authority = {
+					modifier = ruler_converted_from
+				}
+			}
+			religion = hindu
+			if = {
+				limit = { higher_tier_than = BARON }
+				hidden_tooltip = {
+					religion_authority = {
+						modifier = ruler_converted_to
+					}
+				}
+			}
+			set_character_flag = india_converted
+			prestige = -500
+			piety = 100
+			#hidden_tooltip = { character_event = { id = RoI.110 } } # Choose branch
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	convert_to_shaktah = {
+		only_playable = yes		
+		filter = self
+		ai_target_filter = self
+		ai = no
+	
+		potential = {
+			is_playable = yes
+			has_dharmic_religion_trigger = yes
+			NOT = { religion = shaktah }
+			is_theocracy = no
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		allow = {
+			is_adult = yes
+			prestige = 500
+			NOT = { trait = zealous }
+			any_realm_province = {
+				religion = shaktah
+			}
+			custom_tooltip = {
+				text = indian_has_not_converted
+				NOT = { has_character_flag = india_converted }
+			}
+			holy_order = no
+		}
+		effect = {
+			if = {
+				limit = { higher_tier_than = BARON }
+				religion_authority = {
+					modifier = ruler_converted_from
+				}
+			}
+			religion = shaktah
+			if = {
+				limit = { higher_tier_than = BARON }
+				hidden_tooltip = {
+					religion_authority = {
+						modifier = ruler_converted_to
+					}
+				}
+			}
+			set_character_flag = india_converted
+			prestige = -500
+		
+		piety = 100
+			#hidden_tooltip = { character_event = { id = RoI.110 } } # Choose branch
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	convert_to_mantramarga = {
+		only_playable = yes		
+		filter = self
+		ai_target_filter = self
+		ai = no
+	
+		potential = {
+			is_playable = yes
+			has_dharmic_religion_trigger = yes
+			NOT = { religion = mantramarga }
+			is_theocracy = no
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		allow = {
+			is_adult = yes
+			prestige = 500
+			NOT = { trait = zealous }
+			any_realm_province = {
+				religion = mantramarga
+			}
+			custom_tooltip = {
+				text = indian_has_not_converted
+				NOT = { has_character_flag = india_converted }
+			}
+			holy_order = no
+		}
+		effect = {
+			if = {
+				limit = { higher_tier_than = BARON }
+				religion_authority = {
+					modifier = ruler_converted_from
+				}
+			}
+			religion = mantramarga
+			if = {
+				limit = { higher_tier_than = BARON }
+				hidden_tooltip = {
+					religion_authority = {
+						modifier = ruler_converted_to
+					}
+				}
+			}
+			set_character_flag = india_converted
+			prestige = -500
+		
+		piety = 100
+			#hidden_tooltip = { character_event = { id = RoI.110 } } # Choose branch
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 	convert_to_local_religion = {
 		only_playable = yes
 		
@@ -2559,39 +2753,6 @@ targetted_decisions = {
 				religion = ROOT
 				abdicate_holy_order_if_religion_changes_effect = yes
 				
-				#When spouse is Hindu
-				if = {
-					limit = {
-						ROOT = {
-							trait = shaivist_hindu
-						}
-					}
-					add_trait = shaivist_hindu
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = vaishnavist_hindu
-						}
-					}
-					add_trait = vaishnavist_hindu
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = shaktist_hindu
-						}
-					}
-					add_trait = shaktist_hindu
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = smartist_hindu
-						}
-					}
-					add_trait = smartist_hindu
-				}
 				
 				#When spouse is Buddhist
 				if = {
