@@ -1105,3 +1105,76 @@ waqil = {
 	customizer = no
 	random = no
 }
+
+school_mark = {
+	opposites = {
+		school_mathew
+		school_peter
+		school_thaddeus
+	}
+
+	same_opinion = 5
+	
+	monthly_character_piety = 0.50
+	christian_church_opinion = 5
+	learning = 1
+	
+	religious_branch = miaphysite
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+
+school_mathew = {
+	opposites = {
+		school_mark
+		school_peter
+		school_thaddeus
+	}
+
+	same_opinion = 5
+	
+	tax_income = 1
+	stewardship = 1
+	
+	religious_branch = miaphysite
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+
+school_peter = {
+	opposites = {
+		school_mathew
+		school_mark
+		school_thaddeus
+	}
+
+	same_opinion = 5
+	
+	health = 1
+	diplomacy = 1
+	
+	religious_branch = miaphysite
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+
+school_thaddeus = {
+	opposites = {
+		school_mathew
+		school_peter
+		school_mark
+	}
+
+	same_opinion = 5
+	
+	levy_reinforce_rate = 0.15
+	martial = 1
+	
+	religious_branch = miaphysite
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
