@@ -136,4 +136,30 @@ decisions = {
 			set_character_flag = changedfolketrobranch 
 		}
 	}
+	change_mantramarga_branch = {
+		ai = no
+		
+		potential = {
+			religion = mantramarga
+			is_playable = yes
+			has_dlc = "Rajas of India"
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			NOT = { has_character_flag = changedmantramargabranch }
+		}
+		
+		allow = {
+			religion = mantramarga
+			is_playable = yes 
+		}
+		
+		effect = { 
+			hidden_tooltip = {
+				character_event = { id = hindu.1 }
+			}
+			custom_tooltip = { text = TXT_change_mantramarga_branch }
+			set_character_flag = changedmantramargabranch
+		}
+	}
 }

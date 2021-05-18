@@ -1,0 +1,55 @@
+character_event = {
+	id = hindu.1
+	desc = EVTDESC_HINDU_1
+	picture = GFX_evt_mantramarga_branch
+	religion = mantramarga
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { 
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_HINDU_1
+		hidden_tooltip = {
+			remove_trait = natha
+			remove_trait = siddhanta
+		}
+		add_trait = lingayat
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 stewardship = 5 }
+			modifier = { factor = 2 diplomacy = 5 }
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_HINDU_1
+		hidden_tooltip = {
+			remove_trait = lingayat
+			remove_trait = siddhanta
+		}
+		add_trait = natha
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 learning = 5 }
+			modifier = { factor = 2 martial = 5 }
+		}
+	}
+	
+	option = {
+		name = EVTOPTC_HINDU_1
+		hidden_tooltip = {
+			remove_trait = lingayat
+			remove_trait = natha 
+		}
+		add_trait = siddhanta 
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 stewardship = 5 }
+			modifier = { factor = 2 learning = 5 }
+		}
+	}
+}
