@@ -811,17 +811,8 @@ decisions = {
 			NOT = {
 				has_character_modifier = large_feast_timer
 			}
-			NOT = {
-				has_character_modifier = fabulous_feast
-			}
-			NOT = {
-				has_character_flag = guest_vessak
-			}
-			NOT = {
-				liege = {
-					has_character_modifier = holding_vessak
-				}
-			}
+			NOT = {has_character_flag = recent_minor_decision}
+			NOT = { has_character_flag = do_not_disturb }
 			num_of_vassals = 1
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
@@ -852,8 +843,14 @@ decisions = {
 		effect = {
 			set_character_flag = recent_minor_decision
 			set_character_flag = do_not_disturb
+			add_character_modifier = holding_vessak
+			add_character_modifier = {
+				name = large_feast_timer
+				duration = 365
+				hidden = yes
+			}
 			hidden_tooltip = { 
-				character_event = { id = budevents.100 }
+				narrative_event = { id = budevents.100 }
 			}
 			if = {
 				limit = {
