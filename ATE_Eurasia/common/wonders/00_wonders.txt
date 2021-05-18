@@ -94,6 +94,7 @@
 # 7C. Kronborg Castle in Denmark ... wonder_kronborg_castle
 # 7D. Walhalla in Germany .......... wonder_walhalla
 # 7E. Orszaghaz Palace in Hungary .. wonder_orszaghaz
+# 7F. Sri Ranganathaswamy Temple in Tamil Nadu ............ wonder_ranganathaswamy
 
 ###################################################################
 
@@ -3208,6 +3209,99 @@ wonder_al_azhar = {
 		}
 		owner_modifier = {
 			monthly_character_prestige = 0.4
+		}
+	}
+}
+
+#7F: Sri Ranganathaswamy Temple 
+wonder_ranganathaswamy = {
+	picture = GFX_wonder_strip_ranganathaswamy
+	show_model = no 
+	potential = { religion_group = indian_group }
+	active = { religion_group = indian_group }
+	
+	available_upgrades = {
+		# UNIQUE:
+		upgrade_high_gopura
+		upgrade_shikhara
+		upgrade_mandapa
+		upgrade_temple_complex
+		upgrade_school_hindu
+		upgrade_hospital_hindu
+
+		# OTHER:
+	 	upgrade_roads
+		upgrade_watchtower_network
+		upgrade_spikes
+		upgrade_tower
+		upgrade_hypocausts
+		upgrade_heating_pipes
+		upgrade_retinue
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 320
+		loot_time = 3
+		restore_time = 6
+		gold_cost_flat = 2000
+		gold_cost_ticking = 5
+		restore_cost_flat = 300
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		owner_modifier = {
+			monthly_character_piety = 0.2
+			monthly_character_prestige = 0.05
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 320
+		loot_time = 4
+		restore_time = 7
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_cost_flat = 400
+		restore_cost_ticking = 3
+		upgrade_slots = 2
+		owner_modifier = {
+			monthly_character_piety = 0.2
+			monthly_character_prestige = 0.1
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 320
+		loot_time = 5
+		restore_time = 8
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_cost_flat = 500
+		restore_cost_ticking = 4
+		upgrade_slots = 2
+		owner_modifier = {
+			monthly_character_piety = 0.2
+			monthly_character_prestige = 0.1
+			learning = 1
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 320
+		loot_time = 6
+		restore_time = 9
+		gold_cost_flat = 1000
+		gold_cost_ticking = 4
+		restore_cost_flat = 600
+		restore_cost_ticking = 5
+		upgrade_slots = 2
+		owner_modifier = {
+			monthly_character_piety = 0.3
+			monthly_character_prestige = 0.1
+			learning = 1
 		}
 	}
 }
