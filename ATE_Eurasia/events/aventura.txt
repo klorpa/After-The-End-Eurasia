@@ -1,0 +1,119 @@
+namespace = aventura
+
+
+#Aventura iniciada
+character_event = {
+	id = aventura.1
+	desc = EVTDESC_aventura1
+	picture = GFX_evt_ship_voyage_hf
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	
+	immediate = {
+		set_character_flag = on_aventura
+	}
+	
+	#pay extra for the ship
+	option = {
+		name = EVTOPTA_aventura1
+		wealth = -200
+		set_character_flag = best_ship
+		hidden_tooltip = {
+			character_event = { id = aventura.2 days = 3}
+		}
+	}
+	
+	#normal price for ship
+	option = {
+		name = EVTOPTB_aventura1
+		wealth = -100
+		set_character_flag = good_ship
+		hidden_tooltip = {
+			character_event = { id = aventura.2 days = 3}
+		}
+	}
+
+	#high stewardship pays low for the ship
+	option = {
+		name = EVTOPTC_aventura1
+		tooltip_info = stewardship
+		trigger = {
+			stewardship = 12
+		}
+		wealth = -100
+		set_character_flag = best_ship
+		hidden_tooltip = {
+			character_event = { id = aventura.2 days = 3}
+		}
+	}
+	
+	#actually I'd rather stay
+	option = {
+		name = EVTOPTD_aventura1
+		clr_character_flag = on_aventura
+	}
+
+}
+
+character_event = { #inviting councilers to the Aventura
+	id = aventura.2
+	desc = EVTDESC_aventura2
+	picture = GFX_evt_ship_voyage_hf
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = on_aventura
+	}
+	
+	option = { #invite Marshall
+		name = EVTOPTA_aventura2
+		job_marshal = { 
+			character_event = { id = aventura.3 }
+		}
+	}
+	
+	option = { #invite Steward
+		name = EVTOPTB_aventura2
+		job_treasurer = { 
+			character_event = { id = aventura.3 }
+		}
+	}
+	
+	option = { #invite Spymaster?
+		name = EVTOPTC_aventura2
+		job_spymaster = { 
+			character_event = { id = aventura.3 }
+		}
+	}
+}
+
+character_event = { #councilors response
+	id = aventura.3
+	is_triggered_only = yes
+	desc = EVTDESC_aventura3
+	picture = GFX_evt_council
+	border = GFX_event_normal_frame_economy
+	
+	option = {
+		name = EVTOPTA_aventura3
+		ai_chance = {
+			factor = 1
+		}
+		save_event_target_as = travelpartner
+		FROM = { character_event = { id = aventura.4 } }
+	}
+	
+}
+
+character_event = { #choosing the location
+	id = aventura.4 
+	is_triggered_only = yes
+	desc = EVTDESC_aventura4
+	picture = GFX_evt_council
+	border = GFX_event_normal_frame_economy
+	
+	option = {
+		name = EVTOPTA_aventura4
+	}
+}

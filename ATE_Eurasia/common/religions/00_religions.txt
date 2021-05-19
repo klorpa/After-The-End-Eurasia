@@ -1739,7 +1739,8 @@ vernacular = {
 		religious_clothing_priest = 1
 		intermarry = fornsed
 		intermarry = nysed
-		intermarry = sun_king_cultist
+		intermarry = sun_king_cultist 
+		intermarry = quinto
 		intermarry = orthodox
 	}
 
@@ -1782,7 +1783,8 @@ vernacular = {
 		religious_clothing_priest = 1
 		intermarry = fornsed
 		intermarry = nysed
-		intermarry = sun_king_cultist
+		intermarry = sun_king_cultist 
+		intermarry = quinto
 		intermarry = lutheran
 	}
 	
@@ -1825,7 +1827,8 @@ vernacular = {
 		intermarry = nysed
 		intermarry = folketro
 		intermarry = lutheran 
-		intermarry = sun_king_cultist
+		intermarry = sun_king_cultist 
+		intermarry = quinto
 	}
 	
 	nysed = {
@@ -1865,7 +1868,43 @@ vernacular = {
 		
 		intermarry = folketro 
 		intermarry = fornsed 
+		intermarry = sun_king_cultist 
+		intermarry = quinto
+	}
+	
+	quinto = {
+		graphical_culture = westerngfx
+
+		icon = 39
+		heresy_icon = 39
+		
+		color = { 0 153 51 }
+
+		high_god_name = GOD_DIVINO
+
+		god_names = {
+			THE_DESIRED QUEEN_TEARS VASCO_CAMOES
+		}
+		evil_god_names = {
+			BACCHUS ADAMASTOR CUCA
+		}
+		
+		scripture_name = THE_LUSIADS
+		priest_title = BUTLER
+		priests_can_marry = yes
+		
+		aggression = 0.5
+		allow_looting = yes
+		can_demand_religious_conversion = yes
+		female_temple_holders = yes
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = folketro
+		intermarry = fornsed
+		intermarry = nysed
 		intermarry = sun_king_cultist
+		
 	}
 	
 	sun_king_cultist = {
@@ -1902,6 +1941,7 @@ vernacular = {
 		intermarry = folketro
 		intermarry = fornsed
 		intermarry = nysed
+		intermarry = quinto
 	}
 	
 	chevalier = {
@@ -1938,7 +1978,8 @@ vernacular = {
 		religious_clothing_head = 0
 		religious_clothing_priest = 1
 		intermarry = folketro
-		intermarry = sun_king_cultist
+		intermarry = sun_king_cultist 
+		intermarry = quinto
 		intermarry = fornsed
 		intermarry = nysed
 	}
