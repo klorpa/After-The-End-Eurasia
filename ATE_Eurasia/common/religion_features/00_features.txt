@@ -932,7 +932,6 @@ religion_doctrine = {
 			NOT = {
 				has_selected_religion_feature = religion_peaceful
 				has_selected_religion_feature = religion_feature_norse
-				has_selected_religion_feature = religion_feature_lusitanian
 			}
 		}
 		effect = {
@@ -965,7 +964,6 @@ religion_doctrine = {
 				has_selected_religion_feature = religion_peaceful
 				has_selected_religion_feature = religion_feature_norse #Redundant
 				has_selected_religion_feature = religion_feature_aztec
-				has_selected_religion_feature = religion_feature_lusitanian
 			}
 		}
 		effect = {
@@ -1158,44 +1156,6 @@ religion_doctrine = {
 				enable_prepared_invasion = yes
 				set_seafaring = yes
 				set_allow_rivermovement = yes
-			}
-		}
-		ai_will_do = {
-			factor = 50
-		}
-	}
-	religion_feature_lusitanian = {
-		picture = GFX_religion_feature_lusitanian
-		potential = {
-			has_game_started = yes
-			religion = lusitanian_reformed
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-		trigger = {
-			religion = lusitanian_reformed
-			NOR = { 
-				has_selected_religion_feature = religion_adventuring
-				has_selected_religion_feature = religion_seafaring
-			}
-		}
-		effect = {
-			custom_tooltip = { text = tooltip_religion_feature_adventuring }
-			custom_tooltip = { text = tooltip_religion_feature_rivermovement }
-			custom_tooltip = { text = tooltip_religion_feature_ship_maintenance }
-			custom_tooltip = { text = tooltip_religion_feature_seafaring }
-			hidden_tooltip = { 
-				enable_prepared_invasion = yes
-				set_seafaring = yes
-				set_allow_rivermovement = yes
-			}
-			custom_tooltip = { text = tooltip_religion_feature_hard_conversion }
-			custom_tooltip = { text = tooltip_religion_feature_stable }
-			custom_tooltip = { text = tooltip_religion_feature_meliorism } 
-			hidden_tooltip = { 
-				set_hard_to_convert = yes
-				set_short_reign_opinion_year_mult = 0
 			}
 		}
 		ai_will_do = {

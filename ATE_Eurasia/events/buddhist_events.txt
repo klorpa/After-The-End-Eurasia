@@ -36,10 +36,10 @@ narrative_event = {
 		piety = 25
 		hidden_tooltip = {
 			random_list = {
-				25 = {set_character_flag = buddhist_therevada_sutra_1}
-				25 = {set_character_flag = buddhist_therevada_sutra_2}
-				25 = {set_character_flag = buddhist_therevada_sutra_3}
-				25 = {set_character_flag = buddhist_therevada_sutra_4}
+				25 = {set_character_flag = buddhist_theravada_sutra_1}
+				25 = {set_character_flag = buddhist_theravada_sutra_2}
+				25 = {set_character_flag = buddhist_theravada_sutra_3}
+				25 = {set_character_flag = buddhist_theravada_sutra_4}
 			}
 			narrative_event = {id = budevents.3 days = 2}
 		}
@@ -176,84 +176,84 @@ narrative_event = {
 	#Have the Same Intro in the localization just change out the Sutras that you choose to recites
 	desc = {
 		trigger = {
-			has_character_flag = buddhist_therevada_sutra_1
+			has_character_flag = buddhist_theravada_sutra_1
 		}
-		text = THEREVADA_SUTRA_1
+		text = THERAVADA_SUTRA_1
 	}
 	desc = {
 		trigger = {
-			has_character_flag = buddhist_therevada_sutra_2
+			has_character_flag = buddhist_theravada_sutra_2
 		}
-		text = THEREVADA_SUTRA_2
+		text = THERAVADA_SUTRA_2
 	}
 	desc = {
 		trigger = {
-			has_character_flag = buddhist_therevada_sutra_3
+			has_character_flag = buddhist_theravada_sutra_3
 		}
-		text = THEREVADA_SUTRA_3
+		text = THERAVADA_SUTRA_3
 	}
 	desc = {
 		trigger = {
-			has_character_flag = buddhist_therevada_sutra_4
+			has_character_flag = buddhist_theravada_sutra_4
 		}
-		text = THEREVADA_SUTRA_4
+		text = THERAVADA_SUTRA_4
 	}
 	picture = GFX_evt_buddha_teaching
 	is_triggered_only = yes
 	
 	option = {
 		trigger = {
-			has_character_flag = buddhist_therevada_sutra_1
+			has_character_flag = buddhist_theravada_sutra_1
 		}
 		name = EVTOPT_praise_buddha
 		add_character_modifier = { name = resolute_peace years = 1 }
 		AND = {
-			clr_character_flag = { buddhist_therevada_sutra_1 }
-			clr_character_flag = { buddhist_therevada_sutra_2 }
-			clr_character_flag = { buddhist_therevada_sutra_3 }
-			clr_character_flag = { buddhist_therevada_sutra_4 }
+			clr_character_flag = { buddhist_theravada_sutra_1 }
+			clr_character_flag = { buddhist_theravada_sutra_2 }
+			clr_character_flag = { buddhist_theravada_sutra_3 }
+			clr_character_flag = { buddhist_theravada_sutra_4 }
 		}
 		narrative_event = { id = budevents.6 days = 2 }
 	}
 	option = {
 		trigger = {
-			has_character_flag = buddhist_therevada_sutra_2
+			has_character_flag = buddhist_theravada_sutra_2
 		}
 		name = EVTOPT_praise_buddha
 		add_character_modifier = { name = wise_sayings years = 1 }
 		AND = {
-			clr_character_flag = { buddhist_therevada_sutra_1 }
-			clr_character_flag = { buddhist_therevada_sutra_2 }
-			clr_character_flag = { buddhist_therevada_sutra_3 }
-			clr_character_flag = { buddhist_therevada_sutra_4 }
+			clr_character_flag = { buddhist_theravada_sutra_1 }
+			clr_character_flag = { buddhist_theravada_sutra_2 }
+			clr_character_flag = { buddhist_theravada_sutra_3 }
+			clr_character_flag = { buddhist_theravada_sutra_4 }
 		}
 		narrative_event = { id = budevents.6 days = 2 }
 	}
 	option = {
 		trigger = {
-			has_character_flag = buddhist_therevada_sutra_3
+			has_character_flag = buddhist_theravada_sutra_3
 		}
 		name = EVTOPT_praise_buddha
 		add_character_modifier = { name = karmic_fury years = 1 }
 		AND = {
-			clr_character_flag = { buddhist_therevada_sutra_1 }
-			clr_character_flag = { buddhist_therevada_sutra_2 }
-			clr_character_flag = { buddhist_therevada_sutra_3 }
-			clr_character_flag = { buddhist_therevada_sutra_4 }
+			clr_character_flag = { buddhist_theravada_sutra_1 }
+			clr_character_flag = { buddhist_theravada_sutra_2 }
+			clr_character_flag = { buddhist_theravada_sutra_3 }
+			clr_character_flag = { buddhist_theravada_sutra_4 }
 		}
 		narrative_event = { id = budevents.6 days = 2 }
 	}
 	option = {
 		trigger = {
-			has_character_flag = buddhist_therevada_sutra_4
+			has_character_flag = buddhist_theravada_sutra_4
 		}
 		name = EVTOPT_praise_buddha
 		add_character_modifier = { name = tending_lotus years = 1 }
 		AND = {
-			clr_character_flag = { buddhist_therevada_sutra_1 }
-			clr_character_flag = { buddhist_therevada_sutra_2 }
-			clr_character_flag = { buddhist_therevada_sutra_3 }
-			clr_character_flag = { buddhist_therevada_sutra_4 }
+			clr_character_flag = { buddhist_theravada_sutra_1 }
+			clr_character_flag = { buddhist_theravada_sutra_2 }
+			clr_character_flag = { buddhist_theravada_sutra_3 }
+			clr_character_flag = { buddhist_theravada_sutra_4 }
 		}
 		narrative_event = { id = budevents.6 days = 2 }
 	}
@@ -492,23 +492,23 @@ narrative_event = {
 	desc = budevent100_desc
 	
 	trigger = {
-		has_character_modifier = holding_vessak
+		has_character_flag = holding_vessak
 		war = no
 	}
 	
 	option = {#large event
 		trigger = {
-			religion = therevada
+			religion = theravada
 		}
 		name = EVTOPTA_budevent100
-		add_character_modifier = building_stupa
+		add_character_modifier = {name = building_stupa months=6}
 		scaled_wealth = 3
 		prestige = 50
 		narrative_event = { id = budevents.101 days = 2 }
 	}
 	option = {#medium event
 		name = EVTOPTB_budevent100
-		add_character_modifier = glad_bhikku
+		add_character_modifier = {name = glad_bhikku months=6}
 		scaled_wealth = 1.5
 		prestige = 20
 		narrative_event = { id = budevents.101 days = 2 }
@@ -527,7 +527,14 @@ narrative_event = {#do you want to fast
 	picture = GFX_evt_buddha_teaching
 	is_triggered_only = yes
 	
-	trigger = {has_character_modifier = holding_vessak}
+	trigger = {has_character_flag = holding_vessak}
+	
+	immediate = {
+		random_list = {
+			30 = { set_character_flag = experience_hardship }
+			70 = {}
+		}
+	}
 	
 	option = {#yes
 		trigger = {
@@ -536,142 +543,8 @@ narrative_event = {#do you want to fast
 		name = EVTOPTA_budevent101
 		custom_tooltip = {
 			text = fast_begins_custom_text
-			random_list = {
-				30 = {#you experience hardships
-					mult_modifier = {
-						factor = 1.5
-						is_ill = yes
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 10
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 9
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 8
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 7
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 6
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 5
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 4
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 3
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 2
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 1
-					}
-					character_event = {id = budevents.102 days = 4} 
-				}
-				70 = {#end of the fast
-					character_event = {id = budevents.103 days = 8}
-				}
-			}
 		}
-		add_trait = vegetarian
-		piety = 50
-		
-		
-		ai_chance = {
-			factor = 75
-			modifier = {
-				factor = 0.2
-				OR = {
-					is_ill = yes
-					num_of_symptoms > 2
-				}
-			}
-			modifier = {
-				factor = 0.5
-				trait = gluttonous 
-			}
-			modifier = {
-				factor = 0.5
-				trait = cynical
-			}
-		}
-	}
-	option = {#yes
-		trigger = {
-			NOT = {trait = vegetarian}
-		}
-		name = EVTOPTB_budevent101
-		custom_tooltip = {
-			text = fast_begins_custom_text
-			random_list = {
-				30 = {#you experience hardships
-					mult_modifier = {
-						factor = 1.5
-						is_ill = yes
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 10
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 9
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 8
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 7
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 6
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 5
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 4
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 3
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 2
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 1
-					}
-					character_event = {id = budevents.102 days = 4} 
-				}
-				70 = {#end of the fast
-					character_event = {id = budevents.103 days = 8}
-				}
-			}
-		}
+		character_event = {id = budevents.102 days=2}
 		add_trait = vegetarian
 		piety = 50
 		
@@ -700,62 +573,11 @@ narrative_event = {#do you want to fast
 		trigger = {
 			trait = vegetarian
 		}
-		name = EVTOPTC_budevent101
+		name = EVTOPTB_budevent101
 		custom_tooltip = {
 			text = fast_begins_custom_text
-			random_list = {
-				30 = {#you experience hardships
-					mult_modifier = {
-						factor = 1.5
-						is_ill = yes
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 10
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 9
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 8
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 7
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 6
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 5
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 4
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 3
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 2
-					}
-					mult_modifier = {
-						factor = 1.15
-						health < 1
-					}
-					character_event = {id = budevents.102 days = 4} 
-				}
-				70 = {#end of the fast
-					character_event = {id = budevents.103 days = 8}
-				}
-			}
 		}
+		character_event = {id = budevents.102 days=2}
 		piety = 50
 		
 		
@@ -780,7 +602,7 @@ narrative_event = {#do you want to fast
 	}
 	
 	option = {#no
-		name = EVTOPTD_budevent101
+		name = EVTOPTC_budevent101
 		piety = -10
 		
 		character_event = {id = budevents.103 days = 8}
@@ -805,11 +627,11 @@ character_event = {#experience hardships, option to abandon
 	picture = GFX_evt_buddha_teaching
 	desc = budevent102_desc
 	
-	trigger = {has_character_modifier = holding_vessak}
+	trigger = {has_character_flag = holding_vessak}
 	
 	option = {#abandon the fast
 		name = EVTOPTA_budevent102
-		add_character_modifier = vessak_fast_failed
+		add_character_modifier = {name = vessak_fast_failed years=3}
 		
 		character_event = { id = budevents.103 days = 4}
 		
@@ -909,99 +731,13 @@ character_event = {#the fast ends - you successfully did it!
 	picture = GFX_evt_buddha_teaching
 	desc = budevent103_desc
 	
-	trigger = {has_character_modifier = holding_vessak}
+	trigger = {has_character_flag = holding_vessak}
 	
 	option = {#wooooo!
 		name = EVTOPTA_buddhist103
 		piety = 100
 		prestige = 50
-		character_event = { id = budevents.104 days = 4}
-	}
-}
-
-character_event = {#setting up the parade
-	id = budevents.104
-	is_triggered_only = yes
-	title = budevent104_title
-	picture = GFX_evt_buddha_parade
-	desc = {
-		trigger = {
-			religion = therevada
-		}
-		text = T_PREPARATIONS
-	}
-	desc = {
-		trigger = {
-			religion = mahayana
-		}
-		text = M_PREPARATIONS
-	}
-	
-	trigger = {has_character_modifier = holding_vessak}
-	
-	immediate = {
-		narrative_event = {id = budevent.107 day = 1}
-	}
-	
-	option = {#Large Parade
-		name = EVTOPTA_buddhist104
-		scaled_wealth = 1
-		character_event = {id = budevent.106 days = 4}
-	}
-	option = {#modest Parade
-		name = EVTOPTB_buddhist104
-		scaled_wealth = 0.5
-		character_event = {id = budevent.105 days = 4}
-	}
-}
-
-character_event = {#modest parade
-	id = budevents.105
-	is_triggered_only = yes
-	picture = GFX_evt_buddha_parade
-	desc = {
-		trigger = {
-			religion = therevada
-		}
-		text = T_MODEST_PARADE
-	}
-	desc = {
-		trigger = {
-			religion = mahayana
-		}
-		text = M_MODEST_PARADE
-	}
-	
-	trigger = {has_character_modifier = holding_vessak}
-	
-	option = {#Response
-		name = EVTOPT_praise_buddha
-		prestige = 20
-	}
-}
-
-character_event = {#large parade
-	id = budevents.106
-	is_triggered_only = yes
-	picture = GFX_evt_buddha_parade
-	desc = {
-		trigger = {
-			religion = therevada
-		}
-		text = T_LARGE_PARADE
-	}
-	desc = {
-		trigger = {
-			religion = mahayana
-		}
-		text = M_LARGE_PARADE
-	}
-	
-	trigger = {has_character_modifier = holding_vessak}
-	
-	option = {#Response
-		name = EVTOPT_praise_buddha
-		prestige = 50
+		narrative_event = { id = budevents.107 days = 4}
 	}
 }
 
@@ -1012,13 +748,100 @@ narrative_event = {#Vesak Day Starts!!!
 	picture = GFX_evt_buddhist_contemplation
 	desc = budevent107_desc
 	
-	trigger = {has_character_modifier = holding_vessak}
+	trigger = {has_character_flag = holding_vessak}
 	
 	option = {#Response
 		name = EVTOPT_minor_reverence_buddhist
-		character_event = {id = budevents.108}
+		character_event = {id = budevents.104}
 	}
 }
+
+character_event = {#setting up the parade
+	id = budevents.104
+	is_triggered_only = yes
+	title = budevent104_title
+	picture = GFX_evt_buddha_parade
+	desc = {
+		trigger = {
+			religion = theravada
+		}
+		text = T_PREPARATIONS
+	}
+	desc = {
+		trigger = {
+			religion = mahayana
+		}
+		text = M_PREPARATIONS
+	}
+	
+	trigger = {has_character_flag = holding_vessak}
+	
+	option = {#Large Parade
+		name = EVTOPTA_buddhist104
+		scaled_wealth = 1
+		narrative_event = {id = budevents.106 days = 4}
+	}
+	option = {#modest Parade
+		name = EVTOPTB_buddhist104
+		scaled_wealth = 0.5
+		narrative_event = {id = budevents.105 days = 4}
+	}
+}
+
+narrative_event = {#modest parade
+	id = budevents.105
+	title = budevent105_title
+	is_triggered_only = yes
+	picture = GFX_evt_buddha_parade
+	desc = {
+		trigger = {
+			religion = theravada
+		}
+		text = T_MODEST_PARADE
+	}
+	desc = {
+		trigger = {
+			religion = mahayana
+		}
+		text = M_MODEST_PARADE
+	}
+	
+	trigger = {has_character_flag = holding_vessak}
+	
+	option = {#Response
+		name = EVTOPT_praise_buddha
+		narrative_event = {id = budevents.108 days=2}
+		prestige = 20
+	}
+}
+
+narrative_event = {#large parade
+	id = budevents.106
+	title = budevent105_title
+	is_triggered_only = yes
+	picture = GFX_evt_buddha_parade
+	desc = {
+		trigger = {
+			religion = theravada
+		}
+		text = T_LARGE_PARADE
+	}
+	desc = {
+		trigger = {
+			religion = mahayana
+		}
+		text = M_LARGE_PARADE
+	}
+	
+	trigger = {has_character_flag = holding_vessak}
+	
+	option = {#Response
+		name = EVTOPT_praise_buddha
+		narrative_event = {id = budevents.108 days=2}
+		prestige = 50
+	}
+}
+
 narrative_event = {#Listen to a good Story?
 	id = budevents.108
 	is_triggered_only = yes
@@ -1026,15 +849,36 @@ narrative_event = {#Listen to a good Story?
 	picture = GFX_evt_buddha_teaching
 	desc = budevent108_desc
 	
-	trigger = {has_character_modifier = holding_vessak}
+	trigger = {has_character_flag = holding_vessak}
+	
+	immediate = {
+		random_list = {
+			33 = {set_character_flag = silanisama}
+			33 = {set_character_flag = vessantara}
+			33 = {set_character_flag = vidurapandita}
+		}
+	}
 	
 	option = {#Listen in
-		name = EVTOPTA_budevent108
-		random_list = {
-			33 = {narrative_event = {id = budevents.109 days = 2}}
-			33 = {narrative_event = {id = budevents.110 days = 2}}
-			33 = {narrative_event = {id = budevents.111 days = 2}}
+		trigger = {
+			has_character_flag = silanisama
 		}
+		name = EVTOPTA_budevent108
+		narrative_event = {id = budevents.109 days = 2}
+	}
+	option = {#Listen in
+		trigger = {
+			has_character_flag = vessantara
+		}
+		name = EVTOPTA_budevent108
+		narrative_event = {id = budevents.110 days = 2}
+	}
+	option = {#Listen in
+		trigger = {
+			has_character_flag = vidurapandita
+		}
+		name = EVTOPTA_budevent108
+		narrative_event = {id = budevents.111 days = 2}
 	}
 	option = {#Do not Listen in
 		name = EVTOPTB_budevent108
@@ -1053,15 +897,15 @@ narrative_event = {#Silanisama Jataka
 	picture = GFX_evt_buddha_teaching
 	desc = budevent109_desc
 	
-	trigger = {has_character_modifier = holding_vessak}
+	trigger = {has_character_flag = holding_vessak}
 	
 	option = {#Response
-		name = EVTOPT_wise_words_buddhist
+		name = continue
 		random_list = {
-			50 = 
+			50 = {}
 			50 = { add_trait = gregarious }
 		}
-		narrative_event = {id = budevents.112 days = 2}
+		narrative_event = {id = budevents.113 days = 1}
 	}
 }
 
@@ -1072,15 +916,15 @@ narrative_event = {#Vessantara Jataka
 	picture = GFX_evt_buddha_teaching
 	desc = budevent110_desc
 	
-	trigger = {has_character_modifier = holding_vessak}
+	trigger = {has_character_flag = holding_vessak}
 	
 	option = {#Response
-		name = EVTOPT_wise_words_buddhist
+		name = continue
 		random_list = {
-			50 = 
+			50 = {}
 			50 = { add_trait = charitable }
 		}
-		narrative_event = {id = budevents.112 days = 2}
+		narrative_event = {id = budevents.114 days = 1}
 	}
 }
 
@@ -1091,15 +935,15 @@ narrative_event = {#Vidurapandita Jataka
 	picture = GFX_evt_buddha_teaching
 	desc = budevent111_desc
 	
-	trigger = {has_character_modifier = holding_vessak}
+	trigger = {has_character_flag = holding_vessak}
 	
 	option = {#Response
-		name = EVTOPT_wise_words_buddhist
+		name = continue
 		random_list = {
-			50 = 
+			50 = {}
 			50 = { add_trait = pious }
 		}
-		narrative_event = {id = budevents.112 days = 2}
+		narrative_event = {id = budevents.115 days = 1}
 	}
 }
 
@@ -1125,7 +969,7 @@ narrative_event = {#End of Vessak
 		text = LANTERN_SHOW
 	}
 	
-	trigger = {has_character_modifier = holding_vessak}
+	trigger = {has_character_flag = holding_vessak}
 	
 	option = {#Vegetarian Response (DO NOT CONTINUE)
 		trigger = {trait = vegetarian}
@@ -1133,23 +977,83 @@ narrative_event = {#End of Vessak
 		piety = 20
 		remove_trait = vegetarian
 		clr_character_flag = do_not_disturb
-		remove_character_modifier = holding_vessak
+		clr_character_flag = holding_vessak
 	}
 	option = {#Vegetarian Response (CONTINUE)
 		trigger = {trait = vegetarian}
 		name = EVTOPTA_budevent112
 		piety = 20
 		clr_character_flag = do_not_disturb
-		remove_character_modifier = holding_vessak
+		clr_character_flag = holding_vessak
 	}
 	option = {#Non-Vegetarian Response
 		trigger = {NOT = {trait = vegetarian}}
 		name = EVTOPTC_budevent112
 		piety = 20
 		clr_character_flag = do_not_disturb
-		remove_character_modifier = holding_vessak
+		clr_character_flag = holding_vessak
 	}
 }
+#The Text was too Long so the Part two of the text is dumped here
+
+narrative_event = {#Silanisama Jataka
+	id = budevents.113
+	is_triggered_only = yes
+	title = budevent109_title
+	picture = GFX_evt_buddha_teaching
+	desc = budevent113_desc
+	
+	trigger = {has_character_flag = holding_vessak}
+	
+	option = {#Response
+		name = EVTOPT_wise_words_buddhist
+		random_list = {
+			50 = {}
+			50 = { add_trait = gregarious }
+		}
+		narrative_event = {id = budevents.113 days = 2}
+	}
+}
+
+narrative_event = {#Vessantara Jataka
+	id = budevents.114
+	is_triggered_only = yes
+	title = budevent114_title
+	picture = GFX_evt_buddha_teaching
+	desc = budevent110_desc
+	
+	trigger = {has_character_flag = holding_vessak}
+	
+	option = {#Response
+		name = EVTOPT_wise_words_buddhist
+		random_list = {
+			50 = {}
+			50 = { add_trait = charitable }
+		}
+		narrative_event = {id = budevents.112 days = 2}
+	}
+}
+
+narrative_event = {#Vidurapandita Jataka
+	id = budevents.115
+	is_triggered_only = yes
+	title = budevent111_title
+	picture = GFX_evt_buddha_teaching
+	desc = budevent115_desc
+	
+	trigger = {has_character_flag = holding_vessak}
+	
+	option = {#Response
+		name = EVTOPT_wise_words_buddhist
+		random_list = {
+			50 = {}
+			50 = { add_trait = pious }
+		}
+		narrative_event = {id = budevents.112 days = 2}
+	}
+}
+
+#Vessak Maintenance Events
 
 character_event = { 
 	id = budevents.120
@@ -1159,7 +1063,7 @@ character_event = {
 	immediate = {
 		clr_character_flag = do_not_disturb
 		clr_character_flag = recent_minor_decision
-		remove_character_modifier = holding_vessak
+		clr_character_flag = holding_vessak
 	}
 }
 
@@ -1180,7 +1084,7 @@ character_event = {
 		piety = -50
 		hidden_tooltip = { character_event = { id = budevents.120 } }
 		hidden_tooltip = { add_character_modifier = { name = large_feast_timer years = 3 } }
-		hidden_tooltip = { remove_character_modifier = holding_vessak }
+		hidden_tooltip = { clr_character_flag = holding_vessak }
 	}
 }
 }

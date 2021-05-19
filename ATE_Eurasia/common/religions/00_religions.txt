@@ -48,73 +48,6 @@ pagan_group = {
 		dynamic_cult = no
 		secret_religion = no
 	}
-	lusitanian_reformed = {
-		graphical_culture = westerngfx
-
-		icon = 39
-		heresy_icon = 39
-		
-		color = { 0 153 51 }
-
-		high_god_name = GOD_LUSUS
-
-		god_names = {
-			GOD_JUPITER GOD_VENUS GOD_MERCURY GOD_THE_FATES
-		}
-		evil_god_names = {
-			BACCHUS
-		}
-		
-		scripture_name = THE_LUSIADS
-		priest_title = STORYTELLER
-		priests_can_marry = yes
-		allow_in_ruler_designer = no
-		allow_looting = yes
-
-		
-		aggression = 0.5
-		
-		can_demand_religious_conversion = yes
-		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-		
-		intermarry = sjotru
-		intermarry = lusitanian
-	}
-	lusitanian = {
-		graphical_culture = westerngfx
-
-		icon = 39
-		heresy_icon = 39
-		
-		color = { 0 153 51 }
-
-		high_god_name = GOD_LUSUS
-
-		god_names = {
-			GOD_JUPITER GOD_VENUS GOD_MERCURY GOD_THE_FATES
-		}
-		evil_god_names = {
-			BACCHUS
-		}
-		
-		scripture_name = THE_LUSIADS
-		priest_title = STORYTELLER
-		priests_can_marry = yes
-		reformed = lusitanian_reformed
-
-		
-		aggression = 0.5
-		allow_looting = yes		
-		can_demand_religious_conversion = no
-		allow_viking_invasion = yes
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-		
-		intermarry = sjotru
-		
-	}
 	adonist_reformed = {
 		graphical_culture = norsegfx
 
@@ -148,7 +81,7 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-		intermarry = lusitanian
+		intermarry = quinto
 		intermarry = nysed
 		intermarry = folketro
 	}
@@ -185,7 +118,7 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-		intermarry = lusitanian
+		intermarry = quinto
 		intermarry = nysed
 		intermarry = folketro
 		
@@ -222,7 +155,7 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-		intermarry = lusitanian
+		intermarry = quinto
 		intermarry = nysed
 		intermarry = folketro
 	}
@@ -258,7 +191,7 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-		intermarry = lusitanian
+		intermarry = quinto
 		intermarry = nysed
 		intermarry = folketro
 		
@@ -294,7 +227,7 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-		intermarry = lusitanian
+		intermarry = quinto
 		intermarry = sjotru
 		intermarry = orthodox
 	}
@@ -329,7 +262,7 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-		intermarry = lusitanian
+		intermarry = quinto
 		intermarry = sjotru
 		intermarry = orthodox
 		
@@ -365,7 +298,7 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-		intermarry = lusitanian
+		intermarry = quinto
 		intermarry = sjotru
 		intermarry = orthodox
 	}
@@ -400,7 +333,7 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-		intermarry = lusitanian
+		intermarry = quinto
 		intermarry = sjotru
 		intermarry = orthodox
 		
@@ -436,7 +369,7 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-		intermarry = lusitanian
+		intermarry = quinto
 		intermarry = sjotru
 		intermarry = orthodox
 	}
@@ -471,7 +404,7 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-		intermarry = lusitanian
+		intermarry = quinto
 		intermarry = sjotru
 		intermarry = orthodox
 		
@@ -507,7 +440,7 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-		intermarry = lusitanian
+		intermarry = quinto
 		intermarry = sjotru
 		intermarry = orthodox
 	}
@@ -542,7 +475,7 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 
-		intermarry = lusitanian
+		intermarry = quinto
 		intermarry = sjotru
 		intermarry = orthodox
 		
