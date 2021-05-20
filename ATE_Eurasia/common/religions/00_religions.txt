@@ -3744,6 +3744,41 @@ buddhist_group = {
 		religious_clothing_head = 10
 		religious_clothing_priest = 10
 	}
+	rime = {
+		graphical_culture = tibetangfx
+
+		icon = 50
+		heresy_icon = 50
+		
+		color = { 180 2 16 }
+		
+		scripture_name = KANGYUR
+		priest_title = LAMA
+		
+		high_god_name = GOD_DHAMA
+		
+		god_names = {
+			 GOD_BUDDHA GOD_BODDHISATTVA GOD_AVALOKITESHVARA GOD_AMITABHA
+		}
+		
+		evil_god_names = {
+			NARAKA MARA
+		}
+		
+		piety_name = KARMA
+		character_modifier = { learning = 2 }
+		short_reign_opinion_year_mult = 0
+		
+		intermarry = eastern
+		
+		can_grant_divorce = yes
+		castes = yes
+		priests_can_inherit = no
+		can_retire_to_monastery = yes 
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+	}
 	gelugpa = {
 		graphical_culture = tibetangfx
 
