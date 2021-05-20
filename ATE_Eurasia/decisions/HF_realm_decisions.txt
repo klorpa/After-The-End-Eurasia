@@ -850,7 +850,6 @@ targetted_decisions = {
 		from_potential = {
 			culture_group = french
 			religion = jacobin
-			}
 			war = no
 			NOT = {
 				any_war = {
@@ -889,7 +888,6 @@ targetted_decisions = {
 				}
 			}
 		}
-
 		potential = {
 			NOT = {
 				religion = jacobin
@@ -1226,8 +1224,6 @@ targetted_decisions = {
 
 		potential = {
 			religion = jacobin
-		}
-
 			any_war = {
 				OR = {
 					using_cb = reconquest_balc
