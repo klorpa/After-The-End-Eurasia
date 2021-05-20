@@ -15,11 +15,9 @@
     trait=robust
     trait=devout
     trait=proud
-    trait=zealous
     2622.6.13={birth=yes}
     2722.9.30={death=yes}
 }
-
 
 1802014={ #Arachnort Sahag IV Paylagi Ghazaryan
     name="Sahag"
@@ -33,7 +31,7 @@
     learning=5
 	trait=school_thaddeus
     trait=charismatic_negotiator	
-    trait=shrewd
+    trait=groomed
     trait=diligent
     trait=humble
     trait=gregarious
@@ -42,7 +40,6 @@
 	#father=1802012
 	#mother=1802013
     2622.6.13={birth=yes}
-    2722.9.30={death=yes}
 }
 
 1802021={ #Yelena wife of Arachnort Sahag IV Ghazaryan
@@ -51,22 +48,268 @@
     dynasty=1802102 
     culture=armenian
     religion=miaphysite
-    martial=8
-    diplomacy=8
-    stewardship=5
+    martial=9
+    diplomacy=6
+    stewardship=8
     intrigue=6
     learning=5
 	trait=school_thaddeus
-    trait=charismatic_negotiator	
+    trait=fortune_builder	
     trait=shrewd
     trait=diligent
-    trait=humble
-    trait=gregarious
-    trait=honest
-    trait=gluttonous
-	#father=1802022
-	#mother=1802023
-    2622.6.13={birth=yes}
-    2722.9.30={death=yes}
+    trait=arbitrary
+    trait=trusting
+	father=1802022
+	mother=1802023
+    2626.4.8={birth=yes}
+	2642.1.15={add_spouse=1802014}
 }
 
+#Sahag IV has six children:
+#Anahit (21) [1802015], Harutyun (19) [1802016], Siranush (18) [1802017], Paylag (16) [1802018], Zhirayr (14) [1802019], and Taguhi 1802020(12)
+
+#Nazar I Ghazaryan [] brave wife Alitz [1802001]
+#Spartak I Nazari Ghazaryan strong and ugly [1802002] 1802035
+#Sahag I Nazari Ghazaryan [1802003] diplomat wife Margarid [1802004]
+#Sahag II Sahagi Ghazaryan [1802005] hierodeacon wife Patil [1802006]
+#Paylag I Sahagi Ghazaryan [1802007] wife Siranush [1802008] and also a son named Cristapor [1802009] 
+#Arshak I Paylagi Ghazaryan [1802010] (2554.2.15) wife Raqel [1802011]
+#Paylag II Arshaki Ghazaryan [1802012] (2585.1.16)-(2645.2.15) wife Lusine [1802013]
+#Ishkhan
+
+1802022={ #Vanahayr Gevorg II Sparapet
+    name="Gevorg"
+    dynasty=1802102 
+    culture=armenian
+    religion=miaphysite
+    martial=12
+    diplomacy=10
+    stewardship=7
+    intrigue=9
+    learning=8
+	trait=school_thaddeus
+    trait=brilliant_strategist
+    trait=strong
+    trait=sturdy
+    trait=temperate
+    trait=kind	
+    trait=proud
+	father=1802026
+	mother=1802027
+    2605.9.12={birth=yes}
+    2701.9.30={death=yes}
+}
+
+
+1802023={ #Leyli wife of Vanahayr Gevorg II Sparapet
+    name="Leyli"
+	female=yes
+    culture=armenian
+    religion=miaphysite
+    martial=6
+    diplomacy=6
+    stewardship=7
+    intrigue=7
+    learning=7
+	trait=school_thaddeus
+    trait=thrifty_clerk
+    trait=honest
+    trait=kind	
+    trait=patient	
+    2609.3.6={birth=yes}
+    2702.9.30={death=yes}
+}
+
+1802025={ #Khachig Gevorgi Sparapet
+    name="Khachig"
+    dynasty=1802102 
+    culture=armenian
+    religion=miaphysite
+    martial=8
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+	trait=school_thaddeus
+    trait=willful	
+    trait=haughty
+	father=1802022
+	mother=1802023
+    2653.7.20={birth=yes}
+}
+
+1802024={ #Sirvard wife of Paharru Onik Shiraz
+    name="Sirvard"
+	female=yes
+    dynasty=1802102 
+    culture=armenian
+    religion=miaphysite
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+	trait=school_thaddeus
+    trait=underhanded_rogue	
+    trait=poet
+    trait=temperate
+    trait=gregarious
+    trait=stubborn
+	father=1802022
+	mother=1802023
+    2634.11.2={birth=yes}
+	2652.2.14={add_spouse=1802031}
+}
+
+1802031={ #Paharru Onik Shiraz of Shirak
+    name="Onik"
+    dynasty=1802104 
+    culture=armenian
+    religion=miaphysite
+    martial=7
+    diplomacy=12
+    stewardship=6
+    intrigue=6
+    learning=6
+	trait=school_thaddeus
+    trait=underhanded_rogue	
+    trait=scholar
+    trait=poet
+    trait=diligent
+    trait=charitable
+    2632.4.25={birth=yes}
+	2652.2.14={add_spouse=1802024}
+}
+
+1802032={ #Ara Oniki Shiraz of Shirak
+    name="Ara"
+    dynasty=1802104 
+    culture=armenian
+    religion=miaphysite
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=4
+	trait=school_thaddeus
+    trait=twin	
+    trait=curious
+    trait=haughty
+	father=1802031
+	mother=1802024
+    2058.6.23={birth=yes}
+}
+
+1802033={ #Sipan Oniki Shiraz of Shirak
+    name="Sipan"
+    dynasty=1802104 
+    culture=armenian
+    religion=miaphysite
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=4
+	trait=school_thaddeus
+    trait=twin	
+    trait=brooding
+    trait=haughty
+	father=1802031
+	mother=1802024
+    2058.6.23={birth=yes}
+}
+
+1802034={ #Ani Oniki Shiraz of Shirak
+    name="Ani"
+	female=yes
+    dynasty=1802104 
+    culture=armenian
+    religion=miaphysite
+	trait=school_thaddeus
+    trait=affectionate	
+	father=1802031
+	mother=1802024
+    2061.3.2={birth=yes}
+}
+		#	1802026 Gevorg I 
+		#	1802027 Margarid
+
+#Coung f Geghark,Apel Kinsmen to king, a son named Hrachik and three daughters; Armenuhi , Persape , and Gayane and a wife named Goharik (later 30s) (daughter of Gevorg). Hrachik is friends with Harutyun
+#coun of Tuvaash, 1802105. Goryun, a wife named Satenik and a son named Vahram  and a daughter named Louseres
+
+1802026={ #Vanahayr Gevorg I Sparapet
+    name="Gevorg"
+    dynasty=1802102 
+    culture=armenian
+    religion=miaphysite
+    martial=10
+    diplomacy=10
+    stewardship=7
+    intrigue=5
+    learning=151
+	trait=school_thaddeus
+	trait=scholarly_theologian
+	trait=death
+	trait=brave
+	trait=trusting
+	trait=kind
+	trait=regularis  
+	trait=honest
+	employer=14400002
+	2622.1.13={birth=yes}
+	2653.6.16={add_spouse=1802027}
+	2700.1.1={death=yes}
+}
+
+1802028={ #Count Shirkuh of Kashatagh
+    name="Shirkuh"
+    dynasty=1802103
+    culture=kurdish
+    religion=miaphysite
+	trait=school_mathew
+    martial=8
+    diplomacy=4
+    stewardship=8
+    intrigue=7
+    learning=9
+    trait=fortune_builder    
+    trait=shy
+    trait=greedy
+    trait=just
+    trait=devout
+	2035.2.17={birth=yes}
+	2653.6.16={add_spouse=1802029}
+}
+
+1802029={ #Countess Demgul of Kashatagh
+    name="Demgul"
+    female=yes
+    culture=kurdish
+    religion=miaphysite
+	trait=school_mathew
+    martial=8
+    diplomacy=4
+    stewardship=8
+    intrigue=7
+    learning=9
+    trait=flamboyant_schemer    
+    trait=cynical
+    trait=gregarious
+    trait=chaste
+    trait=wroth
+	2630.1.1={birth=yes}
+	2653.6.16={add_spouse=1802028}
+}
+
+1802030={ #Zelal daughter of Count Shirkuh of Kashatagh
+    name="Zelal"
+	female=yes
+    dynasty=1802103 
+    culture=kurdish
+    religion=miaphysite
+	trait=school_mathew
+    trait=haughty	
+	father=1802028
+	mother=1802029
+    2662.9.11={birth=yes}
+}

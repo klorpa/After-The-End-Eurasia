@@ -1343,3 +1343,93 @@ dalit = {
 	customizer = no
 	random = no
 }
+
+canon = {
+	potential = {
+		is_female = no
+	}
+	
+	monthly_character_piety = 0.5
+	same_religion_opinion = 10
+	
+	religious = yes
+	cannot_marry = yes
+	cannot_inherit = no
+	customizer = no
+	random = no
+	
+	male_compliment = COMPL_MONK
+}
+
+canoness = {
+	potential = {
+		is_female = yes
+	}
+	
+	monthly_character_piety = 0.5
+	same_religion_opinion = 10
+	
+	religious = yes
+	cannot_marry = yes
+	cannot_inherit = no
+	customizer = no
+	random = no
+	
+	female_compliment = COMPL_NUN
+}
+
+regularis = {
+	potential = {
+		is_female = no
+	}
+	
+	monthly_character_piety = 0.3
+	same_religion_opinion = 5
+	
+	religious = yes
+	customizer = no
+	random = no
+	
+	male_compliment = COMPL_MONK
+}
+
+regulara = {
+	potential = {
+		is_female = yes
+	}
+	
+	monthly_character_piety = 0.3
+	same_religion_opinion = 5
+	
+	religious = yes
+	customizer = no
+	random = no
+	
+	female_compliment = COMPL_NUN
+}
+
+desert_father = {
+	potential = {
+		is_female = no
+	}
+	ai_zeal = 20
+	monthly_character_piety = 1.5
+	
+	random = no
+	customizer = no
+	church_opinion = 35
+	same_religion_opinion = 35
+}
+
+desert_mother = {
+	potential = {
+		is_female = yes
+	}
+	ai_zeal = 20
+	monthly_character_piety = 1.5
+	
+	random = no
+	customizer = no
+	church_opinion = 35
+	same_religion_opinion = 35
+}
