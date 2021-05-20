@@ -107,28 +107,17 @@ decisions = {
 				region = custom_old_france
 			}
 			culture_group = french
-			OR = {
-				religion = sun_king_cultist
-				religion = jacobin
-			}
+			religion = jacobin
 			any_neighbor_independent_ruler = {
 				any_realm_province = {
 					region = custom_old_france
 				}
-				NOR = {
-					religion = sun_king_cultist
+				NOT = {
 					religion = jacobin
 				}
 			}
 			NOT = {
 				has_character_flag = ex_reconquistador
-			}
-			NOT = {
-				e_spain = {
-					owner = {
-						always = yes
-					}
-				}
 			}
 			NOT = {
 				has_global_flag = reconquista_finished
@@ -562,10 +551,8 @@ targetted_decisions = {
 				is_patrician = no
 				holy_order = no
 				is_feudal = yes
-				OR = {
-					religion = sun_king_cultist
-					religion = jacobin
-				}
+				religion = jacobin
+				
 				NOT = {
 					trait = bastard
 				}
@@ -594,7 +581,7 @@ targetted_decisions = {
 		}
 
 		potential = {
-			has_character_flag = currently_reconquering_iberia
+			has_character_flag = currently_reconquering_france
 			always = no # Disabled
 		}
 
@@ -606,10 +593,8 @@ targetted_decisions = {
 				is_patrician = no
 				holy_order = no
 				is_feudal = yes
-				OR = {
-					religion = sun_king_cultist
-					religion = jacobin
-				}
+				religion = jacobin
+				
 				NOT = {
 					trait = bastard
 				}
@@ -680,7 +665,7 @@ targetted_decisions = {
 		}
 
 		from_potential = {
-			has_character_flag = currently_reconquering_iberia
+			has_character_flag = currently_reconquering_france
 		}
 
 		allow = {
@@ -690,10 +675,8 @@ targetted_decisions = {
 			is_patrician = no
 			holy_order = no
 			is_feudal = yes
-			OR = {
-					religion = sun_king_cultist
-					religion = jacobin
-				}
+			religion = jacobin
+
 			NOT = {
 				trait = bastard
 			}
@@ -753,7 +736,7 @@ targetted_decisions = {
 		ai = no
 
 		potential = {
-			has_character_flag = currently_reconquering_iberia
+			has_character_flag = currently_reconquering_france
 
 			any_dynasty_member = {
 				has_character_flag = reconquista_beneficiary_flag
@@ -789,7 +772,7 @@ targetted_decisions = {
 		ai = no
 
 		from_potential = {
-			has_character_flag = currently_reconquering_iberia
+			has_character_flag = currently_reconquering_france
 		}
 
 		potential = {
@@ -820,10 +803,7 @@ targetted_decisions = {
 			}
 			culture_group = french
 			religion = ROOT
-			OR = {
-				religion = sun_king_cultist
-				religion = jacobin
-			}
+			religion = jacobin
 			mercenary = no
 			holy_order = no
 			OR = {
@@ -835,7 +815,7 @@ targetted_decisions = {
 		}
 
 		potential = {
-			has_character_flag = currently_reconquering_iberia
+			has_character_flag = currently_reconquering_france
 			not_reconquista_check_trigger = yes
 		}
 
@@ -869,24 +849,17 @@ targetted_decisions = {
 
 		from_potential = {
 			culture_group = french
-			OR = {
-				religion = sun_king_cultist
-				religion = jacobin
+			religion = jacobin
 			}
 			war = no
 			NOT = {
 				any_war = {
 					OR = {
-						using_cb = reconquista_leon
-						using_cb = reconquista_castille
-						using_cb = reconquista_aragon
-						using_cb = reconquista_galicia
-						using_cb = reconquista_beja
-						using_cb = reconquista_granada
-						using_cb = reconquista_cordoba
-						using_cb = reconquista_valencia
-						using_cb = reconquista_navarra
-						using_cb = reconquista_balearic
+						using_cb = reconquest_balc
+						using_cb = reconquest_brittany
+						using_cb = reconquest_france
+						using_cb = reconquest_occitania
+						using_cb = reconquest_provence
 					}
 				}
 			}
@@ -918,8 +891,7 @@ targetted_decisions = {
 		}
 
 		potential = {
-			NOR = {
-				religion = sun_king_cultist
+			NOT = {
 				religion = jacobin
 			}
 			any_war = {
@@ -1052,8 +1024,7 @@ targetted_decisions = {
 		ai_check_interval = 48
 
 		from_potential = {
-			NOR = {
-				religion = sun_king_cultist
+			NOT = {
 				religion = jacobin
 			}
 			any_war = {
@@ -1071,8 +1042,8 @@ targetted_decisions = {
 		}
 
 		potential = {
-			culture_group = iberian
-			religion_group = christian
+			culture_group = french
+			religion = potential
 			war = no
 			NOT = {
 				any_war = {
@@ -1211,8 +1182,7 @@ targetted_decisions = {
 		ai_check_interval = 48
 
 		from_potential = {
-			NOR = {
-				religion = sun_king_cultist
+			NOT = {
 				religion = jacobin
 			}
 			war = no
@@ -1255,23 +1225,16 @@ targetted_decisions = {
 		}
 
 		potential = {
-			OR = {
-				religion = sun_king_cultist
-				religion = jacobin
-			}
+			religion = jacobin
+		}
 
 			any_war = {
 				OR = {
-					using_cb = reconquista_leon
-					using_cb = reconquista_castille
-					using_cb = reconquista_aragon
-					using_cb = reconquista_galicia
-					using_cb = reconquista_beja
-					using_cb = reconquista_granada
-					using_cb = reconquista_cordoba
-					using_cb = reconquista_valencia
-					using_cb = reconquista_navarra
-					using_cb = reconquista_balearic
+					using_cb = reconquest_balc
+					using_cb = reconquest_brittany
+					using_cb = reconquest_france
+					using_cb = reconquest_occitania
+					using_cb = reconquest_provence
 				}
 				attacker = {
 					character = ROOT
@@ -1396,10 +1359,8 @@ targetted_decisions = {
 		ai_check_interval = 48
 
 		from_potential = {
-			OR = {
-				religion = sun_king_cultist
-				religion = jacobin
-			}
+			religion = jacobin
+			
 			any_war = {
 				OR = {
 					using_cb = reconquest_france
@@ -1415,8 +1376,7 @@ targetted_decisions = {
 		}
 
 		potential = {
-			NOR = {
-				religion = sun_king_cultist
+			NOT = {
 				religion = jacobin
 			}
 			war = no

@@ -106,7 +106,6 @@ character_event = {
 	trigger = {
 		has_character_flag = reconquista_beneficiary_flag
 		NOR = {
-			religion = sun_king_cultist
 			religion = jacobin
 		}
 	}
@@ -140,7 +139,6 @@ character_event = {
 	trigger = {
 		has_character_flag = promised_reconquista_ally
 		NOR = {
-			religion = sun_king_cultist
 			religion = jacobin
 		}
 	}
@@ -440,15 +438,11 @@ letter_event = {
 			any_war = {
 				limit = {
 					OR = {
-						using_cb = reconquista_leon
-						using_cb = reconquista_castille
-						using_cb = reconquista_aragon
-						using_cb = reconquista_galicia
-						using_cb = reconquista_beja
-						using_cb = reconquista_granada
-						using_cb = reconquista_cordoba
-						using_cb = reconquista_valencia
-						using_cb = reconquista_navarra
+						using_cb = reconquest_france
+						using_cb = reconquest_provence
+						using_cb = reconquest_brittany
+						using_cb = reconquest_balc
+						using_cb = reconquest_occitania
 					}
 				}
 				FROMFROM = {
@@ -558,15 +552,11 @@ letter_event = {
 				any_war = {
 					limit = {
 						OR = {
-							using_cb = reconquista_leon
-							using_cb = reconquista_castille
-							using_cb = reconquista_aragon
-							using_cb = reconquista_galicia
-							using_cb = reconquista_beja
-							using_cb = reconquista_granada
-							using_cb = reconquista_cordoba
-							using_cb = reconquista_valencia
-							using_cb = reconquista_navarra
+							using_cb = reconquest_france
+							using_cb = reconquest_provence
+							using_cb = reconquest_brittany
+							using_cb = reconquest_balc
+							using_cb = reconquest_occitania
 						}
 					}
 					ROOT = {
@@ -1401,75 +1391,32 @@ character_event = {
 				add_trait = brilliant_strategist
 				# Randomize Culture
 				random_list = {
-					# Keep Catalan
-					3 = {
+					25 = {
+						culture = parisian
 					}
-					# Other Iberian Cultures
-					3 = {
-						culture = basque
+					15 = {
+						culture = breton
 					}
-					3 = {
-						culture = castillan
+					10 = {
+						culture = gascon
 					}
-					3 = {
-						trigger = {
-							year = 950
-						}
-						culture = portuguese
-					}
-					3 = {
-						trigger = {
-							NOT = {
-								year = 900
-							}
-						}
-						culture = visigothic
-					}
-					# Other close by (normally Catholic) cultures
-					3 = {
-						trigger = {
-							NOT = {
-								year = 850
-							}
-						}
-						culture = suebi
-					}
-					2 = {
+					10 = {
 						culture = occitan
 					}
-					1 = {
-						trigger = {
-							year = 850
-						}
-						culture = frankish
+					5 = {
+						culture = arpetan
 					}
-					1 = {
-						culture = italian
+					10 = {
+						culture = provencal
 					}
-					1 = {
-						trigger = {
-							NOT = {
-								year = 900
-							}
-						}
-						culture = lombard
-					}
-					1 = {
-						culture = german
-					}
-					2 = {
-						trigger = {
-							NOT = {
-								year = 850
-							}
-						}
-						culture = old_frankish
-					}
-					2 = {
-						trigger = {
-							year = 950
-						}
+					10 = {
 						culture = norman
+					}
+					10 = {
+						culture = gallo
+					}
+					5 = {
+						culture = chti
 					}
 				}
 				# Some sort of huge
@@ -1536,9 +1483,7 @@ character_event = {
 	option = {	 
 		name = EVTOPTB_HF_49243
 
-		trigger = {
-			OR = { 
-				NOT = { ROOT = { has_law = succ_byzantine_elective } } #Either not Imperial...
+		trigger = { 
 				NOT = { #...Or there are no valid vassal candidates that can be commanders.
 					any_vassal = { 
 						higher_real_tier_than = BARON
@@ -1563,7 +1508,6 @@ character_event = {
 						prisoner = no
 						NOT = { trait = incapable }
 						NOT = { is_inaccessible_trigger = yes }
-						NOT = { has_character_flag = guru }
 						NOT = { has_character_modifier = refusing_to_lead }
 						NOR = {
 							has_job_title = job_chancellor
@@ -1976,14 +1920,14 @@ character_event = {
 				}
 			}
 			hidden_tooltip = {
-				# Navarra or Aragon is held by a Muslim
+				# Occitania or Provence is held by a cuck
 				if = {
 					limit = {
 						any_province = {
 							county = {
 								OR = {
-									region = custom_aragon
-									region = custom_navarra
+									region = custom_occitania
+									region = custom_provence
 								}
 							}
 							owner = {
@@ -1991,12 +1935,12 @@ character_event = {
 									AND = {
 										independent = yes
 										NOT = {
-											religion_group = christian
+											religion = jacobin
 										}
 									}
 									top_liege = {
 										NOT = {
-											religion_group = christian
+											religion = jacobin
 										}
 									}
 								}							
@@ -2004,24 +1948,24 @@ character_event = {
 						}
 					}
 					random_list = {
-						# Aragon
+						# Occitania
 						1 = {
 							trigger = {
 								any_province = {
 									county = {
-										region = custom_aragon
+										region = custom_occitania
 									}
 									owner = {
 										OR = {
 											AND = {
 												independent = yes
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 											top_liege = {
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 										}
@@ -2031,19 +1975,19 @@ character_event = {
 							random_province = {
 								limit = {
 									county = {
-										region = custom_aragon
+										region = custom_occitania
 									}
 									owner = {
 										OR = {
 											AND = {
 												independent = yes
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 											top_liege = {
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 										}
@@ -2057,7 +2001,7 @@ character_event = {
 										ROOT = {
 											unsafe_war = {
 												target = PREV
-												casus_belli = reconquista_aragon
+												casus_belli = reconquest_occitania
 											}
 										}
 									}
@@ -2066,7 +2010,7 @@ character_event = {
 											ROOT = {
 												unsafe_war = {
 													target = PREV
-													casus_belli = reconquista_aragon
+													casus_belli = reconquest_occitania
 												}
 											}
 										}
@@ -2074,22 +2018,22 @@ character_event = {
 								}
 							}
 						}
-						# Navarra
+						# Provence
 						1 = {
 							trigger = {
 								any_province = {
 									county = {
-										region = custom_navarra
+										region = custom_provence
 									}
 									owner = {
 										NOT = {
-											religion_group = christian
+											religion = jacobin
 										}
 										OR = {
 											independent = yes
 											NOT = {
 												top_liege = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 										}
@@ -2099,19 +2043,19 @@ character_event = {
 							random_province = {
 								limit = {
 									county = {
-										region = custom_navarra
+										region = custom_provence
 									}
 									owner = {
 										OR = {
 											AND = {
 												independent = yes
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 											top_liege = {
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 										}
@@ -2125,7 +2069,7 @@ character_event = {
 										ROOT = {
 											unsafe_war = {
 												target = PREV
-												casus_belli = reconquista_navarra
+												casus_belli = reconquest_provence
 											}
 										}
 									}
@@ -2134,7 +2078,7 @@ character_event = {
 											ROOT = {
 												unsafe_war = {
 													target = PREV
-													casus_belli = reconquista_navarra
+													casus_belli = reconquest_provence
 												}
 											}
 										}
@@ -2144,15 +2088,15 @@ character_event = {
 						}
 					}
 				}
-				# Leon, Galicia or Castille is held by a Muslim
+				# Balc, Brittany or P*ris is held by a cuck
 				else_if = {
 					limit = {
 						any_province = {
 							county = {
 								OR = {
-									region = custom_leon
-									region = custom_galicia
-									region = custom_castille
+									region = custom_balc
+									region = custom_brittany
+									region = custom_parisian_core
 								}
 							}
 							owner = {
@@ -2160,12 +2104,12 @@ character_event = {
 									AND = {
 										independent = yes
 										NOT = {
-											religion_group = christian
+											religion = jacobin
 										}
 									}
 									top_liege = {
 										NOT = {
-											religion_group = christian
+											religion = jacobin
 										}
 									}
 								}
@@ -2173,24 +2117,24 @@ character_event = {
 						}
 					}
 					random_list = {
-						# Leon
+						# Balc
 						1 = {
 							trigger = {
 								any_province = {
 									county = {
-										region = custom_leon
+										region = custom_balc
 									}
 									owner = {
 										OR = {
 											AND = {
 												independent = yes
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 											top_liege = {
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 										}
@@ -2200,19 +2144,19 @@ character_event = {
 							random_province = {
 								limit = {
 									county = {
-										region = custom_leon
+										region = custom_balc
 									}
 									owner = {
 										OR = {
 											AND = {
 												independent = yes
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 											top_liege = {
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 										}
@@ -2226,7 +2170,7 @@ character_event = {
 										ROOT = {
 											unsafe_war = {
 												target = PREV
-												casus_belli = reconquista_leon
+												casus_belli = reconquest_balc
 											}
 										}
 									}
@@ -2235,7 +2179,7 @@ character_event = {
 											ROOT = {
 												unsafe_war = {
 													target = PREV
-													casus_belli = reconquista_leon
+													casus_belli = reconquest_balc
 												}
 											}
 										}
@@ -2243,24 +2187,24 @@ character_event = {
 								}
 							}
 						}
-						# Galicia
+						# Brittany
 						1 = {
 							trigger = {
 								any_province = {
 									county = {
-										region = custom_galicia
+										region = custom_brittany
 									}
 									owner = {
 										OR = {
 											AND = {
 												independent = yes
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 											top_liege = {
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 										}
@@ -2270,19 +2214,19 @@ character_event = {
 							random_province = {
 								limit = {
 									county = {
-										region = custom_galicia
+										region = custom_brittany
 									}
 									owner = {
 										OR = {
 											AND = {
 												independent = yes
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 											top_liege = {
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 										}
@@ -2296,7 +2240,7 @@ character_event = {
 										ROOT = {
 											unsafe_war = {
 												target = PREV
-												casus_belli = reconquista_galicia
+												casus_belli = reconquest_brittany
 											}
 										}
 									}
@@ -2305,7 +2249,7 @@ character_event = {
 											ROOT = {
 												unsafe_war = {
 													target = PREV
-													casus_belli = reconquista_galicia
+													casus_belli = reconquest_brittany
 												}
 											}
 										}
@@ -2313,24 +2257,24 @@ character_event = {
 								}
 							}
 						}
-						# Castille
+						# P*ris
 						1 = {
 							trigger = {
 								any_province = {
 									county = {
-										region = custom_castille
+										region = custom_parisian_core
 									}
 									owner = {
 										OR = {
 											AND = {
 												independent = yes
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 											top_liege = {
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 										}
@@ -2340,19 +2284,19 @@ character_event = {
 							random_province = {
 								limit = {
 									county = {
-										region = custom_castille
+										region = custom_parisian_core
 									}
 									owner = {
 										OR = {
 											AND = {
 												independent = yes
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 											top_liege = {
 												NOT = {
-													religion_group = christian
+													religion = jacobin
 												}
 											}
 										}
@@ -2366,7 +2310,7 @@ character_event = {
 										ROOT = {
 											unsafe_war = {
 												target = PREV
-												casus_belli = reconquista_castille
+												casus_belli = reconquest_france
 											}
 										}
 									}
@@ -2375,389 +2319,9 @@ character_event = {
 											ROOT = {
 												unsafe_war = {
 													target = PREV
-													casus_belli = reconquista_castille
+													casus_belli = reconquest_france
 												}
 											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				# Beja or Valencia is held by a Muslim
-				else_if = {
-					limit = {
-						any_province = {
-							county = {
-								OR = {
-									region = custom_beja
-									region = custom_valencia
-								}
-							}
-							owner = {
-								OR = {
-									AND = {
-										independent = yes
-										NOT = {
-											religion_group = christian
-										}
-									}
-									top_liege = {
-										NOT = {
-											religion_group = christian
-										}
-									}
-								}
-							}
-						}
-					}
-					random_list = {
-						# Beja
-						1 = {
-							trigger = {
-								any_province = {
-									county = {
-										region = custom_beja
-									}
-									owner = {
-										OR = {
-											AND = {
-												independent = yes
-												NOT = {
-													religion_group = christian
-												}
-											}
-											top_liege = {
-												NOT = {
-													religion_group = christian
-												}
-											}
-										}
-									}
-								}
-							}
-							random_province = {
-								limit = {
-									county = {
-										region = custom_beja
-									}
-									owner = {
-										OR = {
-											AND = {
-												independent = yes
-												NOT = {
-													religion_group = christian
-												}
-											}
-											top_liege = {
-												NOT = {
-													religion_group = christian
-												}
-											}
-										}
-									}
-								}
-								owner = {
-									if = {
-										limit = {
-											independent = yes
-										}
-										ROOT = {
-											unsafe_war = {
-												target = PREV
-												casus_belli = reconquista_beja
-											}
-										}
-									}
-									else = {
-										top_liege = {
-											ROOT = {
-												unsafe_war = {
-													target = PREV
-													casus_belli = reconquista_beja
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-						# Valencia
-						1 = {
-							trigger = {
-								any_province = {
-									county = {
-										region = custom_valencia
-									}
-									owner = {
-										OR = {
-											AND = {
-												independent = yes
-												NOT = {
-													religion_group = christian
-												}
-											}
-											top_liege = {
-												NOT = {
-													religion_group = christian
-												}
-											}
-										}
-									}
-								}
-							}
-							random_province = {
-								limit = {
-									county = {
-										region = custom_valencia
-									}
-									owner = {
-										OR = {
-											AND = {
-												independent = yes
-												NOT = {
-													religion_group = christian
-												}
-											}
-											top_liege = {
-												NOT = {
-													religion_group = christian
-												}
-											}
-										}
-									}
-								}
-								owner = {
-									if = {
-										limit = {
-											independent = yes
-										}
-										ROOT = {
-											unsafe_war = {
-												target = PREV
-												casus_belli = reconquista_valencia
-											}
-										}
-									}
-									else = {
-										top_liege = {
-											ROOT = {
-												unsafe_war = {
-													target = PREV
-													casus_belli = reconquista_valencia
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				# Cordoba is held by a Muslim
-				else_if = {
-					limit = {
-						any_province = {
-							county = {
-								region = custom_cordoba
-							}
-							owner = {
-								OR = {
-									AND = {
-										independent = yes
-										NOT = {
-											religion_group = christian
-										}
-									}
-									top_liege = {
-										NOT = {
-											religion_group = christian
-										}
-									}
-								}
-							}
-						}
-					}
-					random_province = {
-						limit = {
-							county = {
-								region = custom_cordoba
-							}
-							owner = {
-								OR = {
-									AND = {
-										independent = yes
-										NOT = {
-											religion_group = christian
-										}
-									}
-									top_liege = {
-										NOT = {
-											religion_group = christian
-										}
-									}
-								}
-							}
-						}
-						owner = {
-							if = {
-								limit = {
-									independent = yes
-								}
-								ROOT = {
-									unsafe_war = {
-										target = PREV
-										casus_belli = reconquista_cordoba
-									}
-								}
-							}
-							else = {
-								top_liege = {
-									ROOT = {
-										unsafe_war = {
-											target = PREV
-											casus_belli = reconquista_cordoba
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				# Granada is held by a Muslim
-				else_if = {
-					limit = {
-						any_province = {
-							county = {
-								region = custom_granada
-							}
-							owner = {
-								OR = {
-									AND = {
-										independent = yes
-										NOT = {
-											religion_group = christian
-										}
-									}
-									top_liege = {
-										NOT = {
-											religion_group = christian
-										}
-									}
-								}
-							}
-						}
-					}
-					random_province = {
-						limit = {
-							county = {
-								region = custom_granada
-							}
-							owner = {
-								OR = {
-									AND = {
-										independent = yes
-										NOT = {
-											religion_group = christian
-										}
-									}
-									top_liege = {
-										NOT = {
-											religion_group = christian
-										}
-									}
-								}
-							}
-						}
-						owner = {
-							if = {
-								limit = {
-									independent = yes
-								}
-								ROOT = {
-									unsafe_war = {
-										target = PREV
-										casus_belli = reconquista_granada
-									}
-								}
-							}
-							else = {
-								top_liege = {
-									ROOT = {
-										unsafe_war = {
-											target = PREV
-											casus_belli = reconquista_granada
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				# Balearic Islands is held by a Muslim
-				else_if = {
-					limit = {
-						any_province = {
-							county = {
-								region = custom_balearic
-							}
-							owner = {
-								OR = {
-									AND = {
-										independent = yes
-										NOT = {
-											religion_group = christian
-										}
-									}
-									top_liege = {
-										NOT = {
-											religion_group = christian
-										}
-									}
-								}
-							}
-						}
-					}
-					random_province = {
-						limit = {
-							county = {
-								region = custom_balearic
-							}
-							owner = {
-								OR = {
-									AND = {
-										independent = yes
-										NOT = {
-											religion_group = christian
-										}
-									}
-									top_liege = {
-										NOT = {
-											religion_group = christian
-										}
-									}
-								}
-							}
-						}
-						owner = {
-							if = {
-								limit = {
-									independent = yes
-								}
-								ROOT = {
-									unsafe_war = {
-										target = PREV
-										casus_belli = reconquista_balearic
-									}
-								}
-							}
-							else = {
-								top_liege = {
-									ROOT = {
-										unsafe_war = {
-											target = PREV
-											casus_belli = reconquista_balearic
 										}
 									}
 								}
@@ -2802,7 +2366,7 @@ narrative_event = {
 	option = {
 		name = EVTOPTA_HF_49450
 		trigger = {
-			religion_group = FROM
+			religion_group = old_world_cultist
 		}
 	}
 
@@ -2810,51 +2374,7 @@ narrative_event = {
 		name = EVTOPTB_HF_49450
 		trigger = {
 			NOT = {
-				religion_group = FROM
-			}
-		}
-	}
-}
-
-# Empire of Hispania created
-narrative_event = {
-	id = HF.49451
-	desc = EVTDESC_HF_49451
-	title = EVTTITLE_HF_49451
-	picture = GFX_evt_emissary
-	border = GFX_event_narrative_frame_religion
-	is_triggered_only = yes
-	has_dlc = "Holy Fury"
-	trigger = {
-		is_alternate_start = no
-		NOT = {
-			has_global_flag = reconquista_finished
-		}
-	}
-
-	immediate = {
-		if = {
-			limit = {
-				NOT = {
-					has_global_flag = reconquista_finished
-				}
-			}
-			set_global_flag = reconquista_finished
-		}
-	}
-
-	option = {	 
-		name = EVTOPTA_HF_49451
-		trigger = {
-			religion_group = FROM
-		}
-	}
-
-	option = {
-		name = EVTOPTB_HF_49451
-		trigger = {
-			NOT = {
-				religion_group = FROM
+				religion_group = old_world_cultist
 			}
 		}
 	}
@@ -2890,7 +2410,7 @@ narrative_event = {
 	option = {	 
 		name = EVTOPTA_HF_49452
 		trigger = {
-			religion_group = christian
+			religion_group = old_world_cultist
 		}
 	}
 
@@ -2898,7 +2418,7 @@ narrative_event = {
 		name = EVTOPTB_HF_49451
 		trigger = {
 			NOT = {
-				religion_group = christian
+				religion_group = old_world_cultist
 			}
 		}
 	}
@@ -2922,10 +2442,14 @@ character_event = {
 		}
 		any_demesne_title = {
 			higher_tier_than = DUKE
-			region = world_europe_west_iberia
+			region = custom_parisian_core
+			region = custom_balc
+			region = custom_brittany
+			region = custom_occitania
+			region = custom_provence
 		}
-		religion_group = christian
-		culture_group = iberian
+		religion = jacobin
+		culture_group = french
 		NOT = {
 			has_global_flag = reconquista_finished
 		}
@@ -2935,11 +2459,11 @@ character_event = {
 				any_province = {
 					county = {
 						OR = {
-							region = custom_castille
-							region = custom_leon
-							region = custom_galicia
-							region = custom_aragon
-							region = custom_navarra
+							region = custom_parisian_core
+							region = custom_balc
+							region = custom_brittany
+							region = custom_occitania
+							region = custom_provence
 						}
 					}
 					owner = {
@@ -2947,12 +2471,12 @@ character_event = {
 							AND = {
 								independent = yes
 								NOT = {
-									religion_group = christian
+									religion = jacobin
 								}
 							}
 							top_liege = {
 								NOT = {
-									religion_group = christian
+									religion = jacobin
 								}
 							}
 						}
@@ -2965,11 +2489,11 @@ character_event = {
 				any_province = {
 					county = {
 						OR = {
-							region = custom_castille
-							region = custom_leon
-							region = custom_galicia
-							region = custom_aragon
-							region = custom_navarra
+							region = custom_parisian_core
+							region = custom_balc
+							region = custom_brittany
+							region = custom_occitania
+							region = custom_provence
 						}
 					}
 					owner = {
@@ -2977,12 +2501,12 @@ character_event = {
 							AND = {
 								independent = yes
 								NOT = {
-									religion_group = christian
+									religion = jacobin
 								}
 							}
 							top_liege = {
 								NOT = {
-									religion_group = christian
+									religion = jacobin
 								}
 							}
 						}
@@ -3041,10 +2565,6 @@ character_event = {
 				}
 				100 = {
 					add_trait = robust
-				}
-				1 = {
-					trigger = { religion = catholic }
- 					add_artifact = crown_wrapped_helmet
 				}
 			}
 			add_random_commander_trait_effect = yes
@@ -3256,26 +2776,21 @@ character_event = {
 	is_triggered_only = yes
 	has_dlc = "Holy Fury"
 	trigger = {
-		religion_group = christian
+		religion = jacobin
 		location = {
 			owner = {
 				OR = {
 					AND = {
 						NOT = {
-							religion_group = christian
+							religion = jacobin
 						}
 						any_war = {
 							OR = {
-								using_cb = reconquista_leon
-								using_cb = reconquista_castille
-								using_cb = reconquista_aragon
-								using_cb = reconquista_galicia
-								using_cb = reconquista_beja
-								using_cb = reconquista_granada
-								using_cb = reconquista_cordoba
-								using_cb = reconquista_valencia
-								using_cb = reconquista_navarra
-								using_cb = reconquista_balearic
+								using_cb = reconquest_balc
+								using_cb = reconquest_brittany
+								using_cb = reconquest_france
+								using_cb = reconquest_occitania
+								using_cb = reconquest_provence
 							}
 							any_defender = {
 								character = PREVPREV
@@ -3285,20 +2800,15 @@ character_event = {
 					}
 					top_liege = {
 						NOT = {
-							religion_group = christian
+							religion = jacobin
 						}
 						any_war = {
 							OR = {
-								using_cb = reconquista_leon
-								using_cb = reconquista_castille
-								using_cb = reconquista_aragon
-								using_cb = reconquista_galicia
-								using_cb = reconquista_beja
-								using_cb = reconquista_granada
-								using_cb = reconquista_cordoba
-								using_cb = reconquista_valencia
-								using_cb = reconquista_navarra
-								using_cb = reconquista_balearic
+								using_cb = reconquest_balc
+								using_cb = reconquest_brittany
+								using_cb = reconquest_france
+								using_cb = reconquest_occitania
+								using_cb = reconquest_provence
 							}
 							any_defender = {
 								character = PREV
@@ -3311,16 +2821,11 @@ character_event = {
 		}
 		any_war = {
 			OR = {
-				using_cb = reconquista_leon
-				using_cb = reconquista_castille
-				using_cb = reconquista_aragon
-				using_cb = reconquista_galicia
-				using_cb = reconquista_beja
-				using_cb = reconquista_granada
-				using_cb = reconquista_cordoba
-				using_cb = reconquista_valencia
-				using_cb = reconquista_navarra
-				using_cb = reconquista_balearic
+				using_cb = reconquest_balc
+				using_cb = reconquest_brittany
+				using_cb = reconquest_france
+				using_cb = reconquest_occitania
+				using_cb = reconquest_provence
 			}
 			any_attacker = {
 				character = ROOT
@@ -3359,22 +2864,17 @@ character_event = {
 	trigger = {
 		any_war = {
 			OR = {
-				using_cb = reconquista_leon
-				using_cb = reconquista_castille
-				using_cb = reconquista_aragon
-				using_cb = reconquista_galicia
-				using_cb = reconquista_beja
-				using_cb = reconquista_granada
-				using_cb = reconquista_cordoba
-				using_cb = reconquista_valencia
-				using_cb = reconquista_navarra
-				using_cb = reconquista_balearic
+				using_cb = reconquest_balc
+				using_cb = reconquest_brittany
+				using_cb = reconquest_france
+				using_cb = reconquest_france
+				using_cb = reconquest_provence
 			}
 			any_attacker = {
 				character = ROOT
 			}
 		}
-		religion_group = christian
+		religion = jacobin
 	}
 
 	immediate = {

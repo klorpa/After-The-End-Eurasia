@@ -19501,11 +19501,13 @@ powerful_vassal_takeover_war = { # Started from faction
 }
 
 ### French Maquis Wars ###
+
 # The Parisian Core #
+
 reconquest_france = {
 	name = CB_NAME_RECONQUEST_FRANCE
 	war_name = WAR_NAME_RECONQUISTA_FRANCE
-	diplo_view_region = custom_parisan_core
+	diplo_view_region = custom_parisian_core
 	sprite = 9
 	truce_days = 3650
 	is_permanent = yes
@@ -19539,13 +19541,13 @@ reconquest_france = {
 				OR = {
 					AND = {
 						any_neighbor_province = {
-							region = custom_parisan_core
+							region = custom_parisian_core
 						}
 					}
 					AND = {
 						NOT = {
 							any_neighbor_province = {
-								region = custom_parisan_core
+								region = custom_parisian_core
 							}
 						}
 						NOT = {
@@ -19571,19 +19573,19 @@ reconquest_france = {
 						any_neighbor_province = {
 							is_land = yes
 							any_neighbor_province = {
-								region = custom_parisan_core
+								region = custom_parisian_core
 							}
 						}
 					}
 					AND = {
 						NOR = {
 							any_neighbor_province = {
-								region = custom_parisan_core
+								region = custom_parisian_core
 							}
 							any_neighbor_province = {
 								is_land = yes
 								any_neighbor_province = {
-									region = custom_parisan_core
+									region = custom_parisian_core
 								}
 							}
 						}
@@ -19615,7 +19617,7 @@ reconquest_france = {
 							any_neighbor_province = {
 								is_land = yes
 								any_neighbor_province = {
-									region = custom_parisan_core
+									region = custom_parisian_core
 								}
 							}
 						}
@@ -19636,7 +19638,7 @@ reconquest_france = {
 
 		FROM = {
 			any_realm_province = {
-				region = custom_parisan_core
+				region = custom_parisian_core
 			}
 			NOT = {
 				religion_group = ROOT
