@@ -502,14 +502,14 @@ narrative_event = {
 		}
 		name = EVTOPTA_budevent100
 		add_character_modifier = {name = building_stupa months=6}
-		scaled_wealth = 3
+		scaled_wealth = -3
 		prestige = 50
 		narrative_event = { id = budevents.101 days = 2 }
 	}
 	option = {#medium event
 		name = EVTOPTB_budevent100
 		add_character_modifier = {name = glad_bhikku months=6}
-		scaled_wealth = 1.5
+		scaled_wealth = -1.5
 		prestige = 20
 		narrative_event = { id = budevents.101 days = 2 }
 	}
@@ -778,12 +778,12 @@ character_event = {#setting up the parade
 	
 	option = {#Large Parade
 		name = EVTOPTA_buddhist104
-		scaled_wealth = 1
+		scaled_wealth = -1
 		narrative_event = {id = budevents.106 days = 4}
 	}
 	option = {#modest Parade
 		name = EVTOPTB_buddhist104
-		scaled_wealth = 0.5
+		scaled_wealth = -0.5
 		narrative_event = {id = budevents.105 days = 4}
 	}
 }
@@ -1011,7 +1011,7 @@ narrative_event = {#Silanisama Jataka
 			50 = {}
 			50 = { add_trait = gregarious }
 		}
-		narrative_event = {id = budevents.113 days = 2}
+		narrative_event = {id = budevents.112 days = 2}
 	}
 }
 
