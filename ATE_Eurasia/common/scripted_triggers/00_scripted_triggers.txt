@@ -6116,7 +6116,25 @@ has_dharmic_religion_trigger = {
 		religion = shaktah
 	}
 }
-
+has_authority_events = {
+	OR = {
+		religion_group = indian_group
+		religion_group = buddhist_group
+		religion_group = jewish_group
+		religion_group = islamosyncretic
+		religion_group = scholastic
+		religion_group = eastern
+		religion_group = old_world_cultist_group
+		religion_group = zoroastrian_group
+	}
+}
+has_anglo_scholastic_religion = {
+	OR = {
+		religion = thelema
+		religion = valinorist
+		religion = glorian
+	}
+}
 ###CHINA TRIGGERS###
 
 #Grace triggers

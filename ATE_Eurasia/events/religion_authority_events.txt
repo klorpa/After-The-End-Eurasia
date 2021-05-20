@@ -1,0 +1,749 @@
+namespace = authority
+
+
+###########################################
+# Low religion authority events           #
+###########################################
+
+# Temple corruption
+character_event = {
+	id = authority.1
+
+	hide_window = yes
+		
+	is_triggered_only = yes
+	
+	trigger = {
+		has_authority_events = yes
+		NOT = { religion_authority = 0.3 }
+		any_demesne_province = {
+			religion = ROOT
+			NOT = { has_province_modifier = temple_corruption }
+			NOT = { has_province_modifier = religious_tension }
+		}
+	}
+
+	immediate = {
+		random_demesne_province = {
+			limit = {
+				religion = ROOT
+				NOT = { has_province_modifier = temple_corruption }
+				NOT = { has_province_modifier = religious_tension }
+			}
+			province_event = { id = authority.2 }
+		}
+	}
+}
+
+# Province bounce event
+province_event = {
+	id = authority.2
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROM = {
+			character_event = { id = authority.3 }
+		}
+	}
+}
+
+character_event = {
+	id = authority.3
+	desc = EVTDESC_authority_3
+	picture = GFX_evt_india_temple
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_authority_3
+		FROM = {
+			add_province_modifier = {
+				name = temple_corruption
+				duration = -1
+			}
+		}
+	}
+}
+
+# Temple corruption removed - Indian
+character_event = {
+	id = authority.4
+
+	hide_window = yes
+	
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_authority_events = yes
+		religion_authority = 0.5
+		any_demesne_province = {
+			religion = ROOT
+			has_province_modifier = temple_corruption
+		}
+	}
+
+	immediate = {
+		random_demesne_province = {
+			limit = {
+				religion = ROOT
+				has_province_modifier = temple_corruption
+			}
+			province_event = { id = authority.5 }
+		}
+	}
+}
+
+# Province bounce event
+province_event = {
+	id = authority.5
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROM = {
+			character_event = { id = authority.6 }
+		}
+	}
+}
+
+character_event = {
+	id = authority.6
+	desc = EVTDESC_authority_6
+	picture = GFX_evt_india_temple
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_authority_6
+		FROM = {
+			remove_province_modifier = temple_corruption
+		}
+	}
+}
+
+# Temple corruption removed - non-Indian
+province_event = {
+	id = authority.7
+
+	hide_window = yes
+	
+	trigger = {
+		has_province_modifier = temple_corruption
+		owner = {
+			has_authority_events = no
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		remove_province_modifier = temple_corruption
+	}
+}
+
+
+
+# Religious tensions
+character_event = {
+	id = authority.3530
+
+	hide_window = yes
+		
+	is_triggered_only = yes
+	
+	trigger = {
+		has_authority_events = yes
+		NOT = { religion_authority = 0.3 }
+		any_demesne_province = {
+			religion = ROOT
+			NOT = { has_province_modifier = temple_corruption }
+			NOT = { has_province_modifier = religious_tension }
+		}
+	}
+
+	immediate = {
+		random_demesne_province = {
+			limit = {
+				religion = ROOT
+				NOT = { has_province_modifier = temple_corruption }
+				NOT = { has_province_modifier = religious_tension }
+			}
+			province_event = { id = authority.11 }
+		}
+	}
+}
+
+# Province bounce event
+province_event = {
+	id = authority.11
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROM = {
+			character_event = { id = authority.12 }
+		}
+	}
+}
+
+character_event = {
+	id = authority.12
+	desc = EVTDESC_authority_12
+	picture = GFX_evt_india_temple
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_authority_12
+		FROM = {
+			add_province_modifier = {
+				name = religious_tension
+				duration = 730
+			}
+		}
+	}
+}
+
+#Religious unrest removed
+character_event = {
+	id = authority.13
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_authority_events = yes
+		religion_authority = 0.5
+		any_demesne_province = {
+			religion = ROOT
+			has_province_modifier = religious_tension
+		}
+	}
+
+	immediate = {
+		random_demesne_province = {
+			limit = {
+				religion = ROOT
+				has_province_modifier = religious_tension
+			}
+			province_event = { id = authority.14 }
+		}
+	}
+}
+
+#Province bounce event
+province_event = {
+	id = authority.14
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROM = {
+			character_event = { id = authority.15 }
+		}
+	}
+}
+
+character_event = {
+	id = authority.15
+	desc = EVTDESC_authority_15
+	picture = GFX_evt_india_temple
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_authority_15
+		FROM = {
+			remove_province_modifier = religious_tension
+		}
+	}
+}
+
+# Religious tensions removed - non-Indian
+province_event = {
+	id = authority.16
+
+	hide_window = yes
+	
+	trigger = {
+		has_province_modifier = religious_tension
+		owner = {
+			has_authority_events = no
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		remove_province_modifier = religious_tension
+	}
+}
+
+# Dharmic Province converts to other religion!
+character_event = {
+	id = authority.20
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	only_playable = yes
+	religion_group = indian_group
+	
+	trigger = {
+		has_dharmic_religion_trigger = yes
+		NOT = { religion_authority = 0.3 }
+		any_independent_ruler = {
+			any_realm_province = {
+				has_dharmic_religion_trigger = yes
+				NOT = { religion = ROOT }
+				religion_authority = 0.7
+			}
+		}
+		any_demesne_province = {
+			religion = ROOT
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+
+	immediate = {
+		random_demesne_province = {
+			limit = { 
+				religion = ROOT
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			province_event = { id = authority.21 }
+		}
+	}
+}
+
+# Province bounce event
+province_event = {
+	id = authority.21
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				any_neighbor_province = {
+					has_dharmic_religion_trigger = yes
+					NOT = { religion = ROOT }
+					religion_authority = 0.7
+				}
+			}
+			random_neighbor_province = {
+				limit = {
+					has_dharmic_religion_trigger = yes
+					NOT = { religion = ROOT }
+					religion_authority = 0.7
+				}
+				ROOT = {
+					religion = PREV
+				}
+			}
+			FROM = { character_event = { id = authority.22 } }
+			break = yes
+		}
+		if = {
+			limit = {
+				religion = hindu
+				NOT = {
+					any_neighbor_province = {
+						has_dharmic_religion_trigger = yes
+						NOT = { religion = ROOT }
+						religion_authority = 0.7
+					}
+				}
+			}
+			random_list = {
+				10 = { religion = mantramarga }
+				10 = { religion = shaktah }
+				10 = { religion = vaishnava }
+			}
+			FROM = { character_event = { id = authority.22 } }
+			break = yes
+		}
+		if = {
+			limit = {
+				religion = vaishnava
+				NOT = {
+					any_neighbor_province = {
+						has_dharmic_religion_trigger = yes
+						NOT = { religion = ROOT }
+						religion_authority = 0.7
+					}
+				}
+			}
+			random_list = {
+				10 = { religion = hindu }
+				10 = { religion = mantramarga }
+				10 = { religion = shaktah }
+			}
+			FROM = { character_event = { id = authority.22 } }
+			break = yes
+		}
+		if = {
+			limit = {
+				religion = mantramarga
+				NOT = {
+					any_neighbor_province = {
+						has_dharmic_religion_trigger = yes
+						NOT = { religion = ROOT }
+						religion_authority = 0.7
+					}
+				}
+			}
+			random_list = {
+				10 = { religion = vaishnava }
+				10 = { religion = hindu }
+				10 = { religion = shaktah }
+			}
+			FROM = { character_event = { id = authority.22 } }
+		}
+		if = {
+			limit = {
+				religion = shaktah
+				NOT = {
+					any_neighbor_province = {
+						has_dharmic_religion_trigger = yes
+						NOT = { religion = ROOT }
+						religion_authority = 0.7
+					}
+				}
+			}
+			random_list = {
+				10 = { religion = vaishnava }
+				10 = { religion = hindu }
+				10 = { religion = mantramarga }
+			}
+			FROM = { character_event = { id = authority.22 } }
+		}
+	}
+}
+
+character_event = {
+	id = authority.22
+	desc = EVTDESC_authority_22
+	picture = GFX_evt_india_temple
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_authority_22
+		tooltip = { FROM = { religion = THIS } }
+	}
+}
+
+
+
+# Jewish Province converts to other religion!
+character_event = {
+	id = authority.25
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	only_playable = yes
+	religion_group = jewish_group
+	
+	trigger = {
+		NOT = { religion_authority = 0.3 }
+		any_independent_ruler = {
+			any_realm_province = {
+				religion_group = jewish_group
+				NOT = { religion = ROOT }
+				religion_authority = 0.7
+			}
+		}
+		any_demesne_province = {
+			religion = ROOT
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+
+	immediate = {
+		random_demesne_province = {
+			limit = { 
+				religion = ROOT
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			province_event = { id = authority.26 }
+		}
+	}
+}
+
+# Province bounce event
+province_event = {
+	id = authority.26
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				any_neighbor_province = {
+					religion_group = jewish_group
+					NOT = { religion = ROOT }
+					religion_authority = 0.7
+				}
+			}
+			random_neighbor_province = {
+				limit = {
+					religion_group = jewish_group
+					NOT = { religion = ROOT }
+					religion_authority = 0.7
+				}
+				ROOT = {
+					religion = PREV
+				}
+			}
+			FROM = { character_event = { id = authority.27 } }
+			break = yes
+		}
+		if = {
+			limit = {
+				religion = haredi
+				NOT = {
+					any_neighbor_province = {
+						religion_group = jewish_group
+						NOT = { religion = ROOT }
+						religion_authority = 0.7
+					}
+				}
+			}
+			random_list = {
+				10 = { religion = ivri }
+				10 = { religion = haskalah }
+			}
+			FROM = { character_event = { id = authority.27 } }
+			break = yes
+		}
+		if = {
+			limit = {
+				religion = ivri
+				NOT = {
+					any_neighbor_province = {
+						religion_group = jewish_group
+						NOT = { religion = ROOT }
+						religion_authority = 0.7
+					}
+				}
+			}
+			random_list = {
+				10 = { religion = haredi }
+				10 = { religion = haskalah }
+			}
+			FROM = { character_event = { id = authority.27 } }
+			break = yes
+		}
+		if = {
+			limit = {
+				religion = haskalah
+				NOT = {
+					any_neighbor_province = {
+						religion_group = jewish_group
+						NOT = { religion = ROOT }
+						religion_authority = 0.7
+					}
+				}
+			}
+			random_list = {
+				10 = { religion = ivri }
+				10 = { religion = haredi }
+			}
+			FROM = { character_event = { id = authority.27 } }
+		}
+	}
+}
+
+character_event = {
+	id = authority.27
+	desc = EVTDESC_authority_22
+	picture = GFX_evt_india_temple
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_authority_22
+		tooltip = { FROM = { religion = THIS } }
+	}
+}
+
+# Anglo-Scholastic Province converts to other religion!
+character_event = {
+	id = authority.30
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	only_playable = yes
+	religion_group = scholastic
+	
+	trigger = {
+		NOT = { religion_authority = 0.3 }
+		any_independent_ruler = {
+			any_realm_province = {
+				has_anglo_scholastic_religion = yes
+				NOT = { religion = ROOT }
+				religion_authority = 0.7
+			}
+		}
+		any_demesne_province = {
+			religion = ROOT
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+
+	immediate = {
+		random_demesne_province = {
+			limit = { 
+				religion = ROOT
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			province_event = { id = authority.31 }
+		}
+	}
+}
+
+# Province bounce event
+province_event = {
+	id = authority.31
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				any_neighbor_province = {
+					has_anglo_scholastic_religion = yes
+					NOT = { religion = ROOT }
+					religion_authority = 0.7
+				}
+			}
+			random_neighbor_province = {
+				limit = {
+					has_anglo_scholastic_religion = yes
+					NOT = { religion = ROOT }
+					religion_authority = 0.7
+				}
+				ROOT = {
+					religion = PREV
+				}
+			}
+			FROM = { character_event = { id = authority.32 } }
+			break = yes
+		}
+		if = {
+			limit = {
+				religion = thelema
+				NOT = {
+					any_neighbor_province = {
+						has_anglo_scholastic_religion = yes
+						NOT = { religion = ROOT }
+						religion_authority = 0.7
+					}
+				}
+			}
+			random_list = {
+				10 = { religion = glorian }
+				10 = { religion = valinorist }
+			}
+			FROM = { character_event = { id = authority.32 } }
+			break = yes
+		}
+		if = {
+			limit = {
+				religion = glorian
+				NOT = {
+					any_neighbor_province = {
+						has_anglo_scholastic_religion = yes
+						NOT = { religion = ROOT }
+						religion_authority = 0.7
+					}
+				}
+			}
+			random_list = {
+				10 = { religion = thelema }
+				10 = { religion = valinorist }
+			}
+			FROM = { character_event = { id = authority.32 } }
+			break = yes
+		}
+		if = {
+			limit = {
+				religion = valinorist
+				NOT = {
+					any_neighbor_province = {
+						has_anglo_scholastic_religion = yes
+						NOT = { religion = ROOT }
+						religion_authority = 0.7
+					}
+				}
+			}
+			random_list = {
+				10 = { religion = thelema }
+				10 = { religion = glorian }
+			}
+			FROM = { character_event = { id = authority.32 } }
+		}
+	}
+}
+
+character_event = {
+	id = authority.32
+	desc = EVTDESC_authority_22
+	picture = GFX_evt_india_temple
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_authority_22
+		tooltip = { FROM = { religion = THIS } }
+	}
+}
+
+
+

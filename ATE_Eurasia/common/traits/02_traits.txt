@@ -731,14 +731,17 @@ narrow_flank_leader = {
 brahmin = {
 	potential = {
 		OR = {
-			religion = buddhist
+			religion = vaishnava
 			religion = hindu
-			religion = jain
+			religion = mantramarga
+			religion = shaktah
 		}
 	}
 	opposites = {
 		kshatriya
 		vaishya
+		shudra
+		dalit
 	}
 	
 	caste_tier = 3
@@ -752,14 +755,17 @@ brahmin = {
 kshatriya = {
 	potential = {
 		OR = {
-			religion = buddhist
+			religion = vaishnava
 			religion = hindu
-			religion = jain
+			religion = mantramarga
+			religion = shaktah
 		}
 	}
 	opposites = {
 		brahmin
 		vaishya
+		shudra
+		dalit
 	}
 
 	caste_tier = 2
@@ -773,14 +779,17 @@ kshatriya = {
 vaishya = {
 	potential = {
 		OR = {
-			religion = buddhist
+			religion = vaishnava
 			religion = hindu
-			religion = jain
+			religion = mantramarga
+			religion = shaktah
 		}
 	}
 	opposites = {
 		brahmin
 		kshatriya
+		shudra
+		dalit
 	}
 
 	caste_tier = 1

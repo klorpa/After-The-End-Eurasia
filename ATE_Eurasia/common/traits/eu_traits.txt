@@ -1292,3 +1292,54 @@ vegetarian = {
 	religious = yes
 	ruler_designer_cost = 5
 }
+shudra = {
+	potential = {
+		OR = {
+			religion = vaishnava
+			religion = hindu
+			religion = mantramarga
+			religion = shaktah
+		}
+	}
+	opposites = {
+		brahmin
+		vaishya
+		kshatriya
+		dalit
+	}
+	caste_tier = 1
+	
+	brahmin_opinion = -5
+	diplomacy = 1
+
+	customizer = no
+	random = no
+}
+
+dalit = {
+	potential = {
+		OR = {
+			religion = vaishnava
+			religion = hindu
+			religion = mantramarga
+			religion = shaktah
+		}
+	}
+	opposites = {
+		brahmin
+		kshatriya
+		vaishya
+		shudra
+	}
+
+	agnatic = yes
+	enatic = yes
+	stewardship = 1
+	brahmin_opinion = -5
+	hindu_opinion = -5
+	shaktah_opinion = -5
+	vaishnava_opinion = -5
+	
+	customizer = no
+	random = no
+}
