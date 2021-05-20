@@ -1,0 +1,205 @@
+namespace = misc
+character_event = { #some weird ass old man offers you hash
+	id = misc.1
+	desc = EVTDESC_MISC_1
+	picture = GFX_
+	
+	only_playable = yes
+	
+	trigger = {
+		AND = {
+			min_age >= 16
+			prisoner = no
+			has_landed_title = c_marseille
+		}
+		NOT = {
+			trait = incapable
+			character_disease_trigger = yes
+			has_character_modifier = on_vision_quest
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+	}
+	
+	option = { #you accept because you are based
+		name = EVTOPTA_MISC_1
+		piety = -10
+		random_list = {
+			10 = {
+				add_trait = mystic
+			}
+			90 = {
+			}
+		}
+		create_character = {
+			random_traits = no
+			religion = haskalah
+			name = "Walter"
+			dynasty = 200
+			culture = ossi
+			age = 85
+			trait = mastermind_theologian
+			trait = scholar
+			trait = genius
+			trait = depressed
+			trait = blinded
+			trait = gregarious
+			trait = temperate
+			trait = proud
+		}
+		new_character = {
+			piety = 200
+			prestige = 30
+			set_de_facto_liege = ROOT
+		}
+		hidden_tooltip = {
+			character_event = { id = misc.2 days = 5 }
+		}
+	}
+	option = { you politely decline because you are unbased
+		name = EVTOPTB_MISC_1
+		piety = 10
+		random_list = {
+			10 = {
+				add_trait = temperate
+			}
+			90 = {
+			}
+		}
+	}
+}
+
+character_event = { #you take a nice puff, three possible trips
+	id = misc.2
+	desc = EVTDESC_MISC_2
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = { #let's gooooooooo
+		name = EVTOPTB_MISC_2
+		hidden_tooltip = {
+			add_character_modifier = on_vision_quest
+			random_list = {
+				20 = {
+					character_event = { 
+						id = misc.3 days = 5
+					}
+				}
+				60 = {
+					character_event = {
+						id = misc.4 days = 5
+					}
+				}
+				20 = {
+					character_event = {
+						id = misc.5 days = 5
+					}
+				}
+			}
+		}
+	}
+}
+
+character_event = { #your trip is really cool, you're on the beach, it's sunny and all
+	id = misc.3
+	desc = EVTDESC_MISC_3
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = { damn son lemme swim for a while
+		name = EVTOPTA_MISC_3
+		hidden_tooltip = {
+			random_list = {
+				50 = {
+					character_event = {
+						id = misc.6 days = 5
+					}
+				}
+				40 = {
+					character_event = {
+						id = misc.7
+					}
+				}
+				10 = {
+					character_event = {
+						id = misc.8
+					}
+				}
+			}
+		}
+	}
+	option = { #imma climb these rocks to catch some height
+		name = EVTOPTB_MISC_3
+		hidden_tooltip = {
+			random_list = {
+				60 = {
+					character_event = {
+						id = misc.9
+					}
+				}
+				25 = {
+					character_event = {
+						id = misc.10
+					}
+				}
+				15 = {
+					character_event = {
+						id = misc.11
+					}
+				}
+			}
+		}
+	}
+}
+
+character_event = { #your trip is alright, you're not out there feeling like a god but it's pretty cool
+	id = misc.4
+	desc = EVTDESC_MISC_4
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = { #i'll take a small walk before going home
+		name = EVTOPTA_MISC_4
+		hidden_tooltip = {
+			random_list = {
+				95 = {
+					character_event = {
+						id = misc.12
+					}
+				}
+				5 = {
+					character_event = {
+						id = misc.13
+					}
+				}
+			}
+		}
+	}
+	option = { # i feel tired, let's go home
+		name = EVTOPTB_MISC_4
+		random_list = {
+			95 = {
+			}
+			5 = {
+				add_trait = slothful
+			}
+		}
+		hidden_tooltip = {
+			character_event = { id = misc.0 days = 5 }
+		}
+	}
+}
+
+character_event = { #you're totally fucked and it seems the hash is bad
+	id = misc.5
+	desc = EVTDESC_MISC_5
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	
