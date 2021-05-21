@@ -1,0 +1,94 @@
+###########################################
+#										 #
+# Cenobitic Events						 #
+#										 #
+# 										 #
+#										 #
+###########################################
+
+namespace = cenobitic
+
+character_event = {
+	id = cenobitic.001
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+	character = 1802036
+	}
+	
+		effect = {
+				set_desert_father_historical = yes
+		}	
+	
+	immediate = {
+	set_special_character_title = DESERT_FATHER_TITLE
+	}
+}
+
+character_event = {
+	id = cenobitic.002
+	desc = EVTDESC_cenobitic_002
+	picture = GFX_evt_pilgrims_epic_journey
+	border = GFX_event_normal_frame_religion
+	religion = miaphysite
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_cenobitic_002
+		hidden_tooltip = {
+			remove_trait = school_peter
+			remove_trait = school_mathew
+			remove_trait = school_thaddeus
+		}
+		add_trait = school_mark
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = EVTOPTB_cenobitic_002
+		hidden_tooltip = {
+			remove_trait = school_mark
+			remove_trait = school_mathew
+			remove_trait = school_thaddeus
+		}
+		add_trait = school_peter
+		ai_chance = {
+			factor = 10
+		}
+	}
+	
+	option = {
+		name = EVTOPTC_cenobitic_002
+		hidden_tooltip = {
+			remove_trait = school_mark
+			remove_trait = school_peter
+			remove_trait = school_thaddeus
+		}
+		add_trait = school_mathew
+		ai_chance = {
+			factor = 10
+		}
+	}
+	
+	option = {
+		name = EVTOPTD_cenobitic_002
+		hidden_tooltip = {
+			remove_trait = school_mark
+			remove_trait = school_peter
+			remove_trait = school_mathew
+		}
+		add_trait = school_thaddeus
+		ai_chance = {
+			factor = 10
+		}
+	}
+}

@@ -1,0 +1,39 @@
+add_cenobitic_trait_effect = {
+	if = {
+		limit = { is_female = yes }
+		if = {
+			limit = { is_married = no }
+			add_trait = regulara
+		}
+		if = {
+			limit = { is_married = yes }
+			add_trait = canoness
+		}
+	}
+	if = {
+		limit = { is_female = no }
+		if = {
+			limit = { is_married = no }
+			add_trait = canon
+		}
+		if = {
+			limit = { is_married = yes }
+			add_trait = regularis
+		}
+	}
+}
+
+set_desert_name_effect = {
+	if = {
+		limit = { is_female = yes }
+		set_special_character_title = DESERT_MOTHER_TITLE
+	}
+	if = {
+		limit = { is_female = no }
+		set_special_character_title = DESERT_FATHER_TITLE
+	}
+}
+
+set_desert_father_historical = {
+set_special_character_title = DESERT_FATHER_TITLE
+}
