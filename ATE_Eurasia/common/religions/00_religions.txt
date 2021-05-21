@@ -3513,8 +3513,51 @@ indian_group = { #placeholder
 		priest_title = PUJARI
 		piety_name = KARMA
 		
-		intermarry = jain
 		intermarry = hindu
+		intermarry = jain
+		intermarry = sikh
+		intermarry = zoroastrian
+		
+	}
+	thirumatam = { 
+		graphical_culture = hindugfx
+
+		icon = 86
+		heresy_icon = 86
+		
+		color = { 1.0 0.5 0.5 }
+		
+		high_god_name = GOD_ADIBHAGAWAN
+		
+		god_names = {
+			GOD_MAHESVARA GOD_MURUGAN GOD_KANNAKI_AMMAN GOD_AYYAPAN GOD_THIRUMAL GOD_AGASTAYA GOD_AYYANAR GOD_THE_SIDDHARS GOD_THIRUVALLUVAR GOD_YAMA
+		}
+		
+		evil_god_names = {
+			GOD_MAYA
+		}
+		
+		can_grant_divorce = yes
+		has_heir_designation = yes
+		can_retire_to_monastery = yes
+		feminist = yes
+		pacifist = yes
+		can_demand_religious_conversion = no
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		max_consorts = 3
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THIRUKKURAL
+		priest_title = PUJARI
+		piety_name = KARMA
+		
+		intermarry = hindu
+		intermarry = mantramarga
+		intermarry = jain
 		intermarry = sikh
 		intermarry = zoroastrian
 		

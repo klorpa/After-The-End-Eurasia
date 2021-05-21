@@ -385,6 +385,7 @@ province_event = {
 				10 = { religion = mantramarga }
 				10 = { religion = shaktah }
 				10 = { religion = vaishnava }
+				10 = { religion = thirumatam }
 			}
 			FROM = { character_event = { id = authority.22 } }
 			break = yes
@@ -404,6 +405,7 @@ province_event = {
 				10 = { religion = hindu }
 				10 = { religion = mantramarga }
 				10 = { religion = shaktah }
+				10 = { religion = thirumatam }
 			}
 			FROM = { character_event = { id = authority.22 } }
 			break = yes
@@ -423,6 +425,7 @@ province_event = {
 				10 = { religion = vaishnava }
 				10 = { religion = hindu }
 				10 = { religion = shaktah }
+				10 = { religion = thirumatam }
 			}
 			FROM = { character_event = { id = authority.22 } }
 		}
@@ -441,6 +444,26 @@ province_event = {
 				10 = { religion = vaishnava }
 				10 = { religion = hindu }
 				10 = { religion = mantramarga }
+				10 = { religion = thirumatam }
+			}
+			FROM = { character_event = { id = authority.22 } }
+		}
+		if = {
+			limit = {
+				religion = thirumatam
+				NOT = {
+					any_neighbor_province = {
+						has_dharmic_religion_trigger = yes
+						NOT = { religion = ROOT }
+						religion_authority = 0.7
+					}
+				}
+			}
+			random_list = {
+				10 = { religion = vaishnava }
+				10 = { religion = hindu }
+				10 = { religion = mantramarga }
+				10 = { religion = shaktah }
 			}
 			FROM = { character_event = { id = authority.22 } }
 		}

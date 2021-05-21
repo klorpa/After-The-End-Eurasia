@@ -529,16 +529,11 @@ d_taharur = {
 	creation_requires_capital = no 
 	
 	landless = no 
-	
+	can_be_claimed = no
+	can_be_usurped = no
 	title = "SHAYKH"
 	foa = "CALIPH_FOA"
 	
-	allow = {
-		religion = taharur
-		num_of_holy_sites = 3 
-		piety = 500
-		wealth = 250
-	}
 	
 	short_name = yes
 	
