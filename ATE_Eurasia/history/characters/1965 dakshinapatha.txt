@@ -1,14 +1,274 @@
+1950126 = {
+	name="Ananthapadmanabhan"
+	dynasty=1729000 #Thirummukhathu-Varma
+	culture=malayali
+	religion=mantramarga
+	trait=skilled_tactician
+	trait=quick
+	trait=brave
+	trait=deceitful
+	trait=experimenter
+	2641.6.4={birth=yes}
+	2663.1.1={add_spouse=1950127}
+	2700.1.1={death=yes}
+}
+1950127 = {
+	name="Parukutta"
+	female=yes
+	dynasty=1729001 #Chmbaksserry
+	culture=malayali
+	religion=mantramarga
+	trait=grey_eminence
+	trait=fair
+	trait=groomed
+	trait=shrewd
+	trait=trusting
+	2642.4.1={birth=yes}
+	2700.1.1={death=yes}
+}
+1950128 = {
+	name="Kunnikuttan"
+	dynasty=1729002 #Panikkar
+	culture=malayali
+	religion=mantramarga
+	trait=fortune_builder
+	trait=shudra
+	trait=groomed
+	trait=cynical
+
+	2634.3.14={birth=yes}
+	2690.1.1={death=yes}
+}
+1950129 = {
+	name="Kumari"
+	female=yes
+	dynasty=1729002 #Panikkar
+	culture=malayali
+	religion=mantramarga
+	father=1950128
+
+	2666.2.1={birth=yes}
+	2690.1.1={death=yes}
+}
+1950130 = {
+	name="Dhaaniel"
+	dynasty=1729003 #Plakkiya
+	culture=malayali
+	religion=mantramarga
+	trait=carouser
+	trait=shrewd
+	trait=chaste
+	trait=pious
+	trait=trusting
+	
+	2610.3.8={birth=yes}
+	2659.1.1={add_spouse=1950131}
+	2690.1.1={death=yes} 
+}
+1950131={
+	name="Miriamma"
+	female=yes
+	culture=malayali
+	religion=mantramarga
+	trait=thrifty_clerk
+	trait=pious
+	trait=kind
+	trait=charitable
+
+	2624.7.1={birth=yes}
+	2700.1.1={death=yes }
+}
+1950132 = {
+	name="Antony"
+	dynasty=1729003 #Plakkiya
+	culture=malayali
+	religion=mantramarga
+	
+	father=1950131
+	mother=1950132
+
+	2660.1.1={birth=yes}
+	2700.1.1={death=yes }
+}
+1950133 = {
+	name="Paul"
+	dynasty=1729003 #Plakkiya
+	culture=malayali
+	religion=mantramarga
+	father=1950130
+	mother=1950131
+
+	2663.1.1={birth=yes}
+	2700.1.1={death=yes }
+}
+1950134 = {
+	name="Mani"
+	female=yes
+	dynasty=1729003 #Plakkiya
+	culture=malayali
+	religion=mantramarga
+	father=1950130
+	mother=1950131
+
+	2663.1.1={birth=yes}
+	2700.1.1={death=yes }
+}
+1950135 = {
+	name="Dhana"
+	dynasty=1729004 #Nambuthiri
+	culture=malayali
+	religion=hindu
+	trait=scholarly_theologian
+	trait=brahmin
+	trait=greedy
+	trait=zealous
+
+	2635.3.12={birth=yes}
+	2653.3.5={add_spouse=1950136}
+	2690.1.1={death=yes}
+}
+1950136 = {
+	name="Devi"
+	female=yes
+	dynasty=1729005 #Nayer
+	culture=malayali
+	religion=hindu
+
+	2635.8.12={birth=yes}
+	2690.1.1={death=yes}
+}
+1950137 = {
+	name="Saukara"
+	dynasty=1729005 #Nayer
+	culture=malayali
+	religion=mantramarga
+	
+	trait=scholarly_theologian
+	trait=kshatriya
+	trait=erudite
+	trait=fat
+	trait=gluttonous
+	trait=kind
+	trait=charitable
+
+	2633.12.12={birth=yes}
+	2690.1.1={death=yes }
+}
+1950138 = {
+	name="Muhammed"
+	dynasty=1729006 #Pukkaya
+	culture=malayali
+	religion=salafi
+	
+	trait=scholarly_theologian
+	trait=sayyid
+	trait=erduite
+	trait=gluttonous
+	trait=kind
+	trait=charitable
+
+	2633.12.12={birth=yes}
+	2690.1.1={ death=yes }
+}
+1950139 = {
+	name="Nadia"
+	female=yes
+	dynasty=1729006 #Pukkaya
+	culture=malayali
+	religion=salafi
+	father=1950138
+
+	2661.1.12={birth=yes}
+	2690.1.1={ death=yes }
+}
+1950140 = {
+	name="Hassan"
+	dynasty=1729006 #Pukkaya
+	culture=malayali
+	religion=salafi
+	father=1950138
+
+	2665.1.12={birth=yes}
+	2690.1.1={ death=yes }
+}
+1950141 = {
+	name="Bhai"
+	dynasty=1729007 #Abu
+	culture=malayali
+	religion=sunni
+	trait=thrifty_clerk
+	trait=homosexual
+	trait=depressed
+	trait=craven
+	trait=wroth
+	trait=chaste
+
+	2639.4.3={birth=yes}
+	2658.1.1={add_spouse=1950142}
+	2700.1.1={death=yes}
+}
+1950142 = {
+	name="Amina"
+	female=yes
+	dynasty=1965008 #Halbullah
+	culture=malayali
+	religion=sunni
+	trait=fair
+	trait=musician
+	trait=depressed
+	trait=stressed
+
+	2639.4.3={birth=yes}
+	2700.1.1={death=yes} 
+}
+1950143 = {
+	name="Mulla"
+	female=yes
+	dynasty=1729007 #Abu
+	culture=malayali
+	religion=sunni
+	father=1950141
+	mother=1950142
+
+	2661.1.12={birth=yes}
+	2690.1.1={death=yes}
+}
+1950144 = {
+	name="Raju"
+	dynasty=1729007 #Abu
+	culture=malayali
+	religion=sunni
+	father=1950141
+	mother=1950142
+	
+	2659.4.2={birth=yes}
+	2690.1.1={death=yes}
+}
+1950145 = {
+	name="Kiñanna"
+	dynasty=3060000 #Tolahara
+	culture=tulu
+	religion=shaktah
+	trait=grey_eminence
+	trait=Kshatriya
+	trait=erduite
+	trait=brave
+	trait=frail
+
+	2634.12.13={birth=yes}
+	2700.1.1={death=yes}
+}
 1965000 = {
-	name = "Assayyidhu"
-	dynasty = 1965000 #Thulusdhoo
-	culture = maldivian
-	religion = sunni
-	trait = scholarly_theologian
-	trait = brave
-	trait = stressed
-	trait = qadiri
-	2594.1.1 = { birth=yes }
-	2656.1.1 = { death=yes }
+	name="Assayyidhu"
+	dynasty=1965000 #Thulusdhoo
+	culture=maldivian
+	religion=sunni
+	trait=scholarly_theologian
+	trait=brave
+	trait=stressed
+	trait=qadiri
+	2594.1.1={ birth=yes }
+	2656.1.1={ death=yes }
 }
 1965001 = {
 	name = "Ali"
