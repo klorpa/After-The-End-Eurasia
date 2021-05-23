@@ -4,6 +4,7 @@
 #	x hindu.11 - hindu.19 : Sallekhana Events						#
 #	x hindu.20 - hindu.29 : Mahashivaratri Festival					#
 ##################################################################### 
+namespace=hindu
 
 #### Mantramarga branch choice event ####
 
@@ -104,15 +105,15 @@ narrative_event = { #Watch a Dance or Meditate
 	option = {
 		name = EVTOPTA_HINDU_22
 		piety = 50
-		character_event = { id= hindu.23 days=1 } #Natyanjali
+		narrative_event = { id= hindu.23 days=1 } #Natyanjali
 	}
 	option = {
-		name = EVTOPTA_HINDU_22
+		name = EVTOPTB_HINDU_22
 		piety = 50
-		character_event = { id= hindu.24 days=1 } #Skip to the Next Event
+		narrative_event = { id= hindu.24 days=1 } #Skip to the Next Event
 	}
 }
-character_event = { #Natyanjali
+narrative_event = { #Natyanjali
 	id = hindu.23
 	title = EVT_TITLE_HINDU_23
 	desc = EVTDESC_HINDU_23
@@ -121,10 +122,10 @@ character_event = { #Natyanjali
 	option = {
 		name = EVTOPTA_HINDU_23
 		piety = 50
-		character_event = { id= hindu.24 days=1 } #Meditate
+		narrative_event = { id= hindu.24 days=1 } #Meditate
 	}
 }
-character_event = { #Meditating
+narrative_event = { #Meditating
 	id = hindu.24
 	title = EVT_TITLE_HINDU_24
 	desc = EVTDESC_HINDU_24
@@ -137,7 +138,7 @@ character_event = { #Meditating
 			50 = {add_trait = vegetarian}
 			50 = {add_trait = pious}
 		}
-		character_event = { id= hindu.25 days=1 } #End of the Event
+		narrative_event = { id= hindu.25 days=1 } #End of the Event
 	}
 	option = { #Meditate on Overcoming deepest Darkness (A chance to Remove a sin)
 		name = EVTOPTB_HINDU_24
@@ -152,7 +153,7 @@ character_event = { #Meditating
 			10 = {remove_trait = proud }
 			30 = { }
 		}
-		character_event = { id= hindu.25 days=1 } #End of the Event
+		narrative_event = { id= hindu.25 days=1 } #End of the Event
 	}
 	option = { #Meditate on Overcoming Ignorance (A chance to gain Learning)
 		name = EVTOPTC_HINDU_24
@@ -161,10 +162,10 @@ character_event = { #Meditating
 			20 = {change_learning = 1 }
 			80 = { }
 		}
-		character_event = { id= hindu.25 days=1 } #End of the Event
+		narrative_event = { id= hindu.25 days=1 } #End of the Event
 	}
 }
-character_event = { #End of The Night
+narrative_event = { #End of The Night
 	id = hindu.25
 	title = EVT_TITLE_HINDU_25
 	desc = EVTDESC_HINDU_25
