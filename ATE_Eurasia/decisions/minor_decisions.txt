@@ -1207,24 +1207,10 @@ decisions = {
 				is_republic = yes
 			}
 			prisoner = no
-			religion_group = indian_group
+			religion = mantramarga
 			NOT = { trait = incapable }
 			NOT = {
-				has_character_modifier = holding_mahashivaratri
-			}
-			NOT = {
-				has_character_modifier = large_feast_timer
-			}
-			NOT = {
-				has_character_modifier = fabulous_feast
-			}
-			NOT = {
-				has_character_flag = guest_mahashivaratri
-			}
-			NOT = {
-				liege = {
-					has_character_modifier = holding_mahashivaratri
-				}
+				has_character_modifier = celebrating_mahashivaratri
 			}
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
@@ -1245,7 +1231,7 @@ decisions = {
 			NOT = { is_inaccessible_trigger = yes }
 			scaled_wealth = 0.2
 			month >= 1#feb
-			month <= 3#april
+			month <= 2#march
 			prestige = 100
 			custom_tooltip = {
 				text = is_not_busy_trigger_tooltip
@@ -1255,13 +1241,13 @@ decisions = {
 		effect = {
 			scaled_wealth = -0.2
 			add_character_modifier = {
-				name = holding_mahashivaratri
+				name = celebrating_mahashivaratri
 				duration = 365
 			}
 			set_character_flag = recent_minor_decision
 			set_character_flag = do_not_disturb
 			hidden_tooltip = { 
-				character_event = { id = RoI.1000 }#this is the Diwali event, until we write the new Festival
+				narrative_event = { id = hindu.20 days=1}
 			}
 			if = {
 				limit = {

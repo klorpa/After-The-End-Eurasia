@@ -1,3 +1,10 @@
+#####################################################################
+#		Hindu Event Reference Numbers for Ease of Reference			#
+#	x hindu.1 - hindu.10 : Hindu Branch Trait Switch				#
+#	x hindu.11 - hindu.19 : Sallekhana Events						#
+#	x hindu.20 - hindu.29 : Mahashivaratri Festival					#
+##################################################################### 
+
 #### Mantramarga branch choice event ####
 
 character_event = {
@@ -58,3 +65,117 @@ character_event = {
 
 #### Sallekhana event chain ####
 
+#### Mahashivaratri event chain ####
+narrative_event = { #Heading to the Temple
+	id = hindu.20
+	title = EVT_TITLE_HINDU_20
+	desc = EVTDESC_HINDU_20
+	picture = GFX_evt_night_festival_hindu
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTA_HINDU_20
+		piety = 50
+		narrative_event = { id= hindu.21 days=1 }
+	}
+	option = {
+		name = EVTOPTB_HINDU_20
+		prestige = 50
+		narrative_event = { id= hindu.21 days=1 }
+	}
+}
+narrative_event = { #Learning about Shiva, options praising Shiva
+	id = hindu.21
+	title = EVT_TITLE_HINDU_21
+	desc = EVTDESC_HINDU_21
+	picture = GFX_evt_lord_shiva_dance
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTA_HINDU_21
+		piety = 50
+		narrative_event = { id= hindu.22 days=1 }
+	}
+}
+narrative_event = { #Watch a Dance or Meditate
+	id = hindu.22
+	title = EVT_TITLE_HINDU_22
+	desc = EVTDESC_HINDU_22
+	picture = GFX_evt_night_festival_hindu
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTA_HINDU_22
+		piety = 50
+		character_event = { id= hindu.23 days=1 } #Natyanjali
+	}
+	option = {
+		name = EVTOPTA_HINDU_22
+		piety = 50
+		character_event = { id= hindu.24 days=1 } #Skip to the Next Event
+	}
+}
+character_event = { #Natyanjali
+	id = hindu.23
+	title = EVT_TITLE_HINDU_23
+	desc = EVTDESC_HINDU_23
+	picture = GFX_evt_night_festival_hindu
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTA_HINDU_23
+		piety = 50
+		character_event = { id= hindu.24 days=1 } #Meditate
+	}
+}
+character_event = { #Meditating
+	id = hindu.24
+	title = EVT_TITLE_HINDU_24
+	desc = EVTDESC_HINDU_24
+	picture = GFX_evt_yoga_meditation
+	is_triggered_only = yes
+	option = { #Meditate on non-harming living beings
+		name = EVTOPTA_HINDU_24
+		piety = 50
+		random_list = {
+			50 = {add_trait = vegetarian}
+			50 = {add_trait = pious}
+		}
+		character_event = { id= hindu.25 days=1 } #End of the Event
+	}
+	option = { #Meditate on Overcoming deepest Darkness (A chance to Remove a sin)
+		name = EVTOPTB_HINDU_24
+		piety = 50
+		random_list = {
+			10 = {remove_trait = lustful }
+			10 = {remove_trait = gluttonous}
+			10 = {remove_trait = greedy	}
+			10 = {remove_trait = slothful }
+			10 = {remove_trait = wroth }
+			10 = {remove_trait = envious }
+			10 = {remove_trait = proud }
+			30 = { }
+		}
+		character_event = { id= hindu.25 days=1 } #End of the Event
+	}
+	option = { #Meditate on Overcoming Ignorance (A chance to gain Learning)
+		name = EVTOPTC_HINDU_24
+		piety = 50
+		random_list = {
+			20 = {change_learning = 1 }
+			80 = { }
+		}
+		character_event = { id= hindu.25 days=1 } #End of the Event
+	}
+}
+character_event = { #End of The Night
+	id = hindu.25
+	title = EVT_TITLE_HINDU_25
+	desc = EVTDESC_HINDU_25
+	picture = GFX_evt_night_festival_hindu
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTA_HINDU_25
+		piety = 50
+		hidden_tooltip = {
+			remove_character_modifier = { name = celebrating_mahashivaratri }
+			clr_character_flag = do_not_disturb
+		}
+	}
+}

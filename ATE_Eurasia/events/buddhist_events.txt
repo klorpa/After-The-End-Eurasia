@@ -1083,8 +1083,10 @@ character_event = {
 		wealth = 50
 		piety = -50
 		hidden_tooltip = { character_event = { id = budevents.120 } }
-		hidden_tooltip = { add_character_modifier = { name = large_feast_timer years = 3 } }
-		hidden_tooltip = { clr_character_flag = holding_vessak }
+		hidden_tooltip = { 
+			clr_character_flag = holding_vessak 
+			clr_character_flag = do_not_disturb
+		}
 	}
 }
 }
