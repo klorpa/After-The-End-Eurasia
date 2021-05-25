@@ -492,7 +492,7 @@ narrative_event = {
 	desc = budevent100_desc
 	
 	trigger = {
-		has_character_flag = holding_vessak
+		has_character_modifier = celebrating_vesak
 		war = no
 	}
 	
@@ -527,7 +527,7 @@ narrative_event = {#do you want to fast
 	picture = GFX_evt_buddha_teaching
 	is_triggered_only = yes
 	
-	trigger = {has_character_flag = holding_vessak}
+	trigger = {has_character_modifier = celebrating_vesak}
 	
 	immediate = {
 		random_list = {
@@ -627,7 +627,7 @@ character_event = {#experience hardships, option to abandon
 	picture = GFX_evt_buddha_teaching
 	desc = budevent102_desc
 	
-	trigger = {has_character_flag = holding_vessak}
+	trigger = {has_character_modifier = celebrating_vesak}
 	
 	option = {#abandon the fast
 		name = EVTOPTA_budevent102
@@ -731,7 +731,7 @@ character_event = {#the fast ends - you successfully did it!
 	picture = GFX_evt_buddha_teaching
 	desc = budevent103_desc
 	
-	trigger = {has_character_flag = holding_vessak}
+	trigger = {has_character_modifier = celebrating_vesak}
 	
 	option = {#wooooo!
 		name = EVTOPTA_buddhist103
@@ -748,7 +748,7 @@ narrative_event = {#Vesak Day Starts!!!
 	picture = GFX_evt_buddhist_contemplation
 	desc = budevent107_desc
 	
-	trigger = {has_character_flag = holding_vessak}
+	trigger = {has_character_modifier = celebrating_vesak}
 	
 	option = {#Response
 		name = EVTOPT_minor_reverence_buddhist
@@ -774,7 +774,7 @@ character_event = {#setting up the parade
 		text = M_PREPARATIONS
 	}
 	
-	trigger = {has_character_flag = holding_vessak}
+	trigger = {has_character_modifier = celebrating_vesak}
 	
 	option = {#Large Parade
 		name = EVTOPTA_buddhist104
@@ -806,7 +806,7 @@ narrative_event = {#modest parade
 		text = M_MODEST_PARADE
 	}
 	
-	trigger = {has_character_flag = holding_vessak}
+	trigger = {has_character_modifier = celebrating_vesak}
 	
 	option = {#Response
 		name = EVTOPT_praise_buddha
@@ -833,7 +833,7 @@ narrative_event = {#large parade
 		text = M_LARGE_PARADE
 	}
 	
-	trigger = {has_character_flag = holding_vessak}
+	trigger = {has_character_modifier = celebrating_vesak}
 	
 	option = {#Response
 		name = EVTOPT_praise_buddha
@@ -849,7 +849,7 @@ narrative_event = {#Listen to a good Story?
 	picture = GFX_evt_buddha_teaching
 	desc = budevent108_desc
 	
-	trigger = {has_character_flag = holding_vessak}
+	trigger = {has_character_modifier = celebrating_vesak}
 	
 	immediate = {
 		random_list = {
@@ -897,7 +897,7 @@ narrative_event = {#Silanisama Jataka
 	picture = GFX_evt_buddha_teaching
 	desc = budevent109_desc
 	
-	trigger = {has_character_flag = holding_vessak}
+	trigger = {has_character_modifier = celebrating_vesak}
 	
 	option = {#Response
 		name = continue
@@ -916,7 +916,7 @@ narrative_event = {#Vessantara Jataka
 	picture = GFX_evt_buddha_teaching
 	desc = budevent110_desc
 	
-	trigger = {has_character_flag = holding_vessak}
+	trigger = {has_character_modifier = celebrating_vesak}
 	
 	option = {#Response
 		name = continue
@@ -954,17 +954,13 @@ narrative_event = {#End of Vessak
 	picture = GFX_evt_buddhist_contemplation
 	desc = {
 		trigger = {
-			limit = {
-				trait = vegetarian
-			}
+			trait = vegetarian
 		}
 		text = V_LANTERN_SHOW
 	}
 	desc = {
 		trigger = {
-			limit = {
-				NOT = {trait = vegetarian}
-			}
+			NOT = {trait = vegetarian}
 		}
 		text = LANTERN_SHOW
 	}
@@ -977,21 +973,21 @@ narrative_event = {#End of Vessak
 		piety = 20
 		remove_trait = vegetarian
 		clr_character_flag = do_not_disturb
-		clr_character_flag = holding_vessak
+		remove_character_modifier = { name = celebrating_vesak }
 	}
 	option = {#Vegetarian Response (CONTINUE)
 		trigger = {trait = vegetarian}
 		name = EVTOPTA_budevent112
 		piety = 20
 		clr_character_flag = do_not_disturb
-		clr_character_flag = holding_vessak
+		remove_character_modifier = { name = celebrating_vesak }
 	}
 	option = {#Non-Vegetarian Response
 		trigger = {NOT = {trait = vegetarian}}
 		name = EVTOPTC_budevent112
 		piety = 20
 		clr_character_flag = do_not_disturb
-		clr_character_flag = holding_vessak
+		remove_character_modifier = { name = celebrating_vesak }
 	}
 }
 #The Text was too Long so the Part two of the text is dumped here
@@ -1018,7 +1014,7 @@ narrative_event = {#Silanisama Jataka
 narrative_event = {#Vessantara Jataka
 	id = budevents.114
 	is_triggered_only = yes
-	title = budevent114_title
+	title = budevent110_title
 	picture = GFX_evt_buddha_teaching
 	desc = budevent110_desc
 	
@@ -1063,7 +1059,7 @@ character_event = {
 	immediate = {
 		clr_character_flag = do_not_disturb
 		clr_character_flag = recent_minor_decision
-		clr_character_flag = holding_vessak
+		remove_character_modifier = { name = celebrating_vesak }
 	}
 }
 
@@ -1071,7 +1067,7 @@ character_event = {
 character_event = {
 	id = budevents.121
 	desc = budevent121_desc
-	has_character_flag = holding_vessak
+	has_character_modifier = celebrating_vesak
 	war = yes
 	
 	mean_time_to_happen = {
@@ -1084,9 +1080,8 @@ character_event = {
 		piety = -50
 		hidden_tooltip = { character_event = { id = budevents.120 } }
 		hidden_tooltip = { 
-			clr_character_flag = holding_vessak 
+			remove_character_modifier = { name = celebrating_vesak }
 			clr_character_flag = do_not_disturb
 		}
 	}
-}
 }
