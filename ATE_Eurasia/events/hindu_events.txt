@@ -5,7 +5,7 @@
 #	x hindu.20 - hindu.29 : Mahashivaratri Festival					#
 #	x hindu.500 - hindu.510 : Siddhari Event						#
 ##################################################################### 
-namespace=hindu
+namespace = hindu
 
 #### Mantramarga branch choice event ####
 
@@ -148,10 +148,10 @@ character_event = { #things are starting to get serious
 		}
 		random_list = {
 			90 = {
-				character_event = {hindu.6 days = 5 }
+				character_event = { id = hindu.6 days = 5 }
 			}
 			10 = {
-				character_event = { hindu.7 days = 5 }
+				character_event = { id = hindu.7 days = 5 }
 				modifier = {
 					factor = 0.5
 					is_pious_trigger = yes
@@ -186,7 +186,7 @@ character_event = { #nirvana is close but you witness shiva
 		piety = 200
 		prestige = 200
 		add_trait = chest_pain
-		character_event = { hindu.8 days = 5 }
+		character_event = { id = hindu.8 days = 5 }
 	}
 }
 character_event = { #it is the end fellas
@@ -315,18 +315,16 @@ narrative_event = { #End of The Night
 		name = EVTOPTA_HINDU_25
 		piety = 50
 		hidden_tooltip = {
-			remove_character_modifier = { name = celebrating_mahashivaratri }
+			remove_character_modifier = celebrating_mahashivaratri
 			clr_character_flag = do_not_disturb
 		}
 	}
 }
 
-#### Siddhar Events ####
-
 character_event = {
 	id = hindu.100
-	desc = EVTDESC_RIP_11050
 	picture = GFX_evt_courier
+	desc = EVTDESC_HINDU_100
 	border = GFX_event_normal_frame_religion
 
 	is_triggered_only = yes
@@ -336,7 +334,7 @@ character_event = {
 	}
 
 	option = {
-		name = EVTOPTA_RIP_11050
+		name = EVTOPTA_HINDU_100
 		hidden_tooltip = { character_event = { id = hindu.101 days = 10 random = 10 } }
 	}
 }
@@ -407,6 +405,7 @@ character_event = {
 	id = hindu.103
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
+	desc = EVTDESC_HINDU_103_VILLAGE_SIDDHAR
 
 	hide_new = yes
 	
@@ -414,17 +413,8 @@ character_event = {
 
 	is_triggered_only = yes
 	
-
-	desc = {
-		text = EVTDESC_RIP_11053_VILLAGE_DRUNKARD
-		picture = GFX_evt_drunk
-		trigger = {
-			event_target:recruited_physician_target = { has_character_flag = siddhar_1 }
-		}
-	}
-	
 	option = {
-		name = EVTOPTM_RIP_11053
+		name = EVTOPTB_RIP_11053
 		trigger = {
 			event_target:recruited_physician_target = { has_character_flag = siddhar_1 }
 		}
@@ -459,6 +449,21 @@ character_event = {
 				years = 5
 			}
 			give_minor_title = title_court_siddhar
+		}
+	}
+	option = {
+		name = EVTOPTA_HINDU_103
+		
+		ai_chance = {
+			factor = 0
+		}
+		
+		hidden_tooltip = {
+			event_target:recruited_physician_target = { 
+				death = {
+					death_reason = death_missing
+				}
+			}
 		}
 	}
 }

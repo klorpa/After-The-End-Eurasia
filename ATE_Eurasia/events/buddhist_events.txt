@@ -1032,27 +1032,39 @@ narrative_event = {#End of Vessak
 		piety = 20
 		remove_trait = vegetarian
 		clr_character_flag = do_not_disturb
-		remove_character_modifier = { name = celebrating_vesak }
+		remove_character_modifier = celebrating_vesak
 	}
 	option = {#Vegetarian Response (CONTINUE)
 		trigger = {trait = vegetarian}
 		name = EVTOPTA_budevent112
 		piety = 20
 		clr_character_flag = do_not_disturb
-		remove_character_modifier = { name = celebrating_vesak }
+		remove_character_modifier = celebrating_vesak
 	}
 	option = {#Non-Vegetarian Response
 		trigger = {NOT = {trait = vegetarian}}
 		name = EVTOPTC_budevent112
 		piety = 20
 		clr_character_flag = do_not_disturb
-		remove_character_modifier = { name = celebrating_vesak }
+		remove_character_modifier = celebrating_vesak
 	}
 }
 
 #Vessak Maintenance Events
 
 # War interrupts Vessak
+character_event = { 
+	id = budevents.120
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		clr_character_flag = do_not_disturb
+		clr_character_flag = recent_minor_decision
+		remove_character_modifier = celebrating_vesak 
+	}
+}
+
 character_event = {
 	id = budevents.121
 	desc = budevent121_desc
@@ -1069,20 +1081,9 @@ character_event = {
 		piety = -50
 		hidden_tooltip = { character_event = { id = budevents.120 } }
 		hidden_tooltip = { 
-			remove_character_modifier = { name = celebrating_vesak }
+			remove_character_modifier = celebrating_vesak
 			clr_character_flag = do_not_disturb
 		}
 	}
 }
 
-character_event = { 
-	id = budevents.120
-	hide_window = yes
-	is_triggered_only = yes
-	
-	immediate = {
-		clr_character_flag = do_not_disturb
-		clr_character_flag = recent_minor_decision
-		remove_character_modifier = { name = celebrating_vesak }
-	}
-}

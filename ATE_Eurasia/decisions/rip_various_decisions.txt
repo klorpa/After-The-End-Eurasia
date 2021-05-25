@@ -1110,7 +1110,7 @@ decisions = {
 			custom_tooltip = {
 				text = employ_court_physician_tooltip
 				hidden_tooltip = {
-					character_event = { id = hindu.100 }
+					character_event = { id = hindu.100 days = 2 }
 					clr_character_flag = 3_year_physician_cooldown
 					set_character_flag = 3_year_physician_cooldown
 				}
