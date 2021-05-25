@@ -50,10 +50,6 @@ decisions = {
 		}
 		effect = {
 			piety = -300
-			add_character_modifier = {
-				name = taking_sallekhana_vow
-				duration = -1
-			}
 			set_character_flag = do_not_disturb
 			hidden_tooltip = {
 				narrative_event = { id = hindu.2 days = 5 }

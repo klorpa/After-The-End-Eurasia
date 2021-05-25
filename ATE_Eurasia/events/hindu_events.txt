@@ -67,6 +67,145 @@ character_event = {
 
 #### Sallekhana event chain ####
 
+narrative_event = { #aight so we here to fast 
+	id = hindu.2
+	title = EVT_TITLE_HINDU_2
+	desc = EVTDESC_HINDU_2
+	picture = GFX_evt_yoga_meditation
+	is_triggered_only = yes
+	
+	option = { #lemme die
+		name = EVTOPTA_HINDU_2 
+		piety = 200
+		add_trait = on_sallekhana
+		add_character_modifier = {	
+			name = taking_sallekhana_vow
+			duration = -1
+		}
+		character_event = { id = hindu.3 days = 10 }
+	}
+	
+	option = { #fuck no go back
+		name = EVTOPTB_HINDU_2 
+		piety = -100
+		add_trait = craven
+		hidden_tooltip = {
+			clr_character_flag = do_not_disturb
+		}
+	}
+}
+character_event = { #fasting has lasted a few days now
+	id = hindu.3
+	desc = EVTDESC_HINDU_3
+	picture = GFX_evt_yoga_meditation
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTA_HINDU_3
+		health = -0.25
+		piety = 50
+		character_event = { id = hindu.4 days = 10 }
+	}
+}
+
+character_event = { #it's continuing
+	id = hindu.4
+	desc = EVTDESC_HINDU_4
+	picture = GFX_evt_yoga_meditation
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_HINDU_4
+		health = -0.5
+		piety = 100
+		random_list = {
+			50 = {
+				add_trait = headache
+			}
+			50 = {
+			}
+		}
+		character_event = { id = hindu.5 days = 5 }
+	}
+}
+
+character_event = { #things are starting to get serious
+	id = hindu.5
+	desc = EVTDESC_HINDU_5
+	picture = GFX_evt_yoga_meditation
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTA_HINDU_5
+		health = -1
+		piety = 200
+		random_list = {
+			60 = {
+				add_trait = fever
+			}
+			40 = {
+			}
+		}
+		random_list = {
+			90 = {
+				character_event = {hindu.6 days = 5 }
+			}
+			10 = {
+				character_event = { hindu.7 days = 5 }
+				modifier = {
+					factor = 0.5
+					is_pious_trigger = yes
+				}
+			}
+		}
+	}
+}
+character_event = { #aight i think nirvana is close 
+	id = hindu.6
+	desc = EVTDESC_HINDU_6
+	picture = GFX_evt_yoga_meditation
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_HINDU_6
+		health = -2
+		piety = 200
+		add_trait = chest_pain
+		character_event = { id = hindu.8 days = 5 }
+	}
+}
+character_event = { #nirvana is close but you witness shiva
+	id = hindu.7
+	desc = EVTDESC_HINDU_7
+	picture = GFX_evt_yoga_meditation
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_HINDU_7
+		health = -2
+		piety = 200
+		prestige = 200
+		add_trait = chest_pain
+		character_event = { hindu.8 days = 5 }
+	}
+}
+character_event = { #it is the end fellas
+	id = hindu.8
+	desc = EVTDESC_HINDU_8
+	picture = GFX_evt_yoga_meditation
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_HINDU_8
+		piety = 300
+		prestige = 150
+		death = { death_reason = death_sallekhana }
+		hidden_tooltip = {
+			remove_character_modifier = taking_sallekhana_vow
+			clr_character_flag = do_not_disturb
+		}
+	}
+}
 #### Mahashivaratri event chain ####
 narrative_event = { #Heading to the Temple
 	id = hindu.20

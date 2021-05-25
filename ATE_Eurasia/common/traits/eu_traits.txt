@@ -1569,3 +1569,15 @@ desert_mother = {
 	church_opinion = 35
 	same_religion_opinion = 35
 }
+
+on_sallekhana = {
+	is_illness = yes
+	hidden = yes
+	
+	potential = {
+		has_character_modifier = taking_sallekhan_vow
+	}
+	
+	random = no
+	customizer = no
+}
