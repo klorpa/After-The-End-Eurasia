@@ -3097,6 +3097,7 @@ title_court_physician = {
 			higher_tier_than = BARON
 			is_patrician = yes
 		}
+		NOT = { religion = thirumatam }
 		has_dlc = "Reapers"
 	}
 	
@@ -3135,6 +3136,80 @@ title_court_physician = {
 		OR = {
 			NOT = { religion = hindu }
 			trait = brahmin
+		}
+		is_adult = yes
+
+		prisoner = no
+		NOT = { trait = in_hiding }
+		NOT = { trait = incapable }
+	}
+
+	revoke_trigger = {
+		custom_tooltip = {
+			text = revoke_court_physician_being_treated_tt
+			NOT = { FROM = { has_character_flag = being_treated } }
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+	retire_effect = {
+	}
+
+	message = yes
+}
+
+title_court_siddhar = {
+	is_high_prio = yes
+	attribute = learning
+    dignity = 5
+    realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 10
+	monthly_salary = 0.2
+	monthly_prestige = 0.5
+	
+	allowed_to_grant = {
+		OR = {
+			higher_tier_than = BARON
+			is_patrician = yes
+		}
+		religion = thirumatam
+		has_dlc = "Reapers"
+	}
+	
+	allowed_to_hold = {
+		custom_tooltip = {
+			text = court_physician_tooltip_1
+			NOT = {
+				primary_title = { temporary = yes } 
+			}
+		}
+		custom_tooltip = {
+			text = court_physician_tooltip_2
+			OR = {
+				male_can_hold_minor_title_trigger = yes
+				female_can_hold_minor_title_trigger = yes
+			}
+		}
+		OR = {
+			learning = 15
+			AND = {
+				learning = 10
+				OR = {
+					trait = physician
+					trait = scholar
+					trait = mystic
+				}
+			}
+			custom_tooltip = { 
+				text = educated_court_physician
+				hidden_tooltip = {
+					has_character_flag = is_court_physician
+				}
+			}
 		}
 		is_adult = yes
 
