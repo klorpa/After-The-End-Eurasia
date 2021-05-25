@@ -935,7 +935,7 @@ narrative_event = {#Vidurapandita Jataka
 	picture = GFX_evt_buddha_teaching
 	desc = budevent111_desc
 	
-	trigger = {has_character_flag = holding_vessak}
+	trigger = {has_character_modifier = celebrating_vesak}
 	
 	option = {#Response
 		name = continue
