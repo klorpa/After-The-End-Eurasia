@@ -601,7 +601,7 @@ feudal_governments = {
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
 		}
-		frame_suffix = "_chineseimperial"
+		frame_suffix = "_bureaucratic"
 		title_prefix = "bureaucracy_"
 		potential = {
 			OR = {
@@ -621,7 +621,7 @@ feudal_governments = {
 			is_patrician = no
 		}
 
-		color = { 118 255 163 }
+		color = { 0 44 138 }
 
 		uses_piety_for_law_change = yes
 
