@@ -746,8 +746,18 @@ e_visegrad = {
 			bavarian="Pommern"
 			swabian="Pommern"
 			austrian="Pommern"
-			polish="Pomorze"
+			odrzan="Pomorze"
+			malopolan="Pomorze"
+			lipka="Pomorze"
+			warmzur="Pomorze"
+			wielkopolan="Pomorze"
+			mazovian="Pomorze"
+			goral="Pomorze"
+			silesian="Pomorze"
 			kashubian="Pòmòrskô"
+			czech="Pomoransko"
+			lithuanian="Pomeranija"
+			latvian="Pomeranija"
 			
 			c_trojmiasto = {
 				color={ 33 107 207 }
@@ -761,8 +771,10 @@ e_visegrad = {
 				swabian="Dreistadt"
 				austrian="Dreistadt"
 				kashubian="Trzëgard"
+				czech="Trojmesti"
+				lithuanian="Trejybe"
+				latvian="Trisvieniba"
 				
-				b_sopot = {}
 				b_gdansk = {
 					rhenish="Danzig"
 					low_saxon="Danzig"
@@ -773,12 +785,49 @@ e_visegrad = {
 					austrian="Danzig"
 					swedish="Danzig"
 					kashubian="Gdunsk"
+					lithuanian="Gdanskas"
+					latvian="Gdanska"
 				}
-				b_gdynia = {}
-				b_pruszcz_gdanski = {}
-				b_tczew = {}
-				b_kolbudy = {}
-				b_trabki_wielkie = {}
+				b_oliwa = {
+					kashubian="Òlëwa"
+					rhenish="Oliva"
+					low_saxon="Oliva"
+					ossi="Oliva"
+					upper_saxon="Oliva"
+					bavarian="Oliva"
+					swabian="Oliva"
+					austrian="Oliva"
+				}
+				b_sopot = {
+					czech="Sopoty"
+					lithuanian="Sopota"
+					latvian="Sopotas"
+				}
+				b_gdynia = {
+					kashubian="Gdiniô"
+					rhenish="Gdingen"
+					low_saxon="Gdingen"
+					ossi="Gdingen"
+					upper_saxon="Gdingen"
+					bavarian="Gdingen"
+					swabian="Gdingen"
+					austrian="Gdingen"
+					lithuanian="Gdina"
+					latvian="Gdynè"
+				}
+				b_hel = {
+					kashubian="Hél"
+				}
+				b_wejherowo = {
+					kashubian="Wejrowò"
+					lithuanian="Veiherovas"
+					latvian="Vejherovo"
+				}
+				b_tczew = {
+					kashubian="Dërszewò"
+					lithuanian="Tcevas"
+					latvian="Tceva"
+				}
 			}
 			c_stargard = {
 				color={ 206 44 59 }
@@ -795,9 +844,43 @@ e_visegrad = {
 			c_szczecin = {
 				color={ 166 72 54 }
 				color2={ 255 255 255 }
+				
+				rhenish="Stettin"
+				low_saxon="Stettin"
+				ossi="Stettin"
+				upper_saxon="Stettin"
+				bavarian="Stettin"
+				swabian="Stettin"
+				austrian="Stettin"
+				czech="Stetin"
+				silesian="Sztetin"
+				lithuanian="Scecinas"
+				latvian="Scecina"
+				sorbian="Scecin"
 
-				b_szczecin = {}
-				b_police = {}
+				b_szczecin = {
+					rhenish="Stettin"
+					low_saxon="Stettin"
+					ossi="Stettin"
+					upper_saxon="Stettin"
+					bavarian="Stettin"
+					swabian="Stettin"
+					austrian="Stettin"
+					czech="Stetin"
+					silesian="Sztetin"
+					lithuanian="Scecinas"
+					latvian="Scecina"
+					sorbian="Scecin"
+				}
+				b_police = {
+					rhenish="Pölitz"
+					low_saxon="Pölitz"
+					ossi="Pölitz"
+					upper_saxon="Pölitz"
+					bavarian="Pölitz"
+					swabian="Pölitz"
+					austrian="Pölitz"
+				}
 				b_swinoujscie = {}
 				b_miedzyzdroje = {}
 				b_ueckermunde = {}
@@ -809,25 +892,170 @@ e_visegrad = {
 				color={ 206 128 59 }
 				color2={ 255 255 255 }
 				
-				b_wejherowo = {}
-				b_slupsk = {}
-				b_rumia = {}
-				b_lebork = {}
-				b_reda = {}
-				b_bytow = {}
-				b_ustka = {}
+				rhenish="Stolp"
+				low_saxon="Stolp"
+				ossi="Stolp"
+				upper_saxon="Stolp"
+				bavarian="Stolp"
+				swabian="Stolp"
+				austrian="Stolp"
+				kashubian="Stôlpsk"
+				lithuanian="Slupskas"
+				latvian="Slupska"
+				
+				b_slupsk = {
+					rhenish="Stolp"
+					low_saxon="Stolp"
+					ossi="Stolp"
+					upper_saxon="Stolp"
+					bavarian="Stolp"
+					swabian="Stolp"
+					austrian="Stolp"
+					kashubian="Stôlpsk"
+					lithuanian="Slupskas"
+					latvian="Slupska"
+				}
+				b_bytow = {
+					kashubian="Bëtowò"
+					lithuanian="Bytuvas"
+					latvian="Bitova"
+					silesian="Bytuw"
+				}
+				b_lebork = {
+					silesian="Lymbork"
+					kashubian="Lãbórg"
+					lithuanian="Lemborkas"
+					latvian="Lemborka"
+				}
+				b_ustka = {
+					rhenish="Stolpmünde"
+					low_saxon="Stolpmünde"
+					ossi="Stolpmünde"
+					upper_saxon="Stolpmünde"
+					bavarian="Stolpmünde"
+					swabian="Stolpmünde"
+					austrian="Stolpmünde"
+					kashubian="Ùskô"
+				}
+				b_miastko = {
+					latvian="Mjastko"
+					silesian="Mjastko"
+					kashubian="Miastkò"
+				}
+				b_leba = {
+				}
+				b_slawno = {
+					rhenish="Schlawe"
+					low_saxon="Schlawe"
+					ossi="Schlawe"
+					upper_saxon="Schlawe"
+					bavarian="Schlawe"
+					swabian="Schlawe"
+					austrian="Schlawe"
+					kashubian="Slôwno"
+					latvian="Slavno"
+				}
 			}
 			c_koszalin = {
 				color={ 169 246 15 }
 				color2={ 255 255 255 }
 				
-				b_kolobrzeg = {}
-				b_koszalin = {}
-				b_szczecinek = {}
-				b_bialogard = {}
-				b_darlowo = {}
-				b_swidwin = {}
-				b_zlocieniec = {}
+				rhenish="Köslin"
+				low_saxon="Köslin"
+				ossi="Köslin"
+				upper_saxon="Köslin"
+				bavarian="Köslin"
+				swabian="Köslin"
+				austrian="Köslin"
+				kashubian="Kòszalëno"
+				lithuanian="Kosalinas"
+				latvian="Kosalina"
+				
+				b_kolobrzeg = {
+					rhenish="Kolberg"
+					low_saxon="Kolberg"
+					ossi="Kolberg"
+					upper_saxon="Kolberg"
+					bavarian="Kolberg"
+					swabian="Kolberg"
+					austrian="Kolberg"
+					kashubian="Kòlbrzég"
+					lithuanian="Kolobzegas"
+					latvian="Kolobzega"
+					czech="Kolobreh"
+					silesian="Kolobrzyg"
+				}
+				b_koszalin = {
+					rhenish="Köslin"
+					low_saxon="Köslin"
+					ossi="Köslin"
+					upper_saxon="Köslin"
+					bavarian="Köslin"
+					swabian="Köslin"
+					austrian="Köslin"
+					kashubian="Kòszalëno"
+					lithuanian="Kosalinas"
+					latvian="Kosalina"
+				}
+				b_bialogard = {
+					rhenish="Belgard"
+					low_saxon="Belgard"
+					ossi="Belgard"
+					upper_saxon="Belgard"
+					bavarian="Belgard"
+					swabian="Belgard"
+					austrian="Belgard"
+					kashubian="Biôlogarda"
+					silesian="Bjologard"
+					latvian="Bjalogarda"
+				}
+				b_swidwin = {
+					rhenish="Schivelbein"
+					low_saxon="Schivelbein"
+					ossi="Schivelbein"
+					upper_saxon="Schivelbein"
+					bavarian="Schivelbein"
+					swabian="Schivelbein"
+					austrian="Schivelbein"
+					kashubian="Skwilbëno"
+					lithuanian="Svidvinas"
+					latvian="Svidvina"
+				}
+				b_szczecinek = {
+					rhenish="Neustettin"
+					low_saxon="Neustettin"
+					ossi="Neustettin"
+					upper_saxon="Neustettin"
+					bavarian="Neustettin"
+					swabian="Neustettin"
+					austrian="Neustettin"
+					kashubian="Szczecënkò"
+					lithuanian="Scecineka"
+					latvian="Scecinekas"
+				}
+				b_czaplinek = {
+					rhenish="Tempelburg"
+					low_saxon="Tempelburg"
+					ossi="Tempelburg"
+					upper_saxon="Tempelburg"
+					bavarian="Tempelburg"
+					swabian="Tempelburg"
+					austrian="Tempelburg"
+					kashubian="Czôplënkò"
+					latvian="Caplineka"
+				}
+				b_bornesulinowo = {
+					rhenish="Grossborn"
+					low_saxon="Grossborn"
+					ossi="Grossborn"
+					upper_saxon="Grossborn"
+					bavarian="Grossborn"
+					swabian="Grossborn"
+					austrian="Grossborn"
+					kashubian="Lëpa"
+					lithuanian="Borne Sulinovas"
+					latvian="Borne Sulinovo"
+				}
 			}
 		}
 		d_lubusz = {
