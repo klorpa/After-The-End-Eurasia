@@ -31,3 +31,37 @@ government_flavor = {
 		has_law = succ_imamate_elective
 	}
 }
+government_flavor = {
+	name = gov_cenobitic
+	graphics = GFX_evt_cenobium_christian
+	priority = 5
+	trigger = {
+		AND = {
+			government = white_martyr_government
+			religion_group = christian
+			has_law = succ_cenobitic_elective
+		}
+	}
+}
+government_flavor = {
+	name = gov_romanipen
+	graphics = GFX_evt_roma_life
+	priority = 5
+	trigger = {
+		AND = {
+			government = romanipen_government
+			culture_group = rom
+		}
+	}
+}
+government_flavor = {
+	name = gov_pavee
+	graphics = GFX_evt_roma_life
+	priority = 5
+	trigger = {
+		AND = {
+			government = romanipen_government
+			culture = pavee
+		}
+	}
+}

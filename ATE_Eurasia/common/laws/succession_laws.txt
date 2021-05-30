@@ -110,6 +110,10 @@ succession_laws = {
 						}
 					}
 				}
+				NAND = {
+					government = white_martyr_government
+					religion = insular
+				}
 			}
 			OR = {
 				is_landless_type_title = no
@@ -226,6 +230,10 @@ succession_laws = {
 							is_vice_royalty = yes
 						}
 					}
+				}
+				NAND = {
+					government = white_martyr_government
+					religion = insular
 				}
 			}
 			OR = {
@@ -470,6 +478,10 @@ succession_laws = {
 						}
 					}
 				}
+				NAND = {
+					government = white_martyr_government
+					religion = insular
+				}
 			}
 			OR = {
 				is_landless_type_title = no
@@ -600,6 +612,10 @@ succession_laws = {
 				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
+				NAND = {
+					government = white_martyr_government
+					religion = insular
+				}
 			}
 			OR = {
 				holder_scope = { # Viceroyalties can always have primogeniture if not muslim
@@ -803,6 +819,10 @@ succession_laws = {
 							is_vice_royalty = yes
 						}
 					}
+				}
+				NAND = {
+					government = white_martyr_government
+					religion = insular
 				}
 			}
 			OR = {

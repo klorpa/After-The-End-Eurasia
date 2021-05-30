@@ -545,3 +545,25 @@ character_event = {
 		}
 	}
 }
+#set succession law (Cenobitic)
+character_event = {
+	id = gov.017
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		holder_scope = {
+			AND = {
+				religion = insular
+				government = white_martyr_government
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = { religion = insular }
+			primary_title = { add_law = { law = succ_cenobitic_elective opinion_effect = no } }
+		}
+	}
+}
