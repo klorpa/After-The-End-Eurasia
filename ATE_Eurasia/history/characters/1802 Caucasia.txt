@@ -1,23 +1,23 @@
-1802000={ #Arachnort Nazar I Ghazaryan
-    name="Nazar"
-    dynasty=1802101 
-    culture=armenian
-    religion=miaphysite
-    martial=16
-    diplomacy=14
-    stewardship=14
-    intrigue=15
-    learning=14
-	trait=school_thaddeus
-    trait=brilliant_strategist
-    trait=brave
-    trait=genius
-    trait=robust
-    trait=devout
-    trait=proud
-    2622.6.13={birth=yes}
-    2722.9.30={death=yes}
-}
+#1802000={ #Arachnort Nazar I Ghazaryan
+    #name="Nazar"
+    #dynasty=1802101 
+    #culture=armenian
+    #religion=miaphysite
+    #martial=16
+    #diplomacy=14
+    #stewardship=14
+    #intrigue=15
+    #learning=14
+	#trait=school_thaddeus
+    #trait=brilliant_strategist
+    #trait=brave
+    #trait=genius
+    #trait=robust
+    #trait=devout
+    #trait=proud
+    #2622.6.13={birth=yes}
+    #2722.9.30={death=yes}
+#}
 
 1802014={ #Arachnort Sahag IV Paylagi Ghazaryan
     name="Sahag"
@@ -65,8 +65,129 @@
 	2642.1.15={add_spouse=1802014}
 }
 
-#Sahag IV has six children:
-#Anahit (21) [1802015], Harutyun (19) [1802016], Siranush (18) [1802017], Paylag (16) [1802018], Zhirayr (14) [1802019], and Taguhi 1802020(12)
+1802015={ #Princess Anahit Sahagi Ghazaryan
+    name="Anahit"
+	female=yes
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=8
+	trait=school_thaddeus
+    trait=scholarly_theologian	
+    trait=devout
+    trait=kind
+    trait=trusting
+	father=1802014
+	mother=1802021
+    2645.4.15={birth=yes}
+}
+
+1802016={ #Prince Harutyun Sahagi Ghazaryan
+    name="Harutyun"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=9
+    diplomacy=5
+    stewardship=5
+    intrigue=7
+    learning=9
+	trait=school_thaddeus
+    trait=skilled_tactician	
+    trait=devout
+    trait=brave
+    trait=diligent
+    trait=just
+    trait=erudite
+	father=1802014
+	mother=1802021
+    2647.7.2={birth=yes}
+}
+
+1802017={ #Princess Siranush Sahagi Ghazaryan
+    name="Siranush"
+	female=yes
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=3
+    diplomacy=8
+    stewardship=6
+    intrigue=6
+    learning=6
+	trait=school_thaddeus
+    trait=charismatic_negotiator	
+    trait=gregarious
+    trait=greedy
+    trait=groomed
+	father=1802014
+	mother=1802021
+    2648.11.12={birth=yes}
+}
+
+1802018={ #Prince Paylag Sahagi Ghazaryan
+    name="Paylag"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=6
+    diplomacy=5
+    stewardship=12
+    intrigue=6
+    learning=6
+	trait=school_thaddeus
+    trait=midas_touched	
+    trait=greedy
+    trait=diligent
+    trait=proud
+    trait=honest
+	father=1802014
+	mother=1802021
+    2650.2.21={birth=yes}
+}
+
+1802019={ #Prince Zhirayr Sahagi Ghazaryan
+    name="Zhirayr"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=6
+    diplomacy=5
+    stewardship=12
+    intrigue=6
+    learning=6
+	trait=school_thaddeus
+    trait=sturdy	
+    trait=haughty
+    trait=idolizer
+	father=1802014
+	mother=1802021
+    2652.3.10={birth=yes}
+}
+
+1802020={ #Princess Taguhi Sahagi Ghazaryan
+    name="Taguhi"
+	female=yes
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=3
+    diplomacy=8
+    stewardship=6
+    intrigue=6
+    learning=6
+	trait=school_thaddeus
+    trait=fair	
+    trait=idolizer
+    trait=timid	
+	father=1802014
+	mother=1802021
+    2654.6.1={birth=yes}
+}
 
 #Nazar I Ghazaryan [] brave wife Alitz [1802001]
 #Spartak I Nazari Ghazaryan strong and ugly [1802002] 1802035
@@ -176,7 +297,7 @@
     learning=6
 	trait=school_thaddeus
     trait=underhanded_rogue	
-    trait=scholar
+    trait=erudite
     trait=poet
     trait=diligent
     trait=charitable
