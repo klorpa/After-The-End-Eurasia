@@ -1,23 +1,486 @@
-#1802000={ #Arachnort Nazar I Ghazaryan
-    #name="Nazar"
-    #dynasty=1802101 
-    #culture=armenian
-    #religion=miaphysite
-    #martial=16
-    #diplomacy=14
-    #stewardship=14
-    #intrigue=15
-    #learning=14
-	#trait=school_thaddeus
-    #trait=brilliant_strategist
-    #trait=brave
-    #trait=genius
-    #trait=robust
-    #trait=devout
-    #trait=proud
-    #2622.6.13={birth=yes}
-    #2722.9.30={death=yes}
-#}
+1802000={ #Arachnort Nazar I Ghazaryan
+    name="Nazar"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=14
+    diplomacy=8
+    stewardship=8
+    intrigue=11
+    learning=8
+	trait=school_thaddeus
+	trait=brilliant_strategist
+	trait=genius
+	trait=brave
+	trait=regularis	
+	trait=pious
+	trait=ambitious
+	trait=temperate
+	trait=diligent
+    2398.6.25={birth=yes}
+	2461.9.15={death=yes}
+}
+
+1802001={ #Alitz wife of Arachnort Nazar I Ghazaryan
+    name="Alitz"
+	female=yes
+    culture=armenian
+    religion=miaphysite
+    martial=8
+    diplomacy=10
+    stewardship=9
+    intrigue=5
+    learning=5
+	trait=school_thaddeus
+    trait=grey_eminence
+	trait=regulara
+    trait=fair
+    trait=familyperson
+    trait=trusting
+	trait=kind
+    2404.3.5={birth=yes}
+	2428.11.10={add_spouse=1802000}
+	2469.8.20={death=yes}
+}
+ 
+ 1802002={ #Arachnort Spartak I Nazari Ghazaryan
+    name="Spartak"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=13
+    diplomacy=8
+    stewardship=8
+    intrigue=5
+    learning=6
+	trait=school_thaddeus
+	trait=skilled_tactician
+	trait=strong
+	trait=ugly
+	trait=zealous
+	trait=ambitious
+	trait=brave
+	trait=ruthless
+	father=1802000
+	mother=1802001
+    2430.3.15={birth=yes}
+	2465.3.14= {death = {
+			death_reason = death_murder_unknown_poison
+			killer = 1802035
+		}
+	}
+}
+
+1802035={ #Olga wife of Arachnort Spartak I Ghazaryan
+    name="Olga"
+	female=yes
+    culture=donskoy
+    religion=kozachina
+    martial=6
+    diplomacy=7
+    stewardship=7
+    intrigue=13
+    learning=6
+	trait=school_thaddeus
+    trait=elusive_shadow			
+    trait=fair
+    trait=cruel
+    trait=deceitful
+	trait=envious
+	trait=ruthless
+    2434.12.9{birth=yes}
+	2456.1.15={add_spouse=1802002}
+	2490.6.16={death=yes}
+}
+
+ 1802003={ #Arachnort Sahag I Nazari Ghazaryan
+    name="Sahag"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=8
+    diplomacy=11
+    stewardship=4
+    intrigue=4
+    learning=7
+	trait=school_thaddeus
+	trait=charismatic_negotiator
+	trait=musician
+	trait=kind
+	trait=content	
+	trait=patient
+	trait=gregarious
+	father=1802000
+	mother=1802001
+    2433.4.22={birth=yes}
+	2489.8.13={death=yes}
+}
+
+1802004={ #Margarid wife of Arachnort Sahag I Ghazaryan
+    name="Margarid"
+	female=yes
+    culture=armenian
+    religion=miaphysite
+    martial=8
+    diplomacy=8
+    stewardship=8
+    intrigue=4
+    learning=7
+	trait=fortune_builder
+	trait=chaste
+	trait=authoritative
+	trait=kind
+	trait=familyperson
+    2437.9.22{birth=yes}
+	2458.11.4={add_spouse=1802003}
+	2497.10.10={death=yes}
+}
+
+ 1802005={ #Arachnort Sahag II Sahagi Ghazaryan
+    name="Sahag"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=8
+    diplomacy=8
+    stewardship=8
+    intrigue=8
+    learning=11
+	trait=school_thaddeus
+	trait=mastermind_theologian
+	trait=regularis
+	trait=erudite
+	trait=honest	
+	trait=patient
+	trait=diligent
+	father=1802003
+	mother=1802004
+    2462.8.4={birth=yes}
+	2523.7.18={death=yes}
+}
+
+1802006={ #Patil wife of Arachnort Sahag II Ghazaryan
+    name="Patil"
+	female=yes
+    culture=armenian
+    religion=miaphysite
+    martial=8
+    diplomacy=8
+    stewardship=8
+    intrigue=4
+    learning=7
+	trait=charismatic_negotiator
+	trait=gregarious
+	trait=charitable
+	trait=kind
+	trait=groomed
+    2464.2.13{birth=yes}
+	2488.4.20={add_spouse=1802005}
+	2527.6.8={death=yes}
+}
+
+1802007={ #Arachnort Paylag I Sahagi Ghazaryan
+    name="Paylag"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=6
+    diplomacy=11
+    stewardship=5
+    intrigue=6
+    learning=6
+	trait=school_thaddeus
+	trait=chaste
+	trait=honest
+	trait=gluttonous	
+	trait=charismatic_negotiator 
+	father=1802005
+	mother=1802006
+    2492.4.14={birth=yes}
+	2555.6.7={death=yes}
+}
+
+1802008={ #Siranush wife of Arachnort Paylag I Ghazaryan
+    name="Siranush"
+	female=yes
+    culture=armenian
+    religion=miaphysite
+    martial=6
+    diplomacy=6
+    stewardship=6
+    intrigue=6
+    learning=6
+	trait=school_thaddeus
+    trait=fortune_builder		
+    trait=gregarious
+    trait=honest
+    trait=diligent
+    2499.11.1={birth=yes}
+	2522.1.11={add_spouse=1802007}
+	2561.4.18={death=yes}
+}
+
+1802009={ #Vanahayr Cristapor I Paylagi Ghazaryan
+    name="Cristapor"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=4
+	trait=school_thaddeus
+    trait=misguided_warrior	
+    trait=drunkard
+    trait=charitable
+    trait=slothful
+    trait=arbitrary
+	father=1802007
+	mother=1802008
+    2524.2.22={birth=yes}
+	2569.8.3={death=yes}
+}
+
+1802048={ #Seyran wife of Vanahayr Cristapor I Ghazaryan
+    name="Seyran"
+	female=yes
+    culture=armenian
+    religion=miaphysite
+    martial=6
+    diplomacy=6
+    stewardship=6
+    intrigue=6
+    learning=6
+	trait=school_thaddeus
+    trait=flamboyant_schemer		
+    trait=shrewd
+    trait=dull
+    trait=diligent
+    2525.1.11={birth=yes}
+	2542.8.15={add_spouse=1802009}
+	2583.3.16={death=yes}
+}
+
+1802010={ #Arachnort Arshak I Paylagi Ghazaryan
+    name="Arshak"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=2
+    diplomacy=8
+    stewardship=1
+    intrigue=7
+    learning=8
+	trait=school_thaddeus
+    trait=indulgent_wastrel	
+    trait=charitable
+    trait=familyperson
+    trait=trusting
+    trait=honorable
+	father=1802007
+	mother=1802008
+    2528.5.14={birth=yes}
+	2587.9.13={death=yes}
+}
+
+1802011={ #Raqel wife of Arachnort Arshak I Ghazaryan
+    name="Raqel"
+	female=yes
+    culture=armenian
+    religion=miaphysite
+    martial=6
+    diplomacy=6
+    stewardship=13
+    intrigue=6
+    learning=6
+	trait=school_thaddeus
+    trait=midas_touched	
+    trait=greedy
+    trait=shy
+    trait=diligent
+    2530.12.12={birth=yes}
+	2610.10.5={add_spouse=1802010}
+	2592.3.16={death=yes}
+}
+
+
+1802036={ #Desert Father Nazar II Arshaki Ghazaryan
+    name="Nazar"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=4
+    diplomacy=10
+    stewardship=4
+    intrigue=5
+    learning=16
+	trait=school_thaddeus
+    trait=desert_father	
+    trait=pious
+    trait=groomed
+    trait=humble
+    trait=charitable
+	trai=honest
+	disallow_random_traits=yes
+	father=1802010
+	mother=1802011
+    2554.6.21={birth=yes}
+	2620.7.5={death=yes}
+}
+
+1802037={ #Kahana Thoros Arshaki Ghazaryan
+    name="Thoros"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=11
+    diplomacy=5
+    stewardship=6
+    intrigue=5
+    learning=5
+	trait=school_thaddeus	
+    trait=skilled_tactician
+    trait=content
+    trait=trusting
+    trait=brave
+	father=1802010
+	mother=1802011
+    2558.4.11={birth=yes}
+	2618.8.16={death=yes}
+}
+
+1802047={ #Takouhi wife of Kahana Thoros Ghazaryan
+    name="Takouhi"
+	female=yes
+    culture=armenian
+    religion=miaphysite
+    martial=6
+    diplomacy=7
+    stewardship=6
+    intrigue=8
+    learning=6
+	trait=school_thaddeus
+    trait=intricate_webweaver	
+    trait=chaste
+    trait=paranoid
+    trait=temperate
+    2559.3.20={birth=yes}
+	2580.11.1={add_spouse=1802037}
+	2620.2.2={death=yes}
+}
+ 
+1802038={ #Canon Antrias Arshaki Ghazaryan
+    name="Antrias"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=7
+    diplomacy=7
+    stewardship=6
+    intrigue=5
+    learning=7
+	trait=school_thaddeus	
+    trait=underhanded_rogue
+    trait=canon
+    trait=zealous
+    trait=brave
+	trait=humble
+	father=1802010
+	mother=1802011
+    2560.8.4={birth=yes}
+	2622.12.1={death=yes}
+}
+ 
+ 
+1802036={ #Desert Father Nazar II Arshaki Ghazaryan
+    name="Nazar"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=4
+    diplomacy=10
+    stewardship=4
+    intrigue=5
+    learning=16
+	trait=school_thaddeus
+    trait=desert_father	
+    trait=pious
+    trait=groomed
+    trait=humble
+    trait=charitable
+	trai=honest
+	father=1802010
+	mother=1802011
+    2554.6.21={birth=yes}
+	2620.7.5={death=yes}
+} 
+
+1802012={ #Arachnort Paylag II Thorosi Ghazaryan
+    name="Paylag"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=6
+    diplomacy=5
+    stewardship=4
+    intrigue=6
+    learning=4
+	trait=school_thaddeus
+    trait=tough_soldier	
+    trait=brave
+    trait=distractible
+    trait=trusting
+    trait=gregarious
+	disallow_random_traits=yes
+	father=1802037
+	mother=1802047
+    2585.1.16={birth=yes}
+	2645.2.15={death=yes}
+}
+
+1802013={ #Lusine wife of Arachnort Paylag II Ghazaryan
+    name="Lusine"
+	female=yes
+    culture=armenian
+    religion=miaphysite
+    martial=6
+    diplomacy=8
+    stewardship=6
+    intrigue=4
+    learning=6
+	trait=school_thaddeus
+    trait=charismatic_negotiator	
+    trait=honest
+    trait=content
+    trait=temperate
+    2587.1.4={birth=yes}
+	2610.10.5={add_spouse=1802012}
+	2648.7.12={death=yes}
+}
+
+1802046={ #Canoness Tachat Paylagi Ghazaryan
+    name="Tachat"
+    dynasty=1802101
+    culture=armenian
+    religion=miaphysite
+    female=yes
+    diplomacy=5
+    stewardship=6
+    intrigue=5
+    learning=12
+	trait=school_thaddeus
+    trait=mastermind_theologian	
+    trait=gardener
+    trait=canoness
+    trait=humble
+    trait=pious
+    trait=temperate
+	father=1802012
+	mother=1802013
+    2615.4.25={birth=yes}
+}
+
 
 1802014={ #Arachnort Sahag IV Paylagi Ghazaryan
     name="Sahag"
@@ -37,8 +500,8 @@
     trait=gregarious
     trait=honest
     trait=gluttonous
-	#father=1802012
-	#mother=1802013
+	father=1802012
+	mother=1802013
     2622.6.13={birth=yes}
 }
 
@@ -78,7 +541,7 @@
     learning=8
 	trait=school_thaddeus
     trait=scholarly_theologian	
-    trait=devout
+    trait=pious
     trait=kind
     trait=trusting
 	father=1802014
@@ -98,11 +561,11 @@
     learning=9
 	trait=school_thaddeus
     trait=skilled_tactician	
-    trait=devout
+	trait=scholar
+    trait=pious
     trait=brave
     trait=diligent
     trait=just
-    trait=erudite
 	father=1802014
 	mother=1802021
     2647.7.2={birth=yes}
@@ -189,16 +652,6 @@
     2654.6.1={birth=yes}
 }
 
-#Nazar I Ghazaryan [] brave wife Alitz [1802001]
-#Spartak I Nazari Ghazaryan strong and ugly [1802002] 1802035
-#Sahag I Nazari Ghazaryan [1802003] diplomat wife Margarid [1802004]
-#Sahag II Sahagi Ghazaryan [1802005] hierodeacon wife Patil [1802006]
-#Paylag I Sahagi Ghazaryan [1802007] wife Siranush [1802008] and also a son named Cristapor [1802009] 
-#Arshak I Paylagi Ghazaryan [1802010] (2554.2.15) wife Raqel [1802011; has three sons Nazar , Thoros 1802037, and Antrias 1802038
-#Nazar II Arshaki Ghazaryan 1802036 the great and based deseret father
-#Paylag II Thorosi Ghazaryan [1802012] (2585.1.16)-(2645.2.15) wife Lusine [1802013]
-#Tachat canones sister of Arachnort Sahag IV Paylagi Ghazaryan 1802046
-
 1802022={ #Vanahayr Gevorg II Sparapet
     name="Gevorg"
     dynasty=1802102 
@@ -220,6 +673,7 @@
 	mother=1802027
     2605.9.12={birth=yes}
 	2624.1.11={add_spouse=1802023}
+	2654.1.11={give_job_title = job_marshal}
     2701.9.30={death=yes}
 }
 
@@ -356,10 +810,264 @@
     2661.3.2={birth=yes}
 }
 
+1802049={ #Vanahayr Cristapor II Cristapori Ghazaryan
+    name="Cristapor"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+	trait=school_thaddeus
+    trait=naive_appeaser	
+    trait=selfish
+    trait=shy
+    trait=slothful
+    trait=arbitrary
+	father=1802009
+	mother=1802048
+    2553.4.12={birth=yes}
+	2621.8.9={death=yes}
+}
 
-#Coung f Geghark,Apel Kinsmen to king, a son named Hrachik and three daughters; Armenuhi , Persape , and Gayane and a wife named Goharik (later 30s) (daughter of Gevorg). Hrachik is friends with Harutyun
-#coun of Tuvaash, 1802105. 1802041 Goryun 1802042, a wife named Satenik 1802043 and a son named Vahram 1802044  and a daughter named Louseres 1802045
+1802050={ #Nunufar wife of Vanahayr Cristapor II Ghazaryan
+    name="Nunufar"
+	female=yes
+    culture=armenian
+    religion=miaphysite
+	trait=school_thaddeus
+    martial=6
+    diplomacy=6
+    stewardship=6
+    intrigue=6
+    learning=6
+	trait=thrifty_clerk
+	trait=zealous
+	trait=stubborn
+	trait=proud
+	trait=temperate
+    2556.8.14={birth=yes}
+	2572.5.18={add_spouse=1802049}
+	2625.12.19={death=yes}
+}
 
+1802051={ #Vanahayr Spartak II Cristapori Ghazaryan
+    name="Spartak"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+	trait=school_thaddeus
+    trait=flamboyant_schemer	
+    trait=ruthless
+    trait=cruel
+    trait=ambitious
+    trait=stubborn
+	father=1802049
+	mother=1802050
+    2574.12.1={birth=yes}
+	2631.6.17={death=yes}
+}
+
+1802052={ #Irin wife of Vanahayr Spartak II Ghazaryan
+    name="Irin"
+	female=yes
+    culture=armenian
+    religion=miaphysite
+	trait=school_thaddeus	
+    martial=6
+    diplomacy=6
+    stewardship=6
+    intrigue=6
+    learning=6
+	trait=honest
+	trait=content
+	trait=trusting
+	trait=underhanded_rogue
+    2575.1.1={birth=yes}
+	2591.3.14={add_spouse=1802051}
+	2634.5.1={death=yes}
+}
+
+1802053={ #Paharru Hayk Spartaki Ghazaryan
+    name="Hayk"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=5
+    diplomacy=7
+    stewardship=8
+    intrigue=5
+    learning=5
+	trait=school_thaddeus
+    trait=fortune_builder
+	trait=falconer
+    trait=honorable
+    trait=content
+    trait=kind
+	father=1802051
+	mother=1802052
+    2593.5.3={birth=yes}
+	2653.9.18={death=yes}
+}
+
+1802054={ #Shushanik wife of Paharru Hayk Ghazaryan
+    name="Shushanik"
+	female=yes
+    culture=armenian
+    religion=miaphysite
+	trait=school_thaddeus
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	trait=charismatic_negotiator
+	trait=fair
+	trait=temperate
+	trait=humble
+	trait=shy
+	trait=diligent 
+    2595.8.13={birth=yes}
+	2618.6.4={add_spouse=1802053}
+	2657.8.20={death=yes}
+}
+ 
+1802055={ #Paharru Apel Hayki Ghazaryan
+    name="Apel"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=5
+    diplomacy=7
+    stewardship=7
+    intrigue=10
+    learning=5
+	trait=school_thaddeus
+    trait=intricate_webweaver
+	trait=scarred
+	trait=groomed
+    trait=honorable
+    trait=content
+    trait=diligent
+	father=1802053
+	mother=1802054
+    2621.8.10={birth=yes}
+}
+
+1802060={ #Goharik wife of Paharru Apel Ghazaryan
+    name="Goharik"
+	female=yes
+    dynasty=1802102 
+    culture=armenian
+    religion=miaphysite
+    martial=5
+    diplomacy=6
+    stewardship=8
+    intrigue=5
+    learning=5
+	trait=school_thaddeus
+    trait=fortune_builder
+	trait=strong
+    trait=lustful	
+    trait=trusting
+    trait=kind
+	father=1802022
+	mother=1802023
+    2630.1.11={birth=yes}
+	2645.1.12={add_spouse=1802055}
+}
+
+1802056={ #Young Hrachik Apeli Ghazaryan
+    name="Hrachik"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=10
+    diplomacy=8
+    stewardship=5
+    intrigue=5
+    learning=5
+	trait=school_thaddeus
+    trait=brilliant_strategist
+	trait=strong
+	trait=distractible
+    trait=just
+    trait=charitable
+	father=1802055
+	mother=1802060
+    2646.4.25={birth=yes}
+	2661.3.11={effect={add_friend=1802016}}
+}
+
+1802057={ #Young Armenuhi Apeli Ghazaryan
+    name="Armenuhi"
+    dynasty=1802101 
+	female=yes
+    culture=armenian
+    religion=miaphysite
+    martial=6
+    diplomacy=8
+    stewardship=9
+    intrigue=5
+    learning=5
+	trait=school_thaddeus
+    trait=fortune_builder
+	trait=gregarious
+	trait=kind
+    trait=honest
+    trait=gluttonous
+	father=1802055
+	mother=1802060
+    2648.1.22={birth=yes}
+}
+
+1802058={ #Young Persape Apeli Ghazaryan
+    name="Persape"
+    dynasty=1802101 
+	female=yes
+    culture=armenian
+    religion=miaphysite
+    martial=6
+    diplomacy=6
+    stewardship=6
+    intrigue=6
+    learning=6
+	trait=school_thaddeus
+    trait=affectionate
+	trait=conscientious
+	trait=kind
+	father=1802055
+	mother=1802060
+    2651.7.19={birth=yes}
+}
+
+1802059={ #Young Gayane Apeli Ghazaryan
+    name="Gayane"
+    dynasty=1802101 
+	female=yes
+    culture=armenian
+    religion=miaphysite
+    martial=6
+    diplomacy=6
+    stewardship=6
+    intrigue=6
+    learning=6
+	trait=school_thaddeus
+    trait=playful
+	trait=affectionate
+	trait=patient
+	father=1802055
+	mother=1802060
+    2654.6.23={birth=yes}
+}
+ 
 1810011={
 	name="Satenik"
 	female=yes
@@ -390,7 +1098,7 @@
 	trait=school_thaddeus
 	trait=scholarly_theologian
 	trait=regularis
-	trait=devout
+	trait=pious
 	trait=charitable 
 	trait=honest
 	father=1802039
@@ -475,7 +1183,7 @@
     trait=shy
     trait=greedy
     trait=just
-    trait=devout
+    trait=pious
 	2635.2.17={birth=yes}
 	2653.6.16={add_spouse=1802029}
 }
@@ -511,4 +1219,65 @@
 	father=1802028
 	mother=1802029
     2662.9.11={birth=yes}
+}
+
+1802041={ #Paharru Goryun of Tuvaash
+    name="Goryun"
+    dynasty=1802105
+    culture=armenian
+    religion=miaphysite
+	trait=school_thaddeus
+    martial=8
+    diplomacy=9
+    stewardship=8
+    intrigue=5
+    learning=4
+    trait=charismatic_negotiator    
+    trait=gregarious
+    trait=cruel
+    trait=humble
+	2636.1.18={birth=yes}
+}
+
+1802043={ #Satenik wife of Paharru Goryun of Tuvaash
+    name="Satenik"
+    female=yes
+    culture=armenian
+    religion=miaphysite
+	trait=school_thaddeus
+	martial=4
+	diplomacy=5
+	stewardship=7
+	intrigue=5
+	learning=3
+	trait=thrifty_clerk
+	trait=honest
+	trait=kind
+	trait=gluttonous
+	trait=trusting
+	2638.8.12={birth=yes}
+	2657.5.14={add_spouse=1802041}
+}
+
+1802044={ #Vahram son of Paharru Goryun of Tuvaash
+    name="Vahram"
+    dynasty=1802105
+    culture=armenian
+    religion=miaphysite
+	trait=school_thaddeus
+	father=1802041
+	mother=1802043
+	2664.1.1={birth=yes}
+}
+
+1802045={ #Louseres daughter of Paharru Goryun of Tuvaash
+    name="Louseres"
+    dynasty=1802105
+	female=yes
+    culture=armenian
+    religion=miaphysite
+	trait=school_thaddeus
+	father=1802041
+	mother=1802043
+	2665.6.13={birth=yes}
 }
