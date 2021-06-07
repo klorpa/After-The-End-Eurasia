@@ -1575,9 +1575,62 @@ on_sallekhana = {
 	hidden = yes
 	
 	potential = {
-		has_character_modifier = taking_sallekhan_vow
+		has_character_modifier = taking_sallekhana_vow
 	}
 	
 	random = no
+	customizer = no
+}
+school_calvin = {
+	potential = {
+		religion = calvinist
+	}
+	stewardship = 2
+	fischli_opinion = -2
+	
+	random = no 
+	religious = yes
+	religious_branch = calvinist
+	customizer = no
+}
+school_zwingli = {
+	potential = {
+		religion = calvinist
+	}
+	monthly_character_piety = 0.2
+	fischli_opinion = -2
+	
+	random = no
+	religious = yes
+	religious_branch = calvinist
+	customizer = no 
+}
+school_fischli = {
+	potential = {
+		religion = calvinist
+	}
+	monthly_character_piety = 0.1
+	
+	random = no 
+	religious = yes
+	religious_branch = yes
+	customizer = no 
+}
+school_knox = {
+	potential = {
+		AND = {
+			religion = calvinist
+			OR = {
+				culture = lowlander
+				culture = midlander
+				culture = northerner
+			}
+		}
+	}
+	monthly_character_piety = 0.25
+	
+	random = no
+	religious = yes
+	religious_branch = yes
 	customizer = no
 }
