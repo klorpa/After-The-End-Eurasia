@@ -18,8 +18,11 @@ custom_historical_plague_free_zone = {
 }
 
 world_united_kingdom = {
+	regions = {
+		custom_scotland
+	}
 	duchies = {
-		d_northome d_london d_sussex d_channel_islands d_thames_valley d_norfolk d_cornwall d_wessex d_west_midlands d_east_midlands d_yorkshire d_manchester d_liverpool d_cumbria d_northumberland d_gwynedd d_dyfed d_gwent d_powys d_lothian d_strathclyde d_tayside d_the_highlands d_hebrides d_northern_isles d_the_isles d_ulster
+		d_northome d_london d_sussex d_channel_islands d_thames_valley d_norfolk d_cornwall d_wessex d_west_midlands d_east_midlands d_yorkshire d_manchester d_liverpool d_cumbria d_northumberland d_gwynedd d_dyfed d_gwent d_powys d_the_isles d_ulster
 	}
 	provinces = {
 		21 24 26
@@ -47,6 +50,12 @@ world_siberia = {
 ###########################################################################
 # Custom Regions
 ###########################################################################
+
+custom_scotland = {
+	duchies = { 
+		d_lothian d_strathclyde d_tayside d_the_highlands d_hebrides d_northern_isles
+	}
+}
 
 custom_morocco = {
 	duchies = { 
@@ -286,6 +295,12 @@ custom_north_africa = {
 custom_arabian_pennisula = {
 	regions = {
 		custom_oman custom_yemen custom_hejaz custom_najd custom_bahrain
+	}
+}
+
+custom_pannorian_basin = {
+	duchies = { 
+		d_budapest d_transdanubia d_alfoeld d_greater_nograd d_transylvania d_banat d_crisana d_maramures
 	}
 }
 ###########################################################################
