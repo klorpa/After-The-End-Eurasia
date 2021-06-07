@@ -70,3 +70,19 @@ gay_marriage_rule = {
 		desc = "RULE_GAY_OFF"
 	}
 }
+adoption_rule = {
+	name = "RULE_ADOPTION_RULE"
+	group = "RULE_GROUP_ATE"
+	
+	option = {
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_ADOPTION_ON"
+	}
+	
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_ADOPTION_OFF"
+	}
+}
