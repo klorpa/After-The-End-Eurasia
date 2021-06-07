@@ -4703,7 +4703,19 @@
 }
 1951084 = { name="Werndl" culture=austrian }
 1951085 = { name="Winkler" culture=austrian }
-1951086 = { name="Zichy" culture=austrian }
+1951086 = { name="Zichy" culture=austrian used_for_random=no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 54
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1951087 = { name="von Liechtenstein" culture=austrian used_for_random=no
 	coat_of_arms = { 
 		template = 0
@@ -4930,10 +4942,58 @@
 1952159 = { name="Desousé" culture=luxembourger}
 1952160 = { name="Alwé" culture=luxembourger}
 
-1953000 = { name="Barth" culture=schwyzer used_for_random=no}
-1953001 = { name="Waldmann" culture=schwyzer used_for_random=no}
-1953002 = { name="Ganz" culture=schwyzer used_for_random=no}
-1953003 = { name="Zwissler" culture=schwyzer used_for_random=no}
+1953000 = { name="Barth" culture=schwyzer used_for_random=no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 22
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1953001 = { name="von Hertenstein" culture=schwyzer used_for_random=no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 22
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1953002 = { name="Ganz" culture=schwyzer used_for_random=no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 22
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1953003 = { name="Locher" culture=schwyzer used_for_random=no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 22
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1953004 = { name="Wölfli" culture=schwyzer}
 1953005 = { name="Otth" culture=schwyzer}
 1953006 = { name="Tschiffeli" culture=schwyzer}
@@ -4990,7 +5050,19 @@
 1953057 = { name="Schläfli" culture=schwyzer}
 1953058 = { name="Zwyssig" culture=schwyzer}
 1953059 = { name="Indermaur" culture=schwyzer}
-1953060 = { name="Küng" culture=schwyzer used_for_random=no}
+1953060 = { name="Küng" culture=schwyzer used_for_random=no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 22
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1953061 = { name="Lüthi" culture=schwyzer}
 1953062 = { name="Wyss" culture=schwyzer}
 1953063 = { name="Studer" culture=schwyzer}
@@ -5031,7 +5103,7 @@
 1953098 = { name="Stierli" culture=schwyzer}
 1953099 = { name="Hächler" culture=schwyzer}
 1953100 = { name="Zumsteg" culture=schwyzer}
-1953101 = { name="Tell" culture=schwyzer
+1953101 = { name="von Graffenried" culture=schwyzer
 	coat_of_arms = { 
 		template = 0
 		layer = {
@@ -5771,7 +5843,19 @@
 1998149 = { name="Rak" culture=sorbian}
 1998150 = { name="Kobjela" culture=sorbian}
 
-1999000 = { name="da Vaz" culture=romansh used_for_random = no}
+1999000 = { name="Davaz" culture=romansh used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 22
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1999001 = { name="Lansel" culture=romansh}
 1999002 = { name="Salis" culture=romansh}
 1999003 = { name="Janka" culture=romansh}
@@ -7563,9 +7647,33 @@
 2010223 = { name="Kozh-Stivelloù" culture=breton }
 2010224 = { name="Yaouank" culture=breton }
 
-2011001 = { name="Zurbriggen" culture=arpitan used_for_random = no}
+2011001 = { name="Zurbriggen" culture=arpitan used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 22
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2011002 = { name="Eberhardt" culture=arpitan used_for_random = no}
-2011003 = { name="Bavaud" culture=arpitan used_for_random = no}
+2011003 = { name="Bavaud" culture=arpitan used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 22
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2011004 = { name="Perrollaz" culture=arpitan }
 2011005 = { name="Detraz" culture=arpitan }
 2011006 = { name="Deletraz" culture=arpitan }
@@ -12322,7 +12430,19 @@
 2031090 = { name="Butti" culture=lombard }
 2031091 = { name="Galbiati" culture=lombard }
 2031092 = { name="Mentasti" culture=lombard }
-2031093 = { name="Castelli" culture=lombard }
+2031093 = { name="Castelli" culture=lombard used_for_random=no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 22
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2031094 = { name="Chiesa" culture=lombard }
 2031095 = { name="Pozzi" culture=lombard }
 2031096 = { name="Fontana" culture=lombard }
