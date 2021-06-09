@@ -1608,7 +1608,6 @@ school_zwingli = {
 		school_knox
 	}
 	monthly_character_piety = 0.2
-	fischli_opinion = -2
 	
 	random = no
 	religious = yes
@@ -1646,4 +1645,20 @@ school_knox = {
 	religious = yes
 	religious_branch = yes
 	customizer = no
+}
+brass_chorus = {
+	potential = {
+		religion = lutheran 
+		NOT	= {
+			culture_group = scandinavian
+		}
+	}
+	musician_opinion = 5
+	lutheran_opinion = 2
+	learning = 1
+	diplomacy = 1
+	
+	random = no 
+	religious = yes
+	customizer = no 
 }

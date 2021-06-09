@@ -168,4 +168,29 @@ decisions = {
 			set_character_flag = changedmantramargabranch
 		}
 	}
+	change_reformed_school = {
+		ai = no
+		is_high_prio = yes
+		
+		potential = {
+			religion = calvinist
+			is_playable = yes
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			NOT = { has_character_modifier = changed_reformed_school }
+		}
+		
+		allow = {
+			religion = calvinist
+			is_playable = yes
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				character_event = { id = reformed.1 }
+			}
+			custom_tooltip = { text = TXT_change_reformed_school }
+		}
+	}
 }
