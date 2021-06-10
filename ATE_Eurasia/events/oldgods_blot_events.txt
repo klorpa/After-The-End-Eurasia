@@ -53,6 +53,43 @@ character_event = {
 		}
 		hidden_tooltip = { narrative_event = { id = TOG.604 days = 10 } }
 	}
+	option = {
+		trigger = {
+			OR = {
+				trait = lunatic
+				trait = possessed
+				trait = cruel
+				trait = arbitrary
+			}
+		}
+		name = EVTOPTB_TOG_600
+		any_vassal = {
+			limit = {
+				religion = glorian
+				NOT = { is_inaccessible_trigger = yes }
+				age = 16
+				prisoner = no
+				war = no
+				NOT = { trait = incapable }
+			}
+			character_event = { id = TOG.601 tooltip = EVTTOOLTIP_TOG_601 }
+			hidden_tooltip = { narrative_event = { id = TOG.605 days = 10 } }
+		}
+		any_vassal = {
+			limit = {
+				NOT = {
+					religion = glorian
+				}
+				NOT = { is_inaccessible_trigger = yes }
+				age = 16
+				prisoner = no
+				war = no
+				NOT = { trait = incapable }
+			}
+			character_event = { id = TOG.602 tooltip = EVTTOOLTIP_TOG_602 }
+		}
+		hidden_tooltip = { narrative_event = { id = TOG.604 days = 10 } }
+	}
 }
 
 # Summoned to light the Bonfire (Vassal)
