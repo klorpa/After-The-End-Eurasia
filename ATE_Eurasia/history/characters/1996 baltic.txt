@@ -212,3 +212,716 @@
 	religion = mariavite
 	2630.1.1 = {birth = yes}
 }
+1996019={
+	name="Denis"
+	dynasty=2920091 #Severyanin
+	culture=venelased
+	religion=orthodox
+	trait=charismatic_negotiator
+	trait=poet
+	trait=diligent
+	trait=gregarious
+	trait=proud
+	trait=wroth
+	
+	2636.3.18={birth=yes}
+	2700.1.1={death=yes}
+}
+1996020={
+	name="Markus"
+	dynasty=2918101 #Einaste
+	culture=estonian
+	religion=lutheran
+	trait=skilled_tactician
+	trait=just
+	trait=ambitious
+	trait=authoritative
+	trait=charitable
+	
+	2638.7.24={birth=yes}
+	2666.2.1={add_spouse=1996021}
+	2700.1.1={death=yes}
+}
+1996021={
+	name="Tea"
+	female=yes
+	dynasty=0 #Lowborn
+	culture=estonian
+	religion=lutheran
+	trait=intricate_webweaver
+	trait=envious
+	trait=ambitious
+	trait=just
+	trait=erudite
+	trait=charitable
+	
+	2640.4.3={birth=yes}
+	2700.1.1={death=yes}
+}
+1996022={
+	name="Toomas"
+	dynasty=2918102 #Liviko
+	culture=estonian
+	religion=lutheran
+	trait=skilled_tactician
+	trait=defensive_leader
+	trait=familyperson
+	trait=robust
+	trait=just
+	trait=stubborn
+	trait=authoritative
+	trait=charitable
+	
+	2590.3.11={birth=yes}
+	2631.3.11={add_spouse=1996023}
+	2700.1.1={death=yes}
+}
+1996023={
+	name="Heleri"
+	female=yes
+	dynasty=0 #Lowborn
+	culture=estonian
+	religion=lutheran
+	trait=underhanded_rogue
+	trait=familyperson
+	trait=content 
+	trait=humble
+	trait=paranoid
+	trait=zealous
+	
+	2610.8.12={birth=yes}
+	2700.1.1={death=yes}
+}
+1996024={
+	name="Emil"
+	dynasty=2918102 #Liviko
+	culture=estonian
+	religion=lutheran
+	trait=skilled_tactician
+	trait=familyperson
+	trait=shy
+	trait=brave
+	trait=kind
+	trait=charitable
+	father=1996022
+	mother=1996023
+	
+	2632.2.8={birth=yes}
+	2700.1.1={death=yes}
+}
+1996025={
+	name="Jaanus"
+	dynasty=2918103 #Nelis
+	culture=estonian
+	religion=lutheran
+	trait=tough_soldier
+	trait=duelist
+	trait=pious
+	trait=proud
+	trait=lustful
+	trait=brave
+	
+	2639.11.12={birth=yes}
+	2700.1.1={death=yes}
+}
+1996026={
+	name="Aleksander"
+	dynasty=2918104 #Saagpakk
+	culture=estonian
+	religion=lutheran
+	trait=scholarly_theologian
+	trait=distractible
+	trait=erudite
+	trait=pious
+	trait=familyperson
+	trait=brave
+	trait=honest
+	
+	2631.2.19={birth=yes}
+	2663.2.13={add_spouse=1996027}
+	2700.1.1={death=yes}
+}
+1996027={
+	name="Ingel"
+	female=yes
+	dynasty=2918105 #Maaker
+	culture=estonian
+	religion=lutheran
+	trait=underhanded_rogue
+	trait=kind
+	trait=authoritative
+	trait=greedy
+	trait=proud
+	
+	2630.4.13={birth=yes}
+	2700.1.1={death=yes}
+}
+1996028={
+	name="Rasmus"
+	dynasty=2918105 #Maaker
+	culture=estonian
+	religion=lutheran
+	father=1996026
+	mother=1996027
+	
+	2666.2.12={birth=yes}
+	2700.1.1={death=yes}
+}
+1996029={
+	name="Valentin"
+	dynasty=2918105 #Maaker
+	culture=estonian
+	religion=lutheran
+	trait=martial_cleric
+	trait=musician
+	trait=erudite
+	trait=shy
+	trait=socializer
+	trait=diligent
+	
+	2631.5.14={birth=yes}
+	2700.1.1={death=yes}
+}
+1996030={
+	name="Georg-Karl"
+	dynasty=2918106 #Einasto
+	culture=estonian
+	religion=lutheran
+	trait=mastermind_theologian
+	trait=giant
+	trait=quick
+	trait=robust
+	trait=scholar
+	trait=chaste
+	trait=temperate
+	trait=shy
+	
+	2630.6.7={birth=yes}
+	2700.1.1={death=yes}
+}
+1996031={
+	name="Ago"
+	dynasty=2918107 #Sang
+	culture=estonian
+	religion=lutheran
+	trait=fortune_builder
+	trait=gregarious
+	trait=diligent
+	trait=honest
+	trait=honorable
+	
+	2633.12.28={birth=yes}
+	2700.1.1={death=yes}
+}
+1996032={
+	name="Miku"
+	female=yes
+	dynasty=2918220 #Kudre
+	culture=seto
+	religion=orthodox
+	trait=fortune_builder
+	trait=musician
+	trait=poet
+	trait=pious
+	trait=shy
+	trait=zealous
+	trait=authoritative
+	trait=temperate
+	
+	2630.12.26={birth=yes}
+	2659.1.3={add_spouse=1996033}
+	2700.1.1={death=yes}
+}
+1996033={
+	name="Hardi"
+	dynasty=2918213 #Tuul
+	culture=seto
+	religion=orthodox
+	trait=tough_soldier
+	trait=gardener
+	trait=gregarious
+	trait=zealous
+	trait=content
+	trait=stubborn
+	
+	2631.12.26={birth=yes}
+	2700.1.1={death=yes}
+}
+1996034={
+	name="Irina"
+	female=yes
+	dynasty=2918220 #Kudre
+	culture=seto
+	religion=orthodox
+	father=1996033
+	mother=1996032
+	trait=fair
+
+	2660.3.2={birth=yes}
+	2664.3.2={add_trait=playful}
+	2664.3.2={add_trait=affectionate}
+	2700.1.1={death=yes}
+}
+1996035={
+	name="Vasilijs"
+	dynasty=2919075 #Tarasovs
+	culture=krievi
+	religion=mariavite
+	trait=fortune_builder
+	trait=gregarious
+	trait=diligent
+	trait=honest
+	trait=honorable
+	
+	2633.12.28={birth=yes}
+	2700.1.1={death=yes}
+}
+1996036={
+	name="Vadims"
+	dynasty=2919075 #Tarasovs
+	culture=krievi
+	religion=mariavite
+	trait=charismatic_negotiator
+	trait=temperate
+	trait=patient
+	trait=diligent
+	trait=greedy
+	
+	2640.2.1={birth=yes}
+	2663.3.12={effect={add_lover=1996037}}
+	2665.4.14={add_spouse=1996037}
+	2700.1.1={death=yes}
+}
+1996037={
+	name="Jevgenija"
+	dynasty=0 #Lowborn
+	culture=krievi
+	religion=mariavite
+	trait=thrifty_clerk
+	trait=fair
+	trait=erudite
+	trait=humble
+	trait=familyperson
+	trait=charitable
+	
+	2641.2.1={birth=yes}
+	2700.1.1={death=yes}
+}
+1996038={
+	name="Maris"
+	dynasty=2917024 #Bergs
+	culture=latvian
+	religion=mariavite
+	trait=flamboyant_schemer
+	trait=slow
+	trait=greedy
+	trait=craven
+	trait=pious
+	trait=honorable
+	
+	2629.7.5={birth=yes}
+	2652.3.12={add_spouse=1996039}
+	2700.1.1={death=yes}
+}
+1996039={
+	name="Vija"
+	female=yes
+	dynasty=2917024 #Bergs
+	culture=latvian
+	religion=mariavite
+	trait=flamboyant_schemer
+	trait=chaste
+	trait=ambitious
+	trait=wroth
+	trait=stubborn
+	
+	2631.5.1={birth=yes}
+	2700.1.1={death=yes}
+}
+1996040={
+	name="Irene"
+	female=yes
+	dynasty=2917024 #Bergs
+	culture=latvian
+	religion=mariavite
+	add_trait=indolent
+	add_trait=playful
+	add_trait=conscientious
+	father=1996038
+	mother=1996039
+	
+	2653.5.1={birth=yes}
+	2665.1.1={add_trait=greedy}
+	2666.1.1={add_trait=stubborn}
+	2700.1.1={death=yes}
+}
+1996041={
+	name="Egils"
+	dynasty=2917024 #Bergs
+	culture=latvian
+	religion=mariavite
+	add_trait=curious
+	add_trait=indolent
+	add_trait=rowdy
+	father=1996038
+	mother=1996039
+	
+	2654.4.16={birth=yes}
+	2665.1.1={add_trait=greedy}
+	2666.1.1={add_trait=stubborn}
+	2700.1.1={death=yes}
+}
+1996042={
+	name="Arturs"
+	dynasty=2917043 #Viksna
+	culture=latvian
+	religion=mariavite
+	trait=charismatic_negotiator
+	trait=honest
+	trait=zealous
+	trait=stubborn
+	trait=charitable
+	
+	2636.9.8={birth=yes}
+	2651.3.12={add_spouse=1996043}
+	2700.1.1={death=yes}
+}
+1996043={
+	name="Sandra"
+	female=yes
+	dynasty=2917024 #Bergs
+	culture=latvian
+	religion=mariavite
+	trait=amateurish_plotter
+	trait=humble
+	trait=pious
+	trait=cruel
+	
+	2637.3.13={birth=yes}
+	2700.1.1={death=yes}
+}
+1996044={
+	name="Gustavs"
+	dynasty=2917043 #Viksna
+	culture=latvian
+	religion=mariavite
+	add_trait=indolent
+	add_trait=playful
+	add_trait=conscientious
+	father=1996042
+	mother=1996043
+	
+	trait=playful
+	
+	2658.1.7={birth=yes}
+	2666.1.1={add_trait=kind}
+	2700.1.1={death=yes}
+}
+1996045={
+	name="Martins"
+	dynasty=2917101 #Ziedonis
+	culture=latvian
+	religion=lutheran
+	trait=intricate_webweaver
+	trait=hunter
+	trait=poet
+	trait=dwarf
+	trait=honest
+	trait=diligent
+	trait=familyperson
+	trait=patient
+	
+	2636.2.8={birth=yes}
+	2700.1.1={death=yes}
+}
+1996046={
+	name="Mareks"
+	dynasty=2917102 #Lusis
+	culture=latvian
+	religion=mariavite
+	trait=charismatic_negotiator
+	trait=sturdy 
+	trait=diligent
+	trait=kind
+	trait=humble
+	trait=deceitful
+	
+	2640.2.6={birth=yes}
+	2661.3.1={add_spouse=1996047}
+	2700.1.1={death=yes}
+}
+1996047={
+	name="Skaidra"
+	female=yes
+	dynasty=2917049 #Feldmanis
+	culture=latvian
+	religion=mariavite
+	trait=thrifty_clerk
+	trait=duelist 
+	trait=gregarious
+	trait=chaste
+	trait=paranoid
+	trait=ruthless
+	
+	2641.4.3={birth=yes}
+	2700.1.1={death=yes}
+}
+1996048={
+	name="Ernests"
+	dynasty=2917102 #Lusis
+	culture=latvian
+	religion=mariavite
+	father=1996046
+	father=1996047
+	
+	trait=conscientious
+	
+	2658.1.28={birth=yes}
+	2666.1.1={add_trait=kind}
+	2700.1.1={death=yes}
+}
+1996049={
+	name="Kaspars"
+	dynasty=2917102 #Lusis
+	culture=latvian
+	religion=lutheran
+	trait=fortune_builder
+	trait=temperate 
+	trait=ambitious
+	trait=greedy
+	trait=pious
+	
+	2634.8.15={birth=yes}
+	2652.3.1={add_spouse=1996050}
+	2700.1.1={death=yes}
+}
+1996050={
+	name="Daina"
+	female=yes
+	dynasty=2917103 #Maurina
+	culture=latvian
+	religion=lutheran
+	father=1996053
+	mother=1996054
+	
+	trait=elusive_shadow
+	trait=quick
+	trait=gardener 
+	trait=rude
+	trait=cruel
+	trait=wroth
+	
+	2636.3.1={birth=yes}
+	2654.1.1={death=yes}
+}
+1996051={
+	name="Daina"
+	female=yes
+	dynasty=2917102 #Lusis
+	culture=latvian
+	religion=lutheran
+	
+	trait=quick
+	trait=curious
+	trait=affectionate
+	trait=timid
+	father=1996049
+	mother=1996050
+	
+	trait=playful
+	
+	2657.1.7={birth=yes}
+	2665.1.1={add_trait=temperate}
+	2666.1.1={add_trait=pious}
+	2700.1.1={death=yes}
+}
+1996052={
+	name="Andris"
+	dynasty=2917102 #Lusis
+	culture=latvian
+	religion=lutheran
+	
+	trait=affectionate
+	trait=rowdy
+	trait=playful
+	father=1996049
+	mother=1996050
+	
+	trait=playful
+	
+	2658.1.7={birth=yes}
+	2665.1.1={add_trait=greedy}
+	2666.1.1={add_trait=pious}
+	2700.1.1={death=yes}
+}
+1996053={
+	name="Valerijs"
+	dynasty=2917103 #Maurina
+	culture=latvian
+	religion=lutheran
+	trait=charismatic_negotiator
+	trait=just
+	trait=cruel
+	trait=temperate
+	trait=zealous
+	trait=honest
+	
+	2600.7.10={birth=yes}
+	2620.1.1={add_spouse=1996054}
+	2657.1.1={death=yes}
+}
+1996054={
+	name="Sofija"
+	female=yes
+	dynasty=2917103 #Maurina
+	culture=latvian
+	religion=lutheran
+	trait=underhanded_rogue
+	trait=quick
+	trait=pious
+	trait=gluttonous
+	trait=gregarious
+	trait=greedy
+	
+	2605.3.10={birth=yes}
+	2650.1.1={death=yes}
+}
+1996055={
+	name="Lasma"
+	female=yes
+	dynasty=2917103 #Maurina
+	culture=latvian
+	religion=lutheran
+	father=1996053
+	mother=1996054
+	
+	trait=underhanded_rogue
+	trait=quick
+	trait=seductress
+	trait=patient
+	trait=stubborn
+	trait=pious
+	trait=charitable
+	
+	2639.3.17={birth=yes}
+	2700.1.1={death=yes}
+}
+1996056={
+	name="Lasma"
+	female=yes
+	dynasty=2917103 #Maurina
+	culture=latvian
+	religion=lutheran
+	father=1996053
+	mother=1996054
+	
+	trait=underhanded_rogue
+	trait=quick
+	trait=seductress
+	trait=patient
+	trait=stubborn
+	trait=pious
+	trait=charitable
+	
+	2639.3.17={birth=yes}
+	2700.1.1={death=yes}
+}
+1996057={
+	name="Algirdas"
+	dynasty=2916101 #Maciulis
+	culture=lithuanian
+	religion=mariavite
+	
+	trait=brilliant_strategist
+	trait=trickster
+	trait=scholar
+	trait=temperate
+	trait=brave
+	trait=shy
+	trait=authoritative
+	
+	2633.12.29={birth=yes}
+	2652.8.13={add_spouse=1996058}
+	2700.1.1={death=yes}
+}
+1996058={
+	name="Edita"
+	female=yes
+	dynasty=0 #Lowborn
+	culture=lithuanian
+	religion=mariavite
+	
+	trait=flamboyant_schemer
+	trait=temperate
+	trait=lustful
+	trait=patient
+	
+	2636.2.1={birth=yes}
+	2700.1.1={death=yes}
+}
+1996059={
+	name="Regimantas"
+	dynasty=2916101 #Maciulis
+	culture=lithuanian
+	religion=mariavite
+	father=1996057
+	mother=1996058
+	
+	trait=fussy
+	trait=willful
+	trait=haughty
+
+	2653.3.17={birth=yes}
+	2664.3.2={add_trait=brave}
+	2664.3.2={add_trait=stubborn}
+	2700.1.1={death=yes}
+}
+1996060={
+	name="Laura"
+	female=yes
+	dynasty=2916101 #Maciulis
+	culture=lithuanian
+	religion=mariavite
+	father=1996057
+	mother=1996058
+	
+	trait=conscientious
+	trait=rowdy
+	trait=playful
+
+	2664.1.16={birth=yes}
+	2664.3.2={add_trait=temperate}
+	2664.3.2={add_trait=brave}
+	2700.1.1={death=yes}
+}
+1996061={
+	name="Henrikas"
+	dynasty=2916093 #Gylys
+	culture=lithuanian
+	religion=mariavite
+	
+	trait=tough_soldier
+	trait=pious
+	trait=content
+	trait=trusting
+	trait=authoritative
+	
+	2630.5.16={birth=yes}
+	2700.1.1={death=yes}
+}
+1996062={
+	name="Benediktas"
+	dynasty=2916096 #Jonušas
+	culture=lithuanian
+	religion=mariavite
+	
+	trait=elusive_shadow
+	trait=shrewd
+	trait=charitable
+	trait=content
+	trait=chaste
+	trait=just
+	
+	2640.2.9={birth=yes}
+	2700.1.1={death=yes}
+}
