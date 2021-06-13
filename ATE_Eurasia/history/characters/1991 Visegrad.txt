@@ -425,7 +425,7 @@
 	dynasty=2045110 #Fehérlófi
 	culture=hungarian
 	religion=nepmese
-	trait=giant
+	#trait=tall #Broken thing, Fix
 	trait=paranoid
 	trait=cynical
 	trait=tough_soldier
@@ -553,7 +553,7 @@
 	religion=nepmese
 	trait=gregarious
 	trait=drunkard
-	trait=fat
+	trait=is_fat
 	father=1991121
 	2620.8.30={birth=yes}
 	2680.1.1={death=yes}
@@ -702,7 +702,7 @@
 	trait=falconer
 	trait=poet
 	trait=bisexual
-	trait=master_seducer
+	trait=seducer
 	trait=charitable
 	trait=cavalry_leader
 	trait=proud
@@ -955,7 +955,7 @@
 	trait=holy_warrior
 	trait=gregarious
 	trait=proud
-	trait=generous
+	trait=charitable
 	trait=ambitious
 	trait=deceitful
 	martial=6
@@ -982,7 +982,7 @@
 	trait=martial_cleric
 	trait=holy_warrior
 	trait=gregarious
-	trait=generous
+	trait=charitable
 	trait=kind
 	trait=deceitful
 	martial=5
@@ -1003,7 +1003,7 @@
 	trait=intricate_webweaver
 	trait=genius
 	trait=patient
-	trait=generous
+	trait=charitable
 	trait=shrewd
 	trait=deceitful
 	martial=4
@@ -1022,9 +1022,9 @@
 	culture=hungarian
 	religion=coronite
 	trait=skilled_tactician
-	trait=tall
+	#trait=tall #Broken thing, Fix
 	trait=patient
-	trait=generous
+	trait=charitable
 	trait=slothful
 	trait=lustful
 	martial=7
@@ -1042,7 +1042,7 @@
 	culture=hungarian
 	religion=coronite
 	trait=fortune_builder
-	trait=tall
+	#trait=tall #Broken thing, Fix
 	trait=diligent
 	trait=quick
 	trait=cynical
@@ -1085,7 +1085,7 @@
 	culture=hungarian
 	religion=coronite
 	trait=brilliant_strategist
-	trait=tall
+	#trait=tall #Broken thing, Fix
 	trait=wroth
 	trait=cruel
 	trait=aggressive_leader
@@ -1196,7 +1196,7 @@
 	trait=greedy
 	trait=gregarious
 	trait=chaste
-	trait=frail
+	trait=feeble
 	trait=weak
 	trait=cruel
 	martial=4
@@ -1268,7 +1268,7 @@
 	trait=wroth
 	trait=gardener
 	trait=bisexual
-	trait=impotent
+	#trait=impotent #What is this supposed to represent?
 	martial=5
 	diplomacy=6
 	stewardship=5
@@ -1298,7 +1298,8 @@
 	intrigue=5
 	learning=7
 	2308.11.11={birth=yes}
-	2359.3.3={death={death_reason={death_accident}}}
+	2359.3.3={death=yes}
+	#2359.3.3={death={death_reason={death_accident}}} #Broken thing, fix it
 }
 19911016={
 	name="Ján"
@@ -1325,10 +1326,10 @@
 	name="Ján"
 	dynasty=1968054 #Krtek
 	culture=czech
-	religion=mariavite
-	trait=drunk
+	religion=mariavite 
 	trait=flamboyant_schemer
 	trait=poet
+	trait=drunkard
 	trait=shy
 	trait=kind
 	trait=deceitful
@@ -1347,9 +1348,9 @@
 	dynasty=1968054 #Krtek
 	culture=czech
 	religion=mariavite
-	trait=drunk
 	trait=flamboyant_schemer
 	trait=poet
+	trait=drunkard
 	trait=shy
 	trait=kind
 	trait=deceitful
@@ -1394,8 +1395,8 @@
 	religion=coronite
 	trait=patient
 	trait=brilliant_strategist
-	trait=tall
 	trait=duelist
+	#trait=tall #Broken thing, Fix
 	trait=authoritative
 	trait=holy_warrior
 	trait=cruel
@@ -1415,7 +1416,7 @@
 	religion=coronite
 	trait=wroth
 	trait=skilled_tactician
-	trait=tall
+	#trait=tall #Broken thing, Fix
 	trait=hunter
 	trait=impaler
 	trait=temperate
@@ -1521,7 +1522,7 @@
 	trait=homosexual
 	trait=socializer
 	trait=depression
-	trait=drunk
+	trait=drunkard
 	martial=5
 	diplomacy=5
 	stewardship=5
@@ -1564,8 +1565,8 @@
 	trait=weak
 	trait=slothful
 	trait=chaste
-	trait=ill
-	trait=pneumonia
+	trait=ill 
+	trait=pneumonic
 	give_nickname=nick_the_chaste
 	martial=4
 	diplomacy=5
@@ -1708,11 +1709,10 @@
 	trait=cruel
 	trait=wroth
 	trait=arbitrary
-	trait=posessed
+	trait=possessed
 	trait=lunatic
 	trait=quick
 	trait=lustful
-	trait=flayer
 	trait=flamboyant_schemer
 	trait=impaler
 	give_nickname=nick_the_butcher
@@ -1944,7 +1944,8 @@
 	learning=5
 	father=19911044
 	2600.5.10={birth=yes}
-	2624.6.14={add_spouse=19911047 add_lover=19911047}
+	2624.6.14={effect={add_lover=19911047}}
+	2624.6.14={add_spouse=19911047}
 	2645.6.1={trait=leper}
 	2659.6.7={death={death_reason=death_trait}}
 }
@@ -1990,7 +1991,8 @@
 	intrigue=6
 	learning=5
 	2606.12.1={birth=yes}
-	2624.6.14={add_spouse=19911045 add_lover=19911045}
+	2623.6.14={effect={add_lover=19911045}}
+	2624.6.14={add_spouse=19911045}
 	2670.1.1={death=yes}
 }
 19911048={

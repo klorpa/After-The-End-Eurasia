@@ -1104,15 +1104,14 @@
 	female = yes
 	2621.11.2 = { birth = yes }
 }
-2202099 = { # 
+2202099 = { 
 	name = "Ömer" 
 	culture = rumelian
 	religion = nizami
 	dynasty = 2057003 #Mehmetçik
 	father = 2202097
-	mother - 2202098
-	2646.11.2 = { birth = yes }
-
+	mother = 2202098
+	2646.11.2 ={birth=yes}
 }
 2202100 = {
 	name = "Shevket" 
@@ -1120,7 +1119,7 @@
 	religion = nizami
 	dynasty = 2057003 #Mehmetçik
 	father = 2202097
-	mother - 2202098
+	mother = 2202098
 	2648.11.2 = { birth = yes }
 }
 2202101 = { # Count of Balikesir
@@ -1144,7 +1143,7 @@
 	trait = scholarly_theologian
 	trait = mystic
 	trait = frail
-	trait = temperate
+	trait = temperate 
 	trait = pious
 	trait = diligent
 	2640.11.2 = { birth = yes }
