@@ -1352,7 +1352,7 @@
 		birth=yes
 	}
 	768.1.1={
-		culture=han # imperial surname awarded #Broken thing, please fix
+		culture=mandarin # imperial surname awarded 
 	}
 	790.1.1={
 		death=yes
@@ -8456,7 +8456,7 @@
  name="Bulughan"
  # AKA: Buluqhan Khatan
  female = yes
- dynasty=1051138 #Broken thing, please fix
+ dynasty=1051138 
  religion="pagan"
  culture="khalkha"
  add_trait="sympathy_christendom"
@@ -11065,7 +11065,7 @@
 
 93307 = {
 	name="Husein Gurkan"
-	dynasty=101914 #Broken thing, please fix
+	dynasty=101914 
 	religion="shiite"
 	culture="khalkha"
 	1280.1.1={
@@ -14686,17 +14686,17 @@
 	1720.1.1 = {birth = yes}
 	1799.1.1 = {death = death_offmap}
 }
-#8001241 = { #3rd Daughter of the Daoguang Emperor #Broken thing, please fix
-#	dynasty = 1051209 #Aisin Gioro
-#	name = "Duanshun"
-#	religion = ruist
-#	culture = manchu
-#	female = yes
-#	father = 8001219
-#	mother = 8001237
-#	1825.4.8 = {birth = yes}
-#	1835.12.27 = {death = death_offmap}
-#}
+8001290 = { #3rd Daughter of the Daoguang Emperor
+	dynasty = 1051209 #Aisin Gioro
+	name = "Duanshun"
+	religion = ruist
+	culture = manchu
+	female = yes
+	father = 8001219
+	mother = 8001237
+	1825.4.8 = {birth = yes}
+	1835.12.27 = {death = death_offmap}
+}
 8001241 = { #4th Daughter of the Daoguang Emperor
 	dynasty = 1051209 #Aisin Gioro
 	name = "Shou'an"
@@ -15464,7 +15464,7 @@
 }
 217307 = { 
 	name = Husun # fictional
-	dynasty = 1051138 #Broken thing, please fix
+	dynasty = 1051138 #Bayad
 	religion = pagan 
 	culture = khalkha 
 	715.7.12 = { birth = yes } 
@@ -15472,7 +15472,7 @@
 }
 217308 = {
 	name = Burkhan # fictional
-	dynasty = 1051138 #Broken thing, please fix
+	dynasty = 1051138 #Bayad
 	religion = pagan 
 	culture = khalkha 
 	father = 217307 
@@ -15481,7 +15481,7 @@
 }
 194351 = {
 	name = Chigu # fictional
-	dynasty = 1051138 #Broken thing, please fix
+	dynasty = 1051138 #Bayad
 	father = 217308
 	religion = pagan 
 	culture = khalkha 
@@ -15490,7 +15490,7 @@
 }
 217309 = { 
 	name = Nomolun # fictional
-	dynasty = 1051138 #Broken thing, please fix
+	dynasty = 1051138 #Bayad
 	religion = pagan 
 	culture = khalkha 
 	father = 217307 
@@ -17491,8 +17491,8 @@
 }
 #descendants of Ögedei
 166905 = {
-	name="Yehe Chiledu" #Yehe Chiledu of the Merkits
-	dynasty=1051139 #Merkit #Broken thing, please fix
+	name="Yehe Chiledu" #Yehe Chiledu of the Mergids
+	dynasty=1051139 #Mergid
 	religion="pagan"
 	culture="khalkha"
 	1128.1.1={
@@ -17512,8 +17512,8 @@
 	}
 }
 166906 = {
-	name="Chilger Bökh" #Chilger Bökh of the Merkits
-	dynasty=1051139 #Merkit #Broken thing, please fix
+	name="Chilger Bökh" #Chilger Bökh of the Mergids
+	dynasty=1051139 #Mergid 
 	religion="pagan"
 	culture="khalkha"
 	father=166905
@@ -17529,8 +17529,8 @@
 	}
 }
 166907 = {
-	name="Qudu" #Chief of the Merkits
-	dynasty=1051139 #Merkit #Broken thing, please fix
+	name="Qudu" #Chief of the Mergids
+	dynasty=1051139 #Mergid 
 	religion="pagan"
 	culture="khalkha"
 	father=166906
@@ -17550,7 +17550,7 @@
 166908 = {
 	name="Oghul Qaimish" #wife of Güyük Khan
 	female=yes
-	dynasty=1051139 #Merkit #Broken thing, please fix
+	dynasty=1051139 #Mergid 
 	religion="pagan"
 	culture="khalkha"
 	father=166907
@@ -17932,7 +17932,7 @@
 166934 = {
 	name="Chubei" #third wife of Möngke Khan
 	female=yes
-	dynasty=1051140 #Broken thing, please fix
+	dynasty=1051140 
 	religion="pagan"
 	culture="khalkha"
 	1227.1.1={
@@ -17945,7 +17945,7 @@
 166935 = {
 	name="Bayavchin" #concubine of Möngke Khan
 	female=yes
-	dynasty=1051138 #Bayid #Broken thing, please fix
+	dynasty=1051138 #Bayid 
 	religion="pagan"
 	culture="khalkha"
 	1214.1.1={
@@ -18077,7 +18077,7 @@
 	name="Kököchin"
 	# AKA: Kököchin, wife of Ghazan
 	female = yes
-	dynasty=1051138 #Broken thing, please fix
+	dynasty=1051138 
 	religion="pagan"
 	culture="khalkha"
 	add_trait="fair"
@@ -18416,7 +18416,7 @@
 166972 = {
 	name="Bulugan" # wife of Temür Khan
 	female=yes
-	dynasty=1051138 #Broken thing, please fix
+	dynasty=1051138 
 	religion="mahayana"
 	culture="khalkha"
 	1265.1.1 = {
@@ -18630,7 +18630,7 @@
 	}
 	1247.1.1={
 		religion="mahayana"
-		trait = vajrayana_mahayana #Broken thing, please fix
+		trait = mahayana 
 	}#converted to Tibetan Buddhism by Sakya Pandita
 	1289.1.1={
 		death=yes
@@ -18638,7 +18638,7 @@
 }
 248137 = {
 	name="Khia"
-	dynasty=1059021 #Broken thing, please fix
+	dynasty=1059021 
 	religion="pagan"
 	culture="khalkha"
 	add_trait="sympathy_judaism"
@@ -18837,7 +18837,7 @@
 }
 248171 = {
  name="Jighan" # historical commander whose dynasty represents clans who held Yassa and Pagan ways in high value and deposed several Chagatais
- dynasty=1059027 #Broken thing, please fix
+ dynasty=1059027 
  religion="pagan"
  culture="khalkha"
  trait=tough_soldier
