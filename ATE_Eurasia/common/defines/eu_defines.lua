@@ -53,3 +53,40 @@ NDefines.NFrontend.CREDITS_LOOK_Z = 1450.0
 
 NDefines.NDiplomacy.DEMAND_RELIGIOUS_CONVERSION_INTERACTION_ENABLED = 0
 NDefines.NCharacter.MUSLIM_NUM_WIVES_MONTHLY_PRESTIGE_PENALTY = 0.0
+
+
+NDefines.NEndGame.DYN1_SCORE = 100000
+NDefines.NEndGame.DYN1_ID = 9001
+NDefines.NEndGame.DYN2_SCORE = 90000
+NDefines.NEndGame.DYN2_ID = 9002
+NDefines.NEndGame.DYN3_SCORE = 80000
+NDefines.NEndGame.DYN3_ID = 9003
+NDefines.NEndGame.DYN4_SCORE = 70000
+NDefines.NEndGame.DYN4_ID = 9004
+NDefines.NEndGame.DYN5_SCORE = 60000
+NDefines.NEndGame.DYN5_ID = 9005
+NDefines.NEndGame.DYN6_SCORE = 50000
+NDefines.NEndGame.DYN6_ID = 9006
+NDefines.NEndGame.DYN7_SCORE = 40000
+NDefines.NEndGame.DYN7_ID = 9007
+NDefines.NEndGame.DYN8_SCORE = 30000
+NDefines.NEndGame.DYN8_ID = 9008
+NDefines.NEndGame.DYN9_SCORE = 20000
+NDefines.NEndGame.DYN9_ID = 9009
+NDefines.NEndGame.DYN10_SCORE = 15000
+NDefines.NEndGame.DYN10_ID = 9010
+NDefines.NEndGame.DYN11_SCORE = 10000
+NDefines.NEndGame.DYN11_ID = 9011
+NDefines.NEndGame.DYN12_SCORE = 7500
+NDefines.NEndGame.DYN12_ID = 9012
+NDefines.NEndGame.DYN13_SCORE = 5000
+NDefines.NEndGame.DYN13_ID = 9013
+NDefines.NEndGame.DYN14_SCORE = 2000
+NDefines.NEndGame.DYN14_ID = 9014
+NDefines.NEndGame.DYN15_SCORE = 1000
+NDefines.NEndGame.DYN15_ID = 9015
+
+NDefines.NLearningScenario.START_YEAR = 2666
+NDefines.NLearningScenario.START_MONTH = 7
+NDefines.NLearningScenario.START_DAY = 4
+NDefines.NLearningScenario.START_CHARACTER = 1001001
