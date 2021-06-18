@@ -214,9 +214,10 @@
 }
 1996019={
 	name="Denis"
-	dynasty=2920091 #Severyanin
+	dynasty=2920056 #Tsoganov
 	culture=venelased
 	religion=orthodox
+	father=1996067
 	trait=charismatic_negotiator
 	trait=poet
 	trait=diligent
@@ -229,9 +230,10 @@
 }
 1996020={
 	name="Markus"
-	dynasty=2918101 #Einaste
+	dynasty=2918106 #Einasto
 	culture=estonian
 	religion=lutheran
+	father=1996066
 	trait=skilled_tactician
 	trait=just
 	trait=ambitious
@@ -260,7 +262,7 @@
 }
 1996022={
 	name="Toomas"
-	dynasty=2918102 #Liviko
+	dynasty=2918102 #Valk
 	culture=estonian
 	religion=lutheran
 	trait=skilled_tactician
@@ -294,7 +296,7 @@
 }
 1996024={
 	name="Emil"
-	dynasty=2918102 #Liviko
+	dynasty=2918102 #Valk
 	culture=estonian
 	religion=lutheran
 	trait=skilled_tactician
@@ -383,10 +385,11 @@
 	2700.1.1={death=yes}
 }
 1996030={
-	name="Georg-Karl"
+	name="Georg-Kaarel"
 	dynasty=2918106 #Einasto
 	culture=estonian
 	religion=lutheran
+	father=1996064
 	trait=mastermind_theologian
 	trait=giant
 	trait=quick
@@ -698,7 +701,7 @@
 1996050={
 	name="Daina"
 	female=yes
-	dynasty=2917103 #Maurina
+	dynasty=2917103 #Maurins
 	culture=latvian
 	religion=lutheran
 	father=1996053
@@ -756,7 +759,7 @@
 }
 1996053={
 	name="Valerijs"
-	dynasty=2917103 #Maurina
+	dynasty=2917103 #Maurins
 	culture=latvian
 	religion=lutheran
 	trait=charismatic_negotiator
@@ -773,7 +776,7 @@
 1996054={
 	name="Sofija"
 	female=yes
-	dynasty=2917103 #Maurina
+	dynasty=2917103 #Maurins
 	culture=latvian
 	religion=lutheran
 	trait=underhanded_rogue
@@ -789,7 +792,7 @@
 1996055={
 	name="Lasma"
 	female=yes
-	dynasty=2917103 #Maurina
+	dynasty=2917103 #Maurins
 	culture=latvian
 	religion=lutheran
 	father=1996053
@@ -809,7 +812,7 @@
 1996056={
 	name="Lasma"
 	female=yes
-	dynasty=2917103 #Maurina
+	dynasty=2917103 #Maurins
 	culture=latvian
 	religion=lutheran
 	father=1996053
@@ -924,4 +927,72 @@
 	
 	2640.2.9={birth=yes}
 	2700.1.1={death=yes}
+}
+1996063={			#can be moved
+	name="Ewa"
+	female=yes
+	dynasty=2941000 #Swiat-Jajek
+	culture=warmzur
+	religion=mariavite
+	
+	trait=underhanded_rogue
+	trait=quick
+	trait=feeble
+	trait=scholar
+	trait=diligent
+	trait=humble
+	trait=content
+	trait=cynical
+	trait=poet
+	
+	martial=2
+	diplomacy=5
+	intrigue=6
+	stewardship=4
+	learning=7
+	
+	2644.3.11={birth=yes}
+	2700.1.1={death=yes}
+}
+1996064={
+	name="Elmar"
+	dynasty=2918106 #Einasto
+	culture=estonian
+	religion=lutheran
+	father=1996065
+	
+	trait=giant
+	
+	2609.7.25={birth=yes}
+	2660.3.8={death=yes}
+}
+1996065={
+	name="Oskar"
+	dynasty=2918106 #Einasto
+	culture=estonian
+	religion=lutheran
+	trait=giant
+	
+	2578.6.2={birth=yes}
+	2634.8.13={death=yes}
+}
+1996066={
+	name="Lennart"
+	dynasty=2918106 #Einasto
+	culture=estonian
+	religion=lutheran
+	father=1996065
+	
+	2612.7.3={birth=yes}
+	2664.8.6={death=yes}
+}
+1996067={
+	name="Jegor"
+	dynasty=2920056 #Tsoganov
+	culture=venelased
+	religion=orthodox
+	father=1996013
+	
+	2601.9.18={birth=yes}
+	2653.2.6={death=yes}
 }
