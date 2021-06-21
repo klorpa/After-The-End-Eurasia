@@ -1,0 +1,99 @@
+plot_decisions = {
+	celebrate_nowruz = {
+		only_playable = yes
+		ai_check_interval = 12
+		
+		
+		potential = {
+			OR = {
+				culture_group = iranian
+				culture_group = turkic_east
+				culture_group = turkic_karluk
+				culture = azeri
+				culture = turkmen
+				culture = qashqai
+				religion_group = zoroastrian_group
+			}
+			NOT = { has_character_modifier = VIET_celebrating_nowruz }
+			NOT = { has_character_modifier = VIET_nowruz_timer }
+		}
+		allow = {
+			month = 3
+			NOT = {
+				month = 6
+			}
+			war = no
+			custom_tooltip = {
+				text = UNOCCUPIED_DEMESNE_TITLE
+				hidden_tooltip = {
+					any_demesne_title = {
+						NOT = { higher_tier_than = count }
+						is_occupied = no
+					}
+				}
+			}
+			in_command = no
+			any_demesne_title = {
+				is_occupied = no
+			}
+			prisoner = no
+			wealth = 30
+			age = 16
+			NOT = { has_character_flag = VIET_nowruz }
+			NOT = { is_inaccessible_trigger = yes }
+			custom_tooltip = {
+				text = is_not_busy_trigger_tooltip
+				hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
+			}
+			custom_tooltip = {
+				text = IS_HEALTHY
+				NOR = {
+					is_ill = yes
+					has_symptom_trigger = yes
+				}
+			}
+		}
+		effect = {
+			wealth = -30
+			hidden_tooltip = {
+				character_event = { 
+					id = silkroad.300
+				}
+			}
+			set_character_flag = do_not_disturb
+		}
+		
+		
+		ai_will_do = {
+			factor = 0.5         # Reduce chances of happening
+			modifier = {
+				factor = 2
+				trait = drunkard
+			}
+			modifier = {
+				factor = 2
+				trait = gregarious
+			}
+			modifier = {
+				factor = 0.5
+				trait = shy
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.5
+				trait = content
+			}
+			modifier = {
+				factor = 2
+				trait = charitable
+			}
+			modifier = {
+				factor = 0.5
+				trait = greedy
+			}
+		}
+	}
+}
