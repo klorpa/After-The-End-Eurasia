@@ -482,6 +482,11 @@ succession_laws = {
 					government = white_martyr_government
 					religion = insular
 				}
+				NAND = {
+					government = pirate_government
+					is_patrician = yes
+					independent = no
+				}
 			}
 			OR = {
 				is_landless_type_title = no
@@ -1166,6 +1171,39 @@ succession_laws = {
 					OR = {
 						title = e_mongolia
 						title = e_turkestan
+					}
+				}
+			}
+		}
+		default_selection = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					holder_scope = {
+						AND = {
+							OR = {
+								religion = nepmese
+								religion = nepmese_reformed
+							}
+							is_feudal = yes
+							is_ruler = yes
+						}
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 100
+				holder_scope = {
+					AND = {
+						OR = {
+							religion = nepmese
+							religion = nepmese_reformed
+						}
+						is_feudal = yes
+						is_ruler = yes
 					}
 				}
 			}

@@ -48,6 +48,31 @@ succession_laws = {
 				}
 			}
 		}
+		default_selection = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					holder_scope = {
+						OR = {
+							government = ghazi_government
+							government = diwan_government
+						}
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 100
+				holder_scope = {
+					OR = {
+						government = ghazi_government
+						government = diwan_government
+					}
+				}
+			}
+		}
 		allow = {
 			custom_tooltip = {
 				text = not_forced_tt
@@ -75,6 +100,27 @@ succession_laws = {
 			holder_scope = {
 				religion = ibadi
 				government = ibadi_imamate
+			}
+		}
+		default_selection = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					holder_scope = {
+						religion = ibadi
+						government = ibadi_imamate
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 100
+				holder_scope = {
+					religion = ibadi
+					government = ibadi_imamate
+				}
 			}
 		}
 		allow = {
@@ -160,6 +206,27 @@ succession_laws = {
 				OR = {
 					religion = insular
 					religion = miaphysite
+				}
+			}
+		}
+		default_selection = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					holder_scope = {
+						government = white_martyr_government
+						religion = insular
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 100
+				holder_scope = {
+					government = white_martyr_government
+					religion = insular
 				}
 			}
 		}

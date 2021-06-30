@@ -194,44 +194,7 @@ character_event = {
 	}
 }
 
-#set succession law (muslim)
-character_event = {
-	id = gov.008
-	hide_window = yes
-	is_triggered_only = yes
-	
-	trigger = {
-		OR = {
-			AND = {
-				government = diwan_government
-				NOT = { has_law = succ_ghazi_elective }
-			}
-			AND = {
-				government = ghazi_government
-				NOT = { has_law = succ_ghazi_elective }
-			}
-			AND = {
-				government = ibadi_imamate
-				NOT = { has_law = succ_imamate_elective }
-			}
-		}
-	}
-	
-	immediate = {
-		if = {
-			limit = { government = diwan_government }
-			primary_title = { add_law = { law = succ_ghazi_elective opinion_effect = no } }
-		}
-		if = {
-			limit = { government = ghazi_government }
-			primary_title = { add_law = { law = succ_ghazi_elective opinion_effect = no } }
-		}
-		if = {
-			limit = { government = ibadi_imamate }
-			primary_title = { add_law = { law = succ_imamate_elective opinion_effect = no } }
-		}
-	}
-}
+#gov.008 - empty
 
 #automatic pirate->bureaucratic muslim government
 character_event = {
@@ -490,80 +453,5 @@ character_event = {
 
 	immediate = {
 		set_government_type = diwan_government
-	}
-}
-#set succession law (Religious Context)
-character_event = {
-	id = gov.015
-	hide_window = yes
-	is_triggered_only = yes
-	
-	trigger = {
-		holder_scope = {
-			AND = {
-				religion = nepmese
-				NOT = { has_law = succ_ultimogeniture }
-				OR = {
-					is_feudal = yes
-					is_ruler = yes
-				}
-				higher_real_tier_than = BARON
-			}
-		}
-	}
-	
-	immediate = {
-		if = {
-			limit = { religion = nepmese }
-			primary_title = { add_law = { law = succ_ultimogeniture opinion_effect = no } }
-		}
-	}
-}
-#fixing Succession Laws for MR and Pirate Republics (NUKE OPTION)
-character_event = {
-	id = gov.016
-	hide_window = yes
-	is_triggered_only = yes
-	
-	trigger = {
-		holder_scope = {
-			AND = {
-				independent = no
-				is_patrician = yes
-				OR = {
-					government = merchant_republic_government
-					government = pirate_government
-				}
-			}
-		}
-	}
-	
-	immediate = {
-		if = {
-			limit = { is_patrician = yes }
-			primary_title = { add_law = { law = succ_seniority opinion_effect = no } }
-		}
-	}
-}
-#set succession law (Cenobitic)
-character_event = {
-	id = gov.017
-	hide_window = yes
-	is_triggered_only = yes
-	
-	trigger = {
-		holder_scope = {
-			AND = {
-				religion = insular
-				government = white_martyr_government
-			}
-		}
-	}
-	
-	immediate = {
-		if = {
-			limit = { religion = insular }
-			primary_title = { add_law = { law = succ_cenobitic_elective opinion_effect = no } }
-		}
 	}
 }
