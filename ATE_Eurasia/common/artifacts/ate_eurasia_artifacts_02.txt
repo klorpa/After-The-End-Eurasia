@@ -1,4 +1,3 @@
-
 holy_crown = {
 	learning = 2
 	diplomacy = 2
@@ -248,4 +247,64 @@ golden_bee = {
 	flags = { unique salvage }
 	picture = "GFX_golden_bee"
 	stacking = no
+}
+ate_eurasia_trumpet = { 
+	monthly_character_prestige = 0.10
+	musician_opinion = 5
+	brass_chorus_opinion = 5
+	quality = 2
+	active = {
+		age >= 6
+		religion = lutheran
+		trait = brass_chorus
+	}
+	
+	flags = { brasschorus instrument }
+	picture = "GFX_ate_eurasia_trumpet"
+	stacking = no
+}
+ate_eurasia_trombone = {
+	monthly_character_prestige = 0.15
+	musician_opinion = 5
+	brass_chorus_opinion = 5
+	quality = 2
+	active = {
+		age >= 6
+		religion = lutheran
+		trait = brass_chorus
+	}
+	
+	flags = { brasschorus instrument }
+	picture = "GFX_ate_eurasia_trombone"
+	stacking = no 
+}
+ate_eurasia_horn = {
+	monthly_character_prestige = 0.20
+	musician_opinion = 5
+	brass_chorus_opinion = 5
+	quality = 2
+	active = {
+		age >= 6
+		religion = lutheran
+		trait = brass_chorus
+	}
+	
+	flags = { brasschorus instrument }
+	picture = "GFX_ate_eurasia_horn"
+	stacking = no 
+}
+ate_eurasia_baritone = {
+	monthly_character_prestige = 0.25
+	musician_opinion = 10
+	brass_chorus_opinion = 10
+	quality = 3
+	active = {
+		age >= 6
+		religion = lutheran
+		trait = brass_chorus
+	}
+	
+	flags = { brasschorus instrument }
+	picture = "GFX_ate_eurasia_baritone"
+	stacking = no 
 }
