@@ -9,37 +9,80 @@ e_bengal = {
 		color={ 175 130 87 }
 		color2={ 255 255 255 }
 		
-		capital = 2779 # Gohpur
-				
-		d_arunachal = {
-			color={ 155 150 77 }
+		capital = 2921 # c_guwahati
+		
+		d_guwahati = {
+			color={ 28 57 222 }
 			color2={ 255 255 255 }
 			
-			capital = 2779 # Lakhimpur
+			capital = 2921 # c_guwahati
 			
-			c_lakhimpur = {
-				color={ 123 149 20 }
+			c_guwahati = { # 2921
+				color={ 18 67 217 }
 				color2={ 255 255 255 }
 				
-				b_lakhimpur = {}
-				b_silapathar = {}
-				b_dhemaji = {}
-				b_bihpuria = {}
-				b_narayanpur = {}
-				b_aditako = {}
-				b_kulajan_gaon = {}
+				b_dispur = {}
+				b_guwahati = {}
+				b_goalpara = {}
+				b_palashbari = {}
+				b_lakhipur = {}
+				b_kahikuchi = {}
+				b_dudhnoi = {}
 			}
-			c_kurung_kumey = {
-				color={ 100 22 169 }
+			c_bongaigaon = { # 2996
+				color={ 95 9 60 }
 				color2={ 255 255 255 }
 				
-				b_koloriang = {}
-				b_itanagar = {}
-				b_nyapin = {}
-				b_phassang = {}
-				b_sangram = {}
-				b_sarli = {}
-				b_naharlagun = {}
+				b_bongaigaon = {}
+				b_dhubri = {}
+				b_kokrajhar = {}
+				b_kajalgaon = {}
+				b_bilasipara = {}
+				b_abhayapuri = {}
+				b_gossaigaon = {}
+			}
+			c_nalbari = { # 2748
+				color={ 50 114 152 }
+				color2={ 255 255 255 }
+				
+				b_nalbari = {}
+				b_barpeta = {}
+				b_mushalpur = {}
+				b_pathsala = {}
+				b_salbari = {}
+				b_tihu = {}
+				b_howli = {}
+			}
+		}
+		d_jorhat = {
+			color={ 182 198 137 }
+			color2={ 255 255 255 }
+			
+			capital = 2771 # c_jorhat
+			
+			c_jorhat = { # 2771
+				color={ 192 188 142 }
+				color2={ 255 255 255 }
+				
+				b_jorhat = {}
+				b_diphu = {}
+				b_golaghat = {}
+				b_dergaon = {}
+				b_teok = {}
+				b_bokajan = {}
+				b_mariani = {}
+			}
+			c_dibrugarh = { # 2747
+				color={ 155 158 116 }
+				color2={ 255 255 255 }
+				
+				b_dibrugarh = {}
+				b_tinsukia = {}
+				b_sivasagar = {}
+				b_sonari = {}
+				b_nazira = {}
+				b_naharkatia = {}
+				b_digboi = {}
 			}
 			c_tezpur = {
 				color={ 135 52 199 }
@@ -52,6 +95,111 @@ e_bengal = {
 				b_rowta = {}
 				b_udalguri = {}
 				b_tangla = {}
+			}
+			c_lakhimpur = {
+				color={ 123 149 20 }
+				color2={ 255 255 255 }
+				
+				b_lakhimpur = {}
+				b_silapathar = {}
+				b_dhemaji = {}
+				b_bihpuria = {}
+				b_narayanpur = {}
+				b_aditako = {}
+				b_kulajan_gaon = {}
+			}
+		}
+		d_nagaland = {
+			color={ 226 123 44 }
+			color2={ 255 255 255 }
+			
+			capital = 2972 # c_kohima
+			
+			c_kohima = { # 2972
+				color={ 236 113 49 }
+				color2={ 255 255 255 }
+				
+				b_kohima = {}
+				b_dimapur = {}
+				b_mokokchung = {}
+				b_tuensang = {}
+				b_wokha = {}
+				b_phek = {}
+				b_zunheboto = {}
+			}
+			c_mon = { # 3141
+				color={ 147 140 62 }
+				color2={ 255 255 255 }
+				
+				b_mon = {}
+				b_khonsa = {}
+				b_naginimora = {}
+				b_deomali = {}
+				b_shangnyu = {}
+				b_kanubari = {}
+				b_lungwa = {}
+			}
+		}
+		d_nagaon = {
+			color={ 142 160 29 }
+			color2={ 255 255 255 }
+			
+			capital = 2772 # c_nagaon
+			
+			c_nagaon = { # 2772
+				color={ 132 170 24 }
+				color2={ 255 255 255 }
+				
+				b_nagaon = {}
+				b_hojai = {}
+				b_morigaon = {}
+				b_lanka = {}
+				b_kampur = {}
+				b_lumding = {}
+				b_doboka = {}
+			}
+			c_haflong = { # 2971
+				color={ 217 218 46 }
+				color2={ 255 255 255 }
+				
+				b_haflong = {}
+				b_hamren = {}
+				b_maibang = {}
+				b_mahur = {}
+				b_donkamokam = {}
+				b_umrangso = {}
+				b_langting = {}
+			}
+			c_hailakandi = { # 3011
+				color={ 27 192 58 }
+				color2={ 255 255 255 }
+				
+				b_hailakandi = {}
+				b_silchar = {}
+				b_karimganj = {}
+				b_lakhipur_2 = {}
+				b_badarpur = {}
+				b_lala = {}
+				b_katigorah = {}
+			}
+		}	
+		d_arunachal = {
+			color={ 155 150 77 }
+			color2={ 255 255 255 }
+			
+			capital = 3131 # c_kurung_kumey
+			
+			c_kurung_kumey = {
+				color={ 100 22 169 }
+				color2={ 255 255 255 }
+				
+				b_koloriang = {}
+				b_itanagar = {}
+				b_nyapin = {}
+				b_phassang = {}
+				b_sangram = {}
+				b_sarli = {}
+				b_naharlagun = {}
 			}
 			c_kameng = {
 				color={ 175 185 100 }
