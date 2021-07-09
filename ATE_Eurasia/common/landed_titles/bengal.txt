@@ -5,6 +5,139 @@ e_bengal = {
 	
 	capital = 2638 # Kolkata
 	
+	k_purvottar_pradesh = {
+		color={ 70 240 16 }
+		color2={ 255 255 255 }
+		
+		capital = 3143 # c_agartala
+		culture = tripuri
+		
+		d_tripura = {
+			color={ 50 4 6 }
+			color2={ 255 255 255 }
+			
+			capital = 3143 # c_agartala
+			
+			c_agartala = { # 3143
+				color={ 40 14 1 }
+				color2={ 255 255 255 }
+				
+				b_agartala = {}
+				b_bishalgarh = {}
+				b_belonia = {}
+				b_mohanpur = {}
+				b_bishramganj = {}
+				b_santirbazar = {}
+				b_ranirbazar = {}
+			}
+			c_gomati = { # 2650
+				color={ 0 237 130 }
+				color2={ 255 255 255 }
+				
+				b_udaipur = {}
+				b_dharmanagar = {}
+				b_ambassa = {}
+				b_khowai = {}
+				b_kailashahar = {}
+				b_amarpur = {}
+				b_panisagar = {}
+			}
+		}
+		d_nagaland = {
+			color={ 226 123 44 }
+			color2={ 255 255 255 }
+			
+			capital = 2972 # c_kohima
+			
+			c_kohima = { # 2972
+				color={ 236 113 49 }
+				color2={ 255 255 255 }
+				
+				b_kohima = {}
+				b_dimapur = {}
+				b_mokokchung = {}
+				b_tuensang = {}
+				b_wokha = {}
+				b_phek = {}
+				b_zunheboto = {}
+			}
+			c_mon = { # 3141
+				color={ 214 43 32 }
+				color2={ 255 255 255 }
+				
+				b_mon = {}
+				b_changlang = {}
+				b_khonsa = {}
+				b_naginimora = {}
+				b_deomali = {}
+				b_bordumsa = {}
+				b_shangnyu = {}
+			}
+		}
+		d_manipur = {
+			color={ 124 20 112 }
+			color2={ 255 255 255 }
+			
+			capital = 2774 # c_imphal
+			
+			c_imphal = { # 2774
+				color={ 114 30 107 }
+				color2={ 255 255 255 }
+				
+				b_lamphelhat = {}
+				b_imphal = {}
+				b_senapati = {}
+				b_ukhrul = {}
+				b_tamenglong = {}
+				b_kamjong = {}
+				b_kangpokpi = {}
+			}
+			c_churachandpur = { # 3012
+				color={ 144 198 113 }
+				color2={ 255 255 255 }
+				
+				b_lamka = {}
+				b_thoubal = {}
+				b_bishnupur = {}
+				b_chandel = {}
+				b_kakching = {}
+				b_pherzawl = {}
+				b_jiribam = {}
+			}
+		}
+		d_mizoram = {
+			color={ 177 223 89 }
+			color2={ 255 255 255 }
+			
+			capital = 2775 # c_aizawl
+			
+			c_aizawl = { # 2775
+				color={ 187 213 94 }
+				color2={ 255 255 255 }
+				
+				b_aizawl = {}
+				b_champhai = {}
+				b_mamit = {}
+				b_kolasib = {}
+				b_serchhip = {}
+				b_saitual = {}
+				b_khawzawl = {}
+			}
+			c_lunglei = { # 3013
+				color={ 41 108 223 }
+				color2={ 255 255 255 }
+				
+				b_lunglei = {}
+				b_lawngtlai = {}
+				b_saiha = {}
+				b_hnahthial = {}
+				b_tlabung = {}
+				b_kamalanagar = {}
+				b_tuipang = {}
+			}
+		}
+	}
+	
 	k_assam = {
 		color={ 175 130 87 }
 		color2={ 255 255 255 }
@@ -36,10 +169,22 @@ e_bengal = {
 				b_bongaigaon = {}
 				b_dhubri = {}
 				b_kokrajhar = {}
-				b_kajalgaon = {}
 				b_bilasipara = {}
 				b_abhayapuri = {}
 				b_gossaigaon = {}
+				b_gauripur = {}
+			}
+			c_bodoland = { # 3142
+				color={ 87 116 87 }
+				color2={ 255 255 255 }
+				
+				b_mushalpur = {}
+				b_kajalgaon = {}
+				b_salbari = {}
+				b_odalguri = {}
+				b_basugaon = {}
+				b_bijni = {}
+				b_goreswar = {}
 			}
 			c_nalbari = { # 2748
 				color={ 50 114 152 }
@@ -47,11 +192,11 @@ e_bengal = {
 				
 				b_nalbari = {}
 				b_barpeta = {}
-				b_mushalpur = {}
 				b_pathsala = {}
-				b_salbari = {}
 				b_tihu = {}
 				b_howli = {}
+				b_sarthebari = {}
+				b_sarbhog = {}
 			}
 		}
 		d_jorhat = {
@@ -107,37 +252,6 @@ e_bengal = {
 				b_narayanpur = {}
 				b_aditako = {}
 				b_kulajan_gaon = {}
-			}
-		}
-		d_nagaland = {
-			color={ 226 123 44 }
-			color2={ 255 255 255 }
-			
-			capital = 2972 # c_kohima
-			
-			c_kohima = { # 2972
-				color={ 236 113 49 }
-				color2={ 255 255 255 }
-				
-				b_kohima = {}
-				b_dimapur = {}
-				b_mokokchung = {}
-				b_tuensang = {}
-				b_wokha = {}
-				b_phek = {}
-				b_zunheboto = {}
-			}
-			c_mon = { # 3141
-				color={ 147 140 62 }
-				color2={ 255 255 255 }
-				
-				b_mon = {}
-				b_khonsa = {}
-				b_naginimora = {}
-				b_deomali = {}
-				b_shangnyu = {}
-				b_kanubari = {}
-				b_lungwa = {}
 			}
 		}
 		d_nagaon = {
@@ -326,18 +440,6 @@ e_bengal = {
 				b_kasba = {}
 				b_rupasdi = {}
 				b_homna = {}
-			}
-			c_agartala = {
-				color={ 175 97 95 }
-				color2={ 255 255 255 }
-				
-				b_agartala = {}
-				b_udaipur = {}
-				b_amarpur = {}
-				b_gandacherra = {}
-				b_teliamura = {}
-				b_sabroom = {}
-				b_ambassa = {}
 			}
 		}
 	}
