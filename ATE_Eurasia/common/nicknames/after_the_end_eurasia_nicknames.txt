@@ -46,6 +46,20 @@ nick_the_silk_stocking = {
 		factor = 1
 	}
 }
+nick_melac = {
+	allow = {
+		OR = {
+			culture = swabian
+			culture = palatinate
+		}
+		trait = deceitful
+		trait = cruel
+		age = 35
+	}
+	chance = {
+		factor = 1
+	}
+}
 nick_gaon = {}
 nick_the_victual = {}
 nick_atterdag = {
