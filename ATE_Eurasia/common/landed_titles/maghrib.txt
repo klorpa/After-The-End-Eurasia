@@ -855,36 +855,6 @@ e_maghrib = {
 					atlas = "Lheggar"	
 				}
 			}
-			c_al_tarif = { # 254
-				color={ 92 132 120 }
-				color2={ 255 255 255 }
-				
-				kabyle = "El Tarf"
-				chaoui = "El Tarf"
-				soussi = "El Tarf"
-				riffian = "El Tarf"
-				atlas = "El Tarf"
-				
-				b_al_tarif = {
-					kabyle = "El Tarf"
-					chaoui = "El Tarf"
-					soussi = "El Tarf"
-					riffian = "El Tarf"
-					atlas = "El Tarf"
-				}
-				b_al_dhiran = {}
-				b_besbes = {}
-				b_ben_mahdi = {}
-				b_buhijar = {}
-				b_al_qala = {
-					kabyle = "Lkala"
-					chaoui = "Lkala"
-					soussi = "Lkala"
-					riffian = "Lkala"
-					atlas = "Lkala"
-				}
-				b_buthlaja = {}
-			}
 			c_suq_ahras = { # 255
 				color={ 82 132 121 }
 				color2={ 255 255 255 }
@@ -903,6 +873,13 @@ e_maghrib = {
 					riffian = "Tagast"
 					atlas = "Tagast"
 				}
+				b_al_tarif = {
+					kabyle = "El Tarf"
+					chaoui = "El Tarf"
+					soussi = "El Tarf"
+					riffian = "El Tarf"
+					atlas = "El Tarf"
+				}
 				b_sadirata = {
 					kabyle = "Isedraten"
 					chaoui = "Isedraten"
@@ -910,8 +887,7 @@ e_maghrib = {
 					riffian = "Isedraten"
 					atlas = "Isedraten"
 				}
-				b_mdawrush = {}
-				b_al_mashruha = {}
+				b_al_dhiran = {}
 				b_tawira = {
 					kabyle = "Tawra"
 					chaoui = "Tawra"
@@ -919,7 +895,13 @@ e_maghrib = {
 					riffian = "Tawra"
 					atlas = "Tawra"
 				}
-				b_al_murahina = {}
+				b_al_qala = {
+					kabyle = "Lkala"
+					chaoui = "Lkala"
+					soussi = "Lkala"
+					riffian = "Lkala"
+					atlas = "Lkala"
+				}
 			}
 		}
 		d_awras = {
@@ -1279,7 +1261,6 @@ e_maghrib = {
 				tunisian = "Qsentina"
 				moroccan = "Qsentina"
 				
-				b_al_sakhra = {}
 				b_qusantinah = {
 					kabyle = "Qsentina"
 					chaoui = "Qsentina"
@@ -1297,6 +1278,13 @@ e_maghrib = {
 					riffian = "Masnsen"
 					atlas = "Masnsen"
 				}
+				b_mayla = {
+					kabyle = "Mila"
+					chaoui = "Mila"
+					soussi = "Mila"
+					riffian = "Mila"
+					atlas = "Mila"
+				}
 				b_hamat_buazian = {
 					kabyle = "Hamma Buzian"
 					chaoui = "Hamma Buzian"
@@ -1311,19 +1299,19 @@ e_maghrib = {
 					riffian = "Âin Âbid"
 					atlas = "Âin Âbid"
 				}
-				b_zighud_yusuf = {
-					kabyle = "Zigud Ghusef"
-					chaoui = "Zigud Ghusef"
-					soussi = "Zigud Ghusef"
-					riffian = "Zigud Ghusef"
-					atlas = "Zigud Ghusef"
+				b_farjiua = {
+					kabyle = "Ighil N'Ait Imzalen"
+					chaoui = "Ighil N'Ait Imzalen"
+					soussi = "Ighil N'Ait Imzalen"
+					riffian = "Ighil N'Ait Imzalen"
+					atlas = "Ighil N'Ait Imzalen"
 				}
-				b_ibn_ziad = {
-					kabyle = "Ben Zyad"
-					chaoui = "Ben Zyad"
-					soussi = "Ben Zyad"
-					riffian = "Ben Zyad"
-					atlas = "Ben Zyad"
+				b_al_qararim_qawqa = {
+					kabyle = "Grerem Guga"
+					chaoui = "Grerem Guga"
+					soussi = "Grerem Guga"
+					riffian = "Grerem Guga"
+					atlas = "Grerem Guga"
 				}
 			}
 			c_jijl = { # 259
@@ -1375,60 +1363,6 @@ e_maghrib = {
 					soussi = "Yamiden"
 					riffian = "Yamiden"
 					atlas = "Yamiden"
-				}
-			}
-			c_mayla = { # 257
-				color={ 35 137 203 }
-				color2={ 255 255 255 }
-				
-				kabyle = "Mila"
-				chaoui = "Mila"
-				soussi = "Mila"
-				riffian = "Mila"
-				atlas = "Mila"
-				
-				b_mayla = {
-					kabyle = "Mila"
-					chaoui = "Mila"
-					soussi = "Mila"
-					riffian = "Mila"
-					atlas = "Mila"
-				}
-				b_salgwm_al_ayd = {
-					kabyle = "Celghum Lâid"
-					chaoui = "Celghum Lâid"
-					soussi = "Celghum Lâid"
-					riffian = "Celghum Lâid"
-					atlas = "Celghum Lâid"
-				}
-				b_farjiua = {
-					kabyle = "Ighil N'Ait Imzalen"
-					chaoui = "Ighil N'Ait Imzalen"
-					soussi = "Ighil N'Ait Imzalen"
-					riffian = "Ighil N'Ait Imzalen"
-					atlas = "Ighil N'Ait Imzalen"
-				}
-				b_al_qararim_qawqa = {
-					kabyle = "Grerem Guga"
-					chaoui = "Grerem Guga"
-					soussi = "Grerem Guga"
-					riffian = "Grerem Guga"
-					atlas = "Grerem Guga"
-				}
-				b_wadi_enja = {}
-				b_rwashed = {
-					kabyle = "Qwaced"
-					chaoui = "Qwaced"
-					soussi = "Qwaced"
-					riffian = "Qwaced"
-					atlas = "Qwaced"
-				}
-				b_tarea_baynan = {
-					kabyle = "Terâi Bainen"
-					chaoui = "Terâi Bainen"
-					soussi = "Terâi Bainen"
-					riffian = "Terâi Bainen"
-					atlas = "Terâi Bainen"
 				}
 			}
 			c_sakayakda = { # 258
@@ -1594,48 +1528,6 @@ e_maghrib = {
 					atlas = "Asla"
 				}
 			}
-			c_bilabbas = { # 274
-				color={ 216 153 98 }
-				color2={ 255 255 255 }
-				
-				kabyle = "Sidi Belâebbas"
-				chaoui = "Sidi Belâebbas"
-				soussi = "Tessala"
-				riffian = "Tessala"
-				atlas = "Tessala"
-				
-				b_sidi_bilabbas = {
-					kabyle = "Sidi Belâebbas"
-					chaoui = "Sidi Belâebbas"
-					soussi = "Tessala"
-					riffian = "Tessala"
-					atlas = "Tessala"
-				}
-				b_ayn_al_bard = {}
-				b_ben_badis = {}
-				b_marin = {
-					kabyle = "Mrin"
-					chaoui = "Mrin"
-					soussi = "Mrin"
-					riffian = "Mrin"
-					atlas = "Mrin"
-				}
-				b_telioum = {}
-				b_safayzaf = {
-					kabyle = "Sfisef"
-					chaoui = "Sfisef"
-					soussi = "Sfisef"
-					riffian = "Sfisef"
-					atlas = "Sfisef"
-				}
-				b_sidi_ali_busidi = {
-					kabyle = "Sidi Âli Busidi"
-					chaoui = "Sidi Âli Busidi"
-					soussi = "Sidi Âli Busidi"
-					riffian = "Sidi Âli Busidi"
-					atlas = "Sidi Âli Busidi"
-				}
-			}
 		}
 		d_tamurt_n_yiqbayliyen = {
 			color={ 208 58 36 }
@@ -1714,12 +1606,26 @@ e_maghrib = {
 					riffian = "Iâezzugen"
 					atlas = "Iâezzugen"
 				}
+				b_bumirdas = {
+					kabyle = "Bumerdas"
+					chaoui = "Bumerdas"
+					soussi = "Bumerdas"
+					riffian = "Bumerdas"
+					atlas = "Bumerdas"
+				}
 				b_ayt_liaziz = {
 					kabyle = "At Leâziz"
 					chaoui = "At Leâziz"
 					soussi = "At Leâziz"
 					riffian = "At Leâziz"
 					atlas = "At Leâziz"
+				}
+				b_khamis_al_khashana = {
+					kabyle = "Lexmis n Lxecna"
+					chaoui = "Lexmis n Lxecna"
+					soussi = "Lexmis n Lxecna"
+					riffian = "Lexmis n Lxecna"
+					atlas = "Lexmis n Lxecna"
 				}
 				b_al_hayzar = {
 					kabyle = "Hizar"
@@ -1735,26 +1641,12 @@ e_maghrib = {
 					riffian = "Beclul"
 					atlas = "Beclul"
 				}
-				b_mushadala = {
-					kabyle = "Imceddalen"
-					chaoui = "Imceddalen"
-					soussi = "Imceddalen"
-					riffian = "Imceddalen"
-					atlas = "Imceddalen"
-				}
-				b_qadiria = {
-					kabyle = "Qadireyya"
-					chaoui = "Qadireyya"
-					soussi = "Qadireyya"
-					riffian = "Qadireyya"
-					atlas = "Qadireyya"
-				}
-				b_al_akhdariyah = {
-					kabyle = "Lexdareyya"
-					chaoui = "Lexdareyya"
-					soussi = "Lexdareyya"
-					riffian = "Lexdareyya"
-					atlas = "Lexdareyya"
+				b_boudouaou = {
+					kabyle = "Alma"
+					chaoui = "Alma"
+					soussi = "Alma"
+					riffian = "Alma"
+					atlas = "Alma"
 				}
 			}
 			c_bijaya = { # 263
@@ -1803,66 +1695,6 @@ e_maghrib = {
 					soussi = "Draâ Lqayed"
 					riffian = "Draâ Lqayed"
 					atlas = "Draâ Lqayed"
-				}
-			}
-			c_bumirdas = { # 261
-				color={ 198 71 90 }
-				color2={ 255 255 255 }
-				
-				kabyle = "Bumerdas"
-				chaoui = "Bumerdas"
-				soussi = "Bumerdas"
-				riffian = "Bumerdas"
-				atlas = "Bumerdas"
-				
-				b_bumirdas = {
-					kabyle = "Bumerdas"
-					chaoui = "Bumerdas"
-					soussi = "Bumerdas"
-					riffian = "Bumerdas"
-					atlas = "Bumerdas"
-				}
-				b_khamis_al_khashana = {
-					kabyle = "Lexmis n Lxecna"
-					chaoui = "Lexmis n Lxecna"
-					soussi = "Lexmis n Lxecna"
-					riffian = "Lexmis n Lxecna"
-					atlas = "Lexmis n Lxecna"
-				}
-				b_boudouaou = {
-					kabyle = "Alma"
-					chaoui = "Alma"
-					soussi = "Alma"
-					riffian = "Alma"
-					atlas = "Alma"
-				}
-				b_burj_menayl = {
-					kabyle = "Imnayen"
-					chaoui = "Imnayen"
-					soussi = "Imnayen"
-					riffian = "Imnayen"
-					atlas = "Imnayen"
-				}
-				b_yasr = {
-					kabyle = "Yesser"
-					chaoui = "Yesser"
-					soussi = "Yesser"
-					riffian = "Yesser"
-					atlas = "Yesser"
-				}
-				b_al_thania = {
-					kabyle = "Tizi n At Âica"
-					chaoui = "Tizi n At Âica"
-					soussi = "Tizi n At Âica"
-					riffian = "Tizi n At Âica"
-					atlas = "Tizi n At Âica"
-				}
-				b_dulas = {
-					kabyle = "Delles"
-					chaoui = "Delles"
-					soussi = "Delles"
-					riffian = "Delles"
-					atlas = "Delles"
 				}
 			}
 			c_burj_bw_eryrij = { # 264
@@ -2154,6 +1986,12 @@ e_maghrib = {
 				
 				b_sidi_al_hawari = {}
 				b_sidi_al_bashir = {}
+				b_ayn_tmushent = {
+					kabyle = "Âin Timucent"
+					chaoui = "Âin Timucent"
+					soussi = "Tala l Timucent"
+					riffian = "Tala l Timucent"
+					atlas = "Tala l Timucent"}
 				b_ibn_sina = {}
 				b_bir_al_jir = {
 					kabyle = "Bir Ljir"
@@ -2167,61 +2005,54 @@ e_maghrib = {
 					soussi = "Sanya"
 					riffian = "Sanya"
 					atlas = "Sanya"}
-				b_arziu = {}
-				b_hassi_bounif = {}
-			}
-			c_ayn_tmushent = { # 272
-				color={ 216 65 113 }
-				color2={ 255 255 255 }
-				
-				kabyle = "Âin Timucent"
-				chaoui = "Âin Timucent"
-				soussi = "Tala l Timucent"
-				riffian = "Tala l Timucent"
-				atlas = "Tala l Timucent"
-				
-				b_sidi_ben_ed = {
-					kabyle = "Sidi Ben Âedda"
-					chaoui = "Sidi Ben Âedda"
-					soussi = "Sidi Ben Âedda"
-					riffian = "Sidi Ben Âedda"
-					atlas = "Sidi Ben Âedda"}
-				b_ayn_tmushent = {
-					kabyle = "Âin Timucent"
-					chaoui = "Âin Timucent"
-					soussi = "Tala l Timucent"
-					riffian = "Tala l Timucent"
-					atlas = "Tala l Timucent"}
 				b_al_amiria = {
 					kabyle = "Lâemreyya"
 					chaoui = "Lâemreyya"
 					soussi = "Lâemreyya"
 					riffian = "Lâemreyya"
 					atlas = "Lâemreyya"}
-				b_ayn_al_arbia = {
-					kabyle = "Âin Âerba"
-					chaoui = "Âin Âerba"
-					soussi = "Âin Âerba"
-					riffian = "Âin Âerba"
-					atlas = "Âin Âerba"}
-				b_ayn_al_kyhl = {
-					kabyle = "In Kihel"
-					chaoui = "In Kihel"
-					soussi = "In Kihel"
-					riffian = "In Kihel"
-					atlas = "In Kihel"}
-				b_al_malih = {
-					kabyle = "Lmaleh"
-					chaoui = "Lmaleh"
-					soussi = "Lmaleh"
-					riffian = "Lmaleh"
-					atlas = "Sanya"}
-				b_hamam_baw_hijr = {
-					kabyle = "Hemmam Buhjer"
-					chaoui = "Hemmam Buhjer"
-					soussi = "Hemmam Buhjer"
-					riffian = "Hemmam Buhjer"
-					atlas = "Hemmam Buhjer"}
+			}
+			c_bilabbas = { # 274
+				color={ 216 153 98 }
+				color2={ 255 255 255 }
+				
+				kabyle = "Sidi Belâebbas"
+				chaoui = "Sidi Belâebbas"
+				soussi = "Tessala"
+				riffian = "Tessala"
+				atlas = "Tessala"
+				
+				b_sidi_bilabbas = {
+					kabyle = "Sidi Belâebbas"
+					chaoui = "Sidi Belâebbas"
+					soussi = "Tessala"
+					riffian = "Tessala"
+					atlas = "Tessala"
+				}
+				b_ayn_al_bard = {}
+				b_ben_badis = {}
+				b_marin = {
+					kabyle = "Mrin"
+					chaoui = "Mrin"
+					soussi = "Mrin"
+					riffian = "Mrin"
+					atlas = "Mrin"
+				}
+				b_telioum = {}
+				b_safayzaf = {
+					kabyle = "Sfisef"
+					chaoui = "Sfisef"
+					soussi = "Sfisef"
+					riffian = "Sfisef"
+					atlas = "Sfisef"
+				}
+				b_sidi_ali_busidi = {
+					kabyle = "Sidi Âli Busidi"
+					chaoui = "Sidi Âli Busidi"
+					soussi = "Sidi Âli Busidi"
+					riffian = "Sidi Âli Busidi"
+					atlas = "Sidi Âli Busidi"
+				}
 			}
 			c_tilimsan = { # 273
 				color={ 216 141 149 }
@@ -2537,20 +2368,30 @@ e_maghrib = {
 					soussi = "Sidi Slimane Echcharaâ"
 					riffian = "Sidi Slimane Echcharaâ"
 					atlas = "Sidi Slimane Echcharaâ"}
+				b_tawrirat = {
+					kabyle = "Tawrirt"
+					chaoui = "Tawrirt"
+					soussi = "Tawrirt"
+					riffian = "Tawrirt"
+					atlas = "Tawrirt"}
 				b_bni_drar = {
 					kabyle = "Ayt Drar"
 					chaoui = "Ayt Drar"
 					soussi = "Ayt Drar"
 					riffian = "Ayt Drar"
 					atlas = "Ayt Drar"}
-				b_ahfir = {}
 				b_naima = {
 					kabyle = "Neima"
 					chaoui = "Neima"
 					soussi = "Neima"
 					riffian = "Neima"
 					atlas = "Neima"}
-				b_isly = {}
+				b_jerada = {
+					kabyle = "Jrada"
+					chaoui = "Jrada"
+					soussi = "Jrada"
+					riffian = "Jrada"
+					atlas = "Jrada"}
 			}
 			c_fakik = { # 1056
 				color={ 249 191 190 }
@@ -2599,54 +2440,6 @@ e_maghrib = {
 					soussi = "Âin Câir"
 					riffian = "Âin Câir"
 					atlas = "Âin Câir"}
-			}
-			c_tawrirat = { # 1055
-				color={ 250 213 230 }
-				color2={ 255 255 255 }
-				
-				kabyle = "Tawrirt"
-				chaoui = "Tawrirt"
-				soussi = "Tawrirt"
-				riffian = "Tawrirt"
-				atlas = "Tawrirt"
-				
-				b_tawrirat = {
-					kabyle = "Tawrirt"
-					chaoui = "Tawrirt"
-					soussi = "Tawrirt"
-					riffian = "Tawrirt"
-					atlas = "Tawrirt"}
-				b_jerada = {
-					kabyle = "Jrada"
-					chaoui = "Jrada"
-					soussi = "Jrada"
-					riffian = "Jrada"
-					atlas = "Jrada"}
-				b_el_aioun_sidi_mellouk = {
-					kabyle = "Lâyun Sidi Mlluk"
-					chaoui = "Lâyun Sidi Mlluk"
-					soussi = "Lâyun Sidi Mlluk"
-					riffian = "Lâyun Sidi Mlluk"
-					atlas = "Lâyun Sidi Mlluk"}
-				b_ain_bni_mathar = {
-					kabyle = "Âin Bni Mthr"
-					chaoui = "Âin Bni Mthr"
-					soussi = "Âin Bni Mthr"
-					riffian = "Âin Bni Mthr"
-					atlas = "Âin Bni Mthr"}
-				b_debdou = {
-					kabyle = "Dbdu"
-					chaoui = "Dbdu"
-					soussi = "Dbdu"
-					riffian = "Dbdu"
-					atlas = "Dbdu"}
-				b_touissit = {
-					kabyle = "Twisit"
-					chaoui = "Twisit"
-					soussi = "Twisit"
-					riffian = "Twisit"
-					atlas = "Twisit"}
-				b_oued_heimer = {}
 			}
 		}
 		d_bani_mellal = {
