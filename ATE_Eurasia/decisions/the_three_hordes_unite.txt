@@ -1,0 +1,60 @@
+decisions = {
+
+###################GERMANY#######################################
+	unite_the_hordes = { 
+		is_high_prio = yes
+		only_playable = no
+		ai = yes
+
+		potential = {
+			is_alternate_start = no
+			NOT = {
+				has_game_rule = {
+					name = empire_decisions
+					value = off
+				}
+				has_global_flag = kazakhstan_formed
+			}
+			independent = yes
+			OR = {
+				culture = kazakh
+				culture = karakalpak
+				culture = bashkir
+				culture = akmolensk
+			}
+			NOT = { has_landed_title = e_kazakhstan }
+		}
+
+		allow = {
+			is_adult = yes
+			war = no
+			prestige = 1000
+			
+			completely_controls = k_uly_juz
+			completely_controls = k_orta_juz
+			completely_controls = k_kishi_juz
+		}
+
+		effect = {
+			wealth = -1000
+			if = {
+				limit = { has_nickname = no }
+				give_nickname = nick_batyr
+			}
+			activate_title = { title = e_kazakhstan status = yes }
+			primary_title = {
+				e_kazakhstan = {
+					grant_title = ROOT
+					copy_title_laws = PREV
+				}
+			}
+			k_orta_juz = { de_jure_liege = e_kazakhstan }
+			k_kishi_juz = { de_jure_liege = e_kazakhstan }
+			k_uly_juz = { de_jure_liege = e_kazakhstan }
+			set_global_flag = kazakhstan_formed
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
