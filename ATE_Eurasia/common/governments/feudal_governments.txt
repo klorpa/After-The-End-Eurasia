@@ -542,7 +542,12 @@ feudal_governments = {
 						title = k_slovenia
 						title = k_north_syria
 						title = k_kerala
+						title = d_szekelyfold
 					}
+				}
+				AND = {
+					title = k_transylvania
+					culture = szekely
 				}
 			}
 			primary_title = { NOT = { title = d_liechtenstein } }
