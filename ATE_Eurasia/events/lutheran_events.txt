@@ -6,13 +6,8 @@ character_event = { #join a brass chorus and get an instrument
 	picture = GFX_evt_placeholder
 	
 	only_playable = yes
-	triggered_only = yes
+	is_triggered_only = yes
 	
-	trigger = {
-		NOT = {
-			has_alternate_start_parameter = { key = religion_names value = random }
-		}
-	}
 	option = { #lemme get that trumpet
 		name = EVTOPTA_lutheran_1
 		add_trait = brass_chorus 
@@ -153,9 +148,10 @@ character_event = { #we dooting in the church
 		if = {
 			limit = { 
 				OR = {
-					trait = quick 
-					trait = genius
-				}
+			        trait = musician
+			        trait = quick 
+			        trait = genius
+		        }
 			}
 			hidden_tooltip = {
 				character_event = { id = lutheran.8 days = 5 }
@@ -223,13 +219,7 @@ character_event = { #concert was based
 	picture = GFX_evt_placeholder
 	
 	only_playable = yes
-	triggered_only = yes
-	
-	trigger = {
-		NOT = {
-			has_alternate_start_parameter = { key = religion_names value = random }
-		}
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTA_lutheran_5
@@ -244,13 +234,7 @@ character_event = { #concert was out of tune but it was alright i guess
 	picture = GFX_evt_placeholder
 	
 	only_playable = yes
-	triggered_only = yes
-	
-	trigger = {
-		NOT = {
-			has_alternate_start_parameter = { key = religion_names value = random }
-		}
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTA_lutheran_6
@@ -271,13 +255,7 @@ character_event = { #concert went completely wrong
 	picture = GFX_evt_placeholder
 	
 	only_playable = yes
-	triggered_only = yes
-	
-	trigger = {
-		NOT = {
-			has_alternate_start_parameter = { key = religion_names value = random }
-		}
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTA_lutheran_7
@@ -300,18 +278,7 @@ character_event = { #you are a genius and went full miles davis with your trumpe
 	picture = GFX_evt_placeholder
 	
 	only_playable = yes
-	triggered_only = yes
-	
-	trigger = {
-		OR = {
-			trait = musician
-			trait = quick 
-			trait = genius
-		}
-		NOT = {
-			has_alternate_start_parameter = { key = religion_names value = random }
-		}
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTA_lutheran_7
@@ -326,13 +293,7 @@ character_event = { #you did calm everyone down
 	picture = GFX_evt_placeholder
 	
 	only_playable = yes
-	triggered_only = yes
-	
-	trigger = {
-		NOT = {
-			has_alternate_start_parameter = { key = religion_names value = random }
-		}
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTA_lutheran_9
@@ -346,13 +307,7 @@ character_event = {
 	picture = GFX_evt_placeholder
 	
 	only_playable = yes
-	triggered_only = yes
-	
-	trigger = {
-		NOT = {
-			has_alternate_start_parameter = { key = religion_names value = random }
-		}
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTA_lutheran_10
