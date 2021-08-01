@@ -1823,6 +1823,77 @@ temple = {
 
 		extra_tech_building_start = 1.2
 	}
+	con_diet = {
+		desc = con_diet_desc1
+		potential = { FROM = { government = confederation_government } }
+		gold_cost = 50
+		build_time = 365
+        vassal_opinion = 5
+		diplomacy = 1
+		tax_income = 0.2
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 1.0
+	}
+	con_diet_2 = {
+		desc = con_diet_desc2
+		potential = { FROM = { government = confederation_government } }
+		gold_cost = 100
+		build_time = 365
+        vassal_opinion = 6
+		diplomacy = 12
+		tax_income = 0.2
+		ai_creation_factor = 99
+		upgrades_from = con_diet
+	}
+	con_diet_3 = {
+		desc = con_diet_desc4
+		potential = { FROM = { government = confederation_government } }
+		trigger = { TECH_LEGALISM = 2 }
+		gold_cost = 150
+		build_time = 365
+        vassal_opinion = 7
+		diplomacy = 2
+		tax_income = 0.4
+		ai_creation_factor = 99
+		upgrades_from = con_diet2
+	}
+	con_diet_4 = {
+		desc = con_diet_desc4
+		potential = { FROM = { government = confederation_government } }
+		trigger = { TECH_LEGALISM = 4 }
+		gold_cost = 200
+		build_time = 365
+        vassal_opinion = 8
+		diplomacy = 2.5
+		tax_income = 0.4
+		ai_creation_factor = 99
+		upgrades_from = con_diet3
+	}
+	con_diet_5 = {
+		desc = con_diet_desc5
+		potential = { FROM = { government = confederation_government } }
+		trigger = { TECH_LEGALISM = 6 }
+		gold_cost = 300
+		build_time = 365
+        vassal_opinion = 9
+		diplomacy = 3
+		tax_income = 0.4
+		ai_creation_factor = 99
+		upgrades_from = con_diet4
+	}
+	con_diet_6 = {
+		desc = con_diet_desc6
+		potential = { FROM = { government = confederation_government } }
+		trigger = { TECH_LEGALISM = 8 }
+		gold_cost = 400
+		build_time = 365
+        vassal_opinion = 10
+		diplomacy = 3.5
+		tax_income = 0.5
+		ai_creation_factor = 99
+		upgrades_from = con_diet5
+	}
 }
 
 family_palace = {
