@@ -13,6 +13,25 @@ succession_laws = {
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 
 		}
+		default_selection = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					holder_scope = {
+						government = confederation_government
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 100
+				holder_scope = {
+					government = confederation_government
+				}
+			}
+		}
 		allow = {
 			custom_tooltip = {
 				text = not_forced_tt

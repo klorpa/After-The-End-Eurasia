@@ -128,6 +128,7 @@ succession_laws = {
 				holder_scope = { is_tribal = yes }
 			}
 			is_primary_type_title = no
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		allow = {
 			holder_scope = {
@@ -250,6 +251,7 @@ succession_laws = {
 			}
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = chinese_imperial_government } }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		allow = {
 			conditional_tooltip = {
@@ -370,6 +372,7 @@ succession_laws = {
 			}
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = chinese_imperial_government } }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		allow = {
 			conditional_tooltip = {
@@ -508,7 +511,7 @@ succession_laws = {
 				NOT = { tier = baron }
 				holder_scope = { is_patrician = yes }
 			}
-			
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		
 		allow = {
@@ -662,6 +665,7 @@ succession_laws = {
 				}
 				has_title_flag = alternate_byz
 			}
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		allow = {
 			conditional_tooltip = {
@@ -855,6 +859,7 @@ succession_laws = {
 				title = e_germany
 				has_title_flag = alternate_hre
 			}
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		allow = {
 			custom_tooltip = {
@@ -949,6 +954,7 @@ succession_laws = {
 				}
 			}
 			NOT = { holder_scope = { government = chinese_imperial_government } }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		allow = {
 			custom_tooltip = {
@@ -1055,7 +1061,7 @@ succession_laws = {
 				holder_scope = { is_feudal = yes }
 			}
 			NOT = { holder_scope = { government = chinese_imperial_government } }
-
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		allow = {
 			OR = {
@@ -1174,6 +1180,7 @@ succession_laws = {
 					}
 				}
 			}
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		default_selection = {
 			factor = 1
