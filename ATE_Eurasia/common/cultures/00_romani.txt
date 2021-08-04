@@ -2,6 +2,76 @@ rom = {
 	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
 	graphical_cultures = { serbsouthslavicgfx }
 
+	romanichal = {
+		graphical_cultures = { englishgfx }
+		
+		color = { 0.17 0.87 0.36 }
+
+		male_names = {
+			Abram Absolom Adam Alafair Albany Albert Alex Alexander Alfie Alfred Amberline Andrew Archie Arthur 
+			Baptista_Baptist "Baro Shero" "Buchlo Nakh" Belcher Benjamin Billy Blair Bramwell Brian Brodie Bruce Buchanan 
+			Charlie_Charles Chav Cikni "Cino Shero" Connor Cornelius Craig 
+			Damian Daniel Darren David Dives Django Donald Duncan Durriken Dylan 
+			Elijah Ellis Ephraim Eric Ezekiel 
+			Fergus Fingal Finlay Finn Francis Fraser Freddy 
+			Ganation Gary Gejzo George Gethin Geza Gilderoy Glyn Goliath Gordon 
+			Hamish Harry Henry Hezekiah 
+			Ian Imre 
+			Jack Jael Jake James Jeremiah John_John Johnny Joseph Josh 
+			Kalo Keith Kenneth Kilian 
+			Leon Leslie Levi Lewis Liam Lloyd Lucas 
+			Malcolm Martin Mason Mico Mauro Morgan 
+			Nehemiah Neil Nelson Noah 
+			Oliver Osian Owen 
+			Papin Patrick Paul Perrin 
+			Rab Rhys Richard Robert Rodney Rory Ryan 
+			Sampson Scott Shadrack Shuki Silvanus Stanko Stanley Stuart 
+			Taylor Theo Thomas Timothy 
+			Vandlo 
+			Walter Wilbur William 
+			Xavier 
+			Yanko 
+		}
+		female_names = {
+			Ailsa Amelia Amber Amelia Ann Anselina Arabella Aria Athalia Ava 
+			"Baro Shero" Begonia Beth Betty Bohemia Bonnie Bori Britannia 
+			Cadi Cerys Charlotte Cher Chloe Cinderella "Cino Shero" Clementina 
+			Delaine Diane Dorcas Doris Dotia 
+			Eilidh Elderia Eleanor Elin Elizabeth Ella Elsie Emily Emma Eria Esmeralda Eunice Everilda Evie 
+			Fairnette Fiadh Freya 
+			Gentilia Grace 
+			Harriet Hillary 
+			Ilona Iona Isla Isobella 
+			Jaelle Jeannie Jentina Jessica June 
+			Karen_Catherine Kathleen Kitty
+			Laura Lementeni Lily Louise Lowri 
+			Maisie Mali Malvina Maria Matilda Megan Millie Mizelli Muriel 
+			Nia 
+			Olivia 
+			Paige Penny Priscilla Pushomori 
+			Repentance Rhiannon Rhoda Romany Rose 
+			Sabina Seren Shannie Sheila Sinfai Skye Sophie 
+			Tasarla Tera Tracey Tryphena 
+			Unity 
+			Vancy Vertina Victoria 
+			Zillah 
+		}
+		
+		from_dynasty_prefix = "of "
+		male_patronym = "sko"
+
+		modifier = default_culture_modifier
+		dukes_called_kings = yes
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 60
+		mother_name_chance = 10
+	}
+
 	romani = {
 		graphical_cultures = { serbsouthslavicgfx }
 		
