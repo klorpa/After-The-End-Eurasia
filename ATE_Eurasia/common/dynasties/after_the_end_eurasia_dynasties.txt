@@ -2485,7 +2485,7 @@
 		}
 	}
 }
-1825002 = { name="al-Tirabin" culture=badawi   used_for_random=no
+1825002 = { name="al-Tirabin" culture=badawi used_for_random=no
 	coat_of_arms = { 
 		religion=sunni
 		template = 0
@@ -2519,7 +2519,19 @@
 		}
 	}
 }
-1848002 = { name="Hoffmann" culture=rhenish}
+1848002 = { name="Hoffmann" culture=rhenish used_for_random=no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 63
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1848003 = { name="Mann" culture=rhenish}
 1848004 = { name="Pfeiffer" culture=rhenish}
 1848005 = { name="Reichert" culture=rhenish}
@@ -4460,7 +4472,19 @@ coat_of_arms = {
 	}
 }
 1949032 = { name="Waldman" culture=bavarian}
-1949033 = { name="Mästlin" culture=bavarian}
+1949033 = { name="Mästlin" culture=bavarian used_for_random=no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 64
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1949034 = { name="Reger" culture=bavarian}
 1949035 = { name="Fleisser" culture=bavarian}
 1949036 = { name="Grundig" culture=bavarian}
@@ -5019,7 +5043,19 @@ coat_of_arms = {
 
 1952000 = { name="Willmar" culture=luxembourger}
 1952001 = { name="Dupong" culture=luxembourger}
-1952002 = { name="Eyschen" culture=luxembourger}
+1952002 = { name="Eyschen" culture=luxembourger used_for_random=no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 62
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1952003 = { name="Prüm" culture=luxembourger}
 1952004 = { name="Thilges" culture=luxembourger}
 1952005 = { name="Juncker" culture=luxembourger}
@@ -6959,11 +6995,35 @@ coat_of_arms = {
 2007228 = { name="Bertani" culture=provencal }
 2007229 = { name="Lepic" culture=provencal }
 2007230 = { name="de Segonzac" culture=provencal }
-2007231 = { name="Romanin" culture=provencal }
+2007231 = { name="Romanin" culture=provencal used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2007232 = { name="Thauvin" culture=provencal }
 2007233 = { name="Absalem" culture=provencal used_for_random=no }
 2007234 = { name="Des Goudes" culture=provencal used_for_random=no }
-2007235 = { name="Estièni" culture=provencal used_for_random=no }
+2007235 = { name="Estièni" culture=provencal used_for_random=no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2007236 = { name="Croce" culture=provencal used_for_random=no }
 2007237 = { name="Massi" culture=provencal used_for_random=no }
 2007238 = { name="Eyraú" culture=provencal used_for_random=no }
@@ -7269,11 +7329,35 @@ coat_of_arms = {
 2008244 = { name="Dusautoir" culture=occitan }
 2008245 = { name="Comte" culture=occitan }
 2008246 = { name="Lautrec" culture=occitan }
-2008247 = { name="Flores" culture = occitan }
+2008247 = { name="Flores" culture = occitan used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2008248 = { name="Bosc" culture=occitan }
 2008249 = { name="Arvioù" culture=occitan }
 2008250 = { name="Cabrilhac" culture=occitan }
-2008251 = { name="Fauré" culture=occitan }
+2008251 = { name="Fauré" culture=occitan used_for_random=no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2008252 = { name="Brattailhac" culture=occitan }
 2008253 = { name="Gautièr" culture=occitan }
 2008254 = { name="Saùbiroux" culture=occitan }
@@ -7349,7 +7433,7 @@ coat_of_arms = {
 2009033 = { name="Guérin" culture=parisian }
 2009034 = { name="Boyer" culture=parisian }
 2009035 = { name="Garnier" culture=parisian }
-2009036 = { name="Chevalier" culture=parisian 
+2009036 = { name="Chevalier" culture=parisian used_for_random=no
 	coat_of_arms = { 
 		template = 0
 		layer = {
@@ -7626,7 +7710,19 @@ coat_of_arms = {
 	}
 }
 2009227 = { name="Duras" culture=parisian }
-2009228 = { name="Outreterre" culture=parisian }
+2009228 = { name="Outreterre" culture=parisian used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 27
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2009229 = { name="Dubellay" culture=parisian }
 2009230 = { name="Larchère" culture=parisian
 	coat_of_arms = { 
@@ -7881,7 +7977,19 @@ coat_of_arms = {
 2010220 = { name="Sant-Jakez" culture=breton }
 2010221 = { name="Karadeg" culture=breton }
 2010222 = { name="Gabriel" culture=breton }
-2010223 = { name="Kozh-Stivelloù" culture=breton }
+2010223 = { name="Kozh-Stivelloù" culture=breton used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2010224 = { name="Yaouank" culture=breton }
 
 2011001 = { name="Zurbriggen" culture=arpitan used_for_random = no
@@ -9477,7 +9585,19 @@ coat_of_arms = {
 	}
 }
 2016221 = { name="Santiano" culture=gallo }
-2016222 = { name="Damasio" culture=gallo used_for_random=no }
+2016222 = { name="Damasio" culture=gallo used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2016223 = { name="Loeb" culture=gallo used_for_random=no }
 
 2017001 = { name="Albareda" culture=catalan }
@@ -14308,7 +14428,19 @@ coat_of_arms = {
 2037234 = { name="d'Tancarville" culture=norman }
 2037235 = { name="Tesson" culture=norman }
 2037236 = { name="Wac" culture=norman }
-2037237 = { name="Bovary" culture=norman used_for_random = no }
+2037237 = { name="Bovary" culture=norman used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2037238 = { name="Hors-de-Là" culture=norman }
 2037239 = { name="Goultard" culture=norman }
 
@@ -14531,7 +14663,7 @@ coat_of_arms = {
 2038217 = { name="Zaouche" culture=francarabe }
 2038218 = { name="Zarrouk" culture=francarabe }
 2038219 = { name="Zribi" culture=francarabe }
-2038220 = { name="Fekir" culture=francarabe
+2038220 = { name="Fekir" culture=francarabe used_for_random = no
 	coat_of_arms = { 
 		template = 0
 		layer = {
