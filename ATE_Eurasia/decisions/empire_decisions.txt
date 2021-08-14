@@ -159,4 +159,131 @@ decisions = {
 			}
 		}
 	}
+	form_sapmi = {
+        is_high_priority = yes
+        potential = {
+            is_alternate_start = no
+            NOT = { has_global_flag = sapmi_formed }
+            independent = yes
+            culture = sami
+            date >= 2666.5.21
+        }
+        allow = {
+            is_adult = yes
+            prisoner = no
+            NOT = { trait = incapable }
+            war = no
+            has_landed_title = c_lapland
+        }
+        effect = {
+            activate_title = { title = k_sapmi status = yes }
+            primary_title = {
+                k_sapmi = {
+                    grant_title = ROOT
+                    copy_title_laws = PREV
+                }
+            }
+            d_kola = {
+                de_jure_liege = k_sapmi 
+            }
+            d_lapland = {
+                de_jure_liege = k_sapmi 
+            }
+            d_halogaland = {
+                de_jure_liege = k_sapmi 
+            }
+            d_norrland = {
+                de_jure_liege = k_sapmi 
+            }
+            k_sapmi  = {
+                de_jure_liege = e_scandinavia
+            }
+            set_global_flag = sapmi_formed
+            spawn_unit = {
+                owner = ROOT
+                province = ROOT
+                home = ROOT
+              
+                troops = {
+                    archers = { 300 300 }
+                    light_cavalry = { 200 200 }
+                }
+
+                attrition = 0
+                disband_on_peace = no
+                maintenance_multiplier = 0
+            }
+        }
+        revoke_allowed = {
+            always = no
+        }
+        ai_will_do = {
+            factor = 100
+        }
+    }
+	form_kurdistan = {
+        is_high_priority = yes
+        potential = {
+            is_alternate_start = no
+            NOT = { has_global_flag = kurdistan_formed }
+            independent = yes
+            culture = kurdish
+            date >= 2666.5.21
+        }
+        allow = {
+            is_adult = yes
+            prisoner = no
+            NOT = { trait = incapable }
+            war = no
+            has_landed_title = d_kurdistan
+        }
+        effect = {
+            activate_title = { title = k_kurdistan status = yes }
+            primary_title = {
+                k_kurdistan = {
+                    grant_title = ROOT
+                    copy_title_laws = PREV
+                }
+            }
+            d_kurdistan = {
+                de_jure_liege = k_kurdistan 
+            }
+            d_mardin = {
+                de_jure_liege = k_kurdistan 
+            }
+            d_van = {
+                de_jure_liege = k_kurdistan 
+            }
+            d_urmiya = {
+                de_jure_liege = k_kurdistan 
+            }
+            d_sanandaj  = {
+                de_jure_liege = k_kurdistan
+            }
+            k_kurdistan  = {
+                de_jure_liege = e_al_mashriq
+            }
+            set_global_flag = kurdistan_formed
+            spawn_unit = {
+                owner = ROOT
+                province = ROOT
+                home = ROOT
+              
+                troops = {
+                    archers = { 300 300 }
+                    light_cavalry = { 200 200 }
+                }
+
+                attrition = 0
+                disband_on_peace = no
+                maintenance_multiplier = 0
+            }
+        }
+        revoke_allowed = {
+            always = no
+        }
+        ai_will_do = {
+            factor = 100
+        }
+    }
 }

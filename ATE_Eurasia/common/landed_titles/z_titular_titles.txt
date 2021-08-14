@@ -220,7 +220,6 @@ k_kurdistan = {
 	color2 = {255 255 255}
 	
 	capital = 2440 #Erbil
-	culture = kurdish
 	
 	kurdish = "Kurdistanê"
 	
@@ -279,6 +278,18 @@ k_czechoslovakia = {
 	}
 	
 	dignity=10
+}
+
+k_sapmi = {
+		color={ 14 20 90 }
+		color2 = { 255 255 255 }
+
+		capital = 701 #Murmansk
+	
+	
+	allow = {
+		always = no # Only created through special event
+	}
 }
 
 ### titular duchies ###
