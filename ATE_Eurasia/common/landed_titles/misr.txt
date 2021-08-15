@@ -2,7 +2,7 @@
 
 
 e_misr = {
-	color={ 110 164 138 }
+	color={ 210 84 38 }
 	color2={ 255 255 20 }
 	
 	capital = 1399 # c_al_qahirah
@@ -11,7 +11,7 @@ e_misr = {
 	foa = "RAIS_FOA"
 	
 	k_sudan = {
-		color={ 210 25 50 }
+		color={ 180 25 50 }
 		color2={ 255 255 255 }
 		
 		capital = 3062 #Khartoum
@@ -45,93 +45,6 @@ e_misr = {
 				b_wag_ageeb = {}
 				b_umdawwanban = {}
 				b_abu_groon = {}
-			}
-		}
-		d_aswan = {
-			color={ 200 19 134 }
-			color2={ 255 255 255 }
-			
-			capital = 3056 #dongola
-			
-			c_wadi_halfa = {
-				color={ 205 67 51 }
-				color2={ 255 255 255 }
-				
-				b_delgo = {}
-				b_wadi_halfa = {}
-				b_abri = {}
-				b_wawa = {}
-				b_suarda = {}
-				b_hameed = {}
-				b_qubbat_salim = {}
-				b_abu_sari = {}
-			}
-			c_dongola = {
-				color={ 87 36 142 }
-				color2={ 255 255 255 }
-				
-				b_kerma = {}
-				b_dongola = {}
-				b_tumbus = {}
-				b_jabal_sudayk = {}
-				b_al_koin = {}
-				b_kubtot = {}
-				b_shaykh_sharif = {}
-			}
-			c_al_goled = {
-				color={ 62 2 221 }
-				color2={ 255 255 255 }
-				
-				b_al_dabbah = {}
-				b_al_goled = {}
-				b_urbi = {}
-				b_karima = {}
-				b_al_khulaywah = {}
-				b_merowe = {}
-				b_girra_barra = {}
-			}
-		}
-		d_nile = {
-			color={ 232 54 16 }
-			color2={ 255 255 255 }
-			
-			capital = 3059 #ad damir
-			
-			c_abu_hamed = {
-				color={ 218 40 148 }
-				color2={ 255 255 255 }
-				
-				b_abu_hamed = {}
-				b_dagash = {}
-				b_al_kanisah = {}
-				b_artoli = {}
-				b_al_ghurayb = {}
-				b_shamkhiya = {}
-				b_al_jamamiyah = {}
-			}
-			c_ad_damir = {
-				color={ 253 10 166 }
-				color2={ 255 255 255 }
-				
-				b_atbara = {}
-				b_ad_damir = {}
-				b_berber = {}
-				b_albawga = {}
-				b_sayyalah = {}
-				b_al_ibediyya = {}
-				b_ageida = {}
-			}
-			c_shendi = {
-				color={ 183 85 200 }
-				color2={ 255 255 255 }
-				
-				b_wad_hamid = {}
-				b_shendi = {}
-				b_keli = {}
-				b_kabushiya = {}
-				b_el_matamah = {}
-				b_el_hobagi = {}
-				b_al_juwer = {}
 			}
 		}
 		d_white_nile = {
@@ -256,49 +169,6 @@ e_misr = {
 				b_el_fashaga = {}
 			}
 		}
-		d_red_sea = {
-			color={ 235 89 154 }
-			color2={ 255 255 255 }
-			
-			capital = 3107 #Port sudan
-			
-			c_port_sudan = {
-				color={ 61 13 118 }
-				color2={ 255 255 255 }
-				
-				b_suakin = {}
-				b_port_sudan = {}
-				b_sinkat = {}
-				b_gebeit = {}
-				b_tohamiyam = {}
-				b_arbat = {}
-				b_sumeet = {}
-			}
-			c_tokar = {
-				color={ 153 19 145 }
-				color2={ 255 255 255 }
-				
-				b_tokar = {}
-				b_haya = {}
-				b_ageeg = {}
-				b_hamashkoraib = {}
-				b_ar_rawjal = {}
-				b_musmer = {}
-				b_karora = {}
-			}
-			c_kassala = {
-				color={ 205 11 78 }
-				color2={ 255 255 255 }
-				
-				b_aroma = {}
-				b_kassala = {}
-				b_khashm_el_girba = {}
-				b_telkuk = {}
-				b_wadsharefy = {}
-				b_matamir = {}
-				b_halfa_el_jadida = {}
-			}
-		}
 		d_kordofan = {
 			color={ 149 12 39 }
 			color2={ 255 255 255 }
@@ -407,6 +277,116 @@ e_misr = {
 				b_al_faidiyah = {}
 			}
 		}
+		d_matruh = {
+			color={ 132 76 104 }
+			color2={ 255 255 255 }
+			
+			capital = 1407 # c_marsa_matruh
+			
+			c_marsa_matruh = { # 1407
+				color={ 122 86 99 }
+				color2={ 255 255 255 }
+				
+				b_ageebah = {}
+				b_marsa_matruh = {}
+				b_ad_dabah = {}
+				b_fuka = {}
+				b_garawlah = {}
+				b_zawyet_umm_el_rakham = {}
+				b_ageebah_2 = {}
+			}
+			c_al_hammam = { # 1409
+				color={ 41 51 124 }
+				color2={ 255 255 255 }
+				
+				b_al_hammam = {}
+				b_marina = {}
+				b_al_alamayn = {}
+				b_sidi_abd_al_rahman = {}
+				b_marassi = {}
+				b_moghara = {}
+				b_dimora = {}
+			}
+			c_sidi_barrani = { # 1408
+				color={ 122 97 97 }
+				color2={ 255 255 255 }
+				
+				b_sidi_barrani = {}
+				b_an_najilah = {}
+				b_as_sallum = {}
+				b_buqbuq = {}
+				b_akabah_el_kebir = {}
+				b_kafret_habbuni = {}
+				b_kafred_el_tawarsa = {}
+			}
+		}
+		d_al_wadi_al_jadid = {
+			color={ 171 181 101 }
+			color2={ 255 255 255 }
+			
+			capital = 1431 # c_al_kharijah
+			
+			c_al_kharijah = { # 1431
+				color={ 181 171 106 }
+				color2={ 255 255 255 }
+				
+				b_al_kharga = {}
+				b_baris = {}
+				b_al_bagawat = {}
+				b_qasr_al_ghuweita = {}
+				b_ayn_al_beleida = {}
+				b_umm_mawagir = {}
+				b_deir_mustafa_kashef = {}
+			}
+			c_ad_dakhlah = { # 1435
+				color={ 176 183 73 }
+				color2={ 255 255 255 }
+				
+				b_ad_dakhlah = {}
+				b_qasr_ad_dashla = {}
+				b_deir_al_hagar = {}
+				b_balat = {}
+				b_mut = {}
+				b_al_rashda = {}
+				b_tunaydah = {}
+			}
+			c_al_bahriya = { # 1433
+				color={ 130 75 55 }
+				color2={ 255 255 255 }
+				
+				b_al_bawiti = {}
+				b_qasr = {}
+				b_mandishah = {}
+				b_al_zabu = {}
+				b_al_aguz = {}
+				b_harrah = {}
+				b_al_hayez = {}
+			}
+			c_al_farafirah = { # 1434
+				color={ 183 176 123 }
+				color2={ 255 255 255 }
+				
+				b_al_farafirah = {}
+				b_bir_sitta = {}
+				b_al_mufid = {}
+				b_ayn_bishay = {}
+				b_bir_saba = {}
+				b_abu_minqar = {}
+				b_abu_nus = {}
+			}
+			c_siwa = { # 1432
+				color={ 122 99 118 }
+				color2={ 255 255 255 }
+				
+				b_shali_gadi = {}
+				b_siwa = {}
+				b_jabal_al_dakrur = {}
+				b_qarat_umm_al_sagheir = {}
+				b_aghurmi = {}
+				b_sitra = {}
+				b_ayn_al_ganbi = {}
+			}
+		}
 		d_kufra = {
 			color={ 125 149 194 }
 			color2={ 255 255 255 }
@@ -513,30 +493,6 @@ e_misr = {
 				b_al_kawsar = {}
 				b_al_memsha = {}
 			}
-			c_halayib = { # 1430
-				color={ 176 87 186 }
-				color2={ 255 255 255 }
-				
-				b_halayib = {}
-				b_salatayn = {}
-				b_abu_ramad = {}
-				b_ras_hadarba = {}
-				b_marsa_hameera = {}
-				b_abrak = {}
-				b_aydhab = {}
-			}
-			c_marsa_alam = { # 1429
-				color={ 234 67 118 }
-				color2={ 255 255 255 }
-				
-				b_abu_dabab = {}
-				b_marsa_alam = {}
-				b_khanais = {}
-				b_barramiya = {}
-				b_wadi_al_gemal = {}
-				b_medinet_al_haras = {}
-				b_smaragdus = {}
-			}
 			c_ras_gareb = { # 1427
 				color={ 165 44 107 }
 				color2={ 255 255 255 }
@@ -560,73 +516,6 @@ e_misr = {
 				b_azhar = {}
 				b_kalawy = {}
 				b_al_asher = {}
-			}
-		}
-		d_al_wadi_al_jadid = {
-			color={ 171 181 101 }
-			color2={ 255 255 255 }
-			
-			capital = 1431 # c_al_kharijah
-			
-			c_al_kharijah = { # 1431
-				color={ 181 171 106 }
-				color2={ 255 255 255 }
-				
-				b_al_kharga = {}
-				b_baris = {}
-				b_al_bagawat = {}
-				b_qasr_al_ghuweita = {}
-				b_ayn_al_beleida = {}
-				b_umm_mawagir = {}
-				b_deir_mustafa_kashef = {}
-			}
-			c_ad_dakhlah = { # 1435
-				color={ 176 183 73 }
-				color2={ 255 255 255 }
-				
-				b_ad_dakhlah = {}
-				b_qasr_ad_dashla = {}
-				b_deir_al_hagar = {}
-				b_balat = {}
-				b_mut = {}
-				b_al_rashda = {}
-				b_tunaydah = {}
-			}
-			c_al_bahriya = { # 1433
-				color={ 130 75 55 }
-				color2={ 255 255 255 }
-				
-				b_al_bawiti = {}
-				b_qasr = {}
-				b_mandishah = {}
-				b_al_zabu = {}
-				b_al_aguz = {}
-				b_harrah = {}
-				b_al_hayez = {}
-			}
-			c_al_farafirah = { # 1434
-				color={ 183 176 123 }
-				color2={ 255 255 255 }
-				
-				b_al_farafirah = {}
-				b_bir_sitta = {}
-				b_al_mufid = {}
-				b_ayn_bishay = {}
-				b_bir_saba = {}
-				b_abu_minqar = {}
-				b_abu_nus = {}
-			}
-			c_siwa = { # 1432
-				color={ 122 99 118 }
-				color2={ 255 255 255 }
-				
-				b_shali_gadi = {}
-				b_siwa = {}
-				b_jabal_al_dakrur = {}
-				b_qarat_umm_al_sagheir = {}
-				b_aghurmi = {}
-				b_sitra = {}
-				b_ayn_al_ganbi = {}
 			}
 		}
 		d_as_suways = {
@@ -670,48 +559,6 @@ e_misr = {
 				b_faqus = {}
 				b_minya_al_qamh = {}
 				b_al_qurayn = {}
-			}
-		}
-		d_buhayra_nasr = {
-			color={ 84 117 250 }
-			color2={ 255 255 255 }
-			
-			capital = 1424 # c_aswan
-			
-			c_aswan = { # 1424
-				color={ 94 107 255 }
-				color2={ 255 255 255 }
-				
-				b_fantin = {}
-				b_aswan = {}
-				b_filat = {}
-				b_kawm_umbu = {}
-				b_daraw = {}
-				b_nasr = {}
-			}
-			c_abu_sinbal = { # 1425
-				color={ 35 86 255 }
-				color2={ 255 255 255 }
-				
-				b_abu_sinbal = {}
-				b_arqin = {}
-				b_gebel_adda = {}
-				b_nasr_2 = {}
-				b_dakka = {}
-				b_amada = {}
-				b_tushka = {}
-			}
-			c_idfu = { # 1439
-				color={ 25 0 255 }
-				color2={ 255 255 255 }
-				
-				b_al_bisaliyyah = {}
-				b_idfu = {}
-				b_al_sibaiyyah = {}
-				b_nagaa_hassanein = {}
-				b_al_kubaniyah = {}
-				b_al_ramadi = {}
-				b_al_raqaba = {}
 			}
 		}
 		d_delta_an_nil = {
@@ -894,49 +741,6 @@ e_misr = {
 				b_tahta = {}
 			}
 		}
-		d_matruh = {
-			color={ 132 76 104 }
-			color2={ 255 255 255 }
-			
-			capital = 1407 # c_marsa_matruh
-			
-			c_marsa_matruh = { # 1407
-				color={ 122 86 99 }
-				color2={ 255 255 255 }
-				
-				b_ageebah = {}
-				b_marsa_matruh = {}
-				b_ad_dabah = {}
-				b_fuka = {}
-				b_garawlah = {}
-				b_zawyet_umm_el_rakham = {}
-				b_ageebah_2 = {}
-			}
-			c_al_hammam = { # 1409
-				color={ 41 51 124 }
-				color2={ 255 255 255 }
-				
-				b_al_hammam = {}
-				b_marina = {}
-				b_al_alamayn = {}
-				b_sidi_abd_al_rahman = {}
-				b_marassi = {}
-				b_moghara = {}
-				b_dimora = {}
-			}
-			c_sidi_barrani = { # 1408
-				color={ 122 97 97 }
-				color2={ 255 255 255 }
-				
-				b_sidi_barrani = {}
-				b_an_najilah = {}
-				b_as_sallum = {}
-				b_buqbuq = {}
-				b_akabah_el_kebir = {}
-				b_kafret_habbuni = {}
-				b_kafred_el_tawarsa = {}
-			}
-		}
 		d_shamal_as_said = {
 			color={ 178 0 131 }
 			color2={ 255 255 255 }
@@ -1033,6 +837,213 @@ e_misr = {
 				b_seyan = {}
 				b_birqatia = {}
 				b_zaaraniq = {}
+			}
+		}
+	}
+	k_nubia = {
+		color={ 210 55 20 }
+		color2={ 255 255 255 }
+		
+		capital = 3056 #dongola
+			
+		d_dongola = {
+			color={ 200 119 14 }
+			color2={ 255 255 255 }
+			
+			capital = 3056 #dongola
+			
+			c_wadi_halfa = {
+				color={ 205 167 51 }
+				color2={ 255 255 255 }
+				
+				b_delgo = {}
+				b_wadi_halfa = {}
+				b_abri = {}
+				b_wawa = {}
+				b_suarda = {}
+				b_hameed = {}
+				b_qubbat_salim = {}
+				b_abu_sari = {}
+			}
+			c_dongola = {
+				color={ 187 136 142 }
+				color2={ 255 255 255 }
+				
+				b_kerma = {}
+				b_dongola = {}
+				b_tumbus = {}
+				b_jabal_sudayk = {}
+				b_al_koin = {}
+				b_kubtot = {}
+				b_shaykh_sharif = {}
+			}
+			c_al_goled = {
+				color={ 162 102 21 }
+				color2={ 255 255 255 }
+				
+				b_al_dabbah = {}
+				b_al_goled = {}
+				b_urbi = {}
+				b_karima = {}
+				b_al_khulaywah = {}
+				b_merowe = {}
+				b_girra_barra = {}
+			}
+		}
+		d_buhayra_nasr = {
+			color={ 184 117 50 }
+			color2={ 255 255 255 }
+			
+			capital = 1424 # c_aswan
+			
+			c_aswan = { # 1424
+				color={ 194 107 55 }
+				color2={ 255 255 255 }
+				
+				b_fantin = {}
+				b_aswan = {}
+				b_filat = {}
+				b_kawm_umbu = {}
+				b_daraw = {}
+				b_nasr = {}
+			}
+			c_abu_sinbal = { # 1425
+				color={ 235 86 5 }
+				color2={ 255 255 255 }
+				
+				b_abu_sinbal = {}
+				b_arqin = {}
+				b_gebel_adda = {}
+				b_nasr_2 = {}
+				b_dakka = {}
+				b_amada = {}
+				b_tushka = {}
+			}
+			c_idfu = { # 1439
+				color={ 225 120 25 }
+				color2={ 255 255 255 }
+				
+				b_al_bisaliyyah = {}
+				b_idfu = {}
+				b_al_sibaiyyah = {}
+				b_nagaa_hassanein = {}
+				b_al_kubaniyah = {}
+				b_al_ramadi = {}
+				b_al_raqaba = {}
+			}
+		}
+		d_nile = {
+			color={ 232 54 16 }
+			color2={ 255 255 255 }
+			
+			capital = 3059 #ad damir
+			
+			c_abu_hamed = {
+				color={ 218 40 148 }
+				color2={ 255 255 255 }
+				
+				b_abu_hamed = {}
+				b_dagash = {}
+				b_al_kanisah = {}
+				b_artoli = {}
+				b_al_ghurayb = {}
+				b_shamkhiya = {}
+				b_al_jamamiyah = {}
+			}
+			c_ad_damir = {
+				color={ 253 10 166 }
+				color2={ 255 255 255 }
+				
+				b_atbara = {}
+				b_ad_damir = {}
+				b_berber = {}
+				b_albawga = {}
+				b_sayyalah = {}
+				b_al_ibediyya = {}
+				b_ageida = {}
+			}
+			c_kassala = {
+				color={ 205 11 78 }
+				color2={ 255 255 255 }
+				
+				b_aroma = {}
+				b_kassala = {}
+				b_khashm_el_girba = {}
+				b_telkuk = {}
+				b_wadsharefy = {}
+				b_matamir = {}
+				b_halfa_el_jadida = {}
+			}
+			c_shendi = {
+				color={ 183 85 200 }
+				color2={ 255 255 255 }
+				
+				b_wad_hamid = {}
+				b_shendi = {}
+				b_keli = {}
+				b_kabushiya = {}
+				b_el_matamah = {}
+				b_el_hobagi = {}
+				b_al_juwer = {}
+			}
+		}
+		d_red_sea = {
+			color={ 235 89 154 }
+			color2={ 255 255 255 }
+			
+			capital = 3107 #Port sudan
+			
+			c_port_sudan = {
+				color={ 61 13 118 }
+				color2={ 255 255 255 }
+				
+				nubian = "Port Nubia"
+				
+				b_suakin = {}
+				b_port_sudan = {
+					nubian = "Port Nubia"
+				}
+				b_sinkat = {}
+				b_gebeit = {}
+				b_tohamiyam = {}
+				b_arbat = {}
+				b_sumeet = {}
+			}
+			c_tokar = {
+				color={ 153 19 145 }
+				color2={ 255 255 255 }
+				
+				b_tokar = {}
+				b_haya = {}
+				b_ageeg = {}
+				b_hamashkoraib = {}
+				b_ar_rawjal = {}
+				b_musmer = {}
+				b_karora = {}
+			}
+			c_halayib = { # 1430
+				color={ 176 87 86 }
+				color2={ 255 255 255 }
+				
+				b_halayib = {}
+				b_salatayn = {}
+				b_abu_ramad = {}
+				b_ras_hadarba = {}
+				b_marsa_hameera = {}
+				b_abrak = {}
+				b_aydhab = {}
+			}
+			c_marsa_alam = { # 1429
+				color={ 234 67 18 }
+				color2={ 255 255 255 }
+				
+				b_abu_dabab = {}
+				b_marsa_alam = {}
+				b_khanais = {}
+				b_barramiya = {}
+				b_wadi_al_gemal = {}
+				b_medinet_al_haras = {}
+				b_smaragdus = {}
 			}
 		}
 	}
