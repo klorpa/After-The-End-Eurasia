@@ -12,14 +12,14 @@ e_himalaya = {
 		
 		capital = 3121 #Kathmandu
 		
-		d_nepal = {
-			color={ 250 10 50 }
+		d_kathmandu = {
+			color={ 210 50 60 }
 			color2={ 255 255 255 }
 			
 			capital = 3121 #Kathmandu
 			
 			c_kathmandu = {
-				color={ 122 100 5 }
+				color={ 222 100 75 }
 				color2={ 255 255 255 }
 				
 				b_kathmandu = {}
@@ -31,7 +31,7 @@ e_himalaya = {
 				b_dhulikhel = {}
 			}
 			c_bagmati = {
-				color={ 244 102 13 }
+				color={ 244 12 13 }
 				color2={ 255 255 255 }
 				
 				b_dhunche = {}
@@ -42,8 +42,58 @@ e_himalaya = {
 				b_bidur = {}
 				b_gerkhu = {}
 			}
+		}
+		d_gandaki = {
+			color={ 249 82 13 }
+			color2={ 255 255 255 }
+			
+			capital = 3018 #Birgunj
+			
+			c_gandaki = {
+				color={ 254 43 32 }
+				color2={ 255 255 255 }
+				
+				b_pokhara = {}
+				b_vyas = {}
+				b_shuklagandaki = {}
+				b_gaindakot = {}
+				b_baglung = {}
+				b_waling = {}
+				b_gorkha = {}
+			}
+			c_lumbini = {
+				color={ 243 81 5 }
+				color2={ 255 255 255 }
+				
+				b_tilottama = {}
+				b_siddharthanagar = {}
+				b_butwal = {}
+				b_tansen = {}
+				b_lalmatiya = {}
+				b_sandhikharka = {}
+				b_resunga = {}
+			}
+			c_birgunj = {
+				color={ 199 16 65 }
+				color2={ 255 255 255 }
+				
+				b_birgunj = {}
+				b_bharatpur_2 = {}
+				b_ratnanagar = {}
+				b_devachuli = {}
+				b_kawasoti = {}
+				b_bhandara_2 = {}
+				b_gadhimai = {}
+			}
+		}
+		d_karnali = {
+			color={ 225 12 79 }
+			color2={ 255 255 255 }
+			
+			capital = 2954 #Bheri
+			
 			c_sudurpashchim = {
-				color={ 196 54 33 }
+				color={ 196 74 33 }
 				color2={ 255 255 255 }
 				
 				b_godawari = {}
@@ -55,7 +105,7 @@ e_himalaya = {
 				b_krishnapur_2 = {}
 			}
 			c_karnali = {
-				color={ 177 46 45 }
+				color={ 157 46 45 }
 				color2={ 255 255 255 }
 				
 				b_manma = {}
@@ -78,35 +128,66 @@ e_himalaya = {
 				b_jajarkot = {}
 				b_musikot_2 = {}
 			}
-			c_gandaki = {
-				color={ 154 43 32 }
+		}
+		d_kosi = {
+			color={ 236 15 9 }
+			color2={ 255 255 255 }
+			
+			capital = 2742 #Biratnagar
+			
+			c_biratnagar = {
+				color={ 226 43 12 }
 				color2={ 255 255 255 }
 				
-				b_pokhara = {}
-				b_vyas = {}
-				b_kawasoti = {}
-				b_gaindakot = {}
-				b_baglung = {}
-				b_waling = {}
-				b_gorkha = {}
+				b_biratnagar = {}
+				b_dharan = {}
+				b_itahari = {}
+				b_damak = {}
+				b_birtamode = {}
+				b_inaruwa = {}
+				b_bhadrapur = {}
 			}
-			c_lumbini = {
-				color={ 243 41 5 }
+			c_sankhuwasabha = {
+				color={ 179 68 65 }
 				color2={ 255 255 255 }
 				
-				b_tilottama = {}
-				b_siddharthanagar = {}
-				b_butwal = {}
-				b_tansen = {}
-				b_lalmatiya = {}
-				b_sandhikharka = {}
-				b_resunga = {}
+				b_khandbari = {}
+				b_diktel = {}
+				b_chainpur = {}
+				b_bhojpur_2 = {}
+				b_pathibhara = {}
+				b_dudhakunda = {}
+				b_siddhicharan = {}
+			}
+			c_dhankuta = {
+				color={ 199 68 65 }
+				color2={ 255 255 255 }
+				
+				b_dhankuta = {}
+				b_myanglung = {}
+				b_phidim = {}
+				b_taplejung = {}
+				b_ilam_2 = {}
+				b_bharapa = {}
+				b_goduk = {}
+			}
+			c_janakpur = {
+				color={ 251 23 20 }
+				color2={ 255 255 255 }
+				
+				b_janakpur = {}
+				b_rajbiraj = {}
+				b_mithila = {}
+				b_thakle = {}
+				b_gaighat = {}
+				b_bardibas = {}
+				b_mirchaiya = {}
 			}
 		}
 	}
 	
 	k_sikkim = {
-		color={ 193 122 149 }
+		color={ 193 22 29 }
 		color2={ 255 255 255 }
 		
 		capital = 2765 # c_sikkim
@@ -145,7 +226,7 @@ e_himalaya = {
 		}
 	}
 	k_bhutan = {
-		color={ 223 166 15 }
+		color={ 243 126 15 }
 		color2={ 255 255 255 }
 		
 		capital = 2743 # c_thimphu
@@ -170,7 +251,7 @@ e_himalaya = {
 				b_dagana = {}
 			}
 			c_trashigang = { # 2744
-				color={ 19 139 190 }
+				color={ 219 139 90 }
 				color2={ 255 255 255 }
 				
 				b_trashigang = {}
@@ -182,7 +263,7 @@ e_himalaya = {
 				b_lhuntse = {}
 			}
 			c_trongsa = { # 2970
-				color={ 80 242 67 }
+				color={ 180 142 67 }
 				color2={ 255 255 255 }
 				
 				b_trongsa = {}
@@ -263,7 +344,7 @@ e_himalaya = {
 			capital = 2728 #Jammu
 			
 			c_jammu = { #2728
-				color={ 237 252 75 }
+				color={ 237 52 75 }
 				color2={ 255 255 255 }
 				
 				b_jammu = {}
@@ -287,7 +368,7 @@ e_himalaya = {
 				b_dabban = {}
 			}
 			c_rajouri = {
-				color={ 41 147 73 }
+				color={ 141 47 73 }
 				color2={ 255 255 255 }
 				
 				b_rajouri = {}
@@ -399,7 +480,7 @@ e_himalaya = {
 				b_kasauli = {}
 			}
 			c_hamirpur = {
-				color={ 53 0 83 }
+				color={ 53 33 183 }
 				color2={ 255 255 255 }
 				
 				b_hamirpur = {}
@@ -411,7 +492,7 @@ e_himalaya = {
 				b_badsar = {}
 			}
 			c_sirmaur = {
-				color={ 119 57 9 }
+				color={ 119 57 229 }
 				color2={ 255 255 255 }
 				
 				b_nahan = {}
@@ -435,7 +516,7 @@ e_himalaya = {
 				b_una = {}
 			}
 			c_mandi = {
-				color={ 122 114 147 }
+				color={ 122 114 247 }
 				color2={ 255 255 255 }
 				
 				b_mandi = {}
@@ -460,13 +541,13 @@ e_himalaya = {
 			}
 		}
 		d_uttarakhand = {
-			color={ 70 70 151 }
+			color={ 70 120 181 }
 			color2={ 255 255 255 }
 			
 			capital = 2759 #Shimla
 			
 			c_uttarkashi = {
-				color={ 46 32 133 }
+				color={ 46 132 153 }
 				color2={ 255 255 255 }
 				
 				b_uttarkashi = {}
@@ -490,7 +571,7 @@ e_himalaya = {
 				b_selakui = {}
 			}
 			c_almora = {
-				color={ 55 46 136 }
+				color={ 75 76 156 }
 				color2={ 255 255 255 }
 				
 				b_almora = {}
@@ -503,7 +584,7 @@ e_himalaya = {
 				b_munsyari = {}
 			}
 			c_nainital = {
-				color={ 102 24 186 }
+				color={ 102 124 186 }
 				color2={ 255 255 255 }
 				
 				b_nainital = {}
