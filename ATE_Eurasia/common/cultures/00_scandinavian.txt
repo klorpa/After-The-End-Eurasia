@@ -367,6 +367,75 @@ scandinavian = {
 		modifier = default_culture_modifier
 	}
 	
+	nordlending = { #Nordlending
+		graphical_cultures = { norsegfx }
+		
+		color = { 0.5 0.8 0.9 }
+
+		male_names = {
+			Arve Asle Adrian Axel_Aksel Agnar Alf_Alf Askeladd Arnodd Almar Asbjørn Arnt Arnolf_Arnulf Are Annfinn
+			Bernt Børge Balthazar Bendek_Benedict Brede Bernhof Bardo Boje
+			Dag Ditleif Daniel_Daniel
+			Einar_Einar Eindride Erling Espen_Esben Eiler Erlend Elliot Emil Edmond Eldor Eidis Edvart_Edward Edin
+			Finn Frode Fredmund
+			Georg_George Gudolf Godtvard Gunder Gunnbjørn
+			Hjallis_Hjalmar Hårek Hallbjørn Håkon_Håkon Henning Hermod Harald_Harold Haagen Hallvar_Halvard Helmer 
+			Ivar_Iver Idar Ingar Ingulv_Ingolf Ingebrigt_Engelbrecht
+			Johan_Johannes Jo_John Jørleif Jentoft Jørgen_Jørgen Johs_Johannes Jostein_Jostein Jernskjegge Jorodd
+			Kjartan Klaus_Klaus Knut_Knut Kim Kjelvik Kjell_Kjell Kolbjørn Karlot Kristoffer_Christopher Karl-Ove
+			Lars Leon Lasse Ludvig_Louis Lauris_Lauritz Leidulf Lornts
+			Marvin Magne Mads Magnar Mikal_Michael Magnor Mathias_Mathias Mentz
+			Nils_Nicholas Niklas_Nicholas
+			Olaf_Olaf Oddleiv_Oddleiv Otto Oddmund Orm
+			Peder_Peter Petter_Peter 
+			Roger Rune_Rune Roald Remo Reinulf Rudolf_Rudolph Rohnny_Ronald
+			Sander_Alexander Sture Sverre Samuel Stephan_Stephen Steinar Skjalg Sivert Skule Sigurd_Sigurd Sigstein Sofus Sindre
+			Thoning Torstein_Thorstein Tormod Trond Tomas_Thomas Tambarskjelve Tor_Tor Tore_Tore Tordenskjold Tjodrek_Theodoric Tøger Tycho_Tyke
+			Vegar_Vegard Viktor_Victor Vebjørn Valemon Vidar_Vidar
+			Wilfred
+			Eystein_Øystein Eyvind_Øyvind
+		}
+		female_names = {
+			Agdis Airin Alfrid Antonette Aina Amy
+			Bente Berit Bergljot Bjørg Borgny
+			Caro_Caroline Charlotte
+			Dagrun_Dagrún Dorthe Duva Dordi
+			Edvarda Elaine Elvine Ena Enny Eva Else-Mai
+			Freidis_Frøydis Frid 
+			Gull Gro Gunnlaug Guri Gudbjørg
+			Hagar Halfrid Helfrid Herbjørg Hillgunn Herlaug 
+			Ingny Ingvalda Isa Ingvild Inga
+			Jannicke_Jannikke Jordis Jonveig Josefine_Josephine
+			Kaja Kari Karianne Kiersten 
+			Lana Lagerda Lene Lillegull Lill
+			Magda Magnhild Maiken Marthe Molla Martine 
+			Nauma Nora Norlaug Nikoline
+			Oda_Odda Olea
+			Pernhilde Pia 
+			Randi Ravna Roselin Runa Ragne
+			Sigrid Sara Sigdis Sigrun Sissel Skade Sunniva Synnøve Synne Sigrun_Sigrun
+			Tora Torunn Tanja Tara Turid
+			Ulrikke
+			Veslemøy Vera Valborg
+			Ågot Åste
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	
 	norwegian = { #Nordmann
 		graphical_cultures = { norsegfx }
 		
