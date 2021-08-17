@@ -54,7 +54,7 @@ e_italy = {
 		palatinate="Venetien"
 		
 		d_venice = {
-			color={ 97 130 112 }
+			color={ 97 130 212 }
 			color2={ 255 255 255 }
 			
 			capital = 1153 #Venice
@@ -88,7 +88,7 @@ e_italy = {
 			palatinate="Venedig"
 			
 			c_venice = {
-				color={ 97 130 112 }
+				color={ 97 150 162 }
 				color2={ 255 255 255 }
 
 				rhenish="Venedig"
@@ -135,7 +135,7 @@ e_italy = {
 			}
 		}
 		d_veneto = {
-			color={ 34 137 126 }
+			color={ 34 217 226 }
 			capital = 356 # Venice
 
 			rhenish="Venetien"
@@ -167,7 +167,7 @@ e_italy = {
 			palatinate="Venetien"
 			
 			c_padua = {
-				color={ 14 51 31 }
+				color={ 14 151 171 }
 				color2={ 255 255 255 }
 
 				neapolitan="Padova"
@@ -222,7 +222,7 @@ e_italy = {
 					venetian="Binjàxego"}
 			}
 			c_verona = {
-				color={ 123 164 127 }
+				color={ 123 164 227 }
 				color2={ 255 255 255 }
 
 				rhenish="Welschbern"
@@ -319,7 +319,7 @@ e_italy = {
 					lombard="Legnach"}
 			}
 			c_treviso = {
-				color={ 80 147 86 }
+				color={ 80 147 186 }
 				color2={ 255 255 255 }
 
 				sicilian="Trivisu"
@@ -364,49 +364,19 @@ e_italy = {
 					venetian="Oderso"}
 			}
 		}
-	d_trentino = {
-		color={ 34 137 126 }
-		capital = 356 # Venice
+		d_trentino = {
+			color={ 34 137 156 }
+			capital = 356 # Venice
 
-		rhenish="Welschtirol"
-		low_saxon="Welschtirol"
-		ossi="Welschtirol"
-		upper_saxon="Welschtirol"
-		bavarian="Welschtiroi"
-		swabian="Welschtirol"
-		austrian="Welschtirol"
-		austrian="Welschtirol"
-		luxembourger="Welschtiroul"
-		neapolitan="Trento"
-		umbrian="Trento"
-		tuscan="Trento"
-		sicilian="Trentu"
-		venetian="Trento"
-		romagnol="Trentén"
-		sardinian="Trentin"
-		friulian="Trento"
-		ligurian="Trento"
-		piedmontese="Trent"
-		lombard="Trent"
-		parisian="Trentin"
-		walloon="Trentin"
-		chti="Trentin"
-		occitan="Trent"
-		provencal="Trent"
-		palatinate="Welschtirol"
-			
-		c_trentino = {
-			color={ 63 117 68 }
-			color2={ 255 255 255 }
-
-			rhenish="Trient"
-			low_saxon="Trient"
-			ossi="Trient"
-			upper_saxon="Trient"
-			bavarian="Treant"
-			swabian="Trient"
-			austrian="Trient"
-			schwyzer="Trient"
+			rhenish="Welschtirol"
+			low_saxon="Welschtirol"
+			ossi="Welschtirol"
+			upper_saxon="Welschtirol"
+			bavarian="Welschtiroi"
+			swabian="Welschtirol"
+			austrian="Welschtirol"
+			austrian="Welschtirol"
+			luxembourger="Welschtiroul"
 			neapolitan="Trento"
 			umbrian="Trento"
 			tuscan="Trento"
@@ -423,7 +393,37 @@ e_italy = {
 			chti="Trentin"
 			occitan="Trent"
 			provencal="Trent"
-			palatinate="Trient"
+			palatinate="Welschtirol"
+				
+			c_trentino = {
+				color={ 63 117 168 }
+				color2={ 255 255 255 }
+
+				rhenish="Trient"
+				low_saxon="Trient"
+				ossi="Trient"
+				upper_saxon="Trient"
+				bavarian="Treant"
+				swabian="Trient"
+				austrian="Trient"
+				schwyzer="Trient"
+				neapolitan="Trento"
+				umbrian="Trento"
+				tuscan="Trento"
+				sicilian="Trentu"
+				venetian="Trento"
+				romagnol="Trentén"
+				sardinian="Trentin"
+				friulian="Trento"
+				ligurian="Trento"
+				piedmontese="Trent"
+				lombard="Trent"
+				parisian="Trentin"
+				walloon="Trentin"
+				chti="Trentin"
+				occitan="Trent"
+				provencal="Trent"
+				palatinate="Trient"
 				
 				b_rovereto = {
 					rhenish="Rofreit"
@@ -523,9 +523,9 @@ e_italy = {
 				}
 			}
 	
-		c_belluno = {
-			color={ 122 133 123 }
-			color2={ 255 255 255 }
+			c_belluno = {
+				color={ 122 183 223 }
+				color2={ 255 255 255 }
 
 				venetian="Belùn"
 				sicilian="Bellunu"
@@ -565,7 +565,7 @@ e_italy = {
 			}
 		}
 		d_fruli = {
-			color={ 112 146 115 }
+			color={ 112 186 215 }
 			capital = 1154 #Udine
 			
 			rhenish="Friaul"
@@ -598,7 +598,7 @@ e_italy = {
 			palatinate="Friaul"
 			
 			c_udine = {
-				color={ 112 146 115 }
+				color={ 112 146 215 }
 				color2={ 255 255 255 }
 				
 				rhenish="Weiden"
@@ -686,7 +686,7 @@ e_italy = {
 				}
 			}
 			c_pordenone = {
-				color={ 101 155 106 }
+				color={ 101 155 206 }
 				color2={ 255 255 255 }
 				
 				sicilian="Pordenoni"
@@ -734,7 +734,7 @@ e_italy = {
 		catholic = 6000 #Rome Proximity
 				
 		d_liguria = {
-			color={ 244 141 120 }
+			color={ 244 161 120 }
 			color2={ 255 255 255 }
 			
 			capital = 1129 # Genoa
@@ -771,7 +771,7 @@ e_italy = {
 			palatinate="Ligurje"
 			
 			c_genoa = {
-				color={ 99 174 101 }
+				color={ 199 174 101 }
 				color2={ 255 255 255 }
 
 				rhenish="Jenua"
@@ -905,7 +905,7 @@ e_italy = {
 			}
 		}
 		d_piedmont = {
-			color={ 118 18 50 }
+			color={ 198 168 150 }
 			color2={ 255 255 255 }
 			
 			capital = 1132 # Turin
@@ -942,7 +942,7 @@ e_italy = {
 			palatinate="Piemond"
 			
 			c_cuneo = {
-				color={ 134 181 53 }
+				color={ 184 181 53 }
 				color2={ 255 255 255 }
 
 				sicilian="Cuneu"
@@ -998,7 +998,7 @@ e_italy = {
 				}
 			}
 			c_turin = {
-				color={ 71 98 51 }
+				color={ 171 158 51 }
 				color2={ 255 255 255 }
 
 				neapolitan="Turino"
@@ -1054,7 +1054,7 @@ e_italy = {
 				}
 			}
 			c_aosta = {
-				color={ 183 70 206 }
+				color={ 183 170 106 }
 				color2={ 255 255 255 }
 
 				rhenish="Augschtal"
@@ -1173,7 +1173,7 @@ e_italy = {
 					friulian="San Cristoforo"}
 			}
 			c_alessandria = {
-				color={ 70 88 56 }
+				color={ 170 158 56 }
 				color2={ 255 255 255 }
 
 				rhenish="Alexandria"
@@ -1262,7 +1262,7 @@ e_italy = {
 				}
 			}
 			c_novara = {
-				color={ 64 149 74 }
+				color={ 164 149 74 }
 				color2={ 255 255 255 }
 
 				sicilian="Nuvara"
@@ -1300,7 +1300,7 @@ e_italy = {
 			}
 		}
 		d_lombardy = {
-			color={ 200 133 222 }
+			color={ 200 173 22 }
 			color2={ 255 255 255 }
 			capital = 1148 # Brescia
 
@@ -1335,7 +1335,7 @@ e_italy = {
 			palatinate="Lombadai"
 			
 			c_sondrio = {
-				color={ 59 153 117 }
+				color={ 159 153 117 }
 				color2={ 255 255 255 }
 
 				rhenish="Sünders"
@@ -1437,7 +1437,7 @@ e_italy = {
 					lombard="Talamuna"}
 			}
 			c_bergamo = {
-				color={ 62 181 117 }
+				color={ 212 181 117 }
 				color2={ 255 255 255 }
 
 				lombard="Bèrghem"
@@ -1483,7 +1483,7 @@ e_italy = {
 				}
 			}
 			c_brescia = {
-				color={ 146 205 173 }
+				color={ 246 205 173 }
 				color2={ 255 255 255 }
 
 				rhenish="Welschbrixen"
@@ -1548,7 +1548,7 @@ e_italy = {
 				}
 			}
 			c_mantua = {
-				color={ 26 187 124 }
+				color={ 226 187 124 }
 				color2={ 255 255 255 }
 
 				neapolitan="Mantova"
@@ -1645,7 +1645,7 @@ e_italy = {
 			provencal="Romanha"
 				
 			c_parma = {
-				color={ 33 58 6 }
+				color={ 233 213 16 }
 				color2={ 255 255 255 }
 
 				romagnol="Pärma"
@@ -1681,7 +1681,7 @@ e_italy = {
 				}
 			}
 			c_modena = {
-				color={ 50 95 32 }
+				color={ 250 195 32 }
 				color2={ 255 255 255 }
 
 				sicilian="Mòdena"
@@ -1719,7 +1719,7 @@ e_italy = {
 				}
 			}
 			c_bologna = {
-				color={ 77 104 66 }
+				color={ 177 174 66 }
 				color2={ 255 255 255 }
 
 				sicilian="Bulogna"
@@ -1765,7 +1765,7 @@ e_italy = {
 				}
 			}
 			c_ferrara = {
-				color={ 170 208 173 }
+				color={ 210 198 173 }
 				color2={ 255 255 255 }
 
 				romagnol="Fràra"
@@ -1864,7 +1864,7 @@ e_italy = {
 				}
 			}
 			c_ravenna = {
-				color={ 97 159 72 }
+				color={ 197 159 72 }
 				color2={ 255 255 255 }
 
 				venetian="Ravena"
@@ -1950,7 +1950,7 @@ e_italy = {
 			palatinate="Mailand"
 		
 			c_pavia = {
-				color={ 97 170 67 }
+				color={ 197 170 67 }
 				color2={ 255 255 255 }
 				
 				sicilian="Pavìa"
@@ -1981,7 +1981,7 @@ e_italy = {
 				b_garlasco = {}
 			}
 			c_milan = {
-				color={ 79 117 83 }
+				color={ 179 117 83 }
 				color2={ 255 255 255 }
 
 				rhenish="Mailand"
@@ -2043,7 +2043,7 @@ e_italy = {
 				}
 			}
 			c_varesotto = {
-				color={ 143 182 147 }
+				color={ 183 182 147 }
 				color2={ 255 255 255 }
 
 				rhenish="Väris"
@@ -2236,7 +2236,7 @@ e_italy = {
 			christian = 750 # Crusade target weight
 			
 			c_latina = {
-				color={ 74 142 103 }
+				color={ 174 142 103 }
 				color2={ 255 255 255 }
 				
 				friulian="Latine"
@@ -2256,7 +2256,7 @@ e_italy = {
 				b_alatri = {}
 			}
 			c_rome = {
-				color={ 134 155 146 }
+				color={ 234 155 146 }
 				color2={ 255 255 255 }
 				
 
@@ -2305,7 +2305,7 @@ e_italy = {
 				b_civitavecchia = {}
 			}
 			c_viterbo = {
-				color={ 142 202 160 }
+				color={ 242 202 160 }
 				color2={ 255 255 255 }
 				
 				umbrian="Veterbe"
@@ -2334,7 +2334,7 @@ e_italy = {
 				b_netralla = {}
 			}
 			c_rieti = {
-				color={ 26 154 80 }
+				color={ 226 154 80 }
 				color2={ 255 255 255 }
 				
 				umbrian="Riete"
@@ -2377,7 +2377,7 @@ e_italy = {
 			palatinate="Marken"
 			
 			c_ancona = {
-				color={ 37 129 89 }
+				color={ 137 129 89 }
 				color2={ 255 255 255 }
 			
 				parisian="Ancône"
@@ -2402,7 +2402,7 @@ e_italy = {
 				b_fabriano = {}
 			}
 			c_macerata = {
-				color={ 45 118 76 }
+				color={ 145 118 76 }
 				color2={ 255 255 255 }
 				
 				sicilian="Macirata"
@@ -2425,7 +2425,7 @@ e_italy = {
 				b_potenza_picena = {}
 			}
 			c_umbria = {
-				color={ 44 119 51 }
+				color={ 144 119 51 }
 				color2={ 255 255 255 }
 				
 				sicilian="Ùmbria"
@@ -2496,7 +2496,7 @@ e_italy = {
 			palatinate="Toskana"
 			
 			c_grosseto = {
-				color={ 14 153 18 }
+				color={ 164 153 18 }
 				color2={ 255 255 255 }
 				
 				sicilian="Grussetu"
@@ -2515,7 +2515,7 @@ e_italy = {
 				b_gavorrano = {}
 			}
 			c_siena = {
-				color={ 76 144 111 }
+				color={ 176 144 111 }
 				color2={ 255 255 255 }
 				
 				parisian="Sienne"
@@ -2537,7 +2537,7 @@ e_italy = {
 				b_chiusi = {}
 			}
 			c_arezzo = {
-				color={ 49 170 111 }
+				color={ 249 170 111 }
 				color2={ 255 255 255 }
 				
 				sicilian="Arezzu"
@@ -2587,7 +2587,7 @@ e_italy = {
 				b_santa_croce_sull_arno = {}
 			}
 			c_florence = {
-				color={ 16 100 60 }
+				color={ 116 100 60 }
 				color2={ 255 255 255 }
 
 				rhenish="Florenz"
@@ -2655,7 +2655,7 @@ e_italy = {
 				b_campi_bisenzio = {}
 			}
 			c_lucca = {
-				color={ 83 108 87 }
+				color={ 183 108 87 }
 				color2={ 255 255 255 }
 				
 				venetian="Luca"
@@ -2747,7 +2747,7 @@ e_italy = {
 			palatinate="Kalabrie"
 			
 			c_calabria = {
-				color={ 0 147 68 }
+				color={ 10 147 168 }
 				color2={ 255 255 255 }
 
 				rhenish="Kalabrien"
@@ -2789,7 +2789,7 @@ e_italy = {
 				}
 			}
 			c_cosenza = {
-				color={ 0 147 68 }
+				color={ 10 147 168 }
 				color2={ 255 255 255 }
 
 				neapolitan="Cusenza"
@@ -2832,7 +2832,7 @@ e_italy = {
 			}
 		}
 		d_apulia = {
-			color={ 167 172 63 }
+			color={ 67 172 163 }
 			color2={ 255 255 255 }
 			
 			rhenish="Apulien"
@@ -2865,7 +2865,7 @@ e_italy = {
 			palatinate="Apulje"
 				
 			c_foggia = {
-				color={ 53 116 63 }
+				color={ 53 116 163 }
 				color2={ 255 255 255 }
 
 				neapolitan="Fògge"
@@ -2895,7 +2895,7 @@ e_italy = {
 				}
 			}
 			c_bari = { #1108
-				color={ 53 116 63 }
+				color={ 53 116 163 }
 				color2={ 255 255 255 }
 
 				neapolitan="Bàrë"
@@ -2919,7 +2919,7 @@ e_italy = {
 				}
 			}
 			c_salento = {
-				color={ 49 150 95 }
+				color={ 49 150 195 }
 				color2={ 255 255 255 }
 
 				rhenish="Salent"
@@ -2966,7 +2966,7 @@ e_italy = {
 				}
 			}
 			c_basilicata = {
-				color={ 47 121 81 }
+				color={ 47 121 181 }
 				color2={ 255 255 255 }
 				
 				rhenish="Basilikata"
@@ -3010,7 +3010,7 @@ e_italy = {
 			}
 		}
 		d_campania = {
-			color={ 240 209 100 }
+			color={ 140 209 200 }
 			color2={ 255 255 255 }
 			
 			capital = 347 # Apulia
@@ -3036,7 +3036,7 @@ e_italy = {
 			palatinate="Kampanje"
 			
 			c_naples = {
-				color={ 53 116 63 }
+				color={ 53 116 163 }
 				color2={ 255 255 255 }
 
 				rhenish="Neapel"
@@ -3106,7 +3106,7 @@ e_italy = {
 				b_casoria = {}
 			}
 			c_benevento = {
-				color={ 32 101 43 }
+				color={ 32 201 243 }
 				color2={ 255 255 255 }
 	
 				neapolitan="Beneviento"
@@ -3134,7 +3134,7 @@ e_italy = {
 				b_apice = {}
 			}
 			c_salerno = {
-				color={ 27 138 45 }
+				color={ 27 138 245 }
 				color2={ 255 255 255 }
 
 				parisian="Salerne"
@@ -3171,7 +3171,7 @@ e_italy = {
 			}
 		}
 		d_abruzzo = {
-			color={ 210 168 190 }
+			color={ 110 168 190 }
 			color2={ 255 255 255 }
 
 			capital = 929 # Teramo
@@ -3201,7 +3201,7 @@ e_italy = {
 			palatinate="Abruzzen"
 			
 			c_molise = {
-				color={ 51 124 41 }
+				color={ 51 124 241 }
 				color2={ 255 255 255 }
 
 				neapolitan="Mulise"
@@ -3225,7 +3225,7 @@ e_italy = {
 				b_riccia = {}
 			}
 			c_pescara = {
-				color={ 73 137 64 }
+				color={ 73 137 164 }
 				color2={ 255 255 255 }
 				
 				neapolitan="Piscàrë"
@@ -3271,7 +3271,7 @@ e_italy = {
 		}
 	}
 	k_sicily = {
-		color={ 180 160 80 }
+		color={ 230 210 50 }
 		color2={ 255 255 255 }
 		
 		capital = 590 #	Palermo
@@ -3412,7 +3412,7 @@ e_italy = {
 				}
 			}
 			c_agrigento = {
-				color={ 213 202 16 }
+				color={ 213 202 56 }
 				color2={ 255 255 255 }
 
 				rhenish="Agrigent"
@@ -3498,7 +3498,7 @@ e_italy = {
 			palatinate="Syrakus"
 			
 			c_syracuse = {
-				color={ 221 245 56 }
+				color={ 221 215 56 }
 				color2={ 255 255 255 }
 
 				rhenish="Syrakus"
@@ -3572,7 +3572,7 @@ e_italy = {
 				}
 			}
 			c_catania = {
-				color={ 240 255 142 }
+				color={ 240 215 142 }
 				color2={ 255 255 255 }
 				
 				parisian="Catane"
@@ -3613,7 +3613,7 @@ e_italy = {
 				}
 			}
 			c_messina = {
-				color={ 217 224 170 }
+				color={ 217 124 17 }
 				color2={ 255 255 255 }
 
 				sicilian="Missina"
@@ -3658,7 +3658,7 @@ e_italy = {
 			}
 		}
 		d_malta = {
-			color={ 155 254 86 }
+			color={ 255 154 86 }
 			color2={ 255 255 255 }
 		
 			capital = 597 # Malta
@@ -3671,7 +3671,7 @@ e_italy = {
 			sicilian="Màuta"
 		
 			c_malta = {
-				color={ 208 12 39 }
+				color={ 208 112 39 }
 				color2={ 255 255 255 }
 				
 				walloon="Male"
@@ -3692,7 +3692,7 @@ e_italy = {
 		}
 	}
 	k_sardinia = {
-		color={ 210 165 255 }
+		color={ 160 160 155 }
 		color2={ 255 255 255 }
 		
 		capital = 1100 # Cagliari
@@ -3729,7 +3729,7 @@ e_italy = {
 		palatinate="Sardinje"
 		
 		d_corsica = {
-			color={ 224 224 224 }
+			color={ 144 154 144 }
 			color2={ 255 255 255 }
 			
 			capital = 1503 # c_pumonti
@@ -3746,7 +3746,7 @@ e_italy = {
 			arpitan = "Kórsa"
 			
 			c_pumonti = { # 1502
-				color={ 44 73 147 }
+				color={ 144 173 147 }
 				color2={ 255 255 255 }
 	
 				catalan = "Còrsega del Sud"
@@ -3778,7 +3778,7 @@ e_italy = {
 				}
 			}
 			c_cismonte = { # 1503
-				color={ 34 59 124 }
+				color={ 134 159 124 }
 				color2={ 255 255 255 }
 	
 				catalan = "Alta Còrsega"
@@ -3802,7 +3802,7 @@ e_italy = {
 		}
 		
 		d_sardinia = {
-			color={ 217 159 255 }
+			color={ 137 159 155 }
 			color2={ 255 255 255 }
 			
 			capital = 326 # Cagliari
@@ -3837,7 +3837,7 @@ e_italy = {
 			palatinate="Sardinje"
 			
 			c_cagliari = {
-				color={ 21 39 86 }
+				color={ 121 139 136 }
 				color2={ 255 255 255 }
 
 				arpitan="Calyér"
@@ -3877,7 +3877,7 @@ e_italy = {
 				}
 			}
 			c_oristano = {
-				color={ 48 74 141 }
+				color={ 148 174 141 }
 				color2={ 255 255 255 }
 
 				sicilian="Oristanu"
@@ -3917,7 +3917,7 @@ e_italy = {
 				}
 			}
 			c_nuoro = {
-				color={ 48 74 141 }
+				color={ 148 134 141 }
 				color2={ 255 255 255 }
 
 				neapolitan="Nùoro"
@@ -3951,7 +3951,7 @@ e_italy = {
 				b_santa_maria_navarrese = {}
 			}
 			c_sassari = {
-				color={ 21 50 124 }
+				color={ 121 150 144 }
 				color2={ 255 255 255 }
 
 				sicilian="Sàssari"
