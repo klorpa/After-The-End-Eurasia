@@ -109,14 +109,86 @@ silk_road = {
 	}
 	#Oman to Baghdad
 	path = {
-		1778 1777 1482 1667 1489 1666 139 2047 2049 2050 2028 2023
+		1778 1777 2516 1482 1667 1489 1666 139 2047 2049 2050 2028 2023
 	}
-	#Kashgar to Indus to Oman
+	#Kashgar to Rawalpindi
 	path = {
-		1262 1352 110 1779 1759 1778
+		1262 1352 110 2768 2609 2811
+	}
+	#Rawalpindi to Agra
+	path = {
+		2811 2601 3115 2603 2617 2620 2827 2826 2825 2832 2800 2799 2797 2798
+	}
+	#Agra to Begusarai
+	path = {
+		2798 3007 2778 2791 2794 2788 2789 2785 2657 2959 2655
+	}
+	#Begusarai to Malda
+	path = {
+		2655 3139 2652
+	}
+	#Malda to Kolkata
+	path = {
+		2652 2809 257 2633 2638
+	}
+	#Agra to Khargone
+	path = {
+		2798 2991 2877 2875 2881 2879 3167 2878 3016 
+	}
+	#Khargone to Mumbai
+	path = {
+		3016 2889 2274 3147 2273 2272 2058 2059 2061
+	}
+	#Khargone to Guntur
+	path = {
+		3016 2888 2866 2865 3040 2265 2264 2263 3041 2261 2178 2179
+	}
+	#Cuddalore to Ernakulam
+	path = {
+		2216 2217 2220 2276 2231 2243 2242 2241
+	}
+	#Rawalpindi to Indus to Oman
+	path = {
+		2811 2619 2618 2622 2623 2625 2626 3028 3027 3024 3026 3039 3022 3032 3021 3019 1779 1759 1778
 	}
 	#Silk Road China Start
 	path = {
 		2736 1363 2726 1362 2721
+	}
+	#Silk Road Tibet to Gonggar
+	path = {
+		2736 2729 2724 2705 2702 2699 
+	}
+	#Gonggar to Samzhubze
+	path = {
+		2699 2698 2689
+	}
+	#Samzhubze to Begusarai
+	path = {
+		2689 2692 2691 2693 2741 3121 3018 3132 3119 3122 2655
+	}
+	#Samzhubze to Bogura
+	path = {
+		2689 2696 2765 2920 261 2656 2635
+	}
+	#Bogura to Pabna
+	path = {
+		2635 2969
+	}
+	#Malda to Bogura
+	path = {
+		2652 2635
+	}
+	#Pabna to Barishal
+	path = {
+		2969 3125 2643 3053 2649 2641
+	}
+	#Pabna to Nadia
+	path = {
+		2969 2647 257
+	}
+	#Gonggar to Siang
+	path = {
+		2699 2697 2708 2709 2773
 	}
 }
