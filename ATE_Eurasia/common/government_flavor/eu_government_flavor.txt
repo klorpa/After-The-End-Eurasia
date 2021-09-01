@@ -65,3 +65,11 @@ government_flavor = {
 		}
 	}
 }
+government_flavor = {
+	name = gov_swaraj
+	graphics = GFX_evt_yoga_meditation
+	priority = 5
+	trigger = {
+		government = swaraj_government
+	}
+}

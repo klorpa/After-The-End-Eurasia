@@ -8,6 +8,16 @@ laws = {
 		show_as_title = yes
 		group = culture_tolerance
 		
+		default_selection = {
+			factor = 0
+			additive_modifier = { 
+				value = 10			
+				holder_scope = { 
+					religion = satyagraha
+					is_feudal = yes
+				}	
+			}
+		}
 		
 		potential = {
 			holder_scope = {
@@ -190,6 +200,7 @@ laws = {
 				is_nomadic = no
 				independent = yes
 			}
+			NOT = {religion = satyagraha}
 		}		
 		allow = {
 			has_law = culture_tolerance_1
@@ -270,6 +281,7 @@ laws = {
 						religion = ruhi
 						religion = neuhumanist
 						religion = haskalah
+						religion = satyagraha
 					}
 					is_feudal = yes
 				}	
@@ -648,6 +660,7 @@ laws = {
 				is_nomadic = no
 				independent = yes
 			}
+			NOT = {religion = satyagraha}
 		}		
 		allow = {
 			OR= {
@@ -767,6 +780,7 @@ laws = {
 				is_nomadic = no
 				independent = yes
 			}
+			NOT = {religion = satyagraha}
 		}		
 		allow = {
 			has_law = religion_tolerance_3

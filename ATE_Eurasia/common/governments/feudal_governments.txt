@@ -48,6 +48,7 @@ feudal_governments = {
 			NOT = { is_government_potential = order_government }
 			NOT = { is_government_potential = white_martyr_government }
 			NOT = { is_government_potential = confederation_government }
+			NOT = { is_government_potential = swaraj_government}
 			NAND = { 
 				culture_group = tibetan
 				religion_group = buddhist_group
@@ -989,5 +990,59 @@ feudal_governments = {
 		can_build_tribal = no
 		
 		capital_move_delay = 600
+	}
+	swaraj_government = {
+		preferred_holdings = { CASTLE CITY }
+		allowed_holdings = {
+			CASTLE
+			CITY
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			feudal_government
+			muslim_government
+			theocratic_feudal_government
+		}
+		free_revoke_on_tiers = {
+			duke
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		frame_suffix = "_chineseimperial"
+		potential = {
+			religion = satyagraha
+			is_patrician = no
+		}
+		
+		color = { 255 153 51 } #Saffron
+
+		barons_need_dynasty = yes
+
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 200
+		
+		uses_piety_for_law_change = yes
+		can_demand_religious_conversion = no
+		gets_religion_opinion_penalties = no
+		gives_religion_opinion_penalties = no
+		vassal_government_opinion_penalties = no
+		marriage_ignore_religion = yes
+		
+		vassal_limit = 20
+		
+		character_modifier = {
+			monthly_character_piety = 1
+		}
+		## Modifiers
+		court_size_modifier = 15
 	}
 }
