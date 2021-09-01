@@ -3254,7 +3254,7 @@ old_world_cultist_group = {
 		religious_clothing_head = 10
 		religious_clothing_priest = 10
 	}
-	satyagraha = {   ##placeholder!!!!
+	satyagraha = {  #Ghandi Non-violence Resistance Religion
 		graphical_culture = hindugfx
 
 		icon = 137
@@ -3262,14 +3262,14 @@ old_world_cultist_group = {
 		
 		color = { 0.8 0.5 0.1 }
 		
-		high_god_name = GOD_VISHNU
+		high_god_name = GOD_DHAMA
 		
 		god_names = {
-			GOD_RAMA GOD_KRISHNA GOD_KALIKI GOD_LAKSHMI
+			GOD_BAPU GOD_CHAKRA GOD_BACHAKHAN GOD_BISWAKOBI GOD_NAIDU GOD_CHACHA
 		}
 		
 		evil_god_names = {
-			GOD_KALIASURA
+			THE_VIOLENT_ONES
 		}
 		
 		can_grant_divorce = yes
@@ -3283,7 +3283,7 @@ old_world_cultist_group = {
 		religious_clothing_head = 8
 		religious_clothing_priest = 8
 
-		scripture_name = THE_BHAGAVAD_GITA
+		scripture_name = SATYA_NA_PRAYOGO
 		priest_title = PUJARI
 		piety_name = KARMA
 		
@@ -3424,7 +3424,7 @@ jewish_group = {
 		intermarry = haskalah
 	}
 }
-indian_group = { #placeholder
+indian_group = { #Religions primarily from the Indian Subcontinent which don't fit in other categories
 	has_coa_on_barony_only = yes
 	graphical_culture = indiangfx
 	playable = yes
@@ -3716,7 +3716,7 @@ indian_group = { #placeholder
 		intermarry = zoroastrian
 		intermarry = hindu
 	}
-	advaita = {   #placeholder af
+	advaita = {   #Spiritual Hinduism centered around the Brahman
 		graphical_culture = hindugfx
 
 		icon = 152
@@ -3724,14 +3724,14 @@ indian_group = { #placeholder
 		
 		color = { 163 108 52 }
 		
-		high_god_name = GOD_ADIBHAGAWAN
+		high_god_name = GOD_THE_GURU
 		
 		god_names = {
-			GOD_MAHESVARA GOD_MURUGAN GOD_KANNAKI_AMMAN GOD_AYYAPAN GOD_THIRUMAL GOD_AGASTAYA GOD_AYYANAR GOD_THE_SIDDHARS GOD_THIRUVALLUVAR GOD_YAMA
+			GOD_HIS_HOLINESS GOD_THE_GODMAN GOD_THE_INNER_FIRE
 		}
 		
 		evil_god_names = {
-			GOD_MAYA
+			THE_TRAITORS
 		}
 		
 		can_grant_divorce = yes
@@ -3748,7 +3748,7 @@ indian_group = { #placeholder
 		religious_clothing_head = 8
 		religious_clothing_priest = 8
 
-		scripture_name = THIRUKKURAL
+		scripture_name = GURU_LECTURES
 		priest_title = PUJARI
 		piety_name = KARMA
 		
@@ -3985,7 +3985,7 @@ buddhist_group = {
 		religious_clothing_priest = 10
 	}
 }
-eastern = { #placeholder
+eastern = { #Religions from China and more generally East Asia
 	has_coa_on_barony_only = no
 	graphical_culture = chinesegfx
 	playable = yes
