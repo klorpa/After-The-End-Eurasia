@@ -834,6 +834,7 @@
 	trait=musician
 	female=yes
 	2642.2.18={birth=yes}
+	2660.2.18={add_matrilineal_spouse=1994121}
 }
 1994118={ #Count of Buzau
 	name="Cezar"
@@ -888,7 +889,33 @@
 	trait=ambitious
 	trait=humble
 	2630.9.3={birth=yes}
-	2650.9.3={employer=1994114}
+}
+1994122={
+	name="Mihai"
+	dynasty=2077053 #Balan
+	culture=moldovan
+	religion=orthodox
+	father=1994121
+	2663.1.1={birth=yes}
+}
+1994123={
+	name="Ludmila"
+	dynasty=2077053 #Balan
+	culture=moldovan
+	religion=orthodox
+	father=1994121
+	female=yes
+	2665.6.2={birth=yes}
+}
+1994124={
+	name="Teodora"
+	dynasty=2077101 #Maia
+	culture=moldovan
+	religion=orthodox
+	father=1994121
+	mother=1994117
+	female=yes
+	2664.12.1={birth=yes}
 }
 1994130={
 	name="Vlad"
