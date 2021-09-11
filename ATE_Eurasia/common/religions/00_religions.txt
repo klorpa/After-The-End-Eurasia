@@ -3007,21 +3007,21 @@ old_world_cultist_group = {
 		
 		color = { 0.8 0.1 0.3 }
 		
-		interface_skin = { zun_interface pagan_interface }
+		interface_skin = { jedinstvo_interface zun_interface pagan_interface }
 
 
 		crusade_name = PEOPLES_LIBERATORY_WAR
 		scripture_name = PARTISAN_LEGENDS
 		priest_title = MANAGER
 
-		high_god_name = GOD_BROOTHERHOOD_AND_UNITY
+		high_god_name = GOD_BROTHERHOOD_AND_UNITY
 
 		god_names = {
-			GOD_TITO
+			GOD_TITO GOD_PARTISANS GOD_THE_ANCESTORS
 		}
 
 		evil_god_names = {
-			GOD_THE_OCCUPIERS
+			GOD_THE_OCCUPIERS GOD_DISUNITY GOD_DISHARMONY
 		}
 		
 		feminist = yes

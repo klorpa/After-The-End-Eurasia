@@ -82,7 +82,7 @@
 	culture = rumelian
 		2636.8.7 { birth = yes }
 	}
-2072008 {
+2072008 = {
 	name = Georgios
 	dynasty = 2072068
 	dna = "degfdribbbr"
@@ -98,13 +98,115 @@
 	trait = charitable
 		2636.4.19 { birth = yes }
 	}
-20720010 {
-		name = Spyridon
-		dynasty = 2072052
-		religion = neoplatonist
-		culture = greek
-		trait = mystic
-			2634.1.2 { birth = yes }
-		}
-
-	
+20720010 = {
+	name = Spyridon
+	dynasty = 2072052
+	religion = neoplatonist
+	culture = greek
+	trait = mystic
+	2634.1.2 { birth = yes }
+}
+20720011 = {
+	name = Tomica
+	dynasty = 7000052
+	religion = catholic
+	culture = croatian
+	trait = adventurer
+	2629.1.1 { birth = yes 
+		give_nickname=nick_the_liberator
+	}
+}
+20720012 = {
+	name = Marko
+	dynasty = 2078028
+	religion = jedinstvo
+	culture = croatian
+	2642.1.1 { birth = yes }
+}
+20720013 = {
+	name = Kenan
+	dynasty = 2092100
+	religion = jedinstvo
+	culture = bosniak
+	2642.1.1 { birth = yes }
+}
+20720014 = {
+	name = Zlatko
+	dynasty = 2092095
+	religion = jedinstvo
+	culture = bosniak
+	2609.1.1 { birth = yes }
+}
+20720015 = {
+	name = Slobodanka
+	dynasty = 7000045
+	religion = jedinstvo
+	culture = croatian
+	female=yes
+	2649.1.1 { birth = yes }
+}
+20720016 = {
+	name = Fabijan
+	dynasty = 7000007
+	religion = catholic
+	culture = croatian
+	trait = sympathy_old_world_cults
+	2641.1.1 { birth = yes }
+}
+20720017 = {
+	name = Irnes
+	dynasty = 2048072
+	religion = jedinstvo
+	secret_religion = orthodox
+	culture = montenegrin
+	2638.1.1 = { birth = yes }
+}
+20720018 = {
+	name = Šahbaz
+	dynasty = 2048071
+	religion = jedinstvo
+	culture = bosniak
+	2626.1.1 = { birth = yes }
+}
+20720019 = {
+	name = Suada
+	dynasty = 2092069
+	female=yes
+	religion = ruhi
+	culture = bosniak
+	2647.1.1 = { birth = yes }
+}
+20720020 = {
+	name = Saša
+	dynasty = 2078099
+	religion = orthodox
+	culture = serbian
+	2631.1.1 = { birth = yes }
+}
+20720021 = {
+	name = Jelena
+	dynasty = 2078087
+	female=yes
+	trait=twin
+	religion = jedinstvo
+	culture = serbian
+	father=20720023
+	2623.1.1 = { birth = yes }
+}
+20720022 = {
+	name = Ostoje
+	dynasty = 2078087
+	trait=twin
+	religion = jedinstvo
+	culture = serbian
+	father=20720023
+	2623.1.1 = { birth = yes }
+}
+20720023 = {
+	name = Nikolaj
+	dynasty = 2078087
+	religion = jedinstvo
+	culture = serbian
+	2591.1.1 = { birth = yes }
+	2655.1.1 = { death = yes }
+}
