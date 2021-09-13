@@ -263,6 +263,11 @@ custom_bahrain = {
 		d_qatar d_abu_dhabi d_al_ahsa d_al_hajar_al_gharbi d_dammam d_bahrayn d_hafar_al_batin
 	}
 }
+custom_finland = {
+	duchies = {
+		d_turku d_aland d_uusimaa d_tavastia d_savonia d_ostrobothnia d_lapland
+	}
+}
 custom_fertile_crescent = {
 	duchies = {
 		d_baghdad d_anbar d_al_jazira d_kurdistan d_sawad d_dimashq d_al_ladhqiyah d_halab d_hims d_raqqa d_amman d_karak d_beirut d_al_jnoub d_as_shamal d_jerusalem d_galil d_mishor_hahof d_negev d_west_bank d_cyprus d_al_qahirah d_cyrenaica d_kufra d_al_bahr_al_ahmar d_al_uqsur d_asyut d_al_wadi_al_jadid d_as_suways d_buhayra_nasr d_delta_an_nil d_matruh d_shamal_as_said d_sinai d_kuwait
@@ -299,15 +304,75 @@ custom_arabian_pennisula = {
 }
 
 custom_pannorian_basin = {
-	duchies = { 
+	duchies = {
 		d_budapest d_transdanubia d_alfoeld d_greater_nograd d_transylvania d_banat d_crisana d_maramures
+	}
+}
+custom_yugoslavia = {
+	duchies = {
+		d_croatia d_slavonia d_dalmatia d_krajina d_bosnia d_hercegovina d_slovenia d_belgrade d_nis d_vojvodina d_montenegro
+	}
+}
+custom_southern_balkans = {
+	duchies = {
+		d_attica d_roumeli d_ionian_isles d_south_aegean_islands d_north_aegean_islands d_crete d_peloponnese d_south_macedonia d_north_macedonia d_tirana d_vlore d_kosovo d_sofia d_chernomorie d_dunavska_ravina c_transcarpathia d_ruse d_trakiyska_nizina d_muntenia d_dobruja d_oltenia d_budjak d_bukovina d_western_moldova 
+	}
+}
+custom_balkans = {
+	regions = {
+		custom_yugoslavia custom_southern_balkans
+	}
+}
+custom_european_russia = {
+	duchies = {
+		d_moskva d_tver d_tula d_smolensk d_bryansk d_vladimir d_nizhny_novgorod d_dzerzhinsk d_mordovia d_kostroma d_yaroslavl d_petrograd d_south_karelia d_vologda d_pskov d_veliky_novgorod d_voronezh d_kursk d_oryol d_tambov d_volgograd d_saratov d_samara d_ulyanovsk d_penza d_arkhangelsk d_kola d_karelia d_kaliningrad d_warmia_masuria
+	}
+}
+custom_czechoslovakia = {
+	duchies = {
+		d_bohemia d_moravia d_severovychod d_tatra d_nitra
+	}
+}
+custom_old_poland = {
+	duchies = {
+		d_pomerania d_lubusz d_greater_poland d_kujawy_pomerania d_mazovia d_podlasie d_lesser_poland d_biescidia d_lubelia d_lodz d_lower_silesia d_upper_silesia d_moravia_silesia
+	}
+}
+custom_belarus = {
+	duchies = {
+		d_viciebsk d_minsk d_brest d_gomel
+	}
+}
+custom_the_ukraine = {
+	duchies = {
+		d_kyiv d_chernihiv d_kherson d_poltava d_kharkiv d_dnipropetrovsk d_cherkasy d_zaporizhia d_odessa d_vinnytsia d_lviv d_volyn d_zhytomyr d_rostov d_don d_donbas
+	}
+}
+custom_slavic_europe = {
+	regions = {
+		custom_european_russia custom_czechoslovakia custom_old_poland custom_belarus custom_the_ukraine
+	}
+}
+custom_baltic = {
+	duchies = {
+		d_courland d_semigallia d_livonia d_aukstaitija d_samogitia d_suvalkija d_harjumaa d_saaremaa d_virumaa d_tartumaa
+	}
+}
+custom_eastern_europe = {
+	regions = {
+		custom_slavic_europe custom_baltic custom_finland
+	}
+}
+custom_europe = {
+	regions = {
+		custom_western_europe world_scandinavia custom_pannorian_basin custom_balkans custom_eastern_europe
 	}
 }
 ###########################################################################
 # French Reconquest Regions
 ###########################################################################
 
-custom_parisian_core = { 
+custom_parisian_core = {
 	duchies = {d_ile_de_france d_berry d_loire d_nord d_normandy d_orleanais d_picardy } 
 }
 custom_provence = { 

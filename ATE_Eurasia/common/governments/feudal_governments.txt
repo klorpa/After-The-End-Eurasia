@@ -478,7 +478,10 @@ feudal_governments = {
 				top_liege = {
 					government = diwan_government
 				}
-			}			
+			}
+			capital_scope = {
+				NOT = {region = custom_europe}
+			}
 		}
 		
 		color = { 0 204 0 }
@@ -733,6 +736,9 @@ feudal_governments = {
 				}
 			}
 			is_patrician = no
+			capital_scope = {
+				NOT = {region = custom_europe}
+			}
 		}
 		
 		color = { 50 205 50 }
