@@ -36,10 +36,7 @@ feudal_governments = {
 				NOT = {religion_group = muslim}
 				AND = {
 					religion = ruhi
-					OR = {
-						capital_scope = {region = custom_western_europe}
-						capital_scope = {region = world_scandinavia}
-					}
+					capital_scope = {region = custom_europe}
 				}
 			}
 			NOT = { is_government_potential = diwan_government }
