@@ -1281,7 +1281,7 @@ e_visegrad = {
 		
 			capital = 2660 #Miedzyrzecz
 					
-			c_miedzyrzecz = {
+			c_miedzyrzecz = { # 2660
 				color={ 155 13 5 }
 				color2={ 255 255 255 }
 				
@@ -1408,6 +1408,7 @@ e_visegrad = {
 				lithuanian="Gožuvas"
 				silesian="Gorzuw"
 				
+				b_gorczyn = {}
 				b_gorzow_wielkopolski = {
 					kashubian="Lacbarg"
 					rhenish="Landsberg an der Warthe"
@@ -1423,20 +1424,6 @@ e_visegrad = {
 					latvian="Gožova Velkopolska"
 					lithuanian="Gožuvas"
 					silesian="Wjelgopolski Gorzuw"
-				}
-				b_kostrzyn_nad_odra = {
-					rhenish="Küstrin"
-					low_saxon="Küstrin"
-					ossi="Küstrin"
-					upper_saxon="Küstrin"
-					bavarian="Küstrin"
-					swabian="Küstrin"
-					austrian="Küstrin"
-					schwyzer="Küstrin"
-					palatinate="Küstrin"
-					latvian="Kostšina pie Odras"
-					lithuanian="Kostšynas prie Odros"
-					sorbian="Kostrin"
 				}
 				b_drezdenko = {
 					rhenish="Driesen"
@@ -1525,19 +1512,32 @@ e_visegrad = {
 				lithuanian="Zeliona Gura"
 				silesian="Zielono Gora"
 				
-				b_nowa_sol = {
-					rhenish="Neusalz an der Oder"
-					low_saxon="Neusalz an der Oder"
-					ossi="Neusalz an der Oder"
-					upper_saxon="Neusalz an der Oder"
-					bavarian="Neusalz an der Oder"
-					swabian="Neusalz an der Oder"
-					austrian="Neusalz an der Oder"
-					schwyzer="Neusalz an der Oder"
-					palatinate="Neusalz an der Oder"
-					silesian="Nowo Sol"
-					latvian="Nova Sola"
-					lithuanian="Nova Sule"
+				b_zary = {
+					sorbian="Žarow"
+					slovak="Žary"
+					kashubian="Žary"
+					czech="Žarov"
+					slovak="Žary"
+					moravian="Žary"
+					malopolan="Žary"
+					mazovian="Žary"
+					wielkopolan="Žary"
+					odrzan="Žary"
+					silesian="Žary"
+					goral="Žary"
+					warmzur="Žary"
+					rhenish="Sorau"
+					low_saxon="Sorau"
+					ossi="Sorau"
+					upper_saxon="Sorau"
+					bavarian="Sorau"
+					swabian="Sorau"
+					austrian="Sorau"
+					schwyzer="Sorau"
+					schwyzer="Sorau"
+					palatinate="Sorau"
+					latvian="Žari"
+					lithuanian="Žarai"
 				}
 				b_zielona_gora = {
 					kashubian="Zelonô Góra"
@@ -1554,21 +1554,6 @@ e_visegrad = {
 					latvian="Zelona Gura"
 					lithuanian="Zeliona Gura"
 					silesian="Zielono Gora"
-				}
-				b_zary = {
-					rhenish="Sorau"
-					low_saxon="Sorau"
-					ossi="Sorau"
-					upper_saxon="Sorau"
-					bavarian="Sorau"
-					swabian="Sorau"
-					austrian="Sorau"
-					schwyzer="Sorau"
-					palatinate="Sorau"
-					sorbian="Žarow"
-					latvian="Žari"
-					lithuanian="Žarai"
-					czech="Žarov"
 				}
 				b_zagan = {
 					rhenish="Sagan"
@@ -1599,17 +1584,17 @@ e_visegrad = {
 					latvian="Krosno Odžanske"
 					silesian="Uodrzanske Krosno"
 				}
-				b_kozuchow = {
-					rhenish="Freystadt"
-					low_saxon="Freystadt"
-					ossi="Freystadt"
-					upper_saxon="Freystadt"
-					bavarian="Freystadt"
-					swabian="Freystadt"
-					austrian="Freystadt"
-					schwyzer="Freystadt"
-					palatinate="Freystadt"
-					latvian="Kožuhova"
+				b_nowa_sol = {
+					rhenish="Neusalz an der Oder"
+					low_saxon="Neusalz an der Oder"
+					ossi="Neusalz an der Oder"
+					upper_saxon="Neusalz an der Oder"
+					bavarian="Neusalz an der Oder"
+					swabian="Neusalz an der Oder"
+					austrian="Neusalz an der Oder"
+					schwyzer="Neusalz an der Oder"
+					palatinate="Neusalz an der Oder"
+					silesian="Nowo Sol"
 				}
 				b_lubsko = {
 					rhenish="Sommerfeld"
@@ -1622,6 +1607,18 @@ e_visegrad = {
 					schwyzer="Sommerfeld"
 					palatinate="Sommerfeld"
 					sorbian="Žemr"
+				}
+				b_kozuchow = {
+					rhenish="Freystadt"
+					low_saxon="Freystadt"
+					ossi="Freystadt"
+					upper_saxon="Freystadt"
+					bavarian="Freystadt"
+					swabian="Freystadt"
+					austrian="Freystadt"
+					schwyzer="Freystadt"
+					palatinate="Freystadt"
+					latvian="Kožuhova"
 				}
 			}
 		}
@@ -1641,20 +1638,6 @@ e_visegrad = {
 				b_srem = {}
 				b_nowy_tomysl = {}
 				b_lubon = {}
-				b_wagrowiec = {
-					rhenish="Wongrowitz"
-					low_saxon="Wongrowitz"
-					ossi="Wongrowitz"
-					upper_saxon="Wongrowitz"
-					bavarian="Wongrowitz"
-					swabian="Wongrowitz"
-					austrian="Wongrowitz"
-					schwyzer="Wongrowitz"
-					palatinate="Wongrowitz"
-					silesian="Wungrowjec"
-					latvian="Vongroveca"
-					lithuanian="Vongrovecas"
-				}
 			}
 			c_kalisz = {
 				color={ 181 27 33 }
@@ -1730,19 +1713,7 @@ e_visegrad = {
 				latvian="Bidgošca"
 				lithuanian="Bydgošcius"
 
-				b_solec_kujawski = {
-					rhenish="Schulitz"
-					low_saxon="Schulitz"
-					ossi="Schulitz"
-					upper_saxon="Schulitz"
-					bavarian="Schulitz"
-					swabian="Schulitz"
-					austrian="Schulitz"
-					schwyzer="Schulitz"
-					palatinate="Schulitz"
-					latvian="Soleca Kujavska"
-					silesian="Kujawski Solec"
-				}
+				b_fordon = {}
 				b_bydgoszcz = {
 					kashubian="Bëdgòszcza"
 					rhenish="Bromberg"
@@ -1775,7 +1746,20 @@ e_visegrad = {
 					lithuanian="Žninas"
 				}
 				b_mogilno = {}
-				b_szubin = {}
+				b_wagrowiec = {
+					rhenish="Wongrowitz"
+					low_saxon="Wongrowitz"
+					ossi="Wongrowitz"
+					upper_saxon="Wongrowitz"
+					bavarian="Wongrowitz"
+					swabian="Wongrowitz"
+					austrian="Wongrowitz"
+					schwyzer="Wongrowitz"
+					palatinate="Wongrowitz"
+					silesian="Wungrowjec"
+					latvian="Vongroveca"
+					lithuanian="Vongrovecas"
+				}
 				b_sepolno_krajenskie = {
 					rhenish="Zempelburg"
 					low_saxon="Zempelburg"
@@ -1820,21 +1804,6 @@ e_visegrad = {
 				latvian="Toruna"
 				lithuanian="Torune"
 
-				b_grudziadz = {
-					kashubian="Grëdzadz"
-					rhenish="Graudenz"
-					low_saxon="Graudenz"
-					ossi="Graudenz"
-					upper_saxon="Graudenz"
-					bavarian="Graudenz"
-					swabian="Graudenz"
-					austrian="Graudenz"
-					schwyzer="Graudenz"
-					palatinate="Graudenz"
-					latvian="Grudzjondza"
-					lithuanian="Grudziondzas"
-					silesian="Grudzóndz"
-				}
 				b_torun = {
 					kashubian="Torn"
 					rhenish="Thorn"
@@ -1849,16 +1818,20 @@ e_visegrad = {
 					latvian="Toruna"
 					lithuanian="Torune"
 				}
-				b_brodnica = {
-					rhenish="Strasburg"
-					low_saxon="Strasburg"
-					ossi="Strasburg"
-					upper_saxon="Strasburg"
-					bavarian="Strasburg"
-					swabian="Strasburg"
-					austrian="Strasburg"
-					schwyzer="Strasburg"
-					palatinate="Strasburg"
+				b_grudziadz = {
+					kashubian="Grëdzadz"
+					rhenish="Graudenz"
+					low_saxon="Graudenz"
+					ossi="Graudenz"
+					upper_saxon="Graudenz"
+					bavarian="Graudenz"
+					swabian="Graudenz"
+					austrian="Graudenz"
+					schwyzer="Graudenz"
+					palatinate="Graudenz"
+					latvian="Grudzjondza"
+					lithuanian="Grudziondzas"
+					silesian="Grudzóndz"
 				}
 				b_chelmno = {
 					kashubian="Chôlmno"
@@ -1875,18 +1848,6 @@ e_visegrad = {
 					lithuanian="Kulmas"
 					czech="Chlumno"
 				}
-				b_rypin = {
-					rhenish="Rippin"
-					low_saxon="Rippin"
-					ossi="Rippin"
-					upper_saxon="Rippin"
-					bavarian="Rippin"
-					swabian="Rippin"
-					austrian="Rippin"
-					schwyzer="Rippin"
-					palatinate="Rippin"
-					latvian="Ripina"
-				}
 				b_golub = {
 					kashubian="Gòlëb"
 					rhenish="Gollub"
@@ -1901,8 +1862,31 @@ e_visegrad = {
 					latvian="Goluba"
 					lithuanian="Goliubis"
 				}
+				b_brodnica = {
+					rhenish="Strasburg an der Drewenz"
+					low_saxon="Strasburg an der Drewenz"
+					ossi="Strasburg an der Drewenz"
+					upper_saxon="Strasburg an der Drewenz"
+					bavarian="Strasburg an der Drewenz"
+					swabian="Strasburg an der Drewenz"
+					austrian="Strasburg an der Drewenz"
+					schwyzer="Strasburg an der Drewenz"
+					palatinate="Strasburg an der Drewenz"
+				}
 				b_lipno = {
 					lithuanian="Lipnas"
+				}
+				b_rypin = {
+					rhenish="Rippin"
+					low_saxon="Rippin"
+					ossi="Rippin"
+					upper_saxon="Rippin"
+					bavarian="Rippin"
+					swabian="Rippin"
+					austrian="Rippin"
+					schwyzer="Rippin"
+					palatinate="Rippin"
+					latvian="Ripina"
 				}
 			}
 		}

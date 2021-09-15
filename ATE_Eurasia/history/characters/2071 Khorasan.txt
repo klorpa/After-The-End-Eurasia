@@ -98,6 +98,7 @@
 	culture = uzbek
 	religion = nizami
 	trait = altan_urag
+	father=2071011
 	2642.2.1 = { birth=yes }
 }
 2071009 = {
@@ -120,4 +121,73 @@
 	culture = pashtun
 	religion = deobandi
 	2633.11.9 = { birth=yes }
+}
+2071011 = {
+	name = "Hoshim"
+	dynasty = 2112134 #Shayboniy
+	culture = uzbek
+	religion = nizami
+	trait = altan_urag
+	father=2071012
+	2619.8.1 = { birth=yes }
+	2664.9.11 = { death=yes }
+}
+2071012 = {
+	name = "Murod"
+	dynasty = 2112134 #Shayboniy
+	culture = uzbek
+	religion = nizami
+	trait = altan_urag
+	father=2071014
+	2594.5.30 = { birth=yes }
+	2642.1.18 = { death=yes }
+}
+2071013 = {
+	name = "Rihsitilla"
+	dynasty = 2112134 #Shayboniy
+	culture = uzbek
+	religion = nizami
+	trait = altan_urag
+	father=2071014
+	2597.4.5 = { birth=yes }
+	2647.4.15 = { death=yes }
+}
+2071014 = {
+	name = "San'at"
+	dynasty = 2112134 #Shayboniy
+	culture = uzbek
+	religion = nizami
+	trait = altan_urag
+	2569.5.9 = { birth=yes }
+	2622.3.19 = { death=yes }
+}
+2071015 = {
+	name = "Ali"
+	dynasty = 2112134 #Shayboniy
+	culture = uzbek
+	religion = nizami
+	trait = altan_urag
+	father=2071013
+	2619.5.19 = { birth=yes }
+	2660.7.17 = { birth=yes }
+}
+2071016 = {
+	name = "Baxtiyor"
+	dynasty = 2112134 #Shayboniy
+	culture = uzbek
+	religion = nizami
+	trait = altan_urag
+	trait=strong
+	father=2071015
+	2641.3.28 = { birth=yes }
+}
+2071017 = {
+	name = "Yo'ldosh"
+	dynasty = 2112134 #Shayboniy
+	culture = uzbek
+	religion = nizami
+	trait = altan_urag
+	trait=quick
+	father=2071015
+	2645.5.10 = { birth=yes }
 }
