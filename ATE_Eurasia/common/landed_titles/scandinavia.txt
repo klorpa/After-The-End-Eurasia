@@ -156,6 +156,69 @@ e_scandinavia = {
 				b_hov = {}
 			}
 		}
+		d_svalbard = {
+			color={ 7 27 203 }
+			color2={ 255 255 255 }
+			
+			capital = 2681 # svalbard
+			
+			c_svalbard = { #2681
+				color={ 82 59 199 }
+				color2={ 255 255 255 }
+				
+				b_longyearbyen = {}
+				b_barentsburg = {}
+				b_sveagruva = {}
+				b_hopen_radio = {}
+				b_ny_alesund = {}
+				b_isbjornhamna = {}
+				b_pyramiden = {}
+			}
+			c_jan_mayen = {
+				color={ 139 61 225 }
+				color2={ 255 255 255 }
+				
+				b_olonkinbyen = {}
+				b_puppebu = {}
+				b_atlantic_city = {}
+				b_metten = {}
+				b_olonkinbyen_2 = {}
+				b_eldstemetten = {}
+				b_frydenlund = {}
+			}
+		}
+	}
+	
+	k_greenland = {
+		color={ 190 44 62 }
+		color2 = { 255 255 255 }
+		capital = 553 # Nuuk
+		
+		catholic = 120 # Bring Catholicism to the North
+		
+		kalaaleq = "Kalaallit Nunaat"
+		icelander = "Grænland"
+		svalbarder = "Grønland"
+		ostlending = "Grønland"
+		tronder = "Grønland"
+		vestlending = "Grønland"
+		jamta = "Grønland"
+		swedish = "Grönland"
+		scanian = "Grönland"
+		danish = "Grønland"
+		faroese = "Grønland"
+				
+		# Creation/usurpation trigger
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					AND = {
+						culture = kalaaleq
+					}
+				}
+			}
+		}
 		d_kalaallit_nunaat = {
 			color={ 99 121 169 }
 			color2={ 255 255 255 }
@@ -209,37 +272,6 @@ e_scandinavia = {
 				b_kulusuk = {}
 				b_kitak = {}
 				b_suunikajik = {}
-			}
-		}
-		d_svalbard = {
-			color={ 7 27 203 }
-			color2={ 255 255 255 }
-			
-			capital = 2681 # svalbard
-			
-			c_svalbard = { #2681
-				color={ 82 59 199 }
-				color2={ 255 255 255 }
-				
-				b_longyearbyen = {}
-				b_barentsburg = {}
-				b_sveagruva = {}
-				b_hopen_radio = {}
-				b_ny_alesund = {}
-				b_isbjornhamna = {}
-				b_pyramiden = {}
-			}
-			c_jan_mayen = {
-				color={ 139 61 225 }
-				color2={ 255 255 255 }
-				
-				b_olonkinbyen = {}
-				b_puppebu = {}
-				b_atlantic_city = {}
-				b_metten = {}
-				b_olonkinbyen_2 = {}
-				b_eldstemetten = {}
-				b_frydenlund = {}
 			}
 		}
 	}

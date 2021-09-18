@@ -101,26 +101,27 @@
 }
 
 1979000 ={
-	name="Nivineq"
-	dynasty=2220610 #Eertaaq
+	name="Nukaka"
+	dynasty=2220641 #Qarsoq
 	culture=kalaaleq
-	religion=sjotru
-	diplomacy=3
+	religion=sjotru #placeholder
+	female=yes
+	diplomacy=5
 	martial=4
 	stewardship=5
 	intrigue=4
 	learning=5
-	trait=flamboyant_schemer
-	trait=lustful
+	trait=charismatic_negotiator
+	trait=stubborn
 	trait=ambitious
-	trait=zealous
-	trait=proud
-	2632.2.20={birth=yes}
-	2680.1.2={death=yes}
+	trait=gregarious
+	trait=organizer
+	2667.2.20={birth=yes}
+	2630.9.21={death=yes}
 }
 1979001 ={
-	name="Ruluk"
-	dynasty=2220608 #Heilmann
+	name="Nivineq"
+	dynasty=2220641 #Qarsoq
 	culture=kalaaleq
 	religion=sjotru
 	diplomacy=7
@@ -128,31 +129,119 @@
 	stewardship=5
 	intrigue=4
 	learning=5
-	trait=underhanded_rogue
-	trait=envious
+	trait=scholarly_theologian
+	trait=wrathful
 	trait=just
-	trait=proud
-	trait=greedy
-	2633.3.9={birth=yes}
-	2690.3.2={death=yes}
+	trait=charitable
+	trait=zealous
+	mother=1979000
+	2594.3.9={birth=yes}
+	2661.4.2={death=yes}
 }
 1979002 ={
-	name="Iikkajippaat"
-	dynasty=2220606 #Berthelsen
+	name="Eerik"
+	dynasty=2220642 #Eeriksen
+	culture=kalaaleq
+	religion=sjotru
+	diplomacy=4
+	martial=7
+	stewardship=7
+	intrigue=0
+	learning=7
+	trait=misguided_warrior
+	trait=kind
+	trait=just
+	trait=gluttonous
+	trait=unyielding_leader	
+	mother=1979000
+	2597.9.9={birth=yes}
+	2645.5.19={death=yes}
+}
+1979003 ={
+	name="Nanoq"
+	dynasty=2220642 #Eeriksen
 	culture=kalaaleq
 	religion=sjotru
 	diplomacy=6
-	martial=7
-	stewardship=5
-	intrigue=6
-	learning=8
-	trait=indulgent_wastrel
-	trait=just
-	trait=authoritative
+	martial=4
+	stewardship=2
+	intrigue=2
+	learning=6
+	trait=brilliant_strategist
+	trait=honest
+	trait=patient
+	trait=berserker
+	trait=brave	
+	trait=strong
+	father=1979002
+	2626.11.3={birth=yes}
+	2690.5.19={death=yes}
+}
+1979004 ={
+	name="Tammaq"
+	dynasty=2220642 #Eeriksen
+	culture=kalaaleq
+	religion=sjotru
+	female=yes
+	trait=tough_soldier
+	trait=honest
+	trait=kind
+	trait=defensive_leader
 	trait=brave
+	father=1979003
+	2646.12.6={birth=yes}
+	2690.5.19={death=yes}
+}
+1979005 ={
+	name="Paalusi"
+	dynasty=2220642 #Eeriksen
+	culture=kalaaleq
+	religion=sjotru
+	trait=slothful
 	trait=proud
-	2633.7.19={birth=yes}
-	2690.3.2={death=yes}
+	trait=gluttonous
+	trait=brave	
+	trait=strong
+	father=1979003
+	2653.3.20={birth=yes}
+	2690.5.19={death=yes}
+}
+1979006 ={
+	name="Agsile"
+	dynasty=2220641 #Qarsoq
+	culture=kalaaleq
+	religion=sjotru
+	diplomacy=7
+	martial=0
+	stewardship=4
+	intrigue=6
+	learning=5
+	trait=thrifty_clerk
+	trait=diligent
+	trait=just
+	trait=shy
+	trait=zealous
+	father=1979001
+	2533.5.24={birth=yes}
+	2690.4.2={death=yes}
+}
+1979007 ={
+	name="Ujukku"
+	dynasty=2220641 #Qarsoq
+	culture=kalaaleq
+	religion=sjotru
+	father=1979006
+	2559.5.28={birth=yes}
+	2690.4.2={death=yes}
+}
+1979008 ={
+	name="Qaaqqortooq"
+	dynasty=2220641 #Qarsoq
+	culture=kalaaleq
+	religion=sjotru
+	father=1979006
+	2561.10.20={birth=yes}
+	2690.4.2={death=yes}
 }
 
 8000000={
