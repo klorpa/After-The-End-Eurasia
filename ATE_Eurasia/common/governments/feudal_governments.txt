@@ -43,7 +43,7 @@ feudal_governments = {
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = bureaucratic_government }
 			NOT = { is_government_potential = order_government }
-			NOT = { is_government_potential = white_martyr_government }
+			NOT = { is_government_potential = cenobitic_government }
 			NOT = { is_government_potential = confederation_government }
 			NOT = { is_government_potential = swaraj_government}
 			NAND = { 
@@ -867,7 +867,7 @@ feudal_governments = {
 		## Modifiers
 		court_size_modifier = 15
 	}
-	white_martyr_government = {
+	cenobitic_government = {
 		preferred_holdings = { CASTLE TEMPLE }
 		allowed_holdings = { 
 			CASTLE 
@@ -888,7 +888,10 @@ feudal_governments = {
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
 		}
-		frame_suffix = "_white_martyr_government"
+		
+		frame_suffix = "_cenobitic"
+		title_prefix = "cenobitic_"
+		
 		potential = {
 		OR= {
 		religion = insular
@@ -904,7 +907,7 @@ feudal_governments = {
 			theocracy_government
 			feudal_government
 			ghazi_government
-			white_martyr_government
+			cenobitic_government
 		}
 		
 		color = { 216 205 170 }

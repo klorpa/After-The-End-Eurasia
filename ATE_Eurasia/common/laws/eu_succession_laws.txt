@@ -221,7 +221,7 @@ succession_laws = {
 		potential = {
 			temporary = no
 			holder_scope = {
-				government = white_martyr_government
+				government = cenobitic_government
 				OR = {
 					religion = insular
 					religion = miaphysite
@@ -235,7 +235,7 @@ succession_laws = {
 				factor = 0
 				NOT = {
 					holder_scope = {
-						government = white_martyr_government
+						government = cenobitic_government
 						religion = insular
 					}
 				}
@@ -244,7 +244,7 @@ succession_laws = {
 			modifier = {
 				factor = 100
 				holder_scope = {
-					government = white_martyr_government
+					government = cenobitic_government
 					religion = insular
 				}
 			}
