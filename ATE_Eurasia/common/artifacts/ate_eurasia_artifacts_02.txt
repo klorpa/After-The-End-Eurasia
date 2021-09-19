@@ -255,8 +255,13 @@ ate_eurasia_trumpet = {
 	quality = 2
 	active = {
 		age >= 6
-		religion = lutheran
-		trait = brass_chorus
+		OR = {
+			AND = {
+				religion = lutheran
+				trait = brass_chorus
+			}
+			trait = musician
+		}
 	}
 	
 	flags = { brasschorus instrument }
@@ -270,8 +275,13 @@ ate_eurasia_trombone = {
 	quality = 2
 	active = {
 		age >= 6
-		religion = lutheran
-		trait = brass_chorus
+		OR = {
+			AND = {
+				religion = lutheran
+				trait = brass_chorus
+			}
+			trait = musician
+		}
 	}
 	
 	flags = { brasschorus instrument }
@@ -285,8 +295,13 @@ ate_eurasia_horn = {
 	quality = 2
 	active = {
 		age >= 6
-		religion = lutheran
-		trait = brass_chorus
+		OR = {
+			AND = {
+				religion = lutheran
+				trait = brass_chorus
+			}
+			trait = musician
+		}
 	}
 	
 	flags = { brasschorus instrument }
@@ -300,8 +315,13 @@ ate_eurasia_baritone = {
 	quality = 3
 	active = {
 		age >= 6
-		religion = lutheran
-		trait = brass_chorus
+		OR = {
+			AND = {
+				religion = lutheran
+				trait = brass_chorus
+			}
+			trait = musician
+		}
 	}
 	
 	flags = { brasschorus instrument }
