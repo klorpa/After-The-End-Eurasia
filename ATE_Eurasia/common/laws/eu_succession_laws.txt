@@ -57,42 +57,20 @@ succession_laws = {
 		feudal_opinion = -5
 		potential = {
 			holder_scope = {
-				AND = {
-					religion_group = muslim
-					NOT = {religion = ibadi}
-				}
 				OR = {
 					government = ghazi_government
 					government = diwan_government
 				}
 			}
-		}
-		default_selection = {
-			factor = 1
-			
-			modifier = {
-				factor = 0
-				NOT = {
-					holder_scope = {
-						OR = {
-							government = ghazi_government
-							government = diwan_government
-						}
-					}
-				}
-			}
-			
-			modifier = {
-				factor = 100
-				holder_scope = {
-					OR = {
-						government = ghazi_government
-						government = diwan_government
-					}
-				}
-			}
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
+			NOT = { holder_scope = { government = chinese_imperial_government } }
+
 		}
 		allow = {
+			AND = {
+				religion_group = muslim
+				NOT = {religion = ibadi}
+			}
 			custom_tooltip = {
 				text = not_forced_tt
 				hidden_tooltip = {
@@ -108,7 +86,7 @@ succession_laws = {
 		}
 		revoke_allowed = {
 			always = no
-		}			
+		}
 	}
 	succ_imamate_elective = {
 		oldest_child_opinion = -5
@@ -117,32 +95,13 @@ succession_laws = {
 		feudal_opinion = -5
 		potential = {
 			holder_scope = {
-				religion = ibadi
 				government = ibadi_imamate
 			}
-		}
-		default_selection = {
-			factor = 1
-			
-			modifier = {
-				factor = 0
-				NOT = {
-					holder_scope = {
-						religion = ibadi
-						government = ibadi_imamate
-					}
-				}
-			}
-			
-			modifier = {
-				factor = 100
-				holder_scope = {
-					religion = ibadi
-					government = ibadi_imamate
-				}
-			}
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
+			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}
 		allow = {
+			religion = ibadi
 			custom_tooltip = {
 				text = not_forced_tt
 				hidden_tooltip = {
