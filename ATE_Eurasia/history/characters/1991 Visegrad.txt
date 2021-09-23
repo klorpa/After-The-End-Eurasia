@@ -1457,7 +1457,7 @@
 19911023={
 	name="Krzysztof" 
 	dynasty=2045115 #Bem
-	culture=polish
+	culture=malopolan
 	religion=mariavite
 	trait=naive_appeaser
 	trait=trusting
@@ -1477,7 +1477,7 @@
 	name="Karolina" 
 	dynasty=2045115 #Bem
 	female=yes
-	culture=polish
+	culture=malopolan
 	religion=mariavite
 	trait=scholarly_theologian
 	trait=mystic
@@ -1497,7 +1497,7 @@
 19911025={
 	name="Jacek" 
 	dynasty=2045115 #Bem
-	culture=polish
+	culture=malopolan
 	religion=mariavite
 	trait=scholarly_theologian
 	trait=gluttonous
@@ -1516,7 +1516,7 @@
 19911026={
 	name="Boleslaw"
 	dynasty=2045115 #Bem
-	culture=polish
+	culture=malopolan
 	religion=mariavite
 	trait=indulgent_wastrel
 	trait=homosexual
@@ -1537,7 +1537,7 @@
 	name="Jagoda Maria"
 	dynasty=2045115 #Bem
 	female=yes
-	culture=polish
+	culture=malopolan
 	religion=mariavite
 	trait=indulgent_wastrel
 	trait=ambitious
@@ -1558,7 +1558,7 @@
 	name="Stefania"
 	dynasty=2045115 #Bem
 	female=yes
-	culture=polish
+	culture=malopolan
 	religion=mariavite
 	trait=ambitious
 	trait=quick
@@ -1581,7 +1581,7 @@
 	name="Jadwiga"
 	dynasty=2045115 #Bem
 	female=yes
-	culture=polish
+	culture=malopolan
 	religion=mariavite
 	trait=fair
 	trait=quick
@@ -1704,7 +1704,7 @@
 19911035={
 	name="Grzegorz"
 	dynasty=2045115 #Bem
-	culture=polish
+	culture=malopolan
 	religion=mariavite
 	trait=cruel
 	trait=wroth
@@ -2127,7 +2127,7 @@
 	female = yes
 	2630.1.1 = {birth = yes}
 }
-19911054={
+19911056={
 	name="Béla"
 	dynasty=2045118 #Pepsi
 	culture=hungarian
@@ -2137,4 +2137,138 @@
 	2610.1.2={birth=yes}
 	2650.1.2={employer=1991100}
 	2680.1.1={death=yes}
+}
+
+19911057={
+	name="Wiktoria"
+	dynasty=2045115 #Bem
+	culture=malopolan
+	religion=oasite
+	female=yes
+	trait=kind
+	trait=arbitrary
+	trait=shy
+	trait=depressed
+	trait=chaste
+	father=19911035
+	2475.9.3={birth=yes}
+	2490.5.5={death={death_reason=death_suicide}}
+}
+19911058={
+	name="Jan Pawel"
+	dynasty=2045115 #Bem
+	culture=malopolan
+	religion=mariavite
+	trait=kind
+	trait=patient
+	trait=brawny
+	trait=depressed
+	trait=chaste
+	father=19911035
+	2480.11.5={birth=yes}
+	2524.2.11={death=yes}
+}
+19911059={
+	name="Jan Pawel"
+	dynasty=2045115 #Bem
+	culture=malopolan
+	religion=mariavite
+	trait=kind
+	trait=temperate
+	trait=strong
+	trait=musician
+	trait=cancer
+	father=19911058
+	2502.7.31={birth=yes}
+	2552.7.2={death={death_reason=death_trait}}
+}
+19911060={
+	name="Krzysztof"
+	dynasty=2045115 #Bem
+	culture=malopolan
+	religion=mariavite
+	trait=cruel
+	trait=falconer
+	trait=strong
+	trait=fair
+	give_nickname=nick_longbeard
+	father=19911059
+	2534.1.16={birth=yes}
+	2590.12.4={death=yes}
+}
+19911061={
+	name="Adam"
+	dynasty=2045115 #Bem
+	culture=malopolan
+	religion=mariavite
+	trait=frail
+	trait=ill
+	trait=proud
+	trait=mystic
+	father=19911060
+	2559.7.4={birth=yes}
+	2588.12.24={death={death_reason=death_accident}}
+}
+19911062={
+	name="Baltazar"
+	dynasty=2045115 #Bem
+	culture=malopolan
+	religion=mariavite
+	trait=frail
+	trait=deceitful
+	trait=shrewd
+	trait=proud
+	trait=quick
+	trait=elusive_shadow
+	give_nickname=nick_the_fox
+	father=19911061
+	2580.1.31={birth=yes}
+	2648.6.14={death=yes}
+}
+19911063={
+	name="Józef"
+	dynasty=2045115 #Bem
+	culture=malopolan
+	religion=nizami
+	trait=brave
+	trait=brilliant_strategist
+	trait=tactician
+	trait=sympathy_islam
+	father=19911062
+	2604.4.17={birth=yes}
+	2660.9.3={death=yes}
+}
+19911064={
+	name="Wanda"
+	dynasty=2045115 #Bem
+	culture=malopolan
+	religion=mariavite
+	female=yes
+	trait=sympathy_islam
+	trait=fair
+	trait=stubborn
+	trait=charismatic_negotiator
+	trait=chaste
+	trait=zealous
+	diplomacy=8
+	martial=6
+	stewardship=5
+	intrigue=6
+	learning=6
+	father=19911063
+	2642.7.8={birth=yes}
+	2690.1.1={death=yes}
+}
+19911065={
+	name="Aleksander"
+	dynasty=2045115 #Bem
+	culture=malopolan
+	religion=mariavite
+	trait=poet
+	trait=misguided_warrior
+	trait=peasant_leader
+	trait=scholar
+	father=19911062
+	2610.9.31={birth=yes}
+	2690.1.1={death=yes}
 }
