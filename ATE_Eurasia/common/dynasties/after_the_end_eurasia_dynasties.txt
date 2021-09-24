@@ -5733,7 +5733,19 @@ coat_of_arms = {
 1969013 = { name="Imro" culture=slovak}
 1969014 = { name="Malár" culture=slovak}
 1969015 = { name="Czunderlik" culture=slovak}
-1969016 = { name="Škultéty" culture=slovak}
+1969016 = { name="Škultéty" culture=slovak
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1969017 = { name="Murgaš" culture=slovak}
 1969018 = { name="Záborský" culture=slovak}
 1969019 = { name="Országh" culture=slovak}
@@ -5759,7 +5771,19 @@ coat_of_arms = {
 1969039 = { name="Medvedík" culture=slovak}
 1969040 = { name="Chrobák" culture=slovak}
 1969041 = { name="Otczenáš" culture=slovak}
-1969042 = { name="Holub" culture=slovak}
+1969042 = { name="Holub" culture=slovak
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1969043 = { name="Komár" culture=slovak}
 1969044 = { name="Bacza" culture=slovak}
 1969045 = { name="Carnogurský" culture=slovak}
@@ -26092,6 +26116,7 @@ coat_of_arms = {
 		}
 	}
 }
+2926076 = { name="Šarišský" culture=romani }
 
 2941000 = { name="Swiat-Jajek" culture=warmzur used_for_random=no }
 
