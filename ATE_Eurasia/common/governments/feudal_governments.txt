@@ -951,8 +951,8 @@ feudal_governments = {
 			theocratic_feudal_government
 			chinese_imperial_government
 		}
-		frame_suffix = "_hereditary_theocracy"
-		title_prefix = "temple_"
+		frame_suffix = "_hereditarytheocracy"
+		title_prefix = "hereditarytheocracy_"
 		potential = {
 			NOT = { government = theocracy_government }
 			NOT = { is_government_potential = theocracy_government }
