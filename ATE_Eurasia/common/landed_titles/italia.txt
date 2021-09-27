@@ -1644,7 +1644,7 @@ e_italy = {
 			color={ 220 185 180 }
 			color2={ 255 255 255 }
 				
-			capital = 1136 # Parma
+			capital = 1139 # Ravenna
 
 			neapolitan="Rumagna"
 			sicilian="Rumagna"
@@ -1657,6 +1657,123 @@ e_italy = {
 			arpitan="Romagne"
 			occitan="Romanha"
 			provencal="Romanha"
+			
+			c_rimini = {
+				color={ 97 170 67 }
+				color2={ 255 255 255 }
+
+				sicilian="Rìmini"
+				venetian="Rìmano"
+				romagnol="Rèmin"
+				sardinian="Rìmini"
+				ligurian="Rimmini"
+				piedmontese="Rìmin"
+					
+				b_forli = {
+					romagnol="Furlè"
+				}
+				b_cesena = {
+					romagnol="Cisêna"
+				}
+				b_rimini = {
+					sicilian="Rìmini"
+					venetian="Rìmano"
+					romagnol="Rèmin"
+					sardinian="Rìmini"
+					ligurian="Rimmini"
+					piedmontese="Rìmin"
+				}
+				b_argenta_2 = {
+					romagnol="Arzènta"
+				}
+				b_savignano_sul_rubicone = {
+					romagnol="Savgnèn"
+				}
+				b_forlimpopoli = {
+					romagnol="Frampùl"
+				}
+				b_san_mauro_pascoli = {
+					romagnol="San Mevar"
+				}
+			}
+			c_ravenna = {
+				color={ 197 159 72 }
+				color2={ 255 255 255 }
+
+				venetian="Ravena"
+				romagnol="Ravêna"
+				piedmontese="Ravënna"
+				lombard="Ravena"
+				rhenish="Raben"
+				low_saxon="Raben"
+				ossi="Raben"
+				upper_saxon="Raben"
+				bavarian="Raben"
+				swabian="Raben"
+				austrian="Raben"
+				luxembourger="Raben"
+				schwyzer="Raben"
+				parisian="Ravenne"
+				walloon="Ravenne"
+				chti="Ravenne"
+				occitan="Ravena"
+				provencal="Ravena"
+					
+				b_faenza = {
+					romagnol="Fènza"
+				}
+				b_lugo_2 = {
+					romagnol="Lùgh"
+				}
+				b_ravenna = {
+					venetian="Ravena"
+					romagnol="Ravêna"
+					piedmontese="Ravënna"
+					lombard="Ravena"
+					rhenish="Raben"
+					low_saxon="Raben"
+					ossi="Raben"
+					upper_saxon="Raben"
+					bavarian="Raben"
+					swabian="Raben"
+					austrian="Raben"
+					luxembourger="Raben"
+					schwyzer="Raben"
+					parisian="Ravenne"
+					walloon="Ravenne"
+					chti="Ravenne"
+					occitan="Ravena"
+					provencal="Ravena"
+				}
+				b_cervia = {
+					romagnol="Zirvia"
+				}
+				b_bagnacavallo = {
+					romagnol="Bagnacavàl"
+				}
+				b_russi = {
+					romagnol="Ròss"
+				}
+				b_alfonsine = {
+					romagnol="Agl'infulsèn"
+				}
+			}
+		}
+		d_emilia = {
+			color={ 225 180 175 }
+			color2={ 255 255 255 }
+				
+			capital = 1136 # Parma
+
+			romagnol="Emégglia"
+			sardinian="Emìlia"
+			friulian="Emilie"
+			parisian="Émilie"
+			walloon="Émilie"
+			chti="Émilie"
+			arpitan="Èmilia"
+			occitan="Emília"
+			provencal="Emília"
 				
 			c_parma = {
 				color={ 233 213 16 }
@@ -1821,123 +1938,6 @@ e_italy = {
 					romagnol="Bundén"
 				}
 				b_riva_del_po = {}
-			}
-		}
-		d_emilia = {
-			color={ 225 180 175 }
-			color2={ 255 255 255 }
-				
-			capital = 1139 # Ravenna
-
-			romagnol="Emégglia"
-			sardinian="Emìlia"
-			friulian="Emilie"
-			parisian="Émilie"
-			walloon="Émilie"
-			chti="Émilie"
-			arpitan="Èmilia"
-			occitan="Emília"
-			provencal="Emília"
-			
-			c_rimini = {
-				color={ 97 170 67 }
-				color2={ 255 255 255 }
-
-				sicilian="Rìmini"
-				venetian="Rìmano"
-				romagnol="Rèmin"
-				sardinian="Rìmini"
-				ligurian="Rimmini"
-				piedmontese="Rìmin"
-					
-				b_forli = {
-					romagnol="Furlè"
-				}
-				b_cesena = {
-					romagnol="Cisêna"
-				}
-				b_rimini = {
-					sicilian="Rìmini"
-					venetian="Rìmano"
-					romagnol="Rèmin"
-					sardinian="Rìmini"
-					ligurian="Rimmini"
-					piedmontese="Rìmin"
-				}
-				b_argenta_2 = {
-					romagnol="Arzènta"
-				}
-				b_savignano_sul_rubicone = {
-					romagnol="Savgnèn"
-				}
-				b_forlimpopoli = {
-					romagnol="Frampùl"
-				}
-				b_san_mauro_pascoli = {
-					romagnol="San Mevar"
-				}
-			}
-			c_ravenna = {
-				color={ 197 159 72 }
-				color2={ 255 255 255 }
-
-				venetian="Ravena"
-				romagnol="Ravêna"
-				piedmontese="Ravënna"
-				lombard="Ravena"
-				rhenish="Raben"
-				low_saxon="Raben"
-				ossi="Raben"
-				upper_saxon="Raben"
-				bavarian="Raben"
-				swabian="Raben"
-				austrian="Raben"
-				luxembourger="Raben"
-				schwyzer="Raben"
-				parisian="Ravenne"
-				walloon="Ravenne"
-				chti="Ravenne"
-				occitan="Ravena"
-				provencal="Ravena"
-					
-				b_faenza = {
-					romagnol="Fènza"
-				}
-				b_lugo_2 = {
-					romagnol="Lùgh"
-				}
-				b_ravenna = {
-					venetian="Ravena"
-					romagnol="Ravêna"
-					piedmontese="Ravënna"
-					lombard="Ravena"
-					rhenish="Raben"
-					low_saxon="Raben"
-					ossi="Raben"
-					upper_saxon="Raben"
-					bavarian="Raben"
-					swabian="Raben"
-					austrian="Raben"
-					luxembourger="Raben"
-					schwyzer="Raben"
-					parisian="Ravenne"
-					walloon="Ravenne"
-					chti="Ravenne"
-					occitan="Ravena"
-					provencal="Ravena"
-				}
-				b_cervia = {
-					romagnol="Zirvia"
-				}
-				b_bagnacavallo = {
-					romagnol="Bagnacavàl"
-				}
-				b_russi = {
-					romagnol="Ròss"
-				}
-				b_alfonsine = {
-					romagnol="Agl'infulsèn"
-				}
 			}
 		}
 		d_milan = {
