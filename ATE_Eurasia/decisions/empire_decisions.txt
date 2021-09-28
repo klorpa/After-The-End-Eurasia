@@ -156,6 +156,36 @@ decisions = {
 				d_urmiya = {
 					de_jure_liege = k_kurdistan
 				}
+				d_sanandaj  = {
+					de_jure_liege = k_kurdistan
+				}
+				d_raqqa  = {
+					de_jure_liege = k_kurdistan
+				}
+				d_kermanshah  = {
+					de_jure_liege = k_kurdistan
+				}
+				d_diyarbakir  = {
+					de_jure_liege = k_kurdistan
+				}
+				k_kurdistan  = {
+					de_jure_liege = e_al_mashriq
+				}
+				set_global_flag = kurdistan_formed
+				spawn_unit = {
+					owner = ROOT
+					province = ROOT
+					home = ROOT
+              
+					troops = {
+						archers = { 300 300 }
+						light_cavalry = { 200 200 }
+					}
+
+					attrition = 0
+					disband_on_peace = no
+					maintenance_multiplier = 0
+				}
 			}
 		}
 	}
@@ -221,63 +251,60 @@ decisions = {
             factor = 100
         }
     }
-	form_kurdistan = {
+	form_sicilia = {
         is_high_priority = yes
         potential = {
             is_alternate_start = no
-            NOT = { has_global_flag = kurdistan_formed }
+            NOT = { has_global_flag = sicilia_formed }
             independent = yes
-            culture = kurdish
-            date >= 2666.5.21
+			OR = {
+				culture = sicilian
+				culture = neapolitan
+			}
         }
         allow = {
             is_adult = yes
             prisoner = no
             NOT = { trait = incapable }
             war = no
-            has_landed_title = d_kurdistan
+			independent = yes
+			prestige = 500
+			wealth = 400
+			tier = DUKE
+			completely_controls = k_sicily
+			completely_controls = k_naples
         }
         effect = {
-            activate_title = { title = k_kurdistan status = yes }
+            activate_title = { title = k_sicilia status = yes }
             primary_title = {
-                k_kurdistan = {
+                k_sicilia = {
                     grant_title = ROOT
                     copy_title_laws = PREV
                 }
             }
-            d_kurdistan = {
-                de_jure_liege = k_kurdistan 
+            d_palermo = {
+                de_jure_liege = k_sicilia 
             }
-            d_mardin = {
-                de_jure_liege = k_kurdistan 
+            d_syracuse = {
+                de_jure_liege = k_sicilia 
             }
-            d_van = {
-                de_jure_liege = k_kurdistan 
+			d_calabria = {
+                de_jure_liege = k_sicilia 
             }
-            d_urmiya = {
-                de_jure_liege = k_kurdistan 
+			d_apulia = {
+                de_jure_liege = k_sicilia 
             }
-            d_sanandaj  = {
-                de_jure_liege = k_kurdistan
+			d_campania = {
+                de_jure_liege = k_sicilia 
             }
-            k_kurdistan  = {
-                de_jure_liege = e_al_mashriq
+			d_abruzzo = {
+                de_jure_liege = k_sicilia 
             }
-            set_global_flag = kurdistan_formed
-            spawn_unit = {
-                owner = ROOT
-                province = ROOT
-                home = ROOT
-              
-                troops = {
-                    archers = { 300 300 }
-                    light_cavalry = { 200 200 }
-                }
-
-                attrition = 0
-                disband_on_peace = no
-                maintenance_multiplier = 0
+            k_sicilia  = {
+                de_jure_liege = e_italy
             }
+            set_global_flag = sicilia_formed
+			custom_tooltip = { text = form_sicilia_TT }
         }
         revoke_allowed = {
             always = no
