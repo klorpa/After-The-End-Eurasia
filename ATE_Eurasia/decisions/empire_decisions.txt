@@ -120,10 +120,17 @@ decisions = {
 			prestige = 1000
 			wealth = 500
 			tier = DUKE
-			completely_controls = d_kurdistan
-			completely_controls = d_van
-			completely_controls = d_mardin
-			completely_controls = d_urmiya
+			calc_true_if = {
+				amount = 4
+				completely_controls = d_kurdistan
+				completely_controls = d_van
+				completely_controls = d_mardin
+				completely_controls = d_urmiya
+				completely_controls = d_sanandaj
+				completely_controls = d_raqqa
+				completely_controls = d_kermanshah
+				completely_controls = d_diyarbakir
+			}
 		}
 
 		effect = {
