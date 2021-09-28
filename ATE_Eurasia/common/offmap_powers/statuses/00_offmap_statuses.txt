@@ -35,3 +35,37 @@ china_plague = {
 china_golden_age = {
 	frame = 8
 }
+
+ethiopia_stable = {
+	frame = 1
+}
+
+ethiopia_unrest = {
+	frame = 2
+}
+
+ethiopia_civil_war = {
+	#Note: If the Ethiopia is currently in conflict (i.e. Civil War or Being Invaded by Other African Powers) the power of the Northern Governorate is significantly lowered (they can call upon fewer regiments from Ethiopia to aid them), making it easier to open Ethiopia by force.
+	frame = 3
+}
+
+ethiopia_east_african_invasion = {
+	frame = 4
+}
+
+ethiopia_west_african_invasion = {
+	frame = 5
+}
+
+ethiopia_famine = {
+	flags = { disallow_interactions disallow_troops }
+	frame = 6
+}
+
+ethiopia_plague = {
+	frame = 7
+}
+
+ethiopia_golden_age = {
+	frame = 8
+}
