@@ -1,0 +1,446 @@
+
+laws = {
+# cenobitic_government_slider
+
+	#Feudal: Completely Feudal Cenobitic
+	cenobitic_government_slider_0 = {
+		show_as_title = yes
+		group = cenobitic_government_slider
+		default = yes
+		
+		potential = {
+			holder_scope = {
+				AND = {
+					OR = {
+						religion = miaphysite
+						religion = insular
+						#religion = insular_heresy
+					}
+					OR = {
+						government = feudal_government
+						government = cenobitic_government
+						government = theocratic_feudal_government
+					}
+					higher_tier_than = BARON	
+			}
+		}
+	}
+		allow = {
+		has_law = cenobitic_government_slider_1
+		}
+
+		revoke_allowed = {
+			always = no
+		}			
+		
+		effect = {
+			hidden_tooltip = {
+				revoke_law = cenobitic_government_slider_0
+				revoke_law = cenobitic_government_slider_1
+				revoke_law = cenobitic_government_slider_2
+				revoke_law = cenobitic_government_slider_3
+				revoke_law = cenobitic_government_slider_4
+			}
+			set_government = feudal_government
+
+		}
+				
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 10
+				holder_scope = {
+					trait = cynical
+				}
+			}
+			modifier = {
+				factor = 20
+				holder_scope = {
+					trait = excommunicated
+					trait = adventurer
+				}
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+	}
+	
+	#Monastic Feudal
+	cenobitic_government_slider_1 = {
+		show_as_title = yes
+		group = cenobitic_government_slider
+		
+		#Ge'ez Apostolics default to this
+		default_selection = {
+			factor = 0
+			additive_modifier = { 
+				value = 10			
+				holder_scope = { 
+				AND = {
+					religion = miaphysite
+					OR = {
+						culture_group = cushitic
+						culture_group = habesha
+						culture_group = nilotic
+						culture = masri
+					}
+					# NOT = { is_government_potential = ethiopian_government }
+					NOT = { top_liege = { government = diwan_government } }
+				}	
+				}
+			}
+		}
+		
+		potential = {
+			holder_scope = {
+				AND = {
+					OR = {
+						religion = miaphysite
+						religion = insular
+						#religion = insular_heresy
+					}
+					OR = {
+						government = feudal_government
+						government = cenobitic_government
+						government = theocratic_feudal_government
+					}
+					higher_tier_than = BARON
+							
+			}
+		}
+	}
+		allow = {
+			OR = {
+				has_law = cenobitic_government_slider_0
+				has_law = cenobitic_government_slider_2
+			}		
+		}
+
+		revoke_allowed = {
+			always = no
+		}			
+		
+		effect = {
+			hidden_tooltip = {
+				revoke_law = cenobitic_government_slider_0
+				revoke_law = cenobitic_government_slider_1
+				revoke_law = cenobitic_government_slider_2
+				revoke_law = cenobitic_government_slider_3
+				revoke_law = cenobitic_government_slider_4
+			}
+			set_government = theocratic_feudal_government
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 10
+				holder_scope = {
+					trait = devout
+					trait = zealous
+					NOT = {has_law = cenobitic_government_slider_2 }
+				}
+			}
+			modifier = {
+				factor = 10
+				holder_scope = {
+					trait = detached_priest
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+					NOT = {has_law = cenobitic_government_slider_2 }
+				}
+			}
+			modifier = { #Truly a Pious One
+			factor = 20
+			ROOT = {
+				OR = {
+					trait = canon
+					trait = canoness
+					trait = celibate
+					}
+				NOT = {has_law = cenobitic_government_slider_2 }
+				}
+			}
+			modifier = { #Truly a Pious One
+			factor = 10
+			ROOT = {
+				OR = {
+					trait = regularis
+					trait = regulara
+					trait = chaste
+					}
+				NOT = {has_law = cenobitic_government_slider_2 }
+				}
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+	}
+
+	#Transitionary Monastic Feudal
+	cenobitic_government_slider_2 = {
+		show_as_title = yes
+		group = cenobitic_government_slider
+			
+		potential = {
+			holder_scope = {
+				AND = {
+					OR = {
+						religion = miaphysite
+						religion = insular
+						#religion = insular_heresy
+					}
+					OR = {
+						government = feudal_government
+						government = cenobitic_government
+						government = theocratic_feudal_government
+					}
+					higher_tier_than = BARON
+							
+			}
+		}
+	}
+		allow = {
+			OR = {
+				has_law = cenobitic_government_slider_1
+				has_law = cenobitic_government_slider_3
+			}		
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 10
+				holder_scope = {
+					trait = devout
+					trait = zealous
+					NOT = {has_law = cenobitic_government_slider_3 }
+				}
+			}
+			modifier = {
+				factor = 10
+				holder_scope = {
+					trait = detached_priest
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+					NOT = {has_law = cenobitic_government_slider_3 }
+				}
+			}
+		modifier = { #Truly a Pious One
+			factor = 15
+			ROOT = {
+				OR = {
+					trait = canon
+					trait = canoness
+					trait = celibate
+					}
+				NOT = {has_law = cenobitic_government_slider_3 }
+				}
+			}
+		modifier = { #Truly a Pious One
+			factor = 5
+			ROOT = {
+				OR = {
+					trait = regularis
+					trait = regulara
+					trait = chaste
+					}
+				NOT = {has_law = cenobitic_government_slider_3 }
+				}
+		}
+	}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = cenobitic_government_slider_0
+				revoke_law = cenobitic_government_slider_1
+				revoke_law = cenobitic_government_slider_2
+				revoke_law = cenobitic_government_slider_3
+				revoke_law = cenobitic_government_slider_4
+			}
+			set_government = theocratic_feudal_government
+
+		}
+	}
+	
+	#Cenobitic Feudal
+	cenobitic_government_slider_3 = {
+		show_as_title = yes
+		group = cenobitic_government_slider
+		
+		default_selection = {
+			factor = 0
+			additive_modifier = { 
+				value = 100			
+				holder_scope = { 
+					OR { 
+					religion = insular
+					#religion = insular heresy
+					}
+				higher_tier_than = BARON
+				}	
+			}
+		}
+		potential = {
+			holder_scope = {
+				AND = {
+					OR = {
+						religion = miaphysite
+						religion = insular
+						#religion = insular_heresy
+					}
+					OR = {
+						government = feudal_government
+						government = cenobitic_government
+						government = theocratic_feudal_government
+					}
+					higher_tier_than = BARON
+							
+			}
+		}
+	}
+		allow = {
+			OR = {
+				has_law = cenobitic_government_slider_2
+				has_law = cenobitic_government_slider_4
+			}		
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 10
+				holder_scope = {
+					trait = indulgent_wastrel
+					trait = thrifty_clerk
+					trait = fortune_builder
+					trait = midas_touched
+				}
+			}
+		modifier = { #Truly a Pious One
+			factor = 20
+			ROOT = {
+				OR = {
+					trait = canon
+					trait = canoness
+					trait = celibate
+					}
+				NOT = {has_law = cenobitic_government_slider_4 }
+				}
+			}
+		modifier = { #Truly a Pious One
+			factor = 10
+			ROOT = {
+				OR = {
+					trait = regularis
+					trait = regulara
+					trait = chaste
+					}
+				NOT = {has_law = cenobitic_government_slider_4 }
+				}
+			}			
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				revoke_law = cenobitic_government_slider_0
+				revoke_law = cenobitic_government_slider_1
+				revoke_law = cenobitic_government_slider_2
+				revoke_law = cenobitic_government_slider_3
+				revoke_law = cenobitic_government_slider_4
+			}
+			set_government = cenobitic_government
+
+		}
+	}
+	
+	#Pachomial Feudal
+	cenobitic_government_slider_4 = {
+		show_as_title = yes
+		group = cenobitic_government_slider
+
+		potential = {
+			holder_scope = {
+				AND = {
+					OR = {
+						religion = miaphysite
+						religion = insular
+						#religion = insular_heresy
+					}
+					OR = {
+						government = feudal_government
+						government = cenobitic_government
+						government = theocratic_feudal_government
+					}
+					higher_tier_than = BARON
+							
+			}
+		}
+	}
+		allow = {
+		has_law = cenobitic_government_slider_3
+		}
+		revoke_allowed = {
+			always = no
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				revoke_law = cenobitic_government_slider_0
+				revoke_law = cenobitic_government_slider_1
+				revoke_law = cenobitic_government_slider_2
+				revoke_law = cenobitic_government_slider_3
+				revoke_law = cenobitic_government_slider_4
+			}
+			set_government = cenobitic_government
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+		modifier = { #Truly a Pious One
+			factor = 20
+			ROOT = {
+				OR = {
+					trait = desert_father
+					trait = desert_mother
+					trait = celibate
+				}
+			}
+		}
+	}
+		ai_will_revoke = {
+			factor = 0
+		}
+	}
+	
+}

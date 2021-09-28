@@ -45,7 +45,9 @@ feudal_governments = {
 			NOT = { is_government_potential = order_government }
 			NOT = { is_government_potential = cenobitic_government }
 			NOT = { is_government_potential = confederation_government }
+			NOT = { is_government_potential = theocratic_feudal_government }
 			NOT = { is_government_potential = swaraj_government}
+			NOT = { culture = pavee }
 			NAND = { 
 				culture_group = tibetan
 				religion_group = buddhist_group
@@ -166,10 +168,25 @@ feudal_governments = {
 			NOT = {	religion_group = muslim	}
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
-			AND = { 
-				culture_group = tibetan
-				religion_group = buddhist_group
-				higher_tier_than = BARON
+			OR = {
+				AND = { 
+					culture_group = tibetan
+					religion_group = buddhist_group
+					higher_tier_than = BARON
+				}
+				AND = {
+					OR = {
+						religion = miaphysite
+						religion = insular
+						#religion = insular_heresy
+					}
+					OR = {
+						has_law = cenobitic_government_slider_1
+						has_law = cenobitic_government_slider_2
+					}
+					higher_tier_than = BARON
+				}
+
 			}
 			NAND = { 
 				tier = EMPEROR
@@ -893,10 +910,18 @@ feudal_governments = {
 		title_prefix = "cenobitic_"
 		
 		potential = {
-		OR= {
-		religion = insular
-		religion = miaphysite
-		}
+			AND = {
+				OR = {
+					religion = miaphysite
+					religion = insular
+					#religion = insular_heresy
+					}
+				OR = {
+				has_law = cenobitic_government_slider_3
+				has_law = cenobitic_government_slider_4
+					}
+				higher_tier_than = BARON
+			}
 			is_patrician = no		
 		}
 
