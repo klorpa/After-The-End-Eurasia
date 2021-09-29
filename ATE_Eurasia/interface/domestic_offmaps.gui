@@ -574,26 +574,6 @@ guiTypes = {
 	}
 	
 	windowType = {
-		name = "ethiopia_icon_offmaps_entry"
-		backGround =""
-		position = { x = 0 y = 0 }
-		size = { x = 50 y = 50 }
-		moveable = 0
-		dontRender = ""
-		horizontalBorder = "0"
-		verticalBorder = ""
-		fullScreen = no
-		Orientation = "UPPER_LEFT"
-		
-		guiButtonType =	{
-			name = "icon_offmaps_ethiopia"
-			position = { x=0 y=0 }
-			quadTextureSprite ="GFX_ethiopia_screen_button"	
-			clicksound = click_default_china
-		}
-	}
-	
-	windowType = {
 		name ="domestic_ethiopia_window"
 		backGround="bg_offmaps"
 		position = { x=-345 y=-330 }	
@@ -636,26 +616,11 @@ guiTypes = {
 		
 			instantTextBoxType = {
 				name = "offmap_label"
-				position = { x = 5210 y = 85 }
+				position = { x = 210 y = 85 }
 				textureFile = ""
 				font = "vic_36"
 				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"
-				maxWidth = 280
-				maxHeight = 24
-				format = centre
-				fixedsize = yes
-				Orientation = "UPPER_LEFT"
-				alwaystransparent = yes
-			}
-			
-			instantTextBoxType = {
-				name = "offmap_label_2"
-				position = { x = 210 y = 82 }
-				textureFile = ""
-				font = "vic_36"
-				borderSize = {x = 0 y = 0}
-				text = "JATE_narrator_name_full"
 				maxWidth = 280
 				maxHeight = 24
 				format = centre
@@ -722,7 +687,6 @@ guiTypes = {
 				fixedsize = yes
 				Orientation = "CENTER"
 			}
-			
 			iconType = {
 				name ="ruler_portrait_frame"
 				quadTextureSprite = "GFX_offmap_ruler_portrait_border_ethiopia"
@@ -734,7 +698,7 @@ guiTypes = {
 			guiButtonType = {
 				name ="ruler_dynasty"
 				quadTextureSprite = "GFX_CoA_big" # "GFX_shield_medium", "GFX_shield_big"
-				position = { x= 4997 y = 202 }
+				position = { x= 97 y = 202 }
 				Orientation = "UPPER_LEFT"
 				clicksound = click_default_china
 			}
@@ -742,35 +706,35 @@ guiTypes = {
 			iconType = {
 				name ="ruler_dynasty_frame"
 				quadTextureSprite = "GFX_offmap_ethiopia_dynasty_frame"
-				position = { x= 4997 y = 195 }
+				position = { x= 88 y = 195 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
 			
 			
-			#guiButtonType =	{
-			#	name ="governor_portrait"
-			#	quadTextureSprite= "GFX_char_75"
-			#	position = { x= 4997 y = 207 }
-			#	Orientation = "UPPER_LEFT"
-			#	pdx_tooltip = "CHARACTER_TOOLTIP"
-			#	pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
-			#	clicksound = click_default_china
-			#}
+			guiButtonType =	{
+				name ="governor_portrait"
+				quadTextureSprite= "GFX_char_75"
+				position = { x= 509 y = 207 }
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "CHARACTER_TOOLTIP"
+				pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+				clicksound = click_default_china
+			}
 			
-			#guiButtonType =
-			#{
-			#	name ="governor_portrait_frame"
-			#	quadTextureSprite = "GFX_charframe_75" 
-			#	position = { x= 5509 y = 198 }
-			#	Orientation = "UPPER_LEFT"
-			#	clicksound = click_default_china
-			#}
+			guiButtonType =
+			{
+				name ="governor_portrait_frame"
+				quadTextureSprite = "GFX_charframe_75" 
+				position = { x= 501 y = 198 }
+				Orientation = "UPPER_LEFT"
+				clicksound = click_default_china
+			}
 			
 			guiButtonType =	{
 				name ="offmap_gifts"
 				quadTextureSprite ="GFX_offmap_gift_button_ethiopia"
-				position = { x= 5225 y = 340 }
+				position = { x= 225 y = 340 }
 				clicksound = click_default_china
 				pdx_tooltip = "OFFMAP_GIFTS"
 				pdx_tooltip_delayed = "OFFMAP_GIFTS_DESC"
@@ -779,27 +743,27 @@ guiTypes = {
 			guiButtonType =	{
 				name ="offmap_boons"
 				quadTextureSprite ="GFX_offmap_boon_button_ethiopia"
-				position = { x= 322 y = 370 }
+				position = { x= 415 y = 340 }
 				clicksound = click_default_china
 				pdx_tooltip = "OFFMAP_BOONS"
 				pdx_tooltip_delayed = "OFFMAP_BOONS_DESC"
 			}
 			
-			#guiButtonType =	{
-			#	name ="offmap_hostility"
-			#	quadTextureSprite ="GFX_offmap_hostile_button_china"
-			#	position = { x= 555 y = 255 }
-			#	clicksound = click_default_china
-			#	pdx_tooltip = "OFFMAP_HOSTILE"
-			#	pdx_tooltip_delayed = "OFFMAP_HOSTILE_DESC"
-			#}
+			guiButtonType =	{
+				name ="offmap_hostility"
+				quadTextureSprite ="GFX_offmap_hostile_button_ethiopia"
+				position = { x= 555 y = 255 }
+				clicksound = click_default_china
+				pdx_tooltip = "OFFMAP_HOSTILE"
+				pdx_tooltip_delayed = "OFFMAP_HOSTILE_DESC"
+			}
 			
-			#guiButtonType =	{
-			#	name ="offmap_hostility2"
-			#	quadTextureSprite ="GFX_offmap_hostile_button_china"
-			#	position = { x= 550 y = 340 }
-			#	clicksound = click_default_china
-			#}
+			guiButtonType =	{
+				name ="offmap_hostility2"
+				quadTextureSprite ="GFX_offmap_hostile_button_ethiopia"
+				position = { x= 550 y = 340 }
+				clicksound = click_default_china
+			}
 			
 			OverlappingElementsBoxType = {
 				name = "status_icons_left"
@@ -889,22 +853,22 @@ guiTypes = {
 			{
 				name ="divider_icon"
 				spriteType = "GFX_offmap_ethiopia_divider"
-				position = { x= 60 y = 500 }
+				position = { x= 60 y = 485 }
 				Orientation = "UPPER_LEFT"
 			}
 			
 			guiButtonType = {
 				name = "news_checkbox"
-				position = { x = 450 y = 570 }
+				position = { x = 500 y = 570 }
 				quadTextureSprite ="GFX_checkbox_default"	
 				buttonText = ""
 				buttonFont = "vic_18"
-				clicksound = click_ethiopia_china
+				clicksound = click_default_china
 			}
 			
 			instantTextBoxType = {
 				name = "news_label"
-				position = { x = 480 y = 575 }
+				position = { x = 530 y = 575 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -960,7 +924,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name ="tributaries_label"
-				position = { x=5065 y=500 }
+				position = { x=65 y=500 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = { x=0 y=0 }
@@ -973,14 +937,14 @@ guiTypes = {
 			
 			OverlappingElementsBoxType = {
 				name = "tributaries"
-				position = { x = 5025 y = 530 }
+				position = { x = 25 y = 530 }
 				size = { x=280 y=32 }
 				format = center
 			}
 			
 			instantTextBoxType = {
 				name ="nap_label"
-				position = { x=5395 y=500 }
+				position = { x=395 y=500 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = { x=0 y=0 }
@@ -993,7 +957,7 @@ guiTypes = {
 			
 			OverlappingElementsBoxType = {
 				name = "naps"
-				position = { x = 5355 y = 530 }
+				position = { x = 355 y = 530 }
 				size = { x=280 y=32 }
 				format = center
 			}
@@ -1001,7 +965,7 @@ guiTypes = {
 			guiButtonType =	{
 				name ="offmap_map_mode"
 				quadTextureSprite ="GFX_offmap_ethiopia_mapmode_button"
-				position = { x= 5472 y = 571 }
+				position = { x= 472 y = 571 }
 				clicksound = click_default_china
 			}
 			
@@ -1044,7 +1008,7 @@ guiTypes = {
 			
 			guiButtonType =	{
 				name = "title_history"
-				position = { x=5443 y = 571 }
+				position = { x=443 y = 571 }
 				quadTextureSprite ="GFX_offmap_ethiopia_history_button"	
 				Orientation = "UPPER_LEFT"
 				clicksound = click_default_china
