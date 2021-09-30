@@ -33,6 +33,145 @@
 	trait = mystic
 		2640.1.16 = { birth = yes }
 	}
+2072010={
+	name="Kostas"
+	dynasty=2072073 #Rodios
+	culture=greek
+	religion=orthodox
+	trait=brilliant_strategist
+	trait=defensive_leader
+	trait=just
+	trait=brave
+	trait=patient
+	trait=diligent
+	
+	2592.3.2={birth=yes}
+	2660.1.1={death=yes}
+}
+2072011={
+	name="Kostas"
+	dynasty=2072073 #Rodios
+	culture=greek
+	religion=orthodox
+	father=2072010
+	
+	trait=brilliant_strategist
+	trait=legit_bastard
+	trait=defensive_leader
+	trait=proud
+	trait=wroth
+	trait=shy
+	trait=diligent
+	
+	2632.12.5={birth=yes}
+	2700.10.1={death=yes}
+}
+2072012={
+	name="Chloe"
+	female=yes
+	dynasty=2072073 #Rodios
+	culture=greek
+	religion=orthodox
+	father=2072010
+	
+	trait=grey_eminence
+	trait=legit_bastard
+	trait=fair
+	trait=poet
+	trait=homosexual
+	trait=ambitious
+	trait=patient
+	trait=paranoid
+	trait=honest
+	
+	2635.12.5={birth=yes}
+	2665.1.3={effect={add_lover=2072015}}
+	2700.10.1={death=yes}
+}
+2072013={
+	name="Athanasios"
+	dynasty=2072074 #Charanis
+	culture=greek
+	religion=orthodox
+	
+	trait=scholarly_theologian
+	trait=scholar
+	trait=charitable
+	trait=just
+	trait=shy
+	
+	2612.12.5={birth=yes}
+	2640.3.12={add_spouse=2072014}
+	2700.10.1={death=yes}
+}
+2072014={
+	name="Virginia"
+	female=yes
+	dynasty=0 #Lowborn
+	culture=greek
+	religion=orthodox
+	
+	trait=grey_eminence
+	trait=honest
+	trait=chaste
+	trait=pious
+	trait=patient
+	
+	2619.1.11={birth=yes}
+	2700.10.1={death=yes}
+}
+2072014={
+	name="Homeros"
+	dynasty=2072074 #Charanis
+	culture=greek
+	religion=orthodox
+	
+	father=2072013
+	mother=2072014
+	
+	trait=detached_priest
+	trait=quick
+	trait=chaste
+	trait=gregarious
+	trait=kind
+	trait=paranoid
+	
+	2630.1.11={birth=yes}
+	2700.10.1={death=yes}
+}
+2072015={
+	name="Zinaida"
+	dynasty=2072076 #Leventis
+	female=yes
+	culture=greek
+	religion=orthodox
+	
+	trait=fortune_builder
+	trait=homosexual
+	trait=quick
+	trait=shy
+	trait=kind
+	trait=paranoid
+	
+	2638.1.11={birth=yes}
+	2700.10.1={death=yes}
+}
+2072016={
+	name="Agapios"
+	dynasty=2072075 #Skylitzes
+	culture=greek
+	religion=orthodox
+	
+	trait=skilled_tactician
+	trait=erudite
+	trait=ambitious
+	trait=ruthless
+	trait=cynical
+	trait=cruel
+	
+	2632.3.2={birth=yes}
+	2700.10.1={death=yes}
+}
 2072003 = {
 	name = "Mardochaios"
 	dynasty = 1821000
@@ -261,10 +400,6 @@
 	culture = romani
 	2638.5.12 = { birth = yes }
 }
-
-
-
-
 20720100 = {
 	name = "Simona"  #placeholder as fuck
 	dynasty = 2047196 #Derzhanski

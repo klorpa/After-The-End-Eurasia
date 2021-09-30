@@ -570,6 +570,7 @@
 	trait=rude
 	trait=wroth
 	trait=ambitious
+	father=1958042
 	2636.1.1={birth=yes}
 	2700.1.1={death=yes}
 }
@@ -587,6 +588,36 @@
 	trait=paranoid	
 	trait=quick
 	2636.1.1={birth=yes}
+	2700.1.1={death=yes}
+}
+1958042={
+	name="Karl-Wilhelm"
+	dynasty=1950037 #Grunberg
+	culture=low_saxon
+	religion=neuhumanist
+	trait=underhanded_rogue
+	trait=kind
+	trait=zealous
+	trait=honest
+	trait=proud
+	2576.12.3={birth=yes}
+	2700.1.1={death=yes}
+}
+1958043={
+	name="Clara"
+	female=yes
+	dynasty=1950037 #Grunberg
+	culture=low_saxon
+	religion=neuhumanist
+	trait=thrifty_clerk
+	trait=schemer
+	trait=pious
+	trait=charitable
+	trait=temperate
+	trait=charitable
+	father=1958042
+	2646.3.12={birth=yes}
+	2664.4.8={add_spouse=1958231}
 	2700.1.1={death=yes}
 }
 
@@ -2176,6 +2207,7 @@
 	stewardship=8
 	intrigue=8
 	learning=4
+	trait=adventurer
 	trait=authoritative
 	trait=ambitious	
 	trait=zealous
@@ -2185,7 +2217,9 @@
 	trait=diligent
 	trait=gamer
 	trait=fortune_builder
-	2623.5.5={birth=yes}
+	2623.5.5={birth=yes
+	add_claim = d_brandenburg
+	add_claim = d_mecklenburg_vorpommern}
 	2700.1.1={death=yes}
 }
 1958232={
