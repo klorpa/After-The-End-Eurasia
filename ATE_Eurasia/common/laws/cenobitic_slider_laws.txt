@@ -63,6 +63,10 @@ laws = {
 					trait = adventurer
 				}
 			}
+			modifier = {
+                factor = 0
+                NOT = { has_law = cenobitic_government_slider_0 }
+            }
 		}
 		ai_will_revoke = {
 			factor = 0
@@ -143,44 +147,41 @@ laws = {
 			}
 			modifier = {
 				factor = 10
-				holder_scope = {
+				OR = {
 					trait = devout
 					trait = zealous
-					NOT = {has_law = cenobitic_government_slider_2 }
 				}
 			}
 			modifier = {
 				factor = 10
-				holder_scope = {
+				OR = {
 					trait = detached_priest
 					trait = martial_cleric
 					trait = scholarly_theologian
 					trait = mastermind_theologian
-					NOT = {has_law = cenobitic_government_slider_2 }
 				}
 			}
 			modifier = { #Truly a Pious One
 			factor = 20
-			ROOT = {
 				OR = {
 					trait = canon
 					trait = canoness
 					trait = celibate
 					}
-				NOT = {has_law = cenobitic_government_slider_2 }
-				}
+				
 			}
 			modifier = { #Truly a Pious One
 			factor = 10
-			ROOT = {
 				OR = {
 					trait = regularis
 					trait = regulara
 					trait = chaste
 					}
-				NOT = {has_law = cenobitic_government_slider_2 }
-				}
 			}
+			modifier = {
+                factor = 0
+                has_law = cenobitic_government_slider_2
+            }
 		}
 		ai_will_revoke = {
 			factor = 0
@@ -226,44 +227,40 @@ laws = {
 			}
 			modifier = {
 				factor = 10
-				holder_scope = {
+				OR = {
 					trait = devout
 					trait = zealous
-					NOT = {has_law = cenobitic_government_slider_3 }
 				}
 			}
 			modifier = {
 				factor = 10
-				holder_scope = {
+				OR = {
 					trait = detached_priest
 					trait = martial_cleric
 					trait = scholarly_theologian
 					trait = mastermind_theologian
-					NOT = {has_law = cenobitic_government_slider_3 }
 				}
 			}
 		modifier = { #Truly a Pious One
 			factor = 15
-			ROOT = {
 				OR = {
 					trait = canon
 					trait = canoness
 					trait = celibate
 					}
-				NOT = {has_law = cenobitic_government_slider_3 }
-				}
 			}
 		modifier = { #Truly a Pious One
 			factor = 5
-			ROOT = {
 				OR = {
 					trait = regularis
 					trait = regulara
 					trait = chaste
 					}
-				NOT = {has_law = cenobitic_government_slider_3 }
-				}
-		}
+			}
+			modifier = {
+                factor = 0
+                has_law = cenobitic_government_slider_3
+            }
 	}
 		ai_will_revoke = {
 			factor = 0
@@ -333,7 +330,7 @@ laws = {
 			}
 			modifier = {
 				factor = 10
-				holder_scope = {
+				OR = {
 					trait = indulgent_wastrel
 					trait = thrifty_clerk
 					trait = fortune_builder
@@ -342,26 +339,24 @@ laws = {
 			}
 		modifier = { #Truly a Pious One
 			factor = 20
-			ROOT = {
 				OR = {
 					trait = canon
 					trait = canoness
 					trait = celibate
 					}
-				NOT = {has_law = cenobitic_government_slider_4 }
-				}
 			}
 		modifier = { #Truly a Pious One
 			factor = 10
-			ROOT = {
 				OR = {
 					trait = regularis
 					trait = regulara
 					trait = chaste
 					}
-				NOT = {has_law = cenobitic_government_slider_4 }
-				}
-			}			
+			}
+			modifier = {
+                factor = 0
+                has_law = cenobitic_government_slider_4
+            }			
 		}
 		ai_will_revoke = {
 			factor = 0
@@ -376,7 +371,7 @@ laws = {
 				revoke_law = cenobitic_government_slider_4
 			}
 			set_government = cenobitic_government
-			primary_title = { add_law = { law = succ_cenobitic_elective opinion_effect = no } }
+			add_law = succ_cenobitic_elective
 
 		}
 	}
@@ -431,7 +426,6 @@ laws = {
 			}
 		modifier = { #Truly a Pious One
 			factor = 20
-			ROOT = {
 				OR = {
 					trait = desert_father
 					trait = desert_mother
@@ -439,7 +433,6 @@ laws = {
 				}
 			}
 		}
-	}
 		ai_will_revoke = {
 			factor = 0
 		}
