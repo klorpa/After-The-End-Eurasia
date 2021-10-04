@@ -12178,7 +12178,7 @@ coat_of_arms = {
 2028005 = { name="De Rosa" culture=neapolitan }
 2028006 = { name="Sorrentino" culture=neapolitan }
 2028007 = { name="Giordano" culture=neapolitan }
-2028008 = { name="De Luca" culture=neapolitan used_for_random = no }
+2028008 = { name="De Luca" culture=neapolitan }
 2028009 = { name="Ferrara" culture=neapolitan }
 2028010 = { name="Ruggiero" culture=neapolitan }
 2028011 = { name="Fusco" culture=neapolitan }
@@ -12213,19 +12213,7 @@ coat_of_arms = {
 2028040 = { name="La Torre" culture=neapolitan }
 2028041 = { name="Lubrano-Ligato" culture=neapolitan }
 2028042 = { name="Moccia" culture=neapolitan }
-2028043 = { name="Magliulo" culture=neapolitan
-	coat_of_arms = { 
-		template = 0
-		layer = {
-			texture = 19
-			texture_internal = 1
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
-}
+2028043 = { name="Magliulo" culture=neapolitan }
 2028044 = { name="Pariante" culture=neapolitan }
 2028045 = { name="D'Alessandro" culture=neapolitan }
 2028046 = { name="Cesarano" culture=neapolitan }
@@ -12287,24 +12275,12 @@ coat_of_arms = {
 2028102 = { name="Critelli" culture=neapolitan }
 2028103 = { name="Faillace" culture=neapolitan }
 2028104 = { name="Forastefano" culture=neapolitan }
-2028105 = { name="Abbruzzese" culture=neapolitan
-	coat_of_arms = { 
-		template = 0
-		layer = {
-			texture = 19
-			texture_internal = 3
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
-}
+2028105 = { name="Abbruzzese" culture=neapolitan }
 2028106 = { name="Muto" culture=neapolitan }
 2028107 = { name="Carelli" culture=neapolitan }
 2028108 = { name="Bruni" culture=neapolitan }
 2028109 = { name="Cicero" culture=neapolitan }
-2028110 = { name="Lanzino" culture=neapolitan used_for_random = no }
+2028110 = { name="Lanzino" culture=neapolitan }
 2028111 = { name="Perna" culture=neapolitan }
 2028012 = { name="Pino" culture=neapolitan }
 2028113 = { name="Acri" culture=neapolitan }
@@ -12416,6 +12392,35 @@ coat_of_arms = {
 2028219 = { name="De Mitri" culture=neapolitan }
 2028220 = { name="Di Nola" culture=neapolitan used_for_random = no }
 2028221 = { name="Scalzone" culture=neapolitan }
+2028222 = { name="Capodiferro" culture=neapolitan used_for_random = no 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2028223 = { name="di Gioia" culture=neapolitan used_for_random = no }
+2028224 = { name="Sanseverino" culture=neapolitan used_for_random = no }
+2028225 = { name="Burbone" culture=neapolitan used_for_random = no }
+2028226 = { name="Marsicani" culture=neapolitan used_for_random = no 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 2029000 = { name="Morricone" culture=umbrian }
 2029001 = { name="Ricci" culture=umbrian }

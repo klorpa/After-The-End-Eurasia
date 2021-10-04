@@ -477,22 +477,24 @@
 	2642.5.20={birth=yes}
 }
 1861029={
-	name="Dumminico"
-	dynasty=2028043 #Magliulo
+	name="Zaccaria"
+	dynasty=2028222 #Capodiferro
 	culture=neapolitan
 	religion=catholic
 	trait=martial_cleric
-	trait=zealous
-	trait=patient
-	trait=gregarious
-	trait=poet
-	trait=diligent
+	trait=drunkard
+	trait=robust
+	trait=hedonist
+	trait=hunter
+	trait=lustful
+	trait=gluttonous
+	trait=ambitious
 	diplomacy=5
 	martial=5
 	stewardship=6
 	intrigue=5
 	learning=8
-	2627.2.11={birth=yes}
+	2637.2.11={birth=yes}
 }
 1861030={
 	name="Baldiçar"
@@ -729,30 +731,28 @@
 	2654.4.22={birth=yes}
 }
 1861042={
-	name="Carmine"
-	dynasty=2028105 #Abbruzzese
+	name="Latino"
+	dynasty=2028226 #Marsicani
 	culture=neapolitan
 	religion=catholic
-	trait=fair
-	trait=grey_eminence
-	trait=poet
-	trait=shrewd
-	trait=robust
-	trait=deceitful
-	trait=gregarious
-	trait=proud
+	trait=sturdy
+	trait=skilled_tactician
+	trait=quick
+	trait=wroth
+	trait=chaste
+	trait=honest
 	diplomacy=7
 	martial=7
 	stewardship=6
 	intrigue=5
 	learning=6
-	2647.2.19={birth=yes}
+	2630.2.19={birth=yes}
 	2666.1.23={
 		add_spouse=1861043
 	}
 }
 1861043={
-	name="Elvira"
+	name="Lavinia"
 	female=yes
 	dynasty=2028062 #De Luca Bossa
 	culture=neapolitan
@@ -767,7 +767,7 @@
 	stewardship=7
 	intrigue=5
 	learning=5
-	2650.1.3={birth=yes}
+	2633.1.3={birth=yes}
 }
 1861044={
 	name="Jacariyè"
@@ -847,21 +847,23 @@
 	2662.10.5={birth=yes}
 }
 1861048={
-	name="Giaccomo"
-	dynasty=2028110 #Lanzino
+	name="Ndònie"
+	dynasty=2028223 #di Goia
 	culture=neapolitan
 	religion=catholic
-	trait=indulgent_wastrel
-	trait=proud
+	trait=zealous
 	trait=trusting
-	trait=ambitious
-	trait=selfish
+	trait=holy_warrior
+	trait=humble
+	trait=stressed
+	trait=pilgrim
+	trait=just
 	diplomacy=4
 	martial=5
 	stewardship=5
 	intrigue=7
 	learning=3
-	2642.11.24={birth=yes}
+	2632.11.24={birth=yes}
 	2659.7.7={
 		add_spouse=1861049
 	}
@@ -884,10 +886,13 @@
 	intrigue=7
 	learning=6
 	2641.12.3={birth=yes}
+	2661.3.11={death={
+			death_reason=death_childbirth}
+	}
 }
 1861050={
 	name="Salvator"
-	dynasty=2028110 #Lanzino
+	dynasty=2028223 #di Goia 
 	culture=neapolitan
 	religion=catholic
 	trait=fussy
@@ -897,9 +902,8 @@
 	stewardship=4
 	intrigue=3
 	learning=3
-	father=1861048
 	mother=1861049
-	2661.3.11={birth=yes}
+	2661.3.10={birth=yes}
 }
 1861051={
 	name="Vicienzo"
@@ -995,96 +999,24 @@
 	2660.5.1={birth=yes}
 }
 1861056={
-	name="Lazzariello"
-	dynasty=2028008 #De Luca
+	name="Francesco"
+	dynasty=2028225 #Burbone
 	culture=neapolitan
 	religion=catholic
-	trait=charismatic_negotiator
-	trait=scholar
-	trait=scarred
-	trait=uncouth
-	trait=patient
-	trait=gluttonous
+	trait=fortune_builder
+	trait=ambitious
+	trait=deceitful
+	trait=shrewd
+	trait=fair
+	trait=greedy
+	trait=strong
 	diplomacy=7
 	martial=7
 	stewardship=7
 	intrigue=7
 	learning=8
-	2624.2.2={birth=yes}
-	2647.3.8={
-		add_spouse=1861057
-	}
-}
-1861057={
-	name="Amalphitana"
-	female=yes
-	dynasty=2028136 #Diana
-	culture=neapolitan
-	religion=catholic
-	trait=indulgent_wastrel
-	trait=groomed
-	trait=honorable
-	trait=diligent
-	trait=proud
-	diplomacy=6
-	martial=5
-	stewardship=7
-	intrigue=6
-	learning=6
-	2630.12.7={birth=yes}
-}
-1861058={
-	name="Vicienzo"
-	dynasty=2028008 #De Luca
-	culture=neapolitan
-	religion=catholic
-	trait=skilled_tactician
-	trait=groomed
-	trait=diligent
-	trait=proud
-	trait=stressed
-	trait=sympathy_judaism
-	diplomacy=7
-	martial=8
-	stewardship=6
-	intrigue=5
-	learning=6
-	father=1861056
-	mother=1861057
-	2650.4.15={birth=yes}
-}
-1861059={
-	name="Juseppe"
-	dynasty=2028008 #De Luca
-	culture=neapolitan
-	religion=catholic
-	trait=curious
-	trait=fussy
-	diplomacy=4
-	martial=3
-	stewardship=5
-	intrigue=3
-	learning=2
-	father=1861056
-	mother=1861057
-	2655.11.22={birth=yes}
-}
-1861060={
-	name="Matilda"
-	female=yes
-	dynasty=2028008 #De Luca
-	culture=neapolitan
-	religion=catholic
-	trait=conscientious
-	trait=willful
-	diplomacy=3
-	martial=2
-	stewardship=4
-	intrigue=3
-	learning=3
-	father=1861056
-	mother=1861057
-	2661.1.18={birth=yes}
+	2648.2.2={birth=yes}
+	2648.2.2={add_claim = k_naples}
 }
 1861061={
 	name="Gioanna"
@@ -1681,4 +1613,20 @@
 	trait=humble
 	2640.1.1={birth=yes}
 	2664.1.1={employer=1861093}
+}
+1861095={
+	name="Apollonia"
+	dynasty=2028224 #Sanseverino
+	culture=neapolitan
+	religion=catholic
+	female=yes
+	trait=brilliant_strategist
+	trait=lustful
+	trait=kind
+	trait=socializer
+	trait=gregarious
+	trait=diligent
+	trait=poet
+	trait=quick
+	2643.11.18={birth=yes}
 }
