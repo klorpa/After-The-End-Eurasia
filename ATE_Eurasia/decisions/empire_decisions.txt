@@ -277,7 +277,10 @@ decisions = {
 			independent = yes
 			prestige = 500
 			wealth = 400
-			tier = DUKE
+			OR = {
+				tier = DUKE
+				tier = KING
+			}
 			completely_controls = k_sicily
 			completely_controls = k_naples
         }
@@ -306,6 +309,9 @@ decisions = {
             }
 			d_abruzzo = {
                 de_jure_liege = k_sicilia 
+            }
+			d_malta = {
+                de_jure_liege = k_sicilia
             }
             k_sicilia  = {
                 de_jure_liege = e_italy
