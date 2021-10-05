@@ -848,7 +848,7 @@
 }
 1861048={
 	name="Ndònie"
-	dynasty=2028223 #di Goia
+	dynasty=2028223 #di Gioia
 	culture=neapolitan
 	religion=catholic
 	trait=zealous
@@ -892,7 +892,7 @@
 }
 1861050={
 	name="Salvator"
-	dynasty=2028223 #di Goia 
+	dynasty=2028223 #di Gioia 
 	culture=neapolitan
 	religion=catholic
 	trait=fussy
@@ -903,6 +903,7 @@
 	intrigue=3
 	learning=3
 	mother=1861049
+	father=1861048
 	2661.3.10={birth=yes}
 }
 1861051={
@@ -1017,6 +1018,50 @@
 	learning=8
 	2648.2.2={birth=yes}
 	2648.2.2={add_claim = k_naples}
+}
+1861057={
+	name="Felice"
+	dynasty=2027259 #di Giovanni
+	culture=sicilian
+	religion=catholic
+	trait=fortune_builder
+	trait=just
+	trait=kind
+	trait=content
+	trait=organizer
+	trait=gregarious
+	2613.12.21={birth=yes}
+	2641.5.5={add_spouse=1861058}
+}
+1861058={
+	name="Ursula"
+	dynasty=2027257 #Passanante
+	female=yes
+	culture=sicilian
+	religion=catholic
+	2619.2.18={birth=yes}
+}
+1861059={
+	name="Carlu"
+	dynasty=2027259 #di Giovanni
+	culture=sicilian
+	religion=catholic
+	father=1861057
+	mother=1861058
+	2642.8.25={birth=yes}
+}
+1861060={
+	name="Mefisto"
+	dynasty=2027260 #Bordonaro
+	culture=sicilian
+	religion=thelema
+	trait=ambitious
+	trait=deceitful
+	trait=shrewd 
+	trait=quick 
+	trait=fair 
+	trait=intricate_webweaver
+	2636.11.22={birth=yes}
 }
 1861061={
 	name="Gioanna"
@@ -1629,4 +1674,80 @@
 	trait=poet
 	trait=quick
 	2643.11.18={birth=yes}
+}
+1861096={
+	name="Maria"
+	dynasty=2027195 #Giannone
+	culture=sicilian
+	religion=catholic
+	2644.2.6={birth=yes}
+	2660.5.6={add_spouse=1861060}
+}
+1861097={
+	name="Giuditta"
+	female=yes
+	dynasty=2027261 #Meis
+	culture=sicilian
+	religion=catholic
+	trait=slothful
+	trait=humble
+	trait=charitable
+	trait=socializer
+	trait=trusting 
+	2650.8.19={birth=yes}
+}
+1861098={
+	name="Cùstanza"
+	female=yes
+	dynasty=2027262 #Liotru
+	culture=sicilian
+	religion=catholic
+	trait=ambitious
+	trait=cynical
+	trait=flanker
+	trait=gregarious
+	trait=strong 
+	2639.5.13={birth=yes}
+}
+1861099={
+	name="Paulu"
+	dynasty=2027201 #Modica
+	culture=sicilian
+	religion=catholic
+	2640.6.15={birth=yes}
+	2660.5.6={add_matrilineal_spouse=1861098}
+}
+1861100={
+	name="Dionigi"
+	dynasty=2027263 #Scipio
+	culture=sicilian
+	religion=catholic
+	secret_religion=neoplatonist
+	trait=genius 
+	trait=scarred
+	trait=scholar
+	trait=theologian
+	trait=poet 
+	trait=shy 
+	2614.9.26={birth=yes}
+	2630.5.6={add_spouse=1861101}
+}
+1861101={
+	name="'Ngiulina"
+	dynasty=2027188 #Battaglia
+	culture=sicilian
+	religion=catholic
+	secret_religion=neoplatonist
+	2618.6.14={birth=yes}
+}
+1861102={
+	name="Diuclezzianu"
+	dynasty=2027263 #Scipio
+	culture=sicilian
+	religion=catholic
+	secret_religion=neoplatonist
+	trait=genius 
+	father=1861100
+	mother=1861101
+	2635.5.12={birth=yes}
 }
