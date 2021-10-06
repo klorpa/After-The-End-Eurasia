@@ -13,13 +13,14 @@ silk_road = {
 	}
 
 	start = {				# Start provinces of trade route
-		1092 # Mogocha
-		2736 # Road to China
+		1355 # Road to Far East
+		2005 # South Road to China
+		2736 # North Road to China
 	}
 
 	# Trans-Siberian Railway
 	path = {
-		1092 1091 1246 1242 1200 988 990 991 992 993 994 1206 1205 1204 1208 996 1226 1227 1221 1220 1222 1223 1224 726 730 725 731 635 636 761 759 752 735 734 629
+		1355 1092 1091 1246 1242 1200 988 990 991 992 993 994 1206 1205 1204 1208 996 1226 1227 1221 1220 1222 1223 1224 726 730 725 731 635 636 761 759 752 735 734 629
 	}
 	#Moscow Line
 	path = {
@@ -61,7 +62,7 @@ silk_road = {
 	}
 	#Black Sea NorthWest
 	path = {
-		1763 600 1654 787 937 876
+		1763 600 1654 787 937 1653 876
 	}
 	#Black Sea SouthWest
 	path = {
@@ -81,15 +82,19 @@ silk_road = {
 	}
 	#Fergana
 	path = {
-		1262 1096 1272 1271 1270 956 954
+		1262 1096 1272 1271 1270 956 3042 954
 	}
 	#Tashkent Connection
 	path = {
 		954 953 1276
 	}
-	#Turkestan-Iran-Iraq
+	#Turkestan-Torbat-e Jam
 	path = {
-		954 1989 955 952 1303 951 950 1307 1308 545 2559 2562 2333 2331 2323 2322
+		954 1989 955 952 1303 951 950 1307 1308 2556
+	}
+	#Torbat-e Jam-Tehran
+	path = {
+		2556 545 2559 2562 2333 2331 2323 2322
 	}
 	#Tehran to Baghdad
 	path = {
@@ -97,27 +102,43 @@ silk_road = {
 	}
 	#Baghdad to Syria
 	path = {
-		2023 2024 2031 2012 2011 2004 2003 2005 307
+		2023 2024 2031 2012 2011 2004 2003 307
 	}
 	#Tehran to Trabzon
 	path = {
 		2322 2325 2326 2293 2286 2285 2284 2290 2134 2117 302 2113 2107 2104
 	}
-	#Oman to Egypt
+	#Oman to Marsa Alam
 	path = {
-		1778 1469 1739 1738 1473 1737 1464 1776 1454 1775 1445 1629 2020 117 118 1628 1663 1429 1424 1420 1421 1437 1422 1417 1416 1400 1399 1402 1406 1405 
+		1778 1469 1739 1738 1473 1737 1464 1765 1776 1454 1775 1445 1629 2020 1628 117 118 3107 1663 1429
+	}
+	#Marsa Alam to Alexandria
+	path = {
+		1429 1424 1420 1421 1437 1422 1417 1416 1400 1399 1402 1406 1405 
+	}
+	#Marsa Alam to Suez
+	path = {
+		1429 1662 1426 1410 1411
 	}
 	#Oman to Baghdad
 	path = {
-		1778 1777 2516 1482 1667 1489 1666 139 2047 2049 2050 2028 2023
+		1778 1777 2516 1482 1767 1667 1489 1666 139 2047 2049 2050 2028 2023
 	}
-	#Kashgar to Rawalpindi
+	#Kashgar to Islamabad
 	path = {
-		1262 1352 110 2768 2609 2811
+		1262 1352 110 2768 2609
 	}
-	#Rawalpindi to Agra
+	#Islamabad-Gujrat
 	path = {
-		2811 2601 3115 2603 2617 2620 2827 2826 2825 2832 2800 2799 2797 2798
+		2609 2811 2601 3115
+	}
+	#Islamabad-Torbat-e Jam
+	path = {
+		2609 2610 2927 1293 1292 2942 2937 2933 3133 1002 2556
+	}
+	#Gujrat to Agra
+	path = {
+		3115 2603 2617 2620 2827 2826 2825 2832 2800 2799 2797 2798
 	}
 	#Agra to Begusarai
 	path = {
@@ -139,17 +160,29 @@ silk_road = {
 	path = {
 		3016 2889 2274 3147 2273 2272 2058 2059 2061
 	}
-	#Khargone to Guntur
+	#Khargone to Hyderabad
 	path = {
-		3016 2888 2866 2865 3040 2265 2264 2263 3041 2261 2178 2179
+		3016 2888 2866 2865 3040 2265 2264 2263
+	}
+	#Hyderabad to Guntur
+	path = {
+		2263 3041 2261 2178 2179
+	}
+	#Hyderabad to Vasco da Gama
+	path = {
+		2263 2262 2190 2201 2207 2181 2053 2054
 	}
 	#Cuddalore to Ernakulam
 	path = {
 		2216 2217 2220 2276 2231 2243 2242 2241
 	}
-	#Rawalpindi to Indus to Oman
+	#Gujrat to Karachi
 	path = {
-		2811 2619 2618 2622 2623 2625 2626 3028 3027 3024 3026 3039 3022 3032 3021 3019 1779 1759 1778
+		3115 2619 2618 2622 2623 2625 2626 3028 3027 3024 3026 3039 3022 3032 3021 3019
+	}
+	#Karachi to Oman
+	path = {
+		3019 1779 2590 1759 1778
 	}
 	#Silk Road China Start
 	path = {
@@ -157,7 +190,7 @@ silk_road = {
 	}
 	#Silk Road Tibet to Gonggar
 	path = {
-		2736 2729 2724 2705 2702 2699 
+		2005 2729 2724 2705 2702 2699 
 	}
 	#Gonggar to Samzhubze
 	path = {
@@ -179,13 +212,37 @@ silk_road = {
 	path = {
 		2652 2635
 	}
-	#Pabna to Barishal
+	#Pabna to Barishal to Kolkata
 	path = {
-		2969 3125 2643 3053 2649 2641
+		2969 3125 2643 3053 2649 2641 1750 1633 2638
 	}
 	#Pabna to Nadia
 	path = {
 		2969 2647 257
+	}
+	#Kolkata to Guntur
+	path = {
+		2638 1751 2813 1752 2352 2151 1753 2179
+	}
+	#Guntur to Cuddalore
+	path = {
+		2179 1754 2210 1755 2216
+	}
+	#Cuddalore to Ernakulam
+	path = {
+		2216 1632 2249 1757 2235 1781 2241
+	}
+	#Ernakulam to Vasco da Gama
+	path = {
+		2241 1749 2247 1626 2054
+	}
+	#Vasco da Gama to Mumbai
+	path = {
+		2054 1631 1747 2061
+	}
+	#Mumbai to Karachi
+	path = {
+		2061 1630 1780 1779 3019
 	}
 	#Gonggar to Siang
 	path = {
