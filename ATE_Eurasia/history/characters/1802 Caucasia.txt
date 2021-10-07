@@ -1168,32 +1168,33 @@
     2596.6.15={death=yes}
 }
 
-1802028={ #Count Shirkuh of Kashatagh
-    name="Shirkuh"
+1802028={ #Count Ninos Aziz of Syunik
+    name="Ninos"
     dynasty=1802103
-    culture=kurdish
+    culture=arabic
     religion=miaphysite
-	trait=school_mathew
+	trait=school_peter
     martial=8
     diplomacy=4
     stewardship=8
     intrigue=7
     learning=9
     trait=fortune_builder    
-    trait=shy
+    trait=honest
     trait=greedy
     trait=just
     trait=pious
-	2635.2.17={birth=yes}
-	2653.6.16={add_spouse=1802029}
+	2635.2.17={birth=yes
+		culture=armenian}
+	2659.6.16={add_spouse=1802029}
 }
 
-1802029={ #Countess Demgul of Kashatagh
-    name="Demgul"
+1802029={ #Countess Seyran of Syunik
+    name="Seyran"
     female=yes
-    culture=kurdish
+    culture=armenian
     religion=miaphysite
-	trait=school_mathew
+	trait=school_thaddeus
     martial=8
     diplomacy=4
     stewardship=8
@@ -1204,21 +1205,21 @@
     trait=gregarious
     trait=chaste
     trait=wroth
-	2630.1.1={birth=yes}
-	2653.6.16={add_spouse=1802028}
+	2641.1.1={birth=yes}
+	2659.6.16={add_spouse=1802028}
 }
 
-1802030={ #Zelal daughter of Count Shirkuh of Kashatagh
-    name="Zelal"
-	female=yes
+1802030={ #Malko son of Ninos Aziz of Syunik
+    name="Malko"
     dynasty=1802103
-    culture=kurdish
+    culture=arabic
     religion=miaphysite
-	trait=school_mathew
+	trait=school_peter
     trait=haughty	
 	father=1802028
 	mother=1802029
-    2662.9.11={birth=yes}
+    2662.9.11={birth=yes
+		culture=armenian}
 }
 
 1802041={ #Paharru Goryun of Tuvaash
@@ -1261,7 +1262,7 @@
 
 1802044={ #Vahram son of Paharru Goryun of Tuvaash
     name="Vahram"
-    dynasty=1802105 #ERROR
+    dynasty=1802028 #ERROR
     culture=armenian
     religion=miaphysite
 	trait=school_thaddeus
@@ -1280,4 +1281,127 @@
 	father=1802041
 	mother=1802043
 	2665.6.13={birth=yes}
+}
+
+
+#Placeholders
+
+1802061={ #Duke Ambrosi of Imereti
+    name="Ambrosi"
+    dynasty=2051122 #Bagrationi
+    culture=georgian
+    religion=orthodox
+    martial=8
+    diplomacy=9
+    stewardship=8
+    intrigue=5
+    learning=4
+    trait=charismatic_negotiator    
+    trait=gregarious
+    trait=cruel
+    trait=humble
+	2637.6.5={birth=yes}
+}
+
+1802062={ #Duchess Ketevan of Kakheti
+    name="Ketevan"
+    dynasty=2051125 #Bolkvadze
+    culture=georgian
+    religion=orthodox
+	female=yes
+    martial=8
+    diplomacy=9
+    stewardship=8
+    intrigue=5
+    learning=4
+    trait=charismatic_negotiator    
+    trait=gregarious
+    trait=cruel
+    trait=humble
+	2637.6.5={birth=yes}
+}
+
+1802063={ #Count Färhad of Aghjabadi
+    name="Färhad"
+    dynasty=2054201 #Ibrahimoghlu
+    culture=azeri
+    religion=shiite
+    martial=8
+    diplomacy=9
+    stewardship=8
+    intrigue=5
+    learning=4
+    trait=charismatic_negotiator    
+    trait=gregarious
+    trait=cruel
+    trait=humble
+	2637.6.5={birth=yes}
+}
+
+1802064={ #Duke Ramzi of Ganja
+    name="Ramzi"
+    dynasty=2054202 #Meyxana
+    culture=azeri
+    religion=shiite
+    martial=8
+    diplomacy=9
+    stewardship=8
+    intrigue=5
+    learning=4
+    trait=charismatic_negotiator    
+    trait=gregarious
+    trait=cruel
+    trait=humble
+	2637.6.5={birth=yes}
+}
+
+1802065={ #Duke Ildirim of Baku
+    name="Ildirim"
+    dynasty=2054205 #Qüdsi
+    culture=azeri
+    religion=shiite
+    martial=8
+    diplomacy=9
+    stewardship=8
+    intrigue=5
+    learning=4
+    trait=charismatic_negotiator    
+    trait=gregarious
+    trait=cruel
+    trait=humble
+	2637.6.5={birth=yes}
+}
+
+1802066={ #Duke Näsib of Shirvan
+    name="Näsib"
+    dynasty=2054203 #Häsäni
+    culture=azeri
+    religion=shiite
+    martial=8
+    diplomacy=9
+    stewardship=8
+    intrigue=5
+    learning=4
+    trait=charismatic_negotiator    
+    trait=gregarious
+    trait=cruel
+    trait=humble
+	2637.6.5={birth=yes}
+}
+
+1802067={ #Duke Magomed of the Caucasian Imamate
+    name="Magomed"
+    dynasty=2068052 #Aliyev
+    culture=avar
+    religion=taharur
+    martial=8
+    diplomacy=9
+    stewardship=8
+    intrigue=5
+    learning=4
+    trait=charismatic_negotiator    
+    trait=gregarious
+    trait=cruel
+    trait=humble
+	2637.6.5={birth=yes}
 }
