@@ -23,64 +23,121 @@ e_turkey = {
 			
 			capital = 1961 # c_diyarbakir
 			
+			kurdish="Amed"
+			armenian="Tigranakert"
+			
 			c_diyarbakir = { # 1961
 				color={ 177 94 94 }
 				color2={ 255 255 255 }
+					
+				kurdish="Amed"
+				armenian="Tigranakert"
 				
 				b_sur = {}
-				b_diyarbakir = {}
-				b_ergani = {}
-				b_cinar = {}
-				b_cermik = {}
-				b_dicle = {}
-				b_egil = {}
+				b_diyarbakir = {	
+					kurdish="Amed"
+					armenian="Tigranakert"}
+				b_ergani = {
+					kurdish="Erxenî"}
+				b_cinar = {
+					kurdish="Axpar"}
+				b_cermik = {
+					armenian="Jermuk"
+					kurdish="Çermûk"}
+				b_dicle = {
+					kurdish="Pîran"}
+				b_egil = {
+					kurdish="Egil"}
 			}
 			c_adiyaman = { # 1977
 				color={ 44 115 25 }
 				color2={ 255 255 255 }
 				
-				b_adiyaman = {}
-				b_kahta = {}
-				b_besni = {}
-				b_goelbashi = {}
-				b_gerger = {}
-				b_sincik = {}
-				b_celikhan = {}
+				kurdish="Semsûr"
+				
+				b_adiyaman = {
+					kurdish="Semsûr"}
+				b_kahta = {
+					kurdish="Kolîk"}
+				b_besni = {
+					kurdish="Bêsnî"}
+				b_goelbashi = {
+					kurdish="Serêgolê"}
+				b_gerger = {
+					armenian="Karkar"
+					kurdish="Aldûsh"}
+				b_sincik = {
+					kurdish="Sinciq"}
+				b_celikhan = {
+					kurdish="Komashir"}
 			}
 			c_bismil = { # 1969
 				color={ 172 64 143 }
 				color2={ 255 255 255 }
 				
 				b_bismil = {}
-				b_silvan = {}
-				b_kulp = {}
-				b_hani = {}
-				b_lice = {}
-				b_hazro = {}
-				b_kocakoey = {}
+				b_silvan = {
+					kurdish="Farqîn"}
+				b_kulp = {
+					kurdish="Pasûr"}
+				b_hani = {
+					kurdish="Hênê"}
+				b_lice = {
+					kurdish="Licê"}
+				b_hazro = {
+					kurdish="Hezro"}
+				b_kocakoey = {
+					kurdish="Karaz"}
 			}
 			c_shanliurfa = { # 305
 				color={ 110 73 100 }
 				color2={ 255 255 255 }
 				
+				kurdish="Riha"
+				armenian="Or'ha"
+				assyrian="Urhai"
+				
 				holy_site = nestorian
 				
-				b_haliliye = {}
-				b_eyyuebiye = {}
-				b_karakoeprue = {}
-				b_akcakale = {}
-				b_suruc = {}
-				b_birecik = {}
-				b_harran = {}
+				b_haliliye = {
+					kurdish="Xelîlî"}
+				b_eyyuebiye = {
+					kurdish="Eyûbî"}
+				b_karakoeprue = {
+					kurdish="Pira Resh"}
+				b_akcakale = {
+					lebneni="Tal Abyad"
+					furataini="Tal Abyad"
+					suriyi="Tal Abyad"
+					kurdish="Kaniya Xezalan"}
+				b_suruc = {
+					assyrian="Srug"
+					kurdish="Pirsûs"}
+				b_birecik = {
+					lebneni="al-Birah"
+					furataini="al-Birah"
+					suriyi="al-Birah"
+					kurdish="Bêrecûk"}
+				b_harran = {
+					kurdish="Herran"}
 			}
 			c_siverek = { # 1972
 				color={ 78 165 175 }
 				color2={ 255 255 255 }
 				
-				b_siverek = {}
-				b_viranshehir = {}
-				b_ceylanpinar = {}
-				b_hilvan = {}
+				kurdish="Sêwreg"
+				
+				b_siverek = {
+					kurdish="Sêwreg"}
+				b_viranshehir = {
+					kurdish="Wêranshar"}
+				b_ceylanpinar = {
+					lebneni="Ra's al-'Ayn"
+					furataini="Ra's al-'Ayn"
+					suriyi="Ra's al-'Ayn"
+					kurdish="Serêkaniyê"}
+				b_hilvan = {
+					kurdish="Curnê Resh"}
 				b_alaguen = {}
 				b_dagbashi = {}
 				b_shekerli = {}
