@@ -31,15 +31,17 @@ turkic_west = {
 			Zachariasz_Zachary Zbigniew Zeryf_Sharif Zygmunt_Sigmund
 		}
 		female_names = {
-			Anna_Anna 
+			Aisza_Aisha Anna_Anna 
 			Barbara_Barbara 
+			Chadidza_Khadija 
 			Dzenneta
-			Elwira_Elvira Elzbieta_Elizabeth Emilia_Emily Eugenia_Eugenia Ewa_Eva
+			Elena_Helen Elwira_Elvira Elzbieta_Elizabeth Emilia_Emily Eugenia_Eugenia Ewa_Eva
 			Fatima_Fatima Fursia
-			Halina
+			Halima Halina 
 			Iwona
-			Justyna_Justine
-			Lilla
+			Justyna_Justine 
+			Kazimiera 
+			Leonarda Lilla
 			Magdalena_Magdalene Maria_Mary Marta_Martha 
 			Olga_Olga 
 			Rozalia
@@ -374,6 +376,71 @@ turkic_west = {
 		
 		male_patronym = "ny ulany"
 		female_patronym = "ny qyzy"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	nogai = {
+		graphical_cultures = { cumangfx turkishgfx mongolgfx easternslavicgfx muslimgfx egyptiangfx }
+
+		color = { 0.2 0.5 0.8 }
+
+		male_names = {
+			Abak Abash Abay Abdulgazi Abdulhamid Abdulkadir Abdulkasim Abdulla_Abdullah Abdulmuslim Abdulrahman Äbid Äblez Abu Abubekir_Abu-Bakr Agabay Adam Ädilgerey Ädis Ahmet_Ahmed Ajdaut Äjibatir Äjibayram Äjigerey Äjikerim Äjimolla Äjimurza Äjimusa Äjishak Ajmambet Akbolat Akkus Äkim Akmanbet Akmurza Aktay Alavdin_Alauddin Albert_Albert Ali Alibek Älibek Alikpash Älim Älimgazi Älimgerey Älimhan Amanakay Amanbay Amangadi Amangeldi Amankey Ämin Ämirbiy Ämirhan Ämit Anvar_Anwar Apaz Apsatar Arifulla Arslan_Arslan Arslanbek Arslanbiy Asan Asanali Asanbiy Ashad Ashim Äskerbiy Aslan_Arslan Äsrepi Atabay Aubekir Ävez Aybas Aydar Aydemir Aydyn Aykun Ayub_Job Ayyigit Azamat Azat 
+			Baet Bälev Balgisi Barys_Bars Bätir_Baatar Bätirbek Bätirgazi Bätirkerey Bätirmirza Baubek Baudin Baydemir Baygadi Baymanbet Baymirza Bayram Bayramali Bayramberdi Bayramgazi Bayremet Bazarbay Begali Behtiyar_Baktiyar Bekberdi Bekbolat Beket Bekmanbet Bekmurza Bektemir Belyal Bidayhan Biysoltan Biytulla Biyuv Blikay Bolat Bora Borazgazi Bori Bozyigit 
+			Cabrail_Gabriel Calaldin_Jalaluddin Camaldin_Jamaluddin Camav Cumageldi 
+			Daniyal_Daniel Daut_David Davlet_Dawlat Dilmanbet Dinibek Dinish Dinislam Dlimhan Dombay Dormaz Doymanbet Düsenbiy  
+			Enali Esen 
+			Hanbolat 
+			Ibragim_Abraham Ilnur Imamali Inal Irsuv Isa_Jesus Isak_Isaac Ishaq_Isaac Islam_Islam Ismail_Ismail Ismak Istamali 
+			Jentemir 
+			Kadir Kairbek Kalish Kambolat Kanamat Kanmurza Kaplan Karadav Karaydar Karasay Karayan Kasbolat Kashav Kasim Kaysar Kazbek Kazbolat Kazgerey Kazivet Kaziy Kazuv Kebek Keldimurat Kelemet Kelendik Kenjebolat Kerim_Karim Kidir Kidirali Kidirniyaz Kilish_Kilij Kilishgerey Kojahmet Kökkez Koylibay Kopish Köshali Köshekbay Kösherbay Köshmanbet Kruptursin Kubray Kudayberdi Kudaynet Kumarash Küntuvgan Kurgan Kurman Kurmanali Kurmanbay Kurpish Kuriy Küsep Kuvanay Kumishan  
+			Lukpan 
+			Menlibay Muhamed_Muhammad Muhtar_Mukhtar Murat_Murad Musa_Moses Mutafa_Mustafa 
+			Nogay Nur Nurgazi 
+			Olmes 
+			Sarybas 
+			Taubay Temir_Timur Teniz_Genghis Tokash Tokay Toktar Tugan 
+			Vaap_Wahhab Vahbiy Väis_Uways Väit_Wahid Väli_Wali 
+			Yanibek Yolakay Yolgisi Yolli Yolmanbet 
+			Zabitgerey Zalimhan Zarmanbet Zaurbek Zekerya_Zachary Zeynadin_Zaynuddin Zeynay Zeynulla Ziyaudin Ziyav Zubair Zulkaniy Zulkarnay Zunkarnay 
+		}
+
+		female_names = {
+			Adilya Adina Aida Akgyul Aktamak Aleshan Alsu Altinay Amina Anisa Anush Aruzat Asiya Asma Aybiyke Aygul Aysha_Aisha Ayshat Aysyluv Aziza 
+			Bagdagul Bayrambike Bella Botogoz 
+			Cafara_Jafara Camila_Jamila Cana 
+			Daria Dastagul Dilya Dilyara Dinara 
+			Elahe Elvira Elza_Elsa Emina_Amina 
+			Faina Faiza Farida Fatima_Fatima Feruza 
+			Gazama Golpira Gulara Gulbanu Gulbinur Gulnara Gulnisa 
+			Hadija_Khadija Halima 
+			Irada 
+			Kabirat Kamila Karima Karindas Kyzylgul 
+			Latafat Leyla 
+			Madlena_Magdalene Maginur Mahmuda Malika Manana Margarita_Margaret Masura Mayda Maysa Medeya 
+			Naida Nailya Naira Nazira Norgul 
+			Radmila Ralina Rasham Rayhan Regina Renata Rezeta Roza_Rosa Rumiya Ruzana 
+			Sabrina Saida Suriya 
+			Tahmina Tutayhan 
+			Ulbike Ulduza 
+			Valida Valiya Vasila Vecha Venera 
+			Yansilu Yasmina Yulduz 
+			Zaira Zalina Zamira Zara Zarema Zarifa Zarina Zayda Zaytuna Zinat Zuhra_Zohra Zurida 
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = " uli"
+		female_patronym = " qizi"
 		prefix = no
 
 		pat_grf_name_chance = 50
