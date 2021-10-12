@@ -2892,6 +2892,47 @@ muslim = {
 	
 }
 
+universalist = {
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	crusade_cb = crusade
+	playable = yes
+	
+	ai_convert_same_group = 1
+	ai_convert_other_group = 1
+	
+	color = { 1 0.5 0 }
+	
+	interface_skin = { muslim_interface } 
+	
+	bahai = {
+		graphical_culture = muslimgfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+
+		icon = 124
+		
+		high_god_name = GOD_BAHA
+		
+		god_names = {
+			GOD_BAHAULLAH GOD_BAB GOD_KRISHNA GOD_BUDDHA GOD_MUHAMMAD GOD_JESUS GOD_ABRAHAM GOD_HUNDRED_NAMES	
+			}
+		evil_god_names = {
+			GOD_ABSENCE
+		} 
+		
+		scripture_name = KITAB_AL_AQDAS
+		
+		color = { 0.0 0.9 0.4 }
+		feminist = yes
+		psc_marriage = no
+		hard_to_convert = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		
+		
+	}
+}
+
 islamosyncretic = {
 	has_coa_on_barony_only = yes
 	graphical_culture = muslimgfx
@@ -2930,32 +2971,6 @@ islamosyncretic = {
 		allow_rivermovement = yes
 		can_demand_religious_conversion = no
 		hard_to_convert = yes
-		
-		
-	}
-	bahai = {
-		graphical_culture = muslimgfx
-		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
-
-		icon = 124
-		
-		high_god_name = GOD_BAHA
-		
-		god_names = {
-			GOD_BAHAULLAH GOD_BAB GOD_KRISHNA GOD_BUDDHA GOD_MUHAMMAD GOD_JESUS GOD_ABRAHAM GOD_HUNDRED_NAMES	
-			}
-		evil_god_names = {
-			GOD_ABSENCE
-		} 
-		
-		scripture_name = KITAB_AL_AQDAS
-		
-		color = { 0.0 0.9 0.4 }
-		feminist = yes
-		psc_marriage = no
-		hard_to_convert = yes
-		priests_can_marry = yes
-		allow_rivermovement = yes
 		
 		
 	}
