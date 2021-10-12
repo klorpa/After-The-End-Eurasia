@@ -2931,6 +2931,45 @@ universalist = {
 		
 		
 	}
+	cao_dai = {
+		graphical_culture = chinesegfx
+
+		icon = 128
+		
+		color = { 135 206 235 }
+		
+		interface_skin = { cao_dai_interface }
+		
+		scripture_name = CAO_DAI_CANON
+		priest_title = CAO_DAI_PRIEST
+		
+		high_god_name = GOD_CAO_DAI
+		
+		god_names = {
+			 GOD_HOLY_MOTHER GOD_THE_SON GOD_CONFUCIUS GOD_LAOZI GOD_BUDDHA
+		}
+		
+		evil_god_names = {
+			EVIL_LORD
+		}
+		
+		piety_name = DEVOTION
+		character_modifier = { learning = 2 }
+		short_reign_opinion_year_mult = 0
+		
+		intermarry = christian
+		intermarry = buddhist_group
+		intermarry = bahai
+		
+		feminist = yes
+		female_temple_holders = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		rel_head_defense = yes
+		
+		religious_clothing_head = 1
+		religious_clothing_priest = 1
+	}
 }
 
 islamosyncretic = {
