@@ -13,17 +13,23 @@ e_al_mashriq = {
 		
 		capital = 2023 # c_baghdad
 		
+		kurdish="Êraq"
+		
 		nizami = 700
 		
 		d_baghdad = {
 			color={ 73 136 28 }
 			color2={ 255 255 255 }
 			
+			kurdish="Bexda"
+			
 			capital = 2023 # c_baghdad
 			
 			c_baghdad = { # 2023
 				color={ 63 146 23 }
 				color2={ 255 255 255 }
+			
+				kurdish="Bexda"
 				
 				holy_site = sunni
 				holy_site = revivalist
@@ -45,6 +51,8 @@ e_al_mashriq = {
 			c_diyala = { # 2027
 				color={ 66 143 29 }
 				color2={ 255 255 255 }
+			
+				kurdish="Diyale"
 				
 				b_baqubah = {}
 				b_al_khalis = {}
@@ -57,6 +65,8 @@ e_al_mashriq = {
 			c_salah_ad_din = { # 2025
 				color={ 65 130 33 }
 				color2={ 255 255 255 }
+			
+				kurdish="Selahedîn"
 				
 				b_tikrit = {}
 				b_ash_shirqat = {}
@@ -69,6 +79,8 @@ e_al_mashriq = {
 			c_samarra = { # 2026
 				color={ 58 141 17 }
 				color2={ 255 255 255 }
+			
+				kurdish="Semara"
 				
 				b_samarra = {}
 				b_tuz_khurmatu = {}
@@ -81,6 +93,8 @@ e_al_mashriq = {
 			c_al_kut = { # 2052
 				color={ 75 87 68 }
 				color2={ 255 255 255 }
+			
+				kurdish="Kût"
 				
 				b_al_kut = {}
 				b_al_aziziyah = {}
@@ -97,9 +111,13 @@ e_al_mashriq = {
 			
 			capital = 2030 # c_ramadi
 			
+			kurdish="Enbar"
+			
 			c_ramadi = { # 2030
 				color={ 145 188 124 }
 				color2={ 255 255 255 }
+			
+				kurdish="Remadî"
 				
 				b_ar_ramadi = {}
 				b_hit = {}
@@ -150,13 +168,18 @@ e_al_mashriq = {
 			color={ 135 198 119 }
 			color2={ 255 255 255 }
 			
+			kurdish="Necef"
+			
 			capital = 2033 # c_an_najaf
 			
 			c_al_qadisiyyah = { # 2050
 				color={ 48 67 36 }
 				color2={ 255 255 255 }
+			
+				kurdish="Qadisiye"
 				
-				b_al_diwaniyah = {}
+				b_al_diwaniyah = {
+					kurdish="Dîwaniye"}
 				b_ash_shamiya = {}
 				b_afak = {}
 				b_hamza = {}
@@ -167,8 +190,11 @@ e_al_mashriq = {
 			c_al_muthanna = { # 2034
 				color={ 127 142 120 }
 				color2={ 255 255 255 }
+			
+				kurdish="Musena"
 				
-				b_samawah = {}
+				b_samawah = {
+					kurdish="Semawe"}
 				b_al_khidhir = {}
 				b_as_salman = {}
 				b_darraji = {}
@@ -179,12 +205,15 @@ e_al_mashriq = {
 			c_an_najaf = { # 2033
 				color={ 158 184 145 }
 				color2={ 255 255 255 }
+			
+				kurdish="Necef"
 				
 				holy_site = shiite
 				holy_site = ahl_e_haqq
 				holy_site = alawi
 				
-				b_an_najaf = {}
+				b_an_najaf = {
+					kurdish="Necef"}
 				b_kufa = {}
 				b_al_manathera = {}
 				b_al_meshkhab = {}
@@ -198,7 +227,8 @@ e_al_mashriq = {
 				
 				holy_site = nestorian
 				
-				b_al_hillah = {}
+				b_al_hillah = {
+					kurdish="Hille"}
 				b_risafa = {}
 				b_al_kifl = {}
 				b_al_hashimiyah_IRQ = {}
@@ -209,11 +239,14 @@ e_al_mashriq = {
 			c_karbala = { # 2029
 				color={ 80 156 42 }
 				color2={ 255 255 255 }
+			
+				kurdish="Kerbela"
 				
 				holy_site = zaydi
 				holy_site = ismaili
 				
-				b_karbala = {}
+				b_karbala = {
+					kurdish="Kerbela"}
 				b_al_hindiya = {}
 				b_ayn_at_tamr = {}
 				b_rahhaliyah = {}
@@ -226,17 +259,24 @@ e_al_mashriq = {
 			color={ 34 40 12 }
 			color2={ 255 255 255 }
 			
+			kurdish="Cizîr"
+			
 			capital = 2035 # c_mosul
 			
 			c_mosul = { # 2035
 				color={ 24 50 7 }
 				color2={ 255 255 255 }
 				
+				kurdish="Mûsil"
+				assyrian="Mawsil"
+				
 				holy_site = nestorian
 				holy_site = yazidi
 				
 				b_nabi_yunus = {}
-				b_al_mawsil = {}
+				b_al_mawsil = {
+					kurdish="Mûsil"
+					assyrian="Mawsil"}
 				b_al_qayyarah = {}
 				b_hammam_al_alil = {}
 				b_al_shurah = {}
@@ -271,9 +311,14 @@ e_al_mashriq = {
 				color={ 45 78 23 }
 				color2={ 255 255 255 }
 				
+				kurdish="Shingal"
+				assyrian="Shingar"
+				
 				holy_site = yazidi
 				
-				b_sinjar = {}
+				b_sinjar = {
+					kurdish="Shingal"
+					assyrian="Shingar"}
 				b_xanasor = {}
 				b_til_ezer = {}
 				b_dugure = {}
@@ -285,7 +330,18 @@ e_al_mashriq = {
 				color={ 69 118 38 }
 				color2={ 255 255 255 }
 				
-				b_tal_afar = {}
+				black_sea="Telafer"
+				west_anatolian="Telafer"
+				central_anatolian="Telafer"
+				rumelian="Telafer"
+				turcoman="Telafer"
+				
+				b_tal_afar = {
+					black_sea="Telafer"
+					west_anatolian="Telafer"
+					central_anatolian="Telafer"
+					rumelian="Telafer"
+					turcoman="Telafer"}
 				b_qubuq = {}
 				b_qaryat_al_ashiq = {}
 				b_rabiaat = {}
@@ -306,7 +362,12 @@ e_al_mashriq = {
 				
 				holy_site = nestorian
 				
-				b_erbil = {}
+				kurdish="Hewlêr"
+				assyrian="Arbel"
+				
+				b_erbil = {
+					kurdish="Hewlêr"
+					assyrian="Arbel"}
 				b_soran = {}
 				b_shaqlawa = {}
 				b_koy_sanjaq = {}
@@ -318,62 +379,127 @@ e_al_mashriq = {
 				color={ 140 202 97 }
 				color2={ 255 255 255 }
 				
-				b_dahuk = {}
-				b_amadiya = {}
-				b_simele = {}
-				b_zakho = {}
+				kurdish="Dihok"
+				assyrian="Beth Nohadra"
+				
+				b_dahuk = {
+					kurdish="Dihok"
+					assyrian="Beth Nohadra"}
+				b_amadiya = {
+					kurdish="Amêdî"
+					assyrian="Amadya"}
+				b_simele = {
+					kurdish="Sêmêl"}
+				b_zakho = {
+					kurdish="Zaxo"}
 				b_saru_kani = {}
-				b_zawita = {}
-				b_mangesh = {}
-				b_nahla = {}
+				b_zawita = {
+					kurdish="Zawîte"}
+				b_mangesh = {
+					kurdish="Mangêsh"}
+				b_nahla = {
+					kurdish="Nehlê"}
 			}
 			c_kirkuk = { # 2042
 				color={ 109 188 57 }
 				color2={ 255 255 255 }
 				
-				b_kirkuk = {}
-				b_hawija = {}
-				b_aqrah = {}
-				b_daquq = {}
+				kurdish="Kerkûk"
+				black_sea="Kerkük"
+				west_anatolian="Kerkük"
+				central_anatolian="Kerkük"
+				rumelian="Kerkük"
+				turcoman="Kerkük"
+				assyrian="Kerkouk"
+				
+				b_kirkuk = {
+					kurdish="Kerkûk"
+					black_sea="Kerkük"
+					west_anatolian="Kerkük"
+					central_anatolian="Kerkük"
+					rumelian="Kerkük"
+					turcoman="Kerkük"
+					assyrian="Kerkouk"}
+				b_hawija = {
+					kurdish="Hewîce"}
+				b_aqrah = {
+					kurdish="Akrê"
+					assyrian="Aqra'"}
+				b_daquq = {
+					black_sea="Tavuk"
+					west_anatolian="Tavuk"
+					central_anatolian="Tavuk"
+					rumelian="Tavuk"
+					turcoman="Tavuk"
+					kurdish="Daqûq"}
 				b_surchi = {}
-				b_dibis = {}
+				b_dibis = {
+					kurdish="Dûbiz"}
 			}
 			c_shekhan = { # 2045
 				color={ 117 200 60 }
 				color2={ 255 255 255 }
 				
-				b_ayn_sifni = {}
+				kurdish="Shêxan"
+				
+				b_ayn_sifni = {
+					kurdish="Shêxan"}
 				b_lalish = {}
-				b_baadra = {}
-				b_atrish = {}
+				b_baadra = {
+					kurdish="Baedrê"}
+				b_atrish = {
+					kurdish="Etrîsh"}
 				b_mrebah = {}
-				b_qasrok = {}
-				b_mahad = {}
+				b_qasrok = {
+					kurdish="Qesrok"}
+				b_mahad = {
+					kurdish="Mehetê"}
 			}
 			c_sulaymaniyah = { # 2041
 				color={ 123 221 58 }
 				color2={ 255 255 255 }
 				
+				kurdish="Silêmanî"
+				
 				holy_site = ahl_e_haqq
 				
-				b_sulaymaniyah = {}
-				b_sharbazher = {}
-				b_qaladiza = {}
-				b_dukan = {}
-				b_chamchamal = {}
-				b_ranya = {}
-				b_said_sadiq = {}
+				b_sulaymaniyah = {
+					kurdish="Silêmanî"}
+				b_sharbazher = {
+					kurdish="Sharbajêr"}
+				b_qaladiza = {
+					kurdish="Qeladizê"}
+				b_dukan = {
+					kurdish="Dûkan"}
+				b_chamchamal = {
+					kurdish="Çemçemal"}
+				b_ranya = {
+					kurdish="Ranyê"}
+				b_said_sadiq = {
+					kurdish="Seyd Sadiq"}
 			}
 			c_tel_kayf = { # 2044
 				color={ 102 194 40 }
 				color2={ 255 255 255 }
 				
-				b_tel_kayf = {}
-				b_bakhdida = {}
+				assyrian="Tel Kepe"
+				
+				b_tel_kayf = {
+					assyrian="Tel Kepe"}
+				b_bakhdida = {
+					assyrian="Beth Khdeda"
+					black_sea="Qaraqosh"
+					west_anatolian="Qaraqosh"
+					central_anatolian="Qaraqosh"
+					rumelian="Qaraqosh"
+					turcoman="Qaraqosh"}
 				b_alqosh = {}
-				b_bashiqa = {}
-				b_khatarah = {}
-				b_bahzani = {}
+				b_bashiqa = {
+					kurdish="Bashîqa"}
+				b_khatarah = {
+					kurdish="Xetarê"}
+				b_bahzani = {
+					kurdish="Bahzanê"}
 				b_tesqopa = {}
 			}
 		}
@@ -381,13 +507,18 @@ e_al_mashriq = {
 			color={ 50 41 38 }
 			color2={ 255 255 255 }
 			
+			kurdish="Bexda"
+			
 			capital = 2047 # c_basrah
 			
 			c_basrah = { # 2047
 				color={ 40 51 33 }
 				color2={ 255 255 255 }
 				
-				b_basrah = {}
+				kurdish="Besre"
+				
+				b_basrah = {
+					kurdish="Besre"}
 				b_abu_al_khasib = {}
 				b_al_faw = {}
 				b_al_harithah = {}
@@ -399,7 +530,10 @@ e_al_mashriq = {
 				color={ 83 101 72 }
 				color2={ 255 255 255 }
 				
-				b_an_nasiriyah = {}
+				kurdish="Zîqar"
+				
+				b_an_nasiriyah = {
+					kurdish="Nasiriye"}
 				b_ash_shibayish = {}
 				b_ar_rifai = {}
 				b_al_kahla_2 = {}
@@ -411,7 +545,10 @@ e_al_mashriq = {
 				color={ 55 70 46 }
 				color2={ 255 255 255 }
 				
-				b_amarah = {}
+				kurdish="Meysan"
+				
+				b_amarah = {
+					kurdish="Elmenare"}
 				b_madhar = {}
 				b_al_kahla = {}
 				b_al_musharrah = {}
@@ -677,6 +814,9 @@ e_al_mashriq = {
 			c_al_hasakah = { # 2013
 				color={ 227 127 20 }
 				color2={ 255 255 255 }
+				
+				kurdish="Hesekê"
+				assyrian="Haseka"
 				
 				b_at_tweinah = {}
 				b_al_hasakah = {}

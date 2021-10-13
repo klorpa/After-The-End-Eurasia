@@ -87,6 +87,7 @@
 2071007 = {
 	name = "Rustam"
 	dynasty = 2069078 #Siistoni
+	father=2071024
 	culture = tajik
 	religion = nizami
 	2641.7.16 = { birth=yes }
@@ -116,7 +117,7 @@
 	2618.11.2 = { birth=yes }
 }
 2071010 = {
-	name = "Sikandar"
+	name = "Pashtunyar"
 	dynasty = 2085102 #Durrani
 	culture = pashtun
 	religion = deobandi
@@ -213,4 +214,70 @@
 	religion = deobandi
 	father=2071001
 	2644.4.4 = { birth=yes }
+}
+2071021 = {
+	name = "Mansur"
+	dynasty = 2089091 #Kayani
+	culture = hazara
+	religion = ismaili
+	trait=hafiz 
+	trait=administrator
+	trait=stubborn 
+	trait=devout
+	trait=charismatic_negotiator
+	trait=patient 
+	2598.1.12 = { birth=yes }
+}
+2071022 = {
+	name = "Temurshoh"
+	dynasty = 2069039 #Iskandarzoda
+	culture = pamiri
+	religion = ismaili
+	trait=brilliant_strategist
+	trait=strategist
+	trait=brave
+	trait=diligent
+	trait=wroth
+	trait=genius
+	trait=chaste
+	trait=proud
+	trait=erudite
+	2645.7.21 = { birth=yes }
+}
+2071023 = {
+	name = "Roksana"
+	female=yes
+	dynasty = 2069078 #Siistoni
+	culture = tajik
+	religion = nizami
+	trait=charismatic_negotiator
+	trait=brave
+	trait=diligent
+	trait=fair
+	trait=kind
+	trait=proud
+	trait=erudite
+	father=2071024
+	2646.6.10 = { birth=yes }
+	2665.5.5 = {
+		add_spouse=2071022
+		effect={add_lover=2071022}}
+}
+2071024 = {
+	name = "Firdavs"
+	dynasty = 2069078 #Siistoni
+	culture = tajik
+	religion = nizami
+	trait=poet
+	2587.10.2 = { birth=yes }
+	2665.10.6 = { death=yes }
+}
+2071025 = {
+	name = "Zulqarnayn"
+	dynasty = 2069039 #Iskandarzoda
+	culture = pamiri
+	religion = ismaili
+	father=2071022
+	mother=2071023
+	2666.5.8 = { birth=yes }
 }
