@@ -33,6 +33,12 @@ on_death = {
 		#adding shiva events
 	}
 }
+# Character converts religion, for whatever reason. ROOT is the character after conversion and the FROM scope has the old religion.
+on_character_convert_religion = {
+	events = {
+		gov.014 #Muslim government CANCELLATION
+	}
+}
 on_new_holder_usurpation = {
 	events = {
 		ottoman.48 #Getting the Sultan Han Trait upon Usurpation
