@@ -2422,3 +2422,90 @@
 	2659.3.25={birth=yes}
 	2690.11.11={death=yes}
 }
+19911111={
+	name="Piotr"
+	dynasty=2124000 #Putkammer
+	culture=odrzan
+	religion=mariavite
+	trait=amateurish_plotter
+	trait=robust
+	trait=lefthanded
+	trait=socializer
+	2634.4.8={birth=yes}
+}
+19911112={
+	name="Adelheid"
+	female=yes
+	dynasty=1948132 #von Thadden
+	father=19911113
+	culture=ossi
+	religion=chronicler
+	2634.7.9={birth=yes}
+	2655.1.1={add_spouse=19911111}
+}
+19911113={
+	name="Ludwig"
+	dynasty=1948132 #von Thadden
+	culture=ossi
+	religion=chronicler
+	2611.7.24={birth=yes}
+	2660.5.18={death=yes}
+}
+19911114={
+	name="Reinhold"
+	dynasty=1948132 #von Thadden
+	father=19911113
+	culture=ossi
+	religion=chronicler
+	2634.1.26={birth=yes}
+}
+19911115={
+	name="Geroslaus"
+	dynasty=1948132 #von Thadden
+	father=19911114
+	culture=ossi
+	religion=chronicler
+	2660.11.26={birth=yes}
+}
+19911116={
+	name="Jesko"
+	dynasty=2124000 #Putkammer
+	culture=odrzan
+	religion=mariavite
+	father=19911111
+	mother=19911112
+	2661.9.8={birth=yes}
+}
+19911117={
+	name="Elisabeth"
+	dynasty=2124000 #Putkammer
+	culture=ossi
+	female=yes
+	religion=mariavite
+	father=19911111
+	mother=19911112
+	2663.7.29={birth=yes}
+}
+19911118={
+	name="Renia"
+	dynasty=2124001 #Laskowik
+	culture=odrzan
+	female=yes
+	religion=mariavite
+	father=19911119
+	trait=quick 
+	trait=tough_soldier
+	trait=stressed
+	trait=shy
+	2646.9.16={birth=yes}
+}
+19911119={
+	name="Zenon"
+	dynasty=2124001 #Laskowik
+	culture=odrzan
+	religion=mariavite
+	trait=musician
+	trait=socializer
+	2622.8.25={birth=yes}
+	2665.6.9={death=yes}
+}

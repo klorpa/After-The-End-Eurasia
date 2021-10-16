@@ -125,11 +125,41 @@ k_britain = {
 	dignity = 20 # Counted as having this many more counties than it does
 }
 
+k_pomerania = {
+	color={ 233 51 36 }
+	color2={ 220 220 20 }
+			
+	capital = 396 #Szczecin
+	dignity = 10 # Counted as having this many more counties than it does
+
+		rhenish="Pommern"
+		low_saxon="Pommern"
+		ossi="Pommern"
+		upper_saxon="Pommern"
+		bavarian="Pommern"
+		swabian="Pommern"
+		austrian="Pommern"
+		palatinate="Pommern"
+		schwyzer="Pommern"
+		odrzan="Pomorze"
+		malopolan="Pomorze"
+		lipka="Pomorze"
+		warmzur="Pomorze"
+		wielkopolan="Pomorze"
+		mazovian="Pomorze"
+		goral="Pomorze"
+		silesian="Pomorze"
+		kashubian="Pòmòrskô"
+		czech="Pomoransko"
+		lithuanian="Pomeranija"
+		latvian="Pomeranija"
+}
+
 k_lombardy = {
 	color={ 37 70 148 }
 	color2={ 255 255 255 }
 	
-	capital = 1144 # Merseyside
+	capital = 1144 # Milan
 	dignity = 10 # Counted as having this many more counties than it does
 	
 		rhenish="Lombardei"
@@ -221,7 +251,7 @@ k_kurdistan = {
 	
 	capital = 2440 #Erbil
 	
-	kurdish = "Kurdistanê"
+	kurdish = "Kurdistan"
 	
 	allow = {
 		always = no # Only created through special event
