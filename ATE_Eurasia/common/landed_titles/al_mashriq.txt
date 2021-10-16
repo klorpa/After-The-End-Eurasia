@@ -579,17 +579,25 @@ e_al_mashriq = {
 		
 		nizami = 700
 		
+		kurdish="Sûrî"
+		
 		d_dimashq = {
 			color={ 216 79 45 }
 			color2={ 255 255 255 }
 			
 			capital = 1997 # c_damascus
 			
+			assyrian="Darmswq"
+			kurdish="Sham"
+			
 			c_damascus = { # 1997
 				color={ 206 89 40 }
 				color2={ 255 255 255 }
 				
 				holy_site = an_nahar
+				
+				assyrian="Darmswq"
+				kurdish="Sham"
 				
 				b_mezzeh = {}
 				b_qanawat = {}
@@ -687,6 +695,8 @@ e_al_mashriq = {
 			color={ 125 41 24 }
 			color2={ 255 255 255 }
 			
+			kurdish="Heleb"
+			
 			capital = 2003 # c_aleppo
 			
 			c_aleppo = { # 2003
@@ -695,6 +705,17 @@ e_al_mashriq = {
 				
 				holy_site = alawi
 				holy_site = druze
+				
+				suriyi="Halab"
+				furataini="Halab"
+				lebneni="Halab"
+				filastini="Halab"
+				najdi="Halab"
+				bahrayni="Halab"
+				hijazi="Halab"
+				yemeni="Halab"
+				umani="Halab"
+				kurdish="Heleb"
 				
 				b_halab = {}
 				b_azaz = {}
@@ -797,15 +818,22 @@ e_al_mashriq = {
 			
 			capital = 2011 # c_raqqa
 			
+			kurdish="Reqa"
+			
 			c_raqqa = { # 2011
 				color={ 202 114 21 }
 				color2={ 255 255 255 }
 				
 				holy_site = yazidi
 				
-				b_ar_raqqah = {}
-				b_at_tawra = {}
-				b_tell_abyad = {}
+				kurdish="Reqa"
+				
+				b_ar_raqqah = {
+					kurdish="Reqa"}
+				b_at_tawra = {
+					kurdish="Tebqa"}
+				b_tell_abyad = {
+					kurdish="Girê Spî"}
 				b_as_sabkhah = {}
 				b_al_karamah = {}
 				b_maadan = {}
@@ -819,7 +847,8 @@ e_al_mashriq = {
 				assyrian="Haseka"
 				
 				b_at_tweinah = {}
-				b_al_hasakah = {}
+				b_al_hasakah = {
+					kurdish="Hesekê"}
 				b_al_shaddadah = {}
 				b_bir_al_helu_al_wardiya = {}
 				b_markada = {}
@@ -854,7 +883,10 @@ e_al_mashriq = {
 				color={ 228 151 70 }
 				color2={ 255 255 255 }
 				
-				b_qamishli = {}
+				kurdish="Qamishlo"
+				
+				b_qamishli = {
+					kurdish="Qamishlo"}
 				b_al_malikiyah = {}
 				b_tell_hamis = {}
 				b_al_darbasiyah = {}
