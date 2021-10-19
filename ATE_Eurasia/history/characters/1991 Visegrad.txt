@@ -1521,7 +1521,7 @@
 	trait=indulgent_wastrel
 	trait=homosexual
 	trait=socializer
-	trait=depression
+	trait=depressed
 	trait=drunkard
 	martial=5
 	diplomacy=5
@@ -2003,7 +2003,7 @@
 	trait=falconer
 	trait=shrewd
 	trait=hunter
-	trait=sympathy_pagan
+	trait=sympathy_pagans
 	trait=stressed
 	trait=patient
 	trait=just
@@ -2052,7 +2052,7 @@
 	culture=hungarian
 	religion=coronite
 	trait=strong
-	trait=sympathy_pagan
+	trait=sympathy_pagans
 	trait=humble
 	trait=chaste
 	trait=depressed
@@ -2161,7 +2161,7 @@
 	religion=mariavite
 	trait=kind
 	trait=patient
-	trait=brawny
+	trait=robust
 	trait=depressed
 	trait=chaste
 	father=19911035
@@ -2201,7 +2201,7 @@
 	dynasty=2045115 #Bem
 	culture=malopolan
 	religion=mariavite
-	trait=frail
+	trait=feeble
 	trait=ill
 	trait=proud
 	trait=mystic
@@ -2214,7 +2214,7 @@
 	dynasty=2045115 #Bem
 	culture=malopolan
 	religion=mariavite
-	trait=frail
+	trait=feeble
 	trait=deceitful
 	trait=shrewd
 	trait=proud
@@ -2232,7 +2232,7 @@
 	religion=nizami
 	trait=brave
 	trait=brilliant_strategist
-	trait=tactician
+	trait=strategist
 	trait=sympathy_islam
 	father=19911062
 	2604.4.17={birth=yes}
@@ -2283,7 +2283,7 @@
 	trait=misguided_warrior
 	trait=humble
 	trait=charitable
-	trait=sympathy_pagan
+	trait=sympathy_pagans
 	diplomacy=7
 	martial=7
 	stewardship=4
@@ -2332,7 +2332,7 @@
 	religion=mariavite
 	trait=gardener
 	trait=scholarly_theologian
-	trait=wrathful
+	trait=wroth
 	trait=kind
 	trait=slow
 	2580.12.8={birth=yes}
@@ -2385,7 +2385,7 @@
 	female=yes
 	culture=slovak
 	religion=mariavite
-	trait=frail
+	trait=feeble
 	trait=deceitful
 	mother=19911104
 	2637.2.19={birth=yes}
@@ -2508,4 +2508,486 @@
 	trait=socializer
 	2622.8.25={birth=yes}
 	2665.6.9={death=yes}
+}
+19911120={
+	name="Agnésa"
+	female=yes
+	dynasty=2000076 #Walãsa
+	culture=kashubian
+	religion=mariavite
+	trait=charismatic_negotiator
+	trait=familyperson
+	trait=distractible
+	father=19911122
+	2613.2.11={birth=yes}
+	2633.1.1={add_spouse=19911121
+			effect={add_weak_claim=c_trojmiasto}}
+}
+19911121={
+	name="Jeremiósz"
+	culture=kashubian
+	religion=mariavite
+	2613.4.22={birth=yes}
+}
+19911122={
+	name="Bòleslôw"
+	dynasty=2000076 #Walãsa
+	culture=kashubian
+	religion=mariavite
+	father=19911123
+	2584.8.29={birth=yes}
+	2641.12.8={death=yes}
+}
+19911123={
+	name="Lech"
+	dynasty=2000076 #Walãsa
+	culture=kashubian
+	religion=mariavite
+	2560.3.27={birth=yes}
+	2632.2.3={death=yes}
+}
+19911124={
+	name="Danuta"
+	female=yes
+	dynasty=2000076 #Walãsa
+	culture=kashubian
+	religion=mariavite
+	trait=charismatic_negotiator
+	trait=familyperson
+	trait=distractible
+	father=19911122
+	2624.6.27={birth=yes}
+}
+19911125={
+	name="Jaroslôw"
+	dynasty=2000076 #Walãsa
+	culture=kashubian
+	religion=mariavite
+	father=19911121
+	mother=19911120
+	2636.11.20={birth=yes}
+}
+19911126={
+	name="Przemëslôw"
+	dynasty=2000076 #Walãsa
+	culture=kashubian
+	religion=mariavite
+	father=19911121
+	mother=19911120
+	2649.4.1={birth=yes}
+}
+19911127={
+	name="Zbigórz"
+	dynasty=2000076 #Walãsa
+	culture=kashubian
+	religion=mariavite
+	father=19911125
+	mother=19911137
+	trait=twin
+	2662.7.28={birth=yes}
+}
+19911128={
+	name="Magdaléna"
+	female=yes
+	dynasty=2000076 #Walãsa
+	culture=kashubian
+	religion=mariavite
+	father=19911125
+	mother=19911137
+	trait=twin
+	2662.7.28={birth=yes}
+}
+19911129={
+	name="Kadzmiérz"
+	dynasty=2000083 #Gôsk
+	culture=kashubian
+	religion=mariavite
+	father=19911130
+	trait=adopted_child
+	trait=one_eyed
+	trait=one_legged
+	trait=detached_priest
+	trait=duelist
+	trait=sturdy
+	trait=wroth
+	trait=deceitful
+	trait=cruel
+	trait=aggressive_leader
+	trait=trickster
+	trait=possessed
+	2619.1.14={birth=yes}
+	2662.7.28={
+		effect = {add_artifact = prosthetic_leg_artifact}
+		give_nickname=nick_lecyper
+	}
+}
+19911130={
+	name="Szëmón"
+	dynasty=2000083 #Gôsk
+	culture=kashubian
+	religion=mariavite
+	2587.9.16={birth=yes}
+	2640.7.20={death=yes}
+}
+19911131={
+	name="Teréza"
+	female=yes
+	dynasty=2000083 #Gôsk
+	culture=kashubian
+	religion=mariavite
+	father=19911130
+	2606.3.27={birth=yes}
+}
+19911132={
+	name="Ana"
+	female=yes
+	culture=kashubian
+	religion=mariavite
+	trait=naive_appeaser
+	trait=kind
+	trait=pious
+	trait=chaste
+	trait=depressed
+	2611.8.25={birth=yes}
+	2636.1.1={add_spouse=19911129}
+	2638.10.30={
+		death={
+			death_reason=death_murder_unknown
+			killer=19911129
+		}
+	}
+}
+19911133={
+	name="Swiatopôlk"
+	dynasty=2000083 #Gôsk
+	culture=kashubian
+	religion=mariavite
+	father=19911129
+	mother=19911132
+	trait=fortune_builder
+	trait=architect
+	trait=crippled
+	trait=stressed
+	2636.10.02={birth=yes}
+}
+19911134={
+	name="Dagmar"
+	female=yes
+	culture=ossi
+	religion=chronicler
+	dynasty=1948133 #Bredel
+	trait=midas_touched
+	trait=quick
+	trait=freckles
+	trait=scholar
+	trait=diligent
+	trait=envious
+	trait=stubborn
+	father=19911135
+	2620.1.8={birth=yes}
+	2639.1.1={add_spouse=19911129}
+	2651.6.7={
+		death={
+			death_reason=death_suicide
+		}
+	}
+}
+19911135={
+	name="Willi"
+	culture=ossi
+	religion=chronicler
+	dynasty=1948133 #Bredel
+	trait=freckles
+	2591.2.26={birth=yes}
+	2651.6.7={
+		death={
+			death_reason=death_murder
+			killer=19911129
+		}
+	}
+}
+19911136={
+	name="Mscëwòj"
+	dynasty=2000083 #Gôsk
+	culture=kashubian
+	religion=mariavite
+	father=19911129
+	mother=19911134
+	trait=misguided_warrior
+	trait=scarred_high
+	trait=dull
+	trait=content
+	2640.3.24={birth=yes}
+}
+19911137={
+	name="Éwa"
+	female=yes
+	dynasty=2000083 #Gôsk
+	culture=kashubian
+	religion=chronicler
+	father=19911129
+	mother=19911134
+	trait=fortune_builder
+	trait=administrator
+	trait=reclusive
+	trait=freckles
+	2641.11.4={birth=yes}
+	2660.1.1={add_spouse=19911125}
+}
+19911138={
+	name="Sambór"
+	dynasty=2000083 #Gôsk
+	culture=kashubian
+	religion=chronicler
+	father=19911129
+	mother=19911134
+	trait=skilled_tactician
+	trait=quick
+	trait=freckles
+	trait=groomed
+	trait=poet
+	2649.3.11={birth=yes}
+}
+19911139={
+	name="Natasha"
+	female=yes
+	culture=kaliningradyets
+	religion=proletcult
+	trait=elusive_shadow
+	trait=fair
+	trait=hedonist
+	trait=seductress
+	trait=kind
+	trait=cynical
+	trait=lustful
+	trait=familyperson
+	2638.3.2={birth=yes}
+	2657.1.1={add_spouse=19911129}
+	2666.1.1={effect={add_lover=19911138}}
+}
+19911140={
+	name="Oleg"
+	dynasty=2000083 #Gôsk
+	culture=kaliningradyets
+	religion=proletcult
+	father=19911129
+	real_father=19911136
+	mother=19911139
+	trait=dull
+	trait=freckles
+	2655.3.25={birth=yes}
+}
+19911141={
+	name="Varvara"
+	female=yes
+	dynasty=2000083 #Gôsk
+	culture=kaliningradyets
+	religion=proletcult
+	father=19911129
+	real_father=19911136
+	mother=19911139
+	trait=dull
+	trait=freckles
+	trait=fair
+	2658.8.28={birth=yes}
+}
+19911142={
+	name="Kolya"
+	dynasty=2000083 #Gôsk
+	culture=kaliningradyets
+	religion=proletcult
+	father=19911129
+	real_father=19911138
+	mother=19911139
+	trait=quick
+	trait=freckles
+	trait=fair
+	2665.1.19={birth=yes}
+}
+19911143={
+	name="Tédór"
+	dynasty=1948134 #Nipkow
+	culture=kashubian
+	religion=chronicler
+	father=19911144
+	mother=19911131
+	trait=homosexual
+	trait=quick
+	trait=thrifty_clerk
+	secret_religion=thelema
+	2626.9.16={birth=yes}
+}
+19911144={
+	name="Paul"
+	dynasty=1948134 #Nipkow
+	culture=ossi
+	religion=chronicler
+	father=199111445
+	trait=genius
+	2604.2.2={birth=yes}
+	2621.1.1={add_spouse=19911131}
+}
+199111445={
+	name="Friedrich"
+	dynasty=1948134 #Nipkow
+	culture=ossi
+	religion=chronicler
+	2580.12.25={birth=yes}
+	2642.3.19={death=yes}
+}
+19911146={
+	name="Hermann"
+	dynasty=1948134 #Nipkow
+	culture=ossi
+	religion=chronicler
+	father=199111445
+	trait=intricate_webweaver
+	trait=ruthless
+	trait=clubfooted
+	trait=groomed
+	secret_religion=thelema
+	2607.11.26={birth=yes}
+	2639.1.1={add_spouse=19911147}
+}
+19911147={
+	name="Rózela"
+	female=yes
+	dynasty=2000086 #Wejer
+	culture=kashubian
+	religion=chronicler
+	2622.11.29={birth=yes}
+}
+19911148={
+	name="Julius"
+	dynasty=1948134 #Nipkow
+	culture=ossi
+	religion=chronicler
+	father=19911146
+	mother=19911147
+	2639.10.7={birth=yes}
+}
+19911149={
+	name="Gottlieb"
+	dynasty=1948134 #Nipkow
+	culture=ossi
+	religion=chronicler
+	father=19911146
+	mother=19911147
+	2644.7.17={birth=yes}
+}
+19911150={
+	name="Wilem"
+	dynasty=1948134 #Nipkow
+	culture=kashubian
+	religion=chronicler
+	father=19911146
+	mother=19911147
+	2647.12.14={birth=yes}
+}
+19911151={
+	name="Jacek"
+	dynasty=2124002 #Kosmalski
+	culture=odrzan
+	religion=mariavite
+	trait=strong
+	trait=amateurish_plotter
+	trait=drunkard
+	trait=hunter
+	2626.11.2={birth=yes}
+	2646.1.1={add_spouse=19911152
+		effect={
+			add_claim=c_koszalin
+			add_claim=b_kolobrzeg
+			add_rival=19911157
+		}
+	}
+}
+19911152={
+	name="Maria"
+	female=yes
+	dynasty=2124003 #Klauzunik
+	culture=odrzan
+	religion=mariavite
+	father=19911153
+	2627.5.15={birth=yes}
+}
+19911153={
+	name="Pawel"
+	dynasty=2124003 #Klauzunik
+	culture=odrzan
+	religion=mariavite
+	2600.1.20={birth=yes}
+}
+19911154={
+	name="Sylwia"
+	female=yes
+	dynasty=2124003 #Klauzunik
+	culture=odrzan
+	religion=mariavite
+	father=19911153
+	2632.3.2={birth=yes}
+}
+19911155={
+	name="Czeslaw"
+	dynasty=2124002 #Kosmalski
+	culture=odrzan
+	religion=mariavite
+	trait=charismatic_negotiator
+	trait=musician
+	trait=feeble
+	father=19911151
+	mother=19911152
+	give_nickname=nick_niemen
+	2648.9.22={birth=yes}
+}
+19911156={
+	name="Pawel"
+	dynasty=2124002 #Kosmalski
+	culture=odrzan
+	religion=mariavite
+	father=19911151
+	mother=19911152
+	2654.12.28={birth=yes}
+}
+19911157={
+	name="Michôl"
+	dynasty=2000087 #Barta
+	culture=kashubian
+	religion=mariavite
+	trait=brilliant_strategist
+	trait=one_handed
+	trait=weak
+	trait=harelip
+	trait=siege_leader
+	2623.10.15={birth=yes}
+}
+19911158={
+	name="Anna"
+	female=yes
+	dynasty=1442072 #Korotkin
+	culture=lipka
+	religion=ruhi
+	2635.4.9={birth=yes}
+	2655.1.1={add_spouse=19911157}
+	2663.4.21={
+		death={
+			death_reason=death_murder_unknown
+			killer=19911151
+		}
+	}
+}
+19911159={
+	name="Òlgerd"
+	dynasty=2000087 #Barta
+	culture=kashubian
+	religion=ruhi
+	father=19911157
+	mother=19911158
+	2660.2.8={birth=yes}
+	2663.4.21={
+		death={
+			death_reason=death_murder_unknown
+			killer=19911151
+		}
+	}
 }
