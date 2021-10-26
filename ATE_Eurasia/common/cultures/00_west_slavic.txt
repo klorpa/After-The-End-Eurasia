@@ -77,12 +77,12 @@ west_slavic_group = {
 			Féliks_Felix Filip_Philip Florión_Florian Frãcëszk_Francis
 			Gerat_Gerard Gùstôw_Gustav
 			Henrik_Henry Hieronim_Jerome
-			Jarosz_Jerome Jeremiôsz_Jeremiah Jerzi_George Jignacy_Ignatius Jizydór_Isidore Jón_John Józef_Joseph Józwa_Joseph Julión_Julian Juliusz_Julius
+			Jaroslôw_Jaroslav Jarosz_Jerome Jeremiôsz_Jeremiah Jerzi_George Jignacy_Ignatius Jizydór_Isidore Jón_John Józef_Joseph Józwa_Joseph Julión_Julian Juliusz_Julius
 			Kajetón_Kajetan Kamil_Camillus Kastór_Castore Karól_Charles Kadzmiérz_Casimir Klémãs_Clement Kónrôd_Konrad Kónstãti_Constantine Krësztof_Christopher
 			Lech Léón_Leon Lubòmir_Lubomir Ludwik_Louis Lukôsz_Lucas
 			Macéj_Matthew Marcél_Marcellus Marión_Marian Michôl_Michael Mieczëslôw_Mecislaus Mikòlôj_Nicholas Miroslôw_Miroslav Môrcën_Martin Mscëwòj_Mestwin
 			Ôbróm_Abraham Òto_Otto
-			Pawel_Paul Pioter_Peter
+			Pawel_Paul Pioter_Peter Przemëslôw_Premysl
 			Riszôrd_Richard Róbert_Robert Róman_Roman
 			Sambór_Sambor Samsón_Samson Sobieslôw_Sobeslaus Stanislôw_Stanislav Stazy_Anastasius Swiatopôlk_Svatopluk Szëmón_Simon Sztefón_Stephen
 			Téófil_Theophilos Tomôsz_Thomas
@@ -142,7 +142,7 @@ west_slavic_group = {
 			Marek_Mark Martin Matouš_Matthew Milan Miloš_Milo Miloslav Miroslav
 			Neklan Nezamsyl Norbert
 			Ondrej_Andrew Osvald_Oswald Otakar
-			Petr_Peter Premysl
+			Petr_Peter Premysl_Premysl
 			Radim Radoslav Roman Rostislav
 			Samuel Slávek_Slavek Slavoj Slavomír_Slavomir Sobeslav Štepán_Stephen Svatopluk Svatoslav
 			Teodor_Theodore Tomáš_Thomas
@@ -248,7 +248,7 @@ west_slavic_group = {
 			Marek_Mark Martin Matouš_Matthew Milan Miloš_Milo Miloslav Miroslav
 			Neklan Nezamsyl Norbert
 			Ondrej_Andrew Osvald_Oswald Otakar
-			Petr_Peter Premysl
+			Petr_Peter Premysl_Premysl 
 			Radim Radoslav Roman Rostislav
 			Samuel Slávek_Slavek Slavoj Slavomír_Slavomir Sobeslav Štepán_Stephen Svatopluk Svatoslav
 			Teodor_Theodore Tomáš_Thomas
@@ -453,20 +453,50 @@ west_slavic_group = {
 		color = { 0.55 0.4 0.6 }
 
 		male_names = {
-			Adam_Adam Andrzej_Andrew 
-			Jan_John Jedrzej_Andrew Józef_Joseph 
-			Kamil_Camillus Klemens_Clement 
-			Maciej_Matthew  
-			Roman_Roman 
-			Samuel_Samuel Stanislaw_Stanislav Szymon_Simon 
-			Tadeusz_Thaddeus Tytus_Titus  
-			Waclaw_Wenceslaus Wladyslaw_Vladislav Wojciech_Vojtech 
+			Adam_Adam Albin_Albinus Aleksander_Alexander Alojzy_Aloysius Andrzej_Andrew Antoni_Anthony Arkadiusz_Arcadius Artur_Arthur Augustyn_Augustine 
+			Bartlomiej_Bartholomew Blazej_Blasius Bogdan Boleslaw_Boleslav Bronislaw_Bronislav 
+			Czeslaw 
+			Daniel_Daniel Dariusz_Darius Dawid_David Dionizy_Denis 
+			Edgar_Edgar Edmund_Edmund Edward_Edward Emanuel_Emmanuel Emil_Aemilius Ernest_Ernest Eugeniusz_Eugene 
+			Feliks_Felix Ferdynand_Ferdinand Filip_Philip Franciszek_Francis  
+			Gabriel_Gabriel Grzegorz_Gregory Gustaw_Gustav 
+			Henryk_Henry Hieronim_Jerome Hipolit_Hippolyte 
+			Ignacy_Ignatius Ireneusz_Ireneus Izydor_Isidore 
+			Jacek_Hyacinth Jakub_James Jan_John "Jan Kanty" Janusz Jaroslaw_Jaroslav Jedrzej_Andrew Jeremi_Jeremiah Jerzy_George Józef_Joseph Julian_Julian Juliusz_Julius Justyn_Justin 
+			Kacper_Kaspar Kamil_Camillus Karol_Charles Kazimierz_Casimir Klemens_Clement Konrad_Conrad Konstanty_Constantine Kornel_Cornelius Krystian_Christian Krzysztof_Christopher Ksawery_Xavier 
+			Lech Leon_Leo Leszek Lucjan_Lucian Ludomil Ludwik_Louis Lukasz_Luke 
+			Maciej_Matthew Maksymilian_Maximilian Marceli_Marcel Marcin_Martin Marek Marian_Marianus Mateusz_Matthew Michal_Michael Mieczyslaw Mikolaj_Nicholas Milosz Miroslaw_Miroslav 
+			Olgierd_Algirdas Oskar_Oscar 
+			Pawel_Paul Patryk_Patrick Piotr_Peter Pius_Pius Przemyslaw_Premysl 
+			Rafal_Raphael Robert_Robert Roman_Roman Ryszard_Richard 
+			Samuel_Samuel Sebastian_Sebastian Slawomir Stanislaw_Stanislav Stefan_Stephen Szymon_Simon 
+			Tadeusz_Thaddeus Tomasz_Thomas Tytus_Titus  
+			Waclaw_Wenceslaus Walenty_Valentin Walery_Walerius Wieslaw Wiktor_Victor Wincenty_Vincent Wit_Guy Witold_Vytautas Wladyslaw_Vladislav Wlodzimierz_Vladimir Wojciech_Vojtech 
+			Zbigniew_Zbynek Zdzislaw Zefiryn_Zephyrinus Zenon_Zenon Zygmunt_Sigismund 
 		}
 		female_names = {
-			Agnieszka_Agnes Alicja_Alice 
-			Ewelina 
-			Helena_Helen 
-			Maria_Mary Maryna_Marina 
+			Agnieszka_Agnes Aleksandra_Alexandra Alicja_Alice Aniela Anna_Anne Antonina_Antonia Augustyna_Augustina 
+			Barbara_Barbara Basia Beata Boleslawa Bozena Bronislawa 
+			Czeslawa 
+			Danuta Dorota_Dorothy 
+			Elzbieta_Elizabeth Ewa_Eve Ewelina 
+			Feliksa Franciszka_Frances 
+			Grazyna_Grace 
+			Halina Hanna Helena_Helen 
+			Irena_Irene 
+			Jadwiga_Hedwig Jagna_Agnes Janina Joanna_Joan Jolanta_Yolanda Józefa_Josepha Józefina_Josepha Julia_Julia Justyna_Justina 
+			Kamila_Camilla Karolina_Caroline Katarzyna_Catherine Kinga Krystyna_Christina 
+			Lida Lidia Luiza_Louise 
+			Magdalena_Magdalene Malgorzata_Margaret Maria_Mary Martyna_Martina Maryna_Marina Marzena_Margaret Michalina_Michelle 
+			Natalia_Nathalie 
+			Olga_Olga 
+			Paulina_Pauline 
+			Renata_Renata Róza_Rose 
+			Stanislawa Stefania_Stephanie 
+			Teresa_Theresa 
+			Urszula_Ursula 
+			Wanda Weronika_Veronica Wiktoria_Victoria Wladyslawa 
+			Zofia_Sophia 
 		}
 		from_dynasty_prefix = "of "
 
