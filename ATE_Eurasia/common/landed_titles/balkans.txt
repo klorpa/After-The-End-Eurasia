@@ -38,19 +38,31 @@ e_balkans = {
 			color={ 26 143 199 }
 			color2={ 255 255 255 }
 			
-			capital = 135 # c_thessaly
+			capital = 135 # Trikala
 			
-			c_aetolia_acarnania = { # 131
-				color={ 37 93 172 }
+			c_larissa = {
+				color={ 12 85 175 }
 				color2={ 255 255 255 }
 				
-				b_missolonghi = {}
-				b_agrinio = {}
-				b_nafpaktos = {}
-				b_vonitsa = {}
-				b_amfilochia = {}
-				b_astakos = {}
-				b_thermo = {}
+				b_larissa = {}
+				b_volos = {}
+				b_elassona = {}
+				b_tyrnavos = {}
+				b_nikaia = {}
+				b_giannouli = {}
+				b_agia = {}
+			}
+			c_trikala = { # 135
+				color={ 102 98 209 }
+				color2={ 255 255 255 }
+				
+				b_trikala = {}
+				b_meteora = {}
+				b_karditsa = {}
+				b_sofades = {}
+				b_mouzaki = {}
+				b_farkadona = {}
+				b_pyli = {}
 			}
 			c_euboea = { # 84
 				color={ 41 199 197 }
@@ -69,24 +81,36 @@ e_balkans = {
 				color2={ 255 255 255 }
 				
 				b_lamia = {}
-				b_thebes = {}
-				b_delphi = {}
-				b_livadeia = {}
-				b_amfissa = {}
 				b_karpenisi = {}
-				b_schimatari = {}
+				b_makrakomi = {}
+				b_kamena_vourla = {}
+				b_kalamaki = {}
+				b_stilida = {}
+				b_thermopylae = {}
 			}
-			c_thessaly = { # 135
-				color={ 102 98 209 }
+			c_boeotia = {
+				color={ 121 53 201 }
 				color2={ 255 255 255 }
 				
-				b_larissa = {}
-				b_volos = {}
-				b_meteora = {}
-				b_trikala = {}
-				b_karditsa = {}
-				b_elassona = {}
-				b_tyrnavos = {}
+				b_livadeia = {}
+				b_thebes = {}
+				b_amfissa = {}
+				b_delphi = {}
+				b_galaxidi = {}
+				b_aliartos = {}
+				b_schimatari = {}
+			}
+			c_aetolia_acarnania = { # 131
+				color={ 37 93 172 }
+				color2={ 255 255 255 }
+				
+				b_missolonghi = {}
+				b_agrinio = {}
+				b_nafpaktos = {}
+				b_astakos = {}
+				b_thermo = {}
+				b_aitoliko = {}
+				b_fyteies = {}
 			}
 			c_ioannina = { # 134
 				color={ 13 54 183 }
@@ -99,10 +123,12 @@ e_balkans = {
 				b_eleousa = {}
 				b_filippiada = {}
 				b_peta = {}
+				b_vonitsa = {}
+				b_amfilochia = {}
 			}
 		}
 		d_ionian_isles = {
-			color={ 10 120 200 }
+			color={ 50 170 200 }
 			color2={ 255 255 255 }
 			
 			capital = 133 # c_corfu
@@ -272,13 +298,25 @@ e_balkans = {
 				color={ 84 96 224 }
 				color2={ 255 255 255 }
 				
-				b_tripoli = {}
 				b_corinth = {}
 				b_argos = {}
 				b_nafplio = {}
 				b_kiato = {}
 				b_loutraki = {}
 				b_zevgolateio = {}
+				b_epidavros = {}
+			}
+			c_arcadia = {
+				color={ 56 57 180 }
+				color2={ 255 255 255 }
+				
+				b_tripoli = {}
+				b_megalopolis = {}
+				b_vytina = {}
+				b_astros = {}
+				b_vlacherna = {}
+				b_leonidio = {}
+				b_levidi = {}
 			}
 			c_laconia = { # 126
 				color={ 4 110 137 }
@@ -307,11 +345,24 @@ e_balkans = {
 				
 				b_vardaris = {}
 				b_thessaloniki = {}
-				b_olympos = {}
-				b_katerini = {}
-				b_veria = {}
-				b_pella = {}
 				b_thermi = {}
+				b_kilkis = {}
+				b_stavros = {}
+				b_egnatia = {}
+				b_rentina = {}
+			}
+			c_imathia = {
+				color={ 50 185 175 }
+				color2={ 255 255 255 }
+				
+				b_veria = {}
+				b_katerini = {}
+				b_edessa = {}
+				b_pella = {}
+				b_giannitsa = {}
+				b_leptokarya = {}
+				b_olympos = {}
+				
 			}
 			c_evros = { # 142
 				color={ 24 239 226 }
@@ -522,6 +573,18 @@ e_balkans = {
 				b_zapod = {}
 				b_shishtavec = {}
 			}
+			c_korce = { # 1356
+				color={ 220 16 8 }
+				color2={ 255 255 255 }
+				
+				b_korce = {}
+				b_pogradec = {}
+				b_leskovik = {}
+				b_bilisht = {}
+				b_maliq = {}
+				b_erseke = {}
+				b_devoll = {}
+			}
 		}
 		d_vlore = {
 			color={ 255 9 9 }
@@ -540,18 +603,6 @@ e_balkans = {
 				b_kucove = {}
 				b_divjake = {}
 				b_ballsh = {}
-			}
-			c_korce = { # 1356
-				color={ 220 16 8 }
-				color2={ 255 255 255 }
-				
-				b_korce = {}
-				b_pogradec = {}
-				b_leskovik = {}
-				b_bilisht = {}
-				b_maliq = {}
-				b_erseke = {}
-				b_devoll = {}
 			}
 			c_vlore = { # 314
 				color={ 182 10 1 }
