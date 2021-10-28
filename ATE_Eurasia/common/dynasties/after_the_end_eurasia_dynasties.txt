@@ -12449,11 +12449,84 @@ coat_of_arms = {
 2027256 = { name="Mangiafico" culture=sicilian }
 2027257 = { name="Passanante" culture=sicilian }
 2027258 = { name="D'Utràntu" culture=sicilian used_for_random = no}
-2027259 = { name="di Giovanni" culture=sicilian used_for_random = no}
-2027260 = { name="Bordonaro" culture=sicilian used_for_random = no}
-2027261 = { name="Meis" culture=sicilian used_for_random = no}
-2027262 = { name="Liotru" culture=sicilian used_for_random = no}
-2027263 = { name="Scipio" culture=sicilian used_for_random = no}
+2027259 = { name="di Giovanni" culture=sicilian used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2027260 = { name="Bordonaro" culture=sicilian used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2027261 = { name="Meis" culture=sicilian used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2027262 = { name="Liotru" culture=sicilian used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2027263 = { name="Scipio" culture=sicilian used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2027264 = { name="del Ponte" culture=sicilian used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 2028001 = { name="Esposito" culture=neapolitan }
 2028002 = { name="Russo" culture=neapolitan }
@@ -12689,9 +12762,45 @@ coat_of_arms = {
 		}
 	}
 }
-2028223 = { name="di Gioia" culture=neapolitan used_for_random = no }
-2028224 = { name="Sanseverino" culture=neapolitan used_for_random = no }
-2028225 = { name="Burbone" culture=neapolitan used_for_random = no }
+2028223 = { name="di Gioia" culture=neapolitan used_for_random = no 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2028224 = { name="Sanseverino" culture=neapolitan used_for_random = no 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2028225 = { name="Burbone" culture=neapolitan used_for_random = no 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2028226 = { name="Marsicani" culture=neapolitan used_for_random = no 
 	coat_of_arms = { 
 		template = 0
@@ -12908,19 +13017,7 @@ coat_of_arms = {
 2029199 = { name="di Fossanova" culture=umbrian }
 2029200 = { name="di Grottaferrata" culture=umbrian }
 2029201 = { name="di Tivoli" culture=umbrian used_for_random = no}
-2029202 = { name="Chigi" culture=umbrian
-	coat_of_arms = { 
-		template = 0
-		layer = {
-			texture = 19
-			texture_internal = 12
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
-}
+2029202 = { name="Chigi" culture=umbrian}
 2029203 = { name="Bergamasco" culture=umbrian }
 2029204 = { name="Carlioni" culture=umbrian
 	coat_of_arms = { 
@@ -12928,6 +13025,19 @@ coat_of_arms = {
 		layer = {
 			texture = 19
 			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2029205 = { name="Segre" culture=umbrian
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 12
 			emblem = 0
 			color = 0
 			color = 0
@@ -13136,7 +13246,19 @@ coat_of_arms = {
 2030174 = { name="Antinori" culture=tuscan }
 2030175 = { name="Ardinghelli" culture=tuscan }
 2030176 = { name="Barberini" culture=tuscan }
-2030177 = { name="de Paschi" culture=tuscan used_for_random = no }
+2030177 = { name="de Paschi" culture=tuscan used_for_random = no 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2030178 = { name="Brancacci" culture=tuscan }
 2030179 = { name="Buonarroti" culture=tuscan }
 2030180 = { name="Buondelmonti" culture=tuscan }
@@ -14026,7 +14148,19 @@ coat_of_arms = {
 2034026 = { name="Milan" culture=venetian }
 2034027 = { name="Zanirato" culture=venetian }
 2034028 = { name="Vianello" culture=venetian }
-2034029 = { name="Freska-Solomon" culture=venetian used_for_random=no}
+2034029 = { name="Freska-Solomon" culture=venetian used_for_random=no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2034030 = { name="Costantini" culture=venetian }
 2034031 = { name="Ballarin" culture=venetian }
 2034032 = { name="Trevisan" culture=venetian }
@@ -14253,7 +14387,19 @@ coat_of_arms = {
 2034229 = { name="Scrapa" culture=venetian }
 2034230 = { name="Tesei" culture=venetian used_for_random=no}
 2034231 = { name="Florian" culture=venetian used_for_random=no}
-2034232 = { name="Marciani" culture=venetian used_for_random=no}
+2034232 = { name="Marciani" culture=venetian used_for_random=no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 2035000 = { name="Schirru" culture=sardinian }
 2035001 = { name="Ortu" culture=sardinian }
@@ -16852,6 +16998,7 @@ coat_of_arms = {
 2049114 = { name="Zaharia" culture=albanian}
 2049115 = { name="Zajmi" culture=albanian}
 2049116 = { name="Mami" culture=albanian used_for_random=no}
+2049117 = { name="Kastrioti" culture=albanian used_for_random=no}
 
 2050000 = { name="Acevski" culture=macedonian }
 2050001 = { name="Andonov" culture=macedonian }
@@ -17517,6 +17664,7 @@ coat_of_arms = {
 2054207 = { name="Sezgin" culture=azeri used_for_random = no}
 2054208 = { name="Diqqäti" culture=azeri used_for_random = no}
 2054209 = { name="Shahbazi" culture=azeri }
+2054210 = { name="Bärshadli" culture=azeri }
 
 2055000 = { name="Özdemir" culture=west_anatolian }
 2055001 = { name="Sahenk" culture=west_anatolian }
@@ -19110,6 +19258,10 @@ coat_of_arms = {
 2065018 = { name="Tozlo" culture=turcoman }
 2065019 = { name="Köprölü" culture=turcoman }
 2065019 = { name="Kirdar" culture=turcoman }
+2065019 = { name="Abdullah" culture=turcoman }
+2065020 = { name="Askari" culture=turcoman }
+2065021 = { name="Hashimi" culture=turcoman }
+2065022 = { name="Bayati" culture=turcoman }
 
 2066000 = { name="Hasan" culture=kurdish }
 2066001 = { name="Bedlîsî" culture=kurdish }
@@ -19183,7 +19335,7 @@ coat_of_arms = {
 2066030 = { name="Laçîn" culture=kurdish }
 2066031 = { name="Kahraman" culture=kurdish }
 2066032 = { name="Bonni" culture=kurdish }
-2066033 = { name="Ala' ad-Din" culture=kurdish }
+2066033 = { name="Eladîn" culture=kurdish }
 2066034 = { name="Salim" culture=kurdish }
 2066035 = { name="Akrawi" culture=kurdish }
 2066036 = { name="Shoresh" culture=kurdish }
@@ -19199,6 +19351,9 @@ coat_of_arms = {
 2066046 = { name="Bedirxan" culture=kurdish }
 2066047 = { name="Islambuli" culture=kurdish }
 2066048 = { name="Xelef" culture=kurdish }
+2066049 = { name="Nûrsî" culture=kurdish }
+2066050 = { name="Kurdî" culture=kurdish }
+2066051 = { name="Secadî" culture=kurdish }
 
 2067000 = { name="Beel" culture=limburgish }
 2067001 = { name="Cals" culture=limburgish }
@@ -19322,9 +19477,9 @@ coat_of_arms = {
 2069006 = { name="Fayzullo" culture=tajik }
 2069007 = { name="Rahmat" culture=tajik }
 2069008 = { name="Toshmat" culture=tajik }
-2069009 = { name="Madzhid" culture=tajik }
+2069009 = { name="Majid" culture=tajik }
 2069010 = { name="Sadullo" culture=tajik }
-2069011 = { name="Dzahlo" culture=tajik }
+2069011 = { name="Zahlo" culture=tajik }
 2069012 = { name="Saydal" culture=tajik }
 2069013 = { name="Fayziy" culture=tajik }
 2069014 = { name="Izmoil" culture=tajik }
@@ -19352,7 +19507,20 @@ coat_of_arms = {
 2069036 = { name="Amonafar" culture=tajik }
 2069037 = { name="Ergapurdkhut" culture=tajik }
 2069038 = { name="Aziziyon" culture=tajik }
-2069039 = { name="Iskandarzoda" culture=tajik }
+2069039 = { name="Iskandarzoda" culture=tajik 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2069040 = { name="Suvonfar" culture=tajik }
 2069041 = { name="Rahimfar" culture=tajik }
 2069042 = { name="Maslyupurdkuth" culture=tajik }
@@ -19391,7 +19559,20 @@ coat_of_arms = {
 2069075 = { name="Panjsheri" culture=tajik used_for_random=no  }
 2069076 = { name="Khonzoda" culture=tajik used_for_random=no  }
 2069077 = { name="Kabir" culture=tajik used_for_random=no  }
-2069078 = { name="Siistoni" culture=tajik used_for_random=no  }
+2069078 = { name="Siistoni" culture=tajik used_for_random=no  
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2069079 = { name="Registoni" culture=tajik }
 2069080 = { name="Ahmadi" culture=tajik }
 2069081 = { name="Dashti" culture=tajik }
@@ -19415,7 +19596,20 @@ coat_of_arms = {
 2069099 = { name="A'zam" culture=tajik }
 2069100 = { name="Amoni" culture=tajik }
 2069101 = { name="Yaghmoi" culture=tajik }
-2069102 = { name="Sinozoda" culture=tajik }
+2069102 = { name="Sinozoda" culture=tajik 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2069103 = { name="Mullokandov" culture=tajik used_for_random=no }
 
 2070000 = { name="Amini" culture=persian }
@@ -19546,7 +19740,7 @@ coat_of_arms = {
 2070125 = { name="Abedi" culture=persian }
 2070126 = { name="Jamali" culture=persian }
 2070127 = { name="Alipour" culture=persian }
-2070128 = { name="Hassanpur" culture=persian }
+2070128 = { name="Hassanpour" culture=persian }
 2070129 = { name="Hosseinpour" culture=persian }
 2070130 = { name="Bakhtiari" culture=persian }
 2070131 = { name="Hassani" culture=persian }
@@ -20642,8 +20836,34 @@ coat_of_arms = {
 2085098 = { name="Momand" culture=pashtun }
 2085099 = { name="Naseri" culture=pashtun }
 2085100 = { name="Stanikzai" culture=pashtun }
-2085101 = { name="Baryalai" culture=pashtun }
-2085102 = { name="Durrani" culture=pashtun }
+2085101 = { name="Baryalai" culture=pashtun 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2085102 = { name="Durrani" culture=pashtun 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2085103 = { name="Babar" culture=pashtun }
 
 2086000 = { name="Jamali" culture=baloch }
@@ -20656,7 +20876,20 @@ coat_of_arms = {
 2086008 = { name="Alyani" culture=baloch }
 2086009 = { name="Zehri" culture=baloch }
 2086010 = { name="Raisani" culture=baloch }
-2086011 = { name="Marri" culture=baloch }
+2086011 = { name="Marri" culture=baloch 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2086012 = { name="Abro" culture=baloch }
 2086013 = { name="Dawar" culture=baloch }
 2086014 = { name="Badini" culture=baloch }
@@ -20859,7 +21092,20 @@ coat_of_arms = {
 2089018 = { name="Baymaut" culture=hazara}
 2089019 = { name="Behsud" culture=hazara}
 2089020 = { name="Bolaghichi" culture=hazara}
-2089021 = { name="Borjigai" culture=hazara}
+2089021 = { name="Borjigai" culture=hazara
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2089022 = { name="Chiljiut" culture=hazara}
 2089023 = { name="Dahla" culture=hazara}
 2089024 = { name="Daichopan" culture=hazara}
@@ -21532,9 +21778,9 @@ coat_of_arms = {
 2096006 = { name="Fayzullo" culture=pamiri }
 2096007 = { name="Rahmat" culture=pamiri }
 2096008 = { name="Toshmat" culture=pamiri }
-2096009 = { name="Madzhid" culture=pamiri }
+2096009 = { name="Majid" culture=pamiri }
 2096010 = { name="Sadullo" culture=pamiri }
-2096011 = { name="Dzahlo" culture=pamiri }
+2096011 = { name="Zahlo" culture=pamiri }
 2096012 = { name="Saydal" culture=pamiri }
 2096013 = { name="Fayziy" culture=pamiri }
 2096014 = { name="Izmail" culture=pamiri }
@@ -22448,6 +22694,232 @@ coat_of_arms = {
 2108011 = { name="Ali" culture=bahrayni }
 2108012 = { name="Ali" culture=bahrayni }
 2108013 = { name="Ali" culture=bahrayni }
+2128014 = { name="Al-Harthi" culture=bahrayni }
+2128015 = { name="Al-Hashemi" culture=bahrayni }
+2128016 = { name="Al-Blushi" culture=bahrayni }
+2128017 = { name="Hassan" culture=bahrayni }
+2128018 = { name="Al-Noubi" culture=bahrayni }
+2128019 = { name="Muhammad" culture=bahrayni }
+2128020 = { name="Sa'ad" culture=bahrayni }
+2128021 = { name="Al-Mesmari" culture=bahrayni }
+2128022 = { name="Al-Hawasin" culture=bahrayni }
+2128023 = { name="Al-Hefeiti" culture=bahrayni }
+2128024 = { name="Al-Dhanhani" culture=bahrayni }
+2128025 = { name="Al-Nuaimi" culture=bahrayni }
+2128026 = { name="Hizam" culture=bahrayni }
+2128027 = { name="Al-Hosani" culture=bahrayni }
+2128028 = { name="Ahmed" culture=bahrayni }
+2128029 = { name="Al-Ehremi" culture=bahrayni }
+2128030 = { name="Yusuf" culture=bahrayni }
+2128031 = { name="Al-Mazem" culture=bahrayni }
+2128032 = { name="Mir Abdurrahman" culture=bahrayni }
+2128033 = { name="Al-Hammadi" culture=bahrayni }
+2128034 = { name="Al-Jasmi" culture=bahrayni }
+2128035 = { name="Idris" culture=bahrayni }
+2128036 = { name="Al-Khaldi" culture=bahrayni }
+2128037 = { name="Ismail" culture=bahrayni }
+2128038 = { name="Mubarak" culture=bahrayni }
+2128039 = { name="Al-Jabri" culture=bahrayni }
+2128040 = { name="Jalal" culture=bahrayni }
+2128041 = { name="Al-Marzuqi" culture=bahrayni }
+2128042 = { name="Darwish" culture=bahrayni }
+2128043 = { name="Al-Felasi" culture=bahrayni }
+2128044 = { name="Jamal" culture=bahrayni }
+2128045 = { name="Al-Jamhi" culture=bahrayni }
+2128046 = { name="Ghulum" culture=bahrayni }
+2128047 = { name="Khamis" culture=bahrayni }
+2128048 = { name="Al-Maini" culture=bahrayni }
+2128049 = { name="Khairi" culture=bahrayni }
+2128050 = { name="Al-Saadi" culture=bahrayni }
+2128051 = { name="Al-Shuweihi" culture=bahrayni }
+2128052 = { name="Al-Junaibi" culture=bahrayni }
+2128053 = { name="Juma'a" culture=bahrayni }
+2128054 = { name="Al-Ehawi" culture=bahrayni }
+2128055 = { name="Rabi" culture=bahrayni }
+2128056 = { name="Al-Mukhaini" culture=bahrayni }
+2128057 = { name="Al-Kaabi" culture=bahrayni }
+2128058 = { name="Rahma" culture=bahrayni }
+2128059 = { name="Al-Kamali" culture=bahrayni }
+2128060 = { name="Kamil" culture=bahrayni }
+2128061 = { name="Al-Karbi" culture=bahrayni }
+2128062 = { name="Al-Kas" culture=bahrayni }
+2128063 = { name="Al-Kathiri" culture=bahrayni }
+2128064 = { name="Kazim" culture=bahrayni }
+2128065 = { name="Al-Khajah" culture=bahrayni }
+2128066 = { name="Al-Ali" culture=bahrayni }
+2128067 = { name="Al-Harasi" culture=bahrayni }
+2128068 = { name="Al-Meqbali" culture=bahrayni }
+2128069 = { name="Saif" culture=bahrayni }
+2128070 = { name="Al-Hassani" culture=bahrayni }
+2128071 = { name="Abdullah" culture=bahrayni }
+2128072 = { name="Bakhit" culture=bahrayni }
+2128073 = { name="Mesari" culture=bahrayni }
+2128074 = { name="Khalili" culture=bahrayni }
+2128075 = { name="Al-Meghaizwi" culture=bahrayni }
+2128076 = { name="Salim" culture=bahrayni }
+2128077 = { name="Alim" culture=bahrayni }
+2128078 = { name="Saqir" culture=bahrayni }
+2128079 = { name="Husani" culture=bahrayni }
+2128080 = { name="Al-Khodaim" culture=bahrayni }
+2128081 = { name="Al-Antali" culture=bahrayni }
+2128082 = { name="Al-Khori" culture=bahrayni }
+2128083 = { name="Lahej" culture=bahrayni }
+2128084 = { name="Laskhari" culture=bahrayni }
+2128085 = { name="Al-Hajiri" culture=bahrayni }
+2128086 = { name="Al-Maghni" culture=bahrayni }
+2128087 = { name="Mahdi" culture=bahrayni }
+2128088 = { name="Al-Mahri" culture=bahrayni }
+2128089 = { name="Malallah" culture=bahrayni }
+2128090 = { name="Al-Kendi" culture=bahrayni }
+2128091 = { name="Al-Mansuri" culture=bahrayni }
+2128092 = { name="Al-Mantheri" culture=bahrayni }
+2128093 = { name="Al-Marashda" culture=bahrayni }
+2128094 = { name="Al-Matrushi" culture=bahrayni }
+2128095 = { name="Al-Abri" culture=bahrayni }
+2128096 = { name="Al-Balushi" culture=bahrayni }
+2128097 = { name="Al-Menhali" culture=bahrayni }
+2128098 = { name="Al-Samahi" culture=bahrayni }
+2128099 = { name="Al-Muaini" culture=bahrayni }
+2128100 = { name="Ibrahim" culture=bahrayni }
+2128101 = { name="Khador" culture=bahrayni }
+2128102 = { name="Al-Shaibani" culture=bahrayni }
+2128103 = { name="Al-Ansari" culture=bahrayni }
+2128104 = { name="Musa" culture=bahrayni }
+2128105 = { name="Al-Dabdob" culture=bahrayni }
+2128106 = { name="Al-Muhairi" culture=bahrayni }
+2128107 = { name="Tahir" culture=bahrayni }
+2128108 = { name="Al-Bishr" culture=bahrayni }
+2128109 = { name="Al-Badwawi" culture=bahrayni }
+2128110 = { name="Al-Muharrami" culture=bahrayni }
+2128111 = { name="Murad" culture=bahrayni }
+2128112 = { name="Al-Kaebi" culture=bahrayni }
+2128113 = { name="Al-Dhahri" culture=bahrayni }
+2128114 = { name="Al-Shamsi" culture=bahrayni }
+2128115 = { name="Ghanim" culture=bahrayni }
+2128116 = { name="Al-Darmaki" culture=bahrayni }
+2128117 = { name="Al-Mulla" culture=bahrayni }
+2128118 = { name="Firuz" culture=bahrayni }
+2128119 = { name="Sharif" culture=bahrayni }
+2128120 = { name="Al-Najar" culture=bahrayni }
+2128121 = { name="Al-Naqbi" culture=bahrayni }
+2128122 = { name="Nasib" culture=bahrayni }
+2128123 = { name="Al-Qadumi" culture=bahrayni }
+2128124 = { name="Al-Mazmi" culture=bahrayni }
+2128128 = { name="Masud" culture=bahrayni }
+2128126 = { name="Al-Nasseri" culture=bahrayni }
+2128127 = { name="Al-Amiri" culture=bahrayni }
+2128128 = { name="Al-Shehi" culture=bahrayni }
+2128129 = { name="Al-Nawfali" culture=bahrayni }
+2128130 = { name="Al-Zaabi" culture=bahrayni }
+2128131 = { name="Al-Dahmani" culture=bahrayni }
+2128132 = { name="Bazuhair" culture=bahrayni }
+2128133 = { name="Al-Shaddadi" culture=bahrayni }
+2128134 = { name="Isa" culture=bahrayni }
+2128135 = { name="Al-Otaiba" culture=bahrayni }
+2128136 = { name="Al-Qadhi" culture=bahrayni }
+2128137 = { name="Al-Qaidi" culture=bahrayni }
+2128138 = { name="Al-Qamish" culture=bahrayni }
+2128139 = { name="Qanber" culture=bahrayni }
+2128140 = { name="Akhtar" culture=bahrayni }
+2128141 = { name="Al-Ghilani" culture=bahrayni }
+2128142 = { name="Al-Tonaiji" culture=bahrayni }
+2128143 = { name="Ragab" culture=bahrayni }
+2128144 = { name="Raihan" culture=bahrayni }
+2128145 = { name="Rakan" culture=bahrayni }
+2128146 = { name="Sulaiman" culture=bahrayni }
+2128147 = { name="Al-Mehrzi" culture=bahrayni }
+2128148 = { name="Al-Khabail" culture=bahrayni }
+2128149 = { name="Al-Holi" culture=bahrayni }
+2128150 = { name="Al-Badi" culture=bahrayni }
+2128151 = { name="Al-Rashid" culture=bahrayni }
+2128152 = { name="Al-Shahyari" culture=bahrayni }
+2128153 = { name="Al-Rawahi" culture=bahrayni }
+2128154 = { name="Al-Riyami" culture=bahrayni }
+2128155 = { name="Al-Ruwaihi" culture=bahrayni }
+2128156 = { name="Al-Abadla" culture=bahrayni }
+2128157 = { name="Sarfash" culture=bahrayni }
+2128158 = { name="Al-Yaqubi" culture=bahrayni }
+2128159 = { name="Al-Abduli" culture=bahrayni }
+2128160 = { name="Al-Ismaili" culture=bahrayni }
+2128161 = { name="Al-Durs" culture=bahrayni }
+2128162 = { name="Al-Zari" culture=bahrayni }
+2128163 = { name="Al-Khabil" culture=bahrayni }
+2128164 = { name="Salih" culture=bahrayni }
+2128165 = { name="Salbukh" culture=bahrayni }
+2128166 = { name="Al-Rejaibi" culture=bahrayni }
+2128167 = { name="Al-Farisi" culture=bahrayni }
+2128168 = { name="Meftah" culture=bahrayni }
+2128169 = { name="Al-Inazi" culture=bahrayni }
+2128170 = { name="Al-Amim" culture=bahrayni }
+2128171 = { name="Sanqur" culture=bahrayni }
+2128172 = { name="Sarwashi" culture=bahrayni }
+2128173 = { name="Al-Senani" culture=bahrayni }
+2128174 = { name="Al-Shabibi" culture=bahrayni }
+2128175 = { name="Al-Shaji" culture=bahrayni }
+2128176 = { name="Shamarikh" culture=bahrayni }
+2128177 = { name="Shawkan" culture=bahrayni }
+2128178 = { name="Al-Suwaidi" culture=bahrayni }
+2128179 = { name="Al-Musharrikh" culture=bahrayni }
+2128180 = { name="Al-Sharji" culture=bahrayni }
+2128181 = { name="Al-Sumaiti" culture=bahrayni }
+2128182 = { name="Al-Dermaqi" culture=bahrayni }
+2128183 = { name="Al-Yassi" culture=bahrayni }
+2128184 = { name="Baniyas" culture=bahrayni }
+2128185 = { name="Suwaidan" culture=bahrayni }
+2128186 = { name="Abbas" culture=bahrayni }
+2128187 = { name="Al-Talyani" culture=bahrayni }
+2128188 = { name="Al-Tamimi" culture=bahrayni }
+2128189 = { name="Al-Tawila" culture=bahrayni }
+2128190 = { name="Al-Wahdani" culture=bahrayni }
+2128191 = { name="Al-Flasi" culture=bahrayni }
+2128192 = { name="Al-Yamahi" culture=bahrayni }
+2128193 = { name="Al-Juraishi" culture=bahrayni }
+2128194 = { name="Al-Jaberi" culture=bahrayni }
+2128195 = { name="Al-Zahiri" culture=bahrayni }
+2128196 = { name="Al-Zeyudi" culture=bahrayni }
+2128197 = { name="Al-Sarrah" culture=bahrayni }
+2128198 = { name="Al-Mutawaa" culture=bahrayni }
+2128199 = { name="Al-Raisi" culture=bahrayni }
+2128200 = { name="Al-Jafri" culture=bahrayni }
+2128201 = { name="Al-Amudi" culture=bahrayni }
+2128202 = { name="Al-Raaki" culture=bahrayni }
+2128203 = { name="Al-Ahbabi" culture=bahrayni }
+2128204 = { name="Ahli" culture=bahrayni }
+2128205 = { name="Gharib" culture=bahrayni }
+2128206 = { name="Al-Awlaqi" culture=bahrayni }
+2128207 = { name="Al-Ajmani" culture=bahrayni }
+2128208 = { name="Al-Akbari" culture=bahrayni }
+2128209 = { name="Almas" culture=bahrayni } 
+2128210 = { name="Al-Muhaizi" culture=bahrayni }
+2128211 = { name="Al-Attas" culture=bahrayni }
+2128212 = { name="Al-Messabi" culture=bahrayni }
+2128213 = { name="Al-Shammiri" culture=bahrayni }
+2128214 = { name="Al-Azizi" culture=bahrayni }
+2128215 = { name="Al-Bairaq" culture=bahrayni }
+2128216 = { name="Bilal" culture=bahrayni }
+2128217 = { name="Bashir" culture=bahrayni } 
+2128218 = { name="Basulaiman" culture=bahrayni }
+2128219 = { name="Bisho" culture=bahrayni }
+2128220 = { name="Bu Sanda" culture=bahrayni }
+2128221 = { name="Al-Yahyai" culture=bahrayni }
+2128222 = { name="Al-Falasi" culture=bahrayni }
+2128223 = { name="Zayd" culture=bahrayni }
+2128224 = { name="Fadaaq" culture=bahrayni } 
+2128225 = { name="Fakhr" culture=bahrayni }
+2128226 = { name="Fawzi" culture=bahrayni }
+2128227 = { name="Al-Alawi" culture=bahrayni }
+2128228 = { name="Al-Hamdani" culture=bahrayni }
+2128229 = { name="Al-Qubaisi" culture=bahrayni }
+2128230 = { name="Al-Ghafri" culture=bahrayni }
+2128231 = { name="Ghamran" culture=bahrayni }
+2128232 = { name="Al-Ghassani" culture=bahrayni }
+2128233 = { name="Al-Haddad" culture=bahrayni }
+2128234 = { name="Al-Hajri" culture=bahrayni }
+2128235 = { name="Al-Haidhani" culture=bahrayni} 
+2128236 = { name="Al-Hamur" culture="bahrayni" }
+2128237 = { name="Al-Harbi" culture="bahrayni" }
+2128238 = { name="Al-Senaani" culture="bahrayni" }
+2128239 = { name="Arkaji" culture="bahrayni" }
 
 2109000 = { name="Ali" culture=hijazi }
 2109001 = { name="Ali" culture=hijazi }
@@ -22602,7 +23074,7 @@ coat_of_arms = {
 2112052 = { name="Yo'ldoshev" culture=uzbek }
 2112053 = { name="Xonzoda" culture=uzbek }
 2112054 = { name="Vohidov" culture=uzbek }
-2112055 = { name="Do'stum" culture=uzbek }
+2112055 = { name="Pahlavon" culture=uzbek }
 2112056 = { name="Abduvaliyev" culture=uzbek }
 2112057 = { name="Chagayev" culture=uzbek }
 2112058 = { name="Ermatov" culture=uzbek }
@@ -22617,7 +23089,7 @@ coat_of_arms = {
 2112067 = { name="Hoshimov" culture=uzbek }
 2112068 = { name="Yaxshiboyev" culture=uzbek }
 2112069 = { name="Xudayberganov" culture=uzbek }
-2112070 = { name="Xo'jayev" culture=uzbek }
+2112070 = { name="Xo'ja" culture=uzbek }
 2112071 = { name="Xonazarov" culture=uzbek }
 2112072 = { name="Xolmuhamedov" culture=uzbek }
 2112073 = { name="Vosiqov" culture=uzbek }
@@ -22650,21 +23122,21 @@ coat_of_arms = {
 2112100 = { name="Nabiyev" culture=uzbek }
 2112101 = { name="Madrahimov" culture=uzbek }
 2112102 = { name="Mutalov" culture=uzbek }
-2112103 = { name="Muhammadkarimov" culture=uzbek }
-2112104 = { name="Mo'minov" culture=uzbek }
-2112105 = { name="Mirzohidov" culture=uzbek }
-2112106 = { name="Mirqosimov" culture=uzbek }
-2112107 = { name="Mirkarimov" culture=uzbek }
-2112108 = { name="Allamjonov" culture=uzbek }
-2112109 = { name="Jamilov" culture=uzbek }
-2112110 = { name="Ikromov" culture=uzbek }
-2112111 = { name="Ibrohimov" culture=uzbek }
-2112112 = { name="Ubaydullayev" culture=uzbek }
-2112113 = { name="Fozilbekov" culture=uzbek }
-2112114 = { name="G'oibnazarov" culture=uzbek }
-2112115 = { name="Fayzullayev" culture=uzbek }
-2112116 = { name="Ergashev" culture=uzbek }
-2112117 = { name="Berdiyev" culture=uzbek }
+2112103 = { name="Muhammadkarim" culture=uzbek }
+2112104 = { name="Mo'min" culture=uzbek }
+2112105 = { name="Mirzohid" culture=uzbek }
+2112106 = { name="Mirqosim" culture=uzbek }
+2112107 = { name="Mirkarim" culture=uzbek }
+2112108 = { name="Allamjon" culture=uzbek }
+2112109 = { name="Jamil" culture=uzbek }
+2112110 = { name="Ikrom" culture=uzbek }
+2112111 = { name="Ibrohim" culture=uzbek }
+2112112 = { name="Ubaydulla" culture=uzbek }
+2112113 = { name="Fozilbek" culture=uzbek }
+2112114 = { name="G'oibnazar" culture=uzbek }
+2112115 = { name="Fayzullo" culture=uzbek }
+2112116 = { name="Ergash" culture=uzbek }
+2112117 = { name="Berdiy" culture=uzbek }
 2112118 = { name="A'zamxo'ja" culture=uzbek }
 2112119 = { name="Aziz" culture=uzbek }
 2112120 = { name="Azim" culture=uzbek }
@@ -22680,8 +23152,34 @@ coat_of_arms = {
 2112130 = { name="Abdunabi" culture=uzbek }
 2112131 = { name="Abdullay" culture=uzbek }
 2112132 = { name="Abduaziz" culture=uzbek }
-2112133 = { name="Farg'oniy" culture=uzbek }
-2112134 = { name="Shayboniy" culture=uzbek }
+2112133 = { name="Farg'oniy" culture=uzbek 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2112134 = { name="Shayboniy" culture=uzbek 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 2113000 = { name="Marak" culture=garo }
 2113001 = { name="Mankin" culture=garo }
@@ -27850,11 +28348,205 @@ coat_of_arms = {
 3050083 = { name="Visvanathan" culture=ilankai }
 
 3060000 = { name="Tolahara" culture=tulu used_for_random=no }
-
 3080000 = { name="Ranjith" culture=sinhala }
 3080001 = { name="Navagattegama" culture=sinhala }
-3080002 = { name="De Silva" culture=sinhala }
+3080002 = { name="de Silva" culture=sinhala }
 3080003 = { name="Kannangara" culture=sinhala }
+3080004 = { name="Samaranayake" culture=sinhala }
+3080005 = { name="Perera" culture=sinhala }
+3080006 = { name="Fernando" culture=sinhala }
+3080007 = { name="Bandara" culture=sinhala }
+3080008 = { name="Kumara" culture=sinhala }
+3080009 = { name="Dissanayake" culture=sinhala }
+3080010 = { name="Gamage" culture=sinhala }
+3080011 = { name="Liyanaga" culture=sinhala }
+3080012 = { name="Jayasinghe" culture=sinhala }
+3080013 = { name="Ranasinghe" culture=sinhala }
+3080014 = { name="Herath" culture=sinhala }
+3080015 = { name="Weerasinghe" culture=sinhala }
+3080016 = { name="Peiris" culture=sinhala }
+3080017 = { name="Rathanayake" culture=sinhala }
+3080018 = { name="Wickramasinghe" culture=sinhala }
+3080019 = { name="Wijesinghe" culture=sinhala }
+3080020 = { name="Hettiarachchi" culture=sinhala }
+3080021 = { name="Mendis" culture=sinhala }
+3080022 = { name="Pathirana" culture=sinhala }
+3080023 = { name="Ekanayake" culture=sinhala }
+3080024 = { name="Gunasekara" culture=sinhala }
+3080025 = { name="Dias" culture=sinhala }
+3080026 = { name="Sampath" culture=sinhala }
+3080027 = { name="Amarasinghe" culture=sinhala }
+3080028 = { name="Ratnayake" culture=sinhala }
+3080029 = { name="Senanayake" culture=sinhala }
+3080030 = { name="Samarasinghe" culture=sinhala }
+3080031 = { name="Lakmal" culture=sinhala }
+3080032 = { name="Munasinghe" culture=sinhala }
+3080033 = { name="Rodrigo" culture=sinhala }
+3080034 = { name="Seneviratne" culture=sinhala }
+3080035 = { name="Edirisinghe" culture=sinhala }
+3080036 = { name="Fonseka" culture=sinhala }
+3080037 = { name="Sanjeewa" culture=sinhala }
+3080038 = { name="Gunawardena" culture=sinhala }
+3080039 = { name="Karunaratne" culture=sinhala }
+3080040 = { name="Jayasekara" culture=sinhala }
+3080041 = { name="Jayawardena" culture=sinhala }
+3080042 = { name="Jayasuriya" culture=sinhala }
+3080043 = { name="Madusanka" culture=sinhala }
+3080044 = { name="Alwis" culture=sinhala }
+3080045 = { name="Rajapaksa" culture=sinhala }
+3080046 = { name="Jayakody" culture=sinhala }
+3080047 = { name="Kariyawasam" culture=sinhala }
+3080048 = { name="Kumari" culture=sinhala }
+3080049 = { name="Abeysinghe" culture=sinhala }
+3080050 = { name="Rupasinghe" culture=sinhala }
+3080051 = { name="Walpola" culture=sinhala }
+3080052 = { name="Cabral" culture=sinhala }
+3080053 = { name="de Costa" culture=sinhala }
+3080054 = { name="Gomes" culture=sinhala }
+3080055 = { name="Nonis" culture=sinhala }
+3080056 = { name="Pigera" culture=sinhala }
+3080057 = { name="Suwaris" culture=sinhala }
+3080058 = { name="Thabrew" culture=sinhala }
+3080059 = { name="Tissera" culture=sinhala }
+3080060 = { name="Jayawickrama" culture=sinhala }
+3080061 = { name="Chelliah" culture=sinhala }
+3080062 = { name="Senerath" culture=sinhala }
+3080063 = { name="Samarakone" culture=sinhala }
+3080064 = { name="Dharmadasa" culture=sinhala }
+3080065 = { name="Samaraweera" culture=sinhala }
+3080066 = { name="Gunathilaka" culture=sinhala }
+3080067 = { name="Jayatilleka" culture=sinhala }
+3080068 = { name="Dewasiri" culture=sinhala }
+3080069 = { name="Abeyaratne" culture=sinhala }
+3080070 = { name="Gunaratna" culture=sinhala }
+3080071 = { name="Siriwardena" culture=sinhala }
+3080072 = { name="Waidyaratne" culture=sinhala }
+3080073 = { name="Senaviratna" culture=sinhala }
+3080074 = { name="Wickramasuriya" culture=sinhala }
+3080075 = { name="Peris" culture=sinhala }
+3080076 = { name="Soysa" culture=sinhala }
+3080077 = { name="Dassanayake" culture=sinhala }
+3080078 = { name="Wijewardena" culture=sinhala }
+3080079 = { name="Alahapperuma" culture=sinhala }
+3080080 = { name="Atukorale" culture=sinhala }
+3080081 = { name="Moonesinghe" culture=sinhala }
+3080082 = { name="Priyasad" culture=sinhala }
+3080083 = { name="Kumaratunga" culture=sinhala }
+3080084 = { name="Jayasundara" culture=sinhala }
+3080085 = { name="Vithanage" culture=sinhala }
+3080086 = { name="Mideniya" culture=sinhala }
+3080087 = { name="Ellawela" culture=sinhala }
+3080088 = { name="Molamure" culture=sinhala }
+3080089 = { name="Wanniarachchi" culture=sinhala }
+3080090 = { name="Karunasena" culture=sinhala }
+3080091 = { name="Serasinghe" culture=sinhala }
+3080092 = { name="Meedeniya" culture=sinhala }
+3080093 = { name="Vitharana" culture=sinhala }
+3080094 = { name="Wickramatunge" culture=sinhala }
+3080095 = { name="Jayaratna" culture=sinhala }
+3080096 = { name="Aluwihare" culture=sinhala }
+3080097 = { name="Abeywardena" culture=sinhala }
+3080098 = { name="de Seram" culture=sinhala }
+3080099 = { name="Kumarihami" culture=sinhala }
+3080100 = { name="Lenaduwa" culture=sinhala }
+3080101 = { name="Dunuwila" culture=sinhala }
+3080102 = { name="Wanigaratna" culture=sinhala }
+3080103 = { name="Bandaranayake" culture=sinhala }
+3080104 = { name="Amarasuriya" culture=sinhala }
+3080105 = { name="Pethiyagoda" culture=sinhala }
+3080106 = { name="Dullewe" culture=sinhala }
+3080107 = { name="Mediwake" culture=sinhala }
+3080108 = { name="Wegodapola" culture=sinhala }
+3080109 = { name="Nanayakkara" culture=sinhala }
+3080110 = { name="Kumarasiri" culture=sinhala }
+3080111 = { name="Vethakan" culture=sinhala }
+3080112 = { name="Abeysekara" culture=sinhala }
+3080113 = { name="Abeyratne" culture=sinhala }
+3080114 = { name="Abeynayake" culture=sinhala }
+3080115 = { name="Abeygunawardena" culture=sinhala }
+3080116 = { name="Abeywickrama" culture=sinhala }
+3080117 = { name="Abayakoon" culture=sinhala }
+3080118 = { name="Amarasiri" culture=sinhala }
+3080119 = { name="Aloka" culture=sinhala }
+3080120 = { name="Adhikari" culture=sinhala }
+3080121 = { name="Attygala" culture=sinhala }
+3080122 = { name="Appuhami" culture=sinhala }
+3080123 = { name="Aponsu" culture=sinhala }
+3080124 = { name="Bolonghe" culture=sinhala }
+3080125 = { name="Balasuriya" culture=sinhala }
+3080126 = { name="Cooray" culture=sinhala }
+3080127 = { name="Chathuranga" culture=sinhala }
+3080128 = { name="Weththasinghe" culture=sinhala }
+3080129 = { name="Chandrasiri" culture=sinhala }
+3080130 = { name="Muthukumarana" culture=sinhala }
+3080131 = { name="Jayamali" culture=sinhala }
+3080132 = { name="Chandrasena" culture=sinhala }
+3080133 = { name="Hettiarachchige" culture=sinhala }
+3080134 = { name="Chamara" culture=sinhala }
+3080135 = { name="Dunusinghe" culture=sinhala }
+3080136 = { name="Kapugedera" culture=sinhala }
+3080137 = { name="Lasantha" culture=sinhala }
+3080138 = { name="Dharmawardena" culture=sinhala }
+3080139 = { name="Corea" culture=sinhala }
+3080140 = { name="Dahanayake" culture=sinhala }
+3080141 = { name="Deraniyagala" culture=sinhala }
+3080142 = { name="de Abrew" culture=sinhala }
+3080143 = { name="Devapriya" culture=sinhala }
+3080144 = { name="Dharmasena" culture=sinhala }
+3080145 = { name="Dodangoda" culture=sinhala }
+3080146 = { name="Hathurusinghe" culture=sinhala }
+3080147 = { name="Indika" culture=sinhala }
+3080148 = { name="Indunil" culture=sinhala }
+3080149 = { name="Jayakumar" culture=sinhala }
+3080150 = { name="Jayatissa" culture=sinhala }
+3080151 = { name="Jayaweera" culture=sinhala }
+3080152 = { name="Kalhara" culture=sinhala }
+3080153 = { name="Kanchana" culture=sinhala }
+3080154 = { name="Kasun" culture=sinhala }
+3080155 = { name="de Thissera" culture=sinhala }
+3080156 = { name="Kavinda" culture=sinhala }
+3080157 = { name="Kodikara" culture=sinhala }
+3080158 = { name="Kulasekara" culture=sinhala }
+3080159 = { name="Madugalle" culture=sinhala }
+3080160 = { name="Madushanka" culture=sinhala }
+3080161 = { name="Manjula" culture=sinhala }
+3080162 = { name="Nandasena" culture=sinhala }
+3080163 = { name="Nandasiri" culture=sinhala }
+3080164 = { name="Opatha" culture=sinhala }
+3080165 = { name="Prasanna" culture=sinhala }
+3080166 = { name="Premadasa" culture=sinhala }
+3080167 = { name="Premaratna" culture=sinhala }
+3080168 = { name="Priyadarshana" culture=sinhala }
+3080169 = { name="Rajasekara" culture=sinhala }
+3080170 = { name="Ramanayake" culture=sinhala }
+3080171 = { name="Ranaweera" culture=sinhala }
+3080172 = { name="Ratwatte" culture=sinhala }
+3080173 = { name="Samarasekara" culture=sinhala }
+3080174 = { name="Senasinghe" culture=sinhala }
+3080175 = { name="Shantha" culture=sinhala }
+3080176 = { name="Shehan" culture=sinhala }
+3080177 = { name="Sigera" culture=sinhala }
+3080178 = { name="Sirisena" culture=sinhala }
+3080179 = { name="Subasinghe" culture=sinhala }
+3080180 = { name="Thushara" culture=sinhala }
+3080181 = { name="Udawatte" culture=sinhala }
+3080182 = { name="Udayanga" culture=sinhala }
+3080183 = { name="Vidura" culture=sinhala }
+3080184 = { name="Vimukthi" culture=sinhala }
+3080185 = { name="Warakagoda" culture=sinhala }
+3080186 = { name="Weerakoon" culture=sinhala }
+3080187 = { name="Weeraratne" culture=sinhala }
+3080188 = { name="Weerasekara" culture=sinhala }
+3080189 = { name="Weerasuriya" culture=sinhala }
+3080190 = { name="Weerawansa" culture=sinhala }
+3080191 = { name="Wickramasinghe" culture=sinhala }
+3080192 = { name="Wijeratne" culture=sinhala }
+3080193 = { name="Wijesinha" culture=sinhala }
+3080194 = { name="Wijesuriya" culture=sinhala }
+3080195 = { name="Wickramanayake" culture=sinhala }
+3080196 = { name="Yapa" culture=sinhala }
+3080197 = { name="de Zoysa" culture=sinhala }
+3080198 = { name="Zoysa" culture=sinhala }
 
 3090000 = { name="Morane" culture=vedda used_for_random = no
             coat_of_arms = { 

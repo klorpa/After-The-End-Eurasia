@@ -403,13 +403,14 @@
 1861024={
 	name="Oliviero" 
 	dynasty=2034029 #Freska-Solomon
-	culture=venetian
+	culture=amhara
 	religion=miaphysite
 	trait=detached_priest
 	trait=mystic
 	trait=temperate
 	trait=humble
-	2620.8.6={birth=yes}
+	2620.8.6={birth=yes
+		culture=venetian}
 	2700.1.1={death=yes}
 }
 1861025={
@@ -858,10 +859,12 @@
 	stewardship=5
 	intrigue=7
 	learning=3
+	father=1861118
 	2632.11.24={birth=yes}
 	2659.7.7={
 		add_spouse=1861049
 	}
+	2661.3.11={effect={add_rival=1861029}}
 }
 1861049={
 	name="Addolorata"
@@ -881,9 +884,7 @@
 	intrigue=7
 	learning=6
 	2641.12.3={birth=yes}
-	2661.3.11={death={
-			death_reason=death_childbirth}
-	}
+	2661.3.11={death=yes}
 }
 1861050={
 	name="Salvator"
@@ -1011,6 +1012,7 @@
 	stewardship=7
 	intrigue=7
 	learning=8
+	father=1861116
 	2648.2.2={birth=yes}
 	2648.2.2={add_claim = k_naples}
 }
@@ -1900,4 +1902,98 @@
 	trait=just
 	2630.3.18={birth=yes}
 	2710.1.1={death=yes}
+}
+1861115={
+	name="Ferdinando"
+	dynasty=2028225 #Burbone
+	culture=neapolitan
+	religion=catholic
+	father=1861116
+	2651.4.30={birth=yes}
+	2652.2.2={add_claim = k_naples}
+}
+1861116={
+	name="Alfunso"
+	dynasty=2028225 #Burbone
+	culture=neapolitan
+	religion=catholic
+	father=1861121
+	2628.10.16={birth=yes}
+	2664.4.3={death=yes}
+}
+1861117={
+	name="Nofrio"
+	dynasty=2028223 #di Gioia
+	culture=neapolitan
+	religion=catholic
+	father=1861118
+	2634.7.10={birth=yes}
+}
+1861118={
+	name="Cornelio"
+	dynasty=2028223 #di Gioia
+	culture=neapolitan
+	religion=catholic
+	2597.8.13={birth=yes}
+	2649.7.3={death=yes}
+}
+1861119={
+	name="Ruggeru"
+	dynasty=2027264 #del Ponte
+	culture=sicilian
+	religion=catholic
+	trait=arbitrary
+	trait=shrewd
+	trait=gluttonous
+	trait=strong
+	2620.6.2={birth=yes}
+	2648.7.3={add_spouse=1861120}
+}
+1861120={
+	name="Immaculata"
+	female=yes
+	dynasty=2028225 #Burbone
+	culture=neapolitan
+	religion=catholic
+	father=1861121
+	2624.9.24={birth=yes}
+}
+1861121={
+	name="Jennare"
+	dynasty=2028225 #Burbone
+	culture=neapolitan
+	religion=catholic
+	2591.10.7={birth=yes}
+	2649.7.18={death=yes}
+}
+1861122={
+	name="Alissandra"
+	female=yes
+	dynasty=2027264 #del Ponte
+	culture=sicilian
+	religion=catholic
+	father=1861119
+	mother=1861120
+	2649.4.24={birth=yes}
+}
+1861123={
+	name="Catarina"
+	female=yes
+	dynasty=2027264 #del Ponte
+	culture=sicilian
+	religion=catholic
+	father=1861119
+	mother=1861120
+	2652.2.21={birth=yes}
+}
+1861124={
+	name="Leka"
+	dynasty=2049117 #Kastrioti
+	culture=albanian
+	religion=catholic
+	trait=brilliant_strategist
+	trait=quick
+	trait=brave
+	trait=stubborn
+	2621.11.28={birth=yes}
 }
