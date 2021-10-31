@@ -1265,7 +1265,20 @@
 1601098 = { name="Middleton" culture=northerner }
 1601099 = { name="Kirby" culture=northerner }
 1601100 = { name="Davison" culture=northerner }
-1601101 = { name="Hayward" culture=northerner }
+1601101 = { name="Hayward" culture=northerner
+	coat_of_arms = { 
+		religion = glorian
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 
 1607000 = { name="Morrison" culture=ulsterman }
