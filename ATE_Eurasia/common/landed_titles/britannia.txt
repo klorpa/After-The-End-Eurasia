@@ -588,7 +588,7 @@ e_britannia = {
 			
 			dignity = 2
 		
-			c_north_yorkshire = {
+			c_north_riding = {
 				color={ 255 80 5 }
 				color2={ 255 255 255 }
 				
@@ -602,7 +602,7 @@ e_britannia = {
 				b_skipton = {}
 				b_whitby = {}
 			}
-			c_east_yorkshire = {
+			c_east_riding = {
 				color={ 250 93 16 }
 				color2={ 255 255 255 }
 				
@@ -614,19 +614,7 @@ e_britannia = {
 				b_goole = {}
 				b_driffield = {}
 			}
-			c_south_yorkshire = {
-				color={ 85 75 71 }
-				color2={ 255 255 255 }
-
-				b_sheffield = {}
-				b_doncaster = {}
-				b_rotherham = {}
-				b_barnsley = {}
-				b_wath_upon_dearne = {}
-				b_wombwell = {}
-				b_chapeltown = {}
-			}
-			c_west_yorkshire = {
+			c_west_riding = {
 				color={ 127 78 199 }
 				color2={ 255 255 255 }
 
@@ -637,6 +625,13 @@ e_britannia = {
 				b_halifax = {}
 				b_batley = {}
 				b_dewsbury = {}
+				b_sheffield = {}
+				b_doncaster = {}
+				b_rotherham = {}
+				b_barnsley = {}
+				b_wath_upon_dearne = {}
+				b_wombwell = {}
+				b_chapeltown = {}
 			}
 		}
 		d_manchester = {
@@ -702,9 +697,9 @@ e_britannia = {
 			color={ 44 175 255 }
 			color2={ 255 255 255 }
 			
-			capital = 79 # Cumberland
+			capital = 79 # Cumbria
 			
-			c_cumberland = {
+			c_cumbria = {
 				color={ 126 159 154 }
 				color2={ 255 255 255 }
 	
@@ -715,11 +710,6 @@ e_britannia = {
 				b_cockermouth = {}
 				b_egremont = {}
 				b_dalston = {}
-			}
-			c_westmorland = {
-				color={ 0 165 155 }
-				color2={ 255 255 255 }
-			
 				b_penrith = {}
 				b_barrow_in_furness = {}
 				b_kendal = {}
@@ -1067,11 +1057,11 @@ e_britannia = {
 					}
 				}
 			}
-			c_montgomeryshire = {
+			c_the_midlands = {
 				color={ 175 90 20 }
 				color2={ 255 255 255 }
 
-				welsh = "Trefaldwyn"
+				welsh = "Y Canolbarth"
 				
 				b_machynlleth = {}
 				b_powys = {}
@@ -1088,32 +1078,6 @@ e_britannia = {
 				b_radnor = {
 					welsh = "Maesyfed"
 				}
-			}
-			c_radnorshire = {
-				color={ 172 85 15 }
-				color2={ 255 255 255 }
-
-				welsh = "Faesyfed"
-				
-				b_builth = {
-					welsh = "Llanfair-ym-Muallt"
-				}
-				b_llandrindod = {}
-				b_llanafan_fawr = {}
-				b_abergwesyn = {}
-				b_llanwrtyd = {}
-				b_aberedw = {}
-				b_llangammarch = {
-					welsh = "Llangamarch"
-				}
-			}
-			c_brecknockshire = {
-				color={ 157 105 20 }
-				color2={ 255 255 255 }
-				holy_site = free_church
-
-				welsh = "Frycheiniog"
-			
 				b_brecon = {
 					welsh = "Aberhonddu"
 				}
@@ -1130,6 +1094,17 @@ e_britannia = {
 				}
 				b_crickhowell = {
 					welsh = "Crucywel"
+				}
+				b_builth = {
+					welsh = "Llanfair-ym-Muallt"
+				}
+				b_llandrindod = {}
+				b_llanafan_fawr = {}
+				b_abergwesyn = {}
+				b_llanwrtyd = {}
+				b_aberedw = {}
+				b_llangammarch = {
+					welsh = "Llangamarch"
 				}
 			}
 		}
