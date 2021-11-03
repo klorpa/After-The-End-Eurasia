@@ -1967,35 +1967,6 @@ e_britannia = {
 			
 			capital = 2 #Cork
 			
-			c_kerry = {
-				color={ 65 137 101 }
-				color2={ 255 255 255 }
-				
-				irish = "Ciarraí"
-
-				b_tralee = {
-					irish = "Trá Lí"
-				}
-				b_kenmare = {
-					irish = "An Neidín"
-				}
-				b_killarney = {
-					irish = "Cill Airne"
-				}
-				b_dingle = {
-					irish = "Daingean Uí Chúis"
-				}
-				b_listowel = {
-					irish = "Lios Tuathail"
-				}
-				b_killorglin = {
-					irish = "Cill Orglan"
-				}
-				b_sneem = {
-					irish = "An tSnaidhm"
-				}
-			}
-		
 			c_cork = {
 				color={ 48 168 107 }
 				color2={ 255 255 255 }
@@ -2026,34 +1997,26 @@ e_britannia = {
 					irish = "Cóbh"
 					ulsterman = "Queenstown"
 				}
-			}
-	
-			c_tipperary = {
-				color={ 25 148 85 }
-				color2={ 255 255 255 }
-			
-				irish = "Tiobraid Árann"
-
-				b_tipperary = {
-					irish = "Tiobraid Árann"
+				b_tralee = {
+					irish = "Trá Lí"
 				}
-				b_nenagh = {
-					irish = "Nenagh"
+				b_kenmare = {
+					irish = "An Neidín"
 				}
-				b_cashel = {
-					irish = "Caiseal"
+				b_killarney = {
+					irish = "Cill Airne"
 				}
-				b_cahir = {
-					irish = "An Chathair"
+				b_dingle = {
+					irish = "Daingean Uí Chúis"
 				}
-				b_thurles = {
-					irish = "Durlas Éile"
+				b_listowel = {
+					irish = "Lios Tuathail"
 				}
-				b_templemore = {
-					irish = "An Teampall Mór"
+				b_killorglin = {
+					irish = "Cill Orglan"
 				}
-				b_clonmel = {
-					irish = "Cluain Meala"
+				b_sneem = {
+					irish = "An tSnaidhm"
 				}
 			}
 	
@@ -2086,6 +2049,27 @@ e_britannia = {
 				b_ardmore = {
 					irish = "Aird Mhór"
 				}
+				b_tipperary = {
+					irish = "Tiobraid Árann"
+				}
+				b_nenagh = {
+					irish = "Nenagh"
+				}
+				b_cashel = {
+					irish = "Caiseal"
+				}
+				b_cahir = {
+					irish = "An Chathair"
+				}
+				b_thurles = {
+					irish = "Durlas Éile"
+				}
+				b_templemore = {
+					irish = "An Teampall Mór"
+				}
+				b_clonmel = {
+					irish = "Cluain Meala"
+				}
 			}
 		}
 		
@@ -2096,36 +2080,6 @@ e_britannia = {
 			irish = "Laighean"
 			
 			capital = 6 #Wexford
-			
-			c_kilkenny = {
-				color={ 68 109 88 }
-				color2={ 255 255 255 }
-				
-				irish = "Cill Chainnigh"
-
-				b_kilkenny = {
-					irish = "Cill Chainnigh"
-				}
-				b_carlow = {
-					irish = "Ceatharlach"
-					ulsterman = "Carlaw"
-				}
-				b_st_canice = {
-					irish = "Naomh Cainnech"
-				}
-				b_gowran = {
-					irish = "Gabhrán"
-				}
-				b_callan = {
-					irish = "Callainn"
-				}
-				b_goresbridge = {
-					irish = "An Droichead Nua"
-				}
-				b_knocktopher = {
-					irish = "Cnoc an Tóchair"
-				}
-			}
 			
 			c_wexford = {
 				color={ 94 124 112 }
@@ -2156,67 +2110,27 @@ e_britannia = {
 				b_inch = {
 					irish = "Inse Mocholmóg"
 				}
-			}
-			
-			c_wicklow = {
-				color={ 62 80 73 }
-				color2={ 255 255 255 }
-				
-				irish = "Cill Mhantáin"
-				ulsterman= "Wicklaw"
-
-				b_wicklow = {
-					irish = "Cill Mhantáin"
-					ulsterman = "Wicklaw"
+				b_kilkenny = {
+					irish = "Cill Chainnigh"
 				}
-				b_bray = {
-					irish = "Bré"
-					ulsterman = "Bree"
+				b_carlow = {
+					irish = "Ceatharlach"
+					ulsterman = "Carlaw"
 				}
-				b_glendalough = {
-					irish = "Gleann Dá Loch"
-					ulsterman = "Glen of the lough"
+				b_st_canice = {
+					irish = "Naomh Cainnech"
 				}
-				b_greystones = {
-					irish = "Na Clocha Liatha"
+				b_gowran = {
+					irish = "Gabhrán"
 				}
-				b_baltinglass = {
-					irish = "Bealach Conglais"
+				b_callan = {
+					irish = "Callainn"
 				}
-				b_blessington = {
-					irish = "Baile Coimín"
-					ulsterman = "Comynstoon"
+				b_goresbridge = {
+					irish = "An Droichead Nua"
 				}
-				b_ashford = {
-					irish = "Áth na Fuinseoige"
-				}
-			}
-			
-			c_offaly = {
-				color={ 55 180 129 }
-				color2={ 255 255 255 }
-
-				irish = "Uíbh Fhailí"
-
-				b_portlaoise = {}
-				b_tullamore = {
-					irish = "Tulach Mhór"
-				}
-				b_birr = {
-					irish = "Biorra"
-					ulsterman = "Beer"
-				}
-				b_roscrea = {
-					irish = "Ros Cré"
-				}
-				b_stradbally = {
-					irish = "An Sráidbhaile"
-				}
-				b_horseleap = {
-					irish = "Baile Átha an Urchair"
-				}
-				b_blue_ball = {
-					irish = "an Phailís"
+				b_knocktopher = {
+					irish = "Cnoc an Tóchair"
 				}
 			}
 		}
@@ -2258,15 +2172,6 @@ e_britannia = {
 				b_birdhill = {
 					irish = "Cnocán an Éin Fhinn"
 				}
-			}
-			
-			c_clare = {
-				color={ 40 84 66 }
-				color2={ 255 255 255 }
-				
-				irish = "An Clár"
-				ulsterman = "Clar"
-
 				b_ennis = {
 					irish = "Inis"
 				}
@@ -2323,26 +2228,6 @@ e_britannia = {
 				b_mountshannon = {
 					irish = "Baile Uí Bheoláin"
 				}
-			}
-		}
-					
-		d_connacht = {
-			color={ 43 229 108 }
-			color2={ 255 255 255 }
-
-			irish = "Chonnacht"
-			
-			capital = 12# c_gaillimh
-
-			c_galway = {
-				color={ 21 127 84 }
-				color2={ 255 255 255 }
-				holy_site = insular
-				holy_site = apparitionist
-					
-				irish = "Gaillimh"
-				ulsterman= "Galloway"
-
 				b_galway = {
 					irish = "Gaillimh"
 					ulsterman = "Galloway"
@@ -2366,48 +2251,6 @@ e_britannia = {
 				b_clifden = {
 					irish = "An Clochán"
 				}
-			}
-					
-			c_roscommon = {
-				color={ 64 167 125 }
-				color2={ 255 255 255 }
-				
-				irish = "Ros Comáin"
-				ulsterman = "Comanswood"
-
-				b_roscommon = {
-					irish = "Ros Comáin"
-					ulsterman = "Comanswood"
-				}
-				b_athlone = {
-					irish = "Baile Átha Luain"
-					ulsterman = "Shannonfurd"
-				}
-				b_knockcroghery = {
-					irish = "Cnoc an Chrocaire"
-				}
-				b_tulsk = {
-					irish = "Tuilsce"
-					ulsterman = "Wethill"
-				}
-				b_athleague = {
-					irish = "Áth Liag"
-					ulsterman = "Flagstones"
-				}
-				b_rahara = {
-					irish = "Rath Ara"
-				}
-				b_strokestown = {
-					irish = "Béal na mBuillí"
-				}
-			}
-			
-			c_mayo = {
-				color={ 58 118 94 }
-				color2={ 255 255 255 }
-				
-				irish = "Maigh Eo"
-
 				b_castlebar = {
 					irish = "Caisleán an Bharraigh"
 				}
@@ -2432,6 +2275,16 @@ e_britannia = {
 					irish = "Acaill"
 				}
 			}
+		}
+					
+		d_connacht = {
+			color={ 43 229 108 }
+			color2={ 255 255 255 }
+
+			irish = "Chonnacht"
+			
+			capital = 12# c_gaillimh
+					
 			c_sligo = {
 				color={ 41 96 74 }
 				color2={ 255 255 255 }
@@ -2461,6 +2314,31 @@ e_britannia = {
 				}
 				b_ballymote = {
 					irish = "Baile an Mhóta"
+				}
+				b_roscommon = {
+					irish = "Ros Comáin"
+					ulsterman = "Comanswood"
+				}
+				b_athlone = {
+					irish = "Baile Átha Luain"
+					ulsterman = "Shannonfurd"
+				}
+				b_knockcroghery = {
+					irish = "Cnoc an Chrocaire"
+				}
+				b_tulsk = {
+					irish = "Tuilsce"
+					ulsterman = "Wethill"
+				}
+				b_athleague = {
+					irish = "Áth Liag"
+					ulsterman = "Flagstones"
+				}
+				b_rahara = {
+					irish = "Rath Ara"
+				}
+				b_strokestown = {
+					irish = "Béal na mBuillí"
 				}
 			}
 		}
@@ -2501,37 +2379,28 @@ e_britannia = {
 				b_termonbarry = {
 					irish = "Tearmann Bearaigh"
 				}
+				b_portlaoise = {}
+				b_tullamore = {
+					irish = "Tulach Mhór"
+				}
+				b_birr = {
+					irish = "Biorra"
+					ulsterman = "Beer"
+				}
+				b_roscrea = {
+					irish = "Ros Cré"
+				}
+				b_stradbally = {
+					irish = "An Sráidbhaile"
+				}
+				b_horseleap = {
+					irish = "Baile Átha an Urchair"
+				}
+				b_blue_ball = {
+					irish = "an Phailís"
+				}
 			}
 			
-			c_kildare = {
-				color={ 95 221 35 }
-				color2={ 255 255 255 }
-				
-				irish = "Cill Dara"
-				ulsterman = "Kildarr"
-
-				b_curragh = {}
-				b_kildare = {
-					irish = "Cill Dara"
-					ulsterman = "Kildarr"
-				}
-				b_naas = {
-					irish = "Nás na Ríogh"
-				}
-				b_newbridge = {
-					irish = "Droichead Nua"
-				}
-				b_maynooth = {
-					irish = "Maigh Nuad"
-				}
-				b_kilcullen = {
-					irish = "Cill Chuilinn"
-				}
-				b_castledermot = {
-					irish = "Diseart Diarmada"
-				}
-			}
-					
 			c_meath = {
 				color={ 59 143 109 }
 				color2={ 255 255 255 }
@@ -2602,6 +2471,51 @@ e_britannia = {
 				b_swords = {
 					irish = "Sord Cholmcille"
 				}
+				b_curragh = {}
+				b_kildare = {
+					irish = "Cill Dara"
+					ulsterman = "Kildarr"
+				}
+				b_naas = {
+					irish = "Nás na Ríogh"
+				}
+				b_newbridge = {
+					irish = "Droichead Nua"
+				}
+				b_maynooth = {
+					irish = "Maigh Nuad"
+				}
+				b_kilcullen = {
+					irish = "Cill Chuilinn"
+				}
+				b_castledermot = {
+					irish = "Diseart Diarmada"
+				}
+				b_wicklow = {
+					irish = "Cill Mhantáin"
+					ulsterman = "Wicklaw"
+				}
+				b_bray = {
+					irish = "Bré"
+					ulsterman = "Bree"
+				}
+				b_glendalough = {
+					irish = "Gleann Dá Loch"
+					ulsterman = "Glen of the lough"
+				}
+				b_greystones = {
+					irish = "Na Clocha Liatha"
+				}
+				b_baltinglass = {
+					irish = "Bealach Conglais"
+				}
+				b_blessington = {
+					irish = "Baile Coimín"
+					ulsterman = "Comynstoon"
+				}
+				b_ashford = {
+					irish = "Áth na Fuinseoige"
+				}
 			}
 		}
 		d_ulster = {
@@ -2644,6 +2558,31 @@ e_britannia = {
 					ulsterman = "Doonpetèrick"
 					irish = "Dún Pádraig"
 				}
+				b_armagh = {
+					ulsterman = "Airmagh"
+					irish = "Ard Mhacha"
+				}
+				b_newry = {
+					ulsterman = "Newrie"
+					irish = "An Iúraigh"
+				}
+				b_moy = {
+					ulsterman = "Tha Moy"
+					irish = "An Mhaigh"
+				}
+				b_portadown = {
+					ulsterman = "Portadoon"
+					irish = "Port a' Dúnáin"
+				}
+				b_craigavon = {
+					irish = "Creag Abhann"
+				}
+				b_keady = {
+					irish = "An Céide"
+				}
+				b_crossmaglen = {
+					irish = "Crois Mhic Lionnáin"
+				}
 			}
 					
 			c_antrim = {
@@ -2681,40 +2620,6 @@ e_britannia = {
 					irish = "Muileann na Buaise"
 				}
 			}
-			
-			c_armagh = {
-				color={ 17 93 62 }
-				color2={ 255 255 255 }
-				
-				irish = "Ard Mhacha"
-				ulsterman= "Airmagh"
-
-				b_armagh = {
-					ulsterman = "Airmagh"
-					irish = "Ard Mhacha"
-				}
-				b_newry = {
-					ulsterman = "Newrie"
-					irish = "An Iúraigh"
-				}
-				b_moy = {
-					ulsterman = "Tha Moy"
-					irish = "An Mhaigh"
-				}
-				b_portadown = {
-					ulsterman = "Portadoon"
-					irish = "Port a' Dúnáin"
-				}
-				b_craigavon = {
-					irish = "Creag Abhann"
-				}
-				b_keady = {
-					irish = "An Céide"
-				}
-				b_crossmaglen = {
-					irish = "Crois Mhic Lionnáin"
-				}
-			}
 		}
 			
 		d_derry = {
@@ -2741,15 +2646,6 @@ e_britannia = {
 				b_strabane = {}
 				b_campsey = {}
 				b_limavady = {}
-			}
-			
-			c_tyrone = {
-				color={ 122 164 73 }
-				color2={ 255 255 255 }
-				
-				irish = "Tír Eoghain"
-				ulsterman = "Owenslann"
-
 				b_omagh = {
 					ulsterman = "Omey"
 					irish = "An Ómaigh"
@@ -2776,14 +2672,6 @@ e_britannia = {
 					ulsterman = "Aipplescaw"
 					irish = "Cabhán a' Chaorthainn"
 				}
-			}
-			c_fermanagh = {
-				color={ 12 59 40 }
-				color2={ 255 255 255 }
-				
-				irish = "Fear Manach"
-				ulsterman = "Fermanay"
-
 				b_tully = {
 					irish = "Tulaí"
 				}
