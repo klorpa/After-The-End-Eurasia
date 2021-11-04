@@ -2991,3 +2991,339 @@
 		}
 	}
 }
+1991200={
+	name="Henry"
+	dynasty=1968028 #Hasek
+	culture=czech
+	religion=chronicler
+	father=1991011
+	
+	trait=misguided_warrior
+	trait=adventurer
+	trait=bastard
+	trait=shrewd
+	trait=drunkard
+	trait=gardener
+	trait=wroth
+	trait=brave
+	trait=cynical
+	
+	2646.10.15={birth=yes}
+	2720.3.2={death=yes}
+}
+1991201={
+	name="Stefan"
+	dynasty=1968055 #Gustave
+	dna=begeagebgbn
+	culture=czech
+	religion=neuhumanist
+	
+	trait=charismatic_negotiator
+	trait=bisexual
+	trait=poet
+	trait=seducer
+	trait=arbitrary
+	trait=deceitful
+	trait=kind
+	trait=proud
+	
+	2620.10.12={birth=yes}
+	2710.1.3={death=yes}
+}
+1991202={
+	name="Nula"
+	dynasty=1968055 #Gustave
+	dna=dekdetbcdbz
+	culture=suriyi
+	religion=neuhumanist
+	father=1991201
+	
+	trait=charismatic_negotiator
+	trait=poet
+	trait=scholar
+	trait=just
+	trait=deceitful
+	trait=kind
+	trait=proud
+	trait=sympathy_islam
+	
+	2646.6.12={birth=yes culture=czech}
+	2665.5.3={effect={add_lover=1991203}}
+	2666.2.4={add_spouse=1991203}
+	2710.1.3={death=yes}
+}
+1991203={
+	name="Agatha"
+	female=yes
+	dynasty=0 #Lowborn
+	culture=czech
+	religion=chronicler
+	
+	trait=charismatic_negotiator
+	trait=fair
+	trait=charitable
+	trait=just
+	trait=kind
+	trait=humble
+	
+	2646.10.2={birth=yes}
+	2679.1.3={death=yes}
+}
+1991204={
+	name="Josef"
+	dynasty=1968056 #Pils
+	culture=czech
+	religion=chronicler
+
+	trait=thrifty_clerk
+	trait=branch_medicalism
+	trait=drunkard
+	trait=gregarious
+	trait=honest
+	trait=trusting
+	trait=diligent
+	
+	2613.4.2={birth=yes}
+	2635.1.3={add_spouse=1991205}
+	2670.1.1={death=yes}
+}
+1991205={
+	name="Bela"
+	female=yes
+	dynasty=0 #Lowborn
+	culture=czech
+	religion=chronicler
+
+	trait=indulgent_wastrel
+	trait=trusting
+	trait=gregarious
+	trait=content
+	trait=gregarious
+	trait=charitable
+	
+	2613.3.29={birth=yes}
+	2671.3.1={death=yes}
+}
+1991206={
+	name="Martin"
+	dynasty=1968056 #Pils
+	culture=czech
+	religion=chronicler
+	father=1991204
+	mother=1991205
+
+	trait=skilled_tactician
+	trait=scholar
+	trait=drunkard
+	trait=gregarious
+	trait=proud
+	trait=slothful
+	trait=envious
+	trait=diligent
+	
+	2638.6.24={birth=yes}
+	2710.1.1={death=yes}
+}
+1991207={
+	name="Zdena"
+	female=yes
+	dynasty=1968057 #Beers
+	culture=czech
+	religion=chronicler
+
+	trait=mastermind_theologian
+	trait=branch_nuclearism
+	trait=quick
+	trait=scholar
+	trait=stubborn
+	trait=gregarious
+	trait=temperate
+	trait=trusting
+	trait=diligent
+	
+	2616.1.19={birth=yes}
+	2641.1.19={add_spouse=1991208}
+	2641.3.1={capital=c_liberec}
+	2700.1.1={death=yes}
+}
+1991208={
+	name="Christoph"
+	dynasty=0 #Lowborn
+	culture=czech
+	religion=chronicler
+
+	trait=naive_appeaser
+	trait=branch_industrialism
+	trait=erudite
+	trait=envious
+	trait=charitable
+	trait=temperate
+	trait=diligent
+	
+	2618.1.16={birth=yes}
+	2700.1.1={death=yes}
+}
+1991209={
+	name="Alexander"
+	dynasty=1968057 #Beers
+	culture=czech
+	religion=chronicler
+	father=1991207
+	mother=1991208
+
+	trait=charismatic_negotiator
+	trait=branch_nuclearism
+	trait=clubfooted
+	trait=quick
+	trait=pious
+	trait=shy
+	trait=temperate
+	
+	2647.8.30={birth=yes}
+	2720.1.1={death=yes}
+}
+1991210={
+	name="Kamil"
+	dynasty=1968057 #Beers
+	culture=czech
+	religion=chronicler
+	father=1991207
+	mother=1991208
+
+	trait=affectionate
+	trait=willful
+
+	2656.12.28={birth=yes}
+	2728.1.1={death=yes}
+}
+1991211={
+	name="Gustav"
+	dynasty=1968058 #Merínskı-Mahler
+	dna=bifajygbaeo
+	culture=moravian
+	religion=chronicler
+
+	trait=mastermind_theologian
+	trait=branch_industrialism
+	trait=scholar
+	trait=musician
+	trait=sickly
+	trait=cynical
+	trait=charitable
+	trait=temperate
+	trait=diligent
+	
+	2628.3.28={birth=yes}
+	2643.10.1={capital=c_vysocina}
+	2656.1.10={add_spouse=1991212}
+	2700.1.1={death=yes}
+}
+1991212={
+	name="Alma"
+	female=yes
+	dynasty=1968059 #Mahler
+	culture=czech
+	religion=chronicler
+
+	trait=mastermind_theologian
+	trait=branch_industrialism
+	trait=scholar
+	trait=musician
+	trait=fair
+	trait=cynical
+	trait=gregarious
+	trait=charitable
+	trait=temperate
+	
+	2628.3.28={birth=yes}
+	2700.1.1={death=yes}
+}
+1991213={
+	name="Alma"
+	female=yes
+	dynasty=1968059 #Mahler
+	culture=moravian
+	religion=chronicler
+	
+	father=1991211
+	mother=1991212
+
+	trait=fair
+	trait=affectionate
+	
+	2656.7.11={birth=yes}
+	2700.1.1={death=yes}
+}
+1991214={
+	name="Izhak"
+	dynasty=2926077 #Bittová
+	culture=romani
+	religion=neuhumanist
+
+	trait=skilled_tactician
+	trait=brave
+	trait=just
+	trait=proud
+	trait=charitable
+	trait=wroth
+	
+	2623.7.12={birth=yes}
+	2665.2.3={death=yes}
+}
+1991215={
+	name="Sani"
+	female=yes
+	dynasty=0 #Lowborn
+	culture=romani
+	religion=neuhumanist
+
+	trait=charismatic_negotiator
+	trait=musician
+	trait=authoritative
+	trait=stubborn
+	trait=patient
+	trait=charitable
+	
+	2625.7.12={birth=yes}
+	2665.2.3={death=yes}
+}
+1991216={
+	name="Jana"
+	female=yes
+	dynasty=2926077 #Bittová
+	culture=romani
+	religion=neuhumanist
+	father=1991214
+	mother=1991215
+
+	trait=brilliant_strategist
+	trait=quick
+	trait=musician
+	trait=just
+	trait=gregarious
+	trait=charitable
+	trait=temperate
+	
+	2645.5.12={birth=yes}
+	2700.1.1={death=yes}
+}
+1991217={
+	name="Ida"
+	female=yes
+	dynasty=2926077 #Bittová
+	culture=romani
+	religion=neuhumanist
+	father=1991214
+	mother=1991215
+
+	trait=elusive_shadow
+	trait=quick
+	trait=deceitful
+	trait=kind
+	trait=gregarious
+	trait=patient
+	trait=temperate
+	
+	2648.9.3={birth=yes}
+	2700.1.1={death=yes}
+}
