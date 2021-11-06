@@ -3327,3 +3327,149 @@
 	2648.9.3={birth=yes}
 	2700.1.1={death=yes}
 }
+1991218={
+	name="Dan"
+	female=no
+	dynasty=1968060 #Nguyen
+	culture=vietnamese
+	religion=mariavite
+
+	trait=scholarly_theologian
+	trait=ruthless
+	trait=gamer
+	trait=wroth
+	trait=temperate
+	trait=diligent
+	
+	2549.7.3={birth=yes}
+	2549.7.4={culture=czech}
+	2631.1.1={death=yes}
+}
+1991219={
+	name="Viktor"
+	female=no
+	dynasty=1968060 #Nguyen
+	culture=vietnamese
+	religion=mariavite
+	father=1991218
+
+	trait=scholarly_theologian
+	trait=shrewd
+	trait=pious
+	trait=gamer
+	trait=stubborn
+	trait=patient
+	trait=rude
+	trait=gregarious
+	trait=erudite
+	trait=familyperson
+	martial=3
+	diplomacy=2
+	stewardship=8
+	intrigue=8
+	learning=7
+	
+	2601.3.1={birth=yes}
+	2601.3.2={culture=czech}
+	2625.3.1={effect={add_rival=1991207}}
+	2634.7.1={add_spouse=1991221}
+	2700.1.1={death=yes}
+}
+1991220={
+	name="Jakub"
+	female=no
+	dynasty=1968060 #Nguyen
+	culture=vietnamese
+	religion=mariavite
+	father=1991219
+
+	trait=fortune_builder
+	trait=robust
+	trait=pious
+	trait=hunter
+	trait=kind
+	trait=gregarious
+	trait=trusting
+	
+	martial=5
+	diplomacy=7
+	stewardship=8
+	intrigue=3
+	learning=5
+	
+	2646.7.3={birth=yes}
+	2647.7.4={culture=czech}
+	2651.3.1={effect={add_friend=1991209}}
+	2700.1.1={death=yes}
+}
+1991221={
+	name="Lenka"
+	female=yes
+	culture=vietnamese
+	religion=mariavite
+
+	trait=scholarly_theologian
+	trait=arbitrary
+	trait=gamer
+	trait=kind
+	trait=gregarious
+	trait=erudite
+	trait=familyperson
+	martial=2
+	diplomacy=8
+	stewardship=3
+	intrigue=3
+	learning=7
+	
+	2610.1.13={birth=yes}
+	2610.1.14={culture=czech}
+	2700.1.1={death=yes}
+}
+1991222={
+	name="Josef"
+	female=no
+	dynasty=1968060 #Nguyen
+	culture=vietnamese
+	religion=mariavite
+	father=1991219
+	mother=1991221
+
+	trait=tough_soldier
+	trait=zealous
+	trait=ambitious
+	trait=temperate
+	trait=wroth
+	trait=shy
+	
+	martial=5
+	diplomacy=2
+	stewardship=3
+	intrigue=4
+	learning=7
+	
+	2648.7.3={birth=yes}
+	2647.7.4={culture=czech}
+	2700.1.1={death=yes}
+}
+1991223={
+	name="Justýna"
+	female=yes
+	dynasty=1968060 #Nguyen
+	culture=vietnamese
+	religion=mariavite
+	father=1991219
+	mother=1991221
+
+	trait=curious
+	trait=rowdy
+	
+	martial=2
+	diplomacy=1
+	stewardship=3
+	intrigue=4
+	learning=4
+	
+	2653.7.3={birth=yes}
+	2647.7.4={culture=czech}
+	2700.1.1={death=yes}
+}
