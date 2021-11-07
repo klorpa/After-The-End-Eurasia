@@ -3343,7 +3343,7 @@
 	
 	2549.7.3={birth=yes}
 	2549.7.4={culture=czech}
-	2631.1.1={death=yes}
+	2631.3.1={death=yes}
 }
 1991219={
 	name="Viktor"
@@ -3360,28 +3360,61 @@
 	trait=stubborn
 	trait=patient
 	trait=rude
-	trait=gregarious
 	trait=erudite
 	trait=familyperson
+	trait=depressed #When Jan passed :C
 	martial=3
 	diplomacy=2
 	stewardship=8
 	intrigue=8
 	learning=7
+	disallow_random_traits=yes
 	
 	2601.3.1={birth=yes}
 	2601.3.2={culture=czech}
 	2625.3.1={effect={add_rival=1991207}}
-	2634.7.1={add_spouse=1991221}
+	2634.7.1={add_spouse=1991222}
 	2700.1.1={death=yes}
 }
 1991220={
+	name="Jan"
+	female=no
+	dynasty=1968060 #Nguyen
+	culture=vietnamese
+	religion=mariavite
+	father=1991219
+	mother=1991222
+
+	trait=mastermind_theologian
+	trait=inspiring_leader
+	trait=shrewd
+	trait=stutter
+	trait=erudite
+	trait=gamer
+	trait=kind
+	trait=brave
+	trait=honest
+	trait=mangled
+	disallow_random_traits=yes
+	
+	martial=8
+	diplomacy=5
+	stewardship=6
+	intrigue=4
+	learning=8
+	
+	2636.2.17={birth=yes}
+	2636.2.18={culture=czech}
+	2656.6.3={death={death_reason=death_accident_boar}} #Hunting accident, saved his friend 1991225 from boar
+}
+1991221={
 	name="Jakub"
 	female=no
 	dynasty=1968060 #Nguyen
 	culture=vietnamese
 	religion=mariavite
 	father=1991219
+	mother=1991222
 
 	trait=fortune_builder
 	trait=robust
@@ -3390,6 +3423,7 @@
 	trait=kind
 	trait=gregarious
 	trait=trusting
+	disallow_random_traits=yes
 	
 	martial=5
 	diplomacy=7
@@ -3402,7 +3436,7 @@
 	2651.3.1={effect={add_friend=1991209}}
 	2700.1.1={death=yes}
 }
-1991221={
+1991222={
 	name="Lenka"
 	female=yes
 	culture=vietnamese
@@ -3415,6 +3449,8 @@
 	trait=gregarious
 	trait=erudite
 	trait=familyperson
+	disallow_random_traits=yes
+	
 	martial=2
 	diplomacy=8
 	stewardship=3
@@ -3425,14 +3461,14 @@
 	2610.1.14={culture=czech}
 	2700.1.1={death=yes}
 }
-1991222={
+1991223={
 	name="Josef"
 	female=no
 	dynasty=1968060 #Nguyen
 	culture=vietnamese
 	religion=mariavite
 	father=1991219
-	mother=1991221
+	mother=1991222
 
 	trait=tough_soldier
 	trait=zealous
@@ -3440,6 +3476,7 @@
 	trait=temperate
 	trait=wroth
 	trait=shy
+	disallow_random_traits=yes
 	
 	martial=5
 	diplomacy=2
@@ -3451,17 +3488,18 @@
 	2647.7.4={culture=czech}
 	2700.1.1={death=yes}
 }
-1991223={
+1991224={
 	name="Justýna"
 	female=yes
 	dynasty=1968060 #Nguyen
 	culture=vietnamese
 	religion=mariavite
 	father=1991219
-	mother=1991221
+	mother=1991222
 
 	trait=curious
 	trait=rowdy
+	disallow_random_traits=yes
 	
 	martial=2
 	diplomacy=1
@@ -3471,5 +3509,33 @@
 	
 	2653.7.3={birth=yes}
 	2647.7.4={culture=czech}
+	2700.1.1={death=yes}
+}
+1991225={
+	name="Honza"
+	female=no
+	culture=vietnamese
+	religion=mariavite
+
+	trait=skilled_tactician
+	trait=aggressive_leader
+	trait=depressed
+	trait=hunter
+	trait=wroth
+	trait=brave
+	trait=honest
+	trait=chaste
+	trait=cynical
+	disallow_random_traits=yes
+	
+	martial=10
+	diplomacy=3
+	stewardship=5
+	intrigue=5
+	learning=6
+	
+	2635.8.19={birth=yes}
+	2635.8.20={culture=czech}
+	2659.2.21={effect={give_job_title=job_marshal}}
 	2700.1.1={death=yes}
 }
