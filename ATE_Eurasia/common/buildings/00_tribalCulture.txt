@@ -1,0 +1,395 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+tribal = {
+
+	#British Longbow archery range
+	ct_marksman_barracks_1 = {
+		desc = ca_culture_gulf_1_desc
+		potential = {
+			OR = {  
+				culture = southerner
+				culture = westerner
+				culture = midlander
+				culture = northerner
+				culture = lowlander
+				culture = welsh
+				culture = cornish
+				culture = ulsterman
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			OR = {  
+				culture = southerner
+				culture = westerner
+				culture = midlander
+				culture = northerner
+				culture = lowlander
+				culture = welsh
+				culture = cornish
+				culture = ulsterman
+			}
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {  
+					culture = southerner
+					culture = westerner
+					culture = midlander
+					culture = northerner
+					culture = lowlander
+					culture = welsh
+					culture = cornish
+					culture = ulsterman
+				}
+			}
+		}
+		prestige_cost = 100
+		build_time = 365
+		archers_offensive = 0.15
+		archers = 60
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	tb_culture_gulf_2 = {
+		desc = ca_culture_gulf_1_desc
+		potential = {
+			OR = {  
+				culture = southerner
+				culture = westerner
+				culture = midlander
+				culture = northerner
+				culture = lowlander
+				culture = welsh
+				culture = cornish
+				culture = ulsterman
+			}
+				has_building = tb_culture_gulf_1
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {  
+					culture = southerner
+					culture = westerner
+					culture = midlander
+					culture = northerner
+					culture = lowlander
+					culture = welsh
+					culture = cornish
+					culture = ulsterman
+				}
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {  
+					culture = southerner
+					culture = westerner
+					culture = midlander
+					culture = northerner
+					culture = lowlander
+					culture = welsh
+					culture = cornish
+					culture = ulsterman
+				}
+			}
+		}
+		upgrades_from = tb_culture_gulf_1
+		prestige_cost = 200
+		build_time = 547
+		archers_offensive = 0.15
+		archers = 80
+		ai_creation_factor = 100
+		
+		convert_to_castle = ct_marksman_barracks_1
+		
+		extra_tech_building_start = 0.8
+	}
+	tb_culture_gulf_3 = {
+		desc = ca_culture_gulf_1_desc
+		potential = {
+			OR = {  
+				culture = southerner
+				culture = westerner
+				culture = midlander
+				culture = northerner
+				culture = lowlander
+				culture = welsh
+				culture = cornish
+				culture = ulsterman
+			}
+				has_building = tb_culture_gulf_1
+				has_building = tb_culture_gulf_2
+			}
+		is_active_trigger = {
+			ROOT = {
+				OR = {  
+					culture = southerner
+					culture = westerner
+					culture = midlander
+					culture = northerner
+					culture = lowlander
+					culture = welsh
+					culture = cornish
+					culture = ulsterman
+				}
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {  
+					culture = southerner
+					culture = westerner
+					culture = midlander
+					culture = northerner
+					culture = lowlander
+					culture = welsh
+					culture = cornish
+					culture = ulsterman
+				}
+			}
+		}
+		upgrades_from = tb_culture_gulf_2
+		prestige_cost = 300
+		build_time = 730
+		archers_offensive = 0.15
+		archers = 100
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	tb_culture_gulf_4 = {
+		desc = ca_culture_gulf_1_desc
+		potential = {
+			OR = {  
+				culture = southerner
+				culture = westerner
+				culture = midlander
+				culture = northerner
+				culture = lowlander
+				culture = welsh
+				culture = cornish
+				culture = ulsterman
+			}
+				has_building = tb_culture_gulf_1
+				has_building = tb_culture_gulf_2
+				has_building = tb_culture_gulf_3
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {  
+					culture = southerner
+					culture = westerner
+					culture = midlander
+					culture = northerner
+					culture = lowlander
+					culture = welsh
+					culture = cornish
+					culture = ulsterman
+				}
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {  
+					culture = southerner
+					culture = westerner
+					culture = midlander
+					culture = northerner
+					culture = lowlander
+					culture = welsh
+					culture = cornish
+					culture = ulsterman
+				}
+			}
+		}
+		upgrades_from = tb_culture_gulf_3
+		prestige_cost = 400
+		build_time = 1095
+		archers_offensive = 0.15
+		archers = 120
+		ai_creation_factor = 98
+		
+		convert_to_castle = ct_marksman_barracks_2
+		
+		extra_tech_building_start = 0.8
+	}
+		# Celtic Gallowglass
+	tb_culture_celtic_1 = {
+		desc = ca_culture_celtic_1_desc
+		potential = {
+			OR = {
+				culture = irish
+				culture = manx
+				culture = highlander
+				culture = scouse
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			OR = {
+				culture = irish
+				culture = manx
+				culture = highlander
+				culture = scouse
+				} 
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0
+			ROOT = {
+			OR = {
+				culture = irish
+				culture = manx
+				culture = highlander
+				culture = scouse
+				}
+			}
+		}
+		prestige_cost = 100
+		build_time = 365
+		heavy_infantry = 30
+		heavy_infantry_defensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	tb_culture_celtic_2 = {
+		desc = ca_culture_celtic_1_desc
+		potential = {
+			OR = {
+				culture = irish
+				culture = manx
+				culture = highlander
+				culture = scouse
+			}
+				has_building = tb_culture_celtic_1
+		}
+		is_active_trigger = {
+			ROOT = {
+			OR = {
+				culture = irish
+				culture = manx
+				culture = highlander
+				culture = scouse
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+			OR = {
+				culture = irish
+				culture = manx
+				culture = highlander
+				culture = scouse
+				}
+			}
+		}
+		upgrades_from = tb_culture_celtic_1
+		prestige_cost = 200
+		build_time = 547
+		heavy_infantry = 40
+		heavy_infantry_defensive = 0.15
+		ai_creation_factor = 101
+		
+		convert_to_castle = ca_culture_celtic_1
+		
+		extra_tech_building_start = 0.8
+	}
+	tb_culture_celtic_3 = {
+		desc = ca_culture_celtic_1_desc
+		potential = {
+			OR = {
+				culture = irish
+				culture = manx
+				culture = highlander
+				culture = scouse
+			}
+				has_building = tb_culture_celtic_1
+				has_building = tb_culture_celtic_2
+		}
+		is_active_trigger = {
+			ROOT = {
+			OR = {
+				culture = irish
+				culture = manx
+				culture = highlander
+				culture = scouse
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+			OR = {
+				culture = irish
+				culture = manx
+				culture = highlander
+				culture = scouse
+				}
+			}
+		}
+		upgrades_from = tb_culture_celtic_2
+		prestige_cost = 300
+		build_time = 730
+		heavy_infantry = 50
+		heavy_infantry_defensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	tb_culture_celtic_4 = {
+		desc = ca_culture_celtic_1_desc
+		potential = {
+			OR = {
+				culture = irish
+				culture = manx
+				culture = highlander
+				culture = scouse
+			}
+				has_building = tb_culture_celtic_1
+				has_building = tb_culture_celtic_2
+				has_building = tb_culture_celtic_3
+				has_building = tb_culture_celtic_4
+		}
+		is_active_trigger = {
+			ROOT = {
+			OR = {
+				culture = irish
+				culture = manx
+				culture = highlander
+				culture = scouse
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+			OR = {
+				culture = irish
+				culture = manx
+				culture = highlander
+				culture = scouse
+				}
+			}
+		}
+		upgrades_from = tb_culture_celtic_3
+		prestige_cost = 400
+		build_time = 1095
+		heavy_infantry = 60
+		heavy_infantry_defensive = 0.15
+		ai_creation_factor = 101
+		
+		convert_to_castle = ca_culture_celtic_2
+		
+		extra_tech_building_start = 0.8
+	}
+}

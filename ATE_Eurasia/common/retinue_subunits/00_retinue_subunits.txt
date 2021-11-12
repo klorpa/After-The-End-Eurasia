@@ -282,7 +282,29 @@ RETTYPE_SKIR2 =
 	}
 }
 
-RETTYPE_CUL_ENG = 
+RETTYPE_CUL_BILLMEN = 
+{
+	first_type = 2
+	first_amount = 400
+	
+	potential = {
+		is_nomadic = no
+		OR = {
+			culture = southerner
+			culture = midlander
+			culture = westerner
+			culture = norfie
+		}
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.2
+		pikemen_offensive = 0.3
+		pikemen_morale = 0.2
+	}
+}
+
+RETTYPE_CUL_WELSH = 
 {
 	first_type = 5
 	first_amount = 250
@@ -290,8 +312,8 @@ RETTYPE_CUL_ENG =
 	potential = {
 		is_nomadic = no
 		OR = {
-			culture = english
 			culture = welsh
+			culture = cornish
 		}
 	}
 	
@@ -308,13 +330,41 @@ RETTYPE_CUL_SCOT =
 	
 	potential = {
 		is_nomadic = no
-		culture = scottish
+		OR = {
+		culture = lowlander
+		culture = highlander
+		}
 	}
 	
 	modifier = {
 		pikemen_defensive = 0.4
 		pikemen_offensive = 0.2
 		pikemen_morale = 0.2
+	}
+}
+
+RETTYPE_CUL_REDSHANK = 
+{
+	first_type = 0
+	first_amount = 250
+	second_type = 5
+	second_amount = 250
+	
+	potential = {
+		is_nomadic = no
+		OR = {
+			culture = irish
+			culture = ulsterman
+			culture = scouse
+			culture = manx
+		}
+	}
+	
+	modifier = {
+		light_infantry_offensive = 0.5
+		light_infantry_morale = 0.3
+		archers_offensive = 0.2
+		archers_morale = 0.2
 	}
 }
 
@@ -591,22 +641,6 @@ RETTYPE_CUL_BYZ =
 		knights_offensive = 0.1
 		knights_defensive = 0.1
 		knights_morale = 0.2
-	}
-}
-
-RETTYPE_CUL_IRISH = 
-{
-	first_type = 1
-	first_amount = 200
-	
-	potential = {
-		is_nomadic = no
-		culture = irish
-	}
-	
-	modifier = {
-		heavy_infantry_defensive = 0.4
-		heavy_infantry_morale = 0.2
 	}
 }
 
