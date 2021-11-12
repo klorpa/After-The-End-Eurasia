@@ -97,7 +97,10 @@ character_event = {
 			remove_trait = armenian_rite
 		}
 		else_if = {
-			limit = { culture = armenian }
+			limit = {
+				culture = armenian 
+				has_global_flag = armenian_rite_restored
+			}
 			add_trait = armenian_rite
 			remove_trait = latin_rite
 			remove_trait = alexandrian_rite
