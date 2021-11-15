@@ -47,6 +47,7 @@ feudal_governments = {
 			NOT = { is_government_potential = confederation_government }
 			NOT = { is_government_potential = theocratic_feudal_government }
 			NOT = { is_government_potential = swaraj_government}
+			NOT = { is_government_potential = communal_government}
 			NOT = { culture = pavee }
 			NAND = { 
 				culture_group = tibetan
@@ -1134,4 +1135,59 @@ feudal_governments = {
 		## Modifiers
 		court_size_modifier = 15
 	}
+	communal_government = { #Given to Proletcult feudal rulers
+        preferred_holdings = { CASTLE }
+        allowed_holdings = { 
+            CASTLE 
+            CITY
+            FORT
+            HOSPITAL
+        }
+        allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+            TRIBAL
+        }
+        accepts_liege_governments = { # Gets the wrong religion modifier instead
+            bureaucratic_government
+            theocracy_government
+            feudal_government
+        }
+        free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+            tribal_government
+        }
+        frame_suffix = "_theocraticfeudal"
+        potential = {
+            OR = {
+                AND = {
+                    OR = {    
+                        religion = proletcult
+                        religion = jedinstvo
+                    }
+                    higher_tier_than = BARON
+                }
+            }
+            NOT = { is_government_potential = roman_imperial_government }
+            NOT = { is_government_potential = order_government }
+            is_patrician = no
+        }
+        
+        color = { 215 0 0 }
+        
+        uses_piety_for_law_change = yes
+        dukes_called_kings = yes
+        barons_need_dynasty = yes
+        can_usurp_kingdoms_and_empires = no
+        can_grant_kingdoms_and_empires_to_other_government = no
+        can_be_granted_kingdoms_and_empires_by_other_government = no
+        free_retract_vassalage = yes
+
+        can_build_tribal = no
+        
+        ignore_in_vassal_limit_calculation = {
+            tribal_government
+            theocracy_government
+        }
+        capital_move_delay = 600
+        ## Modifiers
+        court_size_modifier = 10
+    }
 }
