@@ -114,6 +114,13 @@ succession_laws = {
 					government = cenobitic_government
 					religion = insular
 				}
+				NAND = {
+					government = communal_government
+					OR = {
+					religion = proletcult
+					religion = jedinstvo
+					}
+				}
 			}
 			OR = {
 				is_landless_type_title = no
@@ -236,6 +243,13 @@ succession_laws = {
 					government = cenobitic_government
 					religion = insular
 				}
+				NAND = {
+					government = communal_government
+					OR = {
+					religion = proletcult
+					religion = jedinstvo
+					}
+				}
 			}
 			OR = {
 				is_landless_type_title = no
@@ -319,6 +333,9 @@ succession_laws = {
 			}
 			holder_scope = {
 				OR = {
+					religion = proletcult
+					religion = jedinstvo
+					religion = chronicler
 					AND = {
 						is_tribal = yes
 						religion = jumic
@@ -486,6 +503,13 @@ succession_laws = {
 					religion = insular
 				}
 				NAND = {
+					government = communal_government
+					OR = {
+					religion = proletcult
+					religion = jedinstvo
+					}
+				}
+				NAND = {
 					government = pirate_government
 					is_patrician = yes
 					independent = no
@@ -623,6 +647,13 @@ succession_laws = {
 				NAND = {
 					government = cenobitic_government
 					religion = insular
+				}
+				NAND = {
+					government = communal_government
+					OR = {
+					religion = proletcult
+					religion = jedinstvo
+					}
 				}
 			}
 			OR = {
@@ -1181,6 +1212,13 @@ succession_laws = {
 				}
 			}
 			NOT = { holder_scope = { government = confederation_government } }
+			NAND = {
+					government = communal_government
+					OR = {
+					religion = proletcult
+					religion = jedinstvo
+					}
+			}
 		}
 		default_selection = {
 			factor = 1
