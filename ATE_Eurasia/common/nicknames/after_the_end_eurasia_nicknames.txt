@@ -91,6 +91,19 @@ nick_atterdag = {
 		}
 	}
 }
+nick_the_sick = {
+	allow = {
+		age = 16
+		OR = {
+			is_weak_trigger = yes
+			trait = cancer
+			trait = infirm
+		}	
+	}
+	chance = {
+		factor = 1
+	}
+}
 ##########################################
 nick_the_great = { #added to remove Danes from being called Great
 	allow = {

@@ -1173,6 +1173,7 @@
 	trait=just
 	trait=administrator
 	trait=midas_touched
+	father=1958289
 	2448.3.8={birth=yes}
 	2509.3.26={death=yes}
 }
@@ -1880,7 +1881,7 @@
 	culture=dutch
 	religion=neuhumanist
 	father=1958139
-	2474.2.16={birth=yes}
+	2472.2.16={birth=yes}
 	2531.8.27={death=yes}
 }
 1958204={
@@ -2773,4 +2774,134 @@
 		culture=rhenish}
 	2650.11.19={religion=mahayana}
 	2660.1.1={employer=1958031}
+}
+1958282={
+	name="Herbert"
+	dynasty=1950133 #Wehner
+	culture=upper_saxon
+	religion=chronicler
+	trait=gregarious
+	trait=grey_eminence
+	diplomacy=10
+	2277.10.31={birth=yes}
+	2356.5.23={death=yes}
+}
+1958283={
+	name="Marcel"
+	dynasty=1950133 #Wehner
+	culture=upper_saxon
+	religion=chronicler
+	father=1958282
+	2321.7.6={birth=yes}
+	2380.7.1={death=yes}
+}
+1958284={
+	name="Juliane"
+	female=yes
+	dynasty=1950134 #Jäckel
+	culture=upper_saxon
+	religion=chronicler
+	2347.3.22={birth=yes}
+	2384.11.29={death={death_reason=death_childbirth}}
+}
+1958285={
+	name="André"
+	dynasty=1950134 #Jäckel
+	culture=upper_saxon
+	religion=chronicler
+	trait=disfigured
+	trait=leper
+	give_nickname=nick_the_sick
+	mother=1958284
+	2384.11.29={birth=yes}
+	2403.8.26={death={death_reason=death_trait}}
+}
+1958286={
+	name="Handrij"
+	dynasty=1998001 #Zejler
+	culture=sorbian
+	religion=lutheran
+	trait=poet
+	trait=theologian
+	trait=erudite
+	trait=temperate
+	2381.4.26={birth=yes}
+	2448.11.7={death=yes}
+}
+1958287={
+	name="Bjarnat"
+	dynasty=1998001 #Zejler
+	culture=sorbian
+	religion=lutheran
+	father=1958286
+	2415.12.13={birth=yes}
+	2478.8.1={death=yes}
+}
+1958288={
+	name="Lubina"
+	female=yes
+	dynasty=1998001 #Zejler
+	culture=sorbian
+	religion=lutheran
+	father=1958286
+	give_nickname=nick_the_old
+	2417.10.20={birth=yes}
+	2495.11.19={death={
+			death_reason=death_dungeon
+			killer=1958139}}
+}
+1958289={
+	name="Maarten"
+	dynasty=2059020 #Dekker
+	culture=dutch
+	religion=neuhumanist
+	2421.9.9={birth=yes}
+	2475.11.12={death=yes}
+}
+1958290={
+	name="Willem"
+	dynasty=2059020 #Dekker
+	culture=dutch
+	religion=neuhumanist
+	father=1958289
+	2453.10.1={birth=yes}
+	2503.10.17={death={
+			death_reason=death_murder
+			killer=1958292}}
+}
+1958291={
+	name="Ludwig"
+	dynasty=1998001 #Zejler
+	culture=sorbian
+	religion=catholic
+	mother=1958288
+	2443.9.19={birth=yes}
+	2487.9.28={death=yes}
+}
+1958292={
+	name="Fryko"
+	dynasty=1998001 #Zejler
+	culture=sorbian
+	religion=catholic
+	father=1958291
+	2470.10.23={birth=yes}
+	2531.6.4={death=yes}
+}
+1958293={
+	name="Hanzo"
+	dynasty=1998001 #Zejler
+	culture=sorbian
+	religion=catholic
+	father=1958292
+	2504.5.13={birth=yes}
+	2563.2.15={death=yes}
+}
+1958294={
+	name="Syman"
+	dynasty=1998001 #Zejler
+	culture=sorbian
+	religion=catholic
+	father=1958293
+	2535.2.4={birth=yes}
+	2577.10.1={death=yes}
 }
