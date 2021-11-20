@@ -6110,6 +6110,17 @@ religion_openly_aztec_or_reformed_trigger = {
 	}
 }
 
+religion_openly_glorian_trigger = {
+	custom_tooltip = {
+		text = religion_openly_glorian_trigger_tooltip
+		hidden_trigger = {
+			OR = {
+				religion = glorian
+			}
+		}
+	}
+}
+
 has_dharmic_religion_trigger = {
 	OR = {
 		religion = hindu
