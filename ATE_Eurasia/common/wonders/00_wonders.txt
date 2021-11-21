@@ -3305,3 +3305,131 @@ wonder_ranganathaswamy = {
 		}
 	}
 }
+# 2A. The Motherland Calls
+wonder_motherland_calls = {
+	allow_coastal = yes
+	allow_construction = no
+	picture = GFX_wonder_strip_ruler_statue
+	model = wonder_statue
+	potential = {
+		trigger_if = {
+			limit = {
+				OR = {
+				culture_group = russian
+				culture_group = ruthenian
+				religion = proletcult
+				}
+			}
+		}
+	}
+	active = {
+		ROOT = {
+			trigger_if = {
+			OR = {
+				culture_group = russian
+				culture_group = ruthenian
+				religion = proletcult
+				}
+			}
+		}
+	}
+	flags = {
+		statue
+		inspires_greatness
+		is_destructible
+		cost_low
+	}
+	available_upgrades = {
+		# UNIQUE:
+		upgrade_plating_bronze
+		upgrade_plating_silver
+		upgrade_plating_gold
+		upgrade_statues_family
+		upgrade_watcher_of_giants
+
+		# OTHER:
+		upgrade_roads
+		upgrade_watchtower_network
+		upgrade_spikes
+		upgrade_tower
+		upgrade_hypocausts
+		upgrade_heating_pipes
+		upgrade_retinue
+		upgrade_golden_crown
+		upgrade_road_tolls
+		upgrade_tavern
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 100
+		gold_cost_flat = 1500
+		gold_cost_ticking = 4
+		restore_time = 150
+		loot_time = 20
+		restore_cost_flat = 400
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+			local_revolt_risk = -0.005
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.05
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 200
+		gold_cost_flat = 1700
+		gold_cost_ticking = 4
+		restore_time = 200
+		loot_time = 20
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+			local_revolt_risk = -0.005
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 1900
+		gold_cost_ticking = 4
+		restore_time = 200
+		loot_time = 2
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+			local_revolt_risk = -0.005
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.2
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 400
+		gold_cost_flat = 2100
+		gold_cost_ticking = 4
+		restore_time = 200
+		loot_time = 2
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+			local_revolt_risk = -0.005
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.3
+			short_reign_length = -1
+		}
+	}
+}
