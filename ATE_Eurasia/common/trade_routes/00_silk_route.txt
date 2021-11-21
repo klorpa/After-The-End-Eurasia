@@ -16,11 +16,20 @@ silk_road = {
 		1355 # Road to Far East
 		2005 # South Road to China
 		2736 # North Road to China
+		3124 # Middle Road to China
 	}
 
-	# Trans-Siberian Railway
+	#Trans-Siberian Railway Start
 	path = {
-		1355 1092 1091 1246 1242 1200 988 990 991 992 993 994 1206 1205 1204 1208 996 1226 1227 1221 1220 1222 1223 1224 726 730 725 731 635 636 761 759 752 735 734 629
+		1355 1092 1091 1246 1242 1200
+	}
+	#Mongolian route
+	path = {
+		3124 2783 2754 1257 1256 1255 1254 1253 1200
+	}
+	#Trans-Siberian Railway
+	path = {
+		1200 988 990 991 992 993 994 1206 1205 1204 1208 996 1226 1227 1221 1220 1222 1223 1224 726 730 725 731 635 636 761 759 752 735 734 629
 	}
 	#Moscow Line
 	path = {

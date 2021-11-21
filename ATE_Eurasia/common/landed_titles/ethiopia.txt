@@ -2,15 +2,15 @@ e_ethiopia = {
 	color={ 250 204 94 }
 	color2={ 255 255 20 }
 	
-	capital = 3105 #Bahir Dar
+	capital = 3072 #Gondar
 			
-	k_amhara = {
+	k_semien = {
 		color={ 230 216 83 }
 		color2={ 255 255 255 }
 
-		capital = 3105 #Bahir Dar
+		capital = 3072 #Gondar
 			
-		d_amhara = {
+		d_gojjam = {
 			color={ 243 210 42 }
 			color2={ 255 255 255 }
 
@@ -27,6 +27,18 @@ e_ethiopia = {
 				b_bure = {}
 				b_finote_selam = {}
 				b_durbete = {}
+			}
+			c_agew_awi = {
+				color={ 146 241 100 }
+				color2={ 255 255 255 }
+					
+				b_injibara = {}
+				b_dangla = {}
+				b_chagni = {}
+				b_ankasha_guagusa = {}
+				b_adis_kidame = {}
+				b_ciacu = {}
+				b_kessa = {}
 			}
 			c_metekel = {
 				color={ 154 159 132 }
@@ -52,6 +64,13 @@ e_ethiopia = {
 				b_digua_tsion = {}
 				b_ginde_weyin = {}
 			}
+		}
+		d_wollo = {
+			color={ 243 210 42 }
+			color2={ 255 255 255 }
+
+			capital = 3111 #Semien Wollo
+			
 			c_semien_wollo = {
 				color={ 199 125 52 }
 				color2={ 255 255 255 }
@@ -159,12 +178,48 @@ e_ethiopia = {
 				holy_site = miaphysite
 				
 				b_mekele = {}
-				b_aksum = {}
-				b_adigrat = {}
-				b_wikro = {}
 				b_adigudem = {}
 				b_kola_tembien = {}
 				b_alamata = {}
+				b_maychew = {}
+				b_korem = {}
+				b_ambalage = {}
+			}
+			c_aksum = {
+				color={ 189 175 52 }
+				color2={ 255 255 255 }
+					
+				b_aksum = {}
+				b_adwa = {}
+				b_abiy_addi = {}
+				b_rama = {}
+				b_yeha = {}
+				b_enticho = {}
+				b_adi_selam = {}
+			}
+			c_adigrat = {
+				color={ 213 185 123 }
+				color2={ 255 255 255 }
+					
+				b_adigrat = {}
+				b_wikro = {}
+				b_mugulat = {}
+				b_agula = {}
+				b_mahila = {}
+				b_ham = {}
+				b_mengela = {}
+			}
+			c_himora = {
+				color={ 200 158 24 }
+				color2={ 255 255 255 }
+					
+				b_himora = {}
+				b_may_cadera = {}
+				b_aiaie = {}
+				b_ruwassa = {}
+				b_akwi = {}
+				b_dansheha = {}
+				b_adi_ramets = {}
 			}
 		}
 		d_afar = {

@@ -633,11 +633,20 @@ e_turkestan = {
 			
 			capital = 926 #Uralsk
 
+			kazakh = "Oral"
+			bashkir = "Oral"
+
 			c_uralsk = {
 				color={ 102 100 168 }
 				color2={ 255 255 255 }
 				
-				b_uralsk = {}
+				kazakh = "Oral"
+				bashkir = "Oral"
+				
+				b_uralsk = {
+					kazakh = "Oral"
+					bashkir = "Oral"
+				}
 				b_tasqala = {}
 				b_yanvartsevo = {}
 				b_novenskoye = {}
