@@ -7610,6 +7610,7 @@ coat_of_arms = {
 2000085 = { name="Badziag" culture=kashubian}
 2000086 = { name="Wejer" culture=kashubian}
 2000087 = { name="Barta" culture=kashubian}
+2000088 = { name="Wenta" culture=kashubian}
 
 2001000 = { name="Gordon" culture=highlander 
 	coat_of_arms = { 
@@ -9087,33 +9088,33 @@ coat_of_arms = {
 2010096 = { name="Ar Bigot" culture=breton }
 2010097 = { name="Ar Bihan" culture=breton }
 2010098 = { name="Ar Bouedek" culture=breton }
-2010099 = { name="Le Bourhis" culture=breton }
-2010100 = { name="Le Bras" culture=breton }
-2010101 = { name="Le Bris" culture=breton }
-2010102 = { name="Le Cam" culture=breton }
+2010099 = { name="Ar Bourhis" culture=breton }
+2010100 = { name="Ar Bras" culture=breton }
+2010101 = { name="Ar Bris" culture=breton }
+2010102 = { name="Ar Cam" culture=breton }
 2010103 = { name="Ar Cleac'h" culture=breton }
-2010104 = { name="Le Diberder" culture=breton }
-2010105 = { name="Le Foll" culture=breton }
-2010106 = { name="Le Fur" culture=breton }
-2010107 = { name="Le Gall" culture=breton }
-2010108 = { name="Le Goff" culture=breton }
-2010109 = { name="Le Gourriérec" culture=breton }
-2010110 = { name="Le Guen" culture=breton }
-2010111 = { name="Le Guillou" culture=breton }
-2010012 = { name="Le Hénaff" culture=breton }
-2010113 = { name="Le Houérou" culture=breton }
-2010114 = { name="Le Hyaric" culture=breton }
-2010115 = { name="Le Marrec" culture=breton }
-2010116 = { name="Le Meur" culture=breton }
-2010117 = { name="Le Moal" culture=breton }
-2010118 = { name="Le Mouël" culture=breton }
+2010104 = { name="Ar Diberder" culture=breton }
+2010105 = { name="Ar Foll" culture=breton }
+2010106 = { name="Ar Fur" culture=breton }
+2010107 = { name="Ar Gall" culture=breton }
+2010108 = { name="An Goff" culture=breton }
+2010109 = { name="Ar Gourrierec" culture=breton }
+2010110 = { name="Ar Guen" culture=breton }
+2010111 = { name="Ar Guillou" culture=breton }
+2010012 = { name="Ar Hénaff" culture=breton }
+2010113 = { name="Ar Houérou" culture=breton }
+2010114 = { name="Ar Hyaric" culture=breton }
+2010115 = { name="Ar Marrec" culture=breton }
+2010116 = { name="Ar Meur" culture=breton }
+2010117 = { name="Ar Moal" culture=breton }
+2010118 = { name="Ar Mouël" culture=breton }
 2010119 = { name="Loneux" culture=breton }
-2010120 = { name="Le Pennec" culture=breton }
-2010121 = { name="Le Quellec" culture=breton }
-2010122 = { name="Le Roux" culture=breton }
-2010123 = { name="Le Sourd" culture=breton }
-2010124 = { name="Le Tac" culture=breton }
-2010125 = { name="Le Tallec" culture=breton }
+2010120 = { name="Ar Pennec" culture=breton }
+2010121 = { name="Ar Quellec" culture=breton }
+2010122 = { name="Ar Roux" culture=breton }
+2010123 = { name="Ar Sourd" culture=breton }
+2010124 = { name="Ar Tac" culture=breton }
+2010125 = { name="Ar Tallec" culture=breton }
 2010126 = { name="Léonnec" culture=breton }
 2010127 = { name="Leroue" culture=breton }
 2010128 = { name="Louarn" culture=breton }
@@ -14882,8 +14883,32 @@ coat_of_arms = {
 }
 2033227 = { name="da Varazze" culture=ligurian used_for_random = no}
 2033228 = { name="Delle Piane" culture=ligurian used_for_random = no}
-2033229 = { name="Crêuza" culture=ligurian used_for_random = no}
-2033230 = { name="Fracchia" culture=ligurian }
+2033229 = { name="Crêuza" culture=ligurian used_for_random = no
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 27
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2033230 = { name="Fracchia" culture=ligurian 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2033231 = { name="Mameli" culture=ligurian }
 
 2034001 = { name="Da Rold" culture=venetian }
@@ -15358,7 +15383,7 @@ coat_of_arms = {
 2035188 = { name="Inconis" culture=sardinian }
 2035189 = { name="Scanu" culture=sardinian }
 2035190 = { name="Saragat" culture=sardinian }
-2035191 = { name="Tilipa" culture=sardinian
+2035191 = { name="Dimonios" culture=sardinian
 	coat_of_arms = { 
 		template = 0
 		layer = {
@@ -15371,6 +15396,8 @@ coat_of_arms = {
 		}
 	}
 }
+2035192 = { name="Maimone" culture=sardinian }
+2035193 = { name="Arba" culture=sardinian }
 
 2036001 = { name="Santarossa" culture=friulian }
 2036002 = { name="Mattiussi" culture=friulian }
@@ -16083,7 +16110,7 @@ coat_of_arms = {
 2038217 = { name="Zaouche" culture=francarabe }
 2038218 = { name="Zarrouk" culture=francarabe }
 2038219 = { name="Zribi" culture=francarabe }
-2038220 = { name="Fekir" culture=francarabe used_for_random = no
+2038220 = { name="Benyazid" culture=francarabe used_for_random = no
 	coat_of_arms = { 
 		template = 0
 		layer = {
