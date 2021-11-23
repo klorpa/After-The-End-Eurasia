@@ -117,3 +117,27 @@ d_order_of_malta = {
 	
 	mercenary_type = d_order_of_malta_composition
 }
+d_faustinian_knights = {
+	
+	color = { 142 216 255 }
+	color2 = { 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 805 #Elblag
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	culture = warmzur
+	religion = mariavite
+	
+	short_name = yes
+	landless = yes
+	holy_order = yes
+	primary = yes
+	monthly_income = 6
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = d_faustinian_knights_composition
+}
