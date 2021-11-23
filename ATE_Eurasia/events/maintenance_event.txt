@@ -62,7 +62,12 @@ character_event = {
 			remove_trait = armenian_rite
 		}
 		else_if = {
-			limit = { culture = lebneni }
+			limit = { 
+				culture = lebneni 
+				NOT = {
+					culture = armenian
+				}
+			}
 			add_trait = maronite_rite
 			remove_trait = latin_rite
 			remove_trait = alexandrian_rite
