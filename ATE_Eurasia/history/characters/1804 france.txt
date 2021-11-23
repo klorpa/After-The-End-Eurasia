@@ -3365,7 +3365,9 @@
 	trait=poet
 	trait=gregarious
 	2628.9.1={birth=yes
-		culture=provencal}
+		culture=provencal
+	}
+	2628.9.2={effect={set_character_flag=rite_selected}}
 }
 1804198={
 	name="Mélinée"
@@ -3379,7 +3381,8 @@
 	trait=sympathy_old_world_cults
 	trait=gregarious
 	2635.8.22={birth=yes
-		culture=provencal}
+		culture=provencal
+	}
 	2659.1.1={add_spouse=1804197}
 	2659.1.1={effect={add_lover=1804197}}
 }

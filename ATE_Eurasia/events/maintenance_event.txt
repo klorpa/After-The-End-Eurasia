@@ -38,7 +38,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		religion = catholic
+		AND = {
+			religion = catholic
+			NOT = {
+				has_character_flag = rite_selected
+			}
+		}
 	}
 	
 	immediate = {
@@ -1682,61 +1687,6 @@ character_event = { #Madhab Trait Dispensing (on_startup and on_adulthood checki
 			remove_trait = hanbali_aas
 			remove_trait = hanafi_aas
 			remove_trait = shafii_aas
-		}
-	}
-}
-character_event = {
-	id = maintenance.6
-	hide_window = yes
-	is_triggered_only = yes
-	
-	trigger = {
-		religion = calvinist
-	}
-	
-	immediate = {
-		if = {
-			limit = {
-				OR = {
-					capital_scope = {region = custom_old_germany}
-					capital_scope = {region = custom_pannorian_basin}
-					capital_scope = {region = custom_switzerland}
-					capital_scope = {region = custom_old_france}
-				}
-			}
-			add_trait = school_zwingli
-			remove_trait = school_calvin
-			remove_trait = school_knox
-			remove_trait = school_fischli
-		}
-		else_if = {
-			limit = {
-				capital_scope = {region = custom_benelux}
-			}
-			add_trait = school_calvin
-			remove_trait = school_calvin
-			remove_trait = school_zwingli
-			remove_trait = school_fischli
-		}
-		else_if = {
-			limit = {
-				capital_scope = {region = custom_scotland}
-				culture = highlander
-			}
-			add_trait = school_knox
-			remove_trait = school_fischlis
-			remove_trait = school_calvin
-			remove_trait = school_zwingli
-		}
-		else_if = {
-			limit = {
-				capital_scope = {region = custom_scotland}
-				culture = lowlander
-			}
-			add_trait = school_fischlis
-			remove_trait = school_knox
-			remove_trait = school_calvin
-			remove_trait = school_zwingli
 		}
 	}
 }
