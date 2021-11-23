@@ -87,6 +87,9 @@ character_event = {
 						culture_group = carpathian
 					}
 				}
+				NOT = {
+					culture = armenian
+				}
 				has_global_flag = byzantine_rite_restored
 			}
 			add_trait = byzantine_rite
@@ -100,6 +103,9 @@ character_event = {
 				culture = masri
 				culture_group = habesha
 				has_global_flag = alexandrian_rite_restored
+				NOT = {
+					culture = armenian
+				}
 			}
 			add_trait = alexandrian_rite
 			remove_trait = latin_rite
