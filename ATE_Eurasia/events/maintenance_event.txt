@@ -48,7 +48,13 @@ character_event = {
 	
 	immediate = {
 		if = {
-			limit = { capital_scope = {region = custom_western_europe} }
+			limit = { 
+				OR = {
+					capital_scope = {region = custom_western_europe}
+					culture = croatian
+					culture = slovenian
+				}
+			}
 			add_trait = latin_rite
 			remove_trait = byzantine_rite
 			remove_trait = alexandrian_rite
