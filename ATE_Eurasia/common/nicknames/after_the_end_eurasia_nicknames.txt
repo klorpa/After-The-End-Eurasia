@@ -36,7 +36,38 @@ nick_the_wanderer = {}
 nick_lecyper = {}
 nick_niemen = {}
 nick_young_lion = {}
-nick_the_red = {}
+nick_the_red = {
+	allow = {
+		ruled_years = 10
+		OR = {
+			has_character_modifier = cannibal
+			trait = cannibal_trait
+			AND = {
+				trait = wroth
+				OR = {
+					is_any_kinslayer_trigger = yes
+					trait = excommunicated
+					trait = impaler
+				}
+			}
+		}
+	}
+	chance = {
+		factor = 3
+		modifier = {
+			factor = 2
+			is_any_kinslayer_trigger = yes
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				trait = cannibal_trait
+				has_character_modifier = cannibal
+			}
+		}
+	}
+}
+nick_pointed_beard = {}
 nick_the_silk_stocking = {
 	allow = {
 		OR = {

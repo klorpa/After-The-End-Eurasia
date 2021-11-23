@@ -2,14 +2,17 @@
 title=c_sovetsk
 
 # Settlements
-max_settlements=4
+max_settlements=3
 
-b_sovetsk=castle
-b_neman=city
-b_polessk=temple
+b_sovetsk=tribal
+b_chernyakhovsk=temple
 
 # Misc
 culture=kaliningradyets
 religion=proletcult
 
 #History
+
+900.1.1={b_chernyakhovsk=tp_town_1}
+901.1.1={b_chernyakhovsk=tp_town_2}
+902.1.1={b_chernyakhovsk=tp_town_3}

@@ -5508,6 +5508,10 @@
 1948132 = { name="von Thadden" culture=ossi }
 1948133 = { name="Bredel" culture=ossi }
 1948134 = { name="Nipkow" culture=ossi }
+1948135 = { name="von Berghain" culture=ossi }
+1948136 = { name="von Mirov" culture=ossi }
+1948137 = { name="von Bülow" culture=ossi }
+1948138 = { name="Dutschke" culture=ossi }
 
 1949000 = { name="Lahm" culture=bavarian used_for_random=no
 	coat_of_arms = { 
@@ -6828,6 +6832,7 @@ coat_of_arms = {
 1969048 = { name="Jánošík" culture=slovak}
 1969049 = { name="Klepacz" culture=slovak}
 1969050 = { name="Vojtaššák" culture=slovak}
+1969051 = { name="Jánošík" culture=slovak}
 
 1970000 = { name="Acker" culture=palatinate }
 1970001 = { name="von Annwailer" culture=palatinate }
@@ -8305,14 +8310,15 @@ coat_of_arms = {
 	}
 } #sun king dynasty
 2007247 = { name="Kerkorian" culture=provencal }
-2007248 = { name="Sarajian" culture=provencal }
+2007248 = { name="Saradjian" culture=provencal }
 2007249 = { name="Aznavourian" culture=provencal }
 2007250 = { name="Berbérian" culture=provencal }
 2007251 = { name="Ndiaye" culture=provencal }
 2007252 = { name="Diop" culture=provencal }
 2007253 = { name="Cissé" culture=provencal }
 2007254 = { name="Fall" culture=provencal }
-2007255 = { name="Shahnurian" culture=provencal }
+2007255 = { name="Shahnurian" culture=provencal used_for_random=no }
+2007256 = { name="Coustant" culture=provencal }
 
 2008001 = { name="Andrau" culture=occitan }
 2008002 = { name="Arnal" culture=occitan }
@@ -12956,7 +12962,7 @@ coat_of_arms = {
 2026170 = { name="di Monfrà" culture=piedmontese }
 2026171 = { name="Morera" culture=piedmontese }
 2026172 = { name="Villafranca-Soissons" culture=piedmontese }
-2026173 = { name="Tornaforte-Di villa" culture=piedmontese used_for_random= no}
+2026173 = { name="Tornaforte-Di Villa" culture=piedmontese used_for_random= no}
 
 2027001 = { name="Cuntrera" culture=sicilian }
 2027002 = { name="Caruana" culture=sicilian }
@@ -15396,8 +15402,32 @@ coat_of_arms = {
 		}
 	}
 }
-2035192 = { name="Maimone" culture=sardinian }
-2035193 = { name="Arba" culture=sardinian }
+2035192 = { name="Maimone" culture=sardinian 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2035193 = { name="Arba" culture=sardinian 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 2036001 = { name="Santarossa" culture=friulian }
 2036002 = { name="Mattiussi" culture=friulian }
@@ -16417,6 +16447,7 @@ coat_of_arms = {
 		}
 	}
 }
+2039202 = { name="Barthold" culture=alsatian }
 
 2040001 = { name="Qanapiianov" culture=kazakh }
 2040002 = { name="Shahanov" culture=kazakh }
@@ -18777,7 +18808,7 @@ coat_of_arms = {
 		}
 	}
 }
-2057010 = { name="Esref" culture=rumelian }
+2057010 = { name="Eshref" culture=rumelian }
 2057011 = { name="Yilmaz" culture=rumelian }
 2057012 = { name="Çelik" culture=rumelian }
 2057013 = { name="Öztürk" culture=rumelian }
@@ -21435,6 +21466,7 @@ coat_of_arms = {
 2080076 = { name="Muzepper" culture=uighur }
 2080077 = { name="Iminjan" culture=uighur }
 2080078 = { name="Ekber" culture=uighur }
+2080079 = { name="Tiyip" culture=uighur }
 
 2081000 = { name="Temirezlani" culture=karachay }
 2081001 = { name="Batdilani" culture=karachay }
@@ -22681,7 +22713,6 @@ coat_of_arms = {
 2097008 = { name="Rugbat" culture=tigre }
 2097009 = { name="Alnoor" culture=tigre }
 
-
 2098000 = { name="Amen" culture=amhara }
 2098001 = { name="Aselafi" culture=amhara }
 2098002 = { name="Boghossian" culture=amhara }
@@ -23252,6 +23283,7 @@ coat_of_arms = {
 2104042 = { name="Warda" culture=assyrian }
 2104043 = { name="Bulos" culture=assyrian }
 2104044 = { name="Hariri" culture=assyrian }
+2104045 = { name="Noohra" culture=assyrian }
 
 
 2105000 = { name="Jibran" culture=lebneni 

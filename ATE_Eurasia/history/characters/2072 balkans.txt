@@ -23,6 +23,71 @@
 	trait = ambitious
 		2648.6.9 = { birth = yes }
 	}
+2072003 = {
+	name = "Mardochaios"
+	dynasty = 1821000
+	dna="mdhahdqgbbcz"
+	culture = romaniote
+	religion = ivri
+	trait = mastermind_theologian
+	trait = brave
+	trait = erudite
+	trait = charitable
+	trait = theologian
+		2606.4.12 = { birth = yes }
+		2628.6.23 = { add_spouse = 2072004 }
+		
+	}
+2072004 = {
+	name = "Iohana"
+	dynasty = 1821003
+	culture = romaniote
+	religion = ivri
+	female = yes
+		2612.5.20 { birth = yes }
+		2628.6.23 { add_spouse 2072003 }
+	}
+2072005 = {
+	name = "Ioseph"
+	dynasty = 1821000
+	religion = ivri
+	culture = romaniote
+	father=2072003
+	mother=2072004
+		2630.11.9 { birth = yes }
+	}
+2072006 = {
+	name = "Isaak"
+	dynasty = 1821000
+	religion = ivri
+	culture = romaniote
+	father=2072003
+	mother=2072004
+		2640.3.8 { birth = yes }
+	}
+2072007 = {
+	name = "Cevat"
+	dynasty = 2057001
+	religion = ruhi
+	culture = rumelian
+		2636.8.7 { birth = yes }
+	}
+2072008 = {
+	name = "Georgios"
+	dynasty = 2072068
+	dna = "degfdribbbr"
+	religion = neoplatonist
+	culture = greek
+	trait = charismatic_negotiator
+	trait = poet
+	trait = erudite
+	trait = clubfooted
+	trait = fair
+	trait = hedonist
+	trait = lustful
+	trait = charitable
+		2636.4.19 { birth = yes }
+	}
 2072009 = {
 	name = "Dimitris"
 	dynasty = 2072071
@@ -172,72 +237,7 @@
 	2630.1.11={birth=yes}
 	2700.10.1={death=yes}
 }
-2072003 = {
-	name = "Mardochaios"
-	dynasty = 1821000
-	dna="mdhahdqgbbcz"
-	culture = romaniote
-	religion = ivri
-	trait = mastermind_theologian
-	trait = brave
-	trait = erudite
-	trait = charitable
-	trait = theologian
-		2606.4.12 = { birth = yes }
-		2628.6.23 = { add_spouse = 2072004 }
-		
-	}
-2072004 = {
-	name = "Iohana"
-	dynasty = 1821003
-	culture = romaniote
-	religion = ivri
-	female = yes
-		2612.5.20 { birth = yes }
-		2628.6.23 { add_spouse 2072003 }
-	}
-2072005 = {
-	name = "Ioseph"
-	dynasty = 1821000
-	religion = ivri
-	culture = romaniote
-	father=2072003
-	mother=2072004
-		2630.11.9 { birth = yes }
-	}
-2072006 = {
-	name = "Isaak"
-	dynasty = 1821000
-	religion = ivri
-	culture = romaniote
-	father=2072003
-	mother=2072004
-		2640.3.8 { birth = yes }
-	}
-2072007 = {
-	name = "Cevat"
-	dynasty = 2057001
-	religion = ruhi
-	culture = rumelian
-		2636.8.7 { birth = yes }
-	}
-2072008 = {
-	name = "Georgios"
-	dynasty = 2072068
-	dna = "degfdribbbr"
-	religion = neoplatonist
-	culture = greek
-	trait = charismatic_negotiator
-	trait = poet
-	trait = erudite
-	trait = clubfooted
-	trait = fair
-	trait = hedonist
-	trait = lustful
-	trait = charitable
-		2636.4.19 { birth = yes }
-	}
-20720010 = {
+2072100 = {
 	name = "Spyridon"
 	dynasty = 2072052
 	religion = neoplatonist
@@ -245,7 +245,7 @@
 	trait = mystic
 	2634.1.2 { birth = yes }
 }
-20720011 = {
+2072101 = {
 	name = "Tomica"
 	dynasty = 7000052
 	religion = catholic
@@ -255,28 +255,28 @@
 		give_nickname=nick_the_liberator
 	}
 }
-20720012 = {
+2072102 = {
 	name = "Marko"
 	dynasty = 2078028
 	religion = jedinstvo
 	culture = croatian
 	2642.1.1 { birth = yes }
 }
-20720013 = {
+2072103 = {
 	name = "Kenan"
 	dynasty = 2092100
 	religion = jedinstvo
 	culture = bosniak
 	2642.1.1 { birth = yes }
 }
-20720014 = {
+2072104 = {
 	name = "Zlatko"
 	dynasty = 2092095
 	religion = jedinstvo
 	culture = bosniak
 	2609.1.1 { birth = yes }
 }
-20720015 = {
+2072105 = {
 	name = "Slobodanka"
 	dynasty = 7000045
 	religion = jedinstvo
@@ -284,7 +284,7 @@
 	female=yes
 	2649.1.1 { birth = yes }
 }
-20720016 = {
+2072106 = {
 	name = "Fabijan"
 	dynasty = 7000007
 	religion = catholic
@@ -292,7 +292,7 @@
 	trait = sympathy_old_world_cults
 	2641.1.1 { birth = yes }
 }
-20720017 = {
+2072107 = {
 	name = "Irnes"
 	dynasty = 2048072
 	religion = jedinstvo
@@ -300,14 +300,14 @@
 	culture = montenegrin
 	2638.1.1 = { birth = yes }
 }
-20720018 = {
+2072108 = {
 	name = "Šahbaz"
 	dynasty = 2048071
 	religion = jedinstvo
 	culture = bosniak
 	2626.1.1 = { birth = yes }
 }
-20720019 = {
+2072109 = {
 	name = "Suada"
 	dynasty = 2092069
 	female=yes
@@ -315,33 +315,33 @@
 	culture = bosniak
 	2647.1.1 = { birth = yes }
 }
-20720020 = {
+2072110 = {
 	name = "Saša"
 	dynasty = 2078099
 	religion = orthodox
 	culture = serbian
 	2631.1.1 = { birth = yes }
 }
-20720021 = {
+2072111 = {
 	name = "Jelena"
 	dynasty = 2078087
 	female=yes
 	trait=twin
 	religion = jedinstvo
 	culture = serbian
-	father=20720023
+	father=2072113
 	2623.1.1 = { birth = yes }
 }
-20720022 = {
+2072112 = {
 	name = "Ostoje"
 	dynasty = 2078087
 	trait=twin
 	religion = jedinstvo
 	culture = serbian
-	father=20720023
+	father=2072113
 	2623.1.1 = { birth = yes }
 }
-20720023 = {
+2072113 = {
 	name = "Nikolaj"
 	dynasty = 2078087
 	religion = jedinstvo
@@ -349,7 +349,7 @@
 	2591.1.1 = { birth = yes }
 	2655.1.1 = { death = yes }
 }
-20720024 = {
+2072114 = {
 	name = "Branimir"
 	dynasty = 7000050
 	religion = catholic
@@ -358,49 +358,68 @@
 	add_claim = d_dalmatia
 	}
 }
-20720025 = {
+2072115 = {
 	name = "Tripo"
 	dynasty = 2048047 #Kovinic
 	religion = jedinstvo
 	culture = montenegrin
 	2638.1.1 = { birth = yes }
 }
-20720026 = {
+2072116 = {
 	name = "Krile"
 	dynasty = 2048090 #Zmajevic
 	religion = jedinstvo
 	culture = montenegrin
 	2638.1.1 = { birth = yes }
 }
-20720027 = {
+2072117 = {
 	name = "Lekso"
 	dynasty = 2078100 #Saicic
 	religion = orthodox
 	culture = serbian
 	2638.1.1 = { birth = yes }
 }
-20720028 = {
+2072118 = {
 	name = "Muhamet"
 	dynasty = 2049116 #Mami
 	religion = ruhi
 	culture = albanian
 	2638.1.1 = { birth = yes }
 }
-20720029 = {
+2072119 = {
 	name = "Petar"
 	dynasty = 7000130 #Kruzic
 	religion = catholic
 	culture = croatian
 	2638.1.1 = { birth = yes }
 }
-20720030 = {
+2072120 = {
 	name = "Slobodo"
 	dynasty = 2926069 #Vlaxicko
-	religion = sunni
+	religion = ruhi
 	culture = romani
 	2638.5.12 = { birth = yes }
 }
-20720100 = {
+2072121={
+	name="Faruk"
+	dynasty=2092068 #Islamovic
+	religion=ruhi
+	culture=bosniak
+	diplomacy=8
+	martial=8
+	stewardship=1
+	intrigue=5
+	learning=7
+	trait=elusive_shadow
+	trait=poet
+	trait=socializer
+	trait=brave
+	trait=greedy
+	trait=gregarious
+	trait=honest
+	2605.6.2={birth=yes}
+}
+2072200 = {
 	name = "Simona"  #placeholder as fuck
 	dynasty = 2047196 #Derzhanski
 	female = yes
@@ -412,5 +431,6 @@
 	trait = ugly
 	trait = gamer
 	trait = humble
+	trait=placeholder_char_trait
 	2634.1.1 = { birth = yes }
 }

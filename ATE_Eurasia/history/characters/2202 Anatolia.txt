@@ -614,21 +614,19 @@
 	female=yes
 	father=2202053
 	dynasty=2057009
-	culture=eastafrican
+	culture=central_anatolian
 	religion=nizami
-	2610.1.1 = {
-		birth=yes 
-		culture=central_anatolian
-	}
+	2610.1.1 = {birth=yes}
 	2660.1.1 = {death=yes}
 }
 2202055={
 	name="Murat"
 	dynasty=2057010 #Esref
-	culture=rumelian
+	culture=amhara
 	religion=nizami
 	2610.1.1 = {birth=yes}
 	2635.1.1 = {
+		culture=toros_mountain
 		add_spouse = 2202054
 	}
 	2660.1.1 = {death=yes}
@@ -743,7 +741,7 @@
 }
 2202060={#Matrilineal Connected to the Post-Event Osmanoglu
 	name="Zenci Musa"
-	dynasty=2057010 #Esref
+	dynasty=2057010 #Eshref
 	father=2202055
 	mother=2202054
 	culture=eastafrican

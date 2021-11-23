@@ -205,6 +205,29 @@ d_avaldsnes_historiesenter = {
 	
 	mercenary_type = d_avaldsnes_historiesenter_composition
 }
+d_racing_pirates = {
+
+	color = { 0 159 227 }
+	color2 = { 255 255 255 }
+	
+	capital = 448 #Bas-Rhin
+	
+	short_name = yes
+	
+	culture = alsatian
+	religion = calvinist
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = d_pirates_of_the_league_composition
+}
 d_pirates_of_the_league = {
 
 	color = { 116 185 35 }
@@ -239,6 +262,29 @@ d_loksche = {
 	
 	culture = saxon
 	religion = chronicler
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = d_loksche_composition
+}
+d_iron_cavalry = {
+
+	color = { 255 242 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 1137 #Modena
+	
+	short_name = yes
+	
+	culture = romagnol
+	religion = catholic
 
 	title = "CAPTAIN"
 	foa = "CAPTAIN_FOA"
@@ -686,4 +732,27 @@ d_fifth_brigade = {
 	strength_growth_per_century = 1.0
 	
 	mercenary_type = d_fifth_brigade_composition
+}
+d_carpathian_highwaymen = {
+
+	color = { 140 140 140 }
+	color2 = { 255 255 255 }
+	
+	capital = 1032 #Zilina
+	
+	short_name = yes
+	
+	culture = slovak
+	religion = mariavite
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = d_carpathian_highwaymen_composition
 }

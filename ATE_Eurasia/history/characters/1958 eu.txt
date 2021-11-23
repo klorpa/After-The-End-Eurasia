@@ -320,7 +320,7 @@
 1958024={
 	name="Karl-Mehmet"
 	dynasty=1848065 #Engin
-	culture=badawi
+	culture=west_anatolian
 	religion=neuhumanist
 	trait=charismatic_negotiator
 	trait=zealous	
@@ -1382,7 +1382,7 @@
 	2536.4.27={death=yes}
 }
 1958151={
-	name="Orlande"
+	name="Orland"
 	dynasty=2061000 #Defacqz
 	culture=walloon
 	religion=neuhumanist
@@ -1858,7 +1858,7 @@
 	2609.9.10={death=yes}
 }
 1958201={
-	name="Orlande"
+	name="Orland"
 	dynasty=2061000 #Defacqz
 	culture=walloon
 	religion=neuhumanist
@@ -2219,6 +2219,7 @@
 	trait=diligent
 	trait=gamer
 	trait=fortune_builder
+	mother=1958320
 	2623.5.5={birth=yes
 	add_claim = d_brandenburg
 	add_claim = d_mecklenburg_vorpommern}
@@ -2236,6 +2237,8 @@
 	trait=scarred
 	trait=duelist
 	trait=groomed
+	father=1958327
+	mother=1958326
 	2605.9.26={birth=yes}
 	2700.1.1={death=yes}
 }
@@ -2266,6 +2269,7 @@
 	trait=charitable
 	trait=cynical
 	trait=lustful
+	father=1958311
 	2639.7.24={birth=yes
 		effect={set_character_flag=no_historical_family}
 	}
@@ -2277,6 +2281,7 @@
 	dynasty=1998034 #Ducman
 	culture=sorbian
 	religion=catholic
+	father=1958297
 	trait=zealous
 	trait=proud
 	trait=cruel
@@ -2904,4 +2909,335 @@
 	father=1958293
 	2535.2.4={birth=yes}
 	2577.10.1={death=yes}
+}
+1958295={
+	name="Irmgard"
+	female=yes
+	dynasty=1998001 #Zejler
+	culture=sorbian
+	religion=catholic
+	father=1958294
+	2567.8.19={birth=yes}
+	2616.11.22={death=yes}
+}
+1958296={
+	name="Radomjer"
+	dynasty=1998034 #Ducman
+	culture=sorbian
+	religion=catholic
+	2565.3.8={birth=yes}
+	2590.1.1={add_spouse=1958295}
+	2608.10.15={death=yes}
+}
+1958297={
+	name="Jaromjer"
+	dynasty=1998034 #Ducman
+	culture=sorbian
+	religion=catholic
+	father=1958296
+	mother=1958295
+	2594.8.7={birth=yes}
+	2649.12.30={death=yes}
+}
+1958298={
+	name="Kito"
+	father=1958280
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2260.5.5={birth=yes}
+	2318.10.6={death=yes}
+}
+1958299={
+	name="Mato"
+	father=1958298
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2288.5.5={birth=yes}
+	2335.10.6={death=yes}
+}
+1958300={
+	name="Fryko"
+	father=1958299
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2319.8.23={birth=yes}
+	2378.8.8={death=yes}
+}
+1958301={
+	name="Chryša"
+	father=1958300
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2341.11.26={birth=yes}
+	2395.7.28={death=yes}
+}
+1958302={
+	name="Hawštyn"
+	father=1958301
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2368.5.7={birth=yes}
+	2420.12.8={death=yes}
+}
+1958303={
+	name="Krabat"
+	father=1958302
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2400.7.24={birth=yes}
+	2462.11.2={death=yes}
+}
+1958304={
+	name="Hanzo"
+	father=1958303
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2425.3.29={birth=yes}
+	2480.12.26={death=yes}
+}
+1958305={
+	name="Chryša"
+	father=1958304
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2451.5.8={birth=yes}
+	2487.12.20={death=yes}
+}
+1958306={
+	name="Handrij"
+	father=1958305
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2475.9.2={birth=yes}
+	2510.8.7={death=yes}
+}
+1958307={
+	name="Juro"
+	father=1958306
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2508.8.21={birth=yes}
+	2566.2.15={death=yes}
+}
+1958308={
+	name="Barto"
+	father=1958307
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2541.4.4={birth=yes}
+	2598.12.9={death=yes}
+}
+1958309={
+	name="Staško"
+	father=1958308
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2559.6.23={birth=yes}
+	2632.8.11={death=yes}
+}
+1958310={
+	name="Jirko"
+	father=1958309
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2594.1.15={birth=yes}
+	2641.2.5={death=yes}
+}
+1958311={
+	name="Witko"
+	father=1958310
+	dynasty=1998000 #Šturm
+	culture=sorbian
+	religion=chronicler
+	2617.5.9={birth=yes}
+	2660.10.25={death=yes}
+}
+1958312={
+	name="Sven"
+	dynasty=1948135 #von Berghain
+	culture=ossi
+	religion=chronicler
+	trait=musician
+	2421.5.11={birth=yes}
+	2480.8.21={death=yes}
+}
+1958313={
+	name="Tama"
+	female=yes
+	dynasty=1948135 #von Berghain
+	culture=ossi
+	religion=chronicler
+	trait=musician
+	trait=homosexual
+	father=1958312
+	2457.7.3={birth=yes}
+	2490.7.24={death={
+			death_reason=death_battle
+			killer=1958139
+		}
+	}
+}
+1958314={
+	name="Walter"
+	dynasty=1948001 #Ampelmann
+	culture=upper_saxon
+	religion=neuhumanist
+	trait=shrewd
+	trait=deceitful
+	trait=peasant_leader
+	give_nickname=nick_pointed_beard
+	properties=ec0chd000000
+	2463.7.14={birth=yes}
+	2545.3.10={death=yes}
+}
+1958315={
+	name="Leopold"
+	dynasty=1948001 #Ampelmann
+	culture=ossi
+	religion=neuhumanist
+	father=1958314
+	2487.7.20={birth=yes}
+	2541.2.25={death=yes}
+}
+1958316={
+	name="Erich"
+	dynasty=1948001 #Ampelmann
+	culture=ossi
+	religion=neuhumanist
+	father=1958315
+	2514.8.21={birth=yes}
+	2578.4.1={death=yes}
+}
+1958317={
+	name="Emilia"
+	female=yes
+	dynasty=1948001 #Ampelmann
+	culture=ossi
+	religion=neuhumanist
+	father=1958316
+	2534.6.4={birth=yes}
+	2599.2.1={death=yes}
+}
+1958318={
+	name="Charlotte"
+	dynasty=1948001 #Ampelmann
+	female=yes
+	culture=ossi
+	religion=neuhumanist
+	mother=1958317
+	2556.1.20={birth=yes}
+	2622.12.11={death=yes}
+}
+1958319={
+	name="Sven"
+	dynasty=1948001 #Ampelmann
+	culture=ossi
+	religion=neuhumanist
+	mother=1958318
+	2579.9.18={birth=yes}
+	2655.3.2={death=yes}
+}
+1958320={
+	name="Mia"
+	female=yes
+	dynasty=1948001 #Ampelmann
+	culture=ossi
+	religion=neuhumanist
+	father=1958319
+	2600.6.22={birth=yes}
+	2660.4.17={death=yes}
+}
+1958321={
+	name="Oskar"
+	dynasty=1948136 #von Mirov
+	culture=ossi
+	religion=neuhumanist
+	2362.6.15={birth=yes}
+	2444.3.23={death=yes}
+}
+1958322={
+	name="Viktor"
+	dynasty=1948137 #von Bülow
+	culture=ossi
+	religion=neuhumanist
+	trait=poet
+	trait=groomed
+	trait=socializer
+	trait=humble
+	2402.11.12={birth=yes}
+	2489.8.22={death=yes}
+}
+1958323={
+	name="Rudolf"
+	dynasty=1948138 #Dutschke
+	culture=ossi
+	religion=chronicler
+	trait=peasant_leader
+	trait=sympathy_christendom
+	trait=just
+	2474.3.12={birth=yes}
+	2539.4.11={death=yes}
+}
+1958324={
+	name="Josua"
+	dynasty=1948138 #Dutschke
+	culture=ossi
+	religion=chronicler
+	father=1958323
+	2516.3.16={birth=yes}
+	2577.12.30={death=yes}
+}
+1958325={
+	name="Lena"
+	female=yes
+	dynasty=1948138 #Dutschke
+	culture=ossi
+	religion=chronicler
+	father=1958324
+	2545.10.11={birth=yes}
+	2612.10.3={death=yes}
+}
+1958326={
+	name="Tamara"
+	female=yes
+	dynasty=1948138 #Dutschke
+	culture=ossi
+	religion=chronicler
+	mother=1958325
+	2568.10.28={birth=yes}
+	2621.1.25={death=yes}
+}
+1958327={
+	name="Erich"
+	dynasty=1948017 #von Tresckow
+	culture=ossi
+	religion=chronicler
+	2571.10.10={birth=yes}
+	2589.1.1={add_spouse=1958326}
+	2613.5.14={death=yes}
+}
+1958328={
+	name="Tamer"
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=chronicler
+	trait=strategist
+	trait=legendary
+	trait=brave
+	2100.4.27={birth=yes
+		culture=rhenish}
+	2151.2.4={death=yes}
 }

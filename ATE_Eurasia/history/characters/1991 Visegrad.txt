@@ -2771,11 +2771,16 @@
 	culture=kaliningradyets
 	religion=proletcult
 	father=19911129
-	real_father=19911136
 	mother=19911139
 	trait=dull
 	trait=freckles
-	2655.3.25={birth=yes}
+	2655.3.25={birth=yes
+		effect={
+			c_19911136={
+				ROOT={set_real_father=PREV}
+			}
+		}
+	}
 }
 19911141={
 	name="Varvara"
@@ -2784,12 +2789,17 @@
 	culture=kaliningradyets
 	religion=proletcult
 	father=19911129
-	real_father=19911136
 	mother=19911139
 	trait=dull
 	trait=freckles
 	trait=fair
-	2658.8.28={birth=yes}
+	2658.8.28={birth=yes
+		effect={
+			c_19911136={
+				ROOT={set_real_father=PREV}
+			}
+		}
+	}
 }
 19911142={
 	name="Kolya"
@@ -2797,12 +2807,17 @@
 	culture=kaliningradyets
 	religion=proletcult
 	father=19911129
-	real_father=19911138
 	mother=19911139
 	trait=quick
 	trait=freckles
 	trait=fair
-	2665.1.19={birth=yes}
+	2665.1.19={birth=yes
+		effect={
+			c_19911138={
+				ROOT={set_real_father=PREV}
+			}
+		}
+	}
 }
 19911143={
 	name="Tédór"
@@ -3566,4 +3581,25 @@
 	trait=quick
 	learning=9
 	2631.3.24={birth=yes}
+}
+1991229={
+	name="Juraj" 
+	dynasty=1969051 #Janosik
+	culture=slovak
+	religion=mariavite
+	trait=tough_soldier
+	trait=strong
+	trait=fair
+	trait=duelist
+	trait=peasant_leader
+	trait=brave
+	trait=charitable
+	trait=just
+	trait=kind
+	diplomacy=8
+	martial=8
+	stewardship=4
+	intrigue=8
+	learning=3
+	2641.1.24={birth=yes}
 }

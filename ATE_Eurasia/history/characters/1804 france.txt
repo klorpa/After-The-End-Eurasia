@@ -1395,7 +1395,7 @@
 	name="Gustau"
 	dynasty=2008255 #Maíchelùn
 	culture=occitan
-	religion=catholic
+	religion=jacobin
 	diplomacy=4
 	martial=6
 	stewardship=9
@@ -3364,6 +3364,11 @@
 	trait=proud
 	trait=poet
 	trait=gregarious
+	diplomacy=7
+	martial=8
+	stewardship=5
+	intrigue=9
+	learning=7
 	2628.9.1={birth=yes
 		culture=provencal
 	}
@@ -3385,4 +3390,20 @@
 	}
 	2659.1.1={add_spouse=1804197}
 	2659.1.1={effect={add_lover=1804197}}
+}
+1804199={
+	name="Gastoun"
+	dynasty=2007256 #Coustant
+	culture=provencal
+	religion=calvinist
+	trait=school_calvin
+	trait=duelist
+	trait=charismatic_negotiator
+	trait=charitable
+	trait=sympathy_old_world_cults
+	trait=proud
+	trait=honest
+	trait=shy
+	trait=brave
+	2628.9.14={birth=yes}
 }

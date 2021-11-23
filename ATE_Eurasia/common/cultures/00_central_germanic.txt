@@ -134,7 +134,7 @@ central_germanic = {
 
 
 		male_names = {
-			Adam Àdri_Adrian Àlis_Aloysius Àmbrosi_Ambrosius Andoni_Anthony Àndrees_Andrew Anstett_Anastasius Arbogast Arno_Arnold 
+			Adam Àdri_Adrian Àlis_Aloysius Àmbrosi_Ambrosius Andoni_Anthony Àndrees_Andrew Anstett_Anastasius Arbogast Arno_Arnold August_Augustus 
 			Bànni_Benedict Bàrdelmebs_Bartholomew Bàrnabas_Barnaby Bàschtiàn_Sebastian Bènes_Bernard Bernhardt_Bernard Berri_Albert Blasi_Blaise Boll Brosi_Ambrosius 
 			Claus_Nicholas 
 			Damian Dani_Daniel Deew_David Dides_Didier Diebold_Theobald Dietri_Thierry Domes_Dominic Dürri_Arthur 
@@ -271,16 +271,17 @@ central_germanic = {
 			Gebhard Gerhard_Gerard Gerlach Geroslaus_Jaroslav Gottfried_Godfrey Günther Gustav
 			Hagen Hans Hans-Günther Hans-Otto Harald_Harold Harro Hartmut Heinrich_Henry Heinz_Henry Helmut Heribert_Herbert Hermann_Herman Hoimar Horst Hubert Hugo_Hugh
 			Ignaz_Ignatius Ilja_Elias Ingo
-			Jakob_James Jesko Joachim Jobst Jochen Johannes_John Josef_Joseph Julius Jürgen_George
+			Jakob_James Jesko Joachim Jobst Jochen Johannes_John Josef_Joseph Josua_Joshua Julius Jürgen_George
 			Karl_Carl Karl-Christian Karl-Fritz Karl-Gustav Karl-Heinz Karl-Ludwig Karl-Marx Karl-Robert Karl-Theodor Karsten_Christian Kevin Klaus_Nicholas Konrad_Conrad Kurt
 			Lenin Leon Leopold Lorenz_Lawrence Lothar Ludwig_Louis Lukas_Lucas
 			Manfred Marx Matthias_Matthew Markus_Mark Maximilian Meinhard Michael Miroslav Muhammed
 			Oskar_Oscar Oswald Ottmar Otto
 			Paul Peter Philipp_Philip 
 			Rainer Ralf_Ralph Reimar Reinhard Reinhold Robert Rudolf_Rudolph
-			Sascha Sebastian Siegfried_Sigfried Spartakus_Spartacus 
+			Sascha Sebastian Siegfried_Sigfried Spartakus_Spartacus Sven_Sweyn 
 			Theobald Theodor_Theodore Thomas Tobias Trabant 
-			Udo Ulbricht Ulrich Uwe
+			Udo Ulbricht Ulrich Uwe 
+			Viktor_Victor 
 			Waldemar_Vladimir Walter Werner Wilhelm_William Wolfgang Wolf-Dieter
 		}
 		female_names = {
@@ -288,19 +289,20 @@ central_germanic = {
 			Bernadette Brigitte Brunhilde
 			Cecilie Charlotte Christine
 			Dagmar 
-			Eleonore_Eleanor Elisabeth_Elizabeth Eva_Eve 
+			Eleonore_Eleanor Elisabeth_Elizabeth Emilia_Emily Eva_Eve 
 			Franziska_Frances
 			Gabriele_Gabrielle Gisela Greta Gudrun
 			Hannelore Hedwig Heide Heidrun Heike Henriette_Henrietta Hildegard
 			Ilse_Elsa Inge Irene
 			Johanna_Joan Jutta
 			Karin Karoline_Caroline Katarina_Catherine
-			Liselotte Luise_Louise Luxemburg
-			Manuela Margarete_Margaret Maria_Mary Mathilde_Matilda
+			Lena Liselotte Luise_Louise Luxemburg
+			Manuela Margarete_Margaret Maria_Mary Mathilde_Matilda Mia 
 			Natascha_Natasha Nora
 			Olga
 			Rosa Rosemarie_Rosemary
-			Sabine Simone Sylvia
+			Sabine Simone Sylvia 
+			Tama Tamara 
 			Ulrike Ursula Ute
 		}
 	
@@ -445,39 +447,47 @@ central_germanic = {
 		color = { 0.5 0.3 0.4 }
 
 		male_names = {
-			Adrian Alexander Alfons_Alphonse Alfred Andreas_Andrew Armin
+			Adrian Alexander_Alexander Alfons_Alphonse Alfred Andreas_Andrew Anton_Anthony Armin
 			Bastian_Sebastian Beat_Beatus Bendicht_Benedict Bernhard_Bernard Boris Bruno
-			Conrad
-			Daniel Dieter
+			Christian_Christian Conrad 
+			Daniel_Daniel Dieter
 			Eduard_Edward Elias_Elijah Elmar Emil Erich_Eric Ernst_Ernest
 			Fadri_Frederick Felix Franz_Francis
-			Hans Hansjörg Hanspeter Hansrudi Harald_Harold Heinz Herbert Hugo Huldrych 
+			Hans_John Hansjörg_John-George Hanspeter_John-Peter Hansrudi Harald_Harold Heinz Herbert Hugo Huldrych 
 			Ivan
-			Jakob_James Johann_John Jonas Jörg_George
+			Jakob_James Johann_John Jonas Jörg_George Josef_Joseph 
 			Karl_Charles Kurt
 			Leonhard_Leonard Luca_Luke Luzius
-			Marco_Mark Mario_Marius Martin Max Mirco Moritz_Maurice
+			Marco_Mark Mario_Marius Martin Max Michael_Michael Mirco Moritz_Maurice
 			Nico_Nicholas
-			Oscar Otto
+			Oscar Otto 
+			Peter_John-Peter 
 			Ralph Reto Robert Rolf Ruedi_Rudolf
-			Stefan_Stephen
-			Timo
+			Stephan_Stephen
+			Thomas_Thomas Timo
 			Udo Ueli_Ulrich Ulrich_Ulrich Urs_Ursus
 			Walo Walter Werner Willi_William Wolfgang
 			Yannick
 		}
 		female_names = {
-			Andrea Anna_Anne Annemarie
-			Chatrina_Catherine Clara
-			Daniela_Danielle
-			Heidi Hildegard
-			Jeanette Josepha Josephine Julitta
-			Laura
-			Margrith_Margaret Maria_Mary Marianne Monika_Monica
-			Regula Ruth
-			Sandra_Alexandra Silvia
-			Ursula
-			Verena
+			Alma Andrea Anna_Anne Annemarie Aurora Ava 
+			Barbara_Barbara Beatrix_Beatrice 
+			Camille Carolina_Caroline Chatrina_Catherine Christina_Christina Clara Claudia_Claudia 
+			Daniela_Danielle 
+			Elena_Helen Elisabeth_Elizabeth Ella Emilia_Emily 
+			Gabriela_Gabriella 
+			Heidi Hildegard 
+			Ida 
+			Jeanette Johanna_Joan Josepha Josephine Julitta 
+			Karin Katja_Catherine 
+			Laura Lea Louise_Louise Lucia_Lucy 
+			Margrith_Margaret Maria_Mary Marianne Matilda_Mathilda Mia Monika_Monica 
+			Nicole 
+			Olivia 
+			Regula Rosa_Rose Ruth 
+			Sandra_Alexandra Silvia Sofia_Sophia Susanna_Susan Sylvia 
+			Ursula 
+			Verena Victoria_Victoria 
 		}
 	
 		from_dynasty_prefix = "von "

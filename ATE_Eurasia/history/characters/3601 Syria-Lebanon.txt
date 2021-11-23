@@ -1,0 +1,897 @@
+#######################Syrian Characters######################
+
+3601000 = { #King of North Syria
+	name = "Khalaf" 
+	dynasty = 2103002 #Ujayli
+	culture = suriyi
+	religion = sunni
+	father = 3601001
+	trait = scholarly_theologian
+	trait = organizer
+	trait = poet
+	trait = feeble
+	trait = quick
+	trait = honest
+	trait = stubborn
+	trait = gregarious
+	trait = erudite
+	trait = trusting
+	2638.1.1 = { birth = yes }	
+}
+3601001 = { 
+	name = "Omar" 
+	dynasty = 2103002 #Ujayli
+	culture = suriyi
+	religion = sunni
+	father = 3601002
+	2610.1.1 = { birth = yes }
+	2660.1.1 = { death = yes }
+}
+3601002 = { 
+	name = "Hafez" 
+	dynasty = 2103002 #Ujayli
+	culture = suriyi
+	religion = sunni
+	2579.1.1 = { birth = yes }
+	2660.1.1 = { death = yes }
+}
+3601003 = { 
+	name = "Yasser" 
+	dynasty = 2103002 #Ujayli
+	culture = suriyi
+	religion = sunni
+	father = 3601002
+	2612.1.1 = { birth = yes }
+	2660.1.1 = { death = yes }
+}
+3601004 = { #Count of Manbij
+	name = "Muhammad" 
+	dynasty = 2103002 #Ujayli
+	culture = suriyi
+	religion = sunni
+	father = 3601003
+	trait = elusive_shadow
+	trait = detached_priest
+	trait = schemer
+	trait = greedy
+	trait = gregarious
+	trait = ambitious
+	trait = diligent
+	2640.1.1 = { birth = yes }
+}
+3601005 = { #Count of Tartus and al-Ladhiqiyah
+	name = "Suleiman" 
+	dynasty = 2103005 #Al-Ali
+	culture = suriyi
+	religion = alawi
+	trait = midas_touched
+	trait = shrewd
+	trait = stutter
+	trait = mystic
+	trait = diligent
+	trait = ambitious
+	trait = brave
+	trait = shy
+	trait = pious
+	2638.1.1 = { birth = yes }
+}
+3601006 = { #Count of Idlib
+	name = "Ahmed" 
+	dynasty = 2103006 #Sahyouni
+	culture = suriyi
+	religion = sunni
+	2610.1.1 = { birth = yes }
+}
+3601007 = { #Count of Hama
+	name = "Ahmed" 
+	dynasty = 2103007 #Al-Nuri
+	culture = suriyi
+	religion = sunni
+	trait = naive_appeaser
+	trait = honorable
+	trait = honest
+	trait = familyperson
+	trait = wroth
+	trait = zealous
+	2638.1.1 = { birth = yes }
+}
+3601008 = { #Count of Kobani
+	name = "Najiba" 
+	dynasty = 2066021 #Mirkan
+	culture = kurdish
+	religion = nazari
+	female = yes
+	trait = charismatic_negotiator
+	trait = lefthanded
+	trait = honest
+	trait = brave
+	trait = gregarious
+	trait = just
+	2642.1.1 = { birth = yes }
+}
+3601009 = { #Count of Al-Hasakah
+	name = "Aram" 
+	dynasty = 2066022 #Hajo
+	culture = kurdish
+	religion = sunni
+	trait = tough_soldier
+	trait = musician
+	trait = humble
+	trait = familyperson
+	trait = honorable
+	trait = just
+	trait = temperate
+	2609.1.1 = { birth = yes }
+}
+3601010 = { 
+	name = "Rojda" 
+	dynasty = 2066022 #Hajo
+	culture = kurdish
+	religion = sunni
+	female = yes
+	father = 3601009
+	trait = charismatic_negotiator
+	trait = fair
+	trait = trusting
+	trait = humble
+	trait = honest
+	trait = gregarious
+	2644.1.1 = { birth = yes }
+}
+3601011 = { #Count of Tell Tamer
+	name = "Adwar" 
+	dynasty = 2104000 #Yonadam
+	culture = assyrian
+	religion = nestorian
+	trait = honorable
+	trait = humble
+	2638.1.1 = { birth = yes }
+}
+3601012 = { #Duke of Tadmur an-Nahar Cult
+	name = "Khalid" 
+	dynasty = 2103000 #Al-Asaad
+	culture = suriyi
+	religion = an_nahar
+	trait = thrifty_clerk
+	trait = quick
+	trait = scholar
+	trait = ambitious
+	trait = brave
+	2628.1.1 = { birth = yes }
+}
+
+3601013 = { #Duke of Hims (Actual Duchy)
+	name = "Ali" 
+	dynasty = 2103003 #Jandali
+	culture = suriyi
+	religion = sunni
+	2638.1.1 = { birth = yes }
+}
+
+3601014 = { 
+	name = "Muhammad" 
+	dynasty = 2103008 #Al-Suwar
+	culture = suriyi
+	religion = sunni
+	trait = underhanded_rogue
+	trait = arbitrary
+	trait = brave
+	trait = shy
+	2644.1.1 = { birth = yes }
+}
+
+3601015 = { #Count of Afrin
+	name = "Ebdo" 
+	dynasty = 2066023 #Mihemad
+	culture = kurdish
+	religion = sunni
+	trait = charismatic_negotiator
+	trait = musician
+	trait = trusting
+	trait = humble
+	trait = honest
+	trait = gregarious
+	2644.1.1 = { birth = yes }
+}
+3601016 = { #Duke of Halab
+	name = "Abdel-Rahman" 
+	dynasty = 2103004 #Faris
+	culture = suriyi
+	religion = sunni
+	trait = skilled_tactician
+	trait = shrewd
+	trait = adventurer
+	trait = wroth
+	trait = brave
+	2638.1.1 = { birth = yes }
+}
+
+
+3601017 = { #Duke of Damascus
+	name = "Nizar" 
+	dynasty = 2103001 #Qabbani
+	culture = suriyi
+	religion = an_nahar
+	trait = thrifty_clerk
+	trait = poet
+	trait = shrewd
+	trait = ambitious
+	trait = brave
+	trait = just
+	trait = kind
+	trait = pious
+	2638.1.1 = { birth = yes }
+}
+3601018 = { #count of As-Suwayda
+	name = "Hasan" 
+	dynasty = 2103009 #Al-Atrash
+	culture = suriyi
+	religion = druze
+	trait = skilled_tactician
+	trait = ambitious
+	trait = just
+	trait = humble
+	trait = pious
+	trait = brave
+	2644.1.1 = { birth = yes }
+}
+3601019 = { #count of Duma
+	name = "Sultan" 
+	dynasty = 2103010 #Al-Kharrat
+	culture = suriyi
+	religion = an_nahar
+	trait = tough_soldier
+	trait = ambitious
+	trait = zealous
+	trait = wroth
+	trait = brave
+	2644.1.1 = { birth = yes }
+}
+3601020 = { #count of Dara'a
+	name = "Abdullah" 
+	dynasty = 2103011 #Al-Naimeh
+	culture = suriyi
+	religion = an_nahar
+	trait = underhanded_rogue
+	trait = musician
+	trait = just
+	trait = content
+	trait = patient
+	trait = charitable
+	2644.1.1 = { birth = yes }
+}
+3601021 = { #count of Golan
+	name = "Hammed" 
+	dynasty = 2103012 #Khoury
+	culture = suriyi
+	religion = druze
+	trait = thrifty_clerk
+	trait = stubborn
+	trait = familyperson
+	trait = honorable
+	trait = patient	
+	2618.1.1 = { birth = yes }
+	2645.1.1 = {
+		add_spouse = 3601022
+	}
+}
+3601022 = { 
+	name = "Hiyam" 
+	culture = suriyi
+	religion = druze
+	female = yes
+	trait = underhanded_rogue
+	trait = pious
+	trait = gregarious
+	trait = humble
+	trait = diligent
+	2621.1.1 = { birth = yes }
+}
+3601023 = { 
+	name = "Hattem" 
+	dynasty = 2103011 #Khoury
+	culture = suriyi
+	religion = druze
+	trait = tough_soldier
+	trait = humble
+	trait = content
+	trait = patient
+	trait = charitable
+	father = 3601021
+	mother = 3601022
+	2641.1.1 = { birth = yes }
+	2660.1.1 = { 
+		add_spouse = 3601024
+	}
+	2660.1.1 = {
+		employer = 3600018
+	}
+}
+3601024 = { 
+	name = "Viktoria" 
+	culture = muscovite
+	religion = orthodox
+	female = yes
+	2644.1.1 = { birth = yes }
+}
+3601025 = { 
+	name = "Mona" 
+	dynasty = 2103012 #Khoury
+	culture = suriyi
+	religion = druze
+	female = yes
+	father = 3601021
+	mother = 3601022
+	trait = underhanded_rogue
+	trait = gregarious
+	trait = cynical
+	trait = charitable
+	2643.1.1 = { birth = yes }
+}
+3601026 = { 
+	name = "Marwan" 
+	dynasty = 2103011 #Khoury
+	culture = suriyi
+	religion = druze
+	father = 3601021
+	mother = 3601022
+	trait = flamboyant_schemer
+	trait = greedy
+	trait = deceitful
+	trait = lustful
+	2645.1.1 = { birth = yes }
+}
+3601027 = { 
+	name = "Amal" 
+	dynasty = 2103012 #Khoury
+	culture = suriyi
+	religion = druze
+	female = yes
+	father = 3601021
+	mother = 3601022
+	trait = fortune_builder
+	trait = shy
+	trait = humble
+	trait = kind
+	2647.1.1 = { birth = yes }
+}
+3601028 = { 
+	name = "Omar" 
+	dynasty = 2103013 #Souleyman
+	culture = suriyi
+	religion = sunni
+	trait = grey_eminence
+	trait = musician
+	trait = gregarious
+	trait = honorable
+	trait = sympathy_islamosyncretic
+	trait = sympathy_christendom
+	2618.1.1 = { birth = yes }
+	2665.1.1 = {
+		employer = 3601000
+	}
+}
+3601029={ 
+	name="Gabro" #Apostolic assyrian
+	dynasty=2104045 #Noohra
+	culture=assyrian
+	religion=miaphysite
+	trait=musician
+	trait=midas_touched
+	trait=school_peter
+	trait=kind
+	trait=temperate
+	trait=ambitious
+	trait=lustful
+	trait=honest
+	diplomacy=8
+	martial=8
+	stewardship=7
+	intrigue=3
+	learning=4
+	2611.3.18={birth=yes}
+}
+
+###############################Lebanon Characters###################################
+
+3601500 = { #Head Patrician of the Beirut Republic
+	name = "Elias" 
+	dynasty = 2105000 #Jibran
+	culture = lebneni
+	religion = catholic
+	father = 3601501
+	mother = 3601502
+	trait = charismatic_negotiator
+	trait = maronite_rite
+	trait = poet
+	trait = mystic
+	trait = erudite
+	trait = gregarious
+	trait = sympathy_islam
+	trait = sympathy_islamosyncretic
+	2645.1.1 = { birth = yes }
+}
+3601501 = {
+	name = "Khalil" 
+	dynasty = 2105000 #Jibran
+	culture = lebneni
+	religion = catholic
+	trait = scholarly_theologian
+	trait = maronite_rite
+	trait = poet
+	trait = mystic
+	trait = sympathy_islam
+	trait = sympathy_islamosyncretic
+	2610.1.1 = { birth = yes }
+	2660.1.1 = { death = yes }
+}
+3601502 = {
+	name = "Kamila" 
+	culture = lebneni
+	religion = catholic
+	female = yes
+	trait = grey_eminence
+	trait = maronite_rite
+	trait = kind
+	trait = gregarious
+	2615.1.1 = { birth = yes }
+}
+3601503 = { #Patrician of the Beirut Republic
+	name = "Tigran" 
+	dynasty = 2105001 #Sarkesian
+	culture = lebneni
+	religion = miaphysite
+	trait = school_thaddeus
+	trait = fortune_builder
+	trait = greedy
+	trait = temperate
+	trait = cynical
+	2638.1.1 = { birth = yes }
+	2660.1.1 = {
+		add_spouse = 3601504
+	}
+}
+3601504 = { 
+	name = "Mariam" 
+	dynasty = 2105001 #Sarkesian
+	culture = lebneni
+	trait = school_thaddeus
+	religion = miaphysite
+	female = yes
+	trait = underhanded_rogue
+	trait = chaste
+	trait = temperate
+	trait = humble
+	2640.1.1 = { birth = yes }
+}
+3601505 = { 
+	name = "Alisa" 
+	dynasty = 2105001 #Sarkesian
+	culture = lebneni
+	trait = school_thaddeus
+	religion = miaphysite
+	female = yes
+	2661.1.1 = { birth = yes }
+}
+3601506 = { 
+	name = "Vardan" 
+	dynasty = 2105001 #Sarkesian
+	father=3601503
+	trait = school_thaddeus
+	culture = lebneni
+	religion = miaphysite
+	2663.1.1 = { birth = yes }
+}
+3601507 = { #Patrician of the Beirut Republic
+	name = "Mansour" 
+	dynasty = 2105002 #Rahbani
+	culture = lebneni
+	religion = catholic
+	trait = charismatic_negotiator
+	trait = byzantine_rite
+	trait = musician
+	trait = sympathy_islam
+	trait = groomed
+	trait = kind
+	trait = temperate
+	2615.1.1 = { birth = yes }
+	2640.1.1 = {
+		add_spouse = 3601508
+	}
+}
+3601508 = { 
+	name = "Nadine" 
+	culture = lebneni
+	religion = catholic
+	female = yes
+	trait = byzantine_rite
+	2618.1.1 = { birth = yes }
+}
+3601509 = { 
+	name = "Fairuz" 
+	dynasty = 2105002 #Rahbani
+	culture = lebneni
+	religion = catholic
+	female = yes
+	father = 3601507
+	mother = 3601508
+	trait = grey_eminence
+	trait = byzantine_rite
+	trait = sympathy_islam
+	trait = fair
+	trait = musician
+	trait = gregarious
+	trait = groomed
+	2643.1.1 = { birth = yes }
+}
+3601510 = { 
+	name = "Assi" 
+	dynasty = 2105002 #Rahbani
+	culture = lebneni
+	religion = catholic
+	father = 3601507
+	mother = 3601508
+	trait = fortune_builder
+	trait = byzantine_rite
+	trait = musician
+	trait = charitable
+	trait = trusting
+	trait = humble
+	2646.1.1 = { birth = yes }
+}
+3601511 = { 
+	name = "Ziad" 
+	dynasty = 2105002 #Rahbani
+	culture = lebneni
+	religion = catholic
+	father = 3601507
+	mother = 3601508
+	trait = intricate_webweaver
+	trait = musician
+	trait = groomed
+	trait = deceitful
+	trait = proud
+	trait = lustful
+	trait=byzantine_rite
+	2648.1.1 = { birth = yes }
+}
+3601512 = { #Patrician of the Beirut Republic
+	name = "Hasan" 
+	dynasty = 2105003 #Usseiran
+	culture = lebneni
+	religion = shiite
+	trait = scholarly_theologian
+	trait = scholar
+	trait = familyperson
+	trait = temperate
+	trait = erudite
+	2599.1.1 = { birth = yes }
+	2620.1.1 = {
+		add_spouse = 3601513
+	}
+}
+3601513 = { 
+	name = "Fatima" 
+	culture = lebneni
+	religion = shiite
+	female = yes
+	2603.1.1 = { birth = yes }
+}
+3601514 = { 
+	name = "Husayn" 
+	dynasty = 2105003 #Usseiran
+	culture = lebneni
+	religion = shiite
+	father = 3601512
+	mother = 3601513
+	trait = mastermind_theologian
+	trait = scholar
+	trait = feeble
+	trait = temperate
+	trait = stubborn
+	2624.1.1 = { birth = yes }
+	2642.1.1 = {
+		effect = { add_rival = 3601517 }
+	}
+	2643.1.1 = {
+		add_spouse = 3601515
+	}
+	
+}
+3601515 = { 
+	name = "Fatima" 
+	culture = lebneni
+	religion = shiite
+	female = yes
+	2626.1.1 = { birth = yes }
+}
+3601516 = { 
+	name = "Khalid" 
+	dynasty = 2105003 #Usseiran
+	culture = lebneni
+	religion = shiite
+	father = 3601514
+	mother = 3601515
+	2647.1.1 = { birth = yes }
+}
+3601517 = { 
+	name = "Muhammed" 
+	dynasty = 2105003 #Usseiran
+	culture = lebneni
+	religion = shiite
+	father = 3601514
+	mother = 3601515
+	2652.1.1 = { birth = yes }
+}
+3601518 = { 
+	name = "Abdullah" 
+	dynasty = 2105003 #Usseiran
+	culture = lebneni
+	religion = shiite
+	father = 3601512
+	mother = 3601513
+	trait = tough_soldier
+	trait = robust
+	trait = wroth
+	trait = stubborn
+	trait = zealous
+	2630.1.1 = { birth = yes }
+	2655.1.1 = {
+		add_spouse = 3601519
+	}
+}
+3601519 = { 
+	name = "Khadija" 
+	culture = lebneni
+	religion = shiite
+	female = yes
+	2635.1.1 = { birth = yes }
+}
+3601520 = { 
+	name = "Ali" 
+	dynasty = 2105003 #Usseiran
+	culture = lebneni
+	religion = shiite
+	father = 3601518
+	mother = 3601519
+	2656.1.1 = { birth = yes }
+}
+3601521 = { 
+	name = "Nasreen" 
+	dynasty = 2105003 #Usseiran
+	culture = lebneni
+	religion = shiite
+	female = yes
+	father = 3601518
+	mother = 3601519
+	2658.1.1 = { birth = yes }
+}
+3601522 = { #Patrician of the Beirut Republic
+	name = "Walid" 
+	dynasty = 2105004 #Talal
+	culture = lebneni
+	religion = sunni
+	trait = tough_soldier
+	trait = charitable
+	trait = kind
+	trait = stubborn
+	trait = brave
+	2640.1.1 = { birth = yes }
+}
+3601523 = { #Count of Sur
+	name = "Musa"
+	dynasty = 2105005 #Sharafeddine
+	culture = lebneni
+	religion = shiite
+	trait = skilled_tactician
+	trait = sayyid
+	trait = brave
+	trait = pious
+	trait = erudite
+	2630.1.1 = { birth = yes }
+	2657.1.1 = {
+		add_spouse = 3601524
+	}
+}
+3601524 = { 
+	name = "Mona"
+	culture = lebneni
+	religion = shiite
+	female = yes
+	2637.1.1 = { birth = yes }
+}
+3601525 = { 
+	name = "Samir"
+	dynasty = 2105005 #Sharafeddine
+	culture = lebneni
+	religion = shiite
+	father = 3601523
+	mother = 3601524
+	2657.1.1 = { birth = yes }
+}
+3601526 = { 
+	name = "Omar"
+	dynasty = 2105005 #Sharafeddine
+	culture = lebneni
+	religion = shiite
+	father = 3601523
+	mother = 3601524
+	2662.1.1 = { birth = yes }
+}
+3601527 = { #Count of Beqaa
+	name = "Amin"
+	dynasty = 2105006 #Arslan
+	culture = lebneni
+	religion = druze
+	trait = skilled_tactician
+	trait = adventurer
+	trait = brave
+	trait = wroth
+	trait = honorable
+	2645.1.1 = { birth = yes }
+}
+3601528 = { #Count of Saida
+	name = "Riad"
+	dynasty = 2105007 #As-Sulah
+	culture = lebneni
+	religion = sunni
+	trait = martial_cleric
+	trait = humble
+	trait = craven
+	trait = patient
+	trait = pious
+	2640.1.1 = { birth = yes }
+}
+3601529 = { #Count of Baalbek
+	name = "Baha' ad-Din"
+	dynasty = 2105008 #Harfush
+	culture = lebneni
+	religion = shiite
+	trait = tough_soldier
+	trait = strong
+	trait = brave
+	trait = patient
+	trait = proud
+	2642.1.1 = { birth = yes }
+}
+3601530 = { #Count of Tarabulus
+	name = "Abdurrashid"
+	dynasty = 2105009 #Karami
+	culture = lebneni
+	religion = sunni
+	father = 3601531
+	mother = 3601532
+	trait = martial_cleric
+	trait = humble
+	trait = craven
+	trait = patient
+	trait = pious
+	2642.1.1 = { birth = yes }
+}
+3601531 = { 
+	name = "Jalal"
+	dynasty = 2105009 #Karami
+	culture = lebneni
+	religion = sunni
+	father = 3601533
+	trait = martial_cleric
+	trait = humble
+	trait = craven
+	trait = patient
+	trait = pious
+	2617.1.1 = { birth = yes }
+	2630.1.1 = { 
+		add_spouse = 3601532
+	}
+	2662.1.1 = { 		
+		death = { 
+			death_reason = death_drank_poison
+		}
+	}
+}
+3601532 = { 
+	name = "Jamila"
+	dynasty = 2105009 #Karami
+	culture = lebneni
+	religion = sunni
+	female = yes
+	trait = charismatic_negotiator
+	trait = brave
+	trait = kind
+	2617.1.1 = { birth = yes }
+	2662.1.1 = { 		
+		effect = { 
+			add_rival = 3601534
+		}
+	}
+}
+3601533 = { 
+	name = "Ragheb"
+	dynasty = 2105009 #Karami
+	culture = lebneni
+	religion = sunni
+	2590.1.1 = { birth = yes }
+	2650.1.1 = { 		
+		death = { 
+			death_reason = death_drank_poison
+		}
+	}
+}
+3601534 = { 
+	name = "Wajih"
+	dynasty = 2105009 #Karami
+	culture = lebneni
+	religion = sunni
+	father = 3601533
+	trait = intricate_webweaver
+	trait = deceitful
+	trait = ambitious
+	trait = patient
+	trait = proud
+	2622.1.1 = { birth = yes }
+	2645.1.1 = { 
+		add_spouse = 3601535
+	}
+}
+3601535 = { 
+	name = "Niveen"
+	culture = lebneni
+	religion = sunni
+	female = yes
+	trait = thrifty_clerk
+	trait = temperate
+	trait = trusting
+}
+3601536 = { 
+	name = "Nabil"
+	dynasty = 2105009 #Karami
+	culture = lebneni
+	religion = sunni
+	father = 3601534
+	mother = 3601535
+	trait = amateurish_plotter
+	trait = twin
+	trait = deceitful
+	trait = greedy
+	trait = ambitious
+	trait = ruthless
+	2646.1.1 = { birth = yes }
+}
+3601537 = { 
+	name = "Rina"
+	dynasty = 2105009 #Karami
+	culture = lebneni
+	religion = sunni
+	female = yes
+	father = 3601534
+	mother = 3601535
+	trait = amateurish_plotter
+	trait = twin
+	trait = rude
+	trait = lustful
+	trait = groomed
+	trait = gregarious
+	2646.1.1 = { birth = yes }
+}
+3601538 = { #placeholder Catholicos of Cilicia
+	name = "Aphrem"
+	culture = assyrian
+	religion = miaphysite
+	trait = school_peter
+	trait = mastermind_theologian
+	trait = pious
+	trait = shy
+	trait = theologian
+	2630.1.1 = { birth = yes }
+}
+3601539 = { #placeholder Catholicos of Etchmiadzin
+	name = "Karekin"
+	culture = armenian
+	religion = miaphysite
+	trait = school_thaddeus
+	trait = mastermind_theologian
+	trait = pious
+	trait = shy
+	trait = theologian
+	2630.1.1 = { birth = yes }
+}
