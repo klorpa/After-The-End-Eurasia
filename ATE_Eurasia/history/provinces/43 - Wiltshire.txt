@@ -5,6 +5,7 @@ title = c_wiltshire
 
 # Settlements
 max_settlements = 4
+
 b_swindon = castle
 b_salisbury = temple
 b_chippenham = city
@@ -16,13 +17,13 @@ b_trowbridge = temple
 
 # Misc
 culture = westerner
-religion = glorian
+religion = thelema
 
 # History
 1.1.1 = {
 	build_wonder = wonder_pagan_stones_stonehenge
 	set_wonder_stage = 3
 }
-2600.1.1 = { capital = b_salisbury } #Thelema Rises
+2532.1.1 = { build_wonder_upgrade = upgrade_sacred_grove } #Thelema moves in
 
 
