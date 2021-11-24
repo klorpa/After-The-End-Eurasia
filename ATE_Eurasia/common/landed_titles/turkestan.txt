@@ -1131,14 +1131,34 @@ e_turkestan = {
 			color2={ 255 255 255 }
 			
 			capital = 952 #Samarkand
+			
+			kyrgyz="Samarkan"
+			kazakh="Samarqan"
+			tajik="Samarqand"
+			pamiri="Samarqand"
+			uzbek="Samarqand"
+			karakalpak="Samarqand"
 
 			c_samarkand = {
 				color={ 120 198 168 }
 				color2={ 255 255 255 }
 				
 				holy_site = zimiran
+					
+				kyrgyz="Samarkan"
+				kazakh="Samarqan"
+				tajik="Samarqand"
+				pamiri="Samarqand"
+				uzbek="Samarqand"
+				karakalpak="Samarqand"
 				
-				b_samarkand = {}
+				b_samarkand = {
+					kyrgyz="Samarkan"
+					kazakh="Samarqan"
+					tajik="Samarqand"
+					pamiri="Samarqand"
+					uzbek="Samarqand"
+					karakalpak="Samarqand"}
 				b_kattakurgan = {}
 				b_aktash = {}
 				b_loyish = {}

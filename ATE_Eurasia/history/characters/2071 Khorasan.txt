@@ -23,7 +23,7 @@
 	trait=brave
 	trait=robust
 	trait=ambitious
-	trait=one_legged	
+	trait=one_legged
 	diplomacy=2
 	martial=9
 	stewardship=8
@@ -524,10 +524,11 @@
 	2631.5.9={birth=yes}
 }
 2071043={
-	name="Döwletmämmet"
+	name="Rahymberdi"
 	dynasty=2041136 #Abdylla
 	culture=turkmen
 	religion=nizami
+	father=2071112
 	2624.6.21={birth=yes}
 }
 2071044={
@@ -1137,4 +1138,114 @@
 	2606.9.7={birth=yes}
 	2623.1.1={add_spouse=2071098}
 	2665.11.18={death=yes}
+}
+2071108={
+	name="Magtymguly"
+	dynasty=2041137 #Azady
+	culture=turkmen
+	religion=nizami
+	father=2071109
+	mother=2071110
+	trait=poet
+	trait=proud
+	trait=mystic
+	trait=ambitious
+	trait=diligent
+	trait=pious
+	trait=kind
+	trait=quick
+	trait=mastermind_theologian
+	trait=narrow_flank_leader
+	diplomacy=5
+	martial=9
+	stewardship=2
+	intrigue=3
+	learning=9
+	2633.5.18={birth=yes}
+}
+2071109={
+	name="Döwletmämmet"
+	dynasty=2041137 #Azady
+	culture=turkmen
+	religion=nizami
+	trait=poet
+	trait=erudite
+	2600.8.16={birth=yes}
+	2623.1.1={add_spouse=2071110}
+	2661.1.29={death=yes}
+}
+2071110={
+	name="Orazgül"
+	female=yes
+	dynasty=2041136 #Abdylla
+	culture=turkmen
+	religion=nizami
+	father=2071111
+	2605.1.10={birth=yes}
+}
+2071111={
+	name="Yolaman"
+	dynasty=2041136 #Abdylla
+	culture=turkmen
+	religion=nizami
+	2578.10.2={birth=yes}
+	2626.5.1={death=yes}
+}
+2071112={
+	name="Tagandurdy"
+	dynasty=2041136 #Abdylla
+	culture=turkmen
+	religion=nizami
+	father=2071111
+	2603.6.30={birth=yes}
+	2658.6.12={death=yes}
+}
+2071113={
+	name="Abdylla"
+	dynasty=2041137 #Azady
+	culture=turkmen
+	religion=zimiran
+	father=2071109
+	mother=2071110
+	2631.8.7={birth=yes}
+}
+2071114={
+	name="Mämmetsapa"
+	dynasty=2041137 #Azady
+	culture=turkmen
+	religion=zimiran
+	father=2071109
+	mother=2071110
+	2638.4.27={birth=yes}
+}
+2071115={
+	name="Zübeýda"
+	female=yes
+	dynasty=2041137 #Azady
+	culture=turkmen
+	religion=zimiran
+	father=2071109
+	mother=2071110
+	2636.9.2={birth=yes}
+	2655.1.1={add_spouse=1802065}
+}
+2071116={
+	name="Nizomiddin"
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=nizami
+	trait=celibate
+	trait=temperate
+	trait=poet
+	trait=mystic
+	trait=skilled_tactician
+	trait=brave
+	trait=quick
+	diplomacy=8
+	martial=7
+	stewardship=5
+	intrigue=4
+	learning=8
+	2441.2.9={birth=yes}
+	2655.1.1={effect={add_friend=1506000}}
 }

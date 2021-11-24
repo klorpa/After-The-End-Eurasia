@@ -9,6 +9,7 @@
 	learning=5
 	trait=mastermind_theologian
 	trait=poet
+	trait=mystic
 	trait=gregarious
 	trait=erudite
 	trait=groomed
@@ -429,8 +430,38 @@
 	culture=uzbek
 	religion=nizami
 	trait=sayyid
+	trait=charismatic_negotiator
+	trait=selfish
+	trait=temperate
+	trait=humble
+	trait=arbitrary
+	diplomacy=9
+	martial=4
+	stewardship=9
+	intrigue=4
+	learning=1
 	father=1506002
 	mother=2071071
 	2637.3.31={birth=yes}
 	2660.1.1={employer=1506000}
+}
+1506037={
+	name="Nizomiddin"
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=nizami
+	trait=celibate
+	trait=temperate
+	trait=poet
+	trait=mystic
+	trait=skilled_tactician
+	trait=brave
+	trait=quick
+	diplomacy=8
+	martial=7
+	stewardship=5
+	intrigue=4
+	learning=8
+	2441.2.9={birth=yes}
+	2655.1.1={effect={add_friend=1506000}}
 }
