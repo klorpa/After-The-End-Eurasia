@@ -190,26 +190,32 @@ mongolian_group = {
 		color = { 0.6 0.2 0.7 }
 
 		male_names = {
-			Agvan Aldar Amgalan Arya Azarga 
-			Badma_Padma Badmazhap Bair Baldan Balzhinima Bashiila Bayan Belikto Bidia Borogshon Buda_Buddha Bukha Bulad_Bolat Bulgan 
-			Damba Danzandorj Dashi_Tashi Dashi-dorzho Dashinima Dorzho 
+			Agvan Aldar Amgalan Andrey_Andrew Apollon Arya Azarga 
+			Badma_Padma Badmazhap Bair Baldan Balzhinima Bashiila Barad Bato Bavasan Bayan Bazar Belikto Bidia Borogshon Buda_Buddha Bukha Bulad_Bolat Bulgan 
+			Chimit 
+			Damba Dambi-Jaltsan Danzandorj Dashi_Tashi Dashi-dorzho Dashinima Dashirabdan Dolyoon Dondup Dorzho 
 			Eshegen Eshi_Yeshe 
 			Galsan Guluun 
+			Iliya_Elijah Innokentiy_Innocentius 
 			Jamsran 
-			Khermen 
-			Mergen 
+			Khermen Khotsa 
+			Manshuud Mergen 
+			Namsara Namzhil Nikifor_Nicephorus Nikolay_Nicholas 
 			Oktyabr_October Osor 
+			Pyotr_Peter 
 			Rinchin 
-			Sambuu Shono Solbon_Tsolmon 
-			Tekhe Tsydenzhap Tseveen Tsogto Tsyren_Tshering Tsyrendashi Tsyrendorzho Tsyrenzhap 
+			Sambuu Sergey_Sergius Shono Solbon_Tsolmon 
+			Tekhe Tsydenzhap Tseveen Tsogto Tsyben Tsydendambae Tsydenzhap Tsyren_Tshering Tsyrendashi Tsyrendorzho Tsyrenzhap Tugultur Tumun 
 			Urzhin 
-			Zorikto
+			Vandan 
+			Zhamso Zhigzhitzhab Zorikto
 		}
 
 		female_names = {
-			Adyana Altana Amgalan 
+			Abazhaa Adyana Aguu Altana Amgalan 
 			Badma Bairma Bilduu Borogshon Byorte 
-			Dariima Darima Dulma 
+			Choizhid 
+			Dariima Darima Dondok Dulma 
 			Erdeni_Erdeni Erzhena 
 			Galsan Gerelma 
 			Khanda 
@@ -241,16 +247,17 @@ mongolian_group = {
 
 		male_names = {
 			Aduç Adyan Ajhr Akçan Aldar Aleksey_Alexis Angarak Arkad Artur_Arthur Ayn-ämd Ayuka 
-			Baatar Badma_Padma Bair Bakar Bata Batu Bayn Bayr Belek Bembö Bembya 
+			Baatar Badma_Padma Bair Bakar Baldu Basng Bata Batu Bayn Bayr Belek Bembö Bembya 
 			Chimid Chon 
-			Dalai Dandun Dava_David Djimba Dolan Dorzh Dzhav Dzhirgan 
+			Dalai Dandun Dawaa_David Djav Djimba Djirgan Dolan Dorj  
 			Elya Erdni 
+			Ghaerae 
 			Harti 
 			Ijl Ivan_John 
 			Jañhr Jaba Jigmid 
-			Khontr Kichik Kirsän 
-			Lavr Lha-bzang Lidzhi Lorya Lubsan 
-			Menko Mergen Mikula_Nicholas Mingiyan 
+			Khontr Kichik Kirsän Konstantin_Constantine 
+			Lavr Lha-bzang Liji Lorya Lubsan 
+			Markhaaj Menko Mergen Mikula_Nicholas Mingiyan Muutl 
 			Nikita_Niketas Notan 
 			Ochirtu Oka Oktyabr_October Orluk 
 			Pyurvya 
@@ -264,9 +271,9 @@ mongolian_group = {
 
 		female_names = {
 			Adyana Aga Aguya Altana Altn Altna Aytana 
-			Bata Bayna Bayra Buinta 
+			Bata Bayna Bayra Bosya Buinta 
 			Chona 
-			Duya Dzhirgana 
+			Duya Djirgana 
 			Elistina Eugenia_Eugenia 
 			Gerel 
 			Marina_Marina 
@@ -278,7 +285,11 @@ mongolian_group = {
 			Zurgan
 		}
 		
-		founder_named_dynasties = yes
+		founder_named_dynasties = no
+		
+		male_patronym = "in"
+		female_patronym = "in"
+		dynasty_name_first = yes
 
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 40

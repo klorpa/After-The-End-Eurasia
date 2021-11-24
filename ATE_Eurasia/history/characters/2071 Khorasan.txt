@@ -520,7 +520,13 @@
 	trait=ambitious
 	trait=greedy
 	trait=trickster
+	diplomacy=3
+	martial=6
+	stewardship=6
+	intrigue=7
+	learning=4
 	father=2071041
+	mother=1506050
 	2631.5.9={birth=yes}
 }
 2071043={
@@ -1252,6 +1258,7 @@
 	female=yes
 	dynasty=2041138 #Myradow
 	father=2071116
+	mother=1506043
 	culture=turkmen
 	religion=zimiran
 	2636.3.8={birth=yes}
@@ -1260,19 +1267,30 @@
 2071118={
 	name="Baıram"
 	father=2071116
-	mother=2071120
+	mother=1506043
 	dynasty=2041138 #Myradow
 	culture=turkmen
 	religion=zimiran
-	trait=child_of_consort
+	trait=elusive_shadow
+	trait=honorable
+	trait=stubborn
+	trait=humble
+	trait=arbitrary
+	diplomacy=3
+	martial=4
+	stewardship=4
+	intrigue=8
+	learning=6
 	2625.3.8={birth=yes}
 }
 2071119={
 	name="Beki"
 	father=2071116
+	mother=2071120
 	dynasty=2041138 #Myradow
 	culture=turkmen
 	religion=zimiran
+	trait=child_of_consort
 	2629.9.24={birth=yes}
 }
 2071120={
@@ -1283,4 +1301,64 @@
 	religion=zimiran
 	2605.8.3={birth=yes}
 	2630.6.2={death=yes}
+}
+2071121={
+	name="Jennet"
+	female=yes
+	dynasty=2041135 #Serdar
+	culture=turkmen
+	religion=zimiran
+	father=2071041
+	mother=1506050
+	2628.7.9={birth=yes}
+	2647.1.1={add_spouse=2071118}
+}
+2071122={
+	name="Aÿsoltan"
+	female=yes
+	father=2071118
+	mother=2071121
+	dynasty=2041138 #Myradow
+	culture=turkmen
+	religion=zimiran
+	2650.3.13={birth=yes}
+}
+2071123={
+	name="Taıça"
+	dynasty=2041135 #Serdar
+	culture=turkmen
+	religion=zimiran
+	father=2071041
+	mother=1506050
+	2629.10.21={birth=yes}
+}
+2071124={
+	name="Älem"
+	dynasty=2041135 #Serdar
+	culture=turkmen
+	religion=zimiran
+	father=2071123
+	2648.8.30={birth=yes}
+}
+2071125={
+	name="Hatyja"
+	female=yes
+	dynasty=2041135 #Serdar
+	culture=turkmen
+	religion=zimiran
+	father=2071041
+	mother=1506050
+	2641.7.28={birth=yes}
+}
+2071126={
+	name="Dörtguly"
+	female=yes
+	father=2071118
+	mother=2071121
+	dynasty=2041138 #Myradow
+	trait=fair
+	culture=turkmen
+	religion=zimiran
+	2648.11.25={birth=yes}
+	2666.1.1={add_spouse=1506039}
 }

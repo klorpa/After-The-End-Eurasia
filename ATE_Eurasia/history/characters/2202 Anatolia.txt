@@ -564,12 +564,11 @@
 
 2202049={
 	name="Yahya"
-	father=2202048
-	dynasty=2057009
+	dynasty=2055005 #Kemal
 	culture=west_anatolian
 	religion=ruhi
-	2575.1.1 = {birth=yes}
-	2630.1.1 = {death=yes}
+	2575.12.24 = {birth=yes}
+	2630.10.23 = {death=yes}
 }
 2202050={
 	name="Mehmed"
@@ -707,17 +706,18 @@
 	2665.11.6={ birth=yes }
 }
 2202058={#Family who lost land to the Post-Event Osmanoglu
-	name="Baris"
+	name="Barish"
 	dynasty=2055005 #Kemal
 	culture=west_anatolian
 	religion=ruhi
 	trait=poet
 	trait=drunkard
-	trait=ill
+	trait=gout
 	trait=patient
 	trait=content
 	trait=shrewd
 	trait=indulgent_wastrel
+	father=2202049
 	2600.6.9={birth=yes}
 	2660.10.10={
 		effect = {
@@ -1215,4 +1215,30 @@
 	religion = nizami
 	dynasty = 2057211 #Mehmetoghlu
 	2617.9.23 = { birth = yes }
+}
+2202112 = { 
+	name="Eyûb" 
+	dynasty=2066060 #Guven
+	culture=rumelian
+	religion=nizami
+	trait=charismatic_negotiator
+	trait=diligent
+	trait=brave
+	trait=authoritative
+	trait=gluttonous
+	diplomacy=8
+	martial=3
+	stewardship=4
+	intrigue=5
+	learning=6
+	2609.5.6={birth=yes}
+}
+2202113 = { 
+	name="Leyla"
+	female=yes
+	dynasty=2066060 #Guven
+	culture=rumelian
+	religion=nizami
+	father=2202112
+	2641.1.23={birth=yes}
 }

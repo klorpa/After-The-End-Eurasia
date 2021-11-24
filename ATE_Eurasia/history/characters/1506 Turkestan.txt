@@ -42,7 +42,7 @@
 	2650.8.22={death=yes}
 }
 1506003={
-	name="Tursinxon"
+	name="Po'lat"
 	dynasty=2112133 #Farg'oniy
 	culture=uzbek
 	religion=nizami
@@ -96,7 +96,7 @@
 	2639.10.9={death=yes}
 }
 1506007={
-	name="Anvarbek"
+	name="Temur"
 	dynasty=2112133 #Farg'oniy
 	culture=uzbek
 	religion=nizami
@@ -181,7 +181,7 @@
 	2574.9.12={death=yes}
 }
 1506015={
-	name="Toshpo'lat"
+	name="G'ayrat"
 	dynasty=2112133 #Farg'oniy
 	culture=uzbek
 	religion=nizami
@@ -211,7 +211,7 @@
 	}
 }
 1506017={
-	name="Xayrulla"
+	name="Mahmud"
 	dynasty=2112133 #Farg'oniy
 	culture=uzbek
 	religion=nizami
@@ -286,6 +286,7 @@
 	trait=sympathy_judaism
 	trait=diligent
 	father=1506026
+	mother=1506042
 	2631.6.22={birth=yes}
 	2665.5.5={
 		add_spouse=1506023
@@ -339,6 +340,7 @@
 	culture=tajik
 	religion=ruhi
 	father=1506027
+	mother=1506057
 	2608.4.6={birth=yes}
 	2653.1.23={death=yes}
 }
@@ -374,6 +376,7 @@
 	culture=tajik
 	religion=ruhi
 	father=1506027
+	mother=1506057
 	2615.5.6={birth=yes}
 }
 1506031={
@@ -462,6 +465,221 @@
 	stewardship=5
 	intrigue=4
 	learning=8
+	father=1506044
 	2641.2.9={birth=yes}
 	2655.1.1={effect={add_friend=1506000}}
+}
+1506038={
+	name="Berdimurat"
+	dynasty=2075082 #Ku'nxojaev
+	culture=karakalpak
+	religion=zimiran
+	father=1506040
+	trait=midas_touched
+	trait=ruthless
+	trait=poet
+	trait=diligent
+	trait=sympathy_islam
+	trait=erudite
+	trait=humble
+	diplomacy=9
+	martial=4
+	stewardship=3
+	intrigue=9
+	learning=9
+	2627.7.13={birth=yes}
+}
+1506039={
+	name="A'jiniyaz"
+	dynasty=2075083 #Ziywar
+	culture=karakalpak
+	religion=zimiran
+	trait=musician
+	trait=skilled_tactician
+	trait=gregarious
+	trait=ambitious
+	trait=gluttonous
+	trait=wroth
+	trait=scarred_high
+	diplomacy=8
+	martial=9
+	stewardship=7
+	intrigue=5
+	learning=8
+	father=1506051
+	2635.5.31={birth=yes}
+}
+1506040={
+	name="G'arg'abay"
+	dynasty=2075082 #Ku'nxojaev
+	culture=karakalpak
+	religion=zimiran
+	father=1506041
+	2605.3.6={birth=yes}
+	2657.12.29={death=yes}
+}
+1506041={
+	name="Boranbay"
+	dynasty=2075082 #Ku'nxojaev
+	culture=karakalpak
+	religion=zimiran
+	2578.12.23={birth=yes}
+	2632.11.20={death=yes}
+}
+1506042={
+	name="Aysary"
+	female=yes
+	dynasty=2075082 #Ku'nxojaev
+	culture=karakalpak
+	religion=zimiran
+	father=1506041
+	2610.6.28={birth=yes}
+	2628.1.1={add_spouse=1506026}
+	2663.3.6={death=yes}
+}
+1506043={
+	name="Bibizada"
+	female=yes
+	dynasty=2075082 #Ku'nxojaev
+	culture=karakalpak
+	religion=zimiran
+	father=1506041
+	2599.10.2={birth=yes}
+	2618.1.1={add_spouse=2071116}
+}
+1506044={
+	name="G'iyosiddin"
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=nizami
+	father=1506045
+	2619.9.23={birth=yes}
+	2659.12.3={death=yes}
+}
+1506045={
+	name="Nizomiddin"
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=nizami
+	father=1506056
+	2584.11.25={birth=yes}
+	2626.10.14={death=yes}
+}
+1506046={
+	name="Qutbiddin"
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=nizami
+	father=1506045
+	mother=1506049
+	trait=child_of_consort
+	2610.12.10={birth=yes}
+	2650.8.22={death=yes}
+}
+1506047={
+	name="Sayfiddin"
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=nizami
+	father=1506046
+	2648.9.18={birth=yes}
+}
+1506048={
+	name="Xusniddin"
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=nizami
+	father=1506045
+	2622.12.10={birth=yes}
+}
+1506049={
+	name="Sitora"
+	female=yes
+	dynasty=0
+	culture=uzbek
+	religion=nizami
+	2588.12.30={birth=yes}
+	2650.6.23={death=yes}
+}
+1506050={
+	name="Zinura"
+	female=yes
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=nizami
+	trait=sayyid
+	father=1506005
+	2611.11.18={birth=yes}
+	2628.1.1={add_spouse=2071042}
+}
+1506051={
+	name="Qosibay"
+	dynasty=2075083 #Ziywar
+	culture=karakalpak
+	religion=zimiran
+	father=1506052
+	2611.5.9={birth=yes}
+	2661.7.14={death=yes}
+}
+1506052={
+	name="Uteniyaz"
+	dynasty=2075083 #Ziywar
+	culture=karakalpak
+	religion=zimiran
+	2582.1.15={birth=yes}
+	2629.3.1={death=yes}
+}
+1506053={
+	name="Baltabek"
+	dynasty=2075083 #Ziywar
+	culture=karakalpak
+	religion=zimiran
+	father=1506051
+	trait=twin
+	2637.1.10={birth=yes}
+}
+1506054={
+	name="Aqjigit"
+	dynasty=2075083 #Ziywar
+	culture=karakalpak
+	religion=zimiran
+	father=1506051
+	trait=twin
+	2637.1.10={birth=yes}
+}
+1506055={
+	name="Elmurad"
+	dynasty=2075083 #Ziywar
+	culture=karakalpak
+	religion=zimiran
+	father=1506052
+	2618.2.21={birth=yes}
+}
+1506056={
+	name="Fazliddin"
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=nizami
+	2566.7.15={birth=yes}
+	2612.1.17={death=yes}
+}
+1506057={
+	name="Feruza"
+	female=yes
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=nizami
+	father=1506056
+	2586.9.7={birth=yes}
+	2605.11.1={add_spouse=1506027}
+	2637.3.10={death=yes}
+}
+1506058={
+	name="Malika"
+	female=yes
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=nizami
+	father=1506044
+	2644.7.17={birth=yes}
 }

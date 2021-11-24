@@ -521,12 +521,23 @@ e_turkestan = {
 			color2={ 255 255 255 }
 			
 			capital = 945 #Nukus
+			
+			kazakh="Qaraqalpaqstan"
+			tajik="Qaraqalpoqston"
+			pamiri="Qaraqalpoqston"
+			uzbek="Qoraqalpog'iston"
+			turkmen="Garagalpagystan"
+			karakalpak="Qaraqalpaqstan"
 
 			c_moynoq = {
+			
+				karakalpak="Moynaq"
+				
 				color={ 31 184 169 }
 				color2={ 255 255 255 }
 				
-				b_moynoq = {}
+				b_moynoq = {
+					karakalpak="Moynaq"}
 				b_tokmak_2 = {}
 				b_karakoltyk = {}
 				b_shagyrlyk = {}

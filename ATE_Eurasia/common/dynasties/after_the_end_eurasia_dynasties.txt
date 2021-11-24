@@ -4634,6 +4634,7 @@
 		}
 	}
 }
+1912099 = {name="El Barrani" culture=masri }
 
 
 
@@ -16729,7 +16730,7 @@ coat_of_arms = {
 2041132 = { name="Gündogdyýew" culture=turkmen }
 2041133 = { name="Hallyýew" culture=turkmen }
 2041134 = { name="Khaddam" culture=turkmen }
-2041135 = { name="Serdar" culture=turkmen 
+2041135 = { name="Serdar" culture=turkmen used_for_random=no
 	coat_of_arms = { 
 		religion = sunni
 		template = 0
@@ -16744,7 +16745,20 @@ coat_of_arms = {
 	}
 }
 2041136 = { name="Abdylla" culture=turkmen }
-2041137 = { name="Azady" culture=turkmen }
+2041137 = { name="Azady" culture=turkmen 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2041138 = { name="Myradow" culture=turkmen }
 
 2042000 = { name="Iamrachen" culture=riffian }
@@ -20204,6 +20218,7 @@ coat_of_arms = {
 2066057 = { name="Qulîzanî" culture=kurdish }
 2066058 = { name="Sherefkendî" culture=kurdish }
 2066059 = { name="Qasimlo" culture=kurdish }
+2066060 = { name="Guven" culture=kurdish }
 
 2067000 = { name="Beel" culture=limburgish }
 2067001 = { name="Cals" culture=limburgish }
@@ -21046,6 +21061,8 @@ coat_of_arms = {
 2075079 = { name="Mamuratov" culture=karakalpak }
 2075080 = { name="Qabulov" culture=karakalpak }
 2075081 = { name="Baxadirov" culture=karakalpak }
+2075082 = { name="Ku'nxojaev" culture=karakalpak }
+2075083 = { name="Ziywar" culture=karakalpak }
 
 2076000 = { name="Betalgiry" culture=nakh }
 2076001 = { name="Iadabin" culture=nakh }
@@ -21536,14 +21553,24 @@ coat_of_arms = {
 2082006 = { name="Tserenkin" culture=kalmyk }
 2082007 = { name="Nokhacin" culture=kalmyk }
 2082008 = { name="Bodniin" culture=kalmyk }
-2082009 = { name="Bormanzhin" culture=kalmyk }
-2082010 = { name="Dordzhiin" culture=kalmyk }
+2082009 = { name="Bormanjin" culture=kalmyk }
+2082010 = { name="Dordjin" culture=kalmyk }
 2082011 = { name="Erdnicin" culture=kalmyk }
 2082012 = { name="Ilyumcin" culture=kalmyk }
 2082013 = { name="Kichiktin" culture=kalmyk }
 2082014 = { name="Mandciin" culture=kalmyk }
 2082015 = { name="Nemacin" culture=kalmyk }
 2082016 = { name="Orlov" culture=kalmyk }
+2082017 = { name="Basangaa" culture=kalmyk }
+2082018 = { name="Narmin" culture=kalmyk }
+2082019 = { name="Erenjaenae" culture=kalmyk }
+2082020 = { name="Erdniin" culture=kalmyk }
+2082021 = { name="Dawaan" culture=kalmyk }
+2082022 = { name="Badmin" culture=kalmyk }
+2082023 = { name="Narmin" culture=kalmyk }
+2082024 = { name="Badmaev" culture=kalmyk }
+2082025 = { name="Kögltin" culture=kalmyk }
+2082026 = { name="Balykov" culture=kalmyk }
 
 2083000 = { name="Arwi" culture=soussi }
 2083001 = { name="Igherm" culture=soussi }
