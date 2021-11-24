@@ -245,7 +245,6 @@
 	trait=erudite
 	trait=just
 	trait=pious
-	trait=erudite
 	2618.11.2={birth=yes}
 }
 2070021={
@@ -347,6 +346,7 @@
 	dynasty=2054071 #Naxçivanski
 	culture=azeri
 	religion=shiite
+	father=2070041
 	2627.7.24={birth=yes}
 }
 2070031={
@@ -385,4 +385,126 @@
 	trait=erudite
 	trait=hafiz
 	2632.3.1={birth=yes}
+}
+2070035={
+	name="Bähram"
+	dynasty=2054000 #Ismayil
+	culture=azeri
+	religion=shiite
+	father=2070027
+	2596.8.3={birth=yes}
+	2649.4.18={death=yes}
+}
+2070036={
+	name="Almaz"
+	female=yes
+	dynasty=2054000 #Ismayil
+	culture=azeri
+	religion=shiite
+	father=2070035
+	2621.2.2={birth=yes}
+}
+2070037={
+	name="Süleyman"
+	dynasty=2054000 #Ismayil
+	culture=azeri
+	religion=shiite
+	father=2070035
+	2623.10.6={birth=yes}
+}
+2070038={
+	name="Sam"
+	dynasty=2054000 #Ismayil
+	culture=azeri
+	religion=shiite
+	father=2070035
+	2626.10.21={birth=yes}
+}
+2070039={
+	name="Näsibä"
+	female=yes
+	dynasty=2054000 #Ismayil
+	culture=azeri
+	religion=shiite
+	father=2070037
+	2649.12.4={birth=yes}
+}
+2070040={
+	name="Memyan"
+	female=yes
+	dynasty=2066059 #Qasimlo
+	culture=kurdish
+	religion=sunni
+	father=2070031
+	2636.3.12={birth=yes}
+	2654.1.1={add_spouse=2070029}
+}
+2070041={
+	name="Yähya"
+	dynasty=2054071 #Naxçivanski
+	culture=azeri
+	religion=shiite
+	father=2070045
+	2601.6.28={birth=yes}
+	2642.12.15={death=yes}
+}
+2070042={
+	name="Isgändär"
+	dynasty=2054071 #Naxçivanski
+	culture=azeri
+	religion=shiite
+	father=2070041
+	2629.2.27={birth=yes}
+}
+2070043={
+	name="Irina"
+	female=yes
+	dynasty=2054071 #Naxçivanski
+	culture=azeri
+	religion=shiite
+	father=2070041
+	2630.7.11={birth=yes}
+}
+2070044={
+	name="Artur"
+	dynasty=2054071 #Naxçivanski
+	culture=azeri
+	religion=shiite
+	father=2070029
+	mother=2070040
+	2657.3.12={birth=yes}
+}
+2070045={
+	name="Cäbrayil"
+	dynasty=2054071 #Naxçivanski
+	culture=azeri
+	religion=shiite
+	2575.12.31={birth=yes}
+	2618.8.31={death=yes}
+}
+2070046={
+	name="Hamlet"
+	dynasty=2054071 #Naxçivanski
+	culture=azeri
+	religion=shiite
+	father=2070045
+	2609.8.22={birth=yes}
+}
+2070047={
+	name="Davud"
+	dynasty=2054071 #Naxçivanski
+	culture=azeri
+	religion=shiite
+	father=2070046
+	2633.11.19={birth=yes}
+}
+2070048={
+	name="Brilliant"
+	female=yes
+	dynasty=2054071 #Naxçivanski
+	culture=azeri
+	religion=shiite
+	father=2070029
+	mother=2070040
+	2661.2.19={birth=yes}
 }

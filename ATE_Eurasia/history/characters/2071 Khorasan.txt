@@ -546,7 +546,6 @@
 	culture=hazara
 	religion=shiite
 	father=2071046
-	mother=2071086
 	2600.9.3={birth=yes}
 	2656.5.20={death=yes}
 }
@@ -574,6 +573,7 @@
 	culture=hazara
 	religion=shiite
 	father=2071045
+	mother=2071086
 	2632.11.29={birth=yes}
 	2649.1.1={add_spouse=2071010}
 }
@@ -1230,22 +1230,57 @@
 	2655.1.1={add_spouse=1802065}
 }
 2071116={
-	name="Nizomiddin"
-	dynasty=2112135 #Alisher
-	culture=uzbek
-	religion=nizami
-	trait=celibate
-	trait=temperate
+	name="Berdi"
+	dynasty=2041138 #Myradow
+	culture=turkmen
+	religion=zimiran
 	trait=poet
-	trait=mystic
-	trait=skilled_tactician
-	trait=brave
-	trait=quick
-	diplomacy=8
-	martial=7
-	stewardship=5
-	intrigue=4
-	learning=8
-	2441.2.9={birth=yes}
-	2655.1.1={effect={add_friend=1506000}}
+	trait=erudite
+	trait=charitable
+	trait=just
+	trait=cynical
+	trait=mastermind_theologian
+	diplomacy=3
+	martial=4
+	stewardship=8
+	intrigue=2
+	learning=9
+	2594.3.3={birth=yes}
+}
+2071117={
+	name="Akgyz"
+	female=yes
+	dynasty=2041138 #Myradow
+	father=2071116
+	culture=turkmen
+	religion=zimiran
+	2636.3.8={birth=yes}
+	2655.1.1={add_spouse=2071108}
+}
+2071118={
+	name="Baýram"
+	father=2071116
+	mother=2071120
+	dynasty=2041138 #Myradow
+	culture=turkmen
+	religion=zimiran
+	trait=child_of_consort
+	2625.3.8={birth=yes}
+}
+2071119={
+	name="Beki"
+	father=2071116
+	dynasty=2041138 #Myradow
+	culture=turkmen
+	religion=zimiran
+	2629.9.24={birth=yes}
+}
+2071120={
+	name="Aynagözel" #random concubine
+	female=yes
+	dynasty=0
+	culture=turkmen
+	religion=zimiran
+	2605.8.3={birth=yes}
+	2630.6.2={death=yes}
 }

@@ -204,7 +204,7 @@
 	
 	trait = school_mark
 	trait = quick
-	trait = idolent
+	trait = indolent
 	trait = conscientious
 	
 	2661.3.22 = { birth = yes }
@@ -291,12 +291,32 @@
 	mother=3606037
 	trait = curious
 	trait = haughty
-	trait = idolent
+	trait = indolent
 	2653.4.12 = { birth = yes }
 	2666.4.12 = { add_trait = deceitful add_trait = charitable }
 	2700.1.1 = { death = yes }
 }
-3606039 = { 
+3606040 = { 
+	name = "Misrak"
+	female = yes
+	dynasty = 2098021 #Mesk
+	culture = amhara
+	religion = miaphysite
+	diplomacy=2
+	martial=1
+	stewardship=2
+	intrigue=1
+	learning=2
+	father=3606038
+	mother=3606037
+	trait = indolent
+	trait = idolizer
+	trait = timid
+	2654.1.4 = { birth = yes }
+	2666.1.4 = { add_trait = familyperson add_trait = diligent }
+	2700.1.1 = { death = yes }
+}
+3606041 = { 
 	name = "Aster"
 	female = yes
 	dynasty = 2098021 #Mesk
@@ -314,25 +334,5 @@
 	trait = curious
 	2654.1.20 = { birth = yes }
 	2666.4.12 = { add_trait = deceitful add_trait = diligent }
-	2700.1.1 = { death = yes }
-}
-3606040 = { 
-	name = "Misrak"
-	female = yes
-	dynasty = 2098021 #Mesk
-	culture = amhara
-	religion = miaphysite
-	diplomacy=2
-	martial=1
-	stewardship=2
-	intrigue=1
-	learning=2
-	father=3606038
-	mother=3606037
-	trait = idolent
-	trait = idolizer
-	trait = timid
-	2654.1.4 = { birth = yes }
-	2666.1.4 = { add_trait = familyperson add_trait = diligent }
 	2700.1.1 = { death = yes }
 }
