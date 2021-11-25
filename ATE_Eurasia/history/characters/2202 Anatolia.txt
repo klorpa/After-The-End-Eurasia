@@ -772,9 +772,10 @@
 2202063={#Izmir Patrician
 	name="Emir"
 	dynasty=2055001 #Sahenk
+	father=2202114
 	culture=west_anatolian
 	religion=ruhi
-	2638.11.6={ birth=yes }
+	2628.7.25={ birth=yes }
 }
 2202064={#Izmir Patrician
 	name="Ibrahim"
@@ -1241,4 +1242,29 @@
 	religion=nizami
 	father=2202112
 	2641.1.23={birth=yes}
+}
+2202114={
+	name="Ümit"
+	dynasty=2055001 #Sahenk
+	culture=west_anatolian
+	religion=ruhi
+	2607.7.15={birth=yes}
+	2650.8.7={death=yes}
+}
+2202115={
+	name="Ersin"
+	father=2202114
+	dynasty=2055001 #Sahenk
+	culture=west_anatolian
+	religion=ruhi
+	2637.10.20={birth=yes}
+}
+2202115={
+	name="Dogha"
+	female=yes
+	father=2202114
+	dynasty=2055001 #Sahenk
+	culture=west_anatolian
+	religion=ruhi
+	2632.7.20={birth=yes}
 }

@@ -1864,14 +1864,16 @@
 	2710.1.1={death=yes}
 }
 1861111={
-	name="Alessandro"
+	name="Lusciandro"
 	dynasty=2033229 #Crêuza
+	father=1861156
 	culture=ligurian
 	religion=catholic
 	trait=charismatic_negotiator
 	trait=genius
 	trait=strong
 	trait=shrewd
+	trait=depressed
 	2630.3.18={birth=yes}
 	2710.1.1={death=yes}
 }
@@ -1884,7 +1886,7 @@
 	2710.1.1={death=yes}
 }
 1861113={
-	name="Alessandro"
+	name="Paolo"
 	dynasty=2033231 #Mameli
 	culture=ligurian
 	religion=catholic
@@ -2213,27 +2215,210 @@
 	culture=sardinian
 	religion=ivri
 	2627.6.11={birth=yes}
+	2660.1.1={employer=1861033}
 }
 1861145={
 	name="Moyses"
 	dynasty=1820231 #di Carcassona
 	culture=sefardi
 	religion=haredi
-	father=1861147
+	father=1861154
 	2632.11.13={birth=yes}
+	2660.1.1={employer=1861033}
 }
-1861145={
-	name="Nino"
-	dynasty=1820231 #di Carcassona
-	culture=sefardi
-	religion=haredi
-	father=1861147
-	2634.5.25={birth=yes}
+1861146={
+	name="Albertu"
+	dynasty=2033229 #Crêuza
+	culture=ligurian
+	religion=catholic
+	trait=twin
+	father=1861111
+	mother=1804201
+	2656.3.20={birth=yes}
 }
-1861145={
+1861147={
+	name="Maddæña"
+	female=yes
+	dynasty=2033229 #Crêuza
+	culture=ligurian
+	religion=catholic
+	trait=twin
+	father=1861111
+	mother=1804201
+	2656.3.20={birth=yes}
+}
+1861148={
+	name="Grigœu"
+	dynasty=2033229 #Crêuza
+	culture=ligurian
+	religion=catholic
+	father=1861111
+	mother=1804201
+	2659.12.3={birth=yes}
+}
+1861149={
+	name="Ghiggermo"
+	dynasty=2033232 #Usodimare
+	culture=ligurian
+	religion=catholic
+	trait=midas_touched
+	trait=deceitful
+	trait=cynical
+	trait=gregarious
+	trait=kind
+	diplomacy=7
+	martial=2
+	stewardship=8
+	intrigue=7
+	learning=5
+	2631.8.17={birth=yes}
+	2654.1.1={add_spouse=2202115}
+}
+1861150={
+	name="Mandricardo"
+	dynasty=2028036 #Graziano
+	culture=neapolitan
+	religion=chevalier
+	2642.9.18={birth=yes}
+	2650.1.1={employer=186119}
+}
+1861151={
+	name="Scipione"
+	dynasty=2033232 #Usodimare
+	culture=ligurian
+	religion=catholic
+	trait=sympathy_islam
+	give_nickname=nick_cigala
+	father=1861149
+	mother=2202115
+	2656.5.14={birth=yes}
+}
+1861152={
+	name="Nétta"
+	female=yes
+	dynasty=2033233 #Embriaco-García
+	culture=castilian
+	religion=catholic
+	trait=scholar
+	trait=genius
+	trait=charismatic_negotiator
+	trait=lefthanded
+	trait=proud
+	father=1861157
+	2640.6.1={birth=yes
+		culture=ligurian}
+	2658.1.1={add_matrilineal_spouse=1861153}
+}
+1861153={
+	name="Drîa"
+	dynasty=2033229 #Crêuza
+	culture=ligurian
+	religion=catholic
+	trait=deceitful
+	father=1861156
+	2635.8.10={birth=yes}
+}
+1861154={
 	name="Shlomo"
 	dynasty=1820231 #di Carcassona
 	culture=sefardi
 	religion=haredi
 	2605.2.4={birth=yes}
+	2660.1.1={employer=1861033}
+}
+1861155={
+	name="Nino"
+	dynasty=1820231 #di Carcassona
+	culture=sefardi
+	religion=haredi
+	father=1861154
+	2634.5.25={birth=yes}
+	2660.1.1={employer=1861033}
+}
+1861156={
+	name="Celestino"
+	dynasty=2033229 #Crêuza
+	culture=ligurian
+	religion=catholic
+	2598.1.4={birth=yes}
+	2660.7.30={death=yes}
+}
+1861157={
+	name="Giöxeppe"
+	dynasty=2033233 #Embriaco-García
+	culture=castilian
+	religion=catholic
+	father=1861158
+	2612.2.5={birth=yes
+		culture=ligurian}
+	2660.10.1={death=yes}
+}
+1861158={
+	name="Loigi"
+	dynasty=2033233 #Embriaco-García
+	culture=castilian
+	religion=catholic
+	2584.6.28={birth=yes
+		culture=ligurian}
+	2647.12.30={death=yes}
+}
+1861159={
+	name="Carlu"
+	dynasty=2033233 #Embriaco-García
+	culture=castilian
+	religion=catholic
+	father=1861158
+	2616.3.5={birth=yes
+		culture=ligurian}
+}
+1861160={
+	name="Giànni"
+	dynasty=2033233 #Embriaco-García
+	culture=castilian
+	religion=catholic
+	father=1861159
+	2648.4.2={birth=yes
+		culture=ligurian}
+}
+1861161={
+	name="Giànni"
+	dynasty=2033234 #d'Oneglia
+	culture=ligurian
+	religion=chronicler
+	trait=one_legged
+	trait=sturdy
+	trait=celibate
+	trait=gluttonous
+	trait=skilled_tactician
+	2604.10.24={birth=yes}
+}
+1861162={
+	name="Luisa"
+	female=yes
+	dynasty=0
+	culture=ligurian
+	religion=chronicler
+	trait=pneumonic
+	2605.4.19={birth=yes}
+	2622.1.1={add_spouse=1861161}
+	2663.2.9={death={death_reason=death_trait}}
+}
+1861163={
+	name="Dàvide"
+	dynasty=2033234 #d'Oneglia
+	culture=ligurian
+	religion=chronicler
+	father=1861161
+	mother=1861162
+	2633.11.21={birth=yes}
+}
+1861164={
+	name="Ginêvra"
+	female=yes
+	dynasty=0
+	culture=ligurian
+	religion=chronicler
+	trait=pregnant
+	2633.5.31={birth=yes}
+	2655.1.1={add_spouse=1861163}
 }

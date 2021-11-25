@@ -14920,6 +14920,9 @@ coat_of_arms = {
 	}
 }
 2033231 = { name="Mameli" culture=ligurian }
+2033232 = { name="Usodimare" culture=ligurian }
+2033233 = { name="Embriaco-García" culture=ligurian }
+2033234 = { name="d'Oneglia" culture=ligurian }
 
 2034001 = { name="Da Rold" culture=venetian }
 2034002 = { name="Dal Farra" culture=venetian }
@@ -16801,7 +16804,20 @@ coat_of_arms = {
 		}
 	}
 }
-2041138 = { name="Myradow" culture=turkmen }
+2041138 = { name="Myradow" culture=turkmen 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 2042000 = { name="Iamrachen" culture=riffian }
 2042001 = { name="Lmrabet" culture=riffian }
