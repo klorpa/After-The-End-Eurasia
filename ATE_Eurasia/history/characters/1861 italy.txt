@@ -561,24 +561,24 @@
 	dynasty=2035191 #Dimonios
 	culture=sardinian
 	religion=catholic
-	trait=charismatic_negotiator
-	trait=socializer
-	trait=giant
-	trait=gregarious
-	trait=familyperson
-	trait=kind
-	trait=gluttonous
+	father=1861143
+	trait=grey_eminence
+	trait=unyielding_leader
+	trait=gardener
+	trait=just
+	trait=proud
+	trait=stubborn
 	diplomacy=7
 	martial=7
 	stewardship=6
 	intrigue=5
 	learning=6
-	2627.1.5={birth=yes}
+	2642.1.5={birth=yes}
 }
 1861034={
-	name="Iacu"
-	dynasty=2035048 #Mureddu
-	culture=sardinian
+	name="Luca"
+	dynasty=2030222 #Innocenti
+	culture=tuscan
 	religion=catholic
 	trait=naive_appeaser
 	trait=hunter
@@ -592,7 +592,7 @@
 	stewardship=7
 	intrigue=6
 	learning=4
-	2624.3.15={birth=yes}
+	2642.3.15={birth=yes}
 	2644.2.18={
 		add_matrilineal_spouse=1861033
 	}
@@ -600,7 +600,7 @@
 1861035={
 	name="Zema"
 	female=yes
-	dynasty=2035191 #Tilipa
+	dynasty=2035191 #Dimonios
 	culture=sardinian
 	religion=catholic
 	trait=idolizer
@@ -611,14 +611,13 @@
 	stewardship=1
 	intrigue=2
 	learning=3
-	father=1861034
-	mother=1861033
+	father=1861143
 	2651.2.18={birth=yes}
 }
 1861036={
 	name="Filumena"
 	female=yes
-	dynasty=2035191 #Tilipa
+	dynasty=2035191 #Dimonios
 	culture=sardinian
 	religion=catholic
 	trait=conscientious
@@ -629,8 +628,7 @@
 	stewardship=4
 	intrigue=3
 	learning=2
-	mother=1861033
-	father=1861034
+	father=1861143
 	2651.2.18={birth=yes}
 }
 1861037={
@@ -2003,7 +2001,18 @@
 	dynasty=2035192 #Maimone
 	culture=sardinian
 	religion=catholic
-	2631.12.5={birth=yes}
+	trait=aggressive_leader
+	trait=midas_touched
+	trait=greedy
+	trait=gregarious
+	trait=arbitrary
+	trait=strong
+	diplomacy=8
+	martial=7
+	stewardship=5
+	intrigue=6
+	learning=2
+	2622.12.5={birth=yes}
 }
 1861126={
 	name="Luca"
@@ -2016,5 +2025,215 @@
 	trait=fair
 	trait=drunkard
 	give_nickname=nick_the_red
+	father=1861141
 	2641.5.1={birth=yes}
+}
+1861127={
+	name="Pidrutza"
+	female=yes
+	dynasty=0
+	culture=sardinian
+	religion=catholic
+	2626.3.24={birth=yes}
+	2643.1.1={add_spouse=1861125}
+}
+1861128={
+	name="Nigola"
+	dynasty=2035192 #Maimone
+	culture=sardinian
+	religion=catholic
+	father=1861125
+	mother=1861127
+	2644.2.23={birth=yes}
+}
+1861129={
+	name="Lisetta"
+	female=yes
+	dynasty=2035192 #Maimone
+	culture=sardinian
+	religion=catholic
+	father=1861125
+	mother=1861127
+	2645.4.17={birth=yes}
+}
+1861130={
+	name="Dore"
+	dynasty=2035194 #Cavalcata
+	culture=catalan
+	religion=catholic
+	father=1861132
+	trait=fair
+	trait=cavalry_leader
+	trait=gregarious
+	trait=frail
+	trait=socializer
+	trait=slothful
+	diplomacy=6
+	martial=7
+	stewardship=3
+	intrigue=3
+	learning=5
+	2648.9.28={birth=yes}
+}
+1861131={
+	name="Maria"
+	female=yes
+	dynasty=2035194 #Cavalcata
+	culture=sardinian
+	religion=catholic
+	father=1861132
+	2643.11.5={birth=yes}
+}
+1861132={
+	name="Ramon"
+	dynasty=2035194 #Cavalcata
+	culture=sardinian
+	religion=catholic
+	father=1861139
+	2612.11.17={birth=yes}
+	2655.11.13={death=yes}
+}
+1861133={
+	name="Iostu"
+	dynasty=2035195 #Ampsicora
+	culture=sardinian
+	religion=catholic
+	trait=falconer
+	trait=scarred
+	trait=robust
+	trait=giant
+	trait=strong
+	trait=drunkard
+	trait=fortune_builder
+	trait=sympathy_islam
+	diplomacy=6
+	martial=9
+	stewardship=5
+	intrigue=2
+	learning=8
+	2610.6.14={birth=yes}
+}
+1861134={
+	name="Colosa"
+	female=yes
+	dynasty=0
+	culture=sardinian
+	religion=catholic
+	2611.6.15={birth=yes}
+	2628.6.15={add_spouse=1861133}
+}
+1861135={
+	name="Càrule"
+	dynasty=2035195 #Ampsicora
+	culture=sardinian
+	religion=catholic
+	father=1861133
+	mother=1861134
+	2629.1.29={birth=yes}
+}
+1861136={
+	name="Zùlia"
+	dynasty=2035196 #Piras
+	female=yes
+	father=1861138
+	culture=sardinian
+	religion=catholic
+	trait=kind
+	trait=quick
+	trait=tough_soldier
+	trait=arbitrary
+	trait=falconer
+	diplomacy=8
+	martial=9
+	stewardship=6
+	intrigue=5
+	learning=5
+	2642.2.3={birth=yes}
+}
+1861137={
+	name="Iacu"
+	dynasty=2035196 #Piras
+	father=1861138
+	culture=sardinian
+	religion=catholic
+	2652.3.22={birth=yes}
+}
+1861138={
+	name="Diegu"
+	dynasty=2035196 #Piras
+	culture=sardinian
+	religion=catholic
+	trait=gout
+	2600.10.12={birth=yes}
+	2660.10.30={death={death_reason=death_trait}}
+}
+1861139={
+	name="Constantí"
+	dynasty=2035194 #Cavalcata
+	culture=catalan
+	religion=catholic
+	2584.7.30={birth=yes}
+	2642.10.18={death=yes}
+}
+1861140={
+	name="Arcadi"
+	dynasty=2035194 #Cavalcata
+	culture=catalan
+	religion=catholic
+	father=1861139
+	2622.6.20={birth=yes}
+}
+1861141={
+	name="Floris"
+	dynasty=2035193 #Arba
+	culture=sardinian
+	religion=catholic
+	2615.6.12={birth=yes}
+	2657.5.8={death=yes}
+}
+1861142={
+	name="Brotzu"
+	dynasty=2035193 #Arba
+	father=1861141
+	culture=sardinian
+	religion=catholic
+	2644.9.30={birth=yes}
+}
+1861143={
+	name="Gonare"
+	dynasty=2035191 #Dimonios
+	culture=sardinian
+	religion=catholic
+	2611.6.24={birth=yes}
+	2659.11.17={death=yes}
+}
+1861144={
+	name="Jagu"
+	dynasty=2035197 #Sandri
+	culture=sardinian
+	religion=ivri
+	2627.6.11={birth=yes}
+}
+1861145={
+	name="Moyses"
+	dynasty=1820231 #di Carcassona
+	culture=sefardi
+	religion=haredi
+	father=1861147
+	2632.11.13={birth=yes}
+}
+1861145={
+	name="Nino"
+	dynasty=1820231 #di Carcassona
+	culture=sefardi
+	religion=haredi
+	father=1861147
+	2634.5.25={birth=yes}
+}
+1861145={
+	name="Shlomo"
+	dynasty=1820231 #di Carcassona
+	culture=sefardi
+	religion=haredi
+	2605.2.4={birth=yes}
 }
