@@ -2280,7 +2280,7 @@
 	culture=neapolitan
 	religion=chevalier
 	2642.9.18={birth=yes}
-	2650.1.1={employer=186119}
+	2650.1.1={employer=1861119}
 }
 1861151={
 	name="Scipione"
@@ -2421,4 +2421,226 @@
 	trait=pregnant
 	2633.5.31={birth=yes}
 	2655.1.1={add_spouse=1861163}
+}
+1861165={
+	name="Roberto"
+	dynasty=2029205 #Segre
+	culture=umbrian
+	religion=haredi
+	trait=brilliant_strategist
+	trait=brave
+	trait=inspiring_leader
+	trait=scarred
+	trait=patient
+	diplomacy=2
+	martial=7
+	stewardship=8
+	intrigue=4
+	learning=5
+	father=1861167
+	2621.3.7={birth=yes}
+	2645.1.1={add_spouse=1861166}
+}
+1861166={
+	name="Giuseppina"
+	female=yes
+	dynasty=0
+	culture=umbrian
+	religion=haredi
+	2624.1.18={birth=yes}
+}
+1861167={
+	name="Menelao"
+	dynasty=2029205 #Segre
+	culture=umbrian
+	2594.8.11={birth=yes}
+	2637.2.4={death=yes}
+}
+1861168={
+	name="Flavio"
+	dynasty=2029205 #Segre
+	culture=umbrian
+	religion=haredi
+	trait=mastermind_theologian
+	trait=cynical
+	trait=sympathy_pagans
+	trait=erudite
+	trait=diligent
+	diplomacy=4
+	martial=2
+	stewardship=5
+	intrigue=7
+	learning=8
+	father=1861167
+	2627.11.22={birth=yes}
+}
+1861169={
+	name="Giuseppe"
+	dynasty=2029205 #Segre
+	culture=umbrian
+	religion=haredi
+	father=1861165
+	mother=1861166
+	2646.10.9={birth=yes}
+}
+1861170={
+	name="Barbara"
+	female=yes
+	dynasty=2029205 #Segre
+	culture=umbrian
+	religion=haredi
+	father=1861165
+	mother=1861166
+	2649.12.7={birth=yes}
+}
+1861171={
+	name="Camillo"
+	dynasty=2029206 #Massimo
+	culture=umbrian
+	religion=catholic
+	trait=intricate_webweaver
+	trait=scarred
+	trait=hedonist
+	trait=charitable
+	trait=lustful
+	diplomacy=4
+	martial=2
+	stewardship=5
+	intrigue=9
+	learning=5
+	2612.3.7={birth=yes}
+	2638.1.1={add_spouse=1861172}
+}
+1861172={
+	name="Carolina"
+	female=yes
+	dynasty=0
+	culture=umbrian
+	religion=catholic
+	2619.11.4={birth=yes}
+}
+1861173={
+	name="Luca"
+	dynasty=2029206 #Massimo
+	culture=umbrian
+	religion=catholic
+	trait=martial_cleric
+	trait=shy
+	trait=chaste
+	trait=sturdy
+	trait=slothful
+	trait=groomed
+	father=1861171
+	mother=1861172
+	2648.8.11={birth=yes}
+}
+1861174={
+	name="Damiana"
+	female=yes
+	dynasty=2029206 #Massimo
+	culture=umbrian
+	religion=catholic
+	father=1861171
+	mother=1861172
+	2642.11.11={birth=yes}
+}
+1861175={
+	name="Giulia"
+	female=yes
+	dynasty=2029207 #del Grillo
+	culture=umbrian
+	religion=catholic
+	father=1861178
+	2638.12.31={birth=yes}
+}
+1861176={
+	name="Massimo"
+	dynasty=2029207 #del Grillo
+	culture=umbrian
+	religion=catholic
+	father=1861178
+	trait=hedonist
+	trait=shrewd
+	trait=fortune_builder
+	trait=proud
+	trait=lustful
+	trait=gluttonous
+	trait=envious
+	2634.12.30={birth=yes}
+}
+1861177={
+	name="Simone"
+	dynasty=2029207 #del Grillo
+	culture=umbrian
+	religion=catholic
+	father=1861178
+	trait=poet
+	2642.3.11={birth=yes}
+}
+1861178={
+	name="Valerio"
+	dynasty=2029207 #del Grillo
+	culture=umbrian
+	religion=catholic
+	2601.5.31={birth=yes}
+	2658.3.9={death=yes}
+}
+1861179={
+	name="Tancredi"
+	dynasty=2027019 #Amato
+	culture=neapolitan
+	religion=chevalier
+	2644.5.29={birth=yes}
+	2650.1.1={employer=1861048}
+}
+1861180={
+	name="Ferrante"
+	dynasty=2028093 #Limelli
+	culture=neapolitan
+	religion=chevalier
+	2640.7.30={birth=yes}
+	2650.1.1={employer=1861056}
+}
+1861181={
+	name="Isotta"
+	female=yes
+	dynasty=2026007 #Martelli
+	culture=piedmontese
+	religion=chevalier
+	2631.10.7={birth=yes}
+	2650.1.1={employer=1861109}
+}
+1861182={
+	name="Lissànder"
+	dynasty=2026071 #Rinaudo
+	culture=piedmontese
+	religion=chevalier
+	trait=erudite
+	trait=poet
+	2621.4.17={birth=yes}
+	2650.1.1={employer=1861109}
+}
+1861183={
+	name="Ruggeru"
+	dynasty=2027007 #Corleonesi
+	culture=neapolitan
+	religion=chevalier
+	2640.5.17={birth=yes}
+	2650.1.1={employer=1861109}
+}
+1861184={
+	name="Orlannu"
+	dynasty=2027225 #Genna
+	culture=neapolitan
+	religion=chevalier
+	2633.10.6={birth=yes}
+	2650.1.1={employer=1861109}
+}
+1861185={
+	name="Fidiricu"
+	dynasty=2027245 #Curvà
+	culture=neapolitan
+	religion=chevalier
+	2627.8.2={birth=yes}
+	2650.1.1={employer=1861109}
 }
