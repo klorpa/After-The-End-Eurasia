@@ -1112,8 +1112,9 @@
 	}
 }
 1861063={
-	name="Pietro"
+	name="Peder"
 	dynasty=2031060 #Beretta
+	father=1861098
 	culture=lombard
 	religion=catholic
 	martial=6
@@ -1127,6 +1128,7 @@
 	trait=charitable
 	trait=lustful
 	trait=ambitious
+	father=1861198
 	2632.5.20={birth=yes}
 	2650.5.20={effect={add_artifact=ate_firearm}}
 	2652.3.1={
@@ -1151,6 +1153,7 @@
 	trait=gregarious
 	trait=kind
 	trait=content
+	father=1861201
 	2635.2.18={birth=yes}
 	2700.1.1={death=yes}
 }
@@ -1241,7 +1244,7 @@
 	2700.1.1={death=yes}
 }
 1861069={
-	name="Luigi"
+	name="Luis"
 	dynasty=2031236 #Volta
 	culture=lombard
 	religion=catholic
@@ -1258,6 +1261,7 @@
 	trait=humble
 	trait=diligent
 	trait=honest
+	father=1861188
 	2632.10.29={birth=yes}
 	2665.12.10={
 		add_spouse=1861068
@@ -1296,6 +1300,7 @@
 	trait=rude
 	trait=slothful
 	trait=honest
+	father=1861209
 	2640.8.11={birth=yes}
 	2700.1.1={death=yes}
 }
@@ -1588,13 +1593,15 @@
 	dynasty=2032115 #do Classe
 	culture=romagnol
 	religion=catholic
-	trait=grey_eminence
+	trait=fortune_builder
 	trait=socializer
 	trait=gregarious
 	trait=charitable
 	trait=drunkard
 	trait=proud
 	trait=wroth
+	trait=lustful
+	father=1861195
 	2625.2.28={birth=yes}
 	2700.1.1={death=yes}
 }
@@ -1627,7 +1634,7 @@
 }
 1861092={
 	name="Francesco"
-	dynasty=2032215 #Hercolani
+	dynasty=2032215 #Tridenti
 	culture=romagnol
 	religion=catholic
 	trait=thrifty_clerk
@@ -1636,6 +1643,7 @@
 	trait=just
 	trait=cruel
 	trait=strong
+	father=1861192
 	2630.2.28={birth=yes}
 	2700.1.1={death=yes}
 }
@@ -1840,17 +1848,18 @@
 	2710.1.1={death=yes}
 }
 1861109={
-	name="Camillo"
-	dynasty=2026172 #Aimonidi
+	name="Camilo"
+	dynasty=2026172 #Villafranca-Soissons
 	culture=piedmontese
 	religion=catholic
+	father=1861206
 	trait=fortune_builder
 	trait=ambitious
 	2640.3.18={birth=yes}
 	2710.1.1={death=yes}
 }
 1861110={
-	name="Niccolò"
+	name="Nicolò"
 	dynasty=2026173 #Tornaforte-Di villa
 	culture=piedmontese
 	religion=catholic
@@ -2206,6 +2215,7 @@
 	dynasty=2035191 #Dimonios
 	culture=sardinian
 	religion=catholic
+	father=1861186
 	2611.6.24={birth=yes}
 	2659.11.17={death=yes}
 }
@@ -2623,24 +2633,245 @@
 1861183={
 	name="Ruggeru"
 	dynasty=2027007 #Corleonesi
-	culture=neapolitan
+	culture=sicilian
 	religion=chevalier
 	2640.5.17={birth=yes}
-	2650.1.1={employer=1861109}
+	2650.1.1={employer=1861098}
 }
 1861184={
 	name="Orlannu"
 	dynasty=2027225 #Genna
-	culture=neapolitan
+	culture=sicilian
 	religion=chevalier
 	2633.10.6={birth=yes}
-	2650.1.1={employer=1861109}
+	2650.1.1={employer=1861098}
 }
 1861185={
 	name="Fidiricu"
 	dynasty=2027245 #Curvà
-	culture=neapolitan
+	culture=sicilian
 	religion=chevalier
 	2627.8.2={birth=yes}
-	2650.1.1={employer=1861109}
+	2650.1.1={employer=1861098}
+}
+1861186={
+	name="Luisi"
+	dynasty=2035191 #Dimonios
+	culture=sardinian
+	religion=catholic
+	2584.2.4={birth=yes}
+	2615.3.11={death=yes}
+}
+1861187={
+	name="Nibata"
+	female=yes
+	dynasty=2035191 #Dimonios
+	culture=sardinian
+	religion=catholic
+	father=1861186
+	2615.12.18={birth=yes}
+}
+1861188={
+	name="Francesc"
+	dynasty=2031236 #Volta
+	culture=lombard
+	religion=catholic
+	2602.9.8={birth=yes}
+	2652.7.2={death=yes}
+}
+1861189={
+	name="Delaida"
+	female=yes
+	dynasty=2031236 #Volta
+	culture=lombard
+	religion=catholic
+	father=1861188
+	2636.3.19={birth=yes}
+	2656.1.1={add_spouse=1861110}
+}
+1861190={
+	name="Odon"
+	dynasty=2026173 #Tornaforte-Di villa
+	culture=piedmontese
+	religion=catholic
+	father=1861110
+	mother=1861189
+	2659.7.21={birth=yes}
+}
+1861191={
+	name="Gian-a"
+	female=yes
+	dynasty=2026173 #Tornaforte-Di villa
+	culture=piedmontese
+	religion=catholic
+	father=1861110
+	mother=1861189
+	2664.9.10={birth=yes}
+}
+1861192={
+	name="Carlo"
+	dynasty=2032215 #Tridenti
+	culture=romagnol
+	religion=catholic
+	2610.11.4={birth=yes}
+	2649.5.23={death=yes}
+}
+1861193={
+	name="Vincenza"
+	female=yes
+	dynasty=2032215 #Tridenti
+	culture=romagnol
+	religion=catholic
+	father=1861192
+	2640.12.10={birth=yes}
+}
+1861194={
+	name="Omar"
+	dynasty=2032215 #Tridenti
+	culture=romagnol
+	religion=catholic
+	father=1861192
+	2637.8.16={birth=yes}
+}
+1861195={
+	name="Fulvio"
+	dynasty=2032115 #do Classe
+	culture=romagnol
+	religion=catholic
+	2602.1.28={birth=yes}
+	2655.7.23={death=yes}
+}
+1861196={
+	name="Edgardo"
+	dynasty=2032115 #do Classe
+	culture=romagnol
+	religion=catholic
+	father=1861195
+	2628.10.17={birth=yes}
+}
+1861197={
+	name="Antonio"
+	dynasty=2032115 #do Classe
+	culture=romagnol
+	religion=catholic
+	father=1861195
+	2632.4.18={birth=yes}
+}
+1861198={
+	name="Bartolomee"
+	dynasty=2031060 #Beretta
+	culture=lombard
+	religion=catholic
+	2608.9.9={birth=yes}
+	2664.11.27={death=yes}
+}
+1861199={
+	name="Gabriel"
+	dynasty=2031060 #Beretta
+	culture=lombard
+	religion=catholic
+	father=1861198
+	2635.10.13={birth=yes}
+}
+1861200={
+	name="Cinto"
+	dynasty=2031060 #Beretta
+	culture=lombard
+	religion=catholic
+	father=1861198
+	2635.10.13={birth=yes}
+}
+1861201={
+	name="Marchionn"
+	dynasty=2031186 #Simonetta
+	culture=lombard
+	father=1861202
+	religion=catholic
+	2597.9.24={birth=yes}
+	2661.11.24={death=yes}
+}
+1861202={
+	name="Tilio"
+	dynasty=2031186 #Simonetta
+	culture=lombard
+	religion=catholic
+	2569.11.25={birth=yes}
+	2611.1.23={death=yes}
+}
+1861203={
+	name="Gnazzi"
+	dynasty=2031186 #Simonetta
+	culture=lombard
+	religion=catholic
+	father=1861202
+	2602.10.10={birth=yes}
+}
+1861204={
+	name="Rocch"
+	dynasty=2031186 #Simonetta
+	culture=lombard
+	religion=catholic
+	father=1861203
+	mother=1861205
+	2629.8.30={birth=yes}
+}
+1861205={
+	name="Agnesa"
+	female=yes
+	dynasty=0
+	culture=lombard
+	religion=catholic
+	father=1861203
+	2605.6.26={birth=yes}
+	2625.1.1={add_spouse=1861204}
+	2645.5.21={death=yes}
+}
+1861206={
+	name="Pàul"
+	dynasty=2026172
+	culture=lombard
+	religion=catholic
+	2611.1.15={birth=yes}
+	2648.6.27={death=yes}
+}
+1861207={
+	name="Flip"
+	dynasty=2026172 #Villafranca-Soissons
+	culture=piedmontese
+	religion=catholic
+	father=1861206
+	2642.2.20={birth=yes}
+}
+1861208={
+	name="Giulio"
+	dynasty=2026172 #Villafranca-Soissons
+	culture=piedmontese
+	religion=catholic
+	father=1861206
+	2642.11.21={birth=yes}
+}
+1861209={
+	name="Benedit"
+	dynasty=2026171 #Morera
+	culture=piedmontese
+	religion=catholic
+	2613.11.21={birth=yes}
+	2664.8.3={death=yes}
+}
+1861210={
+	name="Daniel"
+	dynasty=2026171 #Morera
+	culture=piedmontese
+	religion=catholic
+	father=1861209
+	2642.2.9={birth=yes}
+}
+1861211={
+	name="Balbra"
+	female_yes
+	dynasty=2026171 #Morera
+	culture=piedmontese
+	religion=catholic
+	father=1861209
+	2644.6.28={birth=yes}
 }
