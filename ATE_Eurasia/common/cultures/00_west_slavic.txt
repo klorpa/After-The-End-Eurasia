@@ -75,7 +75,7 @@ west_slavic_group = {
 			Daniél_Daniel Dawid_David Donôld_Donald
 			Édmùnd_Edmund Édwôrd_Edward Eùgeniusz_Eugene Érnest_Ernest
 			Féliks_Felix Filip_Philip Florión_Florian Frãcëszk_Francis
-			Gerat_Gerard Gùstôw_Gustav
+			Genk Gerat_Gerard Gùstôw_Gustav
 			Henrik_Henry Hieronim_Jerome
 			Jaroslôw_Jaroslav Jarosz_Jerome Jeremiôsz_Jeremiah Jerzi_George Jignacy_Ignatius Jizydór_Isidore Jón_John Józef_Joseph Józwa_Joseph Julión_Julian Juliusz_Julius
 			Kajetón_Kajetan Kamil_Camillus Kastór_Castore Karól_Charles Kadzmiérz_Casimir Klémãs_Clement Kónrôd_Konrad Kónstãti_Constantine Krësztof_Christopher
@@ -85,7 +85,7 @@ west_slavic_group = {
 			Pawel_Paul Pioter_Peter Przemëslôw_Premysl
 			Riszôrd_Richard Róbert_Robert Róman_Roman
 			Sambór_Sambor Samsón_Samson Sobieslôw_Sobeslaus Stanislôw_Stanislav Stazy_Anastasius Swiatopôlk_Svatopluk Szëmón_Simon Sztefón_Stephen
-			Téófil_Theophilos Tomôsz_Thomas
+			Tadeùsz_Thaddeus Téófil_Theophilos Tomôsz_Thomas
 			Waclôw_Wenceslaus Walãti_Valentin Wartëslôw_Vratislav Wawrzyniec_Lawrence Wieslôw_Velislav Wilem_William Witóld_Vytautas Wladislôw_Vladislav Wòjcech_Vojtech
 			Zbigórz_Zbynek Zemòwit_Siemowit Zenón_Zenon Zygmùnd_Sigmund
 		}
@@ -95,7 +95,7 @@ west_slavic_group = {
 			Celina_Celine
 			Danuta Damroka
 			Émila_Emily Éwa_Eve
-			Faùstëna_Faustina Frãcëszka_Francesca
+			Faùstëna_Faustina Fela Frãcëszka_Francesca
 			Gražina_Grace
 			Jadwiga_Hedwig Jaromira Jida_Ida Jizabela_Elizabeth Jiréna_Irene Joana_Joan Jola_Yolanda Juliana Juliô_Julia
 			Katarzëna_Catherine Kónstancja_Constance Kristina_Christine
@@ -106,7 +106,7 @@ west_slavic_group = {
 			Rózela_Rosalia
 			Sylwiô_Silvia
 			Tédora_Theodora Teréza_Teresa
-			Wanda Wérónika_Veronica
+			Walbùrga_Walpurga Wanda Wérónika_Veronica
 			Zofiô_Sophia Zuzana_Susan
 		}
 
@@ -339,6 +339,7 @@ west_slavic_group = {
 		female_names = {
 			Jadwiga_Hedwig Jagoda 
 			Karolina_Caroline 
+			Leokadia 
 			Maria_Mary
 			Stefania_Stephanie 
 			Wanda Wiktoria_Victoria 
@@ -389,14 +390,14 @@ west_slavic_group = {
 			Adam_Adam Albin_Albinus Aleksy_Alexis Alfons_Alfonso Ambrozy_Ambrosius Anastazy_Anastasius Andrzej_Andrew Apolinary_Apollinarius Atanazy_Athanasius Antoni_Anthony Augustyn_Augustine 
 			Baltazar_Balthazar Bartlomiej_Bartholomew Benedekyt_Benedict Blazej_Blasius Boguslaw_Boguslav Bonawentura_Bonaventura Boromeusz 
 			Chryzostom Cyprian_Cyprian 
-			Decjusz_Decius Dobrogost Dominik_Dominic 
+			Daniel_Daniel Decjusz_Decius Dobrogost Dominik_Dominic 
 			Eliasz_Elias Erazm_Erasmus 
 			Fabian_Fabian Faustyn Felicjan_Felician Feliks_Felix Florian_Florian Franciszek_Francis Frumencjusz_Frumentius Fryderyk_Frederick 
-			Gerwazy Grzegorz_Gregory Gwalbert 
+			Gerwazy Gotfryd_Godfrey Grzegorz_Gregory Gwalbert 
 			Hiacynt_Hyacinth Hieronim_Jerome Hilary_Hilarius 
 			Ignacy_Ignatius Izydor_Isidore 
 			Jakub_James Jan_John "Jan Kanty" Jan Pawel_John-Paul Jaroslaw_Jaroslav Jerzy_George Joachim_Joachim Józef_Joseph Julian_Julian Juliusz_Julius 
-			Kajetan_Cajetan Kalikst_Callistus Karol_Charles Kasper_Caspar Kazimierz_Casimir Klemens_Clement Konstanty_Constantine Krzysztof_Christopher Ksawery_Xavier 	
+			Kajetan_Cajetan Kalikst_Callistus Karol_Charles Kasper_Caspar Kazimierz_Casimir Klemens_Clement Konstanty_Constantine Krystian_Christian Krzysztof_Christopher Ksawery_Xavier 	
 			Lech Leon_Leo Leonard_Leonard Lucjan_Lucian Ludwik_Louis Lukasz_Luke 
 			Maciej_Matthew Maksymilian_Maximilian Marceli_Marcel Marcin_Martin Marek_Mark Mateusz_Matthew Maurycy_Maurice Melchior_Melchior Michal_Michael Mieczyslaw Mikolaj_Nicholas 
 			Nepomucen Nestor 
@@ -417,6 +418,7 @@ west_slavic_group = {
 			Faustyna Felicja_Felicia Ferdynanda Filipina_Philippa Franciszka_Frances 
 			Gertruda_Gertrude 
 			Helena_Helen Hieronima Honorata 
+			Iwona 
 			Jadwiga_Hedwig Joanna_Joan Jolanta_Yolanda Józefa_Josepha Józefata Julia_Julia Justyna_Justina 
 			Karolina_Caroline Katarzyna_Catherine Klara_Claire Kolumba Konstancja_Constance Kordula Krystyna_Christina Ksawera Kunegunda_Kunigunde 
 			Lucja_Lucy Lucyna_Lucia Ludwika_Louise 
@@ -479,10 +481,14 @@ west_slavic_group = {
 		color = { 0.1 0.86 0.27 }
 
 		male_names = {
-			Adam
+			Adam_Adam 
+			Gustaw_Gustav 
+			Leon_Leo 
+			Nichal 
 		}
 		female_names = {
 			Ewa_Eve 
+			Lucja_Lucy 
 			Maria_Mary 
 		}
 		from_dynasty_prefix = "z "

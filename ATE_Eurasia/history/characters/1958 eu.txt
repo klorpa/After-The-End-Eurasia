@@ -2155,10 +2155,12 @@
 1958227={
 	name="Sven"
 	dynasty=2220470 #Kamprad
-	culture=swedish
+	culture=svealander
 	religion=neuhumanist
 	trait=greedy
 	trait=ambitious
+	trait=architect
+	father=1958330
 	2637.4.5={birth=yes}
 	2700.1.1={death=yes}
 }
@@ -3250,4 +3252,23 @@
 	trait=quick
 	2100.4.27={birth=yes}
 	2151.2.4={death=yes}
+}
+1958330={
+	name="Art"
+	dynasty=2220470 #Kamprad
+	culture=svealander
+	religion=neuhumanist
+	2611.6.11={birth=yes}
+	2663.3.13={death=yes}
+}
+1958331={
+	name="Jessica"
+	female=yes
+	dynasty=2220470 #Kamprad
+	culture=svealander
+	religion=neuhumanist
+	trait=misguided_warrior
+	trait=strong
+	father=1958330
+	2643.10.3={birth=yes}
 }

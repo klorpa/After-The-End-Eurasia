@@ -2619,7 +2619,7 @@
 	name="Szëmón"
 	dynasty=2000083 #Gôsk
 	culture=kashubian
-	religion=mariavite
+	religion=oasite
 	2587.9.16={birth=yes}
 	2640.7.20={death=yes}
 }
@@ -2628,7 +2628,7 @@
 	female=yes
 	dynasty=2000083 #Gôsk
 	culture=kashubian
-	religion=mariavite
+	religion=oasite
 	father=19911130
 	2606.3.27={birth=yes}
 }
@@ -2636,7 +2636,7 @@
 	name="Ana"
 	female=yes
 	culture=kashubian
-	religion=mariavite
+	religion=oasite
 	trait=naive_appeaser
 	trait=kind
 	trait=pious
@@ -2655,7 +2655,7 @@
 	name="Swiatopôlk"
 	dynasty=2000083 #Gôsk
 	culture=kashubian
-	religion=mariavite
+	religion=oasite
 	father=19911129
 	mother=19911132
 	trait=fortune_builder
@@ -2704,7 +2704,7 @@
 	name="Mscëwòj"
 	dynasty=2000083 #Gôsk
 	culture=kashubian
-	religion=mariavite
+	religion=oasite
 	father=19911129
 	mother=19911134
 	trait=misguided_warrior
@@ -3593,4 +3593,297 @@
 	intrigue=8
 	learning=3
 	2641.1.24={birth=yes}
+}
+1991230={
+	name="Genk" 
+	dynasty=2000088 #Wenta
+	culture=kashubian
+	religion=oasite
+	trait=robust
+	trait=tough_soldier
+	father=1991231
+	2629.7.10={birth=yes}
+}
+1991231={
+	name="Tomôsz" 
+	dynasty=2000088 #Wenta
+	culture=kashubian
+	religion=oasite
+	father=1991242
+	2602.9.3={birth=yes}
+	2651.7.11={death=yes}
+}
+1991232={
+	name="Walbùrga" 
+	female=yes
+	dynasty=2000089 #Grugel
+	culture=kashubian
+	religion=oasite
+	father=1991233
+	2636.3.26={birth=yes}
+	2655.7.11={add_spouse=1991230}
+}
+1991233={
+	name="Zbigórz" 
+	dynasty=2000089 #Grugel
+	culture=kashubian
+	religion=oasite
+	trait=thrifty_clerk
+	trait=gardener
+	2612.3.5={birth=yes}
+}
+1991234={
+	name="Bruno" 
+	dynasty=2000088 #Wenta
+	culture=kashubian
+	religion=oasite
+	trait=strong
+	trait=underhanded_rogue
+	father=1991231
+	2634.6.2={birth=yes}
+}
+1991235={
+	name="Iwona" 
+	female=yes
+	culture=wielkopolan
+	religion=oasite
+	trait=quick
+	trait=sympathy_indian
+	2642.3.4={birth=yes}
+	2662.3.4={add_spouse=1991234}
+}
+1991236={
+	name="Tadeùsz" 
+	dynasty=2000090 #Kwiatkowsczi
+	culture=kashubian
+	religion=mariavite
+	trait=martial_cleric
+	trait=administrator
+	trait=scholar
+	trait=content
+	father=1991240
+	mother=1991241
+	2633.9.10={birth=yes}
+	2660.1.1={add_spouse=1991237}
+}
+1991237={
+	name="Leokadia" 
+	female=yes
+	dynasty=2131000
+	culture=malopolan
+	religion=mariavite
+	trait=scholarly_theologian
+	trait=groomed
+	trait=arbitrary
+	2637.7.27={birth=yes}
+}
+1991238={
+	name="Andrzéj" 
+	dynasty=2000090 #Kwiatkowsczi
+	culture=kashubian
+	religion=mariavite
+	trait=sickly
+	trait=twin
+	father=1991236
+	mother=1991237
+	2662.11.1={birth=yes}
+	2665.2.11={death={death_reason=death_trait}}
+}
+1991239={
+	name="Eùgeniusz" 
+	dynasty=2000090 #Kwiatkowsczi
+	culture=kashubian
+	religion=mariavite
+	trait=sickly
+	trait=twin
+	father=1991236
+	mother=1991237
+	2662.11.1={birth=yes}
+	2664.2.26={death={death_reason=death_trait}}
+}
+1991240={
+	name="Genk" 
+	dynasty=2000090 #Kwiatkowsczi
+	culture=kashubian
+	religion=mariavite
+	trait=thrifty_clerk
+	trait=architect
+	trait=scholar
+	trait=just
+	2609.8.28={birth=yes}
+	2629.1.1={add_spouse=1991241}
+	2655.3.30={death=yes}
+}
+1991241={
+	name="Fela"
+	female=yes
+	dynasty=2000088 #Wenta
+	trait=misguided_warrior
+	trait=strong
+	culture=kashubian
+	religion=oasite
+	father=1991242
+	2611.12.18={birth=yes}
+}
+1991242={
+	name="Lubòmir" 
+	dynasty=2000088 #Wenta
+	culture=kashubian
+	religion=oasite
+	2574.11.30={birth=yes}
+	2633.3.15={death=yes}
+}
+1991243={
+	name="Krystian" 
+	dynasty=2130210 #Chodowiecki
+	culture=arpitan
+	religion=oasite
+	trait=fortune_builder
+	trait=painter
+	trait=mystic
+	father=1991244
+	mother=1991245
+	2618.11.3={birth=yes
+		culture=wielkopolan}
+}
+1991244={
+	name="Bartlomiej" 
+	dynasty=2130210 #Chodowiecki
+	culture=wielkopolan
+	religion=oasite
+	trait=underhanded_rogue
+	trait=trickster
+	trait=legit_bastard
+	trait=fair
+	trait=duelist
+	2593.8.17={birth=yes}
+	2615.1.1={add_spouse=1991245}
+}
+1991245={
+	name="Maria" 
+	female=yes
+	dynasty=1953102 #Nestlé
+	culture=arpitan
+	religion=oasite
+	trait=grey_eminence
+	trait=stressed
+	trait=socializer
+	trait=chaste
+	father=1453023
+	2598.8.10={birth=yes}
+}
+1991246={
+	name="Otto" 
+	dynasty=1948139 #Haffner
+	culture=ossi
+	religion=chronicler
+	2603.3.12={birth=yes}
+}
+1991247={
+	name="Regina"
+	female=yes
+	dynasty=1948139 #Haffner
+	culture=ossi
+	religion=chronicler
+	trait=flamboyant_schemer
+	trait=quick
+	trait=gregarious
+	father=1991246
+	2627.12.12={birth=yes}
+	2643.1.1={add_spouse=1991243}
+}
+1991248={
+	name="Gotfryd" 
+	dynasty=2130210 #Chodowiecki
+	culture=arpitan
+	religion=oasite
+	trait=indulgent_wastrel
+	trait=quick
+	trait=feeble
+	trait=diligent
+	father=1991243
+	mother=1991247
+	2644.11.3={birth=yes
+		culture=wielkopolan}
+	2661.1.1={add_spouse=1958331}
+}
+1991249={
+	name="Otto" 
+	dynasty=2130210 #Chodowiecki
+	religion=chronicler
+	culture=arpitan
+	trait=amateurish_plotter
+	trait=poet
+	father=1991243
+	mother=1991247
+	2648.4.18={birth=yes
+		culture=ossi}
+}
+1991250={
+	name="Daniel" 
+	dynasty=2130210 #Chodowiecki
+	culture=wielkopolan
+	religion=oasite
+	trait=rowdy
+	father=1991248
+	mother=1958331
+	2661.8.31={birth=yes}
+}
+1991251={
+	name="Lucja"
+	female=yes
+	dynasty=2941001 #Pilejczyk
+	culture=warmzur
+	religion=lutheran
+	trait=skilled_tactician
+	trait=diligent
+	trait=ambitious
+	trait=flanker
+	father=1991253
+	mother=1991254
+	2639.3.5={birth=yes}
+}
+1991253={
+	name="Gustaw"
+	dynasty=2941001 #Pilejczyk
+	culture=warmzur
+	religion=lutheran
+	trait=skilled_tactician
+	trait=diligent
+	trait=ambitious
+	trait=flanker
+	2612.11.2={birth=yes}
+	2665.5.4={death=yes}
+}
+1991254={
+	name="Helena"
+	female=yes
+	culture=warmzur
+	religion=lutheran
+	2621.8.18={birth=yes}
+	2638.1.1={add_spouse=1991253}
+	2662.1.29={death=yes}
+}
+1991255={
+	name="Leon"
+	dynasty=2941001 #Pilejczyk
+	culture=warmzur
+	religion=lutheran
+	trait=robust
+	trait=misguided_warrior
+	father=1991253
+	mother=1991254
+	2648.10.24={birth=yes}
+}
+1991256={
+	name="Nichal"
+	dynasty=2941002 #Lendzion
+	culture=warmzur
+	religion=mariavite
+	trait=charismatic_negotiator
+	trait=quick
+	trait=erudite
+	trait=brave
+	2640.10.13={birth=yes}
+	2660.1.1={add_matrilineal_spouse=1991252}
 }
