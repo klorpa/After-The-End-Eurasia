@@ -6,6 +6,8 @@ e_yugoslavia = {
 	capital = 1010 # Split I guess that while we have Yugoslavia ig we shouldn't use a historical capital of it
 	
 	croatian = "Jugoslavija" 
+	bavarian = "Jugoslawien" 
+	austrian = "Jugoslawien" 
 
 	# Creation/usurpation trigger
 	allow = {
@@ -23,6 +25,9 @@ e_yugoslavia = {
 		
 		catholic = 400 # Bring Catholicism to Yugoslavia
 		
+		bavarian = "Krowozien" 
+		austrian = "Krowozien" 
+		
 		dignity = 2 # Counted as having this many more counties than it does
 		
 		d_croatia = {
@@ -30,6 +35,9 @@ e_yugoslavia = {
 			color2={ 255 255 255 }
 			
 			capital = 1006 # Zadar
+		
+			bavarian = "Krowozien" 
+			austrian = "Krowozien" 
 			
 			c_karlovac = {
 				color={ 214 98 75 }
@@ -205,6 +213,8 @@ e_yugoslavia = {
 		dignity = 2 # Counted as having this many more counties than it does
 		
 		bosniak = "Bosna"
+		bavarian = "Bosnien" 
+		austrian = "Bosnien" 
 		
 		d_krajina = {
 			color={ 51 76 249 }
@@ -258,6 +268,8 @@ e_yugoslavia = {
 			
 			capital = 1395 # Sarajevo
 			bosniak = "Bosna"
+			bavarian = "Bosnien" 
+			austrian = "Bosnien" 
 			c_sarajevo = {
 				color={ 15 43 195 }
 				color2={ 255 255 255 }
@@ -337,6 +349,8 @@ e_yugoslavia = {
 		dignity = 2 # Counted as having this many more counties than it does
 		
 		slovene = "Slovenija"
+		bavarian = "Slowenien" 
+		austrian = "Slowenien" 
 		
 		d_slovenia = {
 			color={ 180 190 170 }
@@ -694,6 +708,9 @@ e_yugoslavia = {
 		
 		capital = 1390 # c_belgrade
 		
+		bavarian = "Serbien" 
+		austrian = "Serbien" 
+		
 		d_belgrade = {
 			color={ 223 254 226 }
 			color2={ 255 255 255 }
@@ -899,6 +916,10 @@ e_yugoslavia = {
 		color2={ 255 255 255 }
 		
 		capital = 320 # c_bar to make this work
+		
+		bavarian = "Montenegro" 
+		austrian = "Montenegro" 
+		montenegrin = "Crna Gora" 
 		
 		d_montenegro = {
 			color={ 212 207 121 }

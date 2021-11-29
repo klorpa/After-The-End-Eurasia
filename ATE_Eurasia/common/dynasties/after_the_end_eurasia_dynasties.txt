@@ -13793,7 +13793,19 @@ coat_of_arms = {
 2029199 = { name="di Fossanova" culture=umbrian }
 2029200 = { name="di Grottaferrata" culture=umbrian }
 2029201 = { name="di Tivoli" culture=umbrian used_for_random = no}
-2029202 = { name="Chigi" culture=umbrian}
+2029202 = { name="Chigi" culture=umbrian
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2029203 = { name="Bergamasco" culture=umbrian }
 2029204 = { name="Carlioni" culture=umbrian
 	coat_of_arms = { 
@@ -13821,8 +13833,32 @@ coat_of_arms = {
 		}
 	}
 }
-2029206 = { name="Massimo" culture=umbrian}
-2029207 = { name="del Grillo" culture=umbrian}
+2029206 = { name="Massimo" culture=umbrian
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 38
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2029207 = { name="del Grillo" culture=umbrian
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 2030001 = { name="Ricci" culture=tuscan }
 2030002 = { name="Mosti" culture=tuscan }
@@ -14922,9 +14958,45 @@ coat_of_arms = {
 	}
 }
 2033231 = { name="Mameli" culture=ligurian }
-2033232 = { name="Usodimare" culture=ligurian }
-2033233 = { name="Embriaco-García" culture=ligurian }
-2033234 = { name="d'Oneglia" culture=ligurian }
+2033232 = { name="Usodimare" culture=ligurian 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2033233 = { name="Embriaco-García" culture=ligurian 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2033234 = { name="d'Oneglia" culture=ligurian 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 19
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 2034001 = { name="Da Rold" culture=venetian }
 2034002 = { name="Dal Farra" culture=venetian }
@@ -15468,7 +15540,7 @@ coat_of_arms = {
 		template = 0
 		layer = {
 			texture = 19
-			texture_internal = 32
+			texture_internal = 33
 			emblem = 0
 			color = 0
 			color = 0
