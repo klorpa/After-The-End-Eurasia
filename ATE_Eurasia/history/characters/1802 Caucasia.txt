@@ -1,4 +1,4 @@
-1802000={ #Arachnort Nazar I Ghazaryan
+1802000={ #King Nazar I Ghazaryan
     name="Nazar"
     dynasty=1802101 
     culture=armenian
@@ -21,7 +21,7 @@
 	2461.9.15={death=yes}
 }
 
-1802001={ #Alitz wife of Arachnort Nazar I Ghazaryan
+1802001={ #Alitz wife of King Nazar I Ghazaryan
     name="Alitz"
 	female=yes
     culture=armenian
@@ -43,7 +43,7 @@
 	2469.8.20={death=yes}
 }
  
- 1802002={ #Arachnort Spartak I Nazari Ghazaryan
+ 1802002={ #King Spartak I Nazari Ghazaryan
     name="Spartak"
     dynasty=1802101 
     culture=armenian
@@ -71,7 +71,7 @@
 	}
 }
 
-1802035={ #Olga wife of Arachnort Spartak I Ghazaryan
+1802035={ #Olga wife of King Spartak I Ghazaryan
     name="Olga"
 	female=yes
     culture=donskoy
@@ -93,7 +93,7 @@
 	2490.6.16={death=yes}
 }
 
- 1802003={ #Arachnort Sahag I Nazari Ghazaryan
+ 1802003={ #King Sahag I Nazari Ghazaryan
     name="Sahag"
     dynasty=1802101 
     culture=armenian
@@ -116,7 +116,7 @@
 	2489.8.13={death=yes}
 }
 
-1802004={ #Margarid wife of Arachnort Sahag I Ghazaryan
+1802004={ #Margarid wife of King Sahag I Ghazaryan
     name="Margarid"
 	female=yes
     culture=armenian
@@ -136,7 +136,7 @@
 	2497.10.10={death=yes}
 }
 
- 1802005={ #Arachnort Sahag II Sahagi Ghazaryan
+ 1802005={ #King Sahag II Sahagi Ghazaryan
     name="Sahag"
     dynasty=1802101 
     culture=armenian
@@ -159,7 +159,7 @@
 	2523.7.18={death=yes}
 }
 
-1802006={ #Patil wife of Arachnort Sahag II Ghazaryan
+1802006={ #Patil wife of King Sahag II Ghazaryan
     name="Patil"
 	female=yes
     culture=armenian
@@ -179,7 +179,7 @@
 	2527.6.8={death=yes}
 }
 
-1802007={ #Arachnort Paylag I Sahagi Ghazaryan
+1802007={ #King Paylag I Sahagi Ghazaryan
     name="Paylag"
     dynasty=1802101 
     culture=armenian
@@ -200,7 +200,7 @@
 	2555.6.7={death=yes}
 }
 
-1802008={ #Siranush wife of Arachnort Paylag I Ghazaryan
+1802008={ #Siranush wife of King Paylag I Ghazaryan
     name="Siranush"
 	female=yes
     culture=armenian
@@ -220,7 +220,7 @@
 	2561.4.18={death=yes}
 }
 
-1802009={ #Vanahayr Cristapor I Paylagi Ghazaryan
+1802009={ #Duke Cristapor I Paylagi Ghazaryan
     name="Cristapor"
     dynasty=1802101 
     culture=armenian
@@ -242,7 +242,7 @@
 	2569.8.3={death=yes}
 }
 
-1802048={ #Seyran wife of Vanahayr Cristapor I Ghazaryan
+1802048={ #Seyran wife of Duke Cristapor I Ghazaryan
     name="Seyran"
 	female=yes
     culture=armenian
@@ -255,13 +255,14 @@
 	trait=school_thaddeus
     trait=flamboyant_schemer		
     trait=shrewd
+    trait=dull
     trait=diligent
     2525.1.11={birth=yes}
 	2542.8.15={add_spouse=1802009}
 	2583.3.16={death=yes}
 }
 
-1802010={ #Arachnort Arshak I Paylagi Ghazaryan
+1802010={ #King Arshak I Paylagi Ghazaryan
     name="Arshak"
     dynasty=1802101 
     culture=armenian
@@ -283,7 +284,7 @@
 	2587.9.13={death=yes}
 }
 
-1802011={ #Raqel wife of Arachnort Arshak I Ghazaryan
+1802011={ #Raqel wife of King Arshak I Ghazaryan
     name="Raqel"
 	female=yes
     culture=armenian
@@ -390,8 +391,32 @@
     2560.8.4={birth=yes}
 	2622.12.1={death=yes}
 }
+ 
+ 
+1802036={ #Desert Father Nazar II Arshaki Ghazaryan
+    name="Nazar"
+    dynasty=1802101 
+    culture=armenian
+    religion=miaphysite
+    martial=4
+    diplomacy=10
+    stewardship=4
+    intrigue=5
+    learning=16
+	trait=school_thaddeus
+    trait=desert_father	
+    trait=pious
+    trait=groomed
+    trait=humble
+    trait=charitable
+	trait=honest
+	father=1802010
+	mother=1802011
+    2554.6.21={birth=yes}
+	2620.7.5={death=yes}
+} 
 
-1802012={ #Arachnort Paylag II Thorosi Ghazaryan
+1802012={ #King Paylag II Thorosi Ghazaryan
     name="Paylag"
     dynasty=1802101 
     culture=armenian
@@ -414,7 +439,7 @@
 	2645.2.15={death=yes}
 }
 
-1802013={ #Lusine wife of Arachnort Paylag II Ghazaryan
+1802013={ #Lusine wife of King Paylag II Ghazaryan
     name="Lusine"
 	female=yes
     culture=armenian
@@ -457,7 +482,7 @@
 }
 
 
-1802014={ #Arachnort Sahag IV Paylagi Ghazaryan
+1802014={ #King Sahag IV Paylagi Ghazaryan
     name="Sahag"
     dynasty=1802101 
     culture=armenian
@@ -480,7 +505,7 @@
     2622.6.13={birth=yes}
 }
 
-1802021={ #Yelena wife of Arachnort Sahag IV Ghazaryan
+1802021={ #Yelena wife of King Sahag IV Ghazaryan
     name="Yelena"
 	female=yes
     dynasty=1802102 
@@ -627,7 +652,7 @@
     2654.6.1={birth=yes}
 }
 
-1802022={ #Vanahayr Gevorg II Sparapet
+1802022={ #Duke Gevorg II Sparapet
     name="Gevorg"
     dynasty=1802102 
     culture=armenian
@@ -653,7 +678,7 @@
 }
 
 
-1802023={ #Leyli wife of Vanahayr Gevorg II Sparapet
+1802023={ #Leyli wife of Duke Gevorg II Sparapet
     name="Leyli"
 	female=yes
     culture=armenian
@@ -691,7 +716,7 @@
     2653.7.20={birth=yes}
 }
 
-1802024={ #Sirvard wife of Paharru Onik Shiraz
+1802024={ #Sirvard wife of Count Onik Shiraz
     name="Sirvard"
 	female=yes
     dynasty=1802102 
@@ -714,7 +739,7 @@
 	2652.2.14={add_spouse=1802031}
 }
 
-1802031={ #Paharru Onik Shiraz of Shirak
+1802031={ #Count Onik Shiraz of Shirak
     name="Onik"
     dynasty=1802104 
     culture=armenian
@@ -785,7 +810,7 @@
     2661.3.2={birth=yes}
 }
 
-1802049={ #Vanahayr Cristapor II Cristapori Ghazaryan
+1802049={ #Duke Cristapor II Cristapori Ghazaryan
     name="Cristapor"
     dynasty=1802101 
     culture=armenian
@@ -807,7 +832,7 @@
 	2621.8.9={death=yes}
 }
 
-1802050={ #Nunufar wife of Vanahayr Cristapor II Ghazaryan
+1802050={ #Nunufar wife of Duke Cristapor II Ghazaryan
     name="Nunufar"
 	female=yes
     culture=armenian
@@ -828,7 +853,7 @@
 	2625.12.19={death=yes}
 }
 
-1802051={ #Vanahayr Spartak II Cristapori Ghazaryan
+1802051={ #Duke Spartak II Cristapori Ghazaryan
     name="Spartak"
     dynasty=1802101 
     culture=armenian
@@ -850,7 +875,7 @@
 	2631.6.17={death=yes}
 }
 
-1802052={ #Irin wife of Vanahayr Spartak II Ghazaryan
+1802052={ #Irin wife of Duke Spartak II Ghazaryan
     name="Irin"
 	female=yes
     culture=armenian
@@ -870,7 +895,7 @@
 	2634.5.1={death=yes}
 }
 
-1802053={ #Paharru Hayk Spartaki Ghazaryan
+1802053={ #Count Hayk Spartaki Ghazaryan
     name="Hayk"
     dynasty=1802101 
     culture=armenian
@@ -892,7 +917,7 @@
 	2653.9.18={death=yes}
 }
 
-1802054={ #Shushanik wife of Paharru Hayk Ghazaryan
+1802054={ #Shushanik wife of Count Hayk Ghazaryan
     name="Shushanik"
 	female=yes
     culture=armenian
@@ -914,7 +939,7 @@
 	2657.8.20={death=yes}
 }
  
-1802055={ #Paharru Apel Hayki Ghazaryan
+1802055={ #Count Apel Hayki Ghazaryan
     name="Apel"
     dynasty=1802101 
     culture=armenian
@@ -936,7 +961,7 @@
     2621.8.10={birth=yes}
 }
 
-1802060={ #Goharik wife of Paharru Apel Ghazaryan
+1802060={ #Goharik wife of Count Apel Ghazaryan
     name="Goharik"
 	female=yes
     dynasty=1802102 
@@ -1042,8 +1067,25 @@
 	mother=1802060
     2654.6.23={birth=yes}
 }
+ 
+#1810011={ #Lost
+#	name="Satenik"
+#	female=yes
+#	martial=3
+#	diplomacy=8
+#	stewardship=5
+#	intrigue=3
+#	learning=8
+#	trait=underhanded_rogue
+#	trait=ambitious
+#	trait=greedy
+#	trait=kind
+#	2625.4.15={birth=yes}
+#	2642.9.13={add_spouse=1810010}
+#	2681.6.30={death=yes}
+#}
 
-1802026={ #Vanahayr Gevorg I Sparapet
+1802026={ #Duke Gevorg I Sparapet
     name="Gevorg"
     dynasty=1802102 
     culture=armenian
@@ -1086,7 +1128,7 @@
     2644.5.15={death=yes}
 }
 
-1802039={ #Vanahayr Mihrdat I Sparapet
+1802039={ #Duke Mihrdat I Sparapet
     name="Mihrdat"
     dynasty=1802102 
     culture=armenian
@@ -1180,9 +1222,9 @@
 		culture=armenian}
 }
 
-1802041={ #Paharru Goryun of Tuvaash
+1802041={ #Count Goryun of Tuvaash
     name="Goryun"
-    dynasty=1802105 #ERROR
+    dynasty=1802105
     culture=armenian
     religion=miaphysite
 	trait=school_thaddeus
@@ -1198,7 +1240,7 @@
 	2636.1.18={birth=yes}
 }
 
-1802043={ #Satenik wife of Paharru Goryun of Tuvaash
+1802043={ #Satenik wife of Count Goryun of Tuvaash
     name="Satenik"
     female=yes
     culture=armenian
@@ -1218,9 +1260,9 @@
 	2657.5.14={add_spouse=1802041}
 }
 
-1802044={ #Vahram son of Paharru Goryun of Tuvaash
+1802044={ #Vahram son of Count Goryun of Tuvaash
     name="Vahram"
-    dynasty=1802028 #ERROR
+    dynasty=1802028
     culture=armenian
     religion=miaphysite
 	trait=school_thaddeus
@@ -1229,9 +1271,9 @@
 	2664.1.1={birth=yes}
 }
 
-1802045={ #Louseres daughter of Paharru Goryun of Tuvaash
+1802045={ #Louseres daughter of Count Goryun of Tuvaash
     name="Louseres"
-    dynasty=1802105 #ERROR
+    dynasty=1802105
 	female=yes
     culture=armenian
     religion=miaphysite
@@ -1241,10 +1283,7 @@
 	2665.6.13={birth=yes}
 }
 
-
-#Placeholders
-
-1802061={ #Duke Ambrosi of Imereti
+1802061={ #Duke Ambrosi III of Imereti
     name="Ambrosi"
     dynasty=2051122 #Bagrationi
     culture=georgian
@@ -1254,10 +1293,12 @@
     stewardship=8
     intrigue=5
     learning=4
-    trait=charismatic_negotiator    
+    trait=skilled_tactician    
     trait=gregarious
     trait=cruel
     trait=humble
+	father=1802068
+	mother=1802069
 	2637.6.5={birth=yes}
 }
 
@@ -1267,16 +1308,19 @@
     culture=georgian
     religion=orthodox
 	female=yes
-    martial=8
-    diplomacy=9
-    stewardship=8
-    intrigue=5
+    martial=11
+    diplomacy=10
+    stewardship=5
+    intrigue=7
     learning=4
-    trait=charismatic_negotiator    
-    trait=gregarious
-    trait=cruel
-    trait=humble
-	2637.6.5={birth=yes}
+    trait=grey_eminence    
+    trait=ambitious
+    trait=arbitrary
+    trait=brave
+	trait=temperate
+	trait=inspiring_leader
+	2631.9.11={birth=yes}
+	2655.1.15={add_matrilineal_spouse=1802090}
 }
 
 1802063={ #Count Färhad of Aghjabadi
@@ -1284,33 +1328,35 @@
     dynasty=2054201 #Ibrahimoghlu
     culture=azeri
     religion=shiite
-    martial=8
-    diplomacy=9
-    stewardship=8
+    martial=5
+    diplomacy=5
+    stewardship=5
     intrigue=5
-    learning=4
-    trait=charismatic_negotiator    
-    trait=gregarious
-    trait=cruel
-    trait=humble
-	2637.6.5={birth=yes}
+    learning=5
+    trait=flamboyant_schemer    
+    trait=charitable
+    trait=pious
+    trait=craven
+	2645.10.8={birth=yes}
 }
 
-1802064={ #Duke Ramzi of Ganja
+1802064={ #Count Ramzi of Ganja
     name="Ramzi"
     dynasty=2054202 #Meyxana
     culture=azeri
     religion=shiite
-    martial=8
-    diplomacy=9
-    stewardship=8
+    martial=6
+    diplomacy=6
+    stewardship=6
     intrigue=5
-    learning=4
-    trait=charismatic_negotiator    
-    trait=gregarious
-    trait=cruel
+    learning=10
+    trait=thrifty_clerk
+	trait=musician
     trait=humble
-	2637.6.5={birth=yes}
+    trait=zealous
+    trait=charitable
+	trait=wroth
+	2621.11.11={birth=yes}
 }
 
 1802065={ #Duke Ildirim of Baku
@@ -1323,11 +1369,14 @@
     stewardship=8
     intrigue=5
     learning=4
-    trait=charismatic_negotiator    
-    trait=gregarious
+    trait=skilled_tactician
+    trait=lefthanded
     trait=cruel
-    trait=humble
-	2637.6.5={birth=yes}
+    trait=brave
+	trait=stubborn
+	father=1802074
+	mother=1802075
+	2638.4.25={birth=yes}
 }
 
 1802066={ #Duke Näsib of Shirvan
@@ -1336,15 +1385,20 @@
     culture=azeri
     religion=shiite
     martial=8
-    diplomacy=9
+    diplomacy=12
     stewardship=8
     intrigue=5
     learning=4
-    trait=charismatic_negotiator    
+	father=1802084
+	mother=1802086
+    trait=midas_touched    
     trait=gregarious
-    trait=cruel
-    trait=humble
-	2637.6.5={birth=yes}
+    trait=socializer
+    trait=kind
+	trait=pious
+	2614.10.15={birth=yes}
+	2632.12.25={add_spouse=1802088}
+	2633.12.23={add_spouse=1802087}
 }
 
 1802067={ #Duke Magomed of the Caucasian Imamate
@@ -1352,6 +1406,25 @@
     dynasty=2068052 #Aliyev
     culture=avar
     religion=taharur
+    martial=11
+    diplomacy=3
+    stewardship=5
+    intrigue=4
+    learning=4
+    trait=brilliant_strategist
+	trait=duelist
+    trait=zealous
+    trait=just
+    trait=cruel
+	trait=brave
+	2633.9.20={birth=yes}
+}
+
+1802068={ #Duke Nikoloz I of Imereti
+    name="Nikoloz"
+    dynasty=2051122 #Bagrationi
+    culture=georgian
+    religion=orthodox
     martial=8
     diplomacy=9
     stewardship=8
@@ -1361,5 +1434,643 @@
     trait=gregarious
     trait=cruel
     trait=humble
-	2637.6.5={birth=yes}
+	2606.1.8={birth=yes}
+	2636.2.25={add_spouse=1802069}
+	2664.9.24={death=yes}
+}
+
+1802069={ #Duchess Tekla of Imereti
+    name="Tekla"
+    culture=georgian
+    religion=orthodox
+	female=yes
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+    trait=scholarly_theologian    
+    trait=depressed
+    trait=nun
+    trait=humble
+	trait=pious
+	trait=familyperson
+	2618.2.5={birth=yes}
+	2636.2.25={add_spouse=1802068}
+}
+
+1802070={ #Rusudan of Imereti
+    name="Rusudan"
+    dynasty=2051122 #Bagrationi
+    culture=georgian
+    religion=orthodox
+	female=yes
+    martial=5
+    diplomacy=10
+    stewardship=5
+    intrigue=5
+    learning=2
+    trait=grey_eminence    
+    trait=groomed
+    trait=lustful
+    trait=kind
+	father=1802068
+	mother=1802069
+	2641.6.5={birth=yes}
+	2660.7.7={add_spouse=1802071}
+}
+
+1802071={ #Besarion of Samegrelo
+    name="Besarion"
+    dynasty=2051123 #Modrekili
+    culture=georgian
+    religion=orthodox
+    martial=8
+    diplomacy=5
+    stewardship=8
+    intrigue=7
+    learning=7
+    trait=fortune_builder    
+    trait=honorable
+    trait=shy
+    trait=brave
+	2639.10.15={birth=yes}
+	2660.7.7={add_spouse=1802070}
+}
+
+1802072={ #Eliso of Samegrelo
+    name="Eliso"
+    dynasty=2051123 #Modrekili
+    culture=georgian
+    religion=orthodox
+	female=yes
+    martial=1
+    diplomacy=3
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=blinded    
+    trait=conscientious
+	father=1802071
+	mother=1802070
+	2662.9.15={birth=yes}
+}
+
+1802073={ #Count Rüstäm of Shaki and Shamakhi
+    name="Rüstäm"
+    dynasty=2054204 #Kabiboghlu
+    culture=azeri
+    religion=shiite
+    martial=5
+    diplomacy=5
+    stewardship=8
+    intrigue=5
+    learning=5
+    trait=thrifty_clerk
+    trait=sympathy_old_world_cults
+    trait=charitable
+    trait=kind
+	trait=content
+	2598.4.25={birth=yes}
+	2637.7.2={add_spouse=1802081}
+	2665.12.22={death=yes}
+}
+
+1802074={ #Duke Firidun of Baku
+    name="Firidun"
+    dynasty=2054205 #Qüdsi
+    culture=azeri
+    religion=zimiran
+    martial=14
+    diplomacy=10
+    stewardship=5
+    intrigue=3
+    learning=3
+    trait=skilled_tactician
+    trait=peasant_leader
+    trait=zealous
+    trait=brave
+	trait=ruthless
+	trait=winter_soldier
+	2610.1.15={birth=yes}
+	2635.9.10={add_spouse=1802075}
+	2661.8.3={death=yes}
+}
+
+1802075={ #Duchess Firidun of Baku
+    name="Evelina"
+    culture=azeri
+    religion=zimiran
+	female=yes
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+    trait=underhanded_rogue
+    trait=rude
+    trait=shy
+    trait=temperate
+	2615.9.2={birth=yes}
+	2635.9.10={add_spouse=1802074}
+}
+
+1802076={ #Ilahä of Baku
+    name="Ilahä"
+	dynasty=2054205 #Qüdsi
+    culture=azeri
+    religion=zimiran
+	female=yes
+    martial=7
+    diplomacy=8
+    stewardship=5
+    intrigue=10
+    learning=7
+    trait=intricate_webweaver
+    trait=chaste
+    trait=deceitful
+    trait=diligent
+	trait=familyperson
+	father=1802074
+	mother=1802075
+	2637.9.2={birth=yes}
+}
+
+
+1802077={ #Lätif of Baku
+    name="Lätif"
+	dynasty=2054205 #Qüdsi
+    culture=azeri
+    religion=zimiran
+    martial=5
+    diplomacy=2
+    stewardship=2
+    intrigue=1
+    learning=3
+    trait=legit_bastard
+    trait=brave
+    trait=brooding
+	trait=patient
+	trait=gregarious
+	mother=1802076
+	2655.1.4={birth=yes}
+}
+
+1802078={ #Növrästä of Baku
+    name="Növrästä"
+	dynasty=2054205 #Qüdsi
+	female=yes
+    culture=azeri
+    religion=zimiran
+    trait=legit_bastard
+    trait=fussy
+	trait=shy
+	trait=honest
+	mother=1802076
+	2658.12.7={birth=yes}
+}
+
+1802079={ #Gülshen of Baku
+    name="Gülshen"
+	dynasty=2054205 #Qüdsi
+    culture=azeri
+    religion=zimiran
+	female=yes
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+    trait=indulgent_wastrel
+    trait=slow
+    trait=kind
+    trait=honest
+	trait=greedy
+	father=1802074
+	mother=1802075
+	2641.7.7={birth=yes}
+}
+
+1802080={ #Leyla of Baku
+    name="Leyla"
+	dynasty=2054205 #Qüdsi
+    culture=azeri
+    religion=zimiran
+	female=yes
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+    trait=underhanded_rogue
+    trait=groomed
+    trait=honest
+    trait=authoritative
+	trait=ambitious
+	father=1802074
+	mother=1802075
+	2643.8.20={birth=yes}
+	2663.8.25={add_spouse=1802083}
+}
+
+1802081={ #Kimya of Baku
+    name="Kimya"
+    culture=azeri
+    religion=zimiran
+	female=yes
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+    trait=intricate_webweaver
+    trait=pious
+    trait=content
+    trait=wroth
+	2617.2.8={birth=yes}
+	2637.7.2={add_spouse=1802073}
+}
+
+1802082={ #Count Hasbulla of Shaki
+    name="Hasbulla"
+    dynasty=2054204 #Kabiboghlu
+    culture=azeri
+    religion=shiite
+    martial=8
+    diplomacy=5
+    stewardship=5
+    intrigue=7
+    learning=7
+    trait=tough_soldier
+	trait=dwarf
+    trait=brawny
+    trait=pious
+	trait=diligent
+	trait=patient
+	father=1802073
+	mother=1802081
+	2647.5.17={birth=yes}
+}
+
+1802083={ #Count Kämaläddin of Shamakhi
+    name="Kämaläddin"
+    dynasty=2054204 #Kabiboghlu
+    culture=azeri
+    religion=zimiran
+    martial=7
+    diplomacy=7
+    stewardship=12
+    intrigue=5
+    learning=5
+    trait=fortune_builder
+	trait=wroth
+    trait=ruthless
+    trait=pious
+	trait=diligent
+	father=1802073
+	mother=1802081
+	2640.4.20={birth=yes}
+	2663.8.25={add_spouse=1802080}
+}
+
+1802084={ #Duke Cäbrayil of Shirvan
+    name="Cäbrayil"
+    dynasty=2054203 #Häsäni
+    culture=azeri
+    religion=shiite
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+    trait=thrifty_clerk    
+    trait=honest
+    trait=shy
+    trait=temperate
+	2574.4.8={birth=yes}
+	2611.8.25={add_spouse=1802086}
+	2650.10.1={death=yes}
+}
+
+1802085={ #Count Vüqar of Mingachevir
+    name="Vüqar"
+    dynasty=2054203 #Häsäni
+    culture=azeri
+    religion=shiite
+	father=1802066
+	mother=1802088
+    martial=8
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+    trait=skilled_tactician  
+	secret_religion=zimiran
+    trait=dull
+	trait=sympathy_old_world_cults
+    trait=defensive_leader
+    trait=kind
+	trait=zealous
+	2633.1.15={birth=yes}
+	2656.8.8={add_spouse=1802091}
+}
+
+1802086={ #Duchess Nailä of Shirvan
+    name="Nailä"
+    culture=azeri
+    religion=shiite
+	female=yes
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=charismatic_negotiator
+	trait=wroth
+    trait=shrewd
+    trait=temperate
+	2589.1.1={birth=yes}
+	2611.8.25={add_spouse=1802084}
+}
+
+1802087={ #Duchess Äminä of Shirvan
+    name="Äminä"
+    culture=azeri
+    religion=shiite
+	female=yes
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=fortune_builder		
+    trait=gregarious
+    trait=honest
+    trait=diligent
+	2614.12.2={birth=yes}
+	2633.12.23={add_spouse=1802066}
+}
+
+1802088={ #Duchess Sämayä of Shirvan
+    name="Sämayä"
+    culture=azeri
+    religion=zimiran
+	female=yes
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=underhanded_rogue	
+	trait=fair
+    trait=familyperson
+    trait=temperate
+    trait=gregarious
+	2612.9.7={birth=yes}
+	2632.12.25={add_spouse=1802066}
+}
+
+1802089={ #Mähämmäd of Shirvan
+    name="Mähämmäd"
+    dynasty=2054203 #Häsäni
+    culture=azeri
+    religion=shiite
+	father=1802066
+	mother=1802087
+    martial=7
+    diplomacy=6
+    stewardship=6
+    intrigue=6
+    learning=10
+    trait=mastermind_theologian  
+    trait=honest
+	trait=pious
+    trait=humble
+    trait=honorable
+	2634.2.8={birth=yes}
+	2660.10.20={add_spouse=1802094}
+}
+
+1802090={ #Räsul Häsäni
+    name="Räsul"
+    dynasty=2054203 #Häsäni
+    culture=azeri
+    religion=orthodox
+	father=1802066
+	mother=1802087
+    martial=6
+    diplomacy=6
+    stewardship=9
+    intrigue=4
+    learning=4
+    trait=fortune_builder
+	trait=sympathy_islam
+	trait=shrewd
+    trait=content
+    trait=trusting
+    trait=gluttonous
+	2636.4.5={birth=yes}
+	2655.1.15={add_matrilineal_spouse=1802062}
+}
+
+1802091={ #Countess Säfa of Mingachevir
+    name="Säfa"
+    culture=azeri
+    religion=shiite
+	female=yes
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=7
+    learning=7
+    trait=intricate_webweaver  
+    trait=cynical
+    trait=familyperson
+	trait=temperate
+	2636.2.23={birth=yes}
+	2656.8.8={add_spouse=1802085}
+}
+
+1802092={ #Novruz Häsäni
+    name="Novruz"
+    dynasty=2054203 #Häsäni
+    culture=azeri
+    religion=shiite
+	secret_religion=zimiran
+	father=1802085
+	mother=1802091
+    martial=2
+    diplomacy=2
+    stewardship=1
+    intrigue=1
+    learning=1
+    trait=willful
+	trait=conscientious
+	2657.9.15={birth=yes}
+}
+
+1802093={ #Gülcahan Häsäni
+    name="Gülcahan"
+    dynasty=2054203 #Häsäni
+    culture=azeri
+    religion=shiite
+	secret_religion=zimiran
+	female=yes
+	father=1802085
+	mother=1802091
+    diplomacy=1
+    stewardship=1
+    learning=2
+	trait=indolent
+	2662.3.23={birth=yes}
+}
+
+1802094={ #Fatma
+    name="Fatma"
+    culture=azeri
+    religion=shiite
+	female=yes
+    martial=6
+    diplomacy=10
+    stewardship=7
+    intrigue=1
+    learning=4
+    trait=charismatic_negotiator
+	trait=sayyid
+    trait=honest
+    trait=humble
+	trait=lustful
+	2638.9.11={birth=yes}
+	2660.10.20={add_spouse=1802089}
+}
+
+1802095={ #Räshidä Häsäni
+    name="Räshidä"
+    dynasty=2054203 #Häsäni
+    culture=azeri
+    religion=shiite
+	female=yes
+	father=1802089
+	mother=1802094
+    diplomacy=4
+    learning=3
+    trait=curious
+	trait=idolizer
+	2662.3.23={birth=yes}
+}
+
+1802096={ #Megi of Kakheti
+    name="Megi"
+    dynasty=2051125 #Bolkvadze
+    culture=georgian
+    religion=orthodox
+	mother=1802062
+	father=1802090
+	female=yes
+    martial=4
+    diplomacy=3
+    learning=1
+    trait=quick    
+    trait=haughty
+    trait=conscientious
+	2658.10.12={birth=yes}
+}
+
+1802097={ #Dzimi of Kakheti
+    name="Dzimi"
+    dynasty=2051125 #Bolkvadze
+    culture=georgian
+    religion=orthodox
+	mother=1802062
+	father=1802090
+    martial=2
+    trait=rowdy    
+	2664.4.9={birth=yes}
+}
+
+1802098={ #Count Jeyhun of Bolnisi
+    name="Jeyhun"
+    dynasty=2054200 #Chingizoglu
+    culture=azeri
+    religion=shiite
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=13
+    trait=scholarly_theologian
+	trait=physician
+    trait=honest
+    trait=diligent
+    trait=trusting
+	2616.4.8={birth=yes}
+}
+
+1802099={ #Count Mikheil of Mtskheta
+    name="Mikheil"
+    dynasty=2051124 #Gelovani
+    culture=georgian
+    religion=orthodox
+    martial=8
+    diplomacy=7
+    stewardship=10
+    intrigue=5
+    learning=2
+    trait=fortune_builder
+	trait=greedy
+    trait=content
+    trait=diligent
+    trait=wroth
+	2636.7.18={birth=yes}
+}
+
+1802100={ #Count Alireza of Quba
+    name="Alireza"
+    dynasty=7020000 #Nur
+    culture=tat
+    religion=taharur
+    martial=6
+    diplomacy=5
+    stewardship=13
+    intrigue=5
+    learning=2
+    trait=midas_touched
+	trait=brawny
+	trait=diligent
+    trait=gregarious
+    trait=lustful
+	2626.1.11={birth=yes}
+}
+
+1802101={ #Count Glisa of Levashi
+    name="Glisa"
+    dynasty=2064048 #Shapikhala
+    culture=dargin
+    religion=taharur
+    martial=6
+    diplomacy=5
+    stewardship=5
+    intrigue=6
+    learning=6
+    trait=flamboyant_schemer
+	trait=shrewd
+	trait=shy
+    trait=proud
+	2637.4.2={birth=yes}
+}
+
+1802102={ #Count Sufijan of Derbent
+    name="Sufijan"
+    dynasty=2063028 #Kurawi
+    culture=lezgin
+    religion=taharur
+    martial=5
+    diplomacy=6
+    stewardship=6
+    intrigue=2
+    learning=2
+    trait=affectionate
+	trait=willful
+	trait=gregarious
+	2655.2.14={birth=yes}
 }
