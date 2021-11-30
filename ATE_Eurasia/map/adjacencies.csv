@@ -2,13 +2,14 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 1638;1639;portage;2016;-1;-1;-1;-1;River Ob Access
 1798;1808;portage;616;-1;-1;-1;-1;Don-Volga portage
 1849;1850;portage;349;-1;-1;-1;-1;Elbe-Kiel connectivity
+1790;1864;portage;458;-1;-1;-1;-1;Rhine-Danube connectivity
 23;90;sea;1719;-1;-1;-1;-1;Belfast-Galloway
 1453;3081;sea;1775;-1;-1;-1;-1;Mukha-Tadjoura
 25;100;sea;1719;-1;-1;-1;-1;Belfast-Argyll
 377;394;sea;1786;-1;-1;-1;-1;Rugen-Stralsund
 487;486;sea;1788;-1;-1;-1;-1;Oland-Kalmar
-494;558;sea;1790;-1;-1;-1;-1;Uppland-Aland
-559;558;sea;1790;-1;-1;-1;-1;Turku-Aland
+494;558;sea;1665;-1;-1;-1;-1;Uppland-Aland
+559;558;sea;1665;-1;-1;-1;-1;Turku-Aland
 335;334;sea;1678;-1;-1;-1;-1;Zeeland-Holland
 335;338;sea;1678;-1;-1;-1;-1;Zeeland-North Brabant
 333;342;sea;1692;-1;-1;-1;-1;-North Holland-Friesland
@@ -21,6 +22,8 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 482;391;sea;1786;-1;-1;-1;-1;Scania-Bornholm
 536;537;sea;1622;-1;-1;-1;-1;Laanemaa-Saaremaa
 60;61;sea;1718;-1;-1;-1;-1;Gwynedd-Anglesey
+1446;1521;sea;1641;-1;-1;-1;-1;Sao Vicente-Boa Vista
+173;1521;sea;1641;-1;-1;-1;-1;Santiago-Boa Vista
 2945;522;sea;1705;-1;-1;-1;-1;Lofoten-Romsdal
 2945;523;sea;1705;-1;-1;-1;-1;Lofoten-Nordland
 102;101;sea;1683;-1;-1;-1;-1;Inner Hebrides-Outer Hebrides
@@ -266,11 +269,11 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 621;622;major_river;1810;-1;-1;-1;-1;
 621;619;major_river;1810;-1;-1;-1;-1;
 616;619;major_river;1808;-1;-1;-1;-1;
-615;619;major_river;1809;-1;-1;-1;-1;
-615;920;major_river;1809;-1;-1;-1;-1;
-902;920;major_river;1809;-1;-1;-1;-1;
-897;920;major_river;1795;-1;-1;-1;-1;
-987;921;major_river;1795;-1;-1;-1;-1;
+615;619;major_river;1809;-1;-1;-1;-1;Sadovoye-Volzhsky
+615;920;major_river;1809;-1;-1;-1;-1;Sadovoye-Akhtubinsk
+902;920;major_river;1809;-1;-1;-1;-1;Tsagan Aman-Akhtubinsk
+921;920;major_river;1795;-1;-1;-1;-1;Ikryanoye-Akhtubinsk
+921;897;major_river;1795;-1;-1;-1;-1;Ikryanoye-Astrakhan
 607;608;major_river;1796;-1;-1;-1;-1;
 608;783;major_river;1796;-1;-1;-1;-1;
 783;610;major_river;1797;-1;-1;-1;-1;
@@ -507,3 +510,8 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 1508;1506;major_river;1839;-1;-1;-1;-1;Vivarais-Drome
 1507;1500;major_river;1839;-1;-1;-1;-1;Gard-Comtat Venaissin
 1507;1496;major_river;1839;-1;-1;-1;-1;Gard-Marseille
+456;458;major_river;1790;-1;-1;-1;-1;Wurzburg-Nuremberg
+456;450;major_river;1790;-1;-1;-1;-1;Wurzburg-Manheim
+456;371;major_river;1790;-1;-1;-1;-1;Wurzburg-Darmstadt
+370;371;major_river;1790;-1;-1;-1;-1;Frankfurt-Darmstadt
+372;371;major_river;1790;-1;-1;-1;-1;Wiesbaden-Darmstadt
