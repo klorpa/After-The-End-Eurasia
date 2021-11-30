@@ -3843,6 +3843,17 @@
 	mother=1991254
 	2639.3.5={birth=yes}
 }
+1991252={
+	name="Maksim"
+	dynasty=1854061 #Vambolt
+	culture=kaliningradyets
+	religion=proletcult
+	trait=flamboyant_schemer
+	trait=gamer
+	trait=zealous
+	trait=defensive_leader
+	2629.11.3={birth=yes}
+}
 1991253={
 	name="Gustaw"
 	dynasty=2941001 #Pilejczyk
@@ -3885,5 +3896,71 @@
 	trait=erudite
 	trait=brave
 	2640.10.13={birth=yes}
-	2660.1.1={add_matrilineal_spouse=1991252}
+	2660.1.1={add_matrilineal_spouse=1991251}
+}
+1991257={
+	name="Nilsa"
+	female=yes
+	dynasty=1948140 #Garisch
+	culture=ossi
+	religion=proletcult
+	trait=detached_priest
+	trait=strong
+	trait=sturdy
+	trait=wroth
+	trait=hunter
+	2627.5.24={birth=yes}
+	2647.1.1={add_spouse=1991252}
+}
+1991258={
+	name="Denis"
+	dynasty=1854061 #Vambolt
+	culture=ossi
+	religion=proletcult
+	trait=intricate_webweaver
+	trait=lefthanded
+	trait=proud
+	father=1991252
+	mother=1991257
+	2648.12.11={birth=yes}
+}
+1991259={
+	name="German"
+	dynasty=1854061 #Vambolt
+	culture=kaliningradyets
+	religion=proletcult
+	trait=playful
+	trait=strong
+	trait=twin
+	father=1991252
+	mother=1991257
+	2651.7.10={birth=yes}
+}
+1991260={
+	name="Olga"
+	female=yes
+	dynasty=1854061 #Vambolt
+	culture=kaliningradyets
+	religion=proletcult
+	trait=haughty
+	trait=strong
+	trait=twin
+	father=1991252
+	mother=1991257
+	2651.7.10={birth=yes}
+	2666.4.1={add_spouse=1991255}
+}
+1991261={
+	name="Mendel"
+	dynasty=1822091 #Samson
+	culture=yiddish
+	religion=haskalah
+	trait=charismatic_negotiator
+	trait=strong
+	trait=scholar
+	trait=charitable
+	trait=erudite
+	trait=trusting
+	trait=proud
+	2600.12.15={birth=yes}
 }

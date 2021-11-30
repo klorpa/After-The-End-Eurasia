@@ -304,31 +304,6 @@
 	2592.3.16={death=yes}
 }
 
-
-1802036={ #Desert Father Nazar II Arshaki Ghazaryan
-    name="Nazar"
-    dynasty=1802101 
-    culture=armenian
-    religion=miaphysite
-    martial=4
-    diplomacy=10
-    stewardship=4
-    intrigue=5
-    learning=16
-	trait=school_thaddeus
-    trait=desert_father	
-    trait=pious
-    trait=groomed
-    trait=humble
-    trait=charitable
-	trait=honest
-	disallow_random_traits=yes
-	father=1802010
-	mother=1802011
-    2554.6.21={birth=yes}
-	2620.7.5={death=yes}
-}
-
 1802037={ #Kahana Thoros Arshaki Ghazaryan
     name="Thoros"
     dynasty=1802101 
@@ -410,6 +385,7 @@
     trait=humble
     trait=charitable
 	trait=honest
+	disallow_random_traits=yes
 	father=1802010
 	mother=1802011
     2554.6.21={birth=yes}
@@ -1703,7 +1679,7 @@
     learning=7
     trait=tough_soldier
 	trait=dwarf
-    trait=brawny
+    trait=robust
     trait=pious
 	trait=diligent
 	trait=patient
@@ -1988,8 +1964,8 @@
 	2664.4.9={birth=yes}
 }
 
-1802098={ #Count Jeyhun of Bolnisi
-    name="Jeyhun"
+1802098={ #Count Ceyhun of Bolnisi
+    name="Ceyhun"
     dynasty=2054200 #Chingizoglu
     culture=azeri
     religion=shiite
@@ -2035,7 +2011,7 @@
     intrigue=5
     learning=2
     trait=midas_touched
-	trait=brawny
+	trait=robust
 	trait=diligent
     trait=gregarious
     trait=lustful
