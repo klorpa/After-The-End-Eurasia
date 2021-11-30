@@ -10,7 +10,7 @@ decisions = {
 			prisoner = no
 			religion = jacobin
 			NOT = { has_character_modifier = held_bastille_day_timer }
-			NOT = {	has_character_flag = holding_bastille_day }
+			NOT = { has_character_flag = holding_bastille_day }
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}

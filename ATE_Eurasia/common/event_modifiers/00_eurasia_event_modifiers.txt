@@ -278,3 +278,18 @@ changed_reformed_school = {
 	church_opinion = -10
 	reformed_opinion = -10
 }
+weak_defensor_fidei = {
+	icon = 17
+	church_opinion = 10
+	religion_head_opinion = 10
+	levy_size = -0.10
+	global_tax_modifier = 0.10
+	diplomacy = 1
+}
+strong_defensor_fidei = {
+	icon = 17
+	church_opinion = -20
+	religion_head_opinion = -15
+	levy_size = 0.10
+	monthly_character_prestige = 0.20
+}
