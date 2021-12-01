@@ -3627,6 +3627,7 @@
 1822089 = { name="Edelstein" culture=yiddish }
 1822090 = { name="Ben Ya'akov" culture=yiddish }
 1822091 = { name="Samson" culture=yiddish }
+1822092 = { name="Rabow" culture=yiddish }
 
 1824000 = { name="Hamoudeh" culture=filastini }
 1824001 = { name="Rifa'i" culture=filastini }
@@ -7817,7 +7818,19 @@ coat_of_arms = {
 2000073 = { name="Jednota" culture=kashubian}
 2000074 = { name="Kowalsczi" culture=kashubian}
 2000075 = { name="Struk" culture=kashubian}
-2000076 = { name="Walãsa" culture=kashubian }
+2000076 = { name="Walãsa" culture=kashubian 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2000077 = { name="Klawiter" culture=kashubian}
 2000078 = { name="Damrot" culture=kashubian}
 2000079 = { name="Szalinga" culture=kashubian}
@@ -7828,10 +7841,46 @@ coat_of_arms = {
 2000084 = { name="Stolem" culture=kashubian}
 2000085 = { name="Badziag" culture=kashubian}
 2000086 = { name="Wejer" culture=kashubian}
-2000087 = { name="Barta" culture=kashubian}
-2000088 = { name="Wenta" culture=kashubian}
+2000087 = { name="Barta" culture=kashubian
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2000088 = { name="Wenta" culture=kashubian
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2000089 = { name="Grugel" culture=kashubian}
-2000090 = { name="Kwiatkowsczi" culture=kashubian}
+2000090 = { name="Kwiatkowsczi" culture=kashubian
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 2001000 = { name="Gordon" culture=highlander 
 	coat_of_arms = { 
@@ -25928,7 +25977,19 @@ coat_of_arms = {
 
 2124000 = { name="Puttkamer" culture=odrzan }
 2124001 = { name="Laskowik" culture=odrzan }
-2124002 = { name="Kosmalski" culture=odrzan }
+2124002 = { name="Kosmalski" culture=odrzan 
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2124003 = { name="Klauzunik" culture=odrzan }
 
 2125000 = { name="Archacki" culture=mazovian}

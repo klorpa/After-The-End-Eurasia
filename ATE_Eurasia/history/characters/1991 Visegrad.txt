@@ -2863,7 +2863,8 @@
 	female=yes
 	dynasty=2000086 #Wejer
 	culture=kashubian
-	religion=chronicler
+	religion=mariavite
+	father=1991264
 	2622.11.29={birth=yes}
 }
 19911148={
@@ -2962,7 +2963,7 @@
 	name="Michôl"
 	dynasty=2000087 #Barta
 	culture=kashubian
-	religion=mariavite
+	religion=roerichist
 	trait=brilliant_strategist
 	trait=one_handed
 	trait=weak
@@ -3963,4 +3964,151 @@
 	trait=trusting
 	trait=proud
 	2600.12.15={birth=yes}
+}
+1991262={
+	name="Rebecca"
+	female=yes
+	dynasty=1822092 #Rabow
+	culture=yiddish
+	religion=haskalah
+	trait=thrifty_clerk
+	trait=kind
+	trait=falconer
+	2601.10.1={birth=yes}
+	2617.1.1={add_spouse=1991261}
+	2646.2.24={death=yes}
+}
+1991263={
+	name="Aharon"
+	dynasty=1822091 #Samson
+	culture=yiddish
+	religion=haskalah
+	trait=skilled_tactician
+	trait=strong
+	trait=duelist
+	trait=disfigured
+	father=1991261
+	mother=1991262
+	2618.6.8={birth=yes}
+}
+1991264={
+	name="Kajetón"
+	dynasty=2000086 #Wejer
+	culture=kashubian
+	religion=mariavite
+	father=1991265
+	2594.2.23={birth=yes}
+	2637.8.1={death=yes}
+}
+1991265={
+	name="Julión"
+	dynasty=2000086 #Wejer
+	culture=kashubian
+	religion=mariavite
+	father=1991265
+	2569.5.25={birth=yes}
+	2622.2.26={death=yes}
+}
+1991266={
+	name="Kùbôsz"
+	dynasty=2000086 #Wejer
+	culture=kashubian
+	religion=mariavite
+	father=1991265
+	2592.6.27={birth=yes}
+	2648.11.17={death={
+			death_reason=death_murder
+			killer=19911129
+		}
+	}
+}
+1991267={
+	name="Edita"
+	female=yes
+	dynasty=2000086 #Wejer
+	culture=kashubian
+	religion=mariavite
+	father=1991266
+	trait=detached_priest
+	trait=diligent
+	trait=sympathy_judaism
+	2625.4.30={birth=yes}
+	2641.1.1={add_spouse=1991263}
+	2646.1.1={effect={add_claim=b_wejherowo}}
+}
+1991268={
+	name="Daniel"
+	dynasty=1822091 #Samson
+	culture=yiddish
+	religion=haskalah
+	trait=underhanded_rogue
+	trait=robust
+	trait=sympathy_christendom
+	father=1991263
+	mother=1991267
+	2643.5.5={birth=yes}
+	2646.1.1={effect={add_claim=b_wejherowo}}
+}
+1991269={
+	name="Rachel"
+	female=yes
+	dynasty=1822091 #Samson
+	culture=yiddish
+	religion=haskalah
+	trait=conscientious
+	trait=strong
+	trait=sympathy_christendom
+	father=1991263
+	mother=1991267
+	2651.3.20={birth=yes}
+	2661.1.1={effect={add_claim=b_wejherowo}}
+}
+1991270={
+	name="Moshe"
+	dynasty=1822091 #Samson
+	culture=yiddish
+	religion=haskalah
+	trait=mastermind_theologian
+	trait=strong
+	trait=physician
+	trait=mystic
+	father=1991261
+	mother=1991262
+	2623.5.17={birth=yes}
+}
+1991271={
+	name="Leah"
+	female=yes
+	dynasty=1822091 #Samson
+	culture=yiddish
+	religion=haskalah
+	trait=naive_appeaser
+	trait=chaste
+	father=1991261
+	mother=1991262
+	2625.2.20={birth=yes}
+	2656.11.11={death={
+			death_reason=death_childbirth
+		}
+	}
+}
+1991272={
+	name="Koppel"
+	dynasty=1822091 #Samson
+	culture=yiddish
+	religion=haskalah
+	trait=timid
+	father=1991273
+	mother=1991271
+	2656.11.11={birth=yes}
+}
+1991273={
+	name="Nissim"
+	dynasty=0
+	culture=yiddish
+	religion=haskalah
+	trait=depressed
+	2629.8.1={birth=yes}
+	2654.1.1={add_matrilineal_spouse=1991271
+		effect=add_lover=1991271}
 }
