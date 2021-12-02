@@ -68,12 +68,12 @@
 	culture=tajik
 	religion=nizami
 	trait=strong
-	trait=craven
+	trait=brave
 	trait=scarred_mid
 	trait=shrewd
 	trait=wroth
 	trait=ruthless
-	trait=skilled_tactician
+	trait=fortune_builder
 	trait=honest
 	diplomacy=3
 	martial=4
@@ -167,7 +167,7 @@
 }
 2071009={
 	name="Abdolhossein"
-	dynasty=2070007
+	dynasty=2070007 #Kuchakzadeh
 	culture=persian
 	religion=shiite
 	trait=waqil
@@ -177,7 +177,9 @@
 	trait=gregarious
 	trait=content
 	trait=erudite
-	2618.11.2={birth=yes}
+	trait=just
+	father=2071130
+	2603.11.2={birth=yes}
 }
 2071010={
 	name="Pashtunyar"
@@ -1331,6 +1333,7 @@
 	father=2071041
 	mother=1506050
 	2629.10.21={birth=yes}
+	2647.1.1={add_consort=2071129}
 }
 2071124={
 	name="Älem"
@@ -1338,6 +1341,7 @@
 	culture=turkmen
 	religion=zimiran
 	father=2071123
+	mother=2071129
 	2648.8.30={birth=yes}
 }
 2071125={
@@ -1390,4 +1394,209 @@
 	religion=nizami
 	2621.9.30={birth=yes}
 	2642.9.30={add_spouse=2071024}
+}
+2071129={
+	name="Alma"
+	female=yes
+	dynasty=0 
+	culture=turkmen
+	religion=nizami
+	2628.12.24={birth=yes}
+}
+2071130={
+	name="Asghar"
+	dynasty=2070007 #Kuchakzadeh 
+	culture=persian
+	religion=shiite
+	father=2071131
+	2579.4.7={birth=yes}
+	2624.12.23={death=yes}
+}
+2071131={
+	name="Mohammad-Taha"
+	dynasty=2070007 #Kuchakzadeh
+	culture=persian
+	religion=shiite
+	father=2071133
+	2544.1.13={birth=yes}
+	2590.11.28={death=yes}
+}
+2071132={
+	name="Mohammad-Javad"
+	dynasty=2070007 #Kuchakzadeh
+	culture=persian
+	religion=shiite
+	father=2071133
+	2532.1.13={birth=yes}
+	2574.8.17={death={
+		death_reason=death_battle
+		killer=1506014}}
+}
+2071133={
+	name="Vahid"
+	dynasty=2070007 #Kuchakzadeh
+	culture=persian
+	religion=shiite
+	father=2071134
+	2511.10.10={birth=yes}
+	2570.6.15={death=yes}
+}
+2071134={
+	name="Abbas-Qoli"
+	dynasty=2070007 #Kuchakzadeh
+	culture=persian
+	religion=shiite
+	father=2071135
+	2486.2.17={birth=yes}
+	2525.3.29={death=yes}
+}
+2071135={
+	name="Karim"
+	dynasty=2070007 #Kuchakzadeh
+	culture=persian
+	religion=shiite
+	father=2071136
+	2452.8.23={birth=yes}
+	2522.2.15={death=yes}
+}
+2071136={
+	name="Isa"
+	dynasty=2070007 #Kuchakzadeh
+	culture=persian
+	religion=shiite
+	father=2071137
+	2429.1.10={birth=yes}
+	2479.12.18={death=yes}
+}
+2071137={
+	name="Gholam-Ali"
+	dynasty=2070007 #Kuchakzadeh
+	culture=persian
+	religion=shiite
+	father=2071138
+	2411.12.2={birth=yes}
+	2447.12.17={death=yes}
+}
+2071138={
+	name="Abdolnaser"
+	dynasty=2070007 #Kuchakzadeh
+	culture=persian
+	religion=shiite
+	2389.4.21={birth=yes}
+	2455.10.14={death=yes}
+}
+2071139={
+	name="Abdolreza"
+	dynasty=2070007 #Kuchakzadeh
+	culture=persian
+	religion=shiite
+	father=2071130
+	trait=infirm
+	trait=blinded_age
+	trait=feeble
+	trait=humble
+	trait=cynical
+	trait=underhanded_rogue
+	2611.12.7={birth=yes}
+}
+2071140={
+	name="Taher"
+	dynasty=2070007 #Kuchakzadeh
+	culture=persian
+	religion=shiite
+	father=2071139
+	trait=duelist
+	trait=mangled
+	trait=proud
+	trait=groomed
+	trait=lefthanded
+	trait=depressed
+	trait=infection
+	trait=brave
+	2629.7.23={birth=yes}
+}
+2071141={
+	name="Farzan"
+	dynasty=2070007 #Kuchakzadeh
+	culture=persian
+	religion=shiite
+	father=2071139
+	trait=homosexual
+	trait=hedonist
+	trait=indulgent_wastrel
+	trait=lustful
+	trait=drunkard
+	trait=uncouth
+	trait=cynical
+	trait=slothful
+	trait=content
+	trait=gluttonous
+	trait=coward
+	trait=is_fat
+	2632.8.9={birth=yes}
+}
+2071142={
+	name="Jalal"
+	dynasty=2070007 #Kuchakzadeh
+	culture=persian
+	religion=shiite
+	father=2071139
+	trait=naive_appeaser
+	trait=kind
+	trait=chaste
+	trait=imbecile
+	trait=paranoid
+	trait=coward
+	trait=shy
+	trait=feeble
+	trait=stutter
+	trait=chaste
+	2634.1.24={birth=yes}
+}
+2071143={
+	name="Mersana"
+	female=yes
+	dynasty=2070007 #Kuchakzadeh
+	culture=persian
+	religion=shiite
+	father=2071139
+	2638.10.12={birth=yes}
+}
+2071144={
+	name="Sulaiman"
+	dynasty=2070092 #Khalili
+	culture=bahrayni
+	trait=adventurer
+	religion=shiite
+	father=2071146
+	2611.1.29={birth=yes}
+	2662.1.28={death=yes}
+}
+2071145={
+	name="Abbas"
+	dynasty=2070092 #Khalili
+	culture=bahrayni
+	religion=shiite
+	father=2071144
+	trait=honorable
+	trait=adventurer
+	trait=ambitious
+	trait=skilled_tactician
+	trait=quick
+	trait=greedy
+	trait=robust
+	2639.7.30={birth=yes
+		culture=persian}
+	2662.1.28={
+		add_spouse=2071143
+		effect={add_friend=2071009}}
+}
+2071146={
+	name="Khalil"
+	dynasty=2070092 #Khalili
+	culture=bahrayni
+	religion=shiite
+	trait=peasant_leader
+	2584.11.27={birth=yes}
+	2633.2.19={death=yes}
 }

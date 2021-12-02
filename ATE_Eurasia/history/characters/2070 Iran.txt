@@ -66,17 +66,16 @@
 	2630.11.2={birth=yes}
 }
 2070006={
-	name="Muhammad"
-	dynasty=2070004
-	culture=persian
-	religion=shiite
-	trait=mastermind_theologian
-	trait=theologian
-	trait=patient
+	name="Mistafa"
+	dynasty=2066069 #Bîrkar
+	culture=kurdish
+	religion=sunni
+	father=2070049
+	trait=fortune_builder
 	trait=gregarious
-	trait=ambitious
+	trait=patient
 	trait=erudite
-	2618.11.2={birth=yes}
+	2636.10.1={birth=yes}
 }
 2070007={
 	name="Muhammad"
@@ -311,9 +310,14 @@
 	dynasty=2054000 #Ismayil
 	culture=azeri
 	religion=shiite
+	trait=ruthless
+	trait=ambitious
+	trait=proud
+	trait=brave
 	father=2070026
 	mother=2070033
 	2636.10.5={birth=yes}
+	2659.1.1={add_spouse=1802103}
 }
 2070026={
 	name="Tähmasib"
@@ -436,6 +440,7 @@
 	culture=kurdish
 	religion=sunni
 	father=2070031
+	mother=2070051
 	2636.3.12={birth=yes}
 	2654.1.1={add_spouse=2070029}
 }
@@ -507,4 +512,50 @@
 	father=2070029
 	mother=2070040
 	2661.2.19={birth=yes}
+}
+2070049={
+	name="Koçer"
+	dynasty=2066069 #Bîrkar
+	culture=kurdish
+	religion=sunni
+	father=2070050
+	2611.2.27={birth=yes}
+	2655.7.29={death=yes}
+}
+2070050={
+	name="Ehmed"
+	dynasty=2066069 #Bîrkar
+	culture=kurdish
+	religion=sunni
+	2588.2.8={birth=yes}
+	2638.1.30={death=yes}
+}
+2070051={
+	name="Merziye"
+	female=yes
+	dynasty=2066069 #Bîrkar
+	culture=kurdish
+	religion=sunni
+	father=2070050
+	2614.11.22={birth=yes}
+	2634.7.29={add_spouse=2070031}
+}
+2070052={
+	name="Spehî"
+	female=yes
+	dynasty=2066059 #Qasimlo
+	culture=kurdish
+	religion=sunni
+	father=2070031
+	mother=2070051
+	2639.4.18={birth=yes}
+}
+2070053={
+	name="Cehangîr"
+	dynasty=2066059 #Qasimlo
+	culture=kurdish
+	religion=sunni
+	father=2070031
+	mother=2070051
+	2644.4.18={birth=yes}
 }
