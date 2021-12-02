@@ -629,13 +629,34 @@ laws = {
 					}
 				}	
 			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = { government = merchant_republic_government }
+				}
+				holder_scope = {
+					show_scope_change = no
+					NOT = {
+						government = merchant_republic_government
+					}
+				}	
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = { government = theocratic_feudal_government }
+				}
+				holder_scope = {
+					show_scope_change = no
+					NOT = {
+						government = theocratic_feudal_government
+					}
+				}	
+			}
 		}
 		potential = {
 			has_dlc = "Zeus"
 			NOT = { holder_scope = { is_nomadic = yes } }
-			NOT = { holder_scope = { has_religion_feature = religion_cosmopolitan } }
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
+			NOT = { holder_scope = { government = merchant_republic_government } }
 		}
 		revoke_allowed = { always = no }
 		ai_will_do = {

@@ -1546,7 +1546,7 @@ christian = {
 		intermarry = miaphysite
 
 	}
-	erpetse = {  #Russian Centric "Papal" Orthodoxy
+	pravoslavie = {  #Russian Centric "Papal" Orthodoxy
 		graphical_culture = westerngfx
 
 		icon = 63
@@ -1763,8 +1763,10 @@ vernacular = {
 	dvoeverie = {
 		graphical_culture = westerngfx
 
-		icon = 73
-		heresy_icon = 74
+		icon = 63
+		heresy_icon = 64
+		
+		parent = pravoslavie
 		
 		color = { 0.811 0.462 0.937 }
 		
