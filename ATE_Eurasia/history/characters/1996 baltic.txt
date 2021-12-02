@@ -1000,3 +1000,64 @@
 	2602.2.2={birth=yes}
 	2664.11.22={death=yes}
 }
+
+1996069={
+	name="Leonid"
+	dynasty=1854054 #Stotsky
+	culture=kaliningradyets
+	religion=proletcult
+	2609.11.9={birth=yes}
+	2632.12.2={add_spouse=1996071}
+	2670.8.15={death=yes}
+}
+
+1996070={
+	name="Nichal"
+	dynasty=2941002
+	culture=warmzur
+	religion=mariavite
+	2632.3.19={birth=yes}
+	2690.5.25={death=yes}
+}
+
+1996071={
+	name="Dasha"
+	culture=kaliningradyets
+	religion=proletcult
+	female=yes
+	2611.2.3={birth=yes}
+	2632.12.2={add_spouse=1996069}
+	2670.4.4={death=yes}
+}
+
+1996072={
+	name="Anastasia"
+	culture=kaliningradyets
+	religion=proletcult
+	female=yes
+	mother=1996071
+	father=1996069
+	2639.9.23={birth=yes}
+	2690.1.14={death=yes}
+}
+
+1996073={
+	name="Vasilisa"
+	culture=kaliningradyets
+	religion=proletcult
+	female=yes
+	mother=1996071
+	father=1996069
+	2641.2.3={birth=yes}
+	2680.7.17={death=yes}
+}
+
+1996074={
+	name="Maksim"
+	culture=kaliningradyets
+	religion=proletcult
+	trait=bastard
+	father=1996069
+	2640.10.13={birth=yes}
+	2700.4.27={death=yes}
+}
