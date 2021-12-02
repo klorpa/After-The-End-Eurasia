@@ -1002,62 +1002,84 @@
 }
 
 1996069={
-	name="Leonid"
-	dynasty=1854054 #Stotsky
+	name="Ivan"
+	dynasty=1856054 #Potolkov
 	culture=kaliningradyets
 	religion=proletcult
-	2609.11.9={birth=yes}
-	2632.12.2={add_spouse=1996071}
+	trait=skilled_tactician
+	trait=gamer
+	trait=strategist
+	trait=giant
+	2619.11.9={birth=yes}
+	2642.12.2={add_spouse=1996071}
 	2670.8.15={death=yes}
 }
 
 1996070={
 	name="Nichal"
 	dynasty=2941002
-	culture=warmzur
+	culture=mazovian
 	religion=mariavite
 	2632.3.19={birth=yes}
 	2690.5.25={death=yes}
 }
 
 1996071={
-	name="Dasha"
-	culture=kaliningradyets
+	name="Alyona"
+	dynasty=1703003
+	culture=pitersky
 	religion=proletcult
 	female=yes
-	2611.2.3={birth=yes}
-	2632.12.2={add_spouse=1996069}
+	trait=charismatic_negotiator
+	trait=quick
+	trait=dwarf
+	trait=winter_soldier
+	trait=diligent
+	2625.2.3={birth=yes}
+	2642.12.2={add_spouse=1996069}
 	2670.4.4={death=yes}
 }
 
 1996072={
-	name="Anastasia"
+	name="Irina"
+	dynasty=1856054
 	culture=kaliningradyets
 	religion=proletcult
 	female=yes
+	trait=thrifty_clerk
+	trait=robust
+	trait=musician
 	mother=1996071
 	father=1996069
-	2639.9.23={birth=yes}
+	2643.9.23={birth=yes}
 	2690.1.14={death=yes}
 }
 
 1996073={
-	name="Vasilisa"
+	name="Lada"
+	dynasty=1856054
 	culture=kaliningradyets
 	religion=proletcult
 	female=yes
 	mother=1996071
 	father=1996069
-	2641.2.3={birth=yes}
+	trait=haughty
+	2651.2.3={birth=yes}
 	2680.7.17={death=yes}
 }
 
 1996074={
-	name="Maksim"
+	name="Daniil"
+	dynasty=1856054
 	culture=kaliningradyets
 	religion=proletcult
 	trait=bastard
+	trait=tough_soldier
+	trait=giant
+	trait=scarred_mid
+	trait=hedonist
+	trait=light_foot_leader
 	father=1996069
-	2640.10.13={birth=yes}
+	2634.10.13={birth=yes}
 	2700.4.27={death=yes}
 }

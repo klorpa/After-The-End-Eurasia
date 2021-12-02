@@ -411,6 +411,13 @@
 	culture=turkmen
 	religion=shiite
 	father=2071031
+	mother=2071147
+	trait=skilled_tactician
+	trait=arbitrary
+	trait=pious
+	trait=diligent
+	trait=greedy
+	trait=wroth
 	2612.1.14={birth=yes}
 }
 2071031={
@@ -446,6 +453,7 @@
 	culture=turkmen
 	religion=shiite
 	father=2071031
+	mother=2071147
 	2614.1.18={birth=yes}
 	2640.3.2={add_spouse=2071004}
 }
@@ -1532,6 +1540,7 @@
 	trait=content
 	trait=gluttonous
 	trait=coward
+	trait=syphilitic
 	trait=is_fat
 	2632.8.9={birth=yes}
 }
@@ -1578,6 +1587,7 @@
 	culture=bahrayni
 	religion=shiite
 	father=2071144
+	mother=2071148
 	trait=honorable
 	trait=adventurer
 	trait=ambitious
@@ -1599,4 +1609,93 @@
 	trait=peasant_leader
 	2584.11.27={birth=yes}
 	2633.2.19={death=yes}
+}
+2071147={
+	name="Banafsheh"
+	female=yes
+	dynasty=2070007 #Kuchakzadeh
+	culture=persian
+	religion=shiite
+	2588.3.22={birth=yes}
+	2608.1.1={add_spouse=2071030}
+	2649.11.26={death=yes}
+}
+2071148={
+	name="Selbi"
+	female=yes
+	dynasty=2041135 #Serdar
+	culture=turkmen
+	religion=shiite
+	father=2071031
+	mother=2071147
+	2617.1.31={birth=yes}
+	2637.1.1={add_spouse=2071144}
+	2666.2.24={death=yes}
+}
+2071149={
+	name="Fatemeh"
+	female=yes
+	dynasty=2070092 #Khalili
+	culture=bahrayni
+	religion=shiite
+	father=2071144
+	mother=2071148
+	2644.6.6={birth=yes
+		culture=persian}
+}
+2071150={
+	name="Iraj"
+	dynasty=2134000 #Astarabadi
+	culture=mazandarani
+	religion=shiite
+	2623.5.10={birth=yes}
+}
+2071152={
+	name="Elîxan"
+	dynasty=2066071 #Pehlevanlî
+	culture=kurdish
+	religion=shiite
+	trait=brilliant_strategist
+	trait=brave
+	trait=cavalry_leader
+	trait=cruel
+	trait=cynical
+	trait=flat_terrain_leader
+	trait=gregarious
+	2626.5.20={birth=yes}
+}
+2071153={
+	name="Malalai"
+	female=yes
+	dynasty=2085047 #Nurzai
+	culture=pashtun
+	religion=deobandi
+	trait=grey_eminence
+	trait=brave
+	trait=gregarious
+	trait=honorable
+	trait=kind
+	trait=charitable
+	trait=diligent
+	trait=cynical
+	2638.11.10={birth=yes}
+}
+2071154={
+	name="Rostam"
+	dynasty=2070070 #Mirzaei
+	culture=persian
+	religion=shiite
+	trait=genius
+	trait=scholarly_theologian
+	trait=erudite
+	trait=honorable
+	trait=ambitious
+	trait=diligent
+	trait=zealous
+	diplomacy=5
+	martial=8
+	stewardship=2
+	intrigue=3
+	learning=9
+	2614.9.30={birth=yes}
 }

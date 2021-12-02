@@ -1,7 +1,291 @@
 ###ÄNSI
 
-ruthenian = {
+slavic_east = {
 	graphical_cultures = { easterngfx }
+
+	pitersky = {
+		graphical_cultures = { westernslavicgfx }
+
+		color = { 1.0 0.3 0.4 }
+
+		male_names = {
+			Aleksander_Sasha_Shura_Sanya Aleksei_Alyosha_Lyosha Anatoliy Andrei Anton Arkadiy Avgust Boris Constantin Denis Fyodor Gennnadiy Igor Ivan_Vanya Kirill Kolya Konstanin Leonid Lev Lyosha Maxim Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei Vasiliy_Vasya Vitaliy_Vitya Vladimir_Vlad Vladislav Vsevolod
+		}
+
+		female_names = {
+			Adelle Aleksandra Alisa Alla Alyona Anna Asya 
+			Dasha Dina 
+			Evgenia 
+			Galina 
+			Ksenia Ksyusha 
+			Lena Liza 
+			Nastya 
+			Sasha Sveta Svetlana 
+			Tatiyana 
+			Valentina Valya Varvara Vasilisa Vera Veronika Victoria Yelena
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+
+	muscovite = {
+		graphical_cultures = { westernslavicgfx }
+
+		color = {0.8 0.1 0.3 }
+
+		male_names = {
+			Aleksander Aleksandr Aleksei Aleksey Alexander Alexandre Alexei Alexey Alexis Alfred Anatoli Anatoliy Andrei Arcady Arthur Aryeh Askold 
+			Boris Bruno 
+			Dmitry 
+			Emanuel Evgeny 
+			Fyodor 
+			Gavriil Gennadi Gennady Georg George Georgy Gurgen 
+			Ivan 
+			Josef Joseph 
+			Kim Konstantin 
+			Leo Leonid Lev Lidiya 
+			Mark Maya Mikhail 
+			Nikolai Nikolay 
+			Oleg 
+			Pavel Peter Philaret Pyotr 
+			Sabir Semyon Sergei Sergey Simon Sophrony Spartak Stanislav 
+			Tasoltan 
+			Umyar 
+			Valery_Valerius Vasili_Basil Victor Viktor Vitaly Vladimir Vsevolod Vyacheslav Yevgeni Yevgeny Yosef Yuri Yury
+		}
+
+		female_names = {
+			Alexandra Alla Anna Ariadna 
+			Bella 
+			Catherine 
+			Ekaterina Elena Eudoxia 
+			Fanni 
+			Galina 
+			Inessa Irina 
+			Karen 
+			Lyudmila 
+			Maria Marina 
+			Nadezhda Natalya Nina 
+			Olga 
+			Rozaliia 
+			Sonja Sophie 
+			Tatiana Tatjana Tatyana 
+			Valentina Vera Victoria 
+			Yelena Yevdokiya Yevgenia 
+			Zoja 
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+
+	pomor = {
+		graphical_cultures = { westernslavicgfx }
+
+		color = { 0.8 0.4 0.5 }
+
+		male_names = {
+			Aleksandr Aleksandrs Aleksey Alexander Alexei Anatoli Anatoly Anton Boris Daniil Denis Dmitri Dmitry Eduard Eugenijus Evgeny Fyodor Igor Ilya Ivan Konstantin Mikhail Monja Nikita Nikolay Oleh Rail Roman Serge Sergei Sergey Serguei Stepan Timur Vadim Valeri Valery Vasily Viktor Vitaliy Vitaly Vladimir Volodimir Yevgeny Yuri Yury
+		}
+
+		female_names = {
+			Anna Elena Elina Elizaveta Hanna Irina Ksenia Larisa Lyudmyla Maria Marina Mariya Nadezhda Natalia Oksana Olga Polina Svetlana Tatiana Valentina Vera Yana Yelena Yuliya Zinaida Zlata 
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+
+	volgan = {
+		graphical_cultures = { westernslavicgfx }
+
+		color = { 0.7 0.3 0.4 }
+
+		male_names = {
+			Aleksandr_Alexander Aleksey_Alexis Anatoliy_Anatolius Andrey_Andrew Anton_Anthony Arseniy_Arsenius 	Artyom_Artemius 
+			Boleslav Bulat 
+			Dazmir Demyan Denis_Dionysus Dmitriy_Demetrius Dobrinya 
+			Eduard_Edward Efim_Euphemius Elem Evgeniy_Eugene 
+			Fedot_Theodotus Filipp_Philip Foma_Thomas Fyodor_Theodore 
+			Gavriil_Gabriel Gennadiy_Gennadius German_Herman Gleb Grigoriy_Gregory 
+			Igor_Ingvar Ilya_Elijah Ivan_John 
+			Kirill_Cyril Koney Konstantin_Constantine 
+			Leonid_Leonidas Leontiy_Leontius Lev_Leo Luka_Luke 
+			Maksim_Maximus Markian_Marcianus Matvey_Matthew Mikhail_Michael Miroslav 
+			Nazar Nikifor_Nikephoros Nikita_Niketas Nikolay_Nicholas 
+			Oleg_Helgi 
+			Pavel_Paul Platon_Plato Pyotr_Peter 
+			Richard_Richard Roman_Roman Ruslan 
+			Serafim Sergey_Sergius Sevastyan_Sebastian Spartak Stanislav_Stanislaus Stepan_Stephen 
+			Tamerlan Terentiy_Terentius Trofim 
+			Vadim Valentin_Valentine Valeriy_Valerius Vasily_Basil Veniamin_Benjamin Viktor_Victor Vitaliy_Vitalius Vladimir_Vladimir Vyacheslav_Wenceslaus 
+			Yakov_James Yaromir Yuriy_George 
+			Zakhar_Zachary 
+		}
+
+		female_names = {
+			Albina Aksinya Aleksa Aleksandra_Alexandra Alevtina Alina Alisa_Alice Anastasia_Anastasia Anna_Anne Antonina Anzhelika_Angelica Apollinaria Arina Avrora_Aurora 
+			Bogdana 
+			Danila Darya 
+			Ekaterina_Catherine Elena_Helen Eva_Eve 
+			Irina_Irene 
+			Kira 
+			Larisa Lyubava 
+			Maria_Mary Marina_Marina Matrona Maya Mira 
+			Natalya_Nathalie 
+			Oksana Olga Olivia 
+			Polina_Paulina 
+			Sofia_Sophia Svetlana 
+			Tatyana_Tatiana 
+			Valentina_Valentina Valeria Varvara_Barbara Vasilisa Vera Veronika_Veronica Viktoria_Victoria Vitalina Vyacheslava 
+			Yaroslava Yasmina_Yasmin Yulia_Julia Yuliana_Juliana 
+			Zlatoslava 
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	chernyan = {
+		graphical_cultures = { westernslavicgfx }
+
+		color = { 0.4 0.2 0.3 }
+
+		male_names = {
+			Aleksander Vladimir 
+		}
+
+		female_names = {
+			Alexandra
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	kubantsy = {
+		graphical_cultures = { westernslavicgfx }
+
+		color = { 0.6 0.6 0.4 }
+
+		male_names = {
+			Aleksandr_Alexander Aleksey_Alexis Anany Anatoly_Anatole Andrei_Andrew Andrian Antiokh_Antiochus Anton_Anthony Argiry Artyom_Artemius
+			Boris
+			Demid Denis_Dionysus Dmitry_Demetrius
+			Fadey_Thaddeus Feliks_Felix Fyodor_Theodore
+			Gavril_Gabriel Gennady_Gennadius Georgy_George Gramotin Grigori_Gregory
+			Ignaty_Ignatius Ivan_John
+			Khariton Kiril_Cyril Konon Konstantin_Constantine Kuzma
+			Leonid_Leonidas Lev_Leo Luka_Lucas
+			Maksim_Maximus Matvey_Matthew Mikhail_Michael Mitrofan
+			Nikita Nikolai_Nicholas
+			Oleg_Helgi
+			Panteleimon Pavel_Paul Platon Prokofiy Pyotr_Peter
+			Roman
+			Semyon_Simon Sergei_Sergius Sidor_Isidor Stanislav Stepan_Stephen Svirid
+			Timofey_Timothy
+			Valentin_Valentine Vasily_Basil Veniamin_Benjamin Viktor_Victor Vissarion Vitaly Vladimir Vyacheslav
+			Yakov_Jacob Yevgeny_Eugene Yevstafiy_Eustace
+			Zakhary_Zachary
+		}
+
+		female_names = {
+			Aleksandra_Alexandra Anna_Anne
+			Danila Diana
+			Ekaterina_Catherine
+			Galina_Galene
+			Irina_Irene
+			Lyudmila
+			Marina
+			Nadezhda Natalya_Natalie Nina
+			Oksana_Xenia
+			Ruzhena
+			Sofiya_Sophia Svetlana
+			Tamara Tatiana
+			Valentina Viktoria_Victoria
+			Yelena_Helen Yevdokiya_Eudokia Yevgeniya_Eugenia
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
 
 	chornomorsky = {
 		graphical_cultures = { croatsouthslavicgfx }
@@ -407,6 +691,207 @@ ruthenian = {
 			Tatiana
 			Valentina
 			Yevgeniya_Eugenia Yulia_Julia
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+
+	uralic = {
+		graphical_cultures = { westernslavicgfx }
+
+		color = { 0.3 0.5 0.8 }
+
+		male_names = {
+			Albert Aleksandr Aleksei Alexander Alexei Alexey Andrey Anton Boris Dmitri Dmitry Edouard Eduard Erik Ernst Fyodor Georgy Grigori Igor Ilya Ivan Julian Juvenaly Lev Malik Marat Mikhail Nikolai Nikolay Nukhim Oleg Pavlo Peter Pyotr Roman Samuil Semyon Sergey Stanislav Valeri Viktor Vitaly Vladimir Yevgeny Yuri
+		}
+
+		female_names = {
+			Alfia Alyona Anna Elena Galina Irina Julia Larisa Lena Ludmila Lyudmila Marina Mariya Nadezhda Natalia Nina Olga Rimma Svetlana Svitlana Tatiana Tatyana Veronica Yelena Yuliya 
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	siberian = {
+		graphical_cultures = { westernslavicgfx }
+
+		color = { 0.2 0.5 0.6 }
+
+		male_names = {
+			Abdul-Vahed Aleksandr_Alexander Aleksey_Alexis Anatoliy Andrey_Andrew Anton_Anthony 
+			Boris_Boris 
+			Denis_Dionysus Dmitriy_Demetrius 
+			Eduard_Edward Evgeniy_Eugene 
+			Gennady Grigoriy_Gregory 
+			Igor Innokenty Ivan_John 
+			Konstantin_Constantine 
+			Leonid Lyubov 
+			Makar Maksim_Maximus Marat Mikhayl_Michael 
+			Nikolay_Nicholas  
+			Oleg 
+			Pavel_Paul Pyotr_Peter 
+			Rezo Roman_Roman Rudolf 
+			Sergey_Sergius Siman 
+			Vadim Valeriy Vasiliy_Basil Viktor_Victor Vissarion Vitaly Vladimir Vladislav Vyacheslav_Wenceslaus 
+			Yuriy_George 
+		}
+
+		female_names = {
+			Alyona 
+			Darya 
+			Irina 
+			Maria_Mary 
+			Natalya_Nathalie Nina 
+			Oksana Olga 
+			Polina 
+			Svetlana 
+			Tamara Tatiana 
+			Valentina Vera Veronika 
+			Yelena_Helen 
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	akmolensk = {
+		graphical_cultures = { westernslavicgfx }
+
+		color = { 0.6 0.5 0.7 }
+
+		male_names = {
+			Aleksandr_Alexander Aleksey_Alexis Anatoly Andrey_Andrew Anton_Anthony Artur_Arthur Artyom
+			Boris_Boris
+			Danil_Daniel Denis_Denis Dmitry_Demetrius Dyadyun
+			Edgar_Edgar Eduard_Edward
+			Fedor_Theodore Fridrikh_Frederick
+			Gennady Genrikh_Henry German_Herman Grigory_Gregory
+			Igor Ilya_Elijah Insun Ivan_John
+			Karl_Charles Kirill_Cyril Konstantin_Constantine
+			Lavrenty_Lawrence Leonid_Leonidas
+			Maksim Mikhail_Michael
+			Nikita Nikolay_Nicholas
+			Oleg
+			Pavel Pyotr_Peter
+			Robert Roman_Roman Ruslan
+			Sergey_Sergius Stanislav
+			Timur_Timur Tszyun
+			Vadim Valery_Valerian Valter_Walter Viktor_Victor Vilgelm_William Vitaly Vladimir_Vladimir Vladislav Vyacheslav
+			Yakov_Jacob Yaroslav Yevgeny_Eugene Yevgraf Yury
+			Zakhar_Zachary
+		}
+
+		female_names = {
+			Aleksandra_Alexandra Anastasiya_Anastasia Anna_Anna Anzhelika_Angelica
+			Darya
+			Elena_Helen
+			Galina
+			Irina_Irene
+			Ksenia
+			Larisa Lyudmila
+			Margarita_Margaret Mariya_Mary Marina Mariya
+			Nadezhda Natalya Natasha Nina
+			Oksana Olesya Olga
+			Regina Ruslana
+			Sofya_Sophia Svetlana
+			Tatyana_Tatiana
+			Ulyana_Juliana
+			Valentina Valeriya_Valerie Viktorya_Victoria
+			Yana Yaroslava Yekaterina_Catherine Yevgeniya_Eugenia Yuliya_Julia
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	kaliningradyets = {
+		graphical_cultures = { westernslavicgfx }
+
+		color = { 0.8 0.2 0.04 }
+
+		male_names = {
+			Aleksander_Alexander Aleksei_Alexis Anatoliy_Anatolius Andrei_Andrew Anton_Anthony Arkadiy_Arcadius Avgust_Augustus
+			Boris 
+			Daniil_Daniel Denis_Dionysus Dmitry_Demetrius
+			Fyodor_Theodore 
+			Gennnadiy German_Herman
+			Igor_Ingvar Ilya_Elijah Ivan_John 
+			Kirill_Cyril Kolya_Nicholas Konstanin_Constantine Ksyusha
+			Leonid_Leonidas Lev_Leon Lyosha_Alexis 
+			Maksim_Maximus Mikhail_Michael
+			Nikita Nikolai_Nicholas 
+			Oleg_Helgi 
+			Pavel_Paul Pyotr_Peter 
+			Roman 
+			Semyon_Simon Sergei_Sergius Stanislav
+			Vasiliy_Basil Vitaliy Vladimir Vladislav Vsevolod Vytovt_Vytautas
+			Yevgeni_Eugene Yury_George
+		}
+
+		female_names = {
+			Adelle Aleksandra_Alexandra Alisa_Alice Alla Alyona Anastasia Anna_Anne Asya 
+			Dasha Dina 
+			Evgenia_Eugenia 
+			Galina 
+			Irina_Irene 
+			Ksenia_Xenia
+			Lada Lena Liza Lyudmila
+			Natasha Nastya 
+			Sveta Svetlana 
+			Tania Tatiyana_Tatiana 
+			Valentina Valya Varvara_Barbara Vasilisa Vera Veronika_Veronica Victoria 
+			Yelena_Helen Yulia
 		}
 		
 		from_dynasty_prefix = "of "
