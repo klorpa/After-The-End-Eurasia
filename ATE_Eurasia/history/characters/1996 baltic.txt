@@ -1000,7 +1000,6 @@
 	2602.2.2={birth=yes}
 	2664.11.22={death=yes}
 }
-
 1996069={
 	name="Ivan"
 	dynasty=1856054 #Potolkov
@@ -1014,7 +1013,6 @@
 	2642.12.2={add_spouse=1996071}
 	2670.8.15={death=yes}
 }
-
 1996070={
 	name="Nichal"
 	dynasty=2941002
@@ -1023,10 +1021,9 @@
 	2632.3.19={birth=yes}
 	2690.5.25={death=yes}
 }
-
 1996071={
 	name="Alyona"
-	dynasty=1703003
+	dynasty=1703003 #Moskvin
 	culture=severyane
 	religion=proletcult
 	female=yes
@@ -1042,7 +1039,7 @@
 
 1996072={
 	name="Irina"
-	dynasty=1856054
+	dynasty=1856054 #Potolkov
 	culture=kaliningradyets
 	religion=proletcult
 	female=yes
@@ -1054,10 +1051,9 @@
 	2643.9.23={birth=yes}
 	2690.1.14={death=yes}
 }
-
 1996073={
 	name="Lada"
-	dynasty=1856054
+	dynasty=1856054 #Potolkov
 	culture=kaliningradyets
 	religion=proletcult
 	female=yes
@@ -1067,10 +1063,9 @@
 	2651.2.3={birth=yes}
 	2680.7.17={death=yes}
 }
-
 1996074={
 	name="Daniil"
-	dynasty=1856054
+	dynasty=1856054 #Potolkov
 	culture=kaliningradyets
 	religion=proletcult
 	trait=bastard
@@ -1082,4 +1077,96 @@
 	father=1996069
 	2634.10.13={birth=yes}
 	2700.4.27={death=yes}
+}
+1996075={
+	name="Pavel"
+	dynasty=1856091 #Vasenin
+	culture=kaliningradyets
+	religion=proletcult
+	trait=charismatic_negotiator
+	trait=light_foot_leader
+	father=1996076
+	2641.6.27={birth=yes}
+}
+1996076={
+	name="Vitovt"
+	dynasty=1856091 #Vasenin
+	culture=kaliningradyets
+	religion=proletcult
+	trait=grey_eminence
+	trait=sympathy_christendom
+	trait=duelist
+	trait=holy_warrior
+	trait=stressed
+	2613.3.6={birth=yes}
+	2655.8.12={death={death_reason=death_battle killer=1996070}}
+}
+1996077={
+	name="Yulia"
+	female=yes
+	dynasty=1856091 #Vasenin
+	culture=kaliningradyets
+	religion=proletcult
+	trait=stutter
+	trait=scholarly_theologian
+	trait=humble
+	father=1996076
+	2639.6.4={birth=yes}
+}
+1996078={
+	name="Lyosha"
+	dynasty=1856091 #Vasenin
+	culture=kaliningradyets
+	religion=proletcult
+	trait=playful
+	father=1996076
+	2653.9.5={birth=yes}
+}
+1996079={
+	name="Hieronim"
+	dynasty=2941003 #Zamana
+	culture=warmzur
+	religion=oasite
+	trait=thrifty_clerk
+	trait=robust
+	trait=scholar
+	trait=cynical
+	2630.7.29={birth=yes}
+}
+1996080={
+	name="Olga"
+	female=yes
+	dynasty=2941004 #Samsel
+	culture=warmzur
+	religion=oasite
+	trait=tough_soldier
+	trait=chaste
+	trait=theologian
+	trait=holy_warrior
+	2630.10.20={birth=yes}
+	2648.1.1={add_spouse=1996079}
+	2655.8.12={death={death_reason=death_battle killer=1996070}}
+}
+1996081={
+	name="Cezary"
+	dynasty=2941003 #Zamana
+	culture=warmzur
+	religion=oasite
+	trait=misguided_warrior
+	trait=light_foot_leader
+	father=1996079
+	mother=1996080
+	2649.1.10={birth=yes}
+}
+1996082={
+	name="Lowiza"
+	female=yes
+	dynasty=2941003 #Zamana
+	culture=warmzur
+	religion=oasite
+	trait=timid
+	trait=groomed
+	father=1996079
+	mother=1996080
+	2652.3.29={birth=yes}
 }
