@@ -2833,6 +2833,54 @@ confederation_elective = {
 				}
 			}
 		}
+		additive_modifier = { #Factionalism mechanics, papists support papists
+			value = 200 #will change if too op
+			localisation_key = tooltip_elector_is_papist
+			FROM = { character = ROOT_FROMFROMFROM }
+			NOT = { character = FROM } #Do not judge yourself.
+			FROM = {
+				NOT = { 
+					trait = seculares
+				}
+				AND = {
+					is_ruler = yes
+					trait = papist
+				}
+			}
+			ROOT = {
+				NOT = {
+					trait = seculares
+				}
+				AND = {
+					is_ruler = yes
+					trait = papist
+				}
+			}
+		}
+		additive_modifier = { #Factionalism mechanics, seculares vote for seculares
+			value = 200 # will change if too op 
+			localisation_key = tooltip_elector_is_seculares
+			FROM = { character = ROOT_FROMFROMFROM }
+			NOT = { character = FROM } #Do not judge yourself.
+			FROM = { 
+				NOT = { 
+					trait = papist
+				}
+				AND = {
+					is_ruler = yes
+					trait = seculares
+				}
+			}
+			ROOT = {
+				NOT = { 
+					trait = papist
+				}
+				AND = {
+					is_ruler = yes
+					trait = seculares
+				}
+			}
+		}
 
 		########################## Ruler's traits ##########################
 		#Ruler is lunatic, vote against his pick
