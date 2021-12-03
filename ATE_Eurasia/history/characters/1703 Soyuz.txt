@@ -27,12 +27,11 @@
 	stewardship=5
 	intrigue=4
 	learning=5
-	trait=lustful
-	trait=proud
-	trait=craven
-	trait=grey_eminence
-	trait=kind
-	2622.10.5 ={birth=yes}
+	trait=cruel
+	trait=one_eyed
+	trait=zealous
+	trait=amateurish_plotter
+	2622.10.5={birth=yes}
 	2699.3.22={death=yes}
 }
 1703003={
@@ -72,17 +71,17 @@
 	2695.1.1={death=yes}
 }
 1703005={
-	name="Avgust"
-	dynasty=1703000
+	name="Sergey"
+	dynasty=1703004
 	culture=pitersky
-	religion=orthodox
+	religion=proletcult
 	martial=5
 	diplomacy=4
 	stewardship=5
 	intrigue=4
 	learning=5
-	trait=slothful
-	trait=scholar
+	trait=hedonist
+	trait=poet
 	trait=charismatic_negotiator
 	trait=proud
 	2618.3.30={birth=yes}
@@ -178,4 +177,144 @@
 	intrigue=5
 	learning=4
 	2612.4.21={birth=yes}
+}
+
+1703012={
+	name="Vladislav"
+	culture=pitersky
+	religion=proletcult
+	dynasty=1703005
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=1703014
+	2632.2.14={birth=yes}
+}
+
+1703013={
+	name="Vladimir"
+	culture=pitersky
+	religion=pravoslavie
+	dynasty=1703005
+	martial=3
+	diplomacy=4
+	stewardship=4
+	intrigue=4
+	learning=6
+	father=1703014
+	2630.1.11={birth=yes}
+}
+
+1703014={
+	name="Konstantin"
+	culture=pitersky
+	religion=pravoslavie
+	dynasty=1703005
+	martial=3
+	diplomacy=4
+	stewardship=4
+	intrigue=4
+	learning=6
+	2603.7.14={birth=yes}
+	2663.9.13={death=yes}
+}
+
+1703015={
+	name="Nikolai"
+	culture=muscovite
+	religion=pravoslavie
+	dynasty=1147002
+	trait=lefthanded
+	trait=brilliant_strategist
+	martial=6
+	diplomacy=4
+	stewardship=3
+	intrigue=3
+	learning=4
+	give_nickname=nick_the_weaponsmith
+	2625.7.9={birth=yes}
+	2690.9.13={death=yes}
+}
+
+1703016={
+	name="Yan"
+	culture=muscovite
+	religion=pravoslavie
+	dynasty=1147003
+	martial=3
+	diplomacy=4
+	stewardship=3
+	intrigue=3
+	learning=4
+	2633.5.19={birth=yes}
+	2690.9.3={death=yes}
+}
+
+1703017={
+	name="Yuriy"
+	culture=muscovite
+	religion=pravoslavie
+	secret_religion=dukhovnye
+	dynasty=1147004
+	trait=scholar
+	trait=frail
+	trait=scholarly_theologian
+	martial=3
+	diplomacy=2
+	stewardship=4
+	intrigue=4
+	learning=6
+	2627.7.23={birth=yes}
+	2660.1.1={add_spouse=1703019}
+	2690.9.3={death=yes}
+}
+
+1703018={
+	name="Dmitriy"
+	culture=chernyan
+	religion=dukhovnye
+	dynasty=1585001
+	trait=zealous
+	trait=deceitful
+	trait=martial_cleric
+	martial=4
+	diplomacy=3
+	stewardship=3
+	intrigue=5
+	learning=4
+	father=1703020
+	2625.3.14={birth=yes}
+	2690.9.3={death=yes}
+}
+
+1703019={
+	name="Marina"
+	culture=chernyan
+	religion=dukhovnye
+	female=yes
+	dynasty=1585001
+	father=1703020
+	2628.6.17={birth=yes}
+	2660.1.1={add_spouse=1703017}
+	2690.9.3={death=yes}
+}
+
+1703020={
+	name="Grigoriy"
+	culture=chernyan
+	religion=dukhovnye
+	dynasty=1585001
+	2604.1.5={birth=yes}
+	2658.9.3={death=yes}
+}
+
+1703021={
+	name="Ivan"
+	culture=muscovite
+	religion=pravoslavie
+	dynasty=1147005
+	2641.5.15={birth=yes}
+	2690.9.3={death=yes}
 }
