@@ -1268,3 +1268,297 @@
 	religion=ruhi
 	2632.7.20={birth=yes}
 }
+2202117={
+	name="Anwar"
+	dynasty=1824086 #Anabtawi
+	culture=filastini
+	religion=nizami
+	trait=brilliant_strategist
+	trait=mangled
+	trait=strategist
+	2038.3.10={birth=yes}
+	2108.6.12={death={death_reason=death_trait}}
+}
+2202118={
+	name="Ridvan"
+	dynasty=1824086 #Anabtawi
+	culture=filastini
+	religion=nizami
+	trait=skilled_tactician
+	trait=administrator
+	trait=cruel
+	trait=wroth
+	father=2202117
+	2069.10.11={birth=yes
+		culture=west_anatolian}
+	2113.6.9={death={death_reason=death_murder_unknown}}
+}
+2202119={
+	name="Emre"
+	dynasty=1824086 #Anabtawi
+	culture=west_anatolian
+	religion=nizami
+	trait=proud
+	trait=authoritative
+	trait=zealous
+	father=2202118
+	2097.8.29={birth=yes}
+	2163.1.10={death={death_reason=death_execution_beheading killer=2202126}}
+}
+2202120={
+	name="Zafer"
+	dynasty=1824086 #Anabtawi
+	culture=west_anatolian
+	religion=nizami
+	trait=scholarly_theologian
+	trait=hafiz
+	trait=theologian
+	father=2202119
+	2130.5.14={birth=yes}
+	2164.4.23={death={death_reason=death_murder_unknown}}
+}
+2202121={
+	name="Bashar"
+	dynasty=1824086 #Anabtawi
+	culture=west_anatolian
+	religion=nizami
+	father=2202120
+	2155.12.9={birth=yes}
+	2209.11.26={death={death_reason=death_accident_fall}}
+}
+2202122={
+	name="Alican"
+	dynasty=1824086 #Anabtawi
+	culture=west_anatolian
+	religion=nizami
+	trait=flu
+	father=2202121
+	2179.12.10={birth=yes}
+	2228.10.26={death={death_reason=death_trait}}
+}
+2202123={
+	name="Atilla"
+	dynasty=1824086 #Anabtawi
+	culture=west_anatolian
+	religion=nizami
+	trait=flu
+	father=2202122
+	2199.3.15={birth=yes}
+	2265.6.30={death={death_reason=death_dungeon}}
+}
+2202124={
+	name="Yashar"
+	dynasty=1824086 #Anabtawi
+	culture=west_anatolian
+	religion=nizami
+	trait=syphilitic
+	father=2202123
+	2224.10.30={birth=yes}
+	2286.7.21={death={death_reason=death_trait}}
+}
+2202125={
+	name="Bashar"
+	dynasty=1824086 #Anabtawi
+	culture=west_anatolian
+	religion=nizami
+	trait=syphilitic
+	father=2202124
+	2245.12.16={birth=yes}
+	2289.7.31={death={death_reason=death_battle killer=2202127}}
+}
+2202126={
+	name="Natália"
+	female=yes
+	dynasty=2045114 #Toldi
+	culture=hungarian
+	religion=coronite
+	father=19911000
+	2130.12.4={birth=yes}
+	2215.8.29={death=yes}
+}
+2202127={
+	name="Ekber"
+	dynasty=2055078 #Gül
+	culture=west_anatolian
+	religion=nizami
+	2259.9.6={birth=yes}
+	2316.3.22={death=yes}
+}
+2202128={
+	name="Turhan"
+	dynasty=2055078 #Gül
+	culture=west_anatolian
+	religion=nizami
+	father=2202127
+	2293.9.15={birth=yes}
+	2352.12.27={death=yes}
+}
+2202129={
+	name="Demetrios"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=nizami
+	trait=zealous
+	trait=adventurer
+	trait=brilliant_strategist
+	father=2202130
+	2060.3.7={birth=yes
+		culture=toros_mountain}
+	2132.3.18={death=yes}
+}
+2202130={
+	name="Yanis"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=nizami
+	2039.2.22={birth=yes}
+	2097.11.11={death=yes}
+}
+2202131={
+	name="Sofokles"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=nizami
+	trait=adventurer
+	father=2202130
+	2064.7.11={birth=yes
+		culture=toros_mountain}
+	2124.10.21={death=yes}
+}
+2202132={
+	name="Gavriíl"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=nizami
+	trait=adventurer
+	trait=authoritative
+	father=2202130
+	2067.8.19={birth=yes
+		culture=toros_mountain}
+	2128.2.24={death=yes}
+}
+2202133={
+	name="Kaan"
+	dynasty=2074067 #Türkkan
+	culture=toros_mountain
+	religion=nizami
+	trait=pious
+	trait=honorable
+	trait=kind
+	trait=cancer
+	father=2202129
+	2082.3.20={birth=yes}
+	2145.1.5={death={death_reason=death_trait}}
+}
+2202134={
+	name="Miraç"
+	dynasty=2074067 #Türkkan
+	culture=toros_mountain
+	religion=nizami
+	father=2202129
+	2079.5.21={birth=yes}
+	2113.12.19={death={death_reason=death_battle}}
+}
+2202135={
+	name="Ammar"
+	dynasty=2074067 #Türkkan
+	culture=toros_mountain
+	religion=nizami
+	father=2202129
+	2080.11.20={birth=yes}
+	2113.12.19={death={death_reason=death_battle}}
+}
+2202136={
+	name="Cemre"
+	female=yes
+	dynasty=2074067 #Türkkan
+	culture=toros_mountain
+	religion=nizami
+	father=2202131
+	2094.5.8={birth=yes}
+	2114.1.1={add_spouse=2202133}
+	2150.1.11={death={death_reason=death_execution_garrotting killer=2202137}}
+}
+2202137={
+	name="Yaser"
+	dynasty=2074067 #Türkkan
+	culture=toros_mountain
+	religion=nizami
+	trait=grey_eminence
+	trait=gregarious
+	trait=administrator
+	trait=stressed
+	trait=kinslayer
+	father=2202133
+	mother=2202136
+	2117.1.15={birth=yes}
+	2145.1.1={add_spouse=2202126}
+	2152.12.28={death=yes}
+}
+2202138={
+	name="Seyfullah"
+	dynasty=2074067 #Türkkan
+	culture=toros_mountain
+	religion=nizami
+	trait=ambitious
+	father=2202133
+	mother=2202136
+	2119.3.22={birth=yes}
+	2150.1.11={death={death_reason=death_execution_garrotting killer=2202137}}
+}
+2202139={
+	name="Vahit"
+	dynasty=2074067 #Türkkan
+	culture=hungarian
+	religion=nizami
+	trait=content
+	trait=authoritative
+	trait=hedonist
+	trait=drunkard
+	trait=strong
+	trait=gregarious
+	trait=charismatic_negotiator
+	trait=lustful
+	father=2202137
+	mother=2202126
+	2146.11.27={birth=yes
+		culture=toros_mountain}
+	2210.10.9={death={death_reason=death_trait}}
+}
+2202140={
+	name="Neczat"
+	dynasty=2074067 #Türkkan
+	culture=hungarian
+	religion=nizami
+	trait=pneumonic
+	father=2202137
+	mother=2202126
+	2151.4.11={birth=yes
+		culture=toros_mountain}
+	2185.3.30={death={death_reason=death_trait}}
+}
+2202141={
+	name="Vahit"
+	dynasty=2074067 #Türkkan
+	culture=toros_mountain
+	religion=nizami
+	trait=midas_touched
+	trait=faqih
+	trait=hajjaj
+	trait=erudite
+	trait=cynical
+	father=2202139
+	2173.5.15={birth=yes}
+	2259.4.17={death=yes}
+}
+2202142={
+	name="Abdürrezzak"
+	dynasty=2074067 #Türkkan
+	culture=toros_mountain
+	religion=nizami
+	trait=midas_touched
+	trait=administrator
+	father=2202141
+	2223.8.31={birth=yes}
+	2261.1.21={death=yes}
+}

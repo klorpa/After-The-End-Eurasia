@@ -611,7 +611,6 @@
 	trait=cavalry_leader
 	trait=gregarious
 	trait=greedy
-	father=2070055
 	2606.8.27={birth=yes}
 }
 2070058={
@@ -693,6 +692,11 @@
 	trait=envious
 	trait=proud
 	trait=lustful
+	diplomacy=6
+	martial=3
+	stewardship=8
+	intrigue=9
+	learning=4
 	2621.2.22={birth=yes}
 }
 2070065={
@@ -713,17 +717,42 @@
 	2635.3.17={birth=yes}
 }
 2070066={
-	name="Muhammad"
+	name="Taj Muhammad"
 	dynasty=2086103 #Surizerhi
 	culture=baloch
 	religion=shiite
-	trait=intricate_webweaver
+	trait=grey_eminence
 	trait=deceitful
-	trait=greedy
+	trait=ambitious
 	trait=ruthless
 	trait=humble
 	trait=charitable
 	trait=cruel
 	trait=strong
 	2622.8.23={birth=yes}
+}
+2070067={
+	name="Habibollah"
+	dynasty=2070205 #Irahestani
+	culture=persian
+	religion=shiite
+	trait=elusive_shadow
+	trait=mystic
+	trait=diligent
+	trait=content
+	trait=kind
+	trait=humble
+	diplomacy=6
+	martial=6
+	stewardship=2
+	intrigue=8
+	learning=4
+	2641.11.22={birth=yes}
+}
+2070068={
+	name="Darioush"
+	dynasty=2070206 #Akbarabadi
+	culture=persian
+	religion=shiite
+	2630.1.26={birth=yes}
 }

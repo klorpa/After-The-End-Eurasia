@@ -3468,3 +3468,31 @@
 	religion=catholic
 	2645.12.29={birth=yes}
 }
+1804206={
+	name="Rustam"
+	dynasty=1802106 #Raza
+	culture=armenian
+	religion=miaphysite
+	trait=duelist
+	trait=strong
+	trait=honorable
+	trait=proud
+	trait=sympathy_islam
+	trait=honest
+	2643.12.7={birth=yes}
+	2665.1.1={
+		employer=1804032
+		effect={add_friend=1804032}}
+}
+1804207={
+	name="Alexandrine"
+	female=yes
+	dynasty=2009239 #Douville
+	culture=parisian
+	religion=catholic
+	2642.11.19={birth=yes}
+	2665.1.1={
+		add_spouse=1804206
+		effect={add_lover=1804206}
+		employer=1804032}
+}
