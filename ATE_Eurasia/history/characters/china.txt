@@ -18683,10 +18683,39 @@
 }
 2080001 = {
 	name="Abdulkerim"
-	dynasty=2080080 #Abbas
+	dynasty=2080081 #Abbas
 	culture=uighur
 	religion=hui
 	female=yes
+	add_trait=musician
+	add_trait=kind
+	add_trait=groomed
+	add_trait=charismatic_negotiator
+	add_trait=scholar
+	add_trait=patient
+	add_trait=diligent
+	2620.3.16={birth=yes}
+}
+2080002 = {
+	name="Yelü"
+	dynasty=2080080 #Dashik
+	culture=uighur
+	religion=gelugpa
+	female=yes
+	add_trait=musician
+	add_trait=kind
+	add_trait=groomed
+	add_trait=charismatic_negotiator
+	add_trait=scholar
+	add_trait=patient
+	add_trait=diligent
+	2620.3.16={birth=yes}
+}
+1207000 = {
+	name="Pandita"
+	dynasty=1207050 #Zaya
+	culture=oirat
+	religion=gelugpa
 	add_trait=musician
 	add_trait=kind
 	add_trait=groomed
@@ -18725,4 +18754,18 @@
 	add_trait=diligent
 	2620.3.16={birth=yes}
 	2640.12.12={add_spouse=8001284}
+}
+8001286 = {
+	name="Luo"
+	dynasty=8001023 #Yue
+	culture=mandarin
+	religion=jibenyuanze
+	add_trait=musician
+	add_trait=kind
+	add_trait=groomed
+	add_trait=thrifty_clerk
+	add_trait=quick
+	add_trait=patient
+	add_trait=diligent
+	2620.3.16={birth=yes}
 }
