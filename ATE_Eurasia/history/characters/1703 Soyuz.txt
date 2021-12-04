@@ -107,21 +107,22 @@
 	2691.2.5={death=yes}
 }
 1703007={
-	name="Anatoly"
-	dynasty=1945001
+	name="Leonid"
+	dynasty=1945002
 	culture=pomor
-	religion=orthodox
+	religion=old_believer
 	martial=5
 	diplomacy=4
-	stewardship=5
-	intrigue=4
-	learning=5
-	trait=scholarly_theologian
-	trait=deceitful
-	trait=trusting
-	trait=slothful
-	trait=temperate
-	2643.5.1={birth=yes}
+	stewardship=4
+	intrigue=3
+	learning=6
+	trait=mastermind_theologian
+	trait=scholar
+	trait=poet
+	trait=wroth
+	trait=diligent
+	trait=robust
+	2613.5.1={birth=yes}
 	2697.12.25={death=yes}
 }
 1703008={
@@ -317,4 +318,139 @@
 	dynasty=1147005
 	2641.5.15={birth=yes}
 	2690.9.3={death=yes}
+}
+
+1703022={
+	name="Matvey"
+	culture=muscovite
+	religion=pravoslavie
+	trait=diligent
+	trait=drunkard
+	trait=cynical
+	trait=scholarly_theologian
+	dynasty=1147006
+	father=1703024
+	2632.7.5={birth=yes}
+	2660.1.1={add_spouse=1703026}
+	2680.4.13={death=yes}
+}
+
+1703023={
+	name="Okhrip"
+	culture=muscovite
+	religion=pravoslavie
+	trait=celibate
+	trait=zealous
+	trait=martial_cleric
+	father=1703025
+	dynasty=1147006
+	2612.4.25={birth=yes}
+	2690.9.3={death=yes}
+}
+
+1703024={
+	name="Gleb"
+	culture=muscovite
+	religion=pravoslavie
+	father=1703025
+	dynasty=1147006
+	2610.6.25={birth=yes}
+	2664.4.3={death=yes}
+}
+
+1703025={
+	name="Lavrentiy"
+	culture=muscovite
+	religion=pravoslavie
+	dynasty=1147006
+	2582.1.14={birth=yes}
+	2640.8.16={death=yes}
+}
+
+1703026={
+	name="Sofia"
+	culture=muscovite
+	religion=pravoslavie
+	female=yes
+	dynasty=1147007
+	2634.4.25={birth=yes}
+	2660.1.1={add_spouse=1703022}
+	2690.9.3={death=yes}
+}
+
+1703027={
+	name="Anna"
+	culture=muscovite
+	religion=pravoslavie
+	female=yes
+	trait=twin
+	trait=brooding
+	trait=conscientious
+	dynasty=1147006
+	father=1703022
+	mother=1703026
+	2642.8.12={birth=yes}
+	2690.9.3={death=yes}
+}
+
+1703028={
+	name="Yelena"
+	culture=muscovite
+	religion=pravoslavie
+	female=yes
+	trait=twin
+	trait=rowdy
+	trait=playful
+	dynasty=1147006
+	father=1703022
+	mother=1703026
+	2642.8.12={birth=yes}
+	2690.9.3={death=yes}
+}
+
+1703029={
+	name="Varvara"
+	dynasty=1945002
+	culture=pomor
+	religion=old_believer
+	female=yes
+	father=1703007
+	2644.2.12={birth=yes}
+	2697.12.25={death=yes}
+}
+
+1703030={
+	name="Nikolay"
+	dynasty=1945003
+	culture=pomor
+	religion=dvoeverie
+	trait=charitable
+	trait=diligent
+	trait=mystic
+	2606.12.25={birth=yes}
+	2670.12.25={death=yes}
+}
+
+1703031={
+	name="Klavdiy"
+	dynasty=1945003
+	culture=pomor
+	religion=dvoeverie
+	father=1703030
+	2627.7.2={birth=yes}
+	2664.1.35={death=yes}
+}
+
+1703032={
+	name="Snezhanna"
+	dynasty=1945003
+	culture=pomor
+	religion=dvoeverie
+	father=1703031
+	female=yes
+	trait=kind
+	trait=charitable
+	trait=trusting
+	2647.5.16={birth=yes}
+	2690.12.25={death=yes}
 }
