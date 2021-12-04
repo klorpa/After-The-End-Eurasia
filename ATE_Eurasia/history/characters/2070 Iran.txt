@@ -170,17 +170,21 @@
 	2637.5.17={birth=yes}
 }
 2070015={
-	name="Muhammad"
-	dynasty=2070013
-	culture=persian
-	religion=shiite
-	trait=mastermind_theologian
-	trait=theologian
+	name="Jabir"
+	dynasty=2128240 #Jabbareh
+	culture=bahrayni
+	religion=sunni
+	trait=skilled_tactician
+	trait=paranoid
+	trait=brave
 	trait=patient
-	trait=gregarious
 	trait=ambitious
-	trait=erudite
-	2618.11.2={birth=yes}
+	diplomacy=2
+	martial=8
+	stewardship=6
+	intrigue=3
+	learning=4
+	2634.1.14={birth=yes}
 }
 2070016={
 	name="Muhammad"
@@ -559,4 +563,167 @@
 	father=2070031
 	mother=2070051
 	2644.4.18={birth=yes}
+}
+2070054={
+	name="Ali"
+	dynasty=2070202 #Shanbehzadeh
+	culture=amhara
+	religion=shiite
+	trait=musician
+	trait=strong
+	trait=charismatic_negotiator
+	trait=gregarious
+	trait=greedy
+	trait=kind
+	trait=cynical
+	father=2070055
+	2646.6.18={birth=yes
+		culture=persian}
+}
+2070055={
+	name="Bahram"
+	dynasty=2070202 #Shanbehzadeh
+	culture=amhara
+	religion=shiite
+	2617.7.30={birth=yes
+		culture=persian}
+	2659.2.13={death=yes}
+}
+2070056={
+	name="Habib"
+	dynasty=2070202 #Shanbehzadeh
+	culture=amhara
+	religion=shiite
+	trait=musician
+	father=2070055
+	2649.9.12={birth=yes
+		culture=persian}
+}
+2070057={
+	name="Sultan"
+	dynasty=2110068 #Al-Zawawi
+	culture=umani
+	religion=ibadi
+	trait=midas_touched
+	trait=pious
+	trait=brave
+	trait=scarred_mid
+	trait=cavalry_leader
+	trait=gregarious
+	trait=greedy
+	father=2070055
+	2606.8.27={birth=yes}
+}
+2070058={
+	name="Omar"
+	dynasty=2110068 #Al-Zawawi
+	culture=umani
+	religion=ibadi
+	trait=zealous
+	trait=architect
+	father=2070057
+	2631.8.11={birth=yes}
+}
+2070059={
+	name="Abdul Munim"
+	dynasty=2110068 #Al-Zawawi
+	culture=umani
+	religion=ibadi
+	father=2070057
+	2634.12.9={birth=yes}
+}
+2070060={
+	name="Matuka"
+	female=yes
+	dynasty=2110068 #Al-Zawawi
+	culture=umani
+	religion=ibadi
+	father=2070057
+	2638.10.31={birth=yes}
+	2656.1.1={add_spouse=2110001}
+}
+2070061={
+	name="Farzaneh"
+	female=yes
+	dynasty=2070202 #Shanbehzadeh
+	culture=amhara
+	religion=shiite
+	trait=musician
+	father=2070055
+	2643.12.22={birth=yes
+		culture=persian}
+	2661.1.1={add_spouse=2070058}
+}
+2070062={
+	name="Rashid"
+	dynasty=2110068 #Al-Zawawi
+	culture=amhara
+	religion=ibadi
+	trait=zealous
+	trait=architect
+	father=2070058
+	mother=2070061
+	2663.5.24={birth=yes
+		culture=umani}
+}
+2070063={
+	name="Eshaq"
+	dynasty=2099086 #Estakhri
+	culture=qashqai
+	religion=shiite
+	trait=adventurer
+	trait=erudite
+	trait=sympathy_eastern
+	trait=skilled_tactician
+	trait=charitable
+	trait=wroth
+	2635.10.3={birth=yes}
+}
+2070064={
+	name="Abbas"
+	dynasty=2070203 #Darvishi
+	culture=persian
+	religion=shiite
+	trait=cynical
+	trait=scholar
+	trait=intricate_webweaver
+	trait=fair
+	trait=shrewd
+	trait=wroth
+	trait=envious
+	trait=proud
+	trait=lustful
+	2621.2.22={birth=yes}
+}
+2070065={
+	name="Anousheh"
+	female=yes
+	dynasty=2070204 #Nakhjavani
+	culture=persian
+	religion=bahai
+	trait=brilliant_strategist
+	trait=pious
+	trait=quick
+	trait=singer
+	trait=shy
+	trait=trusting
+	trait=diligent
+	trait=shrewd
+	trait=lisp
+	2635.3.17={birth=yes}
+}
+2070066={
+	name="Muhammad"
+	dynasty=2086103 #Surizerhi
+	culture=baloch
+	religion=shiite
+	trait=intricate_webweaver
+	trait=deceitful
+	trait=greedy
+	trait=ruthless
+	trait=humble
+	trait=charitable
+	trait=cruel
+	trait=strong
+	2622.8.23={birth=yes}
 }
