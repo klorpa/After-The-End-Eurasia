@@ -179,6 +179,7 @@
 	trait=erudite
 	trait=just
 	father=2071130
+	mother=2071172
 	2603.11.2={birth=yes}
 }
 2071010={
@@ -463,6 +464,7 @@
 	culture=turkmen
 	religion=shiite
 	father=2071030
+	mother=2071160
 	2631.2.27={birth=yes}
 }
 2071036={
@@ -471,6 +473,7 @@
 	culture=turkmen
 	religion=shiite
 	father=2071030
+	mother=2071160
 	2638.4.16={birth=yes}
 }
 2071037={
@@ -479,6 +482,7 @@
 	culture=turkmen
 	religion=shiite
 	father=2071035
+	mother=2071159
 	2649.7.4={birth=yes}
 }
 2071038={
@@ -488,6 +492,7 @@
 	culture=turkmen
 	religion=shiite
 	father=2071035
+	mother=2071159
 	2653.3.17={birth=yes}
 }
 2071039={
@@ -579,6 +584,8 @@
 	dynasty=2089021 #Borjigai
 	culture=hazara
 	religion=shiite
+	father=2071166
+	mother=2071167
 	2551.1.15={birth=yes}
 	2605.11.26={death=yes}
 }
@@ -1197,6 +1204,7 @@
 	culture=turkmen
 	religion=nizami
 	father=2071111
+	mother=2071161
 	2605.1.10={birth=yes}
 }
 2071111={
@@ -1213,6 +1221,7 @@
 	culture=turkmen
 	religion=nizami
 	father=2071111
+	mother=2071161
 	2603.6.30={birth=yes}
 	2658.6.12={death=yes}
 }
@@ -1418,6 +1427,7 @@
 	culture=persian
 	religion=shiite
 	father=2071131
+	mother=2071168
 	2579.4.7={birth=yes}
 	2624.12.23={death=yes}
 }
@@ -1500,6 +1510,7 @@
 	culture=persian
 	religion=shiite
 	father=2071130
+	mother=2071172
 	trait=infirm
 	trait=blinded_age
 	trait=feeble
@@ -1514,6 +1525,7 @@
 	culture=persian
 	religion=shiite
 	father=2071139
+	mother=2071169
 	trait=duelist
 	trait=mangled
 	trait=proud
@@ -1522,6 +1534,7 @@
 	trait=depressed
 	trait=infection
 	trait=brave
+	trait=brilliant_strategist
 	2629.7.23={birth=yes}
 }
 2071141={
@@ -1530,6 +1543,7 @@
 	culture=persian
 	religion=shiite
 	father=2071139
+	mother=2071170
 	trait=homosexual
 	trait=hedonist
 	trait=indulgent_wastrel
@@ -1551,6 +1565,7 @@
 	culture=persian
 	religion=shiite
 	father=2071139
+	mother=2071170
 	trait=naive_appeaser
 	trait=kind
 	trait=chaste
@@ -1570,6 +1585,7 @@
 	culture=persian
 	religion=shiite
 	father=2071139
+	mother=2071170
 	2638.10.12={birth=yes}
 }
 2071144={
@@ -1618,8 +1634,9 @@
 	culture=persian
 	religion=shiite
 	father=2071131
+	mother=2071168
 	2588.3.22={birth=yes}
-	2608.1.1={add_spouse=2071030}
+	2608.1.1={add_spouse=2071031}
 	2649.11.26={death=yes}
 }
 2071148={
@@ -1647,6 +1664,7 @@
 }
 2071150={
 	name="Iraj"
+	father=2071162
 	dynasty=2134000 #Astarabadi
 	culture=mazandarani
 	religion=shiite
@@ -1664,6 +1682,7 @@
 	trait=cynical
 	trait=flat_terrain_leader
 	trait=gregarious
+	father=2071157
 	2626.5.20={birth=yes}
 }
 2071153={
@@ -1731,4 +1750,181 @@
 	trait=administrator
 	trait=gluttonous
 	2634.3.7={birth=yes}
+}
+2071157={
+	name="Husênxan"
+	dynasty=2066071 #Pehlevanlî
+	father=2071158
+	culture=kurdish
+	religion=shiite
+	2602.3.29={birth=yes}
+	2638.1.17={death=yes}
+}
+2071158={
+	name="Mihemedxan"
+	dynasty=2066071 #Pehlevanlî
+	culture=kurdish
+	religion=shiite
+	2574.7.30={birth=yes}
+	2628.12.11={death=yes}
+}
+2071159={
+	name="Îran"
+	female=yes
+	dynasty=2066071 #Pehlevanlî
+	father=2071157
+	culture=kurdish
+	religion=shiite
+	2628.2.7={birth=yes}
+	2647.1.1={add_spouse=2071037}
+}
+2071160={
+	name="Shahla"
+	female=yes
+	dynasty=0
+	culture=persian
+	religion=shiite
+	2613.10.12={birth=yes}
+	2629.1.1={add_spouse=2071030}
+}
+2071161={
+	name="İulduz"
+	female=yes
+	dynasty=0
+	culture=turkmen
+	religion=nizami
+	2583.7.24={birth=yes}
+	2602.1.1={add_spouse=2071111}
+	2640.8.24={death=yes}
+}
+2071162={
+	name="Esfandiar"
+	dynasty=2134000 #Astarabadi
+	culture=mazandarani
+	religion=shiite
+	father=2071163
+	mother=2071164
+	2600.5.31={birth=yes}
+	2642.2.8={death=yes}
+}
+2071163={
+	name="Farzad"
+	dynasty=2134000 #Astarabadi
+	culture=mazandarani
+	religion=shiite
+	2578.10.7={birth=yes}
+	2627.11.6={death=yes}
+}
+2071164={
+	name="Khadijeh"
+	female=yes
+	dynasty=0
+	culture=mazandarani
+	religion=shiite
+	2581.5.16={birth=yes}
+	2599.1.1={add_spouse=2071163}
+	2626.1.6={death=yes}
+}
+2071165={
+	name="Jasmin"
+	female=yes
+	dynasty=2134000 #Astarabadi
+	culture=mazandarani
+	religion=shiite
+	father=2071162
+	2628.3.21={birth=yes}
+	2647.1.1={add_spouse=2071043}
+}
+2071166={
+	name="Hassan"
+	dynasty=2089021 #Borjigai
+	culture=hazara
+	religion=shiite
+	2529.9.27={birth=yes}
+	2549.1.1={add_spouse=2071167}
+	2579.8.19={death=yes}
+}
+2071167={
+	name="Shakar"
+	female=yes
+	dynasty=0 
+	culture=hazara
+	religion=shiite
+	2530.3.1={birth=yes}
+	2574.2.8={death=yes}
+}
+2071168={
+	name="Jalila"
+	female=yes
+	dynasty=2089021 #Borjigai
+	culture=hazara
+	religion=shiite
+	mother=2071167
+	father=2071166
+	2558.7.29={birth=yes}
+	2549.1.1={add_spouse=2071131}
+	2579.8.24={death=yes}
+}
+2071169={
+	name="Niloufar"
+	female=yes
+	dynasty=0
+	culture=persian
+	religion=shiite
+	2612.6.18={birth=yes}
+	2628.1.1={add_spouse=2071139}
+}
+2071170={
+	name="Atossa"
+	female=yes
+	dynasty=2089021 #Borjigai
+	culture=hazara
+	religion=shiite
+	father=2071044
+	mother=2071171
+	2615.9.23={birth=yes}
+	2631.1.1={add_spouse=2071139}
+}
+2071171={
+	name="Bibi"
+	female=yes
+	dynasty=0 
+	culture=hazara
+	religion=shiite
+	2595.7.17={birth=yes}
+	2614.1.1={add_spouse=2071044}
+	2645.7.11={death=yes}
+}
+2071172={
+	name="Farkhondeh"
+	female=yes
+	dynasty=2070007 #Kuchakzadeh
+	culture=persian
+	religion=shiite
+	father=2071132
+	mother=2071173
+	2571.8.23={birth=yes}
+	2599.1.1={add_spouse=2071130}
+	2617.6.1={death=yes}
+}
+2071173={
+	name="Mobina"
+	female=yes
+	dynasty=0 
+	culture=persian
+	religion=shiite
+	2552.8.4={birth=yes}
+	2570.1.1={add_spouse=2071132}
+	2609.3.6={death=yes}
+}
+2071174={
+	name="Nurgözel"
+	female=yes
+	dynasty=2041138 #Myradow
+	father=2071116
+	mother=1506043
+	culture=turkmen
+	religion=zimiran
+	2627.10.6={birth=yes}
+	2646.1.1={add_spouse=2071152}
 }
