@@ -1544,7 +1544,6 @@
 	religion=shiite
 	father=2071139
 	mother=2071170
-	trait=homosexual
 	trait=hedonist
 	trait=indulgent_wastrel
 	trait=lustful
@@ -1558,6 +1557,9 @@
 	trait=syphilitic
 	trait=is_fat
 	2632.8.9={birth=yes}
+	2666.1.1={effect={add_character_modifier={
+				modifier=bedridden_illness
+				hidden=no}}}
 }
 2071142={
 	name="Jalal"
