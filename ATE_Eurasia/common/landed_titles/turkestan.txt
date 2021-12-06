@@ -291,7 +291,7 @@ e_turkestan = {
 		}
 	}
 	k_uly_juz = {
-		color={ 25 220 200 }
+		color={ 55 220 240 }
 		color2 = { 255 255 255 }
 		
 		capital = 970 #Almaty
@@ -349,6 +349,77 @@ e_turkestan = {
 				b_ushtobe = {}
 				b_kalpe = {}
 				b_kuraksu = {}
+			}
+		}
+		d_ili = {
+			color={ 145 140 189 }
+			color2={ 255 255 255 }
+			
+			capital = 1210 #Ili
+
+			c_ghulja = {
+				color={ 117 195 213 }
+				color2={ 255 255 255 }
+				
+				holy_site = ak_jeng
+				holy_site = ak_jeng_reformed
+				
+				b_ghulja = {}
+				b_jelilyuzi = {}
+				b_qorghas = {}
+				b_chapchal_shibe = {}
+				b_gongliu = {}
+				b_toqquztara = {}
+				b_yengitam = {}
+			}
+			c_kunes = {
+				color={ 168 186 209 }
+				color2={ 255 255 255 }
+								
+				b_kunes = {}
+				b_qarabora = {}
+				b_narat = {}
+				b_nilqa = {}
+				b_beshtope = {}
+				b_taldi = {}
+				b_kokxotqor_mongghul = {}
+				b_zekti = {}
+			}
+			c_tekes = {
+				color={ 135 188 230 }
+				color2={ 255 255 255 }
+				
+				b_tekes = {}
+				b_koksu = {}
+				b_qilewuzeke = {}
+				b_qilaketiereke = {}
+				b_karadala = {}
+				b_karatokay = {}
+				b_hujierte = {}
+			}
+			c_zharkent = {
+				color={ 111 139 168 }
+				color2={ 255 255 255 }
+				
+				b_zharkent = {}
+				b_kalinino = {}
+				b_koktal = {}
+				b_baskunchi = {}
+				b_kugaly = {}
+				b_horgos = {}
+				b_aydarly = {}
+			}
+			c_enbekshikazakh = {
+				color={ 158 100 121 }
+				color2={ 255 255 255 }
+				
+				b_shelek = {}
+				b_sorbulak = {}
+				b_shonzy = {}
+				b_saryzhaz = {}
+				b_kegen = {}
+				b_narynkol = {}
+				b_koram = {}
 			}
 		}
 		d_kyzylorda = {
@@ -511,7 +582,7 @@ e_turkestan = {
 		}
 	}
 	k_kishi_juz = {
-		color={ 45 142 146 }
+		color={ 35 132 126 }
 		color2 = { 255 255 255 }
 		
 		capital = 930 #Aktobe
@@ -880,7 +951,7 @@ e_turkestan = {
 		kazakh="Kyrghyzstan"
 		kyrgyz="Kyrgyzia"
 		
-		d_chuy = {
+		d_bishkek = {
 			color={ 159 219 153 }
 			color2={ 255 255 255 }
 			
@@ -898,29 +969,18 @@ e_turkestan = {
 				b_sokuluk = {}
 				b_kalinovka = {}
 			}
-			c_kochkor = {
-				color={ 113 195 202 }
+			c_issyk_kul = {
+				color={ 19 158 135 }
 				color2={ 255 255 255 }
 				
-				b_kochkor = {}
+				b_cholpon_ata = {}
 				b_ottuk = {}
-				b_kum_dobo = {}
-				b_kyzart = {}
-				b_bashkaingdy = {}
-				b_chaek = {}
+				b_bokonbayevo = {}
 				b_balykchy = {}
-			}
-			c_naryn = {
-				color={ 154 213 167 }
-				color2={ 255 255 255 }
-				
-				b_naryn = {}
-				b_ak_muz = {}
-				b_tash_bashat = {}
-				b_baetov = {}
-				b_kazarman = {}
-				b_kosh_dobo = {}
-				b_jerge_tal = {}
+				b_ananyevo = {}
+				b_tamchy = {}
+				b_chok_tal = {}
+				b_dolinka = {}
 			}
 			c_karakol = {
 				color={ 164 200 103 }
@@ -928,31 +988,20 @@ e_turkestan = {
 				
 				b_karakol = {}
 				b_korumdy = {}
-				b_cholpon_ata = {}
+				b_tyup = {}
+				b_jeti_oguz = {}
 				b_kyzyl_suu = {}
 				b_kaji_say = {}
 				b_jergalan = {}
 				b_ak_terek = {}
 			}
 		}
-		d_talas = {
-			color={ 148 191 59 }
+		d_naryn = {
+			color={ 142 145 100 }
 			color2={ 255 255 255 }
 			
-			capital = 1273 #Talas
+			capital = 1274 #Naryn
 
-			c_toktogul = {
-				color={ 56 146 153 }
-				color2={ 255 255 255 }
-				
-				b_toktogul = {}
-				b_karakol_2 = {}
-				b_torkent = {}
-				b_toluk = {}
-				b_uch_terek = {}
-				b_beshtash = {}
-				b_kara_jygach = {}
-			}
 			c_talas = {
 				color={ 118 169 71 }
 				color2={ 255 255 255 }
@@ -963,60 +1012,50 @@ e_turkestan = {
 				b_kalba_2 = {}
 				b_kopuro_bazar = {}
 				b_bakai_ata = {}
+				b_kepyure = {}
+			}
+			c_naryn = {
+				color={ 154 213 167 }
+				color2={ 255 255 255 }
+				
+				b_naryn = {}
+				b_ak_muz = {}
+				b_tash_bashat = {}
+				b_baetov = {}
+				b_bash_karakain = {}
+				b_kosh_dobo = {}
+				b_jerge_tal = {}
+			}
+			c_kochkor = {
+				color={ 113 195 202 }
+				color2={ 255 255 255 }
+				
+				b_kochkor = {}
+				b_epkin = {}
+				b_kum_dobo = {}
+				b_kyzart = {}
+				b_bashkaingdy = {}
+				b_chaek = {}
 				b_suusamyr = {}
 			}
-		}
-		d_ili = {
-			color={ 145 140 89 }
-			color2={ 255 255 255 }
-			
-			capital = 1210 #Ili
-
-			c_ili = {
-				color={ 117 195 13 }
+			c_toktogul = {
+				color={ 56 146 153 }
 				color2={ 255 255 255 }
 				
-				holy_site = ak_jeng
-				holy_site = ak_jeng_reformed
-
-				
-				b_ghulja = {}
-				b_kunes = {}
-				b_qorghas = {}
-				b_chapchal_shibe = {}
-				b_gongliu = {}
-				b_toqquztara = {}
-				b_nilqa = {}
-			}
-			c_tekes = {
-				color={ 135 188 130 }
-				color2={ 255 255 255 }
-				
-				b_tekes = {}
-				b_koksu = {}
-				b_qilewuzeke = {}
-				b_qilaketiereke = {}
-				b_karadala = {}
-				b_karatokay = {}
-				b_hujierte = {}
-			}
-			c_zharkent = {
-				color={ 111 139 68 }
-				color2={ 255 255 255 }
-				
-				b_zharkent = {}
-				b_koktal = {}
-				b_horgos = {}
-				b_shelek = {}
-				b_shonzy = {}
-				b_kegen = {}
-				b_narynkol = {}
+				b_toktogul = {}
+				b_karakol_2 = {}
+				b_kazarman = {}
+				b_torkent = {}
+				b_toluk = {}
+				b_uch_terek = {}
+				b_beshtash = {}
+				b_kara_jygach = {}
 			}
 		}
 	}
 		
 	k_uzbekistan = {
-		color={ 45 220 85 }
+		color={ 35 220 75 }
 		color2 = { 255 255 255 }
 		
 		capital = 953 #Tashkent
@@ -1045,17 +1084,17 @@ e_turkestan = {
 				b_gazalkent = {}
 				b_angren = {}
 			}
-			c_khujand = {
-				color={ 128 204 194 }
+			c_jizzakh = {
+				color={ 89 250 175 }
 				color2={ 255 255 255 }
 				
-				b_khujand = {}
-				b_konibodom = {}
-				b_isfana = {}
-				b_nov = {}
-				b_makhram = {}
-				b_histevarz = {}
-				b_margun = {}
+				b_jizzakh = {}
+				b_zafarabad = {}
+				b_gallaorol = {}
+				b_pakhtakor = {}
+				b_dustlik = {}
+				b_gagarin_2 = {}
+				b_yangikishlak = {}
 			}
 			c_gulistan = {
 				color={ 72 154 169 }
@@ -1071,7 +1110,7 @@ e_turkestan = {
 			}
 		}
 		d_bukhara = {
-			color={ 94 224 150 }
+			color={ 94 224 180 }
 			color2={ 255 255 255 }
 			
 			capital = 951 #Bukhara
@@ -1138,7 +1177,7 @@ e_turkestan = {
 			}
 		}
 		d_samarkand = {
-			color={ 76 189 178 }
+			color={ 76 159 158 }
 			color2={ 255 255 255 }
 			
 			capital = 952 #Samarkand
@@ -1189,18 +1228,6 @@ e_turkestan = {
 				b_shurchi = {}
 				b_talashkan = {}
 			}
-			c_jizzakh = {
-				color={ 89 250 175 }
-				color2={ 255 255 255 }
-				
-				b_jizzakh = {}
-				b_zafarabad = {}
-				b_gallaorol = {}
-				b_pakhtakor = {}
-				b_dustlik = {}
-				b_gagarin_2 = {}
-				b_yangikishlak = {}
-			}
 			c_shahrisabz = {
 				color={ 75 174 203 }
 				color2={ 255 255 255 }
@@ -1214,45 +1241,29 @@ e_turkestan = {
 				b_guzar = {}
 			}
 		}
-		d_fergana = {
-			color={ 57 227 186 }
+	}
+	k_fergana = {
+		color={ 75 150 56 }
+		color2 = { 255 255 255 }
+		
+		capital = 1270 #Andijan
+		
+		d_andijan = {
+			color={ 60 185 20 }
 			color2={ 255 255 255 }
 			
-			capital = 956 #Fergana
+			capital = 1270 #Andijan
 
-			c_fergana = {
-				color={ 35 243 143 }
-				color2={ 255 255 255 }
-				
-				b_fergana = {}
-				b_kyzyl_kiya = {}
-				b_altyaryk = {}
-				b_margilan = {}
-				b_kuva = {}
-				b_kadamjay = {}
-				b_austan = {}
-			}
-			c_kokand = {
-				color={ 40 213 187 }
-				color2={ 255 255 255 }
-				
-				b_kokand = {}
-				b_rishtan = {}
-				b_yaypan = {}
-				b_besharyk = {}
-				b_ravon = {}
-				b_batken = {}
-				b_kudash = {}
-			}
 			c_andijan = {
 				color={ 58 200 136 }
 				color2={ 255 255 255 }
 				
 				b_andijan = {}
+				b_kyzyl_kiya = {}
 				b_asaka = {}
 				b_shakhrikhan = {}
-				b_jalal_abad = {}
-				b_bazar_korgon = {}
+				b_paytug = {}
+				b_khakkulabad = {}
 				b_khanabad = {}
 				b_pahtaobod = {}
 			}
@@ -1261,12 +1272,24 @@ e_turkestan = {
 				color2={ 255 255 255 }
 				
 				b_osh = {}
-				b_uzgen = {}
+				b_kara_suu = {}
 				b_nookat = {}
-				b_kara_kuldja = {}
+				b_ishkavan = {}
 				b_gulcha = {}
 				b_kurshab = {}
 				b_kommunizm = {}
+			}
+			c_jalal_abad = {
+				color={ 21 157 121 }
+				color2={ 255 255 255 }
+				
+				b_jalal_abad = {}
+				b_uzgen = {}
+				b_bazar_korgon = {}
+				b_kara_kuldja = {}
+				b_arslanbob = {}
+				b_suzak = {}
+				b_massy = {}
 			}
 			c_namangan = {
 				color={ 13 149 155 }
@@ -1279,6 +1302,49 @@ e_turkestan = {
 				b_yanikurgon = {}
 				b_pop = {}
 				b_chadak = {}
+			}
+		}
+		d_fergana = {
+			color={ 57 227 86 }
+			color2={ 255 255 255 }
+			
+			capital = 956 #Fergana
+
+			c_fergana = {
+				color={ 35 243 143 }
+				color2={ 255 255 255 }
+				
+				b_fergana = {}
+				b_margilan = {}
+				b_kuvasoy = {}
+				b_altyaryk = {}
+				b_kuva = {}
+				b_kadamjay = {}
+				b_austan = {}
+			}
+			c_khujand = {
+				color={ 128 204 194 }
+				color2={ 255 255 255 }
+				
+				b_khujand = {}
+				b_konibodom = {}
+				b_isfana = {}
+				b_nov = {}
+				b_makhram = {}
+				b_histevarz = {}
+				b_margun = {}
+			}
+			c_kokand = {
+				color={ 40 213 187 }
+				color2={ 255 255 255 }
+				
+				b_kokand = {}
+				b_rishtan = {}
+				b_yaypan = {}
+				b_besharyk = {}
+				b_ravon = {}
+				b_batken = {}
+				b_kudash = {}
 			}
 		}
 	}
@@ -1387,7 +1453,7 @@ e_turkestan = {
 				b_uqturpan = {}
 				b_qizil = {}
 				b_xayar = {}
-				b_onsu = {}
+				b_onsu_2 = {}
 			}
 			c_toqsu = {
 				color={ 159 121 76 }
@@ -1400,6 +1466,18 @@ e_turkestan = {
 				b_kuqa = {}
 				b_reste = {}
 				b_saqsaq = {}
+			}
+			c_onsu = {
+				color={ 105 50 72 }
+				color2={ 255 255 255 }
+				
+				b_onsu = {}
+				b_tumshuq = {}
+				b_uchturpan = {}
+				b_jiamsu = {}
+				b_aheya = {}
+				b_tuofuhan = {}
+				b_imam = {}
 			}
 		}
 		d_khotan = {
@@ -1486,6 +1564,13 @@ e_turkestan = {
 				b_tomolog = {}
 				b_lop_nur = {}
 				b_qimantag = {}
+				b_shimiankuang = {}
+				b_yitunbulakezhen = {}
+				b_tiemulike = {}
+				b_mangaizhen = {}
+				b_qimantage = {}
+				b_dongluk = {}
+				b_hongliugou = {}
 			}
 			c_qarqan = {
 				color={ 105 195 98 }
@@ -1499,17 +1584,18 @@ e_turkestan = {
 				b_aoyiya_yilake = {}
 				b_qiongkule = {}
 			}
-			c_luobu_po = {
+			c_lopnur = {
 				color={ 156 156 25 }
 				color2={ 255 255 255 }
 				
-				b_shimiankuang = {}
-				b_yitunbulakezhen = {}
-				b_tiemulike = {}
-				b_mangaizhen = {}
-				b_qimantage = {}
-				b_dongluk = {}
-				b_hongliugou = {}
+				b_bagrax = {}
+				b_lopnur = {}
+				b_xingping = {}
+				b_bumbut = {}
+				b_tuanjie = {}
+				b_tarim = {}
+				b_qakannur = {}
+				b_qekinnur = {}
 			}
 		}
 	}
