@@ -81,6 +81,7 @@
 	intrigue=1
 	learning=3
 	father=2071106
+	mother=2071178
 	2615.12.30={birth=yes}
 }
 2071005={
@@ -1158,6 +1159,7 @@
 	culture=tajik
 	religion=nizami
 	father=2071106
+	mother=2071178
 	2606.9.7={birth=yes}
 	2623.1.1={add_spouse=2071098}
 	2665.11.18={death=yes}
@@ -1701,6 +1703,7 @@
 	trait=charitable
 	trait=diligent
 	trait=cynical
+	father=2071179
 	2638.11.10={birth=yes}
 }
 2071154={
@@ -1751,6 +1754,7 @@
 	trait=groomed
 	trait=administrator
 	trait=gluttonous
+	father=2071175
 	2634.3.7={birth=yes}
 }
 2071157={
@@ -1929,4 +1933,67 @@
 	religion=zimiran
 	2627.10.6={birth=yes}
 	2646.1.1={add_spouse=2071152}
+}
+2071175={
+	name="Salar"
+	dynasty=2070099 #Eskandari
+	culture=persian
+	religion=shiite
+	father=2071176
+	2601.2.1={birth=yes}
+	2651.11.21={death=yes}
+}
+2071176={
+	name="Hormoz"
+	dynasty=2070099 #Eskandari
+	culture=persian
+	religion=shiite
+	father=2071177
+	2574.1.21={birth=yes}
+	2622.9.24={death=yes}
+}
+2071177={
+	name="Eskandar"
+	dynasty=2070099 #Eskandari
+	culture=persian
+	religion=shiite
+	2549.3.30={birth=yes}
+	2603.4.26={death=yes}
+}
+2071178={
+	name="Farangis"
+	female=yes
+	dynasty=2070099 #Eskandari
+	culture=persian
+	religion=shiite
+	father=2071177
+	2581.7.19={birth=yes}
+	2601.1.1={add_spouse=2071106}
+	2644.11.15={death=yes}
+}
+2071179={
+	name="Zalaan"
+	dynasty=2085047 #Nurzai
+	culture=pashtun
+	religion=deobandi
+	2611.11.1={birth=yes}
+	2651.2.16={death=yes}
+}
+2071180={
+	name="Gulalai"
+	female=yes
+	dynasty=2085047 #Nurzai
+	culture=pashtun
+	religion=deobandi
+	father=2071179
+	2641.12.8={birth=yes}
+}
+2071181={
+	name="Tor Pekai"
+	female=yes
+	dynasty=2085047 #Nurzai
+	culture=pashtun
+	religion=deobandi
+	father=2071179
+	2643.8.6={birth=yes}
 }

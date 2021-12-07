@@ -80,7 +80,19 @@
 1001058 = { name="Salomons" culture=southerner }
 1001059 = { name="Faudel-Philips" culture=southerner }
 1001060 = { name="Woolf" culture=southerner }
-1001061 = { name="Hoare" culture=southerner }
+1001061 = { name="Hoare" culture=southerner 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1001062 = { name="Welch" culture=southerner }
 1001063 = { name="Marshall" culture=southerner }
 1001064 = { name="Wakefield" culture=southerner }
@@ -379,7 +391,20 @@
 }
 1101007 = { name="Ondolindë" culture=westerner used_for_random = no }
 1101008 = { name="Gimileth" culture=westerner used_for_random = no }
-1101009 = { name="Gurthang" culture=westerner used_for_random = no }
+1101009 = { name="Gurthang" culture=westerner used_for_random = no 
+	coat_of_arms = { 
+		religion = valinorist
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1101010 = { name="Theta" culture=westerner used_for_random = no }
 1101011 = { name="Carne" culture=westerner 
 	coat_of_arms = { 
@@ -893,7 +918,19 @@
 1401005 = { name="Shimmin" culture=manx }
 1401006 = { name="Cannell" culture=manx }
 1401007 = { name="Kewish" culture=manx }
-1401008 = { name="Faragher" culture=manx }
+1401008 = { name="Faragher" culture=manx 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1401009 = { name="Corkill" culture=manx }
 1401010 = { name="Kennaugh" culture=manx }
 1401011 = { name="Kissack" culture=manx }
@@ -2541,12 +2578,74 @@
 2009166 = { name="Vattavayalil" culture=malayali }
 
 1801000 = { name="Byron-Englesea" culture=scouse }
-1801001 = { name="Harrison" culture=scouse }
-1801002 = { name="Ganumaga" culture=scouse used_for_random = no}
-1801003 = { name="Baker" culture=scouse}
+1801001 = { name="Harrison" culture=scouse 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1801002 = { name="Ganumaga" culture=scouse used_for_random = no
+	coat_of_arms = { 
+		religion = glorian
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1801003 = { name="Baker" culture=scouse
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1801004 = { name="Shaffer" culture=scouse}
-1801005 = { name="Ableson" culture=scouse}
-1801006 = { name="Lees" culture=scouse }
+1801005 = { name="Ableson" culture=scouse
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1801006 = { name="Lees" culture=scouse 
+	coat_of_arms = {
+		template = 0
+		religion = glorian
+		layer = {
+			texture = 15
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1801007 = { name="Crompton" culture=scouse }
 1801008 = { name="Bradshaw" culture=scouse }
 1801009 = { name="Atherton" culture=scouse }
@@ -4509,7 +4608,19 @@
 1901002 = { name="Robertson" culture=lowlander }
 1901003 = { name="Scott" culture=lowlander }
 1901004 = { name="Carpenter" culture=lowlander }
-1901005 = { name="Stewart" culture=lowlander }
+1901005 = { name="Stewart" culture=lowlander 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1901006 = { name="Volant" culture=lowlander }
 1901007 = { name="Cox" culture=lowlander }
 1901008 = { name="Moray" culture=lowlander }
@@ -7926,7 +8037,20 @@ coat_of_arms = {
 		}
 	}
 }
-2001001 = { name="Summerisle" culture=highlander used_for_random = no}
+2001001 = { name="Summerisle" culture=highlander used_for_random = no
+	coat_of_arms = { 
+		religion = glorian
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2001002 = { name="Malcolm" culture=highlander }
 2001003 = { name="Mackenzie" culture=highlander }
 2001004 = { name="Mackay" culture=highlander }
@@ -17056,6 +17180,8 @@ coat_of_arms = {
 2040142 = { name="Orazalin" culture=kazakh }
 2040143 = { name="Nurmagambetov" culture=kazakh }
 2040144 = { name="Syzdyqov" culture=kazakh }
+2040145 = { name="Derbisáli" culture=kazakh }
+2040146 = { name="Kemel" culture=kazakh }
 
 2041001 = { name="Kürräýew" culture=turkmen }
 2041002 = { name="Gapurow" culture=turkmen }
@@ -19298,7 +19424,20 @@ coat_of_arms = {
 		}
 	}
 }
-2057010 = { name="Eshref" culture=rumelian }
+2057010 = { name="Eshref" culture=rumelian 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2057011 = { name="Yilmaz" culture=rumelian }
 2057012 = { name="Çelik" culture=rumelian }
 2057013 = { name="Öztürk" culture=rumelian }
