@@ -4,6 +4,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 1849;1850;portage;349;-1;-1;-1;-1;Elbe-Kiel connectivity
 1790;1864;portage;458;-1;-1;-1;-1;Rhine-Danube connectivity
 23;90;sea;1719;-1;-1;-1;-1;Belfast-Galloway
+508;510;sea;1770;-1;-1;-1;-1;Akershus-Vestfold
 1453;3081;sea;1775;-1;-1;-1;-1;Mukha-Tadjoura
 25;100;sea;1719;-1;-1;-1;-1;Belfast-Argyll
 377;394;sea;1786;-1;-1;-1;-1;Rugen-Stralsund
@@ -12,7 +13,8 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 559;558;sea;1665;-1;-1;-1;-1;Turku-Aland
 335;334;sea;1678;-1;-1;-1;-1;Zeeland-Holland
 335;338;sea;1678;-1;-1;-1;-1;Zeeland-North Brabant
-333;342;sea;1692;-1;-1;-1;-1;-North Holland-Friesland
+333;342;sea;1692;-1;-1;-1;-1;North Holland-Friesland
+388;385;sea;1786;-1;-1;-1;-1;Fyn-Aarhus
 388;386;sea;1786;-1;-1;-1;-1;Fyn-Trekantomradet
 388;390;sea;1786;-1;-1;-1;-1;Fyn-Lolland
 388;387;sea;1786;-1;-1;-1;-1;Fyn-Aabenraa
@@ -30,6 +32,10 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 102;98;sea;1683;-1;-1;-1;-1;Inner Hebrides-Ross
 102;96;sea;1683;-1;-1;-1;-1;Inner Hebrides-Inverness
 49;48;sea;1689;-1;-1;-1;-1;Hampshire-Wight
+375;452;sea;1792;-1;-1;-1;-1;Ludwigshafen-Karlsruhe
+375;450;sea;1792;-1;-1;-1;-1;Ludwigshafen-Mannheim
+375;371;sea;1792;-1;-1;-1;-1;Ludwigshafen-Darmstadt
+374;371;sea;1792;-1;-1;-1;-1;Mainz-Darmstadt
 225;1050;sea;1644;-1;-1;-1;-1;Gibraltar-Tetwan
 595;1104;sea;1722;-1;-1;-1;-1;Messina-Calabria
 1016;603;sea;1657;-1;-1;-1;-1;Kerch-Taman
@@ -45,6 +51,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 84;120;sea;1674;-1;-1;-1;-1;Euboea-Athina
 84;121;sea;1674;-1;-1;-1;-1;Euboea-Phthiotis
 84;3155;sea;1674;-1;-1;-1;-1;Euboea-Larissa
+84;135;sea;1674;-1;-1;-1;-1;Euboea-Karditsa
 84;3158;sea;1674;-1;-1;-1;-1;Euboea-Boeotia
 84;77;sea;1671;-1;-1;-1;-1;Euboea-Cyclades
 148;283;sea;1675;-1;-1;-1;-1;Samos-Aydin
@@ -90,7 +97,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 700;737;major_river;1830;-1;-1;-1;-1;Cherepovets-Vologda
 168;167;major_river;1844;-1;-1;-1;-1;Setubal-Lisboa
 176;172;major_river;1844;-1;-1;-1;-1;Leiria-Santarem
-177;173;major_river;1844;-1;-1;-1;-1;Castelo Branco-Portalegre
+177;172;major_river;1844;-1;-1;-1;-1;Castelo Branco-Santarem
 1150;1140;major_river;1888;-1;-1;-1;-1;Padua-Ferrara
 1137;1151;major_river;1888;-1;-1;-1;-1;Modena-Verona
 666;547;major_river;1907;-1;-1;-1;-1;Kingisepp-Kohtlajarve
@@ -104,8 +111,8 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 349;350;major_river;1850;-1;-1;-1;-1;Hamburg-Luneburg
 392;350;major_river;1851;-1;-1;-1;-1;Schwerin-Luneburg
 414;350;major_river;1851;-1;-1;-1;-1;Prignitz-Luneburg
-361;350;major_river;1851;-1;-1;-1;-1;Prignitz-Altmark
-409;350;major_river;1851;-1;-1;-1;-1;Havelland-Altmark
+414;361;major_river;1851;-1;-1;-1;-1;Prignitz-Altmark
+409;361;major_river;1851;-1;-1;-1;-1;Havelland-Altmark
 395;362;major_river;1852;-1;-1;-1;-1;Wittenberg-Magdeburg
 395;398;major_river;1852;-1;-1;-1;-1;Wittenberg-Harz
 395;408;major_river;1852;-1;-1;-1;-1;Wittenberg-Halle
@@ -149,10 +156,13 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 338;336;major_river;1847;-1;-1;-1;-1;North Brabant-Utrecht
 339;336;major_river;1847;-1;-1;-1;-1;Limburg-Utrecht
 557;337;major_river;1847;-1;-1;-1;-1;Krefeld-Gelderland
+557;341;major_river;1847;-1;-1;-1;-1;Krefeld-Overijssel
+557;358;major_river;1847;-1;-1;-1;-1;Krefeld-Munster
 557;363;major_river;1847;-1;-1;-1;-1;Krefeld-Ruhr
 366;555;major_river;1848;-1;-1;-1;-1;Dusseldorf-Cologne
 366;365;major_river;1848;-1;-1;-1;-1;Dusseldorf-Bonn
 379;372;major_river;1848;-1;-1;-1;-1;Koblenz-Wiesbaden
+374;372;major_river;1848;-1;-1;-1;-1;Mainz-Wiesbaden
 379;373;major_river;1848;-1;-1;-1;-1;Koblenz-Westerwald
 465;458;major_river;1864;-1;-1;-1;-1;Munich-Nuremberg
 463;458;major_river;1864;-1;-1;-1;-1;Landshut-Nuremberg
@@ -172,6 +182,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 860;681;major_river;1837;-1;-1;-1;-1;Navapolatsk-Polatsk
 680;681;major_river;1837;-1;-1;-1;-1;Viciebsk-Polatsk
 673;699;major_river;1833;-1;-1;-1;-1;Kirovsk-Tikhvin
+673;661;major_river;1833;-1;-1;-1;-1;Kirovsk-Kresttsy
 674;661;major_river;1833;-1;-1;-1;-1;Veliky Novgorod-Kresttsy
 677;661;major_river;1834;-1;-1;-1;-1;Staraya Russa-Kresttsy
 677;662;major_river;1834;-1;-1;-1;-1;Staraya Russa-Ostashkov
@@ -180,6 +191,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 671;740;major_river;1838;-1;-1;-1;-1;Arkhangelsk-Plesetsk
 671;670;major_river;1838;-1;-1;-1;-1;Arkhangelsk-Severodvinsk
 756;740;major_river;1838;-1;-1;-1;-1;Verkhnetoyemskiy-Plesetsk
+756;745;major_river;1840;-1;-1;-1;-1;Verkhnetoyemskiy-Veliky Ustyug
 756;744;major_river;1841;-1;-1;-1;-1;Verkhnetoyemskiy-Kotlas
 744;745;major_river;1840;-1;-1;-1;-1;Kotlas-Veliky Ustyug
 1992;2012;major_river;1871;-1;-1;-1;-1;
@@ -202,19 +214,19 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 2025;2027;major_river;1880;-1;-1;-1;-1;
 2025;2026;major_river;1880;-1;-1;-1;-1;
 2025;2042;major_river;1881;-1;-1;-1;-1;
-2038;2040;major_river;1881;-1;-1;-1;-1;
 2035;2040;major_river;1881;-1;-1;-1;-1;
-2038;2044;major_river;1881;-1;-1;-1;-1;
+2035;2044;major_river;1881;-1;-1;-1;-1;
 785;602;major_river;1801;-1;-1;-1;-1;
 785;791;major_river;1801;-1;-1;-1;-1;
 790;794;major_river;1802;-1;-1;-1;-1;
+789;794;major_river;1802;-1;-1;-1;-1;
 789;795;major_river;1803;-1;-1;-1;-1;
-789;813;major_river;1803;-1;-1;-1;-1;
+789;817;major_river;1803;-1;-1;-1;-1;
 873;817;major_river;1803;-1;-1;-1;-1;
 871;818;major_river;1804;-1;-1;-1;-1;
 870;820;major_river;1804;-1;-1;-1-1;
 819;820;major_river;1805;-1;-1;-1;-1;
-444;820;major_river;1805;-1;-1;-1;-1;
+819;820;major_river;1805;-1;-1;-1;-1;
 444;824;major_river;1805;-1;-1;-1;-1;
 444;850;major_river;1807;-1;-1;-1;-1;
 851;850;major_river;1807;-1;-1;-1;-1;
@@ -222,10 +234,11 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 658;656;major_river;1821;-1;-1;-1;-1;
 658;655;major_river;1927;-1;-1;-1;-1;
 655;656;major_river;1821;-1;-1;-1;-1;
-648;656;major_river;1821;-1;-1;-1;-1;
+648;656;major_river;1821;-1;-1;-1;-1;Dmitrov-Kimry
 690;656;major_river;1820;-1;-1;-1;-1;
 690;657;major_river;1820;-1;-1;-1;-1;
-648;654;major_river;1922;-1;-1;-1;-1;
+648;654;major_river;1922;-1;-1;-1;-1;Dmitrov-Zelenograd
+648;655;major_river;1922;-1;-1;-1;-1;Dmitrov-Tver
 652;654;major_river;1922;-1;-1;-1;-1;
 652;653;major_river;1824;-1;-1;-1;-1;
 694;653;major_river;1824;-1;-1;-1;-1;
@@ -395,6 +408,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 1231;1208;major_river;1919;-1;-1;-1;-1;Barnaul-Berdsk
 1231;1309;major_river;1919;-1;-1;-1;-1;Barnaul-Novoaltaysk
 997;999;major_river;1917;-1;-1;-1;-1;Tomsk-Yurga
+997;1204;major_river;1917;-1;-1;-1;-1;Tomsk-Kemerovo
 997;998;major_river;1876;-1;-1;-1;-1;Tomsk-Bely Yar
 1205;998;major_river;1925;-1;-1;-1;-1;Mariinsk-Bely Yar
 3021;3030;major_river;1882;-1;-1;-1;-1;Thatta-Sujawal
@@ -409,8 +423,8 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 3025;3027;major_river;1884;-1;-1;-1;-1;Jacobabad-Daharki
 2608;3028;major_river;1885;-1;-1;-1;-1;Rajanpur-Rahim Yar Khan
 2608;2626;major_river;1885;-1;-1;-1;-1;Rajanpur-Khanpur
-2608;2770;major_river;1885;-1;-1;-1;-1;Rajanpur-Muzaffarabad
-2607;2770;major_river;1886;-1;-1;-1;-1;Dera Ghazi Khan-Muzaffarabad
+2608;2616;major_river;1885;-1;-1;-1;-1;Rajanpur-Muzaffargarh
+2607;2616;major_river;1886;-1;-1;-1;-1;Dera Ghazi Khan-Muzaffargarh
 2607;2615;major_river;1886;-1;-1;-1;-1;Dera Ghazi Khan-Layyah
 2612;2614;major_river;1887;-1;-1;-1;-1;Dera Ismail Khan-Bhakkar
 2612;2606;major_river;1887;-1;-1;-1;-1;Dera Ismail Khan-Mianwali
@@ -489,6 +503,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 337;341;major_river;1789;-1;-1;-1;-1;Gelderland-Overijssel
 325;556;major_river;1788;-1;-1;-1;-1;Loon-Aachen
 339;556;major_river;1788;-1;-1;-1;-1;Limburg-Aachen
+339;557;major_river;1788;-1;-1;-1;-1;Limburg-Krefeld
 2851;2854;major_river;2359;-1;-1;-1;-1;Balangir-Kalahandi
 2851;2978;major_river;2359;-1;-1;-1;-1;Balangir-Kandhamal
 2850;2978;major_river;2359;-1;-1;-1;-1;Bargarh-Kandhamal
