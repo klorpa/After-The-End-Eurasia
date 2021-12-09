@@ -144,6 +144,7 @@
 	religion=nizami
 	trait=sayyid
 	father=1506011
+	mother=1506074
 	2506.1.2={birth=yes}
 	2549.12.3={death=yes}
 }
@@ -163,6 +164,7 @@
 	religion=nizami
 	trait=sayyid
 	father=1506011
+	mother=1506074
 	2504.8.12={birth=yes}
 	2572.2.3={death=yes}
 }
@@ -737,4 +739,29 @@
 	father=1506070
 	2601.2.24={birth=yes}
 	2646.1.23={death=yes}
+}
+1506072={
+	name="Xudoyor"
+	dynasty=2112136 #Qosimjon 
+	culture=uzbek
+	religion=nizami
+	trait=gamer
+	2624.12.5={birth=yes}
+}
+1506073={
+	name="Fayzali"
+	dynasty=2069105 #Osronov 
+	culture=tajik
+	religion=nizami
+	2637.3.29={birth=yes}
+}
+1506074={
+	name="Dinara"
+	female=yes
+	dynasty=0
+	culture=kyrgyz
+	religion=zimiran
+	2485.3.30={birth=yes}
+	2501.1.1={add_spouse=1506011}
+	2527.3.22={death=yes}
 }
