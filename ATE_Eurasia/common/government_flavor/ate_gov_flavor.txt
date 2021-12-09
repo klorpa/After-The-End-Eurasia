@@ -5,7 +5,6 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = ghazi_government
-			government = diwan_government
 		}
 		NOR = { has_law = succ_gavelkind has_law = succ_elective_gavelkind }
 		NOT = { tier = EMPEROR }
@@ -20,7 +19,6 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = ghazi_government
-			government = diwan_government
 		}
 		OR = { has_law = succ_gavelkind has_law = succ_elective_gavelkind }
 		NOT = { tier = EMPEROR }
@@ -29,15 +27,14 @@ government_flavor = {
 }
 
 government_flavor = {
-	name = gov_exalted_ghazi_state
+	name = gov_exalted_diwan_state
 	graphics = GFX_evt_emissary_arabic
 	priority = 2
 	trigger = {
 		OR = {
-			government = ghazi_government
 			government = diwan_government
 		}
-		tier = EMPEROR
+		higher_tier_than = DUKE
 		NOT = { has_landed_title = k_morroco }
 	}
 }

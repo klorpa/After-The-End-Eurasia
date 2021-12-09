@@ -240,6 +240,10 @@ succession_laws = {
 					}
 				}
 				NAND = {
+					government = diwan_government
+					religion_group = muslim
+				}
+				NAND = {
 					government = cenobitic_government
 					religion = insular
 				}
@@ -473,7 +477,13 @@ succession_laws = {
 				
                 OR = {
                     NOR = {
-						religion_group = muslim
+						AND = {
+							religion_group = muslim
+							OR = {
+								government = ghazi_government
+								government = ibadi_imamate
+							}
+						}
 						religion_group = indian_group 
 					}
                     is_patrician = yes
@@ -513,6 +523,10 @@ succession_laws = {
 					government = pirate_government
 					is_patrician = yes
 					independent = no
+				}
+				AND = {
+					government = diwan_government
+					religion_group = muslim
 				}
 			}
 			OR = {
