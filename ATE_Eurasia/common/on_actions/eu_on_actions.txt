@@ -12,6 +12,13 @@ on_startup = {
 		gov.013 #Muslim government fix pt2
 	}
 }
+on_yearly_pulse = {
+	random_events = {
+		150 = jedintsvo.8 # Booming saint tomb burial site
+		150 = jedintsvo.9 # Inspired by Local hero
+		150 = jedintsvo.10 # Pillage Local Hero Burial
+	}
+}
 on_bi_yearly_pulse = {
 	events = {
 		jewish.15 # Breslover Hitboddedut
@@ -30,6 +37,7 @@ on_death = {
 		ottoman.47 #Getting the Sultan Han Trait upon Succession
 		britain.104 #Getting the Fount of Honour Trait upon Succession
 		shia.7 # Getting he Al-Waqil trait
+		jedintsvo.1
 		#adding shiva events
 	}
 }
@@ -53,5 +61,11 @@ on_birth = {
 on_adulthood = {
 	events = {
 		maintenance.5 #Madhab Dispensing (Ahlus Sunnah)
+	}
+}
+on_siege_over_winner = {
+	random_events = {
+		400 = 0 # Nothing happens
+		50 = jedintsvo.14 # Taking Hero Burial Site
 	}
 }

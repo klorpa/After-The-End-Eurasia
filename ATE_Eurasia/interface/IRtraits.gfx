@@ -532,4 +532,11 @@ spriteTypes = {
 		name = "GFX_ate_eurasia_trombone"
 		texturefile = "gfx/interface/artifacts/inventory/ate_eurasia_trombone.dds"
 	}
+	spriteType = {
+		name = "GFX_trait_partisan"
+		texturefile = "gfx/traits/partisan.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 }

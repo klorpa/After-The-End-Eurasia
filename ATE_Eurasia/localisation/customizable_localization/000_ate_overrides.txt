@@ -156,3 +156,49 @@ defined_text = {
 	}
 	#Copied from vanilla
 }
+
+defined_text = {
+	name = GetSaintReligionTitle
+
+	text = {
+		trigger = {
+			religion_group = christian
+		}
+		localisation_key = string_saint_in_heaven
+	}
+	text = {
+		trigger = {
+			religion_group = pagan_group
+		}
+		localisation_key = string_blessed_ancestor
+	}
+	text = {
+		trigger = {
+			religion = jedintsvo
+		}
+		localisation_key = string_partisan
+	}
+}
+
+defined_text = {
+	name = GetSaintViewTitle
+
+	text = {
+		trigger = {
+			religion_group = christian
+		}
+		localisation_key = string_saint_view_title_christian
+	}
+	text = {
+		trigger = {
+			religion_group = pagan_group
+		}
+		localisation_key = string_saint_view_title_pagan
+	}
+	text = {
+		trigger = {
+			religion = jedintsvo
+		}
+		localisation_key = string_saint_view_title_jedintsvo
+	}
+}
