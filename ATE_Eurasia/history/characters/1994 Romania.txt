@@ -137,7 +137,12 @@
 	mother=1994008
 	2640.9.3={birth=yes}
 	2659.11.8={add_spouse=1994000}
-	2660.3.9={trait=pregnant}
+	2665.12.14={
+		effect={
+			c_1994000={
+				ROOT={impregnate=PREV}}
+		}
+	}
 	2690.1.1={death=yes}
 }
 1994010={

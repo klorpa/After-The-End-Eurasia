@@ -2317,7 +2317,7 @@
 	trait=sympathy_islam
 	give_nickname=nick_cigala
 	father=1861149
-	mother=2202115
+	mother=2202116
 	2656.5.14={birth=yes}
 }
 1861152={
@@ -2445,9 +2445,14 @@
 	dynasty=0
 	culture=ligurian
 	religion=chronicler
-	trait=pregnant
 	2633.5.31={birth=yes}
 	2655.1.1={add_spouse=1861163}
+	2665.12.14={
+		effect={
+			c_1861163={
+				ROOT={impregnate=PREV}}
+		}
+	}
 }
 1861165={
 	name="Roberto"

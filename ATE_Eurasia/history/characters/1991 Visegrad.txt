@@ -2130,7 +2130,7 @@
 	trait=drunkard
 	trait=shrewd
 	2610.1.2={birth=yes}
-	2650.1.2={employer=1991100}
+	2650.1.2={employer=1991106}
 	2680.1.1={death=yes}
 }
 
@@ -4110,5 +4110,429 @@
 	trait=depressed
 	2629.8.1={birth=yes}
 	2654.1.1={add_matrilineal_spouse=1991271
-		effect=add_lover=1991271}
+		effect={add_lover=1991271}}
+}
+1991274={
+	name="Marych" #Marych VII
+	dynasty=2130211 #Taczak
+	culture=wielkopolan
+	religion=mariavite
+	trait=tough_soldier
+	trait=strong
+	trait=familyperson
+	trait=socializer
+	trait=organizer
+	trait=slow
+	trait=clubfooted
+	father=1991275
+	2603.8.3={birth=yes}
+}
+1991275={
+	name="Marych" #Marych VI
+	dynasty=2130211 #Taczak
+	culture=wielkopolan
+	religion=mariavite
+	father=1991276
+	2579.3.27={birth=yes}
+	2640.12.12={death=yes}
+}
+1991276={
+	name="Marych" #Marych V
+	dynasty=2130211 #Taczak
+	culture=wielkopolan
+	religion=mariavite
+	father=1991277
+	2554.7.22={birth=yes}
+	2612.8.29={death=yes}
+}
+1991277={
+	name="Marych" #Marych IV
+	dynasty=2130211 #Taczak
+	culture=wielkopolan
+	religion=mariavite
+	father=1991278
+	2529.9.8={birth=yes}
+	2575.6.23={death=yes}
+}
+1991278={
+	name="Marych" #Marych III
+	dynasty=2130211 #Taczak
+	culture=wielkopolan
+	religion=mariavite
+	father=1991279
+	2502.9.18={birth=yes}
+	2554.1.1={death=yes}
+}
+1991279={
+	name="Marych" #Marych II
+	dynasty=2130211 #Taczak
+	culture=wielkopolan
+	religion=mariavite
+	father=1991280
+	2474.7.25={birth=yes}
+	2503.12.3={death=yes}
+}
+1991280={
+	name="Marych" #Marych I
+	dynasty=2130211 #Taczak
+	culture=wielkopolan
+	religion=mariavite
+	2442.5.27={birth=yes}
+	2489.7.23={death=yes}
+}
+1991281={
+	name="Agnieszka" 
+	female=yes
+	dynasty=2130212 #Bamber
+	culture=ossi
+	religion=mariavite
+	2609.7.1={birth=yes
+		culture=wielkopolan}
+	2625.1.1={add_spouse=1991274}
+}
+1991282={
+	name="Ludwik" 
+	dynasty=2130211 #Taczak
+	culture=wielkopolan
+	religion=mariavite
+	father=1991274
+	mother=1991281
+	trait=twin
+	trait=misguided_warrior
+	trait=slow
+	trait=zealous
+	trait=kind
+	2626.5.5={birth=yes}
+}
+1991283={
+	name="Ludwika" 
+	female=yes
+	dynasty=2130211 #Taczak
+	culture=wielkopolan
+	religion=mariavite
+	father=1991274
+	mother=1991281
+	trait=twin
+	trait=intricate_webweaver
+	trait=clubfooted
+	trait=strong
+	2626.5.5={birth=yes}
+}
+1991284={
+	name="Otto" 
+	dynasty=2130211 #Taczak
+	culture=wielkopolan
+	religion=oasite
+	father=1991274
+	mother=1991281
+	trait=skilled_tactician
+	trait=homosexual
+	trait=strong
+	trait=cynical
+	trait=content
+	2633.8.21={birth=yes}
+}
+1991285={
+	name="Pelagia" 
+	female=yes
+	dynasty=2130211 #Taczak
+	culture=wielkopolan
+	religion=mariavite
+	father=1991274
+	mother=1991281
+	2631.11.25={birth=yes}
+}
+1991286={
+	name="Aniela" 
+	female=yes
+	dynasty=2130211 #Taczak
+	culture=wielkopolan
+	religion=mariavite
+	father=1991274
+	mother=1991281
+	2639.4.15={birth=yes}
+}
+1991287={
+	name="Lucyna" 
+	female=yes
+	dynasty=2130213 #Biziel
+	culture=wielkopolan
+	religion=mariavite
+	trait=thrifty_clerk
+	trait=physician
+	trait=scholar
+	trait=kind
+	trait=hard_pregnancy
+	2624.4.13={birth=yes}
+	2646.1.1={add_spouse=1991282}
+	2665.12.14={
+		effect={
+			c_1991282={
+				ROOT={impregnate=PREV}}
+		}
+	}
+}
+1991288={
+	name="Stanislaw" 
+	dynasty=2130211 #Taczak
+	culture=wielkopolan
+	religion=mariavite
+	father=1991282
+	mother=1991287
+	trait=thrifty_clerk
+	trait=shrewd
+	trait=heavy_infantry_leader
+	2647.1.20={birth=yes}
+}
+1991289={
+	name="Andrzej" 
+	dynasty=2130214 #Bagdasarian
+	culture=armenian
+	religion=oasite
+	trait=scholarly_theologian
+	trait=bisexual
+	trait=administrator
+	trait=gamer
+	trait=diligent
+	2632.8.25={birth=yes
+		culture=wielkopolan}
+	2649.1.1={add_spouse=1991284
+		effect={add_lover=1991284}}
+}
+1991290={
+	name="Mikolaj" 
+	dynasty=2130211 #Taczak
+	culture=khalkha
+	religion=oasite
+	trait=bisexual
+	trait=indulgent_wastrel
+	trait=reclusive
+	trait=shrewd
+	trait=adopted_child
+	father=1991284
+	mother=1991289
+	2650.4.28={birth=yes
+		culture=wielkopolan}
+}
+1991291={
+	name="Karolina" 
+	female=yes
+	dynasty=2130211 #Taczak
+	culture=wielkopolan
+	religion=oasite
+	trait=adopted_child
+	trait=playful
+	trait=haughty
+	father=1991284
+	mother=1991289
+	2652.8.1={birth=yes}
+}
+1991292={
+	name="Dawid" 
+	dynasty=2130215 #Lejszys
+	culture=finnish
+	religion=oasite
+	trait=martial_cleric
+	trait=dwarf
+	trait=robust
+	trait=diligent
+	trait=shy
+	trait=painter
+	2629.4.5={birth=yes
+		culture=wielkopolan}
+	2646.6.11={add_spouse=1991285}
+}
+1991293={
+	name="Czeslaw" 
+	dynasty=2130215 #Lejszys
+	culture=wielkopolan
+	religion=oasite
+	trait=charismatic_negotiator
+	father=1991292
+	mother=1991285
+	2647.1.11={birth=yes}
+}
+1991294={
+	name="Tadeusz" 
+	dynasty=2130215 #Lejszys
+	culture=wielkopolan
+	religion=oasite
+	trait=midas_touched
+	trait=dwarf
+	father=1991292
+	mother=1991285
+	2649.7.7={birth=yes}
+}
+1991295={
+	name="Fryc" 
+	dynasty=2130215 #Lejszys
+	culture=wielkopolan
+	religion=oasite
+	trait=willful
+	trait=curious
+	trait=quick
+	father=1991292
+	mother=1991285
+	2652.4.2={birth=yes}
+	2666.1.1={add_matrilineal_spouse=19911118}
+}
+1991296={
+	name="Kazimierz" 
+	dynasty=2130216 #Boniek
+	culture=wielkopolan
+	religion=mariavite
+	trait=thrifty_clerk
+	trait=socializer
+	trait=diligent
+	trait=wroth
+	trait=defensive_leader
+	trait=flat_terrain_leader
+	2610.3.28={birth=yes}
+	2631.1.1={add_spouse=1991297}
+}
+1991297={
+	name="Elžbieta" 
+	dynasty=2130217 #Rygielski
+	culture=wielkopolan
+	religion=coronite
+	female=yes
+	father=1991306
+	2609.8.14={birth=yes}
+}
+1991298={
+	name="Józef" 
+	dynasty=2130216 #Boniek
+	culture=wielkopolan
+	religion=mariavite
+	trait=skilled_tactician
+	trait=hunter
+	trait=honorable
+	father=1991296
+	mother=1991297
+	2632.1.17={birth=yes}
+	2657.1.1={add_spouse=1991286}
+}
+1991299={
+	name="Zawisza" 
+	dynasty=2130216 #Boniek
+	culture=wielkopolan
+	religion=mariavite
+	trait=grey_eminence
+	trait=duelist
+	trait=zealous
+	father=1991296
+	mother=1991297
+	2639.9.3={birth=yes}
+}
+1991300={
+	name="Aneta" 
+	female=yes
+	dynasty=2130216 #Boniek
+	culture=wielkopolan
+	religion=mariavite
+	trait=thrifty_clerk
+	trait=robust
+	trait=groomed
+	father=1991296
+	mother=1991297
+	2629.8.13={birth=yes}
+}
+1991301={
+	name="Zbigniew" 
+	dynasty=2130216 #Boniek
+	culture=wielkopolan
+	religion=mariavite
+	trait=haughty
+	father=1991298
+	mother=1991286
+	2658.5.16={birth=yes}
+}
+1991302={
+	name="Jan" 
+	dynasty=2130218 #Asnyk
+	culture=wielkopolan
+	religion=mariavite
+	trait=elusive_shadow
+	trait=scholar
+	trait=poet
+	trait=is_malnourished
+	father=1991303
+	2643.4.2={birth=yes}
+	2660.1.1={effect={add_claim=c_konin}}
+}
+1991303={
+	name="Stefan" 
+	dynasty=2130218 #Asnyk
+	culture=wielkopolan
+	religion=mariavite
+	2619.9.11={birth=yes}
+	2658.4.17={death=yes}
+}
+1991304={
+	name="Mikolaj" 
+	dynasty=2130217 #Rygielski
+	culture=wielkopolan
+	religion=mariavite
+	secret_religion=coronite
+	trait=martial_cleric
+	trait=ruthless
+	trait=scholar
+	trait=seducer
+	father=1991305
+	2628.12.25={birth=yes}
+}
+1991305={
+	name="Gracjan" 
+	dynasty=2130217 #Rygielski
+	culture=wielkopolan
+	religion=mariavite
+	father=1991306
+	2602.12.4={birth=yes}
+	2651.2.12={death=yes}
+}
+1991306={
+	name="Arnold" 
+	dynasty=2130217 #Rygielski
+	culture=wielkopolan
+	religion=mariavite
+	2579.1.9={birth=yes}
+	2632.3.6={death=yes}
+}
+1991307={
+	name="Edyta" 
+	female=yes
+	dynasty=0
+	culture=mazovian
+	religion=mariavite
+	trait=intricate_webweaver
+	trait=groomed
+	trait=musician
+	2629.11.14={birth=yes}
+	2652.1.1={add_spouse=1991304}
+}
+1991308={
+	name="Romuald" 
+	dynasty=2130217 #Rygielski
+	culture=wielkopolan
+	religion=mariavite
+	trait=groomed
+	trait=brooding
+	trait=idolizer
+	father=1991304
+	mother=1991307
+	2653.12.18={birth=yes}
+	2660.1.1={employer=19911055}
+}
+1991309={
+	name="Krzysztof" 
+	dynasty=2130217 #Rygielski
+	culture=mazovian
+	religion=mariavite
+	trait=haughty
+	father=1991304
+	mother=1991307
+	employer=19911055
+	guardian=19911055
+	2662.6.20={birth=yes}
+	2660.1.1={employer=19911055}
 }
