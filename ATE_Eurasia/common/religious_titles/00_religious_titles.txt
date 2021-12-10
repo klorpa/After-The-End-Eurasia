@@ -226,7 +226,7 @@ title_archierus = {
 	allow = {
 		religion = pravoslavie
 		is_theocracy = yes
-		d_pravoslavie = {
+		k_pravoslavie = {
 			holder_scope = {
 				is_within_diplo_range = ROOT
 			}
@@ -236,7 +236,7 @@ title_archierus = {
 			top_liege = {
 				any_vassal = {
 					any_claim = {
-						title = d_pravoslavie
+						title = k_pravoslavie
 					}
 				}
 			}
