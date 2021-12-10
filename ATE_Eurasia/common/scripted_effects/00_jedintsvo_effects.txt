@@ -233,33 +233,74 @@ deciding_upon_hero_effect = {
         modifier = {
             factor = 3
 			AND = {
-				religion = jedintsvo
+				religion = jedinstvo
 				NOT = {
-					has_global_flag = jedintsvo_hero
+					has_global_flag = jedinstvo_hero
 				}
 			}
+        }
+		modifier = {
+            factor = 10
+            event_target:hero_person = {
+                check_variable = { which = jedinstvo_victory value = 1 }
+            }
+        }
+		modifier = {
+            factor = 10
+            event_target:hero_person = {
+                check_variable = { which = jedinstvo_victory value = 2 }
+            }
+        }
+		modifier = {
+            factor = 10
+            event_target:hero_person = {
+                check_variable = { which = jedinstvo_victory value = 3 }
+            }
+        }
+		modifier = {
+            factor = 10
+            event_target:hero_person = {
+                check_variable = { which = jedinstvo_victory value = 4 }
+            }
+        }
+		modifier = {
+            factor = 10
+            event_target:hero_person = {
+                check_variable = { which = jedinstvo_victory value = 5 }
+            }
         }
         if = {
 			limit = {
 				is_landed = yes
 			}
 			random_realm_province = {
-				province_event = { id = jedintsvo.2 }
+				province_event = { id = jedinstvo.2 }
 			}
 		}
 		else = {
 			liege = {
 				random_realm_province = {
-					province_event = { id = jedintsvo.2 }
+					province_event = { id = jedinstvo.2 }
 				}
 			}
 		}
         change_variable = { which = global_hero_number value = 1 }
         trigger_switch = {
             on_trigger = religion
-            jedintsvo = { set_global_flag = jedintsvo_hero }
+            jedinstvo = { set_global_flag = jedinstvo_hero }
         }
     }
+}
+
+remove_jedinstvo_deity_effect = {
+	remove_character_modifier = jedinstvo_rudi_cajavec
+	remove_character_modifier = jedinstvo_vlado_bagat
+	remove_character_modifier = jedinstvo_marija_bursac
+	remove_character_modifier = jedinstvo_bosko_buha
+	remove_character_modifier = jedinstvo_lizika_jancar
+	remove_character_modifier = jedinstvo_blagoj_strackoviski
+	remove_character_modifier = jedinstvo_ivan_milutinovic
+	remove_character_modifier = jedinstvo_lepa_radic
 }
 
 setting_up_heroic_burial_site_effect = {
@@ -267,6 +308,6 @@ setting_up_heroic_burial_site_effect = {
 		name = province_hero
 		scope = event_target:hero_person
 	}
-	province_event = { id = jedintsvo.99 }
-	province_event = { id = jedintsvo.5 }
+	province_event = { id = jedinstvo.99 }
+	province_event = { id = jedinstvo.5 }
 }

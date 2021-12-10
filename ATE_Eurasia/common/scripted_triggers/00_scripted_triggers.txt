@@ -9322,3 +9322,16 @@ is_dishonorable = {
 		}
 	}
 }
+
+has_jedinstvo_deity_trigger = {
+	OR = {
+		has_character_modifier = jedinstvo_rudi_cajavec
+		has_character_modifier = jedinstvo_vlado_bagat
+		has_character_modifier = jedinstvo_marija_bursac
+		has_character_modifier = jedinstvo_bosko_buha
+		has_character_modifier = jedinstvo_lizika_jancar
+		has_character_modifier = jedinstvo_blagoj_strackoviski
+		has_character_modifier = jedinstvo_ivan_milutinovic
+		has_character_modifier = jedinstvo_lepa_radic
+	}
+}

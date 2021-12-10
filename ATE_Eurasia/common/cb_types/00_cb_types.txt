@@ -5874,6 +5874,7 @@ religious = {
 				religion = ruhi
 				religion = bahai
 				religion = haskalah
+				religion = jedinstvo
 				AND = {
 					religion = folketro
 					trait = hiddenfolk_cult
@@ -5935,6 +5936,7 @@ religious = {
 			NOT = { religion = ruhi }
 			NOT = { religion = bahai }
 			NOT = { religion = haskalah }
+			NOT = { religion = jedinstvo }
 			NOT = { has_law = religion_tolerance_0 }
 		#	NAND = {
 		#		OR = {

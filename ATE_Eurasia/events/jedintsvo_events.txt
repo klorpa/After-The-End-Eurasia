@@ -1,12 +1,12 @@
-namespace = jedintsvo
+namespace = jedinstvo
 # Thanks TechKing and LadySybil !
 #A character is eligible for Partisanship (on_death)
 character_event = {
-	id = jedintsvo.1
+	id = jedinstvo.1
 	hide_window = yes
 	is_triggered_only = yes
 	min_age = 16
-	religion = jedintsvo
+	religion = jedinstvo
 	has_dlc = "Holy Fury"
 
 	trigger = {
@@ -130,7 +130,7 @@ character_event = {
 
 #Checking time left for Apotheosis
 province_event = {
-    id = jedintsvo.2
+    id = jedinstvo.2
     hide_window = yes
     is_triggered_only = yes
     has_dlc = "Holy Fury"
@@ -141,32 +141,32 @@ province_event = {
                     # trait = i_used_to_be_a_player
                 # }
             # }
-            # province_event = { id = jedintsvo.3 days = 1000 random = 1000 }
+            # province_event = { id = jedinstvo.3 days = 1000 random = 1000 }
         # }
         # else = {
-            # province_event = { id = jedintsvo.3 days = 1000 random = 1000 }
+            # province_event = { id = jedinstvo.3 days = 1000 random = 1000 }
         # }
-		province_event = { id = jedintsvo.3 days = 1 }
+		province_event = { id = jedinstvo.3 days = 1 }
     }
 }
 
 #Preparing Apotheosis
 province_event = {
-    id = jedintsvo.3
+    id = jedinstvo.3
     hide_window = yes
     is_triggered_only = yes
     has_dlc = "Holy Fury"
 
     immediate = { 
 		event_target:hero_person = {
-		   character_event = { id = jedintsvo.4 }
+		   character_event = { id = jedinstvo.4 }
 		}     	
     }
 }
 
 #Apotheosis
 character_event = {
-    id = jedintsvo.4
+    id = jedinstvo.4
     hide_window = yes
     is_triggered_only = yes
     has_dlc = "Holy Fury"
@@ -257,14 +257,14 @@ character_event = {
 				}
 				religion = ROOT
 			}
-			narrative_event = { id = jedintsvo.7 }
+			narrative_event = { id = jedinstvo.7 }
 		}
 		event_target:hero_person = {
 			any_dynasty_member = {
 				limit = {
 					religion = ROOT
 				}
-				narrative_event = { id = jedintsvo.7 }
+				narrative_event = { id = jedinstvo.7 }
 			}
 		}
 		# Trait change
@@ -478,7 +478,7 @@ character_event = {
 		# Bloodline creation
 		if = {
 			limit = {
-				religion = jedintsvo
+				religion = jedinstvo
 			}
 			create_bloodline = {
 				type = heroic_bloodline_hellenic
@@ -499,22 +499,22 @@ character_event = {
 
 #Burial Notification
 province_event = {
-    id = jedintsvo.5
+    id = jedinstvo.5
     is_triggered_only = yes
     hide_window = yes
     has_dlc = "Holy Fury"
 
    	immediate = {
    		owner = {
-			character_event = { id = jedintsvo.6 }
+			character_event = { id = jedinstvo.6 }
    		}
    	}
 }
 
 #Owner Notification
 character_event = {
-    id = jedintsvo.6
-    desc = EVTDESCjedintsvo6
+    id = jedinstvo.6
+    desc = EVTDESCjedinstvo6
     picture = GFX_evt_warrior_greek_gathering
     is_triggered_only = yes
     notification = yes
@@ -527,17 +527,17 @@ character_event = {
 
 #Apotheosis Announcment
 narrative_event = {
-    id = jedintsvo.7
-    desc = EVTDESCjedintsvo7
+    id = jedinstvo.7
+    desc = EVTDESCjedinstvo7
 	picture = GFX_evt_oracle_response
-    title = EVTTITLEjedintsvo7
+    title = EVTTITLEjedinstvo7
     portrait = event_target:hero_person
 	border = GFX_event_narrative_frame_religion
     is_triggered_only = yes
     has_dlc = "Holy Fury"
 
     option = {      
-        name = EVTOPTAjedintsvo7
+        name = EVTOPTAjedinstvo7
         show_portrait = FROM
         if = {
             limit = {
@@ -553,10 +553,10 @@ narrative_event = {
 
 #Boost in pilgrims to local saintly burial site
 character_event = {
-    id = jedintsvo.8
-    desc = EVTDESCjedintsvo8
+    id = jedinstvo.8
+    desc = EVTDESCjedinstvo8
     picture = GFX_evt_busy_market
-    religion = jedintsvo
+    religion = jedinstvo
     only_playable = yes
     min_age = 16
     only_capable = yes
@@ -589,7 +589,7 @@ character_event = {
 
     #Refurbish the tomb to show what a grand pious leader you are
     option = {      
-        name = EVTOPTAjedintsvo8
+        name = EVTOPTAjedinstvo8
         trigger = {
         	event_target:local_burial_tomb = {
         		has_province_modifier = pillaged_tomb_of_a_hero
@@ -610,7 +610,7 @@ character_event = {
     }
     #Refurbish and grant a huge public donation to the church
     option = {
-    	name = EVTOPTBjedintsvo8
+    	name = EVTOPTBjedinstvo8
     	trigger = {
     		trait = zealous
         	event_target:local_burial_tomb = {
@@ -632,7 +632,7 @@ character_event = {
         }
     }
     option = {
-    	name = EVTOPTCjedintsvo8
+    	name = EVTOPTCjedinstvo8
     	trigger = {
     		trait = zealous
     		NOT = {
@@ -647,13 +647,13 @@ character_event = {
     }
     #Make some money off of them
     option = {      
-        name = EVTOPTDjedintsvo8
+        name = EVTOPTDjedinstvo8
         scaled_wealth = { value = 0.1 min = 50 max = 250 }
         piety = -10
     }
     #Talk to the people
     option = {
-    	name = EVTOPTEjedintsvo8
+    	name = EVTOPTEjedinstvo8
     	trigger = {
     		NOT = {
     			trait = shy
@@ -669,7 +669,7 @@ character_event = {
     }
     #Reminisce about my own pilgrimage
     option = {
-    	name = EVTOPTFjedintsvo8
+    	name = EVTOPTFjedinstvo8
     	trigger = {
     		trait = pilgrim
     	}
@@ -685,10 +685,10 @@ character_event = {
 
 #Inspired by Local hero
 character_event = {
-    id = jedintsvo.9
-    desc = EVTDESCjedintsvo9
+    id = jedinstvo.9
+    desc = EVTDESCjedinstvo9
     picture = GFX_evt_written_stele
-    religion = jedintsvo
+    religion = jedinstvo
     min_age = 16
     only_playable = yes
     only_capable = yes
@@ -876,7 +876,7 @@ character_event = {
     }
 
     option = {      
-        name = EVTOPTAjedintsvo9
+        name = EVTOPTAjedinstvo9
         if = {
         	limit = {
         		is_variable_equal = { which = inspired value = 1}
@@ -946,14 +946,14 @@ character_event = {
         piety = 50
     }
     option = {
-    	name = EVTOPTBjedintsvo9
+    	name = EVTOPTBjedinstvo9
     }
 }
 
 #Pillage local hero burial site 
 character_event = {
-    id = jedintsvo.10
-    desc = EVTDESCjedintsvo10
+    id = jedinstvo.10
+    desc = EVTDESCjedinstvo10
     picture = GFX_evt_maniac_king
     portrait = event_target:offended_burial_site_owner
     is_triggered_only = yes
@@ -961,7 +961,7 @@ character_event = {
     ai = no
     min_age = 16
     only_capable = yes
-    religion = jedintsvo
+    religion = jedinstvo
     prisoner = no
     has_dlc = "Holy Fury"
 
@@ -1005,28 +1005,28 @@ character_event = {
     }
     #I never cared much about him/her, but I won't offend God
     option = {      
-        name = EVTOPTAjedintsvo10
+        name = EVTOPTAjedinstvo10
         piety = 10
     }
     #Try and pillage it
     option = {      
-        name = EVTOPTBjedintsvo10
-        custom_tooltip = { text = EVTOPTBjedintsvo10_TT }
-        character_event = { id = jedintsvo.11 days = 30 random = 30 }
+        name = EVTOPTBjedinstvo10
+        custom_tooltip = { text = EVTOPTBjedinstvo10_TT }
+        character_event = { id = jedinstvo.11 days = 30 random = 30 }
     }
 }
 
 #Trying to pillage
 character_event = {
-    id = jedintsvo.11
-    desc = EVTDESCjedintsvo11
+    id = jedinstvo.11
+    desc = EVTDESCjedinstvo11
     picture = GFX_evt_raiding_greek_tomb
     is_triggered_only = yes
     has_dlc = "Holy Fury"
 
     #Grab some things and get out
     option = {      
-        name = EVTOPTAjedintsvo11
+        name = EVTOPTAjedinstvo11
         random_list = {
         	70 = {
         		modifier = {
@@ -1037,7 +1037,7 @@ character_event = {
         			factor = 1.5
         			intrigue = 18
         		}
-        		custom_tooltip = { text = EVTOPTAjedintsvo11_TT }
+        		custom_tooltip = { text = EVTOPTAjedinstvo11_TT }
         		hidden_tooltip = {
 	        		# random_list = {
 	        			# 50 = {
@@ -1071,7 +1071,7 @@ character_event = {
 	        			}
 	        		}
 	        		event_target:offended_burial_site_owner = {
-	        			character_event = { id = jedintsvo.13 }
+	        			character_event = { id = jedinstvo.13 }
 	        		}
         		}
         		scaled_wealth = { value = 0.3 min = 50 max = 200 }
@@ -1079,14 +1079,14 @@ character_event = {
         	30 = {
         		imprison = event_target:offended_burial_site_owner 
         		event_target:offended_burial_site_owner = {
-        			character_event = { id = jedintsvo.12 }
+        			character_event = { id = jedinstvo.12 }
         		}
         	}
         }
     }
     #Grab everything
     option = {      
-        name = EVTOPTBjedintsvo11
+        name = EVTOPTBjedinstvo11
         random_list = {
         	30 = {
         		modifier = {
@@ -1097,7 +1097,7 @@ character_event = {
         			factor = 2
         			intrigue = 15
         		}
-        		custom_tooltip = { text = EVTOPTBjedintsvo11_TT }
+        		custom_tooltip = { text = EVTOPTBjedinstvo11_TT }
         		hidden_tooltip = {
         			# random_list = {
         				# 10 = {
@@ -1149,7 +1149,7 @@ character_event = {
 	        			}
 	        		}
 	        		event_target:offended_burial_site_owner = {
-	        			character_event = { id = jedintsvo.13 }
+	        			character_event = { id = jedinstvo.13 }
 	        		}
         		}
         		scaled_wealth = { value = 0.8 min = 150 max = 500 }
@@ -1157,7 +1157,7 @@ character_event = {
         	70 = {
         		imprison = event_target:offended_burial_site_owner 
           		event_target:offended_burial_site_owner = {
-        			character_event = { id = jedintsvo.12 }
+        			character_event = { id = jedinstvo.12 }
         		}
         	}
         }
@@ -1166,21 +1166,21 @@ character_event = {
 
 #Imprisoned event
 character_event = {
-    id = jedintsvo.12
-    desc = EVTDESCjedintsvo12
+    id = jedinstvo.12
+    desc = EVTDESCjedinstvo12
     picture = GFX_evt_raiding_greek_tomb
     is_triggered_only = yes
     has_dlc = "Holy Fury"
 
     option = {      
-        name = EVTOPTAjedintsvo12
+        name = EVTOPTAjedinstvo12
     }
 }
 
 #Notification about pillaged Saintly Burial Site
 character_event = {
-    id = jedintsvo.13
-    desc = EVTDESCjedintsvo13
+    id = jedinstvo.13
+    desc = EVTDESCjedinstvo13
     picture = GFX_evt_raiding_greek_tomb
     is_triggered_only = yes
     notification = yes
@@ -1193,8 +1193,8 @@ character_event = {
 
 #Burial site pillaged by others
 character_event = {
-    id = jedintsvo.14
-    desc = EVTDESCjedintsvo14
+    id = jedinstvo.14
+    desc = EVTDESCjedinstvo14
     picture = GFX_evt_burning_cities
     only_playable = yes
     min_age = 16
@@ -1202,7 +1202,7 @@ character_event = {
     has_dlc = "Holy Fury"
     trigger = {
     	NOT = {
-    		religion = jedintsvo
+    		religion = jedinstvo
     		has_character_flag = recent_potential_tomb_pillaging
     	}
     	FROM = {
@@ -1221,7 +1221,7 @@ character_event = {
     }
 
     option = {      
-        name = EVTOPTAjedintsvo14
+        name = EVTOPTAjedinstvo14
         scaled_wealth = { value = 1.2 min = 150 max = 500 }
         hidden_tooltip = {
             FROM = {
@@ -1232,20 +1232,20 @@ character_event = {
     	        		duration = -1
     	        	}
                 }
-	        	character_event = { id = jedintsvo.13 }
+	        	character_event = { id = jedinstvo.13 }
 	        }
         }
     }
     option = {      
-        name = EVTOPTBjedintsvo14
+        name = EVTOPTBjedinstvo14
         piety = 50
         set_character_flag = recent_potential_tomb_pillaging
-        character_event = { id = jedintsvo.15 days = 1095 }
+        character_event = { id = jedinstvo.15 days = 1095 }
     }
 }
 
 character_event = {
-    id = jedintsvo.15
+    id = jedinstvo.15
     hide_window = yes
     is_triggered_only = yes
     has_dlc = "Holy Fury"
@@ -1256,13 +1256,13 @@ character_event = {
 
 #Seek out Saintly Burial Site (From Pilgrimage)
 character_event = {
-    id = jedintsvo.16
-    desc = EVTDESCjedintsvo16
+    id = jedinstvo.16
+    desc = EVTDESCjedinstvo16
 	picture = GFX_evt_visiting_greece_tomb
 	border = GFX_event_normal_frame_religion
     is_triggered_only = yes
     trigger = {
-    	religion = jedintsvo
+    	religion = jedinstvo
     }
 
     immediate = {
@@ -1336,9 +1336,9 @@ character_event = {
 
 	#First Random Burial
     option = {      
-        name = EVTOPTAjedintsvo16_1
-        name = EVTOPTAjedintsvo16_2
-        name = EVTOPTAjedintsvo16_3
+        name = EVTOPTAjedinstvo16_1
+        name = EVTOPTAjedinstvo16_2
+        name = EVTOPTAjedinstvo16_3
 
         trigger = {
             event_target:first_burial_site = {
@@ -1412,7 +1412,7 @@ character_event = {
     	# }
     	##Generic
     	# else = {
-    		character_event = { id = jedintsvo.17 days = 15 }
+    		character_event = { id = jedinstvo.17 days = 15 }
             set_character_flag = generic_saintly_pilgrimage
     	# }
         event_target:first_burial_site = {
@@ -1431,9 +1431,9 @@ character_event = {
 
 	#Second Random Burial
     option = {      
-        name = EVTOPTBjedintsvo16_1
-        name = EVTOPTBjedintsvo16_2
-        name = EVTOPTBjedintsvo16_3
+        name = EVTOPTBjedinstvo16_1
+        name = EVTOPTBjedinstvo16_2
+        name = EVTOPTBjedinstvo16_3
 
         trigger = {
             event_target:second_burial_site = {
@@ -1507,7 +1507,7 @@ character_event = {
     	# }
     	##Generic
     	# else = {
-    		character_event = { id = jedintsvo.17 days = 15 }
+    		character_event = { id = jedinstvo.17 days = 15 }
             set_character_flag = generic_saintly_pilgrimage
     	# }
         event_target:first_burial_site = {
@@ -1526,9 +1526,9 @@ character_event = {
 
 	#Third Random Burial
     option = {      
-        name = EVTOPTCjedintsvo16_1
-        name = EVTOPTCjedintsvo16_2
-        name = EVTOPTCjedintsvo16_3
+        name = EVTOPTCjedinstvo16_1
+        name = EVTOPTCjedinstvo16_2
+        name = EVTOPTCjedinstvo16_3
 
         trigger = {
             event_target:third_burial_site = {
@@ -1602,7 +1602,7 @@ character_event = {
     	# }
     	##Generic
     	# else = {
-    		character_event = { id = jedintsvo.17 days = 15 }
+    		character_event = { id = jedinstvo.17 days = 15 }
             set_character_flag = generic_saintly_pilgrimage
     	# }
         event_target:first_burial_site = {
@@ -1621,9 +1621,9 @@ character_event = {
    
 	#Fourth Random Burial
     option = {     
-        name = EVTOPTDjedintsvo16_1
-        name = EVTOPTDjedintsvo16_2
-        name = EVTOPTDjedintsvo16_3
+        name = EVTOPTDjedinstvo16_1
+        name = EVTOPTDjedinstvo16_2
+        name = EVTOPTDjedinstvo16_3
 
         trigger = {
             event_target:fourth_burial_site = {
@@ -1697,7 +1697,7 @@ character_event = {
     	# }
     	##Generic
     	# else = {
-    		character_event = { id = jedintsvo.17 days = 15 }
+    		character_event = { id = jedinstvo.17 days = 15 }
             set_character_flag = generic_saintly_pilgrimage
     	# }
         event_target:first_burial_site = {
@@ -1717,27 +1717,27 @@ character_event = {
 
 #Journey to generic climate begins
 character_event = {
-    id = jedintsvo.17
-    desc = EVTDESCjedintsvo17
+    id = jedinstvo.17
+    desc = EVTDESCjedinstvo17
     picture = GFX_evt_pilgrims_epic_journey
     border = GFX_event_normal_frame_religion
     is_triggered_only = yes
     trigger = {
-        religion = jedintsvo
+        religion = jedinstvo
     }
     fail_trigger_effect = {
         character_event = { id = HF.41480 }
     }
 
     option = {      
-        name = EVTOPTAjedintsvo17
+        name = EVTOPTAjedinstvo17
         hidden_tooltip = {
             random_list = {
                 50 = {
-                    character_event = { id = jedintsvo.18 days = 15 }
+                    character_event = { id = jedinstvo.18 days = 15 }
                 }
                 50 = {
-                    character_event = { id = jedintsvo.19 days = 15 }
+                    character_event = { id = jedinstvo.19 days = 15 }
                 }
             }
         }
@@ -1747,36 +1747,36 @@ character_event = {
 
 #Come across fellow travellers
 character_event = {
-    id = jedintsvo.18
+    id = jedinstvo.18
     desc = {
         trigger = {
             check_variable = { which = "pilgrimage_person" value == 1 }
         }
-        text = EVTDESCjedintsvo18
+        text = EVTDESCjedinstvo18
     }
     desc = {
         trigger = {
             check_variable = { which = "pilgrimage_person" value == 2 }
         }
-        text = EVTDESCjedintsvo18_ALT
+        text = EVTDESCjedinstvo18_ALT
     }
     desc = {
         trigger = {
             check_variable = { which = "pilgrimage_person" value == 3 }
         }
-        text = EVTDESCjedintsvo18_ALT_2
+        text = EVTDESCjedinstvo18_ALT_2
     }    
     desc = {
         trigger = {
             check_variable = { which = "pilgrimage_person" value == 4 }
         }
-        text = EVTDESCjedintsvo18_ALT_3
+        text = EVTDESCjedinstvo18_ALT_3
     }    
     picture = GFX_evt_riders_night_hf
     border = GFX_event_normal_frame_religion
     is_triggered_only = yes
     trigger = {
-    	religion = jedintsvo
+    	religion = jedinstvo
     }
     fail_trigger_effect = {
     	character_event = { id = HF.41480 }
@@ -1784,7 +1784,7 @@ character_event = {
 
     #Travel together
     option = {      
-        name = EVTOPTAjedintsvo18
+        name = EVTOPTAjedinstvo18
         hidden_tooltip = {
             # if = {
                 # limit = {
@@ -1808,7 +1808,7 @@ character_event = {
                 limit = {
                     has_character_flag = generic_saintly_pilgrimage
                 }
-                character_event = { id = jedintsvo.20 days = 30}
+                character_event = { id = jedinstvo.20 days = 30}
             }
         }
         if = {
@@ -1831,7 +1831,7 @@ character_event = {
 
     #A true pilgrim travels alone
     option = {      
-        name = EVTOPTBjedintsvo18
+        name = EVTOPTBjedinstvo18
         change_martial = 1
         hidden_tooltip = {
             # if = {
@@ -1856,7 +1856,7 @@ character_event = {
                 limit = {
                     has_character_flag = generic_saintly_pilgrimage
                 }
-                character_event = { id = jedintsvo.20 days = 15}
+                character_event = { id = jedinstvo.20 days = 15}
             }
         }
         random = {
@@ -1885,13 +1885,13 @@ character_event = {
 
 #Come across bandits
 character_event = {
-    id = jedintsvo.19
-    desc = EVTDESCjedintsvo19
+    id = jedinstvo.19
+    desc = EVTDESCjedinstvo19
     picture = GFX_evt_bandits
     border = GFX_event_normal_frame_religion
     is_triggered_only = yes
     trigger = {
-    	religion = jedintsvo
+    	religion = jedinstvo
     }
     fail_trigger_effect = {
     	character_event = { id = HF.41480 }
@@ -1899,7 +1899,7 @@ character_event = {
 
     #Pay for passage
     option = {      
-        name = EVTOPTAjedintsvo19
+        name = EVTOPTAjedinstvo19
         prestige = -50
         wealth = -100
         hidden_tooltip = {
@@ -1925,13 +1925,13 @@ character_event = {
                 limit = {
                     has_character_flag = generic_saintly_pilgrimage
                 }
-                character_event = { id = jedintsvo.20 days = 15}
+                character_event = { id = jedinstvo.20 days = 15}
             }        
         }
     }
     #Fight your way out of it
     option = {      
-        name = EVTOPTBjedintsvo19
+        name = EVTOPTBjedinstvo19
         prestige = 100
         random_list = {
         	60 = {
@@ -2013,7 +2013,7 @@ character_event = {
                 limit = {
                     has_character_flag = generic_saintly_pilgrimage
                 }
-                character_event = { id = jedintsvo.20 days = 15}
+                character_event = { id = jedinstvo.20 days = 15}
             }        
         }
     }
@@ -2021,30 +2021,30 @@ character_event = {
 
 #Getting closer #Generic
 character_event = {
-    id = jedintsvo.20
-    desc = EVTDESCjedintsvo20
+    id = jedinstvo.20
+    desc = EVTDESCjedinstvo20
     picture = GFX_evt_pilgrims_epic_journey
     border = GFX_event_normal_frame_religion
     is_triggered_only = yes
     trigger = {
-        religion = jedintsvo
+        religion = jedinstvo
     }
     fail_trigger_effect = {
         character_event = { id = HF.41480 }
     }
 
     option = {      
-        name = EVTOPTAjedintsvo20
+        name = EVTOPTAjedinstvo20
         hidden_tooltip = {
             random_list = {
                 66 = {
-                    character_event = { id = jedintsvo.21 days = 15 }
+                    character_event = { id = jedinstvo.21 days = 15 }
                 }
                 66 = {
-                    character_event = { id = jedintsvo.22 days = 15 }
+                    character_event = { id = jedinstvo.22 days = 15 }
                 }
                 66 = {
-                    character_event = { id = jedintsvo.23 days = 15 }
+                    character_event = { id = jedinstvo.23 days = 15 }
                 }
                 # 1 = {
                     # character_event = { id = HF.41410 days = 15 }
@@ -2056,27 +2056,27 @@ character_event = {
 
 #Coming across a Caravan of entertainers
 character_event = {
-    id = jedintsvo.21
+    id = jedinstvo.21
     desc = {
         trigger = {
             NOT = {
                 trait = homosexual
             }
         }
-        text = EVTDESCjedintsvo21
+        text = EVTDESCjedinstvo21
     }
 
     desc = {
         trigger = {
             trait = homosexual
         }
-        text = EVTDESCjedintsvo21_ALT
+        text = EVTDESCjedinstvo21_ALT
     }
     picture = GFX_evt_greek_performace
     border = GFX_event_normal_frame_religion
     is_triggered_only = yes
     trigger = {
-        religion = jedintsvo
+        religion = jedinstvo
     }
     fail_trigger_effect = {
         character_event = { id = HF.41480 }
@@ -2084,7 +2084,7 @@ character_event = {
 
     #Maybe I should join him/her for the night ..
     option = {      
-        name = EVTOPTAjedintsvo21
+        name = EVTOPTAjedinstvo21
         if = {
             limit = {
                 trait = chaste
@@ -2128,13 +2128,13 @@ character_event = {
                 limit = {
                     has_character_flag = generic_saintly_pilgrimage
                 }
-                character_event = { id = jedintsvo.24 days = 15 }
+                character_event = { id = jedinstvo.24 days = 15 }
             }
         }
     }
     #I will not be tainted by thy body!!
     option = {      
-        name = EVTOPTBjedintsvo21
+        name = EVTOPTBjedinstvo21
         if = {
             limit = {
                 trait = lustful
@@ -2173,7 +2173,7 @@ character_event = {
                 limit = {
                     has_character_flag = generic_saintly_pilgrimage
                 }
-                character_event = { id = jedintsvo.24 days = 15 }
+                character_event = { id = jedinstvo.24 days = 15 }
             }
         }
     }
@@ -2181,13 +2181,13 @@ character_event = {
 
 #Inn burning down
 character_event = {
-    id = jedintsvo.22
-    desc = EVTDESCjedintsvo22
+    id = jedinstvo.22
+    desc = EVTDESCjedinstvo22
     picture = GFX_evt_burning_cities
     border = GFX_event_normal_frame_religion
     is_triggered_only = yes
     trigger = {
-        religion = jedintsvo
+        religion = jedinstvo
     }
     fail_trigger_effect = {
         character_event = { id = HF.41480 }
@@ -2195,7 +2195,7 @@ character_event = {
 
     #God calls upon me to help out!
     option = {      
-        name = EVTOPTAjedintsvo22
+        name = EVTOPTAjedinstvo22
         prestige = 50
         wealth = -50
         if = {
@@ -2236,13 +2236,13 @@ character_event = {
                 limit = {
                     has_character_flag = generic_saintly_pilgrimage
                 }
-                character_event = { id = jedintsvo.24 days = 15 }
+                character_event = { id = jedinstvo.24 days = 15 }
             }
         }
     }
     #God calls upon me to move on!
     option = {      
-        name = EVTOPTBjedintsvo22
+        name = EVTOPTBjedinstvo22
         prestige = -25
         if = {
             limit = {
@@ -2289,13 +2289,13 @@ character_event = {
                 limit = {
                     has_character_flag = generic_saintly_pilgrimage
                 }
-                character_event = { id = jedintsvo.24 days = 15 }
+                character_event = { id = jedinstvo.24 days = 15 }
             }
         }
     }
     #God calls upon me to see if I can find something valuable!
     option = {
-        name = EVTOPTCjedintsvo22
+        name = EVTOPTCjedinstvo22
         prestige = -50
         wealth = 50
         if = {
@@ -2336,7 +2336,7 @@ character_event = {
                 limit = {
                     has_character_flag = generic_saintly_pilgrimage
                 }
-                character_event = { id = jedintsvo.24 days = 15 }
+                character_event = { id = jedinstvo.24 days = 15 }
             }
         }
     }
@@ -2344,13 +2344,13 @@ character_event = {
 
 #Coming across a temple in the rain 
 character_event = {
-    id = jedintsvo.23
-    desc = EVTDESCjedintsvo23
+    id = jedinstvo.23
+    desc = EVTDESCjedinstvo23
     picture = GFX_evt_rundown_greek_temple
     border = GFX_event_normal_frame_religion
     is_triggered_only = yes
     trigger = {
-        religion = jedintsvo
+        religion = jedinstvo
     }
     fail_trigger_effect = {
         character_event = { id = HF.41480 }
@@ -2358,7 +2358,7 @@ character_event = {
 
     #Stay
     option = {     
-        name = EVTOPTAjedintsvo23
+        name = EVTOPTAjedinstvo23
         add_character_modifier = {
             name = good_nights_sleep
             duration = 180
@@ -2386,13 +2386,13 @@ character_event = {
                 limit = {
                     has_character_flag = generic_saintly_pilgrimage
                 }
-                character_event = { id = jedintsvo.24 days = 30 }
+                character_event = { id = jedinstvo.24 days = 30 }
             }
         }
     }
     #Continue through the rain
     option = {      
-        name = EVTOPTBjedintsvo23
+        name = EVTOPTBjedinstvo23
         prestige = 50
         if = {
             limit = {
@@ -2422,7 +2422,7 @@ character_event = {
             else = {
                 give_flu_effect = yes
             }
-            custom_tooltip = { text = EVTTOOLTIPjedintsvo23_TT }
+            custom_tooltip = { text = EVTTOOLTIPjedinstvo23_TT }
         }
         hidden_tooltip = {
             # if = {
@@ -2447,7 +2447,7 @@ character_event = {
                 limit = {
                     has_character_flag = generic_saintly_pilgrimage
                 }
-                character_event = { id = jedintsvo.24 days = 15}
+                character_event = { id = jedinstvo.24 days = 15}
             }
         }
     }
@@ -2455,43 +2455,43 @@ character_event = {
 
 #Finally there #Generic
 character_event = {
-    id = jedintsvo.24
-    desc = EVTDESCjedintsvo24
+    id = jedinstvo.24
+    desc = EVTDESCjedinstvo24
     picture = GFX_evt_busy_market
     border = GFX_event_normal_frame_religion
     is_triggered_only = yes
     trigger = {
-        religion = jedintsvo
+        religion = jedinstvo
     }
     fail_trigger_effect = {
         character_event = { id = HF.41480 }
     }
 
     option = {      
-        name = EVTOPTAjedintsvo24
+        name = EVTOPTAjedinstvo24
         hidden_tooltip = {
-            character_event = { id = jedintsvo.25 days = 15 }
+            character_event = { id = jedinstvo.25 days = 15 }
         }
     }
 }
 
 #Thoughts about burial site #Generic
 character_event = {
-    id = jedintsvo.25
+    id = jedinstvo.25
     desc = {
-        text = EVTDESCjedintsvo25_A
+        text = EVTDESCjedinstvo25_A
     }
     desc = {
-        text = EVTDESCjedintsvo25_B
+        text = EVTDESCjedinstvo25_B
     }
     desc = {
-        text = EVTDESCjedintsvo25_C
+        text = EVTDESCjedinstvo25_C
     }  
     picture = GFX_evt_icon
     border = GFX_event_normal_frame_religion
     is_triggered_only = yes
     trigger = {
-        religion = jedintsvo
+        religion = jedinstvo
     }
     fail_trigger_effect = {
         character_event = { id = HF.41480 }
@@ -2499,29 +2499,29 @@ character_event = {
 
     #The burial site is as impressive as I had hoped for
     option = {      
-        name = EVTOPTAjedintsvo25
+        name = EVTOPTAjedinstvo25
         trigger = {
             trait = zealous
         }
         piety = 25
         hidden_tooltip = {
-            character_event = { id = jedintsvo.26 days = 60}
+            character_event = { id = jedinstvo.26 days = 60}
         }
     }
     #Not that impressive
     option = {      
-        name = EVTOPTBjedintsvo25
+        name = EVTOPTBjedinstvo25
         trigger = {
             trait = cynical 
         }
         piety = -10
         hidden_tooltip = {
-            character_event = { id = jedintsvo.26 days = 60}
+            character_event = { id = jedinstvo.26 days = 60}
         }
     }
     #What a journey
     option = {
-        name = EVTOPTCjedintsvo25
+        name = EVTOPTCjedinstvo25
         trigger = {
             NOR = {
                 trait = cynical
@@ -2530,20 +2530,20 @@ character_event = {
         }
         piety = 15
         hidden_tooltip = {
-            character_event = { id = jedintsvo.26 days = 60}
+            character_event = { id = jedinstvo.26 days = 60}
         }
     }
 }
 
 #Can see home once more!
 character_event = {
-    id = jedintsvo.26
-    desc = EVTDESCjedintsvo26
+    id = jedinstvo.26
+    desc = EVTDESCjedinstvo26
     picture = GFX_evt_ancient_garden
     border = GFX_event_normal_frame_religion
     is_triggered_only = yes
     trigger = {
-    	religion = jedintsvo
+    	religion = jedinstvo
     }
     fail_trigger_effect = {
     	character_event = { id = HF.41480 }
@@ -2560,7 +2560,7 @@ character_event = {
     }
 
     option = {      
-        name = EVTOPTAjedintsvo26
+        name = EVTOPTAjedinstvo26
         remove_trait = on_pilgrimage
         add_trait = pilgrim
 
@@ -2592,11 +2592,569 @@ character_event = {
     }
 }
 
+character_event = {
+	id = jedinstvo.27
+	desc = "EVTDESC_jedinstvo_27"
+	picture = GFX_evt_capoeira
+	
+	religion = jedinstvo
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVOTPA_jedinstvo_27
+		trigger = {
+			NOT = { trait = weak }
+			NOT = { trait = feeble }
+		}
+		custom_tooltip = { text = TXT_jedinstvo_rudi_cajavec }
+		hidden_effect = {
+			add_character_modifier = { name = jedinstvo_rudi_cajavec duration = -1 }
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 20
+				OR = {
+					trait = strong
+					trait = robust
+					trait = diligent
+					trait = drunkard
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					trait = temperate
+					trait = slothful
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVOTPB_jedinstvo_27
+		trigger = {
+			NOT = { trait = imbecile }
+			NOT = { trait = slow }
+			NOT = { trait = dull }
+			NOT = { trait = craven }
+		}
+		custom_tooltip = { text = TXT_jedinstvo_vlado_bagat }
+		hidden_effect = {
+			add_character_modifier = { name = jedinstvo_vlado_bagat duration = -1 }
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 20
+				OR = {
+					trait = strong
+					trait = robust
+					trait = gluttonous
+					trait = shrewd
+					trait = quick
+					trait = genius
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					trait = temperate
+					trait = content
+					trait = weak
+					trait = feeble
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVOTPC_jedinstvo_27
+		trigger = {
+			NOT = { trait = celibate }
+			NOT = { trait = chaste }
+			NOT = { trait = shy }
+		}
+		custom_tooltip = { text = TXT_jedinstvo_marija_bursac }
+		hidden_effect = {
+			add_character_modifier = { name = jedinstvo_marija_bursac duration = -1 }
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 20
+				OR = {
+					trait = lustful
+					trait = homosexual
+					trait = gregarious
+					trait = hedonist
+					trait = seducer
+					trait = seductress
+					trait = wroth
+					trait = mystic
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					trait = patient
+					trait = envious
+					trait = temperate
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVOTPD_jedinstvo_27
+		hidden_effect = { character_event = { id = jedinstvo.28 } }
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
 
+#Choose partisan
+character_event = {
+	id = jedinstvo.28
+	desc = "EVTDESC_jedinstvo_28"
+	picture = GFX_evt_capoeira
+	
+	religion = jedinstvo
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVOTPA_jedinstvo_28
+		custom_tooltip = { text = TXT_jedinstvo_bosko_buha }
+		hidden_effect = {
+			add_character_modifier = { name = jedinstvo_bosko_buha duration = -1 }
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 20
+				OR = {
+					trait = zealous
+					trait = mystic
+					trait = quick
+					trait = shrewd
+					trait = genius
+					trait = humble
+					trait = kind
+					trait = charitable
+					trait = just
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					trait = cruel
+					trait = arbitrary
+					trait = proud
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVOTPB_jedinstvo_28
+		custom_tooltip = { text = TXT_jedinstvo_lizika_jancar }
+		hidden_effect = {
+			add_character_modifier = { name = jedinstvo_lizika_jancar duration = -1 }
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 20
+				OR = {
+					trait = wroth
+					trait = cruel
+					trait = ambitious
+					trait = proud
+					trait = envious
+					trait = strong
+					trait = robust
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					trait = humble
+					trait = just
+					trait = kind
+					trait = content
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVOTPC_jedinstvo_28
+		custom_tooltip = { text = TXT_jedinstvo_blagoj_strackoviski }
+		hidden_effect = {
+			add_character_modifier = { name = jedinstvo_blagoj_strackoviski duration = -1 }
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 20
+				is_female = yes
+			}
+			modifier = {
+				factor = 20
+				OR = {
+					trait = lustful
+					trait = kind
+					trait = patient
+					trait = temperate
+					trait = fair
+					trait = pregnant
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					trait = chaste
+					trait = wroth
+					trait = ugly
+					trait = cynical
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTD_jedinstvo_28
+		hidden_effect = { character_event = { id = jedinstvo.29 } }
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+#Choose partisan
+character_event = {
+	id = jedinstvo.29
+	desc = "EVTDESC_jedinstvo_29"
+	picture = GFX_evt_capoeira
+	
+	religion = jedinstvo
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVOTPA_jedinstvo_29
+		custom_tooltip = { text = TXT_jedinstvo_ivan_milutinovic }
+		hidden_effect = {
+			add_character_modifier = { name = jedinstvo_ivan_milutinovic duration = -1 }
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 20
+				is_female = yes
+			}
+			modifier = {
+				factor = 20
+				OR = {
+					trait = greedy
+					trait = kind
+					trait = diligent
+					trait = fair
+					trait = pregnant
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					trait = chaste
+					trait = charitable
+					trait = ugly
+					trait = cynical
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVOTPB_jedinstvo_29
+		custom_tooltip = { text = TXT_jedinstvo_lepa_radic }
+		hidden_effect = {
+			add_character_modifier = { name = jedinstvo_lepa_radic duration = -1 }
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 20
+				OR = {
+					trait = mystic
+					trait = strong
+					trait = robust
+					trait = zealous
+					trait = brave
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					trait = weak
+					trait = feeble
+					trait = temperate
+					trait = chaste
+				}
+			}
+		}
+	}
+	
+	option = {
+		name="EVTOPTC_jedinstvo_29"
+		hidden_effect = { character_event = { id = jedinstvo.27 } }
+		ai_chance = {
+			factor = 10
+		}
+	}
+	
+	option = {
+		name="EVTOPTD_jedinstvo_29"
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Become more like Rudi - gain flanker
+character_event = {
+	id = jedinstvo.30
+	desc = "EVTDESC_jedinstvo_30"
+	picture = GFX_evt_capoeira
+	
+	religion = jedinstvo
+	
+	trigger = {
+		has_character_modifier = jedinstvo_rudi_cajavec
+		NOT = { trait = flanker }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = EVTOPTA_jedinstvo_31
+		hidden_effect = {
+			add_trait = flanker
+		}
+	}
+}
+
+#Become more like Vlado - gain unyielding_leader
+character_event = {
+	id = jedinstvo.31
+	desc = "EVTDESC_jedinstvo_31"
+	picture = GFX_evt_capoeira
+	
+	religion = jedinstvo
+	
+	trigger = {
+		has_character_modifier = jedinstvo_vlado_bagat
+		NOT = { trait = unyielding_leader }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = EVTOPTA_jedinstvo_31
+		hidden_effect = {
+			add_trait = unyielding_leader
+		}
+	}
+}
+
+#Become more like Marija - gain organizer
+character_event = {
+	id = jedinstvo.32
+	desc = "EVTDESC_jedinstvo_32"
+	picture = GFX_evt_capoeira
+	
+	religion = jedinstvo
+	
+	trigger = {
+		has_character_modifier = jedinstvo_marija_bursac
+		NOT = { trait = organizer }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = EVTOPTA_jedinstvo_31
+		hidden_effect = {
+			add_trait = organizer
+		}
+	}
+}
+
+#Become more like Bosko - gain light_foot_leader
+character_event = {
+	id = jedinstvo.33
+	desc = "EVTDESC_jedinstvo_33"
+	picture = GFX_evt_capoeira
+	
+	religion = jedinstvo
+	
+	trigger = {
+		has_character_modifier = jedinstvo_bosko_buha
+		NOT = { trait = light_foot_leader }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = EVTOPTA_jedinstvo_31
+		hidden_effect = {
+			add_trait = light_foot_leader
+		}
+	}
+}
+
+#Become more like Lizika - gain erudite
+character_event = {
+	id = jedinstvo.34
+	desc = "EVTDESC_jedinstvo_34"
+	picture = GFX_evt_capoeira
+	
+	religion = jedinstvo
+	
+	trigger = {
+		has_character_modifier = jedinstvo_lizika_jancar
+		NOT = { trait = erudite }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = EVTOPTA_jedinstvo_31
+		hidden_effect = {
+			add_trait = erudite
+			add_diplomacy = 1
+		}
+	}
+}
+
+#Become more like Blagoj - gain narrow_flank_leader
+character_event = {
+	id = jedinstvo.35
+	desc = "EVTDESC_jedinstvo_35"
+	picture = GFX_evt_capoeira
+	
+	religion = jedinstvo
+	
+	trigger = {
+		has_character_modifier = jedinstvo_blagoj_strackoviski
+		NOT = { trait = narrow_flank_leader }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = EVTOPTA_jedinstvo_31
+		hidden_effect = {
+			add_trait = narrow_flank_leader
+			add_diplomacy = 1
+		}
+	}
+}
+
+#Become more like Ivan - gain aggressive_leader
+character_event = {
+	id = jedinstvo.36
+	desc = "EVTDESC_jedinstvo_36"
+	picture = GFX_evt_capoeira
+	
+	religion = jedinstvo
+	
+	trigger = {
+		has_character_modifier = jedinstvo_ivan_milutinovic
+		NOT = { trait = aggressive_leader }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = EVTOPTA_jedinstvo_31
+		hidden_effect = {
+			add_trait = aggressive_leader
+			add_diplomacy = 1
+		}
+	}
+}
+
+#Become more like Lepa - gain holy_warrior
+character_event = {
+	id = jedinstvo.37
+	desc = "EVTDESC_jedinstvo_37"
+	picture = GFX_evt_capoeira
+	
+	religion = jedinstvo
+	
+	trigger = {
+		has_character_modifier = jedinstvo_lepa_radic
+		NOT = { trait = holy_warrior }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = EVTOPTA_jedinstvo_31
+		hidden_effect = {
+			add_trait = holy_warrior
+			add_diplomacy = 1
+		}
+	}
+}
+
+#Remove Partisan if you stop being jedinstvo
+character_event = {
+	id = jedinstvo.38
+	desc = "EVTDESC_jedinstvo_38"
+	picture = GFX_evt_capoeira
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { religion = jedinstvo }
+		has_jedinstvo_deity_trigger = yes
+	}
+	
+	weight_multiplier = {
+		days = 5
+	}
+	
+	option = {
+		name = EVTOPTA_jedinstvo_38
+		hidden_effect = {
+			remove_jedinstvo_deity_effect = yes
+		}
+	}
+}
 
 #Setting up Heroic Burial Site in a province
 province_event = {
-	id = jedintsvo.99
+	id = jedinstvo.99
 	hide_window = yes
 	is_triggered_only = yes
     has_dlc = "Holy Fury"

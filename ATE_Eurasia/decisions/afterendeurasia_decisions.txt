@@ -337,4 +337,32 @@ decisions = {
 			factor = 1
 		}
 	}
+	select_jedinstvo_deity = {
+		is_high_prio = yes
+		
+		potential = {
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			religion = jedinstvo
+			is_adult = yes
+			has_jedinstvo_deity_trigger = no
+		}
+		allow = {
+			block_general_event_trigger = no
+			piety = 0
+		}
+		effect = {
+			character_event = { id = jedinstvo.27 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.3 # Slow it down a little
+			}
+		}
+	}
 }
