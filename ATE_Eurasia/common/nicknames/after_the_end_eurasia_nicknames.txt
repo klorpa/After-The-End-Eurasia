@@ -149,6 +149,19 @@ nick_the_sick = {
 		factor = 1
 	}
 }
+nick_the_pale = {
+	allow = {
+		age = 16
+		OR = {
+			is_weak_trigger = yes
+			trait = cancer
+			trait = infirm
+		}	
+	}
+	chance = {
+		factor = 1
+	}
+}
 ##########################################
 nick_the_great = { #added to remove Danes from being called Great
 	allow = {
