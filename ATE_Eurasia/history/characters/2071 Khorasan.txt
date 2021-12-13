@@ -238,6 +238,7 @@
 	culture=uzbek
 	religion=ruhi
 	trait=altan_urag
+	father=2071185
 	2569.5.9={birth=yes}
 	2622.3.19={death=yes}
 }
@@ -971,6 +972,8 @@
 	dynasty=2069083 #Makhan
 	culture=kyrgyz
 	religion=nizami
+	trait=giant
+	father=2071183
 	2605.6.30={birth=yes}
 }
 2071088={
@@ -1250,11 +1253,11 @@
 	female=yes
 	dynasty=2041137 #Azady
 	culture=turkmen
-	religion=zimiran
+	religion=nizami
 	father=2071109
 	mother=2071110
 	2636.9.2={birth=yes}
-	2655.1.1={add_spouse=1802065}
+	2655.1.1={add_spouse=2071043}
 }
 2071116={
 	name="Berdi"
@@ -1838,8 +1841,8 @@
 	culture=mazandarani
 	religion=shiite
 	father=2071162
-	2628.3.21={birth=yes}
-	2647.1.1={add_spouse=2071043}
+	2633.3.21={birth=yes}
+	2647.1.1={add_spouse=2071113}
 }
 2071166={
 	name="Hassan"
@@ -2010,4 +2013,113 @@
 	learning=10
 	2625.1.17={birth=yes}
 	2660.1.1={employer=2071000}
+}
+2071183={
+	name="Ysakbek"
+	dynasty=2069083 #Makhan
+	culture=kyrgyz
+	religion=nizami
+	2581.11.14={birth=yes}
+	2665.2.25={death=yes}
+}
+2071184={
+	name="Belek"
+	female=yes
+	dynasty=2069083 #Makhan
+	culture=kyrgyz
+	religion=nizami
+	trait=giant
+	father=2071183
+	2602.12.2={birth=yes}
+	2620.1.1={add_spouse=1506087}
+}
+2071185={
+	name="Rashid"
+	dynasty=2112134 #Shayboniy
+	culture=uzbek
+	religion=ruhi
+	trait=altan_urag
+	2538.5.22={birth=yes}
+	2601.4.16={death=yes}
+}
+2071186={
+	name="Zilola"
+	female=yes
+	dynasty=2112134 #Shayboniy
+	culture=uzbek
+	religion=ruhi
+	trait=altan_urag
+	father=2071185
+	2572.6.28={birth=yes}
+	2592.1.1={add_spouse=1506006}
+	2626.3.30={death=yes}
+}
+2071187={
+	name="Katayoun"
+	female=yes
+	dynasty=0
+	culture=persian
+	religion=shiite
+	2642.10.12={birth=yes}
+	2660.1.1={add_spouse=2071152
+		effect={add_lover=2071152}}
+}
+2071188={
+	name="Têmûrxan"
+	dynasty=2066071 #Pehlevanlî
+	culture=kurdish
+	religion=shiite
+	father=2071152
+	mother=2071174
+	2649.7.20={birth=yes}
+}
+2071189={
+	name="Tara"
+	female=yes
+	dynasty=2066071 #Pehlevanlî
+	culture=kurdish
+	religion=shiite
+	father=2071152
+	mother=2071174
+	2654.3.24={birth=yes}
+}
+2071190={
+	name="Selîm"
+	dynasty=2066071 #Pehlevanlî
+	culture=kurdish
+	religion=shiite
+	father=2071152
+	mother=2071187
+	trait=twin
+	2661.12.15={birth=yes}
+}
+2071191={
+	name="Gulaiym"
+	dynasty=2069083 #Makhan
+	culture=kyrgyz
+	religion=nizami
+	trait=giant
+	father=2071087
+	2641.7.1={birth=yes}
+	2658.1.1={add_spouse=1506076}
+}
+2071192={
+	name="Îbrahîm"
+	dynasty=2066071 #Pehlevanlî
+	culture=kurdish
+	religion=shiite
+	father=2071152
+	mother=2071187
+	trait=twin
+	2661.12.15={birth=yes}
+}
+2071193={
+	name="Sîbel"
+	female=yes
+	dynasty=2066071 #Pehlevanlî
+	culture=kurdish
+	religion=shiite
+	father=2071152
+	mother=2071174
+	2646.11.23={birth=yes}
 }
