@@ -26,7 +26,7 @@ iranian = {
 			Pahlavon Parviz Parvizjon Pulod 
 			Qadriddin Qahhor Qalandar Qobil Qodir_Qadir Qohir_Qahir Qosim_Qasim 
 			Rahim Rahimbay Rahmatullo Rahmon_Rahman Ramazon_Ramadan Rasul Ravshan Ravshanbek Rizo_Riza Ruhullo_Ruhullah Rustam 
-			Safar Safarali Safarbek Said Saidali Saidullo Saimumin Salim Salmon_Salman Salohuddin_Salahuddin Samandar Sanobar Sarvar Savriddin Sayfullo Shahrom Shamsiddin Sharif Shavkat Sherali Sherzod Shirinshoh Shodi Shohtemur Shokir Shomil Shuhrat Shukrullo Sindarbek Sobir Sobirjon Soleh_Saleh Solim_Salim Som_Sam Somon Sulaymon_Solomon Sulton_Sultan Sultonbek Sunatullo 
+			Safar Safarali Safarbek Said Saidali Saidullo Saimumin Salim Salmon_Salman Salohuddin_Salahuddin Samandar Sanobar Sarvar Savriddin Sayfullo_Sayfullah Sayyid_Sayyid Sayyidmurod Shahrom Shamsiddin Sharif Shavkat Sherali Sherzod Shirinshoh Shodi Shohtemur Shokir Shomil Shuhrat Shukrullo Sindarbek Sobir Sobirjon Soleh_Saleh Solim_Salim Som_Sam Somon Sulaymon_Solomon Sulton_Sultan Sultonbek Sunatullo 
 			Tabar Tehron Temur_Timur Tillo Tohir_Tahir Tolib_Talib Turajon Turon Tursun 
 			Ubaydullo_Ubaydullah Umar_Umar Urunboy Usmon_Uthman 
 			Yahyo_John Yoqub_James Yunus_Jonah Yusuf_Joseph Yusufbek 
@@ -55,6 +55,9 @@ iranian = {
 		}
 		
 		from_dynasty_suffix = "i"
+		
+		male_patronym = "zoda"
+		prefix = no
 
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 40
@@ -118,6 +121,8 @@ iranian = {
 			Zamira Zulfiya Zulhumor  
 		}
 		
+		
+		male_patronym = "zoda"
 		from_dynasty_suffix = "i"
 
 		pat_grf_name_chance = 50

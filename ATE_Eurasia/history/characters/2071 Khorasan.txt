@@ -148,7 +148,7 @@
 	dynasty=2112134 #Shayboniy
 	female=yes
 	culture=uzbek
-	religion=nizami
+	religion=ruhi
 	trait=altan_urag
 	trait=elusive_shadow
 	trait=fair
@@ -206,7 +206,7 @@
 	name="Hoshim"
 	dynasty=2112134 #Shayboniy
 	culture=uzbek
-	religion=nizami
+	religion=ruhi
 	trait=altan_urag
 	father=2071012
 	2619.8.1={birth=yes}
@@ -216,7 +216,7 @@
 	name="Murod"
 	dynasty=2112134 #Shayboniy
 	culture=uzbek
-	religion=nizami
+	religion=ruhi
 	trait=altan_urag
 	father=2071014
 	2594.5.30={birth=yes}
@@ -236,7 +236,7 @@
 	name="Muhammad"
 	dynasty=2112134 #Shayboniy
 	culture=uzbek
-	religion=nizami
+	religion=ruhi
 	trait=altan_urag
 	2569.5.9={birth=yes}
 	2622.3.19={death=yes}
@@ -255,7 +255,7 @@
 	name="Baxtiyor"
 	dynasty=2112134 #Shayboniy
 	culture=uzbek
-	religion=nizami
+	religion=ruhi
 	trait=altan_urag
 	trait=strong
 	father=2071015
@@ -806,7 +806,7 @@
 	female=yes
 	dynasty=2112134 #Shayboniy
 	culture=uzbek
-	religion=nizami
+	religion=ruhi
 	trait=altan_urag
 	father=2071012
 	2617.4.21={birth=yes}
@@ -852,7 +852,7 @@
 	female=yes
 	dynasty=2112134 #Shayboniy
 	culture=uzbek
-	religion=nizami
+	religion=ruhi
 	trait=altan_urag
 	father=2071014
 	2605.6.20={birth=yes}
@@ -974,7 +974,7 @@
 	2605.6.30={birth=yes}
 }
 2071088={
-	name="Temurshoh"
+	name="Shirinshoh"
 	dynasty=2096068 #Wakhi
 	culture=pamiri
 	religion=ismaili
@@ -1782,7 +1782,7 @@
 	culture=kurdish
 	religion=shiite
 	2628.2.7={birth=yes}
-	2647.1.1={add_spouse=2071037}
+	2647.1.1={add_spouse=2071035}
 }
 2071160={
 	name="Shahla"
@@ -1996,4 +1996,18 @@
 	religion=deobandi
 	father=2071179
 	2643.8.6={birth=yes}
+}
+2071182={
+	name="Barmak"
+	dynasty=2085104 #Nawbahari
+	culture=pashtun
+	religion=mahayana
+	trait=midas_touched
+	trait=theologian
+	trait=gregarious
+	trait=charitable
+	trait=erudite
+	learning=10
+	2625.1.17={birth=yes}
+	2660.1.1={employer=2071000}
 }

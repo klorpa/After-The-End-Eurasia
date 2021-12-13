@@ -1880,7 +1880,8 @@ e_visegrad = {
 					schwyzer="Berent"
 					palatinate="Berent"
 					alsatian="Berent"}
-				b_czersk = {}
+				b_czersk = {
+					kashubian="Czérskò"}
 			}
 			c_bydgoszcz = {
 				color={ 200 29 33 }
@@ -2132,37 +2133,41 @@ e_visegrad = {
 			color={ 243 119 19 }
 			color2={ 255 255 255 }
 			
-			capital = 805 #Elblag
+			capital = 1339 #Warsaw
 			
-			polish = "Mazowsze"
+			wielkopolan = "Mazowsze"
+			malopolan = "Mazowsze"
+			mazovian = "Mazowsze"
+			odrzan = "Mazowsze"
+			warmzur = "Mazowsze"
 			kashubian = "Mazowsze"
 
-			c_plock = {
+			c_plock = { #1340
 				color={ 243 15 19 }
 				color2={ 255 255 255 }
 				holy_site = mariavite
 
-				b_legionowo = {}
 				b_plock = {}
 				b_ciechanow = {}
-				b_mlawa = {}
-				b_sierpc = {}
-				b_nowy_dwor_mazowiecki = {}
 				b_plonsk = {}
+				b_sierpc = {}
+				b_mlawa = {}
+				b_zuromin = {}
+				b_gabin = {}
 			}
-			c_ostroleka = {
+			c_ostroleka = { #599
 				color={ 247 113 3 }
 				color2={ 255 255 255 }
 
-				b_wyszkow = {}
+				b_modlin = {}
 				b_ostroleka = {}
-				b_marki = {}
+				b_pultusk = {}
+				b_legionowo = {}
+				b_wyszkow = {}
 				b_ostrow_mazowiecka = {}
 				b_przasnysz = {}
-				b_pultusk = {}
-				b_kobylka = {}
 			}
-			c_warsaw = {
+			c_warsaw = { #1339
 				color={ 255 119 124 }
 				color2={ 255 255 255 }
 
@@ -2183,7 +2188,6 @@ e_visegrad = {
 				schwyzer="Warschau"
 				palatinate="Warschau"
 		
-				b_piaseczno = {}
 				b_warsaw = {
 					lithuanian = "Varšuva"
 					latvian = "Varšava"
@@ -2200,37 +2204,39 @@ e_visegrad = {
 					schwyzer="Warschau"
 					palatinate="Warschau"
 				}
+				b_mokotow = {}
+				b_wola = {}
+				b_czersk_2 = {}
 				b_pruszkow = {}
-				b_zyrardow = {}
+				b_piaseczno = {}
 				b_sochaczew = {}
-				b_grodzisk_mazowiecki = {}
-				b_konstancin_jeziorna = {}
 			}
-			c_radom = {
+			c_radom = { #443
 				color={ 203 165 37 }
 				color2={ 255 255 255 }
 
-				b_pionki = {}
-				b_radom = {}
 				b_kozienice = {}
+				b_radom = {}
 				b_grojec = {}
 				b_szydlowiec = {}
-				b_gora_kalwaria = {}
-				b_warka = {}
+				b_janowiec = {}
+				b_zwolen = {
+					yiddish="Zvolin"}
+				b_skaryszew = {} 
 			}
-			c_siedlce = {
+			c_siedlce = { #1321
 				color={ 137 15 19 }
 				color2={ 255 255 255 }
 				
 				yiddish = "Shedlits"
 
 				b_otwock = {}
+				b_praga = {}
 				b_siedlce = {}
-				b_minsk_mazowiecki = {}
 				b_wolomin = {}
-				b_zabki = {}
-				b_sokolow_podlaski = {}
-				b_jozefow = {}
+				b_minsk_mazowiecki = {}
+				b_garwolin = {}
+				b_radzymin = {}
 			}
 		}
 		d_podlasie = {
@@ -2463,21 +2469,31 @@ e_visegrad = {
 			color={ 226 78 78 }
 			color2={ 255 255 255 }
 		
-			capital = 1336 #Rzeszow
+			capital = 1338 #Lodz
 					
-			c_lodz = {
+			c_lodz = { #1338
 				color={ 206 72 78 }
 				color2={ 255 255 255 }
 
-				b_pabianice = {}
 				b_lodz = {}
-				b_gostynin = {}
 				b_zgierz = {}
-				b_skierniewice = {}
+				b_pabianice = {}
 				b_kutno = {}
-				b_sieradz = {}
+				b_gostynin = {}
+				b_leczyca = {
+					rhenish="Lentschitza"
+					low_saxon="Lentschitza"
+					ossi="Lentschitza"
+					upper_saxon="Lentschitza"
+					bavarian="Lentschitza"
+					swabian="Lentschitza"
+					austrian="Lentschitza"
+					schwyzer="Lentschitza"
+					palatinate="Lentschitza"
+					alsatian="Lentschitza"} 
+				b_rawa_mazowiecka = {} 
 			}
-			c_piotrkow = {
+			c_piotrkow = { #1349
 				color={ 167 48 78 }
 				color2={ 255 255 255 }
 				
@@ -2507,11 +2523,11 @@ e_visegrad = {
 					palatinate="Petrikau"
 					yiddish="Petrikev"
 				}
+				b_sieradz = {}
 				b_belchatow = {}
 				b_radomsko = {}
-				b_wielun = {}
+				b_zdunska_wola = {}
 				b_opoczno = {}
-				b_rawa_mazowiecka = {}
 			}
 		}
 	}

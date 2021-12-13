@@ -281,7 +281,9 @@
 	religion=nizami
 	trait=erudite
 	trait=poet
+	trait=sympathy_old_world_cults
 	father=1506034
+	mother=1506082
 	2611.4.15={birth=yes}
 }
 1506022={
@@ -437,6 +439,7 @@
 	culture=tajik
 	religion=nizami
 	father=1506034
+	mother=1506082
 	2617.7.19={birth=yes}
 	2639.1.1={add_spouse=2071015}
 }
@@ -479,6 +482,7 @@
 	intrigue=4
 	learning=8
 	father=1506044
+	mother=1506083
 	2641.2.9={birth=yes}
 	2655.1.1={effect={add_friend=1506000}}
 }
@@ -595,6 +599,7 @@
 	culture=uzbek
 	religion=nizami
 	father=1506046
+	mother=1506084
 	2648.9.18={birth=yes}
 }
 1506048={
@@ -694,6 +699,7 @@
 	culture=uzbek
 	religion=nizami
 	father=1506044
+	mother=1506083
 	2644.7.17={birth=yes}
 }
 1506059={
@@ -735,16 +741,17 @@
 	name="Ábsattar"
 	dynasty=2040146 #Kemel 
 	culture=kazakh
-	religion=taharur
-	father=1506070
-	2601.2.24={birth=yes}
-	2646.1.23={death=yes}
+	religion=zimiran
+	trait=theologian
+	trait=tough_soldier
+	trait=scholar
+	2639.8.31={birth=yes}
 }
 1506072={
 	name="Xudoyor"
 	dynasty=2112136 #Qosimjon 
 	culture=uzbek
-	religion=nizami
+	religion=ruhi
 	trait=gamer
 	2624.12.5={birth=yes}
 }
@@ -752,7 +759,7 @@
 	name="Fayzali"
 	dynasty=2069105 #Osronov 
 	culture=tajik
-	religion=nizami
+	religion=ruhi
 	2637.3.29={birth=yes}
 }
 1506074={
@@ -764,4 +771,116 @@
 	2485.3.30={birth=yes}
 	2501.1.1={add_spouse=1506011}
 	2527.3.22={death=yes}
+}
+1506075={
+	name="Temurmalik"
+	dynasty=2069106 #Ayni
+	culture=uzbek
+	religion=ruhi
+	trait=brave
+	trait=inspiring_leader
+	trait=unyielding_leader
+	trait=defensive_leader
+	trait=midas_touched
+	trait=diligent
+	father=1506079
+	2624.6.14={birth=yes
+		culture=tajik}
+}
+1506076={
+	name="Murod"
+	dynasty=2069073 #Dokhundi
+	culture=tajik
+	religion=nizami
+	father=1506021
+	mother=1506081
+	2634.10.13={birth=yes}
+}
+1506077={
+	name="Kamol"
+	dynasty=2069073 #Dokhundi
+	culture=tajik
+	religion=nizami
+	father=1506021
+	mother=1506081
+	2639.5.21={birth=yes}
+}
+1506078={
+	name="Dilarom"
+	female=yes
+	dynasty=2069073 #Dokhundi
+	culture=tajik
+	religion=nizami
+	father=1506021
+	mother=1506081
+	2637.5.21={birth=yes}
+	2656.1.1={add_spouse=1506073}
+}
+1506079={
+	name="Arslonbek"
+	dynasty=2069106 #Ayni
+	culture=uzbek
+	religion=ruhi
+	father=1506080
+	2600.6.4={birth=yes
+		culture=tajik}
+	2661.11.14={death=yes}
+}
+1506080={
+	name="Urunboy"
+	dynasty=2069106 #Ayni
+	culture=uzbek
+	religion=ruhi
+	2578.10.2={birth=yes
+		culture=tajik}
+	2635.8.13={death=yes}
+}
+1506081={
+	name="Turdikhon"
+	female=yes
+	dynasty=2069106 #Ayni
+	culture=uzbek
+	religion=ruhi
+	father=1506080
+	2614.6.8={birth=yes
+		culture=tajik}
+	2633.1.1={add_spouse=1506021}
+}
+1506082={
+	name="Delkash"
+	female=yes
+	dynasty=0
+	culture=tajik
+	religion=nizami
+	2590.7.30={birth=yes}
+	2610.1.1={add_spouse=1506034}
+}
+1506083={
+	name="Mu'tabar"
+	female=yes
+	dynasty=0
+	culture=tajik
+	religion=nizami
+	2618.10.18={birth=yes}
+	2638.1.1={add_spouse=1506044}
+	2655.12.5={death=yes}
+}
+1506084={
+	name="Galya"
+	female=yes
+	dynasty=0
+	culture=kazakh
+	religion=zimiran
+	2630.6.15={birth=yes}
+	2637.1.1={add_spouse=1506046}
+}
+1506085={
+	name="Indira"
+	female=yes
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=nizami
+	father=1506046
+	mother=1506084
+	2649.10.9={birth=yes}
 }
