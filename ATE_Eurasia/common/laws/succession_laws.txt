@@ -1069,7 +1069,16 @@ succession_laws = {
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
-					culture_group = celtic
+					culture=highlander
+					culture=lowlander
+					culture=ulsterman
+					culture=irish
+					culture=manx
+					culture=welsh
+					culture=cornish
+					culture=nynorn
+					culture=scouse
+					
 					any_owned_bloodline = {
 						has_bloodline_flag = bloodline_tanistry
 					}
@@ -1093,7 +1102,16 @@ succession_laws = {
 			OR = {
 				holder_scope = {
 					OR = {
-						culture_group = celtic
+					culture=highlander
+					culture=lowlander
+					culture=ulsterman
+					culture=irish
+					culture=manx
+					culture=welsh
+					culture=cornish
+					culture=nynorn
+					culture=scouse
+					
 						any_owned_bloodline = {
 							has_bloodline_flag = bloodline_tanistry
 						}
