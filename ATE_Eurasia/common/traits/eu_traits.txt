@@ -1075,63 +1075,6 @@ shafii = {
 	religious = yes
 	ruler_designer_cost = 0
 }
-hanafi_aas = {
-	opposites = {
-		maliki_aas
-		shafii_aas
-	}
-	potential = {
-		religion = ahl_as_salah
-	}
-	opposite_opinion = -5
-	same_opinion = 10
-	
-	monthly_character_piety = 1
-	learning = 1
-	
-	religious_branch = ahl_as_salah
-	random = no
-	religious = yes
-	ruler_designer_cost = 0
-}
-maliki_aas = {
-	opposites = {
-		hanafi_aas
-		shafii_aas
-	}
-	potential = {
-		religion = ahl_as_salah
-	}
-	opposite_opinion = -5
-	same_opinion = 10
-	
-	monthly_character_piety = 1
-	learning = 1
-	
-	religious_branch = ahl_as_salah
-	random = no
-	religious = yes
-	ruler_designer_cost = 0
-}
-shafii_aas = {
-	opposites = {
-		hanafi_aas
-		maliki_aas
-	}
-	potential = {
-		religion = ahl_as_salah
-	}
-	opposite_opinion = -5
-	same_opinion = 10
-	
-	monthly_character_piety = 1
-	learning = 1
-	
-	religious_branch = ahl_as_salah
-	random = no
-	religious = yes
-	ruler_designer_cost = 0
-}
 hanafi_sunnah = {
 	opposites = {
 		maliki_sunnah

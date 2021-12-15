@@ -1446,7 +1446,6 @@ character_event = { #Madhab Trait Dispensing (on_startup and on_adulthood checki
 	trigger = {
 		OR = {
 			religion = sunnah
-			religion = ahl_as_salah
 			religion = sunni
 		}
 	}
@@ -1491,7 +1490,6 @@ character_event = { #Madhab Trait Dispensing (on_startup and on_adulthood checki
 					culture = dhofari
 					culture_group = cushitic
 				}
-				religion = ahl_as_salah
 			}
 			add_trait = shafii_aas
 			remove_trait = maliki_aas
@@ -1540,7 +1538,6 @@ character_event = { #Madhab Trait Dispensing (on_startup and on_adulthood checki
 					}
 					culture_group = arabic
 				}
-				religion = ahl_as_salah
 			}
 			random_list = {
 				20 = {add_trait = shafii_aas}
@@ -1590,7 +1587,6 @@ character_event = { #Madhab Trait Dispensing (on_startup and on_adulthood checki
 					culture_group = caucasian
 					culture_group = iranian
 				}
-				religion = ahl_as_salah
 			}
 			add_trait = hanafi_aas
 			remove_trait = maliki_aas
@@ -1638,7 +1634,6 @@ character_event = { #Madhab Trait Dispensing (on_startup and on_adulthood checki
 						culture = dhofari
 					}
 				}
-				religion = ahl_as_salah
 			}
 			add_trait = maliki_aas
 			remove_trait = hanafi_aas
@@ -1683,7 +1678,6 @@ character_event = { #Madhab Trait Dispensing (on_startup and on_adulthood checki
 					culture_group = amazigh
 					culture = tigre
 				}
-				religion = ahl_as_salah
 			}
 			add_trait = maliki_aas
 			remove_trait = hanafi_aas

@@ -1041,7 +1041,6 @@ narrative_event = { #Turns these Sunni Religions into Heresies
 		set_parent_religion = { religion = sunni parent = sunnah }
 		set_parent_religion = { religion = nizami parent = sunnah }
 		set_parent_religion = { religion = ruhi parent = sunnah }
-		set_parent_religion = { religion = ahl_as_salah parent = sunnah }
 		
 		hidden_tooltip = {
 			any_playable_ruler = {
@@ -1050,7 +1049,6 @@ narrative_event = { #Turns these Sunni Religions into Heresies
 						religion = sunni
 						religion = nizami
 						religion = ruhi
-						religion = ahl_as_salah
 					}
 					controls_religion = no
 				}
@@ -1080,7 +1078,6 @@ narrative_event = {
 						religion = sunni
 						religion = nizami
 						religion = ruhi
-						religion = ahl_as_salah
 					}
 				liege = { character = ROOT }
 			}
@@ -1125,10 +1122,6 @@ character_event = { #Choosing a madhab
 			limit = {religion = sunnah}
 			add_trait = hanafi_sunnah
 		}
-		else_if = {
-			limit = {religion = ahl_as_salah}
-			add_trait = hanafi_aas
-		}
 		ai_chance = {
 			factor = 1
 			modifier = { 
@@ -1172,10 +1165,6 @@ character_event = { #Choosing a madhab
 			limit = {religion = sunnah}
 			add_trait = maliki_sunnah
 		}
-		else_if = {
-			limit = {religion = ahl_as_salah}
-			add_trait = maliki_aas
-		}
 		ai_chance = {
 			factor = 1
 			modifier = { 
@@ -1208,10 +1197,6 @@ character_event = { #Choosing a madhab
 		else_if = {
 			limit = {religion = sunnah}
 			add_trait = shafii_sunnah
-		}
-		else_if = {
-			limit = {religion = ahl_as_salah}
-			add_trait = shafii_aas
 		}
 		ai_chance = {
 			factor = 1
