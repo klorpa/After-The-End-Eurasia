@@ -69,3 +69,14 @@ on_siege_over_winner = {
 		50 = jedinstvo.14 # Taking Hero Burial Site
 	}
 }
+
+# An offmap power changes its ruler. Triggers for the new ruler
+# Root = New ruler
+# From = Old ruler
+# FromFrom = Offmap
+on_offmap_ruler_changed = {
+	events = {
+		EL.10005 # In case of dynasty change...
+		EL.50000 # Select a new Policy and send News Event
+	}
+}
