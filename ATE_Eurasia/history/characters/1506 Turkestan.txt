@@ -23,6 +23,7 @@
 	stewardship=5
 	intrigue=7
 	learning=4
+	properties=ag00f
 	2633.2.22={birth=yes}
 	2664.8.11={effect={add_claim=k_fergana}}
 }
@@ -62,7 +63,9 @@
 	trait=brave
 	trait=erudite
 	trait=child_of_consort
+	trait=sympathy_pagans
 	martial=5
+	properties=ad00i
 	2648.8.11={birth=yes}
 	2648.8.11={effect={
 		add_claim=c_osh
@@ -574,6 +577,7 @@
 	culture=uzbek
 	religion=nizami
 	father=1506045
+	mother=1506129
 	2619.9.23={birth=yes}
 	2659.12.3={death=yes}
 }
@@ -612,6 +616,7 @@
 	culture=uzbek
 	religion=nizami
 	father=1506045
+	mother=1506129
 	2622.12.10={birth=yes}
 }
 1506049={
@@ -931,6 +936,7 @@
 	culture=uzbek
 	religion=nizami
 	father=1506045
+	mother=1506129
 	2626.4.21={birth=yes}
 	2641.1.1={add_spouse=1506075}
 }
@@ -1065,6 +1071,7 @@
 	trait=humble
 	trait=wroth
 	trait=stubborn
+	father=1506135
 	trait=flat_terrain_leader
 	2641.11.12={birth=yes}
 }
@@ -1167,6 +1174,7 @@
 	dynasty=2040148 #Ábilqaiyruly
 	culture=kazakh
 	religion=zimiran
+	father=1506130
 	2581.1.1={birth=yes}
 	2632.12.31={death=yes}
 }
@@ -1191,6 +1199,7 @@
 }
 1506110={
 	name="Oisha"
+	female=yes
 	dynasty=2069105 #Osronov 
 	culture=tajik
 	religion=ruhi
@@ -1241,6 +1250,7 @@
 	trait=diligent
 	trait=charitable
 	give_nickname=nick_burannyi
+	father=1506128
 	2611.5.7={birth=yes}
 	2660.1.1={add_consort=1506116}
 }
@@ -1285,6 +1295,7 @@
 	culture=kazakh
 	religion=ruhi
 	trait=altan_urag
+	father=1506126
 	2619.6.10={birth=yes}
 	2657.9.26={death=yes}
 }
@@ -1310,7 +1321,8 @@
 	trait=diligent
 	father=1506119
 	2646.3.13={birth=yes}
-	2666.1.1={add_spouse=1506117}
+	2666.1.1={add_spouse=1506117
+		effect={add_friend=1506117}}
 }
 1506121={
 	name="Riza"
@@ -1354,4 +1366,117 @@
 	religion=zimiran
 	father=1506124
 	2640.1.22={birth=yes}
+}
+1506126={
+	name="Buryndyq"
+	dynasty=2040153 #Töre 
+	culture=kazakh
+	religion=ruhi
+	trait=altan_urag
+	2584.6.10={birth=yes}
+	2639.5.14={death=yes}
+}
+1506127={
+	name="Kámshat"
+	female=yes
+	dynasty=2040153 #Töre 
+	culture=kazakh
+	religion=ruhi
+	trait=altan_urag
+	father=1506126
+	2625.8.9={birth=yes}
+	2645.1.1={add_spouse=1506072}
+}
+1506128={
+	name="Mádi"
+	dynasty=2040114 #Aiymetov 
+	culture=kazakh
+	religion=zimiran
+	2581.2.14={birth=yes}
+	2640.4.22={death=yes}
+}
+1506129={
+	name="Gúlnar"
+	female=yes
+	dynasty=2040114 #Aiymetov 
+	culture=kazakh
+	religion=zimiran
+	father=1506128
+	2600.9.9={birth=yes}
+	2618.1.1={add_spouse=1506045}
+}
+1506130={
+	name="Kenjeq"
+	dynasty=2040148 #Ábilqaiyruly
+	culture=kazakh
+	religion=zimiran
+	father=1506131
+	2559.6.23={birth=yes}
+	2611.4.19={death=yes}
+}
+1506131={
+	name="Nurpeiis"
+	dynasty=2040148 #Ábilqaiyruly
+	culture=kazakh
+	religion=zimiran
+	father=1506132
+	trait=poet
+	2542.2.12={birth=yes}
+	2600.4.29={death=yes}
+}
+1506132={
+	name="Ábilqaiyr"
+	dynasty=2040148 #Ábilqaiyruly
+	culture=kazakh
+	religion=zimiran
+	father=1506133
+	mother=1506134
+	2523.9.4={birth=yes}
+	2559.6.17={death=yes}
+}
+1506133={
+	name="Áljan"
+	dynasty=2040155 #Baighanin
+	culture=kazakh
+	religion=zimiran
+	trait=depressed
+	2497.11.12={birth=yes}
+	2548.6.17={death={death_reason=death_trait}}
+}
+1506134={
+	name="Hadisha"
+	female=yes
+	dynasty=2040156 #Arghyn
+	culture=kazakh
+	religion=zimiran
+	2497.11.12={birth=yes}
+	2522.1.1={add_spouse=1506133}
+	2546.3.9={death=yes}
+}
+1506135={
+	name="Eljan"
+	dynasty=2040151 #Qarakesek
+	culture=kazakh
+	religion=zimiran
+	father=1506136
+	2612.8.14={birth=yes}
+	2665.8.2={death=yes}
+}
+1506136={
+	name="Myrzageldi"
+	dynasty=2040151 #Qarakesek
+	culture=kazakh
+	religion=zimiran
+	2584.12.13={birth=yes}
+	2640.5.7={death=yes}
+}
+1506137={
+	name="Aqtoty"
+	female=yes
+	dynasty=2040151 #Qarakesek
+	culture=kazakh
+	religion=zimiran
+	father=1506136
+	2610.2.16={birth=yes}
+	2630.1.1={add_spouse=1506096}
 }

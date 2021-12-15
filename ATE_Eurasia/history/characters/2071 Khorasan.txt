@@ -975,12 +975,14 @@
 	trait=giant
 	father=2071183
 	2605.6.30={birth=yes}
+	2630.1.1={add_spouse=2071196}
 }
 2071088={
 	name="Shirinshoh"
 	dynasty=2096068 #Wakhi
 	culture=pamiri
 	religion=ismaili
+	father=2071195
 	2620.6.11={birth=yes}
 }
 2071089={
@@ -2095,11 +2097,13 @@
 }
 2071191={
 	name="Gulaiym"
+	female=yes
 	dynasty=2069083 #Makhan
 	culture=kyrgyz
 	religion=nizami
 	trait=giant
 	father=2071087
+	mother=2071196
 	2641.7.1={birth=yes}
 	2658.1.1={add_spouse=1506076}
 }
@@ -2122,4 +2126,86 @@
 	father=2071152
 	mother=2071174
 	2646.11.23={birth=yes}
+}
+2071194={
+	name="Sherzod"
+	dynasty=2096068 #Wakhi
+	culture=pamiri
+	religion=ismaili
+	2564.11.25={birth=yes}
+	2613.10.6={death=yes}
+}
+2071195={
+	name="Muhiddin"
+	dynasty=2096068 #Wakhi
+	culture=pamiri
+	religion=ismaili
+	father=2071194
+	2589.9.12={birth=yes}
+	2645.2.25={death=yes}
+}
+2071196={
+	name="Munzifa"
+	female=yes
+	dynasty=2096068 #Wakhi
+	culture=pamiri
+	religion=ismaili
+	father=2071194
+	2608.6.18={birth=yes}
+}
+2071197={
+	name="Ravshanbek"
+	dynasty=2096068 #Wakhi
+	culture=pamiri
+	religion=ismaili
+	father=2071088
+	2642.1.8={birth=yes}
+}
+2071198={
+	name="Dilnoz"
+	female=yes
+	dynasty=2096068 #Wakhi
+	culture=pamiri
+	religion=ismaili
+	father=2071088
+	2643.1.4={birth=yes}
+}
+2071199={
+	name="Abdykadyr"
+	dynasty=2069083 #Makhan
+	culture=kyrgyz
+	religion=nizami
+	trait=giant
+	father=2071087
+	mother=2071196
+	2644.3.13={birth=yes}
+}
+2071200={
+	name="Shakirbek"
+	dynasty=2069083 #Makhan
+	culture=kyrgyz
+	religion=nizami
+	trait=giant
+	father=2071087
+	mother=2071196
+	2629.9.18={birth=yes}
+}
+2071201={
+	name="Edil"
+	dynasty=2069083 #Makhan
+	culture=kyrgyz
+	religion=nizami
+	trait=giant
+	father=2071087
+	mother=2071196
+	2637.10.4={birth=yes}
+}
+2071202={
+	name="Aydana"
+	dynasty=2069083 #Makhan
+	culture=kyrgyz
+	religion=nizami
+	father=2071087
+	mother=2071196
+	2635.2.16={birth=yes}
 }
