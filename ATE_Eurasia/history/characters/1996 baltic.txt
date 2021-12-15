@@ -1014,12 +1014,24 @@
 	2670.8.15={death=yes}
 }
 1996070={
-	name="Nichal"
-	dynasty=2941002
+	name="Henryk"
+	dynasty=2125237 #Kur
 	culture=mazovian
 	religion=mariavite
-	2632.3.19={birth=yes}
-	2690.5.25={death=yes}
+	trait=charismatic_negotiator
+	trait=sturdy
+	trait=celibate
+	trait=administrator
+	trait=holy_warrior
+	trait=falconer
+	trait=temperate
+	trait=diligent
+	trait=proud
+	trait=brave
+	trait=just
+	trait=experimenter
+	2611.5.17={birth=yes}
+	2660.1.1={effect={add_friend=19911055}}
 }
 1996071={
 	name="Alyona"
@@ -1100,7 +1112,7 @@
 	trait=holy_warrior
 	trait=stressed
 	2613.3.6={birth=yes}
-	2655.8.12={death={death_reason=death_battle killer=1996070}}
+	2655.8.12={death={death_reason=death_battle killer=1996084}}
 }
 1996077={
 	name="Yulia"
@@ -1146,7 +1158,7 @@
 	trait=holy_warrior
 	2630.10.20={birth=yes}
 	2648.1.1={add_spouse=1996079}
-	2655.8.12={death={death_reason=death_battle killer=1996070}}
+	2655.8.12={death={death_reason=death_battle killer=1996084}}
 }
 1996081={
 	name="Cezary"
@@ -1177,4 +1189,34 @@
 	culture=kaliningradyets
 	religion=proletcult
 	2611.3.16={birth=yes}
+}
+1996084={
+	name="Leona"
+	dynasty=1948141 #Bonhart
+	female=yes
+	culture=mazovian
+	religion=mariavite
+	trait=brilliant_strategist
+	trait=diligent
+	trait=celibate
+	trait=zealous
+	trait=holy_warrior
+	trait=strong
+	trait=duelist
+	trait=chaste
+	trait=cruel
+	trait=wroth
+	trait=trickster
+	father=1996085
+	2619.9.11={birth=yes}
+	2650.1.1={employer=1996070}
+	2659.2.21={effect={give_job_title=job_marshal}}
+}
+1996085={
+	name="Julius"
+	dynasty=1948141 #Bonhart
+	culture=ossi
+	religion=mariavite
+	2594.6.5={birth=yes}
+	2627.5.5={death=yes}
 }

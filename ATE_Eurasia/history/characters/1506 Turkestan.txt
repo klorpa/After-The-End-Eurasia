@@ -761,14 +761,15 @@
 1506072={
 	name="Xudoyor"
 	dynasty=2112136 #Ming 
-	culture=uzbek
+	culture=tajik
 	religion=ruhi
 	trait=gamer
 	trait=giant
 	trait=paranoid
 	father=1506087
 	mother=2071184
-	2624.12.5={birth=yes}
+	2624.12.5={birth=yes
+		culture=uzbek}
 }
 1506073={
 	name="Fayzali"
@@ -776,6 +777,7 @@
 	culture=tajik
 	religion=ruhi
 	father=1506092
+	mother=1506140
 	2637.3.29={birth=yes}
 }
 1506074={
@@ -924,9 +926,10 @@
 1506087={
 	name="Nasriddin"
 	dynasty=2112136 #Ming 
-	culture=uzbek
+	culture=tajik
 	religion=ruhi
-	2596.10.13={birth=yes}
+	2596.10.13={birth=yes
+		culture=uzbek}
 	2657.10.29={death=yes}
 }
 1506088={
@@ -978,6 +981,7 @@
 	culture=tajik
 	religion=ruhi
 	father=1506093
+	mother=1506140
 	2602.10.18={birth=yes}
 	2648.3.30={death=yes}
 }
@@ -996,6 +1000,7 @@
 	culture=tajik
 	religion=ruhi
 	father=1506092
+	mother=1506140
 	2635.5.10={birth=yes}
 	2655.4.25={add_spouse=1506048}
 }
@@ -1027,6 +1032,7 @@
 	martial=9
 	father=1506108
 	2607.9.3={birth=yes}
+	2660.1.1={effect={add_rival=1506109}}
 }
 1506097={
 	name="Ruslan"
@@ -1213,6 +1219,7 @@
 	culture=tajik
 	religion=ruhi
 	father=1506092
+	mother=1506140
 	2639.7.12={birth=yes}
 }
 1506112={
@@ -1221,6 +1228,7 @@
 	culture=tajik
 	religion=ruhi
 	father=1506092
+	mother=1506140
 	2641.7.3={birth=yes}
 }
 1506113={
@@ -1305,7 +1313,8 @@
 	culture=kazakh
 	religion=zimiran
 	2612.9.12={birth=yes}
-	2663.8.30={death={death_reason=death_battle}}
+	2663.8.30={death={death_reason=death_battle}
+		killer=1506096}
 }
 1506120={
 	name="Amira"
@@ -1479,4 +1488,47 @@
 	father=1506136
 	2610.2.16={birth=yes}
 	2630.1.1={add_spouse=1506096}
+}
+1506138={
+	name="Dálelhan"
+	dynasty=2040157 #Qajyghumaruly
+	culture=kazakh
+	religion=ak_jeng
+	2629.3.10={birth=yes}
+}
+1506139={
+	name="Dinmuhammed"
+	dynasty=2040148 #Ábilqaiyruly
+	culture=kazakh
+	religion=zimiran
+	father=1506096
+	mother=1506137
+	trait=musician
+	trait=charitable
+	trait=sympathy_islam
+	trait=sympathy_christendom
+	2639.5.24={birth=yes}
+	2660.1.1={effect={add_rival=1506109}}
+}
+1506140={
+	name="Tanzila"
+	female=yes
+	dynasty=2112136 #Ming 
+	culture=uzbek
+	religion=ruhi
+	trait=poet
+	father=1506087
+	mother=2071184
+	2618.3.28={birth=yes}
+	2634.1.1={add_spouse=1506092}
+}
+1506141={
+	name="Islam"
+	dynasty=2040158 #Tursyn 
+	culture=kazakh
+	religion=ruhi
+	trait=zealous
+	trait=humble
+	trait=stressed
+	2604.5.29={birth=yes}
 }
