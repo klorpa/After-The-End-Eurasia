@@ -1677,3 +1677,17 @@ partisan = {
 	religious = yes
 	customizer = no 
 }
+akhbari = {
+	martial = 1
+	
+	religious = yes # Lost immediately on religion change
+	
+	potential = {
+		religion = shiite
+	}
+	
+	shiite_opinion = -10
+	cached = yes
+	customizer = no
+	random = no
+}
