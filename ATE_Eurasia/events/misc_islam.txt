@@ -1110,13 +1110,10 @@ character_event = { #Choosing a madhab
 	option = {
 		name = EVTOPTA_madhab_switch
 		hidden_tooltip = {
-			remove_trait = hanbali
 			remove_trait = maliki
 			remove_trait = shafii
-			remove_trait = hanbali_aas
 			remove_trait = maliki_aas
 			remove_trait = shafii_aas
-			remove_trait = hanbali_sunnah
 			remove_trait = maliki_sunnah
 			remove_trait = shafii_sunnah
 		}
@@ -1157,57 +1154,14 @@ character_event = { #Choosing a madhab
 			}
 		}
 	}
-
-	option = {
-		name = EVTOPTB_madhab_switch
-		hidden_tooltip = {
-			remove_trait = hanafi
-			remove_trait = maliki
-			remove_trait = shafii
-			remove_trait = hanafi_aas
-			remove_trait = maliki_aas
-			remove_trait = shafii_aas
-			remove_trait = hanafi_sunnah
-			remove_trait = maliki_sunnah
-			remove_trait = shafii_sunnah
-		}
-		if = {
-			limit = {religion = sunni}
-			add_trait = hanbali
-		}
-		else_if = {
-			limit = {religion = sunnah}
-			add_trait = hanbali_sunnah
-		}
-		else_if = {
-			limit = {religion = ahl_as_salah}
-			add_trait = hanbali_aas
-		}
-		ai_chance = {
-			factor = 1
-			modifier = { 
-				factor = 20
-				OR = {
-					culture = bahrayni
-					culture = najdi
-					culture = badawi
-					culture = hijazi
-				}
-			}
-
-		}
-	}
 	option = {
 		name = EVTOPTC_madhab_switch
 		hidden_tooltip = {
 			remove_trait = hanafi
-			remove_trait = hanbali
 			remove_trait = shafii
 			remove_trait = hanafi_aas
-			remove_trait = hanbali_aas
 			remove_trait = shafii_aas
 			remove_trait = hanafi_sunnah
-			remove_trait = hanbali_sunnah
 			remove_trait = shafii_sunnah
 		}
 		if = {
@@ -1241,13 +1195,10 @@ character_event = { #Choosing a madhab
 		name = EVTOPTD_madhab_switch
 		hidden_tooltip = {
 			remove_trait = hanafi
-			remove_trait = hanbali
 			remove_trait = maliki
 			remove_trait = hanafi_aas
-			remove_trait = hanbali_aas
 			remove_trait = maliki_aas
 			remove_trait = hanafi_sunnah
-			remove_trait = hanbali_sunnah
 			remove_trait = maliki_sunnah
 		}
 		if = {

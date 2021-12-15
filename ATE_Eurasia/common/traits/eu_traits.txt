@@ -1020,27 +1020,6 @@ azzabas = {
 }
 hanafi = {
 	opposites = {
-		hanbali
-		maliki
-		shafii
-	}
-	potential = {
-		religion = sunni
-	}
-	opposite_opinion = -5
-	same_opinion = 10
-	
-	monthly_character_piety = 1
-	learning = 1
-	
-	religious_branch = sunni
-	random = no
-	religious = yes
-	ruler_designer_cost = 0
-}
-hanbali = {
-	opposites = {
-		hanafi
 		maliki
 		shafii
 	}
@@ -1061,7 +1040,6 @@ hanbali = {
 maliki = {
 	opposites = {
 		hanafi
-		hanbali
 		shafii
 	}
 	potential = {
@@ -1081,7 +1059,6 @@ maliki = {
 shafii = {
 	opposites = {
 		hanafi
-		hanbali
 		maliki
 	}
 	potential = {
@@ -1100,27 +1077,6 @@ shafii = {
 }
 hanafi_aas = {
 	opposites = {
-		hanbali_aas
-		maliki_aas
-		shafii_aas
-	}
-	potential = {
-		religion = ahl_as_salah
-	}
-	opposite_opinion = -5
-	same_opinion = 10
-	
-	monthly_character_piety = 1
-	learning = 1
-	
-	religious_branch = ahl_as_salah
-	random = no
-	religious = yes
-	ruler_designer_cost = 0
-}
-hanbali_aas = {
-	opposites = {
-		hanafi_aas
 		maliki_aas
 		shafii_aas
 	}
@@ -1141,7 +1097,6 @@ hanbali_aas = {
 maliki_aas = {
 	opposites = {
 		hanafi_aas
-		hanbali_aas
 		shafii_aas
 	}
 	potential = {
@@ -1161,7 +1116,6 @@ maliki_aas = {
 shafii_aas = {
 	opposites = {
 		hanafi_aas
-		hanbali_aas
 		maliki_aas
 	}
 	potential = {
@@ -1180,27 +1134,6 @@ shafii_aas = {
 }
 hanafi_sunnah = {
 	opposites = {
-		hanbali_sunnah
-		maliki_sunnah
-		shafii_sunnah
-	}
-	potential = {
-		religion = sunnah
-	}
-	opposite_opinion = -5
-	same_opinion = 10
-	
-	monthly_character_piety = 1
-	learning = 1
-	
-	religious_branch = sunnah
-	random = no
-	religious = yes
-	ruler_designer_cost = 0
-}
-hanbali_sunnah = {
-	opposites = {
-		hanafi_sunnah
 		maliki_sunnah
 		shafii_sunnah
 	}
@@ -1221,7 +1154,6 @@ hanbali_sunnah = {
 maliki_sunnah = {
 	opposites = {
 		hanafi_sunnah
-		hanbali_sunnah
 		shafii_sunnah
 	}
 	potential = {
@@ -1241,7 +1173,6 @@ maliki_sunnah = {
 shafii_sunnah = {
 	opposites = {
 		hanafi_sunnah
-		hanbali_sunnah
 		maliki_sunnah
 	}
 	potential = {
@@ -1688,9 +1619,6 @@ altan_urag = {
 }
 
 armenian_rite = {
-	potential = {
-		has_global_flag = armenian_rite_restored
-	}
 	opposites = {
 		latin_rite
 		byzantine_rite
