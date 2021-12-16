@@ -6180,7 +6180,19 @@ coat_of_arms = {
 1949089 = { name="Bach" culture=bavarian}
 1949090 = { name="Grieser" culture=bavarian}
 1949091 = { name="Mayr" culture=bavarian}
-1949092 = { name="Kraus" culture=bavarian}
+1949092 = { name="Kraus" culture=bavarian
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 65
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1949093 = { name="Wimmer" culture=bavarian}
 1949094 = { name="Brunner" culture=bavarian}
 1949095 = { name="Stadler" culture=bavarian}
