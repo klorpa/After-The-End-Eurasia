@@ -25,15 +25,20 @@ decisions = {
 				has_disability_trigger = yes
 				is_inaccessible_trigger = yes
 			}
+			hidden_tooltip = {
+				NOT = {
+					has_character_flag = adoring_eucharist
+				}
+			}
 			custom_tooltip = {
 				text = is_not_busy_trigger_tooltip
 				hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
 			}
 			prisoner = no
-			piety = 100
+			piety = 50
 		}
 		effect = {
-			piety = -100
+			piety = -50
 			set_character_flag = do_not_disturb
 			hidden_tooltip = { id = mariavite.1 days = 10 }
 		}
