@@ -344,16 +344,21 @@ decisions = {
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
+			NOT = {
+				has_character_flag = selecting_jedinstvo_deity
+			}
 			religion = jedinstvo
 			is_adult = yes
 			has_jedinstvo_deity_trigger = no
 		}
 		allow = {
 			block_general_event_trigger = no
-			piety = 0
+			piety = 100
 		}
 		effect = {
 			character_event = { id = jedinstvo.27 }
+			set_character_flag = selecting_jedinstvo_deity
+			piety = -100
 		}
 		revoke_allowed = {
 			always = no
