@@ -95,6 +95,8 @@
 # 7D. Walhalla in Germany .......... wonder_walhalla
 # 7E. Orszaghaz Palace in Hungary .. wonder_orszaghaz
 # 7F. Sri Ranganathaswamy Temple in Tamil Nadu ............ wonder_ranganathaswamy
+# 7G. Colosseum .............. wonder_colosseum
+# 7H. Biblioteca Marciana ............... wonder_biblioteca_marciana
 
 ###################################################################
 
@@ -3305,6 +3307,265 @@ wonder_ranganathaswamy = {
 		}
 	}
 }
+#7G Colosseum 
+wonder_colosseum = {
+	picture = GFX_wonder_strip_colosseum
+	show_model = no 
+	potential = { 
+		OR = {
+			religion_group = christian
+			religion_group = scholastic
+			religion_group = old_world_cultist
+			religion_group = muslim
+			religion_group = pagan_group
+			religion_group = indian_group
+			religion_group = jewish_group
+			religion_group = vernacular
+			religion_group = islamosyncretic
+		}
+		trigger_if = {
+			limit = {
+				religion_group = pagan_group
+			}
+			ROOT = {
+				is_reformed_religion = yes
+			}
+		}
+	}
+	active = {
+		trigger_if = {
+			limit = {
+				religion_group = pagan_group
+			}
+			ROOT = {
+				is_reformed_religion = yes
+			}
+		}
+	}
+	flags = {
+		monument
+		inspires_greatness
+		is_destructible
+		cost_high
+	}
+	available_upgrades = { 
+		# UNIQUE UPGRADES TBD
+		
+		# OTHER 
+		upgrade_catacombs
+		upgrade_giant_banners
+		upgrade_watch_tower
+		upgrade_collection_drama
+		upgrade_dueling_room
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 350
+		gold_cost_flat = 2600
+		gold_cost_ticking = 3
+		restore_time = 100
+		restore_cost_flat = 350
+		restore_cost_ticking = 2
+		loot_time = 6
+		upgrade_slots = 2 
+		local_modifier = {
+			local_revolt_risk = -0.05
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.05
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 500
+		gold_cost_flat = 3200
+		gold_cost_ticking = 4
+		restore_time = 125
+		restore_cost_flat = 600
+		restore_cost_ticking = 3
+		loot_time = 8
+		upgrade_slots = 2
+		local_modifier = {
+			local_revolt_risk = -0.075
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 700
+		gold_cost_flat = 3800
+		gold_cost_ticking = 5
+		restore_time = 150
+		restore_cost_flat = 750
+		restore_cost_ticking = 4
+		loot_time = 10
+		upgrade_slots = 2
+		local_modifier = {
+			local_revolt_risk = -0.1
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.15 
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 1000
+		gold_cost_flat = 4400
+		gold_cost_ticking = 6
+		restore_time = 175
+		restore_cost_flat = 900
+		restore_cost_ticking = 4
+		loot_time = 12
+		upgrade_slots = 2 
+		local_modifier = {
+			local_revolt_risk = -0.125 
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.2
+		}
+	}
+}
+# 7H. Biblioteca Marciana 
+wonder_biblioteca_marciana = {
+	picture = GFX_wonder_strip_biblioteca_marciana
+	show_model = no 
+	allow_coastal = yes 
+	potential = {
+		trigger_if = {
+			limit = {
+				AND = {
+					religion_group = christian
+					religion_group = scholastic
+					religion_group = old_world_cultist
+					religion_group = muslim
+					religion_group = pagan_group
+					religion_group = indian_group
+					religion_group = jewish_group
+					religion_group = vernacular
+					religion_group = islamosyncretic
+					NOT = {
+						is_tribal = yes
+					}
+				}
+			}
+		}
+	}
+	active = {
+		ROOT = {
+			trigger_if = {
+				AND = {
+					religion_group = christian
+					religion_group = scholastic
+					religion_group = old_world_cultist
+					religion_group = muslim
+					religion_group = pagan_group
+					religion_group = indian_group
+					religion_group = jewish_group
+					religion_group = vernacular
+					religion_group = islamosyncretic
+					NOT = {
+						is_tribal = yes
+					}
+				}
+			}
+		}
+	}
+	flags = {
+		library
+		inspires_learning
+		inspires_relaxing
+		is_coastal
+		is_destructible
+		cost_low
+	}
+	available_upgrades = {
+		# UNIQUE UPGRADES TBD
+
+		# OTHER
+		upgrade_collection_science
+		upgrade_collection_drama
+		upgrade_collection_history
+		upgrade_vault
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 100 
+		gold_cost_flat = 1400 
+		gold_cost_ticking = 3
+		loot_time = 3
+		restore_time = 150 
+		restore_cost_flat = 300
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+			tech_growth_modifier_culture = 0.15 
+		}
+		owner_modifier = {
+			learning = 1 
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 200 
+		gold_cost_flat = 1600 
+		gold_cost_ticking = 3
+		loot_time = 4
+		restore_time = 150 
+		restore_cost_flat = 400
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+			tech_growth_modifier_culture = 0.20
+		}
+		owner_modifier = {
+			learning = 1 
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300 
+		gold_cost_flat = 1800 
+		gold_cost_ticking = 4
+		loot_time = 4
+		restore_time = 200
+		restore_cost_flat = 500
+		restore_cost_ticking = 3
+		upgrade_slots = 2
+		local_modifier = {
+			tech_growth_modifier_culture = 0.25 
+		}
+		owner_modifier = {
+			learning = 1 
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 400
+		gold_cost_flat = 2000 
+		gold_cost_ticking = 4
+		loot_time = 6
+		restore_time = 250
+		restore_cost_flat = 600
+		restore_cost_ticking = 3
+		upgrade_slots = 2
+		local_modifier = {
+			tech_growth_modifier_culture = 0.30 
+		}
+		owner_modifier = {
+			learning = 2
+		}
+	}
+}
 # 2A. The Motherland Calls
 wonder_motherland_calls = {
 	allow_coastal = yes
@@ -3366,7 +3627,7 @@ wonder_motherland_calls = {
 		gold_cost_flat = 1500
 		gold_cost_ticking = 4
 		restore_time = 150
-		loot_time = 20
+		loot_time = 2
 		restore_cost_flat = 400
 		restore_cost_ticking = 2
 		upgrade_slots = 2
@@ -3384,7 +3645,7 @@ wonder_motherland_calls = {
 		gold_cost_flat = 1700
 		gold_cost_ticking = 4
 		restore_time = 200
-		loot_time = 20
+		loot_time = 2
 		restore_cost_flat = 500
 		restore_cost_ticking = 2
 		upgrade_slots = 2
@@ -3402,7 +3663,7 @@ wonder_motherland_calls = {
 		gold_cost_flat = 1900
 		gold_cost_ticking = 4
 		restore_time = 200
-		loot_time = 2
+		loot_time = 4
 		restore_cost_flat = 500
 		restore_cost_ticking = 2
 		upgrade_slots = 2
@@ -3420,7 +3681,7 @@ wonder_motherland_calls = {
 		gold_cost_flat = 2100
 		gold_cost_ticking = 4
 		restore_time = 200
-		loot_time = 2
+		loot_time = 6
 		restore_cost_flat = 500
 		restore_cost_ticking = 2
 		upgrade_slots = 2
