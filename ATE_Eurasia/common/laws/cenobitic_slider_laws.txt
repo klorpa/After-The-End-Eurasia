@@ -119,12 +119,12 @@ laws = {
 			}
 		}
 	}
-		allow = {
+		allow = {	
 			OR = {
 				has_law = cenobitic_government_slider_0
 				has_law = cenobitic_government_slider_2
-			}		
-		}
+			}
+		}		
 
 		revoke_allowed = {
 			always = no
@@ -214,12 +214,15 @@ laws = {
 			}
 		}
 	}
-		allow = {
+				
+		allow = {	
 			OR = {
 				has_law = cenobitic_government_slider_1
 				has_law = cenobitic_government_slider_3
-			}		
-		}
+			}
+			TECH_RELIGIOUS_CUSTOMS>=3
+		}		
+		
 		revoke_allowed = {
 			always = no
 		}
@@ -279,6 +282,13 @@ laws = {
 			set_government = theocratic_feudal_government
 
 		}
+		global_revolt_risk = -0.05
+		temple_vassal_tax_modifier = 0.10
+		temple_vassal_max_levy = -0.10
+		church_opinion = 5
+		same_religion_opinion = 5
+		tech_growth_modifier_cultural = 0.05
+		tech_growth_modifier_economy = 0.05		
 	}
 	
 	#Cenobitic Feudal
@@ -318,12 +328,15 @@ laws = {
 			}
 		}
 	}
-		allow = {
+		
+		allow = {	
 			OR = {
 				has_law = cenobitic_government_slider_2
 				has_law = cenobitic_government_slider_4
-			}		
-		}
+			}
+			TECH_RELIGIOUS_CUSTOMS>=4
+		}	
+		
 		revoke_allowed = {
 			always = no
 		}			
@@ -378,6 +391,13 @@ laws = {
 			add_law = succ_cenobitic_elective
 
 		}
+		global_revolt_risk = -0.20
+		temple_vassal_tax_modifier = 0.15
+		temple_vassal_max_levy = -0.15
+		church_opinion = 5
+		same_religion_opinion = 5
+		tech_growth_modifier_cultural = 0.1
+		tech_growth_modifier_economy = 0.1		
 	}
 	
 	#Pachomial Feudal
@@ -404,9 +424,12 @@ laws = {
 			}
 		}
 	}
+		
 		allow = {
-		has_law = cenobitic_government_slider_3
-		}
+			has_law = cenobitic_government_slider_3
+			TECH_RELIGIOUS_CUSTOMS>=5
+		}		
+		
 		revoke_allowed = {
 			always = no
 		}
@@ -441,6 +464,12 @@ laws = {
 		ai_will_revoke = {
 			factor = 0
 		}
-	}
-	
+		global_revolt_risk = -0.25
+		temple_vassal_tax_modifier = 0.25
+		temple_vassal_max_levy = -0.20
+		church_opinion = 15
+		same_religion_opinion = 15
+		tech_growth_modifier_cultural = 0.15
+		tech_growth_modifier_economy = 0.15			
+	}	
 }

@@ -12,21 +12,21 @@ character_event = {
 	option = { #Pair of Doves
 	    name = EVTOPTAarmenian_apostolic.1
 		piety = 10
-		cash = -5
+		wealth = -5
 		character_event = { id = armenian_apostolic.2 days = 4  random = 6 }
 	}
 	
 	option = { #Rooster
 	    name = EVTOPTBarmenian_apostolic.1
 		piety = 20
-		cash = -10
+		wealth = -10
 		character_event = { id = armenian_apostolic.8 days = 4  random = 6 }
 	}
 	
 	option = { #Ram
 	    name = EVTOPTCarmenian_apostolic.1
 		piety = 30
-		cash = -15
+		wealth = -15
 		character_event = { id = armenian_apostolic.9 days = 4  random = 6 }
 			random = {
 		    chance = 4
@@ -36,7 +36,7 @@ character_event = {
 	option = { #Bull
 	    name = EVTOPTDarmenian_apostolic.1
 		piety = 40
-		cash = -25
+		wealth = -25
 		character_event = { id = armenian_apostolic.10 days = 4  random = 6 }
 			random = {
 		    chance = 8
