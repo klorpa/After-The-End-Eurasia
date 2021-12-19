@@ -187,6 +187,27 @@ prayer_mat = {
 	stacking = no
 	picture = "GFX_prayermat"
 }
+boticelli_venus = {
+	monthly_character_prestige = 0.3
+	diplomacy = 1 
+	
+	active = { 
+		OR = {
+			religion_group = christian
+			religion_group = scholastic
+		}
+	}
+	allowed_gift = {
+		OR = {
+			religion_group = christian
+			religion_group = scholastic
+		}
+	}
+	quality = 3 
+	flags = { art_artifact }
+	stacking = no
+	picture = "GFX_boticelli_venus"
+}
 
 ####Neuhumanist Artifacts####
 
