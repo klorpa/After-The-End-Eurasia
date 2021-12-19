@@ -2116,12 +2116,14 @@
 	2680.1.1={death=yes}
 }
 19911055 = {
-	name = "Michalina"
-	dynasty = 2125236 #Ciolek
-	culture = mazovian
-	religion = mariavite
-	female = yes
-	2630.1.1 = {birth = yes}
+	name="Michalina"
+	dynasty=2125236 #Ciolek
+	culture=mazovian
+	religion=mariavite
+	female=yes
+	father=1991323
+	mother=1991324
+	2627.4.22={birth=yes}
 }
 19911056={
 	name="Béla"
@@ -2130,7 +2132,7 @@
 	religion=nepmese
 	trait=drunkard
 	trait=shrewd
-	2610.1.2={birth=yes}
+	2610.2.23={birth=yes}
 	2650.1.2={employer=1991106}
 	2680.1.1={death=yes}
 }
@@ -4641,4 +4643,112 @@
 	father=1991315
 	mother=1991316
 	2631.1.28={birth=yes}
+}
+1991318={
+	name="Tytus" 
+	dynasty=2131002 #Grzecznarowski-Ngujen
+	culture=malopolan
+	religion=chronicler
+	trait=flamboyant_schemer
+	trait=organizer
+	trait=reclusive
+	trait=diligent
+	trait=paranoid
+	2624.1.5={birth=yes}
+}
+1991319={
+	name="Janina" 
+	dynasty=0
+	female=yes
+	culture=malopolan
+	religion=chronicler
+	trait=tough_soldier
+	trait=familyperson
+	trait=kind
+	2626.6.21={birth=yes}
+	2644.1.1={add_spouse=1991318}
+}
+1991320={
+	name="Józef" 
+	dynasty=2131002 #Grzecznarowski-Ngujen
+	culture=malopolan
+	religion=chronicler
+	trait=fortune_builder
+	trait=reclusive
+	trait=twin
+	father=1991318
+	mother=1991319
+	2645.12.9={birth=yes}
+}
+1991321={
+	name="Czeslawa"
+	female=yes
+	dynasty=2131002 #Grzecznarowski-Ngujen
+	culture=malopolan
+	religion=chronicler
+	trait=mastermind_theologian
+	trait=poet
+	trait=twin
+	father=1991318
+	mother=1991319
+	2645.12.9={birth=yes}
+}
+1991322={
+	name="Wladyslaw"
+	dynasty=2125236 #Ciolek
+	culture=mazovian
+	religion=mariavite
+	trait=skilled_tactician
+	trait=strategist
+	trait=robust
+	trait=rough_terrain_leader
+	trait=shy
+	trait=sympathy_islam
+	father=1991323
+	mother=1991324
+	2613.3.31={birth=yes}
+}
+1991323={
+	name="Jaroslaw"
+	dynasty=2125236 #Ciolek
+	culture=mazovian
+	religion=mariavite
+	2588.3.5={birth=yes}
+	2649.7.16={death=yes}
+}
+1991324={
+	name="Jegoda"
+	female=yes
+	dynasty=2941005 #Ziedro
+	culture=warmzur
+	religion=mariavite
+	2595.12.20={birth=yes}
+	2648.5.18={death=yes}
+}
+1991325={
+	name="Churszeja"
+	female=yes
+	dynasty=1442073 #Aksak
+	culture=lipka
+	religion=ruhi
+	trait=underhanded_rogue
+	trait=strong
+	trait=groomed
+	trait=cavalry_leader
+	2612.1.1={birth=yes}
+	2633.1.1={add_spouse=1991322}
+}
+1991326={
+	name="Wojciech"
+	dynasty=2125236 #Ciolek
+	culture=mazovian
+	religion=mariavite
+	trait=brilliant_strategist
+	trait=strong
+	trait=hunter
+	trait=cynical
+	trait=cavalry_leader
+	father=1991322
+	mother=1991325
+	2634.1.9={birth=yes}
 }
