@@ -32,10 +32,6 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 102;98;sea;1683;-1;-1;-1;-1;Inner Hebrides-Ross
 102;96;sea;1683;-1;-1;-1;-1;Inner Hebrides-Inverness
 49;48;sea;1689;-1;-1;-1;-1;Hampshire-Wight
-375;452;sea;1792;-1;-1;-1;-1;Ludwigshafen-Karlsruhe
-375;450;sea;1792;-1;-1;-1;-1;Ludwigshafen-Mannheim
-375;371;sea;1792;-1;-1;-1;-1;Ludwigshafen-Darmstadt
-374;371;sea;1792;-1;-1;-1;-1;Mainz-Darmstadt
 225;1050;sea;1644;-1;-1;-1;-1;Gibraltar-Tetwan
 595;1104;sea;1722;-1;-1;-1;-1;Messina-Calabria
 1016;603;sea;1657;-1;-1;-1;-1;Kerch-Taman
@@ -88,6 +84,10 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 2227;2254;sea;1632;-1;-1;-1;-1;Palk Strait
 1594;1591;sea;1668;-1;-1;-1;-1;Maldives
 1594;1592;sea;1668;-1;-1;-1;-1;Maldives
+375;452;major_river;1792;-1;-1;-1;-1;Ludwigshafen-Karlsruhe
+375;450;major_river;1792;-1;-1;-1;-1;Ludwigshafen-Mannheim
+375;371;major_river;1792;-1;-1;-1;-1;Ludwigshafen-Darmstadt
+374;371;major_river;1792;-1;-1;-1;-1;Mainz-Darmstadt
 220;221;major_river;1843;-1;-1;-1;-1;Seville-Sierra Norte
 224;222;major_river;1843;-1;-1;-1;-1;Cadiz-Huelva
 664;673;major_river;1906;-1;-1;-1;-1;Petrograd-Kirovsk
@@ -332,6 +332,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 1423;1421;major_river;1868;-1;-1;-1;-1;
 1436;1421;major_river;1889;-1;-1;-1;-1;
 1436;1420;major_river;1889;-1;-1;-1;-1;
+1439;1424;major_river;1889;-1;-1;-1;-1;Idfu-Aswan
 589;1036;major_river;1862;-1;-1;-1;-1;
 1168;1036;major_river;1862;-1;-1;-1;-1;
 2631;1034;major_river;1862;-1;-1;-1;-1;
@@ -445,6 +446,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 2619;2618;major_river;2364;-1;-1;-1;-1;Sargodha-Toba Tek Singh
 2619;2604;major_river;2365;-1;-1;-1;-1;Sargodha-Faisalabad
 2619;2603;major_river;2365;-1;-1;-1;-1;Sargodha-Gujranwala
+3115;2603;major_river;2365;-1;-1;-1;-1;Gujrat-Gujranwala
 2614;2619;major_river;2363;-1;-1;-1;-1;Bhakkar-Sargodha
 2613;2619;major_river;2363;-1;-1;-1;-1;Khushab-Sargodha
 2605;2619;major_river;2363;-1;-1;-1;-1;Chakwal-Sargodha
@@ -461,6 +463,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 2624;2621;major_river;1942;-1;-1;-1;-1;Bahawalnagar-Sahiwal
 2624;3029;major_river;1950;-1;-1;-1;-1;Bahawalnagar-Okara
 2828;3029;major_river;1950;-1;-1;-1;-1;Sri Muktsar Sahib-Okara
+3140;2830;major_river;1950;-1;-1;-1;-1;Kasur-Faridkot
 2213;2210;major_river;2353;-1;-1;-1;-1;Tiruvannamalai-Chennai
 2213;2211;major_river;2353;-1;-1;-1;-1;Tiruvannamalai-Kanchipuram
 2212;2211;major_river;2353;-1;-1;-1;-1;Puducherry-Kanchipuram
@@ -536,6 +539,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 2798;2991;major_river;2368;-1;-1;-1;-1;
 2798;2816;major_river;2368;-1;-1;-1;-1;
 2832;2802;major_river;2370;-1;-1;-1;-1;
+2832;2983;major_river;2370;-1;-1;-1;-1;
 2832;2801;major_river;2370;-1;-1;-1;-1;
 2800;2801;major_river;2370;-1;-1;-1;-1;
 2800;2869;major_river;2370;-1;-1;-1;-1;
@@ -556,6 +560,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 2815;340;major_river;2373;-1;-1;-1;-1;
 2979;2801;major_river;1898;-1;-1;-1;-1;
 2979;2869;major_river;1898;-1;-1;-1;-1;
+2979;2802;major_river;1898;-1;-1;-1;-1;
 2868;2869;major_river;1898;-1;-1;-1;-1;
 2868;2804;major_river;1898;-1;-1;-1;-1;
 2868;2796;major_river;1897;-1;-1;-1;-1;
@@ -577,6 +582,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 2789;618;major_river;2379;-1;-1;-1;-1;
 2789;2784;major_river;2379;-1;-1;-1;-1;
 2784;2786;major_river;2382;-1;-1;-1;-1;
+2964;2786;major_river;2382;-1;-1;-1;-1;
 2784;3132;major_river;2382;-1;-1;-1;-1;
 2784;3119;major_river;2382;-1;-1;-1;-1;
 2784;3122;major_river;2382;-1;-1;-1;-1;
