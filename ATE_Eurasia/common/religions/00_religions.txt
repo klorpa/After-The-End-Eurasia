@@ -1,4 +1,4 @@
-###ÄNSI
+###Ã„NSI
 pagan_group = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
@@ -252,77 +252,6 @@ pagan_group = {
 		priest_title = SHAMAN
 		priests_can_marry = yes
 		reformed = jumic_reformed
-		
-		
-		allow_looting = yes 
-		allow_rivermovement = yes 
-		max_consorts = 3 
-		can_demand_religious_conversion = no
-		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-		
-		intermarry = quinto
-		intermarry = sjotru
-		intermarry = orthodox
-		
-	}
-	kozachina_reformed = {
-		graphical_culture = norsegfx
-
-		icon = 12
-		heresy_icon = 13
-		
-		color = { 0.756 0.658 0.023 }
-
-		high_god_name = GOD_VOLYA
-
-		god_names = {
-			GOD_MASTORAVA GOD_SHUNDY_MUMY GOD_TYLZE GOD_UZHARA GOD_KWAZ GOD_KEREMET
-		}
-		evil_god_names = {
-			GOD_KEREMET
-		}
-		
-		scripture_name = THE_SONGS
-		priest_title = SHAMAN
-		priests_can_marry = yes
-		
-		
-		allow_looting = yes 
-		allow_rivermovement = yes 
-		max_consorts = 3 
-		allow_in_ruler_designer = no
-		can_demand_religious_conversion = yes
-		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-		
-		intermarry = quinto
-		intermarry = sjotru
-		intermarry = orthodox
-	}
-	kozachina = {
-		graphical_culture = norsegfx
-
-		icon = 11
-		heresy_icon = 13
-		
-		color = { 0.756 0.658 0.023 }
-
-		high_god_name = GOD_VOLYA
-
-		god_names = {
-			GOD_MASTORAVA GOD_SHUNDY_MUMY GOD_TYLZE GOD_UZHARA GOD_KWAZ GOD_KEREMET
-		}
-		evil_god_names = {
-			GOD_KEREMET
-		}
-		
-		scripture_name = THE_SONGS
-		priest_title = SHAMAN
-		priests_can_marry = yes
-		reformed = kozachina_reformed
 		
 		
 		allow_looting = yes 
@@ -1962,6 +1891,42 @@ vernacular = {
 		intermarry = nysed
 		intermarry = sun_king_cultist
 		
+	}
+	
+	kozachina = {
+		graphical_culture = norsegfx
+
+		icon = 12
+		heresy_icon = 13
+		
+		color = { 0.756 0.658 0.023 }
+
+		high_god_name = GOD_GOSPODAR
+
+		god_names = {
+			GOD_ARKHISTRATEG GOD_IISUS_NAZARIY GOD_THEOTOKOS GOD_SVYATIYE_JOHN GOD_SVYATIYE_GEORGE GOD_SVYATIYE_DEMETRIUS
+		}
+		evil_god_names = {
+			GOD_THE_DECIEVER
+		}
+		
+		scripture_name = THE_REPLY
+		priest_title = PRIEST
+		priests_can_marry = yes
+		
+		
+		allow_looting = yes 
+		allow_rivermovement = yes 
+		max_consorts = 3 
+		allow_in_ruler_designer = no
+		can_demand_religious_conversion = no
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = quinto
+		intermarry = sjotru
+		intermarry = orthodox
 	}
 	
 	sun_king_cultist = {
