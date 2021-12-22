@@ -1626,3 +1626,21 @@ death_drowned_in_dniepr = {
 	long_desc = "DEATH_DROWNED_IN_DNIEPR"
 	can_nokiller = yes
 }
+
+death_drunkard = {
+	violent = no
+	long_desc = "DEATH_BY_DRINKING"
+	can_nokiller = yes
+	sound_list = {
+		female = {
+			"death_poisoning_female_01"
+			"death_poisoning_female_02"
+			"death_poisoning_female_03"
+		}
+		male = {
+			"death_poisoning_male_01"
+			"death_poisoning_male_02"
+			"death_poisoning_male_03"
+		}
+	}
+}
