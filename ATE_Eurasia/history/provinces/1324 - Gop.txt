@@ -2,14 +2,22 @@
 title = c_katowice
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
-b_katowice = castle
-b_sosnowiec = city
+b_sosnowiec = castle
+b_katowice = temple
+b_bytom = city
 b_gliwice = temple
+b_zabrze = temple
+b_rybnik = city
 
 # Misc
 culture = silesian
 religion = mariavite
 
 # History
+900.1.1={b_katowice=tp_town_1}
+900.1.1={b_katowice=tp_wall_1}
+901.1.1={b_katowice=tp_town_2}
+900.1.1={b_katowice=tp_wall_2}
+902.1.1={b_katowice=tp_town_3}

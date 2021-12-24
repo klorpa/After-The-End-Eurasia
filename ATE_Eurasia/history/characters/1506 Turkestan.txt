@@ -1532,3 +1532,65 @@
 	trait=stressed
 	2604.5.29={birth=yes}
 }
+1506142={
+	name="Said"
+	dynasty=2080089 #Khoja 
+	culture=uighur
+	religion=ahl_as_salaf
+	trait=zealous
+	trait=midas_touched
+	trait=holy_warrior
+	trait=familyperson
+	trait=brave
+	trait=wroth
+	trait=just
+	father=1506143
+	2633.5.11={birth=yes}
+}
+1506143={
+	name="Abdulatif"
+	dynasty=2080089 #Khoja 
+	culture=uighur
+	religion=ahl_as_salaf
+	father=1506144
+	trait=twin
+	2609.10.1={birth=yes}
+	2657.3.2={death=yes}
+}
+1506144={
+	name="Yulbars"
+	dynasty=2080089 #Khoja 
+	culture=uighur
+	religion=nizami
+	2574.9.25={birth=yes}
+	2625.3.11={death=yes}
+}
+1506145={
+	name="Ismail"
+	dynasty=2080089 #Khoja 
+	culture=uighur
+	religion=nizami
+	father=1506144
+	trait=twin
+	2609.10.1={birth=yes}
+	2640.8.29={death=yes}
+}
+1506146={
+	name="Yahiya"
+	dynasty=2080089 #Khoja 
+	culture=uighur
+	religion=nizami
+	trait=ruthless
+	trait=intricate_webweaver
+	trait=familyperson
+	trait=sympathy_old_world_cults
+	trait=sympathy_eastern
+	trait=sympathy_pagans
+	trait=proud
+	trait=just
+	trait=ambitious
+	trait=deceitful
+	father=1506145
+	2630.10.7={birth=yes}
+	2660.1.1={effect={add_friend=1506142}}
+}
