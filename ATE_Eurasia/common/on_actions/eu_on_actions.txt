@@ -80,3 +80,38 @@ on_offmap_ruler_changed = {
 		EL.50000 # Select a new Policy and send News Event
 	}
 }
+
+# Character converts religion, for whatever reason. ROOT is the character after conversion and the FROM scope has the old religion.
+on_character_convert_religion = {
+	events = {
+		gov.014 #Checks Character is still eligible for MUSLIM governments		
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder = {
+	events = {
+		gov.014 #Checks Character is still eligible for MUSLIM governments
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_inheritance = {
+	events = {
+		gov.014 #Checks Character is still eligible for MUSLIM governments
+	}
+
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_usurpation = {
+	events = {
+		gov.014 #Checks Character is still eligible for MUSLIM governments
+	}
+}
+
+on_unlanded = {
+	events = {
+		gov.014 #Checks Character is still eligible for MUSLIM governments
+	}
+}
