@@ -6513,6 +6513,7 @@
 1948139 = { name="Haffner" culture=ossi }
 1948140 = { name="Garisch" culture=ossi }
 1948141 = { name="Bonhart" culture=ossi }
+1948142 = { name="Stirlitz" culture=ossi }
 
 1949000 = { name="Lahm" culture=bavarian used_for_random=no
 	coat_of_arms = { 
@@ -17806,7 +17807,20 @@ coat_of_arms = {
 2040111 = { name="Qasymov" culture=kazakh }
 2040012 = { name="Balgymbaev" culture=kazakh }
 2040113 = { name="Aytmuhambetov" culture=kazakh }
-2040114 = { name="Aiymbetov" culture=kazakh }
+2040114 = { name="Aiymbetov" culture=kazakh 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2040115 = { name="Balaev" culture=kazakh }
 2040116 = { name="Esqaliev" culture=kazakh }
 2040117 = { name="Isabekov" culture=kazakh }
@@ -17869,7 +17883,7 @@ coat_of_arms = {
 2041015 = { name="Nurberdiýew" culture=turkmen }
 2041016 = { name="Pirgulyýew" culture=turkmen }
 2041017 = { name="Ýakimow" culture=turkmen }
-2041018 = { name="Syhmyradow" culture=turkmen }
+2041018 = { name="Shyhmyradow" culture=turkmen }
 2041019 = { name="Rejepow" culture=turkmen }
 2041020 = { name="Baÿramow" culture=turkmen }
 2041021 = { name="Agamyradow" culture=turkmen }
@@ -17897,7 +17911,7 @@ coat_of_arms = {
 2041043 = { name="Öwekow" culture=turkmen }
 2041044 = { name="Seýidow" culture=turkmen }
 2041045 = { name="Saryýew" culture=turkmen }
-2041046 = { name="Samyradow" culture=turkmen }
+2041046 = { name="Shamyradow" culture=turkmen }
 2041047 = { name="Titow" culture=turkmen }
 2041048 = { name="Urazow" culture=turkmen }
 2041049 = { name="Goçgulyýew" culture=turkmen }
