@@ -101,7 +101,7 @@ decisions = {
 			is_playable = yes
 			OR = {
 				religion = sunni
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 			}
 			NOT = {
@@ -149,7 +149,7 @@ decisions = {
 				text = unified_sunni
 				hidden_tooltip = { 
 					character_event = { id = islamate.28 } 
-					activate_title = { title = d_nizami status = no }
+					activate_title = { title = d_naqshbandi status = no }
 					activate_title = { title = d_sunni status = no }
 				}
 			}

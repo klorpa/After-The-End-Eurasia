@@ -31,7 +31,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		
@@ -84,7 +84,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		NOT = { has_global_flag = misr }
@@ -131,7 +131,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		NOT = { has_global_flag = libya }
@@ -169,7 +169,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		NOT = { has_global_flag = tunisia }
@@ -210,7 +210,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		NOT = { has_global_flag = algeria }
@@ -254,7 +254,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		NOT = { has_global_flag = trakya }
@@ -290,7 +290,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		NOT = { has_global_flag = anadolu }
@@ -345,7 +345,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		NOT = { has_global_flag = hijaz }
@@ -386,7 +386,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		NOT = { has_global_flag = yemen }
@@ -427,7 +427,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		NOT = { has_global_flag = bahrayn }
@@ -470,7 +470,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		NOT = { has_global_flag = iraq }
@@ -510,7 +510,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		NOT = { has_global_flag = rumelia }
@@ -563,7 +563,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		NOT = { has_global_flag = yugoslavia }
@@ -606,7 +606,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		NOT = { has_global_flag = mohac }
@@ -644,7 +644,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		NOT = { has_global_flag = crimea }
@@ -680,7 +680,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		NOT = { has_global_flag = vienna_falls }
@@ -769,7 +769,7 @@ narrative_event = {
 					is_female = no
 					is_alternate_start = no
 					OR = { 
-						religion = nizami
+						religion = naqshbandi
 						religion = ruhi
 					}
 					NOT = {
@@ -792,7 +792,7 @@ narrative_event = {
 				is_female = yes
 				is_alternate_start = no
 				OR = { 
-						religion = nizami
+						religion = naqshbandi
 						religion = ruhi
 					}
 				NOT = {
@@ -863,7 +863,7 @@ character_event = {
 	
 	trigger = {
 		OR = { 
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 		}
 		OR = {
@@ -942,7 +942,7 @@ narrative_event = {
 	desc = {
 		trigger = {
 			NOR = {
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 			}
 			religion_group = muslim
@@ -953,7 +953,7 @@ narrative_event = {
 		trigger = {
 			NOR = { 
 				religion_group = muslim
-				religion = nizami
+				religion = naqshbandi
 				religion = ruhi
 			}
 		}
@@ -972,7 +972,7 @@ narrative_event = {
 			has_landed_title = e_ottoman_empire
 		}
 		OR = {
-			religion = nizami
+			religion = naqshbandi
 			religion = ruhi
 		}
 		NOT = { has_global_flag = ottoman_borders }

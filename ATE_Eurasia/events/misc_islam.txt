@@ -396,7 +396,7 @@ character_event = {
 			random_traits = yes
 			culture = francarabe
 			dynasty = actually_culture 
-			religion = nizami
+			religion = naqshbandi
 			female = no
 			age = 30
 			trait = intricate_webweaver
@@ -996,9 +996,9 @@ narrative_event = { #Representatives of the Three "Heresies" Convene to discuss 
 		narrative_event = { id = islamate.30 }
 	}
 }
-narrative_event = { #Representatives of the Three "Heresies" Convene to discuss Unification - Nizami Topic: Brotherhood
+narrative_event = { #Representatives of the Three "Heresies" Convene to discuss Unification - Naqshbandi Topic: Brotherhood
 	id = islamate.30
-	title = EVTNAME_reformed_nizami
+	title = EVTNAME_reformed_naqshbandi
 	desc = EVTDESC_reformed_sunni_n_representative
 	picture = GFX_evt_moors
 	border = GFX_event_narrative_frame_religion
@@ -1039,7 +1039,7 @@ narrative_event = { #Turns these Sunni Religions into Heresies
 		name = EVTOPTA_islamate32
 		
 		set_parent_religion = { religion = sunni parent = sunnah }
-		set_parent_religion = { religion = nizami parent = sunnah }
+		set_parent_religion = { religion = naqshbandi parent = sunnah }
 		set_parent_religion = { religion = ruhi parent = sunnah }
 		
 		hidden_tooltip = {
@@ -1047,7 +1047,7 @@ narrative_event = { #Turns these Sunni Religions into Heresies
 				limit = {
 					OR = {
 						religion = sunni
-						religion = nizami
+						religion = naqshbandi
 						religion = ruhi
 					}
 					controls_religion = no
@@ -1076,7 +1076,7 @@ narrative_event = {
 			limit = {
 				OR = {
 						religion = sunni
-						religion = nizami
+						religion = naqshbandi
 						religion = ruhi
 					}
 				liege = { character = ROOT }

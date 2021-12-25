@@ -5681,7 +5681,7 @@ narrative_event = {
 	}
 }
 
-# THE START OF NIZAMI JIHADS - 2700 ARRIVES
+# THE START OF NAQSHBANDI JIHADS - 2700 ARRIVES
 narrative_event = {
 	id = 39670
 	title = EVTNAME39670
@@ -5696,7 +5696,7 @@ narrative_event = {
 	
 	only_playable = yes
 	min_age = 16
-	religion = nizami
+	religion = naqshbandi
 	
 	trigger = {
 		NOT = {
@@ -5704,7 +5704,7 @@ narrative_event = {
 		}
 		controls_religion = yes
 		year = 2700
-		NOT = { has_global_flag = nizami_jihads_unlocked }
+		NOT = { has_global_flag = naqshbandi_jihads_unlocked }
 	}
 	
 	mean_time_to_happen = {
@@ -5712,20 +5712,20 @@ narrative_event = {
 	}
 	
 	immediate = {
-		set_global_flag = nizami_jihads_unlocked
+		set_global_flag = naqshbandi_jihads_unlocked
 	}
 	
 	option = {
 		name = EVTOPTA39670
 		trigger = {
-			religion = nizami
+			religion = naqshbandi
 		}
 	}
 	
 	option = {
 		name = EVTOPTA39670
 		trigger = {
-			NOT = { religion = nizami }
+			NOT = { religion = naqshbandi }
 			religion_group = muslim
 		}
 	}
@@ -5738,7 +5738,7 @@ narrative_event = {
 	}
 }
 
-# THE START OF NIZAMI JIHADS - ISTANBUL HAS FALLEN
+# THE START OF NAQSHBANDI JIHADS - ISTANBUL HAS FALLEN
 narrative_event = {
 	id = 39671
 	title = EVTNAME39670
@@ -5753,14 +5753,14 @@ narrative_event = {
 	
 	only_playable = yes
 	min_age = 16
-	religion = nizami
+	religion = naqshbandi
 	
 	trigger = {
 		NOT = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
 		controls_religion = yes
-		NOT = { has_global_flag = nizami_jihads_unlocked }
+		NOT = { has_global_flag = naqshbandi_jihads_unlocked }
 		143 = { # Istanbul
 			OR = { 
 				owner = { top_liege = { NOT = { religion_group = muslim } } }
@@ -5774,20 +5774,20 @@ narrative_event = {
 	}
 	
 	immediate = {
-		set_global_flag = nizami_jihads_unlocked
+		set_global_flag = naqshbandi_jihads_unlocked
 	}
 	
 	option = {
 		name = EVTOPTA39670
 		trigger = {
-			religion = nizami
+			religion = naqshbandi
 		}
 	}
 	
 	option = {
 		name = EVTOPTB39670
 		trigger = {
-			NOT = { religion = nizami }
+			NOT = { religion = naqshbandi }
 			religion_group = muslim
 		}
 	}
@@ -5800,7 +5800,7 @@ narrative_event = {
 	}
 }
 
-# THE START OF NIZAMI JIHADS - THE RETURN OF AN EMPIRE
+# THE START OF NAQSHBANDI JIHADS - THE RETURN OF AN EMPIRE
 narrative_event = {
 	id = 39673
 	title = EVTNAME39670
@@ -5815,25 +5815,25 @@ narrative_event = {
 	
 	only_playable = yes
 	min_age = 16
-	religion = nizami
+	religion = naqshbandi
 	
 	trigger = {
 		NOT = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
 		controls_religion = yes
-		NOT = { has_global_flag = nizami_jihads_unlocked }
+		NOT = { has_global_flag = naqshbandi_jihads_unlocked }
 		OR = {
 			e_turkey = { 
 				has_holder = yes
 				owner = {
-					religion = nizami
+					religion = naqshbandi
 				}
 			}
 			e_ottoman_empire = { 
 				has_holder = yes
 				owner = {
-					religion = nizami
+					religion = naqshbandi
 				}
 			}
 		}
@@ -5844,20 +5844,20 @@ narrative_event = {
 	}
 	
 	immediate = {
-		set_global_flag = nizami_jihads_unlocked
+		set_global_flag = naqshbandi_jihads_unlocked
 	}
 	
 	option = {
 		name = EVTOPTA39670
 		trigger = {
-			religion = nizami
+			religion = naqshbandi
 		}
 	}
 	
 	option = {
 		name = EVTOPTA39670
 		trigger = {
-			NOT = { religion = nizami }
+			NOT = { religion = naqshbandi }
 			religion_group = muslim
 		}
 	}
