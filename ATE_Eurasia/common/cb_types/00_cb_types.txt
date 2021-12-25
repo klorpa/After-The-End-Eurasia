@@ -3693,7 +3693,6 @@ crusade = {
 				}
 				custom_tooltip = {
 					text = ALT_GHW_STARTED
-					has_global_flag = naqshbandi_jihads_unlocked
 					has_global_flag = shiite_jihads_unlocked
 					has_global_flag = pagan_ghws_unlocked
 					has_global_flag = christian_crusades_unlocked
@@ -3725,13 +3724,6 @@ crusade = {
 						custom_tooltip = {
 							text = CTT_CHRISTIAN_CRUSADES_UNLOCKED
 							has_global_flag = christian_crusades_unlocked
-						}
-					}
-					AND = {
-						religion = naqshbandi
-						custom_tooltip = {
-							text = CTT_NAQSHBANDI_JIHADS_UNLOCKED
-							has_global_flag = naqshbandi_jihads_unlocked
 						}
 					}
 					AND = {

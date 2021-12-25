@@ -226,6 +226,10 @@ character_event = {
 				factor = 5
 				culture = provencal
 			}
+			modifier = {
+				factor = 10
+				culture = bahrayni
+			}
 		}
 		set_graphical_culture = eastafrican
 	}
@@ -344,8 +348,75 @@ character_event = {
 				factor = 20
 				culture = provencal
 			}
+			modifier = {
+				factor = 40
+				culture = bahrayni
+			}
 		}
 		set_graphical_culture = arabic
+	}
+
+	option = {
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 40
+				culture = sabra
+			}
+			modifier = {
+				factor = 0
+				culture = horse
+			}
+			modifier = {
+				factor = 0
+				culture = cat
+			}
+			modifier = {
+				factor = 0
+				culture = bear
+			}
+			modifier = {
+				factor = 0
+				culture = hedgehog_culture
+			}
+			modifier = {
+				factor = 0
+				culture = duck_culture
+			}
+			modifier = {
+				factor = 0
+				culture = dog_culture
+			}
+			modifier = {
+				factor = 0
+				culture = elephant_culture
+			}
+			modifier = {
+				factor = 0
+				culture = dragon_culture
+			}
+			modifier = {
+				factor = 0
+				culture = red_panda
+			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 15
+				culture = parisian
+			}
+			modifier = {
+				factor = 20
+				culture = provencal
+			}
+			modifier = {
+				factor = 20
+				culture = bahrayni
+			}
+		}
+		set_graphical_culture = southindian
 	}
 
 	option = {
@@ -757,6 +828,10 @@ character_event = {
 				factor = 0
 				culture = provencal
 			}
+			modifier = {
+				factor = 20
+				culture = bahrayni
+			}
 		}
 		set_graphical_culture = indian
 	}
@@ -1043,6 +1118,10 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = provencal
+			}
+			modifier = {
+				factor = 10
+				culture = bahrayni
 			}
 		}
 		set_graphical_culture = iranian
