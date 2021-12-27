@@ -1663,7 +1663,13 @@ e_ruthenia = {
 				color={ 221 184 121 }
 				color2={ 255 255 255 }
 				
-				polish="Human"
+				wielkopolan="Human"
+				malopolan="Human"
+				mazovian="Human"
+				warmzur="Human"
+				odrzan="Human"
+				yiddish="Uman"
+				
 				holy_site = haredi
 				
 				b_vatutyne = {
@@ -1676,10 +1682,19 @@ e_ruthenia = {
 					kubantsy="Vatutino"
 				}
 				b_uman = {
-					polish="Human"
+					wielkopolan="Human"
+					malopolan="Human"
+					mazovian="Human"
+					warmzur="Human"
+					odrzan="Human"
+					yiddish="Uman"
 				}
 				b_zvenyhorodka = {
-					polish="Zwinogródka"
+					wielkopolan="Zwinogródka"
+					malopolan="Zwinogródka"
+					mazovian="Zwinogródka"
+					warmzur="Zwinogródka"
+					odrzan="Zwinogródka"
 					severyane="Zvenigorodka"
 					muscovite="Zvenigorodka"
 					chornomorsky="Zvenigorodka"
@@ -1687,6 +1702,7 @@ e_ruthenia = {
 					donskoy="Zvenigorodka"
 					chernyan="Zvenigorodka"
 					kubantsy="Zvenigorodka"
+					yiddish="Swenyhorodka"
 				}
 				b_zhashkiv = {
 					polish="Zaszków"
@@ -1697,6 +1713,7 @@ e_ruthenia = {
 					donskoy="Zhashkov"
 					chernyan="Zhashkov"
 					kubantsy="Zhashkov"
+					yiddish="Schaschkiw"
 				}
 				b_talne = {
 					severyane="Talnoye"
@@ -1706,6 +1723,7 @@ e_ruthenia = {
 					donskoy="Talnoye"
 					chernyan="Talnoye"
 					kubantsy="Talnoye"
+					yiddish="Talne"
 				}
 				b_khrystynivka = {
 					severyane="Khristinovka"
@@ -1715,8 +1733,15 @@ e_ruthenia = {
 					donskoy="Khristinovka"
 					chernyan="Khristinovka"
 					kubantsy="Khristinovka"
+					yiddish="Chrystyniwka"
 				}
-				b_monastyryshche = {}
+				b_monastyryshche = {
+					wielkopolan="Monasterszczyzna"
+					mazovian="Monasterszczyzna"
+					warmzur="Monasterszczyzna"
+					odrzan="Monasterszczyzna"
+					malopolan="Monasterszczyzna"
+					yiddish="Monastyrschtschina"}
 			}
 			c_kropyvnytskyi = {
 				color={ 197 159 144 }
