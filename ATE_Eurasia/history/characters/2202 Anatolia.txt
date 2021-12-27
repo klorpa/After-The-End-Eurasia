@@ -1583,7 +1583,7 @@
 	father=2202141
 	mother=2202197
 	2223.8.31={birth=yes}
-	2261.1.21={death={death_reason=death_murder_poison killer=2202196}
+	2261.1.21={death={death_reason=death_murder_poison killer=2202196}}
 }
 2202143={
 	name="Abdülkadir"
@@ -2055,7 +2055,6 @@
 	religion=naqshbandi
 	trait=thrifty_clerk
 	trait=faqih
-	trait=scholar
 	trait=stressed
 	father=2202178
 	2460.4.18={birth=yes}
@@ -2225,7 +2224,7 @@
 	religion=naqshbandi
 	father=2202195
 	2196.3.25={birth=yes}
-	2116.1.1={add_spouse=2202141}
+	2216.1.1={add_spouse=2202141}
 	2247.10.17={death=yes}
 }
 2202198={
@@ -2244,7 +2243,7 @@
 	religion=naqshbandi
 	father=2202195
 	2189.9.13={birth=yes}
-	2143.2.16={death=yes}
+	2243.2.16={death=yes}
 }
 2202200={
 	name="Yümna"
@@ -2253,7 +2252,7 @@
 	religion=naqshbandi
 	2173.11.16={birth=yes}
 	2190.1.1={add_spouse=2202141}
-	2127.8.15={death=yes}
+	2227.8.15={death=yes}
 }
 2202201={
 	name="Rüstem"
@@ -2347,7 +2346,7 @@
 	trait=content
 	father=2202208
 	2269.4.20={birth=yes}
-	2332.6.25={death={death_reason=death_battle}}
+	2332.6.25={death=yes}
 }
 2202210={
 	name="Ismet"
@@ -2365,4 +2364,50 @@
 	father=2202209
 	2293.4.18={birth=yes}
 	2350.12.5={death={death_reason=death_drank_poison}}
+}
+2202211={
+	name="Fatih"
+	dynasty=2055093 #Sarikaya
+	culture=central_anatolian
+	religion=ruhi
+	trait=cynical
+	trait=underhanded_rogue
+	trait=honorable
+	father=2202210
+	2314.3.1={birth=yes}
+	2361.6.12={death={death_reason=death_execution_garrotting killer=2202212}}
+}
+2202212={
+	name="Hüseyin"
+	dynasty=2055093 #Sarikaya
+	culture=central_anatolian
+	religion=nizami
+	trait=ruthless
+	trait=tough_soldier
+	trait=zealous
+	trait=mangled
+	father=2202210
+	2318.1.1={birth=yes}
+	2364.9.13={death={death_reason=death_trait}}
+}
+2202213={
+	name="Ekin"
+	female=yes
+	dynasty=0
+	culture=west_anatolian
+	religion=nizami
+	trait=is_malnourished
+	2321.4.22={birth=yes}
+	2338.1.1={add_spouse=2202212}
+	2363.2.24={death={death_reason=death_trait}}
+}
+2202214={
+	name="Bekir"
+	dynasty=2055093 #Sarikaya
+	culture=central_anatolian
+	religion=nizami
+	trait=craven
+	father=2202212
+	2339.7.31={birth=yes}
+	2409.1.25={death=yes}
 }
