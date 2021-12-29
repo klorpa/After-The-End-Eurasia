@@ -6774,11 +6774,13 @@ is_fat = {
 }
 
 is_malnourished = {
+	is_health = yes
 
 	opposites = { is_fat }
 	
 	combat_rating = -10
 	fertility = -0.05
+	health = -0.5
 	
 	random = no
 	customizer = no
