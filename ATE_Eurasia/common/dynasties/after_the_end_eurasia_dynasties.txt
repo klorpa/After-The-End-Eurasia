@@ -1130,7 +1130,20 @@
 1258098 = { name="Sobchenko" culture=akmolensk }
 1258099 = { name="Demidov" culture=akmolensk }
 
-1282000 = { name="Cancali" culture=laz }
+1282000 = { name="Topaloghlu" culture=laz 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1282001 = { name="Ützok" culture=laz }
 1282002 = { name="Tartar" culture=laz }
 1282003 = { name="Cicek" culture=laz }
@@ -1243,7 +1256,7 @@
 1282110 = { name="Gümüsh" culture=laz }
 1282111 = { name="Shentürk" culture=laz }
 1282112 = { name="Bilgin" culture=laz }
-1282113 = { name="Topaloghlu" culture=laz }
+1282113 = { name="Cancali" culture=laz }
 1282114 = { name="Tzakmak" culture=laz }
 1282115 = { name="Meral" culture=laz }
 1282116 = { name="Nas" culture=laz }
@@ -4536,6 +4549,7 @@
 1822091 = { name="Samson" culture=yiddish }
 1822092 = { name="Rabow" culture=yiddish }
 1822093 = { name="Tuwim" culture=yiddish }
+1822094 = { name="Peretz" culture=yiddish }
 
 1824000 = { name="Hamoudeh" culture=filastini }
 1824001 = { name="Rifa'i" culture=filastini }
@@ -19593,10 +19607,49 @@ coat_of_arms = {
 		}
 	}
 }
-2052001 = { name="Coskun" culture=central_anatolian }
-2052002 = { name="Biret" culture=central_anatolian }
-2052003 = { name="Demirel" culture=central_anatolian }
-2052004 = { name="Özüdogru" culture=central_anatolian }
+2052001 = { name="Demir" culture=central_anatolian 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2052002 = { name="Günesh" culture=central_anatolian 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2052003 = { name="Sabanci" culture=central_anatolian }
+2052004 = { name="Baylan" culture=central_anatolian 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2052005 = { name="Aksoy" culture=central_anatolian }
 2052006 = { name="Binici" culture=central_anatolian }
 2052007 = { name="Dede" culture=central_anatolian }
@@ -20066,7 +20119,20 @@ coat_of_arms = {
 }
 2055002 = { name="Ulukaya" culture=west_anatolian }
 2055003 = { name="Polat" culture=west_anatolian }
-2055004 = { name="Burakgazi" culture=west_anatolian }
+2055004 = { name="Atçali" culture=west_anatolian 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2055005 = { name="Kemal" culture=west_anatolian 
 	coat_of_arms = { 
 		religion = sunni
@@ -21265,7 +21331,20 @@ coat_of_arms = {
 2060202 = { name="Yüce" culture=black_sea }
 2060203 = { name="Yerlikaya" culture=black_sea }
 2060204 = { name="Karaduman" culture=black_sea }
-2060205 = { name="Köksal" culture=black_sea }
+2060205 = { name="Köksal" culture=black_sea 
+	coat_of_arms = {
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 2061000 = { name="Defacqz" culture=walloon
 	coat_of_arms = { 
@@ -22086,7 +22165,7 @@ coat_of_arms = {
 2069099 = { name="A'zam" culture=tajik }
 2069100 = { name="Amoni" culture=tajik }
 2069101 = { name="Yaghmoi" culture=tajik }
-2069102 = { name="Sinopor" culture=tajik 
+2069102 = { name="Sinopur" culture=tajik 
 	coat_of_arms = { 
 		religion = sunni
 		template = 0
@@ -28326,6 +28405,7 @@ coat_of_arms = {
 2131000 = { name="Glazer" culture=malopolan }
 2131001 = { name="Ngujen" culture=malopolan }
 2131002 = { name="Grzecznarowski-Ngujen" culture=malopolan }
+2131003 = { name="Kozidrak" culture=malopolan }
 
 2132000 = { name="Hasan" culture=zaza }
 2132001 = { name="Bedlîsî" culture=zaza }
@@ -33401,6 +33481,20 @@ coat_of_arms = {
 	}
 }
 7100164 = { name="Yashar" culture=toros_mountain }
+7100165 = { name="Ibrahim" culture=toros_mountain 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 720001 = { name="Ah Cham" culture=sinoa }
 720002 = { name="Ah Ching" culture=sinoa }

@@ -4751,3 +4751,149 @@
 	mother=1991325
 	2634.1.9={birth=yes}
 }
+1991327={
+	name="Meir Yehudah"
+	dynasty=1822094 #Peretz
+	culture=yiddish
+	religion=haredi
+	trait=grey_eminence
+	trait=erudite
+	trait=scholar
+	father=1991334
+	2619.6.11={birth=yes}
+}
+1991328={
+	name="Anita"
+	female=yes
+	culture=malopolan
+	religion=mariavite
+	trait=flamboyant_schemer
+	trait=physician
+	trait=fair
+	trait=socializer
+	trait=headache
+	trait=troubled_pregnancy
+	2625.3.18={birth=yes}
+	2642.1.1={add_spouse=1991327}
+	2666.1.1={
+		effect={
+			c_1991327={
+				ROOT={impregnate=PREV}}
+		}
+	}
+}
+1991329={
+	name="Daniel"
+	dynasty=1822094 #Peretz
+	culture=yiddish
+	religion=haredi
+	trait=charismatic_negotiator
+	trait=groomed
+	trait=patient
+	father=1991327
+	mother=1991328
+	2643.1.25={birth=yes}
+}
+1991330={
+	name="Adam"
+	dynasty=1822094 #Peretz
+	culture=yiddish
+	religion=haredi
+	trait=martial_cleric
+	trait=fair
+	trait=musician
+	father=1991327
+	mother=1991328
+	2647.8.18={birth=yes}
+}
+1991331={
+	name="Bela"
+	female=yes
+	dynasty=1822094 #Peretz
+	culture=yiddish
+	religion=haredi
+	trait=grey_eminence
+	trait=shrewd
+	trait=diligent
+	trait=zealous
+	father=1991327
+	mother=1991328
+	2649.7.8={birth=yes}
+}
+1991332={
+	name="Yitzchak"
+	dynasty=1822094 #Peretz
+	culture=yiddish
+	religion=haredi
+	trait=poet
+	trait=proud
+	trait=pious
+	trait=fortune_builder
+	2541.5.18={birth=yes}
+	2604.4.3={death=yes}
+}
+1991333={
+	name="Leonard"
+	dynasty=1822094 #Peretz
+	culture=yiddish
+	religion=haredi
+	father=1991332
+	mother=1991336
+	2568.11.21={birth=yes}
+	2610.2.24={death=yes}
+}
+1991334={
+	name="Leybush"
+	dynasty=1822094 #Peretz
+	culture=yiddish
+	religion=haredi
+	father=1991333
+	2594.12.13={birth=yes}
+	2654.9.23={death=yes}
+}
+1991335={
+	name="Boleslaw"
+	dynasty=2131003 #Kozidrak
+	culture=malopolan
+	religion=mariavite
+	2511.8.25={birth=yes}
+	2552.7.16={death=yes}
+}
+1991336={
+	name="Beata"
+	female=yes
+	dynasty=2131003 #Kozidrak
+	culture=malopolan
+	religion=mariavite
+	father=1991335
+	trait=musician
+	2546.9.17={birth=yes}
+	2566.1.1={add_spouse=1991332}
+	2586.3.18={death=yes}
+}
+1991337={
+	name="Tomasz"
+	dynasty=2131003 #Kozidrak
+	culture=malopolan
+	religion=mariavite
+	father=1991335
+	2544.7.11={birth=yes}
+	2596.6.18={death=yes}
+}
+1991338={
+	name="Eliyahu"
+	dynasty=1822094 #Peretz
+	culture=yiddish
+	religion=haredi
+	father=1991333
+	2597.8.6={birth=yes}
+	2649.10.4={death=yes}
+}
+1991339={
+	name="David"
+	dynasty=1822094 #Peretz
+	culture=yiddish
+	religion=haredi
+	father=1991338
+	2628.2.11={birth=yes}
+}

@@ -630,7 +630,7 @@
 ######2666 Characters######
 
 2202056={#Ottoman Claimant
-	name="Suleyman"
+	name="Süleyman"
 	dynasty=2057009 #Osmanoghlu
 	culture=rumelian
 	religion=naqshbandi
@@ -649,7 +649,7 @@
 	2661.11.6={add_spouse=2202057}
 	2663.01.01={capital=c_edirne}
 }
-2202057={#Suleyman Wife
+2202057={#Süleyman Wife
 	name="Meryem"
 	dynasty = 2057006 #Hurrem
 	female=yes
@@ -665,7 +665,7 @@
 	trait=grey_eminence
 	2643.11.6={birth=yes}
 }
-2202069={#Eldest Son of Suleyman
+2202069={#Eldest Son of Süleyman
 	name="Mustafa"
 	dynasty=2057009 #Osmanoghlu
 	culture=rumelian
@@ -673,7 +673,7 @@
 	father=2202056
 	2660.11.6={ birth=yes }
 }
-2202106={#Second Son of Suleyman
+2202106={#Second Son of Süleyman
 	name="Mehmet"
 	dynasty=2057009 #Osmanoghlu
 	culture=rumelian
@@ -682,7 +682,7 @@
 	mother=2202057
 	2662.11.6={ birth=yes }
 }
-2202107={#Daughter of Suleyman
+2202107={#Daughter of Süleyman
 	name="Mihrimah"
 	dynasty=2057009 #Osmanoghlu
 	culture=rumelian
@@ -692,7 +692,7 @@
 	mother=2202057
 	2663.11.6={ birth=yes }
 }
-2202108={#Third Son of Suleyman
+2202108={#Third Son of Süleyman
 	name="Selim"
 	dynasty=2057009 #Osmanoghlu
 	culture=rumelian
@@ -789,12 +789,22 @@
 	trait=alevi
 	2638.11.6={ birth=yes }
 }
-2202066={#Izmir Patrician (Tournsel Friend Slot)
-	name="Emir"
-	dynasty=1820096 #Alaton
+2202066={#Izmir Jewish Patrician
+	name="Shlomo"
+	dynasty=1820066 #Halevi
 	culture=sefardi
 	religion=ivri
-	2638.11.6={ birth=yes }
+	trait=hakham
+	trait=mastermind_theologian
+	trait=erudite
+	trait=scholar
+	trait=gregarious
+	trait=lustful
+	stewardship=7
+	learning=6
+	give_nickname=nick_the_old
+	father=2202219
+	2606.5.30={birth=yes}
 }
 2202067={#Izmir Patrician
 	name="Davud"
@@ -807,30 +817,55 @@
 }
 #####################################
 2202068={#Aydin Strongman
-	name="Yörük"
-	dynasty=2055004 #Burakgazi
+	name="Mehmet"
+	dynasty=2055004 #Atçali
 	culture=west_anatolian
 	religion=ruhi
-	2638.11.6={ birth=yes }
+	trait=skilled_tactician
+	trait=peasant_leader
+	trait=brave
+	trait=just
+	trait=honorable
+	properties=m00eb
+	2615.10.31={ birth=yes }
 }
-2202070={#Corum Strongman
-	name="Gürkan"
-	dynasty=2052001 #Coskun
+2202070={#Corum Strongwoman
+	name="Ceyda"
+	female=yes
+	dynasty=2052001 #Demir
 	culture=central_anatolian
 	religion=ruhi
-	2638.11.6={ birth=yes }
+	trait=fortune_builder
+	trait=authoritative
+	trait=quick
+	trait=administrator
+	trait=envious
+	trait=stressed
+	2626.12.20={birth=yes}
+	2660.2.2={capital=c_corum}
 }
 2202071={#Ankara Strongman
-	name="Fazil"
-	dynasty=2052002 #Biret
+	name="Atilla"
+	dynasty=2052002 #Günesh
 	culture=central_anatolian
 	religion=ruhi
-	2638.12.26={ birth=yes }
+	trait=skilled_tactician
+	trait=authoritative
+	trait=hajjaj
+	trait=cavalry_leader
+	trait=wroth
+	trait=chaste
+	trait=hunter
+	trait=scarred_mid
+	trait=cancer
+	trait=strategist
+	give_nickname=nick_the_old
+	2583.8.10={birth=yes}
 }
 2202072={#Ankara Vassal #owns kayseri nevshehir and nigde
-	name="Erdil"
-	dynasty=2052003 #Demirel
-	culture=toros_mountain
+	name="Sinan"
+	dynasty=2052003 #Sabanci
+	culture=central_anatolian
 	religion=naqshbandi
 	trait=shrewd
 	trait=quick
@@ -838,23 +873,38 @@
 	trait=greedy
 	trait=is_fat
 	2613.6.29={ birth=yes }
+	2661.2.20={
+		employer=2202071
+		effect={give_job_title=job_steward}}
 }
 2202073={#Pontic King (A Philsopher King of the Laz)
-	name="Iskender"
-	dynasty=1282000 #Cancali
+	name="Serdar"
+	dynasty=1282000 #Topaloghlu
 	culture=laz
 	religion=ruhi
+	trait=charismatic_negotiator
+	trait=musician
+	trait=honorable
+	trait=honest
+	trait=humble
 	trait=erudite
 	trait=scholar
-	2625.11.23={ birth=yes }
+	learning=9
+	2600.11.23={birth=yes}
 	2660.2.2={capital=c_artvin}
 }
 2202074={#Samsun Vassal
-	name="Talat"
-	dynasty=2052004 #Özüdogru
+	name="Emre"
+	dynasty=2052004 #Baylan
 	culture=central_anatolian
 	religion=ruhi
-	2638.11.6={ birth=yes }
+	trait=thrifty_clerk
+	trait=kind
+	trait=humble
+	trait=content
+	trait=gregarious
+	trait=honorable
+	2643.4.22={birth=yes}
 }
 2202075={#Count of Ordu
 	name="Bektash"
@@ -2461,4 +2511,175 @@
 	religion=ruhi
 	2618.11.22={birth=yes}
 	2636.1.1={add_spouse=2202087}
+}
+2202219={
+	name="Isak"
+	dynasty=1820066 #Halevi
+	culture=sefardi
+	religion=ivri
+	father=2202220
+	2576.1.28={birth=yes}
+	2645.9.1={death=yes}
+}
+2202220={
+	name="Yosef"
+	dynasty=1820066 #Halevi
+	culture=sefardi
+	religion=ivri
+	father=2202221
+	2556.3.31={birth=yes}
+	2601.9.7={death=yes}
+}
+2202221={
+	name="Shlomo"
+	dynasty=1820066 #Halevi
+	culture=sefardi
+	religion=ivri
+	2529.6.16={birth=yes}
+	2586.6.20={death=yes}
+}
+2202222={
+	name="Shlomo"
+	dynasty=1820066 #Halevi
+	culture=sefardi
+	religion=ivri
+	father=2202220
+	2574.11.1={birth=yes}
+	2639.3.15={death=yes}
+}
+2202223={
+	name="Yaakov"
+	dynasty=1820066 #Halevi
+	culture=sefardi
+	religion=ivri
+	father=2202222
+	2609.11.18={birth=yes}
+}
+2202224={
+	name="Yosef"
+	dynasty=1820066 #Halevi
+	culture=sefardi
+	religion=ivri
+	father=2202219
+	2607.11.4={birth=yes}
+}
+2202225={
+	name="Abram"
+	dynasty=1820066 #Halevi
+	culture=sefardi
+	religion=ivri
+	father=2202224
+	2634.7.3={birth=yes}
+}
+2202226={
+	name="Yehuda"
+	dynasty=1820066 #Halevi
+	culture=sefardi
+	religion=ivri
+	father=2202219
+	2609.3.27={birth=yes}
+}
+2202227={
+	name="Isak"
+	dynasty=1820066 #Halevi
+	culture=sefardi
+	religion=ivri
+	father=2202066
+	trait=erudite
+	trait=quick
+	give_nickname=nick_the_young
+	2634.12.10={birth=yes}
+}
+2202228={
+	name="Yosef"
+	dynasty=1820066 #Halevi
+	culture=sefardi
+	religion=ivri
+	father=2202066
+	2636.1.8={birth=yes}
+}
+2202229={
+	name="Chaya"
+	female=yes
+	dynasty=1820066 #Halevi
+	culture=sefardi
+	religion=ivri
+	father=2202066
+	2631.11.16={birth=yes}
+}
+2202230={
+	name="Stella"
+	female=yes
+	dynasty=1820066 #Halevi
+	culture=sefardi
+	religion=ivri
+	father=2202066
+	2638.4.22={birth=yes}
+}
+2202231={
+	name="Muna"
+	female=yes
+	dynasty=1820066 #Halevi
+	culture=sefardi
+	religion=ivri
+	father=2202066
+	2640.2.6={birth=yes}
+}
+2202232={
+	name="Shlomo"
+	dynasty=1820066 #Halevi
+	culture=sefardi
+	religion=ivri
+	father=2202227
+	2655.4.5={birth=yes}
+}
+2202233={
+	name="Nisim"
+	dynasty=1820066 #Halevi
+	culture=sefardi
+	religion=ivri
+	father=2202227
+	2654.2.13={birth=yes}
+}
+2202234={
+	name="Seyfettin"
+	dynasty=7100165 #Ibrahim
+	culture=toros_mountain
+	religion=naqshbandi
+	martial=8
+	trait=tough_soldier
+	trait=strong
+	trait=robust
+	trait=falconer
+	trait=proud
+	trait=charitable
+	trait=stubborn
+	trait=sayyid
+	trait=heavy_infantry_leader
+	father=2202235
+	give_nickname=nick_the_mountain
+	2641.4.2={birth=yes}
+	2661.2.21={
+		employer=2202071
+		effect= { 
+			give_job_title=job_marshal 
+		}
+	}
+}
+2202235={
+	name="Hüma"
+	culture=toros_mountain
+	religion=naqshbandi
+	trait=sayyid
+	father=2202236
+	2618.8.10={birth=yes}
+}
+2202236={
+	name="Ibrahim"
+	culture=toros_mountain
+	religion=naqshbandi
+	trait=sayyid
+	father=2202236
+	2587.8.16={birth=yes}
+	2630.9.8={death=yes}
 }
