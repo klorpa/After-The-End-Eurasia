@@ -1615,6 +1615,7 @@ succession_laws = {
 				is_merchant_republic = yes
 			}
 			NOT = { holder_scope = { government = chinese_imperial_government } }
+			NOT = { holder_scope = { government = ethiopian_imperial_government } }
 		}
 		effect = {
 			succession = patrician_elective
