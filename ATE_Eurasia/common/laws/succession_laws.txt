@@ -444,7 +444,6 @@ succession_laws = {
 			always = no
 		}			
 	}
-	
 	succ_seniority = {
 		vassal_opinion = -5
 		oldest_child_opinion = -15
@@ -452,13 +451,6 @@ succession_laws = {
 		dynasty_opinion = 5
 	
 		potential = {
-			NAND = { 
-				has_law = succ_byzantine_elective 
-				OR = { 
-					title = e_byzantium
-					title = e_roman_empire
-				}
-			}
 			holder_scope = {
 				OR = {
 					independent = yes
@@ -474,25 +466,16 @@ succession_laws = {
 						NOT = { title = PREVPREV }
 					}
 				}
-				
-                OR = {
+               OR = {
                     NOR = {
-						AND = {
-							religion_group = muslim
-							OR = {
-								government = ghazi_government
-								government = ibadi_imamate
-							}
-						}
+						religion_group = muslim
 						religion_group = indian_group 
 					}
                     is_patrician = yes
                 }
-				
 				OR = {
 					NOT = { religion_group = pagan_group }
 					is_reformed_religion = yes
-					religion = hellenic_pagan
 					is_patrician = yes
 				}
 				
@@ -524,10 +507,6 @@ succession_laws = {
 					is_patrician = yes
 					independent = no
 				}
-				AND = {
-					government = diwan_government
-					religion_group = muslim
-				}
 			}
 			OR = {
 				is_landless_type_title = no
@@ -549,7 +528,9 @@ succession_laws = {
 				NOT = { tier = baron }
 				holder_scope = { is_patrician = yes }
 			}
-			NOT = { holder_scope = { government = confederation_government } }
+			
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
+			NOT = { holder_scope = { government = ethiopian_bureaucracy } }
 		}
 		
 		allow = {
