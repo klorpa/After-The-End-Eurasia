@@ -136,6 +136,8 @@ succession_laws = {
 			}
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = confederation_government } }
+			NOT = { holder_scope = { government = diwan_government } }
+			NOT = { holder_scope = { government = ghazi_government } }
 		}
 		allow = {
 			holder_scope = {
