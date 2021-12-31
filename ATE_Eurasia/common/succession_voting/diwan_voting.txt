@@ -11,14 +11,18 @@ familial_elective = {
 			value = 20
 			age = 16
 			FROMFROM = { holder_scope = { is_parent_of = ROOT } }
-			is_female = no
+			NOT = {
+				is_female = yes
+			}
 		}
 		additive_modifier = { #Relatives of the Current Sultan
 			value = 15
 			FROMFROM = {
 				holder_scope = { dynasty = ROOT } 
 				NOT = {holder_scope = { is_parent_of = ROOT } }
-				is_female = no
+				NOT = {
+					is_female = yes
+				}
 			}
 		}
 		additive_modifier = { #Regent or Grand Vizier
