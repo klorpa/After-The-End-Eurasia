@@ -504,6 +504,10 @@ succession_laws = {
 					religion = jedinstvo
 					}
 				}
+				AND = {
+					government = diwan_government
+					religion_group = muslim
+				}
 				NAND = {
 					government = pirate_government
 					is_patrician = yes
@@ -1754,8 +1758,7 @@ gender_laws = {
 				holder_scope = {
 					OR = {
 						religion = haredi
-						religion = ahl_as_salaf
-						religion = revivalist
+						religion_group = muslim
 					}
 					primary_title = {
 						NOT = { has_law = status_of_women_3 }
