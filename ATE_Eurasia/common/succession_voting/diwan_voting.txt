@@ -7,13 +7,16 @@ familial_elective = {
 				holder_scope = { character = ROOT }
 			}
 		}
-		additive_modifier = { #Close Family and Relatives
+		additive_modifier = { #Children of the Current Sultan (of Age)
 			value = 20
-			FROM = { 
-				dynasty = ROOT
-				NOT = { 
-					is_close_relative = ROOT
-				}
+			age = 16
+			FROMFROM = { holder_scope = { is_parent_of = ROOT } }
+		}
+		additive_modifier = { #Relatives of the Current Sultan
+			value = 15
+			FROMFROM = {
+				holder_scope = { dynasty = ROOT } 
+				NOT = {holder_scope = { is_parent_of = ROOT } }
 			}
 		}
 		additive_modifier = { #Regent or Grand Vizier
