@@ -190,5 +190,62 @@ carpathian = {
 
 		modifier = default_culture_modifier
 	}
+	aromanian = {
+		graphical_cultures = { serbsouthslavicgfx }
+
+		color = {0.2 0.3 0.38 }
+
+		male_names = {
+			Adrian_Adrian Alchiviadi Alexandru_Alexander Alfred_Alfred Andrei_Andrew Andreilu Apostol Arhimede Aristomene Atanasie_Athanasius Augustu_Augustus 
+			Barbu 
+			Camil_Camillus Cezar_Caesar Chetru_Peter Ciprian_Cyprian Claudiu_Claudius Constantin_Constantine Costa_Constans Costica Costin 
+			Dacian_Dacian Dan Dumitru_Demetrius Dina Dionisie_Dionysus Dragos Drosu 
+			Eftimiu Elek Emanuil_Emmanuel Emil_Emil Eremia_Jeremy Ernest_Ernest Eugeniu_Eugene 
+			Florin 
+			Gheorghe_George Gica Gogu Grigore_Gregory 
+			Haralambie Homeru Hristu_Christopher 
+			Ianachia Ianis_John Ilie_Elijah Ioan_John Ion_John Ionel Ioryi_George Iosif_Joseph 
+			Kimon 
+			Leonidas Liviu Lucian_Lucian 
+			Manase Marcu_Mark Marian Mateiu_Matthew Meletie Mihail_Michael Milton Mina Mircea 
+			Nacu Neagu Nicolae_Nicholas Nida Nusi 
+			Octavian Odysseas Orest Ovidiu 
+			Pantelimon Paul_Paul Pericle_Pericles Pitu Puiu 
+			Rafail_Raphael Remus Rigas 
+			Serban Sergiu_Sergius Sextil Simeon_Simon Sirma Sorin Sotirios Spiru Stefan_Stephan Stere Stoica 
+			Tachi Teodor_Theodore Teofan Thiuhari Tiberiu_Tiberius Toma_Thomas Toshe Traian_Trajan Tudor_Theodore Tulliu_Tullius 
+			Vanghele Vasile_Basil Victor_Victor 
+			Zahu_Zachary Zicu 
+		}
+		female_names = {
+			Adriana Agnesa_Agnes Alexandra_Alexandra Anastasia_Anastasia Angelina Antigona 
+			Catia Clemansa Cristina_Christina 
+			Diana 
+			Elena_Helen Elizabeta_Elizabeth Eugenia_Eugenia 
+			Fanula Flavia Florica 
+			Georgita 
+			Ilinca Iphigenia Irena_Irene 
+			Kira 
+			Lena Liana Lika Lucia_Lucy 
+			Maria_Mary Mariana Matilda_Mathilda Mina 
+			Nadia 
+			Simona 
+			Thereza_Theresa 
+			Vanghea 
+			Yvonetta 
+		}
+		
+		from_dynasty_prefix = "din "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
 
 }

@@ -19650,9 +19650,48 @@ coat_of_arms = {
 		}
 	}
 }
-2052005 = { name="Aksoy" culture=central_anatolian }
-2052006 = { name="Binici" culture=central_anatolian }
-2052007 = { name="Dede" culture=central_anatolian }
+2052005 = { name="Karaca" culture=central_anatolian 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2052006 = { name="Tanriverdi" culture=central_anatolian used_for_random=no
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2052007 = { name="Yilmaz" culture=central_anatolian 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2052008 = { name="Yildiz" culture=central_anatolian }
 2052009 = { name="Yildirim" culture=central_anatolian }
 2052010 = { name="Öztürk" culture=central_anatolian }
@@ -21129,7 +21168,20 @@ coat_of_arms = {
 2060000 = { name="Sönmez" culture=black_sea }
 2060001 = { name="Üçok" culture=black_sea }
 2060002 = { name="Tartar" culture=black_sea }
-2060003 = { name="Cicek" culture=black_sea }
+2060003 = { name="Tercanij" culture=black_sea used_for_random=no 
+	coat_of_arms = {
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2060004 = { name="Orhanoghlu" culture=black_sea }
 2060005 = { name="Yilmaz" culture=black_sea }
 2060006 = { name="Aydin" culture=black_sea }
@@ -21345,6 +21397,7 @@ coat_of_arms = {
 		}
 	}
 }
+2060206 = { name="Akdagh" culture=black_sea }
 
 2061000 = { name="Defacqz" culture=walloon
 	coat_of_arms = { 
@@ -21780,8 +21833,34 @@ coat_of_arms = {
 2065021 = { name="Hashimi" culture=turcoman }
 2065022 = { name="Bayati" culture=turcoman }
 
-2066000 = { name="Hasan" culture=kurdish }
-2066001 = { name="Bedlîsî" culture=kurdish }
+2066000 = { name="Kezêban" culture=kurdish 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2066001 = { name="Seyvan" culture=kurdish 
+	coat_of_arms = { 
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2066002 = { name="Diyap" culture=kurdish }
 2066003 = { name="Derdiyok" culture=kurdish }
 2066004 = { name="Güney" culture=kurdish }
@@ -29053,6 +29132,124 @@ coat_of_arms = {
 2137193 = { name="Shamarin" culture=uralic }
 2137194 = { name="Shirokalov" culture=uralic }
 2137195 = { name="Shamseev" culture=uralic }
+
+2138000 = { name="Papahagi" culture=aromanian }
+2138001 = { name="Caragiu" culture=aromanian }
+2138002 = { name="Maxim" culture=aromanian }
+2138003 = { name="Porumbescu" culture=aromanian }
+2138004 = { name="Atanasescu" culture=aromanian }
+2138005 = { name="Gheorghe" culture=aromanian }
+2138006 = { name="Becali" culture=aromanian }
+2138007 = { name="Roja" culture=aromanian }
+2138008 = { name="Coada" culture=aromanian } 
+2138009 = { name="Lese" culture=aromanian }
+2138010 = { name="Caraian" culture=aromanian }
+2138011 = { name="Butaris" culture=aromanian }
+2138012 = { name="Margarit" culture=aromanian }
+2138013 = { name="Boga" culture=aromanian }
+2138014 = { name="Guci" culture=aromanian }
+2138015 = { name="Lambru" culture=aromanian }
+2138016 = { name="Cunia" culture=aromanian }
+2138017 = { name="Capidan" culture=aromanian }
+2138018 = { name="Vreta" culture=aromanian } 
+2138019 = { name="Gogu" culture=aromanian }
+2138020 = { name="Çetiri" culture=aromanian }
+2138021 = { name="Gulea" culture=aromanian }
+2138022 = { name="Hagi" culture=aromanian }
+2138023 = { name="Lalas" culture=aromanian }
+2138024 = { name="Nicolaescu" culture=aromanian }
+2138025 = { name="Noica" culture=aromanian }
+2138026 = { name="Nusha" culture=aromanian }
+2138027 = { name="Batzaria" culture=aromanian }
+2138028 = { name="Cearã" culture=aromanian } 
+2138029 = { name="Cardula" culture=aromanian }
+2138030 = { name="Zeana" culture=aromanian }
+2138031 = { name="Iosif" culture=aromanian }
+2138032 = { name="Pita" culture=aromanian }
+2138033 = { name="al Bagav" culture=aromanian }
+2138034 = { name="Murnu" culture=aromanian }
+2138035 = { name="Belemace" culture=aromanian }
+2138036 = { name="Araia" culture=aromanian }
+2138037 = { name="Caciona" culture=aromanian }
+2138038 = { name="Caratanã" culture=aromanian } 
+2138039 = { name="Cãndroveanu" culture=aromanian }
+2138040 = { name="Cuvata" culture=aromanian }
+2138041 = { name="Mantsu" culture=aromanian }
+2138042 = { name="Bara" culture=aromanian }
+2138043 = { name="Panâ" culture=aromanian }
+2138044 = { name="Mihadashlu" culture=aromanian }
+2138045 = { name="Boiagi" culture=aromanian }
+2138046 = { name="Manachia" culture=aromanian }
+2138047 = { name="Puiu" culture=aromanian }
+2138048 = { name="Martinoschi" culture=aromanian } 
+2138049 = { name="Guli" culture=aromanian }
+2138050 = { name="Beza" culture=aromanian }
+2138051 = { name="Velo" culture=aromanian }
+2138052 = { name="Foti" culture=aromanian }
+2138053 = { name="Scrima" culture=aromanian }
+2138054 = { name="Babu" culture=aromanian }
+2138055 = { name="Nasta" culture=aromanian }
+2138056 = { name="Perdichi" culture=aromanian }
+2138057 = { name="Colimitra" culture=aromanian }
+2138058 = { name="Mihanj-Sterghiu" culture=aromanian } 
+2138059 = { name="Merca" culture=aromanian }
+2138060 = { name="Garofil" culture=aromanian }
+2138061 = { name="Carafoli" culture=aromanian }
+2138062 = { name="Ogeacli" culture=aromanian }
+2138063 = { name="Tode" culture=aromanian }
+2138064 = { name="Stere" culture=aromanian }
+2138065 = { name="Vranã" culture=aromanian }
+2138066 = { name="Mihalcu" culture=aromanian }
+2138067 = { name="Fuchi" culture=aromanian }
+2138068 = { name="Enache" culture=aromanian } 
+2138069 = { name="Bagdasar" culture=aromanian }
+2138070 = { name="Balamaci" culture=aromanian }
+2138071 = { name="Bezdechi" culture=aromanian }
+2138072 = { name="Berati" culture=aromanian }
+2138073 = { name="Bolintineanu" culture=aromanian }
+2138074 = { name="Buref" culture=aromanian }
+2138075 = { name="Canacheu" culture=aromanian }
+2138076 = { name="Caracostea" culture=aromanian }
+2138077 = { name="Caragiale" culture=aromanian }
+2138078 = { name="Caramitru" culture=aromanian } 
+2138079 = { name="Cavalioti" culture=aromanian }
+2138080 = { name="Ciumeti" culture=aromanian }
+2138081 = { name="Constante" culture=aromanian }
+2138082 = { name="Covaci" culture=aromanian }
+2138083 = { name="Craja" culture=aromanian }
+2138084 = { name="Djuvara" culture=aromanian }
+2138085 = { name="Saguna" culture=aromanian }
+2138086 = { name="Drumes" culture=aromanian }
+2138087 = { name="Dumitrescu" culture=aromanian }
+2138088 = { name="Eftimiu" culture=aromanian } 
+2138089 = { name="Farmache" culture=aromanian }
+2138090 = { name="Gojdu" culture=aromanian }
+2138091 = { name="Hasotti" culture=aromanian }
+2138092 = { name="Iotzu" culture=aromanian }
+2138093 = { name="Iovanovici-Sosoaca" culture=aromanian }
+2138094 = { name="Loghi" culture=aromanian }
+2138095 = { name="Magiari" culture=aromanian }
+2138096 = { name="Maimarolu" culture=aromanian }
+2138097 = { name="Eliad" culture=aromanian }
+2138098 = { name="Mihadas" culture=aromanian } 
+2138099 = { name="Marcu" culture=aromanian }
+2138100 = { name="Minovici" culture=aromanian }
+2138101 = { name="Vlahu" culture=aromanian }
+2138102 = { name="Munteanu" culture=aromanian }
+2138103 = { name="Gheorghiades" culture=aromanian }
+2138104 = { name="Murnu" culture=aromanian }
+2138105 = { name="Naum" culture=aromanian }
+2138106 = { name="Matusi" culture=aromanian }
+2138107 = { name="Papacostea" culture=aromanian }
+2138108 = { name="Papazoglu" culture=aromanian }
+2138109 = { name="Proeski" culture=aromanian }
+2138110 = { name="Simotta" culture=aromanian }
+2138111 = { name="Steriu" culture=aromanian }
+2138112 = { name="Tafrali" culture=aromanian }
+2138113 = { name="Tanasoca" culture=aromanian }
+2138114 = { name="Trifon" culture=aromanian }
+2138115 = { name="Tamblac" culture=aromanian }
+2138116 = { name="Zappa" culture=aromanian }
 
 2201000 = { name="Lewis" culture=welsh 
 	coat_of_arms = {
