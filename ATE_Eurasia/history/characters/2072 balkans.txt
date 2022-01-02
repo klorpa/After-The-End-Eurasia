@@ -34,18 +34,18 @@
 	trait = erudite
 	trait = charitable
 	trait = theologian
-		2606.4.12 = { birth = yes }
-		2628.6.23 = { add_spouse = 2072004 }
-		
-	}
-2072004 = {
-	name = "Iohana"
-	dynasty = 1821003
-	culture = romaniote
-	religion = ivri
-	female = yes
-		2612.5.20 = { birth = yes }
-	}
+	2606.4.12 = { birth = yes }
+	2628.6.23 = { add_spouse = 2072004 }
+}
+2072004={
+	name="Iohana"
+	dynasty=1820066 #Halevi
+	culture=sefardi
+	religion=ivri
+	female=yes
+	father=2202222
+	2612.5.20={birth=yes}
+}
 2072005 = {
 	name = "Ioseph"
 	dynasty = 1821000

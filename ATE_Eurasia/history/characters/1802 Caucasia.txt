@@ -255,7 +255,6 @@
 	trait=school_thaddeus
     trait=flamboyant_schemer		
     trait=shrewd
-    trait=dull
     trait=diligent
     2525.1.11={birth=yes}
 	2542.8.15={add_spouse=1802009}
@@ -1746,7 +1745,6 @@
 	trait=sympathy_old_world_cults
     trait=defensive_leader
     trait=kind
-	trait=zealous
 	2633.1.15={birth=yes}
 	2656.8.8={add_spouse=1802091}
 }
@@ -2050,7 +2048,6 @@
 	trait=gregarious
 	2655.2.14={birth=yes}
 }
-
 1802103={ #Firuzä Häsäni
     name="Firuzä"
 	female=yes
@@ -2060,4 +2057,14 @@
 	father=1802066
 	mother=1802088
 	2639.2.9={birth=yes}
+}
+1802104={ #nico's friend
+    name="Hovhannes"
+    dynasty=1802107 #Bogosian
+    culture=armenian
+	religion=miaphysite
+	trait=proud
+	trait=skilled_tactician
+	2644.9.10={birth=yes}
+	2660.1.1={employer=1802014}
 }

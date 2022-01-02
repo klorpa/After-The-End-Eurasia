@@ -37,6 +37,9 @@ nick_lecyper = {}
 nick_niemen = {}
 nick_young_lion = {}
 nick_cigala = {}
+nick_the_moor_of_venice = {}
+nick_the_black_ram = {}
+nick_alaton = {}
 nick_malizia = {
 	allow = {
 		culture = ligurian
@@ -161,6 +164,26 @@ nick_the_pale = {
 	}
 	chance = {
 		factor = 1
+	}
+}
+
+nick_the_mountain = {
+	allow = {
+		age = 30
+		martial = 12
+		OR = {
+			trait = strong
+			trait = robust
+			trait = fair
+		}
+		OR = {
+			trait = shrewd
+			trait = quick
+			trait = genius
+		}
+	}
+	chance = {
+		factor = 5
 	}
 }
 ##########################################

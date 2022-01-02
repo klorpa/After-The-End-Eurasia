@@ -417,7 +417,7 @@ character_event = {
 		set_government_type = ghazi_government
 	}
 }
-#Setting Muslim Governments (AI)
+#Setting Muslim Governments
 character_event = {
 	id = gov.013
 	hide_window = yes
@@ -427,7 +427,6 @@ character_event = {
 	}
 	
 	trigger = {
-		ai = yes
 		OR = {
 			AND = {
 				government = diwan_government
