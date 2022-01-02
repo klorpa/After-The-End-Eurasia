@@ -818,6 +818,7 @@
 	learning=6
 	give_nickname=nick_the_old
 	father=2202219
+	mother=2202253
 	2606.5.30={birth=yes}
 }
 2202067={#Izmir Patrician
@@ -1079,6 +1080,7 @@
 	trait=greedy
 	trait=ambitious
 	give_nickname=nick_the_black_ram
+	father=2202263
 	2612.8.20={birth=yes}
 }
 2202087={#Count of Kars
@@ -1135,6 +1137,7 @@
 	trait=charitable
 	trait=content
 	trait=hajjaj
+	father=2202257
 	2615.10.27={ birth=yes }
 }
 2202091 = { #Most Recent Seyh ul-Islam
@@ -2619,6 +2622,7 @@
 	culture=sefardi
 	religion=ivri
 	father=2202222
+	mother=2202252
 	2609.11.18={birth=yes}
 }
 2202224={
@@ -2627,6 +2631,7 @@
 	culture=sefardi
 	religion=ivri
 	father=2202219
+	mother=2202253
 	2607.11.4={birth=yes}
 }
 2202225={
@@ -2635,6 +2640,7 @@
 	culture=sefardi
 	religion=ivri
 	father=2202224
+	mother=2202256
 	2634.7.3={birth=yes}
 }
 2202226={
@@ -2643,6 +2649,7 @@
 	culture=sefardi
 	religion=ivri
 	father=2202219
+	mother=2202253
 	2609.3.27={birth=yes}
 }
 2202227={
@@ -2651,6 +2658,7 @@
 	culture=sefardi
 	religion=ivri
 	father=2202066
+	mother=2202254
 	trait=erudite
 	trait=quick
 	give_nickname=nick_the_young
@@ -2662,6 +2670,7 @@
 	culture=sefardi
 	religion=ivri
 	father=2202066
+	mother=3600097
 	2636.1.8={birth=yes}
 }
 2202229={
@@ -2671,6 +2680,7 @@
 	culture=sefardi
 	religion=ivri
 	father=2202066
+	mother=2202254
 	2631.11.16={birth=yes}
 }
 2202230={
@@ -2680,6 +2690,7 @@
 	culture=sefardi
 	religion=ivri
 	father=2202066
+	mother=3600097
 	2638.4.22={birth=yes}
 }
 2202231={
@@ -2689,6 +2700,7 @@
 	culture=sefardi
 	religion=ivri
 	father=2202066
+	mother=3600097
 	2640.2.6={birth=yes}
 }
 2202232={
@@ -2697,6 +2709,7 @@
 	culture=sefardi
 	religion=ivri
 	father=2202227
+	mother=2202255
 	2655.4.5={birth=yes}
 }
 2202233={
@@ -2705,6 +2718,7 @@
 	culture=sefardi
 	religion=ivri
 	father=2202227
+	mother=2202255
 	2654.2.13={birth=yes}
 }
 2202234={
@@ -2880,6 +2894,7 @@
 	trait=poet
 	trait=gregarious
 	trait=erudite
+	trait=lustful
 	2628.9.3={birth=yes}
 }
 2202249={
@@ -2908,10 +2923,174 @@
 	2537.9.25={birth=yes}
 	2602.2.8={death=yes}
 }
-
-2202252={#Rabia wife of the Bagratid Duke
+2202252={
+	name="Alegria"
+	female=yes
+	dynasty=0
+	culture=sefardi
+	religion=ivri
+	2587.1.22={birth=yes}
+	2607.1.1={add_spouse=2202222}
+	2643.12.18={death=yes}
+}
+2202253={
+	name="Sheba"
+	female=yes
+	dynasty=1820095 #Pallache
+	culture=sefardi
+	religion=ivri
+	father=3605024
+	2584.1.31={birth=yes}
+	2602.1.1={add_spouse=2202219}
+	2639.3.4={death=yes}
+}
+2202254={
+	name="Yael"
+	female=yes
+	dynasty=0
+	culture=sefardi
+	religion=ivri
+	2611.6.29={birth=yes}
+	2629.1.1={add_spouse=2202066}
+	2634.12.10={death={
+			death_reason=death_childbirth
+		}
+	}
+}
+2202255={
+	name="Gül"
+	female=yes
+	father=2202114
+	dynasty=2055001 #Shahenk
+	culture=west_anatolian
+	religion=ruhi
+	2634.2.3={birth=yes}
+	2652.1.1={add_spouse=2202227}
+}
+2202256={
+	name="Bellida"
+	female=yes
+	dynasty=0
+	culture=sefardi
+	religion=ivri
+	2615.11.30={birth=yes}
+	2632.1.1={add_spouse=2202224}
+}
+2202257={
+	name="Alishan"
+	dynasty=2060003 #Tercanij
+	culture=zaza
+	religion=shiite
+	trait=alevi
+	2583.2.15={birth=yes}
+	2635.12.8={death=yes}
+}
+2202258={
+	name="Saheyder"
+	dynasty=2060003 #Tercanij
+	culture=zaza
+	religion=shiite
+	trait=alevi
+	father=2202257
+	2624.8.8={birth=yes}
+	2647.1.1={add_spouse=2202248}
+	2660.1.1={effect={add_rival=2202248}}
+}
+2202259={
+	name="Hüsrev"
+	dynasty=2060206 #Akdagh
+	culture=black_sea
+	religion=shiite
+	trait=alevi
+	father=2202258
+	mother=2202248
+	2648.12.10={birth=yes}
+}
+2202260={
+	name="Turgay"
+	dynasty=2060206 #Akdagh
+	culture=black_sea
+	religion=shiite
+	trait=alevi
+	trait=legit_bastard
+	trait=fair
+	mother=2202248
+	father=2202261
+	2649.6.1={birth=yes}
+	2660.1.1={effect={add_rival=2202259}}
+}
+2202261={
+	name="Hikmet"
+	dynasty=0
+	culture=black_sea
+	religion=ruhi
+	trait=fair
+	2631.11.8={birth=yes}
+	2649.9.8={death={death_reason=death_duel killer=2202258}}
+}
+2202262={
+	name="Hülya"
+	female=yes
+	dynasty=2060206 #Akdagh
+	culture=black_sea
+	religion=shiite
+	trait=alevi
+	father=2202258
+	mother=2202248
+	2650.6.11={birth=yes}
+}
+2202263={
+	name="Shemsedîn"
+	dynasty=2066001 #Seyvan
+	culture=kurdish
+	religion=sunni
+	father=2202264
+	2587.6.26={birth=yes}
+	2635.6.23={death=yes}
+}
+2202264={
+	name="Îsa"
+	dynasty=2066001 #Seyvan
+	culture=kurdish
+	religion=sunni
+	father=2202265
+	2565.9.5={birth=yes}
+	2609.10.26={death=yes}
+}
+2202265={
+	name="Ferîd"
+	dynasty=2066001 #Seyvan
+	culture=kurdish
+	religion=sunni
+	father=2202266
+	2523.1.6={birth=yes}
+	2594.8.7={death=yes}
+}
+2202266={
+	name="Îkram"
+	dynasty=2066001 #Seyvan
+	culture=kurdish
+	religion=sunni
+	2502.1.6={birth=yes}
+	2555.3.15={death=yes}
+}
+2202267={
+	name="Ataol"
+	dynasty=2054211 #Çätin
+	culture=azeri
+	religion=ruhi
+	trait=strong
+	trait=scarred
+	trait=poet
+	trait=sympathy_christendom
+	trait=sympathy_judaism
+	trait=content
+	trait=scholarly_theologian
+	2639.4.13={birth=yes}
+}
+2202268={#Rabia wife of the Bagratid Duke
 	name="Rabia"
-	#dynasty=1282000 #Topaloghlu Will add her in later
+	dynasty=1282000 #Topaloghlu
 	female=yes
 	culture=laz
 	religion=ruhi
