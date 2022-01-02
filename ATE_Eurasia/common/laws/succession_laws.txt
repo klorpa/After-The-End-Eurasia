@@ -469,10 +469,7 @@ succession_laws = {
 					}
 				}
                OR = {
-                    NOR = {
-						religion_group = muslim
-						religion_group = indian_group 
-					}
+                    NOT = { religion_group = indian_group }
                     is_patrician = yes
                 }
 				OR = {
@@ -504,8 +501,8 @@ succession_laws = {
 					religion = jedinstvo
 					}
 				}
-				AND = {
-					government = diwan_government
+				NAND = {
+					government = ghazi_government
 					religion_group = muslim
 				}
 				NAND = {
