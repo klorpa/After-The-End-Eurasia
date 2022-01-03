@@ -193,7 +193,9 @@ feudal_governments = {
 					}
 					higher_tier_than = BARON
 				}
-
+				character = 1802000
+				character = 1802005
+				character = 1802026
 			}
 			NAND = { 
 				tier = EMPEROR
@@ -983,6 +985,8 @@ feudal_governments = {
 		title_prefix = "cenobitic_"
 		
 		potential = {
+			
+			OR = {
 			AND = {
 				OR = {
 					religion = miaphysite
@@ -996,7 +1000,9 @@ feudal_governments = {
 					}
 				higher_tier_than = BARON
 			}
-			is_patrician = no		
+			character = 1802036
+			}
+			is_patrician = no
 		}
 
 		
