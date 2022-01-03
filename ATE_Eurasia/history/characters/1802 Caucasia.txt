@@ -378,8 +378,9 @@
     stewardship=4
     intrigue=5
     learning=16
-	trait=school_thaddeus
-    trait=desert_father	
+	trait=mastermind_theologian	
+	trait=desert_father
+    trait=school_thaddeus	
     trait=pious
     trait=groomed
     trait=humble
@@ -389,6 +390,11 @@
 	father=1802010
 	mother=1802011
     2554.6.21={birth=yes}
+	2610.1.1 = {
+		effect_even_if_dead = {
+			set_special_character_title = DESERT_FATHER_TITLE
+		}
+	}
 	2620.7.5={death=yes}
 } 
 
