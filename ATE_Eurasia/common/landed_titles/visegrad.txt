@@ -998,6 +998,18 @@ e_visegrad = {
 				lithuanian="Slupskas"
 				latvian="Slupska"
 				
+				b_darlowo = {
+					rhenish="Rügenwalde"
+					low_saxon="Rügenwalde"
+					ossi="Rügenwalde"
+					upper_saxon="Rügenwalde"
+					bavarian="Rügenwalde"
+					swabian="Rügenwalde"
+					austrian="Rügenwalde"
+					schwyzer="Rügenwalde"
+					palatinate="Rügenwalde"
+					alsatian="Rügenwalde"
+					kashubian="Dërlowò"}
 				b_slupsk = {
 					rhenish="Stolp"
 					low_saxon="Stolp"
@@ -1008,6 +1020,7 @@ e_visegrad = {
 					austrian="Stolp"
 					schwyzer="Stolp"
 					palatinate="Stolp"
+					alsatian="Stolp"
 					kashubian="Stôlpsk"
 					lithuanian="Slupskas"
 					latvian="Slupska"
@@ -1067,19 +1080,6 @@ e_visegrad = {
 					palatinate="Rummelsburg"
 				}
 				b_leba = {}
-				b_slawno = {
-					rhenish="Schlawe"
-					low_saxon="Schlawe"
-					ossi="Schlawe"
-					upper_saxon="Schlawe"
-					bavarian="Schlawe"
-					swabian="Schlawe"
-					austrian="Schlawe"
-					schwyzer="Schlawe"
-					palatinate="Schlawe"
-					kashubian="Slôwno"
-					latvian="Slavno"
-				}
 			}
 			c_koszalin = {
 				color={ 169 46 15 }
@@ -2192,6 +2192,7 @@ e_visegrad = {
 					swabian="Warschau"
 					austrian="Warschau"
 					schwyzer="Warschau"
+					alsatian="Warschau"
 					palatinate="Warschau"
 				}
 				b_mokotow = {}
@@ -2295,7 +2296,7 @@ e_visegrad = {
 				ukrainian = "Krakiv"
 				rusyn = "Krakiv"
 				
-				b_tarnow = {}
+				b_wawel = {}
 				b_krakow = {
 					slovak = "Krakov"
 					czech = "Krakov"
@@ -2306,23 +2307,34 @@ e_visegrad = {
 					ukrainian = "Krakiv"
 					rusyn = "Krakiv"
 				}
-				b_oswiecim = {}
-				b_chrzanow = {}
-				b_olkusz = {}
-				b_skawina = {}
+				b_tarnow = {}
 				b_bochnia = {}
+				b_wieliczka = {
+					rhenish="Groß Salze"
+					low_saxon="Groß Salze"
+					ossi="Groß Salze"
+					upper_saxon="Groß Salze"
+					bavarian="Groß Salze"
+					swabian="Groß Salze"
+					austrian="Groß Salze"
+					schwyzer="Groß Salze"
+					palatinate="Groß Salze"
+					alsatian="Groß Salze"}
+				b_myslenice = {}
+				b_brzesko = {
+					yiddish="Brigel"}
 			}
 			c_swietokrzyskie = {
 				color={ 147 72 78 }
 				color2={ 255 255 255 }
 
-				b_ostrowiec_swietokrzyski = {}
 				b_kielce = {}
-				b_starachowice = {}
-				b_skarzysko_kamienna = {}
 				b_sandomierz = {}
-				b_konskie = {}
-				b_busko_zdroj = {}
+				b_ostrowiec_swietokrzyski = {}
+				b_krzysztopor = {}
+				b_kamienna = {}
+				b_starachowice = {}
+				b_jedrzejow = {}
 			}
 			c_rzeszow = {
 				color={ 250 140 130 }
@@ -2331,15 +2343,21 @@ e_visegrad = {
 				ukrainian = "Riashiv"
 				rusyn = "Riashiv"
 				
-				b_stalowa_wola = {}
 				b_rzeszow = {
 					ukrainian = "Riashiv"
 					rusyn = "Riashiv"
 				}
 				b_mielec = {}
+				b_stalowa_wola = {}
 				b_tarnobrzeg = {}
-				b_debica = {}
 				b_jaroslaw = {}
+				b_przeworsk = {
+					ukrainian="Perevors'k"
+					rusyn="Perevors'k"
+					halychian="Perevors'k"
+					donskoy="Perevors'k"
+					chornomorsky="Perevors'k"
+					yiddish="Prshevorsk"}
 				b_lancut = {}
 			}
 			c_przemysl = {
@@ -2349,28 +2367,72 @@ e_visegrad = {
 				ukrainian = "Peremyshl"
 				rusyn = "Peremyshl"
 					
-				b_krosno = {}
 				b_przemysl = {
 					ukrainian = "Peremyshl"
 					rusyn = "Peremyshl"
 				}
 				b_sanok = {}
+				b_krosno = {}
 				b_jaslo = {}
 				b_ustrzyki_dolne = {}
-				b_brzozow = {}
-				b_dynow = {}
+				b_lesko = {
+					ukrainian="Lisko"
+					rusyn="Lisko"
+					halychian="Lisko"
+					donskoy="Lisko"
+					chornomorsky="Lisko"
+					yiddish="Linsk"}
+				b_strzyzow = {}
 			}
-			c_nowy_sacz = {
+			c_sandezerland = {
 				color={ 218 144 118 }
 				color2={ 255 255 255 }
 				
-				b_nowy_targ = {}
-				b_nowy_sacz = {}
-				b_gorlice = {}
+				malopolan="Sandecja"
+				goral="Sondecyzna"
+				silesian="Sondeczyzna"
+				wielkopolan="Podhale"
+				mazovian="Podhale"
+				warmzur="Podhale"
+				odrzan="Podhale"
+				
+				b_nowy_sacz = {
+					goral="Nowy Sonc"
+					silesian="Nowy Sóncz"
+					malopolan="Nowa Sandecz"
+					kashubian="Nowi Sóncz"
+					hungarian="Újszandec"
+					szekely="Újszandec"
+					rhenish="Neu Sandez"
+					low_saxon="Neu Sandez"
+					ossi="Neu Sandez"
+					upper_saxon="Neu Sandez"
+					bavarian="Neu Sandez"
+					swabian="Neu Sandez"
+					austrian="Neu Sandez"
+					schwyzer="Neu Sandez"
+					alsatian="Neu Sandez"
+					palatinate="Neu Sandez"}
+				b_nowy_targ = {
+					slovak="Nový Targ"
+					yiddish="Naymarkt"
+					goral="Miasto"
+					rhenish="Neumarkt"
+					low_saxon="Neumarkt"
+					ossi="Neumarkt"
+					upper_saxon="Neumarkt"
+					bavarian="Neumarkt"
+					swabian="Neumarkt"
+					austrian="Neumarkt"
+					schwyzer="Neumarkt"
+					alsatian="Neumarkt"
+					palatinate="Neumarkt"
+					umbrian="Neoforum"}
 				b_zakopane = {}
+				b_gorlice = {}
 				b_limanowa = {}
-				b_rabka_zdroj = {}
 				b_krynica_zdroj = {}
+				b_rabka_zdroj = {}
 			}
 		}
 		d_lubelia = {
@@ -2379,20 +2441,22 @@ e_visegrad = {
 		
 			capital = 1336 #Rzeszow
 			
-			polish = "Lubelszczyzna"
+			wielkopolan="Lubelszczyzna"
+			malopolan="Lubelszczyzna"
+			warmzur="Lubelszczyzna"
+			odrzan="Lubelszczyzna"
+			mazovian="Lubelszczyzna"
 					
 			c_lublin = {
 				color={ 206 31 51 }
 				color2={ 255 255 255 }
-				
-				polish = "Lubelskie"
 
-				b_biala_podlaska = {}
 				b_lublin = {}
+				b_biala_podlaska = {}
 				b_pulawy = {}
-				b_swidnik = {}
-				b_krasnik = {}
 				b_lukow = {}
+				b_krasnik = {}
+				b_swidnik = {}
 				b_lubartow = {}
 			}
 			c_chelm = {
@@ -2425,11 +2489,11 @@ e_visegrad = {
 					palatinate="Cholm"
 					yiddish="Khelm"
 				}
-				b_bilgoraj = {}
-				b_leczna = {}
 				b_tomaszow_lubelski = {}
+				b_bilgoraj = {}
 				b_krasnystaw = {}
 				b_hrubieszow = {}
+				b_janow_lubelski = {}
 			}
 		}
 		d_lodz = {
@@ -2849,6 +2913,7 @@ e_visegrad = {
 				austrian="Kattowitz"
 				schwyzer="Kattowitz"
 				palatinate="Kattowitz"
+				alsatian="Kattowitz"
 
 				b_sosnowiec = {}
 				b_katowice = {
@@ -2861,10 +2926,22 @@ e_visegrad = {
 					austrian="Kattowitz"
 					schwyzer="Kattowitz"
 					palatinate="Kattowitz"
+					alsatian="Kattowitz"
 				}
 				b_bytom = {}
+				b_bedzin = {
+					rhenish="Bendzin"
+					low_saxon="Bendzin"
+					ossi="Bendzin"
+					upper_saxon="Bendzin"
+					bavarian="Bendzin"
+					swabian="Bendzin"
+					austrian="Bendzin"
+					schwyzer="Bendzin"
+					palatinate="Bendzin"
+					alsatian="Bendzin"
+					yiddish="Bendin"}
 				b_gliwice = {}
-				b_zabrze = {}
 				b_rybnik = {}
 				b_jaworzno = {}
 			}
