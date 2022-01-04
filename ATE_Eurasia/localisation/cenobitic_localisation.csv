@@ -10,6 +10,13 @@ become_ordained_unmarried;Become Ordained as a Celibate;;;;;;;;;;;;;x
 become_ordained_married;Become Ordained as a Non-celibate;;;;;;;;;;;;;x
 become_ordained_unmarried_desc;Become Ordained as a Canon or Canoness.;;;;;;;;;;;;;x
 become_ordained_married_desc;Become Ordained as a Regularis or Regulara.;;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_commander_martial;[From.GetFirstName] is a brilliant ?YGeneral?!;[From.GetFirstName] est un brillant ?Yg?n?ral?!;[From.GetFirstName] ist ein ausgezeichneter ?YGeneral?!;;[From.GetFirstName] es un[From.GetXA] ?Ygeneral?! brillante;;;;;;x
+tooltip_imperial_vote_strength_chaplain_learning;[Root.GetFirstName] is a wise ?Y[Root.GetJobTitle]?!;[Root.GetFirstName] est un sage ?Y[Root.GetJobTitle]?!;[Root.GetFirstName] ist ein weiser ?Y[Root.GetJobTitle]?!;;[Root.GetFirstName] es un[Root.GetXA] ?Y[Root.GetJobTitle]?! sabi[Root.GetOA];;;;;;x
+tooltip_feudal_elector_vote_depressed_married_ordained;Become Ordained as a Canon or Canoness.;;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_unmarried;Become Ordained as a Canon or Canoness.;;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_desert_ordained;Become Ordained as a Canon or Canoness.;;;;;;;;;;;;;x
+
+
 ##ApostolicTraits###
 desert_father;Desert Father;;;;;;;;;x
 desert_father_desc;This man is regarded as a living saint, for both his steadfast faith and wise teachings.;;;;;;;;;x	
@@ -67,7 +74,7 @@ cenobitic_government_slider_2_desc;This is TRANSITIONARY MONASTIC FEUDAL I will 
 cenobitic_government_slider_3_desc;This is CENOBITIC FEUDAL I will write a description I swear.;;;;;;;;;x
 cenobitic_government_slider_4_desc;This is PACHOMIAL CENOBITIC FEUDAL I will write a description I swear.;;;;;;;;;x
 
-cenobitic_government;Cenobitic Feudal;;;;;;;;;x
+cenobitic_government;Cenobitic;;;;;;;;;x
 cenobitic_government_desc;This is CENOBITIC FEUDAL I will write a description I swear.;;;;;;;;;x
 cenobitic_government_slider;Ecclesiastical Status;;;;;;;;;x
 cenobitic_government_slider_desc;This is ECCLESIASTICAL I will write a description I swear.;;;;;;;;;x
@@ -89,3 +96,11 @@ cenobitic_government_emperor_armenian;Vartabet;;;;;;;;;x
 cenobitic_government_emperor_female_armenian;Vardapetuhi;;;;;;;;;x
 cenobitic_government_empire_armenian;Mitropolit;;;;;;;;;x
 cenobitic_government_empire_of_armenian;Mitropolit of;;;;;;;;;x
+
+gov_cenobitic;Cenobium Conclave;;;;;;;;;;;;;x
+cenobitic_elective;Cenobitic Elective;;;;;;;;;;;;;x
+succ_cenobitic_elective;Cenobitic Elective;;;;;;;;;;;;;x
+succ_cenobitic_elective_desc;A Monastic Way of life, the cenobium of monastics both celibate and non-celibate elect from among themselves a representative to shepard their flock of devotees as they live frugal and pious lives as commonly held by the traditions of the monastery.;;;;;;;;;;;;;x
+succ_pachomial_elective;Pachomial Elective;;;;;;;;;;;;;x
+pachomial_elective;Pachomial Elective;;;;;;;;;;;;;x
+succ_pachomial_elective_desc;A Monastic Way of life, the cenobium of monastics elect from among themselves a representative to shepard their flock of devotees as they live frugal and pious lives as commonly held by the traditions of the monastery.;;;;;;;;;;;;;x

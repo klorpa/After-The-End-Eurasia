@@ -21,6 +21,7 @@ targeted_decisions = {
 			age >= 14
 			is_ruler = no
 			religion = FROM
+			is_married = no
 			NOT = { has_character_flag = ordainedinthechurch }
 			NOR = {  
 				trait = monk
