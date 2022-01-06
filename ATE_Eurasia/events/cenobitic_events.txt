@@ -13,17 +13,10 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	
-	trigger = {
-	character = 1802036
-	}
+		c_1802036 = {
+            set_special_character_title = DESERT_FATHER_TITLE
+        }
 	
-		effect = {
-				set_desert_father_historical = yes
-		}	
-	
-	immediate = {
-	set_special_character_title = DESERT_FATHER_TITLE
-	}
 }
 
 character_event = {

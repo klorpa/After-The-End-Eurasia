@@ -71,17 +71,18 @@
 	}
 }
 
-1802035={ #Olga wife of King Spartak I Ghazaryan
-    name="Olga"
+1802035={ #Irinæ wife of King Spartak I Ghazaryan
+    name="Irinæ"
 	female=yes
-    culture=donskoy
-    religion=kozachina
+    culture=ossetian
+    religion=orthodox
     martial=6
     diplomacy=7
     stewardship=7
     intrigue=13
     learning=6
 	trait=school_thaddeus
+	trait=sympathy_pagans
     trait=elusive_shadow			
     trait=fair
     trait=cruel
@@ -377,8 +378,9 @@
     stewardship=4
     intrigue=5
     learning=16
-	trait=school_thaddeus
-    trait=desert_father	
+	trait=mastermind_theologian	
+	trait=desert_father
+    trait=school_thaddeus	
     trait=pious
     trait=groomed
     trait=humble
@@ -388,6 +390,11 @@
 	father=1802010
 	mother=1802011
     2554.6.21={birth=yes}
+	2610.1.1 = {
+		effect_even_if_dead = {
+			set_special_character_title = DESERT_FATHER_TITLE
+		}
+	}
 	2620.7.5={death=yes}
 } 
 
@@ -1275,6 +1282,7 @@
 	father=1802068
 	mother=1802069
 	2637.6.5={birth=yes}
+	2658.8.12={add_spouse=2202268}
 }
 
 1802062={ #Duchess Ketevan of Kakheti
@@ -1740,13 +1748,13 @@
     intrigue=5
     learning=5
     trait=skilled_tactician  
-	secret_religion=zimiran
     trait=dull
 	trait=sympathy_old_world_cults
     trait=defensive_leader
     trait=kind
 	2633.1.15={birth=yes}
 	2656.8.8={add_spouse=1802091}
+	2665.2.2={effect={add_rival=1802066}}
 }
 
 1802086={ #Duchess Nailä of Shirvan
@@ -1870,7 +1878,6 @@
     dynasty=2054203 #Häsäni
     culture=azeri
     religion=shiite
-	secret_religion=zimiran
 	father=1802085
 	mother=1802091
     martial=2
@@ -1888,7 +1895,6 @@
     dynasty=2054203 #Häsäni
     culture=azeri
     religion=shiite
-	secret_religion=zimiran
 	female=yes
 	father=1802085
 	mother=1802091
@@ -1966,7 +1972,7 @@
     name="Ceyhun"
     dynasty=2054200 #Chingizoglu
     culture=azeri
-    religion=shiite
+    religion=ruhi
     martial=5
     diplomacy=5
     stewardship=5
