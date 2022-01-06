@@ -949,7 +949,7 @@
 	religion=naqshbandi
 	secret_religion=alawi
 	give_nickname=nick_the_arab
-	2638.11.6={ birth=yes culture=toros_mountain }
+	2638.1.5={ birth=yes culture=toros_mountain }
 	2662.1.1={
 		prestige=500
 		effect={
@@ -2400,7 +2400,7 @@
 }
 2202202={
 	name="Newroz" #leader of the great kurdish revolt
-	dynasty=2066005 #Sariyildiz
+	dynasty=2066000 #Kezêban
 	culture=kurdish
 	religion=sunni
 	2218.11.16={birth=yes}
@@ -2543,6 +2543,7 @@
 	religion=naqshbandi
 	trait=craven
 	father=2202212
+	mother=2202213
 	2339.7.31={birth=yes}
 	2409.1.25={death=yes}
 }
@@ -2566,6 +2567,12 @@
 	trait=skilled_tactician
 	trait=falconer
 	2645.9.3={birth=yes}
+	2661.2.21={
+		employer=2202071
+		effect= { 
+			give_job_title=job_chancellor 
+		}
+	}
 }
 2202217={
 	name="Hatice"
@@ -3117,6 +3124,7 @@
     trait=honorable
 	trait=just
 	trait=deceitful
+	give_nickname=nick_the_cat
 	diplomacy=8
 	intrigue=4
 	2635.1.25={birth=yes}
@@ -3285,11 +3293,176 @@
 	2394.12.26={death=yes}
 }
 2202287={ 
-	name=""
+	name="Shêx"
 	dynasty=2066000 #Kezêban
 	culture=kurdish
 	religion=sunni
 	father=2202288
 	2310.5.12={birth=yes}
 	2369.7.29={death=yes}
+}
+2202288={ 
+	name="Agir"
+	dynasty=2066000 #Kezêban
+	culture=kurdish
+	religion=sunni
+	father=2202289
+	2276.8.6={birth=yes}
+	2318.9.7={death=yes}
+}
+2202289={ 
+	name="Beroj"
+	dynasty=2066000 #Kezêban
+	culture=kurdish
+	religion=sunni
+	father=2202202
+	2241.7.3={birth=yes}
+	2298.4.17={death=yes}
+}
+2202290={ 
+	name="Cengiz"
+	dynasty=2052002 #Günesh
+	culture=central_anatolian
+	religion=ruhi
+	father=2202071
+	trait=misguided_warrior
+	trait=craven
+	trait=groomed
+	trait=chaste
+	2604.9.4={birth=yes}
+}
+2202291={ 
+	name="Iskender"
+	dynasty=2055210 #Tantal
+	culture=greek
+	religion=ruhi
+	trait=deceitful
+	trait=charitable
+	trait=intricate_webweaver
+	trait=cruel
+	trait=is_malnourished
+	trait=gluttonous
+	trait=kinslayer
+	trait=ruthless
+	trait=possessed
+	2626.8.3={birth=yes
+		culture=west_anatolian}
+}
+2202292={ 
+	name="Ertughrul"
+	dynasty=2052002 #Günesh
+	culture=central_anatolian
+	religion=naqshbandi
+	father=2202071
+	trait=tough_soldier
+	trait=deceitful
+	trait=strong
+	2616.12.10={birth=yes}
+	2659.6.9={death={death_reason=death_battle killer=2202077}}
+}
+2202293={ 
+	name="Iskender"
+	dynasty=2052002 #Günesh
+	culture=central_anatolian
+	religion=naqshbandi
+	father=2202292
+	trait=zealous
+	trait=wroth
+	trait=cruel
+	2641.4.30={birth=yes}
+	2660.1.1={effect={add_rival=2202071}}
+}
+2202294={ 
+	name="Atilla"
+	dynasty=2052002 #Günesh
+	culture=central_anatolian
+	religion=naqshbandi
+	father=2202292
+	trait=zealous
+	trait=greedy
+	trait=deceitful
+	2648.1.1={birth=yes}
+	2660.1.1={effect={add_rival=2202071}}
+}
+2202295={ 
+	name="Osman"
+	dynasty=2052002 #Günesh
+	culture=central_anatolian
+	religion=ruhi
+	father=2202071
+	trait=indulgent_wastrel
+	trait=slothful
+	trait=is_fat
+	trait=gluttonous
+	trait=cynical
+	2628.8.7={birth=yes}
+}
+2202296={ 
+	name="Mustafa Kemal"
+	dynasty=2052002 #Günesh
+	culture=central_anatolian
+	religion=ruhi
+	father=2202071
+	trait=skilled_tactician
+	trait=brave
+	trait=quick
+	2607.5.27={birth=yes}
+	2659.6.9={death={death_reason=death_battle killer=2202077}}
+}
+2202297={ 
+	name="Alparslan"
+	dynasty=2052002 #Günesh
+	culture=central_anatolian
+	religion=ruhi
+	father=2202071
+	trait=clubfooted
+	trait=naive_appeaser
+	trait=poet
+	trait=homosexual
+	2635.2.20={birth=yes}
+}
+2202298={ 
+	name="Asena"
+	female=yes
+	dynasty=2052002 #Günesh
+	culture=central_anatolian
+	religion=ruhi
+	father=2202071
+	2607.2.20={birth=yes}
+}
+2202299={ 
+	name="Tansu"
+	female=yes
+	dynasty=2052002 #Günesh
+	culture=central_anatolian
+	religion=ruhi
+	father=2202071
+	2613.3.10={birth=yes}
+}
+2202300={ 
+	name="Hatice"
+	female=yes
+	dynasty=2052002 #Günesh
+	culture=central_anatolian
+	religion=ruhi
+	father=2202071
+	2615.3.19={birth=yes}
+}
+2202301={ 
+	name="Meryem"
+	female=yes
+	dynasty=2052002 #Günesh
+	culture=central_anatolian
+	religion=ruhi
+	father=2202071
+	2629.8.31={birth=yes}
+}
+2202302={ 
+	name="Latife"
+	female=yes
+	dynasty=2052002 #Günesh
+	culture=central_anatolian
+	religion=ruhi
+	father=2202071
+	2638.11.5={birth=yes}
 }

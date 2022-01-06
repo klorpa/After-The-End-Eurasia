@@ -100,6 +100,43 @@ nick_the_silk_stocking = {
 		factor = 1
 	}
 }
+nick_the_cat = {
+	allow = {
+		age = 30
+		ruled_years = 10
+		OR = {
+			trait = shrewd
+			trait = content
+		}
+		NOT = {
+			trait = kind
+			trait = ambitious
+		}
+	}
+	chance = {
+		factor = 3
+		modifier = {
+			factor = 2
+			trait = familyperson
+		}
+		modifier = {
+			factor = 2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 2
+			trait = envious
+		}
+		modifier = {
+			factor = 2
+			trait = cynical
+		}
+		modifier = {
+			factor = 2
+			trait = groomed
+		}
+	}
+}
 nick_melac = {
 	allow = {
 		OR = {
