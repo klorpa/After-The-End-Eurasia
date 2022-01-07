@@ -2755,6 +2755,13 @@
 			give_job_title=job_marshal 
 		}
 	}
+	2666.2.21={
+		effect = {
+			add_claim = d_ankara
+			add_claim = d_kirikkale
+			add_friend=2202071
+		}
+	}
 }
 2202235={
 	name="Hüma"
@@ -3465,4 +3472,90 @@
 	religion=ruhi
 	father=2202071
 	2638.11.5={birth=yes}
+}
+2202303={ 
+	name="Sami"
+	dynasty=2055211 #Gündoghdu
+	culture=west_anatolian
+	religion=naqshbandi
+	trait=grey_eminence
+	trait=groomed
+	trait=kind
+	trait=rude
+	2622.11.1={birth=yes}
+}
+2202304={ 
+	name="Sami"
+	dynasty=2055211 #Gündoghdu
+	culture=west_anatolian
+	religion=naqshbandi
+	trait=grey_eminence
+	trait=groomed
+	trait=kind
+	trait=rude
+	trait=deceitful
+	2622.11.1={birth=yes}
+}
+2202305={ 
+	name="Aslan"
+	dynasty=7100166 #Dolapli
+	culture=toros_mountain
+	religion=ruhi
+	trait=grey_eminence
+	trait=honorable
+	trait=kind
+	trait=strong
+	trait=honest
+	trait=just
+	trait=experimenter
+	trait=adventurer
+	trait=zodiac_leo
+	trait=proud
+	trait=sympathy_christendom
+	2610.9.21={birth=yes}
+}
+2202306={ 
+	name="Shahin"
+	dynasty=2066106 #Matur
+	culture=kurdish
+	religion=naqshbandi
+	trait=poet
+	trait=wroth
+	trait=proud
+	trait=brave
+	trait=zealous
+	trait=mystic
+	2633.3.28={birth=yes
+		culture=toros_mountain}
+}
+2202307={ 
+	name="Ibrahim"
+	dynasty=2103134 #Mungan
+	culture=suriyi
+	religion=naqshbandi
+	trait=cynical
+	trait=poet
+	trait=homosexual
+	trait=musician
+	trait=scarred
+	trait=proud
+	trait=kind
+	2626.4.21={birth=yes}
+}
+2202308={ 
+	name="Mihrdat"
+	dynasty=2052206 #Köpekoghlu
+	culture=central_anatolian
+	religion=ruhi
+	secret_religion=neoplatonist
+	trait=cynical
+	trait=genius
+	trait=erudite
+	trait=rude
+	trait=uncouth
+	trait=humble
+	trait=cynical
+	trait=lustful
+	trait=sympathy_scholastic
+	2610.6.11={birth=yes}
 }
