@@ -1578,8 +1578,7 @@
 	religion=naqshbandi
 	trait=adventurer
 	father=2202130
-	2064.7.11={birth=yes
-		culture=toros_mountain}
+	2064.7.11={birth=yes}
 	2124.10.21={death=yes}
 }
 2202132={
@@ -1626,10 +1625,10 @@
 	2113.12.19={death={death_reason=death_battle}}
 }
 2202136={
-	name="Cemre"
+	name="Kubra"
 	female=yes
 	dynasty=2074067 #Türkkan
-	culture=toros_mountain
+	culture=kypriot
 	religion=naqshbandi
 	father=2202131
 	2094.5.8={birth=yes}
@@ -3558,4 +3557,382 @@
 	trait=lustful
 	trait=sympathy_scholastic
 	2610.6.11={birth=yes}
+	2663.01.01={capital=c_sinop}
+}
+2202309={ 
+	name="Lazaros"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202131
+	2087.3.11={birth=yes}
+	2157.11.13={death=yes}
+}
+2202310={ 
+	name="Savvas"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202309
+	2117.4.17={birth=yes}
+	2162.8.23={death={death_reason=death_battle killer=2202119}}
+}
+2202311={ 
+	name="Omiros"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202310
+	trait=pneumonic
+	2143.11.29={birth=yes}
+	2202.10.12={death={death_reason=death_trait}}
+}
+2202312={ 
+	name="Veniamin"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202311
+	trait=ambitious
+	2167.7.7={birth=yes}
+	2213.2.23={death={death_reason=death_accident_drowning}}
+}
+2202313={ 
+	name="Kaan"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202312
+	trait=scurvy
+	2189.5.30={birth=yes}
+	2239.7.27={death={death_reason=death_trait}}
+}
+2202314={ 
+	name="Lazaros"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202313
+	trait=cancer
+	2217.9.22={birth=yes}
+	2246.12.2={death={death_reason=death_trait}}
+}
+2202315={ 
+	name="Lazaros"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202314
+	2241.11.29={birth=yes}
+	2262.1.23={death={death_reason=death_accident}}
+}
+2202316={ 
+	name="Savvas"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202314
+	2242.6.2={birth=yes}
+	2303.4.1={death=yes}
+}
+2202317={ 
+	name="Lazaros"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202316
+	trait=leper
+	2266.12.11={birth=yes}
+	2313.11.19={death={death_reason=death_trait}}
+}
+2202318={ 
+	name="Lazaros"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202317
+	2288.5.7={birth=yes}
+	2344.5.18={death={death_reason=death_murder killer=2202320}}
+}
+2202319={ 
+	name="Savvas"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202318
+	trait=imbecile
+	2311.4.11={birth=yes}
+	2346.4.13={death={death_reason=death_suicide}}
+}
+2202320={ 
+	name="Vasil"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202317
+	2290.5.7={birth=yes}
+	2344.5.20={death={death_reason=death_execution_beheading killer=2202319}}
+}
+2202321={ 
+	name="Lazaros"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202319
+	2335.10.19={birth=yes}
+	2401.2.27={death=yes}
+}
+2202322={
+	name="Sofokles"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202321
+	trait=chest_pain
+	2359.4.24={birth=yes}
+	2415.9.24={death={death_reason=death_trait}}
+}
+2202323={ 
+	name="Lazaros"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202322
+	2387.6.5={birth=yes}
+	2443.10.4={death={death_reason=death_battle killer=2202323}}  #killed by another count in the revolt
+}
+2202324={ 
+	name="Lazaros"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202323
+	2409.1.13={birth=yes}
+	2481.10.2={death=yes}
+}
+2202325={ 
+	name="Kaan"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202324
+	trait=ambitious
+	2439.10.23={birth=yes}
+	2484.12.27={death={death_reason=death_murder killer=2202326}}
+}
+2202326={ 
+	name="Lazaros"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202325
+	trait=deceitful
+	trait=kinslayer
+	trait=cancer
+	2461.7.31={birth=yes}
+	2510.10.18={death={death_reason=death_trait}}
+}
+2202327={ 
+	name="Lazaros"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202326
+	trait=infection
+	2485.3.14={birth=yes}
+	2528.1.1={death={death_reason=death_trait}}
+}
+2202328={ 
+	name="Lazaros"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202327
+	2510.1.10={birth=yes}
+	2570.11.1={death=yes}
+}
+2202329={ 
+	name="Savvas"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202328
+	trait=has_typhus
+	2532.3.3={birth=yes}
+	2589.3.1={death={death_reason=death_trait}}
+}
+2202330={ 
+	name="Lazaros"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202329
+	2556.5.10={birth=yes}
+	2624.5.11={death=yes}
+}
+2202331={ 
+	name="Sofokles"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202330
+	2577.10.6={birth=yes}
+	2631.10.13={death={death_reason=death_murder}}
+}
+2202332={ 
+	name="Lazaros"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202331
+	2602.11.30={birth=yes}
+}
+2202333={ 
+	name="Lazaros"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202332
+	2626.5.20={birth=yes}
+}
+2202334={ 
+	name="Thalia"
+	female=yes
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202332
+	2630.6.16={birth=yes}
+}
+2202335={ 
+	name="Savvas"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202332
+	2631.6.22={birth=yes}
+}
+2202336={ 
+	name="Gerasimos"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202332
+	2633.3.6={birth=yes}
+}
+2202337={ 
+	name="Olympia"
+	female=yes
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202332
+	2637.11.29={birth=yes}
+}
+2202338={ 
+	name="Domna"
+	female=yes
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202332
+	2640.8.24={birth=yes}
+}
+2202339={
+	name="Korkut"
+	dynasty=2055093 #Sarikaya
+	culture=central_anatolian
+	religion=ruhi
+	father=2202214
+	2368.1.31={birth=yes}
+	2412.9.3={death=yes}
+}
+2202340={
+	name="Faik"
+	dynasty=2055093 #Sarikaya
+	culture=central_anatolian
+	religion=ruhi
+	father=2202339
+	2394.5.8={birth=yes}
+	2447.7.8={death=yes}
+}
+2202341={
+	name="Sadir"
+	dynasty=2055093 #Sarikaya
+	culture=central_anatolian
+	religion=ruhi
+	father=2202340
+	2422.7.22={birth=yes}
+	2470.7.14={death=yes}
+}
+2202342={
+	name="Selçuk"
+	dynasty=2055093 #Sarikaya
+	culture=west_anatolian
+	religion=ruhi
+	father=2202341
+	2448.8.28={birth=yes}
+	2499.10.21={death=yes}
+}
+2202343={
+	name="Mustafa"
+	dynasty=2055093 #Sarikaya
+	culture=west_anatolian
+	religion=ruhi
+	father=2202342
+	2471.3.22={birth=yes}
+	2519.8.31={death=yes}
+}
+2202344={
+	name="Metin"
+	dynasty=2055093 #Sarikaya
+	culture=west_anatolian
+	religion=ruhi
+	father=2202343
+	2499.1.21={birth=yes}
+	2561.9.24={death=yes}
+}
+2202345={
+	name="Bahattin"
+	dynasty=2055093 #Sarikaya
+	culture=west_anatolian
+	religion=ruhi
+	father=2202344
+	2528.11.24={birth=yes}
+	2589.5.11={death=yes}
+}
+2202346={
+	name="Mümtaz"
+	dynasty=2055093 #Sarikaya
+	culture=west_anatolian
+	religion=ruhi
+	father=2202345
+	2555.3.14={birth=yes}
+	2611.10.13={death=yes}
+}
+2202347={
+	name="Gazi"
+	dynasty=2055093 #Sarikaya
+	culture=west_anatolian
+	religion=ruhi
+	father=2202346
+	2579.3.6={birth=yes}
+	2612.8.8={death=yes}
+}
+2202348={
+	name="Kamuran"
+	dynasty=2055093 #Sarikaya
+	culture=west_anatolian
+	religion=ruhi
+	father=2202347
+	2601.7.2={birth=yes}
+	2638.12.2={death=yes}
+}
+2202349={
+	name="Tahir"
+	dynasty=2055093 #Sarikaya
+	culture=west_anatolian
+	religion=ruhi
+	father=2202348
+	2625.11.18={birth=yes}
 }
