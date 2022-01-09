@@ -45,6 +45,7 @@
 	religion=naqshbandi
 	trait=sayyid
 	father=1506004
+	mother=1506153
 	2615.4.1={birth=yes}
 	2650.8.22={death={death_reason=death_accident_drowning}} #Drowned in the Syr Darya
 }
@@ -219,7 +220,7 @@
 	name="Siroj"
 	dynasty=2112133 #Farg'oniy
 	culture=uzbek
-	religion=naqshbandi
+	religion=shiite
 	trait=sayyid
 	father=1506013
 	2558.11.8={birth=yes}
@@ -415,9 +416,10 @@
 1506032={
 	name="Gulzoda"
 	female=yes
-	dynasty=0
+	dynasty=2112133 #Farg'oniy
 	culture=uzbek
 	religion=naqshbandi
+	father=1506012
 	2542.5.19={birth=yes}
 	2565.1.1={add_spouse=1506008}
 	2592.4.21={death=yes}
@@ -636,7 +638,8 @@
 	religion=naqshbandi
 	trait=sayyid
 	father=1506005
-	2611.11.18={birth=yes}
+	mother=1506152
+	2612.11.18={birth=yes}
 	2628.1.1={add_spouse=2071041}
 }
 1506051={
@@ -926,6 +929,7 @@
 	dynasty=2112136 #Ming 
 	culture=tajik
 	religion=ruhi
+	father=1506147
 	2596.10.13={birth=yes
 		culture=uzbek}
 	2657.10.29={death=yes}
@@ -1592,4 +1596,85 @@
 	father=1506145
 	2630.10.7={birth=yes}
 	2660.1.1={effect={add_friend=1506142}}
+}
+1506147={
+	name="Murod"
+	dynasty=2112136 #Ming 
+	culture=uzbek
+	religion=ruhi
+	father=1506148
+	2571.5.17={birth=yes}
+	2628.2.23={death=yes}
+}
+1506148={
+	name="Sherali"
+	dynasty=2112136 #Ming 
+	culture=uzbek
+	religion=ruhi
+	father=1506149
+	2544.2.24={birth=yes}
+	2599.10.5={death=yes}
+}
+1506149={
+	name="Olim"
+	dynasty=2112136 #Ming 
+	culture=uzbek
+	religion=ruhi
+	2518.11.10={birth=yes}
+	2557.9.8={death=yes}
+}
+1506150={
+	name="Arslon"
+	dynasty=2112133 #Farg'oniy
+	father=1506007
+	mother=1506151
+	culture=uzbek
+	religion=ruhi
+	2584.4.6={birth=yes}
+	2601.1.19={
+		death={
+			death_reason=death_execution_garrotting
+			killer=1506006
+		}
+	}
+}
+1506151={
+	name="Indira"
+	female=yes
+	dynasty=2112136 #Ming 
+	culture=uzbek
+	religion=ruhi
+	father=1506148
+	2565.10.2={birth=yes}
+	2582.1.1={add_spouse=1506007}
+	2601.1.19={
+		death={
+			death_reason=death_execution_garrotting
+			killer=1506006
+		}
+	}
+}
+1506152={
+	name="Fazilat"
+	female=yes
+	dynasty=2112133 #Farg'oniy
+	father=1506007
+	mother=1506151
+	culture=uzbek
+	religion=ruhi
+	2582.9.9={birth=yes}
+	2612.1.1={add_spouse=1506005}
+	2638.11.17={death=yes}
+}
+1506153={
+	name="Nazokat"
+	female=yes
+	dynasty=2112133 #Farg'oniy
+	father=1506007
+	mother=1506151
+	culture=uzbek
+	religion=ruhi
+	2586.1.19={birth=yes}
+	2614.1.1={add_spouse=1506004}
+	2624.11.27={death=yes}
 }
