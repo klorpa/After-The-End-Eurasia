@@ -2112,10 +2112,6 @@ true_religion_sunni_trigger = {
 	true_religion = sunni
 }
 
-true_religion_zikri_trigger = {
-	true_religion = zikri
-}
-
 true_religion_yazidi_trigger = {
 	true_religion = yazidi
 }
@@ -3316,10 +3312,6 @@ is_in_prevs_interesting_society_trigger = {
 			PREV = { interested_in_society = secret_religious_society_sunni }
 		}
 		AND = {
-			society_member_of = secret_religious_society_zikri
-			PREV = { interested_in_society = secret_religious_society_zikri }
-		}
-		AND = {
 			society_member_of = secret_religious_society_yazidi
 			PREV = { interested_in_society = secret_religious_society_yazidi }
 		}
@@ -3584,12 +3576,6 @@ is_visible_to_self_trigger = { #For hidden modifiers
 #			has_character_flag = character_was_sunni
 #			any_character = {
 #				religion = sunni
-#			}
-#		}
-#		AND = {
-#			has_character_flag = character_was_zikri
-#			any_character = {
-#				religion = zikri
 #			}
 #		}
 #		AND = {
@@ -4119,13 +4105,6 @@ looting_artifact_event_religious_artifacts_trigger = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = sunni
 				ROOT = { religion = sunni }
-			}
-		}
-		NAND = {
-			any_artifact = {
-				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = zikri
-				ROOT = { religion = zikri }
 			}
 		}
 		NAND = {
@@ -5647,7 +5626,6 @@ has_unsafe_secret_religion = {
 			NOT = { has_dlc = "The Sword of Islam" }
 			OR = {
 				secret_religion = sunni
-				secret_religion = zikri
 				secret_religion = yazidi
 				secret_religion = shiite
 				secret_religion = druze
@@ -6798,7 +6776,6 @@ has_unsafe_religion = {
 			NOT = { has_dlc = "The Sword of Islam" }
 			OR = {
 				religion = sunni
-				religion = zikri
 				religion = yazidi
 				religion = shiite
 				religion = druze
