@@ -534,7 +534,7 @@ d_franjirrojos = {
 	
 	capital = 187 #Madrid
 	
-	short_name = no
+	short_name = yes
 	
 	culture = castilian
 	religion = catholic
@@ -985,4 +985,165 @@ d_beasts_of_chastel = {
 	strength_growth_per_century = 1.0
 	
 	mercenary_type = d_arminians_composition
+}
+d_calcianti = {
+
+	color = { 100 100 100 }
+	color2 = { 255 255 255 }
+	
+	capital = 1127 #Florence
+	
+	short_name = yes
+	
+	culture = tuscan
+	religion = catholic
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = d_franjirrojos_composition
+}
+d_rossoblu = {
+
+	color = { 100 100 100 }
+	color2 = { 255 255 255 }
+	
+	capital = 1150 #Padua
+	
+	short_name = yes
+	
+	culture = venetian
+	religion = catholic
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = d_rossoblu_composition
+}
+d_lagunari = {
+
+	color = { 100 100 100 }
+	color2 = { 255 255 255 }
+	
+	capital = 1153 #Venice
+	
+	short_name = yes
+	
+	culture = venetian
+	religion = catholic
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = d_pirates_of_the_league_composition
+}
+d_butteri = {
+
+	color = { 100 100 100 }
+	color2 = { 255 255 255 }
+	
+	capital = 1123 #Grosseto
+	
+	short_name = yes
+	
+	culture = tuscan
+	religion = catholic
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = d_limburgish_hunters_composition
+}
+d_wolves_of_avellino = {
+
+	color = { 100 100 100 }
+	color2 = { 255 255 255 }
+	
+	capital = 1112 #Benevento
+	
+	short_name = yes
+	
+	culture = neapolitan
+	religion = catholic
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = d_south_city_fanatics_composition
+}
+d_band_of_halesowen = {
+
+	color = { 100 100 100 }
+	color2 = { 255 255 255 }
+	
+	capital = 54 #Birmingham
+	
+	short_name = yes
+	
+	culture = midlander
+	religion = catholic
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = d_band_of_halesowen_composition
+}
+d_brotherhood_of_the_spider = {
+
+	color = { 100 100 100 }
+	color2 = { 255 255 255 }
+	
+	capital = 1010 #Split
+	
+	short_name = yes
+	
+	culture = croatian
+	religion = catholic
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = d_south_city_fanatics_composition
 }
