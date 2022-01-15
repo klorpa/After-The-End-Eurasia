@@ -3635,10 +3635,36 @@
 		}
 	}
 }
-1802102 = { name="Sparapet" culture=armenian }
+1802102 = { name="Sparapet" culture=armenian 
+	coat_of_arms = { 
+		religion = miaphysite
+		template = 0
+		layer = {
+			texture = 23
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1802103 = { name="Aziz" culture=armenian }
 1802104 = { name="Shiraz" culture=armenian }
-1802105 = { name="Hamazguni" culture=armenian }
+1802105 = { name="Hamazguni" culture=armenian 
+	coat_of_arms = { 
+		religion = miaphysite
+		template = 0
+		layer = {
+			texture = 23
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1802106 = { name="Raza" culture=armenian used_for_random=no }
 1802107 = { name="Bogosian" culture=armenian used_for_random=no }
 1802108 = { name="Margosyan" culture=armenian }
@@ -5633,11 +5659,11 @@
 1912007 = {name ="El Tawil" culture=masri }
 1912008 = {name ="Mahfouz" culture=masri  used_for_random=no
 	coat_of_arms = { 
-		religion=sunni
+		religion = miaphysite
 		template = 0
 		layer = {
-			texture = 1
-			texture_internal = 21
+			texture = 23
+			texture_internal = 4
 			emblem = 0
 			color = 0
 			color = 0
@@ -25464,11 +25490,11 @@ coat_of_arms = {
 
 2105000 = { name="Jibran" culture=lebneni 
 	coat_of_arms = { 
-		religion=sunni
+		religion = catholic
 		template = 0
 		layer = {
-			texture = 1
-			texture_internal = 16
+			texture = 23
+			texture_internal = 5
 			emblem = 0
 			color = 0
 			color = 0
