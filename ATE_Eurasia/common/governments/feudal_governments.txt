@@ -53,6 +53,7 @@ feudal_governments = {
 			NOT = { is_government_potential = confederation_government }
 			NOT = { is_government_potential = theocratic_feudal_government }
 			NOT = { is_government_potential = swaraj_government}
+			NOT = { is_government_potential = hetmanate_government}
 			NOT = { culture = pavee }
 			NAND = { 
 				culture_group = tibetan
@@ -1203,4 +1204,71 @@ feudal_governments = {
 		## Modifiers
 		court_size_modifier = 10
 	}
+	
+	hetmanate_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE 
+			FORT
+			HOSPITAL
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			bureaucratic_government
+			feudal_government
+			diwan_government
+			ghazi_government
+			hereditary_theocracy_government
+			theocratic_feudal_government
+
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		frame_suffix = "_hetmanate"
+		potential = {
+			OR = {
+					capital_scope = {
+						region = custom_hetmanate
+					}
+				AND = {
+				culture_group = slavic_east
+				OR = {
+				religion = kozachina
+				#religion = kozachina_HERESY NAME THIS FUTURE ME
+				}
+				}
+			}
+			is_patrician = no
+			NOT = { is_government_potential = romanipen_government }
+			NOT = { is_government_potential = cenobitic_government }
+			NOT = { is_government_potential = theocratic_feudal_government }
+			NOT = { is_government_potential = hereditary_theocracy_government }
+		}
+		
+		character_modifier = {
+			short_reign_length = -1
+		}	
+		
+		color = { 204 79 45 }
+		
+		barons_need_dynasty = yes
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_build_tribal = no
+		
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 600
+		
+		## Modifiers
+		court_size_modifier = 10
+		#min_vassal_tax = -0.5
+		#max_vassal_tax = -0.1
+		#max_vassal_levy = -0.7
+		#min_vassal_levy = -0.2
+	}	
+	
 }
