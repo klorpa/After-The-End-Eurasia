@@ -329,6 +329,7 @@
 	trait=kind
 	trait=brave
 	trait=authoritative
+	father=1958353
 	2636.2.14={birth=yes 
 		culture=rhenish}
 	2700.1.1={death=yes}
@@ -3252,8 +3253,8 @@
 	trait=socializer
 	trait=gregarious
 	trait=quick
-	2100.4.27={birth=yes}
-	2151.2.4={death=yes}
+	2091.7.26={birth=yes}
+	2163.12.8={death=yes}
 }
 1958330={
 	name="Art"
@@ -3295,4 +3296,206 @@
 	religion=neuhumanist
 	2600.7.8={birth=yes}
 	2655.7.30={death=yes}
+}
+1958334={
+	name="Maria"
+	female=yes
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=chronicler
+	father=1958328
+	2136.4.16={birth=yes
+		culture=rhenish}
+	2188.9.18={death=yes}
+}
+1958335={
+	name="Laura"
+	female=yes
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=chronicler
+	mother=1958334
+	2171.4.4={birth=yes
+		culture=rhenish}
+	2195.3.30={death={death_reason=death_childbirth}}
+}
+1958336={
+	name="Georg"
+	dynasty=1848139 #Habermas
+	culture=rhenish
+	religion=chronicler
+	trait=erudite
+	2140.5.21={birth=yes}
+	2221.10.19={death=yes}
+}
+1958337={
+	name="Lorenz"
+	father=1958336
+	dynasty=1848139 #Habermas
+	culture=rhenish
+	religion=chronicler
+	2187.10.4={birth=yes}
+	2240.8.12={death=yes}
+}
+1958338={
+	name="Sophie"
+	female=yes
+	father=1958337
+	dynasty=1848139 #Habermas
+	culture=rhenish
+	religion=chronicler
+	2215.7.15={birth=yes}
+	2244.2.17={death={death_reason=death_murder_unknown killer=1958340}}
+}
+1958339={
+	name="Anne"
+	female=yes
+	father=1958337
+	dynasty=1848139 #Habermas
+	culture=rhenish
+	religion=chronicler
+	2218.8.12={birth=yes}
+	2243.5.9={death={death_reason=death_murder_unknown killer=1958340}}
+}
+1958340={
+	name="Attila"
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=chronicler
+	father=1958341
+	2217.5.7={birth=yes
+		culture=rhenish}
+	2237.1.1={add_spouse=1958338}
+	2279.2.3={death=yes}
+}
+1958341={
+	name="Hans-Günther"
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=chronicler
+	mother=1958335
+	2195.3.30={birth=yes
+		culture=rhenish}
+	2223.2.19={death=yes}
+}
+1958342={
+	name="Issak"
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=neuhumanist
+	father=1958340
+	2262.7.28={birth=yes
+		culture=rhenish}
+	2314.11.29={death=yes}
+}
+1958343={
+	name="Karl-Mehmet"
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=neuhumanist
+	father=1958342
+	2283.9.5={birth=yes
+		culture=rhenish}
+	2361.10.7={death=yes}
+}
+1958344={
+	name="Felix"
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=neuhumanist
+	father=1958343
+	2317.2.22={birth=yes
+		culture=rhenish}
+	2384.1.27={death=yes}
+}
+1958345={
+	name="Josef"
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=neuhumanist
+	father=1958344
+	2371.9.20={birth=yes
+		culture=rhenish}
+	2431.10.21={death=yes}
+}
+1958346={
+	name="Layla"
+	female=yes
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=neuhumanist
+	father=1958345
+	2397.6.14={birth=yes
+		culture=rhenish}
+	2455.3.11={death=yes}
+}
+1958347={
+	name="Adam"
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=neuhumanist
+	mother=1958346
+	2417.7.9={birth=yes
+		culture=rhenish}
+	2478.2.8={death=yes}
+}
+1958348={
+	name="Gabriel"
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=neuhumanist
+	father=1958347
+	2454.1.14={birth=yes
+		culture=rhenish}
+	2489.12.22={death=yes}
+}
+1958349={
+	name="Josef-Emre"
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=neuhumanist
+	father=1958348
+	2479.5.15={birth=yes
+		culture=rhenish}
+	2533.5.3={death=yes}
+}
+1958350={
+	name="Miran-Emmanuel"
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=neuhumanist
+	father=1958349
+	2505.10.9={birth=yes
+		culture=rhenish}
+	2576.6.28={death=yes}
+}
+1958351={
+	name="Samuel"
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=neuhumanist
+	father=1958350
+	2532.6.7={birth=yes
+		culture=rhenish}
+	2594.3.15={death=yes}
+}
+1958352={
+	name="Alexander"
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=neuhumanist
+	father=1958351
+	2556.3.12={birth=yes
+		culture=rhenish}
+	2623.9.23={death=yes}
+}
+1958353={
+	name="Kilian"
+	dynasty=1848065 #Engin
+	culture=west_anatolian
+	religion=neuhumanist
+	father=1958352
+	2598.9.13={birth=yes
+		culture=rhenish}
+	2648.1.19={death=yes}
 }

@@ -1,57 +1,71 @@
-1993000 = {
-	name = "Yuriy"
-	dynasty = 2924161 #Kossak
-	culture = halychian
-	religion = orthodox
-	trait = brilliant_strategist
-	trait = pious
-	trait = scarred_mid
-	trait = charitable
-	trait = strategist
-	2597.2.5 = { birth = yes }
-	2644.3.15 = { add_claim = e_romania }
-	2650.11.2 = { death = yes }
+1993000={
+	name="Yuriy"
+	dynasty=2924161 # Kossak
+	culture=halychian
+	religion=orthodox
+	trait=brilliant_strategist
+	trait=pious
+	trait=scarred_mid
+	trait=charitable
+	trait=strategist
+	2597.2.5={birth=yes}
+	2644.3.15={add_claim=e_romania}
+	2650.11.2={death=yes}
 }
-1993001 = {
-	name = "Mykola"
-	dynasty = 2924161 #Kossak
-	culture = halychian
-	religion = orthodox
-	trait = brilliant_strategist
-	trait = pious
-	trait = freckles_5
-	trait = charitable
-	trait = robust
-	trait = impaler
-	father = 1993000
-	2630.9.27 = { birth = yes }
-	2644.3.15 = { add_claim = e_romania	}
-	2700.1.1 = { death = yes }
+1993001={
+	name="Mykola"
+	dynasty=2924161 # Kossak
+	culture=halychian
+	religion=orthodox
+	trait=brilliant_strategist
+	trait=pious
+	trait=freckles_5
+	trait=charitable
+	trait=robust
+	trait=impaler
+	father=1993000
+	2630.9.27={birth=yes}
+	2644.3.15={add_claim=e_romania	}
+	2700.1.1={death=yes}
 }
-
-1993180 = { # Count of Uman for the Jewish DD
-	name = "Ze'ev"
-	dynasty = 1822001 #Odesser
-	culture = yiddish
-	religion = haredi
-	trait = charismatic_negotiator
-	trait = haredi_breslov
-	trait = peasant_leader
-	trait = pious
-	trait = gregarious
-	trait = charitable
-	trait = humble
-	2649.1.22 = { birth = yes }
-	2662.1.1 = {
+1993002={
+	name="Agatangel" #wali-emir of crimea
+	dynasty=1441111 #Geray
+	culture=qirimlar
+	religion=ruhi
+	trait=brilliant_strategist
+	trait=genius
+	trait=strategist
+	trait=brave
+	trait=arbitrary
+	trait=deceitful
+	trait=altan_urag
+	trait=just
+	2643.1.24={birth=yes}
+}
+1993180={ # Count of Uman for the Jewish DD
+	name="Ze'ev"
+	dynasty=1822001 # Odesser
+	culture=yiddish
+	religion=haredi
+	trait=charismatic_negotiator
+	trait=haredi_breslov
+	trait=peasant_leader
+	trait=pious
+	trait=gregarious
+	trait=charitable
+	trait=humble
+	2649.1.22={birth=yes}
+	2662.1.1={
 		prestige=500
 		effect={
 			spawn_unit={
-				province=872 #Uman
+				province=872 # Uman
 				owner=ROOT
 				troops={
-					archers={250 250}
-					heavy_infantry={250 750}
-					light_infantry={500 500}
+					archers={250250}
+					heavy_infantry={250750}
+					light_infantry={500500}
 				}
 				attrition=0.5
 			}
