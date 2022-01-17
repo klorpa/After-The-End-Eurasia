@@ -1941,8 +1941,8 @@
 	religion=orthodox
 	trait=skilled_tactician
 	trait=fair
-	trait=shrewd
 	trait=musician
+	trait=shrewd
 	trait=temperate
 	father=3600514
 	mother=3600515
@@ -2065,16 +2065,17 @@
 	2655.2.12={add_spouse=3600524}
 }
 
-3600524={ #Glykeria of Limassol
-	name="Glykeria"
+3600524={ #Olympia of Limassol
+	name="Olympia"
+	dynasty=2074067 #Türkkan
 	culture=kypriot
-	religion=neoplatonist
+	religion=naqshbandi
+	father=2202332
 	female=yes
     trait=intricate_webweaver
     trait=chaste
     trait=deceitful
 	trait=familyperson
-	father=3600510
 	2637.1.8={birth=yes}
 	2655.2.12={add_spouse=3600523}	
 }
@@ -2144,6 +2145,7 @@
 	dynasty=20740201 #Günsel
 	culture=kypriot
 	religion=ruhi
+	female=yes
 	trait=charismatic_negotiator
 	trait=legit_bastard
 	trait=kind
@@ -2290,6 +2292,8 @@
 	trait=wroth
     trait=content
     trait=familyperson
+	father=3600536
+	mother=3600535
 	2593.12.1={birth=yes}
 	2644.5.20={add_spouse=3600538}
 	2656.8.10={death={
@@ -2300,8 +2304,11 @@
 
 3600538={ #Zumra of Cyprus
 	name="Zumra"
+	dynasty=2074067 #Türkkan
 	culture=kypriot
-	religion=ruhi
+	religion=naqshbandi
+	father=2202332
+	female=yes
 	martial=5
 	learning=5
 	diplomacy=5
@@ -2309,7 +2316,7 @@
 	trait=diligent
     trait=greedy
     trait=chaste
-	2624.6.14={birth=yes}
+	2626.6.14={birth=yes}
 	2644.5.20={add_spouse=3600537}
 }
 
@@ -2384,6 +2391,7 @@
 3600543={ #Kyriake of Cyprus
 	name="Kyriake"
 	culture=arabic
+	female=yes
 	religion=catholic
     trait=amateurish_plotter    
     trait=maronite_rite
@@ -2415,6 +2423,10 @@
 	mother=3600543
 	2641.6.30={birth=yes
 	culture=kypriot
+	}
+	2662.1.1={
+		prestige=500
+		wealth = 100
 	}
 }	
 

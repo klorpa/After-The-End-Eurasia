@@ -905,6 +905,7 @@
 	trait=erudite
 	trait=scholar
 	learning=9
+	father=2202350
 	2600.11.23={birth=yes}
 	2660.2.2={capital=c_artvin}
 }
@@ -3817,15 +3818,15 @@
 	disallow_random_traits=yes
 	2626.5.20={birth=yes}
 }
-2202334={ 
-	name="Thalia"
-	female=yes
-	dynasty=2074067 #Türkkan
-	culture=kypriot
-	religion=naqshbandi
-	father=2202332
-	2630.6.16={birth=yes}
-}
+#2202334={ 
+#	name="Thalia"
+#	female=yes
+#	dynasty=2074067 #Türkkan
+#	culture=kypriot
+#	religion=naqshbandi
+#	father=2202332
+#	2630.6.16={birth=yes}
+#}
 2202335={ 
 	name="Savvas"
 	dynasty=2074067 #Türkkan
@@ -3857,15 +3858,15 @@
 	2539.12.25={birth=yes}
 	2599.8.13={death=yes}
 }
-2202337={ 
-	name="Olympia"
-	female=yes
-	dynasty=2074067 #Türkkan
-	culture=kypriot
-	religion=naqshbandi
-	father=2202332
-	2637.11.29={birth=yes}
-}
+#2202337={ 
+#	name="Olympia"
+#	female=yes
+#	dynasty=2074067 #Türkkan
+#	culture=kypriot
+#	religion=naqshbandi
+#   father=2202332
+#	2637.11.29={birth=yes}
+#}
 2202338={ 
 	name="Domna"
 	female=yes
@@ -4006,4 +4007,19 @@
 	trait=deceitful
 	trait=just
 	2633.3.6={birth=yes}
+}
+
+2202354={ #Orko
+	name="Orko"
+	dynasty=1282000 #Topaloghlu
+	culture=laz
+	religion=ruhi
+    trait=skilled_tactician    
+    trait=brave
+	trait=ruthless
+	trait=charitable
+	diplomacy=10
+	intrigue=7
+	martial=8
+	2640.5.11={birth=yes}
 }
