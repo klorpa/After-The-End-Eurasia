@@ -299,10 +299,10 @@ k_dobruja = {
 }
 
 k_czechoslovakia = {
-		color={ 225 145 60 }
-		color2 = { 255 255 255 }
+	color={ 225 145 60 }
+	color2 = { 255 255 255 }
 
-		capital = 1037 #Prague
+	capital = 1037 #Prague
 	
 	allow = {
 		has_landed_title = k_czechia
@@ -313,10 +313,10 @@ k_czechoslovakia = {
 }
 
 k_sapmi = {
-		color={ 14 20 90 }
-		color2 = { 255 255 255 }
+	color={ 14 20 90 }
+	color2 = { 255 255 255 }
 
-		capital = 701 #Murmansk
+	capital = 701 #Murmansk
 	
 	
 	allow = {
@@ -324,13 +324,24 @@ k_sapmi = {
 	}
 }
 k_bandar_abbas = {
-		color={ 231 40 90 }
-		color2 = { 255 255 255 }
+	color={ 231 40 90 }
+	color2 = { 255 255 255 }
 
-		capital = 2516 # c_bandar_abbas
-		dignity = 10 # Counted as having this many more counties than it does
+	capital = 2516 # c_bandar_abbas
+	dignity = 10 # Counted as having this many more counties than it does
 }
 
+k_rhenish_circle = { 
+	color = { 169 22 22 }
+	color2 = { 255 255 255 }
+
+	capital = 374 #Mainz, temporary till pfälzer counties are added
+	dignity = 10 
+
+	allow = {
+		always = no 
+	}
+}
 ### titular duchies ###
 
 d_sligo = {
