@@ -42,6 +42,28 @@ decisions = {
 		revoke_allowed = {
 			always = no
 		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.1
+				trait = cynical
+			}
+			modifier = {
+				factor = 0.1
+				trait = craven
+			}
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = { factor = 3	trait = zealous }
+			modifier = { factor = 3	trait = devout }
+		}		
+		
 	}
 	
 	select_nestorian_patron_saint = {
