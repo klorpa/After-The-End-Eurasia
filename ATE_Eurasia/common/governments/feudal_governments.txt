@@ -581,6 +581,8 @@ feudal_governments = {
 
 		can_build_tribal = no
 		
+		dukes_called_kings = yes
+		
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
 		}
@@ -830,7 +832,7 @@ feudal_governments = {
 		have_gender_laws = no
 		allows_matrilineal_marriage = no
 		free_retract_vassalage = yes
-		marriage_ignore_religion = yes
+		marriage_ignore_religion = no
 		
 
 		free_levies_in_offensive_war = no # Took away the hardcoded stuff for muslims where they could raise levies without pissing off vassals if in an offensive war.
@@ -844,6 +846,8 @@ feudal_governments = {
 		gives_religion_opinion_penalties = no
 		can_be_granted_kingdoms_and_empires_by_other_government = no
 		free_retract_vassalage = yes
+		
+		dukes_called_kings = yes
 		
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
@@ -894,6 +898,8 @@ feudal_governments = {
 		color = { 0 0 204 }
 		
 		uses_piety_for_law_change = yes
+		
+		dukes_called_kings = yes
 		
 		have_gender_laws = no
 		allows_matrilineal_marriage = yes
@@ -1253,6 +1259,8 @@ feudal_governments = {
 		}	
 		
 		color = { 204 79 45 }
+		
+		dukes_called_kings = yes
 		
 		barons_need_dynasty = yes
 		can_imprison_without_reason = no
