@@ -13,7 +13,7 @@ spriteTypes = {
 		noOfFrames = 9
 	}
 	spriteType = {
-		name = "GFX_neuhumanist_male_headgear"
+		name = "GFX_neuhumanist_male_headgear_behind"
 		textureFile = "gfx/characters/neuhumanist_male/neuhumanist_male_headgear_behind.dds"
 		noOfFrames = 5
 	} 
@@ -33,9 +33,7 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = no
 				portrait_clothing = yes
-				OR = {
-					portrait_religion = neuhumanist
-				}
+				portrait_religion = neuhumanist
 				NOT = { portrait_government = theocracy_government }
 			}
 		}
@@ -184,9 +182,7 @@ spriteTypes = {
 						portrait_tier = KING
 						portrait_tier = EMPEROR
 					}
-					AND = { 
 					portrait_in_command = no
-					}
 				}
 			}
 		}
