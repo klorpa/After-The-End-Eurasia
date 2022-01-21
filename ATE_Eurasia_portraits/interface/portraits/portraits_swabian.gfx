@@ -49,14 +49,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_swabian_female_headgear_mid"
-		texturefile = "gfx\\characters\\swabian_female\\swabian_female_headgear_mid.dds"
-		noOfFrames = 12
-		norefcount = yes
-		can_be_lowres = yes
-	}
-
-	spriteType = {
 		name = "GFX_swabian_female_headgear"
 		texturefile = "gfx\\characters\\swabian_female\\swabian_female_headgear.dds"
 		noOfFrames = 12
@@ -300,8 +292,8 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_female_clothes_behind:p3:c0"              #1
-			"GFX_western_female_headgear_behind:p5:c1"             #2
+			"GFX_swabian_female_clothes_behind:p3:c0"              #1
+			"GFX_swabian_female_headgear_behind:p5:c1"             #2
 			"GFX_frankish_female_undermain_behind:p33"
 			"GFX_frankish_female_undermain_hair_behind:p33:h"
 			"GFX_frankish_female_overlayer_behind:p32"
@@ -331,16 +323,16 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_possessed:p30"                        #18
 			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_western_female_clothes:p3:c2"                  #12
+			"GFX_swabian_female_clothes:p3:c2"                  #12
 			"GFX_western_female_ear:d7:o28x54"                         #13
-			"GFX_western_female_headgear_mid:p5:c3"             #14
+			"GFX_swabian_female_headgear_mid:p5:c3"             #14
 			"GFX_western_female_hair:p1:h:y"                    #15
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"									#19
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
-			"GFX_western_female_headgear:p5:c5"
+			"GFX_swabian_female_headgear:p5:c5"
 			"GFX_frankish_female_overlayer:p32"                 #20
 			"GFX_character_special_crowns:p19"
 			"GFX_character_special_helmets:p34"
@@ -379,8 +371,8 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_female_clothes_behind:p3:c0"
-			"GFX_western_female_headgear_behind:p5:c1"
+			"GFX_swabian_female_clothes_behind:p3:c0"
+			"GFX_swabian_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_undermain_behind:p33"
 			"GFX_frankish_female_undermain_hair_behind:p33:h"
 			"GFX_frankish_female_overlayer_behind:p32"
@@ -410,16 +402,16 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_possessed:p30"       
 			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_western_female_clothes:p3:c2"
+			"GFX_swabian_female_clothes:p3:c2"
 			"GFX_western_female_ear_midage:d7:o28x54"
-			"GFX_western_female_headgear_mid:p5:c3"
+			"GFX_swabian_female_headgear_mid:p5:c3"
 			"GFX_western_female_hair_midage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
-			"GFX_western_female_headgear:p5:c5"
+			"GFX_swabian_female_headgear:p5:c5"
 			"GFX_frankish_female_overlayer:p32"
 			"GFX_character_special_crowns:p19"
 			"GFX_character_special_helmets:p34"
@@ -458,8 +450,8 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_western_female_clothes_behind:p3:c0"
-			"GFX_western_female_headgear_behind:p5:c1"
+			"GFX_swabian_female_clothes_behind:p3:c0"
+			"GFX_swabian_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_undermain_behind:p33"
 			"GFX_frankish_female_undermain_hair_behind:p33:h"
 			"GFX_frankish_female_overlayer_behind:p32"
@@ -489,16 +481,16 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_possessed:p30"       
 			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_western_female_clothes:p3:c2"			
+			"GFX_swabian_female_clothes:p3:c2"			
 			"GFX_western_female_ear_oldage:d7:o28x54"
-			"GFX_western_female_headgear_mid:p5:c3"
+			"GFX_swabian_female_headgear_mid:p5:c3"
 			"GFX_western_female_hair_oldage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
-			"GFX_western_female_headgear:p5:c5"
+			"GFX_swabian_female_headgear:p5:c5"
 			"GFX_frankish_female_overlayer:p32"
 			"GFX_character_special_crowns:p19"
 			"GFX_character_special_helmets:p34"
