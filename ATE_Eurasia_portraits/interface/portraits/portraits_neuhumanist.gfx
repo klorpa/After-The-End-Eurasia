@@ -1,0 +1,196 @@
+spriteTypes = {
+	
+	# neuhumanist Male Clothes and Headgear
+	
+	spriteType = {
+		name = "GFX_neuhumanist_male_clothes_behind"
+		textureFile = "gfx/characters/neuhumanist_male/neuhumanist_male_clothes_behind.dds"
+		noOfFrames = 9
+	}
+	spriteType = {
+		name = "GFX_neuhumanist_male_clothes"
+		textureFile = "gfx/characters/neuhumanist_male/neuhumanist_male_clothes.dds"
+		noOfFrames = 9
+	}
+	spriteType = {
+		name = "GFX_neuhumanist_male_headgear"
+		textureFile = "gfx/characters/neuhumanist_male/neuhumanist_male_headgear_behind.dds"
+		noOfFrames = 5
+	} 
+	spriteType = {
+		name = "GFX_neuhumanist_male_headgear"
+		textureFile = "gfx/characters/neuhumanist_male/neuhumanist_male_headgear.dds"
+		noOfFrames = 5
+	} 
+	
+	portraitType = { #Portraits - Male
+		effectFile = "gfx/FX/portrait.lua"
+		name = "PORTRAIT_neuhumanist_male_clothing"
+		
+		weight = {
+			additive_modifier = {
+				value = 10000
+				portrait_age > child
+				portrait_is_female = no
+				portrait_clothing = yes
+				OR = {
+					portrait_religion = neuhumanist
+				}
+				NOT = { portrait_government = theocracy_government }
+			}
+		}
+		
+		layer = { 
+			"GFX_neuhumanist_male_clothes_behind:p3:c0"
+			"GFX_neuhumanist_male_headgear_behind:p5:c1"
+			"GFX_neuhumanist_male_clothes:p3:c2"
+			"GFX_empty:c3"
+			"GFX_empty:c4"
+			"GFX_neuhumanist_male_headgear:p5:c5"
+			"GFX_empty:c6"
+			"GFX_empty:c7"
+		}
+		
+		# Correct rank
+		allow_property_values = {
+			3 = {
+				0 = {
+					portrait_tier = EMPEROR
+					NOT = {
+						portrait_government = order_government
+						portrait_in_command = yes
+					}
+				}
+				1 = {
+					portrait_tier = KING
+					NOT = {
+						portrait_government = order_government
+						portrait_in_command = yes
+					}
+				}
+				2 = {
+					portrait_tier = DUKE
+					NOT = {
+						portrait_government = order_government
+						portrait_in_command = yes
+					}
+				}
+				3 = {
+					OR = {
+						portrait_tier = COUNT
+						portrait_tier = BARON
+					}
+					portrait_in_command = no
+					NOT = {
+						portrait_tier = EMPEROR
+						portrait_tier = KING
+						portrait_tier = DUKE
+						portrait_government = order_government
+					}
+				}
+				4 = {
+					OR = {
+						portrait_tier = COUNT
+						portrait_tier = BARON
+					}
+					portrait_in_command = no
+					NOT = {
+						portrait_tier = EMPEROR
+						portrait_tier = KING
+						portrait_tier = DUKE
+						portrait_government = order_government
+					}
+				}
+				5 = {
+					OR = {
+						portrait_tier = COUNT
+						portrait_tier = BARON
+					}
+					portrait_in_command = no
+					NOT = {
+						portrait_tier = EMPEROR
+						portrait_tier = KING
+						portrait_tier = DUKE
+						portrait_government = order_government
+					}
+				}
+				6 = {
+					OR = {
+						portrait_tier = COUNT
+						portrait_tier = BARON
+					}
+					portrait_in_command = no
+					NOT = {
+						portrait_tier = EMPEROR
+						portrait_tier = KING
+						portrait_tier = DUKE
+						portrait_government = order_government
+					}
+				}
+				7 = {
+					OR = {
+						portrait_tier = COUNT
+						portrait_tier = BARON
+					}
+					portrait_in_command = no
+					NOT = {
+						portrait_tier = EMPEROR
+						portrait_tier = KING
+						portrait_tier = DUKE
+						portrait_government = order_government
+					}
+				}
+				8 = {
+					OR = {
+						portrait_in_command = yes
+						portrait_government = order_government
+					}
+				}
+			}
+			5 = {
+				0 = {
+					portrait_tier = EMPEROR
+					NOT = {
+						portrait_in_command = yes
+						portrait_government = order_government
+					}
+				}
+				1 = {
+					portrait_tier = KING
+					NOT = {
+						portrait_government = order_government
+						portrait_in_command = yes
+					}
+				}
+				2 = {
+					OR = {
+						portrait_tier = KING
+						portrait_tier = EMPEROR
+					}
+					portrait_in_command = yes
+				}
+				3 = {
+					NOT = {
+						portrait_tier = KING
+						portrait_tier = EMPEROR
+					}
+					OR = {
+						portrait_in_command = yes
+						portrait_government = order_government
+					}
+				}
+				4 = {
+					NOT = {
+						portrait_tier = KING
+						portrait_tier = EMPEROR
+					}
+					AND = { 
+					portrait_in_command = no
+					}
+				}
+			}
+		}
+		
+		headgear_that_hides_hair = { 2 3 }
+	}
+}
