@@ -4,14 +4,14 @@ spriteTypes = {
 ############## german ##########################
 
 	spriteType = {
-		name = "PORTRAIT_swabiangfx_child_male"
+		name = "PORTRAIT_bavariangfx_child_male"
 		texturefile = "gfx\\characters\\default_son_german.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "PORTRAIT_swabiangfx_child_female"
+		name = "PORTRAIT_bavariangfx_child_female"
 		texturefile = "gfx\\characters\\default_daughter_german.tga"
 		noOfFrames = 1
 		norefcount = yes
@@ -20,57 +20,57 @@ spriteTypes = {
 	### german sprites ####
 	
 	spriteType = {
-		name = "GFX_swabian_male_clothes_behind"
-		texturefile = "gfx\\characters\\swabian_male\\swabian_male_clothes_behind.dds"
+		name = "GFX_bavarian_male_clothes_behind"
+		texturefile = "gfx\\characters\\bavarian_male\\bavarian_male_clothes_behind.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_swabian_male_headgear_behind"
-		texturefile = "gfx\\characters\\swabian_male\\swabian_male_headgear_behind.dds"
+		name = "GFX_bavarian_male_headgear_behind"
+		texturefile = "gfx\\characters\\bavarian_male\\bavarian_male_headgear_behind.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_swabian_male_clothes"
-		texturefile = "gfx\\characters\\swabian_male\\swabian_male_clothes.dds"
+		name = "GFX_bavarian_male_clothes"
+		texturefile = "gfx\\characters\\bavarian_male\\bavarian_male_clothes.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_swabian_male_headgear"
-		texturefile = "gfx\\characters\\swabian_male\\swabian_male_headgear.dds"
+		name = "GFX_bavarian_male_headgear"
+		texturefile = "gfx\\characters\\bavarian_male\\bavarian_male_headgear.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_swabian_female_clothes_behind"
-		texturefile = "gfx\\characters\\swabian_female\\swabian_female_clothes_behind.dds"
+		name = "GFX_bavarian_female_clothes_behind"
+		texturefile = "gfx\\characters\\bavarian_female\\bavarian_female_clothes_behind.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_swabian_female_headgear_behind"
-		texturefile = "gfx\\characters\\swabian_female\\swabian_female_headgear_behind.dds"
+		name = "GFX_bavarian_female_headgear_behind"
+		texturefile = "gfx\\characters\\bavarian_female\\bavarian_female_headgear_behind.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_swabian_female_clothes"
-		texturefile = "gfx\\characters\\swabian_female\\swabian_female_clothes.dds"
+		name = "GFX_bavarian_female_clothes"
+		texturefile = "gfx\\characters\\bavarian_female\\bavarian_female_clothes.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_swabian_female_headgear"
-		texturefile = "gfx\\characters\\swabian_female\\swabian_female_headgear.dds"
+		name = "GFX_bavarian_female_headgear"
+		texturefile = "gfx\\characters\\bavarian_female\\bavarian_female_headgear.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
@@ -79,12 +79,12 @@ spriteTypes = {
 
 	# german Male
 	portraitType = {
-		name = "PORTRAIT_swabiangfx_male"
+		name = "PORTRAIT_bavariangfx_male"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_swabian_male_clothes_behind:p3:c0"
-			"GFX_swabian_male_headgear_behind:p5:c1"
+			"GFX_bavarian_male_clothes_behind:p3:c0"
+			"GFX_bavarian_male_headgear_behind:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_german_male_hair_behind:p1:h:y"
@@ -114,15 +114,15 @@ spriteTypes = {
 			"GFX_character_possessed:p30"
 			"GFX_frankish_male_overlayer_mid:p31"
 			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_swabian_male_clothes:p3:c2"
-			"GFX_swabian_male_headgear_mid:p5:c3"
+			"GFX_bavarian_male_clothes:p3:c2"
+			"GFX_bavarian_male_headgear_mid:p5:c3"
 			"GFX_german_male_ear:d7"			
 			"GFX_german_male_beard:p4:h:y"
 		   	"GFX_german_male_hair:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
-			"GFX_swabian_male_headgear:p5:c5"
+			"GFX_bavarian_male_headgear:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
 			"GFX_character_special_crowns:p19"
 			"GFX_character_special_helmets:p34"
@@ -167,12 +167,12 @@ spriteTypes = {
 	
 	# middle age
 	portraitType = {
-		name = "PORTRAIT_swabiangfx_male1"
+		name = "PORTRAIT_bavariangfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_swabian_male_clothes_behind:p3:c0"
-			"GFX_swabian_male_headgear_behind:p5:c1"
+			"GFX_bavarian_male_clothes_behind:p3:c0"
+			"GFX_bavarian_male_headgear_behind:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_german_male_hair_behind_midage:p1:h:y"
@@ -202,15 +202,15 @@ spriteTypes = {
 			"GFX_character_possessed:p30"
 			"GFX_frankish_male_overlayer_mid:p31"
 			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_swabian_male_clothes:p3:c2"
-			"GFX_swabian_male_headgear_mid:p5:c3"
+			"GFX_bavarian_male_clothes:p3:c2"
+			"GFX_bavarian_male_headgear_mid:p5:c3"
 			"GFX_german_male_ear_midage:d7"
 			"GFX_german_male_beard_midage:p4:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			":p5:c7"
 			"GFX_german_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_swabian_male_headgear:p5:c5"
+			"GFX_bavarian_male_headgear:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
 			"GFX_character_special_crowns:p19"
 			"GFX_character_special_helmets:p34"
@@ -255,12 +255,12 @@ spriteTypes = {
 	
 	# old age
 	portraitType = {
-		name = "PORTRAIT_swabiangfx_male2"
+		name = "PORTRAIT_bavariangfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_swabian_male_clothes_behind:p3:c0"
-			"GFX_swabian_male_headgear_behind:p5:c1"
+			"GFX_bavarian_male_clothes_behind:p3:c0"
+			"GFX_bavarian_male_headgear_behind:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_german_male_hair_behind_oldage:p1:h:y"
@@ -290,15 +290,15 @@ spriteTypes = {
 			"GFX_character_possessed:p30"
 			"GFX_frankish_male_overlayer_mid:p31"
 			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_swabian_male_clothes:p3:c2"
-			"GFX_swabian_male_headgear_mid:p5:c3"
+			"GFX_bavarian_male_clothes:p3:c2"
+			"GFX_bavarian_male_headgear_mid:p5:c3"
 			"GFX_german_male_ear_oldage:d7"
 			"GFX_german_male_beard_oldage:p4:h:y"
 			"GFX_character_mask:p12:y:o40x45"
 			":p5:c7"
 			"GFX_german_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_swabian_male_headgear:p5:c5"
+			"GFX_bavarian_male_headgear:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
 			"GFX_character_special_crowns:p19"
 			"GFX_character_special_helmets:p34"
@@ -347,12 +347,12 @@ spriteTypes = {
 
 	# german female
 	portraitType = {
-		name = "PORTRAIT_swabiangfx_female"
+		name = "PORTRAIT_bavariangfx_female"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_swabian_female_clothes_behind:p3:c0"
-			"GFX_swabian_female_headgear_behind:p5:c1"
+			"GFX_bavarian_female_clothes_behind:p3:c0"
+			"GFX_bavarian_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_undermain_behind:p33"
 			"GFX_frankish_female_undermain_hair_behind:p33:h"
 			"GFX_frankish_female_overlayer_behind:p32"
@@ -384,15 +384,15 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_german_female_ear:d7"
 			"GFX_character_mask:p12:y:o40x45"
-			"GFX_swabian_female_clothes:p3:c2"
-			"GFX_swabian_female_headgear_mid:p5:c3"
+			"GFX_bavarian_female_clothes:p3:c2"
+			"GFX_bavarian_female_headgear_mid:p5:c3"
 			"GFX_german_female_hair:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
-			"GFX_swabian_female_headgear:p5:c5"
+			"GFX_bavarian_female_headgear:p5:c5"
 			"GFX_frankish_female_overlayer:p32"
 			"GFX_character_special_crowns:p19"
 			"GFX_character_special_helmets:p34"
@@ -437,12 +437,12 @@ spriteTypes = {
 
 	# german female midage
 	portraitType = {
-		name = "PORTRAIT_swabiangfx_female1"
+		name = "PORTRAIT_bavariangfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_swabian_female_clothes_behind:p3:c0"
-			"GFX_swabian_female_headgear_behind:p5:c1"
+			"GFX_bavarian_female_clothes_behind:p3:c0"
+			"GFX_bavarian_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_undermain_behind:p33"
 			"GFX_frankish_female_undermain_hair_behind:p33:h"
 			"GFX_frankish_female_overlayer_behind:p32"
@@ -474,15 +474,15 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_german_female_ear_midage:d7"
 			"GFX_character_mask:p12:y:o40x45"
-			"GFX_swabian_female_clothes:p3:c2"
-			"GFX_swabian_female_headgear_mid:p5:c3"
+			"GFX_bavarian_female_clothes:p3:c2"
+			"GFX_bavarian_female_headgear_mid:p5:c3"
 			"GFX_german_female_hair_midage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
-			"GFX_swabian_female_headgear:p5:c5"
+			"GFX_bavarian_female_headgear:p5:c5"
 			"GFX_frankish_female_overlayer:p32"
 			"GFX_character_special_crowns:p19"
 			"GFX_character_special_helmets:p34"
@@ -527,12 +527,12 @@ spriteTypes = {
 
 	# german female oldage
 	portraitType = {
-		name = "PORTRAIT_swabiangfx_female2"
+		name = "PORTRAIT_bavariangfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_swabian_female_clothes_behind:p3:c0"
-			"GFX_swabian_female_headgear_behind:p5:c1"
+			"GFX_bavarian_female_clothes_behind:p3:c0"
+			"GFX_bavarian_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_undermain_behind:p33"
 			"GFX_frankish_female_undermain_hair_behind:p33:h"
 			"GFX_frankish_female_overlayer_behind:p32"
@@ -564,15 +564,15 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_german_female_ear_oldage:d7"	
 			"GFX_character_mask:p12:y:o40x45"
-			"GFX_swabian_female_clothes:p3:c2"
-			"GFX_swabian_female_headgear_mid:p5:c3"
+			"GFX_bavarian_female_clothes:p3:c2"
+			"GFX_bavarian_female_headgear_mid:p5:c3"
 			"GFX_german_female_hair_oldage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
-			"GFX_swabian_female_headgear:p5:c5"
+			"GFX_bavarian_female_headgear:p5:c5"
 			"GFX_frankish_female_overlayer:p32"
 			"GFX_character_special_crowns:p19"
 			"GFX_character_special_helmets:p34"
