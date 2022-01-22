@@ -1197,3 +1197,26 @@ d_nestorian = {
 		Maremmeh Pethion Sabrisho Shemon Sargis Surin Theodosios Timotheos Yahballaha Yohannan
 	}
 }
+d_druze = {
+	color = { 196 56 100 }
+	color2 = { 220 220 0 }
+	
+	capital = 1977
+	title = "SHEIKH"
+	foa = "SHEIKH_FOA"
+	
+	short_name = yes
+	
+	# Controls a religion
+	controls_religion = druze
+	
+	culture = lebneni
+	religion = druze
+	pentarchy = druze
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+	
+}
