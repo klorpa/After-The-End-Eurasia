@@ -628,7 +628,6 @@ pirate_invasion = {
 			realm_size >= 100 
 			NOT = { government = pirate_government }
 			NOT = { government = nomadic_government }
-			NOT = { government = herder_government }
 			NOT = { religion = ROOT }
 			has_character_flag = pirate_invasion_target
 		}
