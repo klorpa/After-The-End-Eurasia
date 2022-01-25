@@ -3651,7 +3651,20 @@
 	}
 }
 1802103 = { name="Aziz" culture=armenian }
-1802104 = { name="Shiraz" culture=armenian }
+1802104 = { name="Shiraz" culture=armenian 
+	coat_of_arms = { 
+		religion = miaphysite
+		template = 0
+		layer = {
+			texture = 23
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1802105 = { name="Hamazguni" culture=armenian 
 	coat_of_arms = { 
 		religion = miaphysite
