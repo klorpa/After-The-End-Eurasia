@@ -883,6 +883,11 @@
 	trait = shy
 	trait = theologian
 	2630.1.1 = { birth = yes }
+    2640.1.1 = {
+        effect = {
+            set_special_character_title = DESERT_FATHER_TITLE
+        }
+    }
 }
 3601539 = { #placeholder Catholicos of Etchmiadzin
 	name = "Karekin"
@@ -894,4 +899,9 @@
 	trait = shy
 	trait = theologian
 	2630.1.1 = { birth = yes }
+	2660.1.1 = {
+		effect_even_if_dead = {
+			set_special_character_title = DESERT_FATHER_TITLE
+		}
+	}
 }
