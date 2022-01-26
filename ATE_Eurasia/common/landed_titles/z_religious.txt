@@ -596,7 +596,7 @@ d_orthodox = {
 	# Controls a religion
 	controls_religion = orthodox
 	
-	culture = romioi
+	culture = greek
 	religion = orthodox
 	
 	# Cannot be held as a secondary title
@@ -617,13 +617,12 @@ d_orthodox = {
 	}
 }
 d_russian_patriarch = {
-#	color={ 150 90 30 }
-	color={ 183 60 155 }
+	color={ 160 39 70 }
 	color2={ 220 220 0 }
 	
 	capital = 652 # Moscow
 	
-	short_name = yes
+	title = "PATRIARCH"
 
 	# Always exists
 	landless = yes
@@ -650,13 +649,12 @@ d_russian_patriarch = {
 	}
 }
 d_antioch_patriarch = {
-#	color={ 150 90 30 }
-	color={ 183 60 155 }
+	color={ 236 59 55 }
 	color2={ 220 220 0 }
 	
-	capital = 307 # Hatay
+	capital = 1997 # Damascus
 	
-	short_name = yes
+	title = "PATRIARCH"
 
 	# Always exists
 	landless = yes
@@ -682,19 +680,20 @@ d_antioch_patriarch = {
 		Theophanes Theophylaktos Tryphon Zacharias
 	}
 }
-d_alexandarian_patriarch = {
-#	color={ 150 90 30 }
-	color={ 183 60 155 }
+d_georgian_patriarch = {
+	color={ 190 179 204 }
 	color2={ 220 220 0 }
 	
-	capital = 1405 # al-Iskandariyya
+	capital = 2119 # Tbilisi
 	
+	title = "CATHOLICOS_PATRIARCH"
+	foa = "CATHOLICOS_PATRIARCH_FOA"
 	short_name = yes
 
 	# Always exists
 	landless = yes
 	
-	culture = masri
+	culture = georgian
 	religion = orthodox
 	pentarchy = orthodox
 	
@@ -716,13 +715,12 @@ d_alexandarian_patriarch = {
 	}
 }
 d_jerusalem_patriarch = {
-#	color={ 150 90 30 }
-	color={ 183 60 155 }
+	color={ 115 176 104 }
 	color2={ 220 220 0 }
 	
 	capital = 1959 # al-Quds
 	
-	short_name = yes
+	title = "PATRIARCH"
 
 	# Always exists
 	landless = yes
@@ -827,7 +825,6 @@ d_etchmiadzin = {
 	title = "PRESBYTEROS"
 	foa = "PRESBYTEROS_FOA"
 	
-	short_name = yes
 
 	# Always exists
 	landless = yes
@@ -859,7 +856,6 @@ d_miaphysite_antioch  = {
 	title = "PRESBYTEROS"
 	foa = "PRESBYTEROS_FOA"
 	
-	short_name = yes
 
 	# Always exists
 	landless = yes
@@ -891,7 +887,6 @@ d_miaphysite_marseille = {
 	title = "PRESBYTEROS"
 	foa = "PRESBYTEROS_FOA"
 	
-	short_name = yes
 
 	# Always exists
 	landless = yes
@@ -923,7 +918,6 @@ d_tewahedo = {
 	title = "PRESBYTEROS"
 	foa = "PRESBYTEROS_FOA"
 	
-	short_name = yes
 
 	# Always exists
 	landless = yes
@@ -993,7 +987,6 @@ d_mariavite_vilnius = {
 	title_female = "PRIMAS"
 	foa = "PRIMAS_FOA"
 	
-	short_name = yes
 	# Always exists
 	landless = yes
 	
@@ -1021,7 +1014,6 @@ d_mariavite_nitra = {
 	title_female = "PRIMAS"
 	foa = "PRIMAS_FOA"
 	
-	short_name = yes
 	# Always exists
 	landless = yes
 	
@@ -1049,7 +1041,6 @@ d_mariavite_utrecht = {
 	title_female = "PRIMAS"
 	foa = "PRIMAS_FOA"
 	
-	short_name = yes
 	# Always exists
 	landless = yes
 	
@@ -1077,7 +1068,6 @@ d_mariavite_rome = {
 	title_female = "PRIMAS"
 	foa = "PRIMAS_FOA"
 	
-	short_name = yes
 	# Always exists
 	landless = yes
 	
