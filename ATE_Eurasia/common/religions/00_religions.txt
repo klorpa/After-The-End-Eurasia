@@ -2292,6 +2292,40 @@ muslim = {
 		religious_clothing_head = 10
 		religious_clothing_priest = 10
 	}
+	
+	alevi = {
+		graphical_culture = muslimgfx
+		
+		icon = 98
+		
+		color = { 105 139 40 }
+		
+		high_god_name = GOD_AL_HAQQ
+		
+		god_names = {
+			GOD_ALLAH GOD_AL_HAQQ GOD_TANRI GOD_MUHAMMAD GOD_ALI 
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		scripture_name = THE_QURAN
+		priest_title = DEDE
+		crusade_name = JIHAD
+		uses_decadence = no
+		max_wives = 1
+		uses_jizya_tax = no
+		can_demand_religious_conversion = no
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		feminist = yes
+		psc_marriage = no
+		hard_to_convert=yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+	}
 	ruhi = {
 		graphical_culture = muslimgfx
 		
@@ -2359,7 +2393,6 @@ muslim = {
 		graphical_culture = muslimgfx
 		
 		icon = 97
-		heresy_icon = 98
 		
 		color = { 0 108 53 }
 		

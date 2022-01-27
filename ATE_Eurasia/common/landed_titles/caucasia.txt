@@ -814,6 +814,16 @@ e_caucasia = {
 		
 		capital = 2119 # c_tbilisi
 		
+		georgian="Sakartvelo"
+		rumelian="Gürcistan"
+		west_anatolian="Gürcistan"
+		central_anatolian="Gürcistan"
+		black_sea="Gürcistan"
+		toros_mountain="Gürcistan"
+		azeri="Gürcüstan"
+		laz="Kortustan"
+		armenian="Vrastan"
+		
 		d_kartli = {
 			color={ 210 159 214 }
 			color2={ 255 255 255 }
@@ -823,6 +833,12 @@ e_caucasia = {
 			c_tbilisi = { # 2119
 				color={ 220 149 219 }
 				color2={ 255 255 255 }
+				
+				rumelian="Tiflis"
+				west_anatolian="Tiflis"
+				central_anatolian="Tiflis"
+				black_sea="Tiflis"
+				toros_mountain="Tiflis"
 				
 				b_narikala = {}
 				b_vake = {}
@@ -848,6 +864,7 @@ e_caucasia = {
 				color={ 96 56 92 }
 				color2={ 255 255 255 }
 				
+				
 				b_gori = {}
 				b_khashuri = {}
 				b_kareli = {}
@@ -859,6 +876,13 @@ e_caucasia = {
 			c_samtskhe_javakheti = { # 2122
 				color={ 137 38 134 }
 				color2={ 255 255 255 }
+				
+				rumelian="Samtshe-Cavaheti"
+				west_anatolian="Samtshe-Cavaheti"
+				central_anatolian="Samtshe-Cavaheti"
+				black_sea="Samtshe-Cavaheti"
+				toros_mountain="Samtshe-Cavaheti"
+				armenian="Samts'khe-Javakhet'i"
 				
 				b_akhaltsikhe = {}
 				b_borjomi = {}
@@ -875,9 +899,25 @@ e_caucasia = {
 			
 			capital = 915 # c_sokhumi
 			
+			abkhazian="Apsny"
+			georgian="Apkhazeti"
+			rumelian="Abhazya"
+			west_anatolian="Abhazya"
+			central_anatolian="Abhazya"
+			black_sea="Abhazya"
+			toros_mountain="Abhazya"
+			azeri="Abxaziya"
+			
 			c_sukhumi = { # 915
 				color={ 252 184 226 }
 				color2={ 255 255 255 }
+				
+				rumelian="Sohum"
+				west_anatolian="Sohum"
+				central_anatolian="Sohum"
+				black_sea="Sohum"
+				toros_mountain="Sohum"
+				abkhazian="Aqwa"
 				
 				b_sukhumi = {}
 				b_gagra = {}
@@ -891,6 +931,8 @@ e_caucasia = {
 				color={ 137 221 131 }
 				color2={ 255 255 255 }
 				
+				abkhazian="Gal"
+				
 				b_gali = {}
 				b_ochamchire = {}
 				b_gulripshi = {}
@@ -902,6 +944,14 @@ e_caucasia = {
 			c_samegrelo = { # 2127
 				color={ 167 145 86 }
 				color2={ 255 255 255 }
+				
+				rumelian="Megrelya"
+				west_anatolian="Megrelya"
+				central_anatolian="Megrelya"
+				black_sea="Megrelya"
+				toros_mountain="Megrelya"
+				armenian="Agirni"
+				laz="Margalona"
 				
 				b_poti = {}
 				b_zugdidi = {}
@@ -934,6 +984,13 @@ e_caucasia = {
 				color={ 153 89 89 }
 				color2={ 255 255 255 }
 				
+				rumelian="Acara"
+				west_anatolian="Acara"
+				central_anatolian="Acara"
+				black_sea="Acara"
+				toros_mountain="Acara"
+				georgian="Ach'ara"
+				
 				b_batumi = {}
 				b_khelvachauri = {}
 				b_kobuleti = {}
@@ -949,9 +1006,25 @@ e_caucasia = {
 			
 			capital = 2123 # c_kakheti
 			
+			georgian="K'akheti"
+			rumelian="Kaheti"
+			west_anatolian="Kaheti"
+			central_anatolian="Kaheti"
+			black_sea="Kaheti"
+			toros_mountain="Kaheti"
+			azeri="Qäxet"
+			
 			c_kakheti = { # 2123
 				color={ 36 176 211 }
 				color2={ 255 255 255 }
+			
+				georgian="K'akheti"
+				rumelian="Kaheti"
+				west_anatolian="Kaheti"
+				central_anatolian="Kaheti"
+				black_sea="Kaheti"
+				toros_mountain="Kaheti"
+				azeri="Qäxet"
 				
 				b_batonis_tsikhe = {}
 				b_telavi = {}
@@ -976,6 +1049,12 @@ e_caucasia = {
 			c_mtskheta = { # 2125
 				color={ 31 96 113 }
 				color2={ 255 255 255 }
+				
+				rumelian="Mtsheta"
+				west_anatolian="Mtsheta"
+				central_anatolian="Mtsheta"
+				black_sea="Mtsheta"
+				toros_mountain="Mtsheta"
 				
 				holy_site = nartist
 				holy_site = nartist_reformed
