@@ -9,6 +9,10 @@ character_event = {
 	
 	trigger = {
 		government = theocracy_government
+			holder_scope = {
+				higher_tier_than = BARON
+				
+			}
 	}
 	
 	immediate = {
@@ -86,6 +90,10 @@ character_event = {
 	
 	trigger = {
 		government = theocracy_government
+			holder_scope = {
+				higher_tier_than = BARON
+				
+			}
 	}
 	
 	immediate = {
