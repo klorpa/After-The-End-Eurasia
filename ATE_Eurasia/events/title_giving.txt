@@ -1,0 +1,156 @@
+namespace = titlegiving
+
+
+#On Start Up Ya boys will get the correct title
+character_event = {
+	id = titlegiving.001
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		government = theocracy_government
+	}
+	
+	immediate = {
+		if = {
+			limit = { 
+				title = d_etchmiadzin
+				{ title = d_etchmiadzin status = yes }
+			}
+			set_special_character_title = PING_PRESBYTEROS
+		}
+		else_if = {
+			limit = { 
+				title = d_miaphysite_antioch
+				{ title = d_miaphysite_antioch status = yes }
+			}
+			set_special_character_title = PING_PRESBYTEROS
+		}
+		else_if = {
+			limit = { 
+				title = d_miaphysite_marseille
+				{ title = d_miaphysite_marseille status = yes }
+			}
+			set_special_character_title = PING_PRESBYTEROS
+		}
+		else_if = {
+			limit = { 
+				title = d_tewahedo
+				{ title = d_tewahedo status = yes }
+			}
+			set_special_character_title = PING_PRESBYTEROS
+		}
+		else_if = {
+			limit = { 
+				title = d_mariavite_utrecht
+				{ title = d_mariavite_utrecht status = yes }
+			}
+			set_special_character_title = PING_PRIMAS
+		}
+		else_if = {
+			limit = { 
+				title = d_mariavite_vilnius
+				{ title = d_mariavite_vilnius status = yes }
+			}
+			set_special_character_title = PING_PRIMAS
+		}
+		else_if = {
+			limit = { 
+				title = d_mariavite_nitra
+				{ title = d_mariavite_nitra status = yes }
+			}
+			set_special_character_title = PING_PRIMAS
+		}
+		else_if = {
+			limit = { 
+				title = d_mariavite_rome
+				{ title = d_mariavite_rome status = yes }
+			}
+			set_special_character_title = PING_PRIMAS
+		}
+		else_if = {
+			limit = { 
+				title = d_georgian_patriarch
+				{ title = d_georgian_patriarch status = yes }
+			}
+			set_special_character_title = PING_CATHOLICOS_PATRIARCH
+		}
+	}
+}
+
+#On DEATH Ya boys will get the correct title
+character_event = {
+	id = titlegiving.002
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		government = theocracy_government
+	}
+	
+	immediate = {
+		if = {
+			limit = { 
+				title = d_etchmiadzin
+				{ title = d_etchmiadzin status = yes }
+			}
+			set_special_character_title = PING_PRESBYTEROS
+		}
+		else_if = {
+			limit = { 
+				title = d_miaphysite_antioch
+				{ title = d_miaphysite_antioch status = yes }
+			}
+			set_special_character_title = PING_PRESBYTEROS
+		}
+		else_if = {
+			limit = { 
+				title = d_miaphysite_marseille
+				{ title = d_miaphysite_marseille status = yes }
+			}
+			set_special_character_title = PING_PRESBYTEROS
+		}
+		else_if = {
+			limit = { 
+				title = d_tewahedo
+				{ title = d_tewahedo status = yes }
+			}
+			set_special_character_title = PING_PRESBYTEROS
+		}
+		else_if = {
+			limit = { 
+				title = d_mariavite_utrecht
+				{ title = d_mariavite_utrecht status = yes }
+			}
+			set_special_character_title = PING_PRIMAS
+		}
+		else_if = {
+			limit = { 
+				title = d_mariavite_vilnius
+				{ title = d_mariavite_vilnius status = yes }
+			}
+			set_special_character_title = PING_PRIMAS
+		}
+		else_if = {
+			limit = { 
+				title = d_mariavite_nitra
+				{ title = d_mariavite_nitra status = yes }
+			}
+			set_special_character_title = PING_PRIMAS
+		}
+		else_if = {
+			limit = { 
+				title = d_mariavite_rome
+				{ title = d_mariavite_rome status = yes }
+			}
+			set_special_character_title = PING_PRIMAS
+		}
+		else_if = {
+			limit = { 
+				title = d_georgian_patriarch
+				{ title = d_georgian_patriarch status = yes }
+			}
+			set_special_character_title = PING_CATHOLICOS_PATRIARCH
+		}
+	}
+}
