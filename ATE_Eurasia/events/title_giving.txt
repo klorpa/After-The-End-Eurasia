@@ -18,59 +18,22 @@ character_event = {
 	immediate = {
 		if = {
 			limit = { 
-				title = d_etchmiadzin
-				{ title = d_etchmiadzin status = yes }
+			   religion = miaphysite
 			}
 			set_special_character_title = PING_PRESBYTEROS
 		}
 		else_if = {
 			limit = { 
-				title = d_miaphysite_antioch
-				{ title = d_miaphysite_antioch status = yes }
-			}
-			set_special_character_title = PING_PRESBYTEROS
-		}
-		else_if = {
-			limit = { 
-				title = d_miaphysite_marseille
-				{ title = d_miaphysite_marseille status = yes }
-			}
-			set_special_character_title = PING_PRESBYTEROS
-		}
-		else_if = {
-			limit = { 
-				title = d_tewahedo
-				{ title = d_tewahedo status = yes }
-			}
-			set_special_character_title = PING_PRESBYTEROS
-		}
-		else_if = {
-			limit = { 
-				title = d_mariavite_utrecht
-				{ title = d_mariavite_utrecht status = yes }
+				religion = mariavite
+				NOT = { title = d_mariavite }
 			}
 			set_special_character_title = PING_PRIMAS
 		}
 		else_if = {
 			limit = { 
-				title = d_mariavite_vilnius
-				{ title = d_mariavite_vilnius status = yes }
+			   religion = sunni
 			}
-			set_special_character_title = PING_PRIMAS
-		}
-		else_if = {
-			limit = { 
-				title = d_mariavite_nitra
-				{ title = d_mariavite_nitra status = yes }
-			}
-			set_special_character_title = PING_PRIMAS
-		}
-		else_if = {
-			limit = { 
-				title = d_mariavite_rome
-				{ title = d_mariavite_rome status = yes }
-			}
-			set_special_character_title = PING_PRIMAS
+			set_special_character_title = PING_GRAND_MUFTI
 		}
 		else_if = {
 			limit = { 
@@ -99,59 +62,22 @@ character_event = {
 	immediate = {
 		if = {
 			limit = { 
-				title = d_etchmiadzin
-				{ title = d_etchmiadzin status = yes }
+			   religion = miaphysite
 			}
 			set_special_character_title = PING_PRESBYTEROS
 		}
 		else_if = {
 			limit = { 
-				title = d_miaphysite_antioch
-				{ title = d_miaphysite_antioch status = yes }
-			}
-			set_special_character_title = PING_PRESBYTEROS
-		}
-		else_if = {
-			limit = { 
-				title = d_miaphysite_marseille
-				{ title = d_miaphysite_marseille status = yes }
-			}
-			set_special_character_title = PING_PRESBYTEROS
-		}
-		else_if = {
-			limit = { 
-				title = d_tewahedo
-				{ title = d_tewahedo status = yes }
-			}
-			set_special_character_title = PING_PRESBYTEROS
-		}
-		else_if = {
-			limit = { 
-				title = d_mariavite_utrecht
-				{ title = d_mariavite_utrecht status = yes }
+				religion = mariavite
+				NOT = { title = d_mariavite }
 			}
 			set_special_character_title = PING_PRIMAS
 		}
 		else_if = {
 			limit = { 
-				title = d_mariavite_vilnius
-				{ title = d_mariavite_vilnius status = yes }
+			   religion = sunni
 			}
-			set_special_character_title = PING_PRIMAS
-		}
-		else_if = {
-			limit = { 
-				title = d_mariavite_nitra
-				{ title = d_mariavite_nitra status = yes }
-			}
-			set_special_character_title = PING_PRIMAS
-		}
-		else_if = {
-			limit = { 
-				title = d_mariavite_rome
-				{ title = d_mariavite_rome status = yes }
-			}
-			set_special_character_title = PING_PRIMAS
+			set_special_character_title = PING_GRAND_MUFTI
 		}
 		else_if = {
 			limit = { 
