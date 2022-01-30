@@ -11,7 +11,15 @@ character_event = {
 		government = theocracy_government
 			holder_scope = {
 				higher_tier_than = BARON
-				
+				OR = {
+				religion = miaphysite
+				religion = sunni
+				title = d_georgian_patriarch
+					AND = {
+						religion = mariavite
+						NOT = { title = d_mariavite }
+					}
+				}				
 			}
 	}
 	
@@ -55,7 +63,15 @@ character_event = {
 		government = theocracy_government
 			holder_scope = {
 				higher_tier_than = BARON
-				
+				OR = {
+				religion = miaphysite
+				religion = sunni
+				title = d_georgian_patriarch
+					AND = {
+						religion = mariavite
+						NOT = { title = d_mariavite }
+					}
+				}				
 			}
 	}
 	
