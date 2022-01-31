@@ -33,7 +33,9 @@ character_event = {
 		else_if = {
 			limit = { 
 				religion = mariavite
+				holder_scope = {
 				NOT = { title = d_mariavite }
+				}
 			}
 			set_special_character_title = PING_PRIMAS
 		}
@@ -46,7 +48,9 @@ character_event = {
 		else_if = {
 			limit = { 
 				religion = orthodox
+				holder_scope = {
 				title = d_georgian_patriarch
+				}
 				{ title = d_georgian_patriarch status = yes }
 			}
 			set_special_character_title = PING_CATHOLICOS_PATRIARCH
@@ -86,7 +90,9 @@ character_event = {
 		else_if = {
 			limit = { 
 				religion = mariavite
+				holder_scope = {
 				NOT = { title = d_mariavite }
+				}
 			}
 			set_special_character_title = PING_PRIMAS
 		}
@@ -99,7 +105,9 @@ character_event = {
 		else_if = {
 			limit = { 
 				religion = orthodox
+				holder_scope = {
 				title = d_georgian_patriarch
+				}
 				{ title = d_georgian_patriarch status = yes }
 			}
 			set_special_character_title = PING_CATHOLICOS_PATRIARCH
