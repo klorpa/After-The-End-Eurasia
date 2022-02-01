@@ -9,7 +9,10 @@ on_startup = {
 		maintenance.5 #Madhab Dispensing (Majlisi, Ahlus Salah, or Ahlus Sunnah)
 		maintenance.6 #School Dispensing (Reformed Christianity)
 		gov.013 #Muslim government fix pt2
-		titlegiving.001
+		titlegiving.001 #PING_PRESBYTEROS
+		titlegiving.002 #PING_PRIMAS
+		titlegiving.003 #PING_GRAND_MUFTI
+		titlegiving.004 #PING_CATHOLICOS_PATRIARCH
 	}
 }
 on_yearly_pulse = {
@@ -92,7 +95,10 @@ on_character_convert_religion = {
 on_new_holder = {
 	events = {
 		gov.014 #Checks Character is still eligible for MUSLIM governments
-		titlegiving.002
+		titlegiving.005 #PING_PRESBYTEROS
+		titlegiving.006 #PING_PRIMAS
+		titlegiving.007 #PING_GRAND_MUFTI
+		titlegiving.008 #PING_CATHOLICOS_PATRIARCH
 	}
 }
 
@@ -100,6 +106,10 @@ on_new_holder = {
 on_new_holder_inheritance = {
 	events = {
 		gov.014 #Checks Character is still eligible for MUSLIM governments
+		titlegiving.005 #PING_PRESBYTEROS
+		titlegiving.006 #PING_PRIMAS
+		titlegiving.007 #PING_GRAND_MUFTI
+		titlegiving.008 #PING_CATHOLICOS_PATRIARCH
 	}
 
 }
@@ -108,6 +118,10 @@ on_new_holder_inheritance = {
 on_new_holder_usurpation = {
 	events = {
 		gov.014 #Checks Character is still eligible for MUSLIM governments
+		titlegiving.005 #PING_PRESBYTEROS
+		titlegiving.006 #PING_PRIMAS
+		titlegiving.007 #PING_GRAND_MUFTI
+		titlegiving.008 #PING_CATHOLICOS_PATRIARCH
 	}
 }
 

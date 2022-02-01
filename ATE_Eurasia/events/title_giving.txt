@@ -7,116 +7,146 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	
-	trigger = {
+		trigger = {
 		government = theocracy_government
-			holder_scope = {
-				higher_tier_than = BARON
-				OR = {
-				religion = miaphysite
-				religion = sunni
-				title = d_georgian_patriarch
-					AND = {
-						religion = mariavite
-						NOT = { title = d_mariavite }
-					}
-				}				
-			}
-	}
+		religion = miaphysite 
+		higher_tier_than = BARON	
+		NOT = { has_landed_title = d_miaphysite_alexandria }
+		}
 	
 	immediate = {
-		if = {
-			limit = { 
-			   religion = miaphysite
-			}
 			set_special_character_title = PING_PRESBYTEROS
-		}
-		else_if = {
-			limit = { 
-				religion = mariavite
-				holder_scope = {
-				NOT = { title = d_mariavite }
-				}
-			}
-			set_special_character_title = PING_PRIMAS
-		}
-		else_if = {
-			limit = { 
-			   religion = sunni
-			}
-			set_special_character_title = PING_GRAND_MUFTI
-		}
-		else_if = {
-			limit = { 
-				religion = orthodox
-				holder_scope = {
-				title = d_georgian_patriarch
-				}
-				{ title = d_georgian_patriarch status = yes }
-			}
-			set_special_character_title = PING_CATHOLICOS_PATRIARCH
-		}
-		else = {
-			#Do nothing lmao
-		}
+		
 	}
 }
 
-#On DEATH Ya boys will get the correct title
+#On Start Up Ya boys will get the correct title
 character_event = {
 	id = titlegiving.002
 	hide_window = yes
 	is_triggered_only = yes
 	
-	trigger = {
+		trigger = {
 		government = theocracy_government
-			holder_scope = {
-				higher_tier_than = BARON
-				OR = {
-				religion = miaphysite
-				religion = sunni
-				title = d_georgian_patriarch
-					AND = {
-						religion = mariavite
-						NOT = { title = d_mariavite }
-					}
-				}				
-			}
-	}
+		religion = mariavite 
+		higher_tier_than = BARON	
+		NOT = { has_landed_title = d_mariavite }
+		}
 	
 	immediate = {
-		if = {
-			limit = { 
-			   religion = miaphysite
-			}
-			set_special_character_title = PING_PRESBYTEROS
-		}
-		else_if = {
-			limit = { 
-				religion = mariavite
-				holder_scope = {
-				NOT = { title = d_mariavite }
-				}
-			}
 			set_special_character_title = PING_PRIMAS
+		
+	}
+}
+
+#On Start Up Ya boys will get the correct title
+character_event = {
+	id = titlegiving.003
+	hide_window = yes
+	is_triggered_only = yes
+	
+		trigger = {
+		government = theocracy_government
+		religion = sunni 
+		higher_tier_than = BARON	
 		}
-		else_if = {
-			limit = { 
-			   religion = sunni
-			}
+	
+	immediate = {
 			set_special_character_title = PING_GRAND_MUFTI
+		
+	}
+}
+
+#On Start Up Ya boys will get the correct title
+character_event = {
+	id = titlegiving.004
+	hide_window = yes
+	is_triggered_only = yes
+	
+		trigger = {
+		government = theocracy_government
+		religion = mariavite 
+		higher_tier_than = BARON	
+		has_landed_title = d_georgian_patriarch
 		}
-		else_if = {
-			limit = { 
-				religion = orthodox
-				holder_scope = {
-				title = d_georgian_patriarch
-				}
-				{ title = d_georgian_patriarch status = yes }
-			}
+	
+	immediate = {
 			set_special_character_title = PING_CATHOLICOS_PATRIARCH
+		
+	}
+}
+
+#On Start Up Ya boys will get the correct title
+character_event = {
+	id = titlegiving.005
+	hide_window = yes
+	is_triggered_only = yes
+	
+		trigger = {
+		government = theocracy_government
+		religion = miaphysite 
+		higher_tier_than = BARON	
+		NOT = { has_landed_title = d_miaphysite_alexandria }
 		}
-		else = {
-			#Do nothing lmao
+	
+	immediate = {
+			set_special_character_title = PING_PRESBYTEROS
+		
+	}
+}
+
+#On Start Up Ya boys will get the correct title
+character_event = {
+	id = titlegiving.006
+	hide_window = yes
+	is_triggered_only = yes
+	
+		trigger = {
+		government = theocracy_government
+		religion = mariavite 
+		higher_tier_than = BARON	
+		NOT = { has_landed_title = d_mariavite }
 		}
+	
+	immediate = {
+			set_special_character_title = PING_PRIMAS
+		
+	}
+}
+
+#On Start Up Ya boys will get the correct title
+character_event = {
+	id = titlegiving.007
+	hide_window = yes
+	is_triggered_only = yes
+	
+		trigger = {
+		government = theocracy_government
+		religion = sunni 
+		higher_tier_than = BARON	
+		}
+	
+	immediate = {
+			set_special_character_title = PING_GRAND_MUFTI
+		
+	}
+}
+
+#On Start Up Ya boys will get the correct title
+character_event = {
+	id = titlegiving.008
+	hide_window = yes
+	is_triggered_only = yes
+	
+		trigger = {
+		government = theocracy_government
+		religion = mariavite 
+		higher_tier_than = BARON	
+		has_landed_title = d_georgian_patriarch
+		}
+	
+	immediate = {
+			set_special_character_title = PING_CATHOLICOS_PATRIARCH
+		
 	}
 }
