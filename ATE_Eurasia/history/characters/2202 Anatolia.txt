@@ -3112,6 +3112,7 @@
     trait=intricate_webweaver    
     trait=honorable
     trait=humble
+	father=2202073
 	trait=diligent
 	diplomacy=10
 	intrigue=7
@@ -4019,20 +4020,6 @@
 	trait=just
 	2633.3.6={birth=yes}
 }
-2202354={ #Orko
-	name="Orko"
-	dynasty=1282000 #Topaloghlu
-	culture=laz
-	religion=ruhi
-    trait=skilled_tactician    
-    trait=brave
-	trait=ruthless
-	trait=charitable
-	diplomacy=10
-	intrigue=7
-	martial=8
-	2640.5.11={birth=yes}
-}
 2202355={ 
 	name="Eda"
 	female=yes
@@ -4390,6 +4377,21 @@
 		birth=yes
 		culture = toros_mountain
 	}
+}
+2202354={ #Orko
+	name="Orko"
+	dynasty=1282000 #Topaloghlu
+	culture=laz
+	religion=ruhi
+    trait=skilled_tactician    
+    trait=brave
+	trait=ruthless
+	trait=charitable
+	father=2202073
+	diplomacy=10
+	intrigue=7
+	martial=8
+	2640.5.11={birth=yes}
 }
 2202388={
 	name="Mustafa"
