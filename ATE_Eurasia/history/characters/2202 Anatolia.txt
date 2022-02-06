@@ -764,7 +764,7 @@
 	trait=just
 	trait=proud
 	trait=brilliant_strategist
-	2638.11.6={ birth=yes }
+	2631.5.18={ birth=yes }
 }
 #Temporary Izmir Patricians#
 2202063={#Izmir Patrician
@@ -1570,6 +1570,12 @@
 	dynasty=2074067 #Türkkan
 	culture=kypriot
 	religion=naqshbandi
+	2102.5.31={
+		create_bloodline = {
+			type = demetrios_ghazi_bloodline
+			has_dlc = "Holy Fury"
+		}
+	}
 	2039.2.22={birth=yes}
 	2097.11.11={death=yes}
 }
@@ -2263,6 +2269,12 @@
 	trait=adventurer
 	trait=administrator
 	2063.5.21={birth=yes}
+	2102.6.21={
+		create_bloodline = {
+			type = sarikaya_bloodline
+			has_dlc = "Holy Fury"
+		}
+	}
 	2124.4.9={death=yes}
 }
 2202191={
@@ -2602,7 +2614,7 @@
 	2636.1.1={add_spouse=2202087}
 }
 2202219={
-	name="Isak"
+	name="Yitzhak"
 	dynasty=1820066 #Halevi
 	culture=sefardi
 	religion=ivri
@@ -2673,7 +2685,7 @@
 	2609.3.27={birth=yes}
 }
 2202227={
-	name="Isak"
+	name="Yitzhak"
 	dynasty=1820066 #Halevi
 	culture=sefardi
 	religion=ivri
@@ -4158,7 +4170,7 @@
 	father=2202296
 	mother=2202366
 	2626.7.14={birth=yes}
-	2665.9.16={death={death_reason=death_duel killer=2202294}}
+	2664.9.16={death={death_reason=death_duel killer=2202294}}
 }
 2202368={
 	name="Safiye"
@@ -4171,6 +4183,7 @@
 	2629.10.4={birth=yes
 		culture=toros_mountain}
 	2646.1.1={add_spouse=2202367}
+	2665.1.1={add_spouse=2202061}
 }
 2202369={
 	name="Fatma"
@@ -4419,4 +4432,115 @@
 		birth=yes
 		culture = toros_mountain
 	}
+}
+2202390={
+	name="Nazmiye"
+	female=yes
+	dynasty=0
+	culture=west_anatolian
+	religion=naqshbandi
+	2625.1.14={birth=yes}
+	2643.1.1={add_spouse=2202304}
+}
+2202391={
+	name="Hayrünnisa"
+	female=yes
+	dynasty=2055211 #Gündoghdu
+	culture=west_anatolian
+	religion=naqshbandi
+	father=2202304
+	mother=2202390
+	2644.10.13={birth=yes}
+}
+2202392={
+	name="Ahmet"
+	dynasty=2055211 #Gündoghdu
+	culture=west_anatolian
+	religion=naqshbandi
+	father=2202304
+	mother=2202390
+	2646.12.10={birth=yes}
+}
+2202393={
+	name="Turgut"
+	dynasty=2055211 #Gündoghdu
+	culture=west_anatolian
+	religion=naqshbandi
+	father=2202304
+	mother=2202390
+	2649.5.14={birth=yes}
+}
+2202394={
+	name="Tevfik"
+	dynasty=2055000 #Özdemir
+	culture=west_anatolian
+	religion=naqshbandi
+	father=2202061
+	mother=2202368
+	2666.4.6={birth=yes}
+}
+2202395={
+	name="Bahadir"
+	dynasty=2055210 #Tantal
+	culture=greek
+	religion=ruhi
+	father=2202291
+	2645.3.12={birth=yes
+		culture=west_anatolian}
+}
+2202396={
+	name="Nilüfer"
+	female=yes
+	dynasty=2055210 #Tantal
+	culture=greek
+	religion=ruhi
+	father=2202291
+	2647.11.18={birth=yes
+		culture=west_anatolian}
+}
+2202397={
+	name="Berat"
+	dynasty=2055210 #Tantal
+	culture=greek
+	religion=ruhi
+	father=2202291
+	2647.11.18={birth=yes
+		culture=west_anatolian}
+	2655.7.2={death={death_reason=death_murder killer=2202291}}
+}
+2202398={
+	name="Nehir"
+	female=yes
+	dynasty=0
+	culture=west_anatolian
+	religion=ruhi
+	2622.3.17={birth=yes}
+	2641.1.1={add_spouse=2202068}
+}
+2202399={
+	name="Deniz"
+	female=yes
+	dynasty=2055004 #Atçali
+	culture=west_anatolian
+	religion=ruhi
+	traits=scholarly_theologian
+	trait=brave
+	trait=honorable
+	trait=trusting
+	father=2202068
+	mother=2202398
+	2642.3.30={birth=yes}
+}
+2202400={
+	name="Çevik"
+	dynasty=2055004 #Atçali
+	culture=west_anatolian
+	religion=ruhi
+	traits=tough_soldier
+	trait=brave
+	trait=just
+	trait=trusting
+	father=2202068
+	mother=2202398
+	2643.3.1={birth=yes}
 }

@@ -1,37 +1,3 @@
-ottoman_emperor_male = {
-	monthly_character_prestige = 0.25
-	muslim_opinion = 5
-	ruhi_opinion = 5
-	naqshbandi_opinion = 10
-	inheritance = patrilineal
-	allow_bastards = yes
-	flags = { bloodline_faster_ottoman created_bloodline }
-	picture = GFX_bloodlines_symbol_sunni
-	active = {
-		OR = {
-			religion_group = muslim
-			culture = turkish
-		}
-	}
-}
-
-ottoman_emperor_female = {
-	monthly_character_prestige = 0.25
-	muslim_opinion = 5
-	ruhi_opinion = 5
-	naqshbandi_opinion = 10
-	inheritance = matrilineal
-	allow_bastards = yes
-	flags = { bloodline_faster_ottoman created_bloodline }
-	picture = GFX_bloodlines_symbol_sunni
-	active = {
-		OR = {
-			religion_group = muslim
-			culture = turkish
-		}
-	}
-}
-
 napoleon_bloodline = {
 	picture = GFX_bloodlines_symbol_napoleon
 	inheritance = patrilineal

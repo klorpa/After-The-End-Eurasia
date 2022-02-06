@@ -739,6 +739,13 @@ narrative_event = {
 					de_jure_liege = e_ottoman_empire
 				}
 			}
+			k_ard_al_muqaddis = { de_jure_liege = e_ottoman_empire }
+			k_cyprus = { de_jure_liege = e_ottoman_empire }
+			k_iraq = { de_jure_liege = e_ottoman_empire }
+			k_jordan = { de_jure_liege = e_ottoman_empire }
+			k_lebanon = { de_jure_liege = e_ottoman_empire }
+			k_syria = { de_jure_liege = e_ottoman_empire }
+			k_kuwait = { de_jure_liege = e_ottoman_empire }
 		}
 		e_ottoman_empire = {
 			show_scope_change = no
@@ -753,6 +760,7 @@ narrative_event = {
 		}
 		hidden_tooltip = {
 			activate_title = { title = e_turkey status = no }
+			activate_title = { title = e_al_mashriq status = no }
 			any_playable_ruler = {
 				limit = {
 					NOT = { has_landed_title = e_turkey }

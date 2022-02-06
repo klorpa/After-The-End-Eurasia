@@ -1209,8 +1209,10 @@
 	trait=trickster
 	father=1996085
 	2619.9.11={birth=yes}
-	2650.1.1={employer=1996070}
-	2659.2.21={effect={give_job_title=job_marshal}}
+	2659.2.21={
+		employer=1996070
+		effect={give_job_title=job_marshal}
+	}
 }
 1996085={
 	name="Andreas"
