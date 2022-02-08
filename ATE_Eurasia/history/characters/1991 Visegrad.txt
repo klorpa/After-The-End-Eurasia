@@ -4915,3 +4915,141 @@
 	religion = mariavite
 	2621.1.1 = {birth = yes}
 }
+1991343 = {
+	name = "Waldemar"
+	dynasty = 2129221
+	culture = silesian
+	religion = mariavite
+	father = 1991344
+	mother = 1991345
+	2629.3.10 = {birth = yes}
+	disallow_random_traits = yes
+	trait = indulgent_wastrel
+	trait = robust
+	trait = dull
+	trait = musician
+	trait = kind
+	trait = brave
+	trait = honest
+	trait = pilgrim
+	trait = defensive_leader
+	2650.4.12 = {add_spouse = 1991346}
+}
+1991344 = {
+	name = "Ferdynand"
+	dynasty = 2129221
+	culture = silesian
+	religion = mariavite
+	2599.1.20 = {birth = yes}
+	disallow_random_traits = yes
+	trait = brilliant_strategist
+	trait = reclusive
+	trait = genius
+	trait = drunkard
+	trait = possessed
+	trait = uncouth
+	trait = gamer
+	trait = mystic
+	trait = slothful
+	trait = cynical
+	trait = gregarious
+	trait = siege_leader
+	2620.4.1 = {add_spouse = 1991345}
+	2660.1.20 ={add_rival = 1991352}
+}
+1991345 = {
+	name = "Halina"
+	female = yes
+	culture = silesian
+	religion = mariavite
+	2606.2.20 = {birth = yes}
+	2620.4.1 = {add_spouse = 1991346}
+}
+1991346 = {
+	name = "Jola"
+	dynasty = 2124004
+	female = yes
+	culture = odrzan
+	religion = chronicler
+	2631.3.4 = {birth = yes}
+	disallow_random_traits = yes
+	trait = flamboyant_schemer
+	trait = groomed
+	trait = seductress
+	trait = falconer
+	trait = lustful
+	trait = greedy
+	trait = content
+	trait = gregarious
+	2650.4.12 = {add_spouse = 1991343}
+}
+1991347 = {
+	name = "Fryderyk"
+	dynasty = 2129221
+	culture = silesian
+	religion = mariavite
+	father = 1991343
+	mother = 1991346
+	2656.3.4 = {birth = yes}
+}
+1991348 = {
+	name = "Malgorzata"
+	dynasty = 2129221
+	female = yes
+	culture = silesian
+	religion = mariavite
+	father = 1991343
+	mother = 1991346
+	2658.3.4 = {birth = yes}
+}
+1991349 = {
+	name = "Wilem"
+	dynasty = 2129221
+	culture = silesian
+	religion = mariavite
+	father = 1991343
+	mother = 1991346
+	2660.3.4 = {birth = yes}
+}
+1991350 = {
+	name = "Gustlik"
+	dynasty = 2129222
+	culture = silesian
+	religion = mariavite
+	2630.2.1 = {birth = yes}
+	
+}
+1991351 = {
+	name = "Karol"
+	dynasty = 2129223
+	culture = moravian
+	religion = mariavite
+	2637.3.24 = {birth = yes}
+}
+1991352 = {
+	name = "Marian"
+	dynasty = 2124005
+	culture = odrzan
+	religion = mariavite
+	2627.6.14 = {birth = yes}
+	2655.1.20 ={add_spouse = 1991353} 
+	2660.2.24 ={add_rival = 1991344}
+}
+1991353 = {
+	name = "Olena"
+	dynasty = 2124006
+	female = yes
+	culture = odrzan
+	religion = mariavite
+	2636.1.24 = {birth = yes}
+	2655.1.20 ={add_spouse = 1991352} 
+}
+1991354 = {
+	name = "Henryk"
+	dynasty = 2124005
+	culture = odrzan
+	religion = mariavite
+	father = 1991352
+	mother = 1991353
+	2660.3.27 = {birth = yes}
+}
