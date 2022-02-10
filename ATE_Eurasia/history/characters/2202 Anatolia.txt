@@ -1,5 +1,5 @@
 2202000={
-	name="Ertugrul" 
+	name="Ertughrul" 
 	dynasty=2052000 #Osmanoghlu
 	culture=central_anatolian
 	religion=sunni
@@ -359,7 +359,7 @@
 	1839.7.1={death=yes}
 }
 2202031={
-	name="Abdülmecid"
+	name="Abdülmecit"
 	father=2202030
 	dynasty=2052000 #Osmanoghlu
 	culture=rumelian
@@ -428,7 +428,7 @@
 	1926.5.16={death=yes}
 }
 2202037={
-	name="Abdülmecid"
+	name="Abdülmecit"
 	father=2202032
 	dynasty=2052000 #Osmanoghlu
 	culture=rumelian
@@ -538,7 +538,7 @@
 	1949.6.15={death=yes}
 }
 2202047={
-	name="Ertugrul Osman"
+	name="Ertughrul Osman"
 	father=2202046
 	dynasty=2052000 #Osmanoghlu
 	culture=rumelian
@@ -551,11 +551,17 @@
 
 #Claims descent from the Pre-Event Osmanoghlu (not actually)
 2202048={
-	name="Osman"
+	name="Emre"
 	dynasty=2057009 #Post-Event Osmanoghlu
 	culture=rumelian
 	religion=naqshbandi
+	trait=ambitious
+	trait=ruthless
+	trait=brave
+	trait=brilliant_strategist
+	trait=inspiring_leader
 	2531.8.18={birth=yes}
+	2562.5.21={name="Osman"}
 	2580.10.13={death=yes}
 }
 
@@ -569,7 +575,7 @@
 }
 2202050={
 	name="Mehmet"
-	father=2202048
+	father=2202431
 	dynasty=2057009
 	culture=rumelian
 	religion=naqshbandi
@@ -598,9 +604,9 @@
 }
 2202053={
 	name="Selim"
-	father=2202048
+	father=2202431
 	dynasty=2057009
-	culture=central_anatolian
+	culture=rumelian
 	religion=naqshbandi
 	2579.5.23 = {birth=yes}
 	2630.3.11 = {death=yes}
@@ -610,7 +616,7 @@
 	female=yes
 	father=2202053
 	dynasty=2057009
-	culture=central_anatolian
+	culture=rumelian
 	religion=naqshbandi
 	2610.7.14 = {birth=yes}
 	2660.11.28 = {death=yes}
@@ -875,6 +881,7 @@
 	trait=hunter
 	trait=scarred_mid
 	trait=cancer
+	trait=brave
 	trait=strategist
 	give_nickname=nick_the_old
 	2583.8.10={birth=yes}
@@ -953,6 +960,10 @@
 	religion=naqshbandi
 	secret_religion=alawi
 	give_nickname=nick_the_arab
+	trait=brave
+	trait=midas_touched
+	trait=inspiring_leader
+	trait=charitable
 	2638.1.5={ birth=yes culture=toros_mountain }
 	2662.1.1={
 		prestige=500
@@ -1821,6 +1832,7 @@
 	trait=ambitious
 	trait=deceitful
 	father=2202128
+	mother=2202418
 	2317.10.2={birth=yes}
 	2377.5.17={death=yes}
 }
@@ -2425,11 +2437,16 @@
 }
 2202203={
 	name="Gündüz" #ruler of istanbul who was slain by bahattin
-	dynasty=2057212
+	dynasty=2057212 #Telli
 	culture=rumelian
 	religion=ruhi
 	trait=ruthless
 	trait=deceitful
+	trait=duelist
+	trait=cruel
+	trait=proud
+	father=2202409
+	mother=2202428
 	2218.11.16={birth=yes}
 	2260.3.12={death={death_reason=death_duel killer=2202196}}
 }
@@ -4543,4 +4560,345 @@
 	father=2202068
 	mother=2202398
 	2643.3.1={birth=yes}
+}
+2202401={
+	name="Mümtaz"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=sunni
+	trait=legendary
+	occluded=yes
+	trait=hanafi
+	2000.10.28={birth=yes}
+	2063.2.26={death=yes}
+}
+2202402={
+	name="Davut"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=sunni
+	trait=patient
+	trait=craven
+	trait=hanafi
+	father=2202401
+	2030.10.18={birth=yes}
+	2105.12.29={death=yes}
+}
+2202403={
+	name="Iskender"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=sunni
+	trait=patient
+	trait=content
+	trait=hanafi
+	father=2202402
+	2058.12.2={birth=yes}
+	2129.2.15={death=yes}
+}
+2202404={
+	name="Kubilay"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=sunni
+	trait=honorable
+	trait=hanafi
+	father=2202403
+	2085.1.18={birth=yes}
+	2151.11.28={death=yes}
+}
+2202405={
+	name="Sinan"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=naqshbandi
+	trait=honorable
+	trait=zealous
+	father=2202404
+	2110.1.30={birth=yes}
+	2184.1.4={death=yes}
+}
+2202406={
+	name="Yüksel"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=naqshbandi
+	trait=honorable
+	trait=zealous
+	trait=is_fat
+	father=2202405
+	2134.1.30={birth=yes}
+	2187.1.4={death={death_reason=death_trait}}
+}
+2202407={
+	name="Dürriye"
+	female=yes
+	dynasty=1824086 #Anabtawi
+	culture=west_anatolian
+	religion=naqshbandi
+	father=2202119
+	2138.10.25={birth=yes}
+	2158.1.1={add_spouse=2202406}
+	2186.3.3={death=yes}
+}
+2202408={
+	name="Abdülcelil"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	trait=cynical
+	father=2202406
+	mother=2202407
+	2167.7.5={birth=yes}
+	2232.4.14={death=yes}
+}
+2202409={
+	name="Hüsamettin"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	trait=cynical
+	trait=ambitious
+	trait=greedy
+	trait=midas_touched
+	father=2202408
+	2189.3.29={birth=yes}
+	2244.8.19={death={death_reason=death_battle killer=2202202}}
+}
+2202410={
+	name="Levent"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	trait=cynical
+	trait=ambitious
+	trait=shrewd
+	trait=one_eyed
+	trait=midas_touched
+	father=2202203
+	2242.12.3={birth=yes}
+	2291.12.9={death=yes}
+}
+2202411={
+	name="Kenan"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	trait=content
+	trait=midas_touched
+	trait=shrewd
+	trait=honorable
+	father=2202410
+	2263.11.2={birth=yes}
+	2331.10.2={death=yes}
+}
+2202412={
+	name="Abdülmecit"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	father=2202411
+	2287.10.16={birth=yes}
+	2347.10.29={death=yes}
+}
+2202413={
+	name="Enver"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	father=2202412
+	2310.8.30={birth=yes}
+	2378.12.28={death=yes}
+}
+2202414={
+	name="Kadri"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	father=2202415
+	2370.9.4={birth=yes}
+	2414.3.25={death={death_reason=death_battle}}
+}
+2202415={
+	name="Abdülmecit"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	father=2202413
+	2335.10.28={birth=yes}
+	2366.11.24={death={death_reason=death_battle}}
+}
+2202416={
+	name="Cihangir"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	father=2202414
+	2397.10.25={birth=yes}
+	2449.12.14={death={death_reason=death_accident_fall}}
+}
+2202417={
+	name="Muratcan"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	father=2202416
+	2418.5.10={birth=yes}
+	2458.6.28={death={death_reason=death_execution_impaling killer=2202171}}
+}
+2202418={
+	name="Katre"
+	female=yes
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	father=2202411
+	2290.5.4={birth=yes}
+	2315.1.1={add_spouse=2202128}
+	2334.9.14={death=yes}
+}
+2202419={
+	name="Babürshah"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	father=2202417
+	trait=depressed
+	trait=familyperson
+	2442.5.10={birth=yes}
+	2483.6.28={death={death_reason=death_trait}}
+}
+2202420={
+	name="Müshfik"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	father=2202419
+	trait=wroth
+	trait=honest
+	2459.6.28={birth=yes}
+	2475.11.2={death={death_reason=death_execution_impaling killer=2202172}}
+}
+2202421={
+	name="Necmettin"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	father=2202419
+	trait=ambitious
+	trait=proud
+	trait=brilliant_strategist
+	2466.8.17={birth=yes}
+	2538.4.11={death=yes}
+}
+2202422={
+	name="Müjdat"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	father=2202421
+	2489.2.22={birth=yes}
+	2553.1.30={death=yes}
+}
+2202423={
+	name="Adem"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	father=2202422
+	trait=craven
+	trait=content
+	2514.7.17={birth=yes}
+	2562.5.21={death={death_reason=death_murder killer=2202048}}
+}
+2202424={
+	name="Ferzan"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	father=2202423
+	trait=has_tuberculosis
+	trait=ambitious
+	2537.7.17={birth=yes}
+	2570.5.21={death={death_reason=death_trait}}
+}
+2202425={
+	name="Abdülmecit"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=sunni
+	father=2202424
+	trait=mastermind_theologian
+	trait=zealous
+	trait=faqih
+	trait=hajjaj
+	trait=hanafi
+	2561.7.17={birth=yes}
+	2636.5.21={death=yes}
+}
+2202426={
+	name="Nusret"
+	dynasty=2057212 #Telli
+	culture=rumelian
+	religion=ruhi
+	father=2202423
+	trait=zealous
+	trait=familyperson
+	trait=hajjaj
+	2540.1.2={birth=yes}
+	2582.1.1={add_spouse=3603095}
+	2619.1.23={death=yes}
+}
+2202427={
+	name="Mecit"
+	dynasty=2074067 #Türkkan
+	culture=toros_mountain
+	religion=naqshbandi
+	father=2202140
+	2170.4.16={birth=yes}
+	2235.11.8={death=yes}
+}
+2202428={
+	name="Shükriye"
+	female=yes
+	dynasty=2074067 #Türkkan
+	culture=toros_mountain
+	religion=naqshbandi
+	father=2202427
+	2197.10.30={birth=yes}
+	2216.1.1={add_spouse=2202409}
+	2248.8.25={death=yes}
+}
+2202429={
+	name="Mehmet"
+	dynasty=2057212 #Telli
+	culture=masri
+	religion=sunni
+	father=2202425
+	mother=3603095
+	trait=content
+	trait=kind
+	trait=hanafi
+	2587.10.15={birth=yes
+		culture=rumelian}
+	2648.9.13={death=yes}
+}
+2202430={
+	name="Yusuf"
+	dynasty=2057212 #Telli
+	culture=masri
+	religion=sunni
+	trait=hanafi
+	father=2202429
+	2611.7.16={birth=yes
+		culture=rumelian}
+}
+2202431={
+	name="Ertughrul"
+	father=2202048
+	dynasty=2057009 #Osmanoghlu
+	culture=rumelian
+	religion=naqshbandi
+	2558.6.12={birth=yes}
+	2614.9.10={death=yes}
 }
