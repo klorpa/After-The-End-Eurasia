@@ -3849,7 +3849,7 @@
 }
 1991252={
 	name="Maksim"
-	dynasty=1854061 #Vambolt
+	dynasty=1856061 #Vambolt
 	culture=kaliningradyets
 	religion=proletcult
 	trait=flamboyant_schemer
@@ -3918,7 +3918,7 @@
 }
 1991258={
 	name="Denis"
-	dynasty=1854061 #Vambolt
+	dynasty=1856061 #Vambolt
 	culture=ossi
 	religion=proletcult
 	trait=intricate_webweaver
@@ -3930,7 +3930,7 @@
 }
 1991259={
 	name="German"
-	dynasty=1854061 #Vambolt
+	dynasty=1856061 #Vambolt
 	culture=kaliningradyets
 	religion=proletcult
 	trait=playful
@@ -3943,7 +3943,7 @@
 1991260={
 	name="Olga"
 	female=yes
-	dynasty=1854061 #Vambolt
+	dynasty=1856061 #Vambolt
 	culture=kaliningradyets
 	religion=proletcult
 	trait=haughty
@@ -4126,6 +4126,7 @@
 	trait=organizer
 	trait=slow
 	trait=clubfooted
+	give_nickname=nick_the_old
 	father=1991275
 	2603.8.3={birth=yes}
 }
@@ -4625,6 +4626,7 @@
 1991316={
 	name="Zofia" 
 	dynasty=0
+	female=yes
 	culture=wielkopolan
 	religion=chronicler
 	trait=charismatic_negotiator
@@ -4633,7 +4635,6 @@
 }
 1991317={
 	name="Zachary" 
-	female=yes
 	dynasty=1822093 #Tuwim
 	culture=yiddish
 	religion=haredi
@@ -4909,147 +4910,483 @@
 	religion=mariavite
 	2631.4.28={birth=yes}
 }
-1991342 = {
-	name = "Gregorius"
-	culture = slovak
-	religion = mariavite
-	2621.1.1 = {birth = yes}
+1991342={
+	name="Gregorius"
+	culture=slovak
+	religion=mariavite
+	2621.1.1={birth=yes}
 }
-1991343 = {
-	name = "Waldemar"
-	dynasty = 2129221
-	culture = silesian
-	religion = mariavite
-	father = 1991344
-	mother = 1991345
-	2629.3.10 = {birth = yes}
-	disallow_random_traits = yes
-	trait = indulgent_wastrel
-	trait = robust
-	trait = dull
-	trait = musician
-	trait = kind
-	trait = brave
-	trait = honest
-	trait = pilgrim
-	trait = defensive_leader
-	2650.4.12 = {add_spouse = 1991346}
+1991343={
+	name="Woldemar"
+	dynasty=2129221 #Szeja-Bibersztajn
+	culture=silesian
+	religion=mariavite
+	father=1991344
+	mother=1991345
+	disallow_random_traits=yes
+	trait=indulgent_wastrel
+	trait=baptized_by_pope
+	trait=robust
+	trait=dull
+	trait=musician
+	trait=kind
+	trait=brave
+	trait=honest
+	trait=pilgrim
+	trait=defensive_leader
+	2629.9.2={birth=yes}
+	2650.4.12={add_spouse=1991346}
+	2660.1.1={effect={add_friend=1991011}}
 }
-1991344 = {
-	name = "Ferdynand"
-	dynasty = 2129221
-	culture = silesian
-	religion = mariavite
-	2599.1.20 = {birth = yes}
-	disallow_random_traits = yes
-	trait = brilliant_strategist
-	trait = reclusive
-	trait = genius
-	trait = drunkard
-	trait = possessed
-	trait = uncouth
-	trait = gamer
-	trait = mystic
-	trait = slothful
-	trait = cynical
-	trait = gregarious
-	trait = siege_leader
-	2620.4.1 = {add_spouse = 1991345}
-	2660.1.20 ={add_rival = 1991352}
+1991344={
+	name="Ferdynand"
+	dynasty=2129221 #Szeja-Bibersztajn
+	culture=silesian
+	religion=mariavite
+	2599.1.20={birth=yes}
+	disallow_random_traits=yes
+	trait=brilliant_strategist
+	trait=self_crowned
+	trait=reclusive
+	trait=genius
+	trait=drunkard
+	trait=possessed
+	trait=uncouth
+	trait=gamer
+	trait=mystic
+	trait=slothful
+	trait=cynical
+	trait=gregarious
+	trait=siege_leader
+	father=1991355
+	2620.4.1={add_spouse=1991345}
+	2660.1.20={add_rival=1991352}
 }
-1991345 = {
-	name = "Halina"
-	female = yes
-	culture = silesian
-	religion = mariavite
-	2606.2.20 = {birth = yes}
-	2620.4.1 = {add_spouse = 1991346}
+1991345={
+	name="Halina"
+	dynasty=2131004 #Kipiel
+	female=yes
+	culture=malopolan
+	religion=mariavite
+	trait=martial_cleric
+	trait=physician
+	trait=shrewd
+	trait=diligent
+	trait=socializer
+	2606.2.20={birth=yes}
+	2620.4.1={add_spouse=1991346}
 }
-1991346 = {
-	name = "Jola"
-	dynasty = 2124004
-	female = yes
-	culture = odrzan
-	religion = chronicler
-	2631.3.4 = {birth = yes}
-	disallow_random_traits = yes
-	trait = flamboyant_schemer
-	trait = groomed
-	trait = seductress
-	trait = falconer
-	trait = lustful
-	trait = greedy
-	trait = content
-	trait = gregarious
-	2650.4.12 = {add_spouse = 1991343}
+1991346={
+	name="Jola"
+	dynasty=2124004
+	female=yes
+	culture=odrzan
+	religion=chronicler
+	disallow_random_traits=yes
+	trait=flamboyant_schemer
+	trait=groomed
+	trait=seductress
+	trait=falconer
+	trait=lustful
+	trait=greedy
+	trait=content
+	trait=gregarious
+	2631.1.30={birth=yes}
+	2650.4.12={add_spouse=1991343}
 }
-1991347 = {
-	name = "Fryderyk"
-	dynasty = 2129221
-	culture = silesian
-	religion = mariavite
-	father = 1991343
-	mother = 1991346
-	2656.3.4 = {birth = yes}
+1991347={
+	name="Frideryk"
+	dynasty=2129221 #Szeja-Bibersztajn
+	culture=silesian
+	religion=mariavite
+	trait=quick
+	father=1991343
+	mother=1991346
+	2656.10.13={birth=yes}
+	2666.1.1={effect={add_betrothal=1958354}}
 }
-1991348 = {
-	name = "Malgorzata"
-	dynasty = 2129221
-	female = yes
-	culture = silesian
-	religion = mariavite
-	father = 1991343
-	mother = 1991346
-	2658.3.4 = {birth = yes}
+1991348={
+	name="Greta"
+	dynasty=2129221 #Szeja-Bibersztajn
+	female=yes
+	culture=silesian
+	religion=mariavite
+	father=1991343
+	mother=1991346
+	2658.8.13={birth=yes}
+	2666.1.1={effect={add_betrothal=1991021}}
 }
-1991349 = {
-	name = "Wilem"
-	dynasty = 2129221
-	culture = silesian
-	religion = mariavite
-	father = 1991343
-	mother = 1991346
-	2660.3.4 = {birth = yes}
+1991349={
+	name="Wilem"
+	dynasty=2129221 #Szeja-Bibersztajn
+	culture=silesian
+	religion=mariavite
+	father=1991343
+	mother=1991346
+	2660.12.9={birth=yes}
 }
-1991350 = {
-	name = "Gustlik"
-	dynasty = 2129222
-	culture = silesian
-	religion = mariavite
-	2630.2.1 = {birth = yes}
-	
+1991350={
+	name="Gustlik"
+	dynasty=2129222
+	culture=silesian
+	religion=mariavite
+	trait=skilled_tactician
+	trait=shrewd
+	trait=giant
+	trait=kind
+	trait=humble
+	trait=wroth
+	trait=honest
+	trait=siege_leader
+	father=1991362
+	2627.2.1={birth=yes}
+	2650.7.24={effect={set_character_flag=no_historical_family}}
 }
-1991351 = {
-	name = "Karol"
-	dynasty = 2129223
-	culture = moravian
-	religion = mariavite
-	2637.3.24 = {birth = yes}
+1991351={
+	name="Petr"
+	dynasty=2150001 #Nohavica
+	culture=moravian
+	religion=mariavite
+	trait=grey_eminence
+	trait=musician
+	trait=strong
+	trait=socializer
+	trait=pilgrim
+	2605.3.24={birth=yes}
 }
-1991352 = {
-	name = "Marian"
-	dynasty = 2124005
-	culture = odrzan
-	religion = mariavite
-	2627.6.14 = {birth = yes}
-	2655.1.20 ={add_spouse = 1991353} 
-	2660.2.24 ={add_rival = 1991344}
+1991352={
+	name="Marian"
+	dynasty=2124005
+	culture=odrzan
+	religion=mariavite
+	trait=elusive_shadow
+	trait=baptized_by_pope
+	trait=schemer
+	trait=patient
+	trait=temperate
+	trait=envious
+	trait=deceitful
+	trait=paranoid
+	trait=erudite
+	2588.11.14={birth=yes}
+	2655.1.20={add_spouse=1991353}
+	2660.2.24={event={add_rival=1991344}}
 }
-1991353 = {
-	name = "Olena"
-	dynasty = 2124006
-	female = yes
-	culture = odrzan
-	religion = mariavite
-	2636.1.24 = {birth = yes}
-	2655.1.20 ={add_spouse = 1991352} 
+1991353={
+	name="Olena"
+	dynasty=2124006
+	female=yes
+	culture=odrzan
+	religion=mariavite
+	trait=indulgent_wastrel
+	trait=bisexual
+	trait=shrewd
+	trait=authoritative
+	trait=cruel
+	trait=cynical
+	trait=greedy
+	trait=chaste
+	trait=hedonist
+	trait=hunter
+	2606.1.24={birth=yes}
 }
-1991354 = {
-	name = "Henryk"
-	dynasty = 2124005
-	culture = odrzan
-	religion = mariavite
-	father = 1991352
-	mother = 1991353
-	2660.3.27 = {birth = yes}
+1991354={
+	name="Henryk"
+	dynasty=2124005
+	culture=odrzan
+	religion=mariavite
+	father=1991352
+	mother=1991353
+	2660.3.27={birth=yes}
+}
+1991355={ #William I of Silesia
+	name="Wilem"
+	dynasty=2129221 #Szeja-Bibersztajn
+	culture=silesian
+	religion=mariavite
+	father=1991356
+	2574.6.30={birth=yes}
+	2635.1.2={death=yes}
+}
+1991356={ #Ferdinand III of Silesia
+	name="Ferdynand"
+	dynasty=2129221 #Szeja-Bibersztajn
+	culture=silesian
+	religion=mariavite
+	father=1991357
+	2542.8.13={birth=yes}
+	2590.8.28={death=yes}
+}
+1991357={ #Frederick I of Silesia
+	name="Frideryk"
+	dynasty=2129221 #Szeja-Bibersztajn
+	culture=silesian
+	religion=mariavite
+	father=1991358
+	2518.8.18={birth=yes}
+	2570.5.15={death=yes}
+}
+1991358={ #Ferdinand II of Silesia
+	name="Ferdynand"
+	dynasty=2129221 #Szeja-Bibersztajn
+	culture=silesian
+	religion=mariavite
+	father=1991359
+	2487.6.11={birth=yes}
+	2549.8.29={death=yes}
+}
+1991359={ #Waldemar I of Silesia
+	name="Woldemar"
+	dynasty=2129221 #Szeja-Bibersztajn
+	culture=silesian
+	religion=mariavite
+	father=1991360
+	2461.4.21={birth=yes}
+	2513.8.4={death=yes}
+}
+1991360={ #Ferdinand I of Silesia
+	name="Ferdynand"
+	dynasty=2129221 #Szeja-Bibersztajn
+	culture=silesian
+	religion=mariavite
+	2438.6.29={birth=yes}
+	2492.9.1={death=yes}
+}
+1991361={
+	name="Barbora"
+	female=yes
+	culture=silesian
+	religion=mariavite
+	trait=midas_touched
+	trait=fair
+	trait=scholar
+	trait=pregnancy_finishing
+	2639.3.16={birth=yes}
+	2660.1.1={add_spouse=1991350}
+	2665.12.14={
+		effect={
+			c_1991350={
+				ROOT={impregnate=PREV}}
+		}
+	}
+}
+1991362={
+	name="Gustlik" #Gustlik VI
+	dynasty=2129222
+	culture=silesian
+	religion=mariavite
+	father=1991363
+	2604.4.22={birth=yes}
+	2649.11.22={death=yes}
+}
+1991363={
+	name="Gustlik" #Gustlik V
+	dynasty=2129222
+	culture=silesian
+	religion=mariavite
+	father=1991364
+	2581.2.13={birth=yes}
+	2639.3.13={death=yes}
+}
+1991364={
+	name="Gustlik" #Gustlik IV
+	dynasty=2129222
+	culture=silesian
+	religion=mariavite
+	father=1991365
+	2572.5.14={birth=yes}
+	2611.2.20={death=yes}
+}
+1991365={
+	name="Gustlik" #Gustlik III
+	dynasty=2129222
+	culture=silesian
+	religion=mariavite
+	father=1991366
+	2543.6.24={birth=yes}
+	2608.6.18={death=yes}
+}
+1991366={
+	name="Gustlik" #Gustlik II
+	dynasty=2129222
+	culture=silesian
+	religion=mariavite
+	father=1991367
+	2511.8.2={birth=yes}
+	2576.6.3={death=yes}
+}
+1991367={
+	name="Gustlik" #Gustlik I
+	dynasty=2129222
+	culture=silesian
+	religion=mariavite
+	2482.12.11={birth=yes}
+	2536.12.2={death=yes}
+}
+1991368={
+	name="Hana"
+	female=yes
+	dynasty=2150000 #Šavrda
+	culture=moravian
+	religion=oasite
+	trait=underhanded_rogue
+	trait=poet
+	trait=familyperson
+	2601.7.26={birth=yes}
+	2625.1.1={add_spouse=1991351}
+}
+1991369={
+	name="Lubomír"
+	dynasty=2150001 #Nohavica
+	culture=moravian
+	religion=mariavite
+	trait=twin
+	trait=charismatic_negotiator
+	trait=musician
+	trait=poet
+	2621.4.19={birth=yes}
+}
+1991370={
+	name="Jaromír"
+	dynasty=2150001 #Nohavica
+	culture=moravian
+	religion=oasite
+	trait=twin
+	trait=intricate_webweaver
+	trait=musician
+	trait=poet
+	2621.4.19={birth=yes}
+}
+1991371={
+	name="Mina"
+	female=yes
+	dynasty=2129223 #Sordyl
+	culture=silesian
+	religion=lutheran
+	trait=pregnancy_finishing
+	2625.6.2={birth=yes}
+	2645.1.1={add_spouse=1991369}
+	2665.12.14={
+		effect={
+			c_1991369={
+				ROOT={impregnate=PREV}}
+		}
+		effect={add_claim=c_beskidenland}
+	}
+}
+1991372={
+	name="Eva"
+	dynasty=2150001 #Nohavica
+	culture=moravian
+	religion=lutheran
+	trait=mastermind_theologian
+	trait=theologian
+	trait=strong
+	trait=poet
+	trait=mystic
+	2646.1.5={birth=yes}
+}
+1991373={
+	name="Sulík"
+	dynasty=2150002 #Kropacz
+	culture=moravian
+	religion=oasite
+	father=1991380
+	2652.1.27={birth=yes}
+	2666.1.1={add_spouse=1991372}
+}
+1991374={
+	name="Richard"
+	dynasty=2150001 #Nohavica
+	culture=moravian
+	religion=oasite
+	trait=tough_soldier
+	trait=musician
+	trait=hunter
+	father=1991370
+	mother=1991375
+	2647.8.10={birth=yes}
+}
+1991375={
+	name="Hermína"
+	female=yes
+	dynasty=2150003 #Burian
+	father=1991379
+	culture=moravian
+	religion=oasite
+	trait=detached_priest
+	trait=cynical
+	trait=gregarious
+	2619.7.22={birth=yes}
+	2641.1.1={add_spouse=1991370}
+}
+1991376={
+	name="Eliza"
+	dynasty=0
+	female=yes
+	culture=romani
+	religion=lutheran
+	2586.11.6={birth=yes}
+	2615.2.10={death={death_reason=death_childbirth killer=1991377}}
+}
+1991377={
+	name="Falubaz"
+	dynasty=2124005
+	culture=odrzan
+	religion=mariavite
+	trait=legit_bastard
+	trait=fortune_builder
+	trait=quick
+	trait=poet
+	trait=gregarious
+	trait=gamer
+	2615.2.10={birth=yes}
+}
+1991378={
+	name="František"
+	dynasty=2150003 #Burian
+	culture=moravian
+	religion=chronicler
+	father=1991379
+	trait=martial_cleric
+	trait=painter
+	trait=scholar
+	trait=erudite
+	trait=diligent
+	2623.2.11={birth=yes}
+}
+1991379={
+	name="Michal"
+	dynasty=2150003 #Burian
+	culture=moravian
+	religion=chronicler
+	2597.5.30={birth=yes}
+	2641.3.23={death=yes}
+}
+1991380={
+	name="Amos"
+	dynasty=2150002 #Kropacz
+	culture=moravian
+	religion=oasite
+	trait=mastermind_theologian
+	trait=pious
+	trait=scholar
+	trait=weak
+	trait=diligent
+	trait=humble
+	trait=kind
+	trait=trusting
+	trait=just
+	trait=content
+	trait=pilgrim
+	father=1991381
+	2629.6.10={birth=yes}
+}
+1991381={
+	name="Zbynek"
+	dynasty=2150002 #Kropacz
+	culture=moravian
+	religion=mariavite
+	2600.5.21={birth=yes}
+	2649.5.28={death=yes}
 }
