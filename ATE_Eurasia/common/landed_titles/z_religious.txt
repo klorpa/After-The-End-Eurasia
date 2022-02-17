@@ -1173,3 +1173,35 @@ d_nestorian = {
 		Maremmeh Pethion Sabrisho Shemon Sargis Surin Theodosios Timotheos Yahballaha Yohannan
 	}
 }
+d_quinto = {
+	color = { 237 18 83 }
+	color2={ 220 220 0 }
+	
+	capital = 167 #Lisboa
+	creation_requires_capital = no
+	
+	landless = no
+	
+	title = "NAVEGADOR"
+	foa = "NAVEGADOR_FOA"
+	title_prefix = "NAVEGADOR_DA"
+	short_name = yes
+	
+	caliphate = yes
+	
+	allow = {
+		religion = quinto
+		piety = 150
+		wealth = 100
+	}
+	
+	controls_religion = quinto
+	
+	religion = quinto
+	
+	primary = no 
+	
+	dignity = 200
+
+	dynasty_title_names = no 
+}
