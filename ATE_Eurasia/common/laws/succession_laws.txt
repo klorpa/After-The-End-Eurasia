@@ -1757,7 +1757,10 @@ gender_laws = {
 				holder_scope = {
 					OR = {
 						religion = haredi
-						religion_group = muslim
+						AND = {
+							religion_group = muslim
+							NOT = {religion = ruhi}
+						}
 					}
 					primary_title = {
 						NOT = { has_law = status_of_women_3 }
@@ -1842,6 +1845,7 @@ gender_laws = {
 						religion = haskalah
 						religion = neuhumanist
 						religion = glorian
+						religion = ruhi
 						has_religion_feature = religion_equal
 					}
 				}
@@ -1877,6 +1881,13 @@ gender_laws = {
 				factor = 100
 				holder_scope = {
 					has_religion_feature = religion_equal
+				}
+			}
+			
+			modifier = {
+				factor = 100
+				holder_scope = {
+					religion = ruhi
 				}
 			}
 		}
