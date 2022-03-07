@@ -1206,3 +1206,34 @@ d_quinto = {
 
 	dynasty_title_names = no 
 }
+
+d_kozachina = {
+	color = { 0.756 0.658 0.023 }
+	color2={ 220 220 0 }
+	
+	capital = 796 #Mariupol
+	
+	caliphate = yes
+	
+	title = "HETMAN"
+	foa = "HETMAN_FOA"
+	title_prefix = "HETMAN_DA"
+	
+	short_name = yes
+	#location_ruler_title = yes
+
+	# Always exists
+	landless = no
+	
+	# Controls a religion
+	controls_religion = kozachina
+	
+	religion = kozachina
+	
+	dignity = 200
+	
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+
+
+}
