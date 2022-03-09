@@ -1302,6 +1302,7 @@
     trait=brave
 	trait=temperate
 	trait=inspiring_leader
+	father=1802106
 	2631.9.11={birth=yes}
 	2655.1.15={add_matrilineal_spouse=1802090}
 }
@@ -2073,4 +2074,62 @@
 	trait=skilled_tactician
 	2644.9.10={birth=yes}
 	2660.1.1={employer=1802014}
+}
+
+#As Kaan?s army continued to suffer defeats and Emin?s army
+#continued to grow, in 2435 a general revolt of the Alevis, Kurds, Zazas further tore Eastern Anatolia to
+#pieces, fighting both Emin and Turkey, the domino effect leading the Iraqi parts of the empire to
+#simply declare independence without resistance. By the end of 2435 Turkey most of the Caucasus as
+#communication between the Capital and the easternmost part of the empire became impossible due to
+#the war, Armenia only remained to resist against the Mahdi claimant. In 2436
+
+1802105={ #Duke Davit I Ghazaryan of Yerevan
+    name="Nazar"
+    dynasty=1802109 #Mehruni 
+    culture=armenian
+    religion=miaphysite
+    martial=14
+    diplomacy=8
+    stewardship=8
+    intrigue=11
+    learning=8
+	trait=school_thaddeus
+	trait=brilliant_strategist
+	trait=genius
+	trait=brave
+	trait=regularis	
+	trait=pious
+	trait=ambitious
+	trait=temperate
+	trait=diligent
+    2398.6.25={birth=yes}
+	2461.9.15={death=yes}
+}
+
+#Azimzade 2054212
+#Mehruni 1802109
+
+#Davit Mehruni c_yerevan
+#Hrachik I Mehruni e_caucasia
+
+1802106={ #Duke Luka IV of Kakheti
+    name="Luka"
+    dynasty=2051125 #Bolkvadze
+    culture=georgian
+    religion=orthodox
+    martial=11
+    diplomacy=10
+    stewardship=5
+    intrigue=7
+    learning=4
+	trait=skilled_tactician
+	trait=fair
+	trait=hunter
+	trait=brave
+	trait=diligent
+	trait=proud
+	trait=pious
+	trait=humble
+	2587.5.2={birth=yes}
+	2648.9.12={death=yes}
 }
