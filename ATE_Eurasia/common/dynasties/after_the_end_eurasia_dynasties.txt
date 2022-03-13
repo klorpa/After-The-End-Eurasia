@@ -20811,7 +20811,20 @@ coat_of_arms = {
 2055090 = { name="Cengiz" culture=west_anatolian }
 2055091 = { name="Atik" culture=west_anatolian }
 2055092 = { name="Türk" culture=west_anatolian }
-2055093 = { name="Sarikaya" culture=west_anatolian }
+2055093 = { name="Sarikaya" culture=west_anatolian 
+	coat_of_arms = {
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2055094 = { name="Ertürk" culture=west_anatolian }
 2055095 = { name="Meuz" culture=west_anatolian }
 2055096 = { name="Kaçar" culture=west_anatolian }
@@ -21865,20 +21878,7 @@ coat_of_arms = {
 2060131 = { name="Karakoç" culture=black_sea }
 2060132 = { name="Akçay" culture=black_sea }
 2060133 = { name="Gökdemir" culture=black_sea }
-2060134 = { name="Sarikaya" culture=black_sea 
-	coat_of_arms = {
-		religion = sunni
-		template = 0
-		layer = {
-			texture = 0
-			texture_internal = 31
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
-}
+2060134 = { name="Sarikaya" culture=black_sea }
 2060135 = { name="Okumush" culture=black_sea }
 2060136 = { name="Türk" culture=black_sea }
 2060137 = { name="Memish" culture=black_sea }
@@ -22388,7 +22388,7 @@ coat_of_arms = {
 		}
 	}
 }
-2065002 = { name="Felekoglu" culture=turcoman }
+2065002 = { name="Felekoghlu" culture=turcoman }
 2065003 = { name="Baharlou" culture=turcoman }
 2065004 = { name="Saadlu" culture=turcoman }
 2065005 = { name="Karamanlu" culture=turcoman }
@@ -22411,6 +22411,14 @@ coat_of_arms = {
 2065020 = { name="Askari" culture=turcoman }
 2065021 = { name="Hashimi" culture=turcoman }
 2065022 = { name="Bayati" culture=turcoman }
+2065023 = { name="Ergeç" culture=turcoman }
+2065024 = { name="Bayraktar" culture=turcoman }
+2065025 = { name="Hasan" culture=turcoman }
+2065026 = { name="Saatçi" culture=turcoman }
+2065027 = { name="Omar" culture=turcoman }
+2065028 = { name="Shakelî" culture=turcoman }
+2065029 = { name="Ghassani" culture=turcoman }
+2065030 = { name="Erbil" culture=turcoman }
 
 2066000 = { name="Kezêban" culture=kurdish 
 	coat_of_arms = { 
@@ -29553,76 +29561,129 @@ coat_of_arms = {
 2132194 = { name="Ünal" culture=zaza }
 2132195 = { name="Yenipinar" culture=zaza }
 
-2133000 = { name="Hasan" culture=gorani }
-2133001 = { name="Bedlîsî" culture=gorani }
-2133002 = { name="Qadirî" culture=gorani }
-2133003 = { name="Derdiyok" culture=gorani }
-2133004 = { name="Zîrek" culture=gorani }
-2133005 = { name="Hacibî" culture=gorani }
-2133006 = { name="Îlxanîzade" culture=gorani }
-2133007 = { name="Feyznejad" culture=gorani }
-2133008 = { name="Muradî" culture=gorani }
-2133009 = { name="Miftîzade" culture=gorani }
-2133010 = { name="Bidlîsî" culture=gorani }
-2133011 = { name="Îsfexani" culture=gorani }
-2133012 = { name="Yûsiv" culture=gorani }
-2133013 = { name="Bekirê" culture=gorani }
-2133014 = { name="Soreklî" culture=gorani }
-2133015 = { name="Mamlê" culture=gorani }
-2133016 = { name="Fetahiyan" culture=gorani }
-2133017 = { name="Berzencî" culture=gorani }
-2133018 = { name="Dost" culture=gorani }
-2133019 = { name="Ehmed" culture=gorani }
-2133020 = { name="Yehya" culture=gorani }
-2133021 = { name="Mirkan" culture=gorani }
-2133022 = { name="Hajo" culture=gorani }
-2133023 = { name="Mihemed" culture=gorani }
-2133024 = { name="Sa'id" culture=gorani }
-2133025 = { name="Taha" culture=gorani }
-2133026 = { name="Al-Hubbi" culture=gorani	religion = yazidi }
-2133027 = { name="Barzanî" culture=gorani	}
-2133028 = { name="Talabanî" culture=gorani	}
-2133029 = { name="Elî" culture=gorani	}
-2133030 = { name="Laçîn" culture=gorani }
-2133031 = { name="Kahraman" culture=gorani }
-2133032 = { name="Bonni" culture=gorani }
-2133033 = { name="Eladîn" culture=gorani }
-2133034 = { name="Salim" culture=gorani }
-2133035 = { name="Akrawi" culture=gorani }
-2133036 = { name="Shoresh" culture=gorani }
-2133037 = { name="Caf" culture=gorani }
-2133038 = { name="Barwari" culture=gorani }
-2133039 = { name="Salih" culture=gorani }
-2133040 = { name="Zêbarî" culture=gorani }
-2133041 = { name="Debax" culture=gorani }
-2133042 = { name="Shishakli" culture=gorani }
-2133043 = { name="Shakelî" culture=gorani }
-2133044 = { name="Kerîm" culture=gorani }
-2133045 = { name="Hecî" culture=gorani }
-2133046 = { name="Bedirxan" culture=gorani }
-2133047 = { name="Islambuli" culture=gorani }
-2133048 = { name="Xelef" culture=gorani }
-2133049 = { name="Nûrsî" culture=gorani }
-2133050 = { name="Kurdî" culture=gorani }
-2133051 = { name="Secadî" culture=gorani }
-2133052 = { name="Cemshîdî" culture=gorani }
-2133053 = { name="Erdelanî" culture=gorani }
-2133054 = { name="Kurdistanî" culture=gorani }
-2133055 = { name="Sineyî" culture=gorani }
-2133056 = { name="Tawegozî" culture=gorani }
-2133057 = { name="Qulîzanî" culture=gorani }
-2133058 = { name="Sherefkendî" culture=gorani }
-2133059 = { name="Qasimlo" culture=gorani }
-2133060 = { name="Güven" culture=gorani }
-2133061 = { name="Mîrzengî" culture=gorani }
-2133062 = { name="Merîwanî" culture=gorani }
-2133063 = { name="Aslan" culture=gorani }
-2133064 = { name="Celîliyan" culture=gorani }
-2133065 = { name="Încekan" culture=gorani }
-2133066 = { name="Duran" culture=gorani }
-2133067 = { name="Zozanî" culture=gorani }
-2133068 = { name="Gernas" culture=gorani }
-2133069 = { name="Qubadî" culture=gorani }
+2133000 = { name="Kakebave" culture=gorani }
+2133001 = { name="Elewî" culture=gorani }
+2133002 = { name="Mukriyanî" culture=gorani }
+2133003 = { name="Huseynî" culture=gorani }
+2133004 = { name="Reshîdî" culture=gorani }
+2133005 = { name="Luqmanî" culture=gorani }
+2133006 = { name="Feyznejad" culture=gorani }
+2133007 = { name="Berzencî" culture=gorani }
+2133008 = { name="Îlxanîzade" culture=gorani }
+2133009 = { name="Derakhshanî" culture=gorani }
+2133010 = { name="Ferîqî" culture=gorani }
+2133011 = { name="Hesenî" culture=gorani }
+2133012 = { name="Khosravi" culture=gorani }
+2133013 = { name="Omar" culture=gorani }
+2133014 = { name="Texteyî" culture=gorani }
+2133015 = { name="Hacibî" culture=gorani }
+2133016 = { name="Qubadî" culture=gorani }
+2133017 = { name="Tûloyî" culture=gorani }
+2133018 = { name="Yûnisî" culture=gorani }
+2133019 = { name="Erdelanî" culture=gorani }
+2133020 = { name="Ebdullah" culture=gorani }
+2133021 = { name="Pashaî" culture=gorani }
+2133022 = { name="Rahmanpanah" culture=gorani }
+2133023 = { name="Yusîfianî" culture=gorani }
+2133024 = { name="Adab" culture=gorani }
+2133025 = { name="Azadpûr" culture=gorani }
+2133026 = { name="Xefûrî" culture=gorani }
+2133027 = { name="Pûr" culture=gorani }
+2133028 = { name="Kemendî" culture=gorani }
+2133029 = { name="Kamkar" culture=gorani }
+2133030 = { name="Xaliqî" culture=gorani }
+2133031 = { name="Meleksha" culture=gorani }
+2133032 = { name="Rezazî" culture=gorani }
+2133033 = { name="Rûhanî" culture=gorani }
+2133034 = { name="Bokanî" culture=gorani }
+2133035 = { name="Seîd" culture=gorani }
+2133036 = { name="Mîrza" culture=gorani }
+2133037 = { name="Kurdistanî" culture=gorani }
+2133038 = { name="Kenoleyî" culture=gorani }
+2133039 = { name="Dînewerî" culture=gorani }
+2133040 = { name="Rehmanî" culture=gorani }
+2133041 = { name="Rezaî" culture=gorani }
+2133042 = { name="Zarepûr" culture=gorani }
+2133043 = { name="Muradî" culture=gorani }
+2133044 = { name="Elî" culture=gorani }
+2133045 = { name="Kafashyan" culture=gorani }
+2133046 = { name="Hamedî" culture=gorani }
+2133047 = { name="Behramcî" culture=gorani }
+2133048 = { name="Fetahiyan" culture=gorani }
+2133049 = { name="Hewramî" culture=gorani }
+2133050 = { name="Cemshîdî" culture=gorani }
+2133051 = { name="Kelhûr" culture=gorani }
+2133052 = { name="Kirmashanî" culture=gorani }
+2133053 = { name="Mîrzade" culture=gorani }
+2133054 = { name="Nazerî" culture=gorani }
+2133055 = { name="Ceyhûnabadî" culture=gorani }
+2133056 = { name="Îlahî" culture=gorani }
+2133057 = { name="Pîrebab" culture=gorani }
+2133058 = { name="Beytûshî" culture=gorani }
+2133059 = { name="Suhrewerdî" culture=gorani }
+2133060 = { name="Qazî" culture=gorani }
+2133061 = { name="Hemedanî" culture=gorani }
+2133062 = { name="Miftîzade" culture=gorani }
+2133063 = { name="Sherefkendî" culture=gorani }
+2133064 = { name="Soleimani" culture=gorani }
+2133065 = { name="Nurî" culture=gorani }
+2133066 = { name="Mamlê" culture=gorani }
+2133067 = { name="Gulshenzade" culture=gorani }
+2133068 = { name="Pertewmah" culture=gorani }
+2133069 = { name="Paweyî" culture=gorani }
+2133070 = { name="Merdûxî" culture=gorani }
+2133071 = { name="Ehmed" culture=gorani }
+2133072 = { name="Askarî" culture=gorani }
+2133073 = { name="Fatah" culture=gorani }
+2133074 = { name="Kerîmî" culture=gorani }
+2133075 = { name="Mistefa" culture=gorani }
+2133076 = { name="Talebanî" culture=gorani }
+2133077 = { name="Dexîl" culture=gorani }
+2133078 = { name="Murad" culture=gorani }
+2133079 = { name="Resho" culture=gorani }
+2133080 = { name="Sofî" culture=gorani }
+2133081 = { name="Erbîlî" culture=gorani }
+2133082 = { name="Herîrî" culture=gorani }
+2133083 = { name="Xoshnaw" culture=gorani }
+2133084 = { name="Peshêw" culture=gorani }
+2133085 = { name="Pîrbal" culture=gorani }
+2133086 = { name="Salih" culture=gorani }
+2133087 = { name="Re'ûf" culture=gorani }
+2133088 = { name="Koyî" culture=gorani }
+2133089 = { name="Elyas" culture=gorani }
+2133090 = { name="Emîn" culture=gorani }
+2133091 = { name="Ismaîl" culture=gorani }
+2133092 = { name="Yusivî" culture=gorani }
+2133093 = { name="Zaxoyî" culture=gorani }
+2133094 = { name="Bapîr" culture=gorani }
+2133095 = { name="Goran" culture=gorani }
+2133096 = { name="Bêkes" culture=gorani }
+2133097 = { name="Fatah" culture=gorani }
+2133098 = { name="Herdî" culture=gorani }
+2133099 = { name="Xan" culture=gorani }
+2133100 = { name="Zekî" culture=gorani }
+2133101 = { name="Nebez" culture=gorani }
+2133102 = { name="Sahêbqiran" culture=gorani }
+2133103 = { name="Shaweys" culture=gorani }
+2133104 = { name="Ebdulazade" culture=gorani }
+2133105 = { name="Hesenpûr" culture=gorani }
+2133106 = { name="Ehmedzade" culture=gorani }
+2133107 = { name="Bîglêrî" culture=gorani }
+2133108 = { name="Erdebîlî" culture=gorani }
+2133109 = { name="Mukrî" culture=gorani }
+2133110 = { name="Muînî" culture=gorani }
+2133111 = { name="Elahî" culture=gorani }
+2133112 = { name="Îlhanîzade" culture=gorani }
+2133113 = { name="Ehmedeyn" culture=gorani }
+2133114 = { name="Xûsrevî" culture=gorani }
+2133115 = { name="Davudî" culture=gorani }
+2133116 = { name="Eyyûbiyan" culture=gorani }
+2133117 = { name="Welîzade" culture=gorani }
+2133118 = { name="Heyderî" culture=gorani }
+2133119 = { name="Letîfî" culture=gorani }
+2133120 = { name="Qadirî" culture=gorani }
+2133121 = { name="Kabulî" culture=gorani }
+2133122 = { name="Siltanî" culture=gorani }
 
 2134000 = { name="Astarabadi" culture=mazandarani }
 2134001 = { name="Hosseini" culture=mazandarani }

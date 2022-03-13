@@ -143,8 +143,12 @@ e_mongolia = {
 				color={ 211 175 95 }
 				color2={ 255 255 255 }
 				
-				b_uriastai = {}
-				b_balagar_gol = {}
+				b_uriastai = {
+				khalkha="Uliastai"
+					}
+				b_balagar_gol = {
+				khalkha="Balgargol"
+					}
 				b_dautnur = {}
 				b_bayanhua = {}
 				b_jirengol = {}
@@ -403,51 +407,110 @@ e_mongolia = {
 				color={ 185 178 20 }
 				color2={ 255 255 255 }
 				
-				b_xincheng = {}
-				b_huimin = {}
-				b_yuquan = {}
-				b_saihan = {}
-				b_togtoh = {}
-				b_tumed = {}
-				b_wuchuan = {}
-				b_qingshuihe = {}
-				b_horinger = {}
+				khorchin="Kökeqota"
+				khalkha="Khökh Khot"
+				
+				b_xincheng = {
+					khalkha="Shine Khot"
+					khorchin="Sin-e Qota"}
+				b_huimin = {
+					khalkha="Khoton Ardyn"
+					khorchin="Qotong Arad"}
+				b_yuquan = {
+					khalkha="Yuichuan"
+					khorchin="Iui chiuvan"}
+				b_saihan = {
+					khorchin="Sayiqan"}
+				b_togtoh = {
+					khalkha="Togtokh"
+					khorchin="Toghtaqu"}
+				b_tumed = {
+					khalkha="Tümed Züün"
+					khorchin="Tümed Jegün"}
+				b_wuchuan = {
+					khalkha="Üchuani"
+					khorchin="Üchuvan"}
+				b_qingshuihe = {
+					khalkha="Chinshuikhe"
+					khorchin="Chig Shüi He"}
+				b_horinger = {
+					khalkha="Khoringer"
+					khorchin="Qorin Ger"}
 			}
 			c_ordos = {
 				color={ 156 135 85 }
 				color2={ 255 255 255 }
 				
-				b_kangbashi = {}
-				b_dongsheng = {}
-				b_ejin_horo = {}
-				b_otog = {}
-				b_dalad = {}
-				b_jungar = {}
-				b_uxin = {}
-				b_hanggin = {}
+				b_kangbashi = {
+					khalkha="Khia Bagsh"
+					khorchin="Kiy-a baghsi"}
+				b_dongsheng = {
+					khorchin="Düngsheng"}
+				b_ejin_horo = {
+					khalkha="Ezen Khoroo"
+					khorchin="Ejin Qorogh"}
+				b_otog = {
+					khorchin="Otogh"}
+				b_dalad = {
+					khalkha="Dalt"}
+				b_jungar = {
+					khalkha="Züüngar"
+					khorchin="Jegünghar"}
+				b_uxin = {
+					khalkha="Ööshin"
+					khorchin="Üüsin"}
+				b_hanggin = {
+					khalkha="Khangin"
+					khorchin="Qangghin"}
 			}
 			c_bayannur = {
 				color={ 150 142 32 }
 				color2={ 255 255 255 }
 				
-				b_bayannur = {}
+				khorchin="Bayannaghur"
+				khalkha="Bayannuur"
+				
+				b_bayannur = {
+					khorchin="Bayannaghur"
+					khalkha="Bayannuur"}
 				b_shanba = {}
-				b_bayinbaolige = {}
-				b_longxingchang = {}
-				b_mona_uul = {}
-				b_haliut = {}
+				b_bayinbaolige = {
+					khorchin="Bayanbulag"
+					khalkha="Bayanbulag"}
+				b_longxingchang = {
+					khorchin="Longsinchan"
+					khalkha="Longsinchan"}
+				b_mona_uul = {
+					khalkha="Moni-Uul"}
+				b_haliut = {
+					khalkha="Khaliut"}
 				b_bayangol = {}
 			}
 			c_baotou = {
 				color={ 141 198 57 }
 				color2={ 255 255 255 }
 				
-				b_jiuyuan = {}
-				b_kundulun = {}
-				b_bayan_obo = {}
-				b_bailingmiao = {}
-				b_jinshan = {}
-				b_xilamuren = {}
+				khorchin="Bughutu"
+				khalkha="Bughat"
+				
+				b_jiuyuan = {
+					khorchin="Jiü yuvan"
+					khalkha="Longsinchan"}
+				b_kundulun = {
+					khorchin="Köndelen"
+					khalkha="Khöndlön"}
+				b_bayan_obo = {
+					khorchin="Bayan Obogh"
+					khalkha="Bayan Oboo"}
+				b_bailingmiao = {
+					khorchin="Bat Khaalga"
+					khalkha="Bat Khaalga"}
+				b_jinshan = {
+					khorchin="Chingshan"
+					khalkha="Chinsani"}
+				b_xilamuren = {
+					khorchin="Sheilamuren"
+					khalkha="Sheilamuren"}
 			}
 		}
 		
@@ -540,23 +603,42 @@ e_mongolia = {
 				color={ 184 176 86 }
 				color2={ 255 255 255 }
 				
-				b_erenhot = {}
-				b_saihantala = {}
-				b_mandulatu = {}
+				khalkha="Sönöd"
+				khorchin="Soned"
+				
+				b_erenhot = {
+					khorchin="Eriyen Qota"
+					khalkha="Ereen Khot"}
+				b_saihantala = {
+					khalkha="Saikhantal"}
+				b_mandulatu = {
+					khalkha="Mandalt"}
 				b_bayan_ula = {}
-				b_bayannaoer = {}
-				b_wurigentala = {}
-				b_zhurihe = {}
+				b_bayannaoer = {
+					khorchin="Bayannaghur"
+					khalkha="Bayannuur"}
+				b_wurigentala = {
+					khalkha="Uliastai"}
+				b_zhurihe = {
+					khalkha="Jurikhe"}
 			}
 			c_xilinhot = {
 				color={ 142 215 13 }
 				color2={ 255 255 255 }
 				
-				b_xilinhot = {}
-				b_bieli_gutai = {}
-				b_xiritala = {}
+				khorchin="Sili-yin hota"
+				khalkha="Shiliin Khot"
+				
+				b_xilinhot = {
+					khorchin="Sili-yin hota"
+					khalkha="Shiliin Khot"}
+				b_bieli_gutai = {
+					khalkha="Belgütei"}
+				b_xiritala = {
+					khalkha="Shiritara"}
 				b_chugulan = {}
-				b_baoligen = {}
+				b_baoligen = {
+					khalkha="Boligan"}
 				b_honggel_gol = {}
 			}
 		}
