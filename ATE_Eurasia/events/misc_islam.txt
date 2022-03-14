@@ -1391,14 +1391,174 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_join_jamia_1
+		
+		ai_chance = {
+        	factor = 33
+			modifier = {
+				OR = {
+					culture_group=turkic_karluk
+					culture_group=turkic_east
+					culture_group=assamese
+					culture=dargin
+					culture=lezgin
+					culture=ossetian
+					culture=nakh
+					culture=avar
+					culture_group=dravidian_north
+					culture_group=dravidian_south
+					culture_group=indo_aryan_central
+					culture_group=indo_aryan_east
+					culture_group=indo_aryan_north
+					culture_group=indo_aryan_south
+					culture_group=indo_aryan_west
+					culture=tajik
+					culture=pamiri
+					culture=gorani
+					culture=persian
+					culture=gilaki
+					culture=mazandarani
+					culture=lurs
+					culture=pashtun
+					culture=hazara
+					culture=nuristani
+					culture=baloch
+					culture=tat
+					culture=qashqai
+					culture=turkmen
+				}
+				factor=0
+			}
+		}
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { 
+					trait=zealous
+					OR = {
+						trait=mujaddidi
+						trait=ismailagha
+					}
+				}
+				religion=naqshbandi
+				NOT={trait=iskenderpasha}
+			}
+			add_trait = iskenderpasha
+		}
 		add_trait = iskenderpasha
 	}
 	option = {
 		name = EVTOPTB_join_jamia_1
+		
+		ai_chance = {
+        	factor = 33
+			modifier = {
+				OR = {
+					culture_group=turkic_karluk
+					culture_group=turkic_east
+					culture_group=assamese
+					culture=dargin
+					culture=lezgin
+					culture=ossetian
+					culture=nakh
+					culture=avar
+					culture_group=dravidian_north
+					culture_group=dravidian_south
+					culture_group=indo_aryan_central
+					culture_group=indo_aryan_east
+					culture_group=indo_aryan_north
+					culture_group=indo_aryan_south
+					culture_group=indo_aryan_west
+					culture=tajik
+					culture=pamiri
+					culture=gorani
+					culture=persian
+					culture=gilaki
+					culture=mazandarani
+					culture=lurs
+					culture=pashtun
+					culture=hazara
+					culture=nuristani
+					culture=baloch
+					culture=tat
+					culture=qashqai
+					culture=turkmen
+				}
+				factor=0
+			}
+		}
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { 
+					trait=zealous
+					OR = {
+						trait=mujaddidi
+						trait=iskenderpasha
+					}
+				}
+				religion=naqshbandi
+				NOT={trait=ismailagha}
+			}
+			add_trait = ismailagha
+		}
 		add_trait = ismailagha
 	}
 	option = {
 		name = EVTOPTC_join_jamia_1
+		
+		ai_chance = {
+        	factor = 34
+			modifier = {
+				OR = {
+					culture_group=albanian_group
+					culture_group=amazigh
+					culture_group=arabic
+					culture_group=carpathian
+					culture=armenian
+					culture=circassian
+					culture=kabardian
+					culture=georgian
+					culture=laz
+					culture_group=cushitic
+					culture=rebeu
+					culture_group=habesha
+					culture_group=hellenic
+					culture=kurdish
+					culture=abkhazian
+					culture=zaza
+					culture=talysh
+					culture_group=maghrebi
+					culture_group=nilotic
+					culture=dom
+					culture_group=south_slavic
+					culture=west_anatolian
+					culture=rumelian
+					culture=central_anatolian
+					culture=black_sea
+					culture=toros_mountain
+					culture=turcoman
+					culture=gagauz
+					culture=azeri
+					culture=romioi
+				}
+				factor=0
+			}
+		}
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { 
+					trait=zealous
+					OR = {
+						trait=iskenderpasha
+						trait=ismailagha
+					}
+				}
+				religion=naqshbandi
+				NOT={trait=mujaddidi}
+			}
+			add_trait = mujaddidi
+		}
 		add_trait = mujaddidi
 	}
 }
@@ -1417,6 +1577,21 @@ character_event = {
 		}
 		set_character_flag=changed_jamia
 		wealth=-100
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { 
+					trait=zealous
+					OR = {
+						trait=mujaddidi
+						trait=ismailagha
+					}
+				}
+				religion=naqshbandi
+				NOT={trait=iskenderpasha}
+			}
+			add_trait = iskenderpasha
+		}
 	}
 	option = {
 		name = EVTOPTB_join_jamia_2
@@ -1426,6 +1601,21 @@ character_event = {
 		}
 		set_character_flag=changed_jamia
 		piety=-100
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { 
+					trait=zealous
+					OR = {
+						trait=mujaddidi
+						trait=iskenderpasha
+					}
+				}
+				religion=naqshbandi
+				NOT={trait=ismailagha}
+			}
+			add_trait = ismailagha
+		}
 	}
 	option = {
 		name = EVTOPTC_join_jamia_2
@@ -1435,6 +1625,21 @@ character_event = {
 		}
 		set_character_flag=changed_jamia
 		prestige=-100
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { 
+					trait=zealous
+					OR = {
+						trait=ismailagha
+						trait=iskenderpasha
+					}
+				}
+				religion=naqshbandi
+				NOT={trait=mujaddidi}
+			}
+			add_trait = mujaddidi
+		}
 	}
 	option = {
 		name = EVTOPTD_join_jamia_2
