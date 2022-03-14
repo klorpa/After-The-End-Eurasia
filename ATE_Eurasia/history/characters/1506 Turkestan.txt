@@ -15,7 +15,7 @@
 	trait=groomed
 	trait=diligent
 	trait=pious
-	trait=naqshbandi
+	trait=mujaddidi
 	trait=faqih
 	trait=sayyid
 	trait=chaste
@@ -278,8 +278,8 @@
 	dynasty=2069082 #Çyngyzov
 	culture=kyrgyz
 	religion=naqshbandi
-	2642.12.1={birth=yes}
-	2661.2.5={
+	2631.12.1={birth=yes}
+	2651.2.5={
 			add_spouse=1506000
 		}
 }
@@ -1678,4 +1678,25 @@
 	2586.1.19={birth=yes}
 	2614.1.1={add_spouse=1506004}
 	2624.11.27={death=yes}
+}
+1506154={
+	name="Halima"
+	female=yes
+	dynasty=2112133 #Farg'oniy
+	father=1506000
+	mother=1506020
+	culture=uzbek
+	religion=naqshbandi
+	2653.7.24={birth=yes}
+}
+1506155={
+	name="Komila"
+	female=yes
+	dynasty=2069073 #Dokhundi
+	culture=tajik
+	religion=naqshbandi
+	father=1506021
+	mother=1506081
+	2643.5.20={birth=yes}
+	2666.1.1={add_spouse=1506000}
 }

@@ -1379,3 +1379,64 @@ character_event = {
 		}
 	}
 }
+
+#Join Naqshbandi Jamia
+namespace = join_jamia
+character_event = {
+	id = join_jamia.1
+	desc = EVTDESC_join_jamia_1
+	picture = GFX_evt_religious_exultation
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_join_jamia_1
+		add_trait = iskenderpasha
+	}
+	option = {
+		name = EVTOPTB_join_jamia_1
+		add_trait = ismailagha
+	}
+	option = {
+		name = EVTOPTC_join_jamia_1
+		add_trait = mujaddidi
+	}
+}
+character_event = {
+	id = join_jamia.2
+	desc = EVTDESC_join_jamia_2
+	picture = GFX_evt_religious_exultation
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_join_jamia_2
+		add_trait = iskenderpasha
+		trigger = {
+			NOT = {trait=iskenderpasha}
+		}
+		set_character_flag=changed_jamia
+		wealth=-100
+	}
+	option = {
+		name = EVTOPTB_join_jamia_2
+		add_trait = ismailagha
+		trigger = {
+			NOT = {trait=ismailagha}
+		}
+		set_character_flag=changed_jamia
+		piety=-100
+	}
+	option = {
+		name = EVTOPTC_join_jamia_2
+		add_trait = mujaddidi
+		trigger = {
+			NOT = {trait=mujaddidi}
+		}
+		set_character_flag=changed_jamia
+		prestige=-100
+	}
+	option = {
+		name = EVTOPTD_join_jamia_2
+	}
+}
