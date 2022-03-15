@@ -1432,15 +1432,15 @@ character_event = {
 		any_courtier = {
 			limit = { 
 				is_close_relative = ROOT
-				NOT = { 
+				NAND = { 
 					trait=zealous
 					OR = {
-						trait=mujaddidi
 						trait=ismailagha
+						trait=iskenderpasha
+						trait=mujaddidi
 					}
 				}
 				religion=naqshbandi
-				NOT={trait=iskenderpasha}
 			}
 			add_trait = iskenderpasha
 		}
@@ -1489,15 +1489,15 @@ character_event = {
 		any_courtier = {
 			limit = { 
 				is_close_relative = ROOT
-				NOT = { 
+				NAND = { 
 					trait=zealous
 					OR = {
-						trait=mujaddidi
+						trait=ismailagha
 						trait=iskenderpasha
+						trait=mujaddidi
 					}
 				}
 				religion=naqshbandi
-				NOT={trait=ismailagha}
 			}
 			add_trait = ismailagha
 		}
@@ -1547,15 +1547,15 @@ character_event = {
 		any_courtier = {
 			limit = { 
 				is_close_relative = ROOT
-				NOT = { 
+				NAND = { 
 					trait=zealous
 					OR = {
-						trait=iskenderpasha
 						trait=ismailagha
+						trait=iskenderpasha
+						trait=mujaddidi
 					}
 				}
 				religion=naqshbandi
-				NOT={trait=mujaddidi}
 			}
 			add_trait = mujaddidi
 		}
@@ -1580,15 +1580,15 @@ character_event = {
 		any_courtier = {
 			limit = { 
 				is_close_relative = ROOT
-				NOT = { 
+				NAND = { 
 					trait=zealous
 					OR = {
-						trait=mujaddidi
 						trait=ismailagha
+						trait=iskenderpasha
+						trait=mujaddidi
 					}
 				}
 				religion=naqshbandi
-				NOT={trait=iskenderpasha}
 			}
 			add_trait = iskenderpasha
 		}
@@ -1604,15 +1604,15 @@ character_event = {
 		any_courtier = {
 			limit = { 
 				is_close_relative = ROOT
-				NOT = { 
+				NAND = { 
 					trait=zealous
 					OR = {
-						trait=mujaddidi
+						trait=ismailagha
 						trait=iskenderpasha
+						trait=mujaddidi
 					}
 				}
 				religion=naqshbandi
-				NOT={trait=ismailagha}
 			}
 			add_trait = ismailagha
 		}
@@ -1628,15 +1628,15 @@ character_event = {
 		any_courtier = {
 			limit = { 
 				is_close_relative = ROOT
-				NOT = { 
+				NAND = { 
 					trait=zealous
 					OR = {
 						trait=ismailagha
 						trait=iskenderpasha
+						trait=mujaddidi
 					}
 				}
 				religion=naqshbandi
-				NOT={trait=mujaddidi}
 			}
 			add_trait = mujaddidi
 		}
