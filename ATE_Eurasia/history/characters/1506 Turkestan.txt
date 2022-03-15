@@ -912,9 +912,9 @@
 	culture=uzbek
 	religion=naqshbandi
 	father=1506001
-	mother=1506033
+	mother=1506156
 	trait=sayyid
-	trait=child_of_consort
+	trait=envious
 	2649.12.16={birth=yes}
 	2649.12.16={effect={
 		add_claim=c_osh
@@ -1699,4 +1699,26 @@
 	mother=1506081
 	2643.5.20={birth=yes}
 	2666.1.1={add_spouse=1506000}
+}
+1506156={
+	name="Dilhumar"
+	female=yes
+	dynasty=2080089 #Khoja 
+	culture=uighur
+	religion=naqshbandi
+	father=1506145
+	2629.1.12={birth=yes}
+	2648.1.1={add_spouse=1506001}
+}
+1506157={
+	name="Akgul"
+	female=yes
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	father=1506001
+	mother=1506156
+	trait=sayyid
+	2653.12.16={birth=yes}
+	2660.1.1={employer=1506003}
 }
