@@ -27,6 +27,12 @@
 	properties=ag00f
 	2633.2.22={birth=yes}
 	2664.8.11={effect={add_claim=k_fergana}}
+	2665.1.1 = {
+		effect = {
+			join_society = monastic_order_naqshbandi
+			set_society_grandmaster = yes
+		}
+	}
 }
 1506001={
 	name="Abdulhoshim"
@@ -915,6 +921,7 @@
 	mother=1506156
 	trait=sayyid
 	trait=envious
+	trait=ambitious
 	2649.12.16={birth=yes}
 	2649.12.16={effect={
 		add_claim=c_osh
