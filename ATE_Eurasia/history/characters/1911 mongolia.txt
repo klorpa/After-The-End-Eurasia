@@ -1,0 +1,121 @@
+1911000 = {
+	name="Uyanmas"
+	dynasty=1911012
+	culture=tuvan
+	religion=gelugpa
+	trait=tough_soldier
+	trait=ambitious
+	trait=proud
+	trait=envious
+	2608.6.21={ birth=yes }
+	2631.5.6={ add_spouse=1911002 }
+	2700.1.1={ death=yes }
+}
+
+1911001 = {
+	name="Chimit-Dorzhu"
+	dynasty=1911012
+	culture=tuvan
+	religion=gelugpa
+	trait=intricate_webweaver
+	trait=honest
+	trait=wroth
+	trait=hunter
+	father=1911000
+	mother=1911002
+	2641.5.12={ birth=yes }
+	2700.1.1={ death=yes }
+}
+
+1911002 = {
+	name="Kara-Kys"
+	dynasty=1911018
+	female=yes
+	culture=tuvan
+	religion=gelugpa
+	trait=indulgent_wastrel
+	trait=brave
+	trait=charitable
+	trait=just
+	2611.9.30={ birth=yes }
+	2631.5.6={ add_spouse=1911000 }
+	2700.1.1={ death=yes }
+}
+
+1911003 = {
+	name="Borbak-kis"
+	dynasty=1911012
+	female=yes
+	culture=tuvan
+	religion=gelugpa
+	trait=misguided_warrior
+	trait=shy
+	trait=deceitful
+	trait=quick
+	father=1911000
+	mother=1911002
+	2635.4.10={ birth=yes }
+	2652.2.24={ add_spouse=1911005 }
+	2700.1.1={ death=yes }
+}
+
+1911004 = {
+	name="Sayana"
+	dynasty=1911012
+	female=yes
+	culture=tuvan
+	religion=gelugpa
+	trait=martial_cleric
+	trait=patient
+	trait=ambitious
+	trait=trusting
+	trait=lisp
+	father=1911005
+	mother=1911003
+	2656.7.21={ birth=yes }
+	2700.1.1={ death=yes }
+}
+
+1911005 = {
+	name="Salchak"
+	dynasty=1911024
+	culture=tuvan
+	religion=gelugpa
+	trait=naive_appeaser
+	trait=kind
+	trait=humble
+	trait=hedonist
+	2632.11.13={ birth=yes }
+	2652.2.24={ add_spouse=1911003 }
+	2700.1.1={ death=yes }
+}
+
+1911006 = {
+	name="Chayan"
+	dynasty=1911012
+	culture=tuvan
+	religion=gelugpa
+	trait=naive_appeaser
+	trait=slothful
+	trait=brave
+	trait=trusting
+	trait=cruel
+	father=1911005
+	mother=1911003
+	2661.7.21={ birth=yes }
+	2700.1.1={ death=yes }
+}
+
+1911007 = {
+	name="Borbak-xüreñ"
+	dynasty=1911052
+	culture=tuvan
+	religion=gelugpa
+	trait=skilled_tactician
+	trait=proud
+	trait=ambitious
+	trait=cruel
+	trait=strong
+	2633.4.27={ birth=yes }
+	2700.1.1={ death=yes }
+}

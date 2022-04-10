@@ -1,0 +1,41 @@
+# c_tiruchirappalli
+
+# County Title
+title = c_tiruchirappalli
+
+# Settlements
+max_settlements = 6
+
+b_malaikottai = castle
+b_tiruchirappalli = city
+b_karur = temple
+#b_manapparai = castle
+#b_thuvakudi = city
+#b_kulithalai = temple
+#b_aravakurichi = castle
+
+# Misc
+culture = tamil
+religion = thirumatam
+
+#History
+600.1.1 = {
+	build_wonder = wonder_ranganathaswamy
+}
+627.1.1 = {
+	set_wonder_stage = 1
+	build_wonder_upgrade = upgrade_high_gopura
+}
+646.1.1 = {
+	build_wonder_upgrade = upgrade_shikhara
+}
+666.1.1 = {
+	build_wonder_upgrade = upgrade_roads
+}
+700.1.1 = {
+	set_wonder_stage = 2
+	build_wonder_upgrade = upgrade_temple_complex
+}
+727.1.1 = {
+	set_wonder_stage = 3
+}

@@ -1,0 +1,24 @@
+# County Title
+title = c_volgograd
+
+# Settlements
+max_settlements = 5
+
+b_volgograd = castle
+b_gorkovskii = city
+b_kalach_na_donu = temple
+
+# Misc
+culture = volgan
+religion = proletcult
+
+# History
+1967.8.15 = {
+	build_wonder = wonder_motherland_calls
+	set_wonder_stage = 3
+	build_wonder_upgrade = upgrade_watcher_of_giants
+	#set_wonder_damaged=yes Realistically it should be, but rule of cool
+}
+2200.1.1 = {
+	build_wonder_upgrade = upgrade_retinue
+}

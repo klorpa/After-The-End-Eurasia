@@ -1,0 +1,1449 @@
+###ÄNSI
+1001001 ={
+	name="Gaius"
+	dynasty=1001002 #Snaphance
+	culture=southerner
+	religion=glorian
+	martial=6
+	diplomacy=5
+	stewardship=7
+	intrigue=7
+	learning=5
+	add_trait=intricate_webweaver
+	add_trait=lunatic
+	add_trait=cruel
+	add_trait=impaler
+	add_trait=paranoid
+	add_trait=is_fat
+	add_trait=patient
+	add_trait=gluttonous
+	2592.3.16={birth=yes}
+	2660.2.10={death=yes}
+}
+1001002={
+	name="Albert"
+	dynasty=1001003 #Spangler
+	culture=german
+	religion=glorian
+	martial=3
+	diplomacy=7
+	stewardship=7
+	intrigue=7
+	learning=5
+	trait=fortune_builder
+	trait=shrewd
+	trait=deceitful
+	trait=cynical
+	trait=arbitrary
+	trait=diligent
+	trait=humble
+	2640.4.1={birth=yes}
+	2666.3.1={culture=southerner}
+	2724.3.10={death=yes}
+}
+1001003={
+	name="Havelock"
+	dynasty=1001071 #Meserole 
+	dna="bgagjpgbaaw"
+	properties="ci0dfk00000000000000000000000000000000"
+	culture=southerner
+	religion=glorian
+	martial=5
+	diplomacy=6
+	stewardship=5
+	intrigue=6
+	learning=5
+	trait=intricate_webweaver
+	trait=quick
+	trait=shrewd
+	trait=gamer
+	trait=ambitious
+	trait=cynical
+	trait=just
+	trait=chaste
+	trait=patient
+	trait=one_legged
+	2626.5.7={birth=yes}
+	2657.5.25={effect={add_artifact=prosthetic_leg_artifact}}
+	2673.3.21={death=yes}
+}
+1001004={
+	name="Robert"
+	dynasty=1001005 #Kray
+	culture=southerner
+	religion=glorian
+	martial=6
+	diplomacy=3
+	stewardship=4
+	intrigue=6
+	learning=4
+	trait=tough_soldier
+	trait=twin
+	trait=robust
+	trait=duelist
+	trait=wroth
+	trait=proud
+	trait=cruel
+	father=1001006
+	mother=1001007
+	2633.10.24={birth=yes}
+	2695.3.17={death=yes}
+}
+1001005={
+	name="Roger"
+	dynasty=1001005 #Kray
+	culture=southerner
+	religion=glorian
+	martial=4
+	diplomacy=5
+	stewardship=6
+	intrigue=4
+	learning=4
+	trait=fortune_builder
+	trait=twin
+	trait=sturdy
+	trait=duelist
+	trait=diligent
+	trait=wroth
+	trait=cruel
+	father=1001006
+	mother=1001007
+	2633.10.24={birth=yes}
+	2700.10.1={death=yes}
+}
+1001006={
+	name="James"
+	dynasty=1001005 #Kray
+	culture=southerner
+	religion=glorian
+	martial=3
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=4
+	trait=fortune_builder
+	trait=patient
+	trait=ambitious
+	trait=diligent
+	trait=greedy
+	2590.1.2={birth=yes}
+	2630.1.1={
+			add_spouse=1001007
+		}
+	2650.10.3={death=yes}
+}
+1001007={
+	name="Dee"
+	culture=southerner
+	religion=glorian
+	female = yes
+	martial=3
+	diplomacy=5
+	stewardship=4
+	intrigue=5
+	learning=4
+	trait=naive_appeaser
+	trait=patient
+	trait=kind
+	2600.4.1={birth=yes}
+	2641.1.5={death=yes}
+}
+1001008={
+	name="Alexander"
+	dynasty=1001006 #Rahman
+	culture=bengali
+	religion=ruhi
+	martial=3
+	diplomacy=5
+	stewardship=6
+	intrigue=4
+	learning=5
+	trait=midas_touched
+	trait=kind
+	trait=honest
+	trait=just
+	trait=shrewd
+	2643.10.2={
+	birth=yes
+	culture=southerner}
+	2700.1.3={death=yes}
+}
+1001009={
+	name="Gideon"
+	dynasty=1001007 #Glasman
+	culture=southerner
+	religion=haskalah
+	martial=3
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	trait=grey_eminence
+	trait=ambitious
+	trait=shrewd
+	trait=proud
+	trait=diligent
+	trait=just
+	2640.4.3={birth=yes}
+	2710.3.4={death=yes}
+}
+1001010={
+	name="Samuel"
+	dynasty=1001008 #Butcher
+	culture=southerner
+	religion=glorian
+	martial=8
+	diplomacy=4
+	stewardship=5
+	intrigue=6
+	learning=6
+	trait=skilled_tactician
+	trait=shrewd
+	trait=robust
+	trait=just
+	trait=humble
+	trait=cynical
+	trait=honest
+	trait=charitable
+	trait=content
+	trait=stubborn
+	trait=drunkard 
+	2640.10.24={birth=yes}
+	2700.10.1={death=yes}
+}
+1001011={
+	name="Deidre"
+	female=yes
+	dynasty=1001009 #Ramkin
+	culture=southerner
+	religion=glorian
+	martial=6
+	diplomacy=4
+	stewardship=3
+	intrigue=5
+	learning=5
+	trait=grey_eminence
+	trait=strong
+	trait=shrewd
+	trait=is_fat
+	trait=gardener
+	trait=kind
+	trait=charitable
+	trait=patient
+	2640.10.24={birth=yes}
+	2663.10.12={effect={add_lover=1001010}}
+	2665.4.14={add_spouse=1001010}
+	2700.10.1={death=yes}
+}
+1001012={
+	name="Eve"
+	female=yes
+	dynasty=1001010 #Van Zeeland
+ 	culture=southerner
+	religion=glorian
+	martial=6
+	diplomacy=5
+	stewardship=7
+	intrigue=7
+	learning=5
+	trait=skilled_tactician
+	trait=fair
+	trait=lunatic
+	trait=cruel
+	trait=impaler
+	trait=paranoid
+	trait=patient
+	2648.8.12={birth=yes}
+	2700.1.2={death=yes}
+}
+1001013={
+	name="Albert"
+	dynasty=1001011 #Welles
+	culture=southerner
+	religion=glorian
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=7
+	trait=skilled_tactician
+	trait=quick
+	trait=scholar
+	trait=lustful
+	trait=cynical
+	trait=just
+	trait=kind
+	2620.9.21={birth=yes}
+	2700.8.13={death=yes}
+}
+1001014={
+	name="Thomas"
+	dynasty=1101000 #Constable
+	culture=southerner
+	religion=thelema
+	martial=3
+	diplomacy=5
+	stewardship=6
+	intrigue=4
+	learning=5
+	trait=scholarly_theologian
+	trait=poet
+	trait=shy
+	trait=patient
+	trait=depressed
+	2627.5.14={birth=yes}
+	2680.4.21={death=yes}
+}
+1001015={
+	name="Asriel"
+	dynasty=1101001 #Ross
+	culture=southerner
+	religion=glorian
+	martial=5
+	diplomacy=5
+	stewardship=6
+	intrigue=4
+	learning=6
+	trait=scholarly_theologian
+	trait=cynical
+	trait=adventurer
+	trait=shrewd
+	trait=mystic
+	trait=brave
+	trait=ambitious
+	trait=proud
+	trait=deceitful
+	2626.10.19={birth=yes}
+	2674.3.11={death=yes}
+}
+1001016={
+	name="William"
+	dynasty=1101002 #Fowler
+	culture=southerner
+	religion=thelema
+	martial=3
+	diplomacy=5
+	stewardship=3
+	intrigue=3
+	learning=7
+	trait=mastermind_theologian
+	trait=genius
+	trait=crippled
+	trait=scholar
+	trait=diligent
+	trait=patient
+	trait=stubborn
+	2642.1.8={birth=yes}
+	2718.3.14={death=yes}
+}
+1001017={
+	name="Pieter"
+	dynasty=1101003 #Russell
+	culture=southerner
+	religion=thelema
+	martial=4
+	diplomacy=5
+	stewardship=3
+	intrigue=3
+	learning=2
+	trait=underhanded_rogue
+	trait=erudite
+	trait=gardener
+	trait=charitable
+	trait=honest
+	trait=slothful
+	2612.5.3={birth=yes}
+	2670.8.10={death=yes}
+}
+1001018={
+	name="Thomas"
+	dynasty=1701008 #Erskine
+	culture=midlander
+	religion=glorian
+	martial=3
+	diplomacy=4
+	stewardship=3
+	intrigue=3
+	learning=3
+	trait=indulgent_wastrel
+	trait=homosexual
+	trait=socializer
+	trait=arbitrary
+	trait=greedy
+	trait=kind
+	2635.7.13={birth=yes}
+	2670.6.1={death=yes}
+}
+1001019={
+	name="Terence"
+	dynasty=1001000
+	culture=southerner
+	religion=glorian
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	trait=mastermind_theologian
+	trait=quick
+	trait=shrewd
+	trait=kind
+	trait=just
+	trait=poet
+	2600.4.28={birth=yes}
+	2670.5.2={death=yes}
+}
+1001020={
+	name="Frederick"
+	dynasty=1001061 #Webber
+	culture=german
+	religion=free_church
+	martial=6
+	diplomacy=4
+	stewardship=3
+	intrigue=2
+	learning=4
+	trait=scholarly_theologian
+	trait=poet
+	trait=kind
+	trait=honest
+	trait=shy
+	trait=brave
+	2641.5.2={birth=yes}
+	2663.1.3={culture=cornish}
+	2691.2.4={death=yes}
+}
+1001021={
+	name="Gorron"
+	dynasty=1101059 #Hornblower
+	culture=westerner
+	religion=valinorist
+	martial=6
+	diplomacy=4
+	stewardship=5
+	intrigue=5
+	learning=4
+	trait=skilled_tactician 
+	trait=strong
+	trait=scarred_high
+	trait=duelist
+	trait=brave
+	trait=zealous
+	trait=ambitious
+	trait=ruthless
+	trait=proud
+	2620.3.1={birth=yes}
+	2671.1.3={death=yes}
+}
+1001022={
+	name="Edith"
+	female=yes
+	dynasty=1101004 #Pitt
+	culture=westerner
+	religion=glorian
+	martial=5
+	diplomacy=8
+	stewardship=7
+	intrigue=4
+	learning=5
+	trait=charismatic_negotiator
+	trait=shrewd
+	trait=trusting
+	trait=zealous
+	trait=wroth
+	trait=ambitious
+	2604.5.28={birth=yes}
+	2678.1.1={death=yes}
+}
+1001023={
+	name="Julian"
+	dynasty=1101005 #Brown
+	culture=westerner
+	religion=glorian
+	martial=2
+	diplomacy=5
+	stewardship=3
+	intrigue=9
+	learning=8
+	trait=amateurish_plotter
+	trait=charitable
+	trait=craven
+	trait=gluttonous
+	trait=lustful
+	2620.6.17={birth=yes}
+	2686.4.3={death=yes}
+}
+1001024={
+	name="Curufinwe"
+	dynasty=1101006 #Anaduni
+	culture=westerner
+	religion=valinorist
+	father=1001072
+	mother=1001073
+	martial=10
+	diplomacy=5
+	stewardship=5
+	intrigue=6
+	learning=14
+	trait=wroth
+	trait=quick
+	trait=cruel
+	trait=proud
+	2638.9.4={birth=yes}
+	2671.1.3={death=yes}
+}
+1001025={
+	name="Aracáno" ##Dorset
+	dynasty=1101008 #Gimileth
+	culture=westerner
+	religion=valinorist
+	father=1001072
+	mother=1001075
+	martial=6
+	diplomacy=8
+	stewardship=10
+	intrigue=5
+	learning=7
+	trait=patient
+	trait=just
+	trait=ambitious
+	trait=thrifty_clerk
+	trait=legit_bastard
+	2642.12.1={birth=yes}
+	2671.1.3={death=yes}
+	##Curufinwe's half brother by their father.
+}
+1001026={
+	name="Hymenaeus"
+	dynasty=1101010 #Theta
+	culture=westerner
+	religion=thelema
+	martial=4
+	diplomacy=4
+	stewardship=4
+	intrigue=4
+	learning=5
+	trait=intricate_webweaver 
+	trait=zealous
+	trait=proud
+	trait=wroth
+	trait=deceitful
+	2602.7.2={birth=yes}
+	2671.1.3={death=yes}
+}
+1001027={
+	name="Edwin"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=glorian
+	father=1001060
+	martial=3
+	diplomacy=3
+	stewardship=4
+	intrigue=5
+	learning=5
+	trait=indulgent_wastrel
+	trait=scholar
+	trait=brave
+	trait=content
+	trait=charitable
+	trait=temperate
+	trait=erudite
+	2600.1.1={birth=yes}
+	2618.2.8={add_spouse=1001022}
+	2666.7.2={death=yes}
+}
+1001028 = {
+	name="Clarke"
+	dynasty=1101011 #Carne
+	culture=westerner
+	religion=valinorist
+	martial=4
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait=scholarly_theologian
+	trait=erudite
+	trait=gardener
+	trait=kind
+	trait=patient
+	trait=gregarious
+	trait=greedy
+	2599.11.5={birth=yes}
+	2675.3.2={death=yes}
+}
+1001029={
+	name="James"
+	dynasty=1101012 #Bertram
+	dna="immdklkbgjo"
+	culture=westerner
+	religion=free_church
+	martial=7
+	diplomacy=5
+	stewardship=6
+	intrigue=4
+	learning=5
+	trait=scholarly_theologian
+	trait=just
+	trait=wroth
+	trait=diligent
+	trait=zealous
+	trait=chaste 
+	2619.5.11={birth=yes}
+	2668.11.24={death=yes}
+}
+1001030={
+	name="Josiah"
+	dynasty=1701000 #Boulton
+	dna="mjcjllpjldh"
+	culture=midlander
+	religion=glorian
+	father=1001068
+	martial=7
+	diplomacy=4
+	stewardship=8
+	intrigue=6
+	learning=4
+	add_trait=fortune_builder 
+	add_trait=erudite
+	add_trait=temperate
+	add_trait=humble
+	add_trait=just
+	add_trait=stressed 
+	2626.2.27={birth=yes}
+	2715.8.14={death=yes}
+}
+1001031={
+	name="William"
+	dynasty=1701001 #Condell
+	dna="hnbbplgpakn"
+	culture=midlander
+	religion=glorian
+	martial=5
+	diplomacy=8
+	stewardship=7
+	intrigue=4
+	learning=5
+	add_trait=grey_eminence
+	add_trait=quick
+	add_trait=poet
+	add_trait=cynical
+	add_trait=humble
+	add_trait=ambitious
+	add_trait=drunkard 
+	2641.9.14={birth=yes}
+	2697.10.12={death=yes}
+}
+1001032={
+	name="Robert"
+	dynasty=1701020 #Ashworth
+	dna="gdegjcfkkpd"
+	culture=midlander
+	religion=glorian
+	martial=8
+	diplomacy=6
+	stewardship=7
+	intrigue=4
+	learning=4
+	add_trait=detached_priest
+	add_trait=deceitful
+	add_trait=humble
+	add_trait=wroth
+	add_trait=trusting 
+	add_trait=diligent 
+	2634.5.19={birth=yes}
+	2713.2.28={death=yes}
+}
+1001033={
+	name="Charles"
+	dynasty=1701002 #Babwin
+	dna="dcadbmpegmc"
+	culture=midlander
+	religion=glorian
+	martial=3
+	diplomacy=5
+	stewardship=5
+	intrigue=3
+	learning=7
+	add_trait=scholarly_theologian
+	add_trait=gardener
+	add_trait=genius
+	add_trait=patient
+	add_trait=shy
+	add_trait=charitable 
+	add_trait=kind
+	add_trait=cynical
+	2620.2.12={birth=yes}
+	2640.4.3={effect = {add_artifact = ate_calculator} }
+	2659.11.22={effect = {add_artifact = magnum_opus_alchemy_panacea_3} }
+	2699.7.30={death=yes}
+}
+1001034={
+	name="Alfred"
+	dynasty=1701003 #FitzSpatstone
+	dna="mifmobmcill"
+	culture=midlander
+	religion=glorian
+	father=1001027
+	mother=1001022
+	martial=6
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=4
+	trait=tough_soldier 
+	trait=aggressive_leader
+	trait=groomed 
+	trait=dull
+	trait=brave 
+	trait=just
+	trait=proud
+	trait=wroth 
+	2620.9.8={birth=yes}
+	2650.6.6={add_spouse=1001069}
+	2678.6.12={death=yes}
+}
+1001035={
+	name=William
+	dynasty=1701004 #Armitage
+	dna="ioaibacdien"
+	culture=midlander
+	religion=glorian
+	martial=4
+	diplomacy=7
+	stewardship=7
+	intrigue=6
+	learning=8
+	add_trait=scholarly_theologian
+	trait=hunter
+	trait=zealous
+	trait=temperate
+	trait=honest 
+	trait=kind
+	trait=humble
+	trait=charitable 
+	2623.6.11={birth=yes}
+	2698.4.20={death=yes}
+}
+1001036={
+	name=Robin
+	dynasty=1701005 #Locksley
+	dna="ioaibacdien"
+	culture=midlander
+	religion=free_church
+	martial=4
+	diplomacy=7
+	stewardship=7
+	intrigue=6
+	learning=8
+	trait=skilled_tactician
+	trait=hunter
+	trait=ambitious
+	trait=deceitful
+	trait=just
+	trait=charitable
+	trait=humble 
+	2647.3.4={birth=yes}
+	2720.4.20={death=yes}
+}
+1001037={
+	name=William
+	dynasty=1701006 #Dashwood
+	culture=midlander
+	religion=glorian
+	martial=5
+	diplomacy=4
+	stewardship=5
+	intrigue=5
+	learning=5
+	trait=charismatic_negotiator
+	trait=erudite
+	trait=fair
+	trait=shrewd
+	trait=cynical
+	trait=just
+	trait=proud
+	trait=kind
+	2640.1.28={birth=yes}
+	2721.3.2={death=yes}
+}
+1001038={
+	name=Elizabeth
+	female=yes
+	dynasty=1701007 #Austin
+	culture=southerner
+	religion=glorian
+	martial=5
+	diplomacy=4
+	intrigue=5
+	learning=5
+	trait=scholarly_theologian
+	trait=erudite
+	trait=fair
+	trait=shrewd
+	trait=cynical
+	trait=proud
+	trait=kind
+	2643.4.10={birth=yes}
+	2665.2.5={effect = {add_lover=1001037}}
+	2665.5.4={add_spouse=1001037}
+	2722.4.1={death=yes}
+}
+1001039={
+	name="Edward"
+	dynasty=1601000 #Rendower
+	culture=northerner
+	religion=high_church
+	martial=7
+	diplomacy=3
+	stewardship=4
+	intrigue=3
+	learning=5
+	trait=skilled_tactician
+	trait=trickster
+	trait=unyielding_leader
+	trait=feeble
+	trait=shrewd
+	trait=brave
+	trait=proud
+	trait=shy
+	2649.3.1={birth=yes}
+	2690.3.3={death=yes}
+}
+1001040={
+	name="Gordon"
+	dynasty=1801002 #Ganumaga
+	culture=scouse
+	religion=glorian
+	martial=5
+	diplomacy=8
+	stewardship=2
+	intrigue=6
+	learning=6
+	father=1001070
+	trait=tough_soldier
+	trait=quick
+	trait=fair
+	trait=groomed
+	trait=poet
+	trait=ambitious
+	trait=arbitrary
+	trait=deceitful
+	trait=brave
+	trait=wroth
+	trait=lustful
+	trait=seducer
+	2630.1.22={birth=yes}
+	2689.12.26={death=yes}
+}
+1001041={
+	name="John-Paul"
+	dynasty=1801001 #Harrison
+	dna="dklodmomfga"
+	culture=scouse
+	religion=insular
+	martial=2
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=5
+	trait=grey_eminence
+	trait=quick
+	trait=musician
+	trait=socializer
+	trait=kind
+	trait=erudite
+	trait=lustful
+	trait=cynical
+	trait=proud
+	trait=ambitious
+	trait=sympathy_indian
+	2640.10.9={birth=yes}
+	2680.12.8={death=yes}
+}
+1001042={
+	name="Matthew" #Reference to a friend
+	dynasty=1801002 #Ganumaga
+	culture=scouse
+	religion=free_church
+	father=1001071
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=3
+	trait=fortune_builder
+	trait=quick
+	trait=gamer
+	trait=patient
+	trait=lustful
+	trait=cynical
+	2642.6.15={birth=yes}
+	2707.4.30={death=yes}
+}
+1001043={
+	name="David"
+	dynasty=1801003 #Baker
+	culture=scouse
+	religion=insular
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=5
+	trait=intricate_webweaver
+	trait=genius
+	trait=arbitrary
+	trait=diligent
+	trait=stubborn
+	trait=cynical
+	trait=brave
+	2634.1.20={birth=yes}
+	2690.2.10={death=yes}
+}
+1001044={
+	name="Andrew"
+	dynasty=1901004 #Carpenter
+	culture=scouse
+	religion=glorian
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=5
+	trait=mastermind_theologian
+	trait=poet
+	trait=diligent
+	trait=deceitful
+	trait=wroth
+	2626.5.15={birth=yes}
+	2701.11.6={death=yes}
+}
+1001045={
+	name="Francis"
+	dynasty=1801005 #Ableson
+	culture=scouse
+	religion=haskalah
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=3
+	learning=5
+	trait=detached_priest
+	trait=diligent
+	trait=musician
+	trait=kind
+	trait=is_fat
+	2628.2.3={birth=yes}
+	2699.9.17={death=yes}
+}
+1001046={
+	name="Lewis"
+	dynasty=1801006 #Lees
+	culture=scouse
+	religion=glorian
+	martial=5
+	diplomacy=4
+	stewardship=3
+	intrigue=5
+	learning=4
+	trait=intricate_webweaver
+	trait=shrewd
+	trait=arbitrary
+	trait=deceitful
+	trait=proud
+	trait=content
+	trait=envious
+	2620.1.30={birth=yes}
+	2700.10.3={death=yes}
+}
+1001047={
+	name="William"
+	dynasty=1601001 #Clarkson
+	culture=northerner
+	religion=free_church
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=5
+	trait=detached_priest
+	trait=shrewd
+	trait=socializer
+	trait=zealous
+	trait=just
+	trait=proud
+	2610.2.14={birth=yes}
+	2678.3.12={death=yes}
+}
+1001048={
+	name="William"
+	dynasty=1801002 #Ganumaga
+	culture=northerner
+	religion=sjotru
+	father=1001070
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=5
+	trait=tough_soldier
+	trait=groomed
+	trait=duelist
+	trait=gregarious
+	trait=stubborn
+	2647.8.10={birth=yes}
+	2680.2.8={death=yes}
+}
+1001049={
+	name="James"
+	dynasty=1801002 #Ganumaga
+	culture=northerner
+	religion=high_church
+	martial=5
+	diplomacy=4
+	stewardship=6
+	intrigue=5
+	learning=4
+	trait=fortune_builder
+	trait=cruel
+	trait=patient
+	trait=greedy
+	trait=diligent
+	2580.10.2={birth=yes}
+	2640.8.8={death=yes}
+}
+1001050={
+	name="Isabela"
+	female=yes
+	dynasty=1801000 #Byron-Englesea
+	culture=scouse
+	religion=glorian
+	martial=5
+	diplomacy=4
+	stewardship=6
+	intrigue=5
+	learning=4
+	trait=naive_appeaser 
+	trait=patient
+	trait=kind
+	trait=diligent
+	2579.8.12={birth=yes}
+	2601.6.10={ add_spouse=1001049 }
+	2650.3.2={death=yes}
+}
+1001051={
+	name="John"
+	dynasty=1601002 #Lytton
+	culture=northerner
+	religion=high_church
+	martial=3
+	diplomacy=4
+	stewardship=3
+	intrigue=3
+	learning=3
+	trait=naive_appeaser
+	trait=quick
+	trait=dull
+	trait=shy
+	trait=arbitrary
+	trait=kind
+	trait=proud
+	2637.1.1={birth=yes}
+	2700.4.2={death=yes}
+}
+1001052={
+	name="Francis" #every breath you take
+	dynasty=1801004 #Shaffer
+	culture=northerner
+	religion=high_church
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=5
+	trait=elusive_shadow
+	trait=quick
+	trait=musician
+	trait=charitable
+	trait=shy
+	2610.10.1={birth=yes}
+	2690.4.10={death=yes}
+}
+1001053={
+	name="Elizabeth"
+	dynasty=1200002
+	female=yes
+	culture=norman
+	religion=high_church
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait=grey_eminence
+	trait=fair
+	trait=shrewd
+	trait=celibate
+	trait=ambitious
+	trait=brave
+	trait=just
+	trait=proud
+	add_claim = k_england
+	add_claim = c_london
+	2640.5.24={birth=yes}
+	2721.1.22={death=yes}
+}
+1001054={
+	name="Thomas"
+	dynasty=1200000
+	culture=southerner
+	religion=high_church
+	martial=4
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=6
+	trait=mastermind_theologian
+	trait=scholar
+	trait=celibate
+	trait=proud
+	trait=brave
+	trait=stubborn
+	trait=ambitious
+	trait=patient
+	2619.12.21={birth=yes}
+	2670.12.29={death=yes}
+}
+1001055={
+	name="Philip"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=glorian
+	trait=brilliant_strategist
+	trait=zealous
+	trait=brave
+	trait=ambitious
+	trait=genius
+	trait=strategist
+	2430.1.1={birth=yes}
+	2492.8.2={death=yes}
+}
+1001056={
+	name="Albert"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=glorian
+	father=1001055
+	2464.1.1={birth=yes}
+	2547.1.1={death=yes}
+}
+1001057={
+	name="Aleister"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=glorian
+	father=1001056
+	2493.1.1={birth=yes}
+	2571.1.1={death=yes}
+}
+1001058={
+	name="David"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=glorian
+	father=1001057
+	2519.1.1={birth=yes}
+	2556.1.1={death=yes}
+}
+1001059={
+	name="Philip"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=glorian
+	father=1001058
+	2542.1.1={birth=yes}
+	2598.1.1={death=yes}
+}
+1001060={
+	name="William"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=glorian
+	father=1001059
+	trait=martial_cleric
+	trait=mystic
+	trait=chaste
+	trait=patient
+	trait=zealous
+	trait=shy
+	trait=paranoid
+	2565.1.1={birth=yes}
+	2629.4.10={death=yes}
+}
+1001061={
+	name="Albert"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=glorian
+	father=1001034
+	mother=1001069
+	2653.5.1={birth=yes}
+	2700.1.1={death=yes}
+}
+1001062={
+	name="Alberta"
+	female=yes
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=glorian
+	father=1001034
+	mother=1001069
+	2654.10.5={birth=yes}
+	2700.1.1={death=yes}
+}
+1001063={
+	name="Alfred"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=glorian
+	father=1001034
+	mother=1001069
+	2656.6.25={birth=yes}
+	2700.1.1={death=yes}
+}
+1001064={
+	name="Aladale"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=glorian
+	father=1001034
+	mother=1001069
+	2660.11.8={birth=yes}
+	2700.1.1={death=yes}
+}
+1001065={
+	name="Alexandra"
+	female=yes
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=glorian
+	father=1001034
+	mother=1001069
+	2663.9.9={birth=yes}
+	2700.1.1={death=yes}
+}
+1001066={
+	name="Robert"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=glorian
+	father=1001027
+	mother=1001022
+	martial=8
+	diplomacy=6
+	stewardship=5
+	intrigue=5
+	learning=3
+	trait=skilled_tactician
+	trait=aggressive_leader
+	trait=craven
+	trait=fair
+	trait=proud
+	trait=wroth 
+	trait=diligent
+	trait=gregarious
+	trait=authoritative
+	2624.4.24={birth=yes}
+	2700.1.1={death=yes}
+}
+1001067={
+	name="Philip"
+	dynasty=1701003 #FitzSpatstone
+	culture=midlander
+	religion=glorian
+	father=1001027
+	mother=1001022
+	martial=8
+	diplomacy=6
+	stewardship=5
+	intrigue=5
+	learning=3
+	trait=flamboyant_schemer
+	trait=drunkard
+	trait=brave
+	trait=quick
+	trait=proud
+	trait=slothful
+	trait=deceitful
+	trait=lustful
+	trait=ruthless
+	2626.12.27={birth=yes}
+	2700.1.1={death=yes}
+}
+1001068={
+	name="Eliphas"
+	dynasty=1701000 #Boulton
+	culture=midlander
+	religion=glorian
+	2601.9.7={birth=yes}
+	2655.8.14={death=yes}
+}
+1001069={
+	name="Jane"
+	female=yes
+	dynasty=1701000 #Boulton
+	father=1001068
+	culture=midlander
+	religion=glorian
+	martial=4
+	diplomacy=8
+	stewardship=8
+	intrigue=4
+	learning=4
+	add_trait=charismatic_negotiator
+	add_trait=sturdy
+	add_trait=content
+	add_trait=honest
+	add_trait=trusting
+	add_trait=humble
+	2630.4.16={birth=yes}
+	2700.1.1={death=yes}
+}
+1001070={
+	name="Nigel"
+	dynasty=1801002 #Ganumaga
+	culture=northerner
+	religion=glorian
+	father=1001049
+	mother=1001050
+	trait=zealous
+	trait=cruel
+	trait=tough_soldier
+	trait=diligent
+	2604.2.11={birth=yes}
+	2665.5.5={death=yes}
+}
+1001071={
+	name="Richard"
+	dynasty=1801002 #Ganumaga
+	culture=northerner
+	religion=free_church
+	father=1001049
+	mother=1001050
+	2608.6.4={birth=yes}
+	2659.12.6={death=yes}
+}
+1001072={
+	name="Baragund"
+	dynasty=1101006 #Anaduni
+	culture=westerner
+	religion=valinorist
+	2610.10.4={birth=yes}
+	2636.1.1={add_spouse=1001073}
+	2662.1.2={death=yes}
+}
+1001073={
+	name="Andreth"
+	dynasty=0
+	culture=westerner
+	female=yes
+	religion=valinorist
+	2615.5.7={birth=yes}
+	2662.1.2={death=yes}
+}
+1001074={
+	name="Rodnor"
+	dynasty=1101008 #Gimileth
+	culture=westerner
+	religion=valinorist
+	2594.7.14={birth=yes}
+	2649.9.13={death=yes}
+}
+1001075={
+	name="Írimë"
+	female=yes
+	dynasty=1101008 #Gimileth
+	culture=westerner
+	father=1001074
+	religion=valinorist
+	2615.8.17={birth=yes}
+	2665.7.7={death=yes}
+}
+1001076={
+	name="Tomas" #TEMP_FOOL_WAS_HERE
+	dynasty=1101101 #Kelly
+	culture=westerner
+	religion=catholic
+	trait=scholarly_theologian
+	trait=ambitious
+	trait=musician
+	trait=stressed
+	trait=charitable
+	trait=stubborn
+	trait=erudite
+	trait=lustful
+	trait=quick
+	trait=sympathy_islam
+	trait=sympathy_judaism
+	trait=sympathy_vernacular
+	2646.12.25={birth=yes}
+	2663.12.25={employer=3046007}
+}
+
+1001077 ={
+	name="Naomi"
+	dynasty=1601101 #Hayward
+	dna=babfeefahcc
+	properties=ch0dnd00000000000000000000000000000000
+	female=yes
+	culture=northerner
+	religion=valinorist
+	martial=6
+	diplomacy=2
+	stewardship=4
+	intrigue=6
+	learning=5
+	disallow_random_traits=yes
+	add_trait=indulgent_wastrel
+	add_trait=diligent
+	add_trait=greedy
+	add_trait=drunkard
+	add_trait=dull
+	add_trait=cynical
+	add_trait=robust
+	add_trait=groomed
+	add_trait=painter
+	add_trait=rude
+	2635.5.25={birth=yes}
+	2659.5.25={effect={add_artifact = favorite_shades}}
+	2700.1.1={death=yes}
+}
+1001078 ={
+	name="Hugo"
+	dynasty=1001121 #Chakrabongse
+	culture=southeastasian
+	religion=sunni
+	trait=musician
+	2626.8.6={birth=yes
+		culture=southerner}
+	2666.1.1={employer=1001003}
+}
+1001079 ={
+	name="Barry"
+	dynasty=0
+	culture=northerner
+	religion=jacobin
+	trait=la_sociale
+	trait=kind
+	trait=gluttonous
+	trait=uncouth
+	trait=is_fat
+	trait=sympathy_islam
+	trait=sympathy_indian
+	trait=gregarious
+	trait=drunkard
+	properties=c0sc0k00
+	2603.5.12={birth=yes}
+}

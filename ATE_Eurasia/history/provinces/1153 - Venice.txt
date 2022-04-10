@@ -1,0 +1,29 @@
+#Venice
+
+# County Title
+title = c_venice
+
+# Settlements
+max_settlements = 6
+
+b_san_marco = city
+b_cannaregio = temple
+b_santa_croce = city
+b_san_polo = city
+b_castello = castle
+
+#b_dorsoduro = castle
+#b_lido = city
+
+# Misc
+culture = venetian
+religion = catholic
+
+# History
+
+800.1.1 = {
+	build_wonder = wonder_biblioteca_marciana
+}
+2600.1.1 = {
+	set_wonder_stage = 2
+}

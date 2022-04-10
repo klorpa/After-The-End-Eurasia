@@ -1,0 +1,1731 @@
+###ÄNSI
+1506000={
+	name="Abdulhamid"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	father=1506002
+	mother=2071071
+	learning=5
+	trait=mastermind_theologian
+	trait=poet
+	trait=mystic
+	trait=gregarious
+	trait=erudite
+	trait=groomed
+	trait=diligent
+	trait=pious
+	trait=mujaddidi
+	trait=faqih
+	trait=sayyid
+	trait=chaste
+	diplomacy=6
+	martial=6
+	stewardship=5
+	intrigue=7
+	learning=4
+	properties=ag00f
+	2633.2.22={birth=yes}
+	2664.8.11={effect={add_claim=k_fergana}}
+	2665.1.1 = {
+		effect = {
+			join_society = monastic_order_naqshbandi
+			set_society_grandmaster = yes
+		}
+	}
+}
+1506001={
+	name="Abdulhoshim"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	trait=sayyid
+	father=1506002
+	mother=2071071
+	2634.8.11={birth=yes}
+	2661.1.5={death=yes}
+}
+1506002={
+	name="Abdullo"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	trait=sayyid
+	father=1506004
+	mother=1506153
+	2615.4.1={birth=yes}
+	2650.8.22={death={death_reason=death_accident_drowning}} #Drowned in the Syr Darya
+}
+1506003={
+	name="Bobur"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	father=1506001
+	mother=1506033
+	trait=sayyid
+	trait=skilled_tactician
+	trait=robust
+	trait=ambitious
+	trait=envious
+	trait=brave
+	trait=erudite
+	trait=child_of_consort
+	trait=sympathy_pagans
+	martial=5
+	properties=ad00i
+	2648.8.11={birth=yes}
+	2648.8.11={effect={
+		add_claim=c_osh
+		add_claim=c_jalal_abad
+		add_claim=c_namangan
+		add_claim=k_samarkand}
+		}
+}
+1506004={
+	name="Rustam"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	trait=sayyid
+	father=1506006
+	mother=2071186
+	2599.11.4={birth=yes}
+	2640.7.12={death=yes}
+}
+1506005={
+	name="Abbos"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	trait=sayyid
+	father=1506006
+	mother=2071186
+	2598.12.12={birth=yes}
+	2641.8.18={death=yes}
+}
+1506006={
+	name="Jahongir"
+	dynasty=2112133 #Farg'oniy
+	culture=tajik
+	religion=naqshbandi
+	trait=sayyid
+	father=1506008
+	mother=1506031
+	2580.4.14={birth=yes
+		culture=uzbek}
+	2639.10.9={death=yes}
+}
+1506007={
+	name="Temur"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	trait=sayyid
+	father=1506008
+	mother=1506032
+	2567.7.1={birth=yes}
+	2601.1.19={
+		death={
+			death_reason=death_execution_garrotting
+			killer=1506006
+		}
+	}
+}
+1506008={
+	name="Yoqub"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	trait=sayyid
+	father=1506009
+	2541.3.9={birth=yes}
+	2600.8.11={death=yes}
+}
+1506009={
+	name="Muborak"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	trait=sayyid
+	father=1506010
+	2522.6.8={birth=yes}
+	2581.4.1={death=yes}
+}
+1506010={
+	name="Zafar"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	trait=sayyid
+	father=1506011
+	mother=1506074
+	2506.1.2={birth=yes}
+	2549.12.3={death=yes}
+}
+1506011={
+	name="Isfandiyor"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	trait=sayyid
+	2479.3.3={birth=yes}
+	2532.1.6={death=yes}
+}
+1506012={
+	name="Abbos"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	trait=sayyid
+	father=1506011
+	mother=1506074
+	2504.8.12={birth=yes}
+	2572.2.3={death=yes}
+}
+1506013={
+	name="Rustam"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	trait=sayyid
+	father=1506012
+	2530.7.21={birth=yes}
+	2574.2.30={death=yes}
+}
+1506014={
+	name="Afrosiyob"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	trait=sayyid
+	trait=ambitious
+	trait=zealous
+	trait=inspiring_leader
+	trait=skilled_tactician
+	trait=wroth
+	father=1506013
+	2551.4.19={birth=yes}
+	2574.9.12={death={death_reason=death_murder_unknown_lightning}}
+}
+1506015={
+	name="G'ayrat"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	trait=sayyid
+	father=1506013
+	2553.5.16={birth=yes}
+	2576.12.24={
+		death={
+			death_reason=death_murder
+			killer=1506016
+		}
+	}
+}
+1506016={
+	name="Siroj"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=shiite
+	trait=sayyid
+	father=1506013
+	2558.11.8={birth=yes}
+	2576.12.25={
+		death={
+			death_reason=death_execution_garrotting
+			killer=1506017
+		}
+	}
+}
+1506017={
+	name="Mahmud"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	trait=sayyid
+	father=1506012
+	2534.8.8={birth=yes}
+	2578.1.11={
+		death={
+			death_reason=death_execution_beheading
+			killer=1506008
+		}
+	}
+}
+1506018={
+	name="Arstanbek"
+	dynasty=2069082 #Çyngyzov
+	culture=kyrgyz
+	religion=naqshbandi
+	father=1506019
+	martial=5
+	trait=brilliant_strategist
+	trait=brave
+	trait=strong
+	trait=content
+	trait=shrewd
+	trait=diligent
+	trait=wroth
+	2635.12.8={birth=yes}
+}
+1506019={
+	name="Sadyr"
+	dynasty=2069082 #Çyngyzov
+	culture=kyrgyz
+	religion=naqshbandi
+	2601.2.11={birth=yes}
+	2654.1.12={death=yes}
+}
+1506020={
+	name="Turan"
+	female=yes
+	father=1506019
+	dynasty=2069082 #Çyngyzov
+	culture=kyrgyz
+	religion=naqshbandi
+	2631.12.1={birth=yes}
+	2651.2.5={
+			add_spouse=1506000
+		}
+}
+1506021={
+	name="Sadriddin"
+	dynasty=2069073 #Dokhundi
+	culture=tajik
+	religion=naqshbandi
+	trait=erudite
+	trait=poet
+	trait=sympathy_old_world_cults
+	father=1506034
+	mother=1506082
+	2611.4.15={birth=yes}
+}
+1506022={
+	name="Bahouddin"
+	dynasty=2069102 #Sinozoda
+	culture=tajik
+	religion=ruhi
+	trait=pious
+	trait=physician
+	trait=erudite
+	trait=fortune_builder
+	trait=temperate
+	trait=kind
+	trait=trusting
+	trait=sympathy_judaism
+	trait=diligent
+	father=1506026
+	mother=1506042
+	2631.6.22={birth=yes}
+	2665.5.5={
+		add_spouse=1506023
+		effect={add_lover=1506023}
+		effect={add_friend=1506024}}
+}
+1506023={
+	name="Malika"
+	dynasty=2069103 #Mullokandov
+	female=yes
+	culture=tajik
+	religion=ivri
+	trait=kind
+	trait=musician
+	trait=sympathy_islam
+	trait=charismatic_negotiator
+	trait=fair
+	trait=twin
+	trait=groomed
+	trait=honest
+	father=1506025
+	2638.4.8={birth=yes}
+}
+1506024={
+	name="Isroil"
+	dynasty=2069103 #Mullokandov
+	culture=tajik
+	religion=ivri
+	trait=brave
+	trait=wroth
+	trait=sympathy_islam
+	trait=skilled_tactician
+	trait=fair
+	trait=twin
+	trait=uncouth
+	trait=hunter
+	father=1506025
+	2638.4.8={birth=yes}
+}
+1506025={
+	name="Sulaymon"
+	dynasty=2069103 #Mullokandov
+	culture=tajik
+	religion=ivri
+	trait=sympathy_islam
+	2611.2.6={birth=yes}
+}
+1506026={
+	name="Olim"
+	dynasty=2069102 #Sinozoda
+	culture=tajik
+	religion=ruhi
+	father=1506027
+	mother=1506057
+	2608.4.6={birth=yes}
+	2653.1.23={death=yes}
+}
+1506027={
+	name="Muzaffar"
+	dynasty=2069102 #Sinozoda
+	culture=tajik
+	religion=ruhi
+	father=1506028
+	2581.11.2={birth=yes}
+	2637.8.4={death=yes}
+}
+1506028={
+	name="Umar"
+	dynasty=2069102 #Sinozoda
+	culture=tajik
+	religion=ruhi
+	father=1506029
+	2555.5.7={birth=yes}
+	2594.4.21={death=yes}
+}
+1506029={
+	name="Salohuddin"
+	dynasty=2069102 #Sinozoda
+	culture=tajik
+	religion=ruhi
+	2530.3.12={birth=yes}
+	2583.11.23={death=yes}
+}
+1506030={
+	name="Odin"
+	dynasty=2069102 #Sinozoda
+	culture=tajik
+	religion=ruhi
+	father=1506027
+	mother=1506057
+	2615.5.6={birth=yes}
+}
+1506031={
+	name="Hadija"
+	female=yes
+	dynasty=2069102 #Sinozoda
+	culture=tajik
+	religion=ruhi
+	father=1506029
+	2558.7.14={birth=yes}
+	2577.1.1={add_spouse=1506008}
+	2610.10.28={death=yes}
+}
+1506032={
+	name="Gulzoda"
+	female=yes
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	father=1506013
+	2549.5.19={birth=yes}
+	2567.1.1={add_spouse=1506008}
+	2592.4.21={death=yes}
+}
+1506033={
+	name="Zinura"
+	female=yes
+	dynasty=0
+	culture=uzbek
+	religion=naqshbandi
+	2628.10.28={birth=yes}
+}
+1506034={
+	name="Imron"
+	dynasty=2069073 #Dokhundi
+	culture=tajik
+	religion=naqshbandi
+	2584.7.29={birth=yes}
+	2619.11.4={death=yes}
+}
+1506035={
+	name="Forozan"
+	female=yes
+	dynasty=2069073 #Dokhundi
+	culture=tajik
+	religion=naqshbandi
+	father=1506034
+	mother=1506082
+	2617.7.19={birth=yes}
+	2639.1.1={add_spouse=2071015}
+}
+1506036={
+	name="Abdukodir"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	trait=sayyid
+	trait=charismatic_negotiator
+	trait=selfish
+	trait=temperate
+	trait=humble
+	trait=arbitrary
+	diplomacy=9
+	martial=4
+	stewardship=9
+	intrigue=4
+	learning=1
+	father=1506002
+	mother=2071071
+	2637.3.31={birth=yes}
+	2660.1.1={employer=1506000}
+}
+1506037={
+	name="Nizomiddin"
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=naqshbandi
+	trait=celibate
+	trait=temperate
+	trait=poet
+	trait=mystic
+	trait=skilled_tactician
+	trait=brave
+	trait=quick
+	diplomacy=8
+	martial=7
+	stewardship=5
+	intrigue=4
+	learning=8
+	father=1506044
+	mother=1506083
+	2641.2.9={birth=yes}
+	2655.1.1={effect={add_friend=1506000}}
+}
+1506038={
+	name="Berdimurat"
+	dynasty=2075082 #Ku'nxojaev
+	culture=karakalpak
+	religion=zimiran
+	father=1506040
+	trait=midas_touched
+	trait=ruthless
+	trait=poet
+	trait=diligent
+	trait=sympathy_islam
+	trait=erudite
+	trait=humble
+	diplomacy=9
+	martial=4
+	stewardship=3
+	intrigue=9
+	learning=9
+	2627.7.13={birth=yes}
+}
+1506039={
+	name="A'jiniyaz"
+	dynasty=2075083 #Ziywar
+	culture=karakalpak
+	religion=zimiran
+	trait=musician
+	trait=skilled_tactician
+	trait=gregarious
+	trait=ambitious
+	trait=gluttonous
+	trait=wroth
+	trait=scarred_high
+	diplomacy=8
+	martial=9
+	stewardship=7
+	intrigue=5
+	learning=8
+	father=1506051
+	mother=1506107
+	2635.5.31={birth=yes}
+}
+1506040={
+	name="G'arg'abay"
+	dynasty=2075082 #Ku'nxojaev
+	culture=karakalpak
+	religion=zimiran
+	father=1506041
+	2605.3.6={birth=yes}
+	2657.12.29={death=yes}
+}
+1506041={
+	name="Boranbay"
+	dynasty=2075082 #Ku'nxojaev
+	culture=karakalpak
+	religion=zimiran
+	2578.12.23={birth=yes}
+	2632.11.20={death=yes}
+}
+1506042={
+	name="Aysary"
+	female=yes
+	dynasty=2075082 #Ku'nxojaev
+	culture=karakalpak
+	religion=zimiran
+	father=1506041
+	2610.6.28={birth=yes}
+	2628.1.1={add_spouse=1506026}
+	2663.3.6={death=yes}
+}
+1506043={
+	name="Bibizada"
+	female=yes
+	dynasty=2075082 #Ku'nxojaev
+	culture=karakalpak
+	religion=zimiran
+	father=1506041
+	2599.10.2={birth=yes}
+	2618.1.1={add_spouse=2071116}
+}
+1506044={
+	name="G'iyosiddin"
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=naqshbandi
+	father=1506045
+	mother=1506129
+	2619.9.23={birth=yes}
+	2659.12.3={death=yes}
+}
+1506045={
+	name="Nizomiddin"
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=naqshbandi
+	father=1506056
+	2584.11.25={birth=yes}
+	2626.10.14={death=yes}
+}
+1506046={
+	name="Qutbiddin"
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=naqshbandi
+	father=1506045
+	mother=1506049
+	trait=child_of_consort
+	2610.12.10={birth=yes}
+	2650.8.22={death={death_reason=death_accident_drowning}} #Drowned in the Syr Darya
+}
+1506047={
+	name="Sayfiddin"
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=naqshbandi
+	father=1506046
+	mother=1506084
+	2648.9.18={birth=yes}
+}
+1506048={
+	name="Xusniddin"
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=naqshbandi
+	father=1506045
+	mother=1506129
+	2622.12.10={birth=yes}
+}
+1506049={
+	name="Sitora"
+	female=yes
+	dynasty=0
+	culture=uzbek
+	religion=naqshbandi
+	2588.12.30={birth=yes}
+	2650.6.23={death=yes}
+}
+1506050={
+	name="Zinura"
+	female=yes
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	trait=sayyid
+	father=1506005
+	mother=1506152
+	2612.11.18={birth=yes}
+	2628.1.1={add_spouse=2071041}
+}
+1506051={
+	name="Qosibay"
+	dynasty=2075083 #Ziywar
+	culture=karakalpak
+	religion=zimiran
+	father=1506052
+	2611.5.9={birth=yes}
+	2661.7.14={death=yes}
+}
+1506052={
+	name="Uteniyaz"
+	dynasty=2075083 #Ziywar
+	culture=karakalpak
+	religion=zimiran
+	2582.1.15={birth=yes}
+	2629.3.1={death=yes}
+}
+1506053={
+	name="Baltabek"
+	dynasty=2075083 #Ziywar
+	culture=karakalpak
+	religion=zimiran
+	father=1506051
+	mother=1506107
+	trait=twin
+	2637.1.10={birth=yes}
+}
+1506054={
+	name="Aqjigit"
+	dynasty=2075083 #Ziywar
+	culture=karakalpak
+	religion=zimiran
+	father=1506051
+	mother=1506107
+	trait=twin
+	2637.1.10={birth=yes}
+}
+1506055={
+	name="Elmurad"
+	dynasty=2075083 #Ziywar
+	culture=karakalpak
+	religion=zimiran
+	father=1506052
+	2618.2.21={birth=yes}
+}
+1506056={
+	name="Fazliddin"
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=naqshbandi
+	2566.7.15={birth=yes}
+	2612.1.17={death=yes}
+}
+1506057={
+	name="Feruza"
+	female=yes
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=naqshbandi
+	father=1506056
+	2586.9.7={birth=yes}
+	2605.11.1={add_spouse=1506027}
+	2637.3.10={death=yes}
+}
+1506058={
+	name="Malika"
+	female=yes
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=naqshbandi
+	father=1506044
+	mother=1506083
+	2644.7.17={birth=yes}
+}
+1506059={
+	name="Ádilhan" #wrestler who turned to faith 
+	dynasty=2040145 #Derbisáli 
+	culture=kazakh
+	religion=taharur
+	father=1506070
+	trait=duelist
+	trait=strong
+	trait=scarred
+	trait=sturdy
+	trait=uncouth
+	trait=scholarly_theologian
+	trait=wroth
+	trait=pious
+	trait=charitable
+	trait=faqih
+	trait=hafiz
+	trait=hajjaj
+	trait=peasant_leader
+	diplomacy=7
+	martial=8
+	stewardship=4
+	intrigue=5
+	learning=8
+	2624.9.11={birth=yes}
+}
+1506070={
+	name="Sultanbek"
+	dynasty=2040145 #Derbisáli 
+	culture=kazakh
+	religion=taharur
+	2601.2.24={birth=yes}
+	2646.1.23={death=yes}
+}
+1506071={
+	name="Ábsattar"
+	dynasty=2040146 #Kemel 
+	culture=kazakh
+	religion=zimiran
+	trait=theologian
+	trait=tough_soldier
+	trait=scholar
+	2639.8.31={birth=yes}
+}
+1506072={
+	name="Xudoyor"
+	dynasty=2112136 #Ming 
+	culture=tajik
+	religion=ruhi
+	trait=gamer
+	trait=giant
+	trait=paranoid
+	father=1506087
+	mother=2071184
+	2624.12.5={birth=yes
+		culture=uzbek}
+}
+1506073={
+	name="Fayzali"
+	dynasty=2069105 #Osronov 
+	culture=tajik
+	religion=ruhi
+	father=1506092
+	2637.3.29={birth=yes}
+}
+1506074={
+	name="Dinara"
+	female=yes
+	dynasty=0
+	culture=kyrgyz
+	religion=zimiran
+	2485.3.30={birth=yes}
+	2501.1.1={add_spouse=1506011}
+	2527.3.22={death=yes}
+}
+1506075={
+	name="Temurmalik"
+	dynasty=2069106 #Ayni
+	culture=uzbek
+	religion=ruhi
+	trait=brave
+	trait=inspiring_leader
+	trait=unyielding_leader
+	trait=defensive_leader
+	trait=midas_touched
+	trait=diligent
+	father=1506079
+	2624.6.14={birth=yes
+		culture=tajik}
+}
+1506076={
+	name="Murod"
+	dynasty=2069073 #Dokhundi
+	culture=tajik
+	religion=naqshbandi
+	father=1506021
+	mother=1506081
+	2634.10.13={birth=yes}
+}
+1506077={
+	name="Kamol"
+	dynasty=2069073 #Dokhundi
+	culture=tajik
+	religion=naqshbandi
+	father=1506021
+	mother=1506081
+	2639.5.21={birth=yes}
+}
+1506078={
+	name="Dilarom"
+	female=yes
+	dynasty=2069073 #Dokhundi
+	culture=tajik
+	religion=naqshbandi
+	father=1506021
+	mother=1506081
+	2637.5.21={birth=yes}
+	2656.1.1={add_spouse=1506073}
+}
+1506079={
+	name="Arslonbek"
+	dynasty=2069106 #Ayni
+	culture=uzbek
+	religion=ruhi
+	father=1506080
+	2600.6.4={birth=yes
+		culture=tajik}
+	2661.11.14={death=yes}
+}
+1506080={
+	name="Urunboy"
+	dynasty=2069106 #Ayni
+	culture=uzbek
+	religion=ruhi
+	2578.10.2={birth=yes
+		culture=tajik}
+	2635.8.13={death=yes}
+}
+1506081={
+	name="Turdikhon"
+	female=yes
+	dynasty=2069106 #Ayni
+	culture=uzbek
+	religion=ruhi
+	father=1506080
+	2614.6.8={birth=yes
+		culture=tajik}
+	2633.1.1={add_spouse=1506021}
+}
+1506082={
+	name="Delkash"
+	female=yes
+	dynasty=0
+	culture=tajik
+	religion=naqshbandi
+	2590.7.30={birth=yes}
+	2610.1.1={add_spouse=1506034}
+}
+1506083={
+	name="Mu'tabar"
+	female=yes
+	dynasty=2069102 #Sinozoda
+	culture=tajik
+	religion=naqshbandi
+	father=1506027
+	mother=1506057
+	2618.10.18={birth=yes}
+	2638.1.1={add_spouse=1506044}
+	2655.12.5={death=yes}
+}
+1506084={
+	name="Galya"
+	female=yes
+	dynasty=0
+	culture=kazakh
+	religion=zimiran
+	2630.6.15={birth=yes}
+	2637.1.1={add_spouse=1506046}
+}
+1506085={
+	name="Indira"
+	female=yes
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=naqshbandi
+	father=1506046
+	mother=1506084
+	2649.10.9={birth=yes}
+}
+1506086={
+	name="Tursun"
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	father=1506001
+	mother=1506156
+	trait=sayyid
+	trait=envious
+	trait=ambitious
+	2649.12.16={birth=yes}
+	2649.12.16={effect={
+		add_claim=c_osh
+		add_claim=c_jalal_abad
+		add_claim=c_namangan
+		add_claim=k_samarkand
+		add_claim=k_fergana}
+	}
+	2660.1.1={employer=1506003}
+}
+1506087={
+	name="Nasriddin"
+	dynasty=2112136 #Ming 
+	culture=tajik
+	religion=ruhi
+	father=1506147
+	2596.10.13={birth=yes
+		culture=uzbek}
+	2657.10.29={death=yes}
+}
+1506088={
+	name="Mohlaroyim"
+	female=yes
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=naqshbandi
+	father=1506045
+	mother=1506129
+	2626.4.21={birth=yes}
+	2641.1.1={add_spouse=1506075}
+}
+1506089={
+	name="Shohtemur"
+	dynasty=2069106 #Ayni
+	culture=uzbek
+	religion=ruhi
+	father=1506075
+	mother=1506088
+	2642.3.13={birth=yes
+		culture=tajik}
+}
+1506090={
+	name="Gulnigor"
+	female=yes
+	dynasty=2069106 #Ayni
+	culture=uzbek
+	religion=ruhi
+	father=1506075
+	mother=1506088
+	2643.4.5={birth=yes
+		culture=tajik}
+}
+1506091={
+	name="Nazarbegim"
+	female=yes
+	dynasty=2069106 #Ayni
+	culture=uzbek
+	religion=ruhi
+	father=1506075
+	mother=1506088
+	2644.3.20={birth=yes
+		culture=tajik}
+}
+1506092={
+	name="Yoqub"
+	dynasty=2069105 #Osronov 
+	culture=tajik
+	religion=ruhi
+	father=1506093
+	mother=1506140
+	2602.10.18={birth=yes}
+	2648.3.30={death=yes}
+}
+1506093={
+	name="Azimullo"
+	dynasty=2069105 #Osronov 
+	culture=tajik
+	religion=ruhi
+	2578.10.30={birth=yes}
+	2619.4.25={death=yes}
+}
+1506094={
+	name="Firuza"
+	female=yes
+	dynasty=2069105 #Osronov 
+	culture=tajik
+	religion=ruhi
+	father=1506092
+	mother=1506140
+	2635.5.10={birth=yes}
+	2655.4.25={add_spouse=1506048}
+}
+1506095={
+	name="Fazliddin"
+	dynasty=2112135 #Alisher
+	culture=uzbek
+	religion=naqshbandi
+	father=1506048
+	mother=1506094
+	2657.3.13={birth=yes}
+}
+1506096={
+	name="Qurmanghazy"
+	dynasty=2040148 #Ábilqaiyruly
+	culture=kazakh
+	religion=zimiran
+	trait=poet
+	trait=musician
+	trait=familyperson
+	trait=uncouth
+	trait=gregarious
+	trait=charismatic_negotiator
+	trait=honorable
+	trait=cavalry_leader
+	trait=flanker
+	trait=diligent
+	trait=zealous
+	martial=9
+	father=1506108
+	2607.9.3={birth=yes}
+	2660.1.1={effect={add_rival=1506109}}
+}
+1506097={
+	name="Ruslan"
+	dynasty=2040150 #Sátbaev
+	culture=kazakh
+	religion=roerichist
+	trait=physician
+	trait=scholar
+	trait=paranoid
+	trait=patient
+	trait=diligent
+	trait=ruthless
+	trait=scholarly_theologian
+	2624.12.23={birth=yes}
+}
+1506098={
+	name="Teñiz"
+	dynasty=2040149 #Nýrkin
+	culture=kazakh
+	religion=zimiran
+	trait=is_fat
+	trait=gluttonous
+	trait=charitable
+	trait=seducer
+	trait=gregarious
+	trait=midas_touched
+	trait=honest
+	trait=lustful
+	trait=quick
+	stewardship=9
+	father=1506124
+	2630.9.8={birth=yes}
+}
+1506099={
+	name="Marat"
+	dynasty=2040151 #Qarakesek
+	culture=kazakh
+	religion=zimiran
+	trait=brilliant_strategist
+	trait=feeble
+	trait=inspiring_leader
+	trait=humble
+	trait=wroth
+	trait=stubborn
+	father=1506135
+	trait=flat_terrain_leader
+	2641.11.12={birth=yes}
+}
+1506100={
+	name="Kanatbek"
+	dynasty=2071020 #Sher-Niyaz
+	culture=kyrgyz
+	religion=zimiran
+	trait=grey_eminence
+	trait=painter
+	trait=shy
+	trait=charitable
+	trait=proud
+	2628.3.10={birth=yes}
+}
+1506101={
+	name="Jamiyla"
+	dynasty=2069084 #Datka
+	female=yes
+	culture=kyrgyz
+	religion=ak_jeng
+	trait=grey_eminence
+	trait=fair
+	trait=strong
+	trait=lustful
+	trait=brave
+	trait=honest
+	trait=proud
+	trait=mountain_terrain_leader
+	2643.3.10={birth=yes}
+}
+1506102={
+	name="Sadyk"
+	dynasty=2071065 #Jekshenkulov
+	culture=kyrgyz
+	religion=ak_jeng
+	trait=envious
+	trait=strong
+	trait=brave
+	trait=skilled_tactician
+	2641.9.14={birth=yes}
+	2666.1.1={add_matrilineal_spouse=1506101}
+}
+1506103={
+	name="Daniyar"
+	dynasty=2040081 #Qosanov
+	culture=kazakh
+	religion=zimiran
+	trait=fair
+	trait=kind
+	trait=midas_touched
+	trait=gregarious
+	trait=clubfooted
+	2646.4.7={birth=yes}
+	2666.1.1={effect={add_lover=1506101}
+		employer=1506101}
+}
+1506104={
+	name="Shamsiddin"
+	dynasty=2069073 #Dokhundi
+	culture=tajik
+	religion=naqshbandi
+	trait=giant
+	father=1506076
+	mother=2071191
+	2660.3.7={birth=yes}
+}
+1506105={
+	name="Bekzat"
+	female=yes
+	dynasty=2071020 #Sher-Niyaz
+	culture=kyrgyz
+	religion=zimiran
+	trait=grey_eminence
+	father=1506100
+	2648.5.4={birth=yes}
+	2666.1.1={add_spouse=1506003}
+}
+1506106={
+	name="Shakirbek"
+	dynasty=2071020 #Sher-Niyaz
+	culture=kyrgyz
+	religion=zimiran
+	father=1506100
+	2653.3.9={birth=yes}
+}
+1506107={
+	name="Nazira"
+	female=yes
+	dynasty=2040148 #Ábilqaiyruly
+	culture=kazakh
+	religion=zimiran
+	father=1506108
+	2613.10.31={birth=yes}
+	2633.1.1={add_spouse=1506051}
+	2659.1.27={death=yes}
+}
+1506108={
+	name="Saghyrbai"
+	dynasty=2040148 #Ábilqaiyruly
+	culture=kazakh
+	religion=zimiran
+	father=1506130
+	2581.1.1={birth=yes}
+	2632.12.31={death=yes}
+}
+1506109={
+	name="Ýálihan"
+	dynasty=2040152 #Kenesaryuly
+	culture=kazakh
+	religion=zimiran
+	trait=cruel
+	trait=adventurer
+	trait=scholar
+	trait=skilled_tactician
+	trait=gregarious
+	trait=cynical
+	trait=sympathy_islam
+	trait=sympathy_judaism
+	trait=sympathy_christendom
+	martial=9
+	trait=light_foot_leader
+	father=1506119
+	2644.4.10={birth=yes}
+}
+1506110={
+	name="Oisha"
+	female=yes
+	dynasty=2069105 #Osronov 
+	culture=tajik
+	religion=ruhi
+	father=1506073
+	mother=1506078
+	2656.11.9={birth=yes}
+}
+1506111={
+	name="Daler"
+	dynasty=2069105 #Osronov 
+	culture=tajik
+	religion=ruhi
+	father=1506092
+	mother=1506140
+	2639.7.12={birth=yes}
+}
+1506112={
+	name="Isfandiyor"
+	dynasty=2069105 #Osronov 
+	culture=tajik
+	religion=ruhi
+	father=1506092
+	mother=1506140
+	2641.7.3={birth=yes}
+}
+1506113={
+	name="Jánibek"
+	dynasty=2040153 #Töre 
+	culture=kazakh
+	religion=ruhi
+	trait=altan_urag
+	trait=genius
+	trait=just
+	trait=faqih
+	give_nickname=nick_the_wise
+	father=1506118
+	2645.6.29={birth=yes}
+}
+1506114={
+	name="Edige"
+	dynasty=2040114 #Aiymetov 
+	culture=kazakh
+	religion=zimiran
+	trait=kind
+	trait=gregarious
+	trait=stubborn
+	trait=wroth
+	trait=zealous
+	trait=familyperson
+	trait=diligent
+	trait=charitable
+	give_nickname=nick_burannyi
+	father=1506128
+	2611.5.7={birth=yes}
+	2660.1.1={add_consort=1506116}
+}
+1506115={
+	name="Kazangap"
+	dynasty=2040154 #Asanbiev
+	culture=kazakh
+	religion=zimiran
+	trait=proud
+	trait=strong
+	2601.1.10={birth=yes}
+	2650.1.1={effect={add_friend=1506114}}
+}
+1506116={
+	name="Zaripa"
+	female=yes
+	dynasty=0
+	culture=kazakh
+	religion=zimiran
+	trait=fair
+	2633.8.11={birth=yes}
+	2650.1.1={effect={add_lover=1506114}
+		employer=1506114}
+}
+1506117={
+	name="Qarluq"
+	dynasty=2040153 #Töre 
+	culture=kazakh
+	religion=ruhi
+	trait=altan_urag
+	trait=quick
+	trait=brave
+	trait=kind
+	trait=proud
+	father=1506118
+	2653.11.11={birth=yes}
+	2660.1.1={effect={add_friend=1506113}}
+}
+1506118={
+	name="Qasym"
+	dynasty=2040153 #Töre 
+	culture=kazakh
+	religion=ruhi
+	trait=altan_urag
+	father=1506126
+	2619.6.10={birth=yes}
+	2657.9.26={death=yes}
+}
+1506119={
+	name="Berik"
+	dynasty=2040152 #Kenesaryuly
+	culture=kazakh
+	religion=zimiran
+	2612.9.12={birth=yes}
+	2663.8.30={death={death_reason=death_battle
+		killer=1506096}}
+}
+1506120={
+	name="Amira"
+	female=yes
+	dynasty=2040152 #Kenesaryuly
+	culture=kazakh
+	religion=zimiran
+	trait=strong
+	trait=brave
+	trait=charitable
+	trait=gregarious
+	trait=hunter
+	trait=diligent
+	father=1506119
+	2646.3.13={birth=yes}
+	2666.1.1={add_spouse=1506117
+		effect={add_friend=1506117}}
+}
+1506121={
+	name="Riza"
+	dynasty=2040149 #Nýrkin
+	culture=kazakh
+	religion=zimiran
+	father=1506124
+	2633.3.7={birth=yes}
+}
+1506122={
+	name="Alishiia"
+	female=yes
+	dynasty=2040149 #Nýrkin
+	culture=kazakh
+	religion=zimiran
+	father=1506124
+	2637.9.29={birth=yes}
+	2660.1.1={add_spouse=1802065}
+}
+1506123={
+	name="Alfina"
+	female=yes
+	dynasty=2040149 #Nýrkin
+	culture=kazakh
+	religion=zimiran
+	father=1506124
+	2635.4.20={birth=yes}
+}
+1506124={
+	name="Bolat"
+	dynasty=2040149 #Nýrkin
+	culture=kazakh
+	religion=zimiran
+	2605.9.12={birth=yes}
+	2663.4.12={death=yes}
+}
+1506125={
+	name="Tólen"
+	dynasty=2040149 #Nýrkin
+	culture=kazakh
+	religion=zimiran
+	father=1506124
+	2640.1.22={birth=yes}
+}
+1506126={
+	name="Buryndyq"
+	dynasty=2040153 #Töre 
+	culture=kazakh
+	religion=ruhi
+	trait=altan_urag
+	2584.6.10={birth=yes}
+	2639.5.14={death=yes}
+}
+1506127={
+	name="Kámshat"
+	female=yes
+	dynasty=2040153 #Töre 
+	culture=kazakh
+	religion=ruhi
+	trait=altan_urag
+	father=1506126
+	2625.8.9={birth=yes}
+	2645.1.1={add_spouse=1506072}
+}
+1506128={
+	name="Mádi"
+	dynasty=2040114 #Aiymetov 
+	culture=kazakh
+	religion=zimiran
+	2581.2.14={birth=yes}
+	2640.4.22={death=yes}
+}
+1506129={
+	name="Gúlnar"
+	female=yes
+	dynasty=2040114 #Aiymetov 
+	culture=kazakh
+	religion=zimiran
+	father=1506128
+	2600.9.9={birth=yes}
+	2618.1.1={add_spouse=1506045}
+}
+1506130={
+	name="Kenjeq"
+	dynasty=2040148 #Ábilqaiyruly
+	culture=kazakh
+	religion=zimiran
+	father=1506131
+	2559.6.23={birth=yes}
+	2611.4.19={death=yes}
+}
+1506131={
+	name="Nurpeiis"
+	dynasty=2040148 #Ábilqaiyruly
+	culture=kazakh
+	religion=zimiran
+	father=1506132
+	trait=poet
+	2542.2.12={birth=yes}
+	2600.4.29={death=yes}
+}
+1506132={
+	name="Ábilqaiyr"
+	dynasty=2040148 #Ábilqaiyruly
+	culture=kazakh
+	religion=zimiran
+	father=1506133
+	mother=1506134
+	2523.9.4={birth=yes}
+	2559.6.17={death=yes}
+}
+1506133={
+	name="Áljan"
+	dynasty=2040155 #Baighanin
+	culture=kazakh
+	religion=zimiran
+	trait=depressed
+	2497.11.12={birth=yes}
+	2548.6.17={death={death_reason=death_trait}}
+}
+1506134={
+	name="Hadisha"
+	female=yes
+	dynasty=2040156 #Arghyn
+	culture=kazakh
+	religion=zimiran
+	2497.11.12={birth=yes}
+	2522.1.1={add_spouse=1506133}
+	2546.3.9={death=yes}
+}
+1506135={
+	name="Eljan"
+	dynasty=2040151 #Qarakesek
+	culture=kazakh
+	religion=zimiran
+	father=1506136
+	2612.8.14={birth=yes}
+	2665.8.2={death=yes}
+}
+1506136={
+	name="Myrzageldi"
+	dynasty=2040151 #Qarakesek
+	culture=kazakh
+	religion=zimiran
+	2584.12.13={birth=yes}
+	2640.5.7={death=yes}
+}
+1506137={
+	name="Aqtoty"
+	female=yes
+	dynasty=2040151 #Qarakesek
+	culture=kazakh
+	religion=zimiran
+	father=1506136
+	2610.2.16={birth=yes}
+	2630.1.1={add_spouse=1506096}
+}
+1506138={
+	name="Dálelhan"
+	dynasty=2040157 #Qajyghumaruly
+	culture=kazakh
+	religion=ak_jeng
+	2629.3.10={birth=yes}
+}
+1506139={
+	name="Dinmuhammed"
+	dynasty=2040148 #Ábilqaiyruly
+	culture=kazakh
+	religion=zimiran
+	father=1506096
+	mother=1506137
+	trait=musician
+	trait=charitable
+	trait=sympathy_islam
+	trait=sympathy_christendom
+	trait=fair
+	2639.5.24={birth=yes}
+	2660.1.1={effect={add_rival=1506109}}
+}
+1506140={
+	name="Tanzila"
+	female=yes
+	dynasty=2112136 #Ming 
+	culture=uzbek
+	religion=ruhi
+	trait=poet
+	father=1506087
+	mother=2071184
+	2618.3.28={birth=yes}
+	2634.1.1={add_spouse=1506092}
+}
+1506141={
+	name="Islam"
+	dynasty=2040158 #Tursyn 
+	culture=kazakh
+	religion=ruhi
+	trait=zealous
+	trait=humble
+	trait=stressed
+	2604.5.29={birth=yes}
+}
+1506142={
+	name="Said"
+	dynasty=2080089 #Khoja 
+	culture=uighur
+	religion=ahl_as_salaf
+	trait=zealous
+	trait=midas_touched
+	trait=holy_warrior
+	trait=familyperson
+	trait=brave
+	trait=wroth
+	trait=just
+	father=1506143
+	2633.5.11={birth=yes}
+}
+1506143={
+	name="Abdulatif"
+	dynasty=2080089 #Khoja 
+	culture=uighur
+	religion=ahl_as_salaf
+	father=1506144
+	trait=twin
+	2609.10.1={birth=yes}
+	2657.3.2={death=yes}
+}
+1506144={
+	name="Yulbars"
+	dynasty=2080089 #Khoja 
+	culture=uighur
+	religion=naqshbandi
+	2574.9.25={birth=yes}
+	2625.3.11={death=yes}
+}
+1506145={
+	name="Ismail"
+	dynasty=2080089 #Khoja 
+	culture=uighur
+	religion=naqshbandi
+	father=1506144
+	trait=twin
+	2609.10.1={birth=yes}
+	2640.8.29={death=yes}
+}
+1506146={
+	name="Yahiya"
+	dynasty=2080089 #Khoja 
+	culture=uighur
+	religion=naqshbandi
+	trait=ruthless
+	trait=intricate_webweaver
+	trait=familyperson
+	trait=sympathy_old_world_cults
+	trait=sympathy_indian
+	trait=sympathy_pagans
+	trait=proud
+	trait=just
+	trait=ambitious
+	trait=deceitful
+	father=1506145
+	2630.10.7={birth=yes}
+	2660.1.1={effect={add_friend=1506142}}
+}
+1506147={
+	name="Murod"
+	dynasty=2112136 #Ming 
+	culture=uzbek
+	religion=ruhi
+	father=1506148
+	2571.5.17={birth=yes}
+	2628.2.23={death=yes}
+}
+1506148={
+	name="Sherali"
+	dynasty=2112136 #Ming 
+	culture=uzbek
+	religion=ruhi
+	father=1506149
+	2544.2.24={birth=yes}
+	2599.10.5={death=yes}
+}
+1506149={
+	name="Olim"
+	dynasty=2112136 #Ming 
+	culture=uzbek
+	religion=ruhi
+	2518.11.10={birth=yes}
+	2557.9.8={death=yes}
+}
+1506150={
+	name="Arslon"
+	dynasty=2112133 #Farg'oniy
+	father=1506007
+	mother=1506151
+	culture=uzbek
+	religion=ruhi
+	2584.4.6={birth=yes}
+	2601.1.19={
+		death={
+			death_reason=death_execution_garrotting
+			killer=1506006
+		}
+	}
+}
+1506151={
+	name="Indira"
+	female=yes
+	dynasty=2112136 #Ming 
+	culture=uzbek
+	religion=ruhi
+	father=1506148
+	2565.10.2={birth=yes}
+	2582.1.1={add_spouse=1506007}
+	2601.1.19={
+		death={
+			death_reason=death_execution_garrotting
+			killer=1506006
+		}
+	}
+}
+1506152={
+	name="Fazilat"
+	female=yes
+	dynasty=2112133 #Farg'oniy
+	father=1506007
+	mother=1506151
+	culture=uzbek
+	religion=ruhi
+	2582.9.9={birth=yes}
+	2612.1.1={add_spouse=1506005}
+	2638.11.17={death=yes}
+}
+1506153={
+	name="Nazokat"
+	female=yes
+	dynasty=2112133 #Farg'oniy
+	father=1506007
+	mother=1506151
+	culture=uzbek
+	religion=ruhi
+	2586.1.19={birth=yes}
+	2614.1.1={add_spouse=1506004}
+	2624.11.27={death=yes}
+}
+1506154={
+	name="Halima"
+	female=yes
+	dynasty=2112133 #Farg'oniy
+	father=1506000
+	mother=1506020
+	culture=uzbek
+	religion=naqshbandi
+	2653.7.24={birth=yes}
+}
+1506155={
+	name="Komila"
+	female=yes
+	dynasty=2069073 #Dokhundi
+	culture=tajik
+	religion=naqshbandi
+	father=1506021
+	mother=1506081
+	2643.5.20={birth=yes}
+	2666.1.1={add_spouse=1506000}
+}
+1506156={
+	name="Dilhumar"
+	female=yes
+	dynasty=2080089 #Khoja 
+	culture=uighur
+	religion=naqshbandi
+	father=1506145
+	2629.1.12={birth=yes}
+	2648.1.1={add_spouse=1506001}
+}
+1506157={
+	name="Akgul"
+	female=yes
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	father=1506001
+	mother=1506156
+	trait=sayyid
+	2653.12.16={birth=yes}
+	2660.1.1={employer=1506003}
+}
