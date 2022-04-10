@@ -580,6 +580,50 @@ character_event = {
 							set_society_grandmaster = yes
 						}
 					}
+					100 = { #naqshbandi
+						trigger = {
+							can_join_society = monastic_order_naqshbandi
+						}
+						modifier = {
+							factor = 3
+							OR = {
+								trait = zair
+								trait = hafiz
+								trait = mystic
+								trait = theologian
+								learning = 16
+								is_priest = yes
+							}
+						}
+						modifier = {
+							factor = 0.1
+							is_female = yes
+						}
+						join_society = monastic_order_naqshbandi
+						random_list = { # Artificially increase society influence for balance purposes
+							75 = {
+								modifier = {
+									factor = 0
+									society_influence >= 30
+								}
+								add_mission_succeed_influence_effect = yes
+							}
+							25 = {
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									society = {
+										any_society_member = {
+											is_society_grandmaster = yes
+										}
+									}
+								}
+							}
+							set_society_grandmaster = yes
+						}
+					}
 				}
 			}
 		}
@@ -8629,6 +8673,47 @@ narrative_event = { #ibadi
 			NOR = { 
 				society_member_of = monastic_order_ibadi 
 				has_sufi_societies_religion_ibadi = yes
+			}
+		}
+	}
+}
+narrative_event = { #naqshbandi
+	id = SUFI.25030
+	title = EVTTITLESUFI25030
+	desc = EVTDESCSUFI25030
+	hide_from = yes
+	hide_new = yes
+
+	picture = GFX_evt_imam
+	
+	only_playable = yes
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASUFI25030
+		trigger = {
+			OR = { 
+				society_member_of = monastic_order_naqshbandi 
+				has_sufi_societies_religion_naqshbandi = yes
+				can_join_society = monastic_order_naqshbandi
+			}
+		}
+		if = {
+			limit = { 
+				NOT = { society_member_of = monastic_order_naqshbandi }
+				can_join_society = monastic_order_naqshbandi
+			}
+			join_society = monastic_order_naqshbandi
+		}
+	}
+	option = {
+		name = EVTOPTBSUFI25030
+		trigger = {
+			NOR = { 
+				society_member_of = monastic_order_naqshbandi 
+				has_sufi_societies_religion_naqshbandi = yes
 			}
 		}
 	}

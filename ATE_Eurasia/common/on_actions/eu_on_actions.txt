@@ -25,6 +25,15 @@ on_yearly_pulse = {
 on_bi_yearly_pulse = {
 	events = {
 		jewish.15 # Breslover Hitboddedut
+		SUFI.4000 # Sufi order quest tombola
+	}
+	random_events = {
+		100 = SUFI.3260 # Sufi Orders: Advising a Poet
+		100 = SUFI.4200 # Sufi Orders: Learning about Roses
+		100 = SUFI.4210 # Sufi Orders: Fellow member drowsing off
+		100 = SUFI.4435 # Sufi Orders: Friendship & Love
+		100 = SUFI.4217 # Sufi Order: Burn heretical books
+		50 = SUFI.4610 # Sufi Orders: Monastery has Artifact
 	}
 }
 on_five_year_pulse = {
@@ -32,6 +41,7 @@ on_five_year_pulse = {
 		skc.104 # Lady seeks protection.
 		skc.101 # Knight/bards
 		skc.20 # Royal Touch
+		SUFI.10030 # Have AI characters join sufi societies
 	}
 }
 on_death = {
@@ -65,6 +75,7 @@ on_birth = {
 on_adulthood = {
 	events = {
 		maintenance.5 #Madhab Dispensing (Ahlus Sunnah)
+		SUFI.4302 # Monastic Order education bonus purity effect
 	}
 }
 on_siege_over_winner = {
@@ -330,5 +341,17 @@ on_quest_failure = {
 # From = Previous leader
 on_society_failed_to_find_new_leader = {
 	events = {
+	}
+}
+# For characters older than AGE_CHILDHOOD_PULSE but not an adult as defined by ADULT_AGE_FEMALE and ADULT_AGE_MALE
+on_yearly_childhood_pulse = {
+	events = {
+		SUFI.4300 # Monastic Order childhood education event
+	}
+}
+# ROOT = Builder, FROM = Title
+on_settlement_construction_completed = {
+	events = {
+		SUFI.4024 #sufi built temple
 	}
 }
