@@ -6191,6 +6191,14 @@ religious = {
 			NOT = { pacifist = yes }
 			NOT = { same_realm = FROM }
 			NAND = {
+				religion = alevi
+				FROM = { religion = shiite }
+			}
+			NAND = {
+				religion = shiite
+				FROM = { religion = alevi }
+			}
+			NAND = {
 				religion = folketro
 				trait = hiddenfolk_cult
 			}
