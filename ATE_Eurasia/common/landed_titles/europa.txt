@@ -389,8 +389,6 @@ e_europa = {
 			c_hainaut = {
 				color={ 168 69 47 }
 				color2={ 255 255 255 }
-				
-				holy_site = sun_king_cultist
 
 				dutch="Henegouwen"
 				flemish="Enegouwn"
@@ -951,7 +949,9 @@ e_europa = {
 				flemish="Utert"
 
 				b_amersfoort = {}
-				b_utrecht = {}
+				b_utrecht = {
+					pentarchy = mariavite
+				}
 				b_nieuwegein = {}
 				b_zeist = {}
 				b_veenendaal = {}
@@ -1362,29 +1362,11 @@ e_europa = {
 				b_mettmann = {}
 			}
 		}
-		d_palatinate = {
-			color={ 55 108 57 }
-			color2={ 255 255 255 }
+		d_moselland = {
+			color={ 35 118 17 }
 			
-			capital = 374 #Mainz
-
-			rhenish="Palz"
-			low_saxon="Palz"
-			ossi="Pfalz"
-			upper_saxon="Pfalz"
-			bavarian="Pfoiz"
-			swabian="Pfalz"
-			schwyzer="Pfalz"
-			austrian="Pfalz"
-			dutch="Palts"
-			flemish="Palts"
-			frisian="Palts"
-			walloon="Palatina"
-			parisian="Palatinat"
-			chti="Palatinat"
-			luxembourger="Pfalz"
-			sorbian="Pfalca"
-			palatinate="Palz"
+			capital = 379 #Koblenz
+			color2={ 255 255 255 }
 			
 			c_koblenz = {
 				color={ 126 141 59 }
@@ -1412,7 +1394,6 @@ e_europa = {
 				b_birkenfeld = {}
 				b_cochem = {}
 			}
-			
 			c_saarland = {
 				color={ 0 32 159 }
 				color2={ 255 255 255 }
@@ -1460,95 +1441,6 @@ e_europa = {
 					parisian="Saint-Wendel"
 				}
 			}
-			
-			c_mainz = {
-				color={ 47 40 125 }
-				color2={ 255 255 255 }
-
-				dutch="Ments"
-				flemish="Ments"
-				walloon="Mayence"
-				chti="Mayence"
-				parisian="Mayence"
-				sorbian="Mohuc"
-				rhenish="Meenz"
-				palatinate="Meenz"
-
-				b_ingelheim_am_rhein = {}
-				b_mainz = {
-					dutch="Ments"
-					flemish="Ments"
-					walloon="Mayence"
-					chti="Mayence"
-					parisian="Mayence"
-					palatinate="Meenz"
-				}
-				b_worrstadt = {}
-				b_bingen = {}
-				b_alzey = {}
-				b_osthofen = {}
-				b_westhofen = {}
-			}
-			c_weinstrasse = {
-				color={ 61 54 133 }
-				color2={ 255 255 255 }
-
-				palatinate="Pfalz"
-
-				b_landau = {}
-				b_ludwigshafen = {
-					walloon="Port-Louis-sur-le-Rhin"
-					chti="Port-Louis-sur-le-Rhin"
-					parisian="Port-Louis-sur-le-Rhin"
-					palatinate="Ludwichshafe"
-				}
-				b_speyer = {
-					walloon="Spire"
-					chti="Spire"
-					parisian="Spire"
-					palatinate="Schbaija"
-				}
-				b_frankenthal = {
-					walloon="Franckendhal"
-					chti="Franckendhal"
-					parisian="Franckendhal"
-					palatinate="Frongedahl"
-				}
-				b_neustadt_an_der_weinstrasse = {
-					palatinate="Naischdadt an der Woischdrooß"
-				}
-				b_worms = {
-					palatinate="Woams"
-				}
-				b_bad_durkheim = {}
-			}
-			
-			c_pfalzer_wald = {
-				color={ 24 102 111 }
-				color2={ 255 255 255 }
-
-				b_kaiserslautern = {
-					walloon="Caseloutre"
-					chti="Caseloutre"
-					parisian="Caseloutre"
-					rhenish="Lautern"
-					palatinate="Lautre"
-				}
-				b_pirmasens = {
-					palatinate="Bärmesens"
-				}
-				b_zweibrucken = {
-					walloon="Deux-Ponts"
-					chti="Deux-Ponts"
-					parisian="Deux-Ponts"
-					palatinate="Zweebrigge"
-				}
-				b_landstuhl = {}
-				b_eisenberg_2 = {}
-				b_ramstein = {}
-				b_dahn = {}
-
-			}
 			c_trier = {
 				color={ 8 84 68 }
 				color2={ 255 255 255 }
@@ -1583,6 +1475,144 @@ e_europa = {
 				}
 			}
 		}
+		d_palatinate = {
+			color={ 55 108 57 }
+			color2={ 255 255 255 }
+			
+			capital = 374 #Mainz
+
+			rhenish="Palz"
+			low_saxon="Palz"
+			ossi="Pfalz"
+			upper_saxon="Pfalz"
+			bavarian="Pfoiz"
+			swabian="Pfalz"
+			schwyzer="Pfalz"
+			austrian="Pfalz"
+			dutch="Palts"
+			flemish="Palts"
+			frisian="Palts"
+			walloon="Palatina"
+			parisian="Palatinat"
+			chti="Palatinat"
+			luxembourger="Pfalz"
+			sorbian="Pfalca"
+			palatinate="Palz"
+			
+			c_weinstrasse = {
+				color={ 61 54 133 }
+				color2={ 255 255 255 }
+
+				southerner="Palatinate Forest"
+				midlander="Palatinate Forest"
+				westerner="Palatinate Forest"
+				scouse="Palatinate Forest"
+				northerner="Palatinate Forest"
+				lowlander="Palatinate Forest"
+				ulsterman="Palatinate Forest"
+				castilian="Bosque del Palatinado"
+				andalusian="Bosque del Palatinado"
+				catalan="Bosque del Palatinado"
+				llanito="Bosque del Palatinado"
+				aragonese="Bosque del Palatinado"
+				galician="Bosque del Palatinado"
+				leonese="Bosque del Palatinado"
+				parisian="Forêt Palatine"
+				gallo="Forêt Palatine"
+				norman="Forêt Palatine"
+				chti="Forêt Palatine"
+				walloon="Forêt Palatine"
+				dutch="Paltserwoud"
+				wielkopolan="Las Palatynacki'"
+				malopolan="Las Palatynacki'"
+				odrzan="Las Palatynacki'"
+				mazovian="Las Palatynacki'"
+				warmzur="Las Palatynacki'"
+				czech="Falcký les"
+				slovak="Falcký les"
+
+				b_landau = {}
+				b_ludwigshafen = {
+					walloon="Port-Louis-sur-le-Rhin"
+					chti="Port-Louis-sur-le-Rhin"
+					parisian="Port-Louis-sur-le-Rhin"
+					palatinate="Ludwichshafe"
+				}
+				b_speyer = {
+					walloon="Spire"
+					chti="Spire"
+					parisian="Spire"
+					palatinate="Schbaija"
+				}
+				b_frankenthal = {
+					walloon="Franckendhal"
+					chti="Franckendhal"
+					parisian="Franckendhal"
+					palatinate="Frongedahl"
+				}
+				b_neustadt_an_der_weinstrasse = {
+					palatinate="Naischdadt an der Woischdrooß"
+				}
+				b_worms = {
+					palatinate="Woams"
+				}
+				b_bad_durkheim = {}
+			}
+			c_mainz = {
+				color={ 47 40 125 }
+				color2={ 255 255 255 }
+
+				dutch="Ments"
+				flemish="Ments"
+				walloon="Mayence"
+				chti="Mayence"
+				parisian="Mayence"
+				sorbian="Mohuc"
+				rhenish="Meenz"
+				palatinate="Meenz"
+
+				b_ingelheim_am_rhein = {}
+				b_mainz = {
+					dutch="Ments"
+					flemish="Ments"
+					walloon="Mayence"
+					chti="Mayence"
+					parisian="Mayence"
+					palatinate="Meenz"
+				}
+				b_worrstadt = {}
+				b_bingen = {}
+				b_alzey = {}
+				b_osthofen = {}
+				b_westhofen = {}
+			}
+			c_pfalzer_wald = {
+				color={ 24 102 111 }
+				color2={ 255 255 255 }
+
+				b_kaiserslautern = {
+					walloon="Caseloutre"
+					chti="Caseloutre"
+					parisian="Caseloutre"
+					rhenish="Lautern"
+					palatinate="Lautre"
+				}
+				b_pirmasens = {
+					palatinate="Bärmesens"
+				}
+				b_zweibrucken = {
+					walloon="Deux-Ponts"
+					chti="Deux-Ponts"
+					parisian="Deux-Ponts"
+					palatinate="Zweebrigge"
+				}
+				b_landstuhl = {}
+				b_eisenberg_2 = {}
+				b_ramstein = {}
+				b_dahn = {}
+
+			}
+		}
 		d_hesse = {
 			color={ 90 120 100 }
 			color2={ 255 255 255 }
@@ -1612,6 +1642,7 @@ e_europa = {
 				rhenish="Wissbade"
 				schwyzer="Wiesbade"
 				swabian="Wiesbade"
+				alsatian="Wiesbade"
 				bavarian="Wiesbodn"
 				palatinate="Wissbade"
 
@@ -1661,6 +1692,7 @@ e_europa = {
 				color2={ 255 255 255 }
 				
 				bavarian="Darmstod"
+				palatinate="Damstadt"
 
 				b_bensheim = {}
 				b_darmstadt = {}
@@ -3060,12 +3092,12 @@ e_europa = {
 				color2={ 255 255 255 }
 
 				rhenish="Oberlausitz"
-				low_saxon="Oberlausitz"
+				low_saxon="Böverlausitz"
 				ossi="Oberlausitz"
 				upper_saxon="Oberlausitz"
-				bavarian="Oberlausitz"
+				bavarian="Obalausitz"
 				swabian="Oberlausitz"
-				austrian="Oberlausitz"
+				austrian="Obalausitz"
 				dutch="Opper-Lausitz"
 				flemish="Opper-Lausitz"
 				sorbian="Hornja Lužyca"
@@ -3108,9 +3140,9 @@ e_europa = {
 				low_saxon="Niederlausitz"
 				ossi="Niederlausitz"
 				upper_saxon="Niederlausitz"
-				bavarian="Niederlausitz"
+				bavarian="Niedalausitz"
 				swabian="Niederlausitz"
-				austrian="Niederlausitz"
+				austrian="Niedalausitz"
 				dutch="Neder-Lausitz"
 				flemish="Neder-Lausitz"
 				sorbian="Delnja Lužyca"

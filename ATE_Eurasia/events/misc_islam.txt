@@ -1222,3 +1222,426 @@ character_event = { #Choosing a madhab
 		}
 	}
 }
+
+#Tawiz Creation
+character_event = {
+	id = islamate.41
+	desc = EVTDESC_islamate_41
+	picture = GFX_muslim_prayer
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = created_tawiz
+	}
+
+	option = { #Tawiz Creation
+		name = EVTOPTA_islamate_41
+		custom_tooltip = { text = TXT_EVTOPTA_islamate_41 }
+		hidden_tooltip = { character_event = { id = islamate.42 } }
+	}
+	
+}
+
+character_event = {
+	id = islamate.42
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = created_tawiz
+	}
+	
+	immediate = {
+		random_list = {
+			10 = { #Excellent Tawiz (you get an artifact)
+				modifier = {
+					factor = 2
+					learning = 15
+				}
+				modifier = {
+					factor = 1.5
+					learning = 10
+					NOT = { learning = 15 }
+				}
+				modifier = {
+					factor = 0.25
+					learning = 5
+					NOT = { learning = 10 }
+				}
+				character_event = { id = islamate.43 days = 7 }
+			}
+			70 = { #Acceptable Tawiz
+				modifier = {
+					factor = 1.5
+					learning = 15
+				}
+				modifier = {
+					factor = 0.5
+					learning = 5
+					NOT = { learning = 10 }
+				}
+				character_event = { id = islamate.44 days = 7 }
+			}
+			20 = { #Bad Tawiz
+				modifier = {
+					factor = 0.25
+					learning = 15
+				}
+				modifier = {
+					factor = 0.5
+					learning = 10
+					NOT = { learning = 15 }
+				}
+				modifier = {
+					factor = 1.5
+					learning = 5
+					NOT = { learning = 10 }
+				}
+				character_event = { id = islamate.45 days = 7 }
+			}
+		}
+	}
+}
+
+#Excellent Tawiz
+character_event = {
+	id = islamate.43
+	desc = EVTDESC_islamate_43
+	picture = GFX_muslim_prayer
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = created_tawiz
+	}
+
+	option = { #Get artifact
+		name = EVTOPTA_islamate_43
+		prestige = 75
+		piety = 100
+		add_artifact = naqshbandis_tawiz
+	}
+}
+
+#Acceptable Tawiz
+character_event = {
+	id = islamate.44
+	desc = EVTDESC_islamate_44
+	picture = GFX_muslim_prayer
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = created_tawiz
+	}
+
+	option = {
+		name = EVTOPTA_islamate_44
+		prestige = 50
+		piety = 75
+	}
+}
+
+#Bad Tawiz
+character_event = {
+	id = islamate.45
+	desc = EVTDESC_islamate_45
+	picture = GFX_muslim_prayer
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = created_tawiz
+	}
+
+	option = {
+		name = EVTOPTA_islamate_45
+		prestige = 10
+		piety = 25
+	}
+}
+
+#Destroy tawiz on death (on_death event)
+character_event = {
+	id = islamate.46
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_artifact = naqshbandis_tawiz
+	}
+
+	immediate = {
+		if = {
+			limit = { has_artifact = naqshbandis_tawiz }
+			destroy_artifact = naqshbandis_tawiz
+		}
+	}
+}
+
+#Join Naqshbandi Jamia
+namespace = join_jamia
+character_event = {
+	id = join_jamia.1
+	desc = EVTDESC_join_jamia_1
+	picture = GFX_evt_religious_exultation
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_join_jamia_1
+		
+		ai_chance = {
+        	factor = 33
+			modifier = {
+				OR = {
+					culture_group=turkic_karluk
+					culture_group=turkic_east
+					culture_group=assamese
+					culture=dargin
+					culture=lezgin
+					culture=ossetian
+					culture=nakh
+					culture=avar
+					culture_group=dravidian_north
+					culture_group=dravidian_south
+					culture_group=indo_aryan_central
+					culture_group=indo_aryan_east
+					culture_group=indo_aryan_north
+					culture_group=indo_aryan_south
+					culture_group=indo_aryan_west
+					culture=tajik
+					culture=pamiri
+					culture=gorani
+					culture=persian
+					culture=gilaki
+					culture=mazandarani
+					culture=lurs
+					culture=pashtun
+					culture=hazara
+					culture=nuristani
+					culture=baloch
+					culture=tat
+					culture=qashqai
+					culture=turkmen
+				}
+				factor=0
+			}
+		}
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NAND = { 
+					trait=zealous
+					OR = {
+						trait=ismailagha
+						trait=iskenderpasha
+						trait=mujaddidi
+					}
+				}
+				religion=naqshbandi
+			}
+			add_trait = iskenderpasha
+		}
+		add_trait = iskenderpasha
+	}
+	option = {
+		name = EVTOPTB_join_jamia_1
+		
+		ai_chance = {
+        	factor = 33
+			modifier = {
+				OR = {
+					culture_group=turkic_karluk
+					culture_group=turkic_east
+					culture_group=assamese
+					culture=dargin
+					culture=lezgin
+					culture=ossetian
+					culture=nakh
+					culture=avar
+					culture_group=dravidian_north
+					culture_group=dravidian_south
+					culture_group=indo_aryan_central
+					culture_group=indo_aryan_east
+					culture_group=indo_aryan_north
+					culture_group=indo_aryan_south
+					culture_group=indo_aryan_west
+					culture=tajik
+					culture=pamiri
+					culture=gorani
+					culture=persian
+					culture=gilaki
+					culture=mazandarani
+					culture=lurs
+					culture=pashtun
+					culture=hazara
+					culture=nuristani
+					culture=baloch
+					culture=tat
+					culture=qashqai
+					culture=turkmen
+				}
+				factor=0
+			}
+		}
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NAND = { 
+					trait=zealous
+					OR = {
+						trait=ismailagha
+						trait=iskenderpasha
+						trait=mujaddidi
+					}
+				}
+				religion=naqshbandi
+			}
+			add_trait = ismailagha
+		}
+		add_trait = ismailagha
+	}
+	option = {
+		name = EVTOPTC_join_jamia_1
+		
+		ai_chance = {
+        	factor = 34
+			modifier = {
+				OR = {
+					culture_group=albanian_group
+					culture_group=amazigh
+					culture_group=arabic
+					culture_group=carpathian
+					culture=armenian
+					culture=circassian
+					culture=kabardian
+					culture=georgian
+					culture=laz
+					culture_group=cushitic
+					culture=rebeu
+					culture_group=habesha
+					culture_group=hellenic
+					culture=kurdish
+					culture=abkhazian
+					culture=zaza
+					culture=talysh
+					culture_group=maghrebi
+					culture_group=nilotic
+					culture=dom
+					culture_group=south_slavic
+					culture=west_anatolian
+					culture=rumelian
+					culture=central_anatolian
+					culture=black_sea
+					culture=toros_mountain
+					culture=turcoman
+					culture=gagauz
+					culture=azeri
+					culture=romioi
+				}
+				factor=0
+			}
+		}
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NAND = { 
+					trait=zealous
+					OR = {
+						trait=ismailagha
+						trait=iskenderpasha
+						trait=mujaddidi
+					}
+				}
+				religion=naqshbandi
+			}
+			add_trait = mujaddidi
+		}
+		add_trait = mujaddidi
+	}
+}
+character_event = {
+	id = join_jamia.2
+	desc = EVTDESC_join_jamia_2
+	picture = GFX_evt_religious_exultation
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_join_jamia_2
+		add_trait = iskenderpasha
+		trigger = {
+			NOT = {trait=iskenderpasha}
+		}
+		set_character_flag=changed_jamia
+		wealth=-100
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NAND = { 
+					trait=zealous
+					OR = {
+						trait=ismailagha
+						trait=iskenderpasha
+						trait=mujaddidi
+					}
+				}
+				religion=naqshbandi
+			}
+			add_trait = iskenderpasha
+		}
+	}
+	option = {
+		name = EVTOPTB_join_jamia_2
+		add_trait = ismailagha
+		trigger = {
+			NOT = {trait=ismailagha}
+		}
+		set_character_flag=changed_jamia
+		piety=-100
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NAND = { 
+					trait=zealous
+					OR = {
+						trait=ismailagha
+						trait=iskenderpasha
+						trait=mujaddidi
+					}
+				}
+				religion=naqshbandi
+			}
+			add_trait = ismailagha
+		}
+	}
+	option = {
+		name = EVTOPTC_join_jamia_2
+		add_trait = mujaddidi
+		trigger = {
+			NOT = {trait=mujaddidi}
+		}
+		set_character_flag=changed_jamia
+		prestige=-100
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NAND = { 
+					trait=zealous
+					OR = {
+						trait=ismailagha
+						trait=iskenderpasha
+						trait=mujaddidi
+					}
+				}
+				religion=naqshbandi
+			}
+			add_trait = mujaddidi
+		}
+	}
+	option = {
+		name = EVTOPTD_join_jamia_2
+	}
+}

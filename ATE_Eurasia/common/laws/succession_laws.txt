@@ -100,6 +100,8 @@ succession_laws = {
 					}
 				}
 				NOT = { religion_group = muslim }
+				NOT = { religion = kozachina }
+				#NOT = { religion = angelsina }
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
@@ -138,6 +140,8 @@ succession_laws = {
 			NOT = { holder_scope = { government = confederation_government } }
 			NOT = { holder_scope = { government = diwan_government } }
 			NOT = { holder_scope = { government = ghazi_government } }
+			NOT = { holder_scope = { government = nomadic_tribal_government }}
+			NOT = { holder_scope = { government = cenobitic_government }}
 		}
 		allow = {
 			holder_scope = {
@@ -256,6 +260,8 @@ succession_laws = {
 					religion = jedinstvo
 					}
 				}
+				NOT = { religion = kozachina }
+				#NOT = { religion = angelsina }
 			}
 			OR = {
 				is_landless_type_title = no
@@ -272,6 +278,8 @@ succession_laws = {
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = confederation_government } }
+			NOT = { holder_scope = { government = nomadic_tribal_government }}
+			NOT = { holder_scope = { government = cenobitic_government }}
 		}
 		allow = {
 			conditional_tooltip = {
@@ -396,6 +404,7 @@ succession_laws = {
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = confederation_government } }
+			NOT = { holder_scope = { government = cenobitic_government }}
 		}
 		allow = {
 			conditional_tooltip = {
@@ -510,6 +519,8 @@ succession_laws = {
 					is_patrician = yes
 					independent = no
 				}
+				NOT = { religion = kozachina }
+				#NOT = { religion = angelsina }
 			}
 			OR = {
 				is_landless_type_title = no
@@ -695,6 +706,9 @@ succession_laws = {
 				has_title_flag = alternate_byz
 			}
 			NOT = { holder_scope = { government = confederation_government } }
+			NOT = { holder_scope = { government = cenobitic_government }}
+			NOT = { religion = kozachina }
+			#NOT = { religion = angelsina }
 		}
 		allow = {
 			conditional_tooltip = {
@@ -862,6 +876,8 @@ succession_laws = {
 					government = cenobitic_government
 					religion = insular
 				}
+				NOT = { religion = kozachina }
+				#NOT = { religion = angelsina }
 			}
 			OR = {
 				is_landless_type_title = no
@@ -889,6 +905,7 @@ succession_laws = {
 				has_title_flag = alternate_hre
 			}
 			NOT = { holder_scope = { government = confederation_government } }
+			NOT = { holder_scope = { government = cenobitic_government }}
 		}
 		allow = {
 			custom_tooltip = {
@@ -1109,6 +1126,7 @@ succession_laws = {
 			}
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = confederation_government } }
+			NOT = { holder_scope = { government = cenobitic_government } }
 		}
 		allow = {
 			OR = {
@@ -1612,7 +1630,11 @@ succession_laws = {
 	succ_nomad_succession = {
 		potential = {
 			holder_scope = {
+				OR = {
 				is_nomadic = yes
+				religion = kozachina
+				#religion = angelsina
+				}
 			}
 		}
 		effect = {
@@ -1755,7 +1777,10 @@ gender_laws = {
 				holder_scope = {
 					OR = {
 						religion = haredi
-						religion_group = muslim
+						AND = {
+							religion_group = muslim
+							NOT = {religion = ruhi}
+						}
 					}
 					primary_title = {
 						NOT = { has_law = status_of_women_3 }
@@ -1840,6 +1865,7 @@ gender_laws = {
 						religion = haskalah
 						religion = neuhumanist
 						religion = glorian
+						religion = ruhi
 						has_religion_feature = religion_equal
 					}
 				}
@@ -1875,6 +1901,13 @@ gender_laws = {
 				factor = 100
 				holder_scope = {
 					has_religion_feature = religion_equal
+				}
+			}
+			
+			modifier = {
+				factor = 100
+				holder_scope = {
+					religion = ruhi
 				}
 			}
 		}

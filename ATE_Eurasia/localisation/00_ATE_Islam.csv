@@ -155,15 +155,14 @@ ghazi_government_count_female;Sayyida;;;;;;;;;;;;;x
 ghazi_government_county_of;Wilayat of;;;;;;;;;;;;;x
 ghazi_government_county;Wilayat;;;;;;;;;;;;;x
 ghazi_government_county;Wilayat;;;;;;;;;;;;;x
-ghazi_government_duke;Za'eem;;;;;;;;;;;;;x
-ghazi_government_duke_female;Za'eema;;;;;;;;;;;;;x
+ghazi_government_duke;Wali;;;;;;;;;;;;;x
+ghazi_government_duke_female;Walia;;;;;;;;;;;;;x
+ghazi_government_duchy;Dawlat;;;;;;;;;;;;;x
 ghazi_government_duchy_of;Dawlat of;;;;;;;;;;;;;x
-ghazi_government_duchy;Dawlat;;;;;;;;;;;;;x
-ghazi_government_duchy;Dawlat;;;;;;;;;;;;;x
-ghazi_government_king;Shareef;;;;;;;;;;;;;x
-ghazi_government_king_female;Shareefa;;;;;;;;;;;;;x
-ghazi_government_kingdom_of;Shareefate of;;;;;;;;;;;;;x
-ghazi_government_kingdom;Shareefate;;;;;;;;;;;;;x
+ghazi_government_king;Amir;;;;;;;;;;;;;x
+ghazi_government_king_female;Amira;;;;;;;;;;;;;x
+ghazi_government_kingdom_of;Emirate of;;;;;;;;;;;;;x
+ghazi_government_kingdom;Emirate;;;;;;;;;;;;;x
 ghazi_government_emperor;Sultan;;;;;;;;;;;;;x
 ghazi_government_emperor_female;Sultana;;;;;;;;;;;;;x
 ghazi_government_empire_of;Sultanate of;;;;;;;;;;;;;x
@@ -188,15 +187,15 @@ diwan_government_count_female;Sayyida;;;;;;;;;;;;;x
 diwan_government_county_of;Wilayat of;;;;;;;;;;;;;x
 diwan_government_county;Wilayat;;;;;;;;;;;;;x
 diwan_government_county;Wilayat;;;;;;;;;;;;;x
-diwan_government_duke;Za'eem;;;;;;;;;;;;;x
-diwan_government_duke_female;Za'eema;;;;;;;;;;;;;x
+diwan_government_duke;Wali;;;;;;;;;;;;;x
+diwan_government_duke_female;Walia;;;;;;;;;;;;;x
 diwan_government_duchy_of;Dawlat of;;;;;;;;;;;;;x
 diwan_government_duchy;Dawlat;;;;;;;;;;;;;x
 diwan_government_duchy;Dawlat;;;;;;;;;;;;;x
-diwan_government_king;Shareef;;;;;;;;;;;;;x
-diwan_government_king_female;Shareefa;;;;;;;;;;;;;x
-diwan_government_kingdom_of;Shareefate of;;;;;;;;;;;;;x
-diwan_government_kingdom;Shareefate;;;;;;;;;;;;;x
+diwan_government_king;Amir;;;;;;;;;;;;;x
+diwan_government_king_female;Amira;;;;;;;;;;;;;x
+diwan_government_kingdom_of;Emirate of;;;;;;;;;;;;;x
+diwan_government_kingdom;Emirate;;;;;;;;;;;;;x
 diwan_government_emperor;Sultan;;;;;;;;;;;;;x
 diwan_government_emperor_female;Sultana;;;;;;;;;;;;;x
 diwan_government_empire_of;Sultanate of;;;;;;;;;;;;;x
@@ -233,6 +232,35 @@ reform_sunni_islam_desc;Call your Imams to begin reconciling the differences of 
 delve_into_tasawwuf;Delve into Tasawwuf;;;;;;;;;;;;;x
 delve_into_tasawwuf_desc;The mysteries of Tasawwuf and the "Inward Dimension" to the Devotion to Allah have been of great interest to you, that perhaps joining one of the many Sufi orders could help you understand these mystical connections as a Pious Muslim.;;;;;;;;;;;;;x
 
+### TAWIZ DECISION AND EVENT ###
+commission_tawiz;Commission a Tawiz;;;;;;;;;;;;;
+commission_tawiz_desc;Commission a tawiz, a small amulet of luck that brings protection from the unseen world.;;;;;;;;;;;;;
+EVTDESC_islamate_41;I have decided to commission a tawiz, a lucky amulet that will offer me protection from djinns, demons, and the unseen world in general. As such, I shall wear it close to my heart when I will go on hajj. Though it would normally be a minor trinket that any Muslim should have the funds for, I am a [Root.GetTitle] and as such may afford more than a trinket.;;;;;;;;;;;;;x
+EVTOPTA_islamate_41;Summon a jewelsmith!;;;;;;;;;;;;;
+TXT_EVTOPTA_islamate_41;You will receive your commissioned tawiz soon.;;;;;;;;;;;;;
+EVTDESC_islamate_43;After some wait, I have finally received my tawiz, and I can see it was worth every coin! The artifact is beautifully engraved with verses from the Quran, and it shall protect me faithfully.;;;;;;;;;;;;;x
+EVTOPTA_islamate_43;I shall wear it close to my heart!;;;;;;;;;;;;;
+EVTDESC_islamate_44;After some wait, I have finally received my tawiz, and it is precisely what I asked for, no more, no less. While nothing exceptional, it is engraved with Quranic verses shall still protect me faithfully.;;;;;;;;;;;;;x
+EVTOPTA_islamate_44;I shall wear it close to my heart!;;;;;;;;;;;;;
+EVTDESC_islamate_45;After some wait, I have finally received my tawiz, and all I can say is that it is a disappointment. Though the craftsmanship is nothing to sneer at, the verses inscribed on it were ill-chosen, and I have been informed they may be considered shirk...;;;;;;;;;;;;;x
+EVTOPTA_islamate_45;I shall wear it close to my heart still.;;;;;;;;;;;;;
+
+### JOIN JAMIA DECISION AND EVENT ###
+join_jamia;Join a Jamia;;;;;;;;;;;;;
+join_jamia_desc;Join one of several Naqshbandi brotherhoods.;;;;;;;;;;;;;
+EVTDESC_join_jamia_1;As a Naqshbandi ruler, I may choose to join one of the three main Naqshbandi jamiats, or brotherhoods. But which shall I pick, Iskenderpasha, Ismailagha or Mujaddidi? I should keep in mind my choice may be disliked - or approved - by other Naqshbandis.;;;;;;;;;;;;;x
+EVTOPTA_join_jamia_1;Aristocratic Iskenderpasha.;;;;;;;;;;;;;
+EVTOPTB_join_jamia_1;Popular Ismailagha.;;;;;;;;;;;;;
+EVTOPTC_join_jamia_1;Orthodox Mujaddidi.;;;;;;;;;;;;;
+change_jamia;Change Jamia;;;;;;;;;;;;;
+TXT_change_jamia;You will be able to choose a new Jamia.;;;;;;;;;;;;;
+change_jamia_desc;One may choose to join a new Naqshbandi brotherhood, but only once per lifetime.;;;;;;;;;;;;;
+EVTDESC_join_jamia_2;As a Naqshbandi ruler, I may choose once to change which of the three main Naqshbandi jamiats, or brotherhoods, I belong to. But which shall I pick? I should keep in mind my choice may be disliked - or approved - by other Naqshbandis.;;;;;;;;;;;;;x
+EVTOPTA_join_jamia_2;Aristocratic Iskenderpasha.;;;;;;;;;;;;;
+EVTOPTB_join_jamia_2;Popular Ismailagha.;;;;;;;;;;;;;
+EVTOPTC_join_jamia_2;Orthodox Mujaddidi.;;;;;;;;;;;;;
+EVTOPTD_join_jamia_2;On second thoughts, my current jamia is fine.;;;;;;;;;;;;;
+
 ### MISC ###
 ancient_quran;Ancient Quran;;;;;;;;;;;;;x
 ancient_quran_desc;Brittle to the touch, this Quran has survived hundreds of years, its origins pre-Event.;;;;;;;;;;;;;x
@@ -241,6 +269,8 @@ prayer_mat_desc;This prayer mat is finely crafted, with the precision of pre-Eve
 
 faqih_opinion;Faqih Opinion;;;;;;;;;;;;;x
 ibadi_opinion;Ibadi Opinion;;;;;;;;;;;;;x
+ruhi_opinion;Ruh'i Opinion;;;;;;;;;;;;;x
+naqshbandi_opinion;Naqshbandi Opinion;;;;;;;;;;;;;x
 unified_sunni;Call a Great Council of Imams to rectify theological conflicts...;;;;;;;;;;;;;x
 
 ashura_timer;Commemorated Ashura;;;;;;;;;;;;;x

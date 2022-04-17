@@ -6,6 +6,16 @@ e_turkey = {
 		
 	capital = 2080 # c_ankara
 	
+	toros_mountain="Türkiye"
+	rumelian="Türkiye"
+	west_anatolian="Türkiye"
+	central_anatolian="Türkiye"
+	black_sea="Türkiye"
+	azeri="Türkiyä"
+	kurdish="Anatolya"
+	gorani="Anatolya"
+	zaza="Anatoliye"
+	
 	k_daglar = {
 		color={ 207 64 109 }
 		color2={ 255 255 255 }
@@ -574,6 +584,7 @@ e_turkey = {
 		greek="Póntos"
 		makedonian="Póntos"
 		romioi="Póntos"
+		laz="Zughauça"
 		
 		d_samsun = {
 			color={ 68 132 182 }
@@ -860,6 +871,8 @@ e_turkey = {
 				color={ 81 167 105 }
 				color2={ 255 255 255 }
 				
+				holy_site = ruhi
+				
 				b_ulus = {}
 				b_cankaya = {}
 				b_kecioeren = {}
@@ -883,6 +896,8 @@ e_turkey = {
 			c_eskishehir = { # 2083
 				color={ 106 40 107 }
 				color2={ 255 255 255 }
+				
+				holy_site = alevi
 				
 				b_odunpazari = {}
 				b_tepebashi = {}
@@ -1018,6 +1033,8 @@ e_turkey = {
 				color={ 42 77 116 }
 				color2={ 255 255 255 }
 				
+				holy_site = alevi
+				
 				b_sivas = {}
 				b_sharkishla = {}
 				b_yildizeli = {}
@@ -1056,6 +1073,14 @@ e_turkey = {
 			color2={ 255 255 255 }
 			
 			capital = 290 # c_adana
+			
+			west_anatolian="Kilikya"
+			central_anatolian="Kilikya"
+			black_sea="Kilikya"
+			rumelian="Kilikya"
+			toros_mountain="Kilikya"
+			kurdish="Kîlîkya"
+			zaza="Kîlîkya"
 			
 			c_adana = { # 290
 				color={ 207 143 205 }
@@ -1195,13 +1220,15 @@ e_turkey = {
 				color={ 89 60 22 }
 				color2={ 255 255 255 }
 				
+				holy_site = alevi
+				
 				b_nevshehir = {}
 				b_urguep = {}
+				b_hacibektash = {}
 				b_avanos = {}
 				b_guelshehir = {}
 				b_derinkuyu = {}
 				b_acigoel = {}
-				b_kozakli = {}
 			}
 			c_nigde = { # 2092
 				color={ 84 59 174 }

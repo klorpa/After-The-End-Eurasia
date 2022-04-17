@@ -1,0 +1,28 @@
+is_sufi_member_trigger = {
+	OR = {
+		society_member_of = monastic_order_sunni
+		society_member_of = monastic_order_shiite
+		society_member_of = monastic_order_naqshbandi
+	}
+}
+
+has_sufi_societies_religion_sunni = {
+	hidden_tooltip = {
+		is_heretic = no
+		is_sunni = yes
+	}
+}
+
+has_sufi_societies_religion_shiite = {
+	hidden_tooltip = { #no vanilla order in my mod
+		is_heretic = no
+		is_shiite = yes
+	}
+}
+
+has_sufi_societies_religion_naqshbandi = {
+	hidden_tooltip = { #no vanilla order in my mod
+		is_heretic = no
+		religion = naqshbandi
+	}
+}

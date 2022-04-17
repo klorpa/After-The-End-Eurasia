@@ -34,7 +34,7 @@ decisions = {
 				primary_title = { lower_tier_than = KING }
 				primary_title = { title = k_netherlands }
 				primary_title = { title = k_belgium }
-				primary_title = { title = k_luxembourg }
+				primary_title = { title = d_luxembourg }
 			}
 		}
 		effect = {
@@ -68,7 +68,7 @@ decisions = {
 			d_wallonia = {
 				de_jure_liege = k_belgium
 			}
-			d_wallonia = {
+			d_luxembourg = {
 				de_jure_liege = k_belgium
 			}
 			k_benelux = {
@@ -316,6 +316,16 @@ decisions = {
             k_sicilia  = {
                 de_jure_liege = e_italy
             }
+			k_naples = {
+				destroy_landed_title = THIS
+			}
+			k_sicily = {
+				destroy_landed_title = THIS
+			}
+			hidden_tooltip = {
+				activate_title = { title = k_naples status = no }
+				activate_title = { title = k_sicily status = no }
+			}
             set_global_flag = sicilia_formed
 			custom_tooltip = { text = form_sicilia_TT }
         }

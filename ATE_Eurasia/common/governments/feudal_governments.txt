@@ -17,6 +17,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			nomadic_tribal_government
 		}
 		potential = {
 			OR = {
@@ -24,6 +25,7 @@ feudal_governments = {
 				religion = yazidi
 				religion = nysed
 				religion = sun_king_cultist
+				religion = quinto
 				has_religion_feature = religion_temporal_head
 				#AND = {
 				#	religion = norse_pagan_reformed
@@ -53,6 +55,7 @@ feudal_governments = {
 			NOT = { is_government_potential = confederation_government }
 			NOT = { is_government_potential = theocratic_feudal_government }
 			NOT = { is_government_potential = swaraj_government}
+			NOT = { is_government_potential = hetmanate_government}
 			NOT = { culture = pavee }
 			NAND = { 
 				culture_group = tibetan
@@ -105,6 +108,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			nomadic_tribal_government
 		}
 		frame_suffix = "_republic"
 		title_prefix = "city_"
@@ -159,6 +163,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			nomadic_tribal_government
 		}
 		frame_suffix = "_theocraticfeudal"
 		potential = {
@@ -247,6 +252,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			nomadic_tribal_government
 		}
 		frame_suffix = "_chineseimperial"
 		potential = {
@@ -312,6 +318,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			nomadic_tribal_government
 		}
 		frame_suffix = "_romanimperial"
 		potential = {
@@ -454,6 +461,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			nomadic_tribal_government
 		}
 		frame_suffix = "_romanimperial"
 		potential = {
@@ -526,6 +534,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			nomadic_tribal_government
 		}
 		frame_suffix = "_ghazwa"
 		title_prefix = "ghazi_government_"
@@ -580,6 +589,8 @@ feudal_governments = {
 
 		can_build_tribal = no
 		
+		dukes_called_kings = yes
+		
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
 		}
@@ -605,6 +616,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			nomadic_tribal_government
 		}
 		frame_suffix = "_merchantrepublic"
 		title_prefix = "confederation_"
@@ -632,6 +644,7 @@ feudal_governments = {
 						title = k_kerala
 						title = d_szekelyfold
 						title = d_hercegovina
+						title = k_iron_mountains
 					}
 				}
 				AND = {
@@ -694,6 +707,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			nomadic_tribal_government
 		}
 		frame_suffix = "_bureaucratic"
 		title_prefix = "bureaucracy_"
@@ -770,6 +784,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			nomadic_tribal_government
 		}
 		frame_suffix = "_diwan"
 		title_prefix = "diwan_government_"
@@ -809,6 +824,7 @@ feudal_governments = {
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
 			NOT = { is_government_potential = military_governorate }
+			NOT = { is_government_potential = hetmanate_government }
 			NAND = {
 				controls_religion = yes
 				OR = {
@@ -828,7 +844,6 @@ feudal_governments = {
 		have_gender_laws = no
 		allows_matrilineal_marriage = no
 		free_retract_vassalage = yes
-		marriage_ignore_religion = yes
 		
 
 		free_levies_in_offensive_war = no # Took away the hardcoded stuff for muslims where they could raise levies without pissing off vassals if in an offensive war.
@@ -842,6 +857,8 @@ feudal_governments = {
 		gives_religion_opinion_penalties = no
 		can_be_granted_kingdoms_and_empires_by_other_government = no
 		free_retract_vassalage = yes
+		
+		dukes_called_kings = yes
 		
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
@@ -879,6 +896,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			nomadic_tribal_government
 		}
 		frame_suffix = "_iqta"
 		title_prefix = "diwan_government_"
@@ -892,6 +910,8 @@ feudal_governments = {
 		color = { 0 0 204 }
 		
 		uses_piety_for_law_change = yes
+		
+		dukes_called_kings = yes
 		
 		have_gender_laws = no
 		allows_matrilineal_marriage = yes
@@ -931,6 +951,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			nomadic_tribal_government
 		}
 		frame_suffix = "_romanipen"
 		title_prefix = "romanipen_"
@@ -979,6 +1000,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			nomadic_tribal_government
 		}
 		
 		frame_suffix = "_cenobitic"
@@ -1061,6 +1083,7 @@ feudal_governments = {
 		potential = {
 			NOT = { government = theocracy_government }
 			NOT = { is_government_potential = theocracy_government }
+			NOT = { capital_scope = { region = custom_hetmanate } }
 			holy_order = no
 			is_patrician = no
 			higher_real_tier_than = baron
@@ -1115,6 +1138,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			nomadic_tribal_government
 		}
 		frame_suffix = "_chineseimperial"
 		potential = {
@@ -1166,6 +1190,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			nomadic_tribal_government
 		}
 		frame_suffix = "_communal"
 		potential = {
@@ -1203,4 +1228,74 @@ feudal_governments = {
 		## Modifiers
 		court_size_modifier = 10
 	}
+	
+	hetmanate_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE 
+			FORT
+			HOSPITAL
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			bureaucratic_government
+			feudal_government
+			diwan_government
+			ghazi_government
+			hereditary_theocracy_government
+			theocratic_feudal_government
+
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+			nomadic_tribal_government
+		}
+		frame_suffix = "_hetmanate"
+		potential = {
+			OR = {
+					capital_scope = {
+						region = custom_hetmanate
+					}
+				AND = {
+				culture_group = slavic_east
+				OR = {
+				religion = kozachina
+				#religion = kozachina_HERESY NAME THIS FUTURE ME
+				}
+				}
+			}
+			is_patrician = no
+			NOT = { is_government_potential = romanipen_government }
+			NOT = { is_government_potential = cenobitic_government }
+			NOT = { is_government_potential = theocratic_feudal_government }
+			NOT = { is_government_potential = hereditary_theocracy_government }
+		}
+		
+		character_modifier = {
+			short_reign_length = -1
+		}	
+		
+		color = { 204 79 45 }
+		
+		dukes_called_kings = yes
+		
+		barons_need_dynasty = yes
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_build_tribal = no
+		
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 600
+		
+		## Modifiers
+		court_size_modifier = 10
+		#min_vassal_tax = -0.5
+		#max_vassal_tax = -0.1
+		#max_vassal_levy = -0.7
+		#min_vassal_levy = -0.2
+	}	
+	
 }

@@ -53,6 +53,7 @@ character_event = {
 					capital_scope = {region = custom_western_europe}
 					culture = croatian
 					culture = slovene
+					culture = albanian
 				}
 			}
 			add_trait = latin_rite
@@ -219,11 +220,146 @@ character_event = {
 				culture = parisian
 			}
 			modifier = {
+				factor = 0
+				culture = provencal
+			}
+			modifier = {
+				factor = 0
+				culture = bahrayni
+			}
+			modifier = {
+				factor = 0
+				culture = sabra
+			}
+			modifier = {
+				factor = 0
+				culture = yiddish
+			}
+			modifier = {
+				factor = 0
+				culture = yiddish
+			}
+			modifier = {
+				factor = 0
+				culture = rumelian
+			}
+			modifier = {
+				factor = 0
+				culture = west_anatolian
+			}
+			modifier = {
+				factor = 70
+				culture = uzbek
+			}
+			modifier = {
+				factor = 70
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 10
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
+			}
+		}
+		set_graphical_culture = turkic
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				culture = horse
+			}
+			modifier = {
+				factor = 0
+				culture = cat
+			}
+			modifier = {
+				factor = 0
+				culture = bear
+			}
+			modifier = {
+				factor = 0
+				culture = hedgehog_culture
+			}
+			modifier = {
+				factor = 0
+				culture = duck_culture
+			}
+			modifier = {
+				factor = 0
+				culture = dog_culture
+			}
+			modifier = {
+				factor = 0
+				culture = elephant_culture
+			}
+			modifier = {
+				factor = 0
+				culture = dragon_culture
+			}
+			modifier = {
+				factor = 0
+				culture = red_panda
+			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
 				factor = 5
 				culture = provencal
 			}
 			modifier = {
-				factor = 10
+				factor = 8
 				culture = bahrayni
 			}
 			modifier = {
@@ -246,8 +382,199 @@ character_event = {
 				factor = 0
 				culture = west_anatolian
 			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 15
+				culture = yemeni
+			}
+			modifier = {
+				factor = 5
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
+			}
 		}
 		set_graphical_culture = eastafrican
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				culture = horse
+			}
+			modifier = {
+				factor = 0
+				culture = cat
+			}
+			modifier = {
+				factor = 0
+				culture = bear
+			}
+			modifier = {
+				factor = 0
+				culture = hedgehog_culture
+			}
+			modifier = {
+				factor = 0
+				culture = duck_culture
+			}
+			modifier = {
+				factor = 0
+				culture = dog_culture
+			}
+			modifier = {
+				factor = 0
+				culture = elephant_culture
+			}
+			modifier = {
+				factor = 0
+				culture = dragon_culture
+			}
+			modifier = {
+				factor = 0
+				culture = red_panda
+			}
+			modifier = {
+				factor = 0
+				culture = albanian
+			}
+			modifier = {
+				factor = 0
+				culture = parisian
+			}
+			modifier = {
+				factor = 5
+				culture = provencal
+			}
+			modifier = {
+				factor = 7
+				culture = bahrayni
+			}
+			modifier = {
+				factor = 0
+				culture = sabra
+			}
+			modifier = {
+				factor = 0
+				culture = yiddish
+			}
+			modifier = {
+				factor = 0
+				culture = yiddish
+			}
+			modifier = {
+				factor = 0
+				culture = rumelian
+			}
+			modifier = {
+				factor = 0
+				culture = west_anatolian
+			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
+			}
+		}
+		set_graphical_culture = egyptian
 	}
 	
 	option = {
@@ -302,7 +629,7 @@ character_event = {
 				culture = provencal
 			}
 			modifier = {
-				factor = 0
+				factor = 3
 				culture = bahrayni
 			}
 			modifier = {
@@ -320,6 +647,62 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = west_anatolian
+			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
 			}
 		}
 		set_graphical_culture = westafrican
@@ -377,7 +760,7 @@ character_event = {
 				culture = provencal
 			}
 			modifier = {
-				factor = 40
+				factor = 21
 				culture = bahrayni
 			}
 			modifier = {
@@ -395,6 +778,62 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = west_anatolian
+			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 54
+				culture = umani
+			}
+			modifier = {
+				factor = 87
+				culture = dhofari
+			}
+			modifier = {
+				factor = 85
+				culture = yemeni
+			}
+			modifier = {
+				factor = 95
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
 			}
 		}
 		set_graphical_culture = arabic
@@ -471,6 +910,62 @@ character_event = {
 				factor = 0
 				culture = west_anatolian
 			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 12
+				culture = umani
+			}
+			modifier = {
+				factor = 6
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
+			}
 		}
 		set_graphical_culture = southindian
 	}
@@ -527,7 +1022,7 @@ character_event = {
 				culture = provencal
 			}
 			modifier = {
-				factor = 0
+				factor = 4
 				culture = bahrayni
 			}
 			modifier = {
@@ -545,6 +1040,62 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = west_anatolian
+			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 10
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 10
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 40
+				culture = sinoa
 			}
 		}
 		set_graphical_culture = asian
@@ -602,7 +1153,7 @@ character_event = {
 				culture = provencal
 			}
 			modifier = {
-				factor = 0
+				factor = 6
 				culture = bahrayni
 			}
 			modifier = {
@@ -620,6 +1171,62 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = west_anatolian
+			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 10
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 10
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 5
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
 			}
 		}
 		set_graphical_culture = southeastasian
@@ -700,6 +1307,62 @@ character_event = {
 				factor = 0
 				culture = west_anatolian
 			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
+			}
 		}
 		set_graphical_culture = norse
 	}
@@ -774,6 +1437,62 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = west_anatolian
+			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
 			}
 		}
 		set_graphical_culture = celtic
@@ -850,6 +1569,62 @@ character_event = {
 				factor = 0
 				culture = west_anatolian
 			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
+			}
 		}
 		set_graphical_culture = ugric
 	}
@@ -925,6 +1700,62 @@ character_event = {
 				factor = 0
 				culture = west_anatolian
 			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
+			}
 		}
 		set_graphical_culture = mediterranean
 	}
@@ -981,7 +1812,7 @@ character_event = {
 				culture = provencal
 			}
 			modifier = {
-				factor = 20
+				factor = 22
 				culture = bahrayni
 			}
 			modifier = {
@@ -999,6 +1830,62 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = west_anatolian
+			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 70
+				culture = sylheti
+			}
+			modifier = {
+				factor = 100
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 20
+				culture = naga
+			}
+			modifier = {
+				factor = 100
+				culture = varendri
+			}
+			modifier = {
+				factor = 20
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 24
+				culture = umani
+			}
+			modifier = {
+				factor = 2
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
 			}
 		}
 		set_graphical_culture = indian
@@ -1075,6 +1962,62 @@ character_event = {
 				factor = 0
 				culture = west_anatolian
 			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 10
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
+			}
 		}
 		set_graphical_culture = slavic
 	}
@@ -1150,6 +2093,62 @@ character_event = {
 				factor = 0
 				culture = west_anatolian
 			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
+			}
 		}
 		set_graphical_culture = west_slavic
 	}
@@ -1206,7 +2205,7 @@ character_event = {
 				culture = provencal
 			}
 			modifier = {
-				factor = 0
+				factor = 1
 				culture = bahrayni
 			}
 			modifier = {
@@ -1224,6 +2223,62 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = west_anatolian
+			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
 			}
 		}
 		set_graphical_culture = german
@@ -1281,7 +2336,7 @@ character_event = {
 				culture = provencal
 			}
 			modifier = {
-				factor = 0
+				factor = 1
 				culture = bahrayni
 			}
 			modifier = {
@@ -1299,6 +2354,62 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = west_anatolian
+			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
 			}
 		}
 		set_graphical_culture = english
@@ -1352,7 +2463,7 @@ character_event = {
 				culture = provencal
 			}
 			modifier = {
-				factor = 10
+				factor = 6
 				culture = bahrayni
 			}
 			modifier = {
@@ -1370,6 +2481,62 @@ character_event = {
 			modifier = {
 				factor = 80
 				culture = west_anatolian
+			}
+			modifier = {
+				factor = 30
+				culture = uzbek
+			}
+			modifier = {
+				factor = 20
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 65
+				culture = laz
+			}
+			modifier = {
+				factor = 5
+				culture = umani
+			}
+			modifier = {
+				factor = 5
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
 			}
 		}
 		set_graphical_culture = iranian
@@ -1446,6 +2613,62 @@ character_event = {
 				factor = 0
 				culture = west_anatolian
 			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
+			}
 		}
 		set_graphical_culture = italian
 	}
@@ -1502,7 +2725,7 @@ character_event = {
 				culture = provencal
 			}
 			modifier = {
-				factor = 0
+				factor = 1
 				culture = bahrayni
 			}
 			modifier = {
@@ -1520,6 +2743,66 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = west_anatolian
+			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
 			}
 		}
 		set_graphical_culture = french
@@ -1591,6 +2874,62 @@ character_event = {
 			modifier = {
 				factor = 15
 				culture = west_anatolian
+			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 50
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 15
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
 			}
 		}
 		set_graphical_culture = greek
@@ -1667,6 +3006,62 @@ character_event = {
 				factor = 0
 				culture = west_anatolian
 			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 0
+				culture = aromanian
+			}
+			modifier = {
+				factor = 30
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 60
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 60
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 60
+				culture = sinoa
+			}
 		}
 		set_graphical_culture = tibetan
 	}
@@ -1741,6 +3136,62 @@ character_event = {
 			modifier = {
 				factor = 5
 				culture = west_anatolian
+			}
+			modifier = {
+				factor = 0
+				culture = uzbek
+			}
+			modifier = {
+				factor = 0
+				culture = turkmen
+			}
+			modifier = {
+				factor = 50
+				culture = aromanian
+			}
+			modifier = {
+				factor = 0
+				culture = sylheti
+			}
+			modifier = {
+				factor = 0
+				culture = rangpuri
+			}
+			modifier = {
+				factor = 0
+				culture = naga
+			}
+			modifier = {
+				factor = 0
+				culture = varendri
+			}
+			modifier = {
+				factor = 0
+				culture = mizo
+			}
+			modifier = {
+				factor = 0
+				culture = laz
+			}
+			modifier = {
+				factor = 0
+				culture = umani
+			}
+			modifier = {
+				factor = 0
+				culture = dhofari
+			}
+			modifier = {
+				factor = 0
+				culture = yemeni
+			}
+			modifier = {
+				factor = 0
+				culture = hadhrami
+			}
+			modifier = {
+				factor = 0
+				culture = sinoa
 			}
 		}
 		set_graphical_culture = southslavic

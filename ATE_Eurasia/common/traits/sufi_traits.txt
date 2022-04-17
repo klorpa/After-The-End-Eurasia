@@ -89,3 +89,54 @@ tijani = {
 	monthly_character_piety = 0.5
 	same_opinion = 10
 }
+
+##Naqshbandi tekke traits
+
+iskenderpasha = {
+	religious = yes
+	potential = { religion = naqshbandi }
+	
+	opposites = {
+		ismailagha
+		mujaddidi
+	}
+	agnatic = yes
+	same_opinion = 10
+	opposite_opinion = -10
+	vassal_opinion = 10
+	learning=1
+	stewardship=1
+	random=no
+}
+ismailagha = {
+	religious = yes
+	potential = { religion = naqshbandi }
+	
+	opposites = {
+		iskenderpasha
+		mujaddidi
+	}
+	agnatic = yes
+	same_opinion = 10
+	opposite_opinion = -10
+	learning=1
+	diplomacy=1
+	monthly_character_piety=0.5
+	random=no
+}
+mujaddidi = {
+	religious = yes
+	potential = { religion = naqshbandi }
+	
+	opposites = {
+		iskenderpasha
+		ismailagha
+	}
+	agnatic = yes
+	same_opinion = 10
+	opposite_opinion = -10
+	learning=1
+	martial=1
+	monthly_character_prestige=0.5
+	random=no
+}

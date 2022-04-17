@@ -1,8 +1,8 @@
 #Confederation
 title_confederation_diet_member;Diet Member;;;;;;;;;;;;;x
-title_confederation_diet_member_desc;Diet Members convene at least once a year to discuss legislative matters in the Confederation. Every capable vassal owning a territory inside the realm can become a Member unless they already are a councillor.;;;;;;;;;;;;;x
+title_confederation_diet_member_desc;Diet Members convene at least once a year to discuss legislative matters in the Confederation. Every capable vassal owning a territory inside the realm can become a Member unless they already are a councilor.;;;;;;;;;;;;;x
 title_confederation_diet_president;Diet President;;;;;;;;;;;;;x
-title_confederation_diet_president_desc;The Diet President mediates all prodecures in the Diet. It's the second most powerful position in the Confederation.;;;;;;;;;;;;;x
+title_confederation_diet_president_desc;The Diet President mediates all procedures in the Diet. It's the second most powerful position in the Confederation.;;;;;;;;;;;;;x
 
 gov_confederation;Confederation;;;;;;;;;;;;;x
 confederation_government;Confederation;;;;;;;;;;;;;x
@@ -65,7 +65,7 @@ tooltip_bureaucratic_vote_strength_learning;Learning;;;;;;;;;;;;;x
 #bureaucracy_king_female;Commissioner;;;;;;;;;;;;;x
 #bureaucracy_kingdom_of;State of;;;;;;;;;;;;;x
 
-EVTDESCgov.005;[From.GetTitledFirstName] has sent an envoy asking you to adopt his Bureaucratic administration. Now your realm can adopt the same government type. Doing so will eventually change your successsion law and your vassals will slowly adapt to the new system. Moreover, switching to Bureaucratic will allow you to vote on and be eligible for your liege's succession. However, refusing this offer will anger [From.GetObjectPronoun].;;;;;;;;;;;;;x
+EVTDESCgov.005;[From.GetTitledFirstName] has sent an envoy asking you to adopt his Bureaucratic administration. Now your realm can adopt the same government type. Doing so will eventually change your succession law and your vassals will slowly adapt to the new system. Moreover, switching to Bureaucratic will allow you to vote on and be eligible for your liege's succession. However, refusing this offer will anger [From.GetObjectPronoun].;;;;;;;;;;;;;x
 EVTOPTAgov.005;I will adopt [From.GetPossPronoun] ways;;;;;;;;;;;;;x
 EVTOPTBgov.005;I won't be a slave!;;;;;;;;;;;;;x
 opinion_refused_bureaucracy;Refused Bureaucracy;;;;;;;;;;;;;x
@@ -142,25 +142,9 @@ romanipen_emperor_female;Empress;;;;;;;;;;;;;x
 romanipen_empire_of;Empire of;;;;;;;;;;;;;x
 romanipen_empire;Empire;;;;;;;;;;;;;x
 
-gov_pavee;Traveller Clan;;;;;;;;;;;;;x
+gov_pavee;Traveler Clan;;;;;;;;;;;;;x
 
-#Nomadic Herders
-gov_herder;Herder;;;;;;;;;;;;;x
-herder_government;Nomadic Herders;;;;;;;;;;;;;x
-herder_government_desc;A Loose collection of tribal chieftains whom recognize a council to oversees their traditional nomadic life following the paths of their grazing animals. As a Nomadic Herder you must keep watch of your grazing grounds, or else the lands fruitfulness will decline, rotate regularly so your populace and their flocks of grazing animals are well-fed (even at the expense of your nieghbors).;;;;;;;;;;;;;x
 
-herder_count;Herdsman;;;;;;;;;;;;;x
-herder_count_female;Herdswoman;;;;;;;;;;;;;x
-herder_county_of;Collective of;;;;;;;;;;;;;x
-herder_duke;Head Chief;;;;;;;;;;;;;x
-herder_duke_female;Head Chieftess;;;;;;;;;;;;;x
-herder_duchy_of;Community of;;;;;;;;;;;;;x
-herder_king;Head Chief;;;;;;;;;;;;;x
-herder_king_female;Head Chieftess;;;;;;;;;;;;;x
-herder_kingdom_of;Council of;;;;;;;;;;;;;x
-herder_emperor;Head Chief;;;;;;;;;;;;;x
-herder_emperor_female;Head Chieftess;;;;;;;;;;;;;x
-herder_empire_of;Grand Council of;;;;;;;;;;;;;x
 
 #Chinese Bureaucracy Government (Re-Flavored)
 confucian_bureaucracy;Sinic Bureaucracy;Bureaucratie sinique;Sündige Bürokratie;;Burocracia sinica;;;;;;;;;x
@@ -169,7 +153,7 @@ confucian_bureaucracy_desc;Sinic Bureaucracies rely on a set of strict imperial 
 #Swaraj
 gov_swaraj;Sublime Swaraj State;;;;;;;;;;;;;x
 swaraj_government;Sublime Swaraj;;;;;;;;;;;;;x
-swaraj_government_desc;A cosmopolitan government practiced by those of the Satyagrahi faith. It rejects heirarchy and the stratification of society by promoting the idea of promoting the individual by giving them the tools to build their community. A highly decentralized government, they are disallowed from assimilationist and dogmatic policies and whose leaders are bonded by appointment rather than feudal sucession in exchange for increase vassal limits.;;;;;;;;;;;;;x
+swaraj_government_desc;A cosmopolitan government practiced by those of the Satyagrahi faith. It rejects hierarchy and the stratification of society by promoting the idea of promoting the individual by giving them the tools to build their community. A highly decentralized government, they are disallowed from assimilationist and dogmatic policies and whose leaders are bonded by appointment rather than feudal succession in exchange for increase vassal limits.;;;;;;;;;;;;;x
 
 #Playable Inland Republics###############################################
 playable_republic_government;Republic;;;;;;;;;;;;;x
@@ -181,7 +165,7 @@ gov_imperial_republic;Autocratic Elective;;;;;;;;;;;;;x
 
 democratic_elective;Democratic Elective;;;;;;;;;;;;;x
 succ_democratic_elective;Democratic Elective;;;;;;;;;;;;;x
-succ_democratic_elective_desc;Direct Representatives of your people can cast a vote to choose the sovereign of the realm. Candidates are the prestigous houses (vassals) of the republic which also include members from the ruling house of the Republic of the current sovereign. Skilled rulers have more sway in electing the successor.;;;;;;;;;;;;;x
+succ_democratic_elective_desc;Direct Representatives of your people can cast a vote to choose the sovereign of the realm. Candidates are the prestigious houses (vassals) of the republic which also include members from the ruling house of the Republic of the current sovereign. Skilled rulers have more sway in electing the successor.;;;;;;;;;;;;;x
 
 gov_white_martyr;Bánmartre;;;;;;;;;;;;;x
 white_martyr_government;Bánmartre;;;;;;;;;;;;;x
@@ -197,7 +181,7 @@ white_martyr_emperor;Archimandrite;;;;;;;;;;;;;x
 white_martyr_emperor_female;Archimandrate;;;;;;;;;;;;;x
 
 hereditary_theocracy_government;Hereditary Theocracy;;;;;;;;;;;;;x
-hereditary_theocracy_government_desc;In many religious traditions, notable families of scholars or priests may pass their authority on to their descendants. These great theologian families may serve as adivsors for the many rulers and subjects, providing rulings on matters of religious dispute.;;;;;;;;;;;;;x
+hereditary_theocracy_government_desc;In many religious traditions, notable families of scholars or priests may pass their authority on to their descendants. These great theologian families may serve as advisors for the many rulers and subjects, providing rulings on matters of religious dispute.;;;;;;;;;;;;;x
 gov_hereditary_theocracy;Hereditary Theocracy;;;;;;;;;;;;;x
 
 #Communal
@@ -207,10 +191,10 @@ communal_government_desc;Communal Government is based around communal religious 
 
 mil_communal_elective;Military Selection;;;;;;;;;;;;;x
 succ_mil_communal_elective;Military Selection;;;;;;;;;;;;;x
-succ_mil_communal_elective_desc;The most qualified person to run the commune should be the most capable commander and strategist. Voted on by their skill and prestige as a military commander, the successor of the realm will be choosen by the council and the ruler.;;;;;;;;;;;;;x
+succ_mil_communal_elective_desc;The most qualified person to run the commune should be the most capable commander and strategist. Voted on by their skill and prestige as a military commander, the successor of the realm will be chosen by the council and the ruler.;;;;;;;;;;;;;x
 rel_communal_elective;Learned Appointment;;;;;;;;;;;;;x
 succ_rel_communal_elective;Learned Appointment;;;;;;;;;;;;;x
-succ_rel_communal_elective_desc;The direction of leadership should be guided by knowledge of theory, therefore, the apointment of new captains should also be decided by the religious scholars and theocrats of the realm.;;;;;;;;;;;;;x
+succ_rel_communal_elective_desc;The direction of leadership should be guided by knowledge of theory, therefore, the appointment of new captains should also be decided by the religious scholars and theocrats of the realm.;;;;;;;;;;;;;x
 gov_communal_military_apointment;Meritocratic Secretariate;;;;;;;;;;;;;x
 gov_communal_learned_apointment;Appointed Secretariate;;;;;;;;;;;;;x
 gov_communal_eldership;Elder Selected Secretariate;;;;;;;;;;;;;x
@@ -289,3 +273,6 @@ ethiopian_imperial_government_desc;Ethiopia Imperialism, much like the ordinary 
 
 ethiopian_bureaucracy;Ethiopian Empire;;;;;;;;;;;;;x
 ethiopian_bureaucracy_desc;The Imperial Ethiopia State, represents a multi-cultural and multi-religious union of rulers across Ethiopia whom recognize the central primacy of the King of Kings as their sole legal sovereign and representative. Based on the ancient traditions of ancient Ethiopian Empires that came before it, The Great King of Kings rules the vibrant state of Ethiopia with the fearsome will of the Lion of Judah, their standing reliant of maintaining an increasingly large array of governors, princes, and bureaucrats loyal to the central court.;;;;;;;;;;;;;x
+
+#MISC
+gov_reindeer_herder;Reindeer Herders;;;;;;;;;;;;;x

@@ -36,10 +36,16 @@ e_alpenland = {
 				color={ 21 139 160 }
 				color2={ 255 255 255 }
 				
-				rhenish="Mannem"
-				swabian="Manne"
-				schwyzer="Manne"
+				rhenish="Kurpfalz"
+				low_saxon="Kurpfalz"
+				ossi="Kurpfalz"
+				upper_saxon="Kurpfalz"
+				bavarian="Kurpfoiz"
+				swabian="Kurpfalz"
+				austrian="Kurpfoiz"
 				palatinate="Kurpalz"
+				schwyzer="Kurpfalz"
+				alsatian="Kurpfalz"
 
 				b_heidelberg = {
 					palatinate="Heidlberg"
@@ -291,7 +297,7 @@ e_alpenland = {
 					swabian="Strossburi"
 					austrian="Strassburg"
 					schwyzer="Strossburi"
-					alsatian="Stroßbùrri"
+					alsatian="Schtrosburi"
 					palatinate="Schdrooßbursch"
 				}
 				b_molsheim = {
@@ -309,11 +315,11 @@ e_alpenland = {
 					swabian="Schlettstàdt"
 					austrian="Schlettstadt"
 					schwyzer="Schlettstàdt"
-					alsatian="Schlettstàdt"
+					alsatian="Schlettschtàtt"
 					palatinate="Schlettstàdt"
 				}
 				b_schiltigheim = {
-					alsatian="Schìllige"
+					alsatian="Schilige"
 					swabian="Schìliga"
 					schwyzer="Schìliga"
 					palatinate="Schìllige"
@@ -327,7 +333,7 @@ e_alpenland = {
 					swabian="Zàwere"
 					austrian="Zabern"
 					schwyzer="Zàwere"
-					alsatian="Zàwere"
+					alsatian="Zawere"
 					palatinate="Zàwere"
 				}
 				b_niederbronn_les_bains = {
@@ -383,11 +389,11 @@ e_alpenland = {
 					swabian="Milhüsa"
 					austrian="Mülhausen"
 					schwyzer="Milhüsa"
-					alsatian="Milhüsa"
+					alsatian="Mihlhüsa"
 					palatinate="Milhüüsa"
 				}
 				b_altkirch = {
-					alsatian="Àltkìrech"
+					alsatian="Àltkelch"
 					swabian="Àltkìrech"
 					schwyzer="Àltkìrech"
 					palatinate="Àltkìrech"
@@ -405,7 +411,7 @@ e_alpenland = {
 					swabian="Rappschwihr"
 					austrian="Rappoltsweiler"
 					schwyzer="Rappschwihr"
-					alsatian="Rappschwihr"
+					alsatian="Ràbschwihr"
 					palatinate="Rappschwihr"
 				}
 				b_guebwiller = {
@@ -680,7 +686,7 @@ e_alpenland = {
 			upper_saxon="Niederbayern"
 			bavarian="Niedaboarn"
 			swabian="Niderbayre"
-			austrian="Niederbayern"
+			austrian="Niedaboarn"
 			schwyzer="Niderbayre"
 			luxembourger="Nidderbayern"
 			dutch="Neder-Beieren"
@@ -688,7 +694,7 @@ e_alpenland = {
 			walloon="Basse-Bavière"
 			chti="Basse-Bavière"
 			parisian="Basse-Bavière"
-			palatinate="Niederbayan"
+			palatinate="Niederbaiere"
 			
 			capital = 463 #Landshut
 			
@@ -847,6 +853,10 @@ e_alpenland = {
 			c_funfseenland = {
 				color={ 24 90 155 }
 				color2={ 255 255 255 }
+				
+				parisian="Cinq-Lacs"
+				chti="Cinq-Lacs"
+				walloon="Cinq-Lacs"
 
 				b_starnberg = {}
 				b_tegernsee = {}
@@ -2369,7 +2379,7 @@ e_alpenland = {
 			upper_saxon="Tirol"
 			bavarian="Tiroi"
 			swabian="Tirol"
-			austrian="Tirol"
+			austrian="Tiroi"
 			schwyzer="Tirol"
 			luxembourger="Tiroul"
 			dutch="Tirool"
@@ -2384,27 +2394,6 @@ e_alpenland = {
 			palatinate="Tirol"
 			
 			capital = 580 #Tyrol
-
-			
-			c_vorarlberg = {
-				color={ 239 238 253 }
-				color2={ 255 255 255 }
-
-				swabian="Vorarlbearg"
-				low_saxon="Vörarlbarg"
-
-				b_bregenz = {
-					walloon="Brigance"
-					chti="Brigance"
-					parisian="Brigance"
-				}
-				b_dornbirn = {}
-				b_feldkirch = {}
-				b_bludenz = {}
-				b_frastanz = {}
-				b_hohenems = {}
-				b_rankweil = {}
-			}
 			
 			c_tyrol = {
 				color={ 222 218 232 }
@@ -2416,7 +2405,7 @@ e_alpenland = {
 				upper_saxon="Tirol"
 				bavarian="Tiroi"
 				swabian="Tirol"
-				austrian="Tirol"
+				austrian="Tiroi"
 				schwyzer="Tirol"
 				luxembourger="Tiroul"
 				dutch="Tirool"
@@ -2451,12 +2440,12 @@ e_alpenland = {
 				color2={ 255 255 255 }
 
 				rhenish="Südtirol"
-				low_saxon="Südtirol"
+				low_saxon="Süüdtirol"
 				ossi="Südtirol"
 				upper_saxon="Südtirol"
 				bavarian="Sidtiroul"
 				swabian="Südtirol"
-				austrian="Südtirol"
+				austrian="Sidtiroul"
 				schwyzer="Südtirol"
 				luxembourger="Südtiroul"
 				dutch="Zuid-Tirol"
@@ -2469,6 +2458,16 @@ e_alpenland = {
 				occitan="Sud-Tiròl"
 				provencal="Sud-Tiròl"
 				palatinate="Südtirol"
+				umbrian="Alto Adige"
+				romagnol="Alto Adige"
+				tuscan="Alto Adige"
+				lombard="Süd Tirol"
+				romansh="Tirol dal Sid"
+				friulian="Sud Tirôl"
+				venetian="Alto Àdeze"
+				ligurian="Erto Adixe"
+				sicilian="Autu Adici"
+				neapolitan="Avere Arece"
 				
 				b_meran = {}
 				b_brixen = {}
@@ -2492,6 +2491,7 @@ e_alpenland = {
 				czech="Salcburk"
 				low_saxon="Soltborg"
 				bavarian="Soizbuag"
+				austrian="Soizbuag"
 				parisian="Salzbourg"
 				chti="Salzbourq"
 				walloon="Salzbourg"
@@ -2507,6 +2507,7 @@ e_alpenland = {
 					czech="Salcburk"
 					low_saxon="Soltborg"
 					bavarian="Soizbuag"
+					austrian="Soizbuag"
 					parisian="Salzbourg"
 					chti="Salzbourq"
 					walloon="Salzbourg"
@@ -2529,6 +2530,7 @@ e_alpenland = {
 				sicilian="Agonto"
 				venetian="Agonto"
 				bavarian="Lianz"
+				austrian="Lianz"
 
 				b_lienz = {
 					neapolitan="Agonto"
@@ -2537,6 +2539,7 @@ e_alpenland = {
 					sicilian="Agonto"
 					venetian="Agonto"
 					bavarian="Lianz"
+					austrian="Lianz"
 				}
 				b_matrei_in_osttirol = {}
 				b_nubdorf_debant = {}
@@ -2583,7 +2586,7 @@ e_alpenland = {
 				upper_saxon="Kärnten"
 				bavarian="Karntn"
 				swabian="Kärnte"
-				austrian="Kärnten"
+				austrian="Karntn"
 				schwyzer="Kärnte"
 				neapolitan="Carinzia"
 				umbrian="Carinzia"
@@ -2676,8 +2679,11 @@ e_alpenland = {
 				slovene="Gradišcanska"
 				czech="Hradsko"
 				bavarian="Burgnland"
+				austrian="Burgnland"
 				swabian="Burgeland"
 				schwyzer="Burgeland"
+				hungarian="Orvidék"
+				szekely="Orvidék"
 			
 				b_rust = {}
 				b_eisenstadt = {
@@ -2751,8 +2757,9 @@ e_alpenland = {
 				upper_saxon="Oberösterreich"
 				bavarian="Obaöstareich"
 				swabian="Oberöschtriich"
-				austrian="Oberösterreich"
+				austrian="Obaöstareich"
 				schwyzer="Oberöschtriich"
+				alsatian="Oberöschtriich"
 				luxembourger="Ueweréisträich"
 				parisian="Haute-Autriche"
 				walloon="Hôte-Otriche"
@@ -2869,7 +2876,7 @@ e_alpenland = {
 				parisian="Saint-Hippolyte"
 				chti="Saint-Polite"
 				walloon="Sint-Hippolyte"
-				bavarian="Sankt Pödn"
+				austrian="Sankt Pödn"
 			
 				b_amstetten = {}
 				b_sankt_polten = {
@@ -2895,12 +2902,14 @@ e_alpenland = {
 				color2={ 255 255 255 }
 				
 				bavarian="Urfa"
+				austrian="Urfa"
 			
 				b_zwettl = {
 					czech="Svetlá"
 				}
 				b_urfahr = {
 					bavarian="Urfa"
+					austrian="Urfa"
 				}
 				b_freistadt = {
 					czech="Cáchlav"

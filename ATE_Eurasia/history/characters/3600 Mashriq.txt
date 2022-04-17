@@ -1,4 +1,4 @@
- # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #ArdAl-MuqaddisCharacters # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+ # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #Ard Al-Muqaddis Characters # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 	
 3600000={
 	name="Ovadia"
@@ -1824,3 +1824,715 @@
 	trait=diligent
 	2630.1.1={birth=yes}
 }
+
+
+#3600509={ #King Sarbel of Cyprus #Finish this BASED lad later #2486.3.2={holder=3600509}
+#	name="Sarbel"
+#	dynasty=20740196 #Gharios
+#	culture=kypriot
+#	religion=catholic
+#	trait=brilliant_strategist
+#	trait=maronite_rite
+#	trait=diligent
+#	2630.1.1={birth=yes} #Traits and Birth are Placeholder
+#}
+
+3600510={ #Count Petros of Limassol
+	name="Petros"
+	dynasty=20740197 #Zakos
+	culture=kypriot
+	religion=orthodox
+	trait=skilled_tactician
+	trait=shrewd
+	trait=shy
+	2580.9.10={birth=yes}
+	2646.2.3={death=yes}
+}
+
+3600511={ #Count Michalis of Limassol
+	name="Michalis"
+	dynasty=20740197 #Zakos
+	martial=2
+	diplomacy=8
+	stewardship=11
+	culture=kypriot
+	religion=orthodox
+	trait=midas_touched
+	trait=is_fat
+	trait=diligent
+	trait=gregarious
+	trait=kind
+	father=3600510
+	2610.11.16={birth=yes}
+	2660.11.24={death=yes}
+}
+
+3600512={ #Count Christoforos of Limassol
+	name="Christoforos"
+	dynasty=20740197 #Zakos
+	culture=kypriot
+	religion=orthodox
+	martial=8
+	diplomacy=8
+	stewardship=4
+	trait=charismatic_negotiator
+	trait=lustful
+	trait=pious
+	trait=honest
+	trait=diligent
+	father=3600511
+	2647.1.10={birth=yes}
+}
+
+3600513={ #Vaso of Limassol
+	name="Vaso"
+	dynasty=20740197 #Zakos
+	culture=kypriot
+	religion=orthodox
+	female=yes
+	martial=4
+	learning=4
+	stewardship=6
+	trait=diligent
+	trait=curious
+	trait=erudite
+	father=3600511
+	2654.4.2={birth=yes}
+}
+
+3600514={ #Admiral Silas of Cyprus
+	name="Silas"
+	dynasty=20740200 #Boukris
+	culture=kypriot
+	religion=orthodox
+	trait=skilled_tactician
+	trait=brave
+	trait=wroth
+	trait=temperate
+	2589.7.22={birth=yes}
+	2637.2.8={add_spouse=3600515}
+	2659.8.7={death=yes}
+}
+
+3600515={ #Timothea of Limassol
+	name="Timothea"
+	dynasty=20740197 #Zakos
+	culture=kypriot
+	religion=orthodox
+	female=yes
+    trait=intricate_webweaver	
+    trait=chaste
+    trait=kind
+    trait=temperate
+	father=3600510
+	2618.1.15={birth=yes}
+	2637.2.8={add_spouse=3600514}	
+}
+
+3600516={ #Admiral Dionysios of Cyprus
+	name="Dionysios"
+	dynasty=20740200 #Boukris
+	culture=kypriot
+    martial=11
+    diplomacy=8
+    stewardship=4
+    intrigue=6
+    learning=5
+	religion=orthodox
+	trait=skilled_tactician
+	trait=fair
+	trait=musician
+	trait=shrewd
+	trait=temperate
+	father=3600514
+	mother=3600515
+	2639.2.6={birth=yes}
+}
+
+3600517={ #Glykeria of Cyprus
+	name="Glykeria"
+	dynasty=20740200 #Boukris
+	culture=kypriot
+	religion=orthodox
+	female=yes
+	trait=bastard
+	father=3600516
+	2662.4.5={birth=yes}
+}
+
+3600518={ #Loukas of Cyprus
+	name="Loukas"
+	dynasty=20740200 #Boukris
+	culture=kypriot
+    martial=8
+    diplomacy=5
+    stewardship=8
+    intrigue=6
+    learning=5
+	religion=orthodox
+	trait=fortune_builder
+	trait=honest
+	trait=greedy
+	trait=diligent
+	father=3600514
+	mother=3600515
+	2641.1.8={birth=yes}
+}
+
+3600519={ #Nikos of Cyprus
+	name="Nikos"
+	dynasty=20740200 #Boukris
+	culture=kypriot
+    martial=4
+    diplomacy=11
+    stewardship=5
+    intrigue=5
+    learning=5
+	religion=orthodox
+	trait=grey_eminence
+	trait=familyperson
+	trait=kind
+	trait=shrewd
+	trait=diligent
+	father=3600514
+	mother=3600515
+	2644.4.12={birth=yes}
+}
+
+3600520={ #Elmaz of Cyprus
+	name="Elmaz"
+	dynasty=20740200 #Boukris
+	culture=kypriot
+    martial=4
+    diplomacy=8
+    stewardship=4
+    intrigue=4
+    learning=4
+	female=yes
+	religion=orthodox
+	trait=charismatic_negotiator
+	trait=fair
+	trait=wroth
+	trait=temperate
+	father=3600514
+	mother=3600515
+	2647.10.9={birth=yes}
+}
+
+3600521={ #Lord Pirate Dimos of Cyprus
+	name="Dimos"
+	dynasty=20740198 #Estathiou
+	culture=kypriot
+	religion=neoplatonist
+    trait=fortune_builder    
+    trait=gregarious
+    trait=diligent
+    trait=honorable
+	2598.4.14={birth=yes}
+	2629.1.16={add_spouse=3600522}
+	2664.8.21={death=yes}
+}
+
+3600522={ #Arete of Limassol
+	name="Arete"
+	culture=kypriot
+	religion=neoplatonist
+	female=yes
+    trait=charismatic_negotiator
+	trait=wroth
+	trait=gregarious
+	trait=honest
+	2608.1.15={birth=yes}
+	2629.1.16={add_spouse=3600521}	
+}
+
+
+3600523={ #Lord Pirate Faruk of Cyprus
+	name="Faruk"
+	dynasty=20740198 #Estathiou
+	culture=kypriot
+	religion=neoplatonist
+	stewardship=13
+	intrigue=7
+	martial=10
+    trait=midas_touched    
+    trait=greedy
+    trait=ruthless
+    trait=just
+	father=3600521
+	mother=3600522
+	2635.4.4={birth=yes}
+	2655.2.12={add_spouse=3600524}
+}
+
+3600524={ #Olympia of Limassol
+	name="Olympia"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202332
+	female=yes
+    trait=intricate_webweaver
+    trait=chaste
+    trait=deceitful
+	trait=familyperson
+	2637.1.8={birth=yes}
+	2655.2.12={add_spouse=3600523}	
+}
+
+3600525={ #Panagiotis of Cyprus
+	name="Panagiotis"
+	dynasty=20740198 #Estathiou
+	culture=kypriot
+	religion=neoplatonist
+    trait=haughty    
+    trait=rowdy
+	father=3600523
+	mother=3600524
+	2662.12.3={birth=yes}
+}
+
+3600526={ #Pinelopi of Cyprus
+	name="Pinelopi"
+	dynasty=20740198 #Estathiou
+	culture=kypriot
+	religion=neoplatonist
+	female=yes
+    trait=brave    
+    trait=brooding
+	trait=conscientious
+	father=3600523
+	mother=3600524
+	2656.9.10={birth=yes}
+}
+
+3600527={ #Admiral Andreas of Cyprus
+	name="Andreas"
+	dynasty=20740199 #Qedahyan
+	culture=kypriot
+	religion=miaphysite
+    trait=brilliant_strategist    
+    trait=school_thaddeus
+    trait=defensive_leader
+    trait=one_legged
+	trait=cruel
+	trait=ambitious
+	2583.6.1={birth=yes}
+	2650.9.18={death=yes}
+}
+
+3600528={ #Lord Pirate Ishak of Cyprus
+	name="Ishak"
+	dynasty=20740199 #Qedahyan
+	culture=kypriot
+	religion=miaphysite
+    trait=underhanded_rogue    
+    trait=school_thaddeus
+    trait=honest
+    trait=content
+	trait=temperate
+	father=3600527
+	2611.4.12={birth=yes}
+	2631.2.7={add_spouse=3600529}
+	2665.9.10={death={
+			death_reason=death_battle
+		}
+	}
+}
+
+3600529={ #Aliki of Cyprus
+	name="Aliki"
+	dynasty=20740201 #Günsel
+	culture=kypriot
+	religion=ruhi
+	female=yes
+	trait=charismatic_negotiator
+	trait=legit_bastard
+	trait=kind
+	trait=pious
+	trait=content
+	father=3600537
+	2612.1.2={birth=yes}
+	2631.2.7={add_spouse=3600528}
+}
+
+3600530={ #Lord Pirate Pilartos of Cyprus
+	name="Pilartos"
+	dynasty=20740199 #Qedahyan
+	culture=kypriot
+	religion=miaphysite
+	stewardship=8
+	martial=10
+    trait=thrifty_clerk	  
+	trait=gardener
+    trait=school_thaddeus
+    trait=slothful
+    trait=slothful
+	trait=patient
+	father=3600528
+	mother=3600529
+	2640.10.17={birth=yes}
+	2659.12.24={add_spouse=3600531}
+}
+
+3600531={ #Poyraz of Cyprus
+	name="Poyraz"
+	culture=malayali
+	religion=miaphysite
+	female=yes
+	diplomacy=12
+	learning=10
+    trait=grey_eminence	  
+	trait=gardener
+    trait=school_thaddeus
+    trait=groomed
+    trait=diligent
+	trait=kind
+	trait=honest
+	2641.8.2={birth=yes
+	culture=kypriot
+	}
+	2659.12.24={add_spouse=3600530}
+}
+
+3600532={ #Alkmene of Cyprus
+	name="Alkmene"
+	dynasty=20740199 #Qedahyan
+	culture=kypriot
+	religion=miaphysite
+	female=yes
+	diplomacy=12
+	martial=6
+	learning=5
+    trait=charismatic_negotiator	  
+    trait=school_thaddeus
+    trait=gregarious
+    trait=proud
+	trait=patient
+	father=3600528
+	mother=3600529
+	2642.11.5={birth=yes}
+	2660.2.14={add_spouse=3600546}
+}
+
+3600533={ #Grigorios of Cyprus
+	name="Grigorios"
+	dynasty=20740199 #Qedahyan
+	culture=kypriot
+	religion=miaphysite
+	stewardship=2
+	martial=2
+    trait=school_thaddeus
+    trait=haughty
+	father=3600530
+	mother=3600531
+	2660.5.1={birth=yes}
+}
+ 
+3600534={ #Nomiki of Cyprus
+	name="Nomiki"
+	dynasty=20740199 #Qedahyan
+	culture=malayali
+	religion=miaphysite
+	female=yes
+    trait=school_thaddeus
+	father=3600530
+	mother=3600531
+	2664.4.10={birth=yes
+	culture=kypriot
+	}
+}
+
+3600535={ #Lady Admiral Zarafet of Cyprus
+	name="Zarafet"
+	dynasty=20740201 #Günsel
+	culture=kypriot
+	religion=ruhi
+	female=yes
+	stewardship=10
+	martial=12
+	learning=11
+    trait=midas_touched
+	trait=ambitious
+    trait=brave
+    trait=shrewd
+	trait=uncouth
+	trait=freckles_3
+	2564.10.15={birth=yes}
+	2589.9.1={add_matrilineal_spouse=3600536}
+	2632.3.11={death=yes}
+}
+
+3600536={ #Talip of Cyprus
+	name="Talip"
+	culture=rumelian
+	religion=naqshbandi
+	martial=14
+	learning=2
+    trait=brilliant_strategist
+	trait=duelist
+    trait=robust
+    trait=slow
+	trait=ruthless
+	trait=wroth
+	2568.3.4={birth=yes}
+	2589.9.1={add_matrilineal_spouse=3600535}
+	2629.10.3={death=yes}
+}
+
+3600537={ #Zinon of Cyprus
+	name="Zinon"
+	dynasty=20740201 #Günsel
+	culture=kypriot
+	religion=ruhi
+	stewardship=5
+	martial=10
+	learning=5
+    trait=tough_soldier
+	trait=wroth
+    trait=content
+    trait=familyperson
+	father=3600536
+	mother=3600535
+	2593.12.1={birth=yes}
+	2644.5.20={add_spouse=3600538}
+	2656.8.10={death={
+			death_reason=death_battle
+		}
+	}
+}
+
+3600538={ #Zumra of Cyprus
+	name="Zumra"
+	dynasty=2074067 #Türkkan
+	culture=kypriot
+	religion=naqshbandi
+	father=2202332
+	female=yes
+	martial=5
+	learning=5
+	diplomacy=5
+    trait=fortune_builder
+	trait=diligent
+    trait=greedy
+    trait=chaste
+	2626.6.14={birth=yes}
+	2644.5.20={add_spouse=3600537}
+}
+
+3600539={ #Lord Pirate Mahmud of Cyprus
+	name="Mahmud"
+	dynasty=20740201 #Günsel
+	culture=kypriot
+	religion=ruhi
+	stewardship=10
+	martial=8
+	learning=14
+    trait=mastermind_theologian
+	trait=zealous
+    trait=cruel
+    trait=temperate
+	trait=erudite
+	father=3600537
+	mother=3600538
+	2647.4.18={birth=yes}
+}
+
+3600540={ #Cemal of Cyprus
+	name="Cemal"
+	dynasty=20740201 #Günsel
+	culture=kypriot
+	religion=ruhi
+	stewardship=5
+	martial=7
+	trait=willful
+    trait=gluttonous
+	trait=ambitious
+	father=3600537
+	mother=3600538
+	2651.8.23={birth=yes}
+}
+
+3600541={ #Agni of Cyprus
+	name="Agni"
+	dynasty=20740201 #Günsel
+	culture=kypriot
+	religion=ruhi
+	stewardship=5
+	martial=5
+	learning=5
+	female=yes
+    trait=envious
+	trait=curious
+    trait=patient
+	father=3600537
+	mother=3600538
+	2652.10.11={birth=yes}
+}	
+		
+3600542={ #Lord Pirate Emilios of Cyprus
+	name="Emilios"
+	dynasty=20740196 #Gharios
+	culture=arabic
+	religion=catholic
+    trait=fortune_builder    
+    trait=maronite_rite
+    trait=distractible
+    trait=just
+	trait=slothful
+	trait=temperate
+	2597.8.7={birth=yes
+	culture=kypriot
+	}
+	2629.1.16={add_spouse=3600543}
+	2662.11.6={death=yes}
+}	
+
+3600543={ #Kyriake of Cyprus
+	name="Kyriake"
+	culture=arabic
+	female=yes
+	religion=catholic
+    trait=amateurish_plotter    
+    trait=maronite_rite
+    trait=deceitful
+    trait=chaste
+	trait=shy
+	2601.8.1={birth=yes
+	culture=kypriot
+	}
+	2629.1.16={add_spouse=3600542}
+	2665.4.8={death=yes}
+}
+		
+3600544={ #Lord Pirate Sarafim of Cyprus
+	name="Sarafim"
+	dynasty=20740196 #Gharios
+	culture=arabic
+	religion=catholic
+	martial=12
+	learning=11
+	stewardship=8
+    trait=skilled_tactician    
+    trait=maronite_rite
+    trait=distractible
+    trait=ruthless
+	trait=gregarious
+	trait=charitable
+	father=3600542
+	mother=3600543
+	2641.6.30={birth=yes
+	culture=kypriot
+	}
+	2662.1.1={
+		prestige=500
+		wealth = 100
+	}
+}	
+
+3600545={ #Pelagia of Cyprus
+	name="Pelagia"
+	dynasty=20740196 #Gharios
+	culture=arabic
+	religion=catholic
+	martial=2
+	learning=2
+	stewardship=2
+	female=yes
+    trait=detached_priest    
+    trait=maronite_rite
+    trait=twin
+    trait=humble
+	trait=pious
+	father=3600542
+	mother=3600543
+	2642.8.12={birth=yes
+	culture=kypriot
+	}
+}			
+		
+3600546={ #Silas of Cyprus
+	name="Silas"
+	dynasty=20740196 #Gharios
+	culture=arabic
+	religion=catholic
+	martial=8
+	learning=5
+	stewardship=5
+	intrigue=10
+    trait=intricate_webweaver
+    trait=maronite_rite
+    trait=twin
+    trait=diligent
+	trait=lustful
+	trait=stubborn
+	father=3600542
+	mother=3600543
+	2642.8.12={birth=yes
+	culture=kypriot
+	}
+	2660.2.14={add_spouse=3600532}
+}
+
+3600547={ #Agathi of Cyprus
+	name="Agathi"
+	dynasty=20740196 #Gharios
+	culture=arabic
+	female=yes
+	religion=catholic
+    trait=maronite_rite
+    trait=distractible
+	father=3600546
+	mother=3600532
+	2665.6.29={birth=yes
+	culture=kypriot
+	}
+}
+
+3600548={ #Vassiliki of Cyprus
+	name="Vassiliki"
+	dynasty=20740196 #Gharios
+	culture=arabic
+	religion=catholic
+	female=yes
+    trait=underhanded_rogue    
+    trait=maronite_rite
+    trait=honest
+    trait=kind
+	father=3600542
+	mother=3600543
+	2646.8.10={birth=yes
+	culture=kypriot
+	}
+}
+
+3600549={ #Prokopis of Cyprus
+	name="Prokopis"
+	dynasty=20740196 #Gharios
+	culture=arabic
+	religion=catholic
+    trait=tough_soldier
+	trait=maronite_rite
+    trait=robust
+    trait=pious
+	trait=patient
+	father=3600542
+	mother=3600543
+	2648.1.20={birth=yes
+	culture=kypriot
+	}
+}
+
+#c_nicosia
+#d_cyprus
+
+#2491 Sarbel Gharios conqueres Cyprus and begins a reign of terror on Mare Nostrum. Dies in 2515 and is #succeeded by Gavriíl I Gharios
+#Centered in Limassol
+
+#20740196 = { name="Gharios" culture=kypriot }
+
+#Recent Admirales of Cyprus
+#Zarafet Günsel
+#Andreas Qedahyan
+#Silas Boukris
+

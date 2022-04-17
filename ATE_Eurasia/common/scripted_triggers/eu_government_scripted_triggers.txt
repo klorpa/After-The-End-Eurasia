@@ -49,7 +49,6 @@ ai_pirate_trigger = {
 
 is_sufi = {
 	OR = {
-		trait = naqshbandi
 		trait = nimatullahi
 		trait = qadiri
 		trait = senussi
@@ -66,12 +65,10 @@ is_sunni = {
 		religion = taharur
 		religion = sunni
 		religion = sunnah
-		religion = naqshbandi
 		religion = ruhi
 		religion = barelvi
 		religion = hui
 		religion = ahmadi
-		religion = zikri
 		religion = ahl_as_salaf
 	}
 }
@@ -360,5 +357,45 @@ valid_offmap_china_target_location_tributary_chain = {
 				has_landed_title = e_ethiopia
 			}
 		}
+	}
+}
+
+is_historical_nomad_culture = { #Cultures with historical pastoralist cultures (i.e. Tauregs and Siberian Tribes)
+	OR = {
+		culture_group = uralic_west
+		culture_group = amazigh
+		culture = xibe
+		culture = sami
+		culture = najdi
+		culture = sahrawi
+		#Other Bedouin Groups
+	}
+}
+
+is_historical_hordes_culture = { #Cultures with histories of nomadic steppe history (i.e. Mongols and Turks)
+	OR = {
+		culture_group = turkic_east
+		culture_group = turkic_karluk
+		culture_group = turkic_siberian
+		culture_group = turkic_west
+		culture_group = mongolian_group
+		culture = manchu
+	}
+}
+is_nomadic_tribal_culture = {
+	OR = {
+		culture_group = turkic_east
+		culture_group = turkic_karluk
+		culture_group = turkic_siberian
+		culture_group = turkic_west
+		culture_group = mongolian_group
+		culture = manchu
+		culture_group = uralic_west
+		culture_group = amazigh
+		culture = xibe
+		culture = sami
+		culture = najdi
+		culture = sahrawi
+		#Other Bedouin Groups
 	}
 }

@@ -14,6 +14,9 @@ decisions = {
 				culture = rumelian
 				culture = central_anatolian
 				culture = black_sea
+				culture = toros_mountain
+				culture = qirimlar
+				culture = kypriot
 			}
 			is_adult = yes
 			prisoner = no
@@ -29,11 +32,9 @@ decisions = {
 			
 			#missing duchies to complete the formation condition
 			completely_controls = d_amman
-			completely_controls = d_irbid
 			completely_controls = d_karak
 			completely_controls = d_beirut
 			completely_controls = d_as_shamal
-			completely_controls = d_beqaa
 			completely_controls = d_al_jnoub
 			completely_controls = d_jerusalem
 			completely_controls = d_galil
@@ -47,7 +48,8 @@ decisions = {
 			completely_controls = d_raqqa
 			completely_controls = d_kuwait
 			completely_controls = d_baghdad
-			completely_controls = d_al_hajarah
+			completely_controls = d_an_najaf_al_ashraf
+			completely_controls = d_anbar
 			completely_controls = d_al_jazira
 			completely_controls = d_kurdistan
 			completely_controls = d_sawad
@@ -71,7 +73,7 @@ decisions = {
 			has_dlc = "Legacy of Rome"
 			has_landed_title = e_ottoman_empire
 			capital_scope = {
-				NOT = { province_id = 333 } #Currently Temp will be where Istanbul is
+				NOT = { province_id = 143 } #Currently Temp will be where Istanbul is
 			}
 			any_realm_lord = { 
 				ai = yes

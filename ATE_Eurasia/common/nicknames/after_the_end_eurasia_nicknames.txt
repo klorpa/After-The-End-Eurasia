@@ -40,6 +40,7 @@ nick_cigala = {}
 nick_the_moor_of_venice = {}
 nick_the_black_ram = {}
 nick_alaton = {}
+nick_ghazi = {}
 nick_malizia = {
 	allow = {
 		culture = ligurian
@@ -283,6 +284,51 @@ nick_son_of_the_white_mare = {
 		modifier = {
 			factor = 5.0
 			prestige = 15000
+		}
+	}
+}
+
+nick_the_wolf = {
+	allow = {
+		OR = {
+			has_character_modifier = wolf_blood
+			AND = {
+				OR = {
+				culture_group = mongolian
+				culture_group = turkic_east
+				culture_group = turkic_karluk
+				culture_group = turkic_oghuz
+				culture_group = turkic_siberian
+				culture_group = turkic_west
+				}
+				OR = {
+					trait = brilliant_strategist
+					is_smart_trigger = yes
+				}
+			}
+			AND = {
+				trait = hunter
+				trait = impaler
+			}
+			AND = {
+				religion_group = christian
+				trait = gluttonous
+				trait = greedy
+			}
+		}
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+			culture_group = mongolian
+			culture_group = turkic_east
+			culture_group = turkic_karluk
+			culture_group = turkic_oghuz
+			culture_group = turkic_siberian
+			culture_group = turkic_west
+			}
 		}
 	}
 }

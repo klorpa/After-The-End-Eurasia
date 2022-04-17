@@ -15,9 +15,10 @@
 	trait=groomed
 	trait=diligent
 	trait=pious
-	trait=naqshbandi
+	trait=mujaddidi
 	trait=faqih
 	trait=sayyid
+	trait=chaste
 	diplomacy=6
 	martial=6
 	stewardship=5
@@ -26,6 +27,12 @@
 	properties=ag00f
 	2633.2.22={birth=yes}
 	2664.8.11={effect={add_claim=k_fergana}}
+	2665.1.1 = {
+		effect = {
+			join_society = monastic_order_naqshbandi
+			set_society_grandmaster = yes
+		}
+	}
 }
 1506001={
 	name="Abdulhoshim"
@@ -45,6 +52,7 @@
 	religion=naqshbandi
 	trait=sayyid
 	father=1506004
+	mother=1506153
 	2615.4.1={birth=yes}
 	2650.8.22={death={death_reason=death_accident_drowning}} #Drowned in the Syr Darya
 }
@@ -219,7 +227,7 @@
 	name="Siroj"
 	dynasty=2112133 #Farg'oniy
 	culture=uzbek
-	religion=naqshbandi
+	religion=shiite
 	trait=sayyid
 	father=1506013
 	2558.11.8={birth=yes}
@@ -276,8 +284,8 @@
 	dynasty=2069082 #Çyngyzov
 	culture=kyrgyz
 	religion=naqshbandi
-	2642.12.1={birth=yes}
-	2661.2.5={
+	2631.12.1={birth=yes}
+	2651.2.5={
 			add_spouse=1506000
 		}
 }
@@ -415,11 +423,12 @@
 1506032={
 	name="Gulzoda"
 	female=yes
-	dynasty=0
+	dynasty=2112133 #Farg'oniy
 	culture=uzbek
 	religion=naqshbandi
-	2542.5.19={birth=yes}
-	2565.1.1={add_spouse=1506008}
+	father=1506013
+	2549.5.19={birth=yes}
+	2567.1.1={add_spouse=1506008}
 	2592.4.21={death=yes}
 }
 1506033={
@@ -636,7 +645,8 @@
 	religion=naqshbandi
 	trait=sayyid
 	father=1506005
-	2611.11.18={birth=yes}
+	mother=1506152
+	2612.11.18={birth=yes}
 	2628.1.1={add_spouse=2071041}
 }
 1506051={
@@ -908,9 +918,10 @@
 	culture=uzbek
 	religion=naqshbandi
 	father=1506001
-	mother=1506033
+	mother=1506156
 	trait=sayyid
-	trait=child_of_consort
+	trait=envious
+	trait=ambitious
 	2649.12.16={birth=yes}
 	2649.12.16={effect={
 		add_claim=c_osh
@@ -926,6 +937,7 @@
 	dynasty=2112136 #Ming 
 	culture=tajik
 	religion=ruhi
+	father=1506147
 	2596.10.13={birth=yes
 		culture=uzbek}
 	2657.10.29={death=yes}
@@ -1592,4 +1604,128 @@
 	father=1506145
 	2630.10.7={birth=yes}
 	2660.1.1={effect={add_friend=1506142}}
+}
+1506147={
+	name="Murod"
+	dynasty=2112136 #Ming 
+	culture=uzbek
+	religion=ruhi
+	father=1506148
+	2571.5.17={birth=yes}
+	2628.2.23={death=yes}
+}
+1506148={
+	name="Sherali"
+	dynasty=2112136 #Ming 
+	culture=uzbek
+	religion=ruhi
+	father=1506149
+	2544.2.24={birth=yes}
+	2599.10.5={death=yes}
+}
+1506149={
+	name="Olim"
+	dynasty=2112136 #Ming 
+	culture=uzbek
+	religion=ruhi
+	2518.11.10={birth=yes}
+	2557.9.8={death=yes}
+}
+1506150={
+	name="Arslon"
+	dynasty=2112133 #Farg'oniy
+	father=1506007
+	mother=1506151
+	culture=uzbek
+	religion=ruhi
+	2584.4.6={birth=yes}
+	2601.1.19={
+		death={
+			death_reason=death_execution_garrotting
+			killer=1506006
+		}
+	}
+}
+1506151={
+	name="Indira"
+	female=yes
+	dynasty=2112136 #Ming 
+	culture=uzbek
+	religion=ruhi
+	father=1506148
+	2565.10.2={birth=yes}
+	2582.1.1={add_spouse=1506007}
+	2601.1.19={
+		death={
+			death_reason=death_execution_garrotting
+			killer=1506006
+		}
+	}
+}
+1506152={
+	name="Fazilat"
+	female=yes
+	dynasty=2112133 #Farg'oniy
+	father=1506007
+	mother=1506151
+	culture=uzbek
+	religion=ruhi
+	2582.9.9={birth=yes}
+	2612.1.1={add_spouse=1506005}
+	2638.11.17={death=yes}
+}
+1506153={
+	name="Nazokat"
+	female=yes
+	dynasty=2112133 #Farg'oniy
+	father=1506007
+	mother=1506151
+	culture=uzbek
+	religion=ruhi
+	2586.1.19={birth=yes}
+	2614.1.1={add_spouse=1506004}
+	2624.11.27={death=yes}
+}
+1506154={
+	name="Halima"
+	female=yes
+	dynasty=2112133 #Farg'oniy
+	father=1506000
+	mother=1506020
+	culture=uzbek
+	religion=naqshbandi
+	2653.7.24={birth=yes}
+}
+1506155={
+	name="Komila"
+	female=yes
+	dynasty=2069073 #Dokhundi
+	culture=tajik
+	religion=naqshbandi
+	father=1506021
+	mother=1506081
+	2643.5.20={birth=yes}
+	2666.1.1={add_spouse=1506000}
+}
+1506156={
+	name="Dilhumar"
+	female=yes
+	dynasty=2080089 #Khoja 
+	culture=uighur
+	religion=naqshbandi
+	father=1506145
+	2629.1.12={birth=yes}
+	2648.1.1={add_spouse=1506001}
+}
+1506157={
+	name="Akgul"
+	female=yes
+	dynasty=2112133 #Farg'oniy
+	culture=uzbek
+	religion=naqshbandi
+	father=1506001
+	mother=1506156
+	trait=sayyid
+	2653.12.16={birth=yes}
+	2660.1.1={employer=1506003}
 }

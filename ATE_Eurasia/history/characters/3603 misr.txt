@@ -12,16 +12,20 @@
 	2618.11.2 = { birth=yes }
 }
 3603001 = {
-	name = "Aleksanaros"
-	culture = masri
+	name = "Ilia"
+	culture = georgian
 	religion = orthodox
+	dynasty=2051125 #Bolkvadze
 	trait = mastermind_theologian
 	trait = theologian
 	trait = patient
 	trait = gregarious
 	trait = ambitious
 	trait = erudite
+	trait = celibate
+	father = 1802106
 	2618.11.2 = { birth=yes }
+
 }
 3603002 = { #Duke of Cyrenaica
 	name = "Umar"
@@ -1052,6 +1056,7 @@
 	trait = kind
 	trait = patient
 	trait = temperate
+	father=3603092
 	2610.8.10 = { birth = yes }
 	2630.1.1 = { add_spouse = 3603089 }
 	2665.5.12 = { death = yes }
@@ -1087,6 +1092,43 @@
 	father = 3603084
 	mother = 3603085
 	2648.11.2 = { birth=yes }
+}
+3603092={
+	name="Saad"
+	dynasty=1912098 #Shabana
+	culture=masri
+	religion=sunni
+	father=3603093
+	2582.2.15={birth=yes}
+	2638.12.7={death=yes}
+}
+3603093={
+	name="Naguib"
+	dynasty=1912098 #Shabana
+	culture=masri
+	religion=sunni
+	father=3603094
+	2551.9.5={birth=yes}
+	2595.12.22={death=yes}
+}
+3603094={
+	name="Hazem"
+	dynasty=1912098 #Shabana
+	culture=masri
+	religion=sunni
+	father=3603094
+	2522.8.17={birth=yes}
+	2567.6.16={death=yes}
+}
+3603095={
+	name="Inji"
+	female=yes
+	dynasty=1912098 #Shabana
+	culture=masri
+	religion=sunni
+	father=3603094
+	2562.4.13={birth=yes}
+	2613.3.19={death=yes}
 }
 
 

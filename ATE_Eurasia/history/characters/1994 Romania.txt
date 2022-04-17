@@ -826,7 +826,7 @@
 1994117={ #Countess of Cahul (Stereo Love Reference)
 	name="Vica"
 	dynasty=2077101 #Maia
-	culture=moldovan
+	culture=gagauz
 	religion=orthodox
 	trait=charismatic_negotiator
 	trait=gregarious
@@ -851,6 +851,12 @@
 	trait=architect
 	give_nickname=nick_the_architect
 	2642.2.18={birth=yes}
+	2658.2.18 = {
+		effect = {
+			join_society = the_satanists
+			set_society_grandmaster = yes
+		}
+	}
 }
 1994119={ #Famous Philantrophist
 	name="Vasile"
@@ -911,7 +917,7 @@
 1994124={
 	name="Teodora"
 	dynasty=2077101 #Maia
-	culture=moldovan
+	culture=gagauz
 	religion=orthodox
 	father=1994121
 	mother=1994117

@@ -596,7 +596,7 @@ d_orthodox = {
 	# Controls a religion
 	controls_religion = orthodox
 	
-	culture = romioi
+	culture = greek
 	religion = orthodox
 	
 	# Cannot be held as a secondary title
@@ -617,13 +617,12 @@ d_orthodox = {
 	}
 }
 d_russian_patriarch = {
-#	color={ 150 90 30 }
-	color={ 183 60 155 }
+	color={ 160 39 70 }
 	color2={ 220 220 0 }
 	
 	capital = 652 # Moscow
 	
-	short_name = yes
+	title = "PATRIARCH"
 
 	# Always exists
 	landless = yes
@@ -650,13 +649,12 @@ d_russian_patriarch = {
 	}
 }
 d_antioch_patriarch = {
-#	color={ 150 90 30 }
-	color={ 183 60 155 }
+	color={ 236 59 55 }
 	color2={ 220 220 0 }
 	
-	capital = 307 # Hatay
+	capital = 1997 # Damascus
 	
-	short_name = yes
+	title = "PATRIARCH"
 
 	# Always exists
 	landless = yes
@@ -682,19 +680,19 @@ d_antioch_patriarch = {
 		Theophanes Theophylaktos Tryphon Zacharias
 	}
 }
-d_alexandarian_patriarch = {
-#	color={ 150 90 30 }
-	color={ 183 60 155 }
+d_georgian_patriarch = {
+	color={ 190 179 204 }
 	color2={ 220 220 0 }
 	
-	capital = 1405 # al-Iskandariyya
+	capital = 2119 # Tbilisi
 	
-	short_name = yes
+	title = "CATHOLICOS_PATRIARCH"
+	foa = "CATHOLICOS_PATRIARCH_FOA"
 
 	# Always exists
 	landless = yes
 	
-	culture = masri
+	culture = georgian
 	religion = orthodox
 	pentarchy = orthodox
 	
@@ -716,13 +714,12 @@ d_alexandarian_patriarch = {
 	}
 }
 d_jerusalem_patriarch = {
-#	color={ 150 90 30 }
-	color={ 183 60 155 }
+	color={ 115 176 104 }
 	color2={ 220 220 0 }
 	
 	capital = 1959 # al-Quds
 	
-	short_name = yes
+	title = "PATRIARCH"
 
 	# Always exists
 	landless = yes
@@ -813,9 +810,6 @@ d_miaphysite_alexandria = {
 	
 	# Regnal names
 	male_names = {
-		Abraham Alexandros Alexios Agatho Anastasios Andronikos Athanasios Benjamin Christodolos Cosmas Kyril Damian 
-		Demetrius Dioscorus Gabriel Kyrillos Yohannes Iosephos Isaakios Iakobos Makarios Markianos Markos Matheos Khail Mina 
-		Petros Philotheos Shenouda Simeon Theodoros Theophilus Timotheos Zacharias 
 	}
 }
 d_etchmiadzin = {
@@ -827,7 +821,6 @@ d_etchmiadzin = {
 	title = "PRESBYTEROS"
 	foa = "PRESBYTEROS_FOA"
 	
-	short_name = yes
 
 	# Always exists
 	landless = yes
@@ -845,9 +838,6 @@ d_etchmiadzin = {
 	
 	# Regnal names
 	male_names = {
-		Abraham Alexandros Alexios Agatho Anastasios Andronikos Athanasios Benjamin Christodolos Cosmas Kyril Damian 
-		Demetrius Dioscorus Gabriel Yohannes Iosephos Isaakios Iakobos Makarios Markianos Markos Matheos Khail Mina 
-		Petros Philotheos Shenouda Simeon Theodoros Theophilus Timotheos Zacharias 
 	}
 }
 d_miaphysite_antioch  = {
@@ -859,7 +849,6 @@ d_miaphysite_antioch  = {
 	title = "PRESBYTEROS"
 	foa = "PRESBYTEROS_FOA"
 	
-	short_name = yes
 
 	# Always exists
 	landless = yes
@@ -877,9 +866,6 @@ d_miaphysite_antioch  = {
 	
 	# Regnal names
 	male_names = {
-		Abraham Alexandros Alexios Agatho Anastasios Andronikos Athanasios Benjamin Christodolos Cosmas Kyril Damian 
-		Demetrius Dioscorus Gabriel Yohannes Iosephos Isaakios Iakobos Makarios Markianos Markos Matheos Khail Mina 
-		Petros Philotheos Shenouda Simeon Theodoros Theophilus Timotheos Zacharias
 	}
 }
 d_miaphysite_marseille = {
@@ -891,7 +877,6 @@ d_miaphysite_marseille = {
 	title = "PRESBYTEROS"
 	foa = "PRESBYTEROS_FOA"
 	
-	short_name = yes
 
 	# Always exists
 	landless = yes
@@ -909,9 +894,6 @@ d_miaphysite_marseille = {
 	
 	# Regnal names
 	male_names = {
-		Abraham Alexandros Alexios Agatho Anastasios Andronikos Athanasios Benjamin Christodolos Cosmas Kyril Damian 
-		Demetrius Dioscorus Gabriel Yohannes Iosephos Isaakios Iakobos Makarios Markianos Markos Matheos Khail Mina 
-		Petros Philotheos Shenouda Simeon Theodoros Theophilus Timotheos Zacharias
 	}
 }
 d_tewahedo = {
@@ -923,7 +905,6 @@ d_tewahedo = {
 	title = "PRESBYTEROS"
 	foa = "PRESBYTEROS_FOA"
 	
-	short_name = yes
 
 	# Always exists
 	landless = yes
@@ -944,20 +925,21 @@ d_tewahedo = {
 	
 	# Regnal names
 	male_names = {
-		Abraham Atnatewos Antonios 
-		Bartalomewos Basilios 
+		Abraham Andreyas Atnatewos Antonios 
+		Barnabas Bartalomewos Basilios 
 		Dawit Dimetros Diosqoros 
 		Enbaqom Endyras Ewesatewos 
 		Gabriel "Gebre Krestos" Gelawdewos Giyorgis 
 		Iyasu 
 		Kewestos Krestodolos Kwestantinos 
 		Makarios Marqos Matewos Mathias Menas Merkorios Mikael 
-		Paulos Phillipos 
+		Natnael 
+		Paulos Petros Phillipos 
 		Qerellos 
-		Salama Sawiros Simon Sinoda 
+		Salama Samuel Sawiros Simon Sinoda 
 		"Takla Haymanot" Tewodros Tewoflos 
 		Yaqob Yeshaq Yohannes Yosab Yostos 
-		"Zena Marqos" 
+		Zekaryas "Zena Marqos" 
 	}
 }
 d_mariavite = {
@@ -976,9 +958,7 @@ d_mariavite = {
 	#Controls a religion
 	controls_religion = mariavite
 	
-	culture = mazovian
 	religion = mariavite
-	pentarchy = mariavite
 	
 	# Cannot be held as a secondary title
 	primary = yes
@@ -994,13 +974,11 @@ d_mariavite_vilnius = {
 	title_female = "PRIMAS"
 	foa = "PRIMAS_FOA"
 	
-	short_name = yes
 	# Always exists
 	landless = yes
 	
 	culture = lithuanian
 	religion = mariavite
-	pentarchy = mariavite
 	
 	# Cannot be held as a secondary title
 	primary = yes
@@ -1022,13 +1000,11 @@ d_mariavite_nitra = {
 	title_female = "PRIMAS"
 	foa = "PRIMAS_FOA"
 	
-	short_name = yes
 	# Always exists
 	landless = yes
 	
 	culture = slovak
 	religion = mariavite
-	pentarchy = mariavite
 	
 	# Cannot be held as a secondary title
 	primary = yes
@@ -1050,13 +1026,11 @@ d_mariavite_utrecht = {
 	title_female = "PRIMAS"
 	foa = "PRIMAS_FOA"
 	
-	short_name = yes
 	# Always exists
 	landless = yes
 	
 	culture = dutch
 	religion = mariavite
-	pentarchy = mariavite
 	
 	# Cannot be held as a secondary title
 	primary = yes
@@ -1078,13 +1052,11 @@ d_mariavite_rome = {
 	title_female = "PRIMAS"
 	foa = "PRIMAS_FOA"
 	
-	short_name = yes
 	# Always exists
 	landless = yes
 	
 	culture = umbrian
 	religion = mariavite
-	pentarchy = mariavite
 	
 	# Cannot be held as a secondary title
 	primary = yes
@@ -1197,4 +1169,67 @@ d_nestorian = {
 		Aba Abraham Eliya Denha Emmanuel Giwargis Hnanisho Ishoyahb Makkikha 
 		Maremmeh Pethion Sabrisho Shemon Sargis Surin Theodosios Timotheos Yahballaha Yohannan
 	}
+}
+d_quinto = {
+	color = { 237 18 83 }
+	color2={ 220 220 0 }
+	
+	capital = 167 #Lisboa
+	creation_requires_capital = no
+	
+	landless = no
+	
+	title = "NAVEGADOR"
+	foa = "NAVEGADOR_FOA"
+	title_prefix = "NAVEGADOR_DA"
+	short_name = yes
+	
+	caliphate = yes
+	
+	allow = {
+		religion = quinto
+		piety = 150
+		wealth = 100
+	}
+	
+	controls_religion = quinto
+	
+	religion = quinto
+	
+	primary = no 
+	
+	dignity = 200
+
+	dynasty_title_names = no 
+}
+
+d_kozachina = {
+	color = { 0.756 0.658 0.023 }
+	color2={ 220 220 0 }
+	
+	capital = 796 #Mariupol
+	
+	caliphate = yes
+	
+	title = "HETMAN"
+	title_female = "HETMAN_FEMALE"
+	foa = "HETMAN_FOA"
+	
+	short_name = yes
+	#location_ruler_title = yes
+
+	# Always exists
+	landless = no
+	
+	# Controls a religion
+	controls_religion = kozachina
+	
+	religion = kozachina
+	
+	dignity = 200
+	
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+
+
 }

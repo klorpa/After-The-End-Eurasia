@@ -1967,14 +1967,7 @@ obj_buddhist_stop_drinking = {
 		OR = {
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 		trait = drunkard
 	}
@@ -2007,14 +2000,7 @@ obj_buddhist_stop_drinking = {
 		NOR = { 
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 	}
 	abort_effect = {
@@ -2033,14 +2019,7 @@ obj_buddhist_reject_empty_pleasures = {
 		OR = {
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 		trait = hedonist
 	}
@@ -2073,14 +2052,7 @@ obj_buddhist_reject_empty_pleasures = {
 		NOR = { 
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}			
+			religion = miaphysite			
 		}
 	}
 	abort_effect = {
@@ -2099,14 +2071,7 @@ obj_buddhist_abstain_sexual_excess = {
 		OR = {
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 		trait = lustful
 	}
@@ -2139,14 +2104,7 @@ obj_buddhist_abstain_sexual_excess = {
 		NOR = { 
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 	}
 	abort_effect = {
@@ -2165,14 +2123,7 @@ obj_buddhist_reject_cruelty = {
 		OR = {
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 		OR = {
 			trait = impaler
@@ -2209,14 +2160,7 @@ obj_buddhist_reject_cruelty = {
 		NOR = { 
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 	}
 	abort_effect = {
@@ -2235,14 +2179,7 @@ obj_buddhist_temperance_food = {
 		OR = {
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 		trait = gluttonous
 	}
@@ -2275,14 +2212,7 @@ obj_buddhist_temperance_food = {
 		NOR = { 
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 	}
 	abort_effect = {
@@ -2301,14 +2231,7 @@ obj_buddhist_reject_greed = {
 		OR = {
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 		trait = greedy
 	}
@@ -2341,14 +2264,7 @@ obj_buddhist_reject_greed = {
 		NOR = { 
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 	}
 	abort_effect = {
@@ -2367,14 +2283,7 @@ obj_buddhist_reject_envy = {
 		OR = {
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 		trait = envious
 	}
@@ -2408,14 +2317,7 @@ obj_buddhist_reject_envy = {
 		NOR = { 
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 	}
 	abort_effect = {
@@ -2434,14 +2336,7 @@ obj_buddhist_reject_hate = {
 		OR = {
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 		trait = wroth
 	}
@@ -2474,14 +2369,7 @@ obj_buddhist_reject_hate = {
 		NOR = { 
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 	}
 	abort_effect = {
@@ -2500,14 +2388,7 @@ obj_buddhist_reject_pride = {
 		OR = {
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 		trait = proud
 	}
@@ -2540,14 +2421,7 @@ obj_buddhist_reject_pride = {
 		NOR = { 
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 	}
 	abort_effect = {
@@ -2566,14 +2440,7 @@ obj_buddhist_defeat_fear = {
 		OR = {
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 		OR = {
 			trait = paranoid
@@ -2611,14 +2478,7 @@ obj_buddhist_defeat_fear = {
 		NOR = { 
 			religion_group = buddhist_group
 			religion = chevalier
-			AND = {
-				OR ={
-				religion = insular
-				#religion = insular heresy
-				religion = miaphysite
-				}
-				has_character_flag = becomingchristianascetic
-			}
+			religion = miaphysite
 		}
 	}
 	abort_effect = {

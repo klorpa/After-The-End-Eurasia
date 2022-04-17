@@ -1,0 +1,254 @@
+# City
+city = {
+	ct_evangelical_seminary_1 = {
+		desc = ct_evangelical_seminary_1_desc
+		potential = {
+			OR = {
+				FROM = {
+					OR = {
+						tier = EMPEROR
+						tier = KING
+						tier = DUKE
+						tier = COUNT
+					}
+					capital_holding = {
+						title = FROMFROM
+					}
+				}
+				FROMFROM = {
+					has_building = ct_evangelical_seminary_1
+				}
+			}
+			OR = {
+				religion = lutheran
+				religion = calvinist
+				religion = high_church
+				religion = free_church
+			}
+		}
+		is_active_trigger = {
+			owner = { 				
+				OR = {
+					religion = lutheran
+					religion = calvinist
+					religion = high_church
+					religion = free_church
+				} 
+			}
+		}		
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 
+			FROM = {
+				OR = {
+					religion = lutheran
+					religion = calvinist
+					religion = high_church
+					religion = free_church
+				} 
+			}
+		}
+		prerequisites = { ct_wall_1 }
+		
+		gold_cost = 120
+		build_time = 547
+			
+		tech_growth_modifier = 0.05
+		culture_techpoints = 0.02
+		economy_techpoints = 0.02
+		
+			
+		ai_creation_factor = 93
+		add_number_to_name = no
+		liege_piety = 0.05
+
+		extra_tech_building_start = 0.2
+	}
+	ct_evangelical_seminary_2 = {
+		desc = ct_evangelical_seminary_2_desc
+		potential = {
+			OR = {
+				FROM = {
+					OR = {
+						tier = EMPEROR
+						tier = KING
+						tier = DUKE
+						tier = COUNT
+					}
+					capital_holding = {
+						title = FROMFROM
+					}
+				}
+				FROMFROM = {
+					has_building = ct_evangelical_seminary_2
+				}
+			}
+			OR = {
+				religion = lutheran
+				religion = calvinist
+				religion = high_church
+				religion = free_church
+			}
+		}
+		is_active_trigger = {
+			owner = { 				
+				OR = {
+					religion = lutheran
+					religion = calvinist
+					religion = high_church
+					religion = free_church
+				} 
+			}
+		}	
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 
+			FROM = {
+				OR = {
+					religion = lutheran
+					religion = calvinist
+					religion = high_church
+					religion = free_church
+				} 
+			}
+		}
+		prerequisites = { ct_wall_2 }
+		
+		upgrades_from = ct_evangelical_seminary_1
+		gold_cost = 120
+		build_time = 547
+			
+		tech_growth_modifier = 0.05
+		culture_techpoints = 0.02
+		economy_techpoints = 0.02
+		
+			
+		ai_creation_factor = 93
+		add_number_to_name = no
+		liege_piety = 0.05
+
+		extra_tech_building_start = 0.2
+	}
+}
+# Castle
+castle = {
+	ca_evangelical_seminary_1 = {
+		desc = ca_evangelical_seminary_1_desc
+		potential = {
+			OR = {
+				FROM = {
+					OR = {
+						tier = EMPEROR
+						tier = KING
+						tier = DUKE
+						tier = COUNT
+					}
+					capital_holding = {
+						title = FROMFROM
+					}
+				}
+				FROMFROM = {
+					has_building = ca_evangelical_seminary_1
+				}
+			}
+			OR = {
+				religion = lutheran
+				religion = calvinist
+				religion = high_church
+				religion = free_church
+			}
+		}
+		is_active_trigger = {
+			owner = { 				
+				OR = {
+					religion = lutheran
+					religion = calvinist
+					religion = high_church
+					religion = free_church
+				} 
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 
+			FROM = {
+				OR = {
+					religion = lutheran
+					religion = calvinist
+					religion = high_church
+					religion = free_church
+				} 
+			}
+		}
+		prerequisites = { ca_wall_1 }
+		gold_cost = 120
+		build_time = 547
+			
+		tech_growth_modifier = 0.05
+		culture_techpoints = 0.02
+		economy_techpoints = 0.02
+		
+			
+		ai_creation_factor = 93
+		add_number_to_name = no
+		liege_piety = 0.05
+
+		extra_tech_building_start = 0.2
+	}
+	ca_evangelical_seminary_2 = {
+		desc = ca_evangelical_seminary_2_desc
+		potential = {
+			OR = {
+				FROM = {
+					OR = {
+						tier = EMPEROR
+						tier = KING
+						tier = DUKE
+						tier = COUNT
+					}
+					capital_holding = {
+						title = FROMFROM
+					}
+				}
+				FROMFROM = {
+					has_building = ca_evangelical_seminary_2
+				}
+			}
+			OR = {
+				religion = lutheran
+				religion = calvinist
+				religion = high_church
+				religion = free_church
+			}
+		}
+		is_active_trigger = {
+			owner = { 				
+				OR = {
+					religion = lutheran
+					religion = calvinist
+					religion = high_church
+					religion = free_church
+				} 
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 
+			FROM = {
+				OR = {
+					religion = lutheran
+					religion = calvinist
+					religion = high_church
+					religion = free_church
+				} 
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_evangelical_seminary_1
+		gold_cost = 120
+		build_time = 547
+			
+		tech_growth_modifier = 0.05
+		culture_techpoints = 0.02
+		economy_techpoints = 0.02
+		
+			
+		ai_creation_factor = 93
+		add_number_to_name = no
+		liege_piety = 0.05
+
+		extra_tech_building_start = 0.2
+	}
+}

@@ -242,6 +242,7 @@
 1005074 = { name="Ishmuratov" culture=tatar }
 1005075 = { name="Yakhin" culture=tatar }
 1005076 = { name="Kälimullin" culture=tatar }
+1005077 = { name="Bäyräm" culture=tatar }
 
 1020000 = { name="Wasawo" culture=luo }
 1020001 = { name="Lagum" culture=luo }
@@ -1553,6 +1554,7 @@
 1441108 = { name="Azyzov" culture=qirimlar }
 1441109 = { name="Arifov" culture=qirimlar }
 1441110 = { name="Alibekov" culture=qirimlar }
+1441111 = { name="Geray" culture=qirimlar }
 
 1442000 = { name="Gembarzewski" culture=lipka }
 1442001 = { name="Ulanowicz" culture=lipka
@@ -3635,13 +3637,53 @@
 		}
 	}
 }
-1802102 = { name="Sparapet" culture=armenian }
+1802102 = { name="Sparapet" culture=armenian 
+	coat_of_arms = { 
+		religion = miaphysite
+		template = 0
+		layer = {
+			texture = 23
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1802103 = { name="Aziz" culture=armenian }
-1802104 = { name="Shiraz" culture=armenian }
-1802105 = { name="Hamazguni" culture=armenian }
+1802104 = { name="Shiraz" culture=armenian 
+	coat_of_arms = { 
+		religion = miaphysite
+		template = 0
+		layer = {
+			texture = 23
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1802105 = { name="Hamazguni" culture=armenian 
+	coat_of_arms = { 
+		religion = miaphysite
+		template = 0
+		layer = {
+			texture = 23
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1802106 = { name="Raza" culture=armenian used_for_random=no }
 1802107 = { name="Bogosian" culture=armenian used_for_random=no }
 1802108 = { name="Margosyan" culture=armenian }
+1802109 = { name="Mehruni" culture=armenian }
 
 1803000 = { name="Hizir" culture=dom 
 	coat_of_arms = { 
@@ -4033,6 +4075,10 @@
 1818254 = { name="Shulman" culture=sabra }
 1818255 = { name="Gadot" culture=sabra }
 1818256 = { name="Sabarov" culture=sabra }
+1818257 = { name="Estanbouli" culture=sabra }
+1818258 = { name="Zitouna" culture=sabra }
+1818259 = { name="Shattah" culture=sabra }
+1818260 = { name="Bar Zamir" culture=sabra }
 
 1819000 = { name="Shabazi" culture=teimani }
 1819001 = { name="Sharabi" culture=teimani }
@@ -4403,6 +4449,7 @@
 1820285 = { name="Elkabache" culture=sefardi }
 1820286 = { name="Delouya" culture=sefardi }
 1820287 = { name="Deri" culture=sefardi }
+1820288 = { name="Aziyade" culture=sefardi used_for_random=no }
 
 1821000 = { name="Pesach" culture=romaniote }
 1821001 = { name="Frizis" culture=romaniote }
@@ -4769,6 +4816,94 @@
 1825004 = { name="Muzziena" culture=badawi }
 1825005 = { name="al-Ariydhah" culture=badawi }
 1825006 = { name="al-Masawi" culture=badawi }
+1825007 = { name="al-Utaybi" culture=badawi }
+1825008 = { name="al-Qthami" culture=badawi }
+1825009 = { name="al-Akwakh" culture=badawi }
+1825010 = { name="al-Hidal" culture=badawi }
+1825011 = { name="al-Hantushi" culture=badawi }
+1825012 = { name="Ibn Muhayya" culture=badawi }
+1825013 = { name="Abba al-Ula" culture=badawi }
+1825014 = { name="al-Mugata" culture=badawi }
+1825015 = { name="al-Ditt" culture=badawi }
+1825016 = { name="al-Hofi" culture=badawi }
+1825017 = { name="al-Tum" culture=badawi }
+1825018 = { name="al-Habil" culture=badawi }
+1825019 = { name="al-Hammadi" culture=badawi }
+1825020 = { name="al-Subayk" culture=badawi }
+1825021 = { name="al-Duwaykh" culture=badawi }
+1825022 = { name="al-Asadi" culture=badawi }
+1825023 = { name="al-Shagar" culture=badawi }
+1825024 = { name="al-Dimasi" culture=badawi }
+1825025 = { name="al-Muhri" culture=badawi }
+1825026 = { name="al-Harbadah" culture=badawi }
+1825027 = { name="al-Dalabahah" culture=badawi }
+1825028 = { name="al-Hazman" culture=badawi }
+1825029 = { name="al-Ghadabin" culture=badawi }
+1825030 = { name="al-Hanatish" culture=badawi }
+1825031 = { name="al-Muzahama" culture=badawi }
+1825032 = { name="al-Hamamid" culture=badawi }
+1825033 = { name="al-Karashmah" culture=badawi }
+1825034 = { name="al-Mirashidah" culture=badawi }
+1825035 = { name="al-Aidan" culture=badawi }
+1825036 = { name="al-Amri" culture=badawi }
+1825037 = { name="al-Safri" culture=badawi }
+1825038 = { name="al-Fraidi" culture=badawi }
+1825039 = { name="al-Wahbi" culture=badawi }
+1825040 = { name="al-Fhaidi" culture=badawi }
+1825041 = { name="al-Haysuni" culture=badawi }
+1825042 = { name="al-Alawi" culture=badawi }
+1825043 = { name="al-Awfi" culture=badawi }
+1825044 = { name="al-Zubaidi" culture=badawi }
+1825045 = { name="al-Mukhallafi" culture=badawi }
+1825046 = { name="al-Ahmadi" culture=badawi }
+1825047 = { name="al-Rehaili" culture=badawi }
+1825048 = { name="al-Muhammadi" culture=badawi }
+1825049 = { name="al-Subhi" culture=badawi }
+1825050 = { name="al-Suraihi" culture=badawi }
+1825051 = { name="al-Matlahi" culture=badawi }
+1825052 = { name="al-Amri al-Salimi" culture=badawi }
+1825053 = { name="al-Mihmadi" culture=badawi }
+1825054 = { name="al-Gay'di" culture=badawi }
+1825055 = { name="al-Haidari" culture=badawi }
+1825056 = { name="al-Yahyawi" culture=badawi }
+1825057 = { name="al-Muwarra'i" culture=badawi }
+1825058 = { name="al-Ruwaithi" culture=badawi }
+1825059 = { name="al-Muzaini" culture=badawi }
+1825060 = { name="al-Nahaitah" culture=badawi }
+1825061 = { name="al-Bishri" culture=badawi }
+1825062 = { name="al-Hawimili" culture=badawi }
+1825063 = { name="al-Oraimah" culture=badawi }
+1825064 = { name="al-Hissni" culture=badawi }
+1825065 = { name="al-Qussiyri" culture=badawi }
+1825066 = { name="al-Surbati" culture=badawi }
+1825067 = { name="al-Hubairi" culture=badawi }
+1825068 = { name="al-Marwani" culture=badawi }
+1825069 = { name="al-Hantami" culture=badawi }
+1825070 = { name="al-Quba'i" culture=badawi }
+1825071 = { name="al-Dabbaqi" culture=badawi }
+1825072 = { name="al-Sabihi" culture=badawi }
+1825073 = { name="al-Huraibi" culture=badawi }
+1825074 = { name="al-Dhahiri" culture=badawi }
+1825075 = { name="al-Ballaji" culture=badawi }
+1825076 = { name="al-Hujaili" culture=badawi }
+1825077 = { name="al-Hazmi" culture=badawi }
+1825078 = { name="al-Hunaiti" culture=badawi }
+1825079 = { name="al-Hunaini" culture=badawi }
+1825080 = { name="al-Raddadi" culture=badawi }
+1825081 = { name="al-Bahri" culture=badawi }
+1825082 = { name="al-Shaleikh" culture=badawi }
+1825083 = { name="al-Badarin" culture=badawi }
+1825084 = { name="al-Khirshan" culture=badawi }
+1825085 = { name="al-Gudah" culture=badawi }
+1825086 = { name="al-Shra'ah" culture=badawi }
+1825087 = { name="al-Amir" culture=badawi }
+1825088 = { name="al-Ka'abna" culture=badawi }
+1825089 = { name="al-Hgeish" culture=badawi }
+1825090 = { name="al-Salit" culture=badawi }
+1825091 = { name="al-Taybin" culture=badawi }
+1825092 = { name="al-Fayiz" culture=badawi }
+1825093 = { name="al-Khraisha" culture=badawi }
+1825094 = { name="al-Tayy" culture=badawi }
 
 
 1848000 = { name="Klein" culture=rhenish}
@@ -4995,6 +5130,7 @@
 }
 1848137 = { name="von Waldbröl" culture=rhenish}
 1848138 = { name="Rühmann" culture=rhenish}
+1848139 = { name="Habermas" culture=rhenish}
 
 1853000 = { name="Mishin" culture=chornomorsky}
 1853001 = { name="Grigorovich" culture=chornomorsky}
@@ -5633,11 +5769,11 @@
 1912007 = {name ="El Tawil" culture=masri }
 1912008 = {name ="Mahfouz" culture=masri  used_for_random=no
 	coat_of_arms = { 
-		religion=sunni
+		religion = miaphysite
 		template = 0
 		layer = {
-			texture = 1
-			texture_internal = 21
+			texture = 23
+			texture_internal = 4
 			emblem = 0
 			color = 0
 			color = 0
@@ -5841,8 +5977,6 @@
 }
 1912099 = {name="El Barrani" culture=masri }
 
-
-
 1913000 = {name ="al-Sanussi" culture=libyan   used_for_random=no
 	coat_of_arms = { 
 		religion=sunni
@@ -5862,6 +5996,112 @@
 1913003 = {name ="al-Afriqi" culture=libyan }
 1913004 = {name ="al-Umari" culture=libyan }
 1913005 = {name ="Sarahna" culture=libyan }
+1913006 = { name="al-Qanduli" culture=libyan }
+1913007 = { name="al-Saghir" culture=libyan }
+1913008 = { name="Salim" culture=libyan }
+1913009 = { name="al-Hamar" culture=libyan }
+1913010 = { name="al-Mahdi" culture=libyan }
+1913011 = { name="Assa'idi" culture=libyan }
+1913012 = { name="Sulayman" culture=libyan }
+1913013 = { name="Buktif" culture=libyan }
+1913014 = { name="Abdusalam" culture=libyan }
+1913015 = { name="al-Zidan" culture=libyan }
+1913016 = { name="Muhammad" culture=libyan }
+1913017 = { name="al-Ramli" culture=libyan }
+1913018 = { name="al-Jaamet" culture=libyan }
+1913019 = { name="Attia" culture=libyan }
+1913020 = { name="al-Muntasir" culture=libyan }
+1913021 = { name="Asswea'i" culture=libyan }
+1913022 = { name="Qutait" culture=libyan }
+1913023 = { name="al-Amsha" culture=libyan }
+1913024 = { name="Jolaffi" culture=libyan }
+1913025 = { name="Busefi" culture=libyan }
+1913026 = { name="al-Budi" culture=libyan }
+1913027 = { name="al-Khafi" culture=libyan }
+1913028 = { name="Musbaah" culture=libyan }
+1913029 = { name="al-Idrisi" culture=libyan }
+1913030 = { name="Faris" culture=libyan }
+1913031 = { name="al-Mosrati" culture=libyan }
+1913032 = { name="Mansur" culture=libyan }
+1913033 = { name="Krawa'a" culture=libyan }
+1913034 = { name="Mbarak" culture=libyan }
+1913035 = { name="al-Zraidi" culture=libyan }
+1913036 = { name="Ambaya" culture=libyan }
+1913037 = { name="Qraish" culture=libyan }
+1913038 = { name="al-Awn" culture=libyan }
+1913039 = { name="Mabruk" culture=libyan }
+1913040 = { name="al-Dahmani" culture=libyan }
+1913041 = { name="Rizg" culture=libyan }
+1913042 = { name="Zaghab" culture=libyan }
+1913043 = { name="Abu Buhayr" culture=libyan }
+1913044 = { name="Isa" culture=libyan }
+1913045 = { name="al-Jamal" culture=libyan }
+1913046 = { name="al-Abaidi" culture=libyan }
+1913047 = { name="al-Alwani" culture=libyan }
+1913048 = { name="Bin Dallah" culture=libyan }
+1913049 = { name="al-Ammari" culture=libyan }
+1913050 = { name="Sultan" culture=libyan }
+1913051 = { name="Zuway" culture=libyan }
+1913052 = { name="al-Dirsi" culture=libyan }
+1913053 = { name="Bin Amir" culture=libyan }
+1913054 = { name="Muftah" culture=libyan }
+1913055 = { name="Awgali" culture=libyan }
+1913056 = { name="Abdullatif" culture=libyan }
+1913057 = { name="Khair" culture=libyan }
+1913058 = { name="Alfllah" culture=libyan }
+1913059 = { name="al-Hashani" culture=libyan }
+1913060 = { name="Bin Sawad" culture=libyan }
+1913061 = { name="Abushala" culture=libyan }
+1913062 = { name="al-Bargathi" culture=libyan }
+1913063 = { name="Buseta" culture=libyan }
+1913064 = { name="al-Haddad" culture=libyan }
+1913065 = { name="al-Makki" culture=libyan }
+1913066 = { name="al-Tharat" culture=libyan }
+1913067 = { name="al-Shrif" culture=libyan }
+1913068 = { name="Khawaja" culture=libyan }
+1913069 = { name="al-Khateti" culture=libyan }
+1913070 = { name="al-Ma'adani" culture=libyan }
+1913071 = { name="Kelfa" culture=libyan }
+1913072 = { name="al-Affas" culture=libyan }
+1913073 = { name="Sati" culture=libyan }
+1913074 = { name="al-Fazani" culture=libyan }
+1913075 = { name="Mersal" culture=libyan }
+1913076 = { name="al-Farjani" culture=libyan }
+1913077 = { name="al-Kuwafi" culture=libyan }
+1913078 = { name="Ragad" culture=libyan }
+1913079 = { name="al-Zawi" culture=libyan }
+1913080 = { name="al-Beshari" culture=libyan }
+1913081 = { name="Juma" culture=libyan }
+1913082 = { name="al-Mughrabi" culture=libyan }
+1913083 = { name="al-Abdili" culture=libyan }
+1913084 = { name="Amran" culture=libyan }
+1913085 = { name="al-Mesalati" culture=libyan }
+1913086 = { name="Bushala" culture=libyan }
+1913087 = { name="al-Abidi" culture=libyan }
+1913088 = { name="al-Amari" culture=libyan }
+1913089 = { name="al-Derisi" culture=libyan }
+1913090 = { name="Dala" culture=libyan }
+1913091 = { name="Ahwaidi" culture=libyan }
+1913092 = { name="al-Taib" culture=libyan }
+1913093 = { name="Nashnush" culture=libyan }
+1913094 = { name="Abdulbasit" culture=libyan }
+1913095 = { name="Bin Wali" culture=libyan }
+1913096 = { name="Abbud" culture=libyan }
+1913097 = { name="Rajab" culture=libyan }
+1913098 = { name="Khmaj" culture=libyan }
+1913099 = { name="al-Tahir" culture=libyan }
+1913100 = { name="Taktak" culture=libyan }
+1913101 = { name="al-Burgi" culture=libyan }
+1913102 = { name="Shukri" culture=libyan }
+1913103 = { name="al-Tarhuni" culture=libyan }
+1913104 = { name="Makari" culture=libyan }
+1913105 = { name="al-Zaletni" culture=libyan }
+1913106 = { name="al-Jenan" culture=libyan }
+1913107 = { name="Hassan" culture=libyan }
+1913108 = { name="Maatok" culture=libyan }
+1913109 = { name="al-Tawrghi" culture=libyan }
+1913110 = { name="al-Haraish" culture=libyan }
+1913111 = { name="al-Warfali" culture=libyan }
 
 
 
@@ -5978,7 +6218,7 @@
 1916017 = {name ="El Admi" culture=sahrawi }
 1916018 = {name ="Mouichane" culture=sahrawi }
 1916019 = {name ="Aabadilah" culture=sahrawi }
-1916020 = {name ="Ould Rabani" culture=sahrawi }
+1916020 = {name ="Ould Rabani" culture=sahrawi used_for_random=no }
 1916021 = {name ="El Bouhali" culture=sahrawi }
 1916022 = {name ="Hakim" culture=sahrawi }
 1916023 = {name ="Malainine" culture=sahrawi }
@@ -5986,7 +6226,7 @@
 1916025 = {name ="Er-Rguibi" culture=sahrawi }
 1916026 = {name ="Ould Jouda" culture=sahrawi }
 1916027 = {name ="Addouh" culture=sahrawi }
-1916028 = {name ="Jumani" culture=sahrawi }
+1916028 = {name ="Jumani" culture=sahrawi used_for_random=no }
 1916029 = {name ="Ahmudi" culture=sahrawi }
 1916030 = {name ="Ould Ziou" culture=sahrawi }
 1916031 = {name ="Limam" culture=sahrawi }
@@ -6036,12 +6276,58 @@
 1916075 = {name ="Bâ" culture=sahrawi }
 1916076 = {name ="Hondo" culture=sahrawi }
 
-1917000 = {name = "Sarahna" culture=eastern_berber }
-1917001 = {name = "Mutaim" culture=eastern_berber }
-1917002 = {name = "Hwieti" culture=eastern_berber }
-1917003 = {name = "Soleiman" culture=eastern_berber }
-1917004 = {name = "El Weshahy" culture=eastern_berber }
-1917005 = {name = "At Sasi" culture=eastern_berber }
+1917000 = { name="Sarahna" culture=eastern_berber }
+1917001 = { name="Mutaim" culture=eastern_berber }
+1917002 = { name="Hwieti" culture=eastern_berber }
+1917003 = { name="Soleiman" culture=eastern_berber }
+1917004 = { name="El Weshahy" culture=eastern_berber }
+1917005 = { name="At Sasi" culture=eastern_berber }
+1917006 = { name="Ali" culture=eastern_berber }
+1917007 = { name="Agmar" culture=eastern_berber }
+1917008 = { name="Buzakhar" culture=eastern_berber }
+1917009 = { name="Ben Xlifa" culture=eastern_berber }
+1917010 = { name="Haslok" culture=eastern_berber }
+1917011 = { name="Ayub" culture=eastern_berber }
+1917012 = { name="Lharis" culture=eastern_berber }
+1917013 = { name="Malti" culture=eastern_berber }
+1917014 = { name="Lhassi" culture=eastern_berber }
+1917015 = { name="Lomrani" culture=eastern_berber }
+1917016 = { name="Milud" culture=eastern_berber }
+1917017 = { name="Bentalab" culture=eastern_berber }
+1917018 = { name="Hamisi" culture=eastern_berber }
+1917019 = { name="Madi" culture=eastern_berber }
+1917020 = { name="Jayash" culture=eastern_berber }
+1917021 = { name="Busahmen" culture=eastern_berber }
+1917022 = { name="Azabi" culture=eastern_berber }
+1917023 = { name="Alasi" culture=eastern_berber }
+1917024 = { name="Halib" culture=eastern_berber }
+1917025 = { name="Fatis" culture=eastern_berber }
+1917026 = { name="Adil" culture=eastern_berber }
+1917027 = { name="Harem" culture=eastern_berber }
+1917028 = { name="Magriaf" culture=eastern_berber }
+1917029 = { name="Ferkal" culture=eastern_berber }
+1917030 = { name="Muhammad" culture=eastern_berber }
+1917031 = { name="Lweshahi" culture=eastern_berber }
+1917032 = { name="Diab" culture=eastern_berber }
+1917033 = { name="Lkilani" culture=eastern_berber }
+1917034 = { name="Bu Âebdella" culture=eastern_berber }
+1917035 = { name="Âebderrehman" culture=eastern_berber }
+1917036 = { name="Yusef" culture=eastern_berber }
+1917037 = { name="Abud" culture=eastern_berber }
+1917038 = { name="Arbi" culture=eastern_berber }
+1917039 = { name="Baghni" culture=eastern_berber }
+1917040 = { name="Lhamadi" culture=eastern_berber }
+1917041 = { name="Haddadi" culture=eastern_berber }
+1917042 = { name="Nobar" culture=eastern_berber }
+1917043 = { name="Altaash" culture=eastern_berber }
+1917044 = { name="Abu Sag" culture=eastern_berber }
+1917045 = { name="Kraar" culture=eastern_berber }
+1917046 = { name="Abu Sagar" culture=eastern_berber }
+1917047 = { name="Fellah" culture=eastern_berber }
+1917048 = { name="Moamar" culture=eastern_berber }
+1917049 = { name="Musa" culture=eastern_berber }
+1917050 = { name="Suag" culture=eastern_berber }
+1917051 = { name="Azuza" culture=eastern_berber }
 
 1945000 = {name="Nikelov" culture=pomor }
 1945001 = {name="Semenov" culture=pomor }
@@ -8503,6 +8789,59 @@ coat_of_arms = {
 1971100 = { name="Carabott" culture=maltese }
 1971101 = { name="di Valletta" culture=maltese }
 
+1975000 = {name ="Évora" culture=verdean }
+1975001 = {name ="Barbosa" culture=verdean }
+1975002 = {name ="Silva" culture=verdean }
+1975003 = {name ="Correia" culture=verdean }
+1975004 = {name ="Fernandes" culture=verdean }
+1975005 = {name ="Benrós" culture=verdean }
+1975006 = {name ="Fonseca" culture=verdean }
+1975007 = {name ="Andrade" culture=verdean }
+1975008 = {name ="Neves" culture=verdean }
+1975009 = {name ="do Rosário" culture=verdean }
+1975010 = {name ="Carvalho" culture=verdean }
+1975011 = {name ="da Luz" culture=verdean }
+1975012 = {name ="Soares" culture=verdean }
+1975013 = {name ="de Novas" culture=verdean }
+1975014 = {name ="Tavares" culture=verdean }
+1975015 = {name ="Almeida" culture=verdean }
+1975016 = {name ="Lopes" culture=verdean }
+1975017 = {name ="do Frederico" culture=verdean }
+1975018 = {name ="Embalo" culture=verdean }
+1975019 = {name ="Pereira" culture=verdean }
+1975020 = {name ="Martins" culture=verdean }
+1975021 = {name ="Furtado" culture=verdean }
+1975022 = {name ="Macedo" culture=verdean }
+1975023 = {name ="Lubrano" culture=verdean }
+1975024 = {name ="Alhinho" culture=verdean }
+1975025 = {name ="Fortes" culture=verdean }
+1975026 = {name ="Figueira" culture=verdean }
+1975027 = {name ="Monteiro" culture=verdean }
+1975028 = {name ="Semedo" culture=verdean }
+1975029 = {name ="Rodrigues" culture=verdean }
+1975030 = {name ="Firmino" culture=verdean }
+1975031 = {name ="Vieira" culture=verdean }
+1975032 = {name ="Pires" culture=verdean }
+1975033 = {name ="Lobo" culture=verdean }
+1975034 = {name ="Varela" culture=verdean }
+1975035 = {name ="de Barros" culture=verdean }
+1975036 = {name ="Chantre" culture=verdean }
+1975037 = {name ="Duarte" culture=verdean }
+1975038 = {name ="Veiga" culture=verdean }
+1975039 = {name ="Sança" culture=verdean }
+1975040 = {name ="Gonçalves" culture=verdean }
+1975041 = {name ="Cabral" culture=verdean }
+1975042 = {name ="Mosso" culture=verdean }
+1975043 = {name ="de Jon" culture=verdean }
+1975044 = {name ="Xalino" culture=verdean }
+1975045 = {name ="da Chaxiraxi" culture=verdean }
+1975046 = {name ="Domingues" culture=verdean }
+1975047 = {name ="Sanches" culture=verdean }
+1975048 = {name ="Coronel" culture=verdean }
+1975049 = {name ="Lopes" culture=verdean }
+1975050 = {name ="Mascarenhas" culture=verdean }
+
+
 1998000 = { name="Šturm" culture=sorbian
 	coat_of_arms = { 
 		template = 0
@@ -10027,6 +10366,7 @@ coat_of_arms = {
 2008264 = { name="Lintilhac" culture=occitan used_for_random=no }
 2008265 = { name="Ardussoùn" culture=occitan used_for_random=no }
 2008266 = { name="Loustalan" culture=occitan used_for_random=no }
+2008267 = { name="Loti" culture=occitan }
 
 2009001 = { name="Martin" culture=parisian }
 2009002 = { name="Bernard" culture=parisian }
@@ -13659,7 +13999,7 @@ coat_of_arms = {
 2023030 = { name="Dalmedo" culture=llanito }
 2023031 = { name="Mascarenhas" culture=llanito }
 2023032 = { name="Santos" culture=llanito }
-2023033 = { name="Byrne" culture=llanito }
+2023033 = { name="Byrne" culture=llanito used_for_random=no }
 2023034 = { name="Ballester" culture=llanito }
 2023035 = { name="Alecio" culture=llanito }
 2023036 = { name="Bossano" culture=llanito }
@@ -18074,7 +18414,7 @@ coat_of_arms = {
 2040011 = { name="Ýálihan" culture=kazakh }
 2040012 = { name="Júsipov" culture=kazakh }
 2040013 = { name="Munaitpasov" culture=kazakh }
-2040014 = { name="Aebdimaelik" culture=kazakh }
+2040014 = { name="Ábdimálik" culture=kazakh }
 2040015 = { name="Qonaqbaev" culture=kazakh }
 2040016 = { name="Sársembaev" culture=kazakh }
 2040017 = { name="Kembaev" culture=kazakh }
@@ -18465,37 +18805,75 @@ coat_of_arms = {
 2042050 = { name="Achahbar" culture=riffian }
 2042051 = { name="Axettab" culture=riffian }
 
-2043000 = { name="Tazouguerth" culture=chaoui }
-2043001 = { name="Jermouni" culture=chaoui }
-2043002 = { name="Bougherara" culture=chaoui }
-2043003 = { name="Boudebouz" culture=chaoui }
+2043000 = { name="Tazeggwaght" culture=chaoui }
+2043001 = { name="Jermuni" culture=chaoui }
+2043002 = { name="Bugherara" culture=chaoui }
+2043003 = { name="Budebuz" culture=chaoui }
 2043004 = { name="Madani" culture=chaoui }
 2043005 = { name="Ammari" culture=chaoui }
-2043006 = { name="Hazrouli" culture=chaoui }
+2043006 = { name="Hazruli" culture=chaoui }
 2043007 = { name="Ababsiah" culture=chaoui }
-2043008 = { name="Zaghdoudi" culture=chaoui }
+2043008 = { name="Zaghdudi" culture=chaoui }
 2043009 = { name="Al-Tafashi" culture=chaoui }
 2043010 = { name="Hamadeh" culture=chaoui }
 2043011 = { name="Al-Taher" culture=chaoui }
-2043012 = { name="Mahfouzi" culture=chaoui }
+2043012 = { name="Mahfuzi" culture=chaoui }
 2043013 = { name="Haraweya" culture=chaoui }
 2043014 = { name="Zubeiri" culture=chaoui }
 2043015 = { name="Kenazia" culture=chaoui }
 2043016 = { name="Lakhdar" culture=chaoui }
 2043017 = { name="Loghani" culture=chaoui }
-2043018 = { name="Boujemaa" culture=chaoui }
+2043018 = { name="Bujemaa" culture=chaoui }
 2043019 = { name="Al-Khanshli" culture=chaoui }
-2043020 = { name="Makhloufi" culture=chaoui }
+2043020 = { name="Makhlufi" culture=chaoui }
 2043021 = { name="Zaalan" culture=chaoui }
 2043022 = { name="Omarish" culture=chaoui }
-2043023 = { name="Zarrouki" culture=chaoui }
-2043024 = { name="Boumaraf" culture=chaoui }
+2043023 = { name="Zarruki" culture=chaoui }
+2043024 = { name="Bumaraf" culture=chaoui }
 2043025 = { name="Al-Kuwaifi" culture=chaoui }
 2043026 = { name="Hanini" culture=chaoui }
 2043027 = { name="Musadeya" culture=chaoui }
 2043028 = { name="Al-Kabluti" culture=chaoui }
 2043029 = { name="Al-Tebsi" culture=chaoui }
-2043030 = { name="Boumediene" culture=chaoui }
+2043030 = { name="Bumedyen" culture=chaoui }
+2043031 = { name="Hamuda" culture=chaoui }
+2043032 = { name="Umhidi" culture=chaoui }
+2043033 = { name="Lxlifa" culture=chaoui }
+2043034 = { name="Laghrur" culture=chaoui }
+2043035 = { name="Ben Bulâid" culture=chaoui }
+2043036 = { name="Ghali" culture=chaoui }
+2043037 = { name="Joghlal" culture=chaoui }
+2043038 = { name="Saghdan" culture=chaoui }
+2043039 = { name="Benâisa" culture=chaoui }
+2043040 = { name="Qaid Salah" culture=chaoui }
+2043041 = { name="Yehya" culture=chaoui }
+2043042 = { name="L'Jarmuni" culture=chaoui }
+2043043 = { name="Zarwal" culture=chaoui }
+2043044 = { name="Bugheraba" culture=chaoui }
+2043045 = { name="Beggar" culture=chaoui }
+2043046 = { name="Lxencha" culture=chaoui }
+2043047 = { name="Aribi" culture=chaoui }
+2043048 = { name="Annab" culture=chaoui }
+2043049 = { name="Benyunes" culture=chaoui }
+2043050 = { name="Xencelti" culture=chaoui }
+2043051 = { name="Abdessemed" culture=chaoui }
+2043052 = { name="Benflis" culture=chaoui }
+2043053 = { name="Demagh" culture=chaoui }
+2043054 = { name="Cenqriha" culture=chaoui }
+2043055 = { name="Bumaraf" culture=chaoui }
+2043056 = { name="Âemrani" culture=chaoui }
+2043057 = { name="Hafdi" culture=chaoui }
+2043058 = { name="Huamel" culture=chaoui }
+2043059 = { name="Katib" culture=chaoui }
+2043060 = { name="Mehri" culture=chaoui }
+2043061 = { name="Merzuqi" culture=chaoui }
+2043062 = { name="Zelmat" culture=chaoui }
+2043063 = { name="Zekri" culture=chaoui }
+2043064 = { name="Yasin" culture=chaoui }
+2043065 = { name="Nezzar" culture=chaoui }
+2043066 = { name="Budjenit" culture=chaoui }
+2043067 = { name="At Zoltan" culture=chaoui }
+2043068 = { name="At Sellam" culture=chaoui }
 
 2044000 = { name="Amrouche" culture=kabyle }
 2044001 = { name="Hammache" culture=kabyle }
@@ -18896,59 +19274,59 @@ coat_of_arms = {
 }
 2046105 = { name="Lazarescu" culture=romanian used_for_random=no}
 
-2046200 = { name="Popa" culture=transylvanian }
-2046201 = { name="Popescu" culture=transylvanian }
-2046202 = { name="Pop" culture=transylvanian }
-2046203 = { name="Radu" culture=transylvanian }
-2046204 = { name="Ionescu" culture=transylvanian }
-2046205 = { name="Dumitru" culture=transylvanian }
-2046206 = { name="Stoica" culture=transylvanian }
-2046207 = { name="Stan" culture=transylvanian }
-2046208 = { name="Gheorghe" culture=transylvanian }
-2046209 = { name="Rusu" culture=transylvanian }
-2046210 = { name="Munteanu" culture=transylvanian }
-2046211 = { name="Matei" culture=transylvanian }
-2046212 = { name="Constantin" culture=transylvanian }
-2046213 = { name="Serban" culture=transylvanian }
-2046214 = { name="Marin" culture=transylvanian }
-2046215 = { name="Mihai" culture=transylvanian }
-2046216 = { name="Stefan" culture=transylvanian }
-2046217 = { name="Lazar" culture=transylvanian }
-2046218 = { name="Moldovan" culture=transylvanian }
-2046219 = { name="Vasile" culture=transylvanian }
-2046220 = { name="Toma" culture=transylvanian }
-2046221 = { name="Ciobanu" culture=transylvanian }
-2046222 = { name="Florea" culture=transylvanian }
-2046223 = { name="Ilie" culture=transylvanian }
-2046224 = { name="Stanciu" culture=transylvanian }
-2046225 = { name="Oprea" culture=transylvanian }
-2046226 = { name="Tudor" culture=transylvanian }
-2046227 = { name="Dumitrescu" culture=transylvanian }
-2046228 = { name="Dinu" culture=transylvanian }
-2046229 = { name="Cristea" culture=transylvanian }
-2046230 = { name="Andrei" culture=transylvanian }
-2046231 = { name="Ionita" culture=transylvanian }
-2046232 = { name="Anghel" culture=transylvanian }
-2046233 = { name="Muresan" culture=transylvanian }
-2046234 = { name="Neagu" culture=transylvanian }
-2046235 = { name="Sandu" culture=transylvanian }
-2046236 = { name="Ion" culture=transylvanian }
-2046237 = { name="Ungureanu" culture=transylvanian }
-2046238 = { name="Dragomir" culture=transylvanian }
-2046239 = { name="Vlad" culture=transylvanian }
-2046240 = { name="Georgescu" culture=transylvanian }
-2046241 = { name="Constantinescu" culture=transylvanian }
-2046242 = { name="Nagy" culture=transylvanian }
-2046243 = { name="Craciun" culture=transylvanian }
-2046244 = { name="Cocojaru" culture=transylvanian }
-2046245 = { name="Mocanu" culture=transylvanian }
-2046246 = { name="Tanase" culture=transylvanian }
-2046247 = { name="Iordache" culture=transylvanian }
-2046248 = { name="Enache" culture=transylvanian }
-2046249 = { name="Grigore" culture=transylvanian }
-2046250 = { name="Petre" culture=transylvanian }
-2046251 = { name="Voicu" culture=transylvanian }
-2046252 = { name="Lupu" culture=transylvanian
+2046000 = { name="Popa" culture=transylvanian }
+2046001 = { name="Popescu" culture=transylvanian }
+2046002 = { name="Pop" culture=transylvanian }
+2046003 = { name="Radu" culture=transylvanian }
+2046004 = { name="Ionescu" culture=transylvanian }
+2046005 = { name="Dumitru" culture=transylvanian }
+2046006 = { name="Stoica" culture=transylvanian }
+2046007 = { name="Stan" culture=transylvanian }
+2046008 = { name="Gheorghe" culture=transylvanian }
+2046009 = { name="Rusu" culture=transylvanian }
+2046010 = { name="Munteanu" culture=transylvanian }
+2046011 = { name="Matei" culture=transylvanian }
+2046012 = { name="Constantin" culture=transylvanian }
+2046013 = { name="Serban" culture=transylvanian }
+2046014 = { name="Marin" culture=transylvanian }
+2046015 = { name="Mihai" culture=transylvanian }
+2046016 = { name="Stefan" culture=transylvanian }
+2046017 = { name="Lazar" culture=transylvanian }
+2046018 = { name="Moldovan" culture=transylvanian }
+2046019 = { name="Vasile" culture=transylvanian }
+2046020 = { name="Toma" culture=transylvanian }
+2046021 = { name="Ciobanu" culture=transylvanian }
+2046022 = { name="Florea" culture=transylvanian }
+2046023 = { name="Ilie" culture=transylvanian }
+2046024 = { name="Stanciu" culture=transylvanian }
+2046025 = { name="Oprea" culture=transylvanian }
+2046026 = { name="Tudor" culture=transylvanian }
+2046027 = { name="Dumitrescu" culture=transylvanian }
+2046028 = { name="Dinu" culture=transylvanian }
+2046029 = { name="Cristea" culture=transylvanian }
+2046030 = { name="Andrei" culture=transylvanian }
+2046031 = { name="Ionita" culture=transylvanian }
+2046032 = { name="Anghel" culture=transylvanian }
+2046033 = { name="Muresan" culture=transylvanian }
+2046034 = { name="Neagu" culture=transylvanian }
+2046035 = { name="Sandu" culture=transylvanian }
+2046036 = { name="Ion" culture=transylvanian }
+2046037 = { name="Ungureanu" culture=transylvanian }
+2046038 = { name="Dragomir" culture=transylvanian }
+2046039 = { name="Vlad" culture=transylvanian }
+2046040 = { name="Georgescu" culture=transylvanian }
+2046041 = { name="Constantinescu" culture=transylvanian }
+2046042 = { name="Nagy" culture=transylvanian }
+2046043 = { name="Craciun" culture=transylvanian }
+2046044 = { name="Cocojaru" culture=transylvanian }
+2046045 = { name="Mocanu" culture=transylvanian }
+2046046 = { name="Tanase" culture=transylvanian }
+2046047 = { name="Iordache" culture=transylvanian }
+2046048 = { name="Enache" culture=transylvanian }
+2046049 = { name="Grigore" culture=transylvanian }
+2046050 = { name="Petre" culture=transylvanian }
+2046051 = { name="Voicu" culture=transylvanian }
+2046052 = { name="Lupu" culture=transylvanian
 	coat_of_arms = { 
 		template = 0
 		layer = {
@@ -18961,105 +19339,105 @@ coat_of_arms = {
 		}
 	}
 }
-2046253 = { name="Balan" culture=transylvanian }
-2046254 = { name="Dobre" culture=transylvanian }
-2046255 = { name="Nicolae" culture=transylvanian }
-2046256 = { name="Badea" culture=transylvanian }
-2046257 = { name="Coman" culture=transylvanian }
-2046258 = { name="Ivan" culture=transylvanian }
-2046259 = { name="Roman" culture=transylvanian }
-2046260 = { name="Szabo" culture=transylvanian }
-2046261 = { name="Radulescu" culture=transylvanian }
-2046262 = { name="Lungu" culture=transylvanian }
-2046263 = { name="Iancu" culture=transylvanian }
-2046264 = { name="Ene" culture=transylvanian }
-2046265 = { name="Manea" culture=transylvanian }
-2046266 = { name="Preda" culture=transylvanian }
-2046267 = { name="David" culture=transylvanian }
-2046268 = { name="Bucur" culture=transylvanian }
-2046269 = { name="Marinescu" culture=transylvanian }
-2046270 = { name="Stoian" culture=transylvanian }
-2046271 = { name="Nistor" culture=transylvanian }
-2046272 = { name="Iacob" culture=transylvanian }
-2046273 = { name="Pavel" culture=transylvanian }
-2046274 = { name="Filip" culture=transylvanian }
-2046275 = { name="Avram" culture=transylvanian }
-2046276 = { name="Dragan" culture=transylvanian }
-2046278 = { name="Suciu" culture=transylvanian }
-2046279 = { name="Olteanu" culture=transylvanian }
-2046280 = { name="Petrescu" culture=transylvanian }
-2046281 = { name="Rus" culture=transylvanian }
-2046282 = { name="Simion" culture=transylvanian }
-2046283 = { name="Costea" culture=transylvanian }
-2046284 = { name="Marcu" culture=transylvanian }
-2046285 = { name="Crisan" culture=transylvanian }
-2046286 = { name="Luca" culture=transylvanian }
-2046287 = { name="Rosu" culture=transylvanian }
-2046288 = { name="Nita" culture=transylvanian }
-2046289 = { name="Kovacs" culture=transylvanian }
-2046290 = { name="Diaconu" culture=transylvanian }
-2046291 = { name="Rotaru" culture=transylvanian }
-2046292 = { name="Bogdan" culture=transylvanian }
-2046293 = { name="Muntean" culture=transylvanian }
-2046294 = { name="Nedelcu" culture=transylvanian }
-2046295 = { name="Dan" culture=transylvanian }
-2046296 = { name="Cretu" culture=transylvanian }
-2046297 = { name="Calin" culture=transylvanian }
-2046298 = { name="Zaharia" culture=transylvanian }
-2046299 = { name="Stanescu" culture=transylvanian }
-2046300 = { name="Ardeleanu" culture=transylvanian }
-2046301 = { name="Moldoveanu" culture=transylvanian }
-2046302 = { name="Aciu" culture=transylvanian }
-2046303 = { name="Balint" culture=transylvanian }
-2046304 = { name="Almas" culture=transylvanian }
-2046305 = { name="Bentes" culture=transylvanian }
-2046306 = { name="Birau" culture=transylvanian }
-2046307 = { name="Bobos" culture=transylvanian }
-2046308 = { name="Bolcas" culture=transylvanian }
-2046309 = { name="Borbil" culture=transylvanian }
-2046310 = { name="Boros" culture=transylvanian }
-2046311 = { name="Chereches" culture=transylvanian }
-2046312 = { name="Chis" culture=transylvanian }
-2046313 = { name="Chisiu" culture=transylvanian }
-2046314 = { name="Chivari" culture=transylvanian }
-2046315 = { name="Fodor" culture=transylvanian }
-2046316 = { name="Gombos" culture=transylvanian }
-2046317 = { name="Dobos" culture=transylvanian }
-2046318 = { name="Feher" culture=transylvanian }
-2046319 = { name="Goia" culture=transylvanian }
-2046320 = { name="Haragus" culture=transylvanian }
-2046321 = { name="Heghedus" culture=transylvanian }
-2046322 = { name="Horvat" culture=transylvanian }
-2046323 = { name="Iuhas" culture=transylvanian }
-2046324 = { name="Lenghel" culture=transylvanian }
-2046325 = { name="Lobont" culture=transylvanian }
-2046326 = { name="Lucaciu" culture=transylvanian }
-2046327 = { name="Madaras" culture=transylvanian }
-2046328 = { name="Mesaros" culture=transylvanian }
-2046329 = { name="Miclea" culture=transylvanian }
-2046330 = { name="Moghioros" culture=transylvanian }
-2046331 = { name="Baciu" culture=transylvanian }
-2046332 = { name="Boldijar" culture=transylvanian }
-2046333 = { name="Burean" culture=transylvanian }
-2046334 = { name="Cionca" culture=transylvanian }
-2046335 = { name="Ciontos" culture=transylvanian }
-2046336 = { name="Ciorba" culture=transylvanian }
-2046337 = { name="Ciordas" culture=transylvanian }
-2046338 = { name="Demeter" culture=transylvanian }
-2046339 = { name="Jacab" culture=transylvanian }
-2046340 = { name="Capitan" culture=transylvanian }
-2046341 = { name="Chocis" culture=transylvanian }
-2046342 = { name="Marosan" culture=transylvanian }
-2046343 = { name="Molnar" culture=transylvanian }
-2046344 = { name="Nemes" culture=transylvanian }
-2046345 = { name="Puscas" culture=transylvanian }
-2046346 = { name="Roca" culture=transylvanian }
-2046347 = { name="Sechel" culture=transylvanian }
-2046348 = { name="Silaghi" culture=transylvanian }
-2046349 = { name="Suciu" culture=transylvanian }
-2046350 = { name="Sandru" culture=transylvanian }
-2046351 = { name="Taut" culture=transylvanian }
-2046352 = { name="Varadeanu" culture=transylvanian
+2046053 = { name="Balan" culture=transylvanian }
+2046054 = { name="Dobre" culture=transylvanian }
+2046055 = { name="Nicolae" culture=transylvanian }
+2046056 = { name="Badea" culture=transylvanian }
+2046057 = { name="Coman" culture=transylvanian }
+2046058 = { name="Ivan" culture=transylvanian }
+2046059 = { name="Roman" culture=transylvanian }
+2046060 = { name="Szabo" culture=transylvanian }
+2046061 = { name="Radulescu" culture=transylvanian }
+2046062 = { name="Lungu" culture=transylvanian }
+2046063 = { name="Iancu" culture=transylvanian }
+2046064 = { name="Ene" culture=transylvanian }
+2046065 = { name="Manea" culture=transylvanian }
+2046066 = { name="Preda" culture=transylvanian }
+2046067 = { name="David" culture=transylvanian }
+2046068 = { name="Bucur" culture=transylvanian }
+2046069 = { name="Marinescu" culture=transylvanian }
+2046070 = { name="Stoian" culture=transylvanian }
+2046071 = { name="Nistor" culture=transylvanian }
+2046072 = { name="Iacob" culture=transylvanian }
+2046073 = { name="Pavel" culture=transylvanian }
+2046074 = { name="Filip" culture=transylvanian }
+2046075 = { name="Avram" culture=transylvanian }
+2046076 = { name="Dragan" culture=transylvanian }
+2046078 = { name="Suciu" culture=transylvanian }
+2046079 = { name="Olteanu" culture=transylvanian }
+2046080 = { name="Petrescu" culture=transylvanian }
+2046081 = { name="Rus" culture=transylvanian }
+2046082 = { name="Simion" culture=transylvanian }
+2046083 = { name="Costea" culture=transylvanian }
+2046084 = { name="Marcu" culture=transylvanian }
+2046085 = { name="Crisan" culture=transylvanian }
+2046086 = { name="Luca" culture=transylvanian }
+2046087 = { name="Rosu" culture=transylvanian }
+2046088 = { name="Nita" culture=transylvanian }
+2046089 = { name="Kovacs" culture=transylvanian }
+2046090 = { name="Diaconu" culture=transylvanian }
+2046091 = { name="Rotaru" culture=transylvanian }
+2046092 = { name="Bogdan" culture=transylvanian }
+2046093 = { name="Muntean" culture=transylvanian }
+2046094 = { name="Nedelcu" culture=transylvanian }
+2046095 = { name="Dan" culture=transylvanian }
+2046096 = { name="Cretu" culture=transylvanian }
+2046097 = { name="Calin" culture=transylvanian }
+2046098 = { name="Zaharia" culture=transylvanian }
+2046099 = { name="Stanescu" culture=transylvanian }
+2046100 = { name="Ardeleanu" culture=transylvanian }
+2046101 = { name="Moldoveanu" culture=transylvanian }
+2046102 = { name="Aciu" culture=transylvanian }
+2046103 = { name="Balint" culture=transylvanian }
+2046104 = { name="Almas" culture=transylvanian }
+2046105 = { name="Bentes" culture=transylvanian }
+2046106 = { name="Birau" culture=transylvanian }
+2046107 = { name="Bobos" culture=transylvanian }
+2046108 = { name="Bolcas" culture=transylvanian }
+2046109 = { name="Borbil" culture=transylvanian }
+2046110 = { name="Boros" culture=transylvanian }
+2046111 = { name="Chereches" culture=transylvanian }
+2046112 = { name="Chis" culture=transylvanian }
+2046113 = { name="Chisiu" culture=transylvanian }
+2046114 = { name="Chivari" culture=transylvanian }
+2046115 = { name="Fodor" culture=transylvanian }
+2046116 = { name="Gombos" culture=transylvanian }
+2046117 = { name="Dobos" culture=transylvanian }
+2046118 = { name="Feher" culture=transylvanian }
+2046119 = { name="Goia" culture=transylvanian }
+2046120 = { name="Haragus" culture=transylvanian }
+2046121 = { name="Heghedus" culture=transylvanian }
+2046122 = { name="Horvat" culture=transylvanian }
+2046123 = { name="Iuhas" culture=transylvanian }
+2046124 = { name="Lenghel" culture=transylvanian }
+2046125 = { name="Lobont" culture=transylvanian }
+2046126 = { name="Lucaciu" culture=transylvanian }
+2046127 = { name="Madaras" culture=transylvanian }
+2046128 = { name="Mesaros" culture=transylvanian }
+2046129 = { name="Miclea" culture=transylvanian }
+2046130 = { name="Moghioros" culture=transylvanian }
+2046131 = { name="Baciu" culture=transylvanian }
+2046132 = { name="Boldijar" culture=transylvanian }
+2046133 = { name="Burean" culture=transylvanian }
+2046134 = { name="Cionca" culture=transylvanian }
+2046135 = { name="Ciontos" culture=transylvanian }
+2046136 = { name="Ciorba" culture=transylvanian }
+2046137 = { name="Ciordas" culture=transylvanian }
+2046138 = { name="Demeter" culture=transylvanian }
+2046139 = { name="Jacab" culture=transylvanian }
+2046140 = { name="Capitan" culture=transylvanian }
+2046141 = { name="Chocis" culture=transylvanian }
+2046142 = { name="Marosan" culture=transylvanian }
+2046143 = { name="Molnar" culture=transylvanian }
+2046144 = { name="Nemes" culture=transylvanian }
+2046145 = { name="Puscas" culture=transylvanian }
+2046146 = { name="Roca" culture=transylvanian }
+2046147 = { name="Sechel" culture=transylvanian }
+2046148 = { name="Silaghi" culture=transylvanian }
+2046149 = { name="Suciu" culture=transylvanian }
+2046150 = { name="Sandru" culture=transylvanian }
+2046151 = { name="Taut" culture=transylvanian }
+2046152 = { name="Varadeanu" culture=transylvanian
 	coat_of_arms = { 
 		template = 0
 		layer = {
@@ -19072,30 +19450,30 @@ coat_of_arms = {
 		}
 	}
 }
-2046353 = { name="Albert" culture=transylvanian }
-2046354 = { name="Sus" culture=transylvanian }
-2046355 = { name="Laslau" culture=transylvanian }
-2046356 = { name="Fischer" culture=transylvanian }
-2046357 = { name="Maier" culture=transylvanian }
-2046358 = { name="Müller" culture=transylvanian }
-2046359 = { name="Reiter" culture=transylvanian }
-2046360 = { name="Hunyadi" culture=transylvanian }
-2046361 = { name="Schmidt" culture=transylvanian }
-2046362 = { name="Reiter" culture=transylvanian }
-2046363 = { name="Weber" culture=transylvanian }
-2046364 = { name="Pîntea" culture=transylvanian }
-2046365 = { name="Fronius" culture=transylvanian }
-2046366 = { name="Soterius" culture=transylvanian }
-2046367 = { name="Berger" culture=transylvanian }
-2046368 = { name="Schöchtert" culture=transylvanian }
-2046369 = { name="Roth" culture=transylvanian }
-2046370 = { name="Haas" culture=transylvanian }
-2046371 = { name="Klein" culture=transylvanian }
-2046372 = { name="Pastior" culture=transylvanian }
-2046373 = { name="Orend" culture=transylvanian }
-2046374 = { name="Maffay" culture=transylvanian }
-2046375 = { name="Orend" culture=transylvanian }
-2046376 = { name="Schuster" culture=transylvanian }
+2046153 = { name="Albert" culture=transylvanian }
+2046154 = { name="Sus" culture=transylvanian }
+2046155 = { name="Laslau" culture=transylvanian }
+2046156 = { name="Fischer" culture=transylvanian }
+2046157 = { name="Maier" culture=transylvanian }
+2046158 = { name="Müller" culture=transylvanian }
+2046159 = { name="Reiter" culture=transylvanian }
+2046160 = { name="Hunyadi" culture=transylvanian }
+2046161 = { name="Schmidt" culture=transylvanian }
+2046162 = { name="Reiter" culture=transylvanian }
+2046163 = { name="Weber" culture=transylvanian }
+2046164 = { name="Pîntea" culture=transylvanian }
+2046165 = { name="Fronius" culture=transylvanian }
+2046166 = { name="Soterius" culture=transylvanian }
+2046167 = { name="Berger" culture=transylvanian }
+2046168 = { name="Schöchtert" culture=transylvanian }
+2046169 = { name="Roth" culture=transylvanian }
+2046170 = { name="Haas" culture=transylvanian }
+2046171 = { name="Klein" culture=transylvanian }
+2046172 = { name="Pastior" culture=transylvanian }
+2046173 = { name="Orend" culture=transylvanian }
+2046174 = { name="Maffay" culture=transylvanian }
+2046175 = { name="Orend" culture=transylvanian }
+2046176 = { name="Schuster" culture=transylvanian }
 
 2047001 = { name="Azmanov" culture=bulgarian }
 2047002 = { name="Dyakov" culture=bulgarian }
@@ -19999,6 +20377,20 @@ coat_of_arms = {
 2052203 = { name="Yilmaz" culture=central_anatolian }
 2052204 = { name="Kaya" culture=central_anatolian }
 2052205 = { name="Kekilli" culture=central_anatolian }
+2052206 = { name="Varil" culture=central_anatolian used_for_random=no 
+	coat_of_arms = {
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 2053000 = { name="Tseberte" culture=ossetian}
 2053001 = { name="Æbati" culture=ossetian}
@@ -20250,8 +20642,22 @@ coat_of_arms = {
 2054209 = { name="Shahbazi" culture=azeri }
 2054210 = { name="Bärshadli" culture=azeri }
 2054211 = { name="Çätin" culture=azeri }
+2054212 = { name="Azimzade" culture=azeri }
 
-2055000 = { name="Özdemir" culture=west_anatolian }
+2055000 = { name="Özdemir" culture=west_anatolian 
+	coat_of_arms = {
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2055001 = { name="Shahenk" culture=west_anatolian 
 	coat_of_arms = { 
 		religion = sunni
@@ -20266,7 +20672,20 @@ coat_of_arms = {
 		}
 	}
 }
-2055002 = { name="Ulukaya" culture=west_anatolian }
+2055002 = { name="Ulukaya" culture=west_anatolian 
+	coat_of_arms = {
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2055003 = { name="Polat" culture=west_anatolian }
 2055004 = { name="Atçali" culture=west_anatolian 
 	coat_of_arms = { 
@@ -20396,7 +20815,20 @@ coat_of_arms = {
 2055090 = { name="Cengiz" culture=west_anatolian }
 2055091 = { name="Atik" culture=west_anatolian }
 2055092 = { name="Türk" culture=west_anatolian }
-2055093 = { name="Sarikaya" culture=west_anatolian }
+2055093 = { name="Sarikaya" culture=west_anatolian 
+	coat_of_arms = {
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2055094 = { name="Ertürk" culture=west_anatolian }
 2055095 = { name="Meuz" culture=west_anatolian }
 2055096 = { name="Kaçar" culture=west_anatolian }
@@ -20514,6 +20946,20 @@ coat_of_arms = {
 2055208 = { name="Topal" culture=west_anatolian }
 2055209 = { name="Akkeceli" culture=west_anatolian }
 2055210 = { name="Tantal" culture=west_anatolian used_for_random=no }
+2055211 = { name="Gündoghdu" culture=west_anatolian used_for_random=no 
+	coat_of_arms = {
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 2056000 = { name="Kasapoghlu" culture=romioi }
 2056001 = { name="Skliros" culture=romioi }
@@ -20588,7 +21034,20 @@ coat_of_arms = {
 2057000 = { name="Kartal" culture=rumelian }
 2057001 = { name="Bey" culture=rumelian }
 2057002 = { name="Namik" culture=rumelian }
-2057003 = { name="Mehmetçik" culture=rumelian }
+2057003 = { name="Mehmetçik" culture=rumelian 
+	coat_of_arms = {
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2057004 = { name="Mehmet" culture=rumelian }
 2057005 = { name="Bogazkesen" culture=rumelian }
 2057006 = { name="Hurrem" culture=rumelian }
@@ -21508,7 +21967,20 @@ coat_of_arms = {
 		}
 	}
 }
-2060206 = { name="Akdagh" culture=black_sea }
+2060206 = { name="Akdagh" culture=black_sea 
+	coat_of_arms = {
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 2061000 = { name="Defacqz" culture=walloon
 	coat_of_arms = { 
@@ -21920,7 +22392,7 @@ coat_of_arms = {
 		}
 	}
 }
-2065002 = { name="Felekoglu" culture=turcoman }
+2065002 = { name="Felekoghlu" culture=turcoman }
 2065003 = { name="Baharlou" culture=turcoman }
 2065004 = { name="Saadlu" culture=turcoman }
 2065005 = { name="Karamanlu" culture=turcoman }
@@ -21943,6 +22415,14 @@ coat_of_arms = {
 2065020 = { name="Askari" culture=turcoman }
 2065021 = { name="Hashimi" culture=turcoman }
 2065022 = { name="Bayati" culture=turcoman }
+2065023 = { name="Ergeç" culture=turcoman }
+2065024 = { name="Bayraktar" culture=turcoman }
+2065025 = { name="Hasan" culture=turcoman }
+2065026 = { name="Saatçi" culture=turcoman }
+2065027 = { name="Omar" culture=turcoman }
+2065028 = { name="Shakelî" culture=turcoman }
+2065029 = { name="Ghassani" culture=turcoman }
+2065030 = { name="Erbil" culture=turcoman }
 
 2066000 = { name="Kezêban" culture=kurdish 
 	coat_of_arms = { 
@@ -21974,19 +22454,19 @@ coat_of_arms = {
 }
 2066002 = { name="Diyap" culture=kurdish }
 2066003 = { name="Derdiyok" culture=kurdish }
-2066004 = { name="Güney" culture=kurdish }
-2066005 = { name="Sariyildiz" culture=kurdish }
-2066006 = { name="Özgökçe" culture=kurdish }
+2066004 = { name="Salih" culture=kurdish }
+2066005 = { name="Jangi" culture=kurdish }
+2066006 = { name="Tehsîn" culture=kurdish }
 2066007 = { name="Kurtulan" culture=kurdish }
-2066008 = { name="Özsoy" culture=kurdish }
-2066009 = { name="Dagtekin" culture=kurdish }
+2066008 = { name="Qadir" culture=kurdish }
+2066009 = { name="Mesûm" culture=kurdish }
 2066010 = { name="Karayilan" culture=kurdish }
-2066011 = { name="Velioglu" culture=kurdish }
+2066011 = { name="Merdan" culture=kurdish }
 2066012 = { name="Yûsiv" culture=kurdish }
 2066013 = { name="Bekirê" culture=kurdish }
 2066014 = { name="Soreklî" culture=kurdish }
-2066015 = { name="Aykoç" culture=kurdish }
-2066016 = { name="Dagdelen" culture=kurdish }
+2066015 = { name="Zehawî" culture=kurdish }
+2066016 = { name="Mistefa" culture=kurdish }
 2066017 = { name="Berzencî" culture=kurdish }
 2066018 = { name="Dost" culture=kurdish }
 2066019 = { name="Ehmed" culture=kurdish }
@@ -22069,7 +22549,7 @@ coat_of_arms = {
 2066057 = { name="Qulîzanî" culture=kurdish }
 2066058 = { name="Sherefkendî" culture=kurdish }
 2066059 = { name="Qasimlo" culture=kurdish }
-2066060 = { name="Guven" culture=kurdish }
+2066060 = { name="Güven" culture=kurdish }
 2066061 = { name="Mîrzengî" culture=kurdish }
 2066062 = { name="Merîwanî" culture=kurdish }
 2066063 = { name="Aslan" culture=kurdish }
@@ -22113,8 +22593,22 @@ coat_of_arms = {
 2066101 = { name="Eskerî" culture=kurdish }
 2066102 = { name="Can" culture=kurdish }
 2066103 = { name="Emre" culture=kurdish }
-2066104 = { name="Yamûlkî" culture=kurdish }
+2066104 = { name="Yamûlkî" culture=kurdish 
+	coat_of_arms = {
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 2066105 = { name="Paçmêlkî" culture=kurdish }
+2066106 = { name="Matur" culture=kurdish }
 
 2067000 = { name="Beel" culture=limburgish }
 2067001 = { name="Cals" culture=limburgish }
@@ -22375,6 +22869,9 @@ coat_of_arms = {
 2069104 = { name="Akbarzod" culture=tajik }
 2069105 = { name="Osronov" culture=tajik }
 2069106 = { name="Ayni" culture=tajik }
+2069107 = { name="Zohir" culture=tajik }
+2069108 = { name="Qosim" culture=tajik }
+2069109 = { name="Khurshed" culture=tajik }
 
 2070000 = { name="Amini" culture=persian }
 2070001 = { name="Ali" culture=persian }
@@ -22747,6 +23244,21 @@ coat_of_arms = {
 2072074 = { name="Charanis" culture=greek used_for_random=no}
 2072075 = { name="Skylitzes" culture=greek used_for_random=no}
 2072076 = { name="Leventis" culture=greek used_for_random=no}
+2072077 = { name="Angelakis" culture=greek used_for_random=no}
+2072078 = { name="Kalogeras" culture=greek used_for_random=no}
+2072079 = { name="Lambrakis " culture=greek used_for_random=no}
+2072080 = { name="Papadopoulos" culture=greek used_for_random=no}
+2072081 = { name="Tsartsaris" culture=greek used_for_random=no}
+2072082 = { name="Glafketis" culture=greek used_for_random=no}
+2072083 = { name="Belisarios" culture=greek used_for_random=no}
+2072084 = { name="Tsakonas" culture=greek used_for_random=no}
+2072085 = { name="Christou" culture=greek used_for_random=no}
+2072086 = { name="Wittelsbach" culture=greek used_for_random=no}
+2072087 = { name="Glücksburg" culture=greek used_for_random=no}
+2072088 = { name="Onasis" culture=greek used_for_random=no}
+2072089 = { name="Markopoulo" culture=greek used_for_random=no}
+2072090 = { name="Galanis" culture=greek used_for_random=no}
+2072091 = { name="Diamandis" culture=greek used_for_random=no}
 
 2073001 = { name="Adamos" culture=makedonian }
 2073002 = { name="Aetós" culture=makedonian }
@@ -22820,6 +23332,16 @@ coat_of_arms = {
 2073070 = { name="Zika" culture=makedonian }
 2073071 = { name="Zorbas" culture=makedonian }
 2073072 = { name="Zappas" culture=makedonian }
+2073073 = { name="Ioannidis" culture=makedonian }
+2073074 = { name="Kallistos" culture=makedonian }
+2073075 = { name="Belevonis" culture=makedonian }
+2073076 = { name="Dragoumis" culture=makedonian }
+2073077 = { name="Kasomoulis" culture=makedonian }
+2073078 = { name="Passalis" culture=makedonian }
+2073079 = { name="Kraka" culture=makedonian }
+2073080 = { name="Kokkinos" culture=makedonian }
+2073081 = { name="Sakellarios" culture=makedonian }
+2073082 = { name="Vikelas" culture=makedonian }
 
 2074001 = { name="Andreou" culture=kypriot }
 2074002 = { name="Antoniou" culture=kypriot }
@@ -22901,6 +23423,150 @@ coat_of_arms = {
 		}
 	}
 }
+2074068 = { name="Hacimusa" culture=kypriot }
+2074069 = { name="Adali" culture=kypriot }
+2074070 = { name="Mannash" culture=kypriot }
+2074071 = { name="Çakici" culture=kypriot }
+2074072 = { name="Sucuglou" culture=kypriot }
+2074073 = { name="Çebi" culture=kypriot }
+2074074 = { name="Evlat" culture=kypriot }
+2074075 = { name="Ogout" culture=kypriot }
+2074076 = { name="Nurçin" culture=kypriot }
+2074077 = { name="Erishen" culture=kypriot }
+2074078 = { name="Ozcanlar" culture=kypriot }
+2074079 = { name="Aktash" culture=kypriot }
+2074080 = { name="Bayramoglou" culture=kypriot }
+2074081 = { name="Gok" culture=kypriot }
+2074082 = { name="Ince" culture=kypriot }
+2074083 = { name="Beyaz" culture=kypriot }
+2074084 = { name="Bardak" culture=kypriot }
+2074085 = { name="Miralay" culture=kypriot }
+2074086 = { name="Sakalli" culture=kypriot }
+2074087 = { name="Tosun" culture=kypriot }
+2074088 = { name="Çakmak" culture=kypriot }
+2074089 = { name="Damdelen" culture=kypriot }
+2074090 = { name="Davulcu" culture=kypriot }
+2074091 = { name="Bayraktar" culture=kypriot }
+2074092 = { name="Çelik" culture=kypriot }
+2074093 = { name="Shah" culture=kypriot }
+2074094 = { name="Rustemoglou" culture=kypriot }
+2074095 = { name="Ineci" culture=kypriot }
+2074096 = { name="Ishkey" culture=kypriot }
+2074097 = { name="Gulbesh" culture=kypriot }
+2074098 = { name="Yeltekin" culture=kypriot }
+2074099 = { name="Gilanliogoullari" culture=kypriot }
+20740100 = { name="Tabak" culture=kypriot }
+20740101 = { name="Karadayi" culture=kypriot }
+20740102 = { name="Oztoprak" culture=kypriot }
+20740103 = { name="Tahsildarogoullari" culture=kypriot }
+20740104 = { name="Oktay" culture=kypriot }
+20740105 = { name="Uskuri" culture=kypriot }
+20740106 = { name="Gunel" culture=kypriot }
+20740107 = { name="Gunesh" culture=kypriot }
+20740108 = { name="Arkin" culture=kypriot }
+20740109 = { name="Eminagha" culture=kypriot }
+20740110 = { name="Atakara" culture=kypriot }
+20740111 = { name="Aygun" culture=kypriot }
+20740112 = { name="Sadrazam" culture=kypriot }
+20740113 = { name="Guven" culture=kypriot }
+20740114 = { name="Dolmaci" culture=kypriot }
+20740115 = { name="Ogouzkan" culture=kypriot }
+20740116 = { name="Bariyanik" culture=kypriot }
+20740117 = { name="Dehirmencioglou" culture=kypriot }
+20740118 = { name="Shehitoglou" culture=kypriot }
+20740119 = { name="Içer" culture=kypriot }
+20740120 = { name="Cezaroglou" culture=kypriot }
+20740121 = { name="Selçuklou" culture=kypriot }
+20740122 = { name="Çoskouner" culture=kypriot }
+20740123 = { name="Yeshilyaprak" culture=kypriot }
+20740124 = { name="Ilkan" culture=kypriot }
+20740125 = { name="Akdeniz" culture=kypriot }
+20740126 = { name="Toros" culture=kypriot }
+20740127 = { name="Oztash" culture=kypriot }
+20740128 = { name="Tufekçiogoullari" culture=kypriot }
+20740129 = { name="Yapiciogoullari" culture=kypriot }
+20740130 = { name="Sonmeyen" culture=kypriot }
+20740131 = { name="Gurkan" culture=kypriot }
+20740132 = { name="Kaçmaz" culture=kypriot }
+20740133 = { name="Kolozali" culture=kypriot }
+20740134 = { name="Hasimogoullari" culture=kypriot }
+20740135 = { name="Hacikuçouk" culture=kypriot }
+20740136 = { name="Karayaprak" culture=kypriot }
+20740137 = { name="Erguven" culture=kypriot }
+20740138 = { name="Ergoren" culture=kypriot }
+20740129 = { name="Miltiadou" culture=kypriot }
+20740130 = { name="Kallitheotis" culture=kypriot }
+20740131 = { name="Anastassiou" culture=kypriot }
+20740132 = { name="Xenophontos" culture=kypriot }
+20740133 = { name="Heracleous" culture=kypriot }
+20740134 = { name="Sophocleous" culture=kypriot }
+20740135 = { name="Nicolaides" culture=kypriot }
+20740136 = { name="Cleanthous" culture=kypriot }
+20740137 = { name="Antoniades" culture=kypriot }
+20740138 = { name="Kyriakou" culture=kypriot }
+20740139 = { name="Karvounaris" culture=kypriot }
+20740140 = { name="Mouzouris" culture=kypriot }
+20740141 = { name="Sfoggaras" culture=kypriot }
+20740142 = { name="Zinonous" culture=kypriot }
+20740143 = { name="Epminondou" culture=kypriot }
+20740144 = { name="Argrou" culture=kypriot }
+20740145 = { name="Eliadou" culture=kypriot }
+20740146 = { name="Hadjichristodoulou" culture=kypriot }
+20740147 = { name="Taroiou" culture=kypriot }
+20740148 = { name="Tsalis" culture=kypriot }
+20740149 = { name="Karakokkinous" culture=kypriot }
+20740150 = { name="Tzilalis" culture=kypriot }
+20740151 = { name="Zoppis" culture=kypriot }
+20740152 = { name="Theodotou" culture=kypriot }
+20740153 = { name="Hadjipanagi" culture=kypriot }
+20740154 = { name="Tsolakis" culture=kypriot }
+20740155 = { name="Hadjipavli" culture=kypriot }
+20740156 = { name="Hadjigravriel" culture=kypriot }
+20740157 = { name="Hadjistylianou" culture=kypriot }
+20740158 = { name="Hadjigiannis" culture=kypriot }
+20740159 = { name="Hadjikyriakou" culture=kypriot }
+20740160 = { name="Neoptolemou" culture=kypriot }
+20740161 = { name="Appiou" culture=kypriot }
+20740162 = { name="Pappasozomenou" culture=kypriot }
+20740163 = { name="Neoptolemou" culture=kypriot }
+20740164 = { name="Savva" culture=kypriot }
+20740165 = { name="Modestou" culture=kypriot }
+20740166 = { name="Papatheodorou" culture=kypriot }
+20740167 = { name="Constantinidou" culture=kypriot }
+20740168 = { name="Papageorgiou" culture=kypriot }
+20740169 = { name="Agathangelou" culture=kypriot }
+20740170 = { name="Koursoumbas" culture=kypriot }
+20740171 = { name="Validou" culture=kypriot }
+20740172 = { name="Hadjivassilopoulou" culture=kypriot }
+20740173 = { name="Spiliopoulou" culture=kypriot }
+20740174 = { name="Papachristoforou" culture=kypriot }
+20740175 = { name="Erotokritou" culture=kypriot }
+20740176 = { name="Kotzikas" culture=kypriot }
+20740177 = { name="Kleovoulou" culture=kypriot }
+20740178 = { name="Papanastasiou" culture=kypriot }
+20740179 = { name="Themistocleous" culture=kypriot }
+20740180 = { name="Onisiforou" culture=kypriot }
+20740181 = { name="Shanazaryan" culture=kypriot }
+20740182 = { name="Kassartzyan" culture=kypriot }
+20740183 = { name="Harutyunyan" culture=kypriot }
+20740184 = { name="Djelalyan" culture=kypriot }
+20740185 = { name="Gregoryan" culture=kypriot }
+20740186 = { name="Khachatryan" culture=kypriot }
+20740187 = { name="Petrosyan" culture=kypriot }
+20740188 = { name="Makdessyan" culture=kypriot }
+20740189 = { name="Aharonyan" culture=kypriot }
+20740190 = { name="Aghajanyan" culture=kypriot }
+20740191 = { name="Arakelyan" culture=kypriot }
+20740192 = { name="Ghazaryan" culture=kypriot }
+20740193 = { name="Demirchyan" culture=kypriot }
+20740194 = { name="Soultanyan" culture=kypriot }
+20740195 = { name="Karamanoukyan" culture=kypriot }
+20740196 = { name="Gharios" culture=kypriot }
+20740197 = { name="Zakos" culture=kypriot }
+20740198 = { name="Estathiou" culture=kypriot }
+20740199 = { name="Qedahyan" culture=kypriot }
+20740200 = { name="Boukris " culture=kypriot }
+20740201 = { name="Günsel" culture=kypriot }
 
 2075001 = { name="Yusupov" culture=karakalpak }
 2075002 = { name="Sayekeev" culture=karakalpak }
@@ -25071,7 +25737,7 @@ coat_of_arms = {
 2103010 = { name="Al-Kharrat" culture=suriyi }
 2103011 = { name="Al-Na'imeh" culture=suriyi }
 2103012 = { name="Khoury" culture=suriyi }
-2103013 = { name="Souleyman" culture=suriyi }
+2103013 = { name="Sulayman" culture=suriyi }
 2103014 = { name="al-Khedairi" culture=suriyi }
 2103015 = { name="al-Sabuni" culture=suriyi }
 2103016 = { name="al-Attasi" culture=suriyi }
@@ -25192,6 +25858,7 @@ coat_of_arms = {
 2103131 = { name="Kakhi" culture=suriyi }
 2103132 = { name="Shaaban" culture=suriyi }
 2103133 = { name="Zaqrit" culture=suriyi }
+2103134 = { name="Mungan" culture=suriyi }
 
 2104000 = { name="Yonadam" culture=assyrian }
 2104001 = { name="Agassi" culture=assyrian }
@@ -25256,11 +25923,11 @@ coat_of_arms = {
 
 2105000 = { name="Jibran" culture=lebneni 
 	coat_of_arms = { 
-		religion=sunni
+		religion = catholic
 		template = 0
 		layer = {
-			texture = 1
-			texture_internal = 16
+			texture = 23
+			texture_internal = 5
 			emblem = 0
 			color = 0
 			color = 0
@@ -25429,6 +26096,150 @@ coat_of_arms = {
 2105146 = { name="Taslakian" culture=lebneni }
 2105147 = { name="Kuyumdjian" culture=lebneni }
 2105148 = { name="Yaqubian" culture=lebneni }
+2105149 = { name="Keriaki" culture=lebneni }
+2105150 = { name="Qatrah" culture=lebneni }
+2105151 = { name="Kenouzi" culture=lebneni }
+2105152 = { name="Medihli" culture=lebneni }
+2105153 = { name="Karkali" culture=lebneni }
+2105154 = { name="Al Mughazli" culture=lebneni }
+2105155 = { name="El Mellou" culture=lebneni }
+2105156 = { name="Al Falak" culture=lebneni }
+2105157 = { name="Mishlout" culture=lebneni }
+2105158 = { name="Al Zakham" culture=lebneni }
+2105159 = { name="Sursaq" culture=lebneni }
+2105160 = { name="Khazami" culture=lebneni }
+2105161 = { name="Al Jokhdar" culture=lebneni }
+2105162 = { name="Tajah" culture=lebneni }
+2105163 = { name="Atoush" culture=lebneni }
+2105164 = { name="Farfoud" culture=lebneni }
+2105165 = { name="Al Shakih" culture=lebneni }
+2105166 = { name="Al Qaraan" culture=lebneni }
+2105167 = { name="Majaas" culture=lebneni }
+2105168 = { name="Dahnoun" culture=lebneni }
+2105169 = { name="Dolani" culture=lebneni }
+2105170 = { name="Al Qadaha" culture=lebneni }
+2105171 = { name="Zneit" culture=lebneni }
+2105172 = { name="Bushroush" culture=lebneni }
+2105173 = { name="Kaakoush" culture=lebneni }
+2105174 = { name="Bjija" culture=lebneni }
+2105175 = { name="Shibakgi" culture=lebneni }
+2105176 = { name="Al Karasht" culture=lebneni }
+2105177 = { name="Sderha" culture=lebneni }
+2105178 = { name="Qafsah" culture=lebneni }
+2105179 = { name="Saleini" culture=lebneni }
+2105180 = { name="Al Dameshq" culture=lebneni }
+2105181 = { name="Zalzali" culture=lebneni }
+2105182 = { name="Dablawi" culture=lebneni }
+2105183 = { name="Al Jaramqi" culture=lebneni }
+2105184 = { name="El Saboury" culture=lebneni }
+2105185 = { name="Binjak" culture=lebneni }
+2105186 = { name="Zawil" culture=lebneni }
+2105187 = { name="Sindan" culture=lebneni }
+2105188 = { name="Khafaga" culture=lebneni }
+2105189 = { name="Taqsh" culture=lebneni }
+2105190 = { name="Al Busi" culture=lebneni }
+2105191 = { name="Tabajeh" culture=lebneni }
+2105192 = { name="Taqsh" culture=lebneni }
+2105193 = { name="Faqih" culture=lebneni }
+2105194 = { name="Qandoul" culture=lebneni }
+2105195 = { name="Al Mazbouh" culture=lebneni }
+2105196 = { name="Jolani" culture=lebneni }
+2105197 = { name="Al Mousawi" culture=lebneni }
+2105198 = { name="Malikani" culture=lebneni }
+2105199 = { name="Qarzouni" culture=lebneni }
+2105200 = { name="Shahitly" culture=lebneni }
+2105201 = { name="Zahim" culture=lebneni }
+2105202 = { name="Mughniyeh" culture=lebneni }
+2105203 = { name="Dajah" culture=lebneni }
+2105204 = { name="Qafarani" culture=lebneni }
+2105205 = { name="Mishourb" culture=lebneni }
+2105206 = { name="Khanafer" culture=lebneni }
+2105207 = { name="Al Mismar" culture=lebneni }
+2105208 = { name="Al Habhab" culture=lebneni }
+2105209 = { name="Al Harkah" culture=lebneni }
+2105210 = { name="Al Rishouni" culture=lebneni }
+2105211 = { name="Houmani" culture=lebneni }
+2105212 = { name="Fardoun" culture=lebneni }
+2105213 = { name="Kawtharani" culture=lebneni }
+2105214 = { name="Mashik" culture=lebneni }
+2105215 = { name="Yahfoufi" culture=lebneni }
+2105216 = { name="Alatat" culture=lebneni }
+2105217 = { name="Zerqat" culture=lebneni }
+2105218 = { name="Al Zohra" culture=lebneni }
+2105219 = { name="Al Qajah" culture=lebneni }
+2105220 = { name="Al Halibi" culture=lebneni }
+2105221 = { name="Minawi" culture=lebneni }
+2105222 = { name="Hantour" culture=lebneni }
+2105223 = { name="Shamra" culture=lebneni }
+2105224 = { name="Al Muhtafi" culture=lebneni }
+2105225 = { name="Hakla" culture=lebneni }
+2105226 = { name="Al Zabit" culture=lebneni }
+2105227 = { name="Al Zaafar" culture=lebneni }
+2105228 = { name="Sablouh" culture=lebneni }
+2105229 = { name="Al Manfi" culture=lebneni }
+2105230 = { name="Shamra" culture=lebneni }
+2105231 = { name="Al Mashmashani" culture=lebneni }
+2105232 = { name="Al Khaja" culture=lebneni }
+2105233 = { name="Al Arnous" culture=lebneni }
+2105234 = { name="Bashashi" culture=lebneni }
+2105235 = { name="Khebiz" culture=lebneni }
+2105236 = { name="Kammah" culture=lebneni }
+2105237 = { name="Bahous" culture=lebneni }
+2105238 = { name="Al Maghshoush" culture=lebneni }
+2105239 = { name="Dahdouli" culture=lebneni }
+2105240 = { name="Amoud" culture=lebneni }
+2105241 = { name="El Mahantou" culture=lebneni }
+2105242 = { name="Al Hathout" culture=lebneni }
+2105243 = { name="Shafesh" culture=lebneni }
+2105244 = { name="Zreika" culture=lebneni }
+2105245 = { name="Ghboura" culture=lebneni }
+2105246 = { name="Al Jabbakhanji" culture=lebneni }
+2105247 = { name="El Marouk" culture=lebneni }
+2105248 = { name="Balarja" culture=lebneni }
+2105249 = { name="Al Marqabi" culture=lebneni }
+2105250 = { name="Al Muzakiz" culture=lebneni }
+2105251 = { name="Al Jubuli" culture=lebneni }
+2105252 = { name="Al Madawi" culture=lebneni }
+2105253 = { name="Al Salikh" culture=lebneni }
+2105254 = { name="Al Khazal" culture=lebneni }
+2105255 = { name="Batrawi" culture=lebneni }
+2105256 = { name="Talabat" culture=lebneni }
+2105257 = { name="Khoula" culture=lebneni }
+2105258 = { name="Shanouha" culture=lebneni }
+2105259 = { name="Hassid" culture=lebneni }
+2105260 = { name="Zeftawi" culture=lebneni }
+2105261 = { name="Dahbash" culture=lebneni }
+2105262 = { name="Hossam" culture=lebneni }
+2105263 = { name="Al Zaid" culture=lebneni }
+2105264 = { name="Kashir" culture=lebneni }
+2105265 = { name="Al Quwatli" culture=lebneni }
+2105266 = { name="Al Dawash" culture=lebneni }
+2105267 = { name="Al Shahrouk" culture=lebneni }
+2105268 = { name="Kashir" culture=lebneni }
+2105269 = { name="Hanjoura" culture=lebneni }
+2105270 = { name="Khoram" culture=lebneni }
+2105271 = { name="Al Waham" culture=lebneni }
+2105272 = { name="Al Majrish" culture=lebneni }
+2105273 = { name="Al Mujdara" culture=lebneni }
+2105274 = { name="Al Taimeh" culture=lebneni }
+2105275 = { name="Imam" culture=lebneni }
+2105276 = { name="Naboush" culture=lebneni }
+2105277 = { name="Tahtouh" culture=lebneni }
+2105278 = { name="Qayali" culture=lebneni }
+2105279 = { name="Al Haklani" culture=lebneni }
+2105280 = { name="Majla" culture=lebneni }
+2105281 = { name="Muzaya" culture=lebneni }
+2105282 = { name="Al Samed" culture=lebneni }
+2105283 = { name="Al Amrih" culture=lebneni }
+2105284 = { name="Zhanan" culture=lebneni }
+2105285 = { name="Tureh" culture=lebneni }
+2105286 = { name="Yassoub" culture=lebneni }
+2105287 = { name="Tahmoush" culture=lebneni }
+2105288 = { name="Bassim" culture=lebneni }
+2105289 = { name="Dablah" culture=lebneni }
+2105290 = { name="Shubayh" culture=lebneni }
+2105291 = { name="Al Qourm" culture=lebneni }
+2105292 = { name="Nasrani" culture=lebneni }
 
 2106000 = { name="al-Jalili" culture=furataini 
 	coat_of_arms = { 
@@ -26186,6 +26997,7 @@ coat_of_arms = {
 2109170 = { name="Shawin" culture=hijazi }
 2109171 = { name="Al-Shihri" culture=hijazi }
 2109171 = { name="Zubrumawi" culture=hijazi }
+2109172 = { name="Al-Mutairi" culture=hijazi }
 
 
 2110000 = { name="Al-Makki" culture=umani }
@@ -26271,8 +27083,105 @@ coat_of_arms = {
 2111010 = { name="Ali" culture=yemeni }
 2111011 = { name="Ali" culture=yemeni }
 2111012 = { name="Ali" culture=yemeni }
-
-
+2111013 = { name="Muhammad" culture=yemeni }
+2111014 = { name="Shukri" culture=yemeni }
+2111015 = { name="Hassan" culture=yemeni }
+2111016 = { name="Al-Maqtri" culture=yemeni }
+2111017 = { name="Mansur" culture=yemeni }
+2111018 = { name="Faisal" culture=yemeni }
+2111019 = { name="Al-Mezjaji" culture=yemeni }
+2111020 = { name="Al-Weshah" culture=yemeni }
+2111021 = { name="Zaidan" culture=yemeni }
+2111022 = { name="Ba-Abud" culture=yemeni }
+2111023 = { name="Al-Dali" culture=yemeni }
+2111024 = { name="Al-Dughish" culture=yemeni }
+2111025 = { name="Thabit" culture=yemeni }
+2111026 = { name="Al-Hamdani" culture=yemeni }
+2111027 = { name="Al-Dhahiri" culture=yemeni }
+2111028 = { name="Al-Matari" culture=yemeni }
+2111029 = { name="Al-Kubati" culture=yemeni }
+2111030 = { name="Al-Sayadi" culture=yemeni }
+2111031 = { name="Al-Manifi" culture=yemeni }
+2111032 = { name="Al-Areqi" culture=yemeni }
+2111033 = { name="Al-Bukhaiti" culture=yemeni }
+2111034 = { name="Al-Hubaishi" culture=yemeni }
+2111035 = { name="Al-Sabahi" culture=yemeni }
+2111036 = { name="Al-Dhaibani" culture=yemeni }
+2111037 = { name="Al-Gabr" culture=yemeni }
+2111038 = { name="Farea" culture=yemeni }
+2111039 = { name="Abduljabbar" culture=yemeni }
+2111040 = { name="Al-Haggam" culture=yemeni }
+2111041 = { name="Al-Hetar" culture=yemeni }
+2111042 = { name="Amin" culture=yemeni }
+2111043 = { name="Al-Jabryi" culture=yemeni }
+2111044 = { name="Al-Rassas" culture=yemeni }
+2111045 = { name="Elayah" culture=yemeni }
+2111046 = { name="Al-Baadani" culture=yemeni }
+2111047 = { name="Al-Ghurbani" culture=yemeni }
+2111048 = { name="Al-Safi" culture=yemeni }
+2111049 = { name="Basuhai" culture=yemeni }
+2111050 = { name="Al-Wadi" culture=yemeni }
+2111051 = { name="Banaja" culture=yemeni }
+2111052 = { name="Nfaiei" culture=yemeni }
+2111053 = { name="Al-Sasi" culture=yemeni }
+2111054 = { name="Al-Nono" culture=yemeni }
+2111055 = { name="Al-Dhrab" culture=yemeni }
+2111056 = { name="Al-Hadi" culture=yemeni }
+2111057 = { name="Al-Nash" culture=yemeni }
+2111058 = { name="Al-Sanini" culture=yemeni }
+2111059 = { name="Salih" culture=yemeni }
+2111060 = { name="Ayash" culture=yemeni }
+2111061 = { name="Al-Harsh" culture=yemeni }
+2111062 = { name="Khairalah" culture=yemeni }
+2111063 = { name="Mutran" culture=yemeni }
+2111064 = { name="Al-Jarshi" culture=yemeni }
+2111065 = { name="Wahid" culture=yemeni }
+2111066 = { name="Jamal" culture=yemeni }
+2111067 = { name="Al-Wajiha" culture=yemeni }
+2111068 = { name="Ahmad" culture=yemeni }
+2111069 = { name="Al-Dahi" culture=yemeni }
+2111070 = { name="Maher" culture=yemeni }
+2111071 = { name="Al-Radaei" culture=yemeni }
+2111072 = { name="Mahdi" culture=yemeni }
+2111073 = { name="Boqshan" culture=yemeni }
+2111074 = { name="Al-Gahwashi" culture=yemeni }
+2111075 = { name="Al-Sarori" culture=yemeni }
+2111076 = { name="Qarawi" culture=yemeni }
+2111077 = { name="Hafiz" culture=yemeni }
+2111078 = { name="Al-Sawadi" culture=yemeni }
+2111079 = { name="Nasser" culture=yemeni }
+2111080 = { name="Abdurboh" culture=yemeni }
+2111081 = { name="Al-Sadiq" culture=yemeni }
+2111082 = { name="Hezam" culture=yemeni }
+2111083 = { name="Farid" culture=yemeni }
+2111084 = { name="Al-Juma'i" culture=yemeni }
+2111085 = { name="Msaad" culture=yemeni }
+2111086 = { name="Ba Haj" culture=yemeni }
+2111087 = { name="Baroies" culture=yemeni }
+2111088 = { name="Al-Abidi" culture=yemeni }
+2111089 = { name="Ghazi" culture=yemeni }
+2111090 = { name="Hazza'a" culture=yemeni }
+2111091 = { name="Al-Khyat" culture=yemeni }
+2111092 = { name="Hanash" culture=yemeni }
+2111093 = { name="Baleid" culture=yemeni }
+2111094 = { name="Al-Worafi" culture=yemeni }
+2111095 = { name="Al-Hagri" culture=yemeni }
+2111096 = { name="Al-Selwi" culture=yemeni }
+2111097 = { name="Ba Suhai" culture=yemeni }
+2111098 = { name="Al-Ariki" culture=yemeni }
+2111099 = { name="Al-Omqi" culture=yemeni }
+2111100 = { name="Al-Salimi" culture=yemeni }
+2111101 = { name="Dahyah" culture=yemeni }
+2111102 = { name="Al-Hakimi" culture=yemeni }
+2111103 = { name="Gehamah" culture=yemeni }
+2111104 = { name="Ghurabah" culture=yemeni }
+2111105 = { name="Hamsan" culture=yemeni }
+2111106 = { name="Al-Ghamri" culture=yemeni }
+2111107 = { name="Al-Shaibani" culture=yemeni }
+2111108 = { name="Sasaah" culture=yemeni }
+2111109 = { name="Al-Shamsi" culture=yemeni }
+2111110 = { name="Al-Sharif" culture=yemeni }
+2111111 = { name="Abdulkarim" culture=yemeni }
 
 2112000 = { name="Abbos" culture=uzbek }
 2112001 = { name="Abzalov" culture=uzbek }
@@ -27598,6 +28507,9 @@ coat_of_arms = {
 	}
 }
 2124003 = { name="Klauzunik" culture=odrzan }
+2124004 = { name="Szpan" culture=odrzan }
+2124005 = { name="Chabior" culture=odrzan }
+2124006 = { name="Herbut" culture=odrzan }
 
 2125000 = { name="Archacki" culture=mazovian}
 2125001 = { name="Ngujen" culture=mazovian}
@@ -27610,8 +28522,8 @@ coat_of_arms = {
 2125008 = { name="Bobinski" culture=mazovian}
 2125009 = { name="Bienko" culture=mazovian}
 2125010 = { name="Bandurski" culture=mazovian}
-2125011 = { name="Banasiewicz" culture=mazovian}
-2125012 = { name="Banaszek" culture=mazovian}
+2125011 = { name="Banasiewic" culture=mazovian}
+2125012 = { name="Banasek" culture=mazovian}
 2125013 = { name="Bulik" culture=mazovian}
 2125014 = { name="Biedrzycki" culture=mazovian}
 2125015 = { name="Barcikowski" culture=mazovian}
@@ -27639,12 +28551,12 @@ coat_of_arms = {
 2125037 = { name="Bagdasarian" culture=mazovian}
 2125038 = { name="Dmoch" culture=mazovian}
 2125039 = { name="Damiecki" culture=mazovian}
-2125040 = { name="Daniszewski" culture=mazovian}
+2125040 = { name="Danisewski" culture=mazovian}
 2125041 = { name="Dobkowski" culture=mazovian}
 2125042 = { name="Danowski" culture=mazovian}
-2125043 = { name="Fraczak" culture=mazovian}
-2125044 = { name="Felczak" culture=mazovian}
-2125045 = { name="Fronczak" culture=mazovian}
+2125043 = { name="Fracak" culture=mazovian}
+2125044 = { name="Felcak" culture=mazovian}
+2125045 = { name="Froncak" culture=mazovian}
 2125046 = { name="Filipkowski" culture=mazovian}
 2125047 = { name="Gluchowski" culture=mazovian}
 2125048 = { name="Glinka" culture=mazovian}
@@ -27654,37 +28566,37 @@ coat_of_arms = {
 2125052 = { name="Glowala" culture=mazovian}
 2125053 = { name="Gadomski" culture=mazovian}
 2125054 = { name="Grzegrzólka" culture=mazovian}
-2125055 = { name="Grzejszczak" culture=mazovian}
+2125055 = { name="Grzejscak" culture=mazovian}
 2125056 = { name="Gradzki" culture=mazovian}
 2125057 = { name="Gawrych" culture=mazovian}
 2125058 = { name="Godlewski" culture=mazovian}
 2125059 = { name="Grodzicki" culture=mazovian}
 2125060 = { name="Galecki" culture=mazovian}
-2125061 = { name="Gajowniczek" culture=mazovian}
+2125061 = { name="Gajownicek" culture=mazovian}
 2125062 = { name="Izdebski" culture=mazovian}
 2125063 = { name="Jablonowski" culture=mazovian}
 2125064 = { name="Jaron" culture=mazovian}
 2125065 = { name="Jazwinski" culture=mazovian}
 2125066 = { name="Józwicki" culture=mazovian}
-2125067 = { name="Jadczak" culture=mazovian}
+2125067 = { name="Jadcak" culture=mazovian}
 2125068 = { name="Kunikowski" culture=mazovian}
-2125069 = { name="Kaczorek" culture=mazovian}
+2125069 = { name="Kacorek" culture=mazovian}
 2125070 = { name="Kwasiborski" culture=mazovian}
 2125071 = { name="Kozikowski" culture=mazovian}
-2125072 = { name="Kleczkowski" culture=mazovian}
+2125072 = { name="Kleckowski" culture=mazovian}
 2125073 = { name="Kachniarz" culture=mazovian}
-2125074 = { name="Kokosza" culture=mazovian}
+2125074 = { name="Kokosa" culture=mazovian}
 2125075 = { name="Karalus" culture=mazovian}
-2125076 = { name="Kepczynski" culture=mazovian}
+2125076 = { name="Kepcynski" culture=mazovian}
 2125077 = { name="Kosiorek" culture=mazovian}
 2125078 = { name="Korytkowski" culture=mazovian}
-2125079 = { name="Karasiewicz" culture=mazovian}
+2125079 = { name="Karasiewic" culture=mazovian}
 2125080 = { name="Kierzkowski" culture=mazovian}
 2125081 = { name="Krzyzewski" culture=mazovian}
 2125082 = { name="Krysinski" culture=mazovian}
 2125083 = { name="Krasniewski" culture=mazovian}
 2125084 = { name="Kalinski" culture=mazovian}
-2125085 = { name="Kazimierczuk" culture=mazovian}
+2125085 = { name="Kazimiercuk" culture=mazovian}
 2125086 = { name="Kopcinski" culture=mazovian}
 2125087 = { name="Kacprzyk" culture=mazovian}
 2125088 = { name="Klopotowski" culture=mazovian}
@@ -27692,31 +28604,31 @@ coat_of_arms = {
 2125090 = { name="Kornacki" culture=mazovian}
 2125091 = { name="Konarzewski" culture=mazovian}
 2125092 = { name="Klukowski" culture=mazovian}
-2125093 = { name="Leszek" culture=mazovian}
+2125093 = { name="Lesek" culture=mazovian}
 2125094 = { name="Lubanski" culture=mazovian}
-2125095 = { name="Lenarczyk" culture=mazovian}
+2125095 = { name="Lenarcyk" culture=mazovian}
 2125096 = { name="Lukasiak" culture=mazovian}
 2125097 = { name="Loniewski" culture=mazovian}
-2125098 = { name="Lyczkowski" culture=mazovian}
+2125098 = { name="Lyckowski" culture=mazovian}
 2125099 = { name="Lepkowski" culture=mazovian}
 2125100 = { name="Moscicki" culture=mazovian}
-2125101 = { name="Miecznikowski" culture=mazovian}
+2125101 = { name="Miecnikowski" culture=mazovian}
 2125102 = { name="Muras" culture=mazovian}
 2125103 = { name="Mianowski" culture=mazovian}
-2125104 = { name="Maleszewski" culture=mazovian}
+2125104 = { name="Malesewski" culture=mazovian}
 2125105 = { name="Mocarski" culture=mazovian}
 2125106 = { name="Mierzejewski" culture=mazovian}
 2125107 = { name="Marchel" culture=mazovian}
 2125108 = { name="Murach" culture=mazovian}
 2125109 = { name="Mielnicki" culture=mazovian}
 2125110 = { name="Miziolek" culture=mazovian}
-2125111 = { name="Mioduszewski" culture=mazovian}
+2125111 = { name="Miodusewski" culture=mazovian}
 2125112 = { name="Nurzynski" culture=mazovian}
 2125113 = { name="Napiórkowski" culture=mazovian}
 2125114 = { name="Nasilowski" culture=mazovian}
 2125115 = { name="Niedziólka" culture=mazovian}
 2125116 = { name="Oldak" culture=mazovian}
-2125117 = { name="Owczarczyk" culture=mazovian}
+2125117 = { name="Owcarcyk" culture=mazovian}
 2125118 = { name="Osiak" culture=mazovian}
 2125119 = { name="Oldakowski" culture=mazovian}
 2125120 = { name="Obrebski" culture=mazovian}
@@ -27724,7 +28636,7 @@ coat_of_arms = {
 2125122 = { name="Pachulski" culture=mazovian}
 2125123 = { name="Podlaski" culture=mazovian}
 2125124 = { name="Purzycki" culture=mazovian}
-2125125 = { name="Piszcz" culture=mazovian}
+2125125 = { name="Pisc" culture=mazovian}
 2125126 = { name="Paz" culture=mazovian}
 2125127 = { name="Pedzich" culture=mazovian}
 2125128 = { name="Prusinowski" culture=mazovian}
@@ -27735,7 +28647,7 @@ coat_of_arms = {
 2125133 = { name="Pieniak" culture=mazovian}
 2125134 = { name="Piórkowski" culture=mazovian}
 2125135 = { name="Podbielski" culture=mazovian}
-2125136 = { name="Pruszkowski" culture=mazovian}
+2125136 = { name="Pruskowski" culture=mazovian}
 2125137 = { name="Pilka" culture=mazovian}
 2125138 = { name="Pielak" culture=mazovian}
 2125139 = { name="Perzanowski" culture=mazovian}
@@ -27748,46 +28660,46 @@ coat_of_arms = {
 2125146 = { name="Radzikowski" culture=mazovian}
 2125147 = { name="Radzki" culture=mazovian}
 2125148 = { name="Rutecki" culture=mazovian}
-2125149 = { name="Ryszkowski" culture=mazovian}
+2125149 = { name="Ryskowski" culture=mazovian}
 2125150 = { name="Rydel" culture=mazovian}
 2125151 = { name="Rostek" culture=mazovian}
 2125152 = { name="Rejniak" culture=mazovian}
-2125153 = { name="Roszczyk" culture=mazovian}
+2125153 = { name="Roscyk" culture=mazovian}
 2125154 = { name="Rokicki" culture=mazovian}
-2125155 = { name="Szlaga" culture=mazovian}
+2125155 = { name="Slaga" culture=mazovian}
 2125156 = { name="Sujka" culture=mazovian}
-2125157 = { name="Seroczynski" culture=mazovian}
+2125157 = { name="Serocynski" culture=mazovian}
 2125158 = { name="Sobiesiak" culture=mazovian}
-2125159 = { name="Szelagowski" culture=mazovian}
+2125159 = { name="Selagowski" culture=mazovian}
 2125160 = { name="Skierski" culture=mazovian}
 2125161 = { name="Skrodzki" culture=mazovian}
-2125162 = { name="Szczygielski" culture=mazovian}
+2125162 = { name="Scygielski" culture=mazovian}
 2125163 = { name="Sierzputowski" culture=mazovian}
-2125164 = { name="Szymborski" culture=mazovian}
+2125164 = { name="Symborski" culture=mazovian}
 2125165 = { name="Smolenski" culture=mazovian}
-2125166 = { name="Slomczynski" culture=mazovian}
-2125167 = { name="Szydlik" culture=mazovian}
+2125166 = { name="Slomcynski" culture=mazovian}
+2125167 = { name="Sydlik" culture=mazovian}
 2125168 = { name="Skibniewski" culture=mazovian}
 2125169 = { name="Seliga" culture=mazovian}
-2125170 = { name="Skoczen" culture=mazovian}
+2125170 = { name="Skocen" culture=mazovian}
 2125171 = { name="Stokowski" culture=mazovian}
 2125172 = { name="Samul" culture=mazovian}
 2125173 = { name="Skarzynski" culture=mazovian}
 2125174 = { name="Supinski" culture=mazovian}
 2125175 = { name="Siennicki" culture=mazovian}
 2125176 = { name="Samoraj" culture=mazovian}
-2125177 = { name="Szczypek" culture=mazovian}
+2125177 = { name="Scypek" culture=mazovian}
 2125178 = { name="Samoraj" culture=mazovian}
 2125179 = { name="Sledziewski" culture=mazovian}
 2125180 = { name="Swiecicki" culture=mazovian}
 2125181 = { name="Trzaski" culture=mazovian}
-2125182 = { name="Truszkowski" culture=mazovian}
-2125183 = { name="Traczyk" culture=mazovian}
+2125182 = { name="Truskowski" culture=mazovian}
+2125183 = { name="Tracyk" culture=mazovian}
 2125184 = { name="Tanski" culture=mazovian}
-2125185 = { name="Uszynski" culture=mazovian}
+2125185 = { name="Usynski" culture=mazovian}
 2125186 = { name="Wadolowski" culture=mazovian}
 2125187 = { name="Wiwlogórski" culture=mazovian}
-2125188 = { name="Wyszynski" culture=mazovian}
+2125188 = { name="Wysynski" culture=mazovian}
 2125189 = { name="Wilga" culture=mazovian}
 2125190 = { name="Wysokinski" culture=mazovian}
 2125191 = { name="Wasowski" culture=mazovian}
@@ -27814,9 +28726,9 @@ coat_of_arms = {
 2125213 = { name="Dabrowski" culture=mazovian }
 2125214 = { name="Wisniewski" culture=mazovian }
 2125215 = { name="Kaminski" culture=mazovian }
-2125216 = { name="Szymanski" culture=mazovian }
+2125216 = { name="symanski" culture=mazovian }
 2125217 = { name="Lewandowski" culture=mazovian } 
-2125218 = { name="Kowalczyk" culture=mazovian }
+2125218 = { name="Kowalcyk" culture=mazovian }
 2125219 = { name="Zielinski" culture=mazovian }
 2125220 = { name="Nowak" culture=mazovian }
 2125221 = { name="Kozlowski" culture=mazovian }
@@ -27827,7 +28739,7 @@ coat_of_arms = {
 2125226 = { name="Piotrowski" culture=mazovian }
 2125227 = { name="Grabowski" culture=mazovian }
 2125228 = { name="Wójcik" culture=mazovian }
-2125229 = { name="Olszewski" culture=mazovian }
+2125229 = { name="Olsewski" culture=mazovian }
 2125230 = { name="Nowakowski" culture=mazovian }
 2125231 = { name="Wojciechowski" culture=mazovian }
 2125232 = { name="Majewski" culture=mazovian }
@@ -27864,17 +28776,17 @@ coat_of_arms = {
 2126010 = { name="Samek" culture=goral}
 2126011 = { name="Fronek" culture=goral}
 2126012 = { name="Józkowy" culture=goral}
-2126013 = { name="Luszczek" culture=goral}
+2126013 = { name="Luscek" culture=goral}
 2126014 = { name="Gron" culture=goral}
-2126015 = { name="Gasienica-Sieczka" culture=goral}
-2126016 = { name="Staszeczek" culture=goral}
-2126017 = { name="Jedrzejczyk" culture=goral}
+2126015 = { name="Gasienica-Siecka" culture=goral}
+2126016 = { name="Stasecek" culture=goral}
+2126017 = { name="Jedrzejcyk" culture=goral}
 2126018 = { name="Giewont" culture=goral}
 2126019 = { name="Kasprus" culture=goral}
-2126020 = { name="Sobczak" culture=goral}
+2126020 = { name="Sobcak" culture=goral}
 2126021 = { name="Gasienica-Byrcyn" culture=goral}
 2126022 = { name="Peks" culture=goral}
-2126023 = { name="Walczak" culture=goral}
+2126023 = { name="Walcak" culture=goral}
 2126024 = { name="Kozlowski" culture=goral}
 2126025 = { name="Krzeptowski" culture=goral}
 2126026 = { name="Chalubinski" culture=goral}
@@ -27886,8 +28798,8 @@ coat_of_arms = {
 2126032 = { name="Trebunia-Trutka" culture=goral}
 2126033 = { name="Gasienica-Roj" culture=goral}
 2126034 = { name="Roj-Kozlowski" culture=goral}
-2126035 = { name="Stolarczyk" culture=goral}
-2126036 = { name="Lukaszczyk" culture=goral}
+2126035 = { name="Stolarcyk" culture=goral}
+2126036 = { name="Lukascyk" culture=goral}
 2126037 = { name="Józkowy" culture=goral}
 2126038 = { name="Jasinek" culture=goral}
 2126039 = { name="Kubów" culture=goral}
@@ -27927,25 +28839,25 @@ coat_of_arms = {
 2126073 = { name="Para" culture=goral}
 2126074 = { name="Kuchtow" culture=goral}
 2126075 = { name="Chowaniec" culture=goral}
-2126076 = { name="Sztokfisz" culture=goral}
+2126076 = { name="Stokfis" culture=goral}
 2126077 = { name="Madej" culture=goral}
-2126078 = { name="Szyszka" culture=goral}
-2126079 = { name="Wojtyczka" culture=goral}
+2126078 = { name="Syska" culture=goral}
+2126079 = { name="Wojtycka" culture=goral}
 2126080 = { name="Pawlikowski" culture=goral}
 2126081 = { name="Pitorak" culture=goral}
-2126082 = { name="Koszarek" culture=goral}
+2126082 = { name="Kosarek" culture=goral}
 2126083 = { name="Banach" culture=goral}
-2126084 = { name="Greczek" culture=goral}
+2126084 = { name="Grecek" culture=goral}
 2126085 = { name="Smaciarz" culture=goral}
-2126086 = { name="Pawluskiewicz" culture=goral}
+2126086 = { name="Pawluskiewic" culture=goral}
 2126087 = { name="Kanty" culture=goral}
-2126088 = { name="Kukuczka" culture=goral}
+2126088 = { name="Kukucka" culture=goral}
 2126089 = { name="Blazusiak" culture=goral}
 2126090 = { name="Chowaniec" culture=goral}
-2126091 = { name="Filipczyk " culture=goral}
+2126091 = { name="Filipcyk " culture=goral}
 2126092 = { name="Sikora" culture=goral}
-2126093 = { name="Cwizewicz" culture=goral}
-2126094 = { name="Karlowicz" culture=goral}
+2126093 = { name="Cwizewic" culture=goral}
+2126094 = { name="Karlowic" culture=goral}
 2126095 = { name="Gwizdz" culture=goral}
 2126096 = { name="Brzegi" culture=goral}
 2126097 = { name="Dominik" culture=goral}
@@ -27958,41 +28870,41 @@ coat_of_arms = {
 2126104 = { name="Kasprzycki" culture=goral}
 2126105 = { name="Bobkowski" culture=goral}
 2126106 = { name="Belina-Prazmowski" culture=goral}
-2126107 = { name="Zaczek" culture=goral}
+2126107 = { name="Zacek" culture=goral}
 2126108 = { name="Znamirowski" culture=goral}
 2126109 = { name="Cšadek" culture=goral}
 2126110 = { name="Bucior" culture=goral}
 2126111 = { name="Trznadel" culture=goral}
 2126112 = { name="Rajchel" culture=goral}
-2126113 = { name="Sluszkiewicz" culture=goral}
+2126113 = { name="Sluskiewic" culture=goral}
 2126114 = { name="Wajda" culture=goral}
-2126115 = { name="Dorosz" culture=goral}
-2126116 = { name="Skwarczynski" culture=goral}
-2126117 = { name="Matuszek" culture=goral}
+2126115 = { name="Doros" culture=goral}
+2126116 = { name="Skwarcynski" culture=goral}
+2126117 = { name="Matusek" culture=goral}
 2126118 = { name="Jasinski" culture=goral}
-2126119 = { name="Moszoro" culture=goral}
+2126119 = { name="Mosoro" culture=goral}
 2126120 = { name="Antonik" culture=goral}
 2126121 = { name="Antol" culture=goral}
 2126122 = { name="Kostka-Napierski" culture=goral}
 2126123 = { name="Zachar" culture=goral}
 2126124 = { name="Krzeptowski-Jasinek" culture=goral}
-2126125 = { name="Gasienica-Sobczak" culture=goral}
+2126125 = { name="Gasienica-Sobcak" culture=goral}
 2126126 = { name="Marusarz-Jarzabek" culture=goral}
 2126127 = { name="Nedza-Kubiniec" culture=goral}
-2126128 = { name="Staszel-Polankow" culture=goral}
-2126129 = { name="Styrczula-Masniak" culture=goral}
+2126128 = { name="Stasel-Polankow" culture=goral}
+2126129 = { name="Styrcula-Masniak" culture=goral}
 2126130 = { name="Przerwa-Tetmajer" culture=goral}
 2126131 = { name="Borek-Prek" culture=goral}
-2126132 = { name="Lubicz-Niezabitowski" culture=goral}
-2126133 = { name="Antalkiewicz" culture=goral}
+2126132 = { name="Lubic-Niezabitowski" culture=goral}
+2126133 = { name="Antalkiewic" culture=goral}
 2126134 = { name="Beltowska-Król" culture=goral}
 2126135 = { name="Gut-Stapinski" culture=goral}
-2126136 = { name="Augustynowicz" culture=goral}
+2126136 = { name="Augustynowic" culture=goral}
 2126137 = { name="Sulkowski-Pawlik" culture=goral}
 2126138 = { name="Kováts" culture=goral}
 2126139 = { name="Helm-Pirgo" culture=goral}
 2126140 = { name="Gut-Misiaga" culture=goral}
-2126141 = { name="Gasienica-Luszczek" culture=goral}
+2126141 = { name="Gasienica-Luscek" culture=goral}
 2126142 = { name="Gasienica-Gron" culture=goral}
 2126143 = { name="Gasienica-Krzys" culture=goral}
 2126144 = { name="Trzebunia" culture=goral}
@@ -28372,6 +29284,9 @@ coat_of_arms = {
 2129218 = { name="Ziwczok" culture=silesian }
 2129219 = { name="Zyblikiewicz" culture=silesian }
 2129220 = { name="Luc" culture=silesian }
+2129221 = { name="Szeja-Bibersztajn" culture=silesian }
+2129222 = { name="Blacha" culture=silesian }
+2129223 = { name="Sordyl" culture=silesian }
 
 2130000 = { name="Belecki" culture=wielkopolan }
 2130001 = { name="Bielinski" culture=wielkopolan }
@@ -28598,161 +29513,328 @@ coat_of_arms = {
 2131001 = { name="Ngujen" culture=malopolan }
 2131002 = { name="Grzecznarowski-Ngujen" culture=malopolan }
 2131003 = { name="Kozidrak" culture=malopolan }
+2131004 = { name="Kipiel" culture=malopolan }
 
 2132000 = { name="Hasan" culture=zaza }
-2132001 = { name="Bedlîsî" culture=zaza }
-2132002 = { name="Yamûlkî" culture=zaza }
-2132003 = { name="Derdiyok" culture=zaza }
-2132004 = { name="Güney" culture=zaza }
+2132001 = { name="Aslan" culture=zaza }
+2132002 = { name="Akbal" culture=zaza }
+2132003 = { name="Barut" culture=zaza }
+2132004 = { name="Çiçek" culture=zaza }
 2132005 = { name="Sariyildiz" culture=zaza }
 2132006 = { name="Özgökçe" culture=zaza }
 2132007 = { name="Kurtulan" culture=zaza }
 2132008 = { name="Özsoy" culture=zaza }
-2132009 = { name="Dagtekin" culture=zaza }
-2132010 = { name="Karayilan" culture=zaza }
-2132011 = { name="Velioglu" culture=zaza }
-2132012 = { name="Yûsiv" culture=zaza }
-2132013 = { name="Bekirê" culture=zaza }
-2132014 = { name="Soreklî" culture=zaza }
+2132009 = { name="Daghtekin" culture=zaza }
+2132010 = { name="Qarayilan" culture=zaza }
+2132011 = { name="Altinçagh" culture=zaza }
+2132012 = { name="Altinmeshe" culture=zaza }
+2132013 = { name="Daimi" culture=zaza }
+2132014 = { name="Çapan" culture=zaza }
 2132015 = { name="Aykoç" culture=zaza }
-2132016 = { name="Dagdelen" culture=zaza }
-2132017 = { name="Berzencî" culture=zaza }
-2132018 = { name="Dost" culture=zaza }
-2132019 = { name="Ehmed" culture=zaza }
+2132016 = { name="Daghdelen" culture=zaza }
+2132017 = { name="Çelik" culture=zaza }
+2132018 = { name="Sulari" culture=zaza }
+2132019 = { name="Xidir" culture=zaza }
 2132020 = { name="Yehya" culture=zaza }
-2132021 = { name="Mirkan" culture=zaza }
+2132021 = { name="Qeremani" culture=zaza }
 2132022 = { name="Hajo" culture=zaza }
-2132023 = { name="Mihemed" culture=zaza }
-2132024 = { name="Sa'id" culture=zaza }
+2132023 = { name="Hayir" culture=zaza }
+2132024 = { name="Sevinç" culture=zaza }
 2132025 = { name="Taha" culture=zaza }
-2132026 = { name="Al-Hubbi" culture=zaza	religion = yazidi }
-2132027 = { name="Barzanî" culture=zaza	}
-2132028 = { name="Talabanî" culture=zaza	}
-2132029 = { name="Elî" culture=zaza	}
-2132030 = { name="Laçîn" culture=zaza }
-2132031 = { name="Kahraman" culture=zaza }
-2132032 = { name="Bonni" culture=zaza }
-2132033 = { name="Eladîn" culture=zaza }
-2132034 = { name="Salim" culture=zaza }
-2132035 = { name="Akrawi" culture=zaza }
-2132036 = { name="Shoresh" culture=zaza }
+2132026 = { name="Kirmizigül" culture=zaza }
+2132027 = { name="Serdar" culture=zaza	}
+2132028 = { name="Polat" culture=zaza	}
+2132029 = { name="Ali" culture=zaza	}
+2132030 = { name="Ezîz" culture=zaza }
+2132031 = { name="Altun" culture=zaza }
+2132032 = { name="Doganay" culture=zaza }
+2132033 = { name="Koçak" culture=zaza }
+2132034 = { name="Yighit" culture=zaza }
+2132035 = { name="Yildizxan" culture=zaza }
+2132036 = { name="Tekin" culture=zaza }
 2132037 = { name="Caf" culture=zaza }
-2132038 = { name="Barwari" culture=zaza }
-2132039 = { name="Salih" culture=zaza }
-2132040 = { name="Zêbarî" culture=zaza }
-2132041 = { name="Debax" culture=zaza }
+2132038 = { name="Mexshî" culture=zaza }
+2132039 = { name="Aba" culture=zaza }
+2132040 = { name="Aghacik" culture=zaza }
+2132041 = { name="Kayaoghlu" culture=zaza }
 2132042 = { name="Shishakli" culture=zaza }
-2132043 = { name="Shakelî" culture=zaza }
-2132044 = { name="Kerîm" culture=zaza }
-2132045 = { name="Hecî" culture=zaza }
-2132046 = { name="Bedirxan" culture=zaza }
-2132047 = { name="Islambuli" culture=zaza }
-2132048 = { name="Xelef" culture=zaza }
-2132049 = { name="Nûrsî" culture=zaza }
+2132043 = { name="Canerik" culture=zaza }
+2132044 = { name="Çiftçi" culture=zaza }
+2132045 = { name="Kaya" culture=zaza }
+2132046 = { name="Visser" culture=zaza }
+2132047 = { name="Yalçin" culture=zaza }
+2132048 = { name="Shahin" culture=zaza }
+2132049 = { name="Sorgu" culture=zaza }
 2132050 = { name="Kurdî" culture=zaza }
-2132051 = { name="Secadî" culture=zaza }
-2132052 = { name="Cemshîdî" culture=zaza }
-2132053 = { name="Erdelanî" culture=zaza }
-2132054 = { name="Kurdistanî" culture=zaza }
-2132055 = { name="Sineyî" culture=zaza }
-2132056 = { name="Tawegozî" culture=zaza }
-2132057 = { name="Qulîzanî" culture=zaza }
-2132058 = { name="Sherefkendî" culture=zaza }
-2132059 = { name="Qasimlo" culture=zaza }
-2132060 = { name="Guven" culture=zaza }
-2132061 = { name="Mîrzengî" culture=zaza }
-2132062 = { name="Merîwanî" culture=zaza }
-2132063 = { name="Aslan" culture=zaza }
-2132064 = { name="Celîliyan" culture=zaza }
-2132065 = { name="Încekan" culture=zaza }
-2132066 = { name="Duran" culture=zaza }
-2132067 = { name="Zozanî" culture=zaza }
-2132068 = { name="Gernas" culture=zaza }
+2132051 = { name="Ürtsever" culture=zaza }
+2132052 = { name="Bêwayir" culture=zaza }
+2132053 = { name="Çarekiz" culture=zaza }
+2132054 = { name="Çem" culture=zaza }
+2132055 = { name="Zaza" culture=zaza }
+2132056 = { name="Atila" culture=zaza }
+2132057 = { name="Cengiz" culture=zaza }
+2132058 = { name="Çimen" culture=zaza }
+2132059 = { name="Çiya" culture=zaza }
+2132060 = { name="Dalaman" culture=zaza }
+2132061 = { name="Dewran" culture=zaza }
+2132062 = { name="Eren" culture=zaza }
+2132063 = { name="Dilpak" culture=zaza }
+2132064 = { name="Xasi" culture=zaza }
+2132065 = { name="Bra" culture=zaza }
+2132066 = { name="Gündüz" culture=zaza }
+2132067 = { name="Gedik" culture=zaza }
+2132068 = { name="Espar" culture=zaza }
 2132069 = { name="Canpolat" culture=zaza }
-2132070 = { name="Koca" culture=zaza }
+2132132 = { name="Koca" culture=zaza }
 2132071 = { name="Altinçagh" culture=zaza }
 2132072 = { name="Erdoghan" culture=zaza }
 2132073 = { name="Arslan" culture=zaza }
 2132074 = { name="Aygün" culture=zaza }
 2132075 = { name="Yildirim" culture=zaza }
-2132076 = { name="Jêle" culture=zaza }
-2132077 = { name="Berz" culture=zaza }
+2132076 = { name="Afshin" culture=zaza }
+2132077 = { name="Yilmaz" culture=zaza }
 2132078 = { name="Keskin" culture=zaza }
-2132079 = { name="Bêwayir" culture=zaza }
+2132079 = { name="Usên" culture=zaza }
 2132080 = { name="Bingöl" culture=zaza }
 2132081 = { name="Butakin" culture=zaza }
 2132082 = { name="Cansa" culture=zaza }
+2132083 = { name="Tektash" culture=zaza }
+2132084 = { name="Avci" culture=zaza }
+2132085 = { name="Kaloghlu" culture=zaza }
+2132086 = { name="Qaratash" culture=zaza }
+2132087 = { name="Kocakaya" culture=zaza }
+2132088 = { name="Maçoghlu" culture=zaza }
+2132089 = { name="Öden" culture=zaza }
+2132090 = { name="Saltik" culture=zaza }
+2132091 = { name="Shashmaz" culture=zaza }
+2132092 = { name="Süreya" culture=zaza }
+2132093 = { name="Sürmeli" culture=zaza }
+2132094 = { name="Tilbe" culture=zaza }
+2132095 = { name="Reqasa" culture=zaza }
+2132096 = { name="Rafet" culture=zaza }
+2132097 = { name="Iremet" culture=zaza }
+2132098 = { name="Izgören" culture=zaza }
+2132099 = { name="Qaraxan" culture=zaza }
+2132100 = { name="Qarakash" culture=zaza }
+2132101 = { name="Kaygalak" culture=zaza }
+2132102 = { name="Kizilgedik" culture=zaza }
+2132103 = { name="Aydar" culture=zaza }
+2132104 = { name="Karci" culture=zaza }
+2132105 = { name="Zazaoghlu" culture=zaza }
+2132106 = { name="Varol" culture=zaza }
+2132107 = { name="Mutlu" culture=zaza }
+2132108 = { name="Kaynarca" culture=zaza }
+2132109 = { name="Özürt" culture=zaza }
+2132110 = { name="Pak" culture=zaza }
+2132111 = { name="Pamukçu" culture=zaza }
+2132112 = { name="Lezgîn" culture=zaza }
+2132113 = { name="Agha" culture=zaza }
+2132114 = { name="Shamdereli" culture=zaza }
+2132115 = { name="Hayig" culture=zaza }
+2132116 = { name="Özkan" culture=zaza }
+2132117 = { name="Sancar" culture=zaza }
+2132118 = { name="Selcan" culture=zaza }
+2132119 = { name="Qarabulut" culture=zaza }
+2132120 = { name="Sertkaya" culture=zaza }
+2132121 = { name="Kurij" culture=zaza }
+2132122 = { name="Sezal" culture=zaza }
+2132123 = { name="Tash" culture=zaza }
+2132124 = { name="Tornêcengi" culture=zaza }
+2132125 = { name="Tunç" culture=zaza }
+2132126 = { name="Turgut" culture=zaza }
+2132127 = { name="Aliwosta" culture=zaza }
+2132128 = { name="Babic" culture=zaza }
+2132129 = { name="Cemal" culture=zaza }
+2132130 = { name="Çelker" culture=zaza }
+2132131 = { name="Yaghan" culture=zaza }
+2132132 = { name="Aratemür" culture=zaza }
+2132133 = { name="Ada" culture=zaza }
+2132134 = { name="Yetik" culture=zaza }
+2132135 = { name="Hayaloghlu" culture=zaza }
+2132136 = { name="Söylemez" culture=zaza }
+2132137 = { name="Yakupxanoglu" culture=zaza }
+2132138 = { name="Solmaz" culture=zaza }
+2132139 = { name="Çapak" culture=zaza }
+2132140 = { name="Bazencir" culture=zaza }
+2132141 = { name="Ata" culture=zaza }
+2132142 = { name="Bulut" culture=zaza }
+2132143 = { name="Kaytan" culture=zaza }
+2132144 = { name="Cevdet" culture=zaza }
+2132145 = { name="Dikme" culture=zaza }
+2132146 = { name="Topaç" culture=zaza }
+2132147 = { name="Çurukkaya" culture=zaza }
+2132148 = { name="Dogan" culture=zaza }
+2132149 = { name="Dersimi" culture=zaza }
+2132150 = { name="Eren" culture=zaza }
+2132151 = { name="Firat" culture=zaza }
+2132152 = { name="Gökalp" culture=zaza }
+2132153 = { name="Hezanî" culture=zaza }
+2132154 = { name="Kavarî" culture=zaza }
+2132155 = { name="Shüküran" culture=zaza }
+2132156 = { name="Nêshite" culture=zaza }
+2132157 = { name="Licokic" culture=zaza }
+2132158 = { name="Çirr" culture=zaza }
+2132159 = { name="Merdimîn" culture=zaza }
+2132160 = { name="Kulualp" culture=zaza }
+2132161 = { name="Aksu" culture=zaza }
+2132162 = { name="Aral" culture=zaza }
+2132163 = { name="Aras" culture=zaza }
+2132164 = { name="Ayna" culture=zaza }
+2132165 = { name="Baluken" culture=zaza }
+2132166 = { name="Bilgin" culture=zaza }
+2132167 = { name="Binici" culture=zaza }
+2132168 = { name="Bucak" culture=zaza }
+2132169 = { name="Coshkan" culture=zaza }
+2132170 = { name="Dalokay" culture=zaza }
+2132171 = { name="Demirtash" culture=zaza }
+2132172 = { name="Erkanli" culture=zaza }
+2132173 = { name="Ezman" culture=zaza }
+2132174 = { name="Genç" culture=zaza }
+2132175 = { name="Göker" culture=zaza }
+2132176 = { name="Gündoghdu" culture=zaza }
+2132177 = { name="Kanko" culture=zaza }
+2132178 = { name="Kishanak" culture=zaza }
+2132179 = { name="Kishoghlu" culture=zaza }
+2132180 = { name="Köylüoghlu" culture=zaza }
+2132181 = { name="Kulu" culture=zaza }
+2132182 = { name="Birtane" culture=zaza }
+2132183 = { name="Okaygün" culture=zaza }
+2132184 = { name="Okçuoghlu" culture=zaza }
+2132185 = { name="Özata" culture=zaza }
+2132186 = { name="Özdemir" culture=zaza }
+2132187 = { name="Kirmizitoprak" culture=zaza }
+2132188 = { name="Cansiz" culture=zaza }
+2132189 = { name="Tughluk" culture=zaza }
+2132190 = { name="Ülkü" culture=zaza }
+2132191 = { name="Yavuz" culture=zaza }
+2132192 = { name="Veziroghlu" culture=zaza }
+2132193 = { name="Ünlü" culture=zaza }
+2132194 = { name="Ünal" culture=zaza }
+2132195 = { name="Yenipinar" culture=zaza }
 
-2133000 = { name="Hasan" culture=gorani }
-2133001 = { name="Bedlîsî" culture=gorani }
-2133002 = { name="Yamulki" culture=gorani }
-2133003 = { name="Derdiyok" culture=gorani }
-2133004 = { name="Güney" culture=gorani }
-2133005 = { name="Sariyildiz" culture=gorani }
-2133006 = { name="Özgökçe" culture=gorani }
-2133007 = { name="Kurtulan" culture=gorani }
-2133008 = { name="Özsoy" culture=gorani }
-2133009 = { name="Dagtekin" culture=gorani }
-2133010 = { name="Karayilan" culture=gorani }
-2133011 = { name="Velioglu" culture=gorani }
-2133012 = { name="Yûsiv" culture=gorani }
-2133013 = { name="Bekirê" culture=gorani }
-2133014 = { name="Soreklî" culture=gorani }
-2133015 = { name="Aykoç" culture=gorani }
-2133016 = { name="Dagdelen" culture=gorani }
-2133017 = { name="Berzencî" culture=gorani }
-2133018 = { name="Dost" culture=gorani }
-2133019 = { name="Ehmed" culture=gorani }
-2133020 = { name="Yehya" culture=gorani }
-2133021 = { name="Mirkan" culture=gorani }
-2133022 = { name="Hajo" culture=gorani }
-2133023 = { name="Mihemed" culture=gorani }
-2133024 = { name="Sa'id" culture=gorani }
-2133025 = { name="Taha" culture=gorani }
-2133026 = { name="Al-Hubbi" culture=gorani	religion = yazidi }
-2133027 = { name="Barzanî" culture=gorani	}
-2133028 = { name="Talabanî" culture=gorani	}
-2133029 = { name="Elî" culture=gorani	}
-2133030 = { name="Laçîn" culture=gorani }
-2133031 = { name="Kahraman" culture=gorani }
-2133032 = { name="Bonni" culture=gorani }
-2133033 = { name="Eladîn" culture=gorani }
-2133034 = { name="Salim" culture=gorani }
-2133035 = { name="Akrawi" culture=gorani }
-2133036 = { name="Shoresh" culture=gorani }
-2133037 = { name="Caf" culture=gorani }
-2133038 = { name="Barwari" culture=gorani }
-2133039 = { name="Salih" culture=gorani }
-2133040 = { name="Zêbarî" culture=gorani }
-2133041 = { name="Debax" culture=gorani }
-2133042 = { name="Shishakli" culture=gorani }
-2133043 = { name="Shakelî" culture=gorani }
-2133044 = { name="Kerîm" culture=gorani }
-2133045 = { name="Hecî" culture=gorani }
-2133046 = { name="Bedirxan" culture=gorani }
-2133047 = { name="Islambuli" culture=gorani }
-2133048 = { name="Xelef" culture=gorani }
-2133049 = { name="Nûrsî" culture=gorani }
-2133050 = { name="Kurdî" culture=gorani }
-2133051 = { name="Secadî" culture=gorani }
-2133052 = { name="Cemshîdî" culture=gorani }
-2133053 = { name="Erdelanî" culture=gorani }
-2133054 = { name="Kurdistanî" culture=gorani }
-2133055 = { name="Sineyî" culture=gorani }
-2133056 = { name="Tawegozî" culture=gorani }
-2133057 = { name="Qulîzanî" culture=gorani }
-2133058 = { name="Sherefkendî" culture=gorani }
-2133059 = { name="Qasimlo" culture=gorani }
-2133060 = { name="Guven" culture=gorani }
-2133061 = { name="Mîrzengî" culture=gorani }
-2133062 = { name="Merîwanî" culture=gorani }
-2133063 = { name="Aslan" culture=gorani }
-2133064 = { name="Celîliyan" culture=gorani }
-2133065 = { name="Încekan" culture=gorani }
-2133066 = { name="Duran" culture=gorani }
-2133067 = { name="Zozanî" culture=gorani }
-2133068 = { name="Gernas" culture=gorani }
-2133069 = { name="Qubadî" culture=gorani }
+2133000 = { name="Kakebave" culture=gorani }
+2133001 = { name="Elewî" culture=gorani }
+2133002 = { name="Mukriyanî" culture=gorani }
+2133003 = { name="Huseynî" culture=gorani }
+2133004 = { name="Reshîdî" culture=gorani }
+2133005 = { name="Luqmanî" culture=gorani }
+2133006 = { name="Feyznejad" culture=gorani }
+2133007 = { name="Berzencî" culture=gorani }
+2133008 = { name="Îlxanîzade" culture=gorani }
+2133009 = { name="Derakhshanî" culture=gorani }
+2133010 = { name="Ferîqî" culture=gorani }
+2133011 = { name="Hesenî" culture=gorani }
+2133012 = { name="Khosravi" culture=gorani }
+2133013 = { name="Omar" culture=gorani }
+2133014 = { name="Texteyî" culture=gorani }
+2133015 = { name="Hacibî" culture=gorani }
+2133016 = { name="Qubadî" culture=gorani }
+2133017 = { name="Tûloyî" culture=gorani }
+2133018 = { name="Yûnisî" culture=gorani }
+2133019 = { name="Erdelanî" culture=gorani }
+2133020 = { name="Ebdullah" culture=gorani }
+2133021 = { name="Pashaî" culture=gorani }
+2133022 = { name="Rahmanpanah" culture=gorani }
+2133023 = { name="Yusîfianî" culture=gorani }
+2133024 = { name="Adab" culture=gorani }
+2133025 = { name="Azadpûr" culture=gorani }
+2133026 = { name="Xefûrî" culture=gorani }
+2133027 = { name="Pûr" culture=gorani }
+2133028 = { name="Kemendî" culture=gorani }
+2133029 = { name="Kamkar" culture=gorani }
+2133030 = { name="Xaliqî" culture=gorani }
+2133031 = { name="Meleksha" culture=gorani }
+2133032 = { name="Rezazî" culture=gorani }
+2133033 = { name="Rûhanî" culture=gorani }
+2133034 = { name="Bokanî" culture=gorani }
+2133035 = { name="Seîd" culture=gorani }
+2133036 = { name="Mîrza" culture=gorani }
+2133037 = { name="Kurdistanî" culture=gorani }
+2133038 = { name="Kenoleyî" culture=gorani }
+2133039 = { name="Dînewerî" culture=gorani }
+2133040 = { name="Rehmanî" culture=gorani }
+2133041 = { name="Rezaî" culture=gorani }
+2133042 = { name="Zarepûr" culture=gorani }
+2133043 = { name="Muradî" culture=gorani }
+2133044 = { name="Elî" culture=gorani }
+2133045 = { name="Kafashyan" culture=gorani }
+2133046 = { name="Hamedî" culture=gorani }
+2133047 = { name="Behramcî" culture=gorani }
+2133048 = { name="Fetahiyan" culture=gorani }
+2133049 = { name="Hewramî" culture=gorani }
+2133050 = { name="Cemshîdî" culture=gorani }
+2133051 = { name="Kelhûr" culture=gorani }
+2133052 = { name="Kirmashanî" culture=gorani }
+2133053 = { name="Mîrzade" culture=gorani }
+2133054 = { name="Nazerî" culture=gorani }
+2133055 = { name="Ceyhûnabadî" culture=gorani }
+2133056 = { name="Îlahî" culture=gorani }
+2133057 = { name="Pîrebab" culture=gorani }
+2133058 = { name="Beytûshî" culture=gorani }
+2133059 = { name="Suhrewerdî" culture=gorani }
+2133060 = { name="Qazî" culture=gorani }
+2133061 = { name="Hemedanî" culture=gorani }
+2133062 = { name="Miftîzade" culture=gorani }
+2133063 = { name="Sherefkendî" culture=gorani }
+2133064 = { name="Soleimani" culture=gorani }
+2133065 = { name="Nurî" culture=gorani }
+2133066 = { name="Mamlê" culture=gorani }
+2133067 = { name="Gulshenzade" culture=gorani }
+2133068 = { name="Pertewmah" culture=gorani }
+2133069 = { name="Paweyî" culture=gorani }
+2133070 = { name="Merdûxî" culture=gorani }
+2133071 = { name="Ehmed" culture=gorani }
+2133072 = { name="Askarî" culture=gorani }
+2133073 = { name="Fatah" culture=gorani }
+2133074 = { name="Kerîmî" culture=gorani }
+2133075 = { name="Mistefa" culture=gorani }
+2133076 = { name="Talebanî" culture=gorani }
+2133077 = { name="Dexîl" culture=gorani }
+2133078 = { name="Murad" culture=gorani }
+2133079 = { name="Resho" culture=gorani }
+2133080 = { name="Sofî" culture=gorani }
+2133081 = { name="Erbîlî" culture=gorani }
+2133082 = { name="Herîrî" culture=gorani }
+2133083 = { name="Xoshnaw" culture=gorani }
+2133084 = { name="Peshêw" culture=gorani }
+2133085 = { name="Pîrbal" culture=gorani }
+2133086 = { name="Salih" culture=gorani }
+2133087 = { name="Re'ûf" culture=gorani }
+2133088 = { name="Koyî" culture=gorani }
+2133089 = { name="Elyas" culture=gorani }
+2133090 = { name="Emîn" culture=gorani }
+2133091 = { name="Ismaîl" culture=gorani }
+2133092 = { name="Yusivî" culture=gorani }
+2133093 = { name="Zaxoyî" culture=gorani }
+2133094 = { name="Bapîr" culture=gorani }
+2133095 = { name="Goran" culture=gorani }
+2133096 = { name="Bêkes" culture=gorani }
+2133097 = { name="Fatah" culture=gorani }
+2133098 = { name="Herdî" culture=gorani }
+2133099 = { name="Xan" culture=gorani }
+2133100 = { name="Zekî" culture=gorani }
+2133101 = { name="Nebez" culture=gorani }
+2133102 = { name="Sahêbqiran" culture=gorani }
+2133103 = { name="Shaweys" culture=gorani }
+2133104 = { name="Ebdulazade" culture=gorani }
+2133105 = { name="Hesenpûr" culture=gorani }
+2133106 = { name="Ehmedzade" culture=gorani }
+2133107 = { name="Bîglêrî" culture=gorani }
+2133108 = { name="Erdebîlî" culture=gorani }
+2133109 = { name="Mukrî" culture=gorani }
+2133110 = { name="Muînî" culture=gorani }
+2133111 = { name="Elahî" culture=gorani }
+2133112 = { name="Îlhanîzade" culture=gorani }
+2133113 = { name="Ehmedeyn" culture=gorani }
+2133114 = { name="Xûsrevî" culture=gorani }
+2133115 = { name="Davudî" culture=gorani }
+2133116 = { name="Eyyûbiyan" culture=gorani }
+2133117 = { name="Welîzade" culture=gorani }
+2133118 = { name="Heyderî" culture=gorani }
+2133119 = { name="Letîfî" culture=gorani }
+2133120 = { name="Qadirî" culture=gorani }
+2133121 = { name="Kabulî" culture=gorani }
+2133122 = { name="Siltanî" culture=gorani }
 
 2134000 = { name="Astarabadi" culture=mazandarani }
 2134001 = { name="Hosseini" culture=mazandarani }
@@ -29259,6 +30341,7 @@ coat_of_arms = {
 2137193 = { name="Shamarin" culture=uralic }
 2137194 = { name="Shirokalov" culture=uralic }
 2137195 = { name="Shamseev" culture=uralic }
+2137196 = { name="Torsunov" culture=uralic }
 
 2138000 = { name="Papahagi" culture=aromanian }
 2138001 = { name="Caragiu" culture=aromanian }
@@ -29377,6 +30460,1008 @@ coat_of_arms = {
 2138114 = { name="Trifon" culture=aromanian }
 2138115 = { name="Tamblac" culture=aromanian }
 2138116 = { name="Zappa" culture=aromanian }
+2138117 = { name="Prosi" culture=aromanian }
+2138118 = { name="Prifti" culture=aromanian }
+2138119 = { name="Verria" culture=aromanian }
+2138120 = { name="Zoraqi" culture=aromanian }
+2138121 = { name="Fara" culture=aromanian }
+2138121 = { name="Simaku" culture=aromanian }
+2138122 = { name="Mima" culture=aromanian }
+2138123 = { name="Shaguna" culture=aromanian }
+2138124 = { name="Ballamaçi" culture=aromanian }
+2138125 = { name="Hebën" culture=aromanian }
+2138126 = { name="Tzimas" culture=aromanian }
+
+2139000 = { name="Ahmed" culture=sylheti }
+2139001 = { name="Khan" culture=sylheti }
+2139002 = { name="Muhammad" culture=sylheti }
+2139003 = { name="Shah" culture=sylheti }
+2139004 = { name="Syed" culture=sylheti }
+2139005 = { name="Ali" culture=sylheti }
+2139006 = { name="Alam" culture=sylheti }
+2139007 = { name="Khondakar" culture=sylheti }
+2139008 = { name="Baisya" culture=sylheti }
+2139009 = { name="Shafique" culture=sylheti }
+2139010 = { name="Beg" culture=sylheti }
+2139011 = { name="Bangali" culture=sylheti }
+2139012 = { name="Choudhuri" culture=sylheti }
+2139013 = { name="Das" culture=sylheti }
+2139014 = { name="Majumdar" culture=sylheti }
+2139015 = { name="Datta" culture=sylheti }
+2139016 = { name="Faruqi" culture=sylheti }
+2139017 = { name="Ferdus" culture=sylheti }
+2139018 = { name="Javed" culture=sylheti }
+2139019 = { name="Hamid" culture=sylheti }
+2139020 = { name="Kamran" culture=sylheti }
+2139021 = { name="Hossain" culture=sylheti }
+2139022 = { name="Iqbal" culture=sylheti }
+2139023 = { name="Akhter" culture=sylheti }
+2139024 = { name="Shahid" culture=sylheti }
+2139025 = { name="Haider" culture=sylheti }
+2139026 = { name="Haque" culture=sylheti }
+2139027 = { name="Kapali" culture=sylheti }
+2139028 = { name="Mahtab" culture=sylheti }
+2139029 = { name="Sylheti" culture=sylheti }
+2139030 = { name="Sadequr" culture=sylheti }
+2139031 = { name="Sami" culture=sylheti }
+2139032 = { name="Sani" culture=sylheti }
+2139033 = { name="Sareqaum" culture=sylheti }
+2139034 = { name="Amin" culture=sylheti }
+2139035 = { name="Bakht" culture=sylheti }
+2139036 = { name="Habib" culture=sylheti }
+2139037 = { name="Aziz" culture=sylheti }
+2139038 = { name="Masroor" culture=sylheti }
+2139039 = { name="Pasha" culture=sylheti }
+2139040 = { name="Rafi" culture=sylheti }
+2139041 = { name="Rehan" culture=sylheti }
+2139042 = { name="Gohorpuri" culture=sylheti }
+2139043 = { name="Gani" culture=sylheti }
+2139044 = { name="Nahid" culture=sylheti }
+2139045 = { name="Rahman" culture=sylheti }
+2139046 = { name="Karim" culture=sylheti }
+2139047 = { name="Khashru" culture=sylheti }
+2139048 = { name="Paru" culture=sylheti }
+2139049 = { name="Qureshi" culture=sylheti }
+2139050 = { name="Selim" culture=sylheti }
+2139051 = { name="Bayampuri" culture=sylheti }
+2139052 = { name="Chatuli" culture=sylheti }
+2139053 = { name="Osmani" culture=sylheti }
+2139054 = { name="Hafiz" culture=sylheti }
+2139055 = { name="Mayur" culture=sylheti }
+2139056 = { name="Mahbtab" culture=sylheti }
+2139057 = { name="Miah" culture=sylheti }
+2139058 = { name="Zahur" culture=sylheti }
+2139059 = { name="Sikder" culture=sylheti }
+2139060 = { name="Siddiqi" culture=sylheti }
+2139061 = { name="Helali" culture=sylheti }
+2139062 = { name="Talukdar" culture=sylheti }
+2139063 = { name="Masuk" culture=sylheti }
+2139064 = { name="Zakaria" culture=sylheti }
+2139065 = { name="Babul" culture=sylheti }
+2139066 = { name="Atique" culture=sylheti }
+2139067 = { name="Azad" culture=sylheti }
+2139068 = { name="Mirja" culture=sylheti }
+2139069 = { name="Limon" culture=sylheti }
+2139070 = { name="Kashemi" culture=sylheti }
+2139071 = { name="Moin" culture=sylheti }
+2139072 = { name="Murad" culture=sylheti }
+2139073 = { name="Jalalabadi" culture=sylheti }
+
+2140000 = { name="Abbas" culture=rangpuri }
+2140001 = { name="Shah" culture=rangpuri }
+2140002 = { name="Ali" culture=rangpuri }
+2140003 = { name="Choudhuri" culture=rangpuri }
+2140004 = { name="Akhund" culture=rangpuri }
+2140005 = { name="Danesh" culture=rangpuri }
+2140006 = { name="Das" culture=rangpuri }
+2140007 = { name="Fizu" culture=rangpuri }
+2140008 = { name="Gopal" culture=rangpuri }
+2140009 = { name="Gupta" culture=rangpuri }
+2140010 = { name="Hossain" culture=rangpuri }
+2140011 = { name="Majumdar" culture=rangpuri }
+2140012 = { name="Khan" culture=rangpuri }
+2140013 = { name="Haque" culture=rangpuri }
+2140014 = { name="Rahman" culture=rangpuri }
+2140015 = { name="Al Kafi" culture=rangpuri }
+2140016 = { name="Marandi" culture=rangpuri }
+2140017 = { name="Kisku" culture=rangpuri }
+2140018 = { name="Mia" culture=rangpuri }
+2140019 = { name="Pradhan" culture=rangpuri }
+2140020 = { name="Sarkar" culture=rangpuri }
+2140021 = { name="Shoaib" culture=rangpuri }
+2140022 = { name="Gaji" culture=rangpuri }
+2140023 = { name="Tarique" culture=rangpuri }
+2140024 = { name="Akhtar" culture=rangpuri }
+2140025 = { name="Supta" culture=rangpuri }
+2140026 = { name="Elias" culture=rangpuri }
+2140027 = { name="Ghani" culture=rangpuri }
+2140028 = { name="Liton" culture=rangpuri }
+2140029 = { name="Mandal" culture=rangpuri }
+2140030 = { name="Saja" culture=rangpuri }
+2140031 = { name="Tudu" culture=rangpuri }
+2140032 = { name="Alam" culture=rangpuri }
+2140033 = { name="Amin" culture=rangpuri }
+2140034 = { name="Basunia" culture=rangpuri }
+2140035 = { name="Dulal" culture=rangpuri }
+2140036 = { name="Khondokhar" culture=rangpuri }
+2140037 = { name="Rizvi" culture=rangpuri }
+2140038 = { name="Dulu" culture=rangpuri }
+2140039 = { name="Ibrahim" culture=rangpuri }
+2140040 = { name="Quader" culture=rangpuri }
+2140041 = { name="Jakir" culture=rangpuri }
+2140042 = { name="Kaji" culture=rangpuri }
+2140043 = { name="Kamal" culture=rangpuri }
+2140044 = { name="Abbasi" culture=rangpuri }
+2140045 = { name="Swapan" culture=rangpuri }
+2140046 = { name="Alamgir" culture=rangpuri }
+2140047 = { name="Ahmed" culture=rangpuri }
+2140048 = { name="Arafat" culture=rangpuri }
+2140049 = { name="Babu" culture=rangpuri }
+2140050 = { name="Ghosh" culture=rangpuri }
+2140051 = { name="Islam" culture=rangpuri }
+2140052 = { name="Shuvo" culture=rangpuri }
+2140053 = { name="Javed" culture=rangpuri }
+2140054 = { name="Mustakim" culture=rangpuri }
+2140055 = { name="Bharosha" culture=rangpuri }
+2140056 = { name="Elahi" culture=rangpuri }
+2140057 = { name="Ershad" culture=rangpuri }
+2140058 = { name="Lalu" culture=rangpuri }
+2140059 = { name="Jhantu" culture=rangpuri }
+2140060 = { name="Mondal" culture=rangpuri }
+2140061 = { name="Mostari" culture=rangpuri }
+2140062 = { name="Moushumi" culture=rangpuri }
+2140063 = { name="Shopna" culture=rangpuri }
+2140064 = { name="Ranga" culture=rangpuri }
+2140065 = { name="Shahriar" culture=rangpuri }
+2140066 = { name="Jafar" culture=rangpuri }
+2140067 = { name="Pramanik" culture=rangpuri }
+2140068 = { name="Haider" culture=rangpuri }
+2140069 = { name="Sharif" culture=rangpuri }
+2140070 = { name="Ukil" culture=rangpuri }
+2140071 = { name="Kadir" culture=rangpuri }
+2140072 = { name="Dudu" culture=rangpuri }
+2140073 = { name="Golap" culture=rangpuri }
+2140074 = { name="Bilal" culture=rangpuri }
+2140075 = { name="Azam" culture=rangpuri }
+2140076 = { name="Bablu" culture=rangpuri }
+2140077 = { name="Mithu" culture=rangpuri }
+2140078 = { name="Afzal" culture=rangpuri }
+2140079 = { name="Hakkani" culture=rangpuri }
+2140080 = { name="Wahedi" culture=rangpuri }
+2140081 = { name="Muhammad" culture=rangpuri }
+2140082 = { name="Azad" culture=rangpuri }
+2140083 = { name="Levin" culture=rangpuri }
+2140084 = { name="Sayem" culture=rangpuri }
+2140085 = { name="Wazed" culture=rangpuri }
+2140086 = { name="Rumi" culture=rangpuri }
+2140087 = { name="Imam" culture=rangpuri }
+2140088 = { name="Sheikh" culture=rangpuri }
+
+2141000 = { name="Yhoshü" culture=naga }
+2141001 = { name="Ao" culture=naga }
+2141002 = { name="Changkija" culture=naga }
+2141003 = { name="Longkümer" culture=naga }
+2141004 = { name="Kire" culture=naga }
+2141005 = { name="Changkilari" culture=naga }
+2141006 = { name="Dangmei" culture=naga }
+2141007 = { name="Jonathan" culture=naga }
+2141008 = { name="Khrie-o" culture=naga }
+2141009 = { name="Kithan" culture=naga }
+2141010 = { name="Koso" culture=naga }
+2141011 = { name="Swüro" culture=naga }
+2141012 = { name="Thopi" culture=naga }
+2141013 = { name="Zhimomi" culture=naga }
+2141014 = { name="Hümtsoe" culture=naga }
+2141015 = { name="Chüzho" culture=naga }
+2141016 = { name="Süokhrie" culture=naga }
+2141017 = { name="Kamei" culture=naga }
+2141018 = { name="Kikon" culture=naga }
+2141019 = { name="Kichü" culture=naga }
+2141020 = { name="Longchar" culture=naga }
+2141021 = { name="Swü" culture=naga }
+2141022 = { name="Aier" culture=naga }
+2141023 = { name="Tetseo" culture=naga }
+2141024 = { name="Solo" culture=naga }
+2141025 = { name="Achümi" culture=naga }
+2141026 = { name="Mashangva" culture=naga }
+2141027 = { name="Longkümer" culture=naga }
+2141028 = { name="Pamei" culture=naga }
+2141029 = { name="Malangmei" culture=naga }
+2141030 = { name="Khaplang" culture=naga }
+2141031 = { name="Phizo" culture=naga }
+2141032 = { name="Chishi Swu" culture=naga }
+2141033 = { name="Yanthan" culture=naga }
+2141034 = { name="Anungla" culture=naga }
+2141035 = { name="Üsou" culture=naga }
+2141036 = { name="Sekhose" culture=naga }
+2141037 = { name="Kijungluba" culture=naga }
+2141038 = { name="Angami" culture=naga }
+2141039 = { name="Golmei" culture=naga }
+2141040 = { name="Khathing" culture=naga }
+2141041 = { name="Liezietsü" culture=naga }
+2141042 = { name="Kilemsungla" culture=naga }
+2141043 = { name="Lotha" culture=naga }
+2141044 = { name="Sothü" culture=naga }
+2141045 = { name="Haralu" culture=naga }
+2141046 = { name="Pame" culture=naga }
+2141047 = { name="Kevichüsa" culture=naga }
+2141048 = { name="Sema" culture=naga }
+2141049 = { name="Shishak" culture=naga }
+2141050 = { name="Kengurüse" culture=naga }
+2141051 = { name="Phesao" culture=naga }
+2141052 = { name="Vero" culture=naga }
+2141053 = { name="Chang" culture=naga }
+2141054 = { name="Gangmei" culture=naga }
+2141055 = { name="Zinyü" culture=naga }
+2141056 = { name="Konyak" culture=naga }
+2141057 = { name="Naing" culture=naga }
+2141058 = { name="Ngalung" culture=naga }
+2141059 = { name="Jamir" culture=naga }
+2141060 = { name="Kamson" culture=naga }
+2141061 = { name="Keishing" culture=naga }
+2141062 = { name="Rajkumar" culture=naga }
+2141063 = { name="Rio" culture=naga }
+2141064 = { name="Sakhrie" culture=naga }
+2141065 = { name="Pusa" culture=naga }
+2141066 = { name="Vitsü" culture=naga }
+2141067 = { name="Neikha" culture=naga }
+2141068 = { name="Shaiza" culture=naga }
+2141069 = { name="Kashung" culture=naga }
+2141070 = { name="Iralu" culture=naga }
+2141071 = { name="Raihao" culture=naga }
+2141072 = { name="Sangtam" culture=naga }
+2141073 = { name="Rungsung" culture=naga }
+2141074 = { name="Yhome" culture=naga }
+2141075 = { name="Zeliang" culture=naga }
+2141076 = { name="Rangkau" culture=naga }
+2141077 = { name="Lungalang" culture=naga }
+
+2142000 = { name="Choudhuri" culture=varendri }
+2142001 = { name="Ali" culture=varendri }
+2142002 = { name="Khan" culture=varendri }
+2142003 = { name="Shah" culture=varendri }
+2142004 = { name="Mirja" culture=varendri }
+2142005 = { name="Rahman" culture=varendri }
+2142006 = { name="Haque" culture=varendri }
+2142007 = { name="Zia" culture=varendri }
+2142008 = { name="Majumdar" culture=varendri }
+2142009 = { name="Ershad" culture=varendri }
+2142010 = { name="Roy" culture=varendri }
+2142011 = { name="Putul" culture=varendri }
+2142012 = { name="Khandakar" culture=varendri }
+2142013 = { name="Akbar" culture=varendri }
+2142014 = { name="Mondol" culture=varendri }
+2142015 = { name="Azam" culture=varendri }
+2142016 = { name="Beg" culture=varendri }
+2142017 = { name="Hasan" culture=varendri }
+2142018 = { name="Hossein" culture=varendri }
+2142019 = { name="Anam" culture=varendri }
+2142020 = { name="Bagchi" culture=varendri }
+2142021 = { name="Bishwash" culture=varendri }
+2142022 = { name="Mia" culture=varendri }
+2142023 = { name="Rabbi" culture=varendri }
+2142024 = { name="Habib" culture=varendri }
+2142025 = { name="Alam" culture=varendri }
+2142026 = { name="Azmin" culture=varendri }
+2142027 = { name="Prodhan" culture=varendri }
+2142028 = { name="Rabbani" culture=varendri }
+2142029 = { name="Azad" culture=varendri }
+2142030 = { name="Kazi" culture=varendri }
+2142031 = { name="Mahmud" culture=varendri }
+2142032 = { name="Tuku" culture=varendri }
+2142033 = { name="Murshid" culture=varendri }
+2142034 = { name="Palak" culture=varendri }
+2142035 = { name="Sarkar" culture=varendri }
+2142036 = { name="Ahmed" culture=varendri }
+2142037 = { name="Azim" culture=varendri }
+2142038 = { name="Helal" culture=varendri }
+2142039 = { name="Sardar" culture=varendri }
+2142040 = { name="Naju" culture=varendri }
+2142041 = { name="Alamgir" culture=varendri }
+2142042 = { name="Jalil" culture=varendri }
+2142043 = { name="Mintu" culture=varendri }
+2142044 = { name="Pintu" culture=varendri }
+2142045 = { name="Pramanik" culture=varendri }
+2142046 = { name="Akhtar" culture=varendri }
+2142047 = { name="Sadik" culture=varendri }
+2142048 = { name="Siddiqui" culture=varendri }
+2142049 = { name="Sonar" culture=varendri }
+2142050 = { name="Tarafder" culture=varendri }
+2142051 = { name="Bulbul" culture=varendri }
+2142052 = { name="Dara" culture=varendri }
+2142053 = { name="Ghosh" culture=varendri }
+2142054 = { name="Mollah" culture=varendri }
+2142055 = { name="Hossain" culture=varendri }
+2142056 = { name="Bakul" culture=varendri }
+2142057 = { name="Kishore" culture=varendri }
+2142058 = { name="Maitra" culture=varendri }
+2142059 = { name="Liton" culture=varendri }
+2142060 = { name="Mita" culture=varendri }
+2142061 = { name="Mustafa" culture=varendri }
+2142062 = { name="Mridha" culture=varendri }
+2142063 = { name="Nodi" culture=varendri }
+2142064 = { name="Rafiqui" culture=varendri }
+2142065 = { name="Rabi" culture=varendri }
+2142066 = { name="Shanto" culture=varendri }
+2142067 = { name="Sozib" culture=varendri }
+2142068 = { name="Sumon" culture=varendri }
+2142069 = { name="Tunu" culture=varendri }
+2142070 = { name="Zaman" culture=varendri }
+2142071 = { name="Kumu" culture=varendri }
+2142072 = { name="Hazra" culture=varendri }
+2142073 = { name="Shimul" culture=varendri }
+2142074 = { name="Nabi" culture=varendri }
+2142075 = { name="Qais" culture=varendri }
+2142076 = { name="Shahriar" culture=varendri }
+2142077 = { name="Tipu" culture=varendri }
+2142078 = { name="Afaz" culture=varendri }
+2142079 = { name="Bashar" culture=varendri }
+2142080 = { name="Bhandari" culture=varendri }
+2142081 = { name="Bharuka" culture=varendri }
+2142082 = { name="Chaki" culture=varendri }
+2142083 = { name="Elias" culture=varendri }
+2142084 = { name="Dina" culture=varendri }
+2142085 = { name="Tubra" culture=varendri }
+2142086 = { name="Talukder" culture=varendri }
+2142087 = { name="Mukul" culture=varendri }
+2142088 = { name="Shilpi" culture=varendri }
+
+2143000 = { name="Chawngliana" culture=mizo }
+2143001 = { name="Thansanga" culture=mizo }
+2143002 = { name="Chawngthu" culture=mizo }
+2143003 = { name="Hmar" culture=mizo }
+2143004 = { name="Hnamte" culture=mizo }
+2143005 = { name="Keivom" culture=mizo }
+2143006 = { name="Khiangte" culture=mizo }
+2143007 = { name="Khawlhring" culture=mizo }
+2143008 = { name="Pachuau" culture=mizo }
+2143009 = { name="Kamlova" culture=mizo }
+2143010 = { name="Colney" culture=mizo }
+2143011 = { name="Ralte" culture=mizo }
+2143012 = { name="Fanai" culture=mizo }
+2143013 = { name="Liana" culture=mizo }
+2143014 = { name="Sailo" culture=mizo }
+2143015 = { name="Chawngthu" culture=mizo }
+2143016 = { name="Royte" culture=mizo }
+2143017 = { name="Renthlei" culture=mizo }
+2143018 = { name="Pachuau" culture=mizo }
+2143019 = { name="Sailo" culture=mizo }
+2143020 = { name="Thapa" culture=mizo }
+2143021 = { name="Ruala" culture=mizo }
+2143022 = { name="Chhangte" culture=mizo }
+2143023 = { name="Chakma" culture=mizo }
+2143024 = { name="Bualchhuak" culture=mizo }
+2143025 = { name="Chalchung" culture=mizo }
+2143026 = { name="Lsza" culture=mizo }
+2143027 = { name="Ngente" culture=mizo }
+2143028 = { name="Chhakchhuak" culture=mizo }
+2143029 = { name="Zadeng" culture=mizo }
+2143030 = { name="Zova" culture=mizo }
+2143031 = { name="Hauzel" culture=mizo }
+2143032 = { name="Tlau" culture=mizo }
+2143033 = { name="Ruati" culture=mizo }
+
+2144000 = { name="Thakur" culture=rarhi }
+2144001 = { name="Sen" culture=rarhi }
+2144002 = { name="Banerjee" culture=rarhi }
+2144003 = { name="Dev" culture=rarhi }
+2144004 = { name="Bose" culture=rarhi }
+2144005 = { name="Bandyopadhyay" culture=rarhi }
+2144006 = { name="Bhattacharya" culture=rarhi }
+2144007 = { name="Chaudhuri" culture=rarhi }
+2144008 = { name="Ray" culture=rarhi }
+2144009 = { name="Dutt" culture=rarhi }
+2144010 = { name="Chakrabarty" culture=rarhi }
+2144011 = { name="Chatterjee" culture=rarhi }
+2144012 = { name="Das" culture=rarhi }
+2144013 = { name="Datta" culture=rarhi }
+2144014 = { name="Ghose" culture=rarhi }
+2144015 = { name="Gayen" culture=rarhi }
+2144016 = { name="Majudar" culture=rarhi }
+2144017 = { name="Mitra" culture=rarhi }
+2144018 = { name="Khastgir" culture=rarhi }
+2144019 = { name="Nandy" culture=rarhi }
+2144020 = { name="Sarkar" culture=rarhi }
+2144021 = { name="Rao" culture=rarhi }
+2144022 = { name="Bhaduri" culture=rarhi }
+2144023 = { name="Chattopadhyay" culture=rarhi }
+2144024 = { name="Banerjee" culture=rarhi }
+2144025 = { name="Basu" culture=rarhi }
+2144026 = { name="Palit" culture=rarhi }
+2144027 = { name="Bhanja" culture=rarhi }
+2144028 = { name="Biswas" culture=rarhi }
+2144029 = { name="Pal" culture=rarhi }
+2144030 = { name="Kumar" culture=rarhi }
+2144031 = { name="Mukhopadhyay" culture=rarhi }
+2144032 = { name="Adhikari" culture=rarhi }
+2144033 = { name="Gangopadhyay" culture=rarhi }
+2144034 = { name="Goswami" culture=rarhi }
+2144035 = { name="Batabyal" culture=rarhi }
+2144036 = { name="Banerjee" culture=rarhi }
+2144037 = { name="Sanyal" culture=rarhi }
+2144038 = { name="Dasgupta" culture=rarhi }
+2144039 = { name="Dev Barma" culture=rarhi }
+2144040 = { name="Mandal" culture=rarhi }
+2144041 = { name="Sengupta" culture=rarhi }
+2144042 = { name="Shankar" culture=rarhi }
+2144043 = { name="Sharma" culture=rarhi }
+2144044 = { name="Baij" culture=rarhi }
+2144045 = { name="Banik" culture=rarhi }
+2144046 = { name="Gupta" culture=rarhi }
+2144047 = { name="Dinda" culture=rarhi }
+2144048 = { name="Hore" culture=rarhi }
+2144049 = { name="Maity" culture=rarhi }
+2144050 = { name="Mondal" culture=rarhi }
+2144051 = { name="Pramanik" culture=rarhi }
+2144052 = { name="Raha" culture=rarhi }
+2144053 = { name="Bagchi" culture=rarhi }
+2144054 = { name="Debnath" culture=rarhi }
+2144055 = { name="Lahiri" culture=rarhi }
+2144056 = { name="Sinha" culture=rarhi }
+2144057 = { name="Bardhan" culture=rarhi }
+2144058 = { name="Mullick" culture=rarhi }
+2144059 = { name="Debroy" culture=rarhi }
+2144060 = { name="Ghatak" culture=rarhi }
+2144061 = { name="Bhowmick" culture=rarhi }
+2144062 = { name="Guha" culture=rarhi }
+2144063 = { name="Nag" culture=rarhi }
+2144064 = { name="Talukdar" culture=rarhi }
+2144065 = { name="Som" culture=rarhi }
+2144066 = { name="Aich" culture=rarhi }
+2144067 = { name="Boral" culture=rarhi }
+2144068 = { name="Ghoshal" culture=rarhi }
+2144069 = { name="Kalyanpur" culture=rarhi }
+2144070 = { name="Singh" culture=rarhi }
+2144071 = { name="Malhotra" culture=rarhi }
+2144072 = { name="Sana" culture=rarhi }
+2144073 = { name="Yagnik" culture=rarhi }
+2144074 = { name="Supriya" culture=rarhi }
+2144075 = { name="Malakar" culture=rarhi }
+2144076 = { name="Roychaudhuri" culture=rarhi }
+2144077 = { name="De" culture=rarhi }
+2144078 = { name="Nagchaudhuri" culture=rarhi }
+2144079 = { name="Munindra" culture=rarhi }
+2144080 = { name="Kanungo" culture=rarhi }
+2144081 = { name="Sasmal" culture=rarhi }
+2144082 = { name="Saha" culture=rarhi }
+2144083 = { name="Brahmachari" culture=rarhi }
+2144084 = { name="Munshi" culture=rarhi }
+2144085 = { name="Sikdar" culture=rarhi }
+2144086 = { name="Ghosemajumdar" culture=rarhi }
+2144087 = { name="Bachhu" culture=rarhi }
+2144088 = { name="Dey" culture=rarhi }
+2144089 = { name="Barua" culture=rarhi }
+2144090 = { name="Bhaumik" culture=rarhi }
+2144091 = { name="Barman" culture=rarhi }
+2144092 = { name="Dhar" culture=rarhi }
+2144093 = { name="Halder" culture=rarhi }
+2144094 = { name="Manna" culture=rarhi }
+2144095 = { name="Karmakar" culture=rarhi }
+
+2145000 = { name="Yunus" culture=vangiya }
+2145001 = { name="Muhammad" culture=vangiya }
+2145002 = { name="Mia" culture=vangiya }
+2145003 = { name="Khan" culture=vangiya }
+2145004 = { name="Ali" culture=vangiya }
+2145005 = { name="Ibrahim" culture=vangiya }
+2145006 = { name="Ahmed" culture=vangiya }
+2145007 = { name="Azraf" culture=vangiya }
+2145008 = { name="Pathagar" culture=vangiya }
+2145009 = { name="Mohiuddin" culture=vangiya }
+2145010 = { name="Karim" culture=vangiya }
+2145011 = { name="Khadim" culture=vangiya }
+2145012 = { name="Marvi" culture=vangiya }
+2145013 = { name="Mumin" culture=vangiya }
+2145014 = { name="Rashid" culture=vangiya }
+2145015 = { name="Basir" culture=vangiya }
+2145016 = { name="Zafar" culture=vangiya }
+2145017 = { name="Monwar" culture=vangiya }
+2145018 = { name="Golam" culture=vangiya }
+2145019 = { name="Rabbani" culture=vangiya }
+2145020 = { name="Syed" culture=vangiya }
+2145021 = { name="Niloy" culture=vangiya }
+2145022 = { name="Hossain" culture=vangiya }
+2145023 = { name="Azad" culture=vangiya }
+2145024 = { name="Kazi" culture=vangiya }
+2145025 = { name="Khalid" culture=vangiya }
+2145026 = { name="Jahan" culture=vangiya }
+2145027 = { name="Raihan" culture=vangiya }
+2145028 = { name="Kaiser" culture=vangiya }
+2145029 = { name="Hayat" culture=vangiya }
+2145030 = { name="Al Hasan" culture=vangiya }
+2145031 = { name="Roshan" culture=vangiya }
+2145032 = { name="Mahmud" culture=vangiya }
+2145033 = { name="Alam" culture=vangiya }
+2145034 = { name="Kabir" culture=vangiya }
+2145035 = { name="Kushol" culture=vangiya }
+2145036 = { name="Shuvoo" culture=vangiya }
+2145037 = { name="Thakur" culture=vangiya }
+2145038 = { name="Abedin" culture=vangiya }
+2145039 = { name="Sultan" culture=vangiya }
+2145040 = { name="Salam" culture=vangiya }
+2145041 = { name="Bulbul" culture=vangiya }
+2145042 = { name="Ishrak" culture=vangiya }
+2145043 = { name="Jalil" culture=vangiya }
+2145044 = { name="Ajmal" culture=vangiya }
+2145045 = { name="Rahim" culture=vangiya }
+2145046 = { name="Amjad" culture=vangiya }
+2145047 = { name="Hashem" culture=vangiya }
+2145048 = { name="Masud" culture=vangiya }
+2145049 = { name="Bulu" culture=vangiya }
+2145050 = { name="Mahbub" culture=vangiya }
+2145051 = { name="Khandakar" culture=vangiya }
+2145052 = { name="Sheikh" culture=vangiya }
+2145053 = { name="Kamal" culture=vangiya }
+2145054 = { name="Mujib" culture=vangiya }
+2145055 = { name="Ershad" culture=vangiya }
+2145056 = { name="Kiron" culture=vangiya }
+2145057 = { name="Farruque" culture=vangiya }
+2145058 = { name="Quadir" culture=vangiya }
+2145059 = { name="Shamsher" culture=vangiya }
+2145060 = { name="Musa" culture=vangiya }
+2145061 = { name="Qureshi" culture=vangiya }
+2145062 = { name="Sobhan" culture=vangiya }
+2145063 = { name="Wali" culture=vangiya }
+2145064 = { name="Siraj" culture=vangiya }
+2145065 = { name="Kibria" culture=vangiya }
+2145066 = { name="Muhith" culture=vangiya }
+2145067 = { name="Faruki" culture=vangiya }
+2145068 = { name="Islam" culture=vangiya }
+2145069 = { name="Mokammel" culture=vangiya }
+2145070 = { name="Yusuf" culture=vangiya }
+2145071 = { name="Talukdar" culture=vangiya }
+2145072 = { name="Anam" culture=vangiya }
+2145073 = { name="Asad" culture=vangiya }
+2145074 = { name="Lohani" culture=vangiya }
+2145075 = { name="Saha" culture=vangiya }
+2145076 = { name="Samad" culture=vangiya }
+2145077 = { name="Shahriar" culture=vangiya }
+2145078 = { name="Aziz" culture=vangiya }
+2145079 = { name="Amir" culture=vangiya }
+2145080 = { name="Shishir" culture=vangiya }
+2145081 = { name="Bachhu" culture=vangiya }
+2145082 = { name="Jahangir" culture=vangiya }
+2145083 = { name="Barua" culture=vangiya }
+2145084 = { name="Haque" culture=vangiya }
+2145085 = { name="Rafa" culture=vangiya }
+2145086 = { name="Sumon" culture=vangiya }
+2145087 = { name="Tuhin" culture=vangiya }
+2145088 = { name="Alim" culture=vangiya }
+2145089 = { name="Biswajit" culture=vangiya }
+2145090 = { name="Nandi" culture=vangiya }
+2145091 = { name="Rahmatullah" culture=vangiya }
+2145092 = { name="Wahid" culture=vangiya }
+2145093 = { name="Habib" culture=vangiya }
+2145094 = { name="Iqbal" culture=vangiya }
+2145095 = { name="Musharraf" culture=vangiya }
+2145096 = { name="Tawab" culture=vangiya }
+2145097 = { name="Purkayastha" culture=vangiya }
+2145098 = { name="Barbhuiya" culture=vangiya }
+2145099 = { name="Abdullah" culture=vangiya }
+2145100 = { name="Zakaria" culture=vangiya }
+2145101 = { name="Abid" culture=vangiya }
+2145102 = { name="Anwar" culture=vangiya }
+2145103 = { name="Qamar" culture=vangiya }
+2145104 = { name="Ashraful" culture=vangiya }
+2145105 = { name="Bashar" culture=vangiya }
+2145106 = { name="Papon" culture=vangiya }
+2145107 = { name="Riyad" culture=vangiya }
+2145108 = { name="Nabi" culture=vangiya }
+2145109 = { name="Salim" culture=vangiya }
+2145110 = { name="Akhtar" culture=vangiya }
+
+2146000 = { name="Zakaria" culture=mozabite }
+2146001 = { name="Cheikh" culture=mozabite }
+2146002 = { name="Sliman" culture=mozabite }
+2146003 = { name="Bayyûd" culture=mozabite }
+2146004 = { name="Atfayich" culture=mozabite }
+2146005 = { name="Khyatt" culture=mozabite }
+2146006 = { name="Khobzi" culture=mozabite }
+2146007 = { name="El Marmouri" culture=mozabite }
+2146008 = { name="Benbitour" culture=mozabite }
+2146009 = { name="Boughali" culture=mozabite }
+2146010 = { name="Fexxar" culture=mozabite }
+2146011 = { name="Allal" culture=mozabite }
+2146012 = { name="El Mecheria" culture=mozabite }
+2146013 = { name="Ghoul" culture=mozabite }
+2146014 = { name="El Warglani" culture=mozabite }
+2146015 = { name="Elkourthi" culture=mozabite }
+2146016 = { name="Yahia" culture=mozabite }
+2146017 = { name="ammi Ahmed" culture=mozabite }
+2146018 = { name="Nounou" culture=mozabite }
+2146019 = { name="Djelmami" culture=mozabite }
+2146020 = { name="Bouamer" culture=mozabite }
+2146021 = { name="Debbouz" culture=mozabite }
+2146022 = { name="Brahim" culture=mozabite }
+2146023 = { name="Amarani" culture=mozabite }
+2146024 = { name="Si Yusef" culture=mozabite }
+2146025 = { name="Hakimi" culture=mozabite }
+2146026 = { name="Chorfi" culture=mozabite }
+2146027 = { name="Reguieg" culture=mozabite }
+2146028 = { name="Atmani" culture=mozabite }
+2146029 = { name="Cerif" culture=mozabite }
+2146030 = { name="Baazizi" culture=mozabite }
+2146031 = { name="Boudiaf" culture=mozabite }
+2146032 = { name="Fehim" culture=mozabite }
+2146033 = { name="Adli" culture=mozabite }
+2146034 = { name="Djemaâ" culture=mozabite }
+2146035 = { name="Aïssat" culture=mozabite }
+2146036 = { name="Boukermouche" culture=mozabite }
+2146037 = { name="Boukhari" culture=mozabite }
+2146038 = { name="Terbagou" culture=mozabite }
+2146039 = { name="Abaza" culture=mozabite }
+2146040 = { name="Abismail" culture=mozabite }
+2146041 = { name="Chaich" culture=mozabite }
+2146042 = { name="Mehaya" culture=mozabite }
+2146043 = { name="Mosbah" culture=mozabite }
+2146044 = { name="Cheikhbelhadj" culture=mozabite }
+2146045 = { name="Babaz" culture=mozabite }
+2146046 = { name="Allout" culture=mozabite }
+2146047 = { name="Sofghalem" culture=mozabite }
+2146048 = { name="Hajbrahim" culture=mozabite }
+2146049 = { name="Babandjar" culture=mozabite }
+2146050 = { name="Abbouna" culture=mozabite }
+2146051 = { name="Garadi" culture=mozabite }
+2146052 = { name="Oulad Dadda" culture=mozabite }
+2146053 = { name="Hammou" culture=mozabite }
+2146054 = { name="Bencheikh" culture=mozabite }
+2146055 = { name="Laaziz" culture=mozabite }
+2146056 = { name="Ben Sidi" culture=mozabite }
+2146057 = { name="Bedjah" culture=mozabite }
+2146058 = { name="Bahmani" culture=mozabite }
+2146059 = { name="Abouloula" culture=mozabite }
+2146060 = { name="Ben Smail" culture=mozabite }
+2146061 = { name="Oudjana" culture=mozabite }
+2146062 = { name="Bouabboun" culture=mozabite }
+2146063 = { name="Hamdi" culture=mozabite }
+2146064 = { name="Mliki" culture=mozabite }
+2146065 = { name="Ouaali" culture=mozabite }
+2146066 = { name="Elong" culture=mozabite }
+2146067 = { name="Zekri" culture=mozabite }
+
+2147000 = { name="Basumatary" culture=boro }
+2147001 = { name="Brahma" culture=boro }
+2147002 = { name="Boro" culture=boro }
+2147003 = { name="Kumar" culture=boro }
+2147004 = { name="Bwiswmuthiary" culture=boro }
+2147005 = { name="Mohilary" culture=boro }
+2147006 = { name="Mushahary" culture=boro }
+2147007 = { name="Narzary" culture=boro }
+2147008 = { name="Deori" culture=boro }
+2147009 = { name="Swargiary" culture=boro }
+2147010 = { name="Kherkatary" culture=boro }
+2147011 = { name="Mech" culture=boro }
+2147012 = { name="Chainary" culture=boro }
+2147013 = { name="Hazowary" culture=boro }
+2147014 = { name="Lahary" culture=boro }
+2147015 = { name="Bargoyari" culture=boro }
+2147016 = { name="Daimary" culture=boro }
+2147017 = { name="Goyary" culture=boro }
+2147018 = { name="Bidai" culture=boro }
+2147019 = { name="Rebgon" culture=boro }
+2147020 = { name="Rwmwi" culture=boro }
+2147021 = { name="Sinaihang" culture=boro }
+2147022 = { name="Wary" culture=boro }
+2147023 = { name="Kachary" culture=boro }
+2147024 = { name="Gahai" culture=boro }
+2147025 = { name="Gayary" culture=boro }
+2147026 = { name="Ramchiary" culture=boro }
+2147027 = { name="Narjinary" culture=boro }
+2147028 = { name="Bargayary" culture=boro }
+2147029 = { name="Owary" culture=boro }
+2147030 = { name="Kochary" culture=boro }
+2147031 = { name="Iswary" culture=boro }
+2147032 = { name="Rabha" culture=boro }
+2147033 = { name="Khakhlary" culture=boro }
+2147034 = { name="Chakraborty" culture=boro }
+2147035 = { name="Hainari" culture=boro }
+
+2148000 = { name="Deb" culture=tripuri }
+2148001 = { name="Debbarma" culture=tripuri }
+2148002 = { name="Datta" culture=tripuri }
+2148003 = { name="Dutta" culture=tripuri }
+2148004 = { name="Jamatia" culture=tripuri }
+2148005 = { name="Das" culture=tripuri }
+2148006 = { name="Murasing" culture=tripuri }
+2148007 = { name="Hrangkhawl" culture=tripuri }
+2148008 = { name="Reang" culture=tripuri }
+2148009 = { name="Koloi" culture=tripuri }
+2148010 = { name="Halam" culture=tripuri }
+2148011 = { name="Riyan" culture=tripuri }
+2148012 = { name="Tripura" culture=tripuri }
+2148013 = { name="Manikya" culture=tripuri }
+2148014 = { name="Burman" culture=tripuri }
+2148015 = { name="Kuki" culture=tripuri }
+2148016 = { name="Barman" culture=tripuri }
+2148017 = { name="Maity" culture=tripuri }
+2148018 = { name="Chowdhury" culture=tripuri }
+2148019 = { name="Chakraborty" culture=tripuri }
+2148020 = { name="Urang" culture=tripuri }
+2148021 = { name="Saha" culture=tripuri }
+2148022 = { name="Bairagi" culture=tripuri }
+2148023 = { name="Sinha" culture=tripuri }
+2148024 = { name="Chakma" culture=tripuri }
+2148025 = { name="Debnath" culture=tripuri }
+2148026 = { name="Bhowmik" culture=tripuri }
+2148027 = { name="Malakar" culture=tripuri }
+2148028 = { name="Sarkar" culture=tripuri }
+2148029 = { name="Kar" culture=tripuri }
+2148030 = { name="Nath" culture=tripuri }
+2148031 = { name="Pal" culture=tripuri }
+2148032 = { name="Shil" culture=tripuri }
+2148033 = { name="Biswas" culture=tripuri }
+2148034 = { name="Miah" culture=tripuri }
+2148035 = { name="Sutradhar" culture=tripuri }
+2148036 = { name="Nama" culture=tripuri }
+2148037 = { name="Banik" culture=tripuri }
+2148038 = { name="Rudrapal" culture=tripuri }
+2148039 = { name="Mag" culture=tripuri }
+2148040 = { name="Sharma" culture=tripuri }
+2148041 = { name="Munda" culture=tripuri }
+2148042 = { name="Dhar" culture=tripuri }
+2148043 = { name="Kalai" culture=tripuri }
+2148044 = { name="Marak" culture=tripuri }
+2148045 = { name="Tanti" culture=tripuri }
+
+2149000 = { name="Konsam" culture=meitei }
+2149001 = { name="Hijam" culture=meitei }
+2149002 = { name="Sawaijam" culture=meitei }
+2149003 = { name="Maibam" culture=meitei }
+2149004 = { name="Elangbam" culture=meitei }
+2149005 = { name="Ngangom" culture=meitei }
+2149006 = { name="Angom" culture=meitei }
+2149007 = { name="Nameirakpam" culture=meitei }
+2149008 = { name="Laishram" culture=meitei }
+2149009 = { name="Mairembam" culture=meitei }
+2149010 = { name="Longjam" culture=meitei }
+2149011 = { name="Wahengbam" culture=meitei }
+2149012 = { name="Radhanibod" culture=meitei }
+2149013 = { name="Okram" culture=meitei }
+2149014 = { name="Nongthombam" culture=meitei }
+2149015 = { name="Saikhom" culture=meitei }
+2149016 = { name="Thounaojam" culture=meitei }
+2149017 = { name="Rajkumar" culture=meitei }
+2149018 = { name="Chingsubam" culture=meitei }
+2149019 = { name="Omendro" culture=meitei }
+2149020 = { name="Gokul" culture=meitei }
+2149021 = { name="Homendro" culture=meitei }
+2149022 = { name="Nameirakpam" culture=meitei }
+2149023 = { name="Gurumayum" culture=meitei }
+2149024 = { name="Paonam" culture=meitei }
+2149025 = { name="Heirang" culture=meitei }
+2149026 = { name="Choudhury" culture=meitei }
+2149027 = { name="Leishangthem" culture=meitei }
+2149028 = { name="Amakcham" culture=meitei }
+2149029 = { name="Ningombam" culture=meitei }
+2149030 = { name="Elangbam" culture=meitei }
+2149031 = { name="Oinam" culture=meitei }
+2149032 = { name="Phanjoubam" culture=meitei }
+2149033 = { name="Ibungo" culture=meitei }
+2149034 = { name="Shougrakpam" culture=meitei }
+2149035 = { name="Salam" culture=meitei }
+2149036 = { name="Irom" culture=meitei }
+2149037 = { name="Mangsatabam" culture=meitei }
+2149038 = { name="Thokchom" culture=meitei }
+2149039 = { name="Lairenjam" culture=meitei }
+2149040 = { name="Nongmaithem" culture=meitei }
+2149041 = { name="Kshetrimayum" culture=meitei }
+2149042 = { name="Hamom" culture=meitei }
+2149043 = { name="Moirangthem" culture=meitei }
+2149044 = { name="Huirem" culture=meitei }
+2149045 = { name="Laimayum" culture=meitei }
+2149046 = { name="Irungbam" culture=meitei }
+2149047 = { name="Potsangbam" culture=meitei }
+2149048 = { name="Thoudam" culture=meitei }
+2149049 = { name="Thangjam" culture=meitei }
+2149050 = { name="Thiyam" culture=meitei }
+2149051 = { name="Kangabam" culture=meitei }
+2149052 = { name="Taibangjam" culture=meitei }
+2149053 = { name="Khwairakpam" culture=meitei }
+2149054 = { name="Waikhom" culture=meitei }
+2149055 = { name="Ashangbam" culture=meitei }
+
+2150000 = { name="Šavrda" culture=moravian }
+2150001 = { name="Nohavica" culture=moravian }
+2150002 = { name="Kropácz" culture=moravian }
+2150003 = { name="Burian" culture=moravian }
+
+2151001 = { name="Azmanov" culture=pomak }
+2151002 = { name="Dyakov" culture=pomak }
+2151003 = { name="Balyov" culture=pomak }
+2151004 = { name="Bayaltsaliev" culture=pomak }
+2151005 = { name="Bogdanov" culture=pomak }
+2151006 = { name="Bogrov" culture=pomak }
+2151007 = { name="Vokil" culture=pomak }
+2151008 = { name="Gelkanov" culture=pomak }
+2151009 = { name="Geshov" culture=pomak }
+2151010 = { name="Zolotov" culture=pomak }
+2151011 = { name="Kapitanov" culture=pomak }
+2151012 = { name="Moravenov" culture=pomak }
+2151013 = { name="Nedkov" culture=pomak }
+2151014 = { name="Samardzhiev" culture=pomak }
+2151015 = { name="Soymirov" culture=pomak }
+2151016 = { name="Stanimirov" culture=pomak }
+2151022 = { name="Stanislavov" culture=pomak }
+2151018 = { name="Tomagionov" culture=pomak }
+2151019 = { name="Toshkov" culture=pomak }
+2151020 = { name="Hadzhivalchev" culture=pomak }
+2151021 = { name="Tsamblak" culture=pomak }
+2151022 = { name="Chalakov" culture=pomak }
+2151023 = { name="Shakhanov" culture=pomak }
+2151024 = { name="Shishmanov" culture=pomak }
+2151025 = { name="Angelkov" culture=pomak }
+2151026 = { name="Biolchev" culture=pomak }
+2151027 = { name="Bitrakov" culture=pomak }
+2151028 = { name="Blagoev" culture=pomak }
+2151029 = { name="Venedikov" culture=pomak }
+2151030 = { name="Ginov" culture=pomak }
+2151031 = { name="Gologanov" culture=pomak }
+2151032 = { name="Grupchev" culture=pomak }
+2151033 = { name="Daskalov" culture=pomak }
+2151034 = { name="Derebanov" culture=pomak }
+2151035 = { name="Dzherov" culture=pomak }
+2151036 = { name="Dichov" culture=pomak }
+2151037 = { name="Dudulov" culture=pomak }
+2151038 = { name="Zaneshev" culture=pomak }
+2151039 = { name="Izmirliev" culture=pomak }
+2151040 = { name="Yosifov" culture=pomak }
+2151041 = { name="Kanazirev" culture=pomak }
+2151042 = { name="Kapchev" culture=pomak }
+2151043 = { name="Ketskarov" culture=pomak }
+2151044 = { name="Kiselinchev" culture=pomak }
+2151045 = { name="Kolchagov" culture=pomak }
+2151046 = { name="Kushev" culture=pomak }
+2151047 = { name="Lozanchev" culture=pomak }
+2151048 = { name="Miladinov" culture=pomak }
+2151049 = { name="Minov" culture=pomak }
+2151050 = { name="Mishaykov" culture=pomak }
+2151051 = { name="Molerov" culture=pomak }
+2151052 = { name="Oshavkov" culture=pomak }
+2151053 = { name="Renzov" culture=pomak }
+2151054 = { name="Robev" culture=pomak }
+2151055 = { name="Sarafov" culture=pomak }
+2151056 = { name="Spostranov" culture=pomak }
+2151057 = { name="Todev" culture=pomak }
+2151058 = { name="Tapkov" culture=pomak }
+2151059 = { name="Filipov" culture=pomak }
+2151060 = { name="Frachkov" culture=pomak }
+2151061 = { name="Shavkulov" culture=pomak }
+2151062 = { name="Yanchulev" culture=pomak }
+2151063 = { name="Yaranov" culture=pomak }
+2151064 = { name="Abadzhiev" culture=pomak }
+2151065 = { name="Avramov" culture=pomak }
+2151066 = { name="Agura" culture=pomak }
+2151067 = { name="Andreev" culture=pomak }
+2151068 = { name="Arabadzhiev" culture=pomak }
+2151069 = { name="Arnaudov" culture=pomak }
+2151070 = { name="Asenov" culture=pomak }
+2151071 = { name="Atanasov" culture=pomak }
+2151072 = { name="Balyov" culture=pomak }
+2151073 = { name="Bogoev" culture=pomak }
+2151074 = { name="Bozhinov" culture=pomak }
+2151075 = { name="Bonev" culture=pomak }
+2151076 = { name="Borisov" culture=pomak }
+2151077 = { name="Boyadzhiev" culture=pomak }
+2151078 = { name="Vanchev" culture=pomak }
+2151079 = { name="Vachkov" culture=pomak }
+2151080 = { name="Veleshki" culture=pomak }
+2151081 = { name="Velchev" culture=pomak }
+2151082 = { name="Videnov" culture=pomak }
+2151083 = { name="Vityakov" culture=pomak }
+2151084 = { name="Valkanov" culture=pomak }
+2151085 = { name="Valchev" culture=pomak }
+2151086 = { name="Gemedzhiev" culture=pomak }
+2151087 = { name="Georgiev" culture=pomak }
+2151088 = { name="Gerasimov" culture=pomak }
+2151089 = { name="Gotsev" culture=pomak }
+2151090 = { name="Grigoriev" culture=pomak }
+2151091 = { name="Grigorov" culture=pomak }
+2151092 = { name="Gruev" culture=pomak }
+2151093 = { name="Grancharov" culture=pomak }
+2151094 = { name="Galabov" culture=pomak }
+2151095 = { name="Gyuzelev" culture=pomak }
+2151096 = { name="Damyanov" culture=pomak }
+2151097 = { name="Dermendzhiev" culture=pomak }
+2151098 = { name="Dimitrov" culture=pomak }
+2151099 = { name="Dobrev" culture=pomak }
+2151100 = { name="Dochev" culture=pomak }
+2151101 = { name="Draganov" culture=pomak }
+2151102 = { name="Dyulgerov" culture=pomak }
+2151103 = { name="Dyankov" culture=pomak }
+2151104 = { name="Ermenkov" culture=pomak }
+2151105 = { name="Zhelev" culture=pomak }
+2151106 = { name="Zhendov" culture=pomak }
+2151107 = { name="Zhivkov" culture=pomak }
+2151108 = { name="Ivanov" culture=pomak }
+2151109 = { name="Ivkov" culture=pomak }
+2151110 = { name="Indzhov" culture=pomak }
+2151111 = { name="Ignatov" culture=pomak }
+2151012 = { name="Yordanov" culture=pomak }
+2151113 = { name="Kamenov" culture=pomak }
+2151114 = { name="Kantardzhiev" culture=pomak }
+2151115 = { name="Karavelov" culture=pomak }
+2151116 = { name="Karadzhov" culture=pomak }
+2151117 = { name="Karaslavov" culture=pomak }
+2151118 = { name="Karastoyanov" culture=pomak }
+2151119 = { name="Kasabov" culture=pomak }
+2151120 = { name="Kenderov" culture=pomak }
+2151121 = { name="Keskinov" culture=pomak }
+2151122 = { name="Kovachev" culture=pomak }
+2151123 = { name="Kodzhov" culture=pomak }
+2151124 = { name="Konstantinov" culture=pomak }
+2151125 = { name="Kotev" culture=pomak }
+2151126 = { name="Kochev" culture=pomak }
+2151127 = { name="Krastev" culture=pomak }
+2151128 = { name="Kuyumdzhiev" culture=pomak }
+2151129 = { name="Kanev" culture=pomak }
+2151130 = { name="Kyosev" culture=pomak }
+2151131 = { name="Lefterov" culture=pomak }
+2151132 = { name="Mavrodiev" culture=pomak }
+2151133 = { name="Marangozov" culture=pomak }
+2151134 = { name="Marinov" culture=pomak }
+2151135 = { name="Minkov" culture=pomak }
+2151136 = { name="Minchev" culture=pomak }
+2151137 = { name="Mitev" culture=pomak }
+2151138 = { name="Mikhaylov" culture=pomak }
+2151139 = { name="Mikhov" culture=pomak }
+2151140 = { name="Mladenov" culture=pomak }
+2151141 = { name="Moskov" culture=pomak }
+2151142 = { name="Nalbantov" culture=pomak }
+2151143 = { name="Nikolov" culture=pomak }
+2151144 = { name="Obreshkov" culture=pomak }
+2151145 = { name="Orakchiev" culture=pomak }
+2151146 = { name="Orlov" culture=pomak }
+2151147 = { name="Panayotov" culture=pomak }
+2151148 = { name="Panitsa" culture=pomak }
+2151210 = { name="Panchev" culture=pomak }
+2151149 = { name="Petkov" culture=pomak }
+2151211 = { name="Petrov" culture=pomak }
+2151212 = { name="Peshev" culture=pomak }
+2151213 = { name="Plachkov" culture=pomak }
+2151214 = { name="Popov" culture=pomak }
+2151215 = { name="Parvanov" culture=pomak }
+2151216 = { name="Radev" culture=pomak }
+2151217 = { name="Radoslavov" culture=pomak }
+2151218 = { name="Rusev" culture=pomak }
+2151219 = { name="Semerdzhiev" culture=pomak }
+2151160 = { name="Simeonov" culture=pomak }
+2151161 = { name="Sokolov" culture=pomak }
+2151162 = { name="Solakov" culture=pomak }
+2151163 = { name="Spasov" culture=pomak }
+2151164 = { name="Stavrev" culture=pomak }
+2151165 = { name="Staykov" culture=pomak }
+2151166 = { name="Stamov" culture=pomak }
+2151167 = { name="Stanev" culture=pomak }
+2151168 = { name="Stanishev" culture=pomak }
+2151169 = { name="Stoykov" culture=pomak }
+2151170 = { name="Stoychev" culture=pomak }
+2151171 = { name="Stoyanov" culture=pomak }
+2151172 = { name="Sabev" culture=pomak }
+2151173 = { name="Takev" culture=pomak }
+2151174 = { name="Tanev" culture=pomak }
+2151175 = { name="Tanchev" culture=pomak }
+2151176 = { name="Terziev" culture=pomak }
+2151177 = { name="Todorov" culture=pomak }
+2151178 = { name="Tomov" culture=pomak }
+2151179 = { name="Tonchev" culture=pomak }
+2151180 = { name="Toshev" culture=pomak }
+2151181 = { name="Trifonov" culture=pomak }
+2151182 = { name="Tudzharov" culture=pomak }
+2151183 = { name="Tunchev" culture=pomak }
+2151184 = { name="Fuchedzhiev" culture=pomak }
+2151185 = { name="Hadzhiev" culture=pomak }
+2151186 = { name="Hitrov" culture=pomak }
+2151187 = { name="Hristov" culture=pomak }
+2151188 = { name="Chakarov" culture=pomak }
+2151189 = { name="Chervenkov" culture=pomak }
+2151190 = { name="Chernev" culture=pomak }
+2151191 = { name="Cheshmedzhiev" culture=pomak }
+2151192 = { name="Shaldev" culture=pomak }
+2151193 = { name="Sheytanov" culture=pomak }
+2151194 = { name="Shtarbanov" culture=pomak }
+2151195 = { name="Yavorov" culture=pomak }
+2151196 = { name="Derzhanski" culture=pomak }
+2151197 = { name="Baltin" culture=pomak }
 
 2201000 = { name="Lewis" culture=welsh 
 	coat_of_arms = {
@@ -33575,7 +35660,7 @@ coat_of_arms = {
 7000084 = { name="Ferreira" culture=azorean }
 7000085 = { name="Magalhães" culture=azorean }
 7000086 = { name="Aviz" culture=azorean }
-7000087 = { name="Abril" culture=azorean }
+7000087 = { name="Abril" culture=azorean used_for_random=no }
 7000088 = { name="Henriques" culture=azorean }
 7000089 = { name="Monjardino" culture=azorean }
 7000088 = { name="Drumond" culture=azorean }
@@ -33812,6 +35897,20 @@ coat_of_arms = {
 		layer = {
 			texture = 0
 			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+7100166 = { name="Dolapli" culture=toros_mountain 
+	coat_of_arms = {
+		religion = sunni
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 27
 			emblem = 0
 			color = 0
 			color = 0

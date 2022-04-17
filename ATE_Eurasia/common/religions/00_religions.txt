@@ -1169,6 +1169,8 @@ christian = {
 		allow_rivermovement = yes
 		priests_can_inherit = no
 		priests_can_marry = yes
+		female_temple_holders=yes
+		feminist = yes
 		
 		religious_clothing_head = 20
 		religious_clothing_priest = 20
@@ -1473,6 +1475,7 @@ christian = {
 		intermarry = catholic
 		intermarry = orthodox
 		intermarry = miaphysite
+		intermarry = druze
 
 	}
 	pravoslavie = {  #Russian Centric "Papal" Orthodoxy
@@ -1885,6 +1888,7 @@ vernacular = {
 		female_temple_holders = yes
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
+		allow_viking_invasion = yes
 		
 		intermarry = folketro
 		intermarry = fornsed
@@ -1918,7 +1922,6 @@ vernacular = {
 		allow_looting = yes 
 		allow_rivermovement = yes 
 		max_consorts = 3 
-		allow_in_ruler_designer = no
 		can_demand_religious_conversion = no
 		
 		religious_clothing_head = 3
@@ -2315,7 +2318,7 @@ muslim = {
 		uses_decadence = no
 		uses_jizya_tax = no
 		can_demand_religious_conversion = no
-		max_wives = 3
+		max_wives = 1
 		peace_piety_gain = 0.5
 		hard_to_convert=yes
 		psc_marriage = no
@@ -2359,7 +2362,6 @@ muslim = {
 		graphical_culture = muslimgfx
 		
 		icon = 97
-		heresy_icon = 98
 		
 		color = { 0 108 53 }
 		
@@ -2675,38 +2677,7 @@ muslim = {
 	}
 	barelvi = {
 		graphical_culture = muslimgfx
-		
-		parent = deobandi #switch this later
 
-		icon = 117
-		heresy_icon = 118
-		
-		color = { 192 192 192 }
-		
-		high_god_name = GOD_ALLAH
-		
-		god_names = {
-			GOD_ALLAH NINTY_NINE_NAMED_GOD GOD_THE_GREATEST GOD_THE_MERCIFUL
-		}
-		evil_god_names = {
-			GOD_SHAYTAN GOD_IBLIS
-		}
-		
-		scripture_name = THE_QURAN
-		priest_title = IMAM
-		crusade_name = JIHAD
-		uses_decadence = no
-		max_wives = 4
-		can_call_crusade = yes
-		can_grant_invasion_cb = yes
-		psc_marriage = no
-		
-		religious_clothing_head = 10
-		religious_clothing_priest = 10
-	}
-	zikri = {
-		graphical_culture = muslimgfx
-				
 		icon = 119
 		heresy_icon = 120
 		
@@ -2802,6 +2773,8 @@ universalist = {
 		priests_can_marry = yes
 		allow_rivermovement = yes
 		
+		intermarry = druze
+		
 		
 	}
 	cao_dai = {
@@ -2874,6 +2847,13 @@ islamosyncretic = {
 			GOD_SHAYTAN
 		} 
 		
+		intermarry = yazidi
+		intermarry = ahl_e_haqq
+		intermarry = alevi
+		intermarry = alawi
+		intermarry = nestorian
+		intermarry = bahai
+		
 		scripture_name = THE_EPISTLES_OF_WISDOM
 		
 		color = { 0.0 0.9 0.4 }
@@ -2911,6 +2891,8 @@ islamosyncretic = {
 		allow_rivermovement = yes
 		can_demand_religious_conversion = no
 		hard_to_convert = yes
+		
+		intermarry = druze
 			
 	}	
 	ahl_e_haqq = {
@@ -2939,6 +2921,8 @@ islamosyncretic = {
 		allow_rivermovement = yes
 		can_demand_religious_conversion = no
 		hard_to_convert = yes
+		
+		intermarry = druze
 			
 	}
 	alawi = {
@@ -2966,7 +2950,43 @@ islamosyncretic = {
 		can_demand_religious_conversion = no
 		hard_to_convert = yes
 		
+		intermarry = druze
 		
+		
+	}
+	
+	alevi = {
+		graphical_culture = muslimgfx
+		
+		icon = 98
+		
+		color = { 105 139 40 }
+		
+		high_god_name = GOD_AL_HAQQ
+		
+		god_names = {
+			GOD_ALLAH GOD_AL_HAQQ GOD_TANRI GOD_MUHAMMAD GOD_ALI 
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		scripture_name = THE_QURAN
+		priest_title = DEDE
+		crusade_name = JIHAD
+		uses_decadence = no
+		max_wives = 1
+		uses_jizya_tax = no
+		can_demand_religious_conversion = no
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		feminist = yes
+		psc_marriage = no
+		hard_to_convert=yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
 	}
 }
 
@@ -3127,13 +3147,13 @@ old_world_cultist_group = {
 		
 		color = { 237 27 36 }
 		
-		high_god_name = GOD_ALLAH
+		high_god_name = GOD_NAHDA
 		
 		god_names = {
-			GOD_ALLAH NINTY_NINE_NAMED_GOD GOD_THE_GREATEST GOD_THE_MERCIFUL
+			THE_PROPHET THE_POET THE_WARRIOR THE_SCHOLAR
 		}
 		evil_god_names = {
-			GOD_SHAYTAN GOD_IBLIS
+			THE_DIVIDER THE_FALSE_KINGS THE_WESTWARD_EAGLE
 		}
 		
 		scripture_name = THE_QURAN

@@ -4,39 +4,33 @@ south_slavic = {
 	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
 	graphical_cultures = { easterngfx }
 
-	radnici = {
-		graphical_cultures = { croatsouthslavicgfx }
-		
-		color = { 1.0 0.2 0.4 }
-
-		male_names = {
-			Borna Fran Matija Saša Slava Vanja Adam Adrijan Aleksandar Alen Aljoša Ambrozije Andjelko Andrej Andrija Andro Ante Anto Anton Antonijo Antun Aron Bartol Berislav Bernard Beran Blago Blaženko Bogdan Bojan Boris Borislav Borivoj Borko Boško Božidar Branimir Branislav Branko Bruno Burad Chedomir Dado Dalibor Damir Damjan Daniel Danijel Danilo Darijo David Davor Dejan Denis Dinko Dino Dobrilo Dobroslav Domagoj Dominik Dorijan Dragan Dragomir Dragoslav Dragutin Draško Dražen Dubravko Duje Djuradj Djuro Dušan Edi Eduard Emanuel Emil Erik Ervin Eugen Fabijan Ferdinand Ferdo Filip Florijan Frane Franjo Gabrijel Gojko Goran Gordan Grga Grgur Henrik Hrvoje Igor Ilija Ivan Ivica Ivo Izak Jadran Jadranko Jakov Jakša Janko Javor Jere Jerko Jeronim Josip Joško Joso Jozo Juraj Jure Jurica Juro Karlo Klaudio Krešimir Krešo Kristijan Krsto Kruno Krunoslav Ladislav Lazar Leo Leon Ljuban Ljubo Ljubomir Ljudevit Lovre Lovrenco Lovro Lucijan Luka Marijan Marijo Marin Marinko Mario Marjan Marko Martin Mate Matej Mateo Matko Mato Mihael Miho Mijo Milan Mile Milenko Milivoj Miljenko Milorad Miloš Miodrag Mirko Miro Miroslav Miško Mislav Mladen Nebojša Nediljko Nenad Neno Neven Nikica Niko Nikola Nikša Ninoslav Noa Noško Ognjan Ognjen Oliver Paško Patrik Pavao Pavle Pavo Pejo Perica Pero Petar Predrag Rade Radoslav Radovan Rajko Ranko Ratimir Ratko Renato Robert Roko Roman Sandi Sanel Sanjin Sebastijan Silvijo Šime Šimo Šimun Siniša Slaven Slavko Slavomir Slobodan Stanislav Stanko Stevo Stipan Stipe Stipo Stjepan Stojan Tadija Teo Teodor Tihomir Tin Toma Tomica Tomislav Tomo Toni Valent Valter Vedran Velibor Velimir Veljko Veselko Vid Viktor Vilim Vilko Vinko Vitomir Vjeko Vjekoslav Vladimir Vladislav Vlado Vlaho Vlatko Žarko Zdenko Zdeslav Zdravko Želimir Željezan Željko Živko Zlatan Zlatko Zoran Zrinko Zvonimir Zvonko
-		}
-		female_names = {
-			Borna Fran Matija Saša Slava Vanja Adrijana Agata Agneza Aleksandra Amalija Ana Anamarija Anastazija Andja Andjela Andrea Andreja Andrijana Anica Anita Anja Anka Ankica Antea Antica Antonela Antonia Arijana Bara Barbara Barica Bernarda Biljana Biserka Blanka Blaženka Bojana Borna Božena Božica Branimira Branka Brankica Brigita Bruna Cecilija Cvita Dajana Daliborka Damira Danica Danijela Daria Darija Darinka Davorka Dejana Dobrila Dora Doris Dorotea Draga Dragana Draženka Dubravka Dunja Djurdja Dušana Dušanka Edita Ela Elizabeta Ema Emilija Ena Erika Eva Finka Franka Gabriela Goranka Gordana Grozdana Hana Helena Hermina Ilinka Irena Iskra Iva Ivana Ivka Ivona Jadranka Jaga Jagoda Jana Janja Jasmina Jasminka Jasna Jela Jelena Jelica Jelka Jolanda Josipa Jozefina Jožica Julija Julijana Karla Karmela Karmen Karolina Kata Katarina Katica Klara Klaudija Klementina Koraljka Kornelija Krešimira Kristina Ksenija Lada Lana Laura Lea Lidija Ljerka Ljilja Ljiljana Ljuba Ljubica Lovorka Lucija Magda Magdalena Maja Majda Manda Mara Margareta Marica Marija Marijana Marijeta Marina Marinela Marinka Marta Martina Maša Mihaela Mila Milana Milanka Milena Milica Milka Mira Mirela Mirica Mirjana Mirna Mirta Mladenka Mojca Morana Nada Natalija Nataša Neda Nedeljka Nediljka Nela Nensi Nevena Nevenka Nika Nikolina Nina Nives Olivera Ozana Patricija Paula Pavica Petra Radmila Radojka Radoslava Rahela Ranka Renata Romana Rosa Rozalija Ruža Ružica Sabina Sanda Sandra Sanela Sanja Sanjica Sara Saša Senka Silvija Sladjana Slava Slavica Slavka Slobodanka Smiljana Snježana Sofija Sonja Spomenka Stana Stanislava Stanka Staša Štefanija Štefica Stoja Stošija Sunchana Suzana Svjetlana Tajana Tamara Tanja Tatjana Tea Tena Terezija Tihana Tijana Tina Tomislava Tonka Valentina Valerija Vanja Vedrana Vera Verica Veronika Vesna Viktorija Vilma Vinka Višnja Vjekoslava Vjera Vladimira Vlasta Vlatka Vriskaslava Žaklina Žana Zdenka Zdravka Željka Živka Zlata Zlatica Zoja Zora Zorana Zorka Zrinka Zvjezdana Zvonimira 
-		}
-		
-		from_dynasty_prefix = "od "
-
-		modifier = default_culture_modifier
-
-		pat_grf_name_chance = 25
-		mat_grf_name_chance = 25
-		father_name_chance = 10
-		
-		pat_grm_name_chance = 25
-		mat_grm_name_chance = 25
-		mother_name_chance = 10
-		
-	}
-	
 	croatian = {
 		graphical_cultures = { croatsouthslavicgfx }
 		
 		color = { 0.2 0.1 0.9 }
 
 		male_names = {
-			Borna Fran Matija Saša Slava Vanja Adam Adrijan Aleksandar Alen Aljoša Ambrozije Andjelko Andrej Andrija Andro Ante Anto Anton Antonijo Antun Aron Bartol Berislav Bernard Beran Blago Blaženko Bogdan Bojan Boris Borislav Borivoj Borko Boško Božidar Branimir Branislav Branko Bruno Burad Chedomir Dado Dalibor Damir Damjan Daniel Danijel Danilo Darijo David Davor Dejan Denis Dinko Dino Dobrilo Dobroslav Domagoj Dominik Dorijan Dragan Dragomir Dragoslav Dragutin Draško Dražen Dubravko Duje Djuradj Djuro Dušan Edi Eduard Emanuel Emil Erik Ervin Eugen Fabijan Ferdinand Ferdo Filip Florijan Frane Franjo Gabrijel Gojko Goran Gordan Grga Grgur Henrik Hrvoje Igor Ilija Ivan Ivica Ivo Izak Jadran Jadranko Jakov Jakša Janko Javor Jere Jerko Jeronim Josip Joško Joso Jozo Juraj Jure Jurica Juro Karlo Klaudio Krešimir Krešo Kristijan_Christian Krsto Kruno Krunoslav Ladislav Lazar Leo Leon Ljuban Ljubo Ljubomir Ljudevit Lovre Lovrenco Lovro Lucijan Luka Marijan Marijo Marin Marinko Mario Marjan Marko Martin Mate Matej Mateo Matko Mato Mihael Miho Mijo Milan Mile Milenko Milivoj Miljenko Milorad Miloš Miodrag Mirko Miro Miroslav Miško Mislav Mladen Nebojša Nediljko Nenad Neno Neven Nikica Niko Nikola Nikša Ninoslav Noa Noško Ognjan Ognjen Oliver Paško Patrik Pavao Pavle Pavo Pejo Perica Pero Petar Predrag Rade Radoslav Radovan Rajko Ranko Ratimir Ratko Renato Robert Roko Roman Sandi Sanel Sanjin Sebastijan Silvijo Šime Šimo Šimun Siniša Slaven Slavko Slavomir Slobodan Stanislav Stanko Stevo Stipan Stipe Stipo Stjepan Stojan Tadija Teo Teodor Tihomir Tin Toma Tomica Tomislav Tomo Toni Valent Valter Vedran Velibor Velimir Veljko Veselko Vid Viktor Vilim Vilko Vinko Vitomir Vjeko Vjekoslav Vladimir Vladislav Vlado Vlaho Vlatko Žarko Zdenko Zdeslav Zdravko Želimir Željezan Željko Živko Zlatan Zlatko Zoran Zrinko Zvonimir Zvonko
+			Adam Adrijan Aleksandar Alen Aljoša Ambrozije Andjelko Andrej Andrija Andro Ante Anto Anton Antonijo Antun Aron 
+			Bartol Berislav Bernard Beran Blago Blaženko Bogdan Bojan Boris Borislav Borivoj Borko Boško Božidar Branimir Borna Branislav Branko Bruno Burad 
+			Chedomir 
+			Dado Dalibor Damir Damjan Daniel Danijel Danilo Darijo David Davor Dejan Denis Dinko Dino Dobrilo Dobroslav Domagoj Dominik Dorijan Dragan Dragomir Dragoslav Dragutin Draško Dražen Dubravko Duje Djuradj Djuro Dušan 
+			Edi Eduard Emanuel Emil Erik Ervin Eugen 
+			Fabijan Ferdinand Ferdo Filip Florijan Fran Franjo 
+			Gabrijel Gojko Goran Gordan Grga Grgur 
+			Henrik Hrvoje 
+			Igor Ilija Ivan Ivica Ivo Izak 
+			Jadran Jadranko Jakov Jakša Janko Javor Jere Jerko Jeronim Josip Joško Joso Jozo Juraj Jure Jurica Juro Karlo 
+			Klaudio Krešimir Krešo Kristijan_Christian Krsto Kruno Krunoslav 
+			Ladislav Lazar Leo Leon Ljuban Ljubo Ljubomir Ljudevit Lovre Lovrenco Lovro Lucijan Luka 
+			Marijan Marijo Marin Marinko Mario Marjan Marko Martin Mate Matej Mateo Matija Matko Mato Mihael Miho Mijo Milan Mile Milenko Milivoj Miljenko Milorad Miloš Miodrag Mirko Miro Miroslav Miško Mislav Mladen 
+			Nebojša Nediljko Nenad Neno Neven Nikica Niko Nikola Nikša Ninoslav Noa Noško 
+			Ognjan Ognjen Oliver 
+			Paško Patrik Pavao Pavle Pavo Pejo Perica Pero Petar Predrag 
+			Rade Radoslav Radovan Rajko Ranko Ratimir Ratko Renato Robert Roko Roman 
+			Sandi Sanel Sanjin Saša Sebastijan Silvijo Šime Šimo Šimun Siniša Slava Slaven Slavko Slavomir Slobodan Stanislav Stanko Stevo Stipan Stipe Stipo Stjepan Stojan
+			Tadija Teo Teodor Tihomir Tin Toma Tomica Tomislav Tomo Toni 
+			Valent Valter Vanja Vedran Velibor Velimir Veljko Veselko Vid Viktor Vilim Vilko Vinko Vitomir Vjeko Vjekoslav Vladimir Vladislav Vlado Vlaho Vlatko 
+			Žarko Zdenko Zdeslav Zdravko Želimir Željezan Željko Živko Zlatan Zlatko Zoran Zrinko Zvonimir Zvonko
 		}
 		female_names = {
 			Borna Fran Matija Saša Slava Vanja Adrijana Agata Agneza Aleksandra Amalija Ana Anamarija Anastazija Andja Andjela Andrea Andreja Andrijana Anica Anita Anja Anka Ankica Antea Antica Antonela Antonia Arijana Bara Barbara Barica Bernarda Biljana Biserka Blanka Blaženka Bojana Borna Božena Božica Branimira Branka Brankica Brigita Bruna Cecilija Cvita Dajana Daliborka Damira Danica Danijela Daria Darija Darinka Davorka Dejana Dobrila Dora Doris Dorotea Draga Dragana Draženka Dubravka Dunja Djurdja Dušana Dušanka Edita Ela Elizabeta Ema Emilija Ena Erika Eva Finka Franka Gabriela Goranka Gordana Grozdana Hana Helena Hermina Ilinka Irena Iskra Iva Ivana Ivka Ivona Jadranka Jaga Jagoda Jana Janja Jasmina Jasminka Jasna Jela Jelena Jelica Jelka Jolanda Josipa Jozefina Jožica Julija Julijana Karla Karmela Karmen Karolina Kata Katarina Katica Klara Klaudija Klementina Koraljka Kornelija Krešimira Kristina Ksenija Lada Lana Laura Lea Lidija Ljerka Ljilja Ljiljana Ljuba Ljubica Lovorka Lucija Magda Magdalena Maja Majda Manda Mara Margareta Marica Marija Marijana Marijeta Marina Marinela Marinka Marta Martina Maša Mihaela Mila Milana Milanka Milena Milica Milka Mira Mirela Mirica Mirjana Mirna Mirta Mladenka Mojca Morana Nada Natalija Nataša Neda Nedeljka Nediljka Nela Nensi Nevena Nevenka Nika Nikolina Nina Nives Olivera Ozana Patricija Paula Pavica Petra Radmila Radojka Radoslava Rahela Ranka Renata Romana Rosa Rozalija Ruža Ružica Sabina Sanda Sandra Sanela Sanja Sanjica Sara Saša Senka Silvija Sladjana Slava Slavica Slavka Slobodanka Smiljana Snježana Sofija Sonja Spomenka Stana Stanislava Stanka Staša Štefanija Štefica Stoja Stošija Sunchana Suzana Svjetlana Tajana Tamara Tanja Tatjana Tea Tena Terezija Tihana Tijana Tina Tomislava Tonka Valentina Valerija Vanja Vedrana Vera Verica Veronika Vesna Viktorija Vilma Vinka Višnja Vjekoslava Vjera Vladimira Vlasta Vlatka Vriskaslava Žaklina Žana Zdenka Zdravka Željka Živka Zlata Zlatica Zoja Zora Zorana Zorka Zrinka Zvjezdana Zvonimira 
@@ -345,6 +339,77 @@ south_slavic = {
 			Valentina Valeriya_Valeria Vasilisa Vasilka Velichka Veneta Vesela Viktoriya_Victoria Violeta_Violet Vyara_Vera 
 			Yanislava Yordanka Yulia_Julia Yuliana_Juliana 
 			Zdravka Zara Zhasmina_Jasmine Zhelyazka Zhenya Zhivka Zlatka Zlatomira Zorka Zornitsa Zoya_Zoe 
+		}
+		
+		from_dynasty_prefix = "ot "
+		
+		male_patronym = "ov"
+		female_patronym = "ova"
+		prefix = no
+
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+	}
+	
+	pomak = {
+		graphical_cultures = { serbsouthslavicgfx }
+		
+		color = { 0.13 0.29 0.13 }
+
+		male_names = {
+			Abdulkadir Abdullah Abdüllatif Abdulmecit_Abdulmajid Abdurrahman Adem_Adam Adnan Aghustos_Augustus Ahmet_Ahmed Aleksandar_Alexander Aleksi_Alexis Ali Alim Alusian Andrey_Andrew Andronik_Andronicus Anton_Anthony Aron_Aaron Arslan_Arslan Asaf Asen Asparuh Atanas_Athanasius Avitohol Aydin Aziz 
+			Bahadir_Baatar Bahattin Bashar Bedrettin Bekir_Bakr Besim Blagovest Blagoy Bogomil Bogoris Boril Boris Borislav Boyan Boyko Bozhidar 
+			Celal_Jalal Celalettin Cemal_Jamal Cemil_Jamil Cüneyd 
+			Damyan_Damian Daniel David_David Davut_David Devlet Deyan Dimitar_Demetrius Diyan Dobrin Dobromir Dragan Dragomir Durmush 
+			Ekber_Akbar Ekin Ekrem_Akram Emil Emin_Amin Emir Emrullah Enes Enver_Anwar Evgeni_Eugene Evlogi_Euloge Evtim_Euthymius Eymen Eyüp_Job 
+			Fatih Faysal Fehmi Ferdinand Ferhat Fethullah Fevzi Filip_Philip Fruzhin 
+			Galin Galip Gavril_Gabriel Gazi Gerasim_Gerasimos Gospodin Gostun Grozdan 
+			Hakan Halil Hamza Harun_Aaron Hasan Hashim Haydar Hayrettin Hayri Hilmi Hüsamettin Hüseyin_Hussein Ibrahim_Abraham 
+			Idris_Idris Ignat_Ignatius Ilhan Iliya_Elijah Ilyas Imran Ioan_John Irfan Irnik Isa_Jesus Iskren Ismail_Ishmael Ivan_John Ivaylo Ivelin Ivo 
+			Kaliman Kalin Kaloyan Kamen Kamil Kardam Kasim Kazim Kemal Kerim_Karim Kimon Kolyo Komnin Konstantin_Constantine Kormesiy Kormisosh Kosta_Constans Kostadin_Constantine Krasen Krasimir Krum Kutbeddin 
+			Lazar_Lazarus Luchezar Lütfi Lütfullah Lyuben Lyubomir Lyudmil 
+			Mahir Mahmut_Mahmud Maksim_Maximus Malamir Malin Mansur Marian Marko_Marcus Matey_Matthew Mehmet Ali Mehmet Emin Mehmet_Muhammad Mesut_Masud Mevlüt Mikhail_Michael Milen Miroslav Mitko_Demetrius Mitso Mladen Momchil Moysey_Moses Mücahit Muhammad_Muhammad Muharrem Muhittin Müjdat Murat_Murad Murtaza Mustafa 
+			Nail Nasko Nayden Necdet Necmettin_Nejmeddin Nedelcho Nedko Nedyalko Neptün Nihat Niyazi Nurettin Nuri 
+			Ognyan Omurtag Orlin Osman_Uthman 
+			Panayot Parvan Pavlin Petko Plamen Presiyan 
+			Radko Radomir Radoslav Radostin Rafet Ramazan_Ramadan Rangel Recep Remzi Resul Ridvan_Ridwan Riza Roman Rosen Ruhi Rumen Ruslan 
+			Saadettin Sadi Safa Saim Sebahattin Selahattin Selim_Salim Selman Sergey_Sergius Sevar Seyfettin Shaban Shahin Shakir Shemsettin Sherafettin Sherif_Sharif Shevket Shishman Slavko Smilets Spas Sratsimir Stanimir Stiliyan Stoyan Süleyman_Solomon Svetlozar Svetoslav_Sviatoslav Svilen 
+			Tahir Talip_Talib Tarik Telerig Telets Tervel Tevfik_Tawfik Tihomir Timur Toktu Trayan_Trajan Trifon Tsanko Tsvetan Tsvetko Tsvetomir Tsvyatko 
+			Valentin Valeri_Valerius Valko Vasil_Basil Velichko Venelin Ventsislav_Wenceslaus Veselin Viktor_Victor Vineh Vladimir Vladislav 
+			Yahya_John Yakup_James Yanislav Yasen Yasin Yavor Yordan_Jordan Yosif_Joseph Yulian_Julian Yunus_Jonah Yuri_George Yusuf_Joseph 
+			Zafer_Zafar Zakhari_Zachary Zdravko Zekeriya_Zachary Zeki Zeynel Zeynel Abidin Zhelyazko Zhelyu Zhivko Zlatan Zlatomir 
+		}
+		female_names = {
+			Adile Afife Alba Albena Aleksandra_Alexandra Aleyna Aliye Alize Almila Ana_Anne Anastasia Aneliya Aneta Anna_Anne Antoaneta_Antonia Antoniya_Antonia Asiye Asya Atanaska Ayshe_Aisha Ayshegül Ayshen Ayshenur Azra 
+			Bahar Banu Bedia Begüm Behiye Belgin Beloslava Beste Bestemsu Beyza Bige Birce Birsel Bisera Bistra Blagovesta Bogdana Boryana Boyana Boyana Boyka Büshra 
+			Canan Candan Cansu Celile Cemre Ceyda Ceylan 
+			Darina Defne Demet Derya Desislava Detelina Deyana Dilyana Diyana_Diana Dobromira Doroslava Dragomira Dürriye 
+			Ekaterina_Catherine Ekin Elif Emine Enise Esma Esra Evdokiya_Eudokia Evelina_Evelyne Evgeniya_Eugenia Evrem 
+			Fadime_Fatima Fahire Farah Fatma_Fatima Ferhan Feride Figen Filipa_Philippa Filiz Fitnat Fulya Füsun 
+			Gabriela_Gabrielle Galina Gergana_Georgia Greta Grozdana Gül Gülay Gülbahar Güldeniz Gülgün Gülriz Gülru Gülseren Gülshah 
+			Habibe Hale Halide Hamide Hamiyet Hande Hanife Hare Hatice Hayriye Hayrünnisa Huriye Hürrem 
+			Ikbal Ilay Ilayda Iliana Ina Ipar Ipek Irem Irina_Irene Ishil Iskra Itir Ivana_Joan Ivanina_Joan Ivanka_Joan Ivelina Ivet_Yvette Izel 
+			Kalina Kameliya_Camelia Kamile Katre Keratsa Kerime Kezban Kostadinka_Constantina Krasimira Kremena Kübra 
+			Latife Lazarina Leila Lena Lerna Lina Lora_Laura Lütfiye Lyuba Lyubomira Lyubov Lyudmila 
+			Makbule Malina Margarita_Margaret Maria_Mary Mariela Marina Mariya_Mary Martina Maya Mebrure Mehtap Melek Melike Melisa Merve Mesude Mevlüde Miglena Mihri Mila Milena Mina Miroslava Mladena Muazzez Müberra Müfide Muhibbe Münire Mürshide 
+			Nadezhda Nadya Nazmiye Neda Nedyalka Nehir Neshe Nesrin Nevena Nezihe Nikoleta_Nicolette Nikolina Nilüfer Nina Nora Nur Nuran 
+			Ognyana Okyanus Olga Olimpia_Olympia Orkide Özlem 
+			Palmiye Penka Petka Pinar Plamena 
+			Rabia Radina Radka Radoslava Radostina Radosveta Ralitsa Rana Rayna_Regina Refika Remziye Reneta_Renata Reyhan Roza_Rose Rukiye Rumena Rümeysa 
+			Saadet Sakine Selma Sema Semiha Semra Sevdalina Shefika Sherife Silviya_Silvia Slavka Sofiya_Sophia Stanimira Stefana_Stephania Stela_Stella Stoyanka Süyümbike_Süyümbike Svetla 
+			Tamara Tanya Tatyana_Tatiana Temenuzhka Tina Trayana Trendafila Tsanka Tsveta Tsvetomira 
+			Ümmi Ümran 
+			Valentina Valeriya_Valeria Vasilisa Vasilka Velichka Veneta Venüs Vesela Viktoriya_Victoria Violeta_Violet Vyara_Vera 
+			Yanislava Yasmin_Jasmine Yeliz Yildiz Yordanka Yulia_Julia Yuliana_Juliana 
+			Zara Zdravka Zehra_Zohra Zekiye Zeynep_Zeynab Zhasmina_Jasmine Zhelyazka Zhenya Zhivka Zlatka Zlatomira Zorka Zornitsa Zoya_Zoe 
 		}
 		
 		from_dynasty_prefix = "ot "

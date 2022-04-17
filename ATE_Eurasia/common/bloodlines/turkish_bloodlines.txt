@@ -1,0 +1,54 @@
+demetrios_ghazi_bloodline = { #Blood of Demetrios Ghazi
+	christian_church_opinion = 10
+	muslim_opinion = 10
+	inheritance = patrilineal
+	global_revolt_risk = -0.05
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_sunni
+	flags = { historical_bloodline }
+}
+
+sarikaya_bloodline = { #Sarikaya Blood
+	monthly_character_prestige = 0.2
+	stewardship = 2
+	global_tax_modifier = 0.05
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_sunni
+	flags = { historical_bloodline }
+}
+
+ottoman_emperor_male = {
+	monthly_character_prestige = 0.25
+	muslim_opinion = 5
+	ruhi_opinion = 5
+	naqshbandi_opinion = 10
+	inheritance = patrilineal
+	allow_bastards = yes
+	flags = { bloodline_faster_ottoman created_bloodline }
+	picture = GFX_bloodlines_symbol_sunni
+	active = {
+		OR = {
+			religion_group = muslim
+			culture = turkish
+		}
+	}
+}
+
+ottoman_emperor_female = {
+	monthly_character_prestige = 0.25
+	muslim_opinion = 5
+	ruhi_opinion = 5
+	naqshbandi_opinion = 10
+	inheritance = matrilineal
+	allow_bastards = yes
+	flags = { bloodline_faster_ottoman created_bloodline }
+	picture = GFX_bloodlines_symbol_sunni
+	active = {
+		OR = {
+			religion_group = muslim
+			culture = turkish
+		}
+	}
+}
+

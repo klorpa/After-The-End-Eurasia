@@ -66,6 +66,20 @@ government_flavor = {
 	}
 }
 government_flavor = {
+	name = gov_reindeer_herder
+	graphics = GFX_reindeer_herders
+	priority = 5
+	trigger = {
+		AND = {
+			government = nomadic_tribal_government
+			OR = {
+				culture = sami
+				culture_group = uralic_west
+			}
+		}
+	}
+}
+government_flavor = {
 	name = gov_swaraj
 	graphics = GFX_evt_yoga_meditation
 	priority = 5
